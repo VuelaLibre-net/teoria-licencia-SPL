@@ -1,0 +1,38 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Conocimientos Generales de la Aeronave"
+  author: "VuelaLibre.net"
+  chapters:
+    - index.qmd
+    - cap01-índice-de-ilustraciones.qmd
+    - cap02-estructura.qmd
+    - cap03-diseño-de-sistemas-cargas-y-tensiones.qmd
+    - cap04-tren-de-aterrizaje-ruedas-neumáticos-y-frenos.qmd
+    - cap05-masa-y-centro-de-gravedad.qmd
+    - cap06-mandos-de-vuelo.qmd
+    - cap07-instrumentos.qmd
+    - cap08-montaje-de-la-aeronave-conexión-de-superficies-de-control.qmd
+    - cap09-manuales-y-documentos.qmd
+    - cap10-aeronavegabilidad-y-mantenimiento.qmd
+    - cap11-estructura-motores-y-hélices.qmd
+    - cap12-sistemas-de-lastre-con-agua.qmd
+    - cap13-baterías.qmd
+    - cap14-paracaídas-de-emergencia.qmd
+    - cap15-equipo-de-evacuación-de-emergencia.qmd
+    - cap16-glosario-de-términos.qmd
+    - cap17-bibliografía-y-fuentes.qmd
+
+format:
+  typst:
+    toc: true
+    number-sections: true
+    margin:
+      top: 2.5cm
+      bottom: 2.5cm
+      left: 3cm
+      right: 3cm
+  epub:
+    toc: true

@@ -1,0 +1,13 @@
+# Índice de ilustraciones
+
+list-of::image[]
+
+
+
+****
+
+Un planeador no puede pedir más altura si la estimación fue mal. No puede esperar si la posición es incierta. No tiene margen para el "más o menos" cuando la térmica no aparece y el aeródromo alternativo está al límite del alcance.
+
+Siete capítulos cubren desde el sistema de coordenadas hasta los servicios ATS en ruta, pasando por la cartografía, la brújula, la estima y el GPS: las herramientas que garantizan que siempre sabes dónde estás —y dónde estarás.
+
+La navegación en vuelo a vela no es saber dónde estás. Es saber siempre dónde estarás.

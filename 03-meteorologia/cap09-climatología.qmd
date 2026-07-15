@@ -1,0 +1,104 @@
+# Climatología
+
+España ocupa una posición geográfica privilegiada para el vuelo a vela: orografía compleja,
+contrastes térmicos extremos entre mesetas y litoral, y mar perimetral en tres frentes.
+En este capítulo aprenderás qué define el clima aeronáutico de la Península Ibérica en cada
+estación, cómo actúan los vientos locales en los valles y qué papel juega la Baja Térmica
+Peninsular como motor de las mejores jornadas de cross-country estival.
+
+## Circulación general de la atmósfera
+
+Antes de entrar en la climatología local, conviene situar el contexto planetario. La atmósfera terrestre no circula al azar: el calor solar, la rotación de la Tierra y la diferencia de temperatura entre el ecuador y los polos organizan el flujo en tres bandas de circulación por hemisferio, llamadas **celdas de circulación general**.
+
+* **Celda de Hadley** (área tropical, 0–30° de latitud): El aire ecuatorial, muy calentado, asciende formando la **Zona de Convergencia Intertropical (ZCIT)**, la banda de inestabilidad más activa del planeta. En altura fluye hacia los polos y, al llegar a los 30°, se hunde y desciende (subsidencia) formando los anticiclones subtropicales (como el Anticiclón de las Azores, clave para el clima peninsular).
+* **Celda de Ferrel** (área templada, 30–60° de latitud): Por esta banda serpentea el **chorro polar** (**jet stream**) de poniente. Sus fluctuaciones son las que dirigen los frentes y borrascas hacia la Península Ibérica. Los pilotos que planifican vuelos de distancia en invierno o primavera notarán su influencia directa.
+* **Celda Polar** (área polar, 60–90° de latitud): Aire frío polar que desciende en los polos y fluye en superficie hacia latitudes medias, alimentándolas de las masas de aire ártico que nos llegan tras los frentes fríos invernales.
+
+España se sitúa en el borde sur de la Celda de Ferrel, lo que la convierte en territorio de transición: puede recibir tanto la influencia anticiclónica subtropical (buen tiempo en verano) como el paso de los frentes atlánticos de la Celda de Ferrel (lluvias y viento en invierno). Esta posición fronteriza genera una variabilidad meteorológica excepcional, que es exactamente lo que hace que volar en la península sea tan técnicamente exigente y tan recompensante.
+
+ 
+
+## España: origen de contrastes aeronáuticos
+
+Debido a su compleja orografía y situación geográfica, la península ibérica ofrece condiciones de clase mundial para la práctica del vuelo sin motor a lo largo de todo el año.
+
+* **Vuelo de Onda y Laderas:** Durante el invierno y la ventosa primavera, los grandes macizos montañosos actúan como gigantescos deflectores. Es especialmente destacable la **Onda de Montaña** en el Sistema Central (zonas míticas como Fuentemilanos, Santo Tomé, Pedro Bernardo o Arcones) y en la potente "Convergencia Pirenaica". Estas condiciones permiten ascensos de onda espectaculares y vuelos de altitud y distancia extrema.
+* **Vuelo Térmico Puro:** En verano, las extensas llanuras interiores y mesetas (como La Mancha) se calientan intensamente por radiación solar, generando convecciones formidables y enormes líneas de convergencia (como la de los Montes de Toledo) ideales para maratones de cross-country.
+
+✦ **REGLA DE ORO**
+
+En España tienes temporada para casi todo el año: cuando el viento sopla fuerte en invierno, busca onda en el Sistema Central o los Pirineos; cuando el verano hornea las mesetas, busca térmicas en La Mancha. Conocer cuándo y dónde vale cada recurso define al piloto experimentado.
+
+ 
+
+## Vientos locales y la dinámica de los valles
+
+Para un piloto de aviación de transporte el viento general lo es todo; para el piloto de planeador, que vuela pegado al terreno, **cada valle tiene su propio dueño y señor atmosférico**. El Capítulo 2: Viento describe en detalle el ciclo anábático y catabático y el efecto Foehn; aquí nos centramos en cómo esos mecanismos definen el vuelo en el contexto ibérico concreto.
+
+En zonas montañosas como el Sistema Central, los Pirineos o los Picos de Europa, los **vientos anabáticos matinales** disparan las primeras térmicas antes incluso de que el sol alcance los 30° de elevación: las solanas orientadas al este son las primeras en activarse. Al atardecer, los **catabáticos** que bajan por ambas laderas del valle pueden generar una zona de restitución en el centro —esa ascendencia suave que a veces permite prolongar el vuelo hasta el oscurecer. Conocer cuál es la dirección catabática de tu aeródromo local es tan importante como saber la posición de la cabecera.
+
+Los **rotores de sotavento** son la trampa invisible de la climatología ibérica: con viento de componente norte en el Sistema Central o con Tramontana en el Pirineo, el rotor puede situarse exactamente sobre la vertical del aeródromo a alturas de circuito. Si el día presenta lenticulares en altura y ves fractocúmulos deshilachados a baja cota, trata esa zona como zona de turbulencia severa.
+
+::: {.callout-warning}
+⚠ **SEGURIDAD**
+
+Los vientos catabáticos y los rotores de sotavento pueden aparecer a baja altitud sin previo aviso visual. Nunca sobrevueles una ladera de sotavento a menos de 300 ft de separación vertical del terreno, y conoce los puntos conflictivos de tu aeródromo local antes de volar en condiciones de viento fuerte.
+:::
+
+ 
+
+::: {.callout-note}
+⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
+
+Antes de cada vuelo en zona montañosa, consulta la dirección del viento y compárala con el mapa orográfico de tu aeródromo. Los vientos del norte generan rotores en sectores distintos a los del sur o del oeste. Aprende los patrones locales y consulta a pilotos con experiencia en la zona.
+:::
+
+ 
+
+## Estacionalidad aeronáutica: el calendario del piloto
+
+La cambiante fisonomía de cada estación del año impone al velerista reglas de vuelo claras:
+
+* **Primavera:** Es el ansiado despertar. Los días se alargan radiantes y el creciente calentamiento del suelo dispara la inestabilidad, provocando potentes contrastes con el aire en altura aún frío del remanente invierno. Ofrece robustas térmicas de incipiente maduración diaria, aunque con la constante amenaza de pasos frontales y días inestables.
+* **Verano:** La temporada principal para el vuelo de distancia. Las fuertes térmicas elevan los techos de las nubes a cotas muy altas. Sin embargo, existe el riesgo de tormentas de evolución súbita que pueden obligar a aterrizajes preventivos por seguridad.
+* **Otoño:** Generalmente asociado a mayor estabilidad y lluvias. En el área mediterránea es la época de las DANA
+  DANA (Depresión Aislada en Niveles Altos)
+   (Depresiones Aisladas en Niveles Altos), que generan tormentas severas y precipitaciones intensas, reduciendo significativamente las oportunidades de vuelo.
+* **Días Post-Frontales:** Con independencia de la estación, el día después del paso de un frente frío suele ofrecer condiciones excelentes. La atmósfera queda limpia, nítida y con visibilidad excepcional. El contraste térmico entre el aire gélido y el suelo reactiva las mejores corrientes ascendentes del año.
+
+::: {.callout-note}
+⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
+
+Los días post-frontales son el estándar de oro del vuelo ibérico: cielo azul, térmicas puras y visibilidad excepcional. Aprende a identificarlos en la previsión: busca el paso de un frente frío activo seguido de aire polar y presión en subida. El día siguiente suele ser extraordinario.
+:::
+
+ 
+
+::: {.callout-warning}
+⚠ **SEGURIDAD**
+
+En verano, las tormentas de evolución (**air mass storms**) se desarrollan rápidamente durante las horas centrales del día a partir de cúmulos congestus. Si ves cúmulos que crecen verticalmente a ritmo acelerado, aterriza cuanto antes. No esperes a ver el yunque para decidir.
+:::
+
+
+
+## La Baja Térmica Peninsular estival
+
+En los picos crudos del verano, la intensa radiación solar hornea la superficie de las vastas mesetas del interior peninsular. Este calentamiento brutal genera grandes columnas de aire cálido ascendentes, estableciendo una permanente **baja térmica peninsular** en el centro de España.
+
+Aunque barométricamente no es tan profunda como una fuerte borrasca polar, esta masa estancada ejerce una constante fuerza de succión. Como si fuera una gigantesca aspiradora, la baja térmica tira continuamente de las densas masas de aire frío y húmedo que reposan sobre el océano y los mares perimetrales, arrastrándolas hacia el interior terrestre.
+
+Este imparable avance de aire marino forzado tierra adentro se convierte en extensos **frentes de brisa** que penetran decenas de kilómetros. Al chocar contra la masa continental abrasadora y contra las barreras de los sistemas montañosos, levantan forzosamente el aire inestable en formidables ****: autopistas invisibles de ascendencia que el piloto experimentado aprende a seguir en sus vuelos de distancia.
+
+✦ **REGLA DE ORO**
+
+Las líneas de convergencia generadas por la Baja Térmica Peninsular son autopistas de sustentación en verano. Identifícalas en las previsiones de modelos RASP o Skysight y planifica tu ruta de cross-country siguiéndolas: con brisa bien establecida, una sola línea de convergencia puede regalarte decenas de kilómetros sin perder altitud.
+
+
+
+**Resumen del Capítulo: Climatología**
+
+* **España, país de contrastes**: Tenemos condiciones mundiales para el vuelo. Viento y **Onda de Montaña** en invierno/primavera (Pirineos, Sistema Central) y potentes **Térmicas** en verano (La Mancha, zonas interiores).
+* **Vientos Locales**: Cada valle tiene su dueño. Los vientos anabáticos y catabáticos definen la mañana y la tarde en zonas montañosas. Los rotores de sotavento son la trampa invisible del piloto imprudente.
+* **Estacionalidad**: La primavera ofrece inestabilidad y buen vuelo local. El verano trae techos altos y tormentas secas de calor. El otoño suele traer lluvias y DANA.
+* **Baja Térmica Peninsular**: En verano, el sol calienta tanto el centro de España que se forma una baja presión permanente. Esto succiona aire del mar, reforzando las brisas costeras que penetran muy adentro y generan líneas de convergencia ideales para el cross-country.

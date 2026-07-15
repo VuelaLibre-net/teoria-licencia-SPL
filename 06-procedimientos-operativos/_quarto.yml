@@ -1,0 +1,32 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Procedimientos Operativos"
+  author: "VuelaLibre.net"
+  chapters:
+    - index.qmd
+    - cap01-índice-de-ilustraciones.qmd
+    - cap02-requisitos-generales.qmd
+    - cap03-métodos-de-lanzamiento.qmd
+    - cap04-técnicas-de-planeo.qmd
+    - cap05-circuitos-y-aterrizaje.qmd
+    - cap06-aterrizaje-fuera-de-campo-.qmd
+    - cap07-procedimientos-operativos-especiales-y-peligros.qmd
+    - cap08-procedimientos-de-emergencia.qmd
+    - cap09-uso-y-aterrizaje-con-paracaídas-de-emergencia.qmd
+    - cap10-glosario-de-términos.qmd
+    - cap11-bibliografía-y-fuentes.qmd
+
+format:
+  typst:
+    toc: true
+    number-sections: true
+    margin:
+      top: 2.5cm
+      bottom: 2.5cm
+      left: 3cm
+      right: 3cm
+  epub:
+    toc: true

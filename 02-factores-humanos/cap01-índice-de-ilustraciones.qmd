@@ -1,0 +1,13 @@
+# Índice de ilustraciones
+
+list-of::image[]
+
+
+
+****
+
+El 90 % de los accidentes de vuelo a vela tienen un factor humano como causa principal. No es incompetencia: el ser humano tiene límites fisiológicos y psicológicos que no desaparecen cuando sube a un planeador. La fatiga que degrada la toma de decisiones. La presión de grupo que empuja a despegar cuando la decisión correcta es quedarse en tierra.
+
+Cuatro bloques temáticos cubren desde el modelo SHELL hasta el chequeo IMSAFE: las herramientas que separan al piloto que gestiona sus límites del que los ignora.
+
+El mayor riesgo en la cabina eres tú. Aprende a gestionarlo.

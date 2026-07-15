@@ -1,0 +1,38 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Derecho Aéreo y Procedimientos de Control de Tránsito Aéreo"
+  author: "VuelaLibre.net"
+  chapters:
+    - index.qmd
+    - cap01-índice-de-ilustraciones.qmd
+    - cap02-derecho-internacional-convenios-acuerdos-y-organizaciones.qmd
+    - cap03-aeronavegabilidad.qmd
+    - cap04-marcas-de-nacionalidad-y-matrícula-de-aeronaves.qmd
+    - cap05-licencias-de-personal.qmd
+    - cap06-reglas-del-aire.qmd
+    - cap07-procedimientos-para-navegación-aérea-operaciones-de-aeronaves.qmd
+    - cap08-reglamentación-de-tránsito-aéreo-estructura-del-espacio-aéreo.qmd
+    - cap09-servicio-de-tránsito-aéreo-.qmd
+    - cap10-servicios-de-información-aeronáutica-ais.qmd
+    - cap11-aeródromos-y-campos-de-despegue-externos.qmd
+    - cap12-búsqueda-y-salvamento.qmd
+    - cap13-seguridad.qmd
+    - cap14-notificación-de-accidentes.qmd
+    - cap15-derecho-nacional.qmd
+    - cap16-glosario-de-términos.qmd
+    - cap17-bibliografía-y-fuentes.qmd
+
+format:
+  typst:
+    toc: true
+    number-sections: true
+    margin:
+      top: 2.5cm
+      bottom: 2.5cm
+      left: 3cm
+      right: 3cm
+  epub:
+    toc: true

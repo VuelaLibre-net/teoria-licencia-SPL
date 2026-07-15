@@ -1,0 +1,29 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Planificación y Rendimiento de Vuelo"
+  author: "VuelaLibre.net"
+  chapters:
+    - index.qmd
+    - cap01-índice-de-ilustraciones.qmd
+    - cap02-masa-y-centro-de-gravedad.qmd
+    - cap03-polar-de-velocidades-de-planeadores-o-velocidad-de-crucero.qmd
+    - cap04-planificación-de-vuelo-y-definición-de-tareas.qmd
+    - cap05-plan-de-vuelo-icao.qmd
+    - cap06-monitoreo-del-vuelo-y-replanificación-en-vuelo.qmd
+    - cap07-glosario-de-términos.qmd
+    - cap08-bibliografía-y-fuentes.qmd
+
+format:
+  typst:
+    toc: true
+    number-sections: true
+    margin:
+      top: 2.5cm
+      bottom: 2.5cm
+      left: 3cm
+      right: 3cm
+  epub:
+    toc: true

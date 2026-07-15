@@ -1,0 +1,28 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Factores Humanos"
+  author: "VuelaLibre.net"
+  chapters:
+    - index.qmd
+    - cap01-índice-de-ilustraciones.qmd
+    - cap02-factores-humanos-conceptos-básicos.qmd
+    - cap03-fisiología-aeronáutica-básica-y-mantenimiento-de-salud.qmd
+    - cap04-psicología-aeronáutica-básica.qmd
+    - cap05-uso-de-oxígeno.qmd
+    - cap06-glosario-de-términos.qmd
+    - cap07-bibliografía-y-fuentes.qmd
+
+format:
+  typst:
+    toc: true
+    number-sections: true
+    margin:
+      top: 2.5cm
+      bottom: 2.5cm
+      left: 3cm
+      right: 3cm
+  epub:
+    toc: true

@@ -1,0 +1,86 @@
+# Sistemas de presión
+
+Los anticiclones y las borrascas son los protagonistas del mapa sinóptico: determinan si
+tendrás viento, nubes, niebla o el cielo azul perfecto. En este capítulo aprenderás a
+interpretar la posición de los centros de presión, a anticipar las condiciones de vuelo
+con 24-48 horas de antelación y a reconocer las trampas del collado barométrico.
+
+## Anticiclones (H)
+
+Un **** (representado con una 'H' de **High** o una 'A' en mapas sinópticos) es una amplia región atmosférica donde la presión es superior a la de su entorno. En estos sistemas, la densa masa de aire experimenta un suave descenso divergente en superficie, proceso conocido como **subsidencia**.
+
+A medida que desciende, el aire se comprime y se calienta adiabáticamente, lo cual produce un marcado resecamiento e inhibe de forma drástica el desarrollo vertical de nubes convectivas. En el hemisferio norte, la circulación de este aire en superficie fluye hacia el exterior girando en sentido horario. Sus isobaras, habitualmente espaciadas, denotan áreas de calmas o vientos muy flojos.
+
+Sus implicaciones para el vuelo varían notoriamente según la estacionalidad:
+
+* **En meses cálidos:** Resultan en cielos despejados e intensamente azules. No obstante, la fuerte subsidencia actúa como una tapadera altitudinal efectiva que frena abruptamente la ascensión de las térmicas, reduciendo con frecuencia el techo operativo.
+* **En meses fríos:** Propician una caída brusca de la temperatura nocturna por rápida irradiación infrarroja de la superficie terrestre. Esta influencia suele desencadenar persistentes y densas nieblas de radiación así como **inversiones térmicas** sumamente estables que bloquean la visibilidad de los valles durante largas jornadas.
+
+No todos los anticiclones son iguales. Según su mecanismo de formación se distinguen dos tipos con efectos muy distintos para el vuelo:
+
+* **Anticiclón dinámico o cálido** (**warm high**): Se forma por subsidencia en la zona de contacto entre las celdas de Hadley y Ferrel (en torno a los 30° de latitud). El aire desciende desde la troposfera alta, se comprime y se calienta. Puede extenderse hasta la tropopausa. El **anticiclón de las Azores** es el ejemplo ibérico por excelencia: en verano se instala sobre la Península y garantiza jornadas largas de vuelo con cielo azul y viento flojo.
+* **Anticiclón frío o termal** (**cold high**): Se forma por enfriamiento intenso de grandes superficies continentales, que enfrían el aire en contacto con el suelo. Es denso y frío en las capas bajas pero tiene poca altura —apenas llega a los 3.000-4.000 m. El anticiclón ibérico invernal es de este tipo: trae noches gélidas, nieblas de radiación persistentes en cuenca del Duero y del Ebro, e inversiones térmicas bajas que bloquean cualquier actividad convectiva.
+
+✦ **REGLA DE ORO**
+
+Para planificar el vuelo del día, mira el mapa sinóptico la noche anterior: si España está bajo una dorsal o anticiclón (H), planifica vuelo de distancia; si hay una vaguada o borrasca acercándose, no planifiques. El movimiento de las isobaras te da 24-48 horas de margen para decidir con criterio.
+
+ 
+
+## Borrascas o Depresiones (L)
+
+Las **** (representadas con 'L' de **Low** o 'B') son áreas de baja presión: zonas donde la presión es un **mínimo relativo respecto a su entorno**, con las isobaras cerradas alrededor del núcleo. Lo que las define es esa relación con lo que las rodea, no un umbral absoluto: existen borrascas con núcleo por encima de 1.013 hPa y anticiclones (sobre todo térmicos) con periferia por debajo de ese valor.
+
+Al contrario que en el anticiclón, el gradiente de presión obliga al aire del entorno a converger hacia el centro de la borrasca y, desde allí, ascender. Ese ascenso enfría el aire y favorece la condensación, generando nubes extensas y frentes de precipitación activa.
+
+En el hemisferio norte, las borrascas giran en sentido **antihorario**. Sus isobaras muy apretadas son sinónimo de vientos fuertes y racheados: la operación VFR dentro de una borrasca activa es inviable. Sin embargo, la retaguardia post-frontal —lo que queda tras el paso de la borrasca— suele ofrecer las mejores jornadas de vuelo del año.
+
+::: {.callout-warning}
+⚠ **SEGURIDAD**
+
+Nunca salgas con previsión de borrasca activa en aproximación. Las condiciones VFR pueden degradarse rápidamente: nubosidad baja, visibilidad reducida y ráfagas que complican el aterrizaje. Cancela antes de salir si el mapa sinóptico muestra una depresión activa a menos de 500 km de tu zona de vuelo.
+:::
+
+ 
+
+## Vaguadas y Dorsales: isobaras irregulares
+
+  Los anticiclones y las borrascas no son siempre círculos perfectos: a menudo emiten "brazos" que se extienden por el mapa en forma de lengua.
+
+* **** Es una extensión alargada de baja presión que sale de una borrasca, como un tentáculo. Genera las mismas condiciones que su borrasca madre: inestabilidad, chubascos, turbulencia y ráfagas. En el mapa se reconoce como una curva en 'U' o 'V' de las isobaras apuntando hacia el ecuador.
+* **** Es la extensión alargada de un anticiclón, que lleva consigo su subsidencia y su buen tiempo. Mientras la dorsal domina tu zona, el aire desciende, el cielo se despeja y las térmicas quedan limitadas en altura por esa misma subsidencia.
+
+## Pantano barométrico en áreas de collado
+
+Un **** o **pantano barométrico** se forma cuando dos centros de alta presión y dos de baja presión se sitúan alternados alrededor de un área central, anulando mutuamente sus gradientes. El resultado es una zona de vientos flojos y variables, sin dirección dominante clara ni isobaras con empuje apreciable.
+
+Aunque parece inofensiva por su calma, esta configuración impone condiciones operativas específicas según la estación:
+1.  **En verano:** Impide que los frentes fríos disipen el fuerte calentamiento diurno. Esta energía acumulada puede generar tormentas locales aisladas muy violentas y estáticas, que suelen producir fenómenos peligrosos como la virga.
+2.  **En invierno:** La estabilidad absoluta favorece la formación de bancos de niebla densos y persistentes. Al quedar el aire gélido atrapado cerca del suelo por la subsidencia, la visibilidad puede quedar inhabilitada durante días.
+
+::: {.callout-note}
+⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
+
+Cuando el mapa sinóptico muestre un collado centrado sobre tu zona de vuelo, no improvises: las condiciones evolucionan con lentitud e impredecibilidad. Espera a que el patrón se resuelva claramente —hacia anticiclón o hacia situación post-frontal con viento del norte— antes de comprometerte con un vuelo de distancia.
+:::
+
+## Tabla de referencia: sistemas de presión y vuelo a vela
+
+| Sistema | Símbolo | Circulación (H. Norte) | Nubosidad típica | Implicación para el velero |
+| --- | --- | --- | --- | --- |
+| Anticiclón | H / A | Horaria, divergente en superficie (subsidencia) | Escasa o nula | Buen tiempo VFR; inversión limita el techo térmico. Niebla de radiación en invierno. |
+| Borrasca / Depresión | L / B | Antihoraria, convergente (ascendencia) | Abundante; frentes activos | Viento fuerte y racheado, precipitación, VFR inviable. Excelente post-frente. |
+| Vaguada (surco) | — | Inestabilidad local creciente | Cumuliformes, chubascos | Tormentas aisladas y turbulencia. Evitar o planificar antes del calentamiento diurno. |
+| Dorsal (cuña) | — | Subsidencia estable | Escasa o nula | Condiciones VFR favorables, térmicas moderadas. Sin riesgo convectivo significativo. |
+| Collado / Pantano barométrico | — | Flojas y variables, sin dirección dominante | Variable (niebla en invierno; Cb estáticos en verano) | Impredecible. No planifiques vuelos de distancia hasta que el patrón se resuelva. |
+
+: Sistemas de presión sinópticos y su implicación operativa para el planeador
+
+
+
+**Resumen del Capítulo: Sistemas de Presión**
+
+* **Anticiclones (H)**: Zonas de alta presión donde el aire baja (subsidencia) y se seca. Garantizan estabilidad y buen tiempo, pero en invierno atrapan nieblas y contaminación. El viento gira en sentido horario (H. Norte).
+* **Borrascas (L)**: Zonas de baja presión donde el aire sube y condensa. Son fábricas de nubes, frentes y viento. El viento gira en sentido antihorario (H. Norte).
+* **Vaguadas y Dorsales**: Una vaguada es una "lengua" de baja presión (mal tiempo estirado); una dorsal es una "lengua" de alta presión (buen tiempo estirado).
+* **Collado**: Zona neutra entre dos altas y dos bajas cruzadas. Es como un pantano barométrico: vientos flojos, dirección variable y probabilidad de nieblas o tormentas estáticas en verano.

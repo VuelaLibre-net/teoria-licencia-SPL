@@ -1,0 +1,33 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Comunicaciones"
+  author: "VuelaLibre.net"
+  chapters:
+    - index.qmd
+    - cap01-índice-de-ilustraciones.qmd
+    - cap02-definiciones-y-técnica-de-comunicación.qmd
+    - cap03-comunicaciones-vfr-en-aeródromos-no-controlados.qmd
+    - cap04-comunicaciones-vfr-en-aeródromos-controlados.qmd
+    - cap05-comunicaciones-vfr-con-atc-en-ruta.qmd
+    - cap06-procedimientos-operativos-generales.qmd
+    - cap07-términos-de-información-meteorológica-relevantes-para-vfr.qmd
+    - cap08-acciones-ante-fallo-de-comunicaciones.qmd
+    - cap09-procedimientos-de-socorro-y-urgencia.qmd
+    - cap10-principios-generales-de-propagación-vhf-y-asignación-de-frecuencias.qmd
+    - cap11-glosario-de-términos.qmd
+    - cap12-bibliografía-y-fuentes.qmd
+
+format:
+  typst:
+    toc: true
+    number-sections: true
+    margin:
+      top: 2.5cm
+      bottom: 2.5cm
+      left: 3cm
+      right: 3cm
+  epub:
+    toc: true

@@ -1,0 +1,15 @@
+# Índice de ilustraciones
+
+list-of::image[]
+
+
+
+****
+
+Hay pilotos que miran el cielo y ven nubes. Hay pilotos que miran el cielo y ven información.
+
+Un planeador vuela sin motor, sin radar y sin potencia para escapar de lo que el tiempo tiene preparado. La única ventaja real del piloto de vela es anticiparse: reconocer el frente doce horas antes, saber que la virga esconde un downburst o identificar la inversión térmica invisible que limita el vuelo a mil pies aunque el sol caliente.
+
+Diez capítulos cubren desde la física de la atmósfera hasta la lectura operativa de METAR, TAF y SIGWX, pasando por frentes, termodinámica y los peligros que la meteorología reserva para quien no la conoce.
+
+El cielo habla. Aprende a escucharlo antes de despegar.

@@ -1,0 +1,34 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Meteorología"
+  author: "VuelaLibre.net"
+  chapters:
+    - index.qmd
+    - cap01-índice-de-ilustraciones.qmd
+    - cap02-la-atmósfera.qmd
+    - cap03-viento.qmd
+    - cap04-termodinámica.qmd
+    - cap05-nubes-y-niebla.qmd
+    - cap06-precipitación.qmd
+    - cap07-masas-de-aire-y-frentes.qmd
+    - cap08-sistemas-de-presión.qmd
+    - cap09-climatología.qmd
+    - cap10-peligros-para-el-vuelo.qmd
+    - cap11-información-meteorológica.qmd
+    - cap12-glosario-de-términos.qmd
+    - cap13-bibliografía-y-fuentes.qmd
+
+format:
+  typst:
+    toc: true
+    number-sections: true
+    margin:
+      top: 2.5cm
+      bottom: 2.5cm
+      left: 3cm
+      right: 3cm
+  epub:
+    toc: true

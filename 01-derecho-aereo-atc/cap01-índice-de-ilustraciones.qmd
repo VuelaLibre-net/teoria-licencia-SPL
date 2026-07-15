@@ -1,0 +1,13 @@
+# Índice de ilustraciones
+
+list-of::image[]
+
+
+
+****
+
+Un planeador opera en un sistema de espacios aéreos y responsabilidades legales que existen para que cada vuelo sea predecible. Ignorar ese sistema no te hace más libre; te hace más expuesto.
+
+Catorce capítulos convierten el marco normativo en criterio operativo: qué documentos van en la cabina, qué espacio aéreo requiere autorización, qué activa la fase de alerta SAR y por qué reportar un incidente es la única forma de que el sistema aprenda.
+
+El cielo tiene reglas. Aprende a usarlas antes de despegar.

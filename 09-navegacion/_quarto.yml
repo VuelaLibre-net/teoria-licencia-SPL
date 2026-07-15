@@ -1,0 +1,31 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Navegación"
+  author: "VuelaLibre.net"
+  chapters:
+    - index.qmd
+    - cap01-índice-de-ilustraciones.qmd
+    - cap02-fundamentos-de-navegación.qmd
+    - cap03-magnetismo-y-brújulas.qmd
+    - cap04-cartas-aeronáuticas.qmd
+    - cap05-navegación-por-estima.qmd
+    - cap06-navegación-en-vuelo.qmd
+    - cap07-uso-de-gnss.qmd
+    - cap08-uso-de-ats.qmd
+    - cap09-glosario-de-términos.qmd
+    - cap10-bibliografía-y-fuentes.qmd
+
+format:
+  typst:
+    toc: true
+    number-sections: true
+    margin:
+      top: 2.5cm
+      bottom: 2.5cm
+      left: 3cm
+      right: 3cm
+  epub:
+    toc: true
