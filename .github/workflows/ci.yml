@@ -1,4 +1,4 @@
-name: Integración Continua (CI)
+name: Compilar Manuales SPL (CI)
 
 on:
   push:
@@ -14,33 +14,32 @@ jobs:
     - name: Descargar repositorio
       uses: actions/checkout@v4
 
-    - name: Configurar Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.11'
-
-    - name: Configurar Ruby e instalar Asciidoctor
-      uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: '3.2'
-        bundler-cache: true
-    - run: gem install asciidoctor
-
     - name: Configurar Quarto
       uses: quarto-dev/quarto-actions/setup@v2
       with:
         version: '1.4.549'
 
-    - name: Instalar dependencias de pruebas (si hubiera)
+    - name: Compilar manuales a PDF y EPUB
       run: |
-        python -m pip install --upgrade pip
+        mkdir -p build/pdf build/epub
+        for libro in 01-derecho-aereo-atc 02-factores-humanos 03-meteorologia 04-comunicaciones 05-principios-vuelo 06-procedimientos-operativos 07-planificacion-rendimiento 08-aeronave-sistemas 09-navegacion; do
+          echo "==> Renderizando $libro a PDF (Typst)..."
+          quarto render "$libro/" --to typst
+          mv "$libro/_book"/*.pdf build/pdf/
+          
+          echo "==> Renderizando $libro a EPUB..."
+          quarto render "$libro/" --to epub
+          mv "$libro/_book"/*.epub build/epub/
+        done
 
-    - name: Ejecutar pruebas unitarias del conversor
-      run: |
-        make test
+    - name: Subir artefactos PDF
+      uses: actions/upload-artifact@v4
+      with:
+        name: manuales-spl-pdf
+        path: build/pdf/
 
-    - name: Compilar todos los manuales SPL (PDF & EPUB)
-      run: |
-        # Clonar repositorio de origen (aesa-spl-oficial) a nivel de par para simular el entorno local
-        git clone https://github.com/VuelaLibreNet/manual-spl.git ../aesa-spl-oficial
-        make
+    - name: Subir artefactos EPUB
+      uses: actions/upload-artifact@v4
+      with:
+        name: manuales-spl-epub
+        path: build/epub/
