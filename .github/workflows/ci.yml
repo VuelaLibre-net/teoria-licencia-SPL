@@ -1,0 +1,46 @@
+name: Integración Continua (CI)
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Descargar repositorio
+      uses: actions/checkout@v4
+
+    - name: Configurar Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: Configurar Ruby e instalar Asciidoctor
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.2'
+        bundler-cache: true
+    - run: gem install asciidoctor
+
+    - name: Configurar Quarto
+      uses: quarto-dev/quarto-actions/setup@v2
+      with:
+        version: '1.4.549'
+
+    - name: Instalar dependencias de pruebas (si hubiera)
+      run: |
+        python -m pip install --upgrade pip
+
+    - name: Ejecutar pruebas unitarias del conversor
+      run: |
+        make test
+
+    - name: Compilar todos los manuales SPL (PDF & EPUB)
+      run: |
+        # Clonar repositorio de origen (aesa-spl-oficial) a nivel de par para simular el entorno local
+        git clone https://github.com/VuelaLibreNet/manual-spl.git ../aesa-spl-oficial
+        make
