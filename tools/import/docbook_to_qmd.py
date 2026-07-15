@@ -8,10 +8,8 @@ Uso:
   python3 tools/import/docbook-to-qmd.py <archivo.xml> <directorio_salida> [--source-dir <directorio_origen>]
 """
 
-import os
 import sys
 import argparse
-import shutil
 import re
 import xml.etree.ElementTree as ET
 from pathlib import Path

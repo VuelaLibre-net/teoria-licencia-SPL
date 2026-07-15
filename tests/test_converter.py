@@ -9,10 +9,6 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / 'tools' / 'import'))
 
 from docbook_to_qmd import convert_node, ConverterContext, DB_NS
-from handlers.headings import handle_section
-from handlers.callouts import handle_callout
-from handlers.figures import handle_figure
-from handlers.tables import handle_table
 
 class TestDocBookToQMD(unittest.TestCase):
     def setUp(self):

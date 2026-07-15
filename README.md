@@ -1,8 +1,8 @@
 # Colección de Manuales Teóricos SPL (Licencia de Piloto de Planeador) en Quarto
 
-Este repositorio contiene la versión digitalizada de los 9 libros oficiales que cubren el temario teórico para la obtención de la **Licencia de Piloto de Planeador (SPL)** de la **Agencia Estatal de Seguridad Aérea (AESA)**.
+Este repositorio contiene la versión digitalizada de 9 libros que cubren el temario teórico para la obtención de la **Licencia de Piloto de Planeador (SPL)** de la **Agencia Estatal de Seguridad Aérea (AESA)**.
 
-El contenido ha sido migrado de su origen en AsciiDoc/DocBook XML a **Quarto Markdown (.qmd)** para la generación de entregables de alta calidad en formatos **PDF (mediante el motor Typst)** y **EPUB (mediante Pandoc)**.
+El contenido está en **Quarto Markdown (.qmd)** para la generación de entregables de alta calidad en formatos **PDF (mediante el motor Typst)** y **EPUB (mediante Pandoc)**.
 
 ---
 
@@ -28,8 +28,6 @@ Para poder compilar la colección completa, necesitarás contar con:
 
 - **Quarto CLI** (versión 1.4 o superior): [Instrucciones de instalación](https://quarto.org/docs/get-started/)
 - **Python 3** (para ejecutar la suite de importación/conversión)
-- **Asciidoctor** (con soporte de salida DocBook 5): `gem install asciidoctor` (para recompilar fuentes originales si es necesario)
-
 ---
 
 ## Instrucciones de Compilación
