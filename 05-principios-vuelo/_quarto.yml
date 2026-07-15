@@ -2,6 +2,8 @@ project:
   type: book
   output-dir: _book
 
+lang: es
+
 book:
   title: "Principios de Vuelo"
   author: "VuelaLibre.net"

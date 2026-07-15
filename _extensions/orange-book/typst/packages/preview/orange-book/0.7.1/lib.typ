@@ -338,6 +338,11 @@
     (prefaces, main-body)
   }
 
+  let supplement-chapter = if lang == "es" and supplement-chapter == "Chapter" { "Capítulo" } else { supplement-chapter }
+  let supplement-part = if lang == "es" and supplement-part == "Part" { "Parte" } else { supplement-part }
+  let list-of-figure-title = if lang == "es" and list-of-figure-title == none { "Índice de ilustraciones" } else { list-of-figure-title }
+  let list-of-table-title = if lang == "es" and list-of-table-title == none { "Índice de tablas" } else { list-of-table-title }
+
   set document(author: author, title: title)
   set text(size: font-size, lang: lang)
   set par(leading: 0.5em)

@@ -217,6 +217,8 @@ def generate_quarto_yml(output_dir, title, chapters_list, appendices_list=None):
   type: book
   output-dir: _book
 
+lang: es
+
 book:
   title: "{title}"
   author: "VuelaLibre.net"

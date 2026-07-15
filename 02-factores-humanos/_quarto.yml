@@ -2,6 +2,8 @@ project:
   type: book
   output-dir: _book
 
+lang: es
+
 book:
   title: "Factores Humanos"
   author: "VuelaLibre.net"
