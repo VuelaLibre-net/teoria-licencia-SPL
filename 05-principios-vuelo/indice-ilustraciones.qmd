@@ -2,9 +2,7 @@
 
 list-of::image[]
 
-
-
-****
+***Tema 5 de 9 del examen teórico para la Licencia de Piloto de Planeador (SPL)***
 
 La aerodinámica de un planeador no tiene secretos. Tiene física. Y la física no negocia.
 

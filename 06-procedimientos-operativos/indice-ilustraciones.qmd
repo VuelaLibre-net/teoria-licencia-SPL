@@ -2,9 +2,7 @@
 
 list-of::image[]
 
-
-
-****
+***Tema 6 de 9 del examen teórico para la Licencia de Piloto de Planeador (SPL)***
 
 Hay vuelos que salen exactamente como estaban planificados. Y hay vuelos que no.
 

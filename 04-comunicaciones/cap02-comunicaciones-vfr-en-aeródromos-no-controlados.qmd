@@ -6,11 +6,9 @@ La mayoría de los vuelos de planeador salen de campos sin torre. Aquí verás c
 
 *En el campo sin torre, el piloto actúa como su propio controlador.*
 
-La mayoría de los aeródromos desde los que vuelan los planeadores —aeroclubs, pistas forestales, aeródromos privados— son **aeródromos no controlados**. Operan en espacio aéreo Clase G y no hay ninguna torre de Control de Tráfico Aéreo (ATC)
-ATC (Control de Tránsito Aéreo / Air Traffic Control)
- que te autorice, te separe o te asigne rumbos.
+La mayoría de los aeródromos desde los que vuelan los planeadores —aeroclubs, pistas forestales, aeródromos privados— son **aeródromos no controlados**. Operan en espacio aéreo Clase G y no hay ninguna torre de Control de Tráfico Aéreo (ATC) que te autorice, te separe o te asigne rumbos.
 
-Aquí la seguridad la pone la **** (**broadcast**): tú transmites tu posición, altitud e intenciones a la frecuencia del campo para que todos sepan dónde estás. Nadie te va a dar permiso para despegar ni aterrizar. Informas y tú decides.
+Aquí la seguridad la pone la **autoinformación** (**broadcast**): tú transmites tu posición, altitud e intenciones a la frecuencia del campo para que todos sepan dónde estás. Nadie te va a dar permiso para despegar ni aterrizar. Informas y tú decides.
 
 Dos cosas básicas:
 
@@ -20,18 +18,12 @@ Dos cosas básicas:
 ::: {.callout-important}
 ⚖ **NORMATIVA**
 
-Aunque en algunos campos exista un operador de radio prestando un servicio AFIS
-AFIS (Aerodrome Flight Information Service)
- (**Aerodrome Flight Information Service**), este operador **no proporciona control**, solo información (viento, pista en uso, meteorología). La decisión final y la responsabilidad de la separación siguen siendo íntegramente del piloto al mando.
+Aunque en algunos campos exista un operador de radio prestando un servicio AFIS (**Aerodrome Flight Information Service**), este operador **no proporciona control**, solo información (viento, pista en uso, meteorología). La decisión final y la responsabilidad de la separación siguen siendo íntegramente del piloto al mando.
 :::
-
- 
 
 ## Ver y evitar (*See and Avoid*)
 
-La radio te ayuda a saber dónde buscar. Nada más. El vuelo VFR
-VFR (Reglas de vuelo visual / Visual Flight Rules)
- (**Visual Flight Rules**) se llama así por algo: la responsabilidad de ver y esquivar es tuya, siempre, y **nunca la delega en la radio**.
+La radio te ayuda a saber dónde buscar. Nada más. El vuelo VFR (**Visual Flight Rules**) se llama así por algo: la responsabilidad de ver y esquivar es tuya, siempre, y **nunca la delega en la radio**.
 
 Tres cosas que no puedes olvidar:
 
@@ -45,11 +37,7 @@ Tres cosas que no puedes olvidar:
 Un error fatal es iniciar un viraje (por ejemplo, de tramo base a final) confiando únicamente en que "nadie ha cantado posición por la radio". Asegúrate siempre visualmente de que la pista y la aproximación final están libres de tráfico antes de virar.
 :::
 
- 
-
 ![Escucha activa de la frecuencia antes de la llegada](imagenes/04-cap02-frecuencia-correcta.jpg){#fig-04-cap02-escucha-previa}
-
- 
 
 ## La frecuencia correcta y el momento adecuado
 
@@ -62,8 +50,6 @@ Con solo escuchar unos minutos puedes deducir ():
 * **Densidad de tráfico**: Sabrás cuántos aviones hay en el circuito, si hay remolcadores activos o veleros termando cerca.
 
 Cuando ya tienes esa imagen mental, pulsa el PTT. Tu primera llamada llegará con datos concretos, sin que nadie tenga que repetirte lo que ya podías haber escuchado.
-
- 
 
 ## El circuito estándar y sus notificaciones
 
@@ -79,13 +65,11 @@ Las notificaciones que haces durante el circuito son estas:
 4. **Final** (**Final approach**): Alineado con la pista, tras el último viraje. *"Fuentemilanos, Eco Papa Eco, en final 16"*.
 5. **Pista libre** (**Runway vacated**): Ya en tierra y fuera de la pista activa. *"Fuentemilanos, Eco Papa Eco, pista 16 libre"*.
 
- 
-
+::: {.callout-tip}
 ✦ **REGLA DE ORO**
 
 En campos con mucha actividad de vuelo a vela, el circuito de planeadores puede discurrir por un lado de la pista y el de aviones con motor (incluidos los remolcadores) por el contrario. Consulta siempre la carta del aeródromo antes del vuelo.
-
- 
+:::
 
 ::: {.callout-important}
 ⚖ **NORMATIVA**
@@ -98,8 +82,6 @@ Según el Reglamento SERA (artículo SERA.3210), el orden de prioridad de paso �
 
 SERA no incluye a parapentes y alas delta en esa jerarquía con esa literalidad, pero el criterio operativo prudente es tratarlos como a un planeador y, además, cederles el paso: maniobran bastante peor que tú y descienden sin poder remontar. Ante la duda, sepárate.
 :::
-
- 
 
 ## Coordinación con el remolcador y el torno
 
@@ -128,8 +110,6 @@ Sin radio tierra-aire, el ayudante de ala (**wing runner**) coordina con señale
 
 : Señales visuales del ayudante de ala
 
- 
-
 ::: {.callout-warning}
 ⚠ **SEGURIDAD**
 
@@ -156,8 +136,6 @@ Si el planeador **no puede largar el cable**, la señal de socorro en vuelo es: 
 
 Antes de subir al planeador, acuerda siempre con el piloto remolcador la altitud de suelta y la dirección de alejamiento. Así el remolcador puede regresar a la pista sin cruzarse con el velero que inicia su vuelo.
 :::
-
- 
 
 **Resumen del Capítulo: Aeródromos No Controlados**
 

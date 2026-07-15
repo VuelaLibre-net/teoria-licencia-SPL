@@ -22,7 +22,7 @@ No vuele con un resfriado severo o congestión nasal, especialmente si prevé te
 
 Los pulmones contienen millones de alvéolos recubiertos de capilares. Al inspirar, el oxígeno llega a esos alvéolos y, impulsado por la presión barométrica, cruza hacia la sangre. En la sangre, la **hemoglobina** de los glóbulos rojos transporta el oxígeno hasta el cerebro, la retina y los músculos, y recoge el dióxido de carbono (CO~2~) de desecho, que se exhala en la siguiente respiración.
 
-En altitud, los pulmones y el corazón funcionan con normalidad, pero la presión insuficiente impide cargar oxígeno en los alvéolos. Los glóbulos rojos llegan al cerebro prácticamente vacíos. Ese déficit de oxígeno cerebral es la ****.
+En altitud, los pulmones y el corazón funcionan con normalidad, pero la presión insuficiente impide cargar oxígeno en los alvéolos. Los glóbulos rojos llegan al cerebro prácticamente vacíos. Ese déficit de oxígeno cerebral es la **hipoxia**.
 
 ## Hipoxia
 
@@ -39,9 +39,7 @@ Aunque el vuelo a gran altitud es la causa más común, la hipoxia puede origina
 
 Los síntomas de la hipoxia varían entre individuos y dependen de factores como el nivel de fatiga, el tabaquismo, la ingesta de alcohol o la aclimatación a la altitud. El piloto a menudo no percibe sus propios síntomas.
 
-El síntoma más peligroso —y el primero en aparecer según el programa AESA
-AESA (Agencia Estatal de Seguridad Aérea)
-— es la **euforia**: el piloto se siente excepcionalmente bien y no detecta el peligro. A continuación aparecen irritabilidad, dificultad para hablar, pérdida de memoria a corto plazo, disminución de la capacidad de cálculo y somnolencia. En fases avanzadas se produce ****: coloración azulada en labios y uñas, y finalmente pérdida de conciencia ().
+El síntoma más peligroso —y el primero en aparecer según el programa AESA— es la **euforia**: el piloto se siente excepcionalmente bien y no detecta el peligro. A continuación aparecen irritabilidad, dificultad para hablar, pérdida de memoria a corto plazo, disminución de la capacidad de cálculo y somnolencia. En fases avanzadas se produce **cianosis**: coloración azulada en labios y uñas, y finalmente pérdida de conciencia ().
 
 ::: {.callout-warning}
 ⚠ **SEGURIDAD**
@@ -49,15 +47,11 @@ AESA (Agencia Estatal de Seguridad Aérea)
 La euforia es el síntoma más traicionero de la hipoxia: el piloto no sospecha que está en peligro. Si percibe visión borrosa, hormigueo en las extremidades, euforia injustificada o dolor de cabeza tras un ascenso rápido a gran altitud, asuma hipoxia. Active el suministro de oxígeno al 100% e inicie el descenso de inmediato.
 :::
 
- 
-
 ![Cianosis: coloración azulada en extremidades por falta de oxígeno](imagenes/02-cap02-sintomas-hipoxia.jpg){#fig-02-cap04-cianosis}
 
 ### Tiempo útil de conciencia (*Time of Useful Consciousness*, TUC)
 
-El TUC
-TUC (Time of Useful Consciousness)
- es el intervalo que transcurre desde que se interrumpe el suministro de oxígeno hasta que el piloto pierde la capacidad de tomar medidas protectoras. A mayor altitud, menor tiempo disponible para reaccionar.
+El TUC es el intervalo que transcurre desde que se interrumpe el suministro de oxígeno hasta que el piloto pierde la capacidad de tomar medidas protectoras. A mayor altitud, menor tiempo disponible para reaccionar.
 
 La siguiente tabla muestra los valores de referencia ():
 
@@ -65,9 +59,11 @@ La siguiente tabla muestra los valores de referencia ():
 
 Un descenso desde 7.000 m hasta 3.000 m a 5 m/s de tasa de descenso tarda más de 13 minutos, tiempo con frecuencia superior al TUC disponible a esa altitud. Iniciar el descenso sin oxígeno puede ser demasiado tarde.
 
+::: {.callout-tip}
 ✦ **REGLA DE ORO**
 
 Ante cualquier fallo en el suministro de oxígeno o sospecha de hipoxia, aplique la regla: **«Oxígeno al 100% y desciende»**. Active el flujo completo y baje por debajo de los 10.000 ft sin dudarlo. A partir de cierta altitud, el TUC no permite pensar ni actuar correctamente.
+:::
 
 ### Prevención y tratamiento
 
@@ -95,9 +91,7 @@ Disponga de un *checklist* de emergencia para hipoxia, ya que el razonamiento pu
 
 ### Causas y mecanismo
 
-La hiperventilación
-Hiperventilación
- es una respiración anormalmente rápida o profunda que no está causada por falta de oxígeno, sino por situaciones de estrés o ansiedad. En el planeador puede desencadenarse por turbulencias intensas, situaciones fuera de campo complicadas o decisiones difíciles en vuelo.
+La hiperventilación es una respiración anormalmente rápida o profunda que no está causada por falta de oxígeno, sino por situaciones de estrés o ansiedad. En el planeador puede desencadenarse por turbulencias intensas, situaciones fuera de campo complicadas o decisiones difíciles en vuelo.
 
 Al hiperventilar, el piloto expulsa CO~2~ en exceso. El organismo regula el flujo sanguíneo cerebral en función del nivel de CO~2~ disuelto en sangre: cuando ese nivel cae (hipocapnia), los vasos sanguíneos cerebrales se contraen, reduciendo el aporte de oxígeno al cerebro a pesar de que los pulmones están cargados de él. El resultado paradójico es que el piloto se asfixia con los pulmones llenos.
 
@@ -111,6 +105,7 @@ Los síntomas de la hiperventilación son similares a los de la hipoxia, lo que 
 * Mareo, náuseas y somnolencia.
 * En casos graves, pérdida de conciencia.
 
+::: {.callout-tip}
 ✦ **REGLA DE ORO**
 
 Para distinguir hipoxia de hiperventilación, evalúe dos factores: **altitud** y **estado emocional**.
@@ -119,6 +114,7 @@ Para distinguir hipoxia de hiperventilación, evalúe dos factores: **altitud** 
 * Si está por debajo de 10.000 ft y experimenta hormigueo con sudoración y ansiedad: probable **hiperventilación**. Reduzca el ritmo respiratorio.
 
 En caso de duda a gran altitud, priorice el tratamiento de la hipoxia.
+:::
 
 ### Tratamiento
 
@@ -140,7 +136,7 @@ No aporte oxígeno suplementario si diagnostica hiperventilación y no está a g
 ::: {.callout-important}
 ⚖ **NORMATIVA**
 
-**** «El piloto al mando deberá garantizar que todas las personas a bordo utilicen oxígeno suplementario cuando determine que, a la altitud de vuelo prevista, la falta de oxígeno podría ocasionar la disminución de sus facultades o resultarles dañina.»
+**SAO.OP.150:** «El piloto al mando deberá garantizar que todas las personas a bordo utilicen oxígeno suplementario cuando determine que, a la altitud de vuelo prevista, la falta de oxígeno podría ocasionar la disminución de sus facultades o resultarles dañina.»
 
 **AMC1 SAO.OP.150:** cuando el piloto no pueda determinar ese efecto, el oxígeno deberá usarse siempre que la altitud de presión supere los **10.000 ft**.
 :::
@@ -160,7 +156,7 @@ Para vuelos **nocturnos o al atardecer** se recomienda —no lo exige la norma�
 En los planeadores se utilizan principalmente dos tipos de sistemas:
 
 * **Sistema de flujo continuo:** Suministra un caudal constante de oxígeno regulado por el piloto (habitualmente 2 a 2,5 L/min). Es sencillo, fiable y económico, pero consume oxígeno también durante la exhalación, lo que limita la autonomía y reseca las mucosas nasales. Según la doctrina FAA, no se recomienda por encima de **25.000 ft (FL250)**; más arriba se requieren sistemas de demanda con máscara.
-* **Sistema a demanda pulsada (** Detecta el inicio de cada inspiración mediante sensores barométricos y libera únicamente el volumen necesario, interrumpiendo el flujo durante la exhalación. Puede multiplicar por tres o cuatro la autonomía de la botella respecto al flujo continuo. El principal inconveniente es su dependencia de pilas de 9 V, que pueden fallar a temperaturas muy bajas; se recomienda conectarlo a la batería principal del planeador y usar la pila como respaldo.
+* **Sistema a demanda pulsada (*Electronic Demand System*, EDS):** Detecta el inicio de cada inspiración mediante sensores barométricos y libera únicamente el volumen necesario, interrumpiendo el flujo durante la exhalación. Puede multiplicar por tres o cuatro la autonomía de la botella respecto al flujo continuo. El principal inconveniente es su dependencia de pilas de 9 V, que pueden fallar a temperaturas muy bajas; se recomienda conectarlo a la batería principal del planeador y usar la pila como respaldo.
 
 ### Inspección, uso, mantenimiento y seguridad
 
@@ -176,9 +172,7 @@ Antes de cada vuelo en altitud, compruebe visualmente la botella, las conexiones
 
 ## Pulsioxímetro
 
-El pulsioxímetro
-Pulsioxímetro
- es un dispositivo no invasivo que mide la saturación de oxígeno en sangre (SpO~2~) y la frecuencia cardíaca en tiempo real (). Es el instrumento más útil para detectar hipoxia antes de que los síntomas sean evidentes para el propio piloto.
+El pulsioxímetro es un dispositivo no invasivo que mide la saturación de oxígeno en sangre (SpO~2~) y la frecuencia cardíaca en tiempo real (). Es el instrumento más útil para detectar hipoxia antes de que los síntomas sean evidentes para el propio piloto.
 
 ![Pulsioxímetro de dedo mostrando lectura de saturación de oxígeno y frecuencia cardíaca](imagenes/02-cap04-pulsioximetro.jpg){#fig-02-cap04-pulsioximetro}
 
@@ -191,8 +185,6 @@ Un valor de SpO~2~ por debajo del **90%** indica hipoxia franca y requiere acci�
 
 Registre sus valores de SpO~2~ a distintas altitudes durante los vuelos habituales (a 3.000 m, a 5.000 m) para conocer su respuesta individual y tener referencias personales. No todos los pilotos responden igual a la altitud.
 :::
-
- 
 
 **Resumen del capítulo: Uso de oxígeno**
 

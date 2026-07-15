@@ -12,9 +12,7 @@ En este capítulo aprenderás:
 
 Toda aeronave civil debe estar registrada en un país y llevar sus marcas de identidad bien visibles. Es como la matrícula de un coche, pero con rango internacional.
 
-En España, la marca de nacionalidad es `EC`, seguida de un guion y tres letras: por ejemplo, `EC-BOH`. Estas marcas las asigna el Estado (AESA
-AESA (Agencia Estatal de Seguridad Aérea)
-) y son únicas para cada aeronave.
+En España, la marca de nacionalidad es `EC`, seguida de un guion y tres letras: por ejemplo, `EC-BOH`. Estas marcas las asigna el Estado (AESA) y son únicas para cada aeronave.
 
 ::: {.callout-important}
 ⚖ **NORMATIVA**
@@ -26,9 +24,7 @@ El artículo 20 del Convenio de Chicago establece que toda aeronave empleada en 
 
 No basta con pintar las letras donde quepan: su posición y tamaño están regulados para que sean legibles desde el suelo o desde otras aeronaves.
 
-Según la normativa española (y el Anexo 7 de OACI
-OACI (Organización de Aviación Civil Internacional / ICAO)
-), en los aerodinos (aviones y planeadores):
+Según la normativa española (y el Anexo 7 de OACI), en los aerodinos (aviones y planeadores):
 
 1. **En las alas**: en la superficie inferior (intradós) del ala izquierda, o abarcando ambas alas, con una altura mínima de **50 centímetros**.
 2. **En la cola o el fuselaje**: en ambos lados del fuselaje (entre las alas y la cola) o en las superficies verticales de cola, con una altura mínima de **30 centímetros**.
@@ -49,19 +45,17 @@ En ella van grabados la marca de nacionalidad, la matrícula y los datos de fabr
 Nunca pintes encima de la placa de identificación ni la cubras. Su función es vital en caso de investigación de accidentes. Si restauras el planeador, asegúrate de que la placa sigue ahí y es legible.
 :::
 
- 
-
 ![Ejemplo de placa de identificación ignífuga](imagenes/01-cap03-placa-ignifuga.jpg){#fig-01-cap03-placa-ignifuga}
 
 ## La bandera de España
 
 Junto a las letras, es obligatorio llevar la **bandera de España**, normalmente en la deriva o en el fuselaje, por encima de la matrícula y paralela a la línea de vuelo. Es el símbolo de la nacionalidad de la aeronave y de la soberanía del estado que la registra.
 
+::: {.callout-tip}
 ✦ **REGLA DE ORO**
 
-**EC** = Nemotecnia **. La marca oficial OACI para España es "EC".
-
-
+**EC** = Nemotecnia ***E**spaña **C**ivil*. La marca oficial OACI para España es "EC".
+:::
 
 **Resumen del Capítulo: Marcas y Matrícula**
 

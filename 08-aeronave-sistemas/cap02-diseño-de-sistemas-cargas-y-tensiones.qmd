@@ -8,15 +8,13 @@ En este capítulo aprenderás:
 * **Las categorías de diseño** Utilitaria y Acrobática según CS-22 y sus límites en g.
 * **Carga límite y carga de rotura**: qué protege el factor de seguridad de 1,5 y qué no.
 * **La fatiga estructural** de los composites y sus inspecciones de vida útil.
-* **El flameo (**: la vibración que puede desintegrar un planeador en segundos.
+* **El flameo (**flutter**)**: la vibración que puede desintegrar un planeador en segundos.
 
-Un planeador no solo tiene que ser aerodinámicamente eficiente; también tiene que aguantar las fuerzas de la atmósfera y las maniobras del piloto. Ese diseño estructural se rige por normas estrictas (como la CS-22
-CS-22 (Certification Specifications for Sailplanes)
- de EASA (European Union Aviation Safety Agency)), que fijan cuánta carga debe soportar la aeronave antes de sufrir daños.
+Un planeador no solo tiene que ser aerodinámicamente eficiente; también tiene que aguantar las fuerzas de la atmósfera y las maniobras del piloto. Ese diseño estructural se rige por normas estrictas (como la CS-22 de EASA (European Union Aviation Safety Agency)), que fijan cuánta carga debe soportar la aeronave antes de sufrir daños.
 
 ## El factor de carga (n)
 
-El **** (en "g") es la relación entre la sustentación total que generan las alas y el peso del planeador. En vuelo recto y nivelado vale 1g: las alas sostienen exactamente el peso del avión. En un viraje escarpado, o al tirar de la palanca para salir de un picado, ese valor sube y la estructura trabaja mucho más.
+El **factor de carga** (en "g") es la relación entre la sustentación total que generan las alas y el peso del planeador. En vuelo recto y nivelado vale 1g: las alas sostienen exactamente el peso del avión. En un viraje escarpado, o al tirar de la palanca para salir de un picado, ese valor sube y la estructura trabaja mucho más.
 
 En el viraje, el factor de carga crece con la inclinación, porque las alas tienen que generar más sustentación para sostener el peso mientras curvan la trayectoria. La relación no es lineal:
 
@@ -28,16 +26,12 @@ En el viraje, el factor de carga crece con la inclinación, porque las alas tien
 
 A 60° de alabeo el planeador "pesa" el doble: un velero de 500 kg somete sus alas a 1.000 kg. Por eso un viraje muy escarpado, sobre todo a baja velocidad, acerca peligrosamente a la pérdida.
 
- 
-
 ## Categorías de diseño
 
 No todos los planeadores se diseñan para los mismos esfuerzos. La normativa europea distingue principalmente dos categorías:
 
 * **Categoría Utilitaria (U)**: para el vuelo normal, térmica y navegación. Certificada para soportar +5,3g y -2,65g a la velocidad de maniobra. Esos límites se estrechan al aumentar la velocidad hasta +4,0g y -1,5g a la velocidad de picado (V~D~); la envolvente completa (el diagrama V-n) se detalla en el **Libro 5 — Principios de vuelo**, capítulo 5.
 * **Categoría Acrobática (A)**: para maniobras extremas, con límites de +7g y -5g.
-
- 
 
 ::: {.callout-important}
 ⚖ **NORMATIVA**
@@ -47,16 +41,12 @@ No todos los planeadores se diseñan para los mismos esfuerzos. La normativa eur
 Los límites concretos de tu aeronave están en su Manual de Vuelo. Consúltalos antes de volar un modelo nuevo.
 :::
 
- 
-
 ## Carga límite y carga de rotura
 
 En la certificación se manejan dos conceptos clave:
 
-1. ****: el esfuerzo máximo que el planeador soporta sin deformación permanente. Tras alcanzarla, la estructura debe recuperar su forma original sin daños.
-2. ****: el valor al que la estructura falla de forma catastrófica. Por norma general se aplica un factor de seguridad de 1,5, así que un planeador con carga límite de 5,3g tendría una carga de rotura teórica de unos 8,0g.
-
- 
+1. **Carga límite**: el esfuerzo máximo que el planeador soporta sin deformación permanente. Tras alcanzarla, la estructura debe recuperar su forma original sin daños.
+2. **Carga de rotura (ultimate load)**: el valor al que la estructura falla de forma catastrófica. Por norma general se aplica un factor de seguridad de 1,5, así que un planeador con carga límite de 5,3g tendría una carga de rotura teórica de unos 8,0g.
 
 ::: {.callout-warning}
 ⚠ **SEGURIDAD**
@@ -64,27 +54,19 @@ En la certificación se manejan dos conceptos clave:
 No uses nunca el factor de seguridad como "margen de maniobra". Ese 1,5 está para cubrir imperfecciones del material o condiciones atmosféricas imprevistas, no para que el piloto vuele fuera de límites.
 :::
 
- 
-
 ## Fatiga y vida útil
 
 La fibra de vidrio y la de carbono resisten muy bien, pero no son eternas. Con los años y las horas de vuelo, las tensiones repetidas y los aterrizajes acaban generando microfisuras o delaminación.
 
 Por eso los fabricantes establecen programas de inspección de vida útil. Es habitual que las aeronaves de fibra pasen revisiones estructurales profundas a las 3.000, 6.000 y 9.000 horas de vuelo para confirmar que la estructura sigue siendo segura.
 
- 
-
 ## Flameo (flutter): la vibración mortal
 
-El **** o *flutter* es una vibración autoexcitada que aparece cuando las fuerzas aerodinámicas interactúan de forma descontrolada con la elasticidad del ala o de los timones. Es un fenómeno violentísimo, capaz de desintegrar una aeronave en segundos.
+El **flameo** o *flutter* es una vibración autoexcitada que aparece cuando las fuerzas aerodinámicas interactúan de forma descontrolada con la elasticidad del ala o de los timones. Es un fenómeno violentísimo, capaz de desintegrar una aeronave en segundos.
 
 Tiene que ver directamente con la velocidad. La V~NE~ (Velocidad Nunca Exceder) se certifica precisamente con un margen de seguridad respecto a la velocidad a la que aparece el flameo. Pero ese margen no es un cheque en blanco: un planeador con holguras en los mandos, con masas de equilibrado mal ajustadas tras una reparación o con agua acumulada en las superficies de control puede entrar en flameo incluso por debajo de la V~NE~. De ahí que el equilibrado de las superficies de control se verifique después de cualquier reparación o repintado.
 
- 
-
 ![El diagrama V-n o envolvente de vuelo](imagenes/08-cap02-diagrama-vn.jpg){#fig-08-cap02-diagrama-vn}
-
- 
 
 **Resumen del capítulo: cargas y diseño**
 

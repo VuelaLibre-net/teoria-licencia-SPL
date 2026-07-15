@@ -4,9 +4,7 @@ La información es seguridad; un piloto que ignora los NOTAM es un piloto que vu
 
 En este capítulo aprenderás:
 
-* Las tres fuentes de información: AIP
-  AIP (Publicación de Información Aeronáutica)
-   (permanente), NOTAM (urgente) y AIC (informativo).
+* Las tres fuentes de información: AIP (permanente), NOTAM (urgente) y AIC (informativo).
 * El deber legal del piloto de consultar la información disponible antes del vuelo.
 * Cómo usar ENAIRE Insignia para ver las restricciones sobre el mapa.
 
@@ -42,11 +40,11 @@ Consultar los NOTAM de tu aeródromo de salida, destino, alternativos y la ruta 
 
 Son avisos que no justifican un NOTAM (no afectan a la operación de forma urgente y directa) pero conviene conocer: asuntos administrativos como nuevas tasas, recomendaciones de seguridad estacionales, prevención de engelamiento o explicaciones técnicas.
 
+::: {.callout-tip}
 ✦ **REGLA DE ORO**
 
 En España, puedes consultar todo esto gratis en los portales **ICARO** e **Insignia** de ENAIRE. Insignia es una herramienta visual fantástica para ver NOTAMs sobre el mapa. Acostúmbrate a usarla.
-
- 
+:::
 
 **Resumen del Capítulo: Servicio de Información Aeronáutica (AIS)**
 

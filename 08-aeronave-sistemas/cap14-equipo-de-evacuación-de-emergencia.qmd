@@ -14,8 +14,8 @@ En una situación extrema, el equipo de emergencia y tu capacidad de supervivenc
 
 Si tienes un accidente o una toma forzosa en una zona remota, necesitas que los servicios de búsqueda y rescate (SAR) te encuentren rápido.
 
-* ****: va instalada de forma fija en el planeador. Se activa sola por el impacto (G) o a mano.
-* ****: baliza portátil que el piloto lleva en el bolsillo o en el paracaídas. Se activa a mano.
+* **ELT (Emergency Locator Transmitter)**: va instalada de forma fija en el planeador. Se activa sola por el impacto (G) o a mano.
+* **PLB (Personal Locator Beacon)**: baliza portátil que el piloto lleva en el bolsillo o en el paracaídas. Se activa a mano.
 
 ::: {.callout-important}
 ⚖ **NORMATIVA**
@@ -23,13 +23,9 @@ Si tienes un accidente o una toma forzosa en una zona remota, necesitas que los 
 Asegúrate de que tu baliza emite en 406 MHz. Las antiguas señales de 121.5 MHz ya no se vigilan por satélite; solo sirven para el rastreo cercano (*homing*) de los equipos de rescate. Y la baliza debe estar registrada oficialmente.
 :::
 
- 
-
 ## Sistemas de oxígeno e hipoxia
 
-A medida que subes, la presión atmosférica baja y a tus pulmones les llegan menos moléculas de oxígeno. Eso provoca la ****, con síntomas traicioneros: euforia, falta de concentración, visión de túnel. La fisiología completa de la hipoxia, el tiempo de conciencia útil y la regla «oxígeno al 100 % y desciende» se estudian en el **Libro 2 — Factores humanos, capítulo 4**. Aquí nos centramos en el equipo y en la norma.
-
- 
+A medida que subes, la presión atmosférica baja y a tus pulmones les llegan menos moléculas de oxígeno. Eso provoca la **hipoxia**, con síntomas traicioneros: euforia, falta de concentración, visión de túnel. La fisiología completa de la hipoxia, el tiempo de conciencia útil y la regla «oxígeno al 100 % y desciende» se estudian en el **Libro 2 — Factores humanos, capítulo 4**. Aquí nos centramos en el equipo y en la norma.
 
 ::: {.callout-important}
 ⚖ **NORMATIVA**
@@ -39,18 +35,12 @@ A medida que subes, la presión atmosférica baja y a tus pulmones les llegan me
 El **AMC1 SAO.OP.150** concreta el criterio: cuando el piloto no pueda valorar ese efecto, debe garantizar que todos los ocupantes usan oxígeno durante cualquier período en que la altitud de presión supere los 10.000 ft.
 :::
 
- 
-
 Como buena práctica fisiológica, que no como requisito normativo, muchos pilotos usan oxígeno desde altitudes menores (en torno a 5.000 ft) al atardecer, porque la visión es lo primero que se resiente con la falta de oxígeno.
-
- 
 
 ## Equipos de oxígeno
 
 1. **Flujo continuo**: el oxígeno sale sin parar de un depósito a través de una cánula o una máscara. Es sencillo, pero poco eficiente: gasta mucho gas.
-2. ****: dispositivos que detectan tu inspiración y sueltan un pulso de oxígeno justo cuando lo necesitas. Multiplican por tres o cuatro la duración de la botella.
-
- 
+2. **Sistemas EDS (Electronic Delivery System)**: dispositivos que detectan tu inspiración y sueltan un pulso de oxígeno justo cuando lo necesitas. Multiplican por tres o cuatro la duración de la botella.
 
 ## Kit de supervivencia esencial
 
@@ -61,11 +51,7 @@ No despegues sin un kit básico de supervivencia, sobre todo si vuelas sobre mon
 * **Protección térmica**: una manta de supervivencia (foil) para no entrar en hipotermia si te toca pasar la noche fuera.
 * **Energía**: un teléfono móvil con la batería cargada y, a poder ser, una batería externa (powerbank).
 
- 
-
 ![Componentes esenciales del kit de supervivencia y baliza PLB](imagenes/08-cap14-equipo-supervivencia.jpg){#fig-08-cap14-equipo-supervivencia}
-
- 
 
 **Resumen del capítulo: equipo de emergencia**
 

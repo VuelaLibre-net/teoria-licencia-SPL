@@ -16,9 +16,7 @@ El planeador vuela sin motor, pero no sin electricidad. La radio, el transponded
 En la aviación de recreo predominan dos tecnologías:
 
 * **Plomo-ácido (gel/AGM)**: las más comunes por su bajo coste y su fiabilidad. Van selladas y no necesitan mantenimiento, pero pesan lo suyo (entre 2,5 y 4 kg por unidad).
-* ****: mucho más ligeras y con una descarga más plana (mantienen el voltaje casi hasta el final). A cambio, piden cargadores específicos y un manejo cuidadoso para evitar incendios por cortocircuito.
-
- 
+* **Litio (LiFePO4)**: mucho más ligeras y con una descarga más plana (mantienen el voltaje casi hasta el final). A cambio, piden cargadores específicos y un manejo cuidadoso para evitar incendios por cortocircuito.
 
 ## Ubicación y seguridad estructural
 
@@ -26,15 +24,11 @@ La batería suele ir en la sección central del fuselaje, detrás del piloto, o 
 
 Por su densidad de peso, su fijación es un punto crítico de inspección. Una batería mal sujeta se convierte en un proyectil mortal en un aterrizaje brusco o un accidente.
 
- 
-
 ::: {.callout-important}
 ⚖ **NORMATIVA**
 
 **CS 22.561(d)** exige que la estructura de soporte retenga cualquier masa que pueda lesionar a un ocupante si se suelta en un aterrizaje de emergencia, soportando las fuerzas de inercia últimas de **CS 22.561(b)(1)**: 15g hacia delante, 9g hacia abajo, 7,5g hacia arriba y 6g lateral. No sujetes nunca la batería con gomas elásticas ni montajes improvisados: usa los soportes o cinchas aprobados por el fabricante y comprueba su firmeza en cada inspección prevuelo.
 :::
-
- 
 
 ## Gestión de la energía en vuelo
 
@@ -44,8 +38,6 @@ Pero el rendimiento cae mucho con el frío: a 0 °C te queda en torno al 80 % de
 
 Y si vas a volar en nubes (con la habilitación correspondiente), no despegues sin las baterías prácticamente llenas: sin referencias visuales, tus instrumentos son lo único que te mantiene con las alas niveladas, y quedarte sin energía dentro de una nube es una emergencia mayor. La norma no fija un porcentaje concreto; la gestión de la energía disponible es responsabilidad tuya (SAO.OP.145 en los motorizados).
 
- 
-
 ## Protección del sistema: fusibles
 
 Todo el sistema eléctrico tiene que ir protegido para evitar incendios.
@@ -53,17 +45,13 @@ Todo el sistema eléctrico tiene que ir protegido para evitar incendios.
 * **Fusibles**: se instalan lo más cerca posible del terminal positivo de la batería. Un valor típico en planeadores es de 5 amperios, aunque el correcto es siempre el que indique el esquema eléctrico de tu aeronave.
 * **Disyuntores (breakers)**: en planeadores con motor, por el alto consumo del arranque, se usan disyuntores que pueden rearmarse en vuelo.
 
- 
-
+::: {.callout-tip}
 ✦ **REGLA DE ORO**
 
 Lleva siempre fusibles de repuesto en el bolsillo de la cabina. Si uno se funde en vuelo, cámbialo una vez. Si vuelve a fundirse, desconecta el equipo afectado: tienes un cortocircuito serio que puede acabar en fuego eléctrico.
-
- 
+:::
 
 ![Diagrama del sistema eléctrico básico y ubicación de la batería](imagenes/08-cap12-sistema-electrico.jpg){#fig-08-cap12-sistema-electrico}
-
- 
 
 **Resumen del capítulo: baterías y sistema eléctrico**
 

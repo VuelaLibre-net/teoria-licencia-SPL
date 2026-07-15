@@ -23,7 +23,7 @@ Este orden de prioridades es invariable. No importa cuál sea la emergencia espe
 
 ### Rotura de cable o fallo de remolque
 
-Ante un **** —rotura del cable de torno o fallo del motor del remolcador—, la reacción del piloto debe ser inmediata y automatizada. La metodología internacional estructura la respuesta de emergencia en torno a la mnemotecnia de **las 3 P**:
+Ante un **fallo de lanzamiento** —rotura del cable de torno o fallo del motor del remolcador—, la reacción del piloto debe ser inmediata y automatizada. La metodología internacional estructura la respuesta de emergencia en torno a la mnemotecnia de **las 3 P**:
 
 1. **Palanca:** empuja la palanca de mando adelante de inmediato (morro abajo) para estabilizar el planeador en actitud de planeo normal. En la actitud empinada de ascenso, la velocidad cae drásticamente y un retraso de más de dos segundos en bajar el morro causará una pérdida inminente.
 2. **Pulsador:** tira de la anilla de suelta del cable con fuerza dos o tres veces. Así te aseguras de que el cable roto se desengancha por completo del planeador y no arrastras restos que puedan engancharse en obstáculos del terreno (vallas, cultivos) durante la aproximación.
@@ -31,11 +31,11 @@ Ante un **** —rotura del cable de torno o fallo del motor del remolcador—, l
 
 La toma de decisiones táctica depende directamente de la altura AGL alcanzada en el momento del fallo y del método de lanzamiento utilizado, ya que la velocidad de ascenso y la distancia horizontal a la pista difieren drásticamente entre el torno y el avión tractor ():
 
-* **En lanzamiento por torno (** la trayectoria de trepada es muy empinada y el planeador gana altura muy cerca del inicio de la pista. Las franjas de decisión de seguridad son:
+* **En lanzamiento por torno (**winch**):** la trayectoria de trepada es muy empinada y el planeador gana altura muy cerca del inicio de la pista. Las franjas de decisión de seguridad son:
 * **Baja altura (menos de 150 m AGL):** mantén el planeador recto por derecho, estabiliza la velocidad de planeo de seguridad y aterriza en la pista restante o en los campos de parada libre al frente. **Está terminantemente prohibido intentar virar de vuelta a pista por debajo de esta cota** debido a la alta actitud de morro y el peligro inminente de barrena.
 * **Altura crítica (entre 150 m y 200 m AGL):** si no queda suficiente pista por delante, vuela a velocidad segura y realiza un circuito abreviado y muy recortado. Vira inicialmente con un alabeo coordinado medio (máximo 30°), adaptándolo al viento reinante para asegurar el tramo final de cara al viento.
 * **Altura de seguridad (más de 200 m AGL):** estabiliza la velocidad de planeo y realiza un circuito de tráfico abreviado estándar.
-* **En remolque por avión (** el despegue es más tendido y el planeador se desplaza horizontalmente lejos de la pista de salida. Las franjas de decisión son:
+* **En remolque por avión (**aerotow**):** el despegue es más tendido y el planeador se desplaza horizontalmente lejos de la pista de salida. Las franjas de decisión son:
 * **Baja altura (menos de 70 m, ≈230 ft AGL):** aterriza recto por delante en la pista restante o en campos libres al frente, esquivando obstáculos con pequeños cambios de rumbo (máximo 30°).
 * **Altura crítica (entre 70 m ≈230 ft y 150 m ≈490 ft AGL):** evalúa la longitud de pista y el viento. Si es necesario retornar, inicia el viraje **hacia la componente de viento cruzado**, coordinado y con un alabeo franco de unos 45°: el viento te devuelve hacia la prolongación de la pista durante el giro, mientras que virar a favor del viento alarga el recorrido y la altura perdida. Si el retorno no sale a cuenta, realiza una aproximación recortada al campo alternativo más seguro.
 * **Altura de seguridad (más de 150 m ≈ 500 ft AGL):** realiza un circuito recortado o normal de aproximación.
@@ -48,8 +48,6 @@ La toma de decisiones táctica depende directamente de la altura AGL alcanzada e
 Ante un fallo de lanzamiento a altura crítica, **un aterrizaje fuera de los límites del aeródromo (aterrizaje forzoso recto por delante) es siempre preferible a intentar un viraje de retorno forzado a baja altura**. Forzar el viraje para "salvar" el planeador y volver a la pista es la causa principal de pérdidas y barrenas fatales.
 :::
 
- 
-
 ::: {.callout-warning}
 ⚠ **SEGURIDAD: «LA MANIOBRA IMPOSIBLE»**
 
@@ -58,7 +56,7 @@ Intentar regresar al aeródromo virando 180° a baja altura —lo que en aviaci�
 
 ### Fallo de suelta / gancho atascado (*towhook jam*)
 
-Si durante un remolque por avión intentas soltarte y la anilla de suelta no responde (el cable permanece enganchado), te encuentras ante un ****. Es una emergencia coordinada de alta prioridad que requiere una señalización visual estandarizada para comunicarte con el piloto del remolcador.
+Si durante un remolque por avión intentas soltarte y la anilla de suelta no responde (el cable permanece enganchado), te encuentras ante un **fallo de suelta**. Es una emergencia coordinada de alta prioridad que requiere una señalización visual estandarizada para comunicarte con el piloto del remolcador.
 
 Aplica de inmediato el siguiente procedimiento:
 
@@ -102,12 +100,12 @@ Un bloqueo parcial de mandos en vuelo —por un objeto suelto en la cabina, una 
 
 ### Flutter (vibración estructural)
 
-El **** es una vibración aeroelástica autosustentada que se produce a altas velocidades, cuando la respuesta aerodinámica y la inercia estructural del ala o del timón entran en resonancia. No es un traqueteo suave: es una vibración explosiva que puede destruir la superficie afectada en cuestión de segundos.
+El **flutter** es una vibración aeroelástica autosustentada que se produce a altas velocidades, cuando la respuesta aerodinámica y la inercia estructural del ala o del timón entran en resonancia. No es un traqueteo suave: es una vibración explosiva que puede destruir la superficie afectada en cuestión de segundos.
 
 Las causas más frecuentes son el exceso de velocidad —superar la V~NE~ (Velocidad Nunca Exceder) o aproximarse a ella en vuelo descendente—, el daño estructural previo o el mal equilibrado de una superficie de control tras una reparación.
 
 ::: {.callout-warning}
-⚠ **SEGURIDAD: **
+⚠ **SEGURIDAD: **FLUTTER****
 
 Si experimentas una vibración fuerte y descontrolada, **reduce la velocidad de inmediato**: sube el morro suavemente y abre los aerofrenos para frenar aerodinámicamente. El *flutter* solo ocurre a altas velocidades y puede destruir el planeador en segundos. Nunca intentes aumentar la velocidad para «salir» de una vibración: es la acción exactamente contraria a lo que necesitas. Tras cualquier episodio de vibración anormal, el planeador debe ser inspeccionado por un técnico antes de volar de nuevo.
 :::
@@ -135,7 +133,7 @@ Si la cúpula de tu planeador no quedó correctamente pestillada en los chequeos
 
 El procedimiento de seguridad exige las siguientes acciones inmediatas:
 
-1. **Vuela el planeador primero (** tu prioridad absoluta es mantener el control de la aeronave. Ignora la cúpula por completo en los primeros segundos. **No intentes cerrarla ni sujetarla** si estás a baja altura o en pleno viraje: perderías la atención al pilotaje y podrías inducir una actitud inusual o una pérdida. Tu planeador puede seguir volando perfectamente con la cúpula abierta.
+1. **Vuela el planeador primero (**Aviate**):** tu prioridad absoluta es mantener el control de la aeronave. Ignora la cúpula por completo en los primeros segundos. **No intentes cerrarla ni sujetarla** si estás a baja altura o en pleno viraje: perderías la atención al pilotaje y podrías inducir una actitud inusual o una pérdida. Tu planeador puede seguir volando perfectamente con la cúpula abierta.
 2. **Resiste el ruido y el torbellino:** el ruido será ensordecedor y habrá objetos sueltos volando en cabina, pero el planeador seguirá volando perfectamente. Si llevas gafas de sol y cinturones de seguridad bien ajustados, estarás seguro.
 3. **Establece una senda de planeo más pronunciada:** una cúpula abierta o parcialmente desprendida genera un **incremento masivo de la resistencia aerodinámica** (**drag**). Tu ángulo de planeo se deteriorará considerablemente. Para mantener la velocidad de seguridad, deberás adoptar una actitud de morro más baja (senda de aproximación más pronunciada y mayor tasa de descenso).
 4. **Planifica el aterrizaje:** si estás en el despegue, continúa el remolque estabilizado hasta una altura segura si es posible, o suelta y haz un circuito normal. Vuela un circuito de tráfico adaptado a una mayor tasa de descenso y aterriza en el aeródromo lo antes posible. Solo intenta cerrar la cúpula si estás a gran altura de seguridad, en vuelo coordinado y con una sola mano, sin dejar de pilotar.
@@ -165,15 +163,11 @@ El piloto debe gestionar esta asimetría aplicando la siguiente técnica:
 Un ala cargada con decenas de litros de agua tiene una velocidad de pérdida muy superior al ala vacía. En caso de vaciado asimétrico, si permites que la velocidad caiga demasiado en el tramo final o en el viraje de base, el ala pesada entrará en pérdida de forma asimétrica y repentina, provocando una barrena (**spin**) instantánea e irrecuperable a baja altura. Mantener la velocidad recomendada en circuito es tu defensa absoluta.
 :::
 
- 
-
 ::: {.callout-important}
 ⚖ **NORMATIVA**
 
 Las alturas de decisión que aparecen en este capítulo (150 y 200 m en torno; 70 y 150 m en remolque) y la escalera de decisión del aterrizaje fuera de campo son **valores formativos de referencia**, no cifras normativas: la cota crítica real de cada planeador la fijan su AFM y las instrucciones locales del campo (longitud de pista, obstáculos, viento habitual). Apréndelas como orden de magnitud y ajústalas a tu aeronave y a tu aeródromo con tu instructor.
 :::
-
- 
 
 Como ficha de repaso rápido, esta tabla resume la respuesta inmediata a cada emergencia del capítulo (el detalle está en cada apartado):
 
@@ -190,24 +184,22 @@ Como ficha de repaso rápido, esta tabla resume la respuesta inmediata a cada em
 
 : Síntoma → acción inmediata en las emergencias del capítulo
 
-
-
 **Resumen del Capítulo: Procedimientos de emergencia**
 
 * **Regla universal**: ante cualquier emergencia en el lanzamiento, lo primero siempre es **bajar el morro** para recuperar velocidad y evitar la pérdida. Después, suelta el cable y decide.
 * **Rotura de cable según el método de lanzamiento**:
   
-  * **Torno (**:
+  * **Torno (**winch**)**:
   * **< 150 m**: aterriza recto por derecho. No intentes virar.
   * **150 - 200 m**: circuito abreviado recortado adaptado al viento.
   * **> 200 m**: circuito de tráfico normal.
-  * **Avión (**:
+  * **Avión (**aerotow**)**:
   * **< 70 m**: aterriza recto por delante.
   * **70 - 150 m**: retorno o circuito recortado (el viraje de retorno se inicia hacia el viento cruzado, con alabeo franco de unos 45°).
   * **> 150 m**: circuito abreviado o normal.
 * **«La maniobra imposible»**: intentar volver a pista a baja altura es letal. Si estás por debajo de la cota crítica (150 m en torno / 70 m en avión) y no hay pista, aterriza de frente.
 * **Fallo de gancho (aerotow)**: si no puedes soltar, sitúate **bajo y a la izquierda** del remolcador y alabea para avisarle; nunca por encima, que le levantarías la cola (**kiting**). Él soltará. Aterriza con el cable colgando planeando una final alta para librar vallas y obstáculos.
-* ****: ante una vibración destructiva, **sube el morro y abre los aerofrenos** para reducir la velocidad de inmediato. Nunca aceleres. Inspección obligatoria en tierra.
+* ****Flutter****: ante una vibración destructiva, **sube el morro y abre los aerofrenos** para reducir la velocidad de inmediato. Nunca aceleres. Inspección obligatoria en tierra.
 * **Fallos de instrumentos**: con el pitot bloqueado, vuela por actitud visual de cabeceo y por el sonido del viento en cabina.
 * **Apertura de cúpula**: vuela el planeador primero (**Aviate**). No intentes cerrarla si estás bajo. Baja el morro para contrarrestar el aumento de resistencia.
 * **Lastre asimétrico**: vuela 15-20 km/h más rápido en circuito para mantener la efectividad de los alerones y mantén las alas niveladas al tocar el suelo.

@@ -12,14 +12,14 @@ En este capítulo aprenderás:
 
 ## Estructura del circuito de tráfico
 
-El **** es un procedimiento estandarizado que organiza la llegada al aeródromo de forma predecible y segura para todos los participantes. Su geometría rectangular permite que el piloto tenga siempre visibilidad de la pista y pueda ajustar la energía disponible en cada tramo.
+El **circuito de tráfico** es un procedimiento estandarizado que organiza la llegada al aeródromo de forma predecible y segura para todos los participantes. Su geometría rectangular permite que el piloto tenga siempre visibilidad de la pista y pueda ajustar la energía disponible en cada tramo.
 
 Los cuatro tramos estándar son ():
 
-1. **Viento cruzado (** Tramo perpendicular a la pista, realizado justo tras el despegue o al entrar en el circuito desde la travesía. La altura recomendada al completar el giro a viento cruzado es de 250-300 metros (QFE).
-2. **** (**downwind**): Tramo paralelo a la pista en dirección contraria al aterrizaje. Se vuela a una distancia lateral de 200-400 metros de la pista, a una altura de 200-300 metros. Es el tramo donde se realizan las comprobaciones de la lista FUSTALL (ver sección siguiente).
-3. **** (**base leg**): Tramo perpendicular a la pista, iniciado cuando el punto de toma queda a unos 45° detrás del ala del piloto. La altura recomendada al inicio de la base es de 150 metros.
-4. **** (**final leg**): Tramo alineado con la pista, desde el que se realiza el descenso y la toma. Los aerofrenos se gestionan de forma continua durante este tramo para clavar el punto de toma.
+1. **Viento cruzado (**crosswind**):** Tramo perpendicular a la pista, realizado justo tras el despegue o al entrar en el circuito desde la travesía. La altura recomendada al completar el giro a viento cruzado es de 250-300 metros (QFE).
+2. **Viento en cola** (**downwind**): Tramo paralelo a la pista en dirección contraria al aterrizaje. Se vuela a una distancia lateral de 200-400 metros de la pista, a una altura de 200-300 metros. Es el tramo donde se realizan las comprobaciones de la lista FUSTALL (ver sección siguiente).
+3. **Tramo de base** (**base leg**): Tramo perpendicular a la pista, iniciado cuando el punto de toma queda a unos 45° detrás del ala del piloto. La altura recomendada al inicio de la base es de 150 metros.
+4. **Final** (**final leg**): Tramo alineado con la pista, desde el que se realiza el descenso y la toma. Los aerofrenos se gestionan de forma continua durante este tramo para clavar el punto de toma.
 
 ![Estructura del circuito estándar de tráfico para planeador](imagenes/06-cap04-circuito-estandar.jpg){#fig-06-cap04-circuito-estandar}
 
@@ -35,11 +35,11 @@ Antes de entrar en el tramo de viento en cola, abre los grifos del lastre de agu
 * **L** (**Landing area / Zona de aterrizaje**): escanea la zona de toma y el circuito completo: viento, otras aeronaves y personal en pista. ¿Hay otro planeador en final?
 * **L** (**Land / Aterriza**): con todo verificado, dedica el resto del circuito exclusivamente a volar y aterrizar el planeador.
 
+::: {.callout-tip}
 ✦ **REGLA DE ORO**
 
 Haz el FUSTALL siempre en el mismo punto del viento en cola —por ejemplo, cuando la cabecera de la pista quede a la altura del ala—. La repetición convierte la lista en un hábito y hace prácticamente imposible omitirla. Un piloto que improvisa el momento del chequeo acaba por no hacerlo.
-
- 
+:::
 
 ::: {.callout-note}
 ⚓ **AIRMANSHIP / BUENAS PRÁCTICAS: LA REGLA TRADICIONAL WULF**
@@ -64,7 +64,7 @@ Entrar en final lento con viento en cara es una de las combinaciones más peligr
 
 ## Uso de los aerofrenos
 
-Los **** son el control de planeo del planeador: permiten aumentar la tasa de descenso sin cambiar la actitud ni la velocidad. Son el instrumento que transforma la energía potencial sobrante en frenado aerodinámico y permiten clavar el punto de toma con precisión ().
+Los **aerofrenos** son el control de planeo del planeador: permiten aumentar la tasa de descenso sin cambiar la actitud ni la velocidad. Son el instrumento que transforma la energía potencial sobrante en frenado aerodinámico y permiten clavar el punto de toma con precisión ().
 
 La estrategia más fiable para usar los aerofrenos es la siguiente:
 
@@ -83,7 +83,7 @@ Si en el viraje de base a final observas que vas a pasar de largo el punto de to
 
 ## El resbale lateral (*sideslip*)
 
-El **** (conocido como **sideslip** en la terminología internacional) es una maniobra operativa avanzada que permite aumentar drásticamente la tasa de descenso del planeador sin incrementar su velocidad de avance. Consiste en provocar un resbale de forma deliberada exponiendo el lateral del fuselaje a la corriente de aire, lo que genera una gran resistencia aerodinámica.
+El **resbale lateral** (conocido como **sideslip** en la terminología internacional) es una maniobra operativa avanzada que permite aumentar drásticamente la tasa de descenso del planeador sin incrementar su velocidad de avance. Consiste en provocar un resbale de forma deliberada exponiendo el lateral del fuselaje a la corriente de aire, lo que genera una gran resistencia aerodinámica.
 
 Es el recurso definitivo de control de senda en las siguientes situaciones:
 
@@ -112,7 +112,7 @@ Aunque la regla de oro de la aviación exige aterrizar siempre de cara al viento
 
 El viento de cola altera radicalmente las referencias sensoriales del piloto y la física de la toma:
 
-* **Aumento de la velocidad sobre el suelo (** si tu velocidad de aproximación indicada es de 90 km/h y tienes un viento de cola de 20 km/h, tu velocidad real respecto al suelo será de 110 km/h. La carrera de aterrizaje se alargará mucho más y exigirá más distancia y un uso eficaz del freno de rueda.
+* **Aumento de la velocidad sobre el suelo (**groundspeed**):** si tu velocidad de aproximación indicada es de 90 km/h y tienes un viento de cola de 20 km/h, tu velocidad real respecto al suelo será de 110 km/h. La carrera de aterrizaje se alargará mucho más y exigirá más distancia y un uso eficaz del freno de rueda.
 * **La ilusión visual de velocidad:** al ver pasar el suelo a gran velocidad durante el final y la toma, tu cerebro interpretará falsamente que vas demasiado rápido. La reacción instintiva y peligrosa es tirar de la palanca de mando para frenar el velero. Esto reducirá la velocidad indicada por debajo de la de seguridad y puede provocar una pérdida (**stall**) y entrada en barrena (**spin**) a escasos metros del suelo.
 * **Senda de aproximación plana:** al desplazarte más rápido sobre el terreno, tu ángulo de descenso aparente será mucho más plano. Mantén una senda conservadora utilizando los aerofrenos con precisión.
 
@@ -133,13 +133,11 @@ Durante la fase final de aproximación y la toma de tierra, a bajas velocidades,
 
 ![Oscilación inducida por el piloto (PIO): correcciones desfasadas que se amplifican](imagenes/06-cap04-pio-cabeceo.png){#fig-06-cap04-pio-cabeceo}
 
-
-
 **Resumen del Capítulo: Circuitos y aterrizaje**
 
 * **Circuito estándar**: cuatro tramos —cruzado, viento en cola, base y final— con alturas de referencia: 250-300, 200-300 y 150 metros hasta la toma. El circuito no es un ritual, es un gestor de energía.
 * **FUSTALL en el viento en cola**: **Flaps**, **Undercarriage** (tren fuera y blocado), **Speed** (velocidad de aproximación), **Trim**, **Airbrakes** (aerofrenos libres y cerrados), **Landing area** (viento y tráfico), **Land**. Lastre de agua vaciado antes de entrar al circuito. Hazlo siempre en el mismo punto del recorrido.
 * **Velocidad de aproximación**: calcula tu velocidad base (1,5 V~S~) y **súmale la mitad del viento y de la racha**. Entrar lento con viento es receta para un accidente por cizalladura.
 * **Aerofrenos**: entra en final con el 50 % sacados. Si el punto de toma sube en el parabrisas, cierra; si baja, abre. Nunca cierres bruscamente cerca del suelo: balonazo y golpe de cola.
-* **Resbale lateral (**: método de descenso rápido de emergencia cruzando mandos. Recuerda: **ala baja al viento**, actitud visual de morro bajo (el anemómetro no es fiable por el flujo cruzado) y salida relajando primero la palanca.
+* **Resbale lateral (**sideslip**)**: método de descenso rápido de emergencia cruzando mandos. Recuerda: **ala baja al viento**, actitud visual de morro bajo (el anemómetro no es fiable por el flujo cruzado) y salida relajando primero la palanca.
 * **Viento de cola y PIOs**: en tomas con viento de cola, ignora la velocidad visual del suelo (evita pérdidas de sustentación) y prepárate para un rodaje largo. Si el velero oscila en cabeceo (**PIO**) cerca del suelo, congela la palanca y deja actuar su estabilidad estática.

@@ -122,5 +122,30 @@ class TestDocBookToQMD(unittest.TestCase):
         output = self._convert(xml)
         self.assertIn("El **planeador** vuela en la *atmósfera* según la [LPI](https://ejemplo.com).", output)
 
+    def test_indexterm_suppression(self):
+        # Prueba que los indexterms se omitan pero su tail se conserve
+        xml = """
+        <simpara>La <link linkend="glos-sustentacion">sustentación</link><indexterm>
+<primary>Sustentación (lift)</primary>
+</indexterm> se genera por una diferencia de presiones.</simpara>
+        """
+        output = self._convert(xml)
+        self.assertIn("sustentación se genera por una diferencia de presiones.", output)
+        self.assertNotIn("Sustentación (lift)", output)
+
+    def test_tip_callout(self):
+        # Prueba que <tip> se mapee a un callout-tip de Quarto
+        xml = "<tip><simpara>Consejo de vuelo importante.</simpara></tip>"
+        output = self._convert(xml)
+        self.assertIn("::: {.callout-tip}", output)
+        self.assertIn("Consejo de vuelo importante.", output)
+        self.assertIn(":::", output)
+
+    def test_empty_para_stripped(self):
+        # Prueba que los párrafos vacíos o con solo espacios se omitan
+        xml = "<simpara> </simpara>"
+        output = self._convert(xml)
+        self.assertEqual(output.strip(), "")
+
 if __name__ == '__main__':
     unittest.main()

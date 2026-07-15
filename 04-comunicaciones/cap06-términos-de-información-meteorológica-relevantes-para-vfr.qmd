@@ -4,7 +4,7 @@ La radio aeronáutica tiene su propio vocabulario meteorológico, y conocerlo te
 
 ## ATIS: el servicio automático de información terminal
 
-Sin el **** (**Automatic Terminal Information Service**), los controladores de Torre en aeródromos con tráfico medio o alto pasarían la mitad del día repitiendo lo mismo a cada aeronave que se aproxima. El ATIS existe para librarles de eso.
+Sin el **ATIS** (**Automatic Terminal Information Service**), los controladores de Torre en aeródromos con tráfico medio o alto pasarían la mitad del día repitiendo lo mismo a cada aeronave que se aproxima. El ATIS existe para librarles de eso.
 
 Es una grabación de voz —normalmente sintética— que suena en bucle continuo en una frecuencia VHF propia, separada de la frecuencia de control (). Te dice:
 
@@ -14,27 +14,21 @@ Es una grabación de voz —normalmente sintética— que suena en bucle continu
 
 Cada boletín lleva una letra del alfabeto fonético como **código de información** («Información Bravo», por ejemplo). Cuando cambian significativamente las condiciones o la pista en uso, el boletín avanza a la siguiente letra («Información Charlie»).
 
+::: {.callout-tip}
 ✦ **REGLA DE ORO**
 
 Escucha el ATIS completo **antes** de llamar a la Torre. Luego incluye el código en tu primera llamada: *«Jerez TWR, velero EC-DPE, a 10 millas al norte, con información Bravo, solicito…​»* El controlador sabe que ya tienes todos los datos y puede ir directo al grano.
+:::
 
 ![Secuencia de escucha del ATIS antes del contacto con Torre](imagenes/04-cap06-atis-escucha.jpg){#fig-04-cap06-atis-escucha}
 
- 
-
 ## VOLMET: información meteorológica para aeronaves en vuelo
 
-El ATIS te da el tiempo de un aeropuerto concreto. El **** (de **VOL METéorologique**) te da el tiempo de una región entera.
+El ATIS te da el tiempo de un aeropuerto concreto. El **VOLMET** (de **VOL METéorologique**) te da el tiempo de una región entera.
 
-Es otra emisión pregrabada en bucle, pero en lugar de un aeródromo emite METAR
-METAR (Meteorological Aerodrome Report)
-, pronósticos TAF
-TAF (Terminal Aerodrome Forecast)
- y avisos SIGMET de **un conjunto de aeropuertos de una misma región**.
+Es otra emisión pregrabada en bucle, pero en lugar de un aeródromo emite METAR, pronósticos TAF y avisos SIGMET de **un conjunto de aeropuertos de una misma región**.
 
 En travesías largas (**cross-country**), cuando el tiempo empieza a empeorar y estás valorando un alternativo a decenas de kilómetros, el VOLMET regional te dice exactamente cómo está ese campo sin tener que llamar a nadie. Tomas la decisión con datos reales y la frecuencia de control queda libre.
-
- 
 
 ## Conceptos clave en las transmisiones meteorológicas
 
@@ -42,9 +36,7 @@ Por radio, el tiempo no se describe con palabras propias: se usa terminología e
 
 ### CAVOK
 
-Probablemente la palabra más bienvenida que puedes escuchar en el ATIS. 
-CAVOK (Ceiling And Visibility OK)
- (techo y visibilidad correctos) significa que se cumplen tres condiciones a la vez:
+Probablemente la palabra más bienvenida que puedes escuchar en el ATIS.  (techo y visibilidad correctos) significa que se cumplen tres condiciones a la vez:
 
 1. **Visibilidad** de 10 kilómetros o más.
 2. **Ninguna nube** convectiva (ni Cumulonimbus CB, ni Cumulus Congestus TCU) y ninguna capa de nubes por debajo de 5.000 pies o de la altitud mínima del sector, lo que sea mayor.
@@ -54,8 +46,8 @@ CAVOK (Ceiling And Visibility OK)
 
 El altímetro del planeador es un barómetro: necesita una presión de referencia en la ventanilla para saber a qué altitud estás.
 
-* El **** es la presión atmosférica reducida al nivel medio del mar. Mételo en el altímetro y te dará **la altitud real** sobre el nivel del mar. Es el ajuste que usas en ruta y para respetar los límites verticales de los espacios aéreos (los techos de los CTR van en altitud QNH).
-* El **** es la presión a la elevación del aeródromo. Con el QFE puesto, el altímetro marca **cero pies** en tierra: te indica altura sobre el campo, no altitud. En veleros casi no se usa ya, salvo en operaciones muy locales o acrobacia en aeródromo. El QNH es el ajuste de referencia en las comunicaciones ATS ().
+* El **QNH** es la presión atmosférica reducida al nivel medio del mar. Mételo en el altímetro y te dará **la altitud real** sobre el nivel del mar. Es el ajuste que usas en ruta y para respetar los límites verticales de los espacios aéreos (los techos de los CTR van en altitud QNH).
+* El **QFE** es la presión a la elevación del aeródromo. Con el QFE puesto, el altímetro marca **cero pies** en tierra: te indica altura sobre el campo, no altitud. En veleros casi no se usa ya, salvo en operaciones muy locales o acrobacia en aeródromo. El QNH es el ajuste de referencia en las comunicaciones ATS ().
 
 ![Comparación del altímetro con ajuste QNH y QFE](imagenes/04-cap06-qnh-qfe.jpg){#fig-04-cap06-qnh-qfe}
 
@@ -68,8 +60,6 @@ Cuando calculas el planeo final o la componente cruzada, necesitas saber en qué
 
 ![Diferencia entre viento magnético (radio) y geográfico (mapas)](imagenes/04-cap06-viento-mag-geo.jpg){#fig-04-cap06-viento-magnetico-geografico}
 
- 
-
 ### SIGMET y AIRMET
 
 Dos tipos de avisos meteorológicos que aparecen en el VOLMET y en los briefings prevuelo:
@@ -79,11 +69,9 @@ Dos tipos de avisos meteorológicos que aparecen en el VOLMET y en los briefings
 
 Ambos los encontrarás en el VOLMET regional o en el briefing meteorológico prevuelo. Si un SIGMET activo afecta a tu ruta, evalúa si las condiciones son operables antes de salir.
 
- 
-
 ## AIREP: el informe meteorológico especial en vuelo
 
-El **** (**Aircraft Report**) es el informe que tú, como piloto, transmites al FIS o al ATC cuando encuentras en ruta condiciones meteorológicas peligrosas que no estaban pronosticadas.
+El **AIREP** (**Aircraft Report**) es el informe que tú, como piloto, transmites al FIS o al ATC cuando encuentras en ruta condiciones meteorológicas peligrosas que no estaban pronosticadas.
 
 Si te metes en turbulencia fuerte, engelamiento, tormenta, granizo u ondas orográficas intensas, emites un AIREP especial con tu posición y altitud. Así el ATC puede avisar a los demás tráficos en esa zona.
 
@@ -92,8 +80,6 @@ Si te metes en turbulencia fuerte, engelamiento, tormenta, granizo u ondas orogr
 
 El Reglamento SERA obliga al piloto en mando a notificar sin demora cualquier condición meteorológica peligrosa que pueda afectar a la seguridad de otras aeronaves.
 :::
-
-
 
 **Resumen del capítulo: terminología meteorológica**
 

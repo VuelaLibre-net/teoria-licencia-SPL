@@ -9,9 +9,7 @@ En este capítulo aprenderás:
 * **La gestión del MTOW**: qué le ocurre al planeador cuando lo sobrecargas.
 * **El lastre de agua y el lastre de cola**: cuándo te ayudan y cómo gestionarlos con seguridad.
 
-## Centro de gravedad (CG)
-CG (Centro de gravedad)
- y estabilidad
+## Centro de gravedad (CG) y estabilidad
 
 El centro de gravedad es el punto donde se concentra todo el peso del planeador. De su posición respecto al centro de presiones depende la estabilidad longitudinal: dónde esté el CG decide cómo responde el avión a la palanca.
 
@@ -21,19 +19,17 @@ Tener el CG cerca del límite posterior es la condición más crítica en un pla
 
 ¿Cómo se llega a esa situación? Casi siempre por una de estas tres vías: volar por debajo del peso mínimo del asiento delantero (pilotos ligeros), olvidar puesto el soporte de cola (*dolly*) o instalar equipos pesados en la cola sin compensarlos.
 
+::: {.callout-tip}
 ✦ **REGLA DE ORO**
 
 Si pesas poco, usa lastre de plomo o pesas fijas. Nunca despegues sin comprobar que tu peso entra en el margen permitido para el asiento que ocupas.
-
- 
+:::
 
 ::: {.callout-note}
 ⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
 
 El lastre de cabina debe ir siempre fijado mecánicamente en los soportes que el fabricante instala en el morro (planchas de plomo o pesas homologadas con su anclaje). Nunca improvises con sacos de arena, mochilas u objetos sueltos: en una turbulencia o en la rotación del despegue pueden desplazarse, bloquear los pedales o cambiar el centrado en el peor momento posible.
 :::
-
- 
 
 ### CG adelantado: estabilidad a cambio de rendimiento
 
@@ -43,9 +39,9 @@ Volar con el morro pesado es más seguro que volar con la cola pesada, pero tien
 
 Saber que el CG atrasado es peligroso no basta. El examen y el vuelo real exigen saber dónde está el CG antes de despegar, y el cálculo se reduce a tres conceptos y una fórmula.
 
-* ****: un plano vertical imaginario que el fabricante define en el manual de vuelo, habitualmente el borde de ataque del ala en el encastre. Todas las distancias se miden desde aquí.
-* ****: la distancia horizontal desde el *datum* hasta el punto donde actúa cada peso. Por convenio, positiva hacia atrás y negativa hacia delante.
-* ****: el producto de cada peso por su brazo. Es la "fuerza de giro" que ese peso ejerce sobre el conjunto.
+* **Línea de referencia (**: un plano vertical imaginario que el fabricante define en el manual de vuelo, habitualmente el borde de ataque del ala en el encastre. Todas las distancias se miden desde aquí.
+* **Brazo de palanca (**: la distancia horizontal desde el *datum* hasta el punto donde actúa cada peso. Por convenio, positiva hacia atrás y negativa hacia delante.
+* **Momento (**: el producto de cada peso por su brazo. Es la "fuerza de giro" que ese peso ejerce sobre el conjunto.
 
 La posición del CG es la media ponderada de todos los momentos ():
 
@@ -71,27 +67,19 @@ Repite ahora el cálculo con un piloto de 60 kg. Su momento baja a −27,00 kg·
 
 Los pesos y brazos de partida salen de la **ficha de pesaje** oficial del planeador, que se actualiza tras cada pesada o reparación mayor. El procedimiento de pesado y la documentación asociada se estudian en el **Libro 8 — Conocimientos generales de la aeronave**, capítulo 4.
 
-## Gestión de la masa: MTOW
-MTOW (Masa Máxima al Despegue / Maximum Take-Off Weight)
- y sobrecarga
+## Gestión de la masa: MTOW y sobrecarga
 
 El peso máximo al despegue (MTOW, *Maximum Take-Off Weight*) no es una sugerencia: es un límite estructural. Un planeador pesado necesita más carrera de despegue y una velocidad de remolque mayor, típicamente 10-20 km/h extra. Volará más deprisa en crucero, sí, pero su régimen de ascenso en térmica se resiente. Y por encima del MTOW los márgenes desaparecen: el planeador sufre más con la turbulencia fuerte y los límites de factor de carga se alcanzan mucho antes, con el consiguiente riesgo de fatiga o de fallo estructural.
 
 ![Efecto de la posición del CG en la estabilidad longitudinal](imagenes/07-cap01-limites-cg.jpg){#fig-07-cap01-limites-cg}
 
- 
-
-## Lastre de agua
-Lastre de agua (Water ballast)
-: rendimiento a cambio de disciplina
+## Lastre de agua: rendimiento a cambio de disciplina
 
 El agua permite "engañar" a la polar, pero exige una gestión impecable. Al aumentar la carga alar, el planeador alcanza velocidades de crucero mucho mayores con el mismo ángulo de planeo, y eso lo convierte en el arma ideal para días de térmicas potentes. La contrapartida es que el régimen de ascenso empeora: si las térmicas bajan de 1,5 m/s, el peso extra te hunde antes de que puedas subir.
 
 Y una obligación que no admite descuidos: tira el agua antes de aterrizar. El peso adicional en la toma puede dañar seriamente el tren de aterrizaje y el fuselaje. El vaciado tarda entre 3 y 8 minutos según el planeador, así que planifícalo antes de entrar en el circuito de tráfico.
 
-### El lastre de cola
-Lastre de cola (Fin ballast)
-: el contrapeso inteligente
+### El lastre de cola: el contrapeso inteligente
 
 Muchos planeadores modernos llevan un pequeño depósito de agua en la deriva: el lastre de cola (*fin ballast* o *tail tank*). Su función no es añadir peso, sino recolocar el CG. Los tanques principales de las alas suelen quedar algo por delante del centro de gravedad, de modo que al llenarlos el CG se adelanta y aparece resistencia de compensación (*trim drag*). Unos pocos litros en la cola devuelven el CG a su posición óptima, cerca del límite posterior, donde la resistencia es mínima.
 
@@ -105,8 +93,6 @@ Dos reglas innegociables al usarlo:
 
 Nunca aterrices con los tanques de agua llenos a menos que sea una emergencia absoluta. La energía del impacto aumenta drásticamente con el peso, y podrías romper el planeador de forma irreparable.
 :::
-
- 
 
 ## Ejercicios resueltos
 

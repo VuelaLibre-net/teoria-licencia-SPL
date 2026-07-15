@@ -1,6 +1,6 @@
 # Uso y aterrizaje con paracaídas de emergencia
 
-El **** es el último recurso del piloto cuando el planeador ha dejado de ser un medio de transporte seguro. No es un equipo que se usa «por si acaso»: se usa cuando la alternativa es morir dentro de la aeronave. Entender cuándo la situación justifica el salto, cómo ejecutar la secuencia de abandono y cómo gestionar el descenso y la toma marcan la diferencia entre sobrevivir y no hacerlo. Además, este capítulo cubre el mantenimiento correcto del paracaídas: un equipo descuidado es un equipo que puede no abrirse.
+El **paracaídas de emergencia** es el último recurso del piloto cuando el planeador ha dejado de ser un medio de transporte seguro. No es un equipo que se usa «por si acaso»: se usa cuando la alternativa es morir dentro de la aeronave. Entender cuándo la situación justifica el salto, cómo ejecutar la secuencia de abandono y cómo gestionar el descenso y la toma marcan la diferencia entre sobrevivir y no hacerlo. Además, este capítulo cubre el mantenimiento correcto del paracaídas: un equipo descuidado es un equipo que puede no abrirse.
 
 En este capítulo aprenderás:
 
@@ -12,7 +12,7 @@ En este capítulo aprenderás:
 
 ## La decisión de abandono (*bail-out*)
 
-El **** (**bail-out**) es una decisión que se toma cuando el planeador ha dejado de ser controlable y ya no existe alternativa de aterrizaje seguro. Las situaciones que justifican el bail-out son:
+El **abandono del planeador** (**bail-out**) es una decisión que se toma cuando el planeador ha dejado de ser controlable y ya no existe alternativa de aterrizaje seguro. Las situaciones que justifican el bail-out son:
 
 * **Fallo estructural:** rotura de un elemento portante —ala, fuselaje, timón— que hace al planeador ingobernable.
 * **Colisión en vuelo:** daños que impiden el vuelo controlado.
@@ -102,8 +102,6 @@ El paracaídas es un equipo de supervivencia que requiere cuidados específicos 
 
 Nunca vueles con un paracaídas cuya tarjeta de inspección esté caducada, aunque sea por un solo día. Del mismo modo, si el paracaídas ha estado expuesto a humedad intensa, a productos químicos (gasolina, aceites, disolventes) o a cualquier impacto mecánico, debe ser inspeccionado por un técnico antes de volver a usarlo. La tarjeta de inspección en vigor no es una formalidad burocrática: es la única garantía objetiva de que el equipo funciona.
 :::
-
-
 
 **Resumen del Capítulo: Paracaídas de emergencia**
 

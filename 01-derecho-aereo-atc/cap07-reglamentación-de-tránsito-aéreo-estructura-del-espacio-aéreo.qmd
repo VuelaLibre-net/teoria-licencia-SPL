@@ -17,25 +17,19 @@ El aire no es libre, o al menos no todo. Para ordenar el tráfico, el espacio a�
 
 Esta es la gran división. En el **controlado**, alguien (ATC) te separa de otros aviones, o al menos te vigila. En el **no controlado** vas por tu cuenta, eso sí, con la radio a mano.
 
-
-
 ### Clases de espacio aéreo (SERA.6001)
 
-La OACI
-OACI (Organización de Aviación Civil Internacional / ICAO)
- define 7 clases, pero en España usamos principalmente las clases **A, C, D y E** (controladas) y la **G** (no controlada) ().
+La OACI define 7 clases, pero en España usamos principalmente las clases **A, C, D y E** (controladas) y la **G** (no controlada) ().
 
 | Clase | Tipo | Requisitos para VFR (Planeadores) |
 | --- | --- | --- |
-| **A** | **Controlado** (Exclusivo IFR) | **PROHIBIDO VFR**. No puedes entrar. (Ej: Madrid TMA TMA (Terminal Manoeuvring Area)  Area A). **Requisitos**: Autorización + Radio + Transponder. |
+| **A** | **Controlado** (Exclusivo IFR) | **PROHIBIDO VFR**. No puedes entrar. (Ej: Madrid TMA Area A). **Requisitos**: Autorización + Radio + Transponder. |
 | **C** | **Controlado** | **Separación**: ATC te separa del IFR. De otros VFR solo recibes información de tráfico (y asesoramiento anticolisión si lo pides): **de los VFR te separas tú**. **Requisitos**: Autorización + Radio + Transponder. |
 | **D** | **Controlado** | **Separación**: ninguna para el VFR. ATC te da información de tráfico del IFR y de otros VFR, pero **ver y evitar es cosa tuya**. **Requisitos**: Autorización + Radio + Transponder (generalmente). |
 | **E** | **Controlado** (Para IFR) | **Híbrido**: Controlado para IFR, "libre" para VFR. **VFR**: No necesitas autorización ni radio (aunque es muy recomendable). ATC no te separa de nadie, pero da información de tráfico si puede. |
-| **G** | **NO Controlado** | **Libre**: Vuelas bajo tu responsabilidad. **Servicio**: Solo Información de Vuelo (FIS FIS (Servicio de Información de Vuelo / Flight Information Service) ) si la pides. |
+| **G** | **NO Controlado** | **Libre**: Vuelas bajo tu responsabilidad. **Servicio**: Solo Información de Vuelo (FIS) si la pides. |
 
 : Clases de espacio aéreo y requisitos VFR para planeadores
-
- 
 
 ::: {.callout-note}
 ⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
@@ -43,34 +37,28 @@ OACI (Organización de Aviación Civil Internacional / ICAO)
 Aunque la normativa OACI define teóricamente las clases **B** y **F**, en la práctica no se utilizan para la aviación general o la formación en España. El espacio aéreo español es mayoritariamente Clase G (espacio no controlado fuera de rutas/aeropuertos) o Clases A, C, D y E (en rutas y entornos aeroportuarios).
 :::
 
- 
-
 ![Resumen visual de clases de espacio aéreo utilizadas en España (A,C,D,E,G)](imagenes/01-cap07-clases-espacio-aereo.jpg){#fig-01-cap07-clases-espacio}
 
 ## Zonas especiales: RMZ y TMZ
 
 A veces el espacio es Clase G, libre, pero la autoridad quiere un poco de orden sin llegar a controlarlo todo. Para eso existen dos figuras:
 
-* **** (**Radio Mandatory Zone**): espacio no controlado donde es **obligatorio llevar radio y comunicar**. Antes de entrar debes decir quién eres, dónde estás y qué quieres.
-* **** (**Transponder Mandatory Zone**): es obligatorio llevar el **transponder** encendido y monitorizar la frecuencia de radio correspondiente.
+* **RMZ** (**Radio Mandatory Zone**): espacio no controlado donde es **obligatorio llevar radio y comunicar**. Antes de entrar debes decir quién eres, dónde estás y qué quieres.
+* **TMZ** (**Transponder Mandatory Zone**): es obligatorio llevar el **transponder** encendido y monitorizar la frecuencia de radio correspondiente.
 
+::: {.callout-tip}
 ✦ **REGLA DE ORO**
 
 Si ves una RMZ en el mapa, no entres mudo. Llama a la frecuencia indicada e informa: "Ibiza Información, EC-BOH, planeador, entrando en RMZ sector norte…​".
+:::
 
 ## Zonas Prohibidas, Restringidas y Peligrosas
 
 El espacio aéreo puede tener "candados" por seguridad o defensa, marcados con códigos como LER71:
 
-* **P** (**Prohibited**) - Prohibida
-  Zona prohibida ( P )
-  : no se entra jamás. Piensa en el Palacio Real o en centrales nucleares.
-* **R** (**Restricted**) - Restringida
-  Zona restringida ( R )
-  : entrada sujeta a condiciones. Normalmente se puede pasar si está inactiva o con permiso especial (parques naturales, zonas de maniobras militares).
-* **D** (**Dangerous**) - Peligrosa
-  Zona peligrosa ( D )
-  : hay un peligro no específico (pruebas de explosivos, actividades de riesgo). Puedes entrar bajo tu responsabilidad, pero mejor evítalas ().
+* **P** (**Prohibited**) - Prohibida: no se entra jamás. Piensa en el Palacio Real o en centrales nucleares.
+* **R** (**Restricted**) - Restringida: entrada sujeta a condiciones. Normalmente se puede pasar si está inactiva o con permiso especial (parques naturales, zonas de maniobras militares).
+* **D** (**Dangerous**) - Peligrosa: hay un peligro no específico (pruebas de explosivos, actividades de riesgo). Puedes entrar bajo tu responsabilidad, pero mejor evítalas ().
 
 ![Carta aeronáutica VFR mostrando zonas LEP141 (Prohibida, rojo, por central nuclear de Almaraz); LER170 y LER71C (Restringidas); LED125 (Peligrosa).](imagenes/01-cap07-zonas-prd.png){#fig-01-cap07-zonas-prd}
 
@@ -79,8 +67,6 @@ El espacio aéreo puede tener "candados" por seguridad o defensa, marcados con c
 
 Infringir una zona P o R activa puede llevar a sanciones graves e incluso a la interceptación por aviones militares. Planifica tu vuelo y comprueba los NOTAM para saber si las zonas R están activas. Las señales de interceptación y el procedimiento de respuesta (SERA.11015) se estudian en el Libro 4 (*Comunicaciones*), capítulo 8.
 :::
-
-
 
 **Resumen del Capítulo: Espacio Aéreo**
 

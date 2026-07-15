@@ -16,19 +16,15 @@ El motor ha cambiado el vuelo sin motor: ha roto la dependencia absoluta de los 
 
 No todos los motores cumplen la misma función:
 
-* ****: un motor pequeño (casi siempre de dos tiempos) sin potencia para despegar. Su misión es sostener el vuelo y devolverte a casa si fallan las térmicas.
+* **Sustentador o "turbo"**: un motor pequeño (casi siempre de dos tiempos) sin potencia para despegar. Su misión es sostener el vuelo y devolverte a casa si fallan las térmicas.
 * **Autolanzable** (*self-launch*): un motor potente que permite despegar solo desde la pista. Alcanzada la altura deseada, se apaga y se guarda por completo.
-* ****: aeronaves con motor fijo (no escamoteable), como la Super Dimona, a medio camino entre el avión ligero y el planeador.
-
- 
+* **Motovelero de turismo (TMG)**: aeronaves con motor fijo (no escamoteable), como la Super Dimona, a medio camino entre el avión ligero y el planeador.
 
 ## Tipos de motor
 
 1. **Motores de 2 tiempos**: muy habituales en sistemas escamoteables por su ligereza y su potencia. Necesitan mezcla de gasolina y aceite, y son más ruidosos y vibran más que los de 4 tiempos.
-2. ****: la gran novedad. Usan una hélice plegable en el morro y baterías de litio. Son fiabilísimos, silenciosos y de arranque instantáneo.
+2. **Motores eléctricos (FES)**: la gran novedad. Usan una hélice plegable en el morro y baterías de litio. Son fiabilísimos, silenciosos y de arranque instantáneo.
 3. **Motores de 4 tiempos**: sobre todo en motoveleros TMG. Más pesados, pero más eficientes y mecánicamente más fiables.
-
- 
 
 ## Sistemas del motor de combustión
 
@@ -44,21 +40,15 @@ El encendido lo generan los *magnetos*, no la batería. Un magneto es un generad
 Como el magneto genera corriente por sí mismo, para detenerlo hay que poner a masa (cortocircuitar) su devanado primario. Un magneto con el cable de masa roto puede dejar el motor "vivo" aunque el contacto esté en *OFF*: trata siempre la hélice como si pudiera arrancar.
 :::
 
- 
-
 ### Carburación y engelamiento
 
 Muchos motores alimentan los cilindros con un carburador. Al expandirse el aire y vaporizarse el combustible, la mezcla se enfría, y esa caída de temperatura puede congelar la humedad del aire dentro del carburador: es el *engelamiento del carburador*. El riesgo es mayor entre −7 °C y +21 °C con humedad alta, y su primer síntoma es una caída de RPM.
 
 Para deshacerlo se usa la *calefacción del carburador*, que mete aire caliente del colector de escape. Resta potencia, así que se usa con criterio: nunca en el despegue, lo justo en tierra, en crucero solo si hay riesgo de engelamiento, y antes de reducir potencia en la aproximación.
 
- 
-
 ### Combustible
 
 Los motoveleros usan AVGAS (gasolina de aviación, con plomo) o MOGAS (gasolina de automoción), siempre el que indique el AFM. Antes de volar se drena una muestra para descartar agua o impurezas, que pueden parar el motor: el agua, más densa, se deposita en el fondo del *tester*. En cuanto a la cantidad, la norma (SAO.OP.120) exige combustible suficiente para completar el vuelo con seguridad; la práctica prudente es no despegar nunca con menos de 30-45 minutos de reserva.
-
- 
 
 ## La hélice y el mástil (pylon)
 
@@ -69,13 +59,9 @@ En la mayoría de los autolanzables, el motor va montado en un mástil retrácti
 
 Según el paso de pala, la hélice puede ser de *paso fijo* (el ángulo de pala no cambia: sencilla y robusta) o de *paso variable / velocidad constante* (un regulador ajusta el ángulo: paso corto y más RPM para el despegue, paso largo para el crucero eficiente).
 
- 
-
 ## Gestión y operación del motor
 
 Manejar el motor de un planeador exige disciplina. La secuencia de arranque (extracción, apertura de puertas, encendido de la bomba de combustible, arranque) tiene que estar perfectamente memorizada.
-
- 
 
 ::: {.callout-warning}
 ⚠ **SEGURIDAD**
@@ -83,17 +69,11 @@ Manejar el motor de un planeador exige disciplina. La secuencia de arranque (ext
 Con el motor extraído, la relación de planeo cae en picado por la resistencia del mástil. Si el motor no arranca tras sacarlo, tienes que estar a altura suficiente para hacer la toma de emergencia con el motor fuera, o para retraerlo a tiempo. Elige siempre el campo antes de intentar el arranque: el motor es el plan B, nunca el plan A.
 :::
 
- 
-
 ## Instrumentación y combustible
 
 La unidad de control electrónica (como el ILEC) gestiona las RPM y las temperaturas de cilindro (CHT) y de gases de escape (EGT). El piloto de motovelero debe vigilar de cerca el nivel de combustible y la temperatura, porque un motor de dos tiempos es muy sensible al sobrecalentamiento.
 
- 
-
 ![Esquema de un planeador con motor retráctil en posición de funcionamiento](imagenes/08-cap10-motor-retractil.jpg){#fig-08-cap10-motor-retractil}
-
- 
 
 **Resumen del capítulo: motoveleros y sistemas retráctiles**
 

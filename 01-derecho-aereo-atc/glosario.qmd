@@ -49,7 +49,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes del marco n
 
 ****CTA (Control Area)****
 : Área de Control. Espacio aéreo controlado que se extiende hacia arriba desde un límite especificado sobre el terreno (nunca inferior a 200 metros / 700 pies).
-*Nota: Aunque coloquialmente se suele expandir como "Controlled Traffic Area", la denominación oficial OACI (Doc 8400) es *
+*Nota: Aunque coloquialmente se suele expandir como "Controlled Traffic Area", la denominación oficial OACI (Doc 8400) es **Control Area**.*
 
 ****CTR (Zona de control / Control Zone)****
 : Espacio aéreo controlado que se extiende hacia arriba desde la superficie terrestre hasta un límite superior definido, establecido para proteger las trayectorias de las aeronaves en despegue y aterrizaje.

@@ -27,9 +27,11 @@ En momentos de estrés no siempre podrás fiarte del ordenador de vuelo. Tienes 
 * **Alcance desde 1.000 m**: como aproximación conservadora, con finezas de 20 a 30 (las de un planeador de escuela o estándar), a 1.000 m de altura tienes un alcance de 20 a 30 km en aire en calma. Con viento de cara, divide ese alcance por dos para estar seguro.
 * **Margen para el circuito**: suma siempre 300 metros a tu cálculo. Si el aeródromo está a 20 km y tu planeador planea 1:30, necesitas unos 670 metros de planeo puro; con los 300 de seguridad, la cuenta sale en 1.000 metros redondos.
 
+::: {.callout-tip}
 ✦ **REGLA DE ORO**
 
 **La térmica es tu manga de viento.** Mientras espiraleas, tus círculos derivan con el viento: la dirección y la distancia que te desplazas en cada giro te dicen de dónde sopla y con cuánta fuerza, sin mirar ningún instrumento. Para corregir la deriva en planeo recto: a 100 km/h, cada **10 km/h de viento cruzado ≈ 6° de corrección** hacia el viento. Con 20 km/h cruzados, apunta unos 12° al lado del viento y comprueba contra una referencia lejana del terreno que tu rumbo sobre el suelo se mantiene.
+:::
 
 ## Monitoreo del planeo final: el método de los 3 puntos
 
@@ -87,4 +89,4 @@ Si tu ordenador de vuelo indica que llegas con 0 metros, **no llegas**. Ese cál
 * **Planeo final en 3 puntos**: verifica el margen de llegada al inicio, en el punto medio y a 5 km del destino. La tendencia entre lecturas delata a tiempo la descendencia continua o el viento imprevisto.
 * **Punto de no retorno**: llega un momento en que ya no vuelves a casa. Tenlo identificado. A partir de ahí, tu objetivo es el siguiente aeródromo o campo seguro.
 * **Factor humano**: hipoxia, deshidratación y fatiga degradan el cálculo mental y retrasan la decisión de aterrizar fuera. Bebe de forma programada, usa oxígeno en vuelos altos y añade margen cuando lleves horas de tarea (detalles en el **Libro 2 — Factores humanos**, capítulo 4).
-* **Altura de seguridad (**: fija un margen intocable para llegar al campo (300 m, por ejemplo). Esa altura es para el circuito, no para planear. Si el calculador dice que llegas con 0 m, no llegas.
+* **Altura de seguridad (*safety height*)**: fija un margen intocable para llegar al campo (300 m, por ejemplo). Esa altura es para el circuito, no para planear. Si el calculador dice que llegas con 0 m, no llegas.

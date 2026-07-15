@@ -25,18 +25,20 @@ Salvo que vueles a la vista del aeródromo o en una zona autorizada por la autor
 * **Documento de identificación:** DNI, pasaporte o documento oficial con fotografía.
 * **Manual de vuelo (AFM):** el manual específico del modelo de planeador que operas.
 * **Cartas aeronáuticas:** actualizadas y adecuadas para la ruta prevista.
-* **Libro de vuelo (** datos suficientes —o el propio libro— para demostrar que cumples los requisitos de la normativa, la experiencia reciente incluida.
+* **Libro de vuelo (**logbook**):** datos suficientes —o el propio libro— para demostrar que cumples los requisitos de la normativa, la experiencia reciente incluida.
 * **Señales de interceptación:** una copia de los procedimientos y señales visuales internacionales de interceptación (SERA.11015; las señales y la respuesta correcta se estudian en el Libro 4, *Comunicaciones*, capítulo 8).
 
 El resto de los papeles de la aeronave —certificado de matrícula, certificado de aeronavegabilidad con sus anexos, ARC, licencia de radio si lleva equipo, certificado del seguro y diario de a bordo— no necesitan volar contigo: SAO.GEN.155 exige que estén disponibles en el aeródromo o lugar de operación.
 
+::: {.callout-tip}
 ✦ **REGLA DE ORO**
 
 Antes de cada vuelo, verifica los cuatro pilares documentales de la aeronave según **SAO.GEN.155**: **aeronavegabilidad** (certificado de aeronavegabilidad + ARC en vigor), **matrícula** (certificado de matrícula visible), **manual de vuelo** (AFM a bordo) y **pesada y centrado** (dentro de los límites del manual). Si alguno falla, el planeador no vuela.
+:::
 
 ## Responsabilidad del Piloto al Mando (PIC)
 
-El **** (PIC) es la máxima autoridad a bordo y el responsable final de la seguridad de la operación, desde el momento en que firma la autorización de vuelo hasta que el planeador queda correctamente asegurado en tierra. Esta responsabilidad no se comparte, no se delega y no tiene excepciones.
+El **Piloto al Mando** (PIC) es la máxima autoridad a bordo y el responsable final de la seguridad de la operación, desde el momento en que firma la autorización de vuelo hasta que el planeador queda correctamente asegurado en tierra. Esta responsabilidad no se comparte, no se delega y no tiene excepciones.
 
 Eso significa que, aunque el mecánico del club haya revisado el planeador, aunque el instructor te haya autorizado el vuelo y aunque el pronóstico del tiempo sea favorable, **la decisión final es siempre tuya**. Si algo no te cuadra, la única respuesta correcta es no volar.
 
@@ -63,7 +65,7 @@ Una sola respuesta negativa en cualquiera de estos puntos es razón suficiente p
 ::: {.callout-note}
 ⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
 
-Haz el chequeo **** en voz alta o por escrito antes de salir de casa. La dinámica del aeródromo —el entusiasmo del grupo, el buen tiempo, la presión social— puede llevar a minimizar síntomas que en casa te parecerían evidentes. Decidir en frío, antes de llegar al campo, es siempre más fácil que decir «no» delante de tus compañeros cuando el remolcador ya está preparado.
+Haz el chequeo **IMSAFE** en voz alta o por escrito antes de salir de casa. La dinámica del aeródromo —el entusiasmo del grupo, el buen tiempo, la presión social— puede llevar a minimizar síntomas que en casa te parecerían evidentes. Decidir en frío, antes de llegar al campo, es siempre más fácil que decir «no» delante de tus compañeros cuando el remolcador ya está preparado.
 :::
 
 ## Transporte de pasajeros
@@ -82,8 +84,6 @@ Para poder ejercer esta atribución, la normativa **Part-SFCL** exige que el pil
 
 Como PIC tienes el derecho y el deber de denegar el transporte a cualquier pasajero o equipaje que consideres que puede representar un peligro para la seguridad del vuelo. Esta decisión no admite presiones externas: si el peso del pasajero más el equipo supera los límites de la aeronave, o si el pasajero muestra un comportamiento que puede comprometer tu concentración, la respuesta es un «no» firme y sin negociación.
 :::
-
- 
 
 ::: {.callout-important}
 ⚖ **NORMATIVA**
@@ -105,7 +105,7 @@ El montaje (*rigging*) y desmontaje (*de-rigging*) del planeador son operaciones
 
 ### Comprobación de mandos positiva (**positive control check - PCC**)
 
-Tras cada montaje de la aeronave, es obligatorio y vital realizar una **** (**positive control check**):
+Tras cada montaje de la aeronave, es obligatorio y vital realizar una **comprobación de mandos positiva** (**positive control check**):
 
 1. El piloto se sienta en cabina y sujeta firmemente los mandos de vuelo.
 2. Un ayudante en tierra sujeta físicamente cada superficie de control (un alerón, el elevador, el timón de dirección y los aerofrenos) y aplica resistencia.
@@ -115,7 +115,7 @@ Tras cada montaje de la aeronave, es obligatorio y vital realizar una **** (**po
 
 El transporte del planeador en su remolque exige que las piezas encajen de forma precisa y firme:
 
-* **Evita rozaduras (** los planos y el fuselaje deben apoyarse en cunas acolchadas y específicas para el modelo, bloqueados firmemente para que las vibraciones en carretera no desgasten la fibra ni las superficies de control.
+* **Evita rozaduras (**chafing**):** los planos y el fuselaje deben apoyarse en cunas acolchadas y específicas para el modelo, bloqueados firmemente para que las vibraciones en carretera no desgasten la fibra ni las superficies de control.
 * **Cierre del carro:** asegura los cierres del carro y comprueba que las luces de señalización y los frenos del remolque funcionan correctamente antes de salir a la carretera.
 
 ### Anclaje y aseguramiento (*tiedown & securing*)
@@ -144,7 +144,7 @@ Antes del primer despegue del día, el piloto al mando debe realizar una inspecc
 1. **Cabina y morro:** cúpula limpia y sin grietas. Mandos libres, cinturones en buen estado, batería cargada y fijada. Tomas de pitot y estática libres de obstrucciones.
 2. **Ala izquierda:** borde de ataque limpio. Holguras y conexiones de los alerones y flaps. Estado y blocaje de los aerofrenos. Patín o rueda de punta de ala.
 3. **Fuselaje izquierdo:** ausencia de grietas en la estructura de fibra. Estado de las antenas.
-4. **Cola (** fijación del estabilizador horizontal y vertical. Libre movimiento y holguras del timón de dirección y profundidad. Estado de las tomas de estática de cola y la sonda de energía total (TE).
+4. **Cola (**empennage**):** fijación del estabilizador horizontal y vertical. Libre movimiento y holguras del timón de dirección y profundidad. Estado de las tomas de estática de cola y la sonda de energía total (TE).
 5. **Fuselaje derecho:** inspección simétrica al lado izquierdo.
 6. **Ala derecha:** inspección simétrica al ala izquierda.
 7. **Tren de aterrizaje y ganchos:** presión y estado del neumático principal y de cola. Funcionamiento del freno de rueda. Comprobación de que el gancho de morro y el gancho de CG están limpios y operan libremente.
@@ -176,8 +176,6 @@ En la mayoría de los aeroclubs de habla hispana, especialmente en centros hist�
 
 Ambas mnemotécnicas (la europea CB-SIFT-CBE y la tradicional CRISE) persiguen el mismo fin de seguridad: no conectar el cable del planeador a pista hasta que no se haya realizado una verificación física e instrumental completa en cabina.
 :::
-
-
 
 **Resumen del Capítulo: Requisitos generales**
 

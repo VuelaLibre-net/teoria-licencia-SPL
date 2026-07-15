@@ -17,8 +17,6 @@ La Organización de Aviación Civil Internacional (OACI (Organización de Aviaci
 
 El piloto no es infalible. Existen limitaciones inherentes en la percepción, la memoria y la capacidad de procesar información compleja bajo presión. La disciplina de los factores humanos no pretende transformar al piloto en un agente sin errores, sino enseñarle a **reconocer sus limitaciones fisiológicas y psicológicas**, aceptarlas y aplicar estrategias contrastadas para gestionarlas en beneficio de la toma de decisiones aeronáuticas (**Aeronautical Decision-Making**, ADM).
 
- 
-
 ## El factor humano en los accidentes de aviación
 
 A medida que la tecnología aeronáutica ha avanzado, la proporción de accidentes debidos a fallos mecánicos ha disminuido de forma significativa. Las estadísticas actuales reflejan que **el factor humano es la causa principal o un elemento contribuyente en aproximadamente el 90 % de los accidentes en la aviación general y el vuelo a vela**. Este dato es, ante todo, pedagógico: la inmensa mayoría de estos accidentes son previsibles y, por tanto, **evitables**.
@@ -33,9 +31,7 @@ El desglose del componente humano en la siniestralidad del vuelo a vela muestra 
 ::: {.callout-warning}
 ⚠ **SEGURIDAD**
 
-El análisis del Informe de Seguridad de EASA (European Union Aviation Safety Agency)
-EASA (Agencia de la Unión Europea para la Seguridad Aérea / European Union Aviation Safety Agency)
- indica que las fases más críticas del vuelo en planeador son el aterrizaje (aproximadamente el 50 % de los accidentes) y el despegue (21 %). Mantenga el máximo nivel de atención durante estos periodos, con la cabina libre de distracciones y todos los sistemas verificados.
+El análisis del Informe de Seguridad de EASA (European Union Aviation Safety Agency) indica que las fases más críticas del vuelo en planeador son el aterrizaje (aproximadamente el 50 % de los accidentes) y el despegue (21 %). Mantenga el máximo nivel de atención durante estos periodos, con la cabina libre de distracciones y todos los sistemas verificados.
 :::
 
 Los accidentes con consecuencias fatales (hasta un 26 % según datos de EASA (European Union Aviation Safety Agency)) tienen como causa principal la pérdida de control en vuelo, que con frecuencia deriva en pérdida aerodinámica y barrena (**stall and spin**), especialmente peligrosas a baja altura en el circuito de tráfico. Otras causas graves incluyen las colisiones contra el terreno (17 %) y las emergencias mal gestionadas en lanzamientos a torno incompletos (10 %).
@@ -44,9 +40,7 @@ Conocer estas estadísticas permite al piloto priorizar la atención en las fase
 
 ## Modelos conceptuales: el modelo SHELL
 
-El vuelo a vela no ocurre en el vacío; es una actividad donde el ser humano interactúa constantemente con su entorno. Para comprender esta interacción, la OACI
-OACI (Organización de Aviación Civil Internacional / ICAO)
- utiliza el ****, un marco conceptual desarrollado originariamente por el psicólogo Elwyn Edwards en 1972 (como modelo SHEL) y refinado después por Frank Hawkins, que añadió la segunda L de las otras personas. Su nombre es un acrónimo de sus componentes, que encajan entre sí como las piezas de un rompecabezas con el factor humano siempre en el centro ():
+El vuelo a vela no ocurre en el vacío; es una actividad donde el ser humano interactúa constantemente con su entorno. Para comprender esta interacción, la OACI utiliza el **Modelo SHELL**, un marco conceptual desarrollado originariamente por el psicólogo Elwyn Edwards en 1972 (como modelo SHEL) y refinado después por Frank Hawkins, que añadió la segunda L de las otras personas. Su nombre es un acrónimo de sus componentes, que encajan entre sí como las piezas de un rompecabezas con el factor humano siempre en el centro ():
 
 * **Software (S):** Los elementos no materiales. Incluye la reglamentación aplicable, manuales de vuelo, procedimientos normativos, listas de chequeo (**checklists**) y la simbología aeronáutica.
 * **Hardware (H):** La máquina. Abarca el propio velero, los instrumentos de a bordo y cualquier otra herramienta o equipo físico.
@@ -63,8 +57,6 @@ La clave de la seguridad radica en las interfaces de contacto entre tu «yo cent
 Según James Reason, el error humano es cualquier desviación de una secuencia de acciones físicas o mentales que impide lograr el resultado deseado. La filosofía de seguridad aeronáutica moderna asume que **errar es humano e inevitable**: el objetivo no es eliminar los errores por completo —algo que no es posible—, sino detectarlos temprano e interponer barreras defensivas antes de que generen consecuencias.
 
 James Reason ilustró este proceso con el **modelo del queso suizo**: cada capa del sistema de seguridad (instrucción, procedimientos, listas de verificación, supervisión) actúa como una barrera con agujeros. Cuando los agujeros de todas las capas se alinean, el accidente se produce ().
-
- 
 
 ![El modelo del queso suizo de James Reason](imagenes/02-cap01-queso-suizo.png){#fig-02-cap01-queso-suizo}
 
@@ -86,17 +78,17 @@ Para reducir la probabilidad de error, utilice las listas de verificación aunqu
 
 ## Prevención y mitigación del error
 
-Los accidentes rara vez tienen una causa única. La mayoría resultan de una sucesión de decisiones erróneas, condiciones previas y errores latentes que, alineados, forman la **** (). El modelo del queso suizo, descrito en la sección anterior, representa gráficamente este proceso.
+Los accidentes rara vez tienen una causa única. La mayoría resultan de una sucesión de decisiones erróneas, condiciones previas y errores latentes que, alineados, forman la **cadena del error** (). El modelo del queso suizo, descrito en la sección anterior, representa gráficamente este proceso.
 
 La consecuencia práctica más importante es que **basta con interrumpir un solo eslabón de la cadena para prevenir el accidente**. Una decisión conservadora, una verificación adicional o rechazar el vuelo ante una duda razonable son suficientes para detener el proceso antes de que derive en consecuencias.
 
 ![Romper un eslabón de la cadena del error salva el vuelo](imagenes/02-cap01-cadena-error.jpg){#fig-02-cap01-cadena-error}
 
+::: {.callout-tip}
 ✦ **REGLA DE ORO**
 
 **Romper un solo eslabón salva el vuelo.** Ante cualquier señal de que la cadena del error ha comenzado —condiciones meteorológicas que se deterioran, una avería sin resolver, fatiga elevada— adopte la medida más conservadora disponible. Es la acción más eficaz al alcance del piloto.
-
- 
+:::
 
 ## Influencias en el comportamiento humano
 
@@ -110,7 +102,7 @@ En un aeródromo, una de las formas de influencia más comunes es la presión de
 
 La forma en que un club gestiona los errores define su **cultura organizacional**. La respuesta histórica de la aviación al error fue punitiva: quien cometía un fallo era sancionado o reprendido. Lejos de mejorar la seguridad, ese enfoque incentivó el encubrimiento: los daños no se reportaban por temor al castigo y acababan produciendo accidentes en vuelos posteriores.
 
-En la actualidad se promueve activamente la **** (**Just Culture**): un marco que reconoce la inevitabilidad del error no intencionado y lo trata como una oportunidad de aprendizaje colectivo, sin represalias, siempre que no medie negligencia deliberada ni violación consciente de procedimientos.
+En la actualidad se promueve activamente la **cultura justa** (**Just Culture**): un marco que reconoce la inevitabilidad del error no intencionado y lo trata como una oportunidad de aprendizaje colectivo, sin represalias, siempre que no medie negligencia deliberada ni violación consciente de procedimientos.
 
 ::: {.callout-note}
 ⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
@@ -127,8 +119,6 @@ Cuando la motivación por alcanzar un objetivo —batir una marca personal, gana
 La conclusión práctica es clara: la seguridad ocupa la base de la pirámide y no puede subordinarse a ningún objetivo de orden superior ().
 
 ![La pirámide de Maslow aplicada a un piloto de planeadores](imagenes/02-cap01-piramide-maslow.png){#fig-02-cap01-piramide-maslow}
-
-
 
 **Resumen del Capítulo: Conceptos básicos de Factores Humanos**
 

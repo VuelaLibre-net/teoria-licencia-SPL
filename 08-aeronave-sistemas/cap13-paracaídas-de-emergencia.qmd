@@ -20,29 +20,23 @@ No es un objeto pasivo: es un sistema mecánico de precisión con cuidados propi
 * **Humedad**: el sudor o la lluvia apelmazan la tela y retrasan la apertura.
 * **Rayos UV**: el sol degrada las fibras de nylon. Ten el paracaídas siempre en su bolsa o dentro de la cabina cerrada.
 
- 
-
 ## Mantenimiento y plegado
 
 El aire atrapado entre los pliegues de la tela se va perdiendo con el tiempo. Por eso el fabricante exige un replegado periódico por personal certificado (normalmente cada 6 o 12 meses, según el modelo). Y los paracaídas tienen además una vida útil límite (suele ser de 15 o 20 años) marcada por el fabricante, pasada la cual se retiran del servicio.
 
+::: {.callout-tip}
 ✦ **REGLA DE ORO**
 
 Un paracaídas plegado hace una semana se abre mucho antes que uno plegado hace un año. No apures los plazos de revisión: esos segundos de diferencia en la apertura pueden ser vitales a baja altura.
-
- 
+:::
 
 ## Colocación y ajuste
 
 El paracaídas tiene que ir ajustado al cuerpo, no al asiento. Las perneras, apretadas (pero que te dejen caminar), y la cinta del pecho, cerrada. Si saltas con un arnés flojo, el tirón de la apertura puede causarte lesiones graves en la columna o los hombros.
 
- 
-
 ## La secuencia de abandono (bailout)
 
-El abandono del planeador
-Bail-out (Abandono del planeador)
- (**bail-out**) ante una emergencia que lo deje ingobernable (una colisión, una rotura estructural) exige una secuencia clarísima en tu cabeza:
+El abandono del planeador (**bail-out**) ante una emergencia que lo deje ingobernable (una colisión, una rotura estructural) exige una secuencia clarísima en tu cabeza:
 
 1. **Lanzar la cabina**: tira del mando rojo de emergencia.
 2. **Soltar cinturones**: libera la hebilla central de seguridad.
@@ -51,19 +45,13 @@ Bail-out (Abandono del planeador)
 
 El procedimiento completo (la decisión de abandono, la salida con fuerzas G, el descenso bajo la campana y la toma de tierra, incluidas las caídas en agua y sobre líneas eléctricas) se desarrolla en el **Libro 6 — Procedimientos operativos, capítulo 8**. Aquí nos quedamos con el equipo: si el paracaídas no está bien plegado, bien ajustado y dentro de su vida útil, la mejor técnica de salto no te servirá de nada.
 
- 
-
 ::: {.callout-warning}
 ⚠ **SEGURIDAD**
 
 La altura mínima recomendada para un salto con garantías es de 150 metros sobre el terreno: la campana necesita entre 50 y 90 metros para desplegarse del todo, y el abandono se come los primeros 100. Por debajo de esa cota el margen es crítico. Si la emergencia ocurre alto, no lo dudes: cada segundo de demora es altura perdida.
 :::
 
- 
-
 ![Secuencia de abandono de emergencia y apertura del paracaídas](imagenes/08-cap13-secuencia-salto.jpg){#fig-08-cap13-secuencia-salto}
-
- 
 
 **Resumen del capítulo: paracaídas (sistema)**
 

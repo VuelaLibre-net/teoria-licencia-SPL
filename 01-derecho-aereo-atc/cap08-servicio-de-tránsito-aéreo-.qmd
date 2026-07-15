@@ -4,11 +4,7 @@ Los Servicios de Tránsito Aéreo están para ayudarte, pero debes saber qué pe
 
 En este capítulo aprenderás:
 
-* Los tres servicios ATS: Control (ATC
-  ATC (Control de Tránsito Aéreo / Air Traffic Control)
-  ), Información (FIS
-  FIS (Servicio de Información de Vuelo / Flight Information Service)
-  ) y Alerta (ALRS).
+* Los tres servicios ATS: Control (ATC), Información (FIS) y Alerta (ALRS).
 * Cuándo te separan ellos (ATC) y cuándo te separas tú (FIS).
 * El protocolo de búsqueda y salvamento: INCERFA, ALERFA y DETRESFA.
 
@@ -26,15 +22,9 @@ Lo prestan los controladores aéreos (ATCO), y de ellos recibes **autorizaciones
 
 Se organiza en tres dependencias según la fase de vuelo ():
 
-1. **Torre** (TWR
-  TWR (Torre de Control / Aerodrome Control Tower)
-  ): controla el aeródromo y el circuito (despegues, aterrizajes, rodaje).
-2. **Aproximación** (APP
-  APP (Control de Aproximación / Approach Control)
-  ): controla la entrada y salida de la zona del aeropuerto.
-3. **Centro de Control de Área** (ACC
-  ACC (Centro de Control de Área / Area Control Centre)
-  ): controla los aviones en ruta, arriba del todo.
+1. **Torre** (TWR): controla el aeródromo y el circuito (despegues, aterrizajes, rodaje).
+2. **Aproximación** (APP): controla la entrada y salida de la zona del aeropuerto.
+3. **Centro de Control de Área** (ACC): controla los aviones en ruta, arriba del todo.
 
 ![Estructura de dependencias ATC](imagenes/01-cap08-dependencias-atc.jpg){#fig-01-cap08-dependencias-atc}
 
@@ -58,9 +48,7 @@ Tu seguro de vida. Se activa cuando hay una emergencia o se teme por la segurida
 1. **INCERFA (Fase de Incertidumbre)**: el "¿dónde estará?". Se empieza a recabar información. Se declara reglamentariamente ante cualquiera de estas tres situaciones:
   
   * **Falta de comunicación**: no se ha recibido ninguna comunicación de la aeronave en los 30 minutos siguientes a la hora prevista, o desde el primer intento fallido de contactarla (lo que ocurra primero).
-  * **Retraso en la llegada**: la aeronave no llega en los 30 minutos siguientes a su hora prevista de llegada (ETA
-    ETA (Estimated Time of Arrival)
-    ).
+  * **Retraso en la llegada**: la aeronave no llega en los 30 minutos siguientes a su hora prevista de llegada (ETA).
   * **Dudas sobre la seguridad**: existen sospechas o dudas fundamentadas sobre la seguridad de la aeronave y sus ocupantes.
 2. **ALERFA (Fase de Alerta)**: sigue sin haber noticias, o se sabe que hay problemas aunque no una catástrofe. Se avisa a los servicios de rescate (SAR) para que estén listos.
 3. **DETRESFA (Fase de Peligro/Socorro)**: accidente confirmado, combustible agotado o situación crítica inminente. Salen los medios de rescate: helicópteros y aviones SAR.
@@ -74,8 +62,6 @@ Si tienes una emergencia real y **NO** has presentado Plan de Vuelo ni estás en
 :::
 
 Dos remisiones útiles dentro de la colección: las **señales luminosas** con las que una torre puede dirigirte sin radio se estudian en el **Libro 4 — Comunicaciones**, capítulo 7; y el **plan de vuelo**, que alimenta este servicio de alerta, en los Libros 4 (operativa), 7 (formulario) y 9 (uso de los ATS).
-
- 
 
 **Resumen del Capítulo: Servicios de Tránsito Aéreo (ATS)**
 

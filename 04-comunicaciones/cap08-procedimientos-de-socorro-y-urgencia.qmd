@@ -20,41 +20,27 @@ La palabra se repite **tres veces** para que destaque sobre el tráfico normal y
 La transmisión maliciosa o falsa de un mensaje de socorro MAYDAY moviliza recursos de búsqueda y salvamento (SAR) estatales. Según la Ley de Seguridad Aérea, simular emergencias o proporcionar información falsa que comprometa la seguridad se tipifica como infracción muy grave, conlleva sanciones económicas elevadas y puede resultar en la revocación de la licencia de vuelo.
 :::
 
-
-
 ::: {.callout-important}
 ⚖ **NORMATIVA**
 
-La declaración de un MAYDAY
-MAYDAY
- impone, según la normativa internacional (OACI/EASA), un **silencio de radio absoluto** para todas las demás estaciones áreas y terrestres operando en esa frecuencia. Ningún otro tráfico debe transmitir a menos que sea para ofrecer ayuda directa a la aeronave en peligro o para retransmitir su mensaje a la Torre de Control (**Mayday relay**).
+La declaración de un MAYDAY impone, según la normativa internacional (OACI/EASA), un **silencio de radio absoluto** para todas las demás estaciones áreas y terrestres operando en esa frecuencia. Ningún otro tráfico debe transmitir a menos que sea para ofrecer ayuda directa a la aeronave en peligro o para retransmitir su mensaje a la Torre de Control (**Mayday relay**).
 :::
-
- 
 
 ## PAN PAN: situación de urgencia
 
 Un escalón por debajo está la **urgencia**. Se declara con **PAN PAN**, también tres veces: *«Pan Pan, Pan Pan, Pan Pan»*. Del francés *panne*, avería.
 
-El PAN PAN
-PAN PAN
- dice que tienes un problema serio que necesita **atención prioritaria** del ATC, pero no estás en peligro inmediato de accidente ni necesitas salvamento en los próximos segundos.
+El PAN PAN dice que tienes un problema serio que necesita **atención prioritaria** del ATC, pero no estás en peligro inmediato de accidente ni necesitas salvamento en los próximos segundos.
 
 En planeador: entrar involuntariamente en IMC sin poder salir a VFR de inmediato, una indisposición médica que obliga a desviar el vuelo, o una pérdida progresiva de altura que te da tiempo a planificar el aterrizaje fuera de aeródromo y coordinarlo con el ATC o el FIS.
 
 El PAN PAN te da prioridad en las comunicaciones. No exige silencio total al resto de tráficos, a diferencia del MAYDAY.
 
- 
-
 ## Estructura del mensaje de emergencia
 
-Con el corazón acelerado y las manos ocupadas, puede costar estructurar un mensaje. Pero los servicios de control y salvamento (SAR
-SAR (Search and Rescue — Búsqueda y Salvamento)
-) necesitan información concreta para localizarte y ayudarte. Esta es la secuencia ():
+Con el corazón acelerado y las manos ocupadas, puede costar estructurar un mensaje. Pero los servicios de control y salvamento (SAR) necesitan información concreta para localizarte y ayudarte. Esta es la secuencia ():
 
-1. **A QUIÉN:** Nombre de la dependencia ATS
-  ATS (Servicios de Tránsito Aéreo / Air Traffic Services)
-  .
+1. **A QUIÉN:** Nombre de la dependencia ATS.
 2. **QUIÉN:** Tipo de aeronave e indicativo completo.
 3. **DÓNDE:** Posición actual, altitud o nivel de vuelo, y rumbo.
 4. **QUÉ PASA:** Naturaleza de la emergencia.
@@ -80,8 +66,6 @@ Si estás hablando con «Zaragoza Torre» o escuchando «Madrid Información», 
 Ahora bien, si vuelas en una zona remota sin contacto ATS y nadie responde a tu llamada local, entonces sí: cambia a **121.500 MHz**.
 
 Esa frecuencia la escuchan continuamente los vuelos de líneas aéreas en crucero, las estaciones militares de defensa aérea y los centros de control de área. Un MAYDAY en 121.500 MHz tiene muchas probabilidades de ser escuchado y retransmitido (**relay**) a los servicios de rescate.
-
- 
 
 ## Interceptación: si un caza aparece a tu lado
 
@@ -149,8 +133,6 @@ También el interceptado tiene señales propias (tabla S11-2 de SERA): encender 
 
 Un velero sin luces de navegación tiene pocas opciones de señalización: tu respuesta visible es el **alabeo amplio y claro**. Compensa el resto con la radio (121,500 MHz) y el transpondedor (7700). Y recuerda que la mejor interceptación es la que no ocurre: comprueba los NOTAM y el estado de las zonas P y R antes de cada vuelo de travesía.
 :::
-
- 
 
 **Resumen del capítulo: procedimientos de socorro y urgencia**
 

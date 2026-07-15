@@ -4,25 +4,19 @@ La aerodinámica es el fundamento invisible de todo lo que hace un planeador en 
 
 ## Principio de Bernoulli y sustentación
 
-La sustentación
-Sustentación (lift)
- se genera por una diferencia de presiones entre la parte superior (extradós) y la inferior (intradós) del ala.
+La sustentación se genera por una diferencia de presiones entre la parte superior (extradós) y la inferior (intradós) del ala.
 
-Cuando el planeador avanza, el aire fluye sobre el perfil curvado del extradós acelerándose, mientras que el aire que pasa por el intradós viaja a menor velocidad. Según el teorema de Bernoulli
-Bernoulli; teorema de
-, cuando la velocidad de un fluido aumenta, su presión estática disminuye: el extradós queda con menos presión que el intradós, y esa diferencia crea la fuerza neta ascendente que contrarresta el peso del planeador.
+Cuando el planeador avanza, el aire fluye sobre el perfil curvado del extradós acelerándose, mientras que el aire que pasa por el intradós viaja a menor velocidad. Según el teorema de Bernoulli, cuando la velocidad de un fluido aumenta, su presión estática disminuye: el extradós queda con menos presión que el intradós, y esa diferencia crea la fuerza neta ascendente que contrarresta el peso del planeador.
 
+::: {.callout-tip}
 ✦ **REGLA DE ORO**
 
 La sustentación admite dos descripciones del **mismo** fenómeno, no dos fuerzas que se sumen: la diferencia de presión (Bernoulli) y la deflexión del aire hacia abajo en el borde de salida (acción-reacción, tercera ley de Newton). El ala que acelera el aire por arriba es la misma que lo desvía hacia abajo; ambas miradas dan la misma fuerza.
-
- 
+:::
 
 ## La capa límite
 
-La capa límite
-Capa límite
- es la fina lámina de aire en contacto directo con la piel del ala. El rozamiento viscoso frena esa capa progresivamente hasta que la velocidad llega a cero sobre la superficie misma. Tiene dos regímenes:
+La capa límite es la fina lámina de aire en contacto directo con la piel del ala. El rozamiento viscoso frena esa capa progresivamente hasta que la velocidad llega a cero sobre la superficie misma. Tiene dos regímenes:
 
 * **Laminar:** el flujo se desliza en láminas paralelas y ordenadas. Genera la mínima fricción posible y es el objetivo principal del diseño de los planeadores modernos.
 * **Turbulenta:** el flujo se desordena en pequeños remolinos. El rozamiento aumenta mucho respecto al régimen laminar, la capa se engrosa y el planeo se resiente. Tiene, eso sí, una virtud: al llevar más energía, se aferra mejor al perfil y tarda más en desprenderse. Por eso muchos planeadores montan turbuladores (esa cinta en zigzag que habrás visto en algún Discus): fuerzan la transición a turbulenta justo donde conviene evitar que el flujo se separe.
@@ -31,13 +25,9 @@ El punto de la cuerda donde el flujo laminar pasa a ser turbulento se llama **pu
 
 ![Capa límite laminar y turbulenta sobre un perfil alar.](imagenes/05-cap01-capa-limite.jpg){#fig-05-cap01-capa-limite}
 
- 
-
 ## Centro de presiones (CP)
 
-El centro de presiones (CP)
-Centro de Presiones (CP)
- es el punto de la cuerda alar donde actúa la fuerza neta de sustentación. No es fijo: se desplaza con el ángulo de ataque.
+El centro de presiones (CP) es el punto de la cuerda alar donde actúa la fuerza neta de sustentación. No es fijo: se desplaza con el ángulo de ataque.
 
 La regla:
 
@@ -52,18 +42,16 @@ Ese vaivén continuo afecta directamente al equilibrio en cabeceo.
 Debido a la movilidad del CP, el diseño de la aeronave obliga a situar el centro de gravedad (CG) por delante del centro de presiones en las condiciones normales de vuelo. Esa configuración proporciona **estabilidad longitudinal positiva**. Para contrarrestar la tendencia a picar (hundir el morro) que produce el CG adelantado, el estabilizador horizontal genera una fuerza descendente que mantiene el equilibrio en cabeceo.
 :::
 
- 
-
 ## Tipos de resistencia y curva de resistencias
 
 Todo lo que mantiene al planeador en el aire tiene su precio: la resistencia al avance (**drag**). Se divide en dos componentes:
 
-* **** la que produce cualquier objeto sólido al moverse a través de un fluido. Crece con el cuadrado de la velocidad (si la velocidad se duplica, la resistencia se cuadruplica). Se compone de:
+* **Resistencia parásita:** la que produce cualquier objeto sólido al moverse a través de un fluido. Crece con el cuadrado de la velocidad (si la velocidad se duplica, la resistencia se cuadruplica). Se compone de:
   
   * Fricción superficial de las alas y fuselaje.
   * Resistencia de forma (perfil de las piezas).
   * Resistencia de interferencia (donde dos superficies ortogonales se unen, como el encastre del plano con el fuselaje).
-* **** el subproducto directo de generar sustentación. La diferencia de presión entre extradós e intradós hace que el aire fluya en sentido contrario alrededor de las puntas del ala, desde la zona de alta presión (intradós) hacia la de baja presión (extradós). Ese rodeo genera **** que se desprenden de cada punta y que, al inclinar levemente hacia atrás el vector de sustentación resultante, crean una fuerza opositora al avance: la resistencia inducida (). Al contrario que la parásita, es máxima a velocidades bajas (y altos ángulos de ataque) y disminuye a medida que el planeador acelera.
+* **Resistencia inducida:** el subproducto directo de generar sustentación. La diferencia de presión entre extradós e intradós hace que el aire fluya en sentido contrario alrededor de las puntas del ala, desde la zona de alta presión (intradós) hacia la de baja presión (extradós). Ese rodeo genera **torbellinos helicoidales** que se desprenden de cada punta y que, al inclinar levemente hacia atrás el vector de sustentación resultante, crean una fuerza opositora al avance: la resistencia inducida (). Al contrario que la parásita, es máxima a velocidades bajas (y altos ángulos de ataque) y disminuye a medida que el planeador acelera.
 
 ![Resistencia inducida por la producción de sustentación](imagenes/05-cap01-vortices-punta-ala.png){#fig-05-cap01-vortices-punta-ala}
 
@@ -71,11 +59,9 @@ Hay dos razones por las que un planeador planea tan distinto a un avión de turi
 
 La suma de ambas resistencias en función de la velocidad forma una curva en "U". El punto más bajo de esa curva es la velocidad donde la resistencia aerodinámica total es mínima. Volando exactamente a esa velocidad, el planeador alcanza la mejor relación sustentación/resistencia (L/D): el ángulo de planeo óptimo para maximizar el alcance horizontal.
 
- 
-
 ## El efecto suelo
 
-Cuando el planeador vuela a muy baja altura sobre la pista —generalmente por debajo de una envergadura de ala sobre el terreno—, entra en una zona de influencia aerodinámica denominada ****. El terreno actúa como una barrera física que interrumpe la formación normal de los torbellinos de punta de ala y reduce la intensidad del flujo descendente que los alimenta (**downwash**).
+Cuando el planeador vuela a muy baja altura sobre la pista —generalmente por debajo de una envergadura de ala sobre el terreno—, entra en una zona de influencia aerodinámica denominada **efecto suelo**. El terreno actúa como una barrera física que interrumpe la formación normal de los torbellinos de punta de ala y reduce la intensidad del flujo descendente que los alimenta (**downwash**).
 
 El resultado es una reducción significativa de la resistencia inducida que mejora transitoriamente la relación L/D del planeador ():
 
@@ -84,17 +70,11 @@ El resultado es una reducción significativa de la resistencia inducida que mejo
 
 ![El efecto suelo: reducción de torbellinos y mejora transitoria del planeo en proximidad al terreno.](imagenes/05-cap01-efecto-suelo.jpg){#fig-05-cap01-efecto-suelo}
 
- 
-
- 
-
 ::: {.callout-note}
 ⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
 
 El efecto suelo puede sorprender al piloto inexperto: el planeador parece no querer posarse durante la toma. Si estás entrando en la zona de contacto con exceso de velocidad o inercia, resiste la tentación de picar el morro para forzar el aterrizaje. Usa los frenos aerodinámicos para controlar el planeo y déjalo posarse solo cuando esté listo, asegurándote antes de tener pista suficiente.
 :::
-
- 
 
 **Resumen del Capítulo: Aerodinámica y Flujo de Aire**
 

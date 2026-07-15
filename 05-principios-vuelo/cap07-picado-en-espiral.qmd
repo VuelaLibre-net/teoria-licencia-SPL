@@ -4,9 +4,7 @@ El picado en espiral engaña al instinto del piloto: parece que hay que tirar de
 
 ## Diferencias críticas: no es una barrena
 
-Es vital no confundir un picado en espiral
-Picado en espiral (spiral dive)
- (o espiral descendente) con una barrena.
+Es vital no confundir un picado en espiral (o espiral descendente) con una barrena.
 
 En una barrena, el planeador está en pérdida asimétrica, cae verticalmente guiñando y su velocidad aerodinámica es baja y constante. Por el contrario, en un picado en espiral **el planeador está volando**; ninguna de sus alas está en pérdida. El planeador describe una trayectoria curva descendente cada vez más pronunciada en la que tanto la velocidad como el factor de carga (fuerzas G) aumentan de forma constante y rápida.
 
@@ -19,13 +17,9 @@ La herramienta de diagnóstico más rápida y fiable es el **anemómetro** ():
 
 ![Espiral descendente vs. barrena: diagnóstico por actitud, altímetro y trayectoria.](imagenes/05-cap07-espiral-vs-barrena.png){#fig-05-cap07-espiral-vs-barrena}
 
- 
-
 ## El peligro mortal del instinto
 
-La espiral descendente ha recibido el apodo de "espiral del cementerio
-Espiral del cementerio (graveyard spiral)
-" en la aviación general por una buena razón: engaña al instinto de supervivencia del piloto desorientado.
+La espiral descendente ha recibido el apodo de "espiral del cementerio" en la aviación general por una buena razón: engaña al instinto de supervivencia del piloto desorientado.
 
 Cuando el piloto percibe el morro apuntando hacia abajo y la velocidad disparándose, el instinto inmediato es tirar de la palanca para subir. Sin embargo, en un picado en espiral el planeador está fuertemente ladeado. Si tiras de la palanca **sin haber nivelado antes las alas**, el efecto es catastrófico: al estar de lado, el timón de profundidad empuja el planeador hacia el centro del giro, cerrando aún más el radio. La espiral se aprieta, la velocidad crece y las fuerzas G aumentan hasta superar el límite de diseño y romper la estructura.
 
@@ -35,15 +29,11 @@ Cuando el piloto percibe el morro apuntando hacia abajo y la velocidad disparán
 Nunca tires de la palanca de mando para intentar frenar un picado si las alas del planeador se encuentran inclinadas.
 :::
 
- 
-
 ## La causa típica: pérdida de referencia visual
 
 La situación clásica que desencadena una espiral descendente es la pérdida accidental de referencias visuales exteriores (VMC), como introducirse inadvertidamente en la base de una nube mientras se vira en una térmica fuerte.
 
 Al perder el horizonte visual, el oído interno se desorienta rápidamente. El planeador, que habitualmente no es estable en espiral (tiende a aumentar gradualmente su ángulo de alabeo si se dejan sueltos los mandos en un viraje), comenzará a inclinarse y a bajar el morro de forma progresiva. El piloto desorientado no lo percibe hasta que el fuerte ruido aerodinámico y el aumento de la velocidad en el anemómetro revelan que el planeador está cayendo aceleradamente.
-
- 
 
 ## Procedimiento de salida (recuperación)
 
@@ -52,8 +42,6 @@ La salida de un picado en espiral debe ejecutarse de forma procedimental, luchan
 1. **Nivelar las alas:** es lo primero, porque el alabeo es lo que sostiene y aprieta la espiral. Aplica palanca lateral y pedal hacia el lado contrario del viraje, con decisión, hasta poner las alas completamente horizontales respecto a tu referencia o a los instrumentos.
 2. **Recuperar el picado:** solo cuando las alas estén a 0º de inclinación lateral, tira de la palanca con firmeza pero con suavidad para elevar el morro. Hazlo de forma progresiva, vigilando no superar factores de carga excesivos al salir de la trayectoria de picado.
 3. **Controlar la velocidad:** si la velocidad se aproxima a la V~NE~ (Velocidad Nunca Exceder), extiende los aerofrenos para frenar la aceleración; pero hazlo con suavidad, porque a alta velocidad y con factor de carga elevado una extensión brusca añade carga a la estructura.
-
- 
 
 **Resumen del Capítulo: Picado en Espiral**
 

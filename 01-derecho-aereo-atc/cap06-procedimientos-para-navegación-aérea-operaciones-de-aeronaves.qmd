@@ -37,11 +37,13 @@ Para evitar encuentros frontales en ruta, cada uno vuela a una altitud según su
 
 ()
 
+::: {.callout-tip}
 ✦ **REGLA DE ORO**
 
 **Norte Par / Sur Impar**
 Hacia el **N**orte → Niveles **P**ares.
 Hacia el **S**ur → Niveles **I**mpares.
+:::
 
 ![Regla semicircular de niveles de crucero VFR (Norte-Sur)](imagenes/01-cap06-regla-semicircular.jpg){#fig-01-cap06-semicircular}
 
@@ -53,12 +55,14 @@ Tu altímetro mide presión, no altura. Según qué presión le pongas en la ven
 * **QFE**: presión del aeródromo. El altímetro marca **altura** sobre el campo; en el suelo marca cero. Poco usado en travesía, útil en vuelo local o competición.
 * **QNE**: presión estándar (1013,2 hPa). El altímetro marca **niveles de vuelo (FL)**. Se usa por encima de la altitud de transición (6.000 ft en general en España, con excepciones como Madrid a 13.000 ft o Granada a 7.000 ft) para que todos los aviones compartan la misma referencia, haga la meteo que haga. Un matiz: a diferencia del QNH y el QFE, el QNE no es una presión que te reporte nadie, sino la **lectura del altímetro con 1013,2 hPa calados**; por eso se habla de «calar estándar», no de «poner el QNE».
 
+::: {.callout-tip}
 ✦ **REGLA DE ORO**
 
 Como regla mnemotécnica en inglés:
 
-* **QNH** = ** (Altitud sobre el nivel del mar).
-* **QFE** = ** (Altura sobre el campo de vuelo).
+* **QNH** = ***N**autical **H**eight* (Altitud sobre el nivel del mar).
+* **QFE** = ***F**ield **E**levation* (Altura sobre el campo de vuelo).
+:::
 
 ::: {.callout-important}
 ⚖ **NORMATIVA**
@@ -71,17 +75,13 @@ Por debajo de la **Altitud de Transición** (6.000 ft en la mayor parte de Espa�
 A medida que subes hay menos oxígeno, y la hipoxia es un enemigo silencioso: te sientes eufórico, pierdes juicio y te desmayas sin previo aviso. Por eso la norma dice dos cosas:
 
 1. El piloto al mando debe asegurar que todos los ocupantes usen oxígeno suplementario siempre que determine que su falta puede afectar a sus facultades.
-2. Si el piloto no puede determinar ese efecto, según EASA
-  EASA (Agencia de la Unión Europea para la Seguridad Aérea / European Union Aviation Safety Agency)
-   el oxígeno **deberá** usarse siempre por encima de los **10.000 ft**.
+2. Si el piloto no puede determinar ese efecto, según EASA el oxígeno **deberá** usarse siempre por encima de los **10.000 ft**.
 
 ::: {.callout-important}
 ⚖ **NORMATIVA**
 
 **AMC1 SAO.OP.150:** El piloto al mando debe asegurarse de que todos los ocupantes utilicen oxígeno suplementario siempre que la altitud de presión sea superior a los **10.000 ft**, en los casos en que no pueda determinar cómo la falta de oxígeno puede afectar a las personas a bordo.
 :::
-
- 
 
 ::: {.callout-warning}
 ⚠ **SEGURIDAD**
@@ -102,8 +102,6 @@ La misma normativa de operaciones fija el equipamiento mínimo del planeador seg
 En la práctica: de día y en VFR bastan un reloj de pulsera, el altímetro y el anemómetro. La brújula se suma en los motorizados (TMG). Y el vuelo en nube o nocturno exige además el variómetro, un indicador de actitud o de viraje y resbale, y el rumbo magnético.
 
 Queda un procedimiento operativo del syllabus que esta colección desarrolla en otros volúmenes: el **plan de vuelo**. Su operativa por radio está en el **Libro 4 — Comunicaciones** (cap. 3), el formulario OACI casilla a casilla en el **Libro 7 — Planificación** (cap. 4) y su relación con los servicios ATS en el **Libro 9 — Navegación** (cap. 7).
-
-
 
 **Resumen del Capítulo: Procedimientos para la Navegación**
 

@@ -2,9 +2,7 @@
 
 list-of::image[]
 
-
-
-****
+***Tema 1 de 9 del examen teórico para la Licencia de Piloto de Planeador (SPL)***
 
 Un planeador opera en un sistema de espacios aéreos y responsabilidades legales que existen para que cada vuelo sea predecible. Ignorar ese sistema no te hace más libre; te hace más expuesto.
 

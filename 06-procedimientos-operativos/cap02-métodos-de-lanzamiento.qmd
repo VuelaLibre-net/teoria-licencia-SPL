@@ -5,12 +5,12 @@ El lanzamiento es la fase de mayor energía del vuelo de planeador y, junto con 
 En este capítulo aprenderás:
 
 * **El lanzamiento por torno**: dinámica, fraseología y procedimiento de emergencia ante rotura de cable.
-* **El remolque por avión (**: posiciones en remolque, señales visuales y cómo actuar si no puedes soltar.
+* **El remolque por avión (**aerotow**)**: posiciones en remolque, señales visuales y cómo actuar si no puedes soltar.
 * **Las reglas generales de seguridad**: ganchos, velocidades y comprobaciones previas al enganche.
 
 ## El lanzamiento por torno (*winch*)
 
-El **** es el método más rápido y económico para poner un planeador en el aire. Un motor potente situado en el extremo opuesto de la pista enrolla un cable a gran velocidad, arrastrando al planeador desde el reposo hasta velocidades de despegue en apenas tres o cuatro segundos. La sensación es la de una catapulta: la aceleración es tan brusca que los pilotos noveles suelen sorprenderse ante su intensidad.
+El **lanzamiento por torno** es el método más rápido y económico para poner un planeador en el aire. Un motor potente situado en el extremo opuesto de la pista enrolla un cable a gran velocidad, arrastrando al planeador desde el reposo hasta velocidades de despegue en apenas tres o cuatro segundos. La sensación es la de una catapulta: la aceleración es tan brusca que los pilotos noveles suelen sorprenderse ante su intensidad.
 
 Durante el ascenso, el ángulo de cabeceo aumenta rápidamente hasta superar los 40-45°. Esta actitud, que en cualquier otra situación sería alarmante, es completamente normal en el torno: el cable tirando desde adelante y abajo impone esa geometría. El planeador sube a razón de 10-15 metros por segundo y alcanza entre 300 y 500 metros en menos de un minuto (). Durante la trepada, la tracción del cable carga el ala y eleva su velocidad de pérdida, así que se vuela más deprisa que en vuelo libre: como referencia, entre 1,3 y 1,6 veces la velocidad mínima de vuelo recto, sin superar nunca la velocidad máxima de torno que fija el AFM.
 
@@ -37,7 +37,7 @@ Si el cable se rompe durante el ascenso, la prioridad **absoluta e inmediata** e
 
 ## Remolque por avión (*aerotow*)
 
-En el ****, una aeronave motorizada tira del planeador mediante un cable de entre 30 y 60 metros. Este método ofrece una ventaja decisiva sobre el torno: permite elegir con precisión la altura de suelta y el lugar geográfico exacto —sobre la ladera idónea, la primera térmica del día o el punto de inicio de la tarea prevista—. La penalización es el coste y el consumo de tiempo.
+En el **remolque por avión**, una aeronave motorizada tira del planeador mediante un cable de entre 30 y 60 metros. Este método ofrece una ventaja decisiva sobre el torno: permite elegir con precisión la altura de suelta y el lugar geográfico exacto —sobre la ladera idónea, la primera térmica del día o el punto de inicio de la tarea prevista—. La penalización es el coste y el consumo de tiempo.
 
 La posición correcta de remolque es fundamental tanto para la seguridad como para la comodidad del piloto del remolcador ():
 
@@ -54,9 +54,11 @@ Aunque se use la radio, las señales visuales son el estándar internacional de 
 
 ![Posición correcta del planeador en remolque por avión](imagenes/06-cap02-aerotow-posicion.jpg){#fig-06-cap02-aerotow-posicion}
 
+::: {.callout-tip}
 ✦ **REGLA DE ORO**
 
 Durante el remolque, mantén siempre el avión remolcador **en tu campo de visión**, preferiblemente en «posición alta» (las ruedas del remolcador apoyadas en el horizonte). Si el remolcador desaparece de tu campo de visión, has entrado en posición demasiado alta: el planeador estará levantando la cola del remolcador y puedes empujar su morro hacia el suelo. Ante cualquier duda, suelta el cable: siempre es la decisión más segura.
+:::
 
 ### La maniobra «Boxing the Wake» (hacer la caja a la estela)
 
@@ -78,23 +80,23 @@ Evita realizar un cuadro demasiado estrecho o recortar las esquinas, ya que el p
 
 ### Corrección de cable flojo (**slack line**)
 
-El aflojamiento del cable de remolque (**** o **slack line** o seno en el cable) es un fenómeno común durante el remolque por avión, provocado por ráfagas de viento, térmicas, virajes cerrados por el interior del radio del remolcador o reducciones bruscas de potencia del avión tractor.
+El aflojamiento del cable de remolque (**cable flojo** o **slack line** o seno en el cable) es un fenómeno común durante el remolque por avión, provocado por ráfagas de viento, térmicas, virajes cerrados por el interior del radio del remolcador o reducciones bruscas de potencia del avión tractor.
 
 El peligro reside en que, cuando el planeador desacelera y el cable se afloja, la cuerda puede enredarse en las alas o en el tren del planeador. Además, al acelerar de nuevo, el cable se tensará de golpe, provocando un tirón violento (**snap**) que puede romper el fusible de seguridad o causar daños estructurales en el planeador o en el remolcador.
 
 Para corregir un cable flojo, aplica la siguiente técnica según su severidad:
 
 * **Seno leve:** si la comba en el cable es pequeña, mantén una trayectoria de vuelo estabilizada directamente detrás del remolcador. El propio planeo del velero reabsorberá el exceso de velocidad de forma natural y suave.
-* **Seno moderado:** si el cable está visiblemente combado, **realiza un resbale lateral (** apuntando el morro ligeramente hacia afuera de la trayectoria para aumentar la resistencia aerodinámica, o bien **abre los aerofrenos de forma muy gradual e intermitente**. Esto ralentizará el planeador y estirará el cable con suavidad.
+* **Seno moderado:** si el cable está visiblemente combado, **realiza un resbale lateral (**sideslip**) suave** apuntando el morro ligeramente hacia afuera de la trayectoria para aumentar la resistencia aerodinámica, o bien **abre los aerofrenos de forma muy gradual e intermitente**. Esto ralentizará el planeador y estirará el cable con suavidad.
 * **Seno crítico:** si el cable forma un bucle grande y pierdes de vista el cable o el avión remolcador, **suelta el cable de inmediato**. Es muy peligroso esperar a que se tense de golpe a gran velocidad.
 
 ## El autolanzamiento (*self-launch*)
 
-El **** es el método empleado por los planeadores motorizados (**motorgliders**) o planeadores autónomos equipados con motores retráctiles o hélices frontales plegables. Este método proporciona al piloto una independencia absoluta, permitiéndole despegar y ascender sin necesidad de torno ni de avión remolcador.
+El **autolanzamiento** es el método empleado por los planeadores motorizados (**motorgliders**) o planeadores autónomos equipados con motores retráctiles o hélices frontales plegables. Este método proporciona al piloto una independencia absoluta, permitiéndole despegar y ascender sin necesidad de torno ni de avión remolcador.
 
 Sin embargo, la operación con motor introduce una serie de riesgos específicos que deben gestionarse con rigor:
 
-* **La tendencia al encabritado (** en la mayoría de los planeadores con motor retráctil, el motor se despliega en un mástil vertical sobre el fuselaje. La fuerza de tracción actúa muy por encima del eje longitudinal de la aeronave: al aplicar potencia genera un potente par de picado, y al reducirla o cortarla en el aire, un encabritado brusco. El piloto debe contrarrestar esta tendencia de forma activa y decidida con el timón de profundidad.
+* **La tendencia al encabritado (**pitch-up tendency**):** en la mayoría de los planeadores con motor retráctil, el motor se despliega en un mástil vertical sobre el fuselaje. La fuerza de tracción actúa muy por encima del eje longitudinal de la aeronave: al aplicar potencia genera un potente par de picado, y al reducirla o cortarla en el aire, un encabritado brusco. El piloto debe contrarrestar esta tendencia de forma activa y decidida con el timón de profundidad.
 * **Resistencia aerodinámica del motor:** si el motor falla en vuelo o se apaga y queda desplegado sin retraerse, la polar de planeo se degrada de forma drástica (la tasa de descenso puede llegar a duplicarse). Volar con el motor fuera equivale a volar con los aerofrenos parcialmente abiertos.
 * **El dilema del arranque a baja altura:** la causa principal de accidentes en planeadores motorizados es el intento del piloto de arrancar el motor en vuelo cuando se encuentra a muy baja altura para evitar un aterrizaje fuera de campo. Si el motor no arranca (debido al enfriamiento por viento, fallos eléctricos o falta de combustible), el piloto se queda sin motor y sin la altitud necesaria para planificar un aterrizaje fuera de campo seguro.
 
@@ -108,15 +110,15 @@ Establece siempre una altura mínima de seguridad para el arranque del motor en 
 
 Además del torno, el remolque por avión y el autolanzamiento, existen otros dos métodos contemplados en el syllabus, de uso poco común en la actualidad pero con gran relevancia en la historia del vuelo sin motor o en ubicaciones de montaña específicas:
 
-* **Remolque por vehículo (** similar al torno, pero en lugar de un motor fijo enrollando un cable, es un coche o camión el que corre por una pista larga tirando del cable enganchado al planeador. Requiere una coordinación precisa de velocidad entre el conductor del vehículo y el planeador, y pistas extremadamente largas (más de 1.500 metros).
-* **Lanzamiento por goma (** es el método fundacional del vuelo sin motor. Se utiliza en laderas empinadas y con vientos fuertes de cara. El planeador se sujeta por la cola, mientras un equipo de personas estira una goma elástica gruesa unida al gancho de morro del planeador. Cuando la goma está tensa, se libera el planeador y este sale catapultado directamente hacia la ascendencia dinámica de la ladera.
+* **Remolque por vehículo (**car launch**):** similar al torno, pero en lugar de un motor fijo enrollando un cable, es un coche o camión el que corre por una pista larga tirando del cable enganchado al planeador. Requiere una coordinación precisa de velocidad entre el conductor del vehículo y el planeador, y pistas extremadamente largas (más de 1.500 metros).
+* **Lanzamiento por goma (**bungee launch**):** es el método fundacional del vuelo sin motor. Se utiliza en laderas empinadas y con vientos fuertes de cara. El planeador se sujeta por la cola, mientras un equipo de personas estira una goma elástica gruesa unida al gancho de morro del planeador. Cuando la goma está tensa, se libera el planeador y este sale catapultado directamente hacia la ascendencia dinámica de la ladera.
 
 ## Reglas generales de seguridad
 
 Independientemente del método de lanzamiento, existen reglas de seguridad comunes que deben verificarse antes de cada vuelo:
 
 1. **Ganchos de remolque adecuados:** si el planeador dispone de gancho de morro (para aerotow) y gancho de centro de gravedad (para torno), asegúrate de usar el correcto para cada método. Usar el gancho equivocado puede generar geometrías de tracción peligrosas o impedir la suelta.
-2. **Velocidades de remolque (V** nunca excedas la velocidad máxima de remolque especificada en el AFM. Un remolque demasiado rápido genera oscilaciones que pueden superar los límites estructurales del planeador. Uno demasiado lento pone al remolcador al borde de la pérdida.
+2. **Velocidades de remolque (V~T~):** nunca excedas la velocidad máxima de remolque especificada en el AFM. Un remolque demasiado rápido genera oscilaciones que pueden superar los límites estructurales del planeador. Uno demasiado lento pone al remolcador al borde de la pérdida.
 3. **Comprobaciones previas al enganche:** antes de enganchar el cable, verifica:
   
   * Aerofrenos cerrados y blocados.
@@ -147,16 +149,16 @@ El sistema de doble anilla Tost es el único homologado para ganchos Tost. El us
 
 ### Fusibles de seguridad (**weak links**)
 
-El **** (**weak link** o eslabón débil) es un dispositivo metálico calibrado que se intercala en el cable de remolque, diseñado para romperse antes de que una tensión excesiva e imprevista en el cable provoque daños estructurales en el planeador o en el avión remolcador.
+El **fusible de seguridad** (**weak link** o eslabón débil) es un dispositivo metálico calibrado que se intercala en el cable de remolque, diseñado para romperse antes de que una tensión excesiva e imprevista en el cable provoque daños estructurales en el planeador o en el avión remolcador.
 
 La obligación operativa del piloto es montar **exactamente el fusible de seguridad especificado en el AFM** de su planeador: ni más resistente, ni más débil. Como referencia de diseño, la norma de certificación **EASA CS 22.581(b)** asume que la resistencia nominal última del cable o fusible no es inferior a 1,3 veces el peso máximo del planeador ni a 500 daN, valores con los que se dimensiona estructuralmente el gancho de remolque.
 
 En los clubes europeos se utiliza el sistema estandarizado de la firma Tost. Es fundamental entender que **la selección del fusible correcto depende obligatoriamente tanto del peso del planeador como del método de lanzamiento**:
 
-* **En remolque por avión (** las aceleraciones son progresivas y las tensiones del cable son de menor magnitud. Para proteger el gancho de morro de sobretensiones peligrosas para la estabilidad, se emplean fusibles de menor resistencia:
+* **En remolque por avión (**aerotow**):** las aceleraciones son progresivas y las tensiones del cable son de menor magnitud. Para proteger el gancho de morro de sobretensiones peligrosas para la estabilidad, se emplean fusibles de menor resistencia:
 * **Verde (300 daN):** para monoplazas estándar y ligeros.
 * **Blanco (500 daN):** para biplazas de instrucción y veleros pesados.
-* **En lanzamiento por torno (** la aceleración es muy brusca y las tensiones del cable durante el ascenso empinado son muy elevadas debido a la geometría del tiro. Se requieren fusibles de mayor resistencia para evitar roturas prematuras en plena trepada:
+* **En lanzamiento por torno (**winch**):** la aceleración es muy brusca y las tensiones del cable durante el ascenso empinado son muy elevadas debido a la geometría del tiro. Se requieren fusibles de mayor resistencia para evitar roturas prematuras en plena trepada:
 * **Blanco (500 daN):** para torno en monoplazas muy ligeros.
 * **Azul (600 daN):** para la mayoría de los monoplazas estándar (ej. LS4, Astir, Discus).
 * **Rojo (750 daN):** para monoplazas pesados y biplazas de escuela ligeros (ej. K-21 con un tripulante).
@@ -199,12 +201,10 @@ Este briefing estructura la toma de decisiones inmediata en caso de una rotura d
 No comiences la carrera de despegue sin haber verbalizado o repasado mentalmente tu **emergency briefing**. En caso de rotura de cable a baja altura, no hay tiempo para pensar qué hacer; la acción correcta (bajar el morro, estabilizar la velocidad y la trayectoria) debe estar precargada en la mente y ejecutarse como una respuesta refleja.
 :::
 
-
-
 **Resumen del Capítulo: Métodos de lanzamiento**
 
-* **Torno (**: aceleración brutal de 0 a 100 en 3 segundos. Si se rompe el cable, lo primero es **bajar el morro** para recuperar velocidad. Solo entonces suelta el cable remanente y decide si aterrizar recto, hacer 180° o un circuito corto, según la altura disponible.
-* **Remolque (**: mantén la «posición alta» (rueda del remolcador en el horizonte). Si el remolcador alabea sus alas, es una orden de suelta inmediata: tiene una emergencia. Si no puedes soltar, vuela a un lado y alabea. Si se forma un **cable flojo (**, corrígelo con un resbale suave o con aerofrenos graduales. Entrena la maniobra **«Boxing the Wake»** a partir de 300 m AGL.
-* **Autolanzamiento (**: ofrece total independencia. Cuidado con el par de cabeceo del motor sobre mástil: aplicar potencia pica el morro y reducirla o cortarla lo **encabrita**. Respeta la altura de seguridad de 300 m para arrancar el motor en vuelo; por debajo, concéntrate en el aterrizaje fuera de campo.
+* **Torno (**winch**)**: aceleración brutal de 0 a 100 en 3 segundos. Si se rompe el cable, lo primero es **bajar el morro** para recuperar velocidad. Solo entonces suelta el cable remanente y decide si aterrizar recto, hacer 180° o un circuito corto, según la altura disponible.
+* **Remolque (**aerotow**)**: mantén la «posición alta» (rueda del remolcador en el horizonte). Si el remolcador alabea sus alas, es una orden de suelta inmediata: tiene una emergencia. Si no puedes soltar, vuela a un lado y alabea. Si se forma un **cable flojo (**slack line**)**, corrígelo con un resbale suave o con aerofrenos graduales. Entrena la maniobra **«Boxing the Wake»** a partir de 300 m AGL.
+* **Autolanzamiento (**self-launch**)**: ofrece total independencia. Cuidado con el par de cabeceo del motor sobre mástil: aplicar potencia pica el morro y reducirla o cortarla lo **encabrita**. Respeta la altura de seguridad de 300 m para arrancar el motor en vuelo; por debajo, concéntrate en el aterrizaje fuera de campo.
 * **Emergency briefing**: briefing mental y verbalizado antes de cada despegue. Define velocidades de seguridad y acciones precisas ante fallos a baja, media y alta altura según el viento.
 * **Comprobaciones previas**: ganchos correctos, velocidades respetadas, mandos libres y comprobación cruzada. Realiza la inspección de cuerdas (sin nudos), anillas dobles Tost compatibles y fusibles de seguridad (**weak links**) de resistencia por código de colores (ej. azul = 600 daN para monoplazas en torno).

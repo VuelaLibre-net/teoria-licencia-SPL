@@ -4,7 +4,7 @@ Un planeador bien diseñado quiere volver al equilibrio cuando algo lo perturba.
 
 ## La estabilidad estática
 
-La estabilidad de una aeronave es su capacidad inherente para recuperar el equilibrio tras una perturbación atmosférica. Cuando una racha de viento desplaza al planeador de su actitud nivelada, la respuesta inmediata de la máquina sin intervención del piloto se define como ****.
+La estabilidad de una aeronave es su capacidad inherente para recuperar el equilibrio tras una perturbación atmosférica. Cuando una racha de viento desplaza al planeador de su actitud nivelada, la respuesta inmediata de la máquina sin intervención del piloto se define como **estabilidad estática**.
 
 Según su diseño, el comportamiento del planeador puede clasificarse en tres tipos:
 
@@ -18,11 +18,9 @@ Según su diseño, el comportamiento del planeador puede clasificarse en tres ti
 Los veleros de escuela suelen diseñarse con una estabilidad estática positiva muy marcada para facilitar el aprendizaje y perdonar errores del alumno. Sin embargo, esto los hace más "pesados" o perezosos de mando. Los veleros de alta competición o acrobacia reducen esta estabilidad para ganar agilidad y respuesta inmediata.
 :::
 
- 
-
 ## La estabilidad dinámica
 
-La estabilidad estática describe solo la **reacción inicial** de la aeronave: si tiende a volver o a alejarse. La **** describe lo que ocurre a continuación, cuando el planeador comienza a oscilar mientras intenta regresar al equilibrio.
+La estabilidad estática describe solo la **reacción inicial** de la aeronave: si tiende a volver o a alejarse. La **estabilidad dinámica** describe lo que ocurre a continuación, cuando el planeador comienza a oscilar mientras intenta regresar al equilibrio.
 
 Según cómo evolucionen esas oscilaciones en el tiempo, el comportamiento puede clasificarse en tres tipos ():
 
@@ -34,8 +32,8 @@ Según cómo evolucionen esas oscilaciones en el tiempo, el comportamiento puede
 
 Dos modos de oscilación merecen atención especial en un planeador:
 
-* **** una oscilación longitudinal lenta y de gran periodo (típicamente 30-60 segundos). El planeador sube y baja intercambiando altitud y velocidad en ciclos suaves. Su amortiguamiento es débil, pero el ciclo es tan lento que lo corriges sin darte cuenta con los pequeños ajustes de palanca de siempre; solo aflora si sueltas los mandos un buen rato.
-* **** una inestabilidad dinámica lateral. La mayoría de los planeadores son estáticamente estables en alabeo, pero dinámicamente tienden a una ligera **divergencia espiral**: si se les abandona con un pequeño ángulo de inclinación, el alabeo crece lentamente hasta convertirse en una espiral descendente. Por eso el piloto debe vigilar siempre la actitud lateral, especialmente en nube o al perder las referencias visuales del horizonte.
+* **Modo fugoide:** una oscilación longitudinal lenta y de gran periodo (típicamente 30-60 segundos). El planeador sube y baja intercambiando altitud y velocidad en ciclos suaves. Su amortiguamiento es débil, pero el ciclo es tan lento que lo corriges sin darte cuenta con los pequeños ajustes de palanca de siempre; solo aflora si sueltas los mandos un buen rato.
+* **Tendencia espiral:** una inestabilidad dinámica lateral. La mayoría de los planeadores son estáticamente estables en alabeo, pero dinámicamente tienden a una ligera **divergencia espiral**: si se les abandona con un pequeño ángulo de inclinación, el alabeo crece lentamente hasta convertirse en una espiral descendente. Por eso el piloto debe vigilar siempre la actitud lateral, especialmente en nube o al perder las referencias visuales del horizonte.
 
 ::: {.callout-warning}
 ⚠ **SEGURIDAD**
@@ -43,13 +41,9 @@ Dos modos de oscilación merecen atención especial en un planeador:
 La tendencia espiral es el origen de la mayoría de los incidentes por pérdida de control en condiciones de visibilidad reducida. Un planeador abandonado con cinco grados de alabeo puede, en cuestión de minutos, desarrollar una espiral descendente fatal. Nunca vueles sin referencias visuales del horizonte real.
 :::
 
- 
-
 ## Estabilidad longitudinal: el papel del CG
 
-La estabilidad longitudinal controla el cabeceo. El parámetro que lo determina es la posición del Centro de Gravedad (CG)
-CG (Centro de gravedad)
- respecto al Centro de Presiones (CP).
+La estabilidad longitudinal controla el cabeceo. El parámetro que lo determina es la posición del Centro de Gravedad (CG) respecto al Centro de Presiones (CP).
 
 Para que el planeador sea estable en cabeceo, el **CG debe situarse por delante del CP** en las condiciones normales de vuelo. Esa configuración crea un momento natural de "morro abajo". Para equilibrar el vuelo, el estabilizador horizontal genera una fuerza hacia abajo, manteniendo el planeador nivelado.
 
@@ -62,11 +56,9 @@ Para que el planeador sea estable en cabeceo, el **CG debe situarse por delante 
 El Reglamento (UE) 2018/1976, Part-SAO, punto SAO.GEN.130 d)4), establece que el piloto al mando deberá "iniciar un vuelo únicamente tras cerciorarse de que […​] la masa del planeador y la ubicación de su centro de gravedad permiten efectuar el vuelo dentro de los límites definidos por el manual de vuelo de la aeronave (AFM)".
 :::
 
- 
-
 ## Estabilidad lateral: el efecto diedro
 
-La estabilidad lateral es la tendencia del planeador a nivelar sus alas tras una perturbación que cause un alabeo no deseado. El principal recurso de diseño para lograr esto es el ****.
+La estabilidad lateral es la tendencia del planeador a nivelar sus alas tras una perturbación que cause un alabeo no deseado. El principal recurso de diseño para lograr esto es el **ángulo diedro**.
 
 El diedro es el ángulo hacia arriba que forman las alas respecto a la horizontal, otorgando al planeador una forma vista de frente similar a una "V" muy abierta ().
 
@@ -74,21 +66,13 @@ Cuando una racha inclina un ala (por ejemplo, la izquierda), el planeador comien
 
 ![Efecto autonivelador del diedro positivo](imagenes/05-cap03-efecto-diedro.jpg){#fig-05-cap03-efecto-diedro}
 
- 
-
 ## Estabilidad direccional: el efecto veleta
 
-La estabilidad direccional asegura que el planeador vuele alineado con el viento relativo, evitando el vuelo cruzado. Este efecto se consigue mediante el estabilizador vertical o deriva
-Deriva
-.
+La estabilidad direccional asegura que el planeador vuele alineado con el viento relativo, evitando el vuelo cruzado. Este efecto se consigue mediante el estabilizador vertical o deriva.
 
-La deriva actúa exactamente como una veleta
-Efecto veleta
-. Al estar situada a gran distancia por detrás del Centro de Gravedad, cualquier guiñada no deseada expone la superficie lateral de la cola al viento relativo. La presión del aire sobre la aleta genera una fuerza que empuja la cola de vuelta, alineando automáticamente el morro del planeador con la dirección del avance ().
+La deriva actúa exactamente como una veleta. Al estar situada a gran distancia por detrás del Centro de Gravedad, cualquier guiñada no deseada expone la superficie lateral de la cola al viento relativo. La presión del aire sobre la aleta genera una fuerza que empuja la cola de vuelta, alineando automáticamente el morro del planeador con la dirección del avance ().
 
 ![Efecto veleta: la deriva realinea el morro con el viento relativo](imagenes/05-cap03-efecto-veleta.png){#fig-05-cap03-efecto-veleta}
-
-
 
 **Resumen del Capítulo: Estabilidad**
 

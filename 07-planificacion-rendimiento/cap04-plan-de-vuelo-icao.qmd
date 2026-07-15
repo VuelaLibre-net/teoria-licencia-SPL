@@ -1,8 +1,6 @@
 # Plan de vuelo ICAO
 
-El plan de vuelo (FPL)
-FPL (Plan de vuelo / Flight Plan)
- es mucho más que un trámite administrativo: es tu seguro de vida en los vuelos de distancia. En vuelo local no suele hacer falta, pero en cuanto decides alejarte del cono de seguridad de tu aeródromo se convierte en la única forma de que los servicios de búsqueda y rescate (SAR) sepan dónde buscarte si no regresas.
+El plan de vuelo (FPL) es mucho más que un trámite administrativo: es tu seguro de vida en los vuelos de distancia. En vuelo local no suele hacer falta, pero en cuanto decides alejarte del cono de seguridad de tu aeródromo se convierte en la única forma de que los servicios de búsqueda y rescate (SAR) sepan dónde buscarte si no regresas.
 
 En este capítulo aprenderás:
 
@@ -44,7 +42,7 @@ Rellenar un formulario ICAO para un avión sin motor tiene sus peculiaridades ()
 
 ## Abrir el plan en el aire: el AFIL
 
-¿Y si despegas de un campo sin cobertura ni acceso a la aplicación ICARO de ENAIRE? El reglamento prevé la presentación del plan de vuelo **en vuelo (AFIL, **, transmitiéndolo por radio a una dependencia ATS:
+¿Y si despegas de un campo sin cobertura ni acceso a la aplicación ICARO de ENAIRE? El reglamento prevé la presentación del plan de vuelo **en vuelo (AFIL, *Air-Filed Flight Plan*)**, transmitiéndolo por radio a una dependencia ATS:
 
 1. Sintoniza el **Centro de Información de Vuelo (FIC)** de tu región: en España, **Madrid Información**, **Barcelona Información** o **Canarias Información** (consulta la frecuencia del sector en el AIP de ENAIRE o en la carta de navegación; varía según la zona).
 2. En el primer contacto, indica: identificación, tipo de aeronave (GLID), posición y altitud, intenciones (ruta y destino) y la petición expresa de **abrir plan de vuelo en el aire**.

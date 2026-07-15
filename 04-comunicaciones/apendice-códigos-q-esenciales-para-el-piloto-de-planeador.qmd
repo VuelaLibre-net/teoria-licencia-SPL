@@ -19,7 +19,7 @@ Aparecen cuando pides orientación a una estación de tierra mediante radiogoni�
 
 | Código | Significado |
 | --- | --- |
-| **** | Rumbo magnético para dirigirse **hacia** la estación transmisora. |
+| **QDM** | Rumbo magnético para dirigirse **hacia** la estación transmisora. |
 | **QDR** | Rumbo magnético **desde** la estación (marcación o radial). |
 | **QFU** | Dirección magnética de la pista en uso. Es el número de pista multiplicado por diez (pista 23 → QFU 230°). Aparece en comunicaciones AFIS o en campos con mucho ruido de fondo donde el número de pista puede confundirse. |
 

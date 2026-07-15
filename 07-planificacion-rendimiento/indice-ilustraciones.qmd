@@ -2,9 +2,7 @@
 
 list-of::image[]
 
-
-
-****
+***Tema 7 de 9 del examen teórico para la Licencia de Piloto de Planeador (SPL)***
 
 La diferencia entre el piloto que completa un vuelo de distancia y el que aterriza en el campo de un granjero no siempre está en la técnica. Muchas veces está en los cálculos que se hicieron —o no se hicieron— en tierra: la polar no consultada, el centrado calculado a ojo, el plan de vuelo que no se cerró al aterrizar fuera.
 

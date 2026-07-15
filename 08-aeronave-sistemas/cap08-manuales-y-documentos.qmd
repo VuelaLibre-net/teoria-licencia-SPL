@@ -13,14 +13,12 @@ Volar no es solo pilotar: también es gestionar la parte legal y la información
 
 ## El Manual de Vuelo (AFM / SFM)
 
-El **** (*AFM, Aircraft Flight Manual*, también *SFM, Sailplane Flight Manual*, en los veleros) es el documento maestro. No es un manual de usuario genérico, sino un documento legalmente ligado a la matrícula de tu planeador. En él encontrarás:
+El **Manual de Vuelo** (*AFM, Aircraft Flight Manual*, también *SFM, Sailplane Flight Manual*, en los veleros) es el documento maestro. No es un manual de usuario genérico, sino un documento legalmente ligado a la matrícula de tu planeador. En él encontrarás:
 
 * **Limitaciones**: velocidades (V~NE~ (Velocidad Nunca Exceder), V~A~ (Velocidad de Maniobra)), factores de carga, pesos máximos.
 * **Procedimientos de emergencia**: qué hacer ante un fuego, una rotura de cable o un fallo de mandos.
 * **Rendimiento**: tablas de planeo, distancias de despegue y aterrizaje.
 * **Peso y centrado**: límites del centro de gravedad.
-
- 
 
 ## Documentación a bordo y en el aeródromo
 
@@ -43,15 +41,11 @@ La normativa europea de operaciones con veleros distingue entre lo que debe ir e
 * Seguro de responsabilidad civil en vigor.
 * Libro de a bordo o registro equivalente.
 
- 
-
 ::: {.callout-important}
 ⚖ **NORMATIVA**
 
 **SAO.GEN.155** exige llevar a bordo en cada vuelo el AFM, las cartas actualizadas y la información de señales de interceptación; los certificados (matrícula, aeronavegabilidad, ARC, seguro, licencia de radio) pueden quedarse en el aeródromo. Hay una excepción: en los vuelos que se mantengan a la vista del aeródromo, o dentro de la distancia que fije la autoridad competente, toda la documentación (incluido el AFM) puede quedarse en tierra. Lo mismo vale para la licencia y el certificado médico del piloto (SFCL.045).
 :::
-
- 
 
 ## Listas de chequeo (checklists)
 
@@ -63,23 +57,17 @@ Hay varios tipos de chequeo:
 2. **Chequeo de cabina**: justo antes de despegar. La mnemotecnia europea estándar es **CB-SIFT-CBE**; en muchos clubes españoles se usa también la tradicional **CRISE**. Ambas se desarrollan en el **Libro 6 — Procedimientos operativos**, capítulo 1.
 3. **Chequeo de viento en cola**: antes de la toma (mnemotecnias FUSTALL o WULF, detalladas en el **Libro 6 — Procedimientos operativos**, capítulo 4).
 
- 
-
+::: {.callout-tip}
 ✦ **REGLA DE ORO**
 
 No recites la lista de memoria. Lee cada punto, comprueba físicamente el mando o el instrumento y confirma en voz alta su estado. Si te saltas un paso, empieza la lista de nuevo.
-
- 
+:::
 
 ## Diario de la aeronave y mantenimiento
 
 Cada hora de vuelo y cada aterrizaje quedan registrados en el **Diario de la Aeronave**. Es lo que permite seguir las inspecciones del programa de mantenimiento, y es la historia clínica del planeador. No despegues si la aeronave tiene una avería abierta que afecte a la seguridad o si ya han vencido las horas o el plazo de la próxima inspección programada.
 
- 
-
 ![Documentación obligatoria del planeador y carpeta de a bordo](imagenes/08-cap08-documentos-bordo.jpg){#fig-08-cap08-documentos-bordo}
-
- 
 
 **Resumen del capítulo: documentación del avión**
 

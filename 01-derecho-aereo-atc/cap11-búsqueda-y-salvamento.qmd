@@ -24,9 +24,7 @@ Existen también **RSC** (subcentros) para zonas específicas.
 
 ## Las fases de emergencia (repaso SAR)
 
-El SAR no sale a buscar "porque sí". Actúa escalonadamente según la gravedad, en fases que activa el ATC
-ATC (Control de Tránsito Aéreo / Air Traffic Control)
- o el propio RCC:
+El SAR no sale a buscar "porque sí". Actúa escalonadamente según la gravedad, en fases que activa el ATC o el propio RCC:
 
 1. **INCERFA (Incertidumbre)**: "¿alguien sabe algo?". Por ejemplo, 30 minutos sin noticias. El RCC empieza a preguntar.
 2. **ALERFA (Alerta)**: "algo va mal". Por ejemplo, un fallo de comunicaciones confirmado. Se preparan los equipos SAR.
@@ -60,8 +58,6 @@ Si volando interceptas una señal de socorro (visual o en 121.5 MHz):
 3. **Notifica al ATC** o a quien puedas inmediatamente.
 4. Si es posible, mantente en la zona hasta ser relevado (sin ponerte en peligro).
 :::
-
-
 
 **Resumen del Capítulo: Búsqueda y Salvamento (SAR)**
 

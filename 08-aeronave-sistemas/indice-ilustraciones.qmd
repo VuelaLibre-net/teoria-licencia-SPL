@@ -2,9 +2,7 @@
 
 list-of::image[]
 
-
-
-****
+***Tema 8 de 9 del examen teórico para la Licencia de Piloto de Planeador (SPL)***
 
 Un planeador moderno de fibra de carbono es una obra de ingeniería de precisión. También es una máquina que falla de formas específicas y predecibles si no se mantiene o si el piloto no sabe qué está mirando en la inspección prevuelo.
 

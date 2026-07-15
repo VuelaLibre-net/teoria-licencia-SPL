@@ -13,7 +13,7 @@ En este capítulo aprenderás:
 
 En Europa volamos bajo un reglamento unificado: **SERA** (**Standardised European Rules of the Air**), directamente aplicable en España como reglamento de la UE y complementado por el Real Decreto 552/2014. Da igual si vuelas en Albacete o en Alemania: las reglas básicas son las mismas.
 
-El principio fundamental es **** (**Visual Flight Rules**): volamos basándonos en referencias visuales externas.
+El principio fundamental es **VFR** (**Visual Flight Rules**): volamos basándonos en referencias visuales externas.
 
 ## Principio básico: "ver y evitar"
 
@@ -48,8 +48,6 @@ Hay una excepción: las aeronaves de motor deben ceder el paso a las que remolca
 * **Alcance**: si alcanzas a otro por detrás, el de delante tiene prioridad. Rebásalo por su **derecha**. Con una excepción hecha a nuestra medida: un planeador que adelanta a otro planeador puede hacerlo **por la derecha o por la izquierda** (útil en ladera, donde solo un lado es seguro).
 * **En ladera**: si dos planeadores se encuentran en rumbo de colisión volando una ladera, **tiene prioridad el que lleva la montaña a su derecha**. El otro debe separarse de la ladera para dejar paso ().
 
- 
-
 ![Preferencia de paso en vuelo de ladera](imagenes/01-cap05-preferencias-paso-ladera.jpeg){#fig-01-cap05-prioridades-ladera}
 
 * **Aterrizaje**: el velero más bajo tiene prioridad para aterrizar (pero no vale picar para colarse). Además, según SERA.3210, los planeadores en final y aterrizaje siempre tienen preferencia sobre las aeronaves de motor ().
@@ -72,13 +70,13 @@ La norma reconoce nuestra operativa particular:
 
 ![Alturas mínimas de seguridad](imagenes/01-cap05-alturas-minimas.jpg){#fig-01-cap05-alturas-minimas}
 
+::: {.callout-tip}
 ✦ **REGLA DE ORO**
 
 **Globo > Planeador > Motor.**
 Si tiene motor, te cede el paso. Si es un globo, tú cedes.
 Si vais de frente, **siempre a la derecha**.
-
-
+:::
 
 **Resumen del Capítulo: Reglas del Aire**
 

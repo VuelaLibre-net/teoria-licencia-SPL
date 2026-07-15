@@ -2,9 +2,7 @@
 
 list-of::image[]
 
-
-
-****
+***Tema 3 de 9 del examen teórico para la Licencia de Piloto de Planeador (SPL)***
 
 Hay pilotos que miran el cielo y ven nubes. Hay pilotos que miran el cielo y ven información.
 

@@ -5,11 +5,7 @@ Notificar sucesos no busca culpables, sino aprender de los errores para mantener
 En este capítulo aprenderás:
 
 * Las diferencias legales entre accidente, incidente grave e incidente.
-* Cuándo debes reportar un suceso a la CIAIAC
-  CIAIAC (Comisión de Investigación de Accidentes e Incidentes de Aviación Civil)
-   y a AESA
-  AESA (Agencia Estatal de Seguridad Aérea)
-  , y sus plazos: sin demora a la primera, 72 horas a la segunda.
+* Cuándo debes reportar un suceso a la CIAIAC y a AESA, y sus plazos: sin demora a la primera, 72 horas a la segunda.
 * El principio de "cultura justa": reportar errores honestos sin miedo al castigo.
 
 ## Definiciones clave (Reglamento UE 996/2010 y 376/2014)
@@ -36,13 +32,11 @@ Para mejorar la seguridad, el Estado necesita datos. No para castigar, sino para
 
 Los plazos no son iguales: a la CIAIAC, comunica el accidente o incidente grave **sin demora** (Reglamento (UE) 996/2010, art. 9); a AESA, notifica el suceso lo antes posible y, en todo caso, en un máximo de **72 horas** (Reglamento (UE) 376/2014) ().
 
-
-
+::: {.callout-tip}
 ✦ **REGLA DE ORO**
 
 La normativa europea promueve la "Cultura Justa". El objetivo de notificar **NO es buscar culpables** (salvo negligencia grave o dolo), sino **aprender**. No tengas miedo a reportar tus errores; es la única forma de que el sistema mejore.
-
- 
+:::
 
 ![Proceso de notificación de un suceso](imagenes/01-cap13-flujo-notificacion.jpg){#fig-01-cap13-flujo-notificacion}
 
@@ -54,8 +48,6 @@ Si sufres o presencias un accidente:
 1. Prioridad: **Salvar vidas** y evitar más peligros (fuego, etc.).
 2. Después: **NO TOQUES NADA**. Preservar los restos es vital para la investigación de la CIAIAC. Solo muévelos si es imprescindible para sacar a víctimas o evitar un incendio.
 :::
-
-
 
 **Resumen del Capítulo: Accidentes e Incidentes**
 

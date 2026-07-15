@@ -13,12 +13,10 @@ En este capítulo aprenderás:
 
 ## La polar: tu curva de rendimiento
 
-La curva polar
-Polar de velocidades
- representa la tasa de descenso frente a la velocidad aire. Es el ADN de tu planeador: cada modelo tiene la suya, y de ella salen las dos velocidades que importan ().
+La curva polar representa la tasa de descenso frente a la velocidad aire. Es el ADN de tu planeador: cada modelo tiene la suya, y de ella salen las dos velocidades que importan ().
 
-* ****: el punto más alto de la curva. A esa velocidad pierdes los mínimos metros por segundo; es la ideal para aguantar en el aire mientras esperas una térmica.
-* ****: el punto donde la tangente desde el origen toca la curva. A esa velocidad recorres la mayor distancia posible por cada metro de altura perdido; es tu velocidad de planeo en aire en calma.
+* **Velocidad de mínimo descenso**: el punto más alto de la curva. A esa velocidad pierdes los mínimos metros por segundo; es la ideal para aguantar en el aire mientras esperas una térmica.
+* **Velocidad de máximo planeo (L/D)**: el punto donde la tangente desde el origen toca la curva. A esa velocidad recorres la mayor distancia posible por cada metro de altura perdido; es tu velocidad de planeo en aire en calma.
 
 ![La curva polar y sus dos velocidades clave](imagenes/07-cap02-polar-anotada.png){#fig-07-cap02-polar-anotada}
 
@@ -30,19 +28,15 @@ Aprende de memoria estos dos valores para tu modelo de planeador. En aire en cal
 
 ## El efecto del peso: la polar se desplaza
 
-¿Recuerdas el lastre de agua del capítulo anterior? Aquí está la explicación gráfica de por qué funciona. Al aumentar el peso (carga alar
-Carga alar
-), la curva polar completa se desplaza hacia la derecha y hacia abajo, deslizándose a lo largo de la tangente desde el origen (). Las consecuencias son tres, y las tres caen en el examen:
+¿Recuerdas el lastre de agua del capítulo anterior? Aquí está la explicación gráfica de por qué funciona. Al aumentar el peso (carga alar), la curva polar completa se desplaza hacia la derecha y hacia abajo, deslizándose a lo largo de la tangente desde el origen (). Las consecuencias son tres, y las tres caen en el examen:
 
-* **El **: la tangente desde el origen toca la nueva curva con la misma pendiente. Un planeador de fineza 40 sigue teniendo fineza 40 cargado de agua.
+* **El planeo máximo (L/D) no cambia**: la tangente desde el origen toca la nueva curva con la misma pendiente. Un planeador de fineza 40 sigue teniendo fineza 40 cargado de agua.
 * **Ese planeo se alcanza a más velocidad**: si en vacío tu máximo planeo era a 95 km/h, con lastre puede ser a 110 km/h. Recorres los mismos kilómetros por metro de altura, pero más deprisa. Por eso el agua gana carreras en días fuertes.
 * **El mínimo descenso empeora**: la parte alta de la curva baja. En térmicas débiles, el planeador cargado sube peor o no sube. Es la otra cara de la moneda: el lastre es un préstamo que pagas en cada térmica floja.
 
 ![Desplazamiento de la curva polar con el peso (lastre de agua)](imagenes/07-cap02-polar-peso.png){#fig-07-cap02-polar-peso}
 
-## Teoría MacCready
-Teoría MacCready (Anillo MacCready)
-: ajustar la velocidad al día
+## Teoría MacCready: ajustar la velocidad al día
 
 Paul MacCready revolucionó el vuelo a vela con una idea simple: la velocidad entre térmicas debe depender de lo fuerte que esperes que sea la siguiente.
 
@@ -81,7 +75,7 @@ Las limitaciones de velocidad de tu planeador (V~NE~ (Velocidad Nunca Exceder), 
 El planeo final es el tramo desde la última térmica hasta el aeródromo: un ejercicio de gestión de energía donde el margen de error tiende a cero.
 
 * **Calculador de planeo**: mecánico o digital, ajústalo siempre con un margen de seguridad.
-* **Altura de seguridad (**: nunca planifiques llegar al aeródromo con cero metros. Fija una altura de llegada (300 m, por ejemplo) y trátala como sagrada: es para volar el circuito de aterrizaje, no para estirar el planeo.
+* **Altura de seguridad (*safety height*)**: nunca planifiques llegar al aeródromo con cero metros. Fija una altura de llegada (300 m, por ejemplo) y trátala como sagrada: es para volar el circuito de aterrizaje, no para estirar el planeo.
 * **El cono de alcance**: imagina un cono invertido que baja de tu planeador hasta el suelo. Lo que quede fuera de ese círculo es inalcanzable. Con viento de cara, el círculo se convierte en una elipse desplazada; tenlo siempre presente.
 
 ::: {.callout-warning}
@@ -89,8 +83,6 @@ El planeo final es el tramo desde la última térmica hasta el aeródromo: un ej
 
 Si tu calculador de planeo dice que llegas "justo", en realidad **no llegas**. El calculador no sabe si encontrarás un hundimiento inesperado ni si el viento en cara será más fuerte a baja altura. Busca una alternativa antes de que el cono de alcance se cierre.
 :::
-
- 
 
 **Resumen del Capítulo: Polar de Velocidades y MacCready**
 

@@ -10,7 +10,7 @@ En este capítulo aprenderás:
 * **Estelas turbulentas y engelamiento**: dos amenazas silenciosas en vuelo.
 * **Viento cruzado**: técnica de despegue y aterrizaje en condiciones exigentes.
 * **Riesgos en montaña**: horizonte falso, reglas de preferencia y la prohibición absoluta de virar hacia la ladera.
-* **Amerizaje (**: qué hacer si el agua es inevitable.
+* **Amerizaje (**ditching**)**: qué hacer si el agua es inevitable.
 
 ## Vigilancia exterior y colisiones
 
@@ -38,7 +38,7 @@ Esta regla tiene una consecuencia directa: las aeronaves deben detectarse a **mu
 
 ## Ayudas electrónicas: FLARM
 
-El **** es un sistema de alerta de colisión diseñado específicamente para el vuelo sin motor y la aviación general ligera. Opera enviando la posición GPS del planeador y su vector de movimiento predicho mediante una señal de radio corta a todos los equipos FLARM cercanos. Cada equipo recibe estas posiciones, calcula si las trayectorias convergen y, si detecta riesgo de colisión, emite una alerta sonora y visual con la dirección e intensidad del peligro.
+El **FLARM** es un sistema de alerta de colisión diseñado específicamente para el vuelo sin motor y la aviación general ligera. Opera enviando la posición GPS del planeador y su vector de movimiento predicho mediante una señal de radio corta a todos los equipos FLARM cercanos. Cada equipo recibe estas posiciones, calcula si las trayectorias convergen y, si detecta riesgo de colisión, emite una alerta sonora y visual con la dirección e intensidad del peligro.
 
 * **¿Qué detecta?** Aeronaves equipadas con FLARM o dispositivos compatibles (PowerFLARM, SoftRF, FANET), algunos aviones con ADS-B Out, y obstáculos fijos programados en su base de datos (cables de teleférico, antenas, tendidos eléctricos en zonas de vuelo de competición).
 * **¿Qué NO detecta?** Aeronaves sin FLARM ni ADS-B (muchos aviones ultraligeros, helicópteros militares, parapentes, globos sin equipar), objetos no incluidos en su base de datos, y tráfico fuera de su alcance de radio (habitualmente 3-5 km horizontal).
@@ -74,8 +74,6 @@ En la península ibérica, el encuentro con buitres leonados en térmica es diar
 El instinto de escape natural de un buitre asustado ante una amenaza de gran tamaño es **plegar sus alas y arrojarse en picado hacia abajo** para ganar velocidad de escape rápida. Si el piloto intenta esquivar al buitre picando el planeador (por debajo), existe una altísima probabilidad de interceptar la trayectoria de caída del ave y chocar frontalmente. Ante la duda, mantén tu trayectoria coordinada o tira suavemente de la palanca para pasar por encima de su cota.
 :::
 
- 
-
 ::: {.callout-warning}
 ⚠ **SEGURIDAD**
 
@@ -86,7 +84,7 @@ Los tendidos eléctricos y los cables de telecomunicaciones son invisibles desde
 
 ### Estelas turbulentas (*wake turbulence*)
 
-Las **** —los vórtices de punta de ala generados por aeronaves pesadas— son invisibles, persistentes y extraordinariamente peligrosas para un planeador. Se forman en el momento del despegue y durante toda la fase de vuelo, descendiendo lentamente y desplazándose lateralmente con el viento.
+Las **estelas turbulentas** —los vórtices de punta de ala generados por aeronaves pesadas— son invisibles, persistentes y extraordinariamente peligrosas para un planeador. Se forman en el momento del despegue y durante toda la fase de vuelo, descendiendo lentamente y desplazándose lateralmente con el viento.
 
 * Evita volar por debajo y detrás de aeronaves pesadas o del propio avión remolcador.
 * En el despegue por aerotow, mantén la posición alta para no cruzar la estela del remolcador.
@@ -101,7 +99,7 @@ La turbulencia de estela generada por helicópteros es desproporcionada en compa
 
 ### Engelamiento (*icing*)
 
-El **** es la acumulación de hielo en el borde de ataque, que altera drásticamente el perfil aerodinámico del ala: aumenta la resistencia, reduce la sustentación y eleva la velocidad de pérdida de forma significativa. Una capa de hielo de apenas 2 milímetros puede incrementar la velocidad de pérdida en un 20-30 % y hacer el planeador prácticamente inmanejable.
+El **engelamiento** es la acumulación de hielo en el borde de ataque, que altera drásticamente el perfil aerodinámico del ala: aumenta la resistencia, reduce la sustentación y eleva la velocidad de pérdida de forma significativa. Una capa de hielo de apenas 2 milímetros puede incrementar la velocidad de pérdida en un 20-30 % y hacer el planeador prácticamente inmanejable.
 
 * Si vuelas en onda, cerca de nubes o a grandes altitudes con temperatura bajo cero, vigila el borde de ataque periódicamente.
 * Ante los primeros indicios de acumulación (cambio de maniobrabilidad, aumento del ruido aerodinámico), desciende de inmediato a aire más cálido.
@@ -145,13 +143,11 @@ Nunca vires hacia la ladera si no tienes garantizado el espacio para completar e
 
 ## Amerizaje (*ditching*)
 
-Aunque el planeador opera principalmente sobre tierra, el vuelo de travesía puede llevar al piloto sobre grandes masas de agua —lagos, pantanos, ríos— en caso de agotamiento de sustentación. Si el **** es inevitable:
+Aunque el planeador opera principalmente sobre tierra, el vuelo de travesía puede llevar al piloto sobre grandes masas de agua —lagos, pantanos, ríos— en caso de agotamiento de sustentación. Si el **amerizaje** es inevitable:
 
 1. **Tren de aterrizaje fuera:** consulta el AFM de tu aeronave por si contempla el caso, pero la doctrina moderna de planeador —confirmada por los ensayos de amerizaje y las notas de seguridad de DG Flugzeugbau— es amerizar con el **tren extendido**. La rueda frena el planeador al contacto con el agua y limita la profundidad de inmersión, sin riesgo apreciable de capotaje. Con el tren retraído ocurre lo contrario de lo que dicta la intuición: el morro bucea y la cabina puede quedar empujada bajo el agua. La vieja regla del «tren arriba» viene de los aviones con motor, no del planeador.
 2. **Configuración:** ameriza paralelo a las olas o al oleaje si es posible, con los aerofrenos desplegados para reducir la velocidad al máximo.
 3. **Abandono inmediato:** sal de la cabina en cuanto te detengas. El planeador se hundirá en cuestión de segundos: la cabina de compuesto y la estructura rígida pierden flotabilidad con rapidez.
-
-
 
 **Resumen del Capítulo: Procedimientos especiales y peligros**
 

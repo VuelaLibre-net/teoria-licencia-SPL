@@ -5,9 +5,7 @@ Entender el marco legal no es burocracia: es el cimiento de tu seguridad y de tu
 En este capítulo aprenderás:
 
 * De dónde salen las normas: el Convenio de Chicago y la OACI.
-* Qué papel juega EASA
-  EASA (Agencia de la Unión Europea para la Seguridad Aérea / European Union Aviation Safety Agency)
-   y cómo nos afectan las leyes comunes europeas.
+* Qué papel juega EASA y cómo nos afectan las leyes comunes europeas.
 * Qué es obligatorio (normativa vinculante) y qué es recomendado (estándares no vinculantes).
 * Los tres reglamentos que te acompañarán toda tu vida de piloto: Part-SFCL, Part-SAO y SERA.
 
@@ -15,7 +13,7 @@ En este capítulo aprenderás:
 
 El acta de nacimiento del derecho aéreo moderno es el **Convenio de Chicago de 1944**. Allí las naciones acordaron unificar las normas de aviación a nivel global, y de ese acuerdo salen los principios que hoy nos permiten volar de forma segura y ordenada entre países distintos.
 
-Del convenio nació la **** (Organización de Aviación Civil Internacional, **ICAO**), una agencia especializada de la ONU. Su trabajo consiste en desarrollar los principios y técnicas de la navegación aérea internacional, fomentar el transporte aéreo entre países y velar por la seguridad operacional (**safety**) en todo el mundo.
+Del convenio nació la **OACI** (Organización de Aviación Civil Internacional, **ICAO**), una agencia especializada de la ONU. Su trabajo consiste en desarrollar los principios y técnicas de la navegación aérea internacional, fomentar el transporte aéreo entre países y velar por la seguridad operacional (**safety**) en todo el mundo.
 
 La OACI fija los estándares mínimos que sus 193 estados miembros deben cumplir. Ahora bien, no es una "policía mundial": cada país es soberano para adoptar estas normas en su legislación, aunque el Convenio le obliga a notificar las diferencias cuando no cumple un estándar.
 
@@ -29,7 +27,7 @@ En Europa hemos ido un paso más allá de la simple cooperación. Los estados mi
 
 En la práctica, esto significa que casi todo lo que te afecta como piloto (licencias, operaciones, aeronavegabilidad) se decide a nivel europeo y es **directamente aplicable** en España, sin que el gobierno español tenga que transcribirlo a una ley nacional.
 
-¿Y entonces, qué papel juega AESA? La **** (Agencia Estatal de Seguridad Aérea) es el organismo público español, adscrito al Ministerio de Transportes y Movilidad Sostenible, que actúa como tu autoridad competente directa: emite tu licencia, inspecciona tu club y vigila el cumplimiento en territorio español. Pero lo hace aplicando e interpretando las reglas comunes europeas.
+¿Y entonces, qué papel juega AESA? La **AESA** (Agencia Estatal de Seguridad Aérea) es el organismo público español, adscrito al Ministerio de Transportes y Movilidad Sostenible, que actúa como tu autoridad competente directa: emite tu licencia, inspecciona tu club y vigila el cumplimiento en territorio español. Pero lo hace aplicando e interpretando las reglas comunes europeas.
 
 ## Estructura normativa: normativa vinculante y estándares no vinculantes
 
@@ -58,10 +56,12 @@ Son documentos que ayudan a cumplir la ley sin ser ley en sí mismos. Que no te 
 
 ![Estructura normativa EASA: normativa vinculante vs estándares no vinculantes](imagenes/01-cap01-estructura-normativa-easa.jpg){#fig-01-cap01-hard-soft-law}
 
+::: {.callout-tip}
 ✦ **REGLA DE ORO**
 
 * **Normativa vinculante (Reglamentos)** = **QUÉ** debes cumplir (obligatorio).
 * **Estándares no vinculantes (AMC/GM)** = **CÓMO** cumplirlo de forma estándar (recomendado).
+:::
 
 ## Las 3 normas de referencia del piloto de planeador
 
@@ -69,11 +69,7 @@ De toda la sopa de letras normativa, hay tres reglamentos que acabarás conocien
 
 ### 1. Part-SFCL (Licencias)
 
-El **Sailplane Flight Crew Licensing** regula todo lo relativo a tu licencia: los requisitos para obtener la SPL
-SPL (Licencia de Piloto de Planeador / Sailplane Pilot Licence)
- (**Sailplane Pilot License**), la experiencia reciente que necesitas para mantenerla, las habilitaciones (TMG
-TMG (Motovelero de turismo / Touring Motor Glider)
-, acrobacia, remolque…​) y los privilegios de instructores y examinadores. Nace del Reglamento de Ejecución (UE) 2018/1976 y sus modificaciones, como el 2020/358.
+El **Sailplane Flight Crew Licensing** regula todo lo relativo a tu licencia: los requisitos para obtener la SPL (**Sailplane Pilot License**), la experiencia reciente que necesitas para mantenerla, las habilitaciones (TMG, acrobacia, remolque…​) y los privilegios de instructores y examinadores. Nace del Reglamento de Ejecución (UE) 2018/1976 y sus modificaciones, como el 2020/358.
 
 ### 2. Part-SAO (Operaciones)
 
@@ -94,8 +90,6 @@ El **Standardised European Rules of the Air** es el código de circulación del 
 
 SERA.3210 establece las prioridades de paso para evitar colisiones. Un planeador siempre tiene prioridad sobre aeronaves de motor (aviones, helicópteros), pero debe ceder el paso a globos. Conoce estas reglas de memoria.
 :::
-
-
 
 **Resumen del Capítulo: Marco Normativo**
 

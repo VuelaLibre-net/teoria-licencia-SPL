@@ -7,7 +7,7 @@ En este capítulo aprenderás:
 * **Los mandos primarios**: alerones, profundidad y dirección, y cómo se transmiten (varillas y cables).
 * **Los aerofrenos**: el mando azul y su efecto sobre la senda de planeo.
 * **Los flaps**: posiciones positivas y negativas en veleros de rendimiento.
-* **El compensador (**: de muelles o de pestaña, y por qué es tu mejor aliado.
+* **El compensador (**trim**)**: de muelles o de pestaña, y por qué es tu mejor aliado.
 * **La comprobación de libertad y sentido de mandos** antes de cada despegue.
 
 Un planeador se pilota con la punta de los dedos. Esa precisión de los mandos es lo que te deja centrar una térmica estrecha o clavar una aproximación. Y entender cómo viaja tu movimiento desde la cabina hasta las superficies de control es lo que te permite cazar cualquier anomalía antes de despegar.
@@ -22,13 +22,9 @@ Controlan el planeador en sus tres ejes:
 
 La mayoría de los planeadores modernos usan varillas rígidas (*push-rods*) para la profundidad y el alabeo, por su precisión y su falta de holguras, mientras que el timón de dirección suele ir con cables de acero de alta resistencia.
 
- 
-
 ## Aerofrenos (spoilers)
 
-El mando azul de la cabina acciona los aerofrenos
-Aerofrenos (Spoilers)
-. Su función es destruir parte de la sustentación y aumentar la resistencia, lo que te permite variar la pendiente de planeo sin tener que cambiar mucho la velocidad.
+El mando azul de la cabina acciona los aerofrenos. Su función es destruir parte de la sustentación y aumentar la resistencia, lo que te permite variar la pendiente de planeo sin tener que cambiar mucho la velocidad.
 
 ::: {.callout-note}
 ⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
@@ -36,29 +32,19 @@ Aerofrenos (Spoilers)
 Al sacar los aerofrenos, la mayoría de los planeadores bajan un poco el morro o vibran ligeramente. Anticípate y compensa ese cambio de actitud con el elevador para no perder la velocidad de aproximación.
 :::
 
- 
-
 ## Los flaps
 
-En los veleros de competición y en los biplazas de rendimiento, los flaps
-Flaps
- modifican la curvatura del ala:
+En los veleros de competición y en los biplazas de rendimiento, los flaps modifican la curvatura del ala:
 
 * **Posiciones positivas**: aumentan la sustentación; van bien para girar en térmicas lentas y para el aterrizaje.
 * **Posiciones negativas**: reducen la curvatura y la resistencia; permiten correr entre térmicas con una pérdida de altura mínima.
 
- 
-
 ## El compensador (trim)
 
-El mando verde, o el pulsador eléctrico que libera la carga de la palanca, es tu mejor aliado. El compensador
-Compensador (Trim)
- no "vuela" el avión: alivia la presión que tendrías que hacer sobre el elevador para mantener una velocidad dada.
+El mando verde, o el pulsador eléctrico que libera la carga de la palanca, es tu mejor aliado. El compensador no "vuela" el avión: alivia la presión que tendrías que hacer sobre el elevador para mantener una velocidad dada.
 
 * **Trim de muelles**: el más común; unos resortes "sujetan" la palanca en la posición deseada.
 * **Trim de pestaña**: una pequeña superficie en el borde de salida del elevador que se mueve en sentido contrario.
-
- 
 
 ::: {.callout-note}
 ⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
@@ -66,19 +52,13 @@ Compensador (Trim)
 Los mandos de cabina siguen un código de colores casi universal que conviene reconocer al instante: **azul** para los aerofrenos, **verde** para el compensador, **amarillo** para la suelta del cable de remolque y **rojo** para las palancas de emergencia (suelta de cúpula, aperturas). Localízalos en cada planeador antes de volar.
 :::
 
- 
-
 ::: {.callout-warning}
 ⚠ **SEGURIDAD**
 
 Antes de cada despegue, comprueba siempre la libertad y el sentido de los mandos. Lleva todas las superficies a sus topes y verifica a la vista que se mueven en la dirección correcta. Un mando invertido tras un mantenimiento es una emergencia crítica, y se manifiesta justo al despegar.
 :::
 
- 
-
 ![Esquema del sistema de varillas y cables de un planeador estándar](imagenes/08-cap05-sistema-mandos.jpg){#fig-08-cap05-sistema-mandos}
-
- 
 
 **Resumen del capítulo: mandos de vuelo**
 

@@ -31,21 +31,11 @@ Cúmulos (Cu), Cumulonimbos (Cb)
 
 Para el vuelo a vela no todos pesan igual: los cúmulos marcan las térmicas, el cumulonimbo es el peligro máximo, los cirros anuncian la llegada de un frente y los nimboestratos traen precipitación persistente. Aun así conviene reconocer los diez, porque el examen los pregunta y porque cada uno cuenta algo del estado de la atmósfera.
 
- 
-
- 
-
 ## Peligros asociados al desarrollo vertical
 
-   En condiciones de alta inestabilidad atmosférica y humedad, un cúmulo
-Cúmulo (Cu)
- puede continuar su desarrollo y evolucionar a 
-Cúmulo congestus (Cu con)
- y, finalmente, transformarse en un ****.
+   En condiciones de alta inestabilidad atmosférica y humedad, un cúmulo puede continuar su desarrollo y evolucionar a  y, finalmente, transformarse en un **Cumulonimbus (Cb)**.
 
-El Cumulonimbus abarca una notable extensión vertical, culminando a menudo, al alcanzar la tropopausa
-Tropopausa
-, con un tope en forma de yunque. Esta configuración contiene energía masiva capaz de comprometer gravemente la seguridad del vuelo. Los riesgos asociados incluyen:
+El Cumulonimbus abarca una notable extensión vertical, culminando a menudo, al alcanzar la tropopausa, con un tope en forma de yunque. Esta configuración contiene energía masiva capaz de comprometer gravemente la seguridad del vuelo. Los riesgos asociados incluyen:
 
 * **Turbulencia severa:** Las corrientes ascendentes y descendentes que coexisten dentro y alrededor del Cb superan con facilidad los límites estructurales del planeador. El frente de ráfagas puede extenderse a kilómetros del núcleo y golpear sin previo aviso.
 * **Granizo:** Las corrientes ascendentes arrastran agua hasta las capas de congelación repetidas veces, formando granizo que alcanza tamaños considerables. Un impacto de granizo puede dañar seriamente la cúpula y las estructuras de fibra de la aeronave.
@@ -58,40 +48,36 @@ Tropopausa
 El piloto debe evitar en todo momento volar en las inmediaciones de un Cumulonimbus. Se recomienda mantener una separación lateral de seguridad entre 10 y 20 millas náuticas. Si un sistema convectivo amenaza el aeródromo, inicie de inmediato el procedimiento de aterrizaje.
 :::
 
- 
-
 ## Reducciones de visibilidad: Niebla y Neblina
 
    Una degradación significativa en la visibilidad penaliza las Reglas de Vuelo Visual (VFR).
 
 * **Neblina y bruma:** Reducen la visibilidad horizontal a valores entre 1.000 m y 3.000 m.
-* **** Fenómeno de suspensión de agua al nivel del terreno que restringe la visibilidad inferior a los 1.000 m. En estas condiciones, está inhabilitada la operación VFR.
+* **Niebla:** Fenómeno de suspensión de agua al nivel del terreno que restringe la visibilidad inferior a los 1.000 m. En estas condiciones, está inhabilitada la operación VFR.
 
-Resulta de particular interés la ****. Se forma en madrugadas invernales tras noches despejadas bajo condiciones anticiclónicas. El rápido enfriamiento del terreno arrastra térmicamente la capa inferior de aire, saturándola y originando espesos bancos de niebla localizados.
+Resulta de particular interés la **niebla de radiación**. Se forma en madrugadas invernales tras noches despejadas bajo condiciones anticiclónicas. El rápido enfriamiento del terreno arrastra térmicamente la capa inferior de aire, saturándola y originando espesos bancos de niebla localizados.
 
-Otro tipo relevante para los operadores de aeródromos costeros y de valle es la **** (**advection fog**). A diferencia de la de radiación, no depende del enfriamiento nocturno del suelo: se forma cuando una masa de aire cálido y húmedo se desplaza horizontalmente sobre una superficie más fría (el mar frío, un valle nevado o una costa). El contraste de temperatura basta para saturar la base de esa masa y producir un banco de niebla denso que puede persistir día y noche mientras dure el flujo. Es característica del litoral galaico-cantábrico en invierno y de las costas mediterráneas en otoño con viento de levante.
+Otro tipo relevante para los operadores de aeródromos costeros y de valle es la **niebla de advección** (**advection fog**). A diferencia de la de radiación, no depende del enfriamiento nocturno del suelo: se forma cuando una masa de aire cálido y húmedo se desplaza horizontalmente sobre una superficie más fría (el mar frío, un valle nevado o una costa). El contraste de temperatura basta para saturar la base de esa masa y producir un banco de niebla denso que puede persistir día y noche mientras dure el flujo. Es característica del litoral galaico-cantábrico en invierno y de las costas mediterráneas en otoño con viento de levante.
 
+::: {.callout-tip}
 ✦ **REGLA DE ORO**
 
 Presta especial atención a la tarde en los días que hayan empezado con niebla de radiación persistente. Al caer el sol, el enfriamiento nocturno puede reinstaurar la niebla en minutos y cerrarte el campo antes de que aterrices. En costas y valles con viento de componente mar, añade también el riesgo de niebla de advección: puede llegar sin previo aviso y a cualquier hora del día.
-
- 
+:::
 
 ## Altocúmulos Lenticulares y vuelo de onda
 
-  Las **** (**Altocumulus lenticularis**) exhiben formas alisadas y características convexas, similares a una lente. A pesar de formarse bajo vientos de intensidad notable en altura, su estructura permanece totalmente estacionaria respecto al relieve.
+  Las **nubes lenticulares** (**Altocumulus lenticularis**) exhiben formas alisadas y características convexas, similares a una lente. A pesar de formarse bajo vientos de intensidad notable en altura, su estructura permanece totalmente estacionaria respecto al relieve.
 
-Estas formaciones son la prueba visible de un flujo laminar constante interactuando transversalmente y rebotando a sotavento de un obstáculo orográfico. En la práctica, señalan el sistema de ****, donde es posible remontar sin turbulencia sostenidamente ganando gran altitud en un plano de aire terso ().
+Estas formaciones son la prueba visible de un flujo laminar constante interactuando transversalmente y rebotando a sotavento de un obstáculo orográfico. En la práctica, señalan el sistema de **Onda de Montaña**, donde es posible remontar sin turbulencia sostenidamente ganando gran altitud en un plano de aire terso ().
 
 ![Sistema de onda de montaña a sotavento.](imagenes/03-cap04-onda-montana.jpg){#fig-03-cap04-nubes-onda-montana}
 
 ::: {.callout-warning}
 ⚠ **SEGURIDAD**
 
-Bajo la zona de onda, a baja altura, se esconde el ****: un cilindro de turbulencia giratoria muy violento que se delata visualmente por fractocúmulos deshilachados e inestables. Si haces un remolque en zona de onda, el avión remolcador zarandeará con fuerza al atravesar el rotor. Mantén siempre altura suficiente para evitarlo y sigue las indicaciones del piloto remolcador en todo momento.
+Bajo la zona de onda, a baja altura, se esconde el **rotor**: un cilindro de turbulencia giratoria muy violento que se delata visualmente por fractocúmulos deshilachados e inestables. Si haces un remolque en zona de onda, el avión remolcador zarandeará con fuerza al atravesar el rotor. Mantén siempre altura suficiente para evitarlo y sigue las indicaciones del piloto remolcador en todo momento.
 :::
-
-
 
 **Resumen del Capítulo: Nubes y Niebla**
 

@@ -4,18 +4,14 @@ En cuanto sales del circuito y te metes en ruta, las reglas cambian un poco. Aqu
 
 ## Servicio de Información de Vuelo (FIS)
 
-En ruta por espacio aéreo no controlado —Clase G en su mayor parte— no hay ninguna Torre mirándote. Pero tienes una herramienta útil: el **** (*Flight Information Service*).
+En ruta por espacio aéreo no controlado —Clase G en su mayor parte— no hay ninguna Torre mirándote. Pero tienes una herramienta útil: el **Servicio de Información de Vuelo (FIS)** (*Flight Information Service*).
 
 Lo más importante que tienes que saber sobre el FIS: te da **asesoramiento, no control**. No te va a dar rumbos obligatorios ni altitudes que tengas que seguir. Su trabajo es darte información para que tú, como piloto al mando, decidas. La separación sigue siendo tuya.
 
 Lo que puedes pedirle o recibir:
 
 * **Información de tráfico**: Te avisarán de aeronaves conocidas cerca de tu posición o ruta. (En Estados Unidos a esto lo llaman **Flight Following**; en Europa bajo SERA/EASA es oficialmente el FIS).
-* **Meteorología**: METAR
-  METAR (Meteorological Aerodrome Report)
-  , TAF
-  TAF (Terminal Aerodrome Forecast)
-  , alertas SIGMET o AIRMET en ruta o en tus aeródromos de destino y alternativo.
+* **Meteorología**: METAR, TAF, alertas SIGMET o AIRMET en ruta o en tus aeródromos de destino y alternativo.
 * **Estado de espacios aéreos**: Zonas restringidas, peligrosas o militares activadas o desactivadas.
 
 Para contactar, sintoniza la frecuencia de "Información" de tu zona (**Madrid Información**, **Zaragoza Información**…) e identifícate con tu indicativo, tipo de aeronave, posición, ruta y lo que necesitas:
@@ -25,12 +21,8 @@ Para contactar, sintoniza la frecuencia de "Información" de tu zona (**Madrid I
 ::: {.callout-note}
 ⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
 
-En travesías de vuelo a vela (**cross-country**), mantener la escucha en la frecuencia del FIS regional correspondiente proporciona una capa adicional de seguridad, especialmente en días con desarrollo tormentoso donde la información meteorológica en tiempo real es crítica. Además, estar en contacto con el FIS acelera la activación de los servicios de Búsqueda y Salvamento (SAR)
-SAR (Search and Rescue — Búsqueda y Salvamento)
- ante una toma en campo fuera de aeródromo.
+En travesías de vuelo a vela (**cross-country**), mantener la escucha en la frecuencia del FIS regional correspondiente proporciona una capa adicional de seguridad, especialmente en días con desarrollo tormentoso donde la información meteorológica en tiempo real es crítica. Además, estar en contacto con el FIS acelera la activación de los servicios de Búsqueda y Salvamento (SAR) ante una toma en campo fuera de aeródromo.
 :::
-
- 
 
 ## Cambio y abandono de frecuencia
 
@@ -38,20 +30,14 @@ No desaparezcas de una frecuencia sin decir nada. El controlador de Torre, Aprox
 
 Cuando necesites cambiar de frecuencia, hay dos casos ():
 
-* **Si estás bajo control **: Pide permiso. *"Torre, EC-DPE, solicito abandonar frecuencia para pasar a operaciones de club en 123.500"*.
+* **Si estás bajo control ATC**: Pide permiso. *"Torre, EC-DPE, solicito abandonar frecuencia para pasar a operaciones de club en 123.500"*.
 * **Si estás en frecuencia de Información (FIS)**: No es control, así que solo avisas. *"Madrid Información, EC-DPE, abandonamos su frecuencia para pasar con Fuentemilanos 123.500. Buen día"*.
 
 ![Transición ordenada entre dependencias y frecuencias](imagenes/04-cap04-cambio-frecuencia.jpg){#fig-04-cap04-cambio-frecuencia}
 
- 
-
 ## El transpondedor en ruta: código *squawk*
 
-Si tu planeador tiene ****, emite un código de cuatro dígitos (
-Squawk
-) que el ATC usa para identificarte en pantalla. En VFR, el código por defecto es **7000**, salvo que el ATC te asigne uno distinto. Los códigos de emergencia los encontrarás en el capítulo 9.
-
-
+Si tu planeador tiene **transpondedor**, emite un código de cuatro dígitos () que el ATC usa para identificarte en pantalla. En VFR, el código por defecto es **7000**, salvo que el ATC te asigne uno distinto. Los códigos de emergencia los encontrarás en el capítulo 9.
 
 ::: {.callout-important}
 ⚖ **NORMATIVA**
@@ -59,11 +45,9 @@ Squawk
 Los códigos 7600 (fallo de radio) y 7700 (emergencia) activan alertas inmediatas en todos los centros de control. Selecciónelos únicamente ante la situación real que corresponda y extreme la precaución al cambiar de código para no activarlos accidentalmente.
 :::
 
- 
-
 ## Zonas de radio obligatoria (RMZ)
 
-Algunos sectores de clase E, F o G llevan una obligación adicional: son **** (*Radio Mandatory Zone*). Dentro de una RMZ la radio no es optativa aunque el espacio aéreo no sea controlado; es una obligación publicada en el AIP.
+Algunos sectores de clase E, F o G llevan una obligación adicional: son **Zonas de Radio Obligatoria (RMZ)** (*Radio Mandatory Zone*). Dentro de una RMZ la radio no es optativa aunque el espacio aéreo no sea controlado; es una obligación publicada en el AIP.
 
 Antes de entrar y mientras estés dentro tienes que:
 
@@ -78,8 +62,6 @@ Las RMZ activas en España aparecen en la carta **ENR 6.12**. Revísala en la pl
 
 Las RMZ están reguladas por el Reglamento SERA y permiten al Estado miembro establecer requisitos de radio en espacio aéreo donde el servicio de control no es obligatorio. Sus límites y condiciones aparecen referenciados en la **carta ENR 6.12** (carta de zonas de radio obligatoria).
 :::
-
-
 
 **Resumen del Capítulo: Comunicaciones en Ruta**
 

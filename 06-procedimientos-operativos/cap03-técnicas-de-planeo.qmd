@@ -6,13 +6,13 @@ En este capítulo aprenderás:
 
 * **Centrado de térmicas**: cómo detectar el núcleo y cómo desplazar el viraje hacia él.
 * **El anillo MacCready**: qué es y cómo te dice exactamente a qué velocidad volar entre térmicas.
-* **Vuelo de ladera (**: técnica, reglas de tráfico y márgenes de seguridad.
-* **Vuelo de onda (**: identificación, condiciones ideales y riesgos del rotor.
+* **Vuelo de ladera (**ridge soaring**)**: técnica, reglas de tráfico y márgenes de seguridad.
+* **Vuelo de onda (**wave soaring**)**: identificación, condiciones ideales y riesgos del rotor.
 * **Lastre de agua**: cuándo usarlo, cuándo vaciarlo y qué cambia en la aerodinámica del planeador.
 
 ## Vuelo en térmicas
 
-Las **** son columnas de aire ascendente generadas por el calentamiento diferencial del suelo. Cuando el sol calienta la superficie —especialmente sobre terrenos oscuros como campos arados, asfalto o laderas orientadas al sur—, el aire más cálido y ligero asciende en forma de burbuja o columna. Este ascenso es la fuente de energía principal del vuelo de travesía (**cross-country**).
+Las **térmicas** son columnas de aire ascendente generadas por el calentamiento diferencial del suelo. Cuando el sol calienta la superficie —especialmente sobre terrenos oscuros como campos arados, asfalto o laderas orientadas al sur—, el aire más cálido y ligero asciende en forma de burbuja o columna. Este ascenso es la fuente de energía principal del vuelo de travesía (**cross-country**).
 
 Piénsalo como una olla de agua hirviendo: el calor sube desde el fondo en corrientes irregulares e intermitentes. La térmica aerológica funciona de manera similar: no es un tubo uniforme de aire ascendente, sino una masa de geometría variable, con un núcleo de ascenso máximo rodeado de aire más tranquilo y, en los bordes externos, frecuentemente descendente.
 
@@ -28,9 +28,11 @@ Detectar una térmica es solo el primer paso. Lo realmente difícil —y lo que 
 
 ![Técnica de centrado de la térmica: desplazamiento del viraje hacia el núcleo](imagenes/06-cap03-centrado-termica.jpg){#fig-06-cap03-centrado-termica}
 
+::: {.callout-tip}
 ✦ **REGLA DE ORO**
 
 Si al atravesar una térmica un ala sube, el núcleo está de ese lado: **vira hacia el ala que sube**. Una vez establecido el giro, no inviertas nunca el sentido: ajusta. Cierra el viraje cuando el vario sube, ábrelo cuando baja. Con el tiempo, este ajuste se vuelve automático y no necesitas calcularlo conscientemente.
+:::
 
 ### La velocidad entre térmicas: el anillo MacCready
 
@@ -65,7 +67,7 @@ En el vuelo rápido (**high-speed flight**), el hilo de lana lateral pierde toda
 
 ### Vuelo de ladera (*ridge soaring*)
 
-El **** (**ridge soaring**) aprovecha la deflexión ascendente que el viento genera al chocar contra una montaña o colina. Mientras el viento sopla de frente a la ladera con suficiente velocidad, el aire es forzado a ascender y genera una banda de ascenso que el planeador puede explotar de forma continua.
+El **vuelo de ladera** (**ridge soaring**) aprovecha la deflexión ascendente que el viento genera al chocar contra una montaña o colina. Mientras el viento sopla de frente a la ladera con suficiente velocidad, el aire es forzado a ascender y genera una banda de ascenso que el planeador puede explotar de forma continua.
 
 * **Técnica:** vuela paralelo a la cresta, siempre por el lado de barlovento (el lado de donde viene el viento), a una distancia de seguridad que permita virar hacia el valle en cualquier momento.
 * **Tráfico:** si dos planeadores se cruzan en la misma ladera, el que tiene la montaña a su **derecha** tiene preferencia. El otro debe separarse hacia el valle. Los giros se hacen siempre **hacia fuera de la montaña** (hacia el valle).
@@ -78,7 +80,7 @@ Nunca vires hacia la ladera si no tienes espacio garantizado para completar el v
 
 ### Vuelo de onda (*wave soaring*)
 
-El **** (**wave soaring**) ocurre cuando, con viento fuerte y condiciones atmosféricas estables, el flujo de aire desviado hacia arriba por una cordillera genera un sistema de ondas de presión a sotavento, similar a las ondas que forma una piedra en el agua. Estas ondas pueden extenderse decenas o cientos de kilómetros y alcanzar altitudes estratosféricas ().
+El **vuelo de onda** (**wave soaring**) ocurre cuando, con viento fuerte y condiciones atmosféricas estables, el flujo de aire desviado hacia arriba por una cordillera genera un sistema de ondas de presión a sotavento, similar a las ondas que forma una piedra en el agua. Estas ondas pueden extenderse decenas o cientos de kilómetros y alcanzar altitudes estratosféricas ().
 
 * **Identificación:** la señal visual más característica son las **nubes lenticulares** (**lenticular clouds**): nubes con forma de lenteja o sombrero que permanecen estáticas sobre el terreno mientras el viento las atraviesa continuamente.
 * **Características:** el ascenso en la cresta de la onda es suave, constante y de gran amplitud. Es la vía hacia altitudes que ninguna térmica puede alcanzar.
@@ -94,7 +96,7 @@ El vuelo de onda a gran altitud requiere equipamiento específico: oxígeno a pa
 
 ## Gestión del lastre de agua (*water ballast*)
 
-El **** consiste en depósitos situados en las alas del planeador que pueden llenarse de agua antes del vuelo. Al aumentar la masa del planeador, su curva polar se desplaza hacia velocidades más altas: el planeador vuela más rápido entre térmicas con el mismo ángulo de planeo.
+El **lastre de agua** consiste en depósitos situados en las alas del planeador que pueden llenarse de agua antes del vuelo. Al aumentar la masa del planeador, su curva polar se desplaza hacia velocidades más altas: el planeador vuela más rápido entre térmicas con el mismo ángulo de planeo.
 
 La analogía más útil es la del ciclista: en un descenso largo, ir cargado permite llegar más rápido al fondo sin pedalear. Con lastre, el planeador «cae» más rápido pero a igual planeo, lo que es ventajoso cuando las térmicas son fuertes y los planeos entre térmicas son largos.
 
@@ -108,12 +110,10 @@ La analogía más útil es la del ciclista: en un descenso largo, ir cargado per
 Un planeador con lastre de agua tiene una **velocidad de pérdida significativamente mayor** —hasta 15-20 km/h más que sin lastre—. Ajusta todas tus velocidades de referencia (despegue, aproximación, circuito) en consecuencia. **Nunca aterrices con lastre completo**, salvo que una avería del vaciado te obligue — y entonces, extrema la suavidad de la toma: la inercia adicional puede superar la resistencia estructural de las alas y provocar un fallo catastrófico.
 :::
 
-
-
 **Resumen del Capítulo: Técnicas de planeo**
 
 * **Centrado de térmica**: siente el empujón en el asiento. Si el ala derecha sube, el núcleo está a la derecha: vira a la derecha. Cierra el viraje cuando el vario sube, ábrelo cuando baja. Con práctica, este ciclo se vuelve automático.
-* **Hilo de lana lateral (**: técnica complementaria opcional para visualizar de forma didáctica el ángulo de ataque en vuelo lento; no sustituye al hilo central ni al anemómetro.
+* **Hilo de lana lateral (**side string**)**: técnica complementaria opcional para visualizar de forma didáctica el ángulo de ataque en vuelo lento; no sustituye al hilo central ni al anemómetro.
 * **Anillo MacCready**: tu selector de velocidad óptima. Pon el anillo en el valor de ascenso que esperas encontrar (p. ej., 2 m/s) y vuela a la velocidad que te marque. Acelera en corrientes descendentes, aminora en corrientes ascendentes.
 * **Ladera**: mantente pegado a barlovento con vía de escape hacia el valle siempre disponible. Si tienes la ladera a tu derecha, tienes preferencia. Nunca vires hacia el monte.
 * **Onda**: la autopista al cielo. Sube en la zona laminar, delante de la nube de rotor. Requiere oxígeno y ropa de abrigo. Cuidado al bajar: el rotor puede romperte el planeador en segundos.

@@ -48,7 +48,7 @@ def convert_node(node, ctx):
     if tag == 'section':
         return handle_section(node, ctx, convert_node)
         
-    elif tag in ['note', 'warning', 'caution', 'important']:
+    elif tag in ['note', 'warning', 'caution', 'important', 'tip']:
         return handle_callout(node, ctx, convert_node)
         
     elif tag in ['figure', 'informalfigure']:
@@ -64,6 +64,9 @@ def convert_node(node, ctx):
     elif tag == 'simpara' or tag == 'para':
         # Procesar hijos inline
         para_text = process_inline_elements(node, ctx)
+        # Omitir párrafos vacíos o que sólo contengan espacios en blanco
+        if not para_text.strip():
+            return ""
         # Asegurar un espacio después del párrafo
         return f"\n{para_text}\n"
 
@@ -123,13 +126,20 @@ def process_inline_elements(node, ctx):
         child_text = child.text if child.text else ""
         child_tail = child.tail if child.tail else ""
         
+        # Ignorar indexterms y anchors por completo, pero conservar su tail
+        if child_tag in ('indexterm', 'anchor'):
+            if child_tail:
+                parts.append(child_tail)
+            continue
+        
         # Formatear según etiqueta
         if child_tag == 'emphasis':
             role = child.get('role')
+            inner = process_inline_elements(child, ctx) if len(child) > 0 else child_text
             if role == 'strong':
-                formatted = f"**{child_text}**"
+                formatted = f"**{inner}**"
             else:
-                formatted = f"*{child_text}*"
+                formatted = f"*{inner}*"
         elif child_tag == 'literal':
             formatted = f"`{child_text}`"
         elif child_tag == 'link':

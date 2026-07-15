@@ -1,6 +1,6 @@
 # Aterrizaje fuera de campo (
 
-El **** (**outlanding**) es una realidad estadística del vuelo de travesía. No es un fallo, ni un accidente: es un procedimiento previsto, entrenado y perfectamente ejecutable cuando se hace con la cabeza fría y la altitud adecuada. La diferencia entre un aterrizaje fuera de campo que se cuenta en el hangar y uno que se convierte en accidente reside en un único factor: el momento en que el piloto toma la decisión.
+El **aterrizaje fuera de campo** (**outlanding**) es una realidad estadística del vuelo de travesía. No es un fallo, ni un accidente: es un procedimiento previsto, entrenado y perfectamente ejecutable cuando se hace con la cabeza fría y la altitud adecuada. La diferencia entre un aterrizaje fuera de campo que se cuenta en el hangar y uno que se convierte en accidente reside en un único factor: el momento en que el piloto toma la decisión.
 
 En este capítulo aprenderás:
 
@@ -16,7 +16,7 @@ El mayor enemigo del piloto en una situación de campo no es el terreno: es la e
 
 La estadística es contundente: la causa número uno de accidentes graves en vuelo de travesía no es la falta de campos disponibles, sino la **demora en tomar la decisión de aterrizar**. El piloto que espera demasiado llega al campo elegido sin altura suficiente para inspeccionarlo correctamente, sin margen para rectificar una aproximación mal planificada y sin energía para evitar un obstáculo no visto.
 
-La herramienta más útil para combatir este sesgo cognitivo es fijar de antemano una ****. O mejor: una escalera de tres peldaños que convierte el descenso en un plan por fases, en lugar de un ultimátum:
+La herramienta más útil para combatir este sesgo cognitivo es fijar de antemano una **altura de decisión**. O mejor: una escalera de tres peldaños que convierte el descenso en un plan por fases, en lugar de un ultimátum:
 
 * **600 metros sobre el terreno:** selecciona la zona general donde vas a aterrizar. Puedes seguir buscando térmicas, pero solo las que te dejen siempre esa zona al alcance.
 * **450 metros:** elige el campo definitivo y evalúa sus 7 S (siguiente sección). Si pruebas una térmica, que sea sobre el propio campo.
@@ -30,7 +30,7 @@ Retrasar la decisión de aterrizar buscando una «térmica de rescate» a baja a
 
 ## Criterios de selección: las 7 S
 
-Para evaluar si un campo es apto en los pocos segundos que tienes disponibles, utiliza la regla de las ****. Este método te obliga a evaluar los factores correctos en el orden correcto, evitando que la urgencia te lleve a pasar por alto un riesgo crítico ():
+Para evaluar si un campo es apto en los pocos segundos que tienes disponibles, utiliza la regla de las **7 S**. Este método te obliga a evaluar los factores correctos en el orden correcto, evitando que la urgencia te lleve a pasar por alto un riesgo crítico ():
 
 1. **S** (**Size / Tamaño**): busca el campo más grande posible. Un campo de 400 metros es ideal para la mayoría de los planeadores modernos; menos de 200 metros es crítico y requiere una técnica impecable.
 2. **S** (**Shape / Forma**): un campo largo y estrecho es mejor que uno corto y ancho. La forma debe permitir una aproximación limpia desde la dirección del viento sin obstáculos.
@@ -68,7 +68,7 @@ La aproximación a un campo no conocido debe ser más conservadora que la habitu
 5. **La toma:** toca tierra con la mínima velocidad posible y mantén el planeador recto. Una vez en tierra, frena con decisión: es preferible romper el tren de aterrizaje contra un surco que intentar flotar sobre un obstáculo y entrar en pérdida.
 
 ::: {.callout-warning}
-⚠ **SEGURIDAD: EL «CABALLITO» (**
+⚠ **SEGURIDAD: EL «CABALLITO» (**GROUND LOOP**)**
 
 Si durante el rodaje ves que vas a chocar contra un obstáculo insalvable a alta velocidad, puedes provocar un «caballito» deliberado bajando un ala al suelo. El planeador pivotará sobre esa ala y se detendrá bruscamente, sacrificando la estructura del ala para salvar al piloto. Esta maniobra solo se usa como último recurso, cuando la alternativa es el impacto frontal a velocidad.
 :::
@@ -83,7 +83,7 @@ Inmediatamente después de salir de la cabina y verificar que te encuentras iles
 
 * **Orientación respecto al viento:** si hay viento fuerte y es posible pivotar el planeador físicamente sin dañar la estructura, oriéntalo con el ala que tiene el viento de cara en el suelo, o bien perpendicular al viento.
 * **Lastre improvisado:** coloca un peso seguro (como un saco de tierra o de arena, o una bolsa de transporte pesada) sobre el extremo del plano apoyado en el suelo para evitar que el viento levante el ala y vuelque la aeronave. Nunca uses piedras angulosas o ramas que puedan arañar o perforar la fibra de vidrio.
-* **Bloqueadores de mandos (** asegura la palanca de mandos con el cinturón de seguridad y coloca bloqueadores externos en las superficies de control (timón, profundidad y alerones) si dispones de ellos, para evitar que el viento golpee las superficies contra sus topes físicos.
+* **Bloqueadores de mandos (**gust locks**):** asegura la palanca de mandos con el cinturón de seguridad y coloca bloqueadores externos en las superficies de control (timón, profundidad y alerones) si dispones de ellos, para evitar que el viento golpee las superficies contra sus topes físicos.
 * **Protección de la cabina y cúpula:** cierra y bloquea la cúpula inmediatamente. Si el sol es intenso, coloca la funda protectora de la cúpula para evitar el efecto invernadero en el interior de la cabina (que puede deformar instrumentos o resinas de la estructura o, incluso, provocar un incendio por efecto lupa) y el envejecimiento acelerado por la radiación UV.
 * **Fundas de protección:** coloca las fundas en las tomas de Pitot y de presión estática/total (TE) para evitar la entrada de insectos o suciedad del campo, que inutilizarían los instrumentos en el próximo vuelo.
 
@@ -115,8 +115,6 @@ El aterrizaje fuera de campo se realiza amparado por el estado de necesidad de l
 
 * **Minimización de daños:** al desmontar el planeador para introducirlo en el remolque, procura no pisar cultivos altos ni dañar vallas o cercados. Si es necesario, traslada las piezas a pie por los bordes de la parcela.
 * **Trato diplomático:** cuando el agricultor o el dueño de la finca se presente, muéstrate educado y agradecido. Explica con calma que se ha tratado de un aterrizaje preventivo por falta de sustentación (una situación normal y segura) y que no tenías motor para regresar. La inmensa mayoría de las personas son comprensivas si se les trata con cortesía y respeto por su propiedad.
-
-
 
 **Resumen del Capítulo: Aterrizaje fuera de campo**
 

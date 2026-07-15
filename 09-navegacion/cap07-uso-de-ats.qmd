@@ -1,8 +1,6 @@
 # Uso de ATS
 
-El vuelo a vela sabe a libertad, pero el cielo lo compartimos con mucho más tráfico. Los Servicios de Tránsito Aéreo (ATS)
-ATS (Servicios de Tránsito Aéreo / Air Traffic Services)
- están ahí para que esa convivencia sea segura y ordenada.
+El vuelo a vela sabe a libertad, pero el cielo lo compartimos con mucho más tráfico. Los Servicios de Tránsito Aéreo (ATS) están ahí para que esa convivencia sea segura y ordenada.
 
 En este capítulo aprenderás:
 
@@ -15,12 +13,8 @@ En este capítulo aprenderás:
 
 Conviene tener clara la diferencia entre "el control" y "la información":
 
- 
-
-* ****: Su función es separar tráficos mediante instrucciones obligatorias. Interactuarás con ellos en aeródromos controlados y espacios aéreos de clase C y D ().
-* ****: No dan órdenes, sino información útil (meteorología, tráficos conocidos, estado de aeródromos). En España, gran parte de nuestros vuelos de distancia se realizan bajo la vigilancia de un centro FIS.
-
- 
+* **ATC (Control de Tráfico Aéreo)**: Su función es separar tráficos mediante instrucciones obligatorias. Interactuarás con ellos en aeródromos controlados y espacios aéreos de clase C y D ().
+* **FIS (Servicio de Información de Vuelo)**: No dan órdenes, sino información útil (meteorología, tráficos conocidos, estado de aeródromos). En España, gran parte de nuestros vuelos de distancia se realizan bajo la vigilancia de un centro FIS.
 
 ::: {.callout-note}
 ⚓ **AIRMANSHIP**
@@ -28,77 +22,49 @@ Conviene tener clara la diferencia entre "el control" y "la información":
 Llamar a los servicios FIS (como Madrid o Barcelona Información) es una excelente práctica. Además de darte tranquilidad, si tienes que realizar un aterrizaje en campo, ellos sabrán tu última posición conocida y podrán coordinar ayuda si fuera necesario.
 :::
 
- 
-
 ## El Transpondedor: Hazte visible
 
-El transpondedor
-Transpondedor
- es el equipo que permite a los radares del ATC "verte" e identificar tu altitud.
+El transpondedor es el equipo que permite a los radares del ATC "verte" e identificar tu altitud.
 
- 
-
-* ****: Es el código estándar para vuelos VFR en España.
+* **Squawk 7000**: Es el código estándar para vuelos VFR en España.
 * **7700**: Emergencia general.
 * **7600**: Fallo de radio.
 * **7500**: Interferencia ilícita (secuestro).
 
- 
-
 ::: {.callout-warning}
 ⚠ **SEGURIDAD**
 
-Si tu transpondedor está instalado y operativo, la práctica correcta es **mantenerlo encendido y en modo "ALT"** (transmisión de altitud) para que el radar te vea. Su uso es **obligatorio en las ** —las clases A y C lo requieren, y la D generalmente; véase la tabla del **Libro 1 — Derecho aéreo**, capítulo 7—, y muy recomendable en cualquier espacio con tráfico. Solo en planeadores con batería muy limitada cabe valorar apagarlo fuera de esos espacios, y siempre como decisión deliberada: **nunca en una TMZ, en espacio controlado ni en zonas de tráfico intenso**.
+Si tu transpondedor está instalado y operativo, la práctica correcta es **mantenerlo encendido y en modo "ALT"** (transmisión de altitud) para que el radar te vea. Su uso es **obligatorio en las zonas de uso de transpondedor (TMZ) y allí donde lo exijan la clase de espacio aéreo o el AIP-España (ENR 1.6)** —las clases A y C lo requieren, y la D generalmente; véase la tabla del **Libro 1 — Derecho aéreo**, capítulo 7—, y muy recomendable en cualquier espacio con tráfico. Solo en planeadores con batería muy limitada cabe valorar apagarlo fuera de esos espacios, y siempre como decisión deliberada: **nunca en una TMZ, en espacio controlado ni en zonas de tráfico intenso**.
 :::
-
- 
 
 ## El Plan de Vuelo (FPL)
 
-El Plan de Vuelo (FPL)
-FPL (Plan de vuelo / Flight Plan)
- es tu contrato de seguridad con el sistema. En él indicas quién eres, qué planeador vuelas, tu ruta y cuánta autonomía tienes.
-
- 
+El Plan de Vuelo (FPL) es tu contrato de seguridad con el sistema. En él indicas quién eres, qué planeador vuelas, tu ruta y cuánta autonomía tienes.
 
 ::: {.callout-important}
 ⚖ **NORMATIVA**
 
-Según el reglamento **** (SERA.4001 b)), es obligatorio presentar un FPL si vas a cruzar fronteras, si se te presta servicio de control de tránsito aéreo (clases B, C y D) o si despegas o aterrizas en un aeródromo controlado. Ojo con la clase E: es espacio controlado, pero al VFR no se le presta servicio de control, así que no necesita plan de vuelo, ni radio, ni autorización. Y lo más importante de todo: si presentaste plan, **DEBES notificar tu llegada** para cerrarlo. Si no lo haces, se activarán los servicios de búsqueda y rescate (SAR) innecesariamente.
+Según el reglamento **SERA** (SERA.4001 b)), es obligatorio presentar un FPL si vas a cruzar fronteras, si se te presta servicio de control de tránsito aéreo (clases B, C y D) o si despegas o aterrizas en un aeródromo controlado. Ojo con la clase E: es espacio controlado, pero al VFR no se le presta servicio de control, así que no necesita plan de vuelo, ni radio, ni autorización. Y lo más importante de todo: si presentaste plan, **DEBES notificar tu llegada** para cerrarlo. Si no lo haces, se activarán los servicios de búsqueda y rescate (SAR) innecesariamente.
 :::
 
- 
-
-El plan no es un papel que se entrega y se olvida. Tiene un ciclo de vida con cuatro mensajes asociados que comunicas a la misma dependencia donde lo presentaste: **DEP** (salida), **DLA** (demora), **CHG** (cambio) y **CNL** (cancelación). Y, según el AIP (ENR 1.10), un FPL VFR debe presentarse con cierta antelación a la EOBT
-EOBT (Hora estimada fuera de calzos / Estimated Off-Block Time)
- (hora estimada fuera de calzos): típicamente al menos **60 minutos antes** si solicitas servicio de control, o antes de la salida si solo pides información de vuelo y alerta.
-
- 
+El plan no es un papel que se entrega y se olvida. Tiene un ciclo de vida con cuatro mensajes asociados que comunicas a la misma dependencia donde lo presentaste: **DEP** (salida), **DLA** (demora), **CHG** (cambio) y **CNL** (cancelación). Y, según el AIP (ENR 1.10), un FPL VFR debe presentarse con cierta antelación a la EOBT (hora estimada fuera de calzos): típicamente al menos **60 minutos antes** si solicitas servicio de control, o antes de la salida si solo pides información de vuelo y alerta.
 
 ![Interacción con el control de tráfico aéreo](imagenes/09-cap07-atc.jpg){#fig-09-cap07-control-aereo}
-
- 
 
 ## Operando en Espacios Especiales
 
 No todas las zonas del cielo son iguales:
 
- 
-
 * **Clase G (Espacio fuera de control)**: Puedes volar libremente bajo reglas VFR sin radio obligatoria (aunque muy recomendada). Recibes servicio de información de vuelo (FIS).
 * **Clase E**: Controlado, pero el VFR **no** necesita autorización ni radio obligatoria; recibes información de tráfico en la medida de lo posible.
-* **Clases C y D (**: **OBLIGATORIO** contacto radio y autorización previa del ATC para entrar. En clase C, además, el control separa tu VFR del tráfico IFR; en clase D nadie te separa: solo recibes información de tráfico, y ver y evitar sigue siendo cosa tuya.
+* **Clases C y D (Espacio Controlado)**: **OBLIGATORIO** contacto radio y autorización previa del ATC para entrar. En clase C, además, el control separa tu VFR del tráfico IFR; en clase D nadie te separa: solo recibes información de tráfico, y ver y evitar sigue siendo cosa tuya.
 * **Zonas Prohibidas/Restringidas (P/R)**: Evítalas a menos que tengas una autorización específica. Un "salto" de un segundo en una zona Prohibida puede acarrear sanciones graves.
-
- 
 
 ::: {.callout-important}
 ⚖ **NORMATIVA**
 
 Resumen de servicios al VFR según **SERA.8001**: en **C y D** hay autorización ATC y radio obligatoria; en **E** ni autorización ni radio (solo información de tráfico si la hay); en **F y G** solo servicio de información de vuelo. Saber qué te van a dar —y qué te van a exigir— en cada clase es parte de la planificación.
 :::
-
- 
 
 **Resumen del Capítulo: Uso de los ATS**
 

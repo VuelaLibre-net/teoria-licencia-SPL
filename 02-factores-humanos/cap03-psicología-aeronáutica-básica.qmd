@@ -24,17 +24,11 @@ Para operar un planeador de forma segura, el cerebro del piloto procesa informac
 * **Memoria a corto plazo:** Dura unos 30 segundos; es la «memoria RAM» del piloto, esencial para interactuar con el entorno táctico inmediato.
 * **Memoria a largo plazo:** Es el almacén de conocimiento a largo plazo. Se divide en no declarativa (procedimental o inconsciente, como el tacto mecánico de la palanca) y declarativa (explícita, combinando la memoria episódica con la memoria semántica, como las velocidades del manual o experiencias pasadas).
 
- 
-
 ![Diagrama de los tipos de memoria humana.](imagenes/02-cap03-memoria-tipos.jpg){#fig-02-cap03-memoria-tipos}
-
- 
 
 ## Conciencia situacional (**Situational Awareness**) y factores que la reducen
 
-La conciencia situacional
-Conciencia situacional
- (**Situational Awareness**) es la percepción y asimilación adecuada de los elementos del entorno en un volumen de tiempo y espacio, la comprensión analítica de su significado y, fundamentalmente, la proyección de su estado o ubicación en el futuro más próximo.
+La conciencia situacional (**Situational Awareness**) es la percepción y asimilación adecuada de los elementos del entorno en un volumen de tiempo y espacio, la comprensión analítica de su significado y, fundamentalmente, la proyección de su estado o ubicación en el futuro más próximo.
 
 En la cabina del planeador, esto implica construir y mantener durante el vuelo una imagen mental precisa de lo que ocurre: la variación y tendencia del viento, la posición real frente al campo de aterrizaje, la ocupación del circuito de tráfico, las condiciones del resto de las aeronaves y las variables propias de altitud y energía.
 
@@ -46,11 +40,9 @@ La pérdida de la conciencia situacional suele ser el eslabón inicial en la may
 
 ## Toma de decisiones aeronáuticas (**Aeronautical Decision-Making** — ADM)
 
-La Toma de Decisiones Aeronáuticas (ADM
-ADM (Aeronautical Decision-Making)
-, por las siglas de **Aeronautical Decision Making**) es el proceso mental, sistemático y repetible, empleado por el piloto para decantarse por el mejor camino de acción posible como respuesta a unas circunstancias dadas en la cabina del planeador.
+La Toma de Decisiones Aeronáuticas (ADM, por las siglas de **Aeronautical Decision Making**) es el proceso mental, sistemático y repetible, empleado por el piloto para decantarse por el mejor camino de acción posible como respuesta a unas circunstancias dadas en la cabina del planeador.
 
-Durante un vuelo en térmica o en el trayecto final del aterrizaje, el piloto interactúa con el entorno evaluando escenarios y peligros, definiendo planes, gestionando el nivel de riesgo y obrando en consecuencia. Uno de los esquemas estructurales más aceptados en la aviación civil para entrenar y modelar la ADM de manera natural es el **** ():
+Durante un vuelo en térmica o en el trayecto final del aterrizaje, el piloto interactúa con el entorno evaluando escenarios y peligros, definiendo planes, gestionando el nivel de riesgo y obrando en consecuencia. Uno de los esquemas estructurales más aceptados en la aviación civil para entrenar y modelar la ADM de manera natural es el **modelo DECIDE** ():
 
 * **D**etectar errores que requieren solución o un cambio que solicita atención.
 * **E**studiar y recopilar activamente toda la información del evento suscitado.
@@ -65,20 +57,18 @@ Durante un vuelo en térmica o en el trayecto final del aterrizaje, el piloto in
 
 La gestión de riesgos es el escudo que protege tu proceso de toma de decisiones. Todo vuelo entraña ciertos peligros; tu misión no es evitarlos todos (algo imposible), sino identificarlos, evaluarlos y mitigarlos de manera sistemática.
 
-El **** divide los riesgos del vuelo en cuatro elementos fundamentales y fácilmente evaluables:
+El **modelo PAVE** divide los riesgos del vuelo en cuatro elementos fundamentales y fácilmente evaluables:
 
 * **P (Piloto):** Estado fisiológico y psicológico. ¿Está el piloto descansado? ¿Sufre fatiga o estrés? ¿Cumple los requisitos de experiencia reciente?
 * **A (Aeronave):** Estado del planeador. ¿Es el equipo adecuado para el vuelo previsto? ¿Están los instrumentos operativos y las revisiones vigentes?
-* **V (** Meteorología, aeródromos de alternativa, orografía, densidad de tráfico y espacio aéreo.
+* **V (**enVironment** — Entorno):** Meteorología, aeródromos de alternativa, orografía, densidad de tráfico y espacio aéreo.
 * **E (Presiones externas u Operación):** Factores como la necesidad de finalizar un curso, la presión de no decepcionar a un pasajero o la urgencia ante una ventana meteorológica en cierre.
 
- 
-
+::: {.callout-tip}
 ✦ **REGLA DE ORO**
 
 Desglosar mentalmente tu vuelo usando PAVE antes del despegue te permite detectar y cortar la cadena de errores antes de sentarte en la cabina.
-
- 
+:::
 
 ## Reconocimiento y mitigación de actitudes peligrosas
 
@@ -114,8 +104,6 @@ Tus actitudes (la predisposición motivacional hacia tu entorno) marcan cómo re
 
 **Antídoto:** Nunca dejes de volar la aeronave. Siempre hay alguna acción que puede mejorar la situación, confía en tu entrenamiento. "Yo no tengo por qué rendirme, puedo cambiar esto".
 
- 
-
 ## Gestión de la carga de trabajo y el estrés psicológico en vuelo
 
 El estrés es la respuesta biológica no específica con la que el cuerpo humano reacciona ante cualquier demanda física, ambiental o psicológica que se le impone. En la aviación, actúa como un sistema arcaico de alarma que nos advierte de un posible peligro.
@@ -130,29 +118,23 @@ Sin embargo, si la presión psicológica continúa aumentando (por ejemplo, te m
 Bajo condiciones de estrés extremo y pánico, instintos básicos de supervivencia como intentar "alejarse del suelo tirando fuertemente de la palanca" pueden superar tu raciocinio. Esta maniobra instintiva y abrupta a baja altura gastará toda la energía de tu planeador, precipitándote irremediablemente a una pérdida de control o barrena irrecuperable. Conoce tus límites y no te metas en escenarios para los que no estás sobradamente preparado.
 :::
 
- 
-
 ![Esquema conceptual de la visión de túnel bajo estrés extremo.](imagenes/02-cap03-vision-tunel.jpg){#fig-02-cap03-vision-tunel}
 
 Todo lo que se hace en el aire queda regido por un ciclo continuo conocido como el modelo de las «3 P»: **Percibir, Procesar y Actuar** (**Perform**). Cada segundo en vuelo, el piloto percibe información del entorno, la procesa cognitivamente y actúa en consecuencia.
 
 La capacidad de la mente humana para procesar simultáneamente esta incesante catarata de eventos es esencialmente finita; es como un vaso de agua que solo puede admitir cierto volumen. Durante un remolque turbulento, de espaldas al sol, tratando de ubicar a otro velero que notifica en base, el vaso cognitivo puede desbordarse estrepitosamente. A esto se le conoce como **sobrecarga cualitativa**. Cuando la complejidad de la tarea de vuelo escala superando el rendimiento y el entrenamiento del piloto en ese lapso preciso, el margen de seguridad desaparece y el accidente latente ocupa su lugar.
 
+::: {.callout-tip}
 ✦ **REGLA DE ORO**
 
 Cuando notes que tu vaso se está desbordando, detente un segundo, respira, y reduce la carga mental simplificando radicalmente tus prioridades según el antiguo adagio de la aviación: **Aviate, Navigate, Communicate** (Primero vuela el avión con seguridad, luego preocúpate de hacia dónde, y, por último y de ser estrictamente necesario, coge la radio para contarlo).
+:::
 
 ## Gestión de recursos para pilotos solos (**Single-Pilot Resource Management** — SRM)
 
-El SRM
-SRM (Single-Pilot Resource Management)
- es el arte de gestionar hábilmente todos los recursos a bordo y fuera del planeador (información, equipos, y ayudas humanas) antes y durante el vuelo, garantizando una operación segura del piloto en solitario.
+El SRM es el arte de gestionar hábilmente todos los recursos a bordo y fuera del planeador (información, equipos, y ayudas humanas) antes y durante el vuelo, garantizando una operación segura del piloto en solitario.
 
-A diferencia del vuelo con tripulación múltiple donde las tareas se delegan, el piloto de planeador gestiona integralmente el vuelo operando como único nodo de decisión. Tu trabajo exige emplear todos los elementos disponibles para no exceder tu capacidad de procesamiento. Los recursos del SRM incluyen tu propio equipo (instrumentación, compensador de abordo), las comunicaciones de radio (consultas al ATC
-ATC (Control de Tránsito Aéreo / Air Traffic Control)
- o información meteorológica), y herramientas en tierra (un buen prevuelo o un instructor en radio).
-
- 
+A diferencia del vuelo con tripulación múltiple donde las tareas se delegan, el piloto de planeador gestiona integralmente el vuelo operando como único nodo de decisión. Tu trabajo exige emplear todos los elementos disponibles para no exceder tu capacidad de procesamiento. Los recursos del SRM incluyen tu propio equipo (instrumentación, compensador de abordo), las comunicaciones de radio (consultas al ATC o información meteorológica), y herramientas en tierra (un buen prevuelo o un instructor en radio).
 
 ::: {.callout-note}
 ⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
@@ -160,19 +142,13 @@ ATC (Control de Tránsito Aéreo / Air Traffic Control)
 Es preferible anticiparse en tierra que reaccionar en el aire. Evitar enfrentarse a muchas situaciones nuevas simultáneamente (un velero nuevo en un aeródromo desconocido y con mal tiempo) es la mayor muestra de que sabes gestionar tus recursos usando como base el sentido común.
 :::
 
- 
-
 ## Complacencia y falta de disciplina operativa
 
-Dos de los peores y más insidiosos enemigos relacionados con las actitudes peligrosas son la complacencia
-Complacencia
- y la indisciplina operativa.
+Dos de los peores y más insidiosos enemigos relacionados con las actitudes peligrosas son la complacencia y la indisciplina operativa.
 
 **La complacencia** nace de una falsa sensación de seguridad generada por la excesiva rutina y la familiaridad del entorno. Pensamientos como "he aterrizado aquí miles de veces" llevan a obviar la lista de comprobación prevuelo o a desatender la vigilancia del tráfico. Aunque tu nivel de destreza sea excelente, no bajes nunca la guardia.
 
 **La indisciplina**, ligada íntimamente a la actitud de antiautoridad, implica apartarse deliberadamente de los estándares y procedimientos que te enseñaron. Este factor se vuelve epidémico: una mala práctica vista repetidas veces en un campo de vuelo termina normalizándose en la mentalidad de todos sus pilotos, propagando conductas letales entre los alumnos y mermando gravemente la cultura de seguridad de todo el aeroclub.
-
- 
 
 **Resumen del Capítulo: Psicología Aeronáutica**
 

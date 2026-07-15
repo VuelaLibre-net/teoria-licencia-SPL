@@ -11,7 +11,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes de planific
 ****CG (Centro de gravedad)****
 : Punto teórico donde se considera aplicada la resultante de todas las fuerzas de gravedad que actúan sobre el planeador. Su ubicación longitudinal es clave para la estabilidad y el control del vuelo. (Mencionado en: cap. 1)
 
-****Coeficiente de planeo (L/D, ****
+****Coeficiente de planeo (L/D, *finesse*)****
 : Relación entre la sustentación (*Lift*) y la resistencia total (*Drag*) de la aeronave, equivalente a la distancia horizontal recorrida por unidad de altura perdida en aire en calma (un planeador con L/D de 40 recorre 40 km por cada kilómetro de altura cedida). (Mencionado en: cap. 2)
 
 ****Datum (Línea de referencia)****
@@ -38,7 +38,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes de planific
 ****Teoría MacCready (Anillo MacCready)****
 : Método de optimización de velocidad de vuelo que indica la velocidad óptima a volar entre térmicas dada la intensidad esperada de la siguiente corriente térmica ascendente. (Mencionado en: cap. 2)
 
-****Velocidad de mejor planeo (V****
+****Velocidad de mejor planeo (V~G~)****
 : Velocidad a la que el planeador obtiene su máxima distancia recorrida por unidad de altura perdida en aire en calma (máxima fineza, correspondiente al L/D máximo determinado por la tangente a la curva polar). (Mencionado en: cap. 2)
 
 ****Velocidad de mínimo descenso (Minimum Sink Speed)****
