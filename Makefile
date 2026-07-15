@@ -1,7 +1,7 @@
 # Makefile para la compilación de la colección de manuales SPL en Quarto
 # Repositorio: VuelaLibre-net/teoria-licencia-SPL
 
-.PHONY: all clean clean-tmp libro-05 test
+.PHONY: all clean clean-tmp 05-principios-vuelo test
 
 # Directorios de salida
 BUILD_DIR = build
@@ -14,43 +14,51 @@ OFICIAL_DIR = ../aesa-spl-oficial
 LIBROS_DIR = $(OFICIAL_DIR)/libros
 
 # Libros disponibles (01 al 09)
-LIBROS = 01 02 03 04 05 06 07 08 09
+LIBROS = 01-derecho-aereo \
+         02-conocimiento-general \
+         03-performance \
+         04-factores-humanos \
+         05-principios-vuelo \
+         06-meteorologia \
+         07-navegacion \
+         08-procedimientos-operacionales \
+         09-comunicaciones
 
-# Por defecto, compilar el piloto libro-05
-all: libro-05
+# Por defecto, compilar el piloto 05-principios-vuelo
+all: 05-principios-vuelo
 
-# --- PIPELINE PARA EL LIBRO PILOTO (LIBRO-05) ---
+# --- PIPELINE PARA EL LIBRO PILOTO (05-PRINCIPIOS-VUELO) ---
 
 # Compila el AsciiDoc original a DocBook XML
-$(TMP_DIR)/libro-05.xml: $(LIBROS_DIR)/05-*/index.adoc $(wildcard $(LIBROS_DIR)/05-*/capitulos/*.adoc)
+$(TMP_DIR)/05-principios-vuelo.xml: $(LIBROS_DIR)/05-*/index.adoc $(wildcard $(LIBROS_DIR)/05-*/capitulos/*.adoc)
 	@mkdir -p $(TMP_DIR)
 	@echo "==> [Asciidoctor] Compilando 05-principios-vuelo a DocBook XML..."
 	asciidoctor -b docbook5 -o $@ $<
 
 # Convierte el DocBook XML a Quarto Markdown (.qmd)
 # Esta regla depende del script conversor y del XML intermedio
-libro-05/index.qmd: $(TMP_DIR)/libro-05.xml tools/import/docbook_to_qmd.py $(wildcard tools/import/handlers/*.py)
+05-principios-vuelo/index.qmd: $(TMP_DIR)/05-principios-vuelo.xml tools/import/docbook_to_qmd.py $(wildcard tools/import/handlers/*.py)
 	@echo "==> [Python] Traduciendo DocBook XML a Quarto Markdown..."
-	python3 tools/import/docbook_to_qmd.py $< libro-05/
+	python3 tools/import/docbook_to_qmd.py $< 05-principios-vuelo/
 
 # Compila el PDF del libro 05 usando Typst via Quarto
-$(PDF_OUT)/libro-05.pdf: libro-05/index.qmd
+$(PDF_OUT)/05-principios-vuelo.pdf: 05-principios-vuelo/index.qmd
 	@mkdir -p $(PDF_OUT)
-	@echo "==> [Quarto] Renderizando PDF (Typst) para Libro 05..."
-	quarto render libro-05/ --to typst
-	@mv libro-05/_book/*.pdf $@
+	@echo "==> [Quarto] Renderizando PDF (Typst) para 05-principios-vuelo..."
+	quarto render 05-principios-vuelo/ --to typst
+	@mv 05-principios-vuelo/_book/*.pdf $@
 	@echo "✓ PDF generado en $@"
 
 # Compila el EPUB del libro 05 usando Pandoc via Quarto
-$(EPUB_OUT)/libro-05.epub: libro-05/index.qmd
+$(EPUB_OUT)/05-principios-vuelo.epub: 05-principios-vuelo/index.qmd
 	@mkdir -p $(EPUB_OUT)
-	@echo "==> [Quarto] Renderizando EPUB para Libro 05..."
-	quarto render libro-05/ --to epub
-	@mv libro-05/_book/*.epub $@
+	@echo "==> [Quarto] Renderizando EPUB para 05-principios-vuelo..."
+	quarto render 05-principios-vuelo/ --to epub
+	@mv 05-principios-vuelo/_book/*.epub $@
 	@echo "✓ EPUB generado en $@"
 
 # Target completo para el libro 05 (compila conversión, PDF y EPUB)
-libro-05: $(PDF_OUT)/libro-05.pdf $(EPUB_OUT)/libro-05.epub
+05-principios-vuelo: $(PDF_OUT)/05-principios-vuelo.pdf $(EPUB_OUT)/05-principios-vuelo.epub
 
 # --- UTILIDADES ---
 
@@ -62,7 +70,7 @@ test:
 # Limpieza completa de builds y archivos intermedios
 clean: clean-tmp
 	rm -rf $(BUILD_DIR)
-	rm -rf libro-05/_book libro-05/*.qmd libro-05/_quarto.yml libro-05/imagenes/
+	rm -rf 05-principios-vuelo/_book 05-principios-vuelo/*.qmd 05-principios-vuelo/_quarto.yml 05-principios-vuelo/imagenes/
 
 # Limpieza de archivos temporales de compilación intermedia
 clean-tmp:

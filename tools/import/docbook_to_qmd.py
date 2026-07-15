@@ -197,8 +197,9 @@ def main():
     if args.source_dir:
         source_dir = Path(args.source_dir)
     else:
-        # P.ej. si el xml_file es tools/import/tmp/libro-05.xml, inferir ../aesa-spl-oficial/libros/05-principios-vuelo
-        source_dir = Path("../aesa-spl-oficial/libros/05-principios-vuelo")
+        # Inferir de forma dinámica a partir del nombre del XML, por ejemplo, 
+        # si es tools/import/tmp/05-principios-vuelo.xml -> ../aesa-spl-oficial/libros/05-principios-vuelo
+        source_dir = Path("../aesa-spl-oficial/libros") / xml_path.stem
         
     if not xml_path.exists():
         print(f"Error: No se encuentra el XML en {xml_path}", file=sys.stderr)
