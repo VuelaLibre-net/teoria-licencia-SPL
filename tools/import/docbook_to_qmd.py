@@ -233,8 +233,6 @@ format:
     margin:
       top: 2.5cm
       bottom: 2.5cm
-      left: 3cm
-      right: 3cm
   epub:
     toc: true
 """
