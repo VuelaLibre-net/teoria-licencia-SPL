@@ -28,7 +28,7 @@ def handle_section(node, ctx, convert_node):
     
     # Generar la cabecera Markdown
     if getattr(ctx, 'in_bibliography', False):
-        section_md = [f"\n\n**{title_text}**\n\n"]
+        section_md = [f"\n**{title_text}**\n"]
     else:
         header_prefix = "#" * min(ctx.section_depth, 6)
         section_md = [f"\n{header_prefix} {title_text}\n"]
