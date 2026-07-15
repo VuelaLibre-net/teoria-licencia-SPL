@@ -1,0 +1,142 @@
+# Glosario de términos
+
+Este glosario contiene las definiciones y acrónimos más relevantes del marco normativo aeronáutico (EASA, OACI, normativa nacional) aplicables a la licencia de piloto de planeador (SPL).
+
+****ACC (Centro de Control de Área / Area Control Centre)****
+: Dependencia ATS que presta el servicio de control a los vuelos en ruta dentro de un área de control (CTA), en las fases altas del vuelo. Es la más elevada de las tres dependencias de control, por encima de la aproximación (APP) y la torre (TWR). (Mencionado en: cap. 8)
+
+****AESA (Agencia Estatal de Seguridad Aérea)****
+: Autoridad de aviación civil en España, encargada de supervisar y aplicar la normativa aeronáutica nacional, trabajando junto con EASA y emitiendo las licencias de vuelo para pilotos (SPL), así como supervisando la expedición de certificados médicos por parte de centros y médicos examinadores autorizados. (Mencionado en: cap. 1, cap. 2, cap. 3, cap. 13, cap. 14)
+
+****AIP (Publicación de Información Aeronáutica)****
+: Manual básico que contiene información aeronáutica de carácter duradero y esencial para la navegación aérea, estructurado en Generalidades (GEN), En Ruta (ENR) y Aeródromos (AD). (Mencionado en: cap. 9)
+
+****APP (Control de Aproximación / Approach Control)****
+: Dependencia ATS que controla las aeronaves en las fases de salida y llegada, en la zona intermedia entre el aeródromo (TWR) y la ruta (ACC). (Mencionado en: cap. 8)
+
+****ARC (Certificado de Revisión de la Aeronavegabilidad / Airworthiness Review Certificate)****
+: Certificado de validez anual que confirma que la aeronave y sus registros han superado la revisión de aeronavegabilidad reglamentaria, acreditando que es segura para volar. (Mencionado en: cap. 2)
+
+****ATS (Servicios de Tránsito Aéreo / Air Traffic Services)****
+: Término genérico que engloba el control de tránsito aéreo (ATC), el servicio de información de vuelo (FIS) y el servicio de alerta. (Mencionado en: cap. 8, 11)
+
+****ATC (Control de Tránsito Aéreo / Air Traffic Control)****
+: Servicio de tránsito aéreo responsable de dirigir el tráfico de aeronaves para prevenir colisiones entre aeronaves y entre estas y los obstáculos en el área de maniobras, así como de organizar y agilizar el flujo del tránsito aéreo. (Mencionado en: cap. 8, cap. 11)
+
+****ATZ (Aerodrome Traffic Zone)****
+: Zona de Tránsito de Aeródromo. Espacio aéreo de dimensiones definidas establecido alrededor de un aeródromo para la protección del tránsito del aeródromo.
+
+****AWY (Airway)****
+: Aerovía. Área de control o porción de la misma dispuesta en forma de corredor.
+
+****CAA (Civil Aviation Authority)****
+: Autoridad o Administración de Aviación Civil. En España, las funciones recaen en la DGAC (políticas) y AESA (supervisión e inspección).
+
+****CAMO (Continuing Airworthiness Management Organisation)****
+: Organización de Gestión del Mantenimiento de la Aeronavegabilidad Continuada. Entidad responsable de planificar y controlar el mantenimiento de las aeronaves. (Mencionado en: cap. 2)
+
+****CAO (Combined Airworthiness Organisation)****
+: Organización Combinada de Aeronavegabilidad. Regulada por la Part-CAO, es una entidad con privilegios para el mantenimiento y gestión de aeronavegabilidad de aeronaves no complejas (como planeadores), simplificando y sustituyendo a las antiguas CAMO. (Mencionado en: cap. 2)
+
+****CAVOK (Ceiling And Visibility OK)****
+: Término meteorológico aeronáutico que indica condiciones VFR óptimas: visibilidad horizontal de 10 km o más, ausencia de nubes por debajo de 5.000 ft (o la altitud mínima de sector, la mayor de ambas), ausencia de cumulonimbos (CB) o cúmulos en torre (TCU), y ausencia de fenómenos significativos.
+
+****CIAIAC (Comisión de Investigación de Accidentes e Incidentes de Aviación Civil)****
+: Organismo oficial español encargado de investigar las causas de accidentes e incidentes de aviación civil para emitir recomendaciones que prevengan futuros percances. (Mencionado en: cap. 13)
+
+****CPL (Commercial Pilot Licence)****
+: Licencia de Piloto Comercial para aviones o helicópteros (Part-FCL). En el mundo del planeador, los privilegios comerciales se integran en la propia SPL — no existe una CPL(S) independiente.
+
+****CTA (Control Area)****
+: Área de Control. Espacio aéreo controlado que se extiende hacia arriba desde un límite especificado sobre el terreno (nunca inferior a 200 metros / 700 pies).
+*Nota: Aunque coloquialmente se suele expandir como "Controlled Traffic Area", la denominación oficial OACI (Doc 8400) es *
+
+****CTR (Zona de control / Control Zone)****
+: Espacio aéreo controlado que se extiende hacia arriba desde la superficie terrestre hasta un límite superior definido, establecido para proteger las trayectorias de las aeronaves en despegue y aterrizaje.
+
+****Certificado de Aeronavegabilidad****
+: Documento técnico que identifica una aeronave, define sus características y expresa su calificación para ser utilizada, emitido por la autoridad correspondiente tras comprobar que cumple el diseño aprobado y es segura para operar. (Mencionado en: cap. 2, cap. 14)
+
+****DGAC (Dirección General de Aviación Civil)****
+: Órgano directivo del Ministerio de Transportes encargado de establecer las políticas y normativas de aviación civil en España. (Mencionado en: cap. 14)
+
+****DME (Distance Measuring Equipment)****
+: Equipo Radiotelemétrico. Sistema de navegación por radio que permite a la aeronave determinar la distancia oblicua a una radiobaliza terrestre.
+
+****EASA (Agencia de la Unión Europea para la Seguridad Aérea / European Union Aviation Safety Agency)****
+: Agencia de la Unión Europea responsable de establecer el marco normativo común para regular y supervisar la seguridad de la aviación civil, incluyendo requisitos médicos (Part-MED) y licencias (SFCL). (Mencionado en: cap. 1, cap. 6, cap. 14)
+
+****EET (Estimated Elapsed Time)****
+: Duración Prevista de un vuelo, desde el despegue hasta llegar sobre un punto de notificación, destino o límite del espacio aéreo controlado.
+
+****EOBT (Hora estimada fuera de calzos / Estimated Off-Block Time)****
+: Hora prevista en que la aeronave inicia el movimiento para la salida (rodaje o remolque), constituyendo la referencia para calcular los plazos de presentación de los planes de vuelo.
+
+****ETA (Estimated Time of Arrival)****
+: Hora Prevista de Llegada. En vuelos VFR, es la hora a la que se prevé que la aeronave llegue sobre el aeródromo.
+
+****ETD (Estimated Time of Departure)****
+: Hora Prevista de Salida. La hora a la que se estima que la aeronave iniciará el despegue.
+
+****FCL (Flight Crew Licensing / Licencias de la Tripulación de Vuelo)****
+: Normativa europea referente a las Licencias de Tripulación de Vuelo (parte del Reglamento (UE) No 1178/2011).
+
+****FIC (Flight Information Centre)****
+: Centro de Información de Vuelo. Dependencia establecida para prestar servicio de información de vuelo y servicio de alerta.
+
+****FIS (Servicio de Información de Vuelo / Flight Information Service)****
+: Servicio cuya finalidad es facilitar asesoramiento e información útiles para la realización segura y eficaz de los vuelos, sin proporcionar instrucciones de control ni separación obligatoria. (Mencionado en: cap. 7, cap. 8)
+
+****FIR (Flight Information Region)****
+: Región de Información de Vuelo. Espacio aéreo de dimensiones definidas, dentro del cual se facilitan los servicios de información de vuelo y alerta.
+
+****HJ (Hora de Sol)****
+: Indica el período comprendido desde el orto hasta el ocaso, durante el cual están permitidos (con carácter general) los vuelos VFR de planeadores si no existe habilitación de vuelo nocturno.
+
+****LAPL (Light Aircraft Pilot License)****
+: Licencia de Piloto de Aeronave Ligera. Licencia europea pensada para la aviación general no comercial, con requisitos médicos y de formación menos estrictos que las licencias completas. (Mencionado en: cap. 4)
+
+****OACI (Organización de Aviación Civil Internacional / ICAO)****
+: Agencia especializada de las Naciones Unidas creada en 1944 para establecer las normas y métodos recomendados (SARPS) que garanticen la seguridad, protección, regularidad y eficiencia de la aviación civil global. (Mencionado en: cap. 1, cap. 3, cap. 7, cap. 14)
+
+****PIC (Piloto al mando / Pilot in Command)****
+: Piloto responsable directo del funcionamiento, operación y seguridad de la aeronave durante el tiempo de vuelo. (Mencionado en: cap. 4)
+
+****PPL (Private Pilot License)****
+: Licencia de Piloto Privado.
+
+****SPIC (Student Pilot-in-Command / Alumno piloto al mando)****
+: Alumno piloto que actúa como piloto al mando en un vuelo con un instructor a bordo, quien únicamente observa y no interviene ni influye en el control de la aeronave.
+
+****SPL (Licencia de Piloto de Planeador / Sailplane Pilot Licence)****
+: Licencia oficial de la Unión Europea (regida por Part-SFCL) que certifica que el titular cumple con los requisitos teóricos y prácticos para actuar como piloto de planeadores. (Mencionado en: cap. 1, cap. 2, cap. 4)
+
+****TMA (Terminal Manoeuvring Area)****
+: Área de Maniobras Terminales. Área de control establecida generalmente en la confluencia de rutas ATS (aerovías) en las inmediaciones de uno o más aeródromos principales, con altura mínima habitualmente de 1000 pies o más. (Mencionado en: cap. 7)
+
+****TMG (Motovelero de turismo / Touring Motor Glider)****
+: Planeador propulsado equipado estructuralmente con motor y hélice no retráctil que le permiten el despegue autónomo y el crucero, compartiendo características con aviones ligeros. (Mencionado en: cap. 1, cap. 4)
+
+****TR (Type Rating / Habilitación de Tipo)****
+: Habilitación de Tipo. Anotación en la licencia que certifica la capacitación del piloto para operar un tipo o variante específica de aeronave. No aplicable a planeadores ni motoveleros (TMG) —que se rigen por habilitaciones de clase o atribuciones—, pero sí a aeronaves complejas.
+
+****RMZ (Zona de radio obligatoria / Radio Mandatory Zone)****
+: Espacio aéreo de dimensiones definidas en el que el equipo de radio y su uso son obligatorios: exige mantener escucha permanente en la frecuencia establecida y comunicar intenciones antes de entrar. (Mencionado en: cap. 7)
+
+****TMZ (Zona de transpondedor obligatorio / Transponder Mandatory Zone)****
+: Espacio aéreo de dimensiones definidas en el que es obligatorio portar y operar un transpondedor con transmisión de altitud (Modo C o S). (Mencionado en: cap. 7)
+
+****TWR (Torre de Control / Aerodrome Control Tower)****
+: Dependencia ATS que controla el tránsito en el aeródromo y su circuito: rodaje, alineamiento, despegues y aterrizajes. Es la más baja de las tres dependencias de control, por debajo de la aproximación (APP) y el centro de control de área (ACC). (Mencionado en: cap. 8)
+
+****VFR (Reglas de vuelo visual / Visual Flight Rules)****
+: Conjunto de normas que rigen los vuelos operados con referencia visual constante al terreno, recayendo la responsabilidad de la separación en el principio de "ver y evitar" bajo mínimos meteorológicos visuales (VMC). (Mencionado en: cap. 5, cap. 6)
+
+****Zona peligrosa ( D )****
+: Área del espacio aéreo de dimensiones definidas (D de Danger) en la que pueden existir o desarrollarse actividades peligrosas para el vuelo en momentos específicos. (Mencionado en: cap. 7)
+
+****Zona prohibida ( P )****
+: Área del espacio aéreo de dimensiones definidas (P de Prohibited) sobre territorio terrestre o aguas jurisdiccionales, cuyo vuelo está totalmente vedado. (Mencionado en: cap. 7)
+
+****Zona restringida ( R )****
+: Área del espacio aéreo (R de Restricted) en la que el vuelo de aeronaves está sometido a condiciones restrictivas especificadas. (Mencionado en: cap. 7)

@@ -1,0 +1,32 @@
+# Códigos Q esenciales para el piloto de planeador
+
+Los **códigos Q** son abreviaturas de tres letras que empiezan por «Q», nacidas para simplificar las comunicaciones en código Morse. Solo unos pocos han sobrevivido en el VHF moderno y en la documentación aeronáutica.
+
+Como piloto de planeador los verás sobre todo en dos sitios: **altimetría** (QNH, QFE) y **radiogoniometría** (QDM, QDR), más el código de pista **QFU**. Los cinco de uso real en vuelo a vela están en las tablas siguientes.
+
+## Códigos de altimetría
+
+| Código | Significado |
+| --- | --- |
+| **QNH** | Reglaje de la subescala del altímetro para indicar la altitud sobre el nivel medio del mar (MSL). Es el reglaje estándar para VFR por debajo de la altitud de transición. Con QNH, el altímetro muestra la altitud AMSL en vuelo, que es la que necesitas para respetar los techos de los espacios aéreos. Cuando el ATC te facilite un QNH, repite el valor numérico completo; no basta con «Recibido». |
+| **QFE** | Presión atmosférica en la elevación del aeródromo o en el umbral de pista. Con el altímetro calado a QFE, marca cero pies en tierra en ese aeródromo. En vuelo indica la altura sobre ese aeródromo de referencia, no sobre el terreno que estás sobrevolando. Poco habitual en la aviación europea actual; el QNH es el ajuste de referencia en las comunicaciones ATS. |
+
+: Códigos Q de altimetría
+
+## Códigos de radiogoniometría y pista
+
+Aparecen cuando pides orientación a una estación de tierra mediante radiogoniómetro (VDF — *VHF Direction Finding*), o cuando se informa sobre la pista en uso.
+
+| Código | Significado |
+| --- | --- |
+| **** | Rumbo magnético para dirigirse **hacia** la estación transmisora. |
+| **QDR** | Rumbo magnético **desde** la estación (marcación o radial). |
+| **QFU** | Dirección magnética de la pista en uso. Es el número de pista multiplicado por diez (pista 23 → QFU 230°). Aparece en comunicaciones AFIS o en campos con mucho ruido de fondo donde el número de pista puede confundirse. |
+
+: Códigos Q de radiogoniometría y pista
+
+::: {.callout-note}
+⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
+
+En travesía con visibilidad reducida o tras una desorientación, pedir un QDM al FIS más cercano es una herramienta de navegación válida y recomendable. No la reserves solo para emergencias: úsala si tienes dudas sobre tu posición.
+:::

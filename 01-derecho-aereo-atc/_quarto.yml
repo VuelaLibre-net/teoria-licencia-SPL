@@ -7,23 +7,28 @@ book:
   author: "VuelaLibre.net"
   chapters:
     - index.qmd
-    - cap01-índice-de-ilustraciones.qmd
-    - cap02-derecho-internacional-convenios-acuerdos-y-organizaciones.qmd
-    - cap03-aeronavegabilidad.qmd
-    - cap04-marcas-de-nacionalidad-y-matrícula-de-aeronaves.qmd
-    - cap05-licencias-de-personal.qmd
-    - cap06-reglas-del-aire.qmd
-    - cap07-procedimientos-para-navegación-aérea-operaciones-de-aeronaves.qmd
-    - cap08-reglamentación-de-tránsito-aéreo-estructura-del-espacio-aéreo.qmd
-    - cap09-servicio-de-tránsito-aéreo-.qmd
-    - cap10-servicios-de-información-aeronáutica-ais.qmd
-    - cap11-aeródromos-y-campos-de-despegue-externos.qmd
-    - cap12-búsqueda-y-salvamento.qmd
-    - cap13-seguridad.qmd
-    - cap14-notificación-de-accidentes.qmd
-    - cap15-derecho-nacional.qmd
-    - cap16-glosario-de-términos.qmd
-    - cap17-bibliografía-y-fuentes.qmd
+    - colofon.qmd
+    - dedicatoria.qmd
+    - prefacio.qmd
+    - indice-ilustraciones.qmd
+    - cap01-derecho-internacional-convenios-acuerdos-y-organizaciones.qmd
+    - cap02-aeronavegabilidad.qmd
+    - cap03-marcas-de-nacionalidad-y-matrícula-de-aeronaves.qmd
+    - cap04-licencias-de-personal.qmd
+    - cap05-reglas-del-aire.qmd
+    - cap06-procedimientos-para-navegación-aérea-operaciones-de-aeronaves.qmd
+    - cap07-reglamentación-de-tránsito-aéreo-estructura-del-espacio-aéreo.qmd
+    - cap08-servicio-de-tránsito-aéreo-.qmd
+    - cap09-servicios-de-información-aeronáutica-ais.qmd
+    - cap10-aeródromos-y-campos-de-despegue-externos.qmd
+    - cap11-búsqueda-y-salvamento.qmd
+    - cap12-seguridad.qmd
+    - cap13-notificación-de-accidentes.qmd
+    - cap14-derecho-nacional.qmd
+  appendices:
+    - apendice-syllabus-oficial-easa---derecho-aéreo.qmd
+    - glosario.qmd
+    - bibliografia.qmd
 
 format:
   typst:

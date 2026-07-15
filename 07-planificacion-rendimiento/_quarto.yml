@@ -7,14 +7,19 @@ book:
   author: "VuelaLibre.net"
   chapters:
     - index.qmd
-    - cap01-índice-de-ilustraciones.qmd
-    - cap02-masa-y-centro-de-gravedad.qmd
-    - cap03-polar-de-velocidades-de-planeadores-o-velocidad-de-crucero.qmd
-    - cap04-planificación-de-vuelo-y-definición-de-tareas.qmd
-    - cap05-plan-de-vuelo-icao.qmd
-    - cap06-monitoreo-del-vuelo-y-replanificación-en-vuelo.qmd
-    - cap07-glosario-de-términos.qmd
-    - cap08-bibliografía-y-fuentes.qmd
+    - colofon.qmd
+    - dedicatoria.qmd
+    - prefacio.qmd
+    - indice-ilustraciones.qmd
+    - cap01-masa-y-centro-de-gravedad.qmd
+    - cap02-polar-de-velocidades-de-planeadores-o-velocidad-de-crucero.qmd
+    - cap03-planificación-de-vuelo-y-definición-de-tareas.qmd
+    - cap04-plan-de-vuelo-icao.qmd
+    - cap05-monitoreo-del-vuelo-y-replanificación-en-vuelo.qmd
+  appendices:
+    - apendice-syllabus-oficial-easa---planificación-y-rendimiento-de-vuelo.qmd
+    - glosario.qmd
+    - bibliografia.qmd
 
 format:
   typst:

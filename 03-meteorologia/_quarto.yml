@@ -7,19 +7,24 @@ book:
   author: "VuelaLibre.net"
   chapters:
     - index.qmd
-    - cap01-índice-de-ilustraciones.qmd
-    - cap02-la-atmósfera.qmd
-    - cap03-viento.qmd
-    - cap04-termodinámica.qmd
-    - cap05-nubes-y-niebla.qmd
-    - cap06-precipitación.qmd
-    - cap07-masas-de-aire-y-frentes.qmd
-    - cap08-sistemas-de-presión.qmd
-    - cap09-climatología.qmd
-    - cap10-peligros-para-el-vuelo.qmd
-    - cap11-información-meteorológica.qmd
-    - cap12-glosario-de-términos.qmd
-    - cap13-bibliografía-y-fuentes.qmd
+    - colofon.qmd
+    - dedicatoria.qmd
+    - prefacio.qmd
+    - indice-ilustraciones.qmd
+    - cap01-la-atmósfera.qmd
+    - cap02-viento.qmd
+    - cap03-termodinámica.qmd
+    - cap04-nubes-y-niebla.qmd
+    - cap05-precipitación.qmd
+    - cap06-masas-de-aire-y-frentes.qmd
+    - cap07-sistemas-de-presión.qmd
+    - cap08-climatología.qmd
+    - cap09-peligros-para-el-vuelo.qmd
+    - cap10-información-meteorológica.qmd
+  appendices:
+    - apendice-syllabus-oficial-easa---meteorología.qmd
+    - glosario.qmd
+    - bibliografia.qmd
 
 format:
   typst:

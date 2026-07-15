@@ -7,16 +7,21 @@ book:
   author: "VuelaLibre.net"
   chapters:
     - index.qmd
-    - cap01-índice-de-ilustraciones.qmd
-    - cap02-fundamentos-de-navegación.qmd
-    - cap03-magnetismo-y-brújulas.qmd
-    - cap04-cartas-aeronáuticas.qmd
-    - cap05-navegación-por-estima.qmd
-    - cap06-navegación-en-vuelo.qmd
-    - cap07-uso-de-gnss.qmd
-    - cap08-uso-de-ats.qmd
-    - cap09-glosario-de-términos.qmd
-    - cap10-bibliografía-y-fuentes.qmd
+    - colofon.qmd
+    - dedicatoria.qmd
+    - prefacio.qmd
+    - indice-ilustraciones.qmd
+    - cap01-fundamentos-de-navegación.qmd
+    - cap02-magnetismo-y-brújulas.qmd
+    - cap03-cartas-aeronáuticas.qmd
+    - cap04-navegación-por-estima.qmd
+    - cap05-navegación-en-vuelo.qmd
+    - cap06-uso-de-gnss.qmd
+    - cap07-uso-de-ats.qmd
+  appendices:
+    - apendice-syllabus-oficial-easa---navegación.qmd
+    - glosario.qmd
+    - bibliografia.qmd
 
 format:
   typst:

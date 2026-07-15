@@ -7,16 +7,21 @@ book:
   author: "VuelaLibre.net"
   chapters:
     - index.qmd
-    - cap01-índice-de-ilustraciones.qmd
-    - cap02-aerodinámica-flujo-de-aire.qmd
-    - cap03-mecánica-de-vuelo.qmd
-    - cap04-estabilidad.qmd
-    - cap05-control.qmd
-    - cap06-limitaciones-factor-de-carga-y-maniobras.qmd
-    - cap07-pérdida-de-sustentación-y-autorrotación.qmd
-    - cap08-picado-en-espiral.qmd
-    - cap09-glosario-de-términos.qmd
-    - cap10-bibliografía-y-fuentes.qmd
+    - colofon.qmd
+    - dedicatoria.qmd
+    - prefacio.qmd
+    - indice-ilustraciones.qmd
+    - cap01-aerodinámica-flujo-de-aire.qmd
+    - cap02-mecánica-de-vuelo.qmd
+    - cap03-estabilidad.qmd
+    - cap04-control.qmd
+    - cap05-limitaciones-factor-de-carga-y-maniobras.qmd
+    - cap06-pérdida-de-sustentación-y-autorrotación.qmd
+    - cap07-picado-en-espiral.qmd
+  appendices:
+    - apendice-syllabus-oficial-easa---principios-de-vuelo.qmd
+    - glosario.qmd
+    - bibliografia.qmd
 
 format:
   typst:

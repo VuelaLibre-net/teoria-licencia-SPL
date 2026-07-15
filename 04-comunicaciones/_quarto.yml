@@ -7,18 +7,24 @@ book:
   author: "VuelaLibre.net"
   chapters:
     - index.qmd
-    - cap01-índice-de-ilustraciones.qmd
-    - cap02-definiciones-y-técnica-de-comunicación.qmd
-    - cap03-comunicaciones-vfr-en-aeródromos-no-controlados.qmd
-    - cap04-comunicaciones-vfr-en-aeródromos-controlados.qmd
-    - cap05-comunicaciones-vfr-con-atc-en-ruta.qmd
-    - cap06-procedimientos-operativos-generales.qmd
-    - cap07-términos-de-información-meteorológica-relevantes-para-vfr.qmd
-    - cap08-acciones-ante-fallo-de-comunicaciones.qmd
-    - cap09-procedimientos-de-socorro-y-urgencia.qmd
-    - cap10-principios-generales-de-propagación-vhf-y-asignación-de-frecuencias.qmd
-    - cap11-glosario-de-términos.qmd
-    - cap12-bibliografía-y-fuentes.qmd
+    - colofon.qmd
+    - dedicatoria.qmd
+    - prefacio.qmd
+    - indice-ilustraciones.qmd
+    - cap01-definiciones-y-técnica-de-comunicación.qmd
+    - cap02-comunicaciones-vfr-en-aeródromos-no-controlados.qmd
+    - cap03-comunicaciones-vfr-en-aeródromos-controlados.qmd
+    - cap04-comunicaciones-vfr-con-atc-en-ruta.qmd
+    - cap05-procedimientos-operativos-generales.qmd
+    - cap06-términos-de-información-meteorológica-relevantes-para-vfr.qmd
+    - cap07-acciones-ante-fallo-de-comunicaciones.qmd
+    - cap08-procedimientos-de-socorro-y-urgencia.qmd
+    - cap09-principios-generales-de-propagación-vhf-y-asignación-de-frecuencias.qmd
+  appendices:
+    - apendice-syllabus-oficial-easa---comunicaciones.qmd
+    - apendice-códigos-q-esenciales-para-el-piloto-de-planeador.qmd
+    - glosario.qmd
+    - bibliografia.qmd
 
 format:
   typst:

@@ -1,0 +1,21 @@
+# Syllabus Oficial EASA - Principios de Vuelo
+
+El siguiente programa de estudios (Syllabus) corresponde a la asignatura de **Principios de Vuelo** para la obtención de la licencia de piloto de planeador (SPL), conforme al AMC1 SFCL.130.
+
+* 5.1. Aerodinámica (flujo de aire).
+* 5.2. Mecánica de vuelo.
+* 5.3. Estabilidad.
+* 5.4. Control.
+* 5.5. Limitaciones (factor de carga y maniobras).
+* 5.6. Pérdida de sustentación (Stalling) y autorrotación (Spinning).
+* 5.7. Picado en espiral (Spiral Dive).
+
+Este manual ha sido estructurado siguiendo fielmente este syllabus oficial para garantizar que cubres todos los puntos necesarios para el examen teórico.
+
+## Ponte a prueba
+
+La teoría se afianza respondiendo preguntas. Esta asignatura cuenta con su propio test de autoevaluación en línea, con preguntas tipo examen. Por ejemplo:
+
+[https://vuelalibre.net/tests/05-principios-vuelo/](https://vuelalibre.net/tests/05-principios-vuelo/)
+
+Consulta a tu instructor, quien te indicará cuál es el banco de preguntas o el formato más adecuado, y sigue su recomendación. Te será de gran utilidad tanto para afianzar los conocimientos de cada capítulo como para tu repaso general antes de presentarte al examen teórico.

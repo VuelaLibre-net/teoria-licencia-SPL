@@ -1,0 +1,28 @@
+# Syllabus Oficial EASA - Conocimientos Generales de la Aeronave
+
+El siguiente programa de estudios (Syllabus) corresponde a la asignatura de **Conocimientos Generales de la Aeronave, Estructura, Sistemas y Equipo de Emergencia** para la obtención de la licencia de piloto de planeador (SPL), conforme al AMC1 SFCL.130.
+
+* 8.1. Estructura (Airframe).
+* 8.2. Diseño de sistemas, cargas y tensiones.
+* 8.3. Tren de aterrizaje, ruedas, neumáticos y frenos.
+* 8.4. Masa y centro de gravedad.
+* 8.5. Mandos de vuelo.
+* 8.6. Instrumentos.
+* 8.7. Montaje de la aeronave, conexión de superficies de control.
+* 8.8. Manuales y documentos.
+* 8.9. Aeronavegabilidad y mantenimiento.
+* 8.10. Estructura, motores y hélices.
+* 8.11. Sistemas de lastre con agua (Water Ballast Systems).
+* 8.12. Baterías (rendimiento y limitaciones operativas).
+* 8.13. Paracaídas de emergencia.
+* 8.14. Equipo de evacuación de emergencia (Emergency Bail-Out Aid).
+
+Este manual ha sido estructurado siguiendo fielmente este syllabus oficial para garantizar que cubres todos los puntos necesarios para el examen teórico.
+
+## Ponte a prueba
+
+La teoría se afianza respondiendo preguntas. Esta asignatura cuenta con su propio test de autoevaluación en línea, con preguntas tipo examen. Por ejemplo:
+
+[https://vuelalibre.net/tests/08-aeronave-sistemas/](https://vuelalibre.net/tests/08-aeronave-sistemas/)
+
+Consulta a tu instructor, quien te indicará cuál es el banco de preguntas o el formato más adecuado, y sigue su recomendación. Te será de gran utilidad tanto para afianzar los conocimientos de cada capítulo como para tu repaso general antes de presentarte al examen teórico.
