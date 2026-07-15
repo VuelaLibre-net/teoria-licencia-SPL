@@ -29,9 +29,9 @@ $(TMP_DIR)/libro-05.xml: $(LIBROS_DIR)/05-*/index.adoc $(wildcard $(LIBROS_DIR)/
 
 # Convierte el DocBook XML a Quarto Markdown (.qmd)
 # Esta regla depende del script conversor y del XML intermedio
-libro-05/index.qmd: $(TMP_DIR)/libro-05.xml tools/import/docbook-to-qmd.py $(wildcard tools/import/handlers/*.py)
+libro-05/index.qmd: $(TMP_DIR)/libro-05.xml tools/import/docbook_to_qmd.py $(wildcard tools/import/handlers/*.py)
 	@echo "==> [Python] Traduciendo DocBook XML a Quarto Markdown..."
-	python3 tools/import/docbook-to-qmd.py $< libro-05/
+	python3 tools/import/docbook_to_qmd.py $< libro-05/
 
 # Compila el PDF del libro 05 usando Typst via Quarto
 $(PDF_OUT)/libro-05.pdf: libro-05/index.qmd

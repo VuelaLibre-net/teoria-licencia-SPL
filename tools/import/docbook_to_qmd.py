@@ -134,7 +134,7 @@ def process_inline_elements(node, ctx):
                 # Citas inter-libro o internas: la premisa 4-B dicta simplificar citas a texto plano
                 formatted = f"{child_text}"
             else:
-                href = child.get('{http://www.w3.org/1999/xlink}href')
+                href = child.get('{http://www.w3.org/1999/xlink}href') or child.get('href')
                 formatted = f"[{child_text}]({href})" if href else child_text
         elif child_tag == 'superscript':
             formatted = f"^{child_text}^"

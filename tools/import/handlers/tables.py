@@ -19,13 +19,14 @@ def handle_table(node, ctx, convert_node):
     col_count = len(colspecs)
     
     # Extraer cabecera
+    from docbook_to_qmd import process_inline_elements
     headers = []
     if thead is not None:
         row = thead.find(f'{{{DB_NS}}}row')
         if row is not None:
             for entry in row.findall(f'{{{DB_NS}}}entry'):
                 # Procesar el contenido de la celda de cabecera
-                entry_text = "".join(convert_node(child, ctx) for child in entry).strip()
+                entry_text = process_inline_elements(entry, ctx).strip()
                 # Reemplazar saltos de línea para no romper la fila
                 entry_text = entry_text.replace('\n', ' ')
                 headers.append(entry_text)
@@ -36,7 +37,7 @@ def handle_table(node, ctx, convert_node):
         for row in tbody.findall(f'{{{DB_NS}}}row'):
             row_cells = []
             for entry in row.findall(f'{{{DB_NS}}}entry'):
-                entry_text = "".join(convert_node(child, ctx) for child in entry).strip()
+                entry_text = process_inline_elements(entry, ctx).strip()
                 entry_text = entry_text.replace('\n', ' ')
                 row_cells.append(entry_text)
             if row_cells:
