@@ -272,7 +272,7 @@ def main():
     
     # Extraer el título del libro
     title_node = root.find(f'{{{DB_NS}}}info/{{{DB_NS}}}title')
-    book_title = title_node.text.strip() if title_node is not None else "Asignatura SPL"
+    book_title = title_node.text.strip() if title_node is not None and title_node.text is not None else "Asignatura SPL"
     
     # 1. Crear el index.qmd (Página de bienvenida base)
     index_file = output_dir / 'index.qmd'
