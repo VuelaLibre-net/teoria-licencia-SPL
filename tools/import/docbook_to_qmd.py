@@ -38,6 +38,7 @@ class ConverterContext:
         self.output_dir = Path(output_dir)
         self.imagenes_detectadas = set()
         self.current_chapter_num = 0
+        self.in_bibliography = False
 
 def convert_node(node, ctx):
     """Función recursiva principal que traduce un nodo XML a Markdown."""
