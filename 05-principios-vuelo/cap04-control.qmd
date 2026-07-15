@@ -10,7 +10,7 @@ información te transmiten los mandos a través de su dureza o blandura.
 
 En los planeadores, la guiñada adversa es un efecto secundario aerodinámico muy pronunciado al intentar virar usando los alerones, debido a su gran envergadura.
 
-Al accionar la palanca lateralmente para iniciar un giro, el alerón del ala exterior baja para aumentar la sustentación y levantar ese lado. El problema es que, al crear más sustentación, también genera una gran cantidad de **resistencia inducida**. Esta resistencia frena el ala que sube y tira de ella hacia atrás, haciendo guiñar el morro del planeador en dirección opuesta al giro deseado ().
+Al accionar la palanca lateralmente para iniciar un giro, el alerón del ala exterior baja para aumentar la sustentación y levantar ese lado. El problema es que, al crear más sustentación, también genera una gran cantidad de **resistencia inducida**. Esta resistencia frena el ala que sube y tira de ella hacia atrás, haciendo guiñar el morro del planeador en dirección opuesta al giro deseado (@fig-05-cap04-guinada-adversa).
 
 ![La guiñada adversa: el morro guiña al lado contrario del giro](imagenes/05-cap04-guinada-adversa.png){#fig-05-cap04-guinada-adversa}
 
@@ -32,7 +32,7 @@ En el parabrisas de casi todos los planeadores hay, pegado en el centro, un troc
 
 Hilo recto: vuelo coordinado. Cuando se desvía, el hilo se va hacia el mismo lado al que apunta el morro respecto a la trayectoria: hilo a la izquierda, morro a la izquierda del viento relativo. Lo que eso significa depende del sentido del viraje. Hilo caído hacia el interior del giro: derrape (**skid**), llevas demasiado pedal interior. Hilo hacia el exterior: resbale (**slip**), te falta pedal. La corrección es siempre la misma: pisa el pedal contrario al lado del hilo, nunca la palanca.
 
-El derrape es el que hay que evitar: el ala interior va más lenta y puede alcanzar el ángulo de ataque crítico sin previo aviso, iniciando una pérdida asimétrica. El resbale es más aparatoso —el fuselaje ofrece más resistencia y el viraje es ineficiente—, pero rara vez es peligroso por sí solo. La  resume los tres estados del hilo y su lectura.
+El derrape es el que hay que evitar: el ala interior va más lenta y puede alcanzar el ángulo de ataque crítico sin previo aviso, iniciando una pérdida asimétrica. El resbale es más aparatoso —el fuselaje ofrece más resistencia y el viraje es ineficiente—, pero rara vez es peligroso por sí solo. La @fig-05-cap04-hilo-lana-estados resume los tres estados del hilo y su lectura.
 
 ![Los tres estados del hilo de lana: coordinado, derrape y resbale](imagenes/05-cap04-hilo-lana-estados.png){#fig-05-cap04-hilo-lana-estados}
 

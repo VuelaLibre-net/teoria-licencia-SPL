@@ -22,7 +22,7 @@ En el vuelo a vela, la velocidad media determina cuántos kilómetros puedes rec
 
 **↗ MÁS ALLÁ DEL EXAMEN.** Los tipos de tarea de competición (triángulo FAI, AAT) y la estrategia de regata no deberían ser materia de examen. Se incluyen porque son el paso natural del vuelo de distancia; léelos como iniciación.
 
-Según el tipo de tarea, tu estrategia mental cambia por completo ().
+Según el tipo de tarea, tu estrategia mental cambia por completo (@fig-07-cap03-fai-vs-aat).
 
 * **Triángulo FAI**: los puntos de viraje son fijos y precisos. La navegación es rígida: pasas por el vértice o la tarea no vale.
 * **Tarea de área asignada (AAT)**: alrededor de cada punto hay un sector circular grande, y tú decides dónde virar dentro de él. Si el día está mejor de lo previsto, vete al fondo del área para sumar distancia; si se está cerrando, toca el borde más cercano y vuelve a casa antes de que se agote la térmica.
@@ -33,7 +33,7 @@ Según el tipo de tarea, tu estrategia mental cambia por completo ().
 
 Antes de despegar debes conocer el ciclo de vida del cielo de ese día.
 
-* **La ventana de convección** (): identifica la hora de disparo de las primeras térmicas (el **trigger**) y la hora a la que muere la convección. Planifica el paso por las zonas difíciles (sombras, montañas) durante las horas de máxima insolación.
+* **La ventana de convección** (@fig-07-cap03-ventana-conveccion): identifica la hora de disparo de las primeras térmicas (el **trigger**) y la hora a la que muere la convección. Planifica el paso por las zonas difíciles (sombras, montañas) durante las horas de máxima insolación.
 * **Sondeo y base de nube**: la altura de la inversión y la base de nube definen tu espacio de trabajo. Cuanto mayor sea el margen entre la base y el suelo, más segura será tu progresión.
 
 ![La ventana de convección: el día térmico como línea temporal](imagenes/07-cap03-ventana-conveccion.png){#fig-07-cap03-ventana-conveccion}

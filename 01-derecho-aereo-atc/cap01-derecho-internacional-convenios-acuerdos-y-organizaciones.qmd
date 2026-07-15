@@ -17,7 +17,7 @@ Del convenio nació la **OACI** (Organización de Aviación Civil Internacional,
 
 La OACI fija los estándares mínimos que sus 193 estados miembros deben cumplir. Ahora bien, no es una "policía mundial": cada país es soberano para adoptar estas normas en su legislación, aunque el Convenio le obliga a notificar las diferencias cuando no cumple un estándar.
 
-Para que el transporte aéreo internacional fuera posible, el Convenio de Chicago sentó las bases de las **libertades del aire** (ver ): acuerdos que dan a las aeronaves de un Estado permiso para entrar en el espacio aéreo de otro o sobrevolarlo. La conferencia de Chicago definió las cinco primeras en acuerdos anejos al Convenio (el sobrevuelo, la escala técnica y los derechos comerciales básicos), pero el derecho aéreo ha seguido evolucionando y hoy se reconocen nueve.
+Para que el transporte aéreo internacional fuera posible, el Convenio de Chicago sentó las bases de las **libertades del aire** (ver @fig-01-cap01-chicago-freedoms): acuerdos que dan a las aeronaves de un Estado permiso para entrar en el espacio aéreo de otro o sobrevolarlo. La conferencia de Chicago definió las cinco primeras en acuerdos anejos al Convenio (el sobrevuelo, la escala técnica y los derechos comerciales básicos), pero el derecho aéreo ha seguido evolucionando y hoy se reconocen nueve.
 
 ![Las libertades del aire según el Convenio de Chicago](imagenes/01-cap01-libertades-chicago.jpg){#fig-01-cap01-chicago-freedoms}
 
@@ -31,7 +31,7 @@ En la práctica, esto significa que casi todo lo que te afecta como piloto (lice
 
 ## Estructura normativa: normativa vinculante y estándares no vinculantes
 
-La normativa de EASA se organiza en capas con distinta fuerza legal (). Conviene tener claro desde el principio qué es obligatorio por ley y qué es una recomendación estándar.
+La normativa de EASA se organiza en capas con distinta fuerza legal (@fig-01-cap01-hard-soft-law). Conviene tener claro desde el principio qué es obligatorio por ley y qué es una recomendación estándar.
 
 ### Normativa vinculante: lo que es ley
 

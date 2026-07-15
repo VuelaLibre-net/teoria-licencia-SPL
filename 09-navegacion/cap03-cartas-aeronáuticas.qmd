@@ -27,7 +27,7 @@ Para facilitar el cálculo mental en cabina, recuerda:
 * **1 cm en la carta = 5 kilómetros** en el terreno.
 * **1 cm en la carta ≈ 2.7 Millas Náuticas (NM)**.
 
-Con una simple regla de navegación medimos sobre la carta y trasladamos la distancia al terreno; la barra de escala de la  permite hacerlo de un vistazo.
+Con una simple regla de navegación medimos sobre la carta y trasladamos la distancia al terreno; la barra de escala de la @fig-09-cap03-carta-enaire permite hacerlo de un vistazo.
 
 ## Simbología y Espacios Aéreos
 
@@ -47,7 +47,7 @@ Presta especial atención a los tendidos de alta tensión y los parques eólicos
 
 El terreno se representa mediante **tintas hipsométricas** (cambios de color: verde para valles, marrones para montañas) y curvas de nivel.
 
-En cada cuadrícula de la carta (formada por paralelos y meridianos cada 30 minutos), verás un número grande acompañado de uno más pequeño en superíndice (ej: 4^7^, que se lee 4.700 ft). Es la **Altitud Mínima de Área (AMA)** ().
+En cada cuadrícula de la carta (formada por paralelos y meridianos cada 30 minutos), verás un número grande acompañado de uno más pequeño en superíndice (ej: 4^7^, que se lee 4.700 ft). Es la **Altitud Mínima de Área (AMA)** (@fig-09-cap03-carta-enaire).
 
 ![Carta de vuelo visual de ENAIRE del Pirineo aragonés (zona de Santa Cilia de Jaca): la cuadrícula AMA sobre terreno de alta montaña](imagenes/09-cap03-carta-enaire-ama.png){#fig-09-cap03-carta-enaire}
 

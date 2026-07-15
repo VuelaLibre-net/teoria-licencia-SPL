@@ -28,7 +28,7 @@ En travesías de vuelo a vela (**cross-country**), mantener la escucha en la fre
 
 No desaparezcas de una frecuencia sin decir nada. El controlador de Torre, Aproximación o Información te tiene en pantalla o en su ficha de vuelo, y da por hecho que sigues a la escucha. Si te esfumas, empieza a preocuparse.
 
-Cuando necesites cambiar de frecuencia, hay dos casos ():
+Cuando necesites cambiar de frecuencia, hay dos casos (@fig-04-cap04-cambio-frecuencia):
 
 * **Si estás bajo control ATC**: Pide permiso. *"Torre, EC-DPE, solicito abandonar frecuencia para pasar a operaciones de club en 123.500"*.
 * **Si estás en frecuencia de Información (FIS)**: No es control, así que solo avisas. *"Madrid Información, EC-DPE, abandonamos su frecuencia para pasar con Fuentemilanos 123.500. Buen día"*.

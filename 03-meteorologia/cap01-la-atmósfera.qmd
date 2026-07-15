@@ -9,7 +9,7 @@ afectan directamente al rendimiento de tu planeador y a tu propia fisiología en
 
 Para estandarizar el diseño de aeronaves y la calibración de instrumentos en todo el mundo, la Organización de Aviación Civil Internacional (OACI) definió la Atmósfera Estándar Internacional (ISA, por sus siglas en inglés: **International Standard Atmosphere**). Es un modelo atmosférico ideal que asume **aire seco** (0 % de humedad) y establece valores medios teóricos, ya que raramente encontrarás un día ISA "puro" en la realidad.
 
-A nivel del mar (MSL), la atmósfera ISA establece las siguientes condiciones de referencia ():
+A nivel del mar (MSL), la atmósfera ISA establece las siguientes condiciones de referencia (@fig-03-cap01-atmosfera-isa):
 
 * Temperatura: 15 °C
 * Presión atmosférica: 1013,25 hPa (equivalente a 29,92 inHg o 760 mm Hg)

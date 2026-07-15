@@ -39,7 +39,7 @@ En una barrena o espiral descontrolada, las fuerzas G pueden ser muy elevadas �
 
 ## Procedimiento de salto
 
-La secuencia estándar para abandonar la cabina debe practicarse en tierra hasta convertirla en un acto reflejo. Los cinco pasos son ():
+La secuencia estándar para abandonar la cabina debe practicarse en tierra hasta convertirla en un acto reflejo. Los cinco pasos son (@fig-06-cap08-secuencia-salto):
 
 1. **Desmontar la cúpula:** acciona la palanca de emergencia de la cúpula (normalmente roja o amarilla) y empújala hacia fuera con fuerza. La cúpula puede resistir por la presión dinámica del aire: empuja desde el borde de salida hacia adelante, no directamente hacia arriba.
 2. **Soltar los arneses:** abre la hebilla central de los cinturones de seguridad. En la mayoría de los planeadores modernos, una sola palanca libera todos los arneses simultáneamente.

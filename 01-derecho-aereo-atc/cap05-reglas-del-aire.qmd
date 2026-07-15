@@ -46,11 +46,11 @@ Hay una excepción: las aeronaves de motor deben ceder el paso a las que remolca
 
 * **Convergencia**: en rutas que se cruzan al mismo nivel, tiene prioridad quien viene por la **derecha**. Ojo: si tú vienes por la derecha pero vuelas a motor y el otro es un planeador, el planeador manda por jerarquía.
 * **Alcance**: si alcanzas a otro por detrás, el de delante tiene prioridad. Rebásalo por su **derecha**. Con una excepción hecha a nuestra medida: un planeador que adelanta a otro planeador puede hacerlo **por la derecha o por la izquierda** (útil en ladera, donde solo un lado es seguro).
-* **En ladera**: si dos planeadores se encuentran en rumbo de colisión volando una ladera, **tiene prioridad el que lleva la montaña a su derecha**. El otro debe separarse de la ladera para dejar paso ().
+* **En ladera**: si dos planeadores se encuentran en rumbo de colisión volando una ladera, **tiene prioridad el que lleva la montaña a su derecha**. El otro debe separarse de la ladera para dejar paso (@fig-01-cap05-prioridades-ladera).
 
 ![Preferencia de paso en vuelo de ladera](imagenes/01-cap05-preferencias-paso-ladera.jpeg){#fig-01-cap05-prioridades-ladera}
 
-* **Aterrizaje**: el velero más bajo tiene prioridad para aterrizar (pero no vale picar para colarse). Además, según SERA.3210, los planeadores en final y aterrizaje siempre tienen preferencia sobre las aeronaves de motor ().
+* **Aterrizaje**: el velero más bajo tiene prioridad para aterrizar (pero no vale picar para colarse). Además, según SERA.3210, los planeadores en final y aterrizaje siempre tienen preferencia sobre las aeronaves de motor (@fig-01-cap05-prioridades).
 
 ![Reglas de prioridad de paso: Frente y Convergencia](imagenes/01-cap05-prioridades-paso.jpg){#fig-01-cap05-prioridades}
 
@@ -66,7 +66,7 @@ Para proteger a las personas y bienes en tierra, SERA.5005 establece alturas mí
 La norma reconoce nuestra operativa particular:
 
 * **Vuelo de ladera**: puedes volar por debajo de 150 m si lo necesitas para sustentarte en la ladera, siempre que no pongas en peligro a nadie.
-* **Entrenamiento de tomas fuera de campo**: se permite bajar hasta **50 m** para simular una toma, manteniendo 150 m de distancia horizontal con cualquier persona, vehículo o edificio ().
+* **Entrenamiento de tomas fuera de campo**: se permite bajar hasta **50 m** para simular una toma, manteniendo 150 m de distancia horizontal con cualquier persona, vehículo o edificio (@fig-01-cap05-alturas-minimas).
 
 ![Alturas mínimas de seguridad](imagenes/01-cap05-alturas-minimas.jpg){#fig-01-cap05-alturas-minimas}
 

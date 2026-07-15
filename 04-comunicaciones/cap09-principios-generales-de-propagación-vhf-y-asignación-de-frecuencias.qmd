@@ -53,7 +53,7 @@ No subas el squelch más allá del punto donde cesa el ruido. Si lo dejas «al m
 
 El vuelo a vela lleva a menudo a los planeadores a entornos orográficos complejos: laderas de los Pirineos, valles del Gredos, cajones del Sistema Central. Lejos de las llanuras y muy por debajo de las crestas.
 
-Las ondas VHF viajan en línea recta y no atraviesan la roca. Si bajas por debajo de la cresta que te separa de la torre de control o del repetidor FIS de ENAIRE más cercano, sufrirás un **bloqueo orográfico** total (). Da igual cuánta potencia tenga tu radio: la señal se estrella contra la piedra.
+Las ondas VHF viajan en línea recta y no atraviesan la roca. Si bajas por debajo de la cresta que te separa de la torre de control o del repetidor FIS de ENAIRE más cercano, sufrirás un **bloqueo orográfico** total (@fig-04-cap09-bloqueo-montana). Da igual cuánta potencia tenga tu radio: la señal se estrella contra la piedra.
 
 En alta montaña, anticipa esto con dos medidas:
 

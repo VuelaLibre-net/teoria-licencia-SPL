@@ -12,6 +12,7 @@ import os
 import sys
 import argparse
 import shutil
+import re
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
@@ -151,6 +152,19 @@ def process_inline_elements(node, ctx):
             else:
                 href = child.get('{http://www.w3.org/1999/xlink}href') or child.get('href')
                 formatted = f"[{child_text}]({href})" if href else child_text
+        elif child_tag == 'xref':
+            # Referencias cruzadas internas del libro (a figuras, tablas)
+            # Solo fig- y tbl- son prefijos reconocidos por Quarto como cross-refs.
+            # Cualquier otro prefijo (cap-, glos-, ref-, sec-) se trata como citation
+            # por Pandoc y rompe la compilación si no hay bibliografía.
+            linkend = child.get('linkend', '')
+            if linkend.startswith('fig-'):
+                formatted = f"@{linkend}"
+            elif linkend.startswith('tbl-'):
+                formatted = f"@{linkend}"
+            else:
+                # Suprimir la referencia; el texto circundante ya provee contexto
+                formatted = ""
         elif child_tag == 'superscript':
             formatted = f"^{child_text}^"
         elif child_tag == 'subscript':
@@ -164,7 +178,10 @@ def process_inline_elements(node, ctx):
             parts.append(child_tail)
             
     # Reemplazar espacios y caracteres huérfanos comunes
-    return "".join(parts).replace('\xa0', ' ').replace('{nbsp}', ' ')
+    result = "".join(parts).replace('\xa0', ' ').replace('{nbsp}', ' ')
+    # Suprimir macros AsciiDoc que no se resuelven en DocBook (list-of::, etc.)
+    result = re.sub(r'list-of::\w+\[\]', '', result)
+    return result
 
 def generate_quarto_yml(output_dir, title, chapters_list, appendices_list=None):
     """Escribe el fichero de configuración de Quarto."""

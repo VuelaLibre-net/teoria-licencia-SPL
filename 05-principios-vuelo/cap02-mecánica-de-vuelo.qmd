@@ -16,7 +16,7 @@ La velocidad te da el mando del planeador; la altura es tu reserva de energía. 
 
 ## La curva polar
 
-La curva polar es el DNI de rendimiento de tu planeador. Muestra la relación entre velocidad (km/h) y tasa de descenso (m/s) en aire en calma. Conocerla es obligatorio, porque de ella salen las dos velocidades clave para operar ():
+La curva polar es el DNI de rendimiento de tu planeador. Muestra la relación entre velocidad (km/h) y tasa de descenso (m/s) en aire en calma. Conocerla es obligatorio, porque de ella salen las dos velocidades clave para operar (@fig-05-cap02-curva-polar):
 
 * **Velocidad de mínimo descenso (V~z min~):** está en el pico superior de la curva (el punto del eje Y más próximo a cero). Volando a esta velocidad pierdes la mínima altura por unidad de tiempo, así que es la que maximiza tu permanencia en el aire. Es tu referencia al virar de forma pronunciada dentro del núcleo de una térmica o en una espera.
 * **Velocidad de máximo planeo (V~max planeo~, también llamada de mejor planeo o de fineza):** se obtiene trazando una tangente desde el origen de coordenadas (0,0) hasta tocar la curva. Da la mejor relación entre distancia avanzada y altura perdida. Es la velocidad para las transiciones limpias y para conseguir el mayor recorrido posible sobre el terreno.
@@ -29,7 +29,7 @@ El coeficiente de planeo (L/D) expresa cuántos metros avanza el planeador por c
 
 En el aire real, las cifras del manual se quedan en teoría: el viento y las masas de aire en movimiento obligan a ajustar las velocidades.
 
-* **Viento de cara:** con viento en contra, el avance sobre el terreno disminuye aunque mantengas la misma velocidad aerodinámica. Vuela más rápido que la V~max planeo~: como regla práctica, suma un 50% de la componente frontal del viento a tu velocidad de transición ().
+* **Viento de cara:** con viento en contra, el avance sobre el terreno disminuye aunque mantengas la misma velocidad aerodinámica. Vuela más rápido que la V~max planeo~: como regla práctica, suma un 50% de la componente frontal del viento a tu velocidad de transición (@fig-05-cap02-curva-polar-viento-de-cara).
 
 ![La curva polar de velocidades de un planeador con viento de cara](imagenes/05-cap02-curva-polar-viento-de-cara.png){#fig-05-cap02-curva-polar-viento-de-cara}
 
@@ -63,7 +63,7 @@ La descripción constructiva de estos dispositivos —cómo son y cómo se accio
 
 El **factor de carga** (n) indica cuántas veces el peso del planeador está cargando sobre la estructura en cada momento. Se expresa en unidades **g**.
 
-En vuelo recto y nivelado la sustentación iguala exactamente al peso: **n = 1g**. En cuanto el planeador se inclina en un viraje, la fuerza centrífuga se suma a la gravedad y el factor de carga sube. En un viraje de 60° de inclinación, la estructura —y el piloto— soportan **2g**: el planeador pesa estructuralmente el doble, y el ala debe generar el doble de sustentación. A 75° la carga llega casi a 4g ().
+En vuelo recto y nivelado la sustentación iguala exactamente al peso: **n = 1g**. En cuanto el planeador se inclina en un viraje, la fuerza centrífuga se suma a la gravedad y el factor de carga sube. En un viraje de 60° de inclinación, la estructura —y el piloto— soportan **2g**: el planeador pesa estructuralmente el doble, y el ala debe generar el doble de sustentación. A 75° la carga llega casi a 4g (@fig-05-cap02-factor-de-carga-alabeo).
 
 ![El factor de carga en función del ángulo de alabeo](imagenes/05-cap02-factor-de-carga-alabeo.png){#fig-05-cap02-factor-de-carga-alabeo}
 

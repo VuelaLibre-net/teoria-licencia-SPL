@@ -7,7 +7,7 @@ asocia cada familia y cómo interpretar la niebla y la neblina para decidir si d
 
 ## Interpretación de la nubosidad
 
-Para la tripulación de un planeador, las nubes son el mapa visual de la atmósfera. La tabla siguiente resume las cuatro familias principales y su relevancia operativa para el vuelo a vela ():
+Para la tripulación de un planeador, las nubes son el mapa visual de la atmósfera. La tabla siguiente resume las cuatro familias principales y su relevancia operativa para el vuelo a vela (@fig-03-cap04-familias-nubes-perfil):
 
 ![Perfil vertical de las cuatro familias de nubes con altitudes de base aproximadas](imagenes/03-cap04-familias-nubes-perfil.png){#fig-03-cap04-familias-nubes-perfil}
 
@@ -69,7 +69,7 @@ Presta especial atención a la tarde en los días que hayan empezado con niebla 
 
   Las **nubes lenticulares** (**Altocumulus lenticularis**) exhiben formas alisadas y características convexas, similares a una lente. A pesar de formarse bajo vientos de intensidad notable en altura, su estructura permanece totalmente estacionaria respecto al relieve.
 
-Estas formaciones son la prueba visible de un flujo laminar constante interactuando transversalmente y rebotando a sotavento de un obstáculo orográfico. En la práctica, señalan el sistema de **Onda de Montaña**, donde es posible remontar sin turbulencia sostenidamente ganando gran altitud en un plano de aire terso ().
+Estas formaciones son la prueba visible de un flujo laminar constante interactuando transversalmente y rebotando a sotavento de un obstáculo orográfico. En la práctica, señalan el sistema de **Onda de Montaña**, donde es posible remontar sin turbulencia sostenidamente ganando gran altitud en un plano de aire terso (@fig-03-cap04-nubes-onda-montana).
 
 ![Sistema de onda de montaña a sotavento.](imagenes/03-cap04-onda-montana.jpg){#fig-03-cap04-nubes-onda-montana}
 

@@ -10,7 +10,7 @@ bajo tus ruedas.
 
 Un **frente frío** corresponde a la superficie de separación en la cual una masa de aire frío, al ser más densa, avanza en forma de cuña introduciéndose por debajo de una masa de aire cálido preexistente. Este proceso obliga al aire cálido a ascender de manera pronunciada.
 
-El paso de un frente frío se caracteriza por un descenso abrupto de las temperaturas, una rolada brusca de viento (generalmente hacia el noroeste o norte), visibilidad reducida y precipitaciones organizadas, frecuentemente en forma de chubascos y nubes de gran desarrollo vertical como los Cumulonimbus (Cb) ().
+El paso de un frente frío se caracteriza por un descenso abrupto de las temperaturas, una rolada brusca de viento (generalmente hacia el noroeste o norte), visibilidad reducida y precipitaciones organizadas, frecuentemente en forma de chubascos y nubes de gran desarrollo vertical como los Cumulonimbus (Cb) (@fig-03-cap06-frente-frio-estructura).
 
 Para el vuelo a vela, el interés meteorológico óptimo radica en la situación posterior al frente. Una vez despejada la barrera frontal, la región queda dominada por una masa de aire transicional netamente más fría que el terreno. Al calentarse su base por contacto con el suelo, se establece una marcada **inestabilidad post-frontal**.
 
@@ -26,7 +26,7 @@ Las jornadas inmediatas tras el cruce de un frente frío intercontinental suelen
 
 Un **frente cálido** se produce cuando una masa de aire cálido avanza y asciende suavemente sobre una masa de aire frío más densa y estacionaria que ocupa la cuenca inferior. Al presentar una pendiente mucho menor que la del frente frío, su evolución y desplazamiento resultan lentos y prolongados.
 
-La proximidad de un frente cálido se anticipa visualmente horas o días antes mediante la aparición escalonada de nubes tipo **Cirros (Ci)** (). Conforme el sistema avanza, la nubosidad se engrosa y desciende de altitud progresivamente, transitando a Cirroestratos, Altoestratos y concluyendo en una capa de Nimbostratos (Ns) y Estratos (St).
+La proximidad de un frente cálido se anticipa visualmente horas o días antes mediante la aparición escalonada de nubes tipo **Cirros (Ci)** (@fig-03-cap06-frente-calido-nubes). Conforme el sistema avanza, la nubosidad se engrosa y desciende de altitud progresivamente, transitando a Cirroestratos, Altoestratos y concluyendo en una capa de Nimbostratos (Ns) y Estratos (St).
 
 Un frente cálido degrada las condiciones VFR de forma progresiva:
 
@@ -39,7 +39,7 @@ Un frente cálido degrada las condiciones VFR de forma progresiva:
 
 ## La oclusión y el frente estacionario
 
-Cuando un frente frío avanza más rápido que el cálido que tiene delante, termina alcanzándolo. Entonces el frente frío empuja desde atrás y pilla al aire cálido intermedio: lo pinza, lo levanta del suelo y lo obliga a ascender por completo. A este proceso se le llama **frente ocluido** u oclusión ().
+Cuando un frente frío avanza más rápido que el cálido que tiene delante, termina alcanzándolo. Entonces el frente frío empuja desde atrás y pilla al aire cálido intermedio: lo pinza, lo levanta del suelo y lo obliga a ascender por completo. A este proceso se le llama **frente ocluido** u oclusión (@fig-03-cap06-tipos-frentes).
 
 Operativamente, una oclusión es lo peor de los dos frentes combinado: la convección violenta del frente frío más la lluvia continua y los techos bajos del frente cálido. El aire cálido ya no toca el suelo, así que las térmicas desaparecen y la turbulencia convectiva puede aparecer embebida en capas densas sin aviso visual claro. Ante un frente ocluido, pospón el vuelo: las condiciones son complejas e impredecibles.
 

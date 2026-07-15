@@ -49,7 +49,7 @@ Al primer síntoma de engelamiento —escarcha en el borde del ala o en la cúpu
 
   La **Virga** es una cortina de precipitación que cae desde la base de una nube pero se evapora antes de llegar al suelo. Visualmente aparece como franjas grises o azuladas que se difuminan en el aire a media altura, sin tocar el terreno.
 
-El peligro no está en la lluvia en sí, sino en lo que ocurre cuando esas gotas se evaporan: la evaporación enfría el aire circundante, que se vuelve más denso y cae en masa hacia el suelo formando una violenta corriente descendente —el **downburst** o **microrráfaga** ().
+El peligro no está en la lluvia en sí, sino en lo que ocurre cuando esas gotas se evaporan: la evaporación enfría el aire circundante, que se vuelve más denso y cae en masa hacia el suelo formando una violenta corriente descendente —el **downburst** o **microrráfaga** (@fig-03-cap05-virga-microrrafaga).
 
 ![Peligro bajo la virga: el nacimiento de una microrráfaga](imagenes/03-cap05-virga-microburst.jpg){#fig-03-cap05-virga-microrrafaga}
 

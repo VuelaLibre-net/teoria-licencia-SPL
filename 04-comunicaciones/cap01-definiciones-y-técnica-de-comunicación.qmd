@@ -110,7 +110,7 @@ Cuatro pasos, siempre en este orden:
 
 1. **Piensa**: Antes de pulsar, organiza mentalmente lo que vas a decir. Anótalo si hace falta. Los mensajes llenos de «ehm…​» y pausas bloquean la frecuencia. Si ya presentaste un plan de vuelo VFR, no repitas datos que el controlador ya tiene salvo que te los pida.
 2. **Escucha**: Sintoniza la frecuencia y escucha unos segundos antes de transmitir. No interrumpas ni «pises» una transmisión en curso. Si hay tráfico activo, espera tu turno.
-3. **Pulsa y cuenta uno**: Pulsa el botón de PTT (*Push-To-Talk*) un segundo **antes** de hablar (). Así la primera sílaba no se corta mientras el transmisor abre la portadora.
+3. **Pulsa y cuenta uno**: Pulsa el botón de PTT (*Push-To-Talk*) un segundo **antes** de hablar (@fig-04-cap01-microfono). Así la primera sílaba no se corta mientras el transmisor abre la portadora.
 4. **Habla**: Claro, constante, sin prisas. Menos de 100 palabras por minuto, volumen uniforme. Cuando termines, suelta el PTT de inmediato.
 
 ::: {.callout-note}

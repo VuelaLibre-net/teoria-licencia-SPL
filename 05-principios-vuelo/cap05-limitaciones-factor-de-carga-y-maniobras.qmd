@@ -8,7 +8,7 @@ velocidad de pérdida en los virajes.
 
 ## El diagrama V-n: el mapa de tu supervivencia
 
-El diagrama V-n, también conocido como envolvente de vuelo, es la representación gráfica de los límites estructurales de tu planeador. Relaciona la velocidad a la que vuelas (V) con el factor de carga en Gs (n) que la estructura está soportando ().
+El diagrama V-n, también conocido como envolvente de vuelo, es la representación gráfica de los límites estructurales de tu planeador. Relaciona la velocidad a la que vuelas (V) con el factor de carga en Gs (n) que la estructura está soportando (@fig-05-cap05-diagrama-vn).
 
 Este diagrama delimita el espacio de operaciones seguras. Mientras te mantengas dentro de sus límites, la estructura aguantará. Si lo superas —por exceso de G o de velocidad— el planeador sufrirá deformaciones permanentes o rotura estructural.
 

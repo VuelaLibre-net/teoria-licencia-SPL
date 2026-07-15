@@ -28,13 +28,13 @@ El SAR no sale a buscar "porque sí". Actúa escalonadamente según la gravedad,
 
 1. **INCERFA (Incertidumbre)**: "¿alguien sabe algo?". Por ejemplo, 30 minutos sin noticias. El RCC empieza a preguntar.
 2. **ALERFA (Alerta)**: "algo va mal". Por ejemplo, un fallo de comunicaciones confirmado. Se preparan los equipos SAR.
-3. **DETRESFA (Socorro)**: peligro grave. Una señal de baliza ELT, un accidente avistado. Despegan los medios: aviones y helicópteros ().
+3. **DETRESFA (Socorro)**: peligro grave. Una señal de baliza ELT, un accidente avistado. Despegan los medios: aviones y helicópteros (@fig-01-cap11-actuacion-accidente).
 
 ![Cadena de supervivencia en caso de accidente](imagenes/01-cap11-actuacion-accidente.jpg){#fig-01-cap11-actuacion-accidente}
 
 ## El lenguaje de la supervivencia: señales tierra-aire
 
-Si estás en tierra y te busca un avión, tienes que comunicarte. Sin radio, usa el **Código de Señales Visuales**: hazlas grandes (mínimo 2,5 m) y con contraste, usando telas, piedras o surcos ().
+Si estás en tierra y te busca un avión, tienes que comunicarte. Sin radio, usa el **Código de Señales Visuales**: hazlas grandes (mínimo 2,5 m) y con contraste, usando telas, piedras o surcos (@fig-01-cap11-senales-tierra-aire).
 
 | Símbolo | Significado | Mnemotecnia |
 | --- | --- | --- |

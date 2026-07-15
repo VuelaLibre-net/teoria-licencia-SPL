@@ -13,7 +13,7 @@ En este capítulo aprenderás:
 
 Conviene tener clara la diferencia entre "el control" y "la información":
 
-* **ATC (Control de Tráfico Aéreo)**: Su función es separar tráficos mediante instrucciones obligatorias. Interactuarás con ellos en aeródromos controlados y espacios aéreos de clase C y D ().
+* **ATC (Control de Tráfico Aéreo)**: Su función es separar tráficos mediante instrucciones obligatorias. Interactuarás con ellos en aeródromos controlados y espacios aéreos de clase C y D (@fig-09-cap07-control-aereo).
 * **FIS (Servicio de Información de Vuelo)**: No dan órdenes, sino información útil (meteorología, tráficos conocidos, estado de aeródromos). En España, gran parte de nuestros vuelos de distancia se realizan bajo la vigilancia de un centro FIS.
 
 ::: {.callout-note}

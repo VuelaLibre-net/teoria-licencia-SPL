@@ -30,7 +30,7 @@ La **Agencia Estatal de Seguridad Aérea (AESA)**, creada por Real Decreto 184/2
 
 ## Infracciones y sanciones
 
-La LSA clasifica las infracciones por gravedad ():
+La LSA clasifica las infracciones por gravedad (@fig-01-cap14-infracciones):
 
 ### Infracciones leves
 

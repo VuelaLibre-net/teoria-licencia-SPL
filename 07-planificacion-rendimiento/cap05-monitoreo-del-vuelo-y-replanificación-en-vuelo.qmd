@@ -12,7 +12,7 @@ En este capítulo aprenderás:
 
 ## El cono de alcance: tu burbuja de seguridad
 
-Imagina que de tu planeador baja un cono invertido hasta el suelo. Todo lo que quede dentro de ese círculo es terreno alcanzable si no encuentras ni una térmica más ().
+Imagina que de tu planeador baja un cono invertido hasta el suelo. Todo lo que quede dentro de ese círculo es terreno alcanzable si no encuentras ni una térmica más (@fig-07-cap05-cono-alcance).
 
 * **La forma del cono**: en aire en calma es un círculo perfecto. Con viento de cara fuerte se deforma en una elipse que se encoge por delante y se estira por detrás.
 * **El horizonte de decisión**: no esperes a que tu destino esté en el borde del cono. Si el objetivo queda fuera de tu alcance visual o instrumental, toca replanificar.
@@ -35,7 +35,7 @@ En momentos de estrés no siempre podrás fiarte del ordenador de vuelo. Tienes 
 
 ## Monitoreo del planeo final: el método de los 3 puntos
 
-Calcular el planeo final una sola vez y volarlo a fe ciega es apostar la tarea —y el planeador— a que la masa de aire no cambie. El método profesional verifica el margen en tres puntos ():
+Calcular el planeo final una sola vez y volarlo a fe ciega es apostar la tarea —y el planeador— a que la masa de aire no cambie. El método profesional verifica el margen en tres puntos (@fig-07-cap05-planeo-3-puntos):
 
 1. **Al iniciar el planeo final**: anota tu altura de llegada prevista (por ejemplo, llegada calculada con +300 m sobre el campo).
 2. **En el punto medio del tramo**: recalcula. Si el margen se mantiene en torno a +300 m, la masa de aire se comporta como esperabas. Si ha bajado a +150 m y sigue cayendo, estás atravesando descendencia o más viento de cara del previsto. Acelera la decisión, no el planeador: busca ya tu alternativa.

@@ -18,7 +18,7 @@ Como piloto, eres el último eslabón de la cadena de seguridad. Da igual lo bie
 
 El **Certificado de Aeronavegabilidad** (CofA) es el documento que emite la autoridad del estado de matrícula (AESA en España) certificando que la aeronave cumple con las normas de seguridad vigentes.
 
-El CofA de las aeronaves EASA tiene validez **ilimitada**: no caduca, siempre que la aeronave se mantenga aeronavegable conforme a su programa de mantenimiento y nadie lo revoque (). Eso sí, para ser válido debe ir siempre acompañado de un ARC en vigor. Sin ARC, el CofA es papel mojado.
+El CofA de las aeronaves EASA tiene validez **ilimitada**: no caduca, siempre que la aeronave se mantenga aeronavegable conforme a su programa de mantenimiento y nadie lo revoque (@fig-01-cap02-cofa-example). Eso sí, para ser válido debe ir siempre acompañado de un ARC en vigor. Sin ARC, el CofA es papel mojado.
 
 ![Certificado de Aeronavegabilidad EASA](imagenes/01-cap02-certificado-aeronavegabilidad.jpg){#fig-01-cap02-cofa-example}
 
@@ -26,7 +26,7 @@ El CofA de las aeronaves EASA tiene validez **ilimitada**: no caduca, siempre qu
 
 El **ARC** (**Airworthiness Review Certificate**, Certificado de Revisión de Aeronavegabilidad) confirma que, en un momento dado, alguien revisó la documentación y el estado físico del avión y todo estaba correcto.
 
-Su validez es de **un año**, así que toca renovarlo o prorrogarlo anualmente. En un entorno controlado (gestionado por una CAMO o, en aviación ligera, por una CAO), el ARC admite dos prórrogas consecutivas sin revisión física completa, es decir, 1 año + 1 año + 1 año. Al tercer año, revisión a fondo sin excusas (). El régimen técnico que sostiene el ARC —el programa de mantenimiento, el programa mínimo de inspección y las directivas de aeronavegabilidad— se desarrolla en el **Libro 8 — Conocimientos generales de la aeronave**, capítulo 9; aquí interesa su cara jurídica: sin ARC en vigor no puedes volar.
+Su validez es de **un año**, así que toca renovarlo o prorrogarlo anualmente. En un entorno controlado (gestionado por una CAMO o, en aviación ligera, por una CAO), el ARC admite dos prórrogas consecutivas sin revisión física completa, es decir, 1 año + 1 año + 1 año. Al tercer año, revisión a fondo sin excusas (@fig-01-cap02-arc-process). El régimen técnico que sostiene el ARC —el programa de mantenimiento, el programa mínimo de inspección y las directivas de aeronavegabilidad— se desarrolla en el **Libro 8 — Conocimientos generales de la aeronave**, capítulo 9; aquí interesa su cara jurídica: sin ARC en vigor no puedes volar.
 
 ::: {.callout-warning}
 ⚠ **SEGURIDAD**

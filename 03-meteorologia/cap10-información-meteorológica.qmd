@@ -46,7 +46,7 @@ Veamos un ejemplo típico en un día de vuelo, paso a paso:
 
 ## Mapas de tiempo significativo (SIGWX)
 
-    Mientras que METAR y TAF cubren aeropuertos concretos, los **Mapas de Tiempo Significativo (SIGWX)** muestran la meteorología esperada en grandes áreas de ruta. Son la vista de satélite de la planificación: te dicen dónde están los frentes, qué áreas de inestabilidad debes rodear y cuál es la posición de los niveles de congelación ().
+    Mientras que METAR y TAF cubren aeropuertos concretos, los **Mapas de Tiempo Significativo (SIGWX)** muestran la meteorología esperada en grandes áreas de ruta. Son la vista de satélite de la planificación: te dicen dónde están los frentes, qué áreas de inestabilidad debes rodear y cuál es la posición de los niveles de congelación (@fig-03-cap10-sigwx).
 
 * Los SIGWX grafican la distribución de frentes (fríos, cálidos, estacionarios, ocluidos) y sistemas de presión, con sus desplazamientos previstos.
 * Identifican ejes de inestabilidad como **vaguadas** (**troughs**), que preceden al desarrollo de cúmulos y chubascos.
@@ -58,7 +58,7 @@ Veamos un ejemplo típico en un día de vuelo, paso a paso:
 
 **↗ MÁS ALLÁ DEL EXAMEN.** Los sondeos Skew-T y los índices que se calculan sobre ellos (K, CAPE, LI) son formación de vuelo de distancia y no deberían ser materia de examen. Léelos como iniciación al cross-country.
 
-      El sondeo termodinámico es la radiografía del día: muestra cómo cambia la temperatura y la humedad con la altura en un punto geográfico dado. Se presenta en diagramas **Skew-T log-P** o **Stüve**, accesibles gratuitamente a través de la Universidad de Wyoming, AEMET (AMA), Windy o Meteoblue, y también integrados en plataformas de pago especializadas como Skysight, Topmeteo o Meteo Parapente. Aprender a leer un sondeo te ahorrará remolques innecesarios y te avisa de las tormentas antes de que sean visibles desde el suelo ().
+      El sondeo termodinámico es la radiografía del día: muestra cómo cambia la temperatura y la humedad con la altura en un punto geográfico dado. Se presenta en diagramas **Skew-T log-P** o **Stüve**, accesibles gratuitamente a través de la Universidad de Wyoming, AEMET (AMA), Windy o Meteoblue, y también integrados en plataformas de pago especializadas como Skysight, Topmeteo o Meteo Parapente. Aprender a leer un sondeo te ahorrará remolques innecesarios y te avisa de las tormentas antes de que sean visibles desde el suelo (@fig-03-cap10-indices-estabilidad).
 
 ![Representación de un sondeo con Windy.com sobre Fuentemilanos](imagenes/03-cap03-indices-estabilidad.jpg){#fig-03-cap10-indices-estabilidad}
 

@@ -31,7 +31,7 @@ Si no tienes más remedio que aterrizar en un aeródromo controlado, acércate a
 
 ## Señales luminosas de la Torre (Reglamento SERA)
 
-Desde los primeros aeródromos, las torres de control tienen focos direccionales con filtros de color —la «pistola de luces»— precisamente para esto: guiar a aeronaves sin radio (). Memoriza estas señales. Si algún día las necesitas, no habrá tiempo para buscarlas.
+Desde los primeros aeródromos, las torres de control tienen focos direccionales con filtros de color —la «pistola de luces»— precisamente para esto: guiar a aeronaves sin radio (@fig-04-cap07-pistola-luces). Memoriza estas señales. Si algún día las necesitas, no habrá tiempo para buscarlas.
 
 ::: {.callout-important}
 ⚖ **NORMATIVA**

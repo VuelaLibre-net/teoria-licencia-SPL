@@ -21,7 +21,7 @@ Pero que el papel no caduque no significa que puedas volar siempre. Para ejercer
 
 Sin médico, no hay vuelo. Controlar la fecha de caducidad es responsabilidad tuya.
 
-Vale tanto un certificado **Clase 2** como un **LAPL** (**Light Aircraft Pilot Licence**). Para la mayoría de pilotos deportivos, el LAPL es suficiente y menos exigente. Su validez depende de tu edad: **60 meses** (5 años) si tienes menos de 40, y **24 meses** (2 años) a partir de los 40 (). Ojo con el matiz de MED.A.045: un certificado emitido **antes** de cumplir los 40 deja de ser válido cuando cumples los **42**, aunque los 60 meses no hayan vencido. Si te lo expidieron a los 39, no te vale hasta los 44: caduca a los 42.
+Vale tanto un certificado **Clase 2** como un **LAPL** (**Light Aircraft Pilot Licence**). Para la mayoría de pilotos deportivos, el LAPL es suficiente y menos exigente. Su validez depende de tu edad: **60 meses** (5 años) si tienes menos de 40, y **24 meses** (2 años) a partir de los 40 (@fig-01-cap04-medical-validity). Ojo con el matiz de MED.A.045: un certificado emitido **antes** de cumplir los 40 deja de ser válido cuando cumples los **42**, aunque los 60 meses no hayan vencido. Si te lo expidieron a los 39, no te vale hasta los 44: caduca a los 42.
 
 ::: {.callout-warning}
 ⚠ **SEGURIDAD**
@@ -41,7 +41,7 @@ Para volar solo o con pasajeros debes demostrar que estás al día. La normativa
 
 ### ¿Qué pasa si no cumplo?
 
-No pierdes la licencia; tus privilegios quedan "dormidos". Para despertarlos tienes dos caminos: pasar una **verificación de competencia** (**proficiency check**) con un examinador, o volar con instructor en doble mando hasta completar lo que te falte ().
+No pierdes la licencia; tus privilegios quedan "dormidos". Para despertarlos tienes dos caminos: pasar una **verificación de competencia** (**proficiency check**) con un examinador, o volar con instructor en doble mando hasta completar lo que te falte (@fig-01-cap04-recencia-flow).
 
 ::: {.callout-tip}
 ✦ **REGLA DE ORO**

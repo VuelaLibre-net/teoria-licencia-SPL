@@ -38,7 +38,7 @@ El PAN PAN te da prioridad en las comunicaciones. No exige silencio total al res
 
 ## Estructura del mensaje de emergencia
 
-Con el corazón acelerado y las manos ocupadas, puede costar estructurar un mensaje. Pero los servicios de control y salvamento (SAR) necesitan información concreta para localizarte y ayudarte. Esta es la secuencia ():
+Con el corazón acelerado y las manos ocupadas, puede costar estructurar un mensaje. Pero los servicios de control y salvamento (SAR) necesitan información concreta para localizarte y ayudarte. Esta es la secuencia (@fig-04-cap08-llamada-emergencia):
 
 1. **A QUIÉN:** Nombre de la dependencia ATS.
 2. **QUIÉN:** Tipo de aeronave e indicativo completo.

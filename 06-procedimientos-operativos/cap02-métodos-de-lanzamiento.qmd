@@ -12,7 +12,7 @@ En este capítulo aprenderás:
 
 El **lanzamiento por torno** es el método más rápido y económico para poner un planeador en el aire. Un motor potente situado en el extremo opuesto de la pista enrolla un cable a gran velocidad, arrastrando al planeador desde el reposo hasta velocidades de despegue en apenas tres o cuatro segundos. La sensación es la de una catapulta: la aceleración es tan brusca que los pilotos noveles suelen sorprenderse ante su intensidad.
 
-Durante el ascenso, el ángulo de cabeceo aumenta rápidamente hasta superar los 40-45°. Esta actitud, que en cualquier otra situación sería alarmante, es completamente normal en el torno: el cable tirando desde adelante y abajo impone esa geometría. El planeador sube a razón de 10-15 metros por segundo y alcanza entre 300 y 500 metros en menos de un minuto (). Durante la trepada, la tracción del cable carga el ala y eleva su velocidad de pérdida, así que se vuela más deprisa que en vuelo libre: como referencia, entre 1,3 y 1,6 veces la velocidad mínima de vuelo recto, sin superar nunca la velocidad máxima de torno que fija el AFM.
+Durante el ascenso, el ángulo de cabeceo aumenta rápidamente hasta superar los 40-45°. Esta actitud, que en cualquier otra situación sería alarmante, es completamente normal en el torno: el cable tirando desde adelante y abajo impone esa geometría. El planeador sube a razón de 10-15 metros por segundo y alcanza entre 300 y 500 metros en menos de un minuto (@fig-06-cap02-torno-fases). Durante la trepada, la tracción del cable carga el ala y eleva su velocidad de pérdida, así que se vuela más deprisa que en vuelo libre: como referencia, entre 1,3 y 1,6 veces la velocidad mínima de vuelo recto, sin superar nunca la velocidad máxima de torno que fija el AFM.
 
 ### Procedimiento y fraseología
 
@@ -39,7 +39,7 @@ Si el cable se rompe durante el ascenso, la prioridad **absoluta e inmediata** e
 
 En el **remolque por avión**, una aeronave motorizada tira del planeador mediante un cable de entre 30 y 60 metros. Este método ofrece una ventaja decisiva sobre el torno: permite elegir con precisión la altura de suelta y el lugar geográfico exacto —sobre la ladera idónea, la primera térmica del día o el punto de inicio de la tarea prevista—. La penalización es el coste y el consumo de tiempo.
 
-La posición correcta de remolque es fundamental tanto para la seguridad como para la comodidad del piloto del remolcador ():
+La posición correcta de remolque es fundamental tanto para la seguridad como para la comodidad del piloto del remolcador (@fig-06-cap02-aerotow-posicion):
 
 * **Posición alta**: el planeador vuela justo por encima de la estela del remolcador, usando como referencia visual las ruedas del remolcador apoyadas en el horizonte. Desde esta posición, el planeador queda fuera del rebufo de la hélice y no ejerce fuerza de cabeceo sobre la cola del remolcador.
 * **Zona a evitar**: la zona inmediatamente detrás del remolcador y debajo de su estabilizador es extremadamente turbulenta por la estela de hélice. Atravesarla durante un vuelo normal es incómodo; durante una emergencia del remolcador, puede ser peligroso.
@@ -66,7 +66,7 @@ Durante el remolque, mantén siempre el avión remolcador **en tu campo de visi�
 
 La estela del remolcador consta de dos componentes: el rebufo de la hélice (**propwash**), que genera una turbulencia ligera en el centro, y los vórtices de punta de ala (**wingtip vortices**), que inducen fuertes momentos de alabeo en los bordes.
 
-La maniobra consiste en volar un patrón rectangular —un cuadro— alrededor de la estela del remolcador: partiendo de la posición alta estándar, se cruza la estela hacia la posición baja y desde ahí se recorren las cuatro esquinas del rectángulo (baja izquierda, alta izquierda, alta derecha, baja derecha) con mandos coordinados, manteniendo constante la distancia a la estela, para cerrar cruzando de nuevo hacia la posición alta (). Cada tramo es un ejercicio de control fino: desplazamientos limpios sin recortar las esquinas ni penetrar en los vórtices de punta de ala.
+La maniobra consiste en volar un patrón rectangular —un cuadro— alrededor de la estela del remolcador: partiendo de la posición alta estándar, se cruza la estela hacia la posición baja y desde ahí se recorren las cuatro esquinas del rectángulo (baja izquierda, alta izquierda, alta derecha, baja derecha) con mandos coordinados, manteniendo constante la distancia a la estela, para cerrar cruzando de nuevo hacia la posición alta (@fig-06-cap02-boxing-wake). Cada tramo es un ejercicio de control fino: desplazamientos limpios sin recortar las esquinas ni penetrar en los vórtices de punta de ala.
 
 No es materia de examen ni algo que se aprenda de un libro: es un ejercicio de vuelo que se practica **con instructor**, que te enseñará el ritmo y los límites en tu tipo de planeador. Empieza siempre fuera del circuito y por encima de una altura de seguridad de referencia de **300 m AGL**.
 

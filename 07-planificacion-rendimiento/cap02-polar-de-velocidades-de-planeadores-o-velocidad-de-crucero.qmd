@@ -13,7 +13,7 @@ En este capítulo aprenderás:
 
 ## La polar: tu curva de rendimiento
 
-La curva polar representa la tasa de descenso frente a la velocidad aire. Es el ADN de tu planeador: cada modelo tiene la suya, y de ella salen las dos velocidades que importan ().
+La curva polar representa la tasa de descenso frente a la velocidad aire. Es el ADN de tu planeador: cada modelo tiene la suya, y de ella salen las dos velocidades que importan (@fig-07-cap02-polar-anotada).
 
 * **Velocidad de mínimo descenso**: el punto más alto de la curva. A esa velocidad pierdes los mínimos metros por segundo; es la ideal para aguantar en el aire mientras esperas una térmica.
 * **Velocidad de máximo planeo (L/D)**: el punto donde la tangente desde el origen toca la curva. A esa velocidad recorres la mayor distancia posible por cada metro de altura perdido; es tu velocidad de planeo en aire en calma.
@@ -28,7 +28,7 @@ Aprende de memoria estos dos valores para tu modelo de planeador. En aire en cal
 
 ## El efecto del peso: la polar se desplaza
 
-¿Recuerdas el lastre de agua del capítulo anterior? Aquí está la explicación gráfica de por qué funciona. Al aumentar el peso (carga alar), la curva polar completa se desplaza hacia la derecha y hacia abajo, deslizándose a lo largo de la tangente desde el origen (). Las consecuencias son tres, y las tres caen en el examen:
+¿Recuerdas el lastre de agua del capítulo anterior? Aquí está la explicación gráfica de por qué funciona. Al aumentar el peso (carga alar), la curva polar completa se desplaza hacia la derecha y hacia abajo, deslizándose a lo largo de la tangente desde el origen (@fig-07-cap02-polar-peso). Las consecuencias son tres, y las tres caen en el examen:
 
 * **El planeo máximo (L/D) no cambia**: la tangente desde el origen toca la nueva curva con la misma pendiente. Un planeador de fineza 40 sigue teniendo fineza 40 cargado de agua.
 * **Ese planeo se alcanza a más velocidad**: si en vacío tu máximo planeo era a 95 km/h, con lastre puede ser a 110 km/h. Recorres los mismos kilómetros por metro de altura, pero más deprisa. Por eso el agua gana carreras en días fuertes.
@@ -46,7 +46,7 @@ Paul MacCready revolucionó el vuelo a vela con una idea simple: la velocidad en
 
 ## El efecto del viento y del aire descendente
 
-La polar del manual de vuelo está trazada para aire en calma. En el mundo real, la masa de aire se mueve, y la velocidad óptima se mueve con ella ().
+La polar del manual de vuelo está trazada para aire en calma. En el mundo real, la masa de aire se mueve, y la velocidad óptima se mueve con ella (@fig-07-cap02-polar-viento).
 
 * **Viento de cara**: tu cono de alcance se encoge y necesitas penetrar. Vuela más rápido que la velocidad de máximo planeo; una regla práctica es sumarle la mitad de la velocidad del viento.
 * **Viento de cola**: un regalo de la naturaleza. Vuela a la velocidad de máximo planeo, o un poco menos, y deja que el viento te empuje.

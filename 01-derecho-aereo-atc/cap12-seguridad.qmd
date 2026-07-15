@@ -10,7 +10,7 @@ En este capítulo aprenderás:
 
 ## Safety vs Security: ¿No es lo mismo?
 
-En español usamos "seguridad" para todo, pero en aviación conviven dos conceptos muy distintos ():
+En español usamos "seguridad" para todo, pero en aviación conviven dos conceptos muy distintos (@fig-01-cap12-safety-vs-security):
 
 1. **Seguridad operacional** (**safety**): prevenir **accidentes** no intencionados. Que no se pare el motor, que no choques, que el mantenimiento esté bien hecho. Es "volar seguro".
 2. **Seguridad de la aviación** (**security**): protegerse contra **actos ilícitos** intencionados. Que no te roben el avión, que nadie ponga una bomba, evitar secuestros. Es protección física.
@@ -27,7 +27,7 @@ Aunque vueles un planeador en un campo pequeño, la **security** también va con
 
 ## Mercancías peligrosas (Dangerous Goods)
 
-Son artículos o sustancias que pueden poner en riesgo la salud, la seguridad o la propiedad. La regla general es simple: **prohibido** llevarlas a bordo (). Se admiten cantidades razonables de lo necesario para el vuelo o la seguridad (oxígeno medicinal aprobado, baterías de litio de uso personal bajo ciertas condiciones), siempre con precaución extrema.
+Son artículos o sustancias que pueden poner en riesgo la salud, la seguridad o la propiedad. La regla general es simple: **prohibido** llevarlas a bordo (@fig-01-cap12-mercancias-peligrosas). Se admiten cantidades razonables de lo necesario para el vuelo o la seguridad (oxígeno medicinal aprobado, baterías de litio de uso personal bajo ciertas condiciones), siempre con precaución extrema.
 
 ![Etiquetado de mercancías peligrosas](imagenes/01-cap12-mercancias-peligrosas.jpg){#fig-01-cap12-mercancias-peligrosas}
 

@@ -30,7 +30,7 @@ En el mundo del planeador, el GNSS no solo sirve para navegar. Usamos dispositiv
 
 Estos archivos digitales (.igc) son la prueba de que has pasado por los puntos de viraje de una tarea y sirven para validar récords y medallas de la FAI. Al aterrizar, puedes volcar el vuelo en programas de análisis para aprender de tus decisiones y ver exactamente dónde encontraste esa térmica tan buena.
 
-Los equipos modernos integran el GNSS con un **mapa móvil** que muestra ruta, espacios aéreos y datos de planeo ().
+Los equipos modernos integran el GNSS con un **mapa móvil** que muestra ruta, espacios aéreos y datos de planeo (@fig-09-cap06-gnss-cabina).
 
 ![Dispositivo GNSS moderno integrado en el panel de un planeador](imagenes/09-cap06-gnss-cabina.jpg){#fig-09-cap06-gnss-cabina}
 

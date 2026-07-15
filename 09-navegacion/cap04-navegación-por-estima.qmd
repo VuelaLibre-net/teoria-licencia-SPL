@@ -19,7 +19,7 @@ Todo en navegación por estima se resume en un triángulo vectorial compuesto po
 2. **Viento**: La dirección e intensidad de la masa de aire en la que flotas.
 3. **GS (Velocidad Suelo)**: Es la resultante. Tu velocidad real sobre el terreno y la trayectoria que realmente vas a "dibujar" en el mapa.
 
-La suma vectorial de estos tres elementos es la base de todos los cálculos de este capítulo (véase ).
+La suma vectorial de estos tres elementos es la base de todos los cálculos de este capítulo (véase @fig-09-cap04-triangulo-velocidades).
 
 ::: {.callout-note}
 ⚓ **AIRMANSHIP**

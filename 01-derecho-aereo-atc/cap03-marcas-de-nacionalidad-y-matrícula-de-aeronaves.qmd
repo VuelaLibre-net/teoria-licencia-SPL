@@ -29,7 +29,7 @@ Según la normativa española (y el Anexo 7 de OACI), en los aerodinos (aviones 
 1. **En las alas**: en la superficie inferior (intradós) del ala izquierda, o abarcando ambas alas, con una altura mínima de **50 centímetros**.
 2. **En la cola o el fuselaje**: en ambos lados del fuselaje (entre las alas y la cola) o en las superficies verticales de cola, con una altura mínima de **30 centímetros**.
 
-Si el planeador es muy estilizado y no caben marcas de este tamaño, la autoridad puede aceptar dimensiones reducidas, siempre que sigan siendo legibles ().
+Si el planeador es muy estilizado y no caben marcas de este tamaño, la autoridad puede aceptar dimensiones reducidas, siempre que sigan siendo legibles (@fig-01-cap03-matricula-ubicacion).
 
 ![Ubicación de marcas de matrícula en un planeador](imagenes/01-cap03-ubicacion-matricula.jpg){#fig-01-cap03-matricula-ubicacion}
 
@@ -37,7 +37,7 @@ Si el planeador es muy estilizado y no caben marcas de este tamaño, la autorida
 
 Además de la pintura, tu planeador necesita una identidad "indestructible": una **placa de identificación** de **material ignífugo** (acero inoxidable, titanio…​) fijada a la estructura, normalmente cerca de la entrada de la cabina, de forma que sea legible.
 
-En ella van grabados la marca de nacionalidad, la matrícula y los datos de fabricante, modelo y número de serie (). Su razón de ser es sombría pero importante: si hay un accidente con fuego, la placa debe sobrevivir para que la aeronave pueda identificarse.
+En ella van grabados la marca de nacionalidad, la matrícula y los datos de fabricante, modelo y número de serie (@fig-01-cap03-placa-ignifuga). Su razón de ser es sombría pero importante: si hay un accidente con fuego, la placa debe sobrevivir para que la aeronave pueda identificarse.
 
 ::: {.callout-warning}
 ⚠ **SEGURIDAD**

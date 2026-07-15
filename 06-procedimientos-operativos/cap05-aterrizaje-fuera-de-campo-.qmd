@@ -30,7 +30,7 @@ Retrasar la decisión de aterrizar buscando una «térmica de rescate» a baja a
 
 ## Criterios de selección: las 7 S
 
-Para evaluar si un campo es apto en los pocos segundos que tienes disponibles, utiliza la regla de las **7 S**. Este método te obliga a evaluar los factores correctos en el orden correcto, evitando que la urgencia te lleve a pasar por alto un riesgo crítico ():
+Para evaluar si un campo es apto en los pocos segundos que tienes disponibles, utiliza la regla de las **7 S**. Este método te obliga a evaluar los factores correctos en el orden correcto, evitando que la urgencia te lleve a pasar por alto un riesgo crítico (@fig-06-cap05-7s-seleccion-campo):
 
 1. **S** (**Size / Tamaño**): busca el campo más grande posible. Un campo de 400 metros es ideal para la mayoría de los planeadores modernos; menos de 200 metros es crítico y requiere una técnica impecable.
 2. **S** (**Shape / Forma**): un campo largo y estrecho es mejor que uno corto y ancho. La forma debe permitir una aproximación limpia desde la dirección del viento sin obstáculos.

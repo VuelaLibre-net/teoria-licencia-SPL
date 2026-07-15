@@ -18,7 +18,7 @@ Piénsalo como una olla de agua hirviendo: el calor sube desde el fondo en corri
 
 ### El centrado de la térmica
 
-Detectar una térmica es solo el primer paso. Lo realmente difícil —y lo que distingue a un buen piloto de uno extraordinario— es centrarla con eficiencia. La técnica básica es el **desplazamiento del círculo** hacia el núcleo ():
+Detectar una térmica es solo el primer paso. Lo realmente difícil —y lo que distingue a un buen piloto de uno extraordinario— es centrarla con eficiencia. La técnica básica es el **desplazamiento del círculo** hacia el núcleo (@fig-06-cap03-centrado-termica):
 
 1. Cuando el vario empiece a subir con fuerza, espera **2-3 segundos** para asegurarte de que estás dentro del núcleo y no en el borde inicial.
 2. Inicia un viraje coordinado con un alabeo de entre **30° y 45°**. El planeador tardará entre 15 y 25 segundos en completar cada vuelta.
@@ -80,7 +80,7 @@ Nunca vires hacia la ladera si no tienes espacio garantizado para completar el v
 
 ### Vuelo de onda (*wave soaring*)
 
-El **vuelo de onda** (**wave soaring**) ocurre cuando, con viento fuerte y condiciones atmosféricas estables, el flujo de aire desviado hacia arriba por una cordillera genera un sistema de ondas de presión a sotavento, similar a las ondas que forma una piedra en el agua. Estas ondas pueden extenderse decenas o cientos de kilómetros y alcanzar altitudes estratosféricas ().
+El **vuelo de onda** (**wave soaring**) ocurre cuando, con viento fuerte y condiciones atmosféricas estables, el flujo de aire desviado hacia arriba por una cordillera genera un sistema de ondas de presión a sotavento, similar a las ondas que forma una piedra en el agua. Estas ondas pueden extenderse decenas o cientos de kilómetros y alcanzar altitudes estratosféricas (@fig-06-cap03-onda-esquema).
 
 * **Identificación:** la señal visual más característica son las **nubes lenticulares** (**lenticular clouds**): nubes con forma de lenteja o sombrero que permanecen estáticas sobre el terreno mientras el viento las atraviesa continuamente.
 * **Características:** el ascenso en la cresta de la onda es suave, constante y de gran amplitud. Es la vía hacia altitudes que ninguna térmica puede alcanzar.

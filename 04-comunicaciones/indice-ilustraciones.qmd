@@ -1,7 +1,5 @@
 # Índice de ilustraciones {.unnumbered}
 
-list-of::image[]
-
 ***Tema 4 de 9 del examen teórico para la Licencia de Piloto de Planeador (SPL)***
 
 La radio paraliza a más alumnos de vuelo que la pérdida aerodinámica. No porque la física sea difícil, sino porque nadie les ha explicado el sistema: qué dice el piloto, qué responde el controlador y por qué cada elemento de esa conversación tiene una razón de seguridad detrás.

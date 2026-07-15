@@ -19,7 +19,7 @@ Esta es la gran división. En el **controlado**, alguien (ATC) te separa de otro
 
 ### Clases de espacio aéreo (SERA.6001)
 
-La OACI define 7 clases, pero en España usamos principalmente las clases **A, C, D y E** (controladas) y la **G** (no controlada) ().
+La OACI define 7 clases, pero en España usamos principalmente las clases **A, C, D y E** (controladas) y la **G** (no controlada) (@fig-01-cap07-clases-espacio).
 
 | Clase | Tipo | Requisitos para VFR (Planeadores) |
 | --- | --- | --- |
@@ -58,7 +58,7 @@ El espacio aéreo puede tener "candados" por seguridad o defensa, marcados con c
 
 * **P** (**Prohibited**) - Prohibida: no se entra jamás. Piensa en el Palacio Real o en centrales nucleares.
 * **R** (**Restricted**) - Restringida: entrada sujeta a condiciones. Normalmente se puede pasar si está inactiva o con permiso especial (parques naturales, zonas de maniobras militares).
-* **D** (**Dangerous**) - Peligrosa: hay un peligro no específico (pruebas de explosivos, actividades de riesgo). Puedes entrar bajo tu responsabilidad, pero mejor evítalas ().
+* **D** (**Dangerous**) - Peligrosa: hay un peligro no específico (pruebas de explosivos, actividades de riesgo). Puedes entrar bajo tu responsabilidad, pero mejor evítalas (@fig-01-cap07-zonas-prd).
 
 ![Carta aeronáutica VFR mostrando zonas LEP141 (Prohibida, rojo, por central nuclear de Almaraz); LER170 y LER71C (Restringidas); LED125 (Peligrosa).](imagenes/01-cap07-zonas-prd.png){#fig-01-cap07-zonas-prd}
 

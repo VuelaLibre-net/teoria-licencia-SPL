@@ -1,7 +1,5 @@
 # Índice de ilustraciones {.unnumbered}
 
-list-of::image[]
-
 ***Tema 9 de 9 del examen teórico para la Licencia de Piloto de Planeador (SPL)***
 
 Un planeador no puede pedir más altura si la estimación fue mal. No puede esperar si la posición es incierta. No tiene margen para el "más o menos" cuando la térmica no aparece y el aeródromo alternativo está al límite del alcance.

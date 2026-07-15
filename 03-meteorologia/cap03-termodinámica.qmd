@@ -8,7 +8,7 @@ excelente o decepcionante para volar.
 
 ## Estabilidad Atmosférica: El Combustible del Vuelo a Vela
 
-  La estabilidad de la atmósfera define cómo se comporta una masa de aire (una "burbuja" o parcela) cuando es empujada hacia arriba. El vuelo sin motor vive fundamentalmente de la inestabilidad ().
+  La estabilidad de la atmósfera define cómo se comporta una masa de aire (una "burbuja" o parcela) cuando es empujada hacia arriba. El vuelo sin motor vive fundamentalmente de la inestabilidad (@fig-03-cap03-estabilidad).
 
 Podemos entenderlo imaginando una pelota en diferentes relieves:
 
@@ -37,7 +37,7 @@ Para aplicar la fórmula, sigue estos pasos antes de cada vuelo:
 2. Calcula la diferencia: ΔT = T − T~rocío~.
 3. Multiplica: ΔT × 400 = altura estimada de la base de los cúmulos en pies.
 
-*Ejemplo: T = 26 °C, T~rocío~ = 16 °C → (26 − 16) × 400 = **4.000 ft** de base.* (véase )
+*Ejemplo: T = 26 °C, T~rocío~ = 16 °C → (26 − 16) × 400 = **4.000 ft** de base.* (véase @fig-03-cap03-base-cumulos-dalr-nca)
 
 ![Cálculo gráfico de la base de los cúmulos: gradiente DALR, punto de rocío y Nivel de Condensación por Ascenso (NCA)](imagenes/03-cap03-base-cumulos-dalr-nca.jpg){#fig-03-cap03-base-cumulos-dalr-nca}
 
@@ -69,15 +69,15 @@ Para encontrar las mejores térmicas, busca "fuentes" que se calienten rápido (
 
 Los meteorólogos distinguen dos modelos conceptuales de cómo se organiza internamente ese flujo vertical:
 
-* **Modelo burbuja** (**bubble model**): El calor se acumula sobre la fuente hasta que la burbuja se desprende, como si tirases de un globo. El ascenso es intermitente: el núcleo central sube más rápido que los bordes, que presentan subsidencia. El planeador debe buscar y mantenerse en el núcleo para aprovechar el ascenso máximo ().
+* **Modelo burbuja** (**bubble model**): El calor se acumula sobre la fuente hasta que la burbuja se desprende, como si tirases de un globo. El ascenso es intermitente: el núcleo central sube más rápido que los bordes, que presentan subsidencia. El planeador debe buscar y mantenerse en el núcleo para aprovechar el ascenso máximo (@fig-03-cap03-modelo-burbuja).
 
 ![El modelo de burbuja o anillo de vórtice de una térmica.](imagenes/03-cap03-modelo-burbuja.jpg){#fig-03-cap03-modelo-burbuja}
 
-* **Modelo columna o pluma** (**column/plume model**): En fuentes intensas y persistentes (una cantera, un pueblo grande, una ladera orientada al sol toda la mañana), el flujo convectivo es continuo, como el humo de una chimenea. El ascenso es más regular y predecible, ideal para el vuelo de distancia ().
+* **Modelo columna o pluma** (**column/plume model**): En fuentes intensas y persistentes (una cantera, un pueblo grande, una ladera orientada al sol toda la mañana), el flujo convectivo es continuo, como el humo de una chimenea. El ascenso es más regular y predecible, ideal para el vuelo de distancia (@fig-03-cap03-modelo-columna).
 
 ![El modelo de columna o pluma de una térmica.](imagenes/03-cap03-modelo-columna.jpg){#fig-03-cap03-modelo-columna}
 
-En los días reales coexisten ambas estructuras. Las primeras horas de la mañana tienden a producir burbujas aisladas; a medida que el calentamiento se consolida, pueden aparecer columnas duraderas. Reconocer cuál predomina ese día mejora el centrado de térmicas y reduce el tiempo perdido fuera de círculo ().
+En los días reales coexisten ambas estructuras. Las primeras horas de la mañana tienden a producir burbujas aisladas; a medida que el calentamiento se consolida, pueden aparecer columnas duraderas. Reconocer cuál predomina ese día mejora el centrado de térmicas y reduce el tiempo perdido fuera de círculo (@fig-03-cap03-ciclo-vida-termica).
 
 ![Ciclo de vida de una térmica típica con cúmulo.](imagenes/03-cap03-ciclo-vida-termica.png){#fig-03-cap03-ciclo-vida-termica}
 

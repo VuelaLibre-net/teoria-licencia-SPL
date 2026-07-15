@@ -10,7 +10,7 @@ En este capítulo aprenderás:
 
 ## Definiciones clave (Reglamento UE 996/2010 y 376/2014)
 
-En aviación no todo es un accidente. Hay matices legales que importan ():
+En aviación no todo es un accidente. Hay matices legales que importan (@fig-01-cap13-piramide-sucesos):
 
 1. **ACCIDENTE**: alguien sufre lesiones mortales o graves; la aeronave sufre daños estructurales importantes o fallos que afectan a su resistencia o capacidad de vuelo; o la aeronave desaparece o queda inaccesible.
 2. **INCIDENTE GRAVE**: un suceso con alta probabilidad de haber acabado en accidente. El clásico "casi pasa".
@@ -30,7 +30,7 @@ Para mejorar la seguridad, el Estado necesita datos. No para castigar, sino para
 1. **CIAIAC** (Comisión de Investigación): investiga las causas técnicas, para que no vuelva a pasar.
 2. **AESA** (Agencia Estatal de Seguridad Aérea): supervisa el cumplimiento normativo.
 
-Los plazos no son iguales: a la CIAIAC, comunica el accidente o incidente grave **sin demora** (Reglamento (UE) 996/2010, art. 9); a AESA, notifica el suceso lo antes posible y, en todo caso, en un máximo de **72 horas** (Reglamento (UE) 376/2014) ().
+Los plazos no son iguales: a la CIAIAC, comunica el accidente o incidente grave **sin demora** (Reglamento (UE) 996/2010, art. 9); a AESA, notifica el suceso lo antes posible y, en todo caso, en un máximo de **72 horas** (Reglamento (UE) 376/2014) (@fig-01-cap13-flujo-notificacion).
 
 ::: {.callout-tip}
 ✦ **REGLA DE ORO**

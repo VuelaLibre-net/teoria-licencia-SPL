@@ -18,7 +18,7 @@ Para operar un planeador de forma segura, el cerebro del piloto procesa informac
 
 **La atención** es el filtro que permite centrarse en la información relevante de la cabina y el entorno exterior. La atención no es inagotable; puede verse erosionada rápidamente por factores biológicos o psicológicos, impidiendo percibir el cuadro completo de la situación.
 
-**La memoria**, localizada de forma clave en el hipocampo, permite codificar, almacenar y recuperar información vital. En la cabina se utilizan distintos sistemas ():
+**La memoria**, localizada de forma clave en el hipocampo, permite codificar, almacenar y recuperar información vital. En la cabina se utilizan distintos sistemas (@fig-02-cap03-memoria-tipos):
 
 * **Memoria sensorial:** Retiene información por apenas 200 milisegundos tras percibirla por los sentidos.
 * **Memoria a corto plazo:** Dura unos 30 segundos; es la «memoria RAM» del piloto, esencial para interactuar con el entorno táctico inmediato.
@@ -42,7 +42,7 @@ La pérdida de la conciencia situacional suele ser el eslabón inicial en la may
 
 La Toma de Decisiones Aeronáuticas (ADM, por las siglas de **Aeronautical Decision Making**) es el proceso mental, sistemático y repetible, empleado por el piloto para decantarse por el mejor camino de acción posible como respuesta a unas circunstancias dadas en la cabina del planeador.
 
-Durante un vuelo en térmica o en el trayecto final del aterrizaje, el piloto interactúa con el entorno evaluando escenarios y peligros, definiendo planes, gestionando el nivel de riesgo y obrando en consecuencia. Uno de los esquemas estructurales más aceptados en la aviación civil para entrenar y modelar la ADM de manera natural es el **modelo DECIDE** ():
+Durante un vuelo en térmica o en el trayecto final del aterrizaje, el piloto interactúa con el entorno evaluando escenarios y peligros, definiendo planes, gestionando el nivel de riesgo y obrando en consecuencia. Uno de los esquemas estructurales más aceptados en la aviación civil para entrenar y modelar la ADM de manera natural es el **modelo DECIDE** (@fig-02-cap03-decide):
 
 * **D**etectar errores que requieren solución o un cambio que solicita atención.
 * **E**studiar y recopilar activamente toda la información del evento suscitado.
@@ -110,7 +110,7 @@ El estrés es la respuesta biológica no específica con la que el cuerpo humano
 
 A diferencia del imaginario popular, no todo el estrés es perjudicial. Un nivel de estrés moderado (como el que sufres la primera vez que sales en monomando) es altamente positivo: aumenta tu nivel de alerta, agudiza tus sentidos y optimiza tu velocidad de reacción, llevándote a tu punto máximo de rendimiento.
 
-Sin embargo, si la presión psicológica continúa aumentando (por ejemplo, te metes inadvertidamente en condiciones instrumentales severas ignorando tus límites), este estrés tolerable se transforma rápidamente en pánico. El rendimiento cae en picado y el piloto sufre una intensa saturación sensorial. El cerebro, incapaz de procesar el abrumador cuadro informativo de la cabina, se bloquea y focaliza absolutamente toda su atención residual en un solo detalle del vuelo (a menudo el más insignificante), anulando cualquier otra entrada visual o cognitiva sensata. A este fenómeno letal se le denomina informalmente **visión de túnel** ().
+Sin embargo, si la presión psicológica continúa aumentando (por ejemplo, te metes inadvertidamente en condiciones instrumentales severas ignorando tus límites), este estrés tolerable se transforma rápidamente en pánico. El rendimiento cae en picado y el piloto sufre una intensa saturación sensorial. El cerebro, incapaz de procesar el abrumador cuadro informativo de la cabina, se bloquea y focaliza absolutamente toda su atención residual en un solo detalle del vuelo (a menudo el más insignificante), anulando cualquier otra entrada visual o cognitiva sensata. A este fenómeno letal se le denomina informalmente **visión de túnel** (@fig-02-cap03-vision-tunel).
 
 ::: {.callout-warning}
 ⚠ **SEGURIDAD**

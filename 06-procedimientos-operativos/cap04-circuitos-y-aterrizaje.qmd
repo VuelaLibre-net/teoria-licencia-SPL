@@ -14,7 +14,7 @@ En este capítulo aprenderás:
 
 El **circuito de tráfico** es un procedimiento estandarizado que organiza la llegada al aeródromo de forma predecible y segura para todos los participantes. Su geometría rectangular permite que el piloto tenga siempre visibilidad de la pista y pueda ajustar la energía disponible en cada tramo.
 
-Los cuatro tramos estándar son ():
+Los cuatro tramos estándar son (@fig-06-cap04-circuito-estandar):
 
 1. **Viento cruzado (**crosswind**):** Tramo perpendicular a la pista, realizado justo tras el despegue o al entrar en el circuito desde la travesía. La altura recomendada al completar el giro a viento cruzado es de 250-300 metros (QFE).
 2. **Viento en cola** (**downwind**): Tramo paralelo a la pista en dirección contraria al aterrizaje. Se vuela a una distancia lateral de 200-400 metros de la pista, a una altura de 200-300 metros. Es el tramo donde se realizan las comprobaciones de la lista FUSTALL (ver sección siguiente).
@@ -64,7 +64,7 @@ Entrar en final lento con viento en cara es una de las combinaciones más peligr
 
 ## Uso de los aerofrenos
 
-Los **aerofrenos** son el control de planeo del planeador: permiten aumentar la tasa de descenso sin cambiar la actitud ni la velocidad. Son el instrumento que transforma la energía potencial sobrante en frenado aerodinámico y permiten clavar el punto de toma con precisión ().
+Los **aerofrenos** son el control de planeo del planeador: permiten aumentar la tasa de descenso sin cambiar la actitud ni la velocidad. Son el instrumento que transforma la energía potencial sobrante en frenado aerodinámico y permiten clavar el punto de toma con precisión (@fig-06-cap04-aerofrenos-angulo).
 
 La estrategia más fiable para usar los aerofrenos es la siguiente:
 
@@ -129,7 +129,7 @@ Las oscilaciones inducidas por el piloto (**pilot-induced oscillations - PIO**) 
 Durante la fase final de aproximación y la toma de tierra, a bajas velocidades, la efectividad de los mandos de vuelo se reduce y existe un ligero retraso (**control lag**) entre el movimiento de la palanca y la respuesta física de la aeronave. Si el planeador sufre una pequeña ráfaga de viento y se encabrita, un piloto fatigado o de reflejos tardíos puede empujar la palanca hacia adelante con fuerza; cuando el planeador responde y empieza a picar, el piloto tira con fuerza hacia atrás. Este ciclo de correcciones excesivas y desfasadas se amplifica rápidamente:
 
 * **Consecuencias:** las oscilaciones pueden terminar en un contacto extremadamente duro del tren de aterrizaje principal o de la rueda de morro contra la pista, con daños estructurales severos en el fuselaje o lesiones a la tripulación.
-* **Corrección en vuelo:** en el momento en que sientas que inicias una oscilación en cabeceo cerca de la pista, **congela la palanca de mando** en una posición estable y neutral. Deja que el planeador se estabilice solo por su estabilidad estática longitudinal y, si es necesario, abre o mantén los aerofrenos al 50 % para asentar la aeronave con suavidad ().
+* **Corrección en vuelo:** en el momento en que sientas que inicias una oscilación en cabeceo cerca de la pista, **congela la palanca de mando** en una posición estable y neutral. Deja que el planeador se estabilice solo por su estabilidad estática longitudinal y, si es necesario, abre o mantén los aerofrenos al 50 % para asentar la aeronave con suavidad (@fig-06-cap04-pio-cabeceo).
 
 ![Oscilación inducida por el piloto (PIO): correcciones desfasadas que se amplifican](imagenes/06-cap04-pio-cabeceo.png){#fig-06-cap04-pio-cabeceo}
 

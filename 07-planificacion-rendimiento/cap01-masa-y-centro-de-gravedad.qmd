@@ -33,7 +33,7 @@ El lastre de cabina debe ir siempre fijado mecánicamente en los soportes que el
 
 ### CG adelantado: estabilidad a cambio de rendimiento
 
-Volar con el morro pesado es más seguro que volar con la cola pesada, pero tiene su precio. El planeador se vuelve tan estable que insiste en mantener el morro bajo, y tendrás que sujetar la palanca atrás para conservar la actitud de vuelo. Para que el morro no caiga, el timón de profundidad vuela deflectado hacia arriba, y esa deflexión añade una resistencia (*trim drag*) que empeora tu coeficiente de planeo. Hay un tercer efecto menos intuitivo: como la cola empuja hacia abajo, el ala necesita generar más sustentación para el mismo peso, así que la velocidad de pérdida efectiva aumenta. La  resume estos efectos de la posición del CG sobre la estabilidad longitudinal.
+Volar con el morro pesado es más seguro que volar con la cola pesada, pero tiene su precio. El planeador se vuelve tan estable que insiste en mantener el morro bajo, y tendrás que sujetar la palanca atrás para conservar la actitud de vuelo. Para que el morro no caiga, el timón de profundidad vuela deflectado hacia arriba, y esa deflexión añade una resistencia (*trim drag*) que empeora tu coeficiente de planeo. Hay un tercer efecto menos intuitivo: como la cola empuja hacia abajo, el ala necesita generar más sustentación para el mismo peso, así que la velocidad de pérdida efectiva aumenta. La @fig-07-cap01-limites-cg resume estos efectos de la posición del CG sobre la estabilidad longitudinal.
 
 ## Cálculo de masa y centrado
 
@@ -43,7 +43,7 @@ Saber que el CG atrasado es peligroso no basta. El examen y el vuelo real exigen
 * **Brazo de palanca (**: la distancia horizontal desde el *datum* hasta el punto donde actúa cada peso. Por convenio, positiva hacia atrás y negativa hacia delante.
 * **Momento (**: el producto de cada peso por su brazo. Es la "fuerza de giro" que ese peso ejerce sobre el conjunto.
 
-La posición del CG es la media ponderada de todos los momentos ():
+La posición del CG es la media ponderada de todos los momentos (@fig-07-cap01-datum-momento):
 
 **CG = Σ Momentos / Σ Pesos**
 

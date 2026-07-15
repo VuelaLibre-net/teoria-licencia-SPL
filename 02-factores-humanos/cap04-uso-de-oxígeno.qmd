@@ -39,7 +39,7 @@ Aunque el vuelo a gran altitud es la causa más común, la hipoxia puede origina
 
 Los síntomas de la hipoxia varían entre individuos y dependen de factores como el nivel de fatiga, el tabaquismo, la ingesta de alcohol o la aclimatación a la altitud. El piloto a menudo no percibe sus propios síntomas.
 
-El síntoma más peligroso —y el primero en aparecer según el programa AESA— es la **euforia**: el piloto se siente excepcionalmente bien y no detecta el peligro. A continuación aparecen irritabilidad, dificultad para hablar, pérdida de memoria a corto plazo, disminución de la capacidad de cálculo y somnolencia. En fases avanzadas se produce **cianosis**: coloración azulada en labios y uñas, y finalmente pérdida de conciencia ().
+El síntoma más peligroso —y el primero en aparecer según el programa AESA— es la **euforia**: el piloto se siente excepcionalmente bien y no detecta el peligro. A continuación aparecen irritabilidad, dificultad para hablar, pérdida de memoria a corto plazo, disminución de la capacidad de cálculo y somnolencia. En fases avanzadas se produce **cianosis**: coloración azulada en labios y uñas, y finalmente pérdida de conciencia (@fig-02-cap04-cianosis).
 
 ::: {.callout-warning}
 ⚠ **SEGURIDAD**
@@ -53,7 +53,7 @@ La euforia es el síntoma más traicionero de la hipoxia: el piloto no sospecha 
 
 El TUC es el intervalo que transcurre desde que se interrumpe el suministro de oxígeno hasta que el piloto pierde la capacidad de tomar medidas protectoras. A mayor altitud, menor tiempo disponible para reaccionar.
 
-La siguiente tabla muestra los valores de referencia ():
+La siguiente tabla muestra los valores de referencia (@fig-02-cap04-hipoxia-tiempo-conciencia):
 
 ![Tiempo de conciencia útil (](imagenes/02-cap04-hipoxia-tiempo-conciencia.png){#fig-02-cap04-hipoxia-tiempo-conciencia}
 
@@ -172,7 +172,7 @@ Antes de cada vuelo en altitud, compruebe visualmente la botella, las conexiones
 
 ## Pulsioxímetro
 
-El pulsioxímetro es un dispositivo no invasivo que mide la saturación de oxígeno en sangre (SpO~2~) y la frecuencia cardíaca en tiempo real (). Es el instrumento más útil para detectar hipoxia antes de que los síntomas sean evidentes para el propio piloto.
+El pulsioxímetro es un dispositivo no invasivo que mide la saturación de oxígeno en sangre (SpO~2~) y la frecuencia cardíaca en tiempo real (@fig-02-cap04-pulsioximetro). Es el instrumento más útil para detectar hipoxia antes de que los síntomas sean evidentes para el propio piloto.
 
 ![Pulsioxímetro de dedo mostrando lectura de saturación de oxígeno y frecuencia cardíaca](imagenes/02-cap04-pulsioximetro.jpg){#fig-02-cap04-pulsioximetro}
 

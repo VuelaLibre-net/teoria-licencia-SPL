@@ -12,7 +12,7 @@ Como piloto de planeador, el estado de salud física y mental es el componente m
 Es obligatorio consultar con un Médico Examinador Aéreo (AME) o médico general si se ha sufrido una lesión importante, cirugía, inicio de medicación regular, embarazo, o uso por primera vez de lentes correctoras. Estas situaciones requieren una nueva evaluación de la aptitud médica; el piloto debe abstenerse de volar al mando hasta que se resuelva la causa y recupere la condición apta (**MED.A.020 Decrease in medical fitness**).
 :::
 
-Para ayudar a evaluar sistemáticamente la condición individual antes de acceder a la cabina, la aviación ha estandarizado una lista de chequeo personal conocida por el acrónimo mnemotécnico **IMSAFE** (del inglés "I am safe" - **Estoy a salvo**). Esta revisión es tan vital como la propia inspección prevuelo del planeador ():
+Para ayudar a evaluar sistemáticamente la condición individual antes de acceder a la cabina, la aviación ha estandarizado una lista de chequeo personal conocida por el acrónimo mnemotécnico **IMSAFE** (del inglés "I am safe" - **Estoy a salvo**). Esta revisión es tan vital como la propia inspección prevuelo del planeador (@fig-02-cap02-imsafe-checklist):
 
 ![Evaluación personal del piloto antes del vuelo](imagenes/02-cap02-imsafe.jpg){#fig-02-cap02-imsafe-checklist}
 
@@ -54,7 +54,7 @@ Una percepción correcta de los colores es obligatoria. Durante el reconocimient
 
 El método principal para prevenir colisiones en vuelo visual es la técnica de "Ver y Evitar" (**See and Avoid**). Un buen piloto dedica más del 95% de su tiempo a mirar fuera de la cabina, limitando la consulta de los instrumentos a vistazos rápidos de 2 a 4 segundos.
 
-Para escanear el cielo de forma eficaz, utiliza el método del reloj ():
+Para escanear el cielo de forma eficaz, utiliza el método del reloj (@fig-02-cap02-escaneo-visual):
 
 1. Considere el morro del planeador como las **12 en punto**.
 2. Realiza barridos visuales estructurados por sectores, desde las **9** hasta las **3**.
@@ -130,7 +130,7 @@ El mareo puede afectar incluso a pilotos curtidos, especialmente tras períodos 
 
 ![La fijación visual en el horizonte exterior previene la cinetosis (el mareo)](imagenes/02-cap02-cinetosis-fijacion.jpg){#fig-02-cap02-cinetosis-fijacion}
 
-Para prevenir y gestionar el fantasma del mareo en vuelo, interioriza y aplica en cabina las siguientes medidas ():
+Para prevenir y gestionar el fantasma del mareo en vuelo, interioriza y aplica en cabina las siguientes medidas (@fig-02-cap02-cinetosis-fijacion):
 
 * **La mirada al horizonte:** El remedio más eficaz es la referencia visual exterior. Ante los primeros síntomas de malestar, levante la barbilla, busque el horizonte natural y fije la vista en un punto lejano. Evite mirar los instrumentos o leer documentos en la rodillera.
 * **Reducción del movimiento:** Limite los movimientos bruscos de cabeza. Las aceleraciones negativas prolongadas incrementan la susceptibilidad al mareo; evite transiciones de actitud extremas sin necesidad.
@@ -177,7 +177,7 @@ Para volar en onda invernal, abríguese siempre **por capas**. Evite tajantement
 
 El estrés en la cabina no siempre es un enemigo. En su justa medida, un nivel moderado de tensión —como el que se siente justo antes del despegue en una competición o al afrontar tu primer vuelo de ladera— resulta positivo y necesario. Activa el sistema nervioso, eleva el nivel de alerta y afina la capacidad de reacción, llevándole al punto de rendimiento máximo.
 
-Conviene distinguir dos marcos complementarios, porque describen cosas distintas. El primero, la **curva de Yerkes-Dodson**, relaciona el nivel de activación con el rendimiento: en forma de U invertida, muy poca tensión da un piloto apático y demasiada, uno bloqueado; el máximo está en el punto medio ().
+Conviene distinguir dos marcos complementarios, porque describen cosas distintas. El primero, la **curva de Yerkes-Dodson**, relaciona el nivel de activación con el rendimiento: en forma de U invertida, muy poca tensión da un piloto apático y demasiada, uno bloqueado; el máximo está en el punto medio (@fig-02-cap02-curva-estres).
 
 ![Relación entre el nivel de activación y el rendimiento del piloto (curva de Yerkes-Dodson)](imagenes/02-cap02-curva-estres.png){#fig-02-cap02-curva-estres}
 

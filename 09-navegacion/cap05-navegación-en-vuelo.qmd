@@ -31,7 +31,7 @@ No confíes en una sola referencia. Para confirmar tu posición, usa la técnica
 1. Identifica una referencia lineal y bien definida (una carretera nacional, un río o una vía de tren, por ejemplo).
 2. Busca una segunda referencia que cruce o esté alineada con un punto notable (ej: "estoy sobre la carretera N-VI, justo cuando el pueblo X queda a mis 3").
 
-El cruce de esas dos líneas de posición fija tu posición con bastante certeza ().
+El cruce de esas dos líneas de posición fija tu posición con bastante certeza (@fig-09-cap05-triangulacion).
 
 ![Técnica de triangulación visual en vuelo](imagenes/09-cap05-triangulacion.jpg){#fig-09-cap05-triangulacion}
 

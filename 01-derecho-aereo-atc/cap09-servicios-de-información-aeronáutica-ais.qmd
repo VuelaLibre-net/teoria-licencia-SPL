@@ -16,7 +16,7 @@ En España, el proveedor principal es **ENAIRE**, y todo se agrupa en el "Paquet
 
 ## El manual AIP (Publicación de Información Aeronáutica)
 
-El **AIP** es la "biblia" de la aviación de un país: contiene la información permanente esencial para navegar, organizada en tres volúmenes ():
+El **AIP** es la "biblia" de la aviación de un país: contiene la información permanente esencial para navegar, organizada en tres volúmenes (@fig-01-cap09-estructura-aip):
 
 1. **GEN (Generalidades)**: reglamentos, señales de socorro, tablas de conversión, salida y puesta de sol, servicios disponibles.
 2. **ENR (En Ruta)**: estructura del espacio aéreo (vías aéreas, zonas prohibidas y restringidas), radioayudas, alertas para la navegación.
@@ -32,7 +32,7 @@ El AIP no cambia cada día. Las actualizaciones importantes y previsibles (nueva
 
 ![Decodificación básica de un NOTAM](imagenes/01-cap09-ejemplo-notam.jpg){#fig-01-cap09-ejemplo-notam}
 
-Hay cosas que no pueden esperar al ciclo AIRAC: una grúa en final de pista, un VOR inoperativo, un festival aéreo el sábado…​ Para eso existen los **NOTAM**: avisos temporales (generalmente de 3 meses como máximo) sobre el establecimiento, estado o modificación de cualquier instalación, servicio o procedimiento aeronáutico, o sobre un peligro para la navegación ().
+Hay cosas que no pueden esperar al ciclo AIRAC: una grúa en final de pista, un VOR inoperativo, un festival aéreo el sábado…​ Para eso existen los **NOTAM**: avisos temporales (generalmente de 3 meses como máximo) sobre el establecimiento, estado o modificación de cualquier instalación, servicio o procedimiento aeronáutico, o sobre un peligro para la navegación (@fig-01-cap09-ejemplo-notam).
 
 Consultar los NOTAM de tu aeródromo de salida, destino, alternativos y la ruta antes de **cada** vuelo es obligatorio.
 

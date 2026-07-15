@@ -8,7 +8,7 @@ aparecen.
 
 ## Tormentas y nubes de desarrollo extremo (Cb)
 
-El Cumulonimbus (Cb) representa la manifestación más severa de la inestabilidad atmosférica. Alberga en su volumen los meteoros más hostiles condensados en una misma depresión celular. Para cualquier aeronave, y en especial para un velero ligero, la doctrina de vuelo exige que **jamás** se debe operar bajo un Cb, en su interior, ni en sus proximidades (con un margen de evitación recomendado de entre 10 y 20 NM) ().
+El Cumulonimbus (Cb) representa la manifestación más severa de la inestabilidad atmosférica. Alberga en su volumen los meteoros más hostiles condensados en una misma depresión celular. Para cualquier aeronave, y en especial para un velero ligero, la doctrina de vuelo exige que **jamás** se debe operar bajo un Cb, en su interior, ni en sus proximidades (con un margen de evitación recomendado de entre 10 y 20 NM) (@fig-03-cap09-cumulonimbus).
 
 * **Peligros estructurales:** Estas inmensas formaciones convectivas desatan corrientes ascendentes y descendentes contiguas de virulencia extrema. La turbulencia cizallante generada (**updrafts** y **downdrafts**) puede exceder holgadamente los factores de carga límite de diseño de cualquier aeronave ligera, provocando fallos estructurales en vuelo.
 * **Fenómenos asociados:** Los Cb están perimetralmente flanqueados por turbonadas con fortísimos vientos racheados direccionales, alta densidad de descargas eléctricas (rayos), precipitación abundante y, con alta probabilidad, granizo. El impacto de granizo severo (diámetros > 2 cm) destruye el perfil laminar y puede comprometer la integridad de la estructura del planeador.
@@ -24,7 +24,7 @@ Las células de tormenta en desarrollo o incrustadas ("embedded Cb") dentro de c
 
 ### El ciclo de vida de la célula tormentosa
 
-Una tormenta no es un objeto estático, sino un proceso con principio y fin. Entender sus tres fases ayuda a leer el cielo y a anticipar cuándo una célula es más peligrosa ():
+Una tormenta no es un objeto estático, sino un proceso con principio y fin. Entender sus tres fases ayuda a leer el cielo y a anticipar cuándo una célula es más peligrosa (@fig-03-cap09-ciclo-tormenta):
 
 1. **Fase de desarrollo o cúmulo (**cumulus stage**)**: domina la corriente ascendente. Un cúmulo congestus crece rápidamente en vertical, alimentado por aire cálido y húmedo. Todavía no hay precipitación que llegue al suelo, pero la ascendencia ya es fuerte y desorganizada. Para el velero, la ascendencia es tentadora y engañosa: la nube aún está «cargándose».
 2. **Fase de madurez (**mature stage**)**: la más peligrosa. Coexisten la corriente ascendente y la descendente; comienza la precipitación, que arrastra aire frío hacia abajo y genera el frente de racha en superficie. Es la etapa del granizo, los rayos, la turbulencia extrema y el **downburst**. La nube alcanza su máximo desarrollo vertical y aparece el yunque.
@@ -61,7 +61,7 @@ Un planeador con hielo estructural puede entrar en pérdida a velocidades muy su
 
   No todas las turbulencias nacen de la meteorología: algunas las generan las propias aeronaves, y otras se esconden al abrigo de las montañas.
 
-* **Estela turbulenta (**wake turbulence**):** Las aeronaves grandes —reactores pesados o turbohélices de gran tonelaje— desprenden de las puntas de sus alas dos vórtices poderosos que giran como tornillos. Estos vórtices descienden lentamente por debajo de la senda de vuelo y pueden persistir varios minutos en zonas con poco viento. Si un planeador cruza esa estela, el vuelco puede ser instantáneo y superar la capacidad de los mandos para corregirlo. En un aeródromo con tráfico mixto, espera siempre al menos 3 minutos tras el despegue o aterrizaje de una aeronave pesada antes de usar la misma pista ().
+* **Estela turbulenta (**wake turbulence**):** Las aeronaves grandes —reactores pesados o turbohélices de gran tonelaje— desprenden de las puntas de sus alas dos vórtices poderosos que giran como tornillos. Estos vórtices descienden lentamente por debajo de la senda de vuelo y pueden persistir varios minutos en zonas con poco viento. Si un planeador cruza esa estela, el vuelco puede ser instantáneo y superar la capacidad de los mandos para corregirlo. En un aeródromo con tráfico mixto, espera siempre al menos 3 minutos tras el despegue o aterrizaje de una aeronave pesada antes de usar la misma pista (@fig-03-cap09-estela-turbulenta).
 * **Estela de helicópteros:** Los helicópteros generan flujos de aire extremadamente peligrosos debido a la enorme cantidad de energía concentrada por sus palas de rotor. Su peligro se divide en dos escenarios:
   
   * **En vuelo estacionario o rodaje lento (**hover**):** El rotor proyecta un flujo descendente de alta velocidad (**downwash** o **rotor wash**) que impacta contra el suelo y se expande en forma de vórtices turbulentos hasta una distancia de al menos tres diámetros de rotor.
@@ -69,7 +69,7 @@ Un planeador con hielo estructural puede entrar en pérdida a velocidades muy su
 
 ![Estudio de la NASA sobre los vórtices de las puntas de las alas, ilustra cualitativamente la turbulencia de estela.](imagenes/03-cap09-estela-turbulenta.jpg){#fig-03-cap09-estela-turbulenta}
 
-* **Rotores (**rotor turbulence**):** A sotavento de una cordillera con viento fuerte, a baja altura se forma el **rotor**: un cilindro de aire en rotación caótica e invisible desde fuera. Es la contrapartida peligrosa de la onda de montaña: mientras en la onda se sube con suavidad, a baja cota bajo esa misma onda el rotor puede arrebatarte el control del planeador con una única ráfaga. Si haces un remolque en zona de onda, sigue al avión remolcador con precisión, aprieta el arnés y no te acerques a la zona de rotor si puedes evitarlo ().
+* **Rotores (**rotor turbulence**):** A sotavento de una cordillera con viento fuerte, a baja altura se forma el **rotor**: un cilindro de aire en rotación caótica e invisible desde fuera. Es la contrapartida peligrosa de la onda de montaña: mientras en la onda se sube con suavidad, a baja cota bajo esa misma onda el rotor puede arrebatarte el control del planeador con una única ráfaga. Si haces un remolque en zona de onda, sigue al avión remolcador con precisión, aprieta el arnés y no te acerques a la zona de rotor si puedes evitarlo (@fig-03-cap09-flujo-crestas).
 
 ![Flujo de aire a lo largo de diferentes crestas.](imagenes/03-cap09-flujo-crestas.jpg){#fig-03-cap09-flujo-crestas}
 
@@ -78,7 +78,7 @@ Un planeador con hielo estructural puede entrar en pérdida a velocidades muy su
   La **cizalladura** (**windshear**) es un cambio brusco de velocidad o dirección del viento que afecta al planeador en un espacio muy corto. Para el velero en aproximación es uno de los peligros más traicioneros: actúa en segundos, sin advertencia visual previa. Aparece asociada a frentes activos, zonas de convergencia, **downbursts** e inversiones térmicas en capas bajas.
 
 * **Riesgo en final:** El planeador estima su energía de planeo sobre el viento de cara reinante. Si ese viento desaparece o gira a cola de forma súbita —lo que ocurre al cruzar una cizalladura— la velocidad aerodinámica (IAS) cae bruscamente, la sustentación se reduce y el planeador desciende de golpe. A escasa altura sobre el umbral no hay margen de recuperación: una pérdida de 10 kt de viento de cara en final puede llevar al aporrizaje (**crash landing**) en pocos segundos.
-* **Reventones (Microbursts/Downbursts):** Íntimamente ligados a la base de cumulonimbos desarrollados que descargan lluvia intensa. Estas masas de aire frío se desploman verticalmente hacia el suelo, donde se expanden horizontalmente provocando ráfagas radiales opuestas. Entrar en una micro ráfaga durante la aproximación es extremadamente peligroso: primero el planeador experimenta una ganancia de sustentación engañosa por el viento de cara, para segundos después sufrir un hundimiento masivo por el aire descendente y el repentino viento de cola, que puede llevar a un aterrizaje forzado o accidente si no se tiene suficiente altitud y velocidad ().
+* **Reventones (Microbursts/Downbursts):** Íntimamente ligados a la base de cumulonimbos desarrollados que descargan lluvia intensa. Estas masas de aire frío se desploman verticalmente hacia el suelo, donde se expanden horizontalmente provocando ráfagas radiales opuestas. Entrar en una micro ráfaga durante la aproximación es extremadamente peligroso: primero el planeador experimenta una ganancia de sustentación engañosa por el viento de cara, para segundos después sufrir un hundimiento masivo por el aire descendente y el repentino viento de cola, que puede llevar a un aterrizaje forzado o accidente si no se tiene suficiente altitud y velocidad (@fig-03-cap09-cizalladura).
 
 ![Reventón (](imagenes/03-cap09-cizalladura.jpg){#fig-03-cap09-cizalladura}
 

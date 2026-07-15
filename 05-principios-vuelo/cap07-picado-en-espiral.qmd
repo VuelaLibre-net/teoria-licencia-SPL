@@ -10,7 +10,7 @@ En una barrena, el planeador está en pérdida asimétrica, cae verticalmente gu
 
 Aplicar la técnica de recuperación de la barrena (pisar el pedal contrario a fondo) en un picado en espiral es un error gravísimo que puede sobrecargar la cola y el timón a esas altas velocidades.
 
-La herramienta de diagnóstico más rápida y fiable es el **anemómetro** ():
+La herramienta de diagnóstico más rápida y fiable es el **anemómetro** (@fig-05-cap07-espiral-vs-barrena):
 
 * **Velocidad alta o creciendo** → espiral descendente. El planeador vuela y acelera.
 * **Velocidad baja y constante, en torno a la de pérdida o incluso menos** → barrena. El ala está en pérdida y la velocidad no puede aumentar.

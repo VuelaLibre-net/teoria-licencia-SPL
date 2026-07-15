@@ -21,7 +21,7 @@ La capa límite es la fina lámina de aire en contacto directo con la piel del a
 * **Laminar:** el flujo se desliza en láminas paralelas y ordenadas. Genera la mínima fricción posible y es el objetivo principal del diseño de los planeadores modernos.
 * **Turbulenta:** el flujo se desordena en pequeños remolinos. El rozamiento aumenta mucho respecto al régimen laminar, la capa se engrosa y el planeo se resiente. Tiene, eso sí, una virtud: al llevar más energía, se aferra mejor al perfil y tarda más en desprenderse. Por eso muchos planeadores montan turbuladores (esa cinta en zigzag que habrás visto en algún Discus): fuerzan la transición a turbulenta justo donde conviene evitar que el flujo se separe.
 
-El punto de la cuerda donde el flujo laminar pasa a ser turbulento se llama **punto de transición** (). Para mantener la capa límite laminar sobre la mayor superficie posible, las alas deben estar completamente limpias; un simple mosquito aplastado en el borde de ataque basta para provocar una transición prematura a capa turbulenta. Si el ángulo de ataque aumenta en exceso, el flujo entra en fase de **separación**: se desprende del ala y provoca una caída masiva de sustentación con un gran aumento de resistencia (**stall** o pérdida).
+El punto de la cuerda donde el flujo laminar pasa a ser turbulento se llama **punto de transición** (@fig-05-cap01-capa-limite). Para mantener la capa límite laminar sobre la mayor superficie posible, las alas deben estar completamente limpias; un simple mosquito aplastado en el borde de ataque basta para provocar una transición prematura a capa turbulenta. Si el ángulo de ataque aumenta en exceso, el flujo entra en fase de **separación**: se desprende del ala y provoca una caída masiva de sustentación con un gran aumento de resistencia (**stall** o pérdida).
 
 ![Capa límite laminar y turbulenta sobre un perfil alar.](imagenes/05-cap01-capa-limite.jpg){#fig-05-cap01-capa-limite}
 
@@ -51,7 +51,7 @@ Todo lo que mantiene al planeador en el aire tiene su precio: la resistencia al 
   * Fricción superficial de las alas y fuselaje.
   * Resistencia de forma (perfil de las piezas).
   * Resistencia de interferencia (donde dos superficies ortogonales se unen, como el encastre del plano con el fuselaje).
-* **Resistencia inducida:** el subproducto directo de generar sustentación. La diferencia de presión entre extradós e intradós hace que el aire fluya en sentido contrario alrededor de las puntas del ala, desde la zona de alta presión (intradós) hacia la de baja presión (extradós). Ese rodeo genera **torbellinos helicoidales** que se desprenden de cada punta y que, al inclinar levemente hacia atrás el vector de sustentación resultante, crean una fuerza opositora al avance: la resistencia inducida (). Al contrario que la parásita, es máxima a velocidades bajas (y altos ángulos de ataque) y disminuye a medida que el planeador acelera.
+* **Resistencia inducida:** el subproducto directo de generar sustentación. La diferencia de presión entre extradós e intradós hace que el aire fluya en sentido contrario alrededor de las puntas del ala, desde la zona de alta presión (intradós) hacia la de baja presión (extradós). Ese rodeo genera **torbellinos helicoidales** que se desprenden de cada punta y que, al inclinar levemente hacia atrás el vector de sustentación resultante, crean una fuerza opositora al avance: la resistencia inducida (@fig-05-cap01-vortices-punta-ala). Al contrario que la parásita, es máxima a velocidades bajas (y altos ángulos de ataque) y disminuye a medida que el planeador acelera.
 
 ![Resistencia inducida por la producción de sustentación](imagenes/05-cap01-vortices-punta-ala.png){#fig-05-cap01-vortices-punta-ala}
 
@@ -63,7 +63,7 @@ La suma de ambas resistencias en función de la velocidad forma una curva en "U"
 
 Cuando el planeador vuela a muy baja altura sobre la pista —generalmente por debajo de una envergadura de ala sobre el terreno—, entra en una zona de influencia aerodinámica denominada **efecto suelo**. El terreno actúa como una barrera física que interrumpe la formación normal de los torbellinos de punta de ala y reduce la intensidad del flujo descendente que los alimenta (**downwash**).
 
-El resultado es una reducción significativa de la resistencia inducida que mejora transitoriamente la relación L/D del planeador ():
+El resultado es una reducción significativa de la resistencia inducida que mejora transitoriamente la relación L/D del planeador (@fig-05-cap01-efecto-suelo):
 
 * Durante el aterrizaje, el planeador "flota" más de lo esperado: al caer la resistencia inducida, apenas decelera y el ala sigue sustentando a velocidades algo inferiores a las que necesitaría en vuelo libre. Un piloto que entra largo o demasiado rápido puede consumir cientos de metros de pista sin posarse.
 * Durante el despegue en aeroplano remolcado, el planeador puede despegar a velocidades ligeramente más bajas de las normales. Una vez que abandona el efecto suelo, la resistencia inducida recupera su valor normal y puede producirse una ligera pérdida de ascenso si la velocidad no es suficiente.

@@ -29,7 +29,7 @@ Los plazos de presentación (AIP-España, ENR 1.10) dependen de qué pidas y des
 
 ## Casillas clave para planeadores
 
-Rellenar un formulario ICAO para un avión sin motor tiene sus peculiaridades ():
+Rellenar un formulario ICAO para un avión sin motor tiene sus peculiaridades (@fig-07-cap04-fpl-casillas):
 
 * **Casilla 8 (reglas de vuelo y tipo de vuelo)**: la casilla lleva dos datos. Primero las **reglas de vuelo**: **V** (VFR) —aunque vueles en competición, legalmente eres un vuelo visual—. Después el **tipo de vuelo**: para un planeador deportivo, **G** (aviación general). Así que en la casilla 8 va **V** y **G**.
 * **Casilla 9 (tipo de aeronave)**: pon **GLID** (**glider**).

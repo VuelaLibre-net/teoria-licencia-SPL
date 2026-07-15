@@ -43,7 +43,7 @@ Los plazos exactos de presentación del plan de vuelo están especificados en el
 
 ## Puntos de notificación visual
 
-El CTR (*Control Zone*) protege las llegadas y salidas IFR. No lo confundas con la ATZ (*Aerodrome Traffic Zone*), que es un espacio aéreo distinto y más pequeño. Para no meterte en medio del tráfico IFR, el vuelo VFR entra y sale del CTR por rutas y puntos fijos ().
+El CTR (*Control Zone*) protege las llegadas y salidas IFR. No lo confundas con la ATZ (*Aerodrome Traffic Zone*), que es un espacio aéreo distinto y más pequeño. Para no meterte en medio del tráfico IFR, el vuelo VFR entra y sale del CTR por rutas y puntos fijos (@fig-04-cap03-puntos-notificacion).
 
 Esos son los **puntos de notificación visual**: referencias físicas en el terreno —un pueblo, un cruce de autopista, un lago— por las que pasas y desde las que llamas a la Torre. Los encontrarás en la Carta de Aproximación Visual (VAC) del aeródromo, normalmente nombrados con letras fonéticas según su orientación geográfica: Noviembre para el norte, Sierra para el sur, Eco para el este.
 

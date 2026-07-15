@@ -14,7 +14,7 @@ Un aeródromo es mucho más que una pista. Es un sistema organizado para que avi
 
 ## El circuito de tránsito (Traffic Pattern)
 
-Para ordenar el tráfico, todos volamos un rectángulo imaginario alrededor de la pista. Los virajes se hacen a la **izquierda** salvo que se indique lo contrario (). En planeador, el tramo de viento en cola suele volarse a unos **200-300 metros AGL**, y lo ideal es incorporarse al circuito a 45º de ese tramo.
+Para ordenar el tráfico, todos volamos un rectángulo imaginario alrededor de la pista. Los virajes se hacen a la **izquierda** salvo que se indique lo contrario (@fig-01-cap10-circuito-transito). En planeador, el tramo de viento en cola suele volarse a unos **200-300 metros AGL**, y lo ideal es incorporarse al circuito a 45º de ese tramo.
 
 ### Fases clave para el planeador
 
@@ -28,7 +28,7 @@ Para ordenar el tráfico, todos volamos un rectángulo imaginario alrededor de l
 
 ![Manga de viento](imagenes/01-cap10-manga-viento.png){#fig-01-cap10-manga-viento}
 
-Si no tienes radio (o te falla), el suelo te habla. Las **señales luminosas** que la torre puede dirigirte con lámpara se estudian en el **Libro 4 — Comunicaciones**, capítulo 7 (fallo de comunicaciones); las del suelo las tienes aquí. En el **área de señales**, un cuadrado bordeado de blanco cerca de la torre o la pista, encontrarás símbolos vitales ():
+Si no tienes radio (o te falla), el suelo te habla. Las **señales luminosas** que la torre puede dirigirte con lámpara se estudian en el **Libro 4 — Comunicaciones**, capítulo 7 (fallo de comunicaciones); las del suelo las tienes aquí. En el **área de señales**, un cuadrado bordeado de blanco cerca de la torre o la pista, encontrarás símbolos vitales (@fig-01-cap10-area-senales):
 
 | Señal | Significado |
 | --- | --- |

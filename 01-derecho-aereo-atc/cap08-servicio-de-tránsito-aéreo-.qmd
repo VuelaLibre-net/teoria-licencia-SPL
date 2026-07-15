@@ -20,7 +20,7 @@ El servicio de primera división. Su misión principal es **separar** aeronaves.
 
 Lo prestan los controladores aéreos (ATCO), y de ellos recibes **autorizaciones** (instrucciones obligatorias) e información de tráfico. La responsabilidad de que no choques, bajo ciertas reglas, es del controlador.
 
-Se organiza en tres dependencias según la fase de vuelo ():
+Se organiza en tres dependencias según la fase de vuelo (@fig-01-cap08-dependencias-atc):
 
 1. **Torre** (TWR): controla el aeródromo y el circuito (despegues, aterrizajes, rodaje).
 2. **Aproximación** (APP): controla la entrada y salida de la zona del aeropuerto.
@@ -43,7 +43,7 @@ Aquí la responsabilidad es **tuya**. El FIS te avisa ("tráfico a las 12"), per
 
 ## 3. Servicio de ALERTA (ALRS)
 
-Tu seguro de vida. Se activa cuando hay una emergencia o se teme por la seguridad de una aeronave, y funciona en tres fases de preocupación creciente ():
+Tu seguro de vida. Se activa cuando hay una emergencia o se teme por la seguridad de una aeronave, y funciona en tres fases de preocupación creciente (@fig-01-cap08-fases-emergencia):
 
 1. **INCERFA (Fase de Incertidumbre)**: el "¿dónde estará?". Se empieza a recabar información. Se declara reglamentariamente ante cualquiera de estas tres situaciones:
   

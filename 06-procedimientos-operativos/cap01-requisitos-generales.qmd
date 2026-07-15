@@ -137,7 +137,7 @@ El movimiento del planeador sobre el terreno requiere de un protocolo de equipo 
 
 ### Inspección prevuelo detallada (**preflight walk-around check**)
 
-Antes del primer despegue del día, el piloto al mando debe realizar una inspección de 360 grados alrededor de la aeronave siguiendo un orden lógico y utilizando la lista de comprobación oficial de su AFM ():
+Antes del primer despegue del día, el piloto al mando debe realizar una inspección de 360 grados alrededor de la aeronave siguiendo un orden lógico y utilizando la lista de comprobación oficial de su AFM (@fig-06-cap01-inspeccion-prevuelo):
 
 ![Inspección prevuelo detallada en sentido horario](imagenes/06-cap01-prevuelo.jpg){#fig-06-cap01-inspeccion-prevuelo}
 

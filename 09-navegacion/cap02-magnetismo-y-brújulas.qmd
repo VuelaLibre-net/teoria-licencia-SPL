@@ -28,7 +28,7 @@ Para los cálculos, recuerda esta rima: **"Declinación Oeste, Rumbo Suma"** (si
 
 El planeador no es un entorno magnéticamente puro. Los tubos de acero del fuselaje, los altavoces de la radio y los instrumentos electrónicos generan sus propios campos magnéticos que "engañan" a la brújula. Este error local se llama **Desvío**.
 
-Para compensarlo, cada aeronave debe tener una **Tablilla de Desvíos** instalada a la vista del piloto ().
+Para compensarlo, cada aeronave debe tener una **Tablilla de Desvíos** instalada a la vista del piloto (@fig-09-cap02-tablilla-desvios).
 
 ![Ejemplo de Tablilla de Desvíos de una brújula](imagenes/09-cap02-tablilla-desvios.jpg){#fig-09-cap02-tablilla-desvios}
 

@@ -17,7 +17,7 @@ Para situarnos en cualquier parte del mundo, utilizamos una red imaginaria de l�
 * **Latitud (Paralelos)**: Son círculos paralelos al Ecuador que miden la distancia al norte o al sur. El Ecuador es la latitud 0º.
 * **Longitud (Meridianos)**: Son semicírculos que van de polo a polo. El Meridiano de Greenwich es la longitud 0º.
 
-Esta red de paralelos y meridianos () nos permite situar con precisión cualquier punto de la Tierra.
+Esta red de paralelos y meridianos (@fig-09-cap01-coordenadas) nos permite situar con precisión cualquier punto de la Tierra.
 
 ::: {.callout-tip}
 ✦ **REGLA DE ORO**

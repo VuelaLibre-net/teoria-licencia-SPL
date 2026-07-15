@@ -30,7 +30,7 @@ Esta regla tiene una consecuencia directa: las aeronaves deben detectarse a **mu
 ### Técnicas de escaneo visual
 
 * **Vigilancia activa:** dedica el 95 % del tiempo a mirar fuera de la cabina. Los instrumentos solo necesitan miradas breves y periódicas.
-* **Barrido sectorial:** divide el horizonte en sectores de 15-20° (). Mueve los ojos de sector en sector, deteniéndote brevemente en cada uno. La visión periférica detecta el movimiento, pero para resolver si es una aeronave necesitas mirar directamente.
+* **Barrido sectorial:** divide el horizonte en sectores de 15-20° (@fig-06-cap06-escaneo-visual). Mueve los ojos de sector en sector, deteniéndote brevemente en cada uno. La visión periférica detecta el movimiento, pero para resolver si es una aeronave necesitas mirar directamente.
 * **Antes de virar:** mira siempre hacia el lado del viraje y al sector contrario antes de inclinar el planeador.
 * **Puntos ciegos:** las alas, el fuselaje y el capó ocultan parte del cielo. Mueve ligeramente el morro o alabea suavemente para «limpiar» las zonas ciegas de forma periódica.
 
@@ -121,7 +121,7 @@ Mantén el **alerón completamente hacia el lado del viento** al inicio de la ca
 
 ### Aterrizaje con viento cruzado
 
-En final, utiliza la técnica del **«cangrejo»**: apunta el morro hacia el viento para compensar la deriva y mantener la trayectoria sobre tierra alineada con la pista. Justo antes de tocar tierra, usa el pedal para alinear el morro con la pista y el alerón para bajar el ala que recibe el viento, asegurando que la rueda principal toca sin deriva lateral (). Una toma con deriva lateral significativa puede romper el tren de aterrizaje o provocar un derrape que lleve el planeador fuera de la pista.
+En final, utiliza la técnica del **«cangrejo»**: apunta el morro hacia el viento para compensar la deriva y mantener la trayectoria sobre tierra alineada con la pista. Justo antes de tocar tierra, usa el pedal para alinear el morro con la pista y el alerón para bajar el ala que recibe el viento, asegurando que la rueda principal toca sin deriva lateral (@fig-06-cap06-viento-cruzado). Una toma con deriva lateral significativa puede romper el tren de aterrizaje o provocar un derrape que lleve el planeador fuera de la pista.
 
 ![Aterrizaje con viento cruzado: «cangrejo» en final y alineación antes de la toma](imagenes/06-cap06-viento-cruzado.png){#fig-06-cap06-viento-cruzado}
 

@@ -20,7 +20,7 @@ Es la zona donde solemos movernos los planeadores, y los mínimos dependen del e
 * **Espacio aéreo controlado (Clases B, C, D, E)**: visibilidad de 5 km y distancia a nubes de 1.500 m en horizontal y 1.000 ft en vertical.
 * **Espacio aéreo no controlado (Clases F, G)**: visibilidad de 5 km, libre de nubes y a la vista de la superficie.
 
-Hay una excepción interesante en espacio no controlado: si vuelas a menos de 140 kt (como un planeador), la normativa permite reducir la visibilidad mínima a **1.500 m**, siempre que tu velocidad te deje ver otros tráficos u obstáculos con tiempo de sobra para evitar la colisión ().
+Hay una excepción interesante en espacio no controlado: si vuelas a menos de 140 kt (como un planeador), la normativa permite reducir la visibilidad mínima a **1.500 m**, siempre que tu velocidad te deje ver otros tráficos u obstáculos con tiempo de sobra para evitar la colisión (@fig-01-cap06-vmc-minima).
 
 ### Por encima de 3.000 ft AMSL (hasta FL 100)
 
@@ -35,7 +35,7 @@ Para evitar encuentros frontales en ruta, cada uno vuela a una altitud según su
 * **Derrotas hacia el norte (270° a 089°)**: altitudes o niveles **pares** + 500 ft (4.500 ft, 6.500 ft, FL 45, FL 65…​).
 * **Derrotas hacia el sur (090° a 269°)**: altitudes o niveles **impares** + 500 ft (3.500 ft, 5.500 ft, FL 35, FL 55…​).
 
-()
+(@fig-01-cap06-semicircular)
 
 ::: {.callout-tip}
 ✦ **REGLA DE ORO**
