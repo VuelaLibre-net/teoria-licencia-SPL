@@ -1,14 +1,16 @@
 # Estructura, motores y hélices
 
-El motor le ha dado al vuelo sin motor una red de seguridad contra el aterrizaje fuera de campo, y a cambio le ha sumado nuevos modos de fallo que el piloto tiene que dominar.
-
-En este capítulo aprenderás:
-
-* **Las configuraciones motorizadas**: sustentador (**turbo**), autolanzable y motovelero de turismo (TMG).
-* **Los tipos de motor**: dos tiempos, cuatro tiempos y eléctricos (FES).
-* **Los sistemas del motor de combustión**: encendido por magnetos, carburación y engelamiento, y combustible.
-* **El mástil retráctil y las hélices** plegables o posicionables, y el paso de pala.
-* **La gestión del motor en vuelo**: secuencia de arranque, alturas de decisión e instrumentación.
+> El motor le ha dado al vuelo sin motor una red de seguridad contra el aterrizaje fuera de campo, y a cambio le ha sumado nuevos modos de fallo que el piloto tiene que dominar.
+>
+>
+> En este capítulo aprenderás:
+>
+>
+> * **Las configuraciones motorizadas**: sustentador (**turbo**), autolanzable y motovelero de turismo (TMG).
+> * **Los tipos de motor**: dos tiempos, cuatro tiempos y eléctricos (FES).
+> * **Los sistemas del motor de combustión**: encendido por magnetos, carburación y engelamiento, y combustible.
+> * **El mástil retráctil y las hélices** plegables o posicionables, y el paso de pala.
+> * **La gestión del motor en vuelo**: secuencia de arranque, alturas de decisión e instrumentación.
 
 El motor ha cambiado el vuelo sin motor: ha roto la dependencia absoluta de los medios de lanzamiento externos y ha aportado una red de seguridad frente a las tomas fuera de campo. A cambio, añade complejidad mecánica y nuevas responsabilidades al piloto.
 

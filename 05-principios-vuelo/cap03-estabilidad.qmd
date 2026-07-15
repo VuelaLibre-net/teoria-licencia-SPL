@@ -1,6 +1,6 @@
 # Estabilidad
 
-Un planeador bien diseñado quiere volver al equilibrio cuando algo lo perturba. En este capítulo aprenderás qué hace que un planeador sea estable longitudinal, lateral y direccionalmente, por qué la posición del Centro de Gravedad es el parámetro más crítico que debes verificar antes de cada vuelo, y cómo el ángulo diedro y la deriva trabajan juntos para mantenerte nivelado y alineado sin esfuerzo.
+> Un planeador bien diseñado quiere volver al equilibrio cuando algo lo perturba. En este capítulo aprenderás qué hace que un planeador sea estable longitudinal, lateral y direccionalmente, por qué la posición del Centro de Gravedad es el parámetro más crítico que debes verificar antes de cada vuelo, y cómo el ángulo diedro y la deriva trabajan juntos para mantenerte nivelado y alineado sin esfuerzo.
 
 ## La estabilidad estática
 

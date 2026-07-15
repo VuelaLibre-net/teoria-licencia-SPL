@@ -1,9 +1,9 @@
 # Sistemas de presión
 
-Los anticiclones y las borrascas son los protagonistas del mapa sinóptico: determinan si
-tendrás viento, nubes, niebla o el cielo azul perfecto. En este capítulo aprenderás a
-interpretar la posición de los centros de presión, a anticipar las condiciones de vuelo
-con 24-48 horas de antelación y a reconocer las trampas del collado barométrico.
+> Los anticiclones y las borrascas son los protagonistas del mapa sinóptico: determinan si
+> tendrás viento, nubes, niebla o el cielo azul perfecto. En este capítulo aprenderás a
+> interpretar la posición de los centros de presión, a anticipar las condiciones de vuelo
+> con 24-48 horas de antelación y a reconocer las trampas del collado barométrico.
 
 ## Anticiclones (H)
 

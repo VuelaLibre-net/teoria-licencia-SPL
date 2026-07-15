@@ -1,13 +1,15 @@
 # Cartas aeronáuticas
 
-Una carta aeronáutica no es un simple mapa; es un instrumento de vuelo que debemos aprender a leer con la misma fluidez que el variómetro. En España, nuestra referencia fundamental es la serie de cartas VFR 1:500.000 publicadas por ENAIRE.
-
-En este capítulo aprenderás:
-
-* **La proyección Lambert**: por qué la cartografía aeronáutica la eligió y qué ventajas tiene para volar.
-* **La escala 1:500.000**: cómo traducir los centímetros del papel a kilómetros y millas del terreno.
-* **La simbología**: espacios aéreos, zonas P/R/D, obstáculos y la diferencia entre AMSL y AGL.
-* **El relieve y la Altitud Mínima de Área (AMA)**: la red de seguridad que te da la carta sobre el terreno.
+> Una carta aeronáutica no es un simple mapa; es un instrumento de vuelo que debemos aprender a leer con la misma fluidez que el variómetro. En España, nuestra referencia fundamental es la serie de cartas VFR 1:500.000 publicadas por ENAIRE.
+>
+>
+> En este capítulo aprenderás:
+>
+>
+> * **La proyección Lambert**: por qué la cartografía aeronáutica la eligió y qué ventajas tiene para volar.
+> * **La escala 1:500.000**: cómo traducir los centímetros del papel a kilómetros y millas del terreno.
+> * **La simbología**: espacios aéreos, zonas P/R/D, obstáculos y la diferencia entre AMSL y AGL.
+> * **El relieve y la Altitud Mínima de Área (AMA)**: la red de seguridad que te da la carta sobre el terreno.
 
 ## La Proyección Conforme de Lambert
 

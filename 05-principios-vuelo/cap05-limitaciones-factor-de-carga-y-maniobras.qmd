@@ -1,10 +1,10 @@
 # Limitaciones (factor de carga y maniobras)
 
-Todo planeador tiene límites estructurales que no deben franquearse: hacerlo puede
-destruir la aeronave en segundos. En este capítulo aprenderás a interpretar el diagrama
-V-n, a entender por qué la Velocidad de Maniobra protege la estructura en turbulencia,
-qué significa la línea roja del anemómetro y por qué el factor de carga eleva la
-velocidad de pérdida en los virajes.
+> Todo planeador tiene límites estructurales que no deben franquearse: hacerlo puede
+> destruir la aeronave en segundos. En este capítulo aprenderás a interpretar el diagrama
+> V-n, a entender por qué la Velocidad de Maniobra protege la estructura en turbulencia,
+> qué significa la línea roja del anemómetro y por qué el factor de carga eleva la
+> velocidad de pérdida en los virajes.
 
 ## El diagrama V-n: el mapa de tu supervivencia
 

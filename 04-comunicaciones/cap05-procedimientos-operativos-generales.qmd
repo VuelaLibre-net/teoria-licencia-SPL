@@ -1,6 +1,6 @@
 # Procedimientos operativos generales
 
-Aquí están los procedimientos que usarás en cada vuelo: cómo estructurar una llamada, cuándo pedir una prueba de radio, cómo hacer un reporte de posición, qué hacer cuando dos aeronaves transmiten a la vez, el PTT atascado, la prioridad de los mensajes de emergencia, cómo usar bien el micrófono y qué tipos de radio existen.
+> Aquí están los procedimientos que usarás en cada vuelo: cómo estructurar una llamada, cuándo pedir una prueba de radio, cómo hacer un reporte de posición, qué hacer cuando dos aeronaves transmiten a la vez, el PTT atascado, la prioridad de los mensajes de emergencia, cómo usar bien el micrófono y qué tipos de radio existen.
 
 ## Esquema de las comunicaciones
 

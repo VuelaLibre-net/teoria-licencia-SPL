@@ -1,16 +1,18 @@
 # Procedimientos operativos especiales y peligros
 
-El vuelo de planeador se desarrolla en un entorno compartido con otras aeronaves, con fauna aérea, con fenómenos meteorológicos que pueden aparecer en minutos y con una orografía que puede ser tan aliada como adversaria. Conocer los procedimientos específicos para cada uno de estos escenarios —y entender por qué están diseñados así— es lo que separa al piloto reactivo del piloto preventivo.
-
-En este capítulo aprenderás:
-
-* **Vigilancia exterior y colisiones**: la regla de los 3 segundos y las técnicas de escaneo visual.
-* **FLARM**: cómo funciona, qué detecta y, sobre todo, qué no detecta.
-* **Peligros de la fauna**: cómo coexistir con las aves sin asumir riesgos innecesarios.
-* **Estelas turbulentas y engelamiento**: dos amenazas silenciosas en vuelo.
-* **Viento cruzado**: técnica de despegue y aterrizaje en condiciones exigentes.
-* **Riesgos en montaña**: horizonte falso, reglas de preferencia y la prohibición absoluta de virar hacia la ladera.
-* **Amerizaje (**ditching**)**: qué hacer si el agua es inevitable.
+> El vuelo de planeador se desarrolla en un entorno compartido con otras aeronaves, con fauna aérea, con fenómenos meteorológicos que pueden aparecer en minutos y con una orografía que puede ser tan aliada como adversaria. Conocer los procedimientos específicos para cada uno de estos escenarios —y entender por qué están diseñados así— es lo que separa al piloto reactivo del piloto preventivo.
+>
+>
+> En este capítulo aprenderás:
+>
+>
+> * **Vigilancia exterior y colisiones**: la regla de los 3 segundos y las técnicas de escaneo visual.
+> * **FLARM**: cómo funciona, qué detecta y, sobre todo, qué no detecta.
+> * **Peligros de la fauna**: cómo coexistir con las aves sin asumir riesgos innecesarios.
+> * **Estelas turbulentas y engelamiento**: dos amenazas silenciosas en vuelo.
+> * **Viento cruzado**: técnica de despegue y aterrizaje en condiciones exigentes.
+> * **Riesgos en montaña**: horizonte falso, reglas de preferencia y la prohibición absoluta de virar hacia la ladera.
+> * **Amerizaje (**ditching**)**: qué hacer si el agua es inevitable.
 
 ## Vigilancia exterior y colisiones
 

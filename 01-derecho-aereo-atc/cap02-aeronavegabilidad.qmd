@@ -1,12 +1,14 @@
 # Aeronavegabilidad
 
-Un planeador sano es un planeador seguro; aprende a verificar la "salud técnica" de tu aeronave antes de cada vuelo.
-
-En este capítulo aprenderás:
-
-* La diferencia entre el Certificado de Aeronavegabilidad (**Certificate of Airworthiness**, CofA) y el Certificado de Revisión de Aeronavegabilidad (ARC, **Airworthiness Review Certificate**), y qué exige la ley para volar con ellos en regla.
-* El marco de mantenimiento de la aviación ligera (Part-ML) desde su cara jurídica —el detalle técnico se ve en el Libro 8—.
-* Lo que te toca a ti: inspección pre-vuelo, verificación de documentos y reporte de defectos.
+> Un planeador sano es un planeador seguro; aprende a verificar la "salud técnica" de tu aeronave antes de cada vuelo.
+>
+>
+> En este capítulo aprenderás:
+>
+>
+> * La diferencia entre el Certificado de Aeronavegabilidad (**Certificate of Airworthiness**, CofA) y el Certificado de Revisión de Aeronavegabilidad (ARC, **Airworthiness Review Certificate**), y qué exige la ley para volar con ellos en regla.
+> * El marco de mantenimiento de la aviación ligera (Part-ML) desde su cara jurídica —el detalle técnico se ve en el Libro 8—.
+> * Lo que te toca a ti: inspección pre-vuelo, verificación de documentos y reporte de defectos.
 
 ## Concepto de aeronavegabilidad
 

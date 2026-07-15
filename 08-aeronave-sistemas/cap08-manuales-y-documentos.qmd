@@ -1,13 +1,15 @@
 # Manuales y documentos
 
-Un planeador legalmente impecable importa tanto como uno mecánicamente impecable: sin los papeles en regla, ni el seguro ni el certificado de aeronavegabilidad te cubren.
-
-En este capítulo aprenderás:
-
-* **El Manual de Vuelo (AFM)**: qué contiene y por qué es el documento maestro.
-* **La documentación a bordo y en el aeródromo** según SAO.GEN.155, y la excepción para vuelos locales.
-* **Las listas de chequeo**: CB-SIFT-CBE y la disciplina de leer, comprobar y confirmar.
-* **El diario de la aeronave**: la historia clínica del planeador.
+> Un planeador legalmente impecable importa tanto como uno mecánicamente impecable: sin los papeles en regla, ni el seguro ni el certificado de aeronavegabilidad te cubren.
+>
+>
+> En este capítulo aprenderás:
+>
+>
+> * **El Manual de Vuelo (AFM)**: qué contiene y por qué es el documento maestro.
+> * **La documentación a bordo y en el aeródromo** según SAO.GEN.155, y la excepción para vuelos locales.
+> * **Las listas de chequeo**: CB-SIFT-CBE y la disciplina de leer, comprobar y confirmar.
+> * **El diario de la aeronave**: la historia clínica del planeador.
 
 Volar no es solo pilotar: también es gestionar la parte legal y la información técnica de la aeronave. El piloto que no conoce las limitaciones de su máquina, o que vuela sin los papeles en regla, se expone a riesgos operativos y a sanciones.
 

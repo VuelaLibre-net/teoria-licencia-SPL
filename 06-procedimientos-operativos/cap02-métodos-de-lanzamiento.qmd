@@ -1,12 +1,14 @@
 # Métodos de lanzamiento
 
-El lanzamiento es la fase de mayor energía del vuelo de planeador y, junto con el aterrizaje, la de mayor riesgo estadístico. En cuestión de segundos, el piloto pasa de estar parado en tierra a volar a velocidades considerables, dependiendo de un cable o de un avión remolcador. No hay margen para la improvisación: los procedimientos son exactos, la comunicación es precisa y las reacciones de emergencia deben ser instintivas.
-
-En este capítulo aprenderás:
-
-* **El lanzamiento por torno**: dinámica, fraseología y procedimiento de emergencia ante rotura de cable.
-* **El remolque por avión (**aerotow**)**: posiciones en remolque, señales visuales y cómo actuar si no puedes soltar.
-* **Las reglas generales de seguridad**: ganchos, velocidades y comprobaciones previas al enganche.
+> El lanzamiento es la fase de mayor energía del vuelo de planeador y, junto con el aterrizaje, la de mayor riesgo estadístico. En cuestión de segundos, el piloto pasa de estar parado en tierra a volar a velocidades considerables, dependiendo de un cable o de un avión remolcador. No hay margen para la improvisación: los procedimientos son exactos, la comunicación es precisa y las reacciones de emergencia deben ser instintivas.
+>
+>
+> En este capítulo aprenderás:
+>
+>
+> * **El lanzamiento por torno**: dinámica, fraseología y procedimiento de emergencia ante rotura de cable.
+> * **El remolque por avión (**aerotow**)**: posiciones en remolque, señales visuales y cómo actuar si no puedes soltar.
+> * **Las reglas generales de seguridad**: ganchos, velocidades y comprobaciones previas al enganche.
 
 ## El lanzamiento por torno (*winch*)
 

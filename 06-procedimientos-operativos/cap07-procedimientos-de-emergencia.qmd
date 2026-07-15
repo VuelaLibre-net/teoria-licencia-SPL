@@ -1,13 +1,15 @@
 # Procedimientos de emergencia
 
-Las emergencias en vuelo no se gestionan con improvisación: se gestionan con entrenamiento. La diferencia entre una emergencia que termina con el planeador en tierra y los tripulantes ilesos, y una que termina en accidente, suele medirse en uno o dos segundos de reacción y en si el procedimiento correcto estaba automatizado o no. Este capítulo describe las emergencias más frecuentes en el vuelo sin motor y el procedimiento exacto para cada una.
-
-En este capítulo aprenderás:
-
-* **Emergencias en el lanzamiento**: cómo actuar ante una rotura de cable, un fallo de remolque o una suelta atascada (**towhook jam**).
-* **Fuego a bordo**: procedimiento en planeadores motorizados y gestión de la evacuación de humos.
-* **Fallos estructurales y de mandos**: qué hacer cuando un mando no responde, ante vibraciones anormales o desequilibrios de lastre.
-* **Fallo de instrumentos y sistemas**: cómo responder a la obstrucción de tomas de presión y a la apertura accidental de la cúpula en vuelo.
+> Las emergencias en vuelo no se gestionan con improvisación: se gestionan con entrenamiento. La diferencia entre una emergencia que termina con el planeador en tierra y los tripulantes ilesos, y una que termina en accidente, suele medirse en uno o dos segundos de reacción y en si el procedimiento correcto estaba automatizado o no. Este capítulo describe las emergencias más frecuentes en el vuelo sin motor y el procedimiento exacto para cada una.
+>
+>
+> En este capítulo aprenderás:
+>
+>
+> * **Emergencias en el lanzamiento**: cómo actuar ante una rotura de cable, un fallo de remolque o una suelta atascada (**towhook jam**).
+> * **Fuego a bordo**: procedimiento en planeadores motorizados y gestión de la evacuación de humos.
+> * **Fallos estructurales y de mandos**: qué hacer cuando un mando no responde, ante vibraciones anormales o desequilibrios de lastre.
+> * **Fallo de instrumentos y sistemas**: cómo responder a la obstrucción de tomas de presión y a la apertura accidental de la cúpula en vuelo.
 
 ## Emergencias en el lanzamiento
 

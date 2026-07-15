@@ -1,13 +1,15 @@
 # Magnetismo y brújulas
 
-La brújula magnética es probablemente el instrumento más sencillo y fiable de la cabina. No gasta batería ni depende del tubo pitot: se limita a alinearse con el campo magnético terrestre. Eso sí, para sacarle partido hay que conocer sus manías.
-
-En este capítulo aprenderás:
-
-* **El norte verdadero y el magnético**: la variación (declinación) y la regla "Declinación Oeste, rumbo suma".
-* **El desvío y la tablilla**: por qué el propio planeador engaña a la brújula y cómo se compensa.
-* **Los errores de viraje**: por qué la brújula se adelanta o se retrasa al virar hacia el Norte o el Sur.
-* **Los errores de aceleración (ANDS)**: las lecturas falsas al acelerar o frenar en rumbos Este-Oeste.
+> La brújula magnética es probablemente el instrumento más sencillo y fiable de la cabina. No gasta batería ni depende del tubo pitot: se limita a alinearse con el campo magnético terrestre. Eso sí, para sacarle partido hay que conocer sus manías.
+>
+>
+> En este capítulo aprenderás:
+>
+>
+> * **El norte verdadero y el magnético**: la variación (declinación) y la regla "Declinación Oeste, rumbo suma".
+> * **El desvío y la tablilla**: por qué el propio planeador engaña a la brújula y cómo se compensa.
+> * **Los errores de viraje**: por qué la brújula se adelanta o se retrasa al virar hacia el Norte o el Sur.
+> * **Los errores de aceleración (ANDS)**: las lecturas falsas al acelerar o frenar en rumbos Este-Oeste.
 
 ## Norte Verdadero vs. Norte Magnético
 

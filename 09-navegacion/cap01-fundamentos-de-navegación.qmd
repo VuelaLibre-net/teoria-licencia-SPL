@@ -1,14 +1,16 @@
 # Fundamentos de navegación
 
-Navegar es, en esencia, llevar el planeador de un punto a otro con seguridad y sin malgastar energía. Para eso hacen falta dos cosas: entender cómo nos movemos sobre la esfera terrestre y saber medir nuestra posición y el tiempo.
-
-En este capítulo aprenderás:
-
-* **El sistema de coordenadas**: latitud y longitud, y por qué un minuto de latitud es siempre una milla náutica.
-* **Ortodrómica y loxodrómica**: la ruta más corta frente a la de rumbo constante, y cuál vuelas en realidad.
-* **El tiempo en aviación**: qué es UTC (hora Zulu) y por qué toda la aviación trabaja con él.
-* **Orto, ocaso y vuelo diurno**: dónde está el límite legal de la luz para un planeador.
-* **Las unidades náuticas**: la milla náutica y el nudo, y cómo pensar en ellas de cabeza.
+> Navegar es, en esencia, llevar el planeador de un punto a otro con seguridad y sin malgastar energía. Para eso hacen falta dos cosas: entender cómo nos movemos sobre la esfera terrestre y saber medir nuestra posición y el tiempo.
+>
+>
+> En este capítulo aprenderás:
+>
+>
+> * **El sistema de coordenadas**: latitud y longitud, y por qué un minuto de latitud es siempre una milla náutica.
+> * **Ortodrómica y loxodrómica**: la ruta más corta frente a la de rumbo constante, y cuál vuelas en realidad.
+> * **El tiempo en aviación**: qué es UTC (hora Zulu) y por qué toda la aviación trabaja con él.
+> * **Orto, ocaso y vuelo diurno**: dónde está el límite legal de la luz para un planeador.
+> * **Las unidades náuticas**: la milla náutica y el nudo, y cómo pensar en ellas de cabeza.
 
 ## El sistema de coordenadas: Latitud y Longitud
 

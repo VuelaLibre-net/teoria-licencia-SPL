@@ -1,12 +1,14 @@
 # Búsqueda y salvamento
 
-Cuando todo lo demás falla, el Sistema de Búsqueda y Salvamento es tu última línea de defensa; permite que te encuentren.
-
-En este capítulo aprenderás:
-
-* Quién coordina el rescate en España (los RCC).
-* Las fases de emergencia: INCERFA (duda), ALERFA (preocupación) y DETRESFA (peligro inminente).
-* El código visual de supervivencia (V, X, N, Y) para comunicarte sin radio.
+> Cuando todo lo demás falla, el Sistema de Búsqueda y Salvamento es tu última línea de defensa; permite que te encuentren.
+>
+>
+> En este capítulo aprenderás:
+>
+>
+> * Quién coordina el rescate en España (los RCC).
+> * Las fases de emergencia: INCERFA (duda), ALERFA (preocupación) y DETRESFA (peligro inminente).
+> * El código visual de supervivencia (V, X, N, Y) para comunicarte sin radio.
 
 ## Cuando todo falla: el sistema SAR
 

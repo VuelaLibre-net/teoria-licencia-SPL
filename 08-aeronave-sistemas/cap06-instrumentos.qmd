@@ -1,14 +1,16 @@
 # Instrumentos
 
-El panel de un planeador es austero: tres instrumentos de presión, una radio y poco más. Por eso mismo, entender qué mide cada uno y cómo falla es imprescindible.
-
-En este capítulo aprenderás:
-
-* **El sistema pitot-estática**: las tomas de presión que alimentan los instrumentos básicos.
-* **El trío básico**: anemómetro (y sus arcos de colores), altímetro y variómetro.
-* **El equipamiento mínimo exigido**: qué instrumentos obliga a llevar la norma según el tipo de vuelo.
-* **El variómetro de energía total**: por qué ignora los "palancazos" y solo marca el aire que sube.
-* **La aviónica de seguridad**: radio VHF, transpondedor y FLARM.
+> El panel de un planeador es austero: tres instrumentos de presión, una radio y poco más. Por eso mismo, entender qué mide cada uno y cómo falla es imprescindible.
+>
+>
+> En este capítulo aprenderás:
+>
+>
+> * **El sistema pitot-estática**: las tomas de presión que alimentan los instrumentos básicos.
+> * **El trío básico**: anemómetro (y sus arcos de colores), altímetro y variómetro.
+> * **El equipamiento mínimo exigido**: qué instrumentos obliga a llevar la norma según el tipo de vuelo.
+> * **El variómetro de energía total**: por qué ignora los "palancazos" y solo marca el aire que sube.
+> * **La aviónica de seguridad**: radio VHF, transpondedor y FLARM.
 
 Los instrumentos son los "sentidos" del piloto. Buena parte del vuelo sin motor se basa en la percepción (el ruido del aire, la posición del morro, la presión en el asiento), pero los instrumentos aportan la precisión que hace falta para exprimir el rendimiento y volar seguro.
 

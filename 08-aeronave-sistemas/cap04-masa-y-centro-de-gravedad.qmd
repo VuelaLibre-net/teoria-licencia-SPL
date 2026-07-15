@@ -1,13 +1,15 @@
 # Masa y centro de gravedad
 
-El planeador que despega sobrecargado o mal centrado ya lleva el accidente a bordo. Este capítulo trata la masa y el centrado desde el punto de vista de los sistemas del avión: dónde va el lastre, qué dice la placa de limitaciones y cuándo hay que volver a pesar la aeronave.
-
-En este capítulo aprenderás:
-
-* **La masa máxima al despegue (MTOW)** y la diferencia con la masa máxima sin agua.
-* **Los límites del centro de gravedad**: qué ocurre con un CG demasiado adelantado o, peor, demasiado retrasado.
-* **La gestión del lastre**: plomos de morro, depósito de cola y los límites del maletero.
-* **El pesaje de la aeronave**: cuándo se repite y dónde se documenta.
+> El planeador que despega sobrecargado o mal centrado ya lleva el accidente a bordo. Este capítulo trata la masa y el centrado desde el punto de vista de los sistemas del avión: dónde va el lastre, qué dice la placa de limitaciones y cuándo hay que volver a pesar la aeronave.
+>
+>
+> En este capítulo aprenderás:
+>
+>
+> * **La masa máxima al despegue (MTOW)** y la diferencia con la masa máxima sin agua.
+> * **Los límites del centro de gravedad**: qué ocurre con un CG demasiado adelantado o, peor, demasiado retrasado.
+> * **La gestión del lastre**: plomos de morro, depósito de cola y los límites del maletero.
+> * **El pesaje de la aeronave**: cuándo se repite y dónde se documenta.
 
 Volar dentro de los límites de peso y equilibrio no es opcional: es un requisito legal y de seguridad. En un coche, la carga solo afecta al consumo. En un planeador decide si la aeronave es estable y controlable o si se convierte en una trampa el día que entres en pérdida.
 

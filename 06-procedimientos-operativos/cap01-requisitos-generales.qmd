@@ -1,14 +1,16 @@
 # Requisitos generales
 
-Antes de despegar, el piloto de planeador debe cumplir con un conjunto de requisitos legales y de seguridad que no son mera burocracia: son la primera línea de defensa frente al accidente. Conocer exactamente qué documentos deben ir a bordo, cuáles son las responsabilidades del Piloto al Mando y cuándo tienes derecho a llevar pasajeros te protege a ti, a los demás y a tu licencia.
-
-En este capítulo aprenderás:
-
-* **La documentación obligatoria**: qué debe ir en la cabina y qué puede quedarse en el aeródromo.
-* **Los documentos de la aeronave (SAO.GEN.155)**: qué debe estar en regla antes de cada vuelo.
-* **Las responsabilidades del PIC**: desde la inspección prevuelo hasta la decisión final de no volar.
-* **El chequeo IMSAFE**: la herramienta de autoevaluación que puede salvarte la vida.
-* **Los requisitos para llevar pasajeros**: experiencia, recencia y verificación.
+> Antes de despegar, el piloto de planeador debe cumplir con un conjunto de requisitos legales y de seguridad que no son mera burocracia: son la primera línea de defensa frente al accidente. Conocer exactamente qué documentos deben ir a bordo, cuáles son las responsabilidades del Piloto al Mando y cuándo tienes derecho a llevar pasajeros te protege a ti, a los demás y a tu licencia.
+>
+>
+> En este capítulo aprenderás:
+>
+>
+> * **La documentación obligatoria**: qué debe ir en la cabina y qué puede quedarse en el aeródromo.
+> * **Los documentos de la aeronave (SAO.GEN.155)**: qué debe estar en regla antes de cada vuelo.
+> * **Las responsabilidades del PIC**: desde la inspección prevuelo hasta la decisión final de no volar.
+> * **El chequeo IMSAFE**: la herramienta de autoevaluación que puede salvarte la vida.
+> * **Los requisitos para llevar pasajeros**: experiencia, recencia y verificación.
 
 ## Documentación obligatoria
 

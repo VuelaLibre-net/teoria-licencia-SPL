@@ -1,6 +1,6 @@
 # Acciones ante fallo de comunicaciones
 
-Quedarse sin radio en vuelo —situación NORDO— tiene un protocolo concreto. Aquí verás qué hacer con el transpondedor, cómo gestionar el vuelo hasta tierra, qué significan las señales de luces de la Torre y cómo transmitir cuando solo falla el receptor.
+> Quedarse sin radio en vuelo —situación NORDO— tiene un protocolo concreto. Aquí verás qué hacer con el transpondedor, cómo gestionar el vuelo hasta tierra, qué significan las señales de luces de la Torre y cómo transmitir cuando solo falla el receptor.
 
 ## El código 7600: señal de fallo de radio
 

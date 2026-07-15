@@ -1,6 +1,6 @@
 # Principios generales de propagación VHF y asignación de frecuencias
 
-La radio VHF funciona como una linterna: ilumina en línea recta y la montaña te deja a oscuras. En este capítulo verás por qué la altitud es tu mejor aliada para el alcance, qué cambió con el espaciado a 8,33 kHz, cómo ajustar bien el **squelch**, qué hacer cuando una sierra te bloquea la señal, y qué frecuencias necesitas conocer de memoria. También cuándo es obligatorio el transpondedor y qué significan los códigos **squawk**.
+> La radio VHF funciona como una linterna: ilumina en línea recta y la montaña te deja a oscuras. En este capítulo verás por qué la altitud es tu mejor aliada para el alcance, qué cambió con el espaciado a 8,33 kHz, cómo ajustar bien el **squelch**, qué hacer cuando una sierra te bloquea la señal, y qué frecuencias necesitas conocer de memoria. También cuándo es obligatorio el transpondedor y qué significan los códigos **squawk**.
 
 ## Alcance visual: la línea recta de las ondas VHF
 

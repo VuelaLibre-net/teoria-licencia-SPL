@@ -1,9 +1,9 @@
 # Precipitación
 
-La precipitación —lluvia, granizo, lluvia engelante o virga— no es solo un inconveniente:
-puede convertirse en una emergencia en pocos minutos. En este capítulo aprenderás cómo
-cada tipo de precipitación afecta al planeador aerodinámicamente, cuáles son los más
-peligrosos y qué decisiones debes tomar ante los primeros síntomas para mantenerte seguro.
+> La precipitación —lluvia, granizo, lluvia engelante o virga— no es solo un inconveniente:
+> puede convertirse en una emergencia en pocos minutos. En este capítulo aprenderás cómo
+> cada tipo de precipitación afecta al planeador aerodinámicamente, cuáles son los más
+> peligrosos y qué decisiones debes tomar ante los primeros síntomas para mantenerte seguro.
 
 ## La lluvia y la degradación aerodinámica
 

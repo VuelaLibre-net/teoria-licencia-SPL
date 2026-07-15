@@ -1,14 +1,16 @@
 # Técnicas de planeo
 
-El vuelo de planeador es, en esencia, una conversación permanente con la atmósfera. El piloto que aprende a escuchar el aire —las variaciones del variómetro, el comportamiento del planeador en distintas masas de aire, los indicios sutiles que anuncian una térmica— desarrolla una capacidad que trasciende la técnica y se convierte en instinto. Esta sección recorre las tres grandes familias de sustentación dinámica: térmica, ladera y onda, junto con la gestión del lastre de agua para condiciones específicas.
-
-En este capítulo aprenderás:
-
-* **Centrado de térmicas**: cómo detectar el núcleo y cómo desplazar el viraje hacia él.
-* **El anillo MacCready**: qué es y cómo te dice exactamente a qué velocidad volar entre térmicas.
-* **Vuelo de ladera (**ridge soaring**)**: técnica, reglas de tráfico y márgenes de seguridad.
-* **Vuelo de onda (**wave soaring**)**: identificación, condiciones ideales y riesgos del rotor.
-* **Lastre de agua**: cuándo usarlo, cuándo vaciarlo y qué cambia en la aerodinámica del planeador.
+> El vuelo de planeador es, en esencia, una conversación permanente con la atmósfera. El piloto que aprende a escuchar el aire —las variaciones del variómetro, el comportamiento del planeador en distintas masas de aire, los indicios sutiles que anuncian una térmica— desarrolla una capacidad que trasciende la técnica y se convierte en instinto. Esta sección recorre las tres grandes familias de sustentación dinámica: térmica, ladera y onda, junto con la gestión del lastre de agua para condiciones específicas.
+>
+>
+> En este capítulo aprenderás:
+>
+>
+> * **Centrado de térmicas**: cómo detectar el núcleo y cómo desplazar el viraje hacia él.
+> * **El anillo MacCready**: qué es y cómo te dice exactamente a qué velocidad volar entre térmicas.
+> * **Vuelo de ladera (**ridge soaring**)**: técnica, reglas de tráfico y márgenes de seguridad.
+> * **Vuelo de onda (**wave soaring**)**: identificación, condiciones ideales y riesgos del rotor.
+> * **Lastre de agua**: cuándo usarlo, cuándo vaciarlo y qué cambia en la aerodinámica del planeador.
 
 ## Vuelo en térmicas
 

@@ -1,12 +1,14 @@
 # Servicio de Tránsito Aéreo (
 
-Los Servicios de Tránsito Aéreo están para ayudarte, pero debes saber qué pedir: Control, Información o Alerta.
-
-En este capítulo aprenderás:
-
-* Los tres servicios ATS: Control (ATC), Información (FIS) y Alerta (ALRS).
-* Cuándo te separan ellos (ATC) y cuándo te separas tú (FIS).
-* El protocolo de búsqueda y salvamento: INCERFA, ALERFA y DETRESFA.
+> Los Servicios de Tránsito Aéreo están para ayudarte, pero debes saber qué pedir: Control, Información o Alerta.
+>
+>
+> En este capítulo aprenderás:
+>
+>
+> * Los tres servicios ATS: Control (ATC), Información (FIS) y Alerta (ALRS).
+> * Cuándo te separan ellos (ATC) y cuándo te separas tú (FIS).
+> * El protocolo de búsqueda y salvamento: INCERFA, ALERFA y DETRESFA.
 
 ## ¿Para qué sirve el ATS?
 

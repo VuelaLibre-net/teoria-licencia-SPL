@@ -1,6 +1,6 @@
 # Comunicaciones VFR en aeródromos controlados
 
-En un aeródromo controlado no te mueves sin que la Torre te lo diga. Aquí verás cómo funciona el sistema de autorizaciones, para qué sirve el plan de vuelo VFR, qué son los puntos de notificación visual y por qué en espacio controlado colacionas absolutamente todo.
+> En un aeródromo controlado no te mueves sin que la Torre te lo diga. Aquí verás cómo funciona el sistema de autorizaciones, para qué sirve el plan de vuelo VFR, qué son los puntos de notificación visual y por qué en espacio controlado colacionas absolutamente todo.
 
 ## Autorización (*Clearance*) en espacio controlado
 

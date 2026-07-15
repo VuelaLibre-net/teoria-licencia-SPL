@@ -1,13 +1,15 @@
 # Factores humanos: conceptos básicos
 
-La técnica con los mandos no basta: la mayoría de los accidentes en vuelo a vela tienen una causa humana, y casi todos son evitables. Este capítulo te da el marco para entender por qué erramos y cómo interponer barreras antes de que el error llegue a consecuencias.
-
-En este capítulo aprenderás:
-
-* **El modelo SHELL**: cómo interactúas con el software, el hardware, el entorno y las demás personas.
-* **El error humano y el queso suizo**: por qué errar es inevitable y cómo se alinean los fallos.
-* **La cadena del error**: por qué basta romper un eslabón para evitar el accidente.
-* **Las influencias en el comportamiento**: presión de grupo, cultura justa y la pirámide de Maslow.
+> La técnica con los mandos no basta: la mayoría de los accidentes en vuelo a vela tienen una causa humana, y casi todos son evitables. Este capítulo te da el marco para entender por qué erramos y cómo interponer barreras antes de que el error llegue a consecuencias.
+>
+>
+> En este capítulo aprenderás:
+>
+>
+> * **El modelo SHELL**: cómo interactúas con el software, el hardware, el entorno y las demás personas.
+> * **El error humano y el queso suizo**: por qué errar es inevitable y cómo se alinean los fallos.
+> * **La cadena del error**: por qué basta romper un eslabón para evitar el accidente.
+> * **Las influencias en el comportamiento**: presión de grupo, cultura justa y la pirámide de Maslow.
 
 ## Introducción a los factores humanos y la seguridad en el vuelo
 

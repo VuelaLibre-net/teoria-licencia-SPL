@@ -1,13 +1,15 @@
 # Uso de ATS
 
-El vuelo a vela sabe a libertad, pero el cielo lo compartimos con mucho más tráfico. Los Servicios de Tránsito Aéreo (ATS) están ahí para que esa convivencia sea segura y ordenada.
-
-En este capítulo aprenderás:
-
-* **ATC frente a FIS**: quién da órdenes obligatorias y quién facilita información.
-* **El transpondedor**: los códigos squawk y cuándo es obligatorio llevarlo encendido.
-* **El plan de vuelo (FPL)**: cuándo es obligatorio, su ciclo de vida y por qué hay que cerrarlo al aterrizar.
-* **Los espacios aéreos especiales**: qué te exigen y qué servicios recibes en cada clase.
+> El vuelo a vela sabe a libertad, pero el cielo lo compartimos con mucho más tráfico. Los Servicios de Tránsito Aéreo (ATS) están ahí para que esa convivencia sea segura y ordenada.
+>
+>
+> En este capítulo aprenderás:
+>
+>
+> * **ATC frente a FIS**: quién da órdenes obligatorias y quién facilita información.
+> * **El transpondedor**: los códigos squawk y cuándo es obligatorio llevarlo encendido.
+> * **El plan de vuelo (FPL)**: cuándo es obligatorio, su ciclo de vida y por qué hay que cerrarlo al aterrizar.
+> * **Los espacios aéreos especiales**: qué te exigen y qué servicios recibes en cada clase.
 
 ## ATC vs. FIS: ¿Quién es quién?
 

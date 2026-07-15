@@ -1,15 +1,17 @@
 # Navegación por estima
 
-Navegar a estima consiste en deducir dónde estás partiendo de un punto conocido y aplicando rumbo, velocidad y tiempo transcurrido. Es lo que te permite alejarte del campo sabiendo siempre dónde estás, aunque el GNSS se apague.
-
-En este capítulo aprenderás:
-
-* **El triángulo de velocidades**: TAS, viento y GS, y la diferencia entre IAS, TAS y GS.
-* **La deriva y el ángulo de corrección (WCA)**: cómo "meter el morro al viento" para no salirte de ruta.
-* **La cadena de rumbos**: pasar de la trayectoria de la carta al número de la brújula con la convención (W−/E+), con un ejemplo resuelto.
-* **El cálculo de deriva y velocidad suelo**: las fórmulas mentales rápidas, con ejemplos numéricos.
-* **Tiempo, velocidad y distancia**: la aritmética que cierra la estima.
-* **La regla del 1 en 60**: corregir el rumbo sobre la marcha sin transportador.
+> Navegar a estima consiste en deducir dónde estás partiendo de un punto conocido y aplicando rumbo, velocidad y tiempo transcurrido. Es lo que te permite alejarte del campo sabiendo siempre dónde estás, aunque el GNSS se apague.
+>
+>
+> En este capítulo aprenderás:
+>
+>
+> * **El triángulo de velocidades**: TAS, viento y GS, y la diferencia entre IAS, TAS y GS.
+> * **La deriva y el ángulo de corrección (WCA)**: cómo "meter el morro al viento" para no salirte de ruta.
+> * **La cadena de rumbos**: pasar de la trayectoria de la carta al número de la brújula con la convención (W−/E+), con un ejemplo resuelto.
+> * **El cálculo de deriva y velocidad suelo**: las fórmulas mentales rápidas, con ejemplos numéricos.
+> * **Tiempo, velocidad y distancia**: la aritmética que cierra la estima.
+> * **La regla del 1 en 60**: corregir el rumbo sobre la marcha sin transportador.
 
 ## El Triángulo de Velocidades
 

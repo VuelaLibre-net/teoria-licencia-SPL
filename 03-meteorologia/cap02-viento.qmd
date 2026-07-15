@@ -1,9 +1,9 @@
 # Viento
 
-El viento es la materia prima del vuelo a vela: a veces tu aliado, siempre un factor de
-seguridad que debes conocer y respetar. En este capítulo aprenderás por qué sopla el viento,
-cómo la rotación terrestre y el terreno lo transforman, y cuáles son los vientos locales
-—anabáticos, catabáticos, Foehn, brisa marina— que definen la meteorología de cada aeródromo.
+> El viento es la materia prima del vuelo a vela: a veces tu aliado, siempre un factor de
+> seguridad que debes conocer y respetar. En este capítulo aprenderás por qué sopla el viento,
+> cómo la rotación terrestre y el terreno lo transforman, y cuáles son los vientos locales
+> —anabáticos, catabáticos, Foehn, brisa marina— que definen la meteorología de cada aeródromo.
 
 ## El Motor del Viento: La Fuerza de Gradiente
 

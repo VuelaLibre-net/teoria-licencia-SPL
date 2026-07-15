@@ -1,13 +1,15 @@
 # Reglamentación de tránsito aéreo: estructura del espacio aéreo
 
-El cielo está dividido en "cajones" invisibles; saber en cuál estás es la clave para evitar infracciones y peligros.
-
-En este capítulo aprenderás:
-
-* Las clases de espacio aéreo: qué cambia entre el controlado (A-E) y el no controlado (G).
-* Cuándo necesitas autorización, radio y transponder para entrar.
-* Cómo operar en las zonas RMZ (radio obligatoria) y TMZ (transponder obligatorio).
-* Dónde está prohibido o es peligroso volar: las áreas P, R y D.
+> El cielo está dividido en "cajones" invisibles; saber en cuál estás es la clave para evitar infracciones y peligros.
+>
+>
+> En este capítulo aprenderás:
+>
+>
+> * Las clases de espacio aéreo: qué cambia entre el controlado (A-E) y el no controlado (G).
+> * Cuándo necesitas autorización, radio y transponder para entrar.
+> * Cómo operar en las zonas RMZ (radio obligatoria) y TMZ (transponder obligatorio).
+> * Dónde está prohibido o es peligroso volar: las áreas P, R y D.
 
 ## El mapa de carreteras del cielo
 

@@ -1,10 +1,10 @@
 # Masas de aire y frentes
 
-Un frente es la frontera entre dos masas de aire con propiedades distintas, y cruzarlo sin
-planificación puede convertir un buen vuelo en una emergencia. En este capítulo aprenderás
-a reconocer frentes fríos, cálidos y ocluidos antes de que lleguen a tu zona, y entenderás
-por qué la temperatura relativa de la masa de aire determina si tendrás térmicas o niebla
-bajo tus ruedas.
+> Un frente es la frontera entre dos masas de aire con propiedades distintas, y cruzarlo sin
+> planificación puede convertir un buen vuelo en una emergencia. En este capítulo aprenderás
+> a reconocer frentes fríos, cálidos y ocluidos antes de que lleguen a tu zona, y entenderás
+> por qué la temperatura relativa de la masa de aire determina si tendrás térmicas o niebla
+> bajo tus ruedas.
 
 ## Frentes fríos e inestabilidad
 

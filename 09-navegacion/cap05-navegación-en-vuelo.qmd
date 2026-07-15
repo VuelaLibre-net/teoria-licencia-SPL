@@ -1,13 +1,15 @@
 # Navegación en vuelo
 
-En el aire, la teoría del papel se vuelve oficio: comparar lo que ves por la cúpula con lo que habías planificado. Y en planeador esto exige un punto extra de atención, porque no podemos perdernos mientras además gestionamos la energía y buscamos la siguiente térmica.
-
-En este capítulo aprenderás:
-
-* **Las tres formas de navegar**: estima, observada y visual, y cómo se combinan en vuelo.
-* **La técnica mapa-terreno**: busca en el mapa lo que ves fuera, nunca al revés.
-* **La triangulación**: cruzar dos líneas de posición para fijar dónde estás con certeza.
-* **La gestión de la incertidumbre de posición (UOP)**: qué hacer cuando dudas de dónde estás.
+> En el aire, la teoría del papel se vuelve oficio: comparar lo que ves por la cúpula con lo que habías planificado. Y en planeador esto exige un punto extra de atención, porque no podemos perdernos mientras además gestionamos la energía y buscamos la siguiente térmica.
+>
+>
+> En este capítulo aprenderás:
+>
+>
+> * **Las tres formas de navegar**: estima, observada y visual, y cómo se combinan en vuelo.
+> * **La técnica mapa-terreno**: busca en el mapa lo que ves fuera, nunca al revés.
+> * **La triangulación**: cruzar dos líneas de posición para fijar dónde estás con certeza.
+> * **La gestión de la incertidumbre de posición (UOP)**: qué hacer cuando dudas de dónde estás.
 
 ## Tres formas de navegar
 

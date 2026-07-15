@@ -1,12 +1,14 @@
 # Marcas de nacionalidad y matrícula de aeronaves
 
-Tu planeador tiene una identidad legal única; identificarlo correctamente es el primer paso de cualquier operación.
-
-En este capítulo aprenderás:
-
-* Cómo leer e interpretar las marcas de matrícula (EC-ABC).
-* Para qué sirve la placa de identificación ignífuga y dónde encontrarla.
-* Por qué tu planeador lleva la bandera de España.
+> Tu planeador tiene una identidad legal única; identificarlo correctamente es el primer paso de cualquier operación.
+>
+>
+> En este capítulo aprenderás:
+>
+>
+> * Cómo leer e interpretar las marcas de matrícula (EC-ABC).
+> * Para qué sirve la placa de identificación ignífuga y dónde encontrarla.
+> * Por qué tu planeador lleva la bandera de España.
 
 ## El DNI de tu planeador: nacionalidad y matrícula
 

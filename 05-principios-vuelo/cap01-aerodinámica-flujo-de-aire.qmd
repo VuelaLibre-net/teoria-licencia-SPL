@@ -1,6 +1,6 @@
 # Aerodinámica (flujo de aire)
 
-La aerodinámica es el fundamento invisible de todo lo que hace un planeador en el aire. En este capítulo aprenderás cómo la diferencia de presión entre extradós e intradós genera sustentación, qué es la capa límite y por qué un solo mosquito aplastado en el borde de ataque puede degradar el rendimiento de un perfil laminar, y cómo las dos grandes familias de resistencia aerodinámica determinan la velocidad óptima de planeo.
+> La aerodinámica es el fundamento invisible de todo lo que hace un planeador en el aire. En este capítulo aprenderás cómo la diferencia de presión entre extradós e intradós genera sustentación, qué es la capa límite y por qué un solo mosquito aplastado en el borde de ataque puede degradar el rendimiento de un perfil laminar, y cómo las dos grandes familias de resistencia aerodinámica determinan la velocidad óptima de planeo.
 
 ## Principio de Bernoulli y sustentación
 

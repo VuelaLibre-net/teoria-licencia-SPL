@@ -1,14 +1,16 @@
 # Montaje de la aeronave, conexión de superficies de control
 
-Cada vez que montas un planeador estás reconstruyendo una aeronave. Los accidentes por conexiones olvidadas se repiten desde hace décadas, y todos comparten el mismo patrón: prisa, distracción y ninguna verificación final.
-
-En este capítulo aprenderás:
-
-* **El proceso de montaje**: el orden correcto y los cuidados con tetones y bulones.
-* **Las conexiones de mandos**: automáticas y manuales (L’Hotellier), y por qué las segundas exigen pin de seguridad.
-* **Los pasadores y seguros** de la unión ala-fuselaje.
-* **El Positive Control Check (PCC)**: la verificación con asistente que cierra el montaje.
-* **El cintado**: por qué las cintas de las juntas no son estética.
+> Cada vez que montas un planeador estás reconstruyendo una aeronave. Los accidentes por conexiones olvidadas se repiten desde hace décadas, y todos comparten el mismo patrón: prisa, distracción y ninguna verificación final.
+>
+>
+> En este capítulo aprenderás:
+>
+>
+> * **El proceso de montaje**: el orden correcto y los cuidados con tetones y bulones.
+> * **Las conexiones de mandos**: automáticas y manuales (L’Hotellier), y por qué las segundas exigen pin de seguridad.
+> * **Los pasadores y seguros** de la unión ala-fuselaje.
+> * **El Positive Control Check (PCC)**: la verificación con asistente que cierra el montaje.
+> * **El cintado**: por qué las cintas de las juntas no son estética.
 
 El montaje o **rigging** es una de las fases más críticas para la seguridad. Un planeador mal ensamblado se comporta de forma imprevisible o, en el peor de los casos, sufre un fallo catastrófico en vuelo. Tus mejores herramientas son la disciplina y seguir al pie de la letra el Manual de Vuelo (AFM).
 

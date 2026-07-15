@@ -1,14 +1,16 @@
 # Monitoreo del vuelo y replanificación en vuelo
 
-Una vez que has despegado y tu tarea está en marcha, el plan de vuelo deja de ser una hoja estática y se convierte en un proceso vivo de seguimiento. La atmósfera cambia, y el piloto que no adapta su estrategia en vuelo es el que acaba aterrizando en un campo antes de tiempo.
-
-En este capítulo aprenderás:
-
-* **El cono de alcance**: tu burbuja de seguridad y cómo la deforma el viento.
-* **El cálculo mental en cabina**: reglas rápidas de alcance y de deriva sin depender del GPS.
-* **El monitoreo del planeo final en 3 puntos**: cómo detectar una descendencia continua antes de que sea tarde.
-* **El punto de no retorno (PNR)** y el cambio de mentalidad que implica cruzarlo.
-* **El factor humano**: cómo la hipoxia y la deshidratación degradan justo las capacidades que la replanificación necesita.
+> Una vez que has despegado y tu tarea está en marcha, el plan de vuelo deja de ser una hoja estática y se convierte en un proceso vivo de seguimiento. La atmósfera cambia, y el piloto que no adapta su estrategia en vuelo es el que acaba aterrizando en un campo antes de tiempo.
+>
+>
+> En este capítulo aprenderás:
+>
+>
+> * **El cono de alcance**: tu burbuja de seguridad y cómo la deforma el viento.
+> * **El cálculo mental en cabina**: reglas rápidas de alcance y de deriva sin depender del GPS.
+> * **El monitoreo del planeo final en 3 puntos**: cómo detectar una descendencia continua antes de que sea tarde.
+> * **El punto de no retorno (PNR)** y el cambio de mentalidad que implica cruzarlo.
+> * **El factor humano**: cómo la hipoxia y la deshidratación degradan justo las capacidades que la replanificación necesita.
 
 ## El cono de alcance: tu burbuja de seguridad
 

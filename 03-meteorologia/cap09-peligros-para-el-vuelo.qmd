@@ -1,10 +1,10 @@
 # Peligros para el vuelo
 
-La meteorología peligrosa no siempre avisa con tiempo: un Cb puede crecer mientras haces
-el preflight, el hielo puede formarse en minutos y la cizalladura puede tirarte al suelo
-en los últimos metros de final. En este capítulo aprenderás a identificar y evitar los
-peligros meteorológicos más críticos para el vuelo a vela, y qué decisiones tomar cuando
-aparecen.
+> La meteorología peligrosa no siempre avisa con tiempo: un Cb puede crecer mientras haces
+> el preflight, el hielo puede formarse en minutos y la cizalladura puede tirarte al suelo
+> en los últimos metros de final. En este capítulo aprenderás a identificar y evitar los
+> peligros meteorológicos más críticos para el vuelo a vela, y qué decisiones tomar cuando
+> aparecen.
 
 ## Tormentas y nubes de desarrollo extremo (Cb)
 

@@ -1,10 +1,10 @@
 # Climatología
 
-España ocupa una posición geográfica privilegiada para el vuelo a vela: orografía compleja,
-contrastes térmicos extremos entre mesetas y litoral, y mar perimetral en tres frentes.
-En este capítulo aprenderás qué define el clima aeronáutico de la Península Ibérica en cada
-estación, cómo actúan los vientos locales en los valles y qué papel juega la Baja Térmica
-Peninsular como motor de las mejores jornadas de cross-country estival.
+> España ocupa una posición geográfica privilegiada para el vuelo a vela: orografía compleja,
+> contrastes térmicos extremos entre mesetas y litoral, y mar perimetral en tres frentes.
+> En este capítulo aprenderás qué define el clima aeronáutico de la Península Ibérica en cada
+> estación, cómo actúan los vientos locales en los valles y qué papel juega la Baja Térmica
+> Peninsular como motor de las mejores jornadas de cross-country estival.
 
 ## Circulación general de la atmósfera
 

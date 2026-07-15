@@ -71,6 +71,25 @@ def convert_node(node, ctx):
         # Asegurar un espacio después del párrafo
         return f"\n{para_text}\n"
 
+    elif tag == 'blockquote':
+        body_parts = []
+        if node.text:
+            body_parts.append(node.text)
+        for child in node:
+            content = convert_node(child, ctx)
+            if content:
+                body_parts.append(content)
+            if child.tail:
+                body_parts.append(child.tail)
+        body = "".join(body_parts).strip()
+        quoted_lines = [f"> {line}" if line.strip() else ">" for line in body.split("\n")]
+        return "\n" + "\n".join(quoted_lines) + "\n"
+
+    elif tag == 'literallayout':
+        # Preservar el formateado de literallayout usando el procesador inline
+        text = process_inline_elements(node, ctx)
+        return f"\n{text}\n"
+
     # Títulos dentro de bloques (las secciones se manejan en handle_section)
     elif tag == 'title':
         return "" # Los títulos de figuras/tablas se manejan en sus respectivos handlers
@@ -209,6 +228,7 @@ format:
   typst:
     toc: true
     number-sections: true
+    keep-typ: true
     margin:
       top: 2.5cm
       bottom: 2.5cm
@@ -339,12 +359,14 @@ def main():
         else:
             content.append(f"# {title_text}\n")
             
+        ctx.in_bibliography = (filename == 'bibliografia.qmd')
         for child_el in child:
             if strip_ns(child_el.tag) == 'title':
                 continue
             res = convert_node(child_el, ctx)
             if res:
                 content.append(res)
+        ctx.in_bibliography = False
                 
         # Escribir qmd
         qmd_path = output_dir / filename

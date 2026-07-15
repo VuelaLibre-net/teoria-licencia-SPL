@@ -1,12 +1,14 @@
 # Servicios de Información Aeronáutica (AIS)
 
-La información es seguridad; un piloto que ignora los NOTAM es un piloto que vuela a ciegas hacia el peligro.
-
-En este capítulo aprenderás:
-
-* Las tres fuentes de información: AIP (permanente), NOTAM (urgente) y AIC (informativo).
-* El deber legal del piloto de consultar la información disponible antes del vuelo.
-* Cómo usar ENAIRE Insignia para ver las restricciones sobre el mapa.
+> La información es seguridad; un piloto que ignora los NOTAM es un piloto que vuela a ciegas hacia el peligro.
+>
+>
+> En este capítulo aprenderás:
+>
+>
+> * Las tres fuentes de información: AIP (permanente), NOTAM (urgente) y AIC (informativo).
+> * El deber legal del piloto de consultar la información disponible antes del vuelo.
+> * Cómo usar ENAIRE Insignia para ver las restricciones sobre el mapa.
 
 ## La información es seguridad
 

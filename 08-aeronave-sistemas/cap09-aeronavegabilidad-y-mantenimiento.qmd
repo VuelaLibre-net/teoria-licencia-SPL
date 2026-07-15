@@ -1,13 +1,15 @@
 # Aeronavegabilidad y mantenimiento
 
-La aeronavegabilidad no es un papel que consigues una vez: es un estado que se mantiene vuelo a vuelo, inspección a inspección.
-
-En este capítulo aprenderás:
-
-* **El CoA y el ARC**: los dos certificados que permiten despegar legalmente, y cómo se renueva o prorroga el ARC.
-* **Part-ML y Part-CAO**: el marco simplificado de mantenimiento de la aviación ligera europea.
-* **El mantenimiento del piloto-propietario**: qué tareas puedes firmar tú mismo y con qué condiciones.
-* **Las AD y los SB**: las órdenes de obligado cumplimiento y las recomendaciones del fabricante.
+> La aeronavegabilidad no es un papel que consigues una vez: es un estado que se mantiene vuelo a vuelo, inspección a inspección.
+>
+>
+> En este capítulo aprenderás:
+>
+>
+> * **El CoA y el ARC**: los dos certificados que permiten despegar legalmente, y cómo se renueva o prorroga el ARC.
+> * **Part-ML y Part-CAO**: el marco simplificado de mantenimiento de la aviación ligera europea.
+> * **El mantenimiento del piloto-propietario**: qué tareas puedes firmar tú mismo y con qué condiciones.
+> * **Las AD y los SB**: las órdenes de obligado cumplimiento y las recomendaciones del fabricante.
 
 La **aeronavegabilidad** es la condición legal y técnica que certifica que una aeronave es segura para volar. No es algo estático: mantener un planeador aeronavegable exige vigilancia constante, un programa de mantenimiento riguroso y cumplir al pie de la letra la normativa europea.
 

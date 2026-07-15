@@ -1,9 +1,9 @@
 # La atmósfera
 
-Sin entender la atmósfera, ningún mapa de previsión tiene sentido.
-En este capítulo aprenderás qué es la Atmósfera Estándar Internacional (ISA), por qué la
-presión, la temperatura y la densidad del aire cambian con la altitud, y cómo esos cambios
-afectan directamente al rendimiento de tu planeador y a tu propia fisiología en vuelo.
+> Sin entender la atmósfera, ningún mapa de previsión tiene sentido.
+> En este capítulo aprenderás qué es la Atmósfera Estándar Internacional (ISA), por qué la
+> presión, la temperatura y la densidad del aire cambian con la altitud, y cómo esos cambios
+> afectan directamente al rendimiento de tu planeador y a tu propia fisiología en vuelo.
 
 ## La atmósfera estándar internacional (ISA)
 

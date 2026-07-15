@@ -1,15 +1,17 @@
 # Polar de velocidades de planeadores o velocidad de crucero
 
-Entender la polar de tu planeador es como conocer de memoria el mapa de potencia de un motor. En el vuelo sin motor, la gravedad es nuestro combustible y la aerodinámica nuestro acelerador. La polar te dice exactamente cuánto pagas en altura por cada kilómetro por hora de velocidad que ganas.
-
-En este capítulo aprenderás:
-
-* **La curva polar**: las dos velocidades que debes saber de memoria (mínimo descenso y máximo planeo).
-* **La teoría MacCready**: cómo ajustar tu velocidad de crucero a la fuerza del día.
-* **El efecto del peso**: cómo el lastre de agua desplaza la polar sin cambiar el planeo máximo.
-* **El efecto del viento y el aire descendente**: cuándo acelerar y cuándo conservar.
-* **IAS y TAS en altura**: por qué el anemómetro te "miente" en aeródromos altos y en vuelo de onda.
-* **El planeo final**: gestión de energía con margen de seguridad.
+> Entender la polar de tu planeador es como conocer de memoria el mapa de potencia de un motor. En el vuelo sin motor, la gravedad es nuestro combustible y la aerodinámica nuestro acelerador. La polar te dice exactamente cuánto pagas en altura por cada kilómetro por hora de velocidad que ganas.
+>
+>
+> En este capítulo aprenderás:
+>
+>
+> * **La curva polar**: las dos velocidades que debes saber de memoria (mínimo descenso y máximo planeo).
+> * **La teoría MacCready**: cómo ajustar tu velocidad de crucero a la fuerza del día.
+> * **El efecto del peso**: cómo el lastre de agua desplaza la polar sin cambiar el planeo máximo.
+> * **El efecto del viento y el aire descendente**: cuándo acelerar y cuándo conservar.
+> * **IAS y TAS en altura**: por qué el anemómetro te "miente" en aeródromos altos y en vuelo de onda.
+> * **El planeo final**: gestión de energía con margen de seguridad.
 
 ## La polar: tu curva de rendimiento
 

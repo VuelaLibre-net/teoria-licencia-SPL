@@ -1,10 +1,10 @@
 # Termodinámica
 
-La termodinámica es el motor invisible del vuelo sin motor: sin estabilidad inestable no hay
-térmicas, y sin térmicas no hay vuelo de distancia. En este capítulo aprenderás a interpretar
-la estabilidad atmosférica, a calcular la base de los cúmulos con una operación mental sencilla,
-a reconocer una inversión térmica y a leer los índices de sondeo que predicen si el día será
-excelente o decepcionante para volar.
+> La termodinámica es el motor invisible del vuelo sin motor: sin estabilidad inestable no hay
+> térmicas, y sin térmicas no hay vuelo de distancia. En este capítulo aprenderás a interpretar
+> la estabilidad atmosférica, a calcular la base de los cúmulos con una operación mental sencilla,
+> a reconocer una inversión térmica y a leer los índices de sondeo que predicen si el día será
+> excelente o decepcionante para volar.
 
 ## Estabilidad Atmosférica: El Combustible del Vuelo a Vela
 

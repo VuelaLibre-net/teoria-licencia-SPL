@@ -1,6 +1,6 @@
 # Mecánica de vuelo
 
-Sin motor, la gravedad es tu único combustible. En este capítulo aprenderás a interpretar la curva polar de tu planeador para extraer el máximo rendimiento, a ajustar la velocidad según el viento y las descendencias, y a entender el factor de carga para volar en viraje sin comprometer la estructura ni acercarte a la pérdida sin darte cuenta.
+> Sin motor, la gravedad es tu único combustible. En este capítulo aprenderás a interpretar la curva polar de tu planeador para extraer el máximo rendimiento, a ajustar la velocidad según el viento y las descendencias, y a entender el factor de carga para volar en viraje sin comprometer la estructura ni acercarte a la pérdida sin darte cuenta.
 
 ## El motor es la gravedad
 

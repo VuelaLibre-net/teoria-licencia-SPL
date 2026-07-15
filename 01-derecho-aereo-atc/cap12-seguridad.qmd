@@ -1,12 +1,14 @@
 # Seguridad
 
-La seguridad de la aviación no es solo para grandes aerolíneas; proteger tu aeronave de actos ilícitos es una responsabilidad fundamental del piloto.
-
-En este capítulo aprenderás:
-
-* La diferencia entre evitar accidentes (**safety**) y prevenir actos criminales (**security**).
-* Cómo asegurar tu aeronave en tierra y comprobar que nadie la ha manipulado.
-* Qué artículos están prohibidos a bordo por riesgo para la seguridad.
+> La seguridad de la aviación no es solo para grandes aerolíneas; proteger tu aeronave de actos ilícitos es una responsabilidad fundamental del piloto.
+>
+>
+> En este capítulo aprenderás:
+>
+>
+> * La diferencia entre evitar accidentes (**safety**) y prevenir actos criminales (**security**).
+> * Cómo asegurar tu aeronave en tierra y comprobar que nadie la ha manipulado.
+> * Qué artículos están prohibidos a bordo por riesgo para la seguridad.
 
 ## Safety vs Security: ¿No es lo mismo?
 

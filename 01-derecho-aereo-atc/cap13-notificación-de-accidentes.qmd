@@ -1,12 +1,14 @@
 # Notificación de accidentes
 
-Notificar sucesos no busca culpables, sino aprender de los errores para mantener los cielos seguros para todos.
-
-En este capítulo aprenderás:
-
-* Las diferencias legales entre accidente, incidente grave e incidente.
-* Cuándo debes reportar un suceso a la CIAIAC y a AESA, y sus plazos: sin demora a la primera, 72 horas a la segunda.
-* El principio de "cultura justa": reportar errores honestos sin miedo al castigo.
+> Notificar sucesos no busca culpables, sino aprender de los errores para mantener los cielos seguros para todos.
+>
+>
+> En este capítulo aprenderás:
+>
+>
+> * Las diferencias legales entre accidente, incidente grave e incidente.
+> * Cuándo debes reportar un suceso a la CIAIAC y a AESA, y sus plazos: sin demora a la primera, 72 horas a la segunda.
+> * El principio de "cultura justa": reportar errores honestos sin miedo al castigo.
 
 ## Definiciones clave (Reglamento UE 996/2010 y 376/2014)
 

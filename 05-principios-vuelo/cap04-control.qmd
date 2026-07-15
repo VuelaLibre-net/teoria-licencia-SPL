@@ -1,10 +1,10 @@
 # Control
 
-Los mandos de un planeador son mucho más que palancas y pedales: son el canal de
-comunicación entre el piloto y la aeronave. En este capítulo aprenderás a entender
-la guiñada adversa y cómo combatirla con coordinación pie-mano, por qué el compensador
-es una herramienta fundamental de pilotaje y no un descanso para el brazo, y qué
-información te transmiten los mandos a través de su dureza o blandura.
+> Los mandos de un planeador son mucho más que palancas y pedales: son el canal de
+> comunicación entre el piloto y la aeronave. En este capítulo aprenderás a entender
+> la guiñada adversa y cómo combatirla con coordinación pie-mano, por qué el compensador
+> es una herramienta fundamental de pilotaje y no un descanso para el brazo, y qué
+> información te transmiten los mandos a través de su dureza o blandura.
 
 ## Guiñada adversa: el precio del alabeo
 

@@ -1,12 +1,14 @@
 # Equipo de evacuación de emergencia
 
-Si el vuelo termina mal y lejos de casa, tu supervivencia depende de lo que llevabas puesto y de lo que cargaste en el fuselaje antes de despegar.
-
-En este capítulo aprenderás:
-
-* **Las balizas de localización**: ELT fijo y PLB portátil, y por qué deben emitir en 406 MHz.
-* **Los sistemas de oxígeno**: flujo continuo y EDS, y cuándo exige la norma usarlos.
-* **El kit de supervivencia esencial** para vuelos de montaña o sobre zonas despobladas.
+> Si el vuelo termina mal y lejos de casa, tu supervivencia depende de lo que llevabas puesto y de lo que cargaste en el fuselaje antes de despegar.
+>
+>
+> En este capítulo aprenderás:
+>
+>
+> * **Las balizas de localización**: ELT fijo y PLB portátil, y por qué deben emitir en 406 MHz.
+> * **Los sistemas de oxígeno**: flujo continuo y EDS, y cuándo exige la norma usarlos.
+> * **El kit de supervivencia esencial** para vuelos de montaña o sobre zonas despobladas.
 
 En una situación extrema, el equipo de emergencia y tu capacidad de supervivencia deciden si el rescate sale bien. Ir preparado para lo peor es lo que te permite volar tranquilo.
 

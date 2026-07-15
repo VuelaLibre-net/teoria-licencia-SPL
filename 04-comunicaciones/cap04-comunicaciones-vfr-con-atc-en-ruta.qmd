@@ -1,6 +1,6 @@
 # Comunicaciones VFR con ATC (en ruta)
 
-En cuanto sales del circuito y te metes en ruta, las reglas cambian un poco. Aquí verás cómo usar el Servicio de Información de Vuelo (FIS), cómo cambiar de frecuencia sin desaparecer del radar y qué hacer con el transpondedor y las zonas de radio obligatoria.
+> En cuanto sales del circuito y te metes en ruta, las reglas cambian un poco. Aquí verás cómo usar el Servicio de Información de Vuelo (FIS), cómo cambiar de frecuencia sin desaparecer del radar y qué hacer con el transpondedor y las zonas de radio obligatoria.
 
 ## Servicio de Información de Vuelo (FIS)
 

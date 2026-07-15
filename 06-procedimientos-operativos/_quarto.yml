@@ -28,6 +28,7 @@ format:
   typst:
     toc: true
     number-sections: true
+    keep-typ: true
     margin:
       top: 2.5cm
       bottom: 2.5cm

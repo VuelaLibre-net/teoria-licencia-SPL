@@ -1,14 +1,16 @@
 # Uso y aterrizaje con paracaídas de emergencia
 
-El **paracaídas de emergencia** es el último recurso del piloto cuando el planeador ha dejado de ser un medio de transporte seguro. No es un equipo que se usa «por si acaso»: se usa cuando la alternativa es morir dentro de la aeronave. Entender cuándo la situación justifica el salto, cómo ejecutar la secuencia de abandono y cómo gestionar el descenso y la toma marcan la diferencia entre sobrevivir y no hacerlo. Además, este capítulo cubre el mantenimiento correcto del paracaídas: un equipo descuidado es un equipo que puede no abrirse.
-
-En este capítulo aprenderás:
-
-* **La decisión de saltar**: en qué situaciones el abandono del planeador es la única opción correcta.
-* **La altura mínima de abandono**: por qué 150 metros es el umbral que no puede reducirse.
-* **El procedimiento de salto**: la secuencia exacta de cinco pasos para abandonar la cabina.
-* **El descenso y la toma de tierra**: cómo aterrizar con paracaídas, con viento y ante obstáculos.
-* **El mantenimiento del paracaídas**: cuidados, almacenamiento y caducidad de la inspección.
+> El **paracaídas de emergencia** es el último recurso del piloto cuando el planeador ha dejado de ser un medio de transporte seguro. No es un equipo que se usa «por si acaso»: se usa cuando la alternativa es morir dentro de la aeronave. Entender cuándo la situación justifica el salto, cómo ejecutar la secuencia de abandono y cómo gestionar el descenso y la toma marcan la diferencia entre sobrevivir y no hacerlo. Además, este capítulo cubre el mantenimiento correcto del paracaídas: un equipo descuidado es un equipo que puede no abrirse.
+>
+>
+> En este capítulo aprenderás:
+>
+>
+> * **La decisión de saltar**: en qué situaciones el abandono del planeador es la única opción correcta.
+> * **La altura mínima de abandono**: por qué 150 metros es el umbral que no puede reducirse.
+> * **El procedimiento de salto**: la secuencia exacta de cinco pasos para abandonar la cabina.
+> * **El descenso y la toma de tierra**: cómo aterrizar con paracaídas, con viento y ante obstáculos.
+> * **El mantenimiento del paracaídas**: cuidados, almacenamiento y caducidad de la inspección.
 
 ## La decisión de abandono (*bail-out*)
 

@@ -1,13 +1,15 @@
 # Procedimientos para navegación aérea: operaciones de aeronaves
 
-Navegar seguro exige reglas precisas; domina los mínimos VMC y los niveles de crucero para compartir el cielo eficientemente.
-
-En este capítulo aprenderás:
-
-* Los mínimos meteorológicos (VMC): cuándo es legal volar visual y qué excepciones tenemos los planeadores.
-* La regla semicircular: cómo elegir tu altitud de crucero según el rumbo.
-* La diferencia crítica entre QNH (altitud), QFE (altura) y QNE (niveles de vuelo).
-* Cuándo es obligatorio el oxígeno para esquivar la hipoxia silenciosa.
+> Navegar seguro exige reglas precisas; domina los mínimos VMC y los niveles de crucero para compartir el cielo eficientemente.
+>
+>
+> En este capítulo aprenderás:
+>
+>
+> * Los mínimos meteorológicos (VMC): cuándo es legal volar visual y qué excepciones tenemos los planeadores.
+> * La regla semicircular: cómo elegir tu altitud de crucero según el rumbo.
+> * La diferencia crítica entre QNH (altitud), QFE (altura) y QNE (niveles de vuelo).
+> * Cuándo es obligatorio el oxígeno para esquivar la hipoxia silenciosa.
 
 ## Mínimos VFR: Visibilidad y Distancia a Nubes
 

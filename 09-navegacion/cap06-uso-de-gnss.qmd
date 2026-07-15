@@ -1,13 +1,15 @@
 # Uso de GNSS
 
-El Sistema Global de Navegación por Satélite (GNSS) —que agrupa redes como el GPS estadounidense o el europeo Galileo— ha cambiado por completo el vuelo a vela. Nos da posición, altitud y velocidad suelo con una precisión que hace años parecía impensable. Aun así, en el hangar lo resumimos en una frase: el GPS es un criado excelente, pero un amo pésimo.
-
-En este capítulo aprenderás:
-
-* **Cómo funciona el GNSS**: por qué necesitas captar cuatro satélites para una posición en tres dimensiones.
-* **El datum WGS-84**: el "idioma" geográfico común entre el receptor y la carta de papel.
-* **Los registradores IGC**: la prueba digital del vuelo para validar récords y medallas FAI.
-* **Las limitaciones y fuentes de error**: por qué el GPS es una ayuda y nunca un sustituto de la carta.
+> El Sistema Global de Navegación por Satélite (GNSS) —que agrupa redes como el GPS estadounidense o el europeo Galileo— ha cambiado por completo el vuelo a vela. Nos da posición, altitud y velocidad suelo con una precisión que hace años parecía impensable. Aun así, en el hangar lo resumimos en una frase: el GPS es un criado excelente, pero un amo pésimo.
+>
+>
+> En este capítulo aprenderás:
+>
+>
+> * **Cómo funciona el GNSS**: por qué necesitas captar cuatro satélites para una posición en tres dimensiones.
+> * **El datum WGS-84**: el "idioma" geográfico común entre el receptor y la carta de papel.
+> * **Los registradores IGC**: la prueba digital del vuelo para validar récords y medallas FAI.
+> * **Las limitaciones y fuentes de error**: por qué el GPS es una ayuda y nunca un sustituto de la carta.
 
 ## ¿Cómo funciona el GNSS?
 

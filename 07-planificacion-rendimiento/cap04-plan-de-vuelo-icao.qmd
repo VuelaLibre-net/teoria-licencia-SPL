@@ -1,14 +1,16 @@
 # Plan de vuelo ICAO
 
-El plan de vuelo (FPL) es mucho más que un trámite administrativo: es tu seguro de vida en los vuelos de distancia. En vuelo local no suele hacer falta, pero en cuanto decides alejarte del cono de seguridad de tu aeródromo se convierte en la única forma de que los servicios de búsqueda y rescate (SAR) sepan dónde buscarte si no regresas.
-
-En este capítulo aprenderás:
-
-* **Cuándo es obligatorio el FPL** según SERA.4001 y su aplicación en España.
-* **Las casillas clave del formulario ICAO** para un planeador, incluida la información suplementaria (casilla 19).
-* **Cómo abrir un plan de vuelo en el aire (AFIL)** con los centros de información de vuelo españoles.
-* **Las particularidades de los motoveleros (TMG)** y la autonomía de combustible.
-* **El cierre del plan**: el paso que nunca, jamás, puedes olvidar.
+> El plan de vuelo (FPL) es mucho más que un trámite administrativo: es tu seguro de vida en los vuelos de distancia. En vuelo local no suele hacer falta, pero en cuanto decides alejarte del cono de seguridad de tu aeródromo se convierte en la única forma de que los servicios de búsqueda y rescate (SAR) sepan dónde buscarte si no regresas.
+>
+>
+> En este capítulo aprenderás:
+>
+>
+> * **Cuándo es obligatorio el FPL** según SERA.4001 y su aplicación en España.
+> * **Las casillas clave del formulario ICAO** para un planeador, incluida la información suplementaria (casilla 19).
+> * **Cómo abrir un plan de vuelo en el aire (AFIL)** con los centros de información de vuelo españoles.
+> * **Las particularidades de los motoveleros (TMG)** y la autonomía de combustible.
+> * **El cierre del plan**: el paso que nunca, jamás, puedes olvidar.
 
 ## ¿Cuándo es obligatorio?
 

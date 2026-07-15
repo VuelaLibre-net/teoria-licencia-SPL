@@ -1,9 +1,9 @@
 # Información meteorológica
 
-Saber volar es necesario; saber leer el tiempo antes de despegar es imprescindible.
-En este capítulo aprenderás a interpretar METARs, TAFs, mapas SIGWX y sondeos
-termodinámicos aplicados al vuelo sin motor: desde descifrar un código de cuatro letras
-hasta decidir con criterio si el día merece o no sacar el planeador del hangar.
+> Saber volar es necesario; saber leer el tiempo antes de despegar es imprescindible.
+> En este capítulo aprenderás a interpretar METARs, TAFs, mapas SIGWX y sondeos
+> termodinámicos aplicados al vuelo sin motor: desde descifrar un código de cuatro letras
+> hasta decidir con criterio si el día merece o no sacar el planeador del hangar.
 
 ## Informes METAR y TAF
 

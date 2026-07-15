@@ -147,5 +147,21 @@ class TestDocBookToQMD(unittest.TestCase):
         output = self._convert(xml)
         self.assertEqual(output.strip(), "")
 
+    def test_blockquote(self):
+        # Prueba que blockquote se traduzca con prefijos '>'
+        xml = "<blockquote role='text-right'><simpara>Línea 1</simpara><simpara>Línea 2</simpara></blockquote>"
+        output = self._convert(xml)
+        self.assertIn("> Línea 1", output)
+        self.assertIn("> Línea 2", output)
+
+    def test_literallayout(self):
+        # Prueba que literallayout preserve el formateado de texto y saltos de línea
+        xml = "<literallayout><emphasis role='strong'>Negrita</emphasis>\nTexto plano\nLínea 2</literallayout>"
+        output = self._convert(xml)
+        self.assertIn("**Negrita**", output)
+        self.assertIn("Texto plano", output)
+        self.assertIn("Línea 2", output)
+
 if __name__ == '__main__':
     unittest.main()
+

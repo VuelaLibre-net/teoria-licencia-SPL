@@ -1,6 +1,6 @@
 # Comunicaciones VFR en aeródromos no controlados
 
-La mayoría de los vuelos de planeador salen de campos sin torre. Aquí verás cómo mantenerte situado mediante la autoinformación, por qué tus ojos siempre van antes que la radio, cómo sacarle partido a la escucha activa y qué cantas en cada punto del circuito.
+> La mayoría de los vuelos de planeador salen de campos sin torre. Aquí verás cómo mantenerte situado mediante la autoinformación, por qué tus ojos siempre van antes que la radio, cómo sacarle partido a la escucha activa y qué cantas en cada punto del circuito.
 
 ## Autoinformación en aeródromos sin torre de control
 

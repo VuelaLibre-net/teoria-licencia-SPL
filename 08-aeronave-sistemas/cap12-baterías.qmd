@@ -1,13 +1,15 @@
 # Baterías
 
-Un planeador vuela sin motor, pero no sin electricidad: la radio, el FLARM, el transpondedor y los variómetros dependen de la batería. Gestionarla bien es gestionar tu seguridad.
-
-En este capítulo aprenderás:
-
-* **Los tipos de batería**: plomo-ácido (gel/AGM) y litio (LiFePO4), con sus ventajas y sus precauciones.
-* **La fijación de la batería**: por qué la certificación exige soportes a prueba de impacto.
-* **La gestión de la energía en vuelo**: amperios-hora, consumos y el efecto del frío.
-* **La protección del sistema**: fusibles y disyuntores.
+> Un planeador vuela sin motor, pero no sin electricidad: la radio, el FLARM, el transpondedor y los variómetros dependen de la batería. Gestionarla bien es gestionar tu seguridad.
+>
+>
+> En este capítulo aprenderás:
+>
+>
+> * **Los tipos de batería**: plomo-ácido (gel/AGM) y litio (LiFePO4), con sus ventajas y sus precauciones.
+> * **La fijación de la batería**: por qué la certificación exige soportes a prueba de impacto.
+> * **La gestión de la energía en vuelo**: amperios-hora, consumos y el efecto del frío.
+> * **La protección del sistema**: fusibles y disyuntores.
 
 El planeador vuela sin motor, pero no sin electricidad. La radio, el transpondedor, el FLARM y los variómetros electrónicos necesitan una fuente de energía fiable. En vuelos largos, gestionar la batería es tan importante como gestionar el combustible en un avión a motor.
 

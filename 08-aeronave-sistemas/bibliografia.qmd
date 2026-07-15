@@ -2,11 +2,15 @@
 
 Esta bibliografía es común a los nueve libros del manual de formación SPL. Reúne las fuentes normativas, los manuales técnicos y los apuntes de instrucción que se han utilizado como referencia para elaborar el contenido de la colección.
 
-## Apuntes de instrucción (DTO Fuentemilanos)
+
+**Apuntes de instrucción (DTO Fuentemilanos)**
+
 
 Apuntes de teoría de **Iñaqui Ulibarri García de la Cueva** para la Organización de Formación Declarada (DTO) de Fuentemilanos, organizados por asignatura del temario SPL.
 
-## Normativa y reglamentación
+
+**Normativa y reglamentación**
+
 
 * **Easy Access Rules for Sailplanes**. Agencia de la Unión Europea para la Seguridad Aérea (EASA). Compendio consolidado del Reglamento (UE) 2018/1976 —que contiene la **Part-SFCL** (licencias) y la **Part-SAO** (operaciones)— junto con sus AMC y GM.
   [https://www.easa.europa.eu/sites/default/files/dfu/Sailplane%20Rule%20Book.pdf](https://www.easa.europa.eu/sites/default/files/dfu/Sailplane%20Rule%20Book.pdf)
@@ -14,7 +18,9 @@ Apuntes de teoría de **Iñaqui Ulibarri García de la Cueva** para la Organizac
   [https://eur-lex.europa.eu/legal-content/ES/TXT/PDF/?uri=CELEX:02012R0923-20250501](https://eur-lex.europa.eu/legal-content/ES/TXT/PDF/?uri=CELEX:02012R0923-20250501)
 * **Ley 21/2003, de 7 de julio, de Seguridad Aérea**. Jefatura del Estado (España). Publicada en el BOE núm. 162, de 8 de julio de 2003. Marco legal nacional que complementa la normativa europea.
 
-## Anexos al Convenio de Chicago (OACI)
+
+**Anexos al Convenio de Chicago (OACI)**
+
 
 La OACI desarrolla las normas y métodos recomendados (SARPS) mediante 19 anexos al Convenio sobre Aviación Civil Internacional. Los más relevantes para el piloto de planeador son los anexos 1, 2, 7, 8, 11, 12, 13, 14 y 15.
 
@@ -38,7 +44,9 @@ La OACI desarrolla las normas y métodos recomendados (SARPS) mediante 19 anexos
 * Anexo 18 — Transporte sin riesgos de mercancías peligrosas por vía aérea
 * Anexo 19 — Gestión de la seguridad operacional
 
-## Manuales técnicos y métodos de formación
+
+**Manuales técnicos y métodos de formación**
+
 
 * **Glider Flying Handbook (FAA-H-8083-13B)**. Federal Aviation Administration (FAA), U.S. Department of Transportation. Obra en dominio público; fuente de buena parte de las ilustraciones técnicas de la colección.
   [https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/glider_handbook](https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/glider_handbook)

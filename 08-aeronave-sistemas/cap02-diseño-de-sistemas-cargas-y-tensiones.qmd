@@ -1,14 +1,16 @@
 # Diseño de sistemas, cargas y tensiones
 
-Tu planeador es fuerte, pero no invencible. La certificación define con precisión cuánta carga aguanta la estructura y dónde están los límites que nunca debes explorar.
-
-En este capítulo aprenderás:
-
-* **El factor de carga (n)**: qué significa "tirar de g" y cómo lo provocan los virajes y las recogidas.
-* **Las categorías de diseño** Utilitaria y Acrobática según CS-22 y sus límites en g.
-* **Carga límite y carga de rotura**: qué protege el factor de seguridad de 1,5 y qué no.
-* **La fatiga estructural** de los composites y sus inspecciones de vida útil.
-* **El flameo (**flutter**)**: la vibración que puede desintegrar un planeador en segundos.
+> Tu planeador es fuerte, pero no invencible. La certificación define con precisión cuánta carga aguanta la estructura y dónde están los límites que nunca debes explorar.
+>
+>
+> En este capítulo aprenderás:
+>
+>
+> * **El factor de carga (n)**: qué significa "tirar de g" y cómo lo provocan los virajes y las recogidas.
+> * **Las categorías de diseño** Utilitaria y Acrobática según CS-22 y sus límites en g.
+> * **Carga límite y carga de rotura**: qué protege el factor de seguridad de 1,5 y qué no.
+> * **La fatiga estructural** de los composites y sus inspecciones de vida útil.
+> * **El flameo (**flutter**)**: la vibración que puede desintegrar un planeador en segundos.
 
 Un planeador no solo tiene que ser aerodinámicamente eficiente; también tiene que aguantar las fuerzas de la atmósfera y las maniobras del piloto. Ese diseño estructural se rige por normas estrictas (como la CS-22 de EASA (European Union Aviation Safety Agency)), que fijan cuánta carga debe soportar la aeronave antes de sufrir daños.
 

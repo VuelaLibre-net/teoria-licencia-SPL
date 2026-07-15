@@ -1,6 +1,6 @@
 # Términos de información meteorológica relevantes para VFR
 
-La radio aeronáutica tiene su propio vocabulario meteorológico, y conocerlo te ahorra malentendidos en vuelo. En este capítulo verás qué son el ATIS y el VOLMET, qué significa CAVOK, cómo funcionan el QNH y el QFE, por qué el viento de la Torre y el de los mapas se miden diferente, y cuándo tienes que emitir un AIREP.
+> La radio aeronáutica tiene su propio vocabulario meteorológico, y conocerlo te ahorra malentendidos en vuelo. En este capítulo verás qué son el ATIS y el VOLMET, qué significa CAVOK, cómo funcionan el QNH y el QFE, por qué el viento de la Torre y el de los mapas se miden diferente, y cuándo tienes que emitir un AIREP.
 
 ## ATIS: el servicio automático de información terminal
 

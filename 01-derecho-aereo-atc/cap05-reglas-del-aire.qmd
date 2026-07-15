@@ -1,13 +1,15 @@
 # Reglas del aire
 
-El cielo no tiene señales de STOP, pero tiene reglas estrictas; dominar el reglamento SERA es esencial para evitar colisiones.
-
-En este capítulo aprenderás:
-
-* El reglamento SERA, el código de circulación aéreo europeo.
-* El principio de "ver y evitar" del vuelo visual (VFR).
-* Quién cede el paso a quién (globos > planeadores > motor).
-* Cuándo puedes volar bajo (laderas, tomas fuera de campo) y cuándo no.
+> El cielo no tiene señales de STOP, pero tiene reglas estrictas; dominar el reglamento SERA es esencial para evitar colisiones.
+>
+>
+> En este capítulo aprenderás:
+>
+>
+> * El reglamento SERA, el código de circulación aéreo europeo.
+> * El principio de "ver y evitar" del vuelo visual (VFR).
+> * Quién cede el paso a quién (globos > planeadores > motor).
+> * Cuándo puedes volar bajo (laderas, tomas fuera de campo) y cuándo no.
 
 ## El código de circulación del cielo: SERA
 

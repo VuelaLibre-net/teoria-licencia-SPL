@@ -1,6 +1,6 @@
 # Procedimientos de socorro y urgencia
 
-MAYDAY y PAN PAN no son sinónimos. Este capítulo explica cuándo usar cada uno, qué decir exactamente y en qué frecuencia. Son los dos mensajes más importantes que puedes transmitir por radio, y esperas no necesitarlos nunca. Por eso los tienes que saber de memoria. Cierra el capítulo otro procedimiento que también esperas no usar jamás: qué hacer si una aeronave militar te intercepta.
+> MAYDAY y PAN PAN no son sinónimos. Este capítulo explica cuándo usar cada uno, qué decir exactamente y en qué frecuencia. Son los dos mensajes más importantes que puedes transmitir por radio, y esperas no necesitarlos nunca. Por eso los tienes que saber de memoria. Cierra el capítulo otro procedimiento que también esperas no usar jamás: qué hacer si una aeronave militar te intercepta.
 
 ## MAYDAY: situación de socorro
 

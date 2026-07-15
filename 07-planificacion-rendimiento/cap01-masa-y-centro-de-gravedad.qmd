@@ -1,13 +1,15 @@
 # Masa y centro de gravedad
 
-La masa y el centrado son los cimientos de la seguridad de cada vuelo. Los números que apuntas en el hangar tienen consecuencias físicas muy concretas: de ellos depende que el planeador responda como un guante o que se convierta en una máquina imprevisible.
-
-En este capítulo aprenderás:
-
-* **El centro de gravedad y la estabilidad**: por qué un CG atrasado puede hacer una barrena irrecuperable y qué precio pagas por un CG adelantado.
-* **El cálculo de masa y centrado**: la línea de referencia (**datum**), el brazo de palanca y el momento, con un ejemplo numérico como el del examen.
-* **La gestión del MTOW**: qué le ocurre al planeador cuando lo sobrecargas.
-* **El lastre de agua y el lastre de cola**: cuándo te ayudan y cómo gestionarlos con seguridad.
+> La masa y el centrado son los cimientos de la seguridad de cada vuelo. Los números que apuntas en el hangar tienen consecuencias físicas muy concretas: de ellos depende que el planeador responda como un guante o que se convierta en una máquina imprevisible.
+>
+>
+> En este capítulo aprenderás:
+>
+>
+> * **El centro de gravedad y la estabilidad**: por qué un CG atrasado puede hacer una barrena irrecuperable y qué precio pagas por un CG adelantado.
+> * **El cálculo de masa y centrado**: la línea de referencia (**datum**), el brazo de palanca y el momento, con un ejemplo numérico como el del examen.
+> * **La gestión del MTOW**: qué le ocurre al planeador cuando lo sobrecargas.
+> * **El lastre de agua y el lastre de cola**: cuándo te ayudan y cómo gestionarlos con seguridad.
 
 ## Centro de gravedad (CG) y estabilidad
 

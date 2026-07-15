@@ -1,14 +1,16 @@
 # Planificación de vuelo y definición de tareas
 
-Volar distancia no es solo una cuestión de habilidad en la palanca; es un juego de estrategia donde la gestión del tiempo y la meteorología son tus principales recursos. Una tarea bien planificada es la mitad del éxito de un vuelo de campo.
-
-En este capítulo aprenderás:
-
-* **La velocidad media**: el cálculo de la ventana de convección y el radio de acción real del día.
-* **Triángulo FAI y AAT**: dos tipos de tarea, dos estrategias mentales distintas.
-* **La planificación sobre la orografía española**: valles ciegos, puntos de escape y líneas de convergencia.
-* **El equipo de supervivencia**: qué exige la normativa europea cuando la ruta complica un eventual rescate.
-* **Los mínimos personales**: el "interruptor" que te convierte de competidor en superviviente.
+> Volar distancia no es solo una cuestión de habilidad en la palanca; es un juego de estrategia donde la gestión del tiempo y la meteorología son tus principales recursos. Una tarea bien planificada es la mitad del éxito de un vuelo de campo.
+>
+>
+> En este capítulo aprenderás:
+>
+>
+> * **La velocidad media**: el cálculo de la ventana de convección y el radio de acción real del día.
+> * **Triángulo FAI y AAT**: dos tipos de tarea, dos estrategias mentales distintas.
+> * **La planificación sobre la orografía española**: valles ciegos, puntos de escape y líneas de convergencia.
+> * **El equipo de supervivencia**: qué exige la normativa europea cuando la ruta complica un eventual rescate.
+> * **Los mínimos personales**: el "interruptor" que te convierte de competidor en superviviente.
 
 ## Velocidad media: la clave de la distancia
 

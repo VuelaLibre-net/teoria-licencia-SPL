@@ -1,14 +1,16 @@
 # Sistemas de lastre con agua
 
-El agua en las alas es el "turbo" de los días de térmicas fuertes: más carga alar, más velocidad de crucero. Pero un sistema de lastre mal gestionado convierte esa ventaja en una emergencia.
-
-En este capítulo aprenderás:
-
-* **Para qué sirve el lastre**: carga alar y desplazamiento de la polar de velocidades.
-* **Los componentes del sistema**: tanques o bolsas, válvulas de descarga y respiraderos.
-* **El llenado y el vaciado**: simetría, tiempos y comprobaciones.
-* **Los riesgos**: congelación, vaciado asimétrico y aterrizaje con agua.
-* **El lastre de cola**: el contrapeso que restaura el centrado óptimo.
+> El agua en las alas es el "turbo" de los días de térmicas fuertes: más carga alar, más velocidad de crucero. Pero un sistema de lastre mal gestionado convierte esa ventaja en una emergencia.
+>
+>
+> En este capítulo aprenderás:
+>
+>
+> * **Para qué sirve el lastre**: carga alar y desplazamiento de la polar de velocidades.
+> * **Los componentes del sistema**: tanques o bolsas, válvulas de descarga y respiraderos.
+> * **El llenado y el vaciado**: simetría, tiempos y comprobaciones.
+> * **Los riesgos**: congelación, vaciado asimétrico y aterrizaje con agua.
+> * **El lastre de cola**: el contrapeso que restaura el centrado óptimo.
 
 El lastre de agua (**water ballast**) es lo que permite a los planeadores de competición ajustar su peso a las condiciones del día. Con más peso, el velero vuela más rápido perdiendo menos altura, algo decisivo para hacer grandes distancias cuando las térmicas son potentes.
 

@@ -1,14 +1,16 @@
 # Circuitos y aterrizaje
 
-El circuito de tráfico es el corazón del vuelo de planeador: el momento en que toda la energía acumulada durante la travesía se convierte en un aterrizaje preciso y seguro. A diferencia de un avión con motor, el planeador no tiene segunda oportunidad si la primera aproximación sale mal —no hay potencia para rectificar. El circuito exige planificación anticipada, visión tridimensional del espacio y la capacidad de tomar decisiones mientras el suelo se acerca.
-
-En este capítulo aprenderás:
-
-* **La estructura del circuito estándar**: los cuatro tramos y las alturas de referencia en cada uno.
-* **La lista de comprobación FUSTALL**: qué verificar antes de aterrizar y en qué orden.
-* **Gestión de la velocidad con viento**: cómo calcular la velocidad de aproximación correcta.
-* **El uso eficaz de los aerofrenos**: cómo utilizarlos para clavar el punto de toma.
-* **Las correcciones en circuito**: cómo adaptarse cuando la energía no coincide con el plan.
+> El circuito de tráfico es el corazón del vuelo de planeador: el momento en que toda la energía acumulada durante la travesía se convierte en un aterrizaje preciso y seguro. A diferencia de un avión con motor, el planeador no tiene segunda oportunidad si la primera aproximación sale mal —no hay potencia para rectificar. El circuito exige planificación anticipada, visión tridimensional del espacio y la capacidad de tomar decisiones mientras el suelo se acerca.
+>
+>
+> En este capítulo aprenderás:
+>
+>
+> * **La estructura del circuito estándar**: los cuatro tramos y las alturas de referencia en cada uno.
+> * **La lista de comprobación FUSTALL**: qué verificar antes de aterrizar y en qué orden.
+> * **Gestión de la velocidad con viento**: cómo calcular la velocidad de aproximación correcta.
+> * **El uso eficaz de los aerofrenos**: cómo utilizarlos para clavar el punto de toma.
+> * **Las correcciones en circuito**: cómo adaptarse cuando la energía no coincide con el plan.
 
 ## Estructura del circuito de tráfico
 

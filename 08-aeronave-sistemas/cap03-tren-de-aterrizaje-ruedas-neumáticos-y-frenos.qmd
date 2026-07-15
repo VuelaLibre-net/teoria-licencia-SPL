@@ -1,14 +1,16 @@
 # Tren de aterrizaje, ruedas, neumáticos y frenos
 
-Cada vuelo termina en el suelo, y el tren de aterrizaje es lo único que se interpone entre la estructura (y tu columna vertebral) y la pista.
-
-En este capítulo aprenderás:
-
-* **Las configuraciones del tren**: fijo y retráctil, y la disciplina que exige cada uno.
-* **La amortiguación y los "elementos fusible"**: cómo el tren protege al piloto en un aterrizaje duro.
-* **El sistema de frenado**: tipos de freno, accionamiento y sus límites.
-* **El patín y la rueda de cola**: los puntos de desgaste que hay que vigilar.
-* **Qué hacer si el tren no sale**: la emergencia más benigna del catálogo, si la gestionas bien.
+> Cada vuelo termina en el suelo, y el tren de aterrizaje es lo único que se interpone entre la estructura (y tu columna vertebral) y la pista.
+>
+>
+> En este capítulo aprenderás:
+>
+>
+> * **Las configuraciones del tren**: fijo y retráctil, y la disciplina que exige cada uno.
+> * **La amortiguación y los "elementos fusible"**: cómo el tren protege al piloto en un aterrizaje duro.
+> * **El sistema de frenado**: tipos de freno, accionamiento y sus límites.
+> * **El patín y la rueda de cola**: los puntos de desgaste que hay que vigilar.
+> * **Qué hacer si el tren no sale**: la emergencia más benigna del catálogo, si la gestionas bien.
 
 El tren de aterrizaje es la interfaz del planeador con el suelo. Pasamos casi todo el tiempo en el aire, pero una toma segura depende de que ese sistema funcione bien y de que el piloto lo gestione con disciplina.
 
