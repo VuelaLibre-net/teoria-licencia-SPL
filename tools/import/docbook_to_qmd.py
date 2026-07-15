@@ -57,6 +57,9 @@ def convert_node(node, ctx):
     elif tag == 'table':
         return handle_table(node, ctx, convert_node)
 
+    elif tag in ['indexterm', 'anchor']:
+        return ""
+
     # Bloques de párrafo y texto
     elif tag == 'simpara' or tag == 'para':
         # Procesar hijos inline

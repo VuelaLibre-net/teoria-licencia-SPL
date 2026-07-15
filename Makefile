@@ -24,6 +24,9 @@ LIBROS = 01-derecho-aereo-atc \
 
 .PHONY: all clean clean-tmp test $(LIBROS)
 
+# Evitar que GNU Make borre automáticamente los archivos intermedios (.qmd)
+.SECONDARY:
+
 # Por defecto, compilar toda la colección de libros (01 a 09)
 all: $(LIBROS)
 
