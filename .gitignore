@@ -1,1 +1,5 @@
 .env*
+build/
+.quarto/
+_book/
+tools/import/tmp/

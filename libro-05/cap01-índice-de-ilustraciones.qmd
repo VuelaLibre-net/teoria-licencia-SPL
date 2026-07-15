@@ -1,0 +1,15 @@
+# Índice de ilustraciones
+
+list-of::image[]
+
+
+
+****
+
+La aerodinámica de un planeador no tiene secretos. Tiene física. Y la física no negocia.
+
+Cuando el ángulo de ataque supera el valor crítico, la sustentación colapsa independientemente de la altitud. Cuando el centrado está fuera de límites posteriores, la recuperación de una barrena puede ser imposible. Cuando el picado en espiral se inicia sin referencias exteriores, el anemómetro puede superar VNE antes de que el piloto comprenda qué está pasando.
+
+Siete capítulos transforman la física del vuelo en criterio de pilotaje real: sustentación, resistencia, estabilidad, control, pérdida, barrena y espiral.
+
+El planeador no vuela por arte de magia. Vuela porque alguien entendió la física antes de sentarse en la cabina.

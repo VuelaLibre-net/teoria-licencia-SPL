@@ -1,0 +1,159 @@
+# Glosario de términos
+
+Este glosario recoge las definiciones y acrónimos esenciales de la aerodinámica y los principios de vuelo aplicables a la licencia de piloto de planeador (SPL), organizados según el programa de formación EASA AMC1 SFCL.130. Cada definición incluye una referencia al capítulo donde el concepto se trata en profundidad.
+
+### **Ángulo de ataque (AoA / **
+
+Ángulo que forma la cuerda aerodinámica del ala con la dirección del viento relativo. Es el parámetro aerodinámico más importante: de él dependen directamente el coeficiente de sustentación y el coeficiente de resistencia. Aumenta al tirar de la palanca; disminuye al empujarla. No confundirlo con la actitud del morro: un planeador puede tener el morro bajo y un ángulo de ataque peligrosamente alto si la trayectoria de descenso es más pronunciada que la actitud. La referencia es siempre el viento relativo, no el horizonte. (Mencionado en: cap. 6)
+
+### **Ángulo de ataque crítico**
+
+Ángulo de ataque máximo que el ala puede soportar antes de que el flujo de aire se desprenda del extradós y la sustentación se destruya. Para la mayoría de los perfiles de planeador se sitúa entre 15° y 18°. Su superación, sea cual sea la velocidad, el peso o la altitud, provoca siempre la pérdida (**stall**). (Mencionado en: cap. 6)
+
+### **Autorrotación (**
+
+Ver Barrena. Movimiento autosostenido de rotación y descenso producido por una pérdida asimétrica entre las dos alas: la guiñada y el alabeo se realimentan entre sí sin intervención del piloto. (Mencionado en: cap. 6)
+
+### **Barrena (autorrotación / **
+
+Condición de vuelo resultado de una pérdida de sustentación asimétrica. Un ala entra en pérdida más profundamente que la otra, cae bruscamente y su mayor ángulo de ataque la ancla en la pérdida, mientras la otra ala continúa volando parcialmente. El desequilibrio genera un acoplamiento intenso de guiñada y alabeo: rotación rápida y descenso de hasta 100 m por vuelta, completando cada giro en unos 4 segundos. Recuperación (en orden inamovible): pedal contrario a la rotación a fondo, palanca al centro y adelante, centrar pedales al cesar la rotación y recuperar suavemente del picado. (Mencionado en: cap. 6)
+
+### **Bernoulli, teorema de**
+
+Principio de la física de fluidos que establece que, en un fluido en movimiento, un aumento de la velocidad del flujo se corresponde con una disminución de la presión estática. En aerodinámica explica parte de la sustentación: el aire que acelera sobre el extradós genera una zona de baja presión que aspira el ala hacia arriba. Se complementa con el efecto acción-reacción de Newton (deflexión del flujo hacia abajo en el borde de salida). (Mencionado en: cap. 1)
+
+### **Capa límite**
+
+Delgada capa de aire que fluye directamente en contacto con la superficie del ala, donde la velocidad cae gradualmente desde la del flujo libre hasta cero en la superficie sólida. Puede ser **laminar** (flujo ordenado, mínima resistencia) o **turbulenta** (flujo caótico, mayor resistencia). El punto de transición entre ambos regímenes determina el rendimiento del perfil: un simple mosquito aplastado en el borde de ataque puede adelantarlo y degradar el planeo de forma medible. (Mencionado en: cap. 1)
+
+### **CG (Centro de gravedad)**
+
+Punto teórico donde se considera aplicada la resultante de todas las fuerzas de gravedad que actúan sobre el planeador. Su ubicación longitudinal es clave para la estabilidad y el control del vuelo. (Mencionado en: cap. 3)
+
+### **Centro de Presiones (CP)**
+
+Punto de la cuerda aerodinámica donde se considera aplicado el vector resultante de la sustentación total del ala. No es fijo: se desplaza hacia adelante al aumentar el ángulo de ataque y hacia atrás al disminuirlo. Su movilidad obliga a situar el CG delante de su rango de movimiento para mantener la estabilidad longitudinal. (Mencionado en: cap. 1, cap. 3)
+
+### **Coeficiente de planeo (L/D, **
+
+Relación entre la sustentación (*Lift*) y la resistencia total (*Drag*) de la aeronave, equivalente a la distancia horizontal recorrida por unidad de altura perdida en aire en calma (un planeador con L/D de 40 recorre 40 km por cada kilómetro de altura cedida). (Mencionado en: cap. 2)
+
+### **Compensador (**
+
+Superficie de control secundaria —o mecanismo de ajuste sobre la superficie principal— que permite aliviar la presión sobre la palanca una vez establecida la actitud deseada. No es un accesorio de comodidad: es un mando aerodinámico fundamental que permite mantener una velocidad constante sin esfuerzo sostenido. Debe ajustarse cada vez que se cambia el régimen de vuelo. (Mencionado en: cap. 4)
+
+### **Curva polar**
+
+Gráfica característica de cada modelo de planeador que relaciona la velocidad horizontal indicada (eje X, en km/h) con la tasa de descenso vertical (eje Y, en m/s) en condiciones de aire en calma. De ella se extraen la velocidad de mínimo descenso (vértice superior) y la velocidad de mejor planeo (tangente desde el origen). Es el "DNI" del planeador y la referencia para adaptar la velocidad al viento y a las zonas de ascenso o descenso. (Mencionado en: cap. 2)
+
+### **Diagrama V-n (envolvente de vuelo)**
+
+Representación gráfica de los límites estructurales del planeador que relaciona la velocidad (V) con el factor de carga en Gs (n). Define la "caja" de operaciones seguras: dentro de la envolvente la estructura aguanta; fuera, se producen deformaciones permanentes o roturas. Según CS-22: categoría U (*Utility*) soporta de +5,3g a −2,65g a la velocidad V~A~, límites que se estrechan a +4,0g y −1,5g a V~D~; categoría A (*Acrobática*) de +7,0g a −5,0g. Estos límites solo son válidos respetando también los límites de velocidad. (Mencionado en: cap. 5)
+
+### **Diedro (ángulo diedro)**
+
+Ángulo hacia arriba que forman las alas respecto al plano horizontal, dando al planeador una forma de "V" abierta vista de frente. Proporciona estabilidad lateral: cuando un ala baja por una perturbación, recibe el flujo de aire con mayor ángulo de ataque efectivo, genera más sustentación y vuelve a la posición nivelada sin intervención del piloto. (Mencionado en: cap. 3)
+
+### **Deriva**
+
+Desviación lateral de la trayectoria del planeador respecto al suelo provocada por el viento de costado (en navegación). En aerodinámica, se refiere a la superficie fija vertical de la cola (estabilizador vertical) que aporta estabilidad de guiñada. (Mencionado en: cap. 3)
+
+### **Efecto suelo (**
+
+Mejora transitoria de la eficiencia aerodinámica que experimenta el planeador cuando vuela por debajo de una envergadura de ala sobre el terreno. El suelo actúa como barrera que comprime los torbellinos de punta de ala, reduce el *downwash* y disminuye la resistencia inducida. Como resultado, el planeador "flota" más de lo esperado: una entrada larga o con exceso de velocidad puede añadir centenares de metros de rodada. (Mencionado en: cap. 1)
+
+### **Efecto veleta**
+
+Tendencia del planeador a alinearse automáticamente con la dirección del viento relativo gracias a la deriva. La distancia entre el CG y la deriva actúa como brazo de palanca que amplifica la fuerza correctora. Es el mecanismo que proporciona la estabilidad direccional del planeador. (Mencionado en: cap. 3)
+
+### **Eficacia de mando**
+
+Grado de respuesta de las superficies de control en función de la velocidad de vuelo. A alta velocidad, la presión dinámica es mayor y los mandos están duros y muy reactivos. A baja velocidad, disminuye y los mandos se vuelven blandos o "chiclosos". Esta pérdida de eficacia próxima a la velocidad de pérdida es una advertencia física directa: el ala se acerca al ángulo de ataque crítico. (Mencionado en: cap. 4)
+
+### **Espiral del cementerio (**
+
+Ver Picado en espiral. Nombre popular del picado en espiral, que alude a la tendencia mortal de tirar de la palanca sin nivelar previamente las alas, apretando la espiral hasta el fallo estructural. (Mencionado en: cap. 7)
+
+### **Estabilidad dinámica**
+
+Comportamiento de la aeronave en el tiempo tras una perturbación. Si las oscilaciones se amortiguan progresivamente, la estabilidad dinámica es **positiva**; si se mantienen, es **neutra**; si crecen, es **negativa** o divergente. Modos relevantes para el planeador: el fugoide (oscilación longitudinal lenta e inocua) y la tendencia espiral (divergencia lateral que puede derivar en picado en espiral si no se supervisa). (Mencionado en: cap. 3)
+
+### **Estabilidad estática**
+
+Tendencia inicial de la aeronave a responder a una perturbación. Si tiende a volver a su posición de equilibrio, la estabilidad estática es **positiva**; si se queda en la nueva posición, es **neutra**; si se aleja aún más del equilibrio, es **negativa**. La estabilidad estática positiva es la condición de diseño fundamental de todos los planeadores civiles de entrenamiento. (Mencionado en: cap. 3)
+
+### **Factor de carga (n)**
+
+Relación entre la sustentación aerodinámica total y el peso del planeador, expresada en unidades *g*. En vuelo recto y nivelado: n = 1g. En un viraje de 60° de inclinación: n = 2g. El factor de carga eleva la velocidad de pérdida en proporción a su raíz cuadrada: a 2g, sube un 41%. Deflexiones bruscas y maniobras mal coordinadas en turbulencia pueden superar los límites del diagrama V-n. (Mencionado en: cap. 2, cap. 5)
+
+### **Flutter (Flameo aeroelástico)**
+
+Fenómeno físico de oscilaciones aeroelásticas autoexcitadas e inestables que afectan a las superficies sustentadoras o de control del planeador al superar la VNE, pudiendo destruir la estructura en segundos debido a la interacción del flujo de aire a alta velocidad con la flexibilidad estructural. (Mencionado en: cap. 5)
+
+### **Fugoide (modo fugoide)**
+
+Modo de oscilación longitudinal lento y de largo período (30-50 segundos) en el que el planeador intercambia altitud y velocidad en ciclos suaves. Generalmente bien amortiguado y apenas perceptible si el piloto mantiene los mandos sujetos. No es peligroso por sí mismo, pero puede desconcertar al piloto inexperto que intenta corregirlo con entradas bruscas. (Mencionado en: cap. 3)
+
+### **Guiñada adversa (**
+
+Efecto secundario indeseable al accionar los alerones para iniciar un viraje. El alerón que baja (ala exterior) genera más sustentación y también más resistencia inducida, frenando ese lado y tirando del morro en dirección contraria al giro. Es especialmente pronunciado en planeadores de gran envergadura. Se corrige con coordinación pie-mano: aplicar palanca y pedal en la misma dirección simultáneamente. (Mencionado en: cap. 4)
+
+### **IAS (Velocidad indicada / Indicated Air Speed)**
+
+Velocidad de la aeronave respecto al aire circundante tal como la indica el anemómetro, sin correcciones por temperatura ni densidad. Es la referencia para todos los límites aerodinámicos y estructurales (VNE, VA, velocidades de pérdida y curva polar). (Mencionado en: cap. 5)
+
+### **Mando diferencial de alerones**
+
+Sistema de varillaje que hace que el alerón que sube (ala interior del giro) recorra un ángulo mayor que el alerón que baja (ala exterior). Al generar más resistencia parásita en el ala interior, compensa parcialmente la resistencia inducida del ala exterior y reduce la guiñada adversa de forma mecánica. No la elimina completamente: la coordinación pie-mano sigue siendo necesaria. (Mencionado en: cap. 4)
+
+### **Pérdida de sustentación (**
+
+Condición aerodinámica que se produce cuando el ángulo de ataque supera el valor crítico (≈ 15°–18°) y el flujo de aire se desprende de forma turbulenta del extradós del ala. La sustentación cae drásticamente y la resistencia se dispara. Síntomas previos: morro alto, velocidad baja, mandos blandos y bataneo estructural. Recuperación: palanca adelante para reducir el ángulo de ataque. Nunca usar los alerones para levantar un ala caída durante la pérdida. (Mencionado en: cap. 6)
+
+### **Picado en espiral (**
+
+Condición de vuelo en la que el planeador, inclinado lateralmente, describe una trayectoria curva descendente con velocidad y factor de carga crecientes. El planeador *vuela* —no está en pérdida—. Diagnóstico clave: velocidad alta o creciendo = espiral; velocidad baja y constante = barrena. El tratamiento es el opuesto en cada caso, por lo que confundirlos es letal. Recuperación de la espiral: abrir aerofrenos, nivelar alas primero, recuperar suavemente del picado. (Mencionado en: cap. 7)
+
+### **Resistencia inducida**
+
+Componente de la resistencia aerodinámica que es subproducto directo de generar sustentación. Las diferencias de presión entre extradós e intradós hacen que el aire fluya alrededor de las puntas del ala formando torbellinos helicoidales que inclinan el vector de sustentación hacia atrás, creando una fuerza opuesta al avance. Es máxima a velocidades bajas; disminuye al aumentar la velocidad. Las alas de gran envergadura (alta relación de aspecto) la reducen notablemente. (Mencionado en: cap. 1)
+
+### **Resistencia parásita**
+
+Componente de la resistencia aerodinámica debida al movimiento del planeador a través del aire, independientemente de la sustentación generada. Incluye la fricción superficial, la resistencia de forma y la resistencia de interferencia entre superficies. Aumenta con el cuadrado de la velocidad: si la velocidad se dobla, la resistencia parásita se cuadruplica. A alta velocidad domina sobre la resistencia inducida. (Mencionado en: cap. 1)
+
+### **Sustentación (**
+
+Fuerza aerodinámica perpendicular a la dirección del viento relativo que se opone al peso y mantiene al planeador en vuelo. Se genera por la diferencia de presión entre extradós (baja presión, flujo acelerado) e intradós (alta presión, flujo más lento), según el teorema de Bernoulli, combinada con la deflexión del flujo hacia abajo en el borde de salida (tercera ley de Newton). Depende de la densidad del aire, la velocidad al cuadrado, la superficie alar y el coeficiente de sustentación. (Mencionado en: cap. 1)
+
+### **Tendencia espiral**
+
+Característica de estabilidad dinámica lateral presente en la mayoría de los planeadores: si se les abandona con un pequeño ángulo de inclinación, el alabeo crece lentamente hasta desarrollar un picado en espiral. El planeador es estáticamente estable en alabeo pero dinámicamente divergente en espiral cuando se deja sin supervisión. Es la causa fundamental de los accidentes por pérdida de control en condiciones de visibilidad reducida. (Mencionado en: cap. 3, cap. 7)
+
+### **Torbellinos de punta de ala (**
+
+Vórtices helicoidales que se generan en cada punta de ala por la diferencia de presión entre extradós e intradós: el aire fluye alrededor de la punta desde la zona de alta presión (intradós) hacia la de baja (extradós). Al desprenderse hacia atrás inclinan el vector de sustentación, generando la resistencia inducida. A escala mayor, los torbellinos de punta de aeronaves pesadas constituyen la turbulencia de estela, cuya peligrosidad en entornos de aeródromo mixto no debe subestimarse. (Mencionado en: cap. 1)
+
+### **VA (Velocidad de maniobra / Maneuvering Speed)**
+
+Velocidad máxima a la que pueden aplicarse deflexiones totales en un solo mando sin causar daños estructurales. Por debajo de VA, ante una deflexión brusca completa, el planeador entra en pérdida antes de generar suficientes Gs para superar su límite de carga. Por encima de VA, esa protección desaparece. Importante: la VA no cubre entradas simultáneas en más de un eje de control; incluso por debajo de VA, combinar timón y palanca a fondo puede superar los límites estructurales. (Mencionado en: cap. 5)
+
+### **VRA (Velocidad máxima en aire turbulento / Rough Air Speed)**
+
+Velocidad máxima a la que puede volarse en aire turbulento. Es la marca que separa los arcos del anemómetro según CS 22.1545: en la VRA termina el arco verde (operación normal) y empieza el amarillo (precaución, solo aire en calma). No debe confundirse con la VA, que es un límite estructural frente a deflexiones de mando y no se marca en la esfera, aunque en muchos veleros ambas tengan valores próximos. (Mencionado en: cap. 5)
+
+### **Velocidad de mínimo descenso (Minimum Sink Speed)**
+
+Velocidad a la que el planeador pierde la menor cantidad de altura posible por unidad de tiempo (obtenida en el vértice superior de la curva polar), óptima para centrar y explotar térmicas débiles. (Mencionado en: cap. 2)
+
+### **Velocidad de mejor planeo (V**
+
+Velocidad a la que el planeador obtiene su máxima distancia recorrida por unidad de altura perdida en aire en calma (máxima fineza, correspondiente al L/D máximo determinado por la tangente a la curva polar). (Mencionado en: cap. 2)
+
+### **VNE (Velocidad de nunca exceder / Never Exceed Speed)**
+
+Límite absoluto de velocidad del planeador, indicado por la línea roja en el anemómetro. Superarla expone el planeador al riesgo de flutter aeroelástico, que puede desintegrar la estructura en segundos, sin previo aviso. La VNE disminuye con la altitud porque la TAS crece respecto a la IAS en aire menos denso. Cerca de la VNE, las deflexiones de mando deben limitarse a un tercio de su recorrido total. Regulada en CS-22.1505. (Mencionado en: cap. 5)
+
+### **Viento relativo (**
+
+Dirección y velocidad del flujo de aire que incide sobre el ala, opuesta a la trayectoria de vuelo real del planeador. El ángulo de ataque se mide siempre respecto al viento relativo, nunca respecto al horizonte ni a la actitud del morro. Un planeador puede tener el morro arriba y aun así tener el viento relativo proveniente de arriba si la trayectoria real es ascendente; a la inversa, puede tener el morro bajo y un ángulo de ataque peligrosamente alto si la trayectoria de descenso es más pronunciada que la actitud. (Mencionado en: cap. 6)

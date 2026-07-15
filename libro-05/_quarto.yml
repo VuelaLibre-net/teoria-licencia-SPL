@@ -1,0 +1,31 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Principios de Vuelo"
+  author: "VuelaLibre.net"
+  chapters:
+    - index.qmd
+    - cap01-índice-de-ilustraciones.qmd
+    - cap02-aerodinámica-flujo-de-aire.qmd
+    - cap03-mecánica-de-vuelo.qmd
+    - cap04-estabilidad.qmd
+    - cap05-control.qmd
+    - cap06-limitaciones-factor-de-carga-y-maniobras.qmd
+    - cap07-pérdida-de-sustentación-y-autorrotación.qmd
+    - cap08-picado-en-espiral.qmd
+    - cap09-glosario-de-términos.qmd
+    - cap10-bibliografía-y-fuentes.qmd
+
+format:
+  typst:
+    toc: true
+    number-sections: true
+    margin:
+      top: 2.5cm
+      bottom: 2.5cm
+      left: 3cm
+      right: 3cm
+  epub:
+    toc: true
