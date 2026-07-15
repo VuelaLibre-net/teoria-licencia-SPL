@@ -1,0 +1,1429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?asciidoc-toc maxdepth="2"?>
+<?asciidoc-numbered?>
+<book xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="es" xml:id="libro-05">
+<info>
+<title>Principios de Vuelo</title>
+<date>11 de julio de 2026</date>
+<revhistory>
+<revision>
+<revnumber>0.8.1</revnumber>
+<date>11 de julio de 2026</date>
+</revision>
+</revhistory>
+<cover role="front">
+<mediaobject>
+<imageobject>
+<imagedata fileref="/home/camus/ws/VuelaLibre.net/aesa-spl-oficial/libros/05-principios-vuelo/cover/tema-05-frente.pdf"/>
+</imageobject>
+</mediaobject>
+</cover>
+<cover role="back">
+<mediaobject>
+<imageobject>
+<imagedata fileref="/home/camus/ws/VuelaLibre.net/aesa-spl-oficial/libros/05-principios-vuelo/cover/tema-05-reverso.pdf"/>
+</imageobject>
+</mediaobject>
+</cover>
+</info>
+<colophon xml:id="_información_legal_y_licencia">
+<title>Información Legal y Licencia</title>
+<simpara><emphasis role="strong">Atribución y Fuentes</emphasis></simpara>
+<blockquote>
+<simpara>El <emphasis role="strong">temario de esta colección —el índice— está avalado por AESA</emphasis> (Agencia Estatal de Seguridad Aérea), la autoridad aeronáutica civil de España. Este aval certifica que el programa de formación teórica para la Licencia de Piloto de Planeador (SPL) es conforme al syllabus del AMC1 SFCL.130; no obstante, el desarrollo del contenido es responsabilidad exclusiva de los autores.</simpara>
+<simpara>El contenido se basa en la síntesis de normativas oficiales, estándares de seguridad de la <emphasis role="strong">OACI</emphasis> (Organización de Aviación Civil Internacional) y de <emphasis role="strong">EASA</emphasis> (European Union Aviation Safety Agency), así como de las mejores prácticas de la comunidad de vuelo a vela española, recogidas por varios instructores, y recopiladas por el instructor Iñaqui Ulibarri García de la Cueva para los aeroclubs de Ocaña y Fuentemilanos.</simpara>
+</blockquote>
+<simpara>&#160;</simpara>
+<simpara><emphasis role="strong">EXENCIÓN DE RESPONSABILIDAD - USO BAJO PROPIO RIESGO</emphasis></simpara>
+<simpara>La aviación es una actividad que conlleva riesgos inherentes. Aunque se ha realizado un esfuerzo exhaustivo para garantizar la precisión técnica de este manual utilizando fuentes oficiales actualizadas:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Los autores, editores y colaboradores NO asumen responsabilidad alguna</emphasis> por daños personales, materiales o de cualquier otra índole que pudieran derivarse de interpretaciones erróneas o errores técnicos en el texto.</simpara>
+</listitem>
+<listitem>
+<simpara>Este manual es una <emphasis role="strong">herramienta de apoyo al estudio</emphasis> y no sustituye en ningún caso ni a la instrucción teórica ni a la práctica obligatoria con un instructor de vuelo cualificado (FI(S)).</simpara>
+</listitem>
+<listitem>
+<simpara>En caso de discrepancia con la normativa vigente publicada por AESA o EASA, prevalecerá siempre el texto legal oficial de la autoridad aeronáutica.</simpara>
+</listitem>
+</itemizedlist>
+<simpara><?asciidoc-hr?></simpara>
+<simpara><?asciidoc-pagebreak?></simpara>
+<simpara><emphasis role="strong">LICENCIA</emphasis></simpara>
+<simpara>Esta obra se distribuye bajo licencia <emphasis role="strong">Creative Commons Atribución 4.0 Internacional (CC BY 4.0)</emphasis>.</simpara>
+<simpara>Usted es libre de:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Compartir</emphasis>: Copiar y redistribuir el material en cualquier medio.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Adaptar</emphasis>: Remezclar, transformar y construir a partir del material para cualquier propósito incluso comercialmente.</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Bajo los siguientes términos:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Atribución</emphasis>: Debe otorgar el crédito correspondiente, proporcionar un enlace a la licencia e indicar si se realizaron cambios. Puede hacerlo de cualquier manera razonable, pero no de una manera que sugiera que el licenciante lo respalda a usted o a su uso.</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Más información: <link xl:href="https://creativecommons.org/licenses/by/4.0/deed.es">https://creativecommons.org/licenses/by/4.0/deed.es</link></simpara>
+<simpara><?asciidoc-hr?></simpara>
+<informaltable frame="all" rowsep="1" colsep="1">
+<tgroup cols="2">
+<colspec colname="col_1" colwidth="25*"/>
+<colspec colname="col_2" colwidth="75*"/>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara><emphasis role="strong">Proyecto</emphasis></simpara></entry>
+<entry align="left" valign="top"><simpara>Manual de vuelo para la obtención de la licencia de piloto de planeador (SPL)</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><emphasis role="strong">Coordinación</emphasis></simpara></entry>
+<entry align="left" valign="top"><simpara>VuelaLibre.net</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><emphasis role="strong">Repositorio</emphasis></simpara></entry>
+<entry align="left" valign="top"><simpara><link xl:href="https://github.com/VuelaLibreNet/manual-spl">https://github.com/VuelaLibreNet/manual-spl</link></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><emphasis role="strong">Licencia</emphasis></simpara></entry>
+<entry align="left" valign="top"><simpara>CC BY 4.0</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><emphasis role="strong">Fuentes</emphasis></simpara></entry>
+<entry align="left" valign="top"><simpara>AESA, EASA, OACI, SERA, AMCs &amp; GM, LSA, manuales de vuelo de Fuentemilanos, FAA Glider Flying Handbook, y manuales de vuelo de otros paises de la UE.</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+</colophon>
+<dedication xml:id="_dedicatoria">
+<title>Dedicatoria</title>
+<blockquote role="text-right">
+<literallayout><emphasis role="strong">A la memoria de Iñaqui Ulibarri García de la Cueva</emphasis>
+
+El maestro que nos regaló las alas y nos enseñó a volar con sabiduría.
+
+Aún te sentimos en el asiento de atrás; nos acompañas en cada térmica y en cada decisión al mando que tomamos recordando tus lecciones.
+
+Gracias por dejarnos tu inmensa pasión como la mejor de las herencias.</literallayout>
+</blockquote>
+<simpara>&#160;</simpara>
+<simpara>&#160;</simpara>
+<simpara>&#160;</simpara>
+<simpara>&#160;</simpara>
+<simpara>&#160;</simpara>
+<simpara>&#160;</simpara>
+<simpara>&#160;</simpara>
+<blockquote>
+<simpara>"Un buen piloto es aquel que utiliza su excelente juicio para evitar situaciones que requieran su excelente habilidad."</simpara>
+<simpara>&#8201;&#8212;&#8201;Frank Borman, piloto del Apolo 8 y referente de la disciplina aeronáutica.</simpara>
+</blockquote>
+</dedication>
+<preface xml:id="_reconocimientos">
+<title>Reconocimientos</title>
+<simpara>Este manual es el fruto de un esfuerzo colaborativo dentro de la comunidad de vuelo sin motor. Queremos expresar nuestro más sincero agradecimiento a:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Agencia Estatal de Seguridad Aérea (AESA)</emphasis> y <emphasis role="strong">EASA</emphasis>, por proporcionar el marco normativo y documental que garantiza la seguridad de nuestras operaciones.</simpara>
+</listitem>
+<listitem>
+<simpara>Los <emphasis role="strong">Instructores de Vuelo (FI(S))</emphasis> y <emphasis role="strong">Examinadores (FE(S))</emphasis> que han dedicado su tiempo a revisar técnicamente estas secciones para asegurar su rigor técnico.</simpara>
+</listitem>
+<listitem>
+<simpara>A la comunidad de <emphasis role="strong">VuelaLibre.net</emphasis>, por impulsar iniciativas que modernizan y democratizan el acceso a la formación aeronáutica de calidad.</simpara>
+</listitem>
+<listitem>
+<simpara>A todos los pilotos que, con su feedback constante, ayudan a que este manual sea una herramienta viva y en evolución.</simpara>
+</listitem>
+<listitem>
+<simpara>A los autores de los manuales internacionales clásicos, cuya estructura ha servido de base para organizar el conocimiento de una forma pedagógica y accesible para las nuevas generaciones de pilotos de planeador y, en especial a:</simpara>
+</listitem>
+</itemizedlist>
+<informaltable frame="none" rowsep="0" colsep="0">
+<tgroup cols="2">
+<colspec colname="col_1" colwidth="58*"/>
+<colspec colname="col_2" colwidth="42*"/>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara><emphasis>Iñaqui Ulibarri García de la Cueva</emphasis> (SPL, FI(S), FE(S))</simpara></entry>
+<entry align="left" valign="top"><simpara>Campeón de España de Vuelo a Vela, Instructor y Examinador de Vuelo a Vela</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Pedro Berlinches (SPL, FI(S), PPL(A), FES(A))</simpara></entry>
+<entry align="left" valign="top"><simpara>Instructor y Examinador de Vuelo a Vela</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Luís Ferreira Escartín (SPL, FI(S), FE(S))</simpara></entry>
+<entry align="left" valign="top"><simpara>Instructor y Examinador de Vuelo a Vela</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Encarnación Novillo-Fertrell Vázquez (SPL, FI(S), FE(S))</simpara></entry>
+<entry align="left" valign="top"><simpara>Instructora y Examinadora de Vuelo a Vela</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Carlos Bravo Domínguez (SPL, FI(S), FE(S))</simpara></entry>
+<entry align="left" valign="top"><simpara>Instructor y Examinador de Vuelo a Vela</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Sergi Pujol Rodríguez (SPL, FI(S), FE(S))</simpara></entry>
+<entry align="left" valign="top"><simpara>Instructor y Examinador de Vuelo a Vela</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Ramón Gutiérrez Camus (SPL)</simpara></entry>
+<entry align="left" valign="top"><simpara>Piloto de Vuelo a Vela. Edición técnica</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+
+</preface>
+<chapter xml:id="_índice_de_ilustraciones">
+<title>Índice de ilustraciones</title>
+<simpara>list-of::image[]</simpara>
+<simpara><?asciidoc-pagebreak?></simpara>
+<abstract>
+<simpara><emphasis role="strong"><emphasis>Tema 5 de 9 del examen teórico para la Licencia de Piloto de Planeador (SPL)</emphasis></emphasis></simpara>
+</abstract>
+<simpara>La aerodinámica de un planeador no tiene secretos. Tiene física. Y la física no negocia.</simpara>
+<simpara>Cuando el ángulo de ataque supera el valor crítico, la sustentación colapsa independientemente de la altitud. Cuando el centrado está fuera de límites posteriores, la recuperación de una barrena puede ser imposible. Cuando el picado en espiral se inicia sin referencias exteriores, el anemómetro puede superar VNE antes de que el piloto comprenda qué está pasando.</simpara>
+<simpara>Siete capítulos transforman la física del vuelo en criterio de pilotaje real: sustentación, resistencia, estabilidad, control, pérdida, barrena y espiral.</simpara>
+<simpara>El planeador no vuela por arte de magia. Vuela porque alguien entendió la física antes de sentarse en la cabina.</simpara>
+</chapter>
+<chapter xml:id="cap01-aerodinamica-flujo-aire">
+<title>Aerodinámica (flujo de aire)</title>
+<blockquote>
+<simpara>La aerodinámica es el fundamento invisible de todo lo que hace un planeador en el aire. En este capítulo aprenderás cómo la diferencia de presión entre extradós e intradós genera sustentación, qué es la capa límite y por qué un solo mosquito aplastado en el borde de ataque puede degradar el rendimiento de un perfil laminar, y cómo las dos grandes familias de resistencia aerodinámica determinan la velocidad óptima de planeo.</simpara>
+</blockquote>
+<section xml:id="ref-sustentacion-cap01">
+<title>Principio de Bernoulli y sustentación</title>
+<simpara>La <link linkend="glos-sustentacion">sustentación</link><indexterm>
+<primary>Sustentación (lift)</primary>
+</indexterm> se genera por una diferencia de presiones entre la parte superior (extradós) y la inferior (intradós) del ala.</simpara>
+<simpara>Cuando el planeador avanza, el aire fluye sobre el perfil curvado del extradós acelerándose, mientras que el aire que pasa por el intradós viaja a menor velocidad. Según el <link linkend="glos-bernoulli">teorema de Bernoulli</link><indexterm>
+<primary>Bernoulli; teorema de</primary>
+</indexterm>, cuando la velocidad de un fluido aumenta, su presión estática disminuye: el extradós queda con menos presión que el intradós, y esa diferencia crea la fuerza neta ascendente que contrarresta el peso del planeador.</simpara>
+<tip>
+<simpara>✦ <emphasis role="strong">REGLA DE ORO</emphasis></simpara>
+<simpara>La sustentación admite dos descripciones del <emphasis role="strong">mismo</emphasis> fenómeno, no dos fuerzas que se sumen: la diferencia de presión (Bernoulli) y la deflexión del aire hacia abajo en el borde de salida (acción-reacción, tercera ley de Newton). El ala que acelera el aire por arriba es la misma que lo desvía hacia abajo; ambas miradas dan la misma fuerza.</simpara>
+</tip>
+<simpara>&#160;</simpara>
+</section>
+<section xml:id="ref-capa-limite-cap01">
+<title>La capa límite</title>
+<simpara>La <link linkend="glos-capa-limite">capa límite</link><indexterm>
+<primary>Capa límite</primary>
+</indexterm> es la fina lámina de aire en contacto directo con la piel del ala. El rozamiento viscoso frena esa capa progresivamente hasta que la velocidad llega a cero sobre la superficie misma. Tiene dos regímenes:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Laminar:</emphasis> el flujo se desliza en láminas paralelas y ordenadas. Genera la mínima fricción posible y es el objetivo principal del diseño de los planeadores modernos.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Turbulenta:</emphasis> el flujo se desordena en pequeños remolinos. El rozamiento aumenta mucho respecto al régimen laminar, la capa se engrosa y el planeo se resiente. Tiene, eso sí, una virtud: al llevar más energía, se aferra mejor al perfil y tarda más en desprenderse. Por eso muchos planeadores montan turbuladores (esa cinta en zigzag que habrás visto en algún Discus): fuerzan la transición a turbulenta justo donde conviene evitar que el flujo se separe.</simpara>
+</listitem>
+</itemizedlist>
+<simpara>El punto de la cuerda donde el flujo laminar pasa a ser turbulento se llama <emphasis role="strong">punto de transición</emphasis> (<xref linkend="fig-05-cap01-capa-limite"/>). Para mantener la capa límite laminar sobre la mayor superficie posible, las alas deben estar completamente limpias; un simple mosquito aplastado en el borde de ataque basta para provocar una transición prematura a capa turbulenta. Si el ángulo de ataque aumenta en exceso, el flujo entra en fase de <emphasis role="strong">separación</emphasis>: se desprende del ala y provoca una caída masiva de sustentación con un gran aumento de resistencia (<emphasis role="strong">stall</emphasis> o pérdida).</simpara>
+<figure xml:id="fig-05-cap01-capa-limite" role="diagrama">
+<title>Capa límite laminar y turbulenta sobre un perfil alar.</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="imagenes/05-cap01-capa-limite.jpg" align="center"/>
+</imageobject>
+<textobject><phrase>Diagrama técnico de perfil alar mostrando la transición de capa límite laminar a turbulenta. En la mitad delantera del extradós, flechas paralelas y ordenadas representan el flujo laminar. Hacia el centro-trasero, las líneas se vuelven caóticas con pequeños remolinos indicando la zona turbulenta. Una flecha vertical etiquetada 'Punto de transición' marca el cambio entre regímenes. Fondo blanco, estilo manual de vuelo técnico europeo.</phrase></textobject>
+</mediaobject>
+</figure>
+<simpara>&#160;</simpara>
+</section>
+<section xml:id="ref-CP-cap01">
+<title>Centro de presiones (CP)</title>
+<simpara>El <link linkend="glos-CP">centro de presiones (CP)</link><indexterm>
+<primary>Centro de Presiones (CP)</primary>
+</indexterm> es el punto de la cuerda alar donde actúa la fuerza neta de sustentación. No es fijo: se desplaza con el ángulo de ataque.</simpara>
+<simpara>La regla:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Más ángulo de ataque → CP avanza hacia el borde de ataque.</simpara>
+</listitem>
+<listitem>
+<simpara>Bajas el morro → CP retrocede.</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Ese vaivén continuo afecta directamente al equilibrio en cabeceo.</simpara>
+<warning>
+<simpara>⚠ <emphasis role="strong">SEGURIDAD</emphasis></simpara>
+<simpara>Debido a la movilidad del CP, el diseño de la aeronave obliga a situar el centro de gravedad (CG) por delante del centro de presiones en las condiciones normales de vuelo. Esa configuración proporciona <emphasis role="strong">estabilidad longitudinal positiva</emphasis>. Para contrarrestar la tendencia a picar (hundir el morro) que produce el CG adelantado, el estabilizador horizontal genera una fuerza descendente que mantiene el equilibrio en cabeceo.</simpara>
+</warning>
+<simpara>&#160;</simpara>
+</section>
+<section xml:id="ref-resistencia-cap01">
+<title>Tipos de resistencia y curva de resistencias</title>
+<simpara>Todo lo que mantiene al planeador en el aire tiene su precio: la resistencia al avance (<emphasis role="strong">drag</emphasis>). Se divide en dos componentes:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong"><link linkend="glos-resistencia-parasita">Resistencia parásita</link><indexterm>
+<primary>Resistencia parásita</primary>
+</indexterm>:</emphasis> la que produce cualquier objeto sólido al moverse a través de un fluido. Crece con el cuadrado de la velocidad (si la velocidad se duplica, la resistencia se cuadruplica). Se compone de:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Fricción superficial de las alas y fuselaje.</simpara>
+</listitem>
+<listitem>
+<simpara>Resistencia de forma (perfil de las piezas).</simpara>
+</listitem>
+<listitem>
+<simpara>Resistencia de interferencia (donde dos superficies ortogonales se unen, como el encastre del plano con el fuselaje).</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong"><link linkend="glos-resistencia-inducida">Resistencia inducida</link><indexterm>
+<primary>Resistencia inducida</primary>
+</indexterm>:</emphasis> el subproducto directo de generar sustentación. La diferencia de presión entre extradós e intradós hace que el aire fluya en sentido contrario alrededor de las puntas del ala, desde la zona de alta presión (intradós) hacia la de baja presión (extradós). Ese rodeo genera <emphasis role="strong"><link linkend="glos-torbellinos-punta">torbellinos helicoidales</link><indexterm>
+<primary>Torbellinos de punta de ala (wingtip vortices)</primary>
+</indexterm></emphasis> que se desprenden de cada punta y que, al inclinar levemente hacia atrás el vector de sustentación resultante, crean una fuerza opositora al avance: la resistencia inducida (<xref linkend="fig-05-cap01-vortices-punta-ala"/>). Al contrario que la parásita, es máxima a velocidades bajas (y altos ángulos de ataque) y disminuye a medida que el planeador acelera.</simpara>
+</listitem>
+</itemizedlist>
+<figure xml:id="fig-05-cap01-vortices-punta-ala" role="diagrama">
+<title>Resistencia inducida por la producción de sustentación <emphasis>(Fuente: FAA Glider Flying Handbook)</emphasis>.</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="imagenes/05-cap01-vortices-punta-ala.png" align="center"/>
+</imageobject>
+<textobject><phrase>Diagrama técnico de planeador visto en perspectiva desde atrás-derecha. En cada punta de ala se forma un vórtice helicoidal que se desprende hacia atrás. Flechas circulares muestran el sentido del giro (antihorario en punta derecha, horario en punta izquierda vistas desde atrás). Una flecha más pequeña muestra cómo el vector de sustentación total se inclina ligeramente hacia atrás (componente de resistencia inducida). Estilo diagrama técnico de manual aeronáutico europeo, fondo blanco.</phrase></textobject>
+</mediaobject>
+</figure>
+<simpara>Hay dos razones por las que un planeador planea tan distinto a un avión de turismo. La primera es la <emphasis role="strong">razón de aspecto</emphasis> (<emphasis role="strong">aspect ratio</emphasis>): cuántas veces cabe la cuerda en la envergadura. Alas largas y estrechas forman vórtices de punta más débiles, así que la resistencia inducida cae. Un planeador de regata alcanza una razón de aspecto de 30:1 o más; un avión de turismo, entre 7 y 8. Esa diferencia explica buena parte de la brecha de rendimiento; el resto lo ponen los perfiles laminares y la limpieza aerodinámica del conjunto. La segunda es el uso de <emphasis role="strong">winglets</emphasis>: las pequeñas aletas verticales en las puntas del ala que cortan el paso al aire que intenta rodear la punta de alta a baja presión. Reducen el vórtice sin estirar más la envergadura.</simpara>
+<simpara>La suma de ambas resistencias en función de la velocidad forma una curva en "U". El punto más bajo de esa curva es la velocidad donde la resistencia aerodinámica total es mínima. Volando exactamente a esa velocidad, el planeador alcanza la mejor relación sustentación/resistencia (L/D): el ángulo de planeo óptimo para maximizar el alcance horizontal.</simpara>
+<simpara>&#160;</simpara>
+</section>
+<section xml:id="ref-efecto-suelo-cap01">
+<title>El efecto suelo</title>
+<simpara>Cuando el planeador vuela a muy baja altura sobre la pista —generalmente por debajo de una envergadura de ala sobre el terreno—, entra en una zona de influencia aerodinámica denominada <emphasis role="strong"><link linkend="glos-efecto-suelo">efecto suelo</link><indexterm>
+<primary>Efecto suelo (ground effect)</primary>
+</indexterm></emphasis>. El terreno actúa como una barrera física que interrumpe la formación normal de los torbellinos de punta de ala y reduce la intensidad del flujo descendente que los alimenta (<emphasis role="strong">downwash</emphasis>).</simpara>
+<simpara>El resultado es una reducción significativa de la resistencia inducida que mejora transitoriamente la relación L/D del planeador (<xref linkend="fig-05-cap01-efecto-suelo"/>):</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Durante el aterrizaje, el planeador "flota" más de lo esperado: al caer la resistencia inducida, apenas decelera y el ala sigue sustentando a velocidades algo inferiores a las que necesitaría en vuelo libre. Un piloto que entra largo o demasiado rápido puede consumir cientos de metros de pista sin posarse.</simpara>
+</listitem>
+<listitem>
+<simpara>Durante el despegue en aeroplano remolcado, el planeador puede despegar a velocidades ligeramente más bajas de las normales. Una vez que abandona el efecto suelo, la resistencia inducida recupera su valor normal y puede producirse una ligera pérdida de ascenso si la velocidad no es suficiente.</simpara>
+</listitem>
+</itemizedlist>
+<figure xml:id="fig-05-cap01-efecto-suelo" role="diagrama">
+<title>El efecto suelo: reducción de torbellinos y mejora transitoria del planeo en proximidad al terreno.</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="imagenes/05-cap01-efecto-suelo.jpg" align="center"/>
+</imageobject>
+<textobject><phrase>Dos paneles comparativos superpuestos. Izquierda: planeador en vuelo libre a altura normal, con vórtices de punta de ala desarrollados completamente y marcados flecha de downwash intensa. Derecha: planeador a baja altura sobre la pista (dentro del efecto suelo), con vórtices de punta comprimidos y reducidos, flecha de downwash débil, y flecha de L/D mejorado. El suelo actúa como espejo que bloquea la expansión vertical del vórtice. Estilo técnico, fondo blanco, colores azul naval.</phrase></textobject>
+</mediaobject>
+</figure>
+<simpara>&#160;</simpara>
+<simpara>&#160;</simpara>
+<note>
+<simpara>⚓ <emphasis role="strong">AIRMANSHIP / BUENAS PRÁCTICAS</emphasis></simpara>
+<simpara>El efecto suelo puede sorprender al piloto inexperto: el planeador parece no querer posarse durante la toma. Si estás entrando en la zona de contacto con exceso de velocidad o inercia, resiste la tentación de picar el morro para forzar el aterrizaje. Usa los frenos aerodinámicos para controlar el planeo y déjalo posarse solo cuando esté listo, asegurándote antes de tener pista suficiente.</simpara>
+</note>
+<simpara>&#160;</simpara>
+<sidebar role="postit">
+<simpara><emphasis role="strong">Resumen del Capítulo: Aerodinámica y Flujo de Aire</emphasis></simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Principio de Bernoulli</emphasis>: la base del vuelo. El aire se acelera sobre la superficie curva del ala (extradós) y su presión disminuye, generando una fuerza neta hacia arriba. Es la misma sustentación que describe la deflexión del aire hacia abajo (Newton): dos miradas de un único fenómeno, no dos fuerzas que se sumen.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Capa límite</emphasis>: esa fina capa de aire pegada al ala. Si es <emphasis role="strong">laminar</emphasis> (ordenada), la resistencia es mínima: el santo grial de los veleros modernos. Si se vuelve <emphasis role="strong">turbulenta</emphasis>, la resistencia sube, pero el ala sigue sustentando. Solo cuando el flujo se <emphasis role="strong">separa</emphasis> del perfil la sustentación se desploma: eso es la pérdida.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Centro de presiones (CP)</emphasis>: el punto donde se aplica la fuerza de sustentación. Cuidado: se mueve con el ángulo de ataque (adelante con altos ángulos, atrás con bajos), lo que afecta a la estabilidad.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Tipos de resistencia</emphasis>: <emphasis role="strong">parásita</emphasis> (roce con el aire, sube con la velocidad) e <emphasis role="strong">inducida</emphasis> (precio por generar sustentación, baja con la velocidad). La inducida viene de los torbellinos de punta de ala que inclinan el vector de sustentación. Los planeadores la minimizan con alta razón de aspecto (alas largas y estrechas) y winglets en las puntas.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Efecto suelo</emphasis>: por debajo de una envergadura de altura sobre el terreno, los vórtices de punta se comprimen, la resistencia inducida cae y el planeador "flota" con más eficiencia de la normal. Útil conocerlo: explica por qué en el aterrizaje el planeador no se posa si entras rápido o largo.</simpara>
+</listitem>
+</itemizedlist>
+</sidebar>
+</section>
+</chapter>
+<chapter xml:id="cap02-mecanica-vuelo">
+<title>Mecánica de vuelo</title>
+<blockquote>
+<simpara>Sin motor, la gravedad es tu único combustible. En este capítulo aprenderás a interpretar la curva polar de tu planeador para extraer el máximo rendimiento, a ajustar la velocidad según el viento y las descendencias, y a entender el factor de carga para volar en viraje sin comprometer la estructura ni acercarte a la pérdida sin darte cuenta.</simpara>
+</blockquote>
+<section xml:id="_el_motor_es_la_gravedad">
+<title>El motor es la gravedad</title>
+<simpara>Un planeador no tiene motor. Una vez suelto del remolque, su único combustible es la altura que lleva bajo las alas.</simpara>
+<simpara>El vuelo planeando es un intercambio permanente: la energía potencial (altitud) se convierte en cinética (velocidad). Para que el ala siga sustentando, el planeador baja levemente el morro frente a la masa de aire. Esa inclinación hace que una componente del peso apunte hacia adelante a lo largo de la trayectoria, actuando como tracción y equilibrando la resistencia aerodinámica (<emphasis role="strong">drag</emphasis>).</simpara>
+<tip>
+<simpara>✦ <emphasis role="strong">REGLA DE ORO</emphasis></simpara>
+<simpara>La velocidad te da el mando del planeador; la altura es tu reserva de energía. Cediendo altura ganas velocidad (palanca adelante) y, gastando el exceso de velocidad, puedes recuperar algo de trayectoria ascendente (palanca atrás). Pero ese intercambio dura poco: la reserva solo se rellena subiendo en una ascendencia.</simpara>
+</tip>
+<simpara>&#160;</simpara>
+</section>
+<section xml:id="ref-curva-polar-cap02">
+<title>La curva polar</title>
+<simpara>La <link linkend="glos-curva-polar">curva polar</link><indexterm>
+<primary>Curva polar</primary>
+</indexterm> es el DNI de rendimiento de tu planeador. Muestra la relación entre velocidad (km/h) y tasa de descenso (m/s) en aire en calma. Conocerla es obligatorio, porque de ella salen las dos velocidades clave para operar (<xref linkend="fig-05-cap02-curva-polar"/>):</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong"><link linkend="glos-velocidad-minimo-descenso">Velocidad de mínimo descenso</link><indexterm>
+<primary>Velocidad de mínimo descenso (Minimum Sink Speed)</primary>
+</indexterm> (V<subscript>z&#160;min</subscript>):</emphasis> está en el pico superior de la curva (el punto del eje Y más próximo a cero). Volando a esta velocidad pierdes la mínima altura por unidad de tiempo, así que es la que maximiza tu permanencia en el aire. Es tu referencia al virar de forma pronunciada dentro del núcleo de una térmica o en una espera.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong"><link linkend="glos-velocidad-mejor-planeo">Velocidad de máximo planeo</link><indexterm>
+<primary>Velocidad de mejor planeo (V<subscript>G</subscript>)</primary>
+</indexterm> (V<subscript>max&#160;planeo</subscript>, también llamada de mejor planeo o de fineza):</emphasis> se obtiene trazando una tangente desde el origen de coordenadas (0,0) hasta tocar la curva. Da la mejor relación entre distancia avanzada y altura perdida. Es la velocidad para las transiciones limpias y para conseguir el mayor recorrido posible sobre el terreno.</simpara>
+</listitem>
+</itemizedlist>
+<figure xml:id="fig-05-cap02-curva-polar" role="diagrama">
+<title>La curva polar de velocidades de un planeador <emphasis>(Fuente: FAA Glider Flying Handbook)</emphasis>.</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="imagenes/05-cap02-curva-polar.jpg" align="center"/>
+</imageobject>
+<textobject><phrase>Gráfica técnica de curva polar de planeador. Eje horizontal: velocidad indicada en km/h. Eje vertical invertido: tasa de descenso en m/s. Una curva convexa suave desciende progresivamente hacia la derecha. Se marcan dos puntos clave: el vértice superior de la curva etiquetado 'Velocidad de Mínimo Descenso (Vz min)' y el punto de tangencia con una línea recta desde el origen (0,0) etiquetado 'Velocidad de Mejor Planeo (L/D máx)'. Colores azul naval y gris sobre fondo blanco, tipografía sans-serif.</phrase></textobject>
+</mediaobject>
+</figure>
+<simpara>&#160;</simpara>
+</section>
+<section xml:id="ref-LD-cap02">
+<title>Eficiencia y el coeficiente de planeo (L/D)</title>
+<simpara>El <link linkend="glos-coeficiente-planeo">coeficiente de planeo (L/D)</link><indexterm>
+<primary>Coeficiente de planeo (L/D; finesse)</primary>
+</indexterm> expresa cuántos metros avanza el planeador por cada metro de altura perdida en aire en calma. Un planeador de escuela como el ASK 21 ronda 35:1 (recorre 35 km por cada kilómetro vertical cedido). Los de regata de clase abierta superan 60:1 gracias a su gran envergadura y perfil laminar.</simpara>
+<simpara>En el aire real, las cifras del manual se quedan en teoría: el viento y las masas de aire en movimiento obligan a ajustar las velocidades.</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Viento de cara:</emphasis> con viento en contra, el avance sobre el terreno disminuye aunque mantengas la misma velocidad aerodinámica. Vuela más rápido que la V<subscript>max&#160;planeo</subscript>: como regla práctica, suma un 50% de la componente frontal del viento a tu velocidad de transición (<xref linkend="fig-05-cap02-curva-polar-viento-de-cara"/>).</simpara>
+</listitem>
+</itemizedlist>
+<figure xml:id="fig-05-cap02-curva-polar-viento-de-cara" role="diagrama">
+<title>La curva polar de velocidades de un planeador con viento de cara <emphasis>(Fuente: FAA Glider Flying Handbook)</emphasis>.</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="imagenes/05-cap02-curva-polar-viento-de-cara.png" align="center"/>
+</imageobject>
+<textobject><phrase>Gráfica técnica de curva polar de planeador con viento de cara.</phrase></textobject>
+</mediaobject>
+</figure>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Viento de cola:</emphasis> con viento a favor, el terreno avanza más deprisa de lo que la polar indica. Puedes volar algo más despacio que la V<subscript>max&#160;planeo</subscript> en calma, pero nunca por debajo de la V<subscript>z&#160;min</subscript>. No es un ajuste grande; el margen sobre la pérdida siempre tiene prioridad.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Aire descendente:</emphasis> cuando atraviesas una masa de aire que baja, tu tasa de descenso real aumenta en esa misma cantidad. La velocidad óptima de cruce sube por encima de la V<subscript>max&#160;planeo</subscript>: vuela más rápido para salir cuanto antes de esa zona y limitar la altura perdida en ella.</simpara>
+</listitem>
+</itemizedlist>
+<note>
+<simpara>⚓ <emphasis role="strong">AIRMANSHIP / BUENAS PRÁCTICAS</emphasis></simpara>
+<simpara>Acostúmbrate a planificar los tramos finales y las tomas fuera de aeródromo con el L/D del manual recortado. Contar con la mitad del valor publicado en el Manual de Vuelo (AFM) te protege de quedarte bajo y corto cuando se suman el viento de cara, el aire que baja y la suciedad o los mosquitos acumulados en el borde de ataque, que merman el rendimiento más de lo que parece.</simpara>
+</note>
+<simpara>&#160;</simpara>
+<section xml:id="ref-lastre-cap02">
+<title>El lastre de agua y la curva polar</title>
+<simpara>Algunos planeadores llevan depósitos de agua en las alas. El lastre no cambia la forma del ala: simplemente pesa más, y eso empuja la curva polar hacia la derecha. La V<subscript>max&#160;planeo</subscript> y la V<subscript>z&#160;min</subscript> suben, y la tasa de descenso mínima también sube un poco.</simpara>
+<simpara>¿Para qué sirve? En un día de térmicas fuertes con largas etapas entre ellas, el planeador lastrado cruza más rápido manteniendo el mismo planeo; en regata eso se traduce en minutos ganados. El precio: en térmicas débiles sube peor, porque necesita más velocidad y el círculo se come más altura. Antes de aterrizar, el lastre se larga.</simpara>
+<simpara>El punto clave, y el que suele caer en el examen: <emphasis role="strong">el lastre no cambia el L/D máximo</emphasis>. La fineza máxima es la misma con y sin agua; lo único que cambia es la velocidad a la que se obtiene, que sube con el peso. Por eso el planeador lastrado vuela más rápido «por el mismo planeo». El cálculo de masa y centrado que hace posible cargar ese lastre se desarrolla en el <emphasis role="strong">Libro 7 — Planificación y rendimiento</emphasis>, capítulo 2.</simpara>
+<simpara>&#160;</simpara>
+</section>
+<section xml:id="ref-dispositivos-cap02">
+<title>Aerofrenos y flaps: modificar la polar a voluntad</title>
+<simpara>Dos dispositivos permiten al piloto cambiar la forma de la curva polar cuando le conviene:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Aerofrenos (<emphasis role="strong">airbrakes</emphasis> o <emphasis role="strong">spoilers</emphasis>)</emphasis>: al extenderse, destruyen sustentación y añaden mucha resistencia. La polar entera se desploma: para una misma velocidad, la tasa de descenso se dispara. Son la herramienta de control de senda en la aproximación —permiten bajar sin acelerar— y su efecto operativo en el circuito se detalla en el <emphasis role="strong">Libro 6 — Procedimientos operativos</emphasis>.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Flaps</emphasis>: modifican la curvatura del perfil. En posición positiva aumentan la sustentación y desplazan la polar hacia velocidades bajas (útil en térmica); en posición negativa la reducen y la desplazan hacia velocidades altas (útil en transición rápida). No todos los veleros los llevan.</simpara>
+</listitem>
+</itemizedlist>
+<simpara>La descripción constructiva de estos dispositivos —cómo son y cómo se accionan— corresponde al <emphasis role="strong">Libro 8 — Conocimiento de la aeronave</emphasis>, capítulo 5; aquí interesa su efecto aerodinámico sobre la polar y la pérdida.</simpara>
+<simpara>&#160;</simpara>
+</section>
+</section>
+<section xml:id="ref-factor-carga-cap02">
+<title>El factor de carga (n)</title>
+<simpara>El <emphasis role="strong"><link linkend="glos-factor-carga">factor de carga</link><indexterm>
+<primary>Factor de carga (n)</primary>
+</indexterm></emphasis> (n) indica cuántas veces el peso del planeador está cargando sobre la estructura en cada momento. Se expresa en unidades <emphasis role="strong">g</emphasis>.</simpara>
+<simpara>En vuelo recto y nivelado la sustentación iguala exactamente al peso: <emphasis role="strong">n = 1g</emphasis>. En cuanto el planeador se inclina en un viraje, la fuerza centrífuga se suma a la gravedad y el factor de carga sube. En un viraje de 60° de inclinación, la estructura —y el piloto— soportan <emphasis role="strong">2g</emphasis>: el planeador pesa estructuralmente el doble, y el ala debe generar el doble de sustentación. A 75° la carga llega casi a 4g (<xref linkend="fig-05-cap02-factor-de-carga-alabeo"/>).</simpara>
+<figure xml:id="fig-05-cap02-factor-de-carga-alabeo" role="diagrama">
+<title>El factor de carga en función del ángulo de alabeo <emphasis>(Fuente: FAA Glider Flying Handbook)</emphasis>.</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="imagenes/05-cap02-factor-de-carga-alabeo.png" align="center"/>
+</imageobject>
+<textobject><phrase>Gráfica del factor de carga en función del ángulo de alabeo.</phrase></textobject>
+</mediaobject>
+</figure>
+<warning>
+<simpara>⚠ <emphasis role="strong">SEGURIDAD</emphasis></simpara>
+<simpara>Cuando el factor de carga sube, la velocidad de pérdida (<emphasis role="strong">stall</emphasis>) también sube —y lo hace más rápido de lo que parece. La relación es con la raíz cuadrada del factor <emphasis role="strong">n</emphasis>: en un viraje de 60° donde soportamos <emphasis role="strong">2g</emphasis>, nuestra velocidad de pérdida aumenta un <emphasis role="strong">41%</emphasis>. Si normalmente perdemos a 60 km/h, en ese viraje la pérdida llega a 85 km/h, aunque el mando responda con aparente normalidad.</simpara>
+<simpara>El patrón más letal de la estadística de accidentes en planeador es siempre el mismo: maniobra de aterrizaje, altura escasa, velocidad baja, y de repente una pisada brusca de pedales con alabeo exagerado. La pérdida llega sin avisar, y a esa altura no hay margen para recuperar.</simpara>
+</warning>
+<simpara>&#160;</simpara>
+<sidebar role="postit">
+<simpara><emphasis role="strong">Resumen del Capítulo: Mecánica de Vuelo</emphasis></simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">El motor es la gravedad</emphasis>: el planeador siempre cae a través de la masa de aire. Convertimos altura (energía potencial) en velocidad (cinética) bajando el morro. La componente del peso hacia adelante actúa como "tracción".</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">La curva polar</emphasis>: es el DNI del planeador. Relaciona velocidad horizontal con tasa de caída. Te dice a qué velocidad volar para llegar más lejos (máximo planeo) o para mantenerte más tiempo (mínimo descenso).</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Eficiencia (L/D)</emphasis>: la fineza. Un planeador 35:1 avanza 35 km por cada kilómetro de altura en aire calmo. Pero ojo: el viento de cara y las descendencias destruyen ese número en la práctica. Ajusta la velocidad de transición según el viento (más rápido con viento de cara y en aire descendente; algo más despacio con viento de cola) y descuenta siempre un margen de seguridad del L/D publicado.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Lastre de agua</emphasis>: desplaza la polar a la derecha: suben la V<subscript>max&#160;planeo</subscript> y la V<subscript>z&#160;min</subscript>. Ventajoso en condiciones fuertes y largas transiciones; penaliza en térmicas débiles. Se larga antes del aterrizaje.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Factor de carga (n)</emphasis>: en giros o maniobras bruscas, el peso aparente aumenta (n &gt; 1g) y con él la velocidad de pérdida. Recuerda: en un viraje de 60° pesas el doble (2g) y tu velocidad de pérdida sube un 41%.</simpara>
+</listitem>
+</itemizedlist>
+</sidebar>
+</section>
+</chapter>
+<chapter xml:id="cap03-estabilidad">
+<title>Estabilidad</title>
+<blockquote>
+<simpara>Un planeador bien diseñado quiere volver al equilibrio cuando algo lo perturba. En este capítulo aprenderás qué hace que un planeador sea estable longitudinal, lateral y direccionalmente, por qué la posición del Centro de Gravedad es el parámetro más crítico que debes verificar antes de cada vuelo, y cómo el ángulo diedro y la deriva trabajan juntos para mantenerte nivelado y alineado sin esfuerzo.</simpara>
+</blockquote>
+<section xml:id="ref-estabilidad-estatica-cap03">
+<title>La estabilidad estática</title>
+<simpara>La estabilidad de una aeronave es su capacidad inherente para recuperar el equilibrio tras una perturbación atmosférica. Cuando una racha de viento desplaza al planeador de su actitud nivelada, la respuesta inmediata de la máquina sin intervención del piloto se define como <emphasis role="strong"><link linkend="glos-estabilidad-estatica">estabilidad estática</link><indexterm>
+<primary>Estabilidad estática</primary>
+</indexterm></emphasis>.</simpara>
+<simpara>Según su diseño, el comportamiento del planeador puede clasificarse en tres tipos:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Estabilidad estática positiva:</emphasis> el planeador tiende a regresar por sí solo a su posición inicial tras ser perturbado. Es la condición de diseño fundamental para la seguridad en aeronaves civiles.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Estabilidad estática neutra:</emphasis> la aeronave no intenta corregir la perturbación, pero tampoco la amplifica. Si una racha sube el morro 5 grados, el planeador se mantiene en esa nueva actitud sin retornar a la anterior ni seguir subiendo.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Estabilidad estática negativa (inestabilidad):</emphasis> la aeronave tiende a alejarse cada vez más de su posición de equilibrio original. Es una condición peligrosa: una pequeña perturbación de morro arriba haría que el planeador siguiera encabritándose de forma progresiva y acelerada.</simpara>
+</listitem>
+</itemizedlist>
+<note>
+<simpara>⚓ <emphasis role="strong">AIRMANSHIP / BUENAS PRÁCTICAS</emphasis></simpara>
+<simpara>Los veleros de escuela suelen diseñarse con una estabilidad estática positiva muy marcada para facilitar el aprendizaje y perdonar errores del alumno. Sin embargo, esto los hace más "pesados" o perezosos de mando. Los veleros de alta competición o acrobacia reducen esta estabilidad para ganar agilidad y respuesta inmediata.</simpara>
+</note>
+<simpara>&#160;</simpara>
+</section>
+<section xml:id="ref-estabilidad-dinamica-cap03">
+<title>La estabilidad dinámica</title>
+<simpara>La estabilidad estática describe solo la <emphasis role="strong">reacción inicial</emphasis> de la aeronave: si tiende a volver o a alejarse. La <emphasis role="strong"><link linkend="glos-estabilidad-dinamica">estabilidad dinámica</link><indexterm>
+<primary>Estabilidad dinámica</primary>
+</indexterm></emphasis> describe lo que ocurre a continuación, cuando el planeador comienza a oscilar mientras intenta regresar al equilibrio.</simpara>
+<simpara>Según cómo evolucionen esas oscilaciones en el tiempo, el comportamiento puede clasificarse en tres tipos (<xref linkend="fig-05-cap03-estabilidad-dinamica"/>):</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Amortiguada (positiva):</emphasis> las oscilaciones van reduciéndose progresivamente hasta que el planeador recupera su actitud original. Es la condición de diseño deseada.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Neutra:</emphasis> las oscilaciones se mantienen constantes en amplitud, sin crecer ni decrecer. El planeador nunca vuelve al equilibrio exacto, pero tampoco empeora.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Divergente (negativa):</emphasis> las oscilaciones crecen en amplitud con cada ciclo. Una perturbación pequeña se convierte en un movimiento cada vez mayor hasta perder el control.</simpara>
+</listitem>
+</itemizedlist>
+<figure xml:id="fig-05-cap03-estabilidad-dinamica" role="diagrama">
+<title>Respuesta dinámica de una aeronave: oscilación neutra, positiva y negativa (<emphasis>Fuente: FAA Glider Flying Handbook</emphasis>).</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="imagenes/05-cap03-estabilidad-dinamica.png" align="center"/>
+</imageobject>
+<textobject><phrase>Gráfica con tres curvas superpuestas sobre ejes Tiempo (horizontal) y Amplitud de oscilación (vertical). La curva 'Amortiguada' es sinusoidal con amplitud decreciente hasta cero. La curva 'Neutra' es sinusoidal de amplitud constante. La curva 'Divergente' es sinusoidal con amplitud creciente. Un punto marcado 'Perturbación inicial' en el eje vertical izquierdo indica el instante del bache o racha. Estilo diagrama técnico, colores azul naval diferenciados por tipo, fondo blanco.</phrase></textobject>
+</mediaobject>
+</figure>
+<simpara>Dos modos de oscilación merecen atención especial en un planeador:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong"><link linkend="glos-fugoide">Modo fugoide</link><indexterm>
+<primary>Fugoide (modo fugoide)</primary>
+</indexterm>:</emphasis> una oscilación longitudinal lenta y de gran periodo (típicamente 30-60 segundos). El planeador sube y baja intercambiando altitud y velocidad en ciclos suaves. Su amortiguamiento es débil, pero el ciclo es tan lento que lo corriges sin darte cuenta con los pequeños ajustes de palanca de siempre; solo aflora si sueltas los mandos un buen rato.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong"><link linkend="glos-tendencia-espiral">Tendencia espiral</link><indexterm>
+<primary>Tendencia espiral</primary>
+</indexterm>:</emphasis> una inestabilidad dinámica lateral. La mayoría de los planeadores son estáticamente estables en alabeo, pero dinámicamente tienden a una ligera <emphasis role="strong">divergencia espiral</emphasis>: si se les abandona con un pequeño ángulo de inclinación, el alabeo crece lentamente hasta convertirse en una espiral descendente. Por eso el piloto debe vigilar siempre la actitud lateral, especialmente en nube o al perder las referencias visuales del horizonte.</simpara>
+</listitem>
+</itemizedlist>
+<warning>
+<simpara>⚠ <emphasis role="strong">SEGURIDAD</emphasis></simpara>
+<simpara>La tendencia espiral es el origen de la mayoría de los incidentes por pérdida de control en condiciones de visibilidad reducida. Un planeador abandonado con cinco grados de alabeo puede, en cuestión de minutos, desarrollar una espiral descendente fatal. Nunca vueles sin referencias visuales del horizonte real.</simpara>
+</warning>
+<simpara>&#160;</simpara>
+</section>
+<section xml:id="ref-CG-cap03">
+<title>Estabilidad longitudinal: el papel del CG</title>
+<simpara>La estabilidad longitudinal controla el cabeceo. El parámetro que lo determina es la posición del <link linkend="glos-CG">Centro de Gravedad (CG)</link><indexterm>
+<primary>CG (Centro de gravedad)</primary>
+</indexterm> respecto al Centro de Presiones (CP).</simpara>
+<simpara>Para que el planeador sea estable en cabeceo, el <emphasis role="strong">CG debe situarse por delante del CP</emphasis> en las condiciones normales de vuelo. Esa configuración crea un momento natural de "morro abajo". Para equilibrar el vuelo, el estabilizador horizontal genera una fuerza hacia abajo, manteniendo el planeador nivelado.</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">CG demasiado adelantado:</emphasis> aumenta la estabilidad, pero hace al planeador excesivamente "cabezón" y difícil de maniobrar, especialmente durante el despegue y el aterrizaje. La eficiencia L/D disminuye por el aumento de resistencia en la cola para compensar el peso del morro.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">CG demasiado atrasado:</emphasis> es la condición crítica y peligrosa. Si el CG queda por detrás de los límites permitidos, el planeador se vuelve inestable: ante cualquier perturbación el morro tiende a subir de forma descontrolada. Y hay algo peor: si la pérdida degenera en barrena, el CG atrasado tiende a aplanarla, y una barrena plana deja a los mandos sin autoridad para romperla.</simpara>
+</listitem>
+</itemizedlist>
+<important>
+<simpara>⚖ <emphasis role="strong">NORMATIVA</emphasis></simpara>
+<simpara>El Reglamento (UE) 2018/1976, Part-SAO, punto SAO.GEN.130 d)4), establece que el piloto al mando deberá "iniciar un vuelo únicamente tras cerciorarse de que [&#8230;&#8203;] la masa del planeador y la ubicación de su centro de gravedad permiten efectuar el vuelo dentro de los límites definidos por el manual de vuelo de la aeronave (AFM)".</simpara>
+</important>
+<simpara>&#160;</simpara>
+</section>
+<section xml:id="ref-diedro-cap03">
+<title>Estabilidad lateral: el efecto diedro</title>
+<simpara>La estabilidad lateral es la tendencia del planeador a nivelar sus alas tras una perturbación que cause un alabeo no deseado. El principal recurso de diseño para lograr esto es el <emphasis role="strong"><link linkend="glos-diedro">ángulo diedro</link><indexterm>
+<primary>Diedro (ángulo diedro)</primary>
+</indexterm></emphasis>.</simpara>
+<simpara>El diedro es el ángulo hacia arriba que forman las alas respecto a la horizontal, otorgando al planeador una forma vista de frente similar a una "V" muy abierta (<xref linkend="fig-05-cap03-efecto-diedro"/>).</simpara>
+<simpara>Cuando una racha inclina un ala (por ejemplo, la izquierda), el planeador comienza a resbalar lateralmente hacia ese lado. Debido al ángulo diedro, el ala que baja recibe el flujo de aire con un ángulo de ataque efectivo mayor que el ala que sube. Esto genera un exceso de sustentación en el ala bajada que empuja al planeador de vuelta a su posición nivelada de forma automática.</simpara>
+<figure xml:id="fig-05-cap03-efecto-diedro" role="diagrama">
+<title>Efecto autonivelador del diedro positivo <emphasis>(Fuente: FAA Glider Flying Handbook en dominio público)</emphasis>.</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="imagenes/05-cap03-efecto-diedro.jpg" align="center"/>
+</imageobject>
+<textobject><phrase>Diagrama técnico de planeador visto de frente con alas en ángulo diedro positivo (forma de V hacia arriba). A la derecha, el mismo planeador inclinado lateralmente: el ala que ha bajado recibe el flujo de aire con mayor ángulo de ataque efectivo, generando más sustentación (flechas más largas) que la impulsa de vuelta a la posición nivelada. Estilo esquemático de manual de vuelo AESA, fondo blanco.</phrase></textobject>
+</mediaobject>
+</figure>
+<simpara>&#160;</simpara>
+</section>
+<section xml:id="ref-efecto-veleta-cap03">
+<title>Estabilidad direccional: el efecto veleta</title>
+<simpara>La estabilidad direccional asegura que el planeador vuele alineado con el viento relativo, evitando el vuelo cruzado. Este efecto se consigue mediante el estabilizador vertical o <link linkend="glos-deriva">deriva</link><indexterm>
+<primary>Deriva</primary>
+</indexterm>.</simpara>
+<simpara>La deriva actúa exactamente como una <link linkend="glos-efecto-veleta">veleta</link><indexterm>
+<primary>Efecto veleta</primary>
+</indexterm>. Al estar situada a gran distancia por detrás del Centro de Gravedad, cualquier guiñada no deseada expone la superficie lateral de la cola al viento relativo. La presión del aire sobre la aleta genera una fuerza que empuja la cola de vuelta, alineando automáticamente el morro del planeador con la dirección del avance (<xref linkend="fig-05-cap03-efecto-veleta"/>).</simpara>
+<figure xml:id="fig-05-cap03-efecto-veleta" role="diagrama">
+<title>Efecto veleta: la deriva realinea el morro con el viento relativo <emphasis>(ToDo: crear)</emphasis>.</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="imagenes/05-cap03-efecto-veleta.png" align="center"/>
+</imageobject>
+<textobject><phrase>Diagrama técnico en vista cenital de un planeador cuyo fuselaje ha quedado oblicuo al viento relativo tras una guiñada no deseada. Flechas naranjas paralelas representan el viento relativo incidiendo de frente. Una flecha roja sobre la deriva (cola vertical) indica la presión lateral del aire sobre la superficie expuesta. Una flecha curva verde muestra el momento restaurador que gira el planeador hasta realinear el morro con el viento relativo, como una veleta. Etiquetas en español, estilo vectorial limpio, paleta azul naval, naranja y verde, fondo blanco.</phrase></textobject>
+</mediaobject>
+</figure>
+<simpara><?asciidoc-pagebreak?></simpara>
+<sidebar role="postit">
+<simpara><emphasis role="strong">Resumen del Capítulo: Estabilidad</emphasis></simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Estabilidad estática</emphasis>: es la tendencia inicial. Si sueltas los mandos tras un bache y el avión tiende a volver a su posición original, es estable. Si tiende a alejarse más (divergencia), es inestable y peligroso.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Estabilidad dinámica</emphasis>: describe lo que pasa <emphasis role="strong">después</emphasis> de la reacción inicial. ¿Las oscilaciones se amortiguan (bueno), se mantienen iguales (neutro) o crecen (peligroso)? El modo fugoide es una oscilación longitudinal lenta e inocua. La <emphasis role="strong">tendencia espiral</emphasis> (divergencia lateral lenta) es la más importante: si sueltas los mandos con un pequeño alabeo, la espiral crece sola.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">El CG es el rey</emphasis>: la posición del centro de gravedad determina la estabilidad longitudinal. CG adelantado = muy estable pero "pesado". CG atrasado = muy sensible e inestable (riesgo de barrena plana irrecuperable).</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Estabilidad lateral (diedro)</emphasis>: la forma en "V" de las alas ayuda a nivelar el avión solo. Si un ala baja, el diedro hace que tenga más ángulo de ataque efectivo y suba.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Estabilidad direccional</emphasis>: la deriva (cola vertical) actúa como una veleta, manteniendo el morro apuntando al viento relativo y evitando el vuelo cruzado.</simpara>
+</listitem>
+</itemizedlist>
+</sidebar>
+</section>
+</chapter>
+<chapter xml:id="cap04-control">
+<title>Control</title>
+<blockquote>
+<simpara>Los mandos de un planeador son mucho más que palancas y pedales: son el canal de
+comunicación entre el piloto y la aeronave. En este capítulo aprenderás a entender
+la guiñada adversa y cómo combatirla con coordinación pie-mano, por qué el compensador
+es una herramienta fundamental de pilotaje y no un descanso para el brazo, y qué
+información te transmiten los mandos a través de su dureza o blandura.</simpara>
+</blockquote>
+<section xml:id="ref-guinada-adversa-cap04">
+<title>Guiñada adversa: el precio del alabeo</title>
+<simpara>En los planeadores, la <link linkend="glos-guinada-adversa">guiñada adversa</link><indexterm>
+<primary>Guiñada adversa (adverse yaw)</primary>
+</indexterm> es un efecto secundario aerodinámico muy pronunciado al intentar virar usando los alerones, debido a su gran envergadura.</simpara>
+<simpara>Al accionar la palanca lateralmente para iniciar un giro, el alerón del ala exterior baja para aumentar la sustentación y levantar ese lado. El problema es que, al crear más sustentación, también genera una gran cantidad de <emphasis role="strong">resistencia inducida</emphasis>. Esta resistencia frena el ala que sube y tira de ella hacia atrás, haciendo guiñar el morro del planeador en dirección opuesta al giro deseado (<xref linkend="fig-05-cap04-guinada-adversa"/>).</simpara>
+<figure xml:id="fig-05-cap04-guinada-adversa" role="diagrama">
+<title>La guiñada adversa: el morro guiña al lado contrario del giro <emphasis>(ToDo: crear)</emphasis>.</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="imagenes/05-cap04-guinada-adversa.png" align="center"/>
+</imageobject>
+<textobject><phrase>Diagrama técnico en vista cenital de un planeador de gran envergadura iniciando un viraje a la derecha. En el ala exterior (izquierda), el alerón bajado se señala con una flecha naranja hacia arriba (más sustentación: el ala sube) y una flecha roja hacia atrás (resistencia inducida que frena esa ala). Una trayectoria curva verde discontinua indica el giro deseado hacia la derecha; una flecha azul continua muestra el morro guiñando hacia la izquierda, el lado contrario. Etiquetas en español, estilo vectorial limpio, paleta azul naval (#003366), naranja y verde, fondo blanco.</phrase></textobject>
+</mediaobject>
+</figure>
+<tip>
+<simpara>✦ <emphasis role="strong">REGLA DE ORO</emphasis></simpara>
+<simpara>La solución a la guiñada adversa es la <emphasis role="strong">Coordinación Pie-Mano</emphasis>. Se debe aplicar palanca y pedal hacia el mismo lado y al mismo tiempo. El timón de dirección contrarresta el freno abrupto del ala exterior, forzando al morro a seguir la curva suavemente sin derrapar.</simpara>
+</tip>
+<simpara>&#160;</simpara>
+</section>
+<section xml:id="ref-mando-diferencial-cap04">
+<title>Mando diferencial de alerones</title>
+<simpara>Para mitigar la guiñada adversa de manera mecánica, los planeadores utilizan el <emphasis role="strong"><link linkend="glos-mando-diferencial">mando diferencial de alerones</link><indexterm>
+<primary>Mando diferencial de alerones</primary>
+</indexterm></emphasis>.</simpara>
+<simpara>Este sistema ajusta el varillaje de modo que el alerón que sube (en el ala interior del giro) recorra un ángulo mayor que el alerón que baja (en el ala exterior). Al subir más el alerón interior, se genera intencionadamente una mayor resistencia parásita en ese lado que ayuda a compensar la resistencia inducida del ala exterior. Aunque este diseño reduce notablemente la tendencia del morro a salirse del giro, no la elimina por completo; el piloto debe seguir aplicando siempre el timón de dirección (pedal) para mantener un viraje coordinado.</simpara>
+<simpara>&#160;</simpara>
+</section>
+<section xml:id="ref-coordinacion-practica-cap04">
+<title>El hilo de lana: tu indicador de coordinación</title>
+<simpara>En el parabrisas de casi todos los planeadores hay, pegado en el centro, un trocito de hilo de lana o cinta fina: el <emphasis role="strong">hilo de coordinación</emphasis> (<emphasis role="strong">yaw string</emphasis>). Es el indicador más directo que existe, más fiable incluso que la bola del inclinómetro.</simpara>
+<simpara>Hilo recto: vuelo coordinado. Cuando se desvía, el hilo se va hacia el mismo lado al que apunta el morro respecto a la trayectoria: hilo a la izquierda, morro a la izquierda del viento relativo. Lo que eso significa depende del sentido del viraje. Hilo caído hacia el interior del giro: derrape (<emphasis role="strong">skid</emphasis>), llevas demasiado pedal interior. Hilo hacia el exterior: resbale (<emphasis role="strong">slip</emphasis>), te falta pedal. La corrección es siempre la misma: pisa el pedal contrario al lado del hilo, nunca la palanca.</simpara>
+<simpara>El derrape es el que hay que evitar: el ala interior va más lenta y puede alcanzar el ángulo de ataque crítico sin previo aviso, iniciando una pérdida asimétrica. El resbale es más aparatoso —el fuselaje ofrece más resistencia y el viraje es ineficiente—, pero rara vez es peligroso por sí solo. La <xref linkend="fig-05-cap04-hilo-lana-estados"/> resume los tres estados del hilo y su lectura.</simpara>
+<figure xml:id="fig-05-cap04-hilo-lana-estados" role="diagrama">
+<title>Los tres estados del hilo de lana: coordinado, derrape y resbale <emphasis>(ToDo: crear)</emphasis>.</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="imagenes/05-cap04-hilo-lana-estados.png" align="center"/>
+</imageobject>
+<textobject><phrase>Tres paneles con la vista del parabrisas de un planeador desde la cabina durante un viraje a la derecha, cada uno con el hilo de lana pegado al centro. Panel 1: hilo vertical recto, etiqueta 'Coordinado'. Panel 2: hilo desviado hacia el interior del giro (derecha), etiqueta 'Derrape (skid): demasiado pedal interior', en rojo por ser el estado peligroso. Panel 3: hilo desviado hacia el exterior del giro (izquierda), etiqueta 'Resbale (slip): falta pedal'. Nota inferior: 'Corrección: pisa el pedal contrario al lado del hilo'. Etiquetas en español, estilo vectorial limpio, paleta azul naval, rojo y naranja, fondo blanco.</phrase></textobject>
+</mediaobject>
+</figure>
+<tip>
+<simpara>✦ <emphasis role="strong">REGLA DE ORO</emphasis></simpara>
+<simpara>Vuela con el hilo recto. Si se mueve, corrígelo con el pedal. Y si el hilo está torcido y los mandos están blandos al mismo tiempo, actúa: estás a punto de entrar en pérdida.</simpara>
+</tip>
+<simpara>&#160;</simpara>
+</section>
+<section xml:id="ref-trim-cap04">
+<title>El compensador (trim)</title>
+<simpara>El <link linkend="glos-compensador">compensador (trim)</link><indexterm>
+<primary>Compensador (trim)</primary>
+</indexterm> no es solo un alivio para el brazo. Es, de hecho, un mando aerodinámico: equilibra las fuerzas en la cola y permite que el planeador mantenga por sí solo una actitud de morro y velocidad constantes sin que tengas que empujar ni tirar.</simpara>
+<note>
+<simpara>⚓ <emphasis role="strong">AIRMANSHIP / BUENAS PRÁCTICAS</emphasis></simpara>
+<simpara>Acostúmbrate a usar el compensador constantemente. Después de cambiar el régimen de vuelo (por ejemplo, de termicar a velocidad lenta a volar recto a mayor velocidad), primero establece la nueva actitud con la palanca y luego ajusta el trim hasta que no sientas fuerza en la mano.</simpara>
+</note>
+<simpara>&#160;</simpara>
+</section>
+<section xml:id="ref-eficacia-mando-cap04">
+<title>La eficacia de mando</title>
+<simpara>Los mandos te proporcionan información vital sobre la velocidad del planeador a través de su resistencia física.</simpara>
+<simpara>Cuando vuelas rápido, el flujo de aire golpea con fuerza las superficies de control. Los mandos se sentirán <emphasis role="strong">duros</emphasis> y muy reactivos.</simpara>
+<simpara>Sin embargo, a medida que reduces la velocidad acercándote a la entrada en pérdida, el flujo de aire disminuye. Los mandos pierden <link linkend="glos-eficacia-mando">eficacia</link><indexterm>
+<primary>Eficacia de mando</primary>
+</indexterm> y se vuelven blandos o <emphasis role="strong">"chiclosos"</emphasis>. Esta falta de respuesta es una advertencia física directa de que estás volando demasiado lento y cerca del límite de sustentación.</simpara>
+<simpara><?asciidoc-pagebreak?></simpara>
+<sidebar role="postit">
+<simpara><emphasis role="strong">Resumen del Capítulo: Control</emphasis></simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Guiñada adversa</emphasis>: el efecto secundario más molesto en los veleros de gran envergadura. Al alabear para girar, el ala que sube tiene más resistencia y frena ese lado, metiendo el morro <emphasis role="strong">al revés</emphasis> del giro. <emphasis role="strong">Antídoto</emphasis>: pie y mano juntos (coordinación).</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Hilo de lana (<emphasis role="strong">yaw string</emphasis>)</emphasis>: indicador de coordinación en el parabrisas. Recto = vuelo coordinado. Hilo hacia el interior del viraje = derrape (<emphasis role="strong">skid</emphasis>); hacia el exterior = resbale (<emphasis role="strong">slip</emphasis>). El derrape es el peligroso: el ala interior puede entrar en pérdida asimétrica. Corrígelo pisando el pedal contrario al lado del hilo.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Compensador (trim)</emphasis>: no es solo para descansar el brazo. Es fundamental para mantener una velocidad constante sin esfuerzo. Compensa siempre que cambies de régimen de vuelo (de termicar a planear rápido).</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Eficacia de mando</emphasis>: los mandos "hablan". Si están duros, vas rápido. Si están blandos y "chiclosos", estás cerca de la pérdida. Escucha lo que te dicen a través de la mano.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Mando diferencial</emphasis>: diseño de los alerones para reducir la guiñada adversa (el alerón que sube lo hace más que el que baja), pero aun así necesitarás pie.</simpara>
+</listitem>
+</itemizedlist>
+</sidebar>
+</section>
+</chapter>
+<chapter xml:id="cap05-limitaciones-maniobras">
+<title>Limitaciones (factor de carga y maniobras)</title>
+<blockquote>
+<simpara>Todo planeador tiene límites estructurales que no deben franquearse: hacerlo puede
+destruir la aeronave en segundos. En este capítulo aprenderás a interpretar el diagrama
+V-n, a entender por qué la Velocidad de Maniobra protege la estructura en turbulencia,
+qué significa la línea roja del anemómetro y por qué el factor de carga eleva la
+velocidad de pérdida en los virajes.</simpara>
+</blockquote>
+<section xml:id="ref-diagrama-vn-cap05">
+<title>El diagrama V-n: el mapa de tu supervivencia</title>
+<simpara>El <link linkend="glos-diagrama-vn">diagrama V-n</link><indexterm>
+<primary>Diagrama V-n (envolvente de vuelo)</primary>
+</indexterm>, también conocido como envolvente de vuelo, es la representación gráfica de los límites estructurales de tu planeador. Relaciona la velocidad a la que vuelas (V) con el factor de carga en Gs (n) que la estructura está soportando (<xref linkend="fig-05-cap05-diagrama-vn"/>).</simpara>
+<simpara>Este diagrama delimita el espacio de operaciones seguras. Mientras te mantengas dentro de sus límites, la estructura aguantará. Si lo superas —por exceso de G o de velocidad— el planeador sufrirá deformaciones permanentes o rotura estructural.</simpara>
+<simpara>Bajo la normativa CS-22, los planeadores de categoría Utility (U) están diseñados para soportar de +5,3g a −2,65g a la velocidad de maniobra (V<subscript>A</subscript>); ambos límites se estrechan a medida que aumenta la velocidad, hasta +4,0g y −1,5g a la velocidad de picado (V<subscript>D</subscript>). Los de categoría Acrobática (A) soportan de +7,0g a −5,0g. Estos factores de carga solo son válidos si se respetan las limitaciones de velocidad.</simpara>
+<figure xml:id="fig-05-cap05-diagrama-vn" role="diagrama">
+<title>El diagrama V-n o envolvente de vuelo: límites estructurales del planeador. Las líneas curvas amarillas representan la sustentación máxima que el planeador puede generar a diferentes velocidades del aire en Gs. (Fuente: FAA Glider Flying Handbook)</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="imagenes/05-cap05-diagrama-vn.png" align="center"/>
+</imageobject>
+<textobject><phrase>Gráfica técnica del diagrama V-n para un planeador. Eje horizontal: velocidad indicada (V) en km/h con marcas en VA, VS1 y VNE. Eje vertical: factor de carga (n) en Gs, con valores positivos arriba (+5,3g, Categoría U) y negativos abajo (−2,65g a VA, reduciéndose a −1,5g a VD). La 'curva de pérdida' delimita la zona inferior izquierda. Una línea vertical en VNE establece el límite de velocidad. El área interior delimitada por curvas y líneas rectas forma la 'envolvente segura'. Colores: zona segura en azul claro, zona prohibida en rojo. Etiquetas: 'Zona de pérdida', 'Zona estructural prohibida', 'VA' y 'VNE'. Estilo manual técnico aeronáutico europeo, fondo blanco.</phrase></textobject>
+</mediaobject>
+</figure>
+<simpara>&#160;</simpara>
+</section>
+<section xml:id="ref-VA-cap05">
+<title>Velocidad de maniobra (V<subscript>A</subscript>)</title>
+<simpara>La <link linkend="glos-VA">velocidad de maniobra (V<subscript>A</subscript>)</link><indexterm>
+<primary>VA (Velocidad de maniobra / Maneuvering Speed)</primary>
+</indexterm> es la velocidad máxima a la que puedes aplicar deflexiones totales en los mandos sin causar daños estructurales.</simpara>
+<simpara>Si vuelas a la V<subscript>A</subscript> o por debajo de ella y aplicas una deflexión brusca a los mandos, el planeador simplemente <emphasis role="strong">entrará en pérdida</emphasis> antes de generar suficientes Gs para superar su límite de carga estructural. El ala dejará de volar y descargará la fuerza, protegiendo al planeador.
+Sin embargo, si vuelas más rápido que la V<subscript>A</subscript> y haces un movimiento brusco, el planeador no entrará en pérdida a tiempo; generará una fuerza G extrema que sobrepasará los límites de la estructura y la romperá.</simpara>
+<simpara>La V<subscript>A</subscript> es un límite estructural, no una marca del anemómetro. La marca que ves en la esfera es la <emphasis role="strong">V<subscript>RA</subscript></emphasis>, la velocidad máxima en aire turbulento (<emphasis role="strong">rough air speed</emphasis>): en ella termina el arco verde y empieza el amarillo, según CS 22.1545. En muchos veleros la V<subscript>A</subscript> y la V<subscript>RA</subscript> casi coinciden, pero la certificación las distingue, y conviene que tú también: la V<subscript>A</subscript> te protege frente a la deflexión completa de un mando; la V<subscript>RA</subscript>, frente a las ráfagas del aire turbulento; y la VNE es el límite absoluto donde acaba el arco amarillo con su línea roja.</simpara>
+<simpara><?asciidoc-pagebreak?></simpara>
+<tip>
+<simpara>✦ <emphasis role="strong">REGLA DE ORO</emphasis></simpara>
+<simpara>En turbulencia fuerte, reduce enseguida la velocidad por debajo de la V<subscript>A</subscript> para proteger la estructura. Tu referencia visual está en el anemómetro: quédate en el arco verde, que termina en la V<subscript>RA</subscript> (velocidad máxima en aire turbulento). El arco amarillo, de la V<subscript>RA</subscript> a la VNE, es solo para aire en calma.</simpara>
+</tip>
+<simpara>&#160;</simpara>
+<warning>
+<simpara>⚠ <emphasis role="strong">SEGURIDAD</emphasis></simpara>
+<simpara>La V<subscript>A</subscript> <emphasis role="strong">no te protege de entradas combinadas simultáneas en más de un eje</emphasis>. Los requisitos de certificación cubren deflexiones completas en un único mando a la vez. Si aplicas timón de profundidad a fondo y pedal a fondo <emphasis role="strong">al mismo tiempo</emphasis> —aunque estés por debajo de V<subscript>A</subscript>— puedes generar una carga estructural que supere el límite de diseño. En turbulencia, mantén los mandos suaves y evita movimientos bruscos coordinados en múltiples ejes simultáneamente.</simpara>
+</warning>
+<simpara>&#160;</simpara>
+</section>
+<section xml:id="ref-VNE-cap05">
+<title>La línea roja: velocidad de nunca exceder (VNE)</title>
+<simpara>La línea roja en el anemómetro indica la <link linkend="glos-VNE">VNE (velocidad de nunca exceder)</link><indexterm>
+<primary>VNE (Velocidad de nunca exceder / Never Exceed Speed)</primary>
+</indexterm>. Es un límite absoluto que no se cruza nunca, principalmente por el riesgo de <emphasis role="strong"><link linkend="glos-flutter">flutter</link><indexterm>
+<primary>Flutter (Flameo aeroelástico)</primary>
+</indexterm></emphasis> (flameo).</simpara>
+<simpara>El flutter es una vibración aeroelástica en las alas o superficies de control que, si ocurre, puede desintegrar el planeador en cuestión de segundos.</simpara>
+<warning>
+<simpara>⚠ <emphasis role="strong">SEGURIDAD</emphasis></simpara>
+<simpara>La VNE disminuye con la altitud: en aire menos denso, la velocidad aerodinámica verdadera (TAS) —de la que depende el flutter— aumenta respecto a la <link linkend="glos-IAS">indicada (IAS)</link><indexterm>
+<primary>IAS (Velocidad indicada / Indicated Air Speed)</primary>
+</indexterm> que lees en el anemómetro. Presta atención a la tabla de correcciones de VNE por altitud en la cabina. Este efecto es crítico en el vuelo de onda, donde se alcanzan grandes altitudes; su relación con la meteorología de onda se trata en el <emphasis role="strong">Libro 3 — Meteorología</emphasis>.</simpara>
+</warning>
+<simpara>&#160;</simpara>
+<note>
+<simpara>⚓ <emphasis role="strong">AIRMANSHIP / BUENAS PRÁCTICAS</emphasis></simpara>
+<simpara>Cerca de la VNE, mantén las deflexiones de mando limitadas a aproximadamente <emphasis role="strong">un tercio</emphasis> de su recorrido total. A esa velocidad, la presión dinámica es tan elevada que una deflexión completa genera cargas que pueden superar la envolvente estructural incluso sin turbulencia. No uses la VNE como velocidad de crucero: es un límite absoluto de emergencia, no un régimen habitual.</simpara>
+</note>
+<simpara>&#160;</simpara>
+</section>
+<section xml:id="ref-factor-carga-cap05">
+<title>La trampa del factor de carga y la pérdida</title>
+<simpara>En vuelo recto y nivelado, el factor de carga es 1 G. Al inclinarte en un viraje, la fuerza centrífuga se suma a la gravedad y el factor de carga sube. En un viraje cerrado de 60°, el planeador experimenta 2 G: la estructura soporta el doble del peso normal.</simpara>
+<warning>
+<simpara>⚠ <emphasis role="strong">SEGURIDAD</emphasis></simpara>
+<simpara>La velocidad de pérdida aumenta con el factor de carga. En un viraje de 60º (2 Gs), la velocidad de pérdida <emphasis role="strong">sube un 41%</emphasis>. Un planeador que entra en pérdida a 70 km/h en vuelo nivelado lo hará a casi 100 km/h en ese viraje cerrado. Un uso brusco de los mandos en esta situación puede llevar a una pérdida crítica.</simpara>
+</warning>
+<simpara><?asciidoc-pagebreak?></simpara>
+<sidebar role="postit">
+<simpara><emphasis role="strong">Resumen del Capítulo: Limitaciones y Maniobras</emphasis></simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Diagrama V-n</emphasis>: el mapa de seguridad de tu estructura. Muestra los Gs que aguantas a cada velocidad. Salirte de la "caja" significa romper el planeador. Límites CS-22: cat. U +5,3g / −2,65g en V<subscript>A</subscript>, que se estrechan a +4,0g / −1,5g en V<subscript>D</subscript>; cat. A +7,0g / −5,0g.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Velocidad de maniobra (V<subscript>A</subscript>)</emphasis>: la velocidad "segura" para turbulencia o mandazos individuales. Si vas más lento de V<subscript>A</subscript>, el planeador entrará en pérdida antes de romperse. Si vas más rápido, una deflexión brusca puede dañar la estructura. Pero cuidado: la V<subscript>A</subscript> no protege de entradas combinadas simultáneas en más de un eje. En turbulencia fuerte, quédate en el arco verde del anemómetro.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Marcas del anemómetro (CS 22.1545)</emphasis>: el arco verde termina en la <emphasis role="strong">V<subscript>RA</subscript></emphasis> (velocidad máxima en aire turbulento), donde empieza el arco amarillo, que acaba en la línea roja de la VNE. La V<subscript>A</subscript> es un límite estructural y <emphasis role="strong">no</emphasis> es una marca del anemómetro, aunque en muchos veleros su valor sea parecido al de la V<subscript>RA</subscript>.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">VNE (velocidad de nunca exceder)</emphasis>: la <emphasis role="strong">línea roja</emphasis> del anemómetro (CS 22.1505). No es una recomendación, es un límite físico. Pasarla invita al <emphasis role="strong">flutter</emphasis> (vibración aeroelástica), que puede desintegrar el planeador en segundos. Cerca de la VNE, limita las deflexiones de mando a un tercio de su recorrido.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Factor de carga y pérdida</emphasis>: las Gs "engordan" al planeador. En un viraje de 60° (2 Gs), la velocidad de pérdida sube un 41%.</simpara>
+</listitem>
+</itemizedlist>
+</sidebar>
+</section>
+</chapter>
+<chapter xml:id="cap06-perdida-autorrotacion">
+<title>Pérdida de sustentación y autorrotación</title>
+<blockquote>
+<simpara>La pérdida de sustentación y la barrena son las situaciones más temidas por el piloto novel y las más practicadas en formación. En este capítulo aprenderás a reconocer los síntomas que avisan antes de que llegue la pérdida, a ejecutar la recuperación de forma correcta —aunque vaya contra el instinto— y a distinguir una pérdida limpia de una autorrotación para aplicar la técnica adecuada en cada caso.</simpara>
+</blockquote>
+<section xml:id="ref-perdida-cap06">
+<title>La pérdida de sustentación (stall)</title>
+<simpara>La <link linkend="glos-perdida">pérdida de sustentación</link><indexterm>
+<primary>Pérdida de sustentación (stall)</primary>
+</indexterm> ocurre cuando el ala del planeador supera su <emphasis role="strong"><link linkend="glos-angulo-ataque-critico">Ángulo de Ataque Crítico</link><indexterm>
+<primary>Ángulo de ataque crítico</primary>
+</indexterm></emphasis> (aproximadamente entre 15º y 18º). Al alcanzar este punto crítico de inclinación respecto al <link linkend="glos-viento-relativo">viento relativo</link><indexterm>
+<primary>Viento relativo (relative wind)</primary>
+</indexterm>, el flujo de aire es incapaz de seguir la curvatura superior del ala (extradós) y se desprende de forma turbulenta, provocando una caída masiva de sustentación y un gran aumento de resistencia.</simpara>
+<simpara>Aprende a leer estos síntomas: el planeador avisa antes de que llegue la pérdida.</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Posición inusualmente alta del morro respecto al horizonte.</simpara>
+</listitem>
+<listitem>
+<simpara>Velocidad muy baja en el anemómetro.</simpara>
+</listitem>
+<listitem>
+<simpara>Mandos de vuelo excesivamente blandos, esponjosos y poco eficaces.</simpara>
+</listitem>
+<listitem>
+<simpara>Ausencia del ruido normal del aire fluyendo por la cabina.</simpara>
+</listitem>
+<listitem>
+<simpara>Vibraciones estructurales conocidas como "bataneo", causadas por el aire turbulento golpeando el fuselaje y la cola.</simpara>
+</listitem>
+</itemizedlist>
+<simpara>La pérdida no llega de golpe en toda la envergadura: empieza en el <emphasis role="strong">encastre</emphasis> —la raíz donde el ala se une al fuselaje— y avanza hacia las puntas. Es un diseño deliberado: el perfil tiene más ángulo de incidencia en la raíz que en las puntas, así que la raíz entra en pérdida primero. Los alerones, que están en las puntas, conservan algo de autoridad durante los primeros instantes: es un margen de diseño que te permite mantener las alas niveladas mientras la pérdida avisa. Pero si un ala llega a caer, no intentes levantarla con el alerón — se sostiene con el pedal, como verás más abajo.</simpara>
+<simpara>&#160;</simpara>
+</section>
+<section xml:id="_recuperación_de_la_pérdida">
+<title>Recuperación de la pérdida</title>
+<simpara>El instinto ante la caída es tirar de la palanca. En aviación, eso agrava la situación. La única salida es reducir el <link linkend="glos-angulo-ataque">ángulo de ataque</link><indexterm>
+<primary>Ángulo de ataque (AoA / Angle of Attack)</primary>
+</indexterm>.</simpara>
+<simpara>Empuja la palanca hacia <emphasis role="strong">adelante</emphasis> hasta centrarla: el morro baja, el ángulo de ataque disminuye y el aire vuelve a adherirse al extradós. El planeador gana velocidad arrastrado por la gravedad. Cuando recuperes una velocidad segura —el proceso consume típicamente entre 30 y 50 metros de altura— tira suavemente de la palanca para nivelar.</simpara>
+<note>
+<simpara>⚓ <emphasis role="strong">AIRMANSHIP / BUENAS PRÁCTICAS</emphasis></simpara>
+<simpara>Durante la recuperación de una pérdida, la palanca debe mantenerse siempre rigurosamente centrada en el eje lateral (cero alerones). Intentar levantar instintivamente un ala caída usando los alerones empeorará el escenario: el alerón que baja aumentará el ángulo de ataque local de esa ala caída, profundizando aún más su pérdida e iniciando violentamente la temida autorrotación o barrena. Usa siempre y exclusivamente el pedal contrario (timón de dirección) para evitar la guiñada y sostener las alas.</simpara>
+</note>
+<simpara>&#160;</simpara>
+</section>
+<section xml:id="ref-perdida-acelerada-cap06">
+<title>La pérdida acelerada: el peligro del viraje</title>
+<simpara>La velocidad de pérdida que indica el Manual de Vuelo es para vuelo recto y nivelado a 1g. Cada vez que el factor de carga sube, esa velocidad sube con él —en proporción a su raíz cuadrada. En un viraje de 60° (2g), la velocidad de pérdida crece un 41%. Un planeador que en línea recta pierde sustentación a 70 km/h lo hará a casi 100 km/h en ese viraje. A 100 km/h nadie espera entrar en pérdida.</simpara>
+<simpara>Esta <emphasis role="strong">pérdida acelerada</emphasis> es traicionera porque el morro no tiene que estar especialmente alto. Con una actitud de morro aparentemente normal, tirar de palanca en un viraje cerrado puede superar el ángulo de ataque crítico sin que el piloto lo note hasta que el ala cede.</simpara>
+<warning>
+<simpara>⚠ <emphasis role="strong">SEGURIDAD</emphasis></simpara>
+<simpara>El escenario estadísticamente más letal: el viraje del tramo <emphasis role="strong">base a final</emphasis> en el circuito de tráfico, a menos de 150 metros de altura. El piloto mete pedal para cuadrar la final, el morro se desvía hacia un lado, compensa tirando de palanca… y el planeador entra en pérdida asimétrica sin margen de recuperación. Volar el circuito coordinado y con margen de velocidad no es una exigencia técnica: es lo que separa un aterrizaje normal de un accidente.</simpara>
+</warning>
+<simpara>&#160;</simpara>
+</section>
+<section xml:id="ref-barrena-cap06">
+<title>Barrena: la pérdida agravada y asimétrica</title>
+<simpara>La <link linkend="glos-barrena">barrena</link><indexterm>
+<primary>Barrena (autorrotación / spin)</primary>
+</indexterm> (también llamada <link linkend="glos-autorrotacion">autorrotación</link><indexterm>
+<primary>Autorrotación (spin)</primary>
+</indexterm>) es una condición de vuelo extrema que resulta de una <emphasis role="strong">pérdida de sustentación asimétrica</emphasis>: un ala entra en pérdida más profundamente que la otra.</simpara>
+<simpara>Generalmente se desencadena en vuelo turbulento o cuando el piloto vuela descoordinado (con exceso de pedal o cruzando mandos) cerca de la velocidad de mínima sustentación. El ala interior al giro, que ya viaja más lenta, entra en pérdida del todo y cae bruscamente. Al caer, su ángulo de ataque aumenta aún más y la ancla en la pérdida, mientras el ala exterior sigue volando parcialmente. Ese desequilibrio acopla guiñada y alabeo en una rotación muy rápida y un descenso vertiginoso: hasta 100 metros perdidos por cada vuelta de unos 4 segundos.</simpara>
+<simpara>&#160;</simpara>
+<section xml:id="_las_tres_fases_de_la_barrena">
+<title>Las tres fases de la barrena</title>
+<simpara>Hay que conocer las tres fases porque actuar en la primera cuesta mucho menos altura que hacerlo en la tercera:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Fase incipiente:</emphasis> la barrena está arrancando. Las fuerzas aún no se han estabilizado y el giro todavía no es constante. Recuperar aquí —antes del primer giro completo— cuesta mucha menos altura.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Fase desarrollada:</emphasis> el giro se asienta: velocidad angular, velocidad aerodinámica y tasa de descenso se estabilizan. El movimiento se vuelve regular. A partir de aquí, salir puede costar uno o más giros adicionales.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Fase de recuperación:</emphasis> desde que pisas el pedal hasta que el giro para. Puede durar desde un cuarto de vuelta hasta varios giros, según el planeador. Cada vuelta son entre 50 y 100 metros menos.</simpara>
+</listitem>
+</itemizedlist>
+<simpara>&#160;</simpara>
+</section>
+</section>
+<section xml:id="_recuperación_de_la_barrena">
+<title>Recuperación de la barrena</title>
+<simpara>La salida de una barrena exige una técnica metódica, contraintuitiva y aprendida de memoria. Consulta siempre el Manual de Vuelo (AFM) de tu planeador concreto; la secuencia clásica universal es:</simpara>
+<orderedlist numeration="arabic">
+<listitem>
+<simpara><emphasis role="strong">Pedal contrario a fondo:</emphasis> identifica la dirección de la rotación y pisa con decisión el pedal opuesto hasta el tope (si giras hacia la derecha, pedal izquierdo a fondo). Esto frena la guiñada que alimenta el giro.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Palanca al centro y adelante:</emphasis> centra los alerones (neutro lateral) y empuja la palanca hacia adelante para reducir el ángulo de ataque y romper la pérdida profunda en ambas alas por igual.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Recuperación del picado:</emphasis> en cuanto cese la rotación, <emphasis role="strong">neutraliza el pedal</emphasis> antes de tirar de la palanca. Si mantienes el pedal contrario aplicado mientras recuperas del picado, la guiñada resultante puede iniciar una rotación en sentido opuesto. Una vez centrados los pedales, tira <emphasis role="strong">gradualmente</emphasis> de la palanca para salir del picado con suavidad progresiva: una recuperación brusca puede sobrecargar la estructura o provocar una segunda pérdida.</simpara>
+</listitem>
+</orderedlist>
+<figure xml:id="fig-05-cap06-recuperacion-barrena" role="diagrama">
+<title>Método estándar de recuperación de una barrena (método universal)</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="imagenes/05-cap06-recuperacion-barrena.png"/>
+</imageobject>
+<textobject><phrase>Esquema de los pasos para salir de una barrena: 1. Alerones neutros y pedal contrario a fondo. 2. Palanca al centro y adelante. 3. Recogida suave.</phrase></textobject>
+</mediaobject>
+</figure>
+<simpara>&#160;</simpara>
+<sidebar role="postit">
+<simpara><emphasis role="strong">Resumen del Capítulo: Pérdida y Autorrotación</emphasis></simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Pérdida (<emphasis role="strong">stall</emphasis>)</emphasis>: el ala se "rinde" al superar el ángulo de ataque crítico (≈ 15-18°). La pérdida comienza en el encastre y progresa hacia las puntas: por eso los alerones conservan algo de autoridad al inicio. Avisos: morro alto, mandos blandos y bataneo; al ceder el ala, cae el morro.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Pérdida acelerada</emphasis>: en un viraje cerrado (60° → 2g), la velocidad de pérdida sube un 41%. El ala puede entrar en pérdida con el morro en actitud aparentemente normal. El viraje <emphasis role="strong">base-final</emphasis> en el circuito es el escenario más letal.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Recuperación de la pérdida</emphasis>: palanca adelante (bajar el morro) es la única cura. No uses los alerones para levantar un ala caída: profundizan la pérdida e inician la barrena.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Barrena (autorrotación)</emphasis>: pérdida agravada y asimétrica con tres fases: <emphasis role="strong">incipiente</emphasis> (recuperable antes de un giro), <emphasis role="strong">desarrollada</emphasis> (movimiento constante) y <emphasis role="strong">recuperación</emphasis> (cesa la rotación). Cada vuelta cuesta 50-100 m de altura.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Salida de barrena</emphasis>: consulta siempre el AFM de tu planeador. La secuencia estándar: 1. pie contrario a la rotación (a fondo); 2. palanca al centro y adelante; 3. cuando pare el giro, <emphasis role="strong">neutraliza el pedal</emphasis> y entonces recupera suavemente del picado.</simpara>
+</listitem>
+</itemizedlist>
+</sidebar>
+</section>
+</chapter>
+<chapter xml:id="cap07-picado-espiral">
+<title>Picado en espiral</title>
+<blockquote>
+<simpara>El picado en espiral engaña al instinto del piloto: parece que hay que tirar de la palanca, pero esa reacción puede ser mortal. En este capítulo aprenderás a distinguirlo de una barrena, a entender por qué intentar subir el morro sin nivelar primero las alas agrava la situación, y a ejecutar la secuencia de recuperación correcta —nivelar las alas, recuperar suave del picado y controlar la velocidad— de forma procedimental y sin margen de error.</simpara>
+</blockquote>
+<section xml:id="ref-espiral-cap07">
+<title>Diferencias críticas: no es una barrena</title>
+<simpara>Es vital no confundir un <link linkend="glos-picado-espiral">picado en espiral</link><indexterm>
+<primary>Picado en espiral (spiral dive)</primary>
+</indexterm> (o espiral descendente) con una barrena.</simpara>
+<simpara>En una barrena, el planeador está en pérdida asimétrica, cae verticalmente guiñando y su velocidad aerodinámica es baja y constante. Por el contrario, en un picado en espiral <emphasis role="strong">el planeador está volando</emphasis>; ninguna de sus alas está en pérdida. El planeador describe una trayectoria curva descendente cada vez más pronunciada en la que tanto la velocidad como el factor de carga (fuerzas G) aumentan de forma constante y rápida.</simpara>
+<simpara>Aplicar la técnica de recuperación de la barrena (pisar el pedal contrario a fondo) en un picado en espiral es un error gravísimo que puede sobrecargar la cola y el timón a esas altas velocidades.</simpara>
+<simpara>La herramienta de diagnóstico más rápida y fiable es el <emphasis role="strong">anemómetro</emphasis> (<xref linkend="fig-05-cap07-espiral-vs-barrena"/>):</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Velocidad alta o creciendo</emphasis> → espiral descendente. El planeador vuela y acelera.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Velocidad baja y constante, en torno a la de pérdida o incluso menos</emphasis> → barrena. El ala está en pérdida y la velocidad no puede aumentar.</simpara>
+</listitem>
+</itemizedlist>
+<figure xml:id="fig-05-cap07-espiral-vs-barrena" role="placeholder">
+<title>Espiral descendente vs. barrena: diagnóstico por actitud, altímetro y trayectoria.</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="imagenes/05-cap07-espiral-vs-barrena.png" align="center"/>
+</imageobject>
+<textobject><phrase>Panel doble comparativo horizontal. Izquierda: planeador en picado espiral, muy inclinado, con flecha de velocidad alta y creciente en el anemómetro y flecha de trayectoria curva descendente en espiral. El anemómetro muestra aguja en zona alta (rojo). Derecha: planeador en barrena, morro arriba o caída vertical, anemómetro con aguja baja y estable (zona verde-amarilla), trayectoria de caída vertical con giro. Etiquetas claras en cada panel: 'ESPIRAL: Velocidad alta y creciente' / 'BARRENA: Velocidad baja y constante'. Estilo diagrama técnico, fondo blanco, colores azul y naranja para diferenciar.</phrase></textobject>
+</mediaobject>
+</figure>
+<simpara>&#160;</simpara>
+</section>
+<section xml:id="_el_peligro_mortal_del_instinto">
+<title>El peligro mortal del instinto</title>
+<simpara>La espiral descendente ha recibido el apodo de "<link linkend="glos-espiral-cementerio">espiral del cementerio</link><indexterm>
+<primary>Espiral del cementerio (graveyard spiral)</primary>
+</indexterm>" en la aviación general por una buena razón: engaña al instinto de supervivencia del piloto desorientado.</simpara>
+<simpara>Cuando el piloto percibe el morro apuntando hacia abajo y la velocidad disparándose, el instinto inmediato es tirar de la palanca para subir. Sin embargo, en un picado en espiral el planeador está fuertemente ladeado. Si tiras de la palanca <emphasis role="strong">sin haber nivelado antes las alas</emphasis>, el efecto es catastrófico: al estar de lado, el timón de profundidad empuja el planeador hacia el centro del giro, cerrando aún más el radio. La espiral se aprieta, la velocidad crece y las fuerzas G aumentan hasta superar el límite de diseño y romper la estructura.</simpara>
+<warning>
+<simpara>⚠ <emphasis role="strong">SEGURIDAD</emphasis></simpara>
+<simpara>Nunca tires de la palanca de mando para intentar frenar un picado si las alas del planeador se encuentran inclinadas.</simpara>
+</warning>
+<simpara>&#160;</simpara>
+</section>
+<section xml:id="_la_causa_típica_pérdida_de_referencia_visual">
+<title>La causa típica: pérdida de referencia visual</title>
+<simpara>La situación clásica que desencadena una espiral descendente es la pérdida accidental de referencias visuales exteriores (VMC), como introducirse inadvertidamente en la base de una nube mientras se vira en una térmica fuerte.</simpara>
+<simpara>Al perder el horizonte visual, el oído interno se desorienta rápidamente. El planeador, que habitualmente no es estable en espiral (tiende a aumentar gradualmente su ángulo de alabeo si se dejan sueltos los mandos en un viraje), comenzará a inclinarse y a bajar el morro de forma progresiva. El piloto desorientado no lo percibe hasta que el fuerte ruido aerodinámico y el aumento de la velocidad en el anemómetro revelan que el planeador está cayendo aceleradamente.</simpara>
+<simpara>&#160;</simpara>
+</section>
+<section xml:id="_procedimiento_de_salida_recuperación">
+<title>Procedimiento de salida (recuperación)</title>
+<simpara>La salida de un picado en espiral debe ejecutarse de forma procedimental, luchando activamente contra el instinto de tirar de la palanca en un primer momento:</simpara>
+<orderedlist numeration="arabic">
+<listitem>
+<simpara><emphasis role="strong">Nivelar las alas:</emphasis> es lo primero, porque el alabeo es lo que sostiene y aprieta la espiral. Aplica palanca lateral y pedal hacia el lado contrario del viraje, con decisión, hasta poner las alas completamente horizontales respecto a tu referencia o a los instrumentos.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Recuperar el picado:</emphasis> solo cuando las alas estén a 0º de inclinación lateral, tira de la palanca con firmeza pero con suavidad para elevar el morro. Hazlo de forma progresiva, vigilando no superar factores de carga excesivos al salir de la trayectoria de picado.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Controlar la velocidad:</emphasis> si la velocidad se aproxima a la V<subscript>NE</subscript> (Velocidad Nunca Exceder), extiende los aerofrenos para frenar la aceleración; pero hazlo con suavidad, porque a alta velocidad y con factor de carga elevado una extensión brusca añade carga a la estructura.</simpara>
+</listitem>
+</orderedlist>
+<simpara>&#160;</simpara>
+<sidebar role="postit">
+<simpara><emphasis role="strong">Resumen del Capítulo: Picado en Espiral</emphasis></simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Diagnóstico rápido — mira el anemómetro</emphasis>: velocidad alta o creciendo = espiral (el planeador vuela y acelera). Velocidad baja y constante = barrena (el ala está en pérdida, no puede acelerar). No las confundas: la técnica es opuesta.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">El peligro del instinto</emphasis>: si tiras de la palanca para subir el morro sin nivelar antes las alas, solo cierras más la espiral y aumentas las Gs hasta el fallo estructural.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Cómo salir</emphasis>: 1. nivela las alas (alerones y pie coordinados al lado contrario del viraje) —es lo primero, el alabeo sostiene la espiral—; 2. recupera suave del picado; 3. si la velocidad se acerca a la VNE, frena con aerofrenos (suavemente).</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Causa típica</emphasis>: pérdida de referencia visual (nubes, noche) y distracción. El planeador tiene tendencia espiral; si lo dejas solo con un pequeño alabeo, la espiral crece sola.</simpara>
+</listitem>
+</itemizedlist>
+</sidebar>
+</section>
+</chapter>
+<appendix xml:id="syllabus-easa">
+<title>Syllabus Oficial EASA - Principios de Vuelo</title>
+<simpara>El siguiente programa de estudios (Syllabus) corresponde a la asignatura de <emphasis role="strong">Principios de Vuelo</emphasis> para la obtención de la licencia de piloto de planeador (SPL), conforme al AMC1 SFCL.130.</simpara>
+<itemizedlist>
+<title>PRINCIPIOS DE VUELO</title>
+<listitem>
+<simpara>5.1. Aerodinámica (flujo de aire).</simpara>
+</listitem>
+<listitem>
+<simpara>5.2. Mecánica de vuelo.</simpara>
+</listitem>
+<listitem>
+<simpara>5.3. Estabilidad.</simpara>
+</listitem>
+<listitem>
+<simpara>5.4. Control.</simpara>
+</listitem>
+<listitem>
+<simpara>5.5. Limitaciones (factor de carga y maniobras).</simpara>
+</listitem>
+<listitem>
+<simpara>5.6. Pérdida de sustentación (Stalling) y autorrotación (Spinning).</simpara>
+</listitem>
+<listitem>
+<simpara>5.7. Picado en espiral (Spiral Dive).</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Este manual ha sido estructurado siguiendo fielmente este syllabus oficial para garantizar que cubres todos los puntos necesarios para el examen teórico.</simpara>
+<section xml:id="tests-online">
+<title>Ponte a prueba</title>
+<simpara>La teoría se afianza respondiendo preguntas. Esta asignatura cuenta con su propio test de autoevaluación en línea, con preguntas tipo examen. Por ejemplo:</simpara>
+<simpara><link xl:href="https://vuelalibre.net/tests/05-principios-vuelo/">https://vuelalibre.net/tests/05-principios-vuelo/</link></simpara>
+<simpara>Consulta a tu instructor, quien te indicará cuál es el banco de preguntas o el formato más adecuado, y sigue su recomendación. Te será de gran utilidad tanto para afianzar los conocimientos de cada capítulo como para tu repaso general antes de presentarte al examen teórico.</simpara>
+</section>
+</appendix>
+<chapter xml:id="glosario">
+<title>Glosario de términos</title>
+<simpara>Este glosario recoge las definiciones y acrónimos esenciales de la aerodinámica y los principios de vuelo aplicables a la licencia de piloto de planeador (SPL), organizados según el programa de formación EASA AMC1 SFCL.130. Cada definición incluye una referencia al capítulo donde el concepto se trata en profundidad.</simpara>
+<glossentry>
+<glossterm><anchor xml:id="glos-angulo-ataque" xreflabel="[glos-angulo-ataque]"/><emphasis role="strong">Ángulo de ataque (AoA / <emphasis>Angle of Attack</emphasis>)</emphasis></glossterm>
+<glossdef>
+<simpara>Ángulo que forma la cuerda aerodinámica del ala con la dirección del viento relativo. Es el parámetro aerodinámico más importante: de él dependen directamente el coeficiente de sustentación y el coeficiente de resistencia. Aumenta al tirar de la palanca; disminuye al empujarla. No confundirlo con la actitud del morro: un planeador puede tener el morro bajo y un ángulo de ataque peligrosamente alto si la trayectoria de descenso es más pronunciada que la actitud. La referencia es siempre el viento relativo, no el horizonte. (Mencionado en: <link linkend="ref-perdida-cap06">cap. 6</link>)</simpara>
+</glossdef>
+</glossentry>
+<glossentry>
+<glossterm><anchor xml:id="glos-angulo-ataque-critico" xreflabel="[glos-angulo-ataque-critico]"/><emphasis role="strong">Ángulo de ataque crítico</emphasis></glossterm>
+<glossdef>
+<simpara>Ángulo de ataque máximo que el ala puede soportar antes de que el flujo de aire se desprenda del extradós y la sustentación se destruya. Para la mayoría de los perfiles de planeador se sitúa entre 15° y 18°. Su superación, sea cual sea la velocidad, el peso o la altitud, provoca siempre la pérdida (<emphasis role="strong">stall</emphasis>). (Mencionado en: <link linkend="ref-perdida-cap06">cap. 6</link>)</simpara>
+</glossdef>
+</glossentry>
+<glossentry>
+<glossterm><anchor xml:id="glos-autorrotacion" xreflabel="[glos-autorrotacion]"/><emphasis role="strong">Autorrotación (<emphasis>spin</emphasis>)</emphasis></glossterm>
+<glossdef>
+<simpara>Ver <link linkend="glos-barrena">Barrena</link>. Movimiento autosostenido de rotación y descenso producido por una pérdida asimétrica entre las dos alas: la guiñada y el alabeo se realimentan entre sí sin intervención del piloto. (Mencionado en: <link linkend="ref-barrena-cap06">cap. 6</link>)</simpara>
+</glossdef>
+</glossentry>
+<glossentry>
+<glossterm><anchor xml:id="glos-barrena" xreflabel="[glos-barrena]"/><emphasis role="strong">Barrena (autorrotación / <emphasis>spin</emphasis>)</emphasis></glossterm>
+<glossdef>
+<simpara>Condición de vuelo resultado de una pérdida de sustentación asimétrica. Un ala entra en pérdida más profundamente que la otra, cae bruscamente y su mayor ángulo de ataque la ancla en la pérdida, mientras la otra ala continúa volando parcialmente. El desequilibrio genera un acoplamiento intenso de guiñada y alabeo: rotación rápida y descenso de hasta 100 m por vuelta, completando cada giro en unos 4 segundos. Recuperación (en orden inamovible): pedal contrario a la rotación a fondo, palanca al centro y adelante, centrar pedales al cesar la rotación y recuperar suavemente del picado. (Mencionado en: <link linkend="ref-barrena-cap06">cap. 6</link>)</simpara>
+</glossdef>
+</glossentry>
+<glossentry>
+<glossterm><anchor xml:id="glos-bernoulli" xreflabel="[glos-bernoulli]"/><emphasis role="strong">Bernoulli, teorema de</emphasis></glossterm>
+<glossdef>
+<simpara>Principio de la física de fluidos que establece que, en un fluido en movimiento, un aumento de la velocidad del flujo se corresponde con una disminución de la presión estática. En aerodinámica explica parte de la sustentación: el aire que acelera sobre el extradós genera una zona de baja presión que aspira el ala hacia arriba. Se complementa con el efecto acción-reacción de Newton (deflexión del flujo hacia abajo en el borde de salida). (Mencionado en: <link linkend="ref-sustentacion-cap01">cap. 1</link>)</simpara>
+</glossdef>
+</glossentry>
+<glossentry>
+<glossterm><anchor xml:id="glos-capa-limite" xreflabel="[glos-capa-limite]"/><emphasis role="strong">Capa límite</emphasis></glossterm>
+<glossdef>
+<simpara>Delgada capa de aire que fluye directamente en contacto con la superficie del ala, donde la velocidad cae gradualmente desde la del flujo libre hasta cero en la superficie sólida. Puede ser <emphasis role="strong">laminar</emphasis> (flujo ordenado, mínima resistencia) o <emphasis role="strong">turbulenta</emphasis> (flujo caótico, mayor resistencia). El punto de transición entre ambos regímenes determina el rendimiento del perfil: un simple mosquito aplastado en el borde de ataque puede adelantarlo y degradar el planeo de forma medible. (Mencionado en: <link linkend="ref-capa-limite-cap01">cap. 1</link>)</simpara>
+</glossdef>
+</glossentry>
+<glossentry>
+<glossterm><anchor xml:id="glos-CG" xreflabel="[glos-CG]"/><emphasis role="strong">CG (Centro de gravedad)</emphasis></glossterm>
+<glossdef>
+<simpara>Punto teórico donde se considera aplicada la resultante de todas las fuerzas de gravedad que actúan sobre el planeador. Su ubicación longitudinal es clave para la estabilidad y el control del vuelo. (Mencionado en: <link linkend="ref-CG-cap03">cap. 3</link>)</simpara>
+</glossdef>
+</glossentry>
+<glossentry>
+<glossterm><anchor xml:id="glos-CP" xreflabel="[glos-CP]"/><emphasis role="strong">Centro de Presiones (CP)</emphasis></glossterm>
+<glossdef>
+<simpara>Punto de la cuerda aerodinámica donde se considera aplicado el vector resultante de la sustentación total del ala. No es fijo: se desplaza hacia adelante al aumentar el ángulo de ataque y hacia atrás al disminuirlo. Su movilidad obliga a situar el CG delante de su rango de movimiento para mantener la estabilidad longitudinal. (Mencionado en: <link linkend="ref-CP-cap01">cap. 1</link>, <link linkend="ref-CG-cap03">cap. 3</link>)</simpara>
+</glossdef>
+</glossentry>
+<glossentry>
+<glossterm><anchor xml:id="glos-coeficiente-planeo" xreflabel="[glos-coeficiente-planeo]"/><emphasis role="strong">Coeficiente de planeo (L/D, <emphasis>finesse</emphasis>)</emphasis></glossterm>
+<glossdef>
+<simpara>Relación entre la sustentación (<emphasis>Lift</emphasis>) y la resistencia total (<emphasis>Drag</emphasis>) de la aeronave, equivalente a la distancia horizontal recorrida por unidad de altura perdida en aire en calma (un planeador con L/D de 40 recorre 40 km por cada kilómetro de altura cedida). (Mencionado en: <link linkend="ref-LD-cap02">cap. 2</link>)</simpara>
+</glossdef>
+</glossentry>
+<glossentry>
+<glossterm><anchor xml:id="glos-compensador" xreflabel="[glos-compensador]"/><emphasis role="strong">Compensador (<emphasis>trim</emphasis>)</emphasis></glossterm>
+<glossdef>
+<simpara>Superficie de control secundaria —o mecanismo de ajuste sobre la superficie principal— que permite aliviar la presión sobre la palanca una vez establecida la actitud deseada. No es un accesorio de comodidad: es un mando aerodinámico fundamental que permite mantener una velocidad constante sin esfuerzo sostenido. Debe ajustarse cada vez que se cambia el régimen de vuelo. (Mencionado en: <link linkend="ref-trim-cap04">cap. 4</link>)</simpara>
+</glossdef>
+</glossentry>
+<glossentry>
+<glossterm><anchor xml:id="glos-curva-polar" xreflabel="[glos-curva-polar]"/><emphasis role="strong">Curva polar</emphasis></glossterm>
+<glossdef>
+<simpara>Gráfica característica de cada modelo de planeador que relaciona la velocidad horizontal indicada (eje X, en km/h) con la tasa de descenso vertical (eje Y, en m/s) en condiciones de aire en calma. De ella se extraen la velocidad de mínimo descenso (vértice superior) y la velocidad de mejor planeo (tangente desde el origen). Es el "DNI" del planeador y la referencia para adaptar la velocidad al viento y a las zonas de ascenso o descenso. (Mencionado en: <link linkend="ref-curva-polar-cap02">cap. 2</link>)</simpara>
+</glossdef>
+</glossentry>
+<glossentry>
+<glossterm><anchor xml:id="glos-diagrama-vn" xreflabel="[glos-diagrama-vn]"/><emphasis role="strong">Diagrama V-n (envolvente de vuelo)</emphasis></glossterm>
+<glossdef>
+<simpara>Representación gráfica de los límites estructurales del planeador que relaciona la velocidad (V) con el factor de carga en Gs (n). Define la "caja" de operaciones seguras: dentro de la envolvente la estructura aguanta; fuera, se producen deformaciones permanentes o roturas. Según CS-22: categoría U (<emphasis>Utility</emphasis>) soporta de +5,3g a −2,65g a la velocidad V<subscript>A</subscript>, límites que se estrechan a +4,0g y −1,5g a V<subscript>D</subscript>; categoría A (<emphasis>Acrobática</emphasis>) de +7,0g a −5,0g. Estos límites solo son válidos respetando también los límites de velocidad. (Mencionado en: <link linkend="ref-diagrama-vn-cap05">cap. 5</link>)</simpara>
+</glossdef>
+</glossentry>
+<glossentry>
+<glossterm><anchor xml:id="glos-diedro" xreflabel="[glos-diedro]"/><emphasis role="strong">Diedro (ángulo diedro)</emphasis></glossterm>
+<glossdef>
+<simpara>Ángulo hacia arriba que forman las alas respecto al plano horizontal, dando al planeador una forma de "V" abierta vista de frente. Proporciona estabilidad lateral: cuando un ala baja por una perturbación, recibe el flujo de aire con mayor ángulo de ataque efectivo, genera más sustentación y vuelve a la posición nivelada sin intervención del piloto. (Mencionado en: <link linkend="ref-diedro-cap03">cap. 3</link>)</simpara>
+</glossdef>
+</glossentry>
+<glossentry>
+<glossterm><anchor xml:id="glos-deriva" xreflabel="[glos-deriva]"/><emphasis role="strong">Deriva</emphasis></glossterm>
+<glossdef>
+<simpara>Desviación lateral de la trayectoria del planeador respecto al suelo provocada por el viento de costado (en navegación). En aerodinámica, se refiere a la superficie fija vertical de la cola (estabilizador vertical) que aporta estabilidad de guiñada. (Mencionado en: <link linkend="ref-efecto-veleta-cap03">cap. 3</link>)</simpara>
+</glossdef>
+</glossentry>
+<glossentry>
+<glossterm><anchor xml:id="glos-efecto-suelo" xreflabel="[glos-efecto-suelo]"/><emphasis role="strong">Efecto suelo (<emphasis>ground effect</emphasis>)</emphasis></glossterm>
+<glossdef>
+<simpara>Mejora transitoria de la eficiencia aerodinámica que experimenta el planeador cuando vuela por debajo de una envergadura de ala sobre el terreno. El suelo actúa como barrera que comprime los torbellinos de punta de ala, reduce el <emphasis>downwash</emphasis> y disminuye la resistencia inducida. Como resultado, el planeador "flota" más de lo esperado: una entrada larga o con exceso de velocidad puede añadir centenares de metros de rodada. (Mencionado en: <link linkend="ref-efecto-suelo-cap01">cap. 1</link>)</simpara>
+</glossdef>
+</glossentry>
+<glossentry>
+<glossterm><anchor xml:id="glos-efecto-veleta" xreflabel="[glos-efecto-veleta]"/><emphasis role="strong">Efecto veleta</emphasis></glossterm>
+<glossdef>
+<simpara>Tendencia del planeador a alinearse automáticamente con la dirección del viento relativo gracias a la deriva. La distancia entre el CG y la deriva actúa como brazo de palanca que amplifica la fuerza correctora. Es el mecanismo que proporciona la estabilidad direccional del planeador. (Mencionado en: <link linkend="ref-efecto-veleta-cap03">cap. 3</link>)</simpara>
+</glossdef>
+</glossentry>
+<glossentry>
+<glossterm><anchor xml:id="glos-eficacia-mando" xreflabel="[glos-eficacia-mando]"/><emphasis role="strong">Eficacia de mando</emphasis></glossterm>
+<glossdef>
+<simpara>Grado de respuesta de las superficies de control en función de la velocidad de vuelo. A alta velocidad, la presión dinámica es mayor y los mandos están duros y muy reactivos. A baja velocidad, disminuye y los mandos se vuelven blandos o "chiclosos". Esta pérdida de eficacia próxima a la velocidad de pérdida es una advertencia física directa: el ala se acerca al ángulo de ataque crítico. (Mencionado en: <link linkend="ref-eficacia-mando-cap04">cap. 4</link>)</simpara>
+</glossdef>
+</glossentry>
+<glossentry>
+<glossterm><anchor xml:id="glos-espiral-cementerio" xreflabel="[glos-espiral-cementerio]"/><emphasis role="strong">Espiral del cementerio (<emphasis>graveyard spiral</emphasis>)</emphasis></glossterm>
+<glossdef>
+<simpara>Ver <link linkend="glos-picado-espiral">Picado en espiral</link>. Nombre popular del picado en espiral, que alude a la tendencia mortal de tirar de la palanca sin nivelar previamente las alas, apretando la espiral hasta el fallo estructural. (Mencionado en: <link linkend="ref-espiral-cap07">cap. 7</link>)</simpara>
+</glossdef>
+</glossentry>
+<glossentry>
+<glossterm><anchor xml:id="glos-estabilidad-dinamica" xreflabel="[glos-estabilidad-dinamica]"/><emphasis role="strong">Estabilidad dinámica</emphasis></glossterm>
+<glossdef>
+<simpara>Comportamiento de la aeronave en el tiempo tras una perturbación. Si las oscilaciones se amortiguan progresivamente, la estabilidad dinámica es <emphasis role="strong">positiva</emphasis>; si se mantienen, es <emphasis role="strong">neutra</emphasis>; si crecen, es <emphasis role="strong">negativa</emphasis> o divergente. Modos relevantes para el planeador: el fugoide (oscilación longitudinal lenta e inocua) y la tendencia espiral (divergencia lateral que puede derivar en picado en espiral si no se supervisa). (Mencionado en: <link linkend="ref-estabilidad-dinamica-cap03">cap. 3</link>)</simpara>
+</glossdef>
+</glossentry>
+<glossentry>
+<glossterm><anchor xml:id="glos-estabilidad-estatica" xreflabel="[glos-estabilidad-estatica]"/><emphasis role="strong">Estabilidad estática</emphasis></glossterm>
+<glossdef>
+<simpara>Tendencia inicial de la aeronave a responder a una perturbación. Si tiende a volver a su posición de equilibrio, la estabilidad estática es <emphasis role="strong">positiva</emphasis>; si se queda en la nueva posición, es <emphasis role="strong">neutra</emphasis>; si se aleja aún más del equilibrio, es <emphasis role="strong">negativa</emphasis>. La estabilidad estática positiva es la condición de diseño fundamental de todos los planeadores civiles de entrenamiento. (Mencionado en: <link linkend="ref-estabilidad-estatica-cap03">cap. 3</link>)</simpara>
+</glossdef>
+</glossentry>
+<glossentry>
+<glossterm><anchor xml:id="glos-factor-carga" xreflabel="[glos-factor-carga]"/><emphasis role="strong">Factor de carga (n)</emphasis></glossterm>
+<glossdef>
+<simpara>Relación entre la sustentación aerodinámica total y el peso del planeador, expresada en unidades <emphasis>g</emphasis>. En vuelo recto y nivelado: n = 1g. En un viraje de 60° de inclinación: n = 2g. El factor de carga eleva la velocidad de pérdida en proporción a su raíz cuadrada: a 2g, sube un 41%. Deflexiones bruscas y maniobras mal coordinadas en turbulencia pueden superar los límites del diagrama V-n. (Mencionado en: <link linkend="ref-factor-carga-cap02">cap. 2</link>, <link linkend="ref-factor-carga-cap05">cap. 5</link>)</simpara>
+</glossdef>
+</glossentry>
+<glossentry>
+<glossterm><anchor xml:id="glos-flutter" xreflabel="[glos-flutter]"/><emphasis role="strong">Flutter (Flameo aeroelástico)</emphasis></glossterm>
+<glossdef>
+<simpara>Fenómeno físico de oscilaciones aeroelásticas autoexcitadas e inestables que afectan a las superficies sustentadoras o de control del planeador al superar la VNE, pudiendo destruir la estructura en segundos debido a la interacción del flujo de aire a alta velocidad con la flexibilidad estructural. (Mencionado en: <link linkend="ref-VNE-cap05">cap. 5</link>)</simpara>
+</glossdef>
+</glossentry>
+<glossentry>
+<glossterm><anchor xml:id="glos-fugoide" xreflabel="[glos-fugoide]"/><emphasis role="strong">Fugoide (modo fugoide)</emphasis></glossterm>
+<glossdef>
+<simpara>Modo de oscilación longitudinal lento y de largo período (30-50 segundos) en el que el planeador intercambia altitud y velocidad en ciclos suaves. Generalmente bien amortiguado y apenas perceptible si el piloto mantiene los mandos sujetos. No es peligroso por sí mismo, pero puede desconcertar al piloto inexperto que intenta corregirlo con entradas bruscas. (Mencionado en: <link linkend="ref-estabilidad-dinamica-cap03">cap. 3</link>)</simpara>
+</glossdef>
+</glossentry>
+<glossentry>
+<glossterm><anchor xml:id="glos-guinada-adversa" xreflabel="[glos-guinada-adversa]"/><emphasis role="strong">Guiñada adversa (<emphasis>adverse yaw</emphasis>)</emphasis></glossterm>
+<glossdef>
+<simpara>Efecto secundario indeseable al accionar los alerones para iniciar un viraje. El alerón que baja (ala exterior) genera más sustentación y también más resistencia inducida, frenando ese lado y tirando del morro en dirección contraria al giro. Es especialmente pronunciado en planeadores de gran envergadura. Se corrige con coordinación pie-mano: aplicar palanca y pedal en la misma dirección simultáneamente. (Mencionado en: <link linkend="ref-guinada-adversa-cap04">cap. 4</link>)</simpara>
+</glossdef>
+</glossentry>
+<glossentry>
+<glossterm><anchor xml:id="glos-IAS" xreflabel="[glos-IAS]"/><emphasis role="strong">IAS (Velocidad indicada / Indicated Air Speed)</emphasis></glossterm>
+<glossdef>
+<simpara>Velocidad de la aeronave respecto al aire circundante tal como la indica el anemómetro, sin correcciones por temperatura ni densidad. Es la referencia para todos los límites aerodinámicos y estructurales (VNE, VA, velocidades de pérdida y curva polar). (Mencionado en: <link linkend="ref-VNE-cap05">cap. 5</link>)</simpara>
+</glossdef>
+</glossentry>
+<glossentry>
+<glossterm><anchor xml:id="glos-mando-diferencial" xreflabel="[glos-mando-diferencial]"/><emphasis role="strong">Mando diferencial de alerones</emphasis></glossterm>
+<glossdef>
+<simpara>Sistema de varillaje que hace que el alerón que sube (ala interior del giro) recorra un ángulo mayor que el alerón que baja (ala exterior). Al generar más resistencia parásita en el ala interior, compensa parcialmente la resistencia inducida del ala exterior y reduce la guiñada adversa de forma mecánica. No la elimina completamente: la coordinación pie-mano sigue siendo necesaria. (Mencionado en: <link linkend="ref-mando-diferencial-cap04">cap. 4</link>)</simpara>
+</glossdef>
+</glossentry>
+<glossentry>
+<glossterm><anchor xml:id="glos-perdida" xreflabel="[glos-perdida]"/><emphasis role="strong">Pérdida de sustentación (<emphasis>stall</emphasis>)</emphasis></glossterm>
+<glossdef>
+<simpara>Condición aerodinámica que se produce cuando el ángulo de ataque supera el valor crítico (≈ 15°–18°) y el flujo de aire se desprende de forma turbulenta del extradós del ala. La sustentación cae drásticamente y la resistencia se dispara. Síntomas previos: morro alto, velocidad baja, mandos blandos y bataneo estructural. Recuperación: palanca adelante para reducir el ángulo de ataque. Nunca usar los alerones para levantar un ala caída durante la pérdida. (Mencionado en: <link linkend="ref-perdida-cap06">cap. 6</link>)</simpara>
+</glossdef>
+</glossentry>
+<glossentry>
+<glossterm><anchor xml:id="glos-picado-espiral" xreflabel="[glos-picado-espiral]"/><emphasis role="strong">Picado en espiral (<emphasis>spiral dive</emphasis>)</emphasis></glossterm>
+<glossdef>
+<simpara>Condición de vuelo en la que el planeador, inclinado lateralmente, describe una trayectoria curva descendente con velocidad y factor de carga crecientes. El planeador <emphasis>vuela</emphasis> —no está en pérdida—. Diagnóstico clave: velocidad alta o creciendo = espiral; velocidad baja y constante = barrena. El tratamiento es el opuesto en cada caso, por lo que confundirlos es letal. Recuperación de la espiral: abrir aerofrenos, nivelar alas primero, recuperar suavemente del picado. (Mencionado en: <link linkend="ref-espiral-cap07">cap. 7</link>)</simpara>
+</glossdef>
+</glossentry>
+<glossentry>
+<glossterm><anchor xml:id="glos-resistencia-inducida" xreflabel="[glos-resistencia-inducida]"/><emphasis role="strong">Resistencia inducida</emphasis></glossterm>
+<glossdef>
+<simpara>Componente de la resistencia aerodinámica que es subproducto directo de generar sustentación. Las diferencias de presión entre extradós e intradós hacen que el aire fluya alrededor de las puntas del ala formando torbellinos helicoidales que inclinan el vector de sustentación hacia atrás, creando una fuerza opuesta al avance. Es máxima a velocidades bajas; disminuye al aumentar la velocidad. Las alas de gran envergadura (alta relación de aspecto) la reducen notablemente. (Mencionado en: <link linkend="ref-resistencia-cap01">cap. 1</link>)</simpara>
+</glossdef>
+</glossentry>
+<glossentry>
+<glossterm><anchor xml:id="glos-resistencia-parasita" xreflabel="[glos-resistencia-parasita]"/><emphasis role="strong">Resistencia parásita</emphasis></glossterm>
+<glossdef>
+<simpara>Componente de la resistencia aerodinámica debida al movimiento del planeador a través del aire, independientemente de la sustentación generada. Incluye la fricción superficial, la resistencia de forma y la resistencia de interferencia entre superficies. Aumenta con el cuadrado de la velocidad: si la velocidad se dobla, la resistencia parásita se cuadruplica. A alta velocidad domina sobre la resistencia inducida. (Mencionado en: <link linkend="ref-resistencia-cap01">cap. 1</link>)</simpara>
+</glossdef>
+</glossentry>
+<glossentry>
+<glossterm><anchor xml:id="glos-sustentacion" xreflabel="[glos-sustentacion]"/><emphasis role="strong">Sustentación (<emphasis>lift</emphasis>)</emphasis></glossterm>
+<glossdef>
+<simpara>Fuerza aerodinámica perpendicular a la dirección del viento relativo que se opone al peso y mantiene al planeador en vuelo. Se genera por la diferencia de presión entre extradós (baja presión, flujo acelerado) e intradós (alta presión, flujo más lento), según el teorema de Bernoulli, combinada con la deflexión del flujo hacia abajo en el borde de salida (tercera ley de Newton). Depende de la densidad del aire, la velocidad al cuadrado, la superficie alar y el coeficiente de sustentación. (Mencionado en: <link linkend="ref-sustentacion-cap01">cap. 1</link>)</simpara>
+</glossdef>
+</glossentry>
+<glossentry>
+<glossterm><anchor xml:id="glos-tendencia-espiral" xreflabel="[glos-tendencia-espiral]"/><emphasis role="strong">Tendencia espiral</emphasis></glossterm>
+<glossdef>
+<simpara>Característica de estabilidad dinámica lateral presente en la mayoría de los planeadores: si se les abandona con un pequeño ángulo de inclinación, el alabeo crece lentamente hasta desarrollar un picado en espiral. El planeador es estáticamente estable en alabeo pero dinámicamente divergente en espiral cuando se deja sin supervisión. Es la causa fundamental de los accidentes por pérdida de control en condiciones de visibilidad reducida. (Mencionado en: <link linkend="ref-estabilidad-dinamica-cap03">cap. 3</link>, <link linkend="ref-espiral-cap07">cap. 7</link>)</simpara>
+</glossdef>
+</glossentry>
+<glossentry>
+<glossterm><anchor xml:id="glos-torbellinos-punta" xreflabel="[glos-torbellinos-punta]"/><emphasis role="strong">Torbellinos de punta de ala (<emphasis>wingtip vortices</emphasis>)</emphasis></glossterm>
+<glossdef>
+<simpara>Vórtices helicoidales que se generan en cada punta de ala por la diferencia de presión entre extradós e intradós: el aire fluye alrededor de la punta desde la zona de alta presión (intradós) hacia la de baja (extradós). Al desprenderse hacia atrás inclinan el vector de sustentación, generando la resistencia inducida. A escala mayor, los torbellinos de punta de aeronaves pesadas constituyen la turbulencia de estela, cuya peligrosidad en entornos de aeródromo mixto no debe subestimarse. (Mencionado en: <link linkend="ref-resistencia-cap01">cap. 1</link>)</simpara>
+</glossdef>
+</glossentry>
+<glossentry>
+<glossterm><anchor xml:id="glos-VA" xreflabel="[glos-VA]"/><emphasis role="strong">VA (Velocidad de maniobra / Maneuvering Speed)</emphasis></glossterm>
+<glossdef>
+<simpara>Velocidad máxima a la que pueden aplicarse deflexiones totales en un solo mando sin causar daños estructurales. Por debajo de VA, ante una deflexión brusca completa, el planeador entra en pérdida antes de generar suficientes Gs para superar su límite de carga. Por encima de VA, esa protección desaparece. Importante: la VA no cubre entradas simultáneas en más de un eje de control; incluso por debajo de VA, combinar timón y palanca a fondo puede superar los límites estructurales. (Mencionado en: <link linkend="ref-VA-cap05">cap. 5</link>)</simpara>
+</glossdef>
+</glossentry>
+<glossentry>
+<glossterm><anchor xml:id="glos-VRA" xreflabel="[glos-VRA]"/><emphasis role="strong">VRA (Velocidad máxima en aire turbulento / Rough Air Speed)</emphasis></glossterm>
+<glossdef>
+<simpara>Velocidad máxima a la que puede volarse en aire turbulento. Es la marca que separa los arcos del anemómetro según CS 22.1545: en la VRA termina el arco verde (operación normal) y empieza el amarillo (precaución, solo aire en calma). No debe confundirse con la VA, que es un límite estructural frente a deflexiones de mando y no se marca en la esfera, aunque en muchos veleros ambas tengan valores próximos. (Mencionado en: <link linkend="ref-VA-cap05">cap. 5</link>)</simpara>
+</glossdef>
+</glossentry>
+<glossentry>
+<glossterm><anchor xml:id="glos-velocidad-minimo-descenso" xreflabel="[glos-velocidad-minimo-descenso]"/><emphasis role="strong">Velocidad de mínimo descenso (Minimum Sink Speed)</emphasis></glossterm>
+<glossdef>
+<simpara>Velocidad a la que el planeador pierde la menor cantidad de altura posible por unidad de tiempo (obtenida en el vértice superior de la curva polar), óptima para centrar y explotar térmicas débiles. (Mencionado en: <link linkend="ref-curva-polar-cap02">cap. 2</link>)</simpara>
+</glossdef>
+</glossentry>
+<glossentry>
+<glossterm><anchor xml:id="glos-velocidad-mejor-planeo" xreflabel="[glos-velocidad-mejor-planeo]"/><emphasis role="strong">Velocidad de mejor planeo (V<subscript>G</subscript>)</emphasis></glossterm>
+<glossdef>
+<simpara>Velocidad a la que el planeador obtiene su máxima distancia recorrida por unidad de altura perdida en aire en calma (máxima fineza, correspondiente al L/D máximo determinado por la tangente a la curva polar). (Mencionado en: <link linkend="ref-curva-polar-cap02">cap. 2</link>)</simpara>
+</glossdef>
+</glossentry>
+<glossentry>
+<glossterm><anchor xml:id="glos-VNE" xreflabel="[glos-VNE]"/><emphasis role="strong">VNE (Velocidad de nunca exceder / Never Exceed Speed)</emphasis></glossterm>
+<glossdef>
+<simpara>Límite absoluto de velocidad del planeador, indicado por la línea roja en el anemómetro. Superarla expone el planeador al riesgo de flutter aeroelástico, que puede desintegrar la estructura en segundos, sin previo aviso. La VNE disminuye con la altitud porque la TAS crece respecto a la IAS en aire menos denso. Cerca de la VNE, las deflexiones de mando deben limitarse a un tercio de su recorrido total. Regulada en CS-22.1505. (Mencionado en: <link linkend="ref-VNE-cap05">cap. 5</link>)</simpara>
+</glossdef>
+</glossentry>
+<glossentry>
+<glossterm><anchor xml:id="glos-viento-relativo" xreflabel="[glos-viento-relativo]"/><emphasis role="strong">Viento relativo (<emphasis>relative wind</emphasis>)</emphasis></glossterm>
+<glossdef>
+<simpara>Dirección y velocidad del flujo de aire que incide sobre el ala, opuesta a la trayectoria de vuelo real del planeador. El ángulo de ataque se mide siempre respecto al viento relativo, nunca respecto al horizonte ni a la actitud del morro. Un planeador puede tener el morro arriba y aun así tener el viento relativo proveniente de arriba si la trayectoria real es ascendente; a la inversa, puede tener el morro bajo y un ángulo de ataque peligrosamente alto si la trayectoria de descenso es más pronunciada que la actitud. (Mencionado en: <link linkend="ref-perdida-cap06">cap. 6</link>)</simpara>
+</glossdef>
+</glossentry>
+</chapter>
+<chapter xml:id="bibliografia">
+<title>Bibliografía y fuentes</title>
+<simpara>Esta bibliografía es común a los nueve libros del manual de formación SPL. Reúne las fuentes normativas, los manuales técnicos y los apuntes de instrucción que se han utilizado como referencia para elaborar el contenido de la colección.</simpara>
+<section xml:id="_apuntes_de_instrucción_dto_fuentemilanos">
+<title>Apuntes de instrucción (DTO Fuentemilanos)</title>
+<simpara>Apuntes de teoría de <emphasis role="strong">Iñaqui Ulibarri García de la Cueva</emphasis> para la Organización de Formación Declarada (DTO) de Fuentemilanos, organizados por asignatura del temario SPL.</simpara>
+</section>
+<section xml:id="_normativa_y_reglamentación">
+<title>Normativa y reglamentación</title>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Easy Access Rules for Sailplanes</emphasis>. Agencia de la Unión Europea para la Seguridad Aérea (EASA). Compendio consolidado del Reglamento (UE) 2018/1976 —que contiene la <emphasis role="strong">Part-SFCL</emphasis> (licencias) y la <emphasis role="strong">Part-SAO</emphasis> (operaciones)— junto con sus AMC y GM.<?asciidoc-br?>
+<link xl:href="https://www.easa.europa.eu/sites/default/files/dfu/Sailplane%20Rule%20Book.pdf">https://www.easa.europa.eu/sites/default/files/dfu/Sailplane%20Rule%20Book.pdf</link></simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Reglamento de Ejecución (UE) n.º 923/2012 — SERA</emphasis> (<emphasis>Standardised European Rules of the Air</emphasis>). Reglas del aire comunes para la Unión Europea (versión consolidada). En España se aplica mediante el Real Decreto 552/2014.<?asciidoc-br?>
+<link xl:href="https://eur-lex.europa.eu/legal-content/ES/TXT/PDF/?uri=CELEX:02012R0923-20250501">https://eur-lex.europa.eu/legal-content/ES/TXT/PDF/?uri=CELEX:02012R0923-20250501</link></simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Ley 21/2003, de 7 de julio, de Seguridad Aérea</emphasis>. Jefatura del Estado (España). Publicada en el BOE núm. 162, de 8 de julio de 2003. Marco legal nacional que complementa la normativa europea.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_anexos_al_convenio_de_chicago_oaci">
+<title>Anexos al Convenio de Chicago (OACI)</title>
+<simpara>La OACI desarrolla las normas y métodos recomendados (SARPS) mediante 19 anexos al Convenio sobre Aviación Civil Internacional. Los más relevantes para el piloto de planeador son los anexos 1, 2, 7, 8, 11, 12, 13, 14 y 15.</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Anexo 1 — Licencias al personal</simpara>
+</listitem>
+<listitem>
+<simpara>Anexo 2 — Reglamento del aire</simpara>
+</listitem>
+<listitem>
+<simpara>Anexo 3 — Servicio meteorológico para la navegación aérea internacional</simpara>
+</listitem>
+<listitem>
+<simpara>Anexo 4 — Cartas aeronáuticas</simpara>
+</listitem>
+<listitem>
+<simpara>Anexo 5 — Unidades de medida que se emplearán en las operaciones aéreas y terrestres</simpara>
+</listitem>
+<listitem>
+<simpara>Anexo 6 — Operación de aeronaves</simpara>
+</listitem>
+<listitem>
+<simpara>Anexo 7 — Marcas de nacionalidad y de matrícula de las aeronaves</simpara>
+</listitem>
+<listitem>
+<simpara>Anexo 8 — Aeronavegabilidad</simpara>
+</listitem>
+<listitem>
+<simpara>Anexo 9 — Facilitación</simpara>
+</listitem>
+<listitem>
+<simpara>Anexo 10 — Telecomunicaciones aeronáuticas</simpara>
+</listitem>
+<listitem>
+<simpara>Anexo 11 — Servicios de tránsito aéreo</simpara>
+</listitem>
+<listitem>
+<simpara>Anexo 12 — Búsqueda y salvamento</simpara>
+</listitem>
+<listitem>
+<simpara>Anexo 13 — Investigación de accidentes e incidentes de aviación</simpara>
+</listitem>
+<listitem>
+<simpara>Anexo 14 — Aeródromos</simpara>
+</listitem>
+<listitem>
+<simpara>Anexo 15 — Servicios de información aeronáutica</simpara>
+</listitem>
+<listitem>
+<simpara>Anexo 16 — Protección del medio ambiente</simpara>
+</listitem>
+<listitem>
+<simpara>Anexo 17 — Seguridad: protección de la aviación civil internacional contra los actos de interferencia ilícita</simpara>
+</listitem>
+<listitem>
+<simpara>Anexo 18 — Transporte sin riesgos de mercancías peligrosas por vía aérea</simpara>
+</listitem>
+<listitem>
+<simpara>Anexo 19 — Gestión de la seguridad operacional</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_manuales_técnicos_y_métodos_de_formación">
+<title>Manuales técnicos y métodos de formación</title>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Glider Flying Handbook (FAA-H-8083-13B)</emphasis>. Federal Aviation Administration (FAA), U.S. Department of Transportation. Obra en dominio público; fuente de buena parte de las ilustraciones técnicas de la colección.
+<link xl:href="https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/glider_handbook">https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/glider_handbook</link></simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Methodik der Segelflugausbildung</emphasis> (<emphasis>Segelflugrechte</emphasis>, Rev. 2). Deutscher Aero Club (DAeC), 2022. Metodología alemana de instrucción de vuelo a vela.
+<link xl:href="https://www.daec.de/media/files/2022/Sportarten/Segelflug/Methodik_der_Segelflugausbildung_Segelflugrechte_Rev.2.pdf">https://www.daec.de/media/files/2022/Sportarten/Segelflug/Methodik_der_Segelflugausbildung_Segelflugrechte_Rev.2.pdf</link></simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Vuelo sin motor: técnicas avanzadas</emphasis>. Helmut Reichmann. Edición española de la obra de referencia internacional sobre la técnica del vuelo de distancia (orig. <emphasis>Streckensegelflug</emphasis>; ed. inglesa, <emphasis>Cross-Country Soaring</emphasis>). ISBN 978-84-283-1567-8.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+</chapter>
+</book>
