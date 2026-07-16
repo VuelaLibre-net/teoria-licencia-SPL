@@ -85,6 +85,15 @@ jobs:
             echo "::error file=$pdf::Iconos de admonition en el cuerpo del PDF"
             errores=1
           fi
+
+          # Marcado de Markdown impreso literalmente. Pasa cuando se anidan
+          # negritas ('**A (**B**)**') o se indenta prosa 4 espacios, que la
+          # convierte en bloque de código. Nada de eso debe llegar al PDF.
+          if grep -q '\*\*' <<<"$texto"; then
+            echo "::error file=$pdf::Asteriscos literales en el PDF: hay marcado sin interpretar"
+            grep -o '.\{0,40\}\*\*.\{0,40\}' <<<"$texto" | head -3 | sed 's/^/    /'
+            errores=1
+          fi
         done
 
         pdfs=$(ls build/pdf/*.pdf 2>/dev/null | wc -l)
