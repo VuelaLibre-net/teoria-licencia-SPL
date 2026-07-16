@@ -9,10 +9,9 @@ book:
   author: "VuelaLibre.net"
   chapters:
     - index.qmd
-    - colofon.qmd
     - dedicatoria.qmd
-    - prefacio.qmd
-    - indice-ilustraciones.qmd
+    - reconocimientos.qmd
+    - introduccion.qmd
     - cap01-masa-y-centro-de-gravedad.qmd
     - cap02-polar-de-velocidades-de-planeadores-o-velocidad-de-crucero.qmd
     - cap03-planificación-de-vuelo-y-definición-de-tareas.qmd
@@ -22,6 +21,7 @@ book:
     - apendice-syllabus-oficial-easa---planificación-y-rendimiento-de-vuelo.qmd
     - glosario.qmd
     - bibliografia.qmd
+    - colofon.qmd
 
 format:
   orange-book-es-typst:

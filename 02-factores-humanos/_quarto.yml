@@ -9,10 +9,9 @@ book:
   author: "VuelaLibre.net"
   chapters:
     - index.qmd
-    - colofon.qmd
     - dedicatoria.qmd
-    - prefacio.qmd
-    - indice-ilustraciones.qmd
+    - reconocimientos.qmd
+    - introduccion.qmd
     - cap01-factores-humanos-conceptos-básicos.qmd
     - cap02-fisiología-aeronáutica-básica-y-mantenimiento-de-salud.qmd
     - cap03-psicología-aeronáutica-básica.qmd
@@ -21,6 +20,7 @@ book:
     - apendice-syllabus-oficial-easa---factores-humanos.qmd
     - glosario.qmd
     - bibliografia.qmd
+    - colofon.qmd
 
 format:
   orange-book-es-typst:

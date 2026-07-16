@@ -9,10 +9,9 @@ book:
   author: "VuelaLibre.net"
   chapters:
     - index.qmd
-    - colofon.qmd
     - dedicatoria.qmd
-    - prefacio.qmd
-    - indice-ilustraciones.qmd
+    - reconocimientos.qmd
+    - introduccion.qmd
     - cap01-derecho-internacional-convenios-acuerdos-y-organizaciones.qmd
     - cap02-aeronavegabilidad.qmd
     - cap03-marcas-de-nacionalidad-y-matrícula-de-aeronaves.qmd
@@ -31,6 +30,7 @@ book:
     - apendice-syllabus-oficial-easa---derecho-aéreo.qmd
     - glosario.qmd
     - bibliografia.qmd
+    - colofon.qmd
 
 format:
   orange-book-es-typst:

@@ -9,10 +9,9 @@ book:
   author: "VuelaLibre.net"
   chapters:
     - index.qmd
-    - colofon.qmd
     - dedicatoria.qmd
-    - prefacio.qmd
-    - indice-ilustraciones.qmd
+    - reconocimientos.qmd
+    - introduccion.qmd
     - cap01-definiciones-y-técnica-de-comunicación.qmd
     - cap02-comunicaciones-vfr-en-aeródromos-no-controlados.qmd
     - cap03-comunicaciones-vfr-en-aeródromos-controlados.qmd
@@ -27,6 +26,7 @@ book:
     - apendice-códigos-q-esenciales-para-el-piloto-de-planeador.qmd
     - glosario.qmd
     - bibliografia.qmd
+    - colofon.qmd
 
 format:
   orange-book-es-typst:
