@@ -24,10 +24,28 @@
 #let title4 = 1.2em
 #let title5 = 11pt
 
-#let outline-part = 1.5em;
-#let outline-heading1 = 1.3em;
-#let outline-heading2 = 1.1em;
-#let outline-heading3 = 1.1em;
+// Tamaños del índice, la lista de ilustraciones y la de tablas.
+//
+// orange-book los da a 1.5 / 1.3 / 1.1 / 1.1em, y con el cuerpo a 10pt eso deja
+// TODOS los niveles por encima del texto del libro: hasta la subsección más
+// profunda (11pt) es mayor que lo que se lee (10pt). El índice acababa pesando
+// más que el contenido al que sirve.
+//
+// La convención en composición de libros es la contraria: el índice es una
+// ayuda de navegación y se compone al tamaño del cuerpo o por debajo. La
+// jerarquía la dan la sangría, el peso y el color —que orange-book ya usa: el
+// capítulo va en negrita y en el color de marca—, no un cuerpo mayor.
+//
+// Con font-size = 10pt esto da 13 / 11,5 / 9,5 / 8,5 pt. Sólo el capítulo queda
+// por encima del cuerpo, y poco: es la línea que se busca al hojear el índice y
+// necesita separarse de sus secciones, que en este formato van también en
+// negrita y en color. Sección y subsección bajan del cuerpo, y además dejan de
+// medir lo mismo: orange-book les daba 1.1em a las dos y sólo las distinguía el
+// peso.
+#let outline-part = 1.3em;
+#let outline-heading1 = 1.15em;
+#let outline-heading2 = 0.95em;
+#let outline-heading3 = 0.85em;
 
 
 #let nocite(citation) = {
