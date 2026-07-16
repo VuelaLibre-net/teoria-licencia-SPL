@@ -308,35 +308,7 @@
   }
 }
 
-#let book(title: "", subtitle: "", date: "", author: (), paper-size: "a4", width: none, height: none, margin: (inside: 3.5cm, outside: 2.5cm, top: 2.5cm, bottom: 2.5cm), logo: none, cover: none, cover-background: auto, image-index:none, body, main-color: blue, copyright: [], lang: "en", list-of-figure-title: none, list-of-table-title: none, supplement-chapter: "Chapter", supplement-part: "Part", font-size: 10pt, part-style: 0, part-font-size: auto, lowercase-references: false, padded-heading-number: true, outline-font-size: auto, outline-small-depth: 2, outline-small-width: 9.5cm, heading-style: 0, first-line-indent: true, outline-depth: 3) = {
-  let (prefaces, main-body) = {
-    let prefaces = []
-    let main-body = []
-    let reached-main = false
-    
-    if type(body) == content and body.has("children") {
-      for child in body.children {
-        if not reached-main {
-          if child.func() == heading and child.level == 1 {
-            let title = child.body
-            let title-str = repr(title)
-            if "Índice de ilustraciones" in title-str or child.numbering != none {
-              reached-main = true
-            }
-          }
-        }
-        
-        if reached-main {
-          main-body += child
-        } else {
-          prefaces += child
-        }
-      }
-    } else {
-      main-body = body
-    }
-    (prefaces, main-body)
-  }
+#let book(title: "", subtitle: "", date: "", author: (), paper-size: "a4", width: none, height: none, margin: (inside: 3.5cm, outside: 2.5cm, top: 2.5cm, bottom: 2.5cm), logo: none, cover: none, cover-background: auto, image-index:none, body, main-color: blue, copyright: [], lang: "en", list-of-figure-title: none, list-of-table-title: none, supplement-chapter: "Chapter", supplement-part: "Part", font-size: 10pt, part-style: 0, part-font-size: auto, lowercase-references: false, padded-heading-number: true, outline-font-size: auto, outline-small-depth: 2, outline-small-width: 9.5cm, heading-style: 0, first-line-indent: true, outline-depth: 3, front-matter-end: "Introducción") = {
 
   let supplement-chapter = if lang == "es" and supplement-chapter == "Chapter" { "Capítulo" } else { supplement-chapter }
   let supplement-part = if lang == "es" and supplement-part == "Part" { "Parte" } else { supplement-part }
@@ -654,26 +626,37 @@
   show math.equation: set block(spacing: 1.2em)
   show link: set text(fill: main-color)
 
-  // 1. Render prefaces (before index)
-  prefaces
+  // El índice, la lista de ilustraciones y la de tablas se emiten justo ANTES
+  // del encabezado que marca el fin de los preliminares (`front-matter-end`),
+  // de modo que dedicatoria y reconocimientos quedan delante y el resto detrás.
+  //
+  // No se parte el cuerpo en dos, como haría una implementación obvia: Quarto
+  // envuelve TODO el contenido en un único elemento `styled`, así que
+  // body.children sólo contiene ("parbreak", "space", "styled") y ningún
+  // heading es visible desde aquí. Un show rule, en cambio, atraviesa ese
+  // envoltorio. La versión anterior sí partía el cuerpo y por eso nunca
+  // encontraba el corte: dejaba el índice al final del libro, sin dar error.
+  //
+  // Si no hay ningún encabezado que case con `front-matter-end`, el índice no
+  // se imprime. La condición es el título, así que renombrar ese encabezado
+  // deja el libro sin índice en silencio.
+  show heading.where(level: 1): it => {
+    if front-matter-end != none and front-matter-end in repr(it.body) {
+      heading-image.update(x =>
+        image-index
+      )
+      my-outline(appendix-state, appendix-state-hide-parent, part-state, part-location,part-change,part-counter, main-color, textSize1: outline-part, textSize2: outline-heading1, textSize3: outline-heading2, textSize4: outline-heading3, depth: outline-depth, outline-font-size: outline-font-size)
+      [
+        // Las figuras sin pie no salen en la lista de ilustraciones
+        #show figure.where(caption: none): set figure(outlined: false)
+        #my-outline-sec(list-of-figure-title, figure.where(kind: image), outline-heading3)
+        #my-outline-sec(list-of-table-title, figure.where(kind: table), outline-heading3)
+      ]
+    }
+    it
+  }
 
-  // 2. Setup outline heading image
-  heading-image.update(x =>
-    image-index
-  )
-
-  // 3. Render main outline (Index / TOC)
-  my-outline(appendix-state, appendix-state-hide-parent, part-state, part-location,part-change,part-counter, main-color, textSize1: outline-part, textSize2: outline-heading1, textSize3: outline-heading2, textSize4: outline-heading3, depth: outline-depth, outline-font-size: outline-font-size)
-
-  // exclude figures without caption from the outline
-  show figure.where(caption: none): set figure(outlined: false)
-
-  // 4. Render lists of figures and tables (Lista de ilustraciones / Lista de tablas)
-  my-outline-sec(list-of-figure-title, figure.where(kind: image), outline-heading3)
-  my-outline-sec(list-of-table-title, figure.where(kind: table), outline-heading3)
-
-  // 5. Render main body (chapters and appendices)
-  main-body
+  body
 
 }
 
