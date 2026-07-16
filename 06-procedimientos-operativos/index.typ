@@ -415,6 +415,34 @@
   inset: 6pt,
   stroke: none
 )
+// Presentación del glosario al estilo de glossarium
+// (https://typst.app/universe/package/glossarium): término en negrita, raya y
+// definición seguida, con las entradas sin partir entre páginas.
+//
+// No se usa el paquete en sí, a propósito: exige declarar las entradas como
+// diccionarios de Typst, lo que sacaría el glosario de los .qmd —que son la
+// fuente canónica— y del EPUB. Además su función principal (referenciar
+// términos con @clave y generar retroenlaces) no tendría aquí nada que hacer:
+// el contenido no lleva ni una sola referencia al glosario. Esto reproduce su
+// aspecto sobre la lista de definición nativa, que sí sale en PDF y en EPUB.
+//
+// Alcance: todas las listas de términos de la colección salen del glosario. Los
+// ': ' que aparecen en los capítulos son pies de tabla de Quarto, que comparten
+// sintaxis pero no generan `terms`. Por eso esta regla no necesita acotarse.
+//
+// No se colorea el término: brand-color se define después de este include, así
+// que no es legible desde aquí, y la negrita es además el estilo por defecto de
+// glossarium. Si algún día se añade un _brand.yml, esto no desentonará.
+
+// Pandoc envuelve cada definición en un #block, que forzaría un salto de línea
+// tras el término. Se desenvuelve para que quede seguida, como en glossarium.
+#let _glosario-descripcion(d) = {
+  if d.func() == block and d.has("body") { d.body } else { d }
+}
+
+#show terms.item: it => block(breakable: false, below: 0.85em, width: 100%)[
+  #text(weight: "bold")[#it.term]#h(0.35em)#sym.dash.em#h(0.35em)#_glosario-descripcion(it.description)
+]
 #import "@preview/fontawesome:0.5.0": *
 #let brand-color = (:)
 #let brand-color-background = (:)
@@ -2965,123 +2993,123 @@ Consulta a tu instructor, quien te indicará cuál es el banco de preguntas o el
 <glosario-de-términos>
 Este glosario contiene las definiciones y acrónimos más relevantes de Procedimientos Operativos aplicables a la licencia de piloto de planeador (SPL).
 
-/ \*\*\*\*Aerofrenos (Spoilers)\*\*\*\*: #block[
+/ #strong[Aerofrenos (Spoilers)]: #block[
 Superficies móviles situadas generalmente en el extradós alar, accionadas por el piloto, cuya función es destruir la sustentación y aumentar la resistencia aerodinámica para controlar la senda de aproximación. (Mencionado en: cap. 4)
 ]
 
-/ \*\*\*\*Aerotow (Remolque por avión)\*\*\*\*: #block[
+/ #strong[Aerotow (Remolque por avión)]: #block[
 Método de lanzamiento en el que una aeronave a motor remolca al planeador mediante un cable flexible de longitud normalizada (generalmente entre 30 y 60 metros) hasta una altitud determinada. (Mencionado en: cap. 2)
 ]
 
-/ \*\*\*\*Altura de decisión (Decision Height / DH)\*\*\*\*: #block[
+/ #strong[Altura de decisión (Decision Height / DH)]: #block[
 Límite de altura preestablecido sobre el terreno por debajo del cual el piloto abandona la búsqueda de térmicas y se centra exclusivamente en el aterrizaje. En travesía se aplica como escalera: a 600 metros se elige la zona de aterrizaje, a 450 metros el campo definitivo y a 300 metros el piloto se compromete con el circuito. (Mencionado en: cap. 5)
 ]
 
-/ \*\*\*\*Amerizaje (Ditching)\*\*\*\*: #block[
+/ #strong[Amerizaje (Ditching)]: #block[
 Aterrizaje forzoso y controlado de una aeronave terrestre sobre una superficie de agua. (Mencionado en: cap. 6)
 ]
 
-/ \*\*\*\*Bail-out (Abandono del planeador)\*\*\*\*: #block[
+/ #strong[Bail-out (Abandono del planeador)]: #block[
 Procedimiento de emergencia que consiste en el salto en paracaídas desde una aeronave en vuelo cuando esta ya no es controlable o segura. (Mencionado en: cap. 8)
 ]
 
-/ \*\*\*\*Base (Tramo de base / Base leg)\*\*\*\*: #block[
+/ #strong[Base (Tramo de base / Base leg)]: #block[
 Tramo del circuito de tráfico perpendicular a la prolongación del eje de la pista que conecta el tramo de viento en cola con el tramo final. (Mencionado en: cap. 4)
 ]
 
-/ \*\*\*\*Cable flojo (Slack line)\*\*\*\*: #block[
+/ #strong[Cable flojo (Slack line)]: #block[
 Pérdida temporal de tensión en el cable de remolque durante el lanzamiento por avión, lo que puede provocar enredos o tirones violentos al tensarse de nuevo. (Mencionado en: cap. 2)
 ]
 
-/ \*\*\*\*Circuito de tráfico (Circuito de aeródromo)\*\*\*\*: #block[
+/ #strong[Circuito de tráfico (Circuito de aeródromo)]: #block[
 Trayectoria patrón y ordenada que describe una aeronave para realizar una aproximación y aterrizaje seguro. En planeadores consta típicamente de viento cruzado, viento en cola, base y final. (Mencionado en: cap. 4)
 ]
 
-/ \*\*\*\*Engelamiento (Icing)\*\*\*\*: #block[
+/ #strong[Engelamiento (Icing)]: #block[
 Formación y acumulación de hielo sobre la estructura del planeador (borde de ataque, cúpula o superficies de control) al volar a través de humedad visible con temperaturas bajo cero, degradando drásticamente el rendimiento aerodinámico y aumentando la velocidad de pérdida. (Mencionado en: cap. 6)
 ]
 
-/ \*\*\*\*Estela turbulenta (Wake turbulence)\*\*\*\*: #block[
+/ #strong[Estela turbulenta (Wake turbulence)]: #block[
 Turbulencia invisible y peligrosa (vórtices de punta de ala o flujo descendente de rotor) generada por el paso de aeronaves de gran masa o helicópteros en sustentación, que puede desestabilizar o dañar gravemente a un planeador que la atraviese. (Mencionado en: cap. 6)
 ]
 
-/ \*\*\*\*Fallo de lanzamiento\*\*\*\*: #block[
+/ #strong[Fallo de lanzamiento]: #block[
 Interrupción involuntaria de la tracción durante el despegue (por ejemplo, rotura de cable en torno o remolque, o fallo de motor del avión remolcador) que exige la ejecución inmediata del briefing de emergencia preestablecido. (Mencionado en: cap. 7)
 ]
 
-/ \*\*\*\*Fallo de suelta (Towhook jam)\*\*\*\*: #block[
+/ #strong[Fallo de suelta (Towhook jam)]: #block[
 Emergencia en remolque por avión en la que la anilla de suelta del planeador no libera el cable al ser accionada. Exige señalizar la situación al remolcador (posición elevada y lateral con balanceo de alas) para que este libere el cable desde su extremo, y planificar una aproximación final más alta de lo habitual con el cable colgando para librar los obstáculos previos a la pista. (Mencionado en: cap. 7)
 ]
 
-/ \*\*\*\*Final (Tramo final / Final approach leg)\*\*\*\*: #block[
+/ #strong[Final (Tramo final / Final approach leg)]: #block[
 Tramo alineado con el eje de la pista en el sentido del aterrizaje, desde el cual se gestiona el descenso mediante los aerofrenos hasta la toma y parada de la aeronave. (Mencionado en: cap. 4)
 ]
 
-/ \*\*\*\*FLARM\*\*\*\*: #block[
+/ #strong[FLARM]: #block[
 Sistema electrónico de alerta de tráfico y prevención de colisiones de corto alcance diseñado especialmente para planeadores, que transmite la posición GPS tridimensional proyectada a otras aeronaves equipadas. (Mencionado en: cap. 6)
 ]
 
-/ \*\*\*\*Flutter (Flameo aeroelástico)\*\*\*\*: #block[
+/ #strong[Flutter (Flameo aeroelástico)]: #block[
 Fenómeno físico de oscilaciones aeroelásticas autoexcitadas e inestables que afectan a las superficies sustentadoras o de control del planeador al superar la VNE, pudiendo destruir la estructura en segundos debido a la interacción del flujo de aire a alta velocidad con la flexibilidad estructural. (Mencionado en: cap. 7)
 ]
 
-/ \*\*\*\*Fusible de seguridad (Weak link)\*\*\*\*: #block[
+/ #strong[Fusible de seguridad (Weak link)]: #block[
 Eslabón o fusible metálico calibrado intercalado en el cable de remolque o torno, diseñado para romperse ante una sobretensión que supere los límites estructurales calculados antes de dañar al planeador o a la aeronave remolcadora. (Mencionado en: cap. 2)
 ]
 
-/ \*\*\*\*IMSAFE\*\*\*\*: #block[
+/ #strong[IMSAFE]: #block[
 Acrónimo nemotécnico de autoevaluación psicofísica recomendado antes de cada vuelo: Illness (Enfermedad), Medication (Medicación), Stress (Estrés), Alcohol (Alcohol), Fatigue (Fatiga) y Eating (Alimentación). (Mencionado en: cap. 1)
 ]
 
-/ \*\*\*\*Las 7 S\*\*\*\*: #block[
+/ #strong[Las 7 S]: #block[
 Regla nemotécnica utilizada para evaluar sistemáticamente la aptitud de un campo desde el aire en un aterrizaje fuera de campo: #strong[Size] (Tamaño), #strong[Shape] (Forma), #strong[Slope] (Pendiente), #strong[Surface] (Superficie), #strong[Surroundings] (Alrededores/Obstáculos), #strong[Stock] (Ganado/Animales) y #strong[Sun] (Posición del Sol). (Mencionado en: cap. 5)
 ]
 
-/ \*\*\*\*Lastre de agua (Water ballast)\*\*\*\*: #block[
+/ #strong[Lastre de agua (Water ballast)]: #block[
 Agua cargada en tanques específicos situados en las alas para aumentar la masa del planeador y su carga alar, desplazando la curva polar de velocidades hacia valores más altos para volar más rápido con el mismo ángulo de planeo. (Mencionado en: cap. 3)
 ]
 
-/ \*\*\*\*Outlanding (Aterrizaje fuera de campo / Toma fuera de campo)\*\*\*\*: #block[
+/ #strong[Outlanding (Aterrizaje fuera de campo / Toma fuera de campo)]: #block[
 Procedimiento operativo planificado y ejecutado de aterrizaje preventivo fuera de un aeródromo autorizado, realizado en campos abiertos o agrícolas aptos debido a la ausencia de ascendencias térmicas o pérdida de altura utilizable. (Mencionado en: cap. 5)
 ]
 
-/ \*\*\*\*Paracaídas de emergencia\*\*\*\*: #block[
+/ #strong[Paracaídas de emergencia]: #block[
 Dispositivo individual de salvamento de accionamiento manual que el piloto de planeador lleva integrado como respaldo obligatorio o recomendado en el cockpit. (Mencionado en: cap. 8)
 ]
 
-/ \*\*\*\*PCC (Comprobación de mandos positiva / Positive Control Check)\*\*\*\*: #block[
+/ #strong[PCC (Comprobación de mandos positiva / Positive Control Check)]: #block[
 Verificación obligatoria tras el montaje del planeador en la que un asistente sujeta físicamente cada superficie de mando en el exterior mientras el piloto acciona los controles en cabina para verificar la integridad y correcto sentido del movimiento. (Mencionado en: cap. 1)
 ]
 
-/ \*\*\*\*PIC (Piloto al mando / Pilot in Command)\*\*\*\*: #block[
+/ #strong[PIC (Piloto al mando / Pilot in Command)]: #block[
 Piloto responsable directo del funcionamiento, operación y seguridad de la aeronave durante el tiempo de vuelo. (Mencionado en: cap. 1)
 ]
 
-/ \*\*\*\*Resbale lateral (Sideslip)\*\*\*\*: #block[
+/ #strong[Resbale lateral (Sideslip)]: #block[
 Maniobra aerodinámica coordinada de forma cruzada (alerón a un lado, pedal al opuesto) por la cual se presenta el fuselaje de lado a la corriente libre, generando un incremento drástico de la resistencia aerodinámica que incrementa la tasa de descenso sin aumentar la velocidad. (Mencionado en: cap. 4)
 ]
 
-/ \*\*\*\*Self-launch (Autolanzamiento)\*\*\*\*: #block[
+/ #strong[Self-launch (Autolanzamiento)]: #block[
 Capacidad de despegue y ascenso autónomo del planeador utilizando una unidad de potencia auxiliar motora integrada en la estructura (motoveleros TMG o veleros de motor retráctil). (Mencionado en: cap. 2)
 ]
 
-/ \*\*\*\*Térmica\*\*\*\*: #block[
+/ #strong[Térmica]: #block[
 Columna o burbuja de aire caliente ascendente que se origina por el calentamiento solar desigual de la superficie del terreno y que constituye la fuente de sustentación fundamental para el vuelo sin motor. (Mencionado en: cap. 3)
 ]
 
-/ \*\*\*\*Torno (Lanzamiento por torno / Winch)\*\*\*\*: #block[
+/ #strong[Torno (Lanzamiento por torno / Winch)]: #block[
 Método de lanzamiento en el que un planeador es acelerado a alta velocidad sobre la pista mediante el enrollado rápido de un cable por un motor potente estacionario en el extremo de la pista, elevándolo hasta la altura de suelta en un ascenso muy inclinado. (Mencionado en: cap. 2)
 ]
 
-/ \*\*\*\*Viento en cola (Tramo de viento en cola / Downwind)\*\*\*\*: #block[
+/ #strong[Viento en cola (Tramo de viento en cola / Downwind)]: #block[
 Tramo del circuito de tráfico aéreo paralelo a la pista activa realizado en sentido contrario a la dirección de aterrizaje, donde se ejecutan las comprobaciones previas al aterrizaje (lista FUSTALL). (Mencionado en: cap. 4)
 ]
 
-/ \*\*\*\*Vuelo de ladera (Ridge soaring)\*\*\*\*: #block[
+/ #strong[Vuelo de ladera (Ridge soaring)]: #block[
 Técnica de planeo que consiste en volar aprovechando el viento dinámico ascendente desviado hacia arriba por el relieve de una montaña o cordillera en la cara de barlovento. (Mencionado en: cap. 3)
 ]
 
-/ \*\*\*\*Vuelo de onda (Wave soaring)\*\*\*\*: #block[
+/ #strong[Vuelo de onda (Wave soaring)]: #block[
 Técnica de planeo que aprovecha el flujo ondulatorio estacionario y laminar (onda orográfica) que se genera a sotavento de un sistema montañoso en condiciones de fuerte viento estable, permitiendo alcanzar grandes altitudes en el lado ascendente de las ondas. (Mencionado en: cap. 3)
 ]
 

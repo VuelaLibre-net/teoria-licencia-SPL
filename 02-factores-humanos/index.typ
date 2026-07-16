@@ -367,6 +367,34 @@
   inset: 6pt,
   stroke: none
 )
+// Presentación del glosario al estilo de glossarium
+// (https://typst.app/universe/package/glossarium): término en negrita, raya y
+// definición seguida, con las entradas sin partir entre páginas.
+//
+// No se usa el paquete en sí, a propósito: exige declarar las entradas como
+// diccionarios de Typst, lo que sacaría el glosario de los .qmd —que son la
+// fuente canónica— y del EPUB. Además su función principal (referenciar
+// términos con @clave y generar retroenlaces) no tendría aquí nada que hacer:
+// el contenido no lleva ni una sola referencia al glosario. Esto reproduce su
+// aspecto sobre la lista de definición nativa, que sí sale en PDF y en EPUB.
+//
+// Alcance: todas las listas de términos de la colección salen del glosario. Los
+// ': ' que aparecen en los capítulos son pies de tabla de Quarto, que comparten
+// sintaxis pero no generan `terms`. Por eso esta regla no necesita acotarse.
+//
+// No se colorea el término: brand-color se define después de este include, así
+// que no es legible desde aquí, y la negrita es además el estilo por defecto de
+// glossarium. Si algún día se añade un _brand.yml, esto no desentonará.
+
+// Pandoc envuelve cada definición en un #block, que forzaría un salto de línea
+// tras el término. Se desenvuelve para que quede seguida, como en glossarium.
+#let _glosario-descripcion(d) = {
+  if d.func() == block and d.has("body") { d.body } else { d }
+}
+
+#show terms.item: it => block(breakable: false, below: 0.85em, width: 100%)[
+  #text(weight: "bold")[#it.term]#h(0.35em)#sym.dash.em#h(0.35em)#_glosario-descripcion(it.description)
+]
 #import "@preview/fontawesome:0.5.0": *
 #let brand-color = (:)
 #let brand-color-background = (:)
@@ -2210,139 +2238,139 @@ Consulta a tu instructor, quien te indicará cuál es el banco de preguntas o el
 <glosario-de-términos>
 Este glosario contiene las definiciones y acrónimos más relevantes de Factores Humanos y Fisiología aplicables a la licencia de piloto de planeador (SPL).
 
-/ \*\*\*\*ADM (Aeronautical Decision-Making)\*\*\*\*: #block[
+/ #strong[ADM (Aeronautical Decision-Making)]: #block[
 Toma de decisiones aeronáuticas. Proceso mental sistemático (por ejemplo, mediante el modelo DECIDE) empleado por el piloto para elegir la opción más segura como respuesta a un conjunto de circunstancias. (Mencionado en: cap. 3)
 ]
 
-/ \*\*\*\*AESA (Agencia Estatal de Seguridad Aérea)\*\*\*\*: #block[
+/ #strong[AESA (Agencia Estatal de Seguridad Aérea)]: #block[
 Autoridad de aviación civil en España, encargada de supervisar y aplicar la normativa aeronáutica nacional, trabajando junto con EASA y emitiendo las licencias de vuelo para pilotos (SPL), así como supervisando la expedición de certificados médicos por parte de centros y médicos examinadores autorizados. (Mencionado en: cap. 4)
 ]
 
-/ \*\*\*\*AME (Aero-Medical Examiner)\*\*\*\*: #block[
+/ #strong[AME (Aero-Medical Examiner)]: #block[
 Médico Examinador Aéreo. Médico especialista certificado y autorizado por AESA para llevar a cabo los reconocimientos físicos y psicológicos necesarios para emitir o renovar el certificado médico aeronáutico. (Mencionado en: cap. 2)
 ]
 
-/ \*\*\*\*ATC (Control de Tránsito Aéreo / Air Traffic Control)\*\*\*\*: #block[
+/ #strong[ATC (Control de Tránsito Aéreo / Air Traffic Control)]: #block[
 Servicio de tránsito aéreo responsable de dirigir el tráfico de aeronaves para prevenir colisiones entre aeronaves y entre estas y los obstáculos en el área de maniobras, así como de organizar y agilizar el flujo del tránsito aéreo. (Mencionado en: cap. 3)
 ]
 
-/ \*\*\*\*AUT / TUE (Autorización de Uso Terapéutico)\*\*\*\*: #block[
+/ #strong[AUT / TUE (Autorización de Uso Terapéutico)]: #block[
 #strong[Therapeutic Use Exemption]. Permiso oficial emitido por una organización antidopaje o autoridad aeronáutica (como WADA) que permite a un piloto de competición utilizar una medicación específica que normalmente requeriría su suspensión en un control antidopaje, salvaguardando su salud de base. (Mencionado en: cap. 2)
 ]
 
-/ \*\*\*\*Cadena del error\*\*\*\*: #block[
+/ #strong[Cadena del error]: #block[
 Sucesión de pequeñas decisiones erróneas, condiciones previas y errores latentes que, al alinearse e interactuar (como en el #strong[modelo del queso suizo]), desencadenan un accidente o incidente. (Mencionado en: cap. 1)
 ]
 
-/ \*\*\*\*Cianosis\*\*\*\*: #block[
+/ #strong[Cianosis]: #block[
 Coloración azulada en la piel, labios y yemas de los dedos producida por una acusada deficiencia de oxígeno en la sangre, siendo uno de los síntomas físicos avanzados propios de la hipoxia. (Mencionado en: cap. 4)
 ]
 
-/ \*\*\*\*Cinetosis\*\*\*\*: #block[
+/ #strong[Cinetosis]: #block[
 Mareo producido por el movimiento (#strong[motion sickness]), desencadenado en vuelo por un conflicto entre la información percibida por el sistema visual (que observa una cabina inmóvil) y el sistema vestibular del oído interno (que registra las aceleraciones y giros de la aeronave). (Mencionado en: cap. 2)
 ]
 
-/ \*\*\*\*Complacencia\*\*\*\*: #block[
+/ #strong[Complacencia]: #block[
 Estado mental limitante originado por la rutina y la familiaridad con el entorno, que genera una falsa sensación de seguridad e induce a omitir procedimientos básicos como las listas de comprobación. (Mencionado en: cap. 3)
 ]
 
-/ \*\*\*\*Conciencia situacional\*\*\*\*: #block[
+/ #strong[Conciencia situacional]: #block[
 #strong[Situational Awareness]. Percepción completa y asimilación adecuada de los elementos del vuelo en el presente, comprensión analítica de su estatus actual y proyección fiel de su tendencia hacia el futuro. (Mencionado en: cap. 3)
 ]
 
-/ \*\*\*\*Cultura justa (Just Culture)\*\*\*\*: #block[
+/ #strong[Cultura justa (Just Culture)]: #block[
 Paradigma organizacional que reconoce la inevitabilidad del error humano no intencionado, tratándolo como una oportunidad de aprendizaje colectivo sin represalias, oponiéndose a todo encubrimiento o sanción punitiva irracional. (Mencionado en: cap. 1)
 ]
 
-/ \*\*\*\*DECIDE\*\*\*\*: #block[
+/ #strong[DECIDE]: #block[
 Modelo estandarizado para la toma de decisiones aeronáuticas: Detectar, Estudiar, Considerar, Implementar, Determinar y Evaluar. (Mencionado en: cap. 3)
 ]
 
-/ \*\*\*\*Desorientación espacial\*\*\*\*: #block[
+/ #strong[Desorientación espacial]: #block[
 Falsa apreciación de la posición, actitud o movimiento de la aeronave como consecuencia de ilusiones sensoriales originadas en el oído interno, obligando al piloto a desconfiar de sus sentidos y ampararse en los instrumentos. (Mencionado en: cap. 2)
 ]
 
-/ \*\*\*\*Disbarismos (Barotraumas)\*\*\*\*: #block[
+/ #strong[Disbarismos (Barotraumas)]: #block[
 Alteraciones orgánicas o dolor neurálgico originados por la expansión y contracción de pequeños volúmenes de gas atrapados en el cuerpo (senos paranasales, oído medio, intestinos) frente a los inevitables cambios en la presión atmosférica por la Ley de Boyle. (Mencionado en: cap. 2)
 ]
 
-/ \*\*\*\*EASA (Agencia de la Unión Europea para la Seguridad Aérea / European Union Aviation Safety Agency)\*\*\*\*: #block[
+/ #strong[EASA (Agencia de la Unión Europea para la Seguridad Aérea / European Union Aviation Safety Agency)]: #block[
 Agencia de la Unión Europea responsable de establecer el marco normativo común para regular y supervisar la seguridad de la aviación civil, incluyendo requisitos médicos (Part-MED) y licencias (SFCL). (Mencionado en: cap. 1)
 ]
 
-/ \*\*\*\*EDS (Sistema de Oxígeno a Demanda / Electronic Delivery System)\*\*\*\*: #block[
+/ #strong[EDS (Sistema de Oxígeno a Demanda / Electronic Delivery System)]: #block[
 Sistema electrónico de suministro de oxígeno a demanda que detecta la inspiración del piloto y libera un pulso de oxígeno en ese instante, multiplicando la autonomía de la botella de oxígeno al interrumpir el flujo durante la exhalación. (Mencionado en: cap. 4)
 ]
 
-/ \*\*\*\*Fatiga\*\*\*\*: #block[
+/ #strong[Fatiga]: #block[
 Deterioro fisiológico del rendimiento físico o mental provocado por pérdida de sueño, ritmos circadianos alterados o esfuerzo mental sostenido; reduce drásticamente el tiempo de reacción o la capacidad para evaluar riesgos con sensatez. (Mencionado en: cap. 2)
 ]
 
-/ \*\*\*\*Hiperventilación\*\*\*\*: #block[
+/ #strong[Hiperventilación]: #block[
 Respiración anormalmente rápida desencadenada por el estrés, el pánico o la ansiedad, generando una expulsión drástica de dióxido de carbono que provoca el estrechamiento de los vasos sanguíneos en el cerebro, reduciendo el flujo de oxígeno a pesar de volar a altitudes seguras. (Mencionado en: cap. 2, cap. 4)
 ]
 
-/ \*\*\*\*Hipoxia\*\*\*\*: #block[
+/ #strong[Hipoxia]: #block[
 Estado de déficit de oxígeno cerebral. Existen cuatro tipos: hipóxica (falta de presión transferencial en altitud), hipémica (mermas de transporte por CO), estancada e histotóxica (intoxicación orgánica celular por alcohol o drogas). (Mencionado en: cap. 4)
 ]
 
-/ \*\*\*\*IMSAFE\*\*\*\*: #block[
+/ #strong[IMSAFE]: #block[
 Acrónimo nemotécnico de autoevaluación psicofísica recomendado antes de cada vuelo: Illness (Enfermedad), Medication (Medicación), Stress (Estrés), Alcohol (Alcohol), Fatigue (Fatiga) y Eating (Alimentación). (Mencionado en: cap. 2)
 ]
 
-/ \*\*\*\*MED (Part-MED)\*\*\*\*: #block[
+/ #strong[MED (Part-MED)]: #block[
 Subparte de la normativa europea (EASA) que estipula y rige exhaustivamente todas las condiciones fisiológicas y médicas que debe cumplir un piloto para mantener y ejercer las atribuciones de su licencia de vuelo. (Mencionado en: cap. 2)
 ]
 
-/ \*\*\*\*Monóxido de carbono (CO)\*\*\*\*: #block[
+/ #strong[Monóxido de carbono (CO)]: #block[
 Gas letal, inodoro e invisible derivado de los sistemas de escape. Se une a la hemoglobina bloqueando el transporte de oxígeno (hipoxia anémica), afectando a los pilotos de motovelero (TMG) incluso a baja altitud. (Mencionado en: cap. 2)
 ]
 
-/ \*\*\*\*OACI (Organización de Aviación Civil Internacional / ICAO)\*\*\*\*: #block[
+/ #strong[OACI (Organización de Aviación Civil Internacional / ICAO)]: #block[
 Agencia especializada de las Naciones Unidas creada en 1944 para establecer las normas y métodos recomendados (SARPS) que garanticen la seguridad, protección, regularidad y eficiencia de la aviación civil global. (Mencionado en: cap. 1)
 ]
 
-/ \*\*\*\*PAVE\*\*\*\*: #block[
+/ #strong[PAVE]: #block[
 Esquema simplificado y fundamental para ejecutar la evaluación sistemática y mitigación profiláctica de los riesgos de cualquier vuelo, dividido en: Piloto, Aeronave (#strong[Aircraft]), Entorno (#strong[enVironment]) y Presiones Externas. (Mencionado en: cap. 3)
 ]
 
-/ \*\*\*\*Pulsioxímetro\*\*\*\*: #block[
+/ #strong[Pulsioxímetro]: #block[
 Dispositivo de dedo recomendado en vuelos a gran altura que muestra la saturación de oxígeno en sangre (SpO₂). Permite al piloto detectar la hipoxia de forma objetiva antes de que aparezcan los primeros síntomas. (Mencionado en: cap. 4)
 ]
 
-/ \*\*\*\*SAO (Sailplane Air Operations)\*\*\*\*: #block[
+/ #strong[SAO (Sailplane Air Operations)]: #block[
 Normativa operativa específica de EASA para pilotos al mando de planeadores. Fija reglas como la obligatoriedad del oxígeno por encima de 10.000 ft de altitud. (Mencionado en: cap. 4)
 ]
 
-/ \*\*\*\*SFCL (Sailplane Flight Crew Licensing)\*\*\*\*: #block[
+/ #strong[SFCL (Sailplane Flight Crew Licensing)]: #block[
 Marco normativo europeo (EASA) que regula las licencias, el programa de estudios y la instrucción de vuelo para pilotos de planeador (SPL). (Mencionado en: el temario general)
 ]
 
-/ \*\*\*\*SHELL\*\*\*\*: #block[
+/ #strong[SHELL]: #block[
 Modelo conceptual desarrollado por la OACI interconectando de forma unificada y armónica todos los vértices relativos al operador: #strong[Software] (Procedimientos normativos), #strong[Hardware] (La Aeronave), #strong[Environment] (El Entorno físico), #strong[Liveware] interior y #strong[Liveware] externo (El piloto con respecto a otras personas). (Mencionado en: cap. 1)
 ]
 
-/ \*\*\*\*SPL (Licencia de Piloto de Planeador / Sailplane Pilot Licence)\*\*\*\*: #block[
+/ #strong[SPL (Licencia de Piloto de Planeador / Sailplane Pilot Licence)]: #block[
 Licencia oficial de la Unión Europea (regida por Part-SFCL) que certifica que el titular cumple con los requisitos teóricos y prácticos para actuar como piloto de planeadores. (Mencionado en: el temario general)
 ]
 
-/ \*\*\*\*SRM (Single-Pilot Resource Management)\*\*\*\*: #block[
+/ #strong[SRM (Single-Pilot Resource Management)]: #block[
 Gestión de recursos para pilotos solitarios. Habilidad para administrar todos los recursos disponibles (instrumentos, ATC, listas de chequeo) para operar de forma segura, reduciendo la carga de trabajo y minimizando el riesgo de errores sistemáticos. (Mencionado en: cap. 3)
 ]
 
-/ \*\*\*\*TMG (Motovelero de turismo / Touring Motor Glider)\*\*\*\*: #block[
+/ #strong[TMG (Motovelero de turismo / Touring Motor Glider)]: #block[
 Planeador propulsado equipado estructuralmente con motor y hélice no retráctil que le permiten el despegue autónomo y el crucero, compartiendo características con aviones ligeros. (Mencionado en: cap. 2)
 ]
 
-/ \*\*\*\*TUC (Time of Useful Consciousness)\*\*\*\*: #block[
+/ #strong[TUC (Time of Useful Consciousness)]: #block[
 Tiempo útil de conciencia. Intervalo crítico en el que el piloto retiene sus capacidades cognitivas y motoras para tomar medidas correctivas tras una interrupción del suministro de oxígeno a gran altitud. Se reduce rápidamente a mayor altura. (Mencionado en: cap. 4)
 ]
 
-/ \*\*\*\*VFR (Reglas de vuelo visual / Visual Flight Rules)\*\*\*\*: #block[
+/ #strong[VFR (Reglas de vuelo visual / Visual Flight Rules)]: #block[
 Conjunto de normas que rigen los vuelos operados con referencia visual constante al terreno, recayendo la responsabilidad de la separación en el principio de "ver y evitar" bajo mínimos meteorológicos visuales (VMC). (Mencionado en: cap. 2)
 ]
 
-/ \*\*\*\*WADA (World Anti-Doping Agency)\*\*\*\*: #block[
+/ #strong[WADA (World Anti-Doping Agency)]: #block[
 Agencia Mundial Antidopaje. Organización internacional que regula y controla exhaustivamente el consumo de sustancias y dopaje en deportistas de competición, siendo los campeonatos de vuelo a vela sometidos también a este mismo estándar. (Mencionado en: cap. 2)
 ]
 

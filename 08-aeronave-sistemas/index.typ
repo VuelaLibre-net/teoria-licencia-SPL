@@ -367,6 +367,34 @@
   inset: 6pt,
   stroke: none
 )
+// Presentación del glosario al estilo de glossarium
+// (https://typst.app/universe/package/glossarium): término en negrita, raya y
+// definición seguida, con las entradas sin partir entre páginas.
+//
+// No se usa el paquete en sí, a propósito: exige declarar las entradas como
+// diccionarios de Typst, lo que sacaría el glosario de los .qmd —que son la
+// fuente canónica— y del EPUB. Además su función principal (referenciar
+// términos con @clave y generar retroenlaces) no tendría aquí nada que hacer:
+// el contenido no lleva ni una sola referencia al glosario. Esto reproduce su
+// aspecto sobre la lista de definición nativa, que sí sale en PDF y en EPUB.
+//
+// Alcance: todas las listas de términos de la colección salen del glosario. Los
+// ': ' que aparecen en los capítulos son pies de tabla de Quarto, que comparten
+// sintaxis pero no generan `terms`. Por eso esta regla no necesita acotarse.
+//
+// No se colorea el término: brand-color se define después de este include, así
+// que no es legible desde aquí, y la negrita es además el estilo por defecto de
+// glossarium. Si algún día se añade un _brand.yml, esto no desentonará.
+
+// Pandoc envuelve cada definición en un #block, que forzaría un salto de línea
+// tras el término. Se desenvuelve para que quede seguida, como en glossarium.
+#let _glosario-descripcion(d) = {
+  if d.func() == block and d.has("body") { d.body } else { d }
+}
+
+#show terms.item: it => block(breakable: false, below: 0.85em, width: 100%)[
+  #text(weight: "bold")[#it.term]#h(0.35em)#sym.dash.em#h(0.35em)#_glosario-descripcion(it.description)
+]
 #import "@preview/fontawesome:0.5.0": *
 #let brand-color = (:)
 #let brand-color-background = (:)
@@ -2348,183 +2376,183 @@ Consulta a tu instructor, quien te indicará cuál es el banco de preguntas o el
 <glosario-de-términos>
 Este glosario contiene las definiciones y acrónimos más relevantes de Conocimientos Generales de la Aeronave aplicables a la licencia de piloto de planeador (SPL).
 
-/ \*\*\*\*AD (Directiva de Aeronavegabilidad / Airworthiness Directive)\*\*\*\*: #block[
+/ #strong[AD (Directiva de Aeronavegabilidad / Airworthiness Directive)]: #block[
 Orden de obligado cumplimiento emitida por EASA cuando se detecta una condición insegura en un tipo de aeronave. Si no se cumple en el plazo indicado, la aeronave queda automáticamente en tierra (AOG). (Mencionado en: cap. 9)
 ]
 
-/ \*\*\*\*Aerofrenos (Spoilers)\*\*\*\*: #block[
+/ #strong[Aerofrenos (Spoilers)]: #block[
 Superficies móviles situadas generalmente en el extradós alar, accionadas por el piloto, cuya función es destruir la sustentación y aumentar la resistencia aerodinámica para controlar la senda de aproximación. (Mencionado en: cap. 5)
 ]
 
-/ \*\*\*\*AFM (Manual de Vuelo / Aircraft Flight Manual)\*\*\*\*: #block[
+/ #strong[AFM (Manual de Vuelo / Aircraft Flight Manual)]: #block[
 Documento maestro legalmente vinculado a la matrícula de la aeronave que recoge sus limitaciones (velocidades, factores de carga, pesos), procedimientos normales y de emergencia, datos de rendimiento y límites de centrado. En veleros se denomina también SFM (#strong[Sailplane Flight Manual]) o GFM (#strong[Glider Flight Manual]). (Mencionado en: cap. 8)
 ]
 
-/ \*\*\*\*ARC (Certificado de Revisión de la Aeronavegabilidad / Airworthiness Review Certificate)\*\*\*\*: #block[
+/ #strong[ARC (Certificado de Revisión de la Aeronavegabilidad / Airworthiness Review Certificate)]: #block[
 Certificado de validez anual que confirma que la aeronave y sus registros han superado la revisión de aeronavegabilidad reglamentaria, acreditando que es segura para volar. (Mencionado en: cap. 9)
 ]
 
-/ \*\*\*\*Bail-out (Abandono del planeador)\*\*\*\*: #block[
+/ #strong[Bail-out (Abandono del planeador)]: #block[
 Procedimiento de emergencia que consiste en el salto en paracaídas desde una aeronave en vuelo cuando esta ya no es controlable o segura. (Mencionado en: cap. 13)
 ]
 
-/ \*\*\*\*Carga alar (Wing loading)\*\*\*\*: #block[
+/ #strong[Carga alar (Wing loading)]: #block[
 Relación entre la masa total del planeador y la superficie de sus alas. Se expresa en kg/m² e influye directamente en las velocidades de crucero y de pérdida. (Mencionado en: cap. 11)
 ]
 
-/ \*\*\*\*Carga de rotura (Ultimate load)\*\*\*\*: #block[
+/ #strong[Carga de rotura (Ultimate load)]: #block[
 Carga a la que la estructura falla de forma catastrófica. Se obtiene multiplicando la carga límite por el factor de seguridad de 1,5 establecido en CS 22.303. (Mencionado en: cap. 2)
 ]
 
-/ \*\*\*\*Carga límite (Limit load)\*\*\*\*: #block[
+/ #strong[Carga límite (Limit load)]: #block[
 Carga máxima que la estructura puede soportar sin sufrir deformación permanente. Tras alcanzarla, la aeronave debe recuperar su forma original sin daños. (Mencionado en: cap. 2)
 ]
 
-/ \*\*\*\*CG (Centro de gravedad)\*\*\*\*: #block[
+/ #strong[CG (Centro de gravedad)]: #block[
 Punto teórico donde se considera aplicada la resultante de todas las fuerzas de gravedad que actúan sobre el planeador. Su ubicación longitudinal es clave para la estabilidad y el control del vuelo. (Mencionado en: cap. 4)
 ]
 
-/ \*\*\*\*CoA (Certificado de Aeronavegabilidad)\*\*\*\*: #block[
+/ #strong[CoA (Certificado de Aeronavegabilidad)]: #block[
 Documento generalmente vitalicio que certifica que la aeronave es conforme a su tipo certificado y apta para el vuelo, siempre que se mantenga adecuadamente y conserve un ARC en vigor. (Mencionado en: cap. 9)
 ]
 
-/ \*\*\*\*Compensador (Trim)\*\*\*\*: #block[
+/ #strong[Compensador (Trim)]: #block[
 Dispositivo (de muelles o de pestaña aerodinámica) que alivia la presión que el piloto debe mantener sobre la palanca para conservar una velocidad determinada. Se acciona con el mando verde o un pulsador eléctrico. (Mencionado en: cap. 5)
 ]
 
-/ \*\*\*\*Composite (Material compuesto)\*\*\*\*: #block[
+/ #strong[Composite (Material compuesto)]: #block[
 Material formado por fibras (vidrio o carbono) embebidas en resina. Domina la construcción de planeadores modernos por su relación resistencia/peso y su acabado aerodinámico liso (GRP: fibra de vidrio; CRP: fibra de carbono). (Mencionado en: cap. 1)
 ]
 
-/ \*\*\*\*CS-22 (Certification Specifications for Sailplanes)\*\*\*\*: #block[
+/ #strong[CS-22 (Certification Specifications for Sailplanes)]: #block[
 Norma de certificación de EASA específica para planeadores y motoveleros. Define, entre otros, los factores de carga de diseño (CS 22.337), el factor de seguridad (CS 22.303) y los requisitos de retención de masas en cabina (CS 22.561). (Mencionado en: cap. 2)
 ]
 
-/ \*\*\*\*Cúpula (Canopy)\*\*\*\*: #block[
+/ #strong[Cúpula (Canopy)]: #block[
 Cubierta transparente de plexiglás de la cabina. Incorpora pestillos de bloqueo, ventilación y un mecanismo de suelta de emergencia que libera la cúpula completa para permitir el salto en paracaídas. (Mencionado en: cap. 1)
 ]
 
-/ \*\*\*\*EDS (Sistema de Oxígeno a Demanda / Electronic Delivery System)\*\*\*\*: #block[
+/ #strong[EDS (Sistema de Oxígeno a Demanda / Electronic Delivery System)]: #block[
 Sistema electrónico de suministro de oxígeno a demanda que detecta la inspiración del piloto y libera un pulso de oxígeno en ese instante, multiplicando la autonomía de la botella de oxígeno al interrumpir el flujo durante la exhalación. (Mencionado en: cap. 14)
 ]
 
-/ \*\*\*\*ELT (Emergency Locator Transmitter)\*\*\*\*: #block[
+/ #strong[ELT (Emergency Locator Transmitter)]: #block[
 Baliza de emergencia instalada fijamente en la aeronave que se activa automáticamente por el impacto (o manualmente) y transmite en 406 MHz a la red satelital de búsqueda y rescate. (Mencionado en: cap. 14)
 ]
 
-/ \*\*\*\*Energía total (Variómetro de energía total / TE)\*\*\*\*: #block[
+/ #strong[Energía total (Variómetro de energía total / TE)]: #block[
 Variómetro compensado (mediante sonda o antena TE) que descuenta las variaciones de altura provocadas por los cambios de velocidad del propio piloto, indicando únicamente el movimiento real de la masa de aire. (Mencionado en: cap. 6)
 ]
 
-/ \*\*\*\*Estructura sándwich\*\*\*\*: #block[
+/ #strong[Estructura sándwich]: #block[
 Técnica constructiva con dos capas finas y rígidas de fibra separadas por un núcleo ligero de espuma o nido de abeja. Logra gran rigidez con peso mínimo, pero es vulnerable a impactos puntuales que pueden causar delaminación interna invisible desde el exterior. (Mencionado en: cap. 1)
 ]
 
-/ \*\*\*\*Factor de carga (n)\*\*\*\*: #block[
+/ #strong[Factor de carga (n)]: #block[
 Relación entre la sustentación aerodinámica total y el peso del planeador, expresada en unidades #emph[g]. En vuelo recto y nivelado: n = 1g. En un viraje de 60° de inclinación: n = 2g. El factor de carga eleva la velocidad de pérdida en proporción a su raíz cuadrada: a 2g, sube un 41%. Deflexiones bruscas y maniobras mal coordinadas en turbulencia pueden superar los límites del diagrama V-n.~(Mencionado en: cap. 2)
 ]
 
-/ \*\*\*\*FES (Front Electric Sustainer)\*\*\*\*: #block[
+/ #strong[FES (Front Electric Sustainer)]: #block[
 Sistema de propulsión eléctrica con hélice plegable montada en el morro y baterías de litio. De arranque instantáneo y gran fiabilidad, la hélice se pliega contra el fuselaje por la presión del aire al detenerse el motor. (Mencionado en: cap. 10)
 ]
 
-/ \*\*\*\*Flaps\*\*\*\*: #block[
+/ #strong[Flaps]: #block[
 Superficies del borde de salida que modifican la curvatura del ala: posiciones positivas para térmica y aterrizaje, negativas para reducir resistencia en transiciones rápidas. Presentes en veleros de alta competición. (Mencionado en: cap. 5)
 ]
 
-/ \*\*\*\*FLARM\*\*\*\*: #block[
+/ #strong[FLARM]: #block[
 Sistema electrónico de alerta de tráfico y prevención de colisiones de corto alcance diseñado especialmente para planeadores, que transmite la posición GPS tridimensional proyectada a otras aeronaves equipadas. (Mencionado en: cap. 6)
 ]
 
-/ \*\*\*\*Flutter (Flameo aeroelástico)\*\*\*\*: #block[
+/ #strong[Flutter (Flameo aeroelástico)]: #block[
 Fenómeno físico de oscilaciones aeroelásticas autoexcitadas e inestables que afectan a las superficies sustentadoras o de control del planeador al superar la VNE, pudiendo destruir la estructura en segundos debido a la interacción del flujo de aire a alta velocidad con la flexibilidad estructural. (Mencionado en: cap. 2)
 ]
 
-/ \*\*\*\*Gancho de remolque (Towhook)\*\*\*\*: #block[
+/ #strong[Gancho de remolque (Towhook)]: #block[
 Mecanismo de enganche y suelta rápida del cable de lanzamiento, habitualmente del fabricante Tost. El gancho de morro se usa para remolque por avión; el gancho de CG, para torno, e incorpora suelta automática (#strong[back-release]) si el cable tira hacia atrás y abajo. (Mencionado en: cap. 1)
 ]
 
-/ \*\*\*\*Gelcoat\*\*\*\*: #block[
+/ #strong[Gelcoat]: #block[
 Capa exterior de resina de poliéster que protege la estructura de fibra contra la humedad y da el acabado liso característico. Sus enemigos son la radiación UV y los cambios bruscos de temperatura, que provocan el craqueado superficial. (Mencionado en: cap. 1)
 ]
 
-/ \*\*\*\*Hipoxia\*\*\*\*: #block[
+/ #strong[Hipoxia]: #block[
 Estado fisiológico de deficiencia de oxígeno en las células y tejidos del cuerpo humano, provocado al volar a gran altura por la reducción de la presión parcial de oxígeno en la atmósfera. (Mencionado en: cap. 14)
 ]
 
-/ \*\*\*\*Larguero (Spar)\*\*\*\*: #block[
+/ #strong[Larguero (Spar)]: #block[
 Viga principal que recorre el ala de punta a punta y soporta las cargas de flexión en vuelo. Un daño estructural en el larguero deja el ala fuera de servicio. (Mencionado en: cap. 1)
 ]
 
-/ \*\*\*\*Lastre de agua (Water ballast)\*\*\*\*: #block[
+/ #strong[Lastre de agua (Water ballast)]: #block[
 Agua cargada en tanques específicos situados en las alas para aumentar la masa del planeador y su carga alar, desplazando la curva polar de velocidades hacia valores más altos para volar más rápido con el mismo ángulo de planeo. (Mencionado en: cap. 11)
 ]
 
-/ \*\*\*\*Lastre de cola\*\*\*\*: #block[
+/ #strong[Lastre de cola]: #block[
 Pequeño depósito de agua o soporte de pesas en la deriva que compensa el desplazamiento del CG producido por el lastre de las alas o por un piloto pesado, restaurando el centrado óptimo. Olvidar vaciarlo con un piloto ligero genera un CG peligrosamente retrasado. (Mencionado en: cap. 4)
 ]
 
-/ \*\*\*\*LiFePO4 (Batería de litio-ferrofosfato)\*\*\*\*: #block[
+/ #strong[LiFePO4 (Batería de litio-ferrofosfato)]: #block[
 Tecnología de batería ligera con curva de descarga plana (mantiene el voltaje hasta casi agotarse). Requiere cargadores específicos y un manejo cuidadoso para evitar incendios por cortocircuito. (Mencionado en: cap. 12)
 ]
 
-/ \*\*\*\*L'Hotellier (Conector)\*\*\*\*: #block[
+/ #strong[L'Hotellier (Conector)]: #block[
 Conector manual de rótula usado en las conexiones de mandos de muchos planeadores. Crítico para la seguridad: exige pin de seguridad (imperdible) además del muelle, y ha sido causa de numerosos accidentes por olvido de conexión. (Mencionado en: cap. 7)
 ]
 
-/ \*\*\*\*MTOW (Masa Máxima al Despegue / Maximum Take-Off Weight)\*\*\*\*: #block[
+/ #strong[MTOW (Masa Máxima al Despegue / Maximum Take-Off Weight)]: #block[
 Masa máxima autorizada o certificada con la que el planeador puede iniciar el vuelo, determinada por límites estructurales y de rendimiento aerodinámico. (Mencionado en: cap. 4)
 ]
 
-/ \*\*\*\*Part-ML\*\*\*\*: #block[
+/ #strong[Part-ML]: #block[
 Reglamento europeo de mantenimiento simplificado para aviación ligera (incluidos veleros). Permite al propietario declarar el programa de mantenimiento (AMP) y realizar tareas limitadas de piloto-propietario según su Apéndice II. (Mencionado en: cap. 9)
 ]
 
-/ \*\*\*\*PCC (Comprobación de mandos positiva / Positive Control Check)\*\*\*\*: #block[
+/ #strong[PCC (Comprobación de mandos positiva / Positive Control Check)]: #block[
 Verificación obligatoria tras el montaje del planeador en la que un asistente sujeta físicamente cada superficie de mando en el exterior mientras el piloto acciona los controles en cabina para verificar la integridad y correcto sentido del movimiento. (Mencionado en: cap. 7)
 ]
 
-/ \*\*\*\*PLB (Personal Locator Beacon)\*\*\*\*: #block[
+/ #strong[PLB (Personal Locator Beacon)]: #block[
 Baliza de localización personal portátil, de activación manual, que el piloto lleva consigo (bolsillo o arnés del paracaídas) y que transmite en 406 MHz a la red satelital de rescate. (Mencionado en: cap. 14)
 ]
 
-/ \*\*\*\*Poliuretano (PU)\*\*\*\*: #block[
+/ #strong[Poliuretano (PU)]: #block[
 Sistema de pintura acrílica de poliuretano que sustituye cada vez más al gelcoat de poliéster en los veleros modernos. Se aplica en capa fina (menos peso) y es más elástico, así que resiste mucho mejor el craqueado por UV y conserva el brillo más años; a cambio, deja menos margen para reparar a base de lijar y pulir. (Mencionado en: cap. 1)
 ]
 
-/ \*\*\*\*Rigging (Montaje)\*\*\*\*: #block[
+/ #strong[Rigging (Montaje)]: #block[
 Proceso de ensamblaje del planeador (fuselaje, alas y estabilizador) con la conexión de sus superficies de mando. Fase crítica de seguridad que exige método, ausencia de distracciones y verificación final con PCC. (Mencionado en: cap. 7)
 ]
 
-/ \*\*\*\*SB (Boletín de Servicio / Service Bulletin)\*\*\*\*: #block[
+/ #strong[SB (Boletín de Servicio / Service Bulletin)]: #block[
 Comunicación del fabricante con mejoras o inspecciones recomendadas para un modelo. No siempre es legalmente obligatorio, pero ignorarlo puede afectar a la seguridad y al valor de la aeronave. (Mencionado en: cap. 9)
 ]
 
-/ \*\*\*\*Sistema pitot-estática\*\*\*\*: #block[
+/ #strong[Sistema pitot-estática]: #block[
 Conjunto de tomas de presión que alimenta los instrumentos básicos: el tubo Pitot mide la presión total (estática + dinámica) y las tomas estáticas, la presión ambiental. Su bloqueo (insectos, agua, hielo) deja al piloto sin indicación de velocidad y altura. (Mencionado en: cap. 6)
 ]
 
-/ \*\*\*\*Sustentador (Turbo)\*\*\*\*: #block[
+/ #strong[Sustentador (Turbo)]: #block[
 Motor auxiliar de baja potencia, generalmente de dos tiempos y escamoteable, incapaz de despegar por sí solo pero suficiente para mantener el vuelo y regresar a la base si fallan las térmicas. (Mencionado en: cap. 10)
 ]
 
-/ \*\*\*\*TMG (Motovelero de turismo / Touring Motor Glider)\*\*\*\*: #block[
+/ #strong[TMG (Motovelero de turismo / Touring Motor Glider)]: #block[
 Planeador propulsado equipado estructuralmente con motor y hélice no retráctil que le permiten el despegue autónomo y el crucero, compartiendo características con aviones ligeros. (Mencionado en: cap. 10)
 ]
 
-/ \*\*\*\*Transpondedor\*\*\*\*: #block[
+/ #strong[Transpondedor]: #block[
 Equipo de a bordo que responde automáticamente a las interrogaciones del radar secundario (SSR) emitiendo un código #strong[squawk] y, según el modo, la altitud barométrica o datos extendidos de identificación. Opera en la banda UHF (1.030/1.090 MHz), independientemente de la radio de voz. Imprescindible para ser visible por el TCAS de otros tráficos. (Mencionado en: cap. 6)
 ]
 
-/ \*\*\*\*Tren retráctil\*\*\*\*: #block[
+/ #strong[Tren retráctil]: #block[
 Tren de aterrizaje que se recoge dentro del fuselaje para eliminar resistencia aerodinámica, habitualmente mediante una palanca manual. Su gestión disciplinada (extensión en viento en cola, siempre) forma parte de las listas de chequeo. (Mencionado en: cap. 3)
 ]
 
-/ \*\*\*\*Variómetro\*\*\*\*: #block[
+/ #strong[Variómetro]: #block[
 Instrumento que indica la velocidad vertical del planeador. Es la herramienta esencial del vuelo sin motor para detectar y centrar ascendencias; en su variante de energía total descuenta las maniobras del piloto. (Mencionado en: cap. 6)
 ]
 
-/ \*\*\*\*VRA (Velocidad máxima en aire turbulento / Rough Air Speed)\*\*\*\*: #block[
+/ #strong[VRA (Velocidad máxima en aire turbulento / Rough Air Speed)]: #block[
 Velocidad máxima a la que puede volarse en aire turbulento. En la esfera del anemómetro es el límite entre el arco verde y el amarillo (CS 22.1545). No debe confundirse con la velocidad de maniobra (VA), que es un límite estructural y no se marca en la esfera; su tratamiento aerodinámico corresponde al #strong[Libro 5 --- Principios de vuelo], capítulo 5.
 ]
 

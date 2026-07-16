@@ -415,6 +415,34 @@
   inset: 6pt,
   stroke: none
 )
+// Presentación del glosario al estilo de glossarium
+// (https://typst.app/universe/package/glossarium): término en negrita, raya y
+// definición seguida, con las entradas sin partir entre páginas.
+//
+// No se usa el paquete en sí, a propósito: exige declarar las entradas como
+// diccionarios de Typst, lo que sacaría el glosario de los .qmd —que son la
+// fuente canónica— y del EPUB. Además su función principal (referenciar
+// términos con @clave y generar retroenlaces) no tendría aquí nada que hacer:
+// el contenido no lleva ni una sola referencia al glosario. Esto reproduce su
+// aspecto sobre la lista de definición nativa, que sí sale en PDF y en EPUB.
+//
+// Alcance: todas las listas de términos de la colección salen del glosario. Los
+// ': ' que aparecen en los capítulos son pies de tabla de Quarto, que comparten
+// sintaxis pero no generan `terms`. Por eso esta regla no necesita acotarse.
+//
+// No se colorea el término: brand-color se define después de este include, así
+// que no es legible desde aquí, y la negrita es además el estilo por defecto de
+// glossarium. Si algún día se añade un _brand.yml, esto no desentonará.
+
+// Pandoc envuelve cada definición en un #block, que forzaría un salto de línea
+// tras el término. Se desenvuelve para que quede seguida, como en glossarium.
+#let _glosario-descripcion(d) = {
+  if d.func() == block and d.has("body") { d.body } else { d }
+}
+
+#show terms.item: it => block(breakable: false, below: 0.85em, width: 100%)[
+  #text(weight: "bold")[#it.term]#h(0.35em)#sym.dash.em#h(0.35em)#_glosario-descripcion(it.description)
+]
 #import "@preview/fontawesome:0.5.0": *
 #let brand-color = (:)
 #let brand-color-background = (:)
@@ -2702,187 +2730,187 @@ Consulta a tu instructor, quien te indicará cuál es el banco de preguntas o el
 <glosario-de-términos>
 Este glosario contiene las definiciones y acrónimos más relevantes del marco normativo aeronáutico (EASA, OACI, normativa nacional) aplicables a la licencia de piloto de planeador (SPL).
 
-/ \*\*\*\*ACC (Centro de Control de Área / Area Control Centre)\*\*\*\*: #block[
+/ #strong[ACC (Centro de Control de Área / Area Control Centre)]: #block[
 Dependencia ATS que presta el servicio de control a los vuelos en ruta dentro de un área de control (CTA), en las fases altas del vuelo. Es la más elevada de las tres dependencias de control, por encima de la aproximación (APP) y la torre (TWR). (Mencionado en: cap. 8)
 ]
 
-/ \*\*\*\*AESA (Agencia Estatal de Seguridad Aérea)\*\*\*\*: #block[
+/ #strong[AESA (Agencia Estatal de Seguridad Aérea)]: #block[
 Autoridad de aviación civil en España, encargada de supervisar y aplicar la normativa aeronáutica nacional, trabajando junto con EASA y emitiendo las licencias de vuelo para pilotos (SPL), así como supervisando la expedición de certificados médicos por parte de centros y médicos examinadores autorizados. (Mencionado en: cap. 1, cap. 2, cap. 3, cap. 13, cap. 14)
 ]
 
-/ \*\*\*\*AIP (Publicación de Información Aeronáutica)\*\*\*\*: #block[
+/ #strong[AIP (Publicación de Información Aeronáutica)]: #block[
 Manual básico que contiene información aeronáutica de carácter duradero y esencial para la navegación aérea, estructurado en Generalidades (GEN), En Ruta (ENR) y Aeródromos (AD). (Mencionado en: cap. 9)
 ]
 
-/ \*\*\*\*APP (Control de Aproximación / Approach Control)\*\*\*\*: #block[
+/ #strong[APP (Control de Aproximación / Approach Control)]: #block[
 Dependencia ATS que controla las aeronaves en las fases de salida y llegada, en la zona intermedia entre el aeródromo (TWR) y la ruta (ACC). (Mencionado en: cap. 8)
 ]
 
-/ \*\*\*\*ARC (Certificado de Revisión de la Aeronavegabilidad / Airworthiness Review Certificate)\*\*\*\*: #block[
+/ #strong[ARC (Certificado de Revisión de la Aeronavegabilidad / Airworthiness Review Certificate)]: #block[
 Certificado de validez anual que confirma que la aeronave y sus registros han superado la revisión de aeronavegabilidad reglamentaria, acreditando que es segura para volar. (Mencionado en: cap. 2)
 ]
 
-/ \*\*\*\*ATS (Servicios de Tránsito Aéreo / Air Traffic Services)\*\*\*\*: #block[
+/ #strong[ATS (Servicios de Tránsito Aéreo / Air Traffic Services)]: #block[
 Término genérico que engloba el control de tránsito aéreo (ATC), el servicio de información de vuelo (FIS) y el servicio de alerta. (Mencionado en: cap. 8, 11)
 ]
 
-/ \*\*\*\*ATC (Control de Tránsito Aéreo / Air Traffic Control)\*\*\*\*: #block[
+/ #strong[ATC (Control de Tránsito Aéreo / Air Traffic Control)]: #block[
 Servicio de tránsito aéreo responsable de dirigir el tráfico de aeronaves para prevenir colisiones entre aeronaves y entre estas y los obstáculos en el área de maniobras, así como de organizar y agilizar el flujo del tránsito aéreo. (Mencionado en: cap. 8, cap. 11)
 ]
 
-/ \*\*\*\*ATZ (Aerodrome Traffic Zone)\*\*\*\*: #block[
+/ #strong[ATZ (Aerodrome Traffic Zone)]: #block[
 Zona de Tránsito de Aeródromo. Espacio aéreo de dimensiones definidas establecido alrededor de un aeródromo para la protección del tránsito del aeródromo.
 ]
 
-/ \*\*\*\*AWY (Airway)\*\*\*\*: #block[
+/ #strong[AWY (Airway)]: #block[
 Aerovía. Área de control o porción de la misma dispuesta en forma de corredor.
 ]
 
-/ \*\*\*\*CAA (Civil Aviation Authority)\*\*\*\*: #block[
+/ #strong[CAA (Civil Aviation Authority)]: #block[
 Autoridad o Administración de Aviación Civil. En España, las funciones recaen en la DGAC (políticas) y AESA (supervisión e inspección).
 ]
 
-/ \*\*\*\*CAMO (Continuing Airworthiness Management Organisation)\*\*\*\*: #block[
+/ #strong[CAMO (Continuing Airworthiness Management Organisation)]: #block[
 Organización de Gestión del Mantenimiento de la Aeronavegabilidad Continuada. Entidad responsable de planificar y controlar el mantenimiento de las aeronaves. (Mencionado en: cap. 2)
 ]
 
-/ \*\*\*\*CAO (Combined Airworthiness Organisation)\*\*\*\*: #block[
+/ #strong[CAO (Combined Airworthiness Organisation)]: #block[
 Organización Combinada de Aeronavegabilidad. Regulada por la Part-CAO, es una entidad con privilegios para el mantenimiento y gestión de aeronavegabilidad de aeronaves no complejas (como planeadores), simplificando y sustituyendo a las antiguas CAMO. (Mencionado en: cap. 2)
 ]
 
-/ \*\*\*\*CAVOK (Ceiling And Visibility OK)\*\*\*\*: #block[
+/ #strong[CAVOK (Ceiling And Visibility OK)]: #block[
 Término meteorológico aeronáutico que indica condiciones VFR óptimas: visibilidad horizontal de 10 km o más, ausencia de nubes por debajo de 5.000 ft (o la altitud mínima de sector, la mayor de ambas), ausencia de cumulonimbos (CB) o cúmulos en torre (TCU), y ausencia de fenómenos significativos.
 ]
 
-/ \*\*\*\*CIAIAC (Comisión de Investigación de Accidentes e Incidentes de Aviación Civil)\*\*\*\*: #block[
+/ #strong[CIAIAC (Comisión de Investigación de Accidentes e Incidentes de Aviación Civil)]: #block[
 Organismo oficial español encargado de investigar las causas de accidentes e incidentes de aviación civil para emitir recomendaciones que prevengan futuros percances. (Mencionado en: cap. 13)
 ]
 
-/ \*\*\*\*CPL (Commercial Pilot Licence)\*\*\*\*: #block[
+/ #strong[CPL (Commercial Pilot Licence)]: #block[
 Licencia de Piloto Comercial para aviones o helicópteros (Part-FCL). En el mundo del planeador, los privilegios comerciales se integran en la propia SPL --- no existe una CPL(S) independiente.
 ]
 
-/ \*\*\*\*CTA (Control Area)\*\*\*\*: #block[
+/ #strong[CTA (Control Area)]: #block[
 Área de Control. Espacio aéreo controlado que se extiende hacia arriba desde un límite especificado sobre el terreno (nunca inferior a 200 metros / 700 pies). #emph[Nota: Aunque coloquialmente se suele expandir como "Controlled Traffic Area", la denominación oficial OACI (Doc 8400) es #strong[Control Area].]
 ]
 
-/ \*\*\*\*CTR (Zona de control / Control Zone)\*\*\*\*: #block[
+/ #strong[CTR (Zona de control / Control Zone)]: #block[
 Espacio aéreo controlado que se extiende hacia arriba desde la superficie terrestre hasta un límite superior definido, establecido para proteger las trayectorias de las aeronaves en despegue y aterrizaje.
 ]
 
-/ \*\*\*\*Certificado de Aeronavegabilidad\*\*\*\*: #block[
+/ #strong[Certificado de Aeronavegabilidad]: #block[
 Documento técnico que identifica una aeronave, define sus características y expresa su calificación para ser utilizada, emitido por la autoridad correspondiente tras comprobar que cumple el diseño aprobado y es segura para operar. (Mencionado en: cap. 2, cap. 14)
 ]
 
-/ \*\*\*\*DGAC (Dirección General de Aviación Civil)\*\*\*\*: #block[
+/ #strong[DGAC (Dirección General de Aviación Civil)]: #block[
 Órgano directivo del Ministerio de Transportes encargado de establecer las políticas y normativas de aviación civil en España. (Mencionado en: cap. 14)
 ]
 
-/ \*\*\*\*DME (Distance Measuring Equipment)\*\*\*\*: #block[
+/ #strong[DME (Distance Measuring Equipment)]: #block[
 Equipo Radiotelemétrico. Sistema de navegación por radio que permite a la aeronave determinar la distancia oblicua a una radiobaliza terrestre.
 ]
 
-/ \*\*\*\*EASA (Agencia de la Unión Europea para la Seguridad Aérea / European Union Aviation Safety Agency)\*\*\*\*: #block[
+/ #strong[EASA (Agencia de la Unión Europea para la Seguridad Aérea / European Union Aviation Safety Agency)]: #block[
 Agencia de la Unión Europea responsable de establecer el marco normativo común para regular y supervisar la seguridad de la aviación civil, incluyendo requisitos médicos (Part-MED) y licencias (SFCL). (Mencionado en: cap. 1, cap. 6, cap. 14)
 ]
 
-/ \*\*\*\*EET (Estimated Elapsed Time)\*\*\*\*: #block[
+/ #strong[EET (Estimated Elapsed Time)]: #block[
 Duración Prevista de un vuelo, desde el despegue hasta llegar sobre un punto de notificación, destino o límite del espacio aéreo controlado.
 ]
 
-/ \*\*\*\*EOBT (Hora estimada fuera de calzos / Estimated Off-Block Time)\*\*\*\*: #block[
+/ #strong[EOBT (Hora estimada fuera de calzos / Estimated Off-Block Time)]: #block[
 Hora prevista en que la aeronave inicia el movimiento para la salida (rodaje o remolque), constituyendo la referencia para calcular los plazos de presentación de los planes de vuelo.
 ]
 
-/ \*\*\*\*ETA (Estimated Time of Arrival)\*\*\*\*: #block[
+/ #strong[ETA (Estimated Time of Arrival)]: #block[
 Hora Prevista de Llegada. En vuelos VFR, es la hora a la que se prevé que la aeronave llegue sobre el aeródromo.
 ]
 
-/ \*\*\*\*ETD (Estimated Time of Departure)\*\*\*\*: #block[
+/ #strong[ETD (Estimated Time of Departure)]: #block[
 Hora Prevista de Salida. La hora a la que se estima que la aeronave iniciará el despegue.
 ]
 
-/ \*\*\*\*FCL (Flight Crew Licensing / Licencias de la Tripulación de Vuelo)\*\*\*\*: #block[
+/ #strong[FCL (Flight Crew Licensing / Licencias de la Tripulación de Vuelo)]: #block[
 Normativa europea referente a las Licencias de Tripulación de Vuelo (parte del Reglamento (UE) No 1178/2011).
 ]
 
-/ \*\*\*\*FIC (Flight Information Centre)\*\*\*\*: #block[
+/ #strong[FIC (Flight Information Centre)]: #block[
 Centro de Información de Vuelo. Dependencia establecida para prestar servicio de información de vuelo y servicio de alerta.
 ]
 
-/ \*\*\*\*FIS (Servicio de Información de Vuelo / Flight Information Service)\*\*\*\*: #block[
+/ #strong[FIS (Servicio de Información de Vuelo / Flight Information Service)]: #block[
 Servicio cuya finalidad es facilitar asesoramiento e información útiles para la realización segura y eficaz de los vuelos, sin proporcionar instrucciones de control ni separación obligatoria. (Mencionado en: cap. 7, cap. 8)
 ]
 
-/ \*\*\*\*FIR (Flight Information Region)\*\*\*\*: #block[
+/ #strong[FIR (Flight Information Region)]: #block[
 Región de Información de Vuelo. Espacio aéreo de dimensiones definidas, dentro del cual se facilitan los servicios de información de vuelo y alerta.
 ]
 
-/ \*\*\*\*HJ (Hora de Sol)\*\*\*\*: #block[
+/ #strong[HJ (Hora de Sol)]: #block[
 Indica el período comprendido desde el orto hasta el ocaso, durante el cual están permitidos (con carácter general) los vuelos VFR de planeadores si no existe habilitación de vuelo nocturno.
 ]
 
-/ \*\*\*\*LAPL (Light Aircraft Pilot License)\*\*\*\*: #block[
+/ #strong[LAPL (Light Aircraft Pilot License)]: #block[
 Licencia de Piloto de Aeronave Ligera. Licencia europea pensada para la aviación general no comercial, con requisitos médicos y de formación menos estrictos que las licencias completas. (Mencionado en: cap. 4)
 ]
 
-/ \*\*\*\*OACI (Organización de Aviación Civil Internacional / ICAO)\*\*\*\*: #block[
+/ #strong[OACI (Organización de Aviación Civil Internacional / ICAO)]: #block[
 Agencia especializada de las Naciones Unidas creada en 1944 para establecer las normas y métodos recomendados (SARPS) que garanticen la seguridad, protección, regularidad y eficiencia de la aviación civil global. (Mencionado en: cap. 1, cap. 3, cap. 7, cap. 14)
 ]
 
-/ \*\*\*\*PIC (Piloto al mando / Pilot in Command)\*\*\*\*: #block[
+/ #strong[PIC (Piloto al mando / Pilot in Command)]: #block[
 Piloto responsable directo del funcionamiento, operación y seguridad de la aeronave durante el tiempo de vuelo. (Mencionado en: cap. 4)
 ]
 
-/ \*\*\*\*PPL (Private Pilot License)\*\*\*\*: #block[
+/ #strong[PPL (Private Pilot License)]: #block[
 Licencia de Piloto Privado.
 ]
 
-/ \*\*\*\*SPIC (Student Pilot-in-Command / Alumno piloto al mando)\*\*\*\*: #block[
+/ #strong[SPIC (Student Pilot-in-Command / Alumno piloto al mando)]: #block[
 Alumno piloto que actúa como piloto al mando en un vuelo con un instructor a bordo, quien únicamente observa y no interviene ni influye en el control de la aeronave.
 ]
 
-/ \*\*\*\*SPL (Licencia de Piloto de Planeador / Sailplane Pilot Licence)\*\*\*\*: #block[
+/ #strong[SPL (Licencia de Piloto de Planeador / Sailplane Pilot Licence)]: #block[
 Licencia oficial de la Unión Europea (regida por Part-SFCL) que certifica que el titular cumple con los requisitos teóricos y prácticos para actuar como piloto de planeadores. (Mencionado en: cap. 1, cap. 2, cap. 4)
 ]
 
-/ \*\*\*\*TMA (Terminal Manoeuvring Area)\*\*\*\*: #block[
+/ #strong[TMA (Terminal Manoeuvring Area)]: #block[
 Área de Maniobras Terminales. Área de control establecida generalmente en la confluencia de rutas ATS (aerovías) en las inmediaciones de uno o más aeródromos principales, con altura mínima habitualmente de 1000 pies o más. (Mencionado en: cap. 7)
 ]
 
-/ \*\*\*\*TMG (Motovelero de turismo / Touring Motor Glider)\*\*\*\*: #block[
+/ #strong[TMG (Motovelero de turismo / Touring Motor Glider)]: #block[
 Planeador propulsado equipado estructuralmente con motor y hélice no retráctil que le permiten el despegue autónomo y el crucero, compartiendo características con aviones ligeros. (Mencionado en: cap. 1, cap. 4)
 ]
 
-/ \*\*\*\*TR (Type Rating / Habilitación de Tipo)\*\*\*\*: #block[
+/ #strong[TR (Type Rating / Habilitación de Tipo)]: #block[
 Habilitación de Tipo. Anotación en la licencia que certifica la capacitación del piloto para operar un tipo o variante específica de aeronave. No aplicable a planeadores ni motoveleros (TMG) ---que se rigen por habilitaciones de clase o atribuciones---, pero sí a aeronaves complejas.
 ]
 
-/ \*\*\*\*RMZ (Zona de radio obligatoria / Radio Mandatory Zone)\*\*\*\*: #block[
+/ #strong[RMZ (Zona de radio obligatoria / Radio Mandatory Zone)]: #block[
 Espacio aéreo de dimensiones definidas en el que el equipo de radio y su uso son obligatorios: exige mantener escucha permanente en la frecuencia establecida y comunicar intenciones antes de entrar. (Mencionado en: cap. 7)
 ]
 
-/ \*\*\*\*TMZ (Zona de transpondedor obligatorio / Transponder Mandatory Zone)\*\*\*\*: #block[
+/ #strong[TMZ (Zona de transpondedor obligatorio / Transponder Mandatory Zone)]: #block[
 Espacio aéreo de dimensiones definidas en el que es obligatorio portar y operar un transpondedor con transmisión de altitud (Modo C o S). (Mencionado en: cap. 7)
 ]
 
-/ \*\*\*\*TWR (Torre de Control / Aerodrome Control Tower)\*\*\*\*: #block[
+/ #strong[TWR (Torre de Control / Aerodrome Control Tower)]: #block[
 Dependencia ATS que controla el tránsito en el aeródromo y su circuito: rodaje, alineamiento, despegues y aterrizajes. Es la más baja de las tres dependencias de control, por debajo de la aproximación (APP) y el centro de control de área (ACC). (Mencionado en: cap. 8)
 ]
 
-/ \*\*\*\*VFR (Reglas de vuelo visual / Visual Flight Rules)\*\*\*\*: #block[
+/ #strong[VFR (Reglas de vuelo visual / Visual Flight Rules)]: #block[
 Conjunto de normas que rigen los vuelos operados con referencia visual constante al terreno, recayendo la responsabilidad de la separación en el principio de "ver y evitar" bajo mínimos meteorológicos visuales (VMC). (Mencionado en: cap. 5, cap. 6)
 ]
 
-/ \*\*\*\*Zona peligrosa ( D )\*\*\*\*: #block[
+/ #strong[Zona peligrosa ( D )]: #block[
 Área del espacio aéreo de dimensiones definidas (D de Danger) en la que pueden existir o desarrollarse actividades peligrosas para el vuelo en momentos específicos. (Mencionado en: cap. 7)
 ]
 
-/ \*\*\*\*Zona prohibida ( P )\*\*\*\*: #block[
+/ #strong[Zona prohibida ( P )]: #block[
 Área del espacio aéreo de dimensiones definidas (P de Prohibited) sobre territorio terrestre o aguas jurisdiccionales, cuyo vuelo está totalmente vedado. (Mencionado en: cap. 7)
 ]
 
-/ \*\*\*\*Zona restringida ( R )\*\*\*\*: #block[
+/ #strong[Zona restringida ( R )]: #block[
 Área del espacio aéreo (R de Restricted) en la que el vuelo de aeronaves está sometido a condiciones restrictivas especificadas. (Mencionado en: cap. 7)
 ]
 

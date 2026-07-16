@@ -415,6 +415,34 @@
   inset: 6pt,
   stroke: none
 )
+// Presentación del glosario al estilo de glossarium
+// (https://typst.app/universe/package/glossarium): término en negrita, raya y
+// definición seguida, con las entradas sin partir entre páginas.
+//
+// No se usa el paquete en sí, a propósito: exige declarar las entradas como
+// diccionarios de Typst, lo que sacaría el glosario de los .qmd —que son la
+// fuente canónica— y del EPUB. Además su función principal (referenciar
+// términos con @clave y generar retroenlaces) no tendría aquí nada que hacer:
+// el contenido no lleva ni una sola referencia al glosario. Esto reproduce su
+// aspecto sobre la lista de definición nativa, que sí sale en PDF y en EPUB.
+//
+// Alcance: todas las listas de términos de la colección salen del glosario. Los
+// ': ' que aparecen en los capítulos son pies de tabla de Quarto, que comparten
+// sintaxis pero no generan `terms`. Por eso esta regla no necesita acotarse.
+//
+// No se colorea el término: brand-color se define después de este include, así
+// que no es legible desde aquí, y la negrita es además el estilo por defecto de
+// glossarium. Si algún día se añade un _brand.yml, esto no desentonará.
+
+// Pandoc envuelve cada definición en un #block, que forzaría un salto de línea
+// tras el término. Se desenvuelve para que quede seguida, como en glossarium.
+#let _glosario-descripcion(d) = {
+  if d.func() == block and d.has("body") { d.body } else { d }
+}
+
+#show terms.item: it => block(breakable: false, below: 0.85em, width: 100%)[
+  #text(weight: "bold")[#it.term]#h(0.35em)#sym.dash.em#h(0.35em)#_glosario-descripcion(it.description)
+]
 #import "@preview/fontawesome:0.5.0": *
 #let brand-color = (:)
 #let brand-color-background = (:)
@@ -2680,259 +2708,259 @@ Consulta a tu instructor, quien te indicará cuál es el banco de preguntas o el
 <glosario-de-términos>
 Este glosario contiene las definiciones y acrónimos más relevantes de la meteorología aeronáutica aplicables a la licencia de piloto de planeador (SPL), organizados según el programa de formación EASA AMC1 SFCL.130.
 
-/ \*\*\*\*AIRMET (Airmen's Meteorological Information)\*\*\*\*: #block[
+/ #strong[AIRMET (Airmen's Meteorological Information)]: #block[
 Mensaje de información meteorológica para la aviación que alerta de fenómenos en ruta significativos para aeronaves que vuelan por debajo del FL100 (o FL150 en zonas montañosas). De especial relevancia para el vuelo VFR sin motor. (Mencionado en: cap. 10)
 ]
 
-/ \*\*\*\*Altocúmulo lenticular (ACSL)\*\*\*\*: #block[
+/ #strong[Altocúmulo lenticular (ACSL)]: #block[
 Nube en forma de lenteja o platillo, estacionaria respecto al terreno a pesar de los vientos intensos. Su presencia indica flujo laminar de onda de montaña en la vertical. Es la señal visual que invita al vuelo de onda. (Mencionado en: cap. 4)
 ]
 
-/ \*\*\*\*Anticiclón (H)\*\*\*\*: #block[
+/ #strong[Anticiclón (H)]: #block[
 Sistema de alta presión caracterizado por subsidencia (descenso suave y divergente del aire). Al descender, el aire se comprime y calienta, inhibiendo el desarrollo de nubes convectivas. En verano favorece las térmicas aunque limita su techo; en invierno puede atrapar nieblas y crear inversiones persistentes. (Mencionado en: cap. 7)
 ]
 
-/ \*\*\*\*Atmósfera Estándar Internacional (ISA)\*\*\*\*: #block[
+/ #strong[Atmósfera Estándar Internacional (ISA)]: #block[
 Modelo idealizado de referencia que define los valores estándar de presión (1013,25 hPa), temperatura (15 °C) y densidad del aire a nivel del mar, con un gradiente térmico estándar de 2 °C/1.000 ft. Es la base de calibración de todos los instrumentos aeronáuticos. (Mencionado en: cap. 1)
 ]
 
-/ \*\*\*\*Borrasca (Depresión / L)\*\*\*\*: #block[
+/ #strong[Borrasca (Depresión / L)]: #block[
 Sistema de baja presión atmosférica caracterizado por convergencia de aire en superficie que fuerza el ascenso, el enfriamiento y la formación de nubes, frentes y precipitación. Los vientos en superficie circulan en sentido antihorario en el hemisferio norte. La zona post-frontal es a menudo la más favorable para el vuelo a vela. (Mencionado en: cap. 7)
 ]
 
-/ \*\*\*\*Brisa anabática (viento anabático)\*\*\*\*: #block[
+/ #strong[Brisa anabática (viento anabático)]: #block[
 Corriente de aire ascendente que se desarrolla de día a lo largo de las laderas de montaña cuando el sol calienta las vertientes orientadas al sur antes que el fondo del valle. Es una de las principales fuentes de térmicas en terreno montañoso. (Mencionado en: cap. 2)
 ]
 
-/ \*\*\*\*Brisa catabática (viento catabático)\*\*\*\*: #block[
+/ #strong[Brisa catabática (viento catabático)]: #block[
 Corriente de aire descendente que se forma al atardecer y durante la noche cuando el aire en contacto con las laderas se enfría por radiación y desciende por gravedad. En la restitución de ambas laderas puede generar ascendencias suaves en el centro del valle. (Mencionado en: cap. 2)
 ]
 
-/ \*\*\*\*Brisa marina (sea breeze)\*\*\*\*: #block[
+/ #strong[Brisa marina (sea breeze)]: #block[
 Viento que sopla desde el mar hacia la tierra durante el día, originado por el calentamiento diferencial entre la superficie terrestre (que se calienta más rápido) y el mar. Al encontrarse con la masa cálida continental genera una línea de convergencia que puede explotarse como fuente de ascendencias para el cross-country. (Mencionado en: cap. 2)
 ]
 
-/ \*\*\*\*CAPE (Convective Available Potential Energy)\*\*\*\*: #block[
+/ #strong[CAPE (Convective Available Potential Energy)]: #block[
 Energía Potencial Convectiva Disponible. Cuantifica la flotabilidad acumulada de una parcela de aire desde la superficie hasta el nivel de equilibrio. Se representa como el área entre la curva de la parcela y la curva de estado en el sondeo termodinámico. Valores orientativos: \< 500 J/kg (día débil), 1.000--2.500 J/kg (excelente), \> 3.500 J/kg (convección severa probable). (Mencionado en: cap. 3, cap. 10)
 ]
 
-/ \*\*\*\*CAVOK (Ceiling And Visibility OK)\*\*\*\*: #block[
+/ #strong[CAVOK (Ceiling And Visibility OK)]: #block[
 Término meteorológico aeronáutico que indica condiciones VFR óptimas: visibilidad horizontal de 10 km o más, ausencia de nubes por debajo de 5.000 ft (o la altitud mínima de sector, la mayor de ambas), ausencia de cumulonimbos (CB) o cúmulos en torre (TCU), y ausencia de fenómenos significativos. (Mencionado en: cap. 10)
 ]
 
-/ \*\*\*\*Cizalladura (wind shear)\*\*\*\*: #block[
+/ #strong[Cizalladura (wind shear)]: #block[
 Variación brusca de la velocidad y/o dirección del viento en una distancia corta, tanto en el plano horizontal como vertical. Especialmente peligrosa en la aproximación final, donde puede provocar una pérdida súbita de sustentación por caída de la velocidad indicada. (Mencionado en: cap. 9)
 ]
 
-/ \*\*\*\*Collado barométrico (pantano barométrico)\*\*\*\*: #block[
+/ #strong[Collado barométrico (pantano barométrico)]: #block[
 Región de transición entre dos anticiclones y dos borrascas opuestas en la que el gradiente de presión es prácticamente nulo. Genera vientos flojos y variables, visibilidad reducida por niebla o bruma en invierno, y riesgo de tormentas locales aisladas en verano. (Mencionado en: cap. 7)
 ]
 
-/ \*\*\*\*Cumulonimbus (Cb)\*\*\*\*: #block[
+/ #strong[Cumulonimbus (Cb)]: #block[
 Nube de desarrollo vertical extremo que puede alcanzar la tropopausa. Representa el peligro meteorológico más grave para la aviación ligera: turbulencia severa, granizo, rayos, lluvia torrencial y microbursts. La distancia de seguridad recomendada es de al menos 10--20 NM. (Mencionado en: cap. 4, cap. 9)
 ]
 
-/ \*\*\*\*Cúmulo (Cu)\*\*\*\*: #block[
+/ #strong[Cúmulo (Cu)]: #block[
 Nube convectiva de desarrollo vertical con base plana y contornos bien definidos. Su presencia indica inestabilidad y térmicas activas. La base de los cúmulos marca el nivel de condensación por ascenso (NCA/LCL) y puede calcularse con la fórmula: (T − Td) × 400 = altitud en pies. (Mencionado en: cap. 3, cap. 4)
 ]
 
-/ \*\*\*\*Cúmulo congestus (Cu con)\*\*\*\*: #block[
+/ #strong[Cúmulo congestus (Cu con)]: #block[
 Fase de desarrollo vertical intenso del cúmulo, previa al cumulonimbus. Sus torres de "coliflor" con contornos aún definidos señalan convección vigorosa y riesgo de sobredesarrollo hacia Cb. Cuando la parte superior pierde definición y se hace fibrosa, el Cb ya está en marcha. (Mencionado en: cap. 4, cap. 9)
 ]
 
-/ \*\*\*\*DALR (Dry Adiabatic Lapse Rate)\*\*\*\*: #block[
+/ #strong[DALR (Dry Adiabatic Lapse Rate)]: #block[
 Gradiente Adiabático Seco. Ritmo al que se enfría una parcela de aire sin saturar al ascender adiabáticamente: 3 °C por cada 1.000 ft. Es la clave del efecto Foehn en sotavento y de la fórmula de base de nubes. (Mencionado en: cap. 3, cap. 2)
 ]
 
-/ \*\*\*\*DANA (Depresión Aislada en Niveles Altos)\*\*\*\*: #block[
+/ #strong[DANA (Depresión Aislada en Niveles Altos)]: #block[
 Sistema de baja presión que se desprende de la circulación general y queda aislado en altura sobre la Península Ibérica, especialmente en otoño. Genera precipitaciones intensas y tormentas severas que pueden durar días. Especialmente relevante en el área mediterránea. (Mencionado en: cap. 8)
 ]
 
-/ \*\*\*\*Dorsal (cuña de altas presiones / ridge)\*\*\*\*: #block[
+/ #strong[Dorsal (cuña de altas presiones / ridge)]: #block[
 Extensión de un anticiclón en forma de lengua hacia una zona de menor presión. Comparte las características del sistema origen: subsidencia, cielos despejados, buen tiempo y ausencia de ascendencias convectivas. (Mencionado en: cap. 7)
 ]
 
-/ \*\*\*\*Downburst (microburst / microrráfaga)\*\*\*\*: #block[
+/ #strong[Downburst (microburst / microrráfaga)]: #block[
 Corriente descendente violenta generada bajo un cumulonimbus o cúmulo congestus al precipitar. Al impactar con el suelo se expande horizontalmente en todas direcciones. Particularmente peligroso en la aproximación final: primero genera un viento de cara falso (ganancia de sustentación engañosa) y segundos después un viento de cola que puede provocar el impacto con el terreno. (Mencionado en: cap. 5, cap. 9)
 ]
 
-/ \*\*\*\*Efecto Foehn (Foehn effect)\*\*\*\*: #block[
+/ #strong[Efecto Foehn (Foehn effect)]: #block[
 Fenómeno por el que el aire que asciende en barlovento de una cordillera precipita y cede calor latente (siguiendo el SALR en la zona de nube), pero desciende en sotavento completamente seco, calentándose al DALR completo durante todo el descenso. La diferencia de temperatura entre los dos valles puede superar los 10--15 °C. La pared de Foehn (#strong[Foehn wall]) es la acumulación de nubes estacionaria sobre la cresta en barlovento. (Mencionado en: cap. 2)
 ]
 
-/ \*\*\*\*Engelamiento (icing)\*\*\*\*: #block[
+/ #strong[Engelamiento (icing)]: #block[
 Formación de hielo en las superficies del planeador al volar en zonas con humedad visible y temperatura negativa (especialmente entre 0 °C y −15 °C). Altera el perfil alar, aumenta la velocidad de pérdida (#strong[stall speed]) y puede opacificar la cúpula. Los planeadores no disponen de sistemas antihielo: la medida correctiva es descender a niveles de temperatura positiva. (Mencionado en: cap. 9)
 ]
 
-/ \*\*\*\*Estabilidad atmosférica\*\*\*\*: #block[
+/ #strong[Estabilidad atmosférica]: #block[
 Propiedad de la atmósfera que describe la tendencia de una parcela de aire desplazada verticalmente a regresar a su posición original (estable) o a continuar alejándose (inestable). El vuelo a vela vive de la inestabilidad. Una atmósfera estable impide el desarrollo de térmicas; una inestable las fomenta. (Mencionado en: cap. 3)
 ]
 
-/ \*\*\*\*Estabilidad condicional\*\*\*\*: #block[
+/ #strong[Estabilidad condicional]: #block[
 Estado de la atmósfera que es estable para parcelas de aire seco pero inestable para parcelas saturadas. Si el aire asciende lo suficiente para condensar, el calor latente liberado lo mantiene más caliente que el entorno y la inestabilidad se dispara. Es la clave del sobredesarrollo de cúmulos hacia cumulonimbus en días húmedos. (Mencionado en: cap. 3)
 ]
 
-/ \*\*\*\*Frente cálido\*\*\*\*: #block[
+/ #strong[Frente cálido]: #block[
 Superficie de separación entre una masa de aire cálido que avanza sobre una masa fría preexistente. El ascenso es gradual (pendiente suave), lo que produce precipitaciones débiles y continuas, techos nubosos bajos y estabilidad: condiciones operativas pobres para el vuelo a vela. Sus precursores son los cirros descendentes (Ci → Cs → As → Ns). (Mencionado en: cap. 6)
 ]
 
-/ \*\*\*\*Frente frío\*\*\*\*: #block[
+/ #strong[Frente frío]: #block[
 Superficie de separación donde una masa de aire frío y denso avanza en cuña bajo el aire cálido, forzándolo a ascender bruscamente. El paso del frente trae precipitaciones convectivas, chubascos y vientos racheados. La fase post-frontal suele ser la mejor del año para el vuelo a vela: atmósfera limpia, inestable y con buenas térmicas bajo cúmulos bien definidos. (Mencionado en: cap. 6)
 ]
 
-/ \*\*\*\*Frente ocluido (oclusión)\*\*\*\*: #block[
+/ #strong[Frente ocluido (oclusión)]: #block[
 Estructura frontal que se forma cuando un frente frío alcanza y fusiona con el frente cálido que le precede, pinzando el aire cálido intermedio y forzándolo a ascender. Genera condiciones complejas: precipitaciones extensas, núcleos convectivos embebidos y mala visibilidad. Poco o nada aprovechable para el vuelo a vela. (Mencionado en: cap. 6)
 ]
 
-/ \*\*\*\*FZRA (Lluvia engelante / Freezing Rain)\*\*\*\*: #block[
+/ #strong[FZRA (Lluvia engelante / Freezing Rain)]: #block[
 Precipitación líquida que cae a través de una capa con temperatura inferior a 0 °C. Las gotículas superenfriadas se congelan al impactar con las superficies del planeador, formando hielo opaco o transparente en el borde de ataque. Situación de emergencia: el único remedio es un cambio de rumbo 180° y descenso inmediato. (Mencionado en: cap. 5)
 ]
 
-/ \*\*\*\*GAMET (General Area Meteorological Forecast)\*\*\*\*: #block[
+/ #strong[GAMET (General Area Meteorological Forecast)]: #block[
 Pronóstico meteorológico de área para vuelos de aviación general por debajo del FL100, emitido por los proveedores meteorológicos nacionales. Informa de peligros como engelamiento, turbulencia, nieblas y tormentas en ruta. (Mencionado en: cap. 10)
 ]
 
-/ \*\*\*\*Gotículas superenfriadas\*\*\*\*: #block[
+/ #strong[Gotículas superenfriadas]: #block[
 Gotículas de agua líquida que permanecen en estado líquido a temperaturas por debajo de 0 °C (hasta −40 °C). Son inestables: al impactar con cualquier superficie sólida se congelan casi instantáneamente. Son la causa principal del engelamiento en vuelo. (Mencionado en: cap. 5)
 ]
 
-/ \*\*\*\*Granizo (GR)\*\*\*\*: #block[
+/ #strong[Granizo (GR)]: #block[
 Precipitación sólida formada por capas alternas de hielo transparente y opaco, resultado de múltiples recirculaciones de las gotículas en las corrientes ascendentes de un cumulonimbus. Granos de más de 2 cm de diámetro pueden perforar la cúpula o dañar estructuralmente el fuselaje de fibra. El granizo puede caer lejos del núcleo visible del Cb, bajo el yunque. (Mencionado en: cap. 5, cap. 9)
 ]
 
-/ \*\*\*\*Hipoxia\*\*\*\*: #block[
+/ #strong[Hipoxia]: #block[
 Estado fisiológico de deficiencia de oxígeno en las células y tejidos del cuerpo humano, provocado al volar a gran altura por la reducción de la presión parcial de oxígeno en la atmósfera. (Mencionado en: cap. 1)
 ]
 
-/ \*\*\*\*Inversión térmica\*\*\*\*: #block[
+/ #strong[Inversión térmica]: #block[
 Capa atmosférica en la que la temperatura aumenta con la altitud en lugar de disminuir. Actúa como techo invisible que frena las térmicas por completo, limita la altura máxima de vuelo y atrapa contaminación y bruma en los niveles inferiores, degradando la visibilidad. (Mencionado en: cap. 3)
 ]
 
-/ \*\*\*\*IAS (Velocidad indicada / Indicated Air Speed)\*\*\*\*: #block[
+/ #strong[IAS (Velocidad indicada / Indicated Air Speed)]: #block[
 Velocidad de la aeronave respecto al aire circundante tal como la indica el anemómetro, sin correcciones por temperatura ni densidad. Es la referencia para todos los límites aerodinámicos y estructurales (VNE, VA, velocidades de pérdida y curva polar). (Mencionado en: cap. 9)
 ]
 
-/ \*\*\*\*K-Index (índice K)\*\*\*\*: #block[
+/ #strong[K-Index (índice K)]: #block[
 Índice de estabilidad atmosférica que combina el gradiente vertical de temperatura entre 850 hPa y 500 hPa con la humedad en niveles medios. Es el indicador diario más usado por los volovelistas: K \< 5 (día débil), 5--15 (buenas térmicas), 15--20 (excelente), 20--30 (excelente con chubascos), \> 30 (alta probabilidad de tormentas). (Mencionado en: cap. 3, cap. 10)
 ]
 
-/ \*\*\*\*LCL (Nivel de Condensación por Elevación / Lifted Condensation Level)\*\*\*\*: #block[
+/ #strong[LCL (Nivel de Condensación por Elevación / Lifted Condensation Level)]: #block[
 Altitud a la que una parcela de aire, al ser elevada adiabáticamente, alcanza su punto de saturación y comienza a condensar. En la práctica, es la altura de la base de los cúmulos. En el sondeo Skew-T se obtiene donde la curva de temperatura de la parcela intersecta la curva del punto de rocío. (Mencionado en: cap. 3, cap. 10)
 ]
 
-/ \*\*\*\*LFC (Nivel de Convección Libre / Level of Free Convection)\*\*\*\*: #block[
+/ #strong[LFC (Nivel de Convección Libre / Level of Free Convection)]: #block[
 Altitud por encima de la cual una parcela de aire levantada artificialmente se vuelve más cálida que el entorno y asciende libremente sin necesidad de fuerza externa. Su cruce indica que la convección puede dispararse de forma autónoma. Si es demasiado bajo en un día caluroso, el riesgo de sobredesarrollo hacia Cb es alto. (Mencionado en: cap. 10)
 ]
 
-/ \*\*\*\*LI (Índice de Levantamiento / Lifted Index)\*\*\*\*: #block[
+/ #strong[LI (Índice de Levantamiento / Lifted Index)]: #block[
 Diferencia entre la temperatura del ambiente y la de una parcela elevada adiabáticamente desde la superficie hasta el nivel de 500 hPa. Valores negativos indican inestabilidad: cuanto más negativo, mayor el potencial convectivo y la fuerza de las térmicas. (Mencionado en: cap. 3, cap. 10)
 ]
 
-/ \*\*\*\*Línea de convergencia\*\*\*\*: #block[
+/ #strong[Línea de convergencia]: #block[
 Franja del espacio aéreo donde dos masas de aire de distinta procedencia se encuentran y el aire se ve forzado a ascender. Puede originarse por el choque de la brisa marina con la masa continental, por vientos catabáticos de dos laderas opuestas (restitución) o por diferencias orográficas. Ofrece ascendencias continuas y regulares, ideales para el vuelo de distancia. (Mencionado en: cap. 2, cap. 8)
 ]
 
-/ \*\*\*\*Masa de aire\*\*\*\*: #block[
+/ #strong[Masa de aire]: #block[
 Gran volumen de aire troposférico con propiedades físicas (temperatura y humedad) horizontalmente homogéneas adquiridas en su zona de origen. Su temperatura relativa respecto al suelo que sobrevuela determina si la atmósfera es inestable (aire frío sobre suelo caliente) o estable (aire cálido sobre suelo frío). (Mencionado en: cap. 6)
 ]
 
-/ \*\*\*\*METAR (Meteorological Aerodrome Report)\*\*\*\*: #block[
+/ #strong[METAR (Meteorological Aerodrome Report)]: #block[
 Informe meteorológico observacional codificado de un aeródromo que se emite a intervalos regulares (30 o 60 minutos), reportando viento, visibilidad, nubes, temperatura, punto de rocío y presión. (Mencionado en: cap. 10)
 ]
 
-/ \*\*\*\*Microburst (microrráfaga)\*\*\*\*: #block[
+/ #strong[Microburst (microrráfaga)]: #block[
 Ver Downburst.
 ]
 
-/ \*\*\*\*Modelo burbuja (bubble model)\*\*\*\*: #block[
+/ #strong[Modelo burbuja (bubble model)]: #block[
 Modelo conceptual de la térmica en el que el calor se acumula sobre la fuente hasta que la masa de aire se desprende formando un vórtice anular. El ascenso es intermitente y el núcleo central sube más rápido que los bordes. El planeador debe centrarse en el núcleo para obtener el máximo ascenso. (Mencionado en: cap. 3)
 ]
 
-/ \*\*\*\*Modelo columna / pluma (column/plume model)\*\*\*\*: #block[
+/ #strong[Modelo columna / pluma (column/plume model)]: #block[
 Modelo conceptual de la térmica en el que fuentes de calor intensas y persistentes generan un flujo convectivo continuo, similar al humo de una chimenea. El ascenso es más regular y duradero que en el modelo burbuja. Favorece el vuelo de distancia al reducir las maniobras de centrado. (Mencionado en: cap. 3)
 ]
 
-/ \*\*\*\*NCA (Nivel de Condensación por Ascenso)\*\*\*\*: #block[
+/ #strong[NCA (Nivel de Condensación por Ascenso)]: #block[
 Ver LCL. En terminología española, equivalente al LCL: la altura a la que se forma la base de los cúmulos. Estimación rápida: (T − Td) × 400 = altura en pies. (Mencionado en: cap. 3)
 ]
 
-/ \*\*\*\*Niebla\*\*\*\*: #block[
+/ #strong[Niebla]: #block[
 Suspensión de gotículas de agua microscópicas que reduce la visibilidad por debajo de 1.000 m. Invalida las operaciones VFR. Se distingue de la bruma (#strong[mist]), que reduce la visibilidad entre 1.000 m y 5.000 m sin afectar el código CAVOK. En METAR se codifica como #NormalTok("FG"); (niebla) o #NormalTok("BR"); (bruma). (Mencionado en: cap. 4, cap. 10)
 ]
 
-/ \*\*\*\*Niebla de radiación\*\*\*\*: #block[
+/ #strong[Niebla de radiación]: #block[
 Niebla que se forma durante las noches despejadas de otoño e invierno cuando el suelo pierde calor por radiación hacia el espacio, enfría el aire en contacto hasta el punto de rocío y produce condensación. Puede ser muy densa y persistir hasta mediados de la mañana. Especialmente frecuente en anticiclones invernales con vientos flojos. (Mencionado en: cap. 4, cap. 7)
 ]
 
-/ \*\*\*\*Niebla de advección\*\*\*\*: #block[
+/ #strong[Niebla de advección]: #block[
 Niebla que se forma cuando una masa de aire cálido y húmedo se desplaza horizontalmente sobre una superficie más fría (mar frío, valle nevado o costa), que enfría su base hasta la saturación. A diferencia de la de radiación, no depende del enfriamiento nocturno y puede persistir día y noche mientras dure el flujo. (Mencionado en: cap. 4)
 ]
 
-/ \*\*\*\*NSC (No Significant Clouds)\*\*\*\*: #block[
+/ #strong[NSC (No Significant Clouds)]: #block[
 Indicador en METAR/TAF que señala ausencia de nubes por debajo de 5.000 ft y ausencia de cumulonimbus. A diferencia de CAVOK, no implica visibilidad ≥ 10 km. (Mencionado en: cap. 10)
 ]
 
-/ \*\*\*\*Onda de montaña (wave soaring)\*\*\*\*: #block[
+/ #strong[Onda de montaña (wave soaring)]: #block[
 Oscilación ondulatoria del flujo de aire que se genera a sotavento de una cordillera cuando el viento es perpendicular a la cresta, supera un umbral de velocidad y existe una capa estable a la altura de la cresta. Permite el ascenso laminar hasta grandes altitudes. Los altocúmulos lenticulares son su señal visual. Los rotores en la base son el principal peligro. (Mencionado en: cap. 4)
 ]
 
-/ \*\*\*\*QNH\*\*\*\*: #block[
+/ #strong[QNH]: #block[
 Reglaje altimétrico que ajusta el altímetro para indicar la altitud sobre el nivel del mar en condiciones ISA. Es la referencia estándar para el vuelo VFR. (Mencionado en: cap. 1, cap. 10)
 ]
 
-/ \*\*\*\*Rotor\*\*\*\*: #block[
+/ #strong[Rotor]: #block[
 Vórtice turbulento de pequeña escala que se forma a sotavento del pie de una ladera o cordillera bajo la primera cresta de la onda de montaña. Genera turbulencia severa e impredecible a baja altura. Las nubes de rotor (#strong[rotor clouds]) son estratos irregulares bajo la onda que señalan esta zona peligrosa. (Mencionado en: cap. 4, cap. 9)
 ]
 
-/ \*\*\*\*SALR (Saturated Adiabatic Lapse Rate)\*\*\*\*: #block[
+/ #strong[SALR (Saturated Adiabatic Lapse Rate)]: #block[
 Gradiente Adiabático Saturado. Ritmo al que se enfría una parcela de aire saturada (en formación de nube) al ascender adiabáticamente: aproximadamente 1,5 °C por cada 1.000 ft. Es menor que el DALR porque la condensación libera calor latente que "frena" el enfriamiento. (Mencionado en: cap. 3, cap. 2)
 ]
 
-/ \*\*\*\*SIGMET (Significant Meteorological Information)\*\*\*\*: #block[
+/ #strong[SIGMET (Significant Meteorological Information)]: #block[
 Mensaje de alerta que informa a las tripulaciones de fenómenos meteorológicos en ruta de gran relevancia para la seguridad: engelamiento severo (#NormalTok("SEV ICE");), turbulencia severa (#NormalTok("SEV TURB");), actividad de cenizas volcánicas o ciclones tropicales. (Mencionado en: cap. 10)
 ]
 
-/ \*\*\*\*SIGWX (Significant Weather Chart)\*\*\*\*: #block[
+/ #strong[SIGWX (Significant Weather Chart)]: #block[
 Mapa de Tiempo Significativo. Pronóstico a escala sinóptica que muestra la distribución de sistemas frontales, zonas de turbulencia e engelamiento, y otras áreas de meteorología significativa en una región geográfica. Imprescindible para la planificación de vuelos de distancia. (Mencionado en: cap. 10)
 ]
 
-/ \*\*\*\*Sondeo termodinámico (Skew-T / Stüve)\*\*\*\*: #block[
+/ #strong[Sondeo termodinámico (Skew-T / Stüve)]: #block[
 Diagrama que representa el perfil vertical de temperatura, temperatura del punto de rocío y viento en la atmósfera, obtenido mediante radiosondeo. Permite al piloto estimar la altura de las bases de cúmulos (LCL), el techo térmico, el riesgo de sobredesarrollo (LFC) y los índices de estabilidad (K-Index, CAPE, LI). (Mencionado en: cap. 10)
 ]
 
-/ \*\*\*\*Stau\*\*\*\*: #block[
+/ #strong[Stau]: #block[
 Efecto complementario al Foehn: acumulación de nubes y precipitación intensa en la ladera de barlovento de una cordillera, donde el aire húmedo asciende y condensa. Mientras en barlovento llueve (Stau), en sotavento el cielo puede estar despejado y la temperatura es varios grados más alta (Foehn). (Mencionado en: cap. 2)
 ]
 
-/ \*\*\*\*TAF (Terminal Aerodrome Forecast)\*\*\*\*: #block[
+/ #strong[TAF (Terminal Aerodrome Forecast)]: #block[
 Pronóstico meteorológico codificado que describe las condiciones meteorológicas esperadas en un aeródromo específico durante un periodo de tiempo determinado (típicamente 9, 24 o 30 horas). (Mencionado en: cap. 10)
 ]
 
-/ \*\*\*\*Térmica\*\*\*\*: #block[
+/ #strong[Térmica]: #block[
 Corriente convectiva ascendente de aire formada por el calentamiento diferencial del suelo. El sol calienta el terreno, el terreno calienta el aire en contacto y este asciende por flotabilidad. Es la fuente principal de sustentación en el vuelo a vela de distancia. Su intensidad depende del diferencial de temperatura suelo--atmósfera libre. (Mencionado en: cap. 3)
 ]
 
-/ \*\*\*\*Tropopausa\*\*\*\*: #block[
+/ #strong[Tropopausa]: #block[
 Límite superior de la troposfera, donde el gradiente térmico se anula y la temperatura se estabiliza. A media latitud se sitúa entre 8.000 m (invierno) y 12.000 m (verano). El yunque del cumulonimbus se extiende horizontalmente al alcanzar esta capa, que actúa como techo para la convección. (Mencionado en: cap. 1, cap. 4)
 ]
 
-/ \*\*\*\*Troposfera\*\*\*\*: #block[
+/ #strong[Troposfera]: #block[
 Capa inferior de la atmósfera, desde el suelo hasta la tropopausa, donde se producen la totalidad de los fenómenos meteorológicos relevantes para la aviación. Contiene aproximadamente el 75 % de la masa del aire y casi todo el vapor de agua atmosférico. (Mencionado en: cap. 1)
 ]
 
-/ \*\*\*\*Turbulencia de estela (wake turbulence)\*\*\*\*: #block[
+/ #strong[Turbulencia de estela (wake turbulence)]: #block[
 Vórtices tubulares contrarrotantes generados por el paso de aeronaves de ala fija al producir sustentación, o por el flujo y vórtices de rotor de los helicópteros. Descienden lentamente y persisten varios minutos después del paso de la aeronave. Cruzarlos perpendicularmente puede inducir un momento de balanceo que supere los alerones del planeador. La separación mínima recomendada es de al menos 3 minutos tras aeronaves pesadas y 3 diámetros de rotor en proximidad de helicópteros en estacionario. (Mencionado en: cap. 9)
 ]
 
-/ \*\*\*\*Vaguada (surco de bajas presiones / trough)\*\*\*\*: #block[
+/ #strong[Vaguada (surco de bajas presiones / trough)]: #block[
 Extensión de una borrasca en forma de lengua alargada hacia una zona de mayor presión. Concentra los efectos de la baja presión: inestabilidad, cúmulos convectivos, chubascos y turbulencia. Genera líneas de convergencia dinámica. (Mencionado en: cap. 7)
 ]
 
-/ \*\*\*\*Viento geostrófico\*\*\*\*: #block[
+/ #strong[Viento geostrófico]: #block[
 Viento que sopla paralelo a las isobaras en niveles superiores a 1.000 m sobre el suelo, resultado del equilibrio entre la fuerza del gradiente de presión y la fuerza de Coriolis. En superficie, la fricción rompe este equilibrio y el viento cruza las isobaras hacia la baja presión con un ángulo de unos 30°. (Mencionado en: cap. 2)
 ]
 
-/ \*\*\*\*Virga\*\*\*\*: #block[
+/ #strong[Virga]: #block[
 Precipitación que cae desde la base de una nube pero se evapora antes de alcanzar el suelo. La evaporación absorbe calor de la columna de aire, que se vuelve densa y desciende violentamente generando una microrráfaga (#strong[downburst]). La virga es un aviso visual de turbulencia severa y cizalladura debajo de ella, incluso en cielos aparentemente despejados. (Mencionado en: cap. 5, cap. 9)
 ]
 

@@ -415,6 +415,34 @@
   inset: 6pt,
   stroke: none
 )
+// Presentación del glosario al estilo de glossarium
+// (https://typst.app/universe/package/glossarium): término en negrita, raya y
+// definición seguida, con las entradas sin partir entre páginas.
+//
+// No se usa el paquete en sí, a propósito: exige declarar las entradas como
+// diccionarios de Typst, lo que sacaría el glosario de los .qmd —que son la
+// fuente canónica— y del EPUB. Además su función principal (referenciar
+// términos con @clave y generar retroenlaces) no tendría aquí nada que hacer:
+// el contenido no lleva ni una sola referencia al glosario. Esto reproduce su
+// aspecto sobre la lista de definición nativa, que sí sale en PDF y en EPUB.
+//
+// Alcance: todas las listas de términos de la colección salen del glosario. Los
+// ': ' que aparecen en los capítulos son pies de tabla de Quarto, que comparten
+// sintaxis pero no generan `terms`. Por eso esta regla no necesita acotarse.
+//
+// No se colorea el término: brand-color se define después de este include, así
+// que no es legible desde aquí, y la negrita es además el estilo por defecto de
+// glossarium. Si algún día se añade un _brand.yml, esto no desentonará.
+
+// Pandoc envuelve cada definición en un #block, que forzaría un salto de línea
+// tras el término. Se desenvuelve para que quede seguida, como en glossarium.
+#let _glosario-descripcion(d) = {
+  if d.func() == block and d.has("body") { d.body } else { d }
+}
+
+#show terms.item: it => block(breakable: false, below: 0.85em, width: 100%)[
+  #text(weight: "bold")[#it.term]#h(0.35em)#sym.dash.em#h(0.35em)#_glosario-descripcion(it.description)
+]
 #import "@preview/fontawesome:0.5.0": *
 #let brand-color = (:)
 #let brand-color-background = (:)
@@ -1511,59 +1539,59 @@ Consulta a tu instructor, quien te indicará cuál es el banco de preguntas o el
 <glosario-de-términos>
 Este glosario contiene las definiciones y acrónimos más relevantes de planificación y rendimiento de vuelo aplicables a la licencia de piloto de planeador (SPL).
 
-/ \*\*\*\*Brazo de palanca (Arm)\*\*\*\*: #block[
+/ #strong[Brazo de palanca (Arm)]: #block[
 Distancia horizontal medida desde el datum (línea de referencia) hasta el centro de gravedad de un elemento o peso a bordo del planeador. (Mencionado en: cap. 1)
 ]
 
-/ \*\*\*\*Carga alar\*\*\*\*: #block[
+/ #strong[Carga alar]: #block[
 Relación entre la masa total del planeador y la superficie de sus alas. Se expresa en kg/m² e influye directamente en las velocidades de crucero y de pérdida. (Mencionado en: cap. 2)
 ]
 
-/ \*\*\*\*CG (Centro de gravedad)\*\*\*\*: #block[
+/ #strong[CG (Centro de gravedad)]: #block[
 Punto teórico donde se considera aplicada la resultante de todas las fuerzas de gravedad que actúan sobre el planeador. Su ubicación longitudinal es clave para la estabilidad y el control del vuelo. (Mencionado en: cap. 1)
 ]
 
-/ \*\*\*\*Coeficiente de planeo (L/D, #emph[finesse])\*\*\*\*: #block[
+/ #strong[Coeficiente de planeo (L/D, #emph[finesse])]: #block[
 Relación entre la sustentación (#emph[Lift]) y la resistencia total (#emph[Drag]) de la aeronave, equivalente a la distancia horizontal recorrida por unidad de altura perdida en aire en calma (un planeador con L/D de 40 recorre 40 km por cada kilómetro de altura cedida). (Mencionado en: cap. 2)
 ]
 
-/ \*\*\*\*Datum (Línea de referencia)\*\*\*\*: #block[
+/ #strong[Datum (Línea de referencia)]: #block[
 Plano vertical imaginario a partir del cual se miden todas las distancias horizontales para calcular el centrado y el brazo de palanca de los componentes del planeador. (Mencionado en: cap. 1)
 ]
 
-/ \*\*\*\*FPL (Plan de vuelo / Flight Plan)\*\*\*\*: #block[
+/ #strong[FPL (Plan de vuelo / Flight Plan)]: #block[
 Información estructurada que se suministra a los servicios de tránsito aéreo sobre un vuelo proyectado, siendo obligatorio en cruce de fronteras o espacio controlado. (Mencionado en: cap. 4)
 ]
 
-/ \*\*\*\*Lastre de agua (Water ballast)\*\*\*\*: #block[
+/ #strong[Lastre de agua (Water ballast)]: #block[
 Agua cargada en tanques específicos situados en las alas para aumentar la masa del planeador y su carga alar, desplazando la curva polar de velocidades hacia valores más altos para volar más rápido con el mismo ángulo de planeo. (Mencionado en: cap. 1)
 ]
 
-/ \*\*\*\*Lastre de cola (Fin ballast)\*\*\*\*: #block[
+/ #strong[Lastre de cola (Fin ballast)]: #block[
 Pequeño depósito de agua o soporte de pesas en la deriva que compensa el desplazamiento del CG producido por el lastre de las alas o por un piloto pesado, restaurando el centrado óptimo. Olvidar vaciarlo con un piloto ligero genera un CG peligrosamente retrasado. (Mencionado en: cap. 1)
 ]
 
-/ \*\*\*\*Momento\*\*\*\*: #block[
+/ #strong[Momento]: #block[
 Efecto de giro o tendencia rotacional ejercida por un peso en función de su brazo de palanca respecto al datum. Se calcula multiplicando la masa del objeto por su brazo de palanca. (Mencionado en: cap. 1)
 ]
 
-/ \*\*\*\*MTOW (Masa Máxima al Despegue / Maximum Take-Off Weight)\*\*\*\*: #block[
+/ #strong[MTOW (Masa Máxima al Despegue / Maximum Take-Off Weight)]: #block[
 Masa máxima autorizada o certificada con la que el planeador puede iniciar el vuelo, determinada por límites estructurales y de rendimiento aerodinámico. (Mencionado en: cap. 1)
 ]
 
-/ \*\*\*\*Polar de velocidades\*\*\*\*: #block[
+/ #strong[Polar de velocidades]: #block[
 Gráfico o curva matemática que relaciona la velocidad indicada (IAS) del planeador con su velocidad o tasa de caída (sink rate). Define las velocidades operativas óptimas. (Mencionado en: cap. 2)
 ]
 
-/ \*\*\*\*Teoría MacCready (Anillo MacCready)\*\*\*\*: #block[
+/ #strong[Teoría MacCready (Anillo MacCready)]: #block[
 Método de optimización de velocidad de vuelo que indica la velocidad óptima a volar entre térmicas dada la intensidad esperada de la siguiente corriente térmica ascendente. (Mencionado en: cap. 2)
 ]
 
-/ \*\*\*\*Velocidad de mejor planeo (V#sub[G])\*\*\*\*: #block[
+/ #strong[Velocidad de mejor planeo (V#sub[G])]: #block[
 Velocidad a la que el planeador obtiene su máxima distancia recorrida por unidad de altura perdida en aire en calma (máxima fineza, correspondiente al L/D máximo determinado por la tangente a la curva polar). (Mencionado en: cap. 2)
 ]
 
-/ \*\*\*\*Velocidad de mínimo descenso (Minimum Sink Speed)\*\*\*\*: #block[
+/ #strong[Velocidad de mínimo descenso (Minimum Sink Speed)]: #block[
 Velocidad a la que el planeador pierde la menor cantidad de altura posible por unidad de tiempo (obtenida en el vértice superior de la curva polar), óptima para centrar y explotar térmicas débiles. (Mencionado en: cap. 2)
 ]
 

@@ -2,161 +2,161 @@
 
 Este glosario reúne las definiciones y acrónimos más relevantes de Navegación aplicables a la licencia de piloto de planeador (SPL).
 
-****AGL (Altura sobre el terreno / Above Ground Level)****
+**AGL (Altura sobre el terreno / Above Ground Level)**
 : Altura medida desde la superficie del terreno. En los símbolos de obstáculo de la carta es la cifra que va entre paréntesis. (Mencionado en: cap. 3)
 
-****AMA (Altitud Mínima de Área)****
+**AMA (Altitud Mínima de Área)**
 : Cifra impresa en cada cuadrícula de la carta (paralelos y meridianos cada 30') que indica una altitud de seguridad sobre el obstáculo más alto del recuadro, con un margen mínimo de 1000 ft (2000 ft en alta montaña). Se lee como millares y centenares de pies. (Mencionado en: cap. 3)
 
-****AMSL (Altitud sobre el nivel del mar / Above Mean Sea Level)****
+**AMSL (Altitud sobre el nivel del mar / Above Mean Sea Level)**
 : Altitud referida al nivel medio del mar. En los símbolos de obstáculo de la carta es la cifra que va sin paréntesis. (Mencionado en: cap. 3)
 
-****ANDS (Error de aceleración de la brújula)****
+**ANDS (Error de aceleración de la brújula)**
 : Regla mnemotécnica inglesa *Accelerate North, Decelerate South*: en rumbos Este u Oeste, al acelerar la brújula tiende a marcar viraje al Norte y al decelerar, al Sur. (Mencionado en: cap. 2)
 
-****ATC (Control de Tránsito Aéreo / Air Traffic Control)****
+**ATC (Control de Tránsito Aéreo / Air Traffic Control)**
 : Servicio de tránsito aéreo responsable de dirigir el tráfico de aeronaves para prevenir colisiones entre aeronaves y entre estas y los obstáculos en el área de maniobras, así como de organizar y agilizar el flujo del tránsito aéreo. El planeador interactúa con él en aeródromos controlados y en espacio aéreo clase C y D. (Mencionado en: cap. 7)
 
-****ATS (Servicios de Tránsito Aéreo / Air Traffic Services)****
+**ATS (Servicios de Tránsito Aéreo / Air Traffic Services)**
 : Término genérico que engloba el control de tránsito aéreo (ATC), el servicio de información de vuelo (FIS) y el servicio de alerta. (Mencionado en: cap. 7)
 
-****Crepúsculo civil****
+**Crepúsculo civil**
 : Periodo de transición entre el día y la noche. Para la aviación, la noche comienza al final del crepúsculo civil vespertino y termina al inicio del matutino, cuando el centro del sol está 6º por debajo del horizonte. (Mencionado en: cap. 1)
 
-****Datum WGS-84 (World Geodetic System 1984)****
+**Datum WGS-84 (World Geodetic System 1984)**
 : Sistema geodésico de referencia mundial sobre el que el GNSS y la cartografía expresan las coordenadas. Configurar el receptor en un datum distinto puede desplazar la posición mostrada varios cientos de metros. (Mencionado en: cap. 6)
 
-****Deriva****
+**Deriva**
 : Desviación lateral de la trayectoria del planeador respecto al suelo provocada por el viento de costado (en navegación). En aerodinámica, se refiere a la superficie fija vertical de la cola (estabilizador vertical) que aporta estabilidad de guiñada. (Mencionado en: cap. 4)
 
-****Desvío****
+**Desvío**
 : Error local de la brújula causado por los campos magnéticos del propio planeador (tubos de acero, radio, instrumentos). Se corrige consultando la tablilla de desvíos de la cabina. (Mencionado en: cap. 2)
 
-****DOP (Dilución de la precisión)****
+**DOP (Dilución de la precisión)**
 : Degradación de la precisión del GNSS debida a la geometría de los satélites visibles: cuando están mal repartidos en el cielo, la posición calculada es menos precisa. (Mencionado en: cap. 6)
 
-****EOBT (Hora estimada fuera de calzos / Estimated Off-Block Time)****
+**EOBT (Hora estimada fuera de calzos / Estimated Off-Block Time)**
 : Hora prevista en que la aeronave inicia el movimiento para la salida (rodaje o remolque), constituyendo la referencia para calcular los plazos de presentación de los planes de vuelo. (Mencionado en: cap. 7)
 
-****Error de viraje (regla "NO me paso / SÍ me paso")****
+**Error de viraje (regla "NO me paso / SÍ me paso")**
 : Error de la brújula al virar hacia rumbos Norte o Sur por efecto del *dip* magnético: al Norte la brújula se queda atrás (hay que sacar el viraje antes, "NO me paso") y al Sur se adelanta (hay que dejarla pasar, "SÍ me paso"). (Mencionado en: cap. 2)
 
-****Escala****
+**Escala**
 : Relación entre una distancia medida en la carta y la distancia real en el terreno. En la carta VFR estándar 1:500.000, 1 cm equivale a 5 km. (Mencionado en: cap. 3)
 
-****Espacio aéreo controlado****
+**Espacio aéreo controlado**
 : Volumen de espacio aéreo (clases A a E) en el que se presta servicio de control. En clases C y D el VFR necesita autorización ATC y comunicación radio para entrar. (Mencionado en: cap. 7)
 
-****FIS (Servicio de Información de Vuelo / Flight Information Service)****
+**FIS (Servicio de Información de Vuelo / Flight Information Service)**
 : Servicio cuya finalidad es facilitar asesoramiento e información útiles para la realización segura y eficaz de los vuelos (meteorología, tráficos conocidos, estado de aeródromos), sin proporcionar instrucciones de control ni separación obligatoria. (Mencionado en: cap. 7)
 
-****FPL (Plan de vuelo / Flight Plan)****
+**FPL (Plan de vuelo / Flight Plan)**
 : Información estructurada que se suministra a los servicios de tránsito aéreo sobre un vuelo proyectado, siendo obligatorio en cruce de fronteras o espacio controlado. (Mencionado en: cap. 7)
 
-****GNSS (Sistema Global de Navegación por Satélite)****
+**GNSS (Sistema Global de Navegación por Satélite)**
 : Término genérico para los sistemas de posicionamiento por satélite (GPS, Galileo, GLONASS, BeiDou). Necesita captar al menos cuatro satélites para una posición tridimensional. (Mencionado en: cap. 6)
 
-****GPS (Global Positioning System)****
+**GPS (Global Positioning System)**
 : Sistema de posicionamiento por satélite original, operado por Estados Unidos. Es la constelación más conocida dentro del GNSS. (Mencionado en: cap. 6)
 
-****GS (Velocidad suelo / Ground Speed)****
+**GS (Velocidad suelo / Ground Speed)**
 : Velocidad real sobre el terreno, resultado de combinar la TAS con el viento. Es la que determina cuánto tardas en recorrer un tramo. (Mencionado en: cap. 4)
 
-****Handrail (Pasamanos)****
+**Handrail (Pasamanos)**
 : Referencia lineal grande y bien definida (una costa, una cordillera, una autopista) que se sigue para reorientarse cuando hay incertidumbre de posición. (Mencionado en: cap. 5)
 
-****IAS (Velocidad indicada / Indicated Air Speed)****
+**IAS (Velocidad indicada / Indicated Air Speed)**
 : Velocidad de la aeronave respecto al aire circundante tal como la indica el anemómetro, sin correcciones por temperatura ni densidad. En navegación es el punto de partida del cálculo: corregida por densidad da la TAS y, combinada con el viento, la GS; nunca se razona con la IAS a secas. (Mencionado en: cap. 4)
 
-****IGC (Registrador de vuelo / Logger)****
+**IGC (Registrador de vuelo / Logger)**
 : Dispositivo certificado que graba la traza GPS del vuelo en un archivo `.igc`, prueba del paso por los puntos de viraje para validar récords y medallas FAI. (Mencionado en: cap. 6)
 
-****Isógona (línea isogónica)****
+**Isógona (línea isogónica)**
 : Línea de la carta que une los puntos con igual valor de variación (declinación) magnética. (Mencionado en: cap. 2)
 
-****Latitud****
+**Latitud**
 : Coordenada que mide la distancia angular al norte o al sur del Ecuador (latitud 0º), formada por los paralelos. Un minuto de latitud equivale a una milla náutica. (Mencionado en: cap. 1)
 
-****Longitud****
+**Longitud**
 : Coordenada que mide la distancia angular al este o al oeste del meridiano de Greenwich (longitud 0º), formada por los meridianos. A diferencia de la latitud, un minuto de longitud varía con la latitud. (Mencionado en: cap. 1)
 
-****Loxodrómica (Línea de rumbo)****
+**Loxodrómica (Línea de rumbo)**
 : Trayectoria que corta todos los meridianos con el mismo ángulo, es decir, de rumbo constante. Es algo más larga que la ortodrómica, pero más cómoda de volar; es la que usamos en planeador. (Mencionado en: cap. 1)
 
-****Milla náutica (NM)****
+**Milla náutica (NM)**
 : Unidad de distancia de la navegación, igual a 1852 m, equivalente a un minuto de arco de latitud medido sobre un meridiano. (Mencionado en: cap. 1)
 
-****Multitrayecto****
+**Multitrayecto**
 : Fuente de error del GNSS por la que la señal de un satélite llega al receptor tras rebotar en el terreno o en estructuras, falseando ligeramente la medida de distancia. (Mencionado en: cap. 6)
 
-****Navegación a estima (Dead Reckoning)****
+**Navegación a estima (Dead Reckoning)**
 : Método de deducir la posición a partir de un punto conocido aplicando rumbo, velocidad y tiempo transcurrido. Sus pequeños errores se acumulan, así que se confirma con referencias del terreno. (Mencionado en: cap. 4)
 
-****Navegación observada****
+**Navegación observada**
 : Técnica de fijar la posición reconociendo accidentes del terreno (ríos, carreteras, pueblos) y comparándolos con la carta. (Mencionado en: cap. 5)
 
-****Norte magnético****
+**Norte magnético**
 : Punto hacia el que apuntan las agujas de la brújula. No coincide con el norte verdadero y se desplaza ligeramente cada año. (Mencionado en: cap. 2)
 
-****Norte verdadero (Geográfico)****
+**Norte verdadero (Geográfico)**
 : Punto por el que pasa el eje de rotación de la Tierra. Es el norte de referencia de los mapas y las cartas aeronáuticas. (Mencionado en: cap. 2)
 
-****Nudo (kt)****
+**Nudo (kt)**
 : Unidad de velocidad igual a una milla náutica por hora (1 kt = 1,852 km/h). (Mencionado en: cap. 1)
 
-****Ocaso****
+**Ocaso**
 : Atardecer: instante en que el borde superior del disco solar desaparece por el horizonte oeste. No marca todavía el inicio de la noche aeronáutica (ver crepúsculo civil). (Mencionado en: cap. 1)
 
-****Orto****
+**Orto**
 : Amanecer: instante en que el borde superior del disco solar asoma por el horizonte este. (Mencionado en: cap. 1)
 
-****Ortodrómica (Círculo máximo)****
+**Ortodrómica (Círculo máximo)**
 : Trayectoria más corta entre dos puntos de la esfera terrestre. Su inconveniente es que el rumbo cambia continuamente al cruzar los meridianos. (Mencionado en: cap. 1)
 
-****Proyección Lambert (cónica conforme)****
+**Proyección Lambert (cónica conforme)**
 : Proyección cartográfica empleada en las cartas aeronáuticas de latitudes medias. Es "conforme" (conserva ángulos y formas), su escala es prácticamente constante y una línea recta se aproxima a una ortodrómica. (Mencionado en: cap. 3)
 
-****Regla del 1 en 60****
+**Regla del 1 en 60**
 : Aproximación de cálculo mental: desviarse 1 NM de la ruta tras volar 60 NM equivale a un error de rumbo de 1º. Sirve para corregir el rumbo sobre la marcha. (Mencionado en: cap. 4)
 
-****SERA (Standardised European Rules of the Air / Reglas Europeas Estandarizadas del Aire)****
+**SERA (Standardised European Rules of the Air / Reglas Europeas Estandarizadas del Aire)**
 : Reglamento de Ejecución (UE) n.º 923/2012 con las reglas del aire comunes para toda la Unión Europea. En navegación fija, entre otras cosas, cuándo es obligatorio el plan de vuelo, los servicios por clase de espacio aéreo y el uso del transpondedor. (Mencionado en: cap. 7)
 
-****Squawk****
+**Squawk**
 : Código de cuatro dígitos en base octal (0–7) que el transpondedor emite al ser interrogado por el radar secundario (SSR), permitiendo al controlador identificar la aeronave en pantalla. Código VFR estándar en Europa: 7000. Los códigos 7700 (emergencia), 7600 (fallo de radio) y 7500 (interferencia ilícita) son de uso exclusivo en esas situaciones. (Mencionado en: cap. 7)
 
-****Tablilla de desvíos****
+**Tablilla de desvíos**
 : Tarjeta instalada a la vista del piloto que indica la corrección a aplicar a la brújula en cada rumbo para compensar el desvío propio de la aeronave. (Mencionado en: cap. 2)
 
-****TAS (Velocidad verdadera / True Air Speed)****
+**TAS (Velocidad verdadera / True Air Speed)**
 : Velocidad real respecto a la masa de aire. Es la IAS corregida por densidad (crece aproximadamente un 2 % por cada 300 m de altitud, unos 6,5-7 % por cada 1.000 m) y el vector que marca hacia dónde apunta el morro. (Mencionado en: cap. 4)
 
-****Tintas hipsométricas****
+**Tintas hipsométricas**
 : Sistema de coloreado del terreno en la carta (verdes para los valles, marrones para las montañas) que da una idea rápida del relieve. (Mencionado en: cap. 3)
 
-****TMZ (Zona de transpondedor obligatorio / Transponder Mandatory Zone)****
+**TMZ (Zona de transpondedor obligatorio / Transponder Mandatory Zone)**
 : Espacio aéreo de dimensiones definidas en el que es obligatorio portar y operar un transpondedor con transmisión de altitud (Modo C o S). (Mencionado en: cap. 7)
 
-****Transpondedor****
+**Transpondedor**
 : Equipo de a bordo que responde automáticamente a las interrogaciones del radar secundario (SSR) emitiendo un código **squawk** y, según el modo, la altitud barométrica o datos extendidos de identificación. Opera en la banda UHF (1.030/1.090 MHz), independientemente de la radio de voz. Imprescindible para ser visible por el TCAS de otros tráficos. (Mencionado en: cap. 7)
 
-****Triangulación (Líneas de posición)****
+**Triangulación (Líneas de posición)**
 : Técnica de fijar la posición cruzando al menos dos líneas de posición (por ejemplo, una carretera y la alineación con un pueblo). (Mencionado en: cap. 5)
 
-****Triángulo de velocidades (Triángulo del viento)****
+**Triángulo de velocidades (Triángulo del viento)**
 : Suma vectorial de la TAS, el viento y la GS que está en la base de todos los cálculos de la navegación a estima. (Mencionado en: cap. 4)
 
-****UOP (Incertidumbre de posición / Uncertainty of Position)****
+**UOP (Incertidumbre de posición / Uncertainty of Position)**
 : Situación en la que el piloto no está seguro de su posición exacta. El protocolo es mantener el rumbo, confiar en la estima, buscar referencias grandes y, si persiste, asegurar una toma. (Mencionado en: cap. 5)
 
-****UTC (Tiempo Universal Coordinado / Hora Zulu)****
+**UTC (Tiempo Universal Coordinado / Hora Zulu)**
 : Referencia horaria única de la aviación, correspondiente a la hora del meridiano de Greenwich. Evita las confusiones por husos horarios y cambios estacionales; en España la hora local es UTC+1 en invierno y UTC+2 en verano. (Mencionado en: cap. 1)
 
-****Variación magnética (Declinación)****
+**Variación magnética (Declinación)**
 : Diferencia angular entre el norte verdadero y el norte magnético en un punto dado. En la carta se representa con las líneas isógonas. Regla de cálculo: "Declinación Oeste, rumbo suma". (Mencionado en: cap. 2)
 
-****WCA (Ángulo de corrección de deriva / Wind Correction Angle)****
+**WCA (Ángulo de corrección de deriva / Wind Correction Angle)**
 : Ángulo que se aplica al rumbo, apuntando el morro hacia el viento, para compensar la deriva y mantener la trayectoria deseada sobre el terreno. (Mencionado en: cap. 4)
 
-****Zonas P/R/D****
+**Zonas P/R/D**
 : Zonas de la carta con restricciones de uso del espacio aéreo: P (prohibida), R (restringida) y D (peligrosa), identificadas con una letra y un número (p. ej. LER-71). No son clases de espacio aéreo. (Mencionado en: cap. 3)

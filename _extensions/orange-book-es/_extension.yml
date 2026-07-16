@@ -5,6 +5,8 @@ quarto-required: ">=1.9.17"
 contributes:
   formats:
     typst:
+      include-in-header:
+        - glosario.typ
       template-partials:
         - numbering.typ
         - page.typ
