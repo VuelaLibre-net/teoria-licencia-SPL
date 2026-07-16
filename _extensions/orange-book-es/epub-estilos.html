@@ -86,4 +86,18 @@ img.contracubierta {
   margin: 0;
   padding: 0;
 }
+
+/* Aviso de estado en el EPUB. En el PDF, el estado se ve con la marca de agua
+ * diagonal y la nota de la portadilla; un EPUB no tiene página fija ni admite
+ * marca, así que el aviso va como bloque destacado al principio del libro.
+ * El texto lo inyecta el Makefile, que es donde se deduce de la versión. */
+div.estado {
+  border: 2px solid #B41E1E;
+  border-radius: 4px;
+  background-color: #FDF0F0;
+  color: #B41E1E;
+  padding: 0.8em 1em;
+  margin: 0 0 1.5em 0;
+  font-size: 1em;
+}
 </style>

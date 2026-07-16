@@ -1,6 +1,12 @@
 # Información Legal y Licencia {.unnumbered}
 
 ::: {.licencia}
+::: {.content-visible when-format="epub"}
+::: {.estado}
+**{{< meta estado >}}** — {{< meta estado-nota >}}
+:::
+:::
+
 Manual de formación teórica para la obtención de la **Licencia de Piloto de Planeador (SPL)**, conforme al syllabus del AMC1 SFCL.130 (EASA-FCL), adaptado a los requerimientos de AESA.
 
 © 2026 VuelaLibre.net
