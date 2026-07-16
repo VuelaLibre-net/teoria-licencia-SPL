@@ -80,6 +80,27 @@ jobs:
             errores=1
           fi
         done
+        # introduccion.qmd es mixto: la cabecera es propia de cada libro (el
+        # gancho del tema) y, desde la marca GUÍA-DE-LECTURA hasta el final, la
+        # guía de lectura es idéntica en los 9. El md5 del fichero entero no
+        # sirve aquí, así que se compara sólo la cola.
+        colas=$(mktemp -d)
+        for libro in 0*/; do
+          awk '/GUÍA-DE-LECTURA/{f=1} f' "$libro/introduccion.qmd" > "$colas/${libro%/}"
+          # Sin esta comprobación, un fichero sin la marca daría una cola vacía;
+          # nueve colas vacías son idénticas y el guardián pasaría EN VACÍO.
+          if [ ! -s "$colas/${libro%/}" ]; then
+            echo "::error file=$libro/introduccion.qmd::Falta la marca GUÍA-DE-LECTURA: la guía no se puede comparar"
+            errores=1
+          fi
+        done
+        firmas=$(md5sum "$colas"/* 2>/dev/null | awk '{print $1}' | sort -u | wc -l)
+        if [ "$firmas" -ne 1 ]; then
+          echo "::error::La guía de lectura difiere entre libros ($firmas versiones). Se edita una y se propaga a las otras 8."
+          md5sum "$colas"/* | sed 's/^/    /'
+          errores=1
+        fi
+        rm -rf "$colas"
         exit $errores
 
     - name: Comprobar que la tabla del README no está desfasada
@@ -141,11 +162,12 @@ jobs:
           fi
 
           # El índice se emite desde un show rule que reconoce el encabezado
-          # "Introducción". Si alguien lo renombra, el libro sale sin índice y
-          # sin ningún error: durante meses se publicó con el índice al final.
+          # "Cómo leer este libro" (`front-matter-end` en lib.typ). Si alguien
+          # lo renombra en el .qmd sin cambiarlo allí, el libro sale sin índice
+          # y sin ningún error: durante meses se publicó con el índice al final.
           # Se detecta por los puntos guía de las entradas.
           if ! grep -q '\. \. \. \.' <<<"$texto"; then
-            echo "::error file=$pdf::Sin índice: ¿se renombró el encabezado 'Introducción'?"
+            echo "::error file=$pdf::Sin índice: ¿el H1 de introduccion.qmd ya no casa con front-matter-end en lib.typ?"
             errores=1
           fi
 
@@ -235,7 +257,18 @@ jobs:
         # resolver ("?meta:version-quarto"): el CI pasaba en verde porque el
         # fallo estaba en el formato que nadie miraba.
         for epub in build/epub/*.epub; do
-          texto=$(unzip -p "$epub" 'EPUB/text/*.xhtml' 2>/dev/null | sed -e 's/<[^>]*>//g')
+          crudo=$(unzip -p "$epub" 'EPUB/text/*.xhtml' 2>/dev/null)
+          texto=$(sed -e 's/<[^>]*>//g' <<<"$crudo")
+
+          # Comentarios del .qmd colados en el entregable. Los descarta
+          # `strip-comments: true` en el bloque epub de cada _quarto.yml; Typst
+          # los tira solo. Se busca en el XHTML CRUDO a propósito: $texto ya ha
+          # perdido las etiquetas —y con ellas los comentarios—, así que un
+          # grep sobre él no encontraría esto jamás.
+          if grep -q 'GUÍA-DE-LECTURA' <<<"$crudo"; then
+            echo "::error file=$epub::La marca GUÍA-DE-LECTURA se ha colado en el EPUB; ¿falta strip-comments en su _quarto.yml?"
+            errores=1
+          fi
 
           if [ "${#texto}" -lt 1000 ]; then
             echo "::error file=$epub::No se pudo extraer texto (${#texto} bytes); la verificación no sería concluyente"
