@@ -1,4 +1,4 @@
-# Navegación por estima
+# Navegación por estima (*dead reckoning*)
 
 > Navegar a estima consiste en deducir dónde estás partiendo de un punto conocido y aplicando rumbo, velocidad y tiempo transcurrido. Es lo que te permite alejarte del campo sabiendo siempre dónde estás, aunque el GNSS se apague.
 >

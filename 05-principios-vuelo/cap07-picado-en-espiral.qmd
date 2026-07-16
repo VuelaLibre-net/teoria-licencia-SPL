@@ -1,4 +1,4 @@
-# Picado en espiral
+# Picado en espiral (*spiral dive*)
 
 > El picado en espiral engaña al instinto del piloto: parece que hay que tirar de la palanca, pero esa reacción puede ser mortal. En este capítulo aprenderás a distinguirlo de una barrena, a entender por qué intentar subir el morro sin nivelar primero las alas agrava la situación, y a ejecutar la secuencia de recuperación correcta —nivelar las alas, recuperar suave del picado y controlar la velocidad— de forma procedimental y sin margen de error.
 

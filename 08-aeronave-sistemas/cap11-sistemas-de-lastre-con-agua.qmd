@@ -1,4 +1,4 @@
-# Sistemas de lastre con agua
+# Sistemas de lastre con agua (*water ballast systems*)
 
 > El agua en las alas es el "turbo" de los días de térmicas fuertes: más carga alar, más velocidad de crucero. Pero un sistema de lastre mal gestionado convierte esa ventaja en una emergencia.
 >

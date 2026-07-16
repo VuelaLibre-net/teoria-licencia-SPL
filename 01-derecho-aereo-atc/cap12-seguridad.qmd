@@ -1,4 +1,4 @@
-# Seguridad
+# Seguridad (*security*)
 
 > La seguridad de la aviación no es solo para grandes aerolíneas; proteger tu aeronave de actos ilícitos es una responsabilidad fundamental del piloto.
 >

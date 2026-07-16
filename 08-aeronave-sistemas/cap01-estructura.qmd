@@ -1,4 +1,4 @@
-# Estructura
+# Estructura (*airframe*)
 
 > La estructura del planeador es lo primero que inspeccionas cada mañana y lo último que debe fallarte en vuelo. Saber de qué está hecho tu velero y cómo se comporta cada material ante el sol, la humedad o un golpe es la base de toda la inspección prevuelo.
 >

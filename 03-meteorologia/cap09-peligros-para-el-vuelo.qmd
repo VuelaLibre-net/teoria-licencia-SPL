@@ -1,4 +1,4 @@
-# Peligros para el vuelo
+# Peligros para el vuelo (*flight hazards*)
 
 > La meteorología peligrosa no siempre avisa con tiempo: un Cb puede crecer mientras haces
 > el preflight, el hielo puede formarse en minutos y la cizalladura puede tirarte al suelo

@@ -1,4 +1,4 @@
-# Aeronavegabilidad
+# Aeronavegabilidad (*airworthiness*) de aeronaves
 
 > Un planeador sano es un planeador seguro; aprende a verificar la "salud técnica" de tu aeronave antes de cada vuelo.
 >

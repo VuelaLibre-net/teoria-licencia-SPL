@@ -1,4 +1,4 @@
-# Polar de velocidades de planeadores o velocidad de crucero
+# Polar de velocidades (*speed polar*) de planeadores o velocidad de crucero
 
 > Entender la polar de tu planeador es como conocer de memoria el mapa de potencia de un motor. En el vuelo sin motor, la gravedad es nuestro combustible y la aerodinámica nuestro acelerador. La polar te dice exactamente cuánto pagas en altura por cada kilómetro por hora de velocidad que ganas.
 >

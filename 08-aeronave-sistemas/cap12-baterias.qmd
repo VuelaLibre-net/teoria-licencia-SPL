@@ -1,4 +1,4 @@
-# Baterías
+# Baterías (rendimiento y limitaciones operativas)
 
 > Un planeador vuela sin motor, pero no sin electricidad: la radio, el FLARM, el transpondedor y los variómetros dependen de la batería. Gestionarla bien es gestionar tu seguridad.
 >

@@ -1,4 +1,4 @@
-# Plan de vuelo ICAO
+# Plan de vuelo ICAO (*ATS flight plan*)
 
 > El plan de vuelo (FPL) es mucho más que un trámite administrativo: es tu seguro de vida en los vuelos de distancia. En vuelo local no suele hacer falta, pero en cuanto decides alejarte del cono de seguridad de tu aeródromo se convierte en la única forma de que los servicios de búsqueda y rescate (SAR) sepan dónde buscarte si no regresas.
 >
