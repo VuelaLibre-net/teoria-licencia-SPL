@@ -630,7 +630,18 @@
     } else {
       cover-fill-color = cover-background
     }
-    #align(center + horizon, block(width: 100%, fill: cover-fill-color, height: 7.5cm, pad(x:2cm, y:1cm)[
+    // La banda de la portadilla. orange-book le da 7.5cm fijos, que bastan para
+    // un título de una línea. El del libro 8 ocupa tres —«Conocimientos
+    // Generales de la Aeronave, Estructura, Sistemas y Equipo de Emergencia»— y
+    // el contenido se salía por abajo: la nota de estado y la línea de versión
+    // acababan pisándose fuera del recuadro, sin que Typst avisara.
+    //
+    // Se mide el contenido y se toma el mayor de los dos, así que 7.5cm pasa de
+    // ser la altura a ser el mínimo: los ocho libros de título corto se
+    // componen exactamente igual que antes y sólo crece el que lo necesita.
+    // `layout` da el ancho real disponible; medir sin él daría el título en una
+    // sola línea y una altura falsa.
+    #let portadilla-contenido = pad(x:2cm, y:1cm)[
       #text(size: title-main-1, weight: "black", title)
       #v(1cm, weak: true)
       #text(size: title-main-2, subtitle)
@@ -662,7 +673,16 @@
           #text(size: 0.8em, fill: rgb(70, 70, 70), estado-nota)
         ]
       ]
-    ]))
+    ]
+    #align(center + horizon, context block(
+      width: 100%,
+      fill: cover-fill-color,
+      // El `context` va DENTRO del align, no fuera: envolverlo entero le quita
+      // al align la región de la página y la banda se sube al borde superior.
+      // Se mide contra el ancho de página porque la banda va a sangre.
+      height: calc.max(7.5cm, measure(block(width: page.width, portadilla-contenido)).height),
+      portadilla-contenido,
+    ))
   ]
   if (copyright!=none){
     set text(size: 10pt)
