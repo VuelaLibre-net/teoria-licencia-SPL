@@ -24,9 +24,10 @@ La mayoría de los receptores modernos combinan señales de varias constelacione
 
 Para que el GPS y la carta de papel se entiendan, deben usar el mismo "idioma" geográfico o **Datum**. El estándar mundial que usamos es el **WGS-84**. Asegúrate siempre de que tu dispositivo está configurado en este sistema; un datum incorrecto podría desplazar tu posición real varios cientos de metros respecto a lo que ves en pantalla.
 
+::: {.mas-alla}
 ## Los Registradores IGC (Loggers)
 
-**↗ MÁS ALLÁ DEL EXAMEN.** Los registradores IGC y la validación de récords y medallas FAI no deberían ser materia de examen. Se incluyen como iniciación al vuelo deportivo de distancia; no los estudies con la prioridad del resto del temario.
+[**↗ MÁS ALLÁ DEL EXAMEN.**]{.mas-alla-tag} Los registradores IGC y la validación de récords y medallas FAI no deberían ser materia de examen. Se incluyen como iniciación al vuelo deportivo de distancia; no los estudies con la prioridad del resto del temario.
 
 En el mundo del planeador, el GNSS no solo sirve para navegar. Usamos dispositivos certificados llamados **registradores IGC** (**Loggers**) que graban cada segundo de nuestro vuelo.
 
@@ -35,6 +36,7 @@ Estos archivos digitales (.igc) son la prueba de que has pasado por los puntos d
 Los equipos modernos integran el GNSS con un **mapa móvil** que muestra ruta, espacios aéreos y datos de planeo (@fig-09-cap06-gnss-cabina).
 
 ![Dispositivo GNSS moderno integrado en el panel de un planeador](imagenes/09-cap06-gnss-cabina.jpg){#fig-09-cap06-gnss-cabina}
+:::
 
 ## Limitaciones y Conciencia Situacional
 

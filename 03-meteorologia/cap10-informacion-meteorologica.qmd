@@ -53,9 +53,10 @@ Mientras que METAR y TAF cubren aeropuertos concretos, los **Mapas de Tiempo Sig
 
 ![Ejemplo de mapa de tiempo significativo (SIGWX) para niveles bajos.](imagenes/03-cap10-sigwx.png){#fig-03-cap10-sigwx}
 
+::: {.mas-alla}
 ## Sondeos termodinámicos y curvas de temperatura
 
-**↗ MÁS ALLÁ DEL EXAMEN.** Los sondeos Skew-T y los índices que se calculan sobre ellos (K, CAPE, LI) son formación de vuelo de distancia y no deberían ser materia de examen. Léelos como iniciación al cross-country.
+[**↗ MÁS ALLÁ DEL EXAMEN.**]{.mas-alla-tag} Los sondeos Skew-T y los índices que se calculan sobre ellos (K, CAPE, LI) son formación de vuelo de distancia y no deberían ser materia de examen. Léelos como iniciación al cross-country.
 
 El sondeo termodinámico es la radiografía del día: muestra cómo cambia la temperatura y la humedad con la altura en un punto geográfico dado. Se presenta en diagramas **Skew-T log-P** o **Stüve**, accesibles gratuitamente a través de la Universidad de Wyoming, AEMET (AMA), Windy o Meteoblue, y también integrados en plataformas de pago especializadas como Skysight, Topmeteo o Meteo Parapente. Aprender a leer un sondeo te ahorrará remolques innecesarios y te avisa de las tormentas antes de que sean visibles desde el suelo (@fig-03-cap10-indices-estabilidad).
 
@@ -76,6 +77,8 @@ Las tres lecturas clave son:
 ::: {.callout-tip title="Regla de oro"}
 El día de convección excepcional — conocido coloquialmente como «día termonuclear» en el argot de competición — tiene firma numérica precisa: K-Index entre 15 y 20, CAPE entre 1.000 y 2.500 J/kg, LI negativo, temperatura a 850 hPa varios grados por encima de la media en superficie, y vientos flojos. Busca estos índices directamente en el sondeo del día: gratuitamente en la Universidad de Wyoming, AEMET (AMA) o Windy; con más detalle soaring en Skysight, Topmeteo o Meteo Parapente.
 :::
+:::
+
 
 ## Análisis de datos y toma de decisiones
 

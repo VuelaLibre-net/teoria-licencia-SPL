@@ -75,9 +75,10 @@ En los días reales coexisten ambas estructuras. Las primeras horas de la mañan
 
 ![Ciclo de vida de una térmica típica con cúmulo.](imagenes/03-cap03-ciclo-vida-termica.png){#fig-03-cap03-ciclo-vida-termica}
 
+::: {.mas-alla}
 ## Índices de estabilidad: el termómetro del día
 
-**↗ MÁS ALLÁ DEL EXAMEN.** Los índices de sondeo (TT, K, CAPE, LI) y los Skew-T no deberían ser materia de examen: son formación de vuelo de distancia. Estúdialos cuando domines el resto del temario; aquí están porque forman al piloto, no solo al aprobado.
+[**↗ MÁS ALLÁ DEL EXAMEN.**]{.mas-alla-tag} Los índices de sondeo (TT, K, CAPE, LI) y los Skew-T no deberían ser materia de examen: son formación de vuelo de distancia. Estúdialos cuando domines el resto del temario; aquí están porque forman al piloto, no solo al aprobado.
 
 Describir cualitativamente la atmósfera ("parece inestable", "hace buena cara") es útil, pero los pilotos de cross-country van un paso más allá: cuantifican la inestabilidad mediante índices derivados de los sondeos termodinámicos.
 
@@ -163,6 +164,8 @@ La regla de oro para el examen y para la cabina: un índice aislado no decide na
 ::: {.callout-warning title="Seguridad"}
 TT > 55 o K > 25 combinado con CAPE > 2.500 J/kg señala alto riesgo de tormenta de evolución diurna. En estas condiciones, planifica el aterrizaje antes de las 16:00 h y ten siempre identificado un campo de aterrizaje alternativo en tierra antes de que se levante la convección.
 :::
+:::
+
 
 ::: {.postit}
 **Resumen del Capítulo: Termodinámica**

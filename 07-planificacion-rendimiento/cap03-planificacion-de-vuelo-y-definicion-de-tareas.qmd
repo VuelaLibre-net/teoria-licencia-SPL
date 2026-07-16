@@ -20,9 +20,10 @@ En el vuelo a vela, la velocidad media determina cuántos kilómetros puedes rec
 * **Consistencia**: mantener un flujo constante y aprovechar las calles de nubes para avanzar sin virar es lo que de verdad dispara la media.
 * **La ventana del día**: si el día ofrece 6 horas de convección y tu media es de 50 km/h, tu radio de acción real da para una tarea de unos 300 km. Intentar más es comprar papeletas para un aterrizaje fuera de campo.
 
+::: {.mas-alla}
 ## Triángulo FAI y AAT: dos formas de competir
 
-**↗ MÁS ALLÁ DEL EXAMEN.** Los tipos de tarea de competición (triángulo FAI, AAT) y la estrategia de regata no deberían ser materia de examen. Se incluyen porque son el paso natural del vuelo de distancia; léelos como iniciación.
+[**↗ MÁS ALLÁ DEL EXAMEN.**]{.mas-alla-tag} Los tipos de tarea de competición (triángulo FAI, AAT) y la estrategia de regata no deberían ser materia de examen. Se incluyen porque son el paso natural del vuelo de distancia; léelos como iniciación.
 
 Según el tipo de tarea, tu estrategia mental cambia por completo (@fig-07-cap03-fai-vs-aat).
 
@@ -30,6 +31,8 @@ Según el tipo de tarea, tu estrategia mental cambia por completo (@fig-07-cap03
 * **Tarea de área asignada (AAT)**: alrededor de cada punto hay un sector circular grande, y tú decides dónde virar dentro de él. Si el día está mejor de lo previsto, vete al fondo del área para sumar distancia; si se está cerrando, toca el borde más cercano y vuelve a casa antes de que se agote la térmica.
 
 ![Triángulo FAI con vértices fijos frente a tarea AAT con áreas asignadas](imagenes/07-cap03-fai-vs-aat.png){#fig-07-cap03-fai-vs-aat}
+:::
+
 
 ## Meteorología: tu motor invisible
 
