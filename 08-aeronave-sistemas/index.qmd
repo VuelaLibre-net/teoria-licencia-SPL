@@ -1,3 +1,1 @@
-# Conocimientos Generales de la Aeronave {.unnumbered}
-
-Bienvenido a la versión digitalizada de este manual de formación SPL.
+# Conocimientos Generales de la Aeronave {.unnumbered .unlisted .oculto}

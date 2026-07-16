@@ -1,3 +1,1 @@
-# Planificación y Rendimiento de Vuelo {.unnumbered}
-
-Bienvenido a la versión digitalizada de este manual de formación SPL.
+# Planificación y Rendimiento de Vuelo {.unnumbered .unlisted .oculto}

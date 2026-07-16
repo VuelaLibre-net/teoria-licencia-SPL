@@ -1,3 +1,1 @@
-# Navegación {.unnumbered}
-
-Bienvenido a la versión digitalizada de este manual de formación SPL.
+# Navegación {.unnumbered .unlisted .oculto}

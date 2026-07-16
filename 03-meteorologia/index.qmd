@@ -1,3 +1,1 @@
-# Meteorología {.unnumbered}
-
-Bienvenido a la versión digitalizada de este manual de formación SPL.
+# Meteorología {.unnumbered .unlisted .oculto}

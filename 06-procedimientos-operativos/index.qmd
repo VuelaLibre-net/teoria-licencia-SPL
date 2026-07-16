@@ -1,3 +1,1 @@
-# Procedimientos Operativos {.unnumbered}
-
-Bienvenido a la versión digitalizada de este manual de formación SPL.
+# Procedimientos Operativos {.unnumbered .unlisted .oculto}
