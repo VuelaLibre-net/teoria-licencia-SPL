@@ -35,6 +35,9 @@ dos se comprueban de un vistazo.
 
 Nada de esto altera lo que el lector aprende; el revisor puede saltárselo.
 
+* La banda azul de la portadilla crece si el título no cabe en una línea. Tenía altura fija y
+  el título del libro 8 la desbordaba, dejando la nota de estado y la versión pisándose fuera
+  del recuadro.
 * Se normalizan los títulos de capítulos, secciones, portadillas y apéndices a la capitalización
   propia del español.
 * Los entregables llevan ahora la versión y la fecha en el nombre

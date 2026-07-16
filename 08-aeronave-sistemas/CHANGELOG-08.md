@@ -28,6 +28,10 @@ los términos ingleses van en cursiva. El CI lo comprueba ahora en los 76 capít
 
 ### Cambiado
 
+* **Título del libro** — recupera su nombre completo, «Conocimientos Generales de la Aeronave,
+  Estructura, Sistemas y Equipo de Emergencia», que es lo que dicen su cubierta, su apéndice y
+  el AMC1 SFCL.130 (*aircraft general knowledge, airframe and systems and emergency
+  equipment*). El `title:` se comía media asignatura.
 * **Títulos de `cap01`, `cap11`, `cap12` y `cap14`** — «Estructura (*airframe*)», «Sistemas de
   lastre con agua (*water ballast systems*)», «Baterías (rendimiento y limitaciones
   operativas)» y «Equipo de evacuación de emergencia (*emergency bail-out aid*)».
@@ -39,6 +43,9 @@ los términos ingleses van en cursiva. El CI lo comprueba ahora en los 76 capít
 
 Nada de esto altera lo que el lector aprende; el revisor puede saltárselo.
 
+* La banda azul de la portadilla crece si el título no cabe en una línea. Tenía altura fija y
+  el título del libro 8 la desbordaba, dejando la nota de estado y la versión pisándose fuera
+  del recuadro.
 * Se normalizan los títulos de capítulos, secciones, portadillas y apéndices a la capitalización
   propia del español.
 * Los entregables llevan ahora la versión y la fecha en el nombre
