@@ -308,7 +308,7 @@
   }
 }
 
-#let book(title: "", subtitle: "", date: "", author: (), paper-size: "a4", width: none, height: none, margin: (inside: 3.5cm, outside: 2.5cm, top: 2.5cm, bottom: 2.5cm), logo: none, cover: none, cover-background: auto, image-index:none, body, main-color: blue, copyright: [], lang: "en", list-of-figure-title: none, list-of-table-title: none, supplement-chapter: "Chapter", supplement-part: "Part", font-size: 10pt, part-style: 0, part-font-size: auto, lowercase-references: false, padded-heading-number: true, outline-font-size: auto, outline-small-depth: 2, outline-small-width: 9.5cm, heading-style: 0, first-line-indent: false, outline-depth: 3, front-matter-end: "Introducción", version: none, fecha-actualizacion: none) = {
+#let book(title: "", subtitle: "", date: "", author: (), paper-size: "a4", width: none, height: none, margin: (inside: 3.5cm, outside: 2.5cm, top: 2.5cm, bottom: 2.5cm), logo: none, cover: none, cover-background: auto, image-index:none, body, main-color: blue, copyright: [], lang: "en", list-of-figure-title: none, list-of-table-title: none, supplement-chapter: "Chapter", supplement-part: "Part", font-size: 10pt, part-style: 0, part-font-size: auto, lowercase-references: false, padded-heading-number: true, outline-font-size: auto, outline-small-depth: 2, outline-small-width: 9.5cm, heading-style: 0, first-line-indent: false, outline-depth: 3, front-matter-end: "Introducción", version: none, fecha-actualizacion: none, cubierta: none, contracubierta: none) = {
 
   let supplement-chapter = if lang == "es" and supplement-chapter == "Chapter" { "Capítulo" } else { supplement-chapter }
   let supplement-part = if lang == "es" and supplement-part == "Part" { "Parte" } else { supplement-part }
@@ -557,6 +557,31 @@
 
   set underline(offset: 3pt)
 
+  // Cubierta: la imagen del diseño original, a sangre y a página completa.
+  //
+  // No se usa el parámetro `cover:` de orange-book: aquel la coloca como FONDO
+  // de la portadilla y pinta encima su banda con el título y el autor, que la
+  // imagen ya trae. Aquí la cubierta es una página propia y la portadilla queda
+  // detrás, como en un libro impreso.
+  //
+  // margin: 0pt y fit: "cover" para que sangre por los cuatro lados; sin folio
+  // ni encabezado, que en una cubierta no pintan nada.
+  //
+  // `cubierta` llega como CONTENIDO, no como ruta: dentro de un paquete typst
+  // las rutas se resuelven contra el propio paquete, así que un image("cover/
+  // frente.jpg") aquí buscaría el fichero en .quarto/typst/packages/... y no lo
+  // encontraría. La imagen se construye en typst-show.typ, que sí vive junto al
+  // documento. Es lo mismo que hace orange-book con `logo`.
+  if cubierta != none {
+    page(margin: 0pt, header: none, footer: none, numbering: none)[
+      #set image(width: 100%, height: 100%, fit: "cover")
+      #cubierta
+    ]
+    // El dorso de la cubierta va en blanco y la portadilla, en impar. Sin esto
+    // la portadilla caería en la página 2, que es un verso.
+    pagebreak(to: "odd", weak: false)
+  }
+
   // Title page.
   page(margin: 0cm, header: none)[
     #set text(fill: black)
@@ -688,5 +713,13 @@
 
   body
 
+  // Contracubierta: cierra el libro, a sangre igual que la cubierta.
+  // orange-book no contempla ninguna, así que la aporta el fork.
+  if contracubierta != none {
+    page(margin: 0pt, header: none, footer: none, numbering: none)[
+      #set image(width: 100%, height: 100%, fit: "cover")
+      #contracubierta
+    ]
+  }
 }
 

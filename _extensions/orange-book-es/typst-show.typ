@@ -19,6 +19,12 @@ $endif$
 $if(fecha-actualizacion)$
   fecha-actualizacion: "$fecha-actualizacion$",
 $endif$
+$if(cubierta)$
+  cubierta: image("$cubierta$"),
+$endif$
+$if(contracubierta)$
+  contracubierta: image("$contracubierta$"),
+$endif$
 $if(lang)$
   lang: "$lang$",
 $endif$

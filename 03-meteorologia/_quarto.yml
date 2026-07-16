@@ -5,6 +5,8 @@ project:
 lang: es
 version: "1.0.4"
 repo-url: "https://github.com/VuelaLibre-net/teoria-licencia-SPL"
+cubierta: "cover/frente.jpg"
+contracubierta: "cover/reverso.jpg"
 
 book:
   title: "Meteorología"
@@ -31,6 +33,7 @@ book:
     - glosario.qmd
     - bibliografia.qmd
     - colofon.qmd
+    - contracubierta.qmd
 
 format:
   orange-book-es-typst:
@@ -42,4 +45,5 @@ format:
       bottom: 2.5cm
   epub:
     toc: true
+    epub-cover-image: cover/frente.jpg
     include-in-header: _extensions/orange-book-es/epub-estilos.html
