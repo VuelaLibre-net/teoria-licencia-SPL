@@ -253,6 +253,26 @@ jobs:
             echo "::error file=$epub::El EPUB no lleva contracubierta"
             errores=1
           fi
+
+          # Estado editorial, igual que en el PDF. El EPUB no admite marca de
+          # agua, así que el aviso va como bloque al principio; pero tiene que
+          # estar: quien descargue un EPUB debe saber si el libro está terminado.
+          libro=$(basename "$epub" .epub)
+          version=$(sed -n 's/^version: *"\{0,1\}\([^"]*\)"\{0,1\}/\1/p' "$libro/_quarto.yml" | head -1)
+          mayor=${version%%.*}
+          case "$version" in *-*) pre=1 ;; *) pre=0 ;; esac
+          etiquetas='En revisión|Creando ilustraciones|En desarrollo'
+          if [ "${mayor:-0}" -ge 1 ] 2>/dev/null && [ "$pre" -eq 0 ]; then
+            if grep -qE "$etiquetas" <<<"$texto"; then
+              echo "::error file=$epub::Versión $version es un libro completado y no debe llevar aviso de estado"
+              errores=1
+            fi
+          else
+            if ! grep -qE "$etiquetas" <<<"$texto"; then
+              echo "::error file=$epub::Versión $version no está completada y el EPUB no lleva su aviso de estado"
+              errores=1
+            fi
+          fi
         done
 
         pdfs=$(ls build/pdf/*.pdf 2>/dev/null | wc -l)
