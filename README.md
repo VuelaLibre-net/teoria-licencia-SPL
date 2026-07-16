@@ -103,6 +103,17 @@ Los archivos finales se guardarán en:
 - `build/pdf/` - PDFs de alta calidad listos para impresión o consulta digital (Typst).
 - `build/epub/` - Libros electrónicos adaptados para e-readers (Pandoc).
 
+Cada entregable lleva en el nombre **el libro, su versión y su fecha** (`yy-mm-dd`), de modo que un
+fichero descargado se identifica sin abrirlo y dos versiones del mismo libro no se pisan:
+
+```
+build/pdf/09-navegacion-0.8.1-26-07-16.pdf
+build/epub/09-navegacion-0.8.1-26-07-16.epub
+```
+
+La fecha es la del último commit que tocó el libro —la misma que figura en su colofón—, no la de
+compilación: así el nombre sólo cambia cuando cambia el libro.
+
 ### Compilar un libro individual
 Puedes compilar una única asignatura especificando su nombre de directorio. Por ejemplo:
 ```bash

@@ -178,6 +178,25 @@ jobs:
     - name: Verificar los entregables
       run: |
         errores=0
+
+        # Los entregables se llaman <libro>-<versión>-<yy-mm-dd>.pdf, así que el
+        # nombre del fichero ya NO es el del directorio del libro. Partirlo por
+        # guiones no vale: el slug del libro lleva guiones y la versión también
+        # (1.0-rc.5). Se resuelve contra los directorios que existen, que es la
+        # única fuente cierta.
+        #
+        # Devolver el libro equivocado —o vacío— no daría error: los guardianes
+        # leerían un _quarto.yml inexistente, se quedarían con la versión vacía
+        # y evaluarían el estado contra la nada, en verde.
+        libro_de() {
+          base=$(basename "$1")
+          for d in 0*/; do
+            d=${d%/}
+            case "$base" in "$d"-*) echo "$d"; return 0 ;; esac
+          done
+          return 1
+        }
+
         for pdf in build/pdf/*.pdf; do
           texto=$(pdftotext "$pdf" - 2>/dev/null)
 
@@ -237,7 +256,7 @@ jobs:
           #
           # Completado = mayor >= 1 y sin sufijo de pre-lanzamiento: un 1.0-rc.4
           # es ANTERIOR a la 1.0.0, no posterior.
-          libro=$(basename "$pdf" .pdf)
+          libro=$(libro_de "$pdf") || { echo "::error::No sé a qué libro corresponde $pdf"; errores=1; continue; }
           version=$(sed -n 's/^version: *"\{0,1\}\([^"]*\)"\{0,1\}/\1/p' "$libro/_quarto.yml" | head -1)
           mayor=${version%%.*}
           case "$version" in *-*) pre=1 ;; *) pre=0 ;; esac
@@ -373,7 +392,7 @@ jobs:
           # Estado editorial, igual que en el PDF. El EPUB no admite marca de
           # agua, así que el aviso va como bloque al principio; pero tiene que
           # estar: quien descargue un EPUB debe saber si el libro está terminado.
-          libro=$(basename "$epub" .epub)
+          libro=$(libro_de "$epub") || { echo "::error::No sé a qué libro corresponde $epub"; errores=1; continue; }
           version=$(sed -n 's/^version: *"\{0,1\}\([^"]*\)"\{0,1\}/\1/p' "$libro/_quarto.yml" | head -1)
           mayor=${version%%.*}
           case "$version" in *-*) pre=1 ;; *) pre=0 ;; esac

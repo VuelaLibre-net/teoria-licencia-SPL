@@ -39,12 +39,40 @@ all: $(LIBROS)
 # $((10#08)) (bashismos). `expr` interpreta los ceros a la izquierda en decimal,
 # que es justo lo que hace falta para los meses 01-09.
 MESES = enero febrero marzo abril mayo junio julio agosto septiembre octubre noviembre diciembre
-fecha_libro = $$(iso=$$(git log -1 --format=%cs -- $(1)/ 2>/dev/null || date +%F); \
+
+# La extracción de la versión y la fecha se escriben UNA vez y se usan de dos
+# maneras: dentro de las recetas (donde make deja que las expanda el shell) y al
+# parsear el Makefile (donde hacen falta ya resueltas, para construir el nombre
+# del fichero). Compartir el patrón evita que las dos formas divierjan, que es
+# el modo de fallo habitual aquí: divergen y todo sigue compilando.
+SED_VERSION = sed -n 's/^version: *"\{0,1\}\([^"]*\)"\{0,1\}/\1/p'
+GIT_FECHA_ISO = git log -1 --format=%cs --
+
+fecha_libro = $$(iso=$$($(GIT_FECHA_ISO) $(1)/ 2>/dev/null || date +%F); \
 	y=$$(echo $$iso | cut -d- -f1); m=$$(echo $$iso | cut -d- -f2); d=$$(echo $$iso | cut -d- -f3); \
 	set -- $(MESES); shift $$(expr $$m - 1); \
 	echo "$$(expr $$d + 0) de $$1 de $$y")
 version_quarto = $$(quarto --version 2>/dev/null || echo "?")
-version_libro = $$(sed -n 's/^version: *"\{0,1\}\([^"]*\)"\{0,1\}/\1/p' $(1)/_quarto.yml | head -1)
+version_libro = $$($(SED_VERSION) $(1)/_quarto.yml | head -1)
+
+# --- NOMBRE DE LOS ENTREGABLES ---
+# Los ficheros llevan versión y fecha: `09-navegacion-0.8.1-26-07-16.pdf`. Los
+# dos datos están dentro del libro (portadilla y colofón), pero un PDF
+# descargado se identifica por su nombre sin llegar a abrirlo, y así dos
+# versiones del mismo libro no se pisan en la carpeta de descargas.
+#
+# La fecha es la MISMA del colofón —el último commit que tocó el libro—, no la
+# de compilación: si fuera la de compilación, el nombre cambiaría en cada build
+# sin que el libro hubiera cambiado, y dejaría de identificar nada.
+#
+# Estas versiones se resuelven al parsear (`$(shell ...)`) porque forman parte
+# del nombre del objetivo, y make necesita saberlo antes de decidir qué hacer.
+version_de = $(shell $(SED_VERSION) $(1)/_quarto.yml | head -1)
+fecha_corta_de = $(shell iso=$$($(GIT_FECHA_ISO) $(1)/ 2>/dev/null); \
+	[ -n "$$iso" ] || iso=$$(date +%F); echo "$${iso#??}")
+sufijo_de = $(call version_de,$(1))-$(call fecha_corta_de,$(1))
+pdf_de = $(PDF_OUT)/$(1)-$(call sufijo_de,$(1)).pdf
+epub_de = $(EPUB_OUT)/$(1)-$(call sufijo_de,$(1)).epub
 
 # Estado editorial del libro, deducido de su versión. Se calcula AQUÍ y no en
 # Typst porque el Makefile es el único punto por el que pasan los dos formatos:
@@ -71,32 +99,41 @@ nota_libro = $$(case "$(call estado_libro,$(1))" in \
 	"En desarrollo") echo "Texto e ilustraciones en elaboración. Contenido provisional, sujeto a cambios." ;; \
 	*) echo "" ;; esac)
 
-# Compila el PDF del libro usando Typst via Quarto
-$(PDF_OUT)/%.pdf: %/index.qmd
+# Las reglas se generan una por libro, y no como regla de patrón, porque el
+# nombre del entregable ya no se deduce del nombre del libro: lleva la versión y
+# la fecha, que hay que resolver leyendo el _quarto.yml y git.
+#
+# Cualquier opción que se pase a `quarto render` hay que ponerla en las DOS
+# recetas, la del PDF y la del EPUB. Nueve EPUB se publicaron con los shortcodes
+# del colofón sin resolver por añadir --metadata sólo a una.
+define reglas_de_libro
+$(call pdf_de,$(1)): $(1)/index.qmd
 	@mkdir -p $(PDF_OUT)
-	@echo "==> [Quarto] Renderizando PDF (Typst) para $*..."
-	quarto render $*/ --to orange-book-es-typst \
-	  --metadata fecha-actualizacion="$(call fecha_libro,$*)" \
-	  --metadata version-quarto="$(call version_quarto)" \
-	  --metadata estado="$(call estado_libro,$*)" \
-	  --metadata estado-nota="$(call nota_libro,$*)"
-	@mv $*/_book/*.pdf $@
-	@echo "✓ PDF generado en $@"
+	@echo "==> [Quarto] Renderizando PDF (Typst) para $(1)..."
+	quarto render $(1)/ --to orange-book-es-typst \
+	  --metadata fecha-actualizacion="$$(call fecha_libro,$(1))" \
+	  --metadata version-quarto="$$(call version_quarto)" \
+	  --metadata estado="$$(call estado_libro,$(1))" \
+	  --metadata estado-nota="$$(call nota_libro,$(1))"
+	@mv $(1)/_book/*.pdf $$@
+	@echo "✓ PDF generado en $$@"
 
-# Compila el EPUB del libro usando Pandoc via Quarto
-$(EPUB_OUT)/%.epub: %/index.qmd
+$(call epub_de,$(1)): $(1)/index.qmd
 	@mkdir -p $(EPUB_OUT)
-	@echo "==> [Quarto] Renderizando EPUB para $*..."
-	quarto render $*/ --to epub \
-	  --metadata fecha-actualizacion="$(call fecha_libro,$*)" \
-	  --metadata version-quarto="$(call version_quarto)" \
-	  --metadata estado="$(call estado_libro,$*)" \
-	  --metadata estado-nota="$(call nota_libro,$*)"
-	@mv $*/_book/*.epub $@
-	@echo "✓ EPUB generado en $@"
+	@echo "==> [Quarto] Renderizando EPUB para $(1)..."
+	quarto render $(1)/ --to epub \
+	  --metadata fecha-actualizacion="$$(call fecha_libro,$(1))" \
+	  --metadata version-quarto="$$(call version_quarto)" \
+	  --metadata estado="$$(call estado_libro,$(1))" \
+	  --metadata estado-nota="$$(call nota_libro,$(1))"
+	@mv $(1)/_book/*.epub $$@
+	@echo "✓ EPUB generado en $$@"
 
-# Regla estática para cada libro de la lista
-$(LIBROS): %: $(PDF_OUT)/%.pdf $(EPUB_OUT)/%.epub
+.PHONY: $(1)
+$(1): $(call pdf_de,$(1)) $(call epub_de,$(1))
+endef
+
+$(foreach libro,$(LIBROS),$(eval $(call reglas_de_libro,$(libro))))
 
 # --- UTILIDADES ---
 
