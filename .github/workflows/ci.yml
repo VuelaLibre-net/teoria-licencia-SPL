@@ -306,6 +306,20 @@ jobs:
             errores=1
           fi
 
+          # Un EPUB es XHTML y debe estar bien formado como XML. No es una
+          # formalidad: un parser XML SÍ interpreta las etiquetas dentro de
+          # <style>, al revés que HTML5, que lo trata como texto. Un `<div…>`
+          # escrito dentro de un comentario CSS abre un elemento que nunca
+          # cierra y deja el documento mal formado.
+          #
+          # Nueve EPUB se publicaron así. Quarto compilaba sin rechistar, y el
+          # resto de guardianes miran $texto, del que sed ya ha quitado las
+          # etiquetas: ninguno podía verlo.
+          if ! python3 "$GITHUB_WORKSPACE/.github/comprobar-xml.py" "$epub"; then
+            echo "::error file=$epub::XHTML mal formado; un lector estricto puede rechazarlo"
+            errores=1
+          fi
+
           if [ "${#texto}" -lt 1000 ]; then
             echo "::error file=$epub::No se pudo extraer texto (${#texto} bytes); la verificación no sería concluyente"
             errores=1

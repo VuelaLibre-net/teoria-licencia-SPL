@@ -7,7 +7,7 @@
 /* Estilos del EPUB.
  *
  * Los mismos divs que en el PDF compone la extensión Typst (postit, dedicatoria,
- * epigrafe, licencia, colofon) llegan aquí como <div class="..."> porque el
+ * epigrafe, licencia, colofon) llegan aquí como un div con esa clase porque el
  * filtro postit.lua sólo se declara en el formato typst. Este fichero les da un
  * aspecto equivalente en el EPUB.
  *
@@ -69,10 +69,35 @@ div.licencia {
   font-size: 0.9em;
 }
 
+/* Marca «Más allá del examen»: la sección avanzada entera —encabezado y
+ * subsecciones— sobre gris, para que se vea de un golpe qué no es materia de
+ * examen. Mismo gris que el PDF (luma 243).
+ *
+ * Se estilan `section` y `div` porque el div de Pandoc se funde con la sección
+ * al escribir HTML: `::: {.mas-alla}` + `## Título` sale como
+ * un elemento section con esa clase, no un div dentro. Con sólo `div.mas-alla`
+ * el EPUB se quedaría sin fondo, en silencio. */
+section.mas-alla,
+div.mas-alla {
+  background-color: #f3f3f3;
+  border-radius: 2px;
+  padding: 0.6em 0.9em;
+  margin: 1.2em 0;
+}
+
+/* La entradilla: violeta y cuerpo menor, como el rol `mas-alla-tag` del tema
+ * AsciiDoc original. Es un color distinto de los cuatro de las admonitions a
+ * propósito, para que no se confunda con ellas. */
+.mas-alla-tag {
+  color: #6a1b9a;
+  font-weight: bold;
+  font-size: 0.85em;
+}
+
 /* Créditos de los reconocimientos: nombre destacado y, debajo y sangradas, las
- * titulaciones. Pandoc emite la lista de definición como <dl>/<dt>/<dd>, así
+ * titulaciones. Pandoc emite la lista de definición como dl/dt/dd, así
  * que aquí no hace falta marcado propio: sólo darle el mismo aspecto que en el
- * PDF. El <dd> ya viene sangrado por el navegador; se fija el margen para no
+ * PDF. El dd ya viene sangrado por el navegador; se fija el margen para no
  * depender de su valor por defecto. */
 div.creditos dt {
   font-weight: 600;
