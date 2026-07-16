@@ -166,6 +166,7 @@ Un valor de SpO~2~ por debajo del **90%** indica hipoxia franca y requiere acci�
 Registre sus valores de SpO~2~ a distintas altitudes durante los vuelos habituales (a 3.000 m, a 5.000 m) para conocer su respuesta individual y tener referencias personales. No todos los pilotos responden igual a la altitud.
 :::
 
+::: {.postit}
 **Resumen del capítulo: Uso de oxígeno**
 
 * **Leyes de los gases:** La presión atmosférica disminuye con la altitud (ley de Dalton), reduciendo la capacidad del oxígeno para transferirse a la sangre. Los gases corporales se expanden al ascender (ley de Boyle); no vuele con congestión nasal intensa para evitar barotraumas dolorosos.
@@ -178,3 +179,5 @@ Registre sus valores de SpO~2~ a distintas altitudes durante los vuelos habitual
 * **Seguridad del equipo:** No use grasas ni cremas cerca de conexiones de oxígeno: riesgo de combustión explosiva. Verifique la presión de la botella antes de cada vuelo (entre 150 y 200 bar).
 * **Hiperventilación:** Causada por estrés o ansiedad, no por falta de oxígeno. Al exhalar CO~2~ en exceso, los vasos cerebrales se contraen, produciendo síntomas similares a la hipoxia (hormigueo, calambres, mareo). Tratamiento: reducir el ritmo respiratorio, hablar en voz alta o reinhalar CO~2~ cubriendo parcialmente la boca.
 * **Pulsioxímetro:** Mantenga la saturación (SpO~2~) por encima del **90%**; por debajo de ese umbral, active el oxígeno y descienda de inmediato.
+:::
+

@@ -51,6 +51,7 @@ Lleva siempre fusibles de repuesto en el bolsillo de la cabina. Si uno se funde 
 
 ![Diagrama del sistema eléctrico básico y ubicación de la batería](imagenes/08-cap12-sistema-electrico.jpg){#fig-08-cap12-sistema-electrico}
 
+::: {.postit}
 **Resumen del capítulo: baterías y sistema eléctrico**
 
 * **Tipos**: plomo-ácido/gel (pesadas, robustas, baratas) frente a LiFePO4 (ligeras, voltaje constante, cargador específico).
@@ -58,3 +59,5 @@ Lleva siempre fusibles de repuesto en el bolsillo de la cabina. Si uno se funde 
 * **Efecto del frío**: las baterías pierden capacidad de golpe con el frío. Una que parece llena en tierra puede morirse rápido en onda a -20 ºC.
 * **Vuelo en nubes**: despega con las baterías prácticamente llenas. Sin referencias visuales, los instrumentos son tu vida, y ninguna norma te salvará de una batería vacía dentro de una nube.
 * **Fijación**: la batería es un proyectil de varios kilos. Su soporte debe aguantar 15g hacia delante (CS 22.561). Comprueba que su "cinturón de seguridad" está apretado y bloqueado antes de cada vuelo.
+:::
+

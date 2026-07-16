@@ -237,6 +237,7 @@ El vuelo a vela de competición está regulado internacionalmente y se somete a 
 Para volar en campeonatos bajo un tratamiento médico sin arriesgarte a una descalificación (hay controles al aterrizar), debes justificar la medicación tramitando previamente una **Autorización de Uso Terapéutico (AUT / TUE)**. Este documento oficial eximirá al competidor de sanciones en controles antidopaje deportivos.
 :::
 
+::: {.postit}
 **Resumen del capítulo: Fisiología aeronáutica**
 
 * **Aptitud IMSAFE:** Revise el estado con la lista **Illness**, **Medication**, **Stress**, **Alcohol**, **Fatigue**, **Eating** antes del despegue. Ante dudas, cancele el vuelo (**NO-GO**). Si concurren problemas médicos importantes, consulte a un médico examinador aéreo (AME).
@@ -248,3 +249,5 @@ Para volar en campeonatos bajo un tratamiento médico sin arriesgarte a una desc
 * **Deshidratación:** La cabina cerrada es un invernadero y se pierden líquidos rápidamente. Cuando siente sed, ya tiene un déficit que merma las capacidades cognitivas. Beba agua regularmente desde el despegue para anticiparse a los dolores de cabeza o a un mortal golpe de calor.
 * **Fatiga:** El cansancio bloquea el tiempo de reacción y nubla la toma de decisiones. El café o una bebida no previenen sus efectos ocultos sobre la atención. La fatiga solo se cura de una manera: durmiendo para dar pie al necesario descanso reparador.
 * **Normativa EASA, medicación y alcohol:** La regla no tiene excepciones: **«de la botella al mando»**, 8 horas sin alcohol y alcoholemia inferior a 0,2 g/l (AMC1 SAO.GEN.130(f)). No se automedique; hasta las inocentes pastillas de la alergia o del mareo adormecen de forma incapacitante para volar.
+:::
+

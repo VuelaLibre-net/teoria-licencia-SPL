@@ -73,9 +73,12 @@ Estas formaciones son la prueba visible de un flujo laminar constante interactua
 Bajo la zona de onda, a baja altura, se esconde el **rotor**: un cilindro de turbulencia giratoria muy violento que se delata visualmente por fractocúmulos deshilachados e inestables. Si haces un remolque en zona de onda, el avión remolcador zarandeará con fuerza al atravesar el rotor. Mantén siempre altura suficiente para evitarlo y sigue las indicaciones del piloto remolcador en todo momento.
 :::
 
+::: {.postit}
 **Resumen del Capítulo: Nubes y Niebla**
 
 * **Significado de las nubes**: Para el piloto de planeador, las nubes son el mapa del cielo. Los **Cúmulos (Cu)** pequeños y algodónosos son nuestros mejores amigos (marcan térmicas). Los **Cirros** altos suelen anunciar un frente (mal tiempo en 24-48h).
 * **Peligro de Desarrollo Vertical**: Si un cúmulo crece mucho verticalmente (**Cu congestus**), vigílalo de cerca. Si pasa a **Cumulonimbus (Cb)**, aléjate millas: hay turbulencia severa, granizo y rayos que pueden destruir el planeador.
 * **Niebla vs Neblina**: Ambas reducen la visibilidad. La niebla (< 1 km) es crítica para el aterrizaje y despegue. Hay dos tipos frecuentes: la **de radiación** (noches frías y despejadas, suele disiparse con el sol por la mañana) y la **de advección** (aire cálido sobre superficie fría, puede presentarse a cualquier hora y no depende de la noche).
 * **Nubes Lenticulares**: Tienen forma de lenteja o platillo y se quedan "quietas" aunque sople mucho viento. Indican **Onda de Montaña**, un fenómeno que permite subir muy alto pero advierte de turbulencia (rotores) muy peligrosa a baja altura.
+:::
+

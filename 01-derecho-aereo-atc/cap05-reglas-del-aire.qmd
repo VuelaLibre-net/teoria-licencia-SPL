@@ -76,6 +76,7 @@ Si tiene motor, te cede el paso. Si es un globo, tú cedes.
 Si vais de frente, **siempre a la derecha**.
 :::
 
+::: {.postit}
 **Resumen del Capítulo: Reglas del Aire**
 
 El reglamento **SERA** es el código de circulación del cielo:
@@ -83,3 +84,5 @@ El reglamento **SERA** es el código de circulación del cielo:
 * **VFR**: volamos viendo y siendo vistos. Ojos fuera.
 * **Prioridad de paso**: globos > planeadores > motor (cede quien más maniobra tiene). En convergencia, paso para el que viene por la derecha. En ladera, prioridad para quien lleva la montaña a su derecha. En aterrizaje, el velero más bajo manda, y los planeadores tienen preferencia sobre los aviones a motor.
 * **Alturas mínimas**: 150 m en general, 300 m sobre zonas pobladas. Los planeadores pueden volar más bajo en ladera (sin riesgo para personas o bienes) y bajar hasta 50 m entrenando tomas fuera de campo, a 150 m de personas y vehículos.
+:::
+

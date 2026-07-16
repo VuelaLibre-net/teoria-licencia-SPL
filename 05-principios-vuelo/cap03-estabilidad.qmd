@@ -68,6 +68,7 @@ La deriva actúa exactamente como una veleta. Al estar situada a gran distancia 
 
 ![Efecto veleta: la deriva realinea el morro con el viento relativo](imagenes/05-cap03-efecto-veleta.png){#fig-05-cap03-efecto-veleta}
 
+::: {.postit}
 **Resumen del Capítulo: Estabilidad**
 
 * **Estabilidad estática**: es la tendencia inicial. Si sueltas los mandos tras un bache y el avión tiende a volver a su posición original, es estable. Si tiende a alejarse más (divergencia), es inestable y peligroso.
@@ -75,3 +76,5 @@ La deriva actúa exactamente como una veleta. Al estar situada a gran distancia 
 * **El CG es el rey**: la posición del centro de gravedad determina la estabilidad longitudinal. CG adelantado = muy estable pero "pesado". CG atrasado = muy sensible e inestable (riesgo de barrena plana irrecuperable).
 * **Estabilidad lateral (diedro)**: la forma en "V" de las alas ayuda a nivelar el avión solo. Si un ala baja, el diedro hace que tenga más ángulo de ataque efectivo y suba.
 * **Estabilidad direccional**: la deriva (cola vertical) actúa como una veleta, manteniendo el morro apuntando al viento relativo y evitando el vuelo cruzado.
+:::
+

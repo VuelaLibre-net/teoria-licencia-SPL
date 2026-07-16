@@ -93,6 +93,7 @@ En la práctica: de día y en VFR bastan un reloj de pulsera, el altímetro y el
 
 Queda un procedimiento operativo del syllabus que esta colección desarrolla en otros volúmenes: el **plan de vuelo**. Su operativa por radio está en el **Libro 4 — Comunicaciones** (cap. 3), el formulario OACI casilla a casilla en el **Libro 7 — Planificación** (cap. 4) y su relación con los servicios ATS en el **Libro 9 — Navegación** (cap. 7).
 
+::: {.postit}
 **Resumen del Capítulo: Procedimientos para la Navegación**
 
 * **Mínimos VMC**: regla general, 5 km de visibilidad y nubes a 1.500 m en horizontal / 1.000 ft en vertical. Por debajo de 3.000 ft AMSL (o 1.000 ft AGL) en espacio no controlado basta con 5 km, libre de nubes y suelo a la vista; y volando a menos de 140 kt, la visibilidad puede reducirse a 1.500 m. Por encima de FL 100, 8 km.
@@ -101,3 +102,5 @@ Queda un procedimiento operativo del syllabus que esta colección desarrolla en 
 * **Oxígeno**: según SAO.OP.150, el comandante debe garantizar su uso cuando determine que la falta de oxígeno puede disminuir las facultades o ser dañina. Si no puede valorar ese efecto, el AMC1 SAO.OP.150 fija la regla por defecto: usar oxígeno por encima de 10.000 ft. Fisiológicamente, conéctalo antes.
 * **Pre-vuelo (SAO.GEN.130)**: antes de iniciar el vuelo, el piloto al mando comprueba que el planeador es aeronavegable, está matriculado y lleva los instrumentos y equipos necesarios instalados y operativos; también verifica masa, centrado, estiba y límites del AFM.
 * **Instrumentos mínimos (SAO.IDE.105)**: hora, altitud de presión y velocidad indicada; los TMG añaden rumbo magnético. En nube o de noche: velocidad vertical, actitud o viraje/resbale, y rumbo magnético.
+:::
+

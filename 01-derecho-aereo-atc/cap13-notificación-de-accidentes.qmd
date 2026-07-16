@@ -47,9 +47,12 @@ Si sufres o presencias un accidente:
 2. Después: **NO TOQUES NADA**. Preservar los restos es vital para la investigación de la CIAIAC. Solo muévelos si es imprescindible para sacar a víctimas o evitar un incendio.
 :::
 
+::: {.postit}
 **Resumen del Capítulo: Accidentes e Incidentes**
 
 * **Accidente**: hay lesiones mortales o graves, daños estructurales al avión, o la aeronave desaparece o queda inaccesible.
 * **Incidente grave**: las circunstancias indican que hubo alta probabilidad de accidente, o el suceso puso (o pudo poner) en peligro la seguridad de la operación.
 * **Obligación**: comunicarlo **sin demora** a la **CIAIAC**; notificar el suceso a **AESA** en un plazo máximo de **72 horas**.
 * **Pruebas**: no toques nada, salvo para salvar vidas o evitar otro peligro. Preservar los restos es vital para la investigación.
+:::
+

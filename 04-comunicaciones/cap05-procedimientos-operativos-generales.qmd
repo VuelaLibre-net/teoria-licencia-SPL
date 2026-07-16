@@ -152,6 +152,7 @@ Las radios VHF aeronáuticas van de **118 MHz a 136,975 MHz** con modulación de
 
 Los detalles técnicos y la normativa sobre el espaciado de canales VHF se desarrollan en el capítulo 9. Como regla práctica para la operación: compruebe que su equipo es **8,33 kHz compliant** antes de volar — una radio de 25 kHz no puede sintonizar la mayoría de frecuencias modernas del ATC europeo. En la práctica, ese requisito se reconoce por el marcado **ETSO-C169a**, el estándar técnico europeo que certifica una radio VHF para el espaciado de 8,33 kHz.
 
+::: {.postit}
 **Resumen del Capítulo: Procedimientos Operativos Generales**
 
 * **Esquema de llamada**: A quién → Quién soy → Dónde estoy → Qué necesito. Al colacionar, el indicativo va al final. En autoinformación, el indicativo va al principio.
@@ -162,3 +163,5 @@ Los detalles técnicos y la normativa sobre el espaciado de canales VHF se desar
 * **Prioridad de mensajes**: SOCORRO (Mayday) tiene prioridad absoluta e impone silencio total; URGENCIA (Pan Pan) pide prioridad sin exigir ese silencio. Ante un Mayday ajeno, calla salvo que puedas asistir o retransmitir.
 * **Técnica de micrófono**: Micrófono cerca de los labios pero sin tocarlos. Volumen normal y constante. Gritar satura la señal y reduce la inteligibilidad.
 * **Equipos de radio**: Panel (6–10 W, antena exterior) o portátil (1–5 W, respaldo). Obligatorio espaciado 8,33 kHz (Reglamento UE 1079/2012); el marcado **ETSO-C169a** certifica que la radio cumple esa canalización.
+:::
+

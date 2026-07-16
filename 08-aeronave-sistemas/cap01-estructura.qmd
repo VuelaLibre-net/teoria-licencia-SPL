@@ -86,6 +86,7 @@ No te lances nunca en torno con el gancho de morro. Al quedar el enganche por de
 El gancho de remolque es un mecanismo con desgaste y con revisiones propias: los Tost tienen una vida limitada en años y en número de lanzamientos, y al cumplirla deben revisarse o sustituirse según el manual del fabricante. En la inspección prevuelo, acciona la suelta con el cable de pruebas y comprueba que el gancho abre y cierra con franqueza, sin agarrotamientos.
 :::
 
+::: {.postit}
 **Resumen del capítulo: estructura (airframe)**
 
 * **Materiales**: la mayoría, de fibra de vidrio y de carbono (composite) por su resistencia y su acabado liso. Los clásicos, de madera y tela. El metal es raro en planeadores puros (salvo el Blaník).
@@ -94,3 +95,5 @@ El gancho de remolque es un mecanismo con desgaste y con revisiones propias: los
 * **Estructura sándwich**: dos capas duras con un núcleo ligero (espuma o nido de abeja). Muy rígida y ligera, pero delicada ante los golpes puntuales.
 * **Cúpula**: pestillos bloqueados antes de despegar, suelta de emergencia localizada y plexiglás limpio solo con agua y paños adecuados.
 * **Gancho de remolque**: morro para avión, CG para torno (lo manda el AFM). Nunca torno con el gancho de morro: tira del morro al suelo y sobrecarga la cola. El de CG tiene suelta automática (**back-release**). Comprueba su funcionamiento en la inspección diaria.
+:::
+

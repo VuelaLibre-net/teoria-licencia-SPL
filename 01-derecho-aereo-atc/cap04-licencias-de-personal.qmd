@@ -60,6 +60,7 @@ Y una vez cumplido eso, hay un requisito de recencia: **3 lanzamientos en los ú
 Reglamentos (UE) 2018/1976 y 2020/358 (SFCL.115): el titular de una SPL solo transportará pasajeros si, tras obtener la licencia, ha completado 10 horas de vuelo o 30 lanzamientos como PIC **y un vuelo de entrenamiento demostrando la competencia a un FI(S)** (o posee certificado FI(S)), además de cumplir la recencia de SFCL.160(e). El incumplimiento implica sanción y pérdida de cobertura del seguro.
 :::
 
+::: {.postit}
 **Resumen del Capítulo: Licencias**
 
 Para pilotar legalmente necesitas tres cosas:
@@ -68,3 +69,5 @@ Para pilotar legalmente necesitas tres cosas:
 * **Certificado médico**: Clase 2 o LAPL. Sin médico en vigor, la licencia es papel mojado.
 * **Experiencia reciente**: en los últimos 24 meses, 5 horas de vuelo (como PIC, doble mando o con FI(S)), 15 lanzamientos y 2 vuelos de entrenamiento con un FI(S). Si no llegas, vuela con instructor hasta cumplirlos o supera una verificación de competencia con un FE(S).
 * **Pasajeros**: requieren experiencia extra (10 h o 30 lanzamientos tras la licencia), un vuelo de entrenamiento con un FI(S) demostrando competencia (salvo que ya seas FI(S)) y 3 lanzamientos en los últimos 90 días.
+:::
+

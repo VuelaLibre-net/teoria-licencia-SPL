@@ -73,6 +73,7 @@ La unidad de control electrónica (como el ILEC) gestiona las RPM y las temperat
 
 ![Esquema de un planeador con motor retráctil en posición de funcionamiento](imagenes/08-cap10-motor-retractil.jpg){#fig-08-cap10-motor-retractil}
 
+::: {.postit}
 **Resumen del capítulo: motoveleros y sistemas retráctiles**
 
 * **Complejidad**: un motor añade peso, complejidad y modos de fallo. El arranque en vuelo consume altura; por eso la cota mínima para intentarlo son 300 m (ver **Libro 6 — Procedimientos operativos**, capítulo 2).
@@ -80,3 +81,5 @@ La unidad de control electrónica (como el ILEC) gestiona las RPM y las temperat
 * **Shock cooling**: no pares el motor de golpe tras una subida a plena potencia. Déjalo enfriar al ralentí, o planeando con el motor fuera unos minutos, para evitar grietas en la culata.
 * **Hélice**: asegúrate de que está frenada y vertical antes de retraer. El espejo es tu amigo. Paso fijo o paso variable (velocidad constante), según el modelo.
 * **Motor de combustión**: el encendido por magnetos es independiente de la batería (para pararlo, se pone a masa el primario). Vigila el engelamiento del carburador (−7 a +21 °C con humedad; primer síntoma, caída de RPM) y drena el combustible antes de volar.
+:::
+

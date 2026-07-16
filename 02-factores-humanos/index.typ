@@ -398,6 +398,43 @@
 #show terms.item: it => block(breakable: false, below: 0.95em, width: 100%)[
   #text(weight: "bold")[#it.term]#h(0.35em)#sym.dash.em#h(0.35em)#_glosario-descripcion(it.description)
 ]
+// Resumen de capítulo con aspecto de post-it, como en el AsciiDoc original.
+//
+// Colores tomados literalmente del tema de origen
+// (aesa-spl-oficial/recursos/temas/pdf-theme.yml, rol `postit`):
+//   fondo #FFF9C4, borde #FBC02D 1pt, radio 4pt, texto #5D4037 a 10.5pt.
+//
+// La única desviación es la fuente. El tema pedía Roboto; aquí se usa Libertinus
+// Sans, que viaja dentro de Typst. Roboto está en la máquina de desarrollo pero
+// no en el runner del CI, y Typst no falla ante una fuente ausente: cae a otra
+// en silencio, con lo que los entregables oficiales saldrían distintos sin que
+// nadie se entere. Libertinus Sans mantiene el contraste de palo seco contra el
+// cuerpo en serifa y renderiza igual en cualquier sitio.
+//
+// El bloque es partible a propósito: algunos resúmenes no caben en una página y
+// un bloque no partible se saldría del papel.
+
+#let postit(body) = block(
+  fill: rgb("#FFF9C4"),
+  stroke: 1pt + rgb("#FBC02D"),
+  radius: 4pt,
+  inset: 0.6cm,
+  width: 100%,
+  above: 1.4em,
+  below: 1.4em,
+  breakable: true,
+  {
+    // El cuerpo hereda la sangría de primera línea, que dentro de una caja
+    // descoloca el primer renglón contra el borde.
+    set par(first-line-indent: 0em)
+    text(
+      font: "Libertinus Sans",
+      size: 10.5pt,
+      fill: rgb("#5D4037"),
+      body,
+    )
+  },
+)
 #import "@preview/fontawesome:0.5.0": *
 #let brand-color = (:)
 #let brand-color-background = (:)
@@ -446,59 +483,6 @@
 #heading(level: 1, numbering: none)[Factores Humanos]
 <factores-humanos>
 Bienvenido a la versión digitalizada de este manual de formación SPL.
-
-#heading(level: 1, numbering: none)[Información Legal y Licencia]
-<información-legal-y-licencia>
-#strong[Atribución y Fuentes]
-
-#quote(block: true)[
-El #strong[temario de esta colección ---el índice--- está avalado por AESA] (Agencia Estatal de Seguridad Aérea), la autoridad aeronáutica civil de España. Este aval certifica que el programa de formación teórica para la Licencia de Piloto de Planeador (SPL) es conforme al syllabus del AMC1 SFCL.130; no obstante, el desarrollo del contenido es responsabilidad exclusiva de los autores.
-
-El contenido se basa en la síntesis de normativas oficiales, estándares de seguridad de la #strong[OACI] (Organización de Aviación Civil Internacional) y de #strong[EASA] (European Union Aviation Safety Agency), así como de las mejores prácticas de la comunidad de vuelo a vela española, recogidas por varios instructores, y recopiladas por el instructor Iñaqui Ulibarri García de la Cueva para los aeroclubs de Ocaña y Fuentemilanos.
-]
-
-#strong[EXENCIÓN DE RESPONSABILIDAD - USO BAJO PROPIO RIESGO]
-
-La aviación es una actividad que conlleva riesgos inherentes. Aunque se ha realizado un esfuerzo exhaustivo para garantizar la precisión técnica de este manual utilizando fuentes oficiales actualizadas:
-
-- #strong[Los autores, editores y colaboradores NO asumen responsabilidad alguna] por daños personales, materiales o de cualquier otra índole que pudieran derivarse de interpretaciones erróneas o errores técnicos en el texto.
-- Este manual es una #strong[herramienta de apoyo al estudio] y no sustituye en ningún caso ni a la instrucción teórica ni a la práctica obligatoria con un instructor de vuelo cualificado (FI(S)).
-- En caso de discrepancia con la normativa vigente publicada por AESA o EASA, prevalecerá siempre el texto legal oficial de la autoridad aeronáutica.
-
-#strong[LICENCIA]
-
-Esta obra se distribuye bajo licencia #strong[Creative Commons Atribución 4.0 Internacional (CC BY 4.0)].
-
-Usted es libre de:
-
-- #strong[Compartir]: Copiar y redistribuir el material en cualquier medio.
-- #strong[Adaptar]: Remezclar, transformar y construir a partir del material para cualquier propósito incluso comercialmente.
-
-Bajo los siguientes términos:
-
-- #strong[Atribución]: Debe otorgar el crédito correspondiente, proporcionar un enlace a la licencia e indicar si se realizaron cambios. Puede hacerlo de cualquier manera razonable, pero no de una manera que sugiera que el licenciante lo respalda a usted o a su uso.
-
-Más información: #link("https://creativecommons.org/licenses/by/4.0/deed.es")
-
-#strong[Proyecto]
-
-Manual de vuelo para la obtención de la licencia de piloto de planeador (SPL)
-
-#strong[Coordinación]
-
-VuelaLibre.net
-
-#strong[Repositorio]
-
-#link("https://github.com/VuelaLibreNet/manual-spl")
-
-#strong[Licencia]
-
-CC BY 4.0
-
-#strong[Fuentes]
-
-AESA, EASA, OACI, SERA, AMCs & GM, LSA, manuales de vuelo de Fuentemilanos, FAA Glider Flying Handbook, y manuales de vuelo de otros paises de la UE.
 
 #heading(level: 1, numbering: none)[Dedicatoria]
 <dedicatoria>
@@ -556,8 +540,8 @@ Ramón Gutiérrez Camus (SPL)
 
 Piloto de Vuelo a Vela. Edición técnica
 
-#heading(level: 1, numbering: none)[Índice de ilustraciones]
-<índice-de-ilustraciones>
+#heading(level: 1, numbering: none)[Introducción]
+<introducción>
 #strong[#emph[Tema 2 de 9 del examen teórico para la Licencia de Piloto de Planeador (SPL)]]
 
 El 90 % de los accidentes de vuelo a vela tienen un factor humano como causa principal. No es incompetencia: el ser humano tiene límites fisiológicos y psicológicos que no desaparecen cuando sube a un planeador. La fatiga que degrada la toma de decisiones. La presión de grupo que empuja a despegar cuando la decisión correcta es quedarse en tierra.
@@ -814,6 +798,7 @@ supplement: "Figura",
 <fig-02-cap01-piramide-maslow>
 
 
+#postit[
 #strong[Resumen del Capítulo: Conceptos básicos de Factores Humanos]
 
 - #strong[Modelo SHELL]: Marco conceptual fundamental que analiza la interacción entre el piloto (Liveware) y otros elementos: Software (procedimientos), Hardware (la aeronave), Environment (el entorno) y otro Liveware (otras personas).
@@ -821,6 +806,7 @@ supplement: "Figura",
 - #strong[Cadena del error]: Los accidentes rara vez ocurren por una sola causa. Son la suma de pequeños errores y condiciones latentes. Tu trabajo es romper esa cadena en cuanto detectes el primer eslabón.
 - #strong[Influencias en el comportamiento]: El comportamiento mental bajo presión, nuestra motivación diaria aplicada al vuelo frente a una base de necesidades insatisfechas (Pirámide de Maslow), así como la presión directa de compañeros de hangar, alteran profundamente nuestra capacidad mental como comandantes. Debemos respaldar una rigurosa "cultura justa" para permitir el libre reporte de errores técnicos sin represión ajena, aprendiendo en colectivo en lugar de esconder daños fatales.
 
+]
 = Fisiología aeronáutica básica y mantenimiento de salud
 <fisiología-aeronáutica-básica-y-mantenimiento-de-salud>
 #quote(block: true)[
@@ -1469,6 +1455,7 @@ body_background_color:
 white
 )
 ]
+#postit[
 #strong[Resumen del capítulo: Fisiología aeronáutica]
 
 - #strong[Aptitud IMSAFE:] Revise el estado con la lista #strong[Illness], #strong[Medication], #strong[Stress], #strong[Alcohol], #strong[Fatigue], #strong[Eating] antes del despegue. Ante dudas, cancele el vuelo (#strong[NO-GO]). Si concurren problemas médicos importantes, consulte a un médico examinador aéreo (AME).
@@ -1481,6 +1468,7 @@ white
 - #strong[Fatiga:] El cansancio bloquea el tiempo de reacción y nubla la toma de decisiones. El café o una bebida no previenen sus efectos ocultos sobre la atención. La fatiga solo se cura de una manera: durmiendo para dar pie al necesario descanso reparador.
 - #strong[Normativa EASA, medicación y alcohol:] La regla no tiene excepciones: #strong[«de la botella al mando»], 8 horas sin alcohol y alcoholemia inferior a 0,2 g/l (AMC1 SAO.GEN.130(f)). No se automedique; hasta las inocentes pastillas de la alergia o del mareo adormecen de forma incapacitante para volar.
 
+]
 = Psicología aeronáutica básica
 <psicología-aeronáutica-básica>
 #quote(block: true)[
@@ -1768,6 +1756,7 @@ Dos de los peores y más insidiosos enemigos relacionados con las actitudes peli
 
 #strong[La indisciplina], ligada íntimamente a la actitud de antiautoridad, implica apartarse deliberadamente de los estándares y procedimientos que te enseñaron. Este factor se vuelve epidémico: una mala práctica vista repetidas veces en un campo de vuelo termina normalizándose en la mentalidad de todos sus pilotos, propagando conductas letales entre los alumnos y mermando gravemente la cultura de seguridad de todo el aeroclub.
 
+#postit[
 #strong[Resumen del Capítulo: Psicología Aeronáutica]
 
 - #strong[Conciencia situacional]: Es la capacidad precisa de percibir lo que ocurre, comprender su significado y proyectar su estado futuro. Perderla es el primer eslabón de la mayoría de las cadenas de accidentes.
@@ -1780,6 +1769,7 @@ Dos de los peores y más insidiosos enemigos relacionados con las actitudes peli
 - #strong[Gestión de Recursos (SRM)]: La habilidad del piloto solitario para usar integralmente el equipo a bordo, la información, las comunicaciones y la ayuda externa para no exceder su capacidad límite.
 - #strong[Complacencia e Indisciplina]: La complacencia surge por el exceso de rutina generando una falsa sensación de seguridad, mientras que la indisciplina contagia una mala cultura de seguridad en el aeródromo al ignorar las normas.
 
+]
 = Uso de oxígeno
 <uso-de-oxígeno>
 #quote(block: true)[
@@ -2203,6 +2193,7 @@ body_background_color:
 white
 )
 ]
+#postit[
 #strong[Resumen del capítulo: Uso de oxígeno]
 
 - #strong[Leyes de los gases:] La presión atmosférica disminuye con la altitud (ley de Dalton), reduciendo la capacidad del oxígeno para transferirse a la sangre. Los gases corporales se expanden al ascender (ley de Boyle); no vuele con congestión nasal intensa para evitar barotraumas dolorosos.
@@ -2216,6 +2207,7 @@ white
 - #strong[Hiperventilación:] Causada por estrés o ansiedad, no por falta de oxígeno. Al exhalar CO#sub[2] en exceso, los vasos cerebrales se contraen, produciendo síntomas similares a la hipoxia (hormigueo, calambres, mareo). Tratamiento: reducir el ritmo respiratorio, hablar en voz alta o reinhalar CO#sub[2] cubriendo parcialmente la boca.
 - #strong[Pulsioxímetro:] Mantenga la saturación (SpO#sub[2]) por encima del #strong[90%]\; por debajo de ese umbral, active el oxígeno y descienda de inmediato.
 
+]
 #show: appendices.with("Apéndices", hide-parent: true)
 #heading(level: 1, numbering: none)[Apéndices]
 = Syllabus Oficial EASA - Factores Humanos
@@ -2420,3 +2412,56 @@ La OACI desarrolla las normas y métodos recomendados (SARPS) mediante 19 anexos
 - #strong[Glider Flying Handbook (FAA-H-8083-13B)]. Federal Aviation Administration (FAA), U.S. Department of Transportation. Obra en dominio público; fuente de buena parte de las ilustraciones técnicas de la colección. #link("https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/glider_handbook")
 - #strong[Methodik der Segelflugausbildung] (#emph[Segelflugrechte], Rev.~2). Deutscher Aero Club (DAeC), 2022. Metodología alemana de instrucción de vuelo a vela. #link("https://www.daec.de/media/files/2022/Sportarten/Segelflug/Methodik_der_Segelflugausbildung_Segelflugrechte_Rev.2.pdf")
 - #strong[Vuelo sin motor: técnicas avanzadas]. Helmut Reichmann. Edición española de la obra de referencia internacional sobre la técnica del vuelo de distancia (orig. #emph[Streckensegelflug]\; ed.~inglesa, #emph[Cross-Country Soaring]). ISBN 978-84-283-1567-8.
+
+#heading(level: 1, numbering: none)[Información Legal y Licencia]
+<información-legal-y-licencia>
+#strong[Atribución y Fuentes]
+
+#quote(block: true)[
+El #strong[temario de esta colección ---el índice--- está avalado por AESA] (Agencia Estatal de Seguridad Aérea), la autoridad aeronáutica civil de España. Este aval certifica que el programa de formación teórica para la Licencia de Piloto de Planeador (SPL) es conforme al syllabus del AMC1 SFCL.130; no obstante, el desarrollo del contenido es responsabilidad exclusiva de los autores.
+
+El contenido se basa en la síntesis de normativas oficiales, estándares de seguridad de la #strong[OACI] (Organización de Aviación Civil Internacional) y de #strong[EASA] (European Union Aviation Safety Agency), así como de las mejores prácticas de la comunidad de vuelo a vela española, recogidas por varios instructores, y recopiladas por el instructor Iñaqui Ulibarri García de la Cueva para los aeroclubs de Ocaña y Fuentemilanos.
+]
+
+#strong[EXENCIÓN DE RESPONSABILIDAD - USO BAJO PROPIO RIESGO]
+
+La aviación es una actividad que conlleva riesgos inherentes. Aunque se ha realizado un esfuerzo exhaustivo para garantizar la precisión técnica de este manual utilizando fuentes oficiales actualizadas:
+
+- #strong[Los autores, editores y colaboradores NO asumen responsabilidad alguna] por daños personales, materiales o de cualquier otra índole que pudieran derivarse de interpretaciones erróneas o errores técnicos en el texto.
+- Este manual es una #strong[herramienta de apoyo al estudio] y no sustituye en ningún caso ni a la instrucción teórica ni a la práctica obligatoria con un instructor de vuelo cualificado (FI(S)).
+- En caso de discrepancia con la normativa vigente publicada por AESA o EASA, prevalecerá siempre el texto legal oficial de la autoridad aeronáutica.
+
+#strong[LICENCIA]
+
+Esta obra se distribuye bajo licencia #strong[Creative Commons Atribución 4.0 Internacional (CC BY 4.0)].
+
+Usted es libre de:
+
+- #strong[Compartir]: Copiar y redistribuir el material en cualquier medio.
+- #strong[Adaptar]: Remezclar, transformar y construir a partir del material para cualquier propósito incluso comercialmente.
+
+Bajo los siguientes términos:
+
+- #strong[Atribución]: Debe otorgar el crédito correspondiente, proporcionar un enlace a la licencia e indicar si se realizaron cambios. Puede hacerlo de cualquier manera razonable, pero no de una manera que sugiera que el licenciante lo respalda a usted o a su uso.
+
+Más información: #link("https://creativecommons.org/licenses/by/4.0/deed.es")
+
+#strong[Proyecto]
+
+Manual de vuelo para la obtención de la licencia de piloto de planeador (SPL)
+
+#strong[Coordinación]
+
+VuelaLibre.net
+
+#strong[Repositorio]
+
+#link("https://github.com/VuelaLibreNet/manual-spl")
+
+#strong[Licencia]
+
+CC BY 4.0
+
+#strong[Fuentes]
+
+AESA, EASA, OACI, SERA, AMCs & GM, LSA, manuales de vuelo de Fuentemilanos, FAA Glider Flying Handbook, y manuales de vuelo de otros paises de la UE.

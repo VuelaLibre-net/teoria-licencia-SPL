@@ -123,6 +123,7 @@ Si el planeador **no puede largar el cable**, la señal de socorro en vuelo es: 
 Antes de subir al planeador, acuerda siempre con el piloto remolcador la altitud de suelta y la dirección de alejamiento. Así el remolcador puede regresar a la pista sin cruzarse con el velero que inicia su vuelo.
 :::
 
+::: {.postit}
 **Resumen del Capítulo: Aeródromos No Controlados**
 
 * **Autoinformación**: En el campo sin torre, tú eres el controlador. Transmite «al aire» tu posición e intenciones. «Fuentemilanos, velero EC-BRT, viento en cola pista 34».
@@ -130,3 +131,5 @@ Antes de subir al planeador, acuerda siempre con el piloto remolcador la altitud
 * **La Frecuencia Correcta**: Sintoniza la frecuencia del campo 10 minutos antes. Escuchar a otros te dirá pista en uso, viento y densidad de tráfico.
 * **Circuito Estándar**: Si nadie indica lo contrario, el circuito es a izquierdas. Notifica: entrada, viento en cola, base y final.
 * **Lanzamiento (torno/remolcador)**: Con torno: «Listo tensando» → «Remolcando x3» → «Cable libre». Abortar: «Stop torno x3». Fallo bajo (por debajo de 150 m en torno): recto al frente, nunca regreses virando.
+:::
+

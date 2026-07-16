@@ -85,6 +85,7 @@ El **Standardised European Rules of the Air** es el código de circulación del 
 SERA.3210 establece las prioridades de paso para evitar colisiones. Un planeador siempre tiene prioridad sobre aeronaves de motor (aviones, helicópteros), pero debe ceder el paso a globos. Conoce estas reglas de memoria.
 :::
 
+::: {.postit}
 **Resumen del Capítulo: Marco Normativo**
 
 La "ley del aire" que te permite volar se organiza así:
@@ -94,3 +95,5 @@ La "ley del aire" que te permite volar se organiza así:
 * **Normativa vinculante** (Reglamentos): es ley, obligatoria al 100%. Ahí están Part-SFCL, Part-SAO y SERA.
 * **Estándares no vinculantes** (AMC/GM): no son ley estricta, pero sí la forma estándar y segura de hacer las cosas. Síguelos y no tendrás problemas.
 * Tus normas de cabecera: **Part-SFCL** (tu licencia), **SERA** (cómo volar) y **Part-SAO** (cómo operar tu planeador).
+:::
+

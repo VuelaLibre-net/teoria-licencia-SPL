@@ -52,6 +52,7 @@ La seguridad aérea es cosa de todos. Cuando se detecta un fallo de diseño o un
 
 ![El ciclo de la aeronavegabilidad: AMP, mantenimiento y ARC](imagenes/08-cap09-ciclo-mantenimiento.jpg){#fig-08-cap09-ciclo-mantenimiento}
 
+::: {.postit}
 **Resumen del capítulo: mantenimiento y aeronavegabilidad**
 
 * **Inspección diaria (DI)**: es cosa del piloto. Sigue la lista: presión de ruedas, estado del gancho de remolque, bisagras de mandos, limpieza de pitot y estática.
@@ -59,3 +60,5 @@ La seguridad aérea es cosa de todos. Cuando se detecta un fallo de diseño o un
 * **Mantenimiento programado**: la frecuencia concreta de inspecciones (por tiempo, ciclos u horas) la fija el AMP, según lo que diga el fabricante. Pero hay un suelo: si el AMP se basa en el Programa Mínimo de Inspección de Part-ML (ML.A.302), nunca puede ser menos restrictivo que **una inspección anual o cada 100 h, lo que antes se cumpla**.
 * **Mantenimiento por piloto-propietario**: tareas sencillas del Apéndice II de Part-ML, solo si eres propietario con licencia válida, y siempre registradas y firmadas (ML.A.803).
 * **Reporte de defectos**: si rompes algo o ves algo raro, anótalo. El siguiente piloto puede no verlo y matarse (un cable de timón deshilachado, por ejemplo).
+:::
+

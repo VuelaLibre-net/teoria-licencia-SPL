@@ -74,6 +74,7 @@ Un buen piloto sabe cuándo dejar de ser competidor para convertirse en superviv
 Tus mínimos deben ser más conservadores si vuelas en zonas desconocidas o con planeadores de bajo rendimiento. La seguridad nunca es negociable.
 :::
 
+::: {.postit}
 **Resumen del Capítulo: Planificación de Tareas**
 
 * **Velocidad media**: no gana el que corre más, sino el que para menos. Evita virar térmicas flojas; la clave está en la consistencia y en elegir la ruta bajo las calles de nubes.
@@ -81,3 +82,5 @@ Tus mínimos deben ser más conservadores si vuelas en zonas desconocidas o con 
 * **Orografía**: la ruta más corta sobre el mapa rara vez es la más rápida sobre el terreno. Evita los valles ciegos, marca puntos de escape en cada tramo y traza la tarea a lo largo de convergencias y ondas, no perpendicular a ellas.
 * **Equipo de supervivencia**: sobre zonas donde el rescate sería difícil, el Part-SAO (SAO.IDE.125) exige ELT o PLB, equipo de señales y supervivencia adecuados a la ruta. Agua, abrigo y baliza: menos de dos kilos que pueden salvarte la vida.
 * **Mínimos personales**: fíjalos antes de salir. ¿Altura mínima para seguir en ruta? ¿Térmica mínima aceptable? Si bajas de ahí, cambia el chip de competición a supervivencia.
+:::
+

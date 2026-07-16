@@ -446,6 +446,43 @@
 #show terms.item: it => block(breakable: false, below: 0.95em, width: 100%)[
   #text(weight: "bold")[#it.term]#h(0.35em)#sym.dash.em#h(0.35em)#_glosario-descripcion(it.description)
 ]
+// Resumen de capítulo con aspecto de post-it, como en el AsciiDoc original.
+//
+// Colores tomados literalmente del tema de origen
+// (aesa-spl-oficial/recursos/temas/pdf-theme.yml, rol `postit`):
+//   fondo #FFF9C4, borde #FBC02D 1pt, radio 4pt, texto #5D4037 a 10.5pt.
+//
+// La única desviación es la fuente. El tema pedía Roboto; aquí se usa Libertinus
+// Sans, que viaja dentro de Typst. Roboto está en la máquina de desarrollo pero
+// no en el runner del CI, y Typst no falla ante una fuente ausente: cae a otra
+// en silencio, con lo que los entregables oficiales saldrían distintos sin que
+// nadie se entere. Libertinus Sans mantiene el contraste de palo seco contra el
+// cuerpo en serifa y renderiza igual en cualquier sitio.
+//
+// El bloque es partible a propósito: algunos resúmenes no caben en una página y
+// un bloque no partible se saldría del papel.
+
+#let postit(body) = block(
+  fill: rgb("#FFF9C4"),
+  stroke: 1pt + rgb("#FBC02D"),
+  radius: 4pt,
+  inset: 0.6cm,
+  width: 100%,
+  above: 1.4em,
+  below: 1.4em,
+  breakable: true,
+  {
+    // El cuerpo hereda la sangría de primera línea, que dentro de una caja
+    // descoloca el primer renglón contra el borde.
+    set par(first-line-indent: 0em)
+    text(
+      font: "Libertinus Sans",
+      size: 10.5pt,
+      fill: rgb("#5D4037"),
+      body,
+    )
+  },
+)
 #import "@preview/fontawesome:0.5.0": *
 #let brand-color = (:)
 #let brand-color-background = (:)
@@ -494,59 +531,6 @@
 #heading(level: 1, numbering: none)[Procedimientos Operativos]
 <procedimientos-operativos>
 Bienvenido a la versión digitalizada de este manual de formación SPL.
-
-#heading(level: 1, numbering: none)[Información Legal y Licencia]
-<información-legal-y-licencia>
-#strong[Atribución y Fuentes]
-
-#quote(block: true)[
-El #strong[temario de esta colección ---el índice--- está avalado por AESA] (Agencia Estatal de Seguridad Aérea), la autoridad aeronáutica civil de España. Este aval certifica que el programa de formación teórica para la Licencia de Piloto de Planeador (SPL) es conforme al syllabus del AMC1 SFCL.130; no obstante, el desarrollo del contenido es responsabilidad exclusiva de los autores.
-
-El contenido se basa en la síntesis de normativas oficiales, estándares de seguridad de la #strong[OACI] (Organización de Aviación Civil Internacional) y de #strong[EASA] (European Union Aviation Safety Agency), así como de las mejores prácticas de la comunidad de vuelo a vela española, recogidas por varios instructores, y recopiladas por el instructor Iñaqui Ulibarri García de la Cueva para los aeroclubs de Ocaña y Fuentemilanos.
-]
-
-#strong[EXENCIÓN DE RESPONSABILIDAD - USO BAJO PROPIO RIESGO]
-
-La aviación es una actividad que conlleva riesgos inherentes. Aunque se ha realizado un esfuerzo exhaustivo para garantizar la precisión técnica de este manual utilizando fuentes oficiales actualizadas:
-
-- #strong[Los autores, editores y colaboradores NO asumen responsabilidad alguna] por daños personales, materiales o de cualquier otra índole que pudieran derivarse de interpretaciones erróneas o errores técnicos en el texto.
-- Este manual es una #strong[herramienta de apoyo al estudio] y no sustituye en ningún caso ni a la instrucción teórica ni a la práctica obligatoria con un instructor de vuelo cualificado (FI(S)).
-- En caso de discrepancia con la normativa vigente publicada por AESA o EASA, prevalecerá siempre el texto legal oficial de la autoridad aeronáutica.
-
-#strong[LICENCIA]
-
-Esta obra se distribuye bajo licencia #strong[Creative Commons Atribución 4.0 Internacional (CC BY 4.0)].
-
-Usted es libre de:
-
-- #strong[Compartir]: Copiar y redistribuir el material en cualquier medio.
-- #strong[Adaptar]: Remezclar, transformar y construir a partir del material para cualquier propósito incluso comercialmente.
-
-Bajo los siguientes términos:
-
-- #strong[Atribución]: Debe otorgar el crédito correspondiente, proporcionar un enlace a la licencia e indicar si se realizaron cambios. Puede hacerlo de cualquier manera razonable, pero no de una manera que sugiera que el licenciante lo respalda a usted o a su uso.
-
-Más información: #link("https://creativecommons.org/licenses/by/4.0/deed.es")
-
-#strong[Proyecto]
-
-Manual de vuelo para la obtención de la licencia de piloto de planeador (SPL)
-
-#strong[Coordinación]
-
-VuelaLibre.net
-
-#strong[Repositorio]
-
-#link("https://github.com/VuelaLibreNet/manual-spl")
-
-#strong[Licencia]
-
-CC BY 4.0
-
-#strong[Fuentes]
-
-AESA, EASA, OACI, SERA, AMCs & GM, LSA, manuales de vuelo de Fuentemilanos, FAA Glider Flying Handbook, y manuales de vuelo de otros paises de la UE.
 
 #heading(level: 1, numbering: none)[Dedicatoria]
 <dedicatoria>
@@ -604,8 +588,8 @@ Ramón Gutiérrez Camus (SPL)
 
 Piloto de Vuelo a Vela. Edición técnica
 
-#heading(level: 1, numbering: none)[Índice de ilustraciones]
-<índice-de-ilustraciones>
+#heading(level: 1, numbering: none)[Introducción]
+<introducción>
 #strong[#emph[Tema 6 de 9 del examen teórico para la Licencia de Piloto de Planeador (SPL)]]
 
 Hay vuelos que salen exactamente como estaban planificados. Y hay vuelos que no.
@@ -908,6 +892,7 @@ body_background_color:
 white
 )
 ]
+#postit[
 #strong[Resumen del Capítulo: Requisitos generales]
 
 - #strong[Los papeles del planeador (SAO.GEN.155)]: antes de cada vuelo verifica los cuatro pilares documentales de la aeronave: aeronavegabilidad (certificado + ARC), matrícula, manual de vuelo (AFM) y pesada y centrado. Si falta alguno, el planeador no vuela.
@@ -918,6 +903,7 @@ white
 - #strong[Operaciones en tierra]: comprobación de mandos positiva (PCC) tras cada montaje. Anclaje de cara al viento con cúpulas cerradas. Regla de la cuerda larga (más de media envergadura) para remolcar con coche.
 - #strong[Prevuelo y CB-SIFT-CBE]: inspección prevuelo sistemática de 360 grados. Checklist de cabina estricto CB-SIFT-CBE antes de conectar el cable de lanzamiento.
 
+]
 = Métodos de lanzamiento
 <métodos-de-lanzamiento>
 #quote(block: true)[
@@ -1317,6 +1303,7 @@ body_background_color:
 white
 )
 ]
+#postit[
 #strong[Resumen del Capítulo: Métodos de lanzamiento]
 
 - #strong[Torno (winch)]: aceleración brutal de 0 a 100 en 3 segundos. Si se rompe el cable, lo primero es #strong[bajar el morro] para recuperar velocidad. Solo entonces suelta el cable remanente y decide si aterrizar recto, hacer 180° o un circuito corto, según la altura disponible.
@@ -1325,6 +1312,7 @@ white
 - #strong[Emergency briefing]: briefing mental y verbalizado antes de cada despegue. Define velocidades de seguridad y acciones precisas ante fallos a baja, media y alta altura según el viento.
 - #strong[Comprobaciones previas]: ganchos correctos, velocidades respetadas, mandos libres y comprobación cruzada. Realiza la inspección de cuerdas (sin nudos), anillas dobles Tost compatibles y fusibles de seguridad (#strong[weak links]) de resistencia por código de colores (ej. azul = 600 daN para monoplazas en torno).
 
+]
 = Técnicas de planeo
 <técnicas-de-planeo>
 #quote(block: true)[
@@ -1561,6 +1549,7 @@ body_background_color:
 white
 )
 ]
+#postit[
 #strong[Resumen del Capítulo: Técnicas de planeo]
 
 - #strong[Centrado de térmica]: siente el empujón en el asiento. Si el ala derecha sube, el núcleo está a la derecha: vira a la derecha. Cierra el viraje cuando el vario sube, ábrelo cuando baja. Con práctica, este ciclo se vuelve automático.
@@ -1570,6 +1559,7 @@ white
 - #strong[Onda]: la autopista al cielo. Sube en la zona laminar, delante de la nube de rotor. Requiere oxígeno y ropa de abrigo. Cuidado al bajar: el rotor puede romperte el planeador en segundos.
 - #strong[Lastre de agua]: más masa = más velocidad sin perder planeo. Útil en días fuertes y travesías largas. Vacíalo antes de aterrizar y ajusta siempre las velocidades de referencia: con lastre, la pérdida llega mucho antes.
 
+]
 = Circuitos y aterrizaje
 <circuitos-y-aterrizaje>
 #quote(block: true)[
@@ -1871,6 +1861,7 @@ supplement: "Figura",
 <fig-06-cap04-pio-cabeceo>
 
 
+#postit[
 #strong[Resumen del Capítulo: Circuitos y aterrizaje]
 
 - #strong[Circuito estándar]: cuatro tramos ---cruzado, viento en cola, base y final--- con alturas de referencia: 250-300, 200-300 y 150 metros hasta la toma. El circuito no es un ritual, es un gestor de energía.
@@ -1880,6 +1871,7 @@ supplement: "Figura",
 - #strong[Resbale lateral (sideslip)]: método de descenso rápido de emergencia cruzando mandos. Recuerda: #strong[ala baja al viento], actitud visual de morro bajo (el anemómetro no es fiable por el flujo cruzado) y salida relajando primero la palanca.
 - #strong[Viento de cola y PIOs]: en tomas con viento de cola, ignora la velocidad visual del suelo (evita pérdidas de sustentación) y prepárate para un rodaje largo. Si el velero oscila en cabeceo (#strong[PIO]) cerca del suelo, congela la palanca y deja actuar su estabilidad estática.
 
+]
 = Aterrizaje fuera de campo (
 <aterrizaje-fuera-de-campo>
 #quote(block: true)[
@@ -2072,6 +2064,7 @@ El aterrizaje fuera de campo se realiza amparado por el estado de necesidad de l
 - #strong[Minimización de daños:] al desmontar el planeador para introducirlo en el remolque, procura no pisar cultivos altos ni dañar vallas o cercados. Si es necesario, traslada las piezas a pie por los bordes de la parcela.
 - #strong[Trato diplomático:] cuando el agricultor o el dueño de la finca se presente, muéstrate educado y agradecido. Explica con calma que se ha tratado de un aterrizaje preventivo por falta de sustentación (una situación normal y segura) y que no tenías motor para regresar. La inmensa mayoría de las personas son comprensivas si se les trata con cortesía y respeto por su propiedad.
 
+#postit[
 #strong[Resumen del Capítulo: Aterrizaje fuera de campo]
 
 - #strong[La decisión (600/450/300 m)]: a 600 m sobre el terreno, elige la zona; a 450 m, el campo; a 300 m, comprométete con el circuito y olvida las térmicas. Retrasar esta decisión buscando un «milagro rasante» es la causa número 1 de accidentes graves.
@@ -2080,6 +2073,7 @@ El aterrizaje fuera de campo se realiza amparado por el estado de necesidad de l
 - #strong[En tierra]: frena a fondo. Es mejor romper el tren en un surco que intentar flotar sobre un obstáculo y entrar en pérdida a tres metros del suelo.
 - #strong[Procedimientos post-toma]: asegura el planeador contra el viento (pesos en planos, cúpula cerrada, fundas de pitot), transmite tus coordenadas GPS exactas, permanece junto a la aeronave si estás en zona aislada (usa la tela del paracaídas como refugio) y mantén un trato respetuoso y educado con el agricultor.
 
+]
 = Procedimientos operativos especiales y peligros
 <procedimientos-operativos-especiales-y-peligros>
 #quote(block: true)[
@@ -2355,6 +2349,7 @@ Aunque el planeador opera principalmente sobre tierra, el vuelo de travesía pue
 + #strong[Configuración:] ameriza paralelo a las olas o al oleaje si es posible, con los aerofrenos desplegados para reducir la velocidad al máximo.
 + #strong[Abandono inmediato:] sal de la cabina en cuanto te detengas. El planeador se hundirá en cuestión de segundos: la cabina de compuesto y la estructura rígida pierden flotabilidad con rapidez.
 
+#postit[
 #strong[Resumen del Capítulo: Procedimientos especiales y peligros]
 
 - #strong[Vigilancia visual]: el FLARM ayuda, pero no lo ve todo. El 95 % del tiempo, mira fuera. Barre el horizonte en sectores. Antes de virar, mira siempre hacia el lado del viraje.
@@ -2363,6 +2358,7 @@ Aunque el planeador opera principalmente sobre tierra, el vuelo de travesía pue
 - #strong[Engelamiento y lluvia]: cualquier contaminación del borde de ataque sube la velocidad de pérdida. Añade velocidad al circuito y a la aproximación. Si se acumula hielo, desciende de inmediato.
 - #strong[Amerizaje]: si no queda otra opción, #strong[tren fuera] ---la rueda frena el planeador al contacto y evita que la cabina bucee---, paralelo a las olas y a velocidad mínima. En cuanto el planeador se pare, sal: se hunde en segundos.
 
+]
 = Procedimientos de emergencia
 <procedimientos-de-emergencia>
 #quote(block: true)[
@@ -2754,6 +2750,7 @@ Como ficha de repaso rápido, esta tabla resume la respuesta inmediata a cada em
   [Apertura de cúpula en vuelo], [Vuela primero el planeador; baja el morro; no intentes cerrarla si estás bajo.],
   [Vaciado asimétrico del lastre], [+15-20 km/h en circuito, virajes suaves hacia el ala ligera, alas niveladas al tocar.],
 )
+#postit[
 #strong[Resumen del Capítulo: Procedimientos de emergencia]
 
 - #strong[Regla universal]: ante cualquier emergencia en el lanzamiento, lo primero siempre es #strong[bajar el morro] para recuperar velocidad y evitar la pérdida. Después, suelta el cable y decide.
@@ -2781,6 +2778,7 @@ Como ficha de repaso rápido, esta tabla resume la respuesta inmediata a cada em
 
 - #strong[Lastre asimétrico]: vuela 15-20 km/h más rápido en circuito para mantener la efectividad de los alerones y mantén las alas niveladas al tocar el suelo.
 
+]
 = Uso y aterrizaje con paracaídas de emergencia
 <uso-y-aterrizaje-con-paracaídas-de-emergencia>
 #quote(block: true)[
@@ -2959,6 +2957,7 @@ body_background_color:
 white
 )
 ]
+#postit[
 #strong[Resumen del Capítulo: Paracaídas de emergencia]
 
 - #strong[Cuándo saltar]: solo cuando el planeador es irrecuperable: fallo estructural, colisión en vuelo, fuego incontrolable o barrena irrecuperable. Si el planeador vuela de forma controlable, quédate dentro.
@@ -2967,6 +2966,7 @@ white
 - #strong[Descenso y toma de tierra]: gira la campana en el aire tirando de las bandas de las hombreras para #strong[aterrizar cara al viento] y reducir el impacto horizontal. Adopta la posición PLF (pies y rodillas juntos y flexionados) y rueda al tocar el suelo. Con viento, tira de los cordones inferiores para colapsar la campana.
 - #strong[Mantenimiento]: plegado e inspección obligatorios cada 6-12 meses según el fabricante, por un técnico certificado. Protégelo de la radiación UV, la humedad y los contaminantes químicos. Es tu último recurso: cuídalo.
 
+]
 #show: appendices.with("Apéndices", hide-parent: true)
 #heading(level: 1, numbering: none)[Apéndices]
 = Syllabus Oficial EASA - Procedimientos Operativos
@@ -3159,3 +3159,56 @@ La OACI desarrolla las normas y métodos recomendados (SARPS) mediante 19 anexos
 - #strong[Glider Flying Handbook (FAA-H-8083-13B)]. Federal Aviation Administration (FAA), U.S. Department of Transportation. Obra en dominio público; fuente de buena parte de las ilustraciones técnicas de la colección. #link("https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/glider_handbook")
 - #strong[Methodik der Segelflugausbildung] (#emph[Segelflugrechte], Rev.~2). Deutscher Aero Club (DAeC), 2022. Metodología alemana de instrucción de vuelo a vela. #link("https://www.daec.de/media/files/2022/Sportarten/Segelflug/Methodik_der_Segelflugausbildung_Segelflugrechte_Rev.2.pdf")
 - #strong[Vuelo sin motor: técnicas avanzadas]. Helmut Reichmann. Edición española de la obra de referencia internacional sobre la técnica del vuelo de distancia (orig. #emph[Streckensegelflug]\; ed.~inglesa, #emph[Cross-Country Soaring]). ISBN 978-84-283-1567-8.
+
+#heading(level: 1, numbering: none)[Información Legal y Licencia]
+<información-legal-y-licencia>
+#strong[Atribución y Fuentes]
+
+#quote(block: true)[
+El #strong[temario de esta colección ---el índice--- está avalado por AESA] (Agencia Estatal de Seguridad Aérea), la autoridad aeronáutica civil de España. Este aval certifica que el programa de formación teórica para la Licencia de Piloto de Planeador (SPL) es conforme al syllabus del AMC1 SFCL.130; no obstante, el desarrollo del contenido es responsabilidad exclusiva de los autores.
+
+El contenido se basa en la síntesis de normativas oficiales, estándares de seguridad de la #strong[OACI] (Organización de Aviación Civil Internacional) y de #strong[EASA] (European Union Aviation Safety Agency), así como de las mejores prácticas de la comunidad de vuelo a vela española, recogidas por varios instructores, y recopiladas por el instructor Iñaqui Ulibarri García de la Cueva para los aeroclubs de Ocaña y Fuentemilanos.
+]
+
+#strong[EXENCIÓN DE RESPONSABILIDAD - USO BAJO PROPIO RIESGO]
+
+La aviación es una actividad que conlleva riesgos inherentes. Aunque se ha realizado un esfuerzo exhaustivo para garantizar la precisión técnica de este manual utilizando fuentes oficiales actualizadas:
+
+- #strong[Los autores, editores y colaboradores NO asumen responsabilidad alguna] por daños personales, materiales o de cualquier otra índole que pudieran derivarse de interpretaciones erróneas o errores técnicos en el texto.
+- Este manual es una #strong[herramienta de apoyo al estudio] y no sustituye en ningún caso ni a la instrucción teórica ni a la práctica obligatoria con un instructor de vuelo cualificado (FI(S)).
+- En caso de discrepancia con la normativa vigente publicada por AESA o EASA, prevalecerá siempre el texto legal oficial de la autoridad aeronáutica.
+
+#strong[LICENCIA]
+
+Esta obra se distribuye bajo licencia #strong[Creative Commons Atribución 4.0 Internacional (CC BY 4.0)].
+
+Usted es libre de:
+
+- #strong[Compartir]: Copiar y redistribuir el material en cualquier medio.
+- #strong[Adaptar]: Remezclar, transformar y construir a partir del material para cualquier propósito incluso comercialmente.
+
+Bajo los siguientes términos:
+
+- #strong[Atribución]: Debe otorgar el crédito correspondiente, proporcionar un enlace a la licencia e indicar si se realizaron cambios. Puede hacerlo de cualquier manera razonable, pero no de una manera que sugiera que el licenciante lo respalda a usted o a su uso.
+
+Más información: #link("https://creativecommons.org/licenses/by/4.0/deed.es")
+
+#strong[Proyecto]
+
+Manual de vuelo para la obtención de la licencia de piloto de planeador (SPL)
+
+#strong[Coordinación]
+
+VuelaLibre.net
+
+#strong[Repositorio]
+
+#link("https://github.com/VuelaLibreNet/manual-spl")
+
+#strong[Licencia]
+
+CC BY 4.0
+
+#strong[Fuentes]
+
+AESA, EASA, OACI, SERA, AMCs & GM, LSA, manuales de vuelo de Fuentemilanos, FAA Glider Flying Handbook, y manuales de vuelo de otros paises de la UE.

@@ -446,6 +446,43 @@
 #show terms.item: it => block(breakable: false, below: 0.95em, width: 100%)[
   #text(weight: "bold")[#it.term]#h(0.35em)#sym.dash.em#h(0.35em)#_glosario-descripcion(it.description)
 ]
+// Resumen de capítulo con aspecto de post-it, como en el AsciiDoc original.
+//
+// Colores tomados literalmente del tema de origen
+// (aesa-spl-oficial/recursos/temas/pdf-theme.yml, rol `postit`):
+//   fondo #FFF9C4, borde #FBC02D 1pt, radio 4pt, texto #5D4037 a 10.5pt.
+//
+// La única desviación es la fuente. El tema pedía Roboto; aquí se usa Libertinus
+// Sans, que viaja dentro de Typst. Roboto está en la máquina de desarrollo pero
+// no en el runner del CI, y Typst no falla ante una fuente ausente: cae a otra
+// en silencio, con lo que los entregables oficiales saldrían distintos sin que
+// nadie se entere. Libertinus Sans mantiene el contraste de palo seco contra el
+// cuerpo en serifa y renderiza igual en cualquier sitio.
+//
+// El bloque es partible a propósito: algunos resúmenes no caben en una página y
+// un bloque no partible se saldría del papel.
+
+#let postit(body) = block(
+  fill: rgb("#FFF9C4"),
+  stroke: 1pt + rgb("#FBC02D"),
+  radius: 4pt,
+  inset: 0.6cm,
+  width: 100%,
+  above: 1.4em,
+  below: 1.4em,
+  breakable: true,
+  {
+    // El cuerpo hereda la sangría de primera línea, que dentro de una caja
+    // descoloca el primer renglón contra el borde.
+    set par(first-line-indent: 0em)
+    text(
+      font: "Libertinus Sans",
+      size: 10.5pt,
+      fill: rgb("#5D4037"),
+      body,
+    )
+  },
+)
 #import "@preview/fontawesome:0.5.0": *
 #let brand-color = (:)
 #let brand-color-background = (:)
@@ -494,59 +531,6 @@
 #heading(level: 1, numbering: none)[Derecho Aéreo y Procedimientos de Control de Tránsito Aéreo]
 <derecho-aéreo-y-procedimientos-de-control-de-tránsito-aéreo>
 Bienvenido a la versión digitalizada de este manual de formación SPL.
-
-#heading(level: 1, numbering: none)[Información Legal y Licencia]
-<información-legal-y-licencia>
-#strong[Atribución y Fuentes]
-
-#quote(block: true)[
-El #strong[temario de esta colección ---el índice--- está avalado por AESA] (Agencia Estatal de Seguridad Aérea), la autoridad aeronáutica civil de España. Este aval certifica que el programa de formación teórica para la Licencia de Piloto de Planeador (SPL) es conforme al syllabus del AMC1 SFCL.130; no obstante, el desarrollo del contenido es responsabilidad exclusiva de los autores.
-
-El contenido se basa en la síntesis de normativas oficiales, estándares de seguridad de la #strong[OACI] (Organización de Aviación Civil Internacional) y de #strong[EASA] (European Union Aviation Safety Agency), así como de las mejores prácticas de la comunidad de vuelo a vela española, recogidas por varios instructores, y recopiladas por el instructor Iñaqui Ulibarri García de la Cueva para los aeroclubs de Ocaña y Fuentemilanos.
-]
-
-#strong[EXENCIÓN DE RESPONSABILIDAD - USO BAJO PROPIO RIESGO]
-
-La aviación es una actividad que conlleva riesgos inherentes. Aunque se ha realizado un esfuerzo exhaustivo para garantizar la precisión técnica de este manual utilizando fuentes oficiales actualizadas:
-
-- #strong[Los autores, editores y colaboradores NO asumen responsabilidad alguna] por daños personales, materiales o de cualquier otra índole que pudieran derivarse de interpretaciones erróneas o errores técnicos en el texto.
-- Este manual es una #strong[herramienta de apoyo al estudio] y no sustituye en ningún caso ni a la instrucción teórica ni a la práctica obligatoria con un instructor de vuelo cualificado (FI(S)).
-- En caso de discrepancia con la normativa vigente publicada por AESA o EASA, prevalecerá siempre el texto legal oficial de la autoridad aeronáutica.
-
-#strong[LICENCIA]
-
-Esta obra se distribuye bajo licencia #strong[Creative Commons Atribución 4.0 Internacional (CC BY 4.0)].
-
-Usted es libre de:
-
-- #strong[Compartir]: Copiar y redistribuir el material en cualquier medio.
-- #strong[Adaptar]: Remezclar, transformar y construir a partir del material para cualquier propósito incluso comercialmente.
-
-Bajo los siguientes términos:
-
-- #strong[Atribución]: Debe otorgar el crédito correspondiente, proporcionar un enlace a la licencia e indicar si se realizaron cambios. Puede hacerlo de cualquier manera razonable, pero no de una manera que sugiera que el licenciante lo respalda a usted o a su uso.
-
-Más información: #link("https://creativecommons.org/licenses/by/4.0/deed.es")
-
-#strong[Proyecto]
-
-Manual de vuelo para la obtención de la licencia de piloto de planeador (SPL)
-
-#strong[Coordinación]
-
-VuelaLibre.net
-
-#strong[Repositorio]
-
-#link("https://github.com/VuelaLibreNet/manual-spl")
-
-#strong[Licencia]
-
-CC BY 4.0
-
-#strong[Fuentes]
-
-AESA, EASA, OACI, SERA, AMCs & GM, LSA, manuales de vuelo de Fuentemilanos, FAA Glider Flying Handbook, y manuales de vuelo de otros paises de la UE.
 
 #heading(level: 1, numbering: none)[Dedicatoria]
 <dedicatoria>
@@ -604,8 +588,8 @@ Ramón Gutiérrez Camus (SPL)
 
 Piloto de Vuelo a Vela. Edición técnica
 
-#heading(level: 1, numbering: none)[Índice de ilustraciones]
-<índice-de-ilustraciones>
+#heading(level: 1, numbering: none)[Introducción]
+<introducción>
 #strong[#emph[Tema 1 de 9 del examen teórico para la Licencia de Piloto de Planeador (SPL)]]
 
 Un planeador opera en un sistema de espacios aéreos y responsabilidades legales que existen para que cada vuelo sea predecible. Ignorar ese sistema no te hace más libre; te hace más expuesto.
@@ -811,6 +795,7 @@ body_background_color:
 white
 )
 ]
+#postit[
 #strong[Resumen del Capítulo: Marco Normativo]
 
 La "ley del aire" que te permite volar se organiza así:
@@ -821,6 +806,7 @@ La "ley del aire" que te permite volar se organiza así:
 - #strong[Estándares no vinculantes] (AMC/GM): no son ley estricta, pero sí la forma estándar y segura de hacer las cosas. Síguelos y no tendrás problemas.
 - Tus normas de cabecera: #strong[Part-SFCL] (tu licencia), #strong[SERA] (cómo volar) y #strong[Part-SAO] (cómo operar tu planeador).
 
+]
 = Aeronavegabilidad
 <aeronavegabilidad>
 #quote(block: true)[
@@ -953,6 +939,7 @@ body_background_color:
 white
 )
 ]
+#postit[
 #strong[Resumen del Capítulo: Aeronavegabilidad]
 
 La aeronavegabilidad es la salud de tu aeronave. Para volar legal y seguro:
@@ -962,6 +949,7 @@ La aeronavegabilidad es la salud de tu aeronave. Para volar legal y seguro:
 - #strong[Part-ML]: el marco de mantenimiento de los planeadores; permite al piloto-propietario certificar tareas sencillas. Su desarrollo técnico (AMP, programa mínimo de inspección, AD/SB) está en el #strong[Libro 8], capítulo 9.
 - #strong[Tu parte]: hacer la inspección pre-vuelo, verificar que la documentación (CofA, ARC, seguro…​) está a bordo y en vigor, y anotar cualquier defecto en el Diario de a bordo.
 
+]
 = Marcas de nacionalidad y matrícula de aeronaves
 <marcas-de-nacionalidad-y-matrícula-de-aeronaves>
 #quote(block: true)[
@@ -1105,6 +1093,7 @@ body_background_color:
 white
 )
 ]
+#postit[
 #strong[Resumen del Capítulo: Marcas y Matrícula]
 
 Tu planeador tiene una identidad legal única que debe ser visible y resistente:
@@ -1113,6 +1102,7 @@ Tu planeador tiene una identidad legal única que debe ser visible y resistente:
 - #strong[Marcas pintadas]: en el fuselaje o la cola (y bajo las alas en algunos casos), más la bandera de España.
 - #strong[Placa de identificación]: de material ignífugo, con la matrícula grabada, fijada a la estructura cerca de la entrada.
 
+]
 = Licencias de personal
 <licencias-de-personal>
 #quote(block: true)[
@@ -1263,6 +1253,7 @@ body_background_color:
 white
 )
 ]
+#postit[
 #strong[Resumen del Capítulo: Licencias]
 
 Para pilotar legalmente necesitas tres cosas:
@@ -1272,6 +1263,7 @@ Para pilotar legalmente necesitas tres cosas:
 - #strong[Experiencia reciente]: en los últimos 24 meses, 5 horas de vuelo (como PIC, doble mando o con FI(S)), 15 lanzamientos y 2 vuelos de entrenamiento con un FI(S). Si no llegas, vuela con instructor hasta cumplirlos o supera una verificación de competencia con un FE(S).
 - #strong[Pasajeros]: requieren experiencia extra (10 h o 30 lanzamientos tras la licencia), un vuelo de entrenamiento con un FI(S) demostrando competencia (salvo que ya seas FI(S)) y 3 lanzamientos en los últimos 90 días.
 
+]
 = Reglas del aire
 <reglas-del-aire>
 #quote(block: true)[
@@ -1427,6 +1419,7 @@ body_background_color:
 white
 )
 ]
+#postit[
 #strong[Resumen del Capítulo: Reglas del Aire]
 
 El reglamento #strong[SERA] es el código de circulación del cielo:
@@ -1435,6 +1428,7 @@ El reglamento #strong[SERA] es el código de circulación del cielo:
 - #strong[Prioridad de paso]: globos \> planeadores \> motor (cede quien más maniobra tiene). En convergencia, paso para el que viene por la derecha. En ladera, prioridad para quien lleva la montaña a su derecha. En aterrizaje, el velero más bajo manda, y los planeadores tienen preferencia sobre los aviones a motor.
 - #strong[Alturas mínimas]: 150 m en general, 300 m sobre zonas pobladas. Los planeadores pueden volar más bajo en ladera (sin riesgo para personas o bienes) y bajar hasta 50 m entrenando tomas fuera de campo, a 150 m de personas y vehículos.
 
+]
 = Procedimientos para navegación aérea: operaciones de aeronaves
 <procedimientos-para-navegación-aérea-operaciones-de-aeronaves>
 #quote(block: true)[
@@ -1685,6 +1679,7 @@ En la práctica: de día y en VFR bastan un reloj de pulsera, el altímetro y el
 
 Queda un procedimiento operativo del syllabus que esta colección desarrolla en otros volúmenes: el #strong[plan de vuelo]. Su operativa por radio está en el #strong[Libro 4 --- Comunicaciones] (cap. 3), el formulario OACI casilla a casilla en el #strong[Libro 7 --- Planificación] (cap. 4) y su relación con los servicios ATS en el #strong[Libro 9 --- Navegación] (cap. 7).
 
+#postit[
 #strong[Resumen del Capítulo: Procedimientos para la Navegación]
 
 - #strong[Mínimos VMC]: regla general, 5 km de visibilidad y nubes a 1.500 m en horizontal / 1.000 ft en vertical. Por debajo de 3.000 ft AMSL (o 1.000 ft AGL) en espacio no controlado basta con 5 km, libre de nubes y suelo a la vista; y volando a menos de 140 kt, la visibilidad puede reducirse a 1.500 m. Por encima de FL 100, 8 km.
@@ -1694,6 +1689,7 @@ Queda un procedimiento operativo del syllabus que esta colección desarrolla en 
 - #strong[Pre-vuelo (SAO.GEN.130)]: antes de iniciar el vuelo, el piloto al mando comprueba que el planeador es aeronavegable, está matriculado y lleva los instrumentos y equipos necesarios instalados y operativos; también verifica masa, centrado, estiba y límites del AFM.
 - #strong[Instrumentos mínimos (SAO.IDE.105)]: hora, altitud de presión y velocidad indicada; los TMG añaden rumbo magnético. En nube o de noche: velocidad vertical, actitud o viraje/resbale, y rumbo magnético.
 
+]
 = Reglamentación de tránsito aéreo: estructura del espacio aéreo
 <reglamentación-de-tránsito-aéreo-estructura-del-espacio-aéreo>
 #quote(block: true)[
@@ -1849,6 +1845,7 @@ body_background_color:
 white
 )
 ]
+#postit[
 #strong[Resumen del Capítulo: Espacio Aéreo]
 
 El cielo está dividido en "cajones" con distintas reglas. No entres sin permiso donde no debes:
@@ -1858,6 +1855,7 @@ El cielo está dividido en "cajones" con distintas reglas. No entres sin permiso
 - #strong[Autorizaciones ATC]: una autorización o instrucción no elimina la responsabilidad del piloto al mando. Si no puedes cumplirla con seguridad, comunícalo de inmediato y coordina una alternativa segura.
 - #strong[Zonas especiales]: en una #strong[RMZ] es obligatorio llevar radio y contactar; en una #strong[TMZ], llevar el transponder encendido y mantener escucha en la frecuencia apropiada.
 
+]
 = Servicio de Tránsito Aéreo (
 <servicio-de-tránsito-aéreo>
 #quote(block: true)[
@@ -1991,6 +1989,7 @@ white
 ]
 Dos remisiones útiles dentro de la colección: las #strong[señales luminosas] con las que una torre puede dirigirte sin radio se estudian en el #strong[Libro 4 --- Comunicaciones], capítulo 7; y el #strong[plan de vuelo], que alimenta este servicio de alerta, en los Libros 4 (operativa), 7 (formulario) y 9 (uso de los ATS).
 
+#postit[
 #strong[Resumen del Capítulo: Servicios de Tránsito Aéreo (ATS)]
 
 El ATS te ofrece tres tipos de ayuda:
@@ -1999,6 +1998,7 @@ El ATS te ofrece tres tipos de ayuda:
 - #strong[Información de vuelo (FIS)]: te dan información útil (meteo, peligros, tráficos cercanos), pero el responsable de evitar colisiones eres tú. "Información de tráfico" no es "separación".
 - #strong[Alerta (ALRS)]: avisa a búsqueda y salvamento (SAR) si no llegas a tiempo o tienes una emergencia.
 
+]
 = Servicios de Información Aeronáutica (AIS)
 <servicios-de-información-aeronáutica-ais>
 #quote(block: true)[
@@ -2091,6 +2091,7 @@ body_background_color:
 white
 )
 ]
+#postit[
 #strong[Resumen del Capítulo: Servicio de Información Aeronáutica (AIS)]
 
 La información es seguridad. Tus fuentes:
@@ -2099,6 +2100,7 @@ La información es seguridad. Tus fuentes:
 - #strong[NOTAM]: la actualidad. Avisos temporales urgentes (una pista cerrada, un festival aéreo, una restricción temporal). Consultarlos antes de cada vuelo es obligatorio.
 - #strong[AIC]: circulares informativas sobre seguridad y cambios administrativos.
 
+]
 = Aeródromos y campos de despegue externos
 <aeródromos-y-campos-de-despegue-externos>
 #quote(block: true)[
@@ -2215,6 +2217,7 @@ El vuelo a vela no siempre empieza ni termina en un aeródromo. El syllabus incl
 - #strong[Responsabilidad del piloto al mando]: eres responsable de verificar que el terreno es adecuado y la operación segura (dimensiones, obstáculos, personas ajenas). Un campo externo no tiene área de señales, ni servicio de información, ni nadie que haya inspeccionado la superficie por ti.
 - #strong[Tras una toma fuera de campo]: la aeronave puede haber causado daños (cultivos, cercados) de los que respondes civilmente; el seguro obligatorio de responsabilidad civil cubre precisamente estos supuestos. Localiza al propietario, documenta el estado del terreno y acuerda la retirada del planeador --- la parte operativa y de trato con el propietario se desarrolla en el Libro 6.
 
+#postit[
 #strong[Resumen del Capítulo: Aeródromos]
 
 En tierra, las reglas visuales mandan:
@@ -2222,6 +2225,7 @@ En tierra, las reglas visuales mandan:
 - #strong[Circuito de tránsito]: virajes a la #strong[izquierda], salvo señal en contrario.
 - #strong[Área de señales]: la manga de viento indica dirección e intensidad; la T tumbada, la dirección de aterrizaje y despegue; la flecha derecha avisa de virajes a la derecha; la cruz roja con diagonales amarillas prohíbe aterrizar; el panel rojo con una sola diagonal pide precaución por mal estado del área de maniobras; y la doble cruz blanca anuncia planeadores en actividad.
 
+]
 = Búsqueda y salvamento
 <búsqueda-y-salvamento>
 #quote(block: true)[
@@ -2328,6 +2332,7 @@ body_background_color:
 white
 )
 ]
+#postit[
 #strong[Resumen del Capítulo: Búsqueda y Salvamento (SAR)]
 
 Si algo sale mal, el SAR te buscará. Conoce las fases:
@@ -2337,6 +2342,7 @@ Si algo sale mal, el SAR te buscará. Conoce las fases:
 - #strong[DETRESFA (Socorro)]: peligro grave e inminente. Combustible agotado, posible aterrizaje forzoso o necesidad de ayuda inmediata.
 - #strong[Señales tierra-aire]: #strong[V] = necesito ayuda; #strong[X] = necesito ayuda médica; #strong[N] = no; #strong[Y] = sí.
 
+]
 = Seguridad
 <seguridad>
 #quote(block: true)[
@@ -2420,6 +2426,7 @@ body_background_color:
 white
 )
 ]
+#postit[
 #strong[Resumen del Capítulo: Seguridad (Security)]
 
 Ojo a la diferencia en inglés:
@@ -2428,6 +2435,7 @@ Ojo a la diferencia en inglés:
 - #strong[SECURITY]: seguridad física. Que no te roben el avión ni pongan una bomba.
 - #strong[Tu deber]: no dejar el avión abierto o accesible a desconocidos, no llevar mercancías peligrosas (salvo excepciones aprobadas) y respetar las zonas restringidas de los aeropuertos.
 
+]
 = Notificación de accidentes
 <notificación-de-accidentes>
 #quote(block: true)[
@@ -2543,6 +2551,7 @@ body_background_color:
 white
 )
 ]
+#postit[
 #strong[Resumen del Capítulo: Accidentes e Incidentes]
 
 - #strong[Accidente]: hay lesiones mortales o graves, daños estructurales al avión, o la aeronave desaparece o queda inaccesible.
@@ -2550,6 +2559,7 @@ white
 - #strong[Obligación]: comunicarlo #strong[sin demora] a la #strong[CIAIAC]\; notificar el suceso a #strong[AESA] en un plazo máximo de #strong[72 horas].
 - #strong[Pruebas]: no toques nada, salvo para salvar vidas o evitar otro peligro. Preservar los restos es vital para la investigación.
 
+]
 = Derecho nacional
 <derecho-nacional>
 #quote(block: true)[
@@ -2690,6 +2700,7 @@ body_background_color:
 white
 )
 ]
+#postit[
 #strong[Resumen del Capítulo: Derecho Nacional]
 
 Además de Europa, en España manda la #strong[Ley de Seguridad Aérea (LSA 21/2003)].
@@ -2698,6 +2709,7 @@ Además de Europa, en España manda la #strong[Ley de Seguridad Aérea (LSA 21/2
 - #strong[DGAC]: define la política aeronáutica (las "reglas del juego").
 - #strong[AESA]: vigila y sanciona (el "árbitro").
 
+]
 #show: appendices.with("Apéndices", hide-parent: true)
 #heading(level: 1, numbering: none)[Apéndices]
 = Syllabus Oficial EASA - Derecho Aéreo
@@ -2960,3 +2972,56 @@ La OACI desarrolla las normas y métodos recomendados (SARPS) mediante 19 anexos
 - #strong[Glider Flying Handbook (FAA-H-8083-13B)]. Federal Aviation Administration (FAA), U.S. Department of Transportation. Obra en dominio público; fuente de buena parte de las ilustraciones técnicas de la colección. #link("https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/glider_handbook")
 - #strong[Methodik der Segelflugausbildung] (#emph[Segelflugrechte], Rev.~2). Deutscher Aero Club (DAeC), 2022. Metodología alemana de instrucción de vuelo a vela. #link("https://www.daec.de/media/files/2022/Sportarten/Segelflug/Methodik_der_Segelflugausbildung_Segelflugrechte_Rev.2.pdf")
 - #strong[Vuelo sin motor: técnicas avanzadas]. Helmut Reichmann. Edición española de la obra de referencia internacional sobre la técnica del vuelo de distancia (orig. #emph[Streckensegelflug]\; ed.~inglesa, #emph[Cross-Country Soaring]). ISBN 978-84-283-1567-8.
+
+#heading(level: 1, numbering: none)[Información Legal y Licencia]
+<información-legal-y-licencia>
+#strong[Atribución y Fuentes]
+
+#quote(block: true)[
+El #strong[temario de esta colección ---el índice--- está avalado por AESA] (Agencia Estatal de Seguridad Aérea), la autoridad aeronáutica civil de España. Este aval certifica que el programa de formación teórica para la Licencia de Piloto de Planeador (SPL) es conforme al syllabus del AMC1 SFCL.130; no obstante, el desarrollo del contenido es responsabilidad exclusiva de los autores.
+
+El contenido se basa en la síntesis de normativas oficiales, estándares de seguridad de la #strong[OACI] (Organización de Aviación Civil Internacional) y de #strong[EASA] (European Union Aviation Safety Agency), así como de las mejores prácticas de la comunidad de vuelo a vela española, recogidas por varios instructores, y recopiladas por el instructor Iñaqui Ulibarri García de la Cueva para los aeroclubs de Ocaña y Fuentemilanos.
+]
+
+#strong[EXENCIÓN DE RESPONSABILIDAD - USO BAJO PROPIO RIESGO]
+
+La aviación es una actividad que conlleva riesgos inherentes. Aunque se ha realizado un esfuerzo exhaustivo para garantizar la precisión técnica de este manual utilizando fuentes oficiales actualizadas:
+
+- #strong[Los autores, editores y colaboradores NO asumen responsabilidad alguna] por daños personales, materiales o de cualquier otra índole que pudieran derivarse de interpretaciones erróneas o errores técnicos en el texto.
+- Este manual es una #strong[herramienta de apoyo al estudio] y no sustituye en ningún caso ni a la instrucción teórica ni a la práctica obligatoria con un instructor de vuelo cualificado (FI(S)).
+- En caso de discrepancia con la normativa vigente publicada por AESA o EASA, prevalecerá siempre el texto legal oficial de la autoridad aeronáutica.
+
+#strong[LICENCIA]
+
+Esta obra se distribuye bajo licencia #strong[Creative Commons Atribución 4.0 Internacional (CC BY 4.0)].
+
+Usted es libre de:
+
+- #strong[Compartir]: Copiar y redistribuir el material en cualquier medio.
+- #strong[Adaptar]: Remezclar, transformar y construir a partir del material para cualquier propósito incluso comercialmente.
+
+Bajo los siguientes términos:
+
+- #strong[Atribución]: Debe otorgar el crédito correspondiente, proporcionar un enlace a la licencia e indicar si se realizaron cambios. Puede hacerlo de cualquier manera razonable, pero no de una manera que sugiera que el licenciante lo respalda a usted o a su uso.
+
+Más información: #link("https://creativecommons.org/licenses/by/4.0/deed.es")
+
+#strong[Proyecto]
+
+Manual de vuelo para la obtención de la licencia de piloto de planeador (SPL)
+
+#strong[Coordinación]
+
+VuelaLibre.net
+
+#strong[Repositorio]
+
+#link("https://github.com/VuelaLibreNet/manual-spl")
+
+#strong[Licencia]
+
+CC BY 4.0
+
+#strong[Fuentes]
+
+AESA, EASA, OACI, SERA, AMCs & GM, LSA, manuales de vuelo de Fuentemilanos, FAA Glider Flying Handbook, y manuales de vuelo de otros paises de la UE.

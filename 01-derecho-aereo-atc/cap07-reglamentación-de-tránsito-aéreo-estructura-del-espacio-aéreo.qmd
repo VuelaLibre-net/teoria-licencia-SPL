@@ -64,6 +64,7 @@ El espacio aéreo puede tener "candados" por seguridad o defensa, marcados con c
 Infringir una zona P o R activa puede llevar a sanciones graves e incluso a la interceptación por aviones militares. Planifica tu vuelo y comprueba los NOTAM para saber si las zonas R están activas. Las señales de interceptación y el procedimiento de respuesta (SERA.11015) se estudian en el Libro 4 (*Comunicaciones*), capítulo 8.
 :::
 
+::: {.postit}
 **Resumen del Capítulo: Espacio Aéreo**
 
 El cielo está dividido en "cajones" con distintas reglas. No entres sin permiso donde no debes:
@@ -72,3 +73,5 @@ El cielo está dividido en "cajones" con distintas reglas. No entres sin permiso
 * **Clase G (no controlada)**: vuelas bajo tu responsabilidad, con "ver y evitar". Puedes recibir servicio de información de vuelo (FIS) si está disponible y lo solicitas, pero nadie te separa.
 * **Autorizaciones ATC**: una autorización o instrucción no elimina la responsabilidad del piloto al mando. Si no puedes cumplirla con seguridad, comunícalo de inmediato y coordina una alternativa segura.
 * **Zonas especiales**: en una **RMZ** es obligatorio llevar radio y contactar; en una **TMZ**, llevar el transponder encendido y mantener escucha en la frecuencia apropiada.
+:::
+

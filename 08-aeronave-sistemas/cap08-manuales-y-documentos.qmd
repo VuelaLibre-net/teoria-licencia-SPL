@@ -67,9 +67,12 @@ Cada hora de vuelo y cada aterrizaje quedan registrados en el **Diario de la Aer
 
 ![Documentación obligatoria del planeador y carpeta de a bordo](imagenes/08-cap08-documentos-bordo.jpg){#fig-08-cap08-documentos-bordo}
 
+::: {.postit}
 **Resumen del capítulo: documentación del avión**
 
 * **Manual de Vuelo (AFM)**: a bordo en cada vuelo (salvo vuelos a la vista del aeródromo). Contiene los límites (V~NE~, factores de carga), los procedimientos de emergencia y las tablas de carga. Léelo antes de volar un modelo nuevo.
 * **Certificados**: el avión necesita certificado de aeronavegabilidad, ARC en vigor, seguro y licencia de estación de radio. Pueden quedarse en el aeródromo (SAO.GEN.155). Sin ARC en vigor, el seguro no cubre nada.
 * **Chequeos**: CB-SIFT-CBE antes de despegar, FUSTALL/WULF en viento en cola. Lee, comprueba y confirma; nunca de memoria.
 * **Diario técnico**: antes de volar, mira que no haya averías pendientes que te afecten. Al acabar, anota tu vuelo y cualquier incidencia.
+:::
+

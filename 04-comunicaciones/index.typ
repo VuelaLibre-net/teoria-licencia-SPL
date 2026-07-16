@@ -446,6 +446,43 @@
 #show terms.item: it => block(breakable: false, below: 0.95em, width: 100%)[
   #text(weight: "bold")[#it.term]#h(0.35em)#sym.dash.em#h(0.35em)#_glosario-descripcion(it.description)
 ]
+// Resumen de capítulo con aspecto de post-it, como en el AsciiDoc original.
+//
+// Colores tomados literalmente del tema de origen
+// (aesa-spl-oficial/recursos/temas/pdf-theme.yml, rol `postit`):
+//   fondo #FFF9C4, borde #FBC02D 1pt, radio 4pt, texto #5D4037 a 10.5pt.
+//
+// La única desviación es la fuente. El tema pedía Roboto; aquí se usa Libertinus
+// Sans, que viaja dentro de Typst. Roboto está en la máquina de desarrollo pero
+// no en el runner del CI, y Typst no falla ante una fuente ausente: cae a otra
+// en silencio, con lo que los entregables oficiales saldrían distintos sin que
+// nadie se entere. Libertinus Sans mantiene el contraste de palo seco contra el
+// cuerpo en serifa y renderiza igual en cualquier sitio.
+//
+// El bloque es partible a propósito: algunos resúmenes no caben en una página y
+// un bloque no partible se saldría del papel.
+
+#let postit(body) = block(
+  fill: rgb("#FFF9C4"),
+  stroke: 1pt + rgb("#FBC02D"),
+  radius: 4pt,
+  inset: 0.6cm,
+  width: 100%,
+  above: 1.4em,
+  below: 1.4em,
+  breakable: true,
+  {
+    // El cuerpo hereda la sangría de primera línea, que dentro de una caja
+    // descoloca el primer renglón contra el borde.
+    set par(first-line-indent: 0em)
+    text(
+      font: "Libertinus Sans",
+      size: 10.5pt,
+      fill: rgb("#5D4037"),
+      body,
+    )
+  },
+)
 #import "@preview/fontawesome:0.5.0": *
 #let brand-color = (:)
 #let brand-color-background = (:)
@@ -494,59 +531,6 @@
 #heading(level: 1, numbering: none)[Comunicaciones]
 <comunicaciones>
 Bienvenido a la versión digitalizada de este manual de formación SPL.
-
-#heading(level: 1, numbering: none)[Información Legal y Licencia]
-<información-legal-y-licencia>
-#strong[Atribución y Fuentes]
-
-#quote(block: true)[
-El #strong[temario de esta colección ---el índice--- está avalado por AESA] (Agencia Estatal de Seguridad Aérea), la autoridad aeronáutica civil de España. Este aval certifica que el programa de formación teórica para la Licencia de Piloto de Planeador (SPL) es conforme al syllabus del AMC1 SFCL.130; no obstante, el desarrollo del contenido es responsabilidad exclusiva de los autores.
-
-El contenido se basa en la síntesis de normativas oficiales, estándares de seguridad de la #strong[OACI] (Organización de Aviación Civil Internacional) y de #strong[EASA] (European Union Aviation Safety Agency), así como de las mejores prácticas de la comunidad de vuelo a vela española, recogidas por varios instructores, y recopiladas por el instructor Iñaqui Ulibarri García de la Cueva para los aeroclubs de Ocaña y Fuentemilanos.
-]
-
-#strong[EXENCIÓN DE RESPONSABILIDAD - USO BAJO PROPIO RIESGO]
-
-La aviación es una actividad que conlleva riesgos inherentes. Aunque se ha realizado un esfuerzo exhaustivo para garantizar la precisión técnica de este manual utilizando fuentes oficiales actualizadas:
-
-- #strong[Los autores, editores y colaboradores NO asumen responsabilidad alguna] por daños personales, materiales o de cualquier otra índole que pudieran derivarse de interpretaciones erróneas o errores técnicos en el texto.
-- Este manual es una #strong[herramienta de apoyo al estudio] y no sustituye en ningún caso ni a la instrucción teórica ni a la práctica obligatoria con un instructor de vuelo cualificado (FI(S)).
-- En caso de discrepancia con la normativa vigente publicada por AESA o EASA, prevalecerá siempre el texto legal oficial de la autoridad aeronáutica.
-
-#strong[LICENCIA]
-
-Esta obra se distribuye bajo licencia #strong[Creative Commons Atribución 4.0 Internacional (CC BY 4.0)].
-
-Usted es libre de:
-
-- #strong[Compartir]: Copiar y redistribuir el material en cualquier medio.
-- #strong[Adaptar]: Remezclar, transformar y construir a partir del material para cualquier propósito incluso comercialmente.
-
-Bajo los siguientes términos:
-
-- #strong[Atribución]: Debe otorgar el crédito correspondiente, proporcionar un enlace a la licencia e indicar si se realizaron cambios. Puede hacerlo de cualquier manera razonable, pero no de una manera que sugiera que el licenciante lo respalda a usted o a su uso.
-
-Más información: #link("https://creativecommons.org/licenses/by/4.0/deed.es")
-
-#strong[Proyecto]
-
-Manual de vuelo para la obtención de la licencia de piloto de planeador (SPL)
-
-#strong[Coordinación]
-
-VuelaLibre.net
-
-#strong[Repositorio]
-
-#link("https://github.com/VuelaLibreNet/manual-spl")
-
-#strong[Licencia]
-
-CC BY 4.0
-
-#strong[Fuentes]
-
-AESA, EASA, OACI, SERA, AMCs & GM, LSA, manuales de vuelo de Fuentemilanos, FAA Glider Flying Handbook, y manuales de vuelo de otros paises de la UE.
 
 #heading(level: 1, numbering: none)[Dedicatoria]
 <dedicatoria>
@@ -604,8 +588,8 @@ Ramón Gutiérrez Camus (SPL)
 
 Piloto de Vuelo a Vela. Edición técnica
 
-#heading(level: 1, numbering: none)[Índice de ilustraciones]
-<índice-de-ilustraciones>
+#heading(level: 1, numbering: none)[Introducción]
+<introducción>
 #strong[#emph[Tema 4 de 9 del examen teórico para la Licencia de Piloto de Planeador (SPL)]]
 
 La radio paraliza a más alumnos de vuelo que la pérdida aerodinámica. No porque la física sea difícil, sino porque nadie les ha explicado el sistema: qué dice el piloto, qué responde el controlador y por qué cada elemento de esa conversación tiene una razón de seguridad detrás.
@@ -945,6 +929,7 @@ body_background_color:
 white
 )
 ]
+#postit[
 #strong[Resumen del capítulo: Definiciones y técnica]
 
 - #strong[Introducción]: Las comunicaciones aeronáuticas de voz se realizan en VHF (118--136,975 MHz), reguladas por el Anexo 10 de la OACI. El espaciado de canales en Europa es de 8,33 kHz (Reglamento UE 1079/2012). La estación en tierra es la «estación aeronáutica»; el piloto opera desde la «estación de aeronave».
@@ -954,6 +939,7 @@ white
 - #strong[Transmisión de números, horas y frecuencias]: Números dígito a dígito («#emph[tres cuatro]», nunca «treinta y cuatro»); centenas y miles exactos como unidades («#emph[dos mil seiscientos]»). Horas en UTC, normalmente solo los minutos. Frecuencias con «coma»: «#emph[uno dos cuatro coma cuatro cero]». Colaciona siempre el nuevo canal antes de cambiar.
 - #strong[Identificación]: La matrícula es el nombre de la aeronave. Primer contacto: matrícula completa en fonético. Matrícula abreviada: solo cuando la torre la use primero.
 
+]
 = Comunicaciones VFR en aeródromos no controlados
 <comunicaciones-vfr-en-aeródromos-no-controlados>
 #quote(block: true)[
@@ -1243,6 +1229,7 @@ body_background_color:
 white
 )
 ]
+#postit[
 #strong[Resumen del Capítulo: Aeródromos No Controlados]
 
 - #strong[Autoinformación]: En el campo sin torre, tú eres el controlador. Transmite «al aire» tu posición e intenciones. «Fuentemilanos, velero EC-BRT, viento en cola pista 34».
@@ -1251,6 +1238,7 @@ white
 - #strong[Circuito Estándar]: Si nadie indica lo contrario, el circuito es a izquierdas. Notifica: entrada, viento en cola, base y final.
 - #strong[Lanzamiento (torno/remolcador)]: Con torno: «Listo tensando» → «Remolcando x3» → «Cable libre». Abortar: «Stop torno x3». Fallo bajo (por debajo de 150 m en torno): recto al frente, nunca regreses virando.
 
+]
 = Comunicaciones VFR en aeródromos controlados
 <comunicaciones-vfr-en-aeródromos-controlados>
 #quote(block: true)[
@@ -1437,6 +1425,7 @@ La Torre transmite: #emph[«Eco Papa Eco, entre y mantenga posición pista 30.»
 
 #strong[Solución.] No.~«Entre y mantenga posición» (#strong[line up and wait]) te autoriza a ocupar la pista, pero #strong[no] a despegar; para eso hace falta un «autorizado a despegar» explícito. Colación: #emph[«Entro y mantengo posición pista 30, Eco Papa Eco.»]
 
+#postit[
 #strong[Resumen del Capítulo: Aeródromos Controlados]
 
 - #strong[Autorización (Clearance)]: En espacio controlado, la palabra de la Torre es ley. Necesitas autorización explícita para todo: arrancar, rodar, despegar, entrar en zona. Si no oyes «autorizado», no te muevas.
@@ -1444,6 +1433,7 @@ La Torre transmite: #emph[«Eco Papa Eco, entre y mantenga posición pista 30.»
 - #strong[Puntos de Notificación]: Son las puertas de entrada/salida visual al CTR (Sierra, Norte, Eco…​). Conócelos bien en la carta VAC y notifica sobre ellos con precisión.
 - #strong[Colacionar Todo]: En controlado es vital. Repite cada instrucción, sin el viento y con tu indicativo al final. «Autorizado a aterrizar pista 36, Eco Papa Eco».
 
+]
 = Comunicaciones VFR con ATC (en ruta)
 <comunicaciones-vfr-con-atc-en-ruta>
 #quote(block: true)[
@@ -1582,12 +1572,14 @@ body_background_color:
 white
 )
 ]
+#postit[
 #strong[Resumen del Capítulo: Comunicaciones en Ruta]
 
 - #strong[Servicio de Información de Vuelo (FIS)]: Es un servicio de asesoramiento, no de control. Te informan sobre tráficos y meteorología (si tienen carga de trabajo), pero la separación sigue siendo tu responsabilidad. "Para información, contacto con Madrid Información…​".
 - #strong[Cambio de Frecuencia]: Nunca te "esfumes" de una frecuencia controlada o de información. Solicita el cambio o avisa de que abandonas la frecuencia. "Madrid, EC-DPE para pasar a frecuencia de club 123.500".
 - #strong[Transpondedor en ruta]: Si dispones de transpondedor, código VFR por defecto: #strong[7000]. Emergencias: #strong[7700] (emergencia activa --- #strong[Mayday]) y #strong[7600] (fallo de radio --- ver cap. 7). Solo usar ante la emergencia real.
 
+]
 = Procedimientos operativos generales
 <procedimientos-operativos-generales>
 #quote(block: true)[
@@ -1859,6 +1851,7 @@ Las radios VHF aeronáuticas van de #strong[118 MHz a 136,975 MHz] con modulaci�
 <obligatoriedad-del-espaciado-833-khz>
 Los detalles técnicos y la normativa sobre el espaciado de canales VHF se desarrollan en el capítulo 9. Como regla práctica para la operación: compruebe que su equipo es #strong[8,33 kHz compliant] antes de volar --- una radio de 25 kHz no puede sintonizar la mayoría de frecuencias modernas del ATC europeo. En la práctica, ese requisito se reconoce por el marcado #strong[ETSO-C169a], el estándar técnico europeo que certifica una radio VHF para el espaciado de 8,33 kHz.
 
+#postit[
 #strong[Resumen del Capítulo: Procedimientos Operativos Generales]
 
 - #strong[Esquema de llamada]: A quién → Quién soy → Dónde estoy → Qué necesito. Al colacionar, el indicativo va al final. En autoinformación, el indicativo va al principio.
@@ -1870,6 +1863,7 @@ Los detalles técnicos y la normativa sobre el espaciado de canales VHF se desar
 - #strong[Técnica de micrófono]: Micrófono cerca de los labios pero sin tocarlos. Volumen normal y constante. Gritar satura la señal y reduce la inteligibilidad.
 - #strong[Equipos de radio]: Panel (6--10 W, antena exterior) o portátil (1--5 W, respaldo). Obligatorio espaciado 8,33 kHz (Reglamento UE 1079/2012); el marcado #strong[ETSO-C169a] certifica que la radio cumple esa canalización.
 
+]
 = Términos de información meteorológica relevantes para VFR
 <términos-de-información-meteorológica-relevantes-para-vfr>
 #quote(block: true)[
@@ -2028,6 +2022,7 @@ body_background_color:
 white
 )
 ]
+#postit[
 #strong[Resumen del capítulo: terminología meteorológica]
 
 - #strong[ATIS]: Voz automática en aeropuertos. Escucharla antes de llamar proporciona pista en uso, viento, QNH y el #strong[código de información] (p.~ej., «Información Bravo»). Ahorra tiempo al controlador y agiliza la comunicación.
@@ -2038,6 +2033,7 @@ white
 - #strong[Viento]: La Torre y el ATIS facilitan el viento referido al Norte Magnético (igual que la numeración de pistas). En mapas, METAR/TAF en texto y VOLMET el viento viene referido al Norte Geográfico (verdadero).
 - #strong[AIREP]: Informe emitido obligatoriamente por el piloto en vuelo para notificar a otras aeronaves sobre fenómenos meteorológicos severos no pronosticados.
 
+]
 = Acciones ante fallo de comunicaciones
 <acciones-ante-fallo-de-comunicaciones>
 #quote(block: true)[
@@ -2185,6 +2181,7 @@ La idea es simple: sigues transmitiendo posición e intenciones en la frecuencia
 
 Transmite cada mensaje completo dos veces: sin acuse de recibo, la repetición es tu única garantía de que llegue entero. Y repite el aviso en cada cambio de tramo del circuito o al iniciar el descenso en final. El controlador puede estar recibiéndote perfectamente en tierra y coordinando el tráfico a partir de lo que narras, aunque tú no puedas confirmarlo.
 
+#postit[
 #strong[Resumen del capítulo: fallo de comunicaciones]
 
 - #strong[Código 7600]: Al confirmar el fallo de radio, seleccione 7600 en el transpondedor. La aeronave aparecerá destacada en la pantalla del radar secundario (SSR) como situación NORDO.
@@ -2192,6 +2189,7 @@ Transmite cada mensaje completo dos veces: sin acuse de recibo, la repetición e
 - #strong[Señales de luces (SERA)]: #emph[Verde fija] (vuelo) = autorizado a aterrizar. #emph[Roja fija] (vuelo) = ceda el paso. #emph[Destellos rojos] (vuelo) = aeródromo peligroso. #emph[Destellos verdes] (vuelo) = regrese para aterrizar. #emph[Destellos blancos] (vuelo) = aterrice en este aeródromo. Las señales equivalentes en tierra tienen significados distintos: #emph[verde fija] = autorizado para despegar; #emph[destellos verdes] = autorizado para rodar.
 - #strong[Transmisión a ciegas]: Si solo falla el receptor, transmita posición e intenciones en la frecuencia correcta precediendo el mensaje con «Transmitiendo a ciegas debido a fallo del receptor». Repítalo en cada cambio de tramo.
 
+]
 = Procedimientos de socorro y urgencia
 <procedimientos-de-socorro-y-urgencia>
 #quote(block: true)[
@@ -2450,6 +2448,7 @@ body_background_color:
 white
 )
 ]
+#postit[
 #strong[Resumen del capítulo: procedimientos de socorro y urgencia]
 
 - #strong[MAYDAY (x3)]: Exclusivo para situaciones de peligro #strong[GRAVE E INMINENTE] con riesgo vital (fuego, colisión, fallo estructural). Otorga prioridad absoluta e impone silencio total de radio al resto de tráficos.
@@ -2458,6 +2457,7 @@ white
 - #strong[Frecuencia recomendada]: La mejor frecuencia es aquella donde el vuelo ya está establecido en contacto. Si falla o no hay respuesta, pasar a la frecuencia internacional de emergencia 121.500 MHz.
 - #strong[Interceptación (SERA.11015)]: interceptor alabeando por delante y a tu izquierda = «Sígame» (responde alabeando y siguiéndole); viraje ascendente brusco de 90° o más = «Prosiga»; tren desplegado y faros encendidos sobre la pista = «Aterrice en este aeródromo». Procedimiento: seguir las instrucciones visuales + notificar al ATS + llamada en 121,500 MHz + squawk 7700. #strong[Las instrucciones del interceptor prevalecen sobre cualquier otra fuente, incluido el ATC], mientras se solicita aclaración. A bordo debe llevarse copia de las señales (SAO.GEN.155).
 
+]
 = Principios generales de propagación VHF y asignación de frecuencias
 <principios-generales-de-propagación-vhf-y-asignación-de-frecuencias>
 #quote(block: true)[
@@ -2655,6 +2655,7 @@ Llevarlo operativo es obligatorio dentro de una #strong[TMZ] (#emph[Transponder 
 - #strong[7700]: Emergencia general.
 - #strong[Botón IDENT]: Hace parpadear tu etiqueta en el radar. Púlsalo #strong[solo] cuando el controlador lo pida expresamente («#emph[Squawk ident]»).
 
+#postit[
 #strong[Resumen del Capítulo: Principios de Propagación VHF]
 
 - #strong[Alcance Visual]: Las ondas VHF viajan en línea recta. Si hay una montaña entre la antena y tú, no te oirán. La altura es tu aliada: a mayor altitud, mayor alcance (1.23 1.23 ).
@@ -2664,6 +2665,7 @@ Llevarlo operativo es obligatorio dentro de una #strong[TMZ] (#emph[Transponder 
 - #strong[Frecuencias clave]: 121,500 MHz (emergencia internacional, escucha permanente). 122,600 / 123,375 / 123,400 MHz (vuelo a vela). 123,450 MHz (charla entre pilotos). 123,500 MHz (aeródromo no controlado genérico). FIS regionales: consultar AIP España GEN 3.3.
 - #strong[Transpondedor (XPDR)]: Responde automáticamente al radar secundario (SSR). Códigos: #strong[7000] (VFR estándar), #strong[7600] (fallo de radio --- NORDO), #strong[7700] (emergencia activa). Obligatorio en zonas TMZ (SERA.6005 b) --- descritas en AIP-España ENR 2.1, carta ENR 6--- y donde lo exijan la clase de espacio aéreo o el AIP (ENR 1.6): clases A y C, y D generalmente. Botón #strong[IDENT]: solo cuando lo pida el ATC.
 
+]
 #show: appendices.with("Apéndices", hide-parent: true)
 #heading(level: 1, numbering: none)[Apéndices]
 = Syllabus Oficial EASA - Comunicaciones
@@ -2956,3 +2958,56 @@ La OACI desarrolla las normas y métodos recomendados (SARPS) mediante 19 anexos
 - #strong[Glider Flying Handbook (FAA-H-8083-13B)]. Federal Aviation Administration (FAA), U.S. Department of Transportation. Obra en dominio público; fuente de buena parte de las ilustraciones técnicas de la colección. #link("https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/glider_handbook")
 - #strong[Methodik der Segelflugausbildung] (#emph[Segelflugrechte], Rev.~2). Deutscher Aero Club (DAeC), 2022. Metodología alemana de instrucción de vuelo a vela. #link("https://www.daec.de/media/files/2022/Sportarten/Segelflug/Methodik_der_Segelflugausbildung_Segelflugrechte_Rev.2.pdf")
 - #strong[Vuelo sin motor: técnicas avanzadas]. Helmut Reichmann. Edición española de la obra de referencia internacional sobre la técnica del vuelo de distancia (orig. #emph[Streckensegelflug]\; ed.~inglesa, #emph[Cross-Country Soaring]). ISBN 978-84-283-1567-8.
+
+#heading(level: 1, numbering: none)[Información Legal y Licencia]
+<información-legal-y-licencia>
+#strong[Atribución y Fuentes]
+
+#quote(block: true)[
+El #strong[temario de esta colección ---el índice--- está avalado por AESA] (Agencia Estatal de Seguridad Aérea), la autoridad aeronáutica civil de España. Este aval certifica que el programa de formación teórica para la Licencia de Piloto de Planeador (SPL) es conforme al syllabus del AMC1 SFCL.130; no obstante, el desarrollo del contenido es responsabilidad exclusiva de los autores.
+
+El contenido se basa en la síntesis de normativas oficiales, estándares de seguridad de la #strong[OACI] (Organización de Aviación Civil Internacional) y de #strong[EASA] (European Union Aviation Safety Agency), así como de las mejores prácticas de la comunidad de vuelo a vela española, recogidas por varios instructores, y recopiladas por el instructor Iñaqui Ulibarri García de la Cueva para los aeroclubs de Ocaña y Fuentemilanos.
+]
+
+#strong[EXENCIÓN DE RESPONSABILIDAD - USO BAJO PROPIO RIESGO]
+
+La aviación es una actividad que conlleva riesgos inherentes. Aunque se ha realizado un esfuerzo exhaustivo para garantizar la precisión técnica de este manual utilizando fuentes oficiales actualizadas:
+
+- #strong[Los autores, editores y colaboradores NO asumen responsabilidad alguna] por daños personales, materiales o de cualquier otra índole que pudieran derivarse de interpretaciones erróneas o errores técnicos en el texto.
+- Este manual es una #strong[herramienta de apoyo al estudio] y no sustituye en ningún caso ni a la instrucción teórica ni a la práctica obligatoria con un instructor de vuelo cualificado (FI(S)).
+- En caso de discrepancia con la normativa vigente publicada por AESA o EASA, prevalecerá siempre el texto legal oficial de la autoridad aeronáutica.
+
+#strong[LICENCIA]
+
+Esta obra se distribuye bajo licencia #strong[Creative Commons Atribución 4.0 Internacional (CC BY 4.0)].
+
+Usted es libre de:
+
+- #strong[Compartir]: Copiar y redistribuir el material en cualquier medio.
+- #strong[Adaptar]: Remezclar, transformar y construir a partir del material para cualquier propósito incluso comercialmente.
+
+Bajo los siguientes términos:
+
+- #strong[Atribución]: Debe otorgar el crédito correspondiente, proporcionar un enlace a la licencia e indicar si se realizaron cambios. Puede hacerlo de cualquier manera razonable, pero no de una manera que sugiera que el licenciante lo respalda a usted o a su uso.
+
+Más información: #link("https://creativecommons.org/licenses/by/4.0/deed.es")
+
+#strong[Proyecto]
+
+Manual de vuelo para la obtención de la licencia de piloto de planeador (SPL)
+
+#strong[Coordinación]
+
+VuelaLibre.net
+
+#strong[Repositorio]
+
+#link("https://github.com/VuelaLibreNet/manual-spl")
+
+#strong[Licencia]
+
+CC BY 4.0
+
+#strong[Fuentes]
+
+AESA, EASA, OACI, SERA, AMCs & GM, LSA, manuales de vuelo de Fuentemilanos, FAA Glider Flying Handbook, y manuales de vuelo de otros paises de la UE.

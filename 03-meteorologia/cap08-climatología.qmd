@@ -72,9 +72,12 @@ Este imparable avance de aire marino forzado tierra adentro se convierte en exte
 Las líneas de convergencia generadas por la Baja Térmica Peninsular son autopistas de sustentación en verano. Identifícalas en las previsiones de modelos RASP o Skysight y planifica tu ruta de cross-country siguiéndolas: con brisa bien establecida, una sola línea de convergencia puede regalarte decenas de kilómetros sin perder altitud.
 :::
 
+::: {.postit}
 **Resumen del Capítulo: Climatología**
 
 * **España, país de contrastes**: Tenemos condiciones mundiales para el vuelo. Viento y **Onda de Montaña** en invierno/primavera (Pirineos, Sistema Central) y potentes **Térmicas** en verano (La Mancha, zonas interiores).
 * **Vientos Locales**: Cada valle tiene su dueño. Los vientos anabáticos y catabáticos definen la mañana y la tarde en zonas montañosas. Los rotores de sotavento son la trampa invisible del piloto imprudente.
 * **Estacionalidad**: La primavera ofrece inestabilidad y buen vuelo local. El verano trae techos altos y tormentas secas de calor. El otoño suele traer lluvias y DANA.
 * **Baja Térmica Peninsular**: En verano, el sol calienta tanto el centro de España que se forma una baja presión permanente. Esto succiona aire del mar, reforzando las brisas costeras que penetran muy adentro y generan líneas de convergencia ideales para el cross-country.
+:::
+

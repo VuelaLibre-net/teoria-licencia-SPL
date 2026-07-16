@@ -446,6 +446,43 @@
 #show terms.item: it => block(breakable: false, below: 0.95em, width: 100%)[
   #text(weight: "bold")[#it.term]#h(0.35em)#sym.dash.em#h(0.35em)#_glosario-descripcion(it.description)
 ]
+// Resumen de capítulo con aspecto de post-it, como en el AsciiDoc original.
+//
+// Colores tomados literalmente del tema de origen
+// (aesa-spl-oficial/recursos/temas/pdf-theme.yml, rol `postit`):
+//   fondo #FFF9C4, borde #FBC02D 1pt, radio 4pt, texto #5D4037 a 10.5pt.
+//
+// La única desviación es la fuente. El tema pedía Roboto; aquí se usa Libertinus
+// Sans, que viaja dentro de Typst. Roboto está en la máquina de desarrollo pero
+// no en el runner del CI, y Typst no falla ante una fuente ausente: cae a otra
+// en silencio, con lo que los entregables oficiales saldrían distintos sin que
+// nadie se entere. Libertinus Sans mantiene el contraste de palo seco contra el
+// cuerpo en serifa y renderiza igual en cualquier sitio.
+//
+// El bloque es partible a propósito: algunos resúmenes no caben en una página y
+// un bloque no partible se saldría del papel.
+
+#let postit(body) = block(
+  fill: rgb("#FFF9C4"),
+  stroke: 1pt + rgb("#FBC02D"),
+  radius: 4pt,
+  inset: 0.6cm,
+  width: 100%,
+  above: 1.4em,
+  below: 1.4em,
+  breakable: true,
+  {
+    // El cuerpo hereda la sangría de primera línea, que dentro de una caja
+    // descoloca el primer renglón contra el borde.
+    set par(first-line-indent: 0em)
+    text(
+      font: "Libertinus Sans",
+      size: 10.5pt,
+      fill: rgb("#5D4037"),
+      body,
+    )
+  },
+)
 #import "@preview/fontawesome:0.5.0": *
 #let brand-color = (:)
 #let brand-color-background = (:)
@@ -494,59 +531,6 @@
 #heading(level: 1, numbering: none)[Meteorología]
 <meteorología>
 Bienvenido a la versión digitalizada de este manual de formación SPL.
-
-#heading(level: 1, numbering: none)[Información Legal y Licencia]
-<información-legal-y-licencia>
-#strong[Atribución y Fuentes]
-
-#quote(block: true)[
-El #strong[temario de esta colección ---el índice--- está avalado por AESA] (Agencia Estatal de Seguridad Aérea), la autoridad aeronáutica civil de España. Este aval certifica que el programa de formación teórica para la Licencia de Piloto de Planeador (SPL) es conforme al syllabus del AMC1 SFCL.130; no obstante, el desarrollo del contenido es responsabilidad exclusiva de los autores.
-
-El contenido se basa en la síntesis de normativas oficiales, estándares de seguridad de la #strong[OACI] (Organización de Aviación Civil Internacional) y de #strong[EASA] (European Union Aviation Safety Agency), así como de las mejores prácticas de la comunidad de vuelo a vela española, recogidas por varios instructores, y recopiladas por el instructor Iñaqui Ulibarri García de la Cueva para los aeroclubs de Ocaña y Fuentemilanos.
-]
-
-#strong[EXENCIÓN DE RESPONSABILIDAD - USO BAJO PROPIO RIESGO]
-
-La aviación es una actividad que conlleva riesgos inherentes. Aunque se ha realizado un esfuerzo exhaustivo para garantizar la precisión técnica de este manual utilizando fuentes oficiales actualizadas:
-
-- #strong[Los autores, editores y colaboradores NO asumen responsabilidad alguna] por daños personales, materiales o de cualquier otra índole que pudieran derivarse de interpretaciones erróneas o errores técnicos en el texto.
-- Este manual es una #strong[herramienta de apoyo al estudio] y no sustituye en ningún caso ni a la instrucción teórica ni a la práctica obligatoria con un instructor de vuelo cualificado (FI(S)).
-- En caso de discrepancia con la normativa vigente publicada por AESA o EASA, prevalecerá siempre el texto legal oficial de la autoridad aeronáutica.
-
-#strong[LICENCIA]
-
-Esta obra se distribuye bajo licencia #strong[Creative Commons Atribución 4.0 Internacional (CC BY 4.0)].
-
-Usted es libre de:
-
-- #strong[Compartir]: Copiar y redistribuir el material en cualquier medio.
-- #strong[Adaptar]: Remezclar, transformar y construir a partir del material para cualquier propósito incluso comercialmente.
-
-Bajo los siguientes términos:
-
-- #strong[Atribución]: Debe otorgar el crédito correspondiente, proporcionar un enlace a la licencia e indicar si se realizaron cambios. Puede hacerlo de cualquier manera razonable, pero no de una manera que sugiera que el licenciante lo respalda a usted o a su uso.
-
-Más información: #link("https://creativecommons.org/licenses/by/4.0/deed.es")
-
-#strong[Proyecto]
-
-Manual de vuelo para la obtención de la licencia de piloto de planeador (SPL)
-
-#strong[Coordinación]
-
-VuelaLibre.net
-
-#strong[Repositorio]
-
-#link("https://github.com/VuelaLibreNet/manual-spl")
-
-#strong[Licencia]
-
-CC BY 4.0
-
-#strong[Fuentes]
-
-AESA, EASA, OACI, SERA, AMCs & GM, LSA, manuales de vuelo de Fuentemilanos, FAA Glider Flying Handbook, y manuales de vuelo de otros paises de la UE.
 
 #heading(level: 1, numbering: none)[Dedicatoria]
 <dedicatoria>
@@ -604,8 +588,8 @@ Ramón Gutiérrez Camus (SPL)
 
 Piloto de Vuelo a Vela. Edición técnica
 
-#heading(level: 1, numbering: none)[Índice de ilustraciones]
-<índice-de-ilustraciones>
+#heading(level: 1, numbering: none)[Introducción]
+<introducción>
 #strong[#emph[Tema 3 de 9 del examen teórico para la Licencia de Piloto de Planeador (SPL)]]
 
 Hay pilotos que miran el cielo y ven nubes. Hay pilotos que miran el cielo y ven información.
@@ -746,6 +730,7 @@ body_background_color:
 white
 )
 ]
+#postit[
 #strong[Resumen del Capítulo: La Atmósfera]
 
 - #strong[Atmósfera ISA]: Modelo ideal para estandarizar instrumentos y rendimiento (15°C, 1013,25 hPa, 0% humedad a MSL). Raramente encontrarás un día ISA "puro", pero es la referencia universal.
@@ -753,6 +738,7 @@ white
 - #strong[Densidad y Rendimiento]: El planeador vuela gracias a las moléculas de aire. Menor densidad (alta elevación o día caluroso) significa menos sustentación y peor rendimiento: necesitas más pista para despegar y corres más con el mismo ángulo de ataque.
 - #strong[Presión parcial de O#sub[2]]: Aunque la proporción de oxígeno se mantiene (21 %), la presión a la que entra en tus pulmones cae drásticamente con la altura, provocando hipoxia (cuyos efectos fisiológicos se detallan en el #strong[Libro 2 --- Factores humanos], capítulo 4).
 
+]
 = Viento
 <viento>
 #quote(block: true)[
@@ -1053,6 +1039,7 @@ body_background_color:
 white
 )
 ]
+#postit[
 #strong[Resumen del Capítulo: Viento]
 
 - #strong[El motor del viento]: El aire fluye naturalmente de las Altas (H) a las Bajas (L) presiones debido a la fuerza de gradiente. Cuanto más juntas estén las isobaras, más fuerte soplará.
@@ -1062,6 +1049,7 @@ white
 - #strong[Efecto Foehn y Stau]: El aire que sube en barlovento precipita y cede calor latente (SALR). Al descender en sotavento ---ya seco--- se calienta al DALR completo, llegando hasta 15 °C más caliente. La "pared de Foehn" marca visualmente la cresta. Cuidado con los rotores en el sotavento.
 - #strong[Brisas Marinas y Convergencias]: La brisa marina penetra tierra adentro creando una línea de convergencia (minifrente) con ascendencias excelentes para el cross-country. Identifícala por las diferentes alturas de base de los cúmulos a cada lado y por la franja de nubosidad activa sobre el límite.
 
+]
 = Termodinámica
 <termodinámica>
 #quote(block: true)[
@@ -1485,6 +1473,7 @@ body_background_color:
 white
 )
 ]
+#postit[
 #strong[Resumen del Capítulo: Termodinámica]
 
 - #strong[Estabilidad Atmosférica]: Concepto clave. El aire es "estable" si una burbuja empujada hacia arriba tiende a volver a bajar, e "inestable" si sigue subiendo sola. El vuelo a vela vive de la inestabilidad.
@@ -1492,6 +1481,7 @@ white
 - #strong[Inversiones]: Son capas donde la temperatura #strong[sube] con la altura en lugar de bajar. Actúan como una tapadera invisible que frena las térmicas y atrapa la contaminación/bruma.
 - #strong[Convección]: El sol calienta el suelo, el suelo calienta el aire, y este sube como una burbuja (modelo burbuja) o como una pluma continua (modelo columna). Cuanto más frío esté el aire arriba en comparación con el suelo, más fuerte será la térmica.
 
+]
 = Nubes y niebla
 <nubes-y-niebla>
 #quote(block: true)[
@@ -1654,6 +1644,7 @@ body_background_color:
 white
 )
 ]
+#postit[
 #strong[Resumen del Capítulo: Nubes y Niebla]
 
 - #strong[Significado de las nubes]: Para el piloto de planeador, las nubes son el mapa del cielo. Los #strong[Cúmulos (Cu)] pequeños y algodónosos son nuestros mejores amigos (marcan térmicas). Los #strong[Cirros] altos suelen anunciar un frente (mal tiempo en 24-48h).
@@ -1661,6 +1652,7 @@ white
 - #strong[Niebla vs Neblina]: Ambas reducen la visibilidad. La niebla (\< 1 km) es crítica para el aterrizaje y despegue. Hay dos tipos frecuentes: la #strong[de radiación] (noches frías y despejadas, suele disiparse con el sol por la mañana) y la #strong[de advección] (aire cálido sobre superficie fría, puede presentarse a cualquier hora y no depende de la noche).
 - #strong[Nubes Lenticulares]: Tienen forma de lenteja o platillo y se quedan "quietas" aunque sople mucho viento. Indican #strong[Onda de Montaña], un fenómeno que permite subir muy alto pero advierte de turbulencia (rotores) muy peligrosa a baja altura.
 
+]
 = Precipitación
 <precipitación>
 #quote(block: true)[
@@ -1768,6 +1760,7 @@ supplement: "Figura",
 
 Estas corrientes descendentes localizadas (#strong[microburst] / #strong[downdraft]) pueden alcanzar velocidades de descenso que superan la capacidad de ascenso del planeador. Volar bajo una virga, especialmente durante la aproximación final, puede causar un hundimiento irrecuperable antes del umbral. Ante cualquier cortina de virga visible, mantén siempre distancia de seguridad lateral y vertical.
 
+#postit[
 #strong[Resumen del Capítulo: Precipitación]
 
 - #strong[Lluvia y Performance]: Para un planeador, la lluvia es kryptonita. El agua en las alas arruina el perfil laminar, aumentando drásticamente la velocidad de pérdida y la tasa de descenso. Si llueve, añade velocidad de seguridad al aterrizar.
@@ -1775,6 +1768,7 @@ Estas corrientes descendentes localizadas (#strong[microburst] / #strong[downdra
 - #strong[Lluvia Engelante (FZRA)]: Gotas superenfriadas que se congelan al impactar. Es una emergencia grave: el hielo se acumula en segundos, pesando y deformando el perfil. Sal inmediatamente de esa zona (generalmente cambiando de altitud).
 - #strong[Virga]: Cortina de lluvia que se evapora antes de tocar el suelo. Es un aviso visual de fuertes corrientes descendentes y posible turbulencia severa debajo de ella.
 
+]
 = Masas de aire y frentes
 <masas-de-aire-y-frentes>
 #quote(block: true)[
@@ -1949,6 +1943,7 @@ body_background_color:
 white
 )
 ]
+#postit[
 #strong[Resumen del Capítulo: Masas de Aire y Frentes]
 
 - #strong[Frente Frío]: El mejor amigo del volovelista (después de que pasa). Trae inestabilidad, cielo limpio y térmicas potentes (cielo de "post-frente"). Al cruzarlo, espera chubascos, rolada de viento y bajada de temperatura.
@@ -1956,6 +1951,7 @@ white
 - #strong[Oclusiones]: Cuando el frente frío alcanza al cálido. Generalmente significa tiempo revuelto, mezcla de nubes y precipitaciones. Poco aprovechable para el vuelo.
 - #strong[Masas de Aire]: Lo que importa es la temperatura relativa. Aire frío sobre suelo caliente = inestabilidad (¡térmicas!). Aire cálido sobre suelo frío = estabilidad (capas, niebla, inversión).
 
+]
 = Sistemas de presión
 <sistemas-de-presión>
 #quote(block: true)[
@@ -2090,6 +2086,7 @@ white
   [Dorsal (cuña)], [---], [Subsidencia estable], [Escasa o nula], [Condiciones VFR favorables, térmicas moderadas. Sin riesgo convectivo significativo.],
   [Collado / Pantano barométrico], [---], [Flojas y variables, sin dirección dominante], [Variable (niebla en invierno; Cb estáticos en verano)], [Impredecible. No planifiques vuelos de distancia hasta que el patrón se resuelva.],
 )
+#postit[
 #strong[Resumen del Capítulo: Sistemas de Presión]
 
 - #strong[Anticiclones (H)]: Zonas de alta presión donde el aire baja (subsidencia) y se seca. Garantizan estabilidad y buen tiempo, pero en invierno atrapan nieblas y contaminación. El viento gira en sentido horario (H. Norte).
@@ -2097,6 +2094,7 @@ white
 - #strong[Vaguadas y Dorsales]: Una vaguada es una "lengua" de baja presión (mal tiempo estirado); una dorsal es una "lengua" de alta presión (buen tiempo estirado).
 - #strong[Collado]: Zona neutra entre dos altas y dos bajas cruzadas. Es como un pantano barométrico: vientos flojos, dirección variable y probabilidad de nieblas o tormentas estáticas en verano.
 
+]
 = Climatología
 <climatología>
 #quote(block: true)[
@@ -2301,6 +2299,7 @@ body_background_color:
 white
 )
 ]
+#postit[
 #strong[Resumen del Capítulo: Climatología]
 
 - #strong[España, país de contrastes]: Tenemos condiciones mundiales para el vuelo. Viento y #strong[Onda de Montaña] en invierno/primavera (Pirineos, Sistema Central) y potentes #strong[Térmicas] en verano (La Mancha, zonas interiores).
@@ -2308,6 +2307,7 @@ white
 - #strong[Estacionalidad]: La primavera ofrece inestabilidad y buen vuelo local. El verano trae techos altos y tormentas secas de calor. El otoño suele traer lluvias y DANA.
 - #strong[Baja Térmica Peninsular]: En verano, el sol calienta tanto el centro de España que se forma una baja presión permanente. Esto succiona aire del mar, reforzando las brisas costeras que penetran muy adentro y generan líneas de convergencia ideales para el cross-country.
 
+]
 = Peligros para el vuelo
 <peligros-para-el-vuelo>
 #quote(block: true)[
@@ -2486,6 +2486,7 @@ supplement: "Figura",
 <fig-03-cap09-cizalladura>
 
 
+#postit[
 #strong[Resumen del Capítulo: Peligros para el Vuelo]
 
 - #strong[Tormentas (Cb)]: La madre de todos los peligros. Jamás vueles bajo un Cb ni cerca de él (\< 10-20 NM). Turbulencia extrema, granizo y rayos. Si ves un yunque, da media vuelta.
@@ -2494,6 +2495,7 @@ supplement: "Figura",
 - #strong[Turbulencia]: La de estela de aviones pesados desciende lentamente y causa vuelco instantáneo (espera 3 minutos antes de usar la pista). El rotor de onda se forma a sotavento a baja cota con rotación caótica e invisible.
 - #strong[Cizalladura (Windshear)]: Cambio brusco de viento en tramo final. Puede tirarte al suelo (caída de velocidad de cara). Los #strong[downbursts] (reventones) provocan primero viento de cara y luego un brusco hundimiento y viento de cola.
 
+]
 = Información meteorológica
 <información-meteorológica>
 #quote(block: true)[
@@ -2677,12 +2679,14 @@ body_background_color:
 white
 )
 ]
+#postit[
 #strong[Resumen del Capítulo: Información Meteorológica]
 
 - #strong[METAR y TAF]: Tus boletines de cabecera. METAR = foto actual (cada 30 min). TAF = pronóstico (para 9, 24 o 30h). Aprende a descodificarlos fluidamente (CAVOK indica visibilidad ≥10 km y sin nubes por debajo de 5000 ft; FG indica niebla; BR neblina).
 - #strong[Mapas Significativos (SIGWX)]: Muestran frentes, zonas de turbulencia y engelamiento. Cruciales para planificar rutas largas.
 - #strong[Toma de decisiones]: No te fíes de una sola fuente. Cruza datos: mapa de superficie + satélite + previsión local. Si la meteo pinta dudosa, el mejor vuelo es el que se queda en tierra (no-go).
 
+]
 #show: appendices.with("Apéndices", hide-parent: true)
 #heading(level: 1, numbering: none)[Apéndices]
 = Syllabus Oficial EASA - Meteorología
@@ -3013,3 +3017,56 @@ La OACI desarrolla las normas y métodos recomendados (SARPS) mediante 19 anexos
 - #strong[Glider Flying Handbook (FAA-H-8083-13B)]. Federal Aviation Administration (FAA), U.S. Department of Transportation. Obra en dominio público; fuente de buena parte de las ilustraciones técnicas de la colección. #link("https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/glider_handbook")
 - #strong[Methodik der Segelflugausbildung] (#emph[Segelflugrechte], Rev.~2). Deutscher Aero Club (DAeC), 2022. Metodología alemana de instrucción de vuelo a vela. #link("https://www.daec.de/media/files/2022/Sportarten/Segelflug/Methodik_der_Segelflugausbildung_Segelflugrechte_Rev.2.pdf")
 - #strong[Vuelo sin motor: técnicas avanzadas]. Helmut Reichmann. Edición española de la obra de referencia internacional sobre la técnica del vuelo de distancia (orig. #emph[Streckensegelflug]\; ed.~inglesa, #emph[Cross-Country Soaring]). ISBN 978-84-283-1567-8.
+
+#heading(level: 1, numbering: none)[Información Legal y Licencia]
+<información-legal-y-licencia>
+#strong[Atribución y Fuentes]
+
+#quote(block: true)[
+El #strong[temario de esta colección ---el índice--- está avalado por AESA] (Agencia Estatal de Seguridad Aérea), la autoridad aeronáutica civil de España. Este aval certifica que el programa de formación teórica para la Licencia de Piloto de Planeador (SPL) es conforme al syllabus del AMC1 SFCL.130; no obstante, el desarrollo del contenido es responsabilidad exclusiva de los autores.
+
+El contenido se basa en la síntesis de normativas oficiales, estándares de seguridad de la #strong[OACI] (Organización de Aviación Civil Internacional) y de #strong[EASA] (European Union Aviation Safety Agency), así como de las mejores prácticas de la comunidad de vuelo a vela española, recogidas por varios instructores, y recopiladas por el instructor Iñaqui Ulibarri García de la Cueva para los aeroclubs de Ocaña y Fuentemilanos.
+]
+
+#strong[EXENCIÓN DE RESPONSABILIDAD - USO BAJO PROPIO RIESGO]
+
+La aviación es una actividad que conlleva riesgos inherentes. Aunque se ha realizado un esfuerzo exhaustivo para garantizar la precisión técnica de este manual utilizando fuentes oficiales actualizadas:
+
+- #strong[Los autores, editores y colaboradores NO asumen responsabilidad alguna] por daños personales, materiales o de cualquier otra índole que pudieran derivarse de interpretaciones erróneas o errores técnicos en el texto.
+- Este manual es una #strong[herramienta de apoyo al estudio] y no sustituye en ningún caso ni a la instrucción teórica ni a la práctica obligatoria con un instructor de vuelo cualificado (FI(S)).
+- En caso de discrepancia con la normativa vigente publicada por AESA o EASA, prevalecerá siempre el texto legal oficial de la autoridad aeronáutica.
+
+#strong[LICENCIA]
+
+Esta obra se distribuye bajo licencia #strong[Creative Commons Atribución 4.0 Internacional (CC BY 4.0)].
+
+Usted es libre de:
+
+- #strong[Compartir]: Copiar y redistribuir el material en cualquier medio.
+- #strong[Adaptar]: Remezclar, transformar y construir a partir del material para cualquier propósito incluso comercialmente.
+
+Bajo los siguientes términos:
+
+- #strong[Atribución]: Debe otorgar el crédito correspondiente, proporcionar un enlace a la licencia e indicar si se realizaron cambios. Puede hacerlo de cualquier manera razonable, pero no de una manera que sugiera que el licenciante lo respalda a usted o a su uso.
+
+Más información: #link("https://creativecommons.org/licenses/by/4.0/deed.es")
+
+#strong[Proyecto]
+
+Manual de vuelo para la obtención de la licencia de piloto de planeador (SPL)
+
+#strong[Coordinación]
+
+VuelaLibre.net
+
+#strong[Repositorio]
+
+#link("https://github.com/VuelaLibreNet/manual-spl")
+
+#strong[Licencia]
+
+CC BY 4.0
+
+#strong[Fuentes]
+
+AESA, EASA, OACI, SERA, AMCs & GM, LSA, manuales de vuelo de Fuentemilanos, FAA Glider Flying Handbook, y manuales de vuelo de otros paises de la UE.

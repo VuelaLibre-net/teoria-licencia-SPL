@@ -124,6 +124,7 @@ También el interceptado tiene señales propias (tabla S11-2 de SERA): encender 
 Un velero sin luces de navegación tiene pocas opciones de señalización: tu respuesta visible es el **alabeo amplio y claro**. Compensa el resto con la radio (121,500 MHz) y el transpondedor (7700). Y recuerda que la mejor interceptación es la que no ocurre: comprueba los NOTAM y el estado de las zonas P y R antes de cada vuelo de travesía.
 :::
 
+::: {.postit}
 **Resumen del capítulo: procedimientos de socorro y urgencia**
 
 * **MAYDAY (x3)**: Exclusivo para situaciones de peligro **GRAVE E INMINENTE** con riesgo vital (fuego, colisión, fallo estructural). Otorga prioridad absoluta e impone silencio total de radio al resto de tráficos.
@@ -131,3 +132,5 @@ Un velero sin luces de navegación tiene pocas opciones de señalización: tu re
 * **Estructura del mensaje**: A QUIÉN (Estación) + QUIÉN (Indicativo) + DÓNDE (Posición) + QUÉ PASA (Problema) + QUÉ SOLICITA (Intenciones y asistencia).
 * **Frecuencia recomendada**: La mejor frecuencia es aquella donde el vuelo ya está establecido en contacto. Si falla o no hay respuesta, pasar a la frecuencia internacional de emergencia 121.500 MHz.
 * **Interceptación (SERA.11015)**: interceptor alabeando por delante y a tu izquierda = «Sígame» (responde alabeando y siguiéndole); viraje ascendente brusco de 90° o más = «Prosiga»; tren desplegado y faros encendidos sobre la pista = «Aterrice en este aeródromo». Procedimiento: seguir las instrucciones visuales + notificar al ATS + llamada en 121,500 MHz + squawk 7700. **Las instrucciones del interceptor prevalecen sobre cualquier otra fuente, incluido el ATC**, mientras se solicita aclaración. A bordo debe llevarse copia de las señales (SAO.GEN.155).
+:::
+

@@ -398,6 +398,43 @@
 #show terms.item: it => block(breakable: false, below: 0.95em, width: 100%)[
   #text(weight: "bold")[#it.term]#h(0.35em)#sym.dash.em#h(0.35em)#_glosario-descripcion(it.description)
 ]
+// Resumen de capítulo con aspecto de post-it, como en el AsciiDoc original.
+//
+// Colores tomados literalmente del tema de origen
+// (aesa-spl-oficial/recursos/temas/pdf-theme.yml, rol `postit`):
+//   fondo #FFF9C4, borde #FBC02D 1pt, radio 4pt, texto #5D4037 a 10.5pt.
+//
+// La única desviación es la fuente. El tema pedía Roboto; aquí se usa Libertinus
+// Sans, que viaja dentro de Typst. Roboto está en la máquina de desarrollo pero
+// no en el runner del CI, y Typst no falla ante una fuente ausente: cae a otra
+// en silencio, con lo que los entregables oficiales saldrían distintos sin que
+// nadie se entere. Libertinus Sans mantiene el contraste de palo seco contra el
+// cuerpo en serifa y renderiza igual en cualquier sitio.
+//
+// El bloque es partible a propósito: algunos resúmenes no caben en una página y
+// un bloque no partible se saldría del papel.
+
+#let postit(body) = block(
+  fill: rgb("#FFF9C4"),
+  stroke: 1pt + rgb("#FBC02D"),
+  radius: 4pt,
+  inset: 0.6cm,
+  width: 100%,
+  above: 1.4em,
+  below: 1.4em,
+  breakable: true,
+  {
+    // El cuerpo hereda la sangría de primera línea, que dentro de una caja
+    // descoloca el primer renglón contra el borde.
+    set par(first-line-indent: 0em)
+    text(
+      font: "Libertinus Sans",
+      size: 10.5pt,
+      fill: rgb("#5D4037"),
+      body,
+    )
+  },
+)
 #import "@preview/fontawesome:0.5.0": *
 #let brand-color = (:)
 #let brand-color-background = (:)
@@ -446,59 +483,6 @@
 #heading(level: 1, numbering: none)[Principios de Vuelo]
 <principios-de-vuelo>
 Bienvenido a la versión digitalizada de este manual de formación SPL.
-
-#heading(level: 1, numbering: none)[Información Legal y Licencia]
-<información-legal-y-licencia>
-#strong[Atribución y Fuentes]
-
-#quote(block: true)[
-El #strong[temario de esta colección ---el índice--- está avalado por AESA] (Agencia Estatal de Seguridad Aérea), la autoridad aeronáutica civil de España. Este aval certifica que el programa de formación teórica para la Licencia de Piloto de Planeador (SPL) es conforme al syllabus del AMC1 SFCL.130; no obstante, el desarrollo del contenido es responsabilidad exclusiva de los autores.
-
-El contenido se basa en la síntesis de normativas oficiales, estándares de seguridad de la #strong[OACI] (Organización de Aviación Civil Internacional) y de #strong[EASA] (European Union Aviation Safety Agency), así como de las mejores prácticas de la comunidad de vuelo a vela española, recogidas por varios instructores, y recopiladas por el instructor Iñaqui Ulibarri García de la Cueva para los aeroclubs de Ocaña y Fuentemilanos.
-]
-
-#strong[EXENCIÓN DE RESPONSABILIDAD - USO BAJO PROPIO RIESGO]
-
-La aviación es una actividad que conlleva riesgos inherentes. Aunque se ha realizado un esfuerzo exhaustivo para garantizar la precisión técnica de este manual utilizando fuentes oficiales actualizadas:
-
-- #strong[Los autores, editores y colaboradores NO asumen responsabilidad alguna] por daños personales, materiales o de cualquier otra índole que pudieran derivarse de interpretaciones erróneas o errores técnicos en el texto.
-- Este manual es una #strong[herramienta de apoyo al estudio] y no sustituye en ningún caso ni a la instrucción teórica ni a la práctica obligatoria con un instructor de vuelo cualificado (FI(S)).
-- En caso de discrepancia con la normativa vigente publicada por AESA o EASA, prevalecerá siempre el texto legal oficial de la autoridad aeronáutica.
-
-#strong[LICENCIA]
-
-Esta obra se distribuye bajo licencia #strong[Creative Commons Atribución 4.0 Internacional (CC BY 4.0)].
-
-Usted es libre de:
-
-- #strong[Compartir]: Copiar y redistribuir el material en cualquier medio.
-- #strong[Adaptar]: Remezclar, transformar y construir a partir del material para cualquier propósito incluso comercialmente.
-
-Bajo los siguientes términos:
-
-- #strong[Atribución]: Debe otorgar el crédito correspondiente, proporcionar un enlace a la licencia e indicar si se realizaron cambios. Puede hacerlo de cualquier manera razonable, pero no de una manera que sugiera que el licenciante lo respalda a usted o a su uso.
-
-Más información: #link("https://creativecommons.org/licenses/by/4.0/deed.es")
-
-#strong[Proyecto]
-
-Manual de vuelo para la obtención de la licencia de piloto de planeador (SPL)
-
-#strong[Coordinación]
-
-VuelaLibre.net
-
-#strong[Repositorio]
-
-#link("https://github.com/VuelaLibreNet/manual-spl")
-
-#strong[Licencia]
-
-CC BY 4.0
-
-#strong[Fuentes]
-
-AESA, EASA, OACI, SERA, AMCs & GM, LSA, manuales de vuelo de Fuentemilanos, FAA Glider Flying Handbook, y manuales de vuelo de otros paises de la UE.
 
 #heading(level: 1, numbering: none)[Dedicatoria]
 <dedicatoria>
@@ -556,8 +540,8 @@ Ramón Gutiérrez Camus (SPL)
 
 Piloto de Vuelo a Vela. Edición técnica
 
-#heading(level: 1, numbering: none)[Índice de ilustraciones]
-<índice-de-ilustraciones>
+#heading(level: 1, numbering: none)[Introducción]
+<introducción>
 #strong[#emph[Tema 5 de 9 del examen teórico para la Licencia de Piloto de Planeador (SPL)]]
 
 La aerodinámica de un planeador no tiene secretos. Tiene física. Y la física no negocia.
@@ -742,6 +726,7 @@ body_background_color:
 white
 )
 ]
+#postit[
 #strong[Resumen del Capítulo: Aerodinámica y Flujo de Aire]
 
 - #strong[Principio de Bernoulli]: la base del vuelo. El aire se acelera sobre la superficie curva del ala (extradós) y su presión disminuye, generando una fuerza neta hacia arriba. Es la misma sustentación que describe la deflexión del aire hacia abajo (Newton): dos miradas de un único fenómeno, no dos fuerzas que se sumen.
@@ -750,6 +735,7 @@ white
 - #strong[Tipos de resistencia]: #strong[parásita] (roce con el aire, sube con la velocidad) e #strong[inducida] (precio por generar sustentación, baja con la velocidad). La inducida viene de los torbellinos de punta de ala que inclinan el vector de sustentación. Los planeadores la minimizan con alta razón de aspecto (alas largas y estrechas) y winglets en las puntas.
 - #strong[Efecto suelo]: por debajo de una envergadura de altura sobre el terreno, los vórtices de punta se comprimen, la resistencia inducida cae y el planeador "flota" con más eficiencia de la normal. Útil conocerlo: explica por qué en el aterrizaje el planeador no se posa si entras rápido o largo.
 
+]
 = Mecánica de vuelo
 <mecánica-de-vuelo>
 #quote(block: true)[
@@ -922,6 +908,7 @@ body_background_color:
 white
 )
 ]
+#postit[
 #strong[Resumen del Capítulo: Mecánica de Vuelo]
 
 - #strong[El motor es la gravedad]: el planeador siempre cae a través de la masa de aire. Convertimos altura (energía potencial) en velocidad (cinética) bajando el morro. La componente del peso hacia adelante actúa como "tracción".
@@ -930,6 +917,7 @@ white
 - #strong[Lastre de agua]: desplaza la polar a la derecha: suben la V\~max planeo\~ y la V\~z min\~. Ventajoso en condiciones fuertes y largas transiciones; penaliza en térmicas débiles. Se larga antes del aterrizaje.
 - #strong[Factor de carga (n)]: en giros o maniobras bruscas, el peso aparente aumenta (n \> 1g) y con él la velocidad de pérdida. Recuerda: en un viraje de 60° pesas el doble (2g) y tu velocidad de pérdida sube un 41%.
 
+]
 = Estabilidad
 <estabilidad>
 #quote(block: true)[
@@ -1101,6 +1089,7 @@ supplement: "Figura",
 <fig-05-cap03-efecto-veleta>
 
 
+#postit[
 #strong[Resumen del Capítulo: Estabilidad]
 
 - #strong[Estabilidad estática]: es la tendencia inicial. Si sueltas los mandos tras un bache y el avión tiende a volver a su posición original, es estable. Si tiende a alejarse más (divergencia), es inestable y peligroso.
@@ -1109,6 +1098,7 @@ supplement: "Figura",
 - #strong[Estabilidad lateral (diedro)]: la forma en "V" de las alas ayuda a nivelar el avión solo. Si un ala baja, el diedro hace que tenga más ángulo de ataque efectivo y suba.
 - #strong[Estabilidad direccional]: la deriva (cola vertical) actúa como una veleta, manteniendo el morro apuntando al viento relativo y evitando el vuelo cruzado.
 
+]
 = Control
 <control>
 #quote(block: true)[
@@ -1251,6 +1241,7 @@ Cuando vuelas rápido, el flujo de aire golpea con fuerza las superficies de con
 
 Sin embargo, a medida que reduces la velocidad acercándote a la entrada en pérdida, el flujo de aire disminuye. Los mandos pierden eficacia y se vuelven blandos o #strong["chiclosos"]. Esta falta de respuesta es una advertencia física directa de que estás volando demasiado lento y cerca del límite de sustentación.
 
+#postit[
 #strong[Resumen del Capítulo: Control]
 
 - #strong[Guiñada adversa]: el efecto secundario más molesto en los veleros de gran envergadura. Al alabear para girar, el ala que sube tiene más resistencia y frena ese lado, metiendo el morro #strong[al revés] del giro. #strong[Antídoto]: pie y mano juntos (coordinación).
@@ -1259,6 +1250,7 @@ Sin embargo, a medida que reduces la velocidad acercándote a la entrada en pér
 - #strong[Eficacia de mando]: los mandos "hablan". Si están duros, vas rápido. Si están blandos y "chiclosos", estás cerca de la pérdida. Escucha lo que te dicen a través de la mano.
 - #strong[Mando diferencial]: diseño de los alerones para reducir la guiñada adversa (el alerón que sube lo hace más que el que baja), pero aun así necesitarás pie.
 
+]
 = Limitaciones (factor de carga y maniobras)
 <limitaciones-factor-de-carga-y-maniobras>
 #quote(block: true)[
@@ -1434,6 +1426,7 @@ body_background_color:
 white
 )
 ]
+#postit[
 #strong[Resumen del Capítulo: Limitaciones y Maniobras]
 
 - #strong[Diagrama V-n]: el mapa de seguridad de tu estructura. Muestra los Gs que aguantas a cada velocidad. Salirte de la "caja" significa romper el planeador. Límites CS-22: cat. U +5,3g / −2,65g en V#sub[A], que se estrechan a +4,0g / −1,5g en V#sub[D]\; cat. A +7,0g / −5,0g.
@@ -1442,6 +1435,7 @@ white
 - #strong[VNE (velocidad de nunca exceder)]: la #strong[línea roja] del anemómetro (CS 22.1505). No es una recomendación, es un límite físico. Pasarla invita al #strong[flutter] (vibración aeroelástica), que puede desintegrar el planeador en segundos. Cerca de la VNE, limita las deflexiones de mando a un tercio de su recorrido.
 - #strong[Factor de carga y pérdida]: las Gs "engordan" al planeador. En un viraje de 60° (2 Gs), la velocidad de pérdida sube un 41%.
 
+]
 = Pérdida de sustentación y autorrotación
 <pérdida-de-sustentación-y-autorrotación>
 #quote(block: true)[
@@ -1561,6 +1555,7 @@ supplement: "Figura",
 <fig-05-cap06-recuperacion-barrena>
 
 
+#postit[
 #strong[Resumen del Capítulo: Pérdida y Autorrotación]
 
 - #strong[Pérdida (stall)]: el ala se "rinde" al superar el ángulo de ataque crítico (≈ 15-18°). La pérdida comienza en el encastre y progresa hacia las puntas: por eso los alerones conservan algo de autoridad al inicio. Avisos: morro alto, mandos blandos y bataneo; al ceder el ala, cae el morro.
@@ -1569,6 +1564,7 @@ supplement: "Figura",
 - #strong[Barrena (autorrotación)]: pérdida agravada y asimétrica con tres fases: #strong[incipiente] (recuperable antes de un giro), #strong[desarrollada] (movimiento constante) y #strong[recuperación] (cesa la rotación). Cada vuelta cuesta 50-100 m de altura.
 - #strong[Salida de barrena]: consulta siempre el AFM de tu planeador. La secuencia estándar: 1. pie contrario a la rotación (a fondo); 2. palanca al centro y adelante; 3. cuando pare el giro, #strong[neutraliza el pedal] y entonces recupera suavemente del picado.
 
+]
 = Picado en espiral
 <picado-en-espiral>
 #quote(block: true)[
@@ -1647,6 +1643,7 @@ La salida de un picado en espiral debe ejecutarse de forma procedimental, luchan
 + #strong[Recuperar el picado:] solo cuando las alas estén a 0º de inclinación lateral, tira de la palanca con firmeza pero con suavidad para elevar el morro. Hazlo de forma progresiva, vigilando no superar factores de carga excesivos al salir de la trayectoria de picado.
 + #strong[Controlar la velocidad:] si la velocidad se aproxima a la V#sub[NE] (Velocidad Nunca Exceder), extiende los aerofrenos para frenar la aceleración; pero hazlo con suavidad, porque a alta velocidad y con factor de carga elevado una extensión brusca añade carga a la estructura.
 
+#postit[
 #strong[Resumen del Capítulo: Picado en Espiral]
 
 - #strong[Diagnóstico rápido --- mira el anemómetro]: velocidad alta o creciendo = espiral (el planeador vuela y acelera). Velocidad baja y constante = barrena (el ala está en pérdida, no puede acelerar). No las confundas: la técnica es opuesta.
@@ -1654,6 +1651,7 @@ La salida de un picado en espiral debe ejecutarse de forma procedimental, luchan
 - #strong[Cómo salir]: 1. nivela las alas (alerones y pie coordinados al lado contrario del viraje) ---es lo primero, el alabeo sostiene la espiral---; 2. recupera suave del picado; 3. si la velocidad se acerca a la VNE, frena con aerofrenos (suavemente).
 - #strong[Causa típica]: pérdida de referencia visual (nubes, noche) y distracción. El planeador tiene tendencia espiral; si lo dejas solo con un pequeño alabeo, la espiral crece sola.
 
+]
 #show: appendices.with("Apéndices", hide-parent: true)
 #heading(level: 1, numbering: none)[Apéndices]
 = Syllabus Oficial EASA - Principios de Vuelo
@@ -1881,3 +1879,56 @@ La OACI desarrolla las normas y métodos recomendados (SARPS) mediante 19 anexos
 - #strong[Glider Flying Handbook (FAA-H-8083-13B)]. Federal Aviation Administration (FAA), U.S. Department of Transportation. Obra en dominio público; fuente de buena parte de las ilustraciones técnicas de la colección. #link("https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/glider_handbook")
 - #strong[Methodik der Segelflugausbildung] (#emph[Segelflugrechte], Rev.~2). Deutscher Aero Club (DAeC), 2022. Metodología alemana de instrucción de vuelo a vela. #link("https://www.daec.de/media/files/2022/Sportarten/Segelflug/Methodik_der_Segelflugausbildung_Segelflugrechte_Rev.2.pdf")
 - #strong[Vuelo sin motor: técnicas avanzadas]. Helmut Reichmann. Edición española de la obra de referencia internacional sobre la técnica del vuelo de distancia (orig. #emph[Streckensegelflug]\; ed.~inglesa, #emph[Cross-Country Soaring]). ISBN 978-84-283-1567-8.
+
+#heading(level: 1, numbering: none)[Información Legal y Licencia]
+<información-legal-y-licencia>
+#strong[Atribución y Fuentes]
+
+#quote(block: true)[
+El #strong[temario de esta colección ---el índice--- está avalado por AESA] (Agencia Estatal de Seguridad Aérea), la autoridad aeronáutica civil de España. Este aval certifica que el programa de formación teórica para la Licencia de Piloto de Planeador (SPL) es conforme al syllabus del AMC1 SFCL.130; no obstante, el desarrollo del contenido es responsabilidad exclusiva de los autores.
+
+El contenido se basa en la síntesis de normativas oficiales, estándares de seguridad de la #strong[OACI] (Organización de Aviación Civil Internacional) y de #strong[EASA] (European Union Aviation Safety Agency), así como de las mejores prácticas de la comunidad de vuelo a vela española, recogidas por varios instructores, y recopiladas por el instructor Iñaqui Ulibarri García de la Cueva para los aeroclubs de Ocaña y Fuentemilanos.
+]
+
+#strong[EXENCIÓN DE RESPONSABILIDAD - USO BAJO PROPIO RIESGO]
+
+La aviación es una actividad que conlleva riesgos inherentes. Aunque se ha realizado un esfuerzo exhaustivo para garantizar la precisión técnica de este manual utilizando fuentes oficiales actualizadas:
+
+- #strong[Los autores, editores y colaboradores NO asumen responsabilidad alguna] por daños personales, materiales o de cualquier otra índole que pudieran derivarse de interpretaciones erróneas o errores técnicos en el texto.
+- Este manual es una #strong[herramienta de apoyo al estudio] y no sustituye en ningún caso ni a la instrucción teórica ni a la práctica obligatoria con un instructor de vuelo cualificado (FI(S)).
+- En caso de discrepancia con la normativa vigente publicada por AESA o EASA, prevalecerá siempre el texto legal oficial de la autoridad aeronáutica.
+
+#strong[LICENCIA]
+
+Esta obra se distribuye bajo licencia #strong[Creative Commons Atribución 4.0 Internacional (CC BY 4.0)].
+
+Usted es libre de:
+
+- #strong[Compartir]: Copiar y redistribuir el material en cualquier medio.
+- #strong[Adaptar]: Remezclar, transformar y construir a partir del material para cualquier propósito incluso comercialmente.
+
+Bajo los siguientes términos:
+
+- #strong[Atribución]: Debe otorgar el crédito correspondiente, proporcionar un enlace a la licencia e indicar si se realizaron cambios. Puede hacerlo de cualquier manera razonable, pero no de una manera que sugiera que el licenciante lo respalda a usted o a su uso.
+
+Más información: #link("https://creativecommons.org/licenses/by/4.0/deed.es")
+
+#strong[Proyecto]
+
+Manual de vuelo para la obtención de la licencia de piloto de planeador (SPL)
+
+#strong[Coordinación]
+
+VuelaLibre.net
+
+#strong[Repositorio]
+
+#link("https://github.com/VuelaLibreNet/manual-spl")
+
+#strong[Licencia]
+
+CC BY 4.0
+
+#strong[Fuentes]
+
+AESA, EASA, OACI, SERA, AMCs & GM, LSA, manuales de vuelo de Fuentemilanos, FAA Glider Flying Handbook, y manuales de vuelo de otros paises de la UE.

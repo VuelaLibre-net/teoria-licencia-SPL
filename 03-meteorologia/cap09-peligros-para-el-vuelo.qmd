@@ -78,6 +78,7 @@ Un planeador con hielo estructural puede entrar en pérdida a velocidades muy su
 
 ![Reventón (](imagenes/03-cap09-cizalladura.jpg){#fig-03-cap09-cizalladura}
 
+::: {.postit}
 **Resumen del Capítulo: Peligros para el Vuelo**
 
 * **Tormentas (Cb)**: La madre de todos los peligros. Jamás vueles bajo un Cb ni cerca de él (< 10-20 NM). Turbulencia extrema, granizo y rayos. Si ves un yunque, da media vuelta.
@@ -85,3 +86,5 @@ Un planeador con hielo estructural puede entrar en pérdida a velocidades muy su
 * **Engelamiento**: El hielo destruye la aerodinámica y eleva la velocidad de pérdida sin aviso. Cuatro depósitos —escarcha (en rigor no es engelamiento: es sublimación), hielo opaco, mixto y claro—; el **clear ice** es el más peligroso por invisible e irregular. Mayor riesgo entre 0 y −15 °C. Ante hielo, sal de la nube y baja a aire cálido.
 * **Turbulencia**: La de estela de aviones pesados desciende lentamente y causa vuelco instantáneo (espera 3 minutos antes de usar la pista). El rotor de onda se forma a sotavento a baja cota con rotación caótica e invisible.
 * **Cizalladura (Windshear)**: Cambio brusco de viento en tramo final. Puede tirarte al suelo (caída de velocidad de cara). Los **downbursts** (reventones) provocan primero viento de cara y luego un brusco hundimiento y viento de cola.
+:::
+

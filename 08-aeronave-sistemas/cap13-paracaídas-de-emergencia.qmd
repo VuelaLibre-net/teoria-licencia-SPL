@@ -51,9 +51,12 @@ La altura mínima recomendada para un salto con garantías es de 150 metros sobr
 
 ![Secuencia de abandono de emergencia y apertura del paracaídas](imagenes/08-cap13-secuencia-salto.jpg){#fig-08-cap13-secuencia-salto}
 
+::: {.postit}
 **Resumen del capítulo: paracaídas (sistema)**
 
 * **Mantenimiento**: no es eterno. Pide plegado y aireación periódicos por un **rigger** certificado (cada 6-12 meses según fabricante) y tiene una vida útil límite (15 o 20 años, por ejemplo).
 * **Ajuste**: arnés ceñido al cuerpo, perneras apretadas, pecho cerrado. Un arnés flojo convierte el tirón de apertura en lesión.
 * **Cuidado diario**: la luz UV, la humedad y la suciedad son sus enemigos. Llévalo siempre en su bolsa y no lo dejes tirado en la pista.
 * **Secuencia**: cabina, cinturones, saltar, anilla. Mínimo recomendado: 150 m AGL. El procedimiento completo se entrena con el **Libro 6 — Procedimientos operativos**, capítulo 8.
+:::
+

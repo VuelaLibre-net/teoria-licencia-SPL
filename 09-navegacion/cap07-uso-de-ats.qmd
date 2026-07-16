@@ -60,9 +60,12 @@ No todas las zonas del cielo son iguales:
 Resumen de servicios al VFR según **SERA.8001**: en **C y D** hay autorización ATC y radio obligatoria; en **E** ni autorización ni radio (solo información de tráfico si la hay); en **F y G** solo servicio de información de vuelo. Saber qué te van a dar —y qué te van a exigir— en cada clase es parte de la planificación.
 :::
 
+::: {.postit}
 **Resumen del Capítulo: Uso de los ATS**
 
 * **Dependencias**: El ATC (Control) gestiona aeródromos y espacios controlados. El FIS (Información) te ayuda en ruta con meteo y tráfico. Mantén contacto con FIS cuando sea posible; es una capa extra de seguridad.
 * **Transpondedor**: Es tu visibilidad para el radar. En VFR pon 7000. Si tienes una emergencia: 7700. Si pierdes la radio: 7600. Si está operativo, llévalo encendido y en ALT (obligatorio en TMZ y donde lo exija la clase de espacio aéreo — AIP ENR 1.6); vigila el consumo de batería.
 * **Plan de Vuelo**: Fundamental para que te busquen si no llegas. Se activa al despegar y **ES OBLIGATORIO notificar tu llegada** a la dependencia ATS del aeródromo de destino tan pronto como sea posible (SERA).
 * **Espacios Aéreos**: Conoce dónde estás. En Clase C o D necesitas autorización radio. En Clase G eres libre, pero el FIS sigue estando ahí para ayudarte.
+:::
+

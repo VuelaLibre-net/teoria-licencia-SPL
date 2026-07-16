@@ -74,9 +74,12 @@ La situación más frecuente en la Península Ibérica durante la temporada de v
 No despegues con visibilidad marginal bajo una inversión: ante una rotura de cable o un desenganche de emergencia, el aterrizaje de vuelta a tierra se realizaría sin referencias visuales, con riesgo de impacto irremediable. Si tienes alguna duda sobre la visibilidad, pospón el vuelo.
 :::
 
+::: {.postit}
 **Resumen del Capítulo: Masas de Aire y Frentes**
 
 * **Frente Frío**: El mejor amigo del volovelista (después de que pasa). Trae inestabilidad, cielo limpio y térmicas potentes (cielo de "post-frente"). Al cruzarlo, espera chubascos, rolada de viento y bajada de temperatura.
 * **Frente Cálido**: Malas noticias. Anunciado por cirros que bajan a estratos, trae lluvia continua, techos bajos y mala visibilidad. El aire es estable, así que olvídate de las térmicas.
 * **Oclusiones**: Cuando el frente frío alcanza al cálido. Generalmente significa tiempo revuelto, mezcla de nubes y precipitaciones. Poco aprovechable para el vuelo.
 * **Masas de Aire**: Lo que importa es la temperatura relativa. Aire frío sobre suelo caliente = inestabilidad (¡térmicas!). Aire cálido sobre suelo frío = estabilidad (capas, niebla, inversión).
+:::
+

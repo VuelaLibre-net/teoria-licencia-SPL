@@ -54,9 +54,12 @@ El GNSS no te exime de saber navegar visualmente: el vuelo VFR se apoya en refer
 Lleva siempre una **fuente de respaldo** (backup). Si confías en una tablet, ten tu teléfono con una app de navegación cargada y, por supuesto, la carta de papel doblada y lista en el bolsillo lateral de la cabina.
 :::
 
+::: {.postit}
 **Resumen del Capítulo: Uso del GNSS (GPS)**
 
 * **Ayuda, no sustituto**: El GPS es una herramienta fabulosa para la conciencia situacional, pero nunca debe sustituir a la navegación visual y a la carta. Las baterías fallan, las señales se pierden y los dispositivos se cuelgan.
 * **Fuentes de Error**: El GPS puede fallar por falta de satélites (necesitas 4 para posición 3D), interferencias o errores en la base de datos. Verifica siempre que el destino y las coordenadas son correctos.
 * **Backup**: Lleva siempre una carta de papel y una brújula. Si el GPS muere en medio de un vuelo de distancia, debes ser capaz de volver a casa "a la vieja usanza".
 * **Configuración**: Asegúrate de que tu datum (usualmente WGS84) y las unidades (NM, kts, m) coinciden con tu planificación y con lo que esperas ver en los instrumentos.
+:::
+

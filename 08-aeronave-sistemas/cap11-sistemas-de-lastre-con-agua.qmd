@@ -48,9 +48,12 @@ Para compensar el desplazamiento del centro de gravedad que provoca el agua de l
 
 ![Esquema del sistema de lastre de agua compartimentado](imagenes/08-cap11-lastre-agua.jpg){#fig-08-cap11-lastre-agua}
 
+::: {.postit}
 **Resumen del capítulo: lastre de agua**
 
 * **Para qué sirve**: aumentar la carga alar y desplazar la polar a la derecha (correr más con el mismo ángulo de planeo). Solo merece la pena con térmicas fuertes.
 * **Riesgo de hielo**: el agua se expande al congelarse. Si subes por encima de la isocero, puede reventar la estructura interna del ala. Vacía antes de subir.
 * **Vaciado asimétrico**: si una válvula falla y te quedas con agua en un solo ala, tienes una emergencia grave de control lateral. Aterriza con velocidad extra y cuidado: el avión querrá alabear hacia el ala pesada.
 * **Antes de aterrizar**: tira el agua. Aterrizar con lastre castiga el tren y la estructura sin necesidad, y sube la velocidad de toma.
+:::
+

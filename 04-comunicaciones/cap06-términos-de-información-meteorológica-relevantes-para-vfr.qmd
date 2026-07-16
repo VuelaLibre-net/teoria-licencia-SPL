@@ -77,6 +77,7 @@ Si te metes en turbulencia fuerte, engelamiento, tormenta, granizo u ondas orogr
 El Reglamento SERA obliga al piloto en mando a notificar sin demora cualquier condición meteorológica peligrosa que pueda afectar a la seguridad de otras aeronaves.
 :::
 
+::: {.postit}
 **Resumen del capítulo: terminología meteorológica**
 
 * **ATIS**: Voz automática en aeropuertos. Escucharla antes de llamar proporciona pista en uso, viento, QNH y el **código de información** (p. ej., «Información Bravo»). Ahorra tiempo al controlador y agiliza la comunicación.
@@ -86,3 +87,5 @@ El Reglamento SERA obliga al piloto en mando a notificar sin demora cualquier co
 * **QNH**: Presión de referencia para leer la altitud sobre el nivel del mar. Fundamental para respetar los límites verticales de los espacios aéreos.
 * **Viento**: La Torre y el ATIS facilitan el viento referido al Norte Magnético (igual que la numeración de pistas). En mapas, METAR/TAF en texto y VOLMET el viento viene referido al Norte Geográfico (verdadero).
 * **AIREP**: Informe emitido obligatoriamente por el piloto en vuelo para notificar a otras aeronaves sobre fenómenos meteorológicos severos no pronosticados.
+:::
+

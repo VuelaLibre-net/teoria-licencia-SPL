@@ -59,6 +59,7 @@ Si volando interceptas una señal de socorro (visual o en 121.5 MHz):
 4. Si es posible, mantente en la zona hasta ser relevado (sin ponerte en peligro).
 :::
 
+::: {.postit}
 **Resumen del Capítulo: Búsqueda y Salvamento (SAR)**
 
 Si algo sale mal, el SAR te buscará. Conoce las fases:
@@ -67,3 +68,5 @@ Si algo sale mal, el SAR te buscará. Conoce las fases:
 * **ALERFA (Alerta)**: hay temor por la seguridad de la aeronave (se sabe que tiene dificultades), no aterriza dentro de los 5 minutos tras su ETA autorizado, o se presume interferencia ilícita (secuestro).
 * **DETRESFA (Socorro)**: peligro grave e inminente. Combustible agotado, posible aterrizaje forzoso o necesidad de ayuda inmediata.
 * **Señales tierra-aire**: **V** = necesito ayuda; **X** = necesito ayuda médica; **N** = no; **Y** = sí.
+:::
+

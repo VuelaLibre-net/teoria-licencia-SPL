@@ -446,6 +446,43 @@
 #show terms.item: it => block(breakable: false, below: 0.95em, width: 100%)[
   #text(weight: "bold")[#it.term]#h(0.35em)#sym.dash.em#h(0.35em)#_glosario-descripcion(it.description)
 ]
+// Resumen de capítulo con aspecto de post-it, como en el AsciiDoc original.
+//
+// Colores tomados literalmente del tema de origen
+// (aesa-spl-oficial/recursos/temas/pdf-theme.yml, rol `postit`):
+//   fondo #FFF9C4, borde #FBC02D 1pt, radio 4pt, texto #5D4037 a 10.5pt.
+//
+// La única desviación es la fuente. El tema pedía Roboto; aquí se usa Libertinus
+// Sans, que viaja dentro de Typst. Roboto está en la máquina de desarrollo pero
+// no en el runner del CI, y Typst no falla ante una fuente ausente: cae a otra
+// en silencio, con lo que los entregables oficiales saldrían distintos sin que
+// nadie se entere. Libertinus Sans mantiene el contraste de palo seco contra el
+// cuerpo en serifa y renderiza igual en cualquier sitio.
+//
+// El bloque es partible a propósito: algunos resúmenes no caben en una página y
+// un bloque no partible se saldría del papel.
+
+#let postit(body) = block(
+  fill: rgb("#FFF9C4"),
+  stroke: 1pt + rgb("#FBC02D"),
+  radius: 4pt,
+  inset: 0.6cm,
+  width: 100%,
+  above: 1.4em,
+  below: 1.4em,
+  breakable: true,
+  {
+    // El cuerpo hereda la sangría de primera línea, que dentro de una caja
+    // descoloca el primer renglón contra el borde.
+    set par(first-line-indent: 0em)
+    text(
+      font: "Libertinus Sans",
+      size: 10.5pt,
+      fill: rgb("#5D4037"),
+      body,
+    )
+  },
+)
 #import "@preview/fontawesome:0.5.0": *
 #let brand-color = (:)
 #let brand-color-background = (:)
@@ -494,59 +531,6 @@
 #heading(level: 1, numbering: none)[Planificación y Rendimiento de Vuelo]
 <planificación-y-rendimiento-de-vuelo>
 Bienvenido a la versión digitalizada de este manual de formación SPL.
-
-#heading(level: 1, numbering: none)[Información Legal y Licencia]
-<información-legal-y-licencia>
-#strong[Atribución y Fuentes]
-
-#quote(block: true)[
-El #strong[temario de esta colección ---el índice--- está avalado por AESA] (Agencia Estatal de Seguridad Aérea), la autoridad aeronáutica civil de España. Este aval certifica que el programa de formación teórica para la Licencia de Piloto de Planeador (SPL) es conforme al syllabus del AMC1 SFCL.130; no obstante, el desarrollo del contenido es responsabilidad exclusiva de los autores.
-
-El contenido se basa en la síntesis de normativas oficiales, estándares de seguridad de la #strong[OACI] (Organización de Aviación Civil Internacional) y de #strong[EASA] (European Union Aviation Safety Agency), así como de las mejores prácticas de la comunidad de vuelo a vela española, recogidas por varios instructores, y recopiladas por el instructor Iñaqui Ulibarri García de la Cueva para los aeroclubs de Ocaña y Fuentemilanos.
-]
-
-#strong[EXENCIÓN DE RESPONSABILIDAD - USO BAJO PROPIO RIESGO]
-
-La aviación es una actividad que conlleva riesgos inherentes. Aunque se ha realizado un esfuerzo exhaustivo para garantizar la precisión técnica de este manual utilizando fuentes oficiales actualizadas:
-
-- #strong[Los autores, editores y colaboradores NO asumen responsabilidad alguna] por daños personales, materiales o de cualquier otra índole que pudieran derivarse de interpretaciones erróneas o errores técnicos en el texto.
-- Este manual es una #strong[herramienta de apoyo al estudio] y no sustituye en ningún caso ni a la instrucción teórica ni a la práctica obligatoria con un instructor de vuelo cualificado (FI(S)).
-- En caso de discrepancia con la normativa vigente publicada por AESA o EASA, prevalecerá siempre el texto legal oficial de la autoridad aeronáutica.
-
-#strong[LICENCIA]
-
-Esta obra se distribuye bajo licencia #strong[Creative Commons Atribución 4.0 Internacional (CC BY 4.0)].
-
-Usted es libre de:
-
-- #strong[Compartir]: Copiar y redistribuir el material en cualquier medio.
-- #strong[Adaptar]: Remezclar, transformar y construir a partir del material para cualquier propósito incluso comercialmente.
-
-Bajo los siguientes términos:
-
-- #strong[Atribución]: Debe otorgar el crédito correspondiente, proporcionar un enlace a la licencia e indicar si se realizaron cambios. Puede hacerlo de cualquier manera razonable, pero no de una manera que sugiera que el licenciante lo respalda a usted o a su uso.
-
-Más información: #link("https://creativecommons.org/licenses/by/4.0/deed.es")
-
-#strong[Proyecto]
-
-Manual de vuelo para la obtención de la licencia de piloto de planeador (SPL)
-
-#strong[Coordinación]
-
-VuelaLibre.net
-
-#strong[Repositorio]
-
-#link("https://github.com/VuelaLibreNet/manual-spl")
-
-#strong[Licencia]
-
-CC BY 4.0
-
-#strong[Fuentes]
-
-AESA, EASA, OACI, SERA, AMCs & GM, LSA, manuales de vuelo de Fuentemilanos, FAA Glider Flying Handbook, y manuales de vuelo de otros paises de la UE.
 
 #heading(level: 1, numbering: none)[Dedicatoria]
 <dedicatoria>
@@ -604,8 +588,8 @@ Ramón Gutiérrez Camus (SPL)
 
 Piloto de Vuelo a Vela. Edición técnica
 
-#heading(level: 1, numbering: none)[Índice de ilustraciones]
-<índice-de-ilustraciones>
+#heading(level: 1, numbering: none)[Introducción]
+<introducción>
 #strong[#emph[Tema 7 de 9 del examen teórico para la Licencia de Piloto de Planeador (SPL)]]
 
 La diferencia entre el piloto que completa un vuelo de distancia y el que aterriza en el campo de un granjero no siempre está en la técnica. Muchas veces está en los cálculos que se hicieron ---o no se hicieron--- en tierra: la polar no consultada, el centrado calculado a ojo, el plan de vuelo que no se cerró al aterrizar fuera.
@@ -813,6 +797,7 @@ Estás a 1.200 m sobre el terreno, a 18 km del aeródromo. Tu planeador tiene un
 
 #strong[Solución.] Con viento de cara, la fineza sobre el suelo cae en proporción a tu velocidad real de avance. A 100 km/h en el aire con 20 km/h de cara, avanzas sobre el suelo a 100 − 20 = 80 km/h, así que la fineza efectiva es 30 × (80 / 100) = #strong[24]. Los 18 km de distancia exigen entonces 18 / 24 = 0,75 km = #strong[750 m] de planeo puro. Partiendo de 1.200 m, al llegar sobre el campo te quedan 1.200 − 750 = #strong[450 m], por encima de los 300 m de seguridad: #strong[llegas, con 150 m de margen.] Si el viento arreciara a 40 km/h, la fineza efectiva bajaría a 30 × (60 / 100) = 18, necesitarías 18 / 18 = 1.000 m y llegarías justo con 200 m: momento de subir una térmica más antes de comprometerte con el planeo final.
 
+#postit[
 #strong[Resumen del Capítulo: Masa y Centro de Gravedad]
 
 - #strong[CG atrasado]: es la condición más peligrosa. El avión se vuelve inestable (quiere subir el morro solo) y la recuperación de una pérdida o barrena puede ser imposible. Si eres ligero, usa lastre fijado mecánicamente, nunca improvisado.
@@ -822,6 +807,7 @@ Estás a 1.200 m sobre el terreno, a 18 km del aeródromo. Tu planeador tiene un
 - #strong[Lastre de agua]: permite volar más rápido con el mismo ángulo de planeo (ideal para días fuertes), pero empeora el régimen de ascenso en térmica. Y recuerda: el agua se tira antes de aterrizar.
 - #strong[Lastre de cola]: no añade rendimiento por sí mismo; recoloca el CG cuando llenas las alas. Vacíalo siempre junto con los tanques principales: agua solo en la cola equivale a un CG atrasado extremo.
 
+]
 = Polar de velocidades de planeadores o velocidad de crucero
 <polar-de-velocidades-de-planeadores-o-velocidad-de-crucero>
 #quote(block: true)[
@@ -1003,6 +989,7 @@ body_background_color:
 white
 )
 ]
+#postit[
 #strong[Resumen del Capítulo: Polar de Velocidades y MacCready]
 
 - #strong[La polar]: es tu curva de rendimiento. Conócela: te da la velocidad para aguantar más tiempo en el aire (mínimo descenso) y la velocidad para llegar más lejos (máximo planeo).
@@ -1012,6 +999,7 @@ white
 - #strong[IAS vs TAS]: la polar se vuela en IAS, pero en altura la TAS es mayor (\~2 % por cada 300 m). Recorres más terreno del que crees y la V#sub[NE] indicada disminuye con la altitud (flutter): consulta la tabla del AFM antes de volar en onda.
 - #strong[Planeo final]: calcula la llegada con margen. Es mejor llegar a 200 m sobre el campo y usar los frenos que pasar a ras de los árboles rezando por una burbuja.
 
+]
 = Planificación de vuelo y definición de tareas
 <planificación-de-vuelo-y-definición-de-tareas>
 #quote(block: true)[
@@ -1176,6 +1164,7 @@ body_background_color:
 white
 )
 ]
+#postit[
 #strong[Resumen del Capítulo: Planificación de Tareas]
 
 - #strong[Velocidad media]: no gana el que corre más, sino el que para menos. Evita virar térmicas flojas; la clave está en la consistencia y en elegir la ruta bajo las calles de nubes.
@@ -1184,6 +1173,7 @@ white
 - #strong[Equipo de supervivencia]: sobre zonas donde el rescate sería difícil, el Part-SAO (SAO.IDE.125) exige ELT o PLB, equipo de señales y supervivencia adecuados a la ruta. Agua, abrigo y baliza: menos de dos kilos que pueden salvarte la vida.
 - #strong[Mínimos personales]: fíjalos antes de salir. ¿Altura mínima para seguir en ruta? ¿Térmica mínima aceptable? Si bajas de ahí, cambia el chip de competición a supervivencia.
 
+]
 = Plan de vuelo ICAO
 <plan-de-vuelo-icao>
 #quote(block: true)[
@@ -1331,6 +1321,7 @@ body_background_color:
 white
 )
 ]
+#postit[
 #strong[Resumen del Capítulo: Plan de Vuelo ICAO]
 
 - #strong[¿Cuándo es obligatorio?]: al cruzar fronteras, cuando se te presta servicio de control (clases B, C y D; en la E el VFR vuela sin plan, sin radio y sin autorización), desde o hacia aeródromos controlados, en VFR nocturno fuera de las inmediaciones del aeródromo y cuando lo exija la autoridad ATS. Muy recomendable en vuelos de distancia para activar los servicios de alerta (SAR).
@@ -1339,6 +1330,7 @@ white
 - #strong[Motoveleros (TMG)]: si vuelas un TMG como avión de turismo, sigues las mismas reglas que una avioneta: declara autonomía de combustible real, no solar.
 - #strong[Cierre del plan]: si aterrizas en un campo y te vas a cenar sin cerrar el plan, se activa una operación de búsqueda y rescate. Llama a la oficina de notificación de los servicios de tránsito aéreo (ARO) o a la torre en cuanto tengas cobertura.
 
+]
 = Monitoreo del vuelo y replanificación en vuelo
 <monitoreo-del-vuelo-y-replanificación-en-vuelo>
 #quote(block: true)[
@@ -1507,6 +1499,7 @@ body_background_color:
 white
 )
 ]
+#postit[
 #strong[Resumen del Capítulo: Monitoreo y Replanificación]
 
 - #strong[Cono de alcance]: visualiza el cono bajo el planeador; lo que queda fuera es inalcanzable. Ten siempre una opción de aterrizaje segura dentro del cono.
@@ -1516,6 +1509,7 @@ white
 - #strong[Factor humano]: hipoxia, deshidratación y fatiga degradan el cálculo mental y retrasan la decisión de aterrizar fuera. Bebe de forma programada, usa oxígeno en vuelos altos y añade margen cuando lleves horas de tarea (detalles en el #strong[Libro 2 --- Factores humanos], capítulo 4).
 - #strong[Altura de seguridad (#emph[safety height])]: fija un margen intocable para llegar al campo (300 m, por ejemplo). Esa altura es para el circuito, no para planear. Si el calculador dice que llegas con 0 m, no llegas.
 
+]
 #show: appendices.with("Apéndices", hide-parent: true)
 #heading(level: 1, numbering: none)[Apéndices]
 = Syllabus Oficial EASA - Planificación y Rendimiento de Vuelo
@@ -1641,3 +1635,56 @@ La OACI desarrolla las normas y métodos recomendados (SARPS) mediante 19 anexos
 - #strong[Glider Flying Handbook (FAA-H-8083-13B)]. Federal Aviation Administration (FAA), U.S. Department of Transportation. Obra en dominio público; fuente de buena parte de las ilustraciones técnicas de la colección. #link("https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/glider_handbook")
 - #strong[Methodik der Segelflugausbildung] (#emph[Segelflugrechte], Rev.~2). Deutscher Aero Club (DAeC), 2022. Metodología alemana de instrucción de vuelo a vela. #link("https://www.daec.de/media/files/2022/Sportarten/Segelflug/Methodik_der_Segelflugausbildung_Segelflugrechte_Rev.2.pdf")
 - #strong[Vuelo sin motor: técnicas avanzadas]. Helmut Reichmann. Edición española de la obra de referencia internacional sobre la técnica del vuelo de distancia (orig. #emph[Streckensegelflug]\; ed.~inglesa, #emph[Cross-Country Soaring]). ISBN 978-84-283-1567-8.
+
+#heading(level: 1, numbering: none)[Información Legal y Licencia]
+<información-legal-y-licencia>
+#strong[Atribución y Fuentes]
+
+#quote(block: true)[
+El #strong[temario de esta colección ---el índice--- está avalado por AESA] (Agencia Estatal de Seguridad Aérea), la autoridad aeronáutica civil de España. Este aval certifica que el programa de formación teórica para la Licencia de Piloto de Planeador (SPL) es conforme al syllabus del AMC1 SFCL.130; no obstante, el desarrollo del contenido es responsabilidad exclusiva de los autores.
+
+El contenido se basa en la síntesis de normativas oficiales, estándares de seguridad de la #strong[OACI] (Organización de Aviación Civil Internacional) y de #strong[EASA] (European Union Aviation Safety Agency), así como de las mejores prácticas de la comunidad de vuelo a vela española, recogidas por varios instructores, y recopiladas por el instructor Iñaqui Ulibarri García de la Cueva para los aeroclubs de Ocaña y Fuentemilanos.
+]
+
+#strong[EXENCIÓN DE RESPONSABILIDAD - USO BAJO PROPIO RIESGO]
+
+La aviación es una actividad que conlleva riesgos inherentes. Aunque se ha realizado un esfuerzo exhaustivo para garantizar la precisión técnica de este manual utilizando fuentes oficiales actualizadas:
+
+- #strong[Los autores, editores y colaboradores NO asumen responsabilidad alguna] por daños personales, materiales o de cualquier otra índole que pudieran derivarse de interpretaciones erróneas o errores técnicos en el texto.
+- Este manual es una #strong[herramienta de apoyo al estudio] y no sustituye en ningún caso ni a la instrucción teórica ni a la práctica obligatoria con un instructor de vuelo cualificado (FI(S)).
+- En caso de discrepancia con la normativa vigente publicada por AESA o EASA, prevalecerá siempre el texto legal oficial de la autoridad aeronáutica.
+
+#strong[LICENCIA]
+
+Esta obra se distribuye bajo licencia #strong[Creative Commons Atribución 4.0 Internacional (CC BY 4.0)].
+
+Usted es libre de:
+
+- #strong[Compartir]: Copiar y redistribuir el material en cualquier medio.
+- #strong[Adaptar]: Remezclar, transformar y construir a partir del material para cualquier propósito incluso comercialmente.
+
+Bajo los siguientes términos:
+
+- #strong[Atribución]: Debe otorgar el crédito correspondiente, proporcionar un enlace a la licencia e indicar si se realizaron cambios. Puede hacerlo de cualquier manera razonable, pero no de una manera que sugiera que el licenciante lo respalda a usted o a su uso.
+
+Más información: #link("https://creativecommons.org/licenses/by/4.0/deed.es")
+
+#strong[Proyecto]
+
+Manual de vuelo para la obtención de la licencia de piloto de planeador (SPL)
+
+#strong[Coordinación]
+
+VuelaLibre.net
+
+#strong[Repositorio]
+
+#link("https://github.com/VuelaLibreNet/manual-spl")
+
+#strong[Licencia]
+
+CC BY 4.0
+
+#strong[Fuentes]
+
+AESA, EASA, OACI, SERA, AMCs & GM, LSA, manuales de vuelo de Fuentemilanos, FAA Glider Flying Handbook, y manuales de vuelo de otros paises de la UE.

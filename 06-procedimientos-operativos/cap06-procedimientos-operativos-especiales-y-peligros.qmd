@@ -141,6 +141,7 @@ Aunque el planeador opera principalmente sobre tierra, el vuelo de travesía pue
 2. **Configuración:** ameriza paralelo a las olas o al oleaje si es posible, con los aerofrenos desplegados para reducir la velocidad al máximo.
 3. **Abandono inmediato:** sal de la cabina en cuanto te detengas. El planeador se hundirá en cuestión de segundos: la cabina de compuesto y la estructura rígida pierden flotabilidad con rapidez.
 
+::: {.postit}
 **Resumen del Capítulo: Procedimientos especiales y peligros**
 
 * **Vigilancia visual**: el FLARM ayuda, pero no lo ve todo. El 95 % del tiempo, mira fuera. Barre el horizonte en sectores. Antes de virar, mira siempre hacia el lado del viraje.
@@ -148,3 +149,5 @@ Aunque el planeador opera principalmente sobre tierra, el vuelo de travesía pue
 * **Vuelo en montaña**: horizonte falso. Las cumbres te engañan; si las usas como referencia, volarás con el morro muy alto y entrarás en pérdida. Tu horizonte real es la base de la montaña o el valle.
 * **Engelamiento y lluvia**: cualquier contaminación del borde de ataque sube la velocidad de pérdida. Añade velocidad al circuito y a la aproximación. Si se acumula hielo, desciende de inmediato.
 * **Amerizaje**: si no queda otra opción, **tren fuera** —la rueda frena el planeador al contacto y evita que la cabina bucee—, paralelo a las olas y a velocidad mínima. En cuanto el planeador se pare, sal: se hunde en segundos.
+:::
+

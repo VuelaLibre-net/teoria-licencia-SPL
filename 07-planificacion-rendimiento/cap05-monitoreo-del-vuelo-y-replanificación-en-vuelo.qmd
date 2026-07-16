@@ -78,6 +78,7 @@ Los mecanismos fisiológicos, el Tiempo de Conciencia Útil y el uso del oxígen
 Si tu ordenador de vuelo indica que llegas con 0 metros, **no llegas**. Ese cálculo es teórico: en el mundo real el aire casi nunca está en calma absoluta. Lleva siempre un colchón de altura y no dejes que se consuma.
 :::
 
+::: {.postit}
 **Resumen del Capítulo: Monitoreo y Replanificación**
 
 * **Cono de alcance**: visualiza el cono bajo el planeador; lo que queda fuera es inalcanzable. Ten siempre una opción de aterrizaje segura dentro del cono.
@@ -86,3 +87,5 @@ Si tu ordenador de vuelo indica que llegas con 0 metros, **no llegas**. Ese cál
 * **Punto de no retorno**: llega un momento en que ya no vuelves a casa. Tenlo identificado. A partir de ahí, tu objetivo es el siguiente aeródromo o campo seguro.
 * **Factor humano**: hipoxia, deshidratación y fatiga degradan el cálculo mental y retrasan la decisión de aterrizar fuera. Bebe de forma programada, usa oxígeno en vuelos altos y añade margen cuando lleves horas de tarea (detalles en el **Libro 2 — Factores humanos**, capítulo 4).
 * **Altura de seguridad (*safety height*)**: fija un margen intocable para llegar al campo (300 m, por ejemplo). Esa altura es para el circuito, no para planear. Si el calculador dice que llegas con 0 m, no llegas.
+:::
+

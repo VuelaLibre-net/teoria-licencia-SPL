@@ -46,6 +46,7 @@ Con el tiempo, las reparaciones, la pintura o los cambios de instrumentos altera
 El cálculo numérico de masa y centrado (datum, brazos y momentos) se desarrolla con un ejemplo completo de examen en el **Libro 7 — Planificación y rendimiento del vuelo**, capítulo 1. Aquí nos interesa la parte física: dónde está cada lastre y qué sistemas lo gestionan.
 :::
 
+::: {.postit}
 **Resumen del capítulo: masa y centrado (sistemas)**
 
 * **MTOW y masa sin agua**: dos límites distintos. El agua en las alas no castiga la raíz del ala como el peso en cabina.
@@ -53,3 +54,5 @@ El cálculo numérico de masa y centrado (datum, brazos y momentos) se desarroll
 * **Lastre fijo**: placas de plomo en el morro para corregir un CG atrasado (piloto ligero). Si no llegas al peso mínimo de la placa de limitaciones, lastre obligatorio.
 * **Lastre de cola**: depósito de agua o pesas en la deriva para ajustar el CG óptimo. Cuidado: olvidar vaciarlo con un piloto ligero delante es una emergencia grave (CG peligrosamente atrasado).
 * **Pesaje**: tras reparaciones, repintado o cambios de equipo, según el manual de mantenimiento. El resultado vive en el Certificado de Pesaje.
+:::
+

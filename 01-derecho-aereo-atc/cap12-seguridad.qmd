@@ -37,6 +37,7 @@ Son artículos o sustancias que pueden poner en riesgo la salud, la seguridad o 
 Si ves a alguien merodeando por los hangares, manipulando aviones ajenos o comportándose de forma sospechosa en el aeródromo, **avisa inmediatamente** al responsable del campo o a las fuerzas de seguridad. La seguridad es cosa de todos.
 :::
 
+::: {.postit}
 **Resumen del Capítulo: Seguridad (Security)**
 
 Ojo a la diferencia en inglés:
@@ -44,3 +45,5 @@ Ojo a la diferencia en inglés:
 * **SAFETY**: seguridad operacional. Que no te accidentes volando.
 * **SECURITY**: seguridad física. Que no te roben el avión ni pongan una bomba.
 * **Tu deber**: no dejar el avión abierto o accesible a desconocidos, no llevar mercancías peligrosas (salvo excepciones aprobadas) y respetar las zonas restringidas de los aeropuertos.
+:::
+

@@ -70,6 +70,7 @@ El resultado es una reducción significativa de la resistencia inducida que mejo
 El efecto suelo puede sorprender al piloto inexperto: el planeador parece no querer posarse durante la toma. Si estás entrando en la zona de contacto con exceso de velocidad o inercia, resiste la tentación de picar el morro para forzar el aterrizaje. Usa los frenos aerodinámicos para controlar el planeo y déjalo posarse solo cuando esté listo, asegurándote antes de tener pista suficiente.
 :::
 
+::: {.postit}
 **Resumen del Capítulo: Aerodinámica y Flujo de Aire**
 
 * **Principio de Bernoulli**: la base del vuelo. El aire se acelera sobre la superficie curva del ala (extradós) y su presión disminuye, generando una fuerza neta hacia arriba. Es la misma sustentación que describe la deflexión del aire hacia abajo (Newton): dos miradas de un único fenómeno, no dos fuerzas que se sumen.
@@ -77,3 +78,5 @@ El efecto suelo puede sorprender al piloto inexperto: el planeador parece no que
 * **Centro de presiones (CP)**: el punto donde se aplica la fuerza de sustentación. Cuidado: se mueve con el ángulo de ataque (adelante con altos ángulos, atrás con bajos), lo que afecta a la estabilidad.
 * **Tipos de resistencia**: **parásita** (roce con el aire, sube con la velocidad) e **inducida** (precio por generar sustentación, baja con la velocidad). La inducida viene de los torbellinos de punta de ala que inclinan el vector de sustentación. Los planeadores la minimizan con alta razón de aspecto (alas largas y estrechas) y winglets en las puntas.
 * **Efecto suelo**: por debajo de una envergadura de altura sobre el terreno, los vórtices de punta se comprimen, la resistencia inducida cae y el planeador "flota" con más eficiencia de la normal. Útil conocerlo: explica por qué en el aterrizaje el planeador no se posa si entras rápido o largo.
+:::
+

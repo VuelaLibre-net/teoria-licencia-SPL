@@ -53,6 +53,7 @@ Junto a las letras, es obligatorio llevar la **bandera de España**, normalmente
 **EC** = Nemotecnia ***E**spaña **C**ivil*. La marca oficial OACI para España es "EC".
 :::
 
+::: {.postit}
 **Resumen del Capítulo: Marcas y Matrícula**
 
 Tu planeador tiene una identidad legal única que debe ser visible y resistente:
@@ -60,3 +61,5 @@ Tu planeador tiene una identidad legal única que debe ser visible y resistente:
 * **Nacionalidad y matrícula**: en España, **EC-** seguida de tres letras (ej: EC-BOH).
 * **Marcas pintadas**: en el fuselaje o la cola (y bajo las alas en algunos casos), más la bandera de España.
 * **Placa de identificación**: de material ignífugo, con la matrícula grabada, fijada a la estructura cerca de la entrada.
+:::
+

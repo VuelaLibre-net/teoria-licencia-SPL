@@ -142,6 +142,7 @@ Dos de los peores y más insidiosos enemigos relacionados con las actitudes peli
 
 **La indisciplina**, ligada íntimamente a la actitud de antiautoridad, implica apartarse deliberadamente de los estándares y procedimientos que te enseñaron. Este factor se vuelve epidémico: una mala práctica vista repetidas veces en un campo de vuelo termina normalizándose en la mentalidad de todos sus pilotos, propagando conductas letales entre los alumnos y mermando gravemente la cultura de seguridad de todo el aeroclub.
 
+::: {.postit}
 **Resumen del Capítulo: Psicología Aeronáutica**
 
 * **Conciencia situacional**: Es la capacidad precisa de percibir lo que ocurre, comprender su significado y proyectar su estado futuro. Perderla es el primer eslabón de la mayoría de las cadenas de accidentes.
@@ -153,3 +154,5 @@ Dos de los peores y más insidiosos enemigos relacionados con las actitudes peli
 * **Actitudes Peligrosas**: Las cinco actitudes a evitar son la antiautoridad, la impulsividad, la invulnerabilidad, la arrogancia (exceso de confianza) y la resignación.
 * **Gestión de Recursos (SRM)**: La habilidad del piloto solitario para usar integralmente el equipo a bordo, la información, las comunicaciones y la ayuda externa para no exceder su capacidad límite.
 * **Complacencia e Indisciplina**: La complacencia surge por el exceso de rutina generando una falsa sensación de seguridad, mientras que la indisciplina contagia una mala cultura de seguridad en el aeródromo al ignorar las normas.
+:::
+

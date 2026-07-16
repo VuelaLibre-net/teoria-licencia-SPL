@@ -99,6 +99,7 @@ El paracaídas es un equipo de supervivencia que requiere cuidados específicos 
 Nunca vueles con un paracaídas cuya tarjeta de inspección esté caducada, aunque sea por un solo día. Del mismo modo, si el paracaídas ha estado expuesto a humedad intensa, a productos químicos (gasolina, aceites, disolventes) o a cualquier impacto mecánico, debe ser inspeccionado por un técnico antes de volver a usarlo. La tarjeta de inspección en vigor no es una formalidad burocrática: es la única garantía objetiva de que el equipo funciona.
 :::
 
+::: {.postit}
 **Resumen del Capítulo: Paracaídas de emergencia**
 
 * **Cuándo saltar**: solo cuando el planeador es irrecuperable: fallo estructural, colisión en vuelo, fuego incontrolable o barrena irrecuperable. Si el planeador vuela de forma controlable, quédate dentro.
@@ -106,3 +107,5 @@ Nunca vueles con un paracaídas cuya tarjeta de inspección esté caducada, aunq
 * **Secuencia de salto**: (1) desprender la cúpula, (2) soltar los arneses, (3) saltar alejándote de la cola por el interior del giro, (4) contar «mil uno, mil dos, mil tres», (5) tirar de la anilla (en paracaídas manuales).
 * **Descenso y toma de tierra**: gira la campana en el aire tirando de las bandas de las hombreras para **aterrizar cara al viento** y reducir el impacto horizontal. Adopta la posición PLF (pies y rodillas juntos y flexionados) y rueda al tocar el suelo. Con viento, tira de los cordones inferiores para colapsar la campana.
 * **Mantenimiento**: plegado e inspección obligatorios cada 6-12 meses según el fabricante, por un técnico certificado. Protégelo de la radiación UV, la humedad y los contaminantes químicos. Es tu último recurso: cuídalo.
+:::
+

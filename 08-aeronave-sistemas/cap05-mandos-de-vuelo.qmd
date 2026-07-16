@@ -56,6 +56,7 @@ Antes de cada despegue, comprueba siempre la libertad y el sentido de los mandos
 
 ![Esquema del sistema de varillas y cables de un planeador estándar](imagenes/08-cap05-sistema-mandos.jpg){#fig-08-cap05-sistema-mandos}
 
+::: {.postit}
 **Resumen del capítulo: mandos de vuelo**
 
 * **Mandos primarios**: alerones (alabeo), profundidad (cabeceo) y dirección (guiñada). Varillas rígidas para alabeo y profundidad; cables para la dirección. Revisa holguras, tensión y deshilachados en la inspección.
@@ -64,3 +65,5 @@ Antes de cada despegue, comprueba siempre la libertad y el sentido de los mandos
 * **Flaps**: positivos para térmica y aterrizaje; negativos para transiciones rápidas. Solo en veleros de rendimiento.
 * **Compensador (trim)**: mando verde. No vuela el avión: alivia la presión de palanca para una velocidad dada. Ajústalo en cada fase del vuelo.
 * **Libertad y sentido**: comprobación completa de mandos antes de cada despegue. Un mando invertido tras un mantenimiento es mortal.
+:::
+

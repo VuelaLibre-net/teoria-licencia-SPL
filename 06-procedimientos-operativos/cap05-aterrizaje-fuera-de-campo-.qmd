@@ -112,6 +112,7 @@ El aterrizaje fuera de campo se realiza amparado por el estado de necesidad de l
 * **Minimización de daños:** al desmontar el planeador para introducirlo en el remolque, procura no pisar cultivos altos ni dañar vallas o cercados. Si es necesario, traslada las piezas a pie por los bordes de la parcela.
 * **Trato diplomático:** cuando el agricultor o el dueño de la finca se presente, muéstrate educado y agradecido. Explica con calma que se ha tratado de un aterrizaje preventivo por falta de sustentación (una situación normal y segura) y que no tenías motor para regresar. La inmensa mayoría de las personas son comprensivas si se les trata con cortesía y respeto por su propiedad.
 
+::: {.postit}
 **Resumen del Capítulo: Aterrizaje fuera de campo**
 
 * **La decisión (600/450/300 m)**: a 600 m sobre el terreno, elige la zona; a 450 m, el campo; a 300 m, comprométete con el circuito y olvida las térmicas. Retrasar esta decisión buscando un «milagro rasante» es la causa número 1 de accidentes graves.
@@ -119,3 +120,5 @@ El aterrizaje fuera de campo se realiza amparado por el estado de necesidad de l
 * **El circuito**: hazlo **estándar**. No inventes aproximaciones directas raras. El viento en cola sirve para inspeccionar el terreno; la base, para ajustar la altura; el final, para clavar la toma.
 * **En tierra**: frena a fondo. Es mejor romper el tren en un surco que intentar flotar sobre un obstáculo y entrar en pérdida a tres metros del suelo.
 * **Procedimientos post-toma**: asegura el planeador contra el viento (pesos en planos, cúpula cerrada, fundas de pitot), transmite tus coordenadas GPS exactas, permanece junto a la aeronave si estás en zona aislada (usa la tela del paracaídas como refugio) y mantén un trato respetuoso y educado con el agricultor.
+:::
+

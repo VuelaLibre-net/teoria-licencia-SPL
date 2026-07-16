@@ -87,9 +87,12 @@ La Torre transmite: *«Eco Papa Eco, entre y mantenga posición pista 30.»* ¿P
 
 **Solución.** No. «Entre y mantenga posición» (**line up and wait**) te autoriza a ocupar la pista, pero **no** a despegar; para eso hace falta un «autorizado a despegar» explícito. Colación: *«Entro y mantengo posición pista 30, Eco Papa Eco.»*
 
+::: {.postit}
 **Resumen del Capítulo: Aeródromos Controlados**
 
 * **Autorización (Clearance)**: En espacio controlado, la palabra de la Torre es ley. Necesitas autorización explícita para todo: arrancar, rodar, despegar, entrar en zona. Si no oyes «autorizado», no te muevas.
 * **Plan de Vuelo (FPL)**: Tu billete de entrada. Preséntalo con al menos 60 minutos de antelación; los plazos exactos, en el AIP-España ENR 1.10.
 * **Puntos de Notificación**: Son las puertas de entrada/salida visual al CTR (Sierra, Norte, Eco…​). Conócelos bien en la carta VAC y notifica sobre ellos con precisión.
 * **Colacionar Todo**: En controlado es vital. Repite cada instrucción, sin el viento y con tu indicativo al final. «Autorizado a aterrizar pista 36, Eco Papa Eco».
+:::
+

@@ -69,6 +69,7 @@ Cuando el factor de carga sube, la velocidad de pérdida (**stall**) también su
 El patrón más letal de la estadística de accidentes en planeador es siempre el mismo: maniobra de aterrizaje, altura escasa, velocidad baja, y de repente una pisada brusca de pedales con alabeo exagerado. La pérdida llega sin avisar, y a esa altura no hay margen para recuperar.
 :::
 
+::: {.postit}
 **Resumen del Capítulo: Mecánica de Vuelo**
 
 * **El motor es la gravedad**: el planeador siempre cae a través de la masa de aire. Convertimos altura (energía potencial) en velocidad (cinética) bajando el morro. La componente del peso hacia adelante actúa como "tracción".
@@ -76,3 +77,5 @@ El patrón más letal de la estadística de accidentes en planeador es siempre e
 * **Eficiencia (L/D)**: la fineza. Un planeador 35:1 avanza 35 km por cada kilómetro de altura en aire calmo. Pero ojo: el viento de cara y las descendencias destruyen ese número en la práctica. Ajusta la velocidad de transición según el viento (más rápido con viento de cara y en aire descendente; algo más despacio con viento de cola) y descuenta siempre un margen de seguridad del L/D publicado.
 * **Lastre de agua**: desplaza la polar a la derecha: suben la V~max planeo~ y la V~z min~. Ventajoso en condiciones fuertes y largas transiciones; penaliza en térmicas débiles. Se larga antes del aterrizaje.
 * **Factor de carga (n)**: en giros o maniobras bruscas, el peso aparente aumenta (n > 1g) y con él la velocidad de pérdida. Recuerda: en un viraje de 60° pesas el doble (2g) y tu velocidad de pérdida sube un 41%.
+:::
+

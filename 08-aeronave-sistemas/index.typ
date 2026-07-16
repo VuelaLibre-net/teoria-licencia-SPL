@@ -398,6 +398,43 @@
 #show terms.item: it => block(breakable: false, below: 0.95em, width: 100%)[
   #text(weight: "bold")[#it.term]#h(0.35em)#sym.dash.em#h(0.35em)#_glosario-descripcion(it.description)
 ]
+// Resumen de capítulo con aspecto de post-it, como en el AsciiDoc original.
+//
+// Colores tomados literalmente del tema de origen
+// (aesa-spl-oficial/recursos/temas/pdf-theme.yml, rol `postit`):
+//   fondo #FFF9C4, borde #FBC02D 1pt, radio 4pt, texto #5D4037 a 10.5pt.
+//
+// La única desviación es la fuente. El tema pedía Roboto; aquí se usa Libertinus
+// Sans, que viaja dentro de Typst. Roboto está en la máquina de desarrollo pero
+// no en el runner del CI, y Typst no falla ante una fuente ausente: cae a otra
+// en silencio, con lo que los entregables oficiales saldrían distintos sin que
+// nadie se entere. Libertinus Sans mantiene el contraste de palo seco contra el
+// cuerpo en serifa y renderiza igual en cualquier sitio.
+//
+// El bloque es partible a propósito: algunos resúmenes no caben en una página y
+// un bloque no partible se saldría del papel.
+
+#let postit(body) = block(
+  fill: rgb("#FFF9C4"),
+  stroke: 1pt + rgb("#FBC02D"),
+  radius: 4pt,
+  inset: 0.6cm,
+  width: 100%,
+  above: 1.4em,
+  below: 1.4em,
+  breakable: true,
+  {
+    // El cuerpo hereda la sangría de primera línea, que dentro de una caja
+    // descoloca el primer renglón contra el borde.
+    set par(first-line-indent: 0em)
+    text(
+      font: "Libertinus Sans",
+      size: 10.5pt,
+      fill: rgb("#5D4037"),
+      body,
+    )
+  },
+)
 #import "@preview/fontawesome:0.5.0": *
 #let brand-color = (:)
 #let brand-color-background = (:)
@@ -446,59 +483,6 @@
 #heading(level: 1, numbering: none)[Conocimientos Generales de la Aeronave]
 <conocimientos-generales-de-la-aeronave>
 Bienvenido a la versión digitalizada de este manual de formación SPL.
-
-#heading(level: 1, numbering: none)[Información Legal y Licencia]
-<información-legal-y-licencia>
-#strong[Atribución y Fuentes]
-
-#quote(block: true)[
-El #strong[temario de esta colección ---el índice--- está avalado por AESA] (Agencia Estatal de Seguridad Aérea), la autoridad aeronáutica civil de España. Este aval certifica que el programa de formación teórica para la Licencia de Piloto de Planeador (SPL) es conforme al syllabus del AMC1 SFCL.130; no obstante, el desarrollo del contenido es responsabilidad exclusiva de los autores.
-
-El contenido se basa en la síntesis de normativas oficiales, estándares de seguridad de la #strong[OACI] (Organización de Aviación Civil Internacional) y de #strong[EASA] (European Union Aviation Safety Agency), así como de las mejores prácticas de la comunidad de vuelo a vela española, recogidas por varios instructores, y recopiladas por el instructor Iñaqui Ulibarri García de la Cueva para los aeroclubs de Ocaña y Fuentemilanos.
-]
-
-#strong[EXENCIÓN DE RESPONSABILIDAD - USO BAJO PROPIO RIESGO]
-
-La aviación es una actividad que conlleva riesgos inherentes. Aunque se ha realizado un esfuerzo exhaustivo para garantizar la precisión técnica de este manual utilizando fuentes oficiales actualizadas:
-
-- #strong[Los autores, editores y colaboradores NO asumen responsabilidad alguna] por daños personales, materiales o de cualquier otra índole que pudieran derivarse de interpretaciones erróneas o errores técnicos en el texto.
-- Este manual es una #strong[herramienta de apoyo al estudio] y no sustituye en ningún caso ni a la instrucción teórica ni a la práctica obligatoria con un instructor de vuelo cualificado (FI(S)).
-- En caso de discrepancia con la normativa vigente publicada por AESA o EASA, prevalecerá siempre el texto legal oficial de la autoridad aeronáutica.
-
-#strong[LICENCIA]
-
-Esta obra se distribuye bajo licencia #strong[Creative Commons Atribución 4.0 Internacional (CC BY 4.0)].
-
-Usted es libre de:
-
-- #strong[Compartir]: Copiar y redistribuir el material en cualquier medio.
-- #strong[Adaptar]: Remezclar, transformar y construir a partir del material para cualquier propósito incluso comercialmente.
-
-Bajo los siguientes términos:
-
-- #strong[Atribución]: Debe otorgar el crédito correspondiente, proporcionar un enlace a la licencia e indicar si se realizaron cambios. Puede hacerlo de cualquier manera razonable, pero no de una manera que sugiera que el licenciante lo respalda a usted o a su uso.
-
-Más información: #link("https://creativecommons.org/licenses/by/4.0/deed.es")
-
-#strong[Proyecto]
-
-Manual de vuelo para la obtención de la licencia de piloto de planeador (SPL)
-
-#strong[Coordinación]
-
-VuelaLibre.net
-
-#strong[Repositorio]
-
-#link("https://github.com/VuelaLibreNet/manual-spl")
-
-#strong[Licencia]
-
-CC BY 4.0
-
-#strong[Fuentes]
-
-AESA, EASA, OACI, SERA, AMCs & GM, LSA, manuales de vuelo de Fuentemilanos, FAA Glider Flying Handbook, y manuales de vuelo de otros paises de la UE.
 
 #heading(level: 1, numbering: none)[Dedicatoria]
 <dedicatoria>
@@ -556,8 +540,8 @@ Ramón Gutiérrez Camus (SPL)
 
 Piloto de Vuelo a Vela. Edición técnica
 
-#heading(level: 1, numbering: none)[Índice de ilustraciones]
-<índice-de-ilustraciones>
+#heading(level: 1, numbering: none)[Introducción]
+<introducción>
 #strong[#emph[Tema 8 de 9 del examen teórico para la Licencia de Piloto de Planeador (SPL)]]
 
 Un planeador moderno de fibra de carbono es una obra de ingeniería de precisión. También es una máquina que falla de formas específicas y predecibles si no se mantiene o si el piloto no sabe qué está mirando en la inspección prevuelo.
@@ -755,6 +739,7 @@ body_background_color:
 white
 )
 ]
+#postit[
 #strong[Resumen del capítulo: estructura (airframe)]
 
 - #strong[Materiales]: la mayoría, de fibra de vidrio y de carbono (composite) por su resistencia y su acabado liso. Los clásicos, de madera y tela. El metal es raro en planeadores puros (salvo el Blaník).
@@ -764,6 +749,7 @@ white
 - #strong[Cúpula]: pestillos bloqueados antes de despegar, suelta de emergencia localizada y plexiglás limpio solo con agua y paños adecuados.
 - #strong[Gancho de remolque]: morro para avión, CG para torno (lo manda el AFM). Nunca torno con el gancho de morro: tira del morro al suelo y sobrecarga la cola. El de CG tiene suelta automática (#strong[back-release]). Comprueba su funcionamiento en la inspección diaria.
 
+]
 = Diseño de sistemas, cargas y tensiones
 <diseño-de-sistemas-cargas-y-tensiones>
 #quote(block: true)[
@@ -888,6 +874,7 @@ supplement: "Figura",
 <fig-08-cap02-diagrama-vn>
 
 
+#postit[
 #strong[Resumen del capítulo: cargas y diseño]
 
 - #strong[Factor de carga (n)]: los planeadores son fuertes, no invencibles. Crece con la inclinación del viraje (a 60° de alabeo, 2g). Categoría Utilitaria: +5,3g / -2,65g. Categoría Acrobática: +7g / -5g (CS 22.337).
@@ -895,6 +882,7 @@ supplement: "Figura",
 - #strong[Carga límite y rotura]: la límite es la máxima sin deformación permanente; la de rotura es la que parte la estructura (1,5 veces la límite, CS 22.303). No te acerques a esos valores.
 - #strong[Flameo (flutter)]: vibración autoexcitada mortal. La V#sub[NE] se fija con margen frente al flutter, pero las holguras o los desequilibrios en los mandos pueden provocarlo incluso por debajo. Respetar la V#sub[NE] es respetar tu vida.
 
+]
 = Tren de aterrizaje, ruedas, neumáticos y frenos
 <tren-de-aterrizaje-ruedas-neumáticos-y-frenos>
 #quote(block: true)[
@@ -1006,6 +994,7 @@ supplement: "Figura",
 <fig-08-cap03-mecanismo-tren>
 
 
+#postit[
 #strong[Resumen del capítulo: tren de aterrizaje]
 
 - #strong[Configuraciones]: tren fijo (escuela, simple) o retráctil (rendimiento). El retráctil se saca sin falta en viento en cola: tren abajo y bloqueado.
@@ -1014,6 +1003,7 @@ supplement: "Figura",
 - #strong[Patín de cola]: protege el fuselaje en tomas con el morro alto. Es un punto de desgaste a vigilar.
 - #strong[Tren que no sale]: prueba un tirón suave; si no, toma sobre hierba con el tren dentro. Daños menores, piloto a salvo.
 
+]
 = Masa y centro de gravedad
 <masa-y-centro-de-gravedad>
 #quote(block: true)[
@@ -1117,6 +1107,7 @@ body_background_color:
 white
 )
 ]
+#postit[
 #strong[Resumen del capítulo: masa y centrado (sistemas)]
 
 - #strong[MTOW y masa sin agua]: dos límites distintos. El agua en las alas no castiga la raíz del ala como el peso en cabina.
@@ -1125,6 +1116,7 @@ white
 - #strong[Lastre de cola]: depósito de agua o pesas en la deriva para ajustar el CG óptimo. Cuidado: olvidar vaciarlo con un piloto ligero delante es una emergencia grave (CG peligrosamente atrasado).
 - #strong[Pesaje]: tras reparaciones, repintado o cambios de equipo, según el manual de mantenimiento. El resultado vive en el Certificado de Pesaje.
 
+]
 = Mandos de vuelo
 <mandos-de-vuelo>
 #quote(block: true)[
@@ -1260,6 +1252,7 @@ supplement: "Figura",
 <fig-08-cap05-sistema-mandos>
 
 
+#postit[
 #strong[Resumen del capítulo: mandos de vuelo]
 
 - #strong[Mandos primarios]: alerones (alabeo), profundidad (cabeceo) y dirección (guiñada). Varillas rígidas para alabeo y profundidad; cables para la dirección. Revisa holguras, tensión y deshilachados en la inspección.
@@ -1269,6 +1262,7 @@ supplement: "Figura",
 - #strong[Compensador (trim)]: mando verde. No vuela el avión: alivia la presión de palanca para una velocidad dada. Ajústalo en cada fase del vuelo.
 - #strong[Libertad y sentido]: comprobación completa de mandos antes de cada despegue. Un mando invertido tras un mantenimiento es mortal.
 
+]
 = Instrumentos
 <instrumentos>
 #quote(block: true)[
@@ -1394,6 +1388,7 @@ supplement: "Figura",
 <fig-08-cap06-panel-pitot>
 
 
+#postit[
 #strong[Resumen del capítulo: instrumentos]
 
 - #strong[Pitot y estática]: los sentidos del avión. El pitot (morro/cola) mide presión total; las estáticas (fuselaje), presión ambiente. Si se bloquean (insectos, agua), te quedas ciego de velocidad y altura.
@@ -1403,6 +1398,7 @@ supplement: "Figura",
 - #strong[Variómetro (energía total)]: la herramienta clave. Ignora los "palancazos" (que cambian velocidad por altura) y solo te dice si la masa de aire sube o baja.
 - #strong[Aviónica]: radio VHF, transpondedor y FLARM. El FLARM es la red de seguridad anticolisión del vuelo sin motor.
 
+]
 = Montaje de la aeronave, conexión de superficies de control
 <montaje-de-la-aeronave-conexión-de-superficies-de-control>
 #quote(block: true)[
@@ -1515,6 +1511,7 @@ supplement: "Figura",
 <fig-08-cap07-conectores-mandos>
 
 
+#postit[
 #strong[Resumen del capítulo: montaje y rigging]
 
 - #strong[Verificación de mandos]: tras montar, el test de "mando positivo" (PCC) es obligatorio. Una persona sujeta la superficie (el alerón) y tú intentas mover la palanca. Debe ofrecer resistencia sólida. Si se mueve libre, no está conectado.
@@ -1523,6 +1520,7 @@ supplement: "Figura",
 - #strong[Cintado]: tapar las juntas ala-fuselaje no es solo estética; reduce el ruido y mejora bastante el rendimiento a baja velocidad.
 - #strong[Carga suelta]: un clásico error mortal es dejar herramientas o pesos sueltos en el fuselaje tras el montaje. Pueden desplazarse en vuelo y bloquear los mandos.
 
+]
 = Manuales y documentos
 <manuales-y-documentos>
 #quote(block: true)[
@@ -1647,6 +1645,7 @@ supplement: "Figura",
 <fig-08-cap08-documentos-bordo>
 
 
+#postit[
 #strong[Resumen del capítulo: documentación del avión]
 
 - #strong[Manual de Vuelo (AFM)]: a bordo en cada vuelo (salvo vuelos a la vista del aeródromo). Contiene los límites (V#sub[NE], factores de carga), los procedimientos de emergencia y las tablas de carga. Léelo antes de volar un modelo nuevo.
@@ -1654,6 +1653,7 @@ supplement: "Figura",
 - #strong[Chequeos]: CB-SIFT-CBE antes de despegar, FUSTALL/WULF en viento en cola. Lee, comprueba y confirma; nunca de memoria.
 - #strong[Diario técnico]: antes de volar, mira que no haya averías pendientes que te afecten. Al acabar, anota tu vuelo y cualquier incidencia.
 
+]
 = Aeronavegabilidad y mantenimiento
 <aeronavegabilidad-y-mantenimiento>
 #quote(block: true)[
@@ -1763,6 +1763,7 @@ supplement: "Figura",
 <fig-08-cap09-ciclo-mantenimiento>
 
 
+#postit[
 #strong[Resumen del capítulo: mantenimiento y aeronavegabilidad]
 
 - #strong[Inspección diaria (DI)]: es cosa del piloto. Sigue la lista: presión de ruedas, estado del gancho de remolque, bisagras de mandos, limpieza de pitot y estática.
@@ -1771,6 +1772,7 @@ supplement: "Figura",
 - #strong[Mantenimiento por piloto-propietario]: tareas sencillas del Apéndice II de Part-ML, solo si eres propietario con licencia válida, y siempre registradas y firmadas (ML.A.803).
 - #strong[Reporte de defectos]: si rompes algo o ves algo raro, anótalo. El siguiente piloto puede no verlo y matarse (un cable de timón deshilachado, por ejemplo).
 
+]
 = Estructura, motores y hélices
 <estructura-motores-y-hélices>
 #quote(block: true)[
@@ -1901,6 +1903,7 @@ supplement: "Figura",
 <fig-08-cap10-motor-retractil>
 
 
+#postit[
 #strong[Resumen del capítulo: motoveleros y sistemas retráctiles]
 
 - #strong[Complejidad]: un motor añade peso, complejidad y modos de fallo. El arranque en vuelo consume altura; por eso la cota mínima para intentarlo son 300 m (ver #strong[Libro 6 --- Procedimientos operativos], capítulo 2).
@@ -1909,6 +1912,7 @@ supplement: "Figura",
 - #strong[Hélice]: asegúrate de que está frenada y vertical antes de retraer. El espejo es tu amigo. Paso fijo o paso variable (velocidad constante), según el modelo.
 - #strong[Motor de combustión]: el encendido por magnetos es independiente de la batería (para pararlo, se pone a masa el primario). Vigila el engelamiento del carburador (−7 a +21 °C con humedad; primer síntoma, caída de RPM) y drena el combustible antes de volar.
 
+]
 = Sistemas de lastre con agua
 <sistemas-de-lastre-con-agua>
 #quote(block: true)[
@@ -1992,6 +1996,7 @@ supplement: "Figura",
 <fig-08-cap11-lastre-agua>
 
 
+#postit[
 #strong[Resumen del capítulo: lastre de agua]
 
 - #strong[Para qué sirve]: aumentar la carga alar y desplazar la polar a la derecha (correr más con el mismo ángulo de planeo). Solo merece la pena con térmicas fuertes.
@@ -1999,6 +2004,7 @@ supplement: "Figura",
 - #strong[Vaciado asimétrico]: si una válvula falla y te quedas con agua en un solo ala, tienes una emergencia grave de control lateral. Aterriza con velocidad extra y cuidado: el avión querrá alabear hacia el ala pesada.
 - #strong[Antes de aterrizar]: tira el agua. Aterrizar con lastre castiga el tren y la estructura sin necesidad, y sube la velocidad de toma.
 
+]
 = Baterías
 <baterías>
 #quote(block: true)[
@@ -2107,6 +2113,7 @@ supplement: "Figura",
 <fig-08-cap12-sistema-electrico>
 
 
+#postit[
 #strong[Resumen del capítulo: baterías y sistema eléctrico]
 
 - #strong[Tipos]: plomo-ácido/gel (pesadas, robustas, baratas) frente a LiFePO4 (ligeras, voltaje constante, cargador específico).
@@ -2115,6 +2122,7 @@ supplement: "Figura",
 - #strong[Vuelo en nubes]: despega con las baterías prácticamente llenas. Sin referencias visuales, los instrumentos son tu vida, y ninguna norma te salvará de una batería vacía dentro de una nube.
 - #strong[Fijación]: la batería es un proyectil de varios kilos. Su soporte debe aguantar 15g hacia delante (CS 22.561). Comprueba que su "cinturón de seguridad" está apretado y bloqueado antes de cada vuelo.
 
+]
 = Paracaídas de emergencia
 <paracaídas-de-emergencia>
 #quote(block: true)[
@@ -2223,6 +2231,7 @@ supplement: "Figura",
 <fig-08-cap13-secuencia-salto>
 
 
+#postit[
 #strong[Resumen del capítulo: paracaídas (sistema)]
 
 - #strong[Mantenimiento]: no es eterno. Pide plegado y aireación periódicos por un #strong[rigger] certificado (cada 6-12 meses según fabricante) y tiene una vida útil límite (15 o 20 años, por ejemplo).
@@ -2230,6 +2239,7 @@ supplement: "Figura",
 - #strong[Cuidado diario]: la luz UV, la humedad y la suciedad son sus enemigos. Llévalo siempre en su bolsa y no lo dejes tirado en la pista.
 - #strong[Secuencia]: cabina, cinturones, saltar, anilla. Mínimo recomendado: 150 m AGL. El procedimiento completo se entrena con el #strong[Libro 6 --- Procedimientos operativos], capítulo 8.
 
+]
 = Equipo de evacuación de emergencia
 <equipo-de-evacuación-de-emergencia>
 #quote(block: true)[
@@ -2338,12 +2348,14 @@ supplement: "Figura",
 <fig-08-cap14-equipo-supervivencia>
 
 
+#postit[
 #strong[Resumen del capítulo: equipo de emergencia]
 
 - #strong[ELT / PLB]: tu baliza de salvación. Las de 406 MHz con GPS mandan tu posición exacta al satélite en minutos. Las antiguas de 121.5 MHz ya no se vigilan por satélite.
 - #strong[Oxígeno]: la regla es SAO.OP.150: el piloto valora el riesgo de hipoxia; si no puede valorarlo, oxígeno siempre por encima de 10.000 ft (AMC1). Los sistemas EDS (a demanda) ahorran mucho oxígeno. La fisiología se estudia en el #strong[Libro 2 --- Factores humanos], capítulo 4.
 - #strong[Kit de supervivencia]: agua, abrigo, espejo de señales, móvil cargado. Si aterrizas en una ladera remota, pueden tardar horas o días en sacarte. Vístete para la temperatura de fuera, no para la de cabina.
 
+]
 #show: appendices.with("Apéndices", hide-parent: true)
 #heading(level: 1, numbering: none)[Apéndices]
 = Syllabus Oficial EASA - Conocimientos Generales de la Aeronave
@@ -2602,3 +2614,56 @@ La OACI desarrolla las normas y métodos recomendados (SARPS) mediante 19 anexos
 - #strong[Glider Flying Handbook (FAA-H-8083-13B)]. Federal Aviation Administration (FAA), U.S. Department of Transportation. Obra en dominio público; fuente de buena parte de las ilustraciones técnicas de la colección. #link("https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/glider_handbook")
 - #strong[Methodik der Segelflugausbildung] (#emph[Segelflugrechte], Rev.~2). Deutscher Aero Club (DAeC), 2022. Metodología alemana de instrucción de vuelo a vela. #link("https://www.daec.de/media/files/2022/Sportarten/Segelflug/Methodik_der_Segelflugausbildung_Segelflugrechte_Rev.2.pdf")
 - #strong[Vuelo sin motor: técnicas avanzadas]. Helmut Reichmann. Edición española de la obra de referencia internacional sobre la técnica del vuelo de distancia (orig. #emph[Streckensegelflug]\; ed.~inglesa, #emph[Cross-Country Soaring]). ISBN 978-84-283-1567-8.
+
+#heading(level: 1, numbering: none)[Información Legal y Licencia]
+<información-legal-y-licencia>
+#strong[Atribución y Fuentes]
+
+#quote(block: true)[
+El #strong[temario de esta colección ---el índice--- está avalado por AESA] (Agencia Estatal de Seguridad Aérea), la autoridad aeronáutica civil de España. Este aval certifica que el programa de formación teórica para la Licencia de Piloto de Planeador (SPL) es conforme al syllabus del AMC1 SFCL.130; no obstante, el desarrollo del contenido es responsabilidad exclusiva de los autores.
+
+El contenido se basa en la síntesis de normativas oficiales, estándares de seguridad de la #strong[OACI] (Organización de Aviación Civil Internacional) y de #strong[EASA] (European Union Aviation Safety Agency), así como de las mejores prácticas de la comunidad de vuelo a vela española, recogidas por varios instructores, y recopiladas por el instructor Iñaqui Ulibarri García de la Cueva para los aeroclubs de Ocaña y Fuentemilanos.
+]
+
+#strong[EXENCIÓN DE RESPONSABILIDAD - USO BAJO PROPIO RIESGO]
+
+La aviación es una actividad que conlleva riesgos inherentes. Aunque se ha realizado un esfuerzo exhaustivo para garantizar la precisión técnica de este manual utilizando fuentes oficiales actualizadas:
+
+- #strong[Los autores, editores y colaboradores NO asumen responsabilidad alguna] por daños personales, materiales o de cualquier otra índole que pudieran derivarse de interpretaciones erróneas o errores técnicos en el texto.
+- Este manual es una #strong[herramienta de apoyo al estudio] y no sustituye en ningún caso ni a la instrucción teórica ni a la práctica obligatoria con un instructor de vuelo cualificado (FI(S)).
+- En caso de discrepancia con la normativa vigente publicada por AESA o EASA, prevalecerá siempre el texto legal oficial de la autoridad aeronáutica.
+
+#strong[LICENCIA]
+
+Esta obra se distribuye bajo licencia #strong[Creative Commons Atribución 4.0 Internacional (CC BY 4.0)].
+
+Usted es libre de:
+
+- #strong[Compartir]: Copiar y redistribuir el material en cualquier medio.
+- #strong[Adaptar]: Remezclar, transformar y construir a partir del material para cualquier propósito incluso comercialmente.
+
+Bajo los siguientes términos:
+
+- #strong[Atribución]: Debe otorgar el crédito correspondiente, proporcionar un enlace a la licencia e indicar si se realizaron cambios. Puede hacerlo de cualquier manera razonable, pero no de una manera que sugiera que el licenciante lo respalda a usted o a su uso.
+
+Más información: #link("https://creativecommons.org/licenses/by/4.0/deed.es")
+
+#strong[Proyecto]
+
+Manual de vuelo para la obtención de la licencia de piloto de planeador (SPL)
+
+#strong[Coordinación]
+
+VuelaLibre.net
+
+#strong[Repositorio]
+
+#link("https://github.com/VuelaLibreNet/manual-spl")
+
+#strong[Licencia]
+
+CC BY 4.0
+
+#strong[Fuentes]
+
+AESA, EASA, OACI, SERA, AMCs & GM, LSA, manuales de vuelo de Fuentemilanos, FAA Glider Flying Handbook, y manuales de vuelo de otros paises de la UE.

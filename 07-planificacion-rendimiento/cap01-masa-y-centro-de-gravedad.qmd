@@ -108,6 +108,7 @@ Estás a 1.200 m sobre el terreno, a 18 km del aeródromo. Tu planeador tiene un
 
 **Solución.** Con viento de cara, la fineza sobre el suelo cae en proporción a tu velocidad real de avance. A 100 km/h en el aire con 20 km/h de cara, avanzas sobre el suelo a 100 − 20 = 80 km/h, así que la fineza efectiva es 30 × (80 / 100) = **24**. Los 18 km de distancia exigen entonces 18 / 24 = 0,75 km = **750 m** de planeo puro. Partiendo de 1.200 m, al llegar sobre el campo te quedan 1.200 − 750 = **450 m**, por encima de los 300 m de seguridad: **llegas, con 150 m de margen.** Si el viento arreciara a 40 km/h, la fineza efectiva bajaría a 30 × (60 / 100) = 18, necesitarías 18 / 18 = 1.000 m y llegarías justo con 200 m: momento de subir una térmica más antes de comprometerte con el planeo final.
 
+::: {.postit}
 **Resumen del Capítulo: Masa y Centro de Gravedad**
 
 * **CG atrasado**: es la condición más peligrosa. El avión se vuelve inestable (quiere subir el morro solo) y la recuperación de una pérdida o barrena puede ser imposible. Si eres ligero, usa lastre fijado mecánicamente, nunca improvisado.
@@ -116,3 +117,5 @@ Estás a 1.200 m sobre el terreno, a 18 km del aeródromo. Tu planeador tiene un
 * **Peso máximo (MTOW)**: un planeador sobrecargado necesita más pista para despegar, tiene una velocidad de pérdida mayor y sufre más fatiga estructural con menos Gs.
 * **Lastre de agua**: permite volar más rápido con el mismo ángulo de planeo (ideal para días fuertes), pero empeora el régimen de ascenso en térmica. Y recuerda: el agua se tira antes de aterrizar.
 * **Lastre de cola**: no añade rendimiento por sí mismo; recoloca el CG cuando llenas las alas. Vacíalo siempre junto con los tanques principales: agua solo en la cola equivale a un CG atrasado extremo.
+:::
+

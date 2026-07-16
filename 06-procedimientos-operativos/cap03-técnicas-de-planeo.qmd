@@ -102,6 +102,7 @@ La analogía más útil es la del ciclista: en un descenso largo, ir cargado per
 Un planeador con lastre de agua tiene una **velocidad de pérdida significativamente mayor** —hasta 15-20 km/h más que sin lastre—. Ajusta todas tus velocidades de referencia (despegue, aproximación, circuito) en consecuencia. **Nunca aterrices con lastre completo**, salvo que una avería del vaciado te obligue — y entonces, extrema la suavidad de la toma: la inercia adicional puede superar la resistencia estructural de las alas y provocar un fallo catastrófico.
 :::
 
+::: {.postit}
 **Resumen del Capítulo: Técnicas de planeo**
 
 * **Centrado de térmica**: siente el empujón en el asiento. Si el ala derecha sube, el núcleo está a la derecha: vira a la derecha. Cierra el viraje cuando el vario sube, ábrelo cuando baja. Con práctica, este ciclo se vuelve automático.
@@ -110,3 +111,5 @@ Un planeador con lastre de agua tiene una **velocidad de pérdida significativam
 * **Ladera**: mantente pegado a barlovento con vía de escape hacia el valle siempre disponible. Si tienes la ladera a tu derecha, tienes preferencia. Nunca vires hacia el monte.
 * **Onda**: la autopista al cielo. Sube en la zona laminar, delante de la nube de rotor. Requiere oxígeno y ropa de abrigo. Cuidado al bajar: el rotor puede romperte el planeador en segundos.
 * **Lastre de agua**: más masa = más velocidad sin perder planeo. Útil en días fuertes y travesías largas. Vacíalo antes de aterrizar y ajusta siempre las velocidades de referencia: con lastre, la pérdida llega mucho antes.
+:::
+

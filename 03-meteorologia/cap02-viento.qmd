@@ -90,6 +90,7 @@ Identificar la línea de convergencia es cuestión de observación:
 En verano, los pilotos que operan desde Fuentemilanos (Segovia) trabajan frecuentemente la convergencia de brisa del SW que penetra desde el Atlántico a través del Sistema Central. La Baja Térmica Peninsular (ver capítulo de Climatología) actúa como un gran aspirador que succiona la brisa marina tierra adentro, creando líneas de convergencia NW–SE que funcionan como autopistas de ascendencias para el cross-country. Revisa modelos RASP o Skysight —o su equivalente en Topmeteo o Meteo Parapente— la tarde anterior para anticipar su posición.
 :::
 
+::: {.postit}
 **Resumen del Capítulo: Viento**
 
 * **El motor del viento**: El aire fluye naturalmente de las Altas (H) a las Bajas (L) presiones debido a la fuerza de gradiente. Cuanto más juntas estén las isobaras, más fuerte soplará.
@@ -98,3 +99,5 @@ En verano, los pilotos que operan desde Fuentemilanos (Segovia) trabajan frecuen
 * **Brisas Locales**: El sol calienta las laderas antes que el valle, generando brisas ascendentes (anabáticas) de día. De noche, el aire frío baja (catabático). Conocer este ciclo es vital para encontrar ascendencias o evitar descendencias peligrosas en montaña.
 * **Efecto Foehn y Stau**: El aire que sube en barlovento precipita y cede calor latente (SALR). Al descender en sotavento —ya seco— se calienta al DALR completo, llegando hasta 15 °C más caliente. La "pared de Foehn" marca visualmente la cresta. Cuidado con los rotores en el sotavento.
 * **Brisas Marinas y Convergencias**: La brisa marina penetra tierra adentro creando una línea de convergencia (minifrente) con ascendencias excelentes para el cross-country. Identifícala por las diferentes alturas de base de los cúmulos a cada lado y por la franja de nubosidad activa sobre el límite.
+:::
+

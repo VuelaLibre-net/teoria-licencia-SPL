@@ -169,6 +169,7 @@ En la mayoría de los aeroclubs de habla hispana, especialmente en centros hist�
 Ambas mnemotécnicas (la europea CB-SIFT-CBE y la tradicional CRISE) persiguen el mismo fin de seguridad: no conectar el cable del planeador a pista hasta que no se haya realizado una verificación física e instrumental completa en cabina.
 :::
 
+::: {.postit}
 **Resumen del Capítulo: Requisitos generales**
 
 * **Los papeles del planeador (SAO.GEN.155)**: antes de cada vuelo verifica los cuatro pilares documentales de la aeronave: aeronavegabilidad (certificado + ARC), matrícula, manual de vuelo (AFM) y pesada y centrado. Si falta alguno, el planeador no vuela.
@@ -178,3 +179,5 @@ Ambas mnemotécnicas (la europea CB-SIFT-CBE y la tradicional CRISE) persiguen e
 * **Pasajeros**: licencia SPL (Sailplane Pilot Licence) (no alumno), 3 lanzamientos en los últimos 90 días, 10 horas o 30 lanzamientos tras la licencia, y un vuelo de verificación con instructor.
 * **Operaciones en tierra**: comprobación de mandos positiva (PCC) tras cada montaje. Anclaje de cara al viento con cúpulas cerradas. Regla de la cuerda larga (más de media envergadura) para remolcar con coche.
 * **Prevuelo y CB-SIFT-CBE**: inspección prevuelo sistemática de 360 grados. Checklist de cabina estricto CB-SIFT-CBE antes de conectar el cable de lanzamiento.
+:::
+

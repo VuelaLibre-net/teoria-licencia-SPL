@@ -168,6 +168,7 @@ Como ficha de repaso rápido, esta tabla resume la respuesta inmediata a cada em
 
 : Síntoma → acción inmediata en las emergencias del capítulo
 
+::: {.postit}
 **Resumen del Capítulo: Procedimientos de emergencia**
 
 * **Regla universal**: ante cualquier emergencia en el lanzamiento, lo primero siempre es **bajar el morro** para recuperar velocidad y evitar la pérdida. Después, suelta el cable y decide.
@@ -187,3 +188,5 @@ Como ficha de repaso rápido, esta tabla resume la respuesta inmediata a cada em
 * **Fallos de instrumentos**: con el pitot bloqueado, vuela por actitud visual de cabeceo y por el sonido del viento en cabina.
 * **Apertura de cúpula**: vuela el planeador primero (**Aviate**). No intentes cerrarla si estás bajo. Baja el morro para contrarrestar el aumento de resistencia.
 * **Lastre asimétrico**: vuela 15-20 km/h más rápido en circuito para mantener la efectividad de los alerones y mantén las alas niveladas al tocar el suelo.
+:::
+

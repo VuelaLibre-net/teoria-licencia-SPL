@@ -167,9 +167,12 @@ La regla de oro para el examen y para la cabina: un índice aislado no decide na
 TT > 55 o K > 25 combinado con CAPE > 2.500 J/kg señala alto riesgo de tormenta de evolución diurna. En estas condiciones, planifica el aterrizaje antes de las 16:00 h y ten siempre identificado un campo de aterrizaje alternativo en tierra antes de que se levante la convección.
 :::
 
+::: {.postit}
 **Resumen del Capítulo: Termodinámica**
 
 * **Estabilidad Atmosférica**: Concepto clave. El aire es "estable" si una burbuja empujada hacia arriba tiende a volver a bajar, e "inestable" si sigue subiendo sola. El vuelo a vela vive de la inestabilidad.
 * **Gradientes Adiabáticos**: El aire seco se enfría 3°C por cada 1.000 ft al subir (DALR). El aire saturado (nube) se enfría solo la mitad, 1,5°C (SALR). Memoriza esto para predecir la base de las nubes y su desarrollo.
 * **Inversiones**: Son capas donde la temperatura **sube** con la altura en lugar de bajar. Actúan como una tapadera invisible que frena las térmicas y atrapa la contaminación/bruma.
 * **Convección**: El sol calienta el suelo, el suelo calienta el aire, y este sube como una burbuja (modelo burbuja) o como una pluma continua (modelo columna). Cuanto más frío esté el aire arriba en comparación con el suelo, más fuerte será la térmica.
+:::
+

@@ -65,6 +65,7 @@ Si encuentras algo mal durante la pre-vuelo o durante el vuelo, anótalo en el *
 ¿Ves una muesca en el gelcoat? No es solo estética: si afecta al perfil, afecta al vuelo. Ante la duda, pregunta. Es mejor ser un piloto curioso que un piloto en apuros.
 :::
 
+::: {.postit}
 **Resumen del Capítulo: Aeronavegabilidad**
 
 La aeronavegabilidad es la salud de tu aeronave. Para volar legal y seguro:
@@ -73,3 +74,5 @@ La aeronavegabilidad es la salud de tu aeronave. Para volar legal y seguro:
 * **ARC**: la "ITV" anual. Confirma que el avión está revisado y apto. Verifica su fecha de validez antes de volar.
 * **Part-ML**: el marco de mantenimiento de los planeadores; permite al piloto-propietario certificar tareas sencillas. Su desarrollo técnico (AMP, programa mínimo de inspección, AD/SB) está en el **Libro 8**, capítulo 9.
 * **Tu parte**: hacer la inspección pre-vuelo, verificar que la documentación (CofA, ARC, seguro…​) está a bordo y en vigor, y anotar cualquier defecto en el Diario de a bordo.
+:::
+

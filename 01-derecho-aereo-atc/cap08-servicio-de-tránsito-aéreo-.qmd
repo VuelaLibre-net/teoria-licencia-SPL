@@ -61,6 +61,7 @@ Si tienes una emergencia real y **NO** has presentado Plan de Vuelo ni estás en
 
 Dos remisiones útiles dentro de la colección: las **señales luminosas** con las que una torre puede dirigirte sin radio se estudian en el **Libro 4 — Comunicaciones**, capítulo 7; y el **plan de vuelo**, que alimenta este servicio de alerta, en los Libros 4 (operativa), 7 (formulario) y 9 (uso de los ATS).
 
+::: {.postit}
 **Resumen del Capítulo: Servicios de Tránsito Aéreo (ATS)**
 
 El ATS te ofrece tres tipos de ayuda:
@@ -68,3 +69,5 @@ El ATS te ofrece tres tipos de ayuda:
 * **Control (ATC)**: te dan órdenes (autorizaciones) para separarte de otros aviones. Son la TWR, la APP y el ACC, y solo opera en espacio aéreo controlado.
 * **Información de vuelo (FIS)**: te dan información útil (meteo, peligros, tráficos cercanos), pero el responsable de evitar colisiones eres tú. "Información de tráfico" no es "separación".
 * **Alerta (ALRS)**: avisa a búsqueda y salvamento (SAR) si no llegas a tiempo o tienes una emergencia.
+:::
+

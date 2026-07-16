@@ -148,6 +148,7 @@ Añade siempre tu indicativo al final de cada colación. Así el controlador con
 (*) En frecuencias internacionales, el dígito 9 se pronuncia **«Niner»** para evitar confusiones con «Nein» (no, en alemán). El alfabeto fonético OACI está diseñado para ser reconocible en cualquier idioma y en condiciones de radio degradadas. Memorícelo hasta que el deletreo sea automático.
 :::
 
+::: {.postit}
 **Resumen del capítulo: Definiciones y técnica**
 
 * **Introducción**: Las comunicaciones aeronáuticas de voz se realizan en VHF (118–136,975 MHz), reguladas por el Anexo 10 de la OACI. El espaciado de canales en Europa es de 8,33 kHz (Reglamento UE 1079/2012). La estación en tierra es la «estación aeronáutica»; el piloto opera desde la «estación de aeronave».
@@ -156,3 +157,5 @@ Añade siempre tu indicativo al final de cada colación. Así el controlador con
 * **Disciplina de radio**: Piensa → Escucha → Pulsa y cuenta uno → Habla. Menos de 100 palabras por minuto, mensaje preparado antes de pulsar el PTT.
 * **Transmisión de números, horas y frecuencias**: Números dígito a dígito («*tres cuatro*», nunca «treinta y cuatro»); centenas y miles exactos como unidades («*dos mil seiscientos*»). Horas en UTC, normalmente solo los minutos. Frecuencias con «coma»: «*uno dos cuatro coma cuatro cero*». Colaciona siempre el nuevo canal antes de cambiar.
 * **Identificación**: La matrícula es el nombre de la aeronave. Primer contacto: matrícula completa en fonético. Matrícula abreviada: solo cuando la torre la use primero.
+:::
+

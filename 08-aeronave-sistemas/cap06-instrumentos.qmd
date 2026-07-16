@@ -68,6 +68,7 @@ Algunos planeadores montan además una brújula magnética y, como "instrumento"
 
 ![Esquema de conexiones del sistema pitot-estática e instrumentos](imagenes/08-cap06-panel-pitot.jpg){#fig-08-cap06-panel-pitot}
 
+::: {.postit}
 **Resumen del capítulo: instrumentos**
 
 * **Pitot y estática**: los sentidos del avión. El pitot (morro/cola) mide presión total; las estáticas (fuselaje), presión ambiente. Si se bloquean (insectos, agua), te quedas ciego de velocidad y altura.
@@ -76,3 +77,5 @@ Algunos planeadores montan además una brújula magnética y, como "instrumento"
 * **Altímetro**: recuerda calarlo. QNH para altitud sobre el nivel del mar (rutas, espacios aéreos); QFE para altura sobre el campo (circuito).
 * **Variómetro (energía total)**: la herramienta clave. Ignora los "palancazos" (que cambian velocidad por altura) y solo te dice si la masa de aire sube o baja.
 * **Aviónica**: radio VHF, transpondedor y FLARM. El FLARM es la red de seguridad anticolisión del vuelo sin motor.
+:::
+

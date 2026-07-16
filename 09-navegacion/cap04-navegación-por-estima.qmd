@@ -108,6 +108,7 @@ Tu TAS es de 90 km/h y quieres seguir una ruta con rumbo verdadero 000° (al nor
 
 **Solución.** El viento es 100 % cruzado, así que la componente cruzada es los 18 km/h completos. Con la fórmula mental de deriva, DA = (V_{cruzado} \times 60)/TAS = (18 \times 60)/90 = 1.080/90 = 12°DA = (V_{cruzado} \times 60)/TAS = (18 \times 60)/90 = 1.080/90 = 12°. El viento viene de la izquierda (del oeste hacia un rumbo norte), así que empujaría hacia la derecha; para compensarlo, mete morro al viento: vuela un rumbo verdadero de **348°** (000° − 12°). Fíjate en la lección del planeador: con TAS baja, un viento moderado produce una deriva grande (aquí, 12° por solo 18 km/h de viento).
 
+::: {.postit}
 **Resumen del Capítulo: Navegación a Estima**
 
 * **El Triángulo de Velocidades**: Es la base de todo. Tres vectores: **TAS** (Tu velocidad real aire), **Viento** (Velocidad del aire) y **GS** (Tu velocidad suelo). Si conoces dos, calculas el tercero.
@@ -116,3 +117,5 @@ Tu TAS es de 90 km/h y quieres seguir una ruta con rumbo verdadero 000° (al nor
 * **Deriva y velocidad suelo**: DA = (V_{cruzado} \times 60)/TASDA = (V_{cruzado} \times 60)/TAS y GS = TAS \pm V \cdot \cos\alphaGS = TAS \pm V \cdot \cos\alpha. Con TAS baja, un viento moderado produce mucha deriva.
 * **Tiempo/distancia/velocidad**: T = D/GST = D/GS. Pasa horas decimales a minutos multiplicando por 60.
 * **Regla del 60**: Si te desvías 1 milla en 60 millas de vuelo, tu error de rumbo es 1 grado. Útil para correcciones mentales rápidas.
+:::
+

@@ -55,6 +55,7 @@ En vuelo recto y nivelado, el factor de carga es 1 G. Al inclinarte en un viraje
 La velocidad de pérdida aumenta con el factor de carga. En un viraje de 60º (2 Gs), la velocidad de pérdida **sube un 41%**. Un planeador que entra en pérdida a 70 km/h en vuelo nivelado lo hará a casi 100 km/h en ese viraje cerrado. Un uso brusco de los mandos en esta situación puede llevar a una pérdida crítica.
 :::
 
+::: {.postit}
 **Resumen del Capítulo: Limitaciones y Maniobras**
 
 * **Diagrama V-n**: el mapa de seguridad de tu estructura. Muestra los Gs que aguantas a cada velocidad. Salirte de la "caja" significa romper el planeador. Límites CS-22: cat. U +5,3g / −2,65g en V~A~, que se estrechan a +4,0g / −1,5g en V~D~; cat. A +7,0g / −5,0g.
@@ -62,3 +63,5 @@ La velocidad de pérdida aumenta con el factor de carga. En un viraje de 60º (2
 * **Marcas del anemómetro (CS 22.1545)**: el arco verde termina en la **V~RA~** (velocidad máxima en aire turbulento), donde empieza el arco amarillo, que acaba en la línea roja de la VNE. La V~A~ es un límite estructural y **no** es una marca del anemómetro, aunque en muchos veleros su valor sea parecido al de la V~RA~.
 * **VNE (velocidad de nunca exceder)**: la **línea roja** del anemómetro (CS 22.1505). No es una recomendación, es un límite físico. Pasarla invita al **flutter** (vibración aeroelástica), que puede desintegrar el planeador en segundos. Cerca de la VNE, limita las deflexiones de mando a un tercio de su recorrido.
 * **Factor de carga y pérdida**: las Gs "engordan" al planeador. En un viraje de 60° (2 Gs), la velocidad de pérdida sube un 41%.
+:::
+

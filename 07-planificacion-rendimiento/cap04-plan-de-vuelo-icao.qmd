@@ -68,6 +68,7 @@ Un plan de vuelo abierto y no cerrado dispara una operación SAR: helicópteros 
 Nunca te vayas a casa sin confirmar que tu plan de vuelo está cerrado. Si aterrizas fuera de campo, tu prioridad tras asegurar el avión es notificar tu estado y posición para evitar falsas alarmas SAR.
 :::
 
+::: {.postit}
 **Resumen del Capítulo: Plan de Vuelo ICAO**
 
 * **¿Cuándo es obligatorio?**: al cruzar fronteras, cuando se te presta servicio de control (clases B, C y D; en la E el VFR vuela sin plan, sin radio y sin autorización), desde o hacia aeródromos controlados, en VFR nocturno fuera de las inmediaciones del aeródromo y cuando lo exija la autoridad ATS. Muy recomendable en vuelos de distancia para activar los servicios de alerta (SAR).
@@ -75,3 +76,5 @@ Nunca te vayas a casa sin confirmar que tu plan de vuelo está cerrado. Si aterr
 * **AFIL**: sin cobertura en tierra, puedes abrir el plan por radio con el FIC (Madrid, Barcelona o Canarias Información), con antelación suficiente antes de entrar en espacio controlado.
 * **Motoveleros (TMG)**: si vuelas un TMG como avión de turismo, sigues las mismas reglas que una avioneta: declara autonomía de combustible real, no solar.
 * **Cierre del plan**: si aterrizas en un campo y te vas a cenar sin cerrar el plan, se activa una operación de búsqueda y rescate. Llama a la oficina de notificación de los servicios de tránsito aéreo (ARO) o a la torre en cuanto tengas cobertura.
+:::
+

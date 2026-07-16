@@ -54,6 +54,7 @@ Cuando vuelas rápido, el flujo de aire golpea con fuerza las superficies de con
 
 Sin embargo, a medida que reduces la velocidad acercándote a la entrada en pérdida, el flujo de aire disminuye. Los mandos pierden eficacia y se vuelven blandos o **"chiclosos"**. Esta falta de respuesta es una advertencia física directa de que estás volando demasiado lento y cerca del límite de sustentación.
 
+::: {.postit}
 **Resumen del Capítulo: Control**
 
 * **Guiñada adversa**: el efecto secundario más molesto en los veleros de gran envergadura. Al alabear para girar, el ala que sube tiene más resistencia y frena ese lado, metiendo el morro **al revés** del giro. **Antídoto**: pie y mano juntos (coordinación).
@@ -61,3 +62,5 @@ Sin embargo, a medida que reduces la velocidad acercándote a la entrada en pér
 * **Compensador (trim)**: no es solo para descansar el brazo. Es fundamental para mantener una velocidad constante sin esfuerzo. Compensa siempre que cambies de régimen de vuelo (de termicar a planear rápido).
 * **Eficacia de mando**: los mandos "hablan". Si están duros, vas rápido. Si están blandos y "chiclosos", estás cerca de la pérdida. Escucha lo que te dicen a través de la mano.
 * **Mando diferencial**: diseño de los alerones para reducir la guiñada adversa (el alerón que sube lo hace más que el que baja), pero aun así necesitarás pie.
+:::
+

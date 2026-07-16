@@ -66,9 +66,12 @@ Tiene que ver directamente con la velocidad. La V~NE~ (Velocidad Nunca Exceder) 
 
 ![El diagrama V-n o envolvente de vuelo](imagenes/08-cap02-diagrama-vn.jpg){#fig-08-cap02-diagrama-vn}
 
+::: {.postit}
 **Resumen del capítulo: cargas y diseño**
 
 * **Factor de carga (n)**: los planeadores son fuertes, no invencibles. Crece con la inclinación del viraje (a 60° de alabeo, 2g). Categoría Utilitaria: +5,3g / -2,65g. Categoría Acrobática: +7g / -5g (CS 22.337).
 * **Fatiga**: la fibra de vidrio dura muchísimo, pero se revisa periódicamente (3000h, 6000h…) en busca de microfisuras o delaminación.
 * **Carga límite y rotura**: la límite es la máxima sin deformación permanente; la de rotura es la que parte la estructura (1,5 veces la límite, CS 22.303). No te acerques a esos valores.
 * **Flameo (flutter)**: vibración autoexcitada mortal. La V~NE~ se fija con margen frente al flutter, pero las holguras o los desequilibrios en los mandos pueden provocarlo incluso por debajo. Respetar la V~NE~ es respetar tu vida.
+:::
+

@@ -53,9 +53,12 @@ Si la incertidumbre persiste y tu altura se reduce, deja de intentar navegar y c
 Si tienes radio y estás en contacto con un servicio ATC, no dudes en preguntar: "Madrid, EC-XYZ, dudo de mi posición, solicito vector o confirmación". No hay vergüenza en pedir ayuda antes de que la situación sea crítica.
 :::
 
+::: {.postit}
 **Resumen del Capítulo: Navegación en Vuelo**
 
 * **Referencias Visuales**: Usa objetos grandes, lineales y con contraste (ríos, autopistas, líneas de costa). Oriente la carta siempre en el sentido del vuelo (lo que ves a la derecha en el suelo, a la derecha en el papel).
 * **Triangulación**: No te fíes de una sola referencia. Cruza al menos dos "líneas de posición" (ej. el cruce de una carretera y el eje de una montaña) para saber dónde estás con certeza.
 * **La Regla 1:60**: Si te desvías 1 NM de tu ruta tras haber volado 60 NM, tu error de rumbo es de 1º. Puedes usar esta proporción para corregir el rumbo mentalmente sin transportador.
 * **Incertidumbre de Posición**: Si te pierdes, NO SIGAS VOLANDO A CIEGAS. Mantén el rumbo, busca referencias grandes, confía en tu estima inicial y, si es necesario, vuela hacia un lugar conocido (un río, una costa) o aterriza con seguridad antes de quedarte sin altura.
+:::
+

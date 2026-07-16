@@ -58,6 +58,7 @@ Si aceleramos o frenamos mientras volamos con rumbos Este u Oeste, la inercia de
 
 Recordamos esto con la regla inglesa **ANDS**: **A**ccelerate **N**orth, **D**ecelerate **S**outh. Es decir: al **acelerar**, la brújula tiende al **Norte**; al **decelerar**, tiende al **Sur**.
 
+::: {.postit}
 **Resumen del Capítulo: Magnetismo y Brújulas**
 
 * **Norte Verdadero vs Magnético**: La brújula apunta al Norte Magnético, que no coincide con el Geográfico (Verdadero). La diferencia es la **Variación (o Declinación)**. Regla: "Declinación Oeste, Rumbo Suma".
@@ -65,3 +66,5 @@ Recordamos esto con la regla inglesa **ANDS**: **A**ccelerate **N**orth, **D**ec
 * **Errores de la Brújula**: La brújula solo dice la verdad en vuelo recto y nivelado (y no acelerado).
 * **Error de Viraje**: Al virar al Norte, la brújula se queda atrás (vas corto: NO te pases); al Sur se adelanta (déjala pasar: SÍ te pasas).
 * **Error de Aceleración**: Al acelerar en rumbos E/W, marca viraje al Norte; al frenar, al Sur (regla **ANDS**: **Accelerate North, Decelerate South**).
+:::
+

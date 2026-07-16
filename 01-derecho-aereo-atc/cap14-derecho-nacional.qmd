@@ -61,6 +61,7 @@ Las sanciones económicas pueden ser **muy elevadas**, incluso para pilotos priv
 Ante cualquier duda sobre la legalidad de una operación (ej: volar cerca de un aeropuerto controlado, llevar pasajeros sin recencia), **pregunta antes a tu club, instructor o a AESA**. Es mejor preguntar que enfrentarse a un expediente sancionador.
 :::
 
+::: {.postit}
 **Resumen del Capítulo: Derecho Nacional**
 
 Además de Europa, en España manda la **Ley de Seguridad Aérea (LSA 21/2003)**.
@@ -68,3 +69,5 @@ Además de Europa, en España manda la **Ley de Seguridad Aérea (LSA 21/2003)**
 * Establece el régimen de infracciones y sanciones: las **muy graves** (muerte o accidente) pueden acarrear la inhabilitación.
 * **DGAC**: define la política aeronáutica (las "reglas del juego").
 * **AESA**: vigila y sanciona (el "árbitro").
+:::
+

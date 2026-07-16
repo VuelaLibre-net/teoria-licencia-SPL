@@ -7,10 +7,13 @@ contributes:
     typst:
       include-in-header:
         - glosario.typ
+        - postit.typ
       template-partials:
         - numbering.typ
         - page.typ
         - typst-show.typ
       filters:
         - path: orange-book.lua
+          at: post-quarto
+        - path: postit.lua
           at: post-quarto

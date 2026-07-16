@@ -54,6 +54,7 @@ Un neumático con poca presión no solo aumenta la resistencia al rodaje, sino q
 
 ![Mecanismo típico de un tren de aterrizaje retráctil manual](imagenes/08-cap03-mecanismo-tren.jpg){#fig-08-cap03-mecanismo-tren}
 
+::: {.postit}
 **Resumen del capítulo: tren de aterrizaje**
 
 * **Configuraciones**: tren fijo (escuela, simple) o retráctil (rendimiento). El retráctil se saca sin falta en viento en cola: tren abajo y bloqueado.
@@ -61,3 +62,5 @@ Un neumático con poca presión no solo aumenta la resistencia al rodaje, sino q
 * **Frenos**: de disco (eficaces, pero pueden calentarse) o de tambor. Entran al final del recorrido de los aerofrenos o con una maneta aparte. Comprueba que frenan bien antes de despegar.
 * **Patín de cola**: protege el fuselaje en tomas con el morro alto. Es un punto de desgaste a vigilar.
 * **Tren que no sale**: prueba un tirón suave; si no, toma sobre hierba con el tren dentro. Daños menores, piloto a salvo.
+:::
+

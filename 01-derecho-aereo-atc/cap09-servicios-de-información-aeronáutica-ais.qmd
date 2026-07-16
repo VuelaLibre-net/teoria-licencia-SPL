@@ -46,6 +46,7 @@ Son avisos que no justifican un NOTAM (no afectan a la operación de forma urgen
 En España, puedes consultar todo esto gratis en los portales **ICARO** e **Insignia** de ENAIRE. Insignia es una herramienta visual fantástica para ver NOTAMs sobre el mapa. Acostúmbrate a usarla.
 :::
 
+::: {.postit}
 **Resumen del Capítulo: Servicio de Información Aeronáutica (AIS)**
 
 La información es seguridad. Tus fuentes:
@@ -53,3 +54,5 @@ La información es seguridad. Tus fuentes:
 * **AIP**: el "manual gordo" y permanente. Mapas, frecuencias, zonas peligrosas, horarios de aeropuertos. Es la base.
 * **NOTAM**: la actualidad. Avisos temporales urgentes (una pista cerrada, un festival aéreo, una restricción temporal). Consultarlos antes de cada vuelo es obligatorio.
 * **AIC**: circulares informativas sobre seguridad y cambios administrativos.
+:::
+

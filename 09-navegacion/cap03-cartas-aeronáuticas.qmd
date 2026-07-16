@@ -55,9 +55,12 @@ En cada cuadrícula de la carta (formada por paralelos y meridianos cada 30 minu
 La AMA garantiza una separación mínima de **1000 pies** (o 2000 pies en zonas de alta montaña) sobre el obstáculo más alto de ese cuadrante. Es tu "red de seguridad" si pierdes la visibilidad o necesitas navegar con seguridad sobre el relieve.
 :::
 
+::: {.postit}
 **Resumen del Capítulo: Cartas Aeronáuticas**
 
 * **Proyección Lambert**: Es la estándar para cartas VFR (1:500.000). Es "conforme" (mantiene las formas) y una línea recta es una ortodrómica (ruta más corta). La escala es prácticamente constante entre los dos paralelos estándar de la proyección (la zona útil de la carta).
 * **Simbología**: Debes leer una carta con fluidez. Conoce los símbolos de obstáculos (la cifra sin paréntesis es la altitud sobre el nivel del mar —AMSL—; la que va entre paréntesis es la altura sobre el terreno —AGL—), los espacios aéreos (clases A a G) y las zonas P/R/D (prohibida, restringida, peligrosa), además de los aeródromos.
 * **Escala**: 1:500.000 significa que 1 cm en el papel son 5 km en la realidad.
 * **Elevaciones**: Las tintas hipsométricas (colores del terreno) te dan una idea rápida del relieve. La **Altitud Mínima de Área (AMA)** —no "cota máxima"— es el número grande en cada recuadro. Proporciona separación mínima de 1000 ft sobre el obstáculo más alto de esa zona.
+:::
+

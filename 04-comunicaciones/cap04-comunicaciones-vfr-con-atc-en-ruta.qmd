@@ -57,8 +57,11 @@ Las RMZ activas en España aparecen en la carta **ENR 6.12**. Revísala en la pl
 Las RMZ están reguladas por el Reglamento SERA y permiten al Estado miembro establecer requisitos de radio en espacio aéreo donde el servicio de control no es obligatorio. Sus límites y condiciones aparecen referenciados en la **carta ENR 6.12** (carta de zonas de radio obligatoria).
 :::
 
+::: {.postit}
 **Resumen del Capítulo: Comunicaciones en Ruta**
 
 * **Servicio de Información de Vuelo (FIS)**: Es un servicio de asesoramiento, no de control. Te informan sobre tráficos y meteorología (si tienen carga de trabajo), pero la separación sigue siendo tu responsabilidad. "Para información, contacto con Madrid Información…​".
 * **Cambio de Frecuencia**: Nunca te "esfumes" de una frecuencia controlada o de información. Solicita el cambio o avisa de que abandonas la frecuencia. "Madrid, EC-DPE para pasar a frecuencia de club 123.500".
 * **Transpondedor en ruta**: Si dispones de transpondedor, código VFR por defecto: **7000**. Emergencias: **7700** (emergencia activa — **Mayday**) y **7600** (fallo de radio — ver cap. 7). Solo usar ante la emergencia real.
+:::
+

@@ -66,9 +66,12 @@ La idea es simple: sigues transmitiendo posición e intenciones en la frecuencia
 
 Transmite cada mensaje completo dos veces: sin acuse de recibo, la repetición es tu única garantía de que llegue entero. Y repite el aviso en cada cambio de tramo del circuito o al iniciar el descenso en final. El controlador puede estar recibiéndote perfectamente en tierra y coordinando el tráfico a partir de lo que narras, aunque tú no puedas confirmarlo.
 
+::: {.postit}
 **Resumen del capítulo: fallo de comunicaciones**
 
 * **Código 7600**: Al confirmar el fallo de radio, seleccione 7600 en el transpondedor. La aeronave aparecerá destacada en la pantalla del radar secundario (SSR) como situación NORDO.
 * **Procedimiento en vuelo**: Mantenga VMC. Aterrice preferentemente en un aeródromo no controlado. Si debe acudir a uno controlado, sobrevuele la Torre por zona no operativa, efectúe balanceos de alas y observe las señales de luces. Notifique por teléfono en cuanto tome tierra.
 * **Señales de luces (SERA)**: *Verde fija* (vuelo) = autorizado a aterrizar. *Roja fija* (vuelo) = ceda el paso. *Destellos rojos* (vuelo) = aeródromo peligroso. *Destellos verdes* (vuelo) = regrese para aterrizar. *Destellos blancos* (vuelo) = aterrice en este aeródromo. Las señales equivalentes en tierra tienen significados distintos: *verde fija* = autorizado para despegar; *destellos verdes* = autorizado para rodar.
 * **Transmisión a ciegas**: Si solo falla el receptor, transmita posición e intenciones en la frecuencia correcta precediendo el mensaje con «Transmitiendo a ciegas debido a fallo del receptor». Repítalo en cada cambio de tramo.
+:::
+

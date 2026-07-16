@@ -446,6 +446,43 @@
 #show terms.item: it => block(breakable: false, below: 0.95em, width: 100%)[
   #text(weight: "bold")[#it.term]#h(0.35em)#sym.dash.em#h(0.35em)#_glosario-descripcion(it.description)
 ]
+// Resumen de capítulo con aspecto de post-it, como en el AsciiDoc original.
+//
+// Colores tomados literalmente del tema de origen
+// (aesa-spl-oficial/recursos/temas/pdf-theme.yml, rol `postit`):
+//   fondo #FFF9C4, borde #FBC02D 1pt, radio 4pt, texto #5D4037 a 10.5pt.
+//
+// La única desviación es la fuente. El tema pedía Roboto; aquí se usa Libertinus
+// Sans, que viaja dentro de Typst. Roboto está en la máquina de desarrollo pero
+// no en el runner del CI, y Typst no falla ante una fuente ausente: cae a otra
+// en silencio, con lo que los entregables oficiales saldrían distintos sin que
+// nadie se entere. Libertinus Sans mantiene el contraste de palo seco contra el
+// cuerpo en serifa y renderiza igual en cualquier sitio.
+//
+// El bloque es partible a propósito: algunos resúmenes no caben en una página y
+// un bloque no partible se saldría del papel.
+
+#let postit(body) = block(
+  fill: rgb("#FFF9C4"),
+  stroke: 1pt + rgb("#FBC02D"),
+  radius: 4pt,
+  inset: 0.6cm,
+  width: 100%,
+  above: 1.4em,
+  below: 1.4em,
+  breakable: true,
+  {
+    // El cuerpo hereda la sangría de primera línea, que dentro de una caja
+    // descoloca el primer renglón contra el borde.
+    set par(first-line-indent: 0em)
+    text(
+      font: "Libertinus Sans",
+      size: 10.5pt,
+      fill: rgb("#5D4037"),
+      body,
+    )
+  },
+)
 #import "@preview/fontawesome:0.5.0": *
 #let brand-color = (:)
 #let brand-color-background = (:)
@@ -494,59 +531,6 @@
 #heading(level: 1, numbering: none)[Navegación]
 <navegación>
 Bienvenido a la versión digitalizada de este manual de formación SPL.
-
-#heading(level: 1, numbering: none)[Información Legal y Licencia]
-<información-legal-y-licencia>
-#strong[Atribución y Fuentes]
-
-#quote(block: true)[
-El #strong[temario de esta colección ---el índice--- está avalado por AESA] (Agencia Estatal de Seguridad Aérea), la autoridad aeronáutica civil de España. Este aval certifica que el programa de formación teórica para la Licencia de Piloto de Planeador (SPL) es conforme al syllabus del AMC1 SFCL.130; no obstante, el desarrollo del contenido es responsabilidad exclusiva de los autores.
-
-El contenido se basa en la síntesis de normativas oficiales, estándares de seguridad de la #strong[OACI] (Organización de Aviación Civil Internacional) y de #strong[EASA] (European Union Aviation Safety Agency), así como de las mejores prácticas de la comunidad de vuelo a vela española, recogidas por varios instructores, y recopiladas por el instructor Iñaqui Ulibarri García de la Cueva para los aeroclubs de Ocaña y Fuentemilanos.
-]
-
-#strong[EXENCIÓN DE RESPONSABILIDAD - USO BAJO PROPIO RIESGO]
-
-La aviación es una actividad que conlleva riesgos inherentes. Aunque se ha realizado un esfuerzo exhaustivo para garantizar la precisión técnica de este manual utilizando fuentes oficiales actualizadas:
-
-- #strong[Los autores, editores y colaboradores NO asumen responsabilidad alguna] por daños personales, materiales o de cualquier otra índole que pudieran derivarse de interpretaciones erróneas o errores técnicos en el texto.
-- Este manual es una #strong[herramienta de apoyo al estudio] y no sustituye en ningún caso ni a la instrucción teórica ni a la práctica obligatoria con un instructor de vuelo cualificado (FI(S)).
-- En caso de discrepancia con la normativa vigente publicada por AESA o EASA, prevalecerá siempre el texto legal oficial de la autoridad aeronáutica.
-
-#strong[LICENCIA]
-
-Esta obra se distribuye bajo licencia #strong[Creative Commons Atribución 4.0 Internacional (CC BY 4.0)].
-
-Usted es libre de:
-
-- #strong[Compartir]: Copiar y redistribuir el material en cualquier medio.
-- #strong[Adaptar]: Remezclar, transformar y construir a partir del material para cualquier propósito incluso comercialmente.
-
-Bajo los siguientes términos:
-
-- #strong[Atribución]: Debe otorgar el crédito correspondiente, proporcionar un enlace a la licencia e indicar si se realizaron cambios. Puede hacerlo de cualquier manera razonable, pero no de una manera que sugiera que el licenciante lo respalda a usted o a su uso.
-
-Más información: #link("https://creativecommons.org/licenses/by/4.0/deed.es")
-
-#strong[Proyecto]
-
-Manual de vuelo para la obtención de la licencia de piloto de planeador (SPL)
-
-#strong[Coordinación]
-
-VuelaLibre.net
-
-#strong[Repositorio]
-
-#link("https://github.com/VuelaLibreNet/manual-spl")
-
-#strong[Licencia]
-
-CC BY 4.0
-
-#strong[Fuentes]
-
-AESA, EASA, OACI, SERA, AMCs & GM, LSA, manuales de vuelo de Fuentemilanos, FAA Glider Flying Handbook, y manuales de vuelo de otros paises de la UE.
 
 #heading(level: 1, numbering: none)[Dedicatoria]
 <dedicatoria>
@@ -604,8 +588,8 @@ Ramón Gutiérrez Camus (SPL)
 
 Piloto de Vuelo a Vela. Edición técnica
 
-#heading(level: 1, numbering: none)[Índice de ilustraciones]
-<índice-de-ilustraciones>
+#heading(level: 1, numbering: none)[Introducción]
+<introducción>
 #strong[#emph[Tema 9 de 9 del examen teórico para la Licencia de Piloto de Planeador (SPL)]]
 
 Un planeador no puede pedir más altura si la estimación fue mal. No puede esperar si la posición es incierta. No tiene margen para el "más o menos" cuando la térmica no aparece y el aeródromo alternativo está al límite del alcance.
@@ -785,6 +769,7 @@ En el entorno internacional, y especialmente en España bajo normativa EASA, uti
 
 Aunque es común ver anemómetros en kilómetros por hora (km/h) en muchos planeadores europeos de diseño clásico, la navegación y las cartas aeronáuticas se basan en millas náuticas y nudos. Aprender a pasar de unos a otros mentalmente es una habilidad muy útil en el hangar.
 
+#postit[
 #strong[Resumen del Capítulo: Fundamentos de Navegación]
 
 - #strong[Coordenadas]: Latitud (Paralelos, N/S) y Longitud (Meridianos, E/W). Recuerda: 1 minuto de Latitud es siempre 1 Milla Náutica. 1 minuto de Longitud varía con la latitud.
@@ -792,6 +777,7 @@ Aunque es común ver anemómetros en kilómetros por hora (km/h) en muchos plane
 - #strong[El Tiempo]: En aviación usamos UTC (Universal Time Coordinated) o "Zulu" para evitar confusiones con los husos horarios locales y cambios de hora.
 - #strong[Unidades]: Acostúmbrate a pensar en Millas Náuticas (NM) y Nudos (kts). Son el estándar internacional y facilitan los cálculos mentales (1 grado de latitud = 60 NM).
 
+]
 = Magnetismo y brújulas
 <magnetismo-y-brújulas>
 #quote(block: true)[
@@ -905,6 +891,7 @@ Si aceleramos o frenamos mientras volamos con rumbos Este u Oeste, la inercia de
 
 Recordamos esto con la regla inglesa #strong[ANDS]: #strong[A]ccelerate #strong[N]orth, #strong[D]ecelerate #strong[S]outh. Es decir: al #strong[acelerar], la brújula tiende al #strong[Norte]\; al #strong[decelerar], tiende al #strong[Sur].
 
+#postit[
 #strong[Resumen del Capítulo: Magnetismo y Brújulas]
 
 - #strong[Norte Verdadero vs Magnético]: La brújula apunta al Norte Magnético, que no coincide con el Geográfico (Verdadero). La diferencia es la #strong[Variación (o Declinación)]. Regla: "Declinación Oeste, Rumbo Suma".
@@ -913,6 +900,7 @@ Recordamos esto con la regla inglesa #strong[ANDS]: #strong[A]ccelerate #strong[
 - #strong[Error de Viraje]: Al virar al Norte, la brújula se queda atrás (vas corto: NO te pases); al Sur se adelanta (déjala pasar: SÍ te pasas).
 - #strong[Error de Aceleración]: Al acelerar en rumbos E/W, marca viraje al Norte; al frenar, al Sur (regla #strong[ANDS]: #strong[Accelerate North, Decelerate South]).
 
+]
 = Cartas aeronáuticas
 <cartas-aeronáuticas>
 #quote(block: true)[
@@ -1021,6 +1009,7 @@ body_background_color:
 white
 )
 ]
+#postit[
 #strong[Resumen del Capítulo: Cartas Aeronáuticas]
 
 - #strong[Proyección Lambert]: Es la estándar para cartas VFR (1:500.000). Es "conforme" (mantiene las formas) y una línea recta es una ortodrómica (ruta más corta). La escala es prácticamente constante entre los dos paralelos estándar de la proyección (la zona útil de la carta).
@@ -1028,6 +1017,7 @@ white
 - #strong[Escala]: 1:500.000 significa que 1 cm en el papel son 5 km en la realidad.
 - #strong[Elevaciones]: Las tintas hipsométricas (colores del terreno) te dan una idea rápida del relieve. La #strong[Altitud Mínima de Área (AMA)] ---no "cota máxima"--- es el número grande en cada recuadro. Proporciona separación mínima de 1000 ft sobre el obstáculo más alto de esa zona.
 
+]
 = Navegación por estima
 <navegación-por-estima>
 #quote(block: true)[
@@ -1281,6 +1271,7 @@ Tu TAS es de 90 km/h y quieres seguir una ruta con rumbo verdadero 000° (al nor
 
 #strong[Solución.] El viento es 100 % cruzado, así que la componente cruzada es los 18 km/h completos. Con la fórmula mental de deriva, DA = (V\_{cruzado} )/TAS = (18 )/90 = 1.080/90 = 12°DA = (V\_{cruzado} )/TAS = (18 )/90 = 1.080/90 = 12°. El viento viene de la izquierda (del oeste hacia un rumbo norte), así que empujaría hacia la derecha; para compensarlo, mete morro al viento: vuela un rumbo verdadero de #strong[348°] (000° − 12°). Fíjate en la lección del planeador: con TAS baja, un viento moderado produce una deriva grande (aquí, 12° por solo 18 km/h de viento).
 
+#postit[
 #strong[Resumen del Capítulo: Navegación a Estima]
 
 - #strong[El Triángulo de Velocidades]: Es la base de todo. Tres vectores: #strong[TAS] (Tu velocidad real aire), #strong[Viento] (Velocidad del aire) y #strong[GS] (Tu velocidad suelo). Si conoces dos, calculas el tercero.
@@ -1290,6 +1281,7 @@ Tu TAS es de 90 km/h y quieres seguir una ruta con rumbo verdadero 000° (al nor
 - #strong[Tiempo/distancia/velocidad]: T = D/GST = D/GS. Pasa horas decimales a minutos multiplicando por 60.
 - #strong[Regla del 60]: Si te desvías 1 milla en 60 millas de vuelo, tu error de rumbo es 1 grado. Útil para correcciones mentales rápidas.
 
+]
 = Navegación en vuelo
 <navegación-en-vuelo>
 #quote(block: true)[
@@ -1400,6 +1392,7 @@ body_background_color:
 white
 )
 ]
+#postit[
 #strong[Resumen del Capítulo: Navegación en Vuelo]
 
 - #strong[Referencias Visuales]: Usa objetos grandes, lineales y con contraste (ríos, autopistas, líneas de costa). Oriente la carta siempre en el sentido del vuelo (lo que ves a la derecha en el suelo, a la derecha en el papel).
@@ -1407,6 +1400,7 @@ white
 - #strong[La Regla 1:60]: Si te desvías 1 NM de tu ruta tras haber volado 60 NM, tu error de rumbo es de 1º. Puedes usar esta proporción para corregir el rumbo mentalmente sin transportador.
 - #strong[Incertidumbre de Posición]: Si te pierdes, NO SIGAS VOLANDO A CIEGAS. Mantén el rumbo, busca referencias grandes, confía en tu estima inicial y, si es necesario, vuela hacia un lugar conocido (un río, una costa) o aterriza con seguridad antes de quedarte sin altura.
 
+]
 = Uso de GNSS
 <uso-de-gnss>
 #quote(block: true)[
@@ -1515,6 +1509,7 @@ body_background_color:
 white
 )
 ]
+#postit[
 #strong[Resumen del Capítulo: Uso del GNSS (GPS)]
 
 - #strong[Ayuda, no sustituto]: El GPS es una herramienta fabulosa para la conciencia situacional, pero nunca debe sustituir a la navegación visual y a la carta. Las baterías fallan, las señales se pierden y los dispositivos se cuelgan.
@@ -1522,6 +1517,7 @@ white
 - #strong[Backup]: Lleva siempre una carta de papel y una brújula. Si el GPS muere en medio de un vuelo de distancia, debes ser capaz de volver a casa "a la vieja usanza".
 - #strong[Configuración]: Asegúrate de que tu datum (usualmente WGS84) y las unidades (NM, kts, m) coinciden con tu planificación y con lo que esperas ver en los instrumentos.
 
+]
 = Uso de ATS
 <uso-de-ats>
 #quote(block: true)[
@@ -1683,6 +1679,7 @@ body_background_color:
 white
 )
 ]
+#postit[
 #strong[Resumen del Capítulo: Uso de los ATS]
 
 - #strong[Dependencias]: El ATC (Control) gestiona aeródromos y espacios controlados. El FIS (Información) te ayuda en ruta con meteo y tráfico. Mantén contacto con FIS cuando sea posible; es una capa extra de seguridad.
@@ -1690,6 +1687,7 @@ white
 - #strong[Plan de Vuelo]: Fundamental para que te busquen si no llegas. Se activa al despegar y #strong[ES OBLIGATORIO notificar tu llegada] a la dependencia ATS del aeródromo de destino tan pronto como sea posible (SERA).
 - #strong[Espacios Aéreos]: Conoce dónde estás. En Clase C o D necesitas autorización radio. En Clase G eres libre, pero el FIS sigue estando ahí para ayudarte.
 
+]
 #show: appendices.with("Apéndices", hide-parent: true)
 #heading(level: 1, numbering: none)[Apéndices]
 = Syllabus Oficial EASA - Navegación
@@ -1973,3 +1971,56 @@ La OACI desarrolla las normas y métodos recomendados (SARPS) mediante 19 anexos
 - #strong[Glider Flying Handbook (FAA-H-8083-13B)]. Federal Aviation Administration (FAA), U.S. Department of Transportation. Obra en dominio público; fuente de buena parte de las ilustraciones técnicas de la colección. #link("https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/glider_handbook")
 - #strong[Methodik der Segelflugausbildung] (#emph[Segelflugrechte], Rev.~2). Deutscher Aero Club (DAeC), 2022. Metodología alemana de instrucción de vuelo a vela. #link("https://www.daec.de/media/files/2022/Sportarten/Segelflug/Methodik_der_Segelflugausbildung_Segelflugrechte_Rev.2.pdf")
 - #strong[Vuelo sin motor: técnicas avanzadas]. Helmut Reichmann. Edición española de la obra de referencia internacional sobre la técnica del vuelo de distancia (orig. #emph[Streckensegelflug]\; ed.~inglesa, #emph[Cross-Country Soaring]). ISBN 978-84-283-1567-8.
+
+#heading(level: 1, numbering: none)[Información Legal y Licencia]
+<información-legal-y-licencia>
+#strong[Atribución y Fuentes]
+
+#quote(block: true)[
+El #strong[temario de esta colección ---el índice--- está avalado por AESA] (Agencia Estatal de Seguridad Aérea), la autoridad aeronáutica civil de España. Este aval certifica que el programa de formación teórica para la Licencia de Piloto de Planeador (SPL) es conforme al syllabus del AMC1 SFCL.130; no obstante, el desarrollo del contenido es responsabilidad exclusiva de los autores.
+
+El contenido se basa en la síntesis de normativas oficiales, estándares de seguridad de la #strong[OACI] (Organización de Aviación Civil Internacional) y de #strong[EASA] (European Union Aviation Safety Agency), así como de las mejores prácticas de la comunidad de vuelo a vela española, recogidas por varios instructores, y recopiladas por el instructor Iñaqui Ulibarri García de la Cueva para los aeroclubs de Ocaña y Fuentemilanos.
+]
+
+#strong[EXENCIÓN DE RESPONSABILIDAD - USO BAJO PROPIO RIESGO]
+
+La aviación es una actividad que conlleva riesgos inherentes. Aunque se ha realizado un esfuerzo exhaustivo para garantizar la precisión técnica de este manual utilizando fuentes oficiales actualizadas:
+
+- #strong[Los autores, editores y colaboradores NO asumen responsabilidad alguna] por daños personales, materiales o de cualquier otra índole que pudieran derivarse de interpretaciones erróneas o errores técnicos en el texto.
+- Este manual es una #strong[herramienta de apoyo al estudio] y no sustituye en ningún caso ni a la instrucción teórica ni a la práctica obligatoria con un instructor de vuelo cualificado (FI(S)).
+- En caso de discrepancia con la normativa vigente publicada por AESA o EASA, prevalecerá siempre el texto legal oficial de la autoridad aeronáutica.
+
+#strong[LICENCIA]
+
+Esta obra se distribuye bajo licencia #strong[Creative Commons Atribución 4.0 Internacional (CC BY 4.0)].
+
+Usted es libre de:
+
+- #strong[Compartir]: Copiar y redistribuir el material en cualquier medio.
+- #strong[Adaptar]: Remezclar, transformar y construir a partir del material para cualquier propósito incluso comercialmente.
+
+Bajo los siguientes términos:
+
+- #strong[Atribución]: Debe otorgar el crédito correspondiente, proporcionar un enlace a la licencia e indicar si se realizaron cambios. Puede hacerlo de cualquier manera razonable, pero no de una manera que sugiera que el licenciante lo respalda a usted o a su uso.
+
+Más información: #link("https://creativecommons.org/licenses/by/4.0/deed.es")
+
+#strong[Proyecto]
+
+Manual de vuelo para la obtención de la licencia de piloto de planeador (SPL)
+
+#strong[Coordinación]
+
+VuelaLibre.net
+
+#strong[Repositorio]
+
+#link("https://github.com/VuelaLibreNet/manual-spl")
+
+#strong[Licencia]
+
+CC BY 4.0
+
+#strong[Fuentes]
+
+AESA, EASA, OACI, SERA, AMCs & GM, LSA, manuales de vuelo de Fuentemilanos, FAA Glider Flying Handbook, y manuales de vuelo de otros paises de la UE.

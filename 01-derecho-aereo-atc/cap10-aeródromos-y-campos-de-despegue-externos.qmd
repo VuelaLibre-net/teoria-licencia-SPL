@@ -58,9 +58,12 @@ El vuelo a vela no siempre empieza ni termina en un aeródromo. El syllabus incl
 * **Responsabilidad del piloto al mando**: eres responsable de verificar que el terreno es adecuado y la operación segura (dimensiones, obstáculos, personas ajenas). Un campo externo no tiene área de señales, ni servicio de información, ni nadie que haya inspeccionado la superficie por ti.
 * **Tras una toma fuera de campo**: la aeronave puede haber causado daños (cultivos, cercados) de los que respondes civilmente; el seguro obligatorio de responsabilidad civil cubre precisamente estos supuestos. Localiza al propietario, documenta el estado del terreno y acuerda la retirada del planeador — la parte operativa y de trato con el propietario se desarrolla en el Libro 6.
 
+::: {.postit}
 **Resumen del Capítulo: Aeródromos**
 
 En tierra, las reglas visuales mandan:
 
 * **Circuito de tránsito**: virajes a la **izquierda**, salvo señal en contrario.
 * **Área de señales**: la manga de viento indica dirección e intensidad; la T tumbada, la dirección de aterrizaje y despegue; la flecha derecha avisa de virajes a la derecha; la cruz roja con diagonales amarillas prohíbe aterrizar; el panel rojo con una sola diagonal pide precaución por mal estado del área de maniobras; y la doble cruz blanca anuncia planeadores en actividad.
+:::
+

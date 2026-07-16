@@ -80,6 +80,7 @@ El planeo final es el tramo desde la última térmica hasta el aeródromo: un ej
 Si tu calculador de planeo dice que llegas "justo", en realidad **no llegas**. El calculador no sabe si encontrarás un hundimiento inesperado ni si el viento en cara será más fuerte a baja altura. Busca una alternativa antes de que el cono de alcance se cierre.
 :::
 
+::: {.postit}
 **Resumen del Capítulo: Polar de Velocidades y MacCready**
 
 * **La polar**: es tu curva de rendimiento. Conócela: te da la velocidad para aguantar más tiempo en el aire (mínimo descenso) y la velocidad para llegar más lejos (máximo planeo).
@@ -88,3 +89,5 @@ Si tu calculador de planeo dice que llegas "justo", en realidad **no llegas**. E
 * **Efecto del viento**: con viento de cara, vuela más rápido (suma medio viento a tu velocidad de máximo planeo) para penetrar mejor. Con viento de cola, vuela a máximo planeo y déjate empujar.
 * **IAS vs TAS**: la polar se vuela en IAS, pero en altura la TAS es mayor (~2 % por cada 300 m). Recorres más terreno del que crees y la V~NE~ indicada disminuye con la altitud (flutter): consulta la tabla del AFM antes de volar en onda.
 * **Planeo final**: calcula la llegada con margen. Es mejor llegar a 200 m sobre el campo y usar los frenos que pasar a ras de los árboles rezando por una burbuja.
+:::
+

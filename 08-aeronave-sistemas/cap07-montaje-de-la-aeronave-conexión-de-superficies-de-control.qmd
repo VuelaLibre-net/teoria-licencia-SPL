@@ -55,6 +55,7 @@ Si durante el montaje alguien te interrumpe para hablar, vuelve a empezar el pas
 
 ![Comparativa de conector manual L’Hotellier y conector automático](imagenes/08-cap07-conectores-mandos.jpg){#fig-08-cap07-conectores-mandos}
 
+::: {.postit}
 **Resumen del capítulo: montaje y rigging**
 
 * **Verificación de mandos**: tras montar, el test de "mando positivo" (PCC) es obligatorio. Una persona sujeta la superficie (el alerón) y tú intentas mover la palanca. Debe ofrecer resistencia sólida. Si se mueve libre, no está conectado.
@@ -62,3 +63,5 @@ Si durante el montaje alguien te interrumpe para hablar, vuelve a empezar el pas
 * **L’Hotellier**: conexión manual crítica. Pin de seguridad siempre; el clic del muelle no basta.
 * **Cintado**: tapar las juntas ala-fuselaje no es solo estética; reduce el ruido y mejora bastante el rendimiento a baja velocidad.
 * **Carga suelta**: un clásico error mortal es dejar herramientas o pesos sueltos en el fuselaje tras el montaje. Pueden desplazarse en vuelo y bloquear los mandos.
+:::
+

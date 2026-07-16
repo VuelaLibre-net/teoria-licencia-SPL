@@ -187,6 +187,7 @@ Este briefing estructura la toma de decisiones inmediata en caso de una rotura d
 No comiences la carrera de despegue sin haber verbalizado o repasado mentalmente tu **emergency briefing**. En caso de rotura de cable a baja altura, no hay tiempo para pensar qué hacer; la acción correcta (bajar el morro, estabilizar la velocidad y la trayectoria) debe estar precargada en la mente y ejecutarse como una respuesta refleja.
 :::
 
+::: {.postit}
 **Resumen del Capítulo: Métodos de lanzamiento**
 
 * **Torno (winch)**: aceleración brutal de 0 a 100 en 3 segundos. Si se rompe el cable, lo primero es **bajar el morro** para recuperar velocidad. Solo entonces suelta el cable remanente y decide si aterrizar recto, hacer 180° o un circuito corto, según la altura disponible.
@@ -194,3 +195,5 @@ No comiences la carrera de despegue sin haber verbalizado o repasado mentalmente
 * **Autolanzamiento (self-launch)**: ofrece total independencia. Cuidado con el par de cabeceo del motor sobre mástil: aplicar potencia pica el morro y reducirla o cortarla lo **encabrita**. Respeta la altura de seguridad de 300 m para arrancar el motor en vuelo; por debajo, concéntrate en el aterrizaje fuera de campo.
 * **Emergency briefing**: briefing mental y verbalizado antes de cada despegue. Define velocidades de seguridad y acciones precisas ante fallos a baja, media y alta altura según el viento.
 * **Comprobaciones previas**: ganchos correctos, velocidades respetadas, mandos libres y comprobación cruzada. Realiza la inspección de cuerdas (sin nudos), anillas dobles Tost compatibles y fusibles de seguridad (**weak links**) de resistencia por código de colores (ej. azul = 600 daN para monoplazas en torno).
+:::
+

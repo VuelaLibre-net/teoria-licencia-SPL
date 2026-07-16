@@ -51,9 +51,12 @@ El peligro no está en la lluvia en sí, sino en lo que ocurre cuando esas gotas
 
 Estas corrientes descendentes localizadas (**microburst** / **downdraft**) pueden alcanzar velocidades de descenso que superan la capacidad de ascenso del planeador. Volar bajo una virga, especialmente durante la aproximación final, puede causar un hundimiento irrecuperable antes del umbral. Ante cualquier cortina de virga visible, mantén siempre distancia de seguridad lateral y vertical.
 
+::: {.postit}
 **Resumen del Capítulo: Precipitación**
 
 * **Lluvia y Performance**: Para un planeador, la lluvia es kryptonita. El agua en las alas arruina el perfil laminar, aumentando drásticamente la velocidad de pérdida y la tasa de descenso. Si llueve, añade velocidad de seguridad al aterrizar.
 * **Granizo (GR)**: Asociado a los Cumulonimbus (Cb). Puede encontrarse incluso fuera de la nube, bajo el yunque. Es destructivo para la estructura de fibra. NUNCA vueles debajo de un yunque de tormenta.
 * **Lluvia Engelante (FZRA)**: Gotas superenfriadas que se congelan al impactar. Es una emergencia grave: el hielo se acumula en segundos, pesando y deformando el perfil. Sal inmediatamente de esa zona (generalmente cambiando de altitud).
 * **Virga**: Cortina de lluvia que se evapora antes de tocar el suelo. Es un aviso visual de fuertes corrientes descendentes y posible turbulencia severa debajo de ella.
+:::
+
