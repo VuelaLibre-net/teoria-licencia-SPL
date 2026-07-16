@@ -23,15 +23,15 @@ La biblioteca está organizada por asignaturas según el syllabus oficial de AES
 
 | # | Libro | Asignatura | Versión | Estado |
 | --- | --- | --- | --- | --- |
-| 1 | **`01-derecho-aereo-atc`** | Derecho Aéreo y Procedimientos de Control de Tránsito Aéreo | `1.0-rc.5` | 🟡 En revisión |
-| 2 | **`02-factores-humanos`** | Factores Humanos (Medicina y Psicología Aeronáutica) | `1.0-rc.4` | 🟡 En revisión |
-| 3 | **`03-meteorologia`** | Meteorología General y Aeronáutica | `1.0-rc.4` | 🟡 En revisión |
-| 4 | **`04-comunicaciones`** | Comunicaciones (Procedimientos de Radio y Fraseología VFR) | `1.0-rc.4` | 🟡 En revisión |
-| 5 | **`05-principios-vuelo`** | Principios de Vuelo (Aerodinámica y Estabilidad del Planeador) | `0.8.1` | 🎨 Creando ilustraciones |
-| 6 | **`06-procedimientos-operativos`** | Procedimientos Operativos y Emergencias | `0.8.1` | 🎨 Creando ilustraciones |
-| 7 | **`07-planificacion-rendimiento`** | Rendimiento y Planificación de Vuelo | `0.8.1` | 🎨 Creando ilustraciones |
-| 8 | **`08-aeronave-sistemas`** | Conocimientos Generales de la Aeronave, Estructura y Sistemas | `0.8.1` | 🎨 Creando ilustraciones |
-| 9 | **`09-navegacion`** | Navegación Visual, Estima e Instrumentos (GNSS) | `0.8.1` | 🎨 Creando ilustraciones |
+| 1 | **`01-derecho-aereo-atc`** | Derecho Aéreo y Procedimientos de Control de Tránsito Aéreo (ATC) | `1.0-rc.5` | 🟡 En revisión |
+| 2 | **`02-factores-humanos`** | Factores Humanos | `1.0-rc.4` | 🟡 En revisión |
+| 3 | **`03-meteorologia`** | Meteorología | `1.0-rc.4` | 🟡 En revisión |
+| 4 | **`04-comunicaciones`** | Comunicaciones | `1.0-rc.4` | 🟡 En revisión |
+| 5 | **`05-principios-vuelo`** | Principios de Vuelo | `0.8.1` | 🎨 Creando ilustraciones |
+| 6 | **`06-procedimientos-operativos`** | Procedimientos Operativos | `0.8.1` | 🎨 Creando ilustraciones |
+| 7 | **`07-planificacion-rendimiento`** | Planificación y Rendimiento de Vuelo | `0.8.1` | 🎨 Creando ilustraciones |
+| 8 | **`08-aeronave-sistemas`** | Conocimientos Generales de la Aeronave, Estructura, Sistemas y Equipo de Emergencia | `0.8.1` | 🎨 Creando ilustraciones |
+| 9 | **`09-navegacion`** | Navegación | `0.8.1` | 🎨 Creando ilustraciones |
 
 ### Estados editoriales
 

@@ -9,7 +9,7 @@ cubierta: "cover/frente.jpg"
 contracubierta: "cover/reverso.jpg"
 
 book:
-  title: "Conocimientos Generales de la Aeronave"
+  title: "Conocimientos Generales de la Aeronave, Estructura, Sistemas y Equipo de Emergencia"
   author: "VuelaLibre.net"
   chapters:
     - index.qmd
