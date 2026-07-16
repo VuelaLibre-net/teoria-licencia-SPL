@@ -20,11 +20,11 @@ book:
     - introduccion.qmd
     - cap01-masa-y-centro-de-gravedad.qmd
     - cap02-polar-de-velocidades-de-planeadores-o-velocidad-de-crucero.qmd
-    - cap03-planificación-de-vuelo-y-definición-de-tareas.qmd
+    - cap03-planificacion-de-vuelo-y-definicion-de-tareas.qmd
     - cap04-plan-de-vuelo-icao.qmd
-    - cap05-monitoreo-del-vuelo-y-replanificación-en-vuelo.qmd
+    - cap05-monitoreo-del-vuelo-y-replanificacion-en-vuelo.qmd
   appendices:
-    - apendice-syllabus-oficial-easa---planificación-y-rendimiento-de-vuelo.qmd
+    - apendice-syllabus-oficial-easa---planificacion-y-rendimiento-de-vuelo.qmd
     - glosario.qmd
     - bibliografia.qmd
     - colofon.qmd

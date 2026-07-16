@@ -18,15 +18,15 @@ book:
     - epigrafe.qmd
     - reconocimientos.qmd
     - introduccion.qmd
-    - cap01-fundamentos-de-navegación.qmd
-    - cap02-magnetismo-y-brújulas.qmd
-    - cap03-cartas-aeronáuticas.qmd
-    - cap04-navegación-por-estima.qmd
-    - cap05-navegación-en-vuelo.qmd
+    - cap01-fundamentos-de-navegacion.qmd
+    - cap02-magnetismo-y-brujulas.qmd
+    - cap03-cartas-aeronauticas.qmd
+    - cap04-navegacion-por-estima.qmd
+    - cap05-navegacion-en-vuelo.qmd
     - cap06-uso-de-gnss.qmd
     - cap07-uso-de-ats.qmd
   appendices:
-    - apendice-syllabus-oficial-easa---navegación.qmd
+    - apendice-syllabus-oficial-easa---navegacion.qmd
     - glosario.qmd
     - bibliografia.qmd
     - colofon.qmd

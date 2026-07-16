@@ -18,18 +18,18 @@ book:
     - epigrafe.qmd
     - reconocimientos.qmd
     - introduccion.qmd
-    - cap01-la-atmósfera.qmd
+    - cap01-la-atmosfera.qmd
     - cap02-viento.qmd
-    - cap03-termodinámica.qmd
+    - cap03-termodinamica.qmd
     - cap04-nubes-y-niebla.qmd
-    - cap05-precipitación.qmd
+    - cap05-precipitacion.qmd
     - cap06-masas-de-aire-y-frentes.qmd
-    - cap07-sistemas-de-presión.qmd
-    - cap08-climatología.qmd
+    - cap07-sistemas-de-presion.qmd
+    - cap08-climatologia.qmd
     - cap09-peligros-para-el-vuelo.qmd
-    - cap10-información-meteorológica.qmd
+    - cap10-informacion-meteorologica.qmd
   appendices:
-    - apendice-syllabus-oficial-easa---meteorología.qmd
+    - apendice-syllabus-oficial-easa---meteorologia.qmd
     - glosario.qmd
     - bibliografia.qmd
     - colofon.qmd

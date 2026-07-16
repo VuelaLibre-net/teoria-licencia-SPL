@@ -18,10 +18,10 @@ book:
     - epigrafe.qmd
     - reconocimientos.qmd
     - introduccion.qmd
-    - cap01-factores-humanos-conceptos-básicos.qmd
-    - cap02-fisiología-aeronáutica-básica-y-mantenimiento-de-salud.qmd
-    - cap03-psicología-aeronáutica-básica.qmd
-    - cap04-uso-de-oxígeno.qmd
+    - cap01-factores-humanos-conceptos-basicos.qmd
+    - cap02-fisiologia-aeronautica-basica-y-mantenimiento-de-salud.qmd
+    - cap03-psicologia-aeronautica-basica.qmd
+    - cap04-uso-de-oxigeno.qmd
   appendices:
     - apendice-syllabus-oficial-easa---factores-humanos.qmd
     - glosario.qmd

@@ -18,12 +18,12 @@ book:
     - epigrafe.qmd
     - reconocimientos.qmd
     - introduccion.qmd
-    - cap01-aerodinámica-flujo-de-aire.qmd
-    - cap02-mecánica-de-vuelo.qmd
+    - cap01-aerodinamica-flujo-de-aire.qmd
+    - cap02-mecanica-de-vuelo.qmd
     - cap03-estabilidad.qmd
     - cap04-control.qmd
     - cap05-limitaciones-factor-de-carga-y-maniobras.qmd
-    - cap06-pérdida-de-sustentación-y-autorrotación.qmd
+    - cap06-perdida-de-sustentacion-y-autorrotacion.qmd
     - cap07-picado-en-espiral.qmd
   appendices:
     - apendice-syllabus-oficial-easa---principios-de-vuelo.qmd

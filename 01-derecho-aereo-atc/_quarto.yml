@@ -20,20 +20,20 @@ book:
     - introduccion.qmd
     - cap01-derecho-internacional-convenios-acuerdos-y-organizaciones.qmd
     - cap02-aeronavegabilidad.qmd
-    - cap03-marcas-de-nacionalidad-y-matrícula-de-aeronaves.qmd
+    - cap03-marcas-de-nacionalidad-y-matricula-de-aeronaves.qmd
     - cap04-licencias-de-personal.qmd
     - cap05-reglas-del-aire.qmd
-    - cap06-procedimientos-para-navegación-aérea-operaciones-de-aeronaves.qmd
-    - cap07-reglamentación-de-tránsito-aéreo-estructura-del-espacio-aéreo.qmd
-    - cap08-servicio-de-tránsito-aéreo-.qmd
-    - cap09-servicios-de-información-aeronáutica-ais.qmd
-    - cap10-aeródromos-y-campos-de-despegue-externos.qmd
-    - cap11-búsqueda-y-salvamento.qmd
+    - cap06-procedimientos-para-navegacion-aerea-operaciones-de-aeronaves.qmd
+    - cap07-reglamentacion-de-transito-aereo-estructura-del-espacio-aereo.qmd
+    - cap08-servicio-de-transito-aereo-.qmd
+    - cap09-servicios-de-informacion-aeronautica-ais.qmd
+    - cap10-aerodromos-y-campos-de-despegue-externos.qmd
+    - cap11-busqueda-y-salvamento.qmd
     - cap12-seguridad.qmd
-    - cap13-notificación-de-accidentes.qmd
+    - cap13-notificacion-de-accidentes.qmd
     - cap14-derecho-nacional.qmd
   appendices:
-    - apendice-syllabus-oficial-easa---derecho-aéreo.qmd
+    - apendice-syllabus-oficial-easa---derecho-aereo.qmd
     - glosario.qmd
     - bibliografia.qmd
     - colofon.qmd

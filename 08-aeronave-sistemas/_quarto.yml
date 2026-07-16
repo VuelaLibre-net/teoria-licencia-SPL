@@ -19,19 +19,19 @@ book:
     - reconocimientos.qmd
     - introduccion.qmd
     - cap01-estructura.qmd
-    - cap02-diseño-de-sistemas-cargas-y-tensiones.qmd
-    - cap03-tren-de-aterrizaje-ruedas-neumáticos-y-frenos.qmd
+    - cap02-diseno-de-sistemas-cargas-y-tensiones.qmd
+    - cap03-tren-de-aterrizaje-ruedas-neumaticos-y-frenos.qmd
     - cap04-masa-y-centro-de-gravedad.qmd
     - cap05-mandos-de-vuelo.qmd
     - cap06-instrumentos.qmd
-    - cap07-montaje-de-la-aeronave-conexión-de-superficies-de-control.qmd
+    - cap07-montaje-de-la-aeronave-conexion-de-superficies-de-control.qmd
     - cap08-manuales-y-documentos.qmd
     - cap09-aeronavegabilidad-y-mantenimiento.qmd
-    - cap10-estructura-motores-y-hélices.qmd
+    - cap10-estructura-motores-y-helices.qmd
     - cap11-sistemas-de-lastre-con-agua.qmd
-    - cap12-baterías.qmd
-    - cap13-paracaídas-de-emergencia.qmd
-    - cap14-equipo-de-evacuación-de-emergencia.qmd
+    - cap12-baterias.qmd
+    - cap13-paracaidas-de-emergencia.qmd
+    - cap14-equipo-de-evacuacion-de-emergencia.qmd
   appendices:
     - apendice-syllabus-oficial-easa---conocimientos-generales-de-la-aeronave.qmd
     - glosario.qmd
