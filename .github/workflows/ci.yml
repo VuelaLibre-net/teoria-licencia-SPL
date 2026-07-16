@@ -22,6 +22,11 @@ jobs:
     steps:
     - name: Descargar repositorio
       uses: actions/checkout@v4
+      with:
+        # El colofón fecha cada libro con el último commit que lo tocó, y el
+        # clonado por defecto es superficial: sin historia, git log no
+        # encontraría ese commit y la fecha saldría mal.
+        fetch-depth: 0
 
     - name: Configurar Quarto
       uses: quarto-dev/quarto-actions/setup@v2
@@ -80,6 +85,14 @@ jobs:
           # Se detecta por los puntos guía de las entradas.
           if ! grep -q '\. \. \. \.' <<<"$texto"; then
             echo "::error file=$pdf::Sin índice: ¿se renombró el encabezado 'Introducción'?"
+            errores=1
+          fi
+
+          # El colofón se fecha con git, así que un clonado superficial lo
+          # dejaría sin fecha. Se comprueba que esté y que la fecha se haya
+          # resuelto: si el shortcode no resolviera, quedaría el literal.
+          if ! grep -q 'Última actualización: [0-9]' <<<"$texto"; then
+            echo "::error file=$pdf::Colofón sin fecha: ¿falta fetch-depth: 0 en el checkout?"
             errores=1
           fi
 

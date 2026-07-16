@@ -3,6 +3,8 @@ project:
   output-dir: _book
 
 lang: es
+version: "1.0.4"
+repo-url: "https://github.com/VuelaLibre-net/teoria-licencia-SPL"
 
 book:
   title: "Meteorología"
@@ -28,6 +30,7 @@ book:
     - apendice-syllabus-oficial-easa---meteorología.qmd
     - glosario.qmd
     - bibliografia.qmd
+    - colofon.qmd
 
 format:
   orange-book-es-typst:

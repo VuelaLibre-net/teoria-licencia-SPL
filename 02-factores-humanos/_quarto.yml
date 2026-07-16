@@ -3,6 +3,8 @@ project:
   output-dir: _book
 
 lang: es
+version: "1.0.4"
+repo-url: "https://github.com/VuelaLibre-net/teoria-licencia-SPL"
 
 book:
   title: "Factores Humanos"
@@ -22,6 +24,7 @@ book:
     - apendice-syllabus-oficial-easa---factores-humanos.qmd
     - glosario.qmd
     - bibliografia.qmd
+    - colofon.qmd
 
 format:
   orange-book-es-typst:

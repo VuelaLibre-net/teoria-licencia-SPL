@@ -26,11 +26,32 @@ all: $(LIBROS)
 # Los .qmd de cada libro son la fuente canónica: se editan a mano y ninguna
 # regla los genera. Make sólo compila los entregables a partir de ellos.
 
+# Datos que el colofón no puede saber por sí mismo y se inyectan al compilar.
+#
+# La fecha sale del último commit que tocó el libro, no del mtime: en un clon
+# recién hecho los ficheros llevan la fecha del clonado, no la de su edición.
+# Si git no responde (tarball sin historia), se cae a hoy.
+#
+# El mes se traduce con una tabla y no con LC_TIME=es_ES: si el runner no tiene
+# ese locale, `date` no falla, escribe el mes en inglés y nadie se entera.
+#
+# Todo en sh portable: make usa /bin/sh, donde no existen ni ${var:5:2} ni
+# $((10#08)) (bashismos). `expr` interpreta los ceros a la izquierda en decimal,
+# que es justo lo que hace falta para los meses 01-09.
+MESES = enero febrero marzo abril mayo junio julio agosto septiembre octubre noviembre diciembre
+fecha_libro = $$(iso=$$(git log -1 --format=%cs -- $(1)/ 2>/dev/null || date +%F); \
+	y=$$(echo $$iso | cut -d- -f1); m=$$(echo $$iso | cut -d- -f2); d=$$(echo $$iso | cut -d- -f3); \
+	set -- $(MESES); shift $$(expr $$m - 1); \
+	echo "$$(expr $$d + 0) de $$1 de $$y")
+version_quarto = $$(quarto --version 2>/dev/null || echo "?")
+
 # Compila el PDF del libro usando Typst via Quarto
 $(PDF_OUT)/%.pdf: %/index.qmd
 	@mkdir -p $(PDF_OUT)
 	@echo "==> [Quarto] Renderizando PDF (Typst) para $*..."
-	quarto render $*/ --to orange-book-es-typst
+	quarto render $*/ --to orange-book-es-typst \
+	  --metadata fecha-actualizacion="$(call fecha_libro,$*)" \
+	  --metadata version-quarto="$(call version_quarto)"
 	@mv $*/_book/*.pdf $@
 	@echo "✓ PDF generado en $@"
 

@@ -43,3 +43,27 @@
   set text(size: 0.85em)
   body
 }
+
+// Colofón: notas de producción al final del libro. Es el sentido estricto del
+// término, y por eso va aquí y no al principio (lo que hasta ahora se llamaba
+// colofon.qmd era en realidad la página de créditos: ahora es licencia.qmd).
+//
+// La versión de Typst se toma de `sys.version`, o sea del compilador que está
+// construyendo el libro de verdad: no puede quedarse desfasada. El resto de
+// datos (versión del libro, fecha, URL, versión de Quarto) llegan como
+// metadatos; el Makefile inyecta los dos que no son estáticos.
+#let colofon(body) = {
+  pagebreak(to: "odd")
+  v(1fr)
+  align(center)[
+    #block(width: 78%)[
+      #set align(center)
+      #set par(first-line-indent: 0em, justify: false, leading: 0.8em)
+      #set text(size: 0.9em)
+      #body
+      #v(0.4em)
+      #text(size: 0.85em, style: "italic")[Motor tipográfico: Typst #sys.version.]
+    ]
+  ]
+  v(1fr)
+}

@@ -3,6 +3,8 @@ project:
   output-dir: _book
 
 lang: es
+version: "0.8.1"
+repo-url: "https://github.com/VuelaLibre-net/teoria-licencia-SPL"
 
 book:
   title: "Conocimientos Generales de la Aeronave"
@@ -32,6 +34,7 @@ book:
     - apendice-syllabus-oficial-easa---conocimientos-generales-de-la-aeronave.qmd
     - glosario.qmd
     - bibliografia.qmd
+    - colofon.qmd
 
 format:
   orange-book-es-typst:

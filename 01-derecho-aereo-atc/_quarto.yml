@@ -3,6 +3,8 @@ project:
   output-dir: _book
 
 lang: es
+version: "1.0.5"
+repo-url: "https://github.com/VuelaLibre-net/teoria-licencia-SPL"
 
 book:
   title: "Derecho Aéreo y Procedimientos de Control de Tránsito Aéreo"
@@ -32,6 +34,7 @@ book:
     - apendice-syllabus-oficial-easa---derecho-aéreo.qmd
     - glosario.qmd
     - bibliografia.qmd
+    - colofon.qmd
 
 format:
   orange-book-es-typst:

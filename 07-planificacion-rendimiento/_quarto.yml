@@ -3,6 +3,8 @@ project:
   output-dir: _book
 
 lang: es
+version: "0.8.1"
+repo-url: "https://github.com/VuelaLibre-net/teoria-licencia-SPL"
 
 book:
   title: "Planificación y Rendimiento de Vuelo"
@@ -23,6 +25,7 @@ book:
     - apendice-syllabus-oficial-easa---planificación-y-rendimiento-de-vuelo.qmd
     - glosario.qmd
     - bibliografia.qmd
+    - colofon.qmd
 
 format:
   orange-book-es-typst:

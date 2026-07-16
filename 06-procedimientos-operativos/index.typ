@@ -529,6 +529,30 @@
   set text(size: 0.85em)
   body
 }
+
+// Colofón: notas de producción al final del libro. Es el sentido estricto del
+// término, y por eso va aquí y no al principio (lo que hasta ahora se llamaba
+// colofon.qmd era en realidad la página de créditos: ahora es licencia.qmd).
+//
+// La versión de Typst se toma de `sys.version`, o sea del compilador que está
+// construyendo el libro de verdad: no puede quedarse desfasada. El resto de
+// datos (versión del libro, fecha, URL, versión de Quarto) llegan como
+// metadatos; el Makefile inyecta los dos que no son estáticos.
+#let colofon(body) = {
+  pagebreak(to: "odd")
+  v(1fr)
+  align(center)[
+    #block(width: 78%)[
+      #set align(center)
+      #set par(first-line-indent: 0em, justify: false, leading: 0.8em)
+      #set text(size: 0.9em)
+      #body
+      #v(0.4em)
+      #text(size: 0.85em, style: "italic")[Motor tipográfico: Typst #sys.version.]
+    ]
+  ]
+  v(1fr)
+}
 #import "@preview/fontawesome:0.5.0": *
 #let brand-color = (:)
 #let brand-color-background = (:)
@@ -3258,3 +3282,19 @@ La OACI desarrolla las normas y métodos recomendados (SARPS) mediante 19 anexos
 - #strong[Glider Flying Handbook (FAA-H-8083-13B)]. Federal Aviation Administration (FAA), U.S. Department of Transportation. Obra en dominio público; fuente de buena parte de las ilustraciones técnicas de la colección. #link("https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/glider_handbook")
 - #strong[Methodik der Segelflugausbildung] (#emph[Segelflugrechte], Rev.~2). Deutscher Aero Club (DAeC), 2022. Metodología alemana de instrucción de vuelo a vela. #link("https://www.daec.de/media/files/2022/Sportarten/Segelflug/Methodik_der_Segelflugausbildung_Segelflugrechte_Rev.2.pdf")
 - #strong[Vuelo sin motor: técnicas avanzadas]. Helmut Reichmann. Edición española de la obra de referencia internacional sobre la técnica del vuelo de distancia (orig. #emph[Streckensegelflug]\; ed.~inglesa, #emph[Cross-Country Soaring]). ISBN 978-84-283-1567-8.
+
+#colofon[
+#strong[Colofón]
+
+Este manual se compone a partir de fuentes en Quarto Markdown, sin intermediarios: los ficheros #NormalTok(".qmd"); de este repositorio son la versión canónica.
+
+Compuesto con Quarto 1.9.38 y la extensión #NormalTok("orange-book-es");, un derivado en español del paquete #NormalTok("orange-book");. La familia tipográfica es Libertinus.
+
+#strong[Versión 0.8.1] · Última actualización: 16 de julio de 2026
+
+https:\/\/github.com/VuelaLibre-net/teoria-licencia-SPL
+
+]
+
+
+

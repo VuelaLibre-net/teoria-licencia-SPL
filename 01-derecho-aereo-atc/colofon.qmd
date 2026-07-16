@@ -1,0 +1,15 @@
+# Colofón {.unnumbered .unlisted .oculto}
+
+::: {.colofon}
+**Colofón**
+
+Este manual se compone a partir de fuentes en Quarto Markdown, sin intermediarios:
+los ficheros `.qmd` de este repositorio son la versión canónica.
+
+Compuesto con Quarto {{< meta version-quarto >}} y la extensión `orange-book-es`, un
+derivado en español del paquete `orange-book`. La familia tipográfica es Libertinus.
+
+**Versión {{< meta version >}}** · Última actualización: {{< meta fecha-actualizacion >}}
+
+{{< meta repo-url >}}
+:::
