@@ -58,6 +58,16 @@ cambiar una versión— basta con:
 make estados      # imprime "libro|versión|estado" de los 9 libros
 ```
 
+### Qué ha cambiado en cada libro
+
+Cada libro lleva su propio registro de cambios en **`<libro>/CHANGELOG-NN.md`**, pensado para que un
+revisor **no tenga que releer el libro entero**: cada entrada abre con una línea **«Qué releer»** que
+dice qué capítulos ha tocado esa versión y cuáles puede saltarse.
+
+Si cambias contenido, añade la línea bajo la versión en curso. El CI comprueba que la versión que
+declara `_quarto.yml` tenga su entrada, de modo que **subir la versión sin registrar qué cambió
+rompe la compilación**.
+
 ---
 
 Los archivos `.qmd` de este repositorio son la **fuente canónica** de la colección: se editan
