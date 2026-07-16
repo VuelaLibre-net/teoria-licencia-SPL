@@ -1,5 +1,16 @@
 # Colección de Manuales Teóricos SPL (Licencia de Piloto de Planeador) en Quarto
 
+[![Compilar Manuales SPL](https://github.com/VuelaLibre-net/teoria-licencia-SPL/actions/workflows/ci.yml/badge.svg)](https://github.com/VuelaLibre-net/teoria-licencia-SPL/actions/workflows/ci.yml)
+[![Licencia: CC BY 4.0](https://img.shields.io/badge/Licencia-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/deed.es)
+[![Avalado por AESA](https://img.shields.io/badge/Programa-avalado%20por%20AESA-0057B7.svg)](https://www.seguridadaerea.gob.es/)
+[![Syllabus AMC1 SFCL.130](https://img.shields.io/badge/Syllabus-AMC1%20SFCL.130%20(EASA--FCL)-003399.svg)](https://www.easa.europa.eu/)
+[![Quarto](https://img.shields.io/badge/Quarto-%E2%89%A5%201.9.17-75AADB.svg)](https://quarto.org/)
+[![Typst](https://img.shields.io/badge/Typst-0.15-239DAD.svg)](https://typst.app/)
+[![Formatos](https://img.shields.io/badge/Formatos-PDF%20%C2%B7%20EPUB-E44D26.svg)](#instrucciones-de-compilación)
+
+`vuelo-a-vela` · `planeador` · `spl` · `easa-fcl` · `aesa` · `licencia-de-piloto` · `manual-de-formación` ·
+`temario-teórico` · `quarto` · `typst` · `epub` · `español`
+
 Este repositorio contiene la versión digitalizada de 9 libros que cubren el temario teórico para la obtención de la **Licencia de Piloto de Planeador (SPL)** bajo la regulación **EASA-FCL (European Union Aviation Safety Agency - Flight Crew Licensing)**, adaptada a los requerimientos de la **Agencia Estatal de Seguridad Aérea (AESA)** española.
 
 El contenido está en **Quarto Markdown (.qmd)** para la generación de entregables de alta calidad en formatos cómodos de editar por los colaboradores, **PDF (mediante el motor Typst)** y **EPUB (mediante Pandoc)**.
@@ -10,15 +21,42 @@ El contenido está en **Quarto Markdown (.qmd)** para la generación de entregab
 
 La biblioteca está organizada por asignaturas según el syllabus oficial de AESA/EASA:
 
-1. **`01-derecho-aereo-atc`** - Derecho Aéreo y Procedimientos de Control de Tránsito Aéreo
-2. **`02-factores-humanos`** - Factores Humanos (Medicina y Psicología Aeronáutica)
-3. **`03-meteorologia`** - Meteorología General y Aeronáutica
-4. **`04-comunicaciones`** - Comunicaciones (Procedimientos de Radio y Fraseología VFR)
-5. **`05-principios-vuelo`** - Principios de Vuelo (Aerodinámica y Estabilidad del Planeador)
-6. **`06-procedimientos-operativos`** - Procedimientos Operativos y Emergencias
-7. **`07-planificacion-rendimiento`** - Rendimiento y Planificación de Vuelo
-8. **`08-aeronave-sistemas`** - Conocimientos Generales de la Aeronave, Estructura y Sistemas
-9. **`09-navegacion`** - Navegación Visual, Estima e Instrumentos (GNSS)
+| # | Libro | Asignatura | Versión | Estado |
+| --- | --- | --- | --- | --- |
+| 1 | **`01-derecho-aereo-atc`** | Derecho Aéreo y Procedimientos de Control de Tránsito Aéreo | `1.0-rc.5` | 🟡 En revisión |
+| 2 | **`02-factores-humanos`** | Factores Humanos (Medicina y Psicología Aeronáutica) | `1.0-rc.4` | 🟡 En revisión |
+| 3 | **`03-meteorologia`** | Meteorología General y Aeronáutica | `1.0-rc.4` | 🟡 En revisión |
+| 4 | **`04-comunicaciones`** | Comunicaciones (Procedimientos de Radio y Fraseología VFR) | `1.0-rc.4` | 🟡 En revisión |
+| 5 | **`05-principios-vuelo`** | Principios de Vuelo (Aerodinámica y Estabilidad del Planeador) | `0.8.1` | 🎨 Creando ilustraciones |
+| 6 | **`06-procedimientos-operativos`** | Procedimientos Operativos y Emergencias | `0.8.1` | 🎨 Creando ilustraciones |
+| 7 | **`07-planificacion-rendimiento`** | Rendimiento y Planificación de Vuelo | `0.8.1` | 🎨 Creando ilustraciones |
+| 8 | **`08-aeronave-sistemas`** | Conocimientos Generales de la Aeronave, Estructura y Sistemas | `0.8.1` | 🎨 Creando ilustraciones |
+| 9 | **`09-navegacion`** | Navegación Visual, Estima e Instrumentos (GNSS) | `0.8.1` | 🎨 Creando ilustraciones |
+
+### Estados editoriales
+
+El estado **no se declara**: se deduce de la versión del libro, que se mantiene a mano en el
+`version:` de su `_quarto.yml`. El Makefile aplica esta tabla al compilar y la inyecta en los dos
+formatos, de modo que la portadilla del PDF (con marca de agua) y la primera página del EPUB avisan
+solos de que un libro aún no está terminado:
+
+| Versión | Estado | Qué significa |
+| --- | --- | --- |
+| `>= 1.0.0` | ✅ Completado | Edición definitiva. Único estado **sin** marca de agua ni nota. |
+| `1.x-rc.n` · `0.9.x` | 🟡 En revisión | Pendiente de revisión técnica por instructores. |
+| `0.8.x` | 🎨 Creando ilustraciones | Texto completo; faltan ilustraciones. |
+| `<= 0.7.x` | 🚧 En desarrollo | Texto e ilustraciones en elaboración. |
+
+Un candidato de versión (`1.0-rc.5`) es **anterior** a la `1.0.0`, no posterior: por eso los cuatro
+primeros libros siguen en revisión.
+
+La tabla de arriba es una copia de un dato que vive en los `_quarto.yml`, así que el CI comprueba en
+cada _push_ que no se ha desfasado. Para consultarla —o para saber qué espera el guardián después de
+cambiar una versión— basta con:
+
+```bash
+make estados      # imprime "libro|versión|estado" de los 9 libros
+```
 
 ---
 
