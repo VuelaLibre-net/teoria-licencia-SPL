@@ -137,6 +137,18 @@ jobs:
             errores=1
           fi
 
+          # Cubierta y contracubierta: páginas de imagen a sangre, primera y
+          # última. Se cuentan las imágenes, no el texto: no llevan ninguno.
+          paginas=$(pdfinfo "$pdf" 2>/dev/null | awk '/^Pages/{print $2}')
+          if [ "$(pdfimages -list -f 1 -l 1 "$pdf" 2>/dev/null | grep -c image)" -lt 1 ]; then
+            echo "::error file=$pdf::La página 1 no lleva la imagen de cubierta"
+            errores=1
+          fi
+          if [ "$(pdfimages -list -f "$paginas" -l "$paginas" "$pdf" 2>/dev/null | grep -c image)" -lt 1 ]; then
+            echo "::error file=$pdf::La última página no lleva la contracubierta"
+            errores=1
+          fi
+
           # Y en negativo: ni rastro de los rótulos por defecto de Quarto.
           if grep -qE 'Chapter [0-9]' <<<"$texto"; then
             echo "::error file=$pdf::Rótulos en inglés ('Chapter N'): se maquetó con el orange-book interno"
@@ -201,6 +213,18 @@ jobs:
           selectores=$(unzip -p "$epub" 'EPUB/styles/*.css' 2>/dev/null | grep -cE '^[a-zA-Z][^{]*\{')
           if [ "$selectores" -lt 30 ]; then
             echo "::error file=$epub::Sólo $selectores selectores en la hoja por defecto (se esperan 40+): ¿se usó 'css:' en vez de include-in-header?"
+            errores=1
+          fi
+
+          # La cubierta la declara epub-cover-image. La contracubierta no existe
+          # como concepto en EPUB —es un formato de flujo, sin dorso—, así que va
+          # como última página con `content-visible when-format="epub"`.
+          if ! unzip -p "$epub" 'EPUB/content.opf' 2>/dev/null | grep -q 'properties="cover-image"'; then
+            echo "::error file=$epub::El EPUB no declara cubierta: ¿falta epub-cover-image?"
+            errores=1
+          fi
+          if ! unzip -p "$epub" 'EPUB/text/*.xhtml' 2>/dev/null | grep -q 'class="contracubierta"'; then
+            echo "::error file=$epub::El EPUB no lleva contracubierta"
             errores=1
           fi
         done
