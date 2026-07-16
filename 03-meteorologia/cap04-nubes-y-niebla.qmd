@@ -46,7 +46,7 @@ El Cumulonimbus abarca una notable extensión vertical, culminando a menudo, al 
 El piloto debe evitar en todo momento volar en las inmediaciones de un Cumulonimbus. Se recomienda mantener una separación lateral de seguridad entre 10 y 20 millas náuticas. Si un sistema convectivo amenaza el aeródromo, inicie de inmediato el procedimiento de aterrizaje.
 :::
 
-## Reducciones de visibilidad: Niebla y Neblina
+## Reducciones de visibilidad: niebla y neblina
 
    Una degradación significativa en la visibilidad penaliza las Reglas de Vuelo Visual (VFR).
 
@@ -61,7 +61,7 @@ Otro tipo relevante para los operadores de aeródromos costeros y de valle es la
 Presta especial atención a la tarde en los días que hayan empezado con niebla de radiación persistente. Al caer el sol, el enfriamiento nocturno puede reinstaurar la niebla en minutos y cerrarte el campo antes de que aterrices. En costas y valles con viento de componente mar, añade también el riesgo de niebla de advección: puede llegar sin previo aviso y a cualquier hora del día.
 :::
 
-## Altocúmulos Lenticulares y vuelo de onda
+## Altocúmulos lenticulares y vuelo de onda
 
   Las **nubes lenticulares** (**Altocumulus lenticularis**) exhiben formas alisadas y características convexas, similares a una lente. A pesar de formarse bajo vientos de intensidad notable en altura, su estructura permanece totalmente estacionaria respecto al relieve.
 
@@ -74,11 +74,10 @@ Bajo la zona de onda, a baja altura, se esconde el **rotor**: un cilindro de tur
 :::
 
 ::: {.postit}
-**Resumen del Capítulo: Nubes y Niebla**
+**Resumen del capítulo: nubes y niebla**
 
 * **Significado de las nubes**: Para el piloto de planeador, las nubes son el mapa del cielo. Los **Cúmulos (Cu)** pequeños y algodónosos son nuestros mejores amigos (marcan térmicas). Los **Cirros** altos suelen anunciar un frente (mal tiempo en 24-48h).
 * **Peligro de Desarrollo Vertical**: Si un cúmulo crece mucho verticalmente (**Cu congestus**), vigílalo de cerca. Si pasa a **Cumulonimbus (Cb)**, aléjate millas: hay turbulencia severa, granizo y rayos que pueden destruir el planeador.
 * **Niebla vs Neblina**: Ambas reducen la visibilidad. La niebla (< 1 km) es crítica para el aterrizaje y despegue. Hay dos tipos frecuentes: la **de radiación** (noches frías y despejadas, suele disiparse con el sol por la mañana) y la **de advección** (aire cálido sobre superficie fría, puede presentarse a cualquier hora y no depende de la noche).
 * **Nubes Lenticulares**: Tienen forma de lenteja o platillo y se quedan "quietas" aunque sople mucho viento. Indican **Onda de Montaña**, un fenómeno que permite subir muy alto pero advierte de turbulencia (rotores) muy peligrosa a baja altura.
 :::
-

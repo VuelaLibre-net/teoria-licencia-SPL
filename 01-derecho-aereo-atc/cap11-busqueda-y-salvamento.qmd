@@ -59,7 +59,7 @@ Si volando interceptas una señal de socorro (visual o en 121.5 MHz):
 :::
 
 ::: {.postit}
-**Resumen del Capítulo: Búsqueda y Salvamento (SAR)**
+**Resumen del capítulo: búsqueda y salvamento (SAR)**
 
 Si algo sale mal, el SAR te buscará. Conoce las fases:
 
@@ -68,4 +68,3 @@ Si algo sale mal, el SAR te buscará. Conoce las fases:
 * **DETRESFA (Socorro)**: peligro grave e inminente. Combustible agotado, posible aterrizaje forzoso o necesidad de ayuda inmediata.
 * **Señales tierra-aire**: **V** = necesito ayuda; **X** = necesito ayuda médica; **N** = no; **Y** = sí.
 :::
-

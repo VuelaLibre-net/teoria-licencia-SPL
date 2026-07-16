@@ -103,7 +103,7 @@ Un planeador con lastre de agua tiene una **velocidad de pérdida significativam
 :::
 
 ::: {.postit}
-**Resumen del Capítulo: Técnicas de planeo**
+**Resumen del capítulo: técnicas de planeo**
 
 * **Centrado de térmica**: siente el empujón en el asiento. Si el ala derecha sube, el núcleo está a la derecha: vira a la derecha. Cierra el viraje cuando el vario sube, ábrelo cuando baja. Con práctica, este ciclo se vuelve automático.
 * **Hilo de lana lateral (side string)**: técnica complementaria opcional para visualizar de forma didáctica el ángulo de ataque en vuelo lento; no sustituye al hilo central ni al anemómetro.
@@ -112,4 +112,3 @@ Un planeador con lastre de agua tiene una **velocidad de pérdida significativam
 * **Onda**: la autopista al cielo. Sube en la zona laminar, delante de la nube de rotor. Requiere oxígeno y ropa de abrigo. Cuidado al bajar: el rotor puede romperte el planeador en segundos.
 * **Lastre de agua**: más masa = más velocidad sin perder planeo. Útil en días fuertes y travesías largas. Vacíalo antes de aterrizar y ajusta siempre las velocidades de referencia: con lastre, la pérdida llega mucho antes.
 :::
-

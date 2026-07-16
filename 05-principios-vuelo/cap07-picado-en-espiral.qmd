@@ -42,11 +42,10 @@ La salida de un picado en espiral debe ejecutarse de forma procedimental, luchan
 3. **Controlar la velocidad:** si la velocidad se aproxima a la V~NE~ (Velocidad Nunca Exceder), extiende los aerofrenos para frenar la aceleración; pero hazlo con suavidad, porque a alta velocidad y con factor de carga elevado una extensión brusca añade carga a la estructura.
 
 ::: {.postit}
-**Resumen del Capítulo: Picado en Espiral**
+**Resumen del capítulo: picado en espiral**
 
 * **Diagnóstico rápido — mira el anemómetro**: velocidad alta o creciendo = espiral (el planeador vuela y acelera). Velocidad baja y constante = barrena (el ala está en pérdida, no puede acelerar). No las confundas: la técnica es opuesta.
 * **El peligro del instinto**: si tiras de la palanca para subir el morro sin nivelar antes las alas, solo cierras más la espiral y aumentas las Gs hasta el fallo estructural.
 * **Cómo salir**: 1. nivela las alas (alerones y pie coordinados al lado contrario del viraje) —es lo primero, el alabeo sostiene la espiral—; 2. recupera suave del picado; 3. si la velocidad se acerca a la VNE, frena con aerofrenos (suavemente).
 * **Causa típica**: pérdida de referencia visual (nubes, noche) y distracción. El planeador tiene tendencia espiral; si lo dejas solo con un pequeño alabeo, la espiral crece sola.
 :::
-

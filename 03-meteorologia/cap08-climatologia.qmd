@@ -60,7 +60,7 @@ Los días post-frontales son el estándar de oro del vuelo ibérico: cielo azul,
 En verano, las tormentas de evolución (**air mass storms**) se desarrollan rápidamente durante las horas centrales del día a partir de cúmulos congestus. Si ves cúmulos que crecen verticalmente a ritmo acelerado, aterriza cuanto antes. No esperes a ver el yunque para decidir.
 :::
 
-## La Baja Térmica Peninsular estival
+## La baja térmica peninsular estival
 
 En los picos crudos del verano, la intensa radiación solar hornea la superficie de las vastas mesetas del interior peninsular. Este calentamiento brutal genera grandes columnas de aire cálido ascendentes, estableciendo una permanente **baja térmica peninsular** en el centro de España.
 
@@ -73,11 +73,10 @@ Las líneas de convergencia generadas por la Baja Térmica Peninsular son autopi
 :::
 
 ::: {.postit}
-**Resumen del Capítulo: Climatología**
+**Resumen del capítulo: climatología**
 
 * **España, país de contrastes**: Tenemos condiciones mundiales para el vuelo. Viento y **Onda de Montaña** en invierno/primavera (Pirineos, Sistema Central) y potentes **Térmicas** en verano (La Mancha, zonas interiores).
 * **Vientos Locales**: Cada valle tiene su dueño. Los vientos anabáticos y catabáticos definen la mañana y la tarde en zonas montañosas. Los rotores de sotavento son la trampa invisible del piloto imprudente.
 * **Estacionalidad**: La primavera ofrece inestabilidad y buen vuelo local. El verano trae techos altos y tormentas secas de calor. El otoño suele traer lluvias y DANA.
 * **Baja Térmica Peninsular**: En verano, el sol calienta tanto el centro de España que se forma una baja presión permanente. Esto succiona aire del mar, reforzando las brisas costeras que penetran muy adentro y generan líneas de convergencia ideales para el cross-country.
 :::
-

@@ -58,11 +58,10 @@ El vuelo a vela no siempre empieza ni termina en un aeródromo. El syllabus incl
 * **Tras una toma fuera de campo**: la aeronave puede haber causado daños (cultivos, cercados) de los que respondes civilmente; el seguro obligatorio de responsabilidad civil cubre precisamente estos supuestos. Localiza al propietario, documenta el estado del terreno y acuerda la retirada del planeador — la parte operativa y de trato con el propietario se desarrolla en el Libro 6.
 
 ::: {.postit}
-**Resumen del Capítulo: Aeródromos**
+**Resumen del capítulo: aeródromos**
 
 En tierra, las reglas visuales mandan:
 
 * **Circuito de tránsito**: virajes a la **izquierda**, salvo señal en contrario.
 * **Área de señales**: la manga de viento indica dirección e intensidad; la T tumbada, la dirección de aterrizaje y despegue; la flecha derecha avisa de virajes a la derecha; la cruz roja con diagonales amarillas prohíbe aterrizar; el panel rojo con una sola diagonal pide precaución por mal estado del área de maniobras; y la doble cruz blanca anuncia planeadores en actividad.
 :::
-

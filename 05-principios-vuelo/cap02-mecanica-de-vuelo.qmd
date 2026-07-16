@@ -70,7 +70,7 @@ El patrón más letal de la estadística de accidentes en planeador es siempre e
 :::
 
 ::: {.postit}
-**Resumen del Capítulo: Mecánica de Vuelo**
+**Resumen del capítulo: mecánica de vuelo**
 
 * **El motor es la gravedad**: el planeador siempre cae a través de la masa de aire. Convertimos altura (energía potencial) en velocidad (cinética) bajando el morro. La componente del peso hacia adelante actúa como "tracción".
 * **La curva polar**: es el DNI del planeador. Relaciona velocidad horizontal con tasa de caída. Te dice a qué velocidad volar para llegar más lejos (máximo planeo) o para mantenerte más tiempo (mínimo descenso).
@@ -78,4 +78,3 @@ El patrón más letal de la estadística de accidentes en planeador es siempre e
 * **Lastre de agua**: desplaza la polar a la derecha: suben la V~max planeo~ y la V~z min~. Ventajoso en condiciones fuertes y largas transiciones; penaliza en térmicas débiles. Se larga antes del aterrizaje.
 * **Factor de carga (n)**: en giros o maniobras bruscas, el peso aparente aumenta (n > 1g) y con él la velocidad de pérdida. Recuerda: en un viraje de 60° pesas el doble (2g) y tu velocidad de pérdida sube un 41%.
 :::
-

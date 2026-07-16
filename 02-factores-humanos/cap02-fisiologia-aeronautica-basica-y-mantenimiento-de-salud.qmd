@@ -238,7 +238,7 @@ Para volar en campeonatos bajo un tratamiento médico sin arriesgarte a una desc
 :::
 
 ::: {.postit}
-**Resumen del capítulo: Fisiología aeronáutica**
+**Resumen del capítulo: fisiología aeronáutica**
 
 * **Aptitud IMSAFE:** Revise el estado con la lista **Illness**, **Medication**, **Stress**, **Alcohol**, **Fatigue**, **Eating** antes del despegue. Ante dudas, cancele el vuelo (**NO-GO**). Si concurren problemas médicos importantes, consulte a un médico examinador aéreo (AME).
 * **Disbarismos:** Los gases corporales se expanden al ascender. No vuele nunca con resfriados o congestión nasal; el dolor en los tímpanos y senos paranasales por el cambio de presión le incapacitará para pilotar.
@@ -250,4 +250,3 @@ Para volar en campeonatos bajo un tratamiento médico sin arriesgarte a una desc
 * **Fatiga:** El cansancio bloquea el tiempo de reacción y nubla la toma de decisiones. El café o una bebida no previenen sus efectos ocultos sobre la atención. La fatiga solo se cura de una manera: durmiendo para dar pie al necesario descanso reparador.
 * **Normativa EASA, medicación y alcohol:** La regla no tiene excepciones: **«de la botella al mando»**, 8 horas sin alcohol y alcoholemia inferior a 0,2 g/l (AMC1 SAO.GEN.130(f)). No se automedique; hasta las inocentes pastillas de la alergia o del mareo adormecen de forma incapacitante para volar.
 :::
-

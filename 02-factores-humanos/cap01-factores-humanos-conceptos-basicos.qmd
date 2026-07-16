@@ -115,11 +115,10 @@ La conclusión práctica es clara: la seguridad ocupa la base de la pirámide y 
 ![La pirámide de Maslow aplicada a un piloto de planeadores](imagenes/02-cap01-piramide-maslow.png){#fig-02-cap01-piramide-maslow}
 
 ::: {.postit}
-**Resumen del Capítulo: Conceptos básicos de Factores Humanos**
+**Resumen del capítulo: conceptos básicos de factores humanos**
 
 * **Modelo SHELL**: Marco conceptual fundamental que analiza la interacción entre el piloto (Liveware) y otros elementos: Software (procedimientos), Hardware (la aeronave), Environment (el entorno) y otro Liveware (otras personas).
 * **Gestión del error**: Se asume que el error humano es inevitable. El objetivo de la seguridad no es eliminarlo por completo, sino detectarlo a tiempo y gestionar sus consecuencias antes de que afecten a la seguridad del vuelo.
 * **Cadena del error**: Los accidentes rara vez ocurren por una sola causa. Son la suma de pequeños errores y condiciones latentes. Tu trabajo es romper esa cadena en cuanto detectes el primer eslabón.
 * **Influencias en el comportamiento**: El comportamiento mental bajo presión, nuestra motivación diaria aplicada al vuelo frente a una base de necesidades insatisfechas (Pirámide de Maslow), así como la presión directa de compañeros de hangar, alteran profundamente nuestra capacidad mental como comandantes. Debemos respaldar una rigurosa "cultura justa" para permitir el libre reporte de errores técnicos sin represión ajena, aprendiendo en colectivo en lugar de esconder daños fatales.
 :::
-

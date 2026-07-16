@@ -93,7 +93,7 @@ Llevarlo operativo es obligatorio dentro de una **TMZ** (*Transponder Mandatory 
 * **Botón IDENT**: Hace parpadear tu etiqueta en el radar. Púlsalo **solo** cuando el controlador lo pida expresamente («*Squawk ident*»).
 
 ::: {.postit}
-**Resumen del Capítulo: Principios de Propagación VHF**
+**Resumen del capítulo: principios de propagación VHF**
 
 * **Alcance Visual**: Las ondas VHF viajan en línea recta. Si hay una montaña entre la antena y tú, no te oirán. La altura es tu aliada: a mayor altitud, mayor alcance (1.23 \times \sqrt{H}1.23 \times \sqrt{H}).
 * **Separación 8.33 kHz**: El espacio aéreo está saturado. Para meter más canales, se redujo el ancho de banda. Asegúrate de que tu radio es "8.33 compliant" o no podrás sintonizar muchas frecuencias modernas.
@@ -102,4 +102,3 @@ Llevarlo operativo es obligatorio dentro de una **TMZ** (*Transponder Mandatory 
 * **Frecuencias clave**: 121,500 MHz (emergencia internacional, escucha permanente). 122,600 / 123,375 / 123,400 MHz (vuelo a vela). 123,450 MHz (charla entre pilotos). 123,500 MHz (aeródromo no controlado genérico). FIS regionales: consultar AIP España GEN 3.3.
 * **Transpondedor (XPDR)**: Responde automáticamente al radar secundario (SSR). Códigos: **7000** (VFR estándar), **7600** (fallo de radio — NORDO), **7700** (emergencia activa). Obligatorio en zonas TMZ (SERA.6005 b) — descritas en AIP-España ENR 2.1, carta ENR 6— y donde lo exijan la clase de espacio aéreo o el AIP (ENR 1.6): clases A y C, y D generalmente. Botón **IDENT**: solo cuando lo pida el ATC.
 :::
-

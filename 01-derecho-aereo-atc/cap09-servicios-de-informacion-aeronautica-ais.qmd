@@ -1,4 +1,4 @@
-# Servicios de Información Aeronáutica (AIS)
+# Servicios de información aeronáutica (AIS)
 
 > La información es seguridad; un piloto que ignora los NOTAM es un piloto que vuela a ciegas hacia el peligro.
 >
@@ -47,7 +47,7 @@ En España, puedes consultar todo esto gratis en los portales **ICARO** e **Insi
 :::
 
 ::: {.postit}
-**Resumen del Capítulo: Servicio de Información Aeronáutica (AIS)**
+**Resumen del capítulo: servicio de información aeronáutica (AIS)**
 
 La información es seguridad. Tus fuentes:
 
@@ -55,4 +55,3 @@ La información es seguridad. Tus fuentes:
 * **NOTAM**: la actualidad. Avisos temporales urgentes (una pista cerrada, un festival aéreo, una restricción temporal). Consultarlos antes de cada vuelo es obligatorio.
 * **AIC**: circulares informativas sobre seguridad y cambios administrativos.
 :::
-

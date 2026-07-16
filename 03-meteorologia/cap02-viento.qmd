@@ -5,7 +5,7 @@
 > cómo la rotación terrestre y el terreno lo transforman, y cuáles son los vientos locales
 > —anabáticos, catabáticos, Foehn, brisa marina— que definen la meteorología de cada aeródromo.
 
-## El Motor del Viento: La Fuerza de Gradiente
+## El motor del viento: la fuerza de gradiente
 
 El viento es fundamentalmente aire en movimiento, y su motor principal son las diferencias de presión atmosférica en distintas zonas.
 
@@ -13,7 +13,7 @@ El aire fluye de forma natural desde las zonas de alta presión (anticiclones) h
 
 ![La fuerza del gradiente de presión y las isobaras](imagenes/03-cap02-gradiente-isobaras.jpg){#fig-03-cap02-gradiente-isobaras}
 
-## La Fuerza de Coriolis y el Viento Geostrófico
+## La fuerza de Coriolis y el viento geostrófico
 
 Si la Tierra no rotase, el viento fluiría directamente de las altas a las bajas presiones cruzando las isobaras perpendicularmente. Sin embargo, debido a la rotación terrestre, aparece una fuerza aparente llamada **Fuerza de Coriolis** (Fc).
 
@@ -23,7 +23,7 @@ En el hemisferio norte, la fuerza de Coriolis desvía cualquier masa de aire en 
 La Ley de Buys Ballot es una regla clásica que resume este efecto: en el hemisferio norte, si te pones de espaldas al viento, el centro de baja presión siempre estará a tu lado izquierdo.
 :::
 
-## El Efecto de la Fricción en Superficie
+## El efecto de la fricción en superficie
 
 Cerca del suelo (por debajo de esos 1.000 metros), entra en juego un tercer actor: el rozamiento con el terreno o fricción superficial. Los árboles, edificios, montañas y la propia textura del suelo "frenan" el flujo del aire.
 
@@ -37,7 +37,7 @@ Debido a la fricción, cuando te acercas al suelo para aterrizar experimentarás
 
 ![Convergencia inducida por flujo alrededor de topografía (vista desde arriba)](imagenes/03-cap02-convergencia-topografica.jpg){#fig-03-cap02-convergencia-topografica}
 
-## Brisas Locales: El Motor en la Montaña
+## Brisas locales: el motor en la montaña
 
   El calentamiento desigual del terreno por el sol genera vientos locales fundamentales para el piloto de planeador, especialmente en áreas montañosas:
 
@@ -52,7 +52,7 @@ Debido a la fricción, cuando te acercas al suelo para aterrizar experimentarás
 A última hora de la tarde, cuando los fríos vientos catabáticos bajan por ambas laderas de un valle, "estrujan" el aire residual cálido que queda en el centro, forzándolo a subir. Este fenómeno se conoce como **restitución**. Crea zonas muy amplias y suaves de ascendencia en el centro del valle, permitiendo prolongar vuelos al atardecer en aire completamente calmado.
 :::
 
-## Efecto Foehn y Stau: Cuando la Montaña Calienta el Aire
+## Efecto Foehn y Stau: cuando la montaña calienta el aire
 
   Cuando el viento húmedo del Atlántico choca con una cordillera, ocurre algo que parece casi magia: el mismo aire que llega frío y cargado de nubes por barlovento puede aterrizar en el valle de sotavento seco, transparente y diez grados más caliente. Esto es el **efecto Foehn** (**Foehn effect**), y su gemelo el **Stau** (**Stau effect**), y tienen consecuencias directas para el piloto.
 
@@ -72,7 +72,7 @@ El sotavento de una cordillera bajo un Foehn activo puede esconder rotores de tu
 Si a pie de pista el termómetro marca varios grados por encima de lo habitual para el mes, la humedad relativa es inusualmente baja y ves una masa de nubes estacionaria sobre la sierra al norte: estás bajo un Foehn. Las bases de nube serán muy altas y las térmicas explosivas. Aprovéchalo, pero vigila los rotores cerca del terreno en el sotavento.
 :::
 
-## Brisas Marinas y Líneas de Convergencia: El Frente que No Aparece en el Mapa
+## Brisas marinas y líneas de convergencia: el frente que no aparece en el mapa
 
   Las **brisas marinas** (**sea breeze**) son el resultado del mismo principio que las brisas de montaña: calentamiento desigual. La tierra se calienta mucho más rápido que el mar durante el día. El aire cálido sobre el continente asciende, y el aire fresco marino avanza tierra adentro para rellenar ese hueco, formando un flujo que puede penetrar decenas de kilómetros al interior (@fig-03-cap02-brisa-marina).
 
@@ -91,7 +91,7 @@ En verano, los pilotos que operan desde Fuentemilanos (Segovia) trabajan frecuen
 :::
 
 ::: {.postit}
-**Resumen del Capítulo: Viento**
+**Resumen del capítulo: viento**
 
 * **El motor del viento**: El aire fluye naturalmente de las Altas (H) a las Bajas (L) presiones debido a la fuerza de gradiente. Cuanto más juntas estén las isobaras, más fuerte soplará.
 * **Fuerza de Coriolis**: En el hemisferio norte, la rotación terrestre desvía el viento hacia la derecha. Por eso, en altura, el viento acaba soplando paralelo a las isobaras (viento geostrófico).
@@ -100,4 +100,3 @@ En verano, los pilotos que operan desde Fuentemilanos (Segovia) trabajan frecuen
 * **Efecto Foehn y Stau**: El aire que sube en barlovento precipita y cede calor latente (SALR). Al descender en sotavento —ya seco— se calienta al DALR completo, llegando hasta 15 °C más caliente. La "pared de Foehn" marca visualmente la cresta. Cuidado con los rotores en el sotavento.
 * **Brisas Marinas y Convergencias**: La brisa marina penetra tierra adentro creando una línea de convergencia (minifrente) con ascendencias excelentes para el cross-country. Identifícala por las diferentes alturas de base de los cúmulos a cada lado y por la franja de nubosidad activa sobre el límite.
 :::
-

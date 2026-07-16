@@ -100,7 +100,7 @@ Nunca vueles con un paracaídas cuya tarjeta de inspección esté caducada, aunq
 :::
 
 ::: {.postit}
-**Resumen del Capítulo: Paracaídas de emergencia**
+**Resumen del capítulo: paracaídas de emergencia**
 
 * **Cuándo saltar**: solo cuando el planeador es irrecuperable: fallo estructural, colisión en vuelo, fuego incontrolable o barrena irrecuperable. Si el planeador vuela de forma controlable, quédate dentro.
 * **Altura mínima**: 150 m AGL. Por debajo de esta cota, el paracaídas puede no tener tiempo suficiente para abrirse del todo.
@@ -108,4 +108,3 @@ Nunca vueles con un paracaídas cuya tarjeta de inspección esté caducada, aunq
 * **Descenso y toma de tierra**: gira la campana en el aire tirando de las bandas de las hombreras para **aterrizar cara al viento** y reducir el impacto horizontal. Adopta la posición PLF (pies y rodillas juntos y flexionados) y rueda al tocar el suelo. Con viento, tira de los cordones inferiores para colapsar la campana.
 * **Mantenimiento**: plegado e inspección obligatorios cada 6-12 meses según el fabricante, por un técnico certificado. Protégelo de la radiación UV, la humedad y los contaminantes químicos. Es tu último recurso: cuídalo.
 :::
-

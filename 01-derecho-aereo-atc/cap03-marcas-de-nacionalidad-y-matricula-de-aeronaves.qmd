@@ -54,7 +54,7 @@ Junto a las letras, es obligatorio llevar la **bandera de España**, normalmente
 :::
 
 ::: {.postit}
-**Resumen del Capítulo: Marcas y Matrícula**
+**Resumen del capítulo: marcas y matrícula**
 
 Tu planeador tiene una identidad legal única que debe ser visible y resistente:
 
@@ -62,4 +62,3 @@ Tu planeador tiene una identidad legal única que debe ser visible y resistente:
 * **Marcas pintadas**: en el fuselaje o la cola (y bajo las alas en algunos casos), más la bandera de España.
 * **Placa de identificación**: de material ignífugo, con la matrícula grabada, fijada a la estructura cerca de la entrada.
 :::
-

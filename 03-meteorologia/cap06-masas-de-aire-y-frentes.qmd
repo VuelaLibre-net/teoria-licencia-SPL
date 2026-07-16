@@ -74,11 +74,10 @@ No despegues con visibilidad marginal bajo una inversión: ante una rotura de ca
 :::
 
 ::: {.postit}
-**Resumen del Capítulo: Masas de Aire y Frentes**
+**Resumen del capítulo: masas de aire y frentes**
 
 * **Frente Frío**: El mejor amigo del volovelista (después de que pasa). Trae inestabilidad, cielo limpio y térmicas potentes (cielo de "post-frente"). Al cruzarlo, espera chubascos, rolada de viento y bajada de temperatura.
 * **Frente Cálido**: Malas noticias. Anunciado por cirros que bajan a estratos, trae lluvia continua, techos bajos y mala visibilidad. El aire es estable, así que olvídate de las térmicas.
 * **Oclusiones**: Cuando el frente frío alcanza al cálido. Generalmente significa tiempo revuelto, mezcla de nubes y precipitaciones. Poco aprovechable para el vuelo.
 * **Masas de Aire**: Lo que importa es la temperatura relativa. Aire frío sobre suelo caliente = inestabilidad (¡térmicas!). Aire cálido sobre suelo frío = estabilidad (capas, niebla, inversión).
 :::
-

@@ -35,6 +35,8 @@ dos se comprueban de un vistazo.
 
 Nada de esto altera lo que el lector aprende; el revisor puede saltárselo.
 
+* Se normalizan los títulos de capítulos, secciones, portadillas y apéndices a la capitalización
+  propia del español.
 * Los entregables llevan ahora la versión y la fecha en el nombre
   (`06-procedimientos-operativos-0.8.1-26-07-16.pdf`), para identificarlos sin abrirlos.
 * Los EPUB se publicaban como **XHTML mal formado**: unos comentarios del CSS abrían etiquetas que

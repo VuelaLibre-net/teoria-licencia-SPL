@@ -142,7 +142,7 @@ Aunque el planeador opera principalmente sobre tierra, el vuelo de travesía pue
 3. **Abandono inmediato:** sal de la cabina en cuanto te detengas. El planeador se hundirá en cuestión de segundos: la cabina de compuesto y la estructura rígida pierden flotabilidad con rapidez.
 
 ::: {.postit}
-**Resumen del Capítulo: Procedimientos especiales y peligros**
+**Resumen del capítulo: procedimientos especiales y peligros**
 
 * **Vigilancia visual**: el FLARM ayuda, pero no lo ve todo. El 95 % del tiempo, mira fuera. Barre el horizonte en sectores. Antes de virar, mira siempre hacia el lado del viraje.
 * **Viento cruzado**: alerón al viento en el despegue para que no levante el plano, pie contrario para no irte de la pista. En el aterrizaje, «cangrejo» hasta el final y alinear con el pie antes de tocar.
@@ -150,4 +150,3 @@ Aunque el planeador opera principalmente sobre tierra, el vuelo de travesía pue
 * **Engelamiento y lluvia**: cualquier contaminación del borde de ataque sube la velocidad de pérdida. Añade velocidad al circuito y a la aproximación. Si se acumula hielo, desciende de inmediato.
 * **Amerizaje**: si no queda otra opción, **tren fuera** —la rueda frena el planeador al contacto y evita que la cabina bucee—, paralelo a las olas y a velocidad mínima. En cuanto el planeador se pare, sal: se hunde en segundos.
 :::
-

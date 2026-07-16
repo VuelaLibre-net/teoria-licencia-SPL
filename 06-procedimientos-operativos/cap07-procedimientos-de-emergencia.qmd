@@ -102,7 +102,7 @@ Las causas más frecuentes son el exceso de velocidad —superar la V~NE~ (Veloc
 Si experimentas una vibración fuerte y descontrolada, **reduce la velocidad de inmediato**: sube el morro suavemente y abre los aerofrenos para frenar aerodinámicamente. El *flutter* solo ocurre a altas velocidades y puede destruir el planeador en segundos. Nunca intentes aumentar la velocidad para «salir» de una vibración: es la acción exactamente contraria a lo que necesitas. Tras cualquier episodio de vibración anormal, el planeador debe ser inspeccionado por un técnico antes de volar de nuevo.
 :::
 
-### Fallo de instrumentos de vuelo (Pitot o Estática)
+### Fallo de instrumentos de vuelo (Pitot o estática)
 
 El bloqueo de las tomas de presión de tu planeador (normalmente debido a agua de lluvia condensada, insectos o por haber olvidado retirar las fundas prevuelo) altera por completo las indicaciones del panel de instrumentos. Debes saber identificar qué toma está obstruida y cómo volar de forma segura sin referencias instrumentales fiables.
 
@@ -168,7 +168,7 @@ Como ficha de repaso rápido, esta tabla resume la respuesta inmediata a cada em
 : Síntoma → acción inmediata en las emergencias del capítulo
 
 ::: {.postit}
-**Resumen del Capítulo: Procedimientos de emergencia**
+**Resumen del capítulo: procedimientos de emergencia**
 
 * **Regla universal**: ante cualquier emergencia en el lanzamiento, lo primero siempre es **bajar el morro** para recuperar velocidad y evitar la pérdida. Después, suelta el cable y decide.
 * **Rotura de cable según el método de lanzamiento**:
@@ -188,4 +188,3 @@ Como ficha de repaso rápido, esta tabla resume la respuesta inmediata a cada em
 * **Apertura de cúpula**: vuela el planeador primero (**Aviate**). No intentes cerrarla si estás bajo. Baja el morro para contrarrestar el aumento de resistencia.
 * **Lastre asimétrico**: vuela 15-20 km/h más rápido en circuito para mantener la efectividad de los alerones y mantén las alas niveladas al tocar el suelo.
 :::
-

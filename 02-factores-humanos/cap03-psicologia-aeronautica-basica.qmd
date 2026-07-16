@@ -143,7 +143,7 @@ Dos de los peores y más insidiosos enemigos relacionados con las actitudes peli
 **La indisciplina**, ligada íntimamente a la actitud de antiautoridad, implica apartarse deliberadamente de los estándares y procedimientos que te enseñaron. Este factor se vuelve epidémico: una mala práctica vista repetidas veces en un campo de vuelo termina normalizándose en la mentalidad de todos sus pilotos, propagando conductas letales entre los alumnos y mermando gravemente la cultura de seguridad de todo el aeroclub.
 
 ::: {.postit}
-**Resumen del Capítulo: Psicología Aeronáutica**
+**Resumen del capítulo: psicología aeronáutica**
 
 * **Conciencia situacional**: Es la capacidad precisa de percibir lo que ocurre, comprender su significado y proyectar su estado futuro. Perderla es el primer eslabón de la mayoría de las cadenas de accidentes.
 * **Toma de decisiones (ADM)**: Proceso mental sistemático (como el modelo DECIDE) utilizado por los pilotos para elegir consistentemente la mejor opción de acción en respuesta a un conjunto de circunstancias.
@@ -155,4 +155,3 @@ Dos de los peores y más insidiosos enemigos relacionados con las actitudes peli
 * **Gestión de Recursos (SRM)**: La habilidad del piloto solitario para usar integralmente el equipo a bordo, la información, las comunicaciones y la ayuda externa para no exceder su capacidad límite.
 * **Complacencia e Indisciplina**: La complacencia surge por el exceso de rutina generando una falsa sensación de seguridad, mientras que la indisciplina contagia una mala cultura de seguridad en el aeródromo al ignorar las normas.
 :::
-

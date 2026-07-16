@@ -13,7 +13,7 @@
 
 Volar no es solo pilotar: también es gestionar la parte legal y la información técnica de la aeronave. El piloto que no conoce las limitaciones de su máquina, o que vuela sin los papeles en regla, se expone a riesgos operativos y a sanciones.
 
-## El Manual de Vuelo (AFM / SFM)
+## El manual de vuelo (AFM / SFM)
 
 El **Manual de Vuelo** (*AFM, Aircraft Flight Manual*, también *SFM, Sailplane Flight Manual*, en los veleros) es el documento maestro. No es un manual de usuario genérico, sino un documento legalmente ligado a la matrícula de tu planeador. En él encontrarás:
 
@@ -75,4 +75,3 @@ Cada hora de vuelo y cada aterrizaje quedan registrados en el **Diario de la Aer
 * **Chequeos**: CB-SIFT-CBE antes de despegar, FUSTALL/WULF en viento en cola. Lee, comprueba y confirma; nunca de memoria.
 * **Diario técnico**: antes de volar, mira que no haya averías pendientes que te afecten. Al acabar, anota tu vuelo y cualquier incidencia.
 :::
-

@@ -1,4 +1,4 @@
-# Información Legal y Licencia {.unnumbered}
+# Información legal y licencia {.unnumbered}
 
 ::: {.licencia}
 ::: {.content-visible when-format="epub"}

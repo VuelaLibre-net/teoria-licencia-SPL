@@ -61,7 +61,7 @@ La salida de una barrena exige una técnica metódica, contraintuitiva y aprendi
 ![Método estándar de recuperación de una barrena (método universal)](imagenes/05-cap06-recuperacion-barrena.png){#fig-05-cap06-recuperacion-barrena}
 
 ::: {.postit}
-**Resumen del Capítulo: Pérdida y Autorrotación**
+**Resumen del capítulo: pérdida y autorrotación**
 
 * **Pérdida (stall)**: el ala se "rinde" al superar el ángulo de ataque crítico (≈ 15-18°). La pérdida comienza en el encastre y progresa hacia las puntas: por eso los alerones conservan algo de autoridad al inicio. Avisos: morro alto, mandos blandos y bataneo; al ceder el ala, cae el morro.
 * **Pérdida acelerada**: en un viraje cerrado (60° → 2g), la velocidad de pérdida sube un 41%. El ala puede entrar en pérdida con el morro en actitud aparentemente normal. El viraje **base-final** en el circuito es el escenario más letal.
@@ -69,4 +69,3 @@ La salida de una barrena exige una técnica metódica, contraintuitiva y aprendi
 * **Barrena (autorrotación)**: pérdida agravada y asimétrica con tres fases: **incipiente** (recuperable antes de un giro), **desarrollada** (movimiento constante) y **recuperación** (cesa la rotación). Cada vuelta cuesta 50-100 m de altura.
 * **Salida de barrena**: consulta siempre el AFM de tu planeador. La secuencia estándar: 1. pie contrario a la rotación (a fondo); 2. palanca al centro y adelante; 3. cuando pare el giro, **neutraliza el pedal** y entonces recupera suavemente del picado.
 :::
-

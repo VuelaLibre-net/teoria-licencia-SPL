@@ -24,7 +24,7 @@ El CofA de las aeronaves EASA tiene validez **ilimitada**: no caduca, siempre qu
 
 ![Certificado de Aeronavegabilidad EASA](imagenes/01-cap02-certificado-aeronavegabilidad.jpg){#fig-01-cap02-cofa-example}
 
-## La "ITV" anual: Certificado de Revisión de Aeronavegabilidad (ARC)
+## La "ITV" anual: certificado de revisión de aeronavegabilidad (ARC)
 
 El **ARC** (**Airworthiness Review Certificate**, Certificado de Revisión de Aeronavegabilidad) confirma que, en un momento dado, alguien revisó la documentación y el estado físico del avión y todo estaba correcto.
 
@@ -66,7 +66,7 @@ Si encuentras algo mal durante la pre-vuelo o durante el vuelo, anótalo en el *
 :::
 
 ::: {.postit}
-**Resumen del Capítulo: Aeronavegabilidad**
+**Resumen del capítulo: aeronavegabilidad**
 
 La aeronavegabilidad es la salud de tu aeronave. Para volar legal y seguro:
 
@@ -75,4 +75,3 @@ La aeronavegabilidad es la salud de tu aeronave. Para volar legal y seguro:
 * **Part-ML**: el marco de mantenimiento de los planeadores; permite al piloto-propietario certificar tareas sencillas. Su desarrollo técnico (AMP, programa mínimo de inspección, AD/SB) está en el **Libro 8**, capítulo 9.
 * **Tu parte**: hacer la inspección pre-vuelo, verificar que la documentación (CofA, ARC, seguro…​) está a bordo y en vigor, y anotar cualquier defecto en el Diario de a bordo.
 :::
-

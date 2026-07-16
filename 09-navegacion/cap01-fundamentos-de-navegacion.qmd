@@ -12,7 +12,7 @@
 > * **Orto, ocaso y vuelo diurno**: dónde está el límite legal de la luz para un planeador.
 > * **Las unidades náuticas**: la milla náutica y el nudo, y cómo pensar en ellas de cabeza.
 
-## El sistema de coordenadas: Latitud y Longitud
+## El sistema de coordenadas: latitud y longitud
 
 Para situarnos en cualquier parte del mundo, utilizamos una red imaginaria de líneas que envuelven la Tierra.
 
@@ -27,7 +27,7 @@ Recuerda siempre esta equivalencia fundamental: **1 minuto de latitud equivale a
 
 ![Sistema de coordenadas terrestres (Latitud y Longitud)](imagenes/09-cap01-coordenadas.jpg){#fig-09-cap01-coordenadas}
 
-## Ortodrómica y Loxodrómica
+## Ortodrómica y loxodrómica
 
 Cuando trazas una línea en el mapa, conviene saber qué estás dibujando en realidad sobre una Tierra que es curva.
 
@@ -71,11 +71,10 @@ En el entorno internacional, y especialmente en España bajo normativa EASA, uti
 Aunque es común ver anemómetros en kilómetros por hora (km/h) en muchos planeadores europeos de diseño clásico, la navegación y las cartas aeronáuticas se basan en millas náuticas y nudos. Aprender a pasar de unos a otros mentalmente es una habilidad muy útil en el hangar.
 
 ::: {.postit}
-**Resumen del Capítulo: Fundamentos de Navegación**
+**Resumen del capítulo: fundamentos de navegación**
 
 * **Coordenadas**: Latitud (Paralelos, N/S) y Longitud (Meridianos, E/W). Recuerda: 1 minuto de Latitud es siempre 1 Milla Náutica. 1 minuto de Longitud varía con la latitud.
 * **Ortodrómica vs Loxodrómica**: La Ortodrómica es la distancia más corta (círculo máximo) pero cambia de rumbo continuamente. La Loxodrómica mantiene el rumbo constante (corta a los meridianos igual) pero es más larga. En distancias de planeador, la diferencia es despreciable.
 * **El Tiempo**: En aviación usamos UTC (Universal Time Coordinated) o "Zulu" para evitar confusiones con los husos horarios locales y cambios de hora.
 * **Unidades**: Acostúmbrate a pensar en Millas Náuticas (NM) y Nudos (kts). Son el estándar internacional y facilitan los cálculos mentales (1 grado de latitud = 60 NM).
 :::
-

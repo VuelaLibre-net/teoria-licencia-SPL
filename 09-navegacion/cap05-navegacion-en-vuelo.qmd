@@ -19,14 +19,14 @@ En la práctica combinamos tres técnicas que se complementan:
 * **Navegación observada**: fijamos la posición reconociendo el terreno (ríos, carreteras, pueblos) y comparándolo con la carta.
 * **Navegación visual**: la combinación de las dos anteriores —calculamos a la estima y **confirmamos** con referencias del terreno— y es la que realmente usamos en vuelo a vela.
 
-## La técnica Mapa-Terreno
+## La técnica mapa-terreno
 
 La regla de oro de la navegación visual es: **nunca busques en el terreno lo que ves en el mapa; busca en el mapa lo que ves en el terreno.**
 
 * **Selecciona referencias grandes**: Autopistas, líneas de costa, grandes lagos o ciudades. Los ríos pequeños pueden ser confusos si serpentean mucho o están secos.
 * **Orientación del mapa**: Vuela siempre con el mapa orientado en el sentido de tu vuelo ("arriba" es hacia donde vas). De esta forma, si ves una montaña a tu izquierda en el terreno, debe estar a la izquierda en tu mapa.
 
-## Triangulación: Saber dónde estás con certeza
+## Triangulación: saber dónde estás con certeza
 
 No confíes en una sola referencia. Para confirmar tu posición, usa la técnica de la triangulación o líneas de posición:
 
@@ -37,7 +37,7 @@ El cruce de esas dos líneas de posición fija tu posición con bastante certeza
 
 ![Técnica de triangulación visual en vuelo](imagenes/09-cap05-triangulacion.jpg){#fig-09-cap05-triangulacion}
 
-## Gestión de la Incertidumbre (UOP)
+## Gestión de la incertidumbre (UOP)
 
 Si en algún momento no estás seguro de tu posición exacta (Uncertainty of Position), mantén la calma y sigue este protocolo:
 
@@ -54,11 +54,10 @@ Si tienes radio y estás en contacto con un servicio ATC, no dudes en preguntar:
 :::
 
 ::: {.postit}
-**Resumen del Capítulo: Navegación en Vuelo**
+**Resumen del capítulo: navegación en vuelo**
 
 * **Referencias Visuales**: Usa objetos grandes, lineales y con contraste (ríos, autopistas, líneas de costa). Oriente la carta siempre en el sentido del vuelo (lo que ves a la derecha en el suelo, a la derecha en el papel).
 * **Triangulación**: No te fíes de una sola referencia. Cruza al menos dos "líneas de posición" (ej. el cruce de una carretera y el eje de una montaña) para saber dónde estás con certeza.
 * **La Regla 1:60**: Si te desvías 1 NM de tu ruta tras haber volado 60 NM, tu error de rumbo es de 1º. Puedes usar esta proporción para corregir el rumbo mentalmente sin transportador.
 * **Incertidumbre de Posición**: Si te pierdes, NO SIGAS VOLANDO A CIEGAS. Mantén el rumbo, busca referencias grandes, confía en tu estima inicial y, si es necesario, vuela hacia un lugar conocido (un río, una costa) o aterriza con seguridad antes de quedarte sin altura.
 :::
-

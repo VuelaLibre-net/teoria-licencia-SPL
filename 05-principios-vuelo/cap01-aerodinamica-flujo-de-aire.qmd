@@ -71,7 +71,7 @@ El efecto suelo puede sorprender al piloto inexperto: el planeador parece no que
 :::
 
 ::: {.postit}
-**Resumen del Capítulo: Aerodinámica y Flujo de Aire**
+**Resumen del capítulo: aerodinámica y flujo de aire**
 
 * **Principio de Bernoulli**: la base del vuelo. El aire se acelera sobre la superficie curva del ala (extradós) y su presión disminuye, generando una fuerza neta hacia arriba. Es la misma sustentación que describe la deflexión del aire hacia abajo (Newton): dos miradas de un único fenómeno, no dos fuerzas que se sumen.
 * **Capa límite**: esa fina capa de aire pegada al ala. Si es **laminar** (ordenada), la resistencia es mínima: el santo grial de los veleros modernos. Si se vuelve **turbulenta**, la resistencia sube, pero el ala sigue sustentando. Solo cuando el flujo se **separa** del perfil la sustentación se desploma: eso es la pérdida.
@@ -79,4 +79,3 @@ El efecto suelo puede sorprender al piloto inexperto: el planeador parece no que
 * **Tipos de resistencia**: **parásita** (roce con el aire, sube con la velocidad) e **inducida** (precio por generar sustentación, baja con la velocidad). La inducida viene de los torbellinos de punta de ala que inclinan el vector de sustentación. Los planeadores la minimizan con alta razón de aspecto (alas largas y estrechas) y winglets en las puntas.
 * **Efecto suelo**: por debajo de una envergadura de altura sobre el terreno, los vórtices de punta se comprimen, la resistencia inducida cae y el planeador "flota" con más eficiencia de la normal. Útil conocerlo: explica por qué en el aterrizaje el planeador no se posa si entras rápido o largo.
 :::
-

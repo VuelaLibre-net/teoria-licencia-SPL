@@ -36,7 +36,7 @@ El resto de los papeles de la aeronave —certificado de matrícula, certificado
 Antes de cada vuelo, verifica los cuatro pilares documentales de la aeronave según **SAO.GEN.155**: **aeronavegabilidad** (certificado de aeronavegabilidad + ARC en vigor), **matrícula** (certificado de matrícula visible), **manual de vuelo** (AFM a bordo) y **pesada y centrado** (dentro de los límites del manual). Si alguno falla, el planeador no vuela.
 :::
 
-## Responsabilidad del Piloto al Mando (PIC)
+## Responsabilidad del piloto al mando (PIC)
 
 El **Piloto al Mando** (PIC) es la máxima autoridad a bordo y el responsable final de la seguridad de la operación, desde el momento en que firma la autorización de vuelo hasta que el planeador queda correctamente asegurado en tierra. Esta responsabilidad no se comparte, no se delega y no tiene excepciones.
 
@@ -170,7 +170,7 @@ Ambas mnemotécnicas (la europea CB-SIFT-CBE y la tradicional CRISE) persiguen e
 :::
 
 ::: {.postit}
-**Resumen del Capítulo: Requisitos generales**
+**Resumen del capítulo: requisitos generales**
 
 * **Los papeles del planeador (SAO.GEN.155)**: antes de cada vuelo verifica los cuatro pilares documentales de la aeronave: aeronavegabilidad (certificado + ARC), matrícula, manual de vuelo (AFM) y pesada y centrado. Si falta alguno, el planeador no vuela.
 * **Tus papeles**: licencia (SPL (Sailplane Pilot Licence)) en vigor, certificado médico vigente, DNI y datos del libro de vuelo (SFCL.045). Si eres alumno, en las travesías en solitario lleva el médico, el DNI y la prueba de la autorización de tu instructor (SFCL.125).
@@ -180,4 +180,3 @@ Ambas mnemotécnicas (la europea CB-SIFT-CBE y la tradicional CRISE) persiguen e
 * **Operaciones en tierra**: comprobación de mandos positiva (PCC) tras cada montaje. Anclaje de cara al viento con cúpulas cerradas. Regla de la cuerda larga (más de media envergadura) para remolcar con coche.
 * **Prevuelo y CB-SIFT-CBE**: inspección prevuelo sistemática de 360 grados. Checklist de cabina estricto CB-SIFT-CBE antes de conectar el cable de lanzamiento.
 :::
-

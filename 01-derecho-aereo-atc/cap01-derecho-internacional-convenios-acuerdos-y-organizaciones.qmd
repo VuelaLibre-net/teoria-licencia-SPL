@@ -65,11 +65,11 @@ Son documentos que ayudan a cumplir la ley sin ser ley en sí mismos. Que no te 
 
 De toda la sopa de letras normativa, hay tres reglamentos que acabarás conociendo de memoria. Son tu marco de referencia diario.
 
-### 1. Part-SFCL (Licencias)
+### 1. Part-SFCL (licencias)
 
 El **Sailplane Flight Crew Licensing** regula todo lo relativo a tu licencia: los requisitos para obtener la SPL (**Sailplane Pilot License**), la experiencia reciente que necesitas para mantenerla, las habilitaciones (TMG, acrobacia, remolque…​) y los privilegios de instructores y examinadores. Nace del Reglamento de Ejecución (UE) 2018/1976 y sus modificaciones, como el 2020/358.
 
-### 2. Part-SAO (Operaciones)
+### 2. Part-SAO (operaciones)
 
 El **Sailplane Air Operations** regula cómo se opera el planeador de forma segura: las responsabilidades del piloto al mando, los documentos que debes llevar a bordo, los procedimientos de emergencia, el transporte de pasajeros y el uso de aeródromos. Sale del mismo reglamento que el Part-SFCL.
 
@@ -86,7 +86,7 @@ SERA.3210 establece las prioridades de paso para evitar colisiones. Un planeador
 :::
 
 ::: {.postit}
-**Resumen del Capítulo: Marco Normativo**
+**Resumen del capítulo: marco normativo**
 
 La "ley del aire" que te permite volar se organiza así:
 
@@ -96,4 +96,3 @@ La "ley del aire" que te permite volar se organiza así:
 * **Estándares no vinculantes** (AMC/GM): no son ley estricta, pero sí la forma estándar y segura de hacer las cosas. Síguelos y no tendrás problemas.
 * Tus normas de cabecera: **Part-SFCL** (tu licencia), **SERA** (cómo volar) y **Part-SAO** (cómo operar tu planeador).
 :::
-

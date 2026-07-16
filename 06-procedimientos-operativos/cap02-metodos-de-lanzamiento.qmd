@@ -187,7 +187,7 @@ No comiences la carrera de despegue sin haber verbalizado o repasado mentalmente
 :::
 
 ::: {.postit}
-**Resumen del Capítulo: Métodos de lanzamiento**
+**Resumen del capítulo: métodos de lanzamiento**
 
 * **Torno (winch)**: aceleración brutal de 0 a 100 en 3 segundos. Si se rompe el cable, lo primero es **bajar el morro** para recuperar velocidad. Solo entonces suelta el cable remanente y decide si aterrizar recto, hacer 180° o un circuito corto, según la altura disponible.
 * **Remolque (aerotow)**: mantén la «posición alta» (rueda del remolcador en el horizonte). Si el remolcador alabea sus alas, es una orden de suelta inmediata: tiene una emergencia. Si no puedes soltar, vuela a un lado y alabea. Si se forma un **cable flojo (slack line)**, corrígelo con un resbale suave o con aerofrenos graduales. Entrena la maniobra **«Boxing the Wake»** a partir de 300 m AGL.
@@ -195,4 +195,3 @@ No comiences la carrera de despegue sin haber verbalizado o repasado mentalmente
 * **Emergency briefing**: briefing mental y verbalizado antes de cada despegue. Define velocidades de seguridad y acciones precisas ante fallos a baja, media y alta altura según el viento.
 * **Comprobaciones previas**: ganchos correctos, velocidades respetadas, mandos libres y comprobación cruzada. Realiza la inspección de cuerdas (sin nudos), anillas dobles Tost compatibles y fusibles de seguridad (**weak links**) de resistencia por código de colores (ej. azul = 600 daN para monoplazas en torno).
 :::
-

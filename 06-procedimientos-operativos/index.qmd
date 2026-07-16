@@ -1,1 +1,1 @@
-# Procedimientos Operativos {.unnumbered .unlisted .oculto}
+# Procedimientos operativos {.unnumbered .unlisted .oculto}

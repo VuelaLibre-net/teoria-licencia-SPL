@@ -10,7 +10,7 @@
 > * Cómo asegurar tu aeronave en tierra y comprobar que nadie la ha manipulado.
 > * Qué artículos están prohibidos a bordo por riesgo para la seguridad.
 
-## Safety vs Security: ¿No es lo mismo?
+## Safety vs security: ¿no es lo mismo?
 
 En español usamos "seguridad" para todo, pero en aviación conviven dos conceptos muy distintos (@fig-01-cap12-safety-vs-security):
 
@@ -38,7 +38,7 @@ Si ves a alguien merodeando por los hangares, manipulando aviones ajenos o compo
 :::
 
 ::: {.postit}
-**Resumen del Capítulo: Seguridad (Security)**
+**Resumen del capítulo: seguridad (Security)**
 
 Ojo a la diferencia en inglés:
 
@@ -46,4 +46,3 @@ Ojo a la diferencia en inglés:
 * **SECURITY**: seguridad física. Que no te roben el avión ni pongan una bomba.
 * **Tu deber**: no dejar el avión abierto o accesible a desconocidos, no llevar mercancías peligrosas (salvo excepciones aprobadas) y respetar las zonas restringidas de los aeropuertos.
 :::
-

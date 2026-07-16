@@ -112,7 +112,7 @@ El aterrizaje fuera de campo se realiza amparado por el estado de necesidad de l
 * **Trato diplomático:** cuando el agricultor o el dueño de la finca se presente, muéstrate educado y agradecido. Explica con calma que se ha tratado de un aterrizaje preventivo por falta de sustentación (una situación normal y segura) y que no tenías motor para regresar. La inmensa mayoría de las personas son comprensivas si se les trata con cortesía y respeto por su propiedad.
 
 ::: {.postit}
-**Resumen del Capítulo: Aterrizaje fuera de campo**
+**Resumen del capítulo: aterrizaje fuera de campo**
 
 * **La decisión (600/450/300 m)**: a 600 m sobre el terreno, elige la zona; a 450 m, el campo; a 300 m, comprométete con el circuito y olvida las térmicas. Retrasar esta decisión buscando un «milagro rasante» es la causa número 1 de accidentes graves.
 * **Selección del campo (7 S)**: tamaño, forma, pendiente, superficie, alrededores, animales y sol. Un campo grande, llano, con viento en cara y sin obstáculos en la aproximación es tu seguro de vida.
@@ -120,4 +120,3 @@ El aterrizaje fuera de campo se realiza amparado por el estado de necesidad de l
 * **En tierra**: frena a fondo. Es mejor romper el tren en un surco que intentar flotar sobre un obstáculo y entrar en pérdida a tres metros del suelo.
 * **Procedimientos post-toma**: asegura el planeador contra el viento (pesos en planos, cúpula cerrada, fundas de pitot), transmite tus coordenadas GPS exactas, permanece junto a la aeronave si estás en zona aislada (usa la tela del paracaídas como refugio) y mantén un trato respetuoso y educado con el agricultor.
 :::
-

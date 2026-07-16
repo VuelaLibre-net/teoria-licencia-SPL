@@ -81,7 +81,7 @@ Si tu calculador de planeo dice que llegas "justo", en realidad **no llegas**. E
 :::
 
 ::: {.postit}
-**Resumen del Capítulo: Polar de Velocidades y MacCready**
+**Resumen del capítulo: polar de velocidades y MacCready**
 
 * **La polar**: es tu curva de rendimiento. Conócela: te da la velocidad para aguantar más tiempo en el aire (mínimo descenso) y la velocidad para llegar más lejos (máximo planeo).
 * **Efecto del peso**: el lastre desplaza la polar a la derecha y abajo. El planeo máximo no cambia, pero se vuela a más velocidad; el mínimo descenso empeora. El agua es para días fuertes.
@@ -90,4 +90,3 @@ Si tu calculador de planeo dice que llegas "justo", en realidad **no llegas**. E
 * **IAS vs TAS**: la polar se vuela en IAS, pero en altura la TAS es mayor (~2 % por cada 300 m). Recorres más terreno del que crees y la V~NE~ indicada disminuye con la altitud (flutter): consulta la tabla del AFM antes de volar en onda.
 * **Planeo final**: calcula la llegada con margen. Es mejor llegar a 200 m sobre el campo y usar los frenos que pasar a ras de los árboles rezando por una burbuja.
 :::
-

@@ -49,7 +49,7 @@ A veces el espacio es Clase G, libre, pero la autoridad quiere un poco de orden 
 Si ves una RMZ en el mapa, no entres mudo. Llama a la frecuencia indicada e informa: "Juliana Información, EC-OJE, planeador, entrando en RMZ sector norte…​".
 :::
 
-## Zonas Prohibidas, Restringidas y Peligrosas
+## Zonas prohibidas, restringidas y peligrosas
 
 El espacio aéreo puede tener "candados" por seguridad o defensa, marcados con códigos como LER71:
 
@@ -64,7 +64,7 @@ Infringir una zona P o R activa puede llevar a sanciones graves e incluso a la i
 :::
 
 ::: {.postit}
-**Resumen del Capítulo: Espacio Aéreo**
+**Resumen del capítulo: espacio aéreo**
 
 El cielo está dividido en "cajones" con distintas reglas. No entres sin permiso donde no debes:
 
@@ -73,4 +73,3 @@ El cielo está dividido en "cajones" con distintas reglas. No entres sin permiso
 * **Autorizaciones ATC**: una autorización o instrucción no elimina la responsabilidad del piloto al mando. Si no puedes cumplirla con seguridad, comunícalo de inmediato y coordina una alternativa segura.
 * **Zonas especiales**: en una **RMZ** es obligatorio llevar radio y contactar; en una **TMZ**, llevar el transponder encendido y mantener escucha en la frecuencia apropiada.
 :::
-

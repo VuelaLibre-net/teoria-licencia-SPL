@@ -2,7 +2,7 @@
 
 > En cuanto sales del circuito y te metes en ruta, las reglas cambian un poco. Aquí verás cómo usar el Servicio de Información de Vuelo (FIS), cómo cambiar de frecuencia sin desaparecer del radar y qué hacer con el transpondedor y las zonas de radio obligatoria.
 
-## Servicio de Información de Vuelo (FIS)
+## Servicio de información de vuelo (FIS)
 
 En ruta por espacio aéreo no controlado —Clase G en su mayor parte— no hay ninguna Torre mirándote. Pero tienes una herramienta útil: el **Servicio de Información de Vuelo (FIS)** (*Flight Information Service*).
 
@@ -58,10 +58,9 @@ Las RMZ están reguladas por el Reglamento SERA y permiten al Estado miembro est
 :::
 
 ::: {.postit}
-**Resumen del Capítulo: Comunicaciones en Ruta**
+**Resumen del capítulo: comunicaciones en ruta**
 
 * **Servicio de Información de Vuelo (FIS)**: Es un servicio de asesoramiento, no de control. Te informan sobre tráficos y meteorología (si tienen carga de trabajo), pero la separación sigue siendo tu responsabilidad. "Para información, contacto con Madrid Información…​".
 * **Cambio de Frecuencia**: Nunca te "esfumes" de una frecuencia controlada o de información. Solicita el cambio o avisa de que abandonas la frecuencia. "Madrid, EC-DPE para pasar a frecuencia de club 123.500".
 * **Transpondedor en ruta**: Si dispones de transpondedor, código VFR por defecto: **7000**. Emergencias: **7700** (emergencia activa — **Mayday**) y **7600** (fallo de radio — ver cap. 7). Solo usar ante la emergencia real.
 :::
-

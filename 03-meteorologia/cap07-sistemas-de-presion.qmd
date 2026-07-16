@@ -25,7 +25,7 @@ No todos los anticiclones son iguales. Según su mecanismo de formación se dist
 Para planificar el vuelo del día, mira el mapa sinóptico la noche anterior: si España está bajo una dorsal o anticiclón (H), planifica vuelo de distancia; si hay una vaguada o borrasca acercándose, no planifiques. El movimiento de las isobaras te da 24-48 horas de margen para decidir con criterio.
 :::
 
-## Borrascas o Depresiones (L)
+## Borrascas o depresiones (L)
 
 Las **borrascas** (representadas con 'L' de **Low** o 'B') son áreas de baja presión: zonas donde la presión es un **mínimo relativo respecto a su entorno**, con las isobaras cerradas alrededor del núcleo. Lo que las define es esa relación con lo que las rodea, no un umbral absoluto: existen borrascas con núcleo por encima de 1.013 hPa y anticiclones (sobre todo térmicos) con periferia por debajo de ese valor.
 
@@ -37,7 +37,7 @@ En el hemisferio norte, las borrascas giran en sentido **antihorario**. Sus isob
 Nunca salgas con previsión de borrasca activa en aproximación. Las condiciones VFR pueden degradarse rápidamente: nubosidad baja, visibilidad reducida y ráfagas que complican el aterrizaje. Cancela antes de salir si el mapa sinóptico muestra una depresión activa a menos de 500 km de tu zona de vuelo.
 :::
 
-## Vaguadas y Dorsales: isobaras irregulares
+## Vaguadas y dorsales: isobaras irregulares
 
   Los anticiclones y las borrascas no son siempre círculos perfectos: a menudo emiten "brazos" que se extienden por el mapa en forma de lengua.
 
@@ -68,11 +68,10 @@ Cuando el mapa sinóptico muestre un collado centrado sobre tu zona de vuelo, no
 : Sistemas de presión sinópticos y su implicación operativa para el planeador
 
 ::: {.postit}
-**Resumen del Capítulo: Sistemas de Presión**
+**Resumen del capítulo: sistemas de presión**
 
 * **Anticiclones (H)**: Zonas de alta presión donde el aire baja (subsidencia) y se seca. Garantizan estabilidad y buen tiempo, pero en invierno atrapan nieblas y contaminación. El viento gira en sentido horario (H. Norte).
 * **Borrascas (L)**: Zonas de baja presión donde el aire sube y condensa. Son fábricas de nubes, frentes y viento. El viento gira en sentido antihorario (H. Norte).
 * **Vaguadas y Dorsales**: Una vaguada es una "lengua" de baja presión (mal tiempo estirado); una dorsal es una "lengua" de alta presión (buen tiempo estirado).
 * **Collado**: Zona neutra entre dos altas y dos bajas cruzadas. Es como un pantano barométrico: vientos flojos, dirección variable y probabilidad de nieblas o tormentas estáticas en verano.
 :::
-

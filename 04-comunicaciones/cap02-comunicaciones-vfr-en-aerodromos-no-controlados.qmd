@@ -123,7 +123,7 @@ Antes de subir al planeador, acuerda siempre con el piloto remolcador la altitud
 :::
 
 ::: {.postit}
-**Resumen del Capítulo: Aeródromos No Controlados**
+**Resumen del capítulo: aeródromos no controlados**
 
 * **Autoinformación**: En el campo sin torre, tú eres el controlador. Transmite «al aire» tu posición e intenciones. «Fuentemilanos, velero EC-BRT, viento en cola pista 34».
 * **Ver y Evitar**: La radio ayuda, pero tus ojos mandan. No asumas que todos tienen radio o te han escuchado. Busca activamente otros tráficos.
@@ -131,4 +131,3 @@ Antes de subir al planeador, acuerda siempre con el piloto remolcador la altitud
 * **Circuito Estándar**: Si nadie indica lo contrario, el circuito es a izquierdas. Notifica: entrada, viento en cola, base y final.
 * **Lanzamiento (torno/remolcador)**: Con torno: «Listo tensando» → «Remolcando x3» → «Cable libre». Abortar: «Stop torno x3». Fallo bajo (por debajo de 150 m en torno): recto al frente, nunca regreses virando.
 :::
-

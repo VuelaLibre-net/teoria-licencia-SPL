@@ -11,7 +11,7 @@
 > * **El plan de vuelo (FPL)**: cuándo es obligatorio, su ciclo de vida y por qué hay que cerrarlo al aterrizar.
 > * **Los espacios aéreos especiales**: qué te exigen y qué servicios recibes en cada clase.
 
-## ATC vs. FIS: ¿Quién es quién?
+## ATC vs. FIS: ¿quién es quién?
 
 Conviene tener clara la diferencia entre "el control" y "la información":
 
@@ -22,7 +22,7 @@ Conviene tener clara la diferencia entre "el control" y "la información":
 Llamar a los servicios FIS (como Madrid o Barcelona Información) es una excelente práctica. Además de darte tranquilidad, si tienes que realizar un aterrizaje en campo, ellos sabrán tu última posición conocida y podrán coordinar ayuda si fuera necesario.
 :::
 
-## El Transpondedor: Hazte visible
+## El transpondedor: hazte visible
 
 El transpondedor es el equipo que permite a los radares del ATC "verte" e identificar tu altitud.
 
@@ -35,7 +35,7 @@ El transpondedor es el equipo que permite a los radares del ATC "verte" e identi
 Si tu transpondedor está instalado y operativo, la práctica correcta es **mantenerlo encendido y en modo "ALT"** (transmisión de altitud) para que el radar te vea. Su uso es **obligatorio en las zonas de uso de transpondedor (TMZ) y allí donde lo exijan la clase de espacio aéreo o el AIP-España (ENR 1.6)** —las clases A y C lo requieren, y la D generalmente; véase la tabla del **Libro 1 — Derecho aéreo**, capítulo 7—, y muy recomendable en cualquier espacio con tráfico. Solo en planeadores con batería muy limitada cabe valorar apagarlo fuera de esos espacios, y siempre como decisión deliberada: **nunca en una TMZ, en espacio controlado ni en zonas de tráfico intenso**.
 :::
 
-## El Plan de Vuelo (FPL)
+## El plan de vuelo (FPL)
 
 El Plan de Vuelo (FPL) es tu contrato de seguridad con el sistema. En él indicas quién eres, qué planeador vuelas, tu ruta y cuánta autonomía tienes.
 
@@ -47,7 +47,7 @@ El plan no es un papel que se entrega y se olvida. Tiene un ciclo de vida con cu
 
 ![Interacción con el control de tráfico aéreo](imagenes/09-cap07-atc.jpg){#fig-09-cap07-control-aereo}
 
-## Operando en Espacios Especiales
+## Operando en espacios especiales
 
 No todas las zonas del cielo son iguales:
 
@@ -61,11 +61,10 @@ Resumen de servicios al VFR según **SERA.8001**: en **C y D** hay autorización
 :::
 
 ::: {.postit}
-**Resumen del Capítulo: Uso de los ATS**
+**Resumen del capítulo: uso de los ATS**
 
 * **Dependencias**: El ATC (Control) gestiona aeródromos y espacios controlados. El FIS (Información) te ayuda en ruta con meteo y tráfico. Mantén contacto con FIS cuando sea posible; es una capa extra de seguridad.
 * **Transpondedor**: Es tu visibilidad para el radar. En VFR pon 7000. Si tienes una emergencia: 7700. Si pierdes la radio: 7600. Si está operativo, llévalo encendido y en ALT (obligatorio en TMZ y donde lo exija la clase de espacio aéreo — AIP ENR 1.6); vigila el consumo de batería.
 * **Plan de Vuelo**: Fundamental para que te busquen si no llegas. Se activa al despegar y **ES OBLIGATORIO notificar tu llegada** a la dependencia ATS del aeródromo de destino tan pronto como sea posible (SERA).
 * **Espacios Aéreos**: Conoce dónde estás. En Clase C o D necesitas autorización radio. En Clase G eres libre, pero el FIS sigue estando ahí para ayudarte.
 :::
-

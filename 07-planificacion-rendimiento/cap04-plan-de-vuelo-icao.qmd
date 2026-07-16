@@ -69,7 +69,7 @@ Nunca te vayas a casa sin confirmar que tu plan de vuelo está cerrado. Si aterr
 :::
 
 ::: {.postit}
-**Resumen del Capítulo: Plan de Vuelo ICAO**
+**Resumen del capítulo: plan de vuelo ICAO**
 
 * **¿Cuándo es obligatorio?**: al cruzar fronteras, cuando se te presta servicio de control (clases B, C y D; en la E el VFR vuela sin plan, sin radio y sin autorización), desde o hacia aeródromos controlados, en VFR nocturno fuera de las inmediaciones del aeródromo y cuando lo exija la autoridad ATS. Muy recomendable en vuelos de distancia para activar los servicios de alerta (SAR).
 * **Casillas clave**: velocidad (casilla 15): tu media de crucero, con **K** para km/h (K0120) o **N** para nudos (N0065). Destino fuera de aeródromo: ZZZZ en la casilla 16 y el detalle con coordenadas en la 18. Casilla 19: autonomía hasta la puesta de sol, personas a bordo, ELT/PLB y equipo de supervivencia; es lo que usará el SAR.
@@ -77,4 +77,3 @@ Nunca te vayas a casa sin confirmar que tu plan de vuelo está cerrado. Si aterr
 * **Motoveleros (TMG)**: si vuelas un TMG como avión de turismo, sigues las mismas reglas que una avioneta: declara autonomía de combustible real, no solar.
 * **Cierre del plan**: si aterrizas en un campo y te vas a cenar sin cerrar el plan, se activa una operación de búsqueda y rescate. Llama a la oficina de notificación de los servicios de tránsito aéreo (ARO) o a la torre en cuanto tengas cobertura.
 :::
-

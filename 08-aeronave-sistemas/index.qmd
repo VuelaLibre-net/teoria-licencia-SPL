@@ -1,1 +1,1 @@
-# Conocimientos Generales de la Aeronave {.unnumbered .unlisted .oculto}
+# Conocimientos generales de la aeronave {.unnumbered .unlisted .oculto}

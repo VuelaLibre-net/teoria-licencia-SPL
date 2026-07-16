@@ -124,7 +124,7 @@ Durante la fase final de aproximación y la toma de tierra, a bajas velocidades,
 ![Oscilación inducida por el piloto (PIO): correcciones desfasadas que se amplifican](imagenes/06-cap04-pio-cabeceo.png){#fig-06-cap04-pio-cabeceo}
 
 ::: {.postit}
-**Resumen del Capítulo: Circuitos y aterrizaje**
+**Resumen del capítulo: circuitos y aterrizaje**
 
 * **Circuito estándar**: cuatro tramos —cruzado, viento en cola, base y final— con alturas de referencia: 250-300, 200-300 y 150 metros hasta la toma. El circuito no es un ritual, es un gestor de energía.
 * **FUSTALL en el viento en cola**: **Flaps**, **Undercarriage** (tren fuera y blocado), **Speed** (velocidad de aproximación), **Trim**, **Airbrakes** (aerofrenos libres y cerrados), **Landing area** (viento y tráfico), **Land**. Lastre de agua vaciado antes de entrar al circuito. Hazlo siempre en el mismo punto del recorrido.
@@ -133,4 +133,3 @@ Durante la fase final de aproximación y la toma de tierra, a bajas velocidades,
 * **Resbale lateral (sideslip)**: método de descenso rápido de emergencia cruzando mandos. Recuerda: **ala baja al viento**, actitud visual de morro bajo (el anemómetro no es fiable por el flujo cruzado) y salida relajando primero la palanca.
 * **Viento de cola y PIOs**: en tomas con viento de cola, ignora la velocidad visual del suelo (evita pérdidas de sustentación) y prepárate para un rodaje largo. Si el velero oscila en cabeceo (**PIO**) cerca del suelo, congela la palanca y deja actuar su estabilidad estática.
 :::
-

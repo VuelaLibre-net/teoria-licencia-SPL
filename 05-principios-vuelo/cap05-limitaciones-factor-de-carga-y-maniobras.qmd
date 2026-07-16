@@ -56,7 +56,7 @@ La velocidad de pérdida aumenta con el factor de carga. En un viraje de 60º (2
 :::
 
 ::: {.postit}
-**Resumen del Capítulo: Limitaciones y Maniobras**
+**Resumen del capítulo: limitaciones y maniobras**
 
 * **Diagrama V-n**: el mapa de seguridad de tu estructura. Muestra los Gs que aguantas a cada velocidad. Salirte de la "caja" significa romper el planeador. Límites CS-22: cat. U +5,3g / −2,65g en V~A~, que se estrechan a +4,0g / −1,5g en V~D~; cat. A +7,0g / −5,0g.
 * **Velocidad de maniobra (V~A~)**: la velocidad "segura" para turbulencia o mandazos individuales. Si vas más lento de V~A~, el planeador entrará en pérdida antes de romperse. Si vas más rápido, una deflexión brusca puede dañar la estructura. Pero cuidado: la V~A~ no protege de entradas combinadas simultáneas en más de un eje. En turbulencia fuerte, quédate en el arco verde del anemómetro.
@@ -64,4 +64,3 @@ La velocidad de pérdida aumenta con el factor de carga. En un viraje de 60º (2
 * **VNE (velocidad de nunca exceder)**: la **línea roja** del anemómetro (CS 22.1505). No es una recomendación, es un límite físico. Pasarla invita al **flutter** (vibración aeroelástica), que puede desintegrar el planeador en segundos. Cerca de la VNE, limita las deflexiones de mando a un tercio de su recorrido.
 * **Factor de carga y pérdida**: las Gs "engordan" al planeador. En un viraje de 60° (2 Gs), la velocidad de pérdida sube un 41%.
 :::
-

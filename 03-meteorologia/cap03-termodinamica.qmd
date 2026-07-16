@@ -6,7 +6,7 @@
 > a reconocer una inversión térmica y a leer los índices de sondeo que predicen si el día será
 > excelente o decepcionante para volar.
 
-## Estabilidad Atmosférica: El Combustible del Vuelo a Vela
+## Estabilidad atmosférica: el combustible del vuelo a vela
 
   La estabilidad de la atmósfera define cómo se comporta una masa de aire (una "burbuja" o parcela) cuando es empujada hacia arriba. El vuelo sin motor vive fundamentalmente de la inestabilidad (@fig-03-cap03-estabilidad).
 
@@ -18,7 +18,7 @@ Podemos entenderlo imaginando una pelota en diferentes relieves:
 
 ![Aire inestable (A) y estable (B) para unos 3000 pies (unos 1000m).](imagenes/03-cap03-estabilidad.jpg){#fig-03-cap03-estabilidad}
 
-## Gradientes Adiabáticos y la Base de las Nubes
+## Gradientes adiabáticos y la base de las nubes
 
    Cuando una burbuja de aire asciende impulsada por la convección, se expande a medida que encuentra menor presión atmosférica en altura. Esta expansión provoca que se enfríe de forma interna (proceso adiabático), sin intercambiar calor con el aire exterior. El ritmo al que se enfría depende de si el aire está seco o saturado de humedad.
 
@@ -39,7 +39,7 @@ Para aplicar la fórmula, sigue estos pasos antes de cada vuelo:
 
 ![Cálculo gráfico de la base de los cúmulos: gradiente DALR, punto de rocío y Nivel de Condensación por Ascenso (NCA)](imagenes/03-cap03-base-cumulos-dalr-nca.jpg){#fig-03-cap03-base-cumulos-dalr-nca}
 
-## Inversiones Térmicas: La Tapadera Invisible
+## Inversiones térmicas: la tapadera invisible
 
 Normalmente la temperatura disminuye con la altitud, pero en ocasiones ocurre lo contrario: encontramos capas donde **la temperatura del aire aumenta a medida que subimos**. A esto se le llama una inversión térmica.
 
@@ -49,7 +49,7 @@ Una inversión térmica actúa como una tapadera o techo de cristal. Debido a qu
 Las inversiones no solo limitan la altura máxima a la que puedes trepar en un planeador, frenando la convección por completo, sino que también atrapan humo, bruma y humedad industrial cerca de la superficie, reduciendo drásticamente la visibilidad en vuelo por debajo de la capa de inversión.
 :::
 
-## Convección: El Transporte Vertical de Calor
+## Convección: el transporte vertical de calor
 
 La convección es el proceso por el cual el calor se transporta verticalmente en la atmósfera, y es el mecanismo exacto que forma las térmicas.
 
@@ -168,11 +168,10 @@ TT > 55 o K > 25 combinado con CAPE > 2.500 J/kg señala alto riesgo de tormenta
 
 
 ::: {.postit}
-**Resumen del Capítulo: Termodinámica**
+**Resumen del capítulo: termodinámica**
 
 * **Estabilidad Atmosférica**: Concepto clave. El aire es "estable" si una burbuja empujada hacia arriba tiende a volver a bajar, e "inestable" si sigue subiendo sola. El vuelo a vela vive de la inestabilidad.
 * **Gradientes Adiabáticos**: El aire seco se enfría 3°C por cada 1.000 ft al subir (DALR). El aire saturado (nube) se enfría solo la mitad, 1,5°C (SALR). Memoriza esto para predecir la base de las nubes y su desarrollo.
 * **Inversiones**: Son capas donde la temperatura **sube** con la altura en lugar de bajar. Actúan como una tapadera invisible que frena las térmicas y atrapa la contaminación/bruma.
 * **Convección**: El sol calienta el suelo, el suelo calienta el aire, y este sube como una burbuja (modelo burbuja) o como una pluma continua (modelo columna). Cuanto más frío esté el aire arriba en comparación con el suelo, más fuerte será la térmica.
 :::
-

@@ -20,12 +20,12 @@ La mayoría de los receptores modernos combinan señales de varias constelacione
 * **Galileo**: El sistema europeo, más reciente y con mayor precisión civil.
 * **GLONASS**: El sistema ruso.
 
-### El Datum WGS-84
+### El datum WGS-84
 
 Para que el GPS y la carta de papel se entiendan, deben usar el mismo "idioma" geográfico o **Datum**. El estándar mundial que usamos es el **WGS-84**. Asegúrate siempre de que tu dispositivo está configurado en este sistema; un datum incorrecto podría desplazar tu posición real varios cientos de metros respecto a lo que ves en pantalla.
 
 ::: {.mas-alla}
-## Los Registradores IGC (Loggers)
+## Los registradores IGC (loggers)
 
 [**↗ MÁS ALLÁ DEL EXAMEN.**]{.mas-alla-tag} Los registradores IGC y la validación de récords y medallas FAI no deberían ser materia de examen. Se incluyen como iniciación al vuelo deportivo de distancia; no los estudies con la prioridad del resto del temario.
 
@@ -38,7 +38,7 @@ Los equipos modernos integran el GNSS con un **mapa móvil** que muestra ruta, e
 ![Dispositivo GNSS moderno integrado en el panel de un planeador](imagenes/09-cap06-gnss-cabina.jpg){#fig-09-cap06-gnss-cabina}
 :::
 
-## Limitaciones y Conciencia Situacional
+## Limitaciones y conciencia situacional
 
 El GPS puede fallar. Y fallará en el momento más inoportuno.
 
@@ -57,11 +57,10 @@ Lleva siempre una **fuente de respaldo** (backup). Si confías en una tablet, te
 :::
 
 ::: {.postit}
-**Resumen del Capítulo: Uso del GNSS (GPS)**
+**Resumen del capítulo: uso del GNSS (GPS)**
 
 * **Ayuda, no sustituto**: El GPS es una herramienta fabulosa para la conciencia situacional, pero nunca debe sustituir a la navegación visual y a la carta. Las baterías fallan, las señales se pierden y los dispositivos se cuelgan.
 * **Fuentes de Error**: El GPS puede fallar por falta de satélites (necesitas 4 para posición 3D), interferencias o errores en la base de datos. Verifica siempre que el destino y las coordenadas son correctos.
 * **Backup**: Lleva siempre una carta de papel y una brújula. Si el GPS muere en medio de un vuelo de distancia, debes ser capaz de volver a casa "a la vieja usanza".
 * **Configuración**: Asegúrate de que tu datum (usualmente WGS84) y las unidades (NM, kts, m) coinciden con tu planificación y con lo que esperas ver en los instrumentos.
 :::
-

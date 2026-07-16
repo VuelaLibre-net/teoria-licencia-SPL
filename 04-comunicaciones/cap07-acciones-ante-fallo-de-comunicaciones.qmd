@@ -27,7 +27,7 @@ Si no tienes más remedio que aterrizar en un aeródromo controlado, acércate a
 
 ![Señales con pistola de luces desde la Torre de Control](imagenes/04-cap07-senales-luces.jpg){#fig-04-cap07-pistola-luces}
 
-## Señales luminosas de la Torre (Reglamento SERA)
+## Señales luminosas de la torre (Reglamento SERA)
 
 Desde los primeros aeródromos, las torres de control tienen focos direccionales con filtros de color —la «pistola de luces»— precisamente para esto: guiar a aeronaves sin radio (@fig-04-cap07-pistola-luces). Memoriza estas señales. Si algún día las necesitas, no habrá tiempo para buscarlas.
 
@@ -74,4 +74,3 @@ Transmite cada mensaje completo dos veces: sin acuse de recibo, la repetición e
 * **Señales de luces (SERA)**: *Verde fija* (vuelo) = autorizado a aterrizar. *Roja fija* (vuelo) = ceda el paso. *Destellos rojos* (vuelo) = aeródromo peligroso. *Destellos verdes* (vuelo) = regrese para aterrizar. *Destellos blancos* (vuelo) = aterrice en este aeródromo. Las señales equivalentes en tierra tienen significados distintos: *verde fija* = autorizado para despegar; *destellos verdes* = autorizado para rodar.
 * **Transmisión a ciegas**: Si solo falla el receptor, transmita posición e intenciones en la frecuencia correcta precediendo el mensaje con «Transmitiendo a ciegas debido a fallo del receptor». Repítalo en cada cambio de tramo.
 :::
-

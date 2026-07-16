@@ -11,7 +11,7 @@
 > * **La simbología**: espacios aéreos, zonas P/R/D, obstáculos y la diferencia entre AMSL y AGL.
 > * **El relieve y la Altitud Mínima de Área (AMA)**: la red de seguridad que te da la carta sobre el terreno.
 
-## La Proyección Conforme de Lambert
+## La proyección conforme de Lambert
 
 Representar una superficie esférica sobre un papel plano siempre introduce deformaciones, y cada familia de proyecciones decide qué sacrificar. Las **cilíndricas** (como la Mercator/UTM) mantienen los rumbos como líneas rectas pero deforman mucho las distancias al alejarse del ecuador; las **azimutales** proyectan sobre un plano tangente; y las **cónicas**, sobre un cono. La aviación en latitudes medias eligió la cónica conforme de **Lambert**.
 
@@ -21,7 +21,7 @@ Para nosotros, tiene dos ventajas clave:
 * **Escala constante**: Podemos usar una regla de navegación en cualquier parte de la carta y la medida será fiable.
 * **Líneas rectas**: Una línea recta trazada en esta carta se aproxima mucho a un círculo máximo (ortodrómica), que es la ruta más corta sobre la Tierra.
 
-## Entendiendo la Escala
+## Entendiendo la escala
 
 La escala estándar que manejamos es **1:500.000**. Esto significa que cualquier distancia medida sobre el papel es 500.000 veces mayor en la realidad.
 
@@ -31,7 +31,7 @@ Para facilitar el cálculo mental en cabina, recuerda:
 
 Con una simple regla de navegación medimos sobre la carta y trasladamos la distancia al terreno; la barra de escala de la @fig-09-cap03-carta-enaire permite hacerlo de un vistazo.
 
-## Simbología y Espacios Aéreos
+## Simbología y espacios aéreos
 
 Una carta viene cargada de información, y parte del oficio es saber filtrarla. Lo que más nos interesa a los pilotos de planeador es esto:
 
@@ -43,7 +43,7 @@ Una carta viene cargada de información, y parte del oficio es saber filtrarla. 
 Presta especial atención a los tendidos de alta tensión y los parques eólicos, especialmente si estás planificando un posible aterrizaje en campo. En la carta se representan con líneas negras finas con marcas transversales o símbolos de aspas.
 :::
 
-## El relieve y la Altitud Mínima de Área (AMA)
+## El relieve y la altitud mínima de área (AMA)
 
 El terreno se representa mediante **tintas hipsométricas** (cambios de color: verde para valles, marrones para montañas) y curvas de nivel.
 
@@ -56,11 +56,10 @@ La AMA garantiza una separación mínima de **1000 pies** (o 2000 pies en zonas 
 :::
 
 ::: {.postit}
-**Resumen del Capítulo: Cartas Aeronáuticas**
+**Resumen del capítulo: cartas aeronáuticas**
 
 * **Proyección Lambert**: Es la estándar para cartas VFR (1:500.000). Es "conforme" (mantiene las formas) y una línea recta es una ortodrómica (ruta más corta). La escala es prácticamente constante entre los dos paralelos estándar de la proyección (la zona útil de la carta).
 * **Simbología**: Debes leer una carta con fluidez. Conoce los símbolos de obstáculos (la cifra sin paréntesis es la altitud sobre el nivel del mar —AMSL—; la que va entre paréntesis es la altura sobre el terreno —AGL—), los espacios aéreos (clases A a G) y las zonas P/R/D (prohibida, restringida, peligrosa), además de los aeródromos.
 * **Escala**: 1:500.000 significa que 1 cm en el papel son 5 km en la realidad.
 * **Elevaciones**: Las tintas hipsométricas (colores del terreno) te dan una idea rápida del relieve. La **Altitud Mínima de Área (AMA)** —no "cota máxima"— es el número grande en cada recuadro. Proporciona separación mínima de 1000 ft sobre el obstáculo más alto de esa zona.
 :::
-

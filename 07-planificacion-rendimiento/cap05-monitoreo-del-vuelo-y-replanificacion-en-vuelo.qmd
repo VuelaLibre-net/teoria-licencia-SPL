@@ -79,7 +79,7 @@ Si tu ordenador de vuelo indica que llegas con 0 metros, **no llegas**. Ese cál
 :::
 
 ::: {.postit}
-**Resumen del Capítulo: Monitoreo y Replanificación**
+**Resumen del capítulo: monitoreo y replanificación**
 
 * **Cono de alcance**: visualiza el cono bajo el planeador; lo que queda fuera es inalcanzable. Ten siempre una opción de aterrizaje segura dentro del cono.
 * **Cálculo mental**: 1 km de altura da 20-30 km de alcance, según el viento y el avión; con viento de cara fuerte, divide por dos. Para la deriva: a 100 km/h, cada 10 km/h de viento cruzado pide unos 6° de corrección.
@@ -88,4 +88,3 @@ Si tu ordenador de vuelo indica que llegas con 0 metros, **no llegas**. Ese cál
 * **Factor humano**: hipoxia, deshidratación y fatiga degradan el cálculo mental y retrasan la decisión de aterrizar fuera. Bebe de forma programada, usa oxígeno en vuelos altos y añade margen cuando lleves horas de tarea (detalles en el **Libro 2 — Factores humanos**, capítulo 4).
 * **Altura de seguridad (*safety height*)**: fija un margen intocable para llegar al campo (300 m, por ejemplo). Esa altura es para el circuito, no para planear. Si el calculador dice que llegas con 0 m, no llegas.
 :::
-

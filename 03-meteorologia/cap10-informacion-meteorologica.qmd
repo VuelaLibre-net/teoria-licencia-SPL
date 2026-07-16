@@ -96,10 +96,9 @@ Si a pie de pista la meteorología real difiere del pronóstico favorable —nub
 :::
 
 ::: {.postit}
-**Resumen del Capítulo: Información Meteorológica**
+**Resumen del capítulo: información meteorológica**
 
 * **METAR y TAF**: Tus boletines de cabecera. METAR = foto actual (cada 30 min). TAF = pronóstico (para 9, 24 o 30h). Aprende a descodificarlos fluidamente (CAVOK indica visibilidad ≥10 km y sin nubes por debajo de 5000 ft; FG indica niebla; BR neblina).
 * **Mapas Significativos (SIGWX)**: Muestran frentes, zonas de turbulencia y engelamiento. Cruciales para planificar rutas largas.
 * **Toma de decisiones**: No te fíes de una sola fuente. Cruza datos: mapa de superficie + satélite + previsión local. Si la meteo pinta dudosa, el mejor vuelo es el que se queda en tierra (no-go).
 :::
-
