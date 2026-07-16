@@ -19,15 +19,23 @@ rompe la compilación.
 Cambios ya en `main` —y por tanto en los entregables que compila el CI— a los que todavía no se les
 ha asignado número: el `version:` de `_quarto.yml` no se ha movido.
 
-**Qué releer:** **Los títulos de capítulo tocados y el epígrafe.** El cuerpo del temario no cambia ni
-una línea; los dos se comprueban de un vistazo.
+**Qué releer:** **El capítulo 2 entero, los demás títulos y el epígrafe.** Ni una línea del temario
+cambia de contenido, pero el libro cambia de estructura: los que eran capítulos 2, 3 y 4 son ahora
+las secciones 2.1, 2.2 y 2.3 de un único capítulo «Comunicaciones VFR», y los que eran 5 a 9 pasan a
+ser 3 a 7. Merece hojear el capítulo 2 para confirmar que las tres partes se leen seguidas.
 
 Los títulos de capítulo se comían el paréntesis en inglés que trae el syllabus. El syllabus es la
 raíz del proyecto y el título copia su entrada; sólo se le aplica la norma española de mayúsculas y
-los términos ingleses van en cursiva. El CI lo comprueba ahora en los 78 capítulos de la colección.
+los términos ingleses van en cursiva. El CI lo comprueba ahora en los 76 capítulos de la colección.
 
 ### Cambiado
 
+* **Estructura del libro: de 9 capítulos a 7** — el syllabus agrupa las comunicaciones VFR en la
+  entrada 4.2, con tres subentradas. Ahora el libro hace lo mismo: «Comunicaciones VFR» es el
+  capítulo 2 y aeródromos no controlados, controlados y ATC en ruta son sus secciones 2.1, 2.2 y
+  2.3. Los capítulos 5 a 9 se renumeran a 3 a 7. El índice del libro calca ya el del syllabus.
+  Los tres resúmenes se funden en el del capítulo 2, en tres bloques; sigue habiendo un post-it por
+  capítulo. Las imágenes y sus referencias se renumeran con sus capítulos.
 * **Títulos de `cap01`, `cap06` y `cap08`** — «Definiciones» (el syllabus 4.1 no dice más),
   «Términos de información meteorológica relevantes (VFR)» y «Procedimientos de socorro
   (*distress*) y urgencia (*urgency*)».

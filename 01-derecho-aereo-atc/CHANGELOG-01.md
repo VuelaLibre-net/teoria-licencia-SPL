@@ -29,7 +29,7 @@ AsciiDoc del que viene: «ATM» aparecía en toda la colección únicamente en e
 
 Los títulos de capítulo se comían el paréntesis en inglés que trae el syllabus. El syllabus es la
 raíz del proyecto y el título copia su entrada; sólo se le aplica la norma española de mayúsculas y
-los términos ingleses van en cursiva. El CI lo comprueba ahora en los 78 capítulos de la colección.
+los términos ingleses van en cursiva. El CI lo comprueba ahora en los 76 capítulos de la colección.
 
 ### Cambiado
 
