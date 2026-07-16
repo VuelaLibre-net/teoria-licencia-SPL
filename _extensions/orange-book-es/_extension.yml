@@ -7,6 +7,7 @@ contributes:
     typst:
       include-in-header:
         - glosario.typ
+        - mas-alla.typ
         - postit.typ
         - preliminares.typ
       template-partials:

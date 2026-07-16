@@ -18,6 +18,13 @@ local ENVOLTORIOS = {
   licencia = "licencia",
   colofon = "colofon",
   creditos = "creditos",
+  ["mas-alla"] = "mas-alla",
+}
+
+-- Clase del span -> función de Typst. Los spans pierden la clase igual que los
+-- divs: `[texto]{.mas-alla-tag}` sale como texto pelado.
+local ETIQUETAS = {
+  ["mas-alla-tag"] = "mas-alla-tag",
 }
 
 local function funcion_para(el)
@@ -61,5 +68,25 @@ return {
     blocks:extend(el.content)
     blocks:insert(pandoc.RawBlock("typst", "]"))
     return blocks
+  end,
+
+  -- `.mas-alla-tag` marca la entradilla violeta de las secciones avanzadas.
+  --
+  -- Hace falta por lo mismo que el Div: el escritor de typst descarta la clase
+  -- del span y deja el texto pelado, sin nada a lo que enganchar un estilo.
+  Span = function(el)
+    if el.classes == nil then
+      return nil
+    end
+    for clase, funcion in pairs(ETIQUETAS) do
+      if el.classes:includes(clase) then
+        local inlines = pandoc.List()
+        inlines:insert(pandoc.RawInline("typst", "#" .. funcion .. "["))
+        inlines:extend(el.content)
+        inlines:insert(pandoc.RawInline("typst", "]"))
+        return inlines
+      end
+    end
+    return nil
   end,
 }
