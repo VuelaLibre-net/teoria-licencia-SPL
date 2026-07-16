@@ -149,6 +149,21 @@ jobs:
             echo "::error file=$epub::Iconos de admonition en el cuerpo del EPUB"
             errores=1
           fi
+
+          # Los estilos propios se inyectan con include-in-header. Si alguien los
+          # pasara con la opción `css:` del formato epub, REEMPLAZARÍA la hoja
+          # por defecto de Quarto en vez de sumarse: el EPUB se quedaría sin las
+          # reglas de blockquote, code, h1-h6 o las notas al pie, y seguiría
+          # compilando tan campante. Se comprueba que estén las dos cosas.
+          if ! unzip -p "$epub" 'EPUB/text/ch001.xhtml' 2>/dev/null | grep -q 'FFF9C4'; then
+            echo "::error file=$epub::Sin los estilos propios: el post-it no tendrá fondo amarillo"
+            errores=1
+          fi
+          selectores=$(unzip -p "$epub" 'EPUB/styles/*.css' 2>/dev/null | grep -cE '^[a-zA-Z][^{]*\{')
+          if [ "$selectores" -lt 30 ]; then
+            echo "::error file=$epub::Sólo $selectores selectores en la hoja por defecto (se esperan 40+): ¿se usó 'css:' en vez de include-in-header?"
+            errores=1
+          fi
         done
 
         pdfs=$(ls build/pdf/*.pdf 2>/dev/null | wc -l)
