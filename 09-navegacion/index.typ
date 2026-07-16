@@ -572,6 +572,8 @@
 #show: book.with(
   title: [Navegación],
   author: "VuelaLibre.net",
+  version: "0.8.1",
+  fecha-actualizacion: "16 de julio de 2026",
   lang: "es",
   main-color: brand-color.at("primary", default: blue),
   logo: {
@@ -597,10 +599,6 @@
   counter(math.equation).update(0)
   it
 }
-
-#heading(level: 1, numbering: none)[Navegación]
-<navegación>
-Bienvenido a la versión digitalizada de este manual de formación SPL.
 
 #heading(level: 1, numbering: none)[Información Legal y Licencia]
 <información-legal-y-licencia>
