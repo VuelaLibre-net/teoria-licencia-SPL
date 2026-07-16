@@ -98,6 +98,19 @@ jobs:
             errores=1
           fi
 
+          # La portada lleva "Versión X · <fecha>". Si esos datos se pasaran por
+          # el campo `date`, Quarto intentaría parsearlos como fecha y escribiría
+          # "Invalid Date" en la cubierta, tan tranquilo.
+          portada=$(pdftotext -f 1 -l 1 "$pdf" - 2>/dev/null)
+          if grep -q 'Invalid Date' <<<"$portada"; then
+            echo "::error file=$pdf::'Invalid Date' en la portada: ¿se metió texto libre en el campo 'date'?"
+            errores=1
+          fi
+          if ! grep -qE 'Versión [0-9]+\.[0-9]+' <<<"$portada"; then
+            echo "::error file=$pdf::La portada no lleva la versión del libro"
+            errores=1
+          fi
+
           # Y en negativo: ni rastro de los rótulos por defecto de Quarto.
           if grep -qE 'Chapter [0-9]' <<<"$texto"; then
             echo "::error file=$pdf::Rótulos en inglés ('Chapter N'): se maquetó con el orange-book interno"
