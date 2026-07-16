@@ -11,29 +11,37 @@
 // libro impreso.
 #let dedicatoria(body) = {
   pagebreak(to: "odd")
-  // Centrada verticalmente: mismo muelle arriba que abajo.
-  v(1fr)
-  block(width: 100%, inset: (right: 0.5cm))[
-    #set align(right)
-    #set par(first-line-indent: 0em, justify: false, leading: 0.8em)
-    #set text(size: 1.45em, style: "italic")
-    #body
+  // page() —la función, no el `set`— compone una página con sus propias reglas
+  // sin tocar las del resto del libro. Así se quitan folio y encabezado, que por
+  // convención no llevan las páginas de cortesía. El contador de página sigue
+  // avanzando: la página se cuenta, sólo que no se imprime su número.
+  page(header: none, footer: none, numbering: none)[
+    // Centrada verticalmente: mismo muelle arriba que abajo.
+    #v(1fr)
+    #block(width: 100%, inset: (right: 0.5cm))[
+      #set align(right)
+      #set par(first-line-indent: 0em, justify: false, leading: 0.8em)
+      #set text(size: 1.45em, style: "italic")
+      #body
+    ]
+    #v(1fr)
   ]
-  v(1fr)
 }
 
 // Epígrafe: la cita va en su propia página, más discreta que la dedicatoria y
 // desplazada hacia el primer tercio, que es donde se coloca por convención.
 #let epigrafe(body) = {
   pagebreak(to: "odd")
-  v(1fr)
-  block(width: 100%, inset: (left: 4cm))[
-    #set align(left)
-    #set par(first-line-indent: 0em, justify: false, leading: 0.75em)
-    #set text(size: 1.05em, style: "italic")
-    #body
+  page(header: none, footer: none, numbering: none)[
+    #v(1fr)
+    #block(width: 100%, inset: (left: 4cm))[
+      #set align(left)
+      #set par(first-line-indent: 0em, justify: false, leading: 0.75em)
+      #set text(size: 1.05em, style: "italic")
+      #body
+    ]
+    #v(3fr)
   ]
-  v(3fr)
 }
 
 // Página de créditos (verso de la portada): letra menor que el cuerpo, como es
