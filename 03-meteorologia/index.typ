@@ -429,7 +429,7 @@
 // Logo is handled by orange-book's cover page, not as a page background
 // NOTE: marginalia.setup is called in typst-show.typ AFTER book.with()
 // to ensure marginalia's margins override the book format's default margins
-#import "@preview/orange-book:0.7.1": book, part, chapter, appendices
+#import "@preview/orange-book-es:0.7.1": book, part, chapter, appendices
 
 #show: book.with(
   title: [Meteorología],

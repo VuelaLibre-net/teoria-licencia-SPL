@@ -71,6 +71,6 @@ La migración utiliza una canalización estructurada basada en un analizador de 
 2. **Conversor Python:** El script `tools/import/docbook_to_qmd.py` procesa el XML y delega en manejadores modulares (`tools/import/handlers/`) para traducir títulos, tablas, figuras y callouts.
 3. **Estructura del Libro:**
    - **Preliminares:** Colofón, Dedicatoria y Reconocimientos se separan en archivos unnumbered (`{.unnumbered}`).
-   - **Ordenación Editorial (TOC):** Gracias a una extensión local de `orange-book` en `_extensions/orange-book/`, el contenido preliminar se imprime de forma limpia **antes** del Índice (*TOC*), y la lista de ilustraciones se sitúa **detrás** de este en el PDF.
+   - **Ordenación Editorial (TOC):** Gracias a una extensión local de `orange-book` en `_extensions/orange-book-es/`, el contenido preliminar se imprime de forma limpia **antes** del Índice (*TOC*), y la lista de ilustraciones se sitúa **detrás** de este en el PDF.
    - **Capítulos:** La numeración real comienza en el primer tema académico (`cap01-`).
    - **Apéndices:** El Glosario, la Bibliografía (formateada sin secciones invasivas) y el Syllabus Oficial EASA se configuran como apéndices integrados en la estructura final de Quarto.

@@ -201,6 +201,20 @@ def process_inline_elements(node, ctx):
     result = re.sub(r'list-of::\w+\[\]', '', result)
     return result
 
+def link_extensions(output_dir):
+    """Enlaza las extensiones de Quarto dentro del libro.
+
+    Cada libro es un proyecto Quarto independiente y Quarto sólo busca
+    `_extensions/` dentro del propio proyecto: no sube por el árbol de
+    directorios. Sin este enlace, `orange-book-es` no se encuentra y Quarto
+    maqueta el libro con su orange-book interno, en inglés y sin los parches.
+    """
+    link_path = Path(output_dir) / '_extensions'
+    if link_path.is_symlink() or link_path.exists():
+        return
+    link_path.symlink_to(Path('..') / '_extensions', target_is_directory=True)
+    print(f"  ✓ Extensiones enlazadas en {link_path}")
+
 def generate_quarto_yml(output_dir, title, chapters_list, appendices_list=None):
     """Escribe el fichero de configuración de Quarto."""
     yml_path = Path(output_dir) / '_quarto.yml'
@@ -226,7 +240,7 @@ book:
 {chapters_yaml}{appendices_part}
 
 format:
-  typst:
+  orange-book-es-typst:
     toc: true
     number-sections: true
     keep-typ: true
@@ -263,6 +277,7 @@ def main():
         
     print(f"Iniciando conversión de {xml_path.name} a {output_dir}...")
     output_dir.mkdir(parents=True, exist_ok=True)
+    link_extensions(output_dir)
     
     # Inicializar el contexto de conversión
     ctx = ConverterContext(source_dir, output_dir)

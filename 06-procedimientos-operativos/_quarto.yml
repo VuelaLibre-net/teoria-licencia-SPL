@@ -27,7 +27,7 @@ book:
     - bibliografia.qmd
 
 format:
-  typst:
+  orange-book-es-typst:
     toc: true
     number-sections: true
     keep-typ: true

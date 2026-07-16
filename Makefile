@@ -47,7 +47,7 @@ $(TMP_DIR)/%.xml: $(LIBROS_DIR)/%/index.adoc
 $(PDF_OUT)/%.pdf: %/index.qmd
 	@mkdir -p $(PDF_OUT)
 	@echo "==> [Quarto] Renderizando PDF (Typst) para $*..."
-	quarto render $*/ --to typst
+	quarto render $*/ --to orange-book-es-typst
 	@mv $*/_book/*.pdf $@
 	@echo "✓ PDF generado en $@"
 

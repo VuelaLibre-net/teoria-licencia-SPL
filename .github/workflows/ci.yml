@@ -24,7 +24,7 @@ jobs:
         mkdir -p build/pdf build/epub
         for libro in 01-derecho-aereo-atc 02-factores-humanos 03-meteorologia 04-comunicaciones 05-principios-vuelo 06-procedimientos-operativos 07-planificacion-rendimiento 08-aeronave-sistemas 09-navegacion; do
           echo "==> Renderizando $libro a PDF (Typst)..."
-          quarto render "$libro/" --to typst
+          quarto render "$libro/" --to orange-book-es-typst
           mv "$libro/_book"/*.pdf build/pdf/
           
           echo "==> Renderizando $libro a EPUB..."
