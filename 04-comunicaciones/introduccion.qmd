@@ -6,7 +6,7 @@ La radio paraliza a más alumnos de vuelo que la pérdida aerodinámica. No porq
 
 Una colación incorrecta puede significar que el controlador crea que has salido de la pista cuando todavía estás en ella. Una llamada de emergencia mal formulada puede retrasar la respuesta SAR los minutos que marcan la diferencia.
 
-Nueve capítulos convierten el protocolo de radio en un instrumento de vuelo más: uno que, cuando lo dominas, libera toda tu atención para lo que importa.
+Siete capítulos convierten el protocolo de radio en un instrumento de vuelo más: uno que, cuando lo dominas, libera toda tu atención para lo que importa.
 <!-- GUÍA-DE-LECTURA: desde esta marca hasta el final, el texto es idéntico en
      los 9 libros y el CI comprueba que no diverge. Si lo editas, propágalo a
      los otros 8. Todo lo anterior es propio de este libro. -->
