@@ -64,44 +64,30 @@ Dos remisiones útiles dentro de la colección: las **señales luminosas** con l
 
 ## La gestión del tránsito aéreo (ATM)
 
-Los tres servicios anteriores son la parte del sistema con la que hablas por radio. Pero son sólo una pieza de algo mayor: la **Gestión del Tránsito Aéreo** (**ATM**, **Air Traffic Management**), que administra de forma conjunta el tráfico y el espacio aéreo para que el conjunto sea seguro y eficiente.
+El ATS es la parte del sistema que te habla por radio. Pero por encima hay algo más grande: la **Gestión del Tránsito Aéreo** (**ATM**), que administra a la vez el tráfico y el espacio por el que vuela. Son tres patas:
 
-El ATM se apoya en tres patas:
+* **ATS**: los tres servicios que acabas de ver. La que te atiende.
+* **ASM**: la gestión del espacio aéreo. Decide qué espacio hay disponible, para quién y cuándo.
+* **ATFM**: la gestión de afluencia. Ajusta el número de aviones a lo que el sistema puede tragar.
 
-1. **ATS** (**Air Traffic Services**): los servicios que acabas de ver —control, información y alerta—. Es la pata que te atiende.
-2. **ASM** (**Airspace Management**, gestión del espacio aéreo): decide **qué espacio aéreo hay disponible, para quién y cuándo**.
-3. **ATFM** (**Air Traffic Flow Management**, gestión de afluencia): ajusta la **demanda** de tráfico a la **capacidad** real de los aeropuertos y los sectores de control.
+De las tres, la que te toca de cerca es la segunda.
 
-Para ti, como piloto de planeador, la pata que de verdad importa es la segunda.
+Durante décadas, el espacio militar era militar los siete días de la semana, se usara o no. Hoy rige el **uso flexible del espacio aéreo** (**FUA**): el espacio es un recurso único que se reparte cada día según quién lo necesite de verdad. Una célula de gestión decide por la tarde qué zonas se activan mañana y cuáles se liberan, y lo publica.
 
-### El espacio aéreo no es fijo: el uso flexible (FUA)
-
-Durante décadas, el espacio militar era militar los siete días de la semana, se usara o no. El concepto de **uso flexible del espacio aéreo** (**FUA**, **Flexible Use of Airspace**) rompió esa idea: el espacio deja de repartirse entre «civil» y «militar» y pasa a ser un recurso único que se reparte **día a día** según quién lo necesite de verdad.
-
-Eso se gestiona en tres niveles:
-
-* **Estratégico**: se diseñan las estructuras —zonas, rutas condicionales— y las reglas para repartirlas. Es lo que ves publicado en el AIP.
-* **Pretáctico**: cada día, una **Célula de Gestión del Espacio Aéreo** (**AMC**, *Airspace Management Cell*) decide qué zonas se activan mañana y cuáles se liberan, y lo publica en el **AUP** (*Airspace Use Plan*). Si algo cambia, se emite un **UUP** (*Updated Airspace Use Plan*).
-* **Táctico**: en tiempo real, el ATS libera o reasigna lo que finalmente no se usa.
-
-De ahí salen estructuras que **existen sólo a ratos**: las **TSA** (*Temporary Segregated Area*) y **TRA** (*Temporary Reserved Area*), zonas reservadas por horas, y las **CDR** (*Conditional Route*), rutas disponibles sólo cuando la zona que atraviesan está libre.
-
-::: {.callout-important title="Normativa"}
-El uso flexible del espacio aéreo no es una buena práctica opcional: lo establece el **Reglamento (CE) n.º 2150/2005**, que fija las normas comunes para la utilización flexible del espacio aéreo en la Unión Europea.
-:::
+De ahí salen zonas que existen sólo a ratos: las **TSA** y las **TRA**, reservadas por horas. Y rutas que sólo están abiertas cuando la zona que cruzan queda libre: las **CDR**.
 
 ::: {.callout-tip title="Regla de oro"}
-La carta te dice **dónde** está una zona; nunca si hoy está **activa**. Esa respuesta está en los NOTAM y en la publicación diaria del espacio aéreo (AUP/UUP). Una carta no caduca en un día, pero la actividad de una TSA cambia cada mañana: consúltalo en la preparación del vuelo, no en el aire.
+La carta te dice dónde está una zona. Nunca si hoy está activa. Eso lo dicen los NOTAM y la publicación diaria del espacio aéreo, y se mira en la preparación del vuelo, no en el aire.
 :::
 
-### La gestión de afluencia (ATFM), y por qué a ti casi no te afecta
+La afluencia es otra historia y apenas te afecta. Cuando hay más aviones que capacidad, el sistema reparte la escasez con **slots**: horas de despegue asignadas que retienen al avión en tierra en vez de amontonarlo en el aire. Es cosa del tráfico IFR con plan de vuelo. Un planeador en VFR por Clase G ni los recibe ni los necesita; como mucho, explica por qué un aeródromo con tráfico comercial te hace esperar.
 
-Cuando la demanda supera la capacidad de un aeropuerto o de un sector, el ATFM no improvisa: reparte la escasez. La herramienta más conocida es el **slot** —la hora calculada de despegue, o **CTOT**— que retiene al avión en tierra en lugar de amontonarlo en el aire.
-
-Esto es asunto del tráfico IFR con plan de vuelo. Un planeador en VFR y en espacio aéreo Clase G no recibe slots ni los necesita. Aun así conviene saber que existe, por dos motivos: explica por qué un aeródromo con tráfico comercial puede retrasarte, y porque forma parte de lo que el syllabus entiende por ATM.
+::: {.callout-important title="Normativa"}
+El uso flexible del espacio aéreo lo establece el **Reglamento (CE) n.º 2150/2005**, que fija las normas comunes para repartirlo en la Unión Europea.
+:::
 
 ::: {.callout-note title="Airmanship"}
-La lección del ATM para un piloto de planeador cabe en una frase: **el espacio aéreo del que dispones hoy no es el de ayer**. Volar la misma travesía que la semana pasada sin volver a mirar la activación de las zonas es confiar en una foto vieja.
+El espacio aéreo del que dispones hoy no es el de ayer. Repetir la travesía de la semana pasada sin mirar otra vez qué zonas están activas es volar con una foto vieja.
 :::
 
 ::: {.postit}
@@ -115,7 +101,7 @@ El ATS te ofrece tres tipos de ayuda:
 
 Y el ATS es sólo una de las tres patas del **ATM**:
 
-* **ATM = ATS + ASM + ATFM**: los servicios que te atienden, la gestión del espacio aéreo y la gestión de afluencia.
-* **Uso flexible (FUA)**: el espacio aéreo se reparte cada día, no de una vez para siempre. Hay zonas que existen sólo a ratos (TSA, TRA) y rutas que sólo están disponibles cuando aquellas se liberan (CDR).
-* **Lo que te toca a ti**: la carta dice dónde está una zona; los NOTAM y la publicación diaria (AUP/UUP) dicen si hoy está activa. La afluencia (ATFM, los *slots*) es cosa del tráfico IFR: a un planeador en Clase G no le afecta.
+* **ATM = ATS + ASM + ATFM**: los servicios que te atienden, la gestión del espacio aéreo y la de afluencia.
+* **Uso flexible (FUA)**: el espacio se reparte cada día, no de una vez para siempre. Hay zonas que existen sólo a ratos (TSA, TRA) y rutas abiertas sólo cuando aquellas se liberan (CDR).
+* **Lo que te toca a ti**: la carta dice dónde está una zona; los NOTAM dicen si hoy está activa. Los *slots* del ATFM son cosa del tráfico IFR: a un planeador en Clase G no le afectan.
 :::
