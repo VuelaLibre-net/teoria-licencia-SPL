@@ -59,7 +59,9 @@ $(PDF_OUT)/%.pdf: %/index.qmd
 $(EPUB_OUT)/%.epub: %/index.qmd
 	@mkdir -p $(EPUB_OUT)
 	@echo "==> [Quarto] Renderizando EPUB para $*..."
-	quarto render $*/ --to epub
+	quarto render $*/ --to epub \
+	  --metadata fecha-actualizacion="$(call fecha_libro,$*)" \
+	  --metadata version-quarto="$(call version_quarto)"
 	@mv $*/_book/*.epub $@
 	@echo "✓ EPUB generado en $@"
 
