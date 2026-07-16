@@ -15,13 +15,22 @@ env:
   # que se usa en local para que los artefactos sean reproducibles.
   TYPST_VERSION: '0.15.0'
 
+# Las actions de terceros van a su mayor vigente porque las v4 corren sobre
+# Node 20, que GitHub ha retirado: el runner las forzaba a Node 24 y avisaba en
+# cada ejecución.
+#
+# Ojo con upload-artifact: su **v5 sigue declarando node20** —el soporte de
+# Node 24 era preliminar y no era el runtime por defecto—, así que subir a la
+# siguiente no habría quitado el aviso. El salto tiene que ser a v6 como mínimo.
+#
+# quarto-actions/setup es composite y no tiene runtime propio: no le afecta.
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
     - name: Descargar repositorio
-      uses: actions/checkout@v4
+      uses: actions/checkout@v7
       with:
         # El colofón fecha cada libro con el último commit que lo tocó, y el
         # clonado por defecto es superficial: sin historia, git log no
@@ -457,13 +466,13 @@ jobs:
         exit $errores
 
     - name: Subir artefactos PDF
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v7
       with:
         name: manuales-spl-pdf
         path: build/pdf/
 
     - name: Subir artefactos EPUB
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v7
       with:
         name: manuales-spl-epub
         path: build/epub/
