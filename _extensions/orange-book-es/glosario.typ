@@ -23,9 +23,10 @@
   if d.func() == block and d.has("body") { d.body } else { d }
 }
 
-// El hueco entre entradas debe superar claramente al interlineado (0.65em) o el
-// ojo no distingue dónde acaba una definición y empieza la siguiente. Se usa el
-// mismo valor que las listas del cuerpo, por coherencia.
-#show terms.item: it => block(breakable: false, below: 0.95em, width: 100%)[
+// El hueco entre entradas debe superar claramente al interlineado (hoy 0.75em)
+// o el ojo no distingue dónde acaba una definición y empieza la siguiente. Se
+// usa el mismo valor que las listas del cuerpo, por coherencia: si se toca el
+// leading en lib.typ, hay que revisar este número.
+#show terms.item: it => block(breakable: false, below: 1.2em, width: 100%)[
   #text(weight: "bold")[#it.term]#h(0.35em)#sym.dash.em#h(0.35em)#_glosario-descripcion(it.description)
 ]
