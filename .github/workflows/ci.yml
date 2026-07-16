@@ -119,6 +119,17 @@ jobs:
         rm -rf "$colas"
         exit $errores
 
+    - name: Comprobar que los capítulos se titulan como el syllabus
+      # El syllabus es la raíz del proyecto: el título del capítulo copia su
+      # entrada, no al revés. Desalinearse no da ningún síntoma —el libro
+      # compila igual— y un título recortado puede tapar un hueco de contenido:
+      # el cap08 del libro 01 prometía ATS y ATM y sólo desarrollaba el ATS.
+      #
+      # Compara palabras, no bytes: el título aplica la norma española de
+      # mayúsculas y pone los términos ingleses en cursiva; el apéndice
+      # reproduce el syllabus tal cual.
+      run: python3 .github/comprobar-syllabus.py
+
     - name: Comprobar que cada libro registra su versión en curso
       # El CHANGELOG sólo sirve si está al día, y un CHANGELOG desfasado no da
       # ningún síntoma: el libro compila igual. Aquí se exige que la versión que
