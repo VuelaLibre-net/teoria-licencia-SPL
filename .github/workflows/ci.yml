@@ -74,6 +74,15 @@ jobs:
             errores=1
           fi
 
+          # El índice se emite desde un show rule que reconoce el encabezado
+          # "Introducción". Si alguien lo renombra, el libro sale sin índice y
+          # sin ningún error: durante meses se publicó con el índice al final.
+          # Se detecta por los puntos guía de las entradas.
+          if ! grep -q '\. \. \. \.' <<<"$texto"; then
+            echo "::error file=$pdf::Sin índice: ¿se renombró el encabezado 'Introducción'?"
+            errores=1
+          fi
+
           # Y en negativo: ni rastro de los rótulos por defecto de Quarto.
           if grep -qE 'Chapter [0-9]' <<<"$texto"; then
             echo "::error file=$pdf::Rótulos en inglés ('Chapter N'): se maquetó con el orange-book interno"
