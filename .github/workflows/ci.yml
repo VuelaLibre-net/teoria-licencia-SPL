@@ -41,7 +41,9 @@ jobs:
         echo "QUARTO_TYPST=$PWD/typst-x86_64-unknown-linux-musl/typst" >> "$GITHUB_ENV"
 
     - name: Instalar utilidades de verificación
-      run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+      # poppler-utils da pdftotext; unzip abre los EPUB. Se instalan en vez de
+      # suponer que el runner los trae.
+      run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils unzip
 
     - name: Comprobar el entorno
       run: |
@@ -114,6 +116,37 @@ jobs:
           if grep -q '\*\*' <<<"$texto"; then
             echo "::error file=$pdf::Asteriscos literales en el PDF: hay marcado sin interpretar"
             grep -o '.\{0,40\}\*\*.\{0,40\}' <<<"$texto" | head -3 | sed 's/^/    /'
+            errores=1
+          fi
+        done
+
+        # Los EPUB también se comprueban. Hasta ahora sólo se miraban los PDF, y
+        # por eso se publicaron nueve EPUB con los shortcodes del colofón sin
+        # resolver ("?meta:version-quarto"): el CI pasaba en verde porque el
+        # fallo estaba en el formato que nadie miraba.
+        for epub in build/epub/*.epub; do
+          texto=$(unzip -p "$epub" 'EPUB/text/*.xhtml' 2>/dev/null | sed -e 's/<[^>]*>//g')
+
+          if [ "${#texto}" -lt 1000 ]; then
+            echo "::error file=$epub::No se pudo extraer texto (${#texto} bytes); la verificación no sería concluyente"
+            errores=1
+            continue
+          fi
+
+          # Shortcode sin resolver: Quarto escribe '?meta:<clave>' y sigue.
+          if grep -q '?meta:' <<<"$texto"; then
+            echo "::error file=$epub::Shortcode de metadatos sin resolver; ¿falta un --metadata al renderizar?"
+            grep -o '.\{0,30\}?meta:.\{0,20\}' <<<"$texto" | head -2 | sed 's/^/    /'
+            errores=1
+          fi
+
+          if grep -q '\*\*' <<<"$texto"; then
+            echo "::error file=$epub::Asteriscos literales en el EPUB"
+            errores=1
+          fi
+
+          if grep -q '[⚠⚖✦⚓]' <<<"$texto"; then
+            echo "::error file=$epub::Iconos de admonition en el cuerpo del EPUB"
             errores=1
           fi
         done
