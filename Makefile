@@ -69,11 +69,13 @@ test:
 	@echo "==> [Python] Ejecutando pruebas unitarias del conversor..."
 	python3 -m unittest discover -s tests -p "test_*.py"
 
-# Limpieza completa de builds y archivos convertidos
+# Limpieza de los entregables y las cachés de Quarto.
+# NO toca los .qmd, _quarto.yml ni imagenes/: son la fuente canónica de la
+# colección, viven en git y no se regeneran a partir de nada.
 clean: clean-tmp
 	rm -rf $(BUILD_DIR)
 	@for libro in $(LIBROS); do \
-		rm -rf $$libro/_book $$libro/*.qmd $$libro/_quarto.yml $$libro/imagenes/; \
+		rm -rf $$libro/_book $$libro/.quarto; \
 	done
 
 # Limpieza de archivos temporales

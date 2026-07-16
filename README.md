@@ -1,8 +1,8 @@
 # Colección de Manuales Teóricos SPL (Licencia de Piloto de Planeador) en Quarto
 
-Este repositorio contiene la versión digitalizada de 9 libros que cubren el temario teórico para la obtención de la **Licencia de Piloto de Planeador (SPL)** de la **Agencia Estatal de Seguridad Aérea (AESA)**.
+Este repositorio contiene la versión digitalizada de 9 libros que cubren el temario teórico para la obtención de la **Licencia de Piloto de Planeador (SPL)** bajo la regulación **EASA-FCL (European Union Aviation Safety Agency - Flight Crew Licensing)**, adaptada a los requerimientos de la **Agencia Estatal de Seguridad Aérea (AESA)** española.
 
-El contenido está en **Quarto Markdown (.qmd)** para la generación de entregables de alta calidad en formatos **PDF (mediante el motor Typst)** y **EPUB (mediante Pandoc)**.
+El contenido está en **Quarto Markdown (.qmd)** para la generación de entregables de alta calidad en formatos cómodos de editar por los colaboradores, **PDF (mediante el motor Typst)** y **EPUB (mediante Pandoc)**.
 
 ---
 
@@ -22,17 +22,29 @@ La biblioteca está organizada por asignaturas según el syllabus oficial de AES
 
 ---
 
+Los archivos `.qmd` de este repositorio son la **fuente canónica** de la colección: se editan
+directamente y no se generan a partir de ningún otro formato.
+
+---
+
 ## Requisitos Previos
 
 Para poder compilar la colección completa, necesitarás contar con:
 
-- **Quarto CLI** (versión 1.4 o superior): [Instrucciones de instalación](https://quarto.org/docs/get-started/)
-- **Python 3** (para ejecutar la suite de importación/conversión)
+- **Quarto CLI 1.9.17 o superior**: [Instrucciones de instalación](https://quarto.org/docs/get-started/).
+  La extensión de maquetado (`_extensions/orange-book-es/`) no funciona con versiones anteriores.
+- **Typst 0.15** (opcional): Quarto lleva empotrada su propia versión de Typst (0.14.2), suficiente
+  para compilar. Los entregables oficiales se generan con Typst 0.15, que produce una paginación
+  ligeramente distinta; para reproducirlos con exactitud, apunta Quarto a tu binario:
+  ```bash
+  export QUARTO_TYPST="$(which typst)"
+  ```
+
 ---
 
 ## Instrucciones de Compilación
 
-El proyecto incluye un [Makefile](file:///home/camus/ws/VuelaLibre.net/aesa-spl-quatro/Makefile) para automatizar el ciclo de vida de la compilación e importación de los libros:
+El proyecto incluye un _Makefile_ para automatizar la compilación de los libros:
 
 ### Compilar la colección completa
 Genera los entregables en formatos PDF y EPUB para todos los libros:
@@ -49,28 +61,27 @@ Puedes compilar una única asignatura especificando su nombre de directorio. Por
 make 05-principios-vuelo
 ```
 
-### Ejecutar la suite de pruebas unitarias
-Comprueba la consistencia sintáctica y semántica del conversor:
-```bash
-make test
-```
-
 ### Limpiar la compilación
-Elimina todos los entregables generados (`build/`), las cachés de Quarto y los archivos `.qmd` intermedios:
+Elimina los entregables generados (`build/`, `_book/`) y las cachés de Quarto. **No toca los `.qmd`,
+los `_quarto.yml` ni las `imagenes/`**, que son la fuente canónica:
 ```bash
 make clean
 ```
 
 ---
 
-## Arquitectura de la Importación
+## Estructura Editorial de los Libros
 
-La migración utiliza una canalización estructurada basada en un analizador de árbol de sintaxis XML (AST) para garantizar una traducción de calidad editorial:
+Cada asignatura es un proyecto Quarto independiente, con su propio `_quarto.yml`:
 
-1. **Compilación a DocBook XML:** Se toma la fuente `.adoc` y se genera un archivo XML que representa fielmente la semántica de la estructura del manual.
-2. **Conversor Python:** El script `tools/import/docbook_to_qmd.py` procesa el XML y delega en manejadores modulares (`tools/import/handlers/`) para traducir títulos, tablas, figuras y callouts.
-3. **Estructura del Libro:**
-   - **Preliminares:** Colofón, Dedicatoria y Reconocimientos se separan en archivos unnumbered (`{.unnumbered}`).
-   - **Ordenación Editorial (TOC):** Gracias a una extensión local de `orange-book` en `_extensions/orange-book-es/`, el contenido preliminar se imprime de forma limpia **antes** del Índice (*TOC*), y la lista de ilustraciones se sitúa **detrás** de este en el PDF.
-   - **Capítulos:** La numeración real comienza en el primer tema académico (`cap01-`).
-   - **Apéndices:** El Glosario, la Bibliografía (formateada sin secciones invasivas) y el Syllabus Oficial EASA se configuran como apéndices integrados en la estructura final de Quarto.
+- **Preliminares:** Colofón, Dedicatoria y Prefacio son archivos sin numerar (`{.unnumbered}`) y se
+  imprimen **antes** del Índice (*TOC*); el Índice de ilustraciones se sitúa **detrás** de este.
+- **Capítulos:** La numeración académica comienza en el primer tema (`cap01-`).
+- **Apéndices:** El Glosario, la Bibliografía y el Syllabus Oficial EASA se declaran como apéndices
+  en `_quarto.yml` y se numeran aparte (A, B, C…).
+
+Esa ordenación no es de serie en Quarto: la aporta la extensión local
+**`_extensions/orange-book-es/`**, un fork del paquete Typst `orange-book` con la maquetación
+reordenada y los rótulos en español ("Capítulo", "Índice de ilustraciones"). Cada libro la enlaza
+con un symlink `_extensions -> ../_extensions`, porque Quarto sólo busca extensiones dentro del
+directorio del proyecto y no sube por el árbol.

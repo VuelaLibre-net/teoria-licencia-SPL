@@ -6,6 +6,15 @@ on:
   pull_request:
     branches: [ main ]
 
+env:
+  # Debe cumplir el quarto-required de _extensions/orange-book-es/_extension.yml.
+  # Con versiones anteriores, Quarto ignora la extensión y maqueta con su
+  # orange-book interno: los PDF salen en inglés y sin errores que lo delaten.
+  QUARTO_VERSION: '1.9.38'
+  # Quarto lleva empotrado Typst 0.14.2, que pagina distinto. Se fija el mismo
+  # que se usa en local para que los artefactos sean reproducibles.
+  TYPST_VERSION: '0.15.0'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -17,20 +26,58 @@ jobs:
     - name: Configurar Quarto
       uses: quarto-dev/quarto-actions/setup@v2
       with:
-        version: '1.4.549'
+        version: ${{ env.QUARTO_VERSION }}
+
+    - name: Configurar Typst
+      run: |
+        curl -fsSL --retry 3 \
+          "https://github.com/typst/typst/releases/download/v${TYPST_VERSION}/typst-x86_64-unknown-linux-musl.tar.xz" \
+          | tar -xJ
+        echo "QUARTO_TYPST=$PWD/typst-x86_64-unknown-linux-musl/typst" >> "$GITHUB_ENV"
+
+    - name: Instalar utilidades de verificación
+      run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+
+    - name: Comprobar el entorno
+      run: |
+        quarto --version
+        "$QUARTO_TYPST" --version
+        # La extensión debe estar visible desde el proyecto; si el symlink
+        # _extensions no se ha clonado, Quarto usaría el orange-book interno.
+        # 'quarto list' sólo mira el directorio actual (de ahí el cd) y escribe
+        # en stderr (de ahí el 2>&1).
+        (cd 08-aeronave-sistemas && quarto list extensions 2>&1) | grep -q 'orange-book-es' \
+          || { echo "::error::orange-book-es no visible; ¿falta el symlink _extensions?"; exit 1; }
 
     - name: Compilar manuales a PDF y EPUB
+      run: make
+
+    - name: Verificar los entregables
       run: |
-        mkdir -p build/pdf build/epub
-        for libro in 01-derecho-aereo-atc 02-factores-humanos 03-meteorologia 04-comunicaciones 05-principios-vuelo 06-procedimientos-operativos 07-planificacion-rendimiento 08-aeronave-sistemas 09-navegacion; do
-          echo "==> Renderizando $libro a PDF (Typst)..."
-          quarto render "$libro/" --to orange-book-es-typst
-          mv "$libro/_book"/*.pdf build/pdf/
-          
-          echo "==> Renderizando $libro a EPUB..."
-          quarto render "$libro/" --to epub
-          mv "$libro/_book"/*.epub build/epub/
+        errores=0
+        for pdf in build/pdf/*.pdf; do
+          texto=$(pdftotext "$pdf" - 2>/dev/null)
+
+          # La extensión se aplica: los rótulos van en español. Si algo de la
+          # cadena se rompe, Quarto cae en silencio a su orange-book interno.
+          if grep -qE 'Chapter [0-9]' <<<"$texto"; then
+            echo "::error file=$pdf::Rótulos en inglés ('Chapter N'): la extensión orange-book-es no se aplicó"
+            errores=1
+          fi
+
+          # Las admonitions traen su etiqueta en el título, no en el cuerpo.
+          if grep -q '[⚠⚖✦⚓]' <<<"$texto"; then
+            echo "::error file=$pdf::Iconos de admonition en el cuerpo; el importador debería haberlos retirado"
+            errores=1
+          fi
         done
+
+        pdfs=$(ls build/pdf/*.pdf 2>/dev/null | wc -l)
+        epubs=$(ls build/epub/*.epub 2>/dev/null | wc -l)
+        [ "$pdfs" -eq 9 ] || { echo "::error::Se esperaban 9 PDF y hay $pdfs"; errores=1; }
+        [ "$epubs" -eq 9 ] || { echo "::error::Se esperaban 9 EPUB y hay $epubs"; errores=1; }
+
+        exit $errores
 
     - name: Subir artefactos PDF
       uses: actions/upload-artifact@v4
