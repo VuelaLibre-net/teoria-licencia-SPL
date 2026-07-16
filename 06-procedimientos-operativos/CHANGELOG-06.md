@@ -19,14 +19,17 @@ rompe la compilación.
 Cambios ya en `main` —y por tanto en los entregables que compila el CI— a los que todavía no se les
 ha asignado número: el `version:` de `_quarto.yml` no se ha movido.
 
-**Qué releer:** **Sólo el epígrafe**, que es una página. El temario no cambia ni una línea; lo que
-cambia es la cita con la que abre el libro, y si encaja con la asignatura es criterio editorial.
+**Qué releer:** **El título del `cap05` y el epígrafe.** Ninguno toca el cuerpo del temario, y los
+dos se comprueban de un vistazo.
 
 ### Cambiado
 
-* **Epígrafe** — el libro abre ahora con una cita propia, de Neil Armstrong,
-  elegida para esta asignatura. Los 9 libros compartían la misma cita de Frank Borman,
-  que además pertenece a Factores Humanos.
+* **cap05, «Aterrizaje fuera de campo (*outlanding*)»** — el título estaba truncado en «Aterrizaje
+  fuera de campo (»: el importador de AsciiDoc se atragantó con el paréntesis. Se restaura el
+  original, `= Aterrizaje fuera de campo (_outlanding_)`, tal cual.
+* **Epígrafe** — el libro abre ahora con una cita propia, de Neil Armstrong, elegida para esta
+  asignatura. Los 9 libros compartían la misma cita de Frank Borman, que además pertenece a Factores
+  Humanos.
 
 ### Maqueta y producción
 

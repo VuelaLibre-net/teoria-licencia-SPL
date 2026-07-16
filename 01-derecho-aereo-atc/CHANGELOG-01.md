@@ -19,14 +19,28 @@ rompe la compilación.
 Cambios ya en `main` —y por tanto en los entregables que compila el CI— a los que todavía no se les
 ha asignado número: el `version:` de `_quarto.yml` no se ha movido.
 
-**Qué releer:** **Sólo el epígrafe**, que es una página. El temario no cambia ni una línea; lo que
-cambia es la cita con la que abre el libro, y si encaja con la asignatura es criterio editorial.
+**Qué releer:** **El título del `cap08` y el epígrafe.** El cuerpo del temario no cambia ni una
+línea. Pero al arreglar el título salió a la luz un hueco que conviene decidir antes de dar el libro
+por revisado: **el syllabus 1.8 pide «Servicio de Tránsito Aéreo (ATS) **y Gestión del Tránsito
+Aéreo (ATM)**» y el capítulo sólo desarrolla el ATS.** En toda la colección, «ATM» aparece
+únicamente en esa línea del syllabus.
 
 ### Cambiado
 
-* **Epígrafe** — el libro abre ahora con una cita propia, de un anónimo de la tradición oral de la seguridad aérea,
-  elegida para esta asignatura. Los 9 libros compartían la misma cita de Frank Borman,
-  que además pertenece a Factores Humanos.
+* **cap08, «Servicio de tránsito aéreo (ATS)»** — el título estaba truncado en «Servicio de Tránsito
+  Aéreo (»: el importador de AsciiDoc se atragantó con las macros que iban dentro del paréntesis. El
+  original rezaba «…(ATS) y Gestión del Tránsito Aéreo (ATM)», pero **ese `.adoc` tampoco tenía
+  contenido de ATM**, así que el nuevo título describe lo que el capítulo da en vez de prometer lo
+  que no da. Se pasa a sentence case, como los otros 13 títulos del libro.
+* **Epígrafe** — el libro abre ahora con una cita propia, de un anónimo de la tradición oral de la
+  seguridad aérea, elegida para esta asignatura. Los 9 libros compartían la misma cita de Frank
+  Borman, que además pertenece a Factores Humanos.
+
+### Hueco conocido
+
+* **cap08 no cubre la Gestión del Tránsito Aéreo (ATM)**, que el syllabus 1.8 incluye junto al ATS.
+  No es una pérdida de la migración: el AsciiDoc del que viene tampoco lo trataba. Requiere decidir
+  si se escribe la parte de ATM o si el syllabus del apéndice se matiza.
 
 ### Maqueta y producción
 
