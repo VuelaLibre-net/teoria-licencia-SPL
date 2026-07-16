@@ -82,6 +82,39 @@ jobs:
         done
         exit $errores
 
+    - name: Comprobar que la tabla del README no está desfasada
+      # El README publica la versión y el estado de los 9 libros, que es una
+      # copia de lo que vive en cada _quarto.yml. Cuando un libro cambia de
+      # versión, el PDF y el EPUB se enteran solos —el Makefile se lo inyecta—
+      # pero el README no: se queda mintiendo en verde, sin que nada falle.
+      #
+      # `make estados` es la misma fuente que alimenta los entregables, no una
+      # reimplementación: si divergiera de ella, el guardián no valdría nada.
+      run: |
+        errores=0
+        # Se materializa la tabla antes de recorrerla: si `make estados` falla o
+        # deja de existir, el bucle no leería nada y el guardián pasaría EN
+        # VACÍO, en verde y sin comprobar nada. Exigir las 9 líneas cierra ese
+        # agujero, que es el mismo que se vigila aquí.
+        make -s estados > estados.txt \
+          || { echo '::error::«make estados» ha fallado; el guardián no puede comprobar nada'; exit 1; }
+        leidos=$(wc -l < estados.txt)
+        [ "$leidos" -eq 9 ] \
+          || { echo "::error::«make estados» ha devuelto $leidos libros y se esperan 9"; exit 1; }
+        # El bucle NO va detrás de una tubería: en un subshell, los errores que
+        # contase se perderían al terminar. Así se informa de los 9 libros de
+        # una vez en vez de abortar en el primero.
+        while IFS='|' read -r libro version estado; do
+          fila=$(grep -F -- "\`$libro\`" README.md) || {
+            echo "::error file=README.md::El README no menciona $libro"; errores=1; continue; }
+          echo "$fila" | grep -qF -- "\`$version\`" \
+            || { echo "::error file=README.md::$libro: el README no publica la versión $version"; errores=1; }
+          echo "$fila" | grep -qF -- "$estado" \
+            || { echo "::error file=README.md::$libro ($version): el README no publica el estado «$estado»"; errores=1; }
+        done < estados.txt
+        rm -f estados.txt
+        exit $errores
+
     - name: Compilar manuales a PDF y EPUB
       run: make
 
