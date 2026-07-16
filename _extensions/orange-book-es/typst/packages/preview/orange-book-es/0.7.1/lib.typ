@@ -317,9 +317,9 @@
 
   set document(author: author, title: title)
   set text(size: font-size, lang: lang)
-  set par(leading: 0.65em)
-  set enum(numbering: "1.a.i.", spacing: 0.95em)
-  set list(marker: ([•], [--], [◦]), spacing: 0.95em)
+  set par(leading: 0.75em)
+  set enum(numbering: "1.a.i.", spacing: 1.2em)
+  set list(marker: ([•], [--], [◦]), spacing: 1.2em)
 
   set ref(supplement: (it)=>{lower(it.supplement)}) if lowercase-references
 
@@ -604,12 +604,12 @@
   set par(
     first-line-indent: 1em,
     justify: true,
-    spacing: 0.85em
+    spacing: 1.05em
   ) if first-line-indent
 
   set par(
     justify: true,
-    spacing: 0.85em
+    spacing: 1.05em
   ) if not first-line-indent
 
   show list: it => {
@@ -646,12 +646,27 @@
         image-index
       )
       my-outline(appendix-state, appendix-state-hide-parent, part-state, part-location,part-change,part-counter, main-color, textSize1: outline-part, textSize2: outline-heading1, textSize3: outline-heading2, textSize4: outline-heading3, depth: outline-depth, outline-font-size: outline-font-size)
-      [
-        // Las figuras sin pie no salen en la lista de ilustraciones
-        #show figure.where(caption: none): set figure(outlined: false)
-        #my-outline-sec(list-of-figure-title, figure.where(kind: image), outline-heading3)
-        #my-outline-sec(list-of-table-title, figure.where(kind: table), outline-heading3)
-      ]
+      // Quarto NO usa los kinds nativos de Typst: emite las figuras con
+      // kind: "quarto-float-fig" y las tablas con "quarto-float-tbl". Buscar
+      // `image` y `table`, como hace orange-book, no casa con nada y deja las
+      // dos listas en blanco: título y página vacía.
+      //
+      // Las listas sólo se imprimen si hay algo que listar. Ocho de los nueve
+      // libros no tienen ni una tabla y no deben llevar índice de tablas.
+      context {
+        let figuras = query(figure.where(kind: "quarto-float-fig"))
+        let tablas = query(figure.where(kind: "quarto-float-tbl"))
+        [
+          // Las figuras sin pie no salen en la lista
+          #show figure.where(caption: none): set figure(outlined: false)
+          #if figuras.len() > 0 {
+            my-outline-sec(list-of-figure-title, figure.where(kind: "quarto-float-fig"), outline-heading3)
+          }
+          #if tablas.len() > 0 {
+            my-outline-sec(list-of-table-title, figure.where(kind: "quarto-float-tbl"), outline-heading3)
+          }
+        ]
+      }
     }
     it
   }
