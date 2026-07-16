@@ -103,6 +103,42 @@ jobs:
         rm -rf "$colas"
         exit $errores
 
+    - name: Comprobar que cada libro registra su versión en curso
+      # El CHANGELOG sólo sirve si está al día, y un CHANGELOG desfasado no da
+      # ningún síntoma: el libro compila igual. Aquí se exige que la versión que
+      # hoy tiene el libro tenga su entrada, así que subir `version:` sin contar
+      # qué cambió rompe la compilación. Es el único punto en que el registro
+      # deja de ser voluntario.
+      #
+      # No se comprueba el contenido de la entrada: eso es criterio editorial y
+      # no lo puede juzgar un grep.
+      run: |
+        errores=0
+        make -s estados > estados.txt \
+          || { echo '::error::«make estados» ha fallado; el guardián no puede comprobar nada'; exit 1; }
+        leidos=$(wc -l < estados.txt)
+        [ "$leidos" -eq 9 ] \
+          || { echo "::error::«make estados» ha devuelto $leidos libros y se esperan 9"; exit 1; }
+        while IFS='|' read -r libro version estado; do
+          fichero="$libro/CHANGELOG-${libro%%-*}.md"
+          if [ ! -f "$fichero" ]; then
+            echo "::error::Falta $fichero"
+            errores=1
+            continue
+          fi
+          # La entrada se escribe "## [1.0-rc.5] — 16 de julio de 2026". Se
+          # busca con -F: la versión lleva puntos, que en una regex casarían con
+          # cualquier carácter y darían por buena una entrada equivocada.
+          if ! grep -qF -- "## [$version]" "$fichero"; then
+            echo "::error file=$fichero::El libro va por la versión $version y no hay entrada «## [$version]». Registra qué cambió."
+            echo "    Entradas presentes:"
+            grep -oE '^## \[[^]]+\]' "$fichero" | head -3 | sed 's/^/      /'
+            errores=1
+          fi
+        done < estados.txt
+        rm -f estados.txt
+        exit $errores
+
     - name: Comprobar que la tabla del README no está desfasada
       # El README publica la versión y el estado de los 9 libros, que es una
       # copia de lo que vive en cada _quarto.yml. Cuando un libro cambia de
