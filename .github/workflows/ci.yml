@@ -119,6 +119,18 @@ jobs:
         rm -rf "$colas"
         exit $errores
 
+    - name: Comprobar que el nombre de cada asignatura no se contradice
+      # El mismo nombre vive en el `title:` del _quarto.yml, en el apéndice del
+      # syllabus y en la tabla del README, y nada los sincroniza. El libro 8 se
+      # titulaba «Conocimientos Generales de la Aeronave» mientras su apéndice y
+      # su cubierta decían «…, Estructura, Sistemas y Equipo de Emergencia».
+      #
+      # No comprueba la fidelidad al AMC1: el AMC va sólo en inglés y el nombre
+      # en español es decisión editorial (el libro 2 se llama «Factores Humanos»
+      # a sabiendas de que EASA dice HUMAN PERFORMANCE). Lo que sí se exige es
+      # que, decidido, el libro no se contradiga a sí mismo.
+      run: python3 .github/comprobar-titulos.py
+
     - name: Comprobar que los capítulos se titulan como el syllabus
       # El syllabus es la raíz del proyecto: el título del capítulo copia su
       # entrada, no al revés. Desalinearse no da ningún síntoma —el libro
