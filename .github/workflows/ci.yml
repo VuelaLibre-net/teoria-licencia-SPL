@@ -58,16 +58,31 @@ jobs:
         for pdf in build/pdf/*.pdf; do
           texto=$(pdftotext "$pdf" - 2>/dev/null)
 
-          # La extensión se aplica: los rótulos van en español. Si algo de la
-          # cadena se rompe, Quarto cae en silencio a su orange-book interno.
+          # Sin esta comprobación, un pdftotext que fallara dejaría $texto vacío:
+          # los greps de abajo no encontrarían nada y el paso pasaría en verde
+          # sin haber verificado absolutamente nada.
+          if [ "${#texto}" -lt 1000 ]; then
+            echo "::error file=$pdf::No se pudo extraer texto (${#texto} bytes); la verificación no sería concluyente"
+            errores=1
+            continue
+          fi
+
+          # En positivo: la extensión se aplicó de verdad. Comprobar sólo la
+          # ausencia de 'Chapter' pasaría también con un PDF vacío o truncado.
+          if ! grep -qE 'Capítulo [0-9]+\.' <<<"$texto"; then
+            echo "::error file=$pdf::No aparece 'Capítulo N': la extensión orange-book-es no se aplicó"
+            errores=1
+          fi
+
+          # Y en negativo: ni rastro de los rótulos por defecto de Quarto.
           if grep -qE 'Chapter [0-9]' <<<"$texto"; then
-            echo "::error file=$pdf::Rótulos en inglés ('Chapter N'): la extensión orange-book-es no se aplicó"
+            echo "::error file=$pdf::Rótulos en inglés ('Chapter N'): se maquetó con el orange-book interno"
             errores=1
           fi
 
           # Las admonitions traen su etiqueta en el título, no en el cuerpo.
           if grep -q '[⚠⚖✦⚓]' <<<"$texto"; then
-            echo "::error file=$pdf::Iconos de admonition en el cuerpo; el importador debería haberlos retirado"
+            echo "::error file=$pdf::Iconos de admonition en el cuerpo del PDF"
             errores=1
           fi
         done
