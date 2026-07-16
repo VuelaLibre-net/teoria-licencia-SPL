@@ -694,9 +694,9 @@ Volar con el morro pesado es más seguro que volar con la cola pesada, pero tien
 <cálculo-de-masa-y-centrado>
 Saber que el CG atrasado es peligroso no basta. El examen y el vuelo real exigen saber dónde está el CG antes de despegar, y el cálculo se reduce a tres conceptos y una fórmula.
 
-- #strong[Línea de referencia (]: un plano vertical imaginario que el fabricante define en el manual de vuelo, habitualmente el borde de ataque del ala en el encastre. Todas las distancias se miden desde aquí.
-- #strong[Brazo de palanca (]: la distancia horizontal desde el #emph[datum] hasta el punto donde actúa cada peso. Por convenio, positiva hacia atrás y negativa hacia delante.
-- #strong[Momento (]: el producto de cada peso por su brazo. Es la "fuerza de giro" que ese peso ejerce sobre el conjunto.
+- #strong[Línea de referencia (#emph[Datum])]: un plano vertical imaginario que el fabricante define en el manual de vuelo, habitualmente el borde de ataque del ala en el encastre. Todas las distancias se miden desde aquí.
+- #strong[Brazo de palanca (#emph[Arm])]: la distancia horizontal desde el #emph[datum] hasta el punto donde actúa cada peso. Por convenio, positiva hacia atrás y negativa hacia delante.
+- #strong[Momento (#emph[Moment])]: el producto de cada peso por su brazo. Es la "fuerza de giro" que ese peso ejerce sobre el conjunto.
 
 La posición del CG es la media ponderada de todos los momentos (#ref(<fig-07-cap01-datum-momento>, supplement: [Figura])):
 
