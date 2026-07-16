@@ -392,10 +392,11 @@
   if d.func() == block and d.has("body") { d.body } else { d }
 }
 
-// El hueco entre entradas debe superar claramente al interlineado (0.65em) o el
-// ojo no distingue dónde acaba una definición y empieza la siguiente. Se usa el
-// mismo valor que las listas del cuerpo, por coherencia.
-#show terms.item: it => block(breakable: false, below: 0.95em, width: 100%)[
+// El hueco entre entradas debe superar claramente al interlineado (hoy 0.75em)
+// o el ojo no distingue dónde acaba una definición y empieza la siguiente. Se
+// usa el mismo valor que las listas del cuerpo, por coherencia: si se toca el
+// leading en lib.typ, hay que revisar este número.
+#show terms.item: it => block(breakable: false, below: 1.2em, width: 100%)[
   #text(weight: "bold")[#it.term]#h(0.35em)#sym.dash.em#h(0.35em)#_glosario-descripcion(it.description)
 ]
 // Resumen de capítulo con aspecto de post-it, como en el AsciiDoc original.
@@ -435,6 +436,51 @@
     )
   },
 )
+// Dedicatoria y epígrafe, compuestos según la práctica editorial habitual:
+// cada uno en su propia página impar (recto), sin título, y separados entre sí
+// —juntarlos en la misma página es un error clásico—.
+//
+// Ambos llevan `pagebreak(to: "odd")` propio porque sus ficheros no tienen
+// encabezado: el salto de página lo hace normalmente el `show heading` de
+// orange-book sobre los H1, y aquí no hay ninguno.
+
+// Dedicatoria: centrada verticalmente, alineada a la derecha y en cuerpo
+// grande. Sin título: se reconoce por su posición y su forma, como en cualquier
+// libro impreso.
+#let dedicatoria(body) = {
+  pagebreak(to: "odd")
+  // Centrada verticalmente: mismo muelle arriba que abajo.
+  v(1fr)
+  block(width: 100%, inset: (right: 0.5cm))[
+    #set align(right)
+    #set par(first-line-indent: 0em, justify: false, leading: 0.8em)
+    #set text(size: 1.45em, style: "italic")
+    #body
+  ]
+  v(1fr)
+}
+
+// Epígrafe: la cita va en su propia página, más discreta que la dedicatoria y
+// desplazada hacia el primer tercio, que es donde se coloca por convención.
+#let epigrafe(body) = {
+  pagebreak(to: "odd")
+  v(1fr)
+  block(width: 100%, inset: (left: 4cm))[
+    #set align(left)
+    #set par(first-line-indent: 0em, justify: false, leading: 0.75em)
+    #set text(size: 1.05em, style: "italic")
+    #body
+  ]
+  v(3fr)
+}
+
+// Página de créditos (verso de la portada): letra menor que el cuerpo, como es
+// costumbre, para que no compita con el contenido.
+#let licencia(body) = {
+  set par(first-line-indent: 0em, justify: false)
+  set text(size: 0.85em)
+  body
+}
 #import "@preview/fontawesome:0.5.0": *
 #let brand-color = (:)
 #let brand-color-background = (:)
@@ -484,9 +530,62 @@
 <principios-de-vuelo>
 Bienvenido a la versión digitalizada de este manual de formación SPL.
 
-#heading(level: 1, numbering: none)[Dedicatoria]
-<dedicatoria>
+#heading(level: 1, numbering: none)[Información Legal y Licencia]
+<información-legal-y-licencia>
+#licencia[
+#strong[Atribución y Fuentes]
+
 #quote(block: true)[
+El #strong[temario de esta colección ---el índice--- está avalado por AESA] (Agencia Estatal de Seguridad Aérea), la autoridad aeronáutica civil de España. Este aval certifica que el programa de formación teórica para la Licencia de Piloto de Planeador (SPL) es conforme al syllabus del AMC1 SFCL.130; no obstante, el desarrollo del contenido es responsabilidad exclusiva de los autores.
+
+El contenido se basa en la síntesis de normativas oficiales, estándares de seguridad de la #strong[OACI] (Organización de Aviación Civil Internacional) y de #strong[EASA] (European Union Aviation Safety Agency), así como de las mejores prácticas de la comunidad de vuelo a vela española, recogidas por varios instructores, y recopiladas por el instructor Iñaqui Ulibarri García de la Cueva para los aeroclubs de Ocaña y Fuentemilanos.
+]
+
+#strong[EXENCIÓN DE RESPONSABILIDAD - USO BAJO PROPIO RIESGO]
+
+La aviación es una actividad que conlleva riesgos inherentes. Aunque se ha realizado un esfuerzo exhaustivo para garantizar la precisión técnica de este manual utilizando fuentes oficiales actualizadas:
+
+- #strong[Los autores, editores y colaboradores NO asumen responsabilidad alguna] por daños personales, materiales o de cualquier otra índole que pudieran derivarse de interpretaciones erróneas o errores técnicos en el texto.
+- Este manual es una #strong[herramienta de apoyo al estudio] y no sustituye en ningún caso ni a la instrucción teórica ni a la práctica obligatoria con un instructor de vuelo cualificado (FI(S)).
+- En caso de discrepancia con la normativa vigente publicada por AESA o EASA, prevalecerá siempre el texto legal oficial de la autoridad aeronáutica.
+
+#strong[LICENCIA]
+
+Esta obra se distribuye bajo licencia #strong[Creative Commons Atribución 4.0 Internacional (CC BY 4.0)].
+
+Usted es libre de:
+
+- #strong[Compartir]: Copiar y redistribuir el material en cualquier medio.
+- #strong[Adaptar]: Remezclar, transformar y construir a partir del material para cualquier propósito incluso comercialmente.
+
+Bajo los siguientes términos:
+
+- #strong[Atribución]: Debe otorgar el crédito correspondiente, proporcionar un enlace a la licencia e indicar si se realizaron cambios. Puede hacerlo de cualquier manera razonable, pero no de una manera que sugiera que el licenciante lo respalda a usted o a su uso.
+
+Más información: #link("https://creativecommons.org/licenses/by/4.0/deed.es")
+
+#strong[Proyecto]
+
+Manual de vuelo para la obtención de la licencia de piloto de planeador (SPL)
+
+#strong[Coordinación]
+
+VuelaLibre.net
+
+#strong[Repositorio]
+
+#link("https://github.com/VuelaLibreNet/manual-spl")
+
+#strong[Licencia]
+
+CC BY 4.0
+
+#strong[Fuentes]
+
+AESA, EASA, OACI, SERA, AMCs & GM, LSA, manuales de vuelo de Fuentemilanos, FAA Glider Flying Handbook, y manuales de vuelo de otros paises de la UE.
+
+]
+#dedicatoria[
 #strong[A la memoria de Iñaqui Ulibarri García de la Cueva]
 
 El maestro que nos regaló las alas y nos enseñó a volar con sabiduría.
@@ -494,14 +593,14 @@ El maestro que nos regaló las alas y nos enseñó a volar con sabiduría.
 Aún te sentimos en el asiento de atrás; nos acompañas en cada térmica y en cada decisión al mando que tomamos recordando tus lecciones.
 
 Gracias por dejarnos tu inmensa pasión como la mejor de las herencias.
-]
 
-#quote(block: true)[
+]
+#epigrafe[
 "Un buen piloto es aquel que utiliza su excelente juicio para evitar situaciones que requieran su excelente habilidad."
 
  --- Frank Borman, piloto del Apolo 8 y referente de la disciplina aeronáutica.
-]
 
+]
 #heading(level: 1, numbering: none)[Reconocimientos]
 <reconocimientos>
 Este manual es el fruto de un esfuerzo colaborativo dentro de la comunidad de vuelo sin motor. Queremos expresar nuestro más sincero agradecimiento a:
@@ -1879,56 +1978,3 @@ La OACI desarrolla las normas y métodos recomendados (SARPS) mediante 19 anexos
 - #strong[Glider Flying Handbook (FAA-H-8083-13B)]. Federal Aviation Administration (FAA), U.S. Department of Transportation. Obra en dominio público; fuente de buena parte de las ilustraciones técnicas de la colección. #link("https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/glider_handbook")
 - #strong[Methodik der Segelflugausbildung] (#emph[Segelflugrechte], Rev.~2). Deutscher Aero Club (DAeC), 2022. Metodología alemana de instrucción de vuelo a vela. #link("https://www.daec.de/media/files/2022/Sportarten/Segelflug/Methodik_der_Segelflugausbildung_Segelflugrechte_Rev.2.pdf")
 - #strong[Vuelo sin motor: técnicas avanzadas]. Helmut Reichmann. Edición española de la obra de referencia internacional sobre la técnica del vuelo de distancia (orig. #emph[Streckensegelflug]\; ed.~inglesa, #emph[Cross-Country Soaring]). ISBN 978-84-283-1567-8.
-
-#heading(level: 1, numbering: none)[Información Legal y Licencia]
-<información-legal-y-licencia>
-#strong[Atribución y Fuentes]
-
-#quote(block: true)[
-El #strong[temario de esta colección ---el índice--- está avalado por AESA] (Agencia Estatal de Seguridad Aérea), la autoridad aeronáutica civil de España. Este aval certifica que el programa de formación teórica para la Licencia de Piloto de Planeador (SPL) es conforme al syllabus del AMC1 SFCL.130; no obstante, el desarrollo del contenido es responsabilidad exclusiva de los autores.
-
-El contenido se basa en la síntesis de normativas oficiales, estándares de seguridad de la #strong[OACI] (Organización de Aviación Civil Internacional) y de #strong[EASA] (European Union Aviation Safety Agency), así como de las mejores prácticas de la comunidad de vuelo a vela española, recogidas por varios instructores, y recopiladas por el instructor Iñaqui Ulibarri García de la Cueva para los aeroclubs de Ocaña y Fuentemilanos.
-]
-
-#strong[EXENCIÓN DE RESPONSABILIDAD - USO BAJO PROPIO RIESGO]
-
-La aviación es una actividad que conlleva riesgos inherentes. Aunque se ha realizado un esfuerzo exhaustivo para garantizar la precisión técnica de este manual utilizando fuentes oficiales actualizadas:
-
-- #strong[Los autores, editores y colaboradores NO asumen responsabilidad alguna] por daños personales, materiales o de cualquier otra índole que pudieran derivarse de interpretaciones erróneas o errores técnicos en el texto.
-- Este manual es una #strong[herramienta de apoyo al estudio] y no sustituye en ningún caso ni a la instrucción teórica ni a la práctica obligatoria con un instructor de vuelo cualificado (FI(S)).
-- En caso de discrepancia con la normativa vigente publicada por AESA o EASA, prevalecerá siempre el texto legal oficial de la autoridad aeronáutica.
-
-#strong[LICENCIA]
-
-Esta obra se distribuye bajo licencia #strong[Creative Commons Atribución 4.0 Internacional (CC BY 4.0)].
-
-Usted es libre de:
-
-- #strong[Compartir]: Copiar y redistribuir el material en cualquier medio.
-- #strong[Adaptar]: Remezclar, transformar y construir a partir del material para cualquier propósito incluso comercialmente.
-
-Bajo los siguientes términos:
-
-- #strong[Atribución]: Debe otorgar el crédito correspondiente, proporcionar un enlace a la licencia e indicar si se realizaron cambios. Puede hacerlo de cualquier manera razonable, pero no de una manera que sugiera que el licenciante lo respalda a usted o a su uso.
-
-Más información: #link("https://creativecommons.org/licenses/by/4.0/deed.es")
-
-#strong[Proyecto]
-
-Manual de vuelo para la obtención de la licencia de piloto de planeador (SPL)
-
-#strong[Coordinación]
-
-VuelaLibre.net
-
-#strong[Repositorio]
-
-#link("https://github.com/VuelaLibreNet/manual-spl")
-
-#strong[Licencia]
-
-CC BY 4.0
-
-#strong[Fuentes]
-
-AESA, EASA, OACI, SERA, AMCs & GM, LSA, manuales de vuelo de Fuentemilanos, FAA Glider Flying Handbook, y manuales de vuelo de otros paises de la UE.

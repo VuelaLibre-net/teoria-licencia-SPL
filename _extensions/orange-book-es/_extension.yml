@@ -8,6 +8,7 @@ contributes:
       include-in-header:
         - glosario.typ
         - postit.typ
+        - preliminares.typ
       template-partials:
         - numbering.typ
         - page.typ

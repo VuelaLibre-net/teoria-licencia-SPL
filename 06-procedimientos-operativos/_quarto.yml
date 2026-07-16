@@ -9,7 +9,9 @@ book:
   author: "VuelaLibre.net"
   chapters:
     - index.qmd
+    - licencia.qmd
     - dedicatoria.qmd
+    - epigrafe.qmd
     - reconocimientos.qmd
     - introduccion.qmd
     - cap01-requisitos-generales.qmd
@@ -24,7 +26,6 @@ book:
     - apendice-syllabus-oficial-easa---procedimientos-operativos.qmd
     - glosario.qmd
     - bibliografia.qmd
-    - colofon.qmd
 
 format:
   orange-book-es-typst:

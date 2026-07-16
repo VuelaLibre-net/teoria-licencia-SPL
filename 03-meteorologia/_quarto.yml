@@ -9,7 +9,9 @@ book:
   author: "VuelaLibre.net"
   chapters:
     - index.qmd
+    - licencia.qmd
     - dedicatoria.qmd
+    - epigrafe.qmd
     - reconocimientos.qmd
     - introduccion.qmd
     - cap01-la-atmósfera.qmd
@@ -26,7 +28,6 @@ book:
     - apendice-syllabus-oficial-easa---meteorología.qmd
     - glosario.qmd
     - bibliografia.qmd
-    - colofon.qmd
 
 format:
   orange-book-es-typst:

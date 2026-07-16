@@ -9,7 +9,9 @@ book:
   author: "VuelaLibre.net"
   chapters:
     - index.qmd
+    - licencia.qmd
     - dedicatoria.qmd
+    - epigrafe.qmd
     - reconocimientos.qmd
     - introduccion.qmd
     - cap01-masa-y-centro-de-gravedad.qmd
@@ -21,7 +23,6 @@ book:
     - apendice-syllabus-oficial-easa---planificación-y-rendimiento-de-vuelo.qmd
     - glosario.qmd
     - bibliografia.qmd
-    - colofon.qmd
 
 format:
   orange-book-es-typst:

@@ -9,7 +9,9 @@ book:
   author: "VuelaLibre.net"
   chapters:
     - index.qmd
+    - licencia.qmd
     - dedicatoria.qmd
+    - epigrafe.qmd
     - reconocimientos.qmd
     - introduccion.qmd
     - cap01-fundamentos-de-navegación.qmd
@@ -23,7 +25,6 @@ book:
     - apendice-syllabus-oficial-easa---navegación.qmd
     - glosario.qmd
     - bibliografia.qmd
-    - colofon.qmd
 
 format:
   orange-book-es-typst:
