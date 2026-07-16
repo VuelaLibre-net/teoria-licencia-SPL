@@ -33,7 +33,7 @@ Tres cosas que no puedes olvidar:
 Un error fatal es iniciar un viraje (por ejemplo, de tramo base a final) confiando únicamente en que "nadie ha cantado posición por la radio". Asegúrate siempre visualmente de que la pista y la aproximación final están libres de tráfico antes de virar.
 :::
 
-![Escucha activa de la frecuencia antes de la llegada](imagenes/04-cap02-frecuencia-correcta.jpg){#fig-04-cap02-escucha-previa}
+![Escucha activa de la frecuencia antes de la llegada: A lo largo del tiempo ha ido escuchando los eventos 1, 2, 3, etc.](imagenes/04-cap02-frecuencia-correcta.jpg){#fig-04-cap02-escucha-previa}
 
 ## La frecuencia correcta y el momento adecuado
 

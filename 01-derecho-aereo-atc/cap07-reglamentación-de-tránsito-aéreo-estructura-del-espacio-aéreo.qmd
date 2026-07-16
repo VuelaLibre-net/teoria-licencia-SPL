@@ -46,7 +46,7 @@ A veces el espacio es Clase G, libre, pero la autoridad quiere un poco de orden 
 * **TMZ** (**Transponder Mandatory Zone**): es obligatorio llevar el **transponder** encendido y monitorizar la frecuencia de radio correspondiente.
 
 ::: {.callout-tip title="Regla de oro"}
-Si ves una RMZ en el mapa, no entres mudo. Llama a la frecuencia indicada e informa: "Ibiza Información, EC-BOH, planeador, entrando en RMZ sector norte…​".
+Si ves una RMZ en el mapa, no entres mudo. Llama a la frecuencia indicada e informa: "Juliana Información, EC-OJE, planeador, entrando en RMZ sector norte…​".
 :::
 
 ## Zonas Prohibidas, Restringidas y Peligrosas
