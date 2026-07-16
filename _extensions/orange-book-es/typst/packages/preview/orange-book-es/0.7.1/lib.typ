@@ -30,38 +30,6 @@
 #let outline-heading3 = 1.1em;
 
 
-// Estado editorial del libro, deducido de su versión.
-//
-//   >= 1.0.0        completado           (sin marca)
-//   1.x-rc.n        en revisión          (es ANTERIOR a 1.x.0, no posterior:
-//                                         un candidato no es un lanzamiento)
-//   0.9.x           en revisión
-//   0.8.x           ilustraciones en preparación
-//   0.7.x y menos   en desarrollo
-//
-// Devuelve none cuando el libro está completado: es lo que apaga la marca de
-// agua y la nota de la portadilla.
-#let estado-de(version) = {
-  if version == none or version == "" { return none }
-  let pre = version.contains("-")
-  let partes = version.split("-").at(0).split(".")
-  if partes.len() < 2 { return none }
-  let mayor = int(partes.at(0))
-  let menor = int(partes.at(1))
-  if mayor >= 1 and not pre { return none }
-  if mayor >= 1 and pre { return "En revisión" }
-  if menor >= 9 { return "En revisión" }
-  if menor >= 8 { return "Creando ilustraciones" }
-  return "En desarrollo"
-}
-
-// Nota que acompaña a cada estado en la portadilla.
-#let _nota-estado = (
-  "En revisión": "Edición pendiente de revisión técnica por instructores. El contenido puede cambiar antes de la versión definitiva.",
-  "Creando ilustraciones": "El texto está completo; las ilustraciones aún se están elaborando.",
-  "En desarrollo": "Texto e ilustraciones en elaboración. Contenido provisional, sujeto a cambios.",
-)
-
 #let nocite(citation) = {
   place(hide[#cite(citation)])
 }
@@ -340,7 +308,7 @@
   }
 }
 
-#let book(title: "", subtitle: "", date: "", author: (), paper-size: "a4", width: none, height: none, margin: (inside: 3.5cm, outside: 2.5cm, top: 2.5cm, bottom: 2.5cm), logo: none, cover: none, cover-background: auto, image-index:none, body, main-color: blue, copyright: [], lang: "en", list-of-figure-title: none, list-of-table-title: none, supplement-chapter: "Chapter", supplement-part: "Part", font-size: 10pt, part-style: 0, part-font-size: auto, lowercase-references: false, padded-heading-number: true, outline-font-size: auto, outline-small-depth: 2, outline-small-width: 9.5cm, heading-style: 0, first-line-indent: false, outline-depth: 3, front-matter-end: "Introducción", version: none, fecha-actualizacion: none, cubierta: none, contracubierta: none) = {
+#let book(title: "", subtitle: "", date: "", author: (), paper-size: "a4", width: none, height: none, margin: (inside: 3.5cm, outside: 2.5cm, top: 2.5cm, bottom: 2.5cm), logo: none, cover: none, cover-background: auto, image-index:none, body, main-color: blue, copyright: [], lang: "en", list-of-figure-title: none, list-of-table-title: none, supplement-chapter: "Chapter", supplement-part: "Part", font-size: 10pt, part-style: 0, part-font-size: auto, lowercase-references: false, padded-heading-number: true, outline-font-size: auto, outline-small-depth: 2, outline-small-width: 9.5cm, heading-style: 0, first-line-indent: false, outline-depth: 3, front-matter-end: "Introducción", version: none, fecha-actualizacion: none, cubierta: none, contracubierta: none, estado: none, estado-nota: none) = {
 
   let supplement-chapter = if lang == "es" and supplement-chapter == "Chapter" { "Capítulo" } else { supplement-chapter }
   let supplement-part = if lang == "es" and supplement-part == "Part" { "Parte" } else { supplement-part }
@@ -384,7 +352,11 @@
     part-font-size = huge-text
   }
 
-  let estado = estado-de(version)
+  // `estado` y `estado-nota` llegan como metadatos: los calcula el Makefile a
+  // partir de la versión, porque es el único punto por el que pasan los dos
+  // formatos. Calcularlo aquí dejaría al EPUB sin enterarse.
+  // Cadena vacía = libro completado: ni marca ni nota.
+  let estado = if estado == "" { none } else { estado }
 
   // Marca de agua diagonal con el estado.
   //
@@ -680,14 +652,14 @@
         ]
       ]
       // Nota del estado, bajo la versión y la fecha. Sólo si el libro no está
-      // completado: en ese caso estado-de() devuelve none y no se imprime nada.
+      // completado: el Makefile manda una cadena vacía y no se imprime nada.
       #if estado != none [
         #v(0.5cm, weak: true)
         #block(width: 80%)[
           #set par(justify: false, leading: 0.6em)
           #text(size: 0.85em, weight: "bold", fill: rgb(180, 30, 30), upper(estado))
           #linebreak()
-          #text(size: 0.8em, fill: rgb(70, 70, 70), _nota-estado.at(estado, default: ""))
+          #text(size: 0.8em, fill: rgb(70, 70, 70), estado-nota)
         ]
       ]
     ]))

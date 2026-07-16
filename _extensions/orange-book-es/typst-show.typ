@@ -25,6 +25,12 @@ $endif$
 $if(contracubierta)$
   contracubierta: image("$contracubierta$"),
 $endif$
+$if(estado)$
+  estado: "$estado$",
+$endif$
+$if(estado-nota)$
+  estado-nota: "$estado-nota$",
+$endif$
 $if(lang)$
   lang: "$lang$",
 $endif$

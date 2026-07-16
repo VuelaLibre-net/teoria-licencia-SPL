@@ -44,6 +44,32 @@ fecha_libro = $$(iso=$$(git log -1 --format=%cs -- $(1)/ 2>/dev/null || date +%F
 	set -- $(MESES); shift $$(expr $$m - 1); \
 	echo "$$(expr $$d + 0) de $$1 de $$y")
 version_quarto = $$(quarto --version 2>/dev/null || echo "?")
+version_libro = $$(sed -n 's/^version: *"\{0,1\}\([^"]*\)"\{0,1\}/\1/p' $(1)/_quarto.yml | head -1)
+
+# Estado editorial del libro, deducido de su versión. Se calcula AQUÍ y no en
+# Typst porque el Makefile es el único punto por el que pasan los dos formatos:
+# el EPUB no ejecuta nada de la extensión typst y se quedaba sin enterarse del
+# estado. Una sola fuente para PDF y EPUB.
+#
+#   >= 1.0.0        completado (cadena vacía: apaga la marca y la nota)
+#   1.x-rc.n        en revisión   (un candidato es ANTERIOR a la 1.x.0)
+#   0.9.x           en revisión
+#   0.8.x           creando ilustraciones
+#   0.7.x y menos   en desarrollo
+estado_libro = $$(v=$(call version_libro,$(1)); \
+	case "$$v" in *-*) pre=1 ;; *) pre=0 ;; esac; \
+	base=$${v%%-*}; may=$$(echo "$$base" | cut -d. -f1); men=$$(echo "$$base" | cut -d. -f2); \
+	case "$$may$$men" in *[!0-9]*|"") echo ""; exit ;; esac; \
+	if [ "$$may" -ge 1 ] && [ "$$pre" -eq 0 ]; then echo ""; \
+	elif [ "$$may" -ge 1 ] || [ "$$men" -ge 9 ]; then echo "En revisión"; \
+	elif [ "$$men" -ge 8 ]; then echo "Creando ilustraciones"; \
+	else echo "En desarrollo"; fi)
+
+nota_libro = $$(case "$(call estado_libro,$(1))" in \
+	"En revisión") echo "Edición pendiente de revisión técnica por instructores. El contenido puede cambiar antes de la versión definitiva." ;; \
+	"Creando ilustraciones") echo "El texto está completo; las ilustraciones aún se están elaborando." ;; \
+	"En desarrollo") echo "Texto e ilustraciones en elaboración. Contenido provisional, sujeto a cambios." ;; \
+	*) echo "" ;; esac)
 
 # Compila el PDF del libro usando Typst via Quarto
 $(PDF_OUT)/%.pdf: %/index.qmd
@@ -51,7 +77,9 @@ $(PDF_OUT)/%.pdf: %/index.qmd
 	@echo "==> [Quarto] Renderizando PDF (Typst) para $*..."
 	quarto render $*/ --to orange-book-es-typst \
 	  --metadata fecha-actualizacion="$(call fecha_libro,$*)" \
-	  --metadata version-quarto="$(call version_quarto)"
+	  --metadata version-quarto="$(call version_quarto)" \
+	  --metadata estado="$(call estado_libro,$*)" \
+	  --metadata estado-nota="$(call nota_libro,$*)"
 	@mv $*/_book/*.pdf $@
 	@echo "✓ PDF generado en $@"
 
@@ -61,7 +89,9 @@ $(EPUB_OUT)/%.epub: %/index.qmd
 	@echo "==> [Quarto] Renderizando EPUB para $*..."
 	quarto render $*/ --to epub \
 	  --metadata fecha-actualizacion="$(call fecha_libro,$*)" \
-	  --metadata version-quarto="$(call version_quarto)"
+	  --metadata version-quarto="$(call version_quarto)" \
+	  --metadata estado="$(call estado_libro,$*)" \
+	  --metadata estado-nota="$(call nota_libro,$*)"
 	@mv $*/_book/*.epub $@
 	@echo "✓ EPUB generado en $@"
 
