@@ -59,6 +59,37 @@
   body
 }
 
+// Créditos personales de los reconocimientos: nombre destacado y, debajo y
+// sangradas, las titulaciones y el cargo. Es la forma habitual del apartado en
+// un libro técnico: el ojo baja por la columna de nombres, que es lo que se
+// busca, y el detalle queda subordinado sin estorbar.
+//
+// Se apoya en la lista de definición de Pandoc —nombre = término, titulaciones
+// = descripción— porque es lo que son, y porque así el EPUB recibe un <dl> sin
+// necesidad de marcado propio. Pandoc funde las varias descripciones de una
+// misma persona en un solo #block con un párrafo cada una.
+//
+// ⚠️ El `show terms.item` de glosario.typ es global y maquetaría esto en línea,
+// como una entrada de glosario. La regla local de aquí lo sobrescribe DENTRO de
+// este bloque y sólo aquí: fuera, el glosario conserva la suya. Por eso los
+// créditos tienen que ir envueltos en `::: {.creditos}`; sin el envoltorio no
+// hay ámbito que valga y saldrían con el aspecto del glosario.
+#let creditos(body) = {
+  show terms.item: it => block(breakable: false, below: 1.15em, width: 100%)[
+    // Sans y negrita: el nombre destaca sobre el cuerpo en serif sin recurrir a
+    // un tamaño grande, que en una lista de siete daría aspecto de escalera.
+    // Libertinus Sans no tiene semibold —Typst caería a bold en silencio—, así
+    // que se pide bold, que es lo que de verdad se compone.
+    #text(font: "Libertinus Sans", size: 1.05em, weight: "bold")[#it.term]
+    #block(inset: (left: 1.2em), above: 0.35em)[
+      #set par(first-line-indent: 0em, justify: false, leading: 0.55em, spacing: 0.45em)
+      #set text(size: 0.85em, fill: luma(90))
+      #it.description
+    ]
+  ]
+  body
+}
+
 // Colofón: notas de producción al final del libro. Es el sentido estricto del
 // término, y por eso va aquí y no al principio (lo que hasta ahora se llamaba
 // colofon.qmd era en realidad la página de créditos: ahora es licencia.qmd).

@@ -17,6 +17,7 @@ local ENVOLTORIOS = {
   epigrafe = "epigrafe",
   licencia = "licencia",
   colofon = "colofon",
+  creditos = "creditos",
 }
 
 local function funcion_para(el)

@@ -9,9 +9,15 @@
 // el contenido no lleva ni una sola referencia al glosario. Esto reproduce su
 // aspecto sobre la lista de definición nativa, que sí sale en PDF y en EPUB.
 //
-// Alcance: todas las listas de términos de la colección salen del glosario. Los
-// ': ' que aparecen en los capítulos son pies de tabla de Quarto, que comparten
-// sintaxis pero no generan `terms`. Por eso esta regla no necesita acotarse.
+// Alcance: esta regla es GLOBAL y alcanza a cualquier lista de definición del
+// libro, no sólo al glosario. Los ': ' de los capítulos son pies de tabla de
+// Quarto: comparten sintaxis pero no generan `terms`, así que no le afectan.
+//
+// La excepción son los créditos de los reconocimientos, que también son una
+// lista de términos y no deben salir con este aspecto. `creditos()`, en
+// preliminares.typ, redefine `terms.item` dentro de su bloque y sobrescribe
+// esta regla sólo ahí. Si se añade otra lista de definición fuera del glosario,
+// hereda esto salvo que haga lo mismo.
 //
 // No se colorea el término: brand-color se define después de este include, así
 // que no es legible desde aquí, y la negrita es además el estilo por defecto de

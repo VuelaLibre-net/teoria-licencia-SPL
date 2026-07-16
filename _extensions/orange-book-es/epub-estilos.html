@@ -69,6 +69,27 @@ div.licencia {
   font-size: 0.9em;
 }
 
+/* Créditos de los reconocimientos: nombre destacado y, debajo y sangradas, las
+ * titulaciones. Pandoc emite la lista de definición como <dl>/<dt>/<dd>, así
+ * que aquí no hace falta marcado propio: sólo darle el mismo aspecto que en el
+ * PDF. El <dd> ya viene sangrado por el navegador; se fija el margen para no
+ * depender de su valor por defecto. */
+div.creditos dt {
+  font-weight: 600;
+  font-size: 1.05em;
+  margin-top: 1.1em;
+}
+
+div.creditos dd {
+  margin: 0.2em 0 0 1.5em;
+  font-size: 0.85em;
+  color: #5a5a5a;
+}
+
+div.creditos dd p {
+  margin: 0.15em 0;
+}
+
 /* Colofón: notas de producción al cierre del libro. */
 div.colofon {
   text-align: center;
