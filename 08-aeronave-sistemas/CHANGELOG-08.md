@@ -14,6 +14,31 @@ más antigua.
 exige que la versión en curso tenga su entrada aquí**: subir la versión sin registrar qué cambió
 rompe la compilación.
 
+## [En curso]
+
+Cambios ya en `main` —y por tanto en los entregables que compila el CI— a los que todavía no se les
+ha asignado número: el `version:` de `_quarto.yml` no se ha movido.
+
+**Qué releer:** **Sólo el epígrafe**, que es una página. El temario no cambia ni una línea; lo que
+cambia es la cita con la que abre el libro, y si encaja con la asignatura es criterio editorial.
+
+### Cambiado
+
+* **Epígrafe** — el libro abre ahora con una cita propia, de Antoine de Saint-Exupéry,
+  elegida para esta asignatura. Los 9 libros compartían la misma cita de Frank Borman,
+  que además pertenece a Factores Humanos.
+
+### Maqueta y producción
+
+Nada de esto altera lo que el lector aprende; el revisor puede saltárselo.
+
+* Los entregables llevan ahora la versión y la fecha en el nombre
+  (`08-aeronave-sistemas-0.8.1-26-07-16.pdf`), para identificarlos sin abrirlos.
+* Los EPUB se publicaban como **XHTML mal formado**: unos comentarios del CSS abrían etiquetas que
+  nunca cerraban y un lector estricto podía rechazarlos. Corregido, y el CI lo comprueba ahora.
+* Cada libro abre con su propia cita, así que el guardián que exigía epígrafes idénticos se ha
+  invertido: ahora exige que los 9 sean distintos.
+
 ## [0.8.1] — 16 de julio de 2026
 
 Versión base del registro. Lo anterior a esta fecha no está detallado entrada por entrada: el libro

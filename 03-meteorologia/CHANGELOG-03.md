@@ -19,20 +19,32 @@ rompe la compilación.
 Cambios ya en `main` —y por tanto en los entregables que compila el CI— a los que todavía no se les
 ha asignado número: el `version:` de `_quarto.yml` no se ha movido.
 
-**Qué releer:** **El alcance de las dos secciones marcadas, no su texto.** No cambia ni una palabra
-del contenido; cambia qué queda señalado como ajeno al examen. Merece confirmar que el corte está
-donde debe, sobre todo en `cap03`: allí el gris abarca también las tres subsecciones (TT, K-Index,
-CAPE y LI), que es justo el material que la marca pretende cubrir.
+**Qué releer:** **El epígrafe y el alcance de las secciones marcadas; ni una línea del temario.** El
+texto de los capítulos no cambia. Lo que cambia es la cita con la que abre el libro y qué queda
+señalado como ajeno al examen: las dos son decisiones editoriales, y se confirman en un minuto.
 
 ### Cambiado
 
 * **cap03, «Índices de estabilidad: el termómetro del día»** — la sección queda marcada entera como
   «Más allá del examen», sobre fondo gris, incluidas sus tres subsecciones. Antes la marca era sólo
   una entradilla al principio y no se veía dónde acababa el material avanzado.
-* **cap10, «Sondeos termodinámicos y curvas de temperatura»** — igual, sin subsecciones.
+* **cap10, «Sondeos termodinámicos y curvas de temperatura»** — igual, sin subsecciones. En los dos
+  capítulos el resumen queda fuera del gris, como manda la convención: este material no se recoge en
+  el post-it.
+* **Epígrafe** — el libro abre ahora con una cita propia, de Wilbur Wright, elegida para esta
+  asignatura. Los 9 libros compartían la misma cita de Frank Borman, que además pertenece a Factores
+  Humanos.
 
-En ambos, el resumen del capítulo queda fuera del gris, como manda la convención: este material no
-se recoge en el post-it.
+### Maqueta y producción
+
+Nada de esto altera lo que el lector aprende; el revisor puede saltárselo.
+
+* Los entregables llevan ahora la versión y la fecha en el nombre
+  (`03-meteorologia-1.0-rc.4-26-07-16.pdf`), para identificarlos sin abrirlos.
+* Los EPUB se publicaban como **XHTML mal formado**: unos comentarios del CSS abrían etiquetas que
+  nunca cerraban y un lector estricto podía rechazarlos. Corregido, y el CI lo comprueba ahora.
+* Cada libro abre con su propia cita, así que el guardián que exigía epígrafes idénticos se ha
+  invertido: ahora exige que los 9 sean distintos.
 
 ## [1.0-rc.4] — 16 de julio de 2026
 
