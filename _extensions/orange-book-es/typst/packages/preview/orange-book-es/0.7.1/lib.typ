@@ -24,28 +24,19 @@
 #let title4 = 1.2em
 #let title5 = 11pt
 
-// Tamaños del índice, la lista de ilustraciones y la de tablas.
+// ⚠️ Estos cuatro valores ya NO gobiernan el índice: los deja orange-book en
+// `em` y el índice se emite desde un `show heading`, donde un `em` se resuelve
+// contra el tamaño vigente ahí (14pt) y no contra el cuerpo del libro (10pt).
+// Los 1.5/1.3/1.1/1.1em no eran 15/13/11/11pt sino 21/18,2/15,4/15,4.
 //
-// orange-book los da a 1.5 / 1.3 / 1.1 / 1.1em, y con el cuerpo a 10pt eso deja
-// TODOS los niveles por encima del texto del libro: hasta la subsección más
-// profunda (11pt) es mayor que lo que se lee (10pt). El índice acababa pesando
-// más que el contenido al que sirve.
-//
-// La convención en composición de libros es la contraria: el índice es una
-// ayuda de navegación y se compone al tamaño del cuerpo o por debajo. La
-// jerarquía la dan la sangría, el peso y el color —que orange-book ya usa: el
-// capítulo va en negrita y en el color de marca—, no un cuerpo mayor.
-//
-// Con font-size = 10pt esto da 13 / 11,5 / 9,5 / 8,5 pt. Sólo el capítulo queda
-// por encima del cuerpo, y poco: es la línea que se busca al hojear el índice y
-// necesita separarse de sus secciones, que en este formato van también en
-// negrita y en color. Sección y subsección bajan del cuerpo, y además dejan de
-// medir lo mismo: orange-book les daba 1.1em a las dos y sólo las distinguía el
-// peso.
-#let outline-part = 1.3em;
-#let outline-heading1 = 1.15em;
-#let outline-heading2 = 0.95em;
-#let outline-heading3 = 0.85em;
+// Los tamaños de verdad se calculan en puntos desde `font-size`, en la llamada
+// a my-outline() y a my-outline-sec(). Estas constantes sólo alimentan ya el
+// índice reducido de las páginas de parte (my-outline-small), que la colección
+// no usa. Se dejan como están para no separarse de orange-book sin motivo.
+#let outline-part = 1.5em;
+#let outline-heading1 = 1.3em;
+#let outline-heading2 = 1.1em;
+#let outline-heading3 = 1.1em;
 
 
 #let nocite(citation) = {
@@ -759,7 +750,17 @@
       heading-image.update(x =>
         image-index
       )
-      my-outline(appendix-state, appendix-state-hide-parent, part-state, part-location,part-change,part-counter, main-color, textSize1: outline-part, textSize2: outline-heading1, textSize3: outline-heading2, textSize4: outline-heading3, depth: outline-depth, outline-font-size: outline-font-size)
+      // ⚠️ Los tamaños van en PUNTOS, calculados aquí desde `font-size`, y no en
+      // `em` como los da orange-book.
+      //
+      // El índice se emite desde este `show heading`, así que un `em` NO se
+      // resuelve contra el cuerpo del libro sino contra el tamaño vigente en
+      // este punto, que es 14pt. Los 1.5/1.3/1.1/1.1em de orange-book no eran
+      // 15/13/11/11pt sino 21/18,2/15,4/15,4: el índice medía casi el doble que
+      // el texto al que sirve. Nada lo delata en el PDF salvo medirlo.
+      //
+      // A `font-size` (10pt) esto da 13 / 11,5 / 9,5 / 8,5 pt. Ver CLAUDE.md.
+      my-outline(appendix-state, appendix-state-hide-parent, part-state, part-location,part-change,part-counter, main-color, textSize1: font-size * 1.3, textSize2: font-size * 1.15, textSize3: font-size * 0.95, textSize4: font-size * 0.85, depth: outline-depth, outline-font-size: outline-font-size)
       // Quarto NO usa los kinds nativos de Typst: emite las figuras con
       // kind: "quarto-float-fig" y las tablas con "quarto-float-tbl". Buscar
       // `image` y `table`, como hace orange-book, no casa con nada y deja las
@@ -774,10 +775,10 @@
           // Las figuras sin pie no salen en la lista
           #show figure.where(caption: none): set figure(outlined: false)
           #if figuras.len() > 0 {
-            my-outline-sec(list-of-figure-title, figure.where(kind: "quarto-float-fig"), outline-heading3)
+            my-outline-sec(list-of-figure-title, figure.where(kind: "quarto-float-fig"), font-size * 0.95)
           }
           #if tablas.len() > 0 {
-            my-outline-sec(list-of-table-title, figure.where(kind: "quarto-float-tbl"), outline-heading3)
+            my-outline-sec(list-of-table-title, figure.where(kind: "quarto-float-tbl"), font-size * 0.95)
           }
         ]
       }
