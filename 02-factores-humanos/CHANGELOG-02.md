@@ -32,6 +32,8 @@ cambia es la cita con la que abre el libro, y si encaja con la asignatura es cri
 
 Nada de esto altera lo que el lector aprende; el revisor puede saltárselo.
 
+* El índice, la lista de ilustraciones y la de tablas bajan de cuerpo. Estaban a 15/13/11/11 pt
+  con el texto del libro a 10: hasta la subsección más profunda era mayor que lo que se lee.
 * La banda azul de la portadilla crece si el título no cabe en una línea. Tenía altura fija y
   el título del libro 8 la desbordaba, dejando la nota de estado y la versión pisándose fuera
   del recuadro.
