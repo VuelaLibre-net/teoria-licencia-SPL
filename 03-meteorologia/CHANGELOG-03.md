@@ -14,6 +14,26 @@ más antigua.
 exige que la versión en curso tenga su entrada aquí**: subir la versión sin registrar qué cambió
 rompe la compilación.
 
+## [En curso]
+
+Cambios ya en `main` —y por tanto en los entregables que compila el CI— a los que todavía no se les
+ha asignado número: el `version:` de `_quarto.yml` no se ha movido.
+
+**Qué releer:** **El alcance de las dos secciones marcadas, no su texto.** No cambia ni una palabra
+del contenido; cambia qué queda señalado como ajeno al examen. Merece confirmar que el corte está
+donde debe, sobre todo en `cap03`: allí el gris abarca también las tres subsecciones (TT, K-Index,
+CAPE y LI), que es justo el material que la marca pretende cubrir.
+
+### Cambiado
+
+* **cap03, «Índices de estabilidad: el termómetro del día»** — la sección queda marcada entera como
+  «Más allá del examen», sobre fondo gris, incluidas sus tres subsecciones. Antes la marca era sólo
+  una entradilla al principio y no se veía dónde acababa el material avanzado.
+* **cap10, «Sondeos termodinámicos y curvas de temperatura»** — igual, sin subsecciones.
+
+En ambos, el resumen del capítulo queda fuera del gris, como manda la convención: este material no
+se recoge en el post-it.
+
 ## [1.0-rc.4] — 16 de julio de 2026
 
 Versión base del registro. Lo anterior a esta fecha no está detallado entrada por entrada: el libro

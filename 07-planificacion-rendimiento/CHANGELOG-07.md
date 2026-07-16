@@ -14,6 +14,22 @@ más antigua.
 exige que la versión en curso tenga su entrada aquí**: subir la versión sin registrar qué cambió
 rompe la compilación.
 
+## [En curso]
+
+Cambios ya en `main` —y por tanto en los entregables que compila el CI— a los que todavía no se les
+ha asignado número: el `version:` de `_quarto.yml` no se ha movido.
+
+**Qué releer:** **El alcance de la sección marcada, no su texto.** No cambia ni una palabra del
+contenido; cambia qué queda señalado como ajeno al examen. Merece confirmar que el corte está donde
+debe.
+
+### Cambiado
+
+* **cap03, «Triángulo FAI y AAT: dos formas de competir»** — la sección queda marcada entera como
+  «Más allá del examen», sobre fondo gris. Antes la marca era sólo una entradilla al principio y no
+  se veía dónde acababa el material avanzado. El resumen del capítulo queda fuera del gris, como
+  manda la convención: este material no se recoge en el post-it.
+
 ## [0.8.1] — 16 de julio de 2026
 
 Versión base del registro. Lo anterior a esta fecha no está detallado entrada por entrada: el libro
