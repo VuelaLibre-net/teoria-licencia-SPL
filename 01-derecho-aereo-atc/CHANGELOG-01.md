@@ -19,15 +19,24 @@ rompe la compilación.
 Cambios ya en `main` —y por tanto en los entregables que compila el CI— a los que todavía no se les
 ha asignado número: el `version:` de `_quarto.yml` no se ha movido.
 
-**Qué releer:** **El `cap08` entero, y el epígrafe.** El resto del temario no cambia ni una línea.
+**Qué releer:** **El `cap08` entero, más los títulos tocados y el epígrafe.** El resto del temario no
+cambia ni una línea.
 
 El `cap08` sí: estrena un apartado sobre **Gestión del Tránsito Aéreo (ATM)** que antes no existía.
 El syllabus 1.8 lo pide junto al ATS y el capítulo sólo desarrollaba el ATS —tampoco lo hacía el
 AsciiDoc del que viene: «ATM» aparecía en toda la colección únicamente en esa línea del syllabus—.
 **Es contenido nuevo y necesita revisión técnica**, no sólo de estilo.
 
+Los títulos de capítulo se comían el paréntesis en inglés que trae el syllabus. El syllabus es la
+raíz del proyecto y el título copia su entrada; sólo se le aplica la norma española de mayúsculas y
+los términos ingleses van en cursiva. El CI lo comprueba ahora en los 78 capítulos de la colección.
+
 ### Cambiado
 
+* **Títulos de `cap02`, `cap08`, `cap11` y `cap12`** — pasan a decir lo que dice el syllabus:
+  «Aeronavegabilidad (*airworthiness*) de aeronaves», «Búsqueda y salvamento (*search and
+  rescue*)», «Seguridad (*security*)». El `cap08` conserva su texto y sólo ajusta las
+  mayúsculas a la norma española.
 * **cap08, «Servicio de Tránsito Aéreo (ATS) y Gestión del Tránsito Aéreo (ATM)»** — el título
   estaba truncado en «Servicio de Tránsito Aéreo (»: el importador de AsciiDoc se atragantó con las
   macros que iban dentro del paréntesis. Ahora es **idéntico a la entrada 1.8 del syllabus**, con sus

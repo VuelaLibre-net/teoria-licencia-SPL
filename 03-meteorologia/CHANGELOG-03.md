@@ -19,12 +19,17 @@ rompe la compilación.
 Cambios ya en `main` —y por tanto en los entregables que compila el CI— a los que todavía no se les
 ha asignado número: el `version:` de `_quarto.yml` no se ha movido.
 
-**Qué releer:** **El epígrafe y el alcance de las secciones marcadas; ni una línea del temario.** El
-texto de los capítulos no cambia. Lo que cambia es la cita con la que abre el libro y qué queda
-señalado como ajeno al examen: las dos son decisiones editoriales, y se confirman en un minuto.
+**Qué releer:** **Los títulos tocados, el epígrafe y el alcance de las secciones marcadas; ni una
+línea del temario.** El texto de los capítulos no cambia. Lo que cambia son decisiones editoriales
+—la cita de apertura y qué queda señalado como ajeno al examen—, y se confirman en un minuto.
+
+Los títulos de capítulo se comían el paréntesis en inglés que trae el syllabus. El syllabus es la
+raíz del proyecto y el título copia su entrada; sólo se le aplica la norma española de mayúsculas y
+los términos ingleses van en cursiva. El CI lo comprueba ahora en los 78 capítulos de la colección.
 
 ### Cambiado
 
+* **Título de `cap09`** — «Peligros para el vuelo (*flight hazards*)», como en el syllabus.
 * **cap03, «Índices de estabilidad: el termómetro del día»** — la sección queda marcada entera como
   «Más allá del examen», sobre fondo gris, incluidas sus tres subsecciones. Antes la marca era sólo
   una entradilla al principio y no se veía dónde acababa el material avanzado.

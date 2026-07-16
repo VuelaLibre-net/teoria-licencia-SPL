@@ -19,11 +19,18 @@ rompe la compilación.
 Cambios ya en `main` —y por tanto en los entregables que compila el CI— a los que todavía no se les
 ha asignado número: el `version:` de `_quarto.yml` no se ha movido.
 
-**Qué releer:** **Sólo el epígrafe**, que es una página. El temario no cambia ni una línea; lo que
-cambia es la cita con la que abre el libro, y si encaja con la asignatura es criterio editorial.
+**Qué releer:** **Los títulos de capítulo tocados y el epígrafe.** El cuerpo del temario no cambia ni
+una línea; los dos se comprueban de un vistazo.
+
+Los títulos de capítulo se comían el paréntesis en inglés que trae el syllabus. El syllabus es la
+raíz del proyecto y el título copia su entrada; sólo se le aplica la norma española de mayúsculas y
+los términos ingleses van en cursiva. El CI lo comprueba ahora en los 78 capítulos de la colección.
 
 ### Cambiado
 
+* **Títulos de `cap01`, `cap11`, `cap12` y `cap14`** — «Estructura (*airframe*)», «Sistemas de
+  lastre con agua (*water ballast systems*)», «Baterías (rendimiento y limitaciones
+  operativas)» y «Equipo de evacuación de emergencia (*emergency bail-out aid*)».
 * **Epígrafe** — el libro abre ahora con una cita propia, de Antoine de Saint-Exupéry,
   elegida para esta asignatura. Los 9 libros compartían la misma cita de Frank Borman,
   que además pertenece a Factores Humanos.
