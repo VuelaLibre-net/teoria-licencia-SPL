@@ -44,11 +44,18 @@
   ]
 }
 
-// Página de créditos (verso de la portada): letra menor que el cuerpo, como es
-// costumbre, para que no compita con el contenido.
+// Página de créditos. Letra menor que el cuerpo, como es costumbre, para que no
+// compita con el contenido; sin justificar, porque a este cuerpo la justificación
+// abre calles blancas; y con las líneas algo más sueltas, que a 0.85em el texto
+// se cierra.
+//
+// Los rótulos de sección van a la altura del texto, no como encabezados: una
+// página de créditos es una sola unidad, no un capítulo con apartados.
 #let licencia(body) = {
-  set par(first-line-indent: 0em, justify: false)
+  set par(first-line-indent: 0em, justify: false, leading: 0.7em, spacing: 0.9em)
   set text(size: 0.85em)
+  show strong: it => text(weight: "bold", it.body)
+  set list(spacing: 0.75em, marker: [--])
   body
 }
 
