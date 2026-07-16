@@ -34,7 +34,7 @@ El PAN PAN te da prioridad en las comunicaciones. No exige silencio total al res
 
 ## Estructura del mensaje de emergencia
 
-Con el corazón acelerado y las manos ocupadas, puede costar estructurar un mensaje. Pero los servicios de control y salvamento (SAR) necesitan información concreta para localizarte y ayudarte. Esta es la secuencia (@fig-04-cap08-llamada-emergencia):
+Con el corazón acelerado y las manos ocupadas, puede costar estructurar un mensaje. Pero los servicios de control y salvamento (SAR) necesitan información concreta para localizarte y ayudarte. Esta es la secuencia (@fig-04-cap06-llamada-emergencia):
 
 1. **A QUIÉN:** Nombre de la dependencia ATS.
 2. **QUIÉN:** Tipo de aeronave e indicativo completo.
@@ -49,7 +49,7 @@ Con el corazón acelerado y las manos ocupadas, puede costar estructurar un mens
 *Ejemplo de mensaje de urgencia (PAN PAN):*
 *«Pan Pan, Pan Pan, Pan Pan. Madrid Información. Velero ASK-21, EC-EPE. Sobre el embalse de Pinilla, 2.200 metros QNH 1018. Pérdida de altura progresiva sin térmica disponible. Planificando aterrizaje fuera de aeródromo en 10 minutos. 2 personas a bordo. Solicito información de campos en el área.»*
 
-![Estructura de la llamada de emergencia](imagenes/04-cap08-estructura-emergencia.jpg){#fig-04-cap08-llamada-emergencia}
+![Estructura de la llamada de emergencia](imagenes/04-cap06-estructura-emergencia.jpg){#fig-04-cap06-llamada-emergencia}
 
 ## La frecuencia adecuada
 
@@ -97,7 +97,7 @@ Despliega el tren (si es replegable), sigue al interceptor y, tras sobrevolar la
 
 Si el interceptor es mucho más rápido que tú —lo será siempre—, la norma ya lo prevé: hará circuitos de hipódromo a tu alrededor y alabeará cada vez que te adelante. No lo interpretes como una señal nueva; sigue siendo la serie 1.
 
-![Serie 1: el interceptor se coloca por delante y a tu izquierda, alabea y vira hacia el rumbo que debes seguir](imagenes/04-cap08-interceptacion-serie1.png){#fig-04-cap08-interceptacion-serie1}
+![Serie 1: el interceptor se coloca por delante y a tu izquierda, alabea y vira hacia el rumbo que debes seguir](imagenes/04-cap06-interceptacion-serie1.png){#fig-04-cap06-interceptacion-serie1}
 
 ### Qué debes hacer
 

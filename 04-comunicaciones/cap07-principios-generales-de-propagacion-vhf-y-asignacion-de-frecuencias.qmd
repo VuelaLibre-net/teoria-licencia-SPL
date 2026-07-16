@@ -43,13 +43,13 @@ El **squelch** es un circuito electrónico que actúa como una puerta de ruido. 
 No subas el squelch más allá del punto donde cesa el ruido. Si lo dejas «al máximo», las señales débiles de planeadores lejanos o de un ATC distante no tendrán fuerza suficiente para abrir la puerta. Creerás que la frecuencia está en silencio cuando en realidad alguien te está llamando.
 :::
 
-![Bloqueo orográfico de la señal VHF](imagenes/04-cap09-bloqueo-montana.jpg){#fig-04-cap09-bloqueo-montana}
+![Bloqueo orográfico de la señal VHF](imagenes/04-cap07-bloqueo-montana.jpg){#fig-04-cap07-bloqueo-montana}
 
 ## Bloqueo en montaña y relé de radio (*relay*)
 
 El vuelo a vela lleva a menudo a los planeadores a entornos orográficos complejos: laderas de los Pirineos, valles del Gredos, cajones del Sistema Central. Lejos de las llanuras y muy por debajo de las crestas.
 
-Las ondas VHF viajan en línea recta y no atraviesan la roca. Si bajas por debajo de la cresta que te separa de la torre de control o del repetidor FIS de ENAIRE más cercano, sufrirás un **bloqueo orográfico** total (@fig-04-cap09-bloqueo-montana). Da igual cuánta potencia tenga tu radio: la señal se estrella contra la piedra.
+Las ondas VHF viajan en línea recta y no atraviesan la roca. Si bajas por debajo de la cresta que te separa de la torre de control o del repetidor FIS de ENAIRE más cercano, sufrirás un **bloqueo orográfico** total (@fig-04-cap07-bloqueo-montana). Da igual cuánta potencia tenga tu radio: la señal se estrella contra la piedra.
 
 En alta montaña, anticipa esto con dos medidas:
 

@@ -25,11 +25,11 @@ Con la situación NORDO declarada, el plan es este:
 Si no tienes más remedio que aterrizar en un aeródromo controlado, acércate a la Torre por zonas que no interfieran con las operaciones y haz balanceos de alas (**wing rock**) para que te vean. Luego colócate paralelo a la pista, por delante de la torre, y mira las señales luminosas del ATC.
 :::
 
-![Señales con pistola de luces desde la Torre de Control](imagenes/04-cap07-senales-luces.jpg){#fig-04-cap07-pistola-luces}
+![Señales con pistola de luces desde la Torre de Control](imagenes/04-cap05-senales-luces.jpg){#fig-04-cap05-pistola-luces}
 
 ## Señales luminosas de la torre (Reglamento SERA)
 
-Desde los primeros aeródromos, las torres de control tienen focos direccionales con filtros de color —la «pistola de luces»— precisamente para esto: guiar a aeronaves sin radio (@fig-04-cap07-pistola-luces). Memoriza estas señales. Si algún día las necesitas, no habrá tiempo para buscarlas.
+Desde los primeros aeródromos, las torres de control tienen focos direccionales con filtros de color —la «pistola de luces»— precisamente para esto: guiar a aeronaves sin radio (@fig-04-cap05-pistola-luces). Memoriza estas señales. Si algún día las necesitas, no habrá tiempo para buscarlas.
 
 ::: {.callout-important title="Normativa"}
 Las señales luminosas de la Torre de Control están reguladas por el Reglamento de Ejecución (UE) n.º 923/2012 —Reglas Europeas Estandarizadas del Aire (**SERA**)—. Su correcto conocimiento e interpretación es obligatorio para todo piloto que opere en espacios aéreos con servicio ATC (Fuente: documentación oficial SERA, EASA / AESA).

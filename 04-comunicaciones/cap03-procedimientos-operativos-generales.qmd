@@ -107,9 +107,9 @@ Las consecuencias son graves:
 1. **Bloqueo total**: Mientras emites, **nadie más puede hablar ni recibir en esa frecuencia** en decenas o cientos de kilómetros, según tu altitud. Estás cortando las comunicaciones del ATC y las de emergencia de otros.
 2. **Sordera autoinducida**: Tu radio está transmitiendo, así que no recibes nada. Tú tampoco te enteras de lo que pasa en la frecuencia.
 
-El remedio es simple: **comprobación visual después de cada transmisión** (@fig-04-cap05-luz-tx). La mayoría de radios de panel tienen un indicador **TX** en pantalla que se ilumina mientras transmites. Comprueba siempre que **se apaga** al soltar el botón.
+El remedio es simple: **comprobación visual después de cada transmisión** (@fig-04-cap03-luz-tx). La mayoría de radios de panel tienen un indicador **TX** en pantalla que se ilumina mientras transmites. Comprueba siempre que **se apaga** al soltar el botón.
 
-![Comprobación del indicador de transmisión (TX)](imagenes/04-cap05-luz-tx.jpg){#fig-04-cap05-luz-tx}
+![Comprobación del indicador de transmisión (TX)](imagenes/04-cap03-luz-tx.jpg){#fig-04-cap03-luz-tx}
 
 ## Jerarquía y prioridad de mensajes
 

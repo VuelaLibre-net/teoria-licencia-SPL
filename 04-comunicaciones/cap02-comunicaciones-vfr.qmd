@@ -1,0 +1,294 @@
+# Comunicaciones VFR
+
+> Volar en VFR te pone en tres escenarios muy distintos, y en cada uno la radio se usa de otra manera. En un campo sin torre eres tú quien canta y quien mira. En uno controlado no te mueves sin que te lo autoricen. Y en ruta, el que te habla te informa, pero no te separa. Este capítulo recorre los tres.
+
+## Comunicaciones VFR en aeródromos no controlados
+
+### Autoinformación en aeródromos sin torre de control
+
+*En el campo sin torre, el piloto actúa como su propio controlador.*
+
+La mayoría de los aeródromos desde los que vuelan los planeadores —aeroclubs, pistas forestales, aeródromos privados— son **aeródromos no controlados**. Operan en espacio aéreo Clase G y no hay ninguna torre de Control de Tráfico Aéreo (ATC) que te autorice, te separe o te asigne rumbos.
+
+Aquí la seguridad la pone la **autoinformación** (**broadcast**): tú transmites tu posición, altitud e intenciones a la frecuencia del campo para que todos sepan dónde estás. Nadie te va a dar permiso para despegar ni aterrizar. Informas y tú decides.
+
+Dos cosas básicas:
+
+* **A quién llamas**: Al nombre del aeródromo, no a «Torre». *«Fuentemilanos, buenos días…​»* o *«Santa Cilia, tráfico…​»*
+* **Qué dices**: Indicativo, posición, altitud e intención. *«…​velero Eco Papa Eco, a 5 minutos al este del campo a 1.500 metros, notificaré entrando al circuito.»*
+
+::: {.callout-important title="Normativa"}
+Aunque en algunos campos exista un operador de radio prestando un servicio AFIS (**Aerodrome Flight Information Service**), este operador **no proporciona control**, solo información (viento, pista en uso, meteorología). La decisión final y la responsabilidad de la separación siguen siendo íntegramente del piloto al mando.
+:::
+
+### Ver y evitar (*See and Avoid*)
+
+La radio te ayuda a saber dónde buscar. Nada más. El vuelo VFR (**Visual Flight Rules**) se llama así por algo: la responsabilidad de ver y esquivar es tuya, siempre, y **nunca la delega en la radio**.
+
+Tres cosas que no puedes olvidar:
+
+1. **No asumas que todos tienen radio**: En muchos campos pequeños operan ultraligeros, parapentes y aeronaves sin radio a bordo, o con la radio apagada.
+2. **No asumas que te han escuchado**: Un piloto puede estar distraído, en otra frecuencia, o con el equipo fallando.
+3. **Tus ojos mandan**: La radio te dice dónde **buscar**, pero mantén el barrido visual (**scanning**) activo antes de cualquier maniobra, especialmente al incorporarte al circuito.
+
+::: {.callout-warning title="Seguridad"}
+Un error fatal es iniciar un viraje (por ejemplo, de tramo base a final) confiando únicamente en que "nadie ha cantado posición por la radio". Asegúrate siempre visualmente de que la pista y la aproximación final están libres de tráfico antes de virar.
+:::
+
+![Escucha activa de la frecuencia antes de la llegada: A lo largo del tiempo ha ido escuchando los eventos 1, 2, 3, etc.](imagenes/04-cap02-frecuencia-correcta.jpg){#fig-04-cap02-escucha-previa}
+
+### La frecuencia correcta y el momento adecuado
+
+Al aproximarte a cualquier aeródromo, controlado o no, sintoniza la frecuencia del campo **al menos 10 minutos o 10 millas antes** de llegar. Y luego escucha antes de abrir la boca.
+
+Con solo escuchar unos minutos puedes deducir (@fig-04-cap02-escucha-previa):
+
+* **Pista en servicio**: Las notificaciones de otros tráficos te lo dicen sin preguntar.
+* **Viento**: Otros pilotos suelen comentarlo en base o en final.
+* **Densidad de tráfico**: Sabrás cuántos aviones hay en el circuito, si hay remolcadores activos o veleros termando cerca.
+
+Cuando ya tienes esa imagen mental, pulsa el PTT. Tu primera llamada llegará con datos concretos, sin que nadie tenga que repetirte lo que ya podías haber escuchado.
+
+### El circuito estándar y sus notificaciones
+
+El **circuito de tránsito** (**traffic pattern**) es el patrón rectangular que organiza el tráfico alrededor del aeródromo. Sin él, cada piloto llegaría como le pareciera.
+
+Salvo que la carta de aproximación visual (*VAC*) del aeródromo indique otra cosa, por obstáculos o restricciones de ruido, el circuito estándar ICAO/EASA **es siempre a izquierdas**. El motivo es práctico: en aviones convencionales el comandante se sienta a la izquierda, y en planeadores en tándem la visibilidad hacia ese lado suele ser mejor. Con el circuito a izquierdas, la pista queda siempre a la vista.
+
+Las notificaciones que haces durante el circuito son estas:
+
+1. **Entrada al circuito**: Avisa antes de entrar a las inmediaciones. *"Fuentemilanos, Eco Papa Eco, a tres minutos, notificaré entrando en circuito"*.
+2. **Viento en cola** (**Downwind**): El tramo paralelo a la pista pero en sentido contrario al aterrizaje. A la altura de los números de pista o a mitad del tramo, cantas: *"Fuentemilanos, Eco Papa Eco, viento en cola pista 16"*. En planeador, esta notificación tiene que hacerse desde una posición que te garantice llegar a la pista planeando.
+3. **Tramo base** (**Base leg**): El tramo perpendicular a la línea central, donde configuras el planeador para el aterrizaje. *"Fuentemilanos, Eco Papa Eco, virando a base 16"*.
+4. **Final** (**Final approach**): Alineado con la pista, tras el último viraje. *"Fuentemilanos, Eco Papa Eco, en final 16"*.
+5. **Pista libre** (**Runway vacated**): Ya en tierra y fuera de la pista activa. *"Fuentemilanos, Eco Papa Eco, pista 16 libre"*.
+
+::: {.callout-tip title="Regla de oro"}
+En campos con mucha actividad de vuelo a vela, el circuito de planeadores puede discurrir por un lado de la pista y el de aviones con motor (incluidos los remolcadores) por el contrario. Consulta siempre la carta del aeródromo antes del vuelo.
+:::
+
+::: {.callout-important title="Normativa"}
+Según el Reglamento SERA (artículo SERA.3210), el orden de prioridad de paso —de mayor a menor— es: globos > planeadores > dirigibles > aeronaves con motor. El planeador tiene prioridad sobre todo aerodino propulsado por motor y **cede el paso a los globos**. Esta prioridad aplica en vuelo y en las inmediaciones del aeródromo; nunca justifica descuidar la vigilancia visual activa.
+:::
+
+::: {.callout-note title="Airmanship"}
+SERA no incluye a parapentes y alas delta en esa jerarquía con esa literalidad, pero el criterio operativo prudente es tratarlos como a un planeador y, además, cederles el paso: maniobran bastante peor que tú y descienden sin poder remontar. Ante la duda, sepárate.
+:::
+
+### Coordinación con el remolcador y el torno
+
+El lanzamiento no tiene equivalente en ningún otro tipo de aviación: tu despegue depende de coordinar con alguien que está fuera de la aeronave. Hacerlo bien marca la diferencia.
+
+#### Lanzamiento con torno (*winch launch*)
+
+Si el campo tiene radio tierra-aire con el torno, la secuencia es:
+
+1. Cúpula cerrada, aeronave lista. Transmites:
+  
+  *«Torno, velero EC-DPE, doble mando, listo para tensar.»*
+2. El operador tensa suavemente. Aerofrenos replegados, alas niveladas, confirmas:
+  
+  *«Remolcando, remolcando, remolcando.»* — El torno aplica potencia a fondo.
+3. Al soltar el cable: *«Velero libre, Eco Papa Eco.»*
+4. Si algo va mal: *«Stop torno, stop torno, stop torno.»*
+
+Sin radio tierra-aire, el ayudante de ala (**wing runner**) coordina con señales visuales:
+
+| Señal | Significado |
+| --- | --- |
+| Ala en tierra (no nivelada) | Planeador no listo — no tensar |
+| Alas niveladas + aerofrenos fuera | Tensar cable suavemente |
+| Alas niveladas + aerofrenos replegados | Cable tenso OK — lanzar |
+: Señales visuales del ayudante de ala
+
+::: {.callout-warning title="Seguridad"}
+Si el cable se rompe o el torno falla, baja el morro de inmediato para recuperar velocidad. A baja altura —por debajo de unos **150 m AGL** en torno— no vires: aterriza recto al frente en el terreno disponible. Intentar regresar a la pista de origen a baja altura es la causa más frecuente de accidentes mortales en lanzamiento con torno. Las franjas de decisión completas por altura (recto al frente, circuito abreviado o circuito normal) se desarrollan en el **Libro 6 — Procedimientos operativos**, capítulo 7.
+:::
+
+#### Lanzamiento con remolcador (*aerotow*)
+
+La fraseología varía según el aeródromo; consulta siempre las instrucciones locales. Una secuencia habitual:
+
+*— Piloto planeador: «Remolcadora Delta Victor Yankee, planeador Eco Papa Eco, doble mando, listo tensando.»*
+
+*— Remolcador: «Eco Papa Eco, tensando.»*
+
+*— Piloto planeador: «Remolcando.»*
+
+Al soltar:
+*— «Remolcadora Delta Victor Yankee, velero libre.»*
+
+Si el planeador **no puede largar el cable**, la señal de socorro en vuelo es: alabear fuertemente y situarse bajo y a la izquierda del remolcador, para que este pueda largarlo desde su extremo.
+
+::: {.callout-note title="Airmanship"}
+Antes de subir al planeador, acuerda siempre con el piloto remolcador la altitud de suelta y la dirección de alejamiento. Así el remolcador puede regresar a la pista sin cruzarse con el velero que inicia su vuelo.
+:::
+
+## Comunicaciones VFR en aeródromos controlados
+
+### Autorización (*Clearance*) en espacio controlado
+
+Un **aeródromo controlado** tiene Torre de Control (TWR), y eso cambia las reglas por completo: aquí no das un paso sin autorización explícita.
+
+En espacio aéreo controlado como un CTR, solo el controlador puede emitir instrucciones y separar el tráfico. Tú necesitas una **autorización** (**clearance**) para cada fase:
+
+* Puesta en marcha (si aplica a motoveleros).
+* Rodaje (**taxi**) por las calles de rodadura hacia la pista.
+* Entrar y alinear en la pista activa.
+* Despegue.
+* Entrada, vuelo o cruce en la zona de tránsito de aeródromo (CTR).
+* Aterrizaje.
+
+::: {.callout-warning title="Seguridad"}
+Una autorización para "entrar y alinear" o "entrar y mantener" en la pista activa **nunca** es una autorización para despegar. Debes esperar inmóvil en la cabecera hasta escuchar explícitamente las palabras: *"Autorizado a despegar"* (**Cleared for take-off**). Si tienes alguna duda, pregunta: "Confirme autorizado a despegar".
+:::
+
+### El plan de vuelo (FPL)
+
+Para entrar en espacio aéreo donde se te presta servicio de control —clases B, C y D, o cualquier aeródromo controlado— tienes que presentar un **Plan de Vuelo (FPL)** ante los servicios ATS correspondientes, con la antelación respecto a la hora estimada de salida (EOBT) que fijan el AIP-España y la VAC del aeródromo. La clase E es la excepción dentro del espacio controlado: al VFR no se le presta allí servicio de control, así que no necesita plan de vuelo, ni radio, ni autorización (SERA.4001 b)).
+
+El planeador vuela casi siempre en Clase G. Pero si necesitas cruzar un CTR o entrar donde te controlen, presenta el FPL con tiempo. Los plazos y formatos están en el AIP-España (ENR 1.10) y son vinculantes, así que consúltalos antes de cada vuelo que implique espacio controlado.
+
+::: {.callout-note title="Airmanship"}
+Si surge la necesidad imprevista de entrar en espacio controlado sin plan de vuelo previo, es posible abrirlo en el aire (AFIL — Airborne Flight Plan) contactando por radio a la dependencia ATC y facilitando tipo de aeronave, posición, intenciones y tiempos estimados. Esta opción depende de la disponibilidad del servicio y de la carga de trabajo del controlador.
+:::
+
+::: {.callout-important title="Normativa"}
+Los plazos exactos de presentación del plan de vuelo están especificados en el **AIP-España ENR 1.10** y pueden variar según el tipo de operación y la dependencia ATC. Consúltalo antes de cada vuelo que implique espacio controlado; el incumplimiento puede resultar en la denegación de la autorización.
+:::
+
+![Puntos de notificación visual (VFR) en un CTR](imagenes/04-cap02-puntos-notificacion.jpg){#fig-04-cap02-puntos-notificacion}
+
+### Puntos de notificación visual
+
+El CTR (*Control Zone*) protege las llegadas y salidas IFR. No lo confundas con la ATZ (*Aerodrome Traffic Zone*), que es un espacio aéreo distinto y más pequeño. Para no meterte en medio del tráfico IFR, el vuelo VFR entra y sale del CTR por rutas y puntos fijos (@fig-04-cap02-puntos-notificacion).
+
+Esos son los **puntos de notificación visual**: referencias físicas en el terreno —un pueblo, un cruce de autopista, un lago— por las que pasas y desde las que llamas a la Torre. Los encontrarás en la Carta de Aproximación Visual (VAC) del aeródromo, normalmente nombrados con letras fonéticas según su orientación geográfica: Noviembre para el norte, Sierra para el sur, Eco para el este.
+
+Llama a la Torre entre 3 y 5 minutos antes de llegar al punto de entrada al CTR:
+
+*—"Jerez Torre, EC-DPE, sobre punto Sierra a 1000 pies, para entrar en zona y aterrizar."*
+*—"EC-DPE, recibido, autorizado a entrar en zona por punto Sierra a 1000 pies o inferior, notifique viento en cola derecha pista 02."*
+
+Desde ese momento sigues las instrucciones de la Torre en altitud y ruta. Nada de improvisar.
+
+### Colacionar todo en espacio controlado
+
+Ya lo vimos en el capítulo 1: la **colación** (**readback**) no es opcional. En espacio controlado lo es todavía menos, porque el controlador separa el tráfico basándose en que tú vas a hacer exactamente lo que has repetido.
+
+Cualquier instrucción del ATC que afecte a tu trayectoria, pista activa, ajuste de presión o identificación de radar **la colacionas** palabra por palabra, y cierras con tu indicativo.
+
+Si la Torre dice:
+*"Eco Papa Eco, autorizado a aterrizar pista 36."*
+
+Tu colación es:
+*"Autorizado a aterrizar pista 36, Eco Papa Eco."*
+El viento no hace falta colacionarlo, pero la autorización de pista sí.
+
+::: {.callout-tip title="Regla de oro"}
+Cuando anotes mentalmente o en tu pernera la instrucción dada por un controlador, si se compone de autorización de pista de aterrizaje o despegue, rumbo o altitud a mantener, QNH, o el código del transpondedor, tu respuesta por radio **NO puede ser "Wilco"** o **"Copiado"**. Debes recitar esos parámetros tal y como te los han dado.
+:::
+
+### Ejercicios de fraseología
+
+En comunicaciones, la teoría no basta: hay que practicar la voz. Completa estas transmisiones antes de mirar la solución; imagina que eres el planeador **EC-EPE** («Eco Papa Eco»).
+
+**Ejercicio 1 — Colación de autorización.**
+
+La Torre te dice: *«Eco Papa Eco, ruede al punto de espera pista 30, QNH 1019, notifique listo.»* ¿Cuál es tu colación correcta?
+
+**Solución.** *«Al punto de espera pista 30, QNH 1019, notificaré listo, Eco Papa Eco.»* Se colacionan la instrucción de rodaje, la pista y el QNH; el indicativo cierra la transmisión. Un simple «Recibido» aquí sería una desviación del procedimiento.
+
+**Ejercicio 2 — Primer contacto en un CTR.**
+
+Vas a entrar en el CTR de un aeródromo controlado desde el punto visual November. Ordena y completa tu llamada inicial con estos elementos: intenciones, indicativo, posición y altitud, y a quién llamas.
+
+**Solución.** El orden es **a quién → quién soy → dónde estoy → qué quiero**: *«Torre de [aeródromo], Eco Papa Eco, planeador, sobre November, 900 metros QNH, solicito entrada al CTR para tránsito hacia el sur.»* Espera su autorización antes de penetrar en el CTR: en espacio controlado se entra con clearance, no por iniciativa propia.
+
+**Ejercicio 3 — «Alinear ≠ despegar».**
+
+La Torre transmite: *«Eco Papa Eco, entre y mantenga posición pista 30.»* ¿Puedes iniciar el despegue? ¿Qué colacionas?
+
+**Solución.** No. «Entre y mantenga posición» (**line up and wait**) te autoriza a ocupar la pista, pero **no** a despegar; para eso hace falta un «autorizado a despegar» explícito. Colación: *«Entro y mantengo posición pista 30, Eco Papa Eco.»*
+
+## Comunicaciones VFR con ATC (en ruta)
+
+### Servicio de información de vuelo (FIS)
+
+En ruta por espacio aéreo no controlado —Clase G en su mayor parte— no hay ninguna Torre mirándote. Pero tienes una herramienta útil: el **Servicio de Información de Vuelo (FIS)** (*Flight Information Service*).
+
+Lo más importante que tienes que saber sobre el FIS: te da **asesoramiento, no control**. No te va a dar rumbos obligatorios ni altitudes que tengas que seguir. Su trabajo es darte información para que tú, como piloto al mando, decidas. La separación sigue siendo tuya.
+
+Lo que puedes pedirle o recibir:
+
+* **Información de tráfico**: Te avisarán de aeronaves conocidas cerca de tu posición o ruta. (En Estados Unidos a esto lo llaman **Flight Following**; en Europa bajo SERA/EASA es oficialmente el FIS).
+* **Meteorología**: METAR, TAF, alertas SIGMET o AIRMET en ruta o en tus aeródromos de destino y alternativo.
+* **Estado de espacios aéreos**: Zonas restringidas, peligrosas o militares activadas o desactivadas.
+
+Para contactar, sintoniza la frecuencia de "Información" de tu zona (**Madrid Información**, **Zaragoza Información**…) e identifícate con tu indicativo, tipo de aeronave, posición, ruta y lo que necesitas:
+
+*"Madrid Información, velero EC-DPE, sobre la sierra de Ayllón a 2000 metros, rumbo sur hacia Fuentemilanos, solicito información de tráfico."*
+
+::: {.callout-note title="Airmanship"}
+En travesías de vuelo a vela (**cross-country**), mantener la escucha en la frecuencia del FIS regional correspondiente proporciona una capa adicional de seguridad, especialmente en días con desarrollo tormentoso donde la información meteorológica en tiempo real es crítica. Además, estar en contacto con el FIS acelera la activación de los servicios de Búsqueda y Salvamento (SAR) ante una toma en campo fuera de aeródromo.
+:::
+
+### Cambio y abandono de frecuencia
+
+No desaparezcas de una frecuencia sin decir nada. El controlador de Torre, Aproximación o Información te tiene en pantalla o en su ficha de vuelo, y da por hecho que sigues a la escucha. Si te esfumas, empieza a preocuparse.
+
+Cuando necesites cambiar de frecuencia, hay dos casos (@fig-04-cap02-cambio-frecuencia):
+
+* **Si estás bajo control ATC**: Pide permiso. *"Torre, EC-DPE, solicito abandonar frecuencia para pasar a operaciones de club en 123.500"*.
+* **Si estás en frecuencia de Información (FIS)**: No es control, así que solo avisas. *"Madrid Información, EC-DPE, abandonamos su frecuencia para pasar con Fuentemilanos 123.500. Buen día"*.
+
+![Transición ordenada entre dependencias y frecuencias](imagenes/04-cap02-cambio-frecuencia.jpg){#fig-04-cap02-cambio-frecuencia}
+
+### El transpondedor en ruta: código *squawk*
+
+Si tu planeador tiene **transpondedor**, emite un código de cuatro dígitos () que el ATC usa para identificarte en pantalla. En VFR, el código por defecto es **7000**, salvo que el ATC te asigne uno distinto. Los códigos de emergencia los encontrarás en el capítulo 9.
+
+::: {.callout-important title="Normativa"}
+Los códigos 7600 (fallo de radio) y 7700 (emergencia) activan alertas inmediatas en todos los centros de control. Selecciónelos únicamente ante la situación real que corresponda y extreme la precaución al cambiar de código para no activarlos accidentalmente.
+:::
+
+### Zonas de radio obligatoria (RMZ)
+
+Algunos sectores de clase E, F o G llevan una obligación adicional: son **Zonas de Radio Obligatoria (RMZ)** (*Radio Mandatory Zone*). Dentro de una RMZ la radio no es optativa aunque el espacio aéreo no sea controlado; es una obligación publicada en el AIP.
+
+Antes de entrar y mientras estés dentro tienes que:
+
+1. Escuchar permanentemente la frecuencia designada para esa RMZ.
+2. Establecer contacto bidireccional con la dependencia ATS correspondiente antes de entrar.
+3. Seguir las instrucciones o recomendaciones del servicio prestado.
+
+Las RMZ activas en España aparecen en la carta **ENR 6.12**. Revísala en la planificación prevuelo, sobre todo en travesías que pasen cerca de grandes aeropuertos en espacio no controlado.
+
+::: {.callout-important title="Normativa"}
+Las RMZ están reguladas por el Reglamento SERA y permiten al Estado miembro establecer requisitos de radio en espacio aéreo donde el servicio de control no es obligatorio. Sus límites y condiciones aparecen referenciados en la **carta ENR 6.12** (carta de zonas de radio obligatoria).
+:::
+
+::: {.postit}
+**Resumen del capítulo: comunicaciones VFR**
+
+**En aeródromos no controlados**
+
+* **Autoinformación**: En el campo sin torre, tú eres el controlador. Transmite «al aire» tu posición e intenciones. «Fuentemilanos, velero EC-BRT, viento en cola pista 34».
+* **Ver y Evitar**: La radio ayuda, pero tus ojos mandan. No asumas que todos tienen radio o te han escuchado. Busca activamente otros tráficos.
+* **La Frecuencia Correcta**: Sintoniza la frecuencia del campo 10 minutos antes. Escuchar a otros te dirá pista en uso, viento y densidad de tráfico.
+* **Circuito Estándar**: Si nadie indica lo contrario, el circuito es a izquierdas. Notifica: entrada, viento en cola, base y final.
+* **Lanzamiento (torno/remolcador)**: Con torno: «Listo tensando» → «Remolcando x3» → «Cable libre». Abortar: «Stop torno x3». Fallo bajo (por debajo de 150 m en torno): recto al frente, nunca regreses virando.
+
+**En aeródromos controlados**
+
+* **Autorización (Clearance)**: En espacio controlado, la palabra de la Torre es ley. Necesitas autorización explícita para todo: arrancar, rodar, despegar, entrar en zona. Si no oyes «autorizado», no te muevas.
+* **Plan de Vuelo (FPL)**: Tu billete de entrada. Preséntalo con al menos 60 minutos de antelación; los plazos exactos, en el AIP-España ENR 1.10.
+* **Puntos de Notificación**: Son las puertas de entrada/salida visual al CTR (Sierra, Norte, Eco…​). Conócelos bien en la carta VAC y notifica sobre ellos con precisión.
+* **Colacionar Todo**: En controlado es vital. Repite cada instrucción, sin el viento y con tu indicativo al final. «Autorizado a aterrizar pista 36, Eco Papa Eco».
+
+**Con ATC, en ruta**
+
+* **Servicio de Información de Vuelo (FIS)**: Es un servicio de asesoramiento, no de control. Te informan sobre tráficos y meteorología (si tienen carga de trabajo), pero la separación sigue siendo tu responsabilidad. "Para información, contacto con Madrid Información…​".
+* **Cambio de Frecuencia**: Nunca te "esfumes" de una frecuencia controlada o de información. Solicita el cambio o avisa de que abandonas la frecuencia. "Madrid, EC-DPE para pasar a frecuencia de club 123.500".
+* **Transpondedor en ruta**: Si dispones de transpondedor, código VFR por defecto: **7000**. Emergencias: **7700** (emergencia activa — **Mayday**) y **7600** (fallo de radio — ver cap. 7). Solo usar ante la emergencia real.
+:::

@@ -6,7 +6,7 @@
 
 Sin el **ATIS** (**Automatic Terminal Information Service**), los controladores de Torre en aeródromos con tráfico medio o alto pasarían la mitad del día repitiendo lo mismo a cada aeronave que se aproxima. El ATIS existe para librarles de eso.
 
-Es una grabación de voz —normalmente sintética— que suena en bucle continuo en una frecuencia VHF propia, separada de la frecuencia de control (@fig-04-cap06-atis-escucha). Te dice:
+Es una grabación de voz —normalmente sintética— que suena en bucle continuo en una frecuencia VHF propia, separada de la frecuencia de control (@fig-04-cap04-atis-escucha). Te dice:
 
 * **Pista en servicio** para despegues y aterrizajes.
 * **Condiciones meteorológicas** actuales: viento, visibilidad, nubes, temperatura, punto de rocío y QNH.
@@ -18,7 +18,7 @@ Cada boletín lleva una letra del alfabeto fonético como **código de informaci
 Escucha el ATIS completo **antes** de llamar a la Torre. Luego incluye el código en tu primera llamada: *«Jerez TWR, velero EC-DPE, a 10 millas al norte, con información Bravo, solicito…​»* El controlador sabe que ya tienes todos los datos y puede ir directo al grano.
 :::
 
-![Secuencia de escucha del ATIS antes del contacto con Torre](imagenes/04-cap06-atis-escucha.jpg){#fig-04-cap06-atis-escucha}
+![Secuencia de escucha del ATIS antes del contacto con Torre](imagenes/04-cap04-atis-escucha.jpg){#fig-04-cap04-atis-escucha}
 
 ## VOLMET: información meteorológica para aeronaves en vuelo
 
@@ -45,18 +45,18 @@ Probablemente la palabra más bienvenida que puedes escuchar en el ATIS.  (techo
 El altímetro del planeador es un barómetro: necesita una presión de referencia en la ventanilla para saber a qué altitud estás.
 
 * El **QNH** es la presión atmosférica reducida al nivel medio del mar. Mételo en el altímetro y te dará **la altitud real** sobre el nivel del mar. Es el ajuste que usas en ruta y para respetar los límites verticales de los espacios aéreos (los techos de los CTR van en altitud QNH).
-* El **QFE** es la presión a la elevación del aeródromo. Con el QFE puesto, el altímetro marca **cero pies** en tierra: te indica altura sobre el campo, no altitud. En veleros casi no se usa ya, salvo en operaciones muy locales o acrobacia en aeródromo. El QNH es el ajuste de referencia en las comunicaciones ATS (@fig-04-cap06-qnh-qfe).
+* El **QFE** es la presión a la elevación del aeródromo. Con el QFE puesto, el altímetro marca **cero pies** en tierra: te indica altura sobre el campo, no altitud. En veleros casi no se usa ya, salvo en operaciones muy locales o acrobacia en aeródromo. El QNH es el ajuste de referencia en las comunicaciones ATS (@fig-04-cap04-qnh-qfe).
 
-![Comparación del altímetro con ajuste QNH y QFE](imagenes/04-cap06-qnh-qfe.jpg){#fig-04-cap06-qnh-qfe}
+![Comparación del altímetro con ajuste QNH y QFE](imagenes/04-cap04-qnh-qfe.jpg){#fig-04-cap04-qnh-qfe}
 
 ### La dualidad del viento: magnético frente a geográfico
 
-Cuando calculas el planeo final o la componente cruzada, necesitas saber en qué referencia está expresado el viento. No siempre es la misma (@fig-04-cap06-viento-magnetico-geografico).
+Cuando calculas el planeo final o la componente cruzada, necesitas saber en qué referencia está expresado el viento. No siempre es la misma (@fig-04-cap04-viento-magnetico-geografico).
 
 * **Viento radiado (Torre / ATIS):** La dirección del viento en las operaciones de aproximación y despegue va referida al **Norte Magnético** («Viento 240 grados, 15 nudos»). Tiene sentido: tanto la brújula de cabina como la numeración de las pistas usan la declinación magnética, así que puedes comparar directamente la orientación de la pista con el viento sin hacer correcciones.
 * **Viento escrito (mapas meteorológicos / METAR en texto / VOLMET):** Si consultas el viento en una web de meteo, en un mapa de vientos en altura (GRIB) o en un METAR/TAF en formato texto —incluyendo el que difunde el VOLMET—, la dirección viene referida al **Norte Geográfico (verdadero)**. El VOLMET retransmite METAR y TAF en texto, así que su viento también es **verdadero**, distinto del viento operativo que te da la Torre.
 
-![Diferencia entre viento magnético (radio) y geográfico (mapas)](imagenes/04-cap06-viento-mag-geo.jpg){#fig-04-cap06-viento-magnetico-geografico}
+![Diferencia entre viento magnético (radio) y geográfico (mapas)](imagenes/04-cap04-viento-mag-geo.jpg){#fig-04-cap04-viento-magnetico-geografico}
 
 ### SIGMET y AIRMET
 

@@ -19,14 +19,12 @@ book:
     - reconocimientos.qmd
     - introduccion.qmd
     - cap01-definiciones-y-tecnica-de-comunicacion.qmd
-    - cap02-comunicaciones-vfr-en-aerodromos-no-controlados.qmd
-    - cap03-comunicaciones-vfr-en-aerodromos-controlados.qmd
-    - cap04-comunicaciones-vfr-con-atc-en-ruta.qmd
-    - cap05-procedimientos-operativos-generales.qmd
-    - cap06-terminos-de-informacion-meteorologica-relevantes-para-vfr.qmd
-    - cap07-acciones-ante-fallo-de-comunicaciones.qmd
-    - cap08-procedimientos-de-socorro-y-urgencia.qmd
-    - cap09-principios-generales-de-propagacion-vhf-y-asignacion-de-frecuencias.qmd
+    - cap02-comunicaciones-vfr.qmd
+    - cap03-procedimientos-operativos-generales.qmd
+    - cap04-terminos-de-informacion-meteorologica-relevantes-vfr.qmd
+    - cap05-acciones-ante-fallo-de-comunicaciones.qmd
+    - cap06-procedimientos-de-socorro-y-urgencia.qmd
+    - cap07-principios-generales-de-propagacion-vhf-y-asignacion-de-frecuencias.qmd
   appendices:
     - apendice-syllabus-oficial-easa---comunicaciones.qmd
     - apendice-codigos-q-esenciales-para-el-piloto-de-planeador.qmd
