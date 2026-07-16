@@ -56,6 +56,32 @@ jobs:
         (cd 08-aeronave-sistemas && quarto list extensions 2>&1) | grep -q 'orange-book-es' \
           || { echo "::error::orange-book-es no visible; ¿falta el symlink _extensions?"; exit 1; }
 
+    - name: Comprobar que los preliminares no divergen
+      # licencia.qmd, dedicatoria.qmd, epigrafe.qmd y colofon.qmd son idénticos
+      # en los 9 libros, pero por convención: son 9 copias y no hay nada que las
+      # sincronice. Editar uno y olvidar los demás deja la colección incoherente
+      # sin que ningún otro guardián lo note, porque cada libro compila bien.
+      #
+      # Va antes de compilar: es una comprobación sobre las fuentes y así falla
+      # en segundos en vez de tras cuatro minutos de render.
+      run: |
+        errores=0
+        for f in licencia.qmd dedicatoria.qmd epigrafe.qmd colofon.qmd; do
+          copias=$(ls -1 0*/"$f" 2>/dev/null | wc -l)
+          if [ "$copias" -ne 9 ]; then
+            echo "::error::Hay $copias copias de $f y se esperan 9: ¿falta en algún libro?"
+            errores=1
+            continue
+          fi
+          firmas=$(md5sum 0*/"$f" | awk '{print $1}' | sort -u | wc -l)
+          if [ "$firmas" -ne 1 ]; then
+            echo "::error::$f difiere entre libros ($firmas versiones distintas). Se edita uno y se propaga a los otros 8."
+            md5sum 0*/"$f" | sed 's/^/    /'
+            errores=1
+          fi
+        done
+        exit $errores
+
     - name: Compilar manuales a PDF y EPUB
       run: make
 
