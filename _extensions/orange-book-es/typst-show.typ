@@ -13,6 +13,12 @@ $endif$
 $if(date)$
   date: "$date$",
 $endif$
+$if(version)$
+  version: "$version$",
+$endif$
+$if(fecha-actualizacion)$
+  fecha-actualizacion: "$fecha-actualizacion$",
+$endif$
 $if(lang)$
   lang: "$lang$",
 $endif$
