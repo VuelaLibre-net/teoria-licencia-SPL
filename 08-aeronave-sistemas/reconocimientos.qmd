@@ -8,30 +8,46 @@ Este manual es el fruto de un esfuerzo colaborativo dentro de la comunidad de vu
 * A todos los pilotos que, con su feedback constante, ayudan a que este manual sea una herramienta viva y en evolución.
 * A los autores de los manuales internacionales clásicos, cuya estructura ha servido de base para organizar el conocimiento de una forma pedagógica y accesible para las nuevas generaciones de pilotos de planeador y, en especial a:
 
-*Iñaqui Ulibarri García de la Cueva* (SPL, FI(S), FE(S))
+::: {.creditos}
+Iñaqui Ulibarri García de la Cueva
 
-Campeón de España de Vuelo a Vela, Instructor y Examinador de Vuelo a Vela
+:   SPL · FI(S) · FE(S)
 
-Pedro Berlinches (SPL, FI(S), PPL(A), FES(A))
+:   Campeón de España de Vuelo a Vela. Instructor y Examinador de Vuelo a Vela
 
-Instructor y Examinador de Vuelo a Vela
+Pedro Berlinches
 
-Luís Ferreira Escartín (SPL, FI(S), FE(S))
+:   SPL · FI(S) · PPL(A) · FES(A)
 
-Instructor y Examinador de Vuelo a Vela
+:   Instructor y Examinador de Vuelo a Vela
 
-Encarnación Novillo-Fertrell Vázquez (SPL, FI(S), FE(S))
+Luís Ferreira Escartín
 
-Instructora y Examinadora de Vuelo a Vela
+:   SPL · FI(S) · FE(S)
 
-Carlos Bravo Domínguez (SPL, FI(S), FE(S))
+:   Instructor y Examinador de Vuelo a Vela
 
-Instructor y Examinador de Vuelo a Vela
+Encarnación Novillo-Fertrell Vázquez
 
-Sergi Pujol Rodríguez (SPL, FI(S), FE(S))
+:   SPL · FI(S) · FE(S)
 
-Instructor y Examinador de Vuelo a Vela
+:   Instructora y Examinadora de Vuelo a Vela
 
-Ramón Gutiérrez Camus (SPL)
+Carlos Bravo Domínguez
 
-Piloto de Vuelo a Vela. Edición técnica
+:   SPL · FI(S) · FE(S)
+
+:   Instructor y Examinador de Vuelo a Vela
+
+Sergi Pujol Rodríguez
+
+:   SPL · FI(S) · FE(S)
+
+:   Instructor y Examinador de Vuelo a Vela
+
+Ramón Gutiérrez Camus
+
+:   SPL
+
+:   Piloto de Vuelo a Vela. Edición técnica
+:::

@@ -66,7 +66,7 @@ jobs:
       # en segundos en vez de tras cuatro minutos de render.
       run: |
         errores=0
-        for f in licencia.qmd dedicatoria.qmd epigrafe.qmd colofon.qmd; do
+        for f in licencia.qmd dedicatoria.qmd epigrafe.qmd colofon.qmd reconocimientos.qmd; do
           copias=$(ls -1 0*/"$f" 2>/dev/null | wc -l)
           if [ "$copias" -ne 9 ]; then
             echo "::error::Hay $copias copias de $f y se esperan 9: ¿falta en algún libro?"
