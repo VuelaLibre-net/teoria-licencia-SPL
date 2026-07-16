@@ -1,7 +1,7 @@
 # Epígrafe {.unnumbered .unlisted .oculto}
 
 ::: {.epigrafe}
-"Un buen piloto es aquel que utiliza su excelente juicio para evitar situaciones que requieran su excelente habilidad."
+«La máquina no es el fin, es el instrumento. El fin es el ser humano liberado por ella.»
 
- — Frank Borman, piloto del Apolo 8 y referente de la disciplina aeronáutica.
+ — Antoine de Saint-Exupéry (1939), pionero del correo aéreo internacional, piloto de reconocimiento militar y escritor.
 :::

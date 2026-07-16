@@ -1,7 +1,7 @@
 # Epígrafe {.unnumbered .unlisted .oculto}
 
 ::: {.epigrafe}
-"Un buen piloto es aquel que utiliza su excelente juicio para evitar situaciones que requieran su excelente habilidad."
+«El mayor problema de la comunicación es la ilusión de que se ha llevado a cabo.»
 
- — Frank Borman, piloto del Apolo 8 y referente de la disciplina aeronáutica.
+ — George Bernard Shaw (1950), dramaturgo, crítico literario y premio Nobel de Literatura en 1925.
 :::

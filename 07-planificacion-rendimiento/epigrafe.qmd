@@ -1,7 +1,7 @@
 # Epígrafe {.unnumbered .unlisted .oculto}
 
 ::: {.epigrafe}
-"Un buen piloto es aquel que utiliza su excelente juicio para evitar situaciones que requieran su excelente habilidad."
+«La planificación es traer el futuro al presente para que puedas hacer algo al respecto ahora.»
 
- — Frank Borman, piloto del Apolo 8 y referente de la disciplina aeronáutica.
+ — Alan Lakein (1973), autor estadounidense pionero y especialista en la gestión del tiempo.
 :::

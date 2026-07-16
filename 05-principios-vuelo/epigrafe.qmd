@@ -1,7 +1,7 @@
 # Epígrafe {.unnumbered .unlisted .oculto}
 
 ::: {.epigrafe}
-"Un buen piloto es aquel que utiliza su excelente juicio para evitar situaciones que requieran su excelente habilidad."
+«Todo el problema se reduce a hacer que una superficie sostenga un peso…»
 
- — Frank Borman, piloto del Apolo 8 y referente de la disciplina aeronáutica.
+ — George Cayley (1809), ingeniero británico, considerado el padre de la aerodinámica por definir las fuerzas del vuelo.
 :::

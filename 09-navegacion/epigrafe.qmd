@@ -1,7 +1,7 @@
 # Epígrafe {.unnumbered .unlisted .oculto}
 
 ::: {.epigrafe}
-"Un buen piloto es aquel que utiliza su excelente juicio para evitar situaciones que requieran su excelente habilidad."
+«Cuando no sabes a qué puerto te diriges, ningún viento te es favorable.»
 
- — Frank Borman, piloto del Apolo 8 y referente de la disciplina aeronáutica.
+ — Séneca (circa 62 d.C.), filósofo, escritor y consejero del Imperio Romano.
 :::

@@ -1,7 +1,7 @@
 # Epígrafe {.unnumbered .unlisted .oculto}
 
 ::: {.epigrafe}
-"Un buen piloto es aquel que utiliza su excelente juicio para evitar situaciones que requieran su excelente habilidad."
+«Un buen piloto es aquel que utiliza su excelente juicio para evitar situaciones que requieran su excelente habilidad.»
 
- — Frank Borman, piloto del Apolo 8 y referente de la disciplina aeronáutica.
+ — Frank Borman (1968), astronauta comandante de la misión Apolo 8 y piloto de combate de la USAF.
 :::

@@ -1,7 +1,7 @@
 # Epígrafe {.unnumbered .unlisted .oculto}
 
 ::: {.epigrafe}
-"Un buen piloto es aquel que utiliza su excelente juicio para evitar situaciones que requieran su excelente habilidad."
+«No vuelas por instinto; vuelas gracias a una preparación meticulosa y al respeto absoluto por los procedimientos establecidos.»
 
- — Frank Borman, piloto del Apolo 8 y referente de la disciplina aeronáutica.
+ — Neil Armstrong (1969), piloto de pruebas, de planeadores y primer astronauta en pisar la Luna.
 :::

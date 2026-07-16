@@ -1,7 +1,7 @@
 # Epígrafe {.unnumbered .unlisted .oculto}
 
 ::: {.epigrafe}
-"Un buen piloto es aquel que utiliza su excelente juicio para evitar situaciones que requieran su excelente habilidad."
+«En aeronáutica, las reglas no se diseñan para limitar la libertad, sino para garantizar que todos volvamos a disfrutar de ella mañana.»
 
- — Frank Borman, piloto del Apolo 8 y referente de la disciplina aeronáutica.
+ — Anónimo, de la tradición oral de la seguridad aérea.
 :::
