@@ -1,0 +1,5 @@
+# Contracubierta {.unnumbered .unlisted .oculto}
+
+::: {.content-visible when-format="epub"}
+![](cover/reverso.jpg){.contracubierta}
+:::
