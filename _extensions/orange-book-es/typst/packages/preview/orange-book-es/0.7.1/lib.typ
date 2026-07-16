@@ -345,9 +345,9 @@
 
   set document(author: author, title: title)
   set text(size: font-size, lang: lang)
-  set par(leading: 0.5em)
-  set enum(numbering: "1.a.i.")
-  set list(marker: ([•], [--], [◦]))
+  set par(leading: 0.65em)
+  set enum(numbering: "1.a.i.", spacing: 0.95em)
+  set list(marker: ([•], [--], [◦]), spacing: 0.95em)
 
   set ref(supplement: (it)=>{lower(it.supplement)}) if lowercase-references
 
@@ -632,12 +632,12 @@
   set par(
     first-line-indent: 1em,
     justify: true,
-    spacing: 0.5em
+    spacing: 0.85em
   ) if first-line-indent
 
   set par(
     justify: true,
-    spacing: 0.5em
+    spacing: 0.85em
   ) if not first-line-indent
 
   show list: it => {
