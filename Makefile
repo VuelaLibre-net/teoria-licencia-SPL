@@ -100,6 +100,24 @@ $(LIBROS): %: $(PDF_OUT)/%.pdf $(EPUB_OUT)/%.epub
 
 # --- UTILIDADES ---
 
+# Imprime "libro|versión|estado" para los 9 libros, una línea por libro.
+#
+# Existe para que el guardián del README (y quien quiera consultarlo a mano) lea
+# el estado de la MISMA fuente que lo inyecta en los entregables, en vez de
+# reimplementar la deducción de `estado_libro` en otro sitio. Dos copias de esta
+# regla acabarían divergiendo, y aquí las divergencias no dan error: compilan.
+#
+# Los libros completados salen con el estado literal "Completado"; internamente
+# `estado_libro` devuelve la cadena vacía, que es lo que apaga la marca de agua
+# y la nota, pero como texto no serviría.
+.PHONY: estados
+estados:
+	@for libro in $(LIBROS); do \
+		v="$(call version_libro,$$libro)"; \
+		e="$(call estado_libro,$$libro)"; \
+		echo "$$libro|$$v|$${e:-Completado}"; \
+	done
+
 # Limpieza de los entregables y las cachés de Quarto.
 # NO toca los .qmd, _quarto.yml ni imagenes/: son la fuente canónica de la
 # colección, viven en git y no se regeneran a partir de nada.
