@@ -1,4 +1,4 @@
-# Servicio de Tránsito Aéreo (
+# Servicio de tránsito aéreo (ATS)
 
 > Los Servicios de Tránsito Aéreo están para ayudarte, pero debes saber qué pedir: Control, Información o Alerta.
 >
