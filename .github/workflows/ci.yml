@@ -57,16 +57,21 @@ jobs:
           || { echo "::error::orange-book-es no visible; ¿falta el symlink _extensions?"; exit 1; }
 
     - name: Comprobar que los preliminares no divergen
-      # licencia.qmd, dedicatoria.qmd, epigrafe.qmd y colofon.qmd son idénticos
-      # en los 9 libros, pero por convención: son 9 copias y no hay nada que las
-      # sincronice. Editar uno y olvidar los demás deja la colección incoherente
-      # sin que ningún otro guardián lo note, porque cada libro compila bien.
+      # licencia.qmd, dedicatoria.qmd, colofon.qmd y reconocimientos.qmd son
+      # idénticos en los 9 libros, pero por convención: son 9 copias y no hay
+      # nada que las sincronice. Editar uno y olvidar los demás deja la
+      # colección incoherente sin que ningún otro guardián lo note, porque cada
+      # libro compila bien.
+      #
+      # epigrafe.qmd NO está en esta lista: desde que cada libro tiene su propia
+      # cita, ser idénticos sería el fallo. Se comprueba justo lo contrario más
+      # abajo.
       #
       # Va antes de compilar: es una comprobación sobre las fuentes y así falla
       # en segundos en vez de tras cuatro minutos de render.
       run: |
         errores=0
-        for f in licencia.qmd dedicatoria.qmd epigrafe.qmd colofon.qmd reconocimientos.qmd; do
+        for f in licencia.qmd dedicatoria.qmd colofon.qmd reconocimientos.qmd; do
           copias=$(ls -1 0*/"$f" 2>/dev/null | wc -l)
           if [ "$copias" -ne 9 ]; then
             echo "::error::Hay $copias copias de $f y se esperan 9: ¿falta en algún libro?"
@@ -80,6 +85,17 @@ jobs:
             errores=1
           fi
         done
+        # epigrafe.qmd es el caso inverso: cada libro abre con SU cita, elegida
+        # para su asignatura. Dos libros con la misma cita significa que alguien
+        # propagó un epígrafe encima de otro, que es justo lo que hay que hacer
+        # con los demás preliminares. Nadie lo notaría: los dos libros compilan.
+        firmas=$(md5sum 0*/epigrafe.qmd | awk '{print $1}' | sort -u | wc -l)
+        if [ "$firmas" -ne 9 ]; then
+          echo "::error::Sólo hay $firmas epígrafes distintos y deben ser 9: cada libro tiene su cita."
+          md5sum 0*/epigrafe.qmd | sort | sed 's/^/    /'
+          errores=1
+        fi
+
         # introduccion.qmd es mixto: la cabecera es propia de cada libro (el
         # gancho del tema) y, desde la marca GUÍA-DE-LECTURA hasta el final, la
         # guía de lectura es idéntica en los 9. El md5 del fichero entero no
