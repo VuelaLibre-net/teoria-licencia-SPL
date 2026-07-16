@@ -19,33 +19,34 @@ rompe la compilación.
 Cambios ya en `main` —y por tanto en los entregables que compila el CI— a los que todavía no se les
 ha asignado número: el `version:` de `_quarto.yml` no se ha movido.
 
-**Qué releer:** **El título del `cap08` y el epígrafe.** El cuerpo del temario no cambia ni una
-línea. Pero al arreglar el título salió a la luz un hueco que conviene decidir antes de dar el libro
-por revisado: **el syllabus 1.8 pide «Servicio de Tránsito Aéreo (ATS) **y Gestión del Tránsito
-Aéreo (ATM)**» y el capítulo sólo desarrolla el ATS.** En toda la colección, «ATM» aparece
-únicamente en esa línea del syllabus.
+**Qué releer:** **El `cap08` entero, y el epígrafe.** El resto del temario no cambia ni una línea.
+
+El `cap08` sí: estrena un apartado sobre **Gestión del Tránsito Aéreo (ATM)** que antes no existía.
+El syllabus 1.8 lo pide junto al ATS y el capítulo sólo desarrollaba el ATS —tampoco lo hacía el
+AsciiDoc del que viene: «ATM» aparecía en toda la colección únicamente en esa línea del syllabus—.
+**Es contenido nuevo y necesita revisión técnica**, no sólo de estilo.
 
 ### Cambiado
 
-* **cap08, «Servicio de tránsito aéreo (ATS)»** — el título estaba truncado en «Servicio de Tránsito
-  Aéreo (»: el importador de AsciiDoc se atragantó con las macros que iban dentro del paréntesis. El
-  original rezaba «…(ATS) y Gestión del Tránsito Aéreo (ATM)», pero **ese `.adoc` tampoco tenía
-  contenido de ATM**, así que el nuevo título describe lo que el capítulo da en vez de prometer lo
-  que no da. Se pasa a sentence case, como los otros 13 títulos del libro.
+* **cap08, «Servicio de Tránsito Aéreo (ATS) y Gestión del Tránsito Aéreo (ATM)»** — el título
+  estaba truncado en «Servicio de Tránsito Aéreo (»: el importador de AsciiDoc se atragantó con las
+  macros que iban dentro del paréntesis. Ahora es **idéntico a la entrada 1.8 del syllabus**, con sus
+  mayúsculas: el syllabus es la raíz del proyecto y el título lo copia, no al revés.
+* **cap08, apartado nuevo «La gestión del tránsito aéreo (ATM)»** — el capítulo cubre ya lo que su
+  título promete: qué es el ATM y sus tres patas (ATS, ASM y ATFM), el concepto de uso flexible del
+  espacio aéreo (FUA) con sus tres niveles y las estructuras que sólo existen a ratos (TSA, TRA,
+  CDR), y la gestión de afluencia (ATFM), que no afecta a un planeador en Clase G. El resumen del
+  capítulo lo recoge.
 * **Epígrafe** — el libro abre ahora con una cita propia, de un anónimo de la tradición oral de la
   seguridad aérea, elegida para esta asignatura. Los 9 libros compartían la misma cita de Frank
   Borman, que además pertenece a Factores Humanos.
-
-### Hueco conocido
-
-* **cap08 no cubre la Gestión del Tránsito Aéreo (ATM)**, que el syllabus 1.8 incluye junto al ATS.
-  No es una pérdida de la migración: el AsciiDoc del que viene tampoco lo trataba. Requiere decidir
-  si se escribe la parte de ATM o si el syllabus del apéndice se matiza.
 
 ### Maqueta y producción
 
 Nada de esto altera lo que el lector aprende; el revisor puede saltárselo.
 
+* Se normalizan los títulos de capítulos, secciones, portadillas y apéndices a la capitalización
+  propia del español.
 * Los entregables llevan ahora la versión y la fecha en el nombre
   (`01-derecho-aereo-atc-1.0-rc.5-26-07-16.pdf`), para identificarlos sin abrirlos.
 * Los EPUB se publicaban como **XHTML mal formado**: unos comentarios del CSS abrían etiquetas que
