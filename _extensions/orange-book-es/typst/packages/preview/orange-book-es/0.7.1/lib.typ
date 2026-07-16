@@ -30,6 +30,38 @@
 #let outline-heading3 = 1.1em;
 
 
+// Estado editorial del libro, deducido de su versión.
+//
+//   >= 1.0.0        completado           (sin marca)
+//   1.x-rc.n        en revisión          (es ANTERIOR a 1.x.0, no posterior:
+//                                         un candidato no es un lanzamiento)
+//   0.9.x           en revisión
+//   0.8.x           ilustraciones en preparación
+//   0.7.x y menos   en desarrollo
+//
+// Devuelve none cuando el libro está completado: es lo que apaga la marca de
+// agua y la nota de la portadilla.
+#let estado-de(version) = {
+  if version == none or version == "" { return none }
+  let pre = version.contains("-")
+  let partes = version.split("-").at(0).split(".")
+  if partes.len() < 2 { return none }
+  let mayor = int(partes.at(0))
+  let menor = int(partes.at(1))
+  if mayor >= 1 and not pre { return none }
+  if mayor >= 1 and pre { return "En revisión" }
+  if menor >= 9 { return "En revisión" }
+  if menor >= 8 { return "Creando ilustraciones" }
+  return "En desarrollo"
+}
+
+// Nota que acompaña a cada estado en la portadilla.
+#let _nota-estado = (
+  "En revisión": "Edición pendiente de revisión técnica por instructores. El contenido puede cambiar antes de la versión definitiva.",
+  "Creando ilustraciones": "El texto está completo; las ilustraciones aún se están elaborando.",
+  "En desarrollo": "Texto e ilustraciones en elaboración. Contenido provisional, sujeto a cambios.",
+)
+
 #let nocite(citation) = {
   place(hide[#cite(citation)])
 }
@@ -352,6 +384,25 @@
     part-font-size = huge-text
   }
 
+  let estado = estado-de(version)
+
+  // Marca de agua diagonal con el estado.
+  //
+  // Va en `foreground`, no en `background`: los post-it y los callouts tienen
+  // fondo opaco y se comían la marca en cuanto la página llevaba uno. Delante y
+  // al 9 % de opacidad se ve siempre sin estorbar la lectura.
+  //
+  // Las cubiertas la desactivan con `foreground: none` en su propio page(): son
+  // el diseño del libro y no deben llevarla.
+  //
+  // La etiqueta más larga ("CREANDO ILUSTRACIONES") mide 683 pt a 52 pt, y en la
+  // diagonal de un A4 girado -38° caben 755 pt. Si se añade un estado con nombre
+  // más largo, hay que medirlo: si no cabe, se sale de la página.
+  set page(foreground: if estado != none {
+    align(center + horizon, rotate(-38deg,
+      text(size: 52pt, weight: "black", fill: rgb(200, 30, 30, 23), upper(estado))))
+  }) if estado != none
+
   set page(
     margin: margin,
      header: context{
@@ -573,7 +624,7 @@
   // encontraría. La imagen se construye en typst-show.typ, que sí vive junto al
   // documento. Es lo mismo que hace orange-book con `logo`.
   if cubierta != none {
-    page(margin: 0pt, header: none, footer: none, numbering: none)[
+    page(margin: 0pt, header: none, footer: none, numbering: none, foreground: none)[
       #set image(width: 100%, height: 100%, fit: "cover")
       #cubierta
     ]
@@ -626,6 +677,17 @@
           #if version != none [Versión #version]
           #if version != none and fecha-actualizacion != none [ · ]
           #if fecha-actualizacion != none [#fecha-actualizacion]
+        ]
+      ]
+      // Nota del estado, bajo la versión y la fecha. Sólo si el libro no está
+      // completado: en ese caso estado-de() devuelve none y no se imprime nada.
+      #if estado != none [
+        #v(0.5cm, weak: true)
+        #block(width: 80%)[
+          #set par(justify: false, leading: 0.6em)
+          #text(size: 0.85em, weight: "bold", fill: rgb(180, 30, 30), upper(estado))
+          #linebreak()
+          #text(size: 0.8em, fill: rgb(70, 70, 70), _nota-estado.at(estado, default: ""))
         ]
       ]
     ]))
@@ -716,7 +778,7 @@
   // Contracubierta: cierra el libro, a sangre igual que la cubierta.
   // orange-book no contempla ninguna, así que la aporta el fork.
   if contracubierta != none {
-    page(margin: 0pt, header: none, footer: none, numbering: none)[
+    page(margin: 0pt, header: none, footer: none, numbering: none, foreground: none)[
       #set image(width: 100%, height: 100%, fit: "cover")
       #contracubierta
     ]
