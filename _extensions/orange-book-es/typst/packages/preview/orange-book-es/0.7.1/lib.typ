@@ -308,7 +308,7 @@
   }
 }
 
-#let book(title: "", subtitle: "", date: "", author: (), paper-size: "a4", width: none, height: none, margin: (inside: 3.5cm, outside: 2.5cm, top: 2.5cm, bottom: 2.5cm), logo: none, cover: none, cover-background: auto, image-index:none, body, main-color: blue, copyright: [], lang: "en", list-of-figure-title: none, list-of-table-title: none, supplement-chapter: "Chapter", supplement-part: "Part", font-size: 10pt, part-style: 0, part-font-size: auto, lowercase-references: false, padded-heading-number: true, outline-font-size: auto, outline-small-depth: 2, outline-small-width: 9.5cm, heading-style: 0, first-line-indent: false, outline-depth: 3, front-matter-end: "Introducción", version: none, fecha-actualizacion: none, cubierta: none, contracubierta: none, estado: none, estado-nota: none) = {
+#let book(title: "", subtitle: "", date: "", author: (), paper-size: "a4", width: none, height: none, margin: (inside: 3.5cm, outside: 2.5cm, top: 2.5cm, bottom: 2.5cm), logo: none, cover: none, cover-background: auto, image-index:none, body, main-color: blue, copyright: [], lang: "en", list-of-figure-title: none, list-of-table-title: none, supplement-chapter: "Chapter", supplement-part: "Part", font-size: 10pt, part-style: 0, part-font-size: auto, lowercase-references: false, padded-heading-number: true, outline-font-size: auto, outline-small-depth: 2, outline-small-width: 9.5cm, heading-style: 0, first-line-indent: false, outline-depth: 3, front-matter-end: "Cómo leer este libro", version: none, fecha-actualizacion: none, cubierta: none, contracubierta: none, estado: none, estado-nota: none) = {
 
   let supplement-chapter = if lang == "es" and supplement-chapter == "Chapter" { "Capítulo" } else { supplement-chapter }
   let supplement-part = if lang == "es" and supplement-part == "Part" { "Parte" } else { supplement-part }
@@ -712,8 +712,10 @@
   // encontraba el corte: dejaba el índice al final del libro, sin dar error.
   //
   // Si no hay ningún encabezado que case con `front-matter-end`, el índice no
-  // se imprime. La condición es el título, así que renombrar ese encabezado
-  // deja el libro sin índice en silencio.
+  // se imprime. La condición es el TÍTULO —hoy "Cómo leer este libro", que es
+  // el H1 de introduccion.qmd—, así que renombrar ese encabezado sin cambiar
+  // aquí deja el libro sin índice en silencio. El CI lo comprueba buscando la
+  // guía de puntos del índice en el PDF.
   show heading.where(level: 1): it => {
     if front-matter-end != none and front-matter-end in repr(it.body) {
       heading-image.update(x =>
