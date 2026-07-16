@@ -124,16 +124,18 @@ jobs:
             errores=1
           fi
 
-          # La portada lleva "Versión X · <fecha>". Si esos datos se pasaran por
-          # el campo `date`, Quarto intentaría parsearlos como fecha y escribiría
-          # "Invalid Date" en la cubierta, tan tranquilo.
-          portada=$(pdftotext -f 1 -l 1 "$pdf" - 2>/dev/null)
-          if grep -q 'Invalid Date' <<<"$portada"; then
-            echo "::error file=$pdf::'Invalid Date' en la portada: ¿se metió texto libre en el campo 'date'?"
+          # La portadilla lleva "Versión X · <fecha>". Es la página 3: la 1 es la
+          # cubierta (una imagen, sin texto) y la 2 su dorso en blanco.
+          #
+          # Si esos datos se pasaran por el campo `date`, Quarto intentaría
+          # parsearlos como fecha y escribiría "Invalid Date", tan tranquilo.
+          portadilla=$(pdftotext -f 3 -l 3 "$pdf" - 2>/dev/null)
+          if grep -q 'Invalid Date' <<<"$portadilla"; then
+            echo "::error file=$pdf::'Invalid Date' en la portadilla: ¿se metió texto libre en el campo 'date'?"
             errores=1
           fi
-          if ! grep -qE 'Versión [0-9]+\.[0-9]+' <<<"$portada"; then
-            echo "::error file=$pdf::La portada no lleva la versión del libro"
+          if ! grep -qE 'Versión [0-9]+\.[0-9]+' <<<"$portadilla"; then
+            echo "::error file=$pdf::La portadilla (pág. 3) no lleva la versión del libro"
             errores=1
           fi
 
