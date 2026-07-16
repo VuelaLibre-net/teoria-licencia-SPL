@@ -5,13 +5,8 @@
 BUILD_DIR = build
 PDF_OUT = $(BUILD_DIR)/pdf
 EPUB_OUT = $(BUILD_DIR)/epub
-TMP_DIR = tools/import/tmp
 
-# Fuentes de origen (oficial)
-OFICIAL_DIR = ../aesa-spl-oficial
-LIBROS_DIR = $(OFICIAL_DIR)/libros
-
-# Lista de libros oficiales en el repositorio de origen (01 al 09)
+# Lista de libros de la colección (01 al 09)
 LIBROS = 01-derecho-aereo-atc \
          02-factores-humanos \
          03-meteorologia \
@@ -22,26 +17,14 @@ LIBROS = 01-derecho-aereo-atc \
          08-aeronave-sistemas \
          09-navegacion
 
-.PHONY: all clean clean-tmp test $(LIBROS)
-
-# Evitar que GNU Make borre automáticamente los archivos intermedios (.qmd)
-.SECONDARY:
+.PHONY: all clean $(LIBROS)
 
 # Por defecto, compilar toda la colección de libros (01 a 09)
 all: $(LIBROS)
 
 # --- REGLAS GENERALES PARA CUALQUIER LIBRO ---
-
-# Compila el AsciiDoc original a DocBook XML intermedio
-$(TMP_DIR)/%.xml: $(LIBROS_DIR)/%/index.adoc
-	@mkdir -p $(TMP_DIR)
-	@echo "==> [Asciidoctor] Compilando $* a DocBook XML..."
-	asciidoctor -b docbook5 -o $@ $<
-
-# Convierte el DocBook XML a Quarto Markdown (.qmd)
-%/index.qmd: $(TMP_DIR)/%.xml tools/import/docbook_to_qmd.py $(wildcard tools/import/handlers/*.py)
-	@echo "==> [Python] Traduciendo DocBook XML a Quarto Markdown..."
-	python3 tools/import/docbook_to_qmd.py $< $*/
+# Los .qmd de cada libro son la fuente canónica: se editan a mano y ninguna
+# regla los genera. Make sólo compila los entregables a partir de ellos.
 
 # Compila el PDF del libro usando Typst via Quarto
 $(PDF_OUT)/%.pdf: %/index.qmd
@@ -64,20 +47,11 @@ $(LIBROS): %: $(PDF_OUT)/%.pdf $(EPUB_OUT)/%.epub
 
 # --- UTILIDADES ---
 
-# Ejecutar las pruebas unitarias del conversor
-test:
-	@echo "==> [Python] Ejecutando pruebas unitarias del conversor..."
-	python3 -m unittest discover -s tests -p "test_*.py"
-
 # Limpieza de los entregables y las cachés de Quarto.
 # NO toca los .qmd, _quarto.yml ni imagenes/: son la fuente canónica de la
 # colección, viven en git y no se regeneran a partir de nada.
-clean: clean-tmp
+clean:
 	rm -rf $(BUILD_DIR)
 	@for libro in $(LIBROS); do \
 		rm -rf $$libro/_book $$libro/.quarto; \
 	done
-
-# Limpieza de archivos temporales
-clean-tmp:
-	rm -rf $(TMP_DIR)

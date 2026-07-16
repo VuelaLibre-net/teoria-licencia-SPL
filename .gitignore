@@ -2,7 +2,3 @@
 build/
 .quarto/
 _book/
-tools/import/tmp/
-__pycache__/
-*.py[cod]
-.ruff_cache/

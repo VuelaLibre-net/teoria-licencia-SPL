@@ -1,6 +1,0 @@
-{
-  "extraPaths": [
-    "tools/import",
-    "tools/import/handlers"
-  ]
-}
