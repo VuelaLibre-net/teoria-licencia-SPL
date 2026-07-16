@@ -28,9 +28,7 @@ La mayoría de los planeadores modernos usan varillas rígidas (*push-rods*) par
 
 El mando azul de la cabina acciona los aerofrenos. Su función es destruir parte de la sustentación y aumentar la resistencia, lo que te permite variar la pendiente de planeo sin tener que cambiar mucho la velocidad.
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 Al sacar los aerofrenos, la mayoría de los planeadores bajan un poco el morro o vibran ligeramente. Anticípate y compensa ese cambio de actitud con el elevador para no perder la velocidad de aproximación.
 :::
 
@@ -48,15 +46,11 @@ El mando verde, o el pulsador eléctrico que libera la carga de la palanca, es t
 * **Trim de muelles**: el más común; unos resortes "sujetan" la palanca en la posición deseada.
 * **Trim de pestaña**: una pequeña superficie en el borde de salida del elevador que se mueve en sentido contrario.
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 Los mandos de cabina siguen un código de colores casi universal que conviene reconocer al instante: **azul** para los aerofrenos, **verde** para el compensador, **amarillo** para la suelta del cable de remolque y **rojo** para las palancas de emergencia (suelta de cúpula, aperturas). Localízalos en cada planeador antes de volar.
 :::
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Antes de cada despegue, comprueba siempre la libertad y el sentido de los mandos. Lleva todas las superficies a sus topes y verifica a la vista que se mueven en la dirección correcta. Un mando invertido tras un mantenimiento es una emergencia crítica, y se manifiesta justo al despegar.
 :::
 

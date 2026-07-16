@@ -24,9 +24,7 @@ La herramienta más útil para combatir este sesgo cognitivo es fijar de anteman
 * **450 metros:** elige el campo definitivo y evalúa sus 7 S (siguiente sección). Si pruebas una térmica, que sea sobre el propio campo.
 * **300 metros:** comprométete con el circuito. El juego térmico ha terminado; a partir de aquí, toda tu atención es para el aterrizaje.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Retrasar la decisión de aterrizar buscando una «térmica de rescate» a baja altura es el patrón más documentado en los accidentes graves de vuelo sin motor. Una vez fijada la altura de decisión, respétala sin excepciones. El planeador se puede reparar. El piloto, no siempre.
 :::
 
@@ -69,9 +67,7 @@ La aproximación a un campo no conocido debe ser más conservadora que la habitu
 4. **Velocidad:** mantén una velocidad ligeramente superior a la habitual —añade 10-15 km/h sobre tu velocidad normal— para tener mejor control ante las turbulencias mecánicas de los árboles y edificios cercanos.
 5. **La toma:** toca tierra con la mínima velocidad posible y mantén el planeador recto. Una vez en tierra, frena con decisión: es preferible romper el tren de aterrizaje contra un surco que intentar flotar sobre un obstáculo y entrar en pérdida.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD: EL «CABALLITO» (**GROUND LOOP**)**
-
+::: {.callout-warning title="Seguridad: EL «CABALLITO» (GROUND LOOP)"}
 Si durante el rodaje ves que vas a chocar contra un obstáculo insalvable a alta velocidad, puedes provocar un «caballito» deliberado bajando un ala al suelo. El planeador pivotará sobre esa ala y se detendrá bruscamente, sacrificando la estructura del ala para salvar al piloto. Esta maniobra solo se usa como último recurso, cuando la alternativa es el impacto frontal a velocidad.
 :::
 
@@ -102,9 +98,7 @@ La tripulación de carretera (**retrieve crew**) o tu club de vuelo necesitan sa
 
 Si has tomado tierra en una región montañosa, desértica o boscosa de difícil acceso, el rescate puede demorarse varias horas o incluso pasar la noche. Aplica la siguiente regla de oro de la supervivencia aeronáutica:
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 **Permanece siempre junto al planeador**. Una aeronave de color blanco o brillante de 15 metros de envergadura es infinitamente más fácil de avistar desde el aire por los equipos de rescate que un piloto caminando solo por el bosque o la montaña. Abandonar el velero para buscar ayuda a pie multiplica el riesgo de desorientación, hipotermia y retraso en la localización.
 :::
 

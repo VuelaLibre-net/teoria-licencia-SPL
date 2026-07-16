@@ -623,15 +623,13 @@ El resto de los papeles de la aeronave ---certificado de matrícula, certificado
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 Antes de cada vuelo, verifica los cuatro pilares documentales de la aeronave según #strong[SAO.GEN.155]: #strong[aeronavegabilidad] (certificado de aeronavegabilidad + ARC en vigor), #strong[matrícula] (certificado de matrícula visible), #strong[manual de vuelo] (AFM a bordo) y #strong[pesada y centrado] (dentro de los límites del manual). Si alguno falla, el planeador no vuela.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -677,15 +675,13 @@ Una sola respuesta negativa en cualquiera de estos puntos es razón suficiente p
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 Haz el chequeo #strong[IMSAFE] en voz alta o por escrito antes de salir de casa. La dinámica del aeródromo ---el entusiasmo del grupo, el buen tiempo, la presión social--- puede llevar a minimizar síntomas que en casa te parecerían evidentes. Decidir en frío, antes de llegar al campo, es siempre más fácil que decir «no» delante de tus compañeros cuando el remolcador ya está preparado.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -716,15 +712,13 @@ Para poder ejercer esta atribución, la normativa #strong[Part-SFCL] exige que e
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Como PIC tienes el derecho y el deber de denegar el transporte a cualquier pasajero o equipaje que consideres que puede representar un peligro para la seguridad del vuelo. Esta decisión no admite presiones externas: si el peso del pasajero más el equipo supera los límites de la aeronave, o si el pasajero muestra un comportamiento que puede comprometer tu concentración, la respuesta es un «no» firme y sin negociación.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -744,15 +738,13 @@ white
 #callout(
 body: 
 [
-⚖ #strong[NORMATIVA]
-
 Según el Reglamento (UE) 2018/1976, el titular de una SPL (Sailplane Pilot Licence) solo transportará pasajeros si cumple dos condiciones: haber completado, tras la emisión de la licencia, al menos 10 horas de vuelo o 30 lanzamientos o despegues y aterrizajes como PIC en planeadores, además de un vuelo de entrenamiento demostrando la competencia a un FI(S) (SFCL.115(a)(2)); y haber realizado, en los 90 días anteriores, al menos 3 lanzamientos como PIC en planeador ---en TMG, 3 despegues y aterrizajes--- (SFCL.160(e)).
 
 ]
 , 
 title: 
 [
-Importante
+Normativa
 ]
 , 
 background_color: 
@@ -855,8 +847,6 @@ Inmediatamente antes del enganche del cable y del despegue, el piloto debe reali
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS: LA REGLA TRADICIONAL CRISE]
-
 En la mayoría de los aeroclubs de habla hispana, especialmente en centros históricos como Ocaña o Fuentemilanos, los instructores han utilizado tradicionalmente la regla mnemotécnica #strong[CRISE] (o #strong[CRIS]):
 
 - #strong[C] (#strong[Mandos / Controles]): palanca libre, pedales ajustados y aerofrenos cerrados y asegurados.
@@ -871,7 +861,7 @@ Ambas mnemotécnicas (la europea CB-SIFT-CBE y la tradicional CRISE) persiguen e
 , 
 title: 
 [
-Nota
+Airmanship: LA REGLA TRADICIONAL CRISE
 ]
 , 
 background_color: 
@@ -945,15 +935,13 @@ La rotura de cable durante el ascenso es una de las emergencias más exigentes d
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Si el cable se rompe durante el ascenso, la prioridad #strong[absoluta e inmediata] es #strong[bajar el morro] a actitud de planeo para recuperar velocidad y evitar la pérdida. Solo una vez que la velocidad es segura, activa la suelta de emergencia del cable remanente y decide: aterrizar recto en la pista restante (baja altura), realizar un giro de 180° (altura media) o completar un circuito abreviado (altura suficiente). #strong[En lanzamiento por torno, nunca intentes retornar a pista si estás por debajo de 150 metros]: es la maniobra más letal del vuelo sin motor.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1003,15 +991,13 @@ supplement: "Figura",
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 Durante el remolque, mantén siempre el avión remolcador #strong[en tu campo de visión], preferiblemente en «posición alta» (las ruedas del remolcador apoyadas en el horizonte). Si el remolcador desaparece de tu campo de visión, has entrado en posición demasiado alta: el planeador estará levantando la cola del remolcador y puedes empujar su morro hacia el suelo. Ante cualquier duda, suelta el cable: siempre es la decisión más segura.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -1054,15 +1040,13 @@ supplement: "Figura",
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Evita realizar un cuadro demasiado estrecho o recortar las esquinas, ya que el planeador penetrará en los vórtices de punta de ala de forma descontrolada. Esto puede provocar un alabeo violento e imprevisto. Si pierdes el control o el remolcador desaparece de tu vista, suelta el cable inmediatamente.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1104,15 +1088,13 @@ Sin embargo, la operación con motor introduce una serie de riesgos específicos
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Establece siempre una altura mínima de seguridad para el arranque del motor en vuelo (típicamente #strong[300 metros AGL]). Si desciendes por debajo de esa altura y el motor no arranca al primer intento, desiste inmediatamente, olvídate del motor y concéntrate exclusivamente en realizar un aterrizaje fuera de campo controlado. Muchos accidentes graves ocurren por intentar solucionar fallos del motor a escasos metros del suelo.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1153,15 +1135,13 @@ Independientemente del método de lanzamiento, existen reglas de seguridad comun
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 Realiza siempre una comprobación de mandos cruzada (#strong[cross-check]) con otro piloto o el jefe de fila antes del lanzamiento. Un mando de alerones o timón no conectado correctamente puede ser imposible de detectar durante la inspección individual. Esta sencilla verificación elimina una de las causas más frecuentes de accidentes en el despegue.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -1189,15 +1169,13 @@ Antes de cada jornada de vuelo y en cada inspección prevuelo individual, el pil
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD: INCOMPATIBILIDAD DE ANILLAS]
-
 El sistema de doble anilla Tost es el único homologado para ganchos Tost. El uso accidental de una anilla simple de tipo americano (Schweizer) en un gancho Tost grasping-style puede provocar que el gancho no se libere al accionar el tirador en vuelo, resultando en un arrastre incontrolable. Verifica siempre la compatibilidad del cable antes de enganchar.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad: INCOMPATIBILIDAD DE ANILLAS
 ]
 , 
 background_color: 
@@ -1250,15 +1228,13 @@ Los colores, numeración y resistencias nominales corresponden al catálogo de f
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Nunca instales un fusible de seguridad de resistencia superior a la especificada en el AFM de tu planeador, ni realices puenteos en el cable utilizando mosquetones o grilletes sin fusible. En caso de una sobretensión brusca (como una ráfaga o un tirón por cable flojo), la rotura de las alas o del morro del planeador ocurrirá antes de que el cable se rompa. Asimismo, utilizar un fusible excesivamente resistente en remolque por avión puede causar daños graves en el gancho de morro y en la estructura del fuselaje antes de romperse.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1288,15 +1264,13 @@ Este briefing estructura la toma de decisiones inmediata en caso de una rotura d
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 No comiences la carrera de despegue sin haber verbalizado o repasado mentalmente tu #strong[emergency briefing]. En caso de rotura de cable a baja altura, no hay tiempo para pensar qué hacer; la acción correcta (bajar el morro, estabilizar la velocidad y la trayectoria) debe estar precargada en la mente y ejecutarse como una respuesta refleja.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -1367,15 +1341,13 @@ supplement: "Figura",
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 Si al atravesar una térmica un ala sube, el núcleo está de ese lado: #strong[vira hacia el ala que sube]. Una vez establecido el giro, no inviertas nunca el sentido: ajusta. Cierra el viraje cuando el vario sube, ábrelo cuando baja. Con el tiempo, este ajuste se vuelve automático y no necesitas calcularlo conscientemente.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -1418,15 +1390,13 @@ Su utilidad se restringe exclusivamente al vuelo térmico lento para ayudar al a
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 En el vuelo rápido (#strong[high-speed flight]), el hilo de lana lateral pierde toda precisión debido a que los ángulos de ataque son extremadamente pequeños. En este rango, el anemómetro y la observación del horizonte son los únicos métodos de referencia válidos para evitar exceder la V#sub[NE] (Velocidad Nunca Exceder). El hilo de lana lateral es una herramienta didáctica complementaria para el vuelo térmico lento, nunca un sustituto de los instrumentos primarios de vuelo ni del hilo de lana central de coordinación.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1455,15 +1425,13 @@ El #strong[vuelo de ladera] (#strong[ridge soaring]) aprovecha la deflexión asc
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Nunca vires hacia la ladera si no tienes espacio garantizado para completar el viraje con margen. A sotavento de la montaña ---detrás de la cresta--- el aire puede descender con violencia incluso en condiciones de vuelo aparentemente buenas en barlovento. Una entrada accidental en la zona de rotor a baja altura sobre el terreno puede ser irrecuperable.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1504,15 +1472,13 @@ supplement: "Figura",
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 El vuelo de onda a gran altitud requiere equipamiento específico: oxígeno a partir de los 3.000-4.000 metros según la autonomía y condición del piloto, ropa de abrigo adecuada y un altímetro calibrado. Antes de un vuelo de onda planificado, consulta el espacio aéreo: es frecuente que las altitudes de onda coincidan con zonas restringidas o reservadas para el tráfico controlado, que requieren autorización previa.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -1542,15 +1508,13 @@ La analogía más útil es la del ciclista: en un descenso largo, ir cargado per
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Un planeador con lastre de agua tiene una #strong[velocidad de pérdida significativamente mayor] ---hasta 15-20 km/h más que sin lastre---. Ajusta todas tus velocidades de referencia (despegue, aproximación, circuito) en consecuencia. #strong[Nunca aterrices con lastre completo], salvo que una avería del vaciado te obligue --- y entonces, extrema la suavidad de la toma: la inercia adicional puede superar la resistencia estructural de las alas y provocar un fallo catastrófico.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1629,15 +1593,13 @@ Antes de entrar en el tramo de viento en cola, abre los grifos del lastre de agu
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 Haz el FUSTALL siempre en el mismo punto del viento en cola ---por ejemplo, cuando la cabecera de la pista quede a la altura del ala---. La repetición convierte la lista en un hábito y hace prácticamente imposible omitirla. Un piloto que improvisa el momento del chequeo acaba por no hacerlo.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -1657,15 +1619,13 @@ white
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS: LA REGLA TRADICIONAL WULF]
-
 En muchos clubes europeos se enseña la mnemotecnia abreviada #strong[WULF] para el mismo chequeo de viento en cola: #strong[W] (#strong[Water ballast]): lastre de agua vaciado; #strong[U] (#strong[Undercarriage]): tren fuera y blocado; #strong[L] (#strong[Loose articles / Look-out]): objetos sueltos asegurados y vigilancia exterior; #strong[F] (#strong[Flaps]): flaps en posición de aterrizaje. Ambas listas persiguen lo mismo: llegar al tramo de base con la configuración completa y la atención puesta fuera de la cabina.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship: LA REGLA TRADICIONAL WULF
 ]
 , 
 background_color: 
@@ -1694,15 +1654,13 @@ El viento modifica esta ecuación de forma importante:
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Entrar en final lento con viento en cara es una de las combinaciones más peligrosas en el vuelo de planeador. El gradiente de viento próximo al suelo puede robarte los últimos 15-20 km/h de velocidad en décimas de segundo, llevándote directamente a la pérdida a una altura donde la recuperación es imposible. La velocidad adicional en final no es un lujo: es un seguro de vida.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1746,15 +1704,13 @@ supplement: "Figura",
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 Si en el viraje de base a final observas que vas a pasar de largo el punto de toma con los aerofrenos completamente abiertos, no cierres los frenos bruscamente cerca del suelo: el planeador sufrirá un balonazo repentino. En su lugar, si el campo lo permite, prolonga el giro de base o realiza una S suave en final para aumentar la distancia recorrida. Si nada funciona, estás en una situación de campo largo: aterriza y rueda hasta el final de la pista.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -1804,15 +1760,13 @@ supplement: "Figura",
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Debido a que el flujo de aire está desprendido y el anemómetro no es fiable durante el resbale, existe riesgo de entrada en pérdida si el piloto tira excesivamente de la palanca de profundidad. Mantén siempre una actitud de morro netamente baja. Practica la maniobra a altura de seguridad antes de intentarla en circuito.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1842,15 +1796,13 @@ El viento de cola altera radicalmente las referencias sensoriales del piloto y l
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Cuando vueles una aproximación con viento de cola, #strong[fía tu control de velocidad exclusivamente al anemómetro], ignorando la velocidad aparente con la que pasa el terreno bajo la cabina. Mantén la velocidad de aproximación recomendada y prepárate para una carrera de rodaje muy larga y un frenado enérgico.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1927,15 +1879,13 @@ La herramienta más útil para combatir este sesgo cognitivo es fijar de anteman
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Retrasar la decisión de aterrizar buscando una «térmica de rescate» a baja altura es el patrón más documentado en los accidentes graves de vuelo sin motor. Una vez fijada la altura de decisión, respétala sin excepciones. El planeador se puede reparar. El piloto, no siempre.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -2006,15 +1956,13 @@ La aproximación a un campo no conocido debe ser más conservadora que la habitu
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD: EL «CABALLITO» (]GROUND LOOP#strong[)]
-
 Si durante el rodaje ves que vas a chocar contra un obstáculo insalvable a alta velocidad, puedes provocar un «caballito» deliberado bajando un ala al suelo. El planeador pivotará sobre esa ala y se detendrá bruscamente, sacrificando la estructura del ala para salvar al piloto. Esta maniobra solo se usa como último recurso, cuando la alternativa es el impacto frontal a velocidad.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad: EL «CABALLITO» (GROUND LOOP)
 ]
 , 
 background_color: 
@@ -2061,15 +2009,13 @@ Si has tomado tierra en una región montañosa, desértica o boscosa de difícil
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 #strong[Permanece siempre junto al planeador]. Una aeronave de color blanco o brillante de 15 metros de envergadura es infinitamente más fácil de avistar desde el aire por los equipos de rescate que un piloto caminando solo por el bosque o la montaña. Abandonar el velero para buscar ayuda a pie multiplica el riesgo de desorientación, hipotermia y retraso en la localización.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -2174,15 +2120,13 @@ Para que el FLARM cumpla con su función de seguridad sin generar distracciones 
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 El FLARM es una herramienta de seguridad extraordinariamente útil, (obligatoria para competición oficial desde un regional hasta los mundiales) pero #strong[nunca sustituye a la vigilancia visual]. Considéralo como un complemento que te avisa de los peligros que ya conoce, no como un sistema que elimina todos los riesgos. Ante una alerta FLARM, reacciona buscando visualmente la aeronave conflictiva: el sistema te indica la dirección, pero la maniobra final es responsabilidad tuya.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -2210,8 +2154,6 @@ Las aves ---especialmente los buitres, alimoches y cigüeñas negras--- son comp
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS: EL COMPORTAMIENTO DE LOS BUITRES]
-
 En la península ibérica, el encuentro con buitres leonados en térmica es diario durante la temporada de vuelo. Los instructores de la escuela española enseñan una regla de oro de seguridad ante una trayectoria de colisión inminente con un buitre: #strong[esquiva siempre al ave volando por encima de ella:]
 
 El instinto de escape natural de un buitre asustado ante una amenaza de gran tamaño es #strong[plegar sus alas y arrojarse en picado hacia abajo] para ganar velocidad de escape rápida. Si el piloto intenta esquivar al buitre picando el planeador (por debajo), existe una altísima probabilidad de interceptar la trayectoria de caída del ave y chocar frontalmente. Ante la duda, mantén tu trayectoria coordinada o tira suavemente de la palanca para pasar por encima de su cota.
@@ -2220,7 +2162,7 @@ El instinto de escape natural de un buitre asustado ante una amenaza de gran tam
 , 
 title: 
 [
-Nota
+Airmanship: EL COMPORTAMIENTO DE LOS BUITRES
 ]
 , 
 background_color: 
@@ -2240,15 +2182,13 @@ white
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Los tendidos eléctricos y los cables de telecomunicaciones son invisibles desde el aire en muchas condiciones de luz. Son el mayor riesgo no detectado en el vuelo de travesía y campo. El FLARM puede incluir su posición en zonas de competición, pero en vuelo libre la responsabilidad de detectarlos es exclusivamente visual: identifica los postes de hormigón o madera y traza mentalmente la línea entre ellos antes de sobrevolarla.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -2279,15 +2219,13 @@ Las #strong[estelas turbulentas] ---los vórtices de punta de ala generados por 
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 La turbulencia de estela generada por helicópteros es desproporcionada en comparación con su peso. Dado que los planeadores tienen gran envergadura y poca carga alar, son extremadamente vulnerables. Nunca intentes aterrizar o despegar inmediatamente detrás de un helicóptero en movimiento y evita cruzar zonas donde se haya realizado vuelo estacionario reciente.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -2315,15 +2253,13 @@ El #strong[engelamiento] es la acumulación de hielo en el borde de ataque, que 
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 El agua en las alas ---por humedad, rocío o lluvia suave--- tiene un efecto similar al engelamiento leve: aumenta la resistencia y la velocidad de pérdida entre un 5-10 %. Aumenta tu velocidad de aproximación y de circuito si las alas están mojadas o si has volado en condiciones de humedad elevada. Este efecto es especialmente traicionero en el aterrizaje.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -2457,15 +2393,13 @@ supplement: "Figura",
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS: LA DECISIÓN DE ATERRIZAR FUERA]
-
 Ante un fallo de lanzamiento a altura crítica, #strong[un aterrizaje fuera de los límites del aeródromo (aterrizaje forzoso recto por delante) es siempre preferible a intentar un viraje de retorno forzado a baja altura]. Forzar el viraje para "salvar" el planeador y volver a la pista es la causa principal de pérdidas y barrenas fatales.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship: LA DECISIÓN DE ATERRIZAR FUERA
 ]
 , 
 background_color: 
@@ -2485,15 +2419,13 @@ white
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD: «LA MANIOBRA IMPOSIBLE»]
-
 Intentar regresar al aeródromo virando 180° a baja altura ---lo que en aviación se conoce como «la maniobra imposible»--- es la causa documentada de la mayoría de los accidentes graves en el despegue. La geometría del planeo no lo permite: el viraje a baja altura consume una energía y altura que no existen. #strong[Si estás por debajo de la altura crítica establecida (150 m en torno y 70 m en avión) y no hay espacio de pista por delante, aterriza recto en campo abierto. ¡Siempre!]
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad: «LA MANIOBRA IMPOSIBLE»
 ]
 , 
 background_color: 
@@ -2525,15 +2457,13 @@ Aplica de inmediato el siguiente procedimiento:
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Cuando vueles una aproximación con el cable colgando, #strong[bajo ninguna circunstancia realices una aproximación baja]. El cable podría engancharse en una valla o línea eléctrica antes del umbral de la pista, lo que provocaría una deceleración violenta y un impacto del planeador contra el suelo sin control (#strong[pitch-up] o pérdida instantánea). Mantén un margen de altura generoso hasta superar el umbral.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -2563,15 +2493,13 @@ La prioridad es triple y simultánea: #strong[eliminar el combustible], #strong[
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 Familiarízate con la posición de las válvulas de combustible y el extintor de tu planeador motorizado antes del primer vuelo. Una emergencia de fuego no deja tiempo para buscar manuales ni para recordar dónde están los controles de emergencia. La memoria muscular se entrena en tierra, no en vuelo.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -2607,15 +2535,13 @@ Las causas más frecuentes son el exceso de velocidad ---superar la V#sub[NE] (V
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD: ]FLUTTER\*\*\*\*
-
 Si experimentas una vibración fuerte y descontrolada, #strong[reduce la velocidad de inmediato]: sube el morro suavemente y abre los aerofrenos para frenar aerodinámicamente. El #emph[flutter] solo ocurre a altas velocidades y puede destruir el planeador en segundos. Nunca intentes aumentar la velocidad para «salir» de una vibración: es la acción exactamente contraria a lo que necesitas. Tras cualquier episodio de vibración anormal, el planeador debe ser inspeccionado por un técnico antes de volar de nuevo.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad: FLUTTER
 ]
 , 
 background_color: 
@@ -2646,15 +2572,13 @@ El bloqueo de las tomas de presión de tu planeador (normalmente debido a agua d
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 En caso de fallo instrumental completo en circuito de tráfico, confía plenamente en tu estimación visual del ángulo de planeo respecto al punto de toma. Mantén una actitud de morro conservadora, previene el pérdida asegurando una buena corriente de aire (sonido del viento consistente en cabina) y no intentes corregir visualmente basándote en un anemómetro que sabes bloqueado.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -2685,15 +2609,13 @@ El procedimiento de seguridad exige las siguientes acciones inmediatas:
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Nunca dejes de pilotar para intentar sujetar o cerrar una cúpula que se abre en circuito o a baja altura. Muchos accidentes mortales se han producido porque el piloto soltó la palanca de mandos para agarrar la cúpula con ambas manos, entrando el planeador en pérdida y barrena incontrolada o levantando la cola del remolcador y estrellándolo contra el suelo. Deja que la cúpula flote o se desprenda si es necesario; ¡concéntrate únicamente en volar!
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -2737,15 +2659,13 @@ supplement: "Figura",
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Un ala cargada con decenas de litros de agua tiene una velocidad de pérdida muy superior al ala vacía. En caso de vaciado asimétrico, si permites que la velocidad caiga demasiado en el tramo final o en el viraje de base, el ala pesada entrará en pérdida de forma asimétrica y repentina, provocando una barrena (#strong[spin]) instantánea e irrecuperable a baja altura. Mantener la velocidad recomendada en circuito es tu defensa absoluta.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -2765,15 +2685,13 @@ white
 #callout(
 body: 
 [
-⚖ #strong[NORMATIVA]
-
 Las alturas de decisión que aparecen en este capítulo (150 y 200 m en torno; 70 y 150 m en remolque) y la escalera de decisión del aterrizaje fuera de campo son #strong[valores formativos de referencia], no cifras normativas: la cota crítica real de cada planeador la fijan su AFM y las instrucciones locales del campo (longitud de pista, obstáculos, viento habitual). Apréndelas como orden de magnitud y ajústalas a tu aeronave y a tu aeródromo con tu instructor.
 
 ]
 , 
 title: 
 [
-Importante
+Normativa
 ]
 , 
 background_color: 
@@ -2871,15 +2789,13 @@ Por debajo de 150 metros, el paracaídas puede no tener tiempo suficiente para a
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 En una barrena o espiral descontrolada, las fuerzas G pueden ser muy elevadas ---hasta 3-4 G centrífugos--- y dificultar enormemente la salida de la cabina. Actúa con decisión y rapidez: cada segundo de demora es altura que se pierde. Si las fuerzas G te impiden moverte, aprovecha el instante de menor G al inicio de cada rotación para empujar la cúpula y saltar.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -2925,15 +2841,13 @@ supplement: "Figura",
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Asegúrate de estar completamente separado del planeador antes de tirar de la anilla. Si la campana se abre junto al planeador, puede engancharse en el estabilizador, el fuselaje o las superficies de control, impidiendo una apertura completa.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -2992,15 +2906,13 @@ El paracaídas es un equipo de supervivencia que requiere cuidados específicos 
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Nunca vueles con un paracaídas cuya tarjeta de inspección esté caducada, aunque sea por un solo día. Del mismo modo, si el paracaídas ha estado expuesto a humedad intensa, a productos químicos (gasolina, aceites, disolventes) o a cualquier impacto mecánico, debe ser inspeccionado por un técnico antes de volver a usarlo. La tarjeta de inspección en vigor no es una formalidad burocrática: es la única garantía objetiva de que el equipo funciona.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 

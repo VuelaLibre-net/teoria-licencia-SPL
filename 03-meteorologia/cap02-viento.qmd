@@ -19,9 +19,7 @@ Si la Tierra no rotase, el viento fluiría directamente de las altas a las bajas
 
 En el hemisferio norte, la fuerza de Coriolis desvía cualquier masa de aire en movimiento hacia la **derecha**. A medida que el viento acelera impulsado por el gradiente de presión, Coriolis tira de él hacia la derecha. Por encima de unos 1.000 metros sobre el terreno (nivel de fricción), ambas fuerzas (gradiente y Coriolis) se equilibran. El resultado es que el viento deja de cruzar las isobaras y acaba soplando **paralelo** a ellas. A este viento libre en altura se le denomina **viento geostrófico**.
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 La Ley de Buys Ballot es una regla clásica que resume este efecto: en el hemisferio norte, si te pones de espaldas al viento, el centro de baja presión siempre estará a tu lado izquierdo.
 :::
 
@@ -31,9 +29,7 @@ Cerca del suelo (por debajo de esos 1.000 metros), entra en juego un tercer acto
 
 Al reducirse la velocidad del viento por esta fricción, el efecto de Coriolis (que depende de la velocidad) también disminuye. Sin embargo, la fuerza del gradiente de presión se mantiene intacta. Como Coriolis ya no puede contrarrestar del todo al gradiente, el viento en superficie se desvía y **cruza las isobaras hacia la baja presión** (típicamente con un ángulo de unos 30 grados respecto a las isobaras).
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Debido a la fricción, cuando te acercas al suelo para aterrizar experimentarás el "gradiente de viento" ( en capa límite). En los últimos metros, el viento no solo será más flojo que en el circuito, sino que su dirección cruzará más hacia la baja presión. Debes mantener tu velocidad de aproximación con un margen de seguridad adecuado para evitar la pérdida de sustentación en la recogida (**flare**).
 :::
 
@@ -52,9 +48,7 @@ Debido a la fricción, cuando te acercas al suelo para aterrizar experimentarás
 
 ![Zona de ascendencia para planeo de ladera](imagenes/03-cap02-vuelo-ladera.jpg){#fig-03-cap02-vuelo-ladera}
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 A última hora de la tarde, cuando los fríos vientos catabáticos bajan por ambas laderas de un valle, "estrujan" el aire residual cálido que queda en el centro, forzándolo a subir. Este fenómeno se conoce como **restitución**. Crea zonas muy amplias y suaves de ascendencia en el centro del valle, permitiendo prolongar vuelos al atardecer en aire completamente calmado.
 :::
 
@@ -70,15 +64,11 @@ La **pared de Foehn** (**Foehn wall**) es la acumulación de nubes que permanece
 
 Un ejemplo cercano: los naranjos y limoneros del **Valle del Tiétar** (al pie sur de la Sierra de Gredos, en Ávila y Cáceres) deben su microclima mediterráneo al Foehn que baja por la vertiente de sotavento cuando el viento viene del norte. Mientras en el páramo castellano hace frío, en el Tiétar recogen naranjas.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 El sotavento de una cordillera bajo un Foehn activo puede esconder rotores de turbulencia severa en los niveles inferiores. No te confíes por ver cielos despejados y temperatura cálida en sotavento: mantén altitud al cruzar cordilleras en estas condiciones y evita las laderas de sotavento a baja altura.
 :::
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 Si a pie de pista el termómetro marca varios grados por encima de lo habitual para el mes, la humedad relativa es inusualmente baja y ves una masa de nubes estacionaria sobre la sierra al norte: estás bajo un Foehn. Las bases de nube serán muy altas y las térmicas explosivas. Aprovéchalo, pero vigila los rotores cerca del terreno en el sotavento.
 :::
 
@@ -96,9 +86,7 @@ Identificar la línea de convergencia es cuestión de observación:
 * La convergencia a veces genera una franja alargada de cúmulos algo más activos, o incluso una cortina de nubes (**curtain cloud**) a lo largo del límite (@fig-03-cap02-calles-nubes).
 * A ras de suelo puede notarse como un cambio repentino de viento y frescor al cruzarla.
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 En verano, los pilotos que operan desde Fuentemilanos (Segovia) trabajan frecuentemente la convergencia de brisa del SW que penetra desde el Atlántico a través del Sistema Central. La Baja Térmica Peninsular (ver capítulo de Climatología) actúa como un gran aspirador que succiona la brisa marina tierra adentro, creando líneas de convergencia NW–SE que funcionan como autopistas de ascendencias para el cross-country. Revisa modelos RASP o Skysight —o su equivalente en Topmeteo o Meteo Parapente— la tarde anterior para anticipar su posición.
 :::
 

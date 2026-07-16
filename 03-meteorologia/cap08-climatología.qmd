@@ -23,9 +23,7 @@ Debido a su compleja orografía y situación geográfica, la península ibérica
 * **Vuelo de Onda y Laderas:** Durante el invierno y la ventosa primavera, los grandes macizos montañosos actúan como gigantescos deflectores. Es especialmente destacable la **Onda de Montaña** en el Sistema Central (zonas míticas como Fuentemilanos, Santo Tomé, Pedro Bernardo o Arcones) y en la potente "Convergencia Pirenaica". Estas condiciones permiten ascensos de onda espectaculares y vuelos de altitud y distancia extrema.
 * **Vuelo Térmico Puro:** En verano, las extensas llanuras interiores y mesetas (como La Mancha) se calientan intensamente por radiación solar, generando convecciones formidables y enormes líneas de convergencia (como la de los Montes de Toledo) ideales para maratones de cross-country.
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 En España tienes temporada para casi todo el año: cuando el viento sopla fuerte en invierno, busca onda en el Sistema Central o los Pirineos; cuando el verano hornea las mesetas, busca térmicas en La Mancha. Conocer cuándo y dónde vale cada recurso define al piloto experimentado.
 :::
 
@@ -37,15 +35,11 @@ En zonas montañosas como el Sistema Central, los Pirineos o los Picos de Europa
 
 Los **rotores de sotavento** son la trampa invisible de la climatología ibérica: con viento de componente norte en el Sistema Central o con Tramontana en el Pirineo, el rotor puede situarse exactamente sobre la vertical del aeródromo a alturas de circuito. Si el día presenta lenticulares en altura y ves fractocúmulos deshilachados a baja cota, trata esa zona como zona de turbulencia severa.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Los vientos catabáticos y los rotores de sotavento pueden aparecer a baja altitud sin previo aviso visual. Nunca sobrevueles una ladera de sotavento a menos de 300 ft de separación vertical del terreno, y conoce los puntos conflictivos de tu aeródromo local antes de volar en condiciones de viento fuerte.
 :::
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 Antes de cada vuelo en zona montañosa, consulta la dirección del viento y compárala con el mapa orográfico de tu aeródromo. Los vientos del norte generan rotores en sectores distintos a los del sur o del oeste. Aprende los patrones locales y consulta a pilotos con experiencia en la zona.
 :::
 
@@ -58,15 +52,11 @@ La cambiante fisonomía de cada estación del año impone al velerista reglas de
 * **Otoño:** Generalmente asociado a mayor estabilidad y lluvias. En el área mediterránea es la época de las DANA (Depresiones Aisladas en Niveles Altos), que generan tormentas severas y precipitaciones intensas, reduciendo significativamente las oportunidades de vuelo.
 * **Días Post-Frontales:** Con independencia de la estación, el día después del paso de un frente frío suele ofrecer condiciones excelentes. La atmósfera queda limpia, nítida y con visibilidad excepcional. El contraste térmico entre el aire gélido y el suelo reactiva las mejores corrientes ascendentes del año.
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 Los días post-frontales son el estándar de oro del vuelo ibérico: cielo azul, térmicas puras y visibilidad excepcional. Aprende a identificarlos en la previsión: busca el paso de un frente frío activo seguido de aire polar y presión en subida. El día siguiente suele ser extraordinario.
 :::
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 En verano, las tormentas de evolución (**air mass storms**) se desarrollan rápidamente durante las horas centrales del día a partir de cúmulos congestus. Si ves cúmulos que crecen verticalmente a ritmo acelerado, aterriza cuanto antes. No esperes a ver el yunque para decidir.
 :::
 
@@ -78,9 +68,7 @@ Aunque barométricamente no es tan profunda como una fuerte borrasca polar, esta
 
 Este imparable avance de aire marino forzado tierra adentro se convierte en extensos **frentes de brisa** que penetran decenas de kilómetros. Al chocar contra la masa continental abrasadora y contra las barreras de los sistemas montañosos, levantan forzosamente el aire inestable en formidables **líneas de convergencia**: autopistas invisibles de ascendencia que el piloto experimentado aprende a seguir en sus vuelos de distancia.
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 Las líneas de convergencia generadas por la Baja Térmica Peninsular son autopistas de sustentación en verano. Identifícalas en las previsiones de modelos RASP o Skysight y planifica tu ruta de cross-country siguiéndolas: con brisa bien establecida, una sola línea de convergencia puede regalarte decenas de kilómetros sin perder altitud.
 :::
 

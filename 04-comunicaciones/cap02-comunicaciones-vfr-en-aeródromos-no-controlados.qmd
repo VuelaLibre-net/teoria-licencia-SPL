@@ -15,9 +15,7 @@ Dos cosas básicas:
 * **A quién llamas**: Al nombre del aeródromo, no a «Torre». *«Fuentemilanos, buenos días…​»* o *«Santa Cilia, tráfico…​»*
 * **Qué dices**: Indicativo, posición, altitud e intención. *«…​velero Eco Papa Eco, a 5 minutos al este del campo a 1.500 metros, notificaré entrando al circuito.»*
 
-::: {.callout-important}
-⚖ **NORMATIVA**
-
+::: {.callout-important title="Normativa"}
 Aunque en algunos campos exista un operador de radio prestando un servicio AFIS (**Aerodrome Flight Information Service**), este operador **no proporciona control**, solo información (viento, pista en uso, meteorología). La decisión final y la responsabilidad de la separación siguen siendo íntegramente del piloto al mando.
 :::
 
@@ -31,9 +29,7 @@ Tres cosas que no puedes olvidar:
 2. **No asumas que te han escuchado**: Un piloto puede estar distraído, en otra frecuencia, o con el equipo fallando.
 3. **Tus ojos mandan**: La radio te dice dónde **buscar**, pero mantén el barrido visual (**scanning**) activo antes de cualquier maniobra, especialmente al incorporarte al circuito.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Un error fatal es iniciar un viraje (por ejemplo, de tramo base a final) confiando únicamente en que "nadie ha cantado posición por la radio". Asegúrate siempre visualmente de que la pista y la aproximación final están libres de tráfico antes de virar.
 :::
 
@@ -65,21 +61,15 @@ Las notificaciones que haces durante el circuito son estas:
 4. **Final** (**Final approach**): Alineado con la pista, tras el último viraje. *"Fuentemilanos, Eco Papa Eco, en final 16"*.
 5. **Pista libre** (**Runway vacated**): Ya en tierra y fuera de la pista activa. *"Fuentemilanos, Eco Papa Eco, pista 16 libre"*.
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 En campos con mucha actividad de vuelo a vela, el circuito de planeadores puede discurrir por un lado de la pista y el de aviones con motor (incluidos los remolcadores) por el contrario. Consulta siempre la carta del aeródromo antes del vuelo.
 :::
 
-::: {.callout-important}
-⚖ **NORMATIVA**
-
+::: {.callout-important title="Normativa"}
 Según el Reglamento SERA (artículo SERA.3210), el orden de prioridad de paso —de mayor a menor— es: globos > planeadores > dirigibles > aeronaves con motor. El planeador tiene prioridad sobre todo aerodino propulsado por motor y **cede el paso a los globos**. Esta prioridad aplica en vuelo y en las inmediaciones del aeródromo; nunca justifica descuidar la vigilancia visual activa.
 :::
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 SERA no incluye a parapentes y alas delta en esa jerarquía con esa literalidad, pero el criterio operativo prudente es tratarlos como a un planeador y, además, cederles el paso: maniobran bastante peor que tú y descienden sin poder remontar. Ante la duda, sepárate.
 :::
 
@@ -110,9 +100,7 @@ Sin radio tierra-aire, el ayudante de ala (**wing runner**) coordina con señale
 
 : Señales visuales del ayudante de ala
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Si el cable se rompe o el torno falla, baja el morro de inmediato para recuperar velocidad. A baja altura —por debajo de unos **150 m AGL** en torno— no vires: aterriza recto al frente en el terreno disponible. Intentar regresar a la pista de origen a baja altura es la causa más frecuente de accidentes mortales en lanzamiento con torno. Las franjas de decisión completas por altura (recto al frente, circuito abreviado o circuito normal) se desarrollan en el **Libro 6 — Procedimientos operativos**, capítulo 7.
 :::
 
@@ -131,9 +119,7 @@ Al soltar:
 
 Si el planeador **no puede largar el cable**, la señal de socorro en vuelo es: alabear fuertemente y situarse bajo y a la izquierda del remolcador, para que este pueda largarlo desde su extremo.
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 Antes de subir al planeador, acuerda siempre con el piloto remolcador la altitud de suelta y la dirección de alejamiento. Así el remolcador puede regresar a la pista sin cruzarse con el velero que inicia su vuelo.
 :::
 

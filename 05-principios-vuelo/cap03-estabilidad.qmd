@@ -12,9 +12,7 @@ Según su diseño, el comportamiento del planeador puede clasificarse en tres ti
 * **Estabilidad estática neutra:** la aeronave no intenta corregir la perturbación, pero tampoco la amplifica. Si una racha sube el morro 5 grados, el planeador se mantiene en esa nueva actitud sin retornar a la anterior ni seguir subiendo.
 * **Estabilidad estática negativa (inestabilidad):** la aeronave tiende a alejarse cada vez más de su posición de equilibrio original. Es una condición peligrosa: una pequeña perturbación de morro arriba haría que el planeador siguiera encabritándose de forma progresiva y acelerada.
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 Los veleros de escuela suelen diseñarse con una estabilidad estática positiva muy marcada para facilitar el aprendizaje y perdonar errores del alumno. Sin embargo, esto los hace más "pesados" o perezosos de mando. Los veleros de alta competición o acrobacia reducen esta estabilidad para ganar agilidad y respuesta inmediata.
 :::
 
@@ -35,9 +33,7 @@ Dos modos de oscilación merecen atención especial en un planeador:
 * **Modo fugoide:** una oscilación longitudinal lenta y de gran periodo (típicamente 30-60 segundos). El planeador sube y baja intercambiando altitud y velocidad en ciclos suaves. Su amortiguamiento es débil, pero el ciclo es tan lento que lo corriges sin darte cuenta con los pequeños ajustes de palanca de siempre; solo aflora si sueltas los mandos un buen rato.
 * **Tendencia espiral:** una inestabilidad dinámica lateral. La mayoría de los planeadores son estáticamente estables en alabeo, pero dinámicamente tienden a una ligera **divergencia espiral**: si se les abandona con un pequeño ángulo de inclinación, el alabeo crece lentamente hasta convertirse en una espiral descendente. Por eso el piloto debe vigilar siempre la actitud lateral, especialmente en nube o al perder las referencias visuales del horizonte.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 La tendencia espiral es el origen de la mayoría de los incidentes por pérdida de control en condiciones de visibilidad reducida. Un planeador abandonado con cinco grados de alabeo puede, en cuestión de minutos, desarrollar una espiral descendente fatal. Nunca vueles sin referencias visuales del horizonte real.
 :::
 
@@ -50,9 +46,7 @@ Para que el planeador sea estable en cabeceo, el **CG debe situarse por delante 
 * **CG demasiado adelantado:** aumenta la estabilidad, pero hace al planeador excesivamente "cabezón" y difícil de maniobrar, especialmente durante el despegue y el aterrizaje. La eficiencia L/D disminuye por el aumento de resistencia en la cola para compensar el peso del morro.
 * **CG demasiado atrasado:** es la condición crítica y peligrosa. Si el CG queda por detrás de los límites permitidos, el planeador se vuelve inestable: ante cualquier perturbación el morro tiende a subir de forma descontrolada. Y hay algo peor: si la pérdida degenera en barrena, el CG atrasado tiende a aplanarla, y una barrena plana deja a los mandos sin autoridad para romperla.
 
-::: {.callout-important}
-⚖ **NORMATIVA**
-
+::: {.callout-important title="Normativa"}
 El Reglamento (UE) 2018/1976, Part-SAO, punto SAO.GEN.130 d)4), establece que el piloto al mando deberá "iniciar un vuelo únicamente tras cerciorarse de que […​] la masa del planeador y la ubicación de su centro de gravedad permiten efectuar el vuelo dentro de los límites definidos por el manual de vuelo de la aeronave (AFM)".
 :::
 

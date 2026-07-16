@@ -21,9 +21,7 @@ No todos los anticiclones son iguales. Según su mecanismo de formación se dist
 * **Anticiclón dinámico o cálido** (**warm high**): Se forma por subsidencia en la zona de contacto entre las celdas de Hadley y Ferrel (en torno a los 30° de latitud). El aire desciende desde la troposfera alta, se comprime y se calienta. Puede extenderse hasta la tropopausa. El **anticiclón de las Azores** es el ejemplo ibérico por excelencia: en verano se instala sobre la Península y garantiza jornadas largas de vuelo con cielo azul y viento flojo.
 * **Anticiclón frío o termal** (**cold high**): Se forma por enfriamiento intenso de grandes superficies continentales, que enfrían el aire en contacto con el suelo. Es denso y frío en las capas bajas pero tiene poca altura —apenas llega a los 3.000-4.000 m. El anticiclón ibérico invernal es de este tipo: trae noches gélidas, nieblas de radiación persistentes en cuenca del Duero y del Ebro, e inversiones térmicas bajas que bloquean cualquier actividad convectiva.
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 Para planificar el vuelo del día, mira el mapa sinóptico la noche anterior: si España está bajo una dorsal o anticiclón (H), planifica vuelo de distancia; si hay una vaguada o borrasca acercándose, no planifiques. El movimiento de las isobaras te da 24-48 horas de margen para decidir con criterio.
 :::
 
@@ -35,9 +33,7 @@ Al contrario que en el anticiclón, el gradiente de presión obliga al aire del 
 
 En el hemisferio norte, las borrascas giran en sentido **antihorario**. Sus isobaras muy apretadas son sinónimo de vientos fuertes y racheados: la operación VFR dentro de una borrasca activa es inviable. Sin embargo, la retaguardia post-frontal —lo que queda tras el paso de la borrasca— suele ofrecer las mejores jornadas de vuelo del año.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Nunca salgas con previsión de borrasca activa en aproximación. Las condiciones VFR pueden degradarse rápidamente: nubosidad baja, visibilidad reducida y ráfagas que complican el aterrizaje. Cancela antes de salir si el mapa sinóptico muestra una depresión activa a menos de 500 km de tu zona de vuelo.
 :::
 
@@ -56,9 +52,7 @@ Aunque parece inofensiva por su calma, esta configuración impone condiciones op
 1.  **En verano:** Impide que los frentes fríos disipen el fuerte calentamiento diurno. Esta energía acumulada puede generar tormentas locales aisladas muy violentas y estáticas, que suelen producir fenómenos peligrosos como la virga.
 2.  **En invierno:** La estabilidad absoluta favorece la formación de bancos de niebla densos y persistentes. Al quedar el aire gélido atrapado cerca del suelo por la subsidencia, la visibilidad puede quedar inhabilitada durante días.
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 Cuando el mapa sinóptico muestre un collado centrado sobre tu zona de vuelo, no improvises: las condiciones evolucionan con lentitud e impredecibilidad. Espera a que el patrón se resuelva claramente —hacia anticiclón o hacia situación post-frontal con viento del norte— antes de comprometerte con un vuelo de distancia.
 :::
 

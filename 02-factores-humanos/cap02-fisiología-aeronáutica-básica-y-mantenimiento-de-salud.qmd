@@ -6,9 +6,7 @@
 
 Como piloto de planeador, el estado de salud física y mental es el componente más crítico para la seguridad del vuelo. La normativa europea establece claramente que un piloto debe abstenerse de volar si está incapacitado por cualquier causa, como una lesión, enfermedad, medicación, fatiga o los efectos de cualquier sustancia psicoactiva, o si simplemente se siente indispuesto.
 
-::: {.callout-important}
-⚖ **NORMATIVA**
-
+::: {.callout-important title="Normativa"}
 Es obligatorio consultar con un Médico Examinador Aéreo (AME) o médico general si se ha sufrido una lesión importante, cirugía, inicio de medicación regular, embarazo, o uso por primera vez de lentes correctoras. Estas situaciones requieren una nueva evaluación de la aptitud médica; el piloto debe abstenerse de volar al mando hasta que se resuelva la causa y recupere la condición apta (**MED.A.020 Decrease in medical fitness**).
 :::
 
@@ -23,9 +21,7 @@ Para ayudar a evaluar sistemáticamente la condición individual antes de accede
 * **F - *Fatigue* (Fatiga):** ¿Ha descansado y dormido lo suficiente? La fatiga reduce el estado de alerta, la capacidad de decisión y los tiempos de reacción de forma significativa.
 * **E - *Eating* (Alimentación):** ¿Ha comido y bebido adecuadamente en las últimas horas? Volar en ayunas reduce los niveles de glucosa y merma la concentración. En jornadas largas, la hidratación es tan importante como la alimentación; beba agua con regularidad para prevenir la deshidratación y el golpe de calor.
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 Antes de cada vuelo, repase mentalmente la lista **IMSAFE**. Si alguno de sus elementos resulta desfavorable, la única decisión de seguridad es cancelar el vuelo (**NO-GO**).
 :::
 
@@ -44,9 +40,7 @@ El interior del ojo funciona de forma similar al sensor de una cámara de fotos.
 
 Existe un "punto ciego" anatómico en el lugar donde el nervio óptico se conecta con la retina, por lo que una imagen proyectada exactamente en esa pequeña área no será visible. Además, factores como la miopía, el exceso de sol, el tabaco o la fatiga reducen significativamente la agudeza visual.
 
-::: {.callout-important}
-⚖ **NORMATIVA**
-
+::: {.callout-important title="Normativa"}
 Una percepción correcta de los colores es obligatoria. Durante el reconocimiento médico inicial deberá superar pruebas como el test de Ishihara. Si no demuestra discriminación de color segura, la licencia de piloto de planeador —regida por la normativa Part-SFCL— quedará restringida al vuelo diurno (**Day** VFR).
 :::
 
@@ -62,15 +56,11 @@ Para escanear el cielo de forma eficaz, utiliza el método del reloj (@fig-02-ca
 
 ![Patrón de escaneo visual mediante el método horario](imagenes/02-cap02-escaneo-visual.jpg){#fig-02-cap02-escaneo-visual}
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 Antes de iniciar un viraje (por ejemplo, a la derecha), acostúmbrese a mirar brevemente hacia atrás por el lado exterior opuesto. Esto asegura que no haya tráfico acercándose por el ángulo muerto antes de inclinar las alas e iniciar el giro.
 :::
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 El riesgo más grave de colisión en vuelo libre se produce en trayectorias frontales, habituales en vuelos de ladera o calles de nubes. Al aproximarse de frente, el otro planeador carece de movimiento lateral apreciable en el campo visual y simplemente aumenta de tamaño de forma repentina. Un piloto necesita al menos 3 segundos para reaccionar y ejecutar una maniobra evasiva, que deberá realizarse preferentemente **virando hacia la derecha**.
 :::
 
@@ -95,9 +85,7 @@ Al emprender un ascenso con el planeador, la presión atmosférica decae. El air
 2. **Senos paranasales:** Al igual que en los oídos, la obstrucción temporal originará un intenso dolor neurálgico en la zona de las cejas o maxilares.
 3. **Tracto gastrointestinal y caries:** La ingestión de alimentos productores de gas antes de un vuelo desembocará en molestos retortijones en altura, de igual modo que una pequeña burbuja atrapada bajo un empaste dental puede ocasionar en ascenso un dantesco dolor de muelas "barodóntico".
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 La congestión de vías altas (catarros, rinitis alérgicas fuertes) es una causa automática de auto-exclusión para volar (**No-Go**). El atroz dolor del barotrauma provocado en un descenso anulará por completo la capacidad para gobernar con seguridad el planeador.
 :::
 
@@ -110,9 +98,7 @@ Los sentidos humanos evolucionaron para el movimiento bidimensional sobre el ter
 * **Ilusiones vestibulares:** Un viraje prolongado y estable en térmica puede engañar a los canales semicirculares, induciendo la percepción de que el planeador está nivelado o virando apenas (ilusión de estabilidad). En sentido contrario, la turbulencia severa puede impulsar al piloto a tirar bruscamente de la palanca cuando el avión se mantiene de hecho en actitud normal.
 * **Ilusiones ópticas:** Una perspectiva de aproximación inclinada, la falta de texturas en el suelo (nieve, agua) o una pista significativamente más ancha o estrecha que la habitual pueden producir sesgos perceptivos en la estimación de la altitud sobre el umbral.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Cuando se pierde la referencia del horizonte y lo que el piloto «siente» contradice lo que señalan los instrumentos, debe ignorar el instinto. **Confíe en los instrumentos** (anemómetro, hilo de lana, bola y horizonte artificial) y actúe en consecuencia.
 :::
 
@@ -122,9 +108,7 @@ La cinetosis (**motion sickness**), o mareo en vuelo, es una reacción fisiológ
 
 Un caso típico: el piloto vira sostenidamente en una térmica y agacha la cabeza para programar el ordenador de vuelo. Los ojos, fijos en la pantalla estática, indican que no hay movimiento; pero el laberinto del oído interno continúa detectando variaciones de fuerza G y movimiento rotatorio. Este conflicto sensorial desencadena una respuesta de malestar que puede progresar hacia fatiga repentina, palidez, sudoración fría, náuseas y vómitos.
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 El mareo puede afectar incluso a pilotos curtidos, especialmente tras períodos de inactividad o en condiciones de turbulencia severa. No es motivo de vergüenza: asúmalo con naturalidad y lleve siempre a bordo, al alcance de la mano, bolsas de mareo.
 :::
 
@@ -137,9 +121,7 @@ Para prevenir y gestionar el fantasma del mareo en vuelo, interioriza y aplica e
 * **Vuelos con pasajeros:** Con pasajeros sin experiencia a bordo, sea prudente. Limite los vuelos de familiarización a unos 30 minutos y realice virajes suaves para evitar una experiencia aérea desagradable.
 * **Hidratación:** La deshidratación en una cabina calentada por el sol bajo el plexiglás agrava el malestar. Lleve agua suficiente, beba con regularidad e incremente la ventilación facial para acceder a aire fresco.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 No ingiera fármacos antihistamínicos contra el mareo (como la **Biodramina**) antes de pilotar. Su formulación está contraindicada en aviación: producen somnolencia profunda que compromete gravemente los tiempos de reacción y el estado de alerta necesarios para la seguridad del vuelo.
 :::
 
@@ -153,9 +135,7 @@ El monóxido de carbono es inodoro, incoloro e insípido. Su afinidad por la hem
 
 Los síntomas iniciales son inespecíficos: dolor de cabeza o debilidad muscular leve que progresa rápidamente hacia náuseas, desorientación, visión borrosa y euforia inapropiada. Sin intervención, desemboca en pérdida de consciencia.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 En motoveleros, lleve instalado un detector de monóxido de carbono en el panel y verifique su fecha de caducidad. Ante cualquier síntoma (dolor de cabeza, labios de color rojo intenso) o si el parche cambia de color, actúe de inmediato: **corte la calefacción**, abra la ventilación al máximo, utilice oxígeno suplementario si dispone de él y aterrice sin dilación.
 :::
 
@@ -167,9 +147,7 @@ La posición de pilotaje semirreclinada y la escasa actividad muscular favorecen
 
 Los síntomas hipotérmicos comienzan con temblores musculares, y progresan hacia letargo, confusión mental y alteraciones del habla. El riesgo adicional es que el frío reduce la capacidad del piloto para percibir su propio deterioro. Las bajas temperaturas también pueden inutilizar las baterías de los instrumentos electrónicos —incluido el regulador de oxígeno— complicando una situación ya de por sí delicada.
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 Para volar en onda invernal, abríguese siempre **por capas**. Evite tajantemente el calzado o calcetines que aprieten excesivamente; el pie inmovilizado sobre los pedales necesita un flujo sanguíneo sin restricciones para no congelarse. Elija botas lo suficientemente holgadas, suelas térmicas y guantes que permitan plena libertad de movimiento sobre la palanca de mandos.
 :::
 
@@ -201,9 +179,7 @@ El tratamiento inmediato consiste en reducir conscientemente el ritmo respirator
 
 El estrés prolongado tiene efectos corrosivos sobre la seguridad: puede generar **exceso de confianza** o anular el análisis crítico. La presión —ganar una manga, seguir a un piloto más experimentado, o el simple deseo de llegar a destino— induce a asumir riesgos que, en tierra, consideraría inaceptables. Evalúe sus capacidades con rigor y honestidad. Los mejores pilotos de competición tienen un rasgo en común: son exigentes con la revisión crítica de sus propias decisiones tras el aterrizaje.
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 Para mantener el estrés dentro del rango operativo de seguridad, es vital **evitar la suma de numerosas "primeras veces"** en un mismo despegue. Volar un modelo de velero totalmente nuevo para ti, despegando en remolque desde un aeródromo que no conoces y encarando un día de un vendaval racheado cruzado es una convergencia explosiva de factores inéditos. La mente sobrepasará la fase de alarma directamente al pánico. Intente siempre que la progresión añada estas variables de una en una.
 :::
 
@@ -215,9 +191,7 @@ La fatiga degrada de forma global las capacidades del piloto: reduce la capacida
 
 Conviene tener presente que volar tras un día laboral agotador afecta al circuito de llegada del mismo modo que hacerlo con déficit de sueño. Un error habitual es subestimar el papel de los ritmos circadianos en el rendimiento del piloto.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 **La fatiga solo se cura durmiendo.** El café y las bebidas energéticas enmascaran temporalmente los síntomas, pero no restauran las capacidades cognitivas. Si la fatiga afecta a la atención o el razonamiento, la decisión es **NO-GO** (cancelación del vuelo).
 :::
 
@@ -229,9 +203,7 @@ Bajo estas condiciones, y con una tasa respiratoria mayor por la altitud, el cue
 
 Una deshidratación progresiva espesa la sangre y perjudica la circulación. Los primeros síntomas son dolor de cabeza y fatiga creciente. Si el proceso continúa, aparecen calambres musculares y, en casos graves, un **golpe de calor** que puede producir taquicardia y pérdida de consciencia (**black out**) sobre los mandos.
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 El mecanismo biológico de la **sed** tiene un imperdonable retraso biológico. Cuando siente la boca seca, la deshidratación ya ha mermado el rendimiento cognitivo. Además, el agua que se beba en la cabina tardará unos 20 minutos en hidratar el flujo sanguíneo de forma efectiva. **Adelántese bebiendo de forma regular durante todo el vuelo; nunca espere a tener sed**.
 :::
 
@@ -243,9 +215,7 @@ La normativa aeronáutica prohíbe volar bajo los efectos de sustancias psicoact
 
 El alcohol es el depresor del sistema nervioso central más extendido. Sus efectos sobre el tiempo de reacción se agravan en altitud por la menor oxigenación en sangre (hipoxia hipobárica).
 
-::: {.callout-important}
-⚖ **NORMATIVA**
-
+::: {.callout-important title="Normativa"}
 **AMC1 SAO.GEN.130(f)** (ED Decision 2019/001/R) concreta la regla «de la botella al mando» (**bottle to throttle**) para las tripulaciones de planeador: nada de alcohol en las **8 horas previas** al vuelo, y una alcoholemia al inicio del vuelo que no supere **0,2 g/l** —o el límite nacional, si es más estricto.
 :::
 
@@ -263,9 +233,7 @@ Medicamentos de venta libre —como los **antihistamínicos** para la alergia es
 
 El vuelo a vela de competición está regulado internacionalmente y se somete a controles estrictos regidos por la **Agencia Mundial Antidopaje (WADA)** al igual que cualquier otro deporte de alto rendimiento.
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 Para volar en campeonatos bajo un tratamiento médico sin arriesgarte a una descalificación (hay controles al aterrizar), debes justificar la medicación tramitando previamente una **Autorización de Uso Terapéutico (AUT / TUE)**. Este documento oficial eximirá al competidor de sanciones en controles antidopaje deportivos.
 :::
 

@@ -26,15 +26,11 @@ En **autoinformación** (aeródromo no controlado), sin interlocutor designado, 
 
 *— «Eco Charlie Delta Papa Eco, en viento en cola derecha pista tres cuatro, intención aterrizaje.»*
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 Antes de pulsar el PTT compón mentalmente el mensaje completo: *¿A quién? → ¿Quién soy? → ¿Dónde estoy? → ¿Qué necesito?* Un mensaje estructurado ocupa menos tiempo en frecuencia y reduce los errores de comprensión del controlador.
 :::
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 Algunos instructores recomiendan abrir la **primera** comunicación con una estación con un simple *«buenos días»* o *«buenas tardes»* antes del mensaje: *«Fuentemilanos tráfico, buenos días, Eco Charlie Delta Papa Eco…»*. No forma parte de la fraseología OACI —que busca economía de palabras— y por eso se reservaría al **primer contacto**, no a cada transmisión; pero al otro lado de la radio hay una persona, y ese saludo engrasa la relación con la torre, el FIS o el resto de tráficos de tu campo. Con una salvedad: en frecuencia saturada o en una emergencia, la cortesía sobra y vas directo al grano.
 :::
 
@@ -80,9 +76,7 @@ Si el FIS o el ATC lo requieren, añades:
 *Ejemplo con FIS en travesía:*
 *— «Madrid Información, Eco Charlie Delta Papa Eco, sobre Somosierra, nivel de vuelo cero ocho cero, estimado Aranda en tres cinco.»*
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 En travesías en planeador, actualiza tu posición al FIS siempre que te apartes significativamente de tu ruta prevista o cambies de sector. Un FIS informado puede coordinar con mayor rapidez una búsqueda si dejases de contactar.
 :::
 
@@ -98,9 +92,7 @@ Si ocurre, el controlador puede responder: *«Estación llamando a [dependencia]
 
 Si no obtienes respuesta, espera **al menos 10 segundos** antes de volver a intentarlo. Reintentar antes puede pisar a otra aeronave que esté recibiendo instrucciones.
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 Antes de pulsar el PTT escucha siempre la frecuencia unos segundos. Una transmisión que «pisa» a otra bloquea ambas comunicaciones. Si la frecuencia está activa, espera a que la conversación concluya antes de empezar la tuya.
 :::
 
@@ -130,9 +122,7 @@ No todos los mensajes son iguales. La OACI establece un orden de prioridad claro
 5. **Mensajes meteorológicos** regulares: METAR, TAF y pronósticos en ruta.
 6. **Comunicaciones de regularidad del vuelo**: Cierre de plan de vuelo, confirmaciones de posición y coordinaciones operativas.
 
-::: {.callout-important}
-⚖ **NORMATIVA**
-
+::: {.callout-important title="Normativa"}
 La transmisión maliciosa o falsa de señales de emergencia (Mayday / Pan Pan) constituye una infracción penal grave en todas las jurisdicciones de la EASA, sancionada con multas elevadas y la retirada de la licencia aeronaútica, además del riesgo operacional real que genera al desviar recursos de emergencia. Utilícelas exclusivamente cuando la situación real lo requiera.
 :::
 

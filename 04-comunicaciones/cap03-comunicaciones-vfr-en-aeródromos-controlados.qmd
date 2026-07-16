@@ -15,9 +15,7 @@ En espacio aéreo controlado como un CTR, solo el controlador puede emitir instr
 * Entrada, vuelo o cruce en la zona de tránsito de aeródromo (CTR).
 * Aterrizaje.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Una autorización para "entrar y alinear" o "entrar y mantener" en la pista activa **nunca** es una autorización para despegar. Debes esperar inmóvil en la cabecera hasta escuchar explícitamente las palabras: *"Autorizado a despegar"* (**Cleared for take-off**). Si tienes alguna duda, pregunta: "Confirme autorizado a despegar".
 :::
 
@@ -27,15 +25,11 @@ Para entrar en espacio aéreo donde se te presta servicio de control —clases B
 
 El planeador vuela casi siempre en Clase G. Pero si necesitas cruzar un CTR o entrar donde te controlen, presenta el FPL con tiempo. Los plazos y formatos están en el AIP-España (ENR 1.10) y son vinculantes, así que consúltalos antes de cada vuelo que implique espacio controlado.
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 Si surge la necesidad imprevista de entrar en espacio controlado sin plan de vuelo previo, es posible abrirlo en el aire (AFIL — Airborne Flight Plan) contactando por radio a la dependencia ATC y facilitando tipo de aeronave, posición, intenciones y tiempos estimados. Esta opción depende de la disponibilidad del servicio y de la carga de trabajo del controlador.
 :::
 
-::: {.callout-important}
-⚖ **NORMATIVA**
-
+::: {.callout-important title="Normativa"}
 Los plazos exactos de presentación del plan de vuelo están especificados en el **AIP-España ENR 1.10** y pueden variar según el tipo de operación y la dependencia ATC. Consúltalo antes de cada vuelo que implique espacio controlado; el incumplimiento puede resultar en la denegación de la autorización.
 :::
 
@@ -67,9 +61,7 @@ Tu colación es:
 *"Autorizado a aterrizar pista 36, Eco Papa Eco."*
 El viento no hace falta colacionarlo, pero la autorización de pista sí.
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 Cuando anotes mentalmente o en tu pernera la instrucción dada por un controlador, si se compone de autorización de pista de aterrizaje o despegue, rumbo o altitud a mantener, QNH, o el código del transpondedor, tu respuesta por radio **NO puede ser "Wilco"** o **"Copiado"**. Debes recitar esos parámetros tal y como te los han dado.
 :::
 

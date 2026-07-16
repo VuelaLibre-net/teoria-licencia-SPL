@@ -20,9 +20,7 @@ Aunque solemos pensar en "el Norte" como un punto único, en navegación disting
 
 La diferencia angular entre ambos se denomina **Variación Magnética** o **Declinación**. En las cartas aeronáuticas, verás unas líneas discontinuas llamadas **isogónicas** que indican el valor de esta variación en cada zona.
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 Para los cálculos, recuerda esta rima: **"Declinación Oeste, Rumbo Suma"** (si la variación es hacia el oeste, el rumbo magnético será mayor que el verdadero).
 :::
 
@@ -45,9 +43,7 @@ Cuando viramos para interceptar un rumbo Norte o Sur, la brújula se adelanta o 
 * **Viraje al Norte**: La brújula se queda atrás (indica menos viraje del real).
 * **Viraje al Sur**: La brújula se adelanta (indica más viraje del real).
 
-::: {.callout-note}
-⚓ **AIRMANSHIP**
-
+::: {.callout-note title="Airmanship"}
 Usa el mnemotécnico **NO me paso / Si me paso**:
 Al virar hacia el **Norte**, detén el viraje antes de que la brújula llegue al 360 (**NO** llegues).
 Al virar hacia el **Sur**, deja que la brújula pase del 180 antes de nivelar (**SI** pásate).

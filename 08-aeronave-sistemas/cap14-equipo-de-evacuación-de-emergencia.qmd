@@ -19,9 +19,7 @@ Si tienes un accidente o una toma forzosa en una zona remota, necesitas que los 
 * **ELT (Emergency Locator Transmitter)**: va instalada de forma fija en el planeador. Se activa sola por el impacto (G) o a mano.
 * **PLB (Personal Locator Beacon)**: baliza portátil que el piloto lleva en el bolsillo o en el paracaídas. Se activa a mano.
 
-::: {.callout-important}
-⚖ **NORMATIVA**
-
+::: {.callout-important title="Normativa"}
 Asegúrate de que tu baliza emite en 406 MHz. Las antiguas señales de 121.5 MHz ya no se vigilan por satélite; solo sirven para el rastreo cercano (*homing*) de los equipos de rescate. Y la baliza debe estar registrada oficialmente.
 :::
 
@@ -29,9 +27,7 @@ Asegúrate de que tu baliza emite en 406 MHz. Las antiguas señales de 121.5 MHz
 
 A medida que subes, la presión atmosférica baja y a tus pulmones les llegan menos moléculas de oxígeno. Eso provoca la **hipoxia**, con síntomas traicioneros: euforia, falta de concentración, visión de túnel. La fisiología completa de la hipoxia, el tiempo de conciencia útil y la regla «oxígeno al 100 % y desciende» se estudian en el **Libro 2 — Factores humanos, capítulo 4**. Aquí nos centramos en el equipo y en la norma.
 
-::: {.callout-important}
-⚖ **NORMATIVA**
-
+::: {.callout-important title="Normativa"}
 **SAO.OP.150 (uso de oxígeno suplementario)**: «El piloto al mando se asegurará de que todas las personas a bordo utilicen oxígeno suplementario siempre que determine que, a la altitud del vuelo previsto, la falta de oxígeno podría provocar un deterioro de sus facultades o afectarles perjudicialmente.»
 
 El **AMC1 SAO.OP.150** concreta el criterio: cuando el piloto no pueda valorar ese efecto, debe garantizar que todos los ocupantes usan oxígeno durante cualquier período en que la altitud de presión supere los 10.000 ft.

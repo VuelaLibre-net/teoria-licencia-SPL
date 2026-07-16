@@ -34,9 +34,7 @@ La conciencia situacional (**Situational Awareness**) es la percepción y asimil
 
 En la cabina del planeador, esto implica construir y mantener durante el vuelo una imagen mental precisa de lo que ocurre: la variación y tendencia del viento, la posición real frente al campo de aterrizaje, la ocupación del circuito de tráfico, las condiciones del resto de las aeronaves y las variables propias de altitud y energía.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 La pérdida de la conciencia situacional suele ser el eslabón inicial en la mayoría de las cadenas de accidentes en el vuelo a vela. Una sobrecarga cualitativa de la atención, el pánico derivado de un fenómeno no comprendido, la fatiga o la incomodidad en un asiento mal ajustado erosionan drásticamente la capacidad de asimilar el cuadro informativo completo que define una situación de vuelo segura.
 :::
 
@@ -66,9 +64,7 @@ El **modelo PAVE** divide los riesgos del vuelo en cuatro elementos fundamentale
 * **V (**enVironment** — Entorno):** Meteorología, aeródromos de alternativa, orografía, densidad de tráfico y espacio aéreo.
 * **E (Presiones externas u Operación):** Factores como la necesidad de finalizar un curso, la presión de no decepcionar a un pasajero o la urgencia ante una ventana meteorológica en cierre.
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 Desglosar mentalmente tu vuelo usando PAVE antes del despegue te permite detectar y cortar la cadena de errores antes de sentarte en la cabina.
 :::
 
@@ -114,9 +110,7 @@ A diferencia del imaginario popular, no todo el estrés es perjudicial. Un nivel
 
 Sin embargo, si la presión psicológica continúa aumentando (por ejemplo, te metes inadvertidamente en condiciones instrumentales severas ignorando tus límites), este estrés tolerable se transforma rápidamente en pánico. El rendimiento cae en picado y el piloto sufre una intensa saturación sensorial. El cerebro, incapaz de procesar el abrumador cuadro informativo de la cabina, se bloquea y focaliza absolutamente toda su atención residual en un solo detalle del vuelo (a menudo el más insignificante), anulando cualquier otra entrada visual o cognitiva sensata. A este fenómeno letal se le denomina informalmente **visión de túnel** (@fig-02-cap03-vision-tunel).
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Bajo condiciones de estrés extremo y pánico, instintos básicos de supervivencia como intentar "alejarse del suelo tirando fuertemente de la palanca" pueden superar tu raciocinio. Esta maniobra instintiva y abrupta a baja altura gastará toda la energía de tu planeador, precipitándote irremediablemente a una pérdida de control o barrena irrecuperable. Conoce tus límites y no te metas en escenarios para los que no estás sobradamente preparado.
 :::
 
@@ -126,9 +120,7 @@ Todo lo que se hace en el aire queda regido por un ciclo continuo conocido como 
 
 La capacidad de la mente humana para procesar simultáneamente esta incesante catarata de eventos es esencialmente finita; es como un vaso de agua que solo puede admitir cierto volumen. Durante un remolque turbulento, de espaldas al sol, tratando de ubicar a otro velero que notifica en base, el vaso cognitivo puede desbordarse estrepitosamente. A esto se le conoce como **sobrecarga cualitativa**. Cuando la complejidad de la tarea de vuelo escala superando el rendimiento y el entrenamiento del piloto en ese lapso preciso, el margen de seguridad desaparece y el accidente latente ocupa su lugar.
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 Cuando notes que tu vaso se está desbordando, detente un segundo, respira, y reduce la carga mental simplificando radicalmente tus prioridades según el antiguo adagio de la aviación: **Aviate, Navigate, Communicate** (Primero vuela el avión con seguridad, luego preocúpate de hacia dónde, y, por último y de ser estrictamente necesario, coge la radio para contarlo).
 :::
 
@@ -138,9 +130,7 @@ El SRM es el arte de gestionar hábilmente todos los recursos a bordo y fuera de
 
 A diferencia del vuelo con tripulación múltiple donde las tareas se delegan, el piloto de planeador gestiona integralmente el vuelo operando como único nodo de decisión. Tu trabajo exige emplear todos los elementos disponibles para no exceder tu capacidad de procesamiento. Los recursos del SRM incluyen tu propio equipo (instrumentación, compensador de abordo), las comunicaciones de radio (consultas al ATC o información meteorológica), y herramientas en tierra (un buen prevuelo o un instructor en radio).
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 Es preferible anticiparse en tierra que reaccionar en el aire. Evitar enfrentarse a muchas situaciones nuevas simultáneamente (un velero nuevo en un aeródromo desconocido y con mal tiempo) es la mayor muestra de que sabes gestionar tus recursos usando como base el sentido común.
 :::
 

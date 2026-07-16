@@ -54,9 +54,7 @@ Para que el FLARM cumpla con su función de seguridad sin generar distracciones 
 3. **Confirmación visual:** mantén el rumbo y la actitud hasta confirmar el contacto visual con la aeronave conflictiva.
 4. **Nada de maniobras evasivas bruscas «a ciegas»:** si no logras establecer contacto visual con el tráfico, **evita los virajes o cambios de altitud violentos** basados únicamente en la indicación de la pantalla del FLARM. Un viraje brusco sin ver al otro planeador puede llevarte a interceptar su trayectoria de evasión o a colisionar con un tercer planeador no equipado que se encuentre fuera del radar. Ante la duda, realiza cambios suaves y predecibles de actitud para aumentar tu visibilidad.
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 El FLARM es una herramienta de seguridad extraordinariamente útil, (obligatoria para competición oficial desde un regional hasta los mundiales) pero **nunca sustituye a la vigilancia visual**. Considéralo como un complemento que te avisa de los peligros que ya conoce, no como un sistema que elimina todos los riesgos. Ante una alerta FLARM, reacciona buscando visualmente la aeronave conflictiva: el sistema te indica la dirección, pero la maniobra final es responsabilidad tuya.
 :::
 
@@ -68,17 +66,13 @@ Las aves —especialmente los buitres, alimoches y cigüeñas negras— son comp
 2. **Evita cambios bruscos:** el ave suele esquivarte si mantienes una trayectoria predecible. Los cambios repentinos de dirección pueden llevarla directamente hacia ti.
 3. **Síguelas, no te juntes:** las aves indican el mejor núcleo de la térmica, pero mantén siempre una distancia de seguridad. Compartir el viraje con una bandada de buitres a corta distancia crea un entorno de visibilidad reducida y maniobra imprevisible.
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS: EL COMPORTAMIENTO DE LOS BUITRES**
-
+::: {.callout-note title="Airmanship: EL COMPORTAMIENTO DE LOS BUITRES"}
 En la península ibérica, el encuentro con buitres leonados en térmica es diario durante la temporada de vuelo. Los instructores de la escuela española enseñan una regla de oro de seguridad ante una trayectoria de colisión inminente con un buitre: **esquiva siempre al ave volando por encima de ella:**
 
 El instinto de escape natural de un buitre asustado ante una amenaza de gran tamaño es **plegar sus alas y arrojarse en picado hacia abajo** para ganar velocidad de escape rápida. Si el piloto intenta esquivar al buitre picando el planeador (por debajo), existe una altísima probabilidad de interceptar la trayectoria de caída del ave y chocar frontalmente. Ante la duda, mantén tu trayectoria coordinada o tira suavemente de la palanca para pasar por encima de su cota.
 :::
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Los tendidos eléctricos y los cables de telecomunicaciones son invisibles desde el aire en muchas condiciones de luz. Son el mayor riesgo no detectado en el vuelo de travesía y campo. El FLARM puede incluir su posición en zonas de competición, pero en vuelo libre la responsabilidad de detectarlos es exclusivamente visual: identifica los postes de hormigón o madera y traza mentalmente la línea entre ellos antes de sobrevolarla.
 :::
 
@@ -93,9 +87,7 @@ Las **estelas turbulentas** —los vórtices de punta de ala generados por aeron
 * En zonas de tránsito aéreo intenso, mantén una conciencia situacional activa sobre el tráfico de aerolíneas a niveles superiores.
 * **Peligro especial de helicópteros:** Los helicópteros generan estelas turbulentas extremadamente potentes debido a la carga de sus palas de rotor. En vuelo estacionario o en rodaje lento (**hover**), el flujo de aire descendente (**downwash**) se expande radialmente en superficie y puede volcar un planeador a ras de suelo; mantén siempre una separación mínima de **tres diámetros de rotor**. En vuelo de avance, generan vórtices de estela muy intensos debido a sus bajas velocidades operativas; evita volar por debajo o detrás de ellos y extrema la precaución en circuitos mixtos, ya que el ATC no siempre emite avisos de estela para helicópteros de tonelaje ligero o medio.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 La turbulencia de estela generada por helicópteros es desproporcionada en comparación con su peso. Dado que los planeadores tienen gran envergadura y poca carga alar, son extremadamente vulnerables. Nunca intentes aterrizar o despegar inmediatamente detrás de un helicóptero en movimiento y evita cruzar zonas donde se haya realizado vuelo estacionario reciente.
 :::
 
@@ -107,9 +99,7 @@ El **engelamiento** es la acumulación de hielo en el borde de ataque, que alter
 * Ante los primeros indicios de acumulación (cambio de maniobrabilidad, aumento del ruido aerodinámico), desciende de inmediato a aire más cálido.
 * Vuela con un margen de velocidad extra durante todo el tiempo que dure la posible contaminación.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 El agua en las alas —por humedad, rocío o lluvia suave— tiene un efecto similar al engelamiento leve: aumenta la resistencia y la velocidad de pérdida entre un 5-10 %. Aumenta tu velocidad de aproximación y de circuito si las alas están mojadas o si has volado en condiciones de humedad elevada. Este efecto es especialmente traicionero en el aterrizaje.
 :::
 

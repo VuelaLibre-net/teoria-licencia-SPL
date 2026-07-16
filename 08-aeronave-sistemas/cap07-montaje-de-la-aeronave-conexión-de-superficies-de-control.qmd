@@ -29,9 +29,7 @@ Según la antigüedad del planeador, las conexiones de alerones, aerofrenos y pr
 * **Conexiones automáticas**: al encastrar el ala o el estabilizador, los mandos se conectan solos mediante embudos o rótulas integradas. Son las más seguras.
 * **Conexiones manuales (L’Hotellier)**: obligan al piloto a conectar a mano una rótula. Son conexiones críticas y han causado numerosos accidentes por olvido.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Si tu planeador usa conectores L’Hotellier, el pin de seguridad (imperdible) que bloquea el conector es de obligado cumplimiento en los modelos afectados por la directiva de aeronavegabilidad correspondiente. No te fíes nunca del "clic" del muelle: es el pin el que garantiza que la unión no se suelte por las vibraciones del vuelo.
 :::
 
@@ -51,9 +49,7 @@ Con el avión montado, no vueles nunca sin hacer un chequeo de mandos positivo c
 2. El asistente sujeta con firmeza la superficie (el alerón, por ejemplo) e intenta impedir su movimiento.
 3. Se trata de comprobar no solo que la superficie se mueve en el sentido correcto, sino que la conexión es firme, sólida y sin holguras.
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 Si durante el montaje alguien te interrumpe para hablar, vuelve a empezar el paso en curso desde el principio. Las distracciones durante el rigging son la causa número uno de conexiones críticas olvidadas.
 :::
 

@@ -571,15 +571,13 @@ El desglose del componente humano en la siniestralidad del vuelo a vela muestra 
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 El análisis del Informe de Seguridad de EASA (European Union Aviation Safety Agency) indica que las fases más críticas del vuelo en planeador son el aterrizaje (aproximadamente el 50 % de los accidentes) y el despegue (21 %). Mantenga el máximo nivel de atención durante estos periodos, con la cabina libre de distracciones y todos los sistemas verificados.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -657,15 +655,13 @@ Según el momento en que se manifiestan respecto al accidente, los errores se di
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 Para reducir la probabilidad de error, utilice las listas de verificación aunque conozca el procedimiento de memoria, solicite la evaluación del instructor con regularidad y esté atento a factores que degradan el rendimiento, como la fatiga o la complacencia derivada de la experiencia acumulada.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -704,15 +700,13 @@ supplement: "Figura",
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 #strong[Romper un solo eslabón salva el vuelo.] Ante cualquier señal de que la cadena del error ha comenzado ---condiciones meteorológicas que se deterioran, una avería sin resolver, fatiga elevada--- adopte la medida más conservadora disponible. Es la acción más eficaz al alcance del piloto.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -746,15 +740,13 @@ En la actualidad se promueve activamente la #strong[cultura justa] (#strong[Just
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 Fomente la cultura justa en su entorno inmediato. Si durante el remolque o guardado del planeador se produce un daño accidental ---por ejemplo, un golpe en el estabilizador al entrar al hangar--- notifíquelo de inmediato al instructor o mecánico responsable. Encubrirlo pone en riesgo al piloto que vuele esa aeronave a continuación sin conocer el daño preexistente.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -812,15 +804,13 @@ Como piloto de planeador, el estado de salud física y mental es el componente m
 #callout(
 body: 
 [
-⚖ #strong[NORMATIVA]
-
 Es obligatorio consultar con un Médico Examinador Aéreo (AME) o médico general si se ha sufrido una lesión importante, cirugía, inicio de medicación regular, embarazo, o uso por primera vez de lentes correctoras. Estas situaciones requieren una nueva evaluación de la aptitud médica; el piloto debe abstenerse de volar al mando hasta que se resuelva la causa y recupere la condición apta (#strong[MED.A.020 Decrease in medical fitness]).
 
 ]
 , 
 title: 
 [
-Importante
+Normativa
 ]
 , 
 background_color: 
@@ -862,15 +852,13 @@ supplement: "Figura",
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 Antes de cada vuelo, repase mentalmente la lista #strong[IMSAFE]. Si alguno de sus elementos resulta desfavorable, la única decisión de seguridad es cancelar el vuelo (#strong[NO-GO]).
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -905,15 +893,13 @@ Existe un "punto ciego" anatómico en el lugar donde el nervio óptico se conect
 #callout(
 body: 
 [
-⚖ #strong[NORMATIVA]
-
 Una percepción correcta de los colores es obligatoria. Durante el reconocimiento médico inicial deberá superar pruebas como el test de Ishihara. Si no demuestra discriminación de color segura, la licencia de piloto de planeador ---regida por la normativa Part-SFCL--- quedará restringida al vuelo diurno (#strong[Day] VFR).
 
 ]
 , 
 title: 
 [
-Importante
+Normativa
 ]
 , 
 background_color: 
@@ -956,15 +942,13 @@ supplement: "Figura",
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 Antes de iniciar un viraje (por ejemplo, a la derecha), acostúmbrese a mirar brevemente hacia atrás por el lado exterior opuesto. Esto asegura que no haya tráfico acercándose por el ángulo muerto antes de inclinar las alas e iniciar el giro.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -984,15 +968,13 @@ white
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 El riesgo más grave de colisión en vuelo libre se produce en trayectorias frontales, habituales en vuelos de ladera o calles de nubes. Al aproximarse de frente, el otro planeador carece de movimiento lateral apreciable en el campo visual y simplemente aumenta de tamaño de forma repentina. Un piloto necesita al menos 3 segundos para reaccionar y ejecutar una maniobra evasiva, que deberá realizarse preferentemente #strong[virando hacia la derecha].
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1044,15 +1026,13 @@ Al emprender un ascenso con el planeador, la presión atmosférica decae. El air
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 La congestión de vías altas (catarros, rinitis alérgicas fuertes) es una causa automática de auto-exclusión para volar (#strong[No-Go]). El atroz dolor del barotrauma provocado en un descenso anulará por completo la capacidad para gobernar con seguridad el planeador.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -1081,15 +1061,13 @@ Los sentidos humanos evolucionaron para el movimiento bidimensional sobre el ter
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Cuando se pierde la referencia del horizonte y lo que el piloto «siente» contradice lo que señalan los instrumentos, debe ignorar el instinto. #strong[Confíe en los instrumentos] (anemómetro, hilo de lana, bola y horizonte artificial) y actúe en consecuencia.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1115,15 +1093,13 @@ Un caso típico: el piloto vira sostenidamente en una térmica y agacha la cabez
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 El mareo puede afectar incluso a pilotos curtidos, especialmente tras períodos de inactividad o en condiciones de turbulencia severa. No es motivo de vergüenza: asúmalo con naturalidad y lleve siempre a bordo, al alcance de la mano, bolsas de mareo.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -1163,15 +1139,13 @@ Para prevenir y gestionar el fantasma del mareo en vuelo, interioriza y aplica e
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 No ingiera fármacos antihistamínicos contra el mareo (como la #strong[Biodramina]) antes de pilotar. Su formulación está contraindicada en aviación: producen somnolencia profunda que compromete gravemente los tiempos de reacción y el estado de alerta necesarios para la seguridad del vuelo.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1201,15 +1175,13 @@ Los síntomas iniciales son inespecíficos: dolor de cabeza o debilidad muscular
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 En motoveleros, lleve instalado un detector de monóxido de carbono en el panel y verifique su fecha de caducidad. Ante cualquier síntoma (dolor de cabeza, labios de color rojo intenso) o si el parche cambia de color, actúe de inmediato: #strong[corte la calefacción], abra la ventilación al máximo, utilice oxígeno suplementario si dispone de él y aterrice sin dilación.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1237,15 +1209,13 @@ Los síntomas hipotérmicos comienzan con temblores musculares, y progresan haci
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 Para volar en onda invernal, abríguese siempre #strong[por capas]. Evite tajantemente el calzado o calcetines que aprieten excesivamente; el pie inmovilizado sobre los pedales necesita un flujo sanguíneo sin restricciones para no congelarse. Elija botas lo suficientemente holgadas, suelas térmicas y guantes que permitan plena libertad de movimiento sobre la palanca de mandos.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -1304,15 +1274,13 @@ El estrés prolongado tiene efectos corrosivos sobre la seguridad: puede generar
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 Para mantener el estrés dentro del rango operativo de seguridad, es vital #strong[evitar la suma de numerosas "primeras veces"] en un mismo despegue. Volar un modelo de velero totalmente nuevo para ti, despegando en remolque desde un aeródromo que no conoces y encarando un día de un vendaval racheado cruzado es una convergencia explosiva de factores inéditos. La mente sobrepasará la fase de alarma directamente al pánico. Intente siempre que la progresión añada estas variables de una en una.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -1340,15 +1308,13 @@ Conviene tener presente que volar tras un día laboral agotador afecta al circui
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 #strong[La fatiga solo se cura durmiendo.] El café y las bebidas energéticas enmascaran temporalmente los síntomas, pero no restauran las capacidades cognitivas. Si la fatiga afecta a la atención o el razonamiento, la decisión es #strong[NO-GO] (cancelación del vuelo).
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1376,15 +1342,13 @@ Una deshidratación progresiva espesa la sangre y perjudica la circulación. Los
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 El mecanismo biológico de la #strong[sed] tiene un imperdonable retraso biológico. Cuando siente la boca seca, la deshidratación ya ha mermado el rendimiento cognitivo. Además, el agua que se beba en la cabina tardará unos 20 minutos en hidratar el flujo sanguíneo de forma efectiva. #strong[Adelántese bebiendo de forma regular durante todo el vuelo; nunca espere a tener sed].
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -1412,15 +1376,13 @@ El alcohol es el depresor del sistema nervioso central más extendido. Sus efect
 #callout(
 body: 
 [
-⚖ #strong[NORMATIVA]
-
 #strong[AMC1 SAO.GEN.130(f)] (ED Decision 2019/001/R) concreta la regla «de la botella al mando» (#strong[bottle to throttle]) para las tripulaciones de planeador: nada de alcohol en las #strong[8 horas previas] al vuelo, y una alcoholemia al inicio del vuelo que no supere #strong[0,2 g/l] ---o el límite nacional, si es más estricto.
 
 ]
 , 
 title: 
 [
-Importante
+Normativa
 ]
 , 
 background_color: 
@@ -1454,15 +1416,13 @@ El vuelo a vela de competición está regulado internacionalmente y se somete a 
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 Para volar en campeonatos bajo un tratamiento médico sin arriesgarte a una descalificación (hay controles al aterrizar), debes justificar la medicación tramitando previamente una #strong[Autorización de Uso Terapéutico (AUT / TUE)]. Este documento oficial eximirá al competidor de sanciones en controles antidopaje deportivos.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -1541,15 +1501,13 @@ En la cabina del planeador, esto implica construir y mantener durante el vuelo u
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 La pérdida de la conciencia situacional suele ser el eslabón inicial en la mayoría de las cadenas de accidentes en el vuelo a vela. Una sobrecarga cualitativa de la atención, el pánico derivado de un fenómeno no comprendido, la fatiga o la incomodidad en un asiento mal ajustado erosionan drásticamente la capacidad de asimilar el cuadro informativo completo que define una situación de vuelo segura.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1606,15 +1564,13 @@ El #strong[modelo PAVE] divide los riesgos del vuelo en cuatro elementos fundame
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 Desglosar mentalmente tu vuelo usando PAVE antes del despegue te permite detectar y cortar la cadena de errores antes de sentarte en la cabina.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -1676,15 +1632,13 @@ Sin embargo, si la presión psicológica continúa aumentando (por ejemplo, te m
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Bajo condiciones de estrés extremo y pánico, instintos básicos de supervivencia como intentar "alejarse del suelo tirando fuertemente de la palanca" pueden superar tu raciocinio. Esta maniobra instintiva y abrupta a baja altura gastará toda la energía de tu planeador, precipitándote irremediablemente a una pérdida de control o barrena irrecuperable. Conoce tus límites y no te metas en escenarios para los que no estás sobradamente preparado.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1721,15 +1675,13 @@ La capacidad de la mente humana para procesar simultáneamente esta incesante ca
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 Cuando notes que tu vaso se está desbordando, detente un segundo, respira, y reduce la carga mental simplificando radicalmente tus prioridades según el antiguo adagio de la aviación: #strong[Aviate, Navigate, Communicate] (Primero vuela el avión con seguridad, luego preocúpate de hacia dónde, y, por último y de ser estrictamente necesario, coge la radio para contarlo).
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -1755,15 +1707,13 @@ A diferencia del vuelo con tripulación múltiple donde las tareas se delegan, e
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 Es preferible anticiparse en tierra que reaccionar en el aire. Evitar enfrentarse a muchas situaciones nuevas simultáneamente (un velero nuevo en un aeródromo desconocido y con mal tiempo) es la mayor muestra de que sabes gestionar tus recursos usando como base el sentido común.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -1819,15 +1769,13 @@ La #strong[ley de Boyle] indica que el volumen de un gas confinado aumenta si la
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 No vuele con un resfriado severo o congestión nasal, especialmente si prevé techos térmicos elevados o vuelos de onda. El aire atrapado en los senos paranasales o en el oído medio se expande al ascender y puede causar un dolor intenso y agudo (barotrauma) que incapacita para pilotar con seguridad.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -1870,15 +1818,13 @@ El síntoma más peligroso ---y el primero en aparecer según el programa AESA--
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 La euforia es el síntoma más traicionero de la hipoxia: el piloto no sospecha que está en peligro. Si percibe visión borrosa, hormigueo en las extremidades, euforia injustificada o dolor de cabeza tras un ascenso rápido a gran altitud, asuma hipoxia. Active el suministro de oxígeno al 100% e inicie el descenso de inmediato.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1932,15 +1878,13 @@ Un descenso desde 7.000 m hasta 3.000 m a 5 m/s de tasa de descenso tarda más d
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 Ante cualquier fallo en el suministro de oxígeno o sospecha de hipoxia, aplique la regla: #strong[«Oxígeno al 100% y desciende»]. Active el flujo completo y baje por debajo de los 10.000 ft sin dudarlo. A partir de cierta altitud, el TUC no permite pensar ni actuar correctamente.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -1976,15 +1920,13 @@ Si aparecen síntomas de hipoxia durante el vuelo:
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 Disponga de un #emph[checklist] de emergencia para hipoxia, ya que el razonamiento puede estar deteriorado en el momento en que más lo necesita. Si lleva pulsioxímetro a bordo, compruebe la saturación (SpO#sub[2]) ante cualquier duda.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -2022,8 +1964,6 @@ Los síntomas de la hiperventilación son similares a los de la hipoxia, lo que 
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 Para distinguir hipoxia de hiperventilación, evalúe dos factores: #strong[altitud] y #strong[estado emocional].
 
 - Si está por encima de 10.000 ft y se siente eufórico o aletargado: probable #strong[hipoxia]. Aplique oxígeno al 100% y descienda.
@@ -2035,7 +1975,7 @@ En caso de duda a gran altitud, priorice el tratamiento de la hipoxia.
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -2064,15 +2004,13 @@ El objetivo es restablecer el nivel de CO#sub[2] en sangre. Para ello:
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 No aporte oxígeno suplementario si diagnostica hiperventilación y no está a gran altitud: añadir más oxígeno agravaría el desequilibrio de CO#sub[2] y empeoraría los síntomas. Si no puede confirmar que está por debajo de 10.000 ft, priorice el tratamiento de la hipoxia.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -2094,8 +2032,6 @@ white
 #callout(
 body: 
 [
-⚖ #strong[NORMATIVA]
-
 #strong[SAO.OP.150:] «El piloto al mando deberá garantizar que todas las personas a bordo utilicen oxígeno suplementario cuando determine que, a la altitud de vuelo prevista, la falta de oxígeno podría ocasionar la disminución de sus facultades o resultarles dañina.»
 
 #strong[AMC1 SAO.OP.150:] cuando el piloto no pueda determinar ese efecto, el oxígeno deberá usarse siempre que la altitud de presión supere los #strong[10.000 ft].
@@ -2104,7 +2040,7 @@ body:
 , 
 title: 
 [
-Importante
+Normativa
 ]
 , 
 background_color: 
@@ -2126,15 +2062,13 @@ El umbral de los 10.000 ft no es, por tanto, un límite legal incondicional: es 
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 Para vuelos #strong[nocturnos o al atardecer] se recomienda ---no lo exige la norma--- iniciar el uso de oxígeno desde los #strong[5.000 ft]: la visión nocturna es especialmente sensible a la falta de oxígeno, porque los bastones de la retina periférica son las primeras células en verse afectadas.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -2167,8 +2101,6 @@ Antes de cada vuelo en altitud, compruebe visualmente la botella, las conexiones
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 #strong[Oxígeno de aviación, no medicinal.] El oxígeno medicinal contiene mayor concentración de humedad, que puede congelarse en el regulador a temperaturas de altitud elevadas y bloquear el flujo. Utilice exclusivamente oxígeno etiquetado como «para uso aeronáutico» (oxígeno seco, pureza superior al 98,5%).
 
 #strong[Prohibido el contacto con grasas.] No aplique cremas hidratantes, protectores solares ni lubricantes cerca de las conexiones, reguladores o boquillas. El oxígeno a presión en contacto con sustancias grasas puede provocar una combustión explosiva sin necesidad de llama o chispa.
@@ -2177,7 +2109,7 @@ body:
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -2218,15 +2150,13 @@ Un valor de SpO#sub[2] por debajo del #strong[90%] indica hipoxia franca y requi
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 Registre sus valores de SpO#sub[2] a distintas altitudes durante los vuelos habituales (a 3.000 m, a 5.000 m) para conocer su respuesta individual y tener referencias personales. No todos los pilotos responden igual a la altitud.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 

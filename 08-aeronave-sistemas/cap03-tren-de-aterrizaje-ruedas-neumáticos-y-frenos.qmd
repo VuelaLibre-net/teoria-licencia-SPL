@@ -21,9 +21,7 @@ Según el uso y las prestaciones del velero, hay dos tipos principales:
 * **Tren fijo**: habitual en planeadores de escuela (como el ASK-21). Suele ser una rueda principal robusta, a veces con una rueda de morro y otra de cola (o patín). Su gran ventaja es la simplicidad: no hay nada que olvidar sacar.
 * **Tren retráctil**: el estándar en veleros de rendimiento. Esconder la rueda dentro del fuselaje elimina una buena parte de la resistencia aerodinámica. El mecanismo suele ser manual, con una palanca en el lado derecho de la cabina.
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 Trata la gestión del tren retráctil como algo sagrado: se guarda solo tras soltar el remolque y alcanzar una altura segura, y se vuelve a sacar al entrar en el tramo de viento en cola (*downwind*), sin excepción. Que forme parte de tu chequeo mental antes de aterrizar.
 :::
 
@@ -44,9 +42,7 @@ El freno de rueda es clave para detener la carrera de aterrizaje, sobre todo en 
 * **Tipo de freno**: los modelos modernos llevan frenos de disco hidráulicos, muy eficaces; los más antiguos, de tambor.
 * **Accionamiento**: en la mayoría de los planeadores el freno entra al llevar la palanca de aerofrenos hasta el final de su recorrido. En otros está en los pedales o en una maneta independiente.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 No frenes con brusquedad al principio de la carrera de aterrizaje si llevas mucha velocidad: puedes provocar un capotaje (el morro se clava en el suelo) o hacer planos en la rueda por desgaste excesivo del neumático.
 :::
 

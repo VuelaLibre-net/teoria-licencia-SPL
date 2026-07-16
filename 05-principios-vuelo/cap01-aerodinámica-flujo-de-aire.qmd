@@ -8,9 +8,7 @@ La sustentación se genera por una diferencia de presiones entre la parte superi
 
 Cuando el planeador avanza, el aire fluye sobre el perfil curvado del extradós acelerándose, mientras que el aire que pasa por el intradós viaja a menor velocidad. Según el teorema de Bernoulli, cuando la velocidad de un fluido aumenta, su presión estática disminuye: el extradós queda con menos presión que el intradós, y esa diferencia crea la fuerza neta ascendente que contrarresta el peso del planeador.
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 La sustentación admite dos descripciones del **mismo** fenómeno, no dos fuerzas que se sumen: la diferencia de presión (Bernoulli) y la deflexión del aire hacia abajo en el borde de salida (acción-reacción, tercera ley de Newton). El ala que acelera el aire por arriba es la misma que lo desvía hacia abajo; ambas miradas dan la misma fuerza.
 :::
 
@@ -36,9 +34,7 @@ La regla:
 
 Ese vaivén continuo afecta directamente al equilibrio en cabeceo.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Debido a la movilidad del CP, el diseño de la aeronave obliga a situar el centro de gravedad (CG) por delante del centro de presiones en las condiciones normales de vuelo. Esa configuración proporciona **estabilidad longitudinal positiva**. Para contrarrestar la tendencia a picar (hundir el morro) que produce el CG adelantado, el estabilizador horizontal genera una fuerza descendente que mantiene el equilibrio en cabeceo.
 :::
 
@@ -70,9 +66,7 @@ El resultado es una reducción significativa de la resistencia inducida que mejo
 
 ![El efecto suelo: reducción de torbellinos y mejora transitoria del planeo en proximidad al terreno.](imagenes/05-cap01-efecto-suelo.jpg){#fig-05-cap01-efecto-suelo}
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 El efecto suelo puede sorprender al piloto inexperto: el planeador parece no querer posarse durante la toma. Si estás entrando en la zona de contacto con exceso de velocidad o inercia, resiste la tentación de picar el morro para forzar el aterrizaje. Usa los frenos aerodinámicos para controlar el planeo y déjalo posarse solo cuando esté listo, asegurándote antes de tener pista suficiente.
 :::
 

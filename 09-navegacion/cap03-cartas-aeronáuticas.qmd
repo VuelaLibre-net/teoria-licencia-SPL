@@ -39,9 +39,7 @@ Una carta viene cargada de información, y parte del oficio es saber filtrarla. 
 * **Zonas restringidas**: Identificadas con letras (P - Prohibida, R - Restringida, D - Peligrosa) seguidas de un número (ej: `LER-71`).
 * **Obstáculos**: Torres, antenas y aerogeneradores. Verás dos números junto al símbolo de obstáculo: el que no tiene paréntesis es la altitud sobre el nivel del mar (AMSL); el que está entre paréntesis es la altura real sobre el terreno (AGL).
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Presta especial atención a los tendidos de alta tensión y los parques eólicos, especialmente si estás planificando un posible aterrizaje en campo. En la carta se representan con líneas negras finas con marcas transversales o símbolos de aspas.
 :::
 
@@ -53,9 +51,7 @@ En cada cuadrícula de la carta (formada por paralelos y meridianos cada 30 minu
 
 ![Carta de vuelo visual de ENAIRE del Pirineo aragonés (zona de Santa Cilia de Jaca): la cuadrícula AMA sobre terreno de alta montaña](imagenes/09-cap03-carta-enaire-ama.png){#fig-09-cap03-carta-enaire}
 
-::: {.callout-important}
-⚖ **NORMATIVA**
-
+::: {.callout-important title="Normativa"}
 La AMA garantiza una separación mínima de **1000 pies** (o 2000 pies en zonas de alta montaña) sobre el obstáculo más alto de ese cuadrante. Es tu "red de seguridad" si pierdes la visibilidad o necesitas navegar con seguridad sobre el relieve.
 :::
 

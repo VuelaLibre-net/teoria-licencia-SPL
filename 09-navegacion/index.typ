@@ -610,15 +610,13 @@ Esta red de paralelos y meridianos (#ref(<fig-09-cap01-coordenadas>, supplement:
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 Recuerda siempre esta equivalencia fundamental: #strong[1 minuto de latitud equivale a 1 milla náutica]. Esto te permite calcular distancias directamente sobre los meridianos de una carta aeronáutica.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -658,15 +656,13 @@ Cuando trazas una línea en el mapa, conviene saber qué estás dibujando en rea
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP]
-
 En las distancias que manejamos habitualmente en vuelo a vela (vuelos de 300, 500 o incluso 1000 km), la diferencia entre la ruta ortodrómica y la loxodrómica es insignificante. Siempre volamos rumbos constantes (loxodrómicas) por sencillez.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -692,15 +688,13 @@ También lo conocemos como #strong[Hora Zulu (Z)]. Es la hora en el meridiano 0�
 #callout(
 body: 
 [
-⚖ #strong[NORMATIVA]
-
 #strong[SAO.IDE.105] exige que todo planeador lleve un medio para medir y mostrar la hora en horas y minutos. Llévalo ajustado a UTC o ten clara la diferencia horaria del día (en España, +1h en invierno y +2h en verano respecto a UTC).
 
 ]
 , 
 title: 
 [
-Importante
+Normativa
 ]
 , 
 background_color: 
@@ -729,15 +723,13 @@ No confundas el ocaso con el principio de la noche. Para la aviación, la #stron
 #callout(
 body: 
 [
-⚖ #strong[NORMATIVA]
-
 El vuelo en planeador se realiza en condiciones visuales (VFR) y, con carácter general, #strong[de día]. La operación nocturna en VMC solo está al alcance del titular SPL con privilegios de motovelero de turismo (TMG) y la correspondiente #strong[habilitación de vuelo nocturno], además del equipamiento de luces exigido. Consulta siempre la hora del ocaso al planificar: en altura tendrás luz un rato más, pero una vez abajo la oscuridad llega rápido. Las horas oficiales de orto y ocaso para cada aeródromo se publican en el AIP-España (GEN 2.7).
 
 ]
 , 
 title: 
 [
-Importante
+Normativa
 ]
 , 
 background_color: 
@@ -795,15 +787,13 @@ La diferencia angular entre ambos se denomina #strong[Variación Magnética] o #
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 Para los cálculos, recuerda esta rima: #strong["Declinación Oeste, Rumbo Suma"] (si la variación es hacia el oeste, el rumbo magnético será mayor que el verdadero).
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -853,15 +843,13 @@ Cuando viramos para interceptar un rumbo Norte o Sur, la brújula se adelanta o 
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP]
-
 Usa el mnemotécnico #strong[NO me paso / Si me paso]: Al virar hacia el #strong[Norte], detén el viraje antes de que la brújula llegue al 360 (#strong[NO] llegues). Al virar hacia el #strong[Sur], deja que la brújula pase del 180 antes de nivelar (#strong[SI] pásate).
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -935,15 +923,13 @@ Una carta viene cargada de información, y parte del oficio es saber filtrarla. 
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Presta especial atención a los tendidos de alta tensión y los parques eólicos, especialmente si estás planificando un posible aterrizaje en campo. En la carta se representan con líneas negras finas con marcas transversales o símbolos de aspas.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -982,15 +968,13 @@ supplement: "Figura",
 #callout(
 body: 
 [
-⚖ #strong[NORMATIVA]
-
 La AMA garantiza una separación mínima de #strong[1000 pies] (o 2000 pies en zonas de alta montaña) sobre el obstáculo más alto de ese cuadrante. Es tu "red de seguridad" si pierdes la visibilidad o necesitas navegar con seguridad sobre el relieve.
 
 ]
 , 
 title: 
 [
-Importante
+Normativa
 ]
 , 
 background_color: 
@@ -1042,15 +1026,13 @@ La suma vectorial de estos tres elementos es la base de todos los cálculos de e
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP]
-
 No confundas las tres velocidades que entran en juego: la #strong[IAS] (indicada) es la que marca el anemómetro; la #strong[TAS] (verdadera) es la IAS corregida por densidad ---crece aproximadamente un #strong[2 % por cada 300 m] de altitud, unos 6,5-7 % por cada 1.000 m---; y la #strong[GS] (suelo) es la TAS combinada con el viento. En navegación siempre razonamos con #strong[TAS] y #strong[GS], nunca con la IAS a secas. (El #strong[Libro 7 --- Planificación] usa esta misma regla en su forma «2 % por 300 m».)
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -1087,15 +1069,13 @@ Si el viento sopla de costado, nos "arrastrará" fuera de nuestra ruta deseada. 
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 "Mete el morro al viento". Si el viento viene de la derecha, tu ángulo de corrección debe ser a la derecha (sumar grados a tu trayectoria deseada).
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -1124,15 +1104,13 @@ Para saber qué número exacto debemos ver en nuestra brújula para seguir una l
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP]
-
 En el aire, solemos simplificar. Si el viento es suave, el WCA será pequeño. Pero nunca ignores la Variación si estás volando en zonas donde esta es significativa, ya que un error de 5 grados puede sacarte de ruta 8 km tras volar 100 km.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -1152,15 +1130,13 @@ white
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 El signo es lo que más despista. La regla es sencilla: sobre el rumbo verdadero, una variación o desvío al #strong[Oeste (W) suma] grados, y al #strong[Este (E) resta]. En las fórmulas lo escribimos como #strong[\(W −) / (E +)]: el valor Oeste entra con signo negativo dentro del paréntesis y, al restarlo, acaba sumando. En algunos bancos de preguntas de examen la misma idea se expresa como MH = TC + VAR\_WMH = TC + VAR\_W o MH = TC - VAR\_EMH = TC - VAR\_E; es la misma convención con distinta notación.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -1198,15 +1174,13 @@ Y la velocidad suelo resultante es:
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO] --- #emph[Ejemplo numérico]
-
 Volamos a #strong[TAS = 60 kt] con un viento cruzado de #strong[20 kt]. La deriva será DA = (20 ) / 60 = 20°DA = (20 ) / 60 = 20°. Si ese mismo viento de 20 kt fuera de cara, nuestra velocidad suelo bajaría a #strong[40 kt]\; de cola, subiría a #strong[80 kt]. Con TAS baja, ¡el viento manda!
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro --- Ejemplo numérico
 ]
 , 
 background_color: 
@@ -1232,15 +1206,13 @@ Ejemplo: si planeamos un tramo de #strong[45 NM] y esperamos una velocidad suelo
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP]
-
 Lleva siempre el reloj en marcha desde el último punto conocido. El tiempo transcurrido, multiplicado por tu velocidad suelo estimada, es tu mejor aliado para saber #strong[dónde estarás] ---que es de lo que trata realmente la navegación a vela.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -1349,15 +1321,13 @@ Si en algún momento no estás seguro de tu posición exacta (Uncertainty of Pos
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Si la incertidumbre persiste y tu altura se reduce, deja de intentar navegar y concéntrate en aterrizar. #strong[Navegar es secundario; volar el planeador y asegurar una toma segura es lo primero.]
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1377,15 +1347,13 @@ white
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP]
-
 Si tienes radio y estás en contacto con un servicio ATC, no dudes en preguntar: "Madrid, EC-XYZ, dudo de mi posición, solicito vector o confirmación". No hay vergüenza en pedir ayuda antes de que la situación sea crítica.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -1468,15 +1436,13 @@ Además, la propia señal tiene fuentes de error que degradan la precisión aunq
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 El GNSS no te exime de saber navegar visualmente: el vuelo VFR se apoya en referencias del terreno, con o sin pantalla. Y tenlo presente en el examen de pericia de la SPL: el examinador puede apagarte el dispositivo para comprobar que sabes volver al aeródromo con el mapa y la brújula.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -1496,15 +1462,13 @@ white
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 Lleva siempre una #strong[fuente de respaldo] (backup). Si confías en una tablet, ten tu teléfono con una app de navegación cargada y, por supuesto, la carta de papel doblada y lista en el bolsillo lateral de la cabina.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -1551,15 +1515,13 @@ Conviene tener clara la diferencia entre "el control" y "la información":
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP]
-
 Llamar a los servicios FIS (como Madrid o Barcelona Información) es una excelente práctica. Además de darte tranquilidad, si tienes que realizar un aterrizaje en campo, ellos sabrán tu última posición conocida y podrán coordinar ayuda si fuera necesario.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -1588,15 +1550,13 @@ El transpondedor es el equipo que permite a los radares del ATC "verte" e identi
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Si tu transpondedor está instalado y operativo, la práctica correcta es #strong[mantenerlo encendido y en modo "ALT"] (transmisión de altitud) para que el radar te vea. Su uso es #strong[obligatorio en las zonas de uso de transpondedor (TMZ) y allí donde lo exijan la clase de espacio aéreo o el AIP-España (ENR 1.6)] ---las clases A y C lo requieren, y la D generalmente; véase la tabla del #strong[Libro 1 --- Derecho aéreo], capítulo 7---, y muy recomendable en cualquier espacio con tráfico. Solo en planeadores con batería muy limitada cabe valorar apagarlo fuera de esos espacios, y siempre como decisión deliberada: #strong[nunca en una TMZ, en espacio controlado ni en zonas de tráfico intenso].
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1620,15 +1580,13 @@ El Plan de Vuelo (FPL) es tu contrato de seguridad con el sistema. En él indica
 #callout(
 body: 
 [
-⚖ #strong[NORMATIVA]
-
 Según el reglamento #strong[SERA] (SERA.4001 b)), es obligatorio presentar un FPL si vas a cruzar fronteras, si se te presta servicio de control de tránsito aéreo (clases B, C y D) o si despegas o aterrizas en un aeródromo controlado. Ojo con la clase E: es espacio controlado, pero al VFR no se le presta servicio de control, así que no necesita plan de vuelo, ni radio, ni autorización. Y lo más importante de todo: si presentaste plan, #strong[DEBES notificar tu llegada] para cerrarlo. Si no lo haces, se activarán los servicios de búsqueda y rescate (SAR) innecesariamente.
 
 ]
 , 
 title: 
 [
-Importante
+Normativa
 ]
 , 
 background_color: 
@@ -1672,15 +1630,13 @@ No todas las zonas del cielo son iguales:
 #callout(
 body: 
 [
-⚖ #strong[NORMATIVA]
-
 Resumen de servicios al VFR según #strong[SERA.8001]: en #strong[C y D] hay autorización ATC y radio obligatoria; en #strong[E] ni autorización ni radio (solo información de tráfico si la hay); en #strong[F y G] solo servicio de información de vuelo. Saber qué te van a dar ---y qué te van a exigir--- en cada clase es parte de la planificación.
 
 ]
 , 
 title: 
 [
-Importante
+Normativa
 ]
 , 
 background_color: 

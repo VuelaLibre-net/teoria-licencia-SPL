@@ -45,15 +45,11 @@ Si en algún momento no estás seguro de tu posición exacta (Uncertainty of Pos
 * **Confía en tu estima**: Mira el reloj. Si llevas 10 minutos volando a 100 km/h, busca referencias a unos 15-20 km de tu último punto conocido.
 * **Busca "Handrails" (pasamanos)**: Vuela hacia la referencia más grande y lineal que veas (una costa, una cordillera principal).
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Si la incertidumbre persiste y tu altura se reduce, deja de intentar navegar y concéntrate en aterrizar. **Navegar es secundario; volar el planeador y asegurar una toma segura es lo primero.**
 :::
 
-::: {.callout-note}
-⚓ **AIRMANSHIP**
-
+::: {.callout-note title="Airmanship"}
 Si tienes radio y estás en contacto con un servicio ATC, no dudes en preguntar: "Madrid, EC-XYZ, dudo de mi posición, solicito vector o confirmación". No hay vergüenza en pedir ayuda antes de que la situación sea crítica.
 :::
 

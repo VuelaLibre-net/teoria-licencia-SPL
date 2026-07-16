@@ -24,9 +24,7 @@ La solución fue reducir el espaciado de cada canal de 25 kHz a **8,33 kHz**. Co
 
 El Reglamento de ejecución (UE) N.º 1079/2012 impuso la transición en toda Europa. En España, desde el **31 de diciembre de 2022**, los vuelos VFR tienen que ir equipados con radios «compatibles con 8,33» (**8,33 compliant**). Los IFR cumplieron antes.
 
-::: {.callout-important}
-⚖ **NORMATIVA: RADIOS 8,33 kHz**
-
+::: {.callout-important title="Normativa: RADIOS 8,33 kHz"}
 Si tu velero lleva una radio antigua de 25 kHz —la que solo marca diales acabados en .000, .025, .050 o .075—, la regla general en Europa es que ya no basta: para operar con las dependencias modernas del ATC necesitas un equipo capaz de sintonizar el espaciado de 8,33 kHz. Hay una excepción que conviene conocer: el AIP-España (ENR 1.8) mantiene, comunicadas a la Comisión (Reg. 2023/1770 y 2023/1771), unas **sub-bandas nacionales en 25 kHz para comunicaciones aire-aire y aire-tierra hasta el 31-12-2028** —precisamente las de vuelo a vela que aparecen en la tabla de este capítulo (122,600; 123,375; 123,400; 123,450; 123,500)—. Así que como afirmación legal la frase exige el matiz de la exención; como recomendación práctica, equipa 8,33 sin dudarlo: sin él no te comunicarás con la mayoría de las dependencias del ATC.
 :::
 
@@ -41,9 +39,7 @@ El **squelch** es un circuito electrónico que actúa como una puerta de ruido. 
 1. Baja el squelch hasta que escuches el ruido estático fuerte continuo («siseo»).
 2. Súbelo lentamente **justo hasta el punto** en que el ruido desaparece.
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 No subas el squelch más allá del punto donde cesa el ruido. Si lo dejas «al máximo», las señales débiles de planeadores lejanos o de un ATC distante no tendrán fuerza suficiente para abrir la puerta. Creerás que la frecuencia está en silencio cuando en realidad alguien te está llamando.
 :::
 
@@ -77,15 +73,11 @@ Saberte de memoria las frecuencias más habituales te permite sintonizarlas sin 
 
 Las frecuencias de **FIS regionales** de España (Madrid, Barcelona, Sevilla, Palma de Mallorca, Gran Canaria) varían por sector y altitud. Se publican en el AIP España (GEN 3.3) y en las cartas de navegación OACI 1:500.000. Cada aeródromo con torre o AFIS tiene su propia frecuencia, publicada en la carta VAC del aeródromo. La propia tabla de arriba procede del AIP-España (GEN 3.4 y ENR 1.8).
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 Con el espaciado de 8,33 kHz, las cartas y las radios muestran **canales**, no frecuencias exactas: verás diales acabados en .005, .010, .015… y a veces un sufijo «C». No es un error de sintonía; es la nomenclatura del canal, que no coincide con la frecuencia real. Sintoniza el canal tal como figura en la carta.
 :::
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 Antes de cada travesía, anota las frecuencias de FIS de los sectores que atravesarás. En una zona con cobertura degradada o tras una emergencia, buscar la frecuencia en el mapa es tiempo que no tienes.
 :::
 

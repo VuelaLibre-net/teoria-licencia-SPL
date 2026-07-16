@@ -14,9 +14,7 @@ El paso de un frente frío se caracteriza por un descenso abrupto de las tempera
 
 Para el vuelo a vela, el interés meteorológico óptimo radica en la situación posterior al frente. Una vez despejada la barrera frontal, la región queda dominada por una masa de aire transicional netamente más fría que el terreno. Al calentarse su base por contacto con el suelo, se establece una marcada **inestabilidad post-frontal**.
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 Las jornadas inmediatas tras el cruce de un frente frío intercontinental suelen ofrecer las mejores condiciones de vuelo térmico. Se caracterizan por una excelente visibilidad por ausencia de calima, presión atmosférica en aumento y un fuerte calentamiento diurno que detona corrientes ascendentes robustas marcadas por nubes Cúmulos (Cu) de contornos definidos.
 :::
 
@@ -47,9 +45,7 @@ Operativamente, una oclusión es lo peor de los dos frentes combinado: la convec
 
 Existe un cuarto tipo de frente, menos frecuente pero que aparece en los mapas sinópticos: el **frente estacionario**. Se forma cuando dos masas de aire de temperatura y densidad similar se encuentran y ninguna de las dos tiene fuerza suficiente para avanzar sobre la otra. El resultado es una frontera casi inmóvil entre ambas masas, que puede persistir durante días produciendo lluvias y nieblas persistentes a lo largo de su eje. En los mapas sinópticos se dibuja con el patrón alternado de triángulos azules y semicírculos rojos en lados opuestos de la línea frontal.
 
-::: {.callout-important}
-⚖ **NORMATIVA**
-
+::: {.callout-important title="Normativa"}
 **SERA.5001** (Reglamento de Ejecución (UE) 923/2012) establece los mínimos meteorológicos para el vuelo VFR. En espacio aéreo de clase G, por debajo de 3.000 ft AMSL o 1.000 ft sobre el terreno, la visibilidad mínima general es de **5 km**, volando libre de nubes y con la superficie a la vista. Puede reducirse hasta **1.500 m** para vuelos a 140 kt o menos, siempre que la velocidad permita ver el tráfico y los obstáculos con tiempo para evitar la colisión. La penetración inadvertida en IMC por un piloto VFR sin habilitación de vuelo instrumental constituye una infracción grave.
 :::
 
@@ -74,9 +70,7 @@ Antes de hablar de temperatura relativa, es útil conocer de dónde viene el air
 
 La situación más frecuente en la Península Ibérica durante la temporada de vuelo (primavera-verano) es la llegada de **masa polar marítima (Pm)** tras el paso de un frente frío. Al cruzar el Atlántico y calentarse por contacto con el suelo peninsular caliente, esta masa genera la combinación perfecta para el vuelo de cross-country: cielo azul, buena visibilidad, bases a 5.000-7.000 ft y térmicas de 3-4 m/s.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 No despegues con visibilidad marginal bajo una inversión: ante una rotura de cable o un desenganche de emergencia, el aterrizaje de vuelta a tierra se realizaría sin referencias visuales, con riesgo de impacto irremediable. Si tienes alguna duda sobre la visibilidad, pospón el vuelo.
 :::
 

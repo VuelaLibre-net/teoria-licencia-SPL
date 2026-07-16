@@ -25,15 +25,11 @@ Sin embargo, si vuelas más rápido que la V~A~ y haces un movimiento brusco, el
 
 La V~A~ es un límite estructural, no una marca del anemómetro. La marca que ves en la esfera es la **V~RA~**, la velocidad máxima en aire turbulento (**rough air speed**): en ella termina el arco verde y empieza el amarillo, según CS 22.1545. En muchos veleros la V~A~ y la V~RA~ casi coinciden, pero la certificación las distingue, y conviene que tú también: la V~A~ te protege frente a la deflexión completa de un mando; la V~RA~, frente a las ráfagas del aire turbulento; y la VNE es el límite absoluto donde acaba el arco amarillo con su línea roja.
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 En turbulencia fuerte, reduce enseguida la velocidad por debajo de la V~A~ para proteger la estructura. Tu referencia visual está en el anemómetro: quédate en el arco verde, que termina en la V~RA~ (velocidad máxima en aire turbulento). El arco amarillo, de la V~RA~ a la VNE, es solo para aire en calma.
 :::
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 La V~A~ **no te protege de entradas combinadas simultáneas en más de un eje**. Los requisitos de certificación cubren deflexiones completas en un único mando a la vez. Si aplicas timón de profundidad a fondo y pedal a fondo **al mismo tiempo** —aunque estés por debajo de V~A~— puedes generar una carga estructural que supere el límite de diseño. En turbulencia, mantén los mandos suaves y evita movimientos bruscos coordinados en múltiples ejes simultáneamente.
 :::
 
@@ -43,15 +39,11 @@ La línea roja en el anemómetro indica la VNE (velocidad de nunca exceder). Es 
 
 El flutter es una vibración aeroelástica en las alas o superficies de control que, si ocurre, puede desintegrar el planeador en cuestión de segundos.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 La VNE disminuye con la altitud: en aire menos denso, la velocidad aerodinámica verdadera (TAS) —de la que depende el flutter— aumenta respecto a la indicada (IAS) que lees en el anemómetro. Presta atención a la tabla de correcciones de VNE por altitud en la cabina. Este efecto es crítico en el vuelo de onda, donde se alcanzan grandes altitudes; su relación con la meteorología de onda se trata en el **Libro 3 — Meteorología**.
 :::
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 Cerca de la VNE, mantén las deflexiones de mando limitadas a aproximadamente **un tercio** de su recorrido total. A esa velocidad, la presión dinámica es tan elevada que una deflexión completa genera cargas que pueden superar la envolvente estructural incluso sin turbulencia. No uses la VNE como velocidad de crucero: es un límite absoluto de emergencia, no un régimen habitual.
 :::
 
@@ -59,9 +51,7 @@ Cerca de la VNE, mantén las deflexiones de mando limitadas a aproximadamente **
 
 En vuelo recto y nivelado, el factor de carga es 1 G. Al inclinarte en un viraje, la fuerza centrífuga se suma a la gravedad y el factor de carga sube. En un viraje cerrado de 60°, el planeador experimenta 2 G: la estructura soporta el doble del peso normal.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 La velocidad de pérdida aumenta con el factor de carga. En un viraje de 60º (2 Gs), la velocidad de pérdida **sube un 41%**. Un planeador que entra en pérdida a 70 km/h en vuelo nivelado lo hará a casi 100 km/h en ese viraje cerrado. Un uso brusco de los mandos en esta situación puede llevar a una pérdida crítica.
 :::
 

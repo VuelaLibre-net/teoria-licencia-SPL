@@ -568,15 +568,13 @@ La gran mayoría de los planeadores modernos se fabrican con materiales compuest
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 Los planeadores de composite son casi siempre blancos por una razón técnica, no estética: la resina epoxi que une las fibras pierde propiedades mecánicas si se calienta demasiado. El blanco refleja la radiación solar y mantiene la estructura dentro de sus límites térmicos.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -611,15 +609,13 @@ En los veleros modernos, ese gelcoat de poliéster está cediendo terreno frente
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 Trata el gelcoat como tratarías tu propia piel. Protégelo del sol con fundas siempre que puedas y encéralo al menos una vez al año con ceras sin silicona para conservar su elasticidad y su protección UV.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -680,15 +676,13 @@ Muchos planeadores de escuela montan los dos ganchos, y la regla es sencilla: mo
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 No te lances nunca en torno con el gancho de morro. Al quedar el enganche por delante del centro de gravedad, el cable tira del morro hacia el suelo en lugar de dejar rotar el planeador a la subida; para contrarrestarlo tendrías que tirar a fondo de profundidad, y eso sobrecarga el estabilizador horizontal y el timón en una fase de cargas ya muy altas. A esto se suma que el gancho de morro no da la suelta automática (#strong[back-release]) del de CG, así que un fallo de suelta es mucho más peligroso. Por estas razones, en los tipos así certificados el AFM prohíbe de forma expresa el lanzamiento por torno con el gancho de morro.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -708,15 +702,13 @@ white
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 El gancho de remolque es un mecanismo con desgaste y con revisiones propias: los Tost tienen una vida limitada en años y en número de lanzamientos, y al cumplirla deben revisarse o sustituirse según el manual del fabricante. En la inspección prevuelo, acciona la suelta con el cable de pruebas y comprueba que el gancho abre y cierra con franqueza, sin agarrotamientos.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -783,8 +775,6 @@ No todos los planeadores se diseñan para los mismos esfuerzos. La normativa eur
 #callout(
 body: 
 [
-⚖ #strong[NORMATIVA]
-
 #strong[CS 22.337 (factores de carga límite de maniobra)]: la categoría Utilitaria debe soportar +5,3 / -2,65 (a la velocidad de maniobra) y la Acrobática, +7,0 / -5,0. #strong[CS 22.303 (factor de seguridad)]: salvo indicación en contra, se aplica un factor de seguridad de 1,5 sobre las cargas límite para obtener las cargas últimas.
 
 Los límites concretos de tu aeronave están en su Manual de Vuelo. Consúltalos antes de volar un modelo nuevo.
@@ -793,7 +783,7 @@ Los límites concretos de tu aeronave están en su Manual de Vuelo. Consúltalos
 , 
 title: 
 [
-Importante
+Normativa
 ]
 , 
 background_color: 
@@ -820,15 +810,13 @@ En la certificación se manejan dos conceptos clave:
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 No uses nunca el factor de seguridad como "margen de maniobra". Ese 1,5 está para cubrir imperfecciones del material o condiciones atmosféricas imprevistas, no para que el piloto vuele fuera de límites.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -903,15 +891,13 @@ Según el uso y las prestaciones del velero, hay dos tipos principales:
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 Trata la gestión del tren retráctil como algo sagrado: se guarda solo tras soltar el remolque y alcanzar una altura segura, y se vuelve a sacar al entrar en el tramo de viento en cola (#emph[downwind]), sin excepción. Que forme parte de tu chequeo mental antes de aterrizar.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -948,15 +934,13 @@ El freno de rueda es clave para detener la carrera de aterrizaje, sobre todo en 
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 No frenes con brusquedad al principio de la carrera de aterrizaje si llevas mucha velocidad: puedes provocar un capotaje (el morro se clava en el suelo) o hacer planos en la rueda por desgaste excesivo del neumático.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1031,15 +1015,13 @@ El #strong[centro de gravedad] es el punto donde se concentra, en teoría, todo 
 #callout(
 body: 
 [
-⚖ #strong[NORMATIVA]
-
 La certificación CS-22 exige una placa de limitaciones visible en cabina con las cargas mínima y máxima del asiento. Comprueba siempre el peso mínimo en cabina: si el tuyo (con paracaídas y ropa) queda por debajo de ese mínimo, es obligatorio instalar lastre antes de despegar, según indique el Manual de Vuelo.
 
 ]
 , 
 title: 
 [
-Importante
+Normativa
 ]
 , 
 background_color: 
@@ -1082,15 +1064,13 @@ supplement: "Figura",
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 El cálculo numérico de masa y centrado (datum, brazos y momentos) se desarrolla con un ejemplo completo de examen en el #strong[Libro 7 --- Planificación y rendimiento del vuelo], capítulo 1. Aquí nos interesa la parte física: dónde está cada lastre y qué sistemas lo gestionan.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -1148,15 +1128,13 @@ El mando azul de la cabina acciona los aerofrenos. Su función es destruir parte
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 Al sacar los aerofrenos, la mayoría de los planeadores bajan un poco el morro o vibran ligeramente. Anticípate y compensa ese cambio de actitud con el elevador para no perder la velocidad de aproximación.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -1190,15 +1168,13 @@ El mando verde, o el pulsador eléctrico que libera la carga de la palanca, es t
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 Los mandos de cabina siguen un código de colores casi universal que conviene reconocer al instante: #strong[azul] para los aerofrenos, #strong[verde] para el compensador, #strong[amarillo] para la suelta del cable de remolque y #strong[rojo] para las palancas de emergencia (suelta de cúpula, aperturas). Localízalos en cada planeador antes de volar.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -1218,15 +1194,13 @@ white
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Antes de cada despegue, comprueba siempre la libertad y el sentido de los mandos. Lleva todas las superficies a sus topes y verifica a la vista que se mueven en la dirección correcta. Un mando invertido tras un mantenimiento es una emergencia crítica, y se manifiesta justo al despegar.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1291,15 +1265,13 @@ Casi todos los instrumentos básicos funcionan midiendo presiones de aire:
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Las tomas de presión son un imán para los insectos. Un nido de araña en el pitot hará que tu anemómetro marque cero en pleno despegue. Pon fundas protectoras en tierra y comprueba que las tomas están limpias en la inspección prevuelo. Y no soples nunca directamente en ellas: la sobrepresión revienta las delicadas membranas de los instrumentos.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1340,8 +1312,6 @@ No todos los instrumentos del panel son obligatorios. La normativa europea fija 
 #callout(
 body: 
 [
-⚖ #strong[NORMATIVA]
-
 #strong[SAO.IDE.105] exige a todo planeador medios para medir y mostrar la hora (en horas y minutos), la altitud de presión y la velocidad aerodinámica indicada. Los planeadores motorizados llevan además rumbo magnético.
 
 Para volar en condiciones de nebulosidad (nubes) o de noche se añaden tres: la velocidad vertical, la actitud o el viraje y resbale, y el rumbo magnético. El vuelo nocturno exige, además, luces de navegación, anticolisión, de aterrizaje y de cabina.
@@ -1350,7 +1320,7 @@ Para volar en condiciones de nebulosidad (nubes) o de noche se añaden tres: la 
 , 
 title: 
 [
-Importante
+Normativa
 ]
 , 
 background_color: 
@@ -1437,15 +1407,13 @@ Según la antigüedad del planeador, las conexiones de alerones, aerofrenos y pr
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Si tu planeador usa conectores L'Hotellier, el pin de seguridad (imperdible) que bloquea el conector es de obligado cumplimiento en los modelos afectados por la directiva de aeronavegabilidad correspondiente. No te fíes nunca del "clic" del muelle: es el pin el que garantiza que la unión no se suelte por las vibraciones del vuelo.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1481,15 +1449,13 @@ Con el avión montado, no vueles nunca sin hacer un chequeo de mandos positivo c
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 Si durante el montaje alguien te interrumpe para hablar, vuelve a empezar el paso en curso desde el principio. Las distracciones durante el rigging son la causa número uno de conexiones críticas olvidadas.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -1575,15 +1541,13 @@ La normativa europea de operaciones con veleros distingue entre lo que debe ir e
 #callout(
 body: 
 [
-⚖ #strong[NORMATIVA]
-
 #strong[SAO.GEN.155] exige llevar a bordo en cada vuelo el AFM, las cartas actualizadas y la información de señales de interceptación; los certificados (matrícula, aeronavegabilidad, ARC, seguro, licencia de radio) pueden quedarse en el aeródromo. Hay una excepción: en los vuelos que se mantengan a la vista del aeródromo, o dentro de la distancia que fije la autoridad competente, toda la documentación (incluido el AFM) puede quedarse en tierra. Lo mismo vale para la licencia y el certificado médico del piloto (SFCL.045).
 
 ]
 , 
 title: 
 [
-Importante
+Normativa
 ]
 , 
 background_color: 
@@ -1613,15 +1577,13 @@ Hay varios tipos de chequeo:
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 No recites la lista de memoria. Lee cada punto, comprueba físicamente el mando o el instrumento y confirma en voz alta su estado. Si te saltas un paso, empieza la lista de nuevo.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -1687,15 +1649,13 @@ Para que un planeador despegue legalmente necesita dos documentos clave:
 #callout(
 body: 
 [
-⚖ #strong[NORMATIVA]
-
 Según #strong[ML.A.901], el ARC tiene validez anual, pero puede prorrogarse dos veces consecutivas (un año cada vez) sin revisión completa si la aeronave ha permanecido en un #strong[entorno controlado]: gestión continua por una CAMO/CAO y mantenimiento hecho por organizaciones aprobadas. Tras esas dos prórrogas toca revisión de aeronavegabilidad completa.
 
 ]
 , 
 title: 
 [
-Importante
+Normativa
 ]
 , 
 background_color: 
@@ -1730,15 +1690,13 @@ EASA te deja, como piloto y propietario, hacer ciertas tareas de mantenimiento s
 #callout(
 body: 
 [
-⚖ #strong[NORMATIVA]
-
 Solo puedes firmar tareas de piloto-propietario si eres el propietario (o copropietario) legal de la aeronave y tienes una licencia de piloto válida (ML.A.803). Y todas las tareas deben quedar registradas y firmadas en el Diario de la Aeronave, con tu número de licencia.
 
 ]
 , 
 title: 
 [
-Importante
+Normativa
 ]
 , 
 background_color: 
@@ -1824,15 +1782,13 @@ El encendido lo generan los #emph[magnetos], no la batería. Un magneto es un ge
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Como el magneto genera corriente por sí mismo, para detenerlo hay que poner a masa (cortocircuitar) su devanado primario. Un magneto con el cable de masa roto puede dejar el motor "vivo" aunque el contacto esté en #emph[OFF]: trata siempre la hélice como si pudiera arrancar.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1875,15 +1831,13 @@ Manejar el motor de un planeador exige disciplina. La secuencia de arranque (ext
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Con el motor extraído, la relación de planeo cae en picado por la resistencia del mástil. Si el motor no arranca tras sacarlo, tienes que estar a altura suficiente para hacer la toma de emergencia con el motor fuera, o para retraerlo a tiempo. Elige siempre el campo antes de intentar el arranque: el motor es el plan B, nunca el plan A.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1962,15 +1916,13 @@ El vaciado en vuelo suele tardar entre 3 y 8 minutos, según el planeador. Al ab
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Vacía el lastre de agua antes de aterrizar; es una limitación operativa del Manual de Vuelo. El planeador no está diseñado para encajar las cargas de impacto de una toma con los tanques llenos. Además, aterrizar con agua alarga mucho la carrera de frenado y aumenta el riesgo de daños estructurales si chocas contra un obstáculo.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -2048,15 +2000,13 @@ Por su densidad de peso, su fijación es un punto crítico de inspección. Una b
 #callout(
 body: 
 [
-⚖ #strong[NORMATIVA]
-
 #strong[CS 22.561(d)] exige que la estructura de soporte retenga cualquier masa que pueda lesionar a un ocupante si se suelta en un aterrizaje de emergencia, soportando las fuerzas de inercia últimas de #strong[CS 22.561(b)(1)]: 15g hacia delante, 9g hacia abajo, 7,5g hacia arriba y 6g lateral. No sujetes nunca la batería con gomas elásticas ni montajes improvisados: usa los soportes o cinchas aprobados por el fabricante y comprueba su firmeza en cada inspección prevuelo.
 
 ]
 , 
 title: 
 [
-Importante
+Normativa
 ]
 , 
 background_color: 
@@ -2091,15 +2041,13 @@ Todo el sistema eléctrico tiene que ir protegido para evitar incendios.
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 Lleva siempre fusibles de repuesto en el bolsillo de la cabina. Si uno se funde en vuelo, cámbialo una vez. Si vuelve a fundirse, desconecta el equipo afectado: tienes un cortocircuito serio que puede acabar en fuego eléctrico.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -2168,15 +2116,13 @@ El aire atrapado entre los pliegues de la tela se va perdiendo con el tiempo. Po
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 Un paracaídas plegado hace una semana se abre mucho antes que uno plegado hace un año. No apures los plazos de revisión: esos segundos de diferencia en la apertura pueden ser vitales a baja altura.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -2211,15 +2157,13 @@ El procedimiento completo (la decisión de abandono, la salida con fuerzas G, el
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 La altura mínima recomendada para un salto con garantías es de 150 metros sobre el terreno: la campana necesita entre 50 y 90 metros para desplegarse del todo, y el abandono se come los primeros 100. Por debajo de esa cota el margen es crítico. Si la emergencia ocurre alto, no lo dudes: cada segundo de demora es altura perdida.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -2280,15 +2224,13 @@ Si tienes un accidente o una toma forzosa en una zona remota, necesitas que los 
 #callout(
 body: 
 [
-⚖ #strong[NORMATIVA]
-
 Asegúrate de que tu baliza emite en 406 MHz. Las antiguas señales de 121.5 MHz ya no se vigilan por satélite; solo sirven para el rastreo cercano (#emph[homing]) de los equipos de rescate. Y la baliza debe estar registrada oficialmente.
 
 ]
 , 
 title: 
 [
-Importante
+Normativa
 ]
 , 
 background_color: 
@@ -2312,8 +2254,6 @@ A medida que subes, la presión atmosférica baja y a tus pulmones les llegan me
 #callout(
 body: 
 [
-⚖ #strong[NORMATIVA]
-
 #strong[SAO.OP.150 (uso de oxígeno suplementario)]: «El piloto al mando se asegurará de que todas las personas a bordo utilicen oxígeno suplementario siempre que determine que, a la altitud del vuelo previsto, la falta de oxígeno podría provocar un deterioro de sus facultades o afectarles perjudicialmente.»
 
 El #strong[AMC1 SAO.OP.150] concreta el criterio: cuando el piloto no pueda valorar ese efecto, debe garantizar que todos los ocupantes usan oxígeno durante cualquier período en que la altitud de presión supere los 10.000 ft.
@@ -2322,7 +2262,7 @@ El #strong[AMC1 SAO.OP.150] concreta el criterio: cuando el piloto no pueda valo
 , 
 title: 
 [
-Importante
+Normativa
 ]
 , 
 background_color: 

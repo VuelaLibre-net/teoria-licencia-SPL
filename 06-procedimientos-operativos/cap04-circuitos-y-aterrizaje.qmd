@@ -37,15 +37,11 @@ Antes de entrar en el tramo de viento en cola, abre los grifos del lastre de agu
 * **L** (**Landing area / Zona de aterrizaje**): escanea la zona de toma y el circuito completo: viento, otras aeronaves y personal en pista. ¿Hay otro planeador en final?
 * **L** (**Land / Aterriza**): con todo verificado, dedica el resto del circuito exclusivamente a volar y aterrizar el planeador.
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 Haz el FUSTALL siempre en el mismo punto del viento en cola —por ejemplo, cuando la cabecera de la pista quede a la altura del ala—. La repetición convierte la lista en un hábito y hace prácticamente imposible omitirla. Un piloto que improvisa el momento del chequeo acaba por no hacerlo.
 :::
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS: LA REGLA TRADICIONAL WULF**
-
+::: {.callout-note title="Airmanship: LA REGLA TRADICIONAL WULF"}
 En muchos clubes europeos se enseña la mnemotecnia abreviada **WULF** para el mismo chequeo de viento en cola: **W** (**Water ballast**): lastre de agua vaciado; **U** (**Undercarriage**): tren fuera y blocado; **L** (**Loose articles / Look-out**): objetos sueltos asegurados y vigilancia exterior; **F** (**Flaps**): flaps en posición de aterrizaje. Ambas listas persiguen lo mismo: llegar al tramo de base con la configuración completa y la atención puesta fuera de la cabina.
 :::
 
@@ -58,9 +54,7 @@ El viento modifica esta ecuación de forma importante:
 * **Viento de cara en final:** añade a tu velocidad base la **mitad de la velocidad del viento** (y la mitad de la racha máxima prevista). Un viento de 20 km/h justifica añadir 10 km/h a tu velocidad normal.
 * **Gradiente de viento:** cerca del suelo, el viento pierde velocidad de forma brusca. Si entras en final demasiado lento, puedes sufrir una pérdida repentina de sustentación justo cuando menos lo esperas —a escasos metros del suelo—. Entra siempre con un pequeño exceso de velocidad y deja que se consuma durante el planeo final.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Entrar en final lento con viento en cara es una de las combinaciones más peligrosas en el vuelo de planeador. El gradiente de viento próximo al suelo puede robarte los últimos 15-20 km/h de velocidad en décimas de segundo, llevándote directamente a la pérdida a una altura donde la recuperación es imposible. La velocidad adicional en final no es un lujo: es un seguro de vida.
 :::
 
@@ -77,9 +71,7 @@ La estrategia más fiable para usar los aerofrenos es la siguiente:
 
 ![Efecto de los aerofrenos en el ángulo de planeo durante el final](imagenes/06-cap04-aerofrenos-angulo.jpg){#fig-06-cap04-aerofrenos-angulo}
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 Si en el viraje de base a final observas que vas a pasar de largo el punto de toma con los aerofrenos completamente abiertos, no cierres los frenos bruscamente cerca del suelo: el planeador sufrirá un balonazo repentino. En su lugar, si el campo lo permite, prolonga el giro de base o realiza una S suave en final para aumentar la distancia recorrida. Si nada funciona, estás en una situación de campo largo: aterriza y rueda hasta el final de la pista.
 :::
 
@@ -102,9 +94,7 @@ Para realizar un resbale de forma segura, aplica la siguiente técnica:
 
 ![El resbale lateral: mandos cruzados para descender más sin acelerar](imagenes/06-cap04-resbale-lateral.png){#fig-06-cap04-resbale-lateral}
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Debido a que el flujo de aire está desprendido y el anemómetro no es fiable durante el resbale, existe riesgo de entrada en pérdida si el piloto tira excesivamente de la palanca de profundidad. Mantén siempre una actitud de morro netamente baja. Practica la maniobra a altura de seguridad antes de intentarla en circuito.
 :::
 
@@ -118,9 +108,7 @@ El viento de cola altera radicalmente las referencias sensoriales del piloto y l
 * **La ilusión visual de velocidad:** al ver pasar el suelo a gran velocidad durante el final y la toma, tu cerebro interpretará falsamente que vas demasiado rápido. La reacción instintiva y peligrosa es tirar de la palanca de mando para frenar el velero. Esto reducirá la velocidad indicada por debajo de la de seguridad y puede provocar una pérdida (**stall**) y entrada en barrena (**spin**) a escasos metros del suelo.
 * **Senda de aproximación plana:** al desplazarte más rápido sobre el terreno, tu ángulo de descenso aparente será mucho más plano. Mantén una senda conservadora utilizando los aerofrenos con precisión.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Cuando vueles una aproximación con viento de cola, **fía tu control de velocidad exclusivamente al anemómetro**, ignorando la velocidad aparente con la que pasa el terreno bajo la cabina. Mantén la velocidad de aproximación recomendada y prepárate para una carrera de rodaje muy larga y un frenado enérgico.
 :::
 

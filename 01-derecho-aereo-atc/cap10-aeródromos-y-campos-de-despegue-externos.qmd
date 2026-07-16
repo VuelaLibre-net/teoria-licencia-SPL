@@ -46,9 +46,7 @@ Si no tienes radio (o te falla), el suelo te habla. Las **señales luminosas** q
 
 ![El lenguaje del suelo: Área de señales](imagenes/01-cap10-senales-aerodromo.png){#fig-01-cap10-area-senales}
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 Antes de despegar o al llegar a un campo nuevo, **busca siempre el área de señales**. Te dará información (pista en uso y sentido de giro) de un solo vistazo, incluso sin radio.
 :::
 

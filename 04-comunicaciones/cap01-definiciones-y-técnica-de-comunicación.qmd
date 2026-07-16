@@ -10,9 +10,7 @@ Las comunicaciones de voz van en la banda de VHF (*Very High Frequency*), entre 
 
 En el vocabulario OACI, la estación en tierra es la **estación aeronáutica** (**aeronautical station**), identificada por el sufijo «Radio» en las llamadas. Tú, desde el planeador, operas como **estación de aeronave** (**aircraft station**).
 
-::: {.callout-important}
-⚖ **NORMATIVA**
-
+::: {.callout-important title="Normativa"}
 El **Anexo 10 de la OACI** (Volumen II, Comunicaciones) es la norma de referencia internacional para las telecomunicaciones aeronáuticas. El equipo de radio debe estar homologado y calibrado según sus especificaciones antes de cualquier vuelo en espacio aéreo controlado.
 :::
 
@@ -32,15 +30,11 @@ Por normativa de la OACI (Anexo 10) y del SERA (*Standardised European Rules of 
 * Las instrucciones de cambio de frecuencia.
 * Las transferencias a otras dependencias ATC.
 
-::: {.callout-important}
-⚖ **NORMATIVA**
-
+::: {.callout-important title="Normativa"}
 La obligación de colacionar autorizaciones e instrucciones críticas está establecida en el Anexo 10 al Convenio sobre Aviación Civil Internacional de la OACI. Las comunicaciones grabadas se conservan un mínimo de 30 días, y pueden retenerse indefinidamente si son relevantes para una investigación o reclamación. Una colación incorrecta o ausente constituye una desviación de los procedimientos estándar y puede dar lugar a incidente o accidente.
 :::
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 La omisión de la colación de una autorización de despegue o aterrizaje es una de las causas más frecuentes de incursiones en pista (**runway incursions**). Si el controlador no escucha la colación correcta, puede autorizar simultáneamente a otra aeronave a operar en la misma pista. Ante cualquier duda sobre una instrucción recibida, solicite confirmación inmediata antes de ejecutarla.
 :::
 
@@ -56,9 +50,7 @@ Los términos que tienes que conocer desde el primer día:
 * **Solicito**: Para pedir una autorización, un servicio o información. Por ejemplo: «Solicito autorización de rodaje».
 * **Recibido** (**Roger**): «He recibido tu transmisión». Ojo: no es una respuesta a una pregunta, y no sustituye a una colación cuando esta es obligatoria.
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 La frecuencia de radio es un recurso compartido. Un mensaje breve, preciso y sin vacilaciones libera la frecuencia para otros tráficos y para emergencias. Planifique el mensaje antes de pulsar el PTT: quién llama, a quién, qué necesita.
 :::
 
@@ -96,9 +88,7 @@ Dígito a dígito, con la palabra **«coma»** para el decimal:
 * 123.500  «*uno dos tres coma cinco cero cero*»
 * 124.400  «*uno dos cuatro coma cuatro cero cero*»
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 Antes de abandonar una frecuencia, colaciona siempre el nuevo valor completo. Así ambas partes confirman que el piloto ha comprendido el canal correcto antes de cambiar de dial.
 :::
 
@@ -113,9 +103,7 @@ Cuatro pasos, siempre en este orden:
 3. **Pulsa y cuenta uno**: Pulsa el botón de PTT (*Push-To-Talk*) un segundo **antes** de hablar (@fig-04-cap01-microfono). Así la primera sílaba no se corta mientras el transmisor abre la portadora.
 4. **Habla**: Claro, constante, sin prisas. Menos de 100 palabras por minuto, volumen uniforme. Cuando termines, suelta el PTT de inmediato.
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 Para verificar la calidad de la señal de radio, utilice la escala normalizada del 1 (ilegible) al 5 (perfectamente legible). La prueba de radio no debe superar los 10 segundos. Si no obtiene respuesta tras la primera llamada a una torre, espere un mínimo de 10 segundos antes de reintentar, para no interferir con otras gestiones del controlador.
 :::
 
@@ -156,9 +144,7 @@ Añade siempre tu indicativo al final de cada colación. Así el controlador con
 
 : Dígitos fonéticos OACI
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 (*) En frecuencias internacionales, el dígito 9 se pronuncia **«Niner»** para evitar confusiones con «Nein» (no, en alemán). El alfabeto fonético OACI está diseñado para ser reconocible en cualquier idioma y en condiciones de radio degradadas. Memorícelo hasta que el deletreo sea automático.
 :::
 

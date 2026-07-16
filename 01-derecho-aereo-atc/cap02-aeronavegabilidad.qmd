@@ -30,9 +30,7 @@ El **ARC** (**Airworthiness Review Certificate**, Certificado de Revisión de Ae
 
 Su validez es de **un año**, así que toca renovarlo o prorrogarlo anualmente. En un entorno controlado (gestionado por una CAMO o, en aviación ligera, por una CAO), el ARC admite dos prórrogas consecutivas sin revisión física completa, es decir, 1 año + 1 año + 1 año. Al tercer año, revisión a fondo sin excusas (@fig-01-cap02-arc-process). El régimen técnico que sostiene el ARC —el programa de mantenimiento, el programa mínimo de inspección y las directivas de aeronavegabilidad— se desarrolla en el **Libro 8 — Conocimientos generales de la aeronave**, capítulo 9; aquí interesa su cara jurídica: sin ARC en vigor no puedes volar.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Nunca vueles si el ARC está caducado. Es ilegal y, lo más importante, significa que nadie ha certificado oficialmente que el avión es seguro para volar en el último año. Además, muy probablemente tu aseguradora rechazará la cobertura si ocurre algo: la mayoría de las pólizas la condicionan a que la aeronave esté aeronavegable.
 :::
 
@@ -63,9 +61,7 @@ Según la normativa de operaciones de planeadores (Part-SAO), esto incluye:
 
 Si encuentras algo mal durante la pre-vuelo o durante el vuelo, anótalo en el **Technical Log Book (Diario de a bordo)**. El siguiente piloto te lo agradecerá.
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 ¿Ves una muesca en el gelcoat? No es solo estética: si afecta al perfil, afecta al vuelo. Ante la duda, pregunta. Es mejor ser un piloto curioso que un piloto en apuros.
 :::
 

@@ -47,15 +47,97 @@ class TestDocBookToQMD(unittest.TestCase):
         self.assertIn("### Subsección", output)
 
     def test_callouts_mapping(self):
-        # Prueba la traducción de notas y advertencias
+        # Prueba la traducción de notas y advertencias, con el título editorial
         xml_note = "<note><simpara>Esta es una nota importante.</simpara></note>"
         xml_warning = "<warning><simpara>Cuidado con la velocidad.</simpara></warning>"
-        
+
         note_out = self._convert(xml_note)
         warning_out = self._convert(xml_warning)
-        
-        self.assertEqual(note_out, "\n::: {.callout-note}\nEsta es una nota importante.\n:::\n")
-        self.assertEqual(warning_out, "\n::: {.callout-warning}\nCuidado con la velocidad.\n:::\n")
+
+        self.assertEqual(
+            note_out,
+            '\n::: {.callout-note title="Airmanship"}\nEsta es una nota importante.\n:::\n'
+        )
+        self.assertEqual(
+            warning_out,
+            '\n::: {.callout-warning title="Seguridad"}\nCuidado con la velocidad.\n:::\n'
+        )
+
+    def test_callout_titles_por_tipo(self):
+        # Los títulos por defecto de Quarto se sustituyen por los del temario
+        casos = [
+            ("warning", "Seguridad"),
+            ("important", "Normativa"),
+            ("tip", "Regla de oro"),
+            ("note", "Airmanship"),
+        ]
+        for tag, titulo in casos:
+            with self.subTest(tag=tag):
+                output = self._convert(f"<{tag}><simpara>Cuerpo.</simpara></{tag}>")
+                self.assertIn(f'title="{titulo}"', output)
+
+    def test_callout_label_line_stripped(self):
+        # La línea-etiqueta del AsciiDoc (icono + categoría) se retira del cuerpo
+        xml = """
+        <warning>
+            <simpara>⚠ <emphasis role="strong">SEGURIDAD</emphasis></simpara>
+            <simpara>Presta atención a los tendidos de alta tensión.</simpara>
+        </warning>
+        """
+        output = self._convert(xml)
+        self.assertEqual(
+            output,
+            '\n::: {.callout-warning title="Seguridad"}\n'
+            'Presta atención a los tendidos de alta tensión.\n:::\n'
+        )
+        self.assertNotIn("⚠", output)
+        self.assertNotIn("SEGURIDAD", output)
+
+    def test_callout_label_suffix_va_al_titulo(self):
+        # Un sufijo tras ':' o '—' distingue el bloque y se conserva en el título
+        xml_colon = """
+        <warning>
+            <simpara>⚠ <emphasis role="strong">SEGURIDAD: FLUTTER</emphasis></simpara>
+            <simpara>No superes la VNE.</simpara>
+        </warning>
+        """
+        self.assertIn('title="Seguridad: FLUTTER"', self._convert(xml_colon))
+
+        xml_dash = """
+        <tip>
+            <simpara>✦ <emphasis role="strong">REGLA DE ORO — Ejemplo numérico</emphasis></simpara>
+            <simpara>1 minuto de latitud = 1 NM.</simpara>
+        </tip>
+        """
+        self.assertIn('title="Regla de oro — Ejemplo numérico"', self._convert(xml_dash))
+
+    def test_callout_note_label_variantes(self):
+        # <note> usa dos redacciones de la misma etiqueta; ambas deben retirarse
+        for etiqueta in ("AIRMANSHIP", "AIRMANSHIP / BUENAS PRÁCTICAS"):
+            with self.subTest(etiqueta=etiqueta):
+                xml = f"""
+                <note>
+                    <simpara>⚓ <emphasis role="strong">{etiqueta}</emphasis></simpara>
+                    <simpara>Volar es lo primero.</simpara>
+                </note>
+                """
+                output = self._convert(xml)
+                self.assertIn('title="Airmanship"', output)
+                self.assertNotIn("AIRMANSHIP", output)
+                self.assertNotIn("⚓", output)
+
+    def test_callout_primer_parrafo_no_etiqueta_se_conserva(self):
+        # Si el bloque no empieza por la etiqueta esperada, no se borra nada:
+        # ese primer párrafo es contenido real.
+        xml = """
+        <warning>
+            <simpara>Cuidado con la velocidad en turbulencia.</simpara>
+            <simpara>Reduce a VRA.</simpara>
+        </warning>
+        """
+        output = self._convert(xml)
+        self.assertIn("Cuidado con la velocidad en turbulencia.", output)
+        self.assertIn("Reduce a VRA.", output)
 
     def test_figures_and_attributes(self):
         # Prueba traducción de figuras con captions, IDs y anchos
@@ -133,7 +215,7 @@ class TestDocBookToQMD(unittest.TestCase):
         # Prueba que <tip> se mapee a un callout-tip de Quarto
         xml = "<tip><simpara>Consejo de vuelo importante.</simpara></tip>"
         output = self._convert(xml)
-        self.assertIn("::: {.callout-tip}", output)
+        self.assertIn('::: {.callout-tip title="Regla de oro"}', output)
         self.assertIn("Consejo de vuelo importante.", output)
         self.assertIn(":::", output)
 

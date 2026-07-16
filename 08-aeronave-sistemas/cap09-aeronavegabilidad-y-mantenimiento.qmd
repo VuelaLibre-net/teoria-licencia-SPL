@@ -20,9 +20,7 @@ Para que un planeador despegue legalmente necesita dos documentos clave:
 1. **Certificado de aeronavegabilidad (CoA)**: es el "DNI" técnico de la aeronave. Describe sus características y certifica que el modelo es apto para el vuelo. Suele ser vitalicio, siempre que el avión se mantenga como debe.
 2. **Certificado de revisión de la aeronavegabilidad (ARC)**: es la validación periódica del CoA, con validez de un año. Lo emite una organización autorizada (CAMO o CAO) o personal de certificación independiente tras revisar la aeronave y sus registros.
 
-::: {.callout-important}
-⚖ **NORMATIVA**
-
+::: {.callout-important title="Normativa"}
 Según **ML.A.901**, el ARC tiene validez anual, pero puede prorrogarse dos veces consecutivas (un año cada vez) sin revisión completa si la aeronave ha permanecido en un **entorno controlado**: gestión continua por una CAMO/CAO y mantenimiento hecho por organizaciones aprobadas. Tras esas dos prórrogas toca revisión de aeronavegabilidad completa.
 :::
 
@@ -41,9 +39,7 @@ Cuando el AMP se basa en el **Programa Mínimo de Inspección (MIP)** que recoge
 
 EASA te deja, como piloto y propietario, hacer ciertas tareas de mantenimiento sencillas sin pasar por un taller certificado: cambiar neumáticos, limpiar filtros, sustituir bujías (en motoveleros) o lubricar, entre otras. Las recoge el Apéndice II de Part-ML, junto con lo que diga el programa de mantenimiento de tu aeronave.
 
-::: {.callout-important}
-⚖ **NORMATIVA**
-
+::: {.callout-important title="Normativa"}
 Solo puedes firmar tareas de piloto-propietario si eres el propietario (o copropietario) legal de la aeronave y tienes una licencia de piloto válida (ML.A.803). Y todas las tareas deben quedar registradas y firmadas en el Diario de la Aeronave, con tu número de licencia.
 :::
 

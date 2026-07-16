@@ -601,15 +601,13 @@ En el vocabulario OACI, la estación en tierra es la #strong[estación aeronáut
 #callout(
 body: 
 [
-⚖ #strong[NORMATIVA]
-
 El #strong[Anexo 10 de la OACI] (Volumen II, Comunicaciones) es la norma de referencia internacional para las telecomunicaciones aeronáuticas. El equipo de radio debe estar homologado y calibrado según sus especificaciones antes de cualquier vuelo en espacio aéreo controlado.
 
 ]
 , 
 title: 
 [
-Importante
+Normativa
 ]
 , 
 background_color: 
@@ -645,15 +643,13 @@ Por normativa de la OACI (Anexo 10) y del SERA (#emph[Standardised European Rule
 #callout(
 body: 
 [
-⚖ #strong[NORMATIVA]
-
 La obligación de colacionar autorizaciones e instrucciones críticas está establecida en el Anexo 10 al Convenio sobre Aviación Civil Internacional de la OACI. Las comunicaciones grabadas se conservan un mínimo de 30 días, y pueden retenerse indefinidamente si son relevantes para una investigación o reclamación. Una colación incorrecta o ausente constituye una desviación de los procedimientos estándar y puede dar lugar a incidente o accidente.
 
 ]
 , 
 title: 
 [
-Importante
+Normativa
 ]
 , 
 background_color: 
@@ -673,15 +669,13 @@ white
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 La omisión de la colación de una autorización de despegue o aterrizaje es una de las causas más frecuentes de incursiones en pista (#strong[runway incursions]). Si el controlador no escucha la colación correcta, puede autorizar simultáneamente a otra aeronave a operar en la misma pista. Ante cualquier duda sobre una instrucción recibida, solicite confirmación inmediata antes de ejecutarla.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -713,15 +707,13 @@ Los términos que tienes que conocer desde el primer día:
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 La frecuencia de radio es un recurso compartido. Un mensaje breve, preciso y sin vacilaciones libera la frecuencia para otros tráficos y para emergencias. Planifique el mensaje antes de pulsar el PTT: quién llama, a quién, qué necesita.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -786,15 +778,13 @@ Dígito a dígito, con la palabra #strong[«coma»] para el decimal:
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 Antes de abandonar una frecuencia, colaciona siempre el nuevo valor completo. Así ambas partes confirman que el piloto ha comprendido el canal correcto antes de cambiar de dial.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -825,15 +815,13 @@ Cuatro pasos, siempre en este orden:
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 Para verificar la calidad de la señal de radio, utilice la escala normalizada del 1 (ilegible) al 5 (perfectamente legible). La prueba de radio no debe superar los 10 segundos. Si no obtiene respuesta tras la primera llamada a una torre, espere un mínimo de 10 segundos antes de reintentar, para no interferir con otras gestiones del controlador.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -904,15 +892,13 @@ supplement: "Tabla",
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 \(\*) En frecuencias internacionales, el dígito 9 se pronuncia #strong[«Niner»] para evitar confusiones con «Nein» (no, en alemán). El alfabeto fonético OACI está diseñado para ser reconocible en cualquier idioma y en condiciones de radio degradadas. Memorícelo hasta que el deletreo sea automático.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -960,15 +946,13 @@ Dos cosas básicas:
 #callout(
 body: 
 [
-⚖ #strong[NORMATIVA]
-
 Aunque en algunos campos exista un operador de radio prestando un servicio AFIS (#strong[Aerodrome Flight Information Service]), este operador #strong[no proporciona control], solo información (viento, pista en uso, meteorología). La decisión final y la responsabilidad de la separación siguen siendo íntegramente del piloto al mando.
 
 ]
 , 
 title: 
 [
-Importante
+Normativa
 ]
 , 
 background_color: 
@@ -998,15 +982,13 @@ Tres cosas que no puedes olvidar:
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Un error fatal es iniciar un viraje (por ejemplo, de tramo base a final) confiando únicamente en que "nadie ha cantado posición por la radio". Asegúrate siempre visualmente de que la pista y la aproximación final están libres de tráfico antes de virar.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1065,15 +1047,13 @@ Las notificaciones que haces durante el circuito son estas:
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 En campos con mucha actividad de vuelo a vela, el circuito de planeadores puede discurrir por un lado de la pista y el de aviones con motor (incluidos los remolcadores) por el contrario. Consulta siempre la carta del aeródromo antes del vuelo.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -1093,15 +1073,13 @@ white
 #callout(
 body: 
 [
-⚖ #strong[NORMATIVA]
-
 Según el Reglamento SERA (artículo SERA.3210), el orden de prioridad de paso ---de mayor a menor--- es: globos \> planeadores \> dirigibles \> aeronaves con motor. El planeador tiene prioridad sobre todo aerodino propulsado por motor y #strong[cede el paso a los globos]. Esta prioridad aplica en vuelo y en las inmediaciones del aeródromo; nunca justifica descuidar la vigilancia visual activa.
 
 ]
 , 
 title: 
 [
-Importante
+Normativa
 ]
 , 
 background_color: 
@@ -1121,15 +1099,13 @@ white
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 SERA no incluye a parapentes y alas delta en esa jerarquía con esa literalidad, pero el criterio operativo prudente es tratarlos como a un planeador y, además, cederles el paso: maniobran bastante peor que tú y descienden sin poder remontar. Ante la duda, sepárate.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -1174,15 +1150,13 @@ Sin radio tierra-aire, el ayudante de ala (#strong[wing runner]) coordina con se
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Si el cable se rompe o el torno falla, baja el morro de inmediato para recuperar velocidad. A baja altura ---por debajo de unos #strong[150 m AGL] en torno--- no vires: aterriza recto al frente en el terreno disponible. Intentar regresar a la pista de origen a baja altura es la causa más frecuente de accidentes mortales en lanzamiento con torno. Las franjas de decisión completas por altura (recto al frente, circuito abreviado o circuito normal) se desarrollan en el #strong[Libro 6 --- Procedimientos operativos], capítulo 7.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1216,15 +1190,13 @@ Si el planeador #strong[no puede largar el cable], la señal de socorro en vuelo
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 Antes de subir al planeador, acuerda siempre con el piloto remolcador la altitud de suelta y la dirección de alejamiento. Así el remolcador puede regresar a la pista sin cruzarse con el velero que inicia su vuelo.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -1271,15 +1243,13 @@ En espacio aéreo controlado como un CTR, solo el controlador puede emitir instr
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Una autorización para "entrar y alinear" o "entrar y mantener" en la pista activa #strong[nunca] es una autorización para despegar. Debes esperar inmóvil en la cabecera hasta escuchar explícitamente las palabras: #emph["Autorizado a despegar"] (#strong[Cleared for take-off]). Si tienes alguna duda, pregunta: "Confirme autorizado a despegar".
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1305,15 +1275,13 @@ El planeador vuela casi siempre en Clase G. Pero si necesitas cruzar un CTR o en
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 Si surge la necesidad imprevista de entrar en espacio controlado sin plan de vuelo previo, es posible abrirlo en el aire (AFIL --- Airborne Flight Plan) contactando por radio a la dependencia ATC y facilitando tipo de aeronave, posición, intenciones y tiempos estimados. Esta opción depende de la disponibilidad del servicio y de la carga de trabajo del controlador.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -1333,15 +1301,13 @@ white
 #callout(
 body: 
 [
-⚖ #strong[NORMATIVA]
-
 Los plazos exactos de presentación del plan de vuelo están especificados en el #strong[AIP-España ENR 1.10] y pueden variar según el tipo de operación y la dependencia ATC. Consúltalo antes de cada vuelo que implique espacio controlado; el incumplimiento puede resultar en la denegación de la autorización.
 
 ]
 , 
 title: 
 [
-Importante
+Normativa
 ]
 , 
 background_color: 
@@ -1396,15 +1362,13 @@ Tu colación es: #emph["Autorizado a aterrizar pista 36, Eco Papa Eco."] El vien
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 Cuando anotes mentalmente o en tu pernera la instrucción dada por un controlador, si se compone de autorización de pista de aterrizaje o despegue, rumbo o altitud a mantener, QNH, o el código del transpondedor, tu respuesta por radio #strong[NO puede ser "Wilco"] o #strong["Copiado"]. Debes recitar esos parámetros tal y como te los han dado.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -1475,15 +1439,13 @@ Para contactar, sintoniza la frecuencia de "Información" de tu zona (#strong[Ma
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 En travesías de vuelo a vela (#strong[cross-country]), mantener la escucha en la frecuencia del FIS regional correspondiente proporciona una capa adicional de seguridad, especialmente en días con desarrollo tormentoso donde la información meteorológica en tiempo real es crítica. Además, estar en contacto con el FIS acelera la activación de los servicios de Búsqueda y Salvamento (SAR) ante una toma en campo fuera de aeródromo.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -1529,15 +1491,13 @@ Si tu planeador tiene #strong[transpondedor], emite un código de cuatro dígito
 #callout(
 body: 
 [
-⚖ #strong[NORMATIVA]
-
 Los códigos 7600 (fallo de radio) y 7700 (emergencia) activan alertas inmediatas en todos los centros de control. Selecciónelos únicamente ante la situación real que corresponda y extreme la precaución al cambiar de código para no activarlos accidentalmente.
 
 ]
 , 
 title: 
 [
-Importante
+Normativa
 ]
 , 
 background_color: 
@@ -1569,15 +1529,13 @@ Las RMZ activas en España aparecen en la carta #strong[ENR 6.12]. Revísala en 
 #callout(
 body: 
 [
-⚖ #strong[NORMATIVA]
-
 Las RMZ están reguladas por el Reglamento SERA y permiten al Estado miembro establecer requisitos de radio en espacio aéreo donde el servicio de control no es obligatorio. Sus límites y condiciones aparecen referenciados en la #strong[carta ENR 6.12] (carta de zonas de radio obligatoria).
 
 ]
 , 
 title: 
 [
-Importante
+Normativa
 ]
 , 
 background_color: 
@@ -1632,15 +1590,13 @@ En #strong[autoinformación] (aeródromo no controlado), sin interlocutor design
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 Antes de pulsar el PTT compón mentalmente el mensaje completo: #emph[¿A quién? → ¿Quién soy? → ¿Dónde estoy? → ¿Qué necesito?] Un mensaje estructurado ocupa menos tiempo en frecuencia y reduce los errores de comprensión del controlador.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -1660,15 +1616,13 @@ white
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 Algunos instructores recomiendan abrir la #strong[primera] comunicación con una estación con un simple #emph[«buenos días»] o #emph[«buenas tardes»] antes del mensaje: #emph[«Fuentemilanos tráfico, buenos días, Eco Charlie Delta Papa Eco…»]. No forma parte de la fraseología OACI ---que busca economía de palabras--- y por eso se reservaría al #strong[primer contacto], no a cada transmisión; pero al otro lado de la radio hay una persona, y ese saludo engrasa la relación con la torre, el FIS o el resto de tráficos de tu campo. Con una salvedad: en frecuencia saturada o en una emergencia, la cortesía sobra y vas directo al grano.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -1725,15 +1679,13 @@ Si el FIS o el ATC lo requieren, añades:
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 En travesías en planeador, actualiza tu posición al FIS siempre que te apartes significativamente de tu ruta prevista o cambies de sector. Un FIS informado puede coordinar con mayor rapidez una búsqueda si dejases de contactar.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -1765,15 +1717,13 @@ Si no obtienes respuesta, espera #strong[al menos 10 segundos] antes de volver a
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 Antes de pulsar el PTT escucha siempre la frecuencia unos segundos. Una transmisión que «pisa» a otra bloquea ambas comunicaciones. Si la frecuencia está activa, espera a que la conversación concluya antes de empezar la tuya.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -1830,15 +1780,13 @@ No todos los mensajes son iguales. La OACI establece un orden de prioridad claro
 #callout(
 body: 
 [
-⚖ #strong[NORMATIVA]
-
 La transmisión maliciosa o falsa de señales de emergencia (Mayday / Pan Pan) constituye una infracción penal grave en todas las jurisdicciones de la EASA, sancionada con multas elevadas y la retirada de la licencia aeronaútica, además del riesgo operacional real que genera al desviar recursos de emergencia. Utilícelas exclusivamente cuando la situación real lo requiera.
 
 ]
 , 
 title: 
 [
-Importante
+Normativa
 ]
 , 
 background_color: 
@@ -1913,15 +1861,13 @@ Cada boletín lleva una letra del alfabeto fonético como #strong[código de inf
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 Escucha el ATIS completo #strong[antes] de llamar a la Torre. Luego incluye el código en tu primera llamada: #emph[«Jerez TWR, velero EC-DPE, a 10 millas al norte, con información Bravo, solicito…​»] El controlador sabe que ya tienes todos los datos y puede ir directo al grano.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -2029,15 +1975,13 @@ Si te metes en turbulencia fuerte, engelamiento, tormenta, granizo u ondas orogr
 #callout(
 body: 
 [
-⚖ #strong[NORMATIVA]
-
 El Reglamento SERA obliga al piloto en mando a notificar sin demora cualquier condición meteorológica peligrosa que pueda afectar a la seguridad de otras aeronaves.
 
 ]
 , 
 title: 
 [
-Importante
+Normativa
 ]
 , 
 background_color: 
@@ -2092,15 +2036,13 @@ Con la situación NORDO declarada, el plan es este:
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Si no tienes más remedio que aterrizar en un aeródromo controlado, acércate a la Torre por zonas que no interfieran con las operaciones y haz balanceos de alas (#strong[wing rock]) para que te vean. Luego colócate paralelo a la pista, por delante de la torre, y mira las señales luminosas del ATC.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -2137,15 +2079,13 @@ Desde los primeros aeródromos, las torres de control tienen focos direccionales
 #callout(
 body: 
 [
-⚖ #strong[NORMATIVA]
-
 Las señales luminosas de la Torre de Control están reguladas por el Reglamento de Ejecución (UE) n.º 923/2012 ---Reglas Europeas Estandarizadas del Aire (#strong[SERA])---. Su correcto conocimiento e interpretación es obligatorio para todo piloto que opere en espacios aéreos con servicio ATC (Fuente: documentación oficial SERA, EASA / AESA).
 
 ]
 , 
 title: 
 [
-Importante
+Normativa
 ]
 , 
 background_color: 
@@ -2182,15 +2122,13 @@ white
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 Al recibir una señal de la Torre en vuelo, acusa recibo de la única forma posible: de día, guiñadas con el timón o balanceos de alas bien visibles. De noche, encendiendo y apagando las luces de aterrizaje o de navegación. En tierra, moviendo los alerones o el timón de dirección.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -2245,15 +2183,13 @@ La palabra se repite #strong[tres veces] para que destaque sobre el tráfico nor
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 La transmisión maliciosa o falsa de un mensaje de socorro MAYDAY moviliza recursos de búsqueda y salvamento (SAR) estatales. Según la Ley de Seguridad Aérea, simular emergencias o proporcionar información falsa que comprometa la seguridad se tipifica como infracción muy grave, conlleva sanciones económicas elevadas y puede resultar en la revocación de la licencia de vuelo.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -2273,15 +2209,13 @@ white
 #callout(
 body: 
 [
-⚖ #strong[NORMATIVA]
-
 La declaración de un MAYDAY impone, según la normativa internacional (OACI/EASA), un #strong[silencio de radio absoluto] para todas las demás estaciones áreas y terrestres operando en esa frecuencia. Ningún otro tráfico debe transmitir a menos que sea para ofrecer ayuda directa a la aeronave en peligro o para retransmitir su mensaje a la Torre de Control (#strong[Mayday relay]).
 
 ]
 , 
 title: 
 [
-Importante
+Normativa
 ]
 , 
 background_color: 
@@ -2407,15 +2341,13 @@ Si te interceptan, aplica de inmediato los cuatro pasos de SERA.11015:
 #callout(
 body: 
 [
-⚖ #strong[NORMATIVA]
-
 SERA.11015 c): «Si alguna instrucción recibida por radio de cualquier fuente estuviera en conflicto con las instrucciones dadas por la aeronave interceptora mediante señales visuales, la aeronave interceptada requerirá aclaración inmediatamente mientras continúa cumpliendo con las instrucciones visuales dadas por la aeronave interceptora.» La misma regla se aplica si el conflicto es con instrucciones dadas por radio por el interceptor (SERA.11015 d)).
 
 ]
 , 
 title: 
 [
-Importante
+Normativa
 ]
 , 
 background_color: 
@@ -2435,15 +2367,13 @@ white
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 #strong[Las instrucciones del interceptor prevalecen sobre cualquier otra fuente, incluido el ATC], mientras solicitas aclaración. Un interceptor armado que cree que no cooperas es el escenario más peligroso en el que puede meterse una aeronave civil: mantén una trayectoria suave y predecible, no hagas maniobras bruscas y responde a cada señal.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -2467,15 +2397,13 @@ También el interceptado tiene señales propias (tabla S11-2 de SERA): encender 
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 Un velero sin luces de navegación tiene pocas opciones de señalización: tu respuesta visible es el #strong[alabeo amplio y claro]. Compensa el resto con la radio (121,500 MHz) y el transpondedor (7700). Y recuerda que la mejor interceptación es la que no ocurre: comprueba los NOTAM y el estado de las zonas P y R antes de cada vuelo de travesía.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -2531,15 +2459,13 @@ El Reglamento de ejecución (UE) N.º 1079/2012 impuso la transición en toda Eu
 #callout(
 body: 
 [
-⚖ #strong[NORMATIVA: RADIOS 8,33 kHz]
-
 Si tu velero lleva una radio antigua de 25 kHz ---la que solo marca diales acabados en .000, .025, .050 o .075---, la regla general en Europa es que ya no basta: para operar con las dependencias modernas del ATC necesitas un equipo capaz de sintonizar el espaciado de 8,33 kHz. Hay una excepción que conviene conocer: el AIP-España (ENR 1.8) mantiene, comunicadas a la Comisión (Reg. 2023/1770 y 2023/1771), unas #strong[sub-bandas nacionales en 25 kHz para comunicaciones aire-aire y aire-tierra hasta el 31-12-2028] ---precisamente las de vuelo a vela que aparecen en la tabla de este capítulo (122,600; 123,375; 123,400; 123,450; 123,500)---. Así que como afirmación legal la frase exige el matiz de la exención; como recomendación práctica, equipa 8,33 sin dudarlo: sin él no te comunicarás con la mayoría de las dependencias del ATC.
 
 ]
 , 
 title: 
 [
-Importante
+Normativa: RADIOS 8,33 kHz
 ]
 , 
 background_color: 
@@ -2570,15 +2496,13 @@ El #strong[squelch] es un circuito electrónico que actúa como una puerta de ru
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 No subas el squelch más allá del punto donde cesa el ruido. Si lo dejas «al máximo», las señales débiles de planeadores lejanos o de un ATC distante no tendrán fuerza suficiente para abrir la puerta. Creerás que la frecuencia está en silencio cuando en realidad alguien te está llamando.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -2640,15 +2564,13 @@ Las frecuencias de #strong[FIS regionales] de España (Madrid, Barcelona, Sevill
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 Con el espaciado de 8,33 kHz, las cartas y las radios muestran #strong[canales], no frecuencias exactas: verás diales acabados en .005, .010, .015… y a veces un sufijo «C». No es un error de sintonía; es la nomenclatura del canal, que no coincide con la frecuencia real. Sintoniza el canal tal como figura en la carta.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -2668,15 +2590,13 @@ white
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 Antes de cada travesía, anota las frecuencias de FIS de los sectores que atravesarás. En una zona con cobertura degradada o tras una emergencia, buscar la frecuencia en el mapa es tiempo que no tienes.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -2780,15 +2700,13 @@ Aparecen cuando pides orientación a una estación de tierra mediante radiogoni�
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 En travesía con visibilidad reducida o tras una desorientación, pedir un QDM al FIS más cercano es una herramienta de navegación válida y recomendable. No la reserves solo para emergencias: úsala si tienes dudas sobre tu posición.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 

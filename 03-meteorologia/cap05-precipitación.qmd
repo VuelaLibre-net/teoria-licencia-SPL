@@ -15,9 +15,7 @@ En vuelo con lluvia, las consecuencias son directas:
 * **Reducción del coeficiente de planeo:** El ratio de planeo (**glide ratio**) se penaliza, lo que obliga a recalcular el cono de planeo y buscar alternativas de aterrizaje con menor alcance.
 * **Mayor tasa de descenso:** Se aprecia un incremento notorio en la tasa de caída o hundimiento (**sink rate**) para lograr mantener una misma velocidad de vuelo.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Con alas mojadas, añade siempre un margen mínimo de 5-10 kt sobre tu velocidad de aproximación estándar. Evita giros pronunciados: el riesgo de entrada en pérdida es significativamente mayor que en configuración seca y puede producirse sin advertencia previa.
 :::
 
@@ -27,9 +25,7 @@ El granizo nace dentro del Cumulonimbus (Cb). Las potentes corrientes ascendente
 
 Para las aeronaves compuestas con perfiles ligeros de fibra, la aceleración cinética del granizo (sumada a la propia velocidad de la aeronave) presenta gran riesgo estructural. Resulta habitual constatar roturas y perforaciones en la cúpula (**canopy**), daños en los recubrimientos protectores superficiales de **gelcoat**, o posibles delaminaciones de la matriz celular sintética en impactos directos severos.
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 No asumas que el granizo cae solo bajo la vertical del Cb: el viento en altura puede expulsarlo decenas de kilómetros bajo el yunque extendido. Mantén siempre la distancia de seguridad del yunque, aunque el cielo por debajo parezca completamente despejado.
 :::
 

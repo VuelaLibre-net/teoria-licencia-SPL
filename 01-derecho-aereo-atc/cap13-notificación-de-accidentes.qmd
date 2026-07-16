@@ -34,17 +34,13 @@ Para mejorar la seguridad, el Estado necesita datos. No para castigar, sino para
 
 Los plazos no son iguales: a la CIAIAC, comunica el accidente o incidente grave **sin demora** (Reglamento (UE) 996/2010, art. 9); a AESA, notifica el suceso lo antes posible y, en todo caso, en un máximo de **72 horas** (Reglamento (UE) 376/2014) (@fig-01-cap13-flujo-notificacion).
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 La normativa europea promueve la "Cultura Justa". El objetivo de notificar **NO es buscar culpables** (salvo negligencia grave o dolo), sino **aprender**. No tengas miedo a reportar tus errores; es la única forma de que el sistema mejore.
 :::
 
 ![Proceso de notificación de un suceso](imagenes/01-cap13-flujo-notificacion.jpg){#fig-01-cap13-flujo-notificacion}
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Si sufres o presencias un accidente:
 
 1. Prioridad: **Salvar vidas** y evitar más peligros (fuego, etc.).

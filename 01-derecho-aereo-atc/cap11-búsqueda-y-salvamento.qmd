@@ -50,9 +50,7 @@ Si estás en tierra y te busca un avión, tienes que comunicarte. Sin radio, usa
 
 ![Código de señales visuales de socorro](imagenes/01-cap11-senales-socorro.jpg){#fig-01-cap11-senales-tierra-aire}
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Si volando interceptas una señal de socorro (visual o en 121.5 MHz):
 
 1. **Anota la posición**.

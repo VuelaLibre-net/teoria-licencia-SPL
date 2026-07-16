@@ -23,9 +23,7 @@ Todo en navegación por estima se resume en un triángulo vectorial compuesto po
 
 La suma vectorial de estos tres elementos es la base de todos los cálculos de este capítulo (véase @fig-09-cap04-triangulo-velocidades).
 
-::: {.callout-note}
-⚓ **AIRMANSHIP**
-
+::: {.callout-note title="Airmanship"}
 No confundas las tres velocidades que entran en juego: la **IAS** (indicada) es la que marca el anemómetro; la **TAS** (verdadera) es la IAS corregida por densidad —crece aproximadamente un **2 % por cada 300 m** de altitud, unos 6,5-7 % por cada 1.000 m—; y la **GS** (suelo) es la TAS combinada con el viento. En navegación siempre razonamos con **TAS** y **GS**, nunca con la IAS a secas. (El **Libro 7 — Planificación** usa esta misma regla en su forma «2 % por 300 m».)
 :::
 
@@ -35,9 +33,7 @@ No confundas las tres velocidades que entran en juego: la **IAS** (indicada) es 
 
 Si el viento sopla de costado, nos "arrastrará" fuera de nuestra ruta deseada. Este efecto se llama **Deriva** (**Drift**). Para compensarlo, debemos apuntar el morro del planeador ligeramente hacia el viento. Ese ajuste es el **Ángulo de Corrección de Deriva** (**Wind Correction Angle - WCA**).
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 "Mete el morro al viento". Si el viento viene de la derecha, tu ángulo de corrección debe ser a la derecha (sumar grados a tu trayectoria deseada).
 :::
 
@@ -50,15 +46,11 @@ Para saber qué número exacto debemos ver en nuestra brújula para seguir una l
 3. **MH (Rumbo Magnético)**: Aplicamos la Variación magnética (TH \pm\pm VAR = MH).
 4. **CH (Rumbo de Brújula)**: Aplicamos el Desvío de nuestra aeronave (MH \pm\pm DEV = CH).
 
-::: {.callout-note}
-⚓ **AIRMANSHIP**
-
+::: {.callout-note title="Airmanship"}
 En el aire, solemos simplificar. Si el viento es suave, el WCA será pequeño. Pero nunca ignores la Variación si estás volando en zonas donde esta es significativa, ya que un error de 5 grados puede sacarte de ruta 8 km tras volar 100 km.
 :::
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 El signo es lo que más despista. La regla es sencilla: sobre el rumbo verdadero, una variación o desvío al **Oeste (W) suma** grados, y al **Este (E) resta**. En las fórmulas lo escribimos como **(W −) / (E +)**: el valor Oeste entra con signo negativo dentro del paréntesis y, al restarlo, acaba sumando. En algunos bancos de preguntas de examen la misma idea se expresa como MH = TC + VAR_WMH = TC + VAR_W o MH = TC - VAR_EMH = TC - VAR_E; es la misma convención con distinta notación.
 :::
 
@@ -80,9 +72,7 @@ Y la velocidad suelo resultante es:
 
 (signo **−** con viento de cara, **+** con viento de cola).
 
-::: {.callout-tip}
-✦ **REGLA DE ORO** — *Ejemplo numérico*
-
+::: {.callout-tip title="Regla de oro — Ejemplo numérico"}
 Volamos a **TAS = 60 kt** con un viento cruzado de **20 kt**. La deriva será DA = (20 \times 60) / 60 = 20°DA = (20 \times 60) / 60 = 20°. Si ese mismo viento de 20 kt fuera de cara, nuestra velocidad suelo bajaría a **40 kt**; de cola, subiría a **80 kt**. Con TAS baja, ¡el viento manda!
 :::
 
@@ -92,9 +82,7 @@ La aritmética básica de la estima cierra el triángulo: con dos datos obtienes
 
 Ejemplo: si planeamos un tramo de **45 NM** y esperamos una velocidad suelo de **90 kt**, tardaremos T = 45 / 90 = 0{,}5\ h = 30T = 45 / 90 = 0{,}5\ h = 30 minutos. Convertir las horas decimales a minutos es solo multiplicar la parte decimal por 60 (0,5 h × 60 = 30 min).
 
-::: {.callout-note}
-⚓ **AIRMANSHIP**
-
+::: {.callout-note title="Airmanship"}
 Lleva siempre el reloj en marcha desde el último punto conocido. El tiempo transcurrido, multiplicado por tu velocidad suelo estimada, es tu mejor aliado para saber **dónde estarás** —que es de lo que trata realmente la navegación a vela.
 :::
 

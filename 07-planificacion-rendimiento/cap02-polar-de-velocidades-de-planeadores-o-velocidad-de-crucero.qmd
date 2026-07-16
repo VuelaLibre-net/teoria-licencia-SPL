@@ -22,9 +22,7 @@ La curva polar representa la tasa de descenso frente a la velocidad aire. Es el 
 
 ![La curva polar y sus dos velocidades clave](imagenes/07-cap02-polar-anotada.png){#fig-07-cap02-polar-anotada}
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 Aprende de memoria estos dos valores para tu modelo de planeador. En aire en calma no hay motivo para volar a velocidades intermedias si lo que buscas es llegar lejos o aguantar en el aire.
 :::
 
@@ -66,9 +64,7 @@ La polar del manual de vuelo está trazada en velocidad indicada (**IAS**, *Indi
 * **Pero recorres más terreno del que crees**: a 3.000 m, una IAS de 100 km/h son unos 120 km/h de TAS. Tu planeo final cubre más kilómetros por minuto y tu deriva con viento también es mayor de lo que sugiere el instrumento.
 * **En la aproximación a un aeródromo alto, la sensación engaña**: con la IAS de aproximación correcta, el suelo pasa más deprisa de lo habitual y la carrera de aterrizaje será más larga. No "frenes" el avión por debajo de la velocidad indicada del manual: la pérdida ocurre a la misma IAS de siempre.
 
-::: {.callout-important}
-⚖ **NORMATIVA**
-
+::: {.callout-important title="Normativa"}
 Las limitaciones de velocidad de tu planeador (V~NE~ (Velocidad Nunca Exceder), V~A~ (Velocidad de Maniobra) en aire turbulento) figuran en el **manual de vuelo aprobado (AFM)** y derivan de la certificación europea **CS-22** para planeadores. Atención al volar alto: el **flutter** depende de la TAS, por lo que la V~NE~ **indicada** disminuye con la altitud. Esta reducción está prescrita por la norma **CS 22.1505**, que obliga a que dicha tabla figure como placa visible en la cabina. El AFM incluye una tabla de V~NE~ por altitudes —por ejemplo, un planeador con V~NE~ de 250 km/h a nivel del mar puede quedar limitado a unos 200 km/h indicados a 6.000 m—. Consúltala antes de cualquier vuelo de onda.
 :::
 
@@ -80,9 +76,7 @@ El planeo final es el tramo desde la última térmica hasta el aeródromo: un ej
 * **Altura de seguridad (*safety height*)**: nunca planifiques llegar al aeródromo con cero metros. Fija una altura de llegada (300 m, por ejemplo) y trátala como sagrada: es para volar el circuito de aterrizaje, no para estirar el planeo.
 * **El cono de alcance**: imagina un cono invertido que baja de tu planeador hasta el suelo. Lo que quede fuera de ese círculo es inalcanzable. Con viento de cara, el círculo se convierte en una elipse desplazada; tenlo siempre presente.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Si tu calculador de planeo dice que llegas "justo", en realidad **no llegas**. El calculador no sabe si encontrarás un hundimiento inesperado ni si el viento en cara será más fuerte a baja altura. Busca una alternativa antes de que el cono de alcance se cierre.
 :::
 

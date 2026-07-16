@@ -26,9 +26,7 @@ A medida que ganamos altura, las condiciones atmosféricas cambian según unos p
 * **Gradiente térmico estándar**: La temperatura en la troposfera disminuye a razón de 2 °C por cada 1.000 pies de ascenso (o 6,5 °C por cada 1.000 metros).
 * **Gradiente de presión estándar**: La presión atmosférica disminuye aproximadamente 1 hPa por cada 30 pies de ascenso en las capas bajas de la atmósfera.
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 Memoriza estas tres equivalencias del gradiente estándar ISA: **2 °C / 1.000 pies** para la temperatura, y **1 hPa / 30 pies** para la presión. En sistema métrico, si subes 90 metros, la presión cae 10 hPa; en pies, si subes 3.000 pies, cae 100 hPa. Si despegas de un aeródromo a 2.000 pies con QNH 1013 hPa y 20 °C, puedes estimar que a 5.000 pies la temperatura será unos 6 °C más fría (14 °C) y la presión habrá bajado unos 100 hPa.
 :::
 
@@ -42,9 +40,7 @@ Una menor densidad del aire (lo que equivale a una mayor "altitud de densidad") 
 * Baja presión atmosférica.
 * Alta humedad (el vapor de agua es menos denso que el aire seco).
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Un día caluroso en un aeródromo elevado (alta altitud de densidad) empeora drásticamente el rendimiento: el avión remolcador trepará mucho más despacio, el planeador necesitará más pista para despegar y en vuelo tendrás menor sustentación para el mismo ángulo de ataque.
 :::
 
@@ -52,9 +48,7 @@ Un día caluroso en un aeródromo elevado (alta altitud de densidad) empeora dr�
 
 Aunque la proporción de oxígeno en el aire se mantiene constante en un 21 % a lo largo de la troposfera, la reducción de la presión atmosférica al ganar altura hace que la presión a la que ese oxígeno entra en nuestros pulmones disminuya. A 18.000 pies, la presión atmosférica es la mitad que a nivel del mar.
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 La falta prolongada de oxígeno en los tejidos se conoce como **hipoxia**. Dado su impacto crítico en la seguridad del vuelo (pérdida del conocimiento, degradación visual), los síntomas detallados, el cálculo del Tiempo de Conciencia Útil (TUC) y el uso de equipos de oxígeno se estudian en profundidad en el **Libro 2 — Factores humanos**, capítulo 4.
 :::
 

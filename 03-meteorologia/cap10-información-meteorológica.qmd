@@ -74,9 +74,7 @@ Las tres lecturas clave son:
 2. **Techo térmico:** Traza la adiabática seca desde la temperatura máxima prevista. Donde esa línea vuelva a cruzar la curva de estado es el techo de las térmicas. Si ese techo sube hasta la **curva de estado** muy por encima de la base, el día tendrá térmicas potentes; si el cruce es bajo, el vuelo térmico será débil.
 3. **Riesgo de sobredesarrollo (Cb):** Si la curva de estado se vuelve muy inestable por encima del nivel de condensación (LFC, **Level of Free Convection**), los cúmulos del mediodía pueden convertirse en cumulonimbos por la tarde. Un CAPE por encima de 2.500 J/kg combinado con un K-Index por encima de 25 es la firma del día que puede acabar mal.
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 El día de convección excepcional — conocido coloquialmente como «día termonuclear» en el argot de competición — tiene firma numérica precisa: K-Index entre 15 y 20, CAPE entre 1.000 y 2.500 J/kg, LI negativo, temperatura a 850 hPa varios grados por encima de la media en superficie, y vientos flojos. Busca estos índices directamente en el sondeo del día: gratuitamente en la Universidad de Wyoming, AEMET (AMA) o Windy; con más detalle soaring en Skysight, Topmeteo o Meteo Parapente.
 :::
 
@@ -87,15 +85,11 @@ Antes de salir a pista, cruza varias fuentes: es obligatorio y prudente. No te f
 * **Contrasta lo que ves con lo que pronostica el modelo:** Si llegas al campo y la nubosidad está ya tapando la solana cuando el sondeo predecía actividad térmica hasta las 3 de la tarde, algo ha fallado. La realidad manda: cancela o espera.
 * **Criterio del comandante:** La última palabra siempre la tienes tú, no el modelo. Contrasta al menos dos fuentes independientes —AEMET (AMA), Windy o Meteoblue para el pronóstico general; Skysight, Topmeteo o Meteo Parapente si quieres lectura orientada al vuelo a vela—, revisa el TAF del aeródromo base y de los alternos cercanos, y anota los índices K y CAPE del sondeo del día. Pero recuerda: ningún pronóstico favorable en el papel tiene más peso que lo que ves a pie de pista.
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 AEMET —y su plataforma aeronáutica AMA (**Autoservicio Meteorológico Aeronáutico**)— es siempre la fuente pública, oficial y legalmente vinculante para tu planificación pre-vuelo (METAR, TAF, alertas, NOTAMs meteorológicos). Las plataformas generalistas como Windy o Meteoblue y las especializadas en vuelo a vela como Skysight, Topmeteo, los modelos RASP o Meteo Parapente se mencionan en este manual porque forman parte de la realidad operativa diaria, pero nunca deben sustituir al briefing meteorológico oficial de seguridad.
 :::
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Si a pie de pista la meteorología real difiere del pronóstico favorable —nubosidad baja inesperada, viento variable fuerte, bruma densa— prevalece siempre lo que ves. Un vuelo cancelado nunca fue un accidente. La cultura **No-Go** no es cobardía: es el criterio que define a un piloto maduro.
 :::
 

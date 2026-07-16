@@ -32,9 +32,7 @@ Salvo que vueles a la vista del aeródromo o en una zona autorizada por la autor
 
 El resto de los papeles de la aeronave —certificado de matrícula, certificado de aeronavegabilidad con sus anexos, ARC, licencia de radio si lleva equipo, certificado del seguro y diario de a bordo— no necesitan volar contigo: SAO.GEN.155 exige que estén disponibles en el aeródromo o lugar de operación.
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 Antes de cada vuelo, verifica los cuatro pilares documentales de la aeronave según **SAO.GEN.155**: **aeronavegabilidad** (certificado de aeronavegabilidad + ARC en vigor), **matrícula** (certificado de matrícula visible), **manual de vuelo** (AFM a bordo) y **pesada y centrado** (dentro de los límites del manual). Si alguno falla, el planeador no vuela.
 :::
 
@@ -64,9 +62,7 @@ Antes de subir al cockpit, realiza este auto-examen de honestidad. No es una for
 
 Una sola respuesta negativa en cualquiera de estos puntos es razón suficiente para no volar ese día. No existen los vuelos «de desconexión» cuando el piloto no está al cien por cien.
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 Haz el chequeo **IMSAFE** en voz alta o por escrito antes de salir de casa. La dinámica del aeródromo —el entusiasmo del grupo, el buen tiempo, la presión social— puede llevar a minimizar síntomas que en casa te parecerían evidentes. Decidir en frío, antes de llegar al campo, es siempre más fácil que decir «no» delante de tus compañeros cuando el remolcador ya está preparado.
 :::
 
@@ -81,15 +77,11 @@ Para poder ejercer esta atribución, la normativa **Part-SFCL** exige que el pil
 * **Recencia:** haber realizado al menos **3 lanzamientos como PIC en los últimos 90 días** para poder llevar pasajeros.
 * **Verificación:** haber realizado un vuelo de entrenamiento en el que demuestres a un instructor FI(S) la competencia necesaria para el transporte de pasajeros (salvo que seas titular de un certificado FI(S)).
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Como PIC tienes el derecho y el deber de denegar el transporte a cualquier pasajero o equipaje que consideres que puede representar un peligro para la seguridad del vuelo. Esta decisión no admite presiones externas: si el peso del pasajero más el equipo supera los límites de la aeronave, o si el pasajero muestra un comportamiento que puede comprometer tu concentración, la respuesta es un «no» firme y sin negociación.
 :::
 
-::: {.callout-important}
-⚖ **NORMATIVA**
-
+::: {.callout-important title="Normativa"}
 Según el Reglamento (UE) 2018/1976, el titular de una SPL (Sailplane Pilot Licence) solo transportará pasajeros si cumple dos condiciones: haber completado, tras la emisión de la licencia, al menos 10 horas de vuelo o 30 lanzamientos o despegues y aterrizajes como PIC en planeadores, además de un vuelo de entrenamiento demostrando la competencia a un FI(S) (SFCL.115(a)(2)); y haber realizado, en los 90 días anteriores, al menos 3 lanzamientos como PIC en planeador —en TMG, 3 despegues y aterrizajes— (SFCL.160(e)).
 :::
 
@@ -165,9 +157,7 @@ Inmediatamente antes del enganche del cable y del despegue, el piloto debe reali
 * **B** (**Brakes**): aerofrenos cerrados y firmemente blocados.
 * **E** (**Eventualities / Eventualidades**): repaso del viento actual y del briefing de emergencias en el despegue (acciones ante fallo de lanzamiento).
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS: LA REGLA TRADICIONAL CRISE**
-
+::: {.callout-note title="Airmanship: LA REGLA TRADICIONAL CRISE"}
 En la mayoría de los aeroclubs de habla hispana, especialmente en centros históricos como Ocaña o Fuentemilanos, los instructores han utilizado tradicionalmente la regla mnemotécnica **CRISE** (o **CRIS**):
 
 * **C** (**Mandos / Controles**): palanca libre, pedales ajustados y aerofrenos cerrados y asegurados.

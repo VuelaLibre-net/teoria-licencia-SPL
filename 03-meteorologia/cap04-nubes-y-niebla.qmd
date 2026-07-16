@@ -42,9 +42,7 @@ El Cumulonimbus abarca una notable extensión vertical, culminando a menudo, al 
 * **Actividad eléctrica:** Un rayo que impacte en el planeador compromete la integridad de la aeronave y pone en riesgo directo a los ocupantes.
 * **Engelamiento masivo:** Al penetrar en las zonas superenfriadas del Cb, el borde de ataque acumula hielo claro en segundos, destruyendo el perfil laminar y disparando la velocidad de pérdida.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 El piloto debe evitar en todo momento volar en las inmediaciones de un Cumulonimbus. Se recomienda mantener una separación lateral de seguridad entre 10 y 20 millas náuticas. Si un sistema convectivo amenaza el aeródromo, inicie de inmediato el procedimiento de aterrizaje.
 :::
 
@@ -59,9 +57,7 @@ Resulta de particular interés la **niebla de radiación**. Se forma en madrugad
 
 Otro tipo relevante para los operadores de aeródromos costeros y de valle es la **niebla de advección** (**advection fog**). A diferencia de la de radiación, no depende del enfriamiento nocturno del suelo: se forma cuando una masa de aire cálido y húmedo se desplaza horizontalmente sobre una superficie más fría (el mar frío, un valle nevado o una costa). El contraste de temperatura basta para saturar la base de esa masa y producir un banco de niebla denso que puede persistir día y noche mientras dure el flujo. Es característica del litoral galaico-cantábrico en invierno y de las costas mediterráneas en otoño con viento de levante.
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 Presta especial atención a la tarde en los días que hayan empezado con niebla de radiación persistente. Al caer el sol, el enfriamiento nocturno puede reinstaurar la niebla en minutos y cerrarte el campo antes de que aterrices. En costas y valles con viento de componente mar, añade también el riesgo de niebla de advección: puede llegar sin previo aviso y a cualquier hora del día.
 :::
 
@@ -73,9 +69,7 @@ Estas formaciones son la prueba visible de un flujo laminar constante interactua
 
 ![Sistema de onda de montaña a sotavento.](imagenes/03-cap04-onda-montana.jpg){#fig-03-cap04-nubes-onda-montana}
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Bajo la zona de onda, a baja altura, se esconde el **rotor**: un cilindro de turbulencia giratoria muy violento que se delata visualmente por fractocúmulos deshilachados e inestables. Si haces un remolque en zona de onda, el avión remolcador zarandeará con fuerza al atravesar el rotor. Mantén siempre altura suficiente para evitarlo y sigue las indicaciones del piloto remolcador en todo momento.
 :::
 

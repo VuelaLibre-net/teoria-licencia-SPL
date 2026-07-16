@@ -12,9 +12,7 @@ La **ley de Dalton** establece que la presión total de una mezcla de gases es l
 
 La **ley de Boyle** indica que el volumen de un gas confinado aumenta si la presión exterior disminuye. Al ascender, cualquier bolsa de aire atrapada en el organismo —estómago, intestinos, senos paranasales u oídos— se expande para igualar la presión exterior.
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 No vuele con un resfriado severo o congestión nasal, especialmente si prevé techos térmicos elevados o vuelos de onda. El aire atrapado en los senos paranasales o en el oído medio se expande al ascender y puede causar un dolor intenso y agudo (barotrauma) que incapacita para pilotar con seguridad.
 :::
 
@@ -41,9 +39,7 @@ Los síntomas de la hipoxia varían entre individuos y dependen de factores como
 
 El síntoma más peligroso —y el primero en aparecer según el programa AESA— es la **euforia**: el piloto se siente excepcionalmente bien y no detecta el peligro. A continuación aparecen irritabilidad, dificultad para hablar, pérdida de memoria a corto plazo, disminución de la capacidad de cálculo y somnolencia. En fases avanzadas se produce **cianosis**: coloración azulada en labios y uñas, y finalmente pérdida de conciencia (@fig-02-cap04-cianosis).
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 La euforia es el síntoma más traicionero de la hipoxia: el piloto no sospecha que está en peligro. Si percibe visión borrosa, hormigueo en las extremidades, euforia injustificada o dolor de cabeza tras un ascenso rápido a gran altitud, asuma hipoxia. Active el suministro de oxígeno al 100% e inicie el descenso de inmediato.
 :::
 
@@ -59,9 +55,7 @@ La siguiente tabla muestra los valores de referencia (@fig-02-cap04-hipoxia-tiem
 
 Un descenso desde 7.000 m hasta 3.000 m a 5 m/s de tasa de descenso tarda más de 13 minutos, tiempo con frecuencia superior al TUC disponible a esa altitud. Iniciar el descenso sin oxígeno puede ser demasiado tarde.
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 Ante cualquier fallo en el suministro de oxígeno o sospecha de hipoxia, aplique la regla: **«Oxígeno al 100% y desciende»**. Active el flujo completo y baje por debajo de los 10.000 ft sin dudarlo. A partir de cierta altitud, el TUC no permite pensar ni actuar correctamente.
 :::
 
@@ -81,9 +75,7 @@ Si aparecen síntomas de hipoxia durante el vuelo:
 2. Compruebe que la cánula o mascarilla sella correctamente y no tiene fugas.
 3. Si los síntomas no remiten en pocos segundos, inicie el descenso por debajo de los 10.000 ft.
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 Disponga de un *checklist* de emergencia para hipoxia, ya que el razonamiento puede estar deteriorado en el momento en que más lo necesita. Si lleva pulsioxímetro a bordo, compruebe la saturación (SpO~2~) ante cualquier duda.
 :::
 
@@ -105,9 +97,7 @@ Los síntomas de la hiperventilación son similares a los de la hipoxia, lo que 
 * Mareo, náuseas y somnolencia.
 * En casos graves, pérdida de conciencia.
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 Para distinguir hipoxia de hiperventilación, evalúe dos factores: **altitud** y **estado emocional**.
 
 * Si está por encima de 10.000 ft y se siente eufórico o aletargado: probable **hipoxia**. Aplique oxígeno al 100% y descienda.
@@ -125,17 +115,13 @@ El objetivo es restablecer el nivel de CO~2~ en sangre. Para ello:
 3. **En casos graves:** Cubra la nariz y la boca con una bolsa de mareo para reinhalar parte del CO~2~ exhalado y restablecer el equilibrio.
 4. Si la hiperventilación persiste, dé por concluido el vuelo y regrese al campo.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 No aporte oxígeno suplementario si diagnostica hiperventilación y no está a gran altitud: añadir más oxígeno agravaría el desequilibrio de CO~2~ y empeoraría los síntomas. Si no puede confirmar que está por debajo de 10.000 ft, priorice el tratamiento de la hipoxia.
 :::
 
 ## Requisitos normativos para el uso de oxígeno
 
-::: {.callout-important}
-⚖ **NORMATIVA**
-
+::: {.callout-important title="Normativa"}
 **SAO.OP.150:** «El piloto al mando deberá garantizar que todas las personas a bordo utilicen oxígeno suplementario cuando determine que, a la altitud de vuelo prevista, la falta de oxígeno podría ocasionar la disminución de sus facultades o resultarles dañina.»
 
 **AMC1 SAO.OP.150:** cuando el piloto no pueda determinar ese efecto, el oxígeno deberá usarse siempre que la altitud de presión supere los **10.000 ft**.
@@ -143,9 +129,7 @@ No aporte oxígeno suplementario si diagnostica hiperventilación y no está a g
 
 El umbral de los 10.000 ft no es, por tanto, un límite legal incondicional: es la regla por defecto cuando no puedes valorar cómo afecta la falta de oxígeno a los ocupantes. La obligación de fondo es la primera: evaluar y garantizar.
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 Para vuelos **nocturnos o al atardecer** se recomienda —no lo exige la norma— iniciar el uso de oxígeno desde los **5.000 ft**: la visión nocturna es especialmente sensible a la falta de oxígeno, porque los bastones de la retina periférica son las primeras células en verse afectadas.
 :::
 
@@ -162,9 +146,7 @@ En los planeadores se utilizan principalmente dos tipos de sistemas:
 
 Antes de cada vuelo en altitud, compruebe visualmente la botella, las conexiones y los tubos. Verifique la presión con el manómetro y asegúrese de que la cánula o mascarilla no presenta pliegues.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 **Oxígeno de aviación, no medicinal.** El oxígeno medicinal contiene mayor concentración de humedad, que puede congelarse en el regulador a temperaturas de altitud elevadas y bloquear el flujo. Utilice exclusivamente oxígeno etiquetado como «para uso aeronáutico» (oxígeno seco, pureza superior al 98,5%).
 
 **Prohibido el contacto con grasas.** No aplique cremas hidratantes, protectores solares ni lubricantes cerca de las conexiones, reguladores o boquillas. El oxígeno a presión en contacto con sustancias grasas puede provocar una combustión explosiva sin necesidad de llama o chispa.
@@ -180,9 +162,7 @@ Coloque el pulsioxímetro en el dedo índice antes del despegue y mantenga la le
 
 Un valor de SpO~2~ por debajo del **90%** indica hipoxia franca y requiere acción inmediata: activar el oxígeno suplementario e iniciar el descenso.
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 Registre sus valores de SpO~2~ a distintas altitudes durante los vuelos habituales (a 3.000 m, a 5.000 m) para conocer su respuesta individual y tener referencias personales. No todos los pilotos responden igual a la altitud.
 :::
 

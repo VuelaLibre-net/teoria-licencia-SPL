@@ -29,9 +29,7 @@ En momentos de estrés no siempre podrás fiarte del ordenador de vuelo. Tienes 
 * **Alcance desde 1.000 m**: como aproximación conservadora, con finezas de 20 a 30 (las de un planeador de escuela o estándar), a 1.000 m de altura tienes un alcance de 20 a 30 km en aire en calma. Con viento de cara, divide ese alcance por dos para estar seguro.
 * **Margen para el circuito**: suma siempre 300 metros a tu cálculo. Si el aeródromo está a 20 km y tu planeador planea 1:30, necesitas unos 670 metros de planeo puro; con los 300 de seguridad, la cuenta sale en 1.000 metros redondos.
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 **La térmica es tu manga de viento.** Mientras espiraleas, tus círculos derivan con el viento: la dirección y la distancia que te desplazas en cada giro te dicen de dónde sopla y con cuánta fuerza, sin mirar ningún instrumento. Para corregir la deriva en planeo recto: a 100 km/h, cada **10 km/h de viento cruzado ≈ 6° de corrección** hacia el viento. Con 20 km/h cruzados, apunta unos 12° al lado del viento y comprueba contra una referencia lejana del terreno que tu rumbo sobre el suelo se mantiene.
 :::
 
@@ -56,9 +54,7 @@ El PNR es el momento del vuelo en el que ya no tienes altura para volver al aer�
 * **Reconocimiento**: sé consciente del instante exacto en que cruzas esa línea invisible. A partir de ahí solo hay un camino: hacia delante, hacia el siguiente punto seguro (aeródromo alternativo o campo seleccionado).
 * **Cambio de chip**: cruzado el PNR, tu prioridad número uno deja de ser la tarea y pasa a ser la localización constante de campos aterrizables.
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 Cantar en voz alta (o para ti mismo) "He cruzado el PNR" te ayuda mentalmente a dejar de mirar el GPS de la tarea y empezar a mirar seriamente el suelo.
 :::
 
@@ -78,9 +74,7 @@ Todo lo anterior —reglas mentales, método de los 3 puntos, decisión del PNR�
 
 Los mecanismos fisiológicos, el Tiempo de Conciencia Útil y el uso del oxígeno se estudian en el **Libro 2 — Factores humanos**, capítulo 4. Aquí quédate con la regla operativa: bebe de forma programada (no cuando tengas sed), usa oxígeno según el manual en vuelos altos y, si llevas muchas horas de tarea, desconfía de tus propias estimaciones y añade margen a todos los cálculos.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Si tu ordenador de vuelo indica que llegas con 0 metros, **no llegas**. Ese cálculo es teórico: en el mundo real el aire casi nunca está en calma absoluta. Lleva siempre un colchón de altura y no dejes que se consuma.
 :::
 

@@ -21,9 +21,7 @@ Para situarnos en cualquier parte del mundo, utilizamos una red imaginaria de l�
 
 Esta red de paralelos y meridianos (@fig-09-cap01-coordenadas) nos permite situar con precisión cualquier punto de la Tierra.
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 Recuerda siempre esta equivalencia fundamental: **1 minuto de latitud equivale a 1 milla náutica**. Esto te permite calcular distancias directamente sobre los meridianos de una carta aeronáutica.
 :::
 
@@ -36,9 +34,7 @@ Cuando trazas una línea en el mapa, conviene saber qué estás dibujando en rea
 * **Ortodrómica (Círculo Máximo)**: Es la distancia más corta entre dos puntos. Sin embargo, en un círculo máximo el rumbo cambia constantemente a medida que cruzamos meridianos.
 * **Loxodrómica (Línea de Rumbo)**: Es una línea que corta todos los meridianos con el mismo ángulo. Es más cómoda de volar porque mantenemos un rumbo constante, aunque el camino sea ligeramente más largo.
 
-::: {.callout-note}
-⚓ **AIRMANSHIP**
-
+::: {.callout-note title="Airmanship"}
 En las distancias que manejamos habitualmente en vuelo a vela (vuelos de 300, 500 o incluso 1000 km), la diferencia entre la ruta ortodrómica y la loxodrómica es insignificante. Siempre volamos rumbos constantes (loxodrómicas) por sencillez.
 :::
 
@@ -48,9 +44,7 @@ Cruzar husos horarios y arrastrar los cambios de hora estacionales sería un lí
 
 También lo conocemos como **Hora Zulu (Z)**. Es la hora en el meridiano 0º (Greenwich). Cuando recibes un METAR o un NOTAM, la hora siempre vendrá en formato Zulu.
 
-::: {.callout-important}
-⚖ **NORMATIVA**
-
+::: {.callout-important title="Normativa"}
 **SAO.IDE.105** exige que todo planeador lleve un medio para medir y mostrar la hora en horas y minutos. Llévalo ajustado a UTC o ten clara la diferencia horaria del día (en España, +1h en invierno y +2h en verano respecto a UTC).
 :::
 
@@ -63,9 +57,7 @@ Planificar la hora de un vuelo a vela no es solo cuestión de térmicas: la luz 
 
 No confundas el ocaso con el principio de la noche. Para la aviación, la **noche** es el periodo entre el final del **crepúsculo civil** vespertino y el inicio del matutino, y el crepúsculo civil termina (o empieza) cuando el centro del sol está **6º por debajo del horizonte**. Es decir: tras el ocaso aún queda un rato de luz utilizable antes de que, oficialmente, sea de noche.
 
-::: {.callout-important}
-⚖ **NORMATIVA**
-
+::: {.callout-important title="Normativa"}
 El vuelo en planeador se realiza en condiciones visuales (VFR) y, con carácter general, **de día**. La operación nocturna en VMC solo está al alcance del titular SPL con privilegios de motovelero de turismo (TMG) y la correspondiente **habilitación de vuelo nocturno**, además del equipamiento de luces exigido. Consulta siempre la hora del ocaso al planificar: en altura tendrás luz un rato más, pero una vez abajo la oscuridad llega rápido. Las horas oficiales de orto y ocaso para cada aeródromo se publican en el AIP-España (GEN 2.7).
 :::
 

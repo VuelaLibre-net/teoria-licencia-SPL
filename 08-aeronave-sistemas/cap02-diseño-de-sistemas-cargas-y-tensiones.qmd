@@ -35,9 +35,7 @@ No todos los planeadores se diseñan para los mismos esfuerzos. La normativa eur
 * **Categoría Utilitaria (U)**: para el vuelo normal, térmica y navegación. Certificada para soportar +5,3g y -2,65g a la velocidad de maniobra. Esos límites se estrechan al aumentar la velocidad hasta +4,0g y -1,5g a la velocidad de picado (V~D~); la envolvente completa (el diagrama V-n) se detalla en el **Libro 5 — Principios de vuelo**, capítulo 5.
 * **Categoría Acrobática (A)**: para maniobras extremas, con límites de +7g y -5g.
 
-::: {.callout-important}
-⚖ **NORMATIVA**
-
+::: {.callout-important title="Normativa"}
 **CS 22.337 (factores de carga límite de maniobra)**: la categoría Utilitaria debe soportar +5,3 / -2,65 (a la velocidad de maniobra) y la Acrobática, +7,0 / -5,0. **CS 22.303 (factor de seguridad)**: salvo indicación en contra, se aplica un factor de seguridad de 1,5 sobre las cargas límite para obtener las cargas últimas.
 
 Los límites concretos de tu aeronave están en su Manual de Vuelo. Consúltalos antes de volar un modelo nuevo.
@@ -50,9 +48,7 @@ En la certificación se manejan dos conceptos clave:
 1. **Carga límite**: el esfuerzo máximo que el planeador soporta sin deformación permanente. Tras alcanzarla, la estructura debe recuperar su forma original sin daños.
 2. **Carga de rotura (ultimate load)**: el valor al que la estructura falla de forma catastrófica. Por norma general se aplica un factor de seguridad de 1,5, así que un planeador con carga límite de 5,3g tendría una carga de rotura teórica de unos 8,0g.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 No uses nunca el factor de seguridad como "margen de maniobra". Ese 1,5 está para cubrir imperfecciones del material o condiciones atmosféricas imprevistas, no para que el piloto vuele fuera de límites.
 :::
 

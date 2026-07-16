@@ -43,9 +43,7 @@ La normativa europea de operaciones con veleros distingue entre lo que debe ir e
 * Seguro de responsabilidad civil en vigor.
 * Libro de a bordo o registro equivalente.
 
-::: {.callout-important}
-⚖ **NORMATIVA**
-
+::: {.callout-important title="Normativa"}
 **SAO.GEN.155** exige llevar a bordo en cada vuelo el AFM, las cartas actualizadas y la información de señales de interceptación; los certificados (matrícula, aeronavegabilidad, ARC, seguro, licencia de radio) pueden quedarse en el aeródromo. Hay una excepción: en los vuelos que se mantengan a la vista del aeródromo, o dentro de la distancia que fije la autoridad competente, toda la documentación (incluido el AFM) puede quedarse en tierra. Lo mismo vale para la licencia y el certificado médico del piloto (SFCL.045).
 :::
 
@@ -59,9 +57,7 @@ Hay varios tipos de chequeo:
 2. **Chequeo de cabina**: justo antes de despegar. La mnemotecnia europea estándar es **CB-SIFT-CBE**; en muchos clubes españoles se usa también la tradicional **CRISE**. Ambas se desarrollan en el **Libro 6 — Procedimientos operativos**, capítulo 1.
 3. **Chequeo de viento en cola**: antes de la toma (mnemotecnias FUSTALL o WULF, detalladas en el **Libro 6 — Procedimientos operativos**, capítulo 4).
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 No recites la lista de memoria. Lee cada punto, comprueba físicamente el mando o el instrumento y confirma en voz alta su estado. Si te saltas un paso, empieza la lista de nuevo.
 :::
 

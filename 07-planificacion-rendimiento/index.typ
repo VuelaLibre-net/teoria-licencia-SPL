@@ -610,15 +610,13 @@ Tener el CG cerca del límite posterior es la condición más crítica en un pla
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 Si pesas poco, usa lastre de plomo o pesas fijas. Nunca despegues sin comprobar que tu peso entra en el margen permitido para el asiento que ocupas.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -638,15 +636,13 @@ white
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 El lastre de cabina debe ir siempre fijado mecánicamente en los soportes que el fabricante instala en el morro (planchas de plomo o pesas homologadas con su anclaje). Nunca improvises con sacos de arena, mochilas u objetos sueltos: en una turbulencia o en la rotación del despegue pueden desplazarse, bloquear los pedales o cambiar el centrado en el peor momento posible.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -746,15 +742,13 @@ Dos reglas innegociables al usarlo:
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Nunca aterrices con los tanques de agua llenos a menos que sea una emergencia absoluta. La energía del impacto aumenta drásticamente con el peso, y podrías romper el planeador de forma irreparable.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -836,15 +830,13 @@ supplement: "Figura",
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 Aprende de memoria estos dos valores para tu modelo de planeador. En aire en calma no hay motivo para volar a velocidades intermedias si lo que buscas es llegar lejos o aguantar en el aire.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -924,15 +916,13 @@ La polar del manual de vuelo está trazada en velocidad indicada (#strong[IAS], 
 #callout(
 body: 
 [
-⚖ #strong[NORMATIVA]
-
 Las limitaciones de velocidad de tu planeador (V#sub[NE] (Velocidad Nunca Exceder), V#sub[A] (Velocidad de Maniobra) en aire turbulento) figuran en el #strong[manual de vuelo aprobado (AFM)] y derivan de la certificación europea #strong[CS-22] para planeadores. Atención al volar alto: el #strong[flutter] depende de la TAS, por lo que la V#sub[NE] #strong[indicada] disminuye con la altitud. Esta reducción está prescrita por la norma #strong[CS 22.1505], que obliga a que dicha tabla figure como placa visible en la cabina. El AFM incluye una tabla de V#sub[NE] por altitudes ---por ejemplo, un planeador con V#sub[NE] de 250 km/h a nivel del mar puede quedar limitado a unos 200 km/h indicados a 6.000 m---. Consúltala antes de cualquier vuelo de onda.
 
 ]
 , 
 title: 
 [
-Importante
+Normativa
 ]
 , 
 background_color: 
@@ -960,15 +950,13 @@ El planeo final es el tramo desde la última térmica hasta el aeródromo: un ej
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Si tu calculador de planeo dice que llegas "justo", en realidad #strong[no llegas]. El calculador no sabe si encontrarás un hundimiento inesperado ni si el viento en cara será más fuerte a baja altura. Busca una alternativa antes de que el cono de alcance se cierre.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1061,15 +1049,13 @@ supplement: "Figura",
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Recuerda siempre verificar los NOTAM y los espacios aéreos controlados en tu ruta. Una tarea que cruce un TMA sin autorización es una tarea fallida, independientemente de la distancia recorrida.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1102,15 +1088,13 @@ Una tarea sobre sierras despobladas o grandes masas forestales exige preguntarse
 #callout(
 body: 
 [
-⚖ #strong[NORMATIVA]
-
 El Reglamento (UE) 2018/1976 (#strong[Part-SAO]), que regula las operaciones de planeadores en Europa, establece en #strong[SAO.IDE.125] que los planeadores que operen sobre zonas donde la búsqueda y el salvamento serían especialmente difíciles deben llevar el equipo de salvamento y señalización adecuado al área sobrevolada. Su AMC1 concreta el mínimo: un #strong[ELT], una #strong[baliza personal de localización (PLB)] o localizador equivalente registrado, equipo para hacer señales de socorro y el equipo de supervivencia apropiado a la ruta. Para vuelos sobre agua aplica además #strong[SAO.IDE.120]: el piloto al mando debe valorar antes del vuelo los riesgos de supervivencia en caso de amerizaje.
 
 ]
 , 
 title: 
 [
-Importante
+Normativa
 ]
 , 
 background_color: 
@@ -1139,15 +1123,13 @@ Un buen piloto sabe cuándo dejar de ser competidor para convertirse en superviv
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 Tus mínimos deben ser más conservadores si vuelas en zonas desconocidas o con planeadores de bajo rendimiento. La seguridad nunca es negociable.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -1200,15 +1182,13 @@ Según el reglamento #strong[SERA.4001] (SERA (Standardised European Rules of th
 #callout(
 body: 
 [
-⚖ #strong[NORMATIVA]
-
 Los plazos de presentación (AIP-España, ENR 1.10) dependen de qué pidas y desde dónde salgas. Si solicitas #strong[servicio de control de tránsito aéreo], presenta el FPL al menos #strong[60 minutos antes] de la hora estimada de fuera de calzos (EOBT); desde un aeródromo controlado que no opere H24, el mínimo se reduce a #strong[30 minutos]. Si despegas de un #strong[aeródromo no controlado] y solo solicitas servicio de información y alerta, basta con presentarlo #strong[antes de la salida]. En vuelo (#strong[AFIL]), debe transmitirse con antelación suficiente para que la dependencia ATS lo reciba antes de entrar en espacio aéreo controlado.
 
 ]
 , 
 title: 
 [
-Importante
+Normativa
 ]
 , 
 background_color: 
@@ -1261,15 +1241,13 @@ supplement: "Figura",
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 El FIC no es solo para abrir planes de vuelo. En travesía por zonas como el Sistema Central, mantener escucha con Madrid Información te da tráfico esencial, NOTAM de última hora y un canal ya abierto si las cosas se tuercen. Apunta las frecuencias de los sectores de tu ruta en la planificación, junto a los puntos de escape.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -1300,15 +1278,13 @@ Un plan de vuelo abierto y no cerrado dispara una operación SAR: helicópteros 
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Nunca te vayas a casa sin confirmar que tu plan de vuelo está cerrado. Si aterrizas fuera de campo, tu prioridad tras asegurar el avión es notificar tu estado y posición para evitar falsas alarmas SAR.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1378,15 +1354,13 @@ En momentos de estrés no siempre podrás fiarte del ordenador de vuelo. Tienes 
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 #strong[La térmica es tu manga de viento.] Mientras espiraleas, tus círculos derivan con el viento: la dirección y la distancia que te desplazas en cada giro te dicen de dónde sopla y con cuánta fuerza, sin mirar ningún instrumento. Para corregir la deriva en planeo recto: a 100 km/h, cada #strong[10 km/h de viento cruzado ≈ 6° de corrección] hacia el viento. Con 20 km/h cruzados, apunta unos 12° al lado del viento y comprueba contra una referencia lejana del terreno que tu rumbo sobre el suelo se mantiene.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -1438,15 +1412,13 @@ El PNR es el momento del vuelo en el que ya no tienes altura para volver al aer�
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 Cantar en voz alta (o para ti mismo) "He cruzado el PNR" te ayuda mentalmente a dejar de mirar el GPS de la tarea y empezar a mirar seriamente el suelo.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -1482,15 +1454,13 @@ Los mecanismos fisiológicos, el Tiempo de Conciencia Útil y el uso del oxígen
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Si tu ordenador de vuelo indica que llegas con 0 metros, #strong[no llegas]. Ese cálculo es teórico: en el mundo real el aire casi nunca está en calma absoluta. Lleva siempre un colchón de altura y no dejes que se consuma.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 

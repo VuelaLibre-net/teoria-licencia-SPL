@@ -32,9 +32,7 @@ El llenado se hace por unos orificios en el extradós del ala. Es clave que los 
 
 El vaciado en vuelo suele tardar entre 3 y 8 minutos, según el planeador. Al abrir las válvulas verás dos estelas de agua saliendo de las alas: la confirmación de que el sistema funciona.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Vacía el lastre de agua antes de aterrizar; es una limitación operativa del Manual de Vuelo. El planeador no está diseñado para encajar las cargas de impacto de una toma con los tanques llenos. Además, aterrizar con agua alarga mucho la carrera de frenado y aumenta el riesgo de daños estructurales si chocas contra un obstáculo.
 :::
 

@@ -18,9 +18,7 @@ Conviene tener clara la diferencia entre "el control" y "la información":
 * **ATC (Control de Tráfico Aéreo)**: Su función es separar tráficos mediante instrucciones obligatorias. Interactuarás con ellos en aeródromos controlados y espacios aéreos de clase C y D (@fig-09-cap07-control-aereo).
 * **FIS (Servicio de Información de Vuelo)**: No dan órdenes, sino información útil (meteorología, tráficos conocidos, estado de aeródromos). En España, gran parte de nuestros vuelos de distancia se realizan bajo la vigilancia de un centro FIS.
 
-::: {.callout-note}
-⚓ **AIRMANSHIP**
-
+::: {.callout-note title="Airmanship"}
 Llamar a los servicios FIS (como Madrid o Barcelona Información) es una excelente práctica. Además de darte tranquilidad, si tienes que realizar un aterrizaje en campo, ellos sabrán tu última posición conocida y podrán coordinar ayuda si fuera necesario.
 :::
 
@@ -33,9 +31,7 @@ El transpondedor es el equipo que permite a los radares del ATC "verte" e identi
 * **7600**: Fallo de radio.
 * **7500**: Interferencia ilícita (secuestro).
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Si tu transpondedor está instalado y operativo, la práctica correcta es **mantenerlo encendido y en modo "ALT"** (transmisión de altitud) para que el radar te vea. Su uso es **obligatorio en las zonas de uso de transpondedor (TMZ) y allí donde lo exijan la clase de espacio aéreo o el AIP-España (ENR 1.6)** —las clases A y C lo requieren, y la D generalmente; véase la tabla del **Libro 1 — Derecho aéreo**, capítulo 7—, y muy recomendable en cualquier espacio con tráfico. Solo en planeadores con batería muy limitada cabe valorar apagarlo fuera de esos espacios, y siempre como decisión deliberada: **nunca en una TMZ, en espacio controlado ni en zonas de tráfico intenso**.
 :::
 
@@ -43,9 +39,7 @@ Si tu transpondedor está instalado y operativo, la práctica correcta es **mant
 
 El Plan de Vuelo (FPL) es tu contrato de seguridad con el sistema. En él indicas quién eres, qué planeador vuelas, tu ruta y cuánta autonomía tienes.
 
-::: {.callout-important}
-⚖ **NORMATIVA**
-
+::: {.callout-important title="Normativa"}
 Según el reglamento **SERA** (SERA.4001 b)), es obligatorio presentar un FPL si vas a cruzar fronteras, si se te presta servicio de control de tránsito aéreo (clases B, C y D) o si despegas o aterrizas en un aeródromo controlado. Ojo con la clase E: es espacio controlado, pero al VFR no se le presta servicio de control, así que no necesita plan de vuelo, ni radio, ni autorización. Y lo más importante de todo: si presentaste plan, **DEBES notificar tu llegada** para cerrarlo. Si no lo haces, se activarán los servicios de búsqueda y rescate (SAR) innecesariamente.
 :::
 
@@ -62,9 +56,7 @@ No todas las zonas del cielo son iguales:
 * **Clases C y D (Espacio Controlado)**: **OBLIGATORIO** contacto radio y autorización previa del ATC para entrar. En clase C, además, el control separa tu VFR del tráfico IFR; en clase D nadie te separa: solo recibes información de tráfico, y ver y evitar sigue siendo cosa tuya.
 * **Zonas Prohibidas/Restringidas (P/R)**: Evítalas a menos que tengas una autorización específica. Un "salto" de un segundo en una zona Prohibida puede acarrear sanciones graves.
 
-::: {.callout-important}
-⚖ **NORMATIVA**
-
+::: {.callout-important title="Normativa"}
 Resumen de servicios al VFR según **SERA.8001**: en **C y D** hay autorización ATC y radio obligatoria; en **E** ni autorización ni radio (solo información de tráfico si la hay); en **F y G** solo servicio de información de vuelo. Saber qué te van a dar —y qué te van a exigir— en cada clase es parte de la planificación.
 :::
 

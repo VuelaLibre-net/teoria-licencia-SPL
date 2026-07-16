@@ -553,15 +553,13 @@ Cuando el planeador avanza, el aire fluye sobre el perfil curvado del extradós 
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 La sustentación admite dos descripciones del #strong[mismo] fenómeno, no dos fuerzas que se sumen: la diferencia de presión (Bernoulli) y la deflexión del aire hacia abajo en el borde de salida (acción-reacción, tercera ley de Newton). El ala que acelera el aire por arriba es la misma que lo desvía hacia abajo; ambas miradas dan la misma fuerza.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -614,15 +612,13 @@ Ese vaivén continuo afecta directamente al equilibrio en cabeceo.
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Debido a la movilidad del CP, el diseño de la aeronave obliga a situar el centro de gravedad (CG) por delante del centro de presiones en las condiciones normales de vuelo. Esa configuración proporciona #strong[estabilidad longitudinal positiva]. Para contrarrestar la tendencia a picar (hundir el morro) que produce el CG adelantado, el estabilizador horizontal genera una fuerza descendente que mantiene el equilibrio en cabeceo.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -693,15 +689,13 @@ supplement: "Figura",
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 El efecto suelo puede sorprender al piloto inexperto: el planeador parece no querer posarse durante la toma. Si estás entrando en la zona de contacto con exceso de velocidad o inercia, resiste la tentación de picar el morro para forzar el aterrizaje. Usa los frenos aerodinámicos para controlar el planeo y déjalo posarse solo cuando esté listo, asegurándote antes de tener pista suficiente.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -741,15 +735,13 @@ El vuelo planeando es un intercambio permanente: la energía potencial (altitud)
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 La velocidad te da el mando del planeador; la altura es tu reserva de energía. Cediendo altura ganas velocidad (palanca adelante) y, gastando el exceso de velocidad, puedes recuperar algo de trayectoria ascendente (palanca atrás). Pero ese intercambio dura poco: la reserva solo se rellena subiendo en una ascendencia.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -813,15 +805,13 @@ supplement: "Figura",
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 Acostúmbrate a planificar los tramos finales y las tomas fuera de aeródromo con el L/D del manual recortado. Contar con la mitad del valor publicado en el Manual de Vuelo (AFM) te protege de quedarte bajo y corto cuando se suman el viento de cara, el aire que baja y la suciedad o los mosquitos acumulados en el borde de ataque, que merman el rendimiento más de lo que parece.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -877,8 +867,6 @@ supplement: "Figura",
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Cuando el factor de carga sube, la velocidad de pérdida (#strong[stall]) también sube ---y lo hace más rápido de lo que parece. La relación es con la raíz cuadrada del factor #strong[n]: en un viraje de 60° donde soportamos #strong[2g], nuestra velocidad de pérdida aumenta un #strong[41%]. Si normalmente perdemos a 60 km/h, en ese viraje la pérdida llega a 85 km/h, aunque el mando responda con aparente normalidad.
 
 El patrón más letal de la estadística de accidentes en planeador es siempre el mismo: maniobra de aterrizaje, altura escasa, velocidad baja, y de repente una pisada brusca de pedales con alabeo exagerado. La pérdida llega sin avisar, y a esa altura no hay margen para recuperar.
@@ -887,7 +875,7 @@ El patrón más letal de la estadística de accidentes en planeador es siempre e
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -931,15 +919,13 @@ Según su diseño, el comportamiento del planeador puede clasificarse en tres ti
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 Los veleros de escuela suelen diseñarse con una estabilidad estática positiva muy marcada para facilitar el aprendizaje y perdonar errores del alumno. Sin embargo, esto los hace más "pesados" o perezosos de mando. Los veleros de alta competición o acrobacia reducen esta estabilidad para ganar agilidad y respuesta inmediata.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -987,15 +973,13 @@ Dos modos de oscilación merecen atención especial en un planeador:
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 La tendencia espiral es el origen de la mayoría de los incidentes por pérdida de control en condiciones de visibilidad reducida. Un planeador abandonado con cinco grados de alabeo puede, en cuestión de minutos, desarrollar una espiral descendente fatal. Nunca vueles sin referencias visuales del horizonte real.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1024,15 +1008,13 @@ Para que el planeador sea estable en cabeceo, el #strong[CG debe situarse por de
 #callout(
 body: 
 [
-⚖ #strong[NORMATIVA]
-
 El Reglamento (UE) 2018/1976, Part-SAO, punto SAO.GEN.130 d)4), establece que el piloto al mando deberá "iniciar un vuelo únicamente tras cerciorarse de que \[…​\] la masa del planeador y la ubicación de su centro de gravedad permiten efectuar el vuelo dentro de los límites definidos por el manual de vuelo de la aeronave (AFM)".
 
 ]
 , 
 title: 
 [
-Importante
+Normativa
 ]
 , 
 background_color: 
@@ -1125,15 +1107,13 @@ supplement: "Figura",
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 La solución a la guiñada adversa es la #strong[Coordinación Pie-Mano]. Se debe aplicar palanca y pedal hacia el mismo lado y al mismo tiempo. El timón de dirección contrarresta el freno abrupto del ala exterior, forzando al morro a seguir la curva suavemente sin derrapar.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -1180,15 +1160,13 @@ supplement: "Figura",
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 Vuela con el hilo recto. Si se mueve, corrígelo con el pedal. Y si el hilo está torcido y los mandos están blandos al mismo tiempo, actúa: estás a punto de entrar en pérdida.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -1212,15 +1190,13 @@ El compensador (trim) no es solo un alivio para el brazo. Es, de hecho, un mando
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 Acostúmbrate a usar el compensador constantemente. Después de cambiar el régimen de vuelo (por ejemplo, de termicar a velocidad lenta a volar recto a mayor velocidad), primero establece la nueva actitud con la palanca y luego ajusta el trim hasta que no sientas fuerza en la mano.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -1291,15 +1267,13 @@ La V#sub[A] es un límite estructural, no una marca del anemómetro. La marca qu
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 En turbulencia fuerte, reduce enseguida la velocidad por debajo de la V#sub[A] para proteger la estructura. Tu referencia visual está en el anemómetro: quédate en el arco verde, que termina en la V#sub[RA] (velocidad máxima en aire turbulento). El arco amarillo, de la V#sub[RA] a la VNE, es solo para aire en calma.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -1319,15 +1293,13 @@ white
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 La V#sub[A] #strong[no te protege de entradas combinadas simultáneas en más de un eje]. Los requisitos de certificación cubren deflexiones completas en un único mando a la vez. Si aplicas timón de profundidad a fondo y pedal a fondo #strong[al mismo tiempo] ---aunque estés por debajo de V#sub[A]--- puedes generar una carga estructural que supere el límite de diseño. En turbulencia, mantén los mandos suaves y evita movimientos bruscos coordinados en múltiples ejes simultáneamente.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1353,15 +1325,13 @@ El flutter es una vibración aeroelástica en las alas o superficies de control 
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 La VNE disminuye con la altitud: en aire menos denso, la velocidad aerodinámica verdadera (TAS) ---de la que depende el flutter--- aumenta respecto a la indicada (IAS) que lees en el anemómetro. Presta atención a la tabla de correcciones de VNE por altitud en la cabina. Este efecto es crítico en el vuelo de onda, donde se alcanzan grandes altitudes; su relación con la meteorología de onda se trata en el #strong[Libro 3 --- Meteorología].
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1381,15 +1351,13 @@ white
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 Cerca de la VNE, mantén las deflexiones de mando limitadas a aproximadamente #strong[un tercio] de su recorrido total. A esa velocidad, la presión dinámica es tan elevada que una deflexión completa genera cargas que pueden superar la envolvente estructural incluso sin turbulencia. No uses la VNE como velocidad de crucero: es un límite absoluto de emergencia, no un régimen habitual.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -1413,15 +1381,13 @@ En vuelo recto y nivelado, el factor de carga es 1 G. Al inclinarte en un viraje
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 La velocidad de pérdida aumenta con el factor de carga. En un viraje de 60º (2 Gs), la velocidad de pérdida #strong[sube un 41%]. Un planeador que entra en pérdida a 70 km/h en vuelo nivelado lo hará a casi 100 km/h en ese viraje cerrado. Un uso brusco de los mandos en esta situación puede llevar a una pérdida crítica.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1475,15 +1441,13 @@ Empuja la palanca hacia #strong[adelante] hasta centrarla: el morro baja, el án
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 Durante la recuperación de una pérdida, la palanca debe mantenerse siempre rigurosamente centrada en el eje lateral (cero alerones). Intentar levantar instintivamente un ala caída usando los alerones empeorará el escenario: el alerón que baja aumentará el ángulo de ataque local de esa ala caída, profundizando aún más su pérdida e iniciando violentamente la temida autorrotación o barrena. Usa siempre y exclusivamente el pedal contrario (timón de dirección) para evitar la guiñada y sostener las alas.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -1509,15 +1473,13 @@ Esta #strong[pérdida acelerada] es traicionera porque el morro no tiene que est
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 El escenario estadísticamente más letal: el viraje del tramo #strong[base a final] en el circuito de tráfico, a menos de 150 metros de altura. El piloto mete pedal para cuadrar la final, el morro se desvía hacia un lado, compensa tirando de palanca… y el planeador entra en pérdida asimétrica sin margen de recuperación. Volar el circuito coordinado y con margen de velocidad no es una exigencia técnica: es lo que separa un aterrizaje normal de un accidente.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1618,15 +1580,13 @@ Cuando el piloto percibe el morro apuntando hacia abajo y la velocidad disparán
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Nunca tires de la palanca de mando para intentar frenar un picado si las alas del planeador se encuentran inclinadas.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 

@@ -26,9 +26,7 @@ El **centro de gravedad** es el punto donde se concentra, en teoría, todo el pe
 * **Límite delantero**: con el CG muy adelantado (piloto pesado o mucho lastre en el morro), el planeador es muy estable pero "pesado" de mandos. En la toma puede faltarte profundidad para hacer la recogida y acabas golpeando con la rueda de morro.
 * **Límite trasero**: es el peligroso. Un CG retrasado (piloto ligero sin lastre) vuelve inestable al planeador. Si entras en pérdida, el morro tiende a subir solo y puede meterte en una barrena (**spin**) irrecuperable.
 
-::: {.callout-important}
-⚖ **NORMATIVA**
-
+::: {.callout-important title="Normativa"}
 La certificación CS-22 exige una placa de limitaciones visible en cabina con las cargas mínima y máxima del asiento. Comprueba siempre el peso mínimo en cabina: si el tuyo (con paracaídas y ropa) queda por debajo de ese mínimo, es obligatorio instalar lastre antes de despegar, según indique el Manual de Vuelo.
 :::
 
@@ -44,9 +42,7 @@ Con el tiempo, las reparaciones, la pintura o los cambios de instrumentos altera
 
 ![Ejemplo de cálculo de peso y centrado](imagenes/08-cap04-calculo-cg.jpg){#fig-08-cap04-calculo-cg}
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 El cálculo numérico de masa y centrado (datum, brazos y momentos) se desarrolla con un ejemplo completo de examen en el **Libro 7 — Planificación y rendimiento del vuelo**, capítulo 1. Aquí nos interesa la parte física: dónde está cada lastre y qué sistemas lo gestionan.
 :::
 

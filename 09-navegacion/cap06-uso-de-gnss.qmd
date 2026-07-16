@@ -46,15 +46,11 @@ El GPS puede fallar. Y fallará en el momento más inoportuno.
 
 Además, la propia señal tiene fuentes de error que degradan la precisión aunque el equipo funcione: el **retardo ionosférico y troposférico** (la señal se frena al atravesar la atmósfera), el **multitrayecto** (rebotes de la señal en el terreno o en estructuras), las pequeñas **derivas de los relojes** y la **geometría de los satélites** (si están mal repartidos en el cielo, la **dilución de la precisión** o DOP empeora). En condiciones normales la precisión ronda unos pocos metros, más que suficiente para volar, pero conviene saber que no es infalible.
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 El GNSS no te exime de saber navegar visualmente: el vuelo VFR se apoya en referencias del terreno, con o sin pantalla. Y tenlo presente en el examen de pericia de la SPL: el examinador puede apagarte el dispositivo para comprobar que sabes volver al aeródromo con el mapa y la brújula.
 :::
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 Lleva siempre una **fuente de respaldo** (backup). Si confías en una tablet, ten tu teléfono con una app de navegación cargada y, por supuesto, la carta de papel doblada y lista en el bolsillo lateral de la cabina.
 :::
 

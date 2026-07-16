@@ -25,9 +25,7 @@ Sin médico, no hay vuelo. Controlar la fecha de caducidad es responsabilidad tu
 
 Vale tanto un certificado **Clase 2** como un **LAPL** (**Light Aircraft Pilot Licence**). Para la mayoría de pilotos deportivos, el LAPL es suficiente y menos exigente. Su validez depende de tu edad: **60 meses** (5 años) si tienes menos de 40, y **24 meses** (2 años) a partir de los 40 (@fig-01-cap04-medical-validity). Ojo con el matiz de MED.A.045: un certificado emitido **antes** de cumplir los 40 deja de ser válido cuando cumples los **42**, aunque los 60 meses no hayan vencido. Si te lo expidieron a los 39, no te vale hasta los 44: caduca a los 42.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Si tu salud cambia (operación, enfermedad grave, embarazo, nuevas gafas), tu certificado médico puede quedar en suspenso. Consulta siempre con un Médico Examinador Aéreo (AME) antes de volver a volar.
 :::
 
@@ -45,9 +43,7 @@ Para volar solo o con pasajeros debes demostrar que estás al día. La normativa
 
 No pierdes la licencia; tus privilegios quedan "dormidos". Para despertarlos tienes dos caminos: pasar una **verificación de competencia** (**proficiency check**) con un examinador, o volar con instructor en doble mando hasta completar lo que te falte (@fig-01-cap04-recencia-flow).
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 * **5 , 15 , 2**
 * **5** horas, **15** despegues, **2** vuelos con instructor. (En los últimos 2 años).
 :::
@@ -60,9 +56,7 @@ Llevar a alguien contigo es una gran responsabilidad, y la licencia recién saca
 
 Y una vez cumplido eso, hay un requisito de recencia: **3 lanzamientos en los últimos 90 días**. Si llevas tres meses sin volar, haz unos vuelos solo antes de invitar a nadie.
 
-::: {.callout-important}
-⚖ **NORMATIVA**
-
+::: {.callout-important title="Normativa"}
 Reglamentos (UE) 2018/1976 y 2020/358 (SFCL.115): el titular de una SPL solo transportará pasajeros si, tras obtener la licencia, ha completado 10 horas de vuelo o 30 lanzamientos como PIC **y un vuelo de entrenamiento demostrando la competencia a un FI(S)** (o posee certificado FI(S)), además de cumplir la recencia de SFCL.160(e). El incumplimiento implica sanción y pérdida de cobertura del seguro.
 :::
 

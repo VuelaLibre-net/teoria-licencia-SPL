@@ -8,9 +8,7 @@ Un planeador no tiene motor. Una vez suelto del remolque, su único combustible 
 
 El vuelo planeando es un intercambio permanente: la energía potencial (altitud) se convierte en cinética (velocidad). Para que el ala siga sustentando, el planeador baja levemente el morro frente a la masa de aire. Esa inclinación hace que una componente del peso apunte hacia adelante a lo largo de la trayectoria, actuando como tracción y equilibrando la resistencia aerodinámica (**drag**).
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 La velocidad te da el mando del planeador; la altura es tu reserva de energía. Cediendo altura ganas velocidad (palanca adelante) y, gastando el exceso de velocidad, puedes recuperar algo de trayectoria ascendente (palanca atrás). Pero ese intercambio dura poco: la reserva solo se rellena subiendo en una ascendencia.
 :::
 
@@ -36,9 +34,7 @@ En el aire real, las cifras del manual se quedan en teoría: el viento y las mas
 * **Viento de cola:** con viento a favor, el terreno avanza más deprisa de lo que la polar indica. Puedes volar algo más despacio que la V~max planeo~ en calma, pero nunca por debajo de la V~z min~. No es un ajuste grande; el margen sobre la pérdida siempre tiene prioridad.
 * **Aire descendente:** cuando atraviesas una masa de aire que baja, tu tasa de descenso real aumenta en esa misma cantidad. La velocidad óptima de cruce sube por encima de la V~max planeo~: vuela más rápido para salir cuanto antes de esa zona y limitar la altura perdida en ella.
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 Acostúmbrate a planificar los tramos finales y las tomas fuera de aeródromo con el L/D del manual recortado. Contar con la mitad del valor publicado en el Manual de Vuelo (AFM) te protege de quedarte bajo y corto cuando se suman el viento de cara, el aire que baja y la suciedad o los mosquitos acumulados en el borde de ataque, que merman el rendimiento más de lo que parece.
 :::
 
@@ -67,9 +63,7 @@ En vuelo recto y nivelado la sustentación iguala exactamente al peso: **n = 1g*
 
 ![El factor de carga en función del ángulo de alabeo](imagenes/05-cap02-factor-de-carga-alabeo.png){#fig-05-cap02-factor-de-carga-alabeo}
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Cuando el factor de carga sube, la velocidad de pérdida (**stall**) también sube —y lo hace más rápido de lo que parece. La relación es con la raíz cuadrada del factor **n**: en un viraje de 60° donde soportamos **2g**, nuestra velocidad de pérdida aumenta un **41%**. Si normalmente perdemos a 60 km/h, en ese viraje la pérdida llega a 85 km/h, aunque el mando responda con aparente normalidad.
 
 El patrón más letal de la estadística de accidentes en planeador es siempre el mismo: maniobra de aterrizaje, altura escasa, velocidad baja, y de repente una pisada brusca de pedales con alabeo exagerado. La pérdida llega sin avisar, y a esa altura no hay margen para recuperar.

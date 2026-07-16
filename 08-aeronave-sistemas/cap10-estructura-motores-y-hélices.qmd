@@ -36,9 +36,7 @@ Los motoveleros (TMG) y los autolanzables con motor de combustión añaden tres 
 
 El encendido lo generan los *magnetos*, no la batería. Un magneto es un generador autónomo: mientras el cigüeñal gire, produce por sí mismo la alta tensión que necesitan las bujías, con independencia de la batería y del alternador. Por eso el motor sigue funcionando aunque falle el sistema eléctrico. Los motores de aviación montan encendido *dual* (dos magnetos y dos bujías por cilindro) por seguridad y rendimiento; antes del vuelo se hace la prueba de magnetos, comprobando la pequeña caída de RPM al dejar uno solo en funcionamiento.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Como el magneto genera corriente por sí mismo, para detenerlo hay que poner a masa (cortocircuitar) su devanado primario. Un magneto con el cable de masa roto puede dejar el motor "vivo" aunque el contacto esté en *OFF*: trata siempre la hélice como si pudiera arrancar.
 :::
 
@@ -65,9 +63,7 @@ Según el paso de pala, la hélice puede ser de *paso fijo* (el ángulo de pala 
 
 Manejar el motor de un planeador exige disciplina. La secuencia de arranque (extracción, apertura de puertas, encendido de la bomba de combustible, arranque) tiene que estar perfectamente memorizada.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Con el motor extraído, la relación de planeo cae en picado por la resistencia del mástil. Si el motor no arranca tras sacarlo, tienes que estar a altura suficiente para hacer la toma de emergencia con el motor fuera, o para retraerlo a tiempo. Elige siempre el campo antes de intentar el arranque: el motor es el plan B, nunca el plan A.
 :::
 

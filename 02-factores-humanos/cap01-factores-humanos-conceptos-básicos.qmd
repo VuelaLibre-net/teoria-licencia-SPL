@@ -30,9 +30,7 @@ El desglose del componente humano en la siniestralidad del vuelo a vela muestra 
 * **Preparación deficiente antes del vuelo (aprox. 12 %):** Omisiones críticas durante el montaje o la verificación previa al despegue, como no conectar correctamente los mandos o no asegurar la cabina.
 * **Conciencia situacional insuficiente (aprox. 6 %):** Pérdida de percepción espacial o visual del tránsito, con riesgo de colisión en vuelo (**mid-air collision**).
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 El análisis del Informe de Seguridad de EASA (European Union Aviation Safety Agency) indica que las fases más críticas del vuelo en planeador son el aterrizaje (aproximadamente el 50 % de los accidentes) y el despegue (21 %). Mantenga el máximo nivel de atención durante estos periodos, con la cabina libre de distracciones y todos los sistemas verificados.
 :::
 
@@ -72,9 +70,7 @@ Según el momento en que se manifiestan respecto al accidente, los errores se di
 * **Errores latentes:** Vulnerabilidades preexistentes en el sistema, como una instrucción inicial deficiente o un procedimiento inadecuado que favorece el fallo.
 * **Errores activos:** La equivocación inmediata que precipita la cadena del accidente, como intentar un viraje a baja velocidad y baja altura.
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 Para reducir la probabilidad de error, utilice las listas de verificación aunque conozca el procedimiento de memoria, solicite la evaluación del instructor con regularidad y esté atento a factores que degradan el rendimiento, como la fatiga o la complacencia derivada de la experiencia acumulada.
 :::
 
@@ -86,9 +82,7 @@ La consecuencia práctica más importante es que **basta con interrumpir un solo
 
 ![Romper un eslabón de la cadena del error salva el vuelo](imagenes/02-cap01-cadena-error.jpg){#fig-02-cap01-cadena-error}
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 **Romper un solo eslabón salva el vuelo.** Ante cualquier señal de que la cadena del error ha comenzado —condiciones meteorológicas que se deterioran, una avería sin resolver, fatiga elevada— adopte la medida más conservadora disponible. Es la acción más eficaz al alcance del piloto.
 :::
 
@@ -106,9 +100,7 @@ La forma en que un club gestiona los errores define su **cultura organizacional*
 
 En la actualidad se promueve activamente la **cultura justa** (**Just Culture**): un marco que reconoce la inevitabilidad del error no intencionado y lo trata como una oportunidad de aprendizaje colectivo, sin represalias, siempre que no medie negligencia deliberada ni violación consciente de procedimientos.
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 Fomente la cultura justa en su entorno inmediato. Si durante el remolque o guardado del planeador se produce un daño accidental —por ejemplo, un golpe en el estabilizador al entrar al hangar— notifíquelo de inmediato al instructor o mecánico responsable. Encubrirlo pone en riesgo al piloto que vuele esa aeronave a continuación sin conocer el daño preexistente.
 :::
 

@@ -25,9 +25,7 @@ La gran mayoría de los planeadores modernos se fabrican con materiales compuest
 * **Fibra de vidrio**: el estándar de la industria desde finales de los años 50. Buena relación resistencia/peso y superficies que se moldean extremadamente lisas.
 * **Fibra de carbono**: más moderna y más cara. A igualdad de peso resiste mucho más que el acero y pesa bastante menos que la fibra de vidrio, así que se reserva para las piezas más cargadas y para los veleros de altas prestaciones.
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 Los planeadores de composite son casi siempre blancos por una razón técnica, no estética: la resina epoxi que une las fibras pierde propiedades mecánicas si se calienta demasiado. El blanco refleja la radiación solar y mantiene la estructura dentro de sus límites térmicos.
 :::
 
@@ -46,9 +44,7 @@ Tiene dos enemigos. La radiación ultravioleta y los cambios bruscos de temperat
 
 En los veleros modernos, ese gelcoat de poliéster está cediendo terreno frente a los sistemas de pintura de **poliuretano** (PU) acrílico. La diferencia no es solo de fórmula. El PU se aplica como una capa de pintura fina, mucho más ligera que el grueso gelcoat (que en un planeador puede suponer varios kilos), y es bastante más elástico, así que resiste mucho mejor el craqueado por UV y conserva el brillo durante más años. A cambio, esa capa fina deja menos margen para reparar a base de lijar y pulir: un arañazo profundo o un repintado piden pistola y un acabado a juego, no el simple pulido que admite el gelcoat. Sea de poliéster o de poliuretano, el cuidado es el mismo (protegerlo del sol y limpiarlo con suavidad), pero en superficies de PU conviene evitar los pulimentos abrasivos pensados para gelcoat.
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 Trata el gelcoat como tratarías tu propia piel. Protégelo del sol con fundas siempre que puedas y encéralo al menos una vez al año con ceras sin silicona para conservar su elasticidad y su protección UV.
 :::
 
@@ -82,15 +78,11 @@ El gancho de CG incorpora una suelta automática (*back-release*): si el cable t
 
 Muchos planeadores de escuela montan los dos ganchos, y la regla es sencilla: morro para avión, CG para torno. La autoridad sobre qué gancho corresponde a cada método de lanzamiento es siempre el manual de vuelo (AFM). Usar el de CG para remolque por avión está permitido en algunos modelos, pero exige más atención: la tendencia a encabritarse es mayor y una posición alta respecto al remolcador puede acabar provocando una suelta automática involuntaria.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 No te lances nunca en torno con el gancho de morro. Al quedar el enganche por delante del centro de gravedad, el cable tira del morro hacia el suelo en lugar de dejar rotar el planeador a la subida; para contrarrestarlo tendrías que tirar a fondo de profundidad, y eso sobrecarga el estabilizador horizontal y el timón en una fase de cargas ya muy altas. A esto se suma que el gancho de morro no da la suelta automática (**back-release**) del de CG, así que un fallo de suelta es mucho más peligroso. Por estas razones, en los tipos así certificados el AFM prohíbe de forma expresa el lanzamiento por torno con el gancho de morro.
 :::
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 El gancho de remolque es un mecanismo con desgaste y con revisiones propias: los Tost tienen una vida limitada en años y en número de lanzamientos, y al cumplirla deben revisarse o sustituirse según el manual del fabricante. En la inspección prevuelo, acciona la suelta con el cable de pruebas y comprueba que el gancho abre y cierra con franqueza, sin agarrotamientos.
 :::
 

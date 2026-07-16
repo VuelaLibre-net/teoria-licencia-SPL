@@ -21,9 +21,7 @@ El principio fundamental es **VFR** (**Visual Flight Rules**): volamos basándon
 
 En vuelo visual, tú eres el único responsable de no chocar. El control de tráfico (ATC) puede ayudarte, pero la responsabilidad final es tuya. Eso exige un escaneo constante del cielo (la técnica del barrido visual) y algo de gimnasia: mueve el avión o la cabeza para ver detrás de los montantes o bajo el morro, porque los puntos ciegos existen.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 La mayoría de colisiones ocurren en días claros y cerca de los aeródromos. Nunca asumas que el otro te ha visto. Si tienes dudas, cede el paso.
 :::
 
@@ -72,9 +70,7 @@ La norma reconoce nuestra operativa particular:
 
 ![Alturas mínimas de seguridad](imagenes/01-cap05-alturas-minimas.jpg){#fig-01-cap05-alturas-minimas}
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 **Globo > Planeador > Motor.**
 Si tiene motor, te cede el paso. Si es un globo, tú cedes.
 Si vais de frente, **siempre a la derecha**.

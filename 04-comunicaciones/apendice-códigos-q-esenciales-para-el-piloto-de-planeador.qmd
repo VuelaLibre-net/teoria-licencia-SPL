@@ -25,8 +25,6 @@ Aparecen cuando pides orientación a una estación de tierra mediante radiogoni�
 
 : Códigos Q de radiogoniometría y pista
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 En travesía con visibilidad reducida o tras una desorientación, pedir un QDM al FIS más cercano es una herramienta de navegación válida y recomendable. No la reserves solo para emergencias: úsala si tienes dudas sobre tu posición.
 :::

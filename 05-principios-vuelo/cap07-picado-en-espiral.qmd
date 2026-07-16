@@ -23,9 +23,7 @@ La espiral descendente ha recibido el apodo de "espiral del cementerio" en la av
 
 Cuando el piloto percibe el morro apuntando hacia abajo y la velocidad disparándose, el instinto inmediato es tirar de la palanca para subir. Sin embargo, en un picado en espiral el planeador está fuertemente ladeado. Si tiras de la palanca **sin haber nivelado antes las alas**, el efecto es catastrófico: al estar de lado, el timón de profundidad empuja el planeador hacia el centro del giro, cerrando aún más el radio. La espiral se aprieta, la velocidad crece y las fuerzas G aumentan hasta superar el límite de diseño y romper la estructura.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Nunca tires de la palanca de mando para intentar frenar un picado si las alas del planeador se encuentran inclinadas.
 :::
 

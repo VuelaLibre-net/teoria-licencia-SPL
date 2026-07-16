@@ -33,9 +33,7 @@ Se recomienda iniciar el abandono con un mínimo de **150 metros** sobre el terr
 
 Por debajo de 150 metros, el paracaídas puede no tener tiempo suficiente para abrirse completamente. Por encima de 500 metros, el salto ofrece un margen de seguridad mucho mayor.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 En una barrena o espiral descontrolada, las fuerzas G pueden ser muy elevadas —hasta 3-4 G centrífugos— y dificultar enormemente la salida de la cabina. Actúa con decisión y rapidez: cada segundo de demora es altura que se pierde. Si las fuerzas G te impiden moverte, aprovecha el instante de menor G al inicio de cada rotación para empujar la cúpula y saltar.
 :::
 
@@ -54,9 +52,7 @@ La secuencia estándar para abandonar la cabina debe practicarse en tierra hasta
 
 ![Secuencia de cinco pasos para el abandono del planeador](imagenes/06-cap08-secuencia-salto.jpg){#fig-06-cap08-secuencia-salto}
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Asegúrate de estar completamente separado del planeador antes de tirar de la anilla. Si la campana se abre junto al planeador, puede engancharse en el estabilizador, el fuselaje o las superficies de control, impidiendo una apertura completa.
 :::
 
@@ -99,9 +95,7 @@ El paracaídas es un equipo de supervivencia que requiere cuidados específicos 
 * **Radiación UV:** evita la exposición directa al sol. La radiación UV degrada el nailon de la campana y los cordones, y reduce la resistencia a la tracción de forma progresiva e invisible.
 * **Sudor y contaminantes:** usa siempre una funda o cobertor de paracaídas durante el vuelo para protegerlo del sudor, el calor de la espalda y posibles derrames de combustible o aceite.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Nunca vueles con un paracaídas cuya tarjeta de inspección esté caducada, aunque sea por un solo día. Del mismo modo, si el paracaídas ha estado expuesto a humedad intensa, a productos químicos (gasolina, aceites, disolventes) o a cualquier impacto mecánico, debe ser inspeccionado por un técnico antes de volver a usarlo. La tarjeta de inspección en vigor no es una formalidad burocrática: es la única garantía objetiva de que el equipo funciona.
 :::
 

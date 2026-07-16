@@ -36,9 +36,7 @@ Es lo que recibimos los planeadores la mayor parte del tiempo, en Clase G o E. L
 
 Aquí la responsabilidad es **tuya**. El FIS te avisa ("tráfico a las 12"), pero quien ve y evita eres tú. No te separan de nadie.
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 * **ATC**: "Vire rumbo 360 por tráfico". (Orden obligatoria, ellos te separan).
 * **FIS**: "Tráfico convergiendo a su derecha". (Información, TÚ decides qué hacer para no chocar).
 :::
@@ -57,9 +55,7 @@ Tu seguro de vida. Se activa cuando hay una emergencia o se teme por la segurida
 
 ![Fases de emergencia del Servicio de Alerta](imagenes/01-cap08-fases-emergencia.jpg){#fig-01-cap08-fases-emergencia}
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Si tienes una emergencia real y **NO** has presentado Plan de Vuelo ni estás en contacto radio, el Servicio de Alerta tardará mucho más en activarse (solo cuando tu familia avise de que no has vuelto). ¡Usa la radio y el Plan de Vuelo!
 :::
 

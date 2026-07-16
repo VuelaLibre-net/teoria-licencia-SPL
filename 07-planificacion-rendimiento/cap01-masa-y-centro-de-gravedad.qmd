@@ -21,15 +21,11 @@ Tener el CG cerca del límite posterior es la condición más crítica en un pla
 
 ¿Cómo se llega a esa situación? Casi siempre por una de estas tres vías: volar por debajo del peso mínimo del asiento delantero (pilotos ligeros), olvidar puesto el soporte de cola (*dolly*) o instalar equipos pesados en la cola sin compensarlos.
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 Si pesas poco, usa lastre de plomo o pesas fijas. Nunca despegues sin comprobar que tu peso entra en el margen permitido para el asiento que ocupas.
 :::
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 El lastre de cabina debe ir siempre fijado mecánicamente en los soportes que el fabricante instala en el morro (planchas de plomo o pesas homologadas con su anclaje). Nunca improvises con sacos de arena, mochilas u objetos sueltos: en una turbulencia o en la rotación del despegue pueden desplazarse, bloquear los pedales o cambiar el centrado en el peor momento posible.
 :::
 
@@ -90,9 +86,7 @@ Dos reglas innegociables al usarlo:
 * Calcula la proporción según el manual de vuelo: cada modelo especifica cuántos litros de cola corresponden a cada llenado de alas y a cada peso de piloto.
 * Vacíalo siempre junto con las alas, o antes. Aterrizar con agua solo en la cola es volar con un CG atrasado extremo, exactamente la condición de barrena irrecuperable que viste al principio del capítulo. Verifica en la lista de chequeo que la cola drena correctamente.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Nunca aterrices con los tanques de agua llenos a menos que sea una emergencia absoluta. La energía del impacto aumenta drásticamente con el peso, y podrías romper el planeador de forma irreparable.
 :::
 

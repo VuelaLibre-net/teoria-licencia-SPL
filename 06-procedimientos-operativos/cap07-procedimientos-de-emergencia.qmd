@@ -44,15 +44,11 @@ La toma de decisiones táctica depende directamente de la altura AGL alcanzada e
 
 ![Opciones de aterrizaje según la altura y el método de lanzamiento en caso de rotura de cable](imagenes/06-cap07-emergencia-altura.jpg){#fig-06-cap07-emergencia-altura}
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS: LA DECISIÓN DE ATERRIZAR FUERA**
-
+::: {.callout-note title="Airmanship: LA DECISIÓN DE ATERRIZAR FUERA"}
 Ante un fallo de lanzamiento a altura crítica, **un aterrizaje fuera de los límites del aeródromo (aterrizaje forzoso recto por delante) es siempre preferible a intentar un viraje de retorno forzado a baja altura**. Forzar el viraje para "salvar" el planeador y volver a la pista es la causa principal de pérdidas y barrenas fatales.
 :::
 
-::: {.callout-warning}
-⚠ **SEGURIDAD: «LA MANIOBRA IMPOSIBLE»**
-
+::: {.callout-warning title="Seguridad: «LA MANIOBRA IMPOSIBLE»"}
 Intentar regresar al aeródromo virando 180° a baja altura —lo que en aviación se conoce como «la maniobra imposible»— es la causa documentada de la mayoría de los accidentes graves en el despegue. La geometría del planeo no lo permite: el viraje a baja altura consume una energía y altura que no existen. **Si estás por debajo de la altura crítica establecida (150 m en torno y 70 m en avión) y no hay espacio de pista por delante, aterriza recto en campo abierto. ¡Siempre!**
 :::
 
@@ -68,9 +64,7 @@ Aplica de inmediato el siguiente procedimiento:
 4. **Aproximación y aterrizaje con cable:** cuando vueles de regreso con el cable colgando (que suele tener entre 50 y 60 metros de longitud), planifica una aproximación final significativamente más alta de lo habitual. Es crítico para garantizar que el cable colgante libre con seguridad cualquier obstáculo previo a la pista (vallas del aeródromo, setos, carreteras, cables telefónicos o de alta tensión).
 5. **Si el remolcador tampoco puede soltar:** en el caso extremo de que ambos ganchos estén atascados, deberás realizar un descenso y aterrizaje coordinado y simultáneo en formación con el avión remolcador, siguiendo las instrucciones de radio.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Cuando vueles una aproximación con el cable colgando, **bajo ninguna circunstancia realices una aproximación baja**. El cable podría engancharse en una valla o línea eléctrica antes del umbral de la pista, lo que provocaría una deceleración violenta y un impacto del planeador contra el suelo sin control (**pitch-up** o pérdida instantánea). Mantén un margen de altura generoso hasta superar el umbral.
 :::
 
@@ -84,9 +78,7 @@ La prioridad es triple y simultánea: **eliminar el combustible**, **limpiar la 
 2. **Ventilación:** si el humo no es denso, abre las tomas de aire de cabina para dirigir el flujo de humo hacia fuera. Si el humo es denso e irrespirable, considera desmontar la cúpula en vuelo para crear ventilación forzada.
 3. **Aterrizaje:** aterriza de inmediato en el campo más cercano. No intentes llegar al aeródromo si eso retrasa la toma en varios minutos. Un planeador con fuego activo no es un planeador seguro.
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 Familiarízate con la posición de las válvulas de combustible y el extintor de tu planeador motorizado antes del primer vuelo. Una emergencia de fuego no deja tiempo para buscar manuales ni para recordar dónde están los controles de emergencia. La memoria muscular se entrena en tierra, no en vuelo.
 :::
 
@@ -106,9 +98,7 @@ El **flutter** es una vibración aeroelástica autosustentada que se produce a a
 
 Las causas más frecuentes son el exceso de velocidad —superar la V~NE~ (Velocidad Nunca Exceder) o aproximarse a ella en vuelo descendente—, el daño estructural previo o el mal equilibrado de una superficie de control tras una reparación.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD: **FLUTTER****
-
+::: {.callout-warning title="Seguridad: FLUTTER"}
 Si experimentas una vibración fuerte y descontrolada, **reduce la velocidad de inmediato**: sube el morro suavemente y abre los aerofrenos para frenar aerodinámicamente. El *flutter* solo ocurre a altas velocidades y puede destruir el planeador en segundos. Nunca intentes aumentar la velocidad para «salir» de una vibración: es la acción exactamente contraria a lo que necesitas. Tras cualquier episodio de vibración anormal, el planeador debe ser inspeccionado por un técnico antes de volar de nuevo.
 :::
 
@@ -123,9 +113,7 @@ El bloqueo de las tomas de presión de tu planeador (normalmente debido a agua d
 * **Síntoma:** el altímetro se congela en un valor fijo y el variómetro se queda a cero, sin responder a los ascensos o descensos. El anemómetro también dará indicaciones erróneas debido a la presión estática atrapada en las tuberías instrumentales.
 * **Técnica de vuelo:** si tu planeador dispone de una toma de **presión estática alterna** en cabina, conéctala mediante la válvula correspondiente.
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 En caso de fallo instrumental completo en circuito de tráfico, confía plenamente en tu estimación visual del ángulo de planeo respecto al punto de toma. Mantén una actitud de morro conservadora, previene el pérdida asegurando una buena corriente de aire (sonido del viento consistente en cabina) y no intentes corregir visualmente basándote en un anemómetro que sabes bloqueado.
 :::
 
@@ -140,9 +128,7 @@ El procedimiento de seguridad exige las siguientes acciones inmediatas:
 3. **Establece una senda de planeo más pronunciada:** una cúpula abierta o parcialmente desprendida genera un **incremento masivo de la resistencia aerodinámica** (**drag**). Tu ángulo de planeo se deteriorará considerablemente. Para mantener la velocidad de seguridad, deberás adoptar una actitud de morro más baja (senda de aproximación más pronunciada y mayor tasa de descenso).
 4. **Planifica el aterrizaje:** si estás en el despegue, continúa el remolque estabilizado hasta una altura segura si es posible, o suelta y haz un circuito normal. Vuela un circuito de tráfico adaptado a una mayor tasa de descenso y aterriza en el aeródromo lo antes posible. Solo intenta cerrar la cúpula si estás a gran altura de seguridad, en vuelo coordinado y con una sola mano, sin dejar de pilotar.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Nunca dejes de pilotar para intentar sujetar o cerrar una cúpula que se abre en circuito o a baja altura. Muchos accidentes mortales se han producido porque el piloto soltó la palanca de mandos para agarrar la cúpula con ambas manos, entrando el planeador en pérdida y barrena incontrolada o levantando la cola del remolcador y estrellándolo contra el suelo. Deja que la cúpula flote o se desprenda si es necesario; ¡concéntrate únicamente en volar!
 :::
 
@@ -159,15 +145,11 @@ El piloto debe gestionar esta asimetría aplicando la siguiente técnica:
 
 ![Vaciado asimétrico del lastre: el ala cargada cae y exige mando cruzado sostenido](imagenes/06-cap07-lastre-asimetrico.png){#fig-06-cap07-lastre-asimetrico}
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Un ala cargada con decenas de litros de agua tiene una velocidad de pérdida muy superior al ala vacía. En caso de vaciado asimétrico, si permites que la velocidad caiga demasiado en el tramo final o en el viraje de base, el ala pesada entrará en pérdida de forma asimétrica y repentina, provocando una barrena (**spin**) instantánea e irrecuperable a baja altura. Mantener la velocidad recomendada en circuito es tu defensa absoluta.
 :::
 
-::: {.callout-important}
-⚖ **NORMATIVA**
-
+::: {.callout-important title="Normativa"}
 Las alturas de decisión que aparecen en este capítulo (150 y 200 m en torno; 70 y 150 m en remolque) y la escalera de decisión del aterrizaje fuera de campo son **valores formativos de referencia**, no cifras normativas: la cota crítica real de cada planeador la fijan su AFM y las instrucciones locales del campo (longitud de pista, obstáculos, viento habitual). Apréndelas como orden de magnitud y ajústalas a tu aeronave y a tu aeródromo con tu instructor.
 :::
 

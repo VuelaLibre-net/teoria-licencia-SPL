@@ -23,9 +23,7 @@ Según el reglamento **SERA.4001** (SERA (Standardised European Rules of the Air
 * **Sobre el mar**: en España, para vuelos que se alejen más de 12 millas náuticas de la costa (supuesto nacional; consulta el valor vigente en el AIP-España, ENR 1.10).
 * **Vuelo de distancia**: no es obligatorio en espacio G (no controlado), pero sí muy recomendable: es lo que activa los servicios de alerta si no apareces.
 
-::: {.callout-important}
-⚖ **NORMATIVA**
-
+::: {.callout-important title="Normativa"}
 Los plazos de presentación (AIP-España, ENR 1.10) dependen de qué pidas y desde dónde salgas. Si solicitas **servicio de control de tránsito aéreo**, presenta el FPL al menos **60 minutos antes** de la hora estimada de fuera de calzos (EOBT); desde un aeródromo controlado que no opere H24, el mínimo se reduce a **30 minutos**. Si despegas de un **aeródromo no controlado** y solo solicitas servicio de información y alerta, basta con presentarlo **antes de la salida**. En vuelo (**AFIL**), debe transmitirse con antelación suficiente para que la dependencia ATS lo reciba antes de entrar en espacio aéreo controlado.
 :::
 
@@ -51,9 +49,7 @@ Rellenar un formulario ICAO para un avión sin motor tiene sus peculiaridades (@
 3. Ten preparados los datos del formulario antes de transmitir: el operador te pedirá esencialmente las mismas casillas que en tierra (velocidad, ruta, destino, autonomía y personas a bordo).
 4. Recuerda el plazo: el AFIL debe transmitirse **con antelación suficiente** para que la dependencia lo reciba antes de que entres en espacio aéreo controlado.
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 El FIC no es solo para abrir planes de vuelo. En travesía por zonas como el Sistema Central, mantener escucha con Madrid Información te da tráfico esencial, NOTAM de última hora y un canal ya abierto si las cosas se tuercen. Apunta las frecuencias de los sectores de tu ruta en la planificación, junto a los puntos de escape.
 :::
 
@@ -68,9 +64,7 @@ Un plan de vuelo abierto y no cerrado dispara una operación SAR: helicópteros 
 * **Cómo cerrar**: llama a la oficina ARO (oficina de notificación ATS), avisa a la torre de control por radio antes de aterrizar o usa una aplicación oficial como ICARO de ENAIRE.
 * **Plazos**: tienes 30 minutos desde la hora estimada de llegada antes de que empiecen a preocuparse. Si aterrizas en un campo sin cobertura, intenta avisar a alguien del club o busca un teléfono cuanto antes.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Nunca te vayas a casa sin confirmar que tu plan de vuelo está cerrado. Si aterrizas fuera de campo, tu prioridad tras asegurar el avión es notificar tu estado y posición para evitar falsas alarmas SAR.
 :::
 

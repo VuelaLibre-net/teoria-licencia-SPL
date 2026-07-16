@@ -14,9 +14,7 @@ Es una grabación de voz —normalmente sintética— que suena en bucle continu
 
 Cada boletín lleva una letra del alfabeto fonético como **código de información** («Información Bravo», por ejemplo). Cuando cambian significativamente las condiciones o la pista en uso, el boletín avanza a la siguiente letra («Información Charlie»).
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 Escucha el ATIS completo **antes** de llamar a la Torre. Luego incluye el código en tu primera llamada: *«Jerez TWR, velero EC-DPE, a 10 millas al norte, con información Bravo, solicito…​»* El controlador sabe que ya tienes todos los datos y puede ir directo al grano.
 :::
 
@@ -75,9 +73,7 @@ El **AIREP** (**Aircraft Report**) es el informe que tú, como piloto, transmite
 
 Si te metes en turbulencia fuerte, engelamiento, tormenta, granizo u ondas orográficas intensas, emites un AIREP especial con tu posición y altitud. Así el ATC puede avisar a los demás tráficos en esa zona.
 
-::: {.callout-important}
-⚖ **NORMATIVA**
-
+::: {.callout-important title="Normativa"}
 El Reglamento SERA obliga al piloto en mando a notificar sin demora cualquier condición meteorológica peligrosa que pueda afectar a la seguridad de otras aeronaves.
 :::
 

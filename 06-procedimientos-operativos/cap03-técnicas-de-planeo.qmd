@@ -30,9 +30,7 @@ Detectar una térmica es solo el primer paso. Lo realmente difícil —y lo que 
 
 ![Técnica de centrado de la térmica: desplazamiento del viraje hacia el núcleo](imagenes/06-cap03-centrado-termica.jpg){#fig-06-cap03-centrado-termica}
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 Si al atravesar una térmica un ala sube, el núcleo está de ese lado: **vira hacia el ala que sube**. Una vez establecido el giro, no inviertas nunca el sentido: ajusta. Cierra el viraje cuando el vario sube, ábrelo cuando baja. Con el tiempo, este ajuste se vuelve automático y no necesitas calcularlo conscientemente.
 :::
 
@@ -59,9 +57,7 @@ Esta técnica tiene limitaciones operativas que conviene conocer:
 
 Su utilidad se restringe exclusivamente al vuelo térmico lento para ayudar al alumno a visualizar la cercanía del planeador al coeficiente de sustentación máximo y prevenir pérdidas secundarias en virajes cerrados.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 En el vuelo rápido (**high-speed flight**), el hilo de lana lateral pierde toda precisión debido a que los ángulos de ataque son extremadamente pequeños. En este rango, el anemómetro y la observación del horizonte son los únicos métodos de referencia válidos para evitar exceder la V~NE~ (Velocidad Nunca Exceder). El hilo de lana lateral es una herramienta didáctica complementaria para el vuelo térmico lento, nunca un sustituto de los instrumentos primarios de vuelo ni del hilo de lana central de coordinación.
 :::
 
@@ -74,9 +70,7 @@ El **vuelo de ladera** (**ridge soaring**) aprovecha la deflexión ascendente qu
 * **Técnica:** vuela paralelo a la cresta, siempre por el lado de barlovento (el lado de donde viene el viento), a una distancia de seguridad que permita virar hacia el valle en cualquier momento.
 * **Tráfico:** si dos planeadores se cruzan en la misma ladera, el que tiene la montaña a su **derecha** tiene preferencia. El otro debe separarse hacia el valle. Los giros se hacen siempre **hacia fuera de la montaña** (hacia el valle).
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Nunca vires hacia la ladera si no tienes espacio garantizado para completar el viraje con margen. A sotavento de la montaña —detrás de la cresta— el aire puede descender con violencia incluso en condiciones de vuelo aparentemente buenas en barlovento. Una entrada accidental en la zona de rotor a baja altura sobre el terreno puede ser irrecuperable.
 :::
 
@@ -90,9 +84,7 @@ El **vuelo de onda** (**wave soaring**) ocurre cuando, con viento fuerte y condi
 
 ![Esquema de la onda orográfica y sus zonas de vuelo](imagenes/06-cap03-onda-esquema.png){#fig-06-cap03-onda-esquema}
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 El vuelo de onda a gran altitud requiere equipamiento específico: oxígeno a partir de los 3.000-4.000 metros según la autonomía y condición del piloto, ropa de abrigo adecuada y un altímetro calibrado. Antes de un vuelo de onda planificado, consulta el espacio aéreo: es frecuente que las altitudes de onda coincidan con zonas restringidas o reservadas para el tráfico controlado, que requieren autorización previa.
 :::
 
@@ -106,9 +98,7 @@ La analogía más útil es la del ciclista: en un descenso largo, ir cargado per
 * **Vaciado:** si la meteorología empeora o antes del aterrizaje, el lastre debe vaciarse completamente. Abre las válvulas con tiempo suficiente: el vaciado completo suele tardar entre 3 y 8 minutos según el planeador.
 * **Hielo:** si vuelas a gran altitud con lastre, añade anticongelante al agua para evitar que se congele y dañe los depósitos o los sistemas de vaciado.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Un planeador con lastre de agua tiene una **velocidad de pérdida significativamente mayor** —hasta 15-20 km/h más que sin lastre—. Ajusta todas tus velocidades de referencia (despegue, aproximación, circuito) en consecuencia. **Nunca aterrices con lastre completo**, salvo que una avería del vaciado te obligue — y entonces, extrema la suavidad de la toma: la inercia adicional puede superar la resistencia estructural de las alas y provocar un fallo catastrófico.
 :::
 

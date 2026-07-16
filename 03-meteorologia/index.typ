@@ -627,15 +627,13 @@ A medida que ganamos altura, las condiciones atmosféricas cambian según unos p
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 Memoriza estas tres equivalencias del gradiente estándar ISA: #strong[2 °C / 1.000 pies] para la temperatura, y #strong[1 hPa / 30 pies] para la presión. En sistema métrico, si subes 90 metros, la presión cae 10 hPa; en pies, si subes 3.000 pies, cae 100 hPa. Si despegas de un aeródromo a 2.000 pies con QNH 1013 hPa y 20 °C, puedes estimar que a 5.000 pies la temperatura será unos 6 °C más fría (14 °C) y la presión habrá bajado unos 100 hPa.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -665,15 +663,13 @@ Una menor densidad del aire (lo que equivale a una mayor "altitud de densidad") 
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Un día caluroso en un aeródromo elevado (alta altitud de densidad) empeora drásticamente el rendimiento: el avión remolcador trepará mucho más despacio, el planeador necesitará más pista para despegar y en vuelo tendrás menor sustentación para el mismo ángulo de ataque.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -697,15 +693,13 @@ Aunque la proporción de oxígeno en el aire se mantiene constante en un 21 % a 
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 La falta prolongada de oxígeno en los tejidos se conoce como #strong[hipoxia]. Dado su impacto crítico en la seguridad del vuelo (pérdida del conocimiento, degradación visual), los síntomas detallados, el cálculo del Tiempo de Conciencia Útil (TUC) y el uso de equipos de oxígeno se estudian en profundidad en el #strong[Libro 2 --- Factores humanos], capítulo 4.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -763,15 +757,13 @@ En el hemisferio norte, la fuerza de Coriolis desvía cualquier masa de aire en 
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 La Ley de Buys Ballot es una regla clásica que resume este efecto: en el hemisferio norte, si te pones de espaldas al viento, el centro de baja presión siempre estará a tu lado izquierdo.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -797,15 +789,13 @@ Al reducirse la velocidad del viento por esta fricción, el efecto de Coriolis (
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Debido a la fricción, cuando te acercas al suelo para aterrizar experimentarás el "gradiente de viento" ( en capa límite). En los últimos metros, el viento no solo será más flojo que en el circuito, sino que su dirección cruzará más hacia la baja presión. Debes mantener tu velocidad de aproximación con un margen de seguridad adecuado para evitar la pérdida de sustentación en la recogida (#strong[flare]).
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -884,15 +874,13 @@ supplement: "Figura",
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 A última hora de la tarde, cuando los fríos vientos catabáticos bajan por ambas laderas de un valle, "estrujan" el aire residual cálido que queda en el centro, forzándolo a subir. Este fenómeno se conoce como #strong[restitución]. Crea zonas muy amplias y suaves de ascendencia en el centro del valle, permitiendo prolongar vuelos al atardecer en aire completamente calmado.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -935,15 +923,13 @@ Un ejemplo cercano: los naranjos y limoneros del #strong[Valle del Tiétar] (al 
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 El sotavento de una cordillera bajo un Foehn activo puede esconder rotores de turbulencia severa en los niveles inferiores. No te confíes por ver cielos despejados y temperatura cálida en sotavento: mantén altitud al cruzar cordilleras en estas condiciones y evita las laderas de sotavento a baja altura.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -963,15 +949,13 @@ white
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 Si a pie de pista el termómetro marca varios grados por encima de lo habitual para el mes, la humedad relativa es inusualmente baja y ves una masa de nubes estacionaria sobre la sierra al norte: estás bajo un Foehn. Las bases de nube serán muy altas y las térmicas explosivas. Aprovéchalo, pero vigila los rotores cerca del terreno en el sotavento.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -1016,15 +1000,13 @@ Identificar la línea de convergencia es cuestión de observación:
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 En verano, los pilotos que operan desde Fuentemilanos (Segovia) trabajan frecuentemente la convergencia de brisa del SW que penetra desde el Atlántico a través del Sistema Central. La Baja Térmica Peninsular (ver capítulo de Climatología) actúa como un gran aspirador que succiona la brisa marina tierra adentro, creando líneas de convergencia NW--SE que funcionan como autopistas de ascendencias para el cross-country. Revisa modelos RASP o Skysight ---o su equivalente en Topmeteo o Meteo Parapente--- la tarde anterior para anticipar su posición.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -1089,15 +1071,13 @@ Cuando una burbuja de aire asciende impulsada por la convección, se expande a m
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 Puedes estimar fácilmente la altura de la base de los cúmulos restando la temperatura del punto de rocío a la temperatura ambiente en el suelo. Como los dejas atrás a razón de unos 2.5 °C por cada 1.000 pies de ascenso conjunto (el DALR menos la caída del punto de rocío), la fórmula es: #strong[\(T#sub[ambiente] - T#sub[rocío]) x 400 = Altitud de la base en pies.]
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -1144,15 +1124,13 @@ Una inversión térmica actúa como una tapadera o techo de cristal. Debido a qu
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Las inversiones no solo limitan la altura máxima a la que puedes trepar en un planeador, frenando la convección por completo, sino que también atrapan humo, bruma y humedad industrial cerca de la superficie, reduciendo drásticamente la visibilidad en vuelo por debajo de la capa de inversión.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1180,15 +1158,13 @@ Ese aire caliente, ahora menos denso y más ligero, tiende a subir por flotabili
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 Para encontrar las mejores térmicas, busca "fuentes" que se calienten rápido (suelos secos, campos cosechados, zonas rocosas al sol) y "disparadores" o puntos de ruptura que ayuden a la burbuja a desprenderse del suelo, como una cresta de una colina orientada al viento, o una línea de árboles al borde del campo soleado.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -1272,15 +1248,13 @@ El índice Total Totals (TT) combina el gradiente vertical de temperatura con la
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 El gráfico TT + K que el instructor cuelga cada mañana en el hangar te da la fotografía rápida del día. El TT te dice cuánto "combustible" tiene la atmósfera para armar un Cb en el llano; el K te lo dice para la montaña. No confíes en uno solo: úsalos juntos antes de cada preflight.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -1318,15 +1292,13 @@ Los umbrales clásicos de tormenta del TT proceden del trabajo de Robert C. Mill
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 El TT presenta limitaciones: sobrestima la inestabilidad si la temperatura a 500 hPa es muy baja sin soporte convectivo en capas bajas, y no detecta bien la estabilidad fuerte o la humedad elevada por debajo de 850 hPa. En esas situaciones, refuerza el análisis con el K-Index y el CAPE.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1362,15 +1334,13 @@ El K-Index combina el gradiente de temperatura entre 850 hPa y 500 hPa con la hu
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 El K-Index fue diseñado para predecir tormentas, no la calidad del vuelo a vela. Sus umbrales varían según la región y la estación: en zonas áridas como la Meseta Central, la baja humedad puede dar K bajos incluso con térmicas potentes. En montaña, si el nivel de 850 hPa queda cerca del suelo, el índice pierde representatividad. Úsalo siempre junto al TT y, si el día tiene pinta de complicarse, añade el CAPE.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -1394,15 +1364,13 @@ white
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 Los valores de CAPE que ves en manuales de meteorología general suelen clasificar 1.000--2.500 J/kg como "moderadamente inestable", reservando "muy inestable" para valores superiores. Para el volovelista, ese rango es perfectamente excelente: proporciona térmicas potentes y bases altas sin el riesgo de tormenta severa. Cuando consultes herramientas externas como Skysight o la Universidad de Wyoming, interpreta el CAPE en contexto aeronáutico, no según las escalas de meteorología convectiva para tormentas.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -1424,15 +1392,13 @@ white
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 Día de convección excepcional --- conocido coloquialmente como «día termonuclear» en el argot de competición ---: TT entre 48 y 55, K entre 15 y 20, CAPE entre 1.000 y 2.500 J/kg, LI negativo y vientos flojos de componente variable. Son los días de récords de distancia. Puedes encontrar todos estos índices en cualquier sondeo online: gratuitamente en la Universidad de Wyoming, AEMET (AMA), Windy o Meteoblue; con previsiones orientadas al planeador en Skysight, Topmeteo o Meteo Parapente.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -1466,15 +1432,13 @@ La regla de oro para el examen y para la cabina: un índice aislado no decide na
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 TT \> 55 o K \> 25 combinado con CAPE \> 2.500 J/kg señala alto riesgo de tormenta de evolución diurna. En estas condiciones, planifica el aterrizaje antes de las 16:00 h y ten siempre identificado un campo de aterrizaje alternativo en tierra antes de que se levante la convección.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1555,15 +1519,13 @@ El Cumulonimbus abarca una notable extensión vertical, culminando a menudo, al 
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 El piloto debe evitar en todo momento volar en las inmediaciones de un Cumulonimbus. Se recomienda mantener una separación lateral de seguridad entre 10 y 20 millas náuticas. Si un sistema convectivo amenaza el aeródromo, inicie de inmediato el procedimiento de aterrizaje.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1594,15 +1556,13 @@ Otro tipo relevante para los operadores de aeródromos costeros y de valle es la
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 Presta especial atención a la tarde en los días que hayan empezado con niebla de radiación persistente. Al caer el sol, el enfriamiento nocturno puede reinstaurar la niebla en minutos y cerrarte el campo antes de que aterrices. En costas y valles con viento de componente mar, añade también el riesgo de niebla de advección: puede llegar sin previo aviso y a cualquier hora del día.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -1641,15 +1601,13 @@ supplement: "Figura",
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Bajo la zona de onda, a baja altura, se esconde el #strong[rotor]: un cilindro de turbulencia giratoria muy violento que se delata visualmente por fractocúmulos deshilachados e inestables. Si haces un remolque en zona de onda, el avión remolcador zarandeará con fuerza al atravesar el rotor. Mantén siempre altura suficiente para evitarlo y sigue las indicaciones del piloto remolcador en todo momento.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1692,15 +1650,13 @@ En vuelo con lluvia, las consecuencias son directas:
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Con alas mojadas, añade siempre un margen mínimo de 5-10 kt sobre tu velocidad de aproximación estándar. Evita giros pronunciados: el riesgo de entrada en pérdida es significativamente mayor que en configuración seca y puede producirse sin advertencia previa.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1726,15 +1682,13 @@ Para las aeronaves compuestas con perfiles ligeros de fibra, la aceleración cin
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 No asumas que el granizo cae solo bajo la vertical del Cb: el viento en altura puede expulsarlo decenas de kilómetros bajo el yunque extendido. Mantén siempre la distancia de seguridad del yunque, aunque el cielo por debajo parezca completamente despejado.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -1808,15 +1762,13 @@ Para el vuelo a vela, el interés meteorológico óptimo radica en la situación
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 Las jornadas inmediatas tras el cruce de un frente frío intercontinental suelen ofrecer las mejores condiciones de vuelo térmico. Se caracterizan por una excelente visibilidad por ausencia de calima, presión atmosférica en aumento y un fuerte calentamiento diurno que detona corrientes ascendentes robustas marcadas por nubes Cúmulos (Cu) de contornos definidos.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -1896,15 +1848,13 @@ Existe un cuarto tipo de frente, menos frecuente pero que aparece en los mapas s
 #callout(
 body: 
 [
-⚖ #strong[NORMATIVA]
-
 #strong[SERA.5001] (Reglamento de Ejecución (UE) 923/2012) establece los mínimos meteorológicos para el vuelo VFR. En espacio aéreo de clase G, por debajo de 3.000 ft AMSL o 1.000 ft sobre el terreno, la visibilidad mínima general es de #strong[5 km], volando libre de nubes y con la superficie a la vista. Puede reducirse hasta #strong[1.500 m] para vuelos a 140 kt o menos, siempre que la velocidad permita ver el tráfico y los obstáculos con tiempo para evitar la colisión. La penetración inadvertida en IMC por un piloto VFR sin habilitación de vuelo instrumental constituye una infracción grave.
 
 ]
 , 
 title: 
 [
-Importante
+Normativa
 ]
 , 
 background_color: 
@@ -1946,15 +1896,13 @@ La situación más frecuente en la Península Ibérica durante la temporada de v
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 No despegues con visibilidad marginal bajo una inversión: ante una rotura de cable o un desenganche de emergencia, el aterrizaje de vuelta a tierra se realizaría sin referencias visuales, con riesgo de impacto irremediable. Si tienes alguna duda sobre la visibilidad, pospón el vuelo.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -2003,15 +1951,13 @@ No todos los anticiclones son iguales. Según su mecanismo de formación se dist
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 Para planificar el vuelo del día, mira el mapa sinóptico la noche anterior: si España está bajo una dorsal o anticiclón (H), planifica vuelo de distancia; si hay una vaguada o borrasca acercándose, no planifiques. El movimiento de las isobaras te da 24-48 horas de margen para decidir con criterio.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -2039,15 +1985,13 @@ En el hemisferio norte, las borrascas giran en sentido #strong[antihorario]. Sus
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Nunca salgas con previsión de borrasca activa en aproximación. Las condiciones VFR pueden degradarse rápidamente: nubosidad baja, visibilidad reducida y ráfagas que complican el aterrizaje. Cancela antes de salir si el mapa sinóptico muestra una depresión activa a menos de 500 km de tu zona de vuelo.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -2080,15 +2024,13 @@ Aunque parece inofensiva por su calma, esta configuración impone condiciones op
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 Cuando el mapa sinóptico muestre un collado centrado sobre tu zona de vuelo, no improvises: las condiciones evolucionan con lentitud e impredecibilidad. Espera a que el patrón se resuelva claramente ---hacia anticiclón o hacia situación post-frontal con viento del norte--- antes de comprometerte con un vuelo de distancia.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -2151,15 +2093,13 @@ Debido a su compleja orografía y situación geográfica, la península ibérica
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 En España tienes temporada para casi todo el año: cuando el viento sopla fuerte en invierno, busca onda en el Sistema Central o los Pirineos; cuando el verano hornea las mesetas, busca térmicas en La Mancha. Conocer cuándo y dónde vale cada recurso define al piloto experimentado.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -2187,15 +2127,13 @@ Los #strong[rotores de sotavento] son la trampa invisible de la climatología ib
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Los vientos catabáticos y los rotores de sotavento pueden aparecer a baja altitud sin previo aviso visual. Nunca sobrevueles una ladera de sotavento a menos de 300 ft de separación vertical del terreno, y conoce los puntos conflictivos de tu aeródromo local antes de volar en condiciones de viento fuerte.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -2215,15 +2153,13 @@ white
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 Antes de cada vuelo en zona montañosa, consulta la dirección del viento y compárala con el mapa orográfico de tu aeródromo. Los vientos del norte generan rotores en sectores distintos a los del sur o del oeste. Aprende los patrones locales y consulta a pilotos con experiencia en la zona.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -2252,15 +2188,13 @@ La cambiante fisonomía de cada estación del año impone al velerista reglas de
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 Los días post-frontales son el estándar de oro del vuelo ibérico: cielo azul, térmicas puras y visibilidad excepcional. Aprende a identificarlos en la previsión: busca el paso de un frente frío activo seguido de aire polar y presión en subida. El día siguiente suele ser extraordinario.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -2280,15 +2214,13 @@ white
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 En verano, las tormentas de evolución (#strong[air mass storms]) se desarrollan rápidamente durante las horas centrales del día a partir de cúmulos congestus. Si ves cúmulos que crecen verticalmente a ritmo acelerado, aterriza cuanto antes. No esperes a ver el yunque para decidir.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -2316,15 +2248,13 @@ Este imparable avance de aire marino forzado tierra adentro se convierte en exte
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 Las líneas de convergencia generadas por la Baja Térmica Peninsular son autopistas de sustentación en verano. Identifícalas en las previsiones de modelos RASP o Skysight y planifica tu ruta de cross-country siguiéndolas: con brisa bien establecida, una sola línea de convergencia puede regalarte decenas de kilómetros sin perder altitud.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -2378,15 +2308,13 @@ supplement: "Figura",
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Las células de tormenta en desarrollo o incrustadas ("embedded Cb") dentro de capas nubosas densas (como frentes cálidos u ocluidos) pueden enmascarar su presencia. Ante pronósticos de sistemas tormentosos severos, alertas meteorológicas marcando núcleos intensos, o indicios de fuerte inestabilidad, debe priorizarse el retorno rápido y seguro a tierra.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -2440,8 +2368,6 @@ En cualquiera de sus formas, las consecuencias son las mismas: la velocidad de p
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Al primer síntoma de engelamiento ---escarcha en el borde del ala o cristales en la cúpula--- actúa de inmediato:
 
 + Gira 180° y sal de la zona de nubosidad.
@@ -2454,7 +2380,7 @@ Un planeador con hielo estructural puede entrar en pérdida a velocidades muy su
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -2636,15 +2562,13 @@ Las tres lecturas clave son:
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 El día de convección excepcional --- conocido coloquialmente como «día termonuclear» en el argot de competición --- tiene firma numérica precisa: K-Index entre 15 y 20, CAPE entre 1.000 y 2.500 J/kg, LI negativo, temperatura a 850 hPa varios grados por encima de la media en superficie, y vientos flojos. Busca estos índices directamente en el sondeo del día: gratuitamente en la Universidad de Wyoming, AEMET (AMA) o Windy; con más detalle soaring en Skysight, Topmeteo o Meteo Parapente.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -2671,15 +2595,13 @@ Antes de salir a pista, cruza varias fuentes: es obligatorio y prudente. No te f
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 AEMET ---y su plataforma aeronáutica AMA (#strong[Autoservicio Meteorológico Aeronáutico])--- es siempre la fuente pública, oficial y legalmente vinculante para tu planificación pre-vuelo (METAR, TAF, alertas, NOTAMs meteorológicos). Las plataformas generalistas como Windy o Meteoblue y las especializadas en vuelo a vela como Skysight, Topmeteo, los modelos RASP o Meteo Parapente se mencionan en este manual porque forman parte de la realidad operativa diaria, pero nunca deben sustituir al briefing meteorológico oficial de seguridad.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -2699,15 +2621,13 @@ white
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Si a pie de pista la meteorología real difiere del pronóstico favorable ---nubosidad baja inesperada, viento variable fuerte, bruma densa--- prevalece siempre lo que ves. Un vuelo cancelado nunca fue un accidente. La cultura #strong[No-Go] no es cobardía: es el criterio que define a un piloto maduro.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 

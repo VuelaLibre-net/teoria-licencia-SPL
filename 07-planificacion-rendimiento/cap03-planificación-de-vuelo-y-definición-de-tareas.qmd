@@ -40,9 +40,7 @@ Antes de despegar debes conocer el ciclo de vida del cielo de ese día.
 
 ![La ventana de convección: el día térmico como línea temporal](imagenes/07-cap03-ventana-conveccion.png){#fig-07-cap03-ventana-conveccion}
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Recuerda siempre verificar los NOTAM y los espacios aéreos controlados en tu ruta. Una tarea que cruce un TMA sin autorización es una tarea fallida, independientemente de la distancia recorrida.
 :::
 
@@ -59,9 +57,7 @@ En España, la mayoría de las tareas de distancia se juegan sobre terreno monta
 
 Una tarea sobre sierras despobladas o grandes masas forestales exige preguntarse: si aterrizo fuera (o salto en paracaídas), ¿cuánto tardarán en encontrarme y qué necesito hasta entonces? La respuesta no es solo de sentido común: es un requisito normativo.
 
-::: {.callout-important}
-⚖ **NORMATIVA**
-
+::: {.callout-important title="Normativa"}
 El Reglamento (UE) 2018/1976 (**Part-SAO**), que regula las operaciones de planeadores en Europa, establece en **SAO.IDE.125** que los planeadores que operen sobre zonas donde la búsqueda y el salvamento serían especialmente difíciles deben llevar el equipo de salvamento y señalización adecuado al área sobrevolada. Su AMC1 concreta el mínimo: un **ELT**, una **baliza personal de localización (PLB)** o localizador equivalente registrado, equipo para hacer señales de socorro y el equipo de supervivencia apropiado a la ruta. Para vuelos sobre agua aplica además **SAO.IDE.120**: el piloto al mando debe valorar antes del vuelo los riesgos de supervivencia en caso de amerizaje.
 :::
 
@@ -74,9 +70,7 @@ Un buen piloto sabe cuándo dejar de ser competidor para convertirse en superviv
 * **Mínima térmica aceptable**: por debajo de cierta altura (500 m sobre el suelo, por ejemplo), cualquier térmica es buena. Por encima, selecciona solo las mejores.
 * **Altura de decisión**: fija un punto en el que dejas de buscar la siguiente térmica y te concentras solo en elegir un campo para aterrizar. No esperes a estar a 100 metros para mirar dónde. Los criterios para elegir y evaluar el campo desde el aire —la regla de las **7 S**— los tienes desarrollados en el **Libro 6 — Procedimientos operativos**, capítulo 5; repásalos antes de cada travesía.
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 Tus mínimos deben ser más conservadores si vuelas en zonas desconocidas o con planeadores de bajo rendimiento. La seguridad nunca es negociable.
 :::
 

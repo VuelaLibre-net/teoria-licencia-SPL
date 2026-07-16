@@ -33,9 +33,7 @@ La OACI define 7 clases, pero en España usamos principalmente las clases **A, C
 
 : Clases de espacio aéreo y requisitos VFR para planeadores
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 Aunque la normativa OACI define teóricamente las clases **B** y **F**, en la práctica no se utilizan para la aviación general o la formación en España. El espacio aéreo español es mayoritariamente Clase G (espacio no controlado fuera de rutas/aeropuertos) o Clases A, C, D y E (en rutas y entornos aeroportuarios).
 :::
 
@@ -48,9 +46,7 @@ A veces el espacio es Clase G, libre, pero la autoridad quiere un poco de orden 
 * **RMZ** (**Radio Mandatory Zone**): espacio no controlado donde es **obligatorio llevar radio y comunicar**. Antes de entrar debes decir quién eres, dónde estás y qué quieres.
 * **TMZ** (**Transponder Mandatory Zone**): es obligatorio llevar el **transponder** encendido y monitorizar la frecuencia de radio correspondiente.
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 Si ves una RMZ en el mapa, no entres mudo. Llama a la frecuencia indicada e informa: "Ibiza Información, EC-BOH, planeador, entrando en RMZ sector norte…​".
 :::
 
@@ -64,9 +60,7 @@ El espacio aéreo puede tener "candados" por seguridad o defensa, marcados con c
 
 ![Carta aeronáutica VFR mostrando zonas LEP141 (Prohibida, rojo, por central nuclear de Almaraz); LER170 y LER71C (Restringidas); LED125 (Peligrosa).](imagenes/01-cap07-zonas-prd.png){#fig-01-cap07-zonas-prd}
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Infringir una zona P o R activa puede llevar a sanciones graves e incluso a la interceptación por aviones militares. Planifica tu vuelo y comprueba los NOTAM para saber si las zonas R están activas. Las señales de interceptación y el procedimiento de respuesta (SERA.11015) se estudian en el Libro 4 (*Comunicaciones*), capítulo 8.
 :::
 

@@ -22,9 +22,7 @@ El instinto ante la caída es tirar de la palanca. En aviación, eso agrava la s
 
 Empuja la palanca hacia **adelante** hasta centrarla: el morro baja, el ángulo de ataque disminuye y el aire vuelve a adherirse al extradós. El planeador gana velocidad arrastrado por la gravedad. Cuando recuperes una velocidad segura —el proceso consume típicamente entre 30 y 50 metros de altura— tira suavemente de la palanca para nivelar.
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 Durante la recuperación de una pérdida, la palanca debe mantenerse siempre rigurosamente centrada en el eje lateral (cero alerones). Intentar levantar instintivamente un ala caída usando los alerones empeorará el escenario: el alerón que baja aumentará el ángulo de ataque local de esa ala caída, profundizando aún más su pérdida e iniciando violentamente la temida autorrotación o barrena. Usa siempre y exclusivamente el pedal contrario (timón de dirección) para evitar la guiñada y sostener las alas.
 :::
 
@@ -34,9 +32,7 @@ La velocidad de pérdida que indica el Manual de Vuelo es para vuelo recto y niv
 
 Esta **pérdida acelerada** es traicionera porque el morro no tiene que estar especialmente alto. Con una actitud de morro aparentemente normal, tirar de palanca en un viraje cerrado puede superar el ángulo de ataque crítico sin que el piloto lo note hasta que el ala cede.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 El escenario estadísticamente más letal: el viraje del tramo **base a final** en el circuito de tráfico, a menos de 150 metros de altura. El piloto mete pedal para cuadrar la final, el morro se desvía hacia un lado, compensa tirando de palanca… y el planeador entra en pérdida asimétrica sin margen de recuperación. Volar el circuito coordinado y con margen de velocidad no es una exigencia técnica: es lo que separa un aterrizaje normal de un accidente.
 :::
 

@@ -642,15 +642,13 @@ Es la normativa de obligado cumplimiento. Nadie queda eximido de ella salvo que 
 #callout(
 body: 
 [
-⚖ #strong[NORMATIVA]
-
 El Reglamento (UE) 2018/1139 (Reglamento Base) establece las normas comunes en el ámbito de la aviación civil y crea la Agencia de la Unión Europea para la Seguridad Aérea (EASA). Es la norma de mayor rango en el sistema europeo.
 
 ]
 , 
 title: 
 [
-Importante
+Normativa
 ]
 , 
 background_color: 
@@ -691,8 +689,6 @@ supplement: "Figura",
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 - #strong[Normativa vinculante (Reglamentos)] = #strong[QUÉ] debes cumplir (obligatorio).
 - #strong[Estándares no vinculantes (AMC/GM)] = #strong[CÓMO] cumplirlo de forma estándar (recomendado).
 
@@ -700,7 +696,7 @@ body:
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -732,15 +728,13 @@ El #strong[Sailplane Air Operations] regula cómo se opera el planeador de forma
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 Según SAO.GEN.130 (Part-SAO), el piloto al mando es responsable de la seguridad de la aeronave y de todas las personas a bordo durante las operaciones. Esta responsabilidad no se delega: tú eres la autoridad final en tu cabina.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -764,15 +758,13 @@ El #strong[Standardised European Rules of the Air] es el código de circulación
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 SERA.3210 establece las prioridades de paso para evitar colisiones. Un planeador siempre tiene prioridad sobre aeronaves de motor (aviones, helicópteros), pero debe ceder el paso a globos. Conoce estas reglas de memoria.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -845,15 +837,13 @@ Su validez es de #strong[un año], así que toca renovarlo o prorrogarlo anualme
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Nunca vueles si el ARC está caducado. Es ilegal y, lo más importante, significa que nadie ha certificado oficialmente que el avión es seguro para volar en el último año. Además, muy probablemente tu aseguradora rechazará la cobertura si ocurre algo: la mayoría de las pólizas la condicionan a que la aeronave esté aeronavegable.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -910,15 +900,13 @@ Si encuentras algo mal durante la pre-vuelo o durante el vuelo, anótalo en el #
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 ¿Ves una muesca en el gelcoat? No es solo estética: si afecta al perfil, afecta al vuelo. Ante la duda, pregunta. Es mejor ser un piloto curioso que un piloto en apuros.
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -965,15 +953,13 @@ En España, la marca de nacionalidad es #NormalTok("EC");, seguida de un guion y
 #callout(
 body: 
 [
-⚖ #strong[NORMATIVA]
-
 El artículo 20 del Convenio de Chicago establece que toda aeronave empleada en la navegación aérea internacional debe llevar las correspondientes marcas de nacionalidad y matrícula. En España, las matrículas comienzan por #strong[EC-].
 
 ]
 , 
 title: 
 [
-Importante
+Normativa
 ]
 , 
 background_color: 
@@ -1023,15 +1009,13 @@ En ella van grabados la marca de nacionalidad, la matrícula y los datos de fabr
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Nunca pintes encima de la placa de identificación ni la cubras. Su función es vital en caso de investigación de accidentes. Si restauras el planeador, asegúrate de que la placa sigue ahí y es legible.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1068,15 +1052,13 @@ Junto a las letras, es obligatorio llevar la #strong[bandera de España], normal
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 #strong[EC] = Nemotecnia #emph[#strong[E]spaña #strong[C]ivil]. La marca oficial OACI para España es "EC".
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -1131,15 +1113,13 @@ Vale tanto un certificado #strong[Clase 2] como un #strong[LAPL] (#strong[Light 
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Si tu salud cambia (operación, enfermedad grave, embarazo, nuevas gafas), tu certificado médico puede quedar en suspenso. Consulta siempre con un Médico Examinador Aéreo (AME) antes de volver a volar.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1184,8 +1164,6 @@ No pierdes la licencia; tus privilegios quedan "dormidos". Para despertarlos tie
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 - #strong[5 , 15 , 2]
 - #strong[5] horas, #strong[15] despegues, #strong[2] vuelos con instructor. (En los últimos 2 años).
 
@@ -1193,7 +1171,7 @@ body:
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -1232,15 +1210,13 @@ Y una vez cumplido eso, hay un requisito de recencia: #strong[3 lanzamientos en 
 #callout(
 body: 
 [
-⚖ #strong[NORMATIVA]
-
 Reglamentos (UE) 2018/1976 y 2020/358 (SFCL.115): el titular de una SPL solo transportará pasajeros si, tras obtener la licencia, ha completado 10 horas de vuelo o 30 lanzamientos como PIC #strong[y un vuelo de entrenamiento demostrando la competencia a un FI(S)] (o posee certificado FI(S)), además de cumplir la recencia de SFCL.160(e). El incumplimiento implica sanción y pérdida de cobertura del seguro.
 
 ]
 , 
 title: 
 [
-Importante
+Normativa
 ]
 , 
 background_color: 
@@ -1292,15 +1268,13 @@ En vuelo visual, tú eres el único responsable de no chocar. El control de trá
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 La mayoría de colisiones ocurren en días claros y cerca de los aeródromos. Nunca asumas que el otro te ha visto. Si tienes dudas, cede el paso.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1400,15 +1374,13 @@ supplement: "Figura",
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 #strong[Globo \> Planeador \> Motor.] Si tiene motor, te cede el paso. Si es un globo, tú cedes. Si vais de frente, #strong[siempre a la derecha].
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -1491,15 +1463,13 @@ Para evitar encuentros frontales en ruta, cada uno vuela a una altitud según su
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 #strong[Norte Par / Sur Impar] Hacia el #strong[N]orte → Niveles #strong[P]ares. Hacia el #strong[S]ur → Niveles #strong[I]mpares.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -1540,8 +1510,6 @@ Tu altímetro mide presión, no altura. Según qué presión le pongas en la ven
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 Como regla mnemotécnica en inglés:
 
 - #strong[QNH] = #emph[#strong[N]autical #strong[H]eight] (Altitud sobre el nivel del mar).
@@ -1551,7 +1519,7 @@ Como regla mnemotécnica en inglés:
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -1571,15 +1539,13 @@ white
 #callout(
 body: 
 [
-⚖ #strong[NORMATIVA]
-
 Por debajo de la #strong[Altitud de Transición] (6.000 ft en la mayor parte de España, salvo excepciones como Madrid o Granada), volamos con #strong[QNH] (Altitud). Por encima, calamos #strong[1013] y volamos en #strong[Niveles de Vuelo (FL)].
 
 ]
 , 
 title: 
 [
-Importante
+Normativa
 ]
 , 
 background_color: 
@@ -1606,15 +1572,13 @@ A medida que subes hay menos oxígeno, y la hipoxia es un enemigo silencioso: te
 #callout(
 body: 
 [
-⚖ #strong[NORMATIVA]
-
 #strong[AMC1 SAO.OP.150:] El piloto al mando debe asegurarse de que todos los ocupantes utilicen oxígeno suplementario siempre que la altitud de presión sea superior a los #strong[10.000 ft], en los casos en que no pueda determinar cómo la falta de oxígeno puede afectar a las personas a bordo.
 
 ]
 , 
 title: 
 [
-Importante
+Normativa
 ]
 , 
 background_color: 
@@ -1634,15 +1598,13 @@ white
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 La norma legal es el mínimo. Fisiológicamente, muchos pilotos sufren deterioro a partir de 8.000-9.000 ft, especialmente de noche o ante fatiga. En vuelos de onda, conecta el oxígeno y úsalo antes de alcanzar los 10.000 ft.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1666,15 +1628,13 @@ La misma normativa de operaciones fija el equipamiento mínimo del planeador seg
 #callout(
 body: 
 [
-⚖ #strong[NORMATIVA]
-
 #strong[SAO.IDE.105 a)]: todo planeador debe llevar medios para medir y mostrar la hora (en horas y minutos), la altitud de presión y la velocidad aerodinámica indicada; los planeadores motorizados añaden el rumbo magnético. #strong[SAO.IDE.105 b)]: para volar en condiciones de nebulosidad o de noche se añaden medios para medir y mostrar la velocidad vertical, la actitud ---o el viraje y el resbale--- y el rumbo magnético.
 
 ]
 , 
 title: 
 [
-Importante
+Normativa
 ]
 , 
 background_color: 
@@ -1743,15 +1703,13 @@ La OACI define 7 clases, pero en España usamos principalmente las clases #stron
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 Aunque la normativa OACI define teóricamente las clases #strong[B] y #strong[F], en la práctica no se utilizan para la aviación general o la formación en España. El espacio aéreo español es mayoritariamente Clase G (espacio no controlado fuera de rutas/aeropuertos) o Clases A, C, D y E (en rutas y entornos aeroportuarios).
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -1791,15 +1749,13 @@ A veces el espacio es Clase G, libre, pero la autoridad quiere un poco de orden 
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 Si ves una RMZ en el mapa, no entres mudo. Llama a la frecuencia indicada e informa: "Ibiza Información, EC-BOH, planeador, entrando en RMZ sector norte…​".
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -1840,15 +1796,13 @@ supplement: "Figura",
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Infringir una zona P o R activa puede llevar a sanciones graves e incluso a la interceptación por aviones militares. Planifica tu vuelo y comprueba los NOTAM para saber si las zonas R están activas. Las señales de interceptación y el procedimiento de respuesta (SERA.11015) se estudian en el Libro 4 (#emph[Comunicaciones]), capítulo 8.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -1926,8 +1880,6 @@ Aquí la responsabilidad es #strong[tuya]. El FIS te avisa ("tráfico a las 12")
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 - #strong[ATC]: "Vire rumbo 360 por tráfico". (Orden obligatoria, ellos te separan).
 - #strong[FIS]: "Tráfico convergiendo a su derecha". (Información, TÚ decides qué hacer para no chocar).
 
@@ -1935,7 +1887,7 @@ body:
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -1984,15 +1936,13 @@ supplement: "Figura",
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Si tienes una emergencia real y #strong[NO] has presentado Plan de Vuelo ni estás en contacto radio, el Servicio de Alerta tardará mucho más en activarse (solo cuando tu familia avise de que no has vuelto). ¡Usa la radio y el Plan de Vuelo!
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -2088,15 +2038,13 @@ Son avisos que no justifican un NOTAM (no afectan a la operación de forma urgen
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 En España, puedes consultar todo esto gratis en los portales #strong[ICARO] e #strong[Insignia] de ENAIRE. Insignia es una herramienta visual fantástica para ver NOTAMs sobre el mapa. Acostúmbrate a usarla.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -2206,15 +2154,13 @@ supplement: "Figura",
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 Antes de despegar o al llegar a un campo nuevo, #strong[busca siempre el área de señales]. Te dará información (pista en uso y sentido de giro) de un solo vistazo, incluso sin radio.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -2324,8 +2270,6 @@ supplement: "Figura",
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Si volando interceptas una señal de socorro (visual o en 121.5 MHz):
 
 + #strong[Anota la posición].
@@ -2337,7 +2281,7 @@ Si volando interceptas una señal de socorro (visual o en 121.5 MHz):
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -2423,15 +2367,13 @@ supplement: "Figura",
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Si ves a alguien merodeando por los hangares, manipulando aviones ajenos o comportándose de forma sospechosa en el aeródromo, #strong[avisa inmediatamente] al responsable del campo o a las fuerzas de seguridad. La seguridad es cosa de todos.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -2506,15 +2448,13 @@ Los plazos no son iguales: a la CIAIAC, comunica el accidente o incidente grave 
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 La normativa europea promueve la "Cultura Justa". El objetivo de notificar #strong[NO es buscar culpables] (salvo negligencia grave o dolo), sino #strong[aprender]. No tengas miedo a reportar tus errores; es la única forma de que el sistema mejore.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 
@@ -2547,8 +2487,6 @@ supplement: "Figura",
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Si sufres o presencias un accidente:
 
 + Prioridad: #strong[Salvar vidas] y evitar más peligros (fuego, etc.).
@@ -2558,7 +2496,7 @@ Si sufres o presencias un accidente:
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -2607,15 +2545,13 @@ Mientras AESA supervisa y sanciona, la DGAC juega en el terreno político y norm
 #callout(
 body: 
 [
-⚓ #strong[AIRMANSHIP / BUENAS PRÁCTICAS]
-
 Podríamos decir que la #strong[DGAC] escribe las "reglas del juego" (política y estrategia) y #strong[AESA] es el "árbitro" que asegura que se cumplan en el día a día (supervisión y sanción).
 
 ]
 , 
 title: 
 [
-Nota
+Airmanship
 ]
 , 
 background_color: 
@@ -2675,15 +2611,13 @@ supplement: "Figura",
 #callout(
 body: 
 [
-⚠ #strong[SEGURIDAD]
-
 Las sanciones económicas pueden ser #strong[muy elevadas], incluso para pilotos privados. Volar sin licencia, sin seguro, o bajo los efectos del alcohol puede costarte miles de euros y la inhabilitación para volar. El desconocimiento de la ley #strong[NO] te exime de su cumplimiento.
 
 ]
 , 
 title: 
 [
-Advertencia
+Seguridad
 ]
 , 
 background_color: 
@@ -2703,15 +2637,13 @@ white
 #callout(
 body: 
 [
-✦ #strong[REGLA DE ORO]
-
 Ante cualquier duda sobre la legalidad de una operación (ej: volar cerca de un aeropuerto controlado, llevar pasajeros sin recencia), #strong[pregunta antes a tu club, instructor o a AESA]. Es mejor preguntar que enfrentarse a un expediente sancionador.
 
 ]
 , 
 title: 
 [
-Tip
+Regla de oro
 ]
 , 
 background_color: 

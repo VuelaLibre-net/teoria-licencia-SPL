@@ -16,9 +16,7 @@ El Cumulonimbus (Cb) representa la manifestación más severa de la inestabilida
 
 ![Nube Cumulonimbus (Cb) en fase de madurez, mostrando su desarrollo vertical extremo (Foto: Pedro Berlinches, 2022)](imagenes/03-cap09-cb.jpg){#fig-03-cap09-cumulonimbus}
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Las células de tormenta en desarrollo o incrustadas ("embedded Cb") dentro de capas nubosas densas (como frentes cálidos u ocluidos) pueden enmascarar su presencia. Ante pronósticos de sistemas tormentosos severos, alertas meteorológicas marcando núcleos intensos, o indicios de fuerte inestabilidad, debe priorizarse el retorno rápido y seguro a tierra.
 :::
 
@@ -45,9 +43,7 @@ No todo el hielo es igual. La escarcha aparte —que no es engelamiento por got�
 
 En cualquiera de sus formas, las consecuencias son las mismas: la velocidad de pérdida (**stall speed**) sube, la relación de planeo cae y la cúpula se opaca. El planeador no dispone de ningún sistema anti-hielo.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Al primer síntoma de engelamiento —escarcha en el borde del ala o cristales en la cúpula— actúa de inmediato:
 
 1. Gira 180° y sal de la zona de nubosidad.

@@ -14,15 +14,11 @@ La palabra se repite **tres veces** para que destaque sobre el tráfico normal y
 
 *«Mayday, Mayday, Mayday…​»*
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 La transmisión maliciosa o falsa de un mensaje de socorro MAYDAY moviliza recursos de búsqueda y salvamento (SAR) estatales. Según la Ley de Seguridad Aérea, simular emergencias o proporcionar información falsa que comprometa la seguridad se tipifica como infracción muy grave, conlleva sanciones económicas elevadas y puede resultar en la revocación de la licencia de vuelo.
 :::
 
-::: {.callout-important}
-⚖ **NORMATIVA**
-
+::: {.callout-important title="Normativa"}
 La declaración de un MAYDAY impone, según la normativa internacional (OACI/EASA), un **silencio de radio absoluto** para todas las demás estaciones áreas y terrestres operando en esa frecuencia. Ningún otro tráfico debe transmitir a menos que sea para ofrecer ayuda directa a la aeronave en peligro o para retransmitir su mensaje a la Torre de Control (**Mayday relay**).
 :::
 
@@ -112,15 +108,11 @@ Si te interceptan, aplica de inmediato los cuatro pasos de SERA.11015:
 3. **Intenta la radio**: llamada general en **121,500 MHz**, indicando tu identidad y la índole del vuelo (por ejemplo: *«Aeronave interceptada, velero EC-EPE, vuelo VFR de Fuentemilanos a Santo Tomé, escucho»*).
 4. **Selecciona 7700 en modo A** en el transpondedor, salvo que el ATS te instruya otra cosa.
 
-::: {.callout-important}
-⚖ **NORMATIVA**
-
+::: {.callout-important title="Normativa"}
 SERA.11015 c): «Si alguna instrucción recibida por radio de cualquier fuente estuviera en conflicto con las instrucciones dadas por la aeronave interceptora mediante señales visuales, la aeronave interceptada requerirá aclaración inmediatamente mientras continúa cumpliendo con las instrucciones visuales dadas por la aeronave interceptora.» La misma regla se aplica si el conflicto es con instrucciones dadas por radio por el interceptor (SERA.11015 d)).
 :::
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 **Las instrucciones del interceptor prevalecen sobre cualquier otra fuente, incluido el ATC**, mientras solicitas aclaración. Un interceptor armado que cree que no cooperas es el escenario más peligroso en el que puede meterse una aeronave civil: mantén una trayectoria suave y predecible, no hagas maniobras bruscas y responde a cada señal.
 :::
 
@@ -128,9 +120,7 @@ SERA.11015 c): «Si alguna instrucción recibida por radio de cualquier fuente e
 
 También el interceptado tiene señales propias (tabla S11-2 de SERA): encender y apagar **todas las luces disponibles a intervalos regulares** significa «imposible cumplir» (serie 5), y hacerlo **a intervalos irregulares** significa «en peligro» (serie 6). Si logras contacto por radio pero no hay idioma común, la norma prevé frases estándar (tabla S11-3): el interceptor usará FOLLOW («sígame»), DESCEND («descienda») o YOU LAND («aterrice»); tú responderás WILCO («cumpliré»), CAN NOT («imposible cumplir»), AM LOST («posición desconocida») o MAYDAY.
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 Un velero sin luces de navegación tiene pocas opciones de señalización: tu respuesta visible es el **alabeo amplio y claro**. Compensa el resto con la radio (121,500 MHz) y el transpondedor (7700). Y recuerda que la mejor interceptación es la que no ocurre: comprueba los NOTAM y el estado de las zonas P y R antes de cada vuelo de travesía.
 :::
 

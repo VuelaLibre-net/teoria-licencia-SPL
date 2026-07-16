@@ -21,9 +21,7 @@ Casi todos los instrumentos básicos funcionan midiendo presiones de aire:
 * **Toma pitot**: normalmente en el morro o en el borde de ataque de la deriva. Mide la presión total (estática más dinámica) que produce el movimiento.
 * **Tomas estáticas**: pequeños orificios en los laterales del fuselaje que miden la presión ambiente del aire, sin influencia de la velocidad.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Las tomas de presión son un imán para los insectos. Un nido de araña en el pitot hará que tu anemómetro marque cero en pleno despegue. Pon fundas protectoras en tierra y comprueba que las tomas están limpias en la inspección prevuelo. Y no soples nunca directamente en ellas: la sobrepresión revienta las delicadas membranas de los instrumentos.
 :::
 
@@ -48,9 +46,7 @@ Estas marcas se complementan con las velocidades de remolque y torno indicadas e
 
 No todos los instrumentos del panel son obligatorios. La normativa europea fija un mínimo que depende del tipo de vuelo, y obliga a llevar más cuanto peores son las condiciones de visibilidad.
 
-::: {.callout-important}
-⚖ **NORMATIVA**
-
+::: {.callout-important title="Normativa"}
 **SAO.IDE.105** exige a todo planeador medios para medir y mostrar la hora (en horas y minutos), la altitud de presión y la velocidad aerodinámica indicada. Los planeadores motorizados llevan además rumbo magnético.
 
 Para volar en condiciones de nebulosidad (nubes) o de noche se añaden tres: la velocidad vertical, la actitud o el viraje y resbale, y el rumbo magnético. El vuelo nocturno exige, además, luces de navegación, anticolisión, de aterrizaje y de cabina.

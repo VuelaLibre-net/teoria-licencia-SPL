@@ -14,9 +14,7 @@ Al accionar la palanca lateralmente para iniciar un giro, el alerón del ala ext
 
 ![La guiñada adversa: el morro guiña al lado contrario del giro](imagenes/05-cap04-guinada-adversa.png){#fig-05-cap04-guinada-adversa}
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 La solución a la guiñada adversa es la **Coordinación Pie-Mano**. Se debe aplicar palanca y pedal hacia el mismo lado y al mismo tiempo. El timón de dirección contrarresta el freno abrupto del ala exterior, forzando al morro a seguir la curva suavemente sin derrapar.
 :::
 
@@ -36,9 +34,7 @@ El derrape es el que hay que evitar: el ala interior va más lenta y puede alcan
 
 ![Los tres estados del hilo de lana: coordinado, derrape y resbale](imagenes/05-cap04-hilo-lana-estados.png){#fig-05-cap04-hilo-lana-estados}
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 Vuela con el hilo recto. Si se mueve, corrígelo con el pedal. Y si el hilo está torcido y los mandos están blandos al mismo tiempo, actúa: estás a punto de entrar en pérdida.
 :::
 
@@ -46,9 +42,7 @@ Vuela con el hilo recto. Si se mueve, corrígelo con el pedal. Y si el hilo est�
 
 El compensador (trim) no es solo un alivio para el brazo. Es, de hecho, un mando aerodinámico: equilibra las fuerzas en la cola y permite que el planeador mantenga por sí solo una actitud de morro y velocidad constantes sin que tengas que empujar ni tirar.
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 Acostúmbrate a usar el compensador constantemente. Después de cambiar el régimen de vuelo (por ejemplo, de termicar a velocidad lenta a volar recto a mayor velocidad), primero establece la nueva actitud con la palanca y luego ajusta el trim hasta que no sientas fuerza en la mano.
 :::
 

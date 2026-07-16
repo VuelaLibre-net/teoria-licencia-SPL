@@ -25,9 +25,7 @@ Podemos entenderlo imaginando una pelota en diferentes relieves:
 * **Gradiente Adiabático Seco (DALR - **Dry Adiabatic Lapse Rate**)**: Mientras la burbuja no alcance el 100% de humedad, se enfría a un ritmo constante de **3 °C por cada 1.000 pies** (1 °C cada 100 metros).
 * **Gradiente Adiabático Saturado (SALR - **Saturated Adiabatic Lapse Rate**)**: Cuando la burbuja se enfría lo suficiente como para alcanzar su punto de rocío, el vapor de agua comienza a condensarse, formando la base de una nube (Nivel de Condensación por Ascenso o NCA). La condensación libera calor latente dentro de la burbuja. Por tanto, a partir de la base de la nube, la burbuja sigue subiendo, pero se enfría mucho más despacio, típicamente a **1,5 °C por cada 1.000 pies** (0,5 °C cada 100 metros en niveles bajos).
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 Puedes estimar fácilmente la altura de la base de los cúmulos restando la temperatura del punto de rocío a la temperatura ambiente en el suelo. Como los dejas atrás a razón de unos 2.5 °C por cada 1.000 pies de ascenso conjunto (el DALR menos la caída del punto de rocío), la fórmula es: **(T~ambiente~ - T~rocío~) x 400 = Altitud de la base en pies.**
 :::
 
@@ -47,9 +45,7 @@ Normalmente la temperatura disminuye con la altitud, pero en ocasiones ocurre lo
 
 Una inversión térmica actúa como una tapadera o techo de cristal. Debido a que el aire por encima de la inversión está sorprendentemente caliente, cuando una térmica sube y choca contra esa capa, de repente se encuentra rodeada de aire más caliente (y por tanto más ligero) que ella misma. La térmica pierde su flotabilidad (**buoyancy**) instantáneamente, deteniendo en seco el ascenso.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Las inversiones no solo limitan la altura máxima a la que puedes trepar en un planeador, frenando la convección por completo, sino que también atrapan humo, bruma y humedad industrial cerca de la superficie, reduciendo drásticamente la visibilidad en vuelo por debajo de la capa de inversión.
 :::
 
@@ -61,9 +57,7 @@ El sol no calienta el aire directamente, sino que calienta la superficie de la t
 
 Ese aire caliente, ahora menos denso y más ligero, tiende a subir por flotabilidad, formando una corriente convectiva o "térmica".Inicialmente, la burbuja se agarra al terreno por la fricción, aumentando su empuje ascensional hasta que finalmente se desprende y comienza a subir.
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 Para encontrar las mejores térmicas, busca "fuentes" que se calienten rápido (suelos secos, campos cosechados, zonas rocosas al sol) y "disparadores" o puntos de ruptura que ayuden a la burbuja a desprenderse del suelo, como una cresta de una colina orientada al viento, o una línea de árboles al borde del campo soleado.
 :::
 
@@ -98,9 +92,7 @@ La distinción clave que aporta la experiencia de campo: **el TT (Total Totals) 
 
 El índice Total Totals (TT) combina el gradiente vertical de temperatura con la humedad en capas bajas. Su fórmula:
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 El gráfico TT + K que el instructor cuelga cada mañana en el hangar te da la fotografía rápida del día. El TT te dice cuánto "combustible" tiene la atmósfera para armar un Cb en el llano; el K te lo dice para la montaña. No confíes en uno solo: úsalos juntos antes de cada preflight.
 :::
 
@@ -121,9 +113,7 @@ Umbrales del TT y su interpretación para el vuelo a vela:
 
 Los umbrales clásicos de tormenta del TT proceden del trabajo de Robert C. Miller para el centro de alertas militares de EE. UU. (*Notes on Analysis and Severe-Storm Forecasting Procedures of the Air Force Global Weather Central*, 1972); los tramos «para el vuelo a vela» de las dos primeras filas son una adaptación operativa de esta colección, no de Miller.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 El TT presenta limitaciones: sobrestima la inestabilidad si la temperatura a 500 hPa es muy baja sin soporte convectivo en capas bajas, y no detecta bien la estabilidad fuerte o la humedad elevada por debajo de 850 hPa. En esas situaciones, refuerza el análisis con el K-Index y el CAPE.
 :::
 
@@ -142,9 +132,7 @@ El K-Index combina el gradiente de temperatura entre 850 hPa y 500 hPa con la hu
 
 : Umbrales del K-Index y su interpretación
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 El K-Index fue diseñado para predecir tormentas, no la calidad del vuelo a vela. Sus umbrales varían según la región y la estación: en zonas áridas como la Meseta Central, la baja humedad puede dar K bajos incluso con térmicas potentes. En montaña, si el nivel de 850 hPa queda cerca del suelo, el índice pierde representatividad. Úsalo siempre junto al TT y, si el día tiene pinta de complicarse, añade el CAPE.
 :::
 
@@ -152,17 +140,13 @@ El K-Index fue diseñado para predecir tormentas, no la calidad del vuelo a vela
 
 * **CAPE** (**Convective Available Potential Energy**, Energía Potencial Convectiva Disponible): Cuantifica la energía disponible para la convección. Es el área entre la curva de la parcela y la curva de estado en el diagrama termodinámico. Valores de referencia: 0 J/kg = estabilidad absoluta; 1.000–2.500 J/kg = excelente día de térmicas; > 3.500 J/kg = convección severa probable.
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 Los valores de CAPE que ves en manuales de meteorología general suelen clasificar 1.000–2.500 J/kg como "moderadamente inestable", reservando "muy inestable" para valores superiores. Para el volovelista, ese rango es perfectamente excelente: proporciona térmicas potentes y bases altas sin el riesgo de tormenta severa. Cuando consultes herramientas externas como Skysight o la Universidad de Wyoming, interpreta el CAPE en contexto aeronáutico, no según las escalas de meteorología convectiva para tormentas.
 :::
 
 * **LI (Índice de Levantamiento o **Lifted Index**)**: Diferencia entre la temperatura de la parcela y la del ambiente a 500 hPa, tras elevarla adiabáticamente desde el suelo. Valores negativos indican inestabilidad: cuanto más negativo, mayor el potencial convectivo.
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 Día de convección excepcional — conocido coloquialmente como «día termonuclear» en el argot de competición —: TT entre 48 y 55, K entre 15 y 20, CAPE entre 1.000 y 2.500 J/kg, LI negativo y vientos flojos de componente variable. Son los días de récords de distancia. Puedes encontrar todos estos índices en cualquier sondeo online: gratuitamente en la Universidad de Wyoming, AEMET (AMA), Windy o Meteoblue; con previsiones orientadas al planeador en Skysight, Topmeteo o Meteo Parapente.
 :::
 
@@ -179,9 +163,7 @@ Las tablas de umbrales de los apartados anteriores tienen ocho tramos cada una p
 
 La regla de oro para el examen y para la cabina: un índice aislado no decide nada. TT y K dicen si el día vuela; CAPE y LI, cuánta energía tiene y si esa energía puede volverse contra ti en forma de tormenta.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 TT > 55 o K > 25 combinado con CAPE > 2.500 J/kg señala alto riesgo de tormenta de evolución diurna. En estas condiciones, planifica el aterrizaje antes de las 16:00 h y ten siempre identificado un campo de aterrizaje alternativo en tierra antes de que se levante la convección.
 :::
 

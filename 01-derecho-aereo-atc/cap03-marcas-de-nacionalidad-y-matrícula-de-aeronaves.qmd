@@ -16,9 +16,7 @@ Toda aeronave civil debe estar registrada en un país y llevar sus marcas de ide
 
 En España, la marca de nacionalidad es `EC`, seguida de un guion y tres letras: por ejemplo, `EC-BOH`. Estas marcas las asigna el Estado (AESA) y son únicas para cada aeronave.
 
-::: {.callout-important}
-⚖ **NORMATIVA**
-
+::: {.callout-important title="Normativa"}
 El artículo 20 del Convenio de Chicago establece que toda aeronave empleada en la navegación aérea internacional debe llevar las correspondientes marcas de nacionalidad y matrícula. En España, las matrículas comienzan por **EC-**.
 :::
 
@@ -41,9 +39,7 @@ Además de la pintura, tu planeador necesita una identidad "indestructible": una
 
 En ella van grabados la marca de nacionalidad, la matrícula y los datos de fabricante, modelo y número de serie (@fig-01-cap03-placa-ignifuga). Su razón de ser es sombría pero importante: si hay un accidente con fuego, la placa debe sobrevivir para que la aeronave pueda identificarse.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Nunca pintes encima de la placa de identificación ni la cubras. Su función es vital en caso de investigación de accidentes. Si restauras el planeador, asegúrate de que la placa sigue ahí y es legible.
 :::
 
@@ -53,9 +49,7 @@ Nunca pintes encima de la placa de identificación ni la cubras. Su función es 
 
 Junto a las letras, es obligatorio llevar la **bandera de España**, normalmente en la deriva o en el fuselaje, por encima de la matrícula y paralela a la línea de vuelo. Es el símbolo de la nacionalidad de la aeronave y de la soberanía del estado que la registra.
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 **EC** = Nemotecnia ***E**spaña **C**ivil*. La marca oficial OACI para España es "EC".
 :::
 

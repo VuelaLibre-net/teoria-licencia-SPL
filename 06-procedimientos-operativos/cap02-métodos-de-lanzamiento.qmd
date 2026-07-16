@@ -31,9 +31,7 @@ La comunicación entre el piloto y el operador del torno (tornero) es vital. Una
 
 La rotura de cable durante el ascenso es una de las emergencias más exigentes del vuelo de planeador. La reacción debe ser **instintiva e inmediata, sin dudar**. En el momento en que la tensión desaparece, el morro del planeador tiende a subir peligrosamente —el efecto del cable queda anulado de golpe— y la velocidad cae con rapidez. Si no se actúa en los dos primeros segundos, la pérdida aerodinámica (**stall**) a baja altura puede ser fatal.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Si el cable se rompe durante el ascenso, la prioridad **absoluta e inmediata** es **bajar el morro** a actitud de planeo para recuperar velocidad y evitar la pérdida. Solo una vez que la velocidad es segura, activa la suelta de emergencia del cable remanente y decide: aterrizar recto en la pista restante (baja altura), realizar un giro de 180° (altura media) o completar un circuito abreviado (altura suficiente). **En lanzamiento por torno, nunca intentes retornar a pista si estás por debajo de 150 metros**: es la maniobra más letal del vuelo sin motor.
 :::
 
@@ -56,9 +54,7 @@ Aunque se use la radio, las señales visuales son el estándar internacional de 
 
 ![Posición correcta del planeador en remolque por avión](imagenes/06-cap02-aerotow-posicion.jpg){#fig-06-cap02-aerotow-posicion}
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 Durante el remolque, mantén siempre el avión remolcador **en tu campo de visión**, preferiblemente en «posición alta» (las ruedas del remolcador apoyadas en el horizonte). Si el remolcador desaparece de tu campo de visión, has entrado en posición demasiado alta: el planeador estará levantando la cola del remolcador y puedes empujar su morro hacia el suelo. Ante cualquier duda, suelta el cable: siempre es la decisión más segura.
 :::
 
@@ -74,9 +70,7 @@ No es materia de examen ni algo que se aprenda de un libro: es un ejercicio de v
 
 ![Maniobra de entrenamiento para rodear la estela (Boxing the Wake)](imagenes/06-cap02-boxing-wake.jpg){#fig-06-cap02-boxing-wake}
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Evita realizar un cuadro demasiado estrecho o recortar las esquinas, ya que el planeador penetrará en los vórtices de punta de ala de forma descontrolada. Esto puede provocar un alabeo violento e imprevisto. Si pierdes el control o el remolcador desaparece de tu vista, suelta el cable inmediatamente.
 :::
 
@@ -102,9 +96,7 @@ Sin embargo, la operación con motor introduce una serie de riesgos específicos
 * **Resistencia aerodinámica del motor:** si el motor falla en vuelo o se apaga y queda desplegado sin retraerse, la polar de planeo se degrada de forma drástica (la tasa de descenso puede llegar a duplicarse). Volar con el motor fuera equivale a volar con los aerofrenos parcialmente abiertos.
 * **El dilema del arranque a baja altura:** la causa principal de accidentes en planeadores motorizados es el intento del piloto de arrancar el motor en vuelo cuando se encuentra a muy baja altura para evitar un aterrizaje fuera de campo. Si el motor no arranca (debido al enfriamiento por viento, fallos eléctricos o falta de combustible), el piloto se queda sin motor y sin la altitud necesaria para planificar un aterrizaje fuera de campo seguro.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Establece siempre una altura mínima de seguridad para el arranque del motor en vuelo (típicamente **300 metros AGL**). Si desciendes por debajo de esa altura y el motor no arranca al primer intento, desiste inmediatamente, olvídate del motor y concéntrate exclusivamente en realizar un aterrizaje fuera de campo controlado. Muchos accidentes graves ocurren por intentar solucionar fallos del motor a escasos metros del suelo.
 :::
 
@@ -129,9 +121,7 @@ Independientemente del método de lanzamiento, existen reglas de seguridad comun
   * Mandos libres y correctamente conectados (movimiento cruzado confirmado).
   * Cinturones ajustados y trabados.
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 Realiza siempre una comprobación de mandos cruzada (**cross-check**) con otro piloto o el jefe de fila antes del lanzamiento. Un mando de alerones o timón no conectado correctamente puede ser imposible de detectar durante la inspección individual. Esta sencilla verificación elimina una de las causas más frecuentes de accidentes en el despegue.
 :::
 
@@ -143,9 +133,7 @@ Antes de cada jornada de vuelo y en cada inspección prevuelo individual, el pil
 * **Anillas de remolque:** inspecciona las anillas metálicas en los extremos del cable. En Europa, el sistema estándar es el **doble anillo Tost**. Comprueba que las anillas no presenten grietas, abolladuras, soldaduras desgastadas o deformaciones elípticas.
 * **Cables y cuerdas de remolque:** revisa la cuerda de nailon o el cable de acero en toda su longitud. Debe estar libre de nudos. **Un solo nudo en la cuerda de remolque reduce su resistencia estructural hasta en un 50 %** y crea un punto de alta fricción propenso a la rotura. Comprueba que no haya filamentos deshilachados y que la cuerda no presente decoloración por exposición prolongada a la radiación UV.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD: INCOMPATIBILIDAD DE ANILLAS**
-
+::: {.callout-warning title="Seguridad: INCOMPATIBILIDAD DE ANILLAS"}
 El sistema de doble anilla Tost es el único homologado para ganchos Tost. El uso accidental de una anilla simple de tipo americano (Schweizer) en un gancho Tost grasping-style puede provocar que el gancho no se libere al accionar el tirador en vuelo, resultando en un arrastre incontrolable. Verifica siempre la compatibilidad del cable antes de enganchar.
 :::
 
@@ -181,9 +169,7 @@ En los clubes europeos se utiliza el sistema estandarizado de la firma Tost. Es 
 
 Los colores, numeración y resistencias nominales corresponden al catálogo de fusibles de seguridad de Tost Flugzeuggerätebau; la aplicación concreta la fija siempre el AFM de cada planeador.
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Nunca instales un fusible de seguridad de resistencia superior a la especificada en el AFM de tu planeador, ni realices puenteos en el cable utilizando mosquetones o grilletes sin fusible. En caso de una sobretensión brusca (como una ráfaga o un tirón por cable flojo), la rotura de las alas o del morro del planeador ocurrirá antes de que el cable se rompa. Asimismo, utilizar un fusible excesivamente resistente en remolque por avión puede causar daños graves en el gancho de morro y en la estructura del fuselaje antes de romperse.
 :::
 
@@ -197,9 +183,7 @@ Este briefing estructura la toma de decisiones inmediata en caso de una rotura d
 2. **Fallo a baja altura:** definir la altura límite por debajo de la cual el aterrizaje se realizará recto y sin virar, identificando zonas libres de obstáculos fuera de la pista si es necesario.
 3. **Fallo a altura crítica y retorno:** definir la altura mínima para intentar un viraje de retorno seguro —como referencia, 150 metros AGL en lanzamiento por torno y 70 metros AGL en remolque por avión (ver )— y decidir previamente hacia qué lado se virará, considerando la dirección y fuerza del viento actual para contrarrestar la deriva.
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 No comiences la carrera de despegue sin haber verbalizado o repasado mentalmente tu **emergency briefing**. En caso de rotura de cable a baja altura, no hay tiempo para pensar qué hacer; la acción correcta (bajar el morro, estabilizar la velocidad y la trayectoria) debe estar precargada en la mente y ejecutarse como una respuesta refleja.
 :::
 

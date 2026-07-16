@@ -18,9 +18,7 @@ Para contactar, sintoniza la frecuencia de "Información" de tu zona (**Madrid I
 
 *"Madrid Información, velero EC-DPE, sobre la sierra de Ayllón a 2000 metros, rumbo sur hacia Fuentemilanos, solicito información de tráfico."*
 
-::: {.callout-note}
-⚓ **AIRMANSHIP / BUENAS PRÁCTICAS**
-
+::: {.callout-note title="Airmanship"}
 En travesías de vuelo a vela (**cross-country**), mantener la escucha en la frecuencia del FIS regional correspondiente proporciona una capa adicional de seguridad, especialmente en días con desarrollo tormentoso donde la información meteorológica en tiempo real es crítica. Además, estar en contacto con el FIS acelera la activación de los servicios de Búsqueda y Salvamento (SAR) ante una toma en campo fuera de aeródromo.
 :::
 
@@ -39,9 +37,7 @@ Cuando necesites cambiar de frecuencia, hay dos casos (@fig-04-cap04-cambio-frec
 
 Si tu planeador tiene **transpondedor**, emite un código de cuatro dígitos () que el ATC usa para identificarte en pantalla. En VFR, el código por defecto es **7000**, salvo que el ATC te asigne uno distinto. Los códigos de emergencia los encontrarás en el capítulo 9.
 
-::: {.callout-important}
-⚖ **NORMATIVA**
-
+::: {.callout-important title="Normativa"}
 Los códigos 7600 (fallo de radio) y 7700 (emergencia) activan alertas inmediatas en todos los centros de control. Selecciónelos únicamente ante la situación real que corresponda y extreme la precaución al cambiar de código para no activarlos accidentalmente.
 :::
 
@@ -57,9 +53,7 @@ Antes de entrar y mientras estés dentro tienes que:
 
 Las RMZ activas en España aparecen en la carta **ENR 6.12**. Revísala en la planificación prevuelo, sobre todo en travesías que pasen cerca de grandes aeropuertos en espacio no controlado.
 
-::: {.callout-important}
-⚖ **NORMATIVA**
-
+::: {.callout-important title="Normativa"}
 Las RMZ están reguladas por el Reglamento SERA y permiten al Estado miembro establecer requisitos de radio en espacio aéreo donde el servicio de control no es obligatorio. Sus límites y condiciones aparecen referenciados en la **carta ENR 6.12** (carta de zonas de radio obligatoria).
 :::
 

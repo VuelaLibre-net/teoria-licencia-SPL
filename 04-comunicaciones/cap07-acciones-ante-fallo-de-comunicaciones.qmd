@@ -21,9 +21,7 @@ Con la situación NORDO declarada, el plan es este:
 3. **Aterriza en el aeródromo adecuado más cercano.** Preferiblemente uno no controlado: te integras en el circuito visual con los ojos bien abiertos y aterrizas.
 4. **Llama por teléfono en cuanto estés en tierra.** Contacta con la dependencia ATC correspondiente para confirmar el aterrizaje. Si no lo haces, los servicios ATS activarán la fase de Búsqueda y Salvamento (SAR).
 
-::: {.callout-warning}
-⚠ **SEGURIDAD**
-
+::: {.callout-warning title="Seguridad"}
 Si no tienes más remedio que aterrizar en un aeródromo controlado, acércate a la Torre por zonas que no interfieran con las operaciones y haz balanceos de alas (**wing rock**) para que te vean. Luego colócate paralelo a la pista, por delante de la torre, y mira las señales luminosas del ATC.
 :::
 
@@ -33,9 +31,7 @@ Si no tienes más remedio que aterrizar en un aeródromo controlado, acércate a
 
 Desde los primeros aeródromos, las torres de control tienen focos direccionales con filtros de color —la «pistola de luces»— precisamente para esto: guiar a aeronaves sin radio (@fig-04-cap07-pistola-luces). Memoriza estas señales. Si algún día las necesitas, no habrá tiempo para buscarlas.
 
-::: {.callout-important}
-⚖ **NORMATIVA**
-
+::: {.callout-important title="Normativa"}
 Las señales luminosas de la Torre de Control están reguladas por el Reglamento de Ejecución (UE) n.º 923/2012 —Reglas Europeas Estandarizadas del Aire (**SERA**)—. Su correcto conocimiento e interpretación es obligatorio para todo piloto que opere en espacios aéreos con servicio ATC (Fuente: documentación oficial SERA, EASA / AESA).
 :::
 
@@ -56,9 +52,7 @@ Las señales luminosas de la Torre de Control están reguladas por el Reglamento
 * ●●● **Serie de destellos rojos**: Apártese del área de aterrizaje en uso.
 * ○○○ **Serie de destellos blancos**: Regrese al punto de partida en el aeródromo.
 
-::: {.callout-tip}
-✦ **REGLA DE ORO**
-
+::: {.callout-tip title="Regla de oro"}
 Al recibir una señal de la Torre en vuelo, acusa recibo de la única forma posible: de día, guiñadas con el timón o balanceos de alas bien visibles. De noche, encendiendo y apagando las luces de aterrizaje o de navegación. En tierra, moviendo los alerones o el timón de dirección.
 :::
 
