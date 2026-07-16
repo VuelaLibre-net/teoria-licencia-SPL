@@ -1,4 +1,4 @@
-# Introducción {.unnumbered}
+# Cómo leer este libro {.unnumbered}
 
 ***Tema 5 de 9 del examen teórico para la Licencia de Piloto de Planeador (SPL)***
 
@@ -9,3 +9,44 @@ Cuando el ángulo de ataque supera el valor crítico, la sustentación colapsa i
 Siete capítulos transforman la física del vuelo en criterio de pilotaje real: sustentación, resistencia, estabilidad, control, pérdida, barrena y espiral.
 
 El planeador no vuela por arte de magia. Vuela porque alguien entendió la física antes de sentarse en la cabina.
+<!-- GUÍA-DE-LECTURA: desde esta marca hasta el final, el texto es idéntico en
+     los 9 libros y el CI comprueba que no diverge. Si lo editas, propágalo a
+     los otros 8. Todo lo anterior es propio de este libro. -->
+
+**Empieza por el final de cada capítulo**
+
+Cada capítulo se cierra con un resumen sobre fondo amarillo. No es un adorno ni un añadido: es el capítulo reducido a lo que no puedes olvidar.
+
+Léelo **antes** de estudiar el capítulo, para saber hacia dónde vas, y vuelve a él **al terminar**, para comprobar si lo que retienes es lo que importa. La víspera del examen, esos resúmenes son tu repaso completo: si uno solo te resulta ajeno, ya sabes qué capítulo tienes que releer.
+
+**Los recuadros no son notas al margen**
+
+El texto corrido explica. Los recuadros advierten, y cada uno habla con una voz distinta. Reconocerla te dice cómo hay que leerlo:
+
+::: {.callout-warning title="Seguridad"}
+Señalan aquello cuyo incumplimiento puede costarte el planeador o la vida. Son los que hay que releer antes de volar, no antes del examen.
+:::
+
+::: {.callout-important title="Normativa"}
+Recogen lo que la ley exige. No admiten criterio propio: se cumplen. Cuando discrepen de tu costumbre, la equivocada es la costumbre.
+:::
+
+::: {.callout-tip title="Regla de oro"}
+Condensan en una frase algo que a un piloto le costó años aprender. Están para que a ti te cueste un minuto.
+:::
+
+::: {.callout-note title="Airmanship"}
+Hablan del juicio que no está escrito en ninguna norma: lo que distingue a un piloto legal de un piloto bueno. La normativa marca el mínimo; esto marca el criterio.
+:::
+
+**Cómo encontrar lo que buscas**
+
+El **índice** de los preliminares lleva a cada capítulo y a sus apartados. Detrás va la **lista de ilustraciones**: los dibujos y esquemas van numerados y se citan desde el texto, de modo que puedes ir directo a la figura y volver.
+
+El **glosario**, al final del libro, define los términos y acrónimos del tema. Úsalo sin pudor: buena parte de la dificultad de la aviación está en su vocabulario, no en sus ideas. La **bibliografía** dice de dónde sale cada cosa y por dónde seguir si un capítulo te sabe a poco.
+
+**Lo que este libro no es**
+
+Este manual prepara el examen teórico y no sustituye a tu instructor. La teoría te da criterio; el criterio se convierte en pilotaje en el asiento del planeador, con un FI(S) al lado.
+
+Y cuando la normativa cambie —cambiará—, el texto legal publicado por AESA o EASA prevalece sobre lo que leas aquí.

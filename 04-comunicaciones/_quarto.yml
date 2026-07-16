@@ -44,6 +44,9 @@ format:
       top: 2.5cm
       bottom: 2.5cm
   epub:
+    # Los .qmd llevan la marca GUÍA-DE-LECTURA como comentario HTML, para el
+    # editor. Typst los descarta solos; el EPUB los arrastraría al entregable.
+    strip-comments: true
     toc: true
     epub-cover-image: cover/frente.jpg
     include-in-header: _extensions/orange-book-es/epub-estilos.html
