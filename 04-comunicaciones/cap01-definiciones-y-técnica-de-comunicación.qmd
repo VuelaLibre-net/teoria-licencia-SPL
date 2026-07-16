@@ -132,7 +132,6 @@ Añade siempre tu indicativo al final de cada colación. Así el controlador con
 | G | Golf | P | Papa | Y | Yankee |
 | H | Hotel | Q | Quebec | Z | Zulu |
 | I | India | R | Romeo |  |  |
-
 : Alfabeto fonético OACI {#tbl-tabla-alfabeto-fonetico}
 
 | Dígito | Pronunciación | Dígito | Pronunciación | Dígito | Pronunciación |
@@ -141,7 +140,6 @@ Añade siempre tu indicativo al final de cada colación. Así el controlador con
 | 1 (*One*) | Uno | 5 (*Five*) | Cinco | 9 (*Niner*) | Nueve (*) |
 | 2 (*Two*) | Dos | 6 (*Six*) | Seis |  |  |
 | 3 (*Three*) | Tres | 7 (*Seven*) | Siete |  |  |
-
 : Dígitos fonéticos OACI
 
 ::: {.callout-note title="Airmanship"}

@@ -45,7 +45,6 @@ Si estás en tierra y te busca un avión, tienes que comunicarte. Sin radio, usa
 | **N** | **NO** / Negativo | "N" de No. |
 | **Y** | **SÍ** / Afirmativo | "Y" de Yes. |
 | **→** | **Procedemos en esta dirección** | Flecha indicando rumbo. |
-
 : Código de señales visuales tierra-aire
 
 ![Código de señales visuales de socorro](imagenes/01-cap11-senales-socorro.jpg){#fig-01-cap11-senales-tierra-aire}

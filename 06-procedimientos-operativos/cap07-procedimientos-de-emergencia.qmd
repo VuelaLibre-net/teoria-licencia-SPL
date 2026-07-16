@@ -165,7 +165,6 @@ Como ficha de repaso rápido, esta tabla resume la respuesta inmediata a cada em
 | Fallo de pitot / estática | Vuela por actitud visual y sonido del aire; ignora el instrumento afectado. |
 | Apertura de cúpula en vuelo | Vuela primero el planeador; baja el morro; no intentes cerrarla si estás bajo. |
 | Vaciado asimétrico del lastre | +15-20 km/h en circuito, virajes suaves hacia el ala ligera, alas niveladas al tocar. |
-
 : Síntoma → acción inmediata en las emergencias del capítulo
 
 ::: {.postit}

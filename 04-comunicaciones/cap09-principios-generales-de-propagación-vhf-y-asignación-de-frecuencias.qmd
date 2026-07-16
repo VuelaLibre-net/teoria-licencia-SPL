@@ -68,7 +68,6 @@ Saberte de memoria las frecuencias más habituales te permite sintonizarlas sin 
 | **123,400** | Vuelo a vela (alternativa) | Segunda frecuencia alternativa de coordinación para planeadores. |
 | **123,450** | Frecuencia de «charla» (**air-to-air**) | Comentarios de vuelo y coordinación informal entre pilotos. No debe usarse para gestiones con ATC ni FIS. |
 | **123,500** | Aeródromo no controlado genérico | Autoinformación en aeródromos sin torre o con AFIS donde no hay frecuencia específica publicada. |
-
 : Frecuencias VHF de referencia para el piloto de planeador
 
 Las frecuencias de **FIS regionales** de España (Madrid, Barcelona, Sevilla, Palma de Mallorca, Gran Canaria) varían por sector y altitud. Se publican en el AIP España (GEN 3.3) y en las cartas de navegación OACI 1:500.000. Cada aeródromo con torre o AFIS tiene su propia frecuencia, publicada en la carta VAC del aeródromo. La propia tabla de arriba procede del AIP-España (GEN 3.4 y ENR 1.8).

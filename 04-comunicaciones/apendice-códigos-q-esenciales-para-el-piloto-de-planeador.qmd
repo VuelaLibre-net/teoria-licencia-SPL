@@ -10,7 +10,6 @@ Como piloto de planeador los verás sobre todo en dos sitios: **altimetría** (Q
 | --- | --- |
 | **QNH** | Reglaje de la subescala del altímetro para indicar la altitud sobre el nivel medio del mar (MSL). Es el reglaje estándar para VFR por debajo de la altitud de transición. Con QNH, el altímetro muestra la altitud AMSL en vuelo, que es la que necesitas para respetar los techos de los espacios aéreos. Cuando el ATC te facilite un QNH, repite el valor numérico completo; no basta con «Recibido». |
 | **QFE** | Presión atmosférica en la elevación del aeródromo o en el umbral de pista. Con el altímetro calado a QFE, marca cero pies en tierra en ese aeródromo. En vuelo indica la altura sobre ese aeródromo de referencia, no sobre el terreno que estás sobrevolando. Poco habitual en la aviación europea actual; el QNH es el ajuste de referencia en las comunicaciones ATS. |
-
 : Códigos Q de altimetría
 
 ## Códigos de radiogoniometría y pista
@@ -22,7 +21,6 @@ Aparecen cuando pides orientación a una estación de tierra mediante radiogoni�
 | **QDM** | Rumbo magnético para dirigirse **hacia** la estación transmisora. |
 | **QDR** | Rumbo magnético **desde** la estación (marcación o radial). |
 | **QFU** | Dirección magnética de la pista en uso. Es el número de pista multiplicado por diez (pista 23 → QFU 230°). Aparece en comunicaciones AFIS o en campos con mucho ruido de fondo donde el número de pista puede confundirse. |
-
 : Códigos Q de radiogoniometría y pista
 
 ::: {.callout-note title="Airmanship"}

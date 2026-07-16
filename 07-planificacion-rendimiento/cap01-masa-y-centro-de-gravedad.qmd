@@ -56,7 +56,6 @@ Imagina un monoplaza cuyo manual de vuelo da un rango de CG permitido de +0,25 m
 | Planeador en vacío (según ficha de pesaje) | 265 | +0,55 | +145,75 |
 | Piloto + paracaídas | 85 | −0,45 | −38,25 |
 | **Total** | **350** | — | **+107,50** |
-
 : Ejemplo de hoja de centrado de un monoplaza
 
 CG = 107,50 / 350 = **+0,31 m**, dentro del rango permitido.

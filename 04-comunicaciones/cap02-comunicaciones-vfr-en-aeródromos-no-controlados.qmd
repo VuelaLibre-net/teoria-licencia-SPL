@@ -97,7 +97,6 @@ Sin radio tierra-aire, el ayudante de ala (**wing runner**) coordina con señale
 | Ala en tierra (no nivelada) | Planeador no listo — no tensar |
 | Alas niveladas + aerofrenos fuera | Tensar cable suavemente |
 | Alas niveladas + aerofrenos replegados | Cable tenso OK — lanzar |
-
 : Señales visuales del ayudante de ala
 
 ::: {.callout-warning title="Seguridad"}

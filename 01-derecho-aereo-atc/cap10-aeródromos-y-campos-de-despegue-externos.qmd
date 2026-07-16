@@ -41,7 +41,6 @@ Si no tienes radio (o te falla), el suelo te habla. Las **señales luminosas** q
 | **Diagonal Única** | (Cuadrado rojo con una diagonal amarilla). **PRECAUCIÓN**. El área de maniobras está en mal estado. |
 | **Doble Cruz Blanca** | **Planeadores en actividad**. ¡Ojo! Indica que se realizan operaciones de vuelo a vela. |
 | **Mancuerna (Pesas)** | (Blanca). Aterrizaje, despegue y rodaje **SOLO en pistas y calles pavimentadas**. No pises la hierba. |
-
 : Señales visuales de aeródromo
 
 ![El lenguaje del suelo: Área de señales](imagenes/01-cap10-senales-aerodromo.png){#fig-01-cap10-area-senales}

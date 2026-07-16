@@ -54,7 +54,6 @@ Para evaluar si un campo es apto en los pocos segundos que tienes disponibles, u
 | **Pasto / Pradera** | Engañoso | Puede ocultar piedras, zanjas, cercas de alambre ocultas o ganado no visible desde el aire. |
 | **Viñedo** | Inaceptable | Los postes y alambres de las hileras destruirán el planeador con certeza. |
 | **Arrozal** | Inaceptable | El terreno está inundado. El contacto con el agua a velocidad de aterrizaje provocará el vuelco. |
-
 : Idoneidad de superficies para aterrizaje fuera de campo
 
 ## Técnica de aproximación y toma en campo desconocido

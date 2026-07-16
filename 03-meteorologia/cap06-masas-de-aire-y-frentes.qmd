@@ -65,7 +65,6 @@ Antes de hablar de temperatura relativa, es útil conocer de dónde viene el air
 | **Tc / Tm** | Tropical (continental o marítimo) | Cálido | Tm: húmedo, bruma frecuente, térmicas débiles. Tc: caluroso y seco, inestabilidad fuerte en verano, excelentes térmicas en la Meseta. |
 | **Pc / Pm** | Polar (continental o marítimo) | Frío | Pm: húmedo, post-frontal clásico, bases de cúmulos bajas pero térmicas presentes. Pc: muy frío y seco, visibilidad excepcional. |
 | **A** | Ártico / Antártico | Muy frío | Irrupciones invernales desde el norte. Termómetros negativos en pista, engelamiento severo, vientos fuertes. No volar. |
-
 : Clasificación de masas de aire por origen y trayectoria
 
 La situación más frecuente en la Península Ibérica durante la temporada de vuelo (primavera-verano) es la llegada de **masa polar marítima (Pm)** tras el paso de un frente frío. Al cruzar el Atlántico y calentarse por contacto con el suelo peninsular caliente, esta masa genera la combinación perfecta para el vuelo de cross-country: cielo azul, buena visibilidad, bases a 5.000-7.000 ft y térmicas de 3-4 m/s.

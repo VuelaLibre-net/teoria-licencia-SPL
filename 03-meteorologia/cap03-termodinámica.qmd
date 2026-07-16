@@ -108,7 +108,6 @@ Umbrales del TT y su interpretación para el vuelo a vela:
 | 58 | Tormentas moderadas dispersas, algunas severas y algún tornado aislado |
 | 61 | Tormentas frecuentes moderadas; alguna severa o algún tornado |
 | 64 | Tormentas frecuentes moderadas con tormentas severas y tornados |
-
 : Umbrales del Total Totals (TT) y su interpretación
 
 Los umbrales clásicos de tormenta del TT proceden del trabajo de Robert C. Miller para el centro de alertas militares de EE. UU. (*Notes on Analysis and Severe-Storm Forecasting Procedures of the Air Force Global Weather Central*, 1972); los tramos «para el vuelo a vela» de las dos primeras filas son una adaptación operativa de esta colección, no de Miller.
@@ -129,7 +128,6 @@ El K-Index combina el gradiente de temperatura entre 850 hPa y 500 hPa con la hu
 | 15–20 | Excelente: bases altas, térmicas potentes, chubascos ocasionales |
 | 20–30 | Excelente convección, pero riesgo creciente de chubascos y tormentas |
 | > 30 | Alta probabilidad de tormentas (> 60 %): no planifiques vuelos largos |
-
 : Umbrales del K-Index y su interpretación
 
 ::: {.callout-note title="Airmanship"}
@@ -158,7 +156,6 @@ Las tablas de umbrales de los apartados anteriores tienen ocho tramos cada una p
 | **K** (K-Index) | 15–25 (matizado en montaña) | > 25 |
 | **CAPE** | 1.000–2.500 J/kg | > 2.500–3.500 J/kg |
 | **LI** (Lifted Index) | ligeramente negativo | muy negativo |
-
 : Los cuatro índices de sondeo, versión «nivel examen»
 
 La regla de oro para el examen y para la cabina: un índice aislado no decide nada. TT y K dicen si el día vuela; CAPE y LI, cuánta energía tiene y si esa energía puede volverse contra ti en forma de tormenta.

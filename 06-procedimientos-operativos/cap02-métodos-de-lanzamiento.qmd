@@ -164,7 +164,6 @@ En los clubes europeos se utiliza el sistema estandarizado de la firma Tost. Es 
 | **Rojo** (No. 3) | 750 daN | Lanzamiento por torno de biplazas de escuela ligeros / monoplazas pesados. |
 | **Marrón** (No. 2) | 850 daN | Lanzamiento por torno de biplazas de escuela y veleros de alto rendimiento. |
 | **Negro** (No. 1) | 1000 daN | Lanzamiento por torno de biplazas pesados cargados o motoveleros. |
-
 : Códigos de colores y resistencias de fusibles de seguridad Tost
 
 Los colores, numeración y resistencias nominales corresponden al catálogo de fusibles de seguridad de Tost Flugzeuggerätebau; la aplicación concreta la fija siempre el AFM de cada planeador.

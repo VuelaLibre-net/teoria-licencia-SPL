@@ -23,7 +23,6 @@ En el viraje, el factor de carga crece con la inclinación, porque las alas tien
 | Inclinación | 0° | 30° | 45° | 60° |
 | --- | --- | --- | --- | --- |
 | Factor de carga | 1g | 1,15g | 1,41g | 2g |
-
 : Factor de carga en función de la inclinación en viraje
 
 A 60° de alabeo el planeador "pesa" el doble: un velero de 500 kg somete sus alas a 1.000 kg. Por eso un viraje muy escarpado, sobre todo a baja velocidad, acerca peligrosamente a la pérdida.

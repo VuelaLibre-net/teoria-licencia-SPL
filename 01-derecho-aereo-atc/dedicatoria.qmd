@@ -1,14 +1,11 @@
-# Dedicatoria {.unnumbered}
+# Dedicatoria {.unnumbered .unlisted .oculto}
 
-> **A la memoria de Iñaqui Ulibarri García de la Cueva**
->
-> El maestro que nos regaló las alas y nos enseñó a volar con sabiduría.
->
-> Aún te sentimos en el asiento de atrás; nos acompañas en cada térmica y en cada decisión al mando que tomamos recordando tus lecciones.
->
-> Gracias por dejarnos tu inmensa pasión como la mejor de las herencias.
+::: {.dedicatoria}
+**A la memoria de Iñaqui Ulibarri García de la Cueva**
 
-> "Un buen piloto es aquel que utiliza su excelente juicio para evitar situaciones que requieran su excelente habilidad."
->
->
->  — Frank Borman, piloto del Apolo 8 y referente de la disciplina aeronáutica.
+El maestro que nos regaló las alas y nos enseñó a volar con sabiduría.
+
+Aún te sentimos en el asiento de atrás; nos acompañas en cada térmica y en cada decisión al mando que tomamos recordando tus lecciones.
+
+Gracias por dejarnos tu inmensa pasión como la mejor de las herencias.
+:::

@@ -1,5 +1,6 @@
 # Información Legal y Licencia {.unnumbered}
 
+::: {.licencia}
 **Atribución y Fuentes**
 
 > El **temario de esta colección —el índice— está avalado por AESA** (Agencia Estatal de Seguridad Aérea), la autoridad aeronáutica civil de España. Este aval certifica que el programa de formación teórica para la Licencia de Piloto de Planeador (SPL) es conforme al syllabus del AMC1 SFCL.130; no obstante, el desarrollo del contenido es responsabilidad exclusiva de los autores.
@@ -49,3 +50,4 @@ CC BY 4.0
 **Fuentes**
 
 AESA, EASA, OACI, SERA, AMCs & GM, LSA, manuales de vuelo de Fuentemilanos, FAA Glider Flying Handbook, y manuales de vuelo de otros paises de la UE.
+:::

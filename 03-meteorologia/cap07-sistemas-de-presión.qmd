@@ -65,7 +65,6 @@ Cuando el mapa sinóptico muestre un collado centrado sobre tu zona de vuelo, no
 | Vaguada (surco) | — | Inestabilidad local creciente | Cumuliformes, chubascos | Tormentas aisladas y turbulencia. Evitar o planificar antes del calentamiento diurno. |
 | Dorsal (cuña) | — | Subsidencia estable | Escasa o nula | Condiciones VFR favorables, térmicas moderadas. Sin riesgo convectivo significativo. |
 | Collado / Pantano barométrico | — | Flojas y variables, sin dirección dominante | Variable (niebla en invierno; Cb estáticos en verano) | Impredecible. No planifiques vuelos de distancia hasta que el patrón se resuelva. |
-
 : Sistemas de presión sinópticos y su implicación operativa para el planeador
 
 ::: {.postit}

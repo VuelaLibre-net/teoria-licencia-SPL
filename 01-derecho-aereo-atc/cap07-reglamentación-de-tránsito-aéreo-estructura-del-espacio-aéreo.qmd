@@ -30,7 +30,6 @@ La OACI define 7 clases, pero en España usamos principalmente las clases **A, C
 | **D** | **Controlado** | **Separación**: ninguna para el VFR. ATC te da información de tráfico del IFR y de otros VFR, pero **ver y evitar es cosa tuya**. **Requisitos**: Autorización + Radio + Transponder (generalmente). |
 | **E** | **Controlado** (Para IFR) | **Híbrido**: Controlado para IFR, "libre" para VFR. **VFR**: No necesitas autorización ni radio (aunque es muy recomendable). ATC no te separa de nadie, pero da información de tráfico si puede. |
 | **G** | **NO Controlado** | **Libre**: Vuelas bajo tu responsabilidad. **Servicio**: Solo Información de Vuelo (FIS) si la pides. |
-
 : Clases de espacio aéreo y requisitos VFR para planeadores
 
 ::: {.callout-note title="Airmanship"}

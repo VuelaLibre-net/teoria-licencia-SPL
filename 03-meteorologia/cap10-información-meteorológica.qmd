@@ -41,7 +41,6 @@ Veamos un ejemplo típico en un día de vuelo, paso a paso:
 | Quién lo emite | Observador o estación automática del aeródromo | Oficina meteorológica (AEMET) |
 | Uso principal | Verificar las condiciones al despegar o al llegar | Planificar el vuelo con antelación |
 | Indicadores clave | `CAVOK`, `NSC`, `FG`, `BR`, `NOSIG` | `TEMPO`, `BECMG`, `PROB30`, `PROB40` |
-
 : METAR vs TAF: diferencias clave para la planificación del vuelo
 
 ## Mapas de tiempo significativo (SIGWX)
