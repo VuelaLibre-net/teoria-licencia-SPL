@@ -37,3 +37,4 @@ format:
       bottom: 2.5cm
   epub:
     toc: true
+    include-in-header: _extensions/orange-book-es/epub-estilos.html

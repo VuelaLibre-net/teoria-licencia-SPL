@@ -1,0 +1,79 @@
+<!-- Estilos del EPUB, inyectados en el <head> de cada capítulo.
+     Se usa include-in-header y NO la opción `css:` del formato epub: `css:`
+     REEMPLAZA la hoja por defecto de Quarto en vez de sumarse a ella, y el EPUB
+     se quedaba con 8 selectores en lugar de 40 (adiós a blockquote, code, h1-h6,
+     notas al pie...). include-in-header añade sin quitar. -->
+<style type="text/css">
+/* Estilos del EPUB.
+ *
+ * Los mismos divs que en el PDF compone la extensión Typst (postit, dedicatoria,
+ * epigrafe, licencia, colofon) llegan aquí como <div class="..."> porque el
+ * filtro postit.lua sólo se declara en el formato typst. Este fichero les da un
+ * aspecto equivalente en el EPUB.
+ *
+ * No se persiguen los milímetros del PDF: un EPUB no tiene página fija y el
+ * lector manda sobre el cuerpo y los márgenes. Se replican los colores y la
+ * intención; el resto se deja en unidades relativas.
+ */
+
+/* Resumen de capítulo con aspecto de post-it. Colores tomados del tema AsciiDoc
+ * original (recursos/temas/pdf-theme.yml, rol `postit`), los mismos que usa
+ * postit.typ en el PDF. */
+div.postit {
+  background-color: #FFF9C4;
+  border: 1px solid #FBC02D;
+  border-radius: 4px;
+  padding: 0.9em 1.1em;
+  margin: 2em 0;
+  color: #5D4037;
+  font-family: sans-serif;
+  font-size: 0.95em;
+}
+
+div.postit > p:first-child {
+  margin-top: 0;
+}
+
+div.postit > :last-child {
+  margin-bottom: 0;
+}
+
+/* Dedicatoria y epígrafe no llevan título visible. Sus ficheros SÍ tienen un H1
+ * —Quarto lo exige en todo capítulo del libro— marcado `.oculto`: en el PDF lo
+ * retira postit.lua y aquí lo esconde el CSS. El mismo marcador para los dos
+ * formatos. */
+h1.oculto {
+  display: none;
+}
+
+/* Dedicatoria: a la derecha, en cursiva y mayor, como en el PDF. El centrado
+ * vertical no se replica: en un EPUB no hay página que centrar. */
+div.dedicatoria {
+  text-align: right;
+  font-style: italic;
+  font-size: 1.3em;
+  margin: 3em 0;
+  line-height: 1.5;
+}
+
+/* Epígrafe: más discreto que la dedicatoria y sangrado. */
+div.epigrafe {
+  font-style: italic;
+  margin: 3em 1.5em;
+  line-height: 1.5;
+}
+
+/* Página de créditos: cuerpo menor, como es costumbre, para que no compita con
+ * el contenido. */
+div.licencia {
+  font-size: 0.9em;
+}
+
+/* Colofón: notas de producción al cierre del libro. */
+div.colofon {
+  text-align: center;
+  font-size: 0.9em;
+  margin-top: 3em;
+  line-height: 1.5;
+}
+</style>
