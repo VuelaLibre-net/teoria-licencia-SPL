@@ -139,6 +139,30 @@ jobs:
             errores=1
           fi
 
+          # Estado editorial: sólo los libros completados salen sin nota. Se
+          # comprueba la NOTA de la portadilla, no la marca de agua: aquella es
+          # texto legible y ésta va rotada, así que pdftotext la extrae con las
+          # letras desordenadas y no hay forma de buscarla.
+          #
+          # Completado = mayor >= 1 y sin sufijo de pre-lanzamiento: un 1.0-rc.4
+          # es ANTERIOR a la 1.0.0, no posterior.
+          libro=$(basename "$pdf" .pdf)
+          version=$(sed -n 's/^version: *"\{0,1\}\([^"]*\)"\{0,1\}/\1/p' "$libro/_quarto.yml" | head -1)
+          mayor=${version%%.*}
+          case "$version" in *-*) pre=1 ;; *) pre=0 ;; esac
+          etiquetas='EN REVISIÓN|CREANDO ILUSTRACIONES|EN DESARROLLO'
+          if [ "${mayor:-0}" -ge 1 ] 2>/dev/null && [ "$pre" -eq 0 ]; then
+            if grep -qE "$etiquetas" <<<"$portadilla"; then
+              echo "::error file=$pdf::Versión $version es un libro completado y no debe llevar nota de estado"
+              errores=1
+            fi
+          else
+            if ! grep -qE "$etiquetas" <<<"$portadilla"; then
+              echo "::error file=$pdf::Versión $version no está completada y la portadilla no lleva su nota de estado"
+              errores=1
+            fi
+          fi
+
           # Cubierta y contracubierta: páginas de imagen a sangre, primera y
           # última. Se cuentan las imágenes, no el texto: no llevan ninguno.
           paginas=$(pdfinfo "$pdf" 2>/dev/null | awk '/^Pages/{print $2}')
