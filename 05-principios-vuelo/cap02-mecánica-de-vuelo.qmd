@@ -50,7 +50,7 @@ El punto clave, y el que suele caer en el examen: **el lastre no cambia el L/D m
 
 Dos dispositivos permiten al piloto cambiar la forma de la curva polar cuando le conviene:
 
-* **Aerofrenos (**airbrakes** o **spoilers**)**: al extenderse, destruyen sustentación y añaden mucha resistencia. La polar entera se desploma: para una misma velocidad, la tasa de descenso se dispara. Son la herramienta de control de senda en la aproximación —permiten bajar sin acelerar— y su efecto operativo en el circuito se detalla en el **Libro 6 — Procedimientos operativos**.
+* **Aerofrenos (airbrakes o spoilers)**: al extenderse, destruyen sustentación y añaden mucha resistencia. La polar entera se desploma: para una misma velocidad, la tasa de descenso se dispara. Son la herramienta de control de senda en la aproximación —permiten bajar sin acelerar— y su efecto operativo en el circuito se detalla en el **Libro 6 — Procedimientos operativos**.
 * **Flaps**: modifican la curvatura del perfil. En posición positiva aumentan la sustentación y desplazan la polar hacia velocidades bajas (útil en térmica); en posición negativa la reducen y la desplazan hacia velocidades altas (útil en transición rápida). No todos los veleros los llevan.
 
 La descripción constructiva de estos dispositivos —cómo son y cómo se accionan— corresponde al **Libro 8 — Conocimiento de la aeronave**, capítulo 5; aquí interesa su efecto aerodinámico sobre la polar y la pérdida.

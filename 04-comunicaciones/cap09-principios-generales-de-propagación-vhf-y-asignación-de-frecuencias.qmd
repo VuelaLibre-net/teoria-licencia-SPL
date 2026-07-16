@@ -54,7 +54,7 @@ Las ondas VHF viajan en línea recta y no atraviesan la roca. Si bajas por debaj
 En alta montaña, anticipa esto con dos medidas:
 
 1. **Anticipa la falta de cobertura**: Si tienes que notificar un informe de posición al FIS, hazlo **antes** de meterte en ese valle o detrás de esa cordillera.
-2. **El avión puente (**Relay**)**: En una emergencia desde el fondo de un cajón sin cobertura, recuerda que por encima de ti hay planeadores de tu propio club a más altura, o aviones comerciales en ruta. Ellos «ven» tanto tu posición en el valle como la torre lejana. Úsalos como **estaciones relé**. Emite: *«Tráfico en 123,500, aquí Eco Papa Eco en emergencia en el fondo del valle del Jerte, ¿alguien puede retransmitir mi Mayday a Madrid Información?»* Sus ondas llegarán libres de obstáculos hasta la torre, y ellos retransmitirán tu llamada.
+2. **El avión puente (Relay)**: En una emergencia desde el fondo de un cajón sin cobertura, recuerda que por encima de ti hay planeadores de tu propio club a más altura, o aviones comerciales en ruta. Ellos «ven» tanto tu posición en el valle como la torre lejana. Úsalos como **estaciones relé**. Emite: *«Tráfico en 123,500, aquí Eco Papa Eco en emergencia en el fondo del valle del Jerte, ¿alguien puede retransmitir mi Mayday a Madrid Información?»* Sus ondas llegarán libres de obstáculos hasta la torre, y ellos retransmitirán tu llamada.
 
 ## Frecuencias usuales en aviación deportiva
 

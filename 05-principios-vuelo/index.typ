@@ -867,7 +867,7 @@ El punto clave, y el que suele caer en el examen: #strong[el lastre no cambia el
 <aerofrenos-y-flaps-modificar-la-polar-a-voluntad>
 Dos dispositivos permiten al piloto cambiar la forma de la curva polar cuando le conviene:
 
-- #strong[Aerofrenos (]airbrakes\*\* o #strong[spoilers])#strong[: al extenderse, destruyen sustentación y añaden mucha resistencia. La polar entera se desploma: para una misma velocidad, la tasa de descenso se dispara. Son la herramienta de control de senda en la aproximación ---permiten bajar sin acelerar--- y su efecto operativo en el circuito se detalla en el ]Libro 6 --- Procedimientos operativos\*\*.
+- #strong[Aerofrenos (airbrakes o spoilers)]: al extenderse, destruyen sustentación y añaden mucha resistencia. La polar entera se desploma: para una misma velocidad, la tasa de descenso se dispara. Son la herramienta de control de senda en la aproximación ---permiten bajar sin acelerar--- y su efecto operativo en el circuito se detalla en el #strong[Libro 6 --- Procedimientos operativos].
 - #strong[Flaps]: modifican la curvatura del perfil. En posición positiva aumentan la sustentación y desplazan la polar hacia velocidades bajas (útil en térmica); en posición negativa la reducen y la desplazan hacia velocidades altas (útil en transición rápida). No todos los veleros los llevan.
 
 La descripción constructiva de estos dispositivos ---cómo son y cómo se accionan--- corresponde al #strong[Libro 8 --- Conocimiento de la aeronave], capítulo 5; aquí interesa su efecto aerodinámico sobre la polar y la pérdida.
@@ -1251,7 +1251,7 @@ Sin embargo, a medida que reduces la velocidad acercándote a la entrada en pér
 #strong[Resumen del Capítulo: Control]
 
 - #strong[Guiñada adversa]: el efecto secundario más molesto en los veleros de gran envergadura. Al alabear para girar, el ala que sube tiene más resistencia y frena ese lado, metiendo el morro #strong[al revés] del giro. #strong[Antídoto]: pie y mano juntos (coordinación).
-- #strong[Hilo de lana (]yaw string#strong[)]: indicador de coordinación en el parabrisas. Recto = vuelo coordinado. Hilo hacia el interior del viraje = derrape (#strong[skid]); hacia el exterior = resbale (#strong[slip]). El derrape es el peligroso: el ala interior puede entrar en pérdida asimétrica. Corrígelo pisando el pedal contrario al lado del hilo.
+- #strong[Hilo de lana (yaw string)]: indicador de coordinación en el parabrisas. Recto = vuelo coordinado. Hilo hacia el interior del viraje = derrape (#strong[skid]); hacia el exterior = resbale (#strong[slip]). El derrape es el peligroso: el ala interior puede entrar en pérdida asimétrica. Corrígelo pisando el pedal contrario al lado del hilo.
 - #strong[Compensador (trim)]: no es solo para descansar el brazo. Es fundamental para mantener una velocidad constante sin esfuerzo. Compensa siempre que cambies de régimen de vuelo (de termicar a planear rápido).
 - #strong[Eficacia de mando]: los mandos "hablan". Si están duros, vas rápido. Si están blandos y "chiclosos", estás cerca de la pérdida. Escucha lo que te dicen a través de la mano.
 - #strong[Mando diferencial]: diseño de los alerones para reducir la guiñada adversa (el alerón que sube lo hace más que el que baja), pero aun así necesitarás pie.
@@ -1560,7 +1560,7 @@ supplement: "Figura",
 
 #strong[Resumen del Capítulo: Pérdida y Autorrotación]
 
-- #strong[Pérdida (]stall#strong[)]: el ala se "rinde" al superar el ángulo de ataque crítico (≈ 15-18°). La pérdida comienza en el encastre y progresa hacia las puntas: por eso los alerones conservan algo de autoridad al inicio. Avisos: morro alto, mandos blandos y bataneo; al ceder el ala, cae el morro.
+- #strong[Pérdida (stall)]: el ala se "rinde" al superar el ángulo de ataque crítico (≈ 15-18°). La pérdida comienza en el encastre y progresa hacia las puntas: por eso los alerones conservan algo de autoridad al inicio. Avisos: morro alto, mandos blandos y bataneo; al ceder el ala, cae el morro.
 - #strong[Pérdida acelerada]: en un viraje cerrado (60° → 2g), la velocidad de pérdida sube un 41%. El ala puede entrar en pérdida con el morro en actitud aparentemente normal. El viraje #strong[base-final] en el circuito es el escenario más letal.
 - #strong[Recuperación de la pérdida]: palanca adelante (bajar el morro) es la única cura. No uses los alerones para levantar un ala caída: profundizan la pérdida e inician la barrena.
 - #strong[Barrena (autorrotación)]: pérdida agravada y asimétrica con tres fases: #strong[incipiente] (recuperable antes de un giro), #strong[desarrollada] (movimiento constante) y #strong[recuperación] (cesa la rotación). Cada vuelta cuesta 50-100 m de altura.

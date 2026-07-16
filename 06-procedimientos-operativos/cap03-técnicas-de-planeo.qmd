@@ -8,8 +8,8 @@
 >
 > * **Centrado de térmicas**: cómo detectar el núcleo y cómo desplazar el viraje hacia él.
 > * **El anillo MacCready**: qué es y cómo te dice exactamente a qué velocidad volar entre térmicas.
-> * **Vuelo de ladera (**ridge soaring**)**: técnica, reglas de tráfico y márgenes de seguridad.
-> * **Vuelo de onda (**wave soaring**)**: identificación, condiciones ideales y riesgos del rotor.
+> * **Vuelo de ladera (ridge soaring)**: técnica, reglas de tráfico y márgenes de seguridad.
+> * **Vuelo de onda (wave soaring)**: identificación, condiciones ideales y riesgos del rotor.
 > * **Lastre de agua**: cuándo usarlo, cuándo vaciarlo y qué cambia en la aerodinámica del planeador.
 
 ## Vuelo en térmicas
@@ -105,7 +105,7 @@ Un planeador con lastre de agua tiene una **velocidad de pérdida significativam
 **Resumen del Capítulo: Técnicas de planeo**
 
 * **Centrado de térmica**: siente el empujón en el asiento. Si el ala derecha sube, el núcleo está a la derecha: vira a la derecha. Cierra el viraje cuando el vario sube, ábrelo cuando baja. Con práctica, este ciclo se vuelve automático.
-* **Hilo de lana lateral (**side string**)**: técnica complementaria opcional para visualizar de forma didáctica el ángulo de ataque en vuelo lento; no sustituye al hilo central ni al anemómetro.
+* **Hilo de lana lateral (side string)**: técnica complementaria opcional para visualizar de forma didáctica el ángulo de ataque en vuelo lento; no sustituye al hilo central ni al anemómetro.
 * **Anillo MacCready**: tu selector de velocidad óptima. Pon el anillo en el valor de ascenso que esperas encontrar (p. ej., 2 m/s) y vuela a la velocidad que te marque. Acelera en corrientes descendentes, aminora en corrientes ascendentes.
 * **Ladera**: mantente pegado a barlovento con vía de escape hacia el valle siempre disponible. Si tienes la ladera a tu derecha, tienes preferencia. Nunca vires hacia el monte.
 * **Onda**: la autopista al cielo. Sube en la zona laminar, delante de la nube de rotor. Requiere oxígeno y ropa de abrigo. Cuidado al bajar: el rotor puede romperte el planeador en segundos.

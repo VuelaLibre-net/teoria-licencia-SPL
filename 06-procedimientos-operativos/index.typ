@@ -642,7 +642,7 @@ Salvo que vueles a la vista del aeródromo o en una zona autorizada por la autor
 - #strong[Documento de identificación:] DNI, pasaporte o documento oficial con fotografía.
 - #strong[Manual de vuelo (AFM):] el manual específico del modelo de planeador que operas.
 - #strong[Cartas aeronáuticas:] actualizadas y adecuadas para la ruta prevista.
-- #strong[Libro de vuelo (]logbook#strong[):] datos suficientes ---o el propio libro--- para demostrar que cumples los requisitos de la normativa, la experiencia reciente incluida.
+- #strong[Libro de vuelo (logbook):] datos suficientes ---o el propio libro--- para demostrar que cumples los requisitos de la normativa, la experiencia reciente incluida.
 - #strong[Señales de interceptación:] una copia de los procedimientos y señales visuales internacionales de interceptación (SERA.11015; las señales y la respuesta correcta se estudian en el Libro 4, #emph[Comunicaciones], capítulo 8).
 
 El resto de los papeles de la aeronave ---certificado de matrícula, certificado de aeronavegabilidad con sus anexos, ARC, licencia de radio si lleva equipo, certificado del seguro y diario de a bordo--- no necesitan volar contigo: SAO.GEN.155 exige que estén disponibles en el aeródromo o lugar de operación.
@@ -812,7 +812,7 @@ Tras cada montaje de la aeronave, es obligatorio y vital realizar una #strong[co
 <remolque-por-carretera-trailering>
 El transporte del planeador en su remolque exige que las piezas encajen de forma precisa y firme:
 
-- #strong[Evita rozaduras (]chafing#strong[):] los planos y el fuselaje deben apoyarse en cunas acolchadas y específicas para el modelo, bloqueados firmemente para que las vibraciones en carretera no desgasten la fibra ni las superficies de control.
+- #strong[Evita rozaduras (chafing):] los planos y el fuselaje deben apoyarse en cunas acolchadas y específicas para el modelo, bloqueados firmemente para que las vibraciones en carretera no desgasten la fibra ni las superficies de control.
 - #strong[Cierre del carro:] asegura los cierres del carro y comprueba que las luces de señalización y los frenos del remolque funcionan correctamente antes de salir a la carretera.
 
 === Anclaje y aseguramiento (#emph[tiedown & securing])
@@ -852,7 +852,7 @@ supplement: "Figura",
 + #strong[Cabina y morro:] cúpula limpia y sin grietas. Mandos libres, cinturones en buen estado, batería cargada y fijada. Tomas de pitot y estática libres de obstrucciones.
 + #strong[Ala izquierda:] borde de ataque limpio. Holguras y conexiones de los alerones y flaps. Estado y blocaje de los aerofrenos. Patín o rueda de punta de ala.
 + #strong[Fuselaje izquierdo:] ausencia de grietas en la estructura de fibra. Estado de las antenas.
-+ #strong[Cola (]empennage#strong[):] fijación del estabilizador horizontal y vertical. Libre movimiento y holguras del timón de dirección y profundidad. Estado de las tomas de estática de cola y la sonda de energía total (TE).
++ #strong[Cola (empennage):] fijación del estabilizador horizontal y vertical. Libre movimiento y holguras del timón de dirección y profundidad. Estado de las tomas de estática de cola y la sonda de energía total (TE).
 + #strong[Fuselaje derecho:] inspección simétrica al lado izquierdo.
 + #strong[Ala derecha:] inspección simétrica al ala izquierda.
 + #strong[Tren de aterrizaje y ganchos:] presión y estado del neumático principal y de cola. Funcionamiento del freno de rueda. Comprobación de que el gancho de morro y el gancho de CG están limpios y operan libremente.
@@ -923,7 +923,7 @@ El lanzamiento es la fase de mayor energía del vuelo de planeador y, junto con 
 En este capítulo aprenderás:
 
 - #strong[El lanzamiento por torno]: dinámica, fraseología y procedimiento de emergencia ante rotura de cable.
-- #strong[El remolque por avión (]aerotow#strong[)]: posiciones en remolque, señales visuales y cómo actuar si no puedes soltar.
+- #strong[El remolque por avión (aerotow)]: posiciones en remolque, señales visuales y cómo actuar si no puedes soltar.
 - #strong[Las reglas generales de seguridad]: ganchos, velocidades y comprobaciones previas al enganche.
 ]
 
@@ -1099,7 +1099,7 @@ El peligro reside en que, cuando el planeador desacelera y el cable se afloja, l
 Para corregir un cable flojo, aplica la siguiente técnica según su severidad:
 
 - #strong[Seno leve:] si la comba en el cable es pequeña, mantén una trayectoria de vuelo estabilizada directamente detrás del remolcador. El propio planeo del velero reabsorberá el exceso de velocidad de forma natural y suave.
-- #strong[Seno moderado:] si el cable está visiblemente combado, #strong[realiza un resbale lateral (]sideslip#strong[) suave] apuntando el morro ligeramente hacia afuera de la trayectoria para aumentar la resistencia aerodinámica, o bien #strong[abre los aerofrenos de forma muy gradual e intermitente]. Esto ralentizará el planeador y estirará el cable con suavidad.
+- #strong[Seno moderado:] si el cable está visiblemente combado, #strong[realiza un resbale lateral (sideslip) suave] apuntando el morro ligeramente hacia afuera de la trayectoria para aumentar la resistencia aerodinámica, o bien #strong[abre los aerofrenos de forma muy gradual e intermitente]. Esto ralentizará el planeador y estirará el cable con suavidad.
 - #strong[Seno crítico:] si el cable forma un bucle grande y pierdes de vista el cable o el avión remolcador, #strong[suelta el cable de inmediato]. Es muy peligroso esperar a que se tense de golpe a gran velocidad.
 
 == El autolanzamiento (#emph[self-launch])
@@ -1108,7 +1108,7 @@ El #strong[autolanzamiento] es el método empleado por los planeadores motorizad
 
 Sin embargo, la operación con motor introduce una serie de riesgos específicos que deben gestionarse con rigor:
 
-- #strong[La tendencia al encabritado (]pitch-up tendency#strong[):] en la mayoría de los planeadores con motor retráctil, el motor se despliega en un mástil vertical sobre el fuselaje. La fuerza de tracción actúa muy por encima del eje longitudinal de la aeronave: al aplicar potencia genera un potente par de picado, y al reducirla o cortarla en el aire, un encabritado brusco. El piloto debe contrarrestar esta tendencia de forma activa y decidida con el timón de profundidad.
+- #strong[La tendencia al encabritado (pitch-up tendency):] en la mayoría de los planeadores con motor retráctil, el motor se despliega en un mástil vertical sobre el fuselaje. La fuerza de tracción actúa muy por encima del eje longitudinal de la aeronave: al aplicar potencia genera un potente par de picado, y al reducirla o cortarla en el aire, un encabritado brusco. El piloto debe contrarrestar esta tendencia de forma activa y decidida con el timón de profundidad.
 - #strong[Resistencia aerodinámica del motor:] si el motor falla en vuelo o se apaga y queda desplegado sin retraerse, la polar de planeo se degrada de forma drástica (la tasa de descenso puede llegar a duplicarse). Volar con el motor fuera equivale a volar con los aerofrenos parcialmente abiertos.
 - #strong[El dilema del arranque a baja altura:] la causa principal de accidentes en planeadores motorizados es el intento del piloto de arrancar el motor en vuelo cuando se encuentra a muy baja altura para evitar un aterrizaje fuera de campo. Si el motor no arranca (debido al enfriamiento por viento, fallos eléctricos o falta de combustible), el piloto se queda sin motor y sin la altitud necesaria para planificar un aterrizaje fuera de campo seguro.
 
@@ -1142,8 +1142,8 @@ white
 <métodos-de-lanzamiento-secundarios>
 Además del torno, el remolque por avión y el autolanzamiento, existen otros dos métodos contemplados en el syllabus, de uso poco común en la actualidad pero con gran relevancia en la historia del vuelo sin motor o en ubicaciones de montaña específicas:
 
-- #strong[Remolque por vehículo (]car launch#strong[):] similar al torno, pero en lugar de un motor fijo enrollando un cable, es un coche o camión el que corre por una pista larga tirando del cable enganchado al planeador. Requiere una coordinación precisa de velocidad entre el conductor del vehículo y el planeador, y pistas extremadamente largas (más de 1.500 metros).
-- #strong[Lanzamiento por goma (]bungee launch#strong[):] es el método fundacional del vuelo sin motor. Se utiliza en laderas empinadas y con vientos fuertes de cara. El planeador se sujeta por la cola, mientras un equipo de personas estira una goma elástica gruesa unida al gancho de morro del planeador. Cuando la goma está tensa, se libera el planeador y este sale catapultado directamente hacia la ascendencia dinámica de la ladera.
+- #strong[Remolque por vehículo (car launch):] similar al torno, pero en lugar de un motor fijo enrollando un cable, es un coche o camión el que corre por una pista larga tirando del cable enganchado al planeador. Requiere una coordinación precisa de velocidad entre el conductor del vehículo y el planeador, y pistas extremadamente largas (más de 1.500 metros).
+- #strong[Lanzamiento por goma (bungee launch):] es el método fundacional del vuelo sin motor. Se utiliza en laderas empinadas y con vientos fuertes de cara. El planeador se sujeta por la cola, mientras un equipo de personas estira una goma elástica gruesa unida al gancho de morro del planeador. Cuando la goma está tensa, se libera el planeador y este sale catapultado directamente hacia la ascendencia dinámica de la ladera.
 
 == Reglas generales de seguridad
 <reglas-generales-de-seguridad>
@@ -1227,10 +1227,10 @@ La obligación operativa del piloto es montar #strong[exactamente el fusible de 
 
 En los clubes europeos se utiliza el sistema estandarizado de la firma Tost. Es fundamental entender que #strong[la selección del fusible correcto depende obligatoriamente tanto del peso del planeador como del método de lanzamiento]:
 
-- #strong[En remolque por avión (]aerotow#strong[):] las aceleraciones son progresivas y las tensiones del cable son de menor magnitud. Para proteger el gancho de morro de sobretensiones peligrosas para la estabilidad, se emplean fusibles de menor resistencia:
+- #strong[En remolque por avión (aerotow):] las aceleraciones son progresivas y las tensiones del cable son de menor magnitud. Para proteger el gancho de morro de sobretensiones peligrosas para la estabilidad, se emplean fusibles de menor resistencia:
 - #strong[Verde (300 daN):] para monoplazas estándar y ligeros.
 - #strong[Blanco (500 daN):] para biplazas de instrucción y veleros pesados.
-- #strong[En lanzamiento por torno (]winch#strong[):] la aceleración es muy brusca y las tensiones del cable durante el ascenso empinado son muy elevadas debido a la geometría del tiro. Se requieren fusibles de mayor resistencia para evitar roturas prematuras en plena trepada:
+- #strong[En lanzamiento por torno (winch):] la aceleración es muy brusca y las tensiones del cable durante el ascenso empinado son muy elevadas debido a la geometría del tiro. Se requieren fusibles de mayor resistencia para evitar roturas prematuras en plena trepada:
 - #strong[Blanco (500 daN):] para torno en monoplazas muy ligeros.
 - #strong[Azul (600 daN):] para la mayoría de los monoplazas estándar (ej. LS4, Astir, Discus).
 - #strong[Rojo (750 daN):] para monoplazas pesados y biplazas de escuela ligeros (ej. K-21 con un tripulante).
@@ -1316,9 +1316,9 @@ white
 ]
 #strong[Resumen del Capítulo: Métodos de lanzamiento]
 
-- #strong[Torno (]winch#strong[)]: aceleración brutal de 0 a 100 en 3 segundos. Si se rompe el cable, lo primero es #strong[bajar el morro] para recuperar velocidad. Solo entonces suelta el cable remanente y decide si aterrizar recto, hacer 180° o un circuito corto, según la altura disponible.
-- #strong[Remolque (]aerotow#strong[)]: mantén la «posición alta» (rueda del remolcador en el horizonte). Si el remolcador alabea sus alas, es una orden de suelta inmediata: tiene una emergencia. Si no puedes soltar, vuela a un lado y alabea. Si se forma un #strong[cable flojo (]slack line#strong[)], corrígelo con un resbale suave o con aerofrenos graduales. Entrena la maniobra #strong[«Boxing the Wake»] a partir de 300 m AGL.
-- #strong[Autolanzamiento (]self-launch#strong[)]: ofrece total independencia. Cuidado con el par de cabeceo del motor sobre mástil: aplicar potencia pica el morro y reducirla o cortarla lo #strong[encabrita]. Respeta la altura de seguridad de 300 m para arrancar el motor en vuelo; por debajo, concéntrate en el aterrizaje fuera de campo.
+- #strong[Torno (winch)]: aceleración brutal de 0 a 100 en 3 segundos. Si se rompe el cable, lo primero es #strong[bajar el morro] para recuperar velocidad. Solo entonces suelta el cable remanente y decide si aterrizar recto, hacer 180° o un circuito corto, según la altura disponible.
+- #strong[Remolque (aerotow)]: mantén la «posición alta» (rueda del remolcador en el horizonte). Si el remolcador alabea sus alas, es una orden de suelta inmediata: tiene una emergencia. Si no puedes soltar, vuela a un lado y alabea. Si se forma un #strong[cable flojo (slack line)], corrígelo con un resbale suave o con aerofrenos graduales. Entrena la maniobra #strong[«Boxing the Wake»] a partir de 300 m AGL.
+- #strong[Autolanzamiento (self-launch)]: ofrece total independencia. Cuidado con el par de cabeceo del motor sobre mástil: aplicar potencia pica el morro y reducirla o cortarla lo #strong[encabrita]. Respeta la altura de seguridad de 300 m para arrancar el motor en vuelo; por debajo, concéntrate en el aterrizaje fuera de campo.
 - #strong[Emergency briefing]: briefing mental y verbalizado antes de cada despegue. Define velocidades de seguridad y acciones precisas ante fallos a baja, media y alta altura según el viento.
 - #strong[Comprobaciones previas]: ganchos correctos, velocidades respetadas, mandos libres y comprobación cruzada. Realiza la inspección de cuerdas (sin nudos), anillas dobles Tost compatibles y fusibles de seguridad (#strong[weak links]) de resistencia por código de colores (ej. azul = 600 daN para monoplazas en torno).
 
@@ -1331,8 +1331,8 @@ En este capítulo aprenderás:
 
 - #strong[Centrado de térmicas]: cómo detectar el núcleo y cómo desplazar el viraje hacia él.
 - #strong[El anillo MacCready]: qué es y cómo te dice exactamente a qué velocidad volar entre térmicas.
-- #strong[Vuelo de ladera (]ridge soaring#strong[)]: técnica, reglas de tráfico y márgenes de seguridad.
-- #strong[Vuelo de onda (]wave soaring#strong[)]: identificación, condiciones ideales y riesgos del rotor.
+- #strong[Vuelo de ladera (ridge soaring)]: técnica, reglas de tráfico y márgenes de seguridad.
+- #strong[Vuelo de onda (wave soaring)]: identificación, condiciones ideales y riesgos del rotor.
 - #strong[Lastre de agua]: cuándo usarlo, cuándo vaciarlo y qué cambia en la aerodinámica del planeador.
 ]
 
@@ -1561,7 +1561,7 @@ white
 #strong[Resumen del Capítulo: Técnicas de planeo]
 
 - #strong[Centrado de térmica]: siente el empujón en el asiento. Si el ala derecha sube, el núcleo está a la derecha: vira a la derecha. Cierra el viraje cuando el vario sube, ábrelo cuando baja. Con práctica, este ciclo se vuelve automático.
-- #strong[Hilo de lana lateral (]side string#strong[)]: técnica complementaria opcional para visualizar de forma didáctica el ángulo de ataque en vuelo lento; no sustituye al hilo central ni al anemómetro.
+- #strong[Hilo de lana lateral (side string)]: técnica complementaria opcional para visualizar de forma didáctica el ángulo de ataque en vuelo lento; no sustituye al hilo central ni al anemómetro.
 - #strong[Anillo MacCready]: tu selector de velocidad óptima. Pon el anillo en el valor de ascenso que esperas encontrar (p.~ej., 2 m/s) y vuela a la velocidad que te marque. Acelera en corrientes descendentes, aminora en corrientes ascendentes.
 - #strong[Ladera]: mantente pegado a barlovento con vía de escape hacia el valle siempre disponible. Si tienes la ladera a tu derecha, tienes preferencia. Nunca vires hacia el monte.
 - #strong[Onda]: la autopista al cielo. Sube en la zona laminar, delante de la nube de rotor. Requiere oxígeno y ropa de abrigo. Cuidado al bajar: el rotor puede romperte el planeador en segundos.
@@ -1587,7 +1587,7 @@ El #strong[circuito de tráfico] es un procedimiento estandarizado que organiza 
 
 Los cuatro tramos estándar son (#ref(<fig-06-cap04-circuito-estandar>, supplement: [Figura])):
 
-+ #strong[Viento cruzado (]crosswind#strong[):] Tramo perpendicular a la pista, realizado justo tras el despegue o al entrar en el circuito desde la travesía. La altura recomendada al completar el giro a viento cruzado es de 250-300 metros (QFE).
++ #strong[Viento cruzado (crosswind):] Tramo perpendicular a la pista, realizado justo tras el despegue o al entrar en el circuito desde la travesía. La altura recomendada al completar el giro a viento cruzado es de 250-300 metros (QFE).
 + #strong[Viento en cola] (#strong[downwind]): Tramo paralelo a la pista en dirección contraria al aterrizaje. Se vuela a una distancia lateral de 200-400 metros de la pista, a una altura de 200-300 metros. Es el tramo donde se realizan las comprobaciones de la lista FUSTALL (ver sección siguiente).
 + #strong[Tramo de base] (#strong[base leg]): Tramo perpendicular a la pista, iniciado cuando el punto de toma queda a unos 45° detrás del ala del piloto. La altura recomendada al inicio de la base es de 150 metros.
 + #strong[Final] (#strong[final leg]): Tramo alineado con la pista, desde el que se realiza el descenso y la toma. Los aerofrenos se gestionan de forma continua durante este tramo para clavar el punto de toma.
@@ -1816,7 +1816,7 @@ Aunque la regla de oro de la aviación exige aterrizar siempre de cara al viento
 
 El viento de cola altera radicalmente las referencias sensoriales del piloto y la física de la toma:
 
-- #strong[Aumento de la velocidad sobre el suelo (]groundspeed#strong[):] si tu velocidad de aproximación indicada es de 90 km/h y tienes un viento de cola de 20 km/h, tu velocidad real respecto al suelo será de 110 km/h. La carrera de aterrizaje se alargará mucho más y exigirá más distancia y un uso eficaz del freno de rueda.
+- #strong[Aumento de la velocidad sobre el suelo (groundspeed):] si tu velocidad de aproximación indicada es de 90 km/h y tienes un viento de cola de 20 km/h, tu velocidad real respecto al suelo será de 110 km/h. La carrera de aterrizaje se alargará mucho más y exigirá más distancia y un uso eficaz del freno de rueda.
 - #strong[La ilusión visual de velocidad:] al ver pasar el suelo a gran velocidad durante el final y la toma, tu cerebro interpretará falsamente que vas demasiado rápido. La reacción instintiva y peligrosa es tirar de la palanca de mando para frenar el velero. Esto reducirá la velocidad indicada por debajo de la de seguridad y puede provocar una pérdida (#strong[stall]) y entrada en barrena (#strong[spin]) a escasos metros del suelo.
 - #strong[Senda de aproximación plana:] al desplazarte más rápido sobre el terreno, tu ángulo de descenso aparente será mucho más plano. Mantén una senda conservadora utilizando los aerofrenos con precisión.
 
@@ -1874,7 +1874,7 @@ supplement: "Figura",
 - #strong[FUSTALL en el viento en cola]: #strong[Flaps], #strong[Undercarriage] (tren fuera y blocado), #strong[Speed] (velocidad de aproximación), #strong[Trim], #strong[Airbrakes] (aerofrenos libres y cerrados), #strong[Landing area] (viento y tráfico), #strong[Land]. Lastre de agua vaciado antes de entrar al circuito. Hazlo siempre en el mismo punto del recorrido.
 - #strong[Velocidad de aproximación]: calcula tu velocidad base (1,5 V#sub[S]) y #strong[súmale la mitad del viento y de la racha]. Entrar lento con viento es receta para un accidente por cizalladura.
 - #strong[Aerofrenos]: entra en final con el 50 % sacados. Si el punto de toma sube en el parabrisas, cierra; si baja, abre. Nunca cierres bruscamente cerca del suelo: balonazo y golpe de cola.
-- #strong[Resbale lateral (]sideslip#strong[)]: método de descenso rápido de emergencia cruzando mandos. Recuerda: #strong[ala baja al viento], actitud visual de morro bajo (el anemómetro no es fiable por el flujo cruzado) y salida relajando primero la palanca.
+- #strong[Resbale lateral (sideslip)]: método de descenso rápido de emergencia cruzando mandos. Recuerda: #strong[ala baja al viento], actitud visual de morro bajo (el anemómetro no es fiable por el flujo cruzado) y salida relajando primero la palanca.
 - #strong[Viento de cola y PIOs]: en tomas con viento de cola, ignora la velocidad visual del suelo (evita pérdidas de sustentación) y prepárate para un rodaje largo. Si el velero oscila en cabeceo (#strong[PIO]) cerca del suelo, congela la palanca y deja actuar su estabilidad estática.
 
 = Aterrizaje fuera de campo (
@@ -2016,7 +2016,7 @@ Inmediatamente después de salir de la cabina y verificar que te encuentras iles
 
 - #strong[Orientación respecto al viento:] si hay viento fuerte y es posible pivotar el planeador físicamente sin dañar la estructura, oriéntalo con el ala que tiene el viento de cara en el suelo, o bien perpendicular al viento.
 - #strong[Lastre improvisado:] coloca un peso seguro (como un saco de tierra o de arena, o una bolsa de transporte pesada) sobre el extremo del plano apoyado en el suelo para evitar que el viento levante el ala y vuelque la aeronave. Nunca uses piedras angulosas o ramas que puedan arañar o perforar la fibra de vidrio.
-- #strong[Bloqueadores de mandos (]gust locks#strong[):] asegura la palanca de mandos con el cinturón de seguridad y coloca bloqueadores externos en las superficies de control (timón, profundidad y alerones) si dispones de ellos, para evitar que el viento golpee las superficies contra sus topes físicos.
+- #strong[Bloqueadores de mandos (gust locks):] asegura la palanca de mandos con el cinturón de seguridad y coloca bloqueadores externos en las superficies de control (timón, profundidad y alerones) si dispones de ellos, para evitar que el viento golpee las superficies contra sus topes físicos.
 - #strong[Protección de la cabina y cúpula:] cierra y bloquea la cúpula inmediatamente. Si el sol es intenso, coloca la funda protectora de la cúpula para evitar el efecto invernadero en el interior de la cabina (que puede deformar instrumentos o resinas de la estructura o, incluso, provocar un incendio por efecto lupa) y el envejecimiento acelerado por la radiación UV.
 - #strong[Fundas de protección:] coloca las fundas en las tomas de Pitot y de presión estática/total (TE) para evitar la entrada de insectos o suciedad del campo, que inutilizarían los instrumentos en el próximo vuelo.
 
@@ -2090,7 +2090,7 @@ En este capítulo aprenderás:
 - #strong[Estelas turbulentas y engelamiento]: dos amenazas silenciosas en vuelo.
 - #strong[Viento cruzado]: técnica de despegue y aterrizaje en condiciones exigentes.
 - #strong[Riesgos en montaña]: horizonte falso, reglas de preferencia y la prohibición absoluta de virar hacia la ladera.
-- #strong[Amerizaje (]ditching#strong[)]: qué hacer si el agua es inevitable.
+- #strong[Amerizaje (ditching)]: qué hacer si el agua es inevitable.
 ]
 
 == Vigilancia exterior y colisiones
@@ -2395,11 +2395,11 @@ Ante un #strong[fallo de lanzamiento] ---rotura del cable de torno o fallo del m
 
 La toma de decisiones táctica depende directamente de la altura AGL alcanzada en el momento del fallo y del método de lanzamiento utilizado, ya que la velocidad de ascenso y la distancia horizontal a la pista difieren drásticamente entre el torno y el avión tractor (#ref(<fig-06-cap07-emergencia-altura>, supplement: [Figura])):
 
-- #strong[En lanzamiento por torno (]winch#strong[):] la trayectoria de trepada es muy empinada y el planeador gana altura muy cerca del inicio de la pista. Las franjas de decisión de seguridad son:
+- #strong[En lanzamiento por torno (winch):] la trayectoria de trepada es muy empinada y el planeador gana altura muy cerca del inicio de la pista. Las franjas de decisión de seguridad son:
 - #strong[Baja altura (menos de 150 m AGL):] mantén el planeador recto por derecho, estabiliza la velocidad de planeo de seguridad y aterriza en la pista restante o en los campos de parada libre al frente. #strong[Está terminantemente prohibido intentar virar de vuelta a pista por debajo de esta cota] debido a la alta actitud de morro y el peligro inminente de barrena.
 - #strong[Altura crítica (entre 150 m y 200 m AGL):] si no queda suficiente pista por delante, vuela a velocidad segura y realiza un circuito abreviado y muy recortado. Vira inicialmente con un alabeo coordinado medio (máximo 30°), adaptándolo al viento reinante para asegurar el tramo final de cara al viento.
 - #strong[Altura de seguridad (más de 200 m AGL):] estabiliza la velocidad de planeo y realiza un circuito de tráfico abreviado estándar.
-- #strong[En remolque por avión (]aerotow#strong[):] el despegue es más tendido y el planeador se desplaza horizontalmente lejos de la pista de salida. Las franjas de decisión son:
+- #strong[En remolque por avión (aerotow):] el despegue es más tendido y el planeador se desplaza horizontalmente lejos de la pista de salida. Las franjas de decisión son:
 - #strong[Baja altura (menos de 70 m, ≈230 ft AGL):] aterriza recto por delante en la pista restante o en campos libres al frente, esquivando obstáculos con pequeños cambios de rumbo (máximo 30°).
 - #strong[Altura crítica (entre 70 m ≈230 ft y 150 m ≈490 ft AGL):] evalúa la longitud de pista y el viento. Si es necesario retornar, inicia el viraje #strong[hacia la componente de viento cruzado], coordinado y con un alabeo franco de unos 45°: el viento te devuelve hacia la prolongación de la pista durante el giro, mientras que virar a favor del viento alarga el recorrido y la altura perdida. Si el retorno no sale a cuenta, realiza una aproximación recortada al campo alternativo más seguro.
 - #strong[Altura de seguridad (más de 150 m ≈ 500 ft AGL):] realiza un circuito recortado o normal de aproximación.
@@ -2628,7 +2628,7 @@ Si la cúpula de tu planeador no quedó correctamente pestillada en los chequeos
 
 El procedimiento de seguridad exige las siguientes acciones inmediatas:
 
-+ #strong[Vuela el planeador primero (]Aviate#strong[):] tu prioridad absoluta es mantener el control de la aeronave. Ignora la cúpula por completo en los primeros segundos. #strong[No intentes cerrarla ni sujetarla] si estás a baja altura o en pleno viraje: perderías la atención al pilotaje y podrías inducir una actitud inusual o una pérdida. Tu planeador puede seguir volando perfectamente con la cúpula abierta.
++ #strong[Vuela el planeador primero (Aviate):] tu prioridad absoluta es mantener el control de la aeronave. Ignora la cúpula por completo en los primeros segundos. #strong[No intentes cerrarla ni sujetarla] si estás a baja altura o en pleno viraje: perderías la atención al pilotaje y podrías inducir una actitud inusual o una pérdida. Tu planeador puede seguir volando perfectamente con la cúpula abierta.
 + #strong[Resiste el ruido y el torbellino:] el ruido será ensordecedor y habrá objetos sueltos volando en cabina, pero el planeador seguirá volando perfectamente. Si llevas gafas de sol y cinturones de seguridad bien ajustados, estarás seguro.
 + #strong[Establece una senda de planeo más pronunciada:] una cúpula abierta o parcialmente desprendida genera un #strong[incremento masivo de la resistencia aerodinámica] (#strong[drag]). Tu ángulo de planeo se deteriorará considerablemente. Para mantener la velocidad de seguridad, deberás adoptar una actitud de morro más baja (senda de aproximación más pronunciada y mayor tasa de descenso).
 + #strong[Planifica el aterrizaje:] si estás en el despegue, continúa el remolque estabilizado hasta una altura segura si es posible, o suelta y haz un circuito normal. Vuela un circuito de tráfico adaptado a una mayor tasa de descenso y aterriza en el aeródromo lo antes posible. Solo intenta cerrar la cúpula si estás a gran altura de seguridad, en vuelo coordinado y con una sola mano, sin dejar de pilotar.
@@ -2757,11 +2757,11 @@ Como ficha de repaso rápido, esta tabla resume la respuesta inmediata a cada em
 
 - #strong[Rotura de cable según el método de lanzamiento]:
 
-  - #strong[Torno (]winch#strong[)]:
+  - #strong[Torno (winch)]:
   - #strong[\< 150 m]: aterriza recto por derecho. No intentes virar.
   - #strong[150 - 200 m]: circuito abreviado recortado adaptado al viento.
   - #strong[\> 200 m]: circuito de tráfico normal.
-  - #strong[Avión (]aerotow#strong[)]:
+  - #strong[Avión (aerotow)]:
   - #strong[\< 70 m]: aterriza recto por delante.
   - #strong[70 - 150 m]: retorno o circuito recortado (el viraje de retorno se inicia hacia el viento cruzado, con alabeo franco de unos 45°).
   - #strong[\> 150 m]: circuito abreviado o normal.
@@ -2770,7 +2770,7 @@ Como ficha de repaso rápido, esta tabla resume la respuesta inmediata a cada em
 
 - #strong[Fallo de gancho (aerotow)]: si no puedes soltar, sitúate #strong[bajo y a la izquierda] del remolcador y alabea para avisarle; nunca por encima, que le levantarías la cola (#strong[kiting]). Él soltará. Aterriza con el cable colgando planeando una final alta para librar vallas y obstáculos.
 
-- \*\*\*\*Flutter\*\*\*\*: ante una vibración destructiva, #strong[sube el morro y abre los aerofrenos] para reducir la velocidad de inmediato. Nunca aceleres. Inspección obligatoria en tierra.
+- #strong[Flutter]: ante una vibración destructiva, #strong[sube el morro y abre los aerofrenos] para reducir la velocidad de inmediato. Nunca aceleres. Inspección obligatoria en tierra.
 
 - #strong[Fallos de instrumentos]: con el pitot bloqueado, vuela por actitud visual de cabeceo y por el sonido del viento en cabina.
 

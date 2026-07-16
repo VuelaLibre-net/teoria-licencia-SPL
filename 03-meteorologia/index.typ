@@ -1670,7 +1670,7 @@ Los planeadores están diseñados con perfiles laminares calibrados para una alt
 
 En vuelo con lluvia, las consecuencias son directas:
 
-- #strong[Aumento de la velocidad de pérdida (]stall speed#strong[):] El ala perderá su sustentación a una velocidad significativamente mayor que en configuración seca.
+- #strong[Aumento de la velocidad de pérdida (stall speed):] El ala perderá su sustentación a una velocidad significativamente mayor que en configuración seca.
 - #strong[Reducción del coeficiente de planeo:] El ratio de planeo (#strong[glide ratio]) se penaliza, lo que obliga a recalcular el cono de planeo y buscar alternativas de aterrizaje con menor alcance.
 - #strong[Mayor tasa de descenso:] Se aprecia un incremento notorio en la tasa de caída o hundimiento (#strong[sink rate]) para lograr mantener una misma velocidad de vuelo.
 
@@ -2362,9 +2362,9 @@ white
 <el-ciclo-de-vida-de-la-célula-tormentosa>
 Una tormenta no es un objeto estático, sino un proceso con principio y fin. Entender sus tres fases ayuda a leer el cielo y a anticipar cuándo una célula es más peligrosa (#ref(<fig-03-cap09-ciclo-tormenta>, supplement: [Figura])):
 
-+ #strong[Fase de desarrollo o cúmulo (]cumulus stage#strong[)]: domina la corriente ascendente. Un cúmulo congestus crece rápidamente en vertical, alimentado por aire cálido y húmedo. Todavía no hay precipitación que llegue al suelo, pero la ascendencia ya es fuerte y desorganizada. Para el velero, la ascendencia es tentadora y engañosa: la nube aún está «cargándose».
-+ #strong[Fase de madurez (]mature stage#strong[)]: la más peligrosa. Coexisten la corriente ascendente y la descendente; comienza la precipitación, que arrastra aire frío hacia abajo y genera el frente de racha en superficie. Es la etapa del granizo, los rayos, la turbulencia extrema y el #strong[downburst]. La nube alcanza su máximo desarrollo vertical y aparece el yunque.
-+ #strong[Fase de disipación (]dissipating stage#strong[)]: domina la corriente descendente. El aire frío de la precipitación corta el suministro de aire cálido que alimentaba la célula, la ascendencia se apaga y la tormenta se deshace, dejando restos de yunque y precipitación débil. Sigue habiendo turbulencia residual.
++ #strong[Fase de desarrollo o cúmulo (cumulus stage)]: domina la corriente ascendente. Un cúmulo congestus crece rápidamente en vertical, alimentado por aire cálido y húmedo. Todavía no hay precipitación que llegue al suelo, pero la ascendencia ya es fuerte y desorganizada. Para el velero, la ascendencia es tentadora y engañosa: la nube aún está «cargándose».
++ #strong[Fase de madurez (mature stage)]: la más peligrosa. Coexisten la corriente ascendente y la descendente; comienza la precipitación, que arrastra aire frío hacia abajo y genera el frente de racha en superficie. Es la etapa del granizo, los rayos, la turbulencia extrema y el #strong[downburst]. La nube alcanza su máximo desarrollo vertical y aparece el yunque.
++ #strong[Fase de disipación (dissipating stage)]: domina la corriente descendente. El aire frío de la precipitación corta el suministro de aire cálido que alimentaba la célula, la ascendencia se apaga y la tormenta se deshace, dejando restos de yunque y precipitación débil. Sigue habiendo turbulencia residual.
 
 #figure([
 #box(image("imagenes/03-cap09-ciclo-tormenta.png"))
@@ -2385,10 +2385,10 @@ El engelamiento (#strong[icing]) es uno de los peligros más rápidos y silencio
 
 No todo el hielo es igual. La escarcha aparte ---que no es engelamiento por gotícula superenfriada, sino depósito directo del vapor---, según la temperatura y el tamaño de las gotículas el engelamiento propiamente dicho adopta tres formas con efectos distintos:
 
-- #strong[Escarcha (]hoar frost#strong[)]: Cristales finos y blancos que se forman por congelación directa del vapor de agua (sublimación inversa) sobre superficies frías, sin gotícula superenfriada de por medio. Por eso, en rigor, no es engelamiento; es la forma más leve: degrada el perfil alar y puede opacar la cúpula, pero el proceso es más lento.
-- #strong[Hielo opaco (]rime ice#strong[)]: Se forma con gotículas pequeñas y temperaturas bajas, típicamente por debajo de -15 °C. Aspecto blanco y rugoso, se adhiere principalmente en el borde de ataque y aumenta el arrastre de forma notable.
+- #strong[Escarcha (hoar frost)]: Cristales finos y blancos que se forman por congelación directa del vapor de agua (sublimación inversa) sobre superficies frías, sin gotícula superenfriada de por medio. Por eso, en rigor, no es engelamiento; es la forma más leve: degrada el perfil alar y puede opacar la cúpula, pero el proceso es más lento.
+- #strong[Hielo opaco (rime ice)]: Se forma con gotículas pequeñas y temperaturas bajas, típicamente por debajo de -15 °C. Aspecto blanco y rugoso, se adhiere principalmente en el borde de ataque y aumenta el arrastre de forma notable.
 - #strong[Hielo mixto]: Entre -10 °C y -15 °C conviven gotículas grandes y pequeñas, y el depósito combina lo peor de los otros dos: capas duras y transparentes con incrustaciones blancas y rugosas.
-- #strong[Hielo claro (]clear ice#strong[)]: El más peligroso. Se forma con gotículas grandes entre 0 °C y -10 °C. Se extiende en una capa transparente y dura por toda la superficie alar, añade peso, altera el equilibrio de la aeronave y destruye la sustentación laminar. Es difícil de detectar visualmente hasta que ya es grave.
+- #strong[Hielo claro (clear ice)]: El más peligroso. Se forma con gotículas grandes entre 0 °C y -10 °C. Se extiende en una capa transparente y dura por toda la superficie alar, añade peso, altera el equilibrio de la aeronave y destruye la sustentación laminar. Es difícil de detectar visualmente hasta que ya es grave.
 
 En cualquiera de sus formas, las consecuencias son las mismas: la velocidad de pérdida (#strong[stall speed]) sube, la relación de planeo cae y la cúpula se opaca. El planeador no dispone de ningún sistema anti-hielo.
 
@@ -2428,11 +2428,11 @@ white
 <turbulencias-de-estela-y-orográficas>
 No todas las turbulencias nacen de la meteorología: algunas las generan las propias aeronaves, y otras se esconden al abrigo de las montañas.
 
-- #strong[Estela turbulenta (]wake turbulence#strong[):] Las aeronaves grandes ---reactores pesados o turbohélices de gran tonelaje--- desprenden de las puntas de sus alas dos vórtices poderosos que giran como tornillos. Estos vórtices descienden lentamente por debajo de la senda de vuelo y pueden persistir varios minutos en zonas con poco viento. Si un planeador cruza esa estela, el vuelco puede ser instantáneo y superar la capacidad de los mandos para corregirlo. En un aeródromo con tráfico mixto, espera siempre al menos 3 minutos tras el despegue o aterrizaje de una aeronave pesada antes de usar la misma pista (#ref(<fig-03-cap09-estela-turbulenta>, supplement: [Figura])).
+- #strong[Estela turbulenta (wake turbulence):] Las aeronaves grandes ---reactores pesados o turbohélices de gran tonelaje--- desprenden de las puntas de sus alas dos vórtices poderosos que giran como tornillos. Estos vórtices descienden lentamente por debajo de la senda de vuelo y pueden persistir varios minutos en zonas con poco viento. Si un planeador cruza esa estela, el vuelco puede ser instantáneo y superar la capacidad de los mandos para corregirlo. En un aeródromo con tráfico mixto, espera siempre al menos 3 minutos tras el despegue o aterrizaje de una aeronave pesada antes de usar la misma pista (#ref(<fig-03-cap09-estela-turbulenta>, supplement: [Figura])).
 
 - #strong[Estela de helicópteros:] Los helicópteros generan flujos de aire extremadamente peligrosos debido a la enorme cantidad de energía concentrada por sus palas de rotor. Su peligro se divide en dos escenarios:
 
-  - #strong[En vuelo estacionario o rodaje lento (]hover#strong[):] El rotor proyecta un flujo descendente de alta velocidad (#strong[downwash] o #strong[rotor wash]) que impacta contra el suelo y se expande en forma de vórtices turbulentos hasta una distancia de al menos tres diámetros de rotor.
+  - #strong[En vuelo estacionario o rodaje lento (hover):] El rotor proyecta un flujo descendente de alta velocidad (#strong[downwash] o #strong[rotor wash]) que impacta contra el suelo y se expande en forma de vórtices turbulentos hasta una distancia de al menos tres diámetros de rotor.
   - #strong[En vuelo de avance:] El rotor genera un par de vórtices de estela similares a los de un avión de ala fija, pero notablemente más concentrados e intensos a baja velocidad. Cruzar esta estela puede provocar una guiñada o un alabeo instantáneo e incontrolable para un planeador.
 
 #figure([
@@ -2448,7 +2448,7 @@ supplement: "Figura",
 <fig-03-cap09-estela-turbulenta>
 
 
-- #strong[Rotores (]rotor turbulence#strong[):] A sotavento de una cordillera con viento fuerte, a baja altura se forma el #strong[rotor]: un cilindro de aire en rotación caótica e invisible desde fuera. Es la contrapartida peligrosa de la onda de montaña: mientras en la onda se sube con suavidad, a baja cota bajo esa misma onda el rotor puede arrebatarte el control del planeador con una única ráfaga. Si haces un remolque en zona de onda, sigue al avión remolcador con precisión, aprieta el arnés y no te acerques a la zona de rotor si puedes evitarlo (#ref(<fig-03-cap09-flujo-crestas>, supplement: [Figura])).
+- #strong[Rotores (rotor turbulence):] A sotavento de una cordillera con viento fuerte, a baja altura se forma el #strong[rotor]: un cilindro de aire en rotación caótica e invisible desde fuera. Es la contrapartida peligrosa de la onda de montaña: mientras en la onda se sube con suavidad, a baja cota bajo esa misma onda el rotor puede arrebatarte el control del planeador con una única ráfaga. Si haces un remolque en zona de onda, sigue al avión remolcador con precisión, aprieta el arnés y no te acerques a la zona de rotor si puedes evitarlo (#ref(<fig-03-cap09-flujo-crestas>, supplement: [Figura])).
 
 #figure([
 #box(image("imagenes/03-cap09-flujo-crestas.jpg"))
@@ -2499,7 +2499,8 @@ Saber volar es necesario; saber leer el tiempo antes de despegar es imprescindib
 
 == Informes METAR y TAF
 <informes-metar-y-taf>
-#Skylighting(([#NormalTok("Para la operativa del vuelo a vela, dada su intrínseca dependencia de los fenómenos atmosféricos, la capacidad de discernir e interpretar con precisión la información meteorológica aeronáutica es un requisito fundamental antes de iniciar cualquier vuelo. Los boletines estandarizados principales son el METAR y el TAF:");],));
+Para la operativa del vuelo a vela, dada su intrínseca dependencia de los fenómenos atmosféricos, la capacidad de discernir e interpretar con precisión la información meteorológica aeronáutica es un requisito fundamental antes de iniciar cualquier vuelo. Los boletines estandarizados principales son el METAR y el TAF:
+
 - #strong[METAR (Meteorological Aerodrome Report):] Consiste en un reporte observacional de las condiciones meteorológicas reales y presentes en el aeródromo. Se emite habitualmente en intervalos de 30 minutos (o 60 minutos según el aeródromo). Proporciona datos concisos sobre la dirección e intensidad del viento en superficie, visibilidad horizontal, nubosidad (cobertura y altitud de la base), temperatura ambiental, temperatura del punto de rocío y reglaje altimétrico (QNH). Frecuentemente, el mensaje concluye con un segmento de pronóstico a corto plazo tipo #NormalTok("TREND"); válido para las 2 horas posteriores (o la indicación #NormalTok("NOSIG"); si no se prevén cambios significativos).
 - #strong[TAF (Terminal Aerodrome Forecast):] Es el pronóstico oficial del aeródromo. Elaborado por oficinas meteorológicas, anticipa la evolución temporal de la meteorología en la terminal para periodos de validez estandarizados que abarcan habitualmente 9, 24 o 30 horas. Emplea sintaxis de códigos de evolución y probabilidad, fundamentales para la planificación, tales como #NormalTok("TEMPO"); (fluctuaciones temporales moderadas), #NormalTok("BECMG"); (cambio gradual permanente) o #NormalTok("PROB"); (probabilidad porcentual del suceso).
 
@@ -2538,7 +2539,8 @@ Veamos un ejemplo típico en un día de vuelo, paso a paso:
 )
 == Mapas de tiempo significativo (SIGWX)
 <mapas-de-tiempo-significativo-sigwx>
-#Skylighting(([#NormalTok("Mientras que METAR y TAF cubren aeropuertos concretos, los **Mapas de Tiempo Significativo (SIGWX)** muestran la meteorología esperada en grandes áreas de ruta. Son la vista de satélite de la planificación: te dicen dónde están los frentes, qué áreas de inestabilidad debes rodear y cuál es la posición de los niveles de congelación (@fig-03-cap10-sigwx).");],));
+Mientras que METAR y TAF cubren aeropuertos concretos, los #strong[Mapas de Tiempo Significativo (SIGWX)] muestran la meteorología esperada en grandes áreas de ruta. Son la vista de satélite de la planificación: te dicen dónde están los frentes, qué áreas de inestabilidad debes rodear y cuál es la posición de los niveles de congelación (#ref(<fig-03-cap10-sigwx>, supplement: [Figura])).
+
 - Los SIGWX grafican la distribución de frentes (fríos, cálidos, estacionarios, ocluidos) y sistemas de presión, con sus desplazamientos previstos.
 - Identifican ejes de inestabilidad como #strong[vaguadas] (#strong[troughs]), que preceden al desarrollo de cúmulos y chubascos.
 - Los servicios asociados ---#strong[SIGMET], #strong[AIRMET] y #strong[GAMET]--- emiten alertas específicas: engelamiento severo (#NormalTok("SEV ICE");), turbulencia severa (#NormalTok("SEV TURB");), o peligros en ruta a baja altura (por debajo de FL100 ó FL150, que es donde volamos nosotros). Antes de un vuelo de distancia, revisar los SIGMET activos es obligatorio.
@@ -2560,7 +2562,8 @@ supplement: "Figura",
 <sondeos-termodinámicos-y-curvas-de-temperatura>
 #strong[↗ MÁS ALLÁ DEL EXAMEN.] Los sondeos Skew-T y los índices que se calculan sobre ellos (K, CAPE, LI) son formación de vuelo de distancia y no deberían ser materia de examen. Léelos como iniciación al cross-country.
 
-#Skylighting(([#NormalTok("  El sondeo termodinámico es la radiografía del día: muestra cómo cambia la temperatura y la humedad con la altura en un punto geográfico dado. Se presenta en diagramas **Skew-T log-P** o **Stüve**, accesibles gratuitamente a través de la Universidad de Wyoming, AEMET (AMA), Windy o Meteoblue, y también integrados en plataformas de pago especializadas como Skysight, Topmeteo o Meteo Parapente. Aprender a leer un sondeo te ahorrará remolques innecesarios y te avisa de las tormentas antes de que sean visibles desde el suelo (@fig-03-cap10-indices-estabilidad).");],));
+El sondeo termodinámico es la radiografía del día: muestra cómo cambia la temperatura y la humedad con la altura en un punto geográfico dado. Se presenta en diagramas #strong[Skew-T log-P] o #strong[Stüve], accesibles gratuitamente a través de la Universidad de Wyoming, AEMET (AMA), Windy o Meteoblue, y también integrados en plataformas de pago especializadas como Skysight, Topmeteo o Meteo Parapente. Aprender a leer un sondeo te ahorrará remolques innecesarios y te avisa de las tormentas antes de que sean visibles desde el suelo (#ref(<fig-03-cap10-indices-estabilidad>, supplement: [Figura])).
+
 #figure([
 #box(image("imagenes/03-cap03-indices-estabilidad.jpg"))
 ], caption: figure.caption(

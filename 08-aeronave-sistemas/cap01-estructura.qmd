@@ -9,7 +9,7 @@
 > * **Los materiales de construcción**: composite (fibra de vidrio y carbono), madera y tela, y metal, con los puntos débiles de cada uno.
 > * **El gelcoat y el poliuretano**: por qué los planeadores son blancos, cómo cuidar su "piel" y por qué la pintura de PU va sustituyendo al gelcoat.
 > * **El larguero y la estructura sándwich**: dónde reside la resistencia del ala y por qué un golpe pequeño puede esconder una delaminación.
-> * **La cúpula (**canopy**)**: cierre, ventilación y suelta de emergencia.
+> * **La cúpula (canopy)**: cierre, ventilación y suelta de emergencia.
 > * **El gancho de remolque**: gancho de morro, gancho de CG y el mecanismo de suelta automática.
 
 La estructura de un planeador busca dos cosas a la vez: la mejor aerodinámica posible y el menor peso posible. En un avión de motor, un exceso de potencia perdona ciertas ineficiencias. En vuelo sin motor no hay ese margen: cada gramo cuenta y cada imperfección en la superficie se paga en planeo.

@@ -144,7 +144,7 @@ Las radios VHF aeronáuticas van de **118 MHz a 136,975 MHz** con modulación de
 
 ### Funciones clave
 
-* **Doble escucha (**dual watch**)**: monitoriza dos frecuencias simultáneamente y transmite solo en la primaria. Útil para escuchar el FIS mientras trabajas con la torre.
+* **Doble escucha (dual watch)**: monitoriza dos frecuencias simultáneamente y transmite solo en la primaria. Útil para escuchar el FIS mientras trabajas con la torre.
 * **Squelch**: cierra el altavoz cuando la señal baja de un umbral mínimo, eliminando el ruido de fondo. Si lo cierras demasiado, puedes perder señales débiles de aeronaves lejanas.
 * **Selector de canal**: confirma siempre visualmente la frecuencia en pantalla antes de transmitir.
 
@@ -155,7 +155,7 @@ Los detalles técnicos y la normativa sobre el espaciado de canales VHF se desar
 **Resumen del Capítulo: Procedimientos Operativos Generales**
 
 * **Esquema de llamada**: A quién → Quién soy → Dónde estoy → Qué necesito. Al colacionar, el indicativo va al final. En autoinformación, el indicativo va al principio.
-* **Prueba de radio (**radio check**)**: Realízala solo si tienes dudas sobre la integridad del equipo. Usa la escala de legibilidad del 1 (ilegible) al 5 (perfecto): «Le recibo 5».
+* **Prueba de radio (radio check)**: Realízala solo si tienes dudas sobre la integridad del equipo. Usa la escala de legibilidad del 1 (ilegible) al 5 (perfecto): «Le recibo 5».
 * **Reportes de posición**: Identificativo + posición + altitud (QNH o FL). En travesía añade hora UTC y siguiente punto estimado. Actualiza al FIS si te apartas de tu ruta.
 * **Llamadas simultáneas**: Si la frecuencia está activa, espera. Tras una llamada sin respuesta, aguarda 10 segundos antes de reintentar. El ATC decide el turno cuando varias aeronaves llaman a la vez.
 * **Micrófono bloqueado**: Comprueba que la luz TX se apaga al soltar el PTT. Un PTT atascado anula la frecuencia para todos los usuarios.

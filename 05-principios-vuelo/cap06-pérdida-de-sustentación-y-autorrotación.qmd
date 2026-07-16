@@ -62,7 +62,7 @@ La salida de una barrena exige una técnica metódica, contraintuitiva y aprendi
 
 **Resumen del Capítulo: Pérdida y Autorrotación**
 
-* **Pérdida (**stall**)**: el ala se "rinde" al superar el ángulo de ataque crítico (≈ 15-18°). La pérdida comienza en el encastre y progresa hacia las puntas: por eso los alerones conservan algo de autoridad al inicio. Avisos: morro alto, mandos blandos y bataneo; al ceder el ala, cae el morro.
+* **Pérdida (stall)**: el ala se "rinde" al superar el ángulo de ataque crítico (≈ 15-18°). La pérdida comienza en el encastre y progresa hacia las puntas: por eso los alerones conservan algo de autoridad al inicio. Avisos: morro alto, mandos blandos y bataneo; al ceder el ala, cae el morro.
 * **Pérdida acelerada**: en un viraje cerrado (60° → 2g), la velocidad de pérdida sube un 41%. El ala puede entrar en pérdida con el morro en actitud aparentemente normal. El viraje **base-final** en el circuito es el escenario más letal.
 * **Recuperación de la pérdida**: palanca adelante (bajar el morro) es la única cura. No uses los alerones para levantar un ala caída: profundizan la pérdida e inician la barrena.
 * **Barrena (autorrotación)**: pérdida agravada y asimétrica con tres fases: **incipiente** (recuperable antes de un giro), **desarrollada** (movimiento constante) y **recuperación** (cesa la rotación). Cada vuelta cuesta 50-100 m de altura.

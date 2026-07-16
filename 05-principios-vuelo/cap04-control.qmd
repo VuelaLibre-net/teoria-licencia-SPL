@@ -57,7 +57,7 @@ Sin embargo, a medida que reduces la velocidad acercándote a la entrada en pér
 **Resumen del Capítulo: Control**
 
 * **Guiñada adversa**: el efecto secundario más molesto en los veleros de gran envergadura. Al alabear para girar, el ala que sube tiene más resistencia y frena ese lado, metiendo el morro **al revés** del giro. **Antídoto**: pie y mano juntos (coordinación).
-* **Hilo de lana (**yaw string**)**: indicador de coordinación en el parabrisas. Recto = vuelo coordinado. Hilo hacia el interior del viraje = derrape (**skid**); hacia el exterior = resbale (**slip**). El derrape es el peligroso: el ala interior puede entrar en pérdida asimétrica. Corrígelo pisando el pedal contrario al lado del hilo.
+* **Hilo de lana (yaw string)**: indicador de coordinación en el parabrisas. Recto = vuelo coordinado. Hilo hacia el interior del viraje = derrape (**skid**); hacia el exterior = resbale (**slip**). El derrape es el peligroso: el ala interior puede entrar en pérdida asimétrica. Corrígelo pisando el pedal contrario al lado del hilo.
 * **Compensador (trim)**: no es solo para descansar el brazo. Es fundamental para mantener una velocidad constante sin esfuerzo. Compensa siempre que cambies de régimen de vuelo (de termicar a planear rápido).
 * **Eficacia de mando**: los mandos "hablan". Si están duros, vas rápido. Si están blandos y "chiclosos", estás cerca de la pérdida. Escucha lo que te dicen a través de la mano.
 * **Mando diferencial**: diseño de los alerones para reducir la guiñada adversa (el alerón que sube lo hace más que el que baja), pero aun así necesitarás pie.

@@ -575,7 +575,7 @@ En este capítulo aprenderás:
 - #strong[Los materiales de construcción]: composite (fibra de vidrio y carbono), madera y tela, y metal, con los puntos débiles de cada uno.
 - #strong[El gelcoat y el poliuretano]: por qué los planeadores son blancos, cómo cuidar su "piel" y por qué la pintura de PU va sustituyendo al gelcoat.
 - #strong[El larguero y la estructura sándwich]: dónde reside la resistencia del ala y por qué un golpe pequeño puede esconder una delaminación.
-- #strong[La cúpula (]canopy#strong[)]: cierre, ventilación y suelta de emergencia.
+- #strong[La cúpula (canopy)]: cierre, ventilación y suelta de emergencia.
 - #strong[El gancho de remolque]: gancho de morro, gancho de CG y el mecanismo de suelta automática.
 ]
 
@@ -772,7 +772,7 @@ En este capítulo aprenderás:
 - #strong[Las categorías de diseño] Utilitaria y Acrobática según CS-22 y sus límites en g.
 - #strong[Carga límite y carga de rotura]: qué protege el factor de seguridad de 1,5 y qué no.
 - #strong[La fatiga estructural] de los composites y sus inspecciones de vida útil.
-- #strong[El flameo (]flutter#strong[)]: la vibración que puede desintegrar un planeador en segundos.
+- #strong[El flameo (flutter)]: la vibración que puede desintegrar un planeador en segundos.
 ]
 
 Un planeador no solo tiene que ser aerodinámicamente eficiente; también tiene que aguantar las fuerzas de la atmósfera y las maniobras del piloto. Ese diseño estructural se rige por normas estrictas (como la CS-22 de EASA (European Union Aviation Safety Agency)), que fijan cuánta carga debe soportar la aeronave antes de sufrir daños.
@@ -1132,7 +1132,7 @@ En este capítulo aprenderás:
 - #strong[Los mandos primarios]: alerones, profundidad y dirección, y cómo se transmiten (varillas y cables).
 - #strong[Los aerofrenos]: el mando azul y su efecto sobre la senda de planeo.
 - #strong[Los flaps]: posiciones positivas y negativas en veleros de rendimiento.
-- #strong[El compensador (]trim#strong[)]: de muelles o de pestaña, y por qué es tu mejor aliado.
+- #strong[El compensador (trim)]: de muelles o de pestaña, y por qué es tu mejor aliado.
 - #strong[La comprobación de libertad y sentido de mandos] antes de cada despegue.
 ]
 

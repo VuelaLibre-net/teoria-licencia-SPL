@@ -27,7 +27,7 @@ Salvo que vueles a la vista del aeródromo o en una zona autorizada por la autor
 * **Documento de identificación:** DNI, pasaporte o documento oficial con fotografía.
 * **Manual de vuelo (AFM):** el manual específico del modelo de planeador que operas.
 * **Cartas aeronáuticas:** actualizadas y adecuadas para la ruta prevista.
-* **Libro de vuelo (**logbook**):** datos suficientes —o el propio libro— para demostrar que cumples los requisitos de la normativa, la experiencia reciente incluida.
+* **Libro de vuelo (logbook):** datos suficientes —o el propio libro— para demostrar que cumples los requisitos de la normativa, la experiencia reciente incluida.
 * **Señales de interceptación:** una copia de los procedimientos y señales visuales internacionales de interceptación (SERA.11015; las señales y la respuesta correcta se estudian en el Libro 4, *Comunicaciones*, capítulo 8).
 
 El resto de los papeles de la aeronave —certificado de matrícula, certificado de aeronavegabilidad con sus anexos, ARC, licencia de radio si lleva equipo, certificado del seguro y diario de a bordo— no necesitan volar contigo: SAO.GEN.155 exige que estén disponibles en el aeródromo o lugar de operación.
@@ -109,7 +109,7 @@ Tras cada montaje de la aeronave, es obligatorio y vital realizar una **comproba
 
 El transporte del planeador en su remolque exige que las piezas encajen de forma precisa y firme:
 
-* **Evita rozaduras (**chafing**):** los planos y el fuselaje deben apoyarse en cunas acolchadas y específicas para el modelo, bloqueados firmemente para que las vibraciones en carretera no desgasten la fibra ni las superficies de control.
+* **Evita rozaduras (chafing):** los planos y el fuselaje deben apoyarse en cunas acolchadas y específicas para el modelo, bloqueados firmemente para que las vibraciones en carretera no desgasten la fibra ni las superficies de control.
 * **Cierre del carro:** asegura los cierres del carro y comprueba que las luces de señalización y los frenos del remolque funcionan correctamente antes de salir a la carretera.
 
 ### Anclaje y aseguramiento (*tiedown & securing*)
@@ -138,7 +138,7 @@ Antes del primer despegue del día, el piloto al mando debe realizar una inspecc
 1. **Cabina y morro:** cúpula limpia y sin grietas. Mandos libres, cinturones en buen estado, batería cargada y fijada. Tomas de pitot y estática libres de obstrucciones.
 2. **Ala izquierda:** borde de ataque limpio. Holguras y conexiones de los alerones y flaps. Estado y blocaje de los aerofrenos. Patín o rueda de punta de ala.
 3. **Fuselaje izquierdo:** ausencia de grietas en la estructura de fibra. Estado de las antenas.
-4. **Cola (**empennage**):** fijación del estabilizador horizontal y vertical. Libre movimiento y holguras del timón de dirección y profundidad. Estado de las tomas de estática de cola y la sonda de energía total (TE).
+4. **Cola (empennage):** fijación del estabilizador horizontal y vertical. Libre movimiento y holguras del timón de dirección y profundidad. Estado de las tomas de estática de cola y la sonda de energía total (TE).
 5. **Fuselaje derecho:** inspección simétrica al lado izquierdo.
 6. **Ala derecha:** inspección simétrica al ala izquierda.
 7. **Tren de aterrizaje y ganchos:** presión y estado del neumático principal y de cola. Funcionamiento del freno de rueda. Comprobación de que el gancho de morro y el gancho de CG están limpios y operan libremente.

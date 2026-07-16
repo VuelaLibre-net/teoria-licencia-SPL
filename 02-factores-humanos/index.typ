@@ -1024,7 +1024,7 @@ La capacidad visual humana se degrada con la escasez luminosa y la disminución 
 
 Por otro lado, la falta de texturas y contornos fiables en la oscuridad, en entornos nevados o sobre el agua facilita la aparición de peligrosas ilusiones en el cerebro del piloto:
 
-- #strong[Aproximación de agujero negro (]Black Hole Approach#strong[):] Al realizar el tramo final hacia una pista iluminada rodeada de terreno muy oscuro y sin referencias luminosas laterales (como un lago), el cerebro pierde la percepción real de profundidad. La ilusión lleva a creer que vuelas más alto de lo real y que la senda es más empinada de lo normal. Esto genera el impulso de picar el morro para «corregirla», con riesgo de impacto antes del umbral. La medida correctiva es mantener la velocidad indicada por el anemómetro e ignorar la sensación hasta recuperar referencias visuales de textura en tierra.
+- #strong[Aproximación de agujero negro (Black Hole Approach):] Al realizar el tramo final hacia una pista iluminada rodeada de terreno muy oscuro y sin referencias luminosas laterales (como un lago), el cerebro pierde la percepción real de profundidad. La ilusión lleva a creer que vuelas más alto de lo real y que la senda es más empinada de lo normal. Esto genera el impulso de picar el morro para «corregirla», con riesgo de impacto antes del umbral. La medida correctiva es mantener la velocidad indicada por el anemómetro e ignorar la sensación hasta recuperar referencias visuales de textura en tierra.
 - #strong[Ilusión autocinética:] Al fijar la mirada sobre una luz aislada en la oscuridad durante varios segundos, los micromovimientos involuntarios del ojo producen la falsa percepción de que la luz se desplaza. Esto puede confundir al piloto respecto a si se trata de otra aeronave en movimiento. El remedio es mantener el escaneo visual activo, evitando fijar la vista en un foco único durante más de unos pocos segundos.
 
 #figure([
@@ -1585,7 +1585,7 @@ El #strong[modelo PAVE] divide los riesgos del vuelo en cuatro elementos fundame
 
 - #strong[P (Piloto):] Estado fisiológico y psicológico. ¿Está el piloto descansado? ¿Sufre fatiga o estrés? ¿Cumple los requisitos de experiencia reciente?
 - #strong[A (Aeronave):] Estado del planeador. ¿Es el equipo adecuado para el vuelo previsto? ¿Están los instrumentos operativos y las revisiones vigentes?
-- #strong[V (]enVironment\*\* --- Entorno):\*\* Meteorología, aeródromos de alternativa, orografía, densidad de tráfico y espacio aéreo.
+- #strong[V (enVironment --- Entorno):] Meteorología, aeródromos de alternativa, orografía, densidad de tráfico y espacio aéreo.
 - #strong[E (Presiones externas u Operación):] Factores como la necesidad de finalizar un curso, la presión de no decepcionar a un pasajero o la urgencia ante una ventana meteorológica en cierre.
 
 #block[

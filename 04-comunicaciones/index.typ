@@ -945,7 +945,7 @@ white
 #strong[Resumen del capítulo: Definiciones y técnica]
 
 - #strong[Introducción]: Las comunicaciones aeronáuticas de voz se realizan en VHF (118--136,975 MHz), reguladas por el Anexo 10 de la OACI. El espaciado de canales en Europa es de 8,33 kHz (Reglamento UE 1079/2012). La estación en tierra es la «estación aeronáutica»; el piloto opera desde la «estación de aeronave».
-- #strong[La colación (]readback#strong[)]: Repetir textualmente las instrucciones del ATC es obligatorio para: autorizaciones, rumbos/altitudes, pista en uso, QNH, cambios de frecuencia, transferencias ATC y código de transpondedor cuando sea asignado.
+- #strong[La colación (readback)]: Repetir textualmente las instrucciones del ATC es obligatorio para: autorizaciones, rumbos/altitudes, pista en uso, QNH, cambios de frecuencia, transferencias ATC y código de transpondedor cuando sea asignado.
 - #strong[Fraseología estándar]: La radio no admite lenguaje coloquial. Términos clave: #strong[Afirma], #strong[Negativo], #strong[Wilco], #strong[Solicito], #strong[Recibido]. «Recibido» nunca sustituye a una colación obligatoria, y «Afirmativo» se evita siempre.
 - #strong[Disciplina de radio]: Piensa → Escucha → Pulsa y cuenta uno → Habla. Menos de 100 palabras por minuto, mensaje preparado antes de pulsar el PTT.
 - #strong[Transmisión de números, horas y frecuencias]: Números dígito a dígito («#emph[tres cuatro]», nunca «treinta y cuatro»); centenas y miles exactos como unidades («#emph[dos mil seiscientos]»). Horas en UTC, normalmente solo los minutos. Frecuencias con «coma»: «#emph[uno dos cuatro coma cuatro cero]». Colaciona siempre el nuevo canal antes de cambiar.
@@ -1848,7 +1848,7 @@ Las radios VHF aeronáuticas van de #strong[118 MHz a 136,975 MHz] con modulaci�
 
 === Funciones clave
 <funciones-clave>
-- #strong[Doble escucha (]dual watch#strong[)]: monitoriza dos frecuencias simultáneamente y transmite solo en la primaria. Útil para escuchar el FIS mientras trabajas con la torre.
+- #strong[Doble escucha (dual watch)]: monitoriza dos frecuencias simultáneamente y transmite solo en la primaria. Útil para escuchar el FIS mientras trabajas con la torre.
 - #strong[Squelch]: cierra el altavoz cuando la señal baja de un umbral mínimo, eliminando el ruido de fondo. Si lo cierras demasiado, puedes perder señales débiles de aeronaves lejanas.
 - #strong[Selector de canal]: confirma siempre visualmente la frecuencia en pantalla antes de transmitir.
 
@@ -1859,7 +1859,7 @@ Los detalles técnicos y la normativa sobre el espaciado de canales VHF se desar
 #strong[Resumen del Capítulo: Procedimientos Operativos Generales]
 
 - #strong[Esquema de llamada]: A quién → Quién soy → Dónde estoy → Qué necesito. Al colacionar, el indicativo va al final. En autoinformación, el indicativo va al principio.
-- #strong[Prueba de radio (]radio check#strong[)]: Realízala solo si tienes dudas sobre la integridad del equipo. Usa la escala de legibilidad del 1 (ilegible) al 5 (perfecto): «Le recibo 5».
+- #strong[Prueba de radio (radio check)]: Realízala solo si tienes dudas sobre la integridad del equipo. Usa la escala de legibilidad del 1 (ilegible) al 5 (perfecto): «Le recibo 5».
 - #strong[Reportes de posición]: Identificativo + posición + altitud (QNH o FL). En travesía añade hora UTC y siguiente punto estimado. Actualiza al FIS si te apartas de tu ruta.
 - #strong[Llamadas simultáneas]: Si la frecuencia está activa, espera. Tras una llamada sin respuesta, aguarda 10 segundos antes de reintentar. El ATC decide el turno cuando varias aeronaves llaman a la vez.
 - #strong[Micrófono bloqueado]: Comprueba que la luz TX se apaga al soltar el PTT. Un PTT atascado anula la frecuencia para todos los usuarios.
@@ -2568,7 +2568,7 @@ Las ondas VHF viajan en línea recta y no atraviesan la roca. Si bajas por debaj
 En alta montaña, anticipa esto con dos medidas:
 
 + #strong[Anticipa la falta de cobertura]: Si tienes que notificar un informe de posición al FIS, hazlo #strong[antes] de meterte en ese valle o detrás de esa cordillera.
-+ #strong[El avión puente (]Relay#strong[)]: En una emergencia desde el fondo de un cajón sin cobertura, recuerda que por encima de ti hay planeadores de tu propio club a más altura, o aviones comerciales en ruta. Ellos «ven» tanto tu posición en el valle como la torre lejana. Úsalos como #strong[estaciones relé]. Emite: #emph[«Tráfico en 123,500, aquí Eco Papa Eco en emergencia en el fondo del valle del Jerte, ¿alguien puede retransmitir mi Mayday a Madrid Información?»] Sus ondas llegarán libres de obstáculos hasta la torre, y ellos retransmitirán tu llamada.
++ #strong[El avión puente (Relay)]: En una emergencia desde el fondo de un cajón sin cobertura, recuerda que por encima de ti hay planeadores de tu propio club a más altura, o aviones comerciales en ruta. Ellos «ven» tanto tu posición en el valle como la torre lejana. Úsalos como #strong[estaciones relé]. Emite: #emph[«Tráfico en 123,500, aquí Eco Papa Eco en emergencia en el fondo del valle del Jerte, ¿alguien puede retransmitir mi Mayday a Madrid Información?»] Sus ondas llegarán libres de obstáculos hasta la torre, y ellos retransmitirán tu llamada.
 
 == Frecuencias usuales en aviación deportiva
 <frecuencias-usuales-en-aviación-deportiva>

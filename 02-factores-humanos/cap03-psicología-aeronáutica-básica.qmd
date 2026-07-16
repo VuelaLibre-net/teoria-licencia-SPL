@@ -61,7 +61,7 @@ El **modelo PAVE** divide los riesgos del vuelo en cuatro elementos fundamentale
 
 * **P (Piloto):** Estado fisiológico y psicológico. ¿Está el piloto descansado? ¿Sufre fatiga o estrés? ¿Cumple los requisitos de experiencia reciente?
 * **A (Aeronave):** Estado del planeador. ¿Es el equipo adecuado para el vuelo previsto? ¿Están los instrumentos operativos y las revisiones vigentes?
-* **V (**enVironment** — Entorno):** Meteorología, aeródromos de alternativa, orografía, densidad de tráfico y espacio aéreo.
+* **V (enVironment — Entorno):** Meteorología, aeródromos de alternativa, orografía, densidad de tráfico y espacio aéreo.
 * **E (Presiones externas u Operación):** Factores como la necesidad de finalizar un curso, la presión de no decepcionar a un pasajero o la urgencia ante una ventana meteorológica en cierre.
 
 ::: {.callout-tip title="Regla de oro"}

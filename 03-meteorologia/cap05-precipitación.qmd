@@ -11,7 +11,7 @@ Los planeadores están diseñados con perfiles laminares calibrados para una alt
 
 En vuelo con lluvia, las consecuencias son directas:
 
-* **Aumento de la velocidad de pérdida (**stall speed**):** El ala perderá su sustentación a una velocidad significativamente mayor que en configuración seca.
+* **Aumento de la velocidad de pérdida (stall speed):** El ala perderá su sustentación a una velocidad significativamente mayor que en configuración seca.
 * **Reducción del coeficiente de planeo:** El ratio de planeo (**glide ratio**) se penaliza, lo que obliga a recalcular el cono de planeo y buscar alternativas de aterrizaje con menor alcance.
 * **Mayor tasa de descenso:** Se aprecia un incremento notorio en la tasa de caída o hundimiento (**sink rate**) para lograr mantener una misma velocidad de vuelo.
 

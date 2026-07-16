@@ -18,7 +18,7 @@ El **circuito de tráfico** es un procedimiento estandarizado que organiza la ll
 
 Los cuatro tramos estándar son (@fig-06-cap04-circuito-estandar):
 
-1. **Viento cruzado (**crosswind**):** Tramo perpendicular a la pista, realizado justo tras el despegue o al entrar en el circuito desde la travesía. La altura recomendada al completar el giro a viento cruzado es de 250-300 metros (QFE).
+1. **Viento cruzado (crosswind):** Tramo perpendicular a la pista, realizado justo tras el despegue o al entrar en el circuito desde la travesía. La altura recomendada al completar el giro a viento cruzado es de 250-300 metros (QFE).
 2. **Viento en cola** (**downwind**): Tramo paralelo a la pista en dirección contraria al aterrizaje. Se vuela a una distancia lateral de 200-400 metros de la pista, a una altura de 200-300 metros. Es el tramo donde se realizan las comprobaciones de la lista FUSTALL (ver sección siguiente).
 3. **Tramo de base** (**base leg**): Tramo perpendicular a la pista, iniciado cuando el punto de toma queda a unos 45° detrás del ala del piloto. La altura recomendada al inicio de la base es de 150 metros.
 4. **Final** (**final leg**): Tramo alineado con la pista, desde el que se realiza el descenso y la toma. Los aerofrenos se gestionan de forma continua durante este tramo para clavar el punto de toma.
@@ -104,7 +104,7 @@ Aunque la regla de oro de la aviación exige aterrizar siempre de cara al viento
 
 El viento de cola altera radicalmente las referencias sensoriales del piloto y la física de la toma:
 
-* **Aumento de la velocidad sobre el suelo (**groundspeed**):** si tu velocidad de aproximación indicada es de 90 km/h y tienes un viento de cola de 20 km/h, tu velocidad real respecto al suelo será de 110 km/h. La carrera de aterrizaje se alargará mucho más y exigirá más distancia y un uso eficaz del freno de rueda.
+* **Aumento de la velocidad sobre el suelo (groundspeed):** si tu velocidad de aproximación indicada es de 90 km/h y tienes un viento de cola de 20 km/h, tu velocidad real respecto al suelo será de 110 km/h. La carrera de aterrizaje se alargará mucho más y exigirá más distancia y un uso eficaz del freno de rueda.
 * **La ilusión visual de velocidad:** al ver pasar el suelo a gran velocidad durante el final y la toma, tu cerebro interpretará falsamente que vas demasiado rápido. La reacción instintiva y peligrosa es tirar de la palanca de mando para frenar el velero. Esto reducirá la velocidad indicada por debajo de la de seguridad y puede provocar una pérdida (**stall**) y entrada en barrena (**spin**) a escasos metros del suelo.
 * **Senda de aproximación plana:** al desplazarte más rápido sobre el terreno, tu ángulo de descenso aparente será mucho más plano. Mantén una senda conservadora utilizando los aerofrenos con precisión.
 
@@ -129,5 +129,5 @@ Durante la fase final de aproximación y la toma de tierra, a bajas velocidades,
 * **FUSTALL en el viento en cola**: **Flaps**, **Undercarriage** (tren fuera y blocado), **Speed** (velocidad de aproximación), **Trim**, **Airbrakes** (aerofrenos libres y cerrados), **Landing area** (viento y tráfico), **Land**. Lastre de agua vaciado antes de entrar al circuito. Hazlo siempre en el mismo punto del recorrido.
 * **Velocidad de aproximación**: calcula tu velocidad base (1,5 V~S~) y **súmale la mitad del viento y de la racha**. Entrar lento con viento es receta para un accidente por cizalladura.
 * **Aerofrenos**: entra en final con el 50 % sacados. Si el punto de toma sube en el parabrisas, cierra; si baja, abre. Nunca cierres bruscamente cerca del suelo: balonazo y golpe de cola.
-* **Resbale lateral (**sideslip**)**: método de descenso rápido de emergencia cruzando mandos. Recuerda: **ala baja al viento**, actitud visual de morro bajo (el anemómetro no es fiable por el flujo cruzado) y salida relajando primero la palanca.
+* **Resbale lateral (sideslip)**: método de descenso rápido de emergencia cruzando mandos. Recuerda: **ala baja al viento**, actitud visual de morro bajo (el anemómetro no es fiable por el flujo cruzado) y salida relajando primero la palanca.
 * **Viento de cola y PIOs**: en tomas con viento de cola, ignora la velocidad visual del suelo (evita pérdidas de sustentación) y prepárate para un rodaje largo. Si el velero oscila en cabeceo (**PIO**) cerca del suelo, congela la palanca y deja actuar su estabilidad estática.
