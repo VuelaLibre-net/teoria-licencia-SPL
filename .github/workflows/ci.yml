@@ -367,6 +367,27 @@ jobs:
             grep -o '.\{0,40\}\*\*.\{0,40\}' <<<"$texto" | head -3 | sed 's/^/    /'
             errores=1
           fi
+
+          # La página de créditos tiene que caber en UNA página. Es una condición
+          # editorial —es el verso de la portada—, y hoy queda 1,3 cm de holgura:
+          # dos líneas de más la parten en dos, y el segundo folio saldría con
+          # cuatro líneas sueltas sin que nada protestara.
+          #
+          # Se localiza por su título y se exige que la última frase del aval
+          # —lo último de la página— esté en esa MISMA página. Si se desborda,
+          # cae a la siguiente y aquí se ve.
+          pag=$(for n in $(seq 2 9); do
+                  pdftotext -f "$n" -l "$n" "$pdf" - 2>/dev/null \
+                    | grep -q 'Información legal y licencia' && echo "$n" && break
+                done)
+          if [ -z "$pag" ]; then
+            echo "::error file=$pdf::No encuentro la página de créditos"
+            errores=1
+          elif ! pdftotext -f "$pag" -l "$pag" "$pdf" - 2>/dev/null \
+               | grep -q 'responsabilidad exclusiva de los autores'; then
+            echo "::error file=$pdf::La página de créditos se desborda: empieza en la $pag y no acaba ahí"
+            errores=1
+          fi
         done
 
         # Los EPUB también se comprueban. Hasta ahora sólo se miraban los PDF, y

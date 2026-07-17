@@ -6,6 +6,7 @@ contributes:
   formats:
     typst:
       include-in-header:
+        - aviso-legal.typ
         - glosario.typ
         - mas-alla.typ
         - postit.typ
