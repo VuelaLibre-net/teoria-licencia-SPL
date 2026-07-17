@@ -38,6 +38,10 @@ los términos ingleses van en cursiva. El CI lo comprueba ahora en los 76 capít
 
 Nada de esto altera lo que el lector aprende; el revisor puede saltárselo.
 
+* El pie de la figura de la respuesta dinámica (`cap03`) arrastraba un paréntesis suelto al final.
+  Era lo que quedó de la atribución «(Fuente: FAA Glider Flying Handbook)» del AsciiDoc, que el
+  importador cortó. Se retira: la colección no atribuye en los pies —los otros pies de este mismo
+  capítulo tampoco—, sino en «Fuentes y agradecimientos» de la página de créditos.
 * El índice, la lista de ilustraciones y la de tablas bajan de cuerpo. Estaban a 15/13/11/11 pt
   con el texto del libro a 10: hasta la subsección más profunda era mayor que lo que se lee.
 * La banda azul de la portadilla crece si el título no cabe en una línea. Tenía altura fija y

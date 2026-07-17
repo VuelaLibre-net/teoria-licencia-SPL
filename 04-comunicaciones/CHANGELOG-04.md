@@ -47,6 +47,9 @@ los términos ingleses van en cursiva. El CI lo comprueba ahora en los 76 capít
 
 Nada de esto altera lo que el lector aprende; el revisor puede saltárselo.
 
+* El pie de la figura del micrófono (`cap01`) estaba cortado: decía «Pulsa el PTT (» y ahí acababa.
+  Se restaura entero desde el AsciiDoc de origen. El importador truncaba el pie en la primera marca
+  de formato, y aquí caía dentro de un paréntesis, a la vista.
 * El índice, la lista de ilustraciones y la de tablas bajan de cuerpo. Estaban a 15/13/11/11 pt
   con el texto del libro a 10: hasta la subsección más profunda era mayor que lo que se lee.
 * La banda azul de la portadilla crece si el título no cabe en una línea. Tenía altura fija y

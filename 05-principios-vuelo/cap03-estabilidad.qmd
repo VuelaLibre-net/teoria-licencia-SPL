@@ -26,7 +26,7 @@ Según cómo evolucionen esas oscilaciones en el tiempo, el comportamiento puede
 * **Neutra:** las oscilaciones se mantienen constantes en amplitud, sin crecer ni decrecer. El planeador nunca vuelve al equilibrio exacto, pero tampoco empeora.
 * **Divergente (negativa):** las oscilaciones crecen en amplitud con cada ciclo. Una perturbación pequeña se convierte en un movimiento cada vez mayor hasta perder el control.
 
-![Respuesta dinámica de una aeronave: oscilación neutra, positiva y negativa (](imagenes/05-cap03-estabilidad-dinamica.png){#fig-05-cap03-estabilidad-dinamica}
+![Respuesta dinámica de una aeronave: oscilación neutra, positiva y negativa](imagenes/05-cap03-estabilidad-dinamica.png){#fig-05-cap03-estabilidad-dinamica}
 
 Dos modos de oscilación merecen atención especial en un planeador:
 

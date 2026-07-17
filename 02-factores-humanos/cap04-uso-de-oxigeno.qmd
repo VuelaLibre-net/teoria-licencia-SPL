@@ -51,7 +51,7 @@ El TUC es el intervalo que transcurre desde que se interrumpe el suministro de o
 
 La siguiente tabla muestra los valores de referencia (@fig-02-cap04-hipoxia-tiempo-conciencia):
 
-![Tiempo de conciencia útil (](imagenes/02-cap04-hipoxia-tiempo-conciencia.png){#fig-02-cap04-hipoxia-tiempo-conciencia}
+![Tiempo de conciencia útil (*Time of Useful Consciousness*) según la altitud](imagenes/02-cap04-hipoxia-tiempo-conciencia.png){#fig-02-cap04-hipoxia-tiempo-conciencia}
 
 Un descenso desde 7.000 m hasta 3.000 m a 5 m/s de tasa de descenso tarda más de 13 minutos, tiempo con frecuencia superior al TUC disponible a esa altitud. Iniciar el descenso sin oxígeno puede ser demasiado tarde.
 

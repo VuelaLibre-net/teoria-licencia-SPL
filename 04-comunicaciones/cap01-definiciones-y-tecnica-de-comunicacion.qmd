@@ -54,7 +54,7 @@ Los términos que tienes que conocer desde el primer día:
 La frecuencia de radio es un recurso compartido. Un mensaje breve, preciso y sin vacilaciones libera la frecuencia para otros tráficos y para emergencias. Planifique el mensaje antes de pulsar el PTT: quién llama, a quién, qué necesita.
 :::
 
-![Pulsa el PTT (](imagenes/04-cap01-disciplina-radio.jpg){#fig-04-cap01-microfono}
+![Pulsa el PTT (*Push-to-Talk*) de la palanca y espera un segundo antes de hablar; habla con un volumen normal y mantén el micrófono cerca de la boca sin tocarla. Cuando termines, suelta el PTT y asegúrate de que ya no estás emitiendo (se apagará el indicador *TX*).](imagenes/04-cap01-disciplina-radio.jpg){#fig-04-cap01-microfono}
 
 ## Transmisión de números, horas y frecuencias
 

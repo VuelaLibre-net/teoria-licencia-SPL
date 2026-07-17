@@ -44,6 +44,9 @@ los términos ingleses van en cursiva. El CI lo comprueba ahora en los 76 capít
 
 Nada de esto altera lo que el lector aprende; el revisor puede saltárselo.
 
+* El pie de la figura de la cizalladura (`cap09`) estaba cortado: decía «Reventón (» y ahí acababa.
+  Se restaura desde el AsciiDoc de origen, con **downburst** en negrita como lo escribe el cuerpo
+  del capítulo.
 * El índice, la lista de ilustraciones y la de tablas bajan de cuerpo. Estaban a 15/13/11/11 pt
   con el texto del libro a 10: hasta la subsección más profunda era mayor que lo que se lee.
 * La banda azul de la portadilla crece si el título no cabe en una línea. Tenía altura fija y

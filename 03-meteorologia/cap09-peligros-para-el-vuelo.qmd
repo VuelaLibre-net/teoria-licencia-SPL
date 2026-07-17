@@ -76,7 +76,7 @@ Un planeador con hielo estructural puede entrar en pérdida a velocidades muy su
 * **Riesgo en final:** El planeador estima su energía de planeo sobre el viento de cara reinante. Si ese viento desaparece o gira a cola de forma súbita —lo que ocurre al cruzar una cizalladura— la velocidad aerodinámica (IAS) cae bruscamente, la sustentación se reduce y el planeador desciende de golpe. A escasa altura sobre el umbral no hay margen de recuperación: una pérdida de 10 kt de viento de cara en final puede llevar al aporrizaje (**crash landing**) en pocos segundos.
 * **Reventones (Microbursts/Downbursts):** Íntimamente ligados a la base de cumulonimbos desarrollados que descargan lluvia intensa. Estas masas de aire frío se desploman verticalmente hacia el suelo, donde se expanden horizontalmente provocando ráfagas radiales opuestas. Entrar en una micro ráfaga durante la aproximación es extremadamente peligroso: primero el planeador experimenta una ganancia de sustentación engañosa por el viento de cara, para segundos después sufrir un hundimiento masivo por el aire descendente y el repentino viento de cola, que puede llevar a un aterrizaje forzado o accidente si no se tiene suficiente altitud y velocidad (@fig-03-cap09-cizalladura).
 
-![Reventón (](imagenes/03-cap09-cizalladura.jpg){#fig-03-cap09-cizalladura}
+![Reventón (**downburst**) en la aproximación final: el aire descendente se expande en superficie y cambia bruscamente el viento de cara a cola](imagenes/03-cap09-cizalladura.jpg){#fig-03-cap09-cizalladura}
 
 ::: {.postit}
 **Resumen del capítulo: peligros para el vuelo**

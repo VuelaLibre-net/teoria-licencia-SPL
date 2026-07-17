@@ -32,6 +32,9 @@ cambia es la cita con la que abre el libro, y si encaja con la asignatura es cri
 
 Nada de esto altera lo que el lector aprende; el revisor puede saltárselo.
 
+* El pie de la gráfica del tiempo de conciencia útil (`cap04`) estaba cortado: decía «Tiempo de
+  conciencia útil (» y ahí acababa. Se restaura desde el AsciiDoc de origen, con el término inglés
+  en cursiva como lo escribe el cuerpo del capítulo.
 * El índice, la lista de ilustraciones y la de tablas bajan de cuerpo. Estaban a 15/13/11/11 pt
   con el texto del libro a 10: hasta la subsección más profunda era mayor que lo que se lee.
 * La banda azul de la portadilla crece si el título no cabe en una línea. Tenía altura fija y
