@@ -9,3 +9,5 @@ _book/
 # versiona: además de ruido, lleva embebida la fecha del último commit del libro,
 # así que commitearlo cambiaba esa fecha y obligaba a regenerarlo otra vez.
 /[0-9][0-9]-*/index.typ
+
+.tmp/
