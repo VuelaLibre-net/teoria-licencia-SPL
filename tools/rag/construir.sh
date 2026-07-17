@@ -93,7 +93,11 @@ for f in $lista; do
     entrada=$tmp/introduccion.qmd
   fi
 
-  pandoc "$entrada" \
+  # `quarto pandoc`, no `pandoc`: el del sistema puede no estar —el runner del
+  # CI no lo trae— y, si está, no tiene por qué ser el mismo. Quarto empotra el
+  # suyo, así que aquí y en el CI compila el mismo binario. Es el mismo motivo
+  # por el que QUARTO_TYPST se fija a mano para los otros dos entregables.
+  quarto pandoc "$entrada" \
     --from=markdown \
     --to=gfm \
     --wrap=none \
