@@ -10,6 +10,14 @@ El **Libro 3 de Meteorología** del Manual SPL te enseña a leer la atmósfera c
 
 ---
 
+## Cita célebre
+
+> «Ningún ave se remonta en calma.»
+>
+> — Wilbur Wright (1900), pionero de la aviación y co-inventor del primer avión motorizado funcional.
+
+---
+
 ## Descripción larga (web / tienda / plataforma e-learning)
 
 ### El tiempo no mata. La ignorancia del tiempo, sí.

@@ -10,6 +10,14 @@ El **Libro 4 de Comunicaciones** del Manual SPL te enseña a usar la radio como 
 
 ---
 
+## Cita célebre
+
+> «El mayor problema de la comunicación es la ilusión de que se ha llevado a cabo.»
+>
+> — George Bernard Shaw (1950), dramaturgo, crítico literario y premio Nobel de Literatura en 1925.
+
+---
+
 ## Descripción larga (web / tienda / plataforma e-learning)
 
 ### Hay pilotos que temen más la radio que las nubes. No debería ser así.

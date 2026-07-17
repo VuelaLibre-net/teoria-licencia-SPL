@@ -10,6 +10,14 @@ El **Libro 6 de Procedimientos Operativos** del Manual SPL cubre cada procedimie
 
 ---
 
+## Cita célebre
+
+> «No vuelas por instinto; vuelas gracias a una preparación meticulosa y al respeto absoluto por los procedimientos establecidos.»
+>
+> — Neil Armstrong (1969), piloto de pruebas, de planeadores y primer astronauta en pisar la Luna.
+
+---
+
 ## Descripción larga (web / tienda / plataforma e-learning)
 
 ### La técnica te lleva al aire. Los procedimientos te traen de vuelta.

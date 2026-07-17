@@ -10,6 +10,14 @@ El **Libro 2 de Factores Humanos** del Manual SPL te enseña cómo funciona real
 
 ---
 
+## Cita célebre
+
+> «Un buen piloto es aquel que utiliza su excelente juicio para evitar situaciones que requieran su excelente habilidad.»
+>
+> — Frank Borman (1968), astronauta comandante de la misión Apolo 8 y piloto de combate de la USAF.
+
+---
+
 ## Descripción larga (web / tienda / plataforma e-learning)
 
 ### El 90 % de los accidentes de vuelo a vela tienen un factor común: el piloto.

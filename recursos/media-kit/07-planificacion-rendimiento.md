@@ -10,6 +10,14 @@ El **Libro 7 de Planificación y Rendimiento** del Manual SPL te enseña a leer 
 
 ---
 
+## Cita célebre
+
+> «La planificación es traer el futuro al presente para que puedas hacer algo al respecto ahora.»
+>
+> — Alan Lakein (1973), autor estadounidense pionero y especialista en la gestión del tiempo.
+
+---
+
 ## Descripción larga (web / tienda / plataforma e-learning)
 
 ### El piloto que sabe calcular tiene ventaja. El que no, espera que el día perdone los errores.

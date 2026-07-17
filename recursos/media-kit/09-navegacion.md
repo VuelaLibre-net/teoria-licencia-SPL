@@ -10,6 +10,14 @@ El **Libro 9 de Navegación** del Manual SPL te enseña a leer una carta aeroná
 
 ---
 
+## Cita célebre
+
+> «Cuando no sabes a qué puerto te diriges, ningún viento te es favorable.»
+>
+> — Séneca (circa 62 d.C.), filósofo, escritor y consejero del Imperio Romano.
+
+---
+
 ## Descripción larga (web / tienda / plataforma e-learning)
 
 ### El piloto de vela que no navega bien aterriza donde puede, no donde quiere.

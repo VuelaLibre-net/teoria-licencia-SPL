@@ -10,6 +10,14 @@ El **Libro 8 de Conocimientos Generales de la Aeronave** del Manual SPL te expli
 
 ---
 
+## Cita célebre
+
+> «La máquina no es el fin, es el instrumento. El fin es el ser humano liberado por ella.»
+>
+> — Antoine de Saint-Exupéry (1939), pionero del correo aéreo internacional, piloto de reconocimiento militar y escritor.
+
+---
+
 ## Descripción larga (web / tienda / plataforma e-learning)
 
 ### El planeador no es una caja negra. Es una máquina que habla si sabes escucharla.

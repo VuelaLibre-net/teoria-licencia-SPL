@@ -10,6 +10,14 @@ El **Libro 5 de Principios de Vuelo** del Manual SPL te explica la aerodinámica
 
 ---
 
+## Cita célebre
+
+> «Todo el problema se reduce a hacer que una superficie sostenga un peso…»
+>
+> — George Cayley (1809), ingeniero británico, considerado el padre de la aerodinámica por definir las fuerzas del vuelo.
+
+---
+
 ## Descripción larga (web / tienda / plataforma e-learning)
 
 ### El planeador no miente. Si no entiendes la física, la física te lo recuerda.

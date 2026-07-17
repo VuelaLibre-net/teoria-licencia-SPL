@@ -10,6 +10,14 @@ El **Libro 1 de Derecho Aéreo y ATC** del Manual SPL te explica el marco legal 
 
 ---
 
+## Cita célebre
+
+> «En aeronáutica, las reglas no se diseñan para limitar la libertad, sino para garantizar que todos volvamos a disfrutar de ella mañana.»
+>
+> — Anónimo, de la tradición oral de la seguridad aérea.
+
+---
+
 ## Descripción larga (web / tienda / plataforma e-learning)
 
 ### Las reglas no son el enemigo. La ignorancia de las reglas, sí.
