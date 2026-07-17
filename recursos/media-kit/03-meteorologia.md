@@ -22,9 +22,9 @@ El **Libro 3 de Meteorología** del Manual SPL te enseña a leer la atmósfera c
 
 ### El tiempo no mata. La ignorancia del tiempo, sí.
 
-Un planeador sin motor es la aeronave más vulnerable ante la meteorología. No tienes turbinas que te den potencia para escapar, ni sistemas anti-hielo que compren segundos. Lo único que te protege es saber lo que el cielo te está diciendo —y actuar antes de que sea tarde.
+Un planeador sin motor es la aeronave más vulnerable ante la meteorología. No tienes turbinas que te den potencia para escapar, ni sistemas anti-hielo que compren segundos. Lo único que te protege es saber lo que el cielo te está diciendo, y actuar antes de que sea tarde.
 
-El **Libro 3: Meteorología** está diseñado exactamente para eso.
+De eso trata el **Libro 3: Meteorología**.
 
 Con un lenguaje directo —el del instructor veterano que te habla tomando un café en el hangar, no el del libro de texto que nadie acaba— este volumen cubre los diez bloques temáticos del syllabus EASA AMC1 SFCL.130 sin saltarse nada y sin relleno:
 

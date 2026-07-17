@@ -36,7 +36,7 @@ Con ejemplos de cálculo reales, diagramas de polar anotados y los escenarios de
 
 - **La polar de velocidades** — Cómo leer la curva polar y extraer de ella la fineza máxima, la velocidad de mínimo descenso y la velocidad de crucero óptima para un viento dado. La polar modificada por el lastre de agua: por qué un planeador más pesado vuela más rápido con la misma fineza y cuándo ese intercambio compensa.
 
-- **La teoría de MacCready** — El ajuste del anillo MacCready como herramienta de optimización entre térmicas. Qué velocidad interestelar volar cuando la siguiente térmica promete 2 m/s y cuándo es mejor gastar lo que tienes para no aterrizar en el campo del granjero. La velocidad de crucero óptima con viento de frente y de cola: por qué no son simétricas.
+- **La teoría de MacCready** — El ajuste del anillo MacCready como herramienta de optimización entre térmicas. Qué velocidad volar entre térmicas cuando la siguiente promete 2 m/s y cuándo es mejor gastar lo que tienes para no aterrizar en el campo del granjero. La velocidad de crucero óptima con viento de frente y de cola: por qué no son simétricas.
 
 - **Planificación de tareas de vuelo** — Cómo diseñar una tarea de distancia: los criterios de selección del recorrido, los puntos de viraje con altura mínima garantizada y la gestión de alternativas cuando el día no da lo que prometía. La hoja de planificación que simplifica las decisiones en vuelo y evita la saturación cognitiva en un día termal activo.
 
@@ -58,7 +58,7 @@ Para **cualquier piloto que lleve años haciendo los cálculos de centrado a ojo
 
 ### Por qué este manual es diferente
 
-La planificación de vuelo se enseña a menudo como un ejercicio matemático desconectado del vuelo real. Este libro hace exactamente lo contrario: cada cálculo tiene un escenario de vuelo detrás que lo hace imprescindible.
+La planificación de vuelo suele enseñarse como un ejercicio matemático desconectado del vuelo real. Aquí cada cálculo llega con el escenario de vuelo que lo hace imprescindible.
 
 El centrado fuera de límites no es un error administrativo: es el factor que puede hacer irrecuperable una barrena a doscientos metros. La velocidad de crucero subóptima no es una molestia menor: en un vuelo de 500 km puede significar aterrizar fuera de campo o cruzar la línea de llegada. El plan de vuelo ICAO no es burocracia: es el único registro que le dice a los servicios SAR dónde buscarte cuando no apareces.
 

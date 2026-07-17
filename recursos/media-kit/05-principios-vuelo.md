@@ -22,7 +22,7 @@ El **Libro 5 de Principios de Vuelo** del Manual SPL te explica la aerodinámica
 
 ### El planeador no miente. Si no entiendes la física, la física te lo recuerda.
 
-La aerodinámica de un planeador es silenciosa, precisa y absolutamente implacable. No hay motor que compre tiempo cuando la velocidad cae por debajo del umbral crítico. No hay empuje que disimule un centrado fuera de límites. No hay corrección que no tenga consecuencias físicas exactas y predecibles, si sabes leerlas.
+La aerodinámica de un planeador es silenciosa, precisa e implacable. No hay motor que compre tiempo cuando la velocidad cae por debajo del umbral crítico, ni empuje que disimule un centrado fuera de límites. Cada corrección tiene consecuencias físicas exactas y predecibles, si sabes leerlas.
 
 El **Libro 5: Principios de Vuelo** transforma esa física en comprensión operativa real: no fórmulas para el examen, sino los principios que te dicen exactamente qué está pasando en el ala cuando el hilo de lana se mueve, qué significa ese cambio de sonido al acelerar en el planeo y por qué la barrena en la que nunca debes entrar es la de baja altura en el circuito.
 
@@ -42,7 +42,7 @@ Con diagramas técnicos, analogías precisas y los escenarios de riesgo que esta
 
 - **Pérdida y autorrotación** — El ángulo de ataque crítico: por qué la pérdida no depende de la velocidad sino del ángulo. La velocidad de pérdida aumentada en viraje y por qué la pérdida en la base del circuito es letal. La autorrotación: cómo entra el planeador en barrena (*spin*), los pasos exactos de recuperación y por qué la altura de recuperación es el dato que determina si vives para contarlo.
 
-- **Picado en espiral** — Por qué se confunde con la barrena y por qué su dinámica y recuperación son totalmente diferentes: mientras que en la barrena el ala está en pérdida, en el picado las alas sustentan y la velocidad se dispara. Descubre por qué el error de tirar de la palanca antes de nivelar las alas en un picado en espiral solo cierra el viraje e incrementa peligrosamente la velocidad y el factor de carga.
+- **Picado en espiral** — Por qué se confunde con la barrena y por qué su dinámica y recuperación son totalmente diferentes: mientras que en la barrena el ala está en pérdida, en el picado las alas sustentan y la velocidad se dispara. Y por qué tirar de la palanca antes de nivelar las alas, lejos de sacarte, solo cierra el viraje y dispara la velocidad y el factor de carga.
 
 ---
 
@@ -58,7 +58,7 @@ Para **cualquier piloto VFR** que vuela aeronaves de alta eficiencia donde la p�
 
 ### Por qué este manual es diferente
 
-La aerodinámica se puede enseñar como física pura —fórmulas, coeficientes, diagramas sin contexto— o como la explicación de lo que sientes en la cabina. Este libro hace lo segundo.
+La aerodinámica se puede enseñar como física pura (fórmulas, coeficientes, diagramas sin contexto) o como la explicación de lo que sientes en la cabina. Este libro elige lo segundo.
 
 Cada concepto se ancla a una situación de vuelo real: la pérdida que llega antes de lo esperado porque el viraje era más cerrado de lo que parecía, la resistencia inducida que explota cuando intentas levantarte de la pista con viento en calma y temperatura alta, el picado en espiral que comienza de forma tan gradual que el piloto lo atribuye a turbulencia.
 

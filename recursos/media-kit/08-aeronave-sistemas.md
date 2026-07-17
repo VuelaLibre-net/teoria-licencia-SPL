@@ -66,7 +66,7 @@ Para **cualquier piloto** que quiera hacer la inspección prevuelo con el conoci
 
 ### Por qué este manual es diferente
 
-Los conocimientos de aeronave se presentan a menudo como un catálogo de componentes sin lógica operativa. Este libro hace exactamente lo contrario: cada sistema se explica con las consecuencias de su fallo.
+Los conocimientos de aeronave suelen presentarse como un catálogo de componentes sin lógica operativa. Aquí cada sistema se explica por las consecuencias de su fallo.
 
 La delaminación interna no es un concepto estructural abstracto: es el motivo por el que nunca se golpea la piel del ala con la palma de la mano para "comprobar si suena hueco". El tubo de Pitot obturado no es un fallo menor: es el anemómetro que da cero en el momento en que más necesitas saber tu velocidad.
 

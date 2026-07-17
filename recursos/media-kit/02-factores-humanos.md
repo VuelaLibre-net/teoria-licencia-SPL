@@ -22,9 +22,9 @@ El **Libro 2 de Factores Humanos** del Manual SPL te enseña cómo funciona real
 
 ### El 90 % de los accidentes de vuelo a vela tienen un factor común: el piloto.
 
-No los materiales compuestos. No la meteorología. No el fallo mecánico. En el 90 % de los accidentes en vuelo a vela, el factor humano es la causa principal o un elemento determinante. Eso no es un dato para generar culpa; es el dato más esperanzador de toda la estadística de seguridad aeronáutica. Porque si el problema es el ser humano, el ser humano puede aprender a gestionarlo.
+Ni los materiales, ni la meteorología, ni el fallo mecánico: en nueve de cada diez accidentes en vuelo a vela el factor humano es la causa principal o un elemento determinante. No lo decimos para repartir culpas. Es, en el fondo, el dato más esperanzador de toda la estadística de seguridad: si el problema es el ser humano, el ser humano puede aprender a gestionarlo.
 
-El **Libro 2: Factores Humanos** parte de ese principio. No hay pilotos perfectos. Hay pilotos que conocen sus límites y los gestionan, y pilotos que no.
+El **Libro 2: Factores Humanos** parte de ahí. No hay pilotos perfectos; hay pilotos que conocen sus límites y los gestionan, y pilotos que no.
 
 Con rigor técnico y sin condescendencia, este volumen cubre los cuatro bloques temáticos del syllabus EASA AMC1 SFCL.130 dedicados a la dimensión humana del vuelo:
 
@@ -60,9 +60,9 @@ Para **cualquier piloto VFR** que vuele en entornos de alta demanda cognitiva: t
 
 ### Por qué este manual es diferente
 
-Los factores humanos se enseñan a menudo como un apartado teórico desconectado del vuelo real. Este libro hace exactamente lo contrario.
+Los factores humanos se enseñan a menudo como un apartado teórico, desligado del vuelo real. Aquí van pegados a él.
 
-Cada concepto —desde el modelo SHELL hasta la curva de fatiga— se ancla a escenarios concretos del vuelo a vela: la decisión de no abortar un lanzamiento incompleto, el vuelo que continúa hacia la tormenta porque "ya casi estamos en casa", el daño al planeador que no se reporta por vergüenza.
+Cada concepto, del modelo SHELL a la curva de fatiga, se ancla a escenarios concretos del vuelo a vela: la decisión de no abortar un lanzamiento incompleto, el vuelo que sigue hacia la tormenta porque "ya casi estamos en casa", el daño al planeador que no se reporta por vergüenza.
 
 Las cajas de **SEGURIDAD**, **AIRMANSHIP** y **REGLA DE ORO** convierten la psicología aeronáutica en criterio de decisión real. Porque conocerse como piloto no es introspección; es la herramienta de seguridad más infrautilizada del hangar.
 
