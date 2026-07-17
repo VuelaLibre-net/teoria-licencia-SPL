@@ -17,7 +17,7 @@ LIBROS = 01-derecho-aereo-atc \
          08-aeronave-sistemas \
          09-navegacion
 
-.PHONY: all clean $(LIBROS)
+.PHONY: all help clean $(LIBROS)
 
 # Por defecto, compilar toda la colección de libros (01 a 09)
 all: $(LIBROS)
@@ -136,6 +136,17 @@ endef
 $(foreach libro,$(LIBROS),$(eval $(call reglas_de_libro,$(libro))))
 
 # --- UTILIDADES ---
+
+# Muestra los targets principales y los libros compilables.
+help:
+	@printf '%s\n' 'Targets disponibles:' ''
+	@printf '  make %-35s %s\n' 'all' 'Compila los 9 libros (PDF + EPUB).'
+	@printf '  make %-35s %s\n' 'estados' 'Muestra libro, versión y estado editorial.'
+	@printf '  make %-35s %s\n' 'clean' 'Borra build/, _book/ y cachés de Quarto.'
+	@printf '%s\n' '' 'Libros:'
+	@for libro in $(LIBROS); do \
+		printf '  make %-35s %s\n' "$$libro" 'Compila ese libro (PDF + EPUB).'; \
+	done
 
 # Imprime "libro|versión|estado" para los 9 libros, una línea por libro.
 #
