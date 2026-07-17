@@ -5,11 +5,19 @@
 //   fondo #FFF9C4, borde #FBC02D 1pt, radio 4pt, texto #5D4037 a 10.5pt.
 //
 // La única desviación es la fuente. El tema pedía Roboto; aquí se usa Libertinus
-// Sans, que viaja dentro de Typst. Roboto está en la máquina de desarrollo pero
-// no en el runner del CI, y Typst no falla ante una fuente ausente: cae a otra
-// en silencio, con lo que los entregables oficiales saldrían distintos sin que
-// nadie se entere. Libertinus Sans mantiene el contraste de palo seco contra el
-// cuerpo en serifa y renderiza igual en cualquier sitio.
+// Sans, que mantiene el contraste de palo seco contra el cuerpo en serifa.
+//
+// ⚠️ Este comentario decía que Libertinus Sans «viaja dentro de Typst». Era
+// FALSO, y el error costó meses de PDF mal compuestos: Typst empotra Libertinus
+// **Serif**, no Sans (`typst fonts --ignore-system-fonts` lo lista). Estaba en la
+// máquina de desarrollo y no en el runner, así que los 76 post-it de la colección
+// se publicaron en serifa —Typst no falla ante una fuente ausente: cae a otra en
+// silencio— y el razonamiento por el que se descartó Roboto se aplicaba, sin que
+// nadie lo viera, a la fuente que se eligió en su lugar.
+//
+// Ahora la fuente viaja en el repo (`recursos/fuentes/`) y el CI la instala antes
+// de compilar. Cualquier fuente que no esté tumba el build: hay un guardián que
+// falla si Typst avisa de `unknown font family`.
 //
 // El bloque es partible a propósito: algunos resúmenes no caben en una página y
 // un bloque no partible se saldría del papel.
