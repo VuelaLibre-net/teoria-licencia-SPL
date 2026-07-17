@@ -65,31 +65,25 @@ Esa frecuencia la escuchan continuamente los vuelos de líneas aéreas en crucer
 
 ## Interceptación: si un caza aparece a tu lado
 
-Un planeador rara vez provoca una interceptación (**interception**), pero puede ocurrir: infringir una zona prohibida o restringida activa, cruzar un CTR sin autorización o aparecer como un eco sin identificar cerca de una zona sensible puede hacer que la defensa aérea envíe una aeronave militar a identificarte. El Libro 1 ya te avisa de ese riesgo al estudiar las zonas P y R; aquí aprenderás las señales y la respuesta correcta. No es un adorno del temario: la normativa exige llevar a bordo una copia de estas señales (SAO.GEN.155, véase el Libro 6, capítulo 1), y las preguntas sobre interceptación caen en el examen.
+Un planeador rara vez provoca una interceptación (**interception**), pero alguna vez ya ha ocurrido: infringir una zona prohibida o restringida activa, cruzar un CTR sin autorización o aparecer como un eco sin identificar cerca de una zona sensible puede hacer que la defensa aérea envíe una aeronave militar a identificarte. El Libro 1 ya te avisa de ese riesgo al estudiar las zonas P y R; aquí aprenderás las señales y la respuesta correcta. No es un adorno del temario: la normativa exige llevar a bordo una copia de estas señales (SAO.GEN.155, véase el Libro 6, capítulo 1).
 
 ### Las señales del interceptor
 
 El interceptor se comunica contigo con maniobras, no con palabras. Las tres series que debes reconocer, conforme a la tabla S11-1 de SERA:
 
-1
-
-Alabea y enciende y apaga las luces de navegación a intervalos irregulares, desde una posición ligeramente por encima, por delante y normalmente a tu izquierda. Después, vira lentamente en horizontal hacia el rumbo deseado.
+1. Alabea y enciende y apaga las luces de navegación a intervalos irregulares, desde una posición ligeramente por encima, por delante y normalmente a tu izquierda. Después, vira lentamente en horizontal hacia el rumbo deseado.
 
 «Ha sido interceptado. Sígame.»
 
 Alabea, enciende y apaga las luces de navegación si dispones de ellas, y síguele.
 
-2
-
-Se aleja bruscamente de ti con un viraje ascendente de 90° o más, sin cruzar tu línea de vuelo.
+2. Se aleja bruscamente de ti con un viraje ascendente de 90° o más, sin cruzar tu línea de vuelo.
 
 «Prosiga.»
 
 Alabea: «Comprendido, lo cumpliré».
 
-3
-
-Despliega el tren de aterrizaje, lleva los faros de aterrizaje encendidos de forma continua y sobrevuela la pista en servicio.
+3. Despliega el tren de aterrizaje, lleva los faros de aterrizaje encendidos de forma continua y sobrevuela la pista en servicio.
 
 «Aterrice en este aeródromo.»
 
@@ -113,7 +107,7 @@ SERA.11015 c): «Si alguna instrucción recibida por radio de cualquier fuente e
 :::
 
 ::: {.callout-warning title="Seguridad"}
-**Las instrucciones del interceptor prevalecen sobre cualquier otra fuente, incluido el ATC**, mientras solicitas aclaración. Un interceptor armado que cree que no cooperas es el escenario más peligroso en el que puede meterse una aeronave civil: mantén una trayectoria suave y predecible, no hagas maniobras bruscas y responde a cada señal.
+**Las instrucciones del interceptor prevalecen sobre cualquier otra fuente, incluido el ATC**, mientras solicitas aclaración —en la duda, obedece al que lleva misiles—. Un interceptor armado que cree que no cooperas es el escenario más peligroso en el que puede meterse una aeronave civil: mantén una trayectoria suave y predecible, no hagas maniobras bruscas y responde a cada señal.
 :::
 
 ### Si no puedes cumplir

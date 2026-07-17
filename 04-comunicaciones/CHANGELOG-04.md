@@ -16,7 +16,17 @@ rompe la compilación.
 
 ## [En curso]
 
-Sin cambios desde la 1.0-rc.5.
+**Qué releer:** **La entradilla de «Interceptación» y su recuadro de Seguridad** en el capítulo de
+procedimientos de socorro y urgencia. Cambia el matiz de un par de frases (la interceptación de un
+planeador pasa de «puede ocurrir» a «ya ha ocurrido», y se retira la nota de que el tema cae en el
+examen); el resto del apartado no cambia de contenido.
+
+### Cambiado
+
+* **Interceptación** (capítulo de socorro y urgencia) — reformulada la entradilla y retirada la
+  frase sobre las preguntas de examen; añadida una coletilla al recuadro de Seguridad. Nueva
+  ilustración de la serie 1 (`04-cap06-interceptacion-serie1.png`). Las tres señales del interceptor
+  se marcan ahora como lista numerada de verdad (1/2/3), que antes era texto suelto.
 
 ## [1.0-rc.5] — 17 de julio de 2026
 
