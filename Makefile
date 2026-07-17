@@ -95,6 +95,29 @@ fuentes_texto_de = $(wildcard $(1)/*.qmd) $(1)/_quarto.yml
 # trabajo para nada.
 fuentes_imagen_de = $(wildcard $(1)/imagenes/*) $(wildcard $(1)/cover/*)
 
+# La extensión de maquetado. No depende del libro, pero es entrada igual que los
+# .qmd: tocar preliminares.typ cambia el PDF de los nueve.
+#
+# Se parte en dos porque cada formato consume una cosa distinta, y así no se
+# rehace un entregable que no ha cambiado. Lo que el PDF necesita: los .typ
+# (include-in-header y template-partials), los filtros .lua y el _extension.yml,
+# que declara cuáles de ellos entran.
+fuentes_typst = $(wildcard _extensions/orange-book-es/*.typ) \
+                $(wildcard _extensions/orange-book-es/*.lua) \
+                _extensions/orange-book-es/_extension.yml
+
+# El EPUB no ejecuta nada de la extensión typst —ni el filtro, ni las funciones—:
+# sólo se lleva esta hoja, que cada _quarto.yml enlaza con include-in-header.
+fuentes_epub = _extensions/orange-book-es/epub-estilos.html
+
+# ⚠️ El paquete typst vendorizado (typst/packages/…/lib.typ) NO se lista, y no es
+# un olvido. Quarto lo copia a la caché de cada libro y NO la refresca cuando
+# cambia: la clave es el nombre y la versión, que no se tocan. Listarlo aquí
+# prometería una reconstrucción que sí ocurriría... pero compilando otra vez con
+# la copia vieja, con lo que el fallo pasaría de «no recompila» a «recompila y
+# sigue igual», que es peor de diagnosticar. Ése necesita `make clean`, como
+# avisa el CLAUDE.md.
+
 # Estado editorial del libro, deducido de su versión. Se calcula AQUÍ y no en
 # Typst porque el Makefile es el único punto por el que pasan los dos formatos:
 # el EPUB no ejecuta nada de la extensión typst y se quedaba sin enterarse del
@@ -124,20 +147,25 @@ nota_libro = $$(case "$(call estado_libro,$(1))" in \
 # nombre del entregable ya no se deduce del nombre del libro: lleva la versión y
 # la fecha, que hay que resolver leyendo el _quarto.yml y git.
 #
-# ⚠️ Dependen de TODAS las entradas del libro, no sólo de index.qmd. Con
-# index.qmd solo, editar un capítulo —o una imagen— NO rehacía el entregable:
-# make lo daba por al día y `make` salía con 0 sin recompilar. No salta a la
-# vista porque el nombre lleva la fecha del último commit, y al confirmar el
-# cambio suele aparecer un nombre nuevo que sí se construye... salvo que ese día
-# ya hubiera un commit del libro, que es justo cuando estás iterando. Pasó: un
-# pie de figura corregido siguió saliendo roto en el PDF. En el CI no se ve,
-# porque clona limpio.
+# ⚠️ Dependen de TODAS las entradas: los .qmd del libro, sus imágenes Y la
+# extensión de maquetado. Cada vez que ha faltado una, `make` ha dado el
+# entregable por al día y ha salido con 0 sin recompilar:
+#
+#   * con index.qmd solo, editar un capítulo no rehacía nada. Pasó: un pie de
+#     figura corregido siguió saliendo roto en el PDF ya generado;
+#   * sin la extensión, editar preliminares.typ tampoco. Pasó al rediseñar la
+#     página de créditos: se tocaba el Typst, se compilaba, y salía igual.
+#
+# No salta a la vista porque el nombre lleva la fecha del último commit del
+# libro, y al confirmar suele aparecer un nombre nuevo que sí se construye...
+# salvo que ese día ya hubiera un commit, que es justo cuando estás iterando. En
+# el CI no se ve nunca, porque clona limpio.
 #
 # Cualquier opción que se pase a `quarto render` hay que ponerla en las DOS
 # recetas, la del PDF y la del EPUB. Nueve EPUB se publicaron con los shortcodes
 # del colofón sin resolver por añadir --metadata sólo a una.
 define reglas_de_libro
-$(call pdf_de,$(1)): $(call fuentes_texto_de,$(1)) $(call fuentes_imagen_de,$(1))
+$(call pdf_de,$(1)): $(call fuentes_texto_de,$(1)) $(call fuentes_imagen_de,$(1)) $(fuentes_typst)
 	@mkdir -p $(PDF_OUT)
 	@echo "==> [Quarto] Renderizando PDF (Typst) para $(1)..."
 	quarto render $(1)/ --to orange-book-es-typst \
@@ -148,7 +176,7 @@ $(call pdf_de,$(1)): $(call fuentes_texto_de,$(1)) $(call fuentes_imagen_de,$(1)
 	@mv $(1)/_book/*.pdf $$@
 	@echo "✓ PDF generado en $$@"
 
-$(call epub_de,$(1)): $(call fuentes_texto_de,$(1)) $(call fuentes_imagen_de,$(1))
+$(call epub_de,$(1)): $(call fuentes_texto_de,$(1)) $(call fuentes_imagen_de,$(1)) $(fuentes_epub)
 	@mkdir -p $(EPUB_OUT)
 	@echo "==> [Quarto] Renderizando EPUB para $(1)..."
 	quarto render $(1)/ --to epub \
