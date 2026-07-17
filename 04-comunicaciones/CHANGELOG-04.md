@@ -30,6 +30,11 @@ examen); el resto del apartado no cambia de contenido.
 
 ### Maqueta y producción
 
+* **Figura QNH/QFE** (capítulo de términos meteorológicos) — nueva ilustración
+  (`04-cap04-qnh-qfe.png`, antes JPG). La anterior mezclaba altura y altitud e incluía un subsuelo
+  irrelevante; la nueva compara los dos altímetros de forma limpia (QNH → altitud sobre el mar,
+  QFE → altura con la aguja a cero).
+
 * **Señales luminosas de la Torre** (capítulo de fallo de comunicaciones) — el círculo de cada
   señal se compone del color de la luz (verde o rojo); la luz blanca sigue como círculo hueco (○),
   que sobre papel blanco es la única forma de representarla. Se marca con spans `.luz-verde`/
