@@ -28,6 +28,14 @@ examen); el resto del apartado no cambia de contenido.
   ilustración de la serie 1 (`04-cap06-interceptacion-serie1.png`). Las tres señales del interceptor
   se marcan ahora como lista numerada de verdad (1/2/3), que antes era texto suelto.
 
+### Maqueta y producción
+
+* **Señales luminosas de la Torre** (capítulo de fallo de comunicaciones) — el círculo de cada
+  señal se compone del color de la luz (verde o rojo); la luz blanca sigue como círculo hueco (○),
+  que sobre papel blanco es la única forma de representarla. Se marca con spans `.luz-verde`/
+  `.luz-roja` en el `.qmd`: los colorea `postit.lua` en el PDF y `epub-estilos.html` en el EPUB, y
+  `rag.lua` los desenvuelve para el Markdown del RAG. No cambia el texto ni lo que se estudia.
+
 ## [1.0-rc.5] — 17 de julio de 2026
 
 **Qué releer:** **El capítulo 2 entero, los demás títulos y el epígrafe.** Ni una línea del temario

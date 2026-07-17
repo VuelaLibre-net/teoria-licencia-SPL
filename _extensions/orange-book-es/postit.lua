@@ -33,6 +33,16 @@ local ETIQUETAS = {
   ["mas-alla-tag"] = "mas-alla-tag",
 }
 
+-- Clase del span -> color Typst. Las señales luminosas de la Torre (cap. de
+-- fallo de comunicaciones) llevan el círculo del color de la luz. La luz blanca
+-- se representa con un círculo hueco (○) en el propio texto, no coloreada: un
+-- círculo blanco sobre papel blanco no se vería. El mismo par de colores está
+-- en epub-estilos.html para el EPUB; si cambia uno, cambia el otro.
+local COLORES = {
+  ["luz-verde"] = "#2e7d32",
+  ["luz-roja"]  = "#c62828",
+}
+
 local function funcion_para(el)
   if el.classes == nil then
     return nil
@@ -120,6 +130,15 @@ return {
       if el.classes:includes(clase) then
         local inlines = pandoc.List()
         inlines:insert(pandoc.RawInline("typst", "#" .. funcion .. "["))
+        inlines:extend(el.content)
+        inlines:insert(pandoc.RawInline("typst", "]"))
+        return inlines
+      end
+    end
+    for clase, color in pairs(COLORES) do
+      if el.classes:includes(clase) then
+        local inlines = pandoc.List()
+        inlines:insert(pandoc.RawInline("typst", '#text(fill: rgb("' .. color .. '"))['))
         inlines:extend(el.content)
         inlines:insert(pandoc.RawInline("typst", "]"))
         return inlines

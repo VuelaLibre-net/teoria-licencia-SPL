@@ -147,6 +147,12 @@ end
 
 local function Span(s)
   if s.classes:includes("mas-alla-tag") then return s.content end
+  -- El círculo coloreado de las señales de luces (luz-verde/luz-roja) pierde el
+  -- color aquí —el RAG no lo vería— pero el glifo se queda. Sin desenvolverlo,
+  -- gfm lo escribiría como <span class="..."> y el trozo arrastraría basura.
+  if s.classes:includes("luz-verde") or s.classes:includes("luz-roja") then
+    return s.content
+  end
   return s
 end
 
