@@ -151,6 +151,20 @@ jobs:
       # reproduce el syllabus tal cual.
       run: python3 .github/comprobar-syllabus.py
 
+    - name: Comprobar que no hay negrita anidada en negrita
+      # `**Gradiente (DALR - **Dry Adiabatic Lapse Rate**)**` parece correcto y
+      # no lo es: el ** interior cierra el exterior. Lo publicado sale al revés
+      # de lo pretendido —el término inglés sin resaltar y el paréntesis de
+      # cierre en negrita— y nada protesta: Quarto compila y el .qmd se lee
+      # bien. Tres capítulos de Meteorología se publicaron así, y aparecieron
+      # de casualidad, al comparar la salida de dos versiones de pandoc que los
+      # interpretaban distinto.
+      #
+      # Comprueba sobre el árbol de pandoc, no con un grep: el mismo patrón de
+      # texto puede ser correcto o no según qué lo rodee, y sólo el parser lo
+      # sabe.
+      run: python3 .github/comprobar-negrita.py
+
     - name: Comprobar que cada libro registra su versión en curso
       # El CHANGELOG sólo sirve si está al día, y un CHANGELOG desfasado no da
       # ningún síntoma: el libro compila igual. Aquí se exige que la versión que
