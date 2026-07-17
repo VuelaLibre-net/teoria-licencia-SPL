@@ -1,0 +1,69 @@
+name: Publicar release
+
+# Se dispara al empujar un tag de versión (v0.9.0, v1.0.0…). El flujo es:
+# tag -> compila y verifica con el CI -> publica los 27 entregables en una
+# release EN BORRADOR.
+#
+# En borrador a propósito: la parte mecánica y verificable se automatiza, pero
+# «esto sale al público» sigue siendo una decisión de una persona. Un borrador
+# no es visible ni notifica hasta que alguien pulsa Publish, y ese alguien es
+# quien rellena el «qué ha cambiado» de las notas, que un guión no puede
+# inventar.
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  # Reutiliza el CI ENTERO —los mismos 600 y pico de líneas de verificación y las
+  # mismas versiones fijadas de Quarto y Typst— compilando el commit que el tag
+  # apunta. Lo que se publica es, byte a byte, lo que este job ha validado; no
+  # una compilación aparte que podría divergir.
+  verificar:
+    uses: ./.github/workflows/ci.yml
+
+  publicar:
+    needs: verificar
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write        # gh release create necesita escribir en el repo
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v7
+        # Sin fetch-depth: 0 a propósito. Aquí sólo se ejecuta `make estados`,
+        # que lee los _quarto.yml del commit del tag; no usa git log, así que un
+        # clonado superficial basta. El fechado del colofón ya ocurrió en el job
+        # de compilación, que sí clona con historia.
+
+      - name: Recoger los entregables que compiló el CI
+        uses: actions/download-artifact@v7
+        with:
+          # Los tres artefactos que sube el CI (manuales-spl-pdf/epub/rag). Se
+          # aplanan en un solo directorio: la release los quiere sueltos, no en
+          # tres carpetas.
+          pattern: manuales-spl-*
+          path: entregables
+          merge-multiple: true
+
+      - name: Comprobar que están los 27
+        # El CI ya verifica que hay 9 de cada antes de subirlos, pero aquí se
+        # confirma que la descarga los ha traído: una release con menos
+        # entregables de los que dice se publicaría igual de contenta.
+        run: |
+          n=$(find entregables -type f \( -name '*.pdf' -o -name '*.epub' -o -name '*.md' \) | wc -l)
+          [ "$n" -eq 27 ] || { echo "::error::Se esperaban 27 entregables y hay $n"; exit 1; }
+          echo "27 entregables recogidos."
+
+      - name: Redactar las notas
+        run: bash .github/notas-release.sh "${GITHUB_REF_NAME}" > notas.md
+
+      - name: Crear la release en borrador
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "${GITHUB_REF_NAME}" \
+            --draft \
+            --title "${GITHUB_REF_NAME}" \
+            --notes-file notas.md \
+            entregables/*.pdf entregables/*.epub entregables/*.md
+          echo "Release ${GITHUB_REF_NAME} creada en BORRADOR. Revisa las notas y publícala a mano."
