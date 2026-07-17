@@ -5,6 +5,11 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
+  # Llamable desde otro workflow. Lo usa release.yml: la publicación compila y
+  # verifica con ESTE job, no con una copia suya, para que lo que se publica sea
+  # exactamente lo que el CI valida. Añadir el trigger no cambia en nada lo que
+  # ocurre en push y pull_request.
+  workflow_call:
 
 env:
   # Debe cumplir el quarto-required de _extensions/orange-book-es/_extension.yml.
