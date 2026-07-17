@@ -13,29 +13,48 @@ Manual de formación teórica para la obtención de la **Licencia de Piloto de P
 
 Publicado por **VuelaLibre.net** · <https://vuelalibre.net>
 
-**Licencia**
+## Licencia {.unnumbered .unlisted}
 
-Esta obra se distribuye bajo licencia **Creative Commons Atribución 4.0 Internacional (CC BY 4.0)**. Usted es libre de **compartir** —copiar y redistribuir el material en cualquier medio— y de **adaptar** —remezclar, transformar y construir a partir del material para cualquier propósito, incluso comercialmente—, bajo el siguiente término:
+::: {.licencia-cc}
+Esta obra se distribuye bajo licencia **Creative Commons Atribución 4.0 Internacional (CC BY 4.0)**.
+:::
 
-* **Atribución**: debe otorgar el crédito correspondiente, proporcionar un enlace a la licencia e indicar si se realizaron cambios. Puede hacerlo de cualquier manera razonable, pero no de una manera que sugiera que el licenciante lo respalda a usted o a su uso.
+::: {.dos-columnas}
+::: {.columna}
+**Se permite:**
+
+* copiar y redistribuir el material en cualquier medio
+* adaptar: remezclar, transformar y construir a partir del material
+* el uso comercial
+:::
+
+::: {.columna}
+**Siempre que:**
+
+* se otorgue el crédito correspondiente
+* se proporcione un enlace a la licencia
+* se indique si se realizaron cambios
+:::
+:::
+
+La atribución puede hacerse de cualquier manera razonable, pero no de una manera que sugiera que el licenciante lo respalda a usted o a su uso.
 
 Texto completo de la licencia: <https://creativecommons.org/licenses/by/4.0/deed.es>
 
-**Exención de responsabilidad — uso bajo propio riesgo**
+## Exención de responsabilidad — uso bajo propio riesgo {.unnumbered .unlisted}
 
+::: {.aviso-legal}
 La aviación es una actividad que conlleva riesgos inherentes. Aunque se ha realizado un esfuerzo exhaustivo para garantizar la precisión técnica de este manual utilizando fuentes oficiales actualizadas:
 
 * **Los autores, editores y colaboradores NO asumen responsabilidad alguna** por daños personales, materiales o de cualquier otra índole que pudieran derivarse de interpretaciones erróneas o errores técnicos en el texto.
 * Este manual es una **herramienta de apoyo al estudio** y no sustituye en ningún caso ni a la instrucción teórica ni a la práctica obligatoria con un instructor de vuelo cualificado (FI(S)).
 * En caso de discrepancia con la normativa vigente publicada por AESA o EASA, prevalecerá siempre el texto legal oficial de la autoridad aeronáutica.
+:::
 
-**Aval**
+## Aval {.unnumbered .unlisted}
 
+::: {.aval}
 El **programa de esta colección está avalado por AESA** (Agencia Estatal de Seguridad Aérea), la autoridad aeronáutica civil de España. Este aval certifica que el programa de formación teórica para la Licencia de Piloto de Planeador (SPL) es conforme al syllabus del AMC1 SFCL.130. El desarrollo del contenido es responsabilidad exclusiva de los autores.
+:::
 
-**Fuentes y agradecimientos**
-
-El contenido se basa en la síntesis de normativas oficiales, estándares de seguridad de la **OACI** (Organización de Aviación Civil Internacional) y de **EASA** (European Union Aviation Safety Agency), así como de las mejores prácticas de la comunidad de vuelo a vela española, recogidas por varios instructores y recopiladas por el instructor Iñaqui Ulibarri García de la Cueva para los aeroclubs de Ocaña y Fuentemilanos.
-
-Fuentes consultadas: AESA, EASA, OACI, SERA, AMCs & GM, LSA, manuales de vuelo de Fuentemilanos, FAA *Glider Flying Handbook* y manuales de vuelo de otros países de la UE.
 :::

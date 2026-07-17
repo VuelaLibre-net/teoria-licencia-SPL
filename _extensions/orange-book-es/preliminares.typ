@@ -46,16 +46,57 @@
 
 // Página de créditos. Letra menor que el cuerpo, como es costumbre, para que no
 // compita con el contenido; sin justificar, porque a este cuerpo la justificación
-// abre calles blancas; y con las líneas algo más sueltas, que a 0.85em el texto
-// se cierra.
+// abre calles blancas.
 //
-// Los rótulos de sección van a la altura del texto, no como encabezados: una
-// página de créditos es una sola unidad, no un capítulo con apartados.
+// La página salía amontonada, y NO era la interlínea: a 8.5pt con leading 0.7em
+// daba un 135,8 %, dentro de la banda 120-150 % que se recomienda. Amontonaban
+// otras tres cosas —medidas, no supuestas—:
+//
+//   1. el cuerpo a 8.5pt, un 15 % menor que el libro;
+//   2. `spacing: 0.9em` sobre 8.5pt = 7,65pt entre párrafos, frente a los 10,5pt
+//      del libro: un 27 % más apretado en absoluto;
+//   3. y sobre todo, que los rótulos de sección eran párrafos en negrita con la
+//      misma separación que cualquier otro. Nada los distinguía del texto que
+//      los rodeaba, así que las secciones no se veían.
+//
+// Comprimir tampoco hacía falta: medida sobre el PDF, la página ocupaba 17,5 de
+// los 24,7 cm útiles. Sobraban 7,2 cm, casi un 30 % de la caja.
+//
+// Ahora 9.5pt con leading 0.75em = 140,8 %, la misma interlínea que el cuerpo
+// del libro (medido con el método del CLAUDE.md: los porcentajes NO se deducen
+// del valor de `leading`).
 #let licencia(body) = {
-  set par(first-line-indent: 0em, justify: false, leading: 0.7em, spacing: 0.9em)
-  set text(size: 0.85em)
+  set par(first-line-indent: 0em, justify: false, leading: 0.75em, spacing: 1.05em)
+  set text(size: 9.5pt)
   show strong: it => text(weight: "bold", it.body)
   set list(spacing: 0.75em, marker: [--])
+
+  // Los rótulos de sección se escriben como `## Rótulo {.unnumbered .unlisted}`
+  // y no como negrita suelta, para que el EPUB tenga un h2 real al que
+  // engancharse: a una negrita no hay forma de darle estilo.
+  //
+  // ⚠️ orange-book trae UNA regla global `show heading:` que ramifica por nivel,
+  // con una rama para los niveles 2-4 (lib.typ:459). Sin anularla, estos
+  // rótulos saldrían compuestos como secciones de capítulo. La regla de aquí
+  // devuelve un bloque —contenido que ya NO es un heading—, así que la de
+  // orange-book deja de casar con él y no llega a aplicarse.
+  //
+  // Sans y mayúsculas con tracking: se ven de un vistazo sin necesidad de un
+  // cuerpo grande, que en cuatro rótulos seguidos daría aspecto de escalera. La
+  // separación la da el aire de encima, que es lo que faltaba.
+  show heading.where(level: 2): it => block(width: 100%, above: 1.6em, below: 0.7em)[
+    #text(
+      font: "Libertinus Sans",
+      size: 0.92em,
+      weight: "bold",
+      tracking: 0.08em,
+      fill: rgb("#0074D9"),
+      upper(it.body),
+    )
+    #v(0.3em, weak: true)
+    #line(length: 100%, stroke: 0.5pt + luma(200))
+  ]
+
   body
 }
 

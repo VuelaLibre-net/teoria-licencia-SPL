@@ -19,7 +19,13 @@ local ENVOLTORIOS = {
   colofon = "colofon",
   creditos = "creditos",
   ["mas-alla"] = "mas-alla",
+  ["aviso-legal"] = "aviso-legal",
+  aval = "aval",
+  ["licencia-cc"] = "licencia-cc",
 }
+
+-- Ancho del canalón entre las dos columnas de `.dos-columnas`.
+local CANALON = "1.2em"
 
 -- Clase del span -> función de Typst. Los spans pierden la clase igual que los
 -- divs: `[texto]{.mas-alla-tag}` sale como texto pelado.
@@ -59,6 +65,38 @@ return {
   end,
 
   Div = function(el)
+    -- `.dos-columnas` no encaja en el patrón de arriba: no envuelve un cuerpo,
+    -- reparte DOS cuerpos. Markdown no sabe de columnas, así que se escriben
+    -- como dos divs hijos `.columna` y aquí se emiten como un #grid.
+    --
+    -- No vale `columns(2)` sobre el cuerpo entero: Typst balancea por su cuenta
+    -- y partiría las listas por donde le pareciera. Con el grid, cada columna es
+    -- lo que dice el .qmd.
+    --
+    -- En el EPUB este filtro no corre y los divs sobreviven como tales: allí las
+    -- dos columnas se apilan, que en una pantalla estrecha se lee mejor.
+    if el.classes ~= nil and el.classes:includes("dos-columnas") then
+      local columnas = {}
+      for _, hijo in ipairs(el.content) do
+        if hijo.t == "Div" then
+          table.insert(columnas, hijo)
+        end
+      end
+      -- Fallar aquí es preferible a componer media tabla: un div de más o de
+      -- menos saldría como un grid descuadrado sin que nada protestara.
+      if #columnas ~= 2 then
+        error("dos-columnas: se esperaban 2 divs hijos y hay " .. #columnas)
+      end
+      local blocks = pandoc.List()
+      blocks:insert(pandoc.RawBlock("typst",
+        "#grid(columns: (1fr, 1fr), gutter: " .. CANALON .. ", ["))
+      blocks:extend(columnas[1].content)
+      blocks:insert(pandoc.RawBlock("typst", "], ["))
+      blocks:extend(columnas[2].content)
+      blocks:insert(pandoc.RawBlock("typst", "])"))
+      return blocks
+    end
+
     local funcion = funcion_para(el)
     if funcion == nil then
       return nil

@@ -69,6 +69,61 @@ div.licencia {
   font-size: 0.9em;
 }
 
+/* Los rótulos de sección de la página de créditos. En el .qmd son encabezados
+ * de nivel 2 marcados unnumbered y unlisted, y no negrita suelta, justamente
+ * para poder engancharlos desde aquí: a una negrita no hay forma de darle
+ * estilo. El PDF los compone con su propia regla en preliminares.typ. */
+div.licencia h2 {
+  font-size: 0.95em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #0074D9;
+  margin: 1.6em 0 0.2em 0;
+  padding-bottom: 0.25em;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Las condiciones de la licencia. En el PDF van a dos columnas; aquí se apilan
+ * a propósito: el EPUB es reflowable y dos columnas en una pantalla estrecha se
+ * leen peor que dos listas seguidas. Cada columna conserva su rótulo, así que
+ * apiladas se entienden solas. */
+div.dos-columnas div.columna {
+  margin-bottom: 0.6em;
+}
+
+/* La banda con el nombre de la licencia. Sin los iconos de Creative Commons que
+ * lleva el PDF: son glifos de FontAwesome, que aquí no hay. El nombre de la
+ * licencia va en el texto, así que no se pierde nada. */
+div.licencia-cc {
+  background-color: #eaf2fb;
+  border-radius: 3px;
+  padding: 0.6em 0.8em;
+  margin: 0.5em 0 0.9em 0;
+}
+
+/* La exención de responsabilidad. NO es una admonition: la colección tiene
+ * cuatro categorías de recuadro —Seguridad, Normativa, Regla de oro,
+ * Airmanship— y son una taxonomía cerrada del temario, a la que un aviso legal
+ * no pertenece. Toma prestada la paleta de Seguridad, que es la que el ojo ya
+ * asocia a «cuidado» en este libro. */
+div.aviso-legal {
+  background-color: #fcefdc;
+  border: 1px solid #EB9113;
+  border-radius: 4px;
+  padding: 0.7em 0.9em;
+  margin: 0.5em 0 0.9em 0;
+}
+
+/* El aval institucional: gris, porque informa, no advierte. */
+div.aval {
+  background-color: #f3f3f3;
+  border-left: 3px solid #0074D9;
+  border-radius: 0 2px 2px 0;
+  padding: 0.7em 0.9em;
+  margin: 0.5em 0 0.9em 0;
+}
+
 /* Marca «Más allá del examen»: la sección avanzada entera —encabezado y
  * subsecciones— sobre gris, para que se vea de un golpe qué no es materia de
  * examen. Mismo gris que el PDF (luma 243).

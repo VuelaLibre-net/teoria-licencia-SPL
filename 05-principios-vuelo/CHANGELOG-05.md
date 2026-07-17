@@ -38,6 +38,17 @@ los términos ingleses van en cursiva. El CI lo comprueba ahora en los 76 capít
 
 Nada de esto altera lo que el lector aprende; el revisor puede saltárselo.
 
+* **La página de créditos se rediseña.** Salía amontonada y con un tercio del papel en blanco
+  debajo. No era la interlínea —135,8 %, dentro de la banda recomendada—: eran el cuerpo a 8,5 pt,
+  los párrafos un 27 % más juntos que en el libro y, sobre todo, unos rótulos de sección que eran
+  negrita suelta, sin nada que los separase del texto. Ahora los rótulos son encabezados de verdad
+  (en el EPUB también se pueden estilar, que antes no), la licencia lleva su distintivo de Creative
+  Commons y sus condiciones a dos columnas, la exención de responsabilidad va en un recuadro ámbar y
+  el aval en uno gris. Sigue cabiendo en una página, y ahora el CI lo comprueba.
+* **Se retira «Fuentes y agradecimientos» de la página de créditos.** No se pierde nada: la
+  bibliografía ya acredita el *Glider Flying Handbook* de la FAA —y dice que es la fuente de buena
+  parte de las ilustraciones—, y los reconocimientos ya acreditan a Iñaqui Ulibarri con sus
+  credenciales. Era una duplicación, y es la que hacía que la página no cerrase.
 * El pie de la figura de la respuesta dinámica (`cap03`) arrastraba un paréntesis suelto al final.
   Era lo que quedó de la atribución «(Fuente: FAA Glider Flying Handbook)» del AsciiDoc, que el
   importador cortó. Se retira: la colección no atribuye en los pies —los otros pies de este mismo
