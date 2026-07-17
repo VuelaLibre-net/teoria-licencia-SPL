@@ -1,0 +1,47 @@
+# Etiquetas recomendadas para clasificar las issues del repositorio.
+# GitHub no sincroniza este fichero por sí solo; sirve como fuente versionada
+# para crear o revisar las etiquetas del repositorio.
+
+- name: contenido
+  color: "0E8A16"
+  description: Cambios que afectan al contenido de los libros.
+
+- name: formato
+  color: "5319E7"
+  description: Correcciones de maquetación, EPUB, PDF o Markdown/RAG.
+
+- name: ortografia
+  color: "C2E0C6"
+  description: Erratas y correcciones ortográficas o gramaticales.
+
+- name: tecnica
+  color: "1D76DB"
+  description: Correcciones técnicas sobre teoría, procedimientos o seguridad de vuelo.
+
+- name: normativa
+  color: "D93F0B"
+  description: Cambios relacionados con leyes, reglamentos o referencias oficiales.
+
+- name: didactica
+  color: "FBCA04"
+  description: Mejoras de claridad, estructura o explicación para el alumno.
+
+- name: needs triage
+  color: "EDEDED"
+  description: Issue pendiente de revisar y clasificar.
+
+- name: needs info
+  color: "D4C5F9"
+  description: Falta información para poder revisar o corregir la issue.
+
+- name: high priority
+  color: "B60205"
+  description: Error crítico o cambio urgente.
+
+- name: help wanted
+  color: "008672"
+  description: Tarea abierta a colaboración externa.
+
+- name: good first issue
+  color: "7057FF"
+  description: Tarea acotada e ideal para nuevos colaboradores.

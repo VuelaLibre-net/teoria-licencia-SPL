@@ -1,0 +1,103 @@
+name: Corrección o mejora de un libro
+description: Reporta erratas, problemas de formato, mejoras didácticas o cambios técnicos/normativos.
+title: "[Corrección]: "
+labels: ["contenido", "needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por ayudar a mejorar los manuales SPL.
+
+        Para poder corregirlo rápido, indica el libro, la ubicación exacta y el cambio propuesto.
+
+  - type: dropdown
+    id: libro
+    attributes:
+      label: Libro afectado
+      description: Elige el manual en el que has encontrado el problema o la mejora.
+      options:
+        - "01 - Derecho Aéreo y Procedimientos de Control de Tránsito Aéreo (ATC)"
+        - "02 - Factores Humanos"
+        - "03 - Meteorología"
+        - "04 - Comunicaciones"
+        - "05 - Principios de Vuelo"
+        - "06 - Procedimientos Operativos"
+        - "07 - Planificación y Rendimiento de Vuelo"
+        - "08 - Conocimientos Generales de la Aeronave, Estructura, Sistemas y Equipo de Emergencia"
+        - "09 - Navegación"
+        - "Varios libros"
+        - "No lo sé"
+    validations:
+      required: true
+
+  - type: input
+    id: ubicacion
+    attributes:
+      label: Sección, capítulo o página
+      description: Indica la ubicación más precisa posible.
+      placeholder: "Ej.: capítulo 5, sección 'Reglas del aire', página 83 del PDF, figura 5.2..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: Tipo de mejora
+      description: Puedes seleccionar más de una opción si corresponde.
+      multiple: true
+      options:
+        - "Corrección ortográfica o gramatical"
+        - "Corrección de formato o maquetación"
+        - "Corrección técnica"
+        - "Leyes, reglamentos o normativa"
+        - "Claridad didáctica"
+        - "Glosario o bibliografía"
+        - "Otro"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: formato
+    attributes:
+      label: Formato afectado
+      description: Si no sabes si afecta solo a un formato, elige "No lo sé".
+      options:
+        - "PDF"
+        - "EPUB"
+        - "Markdown/RAG"
+        - "Repositorio/GitHub"
+        - "Todos"
+        - "No lo sé"
+    validations:
+      required: true
+
+  - type: textarea
+    id: donde-dice
+    attributes:
+      label: Donde dice
+      description: Copia el texto actual, describe el error de formato o resume el problema observado.
+      placeholder: "Texto actual o descripción del problema..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: deberia-decir
+    attributes:
+      label: Debería decir
+      description: Escribe la corrección o la mejora propuesta.
+      placeholder: "Texto corregido o solución propuesta..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: referencia
+    attributes:
+      label: Fuente, referencia o explicación
+      description: Especialmente importante para cambios técnicos, legales o reglamentarios.
+      placeholder: "Ej.: Reglamento (UE) ..., SERA..., Easy Access Rules..., manual de vuelo, razonamiento de la mejora..."
+
+  - type: textarea
+    id: comentarios
+    attributes:
+      label: Comentarios adicionales
+      description: Cualquier contexto que ayude a revisar la propuesta.
