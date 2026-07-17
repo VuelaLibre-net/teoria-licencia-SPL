@@ -56,6 +56,14 @@ Nada de esto altera lo que el lector aprende; el revisor puede saltárselo.
   propia del español.
 * Los entregables llevan ahora la versión y la fecha en el nombre
   (`04-comunicaciones-1.0-rc.4-260716.pdf`), para identificarlos sin abrirlos.
+* **Cada libro se publica también como un solo Markdown** (`make rag`, a
+  `build/rag/04-comunicaciones-1.0-rc.4-260716.md`), para cargarlo como fuente en un asistente de
+  estudio con recuperación (NotebookLM y similares). No es el libro en crudo: un RAG no ve la
+  maqueta, sino trozos sueltos de texto, y cada trozo tiene que explicarse solo. Los recuadros
+  conservan su etiqueta como texto, el resumen de cada capítulo pasa a ser un apartado propio, las
+  referencias a figuras se resuelven a «figura 5.1» y las ilustraciones se sustituyen por su pie. El
+  temario entra íntegro —capítulos, apéndices, glosario y bibliografía—; quedan fuera los
+  preliminares, el colofón y la guía de lectura, que explica la maqueta y es idéntica en los nueve.
 * Los EPUB se publicaban como **XHTML mal formado**: unos comentarios del CSS abrían etiquetas que
   nunca cerraban y un lector estricto podía rechazarlos. Corregido, y el CI lo comprueba ahora.
 * Cada libro abre con su propia cita, así que el guardián que exigía epígrafes idénticos se ha

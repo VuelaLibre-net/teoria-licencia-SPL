@@ -5,6 +5,7 @@
 BUILD_DIR = build
 PDF_OUT = $(BUILD_DIR)/pdf
 EPUB_OUT = $(BUILD_DIR)/epub
+RAG_OUT = $(BUILD_DIR)/rag
 
 # Lista de libros de la colección (01 al 09)
 LIBROS = 01-derecho-aereo-atc \
@@ -17,7 +18,7 @@ LIBROS = 01-derecho-aereo-atc \
          08-aeronave-sistemas \
          09-navegacion
 
-.PHONY: all help clean $(LIBROS)
+.PHONY: all help clean rag $(LIBROS)
 
 # Por defecto, compilar toda la colección de libros (01 a 09)
 all: $(LIBROS)
@@ -73,19 +74,25 @@ fecha_corta_de = $(shell iso=$$($(GIT_FECHA_ISO) $(1)/ 2>/dev/null); \
 sufijo_de = $(call version_de,$(1))-$(call fecha_corta_de,$(1))
 pdf_de = $(PDF_OUT)/$(1)-$(call sufijo_de,$(1)).pdf
 epub_de = $(EPUB_OUT)/$(1)-$(call sufijo_de,$(1)).epub
+rag_de = $(RAG_OUT)/$(1)-$(call sufijo_de,$(1)).md
+
+# El número de tema sale del prefijo del directorio (04-comunicaciones -> 4).
+numero_de = $(shell echo $(1) | cut -d- -f1 | sed 's/^0//')
 
 # --- ENTRADAS DE CADA LIBRO ---
-# De qué depende un entregable. Se escriben aquí, una vez, para que las reglas
-# no diverjan sin avisar.
+# De qué depende un entregable. Se escriben aquí, una vez, para que las tres
+# reglas no diverjan sin avisar.
 #
 # El texto: los .qmd y el _quarto.yml, que decide qué ficheros entran y en qué
 # orden (y de él salen título, versión y repo-url).
 fuentes_texto_de = $(wildcard $(1)/*.qmd) $(1)/_quarto.yml
 
-# Las imágenes: `imagenes/` la referencian los capítulos, y `cover/` la portada,
-# la contracubierta y la cubierta del EPUB (cubierta:/contracubierta:/
-# epub-cover-image: del _quarto.yml). Van aparte del texto porque no todo lo que
-# se construye a partir de un libro las consume.
+# Las imágenes. Van aparte porque sólo las consumen PDF y EPUB: `imagenes/` la
+# referencian los capítulos, y `cover/` la portada, la contracubierta y la
+# cubierta del EPUB (cubierta:/contracubierta:/epub-cover-image: del
+# _quarto.yml). El entregable para RAG no las mira —se queda con el pie, que
+# vive en el .qmd—, así que no las lista: rehacerlo al retocar un JPEG sería
+# trabajo para nada.
 fuentes_imagen_de = $(wildcard $(1)/imagenes/*) $(wildcard $(1)/cover/*)
 
 # Estado editorial del libro, deducido de su versión. Se calcula AQUÍ y no en
@@ -152,23 +159,44 @@ $(call epub_de,$(1)): $(call fuentes_texto_de,$(1)) $(call fuentes_imagen_de,$(1
 	@mv $(1)/_book/*.epub $$@
 	@echo "✓ EPUB generado en $$@"
 
+# El entregable para RAG no pasa por Quarto: no soporta formatos de texto en
+# proyectos de libro (avisa, no escribe nada y sale con 0). Lo arma pandoc con
+# un filtro propio; ver tools/rag/construir.sh.
+#
+# Depende del texto y de la herramienta, pero NO de las imágenes: no viajan al
+# RAG. Ver `fuentes_imagen_de`.
+$(call rag_de,$(1)): $(call fuentes_texto_de,$(1)) tools/rag/construir.sh tools/rag/rag.lua
+	@echo "==> [pandoc] Generando Markdown para RAG de $(1)..."
+	@tools/rag/construir.sh $(1) \
+	  "$$(call version_libro,$(1))" \
+	  "$$(call fecha_libro,$(1))" \
+	  "$$(call estado_libro,$(1))" \
+	  "$(call numero_de,$(1))" \
+	  $$@
+	@echo "✓ Markdown para RAG generado en $$@"
+
 .PHONY: $(1)
-$(1): $(call pdf_de,$(1)) $(call epub_de,$(1))
+$(1): $(call pdf_de,$(1)) $(call epub_de,$(1)) $(call rag_de,$(1))
 endef
 
 $(foreach libro,$(LIBROS),$(eval $(call reglas_de_libro,$(libro))))
+
+# Sólo los Markdown para RAG de los 9, sin recompilar PDF ni EPUB: es lo que se
+# recarga en el cuaderno de NotebookLM, y cuesta segundos en vez de minutos.
+rag: $(foreach libro,$(LIBROS),$(call rag_de,$(libro)))
 
 # --- UTILIDADES ---
 
 # Muestra los targets principales y los libros compilables.
 help:
 	@printf '%s\n' 'Targets disponibles:' ''
-	@printf '  make %-35s %s\n' 'all' 'Compila los 9 libros (PDF + EPUB).'
+	@printf '  make %-35s %s\n' 'all' 'Compila los 9 libros (PDF + EPUB + RAG).'
+	@printf '  make %-35s %s\n' 'rag' 'Sólo los Markdown para RAG de los 9 libros.'
 	@printf '  make %-35s %s\n' 'estados' 'Muestra libro, versión y estado editorial.'
 	@printf '  make %-35s %s\n' 'clean' 'Borra build/, _book/ y cachés de Quarto.'
 	@printf '%s\n' '' 'Libros:'
 	@for libro in $(LIBROS); do \
-		printf '  make %-35s %s\n' "$$libro" 'Compila ese libro (PDF + EPUB).'; \
+		printf '  make %-35s %s\n' "$$libro" 'Compila ese libro (PDF + EPUB + RAG).'; \
 	done
 
 # Imprime "libro|versión|estado" para los 9 libros, una línea por libro.

@@ -220,7 +220,7 @@ jobs:
         rm -f estados.txt
         exit $errores
 
-    - name: Compilar manuales a PDF y EPUB
+    - name: Compilar manuales a PDF, EPUB y Markdown para RAG
       run: make
 
     - name: Verificar los entregables
@@ -458,10 +458,69 @@ jobs:
           fi
         done
 
+        # --- MARKDOWN PARA RAG ---
+        # Son TRES entregables, no dos. Este no pasa por Quarto (no soporta
+        # formatos de texto en proyectos de libro: avisa, sale con 0 y no
+        # escribe nada), así que lo arma pandoc con un filtro propio y falla
+        # igual de callado que los otros dos.
+        for md in build/rag/*.md; do
+          # Un fichero vacío o truncado dejaría pasar todos los greps de abajo
+          # sin comprobar nada, en verde. Los libros van de 57k a 153k.
+          bytes=$(wc -c < "$md")
+          if [ "$bytes" -lt 20000 ]; then
+            echo "::error file=$md::Sólo $bytes bytes; la verificación no sería concluyente"
+            errores=1
+            continue
+          fi
+
+          # El sentido de este entregable es que el RAG lea texto, no maqueta.
+          # Si el filtro deja de casar un div, pandoc lo emite como HTML crudo
+          # y la etiqueta del recuadro —lo único que hace útil ese bloque—
+          # acaba dentro de un atributo que el chunk arrastra como basura.
+          for resto in '<div' '<span' '^:::' '{{<' '?meta:' 'GUÍA-DE-LECTURA' '{#tbl-' '@fig-' '@tbl-'; do
+            if grep -q -- "$resto" "$md"; then
+              echo "::error file=$md::Queda '$resto' sin traducir en el Markdown para RAG"
+              errores=1
+            fi
+          done
+
+          # Y que lo que sí debe estar, esté. Un filtro que se tragara los
+          # recuadros o los resúmenes daría un Markdown perfectamente válido.
+          if ! grep -qE '^> \*\*(Seguridad|Normativa|Regla de oro|Airmanship)' "$md"; then
+            echo "::error file=$md::Sin recuadros etiquetados: ¿el filtro dejó de reconocer los callout?"
+            errores=1
+          fi
+          if ! grep -q '^### Resumen del capítulo' "$md"; then
+            echo "::error file=$md::Sin resúmenes de capítulo: ¿el filtro dejó de reconocer los postit?"
+            errores=1
+          fi
+
+          # Estado editorial, como en el PDF y el EPUB. Quien cargue esto en un
+          # cuaderno debe saber si el libro está terminado.
+          libro=$(libro_de "$md") || { echo "::error::No sé a qué libro corresponde $md"; errores=1; continue; }
+          version=$(sed -n 's/^version: *"\{0,1\}\([^"]*\)"\{0,1\}/\1/p' "$libro/_quarto.yml" | head -1)
+          mayor=${version%%.*}
+          case "$version" in *-*) pre=1 ;; *) pre=0 ;; esac
+          etiquetas='En revisión|Creando ilustraciones|En desarrollo'
+          if [ "${mayor:-0}" -ge 1 ] 2>/dev/null && [ "$pre" -eq 0 ]; then
+            if grep -qE "$etiquetas" "$md"; then
+              echo "::error file=$md::Versión $version es un libro completado y no debe llevar aviso de estado"
+              errores=1
+            fi
+          else
+            if ! grep -qE "$etiquetas" "$md"; then
+              echo "::error file=$md::Versión $version no está completada y el Markdown no lleva su aviso de estado"
+              errores=1
+            fi
+          fi
+        done
+
         pdfs=$(ls build/pdf/*.pdf 2>/dev/null | wc -l)
         epubs=$(ls build/epub/*.epub 2>/dev/null | wc -l)
+        mds=$(ls build/rag/*.md 2>/dev/null | wc -l)
         [ "$pdfs" -eq 9 ] || { echo "::error::Se esperaban 9 PDF y hay $pdfs"; errores=1; }
         [ "$epubs" -eq 9 ] || { echo "::error::Se esperaban 9 EPUB y hay $epubs"; errores=1; }
+        [ "$mds" -eq 9 ] || { echo "::error::Se esperaban 9 Markdown para RAG y hay $mds"; errores=1; }
 
         exit $errores
 
@@ -476,3 +535,9 @@ jobs:
       with:
         name: manuales-spl-epub
         path: build/epub/
+
+    - name: Subir artefactos Markdown para RAG
+      uses: actions/upload-artifact@v7
+      with:
+        name: manuales-spl-rag
+        path: build/rag/

@@ -95,13 +95,15 @@ Para poder compilar la colección completa, necesitarás contar con:
 El proyecto incluye un _Makefile_ para automatizar la compilación de los libros:
 
 ### Compilar la colección completa
-Genera los entregables en formatos PDF y EPUB para todos los libros:
+Genera los entregables en formatos PDF, EPUB y Markdown para todos los libros:
 ```bash
 make
 ```
 Los archivos finales se guardarán en:
 - `build/pdf/` - PDFs de alta calidad listos para impresión o consulta digital (Typst).
 - `build/epub/` - Libros electrónicos adaptados para e-readers (Pandoc).
+- `build/rag/` - Markdown para cargar el libro en un asistente de estudio (NotebookLM y
+  similares), un fichero por asignatura. Ver [Markdown para RAG](#markdown-para-rag).
 
 Cada entregable lleva en el nombre **el libro, su versión y su fecha** (`yymmdd`), de modo que un
 fichero descargado se identifica sin abrirlo y dos versiones del mismo libro no se pisan:
@@ -109,6 +111,7 @@ fichero descargado se identifica sin abrirlo y dos versiones del mismo libro no 
 ```
 build/pdf/09-navegacion-0.8.1-260716.pdf
 build/epub/09-navegacion-0.8.1-260716.epub
+build/rag/09-navegacion-0.8.1-260716.md
 ```
 
 La fecha es la del último commit que tocó el libro —la misma que figura en su colofón—, no la de
@@ -119,6 +122,31 @@ Puedes compilar una única asignatura especificando su nombre de directorio. Por
 ```bash
 make 05-principios-vuelo
 ```
+
+### Markdown para RAG
+
+Cada libro se publica también como un **único fichero Markdown** pensado para cargarlo como fuente
+en un asistente de estudio con recuperación (NotebookLM, o cualquier RAG). Los nueve caben de sobra
+en un mismo cuaderno:
+
+```bash
+make rag          # sólo los 9 Markdown, sin recompilar PDF ni EPUB (segundos)
+```
+
+No es el libro en crudo: un RAG no ve la maqueta, sino trozos sueltos de texto, y se prepara para
+que cada trozo se explique solo.
+
+- **Los recuadros conservan su etiqueta como texto** (`> **Seguridad**`, `> **Normativa**`…), en vez
+  de perderla dentro de una clase CSS.
+- **El resumen de cada capítulo es un apartado propio**, para que el buscador lo recupere entero.
+- **Las referencias cruzadas se resuelven**: donde el libro escribe `@fig-04-cap05-pistola-luces`, el
+  Markdown dice «figura 5.1».
+- **Las ilustraciones no viajan** —un RAG no las mira—, pero sí sus pies, que sí dicen algo.
+- **Se quedan fuera los preliminares y el colofón**: portadilla, créditos, dedicatoria, epígrafe y
+  contracubierta no son materia. Tampoco la guía de lectura, que explica la maqueta y es idéntica en
+  los nueve libros: nueve copias del mismo texto sólo estorban al buscar.
+
+Lo que sí entra íntegro es el temario: capítulos, apéndices, glosario y bibliografía.
 
 ### Limpiar la compilación
 Elimina los entregables generados (`build/`, `_book/`) y las cachés de Quarto. **No toca los `.qmd`,
