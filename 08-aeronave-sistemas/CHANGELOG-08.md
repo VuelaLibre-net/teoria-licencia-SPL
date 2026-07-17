@@ -51,7 +51,7 @@ Nada de esto altera lo que el lector aprende; el revisor puede saltárselo.
 * Se normalizan los títulos de capítulos, secciones, portadillas y apéndices a la capitalización
   propia del español.
 * Los entregables llevan ahora la versión y la fecha en el nombre
-  (`08-aeronave-sistemas-0.8.1-26-07-16.pdf`), para identificarlos sin abrirlos.
+  (`08-aeronave-sistemas-0.8.1-260716.pdf`), para identificarlos sin abrirlos.
 * Los EPUB se publicaban como **XHTML mal formado**: unos comentarios del CSS abrían etiquetas que
   nunca cerraban y un lector estricto podía rechazarlos. Corregido, y el CI lo comprueba ahora.
 * Cada libro abre con su propia cita, así que el guardián que exigía epígrafes idénticos se ha

@@ -56,7 +56,7 @@ version_quarto = $$(quarto --version 2>/dev/null || echo "?")
 version_libro = $$($(SED_VERSION) $(1)/_quarto.yml | head -1)
 
 # --- NOMBRE DE LOS ENTREGABLES ---
-# Los ficheros llevan versión y fecha: `09-navegacion-0.8.1-26-07-16.pdf`. Los
+# Los ficheros llevan versión y fecha: `09-navegacion-0.8.1-260716.pdf`. Los
 # dos datos están dentro del libro (portadilla y colofón), pero un PDF
 # descargado se identifica por su nombre sin llegar a abrirlo, y así dos
 # versiones del mismo libro no se pisan en la carpeta de descargas.
@@ -69,7 +69,7 @@ version_libro = $$($(SED_VERSION) $(1)/_quarto.yml | head -1)
 # del nombre del objetivo, y make necesita saberlo antes de decidir qué hacer.
 version_de = $(shell $(SED_VERSION) $(1)/_quarto.yml | head -1)
 fecha_corta_de = $(shell iso=$$($(GIT_FECHA_ISO) $(1)/ 2>/dev/null); \
-	[ -n "$$iso" ] || iso=$$(date +%F); echo "$${iso#??}")
+	[ -n "$$iso" ] || iso=$$(date +%F); echo "$${iso#??}" | tr -d -)
 sufijo_de = $(call version_de,$(1))-$(call fecha_corta_de,$(1))
 pdf_de = $(PDF_OUT)/$(1)-$(call sufijo_de,$(1)).pdf
 epub_de = $(EPUB_OUT)/$(1)-$(call sufijo_de,$(1)).epub

@@ -227,7 +227,7 @@ jobs:
       run: |
         errores=0
 
-        # Los entregables se llaman <libro>-<versión>-<yy-mm-dd>.pdf, así que el
+        # Los entregables se llaman <libro>-<versión>-<yymmdd>.pdf, así que el
         # nombre del fichero ya NO es el del directorio del libro. Partirlo por
         # guiones no vale: el slug del libro lleva guiones y la versión también
         # (1.0-rc.5). Se resuelve contra los directorios que existen, que es la
