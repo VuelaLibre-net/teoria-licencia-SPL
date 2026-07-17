@@ -74,6 +74,20 @@ sufijo_de = $(call version_de,$(1))-$(call fecha_corta_de,$(1))
 pdf_de = $(PDF_OUT)/$(1)-$(call sufijo_de,$(1)).pdf
 epub_de = $(EPUB_OUT)/$(1)-$(call sufijo_de,$(1)).epub
 
+# --- ENTRADAS DE CADA LIBRO ---
+# De qué depende un entregable. Se escriben aquí, una vez, para que las reglas
+# no diverjan sin avisar.
+#
+# El texto: los .qmd y el _quarto.yml, que decide qué ficheros entran y en qué
+# orden (y de él salen título, versión y repo-url).
+fuentes_texto_de = $(wildcard $(1)/*.qmd) $(1)/_quarto.yml
+
+# Las imágenes: `imagenes/` la referencian los capítulos, y `cover/` la portada,
+# la contracubierta y la cubierta del EPUB (cubierta:/contracubierta:/
+# epub-cover-image: del _quarto.yml). Van aparte del texto porque no todo lo que
+# se construye a partir de un libro las consume.
+fuentes_imagen_de = $(wildcard $(1)/imagenes/*) $(wildcard $(1)/cover/*)
+
 # Estado editorial del libro, deducido de su versión. Se calcula AQUÍ y no en
 # Typst porque el Makefile es el único punto por el que pasan los dos formatos:
 # el EPUB no ejecuta nada de la extensión typst y se quedaba sin enterarse del
@@ -103,11 +117,20 @@ nota_libro = $$(case "$(call estado_libro,$(1))" in \
 # nombre del entregable ya no se deduce del nombre del libro: lleva la versión y
 # la fecha, que hay que resolver leyendo el _quarto.yml y git.
 #
+# ⚠️ Dependen de TODAS las entradas del libro, no sólo de index.qmd. Con
+# index.qmd solo, editar un capítulo —o una imagen— NO rehacía el entregable:
+# make lo daba por al día y `make` salía con 0 sin recompilar. No salta a la
+# vista porque el nombre lleva la fecha del último commit, y al confirmar el
+# cambio suele aparecer un nombre nuevo que sí se construye... salvo que ese día
+# ya hubiera un commit del libro, que es justo cuando estás iterando. Pasó: un
+# pie de figura corregido siguió saliendo roto en el PDF. En el CI no se ve,
+# porque clona limpio.
+#
 # Cualquier opción que se pase a `quarto render` hay que ponerla en las DOS
 # recetas, la del PDF y la del EPUB. Nueve EPUB se publicaron con los shortcodes
 # del colofón sin resolver por añadir --metadata sólo a una.
 define reglas_de_libro
-$(call pdf_de,$(1)): $(1)/index.qmd
+$(call pdf_de,$(1)): $(call fuentes_texto_de,$(1)) $(call fuentes_imagen_de,$(1))
 	@mkdir -p $(PDF_OUT)
 	@echo "==> [Quarto] Renderizando PDF (Typst) para $(1)..."
 	quarto render $(1)/ --to orange-book-es-typst \
@@ -118,7 +141,7 @@ $(call pdf_de,$(1)): $(1)/index.qmd
 	@mv $(1)/_book/*.pdf $$@
 	@echo "✓ PDF generado en $$@"
 
-$(call epub_de,$(1)): $(1)/index.qmd
+$(call epub_de,$(1)): $(call fuentes_texto_de,$(1)) $(call fuentes_imagen_de,$(1))
 	@mkdir -p $(EPUB_OUT)
 	@echo "==> [Quarto] Renderizando EPUB para $(1)..."
 	quarto render $(1)/ --to epub \
