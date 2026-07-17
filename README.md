@@ -157,6 +157,50 @@ make clean
 
 ---
 
+## Publicar una release
+
+Los entregables se publican en la [página de _releases_](https://github.com/VuelaLibre-net/teoria-licencia-SPL/releases)
+del repositorio, de donde cualquiera puede descargarlos sin cuenta de GitHub. El proceso lo automatiza
+`.github/workflows/release.yml`: **empujar un tag de versión lo dispara todo**.
+
+```bash
+# 1. Sube la versión de los libros que hayan cambiado y cierra sus CHANGELOG
+#    (ver «Qué ha cambiado en cada libro», arriba). Fusiona esos cambios a main.
+
+# 2. Ya en main, con todo fusionado y el CI en verde, crea un tag anotado:
+git switch main && git pull
+git tag -a v0.9.0 -m "Descripción breve de la entrega"
+git push origin v0.9.0
+```
+
+El tag compila y verifica con el CI **entero** (el mismo job, no una copia), y con los 27 entregables
+recién compilados crea una **release en borrador**. En unos minutos aparece en la pestaña _Releases_,
+todavía no visible al público.
+
+Para terminar, **a mano**:
+
+1. Abre el borrador y rellena la sección **«Qué ha cambiado en esta versión»** —el resto de las notas
+   (la tabla de libros, versiones y estados, y el aviso de marca de agua) ya viene generado de
+   `make estados`—. La materia prima es la línea «Qué releer» de cada `CHANGELOG-NN.md`.
+2. Pulsa **Publish release**.
+
+Es borrador a propósito: compilar y verificar es mecánico y se automatiza, pero decidir que la entrega
+sale al público —y redactar qué ha cambiado, que un guión no puede inventar— es cosa de una persona.
+
+Sobre el **número del tag**: `v0.8.2` fue la versión del libro menos maduro (la colección es tan
+madura como su libro más atrasado). El prefijo `v` es obligatorio: lo distingue de la versión literal
+de los libros, que va sin él y aparece en el nombre de sus ficheros
+(`05-principios-vuelo-0.8.2-260717.pdf`).
+
+Si el borrador sale mal, se borra sin dejar rastro —no es público— y se vuelve a empezar:
+
+```bash
+gh release delete v0.9.0 --yes
+git push origin --delete v0.9.0 && git tag -d v0.9.0
+```
+
+---
+
 ## Estructura Editorial de los Libros
 
 Cada asignatura es un proyecto Quarto independiente, con su propio `_quarto.yml`:
