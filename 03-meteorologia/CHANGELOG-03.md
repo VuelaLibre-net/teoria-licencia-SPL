@@ -44,6 +44,11 @@ los términos ingleses van en cursiva. El CI lo comprueba ahora en los 76 capít
 
 Nada de esto altera lo que el lector aprende; el revisor puede saltárselo.
 
+* **Los post-it y los créditos se componían en serifa, no en palo seco.** Typst no empotra
+  Libertinus Sans —sólo la Serif—, la fuente estaba en la máquina de desarrollo y no en el servidor
+  que publica, y Typst no avisa cuando le falta una: compone con otra y sigue. Los PDF publicados
+  llevaban meses así. Ahora la fuente viaja en el repositorio y el CI falla si alguna no llega.
+  Cambia el aspecto de los resúmenes de capítulo y de los créditos; el texto no.
 * **La página de créditos se rediseña.** Salía amontonada y con un tercio del papel en blanco
   debajo. No era la interlínea —135,8 %, dentro de la banda recomendada—: eran el cuerpo a 8,5 pt,
   los párrafos un 27 % más juntos que en el libro y, sobre todo, unos rótulos de sección que eran

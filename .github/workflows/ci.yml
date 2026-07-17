@@ -49,6 +49,28 @@ jobs:
           | tar -xJ
         echo "QUARTO_TYPST=$PWD/typst-x86_64-unknown-linux-musl/typst" >> "$GITHUB_ENV"
 
+    - name: Instalar Libertinus Sans
+      # Typst NO la trae —empotra Libertinus Serif, no Sans— y el runner tampoco.
+      # La usan los post-it, los créditos y los rótulos de la página de licencia,
+      # y Typst no falla ante una fuente ausente: cae a otra en silencio. Los PDF
+      # publicados compusieron los 76 post-it en serif durante meses porque en la
+      # máquina de desarrollo la fuente estaba instalada y aquí no.
+      #
+      # Se copian del repo, no se descargan ni se instalan de un paquete: los
+      # mismos bytes aquí y en local. Ver recursos/fuentes/README.md.
+      #
+      # A ~/.local/share/fonts porque Typst no usa fontconfig: escanea
+      # directorios conocidos, y ése es uno. No sirve TYPST_FONT_PATHS: Quarto
+      # invoca a Typst con --font-path y el parámetro pisa la variable.
+      run: |
+        mkdir -p ~/.local/share/fonts
+        cp recursos/fuentes/*.otf ~/.local/share/fonts/
+        # El guardián de abajo no vale de nada si el `cp` no ha copiado nada.
+        n=$(ls -1 ~/.local/share/fonts/LibertinusSans-*.otf 2>/dev/null | wc -l)
+        [ "$n" -eq 3 ] || { echo "::error::Se esperaban 3 .otf de Libertinus Sans y hay $n"; exit 1; }
+        "$QUARTO_TYPST" fonts | grep -qx 'Libertinus Sans' \
+          || { echo '::error::Typst no encuentra Libertinus Sans tras instalarla'; exit 1; }
+
     - name: Instalar utilidades de verificación
       # poppler-utils da pdftotext; unzip abre los EPUB. Se instalan en vez de
       # suponer que el runner los trae.
@@ -165,6 +187,14 @@ jobs:
       # sabe.
       run: python3 .github/comprobar-negrita.py
 
+    - name: Comprobar que los CHANGELOG no parten sus listas
+      # Una línea en blanco entre dos viñetas convierte la lista en «loose» y
+      # Markdown la renderiza separada, como si la viñeta fuera de otra sección.
+      # En bruto se lee bien, así que sólo se ve en GitHub —donde lo mira el
+      # revisor— y no rompe nada. Al añadir entradas a mano se cuela sola: pasó
+      # cuatro veces en un día.
+      run: python3 .github/comprobar-changelog.py
+
     - name: Comprobar que cada libro registra su versión en curso
       # El CHANGELOG sólo sirve si está al día, y un CHANGELOG desfasado no da
       # ningún síntoma: el libro compila igual. Aquí se exige que la versión que
@@ -235,7 +265,27 @@ jobs:
         exit $errores
 
     - name: Compilar manuales a PDF, EPUB y Markdown para RAG
-      run: make
+      # La salida se guarda para poder mirarla en el paso siguiente: Typst avisa
+      # de las fuentes que no encuentra por stderr, pero NO falla por ello, así
+      # que el aviso se pierde entre miles de líneas y `make` sale con 0.
+      run: set -o pipefail && make 2>&1 | tee build.log
+
+    - name: Comprobar que ninguna fuente ha caído a otra
+      # `warning: unknown font family: X` significa que Typst no encontró la
+      # fuente y compuso con otra. NO es un error para Typst: el PDF sale, el
+      # build pasa en verde, y el entregable lleva una tipografía que nadie ha
+      # elegido. Pasó con Libertinus Sans durante meses —los 76 post-it salían en
+      # serif— y sólo se vio comparando el PDF del CI con el de local.
+      #
+      # Se comprueba el aviso, no una fuente concreta: así caza también la
+      # próxima, sea cual sea.
+      run: |
+        if grep -q 'unknown font family' build.log; then
+          echo '::error::Typst no encontró alguna fuente y ha compuesto con otra:'
+          grep -o 'unknown font family: .*' build.log | sort -u | sed 's/^/    /'
+          exit 1
+        fi
+        echo 'Ninguna fuente ha caído a otra.'
 
     - name: Verificar los entregables
       run: |
