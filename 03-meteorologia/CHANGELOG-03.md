@@ -44,6 +44,10 @@ los términos ingleses van en cursiva. El CI lo comprueba ahora en los 76 capít
 
 Nada de esto altera lo que el lector aprende; el revisor puede saltárselo.
 
+* Los tres gradientes de `cap03` —DALR, SALR y LI— llevaban el término inglés en negrita dentro de
+  una negrita, que Markdown no admite: el `**` interior cerraba el exterior, así que el desarrollo
+  salía sin resaltar y el paréntesis de cierre en negrita. Pasan a cursiva, como los otros 15 casos
+  de la colección.
 * El pie de la figura de la cizalladura (`cap09`) estaba cortado: decía «Reventón (» y ahí acababa.
   Se restaura desde el AsciiDoc de origen, con **downburst** en negrita como lo escribe el cuerpo
   del capítulo.

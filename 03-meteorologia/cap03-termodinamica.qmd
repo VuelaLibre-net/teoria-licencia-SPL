@@ -22,8 +22,8 @@ Podemos entenderlo imaginando una pelota en diferentes relieves:
 
    Cuando una burbuja de aire asciende impulsada por la convección, se expande a medida que encuentra menor presión atmosférica en altura. Esta expansión provoca que se enfríe de forma interna (proceso adiabático), sin intercambiar calor con el aire exterior. El ritmo al que se enfría depende de si el aire está seco o saturado de humedad.
 
-* **Gradiente Adiabático Seco (DALR - **Dry Adiabatic Lapse Rate**)**: Mientras la burbuja no alcance el 100% de humedad, se enfría a un ritmo constante de **3 °C por cada 1.000 pies** (1 °C cada 100 metros).
-* **Gradiente Adiabático Saturado (SALR - **Saturated Adiabatic Lapse Rate**)**: Cuando la burbuja se enfría lo suficiente como para alcanzar su punto de rocío, el vapor de agua comienza a condensarse, formando la base de una nube (Nivel de Condensación por Ascenso o NCA). La condensación libera calor latente dentro de la burbuja. Por tanto, a partir de la base de la nube, la burbuja sigue subiendo, pero se enfría mucho más despacio, típicamente a **1,5 °C por cada 1.000 pies** (0,5 °C cada 100 metros en niveles bajos).
+* **Gradiente Adiabático Seco (DALR - *Dry Adiabatic Lapse Rate*)**: Mientras la burbuja no alcance el 100% de humedad, se enfría a un ritmo constante de **3 °C por cada 1.000 pies** (1 °C cada 100 metros).
+* **Gradiente Adiabático Saturado (SALR - *Saturated Adiabatic Lapse Rate*)**: Cuando la burbuja se enfría lo suficiente como para alcanzar su punto de rocío, el vapor de agua comienza a condensarse, formando la base de una nube (Nivel de Condensación por Ascenso o NCA). La condensación libera calor latente dentro de la burbuja. Por tanto, a partir de la base de la nube, la burbuja sigue subiendo, pero se enfría mucho más despacio, típicamente a **1,5 °C por cada 1.000 pies** (0,5 °C cada 100 metros en niveles bajos).
 
 ::: {.callout-tip title="Regla de oro"}
 Puedes estimar fácilmente la altura de la base de los cúmulos restando la temperatura del punto de rocío a la temperatura ambiente en el suelo. Como los dejas atrás a razón de unos 2.5 °C por cada 1.000 pies de ascenso conjunto (el DALR menos la caída del punto de rocío), la fórmula es: **(T~ambiente~ - T~rocío~) x 400 = Altitud de la base en pies.**
@@ -143,7 +143,7 @@ El K-Index fue diseñado para predecir tormentas, no la calidad del vuelo a vela
 Los valores de CAPE que ves en manuales de meteorología general suelen clasificar 1.000–2.500 J/kg como "moderadamente inestable", reservando "muy inestable" para valores superiores. Para el volovelista, ese rango es perfectamente excelente: proporciona térmicas potentes y bases altas sin el riesgo de tormenta severa. Cuando consultes herramientas externas como Skysight o la Universidad de Wyoming, interpreta el CAPE en contexto aeronáutico, no según las escalas de meteorología convectiva para tormentas.
 :::
 
-* **LI (Índice de Levantamiento o **Lifted Index**)**: Diferencia entre la temperatura de la parcela y la del ambiente a 500 hPa, tras elevarla adiabáticamente desde el suelo. Valores negativos indican inestabilidad: cuanto más negativo, mayor el potencial convectivo.
+* **LI (Índice de Levantamiento o *Lifted Index*)**: Diferencia entre la temperatura de la parcela y la del ambiente a 500 hPa, tras elevarla adiabáticamente desde el suelo. Valores negativos indican inestabilidad: cuanto más negativo, mayor el potencial convectivo.
 
 ::: {.callout-tip title="Regla de oro"}
 Día de convección excepcional — conocido coloquialmente como «día termonuclear» en el argot de competición —: TT entre 48 y 55, K entre 15 y 20, CAPE entre 1.000 y 2.500 J/kg, LI negativo y vientos flojos de componente variable. Son los días de récords de distancia. Puedes encontrar todos estos índices en cualquier sondeo online: gratuitamente en la Universidad de Wyoming, AEMET (AMA), Windy o Meteoblue; con previsiones orientadas al planeador en Skysight, Topmeteo o Meteo Parapente.
