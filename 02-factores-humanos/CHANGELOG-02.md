@@ -16,8 +16,9 @@ rompe la compilación.
 
 ## [En curso]
 
-Cambios ya en `main` —y por tanto en los entregables que compila el CI— a los que todavía no se les
-ha asignado número: el `version:` de `_quarto.yml` no se ha movido.
+Sin cambios desde la 1.0-rc.5.
+
+## [1.0-rc.5] — 17 de julio de 2026
 
 **Qué releer:** **Sólo el epígrafe**, que es una página. El temario no cambia ni una línea; lo que
 cambia es la cita con la que abre el libro, y si encaja con la asignatura es criterio editorial.
@@ -72,6 +73,12 @@ Nada de esto altera lo que el lector aprende; el revisor puede saltárselo.
   nunca cerraban y un lector estricto podía rechazarlos. Corregido, y el CI lo comprueba ahora.
 * Cada libro abre con su propia cita, así que el guardián que exigía epígrafes idénticos se ha
   invertido: ahora exige que los 9 sean distintos.
+
+### Estado en esta versión
+
+* 4 capítulos y 3 apéndices, entre ellos el glosario y la bibliografía.
+* Estado editorial: **En revisión**, deducido de la versión 1.0-rc.5.
+* La marca de agua y el aviso del EPUB desaparecen solos al pasar a `1.0.0`.
 
 ## [1.0-rc.4] — 16 de julio de 2026
 
