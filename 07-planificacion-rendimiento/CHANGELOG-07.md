@@ -16,8 +16,9 @@ rompe la compilación.
 
 ## [En curso]
 
-Cambios ya en `main` —y por tanto en los entregables que compila el CI— a los que todavía no se les
-ha asignado número: el `version:` de `_quarto.yml` no se ha movido.
+Sin cambios desde la 0.8.2.
+
+## [0.8.2] — 17 de julio de 2026
 
 **Qué releer:** **Los títulos tocados, el epígrafe y el alcance de las secciones marcadas; ni una
 línea del temario.** El texto de los capítulos no cambia. Lo que cambia son decisiones editoriales
@@ -80,6 +81,12 @@ Nada de esto altera lo que el lector aprende; el revisor puede saltárselo.
   nunca cerraban y un lector estricto podía rechazarlos. Corregido, y el CI lo comprueba ahora.
 * Cada libro abre con su propia cita, así que el guardián que exigía epígrafes idénticos se ha
   invertido: ahora exige que los 9 sean distintos.
+
+### Estado en esta versión
+
+* 5 capítulos y 3 apéndices, entre ellos el glosario y la bibliografía.
+* Estado editorial: **Creando ilustraciones**, deducido de la versión 0.8.2.
+* El texto está completo; faltan ilustraciones. La marca de agua lo advierte en cada página.
 
 ## [0.8.1] — 16 de julio de 2026
 
