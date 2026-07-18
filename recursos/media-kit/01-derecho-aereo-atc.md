@@ -6,7 +6,7 @@
 
 > El cielo tiene reglas. El piloto que las conoce vuela con libertad. El que no, con miedo.
 
-El **Libro 1 de Derecho Aéreo y ATC** del Manual SPL te explica el marco legal que rige cada vuelo: desde el Convenio de Chicago hasta las tres normas que debes conocer de memoria como piloto de planeador. Sin jerga jurídica innecesaria, con las consecuencias operativas de cada regla.
+El **Libro 1 de Derecho Aéreo y ATC** del Manual SPL te explica el marco legal que rige cada vuelo: desde el Convenio de Chicago hasta las tres normas que debes conocer como piloto de planeador. Sin jerga jurídica innecesaria, con las consecuencias operativas de cada regla.
 
 ---
 
