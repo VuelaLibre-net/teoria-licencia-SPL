@@ -16,7 +16,7 @@ El lastre de agua (**water ballast**) es lo que permite a los planeadores de com
 
 ## Para qué sirve: carga alar y velocidad
 
-Añadir agua aumenta la **carga alar**, y eso desplaza la polar de velocidades hacia la derecha: la velocidad de planeo óptima sube y las transiciones entre térmicas son mucho más rápidas. Tiene un precio: el planeador trepa peor en las térmicas flojas y su velocidad de pérdida es mayor. El efecto del lastre sobre la polar se desarrolla en el **Libro 7 — Planificación y rendimiento**, capítulo 2.
+Añadir agua aumenta la **carga alar**, y eso desplaza la polar de velocidades hacia la derecha: la velocidad de planeo óptima sube y las transiciones entre térmicas son mucho más rápidas. Tiene un precio: el planeador trepa peor en las térmicas flojas y su velocidad de pérdida es mayor. El efecto del lastre sobre la polar se desarrolla en el **Libro 7 — Planificación y Rendimiento de Vuelo**, capítulo 2.
 
 ## Componentes del sistema
 

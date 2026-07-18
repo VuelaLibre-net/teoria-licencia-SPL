@@ -40,7 +40,7 @@ La esfera del anemómetro lleva marcas de color que resumen las limitaciones de 
 * **Línea roja radial**: la V~NE~ (Velocidad Nunca Exceder). Es un límite absoluto, nunca un objetivo.
 * **Triángulo amarillo**: en muchos veleros marca la velocidad de aproximación recomendada con masa máxima sin lastre.
 
-Estas marcas se complementan con las velocidades de remolque y torno indicadas en la placa de limitaciones y en el Manual de Vuelo. Y ojo en vuelo de onda a gran altitud: la V~NE~ **indicada** disminuye; el porqué se explica en el **Libro 5, capítulo 5**.
+Estas marcas se complementan con las velocidades de remolque y torno indicadas en la placa de limitaciones y en el Manual de Vuelo. Y ojo en vuelo de onda a gran altitud: la V~NE~ **indicada** disminuye; el porqué se explica en el **Libro 5 — Principios de Vuelo**, capítulo 5.
 
 ## Instrumentos exigidos por la normativa
 

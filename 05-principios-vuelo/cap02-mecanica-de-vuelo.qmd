@@ -44,7 +44,7 @@ Algunos planeadores llevan depósitos de agua en las alas. El lastre no cambia l
 
 ¿Para qué sirve? En un día de térmicas fuertes con largas etapas entre ellas, el planeador lastrado cruza más rápido manteniendo el mismo planeo; en regata eso se traduce en minutos ganados. El precio: en térmicas débiles sube peor, porque necesita más velocidad y el círculo se come más altura. Antes de aterrizar, el lastre se larga.
 
-El punto clave, y el que suele caer en el examen: **el lastre no cambia el L/D máximo**. La fineza máxima es la misma con y sin agua; lo único que cambia es la velocidad a la que se obtiene, que sube con el peso. Por eso el planeador lastrado vuela más rápido «por el mismo planeo». El cálculo de masa y centrado que hace posible cargar ese lastre se desarrolla en el **Libro 7 — Planificación y rendimiento**, capítulo 2.
+El punto clave, y el que suele caer en el examen: **el lastre no cambia el L/D máximo**. La fineza máxima es la misma con y sin agua; lo único que cambia es la velocidad a la que se obtiene, que sube con el peso. Por eso el planeador lastrado vuela más rápido «por el mismo planeo». El cálculo de masa y centrado que hace posible cargar ese lastre se desarrolla en el **Libro 7 — Planificación y Rendimiento de Vuelo**, capítulo 2.
 
 ### Aerofrenos y flaps: modificar la polar a voluntad
 
@@ -53,7 +53,7 @@ Dos dispositivos permiten al piloto cambiar la forma de la curva polar cuando le
 * **Aerofrenos (airbrakes o spoilers)**: al extenderse, destruyen sustentación y añaden mucha resistencia. La polar entera se desploma: para una misma velocidad, la tasa de descenso se dispara. Son la herramienta de control de senda en la aproximación —permiten bajar sin acelerar— y su efecto operativo en el circuito se detalla en el **Libro 6 — Procedimientos operativos**.
 * **Flaps**: modifican la curvatura del perfil. En posición positiva aumentan la sustentación y desplazan la polar hacia velocidades bajas (útil en térmica); en posición negativa la reducen y la desplazan hacia velocidades altas (útil en transición rápida). No todos los veleros los llevan.
 
-La descripción constructiva de estos dispositivos —cómo son y cómo se accionan— corresponde al **Libro 8 — Conocimiento de la aeronave**, capítulo 5; aquí interesa su efecto aerodinámico sobre la polar y la pérdida.
+La descripción constructiva de estos dispositivos —cómo son y cómo se accionan— corresponde al **Libro 8 — Conocimientos Generales de la Aeronave, Estructura, Sistemas y Equipo de Emergencia**, capítulo 5; aquí interesa su efecto aerodinámico sobre la polar y la pérdida.
 
 ## El factor de carga (n)
 

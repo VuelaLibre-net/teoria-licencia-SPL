@@ -16,12 +16,30 @@ rompe la compilación.
 
 ## [En curso]
 
-**Qué releer:** **Preliminares, página de licencia.** El temario no cambia.
+**Qué releer:** Normalizadas las remisiones a otros libros en `cap02`, `cap06`, `cap08` y `cap10`. El temario no cambia —solo se añade el título completo a las referencias que lo omitían.
+
+### Cambiado
+
+* **cap02**, **cap06**, **cap08**, **cap10** — referencias a otros libros: se completa el título donde antes solo aparecía el número.
+
+## [1.0-rc.7] — 18 de julio de 2026
+
+**Qué releer:** **Preliminares, página de licencia; Glosario completo; y cambios terminológicos
+puntuales en los capítulos 1, 2, 6, 7, 8, 9 y 11.**
 
 ### Cambiado
 
 * **Licencia** — el libro pasa a **CC BY-SA 4.0**: mantiene atribución y añade la
   obligación de compartir las adaptaciones bajo la misma licencia o una compatible.
+* **Glosario y siglas aeronáuticas** — se corrigen expansiones y definiciones, se incorporan las
+  siglas empleadas en el libro y se armonizan los usos de TMA, VFR, TMZ, NOTAM y las fases
+  INCERFA/ALERFA/DETRESFA.
+
+### Estado en esta versión
+
+* 14 capítulos y 3 apéndices, entre ellos el glosario y la bibliografía.
+* Estado editorial: **En revisión**, deducido de la versión 1.0-rc.7.
+* La marca de agua y el aviso del EPUB desaparecen solos al pasar a `1.0.0`.
 
 ## [1.0-rc.6] — 17 de julio de 2026
 

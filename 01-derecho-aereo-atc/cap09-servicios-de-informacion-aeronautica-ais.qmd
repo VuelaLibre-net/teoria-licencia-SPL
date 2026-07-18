@@ -14,7 +14,7 @@
 
 Antes de despegar, el piloto debe "familiarizarse con toda la información disponible". No es un consejo: es una **obligación legal** (SERA.2010). Para que puedas cumplirla, los estados prestan los Servicios de Información Aeronáutica (**AIS**).
 
-En España, el proveedor principal es **ENAIRE**, y todo se agrupa en el "Paquete de Información Aeronáutica Integrada" (IAIP).
+En España, el proveedor principal es **ENAIRE**, y todo se agrupa en la "Documentación integrada de información aeronáutica" (IAIP).
 
 ## El manual AIP (Publicación de Información Aeronáutica)
 
@@ -28,9 +28,9 @@ El **AIP** es la "biblia" de la aviación de un país: contiene la información 
 
 ### El ciclo AIRAC
 
-El AIP no cambia cada día. Las actualizaciones importantes y previsibles (nuevas rutas, frecuencias) se publican siguiendo el sistema **AIRAC** (Reglamentación y Control de Información Aeronáutica), que garantiza que los cambios llegan a todos con antelación suficiente antes de entrar en vigor.
+El AIP no cambia cada día. Las actualizaciones importantes y previsibles (nuevas rutas, frecuencias) se publican siguiendo el sistema **AIRAC** (Reglamentación y Control de la Información Aeronáutica), que garantiza que los cambios llegan a todos con antelación suficiente antes de entrar en vigor.
 
-## Noticias urgentes: NOTAM (Notice To AirMen)
+## Noticias urgentes: NOTAM (Notice to airmen)
 
 ![Decodificación básica de un NOTAM](imagenes/01-cap09-ejemplo-notam.jpg){#fig-01-cap09-ejemplo-notam}
 
@@ -43,7 +43,7 @@ Consultar los NOTAM de tu aeródromo de salida, destino, alternativos y la ruta 
 Son avisos que no justifican un NOTAM (no afectan a la operación de forma urgente y directa) pero conviene conocer: asuntos administrativos como nuevas tasas, recomendaciones de seguridad estacionales, prevención de engelamiento o explicaciones técnicas.
 
 ::: {.callout-tip title="Regla de oro"}
-En España, puedes consultar todo esto gratis en los portales **ICARO** e **Insignia** de ENAIRE. Insignia es una herramienta visual fantástica para ver NOTAMs sobre el mapa. Acostúmbrate a usarla.
+En España, puedes consultar todo esto gratis en los portales **ICARO** e **Insignia** de ENAIRE. Insignia es una herramienta visual fantástica para ver los NOTAM sobre el mapa. Acostúmbrate a usarla.
 :::
 
 ::: {.postit}

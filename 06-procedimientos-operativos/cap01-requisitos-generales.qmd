@@ -28,7 +28,7 @@ Salvo que vueles a la vista del aeródromo o en una zona autorizada por la autor
 * **Manual de vuelo (AFM):** el manual específico del modelo de planeador que operas.
 * **Cartas aeronáuticas:** actualizadas y adecuadas para la ruta prevista.
 * **Libro de vuelo (logbook):** datos suficientes —o el propio libro— para demostrar que cumples los requisitos de la normativa, la experiencia reciente incluida.
-* **Señales de interceptación:** una copia de los procedimientos y señales visuales internacionales de interceptación (SERA.11015; las señales y la respuesta correcta se estudian en el Libro 4, *Comunicaciones*, capítulo 8).
+* **Señales de interceptación:** una copia de los procedimientos y señales visuales internacionales de interceptación (SERA.11015; las señales y la respuesta correcta se estudian en el **Libro 4 — Comunicaciones**, capítulo 8).
 
 El resto de los papeles de la aeronave —certificado de matrícula, certificado de aeronavegabilidad con sus anexos, ARC, licencia de radio si lleva equipo, certificado del seguro y diario de a bordo— no necesitan volar contigo: SAO.GEN.155 exige que estén disponibles en el aeródromo o lugar de operación.
 

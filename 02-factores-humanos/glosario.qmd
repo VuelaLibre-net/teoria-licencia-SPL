@@ -6,13 +6,13 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Factores
 : Toma de decisiones aeronáuticas. Proceso mental sistemático (por ejemplo, mediante el modelo DECIDE) empleado por el piloto para elegir la opción más segura como respuesta a un conjunto de circunstancias. (Mencionado en: cap. 3)
 
 **AESA (Agencia Estatal de Seguridad Aérea)**
-: Autoridad de aviación civil en España, encargada de supervisar y aplicar la normativa aeronáutica nacional, trabajando junto con EASA y emitiendo las licencias de vuelo para pilotos (SPL), así como supervisando la expedición de certificados médicos por parte de centros y médicos examinadores autorizados. (Mencionado en: cap. 4)
+: Autoridad española responsable de la supervisión de la seguridad de la aviación civil y de la aplicación de la normativa aeronáutica dentro de sus competencias.
 
 **AME (Aero-Medical Examiner)**
-: Médico Examinador Aéreo. Médico especialista certificado y autorizado por AESA para llevar a cabo los reconocimientos físicos y psicológicos necesarios para emitir o renovar el certificado médico aeronáutico. (Mencionado en: cap. 2)
+: Médico autorizado para realizar reconocimientos y emitir o tramitar certificados médicos aeronáuticos dentro de sus atribuciones.
 
 **ATC (Control de Tránsito Aéreo / Air Traffic Control)**
-: Servicio de tránsito aéreo responsable de dirigir el tráfico de aeronaves para prevenir colisiones entre aeronaves y entre estas y los obstáculos en el área de maniobras, así como de organizar y agilizar el flujo del tránsito aéreo. (Mencionado en: cap. 3)
+: Servicio de tránsito aéreo destinado a prevenir colisiones y a acelerar y mantener ordenadamente el movimiento del tránsito aéreo.
 
 **AUT / TUE (Autorización de Uso Terapéutico)**
 : **Therapeutic Use Exemption**. Permiso oficial emitido por una organización antidopaje o autoridad aeronáutica (como WADA) que permite a un piloto de competición utilizar una medicación específica que normalmente requeriría su suspensión en un control antidopaje, salvaguardando su salud de base. (Mencionado en: cap. 2)
@@ -45,7 +45,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Factores
 : Alteraciones orgánicas o dolor neurálgico originados por la expansión y contracción de pequeños volúmenes de gas atrapados en el cuerpo (senos paranasales, oído medio, intestinos) frente a los inevitables cambios en la presión atmosférica por la Ley de Boyle. (Mencionado en: cap. 2)
 
 **EASA (Agencia de la Unión Europea para la Seguridad Aérea / European Union Aviation Safety Agency)**
-: Agencia de la Unión Europea responsable de establecer el marco normativo común para regular y supervisar la seguridad de la aviación civil, incluyendo requisitos médicos (Part-MED) y licencias (SFCL). (Mencionado en: cap. 1)
+: Agencia de la Unión Europea que desarrolla y supervisa el marco común de seguridad de la aviación civil dentro de sus competencias.
 
 **EDS (Sistema de Oxígeno a Demanda / Electronic Delivery System)**
 : Sistema electrónico de suministro de oxígeno a demanda que detecta la inspiración del piloto y libera un pulso de oxígeno en ese instante, multiplicando la autonomía de la botella de oxígeno al interrumpir el flujo durante la exhalación. (Mencionado en: cap. 4)
@@ -69,7 +69,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Factores
 : Gas letal, inodoro e invisible derivado de los sistemas de escape. Se une a la hemoglobina bloqueando el transporte de oxígeno (hipoxia anémica), afectando a los pilotos de motovelero (TMG) incluso a baja altitud. (Mencionado en: cap. 2)
 
 **OACI (Organización de Aviación Civil Internacional / ICAO)**
-: Agencia especializada de las Naciones Unidas creada en 1944 para establecer las normas y métodos recomendados (SARPS) que garanticen la seguridad, protección, regularidad y eficiencia de la aviación civil global. (Mencionado en: cap. 1)
+: Agencia especializada de las Naciones Unidas que establece normas y métodos recomendados para la aviación civil internacional.
 
 **PAVE**
 : Esquema simplificado y fundamental para ejecutar la evaluación sistemática y mitigación profiláctica de los riesgos de cualquier vuelo, dividido en: Piloto, Aeronave (**Aircraft**), Entorno (**enVironment**) y Presiones Externas. (Mencionado en: cap. 3)
@@ -87,19 +87,19 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Factores
 : Modelo conceptual desarrollado por la OACI interconectando de forma unificada y armónica todos los vértices relativos al operador: **Software** (Procedimientos normativos), **Hardware** (La Aeronave), **Environment** (El Entorno físico), **Liveware** interior y **Liveware** externo (El piloto con respecto a otras personas). (Mencionado en: cap. 1)
 
 **SPL (Licencia de Piloto de Planeador / Sailplane Pilot Licence)**
-: Licencia oficial de la Unión Europea (regida por Part-SFCL) que certifica que el titular cumple con los requisitos teóricos y prácticos para actuar como piloto de planeadores. (Mencionado en: el temario general)
+: Licencia de la Unión Europea, regulada por la Part-SFCL, que permite ejercer las atribuciones de piloto de planeador dentro de las condiciones aplicables.
 
 **SRM (Single-Pilot Resource Management)**
 : Gestión de recursos para pilotos solitarios. Habilidad para administrar todos los recursos disponibles (instrumentos, ATC, listas de chequeo) para operar de forma segura, reduciendo la carga de trabajo y minimizando el riesgo de errores sistemáticos. (Mencionado en: cap. 3)
 
 **TMG (Motovelero de turismo / Touring Motor Glider)**
-: Planeador propulsado equipado estructuralmente con motor y hélice no retráctil que le permiten el despegue autónomo y el crucero, compartiendo características con aviones ligeros. (Mencionado en: cap. 2)
+: Planeador propulsado equipado con motor y hélice no retráctiles que puede despegar y ascender por sus propios medios.
 
 **TUC (Time of Useful Consciousness)**
 : Tiempo útil de conciencia. Intervalo crítico en el que el piloto retiene sus capacidades cognitivas y motoras para tomar medidas correctivas tras una interrupción del suministro de oxígeno a gran altitud. Se reduce rápidamente a mayor altura. (Mencionado en: cap. 4)
 
 **VFR (Reglas de vuelo visual / Visual Flight Rules)**
-: Conjunto de normas que rigen los vuelos operados con referencia visual constante al terreno, recayendo la responsabilidad de la separación en el principio de "ver y evitar" bajo mínimos meteorológicos visuales (VMC). (Mencionado en: cap. 2)
+: Reglas aplicables a vuelos realizados con referencias visuales y dentro de los mínimos meteorológicos y operativos correspondientes; la separación proporcionada por ATC depende de la clase de espacio aéreo y de los tráficos implicados.
 
 **WADA (World Anti-Doping Agency)**
 : Agencia Mundial Antidopaje. Organización internacional que regula y controla exhaustivamente el consumo de sustancias y dopaje en deportistas de competición, siendo los campeonatos de vuelo a vela sometidos también a este mismo estándar. (Mencionado en: cap. 2)

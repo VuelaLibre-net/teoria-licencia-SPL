@@ -16,10 +16,12 @@ rompe la compilación.
 
 ## [En curso]
 
-**Qué releer:** **Preliminares, página de licencia.** El temario no cambia.
+**Qué releer:** **Glosario:** PIC alineada con el libro 1. **Preliminares, página de licencia.** Normalizada la referencia a otro libro en `cap01`. El temario no cambia.
 
 ### Cambiado
 
+* **cap01** — referencia a otro libro: se completa el título donde antes solo aparecía separado por coma.
+* **Glosario** — definición de PIC normalizada con el glosario canónico del libro 1; retirada la etiqueta `(Mencionado en: ...)`.
 * **Licencia** — el libro pasa a **CC BY-SA 4.0**: mantiene atribución y añade la
   obligación de compartir las adaptaciones bajo la misma licencia o una compatible.
 

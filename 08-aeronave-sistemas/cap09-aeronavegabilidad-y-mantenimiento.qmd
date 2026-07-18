@@ -24,7 +24,7 @@ Para que un planeador despegue legalmente necesita dos documentos clave:
 Según **ML.A.901**, el ARC tiene validez anual, pero puede prorrogarse dos veces consecutivas (un año cada vez) sin revisión completa si la aeronave ha permanecido en un **entorno controlado**: gestión continua por una CAMO/CAO y mantenimiento hecho por organizaciones aprobadas. Tras esas dos prórrogas toca revisión de aeronavegabilidad completa.
 :::
 
-Este capítulo es el desarrollo técnico completo del CoA y el ARC; su vertiente jurídica —qué documentos son obligatorios a bordo y la responsabilidad legal de volar con ellos en vigor— se estudia en el **Libro 1 — Derecho aéreo**, capítulo 2.
+Este capítulo es el desarrollo técnico completo del CoA y el ARC; su vertiente jurídica —qué documentos son obligatorios a bordo y la responsabilidad legal de volar con ellos en vigor— se estudia en el **Libro 1 — Derecho Aéreo y Procedimientos de Control de Tránsito Aéreo (ATC)**, capítulo 2.
 
 ## Normativa EASA: Part-ML y Part-CAO
 

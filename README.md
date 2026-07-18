@@ -23,7 +23,7 @@ La biblioteca está organizada por asignaturas según el syllabus oficial de AES
 
 | # | Libro | Asignatura | Versión | Estado |
 | --- | --- | --- | --- | --- |
-| 1 | **`01-derecho-aereo-atc`** | Derecho Aéreo y Procedimientos de Control de Tránsito Aéreo (ATC) | `1.0-rc.6` | 🟡 En revisión |
+| 1 | **`01-derecho-aereo-atc`** | Derecho Aéreo y Procedimientos de Control de Tránsito Aéreo (ATC) | `1.0-rc.7` | 🟡 En revisión |
 | 2 | **`02-factores-humanos`** | Factores Humanos | `1.0-rc.5` | 🟡 En revisión |
 | 3 | **`03-meteorologia`** | Meteorología | `1.0-rc.5` | 🟡 En revisión |
 | 4 | **`04-comunicaciones`** | Comunicaciones | `1.0-rc.5` | 🟡 En revisión |

@@ -3,16 +3,16 @@
 Este glosario contiene las definiciones y acrónimos más relevantes de Conocimientos Generales de la Aeronave aplicables a la licencia de piloto de planeador (SPL).
 
 **AD (Directiva de Aeronavegabilidad / Airworthiness Directive)**
-: Orden de obligado cumplimiento emitida por EASA cuando se detecta una condición insegura en un tipo de aeronave. Si no se cumple en el plazo indicado, la aeronave queda automáticamente en tierra (AOG). (Mencionado en: cap. 9)
+: Abreviatura dependiente del contexto: una directiva de aeronavegabilidad es un requisito obligatorio para corregir una condición insegura; AD también identifica la sección de aeródromos del AIP.
 
 **Aerofrenos (Spoilers)**
 : Superficies móviles situadas generalmente en el extradós alar, accionadas por el piloto, cuya función es destruir la sustentación y aumentar la resistencia aerodinámica para controlar la senda de aproximación. (Mencionado en: cap. 5)
 
 **AFM (Manual de Vuelo / Aircraft Flight Manual)**
-: Documento maestro legalmente vinculado a la matrícula de la aeronave que recoge sus limitaciones (velocidades, factores de carga, pesos), procedimientos normales y de emergencia, datos de rendimiento y límites de centrado. En veleros se denomina también SFM (**Sailplane Flight Manual**) o GFM (**Glider Flight Manual**). (Mencionado en: cap. 8)
+: Documento aprobado que contiene las limitaciones, los procedimientos y los datos necesarios para operar la aeronave.
 
 **ARC (Certificado de Revisión de la Aeronavegabilidad / Airworthiness Review Certificate)**
-: Certificado de validez anual que confirma que la aeronave y sus registros han superado la revisión de aeronavegabilidad reglamentaria, acreditando que es segura para volar. (Mencionado en: cap. 9)
+: Certificado que acredita que la aeronave ha superado la revisión de aeronavegabilidad exigida y mantiene su validez durante el periodo aplicable.
 
 **Bail-out (Abandono del planeador)**
 : Procedimiento de emergencia que consiste en el salto en paracaídas desde una aeronave en vuelo cuando esta ya no es controlable o segura. (Mencionado en: cap. 13)
@@ -30,7 +30,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Conocimi
 : Punto teórico donde se considera aplicada la resultante de todas las fuerzas de gravedad que actúan sobre el planeador. Su ubicación longitudinal es clave para la estabilidad y el control del vuelo. (Mencionado en: cap. 4)
 
 **CoA (Certificado de Aeronavegabilidad)**
-: Documento generalmente vitalicio que certifica que la aeronave es conforme a su tipo certificado y apta para el vuelo, siempre que se mantenga adecuadamente y conserve un ARC en vigor. (Mencionado en: cap. 9)
+: Documento que certifica que una aeronave se ajusta al diseño aprobado y se considera apta para el vuelo mientras se mantenga aeronavegable y cumpla los requisitos aplicables.
 
 **Compensador (Trim)**
 : Dispositivo (de muelles o de pestaña aerodinámica) que alivia la presión que el piloto debe mantener sobre la palanca para conservar una velocidad determinada. Se acciona con el mando verde o un pulsador eléctrico. (Mencionado en: cap. 5)
@@ -39,7 +39,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Conocimi
 : Material formado por fibras (vidrio o carbono) embebidas en resina. Domina la construcción de planeadores modernos por su relación resistencia/peso y su acabado aerodinámico liso (GRP: fibra de vidrio; CRP: fibra de carbono). (Mencionado en: cap. 1)
 
 **CS-22 (Certification Specifications for Sailplanes)**
-: Norma de certificación de EASA específica para planeadores y motoveleros. Define, entre otros, los factores de carga de diseño (CS 22.337), el factor de seguridad (CS 22.303) y los requisitos de retención de masas en cabina (CS 22.561). (Mencionado en: cap. 2)
+: Especificaciones EASA aplicables al diseño y la certificación de planeadores y planeadores propulsados.
 
 **Cúpula (Canopy)**
 : Cubierta transparente de plexiglás de la cabina. Incorpora pestillos de bloqueo, ventilación y un mecanismo de suelta de emergencia que libera la cúpula completa para permitir el salto en paracaídas. (Mencionado en: cap. 1)
@@ -48,7 +48,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Conocimi
 : Sistema electrónico de suministro de oxígeno a demanda que detecta la inspiración del piloto y libera un pulso de oxígeno en ese instante, multiplicando la autonomía de la botella de oxígeno al interrumpir el flujo durante la exhalación. (Mencionado en: cap. 14)
 
 **ELT (Emergency Locator Transmitter)**
-: Baliza de emergencia instalada fijamente en la aeronave que se activa automáticamente por el impacto (o manualmente) y transmite en 406 MHz a la red satelital de búsqueda y rescate. (Mencionado en: cap. 14)
+: Baliza de aeronave destinada a transmitir una señal de emergencia y facilitar su localización.
 
 **Energía total (Variómetro de energía total / TE)**
 : Variómetro compensado (mediante sonda o antena TE) que descuenta las variaciones de altura provocadas por los cambios de velocidad del propio piloto, indicando únicamente el movimiento real de la masa de aire. (Mencionado en: cap. 6)
@@ -99,7 +99,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Conocimi
 : Masa máxima autorizada o certificada con la que el planeador puede iniciar el vuelo, determinada por límites estructurales y de rendimiento aerodinámico. (Mencionado en: cap. 4)
 
 **Part-ML**
-: Reglamento europeo de mantenimiento simplificado para aviación ligera (incluidos veleros). Permite al propietario declarar el programa de mantenimiento (AMP) y realizar tareas limitadas de piloto-propietario según su Apéndice II. (Mencionado en: cap. 9)
+: Parte del régimen europeo de aeronavegabilidad continuada aplicable a aeronaves ligeras, incluidos muchos planeadores.
 
 **PCC (Comprobación de mandos positiva / Positive Control Check)**
 : Verificación obligatoria tras el montaje del planeador en la que un asistente sujeta físicamente cada superficie de mando en el exterior mientras el piloto acciona los controles en cabina para verificar la integridad y correcto sentido del movimiento. (Mencionado en: cap. 7)
@@ -114,7 +114,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Conocimi
 : Proceso de ensamblaje del planeador (fuselaje, alas y estabilizador) con la conexión de sus superficies de mando. Fase crítica de seguridad que exige método, ausencia de distracciones y verificación final con PCC. (Mencionado en: cap. 7)
 
 **SB (Boletín de Servicio / Service Bulletin)**
-: Comunicación del fabricante con mejoras o inspecciones recomendadas para un modelo. No siempre es legalmente obligatorio, pero ignorarlo puede afectar a la seguridad y al valor de la aeronave. (Mencionado en: cap. 9)
+: Comunicación del fabricante con instrucciones, inspecciones o modificaciones cuya obligatoriedad depende del marco aplicable.
 
 **Sistema pitot-estática**
 : Conjunto de tomas de presión que alimenta los instrumentos básicos: el tubo Pitot mide la presión total (estática + dinámica) y las tomas estáticas, la presión ambiental. Su bloqueo (insectos, agua, hielo) deja al piloto sin indicación de velocidad y altura. (Mencionado en: cap. 6)
@@ -123,7 +123,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Conocimi
 : Motor auxiliar de baja potencia, generalmente de dos tiempos y escamoteable, incapaz de despegar por sí solo pero suficiente para mantener el vuelo y regresar a la base si fallan las térmicas. (Mencionado en: cap. 10)
 
 **TMG (Motovelero de turismo / Touring Motor Glider)**
-: Planeador propulsado equipado estructuralmente con motor y hélice no retráctil que le permiten el despegue autónomo y el crucero, compartiendo características con aviones ligeros. (Mencionado en: cap. 10)
+: Planeador propulsado equipado con motor y hélice no retráctiles que puede despegar y ascender por sus propios medios.
 
 **Transpondedor**
 : Equipo de a bordo que responde automáticamente a las interrogaciones del radar secundario (SSR) emitiendo un código **squawk** y, según el modo, la altitud barométrica o datos extendidos de identificación. Opera en la banda UHF (1.030/1.090 MHz), independientemente de la radio de voz. Imprescindible para ser visible por el TCAS de otros tráficos. (Mencionado en: cap. 6)

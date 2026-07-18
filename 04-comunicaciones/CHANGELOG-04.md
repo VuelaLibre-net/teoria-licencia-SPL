@@ -16,10 +16,11 @@ rompe la compilación.
 
 ## [En curso]
 
-**Qué releer:** **La entradilla de «Interceptación» y su recuadro de Seguridad** en el capítulo de
+**Qué releer:** **Glosario:** 16 definiciones alineadas con el libro 1. **La entradilla de «Interceptación» y su recuadro de Seguridad** en el capítulo de
 procedimientos de socorro y urgencia, más **Preliminares, página de licencia**. Cambia el matiz de
 un par de frases (la interceptación de un planeador pasa de «puede ocurrir» a «ya ha ocurrido», y se
 retira la nota de que el tema cae en el examen); el resto del apartado no cambia de contenido.
+Normalizadas las remisiones a otros libros en `cap06` y `cap07`: se añade el título completo a las referencias que lo omitían.
 
 ### Cambiado
 
@@ -27,6 +28,8 @@ retira la nota de que el tema cae en el examen); el resto del apartado no cambia
   frase sobre las preguntas de examen; añadida una coletilla al recuadro de Seguridad. Nueva
   ilustración de la serie 1 (`04-cap06-interceptacion-serie1.png`). Las tres señales del interceptor
   se marcan ahora como lista numerada de verdad (1/2/3), que antes era texto suelto.
+* **cap06**, **cap07** — referencias a otros libros: se completa el título donde antes solo aparecía el número.
+* **Glosario** — 16 definiciones (ATC, ATS, CAVOK, CTR, EOBT, FIS, OACI, QFE, QNH, RMZ, SAR, SERA, TMZ, TWR, VFR, VMC) normalizadas con el glosario canónico del libro 1; retiradas las etiquetas `(Mencionado en: ...)`.
 * **Licencia** — el libro pasa a **CC BY-SA 4.0**: mantiene atribución y añade la
   obligación de compartir las adaptaciones bajo la misma licencia o una compatible.
 

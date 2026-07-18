@@ -43,7 +43,7 @@ Aunque la normativa OACI define teóricamente las clases **B** y **F**, en la pr
 A veces el espacio es Clase G, libre, pero la autoridad quiere un poco de orden sin llegar a controlarlo todo. Para eso existen dos figuras:
 
 * **RMZ** (**Radio Mandatory Zone**): espacio no controlado donde es **obligatorio llevar radio y comunicar**. Antes de entrar debes decir quién eres, dónde estás y qué quieres.
-* **TMZ** (**Transponder Mandatory Zone**): es obligatorio llevar el **transponder** encendido y monitorizar la frecuencia de radio correspondiente.
+* **TMZ** (**Transponder Mandatory Zone**): es obligatorio llevar y operar el **transponder** con las capacidades exigidas. La escucha o comunicación por radio solo es obligatoria si la zona también es RMZ o si así se publica.
 
 ::: {.callout-tip title="Regla de oro"}
 Si ves una RMZ en el mapa, no entres mudo. Llama a la frecuencia indicada e informa: "Juliana Información, EC-OJE, planeador, entrando en RMZ sector norte…​".
@@ -55,7 +55,7 @@ El espacio aéreo puede tener "candados" por seguridad o defensa, marcados con c
 
 * **P** (**Prohibited**) - Prohibida: no se entra jamás. Piensa en el Palacio Real o en centrales nucleares.
 * **R** (**Restricted**) - Restringida: entrada sujeta a condiciones. Normalmente se puede pasar si está inactiva o con permiso especial (parques naturales, zonas de maniobras militares).
-* **D** (**Dangerous**) - Peligrosa: hay un peligro no específico (pruebas de explosivos, actividades de riesgo). Puedes entrar bajo tu responsabilidad, pero mejor evítalas (@fig-01-cap07-zonas-prd).
+* **D** (**Danger**) - Peligrosa: hay un peligro no específico (pruebas de explosivos, actividades de riesgo). Puedes entrar bajo tu responsabilidad, pero mejor evítalas (@fig-01-cap07-zonas-prd).
 
 ![Carta aeronáutica VFR mostrando zonas LEP141 (Prohibida, rojo, por central nuclear de Almaraz); LER170 y LER71C (Restringidas); LED125 (Peligrosa).](imagenes/01-cap07-zonas-prd.png){#fig-01-cap07-zonas-prd}
 
@@ -71,5 +71,5 @@ El cielo está dividido en "cajones" con distintas reglas. No entres sin permiso
 * **Clases controladas**: la clase A es solo IFR; en C y D el VFR necesita autorización ATC y comunicación bilateral; en E el VFR no necesita autorización ni radio obligatoria. La separación la garantiza ATC según la clase: IFR siempre, y puede incluir VFR en las clases más restrictivas.
 * **Clase G (no controlada)**: vuelas bajo tu responsabilidad, con "ver y evitar". Puedes recibir servicio de información de vuelo (FIS) si está disponible y lo solicitas, pero nadie te separa.
 * **Autorizaciones ATC**: una autorización o instrucción no elimina la responsabilidad del piloto al mando. Si no puedes cumplirla con seguridad, comunícalo de inmediato y coordina una alternativa segura.
-* **Zonas especiales**: en una **RMZ** es obligatorio llevar radio y contactar; en una **TMZ**, llevar el transponder encendido y mantener escucha en la frecuencia apropiada.
+* **Zonas especiales**: en una **RMZ** es obligatorio llevar radio y contactar; en una **TMZ**, llevar y operar el transponder según los requisitos publicados.
 :::

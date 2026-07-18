@@ -65,7 +65,7 @@ Esa frecuencia la escuchan continuamente los vuelos de líneas aéreas en crucer
 
 ## Interceptación: si un caza aparece a tu lado
 
-Un planeador rara vez provoca una interceptación (**interception**), pero alguna vez ya ha ocurrido: infringir una zona prohibida o restringida activa, cruzar un CTR sin autorización o aparecer como un eco sin identificar cerca de una zona sensible puede hacer que la defensa aérea envíe una aeronave militar a identificarte. El Libro 1 ya te avisa de ese riesgo al estudiar las zonas P y R; aquí aprenderás las señales y la respuesta correcta. No es un adorno del temario: la normativa exige llevar a bordo una copia de estas señales (SAO.GEN.155, véase el Libro 6, capítulo 1).
+Un planeador rara vez provoca una interceptación (**interception**), pero alguna vez ya ha ocurrido: infringir una zona prohibida o restringida activa, cruzar un CTR sin autorización o aparecer como un eco sin identificar cerca de una zona sensible puede hacer que la defensa aérea envíe una aeronave militar a identificarte. El **Libro 1 — Derecho Aéreo y Procedimientos de Control de Tránsito Aéreo (ATC)** ya te avisa de ese riesgo al estudiar las zonas P y R; aquí aprenderás las señales y la respuesta correcta. No es un adorno del temario: la normativa exige llevar a bordo una copia de estas señales (SAO.GEN.155, véase el **Libro 6 — Procedimientos Operativos**, capítulo 1).
 
 ### Las señales del interceptor
 
@@ -127,4 +127,3 @@ Un velero sin luces de navegación tiene pocas opciones de señalización: tu re
 * **Frecuencia recomendada**: La mejor frecuencia es aquella donde el vuelo ya está establecido en contacto. Si falla o no hay respuesta, pasar a la frecuencia internacional de emergencia 121.500 MHz.
 * **Interceptación (SERA.11015)**: interceptor alabeando por delante y a tu izquierda = «Sígame» (responde alabeando y siguiéndole); viraje ascendente brusco de 90° o más = «Prosiga»; tren desplegado y faros encendidos sobre la pista = «Aterrice en este aeródromo». Procedimiento: seguir las instrucciones visuales + notificar al ATS + llamada en 121,500 MHz + squawk 7700. **Las instrucciones del interceptor prevalecen sobre cualquier otra fuente, incluido el ATC**, mientras se solicita aclaración. A bordo debe llevarse copia de las señales (SAO.GEN.155).
 :::
-

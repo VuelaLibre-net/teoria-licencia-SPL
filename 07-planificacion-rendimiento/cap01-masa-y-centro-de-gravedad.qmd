@@ -62,7 +62,7 @@ CG = 107,50 / 350 = **+0,31 m**, dentro del rango permitido.
 
 Repite ahora el cálculo con un piloto de 60 kg. Su momento baja a −27,00 kg·m, el total queda en 325 kg y +118,75 kg·m, y el CG se va a +0,37 m, rozando el límite posterior: ese piloto necesita lastre en el morro antes de despegar. Fíjate en la lección del ejemplo: cuanto menos pesa el piloto, más atrás se va el CG, porque el asiento está por delante del *datum*.
 
-Los pesos y brazos de partida salen de la **ficha de pesaje** oficial del planeador, que se actualiza tras cada pesada o reparación mayor. El procedimiento de pesado y la documentación asociada se estudian en el **Libro 8 — Conocimientos generales de la aeronave**, capítulo 4.
+Los pesos y brazos de partida salen de la **ficha de pesaje** oficial del planeador, que se actualiza tras cada pesada o reparación mayor. El procedimiento de pesado y la documentación asociada se estudian en el **Libro 8 — Conocimientos Generales de la Aeronave, Estructura, Sistemas y Equipo de Emergencia**, capítulo 4.
 
 ## Gestión de la masa: MTOW y sobrecarga
 

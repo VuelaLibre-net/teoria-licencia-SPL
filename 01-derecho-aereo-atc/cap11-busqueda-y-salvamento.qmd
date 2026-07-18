@@ -28,9 +28,9 @@ Existen también **RSC** (subcentros) para zonas específicas.
 
 El SAR no sale a buscar "porque sí". Actúa escalonadamente según la gravedad, en fases que activa el ATC o el propio RCC:
 
-1. **INCERFA (Incertidumbre)**: "¿alguien sabe algo?". Por ejemplo, 30 minutos sin noticias. El RCC empieza a preguntar.
-2. **ALERFA (Alerta)**: "algo va mal". Por ejemplo, un fallo de comunicaciones confirmado. Se preparan los equipos SAR.
-3. **DETRESFA (Socorro)**: peligro grave. Una señal de baliza ELT, un accidente avistado. Despegan los medios: aviones y helicópteros (@fig-01-cap11-actuacion-accidente).
+1. **INCERFA (Fase de incertidumbre)**: existe incertidumbre sobre la seguridad de la aeronave y sus ocupantes. El RCC empieza a recabar información.
+2. **ALERFA (Fase de alerta)**: existe preocupación por la seguridad de la aeronave y sus ocupantes. Se preparan los equipos SAR.
+3. **DETRESFA (Fase de peligro)**: existe certeza razonable de peligro grave e inminente y de que se necesita ayuda inmediata. Despegan los medios: aviones y helicópteros (@fig-01-cap11-actuacion-accidente).
 
 ![Cadena de supervivencia en caso de accidente](imagenes/01-cap11-actuacion-accidente.jpg){#fig-01-cap11-actuacion-accidente}
 
@@ -63,8 +63,8 @@ Si volando interceptas una señal de socorro (visual o en 121.5 MHz):
 
 Si algo sale mal, el SAR te buscará. Conoce las fases:
 
-* **INCERFA (Incertidumbre)**: la aeronave no establece comunicaciones tras 30 minutos de intentos, llega 30 minutos después de su hora prevista, o hay dudas sobre su seguridad.
-* **ALERFA (Alerta)**: hay temor por la seguridad de la aeronave (se sabe que tiene dificultades), no aterriza dentro de los 5 minutos tras su ETA autorizado, o se presume interferencia ilícita (secuestro).
-* **DETRESFA (Socorro)**: peligro grave e inminente. Combustible agotado, posible aterrizaje forzoso o necesidad de ayuda inmediata.
+* **INCERFA (Fase de incertidumbre)**: existe incertidumbre sobre la seguridad de la aeronave y sus ocupantes.
+* **ALERFA (Fase de alerta)**: existe preocupación por la seguridad de la aeronave y sus ocupantes.
+* **DETRESFA (Fase de peligro)**: existe certeza razonable de peligro grave e inminente y de que se necesita ayuda inmediata.
 * **Señales tierra-aire**: **V** = necesito ayuda; **X** = necesito ayuda médica; **N** = no; **Y** = sí.
 :::
