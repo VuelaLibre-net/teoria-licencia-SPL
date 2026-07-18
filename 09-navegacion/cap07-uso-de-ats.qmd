@@ -32,7 +32,7 @@ El transpondedor es el equipo que permite a los radares del ATC "verte" e identi
 * **7500**: Interferencia ilícita (secuestro).
 
 ::: {.callout-warning title="Seguridad"}
-Si tu transpondedor está instalado y operativo, la práctica correcta es **mantenerlo encendido y en modo "ALT"** (transmisión de altitud) para que el radar te vea. Su uso es **obligatorio en las zonas de uso de transpondedor (TMZ) y allí donde lo exijan la clase de espacio aéreo o el AIP-España (ENR 1.6)** —las clases A y C lo requieren, y la D generalmente; véase la tabla del **Libro 1 — Derecho aéreo**, capítulo 7—, y muy recomendable en cualquier espacio con tráfico. Solo en planeadores con batería muy limitada cabe valorar apagarlo fuera de esos espacios, y siempre como decisión deliberada: **nunca en una TMZ, en espacio controlado ni en zonas de tráfico intenso**.
+Si tu transpondedor está instalado y operativo, la práctica correcta es **mantenerlo encendido y en modo "ALT"** (transmisión de altitud) para que el radar te vea. Su uso es **obligatorio en las zonas de uso de transpondedor (TMZ) y allí donde lo exijan la clase de espacio aéreo o el AIP-España (ENR 1.6)** —las clases A y C lo requieren, y la D generalmente; véase la tabla del **Libro 1 — Derecho Aéreo y Procedimientos de Control de Tránsito Aéreo (ATC)**, capítulo 7—, y muy recomendable en cualquier espacio con tráfico. Solo en planeadores con batería muy limitada cabe valorar apagarlo fuera de esos espacios, y siempre como decisión deliberada: **nunca en una TMZ, en espacio controlado ni en zonas de tráfico intenso**.
 :::
 
 ## El plan de vuelo (FPL)

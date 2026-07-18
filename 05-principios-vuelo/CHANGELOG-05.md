@@ -16,7 +16,11 @@ rompe la compilación.
 
 ## [En curso]
 
-**Qué releer:** **Preliminares, página de licencia.** El temario no cambia.
+**Qué releer:** **Preliminares, página de licencia.** Normalizadas las remisiones a otros libros en `cap02`. El temario no cambia.
+
+### Cambiado
+
+* **cap02** — referencias a otros libros: se completa el título donde antes solo aparecía el número.
 
 ### Cambiado
 

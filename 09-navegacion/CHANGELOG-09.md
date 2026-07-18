@@ -16,7 +16,12 @@ rompe la compilación.
 
 ## [En curso]
 
-**Qué releer:** **Preliminares, página de licencia.** El temario no cambia.
+**Qué releer:** **Glosario:** 8 definiciones alineadas con el libro 1. **Preliminares, página de licencia.** Normalizadas las remisiones a otros libros en `cap04` y `cap07`. El temario no cambia.
+
+### Cambiado
+
+* **cap04**, **cap07** — referencias a otros libros: se completa el título donde antes solo aparecía el número.
+* **Glosario** — 8 definiciones (AGL, AMSL, ATC, ATS, EOBT, FIS, SERA, TMZ) normalizadas con el glosario canónico del libro 1; retiradas las etiquetas `(Mencionado en: ...)`.
 
 ### Cambiado
 

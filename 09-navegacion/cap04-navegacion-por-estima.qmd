@@ -24,7 +24,7 @@ Todo en navegación por estima se resume en un triángulo vectorial compuesto po
 La suma vectorial de estos tres elementos es la base de todos los cálculos de este capítulo (véase @fig-09-cap04-triangulo-velocidades).
 
 ::: {.callout-note title="Airmanship"}
-No confundas las tres velocidades que entran en juego: la **IAS** (indicada) es la que marca el anemómetro; la **TAS** (verdadera) es la IAS corregida por densidad —crece aproximadamente un **2 % por cada 300 m** de altitud, unos 6,5-7 % por cada 1.000 m—; y la **GS** (suelo) es la TAS combinada con el viento. En navegación siempre razonamos con **TAS** y **GS**, nunca con la IAS a secas. (El **Libro 7 — Planificación** usa esta misma regla en su forma «2 % por 300 m».)
+No confundas las tres velocidades que entran en juego: la **IAS** (indicada) es la que marca el anemómetro; la **TAS** (verdadera) es la IAS corregida por densidad —crece aproximadamente un **2 % por cada 300 m** de altitud, unos 6,5-7 % por cada 1.000 m—; y la **GS** (suelo) es la TAS combinada con el viento. En navegación siempre razonamos con **TAS** y **GS**, nunca con la IAS a secas. (El **Libro 7 — Planificación y Rendimiento de Vuelo** usa esta misma regla en su forma «2 % por 300 m».)
 :::
 
 ![El triángulo de viento en navegación aérea](imagenes/09-cap04-triangulo-viento.jpg){#fig-09-cap04-triangulo-velocidades}

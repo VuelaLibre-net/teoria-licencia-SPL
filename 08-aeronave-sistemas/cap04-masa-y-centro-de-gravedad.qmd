@@ -43,7 +43,7 @@ Con el tiempo, las reparaciones, la pintura o los cambios de instrumentos altera
 ![Ejemplo de cálculo de peso y centrado](imagenes/08-cap04-calculo-cg.jpg){#fig-08-cap04-calculo-cg}
 
 ::: {.callout-note title="Airmanship"}
-El cálculo numérico de masa y centrado (datum, brazos y momentos) se desarrolla con un ejemplo completo de examen en el **Libro 7 — Planificación y rendimiento del vuelo**, capítulo 1. Aquí nos interesa la parte física: dónde está cada lastre y qué sistemas lo gestionan.
+El cálculo numérico de masa y centrado (datum, brazos y momentos) se desarrolla con un ejemplo completo de examen en el **Libro 7 — Planificación y Rendimiento de Vuelo**, capítulo 1. Aquí nos interesa la parte física: dónde está cada lastre y qué sistemas lo gestionan.
 :::
 
 ::: {.postit}

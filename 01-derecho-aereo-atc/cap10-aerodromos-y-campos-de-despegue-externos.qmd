@@ -55,7 +55,7 @@ El vuelo a vela no siempre empieza ni termina en un aeródromo. El syllabus incl
 
 * **Permiso del propietario del terreno**: despegar desde un campo externo exige el consentimiento previo de quien tiene la disponibilidad del terreno, además de cumplir las condiciones que fije la normativa nacional para vuelos fuera de aeródromo.
 * **Responsabilidad del piloto al mando**: eres responsable de verificar que el terreno es adecuado y la operación segura (dimensiones, obstáculos, personas ajenas). Un campo externo no tiene área de señales, ni servicio de información, ni nadie que haya inspeccionado la superficie por ti.
-* **Tras una toma fuera de campo**: la aeronave puede haber causado daños (cultivos, cercados) de los que respondes civilmente; el seguro obligatorio de responsabilidad civil cubre precisamente estos supuestos. Localiza al propietario, documenta el estado del terreno y acuerda la retirada del planeador — la parte operativa y de trato con el propietario se desarrolla en el Libro 6.
+* **Tras una toma fuera de campo**: la aeronave puede haber causado daños (cultivos, cercados) de los que respondes civilmente; el seguro obligatorio de responsabilidad civil cubre precisamente estos supuestos. Localiza al propietario, documenta el estado del terreno y acuerda la retirada del planeador — la parte operativa y de trato con el propietario se desarrolla en el **Libro 6 — Procedimientos Operativos**.
 
 ::: {.postit}
 **Resumen del capítulo: aeródromos**

@@ -46,13 +46,13 @@ Aquí la responsabilidad es **tuya**. El FIS te avisa ("tráfico a las 12"), per
 
 Tu seguro de vida. Se activa cuando hay una emergencia o se teme por la seguridad de una aeronave, y funciona en tres fases de preocupación creciente (@fig-01-cap08-fases-emergencia):
 
-1. **INCERFA (Fase de Incertidumbre)**: el "¿dónde estará?". Se empieza a recabar información. Se declara reglamentariamente ante cualquiera de estas tres situaciones:
+1. **INCERFA (Fase de incertidumbre)**: existe incertidumbre sobre la seguridad de la aeronave y sus ocupantes. Se empieza a recabar información. Se declara reglamentariamente ante cualquiera de estas tres situaciones:
   
   * **Falta de comunicación**: no se ha recibido ninguna comunicación de la aeronave en los 30 minutos siguientes a la hora prevista, o desde el primer intento fallido de contactarla (lo que ocurra primero).
   * **Retraso en la llegada**: la aeronave no llega en los 30 minutos siguientes a su hora prevista de llegada (ETA).
   * **Dudas sobre la seguridad**: existen sospechas o dudas fundamentadas sobre la seguridad de la aeronave y sus ocupantes.
-2. **ALERFA (Fase de Alerta)**: sigue sin haber noticias, o se sabe que hay problemas aunque no una catástrofe. Se avisa a los servicios de rescate (SAR) para que estén listos.
-3. **DETRESFA (Fase de Peligro/Socorro)**: accidente confirmado, combustible agotado o situación crítica inminente. Salen los medios de rescate: helicópteros y aviones SAR.
+2. **ALERFA (Fase de alerta)**: existe preocupación por la seguridad de la aeronave y sus ocupantes. Se avisa a los servicios de rescate (SAR) para que estén listos.
+3. **DETRESFA (Fase de peligro)**: existe certeza razonable de que la aeronave y sus ocupantes están amenazados por un peligro grave e inminente y necesitan ayuda inmediata. Salen los medios de rescate: helicópteros y aviones SAR.
 
 ![Fases de emergencia del Servicio de Alerta](imagenes/01-cap08-fases-emergencia.jpg){#fig-01-cap08-fases-emergencia}
 
@@ -60,7 +60,7 @@ Tu seguro de vida. Se activa cuando hay una emergencia o se teme por la segurida
 Si tienes una emergencia real y **NO** has presentado Plan de Vuelo ni estás en contacto radio, el Servicio de Alerta tardará mucho más en activarse (solo cuando tu familia avise de que no has vuelto). ¡Usa la radio y el Plan de Vuelo!
 :::
 
-Dos remisiones útiles dentro de la colección: las **señales luminosas** con las que una torre puede dirigirte sin radio se estudian en el **Libro 4 — Comunicaciones**, capítulo 7; y el **plan de vuelo**, que alimenta este servicio de alerta, en los Libros 4 (operativa), 7 (formulario) y 9 (uso de los ATS).
+Dos remisiones útiles dentro de la colección: las **señales luminosas** con las que una torre puede dirigirte sin radio se estudian en el **Libro 4 — Comunicaciones**, capítulo 7; y el **plan de vuelo**, que alimenta este servicio de alerta, en los Libros 4 — Comunicaciones (operativa), 7 — Planificación y Rendimiento de Vuelo (formulario) y 9 — Navegación (uso de los ATS).
 
 ## La gestión del tránsito aéreo (ATM)
 
