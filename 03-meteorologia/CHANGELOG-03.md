@@ -16,6 +16,8 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.6] — 18 de julio de 2026
+
 **Qué releer:** **Glosario:** CAVOK y QNH alineados con el libro 1. **Preliminares, página de licencia.** El temario no cambia.
 
 ### Cambiado

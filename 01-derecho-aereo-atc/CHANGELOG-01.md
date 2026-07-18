@@ -16,16 +16,11 @@ rompe la compilación.
 
 ## [En curso]
 
-**Qué releer:** Normalizadas las remisiones a otros libros en `cap02`, `cap06`, `cap08` y `cap10`. El temario no cambia —solo se añade el título completo a las referencias que lo omitían.
-
-### Cambiado
-
-* **cap02**, **cap06**, **cap08**, **cap10** — referencias a otros libros: se completa el título donde antes solo aparecía el número.
-
 ## [1.0-rc.7] — 18 de julio de 2026
 
-**Qué releer:** **Preliminares, página de licencia; Glosario completo; y cambios terminológicos
-puntuales en los capítulos 1, 2, 6, 7, 8, 9 y 11.**
+**Qué releer:** **Preliminares, página de licencia; Glosario completo; cambios terminológicos
+puntuales en los capítulos 1, 2, 6, 7, 8, 9 y 11; y remisiones a otros libros en `cap02`,
+`cap06`, `cap08` y `cap10`.**
 
 ### Cambiado
 
@@ -34,6 +29,8 @@ puntuales en los capítulos 1, 2, 6, 7, 8, 9 y 11.**
 * **Glosario y siglas aeronáuticas** — se corrigen expansiones y definiciones, se incorporan las
   siglas empleadas en el libro y se armonizan los usos de TMA, VFR, TMZ, NOTAM y las fases
   INCERFA/ALERFA/DETRESFA.
+* **cap02**, **cap06**, **cap08**, **cap10** — referencias a otros libros: se completa el título
+  donde antes solo aparecía el número.
 
 ### Estado en esta versión
 

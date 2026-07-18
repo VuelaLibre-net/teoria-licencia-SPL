@@ -16,6 +16,8 @@ rompe la compilación.
 
 ## [En curso]
 
+## [0.8.3] — 18 de julio de 2026
+
 **Qué releer:** **Glosario:** PIC alineada con el libro 1. **Preliminares, página de licencia.** Normalizada la referencia a otro libro en `cap01`. El temario no cambia.
 
 ### Cambiado

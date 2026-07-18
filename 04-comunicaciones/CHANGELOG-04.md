@@ -16,6 +16,8 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.6] — 18 de julio de 2026
+
 **Qué releer:** **Glosario:** 16 definiciones alineadas con el libro 1. **La entradilla de «Interceptación» y su recuadro de Seguridad** en el capítulo de
 procedimientos de socorro y urgencia, más **Preliminares, página de licencia**. Cambia el matiz de
 un par de frases (la interceptación de un planeador pasa de «puede ocurrir» a «ya ha ocurrido», y se

@@ -16,6 +16,8 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.6] — 18 de julio de 2026
+
 **Qué releer:** **Glosario** — 8 definiciones (AESA, AME, ATC, EASA, OACI, SPL, TMG, VFR) alineadas con el glosario del libro 1. **Preliminares, página de licencia.** El temario no cambia.
 
 ### Cambiado

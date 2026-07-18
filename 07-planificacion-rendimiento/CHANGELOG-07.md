@@ -16,6 +16,8 @@ rompe la compilación.
 
 ## [En curso]
 
+## [0.8.3] — 18 de julio de 2026
+
 **Qué releer:** **Preliminares, página de licencia.** Normalizadas las remisiones a otros libros en `cap01`. El temario no cambia.
 
 ### Cambiado
