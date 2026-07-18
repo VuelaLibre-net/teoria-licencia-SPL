@@ -1,4 +1,4 @@
-// Cajas de la página de créditos: la exención de responsabilidad, el aval y la
+// Cajas de la página de créditos: la exención de responsabilidad, la validación y la
 // banda con el nombre de la licencia.
 //
 // ⚠️ El import propio no es redundante. Quarto coloca los `include-in-header`
@@ -43,7 +43,7 @@
   ),
 )
 
-// El aval, en gris: es información institucional, no una advertencia.
+// La validación, en gris: es información institucional, no una advertencia.
 //
 // luma(243) es el mismo gris de «más allá del examen», y por el mismo motivo:
 // por encima de ~luma(235) el fondo compite con el texto en impresión y por
@@ -51,8 +51,7 @@
 //
 // Sin logotipo a propósito. El único disponible no es el de AESA sino la banda
 // entera del Estado (escudo + Ministerio + AESA), y afirmaría un respaldo más
-// amplio del que el propio texto acota: avala «el programa», y «el desarrollo
-// del contenido es responsabilidad exclusiva de los autores».
+// amplio que la validación de los temarios indicada en el texto.
 #let aval(body) = block(
   fill: luma(243),
   stroke: (left: 3pt + rgb("#0074D9")),

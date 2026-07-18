@@ -428,7 +428,7 @@ jobs:
           # dos líneas de más la parten en dos, y el segundo folio saldría con
           # cuatro líneas sueltas sin que nada protestara.
           #
-          # Se localiza por su título y se exige que la última frase del aval
+          # Se localiza por su título y se exige que la última frase de la validación
           # —lo último de la página— esté en esa MISMA página. Si se desborda,
           # cae a la siguiente y aquí se ve.
           pag=$(for n in $(seq 2 9); do

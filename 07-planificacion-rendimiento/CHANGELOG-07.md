@@ -16,6 +16,15 @@ rompe la compilación.
 
 ## [En curso]
 
+## [0.8.4] — 18 de julio de 2026
+
+**Qué releer:** **Preliminares, página de licencia.** El temario no cambia.
+
+### Cambiado
+
+* **Licencia** — la mención institucional pasa de «avalado por AESA» a «temarios validados por
+  AESA», siguiendo la formulación indicada por AESA.
+
 ## [0.8.3] — 18 de julio de 2026
 
 **Qué releer:** **Preliminares, página de licencia.** Normalizadas las remisiones a otros libros en `cap01`. El temario no cambia.
