@@ -32,11 +32,11 @@ Con un lenguaje directo —el del instructor veterano que te habla tomando un ca
 
 - **La atmósfera que vuelas** — No el modelo ISA de manual, sino el que encuentras cada mañana al salir del hangar: gradientes reales, altitudes de densidad, y por qué un día caluroso en un aeródromo elevado puede convertir el despegue en una pesadilla.
 
-- **El viento y sus trampas** — Desde la fuerza de Coriolis que explica por qué el viento en altura no va donde apuntan las isobaras, hasta las brisas anabáticas que marcan las mejores térmicas de la ladera sur, pasando por el efecto Foehn que puede subir la temperatura 15 °C en un valle de sotavento.
+- **El viento y sus trampas** — Desde la fuerza de Coriolis que explica por qué el viento no sopla en línea recta de la alta a la baja, sino casi paralelo a las isobaras, hasta las brisas anabáticas que marcan las mejores térmicas de la ladera sur, pasando por el efecto Foehn que puede dejar el valle de sotavento 10-15 °C más caliente que el de barlovento.
 
 - **Termodinámica práctica** — Cómo calcular la base de los cúmulos con una resta y una multiplicación antes de subir al planeador. Qué es una inversión térmica y por qué actúa como techo de cristal invisible. Qué dicen el K-Index, el CAPE y el LI sobre si el día será de récord o de tormenta vespertina.
 
-- **Nubes: el mapa que está siempre ahí** — Los cirros que anuncian frente cálido 24 horas antes. Las lenticulares que señalan onda de montaña —y el rotor asesino que esconden a baja altura. El Cumulonimbus del que debes alejarte 10-20 NM aunque el cielo a tus pies parezca azul.
+- **Nubes: el mapa que está siempre ahí** — Los cirros que anuncian el frente cálido horas o incluso días antes de que llegue. Las lenticulares que señalan onda de montaña —y el rotor asesino que esconden a baja altura. El Cumulonimbus del que debes alejarte 10-20 NM aunque el cielo a tus pies parezca azul.
 
 - **Precipitación: más allá de "llueve"** — Por qué las alas mojadas aumentan la velocidad de pérdida. Cómo el granizo nace dentro del Cb en capas de hielo, como una cebolla, y llega a superar los 2 cm de diámetro. La lluvia engelante que opaca tu cúpula en segundos. Y la virga —esa cortina de lluvia que no llega al suelo— que oculta el downburst más peligroso de la aproximación.
 
@@ -58,7 +58,7 @@ Para el **alumno que prepara el examen teórico AESA SPL** y quiere entender la 
 
 Para el **piloto licenciado** que quiere volar más lejos y con más criterio, sabiendo interpretar el entorno en lugar de confiar en el azar.
 
-Para **cualquier piloto VFR** que vuela en espacio aéreo donde la meteorología convectiva es protagonista: desde un ultraligero hasta un LAPL, la física del Cb no distingue tipos de licencia.
+Para **cualquier piloto VFR** que vuela donde la meteorología convectiva es protagonista: da igual que vueles un ultraligero o con una LAPL, la física del Cb no distingue tipos de licencia.
 
 ---
 
@@ -72,7 +72,7 @@ Las cajas de **SEGURIDAD**, **AIRMANSHIP** y **REGLA DE ORO** traducen la teorí
 
 **Syllabus:** EASA AMC1 SFCL.130 — Meteorología (MET)
 **Formato:** PDF · EPUB · MD
-**Licencia:** CC-BY-C 4.0
+**Licencia:** CC BY 4.0
 
 ---
 

@@ -34,19 +34,19 @@ Con el rigor de un manual de vuelo y el tono del instructor que ha vivido de pri
 
 - **Requisitos generales y documentación** — Los documentos que deben acompañarte en la cabina y los que pueden quedarse en el aeródromo. El chequeo IMSAFE como primer procedimiento del día. La responsabilidad del PIC que no se delega: si el planeador no está en condiciones o tú no estás al cien por cien, la decisión de no volar es tuya.
 
-- **Métodos de lanzamiento** — El remolque aerotransportado (*aerotow*): la secuencia de señales, las posiciones alta y baja de formación, la maniobra de desenganche y qué hacer si el remolcador no responde. El lanzamiento a torno (*winch*): las fases de la maniobra, la velocidad óptima de ascenso y el protocolo de un lanzamiento incompleto a baja altura. El auto-remolque (*self-launch*) para motoveleros.
+- **Métodos de lanzamiento** — El remolque aerotransportado (*aerotow*): la secuencia de señales, las posiciones alta y baja de formación, la maniobra de desenganche y qué hacer si el remolcador no responde. El lanzamiento a torno (*winch*): las fases de la maniobra, la ventana de velocidades de la trepada y el protocolo de un lanzamiento incompleto a baja altura. El autolanzamiento (*self-launch*) de los planeadores motorizados.
 
 - **Técnicas de planeo** — Vuelo termal: cómo centrar una térmica, cuándo cambiar de ascendente y cuándo abandonar un día que no da lo que prometía. Vuelo de onda: las señales que identifican la onda de montaña, las altitudes de trabajo y los riesgos del rotor bajo la lenticular. Vuelo de ladera (*ridge soaring*): las reglas de prioridad que evitan colisiones en la pared.
 
 - **Circuito de tráfico y aterrizaje** — La geometría del circuito, los puntos de reporte y las alturas de seguridad. La aproximación final: gestión de frenos aerodinámicos, velocidad de referencia y corrección del viento en final. El aterrizaje en campo corto, el aterrizaje con viento cruzado y qué hacer cuando el punto de toque no es donde esperabas.
 
-- **Aterrizaje fuera de campo** — La selección del campo desde el aire: los factores que determinan si un campo es apto y cuáles son los que matan a pilotos que no los comprueban. La aproximación a un campo desconocido. El briefing de pasajeros para un aterrizaje fuera de campo.
+- **Aterrizaje fuera de campo** — La selección del campo desde el aire: los factores que determinan si un campo es apto y cuáles son los que matan a pilotos que no los comprueban. La aproximación a un campo desconocido, la altura de decisión que se respeta sin excepciones y hasta el trato con el propietario del campo.
 
-- **Procedimientos especiales y peligros** — Vuelo en espacio aéreo restringido. Operaciones en aeródromos sin información de vuelo. Los peligros del vuelo en formación y las distancias mínimas de separación en competición.
+- **Procedimientos especiales y peligros** — La vigilancia anticolisión y la regla de los 3 segundos. El FLARM: qué detecta, qué no, y por qué nunca sustituye a la vista. Las estelas turbulentas —incluido el *downwash* de un helicóptero, capaz de volcar un planeador en tierra—, las aves, el viento cruzado y las reglas del vuelo en ladera, con su prohibición absoluta de virar hacia la montaña.
 
-- **Procedimientos de emergencia** — El motor de emergencia en los motoveleros. El fuego en vuelo y la evacuación de la cabina. El fallo del tren de aterrizaje y el aterrizaje sobre el fuselaje. La incapacitación del piloto y los procedimientos para el pasajero no piloto.
+- **Procedimientos de emergencia** — La rotura de cable y el gancho que no suelta. El fuego a bordo. El *flutter* y el bloqueo de mandos. El fallo de pitot o estática, la apertura involuntaria de la cúpula en vuelo y el vaciado asimétrico del lastre de agua.
 
-- **El paracaídas de emergencia** — Cuándo usarlo (y por qué esperar demasiado es el error más frecuente). La secuencia de salida de la cabina. La maniobra de apertura. Los escenarios de colisión en vuelo y de desestructuración de la aeronave para los que existe.
+- **El paracaídas de emergencia** — Cuándo usarlo, y cuándo no: mientras el planeador vuele de forma controlada, el sitio del piloto es la cabina. La altura mínima de abandono y por qué 150 metros es un umbral que no se puede reducir. La secuencia de salida de la cabina y la maniobra de apertura, para los escenarios de colisión en vuelo o fallo estructural para los que existe.
 
 ---
 
@@ -62,13 +62,13 @@ Para **cualquier instructor de vuelo** que necesita un referente actualizado del
 
 ### Por qué este manual es diferente
 
-Los manuales de procedimientos suelen ser listas de pasos sin contexto. Este libro explica el por qué de cada procedimiento: por qué la velocidad óptima en la ascensión a torno no es la máxima que el cable aguanta sino la que maximiza la altura alcanzada, por qué el campo fuera se elige con dos alternativas y nunca con una sola, por qué el paracaídas se despliega a una altura a la que todavía parece que no hace falta.
+Los manuales de procedimientos suelen ser listas de pasos sin contexto. Este libro explica el por qué de cada procedimiento: por qué en la trepada a torno se vuela entre 1,3 y 1,6 veces la velocidad mínima —y nunca por encima del límite que fija el manual de vuelo—, por qué la altura de decisión del campo fuera se respeta sin excepciones (buscar la «térmica de rescate» a baja altura es el patrón más documentado en los accidentes graves), por qué por debajo de 150 metros el paracaídas deja de ser una opción.
 
 Las cajas de **SEGURIDAD** señalan los puntos donde la desviación del procedimiento tiene consecuencias medidas en accidentes reales. Las de **AIRMANSHIP** añaden el criterio del piloto experimentado que la normativa no puede codificar.
 
 **Syllabus:** EASA AMC1 SFCL.130 — Procedimientos Operativos (OPS)
 **Formato:** PDF · EPUB · MD
-**Licencia:** CC-BY-C 4.0
+**Licencia:** CC BY 4.0
 
 ---
 
@@ -82,7 +82,7 @@ Las cajas de **SEGURIDAD** señalan los puntos donde la desviación del procedim
 
 Hay vuelos que salen clavados al plan. Y hay vuelos que no.
 
-Para esos otros (un lanzamiento que no tira, un campo fuera más corto de lo que prometía, un tren que se niega a bajar) la buena mano en los mandos no basta. Lo que salva el vuelo es el procedimiento correcto ejecutado a tiempo.
+Para esos otros (un cable que rompe a media trepada, un campo fuera más corto de lo que prometía, un gancho que se niega a soltar) la buena mano en los mandos no basta. Lo que salva el vuelo es el procedimiento correcto ejecutado a tiempo.
 
 Ocho capítulos van de la documentación previa al vuelo al paracaídas de emergencia, pasando por todos los métodos de lanzamiento, las técnicas de planeo y los escenarios para los que el piloto competente llega con la respuesta preparada.
 
@@ -93,7 +93,7 @@ La técnica te lleva al aire. Los procedimientos te traen de vuelta.
 ## Taglines alternativos
 
 - *"Del lanzamiento a torno al paracaídas de emergencia: cada procedimiento del vuelo sin motor explicado con su razón operativa."*
-- *"El aterrizaje fuera de campo, el fallo del motor en motovelero y la emergencia que no estaba en el plan: los procedimientos que distinguen al piloto preparado."*
+- *"El aterrizaje fuera de campo, la rotura de cable y la emergencia que no estaba en el plan: los procedimientos que distinguen al piloto preparado."*
 - *"Chequeo prevuelo, circuito, campo fuera y emergencias: el manual operativo que tu instructor lleva años diciéndote que estudies."*
 - *"Los procedimientos no son burocracia. Son las decisiones que ya tomaste antes de que el escenario de emergencia se presentara."*
 

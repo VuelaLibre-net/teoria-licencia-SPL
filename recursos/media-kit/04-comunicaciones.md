@@ -32,9 +32,9 @@ Con ejemplos de comunicaciones reales, scripts de conversaciones completas y la 
 
 - **Fundamentos y fraseología estándar** — Cómo se transmiten números, horas y frecuencias para que el receptor no pueda malinterpretarlos. La diferencia entre "Afirmo", "Wilco" y "Recibido" que muchos pilotos usan indistintamente (y no deberían). Por qué la brevedad en la frecuencia no es descortesía, sino seguridad compartida.
 
-- **La colación (*readback*)** — Por qué es obligatoria para autorizaciones de despegue, aterrizaje y cambios de frecuencia, y qué consecuencias tiene omitirla. Los elementos exactos que debes repetir y en qué orden. Por qué "Recibido" no es una colación válida para un QNH.
+- **La colación (*readback*)** — Por qué es obligatoria para autorizaciones, pista en uso, QNH, códigos de transpondedor y cambios de frecuencia, y qué consecuencias tiene omitirla. Los elementos exactos que debes repetir y en qué orden. Por qué "Recibido" no es una colación válida para un QNH.
 
-- **Aeródromos no controlados** — El tráfico en el que no hay torre: cómo anunciarse, en qué punto del circuito y con qué formato. Frecuencias AFIS y UNICOM. Qué hacer cuando dos aeronaves están haciendo la misma aproximación y ningún controlador va a resolverlo por ti.
+- **Aeródromos no controlados** — El tráfico en el que no hay torre: cómo anunciarse, en qué punto del circuito y con qué formato. El servicio AFIS y la disciplina de la frecuencia común del aeródromo. Qué hacer cuando dos aeronaves están haciendo la misma aproximación y ningún controlador va a resolverlo por ti.
 
 - **Aeródromos controlados** — La secuencia completa desde el primer contacto con la torre hasta el cruce de pista. Cómo solicitar rodaje, autorización de despegue e instrucciones de aproximación. Por qué nunca debes cruzar una pista sin autorización explícita, aunque la veas vacía.
 
@@ -44,7 +44,7 @@ Con ejemplos de comunicaciones reales, scripts de conversaciones completas y la 
 
 - **Fallo de comunicaciones** — Qué hacer cuando la radio deja de funcionar en espacio controlado. Los squawk codes de emergencia y de fallo de radio (7700, 7600). Los procedimientos visuales que sustituyen a la radio cuando el sistema falla.
 
-- **Procedimientos de socorro y urgencia** — El MAYDAY y el PAN-PAN: cuándo se usa cada uno, cómo se formula exactamente y qué esperar de la red de búsqueda y salvamento que se activa en ese momento. El momento en que la fraseología estándar sale por la ventana y lo único que importa es comunicar.
+- **Procedimientos de socorro y urgencia** — El MAYDAY y el PAN-PAN: cuándo se usa cada uno, cómo se formula exactamente y qué esperar de la red de búsqueda y salvamento que se activa en ese momento. Y por qué, si el estrés te borra el formato exacto, lo único imperdonable es no comunicar.
 
 - **Principios de propagación VHF** — Por qué a baja altura el controlador no te escucha aunque tu radio funcione perfectamente. La limitación de línea de visión, los repetidores y por qué siempre debes saber cuál es la frecuencia de emergencia.
 
@@ -70,7 +70,7 @@ Las cajas de **SEGURIDAD**, **NORMATIVA** y **REGLA DE ORO** señalan los puntos
 
 **Syllabus:** EASA AMC1 SFCL.130 — Comunicaciones (COM)
 **Formato:** PDF · EPUB · MD
-**Licencia:** CC-BY-C 4.0
+**Licencia:** CC BY 4.0
 
 ---
 
@@ -86,7 +86,7 @@ La radio bloquea a más alumnos que la propia pérdida aerodinámica. No porque 
 
 Una colación mal hecha y el controlador te dará por fuera de pista cuando sigues en ella. Una llamada de emergencia mal formulada y la respuesta SAR llega con los minutos de retraso que lo cambian todo.
 
-Nueve capítulos convierten la fraseología en un instrumento de vuelo más. Cuando lo dominas, deja de robarte atención y te la devuelve para lo que de verdad importa.
+Siete capítulos convierten la fraseología en un instrumento de vuelo más. Cuando lo dominas, deja de robarte atención y te la devuelve para lo que de verdad importa.
 
 ---
 

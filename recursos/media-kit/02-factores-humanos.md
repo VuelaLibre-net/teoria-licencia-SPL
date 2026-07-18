@@ -22,7 +22,7 @@ El **Libro 2 de Factores Humanos** del Manual SPL te enseña cómo funciona real
 
 ### El 90 % de los accidentes de vuelo a vela tienen un factor común: el piloto.
 
-Ni los materiales, ni la meteorología, ni el fallo mecánico: en nueve de cada diez accidentes en vuelo a vela el factor humano es la causa principal o un elemento determinante. No lo decimos para repartir culpas. Es, en el fondo, el dato más esperanzador de toda la estadística de seguridad: si el problema es el ser humano, el ser humano puede aprender a gestionarlo.
+Ni los materiales, ni la meteorología, ni el fallo mecánico: en nueve de cada diez accidentes en vuelo a vela el factor humano es la causa principal o un elemento contribuyente. No lo decimos para repartir culpas. Es, en el fondo, el dato más esperanzador de toda la estadística de seguridad: si el problema es el ser humano, el ser humano puede aprender a gestionarlo.
 
 El **Libro 2: Factores Humanos** parte de ahí. No hay pilotos perfectos; hay pilotos que conocen sus límites y los gestionan, y pilotos que no.
 
@@ -32,19 +32,19 @@ Con rigor técnico y sin condescendencia, este volumen cubre los cuatro bloques 
 
 - **Modelos conceptuales: SHELL y el queso suizo** — Por qué los accidentes nunca tienen una sola causa, sino una cadena de fallos que se alinean. Cómo el modelo del queso suizo de James Reason explica que basta con interrumpir un solo eslabón para salvar el vuelo. Y cómo el modelo SHELL te ayuda a ver las interfaces peligrosas entre tú, la máquina, el entorno y los demás.
 
-- **Toma de decisiones aeronáutica (ADM)** — El proceso de decisión bajo presión y por qué el cerebro toma atajos peligrosos cuando está saturado. Las trampas cognitivas más frecuentes: confirmación de hipótesis, continuación del plan, efecto halo. El modelo DECIDE como herramienta de decisión sistemática.
+- **Toma de decisiones aeronáutica (ADM)** — El proceso de decisión bajo presión y por qué el cerebro toma atajos peligrosos cuando está saturado. Las cinco actitudes peligrosas —y el antídoto de cada una—, la visión de túnel y la sobrecarga de atención. El modelo DECIDE como herramienta de decisión sistemática.
 
-- **Gestión de recursos en la cabina (CRM)** — La cultura justa (*just culture*) que distingue el error involuntario de la violación deliberada. Por qué reportar incidentes aunque nadie lo haya visto. Cómo la presión de grupo en el aeródromo empuja a despegar cuando la decisión correcta es quedarse en tierra.
+- **Cultura justa y gestión de recursos (SRM)** — La cultura justa (*just culture*) que distingue el error involuntario de la violación deliberada. Por qué reportar incidentes aunque nadie lo haya visto. Cómo la presión de grupo en el aeródromo empuja a despegar cuando la decisión correcta es quedarse en tierra. Y la gestión de recursos del piloto que vuela solo (SRM): usar el equipo, la información y la ayuda externa sin exceder tu propia capacidad.
 
 - **Conciencia situacional** — Qué es la pérdida de situación (*loss of situational awareness*) y cómo ocurre de forma silenciosa y progresiva. Las señales de alerta que tu cabeza te manda antes de que la situación sea irrecuperable.
 
-- **Fisiología aeronáutica** — Cómo la hipoxia te incapacita antes de que te des cuenta. Por qué la ilusión somatogravítica puede convencerte de que estás en horizontal cuando estás girando. Los efectos de la hiperventilación, la desorientación espacial y la fatiga acumulada en la precisión del pilotaje.
+- **Fisiología aeronáutica** — Cómo la hipoxia te incapacita antes de que te des cuenta. Por qué un viraje prolongado en térmica puede engañar a tu oído interno y convencerte de que vuelas nivelado cuando sigues girando. Los efectos de la hiperventilación, la desorientación espacial y la fatiga acumulada en la precisión del pilotaje.
 
 - **Psicología del piloto** — Estrés, fatiga y sus efectos en el rendimiento cognitivo. La curva de Yerkes-Dodson y por qué demasiado poco estrés es tan peligroso como demasiado. Los estados emocionales que no deberían llevarte a la cabina: duelo, conflicto, euforia no controlada.
 
-- **El chequeo IMSAFE** — La herramienta de autoevaluación previa al vuelo que puede parecer obvia y salva vidas cuando se aplica con honestidad. Illness, Medication, Stress, Alcohol, Fatigue, Emotion: seis preguntas que el piloto debe hacerse y responderse sin autoengaño.
+- **El chequeo IMSAFE** — La herramienta de autoevaluación previa al vuelo que puede parecer obvia y salva vidas cuando se aplica con honestidad. Illness, Medication, Stress, Alcohol, Fatigue, Eating: seis preguntas que el piloto debe hacerse y responderse sin autoengaño.
 
-- **Uso de oxígeno** — Cuándo es obligatorio y cuándo es recomendable. Los síntomas de hipoxia en cabina presurizada y en cabina abierta. Por qué el umbral de confort es muy diferente del umbral de seguridad.
+- **Uso de oxígeno** — Cuándo es obligatorio y cuándo es recomendable. Los síntomas de la hipoxia en la cabina de un planeador, que no está presurizada. Por qué el umbral de confort es muy diferente del umbral de seguridad.
 
 ---
 
@@ -68,7 +68,7 @@ Las cajas de **SEGURIDAD**, **AIRMANSHIP** y **REGLA DE ORO** convierten la psic
 
 **Syllabus:** EASA AMC1 SFCL.130 — Factores Humanos (HUM)
 **Formato:** PDF · EPUB · MD
-**Licencia:** CC-BY-C 4.0
+**Licencia:** CC BY 4.0
 
 ---
 

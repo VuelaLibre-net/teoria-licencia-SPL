@@ -30,7 +30,7 @@ Con el mismo tono directo del instructor que ha volado durante décadas y ha lle
 
 **Lo que encontrarás dentro:**
 
-- **El marco internacional** — El Convenio de Chicago (1944) y la OACI que lo sustenta: por qué los 193 estados miembros de la OACI comparten las mismas reglas y cómo eso te permite aterrizar con tus papeles en orden en cualquier aeródromo de Europa.
+- **El marco internacional** — El Convenio de Chicago (1944) y la OACI que lo sustenta: por qué los 193 estados miembros de la OACI comparten unos estándares mínimos comunes y cómo eso te permite aterrizar con tus papeles en orden en cualquier aeródromo de Europa.
 
 - **La arquitectura normativa EASA** — La diferencia entre un Reglamento de Ejecución (obligatorio) y un AMC (cómo cumplirlo). Por qué Part-SFCL regula tu licencia, Part-SAO tu operación, y SERA las reglas del aire. Y por qué confundir los tres niveles puede costarte la licencia.
 
@@ -40,17 +40,25 @@ Con el mismo tono directo del instructor que ha volado durante décadas y ha lle
 
 - **Licencias: tus derechos y sus límites** — Los privilegios exactos de la SPL, las condiciones de experiencia reciente, las habilitaciones (TMG, acrobacia, remolque), y qué pasa si tu médico te da la baja.
 
-- **Reglas del aire** — Las prioridades de paso que debes conocer de memoria (globos > planeadores > aviones de motor). Los mínimos VMC según el espacio aéreo. La regla del antichoque a la derecha que ha salvado vidas.
+- **Reglas del aire** — Las prioridades de paso que debes conocer de memoria (globos > planeadores > aviones de motor). Las reglas de prioridad en ladera y en el aterrizaje. La regla del antichoque a la derecha que ha salvado vidas.
 
-- **El espacio aéreo en España** — Clases A hasta G, altitudes, condiciones de entrada y quién te dice si puedes cruzar. Los ENR que afectan al vuelo de vela: zonas restringidas, peligrosas y prohibidas.
+- **El espacio aéreo en España** — Clases A hasta G, altitudes, condiciones de entrada y quién te dice si puedes cruzar. Las zonas restringidas, peligrosas y prohibidas que afectan al vuelo de vela.
 
-- **Servicios de tránsito aéreo (ATS/ATM)** — La diferencia entre información de vuelo, alerta y control. Cuándo el ATC te da instrucciones obligatorias y cuándo solo te da información. Cómo se gestiona un NOTAM.
+- **Servicios de tránsito aéreo (ATS/ATM)** — La diferencia entre información de vuelo, alerta y control. Cuándo el ATC te da instrucciones obligatorias y cuándo solo te da información.
 
-- **Aeródromos** — Categorías, indicadores de viento, señales en tierra y en pista. Lo que el marcador en T blanco en el suelo te está diciendo cuando te aproximas.
+- **Información aeronáutica (AIS)** — La diferencia entre AIP (lo permanente), NOTAM (lo urgente) y AIC (lo informativo). El deber legal de consultarlos antes de cada vuelo, y cómo ENAIRE Insignia pone las restricciones sobre el mapa.
 
-- **Búsqueda y salvamento (SAR)** — Las fases de incertidumbre, alerta y emergencia. Qué activa cada una, quién las activa y qué debes hacer tú para no protagonizar innecesariamente un operativo SAR.
+- **Procedimientos de navegación aérea** — Los mínimos VMC para volar visual y las excepciones que tenemos los planeadores. La regla semicircular para elegir altitud de crucero. La diferencia crítica entre QNH, QFE y QNE.
+
+- **Aeródromos** — Categorías, indicadores de viento, señales en tierra y en pista. Lo que la «T» de aterrizaje del área de señales te está diciendo cuando te aproximas.
+
+- **Seguridad (*security*)** — La diferencia entre evitar accidentes (*safety*) y prevenir actos ilícitos (*security*): cómo asegurar tu aeronave en tierra, comprobar que nadie la ha manipulado y qué artículos no pueden ir a bordo.
+
+- **Búsqueda y salvamento (SAR)** — Las fases de incertidumbre (INCERFA), alerta (ALERFA) y socorro (DETRESFA). Qué activa cada una, quién las activa y qué debes hacer tú para no protagonizar innecesariamente un operativo SAR.
 
 - **Notificación de accidentes e incidentes** — Cuándo tienes obligación de reportar, a quién, y por qué la cultura justa solo funciona si reportas incluso cuando el resultado fue favorable.
+
+- **Derecho nacional** — La Ley de Seguridad Aérea, el reparto de papeles entre la DGAC (que define la política) y AESA (que vigila su cumplimiento), y el régimen sancionador: qué infracción es leve, cuál es muy grave y qué consecuencias tiene cada una.
 
 ---
 
@@ -68,13 +76,13 @@ Para **cualquier piloto VFR** que vuela en España y necesita saber con precisi�
 
 No es un listado de artículos de reglamento con definiciones subrayadas. Es una explicación de por qué existen esas normas y qué consecuencias operativas tiene cada una.
 
-Cada capítulo traduce el lenguaje jurídico al lenguaje del hangar: no "SERA.3210 establece las prioridades de paso" sino "un planeador siempre tiene prioridad sobre un avión de motor —pero eso no te autoriza a confiar en que el otro te ha visto".
+Cada capítulo traduce el lenguaje jurídico al lenguaje del hangar: no "SERA.3210 establece las prioridades de paso" sino "en convergencia, el avión de motor te cede el paso —pero eso no te autoriza a confiar en que el otro te ha visto".
 
-Las cajas de **SEGURIDAD**, **NORMATIVA** y **REGLA DE ORO** separan la teoría de las decisiones concretas que tomas antes o durante el vuelo. El glosario al final recoge cada término con la definición exacta que pide el examen.
+Las cajas de **SEGURIDAD**, **NORMATIVA**, **REGLA DE ORO** y **AIRMANSHIP** separan la teoría de las decisiones concretas que tomas antes o durante el vuelo. El glosario al final recoge cada término con la definición precisa que necesitas para el examen.
 
 **Syllabus:** EASA AMC1 SFCL.130 — Derecho Aéreo y ATC (AIR LAW)
 **Formato:** PDF · EPUB · MD
-**Licencia:** CC-BY-C 4.0
+**Licencia:** CC BY 4.0
 
 ---
 

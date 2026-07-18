@@ -6,7 +6,7 @@
 
 > Un planeador no vuela por arte de magia. Vuela porque alguien entendió la física antes de sentarse en la cabina.
 
-El **Libro 5 de Principios de Vuelo** del Manual SPL te explica la aerodinámica que sostiene cada planeo, el equilibrio de fuerzas que mantiene el planeador estable, y los fenómenos —pérdida, barrena, picado en espiral— que un piloto debe entender para poder reconocerlos, anticiparlos y salir de ellos.
+El **Libro 5 de Principios de Vuelo** del Manual SPL te explica la aerodinámica que sostiene cada planeo, el equilibrio de fuerzas del planeo y la estabilidad que devuelve al planeador a su trayectoria, y los fenómenos —pérdida, barrena, picado en espiral— que un piloto debe entender para poder reconocerlos, anticiparlos y salir de ellos.
 
 ---
 
@@ -30,15 +30,15 @@ Con diagramas técnicos, analogías precisas y los escenarios de riesgo que esta
 
 **Lo que encontrarás dentro:**
 
-- **Aerodinámica del flujo de aire** — Cómo la diferencia de presión entre extradós e intradós genera sustentación (Bernoulli más Newton, porque ninguno basta solo). Qué es la capa límite laminar y por qué un mosquito aplastado en el borde de ataque puede costar varios puntos de fineza. La resistencia inducida y parásita, y cómo su suma dibuja la curva polar que rige cada decisión de velocidad en vuelo.
+- **Aerodinámica del flujo de aire** — Cómo la diferencia de presión entre extradós e intradós genera sustentación, y por qué la deflexión del aire hacia abajo (Newton) no es otra fuerza que se sume a la de Bernoulli, sino la misma sustentación contada de otra manera. Qué es la capa límite laminar y por qué un solo mosquito aplastado en el borde de ataque basta para provocar una transición prematura a capa turbulenta y degradar el rendimiento del perfil. La resistencia inducida y parásita, y cómo su suma dibuja la curva polar que rige cada decisión de velocidad en vuelo.
 
-- **Mecánica de vuelo** — Las cuatro fuerzas: sustentación, peso, empuje (el viento ascendente o la velocidad adquirida) y resistencia. La condición de equilibrio en planeo estacionario y por qué la fineza máxima no es la velocidad más lenta sino la más eficiente. El ángulo de planeo que maximiza la distancia y la velocidad que minimiza el descenso.
+- **Mecánica de vuelo** — Por qué sin motor la gravedad es tu único combustible: la componente del peso que hace de tracción cuando el morro baja, en equilibrio con la sustentación y la resistencia. La curva polar y por qué la fineza máxima no es la velocidad más lenta sino la más eficiente: la velocidad que maximiza la distancia frente a la que minimiza el descenso.
 
 - **Estabilidad** — La diferencia entre estabilidad estática y dinámica, y por qué un planeador puede ser estáticamente estable pero dinámicamente problemático. El efecto del diedro en la estabilidad lateral. Por qué el centro de gravedad debe estar siempre delante del límite posterior, y qué ocurre exactamente cuando no lo está.
 
 - **Control** — Cómo actúan alerones, timón de dirección y profundidad, y por qué coordinar los tres no es un lujo sino una necesidad. La guiñada adversa que generan los alerones y por qué el pie en los pedales no es opcional. El efecto del compensador de profundidad en el consumo de atención del piloto durante un vuelo largo.
 
-- **Limitaciones y maniobras** — El diagrama V-n y los factores de carga que definen los límites de maniobra del planeador. Las velocidades de diseño: VNE, VA, VB, VS1. Por qué nunca debes usar los controles en toda su extensión si superas VA.
+- **Limitaciones y maniobras** — El diagrama V-n y los factores de carga que definen los límites de maniobra del planeador. Las velocidades de diseño: VNE, VA, VRA y VD. Por qué nunca debes usar los controles en toda su extensión si superas VA.
 
 - **Pérdida y autorrotación** — El ángulo de ataque crítico: por qué la pérdida no depende de la velocidad sino del ángulo. La velocidad de pérdida aumentada en viraje y por qué la pérdida en la base del circuito es letal. La autorrotación: cómo entra el planeador en barrena (*spin*), los pasos exactos de recuperación y por qué la altura de recuperación es el dato que determina si vives para contarlo.
 
@@ -50,7 +50,7 @@ Con diagramas técnicos, analogías precisas y los escenarios de riesgo que esta
 
 Para el **alumno que prepara el examen teórico AESA SPL** y quiere entender por qué el planeador se comporta como se comporta, no memorizar definiciones que no conectan con lo que siente en la cabina.
 
-Para el **piloto licenciado** que ha volado cientos de horas pero nunca ha entendido del todo por qué el planeador tiende a subir el morro en un viraje apretado o qué está pasando exactamente cuando el hilo de lana se desvía.
+Para el **piloto licenciado** que ha volado cientos de horas pero nunca ha entendido del todo por qué en un viraje apretado la pérdida puede llegar con el morro en una actitud aparentemente normal, o qué está pasando exactamente cuando el hilo de lana se desvía.
 
 Para **cualquier piloto VFR** que vuela aeronaves de alta eficiencia donde la pérdida a baja velocidad y el picado en espiral son escenarios reales, no teóricos.
 
@@ -66,7 +66,7 @@ Las cajas de **SEGURIDAD** identifican los escenarios de riesgo estadístico rea
 
 **Syllabus:** EASA AMC1 SFCL.130 — Principios de Vuelo (PRIN)
 **Formato:** PDF · EPUB · MD
-**Licencia:** CC-BY-C 4.0
+**Licencia:** CC BY 4.0
 
 ---
 

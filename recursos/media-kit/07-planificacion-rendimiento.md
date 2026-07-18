@@ -60,13 +60,13 @@ Para **cualquier piloto que lleve años haciendo los cálculos de centrado a ojo
 
 La planificación de vuelo suele enseñarse como un ejercicio matemático desconectado del vuelo real. Aquí cada cálculo llega con el escenario de vuelo que lo hace imprescindible.
 
-El centrado fuera de límites no es un error administrativo: es el factor que puede hacer irrecuperable una barrena a doscientos metros. La velocidad de crucero subóptima no es una molestia menor: en un vuelo de 500 km puede significar aterrizar fuera de campo o cruzar la línea de llegada. El plan de vuelo ICAO no es burocracia: es el único registro que le dice a los servicios SAR dónde buscarte cuando no apareces.
+El centrado fuera de límites no es un error administrativo: es el factor que puede hacer irrecuperable una barrena a doscientos metros. La velocidad de crucero subóptima no es una molestia menor: en un vuelo de 500 km puede significar aterrizar fuera de campo o cruzar la línea de llegada. El plan de vuelo ICAO no es burocracia: es el registro oficial que le dice a los servicios SAR dónde buscarte cuando no apareces.
 
-Las cajas de **SEGURIDAD** y **REGLA DE ORO** dan los atajos de cálculo mental que no figuran en ningún manual de performance pero que los pilotos experimentados aplican en cada vuelo de distancia.
+Las cajas de **REGLA DE ORO** dan los atajos de cálculo mental que los pilotos experimentados aplican en cada vuelo de distancia; las de **SEGURIDAD** marcan los márgenes que no se negocian.
 
 **Syllabus:** EASA AMC1 SFCL.130 — Planificación y Rendimiento (PLN)
 **Formato:** PDF · EPUB · MD
-**Licencia:** CC-BY-C 4.0
+**Licencia:** CC BY 4.0
 
 ---
 
