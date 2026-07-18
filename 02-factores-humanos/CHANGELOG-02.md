@@ -16,7 +16,11 @@ rompe la compilación.
 
 ## [En curso]
 
-**Qué releer:** **Preliminares, página de licencia.** El temario no cambia.
+**Qué releer:** **Glosario** — 8 definiciones (AESA, AME, ATC, EASA, OACI, SPL, TMG, VFR) alineadas con el glosario del libro 1. El temario no cambia.
+
+### Cambiado
+
+* **Glosario** — 8 definiciones normalizadas contra el libro 1.
 
 ### Cambiado
 

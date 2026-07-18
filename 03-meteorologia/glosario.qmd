@@ -30,7 +30,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes de la meteo
 : Energía Potencial Convectiva Disponible. Cuantifica la flotabilidad acumulada de una parcela de aire desde la superficie hasta el nivel de equilibrio. Se representa como el área entre la curva de la parcela y la curva de estado en el sondeo termodinámico. Valores orientativos: < 500 J/kg (día débil), 1.000–2.500 J/kg (excelente), > 3.500 J/kg (convección severa probable). (Mencionado en: cap. 3, cap. 10)
 
 **CAVOK (Ceiling And Visibility OK)**
-: Término meteorológico aeronáutico que indica condiciones VFR óptimas: visibilidad horizontal de 10 km o más, ausencia de nubes por debajo de 5.000 ft (o la altitud mínima de sector, la mayor de ambas), ausencia de cumulonimbos (CB) o cúmulos en torre (TCU), y ausencia de fenómenos significativos. (Mencionado en: cap. 10)
+: Término de los informes meteorológicos que sustituye determinados datos de visibilidad, tiempo presente y nubes cuando se cumplen simultáneamente las condiciones establecidas.
 
 **Cizalladura (wind shear)**
 : Variación brusca de la velocidad y/o dirección del viento en una distancia corta, tanto en el plano horizontal como vertical. Especialmente peligrosa en la aproximación final, donde puede provocar una pérdida súbita de sustentación por caída de la velocidad indicada. (Mencionado en: cap. 9)
@@ -150,7 +150,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes de la meteo
 : Oscilación ondulatoria del flujo de aire que se genera a sotavento de una cordillera cuando el viento es perpendicular a la cresta, supera un umbral de velocidad y existe una capa estable a la altura de la cresta. Permite el ascenso laminar hasta grandes altitudes. Los altocúmulos lenticulares son su señal visual. Los rotores en la base son el principal peligro. (Mencionado en: cap. 4)
 
 **QNH**
-: Reglaje altimétrico que ajusta el altímetro para indicar la altitud sobre el nivel del mar en condiciones ISA. Es la referencia estándar para el vuelo VFR. (Mencionado en: cap. 1, cap. 10)
+: Reglaje que permite al altímetro indicar altitud y, en tierra, aproximadamente la elevación del punto considerado.
 
 **Rotor**
 : Vórtice turbulento de pequeña escala que se forma a sotavento del pie de una ladera o cordillera bajo la primera cresta de la onda de montaña. Genera turbulencia severa e impredecible a baja altura. Las nubes de rotor (**rotor clouds**) son estratos irregulares bajo la onda que señalan esta zona peligrosa. (Mencionado en: cap. 4, cap. 9)
