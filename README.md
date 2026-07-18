@@ -2,7 +2,7 @@
 
 [![Compilar Manuales SPL](https://github.com/VuelaLibre-net/teoria-licencia-SPL/actions/workflows/ci.yml/badge.svg)](https://github.com/VuelaLibre-net/teoria-licencia-SPL/actions/workflows/ci.yml)
 [![Licencia: CC BY-SA 4.0](https://img.shields.io/badge/Licencia-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/deed.es)
-[![Avalado por AESA](https://img.shields.io/badge/Programa-avalado%20por%20AESA-0057B7.svg)](https://www.seguridadaerea.gob.es/)
+[![Validado por AESA](https://img.shields.io/badge/Temarios-validados%20por%20AESA-0057B7.svg)](https://www.seguridadaerea.gob.es/)
 [![Syllabus AMC1 SFCL.130](https://img.shields.io/badge/Syllabus-AMC1%20SFCL.130%20(EASA--FCL)-003399.svg)](https://www.easa.europa.eu/)
 [![Quarto](https://img.shields.io/badge/Quarto-%E2%89%A5%201.9.17-75AADB.svg)](https://quarto.org/)
 [![Typst](https://img.shields.io/badge/Typst-0.15-239DAD.svg)](https://typst.app/)
@@ -23,15 +23,15 @@ La biblioteca está organizada por asignaturas según el syllabus oficial de AES
 
 | # | Libro | Asignatura | Versión | Estado |
 | --- | --- | --- | --- | --- |
-| 1 | **`01-derecho-aereo-atc`** | Derecho Aéreo y Procedimientos de Control de Tránsito Aéreo (ATC) | `1.0-rc.7` | 🟡 En revisión |
-| 2 | **`02-factores-humanos`** | Factores Humanos | `1.0-rc.6` | 🟡 En revisión |
-| 3 | **`03-meteorologia`** | Meteorología | `1.0-rc.6` | 🟡 En revisión |
-| 4 | **`04-comunicaciones`** | Comunicaciones | `1.0-rc.6` | 🟡 En revisión |
-| 5 | **`05-principios-vuelo`** | Principios de Vuelo | `0.8.3` | 🎨 Creando ilustraciones |
-| 6 | **`06-procedimientos-operativos`** | Procedimientos Operativos | `0.8.3` | 🎨 Creando ilustraciones |
-| 7 | **`07-planificacion-rendimiento`** | Planificación y Rendimiento de Vuelo | `0.8.3` | 🎨 Creando ilustraciones |
-| 8 | **`08-aeronave-sistemas`** | Conocimientos Generales de la Aeronave, Estructura, Sistemas y Equipo de Emergencia | `0.8.3` | 🎨 Creando ilustraciones |
-| 9 | **`09-navegacion`** | Navegación | `0.8.3` | 🎨 Creando ilustraciones |
+| 1 | **`01-derecho-aereo-atc`** | Derecho Aéreo y Procedimientos de Control de Tránsito Aéreo (ATC) | `1.0-rc.8` | 🟡 En revisión |
+| 2 | **`02-factores-humanos`** | Factores Humanos | `1.0-rc.7` | 🟡 En revisión |
+| 3 | **`03-meteorologia`** | Meteorología | `1.0-rc.7` | 🟡 En revisión |
+| 4 | **`04-comunicaciones`** | Comunicaciones | `1.0-rc.7` | 🟡 En revisión |
+| 5 | **`05-principios-vuelo`** | Principios de Vuelo | `0.8.4` | 🎨 Creando ilustraciones |
+| 6 | **`06-procedimientos-operativos`** | Procedimientos Operativos | `0.8.4` | 🎨 Creando ilustraciones |
+| 7 | **`07-planificacion-rendimiento`** | Planificación y Rendimiento de Vuelo | `0.8.4` | 🎨 Creando ilustraciones |
+| 8 | **`08-aeronave-sistemas`** | Conocimientos Generales de la Aeronave, Estructura, Sistemas y Equipo de Emergencia | `0.8.4` | 🎨 Creando ilustraciones |
+| 9 | **`09-navegacion`** | Navegación | `0.8.4` | 🎨 Creando ilustraciones |
 
 ### Estados editoriales
 

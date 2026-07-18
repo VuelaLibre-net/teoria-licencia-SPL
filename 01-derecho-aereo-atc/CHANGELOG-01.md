@@ -16,6 +16,15 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.8] — 18 de julio de 2026
+
+**Qué releer:** **Preliminares, página de licencia.** El temario no cambia.
+
+### Cambiado
+
+* **Licencia** — la mención institucional pasa de «avalado por AESA» a «temarios validados por
+  AESA», siguiendo la formulación indicada por AESA.
+
 ## [1.0-rc.7] — 18 de julio de 2026
 
 **Qué releer:** **Preliminares, página de licencia; Glosario completo; cambios terminológicos
