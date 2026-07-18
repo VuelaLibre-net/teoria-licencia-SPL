@@ -52,10 +52,10 @@ La aviación es una actividad que conlleva riesgos inherentes. Aunque se ha real
 * En caso de discrepancia con la normativa vigente publicada por AESA o EASA, prevalecerá siempre el texto legal oficial de la autoridad aeronáutica.
 :::
 
-## Aval {.unnumbered .unlisted}
+## Validación por AESA {.unnumbered .unlisted}
 
 ::: {.aval}
-El **programa de esta colección está avalado por AESA** (Agencia Estatal de Seguridad Aérea), la autoridad aeronáutica civil de España. Este aval certifica que el programa de formación teórica para la Licencia de Piloto de Planeador (SPL) es conforme al syllabus del AMC1 SFCL.130. El desarrollo del contenido es responsabilidad exclusiva de los autores.
+Los **temarios de esta colección han sido validados por AESA** (Agencia Estatal de Seguridad Aérea), la autoridad aeronáutica civil de España, en cuanto a su adecuación al syllabus del AMC1 SFCL.130 para la formación teórica de la Licencia de Piloto de Planeador (SPL). El desarrollo del contenido es responsabilidad exclusiva de los autores.
 :::
 
 :::
