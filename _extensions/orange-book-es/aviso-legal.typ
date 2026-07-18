@@ -7,7 +7,7 @@
 // definida aquí no vería los `fa-*` de aquel import. Sin esta línea, el render
 // muere con `unknown variable: fa-exclamation-triangle`. Importar dos veces el
 // mismo paquete no molesta.
-#import "@preview/fontawesome:0.5.0": fa-creative-commons, fa-creative-commons-by, fa-exclamation-triangle
+#import "@preview/fontawesome:0.5.0": fa-creative-commons, fa-creative-commons-by, fa-creative-commons-sa, fa-exclamation-triangle
 
 // La exención NO es una quinta admonition, y por eso no usa `::: {.callout-*}`.
 // La colección tiene 319 admonitions y exactamente cuatro títulos —Seguridad,
@@ -87,7 +87,7 @@
     columns: (auto, 1fr),
     gutter: 0.45cm,
     align(horizon, text(size: 15pt, fill: rgb("#0074D9"))[
-      #fa-creative-commons()#h(0.12em)#fa-creative-commons-by()
+      #fa-creative-commons()#h(0.12em)#fa-creative-commons-by()#h(0.12em)#fa-creative-commons-sa()
     ]),
     align(horizon, {
       set par(first-line-indent: 0em)

@@ -47,7 +47,7 @@ El altímetro del planeador es un barómetro: necesita una presión de referenci
 * El **QNH** es la presión atmosférica reducida al nivel medio del mar. Mételo en el altímetro y te dará **la altitud real** sobre el nivel del mar. Es el ajuste que usas en ruta y para respetar los límites verticales de los espacios aéreos (los techos de los CTR van en altitud QNH).
 * El **QFE** es la presión a la elevación del aeródromo. Con el QFE puesto, el altímetro marca **cero pies** en tierra: te indica altura sobre el campo, no altitud. En veleros casi no se usa ya, salvo en operaciones muy locales o acrobacia en aeródromo. El QNH es el ajuste de referencia en las comunicaciones ATS (@fig-04-cap04-qnh-qfe).
 
-![Comparación del altímetro con ajuste QNH y QFE](imagenes/04-cap04-qnh-qfe.jpg){#fig-04-cap04-qnh-qfe}
+![Comparación del altímetro con ajuste QNH y QFE](imagenes/04-cap04-qnh-qfe.png){#fig-04-cap04-qnh-qfe}
 
 ### La dualidad del viento: magnético frente a geográfico
 

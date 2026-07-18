@@ -65,5 +65,5 @@ Este manual es una **herramienta de apoyo al estudio**. No sustituye a la instru
 
 ## Licencia
 
-**CC BY 4.0.** Puedes copiar, redistribuir y adaptar, incluso comercialmente, citando la autoría. El programa de la colección está avalado por AESA; el desarrollo del contenido es responsabilidad exclusiva de los autores.
+**CC BY-SA 4.0.** Puedes copiar, redistribuir y adaptar, incluso comercialmente, citando la autoría y compartiendo las adaptaciones bajo la misma licencia o una compatible. El programa de la colección está avalado por AESA; el desarrollo del contenido es responsabilidad exclusiva de los autores.
 PIE

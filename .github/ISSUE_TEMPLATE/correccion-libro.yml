@@ -72,20 +72,14 @@ body:
       required: true
 
   - type: textarea
-    id: donde-dice
+    id: cambio-propuesto
     attributes:
-      label: Donde dice
-      description: Copia el texto actual, describe el error de formato o resume el problema observado.
-      placeholder: "Texto actual o descripción del problema..."
-    validations:
-      required: true
+      label: ¿Qué dice y qué debería decir?
+      description: Copia el texto actual o describe el problema, y debajo escribe la corrección o mejora propuesta.
+      placeholder: |
+        Dice: texto actual o descripción del problema...
 
-  - type: textarea
-    id: deberia-decir
-    attributes:
-      label: Debería decir
-      description: Escribe la corrección o la mejora propuesta.
-      placeholder: "Texto corregido o solución propuesta..."
+        Debería decir: texto corregido o solución propuesta...
     validations:
       required: true
 

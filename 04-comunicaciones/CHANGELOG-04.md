@@ -16,7 +16,31 @@ rompe la compilación.
 
 ## [En curso]
 
-Sin cambios desde la 1.0-rc.5.
+**Qué releer:** **La entradilla de «Interceptación» y su recuadro de Seguridad** en el capítulo de
+procedimientos de socorro y urgencia, más **Preliminares, página de licencia**. Cambia el matiz de
+un par de frases (la interceptación de un planeador pasa de «puede ocurrir» a «ya ha ocurrido», y se
+retira la nota de que el tema cae en el examen); el resto del apartado no cambia de contenido.
+
+### Cambiado
+
+* **Interceptación** (capítulo de socorro y urgencia) — reformulada la entradilla y retirada la
+  frase sobre las preguntas de examen; añadida una coletilla al recuadro de Seguridad. Nueva
+  ilustración de la serie 1 (`04-cap06-interceptacion-serie1.png`). Las tres señales del interceptor
+  se marcan ahora como lista numerada de verdad (1/2/3), que antes era texto suelto.
+* **Licencia** — el libro pasa a **CC BY-SA 4.0**: mantiene atribución y añade la
+  obligación de compartir las adaptaciones bajo la misma licencia o una compatible.
+
+### Maqueta y producción
+
+* **Figura QNH/QFE** (capítulo de términos meteorológicos) — nueva ilustración
+  (`04-cap04-qnh-qfe.png`, antes JPG). La anterior mezclaba altura y altitud e incluía un subsuelo
+  irrelevante; la nueva compara los dos altímetros de forma limpia (QNH → altitud sobre el mar,
+  QFE → altura con la aguja a cero).
+* **Señales luminosas de la Torre** (capítulo de fallo de comunicaciones) — el círculo de cada
+  señal se compone del color de la luz (verde o rojo); la luz blanca sigue como círculo hueco (○),
+  que sobre papel blanco es la única forma de representarla. Se marca con spans `.luz-verde`/
+  `.luz-roja` en el `.qmd`: los colorea `postit.lua` en el PDF y `epub-estilos.html` en el EPUB, y
+  `rag.lua` los desenvuelve para el Markdown del RAG. No cambia el texto ni lo que se estudia.
 
 ## [1.0-rc.5] — 17 de julio de 2026
 

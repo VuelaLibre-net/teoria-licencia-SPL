@@ -188,6 +188,18 @@ img.contracubierta {
   padding: 0;
 }
 
+/* Señales luminosas de la Torre: el círculo va del color de la luz. La luz
+ * blanca se deja como círculo hueco (○) en el propio texto y no lleva clase: un
+ * disco blanco sobre fondo blanco no se vería. Los mismos colores que usa
+ * postit.lua en el PDF; si cambia uno, cambia el otro. */
+.luz-verde {
+  color: #2e7d32;
+}
+
+.luz-roja {
+  color: #c62828;
+}
+
 /* Aviso de estado en el EPUB. En el PDF, el estado se ve con la marca de agua
  * diagonal y la nota de la portadilla; un EPUB no tiene página fija ni admite
  * marca, así que el aviso va como bloque destacado al principio del libro.

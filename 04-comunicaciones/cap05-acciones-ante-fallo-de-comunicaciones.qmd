@@ -37,19 +37,19 @@ Las señales luminosas de la Torre de Control están reguladas por el Reglamento
 
 **Señales para aeronaves en vuelo:**
 
-* ● **Luz verde fija**: Autorizado a aterrizar.
-* ● **Luz roja fija**: Ceda el paso a otras aeronaves y continúe en circuito de espera.
-* ●●● **Serie de destellos verdes**: Regrese para aterrizar.
-* ●●● **Serie de destellos rojos**: Aeródromo peligroso o inseguro, no aterrice.
+* [●]{.luz-verde} **Luz verde fija**: Autorizado a aterrizar.
+* [●]{.luz-roja} **Luz roja fija**: Ceda el paso a otras aeronaves y continúe en circuito de espera.
+* [●●●]{.luz-verde} **Serie de destellos verdes**: Regrese para aterrizar.
+* [●●●]{.luz-roja} **Serie de destellos rojos**: Aeródromo peligroso o inseguro, no aterrice.
 * ○○○ **Serie de destellos blancos**: Aterrice en este aeródromo.
-* ★ **Luz pirotécnica roja**: A pesar de las instrucciones previas, no aterrice por el momento.
+* [★]{.luz-roja} **Luz pirotécnica roja**: A pesar de las instrucciones previas, no aterrice por el momento.
 
 **Señales para aeronaves en tierra:**
 
-* ● **Luz verde fija**: Autorizado para despegar.
-* ● **Luz roja fija**: Alto.
-* ●●● **Serie de destellos verdes**: Autorizado para rodar.
-* ●●● **Serie de destellos rojos**: Apártese del área de aterrizaje en uso.
+* [●]{.luz-verde} **Luz verde fija**: Autorizado para despegar.
+* [●]{.luz-roja} **Luz roja fija**: Alto.
+* [●●●]{.luz-verde} **Serie de destellos verdes**: Autorizado para rodar.
+* [●●●]{.luz-roja} **Serie de destellos rojos**: Apártese del área de aterrizaje en uso.
 * ○○○ **Serie de destellos blancos**: Regrese al punto de partida en el aeródromo.
 
 ::: {.callout-tip title="Regla de oro"}

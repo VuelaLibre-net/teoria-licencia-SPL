@@ -42,7 +42,7 @@ Con ejercicios de cálculo reales, cartas aeronáuticas anotadas y los escenario
 
 - **Navegación en vuelo** — Los procedimientos de comprobación de posición en ruta: los checkpoints que deben coincidir con la carta y los que no coinciden y obligan a revisar el rumbo. La gestión de la incertidumbre cuando la visibilidad se reduce y los puntos de referencia desaparecen. El procedimiento de identificación de posición cuando la brújula y el GNSS discrepan.
 
-- **GNSS: ventajas y límites** — El GPS como herramienta de navegación: precisión, requisitos legales para su uso en vuelo, y las limitaciones que el piloto debe conocer antes de confiar en él. La dependencia del satélite en vuelo competitivo y por qué los mejores pilotos de distancia lo usan para confirmar, no para sustituir su navegación cartográfica.
+- **GNSS: ventajas y límites** — Cómo funciona el GPS y por qué necesita cuatro satélites para darte una posición en tres dimensiones. El datum WGS-84, el «idioma» geográfico que el receptor comparte con la carta. Los registradores IGC que validan récords y medallas FAI. Y las limitaciones y fuentes de error que el piloto debe conocer antes de confiar en él: el GPS se usa para confirmar, no para sustituir la navegación cartográfica.
 
 - **ATS y servicios de información en ruta** — Cómo usar los servicios de información de vuelo (FIS) durante un vuelo de distancia: qué información puedes pedir, cómo identificarte y por qué la frecuencia de información (*Information*) no es una frecuencia de emergencia ni un servicio de tráfico.
 
@@ -68,7 +68,7 @@ Las cajas de **SEGURIDAD** señalan los errores de navegación que han llevado a
 
 **Syllabus:** EASA AMC1 SFCL.130 — Navegación (NAV)
 **Formato:** PDF · EPUB · MD
-**Licencia:** CC-BY-C 4.0
+**Licencia:** CC BY-SA 4.0
 
 ---
 
@@ -91,9 +91,9 @@ La navegación en vuelo a vela no es saber dónde estás. Es saber siempre dónd
 ## Taglines alternativos
 
 - *"Carta, brújula, estima y GNSS: las cuatro herramientas de navegación que todo piloto de planeador necesita dominar antes de su primer vuelo de distancia."*
-- *"En un planeador sin motor, perder la orientación no es un problema menor. Este libro garantiza que no ocurra."*
+- *"En un planeador sin motor, perder la orientación no es un problema menor. Este libro te entrena para que no ocurra."*
 - *"El triángulo de velocidades, la declinación magnética y la lectura del espacio aéreo en la carta: navegación práctica para el piloto que vuela sin motor."*
-- *"El GPS puede fallar. La brújula, el reloj y la carta aeronáutica no. Este libro te enseña a usarlos."*
+- *"El GPS puede fallar. La brújula, el reloj y la carta aeronáutica no dependen de ningún satélite. Este libro te enseña a usarlos."*
 
 ---
 
