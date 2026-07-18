@@ -16,6 +16,10 @@ rompe la compilación.
 
 ## [En curso]
 
+### Maqueta y producción
+
+* **Marca de agua** — «CREANDO ILUSTRACIONES» se compone ahora en dos líneas para evitar que la palabra se rompa.
+
 ## [0.8.4] — 18 de julio de 2026
 
 **Qué releer:** **Preliminares, página de licencia.** El temario no cambia.

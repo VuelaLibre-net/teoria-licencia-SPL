@@ -376,12 +376,19 @@
   // Las cubiertas la desactivan con `foreground: none` en su propio page(): son
   // el diseño del libro y no deben llevarla.
   //
-  // La etiqueta más larga ("CREANDO ILUSTRACIONES") mide 683 pt a 52 pt, y en la
-  // diagonal de un A4 girado -38° caben 755 pt. Si se añade un estado con nombre
-  // más largo, hay que medirlo: si no cabe, se sale de la página.
+  // La etiqueta "CREANDO ILUSTRACIONES" se parte en dos líneas para que
+  // ninguna palabra se rompa. Las demás etiquetas ("EN REVISIÓN",
+  // "EN DESARROLLO") caben en una sola línea y se renderizan igual que antes.
   set page(foreground: if estado != none {
-    align(center + horizon, rotate(-38deg,
-      text(size: 52pt, weight: "black", fill: rgb(200, 30, 30, 23), upper(estado))))
+    let contenido = if estado == "Creando ilustraciones" {
+      stack(dir: ttb, spacing: 0.1em,
+        text(size: 52pt, weight: "black", fill: rgb(200, 30, 30, 23), "CREANDO"),
+        text(size: 52pt, weight: "black", fill: rgb(200, 30, 30, 23), "ILUSTRACIONES"),
+      )
+    } else {
+      text(size: 52pt, weight: "black", fill: rgb(200, 30, 30, 23), upper(estado))
+    }
+    align(center + horizon, rotate(-38deg, contenido))
   }) if estado != none
 
   set page(
