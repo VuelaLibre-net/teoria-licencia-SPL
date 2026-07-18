@@ -72,7 +72,7 @@ Las cajas de **SEGURIDAD**, **AIRMANSHIP** y **REGLA DE ORO** traducen la teorí
 
 **Syllabus:** EASA AMC1 SFCL.130 — Meteorología (MET)
 **Formato:** PDF · EPUB · MD
-**Licencia:** CC BY 4.0
+**Licencia:** CC BY-SA 4.0
 
 ---
 

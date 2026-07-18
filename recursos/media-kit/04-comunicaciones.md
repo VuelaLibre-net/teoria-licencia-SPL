@@ -70,7 +70,7 @@ Las cajas de **SEGURIDAD**, **NORMATIVA** y **REGLA DE ORO** señalan los puntos
 
 **Syllabus:** EASA AMC1 SFCL.130 — Comunicaciones (COM)
 **Formato:** PDF · EPUB · MD
-**Licencia:** CC BY 4.0
+**Licencia:** CC BY-SA 4.0
 
 ---
 

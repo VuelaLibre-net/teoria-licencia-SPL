@@ -82,7 +82,7 @@ Las cajas de **SEGURIDAD**, **NORMATIVA**, **REGLA DE ORO** y **AIRMANSHIP** sep
 
 **Syllabus:** EASA AMC1 SFCL.130 — Derecho Aéreo y ATC (AIR LAW)
 **Formato:** PDF · EPUB · MD
-**Licencia:** CC BY 4.0
+**Licencia:** CC BY-SA 4.0
 
 ---
 

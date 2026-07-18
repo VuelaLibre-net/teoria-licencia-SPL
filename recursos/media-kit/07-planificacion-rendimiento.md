@@ -66,7 +66,7 @@ Las cajas de **REGLA DE ORO** dan los atajos de cálculo mental que los pilotos 
 
 **Syllabus:** EASA AMC1 SFCL.130 — Planificación y Rendimiento (PLN)
 **Formato:** PDF · EPUB · MD
-**Licencia:** CC BY 4.0
+**Licencia:** CC BY-SA 4.0
 
 ---
 

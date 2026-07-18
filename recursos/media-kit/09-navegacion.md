@@ -68,7 +68,7 @@ Las cajas de **SEGURIDAD** señalan los errores de navegación que han llevado a
 
 **Syllabus:** EASA AMC1 SFCL.130 — Navegación (NAV)
 **Formato:** PDF · EPUB · MD
-**Licencia:** CC BY 4.0
+**Licencia:** CC BY-SA 4.0
 
 ---
 

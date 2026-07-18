@@ -16,7 +16,12 @@ rompe la compilación.
 
 ## [En curso]
 
-Sin cambios desde la 1.0-rc.6.
+**Qué releer:** **Preliminares, página de licencia.** El temario no cambia.
+
+### Cambiado
+
+* **Licencia** — el libro pasa a **CC BY-SA 4.0**: mantiene atribución y añade la
+  obligación de compartir las adaptaciones bajo la misma licencia o una compatible.
 
 ## [1.0-rc.6] — 17 de julio de 2026
 

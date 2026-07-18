@@ -17,9 +17,9 @@ rompe la compilación.
 ## [En curso]
 
 **Qué releer:** **La entradilla de «Interceptación» y su recuadro de Seguridad** en el capítulo de
-procedimientos de socorro y urgencia. Cambia el matiz de un par de frases (la interceptación de un
-planeador pasa de «puede ocurrir» a «ya ha ocurrido», y se retira la nota de que el tema cae en el
-examen); el resto del apartado no cambia de contenido.
+procedimientos de socorro y urgencia, más **Preliminares, página de licencia**. Cambia el matiz de
+un par de frases (la interceptación de un planeador pasa de «puede ocurrir» a «ya ha ocurrido», y se
+retira la nota de que el tema cae en el examen); el resto del apartado no cambia de contenido.
 
 ### Cambiado
 
@@ -27,6 +27,8 @@ examen); el resto del apartado no cambia de contenido.
   frase sobre las preguntas de examen; añadida una coletilla al recuadro de Seguridad. Nueva
   ilustración de la serie 1 (`04-cap06-interceptacion-serie1.png`). Las tres señales del interceptor
   se marcan ahora como lista numerada de verdad (1/2/3), que antes era texto suelto.
+* **Licencia** — el libro pasa a **CC BY-SA 4.0**: mantiene atribución y añade la
+  obligación de compartir las adaptaciones bajo la misma licencia o una compatible.
 
 ### Maqueta y producción
 

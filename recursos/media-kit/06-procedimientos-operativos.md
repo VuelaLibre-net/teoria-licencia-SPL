@@ -68,7 +68,7 @@ Las cajas de **SEGURIDAD** señalan los puntos donde la desviación del procedim
 
 **Syllabus:** EASA AMC1 SFCL.130 — Procedimientos Operativos (OPS)
 **Formato:** PDF · EPUB · MD
-**Licencia:** CC BY 4.0
+**Licencia:** CC BY-SA 4.0
 
 ---
 

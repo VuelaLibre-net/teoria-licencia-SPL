@@ -74,7 +74,7 @@ Las cajas de **SEGURIDAD** identifican los sistemas cuyo fallo tiene consecuenci
 
 **Syllabus:** EASA AMC1 SFCL.130 — Conocimientos Generales de la Aeronave (AGK)
 **Formato:** PDF · EPUB · MD
-**Licencia:** CC BY 4.0
+**Licencia:** CC BY-SA 4.0
 
 ---
 

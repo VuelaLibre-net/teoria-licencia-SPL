@@ -66,7 +66,7 @@ Las cajas de **SEGURIDAD** identifican los escenarios de riesgo estadístico rea
 
 **Syllabus:** EASA AMC1 SFCL.130 — Principios de Vuelo (PRIN)
 **Formato:** PDF · EPUB · MD
-**Licencia:** CC BY 4.0
+**Licencia:** CC BY-SA 4.0
 
 ---
 

@@ -68,7 +68,7 @@ Las cajas de **SEGURIDAD**, **AIRMANSHIP** y **REGLA DE ORO** convierten la psic
 
 **Syllabus:** EASA AMC1 SFCL.130 — Factores Humanos (HUM)
 **Formato:** PDF · EPUB · MD
-**Licencia:** CC BY 4.0
+**Licencia:** CC BY-SA 4.0
 
 ---
 

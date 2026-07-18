@@ -1,7 +1,7 @@
 # Colección de Manuales Teóricos SPL (Licencia de Piloto de Planeador) en Quarto
 
 [![Compilar Manuales SPL](https://github.com/VuelaLibre-net/teoria-licencia-SPL/actions/workflows/ci.yml/badge.svg)](https://github.com/VuelaLibre-net/teoria-licencia-SPL/actions/workflows/ci.yml)
-[![Licencia: CC BY 4.0](https://img.shields.io/badge/Licencia-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/deed.es)
+[![Licencia: CC BY-SA 4.0](https://img.shields.io/badge/Licencia-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/deed.es)
 [![Avalado por AESA](https://img.shields.io/badge/Programa-avalado%20por%20AESA-0057B7.svg)](https://www.seguridadaerea.gob.es/)
 [![Syllabus AMC1 SFCL.130](https://img.shields.io/badge/Syllabus-AMC1%20SFCL.130%20(EASA--FCL)-003399.svg)](https://www.easa.europa.eu/)
 [![Quarto](https://img.shields.io/badge/Quarto-%E2%89%A5%201.9.17-75AADB.svg)](https://quarto.org/)
