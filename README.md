@@ -6,10 +6,10 @@
 [![Syllabus AMC1 SFCL.130](https://img.shields.io/badge/Syllabus-AMC1%20SFCL.130%20(EASA--FCL)-003399.svg)](https://www.easa.europa.eu/)
 [![Quarto](https://img.shields.io/badge/Quarto-%E2%89%A5%201.9.17-75AADB.svg)](https://quarto.org/)
 [![Typst](https://img.shields.io/badge/Typst-0.15-239DAD.svg)](https://typst.app/)
-[![Formatos](https://img.shields.io/badge/Formatos-PDF%20%C2%B7%20EPUB-E44D26.svg)](#instrucciones-de-compilación)
+[![Formatos](https://img.shields.io/badge/Formatos-PDF%20%C2%B7%20EPUB%20%C2%B7%20MD%20para%20IA-E44D26.svg)](#instrucciones-de-compilación)
 
 `vuelo-a-vela` · `planeador` · `spl` · `easa-fcl` · `aesa` · `licencia-de-piloto` · `manual-de-formación` ·
-`temario-teórico` · `quarto` · `typst` · `epub` · `español`
+`temario-teórico` · `quarto` · `typst` · `epub` · `markdown-para-ia` · `rag` · `español`
 
 Este repositorio contiene la versión digitalizada de 9 libros que cubren el temario teórico para la obtención de la **Licencia de Piloto de Planeador (SPL)** bajo la regulación **EASA-FCL (European Union Aviation Safety Agency - Flight Crew Licensing)**, adaptada a los requerimientos de la **Agencia Estatal de Seguridad Aérea (AESA)** española.
 
