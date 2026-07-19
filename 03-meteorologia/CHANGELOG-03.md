@@ -16,6 +16,13 @@ rompe la compilación.
 
 ## [En curso]
 
+**Qué releer:** **cap02, recuadro de Seguridad sobre gradiente de viento; cap04, desarrollo vertical.** Se restaura texto que el importador perdió al migrar enlaces con cursiva interna.
+
+### Cambiado
+
+* **cap02** — se restituye la mención inglesa *wind shear* que faltaba en el recuadro sobre viento en superficie.
+* **cap04** — se restituye *Cúmulo Congestus* en la cadena de desarrollo vertical hacia Cumulonimbus.
+
 ## [1.0-rc.7] — 18 de julio de 2026
 
 **Qué releer:** **Preliminares, página de licencia.** El temario no cambia.

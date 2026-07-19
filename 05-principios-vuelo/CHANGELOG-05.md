@@ -16,6 +16,13 @@ rompe la compilación.
 
 ## [En curso]
 
+**Qué releer:** **cap02, velocidades de la polar; cap05, velocidad de maniobra.** Se corrige notación técnica que el importador dejó mal formada.
+
+### Cambiado
+
+* **cap02** — las velocidades V~z\ min~ y V~max\ planeo~ se escriben con subíndice real, no con virgulillas literales.
+* **cap05** — se restituye V~A~ en la definición inicial de velocidad de maniobra.
+
 ### Maqueta y producción
 
 * **Marca de agua** — «CREANDO ILUSTRACIONES» se compone ahora en dos líneas para evitar que la palabra se rompa.

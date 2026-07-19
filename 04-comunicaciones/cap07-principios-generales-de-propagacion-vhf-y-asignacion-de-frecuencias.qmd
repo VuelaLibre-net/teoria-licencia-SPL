@@ -82,7 +82,7 @@ Antes de cada travesía, anota las frecuencias de FIS de los sectores que atrave
 
 ## El transpondedor: identificación secundaria en vuelo
 
-El **transpondedor** (*XPDR*) responde automáticamente a los radares terrestres emitiendo un código de cuatro dígitos (). Así el controlador ve tu aeronave identificada en pantalla.
+El **transpondedor** (*XPDR*) responde automáticamente a los radares terrestres emitiendo un código de cuatro dígitos (*squawk*). Así el controlador ve tu aeronave identificada en pantalla.
 
 Llevarlo operativo es obligatorio dentro de una **TMZ** (*Transponder Mandatory Zone*) y allí donde lo exijan la clase de espacio aéreo o el AIP-España (ENR 1.6): las clases A y C lo requieren, y la D generalmente (véase la tabla del **Libro 1 — Derecho Aéreo y Procedimientos de Control de Tránsito Aéreo (ATC)**, capítulo 7). Fuera de esos espacios sigue siendo muy recomendable en cualquier zona con tráfico: si está instalado y operativo, la práctica correcta es llevarlo encendido y en modo ALT (transmisión de altitud).
 

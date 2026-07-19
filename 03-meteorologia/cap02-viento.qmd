@@ -30,7 +30,7 @@ Cerca del suelo (por debajo de esos 1.000 metros), entra en juego un tercer acto
 Al reducirse la velocidad del viento por esta fricción, el efecto de Coriolis (que depende de la velocidad) también disminuye. Sin embargo, la fuerza del gradiente de presión se mantiene intacta. Como Coriolis ya no puede contrarrestar del todo al gradiente, el viento en superficie se desvía y **cruza las isobaras hacia la baja presión** (típicamente con un ángulo de unos 30 grados respecto a las isobaras).
 
 ::: {.callout-warning title="Seguridad"}
-Debido a la fricción, cuando te acercas al suelo para aterrizar experimentarás el "gradiente de viento" ( en capa límite). En los últimos metros, el viento no solo será más flojo que en el circuito, sino que su dirección cruzará más hacia la baja presión. Debes mantener tu velocidad de aproximación con un margen de seguridad adecuado para evitar la pérdida de sustentación en la recogida (**flare**).
+Debido a la fricción, cuando te acercas al suelo para aterrizar experimentarás el "gradiente de viento" (*wind shear* en capa límite). En los últimos metros, el viento no solo será más flojo que en el circuito, sino que su dirección cruzará más hacia la baja presión. Debes mantener tu velocidad de aproximación con un margen de seguridad adecuado para evitar la pérdida de sustentación en la recogida (**flare**).
 :::
 
 ![Circulación a través de una calle de nubes](imagenes/03-cap02-calles-nubes.jpg){#fig-03-cap02-calles-nubes}

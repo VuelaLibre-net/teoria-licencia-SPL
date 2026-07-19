@@ -246,7 +246,7 @@ Cuando necesites cambiar de frecuencia, hay dos casos (@fig-04-cap02-cambio-frec
 
 ### El transpondedor en ruta: código *squawk*
 
-Si tu planeador tiene **transpondedor**, emite un código de cuatro dígitos () que el ATC usa para identificarte en pantalla. En VFR, el código por defecto es **7000**, salvo que el ATC te asigne uno distinto. Los códigos de emergencia los encontrarás en el capítulo 9.
+Si tu planeador tiene **transpondedor**, emite un código de cuatro dígitos (*squawk*) que el ATC usa para identificarte en pantalla. En VFR, el código por defecto es **7000**, salvo que el ATC te asigne uno distinto. Los códigos de emergencia los encontrarás en el capítulo 9.
 
 ::: {.callout-important title="Normativa"}
 Los códigos 7600 (fallo de radio) y 7700 (emergencia) activan alertas inmediatas en todos los centros de control. Selecciónelos únicamente ante la situación real que corresponda y extreme la precaución al cambiar de código para no activarlos accidentalmente.

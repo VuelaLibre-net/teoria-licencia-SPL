@@ -16,6 +16,14 @@ rompe la compilación.
 
 ## [En curso]
 
+**Qué releer:** **cap02, transpondedor; cap04, CAVOK; cap07, transpondedor.** Se restaura texto que el importador perdió al migrar enlaces con cursiva interna.
+
+### Cambiado
+
+* **cap02** — se restituye *squawk* como nombre del código de transpondedor.
+* **cap04** — se restituye la expansión *Ceiling and Visibility OK* de CAVOK.
+* **cap07** — se restituye *squawk* en la explicación del transpondedor.
+
 ## [1.0-rc.7] — 18 de julio de 2026
 
 **Qué releer:** **Preliminares, página de licencia.** El temario no cambia.
