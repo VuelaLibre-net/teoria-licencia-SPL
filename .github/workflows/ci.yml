@@ -200,6 +200,13 @@ jobs:
       # produjo un subíndice real.
       run: python3 .github/comprobar-subindices.py
 
+    - name: Comprobar que las fórmulas TeX no quedan como texto crudo
+      # El importador dejó restos como `\pm\pm`, `V_{cruzado}` o `\sqrt{H}`
+      # fuera de matemáticas. Quarto compila, pero los escritores los publican
+      # mal o pierden símbolos. Se mira el AST: dentro de Math es correcto,
+      # fuera de Math es una fórmula rota.
+      run: python3 .github/comprobar-tex.py
+
     - name: Comprobar que los CHANGELOG no parten sus listas
       # Una línea en blanco entre dos viñetas convierte la lista en «loose» y
       # Markdown la renderiza separada, como si la viñeta fuera de otra sección.
@@ -578,6 +585,15 @@ jobs:
           for resto in '<div' '<span' '^:::' '{{<' '?meta:' 'GUÍA-DE-LECTURA' '{#tbl-' '@fig-' '@tbl-'; do
             if grep -q -- "$resto" "$md"; then
               echo "::error file=$md::Queda '$resto' sin traducir en el Markdown para RAG"
+              errores=1
+            fi
+          done
+
+          # Pandoc escribe Math en gfm como $`TeX`$ si el filtro no lo convierte.
+          # Eso es sintaxis, no contenido útil para un RAG.
+          for resto in '$`' '\pm' '\alpha' '\times' '\cdot' '\cos' '\sin' '\sqrt' '\frac' '\circ' '_{'; do
+            if grep -Fq -- "$resto" "$md"; then
+              echo "::error file=$md::Queda TeX crudo '$resto' en el Markdown para RAG"
               errores=1
             fi
           done

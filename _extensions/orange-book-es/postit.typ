@@ -32,14 +32,13 @@
   below: 1.4em,
   breakable: true,
   {
-    // El cuerpo hereda la sangría de primera línea, que dentro de una caja
-    // descoloca el primer renglón contra el borde.
+    // set text en vez de text(): la variante función envuelve el contenido en
+    // un elemento de texto que interfiere con el motor matemático de Typst,
+    // impidiendo que \sqrt, \times y otros comandos se compongan en su fuente
+    // matemática (NewCMMath). Con set text, las propiedades se heredan en el
+    // ámbito pero el motor matemático sigue funcionando independientemente.
+    set text(font: "Libertinus Sans", size: 10.5pt, fill: rgb("#5D4037"))
     set par(first-line-indent: 0em)
-    text(
-      font: "Libertinus Sans",
-      size: 10.5pt,
-      fill: rgb("#5D4037"),
-      body,
-    )
+    body
   },
 )

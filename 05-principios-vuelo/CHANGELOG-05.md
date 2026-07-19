@@ -14,18 +14,22 @@ más antigua.
 exige que la versión en curso tenga su entrada aquí**: subir la versión sin registrar qué cambió
 rompe la compilación.
 
-## [En curso]
+## [0.8.5] — 19 de julio de 2026
 
-**Qué releer:** **cap02, velocidades de la polar; cap05, velocidad de maniobra.** Se corrige notación técnica que el importador dejó mal formada.
+**Qué releer:** **cap02, velocidades de la polar; cap05, velocidad de maniobra; cap06, pie de la figura de recuperación de barrena.** Se corrige notación técnica y se añade una advertencia de seguridad. **Preliminares, página de licencia.** Cambia el aviso de estado editorial. El temario no cambia.
 
 ### Cambiado
 
 * **cap02** — las velocidades V~z\ min~ y V~max\ planeo~ se escriben con subíndice real, no con virgulillas literales.
 * **cap05** — se restituye V~A~ en la definición inicial de velocidad de maniobra.
+* **cap06** — se añade «pero ¡Consulta el manual de TU planeador!» al pie de la figura de recuperación de barrena como advertencia de seguridad.
 
 ### Maqueta y producción
 
 * **Marca de agua** — «CREANDO ILUSTRACIONES» se compone ahora en dos líneas para evitar que la palabra se rompa.
+* **Licencia** — el aviso de «Creando ilustraciones» añade «NO HA SIDO REVISADO» para dejar claro que el texto aún no ha pasado revisión técnica.
+
+## [En curso]
 
 ## [0.8.4] — 18 de julio de 2026
 

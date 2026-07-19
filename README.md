@@ -25,13 +25,13 @@ La biblioteca está organizada por asignaturas según el syllabus oficial de AES
 | --- | --- | --- | --- | --- |
 | 1 | **`01-derecho-aereo-atc`** | Derecho Aéreo y Procedimientos de Control de Tránsito Aéreo (ATC) | `1.0-rc.8` | 🟡 En revisión |
 | 2 | **`02-factores-humanos`** | Factores Humanos | `1.0-rc.7` | 🟡 En revisión |
-| 3 | **`03-meteorologia`** | Meteorología | `1.0-rc.7` | 🟡 En revisión |
-| 4 | **`04-comunicaciones`** | Comunicaciones | `1.0-rc.7` | 🟡 En revisión |
-| 5 | **`05-principios-vuelo`** | Principios de Vuelo | `0.8.4` | 🎨 Creando ilustraciones |
-| 6 | **`06-procedimientos-operativos`** | Procedimientos Operativos | `0.8.4` | 🎨 Creando ilustraciones |
-| 7 | **`07-planificacion-rendimiento`** | Planificación y Rendimiento de Vuelo | `0.8.4` | 🎨 Creando ilustraciones |
-| 8 | **`08-aeronave-sistemas`** | Conocimientos Generales de la Aeronave, Estructura, Sistemas y Equipo de Emergencia | `0.8.4` | 🎨 Creando ilustraciones |
-| 9 | **`09-navegacion`** | Navegación | `0.8.4` | 🎨 Creando ilustraciones |
+| 3 | **`03-meteorologia`** | Meteorología | `1.0-rc.8` | 🟡 En revisión |
+| 4 | **`04-comunicaciones`** | Comunicaciones | `1.0-rc.8` | 🟡 En revisión |
+| 5 | **`05-principios-vuelo`** | Principios de Vuelo | `0.8.5` | 🎨 Creando ilustraciones |
+| 6 | **`06-procedimientos-operativos`** | Procedimientos Operativos | `0.8.5` | 🎨 Creando ilustraciones |
+| 7 | **`07-planificacion-rendimiento`** | Planificación y Rendimiento de Vuelo | `0.8.5` | 🎨 Creando ilustraciones |
+| 8 | **`08-aeronave-sistemas`** | Conocimientos Generales de la Aeronave, Estructura, Sistemas y Equipo de Emergencia | `0.8.5` | 🎨 Creando ilustraciones |
+| 9 | **`09-navegacion`** | Navegación | `0.8.5` | 🎨 Creando ilustraciones |
 
 ### Estados editoriales
 

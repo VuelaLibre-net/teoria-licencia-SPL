@@ -156,6 +156,31 @@ local function Span(s)
   return s
 end
 
+-- gfm escribe Math inline como $`TeX`$, que para un RAG es ruido. Convertimos
+-- sólo las construcciones que usa la colección a texto plano legible.
+local function Math(m)
+  local t = m.text
+  t = t:gsub("([%a]+)_%{([^}]+)%}", "%1_%2")
+  t = t:gsub("\\mathrm%s*%{([^}]+)%}", "%1")
+  t = t:gsub("\\sqrt%s*%{([^}]+)%}", "√%1")
+  t = t:gsub("%^{\\circ}", "°")
+  t = t:gsub("%^\\circ", "°")
+  t = t:gsub("%{,%}", ",")
+  t = t:gsub("\\frac%s*%{([^{}]+)%}%s*%{([^{}]+)%}", "(%1) / %2")
+  t = t:gsub("\\times", "×")
+  t = t:gsub("\\cdot", "·")
+  t = t:gsub("\\pm", "±")
+  t = t:gsub("\\alpha", "α")
+  t = t:gsub("\\qquad", ";")
+  t = t:gsub("\\sin", "sin")
+  t = t:gsub("\\cos", "cos")
+  t = t:gsub("sinα", "sin α")
+  t = t:gsub("cosα", "cos α")
+  t = t:gsub("\\ ", " ")
+  t = t:gsub("%s+", " ")
+  return pandoc.Str(t)
+end
+
 -- La imagen no llega al RAG; su pie sí informa. Los contadores de esta pasada
 -- son otros, pero recorren el árbol en el mismo orden que los de `numerar()`,
 -- así que dan los mismos números.
@@ -205,6 +230,7 @@ function Pandoc(doc)
     Header = Header,
     Div = Div,
     Span = Span,
+    Math = Math,
     Figure = Figure,
     Table = Table,
     Cite = Cite,

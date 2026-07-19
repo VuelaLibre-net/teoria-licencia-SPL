@@ -139,7 +139,7 @@ estado_libro = $$(v=$(call version_libro,$(1)); \
 
 nota_libro = $$(case "$(call estado_libro,$(1))" in \
 	"En revisión") echo "Edición pendiente de revisión técnica por instructores. El contenido puede cambiar antes de la versión definitiva." ;; \
-	"Creando ilustraciones") echo "El texto está completo; las ilustraciones aún se están elaborando." ;; \
+	"Creando ilustraciones") echo "El texto está completo pero NO HA SIDO REVISADO y las ilustraciones aún se están elaborando." ;; \
 	"En desarrollo") echo "Texto e ilustraciones en elaboración. Contenido provisional, sujeto a cambios." ;; \
 	*) echo "" ;; esac)
 
