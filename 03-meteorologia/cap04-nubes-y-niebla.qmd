@@ -33,7 +33,7 @@ Para el vuelo a vela no todos pesan igual: los cúmulos marcan las térmicas, el
 
 ## Peligros asociados al desarrollo vertical
 
-   En condiciones de alta inestabilidad atmosférica y humedad, un cúmulo puede continuar su desarrollo y evolucionar a  y, finalmente, transformarse en un **Cumulonimbus (Cb)**.
+En condiciones de alta inestabilidad atmosférica y humedad, un cúmulo puede continuar su desarrollo y evolucionar a *Cúmulo Congestus* y, finalmente, transformarse en un **Cumulonimbus (Cb)**.
 
 El Cumulonimbus abarca una notable extensión vertical, culminando a menudo, al alcanzar la tropopausa, con un tope en forma de yunque. Esta configuración contiene energía masiva capaz de comprometer gravemente la seguridad del vuelo. Los riesgos asociados incluyen:
 

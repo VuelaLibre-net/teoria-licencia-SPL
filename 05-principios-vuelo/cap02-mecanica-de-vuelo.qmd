@@ -16,8 +16,8 @@ La velocidad te da el mando del planeador; la altura es tu reserva de energía. 
 
 La curva polar es el DNI de rendimiento de tu planeador. Muestra la relación entre velocidad (km/h) y tasa de descenso (m/s) en aire en calma. Conocerla es obligatorio, porque de ella salen las dos velocidades clave para operar (@fig-05-cap02-curva-polar):
 
-* **Velocidad de mínimo descenso (V~z min~):** está en el pico superior de la curva (el punto del eje Y más próximo a cero). Volando a esta velocidad pierdes la mínima altura por unidad de tiempo, así que es la que maximiza tu permanencia en el aire. Es tu referencia al virar de forma pronunciada dentro del núcleo de una térmica o en una espera.
-* **Velocidad de máximo planeo (V~max planeo~, también llamada de mejor planeo o de fineza):** se obtiene trazando una tangente desde el origen de coordenadas (0,0) hasta tocar la curva. Da la mejor relación entre distancia avanzada y altura perdida. Es la velocidad para las transiciones limpias y para conseguir el mayor recorrido posible sobre el terreno.
+* **Velocidad de mínimo descenso (V~z\ min~):** está en el pico superior de la curva (el punto del eje Y más próximo a cero). Volando a esta velocidad pierdes la mínima altura por unidad de tiempo, así que es la que maximiza tu permanencia en el aire. Es tu referencia al virar de forma pronunciada dentro del núcleo de una térmica o en una espera.
+* **Velocidad de máximo planeo (V~max\ planeo~, también llamada de mejor planeo o de fineza):** se obtiene trazando una tangente desde el origen de coordenadas (0,0) hasta tocar la curva. Da la mejor relación entre distancia avanzada y altura perdida. Es la velocidad para las transiciones limpias y para conseguir el mayor recorrido posible sobre el terreno.
 
 ![La curva polar de velocidades de un planeador](imagenes/05-cap02-curva-polar.jpg){#fig-05-cap02-curva-polar}
 
@@ -27,12 +27,12 @@ El coeficiente de planeo (L/D) expresa cuántos metros avanza el planeador por c
 
 En el aire real, las cifras del manual se quedan en teoría: el viento y las masas de aire en movimiento obligan a ajustar las velocidades.
 
-* **Viento de cara:** con viento en contra, el avance sobre el terreno disminuye aunque mantengas la misma velocidad aerodinámica. Vuela más rápido que la V~max planeo~: como regla práctica, suma un 50% de la componente frontal del viento a tu velocidad de transición (@fig-05-cap02-curva-polar-viento-de-cara).
+* **Viento de cara:** con viento en contra, el avance sobre el terreno disminuye aunque mantengas la misma velocidad aerodinámica. Vuela más rápido que la V~max\ planeo~: como regla práctica, suma un 50% de la componente frontal del viento a tu velocidad de transición (@fig-05-cap02-curva-polar-viento-de-cara).
 
 ![La curva polar de velocidades de un planeador con viento de cara](imagenes/05-cap02-curva-polar-viento-de-cara.png){#fig-05-cap02-curva-polar-viento-de-cara}
 
-* **Viento de cola:** con viento a favor, el terreno avanza más deprisa de lo que la polar indica. Puedes volar algo más despacio que la V~max planeo~ en calma, pero nunca por debajo de la V~z min~. No es un ajuste grande; el margen sobre la pérdida siempre tiene prioridad.
-* **Aire descendente:** cuando atraviesas una masa de aire que baja, tu tasa de descenso real aumenta en esa misma cantidad. La velocidad óptima de cruce sube por encima de la V~max planeo~: vuela más rápido para salir cuanto antes de esa zona y limitar la altura perdida en ella.
+* **Viento de cola:** con viento a favor, el terreno avanza más deprisa de lo que la polar indica. Puedes volar algo más despacio que la V~max\ planeo~ en calma, pero nunca por debajo de la V~z\ min~. No es un ajuste grande; el margen sobre la pérdida siempre tiene prioridad.
+* **Aire descendente:** cuando atraviesas una masa de aire que baja, tu tasa de descenso real aumenta en esa misma cantidad. La velocidad óptima de cruce sube por encima de la V~max\ planeo~: vuela más rápido para salir cuanto antes de esa zona y limitar la altura perdida en ella.
 
 ::: {.callout-note title="Airmanship"}
 Acostúmbrate a planificar los tramos finales y las tomas fuera de aeródromo con el L/D del manual recortado. Contar con la mitad del valor publicado en el Manual de Vuelo (AFM) te protege de quedarte bajo y corto cuando se suman el viento de cara, el aire que baja y la suciedad o los mosquitos acumulados en el borde de ataque, que merman el rendimiento más de lo que parece.
@@ -40,7 +40,7 @@ Acostúmbrate a planificar los tramos finales y las tomas fuera de aeródromo co
 
 ### El lastre de agua y la curva polar
 
-Algunos planeadores llevan depósitos de agua en las alas. El lastre no cambia la forma del ala: simplemente pesa más, y eso empuja la curva polar hacia la derecha. La V~max planeo~ y la V~z min~ suben, y la tasa de descenso mínima también sube un poco.
+Algunos planeadores llevan depósitos de agua en las alas. El lastre no cambia la forma del ala: simplemente pesa más, y eso empuja la curva polar hacia la derecha. La V~max\ planeo~ y la V~z\ min~ suben, y la tasa de descenso mínima también sube un poco.
 
 ¿Para qué sirve? En un día de térmicas fuertes con largas etapas entre ellas, el planeador lastrado cruza más rápido manteniendo el mismo planeo; en regata eso se traduce en minutos ganados. El precio: en térmicas débiles sube peor, porque necesita más velocidad y el círculo se come más altura. Antes de aterrizar, el lastre se larga.
 
@@ -75,6 +75,6 @@ El patrón más letal de la estadística de accidentes en planeador es siempre e
 * **El motor es la gravedad**: el planeador siempre cae a través de la masa de aire. Convertimos altura (energía potencial) en velocidad (cinética) bajando el morro. La componente del peso hacia adelante actúa como "tracción".
 * **La curva polar**: es el DNI del planeador. Relaciona velocidad horizontal con tasa de caída. Te dice a qué velocidad volar para llegar más lejos (máximo planeo) o para mantenerte más tiempo (mínimo descenso).
 * **Eficiencia (L/D)**: la fineza. Un planeador 35:1 avanza 35 km por cada kilómetro de altura en aire calmo. Pero ojo: el viento de cara y las descendencias destruyen ese número en la práctica. Ajusta la velocidad de transición según el viento (más rápido con viento de cara y en aire descendente; algo más despacio con viento de cola) y descuenta siempre un margen de seguridad del L/D publicado.
-* **Lastre de agua**: desplaza la polar a la derecha: suben la V~max planeo~ y la V~z min~. Ventajoso en condiciones fuertes y largas transiciones; penaliza en térmicas débiles. Se larga antes del aterrizaje.
+* **Lastre de agua**: desplaza la polar a la derecha: suben la V~max\ planeo~ y la V~z\ min~. Ventajoso en condiciones fuertes y largas transiciones; penaliza en térmicas débiles. Se larga antes del aterrizaje.
 * **Factor de carga (n)**: en giros o maniobras bruscas, el peso aparente aumenta (n > 1g) y con él la velocidad de pérdida. Recuerda: en un viraje de 60° pesas el doble (2g) y tu velocidad de pérdida sube un 41%.
 :::

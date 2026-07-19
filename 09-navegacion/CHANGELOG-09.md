@@ -14,11 +14,22 @@ más antigua.
 exige que la versión en curso tenga su entrada aquí**: subir la versión sin registrar qué cambió
 rompe la compilación.
 
-## [En curso]
+## [0.8.5] — 19 de julio de 2026
+
+**Qué releer:** **cap04, navegación por estima.** Se restauran las fórmulas de rumbos, deriva, velocidad suelo y tiempo que la migración dejó duplicadas o eliminó. **Preliminares, página de licencia.** Cambia el aviso de estado editorial.
+
+### Cambiado
+
+* **cap04** — las fórmulas `stem` originales se restituyen como matemáticas Quarto: cadena TC→TH→MH→CH, ejemplo de variación y desvío, componentes del viento, deriva, velocidad suelo, tiempo/distancia/velocidad y resumen.
 
 ### Maqueta y producción
 
 * **Marca de agua** — «CREANDO ILUSTRACIONES» se compone ahora en dos líneas para evitar que la palabra se rompa.
+* **Licencia** — el aviso de «Creando ilustraciones» añade «NO HA SIDO REVISADO» para dejar claro que el texto aún no ha pasado revisión técnica.
+* **Post-it** — se cambia `text()` por `set text` para que las matemáticas dentro de los post-it funcionen con el motor matemático de Typst.
+* **RAG** — se añade un filtro `Math` en `rag.lua` que convierte las fórmulas TeX a texto legible en el Markdown para RAG.
+
+## [En curso]
 
 ## [0.8.4] — 18 de julio de 2026
 

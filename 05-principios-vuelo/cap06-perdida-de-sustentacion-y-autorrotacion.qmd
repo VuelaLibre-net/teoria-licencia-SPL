@@ -58,7 +58,7 @@ La salida de una barrena exige una técnica metódica, contraintuitiva y aprendi
 2. **Palanca al centro y adelante:** centra los alerones (neutro lateral) y empuja la palanca hacia adelante para reducir el ángulo de ataque y romper la pérdida profunda en ambas alas por igual.
 3. **Recuperación del picado:** en cuanto cese la rotación, **neutraliza el pedal** antes de tirar de la palanca. Si mantienes el pedal contrario aplicado mientras recuperas del picado, la guiñada resultante puede iniciar una rotación en sentido opuesto. Una vez centrados los pedales, tira **gradualmente** de la palanca para salir del picado con suavidad progresiva: una recuperación brusca puede sobrecargar la estructura o provocar una segunda pérdida.
 
-![Método estándar de recuperación de una barrena (método universal)](imagenes/05-cap06-recuperacion-barrena.png){#fig-05-cap06-recuperacion-barrena}
+![Método estándar de recuperación de una barrena (método universal, pero ¡Consulta el manual de TU planeador!)](imagenes/05-cap06-recuperacion-barrena.png){#fig-05-cap06-recuperacion-barrena}
 
 ::: {.postit}
 **Resumen del capítulo: pérdida y autorrotación**

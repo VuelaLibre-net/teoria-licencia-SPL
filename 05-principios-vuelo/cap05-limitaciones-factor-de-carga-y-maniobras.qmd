@@ -18,7 +18,7 @@ Bajo la normativa CS-22, los planeadores de categoría Utility (U) están diseñ
 
 ## Velocidad de maniobra (V~A~)
 
-La velocidad de maniobra (V es la velocidad máxima a la que puedes aplicar deflexiones totales en los mandos sin causar daños estructurales.
+La velocidad de maniobra (V~A~) es la velocidad máxima a la que puedes aplicar deflexiones totales en los mandos sin causar daños estructurales.
 
 Si vuelas a la V~A~ o por debajo de ella y aplicas una deflexión brusca a los mandos, el planeador simplemente **entrará en pérdida** antes de generar suficientes Gs para superar su límite de carga estructural. El ala dejará de volar y descargará la fuerza, protegiendo al planeador.
 Sin embargo, si vuelas más rápido que la V~A~ y haces un movimiento brusco, el planeador no entrará en pérdida a tiempo; generará una fuerza G extrema que sobrepasará los límites de la estructura y la romperá.
