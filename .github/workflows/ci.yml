@@ -192,6 +192,14 @@ jobs:
       # sabe.
       run: python3 .github/comprobar-negrita.py
 
+    - name: Comprobar que los subíndices de velocidad no quedan literales
+      # `V~A~` funciona, pero `V~max planeo~` no: Pandoc no admite espacios sin
+      # escapar dentro del subíndice y lo publica tal cual. Es una errata de
+      # maqueta con contenido técnico: el lector ve la sintaxis Markdown en vez
+      # de la velocidad. Se comprueba también el AST para confirmar que Pandoc
+      # produjo un subíndice real.
+      run: python3 .github/comprobar-subindices.py
+
     - name: Comprobar que los CHANGELOG no parten sus listas
       # Una línea en blanco entre dos viñetas convierte la lista en «loose» y
       # Markdown la renderiza separada, como si la viñeta fuera de otra sección.
