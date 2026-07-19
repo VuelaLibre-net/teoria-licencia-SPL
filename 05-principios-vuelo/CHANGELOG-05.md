@@ -14,6 +14,8 @@ más antigua.
 exige que la versión en curso tenga su entrada aquí**: subir la versión sin registrar qué cambió
 rompe la compilación.
 
+## [En curso]
+
 ## [0.8.5] — 19 de julio de 2026
 
 **Qué releer:** **cap02, velocidades de la polar; cap05, velocidad de maniobra; cap06, pie de la figura de recuperación de barrena.** Se corrige notación técnica y se añade una advertencia de seguridad. **Preliminares, página de licencia.** Cambia el aviso de estado editorial. El temario no cambia.
@@ -28,8 +30,6 @@ rompe la compilación.
 
 * **Marca de agua** — «CREANDO ILUSTRACIONES» se compone ahora en dos líneas para evitar que la palabra se rompa.
 * **Licencia** — el aviso de «Creando ilustraciones» añade «NO HA SIDO REVISADO» para dejar claro que el texto aún no ha pasado revisión técnica.
-
-## [En curso]
 
 ## [0.8.4] — 18 de julio de 2026
 
