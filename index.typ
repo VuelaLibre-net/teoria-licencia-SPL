@@ -1283,7 +1283,7 @@ supplement: "Figura",
 
 == Mantenimiento de planeadores: Part-ML
 <mantenimiento-de-planeadores-part-ml>
-Desde el punto de vista legal basta con que retengas el marco: los planeadores se mantienen bajo la #strong[Part-ML] (Anexo Vb del Reglamento (UE) 1321/2014), una normativa simplificada para la aviación ligera que descansa sobre un #strong[Programa de Mantenimiento (#link(<glosario-amp>)[AMP]#index("AMP"))] y que, en ciertas tareas sencillas, permite al #strong[piloto-propietario] firmar el mantenimiento él mismo. El desarrollo de todo esto ---cómo funciona el AMP, el programa mínimo de inspección, qué tareas puede firmar el piloto-propietario y con qué condiciones, las directivas de aeronavegabilidad (#link(<glosario-ad>)[AD]#index("Aerodromes")) y los boletines de servicio (#link(<glosario-sb>)[SB]#index("SB"))--- corresponde a su asignatura natural, #strong[Conocimientos Generales de la Aeronave, Estructura, Sistemas y Equipo de Emergencia]: se estudia en el #strong[Libro 8 --- Conocimientos Generales de la Aeronave, Estructura, Sistemas y Equipo de Emergencia], capítulo 9.
+Desde el punto de vista legal basta con que retengas el marco: los planeadores se mantienen bajo la #strong[Part-ML] (Anexo Vb del Reglamento (UE) 1321/2014), una normativa simplificada para la aviación ligera que descansa sobre un #strong[Programa de Mantenimiento (#link(<glosario-amp>)[AMP]#index("AMP"))] y que, en ciertas tareas sencillas, permite al #strong[piloto-propietario] firmar el mantenimiento él mismo. El desarrollo de todo esto ---cómo funciona el AMP, el programa mínimo de inspección, qué tareas puede firmar el piloto-propietario y con qué condiciones, las directivas de aeronavegabilidad (#link(<glosario-ad>)[AD]#index("Aerodromos")) y los boletines de servicio (#link(<glosario-sb>)[SB]#index("SB"))--- corresponde a su asignatura natural, #strong[Conocimientos Generales de la Aeronave, Estructura, Sistemas y Equipo de Emergencia]: se estudia en el #strong[Libro 8 --- Conocimientos Generales de la Aeronave, Estructura, Sistemas y Equipo de Emergencia], capítulo 9.
 
 == Responsabilidades del piloto
 <responsabilidades-del-piloto>
@@ -2516,7 +2516,7 @@ El #strong[AIP] es la "biblia" de la aviación de un país: contiene la informac
 
 + #strong[GEN (Generalidades)]: reglamentos, señales de socorro, tablas de conversión, salida y puesta de sol, servicios disponibles.
 + #strong[ENR (En Ruta)]: estructura del espacio aéreo (vías aéreas, zonas prohibidas y restringidas), radioayudas, alertas para la navegación.
-+ #strong[#link(<glosario-ad>)[AD]#index("Aerodromes") (Aeródromos)]: datos detallados de cada aeropuerto: pistas, frecuencias, horarios, mapas de aproximación y rodaje.
++ #strong[#link(<glosario-ad>)[AD]#index("Aerodromos") (Aeródromos)]: datos detallados de cada aeropuerto: pistas, frecuencias, horarios, mapas de aproximación y rodaje.
 
 #figure([
 #box(image("01-derecho-aereo-atc/imagenes/01-cap09-estructura-aip.jpg"))
@@ -14512,7 +14512,7 @@ En este capítulo aprenderás:
 - #strong[El #link(<glosario-coa>)[CoA]#index("CoA") y el #link(<glosario-arc>)[ARC]#index("ARC")]: los dos certificados que permiten despegar legalmente, y cómo se renueva o prorroga el ARC.
 - #strong[#link(<glosario-part-ml>)[Part-ML]#index("Part-ML") y Part-#link(<glosario-cao>)[CAO]#index("CAO")]: el marco simplificado de mantenimiento de la aviación ligera europea.
 - #strong[El mantenimiento del piloto-propietario]: qué tareas puedes firmar tú mismo y con qué condiciones.
-- #strong[Las #link(<glosario-ad>)[AD]#index("Aerodromes") y los #link(<glosario-sb>)[SB]#index("SB")]: las órdenes de obligado cumplimiento y las recomendaciones del fabricante.
+- #strong[Las #link(<glosario-ad>)[AD]#index("Aerodromos") y los #link(<glosario-sb>)[SB]#index("SB")]: las órdenes de obligado cumplimiento y las recomendaciones del fabricante.
 ]
 
 La #strong[aeronavegabilidad] es la condición legal y técnica que certifica que una aeronave es segura para volar. No es algo estático: mantener un planeador aeronavegable exige vigilancia constante, un programa de mantenimiento riguroso y cumplir al pie de la letra la normativa europea.
@@ -16544,7 +16544,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 Dependencia ATS que presta el servicio de control de área a los vuelos bajo su jurisdicción.
 ]
 
-/ #strong[AD (Directiva de Aeronavegabilidad / Airworthiness Directive; Aeródromos / Aerodromes)] <glosario-ad>: #block[
+/ #strong[AD (Directiva de Aeronavegabilidad / Airworthiness Directive; Aeródromos)] <glosario-ad>: #block[
 Abreviatura dependiente del contexto: una directiva de aeronavegabilidad es un requisito obligatorio para corregir una condición insegura; AD también identifica la sección de aeródromos del AIP.
 ]
 
