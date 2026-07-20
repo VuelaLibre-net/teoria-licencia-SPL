@@ -3,7 +3,7 @@
 Este glosario contiene las definiciones y acrónimos más relevantes de Factores Humanos y Fisiología aplicables a la licencia de piloto de planeador (SPL).
 
 **ADM (Aeronautical Decision-Making)**
-: Toma de decisiones aeronáuticas. Proceso mental sistemático (por ejemplo, mediante el modelo DECIDE) empleado por el piloto para elegir la opción más segura como respuesta a un conjunto de circunstancias. (Mencionado en: cap. 3)
+: Toma de decisiones aeronáuticas. Proceso mental sistemático (por ejemplo, mediante el modelo DECIDE) empleado por el piloto para elegir la opción más segura como respuesta a un conjunto de circunstancias.
 
 **AESA (Agencia Estatal de Seguridad Aérea)**
 : Autoridad española responsable de la supervisión de la seguridad de la aviación civil y de la aplicación de la normativa aeronáutica dentro de sus competencias.
@@ -15,91 +15,91 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Factores
 : Servicio de tránsito aéreo destinado a prevenir colisiones y a acelerar y mantener ordenadamente el movimiento del tránsito aéreo.
 
 **AUT / TUE (Autorización de Uso Terapéutico)**
-: **Therapeutic Use Exemption**. Permiso oficial emitido por una organización antidopaje o autoridad aeronáutica (como WADA) que permite a un piloto de competición utilizar una medicación específica que normalmente requeriría su suspensión en un control antidopaje, salvaguardando su salud de base. (Mencionado en: cap. 2)
+: **Therapeutic Use Exemption**. Permiso oficial emitido por una organización antidopaje o autoridad aeronáutica (como WADA) que permite a un piloto de competición utilizar una medicación específica que normalmente requeriría su suspensión en un control antidopaje, salvaguardando su salud de base.
 
 **Cadena del error**
-: Sucesión de pequeñas decisiones erróneas, condiciones previas y errores latentes que, al alinearse e interactuar (como en el **modelo del queso suizo**), desencadenan un accidente o incidente. (Mencionado en: cap. 1)
+: Sucesión de pequeñas decisiones erróneas, condiciones previas y errores latentes que, al alinearse e interactuar (como en el **modelo del queso suizo**), desencadenan un accidente o incidente.
 
 **Cianosis**
-: Coloración azulada en la piel, labios y yemas de los dedos producida por una acusada deficiencia de oxígeno en la sangre, siendo uno de los síntomas físicos avanzados propios de la hipoxia. (Mencionado en: cap. 4)
+: Coloración azulada en la piel, labios y yemas de los dedos producida por una acusada deficiencia de oxígeno en la sangre, siendo uno de los síntomas físicos avanzados propios de la hipoxia.
 
 **Cinetosis**
-: Mareo producido por el movimiento (**motion sickness**), desencadenado en vuelo por un conflicto entre la información percibida por el sistema visual (que observa una cabina inmóvil) y el sistema vestibular del oído interno (que registra las aceleraciones y giros de la aeronave). (Mencionado en: cap. 2)
+: Mareo producido por el movimiento (**motion sickness**), desencadenado en vuelo por un conflicto entre la información percibida por el sistema visual (que observa una cabina inmóvil) y el sistema vestibular del oído interno (que registra las aceleraciones y giros de la aeronave).
 
 **Complacencia**
-: Estado mental limitante originado por la rutina y la familiaridad con el entorno, que genera una falsa sensación de seguridad e induce a omitir procedimientos básicos como las listas de comprobación. (Mencionado en: cap. 3)
+: Estado mental limitante originado por la rutina y la familiaridad con el entorno, que genera una falsa sensación de seguridad e induce a omitir procedimientos básicos como las listas de comprobación.
 
 **Conciencia situacional**
-: **Situational Awareness**. Percepción completa y asimilación adecuada de los elementos del vuelo en el presente, comprensión analítica de su estatus actual y proyección fiel de su tendencia hacia el futuro. (Mencionado en: cap. 3)
+: **Situational Awareness**. Percepción completa y asimilación adecuada de los elementos del vuelo en el presente, comprensión analítica de su estatus actual y proyección fiel de su tendencia hacia el futuro.
 
 **Cultura justa (Just Culture)**
-: Paradigma organizacional que reconoce la inevitabilidad del error humano no intencionado, tratándolo como una oportunidad de aprendizaje colectivo sin represalias, oponiéndose a todo encubrimiento o sanción punitiva irracional. (Mencionado en: cap. 1)
+: Paradigma organizacional que reconoce la inevitabilidad del error humano no intencionado, tratándolo como una oportunidad de aprendizaje colectivo sin represalias, oponiéndose a todo encubrimiento o sanción punitiva irracional.
 
 **DECIDE**
-: Modelo estandarizado para la toma de decisiones aeronáuticas: Detectar, Estudiar, Considerar, Implementar, Determinar y Evaluar. (Mencionado en: cap. 3)
+: Modelo estandarizado para la toma de decisiones aeronáuticas: Detectar, Estudiar, Considerar, Implementar, Determinar y Evaluar.
 
 **Desorientación espacial**
-: Falsa apreciación de la posición, actitud o movimiento de la aeronave como consecuencia de ilusiones sensoriales originadas en el oído interno, obligando al piloto a desconfiar de sus sentidos y ampararse en los instrumentos. (Mencionado en: cap. 2)
+: Falsa apreciación de la posición, actitud o movimiento de la aeronave como consecuencia de ilusiones sensoriales originadas en el oído interno, obligando al piloto a desconfiar de sus sentidos y ampararse en los instrumentos.
 
 **Disbarismos (Barotraumas)**
-: Alteraciones orgánicas o dolor neurálgico originados por la expansión y contracción de pequeños volúmenes de gas atrapados en el cuerpo (senos paranasales, oído medio, intestinos) frente a los inevitables cambios en la presión atmosférica por la Ley de Boyle. (Mencionado en: cap. 2)
+: Alteraciones orgánicas o dolor neurálgico originados por la expansión y contracción de pequeños volúmenes de gas atrapados en el cuerpo (senos paranasales, oído medio, intestinos) frente a los inevitables cambios en la presión atmosférica por la Ley de Boyle.
 
 **EASA (Agencia de la Unión Europea para la Seguridad Aérea / European Union Aviation Safety Agency)**
 : Agencia de la Unión Europea que desarrolla y supervisa el marco común de seguridad de la aviación civil dentro de sus competencias.
 
 **EDS (Sistema de Oxígeno a Demanda / Electronic Delivery System)**
-: Sistema electrónico de suministro de oxígeno a demanda que detecta la inspiración del piloto y libera un pulso de oxígeno en ese instante, multiplicando la autonomía de la botella de oxígeno al interrumpir el flujo durante la exhalación. (Mencionado en: cap. 4)
+: Sistema electrónico de suministro de oxígeno a demanda que detecta la inspiración del piloto y libera un pulso de oxígeno en ese instante, multiplicando la autonomía de la botella de oxígeno al interrumpir el flujo durante la exhalación.
 
 **Fatiga**
-: Deterioro fisiológico del rendimiento físico o mental provocado por pérdida de sueño, ritmos circadianos alterados o esfuerzo mental sostenido; reduce drásticamente el tiempo de reacción o la capacidad para evaluar riesgos con sensatez. (Mencionado en: cap. 2)
+: Deterioro fisiológico del rendimiento físico o mental provocado por pérdida de sueño, ritmos circadianos alterados o esfuerzo mental sostenido; reduce drásticamente el tiempo de reacción o la capacidad para evaluar riesgos con sensatez.
 
 **Hiperventilación**
-: Respiración anormalmente rápida desencadenada por el estrés, el pánico o la ansiedad, generando una expulsión drástica de dióxido de carbono que provoca el estrechamiento de los vasos sanguíneos en el cerebro, reduciendo el flujo de oxígeno a pesar de volar a altitudes seguras. (Mencionado en: cap. 2, cap. 4)
+: Respiración anormalmente rápida desencadenada por el estrés, el pánico o la ansiedad, generando una expulsión drástica de dióxido de carbono que provoca el estrechamiento de los vasos sanguíneos en el cerebro, reduciendo el flujo de oxígeno a pesar de volar a altitudes seguras.
 
 **Hipoxia**
-: Estado de déficit de oxígeno cerebral. Existen cuatro tipos: hipóxica (falta de presión transferencial en altitud), hipémica (mermas de transporte por CO), estancada e histotóxica (intoxicación orgánica celular por alcohol o drogas). (Mencionado en: cap. 4)
+: Estado de déficit de oxígeno cerebral. Existen cuatro tipos: hipóxica (falta de presión transferencial en altitud), hipémica (mermas de transporte por CO), estancada e histotóxica (intoxicación orgánica celular por alcohol o drogas).
 
 **IMSAFE**
-: Acrónimo nemotécnico de autoevaluación psicofísica recomendado antes de cada vuelo: Illness (Enfermedad), Medication (Medicación), Stress (Estrés), Alcohol (Alcohol), Fatigue (Fatiga) y Eating (Alimentación). (Mencionado en: cap. 2)
+: Acrónimo nemotécnico de autoevaluación psicofísica recomendado antes de cada vuelo: Illness (Enfermedad), Medication (Medicación), Stress (Estrés), Alcohol (Alcohol), Fatigue (Fatiga) y Eating (Alimentación).
 
 **MED (Part-MED)**
-: Subparte de la normativa europea (EASA) que estipula y rige exhaustivamente todas las condiciones fisiológicas y médicas que debe cumplir un piloto para mantener y ejercer las atribuciones de su licencia de vuelo. (Mencionado en: cap. 2)
+: Subparte de la normativa europea (EASA) que estipula y rige exhaustivamente todas las condiciones fisiológicas y médicas que debe cumplir un piloto para mantener y ejercer las atribuciones de su licencia de vuelo.
 
 **Monóxido de carbono (CO)**
-: Gas letal, inodoro e invisible derivado de los sistemas de escape. Se une a la hemoglobina bloqueando el transporte de oxígeno (hipoxia anémica), afectando a los pilotos de motovelero (TMG) incluso a baja altitud. (Mencionado en: cap. 2)
+: Gas letal, inodoro e invisible derivado de los sistemas de escape. Se une a la hemoglobina bloqueando el transporte de oxígeno (hipoxia anémica), afectando a los pilotos de motovelero (TMG) incluso a baja altitud.
 
 **OACI (Organización de Aviación Civil Internacional / ICAO)**
 : Agencia especializada de las Naciones Unidas que establece normas y métodos recomendados para la aviación civil internacional.
 
 **PAVE**
-: Esquema simplificado y fundamental para ejecutar la evaluación sistemática y mitigación profiláctica de los riesgos de cualquier vuelo, dividido en: Piloto, Aeronave (**Aircraft**), Entorno (**enVironment**) y Presiones Externas. (Mencionado en: cap. 3)
+: Esquema simplificado y fundamental para ejecutar la evaluación sistemática y mitigación profiláctica de los riesgos de cualquier vuelo, dividido en: Piloto, Aeronave (**Aircraft**), Entorno (**enVironment**) y Presiones Externas.
 
 **Pulsioxímetro**
-: Dispositivo de dedo recomendado en vuelos a gran altura que muestra la saturación de oxígeno en sangre (SpO₂). Permite al piloto detectar la hipoxia de forma objetiva antes de que aparezcan los primeros síntomas. (Mencionado en: cap. 4)
+: Dispositivo de dedo recomendado en vuelos a gran altura que muestra la saturación de oxígeno en sangre (SpO₂). Permite al piloto detectar la hipoxia de forma objetiva antes de que aparezcan los primeros síntomas.
 
 **SAO (Sailplane Air Operations)**
-: Normativa operativa específica de EASA para pilotos al mando de planeadores. Fija reglas como la obligatoriedad del oxígeno por encima de 10.000 ft de altitud. (Mencionado en: cap. 4)
+: Normativa operativa específica de EASA para pilotos al mando de planeadores. Fija reglas como la obligatoriedad del oxígeno por encima de 10.000 ft de altitud.
 
 **SFCL (Sailplane Flight Crew Licensing)**
-: Marco normativo europeo (EASA) que regula las licencias, el programa de estudios y la instrucción de vuelo para pilotos de planeador (SPL). (Mencionado en: el temario general)
+: Marco normativo europeo (EASA) que regula las licencias, el programa de estudios y la instrucción de vuelo para pilotos de planeador (SPL).
 
 **SHELL**
-: Modelo conceptual desarrollado por la OACI interconectando de forma unificada y armónica todos los vértices relativos al operador: **Software** (Procedimientos normativos), **Hardware** (La Aeronave), **Environment** (El Entorno físico), **Liveware** interior y **Liveware** externo (El piloto con respecto a otras personas). (Mencionado en: cap. 1)
+: Modelo conceptual desarrollado por la OACI interconectando de forma unificada y armónica todos los vértices relativos al operador: **Software** (Procedimientos normativos), **Hardware** (La Aeronave), **Environment** (El Entorno físico), **Liveware** interior y **Liveware** externo (El piloto con respecto a otras personas).
 
 **SPL (Licencia de Piloto de Planeador / Sailplane Pilot Licence)**
 : Licencia de la Unión Europea, regulada por la Part-SFCL, que permite ejercer las atribuciones de piloto de planeador dentro de las condiciones aplicables.
 
 **SRM (Single-Pilot Resource Management)**
-: Gestión de recursos para pilotos solitarios. Habilidad para administrar todos los recursos disponibles (instrumentos, ATC, listas de chequeo) para operar de forma segura, reduciendo la carga de trabajo y minimizando el riesgo de errores sistemáticos. (Mencionado en: cap. 3)
+: Gestión de recursos para pilotos solitarios. Habilidad para administrar todos los recursos disponibles (instrumentos, ATC, listas de chequeo) para operar de forma segura, reduciendo la carga de trabajo y minimizando el riesgo de errores sistemáticos.
 
 **TMG (Motovelero de turismo / Touring Motor Glider)**
 : Planeador propulsado equipado con motor y hélice no retráctiles que puede despegar y ascender por sus propios medios.
 
 **TUC (Time of Useful Consciousness)**
-: Tiempo útil de conciencia. Intervalo crítico en el que el piloto retiene sus capacidades cognitivas y motoras para tomar medidas correctivas tras una interrupción del suministro de oxígeno a gran altitud. Se reduce rápidamente a mayor altura. (Mencionado en: cap. 4)
+: Tiempo útil de conciencia. Intervalo crítico en el que el piloto retiene sus capacidades cognitivas y motoras para tomar medidas correctivas tras una interrupción del suministro de oxígeno a gran altitud. Se reduce rápidamente a mayor altura.
 
 **VFR (Reglas de vuelo visual / Visual Flight Rules)**
 : Reglas aplicables a vuelos realizados con referencias visuales y dentro de los mínimos meteorológicos y operativos correspondientes; la separación proporcionada por ATC depende de la clase de espacio aéreo y de los tráficos implicados.
 
 **WADA (World Anti-Doping Agency)**
-: Agencia Mundial Antidopaje. Organización internacional que regula y controla exhaustivamente el consumo de sustancias y dopaje en deportistas de competición, siendo los campeonatos de vuelo a vela sometidos también a este mismo estándar. (Mencionado en: cap. 2)
+: Agencia Mundial Antidopaje. Organización internacional que regula y controla exhaustivamente el consumo de sustancias y dopaje en deportistas de competición, siendo los campeonatos de vuelo a vela sometidos también a este mismo estándar.
