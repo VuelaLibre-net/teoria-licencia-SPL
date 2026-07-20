@@ -116,6 +116,7 @@
 // créditos tienen que ir envueltos en `::: {.creditos}`; sin el envoltorio no
 // hay ámbito que valga y saldrían con el aspecto del glosario.
 #let creditos(body) = {
+  v(1.5em)
   show terms.item: it => block(breakable: false, below: 1.15em, width: 100%)[
     // Sans y negrita: el nombre destaca sobre el cuerpo en serif sin recurrir a
     // un tamaño grande, que en una lista de siete daría aspecto de escalera.
