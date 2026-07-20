@@ -16,14 +16,9 @@ rompe la compilación.
 
 ## [En curso]
 
-**Qué releer:** **cap02, transpondedor; cap04, CAVOK; cap07, transpondedor y resumen.** Se restaura texto y una fórmula que el importador perdió o duplicó al migrar enlaces y matemáticas.
+### Maqueta y producción
 
-### Cambiado
-
-* **cap02** — se restituye *squawk* como nombre del código de transpondedor.
-* **cap04** — se restituye la expansión *Ceiling and Visibility OK* de CAVOK.
-* **cap07** — se restituye *squawk* en la explicación del transpondedor.
-* **cap07** — se restaura la fórmula de alcance visual VHF en el resumen, sin duplicarla como texto TeX. Se usa Unicode (`1.23 × √H`) en vez de matemáticas: el resultado es más compacto y legible en el estilo de letra del post-it.
+* **Glosario** — se eliminan las referencias redundantes a capítulos en las definiciones.
 
 ## [1.0-rc.8] — 19 de julio de 2026
 
@@ -35,8 +30,6 @@ rompe la compilación.
 * **cap04** — se restituye la expansión *Ceiling and Visibility OK* de CAVOK.
 * **cap07** — se restituye *squawk* en la explicación del transpondedor.
 * **cap07** — se restaura la fórmula de alcance visual VHF en el resumen, sin duplicarla como texto TeX. Se usa Unicode (`1.23 × √H`) en vez de matemáticas: el resultado es más compacto y legible en el estilo de letra del post-it.
-
-## [En curso]
 
 ## [1.0-rc.7] — 18 de julio de 2026
 

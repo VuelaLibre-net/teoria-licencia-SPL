@@ -14,6 +14,12 @@ más antigua.
 exige que la versión en curso tenga su entrada aquí**: subir la versión sin registrar qué cambió
 rompe la compilación.
 
+## [En curso]
+
+### Maqueta y producción
+
+* **Glosario** — se eliminan las referencias redundantes a capítulos en las definiciones.
+
 ## [1.0-rc.8] — 19 de julio de 2026
 
 **Qué releer:** **cap02, recuadro de Seguridad sobre gradiente de viento; cap04, desarrollo vertical.** Se restaura texto que el importador perdió al migrar enlaces con cursiva interna.
@@ -23,7 +29,6 @@ rompe la compilación.
 * **cap02** — se restituye la mención inglesa *wind shear* que faltaba en el recuadro sobre viento en superficie.
 * **cap04** — se restituye *Cúmulo Congestus* en la cadena de desarrollo vertical hacia Cumulonimbus.
 
-## [En curso]
 
 ## [1.0-rc.7] — 18 de julio de 2026
 

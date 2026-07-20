@@ -25,6 +25,10 @@ rompe la compilación.
 
 ## [En curso]
 
+### Maqueta y producción
+
+* **Glosario** — se eliminan las referencias redundantes a capítulos en las definiciones.
+
 ## [0.8.4] — 18 de julio de 2026
 
 **Qué releer:** **Preliminares, página de licencia.** El temario no cambia.
