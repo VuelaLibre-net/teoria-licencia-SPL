@@ -27,6 +27,8 @@ rompe la compilación.
 
 ### Maqueta y producción
 
+* **Índice alfabético** — generación automática de un índice de términos al final del libro para la versión PDF (Typst), utilizando el paquete `in-dexter` y referenciando los términos del glosario a 3 columnas.
+* **Enlaces al glosario** — enlace automático en el PDF (Typst) de la primera aparición de cada término y acrónimo del glosario en el cuerpo de cada capítulo.
 * **Glosario** — se eliminan las referencias redundantes a capítulos en las definiciones.
 
 ## [0.8.4] — 18 de julio de 2026
