@@ -1,0 +1,61 @@
+# Información legal y licencia {.unnumbered}
+
+::: {.licencia}
+::: {.content-visible when-format="epub"}
+::: {.estado}
+**{{< meta estado >}}** — {{< meta estado-nota >}}
+:::
+:::
+
+Manual de formación teórica para la obtención de la **Licencia de Piloto de Planeador (SPL)**, conforme al syllabus del AMC1 SFCL.130 (EASA-FCL), adaptado a los requerimientos de AESA.
+
+© 2026 VuelaLibre.net
+
+Publicado por **VuelaLibre.net** · <https://vuelalibre.net>
+
+## Licencia {.unnumbered .unlisted}
+
+::: {.licencia-cc}
+Esta obra se distribuye bajo licencia **Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)**.
+:::
+
+::: {.dos-columnas}
+::: {.columna}
+**Se permite:**
+
+* copiar y redistribuir el material en cualquier medio
+* adaptar: remezclar, transformar y construir a partir del material
+* el uso comercial
+:::
+
+::: {.columna}
+**Siempre que:**
+
+* se otorgue el crédito correspondiente
+* se proporcione un enlace a la licencia
+* se indique si se realizaron cambios
+* las adaptaciones se distribuyan bajo la misma licencia o una compatible
+:::
+:::
+
+La atribución puede hacerse de cualquier manera razonable, pero no de una manera que sugiera que el licenciante lo respalda a usted o a su uso.
+
+Texto completo de la licencia: <https://creativecommons.org/licenses/by-sa/4.0/deed.es>
+
+## Exención de responsabilidad — uso bajo propio riesgo {.unnumbered .unlisted}
+
+::: {.aviso-legal}
+La aviación es una actividad que conlleva riesgos inherentes. Aunque se ha realizado un esfuerzo exhaustivo para garantizar la precisión técnica de este manual utilizando fuentes oficiales actualizadas:
+
+* **Los autores, editores y colaboradores NO asumen responsabilidad alguna** por daños personales, materiales o de cualquier otra índole que pudieran derivarse de interpretaciones erróneas o errores técnicos en el texto.
+* Este manual es una **herramienta de apoyo al estudio** y no sustituye en ningún caso ni a la instrucción teórica ni a la práctica obligatoria con un instructor de vuelo cualificado (FI(S)).
+* En caso de discrepancia con la normativa vigente publicada por AESA o EASA, prevalecerá siempre el texto legal oficial de la autoridad aeronáutica.
+:::
+
+## Validación por AESA {.unnumbered .unlisted}
+
+::: {.aval}
+Los **temarios de esta colección han sido validados por AESA** (Agencia Estatal de Seguridad Aérea), la autoridad aeronáutica civil de España, en cuanto a su adecuación al syllabus del AMC1 SFCL.130 para la formación teórica de la Licencia de Piloto de Planeador (SPL). El desarrollo del contenido es responsabilidad exclusiva de los autores.
+:::
+
+:::

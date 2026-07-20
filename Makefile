@@ -18,10 +18,29 @@ LIBROS = 01-derecho-aereo-atc \
          08-aeronave-sistemas \
          09-navegacion
 
-.PHONY: all help clean rag $(LIBROS)
+.PHONY: all help clean rag $(LIBROS) completo completo-pdf completo-epub completo-rag
 
 # Por defecto, compilar toda la colección de libros (01 a 09)
 all: $(LIBROS)
+
+# --- AUTO-CONSOLIDACIÓN Y VARIABLES DEL MANUAL COMPLETO ---
+_ := $(shell python3 tools/consolidar-completo.py)
+
+version_completo = $(shell $(SED_VERSION) _quarto-completo.yml | head -1)
+fecha_corta_completo = $(shell iso=$$(git log -1 --format=%cs 2>/dev/null); \
+	[ -n "$$iso" ] || iso=$$(date +%F); echo "$${iso#??}" | tr -d -)
+sufijo_completo = $(version_completo)-$(fecha_corta_completo)
+
+pdf_completo = $(PDF_OUT)/manual-completo-$(sufijo_completo).pdf
+epub_completo = $(EPUB_OUT)/manual-completo-$(sufijo_completo).epub
+rag_completo = $(RAG_OUT)/manual-completo-$(sufijo_completo).md
+
+# Los archivos qmd del manual completo en la raíz
+fuentes_raiz_completo = index.qmd licencia.qmd dedicatoria.qmd epigrafe.qmd reconocimientos.qmd introduccion.qmd apendice-syllabus-completo.qmd glosario.qmd bibliografia.qmd colofon.qmd contracubierta.qmd
+
+# Fuentes completas (todos los qmd e imágenes de todas las asignaturas más los de la raíz)
+fuentes_completo = $(fuentes_raiz_completo) \
+                   $(foreach libro,$(LIBROS),$(call fuentes_texto_de,$(libro)) $(call fuentes_imagen_de,$(libro)))
 
 # --- REGLAS GENERALES PARA CUALQUIER LIBRO ---
 # Los .qmd de cada libro son la fuente canónica: se editan a mano y ninguna
@@ -213,15 +232,68 @@ $(foreach libro,$(LIBROS),$(eval $(call reglas_de_libro,$(libro))))
 # recarga en el cuaderno de NotebookLM, y cuesta segundos en vez de minutos.
 rag: $(foreach libro,$(LIBROS),$(call rag_de,$(libro)))
 
+# --- REGLAS PARA EL MANUAL COMPLETO (9 PARTES) ---
+completo: completo-pdf completo-epub completo-rag
+
+completo-pdf: $(pdf_completo)
+completo-epub: $(epub_completo)
+completo-rag: $(rag_completo)
+
+$(pdf_completo): $(fuentes_completo) $(fuentes_typst) _quarto-completo.yml
+	@mkdir -p $(PDF_OUT)
+	@echo "==> [Quarto] Renderizando PDF (Typst) para Manual Completo..."
+	@cp _quarto-completo.yml _quarto.yml
+	quarto render . --to orange-book-es-typst \
+	  --metadata fecha-actualizacion="$$(iso=$$(git log -1 --format=%cs -- . 2>/dev/null || date +%F); \
+	    y=$$(echo $$iso | cut -d- -f1); m=$$(echo $$iso | cut -d- -f2); d=$$(echo $$iso | cut -d- -f3); \
+	    set -- $(MESES); shift $$(expr $$m - 1); \
+	    echo "$$(expr $$d + 0) de $$1 de $$y")" \
+	  --metadata version-quarto="$(call version_quarto)" \
+	  --metadata estado="" \
+	  --metadata estado-nota=""
+	@rm -f _quarto.yml
+	@mv _book/*.pdf $@
+	@echo "✓ PDF del Manual Completo generado en $@"
+
+$(epub_completo): $(fuentes_completo) $(fuentes_epub) _quarto-completo.yml
+	@mkdir -p $(EPUB_OUT)
+	@echo "==> [Quarto] Renderizando EPUB para Manual Completo..."
+	@cp _quarto-completo.yml _quarto.yml
+	quarto render . --to epub \
+	  --metadata fecha-actualizacion="$$(iso=$$(git log -1 --format=%cs -- . 2>/dev/null || date +%F); \
+	    y=$$(echo $$iso | cut -d- -f1); m=$$(echo $$iso | cut -d- -f2); d=$$(echo $$iso | cut -d- -f3); \
+	    set -- $(MESES); shift $$(expr $$m - 1); \
+	    echo "$$(expr $$d + 0) de $$1 de $$y")" \
+	  --metadata version-quarto="$(call version_quarto)" \
+	  --metadata estado="" \
+	  --metadata estado-nota=""
+	@rm -f _quarto.yml
+	@mv _book/*.epub $@
+	@echo "✓ EPUB del Manual Completo generado en $@"
+
+$(rag_completo): $(fuentes_completo) tools/rag/construir.sh tools/rag/rag.lua _quarto-completo.yml
+	@echo "==> [pandoc] Generando Markdown para RAG de Manual Completo..."
+	@tools/rag/construir.sh . \
+	  "$(call version_completo)" \
+	  "$$(iso=$$(git log -1 --format=%cs -- . 2>/dev/null || date +%F); \
+	    y=$$(echo $$iso | cut -d- -f1); m=$$(echo $$iso | cut -d- -f2); d=$$(echo $$iso | cut -d- -f3); \
+	    set -- $(MESES); shift $$(expr $$m - 1); \
+	    echo "$$(expr $$d + 0) de $$1 de $$y")" \
+	  "" \
+	  "completo" \
+	  $@
+	@echo "✓ Markdown para RAG de Manual Completo generado en $@"
+
 # --- UTILIDADES ---
 
 # Muestra los targets principales y los libros compilables.
 help:
 	@printf '%s\n' 'Targets disponibles:' ''
 	@printf '  make %-35s %s\n' 'all' 'Compila los 9 libros (PDF + EPUB + RAG).'
+	@printf '  make %-35s %s\n' 'completo' 'Compila el libro unificado completo (PDF + EPUB + RAG).'
 	@printf '  make %-35s %s\n' 'rag' 'Sólo los Markdown para RAG de los 9 libros.'
 	@printf '  make %-35s %s\n' 'estados' 'Muestra libro, versión y estado editorial.'
-	@printf '  make %-35s %s\n' 'clean' 'Borra build/, _book/ y cachés de Quarto.'
+	@printf '  make %-35s %s\n' 'clean' 'Borra build/, _book/, cachés y archivos unificados en raíz.'
 	@printf '%s\n' '' 'Libros:'
 	@for libro in $(LIBROS); do \
 		printf '  make %-35s %s\n' "$$libro" 'Compila ese libro (PDF + EPUB + RAG).'; \
@@ -249,7 +321,8 @@ estados:
 # NO toca los .qmd, _quarto.yml ni imagenes/: son la fuente canónica de la
 # colección, viven en git y no se regeneran a partir de nada.
 clean:
-	rm -rf $(BUILD_DIR)
+	rm -rf $(BUILD_DIR) _book .quarto
 	@for libro in $(LIBROS); do \
 		rm -rf $$libro/_book $$libro/.quarto; \
 	done
+	rm -f _quarto-completo.yml glosario.qmd apendice-syllabus-completo.qmd licencia.qmd dedicatoria.qmd reconocimientos.qmd bibliografia.qmd colofon.qmd contracubierta.qmd

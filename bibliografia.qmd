@@ -1,0 +1,47 @@
+# Bibliografía y fuentes
+
+Esta bibliografía es común a los nueve libros del manual de formación SPL. Reúne las fuentes normativas, los manuales técnicos y los apuntes de instrucción que se han utilizado como referencia para elaborar el contenido de la colección.
+
+**Apuntes de instrucción (DTO Fuentemilanos)**
+
+Apuntes de teoría de **Iñaqui Ulibarri García de la Cueva** para la Organización de Formación Declarada (DTO) de Fuentemilanos, organizados por asignatura del temario SPL.
+
+**Normativa y reglamentación**
+
+* **Easy Access Rules for Sailplanes**. Agencia de la Unión Europea para la Seguridad Aérea (EASA). Compendio consolidado del Reglamento (UE) 2018/1976 —que contiene la **Part-SFCL** (licencias) y la **Part-SAO** (operaciones)— junto con sus AMC y GM.
+  [https://www.easa.europa.eu/sites/default/files/dfu/Sailplane%20Rule%20Book.pdf](https://www.easa.europa.eu/sites/default/files/dfu/Sailplane%20Rule%20Book.pdf)
+* **Reglamento de Ejecución (UE) n.º 923/2012 — SERA** (*Standardised European Rules of the Air*). Reglas del aire comunes para la Unión Europea (versión consolidada). En España se aplica mediante el Real Decreto 552/2014.
+  [https://eur-lex.europa.eu/legal-content/ES/TXT/PDF/?uri=CELEX:02012R0923-20250501](https://eur-lex.europa.eu/legal-content/ES/TXT/PDF/?uri=CELEX:02012R0923-20250501)
+* **Ley 21/2003, de 7 de julio, de Seguridad Aérea**. Jefatura del Estado (España). Publicada en el BOE núm. 162, de 8 de julio de 2003. Marco legal nacional que complementa la normativa europea.
+
+**Anexos al Convenio de Chicago (OACI)**
+
+La OACI desarrolla las normas y métodos recomendados (SARPS) mediante 19 anexos al Convenio sobre Aviación Civil Internacional. Los más relevantes para el piloto de planeador son los anexos 1, 2, 7, 8, 11, 12, 13, 14 y 15.
+
+* Anexo 1 — Licencias al personal
+* Anexo 2 — Reglamento del aire
+* Anexo 3 — Servicio meteorológico para la navegación aérea internacional
+* Anexo 4 — Cartas aeronáuticas
+* Anexo 5 — Unidades de medida que se emplearán en las operaciones aéreas y terrestres
+* Anexo 6 — Operación de aeronaves
+* Anexo 7 — Marcas de nacionalidad y de matrícula de las aeronaves
+* Anexo 8 — Aeronavegabilidad
+* Anexo 9 — Facilitación
+* Anexo 10 — Telecomunicaciones aeronáuticas
+* Anexo 11 — Servicios de tránsito aéreo
+* Anexo 12 — Búsqueda y salvamento
+* Anexo 13 — Investigación de accidentes e incidentes de aviación
+* Anexo 14 — Aeródromos
+* Anexo 15 — Servicios de información aeronáutica
+* Anexo 16 — Protección del medio ambiente
+* Anexo 17 — Seguridad: protección de la aviación civil internacional contra los actos de interferencia ilícita
+* Anexo 18 — Transporte sin riesgos de mercancías peligrosas por vía aérea
+* Anexo 19 — Gestión de la seguridad operacional
+
+**Manuales técnicos y métodos de formación**
+
+* **Glider Flying Handbook (FAA-H-8083-13B)**. Federal Aviation Administration (FAA), U.S. Department of Transportation. Obra en dominio público; fuente de buena parte de las ilustraciones técnicas de la colección.
+  [https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/glider_handbook](https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/glider_handbook)
+* **Methodik der Segelflugausbildung** (*Segelflugrechte*, Rev. 2). Deutscher Aero Club (DAeC), 2022. Metodología alemana de instrucción de vuelo a vela.
+  [https://www.daec.de/media/files/2022/Sportarten/Segelflug/Methodik_der_Segelflugausbildung_Segelflugrechte_Rev.2.pdf](https://www.daec.de/media/files/2022/Sportarten/Segelflug/Methodik_der_Segelflugausbildung_Segelflugrechte_Rev.2.pdf)
+* **Vuelo sin motor: técnicas avanzadas**. Helmut Reichmann. Edición española de la obra de referencia internacional sobre la técnica del vuelo de distancia (orig. *Streckensegelflug*; ed. inglesa, *Cross-Country Soaring*). ISBN 978-84-283-1567-8.

@@ -1,0 +1,41 @@
+project:
+  type: book
+  output-dir: _book
+
+lang: es
+version: "{version}"
+repo-url: "https://github.com/VuelaLibre-net/teoria-licencia-SPL"
+cubierta: "recursos-completo/frente.jpg"
+contracubierta: "recursos-completo/reverso.jpg"
+
+book:
+  title: "Manual de formación teórica para la obtención de la Licencia de Piloto de Planeador (SPL)"
+  author: "VuelaLibre.net"
+  chapters:
+    - index.qmd
+    - licencia.qmd
+    - dedicatoria.qmd
+    - epigrafe.qmd
+    - reconocimientos.qmd
+    - introduccion.qmd
+{chapters}
+  appendices:
+    - apendice-syllabus-completo.qmd
+    - glosario.qmd
+    - bibliografia.qmd
+    - colofon.qmd
+    - contracubierta.qmd
+
+format:
+  orange-book-es-typst:
+    toc: true
+    number-sections: true
+    keep-typ: true
+    margin:
+      top: 2.5cm
+      bottom: 2.5cm
+  epub:
+    strip-comments: true
+    toc: true
+    epub-cover-image: recursos-completo/frente.jpg
+    include-in-header: _extensions/orange-book-es/epub-estilos.html

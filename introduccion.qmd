@@ -1,0 +1,19 @@
+# Introducción a la colección {.unnumbered}
+
+El vuelo sin motor es una de las formas más puras, bellas y exigentes de la aviación. Volar un planeador no consiste únicamente en pilotar una máquina eficiente; implica comprender de manera profunda la atmósfera, dominar la aerodinámica física de la aeronave y, sobre todo, aprender a gestionar los propios límites humanos dentro de un marco operativo seguro y regulado.
+
+Este manual completo reúne en un único volumen las **nueve asignaturas oficiales** del programa de estudios establecido por la Agencia de la Unión Europea para la Seguridad Aérea (EASA) para la obtención de la **Licencia de Piloto de Planeador (SPL)**, conforme al reglamento Part-SFCL:
+
+1. **Derecho Aéreo y ATC**: El marco legal y los procedimientos de tránsito que garantizan la seguridad y el orden en el espacio aéreo común.
+2. **Factores Humanos**: El estudio de los límites fisiológicos y psicológicos del piloto, y las herramientas de juicio para gestionar el riesgo en la cabina.
+3. **Meteorología**: La comprensión del motor atmosférico que proporciona la sustentación (térmicas, ondas de montaña, convergencias) y el análisis de la seguridad meteorológica.
+4. **Comunicaciones**: Los procedimientos y la fraseología estándar para la comunicación por radio en operaciones VFR.
+5. **Principios de Vuelo**: La física aerodinámica aplicada que explica cómo vuela y se controla un planeador.
+6. **Procedimientos Operativos**: Las mejores prácticas de operación segura, desde la preparación del vuelo hasta las emergencias y los aterrizajes fuera de campo.
+7. **Planificación y Rendimiento**: El cálculo de las velocidades óptimas de planeo (teoría McCready), el centrado de la aeronave y la preparación de vuelos de distancia.
+8. **Conocimientos Generales de la Aeronave**: La estructura, los sistemas de a bordo, la instrumentación de vuelo y los equipos específicos de los planeadores.
+9. **Navegación**: Los métodos de navegación visual, la lectura de cartas aeronáuticas, el uso de sistemas GNSS y la estimación de trayectorias en vuelo de distancia.
+
+Cada una de estas materias está estructurada de forma secuencial, dividida en capítulos operativos y complementada con un apéndice de syllabus, un glosario consolidado y un índice de términos que facilitan tanto el estudio inicial como la consulta rápida en tu día a día como piloto en formación o instructor.
+
+El cielo ofrece una libertad inmensa, pero esa libertad exige responsabilidad y preparación técnica. Este volumen aspira a ser el cimiento teórico de tu seguridad en el aire. ¡Buen vuelo!

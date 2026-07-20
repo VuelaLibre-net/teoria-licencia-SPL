@@ -1,0 +1,135 @@
+project:
+  type: book
+  output-dir: _book
+
+lang: es
+version: "0.8.5"
+repo-url: "https://github.com/VuelaLibre-net/teoria-licencia-SPL"
+cubierta: "recursos-completo/frente.jpg"
+contracubierta: "recursos-completo/reverso.jpg"
+
+book:
+  title: "Manual de formación teórica para la obtención de la Licencia de Piloto de Planeador (SPL)"
+  author: "VuelaLibre.net"
+  chapters:
+    - index.qmd
+    - licencia.qmd
+    - dedicatoria.qmd
+    - epigrafe.qmd
+    - reconocimientos.qmd
+    - introduccion.qmd
+    - part: "Parte 01: Derecho Aéreo y Procedimientos de Control de Tránsito Aéreo (ATC)"
+      chapters:
+        - 01-derecho-aereo-atc/cap01-derecho-internacional-convenios-acuerdos-y-organizaciones.qmd
+        - 01-derecho-aereo-atc/cap02-aeronavegabilidad.qmd
+        - 01-derecho-aereo-atc/cap03-marcas-de-nacionalidad-y-matricula-de-aeronaves.qmd
+        - 01-derecho-aereo-atc/cap04-licencias-de-personal.qmd
+        - 01-derecho-aereo-atc/cap05-reglas-del-aire.qmd
+        - 01-derecho-aereo-atc/cap06-procedimientos-para-navegacion-aerea-operaciones-de-aeronaves.qmd
+        - 01-derecho-aereo-atc/cap07-reglamentacion-de-transito-aereo-estructura-del-espacio-aereo.qmd
+        - 01-derecho-aereo-atc/cap08-servicio-de-transito-aereo.qmd
+        - 01-derecho-aereo-atc/cap09-servicios-de-informacion-aeronautica-ais.qmd
+        - 01-derecho-aereo-atc/cap10-aerodromos-y-campos-de-despegue-externos.qmd
+        - 01-derecho-aereo-atc/cap11-busqueda-y-salvamento.qmd
+        - 01-derecho-aereo-atc/cap12-seguridad.qmd
+        - 01-derecho-aereo-atc/cap13-notificacion-de-accidentes.qmd
+        - 01-derecho-aereo-atc/cap14-derecho-nacional.qmd
+    - part: "Parte 02: Factores Humanos"
+      chapters:
+        - 02-factores-humanos/cap01-factores-humanos-conceptos-basicos.qmd
+        - 02-factores-humanos/cap02-fisiologia-aeronautica-basica-y-mantenimiento-de-salud.qmd
+        - 02-factores-humanos/cap03-psicologia-aeronautica-basica.qmd
+        - 02-factores-humanos/cap04-uso-de-oxigeno.qmd
+    - part: "Parte 03: Meteorología"
+      chapters:
+        - 03-meteorologia/cap01-la-atmosfera.qmd
+        - 03-meteorologia/cap02-viento.qmd
+        - 03-meteorologia/cap03-termodinamica.qmd
+        - 03-meteorologia/cap04-nubes-y-niebla.qmd
+        - 03-meteorologia/cap05-precipitacion.qmd
+        - 03-meteorologia/cap06-masas-de-aire-y-frentes.qmd
+        - 03-meteorologia/cap07-sistemas-de-presion.qmd
+        - 03-meteorologia/cap08-climatologia.qmd
+        - 03-meteorologia/cap09-peligros-para-el-vuelo.qmd
+        - 03-meteorologia/cap10-informacion-meteorologica.qmd
+    - part: "Parte 04: Comunicaciones"
+      chapters:
+        - 04-comunicaciones/cap01-definiciones-y-tecnica-de-comunicacion.qmd
+        - 04-comunicaciones/cap02-comunicaciones-vfr.qmd
+        - 04-comunicaciones/cap03-procedimientos-operativos-generales.qmd
+        - 04-comunicaciones/cap04-terminos-de-informacion-meteorologica-relevantes-vfr.qmd
+        - 04-comunicaciones/cap05-acciones-ante-fallo-de-comunicaciones.qmd
+        - 04-comunicaciones/cap06-procedimientos-de-socorro-y-urgencia.qmd
+        - 04-comunicaciones/cap07-principios-generales-de-propagacion-vhf-y-asignacion-de-frecuencias.qmd
+    - part: "Parte 05: Principios de Vuelo"
+      chapters:
+        - 05-principios-vuelo/cap01-aerodinamica-flujo-de-aire.qmd
+        - 05-principios-vuelo/cap02-mecanica-de-vuelo.qmd
+        - 05-principios-vuelo/cap03-estabilidad.qmd
+        - 05-principios-vuelo/cap04-control.qmd
+        - 05-principios-vuelo/cap05-limitaciones-factor-de-carga-y-maniobras.qmd
+        - 05-principios-vuelo/cap06-perdida-de-sustentacion-y-autorrotacion.qmd
+        - 05-principios-vuelo/cap07-picado-en-espiral.qmd
+    - part: "Parte 06: Procedimientos Operativos"
+      chapters:
+        - 06-procedimientos-operativos/cap01-requisitos-generales.qmd
+        - 06-procedimientos-operativos/cap02-metodos-de-lanzamiento.qmd
+        - 06-procedimientos-operativos/cap03-tecnicas-de-planeo.qmd
+        - 06-procedimientos-operativos/cap04-circuitos-y-aterrizaje.qmd
+        - 06-procedimientos-operativos/cap05-aterrizaje-fuera-de-campo.qmd
+        - 06-procedimientos-operativos/cap06-procedimientos-operativos-especiales-y-peligros.qmd
+        - 06-procedimientos-operativos/cap07-procedimientos-de-emergencia.qmd
+        - 06-procedimientos-operativos/cap08-uso-y-aterrizaje-con-paracaidas-de-emergencia.qmd
+    - part: "Parte 07: Planificación y Rendimiento de Vuelo"
+      chapters:
+        - 07-planificacion-rendimiento/cap01-masa-y-centro-de-gravedad.qmd
+        - 07-planificacion-rendimiento/cap02-polar-de-velocidades-de-planeadores-o-velocidad-de-crucero.qmd
+        - 07-planificacion-rendimiento/cap03-planificacion-de-vuelo-y-definicion-de-tareas.qmd
+        - 07-planificacion-rendimiento/cap04-plan-de-vuelo-icao.qmd
+        - 07-planificacion-rendimiento/cap05-monitoreo-del-vuelo-y-replanificacion-en-vuelo.qmd
+    - part: "Parte 08: Conocimientos Generales de la Aeronave, Estructura, Sistemas y Equipo de Emergencia"
+      chapters:
+        - 08-aeronave-sistemas/cap01-estructura.qmd
+        - 08-aeronave-sistemas/cap02-diseno-de-sistemas-cargas-y-tensiones.qmd
+        - 08-aeronave-sistemas/cap03-tren-de-aterrizaje-ruedas-neumaticos-y-frenos.qmd
+        - 08-aeronave-sistemas/cap04-masa-y-centro-de-gravedad.qmd
+        - 08-aeronave-sistemas/cap05-mandos-de-vuelo.qmd
+        - 08-aeronave-sistemas/cap06-instrumentos.qmd
+        - 08-aeronave-sistemas/cap07-montaje-de-la-aeronave-conexion-de-superficies-de-control.qmd
+        - 08-aeronave-sistemas/cap08-manuales-y-documentos.qmd
+        - 08-aeronave-sistemas/cap09-aeronavegabilidad-y-mantenimiento.qmd
+        - 08-aeronave-sistemas/cap10-estructura-motores-y-helices.qmd
+        - 08-aeronave-sistemas/cap11-sistemas-de-lastre-con-agua.qmd
+        - 08-aeronave-sistemas/cap12-baterias.qmd
+        - 08-aeronave-sistemas/cap13-paracaidas-de-emergencia.qmd
+        - 08-aeronave-sistemas/cap14-equipo-de-evacuacion-de-emergencia.qmd
+    - part: "Parte 09: Navegación"
+      chapters:
+        - 09-navegacion/cap01-fundamentos-de-navegacion.qmd
+        - 09-navegacion/cap02-magnetismo-y-brujulas.qmd
+        - 09-navegacion/cap03-cartas-aeronauticas.qmd
+        - 09-navegacion/cap04-navegacion-por-estima.qmd
+        - 09-navegacion/cap05-navegacion-en-vuelo.qmd
+        - 09-navegacion/cap06-uso-de-gnss.qmd
+        - 09-navegacion/cap07-uso-de-ats.qmd
+
+  appendices:
+    - apendice-syllabus-completo.qmd
+    - glosario.qmd
+    - bibliografia.qmd
+    - colofon.qmd
+    - contracubierta.qmd
+
+format:
+  orange-book-es-typst:
+    toc: true
+    number-sections: true
+    keep-typ: true
+    margin:
+      top: 2.5cm
+      bottom: 2.5cm
+  epub:
+    strip-comments: true
+    toc: true
+    epub-cover-image: recursos-completo/frente.jpg
+    include-in-header: _extensions/orange-book-es/epub-estilos.html
