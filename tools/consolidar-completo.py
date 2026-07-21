@@ -225,7 +225,7 @@ def main():
         print("✓ No se detectaron discrepancias en los glosarios.")
         
     # Escribir glosario consolidado
-    glosario_unificado_path = Path("glosario.qmd")
+    glosario_unificado_path = Path("recursos-completo/glosario.qmd")
     with open(glosario_unificado_path, "w", encoding="utf-8") as f:
         f.write("# Glosario de términos\n\n")
         f.write("Este glosario unificado contiene las definiciones y acrónimos más relevantes del marco normativo aeronáutico (EASA, OACI, normativa nacional) aplicables a la licencia de piloto de planeador (SPL) de todas las asignaturas.\n\n")
@@ -242,7 +242,7 @@ def main():
     
     # 3. Consolidar Syllabus (apéndices)
     print("==> Consolidando programas de estudios (syllabus)...")
-    syllabus_unificado_path = Path("apendice-syllabus-completo.qmd")
+    syllabus_unificado_path = Path("recursos-completo/apendice-syllabus-completo.qmd")
     
     with open(syllabus_unificado_path, "w", encoding="utf-8") as f:
         f.write("# Syllabus oficial EASA {.unnumbered}\n\n")
@@ -274,7 +274,7 @@ def main():
     preliminares = ["licencia.qmd", "dedicatoria.qmd", "reconocimientos.qmd", "bibliografia.qmd"]
     for file_name in preliminares:
         src = Path("01-derecho-aereo-atc") / file_name
-        dest = Path(file_name)
+        dest = Path("recursos-completo") / file_name
         if src.exists():
             dest.write_text(src.read_text(encoding='utf-8'), encoding='utf-8')
             print(f"  * {file_name} copiado.")
@@ -293,7 +293,7 @@ def main():
     chapters_str = "".join(chapters_yaml)
     
     # 6. Escribir _quarto-completo.yml final
-    template_path = Path("_quarto-completo-template.yml")
+    template_path = Path("recursos-completo/_quarto-completo-template.yml")
     if not template_path.exists():
         print(f"ERROR: No se encuentra la plantilla {template_path}")
         sys.exit(1)
@@ -301,7 +301,7 @@ def main():
     template = template_path.read_text(encoding='utf-8')
     final_config = template.replace("{version}", menor_version).replace("{chapters}", chapters_str)
     
-    config_path = Path("_quarto-completo.yml")
+    config_path = Path("recursos-completo/_quarto-completo.yml")
     config_path.write_text(final_config, encoding='utf-8')
     print(f"✓ Configuración de Quarto generada en {config_path}")
     print("==> [Python] Consolidación completada correctamente.")

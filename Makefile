@@ -26,7 +26,7 @@ all: $(LIBROS)
 # --- AUTO-CONSOLIDACIÓN Y VARIABLES DEL MANUAL COMPLETO ---
 _ := $(shell python3 tools/consolidar-completo.py)
 
-version_completo = $(shell $(SED_VERSION) _quarto-completo.yml | head -1)
+version_completo = $(shell $(SED_VERSION) recursos-completo/_quarto-completo.yml | head -1)
 fecha_corta_completo = $(shell iso=$$(git log -1 --format=%cs 2>/dev/null); \
 	[ -n "$$iso" ] || iso=$$(date +%F); echo "$${iso#??}" | tr -d -)
 sufijo_completo = $(version_completo)-$(fecha_corta_completo)
@@ -35,12 +35,21 @@ pdf_completo = $(PDF_OUT)/manual-completo-$(sufijo_completo).pdf
 epub_completo = $(EPUB_OUT)/manual-completo-$(sufijo_completo).epub
 rag_completo = $(RAG_OUT)/manual-completo-$(sufijo_completo).md
 
-# Los archivos qmd del manual completo en la raíz
-fuentes_raiz_completo = index.qmd licencia.qmd dedicatoria.qmd epigrafe.qmd reconocimientos.qmd introduccion.qmd apendice-syllabus-completo.qmd glosario.qmd bibliografia.qmd colofon.qmd contracubierta.qmd
+# Los qmd propios del manual completo (fuente + los que genera consolidar) viven
+# en recursos-completo/, salvo index.qmd, que Quarto exige en la raíz como home
+# page del libro. Los capítulos de las 9 asignaturas se añaden aparte en
+# fuentes_completo.
+fuentes_completo_propias = index.qmd recursos-completo/licencia.qmd recursos-completo/dedicatoria.qmd recursos-completo/epigrafe.qmd recursos-completo/reconocimientos.qmd recursos-completo/introduccion.qmd recursos-completo/apendice-syllabus-completo.qmd recursos-completo/glosario.qmd recursos-completo/bibliografia.qmd recursos-completo/colofon.qmd recursos-completo/contracubierta.qmd
 
-# Fuentes completas (todos los qmd e imágenes de todas las asignaturas más los de la raíz)
-fuentes_completo = $(fuentes_raiz_completo) \
+# Fuentes completas (los qmd propios del completo más los qmd e imágenes de las 9 asignaturas)
+fuentes_completo = $(fuentes_completo_propias) \
                    $(foreach libro,$(LIBROS),$(call fuentes_texto_de,$(libro)) $(call fuentes_imagen_de,$(libro)))
+
+# Imágenes de cubierta del completo. Van aparte (como fuentes_imagen_de por
+# libro): sólo las consumen PDF y EPUB, no el RAG. El template las declara en
+# cubierta:/epub-cover-image: (frente.jpg, la portada) y contracubierta:
+# (reverso.jpg); sin listarlas, cambiar la portada no rehace el entregable.
+fuentes_cover_completo = recursos-completo/frente.jpg recursos-completo/reverso.jpg
 
 # --- REGLAS GENERALES PARA CUALQUIER LIBRO ---
 # Los .qmd de cada libro son la fuente canónica: se editan a mano y ninguna
@@ -239,10 +248,10 @@ completo-pdf: $(pdf_completo)
 completo-epub: $(epub_completo)
 completo-rag: $(rag_completo)
 
-$(pdf_completo): $(fuentes_completo) $(fuentes_typst) _quarto-completo.yml
+$(pdf_completo): $(fuentes_completo) $(fuentes_cover_completo) $(fuentes_typst) recursos-completo/_quarto-completo.yml
 	@mkdir -p $(PDF_OUT)
 	@echo "==> [Quarto] Renderizando PDF (Typst) para Manual Completo..."
-	@cp _quarto-completo.yml _quarto.yml
+	@cp recursos-completo/_quarto-completo.yml _quarto.yml
 	quarto render . --to orange-book-es-typst \
 	  --metadata fecha-actualizacion="$$(iso=$$(git log -1 --format=%cs -- . 2>/dev/null || date +%F); \
 	    y=$$(echo $$iso | cut -d- -f1); m=$$(echo $$iso | cut -d- -f2); d=$$(echo $$iso | cut -d- -f3); \
@@ -255,10 +264,10 @@ $(pdf_completo): $(fuentes_completo) $(fuentes_typst) _quarto-completo.yml
 	@mv _book/*.pdf $@
 	@echo "✓ PDF del Manual Completo generado en $@"
 
-$(epub_completo): $(fuentes_completo) $(fuentes_epub) _quarto-completo.yml
+$(epub_completo): $(fuentes_completo) $(fuentes_cover_completo) $(fuentes_epub) recursos-completo/_quarto-completo.yml
 	@mkdir -p $(EPUB_OUT)
 	@echo "==> [Quarto] Renderizando EPUB para Manual Completo..."
-	@cp _quarto-completo.yml _quarto.yml
+	@cp recursos-completo/_quarto-completo.yml _quarto.yml
 	quarto render . --to epub \
 	  --metadata fecha-actualizacion="$$(iso=$$(git log -1 --format=%cs -- . 2>/dev/null || date +%F); \
 	    y=$$(echo $$iso | cut -d- -f1); m=$$(echo $$iso | cut -d- -f2); d=$$(echo $$iso | cut -d- -f3); \
@@ -271,7 +280,7 @@ $(epub_completo): $(fuentes_completo) $(fuentes_epub) _quarto-completo.yml
 	@mv _book/*.epub $@
 	@echo "✓ EPUB del Manual Completo generado en $@"
 
-$(rag_completo): $(fuentes_completo) tools/rag/construir.sh tools/rag/rag.lua _quarto-completo.yml
+$(rag_completo): $(fuentes_completo) tools/rag/construir.sh tools/rag/rag.lua recursos-completo/_quarto-completo.yml
 	@echo "==> [pandoc] Generando Markdown para RAG de Manual Completo..."
 	@tools/rag/construir.sh . \
 	  "$(call version_completo)" \
@@ -325,4 +334,4 @@ clean:
 	@for libro in $(LIBROS); do \
 		rm -rf $$libro/_book $$libro/.quarto; \
 	done
-	rm -f _quarto-completo.yml glosario.qmd apendice-syllabus-completo.qmd licencia.qmd dedicatoria.qmd reconocimientos.qmd bibliografia.qmd colofon.qmd contracubierta.qmd
+	rm -f recursos-completo/_quarto-completo.yml recursos-completo/glosario.qmd recursos-completo/apendice-syllabus-completo.qmd recursos-completo/licencia.qmd recursos-completo/dedicatoria.qmd recursos-completo/reconocimientos.qmd recursos-completo/bibliografia.qmd _quarto.yml
