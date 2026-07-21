@@ -6,6 +6,7 @@ BUILD_DIR = build
 PDF_OUT = $(BUILD_DIR)/pdf
 EPUB_OUT = $(BUILD_DIR)/epub
 RAG_OUT = $(BUILD_DIR)/rag
+WEB_OUT = $(BUILD_DIR)/web
 
 # Lista de libros de la colección (01 al 09)
 LIBROS = 01-derecho-aereo-atc \
@@ -18,7 +19,7 @@ LIBROS = 01-derecho-aereo-atc \
          08-aeronave-sistemas \
          09-navegacion
 
-.PHONY: all help clean rag $(LIBROS) completo completo-pdf completo-epub completo-rag
+.PHONY: all help clean rag web $(LIBROS) completo completo-pdf completo-epub completo-rag
 
 # Por defecto, compilar toda la colección de libros (01 a 09)
 all: $(LIBROS)
@@ -99,10 +100,13 @@ version_libro = $$($(SED_VERSION) $(1)/_quarto.yml | head -1)
 version_de = $(shell $(SED_VERSION) $(1)/_quarto.yml | head -1)
 fecha_corta_de = $(shell iso=$$($(GIT_FECHA_ISO) $(1)/ 2>/dev/null); \
 	[ -n "$$iso" ] || iso=$$(date +%F); echo "$${iso#??}" | tr -d -)
+fecha_iso_de = $(shell iso=$$($(GIT_FECHA_ISO) $(1)/ 2>/dev/null); \
+	[ -n "$$iso" ] || iso=$$(date +%F); echo "$$iso")
 sufijo_de = $(call version_de,$(1))-$(call fecha_corta_de,$(1))
 pdf_de = $(PDF_OUT)/$(1)-$(call sufijo_de,$(1)).pdf
 epub_de = $(EPUB_OUT)/$(1)-$(call sufijo_de,$(1)).epub
 rag_de = $(RAG_OUT)/$(1)-$(call sufijo_de,$(1)).md
+web_de = $(WEB_OUT)/$(1)-$(call sufijo_de,$(1)).web.tar.gz
 
 # El número de tema sale del prefijo del directorio (04-comunicaciones -> 4).
 numero_de = $(shell echo $(1) | cut -d- -f1 | sed 's/^0//')
@@ -137,6 +141,10 @@ fuentes_typst = $(wildcard _extensions/orange-book-es/*.typ) \
 # El EPUB no ejecuta nada de la extensión typst —ni el filtro, ni las funciones—:
 # sólo se lleva esta hoja, que cada _quarto.yml enlaza con include-in-header.
 fuentes_epub = _extensions/orange-book-es/epub-estilos.html
+
+# El HTML web se genera directamente con Quarto: necesita todas las fuentes e
+# imágenes como PDF/EPUB, pero no ejecuta los filtros exclusivos de Typst.
+fuentes_web = tools/web/construir.py
 
 # ⚠️ El paquete typst vendorizado (typst/packages/…/lib.typ) NO se lista, y no es
 # un olvido. Quarto lo copia a la caché de cada libro y NO la refresca cuando
@@ -231,8 +239,19 @@ $(call rag_de,$(1)): $(call fuentes_texto_de,$(1)) tools/rag/construir.sh tools/
 	  $$@
 	@echo "✓ Markdown para RAG generado en $$@"
 
+$(call web_de,$(1)): $(call fuentes_texto_de,$(1)) $(call fuentes_imagen_de,$(1)) $(fuentes_web)
+	@mkdir -p $(WEB_OUT)
+	@echo "==> [Quarto] Renderizando paquete web para $(1)..."
+	@tools/web/construir.py $(1) \
+	  "$$(call version_libro,$(1))" \
+	  "$(call fecha_iso_de,$(1))" \
+	  "$$(call estado_libro,$(1))" \
+	  "$$(call nota_libro,$(1))" \
+	  $$@
+	@echo "✓ Paquete web generado en $$@"
+
 .PHONY: $(1)
-$(1): $(call pdf_de,$(1)) $(call epub_de,$(1)) $(call rag_de,$(1))
+$(1): $(call pdf_de,$(1)) $(call epub_de,$(1)) $(call rag_de,$(1)) $(call web_de,$(1))
 endef
 
 $(foreach libro,$(LIBROS),$(eval $(call reglas_de_libro,$(libro))))
@@ -240,6 +259,9 @@ $(foreach libro,$(LIBROS),$(eval $(call reglas_de_libro,$(libro))))
 # Sólo los Markdown para RAG de los 9, sin recompilar PDF ni EPUB: es lo que se
 # recarga en el cuaderno de NotebookLM, y cuesta segundos en vez de minutos.
 rag: $(foreach libro,$(LIBROS),$(call rag_de,$(libro)))
+
+# Sólo los paquetes HTML para el sitio web.
+web: $(foreach libro,$(LIBROS),$(call web_de,$(libro)))
 
 # --- REGLAS PARA EL MANUAL COMPLETO (9 PARTES) ---
 completo: completo-pdf completo-epub completo-rag
@@ -298,14 +320,15 @@ $(rag_completo): $(fuentes_completo) tools/rag/construir.sh tools/rag/rag.lua re
 # Muestra los targets principales y los libros compilables.
 help:
 	@printf '%s\n' 'Targets disponibles:' ''
-	@printf '  make %-35s %s\n' 'all' 'Compila los 9 libros (PDF + EPUB + RAG).'
+	@printf '  make %-35s %s\n' 'all' 'Compila los 9 libros (PDF + EPUB + RAG + web).'
 	@printf '  make %-35s %s\n' 'completo' 'Compila el libro unificado completo (PDF + EPUB + RAG).'
 	@printf '  make %-35s %s\n' 'rag' 'Sólo los Markdown para RAG de los 9 libros.'
+	@printf '  make %-35s %s\n' 'web' 'Sólo los paquetes HTML para el sitio web.'
 	@printf '  make %-35s %s\n' 'estados' 'Muestra libro, versión y estado editorial.'
 	@printf '  make %-35s %s\n' 'clean' 'Borra build/, _book/, cachés y archivos unificados en raíz.'
 	@printf '%s\n' '' 'Libros:'
 	@for libro in $(LIBROS); do \
-		printf '  make %-35s %s\n' "$$libro" 'Compila ese libro (PDF + EPUB + RAG).'; \
+		printf '  make %-35s %s\n' "$$libro" 'Compila ese libro (PDF + EPUB + RAG + web).'; \
 	done
 
 # Imprime "libro|versión|estado" para los 9 libros, una línea por libro.

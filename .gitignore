@@ -17,6 +17,8 @@ _book/
 
 /.luarc.json
 .gstack/
+/notes/
+tools/web/__pycache__/
 
 /.quarto/
 **/*.quarto_ipynb
