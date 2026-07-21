@@ -53,6 +53,7 @@ Los ficheros `.qmd` de cada libro son la fuente canónica. No se generan desde o
 Reglas editoriales importantes:
 
 - Mantener el texto, los comentarios y los commits en español.
+- Seguir `GUIA_ILUSTRACIONES.md` al añadir o sustituir una figura.
 - Usar solo referencias cruzadas `@fig-...` y `@tbl-...`.
 - No usar `@cap-...`, `@sec-...` ni `@glos-...`.
 - Los IDs de figuras y tablas deben empezar por `fig-` o `tbl-`.
