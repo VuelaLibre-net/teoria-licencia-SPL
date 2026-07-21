@@ -71,7 +71,9 @@ rompe la compilación**.
 ---
 
 Los archivos `.qmd` de este repositorio son la **fuente canónica** de la colección: se editan
-directamente y no se generan a partir de ningún otro formato.
+directamente y no se generan a partir de ningún otro formato. Las figuras nuevas y las sustituciones
+siguen la [Guía de ilustraciones](GUIA_ILUSTRACIONES.md), que define su estilo técnico,
+accesibilidad, formatos, procedencia e inserción en Quarto.
 
 ---
 
