@@ -5,7 +5,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes del marco n
 **ACC (Centro de Control de Área / Area Control Centre)**
 : Dependencia ATS que presta el servicio de control de área a los vuelos bajo su jurisdicción.
 
-**AD (Directiva de Aeronavegabilidad / Airworthiness Directive; Aeródromos / Aerodromes)**
+**AD (Directiva de Aeronavegabilidad / Airworthiness Directive; Aeródromos)**
 : Abreviatura dependiente del contexto: una directiva de aeronavegabilidad es un requisito obligatorio para corregir una condición insegura; AD también identifica la sección de aeródromos del AIP.
 
 **AESA (Agencia Estatal de Seguridad Aérea)**

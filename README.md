@@ -6,14 +6,14 @@
 [![Syllabus AMC1 SFCL.130](https://img.shields.io/badge/Syllabus-AMC1%20SFCL.130%20(EASA--FCL)-003399.svg)](https://www.easa.europa.eu/)
 [![Quarto](https://img.shields.io/badge/Quarto-%E2%89%A5%201.9.17-75AADB.svg)](https://quarto.org/)
 [![Typst](https://img.shields.io/badge/Typst-0.15-239DAD.svg)](https://typst.app/)
-[![Formatos](https://img.shields.io/badge/Formatos-PDF%20%C2%B7%20EPUB%20%C2%B7%20MD%20para%20IA-E44D26.svg)](#instrucciones-de-compilación)
+[![Formatos](https://img.shields.io/badge/Formatos-PDF%20%C2%B7%20EPUB%20%C2%B7%20HTML%20%C2%B7%20MD%20para%20IA-E44D26.svg)](#instrucciones-de-compilación)
 
 `vuelo-a-vela` · `planeador` · `spl` · `easa-fcl` · `aesa` · `licencia-de-piloto` · `manual-de-formación` ·
 `temario-teórico` · `quarto` · `typst` · `epub` · `markdown-para-ia` · `rag` · `español`
 
 Este repositorio contiene la versión digitalizada de 9 libros que cubren el temario teórico para la obtención de la **Licencia de Piloto de Planeador (SPL)** bajo la regulación **EASA-FCL (European Union Aviation Safety Agency - Flight Crew Licensing)**, adaptada a los requerimientos de la **Agencia Estatal de Seguridad Aérea (AESA)** española.
 
-El contenido está en **Quarto Markdown (.qmd)** para la generación de entregables de alta calidad en formatos cómodos de editar por los colaboradores, **PDF (mediante el motor Typst)** y **EPUB (mediante Pandoc)**.
+El contenido está en **Quarto Markdown (.qmd)** para la generación de entregables de alta calidad en formatos cómodos de editar por los colaboradores: **PDF** (mediante Typst), **EPUB**, **Markdown para RAG** y un paquete **HTML** que se publica integrado en [VuelaLibre.net](https://vuelalibre.net).
 
 ---
 
@@ -95,7 +95,7 @@ Para poder compilar la colección completa, necesitarás contar con:
 El proyecto incluye un _Makefile_ para automatizar la compilación de los libros:
 
 ### Compilar la colección completa
-Genera los entregables en formatos PDF, EPUB y Markdown para todos los libros:
+Genera los entregables en formatos PDF, EPUB, Markdown para RAG y paquetes HTML para todos los libros:
 ```bash
 make
 ```
@@ -104,6 +104,7 @@ Los archivos finales se guardarán en:
 - `build/epub/` - Libros electrónicos adaptados para e-readers (Pandoc).
 - `build/rag/` - Markdown para cargar el libro en un asistente de estudio (NotebookLM y
   similares), un fichero por asignatura. Ver [Markdown para RAG](#markdown-para-rag).
+- `build/web/` - Paquetes `.web.tar.gz` para el lector HTML de VuelaLibre.net. Cada uno contiene el HTML semántico resuelto por Quarto, sus imágenes y un manifiesto de páginas.
 
 Cada entregable lleva en el nombre **el libro, su versión y su fecha** (`yymmdd`), de modo que un
 fichero descargado se identifica sin abrirlo y dos versiones del mismo libro no se pisan:
@@ -112,6 +113,7 @@ fichero descargado se identifica sin abrirlo y dos versiones del mismo libro no 
 build/pdf/09-navegacion-0.8.1-260716.pdf
 build/epub/09-navegacion-0.8.1-260716.epub
 build/rag/09-navegacion-0.8.1-260716.md
+build/web/09-navegacion-0.8.1-260716.web.tar.gz
 ```
 
 La fecha es la del último commit que tocó el libro —la misma que figura en su colofón—, no la de
@@ -148,6 +150,23 @@ que cada trozo se explique solo.
 
 Lo que sí entra íntegro es el temario: capítulos, apéndices, glosario y bibliografía.
 
+### Paquetes HTML para VuelaLibre.net
+
+El lector web no interpreta los `.qmd` directamente: Quarto resuelve primero títulos, figuras, referencias cruzadas, tablas, fórmulas, notas y recuadros. Después `tools/web/construir.py` empaqueta esa salida junto con un `manifest.json` que enumera las páginas publicables.
+
+```bash
+make web          # sólo los 9 paquetes HTML, sin recompilar PDF, EPUB ni RAG
+```
+
+Cada paquete publica la licencia, dedicatoria, reconocimientos, introducción, capítulos, apéndices, glosario y bibliografía. Se excluyen portada, epígrafe, guía de lectura repetida, colofón y contracubierta. El CI valida los nueve paquetes y sus **140 páginas** antes de entregarlos al sitio.
+
+En VuelaLibre.net, el lector se sirve bajo rutas estables como:
+
+```text
+https://vuelalibre.net/libros/navegacion/leer/
+https://vuelalibre.net/libros/navegacion/leer/navegacion-por-estima/
+```
+
 ### Limpiar la compilación
 Elimina los entregables generados (`build/`, `_book/`) y las cachés de Quarto. **No toca los `.qmd`,
 los `_quarto.yml` ni las `imagenes/`**, que son la fuente canónica:
@@ -173,7 +192,7 @@ git tag -a v0.9.0 -m "Descripción breve de la entrega"
 git push origin v0.9.0
 ```
 
-El tag compila y verifica con el CI **entero** (el mismo job, no una copia), y con los 27 entregables
+El tag compila y verifica con el CI **entero** (el mismo job, no una copia), y con los 36 entregables
 recién compilados crea una **release en borrador**. En unos minutos aparece en la pestaña _Releases_,
 todavía no visible al público.
 

@@ -1,0 +1,44 @@
+project:
+  type: book
+  output-dir: _book
+
+lang: es
+version: "{version}"
+repo-url: "https://github.com/VuelaLibre-net/teoria-licencia-SPL"
+cubierta: "recursos-completo/frente.jpg"
+contracubierta: "recursos-completo/reverso.jpg"
+
+book:
+  title: "Manual de formación teórica para la obtención de la Licencia de Piloto de Planeador (SPL)"
+  author: "VuelaLibre.net"
+  chapters:
+    # index.qmd DEBE vivir en la raíz: Quarto exige el home page del libro ahí
+    # («Book contents must include a home page»). El resto de propios van en
+    # recursos-completo/.
+    - index.qmd
+    - recursos-completo/licencia.qmd
+    - recursos-completo/dedicatoria.qmd
+    - recursos-completo/epigrafe.qmd
+    - recursos-completo/reconocimientos.qmd
+    - recursos-completo/introduccion.qmd
+{chapters}
+  appendices:
+    - recursos-completo/apendice-syllabus-completo.qmd
+    - recursos-completo/glosario.qmd
+    - recursos-completo/bibliografia.qmd
+    - recursos-completo/colofon.qmd
+    - recursos-completo/contracubierta.qmd
+
+format:
+  orange-book-es-typst:
+    toc: true
+    number-sections: true
+    keep-typ: true
+    margin:
+      top: 2.5cm
+      bottom: 2.5cm
+  epub:
+    strip-comments: true
+    toc: true
+    epub-cover-image: recursos-completo/frente.jpg
+    include-in-header: _extensions/orange-book-es/epub-estilos.html

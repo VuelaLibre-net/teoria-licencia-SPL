@@ -284,7 +284,7 @@ jobs:
         rm -f estados.txt
         exit $errores
 
-    - name: Compilar manuales a PDF, EPUB y Markdown para RAG
+    - name: Compilar manuales a PDF, EPUB, Markdown para RAG y HTML web
       # La salida se guarda para poder mirarla en el paso siguiente: Typst avisa
       # de las fuentes que no encuentra por stderr, pero NO falla por ello, así
       # que el aviso se pierde entre miles de líneas y `make` sale con 0.
@@ -632,11 +632,16 @@ jobs:
         pdfs=$(ls build/pdf/*.pdf 2>/dev/null | wc -l)
         epubs=$(ls build/epub/*.epub 2>/dev/null | wc -l)
         mds=$(ls build/rag/*.md 2>/dev/null | wc -l)
+        webs=$(ls build/web/*.web.tar.gz 2>/dev/null | wc -l)
         [ "$pdfs" -eq 9 ] || { echo "::error::Se esperaban 9 PDF y hay $pdfs"; errores=1; }
         [ "$epubs" -eq 9 ] || { echo "::error::Se esperaban 9 EPUB y hay $epubs"; errores=1; }
         [ "$mds" -eq 9 ] || { echo "::error::Se esperaban 9 Markdown para RAG y hay $mds"; errores=1; }
+        [ "$webs" -eq 9 ] || { echo "::error::Se esperaban 9 paquetes web y hay $webs"; errores=1; }
 
         exit $errores
+
+    - name: Verificar los paquetes web
+      run: python3 tools/web/validar.py
 
     - name: Subir artefactos PDF
       uses: actions/upload-artifact@v7
@@ -655,3 +660,9 @@ jobs:
       with:
         name: manuales-spl-rag
         path: build/rag/
+
+    - name: Subir artefactos HTML web
+      uses: actions/upload-artifact@v7
+      with:
+        name: manuales-spl-web
+        path: build/web/

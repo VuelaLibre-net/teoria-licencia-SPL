@@ -20,3 +20,5 @@ contributes:
           at: post-quarto
         - path: postit.lua
           at: post-quarto
+        - path: glosario-enlaces.lua
+          at: post-quarto

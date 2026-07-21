@@ -1,0 +1,53 @@
+# Reconocimientos {.unnumbered}
+
+Este manual es el fruto de un esfuerzo colaborativo dentro de la comunidad de vuelo sin motor. Queremos expresar nuestro más sincero agradecimiento a:
+
+* **Agencia Estatal de Seguridad Aérea (AESA)** y **EASA**, por proporcionar el marco normativo y documental que garantiza la seguridad de nuestras operaciones.
+* Los **Instructores de Vuelo (FI(S))** y **Examinadores (FE(S))** que han dedicado su tiempo a revisar técnicamente estas secciones para asegurar su rigor técnico.
+* A la comunidad de **VuelaLibre.net**, por impulsar iniciativas que modernizan y democratizan el acceso a la formación aeronáutica de calidad.
+* A todos los pilotos que, con su feedback constante, ayudan a que este manual sea una herramienta viva y en evolución.
+* A los autores de los manuales internacionales clásicos, cuya estructura ha servido de base para organizar el conocimiento de una forma pedagógica y accesible para las nuevas generaciones de pilotos de planeador y, en especial a:
+
+::: {.creditos}
+Iñaqui Ulibarri García de la Cueva
+
+:   SPL · FI(S) · FE(S)
+
+:   Campeón de España de Vuelo a Vela. Instructor y Examinador de Vuelo a Vela
+
+Pedro Berlinches
+
+:   SPL · FI(S) · PPL(A) · FES(A)
+
+:   Instructor y Examinador de Vuelo a Vela
+
+Luís Ferreira Escartín
+
+:   SPL · FI(S) · FE(S)
+
+:   Instructor y Examinador de Vuelo a Vela
+
+Encarnación Novillo-Fertrell Vázquez
+
+:   SPL · FI(S) · FE(S)
+
+:   Instructora y Examinadora de Vuelo a Vela
+
+Carlos Bravo Domínguez
+
+:   SPL · FI(S) · FE(S)
+
+:   Instructor y Examinador de Vuelo a Vela
+
+Sergi Pujol Rodríguez
+
+:   SPL · FI(S) · FE(S)
+
+:   Instructor y Examinador de Vuelo a Vela
+
+Ramón Gutiérrez Camus
+
+:   SPL
+
+:   Piloto de Vuelo a Vela. Edición técnica
+:::

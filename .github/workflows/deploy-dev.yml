@@ -1,0 +1,31 @@
+name: Redesplegar dev
+
+# Cuando el CI de `main` termina EN VERDE, avisa a Coolify para que reconstruya
+# dev.vuelalibre.net: su build (stage `books` con BOOKS_ASSETS_FROM=artifacts)
+# baja los artefactos manuales-spl-* de ese run de main. Sólo redeploy, sin
+# payload. La URL del webhook vive en los secretos del repo (ver DEPLOY.md §4).
+#
+# `workflow_run` se dispara al COMPLETARSE el workflow del CI; el `if` filtra los
+# runs que no sean un éxito para no redesplegar tras un fallo.
+on:
+  workflow_run:
+    workflows: ["Compilar Manuales SPL (CI)"]
+    types: [completed]
+    branches: [main]
+
+jobs:
+  redeploy:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    steps:
+      - name: Avisar a Coolify (dev)
+        env:
+          COOLIFY_DEPLOY_DEV: ${{ secrets.COOLIFY_DEPLOY_DEV }}
+          COOLIFY_TOKEN: ${{ secrets.COOLIFY_TOKEN }}
+        run: |
+          if [ -z "$COOLIFY_DEPLOY_DEV" ]; then
+            echo "::error::Falta el secreto COOLIFY_DEPLOY_DEV"; exit 1
+          fi
+          auth=()
+          [ -n "$COOLIFY_TOKEN" ] && auth=(-H "Authorization: Bearer $COOLIFY_TOKEN")
+          curl -fsSL -X POST "${auth[@]}" "$COOLIFY_DEPLOY_DEV"

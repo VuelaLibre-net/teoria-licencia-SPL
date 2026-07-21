@@ -3,91 +3,91 @@
 Este glosario contiene las definiciones y acrónimos más relevantes de Procedimientos Operativos aplicables a la licencia de piloto de planeador (SPL).
 
 **Aerofrenos (Spoilers)**
-: Superficies móviles situadas generalmente en el extradós alar, accionadas por el piloto, cuya función es destruir la sustentación y aumentar la resistencia aerodinámica para controlar la senda de aproximación. (Mencionado en: cap. 4)
+: Superficies móviles situadas generalmente en el extradós alar, accionadas por el piloto, cuya función es destruir la sustentación y aumentar la resistencia aerodinámica para controlar la senda de aproximación.
 
 **Aerotow (Remolque por avión)**
-: Método de lanzamiento en el que una aeronave a motor remolca al planeador mediante un cable flexible de longitud normalizada (generalmente entre 30 y 60 metros) hasta una altitud determinada. (Mencionado en: cap. 2)
+: Método de lanzamiento en el que una aeronave a motor remolca al planeador mediante un cable flexible de longitud normalizada (generalmente entre 30 y 60 metros) hasta una altitud determinada.
 
 **Altura de decisión (Decision Height / DH)**
-: Límite de altura preestablecido sobre el terreno por debajo del cual el piloto abandona la búsqueda de térmicas y se centra exclusivamente en el aterrizaje. En travesía se aplica como escalera: a 600 metros se elige la zona de aterrizaje, a 450 metros el campo definitivo y a 300 metros el piloto se compromete con el circuito. (Mencionado en: cap. 5)
+: Límite de altura preestablecido sobre el terreno por debajo del cual el piloto abandona la búsqueda de térmicas y se centra exclusivamente en el aterrizaje. En travesía se aplica como escalera: a 600 metros se elige la zona de aterrizaje, a 450 metros el campo definitivo y a 300 metros el piloto se compromete con el circuito.
 
 **Amerizaje (Ditching)**
-: Aterrizaje forzoso y controlado de una aeronave terrestre sobre una superficie de agua. (Mencionado en: cap. 6)
+: Aterrizaje forzoso y controlado de una aeronave terrestre sobre una superficie de agua.
 
 **Bail-out (Abandono del planeador)**
-: Procedimiento de emergencia que consiste en el salto en paracaídas desde una aeronave en vuelo cuando esta ya no es controlable o segura. (Mencionado en: cap. 8)
+: Procedimiento de emergencia que consiste en el salto en paracaídas desde una aeronave en vuelo cuando esta ya no es controlable o segura.
 
 **Base (Tramo de base / Base leg)**
-: Tramo del circuito de tráfico perpendicular a la prolongación del eje de la pista que conecta el tramo de viento en cola con el tramo final. (Mencionado en: cap. 4)
+: Tramo del circuito de tráfico perpendicular a la prolongación del eje de la pista que conecta el tramo de viento en cola con el tramo final.
 
 **Cable flojo (Slack line)**
-: Pérdida temporal de tensión en el cable de remolque durante el lanzamiento por avión, lo que puede provocar enredos o tirones violentos al tensarse de nuevo. (Mencionado en: cap. 2)
+: Pérdida temporal de tensión en el cable de remolque durante el lanzamiento por avión, lo que puede provocar enredos o tirones violentos al tensarse de nuevo.
 
 **Circuito de tráfico (Circuito de aeródromo)**
-: Trayectoria patrón y ordenada que describe una aeronave para realizar una aproximación y aterrizaje seguro. En planeadores consta típicamente de viento cruzado, viento en cola, base y final. (Mencionado en: cap. 4)
+: Trayectoria patrón y ordenada que describe una aeronave para realizar una aproximación y aterrizaje seguro. En planeadores consta típicamente de viento cruzado, viento en cola, base y final.
 
 **Engelamiento (Icing)**
-: Formación y acumulación de hielo sobre la estructura del planeador (borde de ataque, cúpula o superficies de control) al volar a través de humedad visible con temperaturas bajo cero, degradando drásticamente el rendimiento aerodinámico y aumentando la velocidad de pérdida. (Mencionado en: cap. 6)
+: Formación y acumulación de hielo sobre la estructura del planeador (borde de ataque, cúpula o superficies de control) al volar a través de humedad visible con temperaturas bajo cero, degradando drásticamente el rendimiento aerodinámico y aumentando la velocidad de pérdida.
 
 **Estela turbulenta (Wake turbulence)**
-: Turbulencia invisible y peligrosa (vórtices de punta de ala o flujo descendente de rotor) generada por el paso de aeronaves de gran masa o helicópteros en sustentación, que puede desestabilizar o dañar gravemente a un planeador que la atraviese. (Mencionado en: cap. 6)
+: Turbulencia invisible y peligrosa (vórtices de punta de ala o flujo descendente de rotor) generada por el paso de aeronaves de gran masa o helicópteros en sustentación, que puede desestabilizar o dañar gravemente a un planeador que la atraviese.
 
 **Fallo de lanzamiento**
-: Interrupción involuntaria de la tracción durante el despegue (por ejemplo, rotura de cable en torno o remolque, o fallo de motor del avión remolcador) que exige la ejecución inmediata del briefing de emergencia preestablecido. (Mencionado en: cap. 7)
+: Interrupción involuntaria de la tracción durante el despegue (por ejemplo, rotura de cable en torno o remolque, o fallo de motor del avión remolcador) que exige la ejecución inmediata del briefing de emergencia preestablecido.
 
 **Fallo de suelta (Towhook jam)**
-: Emergencia en remolque por avión en la que la anilla de suelta del planeador no libera el cable al ser accionada. Exige señalizar la situación al remolcador (posición elevada y lateral con balanceo de alas) para que este libere el cable desde su extremo, y planificar una aproximación final más alta de lo habitual con el cable colgando para librar los obstáculos previos a la pista. (Mencionado en: cap. 7)
+: Emergencia en remolque por avión en la que la anilla de suelta del planeador no libera el cable al ser accionada. Exige señalizar la situación al remolcador (posición elevada y lateral con balanceo de alas) para que este libere el cable desde su extremo, y planificar una aproximación final más alta de lo habitual con el cable colgando para librar los obstáculos previos a la pista.
 
 **Final (Tramo final / Final approach leg)**
-: Tramo alineado con el eje de la pista en el sentido del aterrizaje, desde el cual se gestiona el descenso mediante los aerofrenos hasta la toma y parada de la aeronave. (Mencionado en: cap. 4)
+: Tramo alineado con el eje de la pista en el sentido del aterrizaje, desde el cual se gestiona el descenso mediante los aerofrenos hasta la toma y parada de la aeronave.
 
 **FLARM**
-: Sistema electrónico de alerta de tráfico y prevención de colisiones de corto alcance diseñado especialmente para planeadores, que transmite la posición GPS tridimensional proyectada a otras aeronaves equipadas. (Mencionado en: cap. 6)
+: Sistema electrónico de alerta de tráfico y prevención de colisiones de corto alcance diseñado especialmente para planeadores, que transmite la posición GPS tridimensional proyectada a otras aeronaves equipadas.
 
 **Flutter (Flameo aeroelástico)**
-: Fenómeno físico de oscilaciones aeroelásticas autoexcitadas e inestables que afectan a las superficies sustentadoras o de control del planeador al superar la VNE, pudiendo destruir la estructura en segundos debido a la interacción del flujo de aire a alta velocidad con la flexibilidad estructural. (Mencionado en: cap. 7)
+: Fenómeno físico de oscilaciones aeroelásticas autoexcitadas e inestables que afectan a las superficies sustentadoras o de control del planeador al superar la VNE, pudiendo destruir la estructura en segundos debido a la interacción del flujo de aire a alta velocidad con la flexibilidad estructural.
 
 **Fusible de seguridad (Weak link)**
-: Eslabón o fusible metálico calibrado intercalado en el cable de remolque o torno, diseñado para romperse ante una sobretensión que supere los límites estructurales calculados antes de dañar al planeador o a la aeronave remolcadora. (Mencionado en: cap. 2)
+: Eslabón o fusible metálico calibrado intercalado en el cable de remolque o torno, diseñado para romperse ante una sobretensión que supere los límites estructurales calculados antes de dañar al planeador o a la aeronave remolcadora.
 
 **IMSAFE**
-: Acrónimo nemotécnico de autoevaluación psicofísica recomendado antes de cada vuelo: Illness (Enfermedad), Medication (Medicación), Stress (Estrés), Alcohol (Alcohol), Fatigue (Fatiga) y Eating (Alimentación). (Mencionado en: cap. 1)
+: Acrónimo nemotécnico de autoevaluación psicofísica recomendado antes de cada vuelo: Illness (Enfermedad), Medication (Medicación), Stress (Estrés), Alcohol (Alcohol), Fatigue (Fatiga) y Eating (Alimentación).
 
 **Las 7 S**
-: Regla nemotécnica utilizada para evaluar sistemáticamente la aptitud de un campo desde el aire en un aterrizaje fuera de campo: **Size** (Tamaño), **Shape** (Forma), **Slope** (Pendiente), **Surface** (Superficie), **Surroundings** (Alrededores/Obstáculos), **Stock** (Ganado/Animales) y **Sun** (Posición del Sol). (Mencionado en: cap. 5)
+: Regla nemotécnica utilizada para evaluar sistemáticamente la aptitud de un campo desde el aire en un aterrizaje fuera de campo: **Size** (Tamaño), **Shape** (Forma), **Slope** (Pendiente), **Surface** (Superficie), **Surroundings** (Alrededores/Obstáculos), **Stock** (Ganado/Animales) y **Sun** (Posición del Sol).
 
 **Lastre de agua (Water ballast)**
-: Agua cargada en tanques específicos situados en las alas para aumentar la masa del planeador y su carga alar, desplazando la curva polar de velocidades hacia valores más altos para volar más rápido con el mismo ángulo de planeo. (Mencionado en: cap. 3)
+: Agua cargada en tanques específicos situados en las alas para aumentar la masa del planeador y su carga alar, desplazando la curva polar de velocidades hacia valores más altos para volar más rápido con el mismo ángulo de planeo.
 
 **Outlanding (Aterrizaje fuera de campo / Toma fuera de campo)**
-: Procedimiento operativo planificado y ejecutado de aterrizaje preventivo fuera de un aeródromo autorizado, realizado en campos abiertos o agrícolas aptos debido a la ausencia de ascendencias térmicas o pérdida de altura utilizable. (Mencionado en: cap. 5)
+: Procedimiento operativo planificado y ejecutado de aterrizaje preventivo fuera de un aeródromo autorizado, realizado en campos abiertos o agrícolas aptos debido a la ausencia de ascendencias térmicas o pérdida de altura utilizable.
 
 **Paracaídas de emergencia**
-: Dispositivo individual de salvamento de accionamiento manual que el piloto de planeador lleva integrado como respaldo obligatorio o recomendado en el cockpit. (Mencionado en: cap. 8)
+: Dispositivo individual de salvamento de accionamiento manual que el piloto de planeador lleva integrado como respaldo obligatorio o recomendado en el cockpit.
 
 **PCC (Comprobación de mandos positiva / Positive Control Check)**
-: Verificación obligatoria tras el montaje del planeador en la que un asistente sujeta físicamente cada superficie de mando en el exterior mientras el piloto acciona los controles en cabina para verificar la integridad y correcto sentido del movimiento. (Mencionado en: cap. 1)
+: Verificación obligatoria tras el montaje del planeador en la que un asistente sujeta físicamente cada superficie de mando en el exterior mientras el piloto acciona los controles en cabina para verificar la integridad y correcto sentido del movimiento.
 
 **PIC (Piloto al mando / Pilot in Command)**
 : Piloto designado para el mando y encargado de la realización segura del vuelo.
 
 **Resbale lateral (Sideslip)**
-: Maniobra aerodinámica coordinada de forma cruzada (alerón a un lado, pedal al opuesto) por la cual se presenta el fuselaje de lado a la corriente libre, generando un incremento drástico de la resistencia aerodinámica que incrementa la tasa de descenso sin aumentar la velocidad. (Mencionado en: cap. 4)
+: Maniobra aerodinámica coordinada de forma cruzada (alerón a un lado, pedal al opuesto) por la cual se presenta el fuselaje de lado a la corriente libre, generando un incremento drástico de la resistencia aerodinámica que incrementa la tasa de descenso sin aumentar la velocidad.
 
 **Self-launch (Autolanzamiento)**
-: Capacidad de despegue y ascenso autónomo del planeador utilizando una unidad de potencia auxiliar motora integrada en la estructura (motoveleros TMG o veleros de motor retráctil). (Mencionado en: cap. 2)
+: Capacidad de despegue y ascenso autónomo del planeador utilizando una unidad de potencia auxiliar motora integrada en la estructura (motoveleros TMG o veleros de motor retráctil).
 
 **Térmica**
-: Columna o burbuja de aire caliente ascendente que se origina por el calentamiento solar desigual de la superficie del terreno y que constituye la fuente de sustentación fundamental para el vuelo sin motor. (Mencionado en: cap. 3)
+: Columna o burbuja de aire caliente ascendente que se origina por el calentamiento solar desigual de la superficie del terreno y que constituye la fuente de sustentación fundamental para el vuelo sin motor.
 
 **Torno (Lanzamiento por torno / Winch)**
-: Método de lanzamiento en el que un planeador es acelerado a alta velocidad sobre la pista mediante el enrollado rápido de un cable por un motor potente estacionario en el extremo de la pista, elevándolo hasta la altura de suelta en un ascenso muy inclinado. (Mencionado en: cap. 2)
+: Método de lanzamiento en el que un planeador es acelerado a alta velocidad sobre la pista mediante el enrollado rápido de un cable por un motor potente estacionario en el extremo de la pista, elevándolo hasta la altura de suelta en un ascenso muy inclinado.
 
 **Viento en cola (Tramo de viento en cola / Downwind)**
-: Tramo del circuito de tráfico aéreo paralelo a la pista activa realizado en sentido contrario a la dirección de aterrizaje, donde se ejecutan las comprobaciones previas al aterrizaje (lista FUSTALL). (Mencionado en: cap. 4)
+: Tramo del circuito de tráfico aéreo paralelo a la pista activa realizado en sentido contrario a la dirección de aterrizaje, donde se ejecutan las comprobaciones previas al aterrizaje (lista FUSTALL).
 
 **Vuelo de ladera (Ridge soaring)**
-: Técnica de planeo que consiste en volar aprovechando el viento dinámico ascendente desviado hacia arriba por el relieve de una montaña o cordillera en la cara de barlovento. (Mencionado en: cap. 3)
+: Técnica de planeo que consiste en volar aprovechando el viento dinámico ascendente desviado hacia arriba por el relieve de una montaña o cordillera en la cara de barlovento.
 
 **Vuelo de onda (Wave soaring)**
-: Técnica de planeo que aprovecha el flujo ondulatorio estacionario y laminar (onda orográfica) que se genera a sotavento de un sistema montañoso en condiciones de fuerte viento estable, permitiendo alcanzar grandes altitudes en el lado ascendente de las ondas. (Mencionado en: cap. 3)
+: Técnica de planeo que aprovecha el flujo ondulatorio estacionario y laminar (onda orográfica) que se genera a sotavento de un sistema montañoso en condiciones de fuerte viento estable, permitiendo alcanzar grandes altitudes en el lado ascendente de las ondas.

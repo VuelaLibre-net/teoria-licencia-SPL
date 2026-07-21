@@ -1,7 +1,7 @@
 name: Publicar release
 
 # Se dispara al empujar un tag de versión (v0.9.0, v1.0.0…). El flujo es:
-# tag -> compila y verifica con el CI -> publica los 27 entregables en una
+# tag -> compila y verifica con el CI -> publica los 36 entregables en una
 # release EN BORRADOR.
 #
 # En borrador a propósito: la parte mecánica y verificable se automatiza, pero
@@ -38,21 +38,21 @@ jobs:
       - name: Recoger los entregables que compiló el CI
         uses: actions/download-artifact@v7
         with:
-          # Los tres artefactos que sube el CI (manuales-spl-pdf/epub/rag). Se
+          # Los cuatro artefactos que sube el CI (manuales-spl-pdf/epub/rag/web). Se
           # aplanan en un solo directorio: la release los quiere sueltos, no en
           # tres carpetas.
           pattern: manuales-spl-*
           path: entregables
           merge-multiple: true
 
-      - name: Comprobar que están los 27
+      - name: Comprobar que están los 36
         # El CI ya verifica que hay 9 de cada antes de subirlos, pero aquí se
         # confirma que la descarga los ha traído: una release con menos
         # entregables de los que dice se publicaría igual de contenta.
         run: |
-          n=$(find entregables -type f \( -name '*.pdf' -o -name '*.epub' -o -name '*.md' \) | wc -l)
-          [ "$n" -eq 27 ] || { echo "::error::Se esperaban 27 entregables y hay $n"; exit 1; }
-          echo "27 entregables recogidos."
+          n=$(find entregables -type f \( -name '*.pdf' -o -name '*.epub' -o -name '*.md' -o -name '*.web.tar.gz' \) | wc -l)
+          [ "$n" -eq 36 ] || { echo "::error::Se esperaban 36 entregables y hay $n"; exit 1; }
+          echo "36 entregables recogidos."
 
       - name: Redactar las notas
         run: bash .github/notas-release.sh "${GITHUB_REF_NAME}" > notas.md
@@ -65,5 +65,5 @@ jobs:
             --draft \
             --title "${GITHUB_REF_NAME}" \
             --notes-file notas.md \
-            entregables/*.pdf entregables/*.epub entregables/*.md
+            entregables/*.pdf entregables/*.epub entregables/*.md entregables/*.web.tar.gz
           echo "Release ${GITHUB_REF_NAME} creada en BORRADOR. Revisa las notas y publícala a mano."

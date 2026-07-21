@@ -1,0 +1,973 @@
+# Glosario de términos
+
+Este glosario unificado contiene las definiciones y acrónimos más relevantes del marco normativo aeronáutico (EASA, OACI, normativa nacional) aplicables a la licencia de piloto de planeador (SPL) de todas las asignaturas.
+
+**ACC (Centro de Control de Área / Area Control Centre)**
+: Dependencia ATS que presta el servicio de control de área a los vuelos bajo su jurisdicción.
+
+**AD (Directiva de Aeronavegabilidad / Airworthiness Directive; Aeródromos)**
+: Abreviatura dependiente del contexto: una directiva de aeronavegabilidad es un requisito obligatorio para corregir una condición insegura; AD también identifica la sección de aeródromos del AIP.
+
+**ADM (Aeronautical Decision-Making)**
+: Toma de decisiones aeronáuticas. Proceso mental sistemático (por ejemplo, mediante el modelo DECIDE) empleado por el piloto para elegir la opción más segura como respuesta a un conjunto de circunstancias.
+
+**Aerofrenos (Spoilers)**
+: Superficies móviles situadas generalmente en el extradós alar, accionadas por el piloto, cuya función es destruir la sustentación y aumentar la resistencia aerodinámica para controlar la senda de aproximación.
+
+**Aerotow (Remolque por avión)**
+: Método de lanzamiento en el que una aeronave a motor remolca al planeador mediante un cable flexible de longitud normalizada (generalmente entre 30 y 60 metros) hasta una altitud determinada.
+
+**AESA (Agencia Estatal de Seguridad Aérea)**
+: Autoridad española responsable de la supervisión de la seguridad de la aviación civil y de la aplicación de la normativa aeronáutica dentro de sus competencias.
+
+**AFIL (Airborne Flight Plan — Plan de Vuelo en Vuelo)**
+: Plan de vuelo presentado desde el aire, sin haberlo tramitado antes del despegue. El piloto contacta con la dependencia ATC o FIS durante el vuelo para dar los datos del plan y solicitar entrada en espacio controlado.
+
+**AFIS (Aerodrome Flight Information Service)**
+: Servicio de información de aeródromo. El operador AFIS da a los pilotos información sobre viento, pista en uso y tráfico conocido, pero no emite autorizaciones ni controla el tráfico. La separación sigue siendo responsabilidad del piloto al mando.
+
+**AFM (Manual de Vuelo de la Aeronave / Aircraft Flight Manual)**
+: Documento aprobado que contiene las limitaciones, los procedimientos y los datos necesarios para operar la aeronave.
+
+**AGL (Sobre el nivel del terreno / Above Ground Level)**
+: Altura referida a la superficie del terreno situada debajo de la aeronave o del punto considerado.
+
+**AIC (Circular de Información Aeronáutica / Aeronautical Information Circular)**
+: Publicación con información aeronáutica que no reúne las condiciones para incluirla en el AIP o en un NOTAM.
+
+**AIP (Publicación de Información Aeronáutica / Aeronautical Information Publication)**
+: Publicación oficial que contiene información aeronáutica duradera y esencial para la navegación aérea, organizada en Generalidades (GEN), En Ruta (ENR) y Aeródromos (AD).
+
+**AIRAC (Reglamentación y Control de la Información Aeronáutica / Aeronautical Information Regulation and Control)**
+: Sistema de fechas comunes para publicar y hacer efectivos cambios aeronáuticos importantes y previsibles.
+
+**AIREP (Aircraft Report — Informe Meteorológico en Vuelo)**
+: Informe meteorológico oral que el piloto transmite por radio al FIS o ATC al encontrar condiciones peligrosas no pronosticadas: turbulencia fuerte, engelamiento severo, ondas orográficas intensas, tormentas o ceniza volcánica. Obligatorio conforme al Reglamento SERA y la normativa EASA Part-SAO.
+
+**AIRMET (Airmen’s Meteorological Information)**
+: Mensaje de información meteorológica para la aviación que alerta de fenómenos en ruta significativos para aeronaves que vuelan por debajo del FL100 (o FL150 en zonas montañosas). De especial relevancia para el vuelo VFR sin motor.
+
+**AIS (Servicio de Información Aeronáutica / Aeronautical Information Service)**
+: Servicio encargado de facilitar la información aeronáutica necesaria para la seguridad, regularidad y eficiencia de la navegación aérea.
+
+**ALERFA (Fase de alerta / Alert Phase)**
+: Fase declarada cuando existe preocupación por la seguridad de una aeronave y sus ocupantes.
+
+**ALRS (Servicio de alerta / Alerting Service)**
+: Servicio ATS que notifica a los organismos correspondientes las aeronaves que necesitan búsqueda y salvamento y coopera con ellos.
+
+**Altocúmulo lenticular (ACSL)**
+: Nube en forma de lenteja o platillo, estacionaria respecto al terreno a pesar de los vientos intensos. Su presencia indica flujo laminar de onda de montaña en la vertical. Es la señal visual que invita al vuelo de onda.
+
+**Altura de decisión (Decision Height / DH)**
+: Límite de altura preestablecido sobre el terreno por debajo del cual el piloto abandona la búsqueda de térmicas y se centra exclusivamente en el aterrizaje. En travesía se aplica como escalera: a 600 metros se elige la zona de aterrizaje, a 450 metros el campo definitivo y a 300 metros el piloto se compromete con el circuito.
+
+**AMA (Altitud Mínima de Área)**
+: Cifra impresa en cada cuadrícula de la carta (paralelos y meridianos cada 30') que indica una altitud de seguridad sobre el obstáculo más alto del recuadro, con un margen mínimo de 1000 ft (2000 ft en alta montaña). Se lee como millares y centenares de pies.
+
+**AMC (Medios Aceptables de Cumplimiento / Acceptable Means of Compliance)**
+: Medios no vinculantes publicados por EASA que ofrecen una forma reconocida de demostrar el cumplimiento de una norma.
+
+**AME (Médico Examinador Aéreo / Aero-Medical Examiner)**
+: Médico autorizado para realizar reconocimientos y emitir o tramitar certificados médicos aeronáuticos dentro de sus atribuciones.
+
+**Amerizaje (Ditching)**
+: Aterrizaje forzoso y controlado de una aeronave terrestre sobre una superficie de agua.
+
+**AMP (Programa de Mantenimiento de la Aeronave / Aircraft Maintenance Programme)**
+: Programa que establece las tareas y los intervalos de mantenimiento aplicables a una aeronave.
+
+**AMSL (Sobre el nivel medio del mar / Above Mean Sea Level)**
+: Altitud referida al nivel medio del mar.
+
+**ANDS (Error de aceleración de la brújula)**
+: Regla mnemotécnica inglesa *Accelerate North, Decelerate South*: en rumbos Este u Oeste, al acelerar la brújula tiende a marcar viraje al Norte y al decelerar, al Sur.
+
+**Anticiclón (H)**
+: Sistema de alta presión caracterizado por subsidencia (descenso suave y divergente del aire). Al descender, el aire se comprime y calienta, inhibiendo el desarrollo de nubes convectivas. En verano favorece las térmicas aunque limita su techo; en invierno puede atrapar nieblas y crear inversiones persistentes.
+
+**APP (Control de Aproximación / Approach Control)**
+: Dependencia ATS que presta servicio de control a los vuelos controlados que llegan a uno o más aeródromos o salen de ellos.
+
+**ARC (Certificado de Revisión de la Aeronavegabilidad / Airworthiness Review Certificate)**
+: Certificado que acredita que la aeronave ha superado la revisión de aeronavegabilidad exigida y mantiene su validez durante el periodo aplicable.
+
+**ASM (Gestión del espacio aéreo / Airspace Management)**
+: Función que administra el uso del espacio aéreo según las necesidades de sus distintos usuarios.
+
+**ATC (Control de Tránsito Aéreo / Air Traffic Control)**
+: Servicio de tránsito aéreo destinado a prevenir colisiones y a acelerar y mantener ordenadamente el movimiento del tránsito aéreo.
+
+**ATCO (Controlador de Tránsito Aéreo / Air Traffic Control Officer)**
+: Persona habilitada para prestar servicios de control de tránsito aéreo dentro de sus atribuciones.
+
+**ATFM (Gestión de Afluencia del Tránsito Aéreo / Air Traffic Flow Management)**
+: Función que ajusta la demanda de tránsito aéreo a la capacidad disponible del sistema.
+
+**ATIS (Automatic Terminal Information Service — Servicio Automático de Información Terminal)**
+: Grabación de voz en bucle continuo en una frecuencia VHF propia del aeródromo. Informa de la pista en servicio, condiciones meteorológicas (viento, visibilidad, nubes, QNH) e información operativa (obras, NOTAM, etc.). Cada boletín lleva una letra del alfabeto fonético que cambia cuando hay novedades significativas. Escúchalo antes de llamar a la Torre.
+
+**ATM (Gestión del Tránsito Aéreo / Air Traffic Management)**
+: Gestión integrada del tránsito y del espacio aéreo mediante los servicios de tránsito aéreo (ATS), la gestión del espacio aéreo (ASM) y la gestión de afluencia (ATFM).
+
+**Atmósfera Estándar Internacional (ISA)**
+: Modelo idealizado de referencia que define los valores estándar de presión (1013,25 hPa), temperatura (15 °C) y densidad del aire a nivel del mar, con un gradiente térmico estándar de 2 °C/1.000 ft. Es la base de calibración de todos los instrumentos aeronáuticos.
+
+**ATS (Servicios de Tránsito Aéreo / Air Traffic Services)**
+: Término genérico que engloba el control de tránsito aéreo (ATC), el servicio de información de vuelo (FIS) y el servicio de alerta (ALRS).
+
+**ATZ (Zona de tránsito de aeródromo / Aerodrome Traffic Zone)**
+: Espacio aéreo de dimensiones definidas establecido alrededor de un aeródromo para la protección de su tránsito.
+
+**AUT / TUE (Autorización de Uso Terapéutico)**
+: **Therapeutic Use Exemption**. Permiso oficial emitido por una organización antidopaje o autoridad aeronáutica (como WADA) que permite a un piloto de competición utilizar una medicación específica que normalmente requeriría su suspensión en un control antidopaje, salvaguardando su salud de base.
+
+**Autoinformación (broadcast)**
+: En aeródromos no controlados, cada piloto transmite voluntariamente su posición, altitud e intenciones en la frecuencia del aeródromo. No hay interlocutor que emita autorizaciones: la separación depende de todos los pilotos en la frecuencia.
+
+**AWY (Aerovía / Airway)**
+: Área de control o parte de ella dispuesta en forma de corredor.
+
+**Bail-out (Abandono del planeador)**
+: Procedimiento de emergencia que consiste en el salto en paracaídas desde una aeronave en vuelo cuando esta ya no es controlable o segura.
+
+**Base (Tramo de base / Base leg)**
+: Tramo del circuito de tráfico perpendicular a la prolongación del eje de la pista que conecta el tramo de viento en cola con el tramo final.
+
+**Bernoulli, teorema de**
+: Principio de la física de fluidos que establece que, en un fluido en movimiento, un aumento de la velocidad del flujo se corresponde con una disminución de la presión estática. En aerodinámica explica parte de la sustentación: el aire que acelera sobre el extradós genera una zona de baja presión que aspira el ala hacia arriba. Se complementa con el efecto acción-reacción de Newton (deflexión del flujo hacia abajo en el borde de salida).
+
+**Borrasca (Depresión / L)**
+: Sistema de baja presión atmosférica caracterizado por convergencia de aire en superficie que fuerza el ascenso, el enfriamiento y la formación de nubes, frentes y precipitación. Los vientos en superficie circulan en sentido antihorario en el hemisferio norte. La zona post-frontal es a menudo la más favorable para el vuelo a vela.
+
+**Brazo de palanca (Arm)**
+: Distancia horizontal medida desde el datum (línea de referencia) hasta el centro de gravedad de un elemento o peso a bordo del planeador.
+
+**Brisa anabática (viento anabático)**
+: Corriente de aire ascendente que se desarrolla de día a lo largo de las laderas de montaña cuando el sol calienta las vertientes orientadas al sur antes que el fondo del valle. Es una de las principales fuentes de térmicas en terreno montañoso.
+
+**Brisa catabática (viento catabático)**
+: Corriente de aire descendente que se forma al atardecer y durante la noche cuando el aire en contacto con las laderas se enfría por radiación y desciende por gravedad. En la restitución de ambas laderas puede generar ascendencias suaves en el centro del valle.
+
+**Brisa marina (sea breeze)**
+: Viento que sopla desde el mar hacia la tierra durante el día, originado por el calentamiento diferencial entre la superficie terrestre (que se calienta más rápido) y el mar. Al encontrarse con la masa cálida continental genera una línea de convergencia que puede explotarse como fuente de ascendencias para el cross-country.
+
+**CAA (Autoridad de Aviación Civil / Civil Aviation Authority)**
+: Denominación genérica de la autoridad aeronáutica de un Estado; en España, las competencias se reparten principalmente entre la DGAC y AESA.
+
+**Cable flojo (Slack line)**
+: Pérdida temporal de tensión en el cable de remolque durante el lanzamiento por avión, lo que puede provocar enredos o tirones violentos al tensarse de nuevo.
+
+**Cadena del error**
+: Sucesión de pequeñas decisiones erróneas, condiciones previas y errores latentes que, al alinearse e interactuar (como en el **modelo del queso suizo**), desencadenan un accidente o incidente.
+
+**CAMO (Organización de Gestión del Mantenimiento de la Aeronavegabilidad Continuada / Continuing Airworthiness Management Organisation)**
+: Organización aprobada para gestionar la aeronavegabilidad continuada de aeronaves dentro de sus atribuciones.
+
+**CAO (Organización Combinada de Aeronavegabilidad / Combined Airworthiness Organisation)**
+: Organización aprobada que puede ejercer privilegios de mantenimiento y de gestión de la aeronavegabilidad continuada dentro de su ámbito de aprobación.
+
+**Capa límite**
+: Delgada capa de aire que fluye directamente en contacto con la superficie del ala, donde la velocidad cae gradualmente desde la del flujo libre hasta cero en la superficie sólida. Puede ser **laminar** (flujo ordenado, mínima resistencia) o **turbulenta** (flujo caótico, mayor resistencia). El punto de transición entre ambos regímenes determina el rendimiento del perfil: un simple mosquito aplastado en el borde de ataque puede adelantarlo y degradar el planeo de forma medible.
+
+**CAPE (Convective Available Potential Energy)**
+: Energía Potencial Convectiva Disponible. Cuantifica la flotabilidad acumulada de una parcela de aire desde la superficie hasta el nivel de equilibrio. Se representa como el área entre la curva de la parcela y la curva de estado en el sondeo termodinámico. Valores orientativos: < 500 J/kg (día débil), 1.000–2.500 J/kg (excelente), > 3.500 J/kg (convección severa probable).
+
+**Carga alar**
+: Relación entre la masa total del planeador y la superficie de sus alas. Se expresa en kg/m² e influye directamente en las velocidades de crucero y de pérdida.
+
+**Carga de rotura (Ultimate load)**
+: Carga a la que la estructura falla de forma catastrófica. Se obtiene multiplicando la carga límite por el factor de seguridad de 1,5 establecido en CS 22.303.
+
+**Carga límite (Limit load)**
+: Carga máxima que la estructura puede soportar sin sufrir deformación permanente. Tras alcanzarla, la aeronave debe recuperar su forma original sin daños.
+
+**CAVOK (Visibilidad, nubes y tiempo presente mejores que los valores o condiciones prescritos)**
+: Término de los informes meteorológicos que sustituye determinados datos de visibilidad, tiempo presente y nubes cuando se cumplen simultáneamente las condiciones establecidas.
+
+**CDR (Ruta condicional / Conditional Route)**
+: Ruta ATS disponible únicamente cuando se cumplen las condiciones publicadas.
+
+**Centro de Presiones (CP)**
+: Punto de la cuerda aerodinámica donde se considera aplicado el vector resultante de la sustentación total del ala. No es fijo: se desplaza hacia adelante al aumentar el ángulo de ataque y hacia atrás al disminuirlo. Su movilidad obliga a situar el CG delante de su rango de movimiento para mantener la estabilidad longitudinal.
+
+**CG (Centro de gravedad)**
+: Punto teórico donde se considera aplicada la resultante de todas las fuerzas de gravedad que actúan sobre el planeador. Su ubicación longitudinal es clave para la estabilidad y el control del vuelo.
+
+**CIAIAC (Comisión de Investigación de Accidentes e Incidentes de Aviación Civil)**
+: Organismo oficial español encargado de investigar accidentes e incidentes graves de aviación civil con finalidad preventiva.
+
+**Cianosis**
+: Coloración azulada en la piel, labios y yemas de los dedos producida por una acusada deficiencia de oxígeno en la sangre, siendo uno de los síntomas físicos avanzados propios de la hipoxia.
+
+**Cinetosis**
+: Mareo producido por el movimiento (**motion sickness**), desencadenado en vuelo por un conflicto entre la información percibida por el sistema visual (que observa una cabina inmóvil) y el sistema vestibular del oído interno (que registra las aceleraciones y giros de la aeronave).
+
+**Circuito de tráfico (Circuito de aeródromo)**
+: Trayectoria patrón y ordenada que describe una aeronave para realizar una aproximación y aterrizaje seguro. En planeadores consta típicamente de viento cruzado, viento en cola, base y final.
+
+**Cizalladura (wind shear)**
+: Variación brusca de la velocidad y/o dirección del viento en una distancia corta, tanto en el plano horizontal como vertical. Especialmente peligrosa en la aproximación final, donde puede provocar una pérdida súbita de sustentación por caída de la velocidad indicada.
+
+**CoA (Certificado de Aeronavegabilidad)**
+: Documento que certifica que una aeronave se ajusta al diseño aprobado y se considera apta para el vuelo mientras se mantenga aeronavegable y cumpla los requisitos aplicables.
+
+**CofA (Certificado de Aeronavegabilidad / Certificate of Airworthiness)**
+: Documento que certifica que una aeronave se ajusta al diseño aprobado y se considera apta para el vuelo mientras se mantenga aeronavegable y cumpla los requisitos aplicables.
+
+**Colación (readback)**
+: El piloto repite textualmente al controlador las instrucciones o autorizaciones recibidas, confirmando que las ha escuchado y entendido. Obligatoria para autorizaciones de pista, rumbos, altitudes, QNH, códigos de transpondedor y cambios de frecuencia. Responder solo «Recibido» o «Wilco» en estos casos es una desviación del procedimiento OACI/EASA.
+
+**Collado barométrico (pantano barométrico)**
+: Región de transición entre dos anticiclones y dos borrascas opuestas en la que el gradiente de presión es prácticamente nulo. Genera vientos flojos y variables, visibilidad reducida por niebla o bruma en invierno, y riesgo de tormentas locales aisladas en verano.
+
+**Compensador (Trim)**
+: Dispositivo (de muelles o de pestaña aerodinámica) que alivia la presión que el piloto debe mantener sobre la palanca para conservar una velocidad determinada. Se acciona con el mando verde o un pulsador eléctrico.
+
+**Complacencia**
+: Estado mental limitante originado por la rutina y la familiaridad con el entorno, que genera una falsa sensación de seguridad e induce a omitir procedimientos básicos como las listas de comprobación.
+
+**Composite (Material compuesto)**
+: Material formado por fibras (vidrio o carbono) embebidas en resina. Domina la construcción de planeadores modernos por su relación resistencia/peso y su acabado aerodinámico liso (GRP: fibra de vidrio; CRP: fibra de carbono).
+
+**Conciencia situacional**
+: **Situational Awareness**. Percepción completa y asimilación adecuada de los elementos del vuelo en el presente, comprensión analítica de su estatus actual y proyección fiel de su tendencia hacia el futuro.
+
+**CPL (Licencia de Piloto Comercial / Commercial Pilot Licence)**
+: Licencia que permite ejercer atribuciones de piloto comercial dentro de las condiciones aplicables; no existe una CPL(S) independiente para planeadores.
+
+**Crepúsculo civil**
+: Periodo de transición entre el día y la noche. Para la aviación, la noche comienza al final del crepúsculo civil vespertino y termina al inicio del matutino, cuando el centro del sol está 6º por debajo del horizonte.
+
+**CS (Especificaciones de Certificación / Certification Specifications)**
+: Especificaciones técnicas empleadas en la certificación de aeronaves, productos y equipos.
+
+**CS-22 (Especificaciones de Certificación para Planeadores y Planeadores Propulsados / Certification Specifications for Sailplanes and Powered Sailplanes)**
+: Especificaciones EASA aplicables al diseño y la certificación de planeadores y planeadores propulsados.
+
+**CTA (Área de control / Control Area)**
+: Espacio aéreo controlado que se extiende hacia arriba desde un límite especificado sobre el terreno.
+
+**CTR (Zona de control / Control Zone)**
+: Espacio aéreo controlado que se extiende hacia arriba desde la superficie terrestre hasta un límite superior definido.
+
+**Cultura justa (Just Culture)**
+: Paradigma organizacional que reconoce la inevitabilidad del error humano no intencionado, tratándolo como una oportunidad de aprendizaje colectivo sin represalias, oponiéndose a todo encubrimiento o sanción punitiva irracional.
+
+**Cumulonimbus (Cb)**
+: Nube de desarrollo vertical extremo que puede alcanzar la tropopausa. Representa el peligro meteorológico más grave para la aviación ligera: turbulencia severa, granizo, rayos, lluvia torrencial y microbursts. La distancia de seguridad recomendada es de al menos 10–20 NM.
+
+**Curva polar**
+: Gráfica característica de cada modelo de planeador que relaciona la velocidad horizontal indicada (eje X, en km/h) con la tasa de descenso vertical (eje Y, en m/s) en condiciones de aire en calma. De ella se extraen la velocidad de mínimo descenso (vértice superior) y la velocidad de mejor planeo (tangente desde el origen). Es el "DNI" del planeador y la referencia para adaptar la velocidad al viento y a las zonas de ascenso o descenso.
+
+**Cúmulo (Cu)**
+: Nube convectiva de desarrollo vertical con base plana y contornos bien definidos. Su presencia indica inestabilidad y térmicas activas. La base de los cúmulos marca el nivel de condensación por ascenso (NCA/LCL) y puede calcularse con la fórmula: (T − Td) × 400 = altitud en pies.
+
+**Cúmulo congestus (Cu con)**
+: Fase de desarrollo vertical intenso del cúmulo, previa al cumulonimbus. Sus torres de "coliflor" con contornos aún definidos señalan convección vigorosa y riesgo de sobredesarrollo hacia Cb. Cuando la parte superior pierde definición y se hace fibrosa, el Cb ya está en marcha.
+
+**Cúpula (Canopy)**
+: Cubierta transparente de plexiglás de la cabina. Incorpora pestillos de bloqueo, ventilación y un mecanismo de suelta de emergencia que libera la cúpula completa para permitir el salto en paracaídas.
+
+**DALR (Dry Adiabatic Lapse Rate)**
+: Gradiente Adiabático Seco. Ritmo al que se enfría una parcela de aire sin saturar al ascender adiabáticamente: 3 °C por cada 1.000 ft. Es la clave del efecto Foehn en sotavento y de la fórmula de base de nubes.
+
+**DANA (Depresión Aislada en Niveles Altos)**
+: Sistema de baja presión que se desprende de la circulación general y queda aislado en altura sobre la Península Ibérica, especialmente en otoño. Genera precipitaciones intensas y tormentas severas que pueden durar días. Especialmente relevante en el área mediterránea.
+
+**Datum (Línea de referencia)**
+: Plano vertical imaginario a partir del cual se miden todas las distancias horizontales para calcular el centrado y el brazo de palanca de los componentes del planeador.
+
+**Datum WGS-84 (World Geodetic System 1984)**
+: Sistema geodésico de referencia mundial sobre el que el GNSS y la cartografía expresan las coordenadas. Configurar el receptor en un datum distinto puede desplazar la posición mostrada varios cientos de metros.
+
+**DECIDE**
+: Modelo estandarizado para la toma de decisiones aeronáuticas: Detectar, Estudiar, Considerar, Implementar, Determinar y Evaluar.
+
+**Deriva**
+: Desviación lateral de la trayectoria del planeador respecto al suelo provocada por el viento de costado (en navegación). En aerodinámica, se refiere a la superficie fija vertical de la cola (estabilizador vertical) que aporta estabilidad de guiñada.
+
+**Desorientación espacial**
+: Falsa apreciación de la posición, actitud o movimiento de la aeronave como consecuencia de ilusiones sensoriales originadas en el oído interno, obligando al piloto a desconfiar de sus sentidos y ampararse en los instrumentos.
+
+**Desvío**
+: Error local de la brújula causado por los campos magnéticos del propio planeador (tubos de acero, radio, instrumentos). Se corrige consultando la tablilla de desvíos de la cabina.
+
+**DETRESFA (Fase de peligro / Distress Phase)**
+: Fase declarada cuando existe certeza razonable de que una aeronave y sus ocupantes están amenazados por un peligro grave e inminente y necesitan ayuda inmediata.
+
+**DGAC (Dirección General de Aviación Civil)**
+: Órgano directivo encargado de formular la política del sector aéreo y ejercer las funciones que le atribuye la normativa española.
+
+**Diagrama V-n (envolvente de vuelo)**
+: Representación gráfica de los límites estructurales del planeador que relaciona la velocidad (V) con el factor de carga en Gs (n). Define la "caja" de operaciones seguras: dentro de la envolvente la estructura aguanta; fuera, se producen deformaciones permanentes o roturas. Según CS-22: categoría U (*Utility*) soporta de +5,3g a −2,65g a la velocidad V~A~, límites que se estrechan a +4,0g y −1,5g a V~D~; categoría A (*Acrobática*) de +7,0g a −5,0g. Estos límites solo son válidos respetando también los límites de velocidad.
+
+**Diedro (ángulo diedro)**
+: Ángulo hacia arriba que forman las alas respecto al plano horizontal, dando al planeador una forma de "V" abierta vista de frente. Proporciona estabilidad lateral: cuando un ala baja por una perturbación, recibe el flujo de aire con mayor ángulo de ataque efectivo, genera más sustentación y vuelve a la posición nivelada sin intervención del piloto.
+
+**Disbarismos (Barotraumas)**
+: Alteraciones orgánicas o dolor neurálgico originados por la expansión y contracción de pequeños volúmenes de gas atrapados en el cuerpo (senos paranasales, oído medio, intestinos) frente a los inevitables cambios en la presión atmosférica por la Ley de Boyle.
+
+**DME (Equipo Radiotelemétrico / Distance Measuring Equipment)**
+: Radioayuda que permite a una aeronave determinar la distancia oblicua respecto de una estación terrestre.
+
+**DOP (Dilución de la precisión)**
+: Degradación de la precisión del GNSS debida a la geometría de los satélites visibles: cuando están mal repartidos en el cielo, la posición calculada es menos precisa.
+
+**Dorsal (cuña de altas presiones / ridge)**
+: Extensión de un anticiclón en forma de lengua hacia una zona de menor presión. Comparte las características del sistema origen: subsidencia, cielos despejados, buen tiempo y ausencia de ascendencias convectivas.
+
+**Downburst (microburst / microrráfaga)**
+: Corriente descendente violenta generada bajo un cumulonimbus o cúmulo congestus al precipitar. Al impactar con el suelo se expande horizontalmente en todas direcciones. Particularmente peligroso en la aproximación final: primero genera un viento de cara falso (ganancia de sustentación engañosa) y segundos después un viento de cola que puede provocar el impacto con el terreno.
+
+**EASA (Agencia de la Unión Europea para la Seguridad Aérea / European Union Aviation Safety Agency)**
+: Agencia de la Unión Europea que desarrolla y supervisa el marco común de seguridad de la aviación civil dentro de sus competencias.
+
+**EDS (Sistema de Oxígeno a Demanda / Electronic Delivery System)**
+: Sistema electrónico de suministro de oxígeno a demanda que detecta la inspiración del piloto y libera un pulso de oxígeno en ese instante, multiplicando la autonomía de la botella de oxígeno al interrumpir el flujo durante la exhalación.
+
+**EET (Duración prevista / Estimated Elapsed Time)**
+: Tiempo que se estima necesario para llegar desde un punto de referencia a otro durante un vuelo.
+
+**Efecto Foehn (Foehn effect)**
+: Fenómeno por el que el aire que asciende en barlovento de una cordillera precipita y cede calor latente (siguiendo el SALR en la zona de nube), pero desciende en sotavento completamente seco, calentándose al DALR completo durante todo el descenso. La diferencia de temperatura entre los dos valles puede superar los 10–15 °C. La pared de Foehn (**Foehn wall**) es la acumulación de nubes estacionaria sobre la cresta en barlovento.
+
+**Efecto veleta**
+: Tendencia del planeador a alinearse automáticamente con la dirección del viento relativo gracias a la deriva. La distancia entre el CG y la deriva actúa como brazo de palanca que amplifica la fuerza correctora. Es el mecanismo que proporciona la estabilidad direccional del planeador.
+
+**Eficacia de mando**
+: Grado de respuesta de las superficies de control en función de la velocidad de vuelo. A alta velocidad, la presión dinámica es mayor y los mandos están duros y muy reactivos. A baja velocidad, disminuye y los mandos se vuelven blandos o "chiclosos". Esta pérdida de eficacia próxima a la velocidad de pérdida es una advertencia física directa: el ala se acerca al ángulo de ataque crítico.
+
+**ELT (Transmisor Localizador de Emergencia / Emergency Locator Transmitter)**
+: Baliza de aeronave destinada a transmitir una señal de emergencia y facilitar su localización.
+
+**Energía total (Variómetro de energía total / TE)**
+: Variómetro compensado (mediante sonda o antena TE) que descuenta las variaciones de altura provocadas por los cambios de velocidad del propio piloto, indicando únicamente el movimiento real de la masa de aire.
+
+**Engelamiento (icing)**
+: Formación de hielo en las superficies del planeador al volar en zonas con humedad visible y temperatura negativa (especialmente entre 0 °C y −15 °C). Altera el perfil alar, aumenta la velocidad de pérdida (**stall speed**) y puede opacificar la cúpula. Los planeadores no disponen de sistemas antihielo: la medida correctiva es descender a niveles de temperatura positiva.
+
+**EOBT (Hora estimada fuera de calzos / Estimated Off-Block Time)**
+: Hora prevista en la que la aeronave iniciará el movimiento asociado a la salida.
+
+**Error de viraje (regla "NO me paso / SÍ me paso")**
+: Error de la brújula al virar hacia rumbos Norte o Sur por efecto del *dip* magnético: al Norte la brújula se queda atrás (hay que sacar el viraje antes, "NO me paso") y al Sur se adelanta (hay que dejarla pasar, "SÍ me paso").
+
+**Escala**
+: Relación entre una distancia medida en la carta y la distancia real en el terreno. En la carta VFR estándar 1:500.000, 1 cm equivale a 5 km.
+
+**Espacio aéreo controlado**
+: Volumen de espacio aéreo (clases A a E) en el que se presta servicio de control. En clases C y D el VFR necesita autorización ATC y comunicación radio para entrar.
+
+**Estabilidad atmosférica**
+: Propiedad de la atmósfera que describe la tendencia de una parcela de aire desplazada verticalmente a regresar a su posición original (estable) o a continuar alejándose (inestable). El vuelo a vela vive de la inestabilidad. Una atmósfera estable impide el desarrollo de térmicas; una inestable las fomenta.
+
+**Estabilidad condicional**
+: Estado de la atmósfera que es estable para parcelas de aire seco pero inestable para parcelas saturadas. Si el aire asciende lo suficiente para condensar, el calor latente liberado lo mantiene más caliente que el entorno y la inestabilidad se dispara. Es la clave del sobredesarrollo de cúmulos hacia cumulonimbus en días húmedos.
+
+**Estabilidad dinámica**
+: Comportamiento de la aeronave en el tiempo tras una perturbación. Si las oscilaciones se amortiguan progresivamente, la estabilidad dinámica es **positiva**; si se mantienen, es **neutra**; si crecen, es **negativa** o divergente. Modos relevantes para el planeador: el fugoide (oscilación longitudinal lenta e inocua) y la tendencia espiral (divergencia lateral que puede derivar en picado en espiral si no se supervisa).
+
+**Estabilidad estática**
+: Tendencia inicial de la aeronave a responder a una perturbación. Si tiende a volver a su posición de equilibrio, la estabilidad estática es **positiva**; si se queda en la nueva posición, es **neutra**; si se aleja aún más del equilibrio, es **negativa**. La estabilidad estática positiva es la condición de diseño fundamental de todos los planeadores civiles de entrenamiento.
+
+**Estela turbulenta (Wake turbulence)**
+: Turbulencia invisible y peligrosa (vórtices de punta de ala o flujo descendente de rotor) generada por el paso de aeronaves de gran masa o helicópteros en sustentación, que puede desestabilizar o dañar gravemente a un planeador que la atraviese.
+
+**Estructura sándwich**
+: Técnica constructiva con dos capas finas y rígidas de fibra separadas por un núcleo ligero de espuma o nido de abeja. Logra gran rigidez con peso mínimo, pero es vulnerable a impactos puntuales que pueden causar delaminación interna invisible desde el exterior.
+
+**ETA (Hora prevista de llegada / Estimated Time of Arrival)**
+: Hora a la que se prevé que la aeronave llegue al punto o lugar de referencia correspondiente.
+
+**ETD (Hora prevista de salida / Estimated Time of Departure)**
+: Hora a la que se estima que la aeronave iniciará la salida.
+
+**Factor de carga (n)**
+: Relación entre la sustentación aerodinámica total y el peso del planeador, expresada en unidades *g*. En vuelo recto y nivelado: n = 1g. En un viraje de 60° de inclinación: n = 2g. El factor de carga eleva la velocidad de pérdida en proporción a su raíz cuadrada: a 2g, sube un 41%. Deflexiones bruscas y maniobras mal coordinadas en turbulencia pueden superar los límites del diagrama V-n.
+
+**Fallo de lanzamiento**
+: Interrupción involuntaria de la tracción durante el despegue (por ejemplo, rotura de cable en torno o remolque, o fallo de motor del avión remolcador) que exige la ejecución inmediata del briefing de emergencia preestablecido.
+
+**Fallo de suelta (Towhook jam)**
+: Emergencia en remolque por avión en la que la anilla de suelta del planeador no libera el cable al ser accionada. Exige señalizar la situación al remolcador (posición elevada y lateral con balanceo de alas) para que este libere el cable desde su extremo, y planificar una aproximación final más alta de lo habitual con el cable colgando para librar los obstáculos previos a la pista.
+
+**Fatiga**
+: Deterioro fisiológico del rendimiento físico o mental provocado por pérdida de sueño, ritmos circadianos alterados o esfuerzo mental sostenido; reduce drásticamente el tiempo de reacción o la capacidad para evaluar riesgos con sensatez.
+
+**FCL (Licencias de la Tripulación de Vuelo / Flight Crew Licensing)**
+: Parte del Reglamento (UE) n.º 1178/2011 relativa a las licencias de tripulación de vuelo; es distinta de la Part-SFCL específica para planeadores.
+
+**FE(S) (Examinador de Vuelo de Planeadores / Flight Examiner (Sailplanes))**
+: Examinador autorizado para realizar pruebas y verificaciones de competencia de planeadores dentro de sus atribuciones.
+
+**FES (Front Electric Sustainer)**
+: Sistema de propulsión eléctrica con hélice plegable montada en el morro y baterías de litio. De arranque instantáneo y gran fiabilidad, la hélice se pliega contra el fuselaje por la presión del aire al detenerse el motor.
+
+**FI(S) (Instructor de Vuelo de Planeadores / Flight Instructor (Sailplanes))**
+: Instructor autorizado para impartir instrucción de vuelo en planeadores dentro de sus atribuciones.
+
+**FIC (Centro de Información de Vuelo / Flight Information Centre)**
+: Dependencia establecida para prestar servicio de información de vuelo y servicio de alerta.
+
+**Final (Tramo final / Final approach leg)**
+: Tramo alineado con el eje de la pista en el sentido del aterrizaje, desde el cual se gestiona el descenso mediante los aerofrenos hasta la toma y parada de la aeronave.
+
+**FIR (Región de Información de Vuelo / Flight Information Region)**
+: Espacio aéreo de dimensiones definidas dentro del cual se facilitan servicios de información de vuelo y alerta.
+
+**FIS (Servicio de Información de Vuelo / Flight Information Service)**
+: Servicio cuya finalidad es facilitar asesoramiento e información útiles para la realización segura y eficaz de los vuelos.
+
+**FISO (Operador del Servicio de Información de Vuelo / Flight Information Service Officer)**
+: Personal habilitado para prestar el servicio de información de vuelo dentro de sus atribuciones.
+
+**FL (Nivel de vuelo / Flight Level)**
+: Superficie de presión constante expresada en centenas de pies y referida al reglaje altimétrico estándar de 1013,25 hPa.
+
+**Flaps**
+: Superficies del borde de salida que modifican la curvatura del ala: posiciones positivas para térmica y aterrizaje, negativas para reducir resistencia en transiciones rápidas. Presentes en veleros de alta competición.
+
+**FLARM**
+: Sistema electrónico de alerta de tráfico y prevención de colisiones de corto alcance diseñado especialmente para planeadores, que transmite la posición GPS tridimensional proyectada a otras aeronaves equipadas.
+
+**Flutter (Flameo aeroelástico)**
+: Fenómeno físico de oscilaciones aeroelásticas autoexcitadas e inestables que afectan a las superficies sustentadoras o de control del planeador al superar la VNE, pudiendo destruir la estructura en segundos debido a la interacción del flujo de aire a alta velocidad con la flexibilidad estructural.
+
+**FPL (Flight Plan — Plan de Vuelo)**
+: Datos del vuelo previsto que el piloto presenta ante las autoridades ATS antes de operar donde se preste servicio de control de tránsito aéreo (clases B, C y D, o aeródromos controlados; en clase E el VFR no necesita plan de vuelo, ni radio, ni autorización). Incluye tipo de aeronave, indicativo, aeródromo de origen y destino, ruta prevista, nivel de crucero y hora estimada.
+
+**Frente cálido**
+: Superficie de separación entre una masa de aire cálido que avanza sobre una masa fría preexistente. El ascenso es gradual (pendiente suave), lo que produce precipitaciones débiles y continuas, techos nubosos bajos y estabilidad: condiciones operativas pobres para el vuelo a vela. Sus precursores son los cirros descendentes (Ci → Cs → As → Ns).
+
+**Frente frío**
+: Superficie de separación donde una masa de aire frío y denso avanza en cuña bajo el aire cálido, forzándolo a ascender bruscamente. El paso del frente trae precipitaciones convectivas, chubascos y vientos racheados. La fase post-frontal suele ser la mejor del año para el vuelo a vela: atmósfera limpia, inestable y con buenas térmicas bajo cúmulos bien definidos.
+
+**Frente ocluido (oclusión)**
+: Estructura frontal que se forma cuando un frente frío alcanza y fusiona con el frente cálido que le precede, pinzando el aire cálido intermedio y forzándolo a ascender. Genera condiciones complejas: precipitaciones extensas, núcleos convectivos embebidos y mala visibilidad. Poco o nada aprovechable para el vuelo a vela.
+
+**FUA (Uso flexible del espacio aéreo / Flexible Use of Airspace)**
+: Concepto por el que el espacio aéreo se gestiona como un recurso común y se asigna dinámicamente según las necesidades.
+
+**Fugoide (modo fugoide)**
+: Modo de oscilación longitudinal lento y de largo período (30-50 segundos) en el que el planeador intercambia altitud y velocidad en ciclos suaves. Generalmente bien amortiguado y apenas perceptible si el piloto mantiene los mandos sujetos. No es peligroso por sí mismo, pero puede desconcertar al piloto inexperto que intenta corregirlo con entradas bruscas.
+
+**Fusible de seguridad (Weak link)**
+: Eslabón o fusible metálico calibrado intercalado en el cable de remolque o torno, diseñado para romperse ante una sobretensión que supere los límites estructurales calculados antes de dañar al planeador o a la aeronave remolcadora.
+
+**FZRA (Lluvia engelante / Freezing Rain)**
+: Precipitación líquida que cae a través de una capa con temperatura inferior a 0 °C. Las gotículas superenfriadas se congelan al impactar con las superficies del planeador, formando hielo opaco o transparente en el borde de ataque. Situación de emergencia: el único remedio es un cambio de rumbo 180° y descenso inmediato.
+
+**GAMET (General Area Meteorological Forecast)**
+: Pronóstico meteorológico de área para vuelos de aviación general por debajo del FL100, emitido por los proveedores meteorológicos nacionales. Informa de peligros como engelamiento, turbulencia, nieblas y tormentas en ruta.
+
+**Gancho de remolque (Towhook)**
+: Mecanismo de enganche y suelta rápida del cable de lanzamiento, habitualmente del fabricante Tost. El gancho de morro se usa para remolque por avión; el gancho de CG, para torno, e incorpora suelta automática (**back-release**) si el cable tira hacia atrás y abajo.
+
+**Gelcoat**
+: Capa exterior de resina de poliéster que protege la estructura de fibra contra la humedad y da el acabado liso característico. Sus enemigos son la radiación UV y los cambios bruscos de temperatura, que provocan el craqueado superficial.
+
+**GM (Material Guía / Guidance Material)**
+: Material explicativo no vinculante que ayuda a interpretar los requisitos y los medios aceptables de cumplimiento.
+
+**GNSS (Sistema Global de Navegación por Satélite)**
+: Término genérico para los sistemas de posicionamiento por satélite (GPS, Galileo, GLONASS, BeiDou). Necesita captar al menos cuatro satélites para una posición tridimensional.
+
+**Gotículas superenfriadas**
+: Gotículas de agua líquida que permanecen en estado líquido a temperaturas por debajo de 0 °C (hasta −40 °C). Son inestables: al impactar con cualquier superficie sólida se congelan casi instantáneamente. Son la causa principal del engelamiento en vuelo.
+
+**GPS (Global Positioning System)**
+: Sistema de posicionamiento por satélite original, operado por Estados Unidos. Es la constelación más conocida dentro del GNSS.
+
+**Granizo (GR)**
+: Precipitación sólida formada por capas alternas de hielo transparente y opaco, resultado de múltiples recirculaciones de las gotículas en las corrientes ascendentes de un cumulonimbus. Granos de más de 2 cm de diámetro pueden perforar la cúpula o dañar estructuralmente el fuselaje de fibra. El granizo puede caer lejos del núcleo visible del Cb, bajo el yunque.
+
+**GS (Velocidad suelo / Ground Speed)**
+: Velocidad real sobre el terreno, resultado de combinar la TAS con el viento. Es la que determina cuánto tardas en recorrer un tramo.
+
+**Handrail (Pasamanos)**
+: Referencia lineal grande y bien definida (una costa, una cordillera, una autopista) que se sigue para reorientarse cuando hay incertidumbre de posición.
+
+**Hiperventilación**
+: Respiración anormalmente rápida desencadenada por el estrés, el pánico o la ansiedad, generando una expulsión drástica de dióxido de carbono que provoca el estrechamiento de los vasos sanguíneos en el cerebro, reduciendo el flujo de oxígeno a pesar de volar a altitudes seguras.
+
+**Hipoxia**
+: Estado de déficit de oxígeno cerebral. Existen cuatro tipos: hipóxica (falta de presión transferencial en altitud), hipémica (mermas de transporte por CO), estancada e histotóxica (intoxicación orgánica celular por alcohol o drogas).
+
+**HJ (Periodo diurno, de orto a ocaso)**
+: Código que indica el periodo comprendido entre el orto y el ocaso.
+
+**IAIP (Documentación integrada de información aeronáutica / Integrated Aeronautical Information Package)**
+: Conjunto coordinado de publicaciones y productos de información aeronáutica, incluido el AIP y sus actualizaciones.
+
+**IAS (Velocidad indicada / Indicated Air Speed)**
+: Velocidad de la aeronave respecto al aire circundante tal como la indica el anemómetro, sin correcciones por temperatura ni densidad. Es la referencia para todos los límites aerodinámicos y estructurales (VNE, VA, velocidades de pérdida y curva polar).
+
+**IFR (Reglas de vuelo por instrumentos / Instrument Flight Rules)**
+: Reglas aplicables a los vuelos operados conforme al régimen de vuelo por instrumentos.
+
+**IGC (Registrador de vuelo / Logger)**
+: Dispositivo certificado que graba la traza GPS del vuelo en un archivo `.igc`, prueba del paso por los puntos de viraje para validar récords y medallas FAI.
+
+**IMSAFE**
+: Acrónimo nemotécnico de autoevaluación psicofísica recomendado antes de cada vuelo: Illness (Enfermedad), Medication (Medicación), Stress (Estrés), Alcohol (Alcohol), Fatigue (Fatiga) y Eating (Alimentación).
+
+**INCERFA (Fase de incertidumbre / Uncertainty Phase)**
+: Fase declarada cuando existe incertidumbre sobre la seguridad de una aeronave y sus ocupantes.
+
+**Interceptación (interception)**
+: Maniobra por la que una aeronave militar identifica a una aeronave civil y le da instrucciones mediante señales visuales o radio, regulada por SERA.11015. La aeronave interceptada debe seguir las instrucciones visuales del interceptor, notificarlo al ATS si es posible, intentar contacto en 121,5 MHz y seleccionar 7700 en el transpondedor; las instrucciones del interceptor prevalecen sobre las de cualquier otra fuente mientras se solicita aclaración.
+
+**Inversión térmica**
+: Capa atmosférica en la que la temperatura aumenta con la altitud en lugar de disminuir. Actúa como techo invisible que frena las térmicas por completo, limita la altura máxima de vuelo y atrapa contaminación y bruma en los niveles inferiores, degradando la visibilidad.
+
+**IR (Reglas de Ejecución / Implementing Rules)**
+: Requisitos jurídicamente vinculantes que desarrollan el Reglamento Base europeo de aviación civil.
+
+**Isógona (línea isogónica)**
+: Línea de la carta que une los puntos con igual valor de variación (declinación) magnética.
+
+**K-Index (índice K)**
+: Índice de estabilidad atmosférica que combina el gradiente vertical de temperatura entre 850 hPa y 500 hPa con la humedad en niveles medios. Es el indicador diario más usado por los volovelistas: K < 5 (día débil), 5–15 (buenas térmicas), 15–20 (excelente), 20–30 (excelente con chubascos), > 30 (alta probabilidad de tormentas).
+
+**LAPL (Licencia de Piloto de Aeronave Ligera / Light Aircraft Pilot Licence)**
+: Licencia europea para determinadas operaciones no comerciales con aeronaves ligeras, sujeta a las atribuciones y limitaciones aplicables.
+
+**Larguero (Spar)**
+: Viga principal que recorre el ala de punta a punta y soporta las cargas de flexión en vuelo. Un daño estructural en el larguero deja el ala fuera de servicio.
+
+**Las 7 S**
+: Regla nemotécnica utilizada para evaluar sistemáticamente la aptitud de un campo desde el aire en un aterrizaje fuera de campo: **Size** (Tamaño), **Shape** (Forma), **Slope** (Pendiente), **Surface** (Superficie), **Surroundings** (Alrededores/Obstáculos), **Stock** (Ganado/Animales) y **Sun** (Posición del Sol).
+
+**Lastre de agua (Water ballast)**
+: Agua cargada en tanques específicos situados en las alas para aumentar la masa del planeador y su carga alar, desplazando la curva polar de velocidades hacia valores más altos para volar más rápido con el mismo ángulo de planeo.
+
+**Lastre de cola (Fin ballast)**
+: Pequeño depósito de agua o soporte de pesas en la deriva que compensa el desplazamiento del CG producido por el lastre de las alas o por un piloto pesado, restaurando el centrado óptimo. Olvidar vaciarlo con un piloto ligero genera un CG peligrosamente retrasado.
+
+**Latitud**
+: Coordenada que mide la distancia angular al norte o al sur del Ecuador (latitud 0º), formada por los paralelos. Un minuto de latitud equivale a una milla náutica.
+
+**LCL (Nivel de Condensación por Elevación / Lifted Condensation Level)**
+: Altitud a la que una parcela de aire, al ser elevada adiabáticamente, alcanza su punto de saturación y comienza a condensar. En la práctica, es la altura de la base de los cúmulos. En el sondeo Skew-T se obtiene donde la curva de temperatura de la parcela intersecta la curva del punto de rocío.
+
+**LFC (Nivel de Convección Libre / Level of Free Convection)**
+: Altitud por encima de la cual una parcela de aire levantada artificialmente se vuelve más cálida que el entorno y asciende libremente sin necesidad de fuerza externa. Su cruce indica que la convección puede dispararse de forma autónoma. Si es demasiado bajo en un día caluroso, el riesgo de sobredesarrollo hacia Cb es alto.
+
+**LI (Índice de Levantamiento / Lifted Index)**
+: Diferencia entre la temperatura del ambiente y la de una parcela elevada adiabáticamente desde la superficie hasta el nivel de 500 hPa. Valores negativos indican inestabilidad: cuanto más negativo, mayor el potencial convectivo y la fuerza de las térmicas.
+
+**LiFePO4 (Batería de litio-ferrofosfato)**
+: Tecnología de batería ligera con curva de descarga plana (mantiene el voltaje hasta casi agotarse). Requiere cargadores específicos y un manejo cuidadoso para evitar incendios por cortocircuito.
+
+**Longitud**
+: Coordenada que mide la distancia angular al este o al oeste del meridiano de Greenwich (longitud 0º), formada por los meridianos. A diferencia de la latitud, un minuto de longitud varía con la latitud.
+
+**Loxodrómica (Línea de rumbo)**
+: Trayectoria que corta todos los meridianos con el mismo ángulo, es decir, de rumbo constante. Es algo más larga que la ortodrómica, pero más cómoda de volar; es la que usamos en planeador.
+
+**LSA (Ley de Seguridad Aérea)**
+: Denominación abreviada de la Ley 21/2003, de 7 de julio, de Seguridad Aérea.
+
+**Línea de convergencia**
+: Franja del espacio aéreo donde dos masas de aire de distinta procedencia se encuentran y el aire se ve forzado a ascender. Puede originarse por el choque de la brisa marina con la masa continental, por vientos catabáticos de dos laderas opuestas (restitución) o por diferencias orográficas. Ofrece ascendencias continuas y regulares, ideales para el vuelo de distancia.
+
+**L’Hotellier (Conector)**
+: Conector manual de rótula usado en las conexiones de mandos de muchos planeadores. Crítico para la seguridad: exige pin de seguridad (imperdible) además del muelle, y ha sido causa de numerosos accidentes por olvido de conexión.
+
+**Mando diferencial de alerones**
+: Sistema de varillaje que hace que el alerón que sube (ala interior del giro) recorra un ángulo mayor que el alerón que baja (ala exterior). Al generar más resistencia parásita en el ala interior, compensa parcialmente la resistencia inducida del ala exterior y reduce la guiñada adversa de forma mecánica. No la elimina completamente: la coordinación pie-mano sigue siendo necesaria.
+
+**Masa de aire**
+: Gran volumen de aire troposférico con propiedades físicas (temperatura y humedad) horizontalmente homogéneas adquiridas en su zona de origen. Su temperatura relativa respecto al suelo que sobrevuela determina si la atmósfera es inestable (aire frío sobre suelo caliente) o estable (aire cálido sobre suelo frío).
+
+**MAYDAY**
+: Señal internacional de socorro por radio, repetida tres veces. Se usa solo cuando hay peligro grave e inminente y se necesita asistencia inmediata. Impone silencio de radio absoluto en la frecuencia a todas las estaciones no implicadas. Usarlo de forma falsa o maliciosa es una infracción muy grave según la normativa EASA.
+
+**MED (Part-MED)**
+: Subparte de la normativa europea (EASA) que estipula y rige exhaustivamente todas las condiciones fisiológicas y médicas que debe cumplir un piloto para mantener y ejercer las atribuciones de su licencia de vuelo.
+
+**METAR (Meteorological Aerodrome Report)**
+: Informe meteorológico observacional codificado de un aeródromo que se emite a intervalos regulares (30 o 60 minutos), reportando viento, visibilidad, nubes, temperatura, punto de rocío y presión.
+
+**Microburst (microrráfaga)**
+: Ver Downburst.
+
+**Milla náutica (NM)**
+: Unidad de distancia de la navegación, igual a 1852 m, equivalente a un minuto de arco de latitud medido sobre un meridiano.
+
+**Modelo burbuja (bubble model)**
+: Modelo conceptual de la térmica en el que el calor se acumula sobre la fuente hasta que la masa de aire se desprende formando un vórtice anular. El ascenso es intermitente y el núcleo central sube más rápido que los bordes. El planeador debe centrarse en el núcleo para obtener el máximo ascenso.
+
+**Modelo columna / pluma (column/plume model)**
+: Modelo conceptual de la térmica en el que fuentes de calor intensas y persistentes generan un flujo convectivo continuo, similar al humo de una chimenea. El ascenso es más regular y duradero que en el modelo burbuja. Favorece el vuelo de distancia al reducir las maniobras de centrado.
+
+**Momento**
+: Efecto de giro o tendencia rotacional ejercida por un peso en función de su brazo de palanca respecto al datum. Se calcula multiplicando la masa del objeto por su brazo de palanca.
+
+**Monóxido de carbono (CO)**
+: Gas letal, inodoro e invisible derivado de los sistemas de escape. Se une a la hemoglobina bloqueando el transporte de oxígeno (hipoxia anémica), afectando a los pilotos de motovelero (TMG) incluso a baja altitud.
+
+**MTOW (Masa Máxima al Despegue / Maximum Take-Off Weight)**
+: Masa máxima autorizada o certificada con la que el planeador puede iniciar el vuelo, determinada por límites estructurales y de rendimiento aerodinámico.
+
+**Multitrayecto**
+: Fuente de error del GNSS por la que la señal de un satélite llega al receptor tras rebotar en el terreno o en estructuras, falseando ligeramente la medida de distancia.
+
+**Navegación a estima (Dead Reckoning)**
+: Método de deducir la posición a partir de un punto conocido aplicando rumbo, velocidad y tiempo transcurrido. Sus pequeños errores se acumulan, así que se confirma con referencias del terreno.
+
+**Navegación observada**
+: Técnica de fijar la posición reconociendo accidentes del terreno (ríos, carreteras, pueblos) y comparándolos con la carta.
+
+**NCA (Nivel de Condensación por Ascenso)**
+: Ver LCL. En terminología española, equivalente al LCL: la altura a la que se forma la base de los cúmulos. Estimación rápida: (T − Td) × 400 = altura en pies.
+
+**Niebla**
+: Suspensión de gotículas de agua microscópicas que reduce la visibilidad por debajo de 1.000 m. Invalida las operaciones VFR. Se distingue de la bruma (**mist**), que reduce la visibilidad entre 1.000 m y 5.000 m sin afectar el código CAVOK. En METAR se codifica como `FG` (niebla) o `BR` (bruma).
+
+**Niebla de advección**
+: Niebla que se forma cuando una masa de aire cálido y húmedo se desplaza horizontalmente sobre una superficie más fría (mar frío, valle nevado o costa), que enfría su base hasta la saturación. A diferencia de la de radiación, no depende del enfriamiento nocturno y puede persistir día y noche mientras dure el flujo.
+
+**Niebla de radiación**
+: Niebla que se forma durante las noches despejadas de otoño e invierno cuando el suelo pierde calor por radiación hacia el espacio, enfría el aire en contacto hasta el punto de rocío y produce condensación. Puede ser muy densa y persistir hasta mediados de la mañana. Especialmente frecuente en anticiclones invernales con vientos flojos.
+
+**NORDO (No Radio)**
+: Situación en que una aeronave ha perdido todas las comunicaciones bidireccionales por radio. El procedimiento: seleccionar 7600 en el transpondedor, mantenerse en VMC, aterrizar en el aeródromo adecuado más cercano y notificar por teléfono al aterrizar.
+
+**Norte magnético**
+: Punto hacia el que apuntan las agujas de la brújula. No coincide con el norte verdadero y se desplaza ligeramente cada año.
+
+**Norte verdadero (Geográfico)**
+: Punto por el que pasa el eje de rotación de la Tierra. Es el norte de referencia de los mapas y las cartas aeronáuticas.
+
+**NOTAM (Notice to airmen)**
+: Aviso distribuido por telecomunicaciones que contiene información aeronáutica cuyo conocimiento oportuno es esencial para las operaciones.
+
+**NSC (No Significant Clouds)**
+: Indicador en METAR/TAF que señala ausencia de nubes por debajo de 5.000 ft y ausencia de cumulonimbus. A diferencia de CAVOK, no implica visibilidad ≥ 10 km.
+
+**Nudo (kt)**
+: Unidad de velocidad igual a una milla náutica por hora (1 kt = 1,852 km/h).
+
+**OACI / ICAO (Organización de Aviación Civil Internacional / International Civil Aviation Organization)**
+: Agencia especializada de las Naciones Unidas que establece normas y métodos recomendados para la aviación civil internacional.
+
+**Ocaso**
+: Atardecer: instante en que el borde superior del disco solar desaparece por el horizonte oeste. No marca todavía el inicio de la noche aeronáutica (ver crepúsculo civil).
+
+**Onda de montaña (wave soaring)**
+: Oscilación ondulatoria del flujo de aire que se genera a sotavento de una cordillera cuando el viento es perpendicular a la cresta, supera un umbral de velocidad y existe una capa estable a la altura de la cresta. Permite el ascenso laminar hasta grandes altitudes. Los altocúmulos lenticulares son su señal visual. Los rotores en la base son el principal peligro.
+
+**Orto**
+: Amanecer: instante en que el borde superior del disco solar asoma por el horizonte este.
+
+**Ortodrómica (Círculo máximo)**
+: Trayectoria más corta entre dos puntos de la esfera terrestre. Su inconveniente es que el rumbo cambia continuamente al cruzar los meridianos.
+
+**Outlanding (Aterrizaje fuera de campo / Toma fuera de campo)**
+: Procedimiento operativo planificado y ejecutado de aterrizaje preventivo fuera de un aeródromo autorizado, realizado en campos abiertos o agrícolas aptos debido a la ausencia de ascendencias térmicas o pérdida de altura utilizable.
+
+**PAN PAN**
+: Señal internacional de urgencia por radio, repetida tres veces. Se usa cuando hay un problema serio de seguridad que necesita atención prioritaria del ATC, pero sin peligro grave e inminente ni necesidad de salvamento inmediato. A diferencia del MAYDAY, no impone silencio de radio al resto del tráfico.
+
+**Paracaídas de emergencia**
+: Dispositivo individual de salvamento de accionamiento manual que el piloto de planeador lleva integrado como respaldo obligatorio o recomendado en el cockpit.
+
+**Part-ML (Parte de mantenimiento de aeronaves ligeras)**
+: Parte del régimen europeo de aeronavegabilidad continuada aplicable a aeronaves ligeras, incluidos muchos planeadores.
+
+**Part-SAO (Operaciones de Planeadores / Sailplane Air Operations)**
+: Parte del Reglamento (UE) 2018/1976 que contiene los requisitos operativos aplicables a los planeadores.
+
+**Part-SFCL (Licencias de Tripulación de Vuelo de Planeadores / Sailplane Flight Crew Licensing)**
+: Parte del Reglamento (UE) 2018/1976 que regula las licencias, atribuciones, instructores y examinadores de planeadores.
+
+**PAVE**
+: Esquema simplificado y fundamental para ejecutar la evaluación sistemática y mitigación profiláctica de los riesgos de cualquier vuelo, dividido en: Piloto, Aeronave (**Aircraft**), Entorno (**enVironment**) y Presiones Externas.
+
+**PCC (Comprobación de mandos positiva / Positive Control Check)**
+: Verificación obligatoria tras el montaje del planeador en la que un asistente sujeta físicamente cada superficie de mando en el exterior mientras el piloto acciona los controles en cabina para verificar la integridad y correcto sentido del movimiento.
+
+**PIC (Piloto al mando / Pilot in Command)**
+: Piloto designado para el mando y encargado de la realización segura del vuelo.
+
+**PLB (Personal Locator Beacon)**
+: Baliza de localización personal portátil, de activación manual, que el piloto lleva consigo (bolsillo o arnés del paracaídas) y que transmite en 406 MHz a la red satelital de rescate.
+
+**Polar de velocidades**
+: Gráfico o curva matemática que relaciona la velocidad indicada (IAS) del planeador con su velocidad o tasa de caída (sink rate). Define las velocidades operativas óptimas.
+
+**Poliuretano (PU)**
+: Sistema de pintura acrílica de poliuretano que sustituye cada vez más al gelcoat de poliéster en los veleros modernos. Se aplica en capa fina (menos peso) y es más elástico, así que resiste mucho mejor el craqueado por UV y conserva el brillo más años; a cambio, deja menos margen para reparar a base de lijar y pulir.
+
+**PPL (Licencia de Piloto Privado / Private Pilot Licence)**
+: Licencia que permite ejercer atribuciones de piloto privado dentro de las condiciones aplicables.
+
+**Proyección Lambert (cónica conforme)**
+: Proyección cartográfica empleada en las cartas aeronáuticas de latitudes medias. Es "conforme" (conserva ángulos y formas), su escala es prácticamente constante y una línea recta se aproxima a una ortodrómica.
+
+**PTT (Push-to-Talk — Pulsar para Hablar)**
+: Botón de transmisión. Al pulsarlo, la radio pasa de recepción a emisión. Al soltarlo, vuelve a escuchar. En planeadores suele estar en la palanca de mando. Si se queda atascado, provoca la situación de micrófono bloqueado.
+
+**Pulsioxímetro**
+: Dispositivo de dedo recomendado en vuelos a gran altura que muestra la saturación de oxígeno en sangre (SpO₂). Permite al piloto detectar la hipoxia de forma objetiva antes de que aparezcan los primeros síntomas.
+
+**QDM**
+: Código Q con el rumbo magnético que debe seguir la aeronave para llegar a la estación de radiogoniometría (VDF). Si estás desorientado, pide un QDM al FIS y te darán el rumbo para llegar a la estación.
+
+**QFE (Reglaje altimétrico referido a un datum de aeródromo)**
+: Reglaje que hace que el altímetro indique la altura respecto del datum para el que se ha calculado y, en ese punto, marque aproximadamente cero.
+
+**QNE (Indicación con el reglaje altimétrico estándar)**
+: Indicación obtenida al calar 1013,25 hPa, empleada para expresar niveles de vuelo; no es una presión comunicada por una estación.
+
+**QNH (Reglaje altimétrico reducido al nivel medio del mar)**
+: Reglaje que permite al altímetro indicar altitud y, en tierra, aproximadamente la elevación del punto considerado.
+
+**RCC (Centro Coordinador de Salvamento / Rescue Coordination Centre)**
+: Dependencia responsable de coordinar las operaciones de búsqueda y salvamento dentro de una región asignada.
+
+**Regla del 1 en 60**
+: Aproximación de cálculo mental: desviarse 1 NM de la ruta tras volar 60 NM equivale a un error de rumbo de 1º. Sirve para corregir el rumbo sobre la marcha.
+
+**Resbale lateral (Sideslip)**
+: Maniobra aerodinámica coordinada de forma cruzada (alerón a un lado, pedal al opuesto) por la cual se presenta el fuselaje de lado a la corriente libre, generando un incremento drástico de la resistencia aerodinámica que incrementa la tasa de descenso sin aumentar la velocidad.
+
+**Resistencia inducida**
+: Componente de la resistencia aerodinámica que es subproducto directo de generar sustentación. Las diferencias de presión entre extradós e intradós hacen que el aire fluya alrededor de las puntas del ala formando torbellinos helicoidales que inclinan el vector de sustentación hacia atrás, creando una fuerza opuesta al avance. Es máxima a velocidades bajas; disminuye al aumentar la velocidad. Las alas de gran envergadura (alta relación de aspecto) la reducen notablemente.
+
+**Resistencia parásita**
+: Componente de la resistencia aerodinámica debida al movimiento del planeador a través del aire, independientemente de la sustentación generada. Incluye la fricción superficial, la resistencia de forma y la resistencia de interferencia entre superficies. Aumenta con el cuadrado de la velocidad: si la velocidad se dobla, la resistencia parásita se cuadruplica. A alta velocidad domina sobre la resistencia inducida.
+
+**Rigging (Montaje)**
+: Proceso de ensamblaje del planeador (fuselaje, alas y estabilizador) con la conexión de sus superficies de mando. Fase crítica de seguridad que exige método, ausencia de distracciones y verificación final con PCC.
+
+**RMZ (Zona de radio obligatoria / Radio Mandatory Zone)**
+: Espacio aéreo de dimensiones definidas en el que es obligatorio llevar y utilizar equipo de radio conforme a los requisitos publicados.
+
+**Rotor**
+: Vórtice turbulento de pequeña escala que se forma a sotavento del pie de una ladera o cordillera bajo la primera cresta de la onda de montaña. Genera turbulencia severa e impredecible a baja altura. Las nubes de rotor (**rotor clouds**) son estratos irregulares bajo la onda que señalan esta zona peligrosa.
+
+**RSC (Subcentro de Salvamento / Rescue Sub-Centre)**
+: Dependencia subordinada a un RCC que coordina operaciones de búsqueda y salvamento en una parte de su región.
+
+**SALR (Saturated Adiabatic Lapse Rate)**
+: Gradiente Adiabático Saturado. Ritmo al que se enfría una parcela de aire saturada (en formación de nube) al ascender adiabáticamente: aproximadamente 1,5 °C por cada 1.000 ft. Es menor que el DALR porque la condensación libera calor latente que "frena" el enfriamiento.
+
+**SAO (Sailplane Air Operations)**
+: Normativa operativa específica de EASA para pilotos al mando de planeadores. Fija reglas como la obligatoriedad del oxígeno por encima de 10.000 ft de altitud.
+
+**SAR (Búsqueda y salvamento / Search and Rescue)**
+: Organización y operaciones destinadas a localizar y auxiliar aeronaves y personas en peligro.
+
+**SB (Boletín de Servicio / Service Bulletin)**
+: Comunicación del fabricante con instrucciones, inspecciones o modificaciones cuya obligatoriedad depende del marco aplicable.
+
+**Self-launch (Autolanzamiento)**
+: Capacidad de despegue y ascenso autónomo del planeador utilizando una unidad de potencia auxiliar motora integrada en la estructura (motoveleros TMG o veleros de motor retráctil).
+
+**SERA (Reglas Europeas Estandarizadas del Aire / Standardised European Rules of the Air)**
+: Reglas del aire comunes establecidas por el Reglamento de Ejecución (UE) n.º 923/2012.
+
+**SFCL (Sailplane Flight Crew Licensing)**
+: Marco normativo europeo (EASA) que regula las licencias, el programa de estudios y la instrucción de vuelo para pilotos de planeador (SPL).
+
+**SHELL**
+: Modelo conceptual desarrollado por la OACI interconectando de forma unificada y armónica todos los vértices relativos al operador: **Software** (Procedimientos normativos), **Hardware** (La Aeronave), **Environment** (El Entorno físico), **Liveware** interior y **Liveware** externo (El piloto con respecto a otras personas).
+
+**SIGMET (Significant Meteorological Information)**
+: Mensaje de alerta que informa a las tripulaciones de fenómenos meteorológicos en ruta de gran relevancia para la seguridad: engelamiento severo (`SEV ICE`), turbulencia severa (`SEV TURB`), actividad de cenizas volcánicas o ciclones tropicales.
+
+**SIGWX (Significant Weather Chart)**
+: Mapa de Tiempo Significativo. Pronóstico a escala sinóptica que muestra la distribución de sistemas frontales, zonas de turbulencia e engelamiento, y otras áreas de meteorología significativa en una región geográfica. Imprescindible para la planificación de vuelos de distancia.
+
+**Sistema pitot-estática**
+: Conjunto de tomas de presión que alimenta los instrumentos básicos: el tubo Pitot mide la presión total (estática + dinámica) y las tomas estáticas, la presión ambiental. Su bloqueo (insectos, agua, hielo) deja al piloto sin indicación de velocidad y altura.
+
+**SNS (Sistema de Notificación de Sucesos)**
+: Sistema español para recibir y gestionar notificaciones de sucesos de aviación civil con fines de seguridad.
+
+**Sondeo termodinámico (Skew-T / Stüve)**
+: Diagrama que representa el perfil vertical de temperatura, temperatura del punto de rocío y viento en la atmósfera, obtenido mediante radiosondeo. Permite al piloto estimar la altura de las bases de cúmulos (LCL), el techo térmico, el riesgo de sobredesarrollo (LFC) y los índices de estabilidad (K-Index, CAPE, LI).
+
+**SPIC (Alumno piloto al mando / Student Pilot-in-Command)**
+: Alumno piloto que actúa como piloto al mando en un vuelo con un instructor que únicamente observa y no influye en el control de la aeronave.
+
+**SPL (Licencia de Piloto de Planeador / Sailplane Pilot Licence)**
+: Licencia de la Unión Europea, regulada por la Part-SFCL, que permite ejercer las atribuciones de piloto de planeador dentro de las condiciones aplicables.
+
+**Squawk**
+: Código de cuatro dígitos en base octal (0–7) que el transpondedor emite al ser interrogado por el radar secundario (SSR), permitiendo al controlador identificar la aeronave en pantalla. Código VFR estándar en Europa: 7000. Los códigos 7700 (emergencia), 7600 (NORDO) y 7500 (interferencia ilícita) son de uso exclusivo en esas situaciones.
+
+**SRM (Single-Pilot Resource Management)**
+: Gestión de recursos para pilotos solitarios. Habilidad para administrar todos los recursos disponibles (instrumentos, ATC, listas de chequeo) para operar de forma segura, reduciendo la carga de trabajo y minimizando el riesgo de errores sistemáticos.
+
+**SSR (Secondary Surveillance Radar — Radar Secundario de Vigilancia)**
+: Radar que interroga a los transpondedores a bordo y obtiene información codificada: código **squawk** (Modo A), altitud barométrica (Modo C) e identidad extendida (Modo S). Complementa al radar primario añadiendo en pantalla la etiqueta con número de vuelo y altitud.
+
+**Stau**
+: Efecto complementario al Foehn: acumulación de nubes y precipitación intensa en la ladera de barlovento de una cordillera, donde el aire húmedo asciende y condensa. Mientras en barlovento llueve (Stau), en sotavento el cielo puede estar despejado y la temperatura es varios grados más alta (Foehn).
+
+**Sustentador (Turbo)**
+: Motor auxiliar de baja potencia, generalmente de dos tiempos y escamoteable, incapaz de despegar por sí solo pero suficiente para mantener el vuelo y regresar a la base si fallan las térmicas.
+
+**Tablilla de desvíos**
+: Tarjeta instalada a la vista del piloto que indica la corrección a aplicar a la brújula en cada rumbo para compensar el desvío propio de la aeronave.
+
+**TAF (Terminal Aerodrome Forecast)**
+: Pronóstico meteorológico codificado que describe las condiciones meteorológicas esperadas en un aeródromo específico durante un periodo de tiempo determinado (típicamente 9, 24 o 30 horas).
+
+**TAS (Velocidad verdadera / True Air Speed)**
+: Velocidad real respecto a la masa de aire. Es la IAS corregida por densidad (crece aproximadamente un 2 % por cada 300 m de altitud, unos 6,5-7 % por cada 1.000 m) y el vector que marca hacia dónde apunta el morro.
+
+**Tendencia espiral**
+: Característica de estabilidad dinámica lateral presente en la mayoría de los planeadores: si se les abandona con un pequeño ángulo de inclinación, el alabeo crece lentamente hasta desarrollar un picado en espiral. El planeador es estáticamente estable en alabeo pero dinámicamente divergente en espiral cuando se deja sin supervisión. Es la causa fundamental de los accidentes por pérdida de control en condiciones de visibilidad reducida.
+
+**Teoría MacCready (Anillo MacCready)**
+: Método de optimización de velocidad de vuelo que indica la velocidad óptima a volar entre térmicas dada la intensidad esperada de la siguiente corriente térmica ascendente.
+
+**Tintas hipsométricas**
+: Sistema de coloreado del terreno en la carta (verdes para los valles, marrones para las montañas) que da una idea rápida del relieve.
+
+**TMA (Área de Control Terminal / Terminal Control Area)**
+: Área de control establecida normalmente en la confluencia de rutas ATS, en las inmediaciones de uno o más aeródromos importantes, cuyos límites son los publicados para cada TMA.
+
+**TMG (Motovelero de turismo / Touring Motor Glider)**
+: Planeador propulsado equipado con motor y hélice no retráctiles que puede despegar y ascender por sus propios medios.
+
+**TMZ (Zona de transpondedor obligatorio / Transponder Mandatory Zone)**
+: Espacio aéreo en el que es obligatorio llevar y operar un transpondedor con las capacidades exigidas; no impone por sí solo comunicación o escucha radio, salvo que también sea RMZ o así se publique.
+
+**Torno (Lanzamiento por torno / Winch)**
+: Método de lanzamiento en el que un planeador es acelerado a alta velocidad sobre la pista mediante el enrollado rápido de un cable por un motor potente estacionario en el extremo de la pista, elevándolo hasta la altura de suelta en un ascenso muy inclinado.
+
+**TR (Habilitación de tipo / Type Rating)**
+: Anotación en la licencia que acredita la capacitación para operar un tipo de aeronave cuando la normativa exige esa habilitación.
+
+**TRA (Área temporalmente reservada / Temporary Reserved Area)**
+: Volumen de espacio aéreo reservado temporalmente para una actividad determinada, cuyo tránsito por otras aeronaves puede autorizarse conforme a las condiciones aplicables.
+
+**Transmisión a ciegas (blind transmission)**
+: Procedimiento para cuando sospechas que tu receptor ha fallado pero el emisor sigue funcionando. Transmites regularmente posición e intenciones en la frecuencia correcta, precediendo cada mensaje con «Transmitiendo a ciegas debido a fallo del receptor», aunque no llegue ninguna respuesta.
+
+**Transpondedor (XPDR — Transponder)**
+: Equipo de a bordo que responde automáticamente a las interrogaciones del radar secundario (SSR) emitiendo un código **squawk** y, según el modo, la altitud barométrica o datos extendidos de identificación. Opera en la banda UHF (1.030/1.090 MHz), independientemente de la radio de voz. Imprescindible para ser visible por el TCAS de otros tráficos.
+
+**Tren retráctil**
+: Tren de aterrizaje que se recoge dentro del fuselaje para eliminar resistencia aerodinámica, habitualmente mediante una palanca manual. Su gestión disciplinada (extensión en viento en cola, siempre) forma parte de las listas de chequeo.
+
+**Triangulación (Líneas de posición)**
+: Técnica de fijar la posición cruzando al menos dos líneas de posición (por ejemplo, una carretera y la alineación con un pueblo).
+
+**Triángulo de velocidades (Triángulo del viento)**
+: Suma vectorial de la TAS, el viento y la GS que está en la base de todos los cálculos de la navegación a estima.
+
+**Tropopausa**
+: Límite superior de la troposfera, donde el gradiente térmico se anula y la temperatura se estabiliza. A media latitud se sitúa entre 8.000 m (invierno) y 12.000 m (verano). El yunque del cumulonimbus se extiende horizontalmente al alcanzar esta capa, que actúa como techo para la convección.
+
+**Troposfera**
+: Capa inferior de la atmósfera, desde el suelo hasta la tropopausa, donde se producen la totalidad de los fenómenos meteorológicos relevantes para la aviación. Contiene aproximadamente el 75 % de la masa del aire y casi todo el vapor de agua atmosférico.
+
+**TSA (Área temporalmente segregada / Temporary Segregated Area)**
+: Volumen de espacio aéreo reservado temporalmente y segregado del resto del tránsito mientras está activo.
+
+**TUC (Time of Useful Consciousness)**
+: Tiempo útil de conciencia. Intervalo crítico en el que el piloto retiene sus capacidades cognitivas y motoras para tomar medidas correctivas tras una interrupción del suministro de oxígeno a gran altitud. Se reduce rápidamente a mayor altura.
+
+**Turbulencia de estela (wake turbulence)**
+: Vórtices tubulares contrarrotantes generados por el paso de aeronaves de ala fija al producir sustentación, o por el flujo y vórtices de rotor de los helicópteros. Descienden lentamente y persisten varios minutos después del paso de la aeronave. Cruzarlos perpendicularmente puede inducir un momento de balanceo que supere los alerones del planeador. La separación mínima recomendada es de al menos 3 minutos tras aeronaves pesadas y 3 diámetros de rotor en proximidad de helicópteros en estacionario.
+
+**TWR (Torre de Control de Aeródromo / Aerodrome Control Tower)**
+: Dependencia ATS establecida para prestar servicio de control al tránsito de aeródromo.
+
+**Térmica**
+: Corriente convectiva ascendente de aire formada por el calentamiento diferencial del suelo. El sol calienta el terreno, el terreno calienta el aire en contacto y este asciende por flotabilidad. Es la fuente principal de sustentación en el vuelo a vela de distancia. Su intensidad depende del diferencial de temperatura suelo–atmósfera libre.
+
+**UOP (Incertidumbre de posición / Uncertainty of Position)**
+: Situación en la que el piloto no está seguro de su posición exacta. El protocolo es mantener el rumbo, confiar en la estima, buscar referencias grandes y, si persiste, asegurar una toma.
+
+**UTC (Tiempo Universal Coordinado / Hora Zulu)**
+: Referencia horaria única de la aviación, correspondiente a la hora del meridiano de Greenwich. Evita las confusiones por husos horarios y cambios estacionales; en España la hora local es UTC+1 en invierno y UTC+2 en verano.
+
+**VA (Velocidad de maniobra / Maneuvering Speed)**
+: Velocidad máxima a la que pueden aplicarse deflexiones totales en un solo mando sin causar daños estructurales. Por debajo de VA, ante una deflexión brusca completa, el planeador entra en pérdida antes de generar suficientes Gs para superar su límite de carga. Por encima de VA, esa protección desaparece. Importante: la VA no cubre entradas simultáneas en más de un eje de control; incluso por debajo de VA, combinar timón y palanca a fondo puede superar los límites estructurales.
+
+**VAC (Visual Approach Chart — Carta de Aproximación Visual)**
+: Carta de un aeródromo concreto con los puntos de notificación visual del CTR, frecuencias de la Torre, rutas preferentes de acceso y salida VFR y obstáculos del entorno. Publicada en el AIP España para cada aeródromo.
+
+**Vaguada (surco de bajas presiones / trough)**
+: Extensión de una borrasca en forma de lengua alargada hacia una zona de mayor presión. Concentra los efectos de la baja presión: inestabilidad, cúmulos convectivos, chubascos y turbulencia. Genera líneas de convergencia dinámica.
+
+**Variación magnética (Declinación)**
+: Diferencia angular entre el norte verdadero y el norte magnético en un punto dado. En la carta se representa con las líneas isógonas. Regla de cálculo: "Declinación Oeste, rumbo suma".
+
+**Variómetro**
+: Instrumento que indica la velocidad vertical del planeador. Es la herramienta esencial del vuelo sin motor para detectar y centrar ascendencias; en su variante de energía total descuenta las maniobras del piloto.
+
+**VDF (VHF Direction Finding — Radiogoniometría VHF)**
+: Sistema que determina el rumbo de una aeronave a partir de la dirección de su señal radio. Los códigos Q asociados (QDM, QDR, QTE) permiten al FIS indicar al piloto el rumbo para llegar o alejarse de la estación, útil en caso de desorientación.
+
+**Velocidad de mejor planeo (V~G~)**
+: Velocidad a la que el planeador obtiene su máxima distancia recorrida por unidad de altura perdida en aire en calma (máxima fineza, correspondiente al L/D máximo determinado por la tangente a la curva polar).
+
+**Velocidad de mínimo descenso (Minimum Sink Speed)**
+: Velocidad a la que el planeador pierde la menor cantidad de altura posible por unidad de tiempo (obtenida en el vértice superior de la curva polar), óptima para centrar y explotar térmicas débiles.
+
+**VFR (Reglas de vuelo visual / Visual Flight Rules)**
+: Reglas aplicables a vuelos realizados con referencias visuales y dentro de los mínimos meteorológicos y operativos correspondientes; la separación proporcionada por ATC depende de la clase de espacio aéreo y de los tráficos implicados.
+
+**VHF (Very High Frequency — Muy Alta Frecuencia)**
+: Banda de radiofrecuencia entre 30 MHz y 300 MHz. Las comunicaciones aeronáuticas civiles de voz van en la sub-banda de 118,000 a 136,975 MHz con modulación de amplitud (AM). Las ondas VHF viajan en línea recta (**line of sight**), por lo que el alcance crece con la altitud. Espaciado de canales en Europa: 8,33 kHz desde el Reglamento (UE) n.º 1079/2012.
+
+**Viento en cola (Tramo de viento en cola / Downwind)**
+: Tramo del circuito de tráfico aéreo paralelo a la pista activa realizado en sentido contrario a la dirección de aterrizaje, donde se ejecutan las comprobaciones previas al aterrizaje (lista FUSTALL).
+
+**Viento geostrófico**
+: Viento que sopla paralelo a las isobaras en niveles superiores a 1.000 m sobre el suelo, resultado del equilibrio entre la fuerza del gradiente de presión y la fuerza de Coriolis. En superficie, la fricción rompe este equilibrio y el viento cruza las isobaras hacia la baja presión con un ángulo de unos 30°.
+
+**Virga**
+: Precipitación que cae desde la base de una nube pero se evapora antes de alcanzar el suelo. La evaporación absorbe calor de la columna de aire, que se vuelve densa y desciende violentamente generando una microrráfaga (**downburst**). La virga es un aviso visual de turbulencia severa y cizalladura debajo de ella, incluso en cielos aparentemente despejados.
+
+**VMC (Condiciones meteorológicas visuales / Visual Meteorological Conditions)**
+: Condiciones de visibilidad y distancia a nubes iguales o superiores a los mínimos aplicables.
+
+**VNE (Velocidad de nunca exceder / Never Exceed Speed)**
+: Límite absoluto de velocidad del planeador, indicado por la línea roja en el anemómetro. Superarla expone el planeador al riesgo de flutter aeroelástico, que puede desintegrar la estructura en segundos, sin previo aviso. La VNE disminuye con la altitud porque la TAS crece respecto a la IAS en aire menos denso. Cerca de la VNE, las deflexiones de mando deben limitarse a un tercio de su recorrido total. Regulada en CS-22.1505.
+
+**VOLMET**
+: Emisión meteorológica continua para aeronaves en vuelo. Retransmite METAR, TAF y SIGMET de varios aeropuertos de una región en bucle. A diferencia del ATIS, que cubre un solo aeródromo, el VOLMET permite evaluar condiciones en múltiples alternos sin saturar la frecuencia de control.
+
+**VOR (Radiofaro omnidireccional VHF / VHF Omnidirectional Radio Range)**
+: Radioayuda que proporciona radiales magnéticos respecto de una estación terrestre.
+
+**VRA (Velocidad máxima en aire turbulento / Rough Air Speed)**
+: Velocidad máxima a la que puede volarse en aire turbulento. Es la marca que separa los arcos del anemómetro según CS 22.1545: en la VRA termina el arco verde (operación normal) y empieza el amarillo (precaución, solo aire en calma). No debe confundirse con la VA, que es un límite estructural frente a deflexiones de mando y no se marca en la esfera, aunque en muchos veleros ambas tengan valores próximos.
+
+**Vuelo de ladera (Ridge soaring)**
+: Técnica de planeo que consiste en volar aprovechando el viento dinámico ascendente desviado hacia arriba por el relieve de una montaña o cordillera en la cara de barlovento.
+
+**Vuelo de onda (Wave soaring)**
+: Técnica de planeo que aprovecha el flujo ondulatorio estacionario y laminar (onda orográfica) que se genera a sotavento de un sistema montañoso en condiciones de fuerte viento estable, permitiendo alcanzar grandes altitudes en el lado ascendente de las ondas.
+
+**WADA (World Anti-Doping Agency)**
+: Agencia Mundial Antidopaje. Organización internacional que regula y controla exhaustivamente el consumo de sustancias y dopaje en deportistas de competición, siendo los campeonatos de vuelo a vela sometidos también a este mismo estándar.
+
+**WCA (Ángulo de corrección de deriva / Wind Correction Angle)**
+: Ángulo que se aplica al rumbo, apuntando el morro hacia el viento, para compensar la deriva y mantener la trayectoria deseada sobre el terreno.
+
+**Zona peligrosa (D de Danger)**
+: Área del espacio aéreo de dimensiones definidas en la que pueden existir o desarrollarse actividades peligrosas para el vuelo en momentos específicos.
+
+**Zona prohibida (P de Prohibited)**
+: Área del espacio aéreo de dimensiones definidas sobre territorio terrestre o aguas jurisdiccionales cuyo vuelo está prohibido.
+
+**Zona restringida (R de Restricted)**
+: Área del espacio aéreo de dimensiones definidas en la que el vuelo está sometido a condiciones restrictivas especificadas.
+
+**Zonas P/R/D**
+: Zonas de la carta con restricciones de uso del espacio aéreo: P (prohibida), R (restringida) y D (peligrosa), identificadas con una letra y un número (p. ej. LER-71). No son clases de espacio aéreo.
+
+**Ángulo de ataque crítico**
+: Ángulo de ataque máximo que el ala puede soportar antes de que el flujo de aire se desprenda del extradós y la sustentación se destruya. Para la mayoría de los perfiles de planeador se sitúa entre 15° y 18°. Su superación, sea cual sea la velocidad, el peso o la altitud, provoca siempre la pérdida (**stall**).
+

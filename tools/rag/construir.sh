@@ -20,12 +20,17 @@ libro=$1; version=$2; fecha=$3; estado=$4; numero=$5; salida=$6
 aqui=$(dirname "$0")
 filtro=$aqui/rag.lua
 
-[ -f "$libro/_quarto.yml" ] || { echo "construir.sh: no existe $libro/_quarto.yml" >&2; exit 1; }
+config="$libro/_quarto.yml"
+if [ "$libro" = "." ] && [ -f "_quarto-completo.yml" ]; then
+  config="_quarto-completo.yml"
+fi
 
-titulo=$(sed -n 's/^  title: *"\{0,1\}\([^"]*\)"\{0,1\}/\1/p' "$libro/_quarto.yml" | head -1)
-repo=$(sed -n 's/^repo-url: *"\{0,1\}\([^"]*\)"\{0,1\}/\1/p' "$libro/_quarto.yml" | head -1)
+[ -f "$config" ] || { echo "construir.sh: no existe $config" >&2; exit 1; }
 
-[ -n "$titulo" ] || { echo "construir.sh: $libro sin title en _quarto.yml" >&2; exit 1; }
+titulo=$(sed -n 's/^  title: *"\{0,1\}\([^"]*\)"\{0,1\}/\1/p' "$config" | head -1)
+repo=$(sed -n 's/^repo-url: *"\{0,1\}\([^"]*\)"\{0,1\}/\1/p' "$config" | head -1)
+
+[ -n "$titulo" ] || { echo "construir.sh: $libro sin title en $config" >&2; exit 1; }
 
 # Los ficheros y su orden salen de _quarto.yml, no de un glob: es lo que Quarto
 # compone y así el RAG no se desincroniza del libro publicado. Se descartan los
@@ -36,8 +41,8 @@ repo=$(sed -n 's/^repo-url: *"\{0,1\}\([^"]*\)"\{0,1\}/\1/p' "$libro/_quarto.yml
 # El rango va de `chapters:` a `format:` de una vez, y NO en dos tramos
 # (chapters y appendices por separado): `appendices:` cae dentro del primer
 # tramo, así que pedir los dos mete cada apéndice DOS veces en el entregable.
-lista=$(sed -n '/^  chapters:/,/^format:/p' "$libro/_quarto.yml" \
-  | sed -n 's/^    - \(.*\.qmd\)$/\1/p' \
+lista=$(sed -n '/^  chapters:/,/^format:/p' "$config" \
+  | sed -n 's/^[[:space:]]*- \(.*\.qmd\)$/\1/p' \
   | grep -vxE 'index\.qmd|licencia\.qmd|dedicatoria\.qmd|epigrafe\.qmd|reconocimientos\.qmd|colofon\.qmd|contracubierta\.qmd')
 
 [ -n "$lista" ] || { echo "construir.sh: $libro no aportó ningún .qmd" >&2; exit 1; }

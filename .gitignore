@@ -8,9 +8,17 @@ _book/
 # ver cómo interpreta Pandoc el contenido (ver CLAUDE.md), pero el fichero no se
 # versiona: además de ruido, lleva embebida la fecha del último commit del libro,
 # así que commitearlo cambiaba esa fecha y obligaba a regenerarlo otra vez.
+# Uno por libro (NN-*/index.typ) y el del manual completo, que se renderiza
+# desde la raíz del repo (index.typ), no desde recursos-completo/.
 /[0-9][0-9]-*/index.typ
+/index.typ
 
 .tmp/
 
 /.luarc.json
 .gstack/
+/notes/
+tools/web/__pycache__/
+
+/.quarto/
+**/*.quarto_ipynb

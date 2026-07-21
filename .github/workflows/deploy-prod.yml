@@ -1,0 +1,26 @@
+name: Redesplegar prod
+
+# Al PUBLICAR una Release, avisa a Coolify para que reconstruya vuelalibre.net.
+# El build del sitio descarga por sí solo la Release *Latest* (stage `books` del
+# Dockerfile con BOOKS_ASSETS_FROM=release), así que basta con un redeploy: no se
+# le pasa payload. La URL del webhook —y un token opcional si el despliegue por
+# API de Coolify lo exige— viven en los secretos del repo (ver DEPLOY.md §4).
+on:
+  release:
+    types: [published]
+
+jobs:
+  redeploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Avisar a Coolify (prod)
+        env:
+          COOLIFY_DEPLOY_PROD: ${{ secrets.COOLIFY_DEPLOY_PROD }}
+          COOLIFY_TOKEN: ${{ secrets.COOLIFY_TOKEN }}
+        run: |
+          if [ -z "$COOLIFY_DEPLOY_PROD" ]; then
+            echo "::error::Falta el secreto COOLIFY_DEPLOY_PROD"; exit 1
+          fi
+          auth=()
+          [ -n "$COOLIFY_TOKEN" ] && auth=(-H "Authorization: Bearer $COOLIFY_TOKEN")
+          curl -fsSL -X POST "${auth[@]}" "$COOLIFY_DEPLOY_PROD"
