@@ -16,6 +16,14 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.1] — 22 de julio de 2026
+
+**Qué releer:** **Todo el libro.** Validado por Pedro Berlinches (FI(S) · FE(S)).
+
+### Cambiado
+
+* **Validación técnica** — Pedro Berlinches ha revisado y validado todo el contenido del libro.
+
 ## [0.8.6] — 22 de julio de 2026
 
 **Qué releer:** **Glosario.** Se normalizan las referencias a capítulos en las definiciones. El temario no cambia.
