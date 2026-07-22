@@ -180,7 +180,7 @@ Este briefing estructura la toma de decisiones inmediata en caso de una rotura d
 
 1. **Velocidades de seguridad:** confirmar la velocidad mínima a mantener ante cualquier fallo: la velocidad de aproximación segura que indica el AFM de tu planeador.
 2. **Fallo a baja altura:** definir la altura límite por debajo de la cual el aterrizaje se realizará recto y sin virar, identificando zonas libres de obstáculos fuera de la pista si es necesario.
-3. **Fallo a altura crítica y retorno:** definir la altura mínima para intentar un viraje de retorno seguro —como referencia, 150 metros AGL en lanzamiento por torno y 70 metros AGL en remolque por avión (ver )— y decidir previamente hacia qué lado se virará, considerando la dirección y fuerza del viento actual para contrarrestar la deriva.
+3. **Fallo a altura crítica y retorno:** definir la altura mínima para intentar un viraje de retorno seguro —como referencia, 150 metros AGL en lanzamiento por torno y 70 metros AGL en remolque por avión (ver @fig-06-cap07-emergencia-altura, sobre opciones de aterrizaje según altura y método de lanzamiento)— y decidir previamente hacia qué lado se virará, considerando la dirección y fuerza del viento actual para contrarrestar la deriva.
 
 ::: {.callout-note title="Airmanship"}
 No comiences la carrera de despegue sin haber verbalizado o repasado mentalmente tu **emergency briefing**. En caso de rotura de cable a baja altura, no hay tiempo para pensar qué hacer; la acción correcta (bajar el morro, estabilizar la velocidad y la trayectoria) debe estar precargada en la mente y ejecutarse como una respuesta refleja.

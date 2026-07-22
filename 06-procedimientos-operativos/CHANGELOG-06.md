@@ -16,6 +16,8 @@ rompe la compilación.
 
 ## [En curso]
 
+**Qué releer:** **cap02, «El briefing de emergencia en el despegue».** Se restaura la referencia a la figura de alturas de decisión de emergencias en lanzamiento.
+
 ## [0.8.5] — 19 de julio de 2026
 
 **Qué releer:** **Preliminares, página de licencia.** Cambia el aviso de estado editorial. El temario no cambia.
