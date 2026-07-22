@@ -106,6 +106,8 @@ def main() -> None:
             f"estado={args.status}",
             "--metadata",
             f"estado-nota={args.status_note}",
+            "--metadata",
+            "toc=false",
         ]
         subprocess.run(command, check=True)
 
