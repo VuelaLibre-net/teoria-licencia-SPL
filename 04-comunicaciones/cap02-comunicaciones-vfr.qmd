@@ -140,7 +140,7 @@ En espacio aéreo controlado como un CTR, solo el controlador puede emitir instr
 * Aterrizaje.
 
 ::: {.callout-warning title="Seguridad"}
-Una autorización para "entrar y alinear" o "entrar y mantener" en la pista activa **nunca** es una autorización para despegar. Debes esperar inmóvil en la cabecera hasta escuchar explícitamente las palabras: *"Autorizado a despegar"* (**Cleared for take-off**). Si tienes alguna duda, pregunta: "Confirme autorizado a despegar".
+Una autorización para «entrar y alinear» o «entrar y mantener» en la pista activa **nunca** constituye una autorización para despegar. Debes permanecer inmóvil en la cabecera hasta escuchar explícitamente las palabras: *«Autorizado a despegar»* (**Cleared for take-off**). Si tienes cualquier duda, consulta: «Confirme, ¿autorizado salida?». No utilices jamás la palabra *despegar* salvo para colacionar (read-back) una autorización expresa.
 :::
 
 ### El plan de vuelo (FPL)
