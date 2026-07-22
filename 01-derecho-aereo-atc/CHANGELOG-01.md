@@ -16,6 +16,13 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.9] — 22 de julio de 2026
+
+**Qué releer:** **Glosario.** Se normalizan las referencias a capítulos en las definiciones. El temario no cambia.
+
+### Cambiado
+
+* **Glosario** — se eliminan las referencias redundantes a capítulos en las definiciones de términos y acrónimos.
 
 ### Maqueta y producción
 

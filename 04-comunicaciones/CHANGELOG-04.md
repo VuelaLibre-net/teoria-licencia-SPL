@@ -16,11 +16,14 @@ rompe la compilación.
 
 ## [En curso]
 
-**Qué releer:** **cap02, autorización de despegue.** Se refina la advertencia de seguridad sobre la autorización de despegue en pista activa y la fraseología estándar para resolver dudas.
+## [1.0-rc.9] — 22 de julio de 2026
+
+**Qué releer:** **cap02, autorización de despegue; Glosario.** Se refina la advertencia de seguridad y se normalizan las referencias del glosario.
 
 ### Cambiado
 
 * **cap02** — se precisa el recuadro de Seguridad sobre autorizaciones en pista: se indica la fraseología adecuada para resolver dudas («Confirme, ¿autorizado salida?») y se remarca la prohibición de pronunciar la palabra *despegar* salvo al colacionar (*read-back*) una autorización expresa.
+* **Glosario** — se eliminan las referencias redundantes a capítulos en las definiciones de términos y acrónimos.
 
 ### Maqueta y producción
 
@@ -28,7 +31,6 @@ rompe la compilación.
 * **Colofón** — se homogeneiza el texto del colofón en todos los libros para que sea idéntico al de Derecho Aéreo, incluyendo la referencia dinámica al repositorio y el uso de Quarto y la extensión `orange-book-es`.
 * **Índice alfabético** — generación automática de un índice de términos al final del libro para la versión PDF (Typst), utilizando el paquete `in-dexter` y referenciando los términos del glosario a 3 columnas.
 * **Enlaces al glosario** — enlace automático en el PDF (Typst) de la primera aparición de cada término y acrónimo del glosario en el cuerpo de cada capítulo.
-* **Glosario** — se eliminan las referencias redundantes a capítulos en las definiciones.
 
 ## [1.0-rc.8] — 19 de julio de 2026
 

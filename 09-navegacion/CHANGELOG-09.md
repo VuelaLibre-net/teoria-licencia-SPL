@@ -16,6 +16,14 @@ rompe la compilación.
 
 ## [En curso]
 
+## [0.8.6] — 22 de julio de 2026
+
+**Qué releer:** **Glosario.** Se normalizan las referencias a capítulos en las definiciones. El temario no cambia.
+
+### Cambiado
+
+* **Glosario** — se eliminan las referencias redundantes a capítulos en las definiciones de términos y acrónimos.
+
 ## [0.8.5] — 19 de julio de 2026
 
 **Qué releer:** **cap04, navegación por estima.** Se restauran las fórmulas de rumbos, deriva, velocidad suelo y tiempo que la migración dejó duplicadas o eliminó. **Preliminares, página de licencia.** Cambia el aviso de estado editorial.
