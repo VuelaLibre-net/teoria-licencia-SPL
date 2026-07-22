@@ -168,7 +168,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Organización aprobada que puede ejercer privilegios de mantenimiento y de gestión de la aeronavegabilidad continuada dentro de su ámbito de aprobación.
 
 **Capa límite**
-: Delgada capa de aire que fluye directamente en contacto con la superficie del ala, donde la velocidad cae gradualmente desde la del flujo libre hasta cero en la superficie sólida. Puede ser **laminar** (flujo ordenado, mínima resistencia) o **turbulenta** (flujo caótico, mayor resistencia). El punto de transición entre ambos regímenes determina el rendimiento del perfil: un simple mosquito aplastado en el borde de ataque puede adelantarlo y degradar el planeo de forma medible.
+: Delgada capa de aire que fluye directamente en contacto con la superficie del ala, donde la velocidad cae gradualmente desde la del flujo libre hasta cero en la superficie sólida. Puede ser **laminar** (flujo ordenado, mínima resistencia) o **turbulenta** (flujo caótico, mayor resistencia). El punto de transición entre ambos regímenes determina el rendimiento del perfil: unos pocos mosquitos aplastados en el borde de ataque puede adelantarlo y degradar el planeo de forma medible.
 
 **CAPE (Convective Available Potential Energy)**
 : Energía Potencial Convectiva Disponible. Cuantifica la flotabilidad acumulada de una parcela de aire desde la superficie hasta el nivel de equilibrio. Se representa como el área entre la curva de la parcela y la curva de estado en el sondeo termodinámico. Valores orientativos: < 500 J/kg (día débil), 1.000–2.500 J/kg (excelente), > 3.500 J/kg (convección severa probable).

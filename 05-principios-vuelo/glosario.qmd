@@ -18,7 +18,7 @@ Este glosario recoge las definiciones y acrónimos esenciales de la aerodinámic
 : Principio de la física de fluidos que establece que, en un fluido en movimiento, un aumento de la velocidad del flujo se corresponde con una disminución de la presión estática. En aerodinámica explica parte de la sustentación: el aire que acelera sobre el extradós genera una zona de baja presión que aspira el ala hacia arriba. Se complementa con el efecto acción-reacción de Newton (deflexión del flujo hacia abajo en el borde de salida).
 
 **Capa límite**
-: Delgada capa de aire que fluye directamente en contacto con la superficie del ala, donde la velocidad cae gradualmente desde la del flujo libre hasta cero en la superficie sólida. Puede ser **laminar** (flujo ordenado, mínima resistencia) o **turbulenta** (flujo caótico, mayor resistencia). El punto de transición entre ambos regímenes determina el rendimiento del perfil: un simple mosquito aplastado en el borde de ataque puede adelantarlo y degradar el planeo de forma medible.
+: Delgada capa de aire que fluye directamente en contacto con la superficie del ala, donde la velocidad cae gradualmente desde la del flujo libre hasta cero en la superficie sólida. Puede ser **laminar** (flujo ordenado, mínima resistencia) o **turbulenta** (flujo caótico, mayor resistencia). El punto de transición entre ambos regímenes determina el rendimiento del perfil: unos pocos mosquitos aplastados en el borde de ataque pueden adelantarla y degradar el planeo de forma medible.
 
 **CG (Centro de gravedad)**
 : Punto teórico donde se considera aplicada la resultante de todas las fuerzas de gravedad que actúan sobre el planeador. Su ubicación longitudinal es clave para la estabilidad y el control del vuelo.

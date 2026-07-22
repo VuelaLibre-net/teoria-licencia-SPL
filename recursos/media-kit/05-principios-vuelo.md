@@ -30,7 +30,7 @@ Con diagramas técnicos, analogías precisas y los escenarios de riesgo que esta
 
 **Lo que encontrarás dentro:**
 
-- **Aerodinámica del flujo de aire** — Cómo la diferencia de presión entre extradós e intradós genera sustentación, y por qué la deflexión del aire hacia abajo (Newton) no es otra fuerza que se sume a la de Bernoulli, sino la misma sustentación contada de otra manera. Qué es la capa límite laminar y por qué un solo mosquito aplastado en el borde de ataque basta para provocar una transición prematura a capa turbulenta y degradar el rendimiento del perfil. La resistencia inducida y parásita, y cómo su suma dibuja la curva polar que rige cada decisión de velocidad en vuelo.
+- **Aerodinámica del flujo de aire** — Cómo la diferencia de presión entre extradós e intradós genera sustentación, y por qué la deflexión del aire hacia abajo (Newton) no es otra fuerza que se sume a la de Bernoulli, sino la misma sustentación contada de otra manera. Qué es la capa límite laminar y por qué unos cuantos mosquitos aplastados en el borde de ataque bastan para provocar una transición prematura a capa turbulenta y degradar el rendimiento del perfil. La resistencia inducida y parásita, y cómo su suma dibuja la curva polar que rige cada decisión de velocidad en vuelo.
 
 - **Mecánica de vuelo** — Por qué sin motor la gravedad es tu único combustible: la componente del peso que hace de tracción cuando el morro baja, en equilibrio con la sustentación y la resistencia. La curva polar y por qué la fineza máxima no es la velocidad más lenta sino la más eficiente: la velocidad que maximiza la distancia frente a la que minimiza el descenso.
 
