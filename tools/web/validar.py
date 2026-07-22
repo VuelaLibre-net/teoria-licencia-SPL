@@ -31,6 +31,9 @@ def main() -> None:
                 html = page.get("html")
                 if not html or f"quarto/{html}" not in names:
                     sys.exit(f"{archive}: falta HTML para {page.get('source')}")
+                content = tar.extractfile(f"quarto/{html}").read().decode("utf-8")
+                if 'role="doc-toc"' in content or 'id="TOC"' in content:
+                    sys.exit(f"{archive}: {html} conserva el índice local de Quarto")
             required = {"licencia.qmd", "dedicatoria.qmd", "reconocimientos.qmd"}
             if not required.issubset({page.get("source") for page in pages}):
                 sys.exit(f"{archive}: faltan preliminares web obligatorios")
