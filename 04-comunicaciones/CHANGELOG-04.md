@@ -16,6 +16,12 @@ rompe la compilación.
 
 ## [En curso]
 
+**Qué releer:** **cap02, autorización de despegue.** Se refina la advertencia de seguridad sobre la autorización de despegue en pista activa y la fraseología estándar para resolver dudas.
+
+### Cambiado
+
+* **cap02** — se precisa el recuadro de Seguridad sobre autorizaciones en pista: se indica la fraseología adecuada para resolver dudas («Confirme, ¿autorizado salida?») y se remarca la prohibición de pronunciar la palabra *despegar* salvo al colacionar (*read-back*) una autorización expresa.
+
 ### Maqueta y producción
 
 * **Créditos** — se añade un espaciado vertical (`v(1.5em)`) al bloque de créditos en la maquetación Typst para evitar que queden demasiado juntos con el contenido adyacente.
