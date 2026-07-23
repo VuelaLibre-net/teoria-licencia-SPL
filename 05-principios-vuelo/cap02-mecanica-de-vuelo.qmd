@@ -44,7 +44,7 @@ Algunos planeadores llevan depósitos de agua en las alas. El lastre no cambia l
 
 ¿Para qué sirve? En un día de térmicas fuertes con largas etapas entre ellas, el planeador lastrado cruza más rápido manteniendo el mismo planeo; en regata eso se traduce en minutos ganados. El precio: en térmicas débiles sube peor, porque necesita más velocidad y el círculo se come más altura. Antes de aterrizar, el lastre se larga.
 
-El punto clave, y el que suele caer en el examen: **el lastre no cambia el L/D máximo**. La fineza máxima es la misma con y sin agua; lo único que cambia es la velocidad a la que se obtiene, que sube con el peso. Por eso el planeador lastrado vuela más rápido «por el mismo planeo». El cálculo de masa y centrado que hace posible cargar ese lastre se desarrolla en el **Libro 7 — Planificación y Rendimiento de Vuelo**, capítulo 2.
+El punto clave: **el lastre no cambia el L/D máximo**. La fineza máxima es la misma con y sin agua; lo único que cambia es la velocidad a la que se obtiene, que sube con el peso. Por eso el planeador lastrado vuela más rápido «por el mismo planeo». El cálculo de masa y centrado que hace posible cargar ese lastre se desarrolla en el **Libro 7 — Planificación y Rendimiento de Vuelo**, capítulo 2.
 
 ### Aerofrenos y flaps: modificar la polar a voluntad
 

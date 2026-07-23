@@ -28,7 +28,7 @@ Aprende de memoria estos dos valores para tu modelo de planeador. En aire en cal
 
 ## El efecto del peso: la polar se desplaza
 
-¿Recuerdas el lastre de agua del capítulo anterior? Aquí está la explicación gráfica de por qué funciona. Al aumentar el peso (carga alar), la curva polar completa se desplaza hacia la derecha y hacia abajo, deslizándose a lo largo de la tangente desde el origen (@fig-07-cap02-polar-peso). Las consecuencias son tres, y las tres caen en el examen:
+¿Recuerdas el lastre de agua del capítulo anterior? Aquí está la explicación gráfica de por qué funciona. Al aumentar el peso (carga alar), la curva polar completa se desplaza hacia la derecha y hacia abajo, deslizándose a lo largo de la tangente desde el origen (@fig-07-cap02-polar-peso). Las consecuencias son tres:
 
 * **El planeo máximo (L/D) no cambia**: la tangente desde el origen toca la nueva curva con la misma pendiente. Un planeador de fineza 40 sigue teniendo fineza 40 cargado de agua.
 * **Ese planeo se alcanza a más velocidad**: si en vacío tu máximo planeo era a 95 km/h, con lastre puede ser a 110 km/h. Recorres los mismos kilómetros por metro de altura, pero más deprisa. Por eso el agua gana carreras en días fuertes.

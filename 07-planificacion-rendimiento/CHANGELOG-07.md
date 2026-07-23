@@ -16,6 +16,14 @@ rompe la compilación.
 
 ## [En curso]
 
+**Qué releer:** **cap01, cálculo de masa y centrado; cap02, efecto del peso sobre la polar; cap04, obligatoriedad del plan de vuelo.** Se retiran atribuciones concluyentes sobre qué contenido aparece en el examen. El contenido técnico no cambia.
+
+### Cambiado
+
+* **cap01** — los cálculos y ejercicios se presentan por su valor formativo, sin atribuirles frecuencia ni formato de examen.
+* **cap02** — se conservan los tres efectos del peso sobre la polar sin afirmar que caen en el examen.
+* **cap04** — se elimina la afirmación de que el vuelo VFR nocturno es pregunta de examen.
+
 ## [0.8.6] — 22 de julio de 2026
 
 **Qué releer:** **Glosario.** Se normalizan las referencias a capítulos en las definiciones. El temario no cambia.

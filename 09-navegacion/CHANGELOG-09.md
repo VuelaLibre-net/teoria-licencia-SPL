@@ -16,6 +16,12 @@ rompe la compilación.
 
 ## [En curso]
 
+**Qué releer:** **cap04, cadena de rumbos y ejercicios.** Se retiran atribuciones concluyentes sobre bancos y tipos de preguntas de examen. El contenido técnico no cambia.
+
+### Cambiado
+
+* **cap04** — se conservan las notaciones alternativas y los ejercicios de estima sin atribuirlos a bancos ni preguntas de examen.
+
 ## [0.8.6] — 22 de julio de 2026
 
 **Qué releer:** **Glosario.** Se normalizan las referencias a capítulos en las definiciones. El temario no cambia.

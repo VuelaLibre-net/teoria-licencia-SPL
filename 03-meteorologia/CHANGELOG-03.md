@@ -16,6 +16,13 @@ rompe la compilación.
 
 ## [En curso]
 
+**Qué releer:** **cap03, índices de estabilidad; cap04, clasificación de nubes.** Se retiran atribuciones concluyentes sobre qué contenido aparece en el examen. El contenido técnico no cambia.
+
+### Cambiado
+
+* **cap03** — las bandas de referencia de los índices de estabilidad se presentan como síntesis operativa, sin atribuirlas al examen.
+* **cap04** — se elimina la afirmación de que el examen pregunta los diez géneros de nubes.
+
 ## [1.0-rc.9] — 22 de julio de 2026
 
 **Qué releer:** **Glosario.** Se normalizan las referencias a capítulos en las definiciones. El temario no cambia.

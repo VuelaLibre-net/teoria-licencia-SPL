@@ -19,7 +19,7 @@ Según el reglamento **SERA.4001** (SERA (Standardised European Rules of the Air
 * **Vuelos transfronterizos**: siempre que cruces una frontera internacional.
 * **Servicio de control**: el plan de vuelo es obligatorio para todo vuelo al que se preste servicio de control de tránsito aéreo —en la práctica, **clases B, C y D**— y cuando el origen o el destino sea un **aeródromo controlado**. Atención al matiz de la clase E: es espacio controlado, pero al VFR no se le presta allí servicio de control, así que no necesita plan de vuelo, ni radio, ni autorización (SERA.4001 b)).
 * **Cuando lo requiera la autoridad ATS**: en zonas o rutas designadas, para facilitar los servicios de información, alerta y SAR o la coordinación con unidades militares.
-* **Vuelo VFR nocturno**: si el vuelo va a salir de las inmediaciones del aeródromo (caso excepcional en planeador, pero es pregunta de examen).
+* **Vuelo VFR nocturno**: si el vuelo va a salir de las inmediaciones del aeródromo (caso excepcional en planeador).
 * **Sobre el mar**: en España, para vuelos que se alejen más de 12 millas náuticas de la costa (supuesto nacional; consulta el valor vigente en el AIP-España, ENR 1.10).
 * **Vuelo de distancia**: no es obligatorio en espacio G (no controlado), pero sí muy recomendable: es lo que activa los servicios de alerta si no apareces.
 

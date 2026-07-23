@@ -149,7 +149,7 @@ Los valores de CAPE que ves en manuales de meteorología general suelen clasific
 Día de convección excepcional — conocido coloquialmente como «día termonuclear» en el argot de competición —: TT entre 48 y 55, K entre 15 y 20, CAPE entre 1.000 y 2.500 J/kg, LI negativo y vientos flojos de componente variable. Son los días de récords de distancia. Puedes encontrar todos estos índices en cualquier sondeo online: gratuitamente en la Universidad de Wyoming, AEMET (AMA), Windy o Meteoblue; con previsiones orientadas al planeador en Skysight, Topmeteo o Meteo Parapente.
 :::
 
-Las tablas de umbrales de los apartados anteriores tienen ocho tramos cada una porque describen todo el espectro, de la calma a la tormenta severa. Para el examen basta con quedarse con la banda útil de cada índice; las tablas completas son material de campo para cuando vueles de verdad:
+Las tablas de umbrales de los apartados anteriores tienen ocho tramos cada una porque describen todo el espectro, de la calma a la tormenta severa. La tabla siguiente resume la banda útil de cada índice; las tablas completas son material de campo para cuando vueles de verdad:
 
 | Índice | Banda de buen día térmico | Señal de alarma (tormenta) |
 | --- | --- | --- |
@@ -157,9 +157,9 @@ Las tablas de umbrales de los apartados anteriores tienen ocho tramos cada una p
 | **K** (K-Index) | 15–25 (matizado en montaña) | > 25 |
 | **CAPE** | 1.000–2.500 J/kg | > 2.500–3.500 J/kg |
 | **LI** (Lifted Index) | ligeramente negativo | muy negativo |
-: Los cuatro índices de sondeo, versión «nivel examen»
+: Los cuatro índices de sondeo: bandas de referencia para el vuelo a vela
 
-La regla de oro para el examen y para la cabina: un índice aislado no decide nada. TT y K dicen si el día vuela; CAPE y LI, cuánta energía tiene y si esa energía puede volverse contra ti en forma de tormenta.
+La regla de oro para la cabina: un índice aislado no decide nada. TT y K dicen si el día vuela; CAPE y LI, cuánta energía tiene y si esa energía puede volverse contra ti en forma de tormenta.
 
 ::: {.callout-warning title="Seguridad"}
 TT > 55 o K > 25 combinado con CAPE > 2.500 J/kg señala alto riesgo de tormenta de evolución diurna. En estas condiciones, planifica el aterrizaje antes de las 16:00 h y ten siempre identificado un campo de aterrizaje alternativo en tierra antes de que se levante la convección.

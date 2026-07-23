@@ -51,7 +51,7 @@ En el aire, solemos simplificar. Si el viento es suave, el WCA será pequeño. P
 :::
 
 ::: {.callout-tip title="Regla de oro"}
-El signo es lo que más despista. La regla es sencilla: sobre el rumbo verdadero, una variación o desvío al **Oeste (W) suma** grados, y al **Este (E) resta**. En las fórmulas lo escribimos como **(W −) / (E +)**: el valor Oeste entra con signo negativo dentro del paréntesis y, al restarlo, acaba sumando. En algunos bancos de preguntas de examen la misma idea se expresa como $MH = TC + VAR_W$ o $MH = TC - VAR_E$; es la misma convención con distinta notación.
+El signo es lo que más despista. La regla es sencilla: sobre el rumbo verdadero, una variación o desvío al **Oeste (W) suma** grados, y al **Este (E) resta**. En las fórmulas lo escribimos como **(W −) / (E +)**: el valor Oeste entra con signo negativo dentro del paréntesis y, al restarlo, acaba sumando. La misma idea también se expresa como $MH = TC + VAR_W$ o $MH = TC - VAR_E$; es la misma convención con distinta notación.
 :::
 
 ### Un ejemplo resuelto de la cadena de rumbos
@@ -118,7 +118,7 @@ Esta regla te permite corregir rumbos sobre la marcha: si tras 30 millas ves que
 
 ## Ejercicios propuestos
 
-Resuélvelos con lápiz y papel antes de mirar la solución. Son exactamente del tipo que caen en el examen de navegación.
+Resuélvelos con lápiz y papel antes de mirar la solución.
 
 **Ejercicio 1 — Cadena de rumbos.**
 

@@ -43,7 +43,7 @@ Con el tiempo, las reparaciones, la pintura o los cambios de instrumentos altera
 ![Ejemplo de cálculo de peso y centrado](imagenes/08-cap04-calculo-cg.jpg){#fig-08-cap04-calculo-cg}
 
 ::: {.callout-note title="Airmanship"}
-El cálculo numérico de masa y centrado (datum, brazos y momentos) se desarrolla con un ejemplo completo de examen en el **Libro 7 — Planificación y Rendimiento de Vuelo**, capítulo 1. Aquí nos interesa la parte física: dónde está cada lastre y qué sistemas lo gestionan.
+El cálculo numérico de masa y centrado (datum, brazos y momentos) se desarrolla con un ejemplo completo en el **Libro 7 — Planificación y Rendimiento de Vuelo**, capítulo 1. Aquí nos interesa la parte física: dónde está cada lastre y qué sistemas lo gestionan.
 :::
 
 ::: {.postit}
@@ -55,4 +55,3 @@ El cálculo numérico de masa y centrado (datum, brazos y momentos) se desarroll
 * **Lastre de cola**: depósito de agua o pesas en la deriva para ajustar el CG óptimo. Cuidado: olvidar vaciarlo con un piloto ligero delante es una emergencia grave (CG peligrosamente atrasado).
 * **Pesaje**: tras reparaciones, repintado o cambios de equipo, según el manual de mantenimiento. El resultado vive en el Certificado de Pesaje.
 :::
-

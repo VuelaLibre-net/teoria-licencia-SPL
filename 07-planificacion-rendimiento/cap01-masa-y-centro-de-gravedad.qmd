@@ -7,7 +7,7 @@
 >
 >
 > * **El centro de gravedad y la estabilidad**: por qué un CG atrasado puede hacer una barrena irrecuperable y qué precio pagas por un CG adelantado.
-> * **El cálculo de masa y centrado**: la línea de referencia (**datum**), el brazo de palanca y el momento, con un ejemplo numérico como el del examen.
+> * **El cálculo de masa y centrado**: la línea de referencia (**datum**), el brazo de palanca y el momento, con un ejemplo numérico resuelto paso a paso.
 > * **La gestión del MTOW**: qué le ocurre al planeador cuando lo sobrecargas.
 > * **El lastre de agua y el lastre de cola**: cuándo te ayudan y cómo gestionarlos con seguridad.
 
@@ -35,7 +35,7 @@ Volar con el morro pesado es más seguro que volar con la cola pesada, pero tien
 
 ## Cálculo de masa y centrado
 
-Saber que el CG atrasado es peligroso no basta. El examen y el vuelo real exigen saber dónde está el CG antes de despegar, y el cálculo se reduce a tres conceptos y una fórmula.
+Saber que el CG atrasado es peligroso no basta. Antes de despegar debes saber dónde está el CG, y el cálculo se reduce a tres conceptos y una fórmula.
 
 * **Línea de referencia (*Datum*)**: un plano vertical imaginario que el fabricante define en el manual de vuelo, habitualmente el borde de ataque del ala en el encastre. Todas las distancias se miden desde aquí.
 * **Brazo de palanca (*Arm*)**: la distancia horizontal desde el *datum* hasta el punto donde actúa cada peso. Por convenio, positiva hacia atrás y negativa hacia delante.
@@ -91,7 +91,7 @@ Nunca aterrices con los tanques de agua llenos a menos que sea una emergencia ab
 
 ## Ejercicios resueltos
 
-Los dos cálculos que más caen en el examen de esta asignatura son el centrado y el planeo final. Aquí tienes uno de cada, resueltos paso a paso. Intenta hacerlos tú antes de leer la solución.
+Aquí tienes un ejercicio de centrado y otro de planeo final, resueltos paso a paso. Intenta hacerlos tú antes de leer la solución.
 
 **Ejercicio 1 — Centrado con lastre de cola.**
 

@@ -16,6 +16,12 @@ rompe la compilación.
 
 ## [En curso]
 
+**Qué releer:** **cap02, efecto del lastre de agua.** Se retira una atribución concluyente sobre qué contenido aparece en el examen. El contenido técnico no cambia.
+
+### Cambiado
+
+* **cap02** — el efecto del lastre sobre el L/D máximo se mantiene como concepto clave, sin afirmar que suele caer en el examen.
+
 ## [1.0-rc.1] — 22 de julio de 2026
 
 **Qué releer:** **Todo el libro.** Validado por Pedro Berlinches (FI(S) · FE(S)).
