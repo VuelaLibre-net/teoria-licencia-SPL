@@ -21,8 +21,8 @@ aqui=$(dirname "$0")
 filtro=$aqui/rag.lua
 
 config="$libro/_quarto.yml"
-if [ "$libro" = "." ] && [ -f "_quarto-completo.yml" ]; then
-  config="_quarto-completo.yml"
+if [ "$libro" = "." ] && [ -f "recursos-completo/_quarto-completo.yml" ]; then
+  config="recursos-completo/_quarto-completo.yml"
 fi
 
 [ -f "$config" ] || { echo "construir.sh: no existe $config" >&2; exit 1; }
@@ -43,7 +43,7 @@ repo=$(sed -n 's/^repo-url: *"\{0,1\}\([^"]*\)"\{0,1\}/\1/p' "$config" | head -1
 # tramo, así que pedir los dos mete cada apéndice DOS veces en el entregable.
 lista=$(sed -n '/^  chapters:/,/^format:/p' "$config" \
   | sed -n 's/^[[:space:]]*- \(.*\.qmd\)$/\1/p' \
-  | grep -vxE 'index\.qmd|licencia\.qmd|dedicatoria\.qmd|epigrafe\.qmd|reconocimientos\.qmd|colofon\.qmd|contracubierta\.qmd')
+  | grep -vxE '(.*/)?(index|licencia|dedicatoria|epigrafe|reconocimientos|colofon|contracubierta)\.qmd')
 
 [ -n "$lista" ] || { echo "construir.sh: $libro no aportó ningún .qmd" >&2; exit 1; }
 
@@ -76,10 +76,11 @@ ncap=0
 napendice=0
 for f in $lista; do
   [ -f "$libro/$f" ] || { echo "construir.sh: $libro/$f no existe" >&2; exit 1; }
+  nombre=${f##*/}
 
   # La etiqueta con la que se numeran capítulo, secciones y figuras: "5" para
   # el capítulo 5, "A" para el primer apéndice, vacía para lo que no numera.
-  case "$f" in
+  case "$nombre" in
     cap*)
       ncap=$((ncap + 1)); etiqueta=$ncap ;;
     apendice*|glosario.qmd|bibliografia.qmd)
@@ -93,7 +94,7 @@ for f in $lista; do
   # De introduccion.qmd sólo entra la cabecera: el gancho propio del libro. La
   # cola —la guía de lectura— es idéntica en los 9 y explica la maqueta, que el
   # RAG no ve; nueve copias sólo darían trozos duplicados que compiten entre sí.
-  if [ "$f" = "introduccion.qmd" ]; then
+  if [ "$nombre" = "introduccion.qmd" ]; then
     sed '/GUÍA-DE-LECTURA/,$d' "$entrada" > "$tmp/introduccion.qmd"
     entrada=$tmp/introduccion.qmd
   fi
