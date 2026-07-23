@@ -23,6 +23,10 @@ rompe la compilación.
 * **cap03** — las bandas de referencia de los índices de estabilidad se presentan como síntesis operativa, sin atribuirlas al examen.
 * **cap04** — se elimina la afirmación de que el examen pregunta los diez géneros de nubes.
 
+### Maqueta y producción
+
+* **Índice alfabético** — la ordenación española ignora las tildes y la diéresis de las vocales.
+
 ## [1.0-rc.9] — 22 de julio de 2026
 
 **Qué releer:** **Glosario.** Se normalizan las referencias a capítulos en las definiciones. El temario no cambia.

@@ -22,6 +22,10 @@ rompe la compilación.
 
 * **cap04** — se conservan las notaciones alternativas y los ejercicios de estima sin atribuirlos a bancos ni preguntas de examen.
 
+### Maqueta y producción
+
+* **Índice alfabético** — la ordenación española ignora las tildes y la diéresis de las vocales.
+
 ## [0.8.6] — 22 de julio de 2026
 
 **Qué releer:** **Glosario.** Se normalizan las referencias a capítulos en las definiciones. El temario no cambia.

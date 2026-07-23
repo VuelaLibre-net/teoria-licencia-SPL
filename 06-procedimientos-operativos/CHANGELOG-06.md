@@ -16,6 +16,10 @@ rompe la compilación.
 
 ## [En curso]
 
+### Maqueta y producción
+
+* **Índice alfabético** — la ordenación española ignora las tildes y la diéresis de las vocales.
+
 ## [0.8.6] — 22 de julio de 2026
 
 **Qué releer:** **cap02, «El briefing de emergencia en el despegue»; Glosario.** Se restaura una referencia y se normalizan las definiciones del glosario.

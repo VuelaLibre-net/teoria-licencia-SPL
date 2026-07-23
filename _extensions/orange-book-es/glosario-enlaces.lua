@@ -351,7 +351,9 @@ local function Pandoc(doc)
   end
 
   local index_header = pandoc.Header(1, {pandoc.Str("Índice alfabético")}, pandoc.Attr("indice-alfabetico", {"unnumbered", "unlisted"}, {}))
-  local index_block = pandoc.RawBlock('typst', '#columns(3, gutter: 15pt)[\n  #show par: pad.with(left: 0.65em)\n  #make-index(title: none)\n]')
+  -- in-dexter no aplica la lengua del documento: normalizamos sólo la clave de
+  -- ordenación para que las tildes no creen letras independientes en español.
+  local index_block = pandoc.RawBlock('typst', '#let orden-es = key => upper(key).replace("Á", "A").replace("É", "E").replace("Í", "I").replace("Ó", "O").replace("Ú", "U").replace("Ü", "U")\n#columns(3, gutter: 15pt)[\n  #show par: pad.with(left: 0.65em)\n  #make-index(title: none, sort-order: orden-es)\n]')
 
   if insert_idx then
     table.insert(doc.blocks, insert_idx, index_header)

@@ -16,6 +16,10 @@ rompe la compilación.
 
 ## [En curso]
 
+### Maqueta y producción
+
+* **Índice alfabético** — la ordenación española ignora las tildes y la diéresis de las vocales.
+
 ## [1.0-rc.9] — 22 de julio de 2026
 
 **Qué releer:** **cap02, autorización de despegue; Glosario.** Se refina la advertencia de seguridad y se normalizan las referencias del glosario.

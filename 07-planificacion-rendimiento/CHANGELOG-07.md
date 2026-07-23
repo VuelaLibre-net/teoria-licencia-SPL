@@ -24,6 +24,10 @@ rompe la compilación.
 * **cap02** — se conservan los tres efectos del peso sobre la polar sin afirmar que caen en el examen.
 * **cap04** — se elimina la afirmación de que el vuelo VFR nocturno es pregunta de examen.
 
+### Maqueta y producción
+
+* **Índice alfabético** — la ordenación española ignora las tildes y la diéresis de las vocales.
+
 ## [0.8.6] — 22 de julio de 2026
 
 **Qué releer:** **Glosario.** Se normalizan las referencias a capítulos en las definiciones. El temario no cambia.

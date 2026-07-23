@@ -358,6 +358,22 @@ jobs:
             errores=1
           fi
 
+          # in-dexter no aplica la lengua del documento al ordenar. Sin una
+          # clave española, Ángulo e Índice crean grupos Á e Í separados de A
+          # e I. La Ó no se comprueba aquí porque pdftotext la extrae aislada
+          # de la marca de agua «EN REVISIÓN»; sí se normaliza al generar.
+          if [[ "$texto" != *"Índice alfabético"* ]]; then
+            echo "::error file=$pdf::Falta el índice alfabético"
+            errores=1
+          else
+            indice=${texto#*Índice alfabético}
+            indice=${indice%%Colofón*}
+            if grep -qxE '[ÁÉÍÚÜ]' <<<"$indice"; then
+              echo "::error file=$pdf::El índice alfabético contiene grupos fuera de su orden español"
+              errores=1
+            fi
+          fi
+
           # El colofón se fecha con git, así que un clonado superficial lo
           # dejaría sin fecha. Se comprueba que esté y que la fecha se haya
           # resuelto: si el shortcode no resolviera, quedaría el literal.

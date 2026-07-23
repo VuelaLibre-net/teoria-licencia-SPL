@@ -22,6 +22,10 @@ rompe la compilación.
 
 * **cap04** — la remisión al ejemplo de masa y centrado del Libro 7 deja de presentarlo como ejemplo de examen.
 
+### Maqueta y producción
+
+* **Índice alfabético** — la ordenación española ignora las tildes y la diéresis de las vocales.
+
 ## [0.8.6] — 22 de julio de 2026
 
 **Qué releer:** **Glosario.** Se normalizan las referencias a capítulos en las definiciones. El temario no cambia.

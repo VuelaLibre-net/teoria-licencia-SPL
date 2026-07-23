@@ -22,6 +22,10 @@ rompe la compilación.
 
 * **cap02** — el efecto del lastre sobre el L/D máximo se mantiene como concepto clave, sin afirmar que suele caer en el examen.
 
+### Maqueta y producción
+
+* **Índice alfabético** — la ordenación española ignora las tildes y la diéresis de las vocales.
+
 ## [1.0-rc.1] — 22 de julio de 2026
 
 **Qué releer:** **Todo el libro.** Validado por Pedro Berlinches (FI(S) · FE(S)).
