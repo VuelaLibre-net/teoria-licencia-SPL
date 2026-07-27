@@ -14,7 +14,7 @@ más antigua.
 exige que la versión en curso tenga su entrada aquí**: subir la versión sin registrar qué cambió
 rompe la compilación.
 
-## [En curso]
+## [0.8.7] — 27 de julio de 2026
 
 **Qué releer:** **cap01, cálculo de masa y centrado; cap02, efecto del peso sobre la polar; cap04, obligatoriedad del plan de vuelo.** Se retiran atribuciones concluyentes sobre qué contenido aparece en el examen. El contenido técnico no cambia.
 
@@ -26,7 +26,7 @@ rompe la compilación.
 
 ### Maqueta y producción
 
-* **Índice alfabético** — la ordenación española ignora las tildes y la diéresis de las vocales.
+* **Maquetación Typst** — corrección del solapamiento en páginas de parte, ajuste de la marca de agua «En revisión» y ordenación del índice alfabético sin tildes.
 
 ## [0.8.6] — 22 de julio de 2026
 

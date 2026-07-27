@@ -14,11 +14,11 @@ más antigua.
 exige que la versión en curso tenga su entrada aquí**: subir la versión sin registrar qué cambió
 rompe la compilación.
 
-## [En curso]
+## [1.0-rc.9] — 27 de julio de 2026
 
 ### Maqueta y producción
 
-* **Índice alfabético** — la ordenación española ignora las tildes y la diéresis de las vocales.
+* **Maquetación Typst** — corrección del solapamiento en páginas de parte, ajuste de la marca de agua «En revisión» y ordenación del índice alfabético sin tildes.
 
 ## [1.0-rc.8] — 22 de julio de 2026
 
