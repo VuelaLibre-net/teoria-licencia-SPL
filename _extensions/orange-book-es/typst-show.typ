@@ -1,4 +1,4 @@
-#import "@preview/orange-book-es:0.7.1": book, part, chapter, appendices
+#import "_extensions/orange-book-es/typst/packages/preview/orange-book-es/0.7.1/lib.typ": book, part, chapter, appendices
 
 #show: book.with(
 $if(title)$

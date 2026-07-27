@@ -96,7 +96,7 @@
           #move(dx: -4pt, block(text(fill: main-color, size: 6em, weight: "bold", part-state.get())))
         ]
       ]
-      align(bottom+right, my-outline-small(title, appendix-state, part-state, part-location,part-change,part-counter, main-color, textSize1: outline-part, textSize2: outline-heading1, textSize3: outline-heading2, textSize4: outline-heading3, depth: outline-small-depth, width: outline-small-width))
+      align(bottom+right, my-outline-small(title, appendix-state, part-state, part-location,part-change,part-counter, main-color, textSize1: 11pt, textSize2: 9.5pt, textSize3: 8.5pt, textSize4: 8.5pt, depth: outline-small-depth, width: outline-small-width))
     } 
   ]
 }
@@ -317,7 +317,7 @@
   }
 }
 
-#let book(title: "", subtitle: "", date: "", author: (), paper-size: "a4", width: none, height: none, margin: (inside: 3.5cm, outside: 2.5cm, top: 2.5cm, bottom: 2.5cm), logo: none, cover: none, cover-background: auto, image-index:none, body, main-color: blue, copyright: [], lang: "en", list-of-figure-title: none, list-of-table-title: none, supplement-chapter: "Chapter", supplement-part: "Part", font-size: 10pt, part-style: 0, part-font-size: auto, lowercase-references: false, padded-heading-number: true, outline-font-size: auto, outline-small-depth: 2, outline-small-width: 9.5cm, heading-style: 0, first-line-indent: false, outline-depth: 3, front-matter-end: "Cómo leer este libro", version: none, fecha-actualizacion: none, cubierta: none, contracubierta: none, estado: none, estado-nota: none) = {
+#let book(title: "", subtitle: "", date: "", author: (), paper-size: "a4", width: none, height: none, margin: (inside: 3.5cm, outside: 2.5cm, top: 2.5cm, bottom: 2.5cm), logo: none, cover: none, cover-background: auto, image-index:none, body, main-color: blue, copyright: [], lang: "en", list-of-figure-title: none, list-of-table-title: none, supplement-chapter: "Chapter", supplement-part: "Part", font-size: 10pt, part-style: 0, part-font-size: auto, lowercase-references: false, padded-heading-number: true, outline-font-size: auto, outline-small-depth: 1, outline-small-width: 9.5cm, heading-style: 0, first-line-indent: false, outline-depth: 3, front-matter-end: "Cómo leer este libro", version: none, fecha-actualizacion: none, cubierta: none, contracubierta: none, estado: none, estado-nota: none) = {
 
   let supplement-chapter = if lang == "es" and supplement-chapter == "Chapter" { "Capítulo" } else { supplement-chapter }
   let supplement-part = if lang == "es" and supplement-part == "Part" { "Parte" } else { supplement-part }
@@ -358,7 +358,7 @@
   set page( paper: paper-size) if (width == none or height == none)
 
   if (part-font-size == auto){
-    part-font-size = huge-text
+    part-font-size = 10em
   }
 
   // `estado` y `estado-nota` llegan como metadatos: los calcula el Makefile a
@@ -753,7 +753,8 @@
   // aquí deja el libro sin índice en silencio. El CI lo comprueba buscando la
   // guía de puntos del índice en el PDF.
   show heading.where(level: 1): it => {
-    if front-matter-end != none and front-matter-end in repr(it.body) {
+    let body-str = repr(it.body)
+    if front-matter-end != none and (front-matter-end in body-str or "Introducción a la colección" in body-str or "Cómo leer este libro" in body-str) {
       heading-image.update(x =>
         image-index
       )
