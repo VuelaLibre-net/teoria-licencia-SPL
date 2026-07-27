@@ -7,16 +7,26 @@ name: Redesplegar dev
 #
 # `workflow_run` se dispara al COMPLETARSE el workflow del CI; el `if` filtra los
 # runs que no sean un éxito para no redesplegar tras un fallo.
+#
+# ⚠️ DESACTIVADO PROVISIONALMENTE (27 de julio de 2026): Coolify todavía no está
+# preparado para recibir el despliegue, y cada `main` en verde disparaba un aviso
+# que sólo servía para dejar el workflow en rojo. El disparo automático está
+# comentado; queda `workflow_dispatch` para poder probarlo a mano.
+#
+# Para reactivarlo: descomenta el bloque `workflow_run` y devuelve al job su
+# `if: ${{ github.event.workflow_run.conclusion == 'success' }}` —sin esa
+# condición, un CI en rojo también redesplegaría.
 on:
-  workflow_run:
-    workflows: ["Compilar Manuales SPL (CI)"]
-    types: [completed]
-    branches: [main]
+  workflow_dispatch:
+  # workflow_run:
+  #   workflows: ["Compilar Manuales SPL (CI)"]
+  #   types: [completed]
+  #   branches: [main]
 
 jobs:
   redeploy:
     runs-on: ubuntu-latest
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    # if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
       - name: Avisar a Coolify (dev)
         env:

@@ -5,9 +5,16 @@ name: Redesplegar prod
 # Dockerfile con BOOKS_ASSETS_FROM=release), así que basta con un redeploy: no se
 # le pasa payload. La URL del webhook —y un token opcional si el despliegue por
 # API de Coolify lo exige— viven en los secretos del repo (ver DEPLOY.md §4).
+#
+# ⚠️ DESACTIVADO PROVISIONALMENTE (27 de julio de 2026): Coolify todavía no está
+# preparado para recibir el despliegue. El disparo por Release está comentado;
+# queda `workflow_dispatch` para poder probarlo a mano.
+#
+# Para reactivarlo: descomenta el bloque `release`.
 on:
-  release:
-    types: [published]
+  workflow_dispatch:
+  # release:
+  #   types: [published]
 
 jobs:
   redeploy:
