@@ -69,7 +69,7 @@ Este glosario reúne las definiciones y acrónimos más relevantes de Navegació
 : Velocidad de la aeronave respecto al aire circundante tal como la indica el anemómetro, sin correcciones por temperatura ni densidad. En navegación es el punto de partida del cálculo: corregida por densidad da la TAS y, combinada con el viento, la GS; nunca se razona con la IAS a secas.
 
 **IGC (Registrador de vuelo / Logger)**
-: Dispositivo certificado que graba la traza GPS del vuelo en un archivo `.igc`, prueba del paso por los puntos de viraje para validar récords y medallas FAI.
+: Dispositivo electrónico, certificado por la _International Gliding Commission_ (Comisión Internacional de Vuelo a Vela), que graba la traza GPS, la altitud de presión barométrica y una firma digital en un archivo `.igc` infalsificable, probando el paso por los puntos de viraje para validar récords y medallas FAI.
 
 **Isógona (línea isogónica)**
 : Línea de la carta que une los puntos con igual valor de variación (declinación) magnética.
