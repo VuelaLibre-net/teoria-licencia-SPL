@@ -11,7 +11,7 @@ Este manual es el fruto de un esfuerzo colaborativo dentro de la comunidad de vu
 ::: {.creditos}
 Iñaqui Ulibarri García de la Cueva
 
-:   SPL · FI(S) · FE(S)
+:   SPL · FI(S) · FE(S) · In memoriam
 
 :   Campeón de España de Vuelo a Vela. Instructor y Examinador de Vuelo a Vela
 
@@ -45,7 +45,7 @@ Sergi Pujol Rodríguez
 
 :   Instructor y Examinador de Vuelo a Vela
 
-Ramón Gutiérrez Camus
+Ramón Gutiérrez Camus ✓
 
 :   SPL
 

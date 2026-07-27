@@ -1,0 +1,52 @@
+{
+  "revisores": [
+    {
+      "nombre": "Iñaqui Ulibarri García de la Cueva",
+      "subtitulo": "SPL · FI(S) · FE(S) · In memoriam",
+      "descripcion": "Campeón de España de Vuelo a Vela. Instructor y Examinador de Vuelo a Vela",
+      "honorifico": true
+    },
+    {
+      "nombre": "Pedro Berlinches",
+      "subtitulo": "SPL · FI(S) · PPL(A) · FES(A)",
+      "descripcion": "Instructor y Examinador de Vuelo a Vela",
+      "libros_validados": [1, 2, 3, 4, 5],
+      "libros_pendientes": [6, 7, 8, 9]
+    },
+    {
+      "nombre": "Luís Ferreira Escartín",
+      "subtitulo": "SPL · FI(S) · FE(S)",
+      "descripcion": "Instructor y Examinador de Vuelo a Vela",
+      "libros_validados": [],
+      "libros_pendientes": [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    },
+    {
+      "nombre": "Encarnación Novillo-Fertrell Vázquez",
+      "subtitulo": "SPL · FI(S) · FE(S)",
+      "descripcion": "Instructora y Examinadora de Vuelo a Vela",
+      "libros_validados": [],
+      "libros_pendientes": [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    },
+    {
+      "nombre": "Carlos Bravo Domínguez",
+      "subtitulo": "SPL · FI(S) · FE(S)",
+      "descripcion": "Instructor y Examinador de Vuelo a Vela",
+      "libros_validados": [],
+      "libros_pendientes": [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    },
+    {
+      "nombre": "Sergi Pujol Rodríguez",
+      "subtitulo": "SPL · FI(S) · FE(S)",
+      "descripcion": "Instructor y Examinador de Vuelo a Vela",
+      "libros_validados": [],
+      "libros_pendientes": [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    },
+    {
+      "nombre": "Ramón Gutiérrez Camus",
+      "subtitulo": "SPL",
+      "descripcion": "Piloto de Vuelo a Vela. Edición técnica",
+      "libros_validados": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+      "libros_pendientes": []
+    }
+  ]
+}

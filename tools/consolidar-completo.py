@@ -271,13 +271,18 @@ def main():
     
     # 4. Copiar preliminares comunes de referencia (desde Libro 1)
     print("==> Copiando preliminares comunes desde 01-derecho-aereo-atc...")
-    preliminares = ["licencia.qmd", "dedicatoria.qmd", "reconocimientos.qmd", "bibliografia.qmd"]
+    preliminares = ["licencia.qmd", "dedicatoria.qmd", "bibliografia.qmd"]
     for file_name in preliminares:
         src = Path("01-derecho-aereo-atc") / file_name
         dest = Path("recursos-completo") / file_name
         if src.exists():
             dest.write_text(src.read_text(encoding='utf-8'), encoding='utf-8')
             print(f"  * {file_name} copiado.")
+            
+    # Regenerar reconocimientos.qmd específico de cada libro y completo
+    import subprocess
+    subprocess.run([sys.executable, str(Path("tools/actualizar-reconocimientos.py"))], check=True)
+
             
     # 5. Estructurar capítulos por partes
     print("==> Construyendo la estructura de capítulos y partes...")

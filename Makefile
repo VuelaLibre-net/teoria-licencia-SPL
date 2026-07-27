@@ -19,7 +19,10 @@ LIBROS = 01-derecho-aereo-atc \
          08-aeronave-sistemas \
          09-navegacion
 
-.PHONY: all help clean rag web $(LIBROS) completo completo-pdf completo-epub completo-rag
+.PHONY: all help clean rag web reconocimientos $(LIBROS) completo completo-pdf completo-epub completo-rag
+
+# Fuentes para los reconocimientos y estado de revisores
+fuentes_revisores = recursos/estado-revisores.json tools/actualizar-reconocimientos.py
 
 # Por defecto, compilar toda la colección de libros (01 a 09)
 all: $(LIBROS)
@@ -43,7 +46,7 @@ rag_completo = $(RAG_OUT)/manual-completo-$(sufijo_completo).md
 fuentes_completo_propias = index.qmd recursos-completo/licencia.qmd recursos-completo/dedicatoria.qmd recursos-completo/epigrafe.qmd recursos-completo/reconocimientos.qmd recursos-completo/introduccion.qmd recursos-completo/apendice-syllabus-completo.qmd recursos-completo/glosario.qmd recursos-completo/bibliografia.qmd recursos-completo/colofon.qmd recursos-completo/contracubierta.qmd
 
 # Fuentes completas (los qmd propios del completo más los qmd e imágenes de las 9 asignaturas)
-fuentes_completo = $(fuentes_completo_propias) \
+fuentes_completo = $(fuentes_completo_propias) $(fuentes_revisores) \
                    $(foreach libro,$(LIBROS),$(call fuentes_texto_de,$(libro)) $(call fuentes_imagen_de,$(libro)))
 
 # Imágenes de cubierta del completo. Van aparte (como fuentes_imagen_de por
@@ -201,7 +204,7 @@ nota_libro = $$(case "$(call estado_libro,$(1))" in \
 # recetas, la del PDF y la del EPUB. Nueve EPUB se publicaron con los shortcodes
 # del colofón sin resolver por añadir --metadata sólo a una.
 define reglas_de_libro
-$(call pdf_de,$(1)): $(call fuentes_texto_de,$(1)) $(call fuentes_imagen_de,$(1)) $(fuentes_typst)
+$(call pdf_de,$(1)): $(call fuentes_texto_de,$(1)) $(call fuentes_imagen_de,$(1)) $(fuentes_typst) $(fuentes_revisores)
 	@mkdir -p $(PDF_OUT)
 	@echo "==> [Quarto] Renderizando PDF (Typst) para $(1)..."
 	quarto render $(1)/ --to orange-book-es-typst \
@@ -212,7 +215,7 @@ $(call pdf_de,$(1)): $(call fuentes_texto_de,$(1)) $(call fuentes_imagen_de,$(1)
 	@mv $(1)/_book/*.pdf $$@
 	@echo "✓ PDF generado en $$@"
 
-$(call epub_de,$(1)): $(call fuentes_texto_de,$(1)) $(call fuentes_imagen_de,$(1)) $(fuentes_epub)
+$(call epub_de,$(1)): $(call fuentes_texto_de,$(1)) $(call fuentes_imagen_de,$(1)) $(fuentes_epub) $(fuentes_revisores)
 	@mkdir -p $(EPUB_OUT)
 	@echo "==> [Quarto] Renderizando EPUB para $(1)..."
 	quarto render $(1)/ --to epub \
@@ -229,7 +232,7 @@ $(call epub_de,$(1)): $(call fuentes_texto_de,$(1)) $(call fuentes_imagen_de,$(1
 #
 # Depende del texto y de la herramienta, pero NO de las imágenes: no viajan al
 # RAG. Ver `fuentes_imagen_de`.
-$(call rag_de,$(1)): $(call fuentes_texto_de,$(1)) tools/rag/construir.sh tools/rag/rag.lua
+$(call rag_de,$(1)): $(call fuentes_texto_de,$(1)) tools/rag/construir.sh tools/rag/rag.lua $(fuentes_revisores)
 	@echo "==> [pandoc] Generando Markdown para RAG de $(1)..."
 	@tools/rag/construir.sh $(1) \
 	  "$$(call version_libro,$(1))" \
@@ -239,7 +242,7 @@ $(call rag_de,$(1)): $(call fuentes_texto_de,$(1)) tools/rag/construir.sh tools/
 	  $$@
 	@echo "✓ Markdown para RAG generado en $$@"
 
-$(call web_de,$(1)): $(call fuentes_texto_de,$(1)) $(call fuentes_imagen_de,$(1)) $(fuentes_web)
+$(call web_de,$(1)): $(call fuentes_texto_de,$(1)) $(call fuentes_imagen_de,$(1)) $(fuentes_web) $(fuentes_revisores)
 	@mkdir -p $(WEB_OUT)
 	@echo "==> [Quarto] Renderizando paquete web para $(1)..."
 	@tools/web/construir.py $(1) \
@@ -255,6 +258,9 @@ $(1): $(call pdf_de,$(1)) $(call epub_de,$(1)) $(call rag_de,$(1)) $(call web_de
 endef
 
 $(foreach libro,$(LIBROS),$(eval $(call reglas_de_libro,$(libro))))
+
+reconocimientos: $(fuentes_revisores)
+	python3 tools/actualizar-reconocimientos.py
 
 # Sólo los Markdown para RAG de los 9, sin recompilar PDF ni EPUB: es lo que se
 # recarga en el cuaderno de NotebookLM, y cuesta segundos en vez de minutos.
