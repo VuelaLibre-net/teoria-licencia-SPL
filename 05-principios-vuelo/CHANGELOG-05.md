@@ -14,6 +14,8 @@ más antigua.
 exige que la versión en curso tenga su entrada aquí**: subir la versión sin registrar qué cambió
 rompe la compilación.
 
+## [En curso]
+
 ## [1.0-rc.2] — 27 de julio de 2026
 
 **Qué releer:** **cap02, efecto del lastre de agua.** Se retira una atribución concluyente sobre qué contenido aparece en el examen. El contenido técnico no cambia.

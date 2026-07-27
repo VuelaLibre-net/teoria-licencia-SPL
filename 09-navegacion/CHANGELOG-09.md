@@ -14,6 +14,8 @@ más antigua.
 exige que la versión en curso tenga su entrada aquí**: subir la versión sin registrar qué cambió
 rompe la compilación.
 
+## [En curso]
+
 ## [0.8.7] — 27 de julio de 2026
 
 **Qué releer:** **cap04, cadena de rumbos y ejercicios.** Se retiran atribuciones concluyentes sobre bancos y tipos de preguntas de examen. El contenido técnico no cambia.
