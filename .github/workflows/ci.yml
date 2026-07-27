@@ -93,21 +93,11 @@ jobs:
           || { echo "::error::orange-book-es no visible; ¿falta el symlink _extensions?"; exit 1; }
 
     - name: Comprobar que los preliminares no divergen
-      # licencia.qmd, dedicatoria.qmd, colofon.qmd y reconocimientos.qmd son
-      # idénticos en los 9 libros, pero por convención: son 9 copias y no hay
-      # nada que las sincronice. Editar uno y olvidar los demás deja la
-      # colección incoherente sin que ningún otro guardián lo note, porque cada
-      # libro compila bien.
-      #
-      # epigrafe.qmd NO está en esta lista: desde que cada libro tiene su propia
-      # cita, ser idénticos sería el fallo. Se comprueba justo lo contrario más
-      # abajo.
-      #
-      # Va antes de compilar: es una comprobación sobre las fuentes y así falla
-      # en segundos en vez de tras cuatro minutos de render.
+      # licencia.qmd, dedicatoria.qmd y colofon.qmd son idénticos en los 9 libros.
+      # reconocimientos.qmd varía por libro según los revisores que han validado cada asignatura.
       run: |
         errores=0
-        for f in licencia.qmd dedicatoria.qmd colofon.qmd reconocimientos.qmd; do
+        for f in licencia.qmd dedicatoria.qmd colofon.qmd; do
           copias=$(ls -1 0*/"$f" 2>/dev/null | wc -l)
           if [ "$copias" -ne 9 ]; then
             echo "::error::Hay $copias copias de $f y se esperan 9: ¿falta en algún libro?"

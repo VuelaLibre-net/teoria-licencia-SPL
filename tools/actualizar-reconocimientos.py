@@ -37,7 +37,7 @@ Este manual es el fruto de un esfuerzo colaborativo dentro de la comunidad de vu
 FOOTER = ":::\n"
 
 
-def generar_contenido_reconocimientos(revisores_data: dict) -> str:
+def generar_contenido_reconocimientos(revisores_data: dict, num_libro: int) -> str:
     lineas = [HEADER]
     revisores = revisores_data.get("revisores", [])
 
@@ -53,13 +53,22 @@ def generar_contenido_reconocimientos(revisores_data: dict) -> str:
             libros_validados = set(rev.get("libros_validados", []))
             libros_pendientes = set(rev.get("libros_pendientes", []))
 
-            if not libros_validados and not libros_pendientes:
-                continue
+            if num_libro == 0:  # Completo: incluye a quienes participan en al menos un libro
+                if not libros_validados and not libros_pendientes:
+                    continue
 
-            if libros_validados:
-                nombre_con_sufijo = f"{nombre} ✓"
-            else:
-                nombre_con_sufijo = nombre
+                if set(range(1, 10)).issubset(libros_validados):
+                    nombre_con_sufijo = f"{nombre} ✓"
+                else:
+                    nombre_con_sufijo = nombre
+            else:  # Libro num_libro específico
+                if num_libro in libros_validados:
+                    nombre_con_sufijo = f"{nombre} ✓"
+                elif num_libro in libros_pendientes:
+                    nombre_con_sufijo = nombre
+                else:
+                    # No participa en la revisión ni redacción de este libro
+                    continue
 
         block = f"{nombre_con_sufijo}\n\n:   {subtitulo}\n\n:   {descripcion}"
         blocks.append(block)
@@ -77,11 +86,11 @@ def main() -> None:
     with open(ESTADO_JSON, "r", encoding="utf-8") as f:
         revisores_data = json.load(f)
 
-    contenido = generar_contenido_reconocimientos(revisores_data)
-    for subfolder, _ in DIRECTORIOS_LIBROS:
+    for subfolder, num_libro in DIRECTORIOS_LIBROS:
         target_file = BASE_DIR / subfolder / "reconocimientos.qmd"
+        contenido = generar_contenido_reconocimientos(revisores_data, num_libro)
         target_file.write_text(contenido, encoding="utf-8")
-        print(f"✓ Actualizado {subfolder}/reconocimientos.qmd")
+        print(f"✓ Actualizado {subfolder}/reconocimientos.qmd (Libro {num_libro if num_libro != 0 else 'Completo'})")
 
 
 if __name__ == "__main__":
