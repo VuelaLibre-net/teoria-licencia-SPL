@@ -162,24 +162,19 @@ fuentes_web = tools/web/construir.py
 # el EPUB no ejecuta nada de la extensión typst y se quedaba sin enterarse del
 # estado. Una sola fuente para PDF y EPUB.
 #
-#   >= 1.0.0        completado (cadena vacía: apaga la marca y la nota)
-#   1.x-rc.n        en revisión   (un candidato es ANTERIOR a la 1.x.0)
-#   0.9.x           en revisión
-#   0.8.x           creando ilustraciones
-#   0.7.x y menos   en desarrollo
-estado_libro = $$(v=$(call version_libro,$(1)); \
+# Estado editorial del libro, deducido de su versión.
+#
+#   >= 1.0.0 (final) completado (cadena vacía: apaga la marca y la nota)
+#   < 1.0.0 o rc    en revisión (marca de agua diagonal y nota en portadilla)
+estado_libro = $$(v=$$($(SED_VERSION) $(1)/_quarto.yml 2>/dev/null || $(SED_VERSION) $(1)/_quarto-completo.yml 2>/dev/null | head -1); \
 	case "$$v" in *-*) pre=1 ;; *) pre=0 ;; esac; \
-	base=$${v%%-*}; may=$$(echo "$$base" | cut -d. -f1); men=$$(echo "$$base" | cut -d. -f2); \
-	case "$$may$$men" in *[!0-9]*|"") echo ""; exit ;; esac; \
+	base=$${v%%-*}; may=$$(echo "$$base" | cut -d. -f1); \
+	case "$$may" in *[!0-9]*|"") echo ""; exit ;; esac; \
 	if [ "$$may" -ge 1 ] && [ "$$pre" -eq 0 ]; then echo ""; \
-	elif [ "$$may" -ge 1 ] || [ "$$men" -ge 9 ]; then echo "En revisión"; \
-	elif [ "$$men" -ge 8 ]; then echo "Creando ilustraciones"; \
-	else echo "En desarrollo"; fi)
+	else echo "En revisión"; fi)
 
 nota_libro = $$(case "$(call estado_libro,$(1))" in \
 	"En revisión") echo "Edición pendiente de revisión técnica por más instructores. El contenido puede cambiar antes de la versión definitiva." ;; \
-	"Creando ilustraciones") echo "El texto está completo pero NO HA SIDO REVISADO y las ilustraciones aún se están elaborando." ;; \
-	"En desarrollo") echo "Texto e ilustraciones en elaboración. Contenido provisional, sujeto a cambios." ;; \
 	*) echo "" ;; esac)
 
 # Las reglas se generan una por libro, y no como regla de patrón, porque el
@@ -286,8 +281,8 @@ $(pdf_completo): $(fuentes_completo) $(fuentes_cover_completo) $(fuentes_typst) 
 	    set -- $(MESES); shift $$(expr $$m - 1); \
 	    echo "$$(expr $$d + 0) de $$1 de $$y")" \
 	  --metadata version-quarto="$(call version_quarto)" \
-	  --metadata estado="" \
-	  --metadata estado-nota=""
+	  --metadata estado="$(call estado_libro,recursos-completo)" \
+	  --metadata estado-nota="$(call nota_libro,recursos-completo)"
 	@rm -f _quarto.yml
 	@mv _book/*.pdf $@
 	@echo "✓ PDF del Manual Completo generado en $@"
@@ -302,8 +297,8 @@ $(epub_completo): $(fuentes_completo) $(fuentes_cover_completo) $(fuentes_epub) 
 	    set -- $(MESES); shift $$(expr $$m - 1); \
 	    echo "$$(expr $$d + 0) de $$1 de $$y")" \
 	  --metadata version-quarto="$(call version_quarto)" \
-	  --metadata estado="" \
-	  --metadata estado-nota=""
+	  --metadata estado="$(call estado_libro,recursos-completo)" \
+	  --metadata estado-nota="$(call nota_libro,recursos-completo)"
 	@rm -f _quarto.yml
 	@mv _book/*.epub $@
 	@echo "✓ EPUB del Manual Completo generado en $@"

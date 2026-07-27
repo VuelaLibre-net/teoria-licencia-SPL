@@ -126,6 +126,7 @@ book:
 format:
   orange-book-es-typst:
     toc: true
+    toc-depth: 2
     number-sections: true
     keep-typ: true
     margin:
