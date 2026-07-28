@@ -16,6 +16,8 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.11] — 28 de julio de 2026
+
 **Qué releer:** **Apéndice «Fuentes de meteorología para vuelo a vela».** Se añaden herramientas de pronóstico y criterios para revisar condiciones de onda.
 
 ### Añadido
