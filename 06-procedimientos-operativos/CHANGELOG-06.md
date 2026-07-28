@@ -16,6 +16,14 @@ rompe la compilación.
 
 ## [En curso]
 
+## [0.8.8] — 28 de julio de 2026
+
+**Qué releer:** **cap01, los cuatro pilares de la aeronave** (la regla de oro y la viñeta del resumen). Se corrige una atribución normativa. Lo que el alumno debe comprobar antes de volar no cambia: cambia de qué norma cuelga el cuarto punto.
+
+### Corregido
+
+* **cap01** — la pesada y el centrado **no** figuran en SAO.GEN.155. Ese punto enumera documentos: el AFM a bordo (a)(1) y, disponibles en el aeródromo, la matrícula, el certificado de aeronavegabilidad y el ARC (c)(1) a (c)(3). Quien obliga al piloto al mando a comprobar que «la masa del planeador y la posición del centro de gravedad son tales que el vuelo puede realizarse dentro de los límites definidos por el manual de vuelo» es **SAO.GEN.130(d)(4)**, y `AMC1 SAO.GEN.130(d)(4)` admite el informe de pesada y centrado cuando el AFM no trae los datos actuales. El cuarto pilar tampoco es documental: es una comprobación. Verificado contra el Reglamento (UE) 2018/1976, Anexo II (Part-SAO).
+
 ## [0.8.7] — 27 de julio de 2026
 
 ### Maqueta y producción

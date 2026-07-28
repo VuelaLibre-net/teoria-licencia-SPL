@@ -33,7 +33,7 @@ Salvo que vueles a la vista del aeródromo o en una zona autorizada por la autor
 El resto de los papeles de la aeronave —certificado de matrícula, certificado de aeronavegabilidad con sus anexos, ARC, licencia de radio si lleva equipo, certificado del seguro y diario de a bordo— no necesitan volar contigo: SAO.GEN.155 exige que estén disponibles en el aeródromo o lugar de operación.
 
 ::: {.callout-tip title="Regla de oro"}
-Antes de cada vuelo, verifica los cuatro pilares documentales de la aeronave según **SAO.GEN.155**: **aeronavegabilidad** (certificado de aeronavegabilidad + ARC en vigor), **matrícula** (certificado de matrícula visible), **manual de vuelo** (AFM a bordo) y **pesada y centrado** (dentro de los límites del manual). Si alguno falla, el planeador no vuela.
+Antes de cada vuelo, verifica los cuatro pilares de la aeronave. Tres son documentales y los enumera **SAO.GEN.155**: **aeronavegabilidad** (certificado de aeronavegabilidad + ARC en vigor), **matrícula** (certificado de matrícula) y **manual de vuelo** (AFM a bordo). El cuarto no es un papel, sino una comprobación que te impone **SAO.GEN.130(d)(4)** como piloto al mando: la **pesada y el centrado** dentro de los límites del manual. Si alguno falla, el planeador no vuela.
 :::
 
 ## Responsabilidad del piloto al mando (PIC)
@@ -172,7 +172,7 @@ Ambas mnemotécnicas (la europea CB-SIFT-CBE y la tradicional CRISE) persiguen e
 ::: {.postit}
 **Resumen del capítulo: requisitos generales**
 
-* **Los papeles del planeador (SAO.GEN.155)**: antes de cada vuelo verifica los cuatro pilares documentales de la aeronave: aeronavegabilidad (certificado + ARC), matrícula, manual de vuelo (AFM) y pesada y centrado. Si falta alguno, el planeador no vuela.
+* **Los papeles del planeador (SAO.GEN.155) y su estado (SAO.GEN.130)**: antes de cada vuelo verifica los cuatro pilares de la aeronave. Tres los enumera SAO.GEN.155: aeronavegabilidad (certificado + ARC), matrícula y manual de vuelo (AFM). El cuarto te lo exige SAO.GEN.130(d)(4) como piloto al mando: la pesada y el centrado dentro de los límites del manual. Si falta alguno, el planeador no vuela.
 * **Tus papeles**: licencia (SPL (Sailplane Pilot Licence)) en vigor, certificado médico vigente, DNI y datos del libro de vuelo (SFCL.045). Si eres alumno, en las travesías en solitario lleva el médico, el DNI y la prueba de la autorización de tu instructor (SFCL.125).
 * **Responsabilidad del PIC**: tú eres la última autoridad. Si el velero no está en condiciones, la meteo es marginal o tú no estás al 100 % (IMSAFE), la decisión de no volar es tuya.
 * **IMSAFE**: **Illness, Medication, Stress, Alcohol, Fatigue, Emotion/Eating**. Un solo «sí» es suficiente para quedarte en tierra.
