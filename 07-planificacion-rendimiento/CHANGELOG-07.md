@@ -16,6 +16,24 @@ rompe la compilación.
 
 ## [En curso]
 
+## [0.8.9] — 28 de julio de 2026
+
+**Qué releer:** **cap04, casillas 15 y 19 del plan de vuelo** (el apartado «Casillas clave» y la viñeta correspondiente del resumen). Se separa lo que exige el formulario de lo que hace el piloto de planeador. Lo que hay que escribir en cada casilla no cambia.
+
+### Corregido
+
+* **cap04, casilla 15** — el formulario **no pide la media de crucero**: el Apéndice 2 del Doc. 4444 de OACI dice «INSERT the **True airspeed** [...] expressed as K followed by 4 figures (e.g. K0830), or [...] N followed by 4 figures». La casilla pide TAS; lo que ocurre es que en un planeador la única cifra disponible de antemano es la media estimada de la tarea. Ahora el texto dice las dos cosas.
+* **cap04, casilla 19** — `E/` es **autonomía de combustible**: «INSERT a 4-figure group giving the **fuel endurance** in hours and minutes». Anotar las horas de luz que quedan hasta la puesta de sol es un convenio del vuelo sin motor —el planeador puro no tiene combustible que declarar—, no una exigencia del formulario, y el libro lo daba por tal.
+
+## [0.8.8] — 28 de julio de 2026
+
+**Qué releer:** **Bibliografía.** Se incorporan dos fuentes que el libro ya venía aplicando sin citarlas. Ningún capítulo cambia.
+
+### Añadido
+
+* **Bibliografía** — **Doc. 4444 (PANS-ATM) de OACI**, cuyo **Apéndice 2** es el que fija el modelo de plan de vuelo y las instrucciones de cada casilla que explica `cap04` (K/N en la casilla 15, ZZZZ y DEST/ entre las casillas 16 y 18, E/ en la 19).
+* **Bibliografía** — **Sporting Code Section 3 de la FAI** (Classes D & DM, edición 2025), que es donde están definidos el triángulo FAI y la tarea de área asignada (AAT) que describe `cap03`.
+
 ## [0.8.7] — 27 de julio de 2026
 
 **Qué releer:** **cap01, cálculo de masa y centrado; cap02, efecto del peso sobre la polar; cap04, obligatoriedad del plan de vuelo.** Se retiran atribuciones concluyentes sobre qué contenido aparece en el examen. El contenido técnico no cambia.

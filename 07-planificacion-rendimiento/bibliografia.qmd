@@ -13,6 +13,7 @@ Apuntes de teoría de **Iñaqui Ulibarri García de la Cueva** para la Organizac
 * **Reglamento de Ejecución (UE) n.º 923/2012 — SERA** (*Standardised European Rules of the Air*). Reglas del aire comunes para la Unión Europea (versión consolidada). En España se aplica mediante el Real Decreto 552/2014.
   [https://eur-lex.europa.eu/legal-content/ES/TXT/PDF/?uri=CELEX:02012R0923-20250501](https://eur-lex.europa.eu/legal-content/ES/TXT/PDF/?uri=CELEX:02012R0923-20250501)
 * **Ley 21/2003, de 7 de julio, de Seguridad Aérea**. Jefatura del Estado (España). Publicada en el BOE núm. 162, de 8 de julio de 2003. Marco legal nacional que complementa la normativa europea.
+* **Doc. 4444 — PANS-ATM** (*Procedures for Air Navigation Services — Air Traffic Management*). Organización de Aviación Civil Internacional (OACI). Su **Apéndice 2** contiene el modelo de formulario de plan de vuelo y las instrucciones de cumplimentación de cada casilla, que es lo que aplica el capítulo 4.
 
 **Anexos al Convenio de Chicago (OACI)**
 
@@ -44,4 +45,6 @@ La OACI desarrolla las normas y métodos recomendados (SARPS) mediante 19 anexos
   [https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/glider_handbook](https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/glider_handbook)
 * **Methodik der Segelflugausbildung** (*Segelflugrechte*, Rev. 2). Deutscher Aero Club (DAeC), 2022. Metodología alemana de instrucción de vuelo a vela.
   [https://www.daec.de/media/files/2022/Sportarten/Segelflug/Methodik_der_Segelflugausbildung_Segelflugrechte_Rev.2.pdf](https://www.daec.de/media/files/2022/Sportarten/Segelflug/Methodik_der_Segelflugausbildung_Segelflugrechte_Rev.2.pdf)
+* **Sporting Code Section 3 — Gliding (Classes D & DM)**. Federación Aeronáutica Internacional (FAI), edición 2025, en vigor desde el 1 de octubre de 2025. Define los tipos de tarea del vuelo de distancia —triángulo FAI, tarea de área asignada (AAT)— y las reglas de homologación de vuelos y récords.
+  [https://www.fai.org/sites/default/files/document/file/sc3_2025.pdf](https://www.fai.org/sites/default/files/document/file/sc3_2025.pdf)
 * **Vuelo sin motor: técnicas avanzadas**. Helmut Reichmann. Edición española de la obra de referencia internacional sobre la técnica del vuelo de distancia (orig. *Streckensegelflug*; ed. inglesa, *Cross-Country Soaring*). ISBN 978-84-283-1567-8.
