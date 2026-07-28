@@ -16,6 +16,19 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.10] — 28 de julio de 2026
+
+**Qué releer:** **cap02, apartado de alcohol** (el recuadro de Normativa y su línea del resumen). Se corrige la referencia del AMC y se completa la regla con un tercer límite que faltaba. Las cifras que ya estaban —8 horas y 0,2 g/l— no cambian.
+
+### Corregido
+
+* **cap02, alcohol** — la regla se atribuía al **AMC1 SAO.GEN.130(f)**, que en el Rule Book de EASA es el AMC de *buceo y donación de sangre*. El consumo de alcohol está en el AMC combinado **AMC1 SAO.GEN.130(f) y SAO.GEN.135(b)**, titulado *Alcohol consumption*. Verificado contra las Easy Access Rules for Sailplanes (nov. 2022).
+
+### Añadido
+
+* **cap02, alcohol** — el tercer punto de ese AMC, que faltaba: **nada de alcohol durante el vuelo**. El resumen recoge además el matiz «o el límite nacional, si es más estricto», que el cuerpo ya explicaba.
+
+
 ## [1.0-rc.9] — 27 de julio de 2026
 
 ### Maqueta y producción
