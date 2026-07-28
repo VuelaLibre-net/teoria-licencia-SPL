@@ -16,6 +16,12 @@ rompe la compilación.
 
 ## [En curso]
 
+**Qué releer:** **Apéndice «Fuentes de meteorología para vuelo a vela».** Se añaden herramientas de pronóstico y criterios para revisar condiciones de onda.
+
+### Añadido
+
+* **Apéndice «Fuentes de meteorología para vuelo a vela»** — relación de herramientas específicas y generales, con enlaces y pautas para interpretar pronósticos de onda de montaña.
+
 ## [1.0-rc.10] — 27 de julio de 2026
 
 **Qué releer:** **cap03, índices de estabilidad; cap04, clasificación de nubes.** Se retiran atribuciones concluyentes sobre qué contenido aparece en el examen. El contenido técnico no cambia.

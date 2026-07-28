@@ -30,6 +30,7 @@ book:
     - cap10-informacion-meteorologica.qmd
   appendices:
     - apendice-syllabus-oficial-easa---meteorologia.qmd
+    - apendice-fuentes-meteorologia.qmd
     - glosario.qmd
     - bibliografia.qmd
     - colofon.qmd

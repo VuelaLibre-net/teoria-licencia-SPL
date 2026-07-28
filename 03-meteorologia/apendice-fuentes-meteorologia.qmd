@@ -1,0 +1,49 @@
+# Fuentes de meteorología para vuelo a vela
+
+Esta relación reúne algunas de las herramientas de pronóstico meteorológico útiles para el piloto de planeador. Se clasifican según su coste (gratuitas o de pago) y su orientación (específicas para vuelo a vela o de uso general). Las funcionalidades y precios pueden variar; consulta con tu instructor y con cada sitio para información actualizada.
+
+**Herramientas específicas para vuelo a vela — de pago**
+
+* **SkySight**. Probablemente la herramienta más completa y usada por pilotos de planeador. Incluye capas específicas de onda (amplitud, longitud de onda, posición del rotor), térmica, convergencia y viento en altura. Suscripción con prueba gratuita.
+  [https://skysight.io](https://skysight.io)
+
+* **Top Meteo**. Muy usado en Europa, con buena precisión en zonas alpinas y pirenaicas. Predicciones orientadas a vuelo a vela con cobertura europea.
+  [https://topmeteo.eu](https://topmeteo.eu)
+
+**Herramientas específicas para vuelo a vela — gratuitas o con versiones gratuitas y mejoras de pago**
+
+* **RASP** (Regional Atmospheric Soaring Prediction). Desarrollado por el Dr. Jack Glendening, utiliza el modelo WRF a alta resolución. Incluye predicción de onda en algunas configuraciones regionales. Cobertura variable según la zona geográfica.
+  [https://www.drjack.info](https://www.drjack.info)
+  — *Instancia para la península ibérica*, mantenida por la comunidad, con predicción, curva de estado y observaciones:
+  [https://raspuri.mooo.com](https://raspuri.mooo.com)
+
+* **Soaringmeteo**. Proyecto de código abierto gestionado por una asociación sin ánimo de lucro. Ofrece predicciones de térmica, altura de la capa convectiva y cobertura nubosa mediante modelos GFS y WRF, con buen detalle en los Alpes.
+  [https://soaringmeteo.org](https://soaringmeteo.org)
+
+* **Meteo-Parapente**. Modelo de alta resolución propio, con pronóstico de viento, térmica y cobertura nubosa por capas. Interfaz sencilla con app móvil. Popular entre pilotos de parapente y planeador en Francia y España.
+  [https://meteo-parapente.com](https://meteo-parapente.com)
+
+* **EDL-Soaring**. Especializado en onda de montaña, con mapas interactivos que cubren España y Francia. Ofrece datos descargables en formato mbtiles para uso offline en aplicaciones de navegación (XCSoar, SeeYou, etc.).
+  [https://www.edl-soaring.com/maps/](https://www.edl-soaring.com/maps/)
+
+**Herramientas meteorológicas generales — gratuitas**
+
+* **AEMET — Autoservicio Meteorológico Aeronáutico (AMA)**. Servicio oficial español con METAR, TAF, SIGMET e imágenes de radar y satélite. Requiere registro con licencia aeronáutica. Útil para el contexto sinóptico general, aunque no tiene capas específicas de onda.
+  [https://ama.aemet.es](https://ama.aemet.es)
+
+* **Windy**. Visualización del viento en múltiples niveles de presión (850, 700, 500 hPa) con modelos ECMWF, GFS e ICON. Permite comprobar rápidamente si hay componente perpendicular a la sierra y comparar el consenso entre modelos. No modela onda específicamente.
+  [https://www.windy.com](https://www.windy.com)
+
+* **Meteoblue**. Ofrece una capa de aviación ("AIR") con perfil vertical de viento y temperatura, y cobertura nubosa por capas. Útil como verificación cruzada rápida del perfil atmosférico.
+  [https://www.meteoblue.com](https://www.meteoblue.com)
+
+* **Sondeos — Universidad de Wyoming**. Archivo mundial de radiosondeos con diagramas Skew-T. El sondeo de Madrid/Barajas (estación 08221) permite confirmar el perfil vertical de viento y estabilidad, clave para prever onda en el Sistema Central.
+  [https://weather.uwyo.edu/upperair/sounding.shtml](https://weather.uwyo.edu/upperair/sounding.shtml)
+
+**Qué buscar para pronóstico de onda**
+
+Independientemente de la herramienta que utilices, para prever onda de montaña necesitas revisar tres condiciones:
+
+* **Viento perpendicular a la sierra**, idealmente entre 15 y 40 km/h en superficie, aumentando con la altura.
+* **Estabilidad atmosférica**: una capa estable en altura, idealmente con inversión a la altura de las cimas o algo por encima.
+* **Dirección del viento constante con la altura**: sin cizalladura direccional significativa (el viento debe mantener su componente perpendicular a la sierra en todos los niveles).
