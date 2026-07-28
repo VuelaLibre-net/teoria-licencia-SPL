@@ -16,6 +16,16 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.11] — 28 de julio de 2026
+
+**Qué releer:** **cap05, prioridad de paso en ladera y excepciones de altura mínima.** Dos atribuciones normativas equivocadas y una enumeración incompleta. Lo que el alumno debe hacer en vuelo no cambia; sí cambia de dónde sale la regla, que es lo que un examen tiene que poder citar.
+
+### Corregido
+
+* **cap05, prioridad en ladera** — la regla de que tiene paso quien lleva la montaña a su derecha se presentaba dentro del bloque de SERA, dando a entender que el reglamento la recoge. **No está en SERA**: es convención universal del vuelo a vela. La regla que SERA.3210 c) 1) sí da para el encuentro de frente —virar ambos a la derecha— es justamente inaplicable con la ladera a la derecha, que es la razón de ser de la convención. Corregido en el cuerpo y en el resumen.
+* **cap05, alturas mínimas** — las excepciones del vuelo de ladera y del entrenamiento de aterrizajes forzosos no salían de ninguna norma identificada («la norma reconoce nuestra operativa particular»). Salen del **artículo 15 del Real Decreto 552/2014**, por la vía que abre SERA.5005 f) («con permiso de la autoridad competente») y que el AMC1 SERA.5005 f) encarga concretar a esa autoridad, nombrando el vuelo de ladera y las prácticas de aterrizaje forzoso. Se precisa además que la excepción lo es de SERA.5005 f) 2) —los 150 m de campo abierto—, no de los 300 m de zona poblada.
+* **cap05, distancia en las tomas de entrenamiento** — los 150 m deben mantenerse respecto de «cualquier persona, vehículo o embarcación que se encuentre en la superficie y con todo obstáculo artificial» (RD 552/2014, art. 15). El texto decía «persona, vehículo o edificio»: dejaba fuera las embarcaciones y estrechaba a edificios lo que la norma extiende a cualquier obstáculo artificial.
+
 ## [1.0-rc.10] — 27 de julio de 2026
 
 ### Maqueta y producción
