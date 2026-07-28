@@ -38,8 +38,8 @@ def main() -> None:
             if not required.issubset({page.get("source") for page in pages}):
                 sys.exit(f"{archive}: faltan preliminares web obligatorios")
             total += len(pages)
-    if total != 140:
-        sys.exit(f"Se esperaban 140 páginas web y hay {total}")
+    if total != 141:
+        sys.exit(f"Se esperaban 141 páginas web y hay {total}")
     print(f"9 paquetes web válidos con {total} páginas.")
 
 

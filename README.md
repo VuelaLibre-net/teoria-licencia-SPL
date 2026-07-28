@@ -160,7 +160,7 @@ El lector web no interpreta los `.qmd` directamente: Quarto resuelve primero tí
 make web          # sólo los 9 paquetes HTML, sin recompilar PDF, EPUB ni RAG
 ```
 
-Cada paquete publica la licencia, dedicatoria, reconocimientos, introducción, capítulos, apéndices, glosario y bibliografía. Se excluyen portada, epígrafe, guía de lectura repetida, colofón y contracubierta. El CI valida los nueve paquetes y sus **140 páginas** antes de entregarlos al sitio.
+Cada paquete publica la licencia, dedicatoria, reconocimientos, introducción, capítulos, apéndices, glosario y bibliografía. Se excluyen portada, epígrafe, guía de lectura repetida, colofón y contracubierta. El CI valida los nueve paquetes y sus **141 páginas** antes de entregarlos al sitio.
 
 En VuelaLibre.net, el lector se sirve bajo rutas estables como:
 
