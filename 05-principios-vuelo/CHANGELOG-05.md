@@ -16,6 +16,16 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.3] — 28 de julio de 2026
+
+**Qué releer:** **cap03, estabilidad direccional**, y la entrada **VNE del glosario**. Dos correcciones: un término mal elegido y una atribución normativa equivocada. El contenido técnico que el alumno aprende no cambia en ninguna de las dos.
+
+### Corregido
+
+* **cap03** — la deriva evita el **deslizamiento lateral** (*sideslip*), no el «vuelo cruzado». El vuelo cruzado es una acción del piloto (mandos cruzados), no algo que una superficie fija pueda impedir; lo que la deriva contrarresta es que el aire llegue de costado, y lo hace tanto en resbale como en derrape. La redacción anterior chocaba además con la terminología de cap04, donde *derrape* es el skid por exceso de pedal interior.
+* **cap05, resumen** — la referencia CS 22.1505 colgaba de «la línea roja del anemómetro», y ese apartado no regula marcados: fija la velocidad (V~NE~ ≤ 0,90 V~DF~). Quien manda marcar la línea roja es CS 22.1545(a), ya citado en la viñeta anterior del propio resumen. Ahora la referencia acompaña al límite de velocidad, que es lo que regula.
+* **Glosario, entrada VNE** — el límite de **un tercio del recorrido de mando** cerca de la VNE no está en CS 22.1505, como se afirmaba. CS 22.1505 fija la velocidad (VNE ≤ 0,90 VDF) y CS 22.1545(a) su línea roja; el límite de un tercio es una advertencia que **CS 22.1585(o)(2)** obliga a incluir en el Manual de Vuelo, en el apartado de vuelo a alta velocidad. Verificado contra CS-22 Amdt 3 (ED Decision 2021/013/R).
+
 ## [1.0-rc.2] — 27 de julio de 2026
 
 **Qué releer:** **cap02, efecto del lastre de agua.** Se retira una atribución concluyente sobre qué contenido aparece en el examen. El contenido técnico no cambia.

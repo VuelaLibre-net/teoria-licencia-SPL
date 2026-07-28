@@ -933,7 +933,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Condiciones de visibilidad y distancia a nubes iguales o superiores a los mínimos aplicables.
 
 **VNE (Velocidad de nunca exceder / Never Exceed Speed)**
-: Límite absoluto de velocidad del planeador, indicado por la línea roja en el anemómetro. Superarla expone el planeador al riesgo de flutter aeroelástico, que puede desintegrar la estructura en segundos, sin previo aviso. La VNE disminuye con la altitud porque la TAS crece respecto a la IAS en aire menos denso. Cerca de la VNE, las deflexiones de mando deben limitarse a un tercio de su recorrido total. Regulada en CS-22.1505.
+: Límite absoluto de velocidad del planeador, indicado por la línea roja en el anemómetro. Superarla expone el planeador al riesgo de flutter aeroelástico, que puede desintegrar la estructura en segundos, sin previo aviso. La VNE disminuye con la altitud porque la TAS crece respecto a la IAS en aire menos denso. Cerca de la VNE, las deflexiones de mando deben limitarse a un tercio de su recorrido total. La velocidad la regula CS 22.1505 y su línea roja, CS 22.1545(a); el límite de un tercio del recorrido es una advertencia que CS 22.1585(o)(2) obliga a incluir en el Manual de Vuelo.
 
 **VOLMET**
 : Emisión meteorológica continua para aeronaves en vuelo. Retransmite METAR, TAF y SIGMET de varios aeropuertos de una región en bucle. A diferencia del ATIS, que cubre un solo aeródromo, el VOLMET permite evaluar condiciones en múltiples alternos sin saturar la frecuencia de control.
