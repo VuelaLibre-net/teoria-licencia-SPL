@@ -47,7 +47,7 @@ El mando verde, o el pulsador eléctrico que libera la carga de la palanca, es t
 * **Trim de pestaña**: una pequeña superficie en el borde de salida del elevador que se mueve en sentido contrario.
 
 ::: {.callout-note title="Airmanship"}
-Los mandos de cabina siguen un código de colores casi universal que conviene reconocer al instante: **azul** para los aerofrenos, **verde** para el compensador, **amarillo** para la suelta del cable de remolque y **rojo** para las palancas de emergencia (suelta de cúpula, aperturas). Localízalos en cada planeador antes de volar.
+Los mandos de cabina siguen un código de colores que **no es una costumbre, sino un requisito de certificación**: lo fija CS 22.780, y CS 22.1555 obliga a marcarlos conforme a él. **Azul** para los aerofrenos, **verde** para el compensador, **amarillo** para la suelta del cable de remolque y **rojo** para la suelta de cúpula —el blanco queda para su apertura normal, y si una sola palanca hace las dos cosas, manda el rojo—. La norma **reserva** además esos dos colores: ningún otro mando de la cabina puede ser amarillo ni rojo, y por eso el ojo puede fiarse de ellos. Localízalos en cada planeador antes de volar.
 :::
 
 ::: {.callout-warning title="Seguridad"}
@@ -60,7 +60,7 @@ Antes de cada despegue, comprueba siempre la libertad y el sentido de los mandos
 **Resumen del capítulo: mandos de vuelo**
 
 * **Mandos primarios**: alerones (alabeo), profundidad (cabeceo) y dirección (guiñada). Varillas rígidas para alabeo y profundidad; cables para la dirección. Revisa holguras, tensión y deshilachados en la inspección.
-* **Código de colores**: azul (aerofrenos), verde (compensador), amarillo (suelta de remolque), rojo (emergencia). Casi universal; reconócelo al instante.
+* **Código de colores (CS 22.780)**: azul (aerofrenos), verde (compensador), amarillo (suelta de remolque), rojo (suelta de cúpula). No es una costumbre: lo exige la certificación, que además reserva el amarillo y el rojo para esos mandos y se los prohíbe a todos los demás. Reconócelo al instante.
 * **Aerofrenos**: mando azul. Destruyen sustentación y aumentan resistencia para controlar la senda. Al sacarlos, el morro tiende a bajar: compensa con profundidad.
 * **Flaps**: positivos para térmica y aterrizaje; negativos para transiciones rápidas. Solo en veleros de rendimiento.
 * **Compensador (trim)**: mando verde. No vuela el avión: alivia la presión de palanca para una velocidad dada. Ajústalo en cada fase del vuelo.

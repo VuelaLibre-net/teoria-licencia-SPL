@@ -16,6 +16,14 @@ rompe la compilación.
 
 ## [En curso]
 
+## [0.8.8] — 28 de julio de 2026
+
+**Qué releer:** **cap05, código de colores de la cabina** (el apartado del cuerpo y la viñeta del resumen). Los colores no cambian; cambia su rango: pasan de costumbre a requisito.
+
+### Corregido
+
+* **cap05** — el código de colores **no es «casi universal»: es normativo**. Lo fija **CS 22.780 «Colour marking and arrangement of cockpit controls»** con una tabla (suelta de remolque **amarillo**, aerofrenos **azul**, compensador **verde**, apertura de cúpula **blanco**, suelta de cúpula **rojo**), y **CS 22.1555(b)** obliga a marcar los mandos conforme a ella. La misma tabla **reserva** el amarillo y el rojo —«other controls [...] but **not yellow, red**»—, que es lo que permite al piloto fiarse del color a la primera. Presentarlo como una costumbre extendida invitaba a dudar de un dato que está certificado. Verificado contra CS-22 Amdt 3 (ED Decision 2021/013/R).
+
 ## [0.8.7] — 27 de julio de 2026
 
 **Qué releer:** **cap04, pesaje y documentación.** Se retira una atribución concluyente sobre el formato del examen. El contenido técnico no cambia.
