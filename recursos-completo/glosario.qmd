@@ -432,7 +432,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Sistema electrónico de alerta de tráfico y prevención de colisiones de corto alcance diseñado especialmente para planeadores, que transmite la posición GPS tridimensional proyectada a otras aeronaves equipadas.
 
 **Flutter (Flameo aeroelástico)**
-: Fenómeno físico de oscilaciones aeroelásticas autoexcitadas e inestables que afectan a las superficies sustentadoras o de control del planeador al superar la VNE, pudiendo destruir la estructura en segundos debido a la interacción del flujo de aire a alta velocidad con la flexibilidad estructural.
+: Fenómeno físico de oscilaciones aeroelásticas autoexcitadas e inestables que afectan a las superficies sustentadoras o de control del planeador al superar la V~NE~, pudiendo destruir la estructura en segundos debido a la interacción del flujo de aire a alta velocidad con la flexibilidad estructural.
 
 **FPL (Flight Plan — Plan de Vuelo)**
 : Datos del vuelo previsto que el piloto presenta ante las autoridades ATS antes de operar donde se preste servicio de control de tránsito aéreo (clases B, C y D, o aeródromos controlados; en clase E el VFR no necesita plan de vuelo, ni radio, ni autorización). Incluye tipo de aeronave, indicativo, aeródromo de origen y destino, ruta prevista, nivel de crucero y hora estimada.
@@ -501,7 +501,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Conjunto coordinado de publicaciones y productos de información aeronáutica, incluido el AIP y sus actualizaciones.
 
 **IAS (Velocidad indicada / Indicated Air Speed)**
-: Velocidad de la aeronave respecto al aire circundante tal como la indica el anemómetro, sin correcciones por temperatura ni densidad. Es la referencia para todos los límites aerodinámicos y estructurales (VNE, VA, velocidades de pérdida y curva polar).
+: Velocidad de la aeronave respecto al aire circundante tal como la indica el anemómetro, sin correcciones por temperatura ni densidad. Es la referencia para todos los límites aerodinámicos y estructurales (V~NE~, V~A~, velocidades de pérdida y curva polar).
 
 **IFR (Reglas de vuelo por instrumentos / Instrument Flight Rules)**
 : Reglas aplicables a los vuelos operados conforme al régimen de vuelo por instrumentos.
@@ -890,9 +890,6 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 **UTC (Tiempo Universal Coordinado / Hora Zulu)**
 : Referencia horaria única de la aviación, correspondiente a la hora del meridiano de Greenwich. Evita las confusiones por husos horarios y cambios estacionales; en España la hora local es UTC+1 en invierno y UTC+2 en verano.
 
-**VA (Velocidad de maniobra / Maneuvering Speed)**
-: Velocidad máxima a la que pueden aplicarse deflexiones totales en un solo mando sin causar daños estructurales. Por debajo de VA, ante una deflexión brusca completa, el planeador entra en pérdida antes de generar suficientes Gs para superar su límite de carga. Por encima de VA, esa protección desaparece. Importante: la VA no cubre entradas simultáneas en más de un eje de control; incluso por debajo de VA, combinar timón y palanca a fondo puede superar los límites estructurales.
-
 **VAC (Visual Approach Chart — Carta de Aproximación Visual)**
 : Carta de un aeródromo concreto con los puntos de notificación visual del CTR, frecuencias de la Torre, rutas preferentes de acceso y salida VFR y obstáculos del entorno. Publicada en el AIP España para cada aeródromo.
 
@@ -932,23 +929,26 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 **VMC (Condiciones meteorológicas visuales / Visual Meteorological Conditions)**
 : Condiciones de visibilidad y distancia a nubes iguales o superiores a los mínimos aplicables.
 
-**VNE (Velocidad de nunca exceder / Never Exceed Speed)**
-: Límite absoluto de velocidad del planeador, indicado por la línea roja en el anemómetro. Superarla expone el planeador al riesgo de flutter aeroelástico, que puede desintegrar la estructura en segundos, sin previo aviso. La VNE disminuye con la altitud porque la TAS crece respecto a la IAS en aire menos denso. Cerca de la VNE, las deflexiones de mando deben limitarse a un tercio de su recorrido total. La velocidad la regula CS 22.1505 y su línea roja, CS 22.1545(a); el límite de un tercio del recorrido es una advertencia que CS 22.1585(o)(2) obliga a incluir en el Manual de Vuelo.
-
 **VOLMET**
 : Emisión meteorológica continua para aeronaves en vuelo. Retransmite METAR, TAF y SIGMET de varios aeropuertos de una región en bucle. A diferencia del ATIS, que cubre un solo aeródromo, el VOLMET permite evaluar condiciones en múltiples alternos sin saturar la frecuencia de control.
 
 **VOR (Radiofaro omnidireccional VHF / VHF Omnidirectional Radio Range)**
 : Radioayuda que proporciona radiales magnéticos respecto de una estación terrestre.
 
-**VRA (Velocidad máxima en aire turbulento / Rough Air Speed)**
-: Velocidad máxima a la que puede volarse en aire turbulento. Es la marca que separa los arcos del anemómetro según CS 22.1545: en la VRA termina el arco verde (operación normal) y empieza el amarillo (precaución, solo aire en calma). No debe confundirse con la VA, que es un límite estructural frente a deflexiones de mando y no se marca en la esfera, aunque en muchos veleros ambas tengan valores próximos.
-
 **Vuelo de ladera (Ridge soaring)**
 : Técnica de planeo que consiste en volar aprovechando el viento dinámico ascendente desviado hacia arriba por el relieve de una montaña o cordillera en la cara de barlovento.
 
 **Vuelo de onda (Wave soaring)**
 : Técnica de planeo que aprovecha el flujo ondulatorio estacionario y laminar (onda orográfica) que se genera a sotavento de un sistema montañoso en condiciones de fuerte viento estable, permitiendo alcanzar grandes altitudes en el lado ascendente de las ondas.
+
+**V~A~ (Velocidad de maniobra / Maneuvering Speed)**
+: Velocidad máxima a la que pueden aplicarse deflexiones totales en un solo mando sin causar daños estructurales. Por debajo de V~A~, ante una deflexión brusca completa, el planeador entra en pérdida antes de generar suficientes Gs para superar su límite de carga. Por encima de V~A~, esa protección desaparece. Importante: la V~A~ no cubre entradas simultáneas en más de un eje de control; incluso por debajo de V~A~, combinar timón y palanca a fondo puede superar los límites estructurales.
+
+**V~NE~ (Velocidad de nunca exceder / Never Exceed Speed)**
+: Límite absoluto de velocidad del planeador, indicado por la línea roja en el anemómetro. Superarla expone el planeador al riesgo de flutter aeroelástico, que puede desintegrar la estructura en segundos, sin previo aviso. La V~NE~ disminuye con la altitud porque la TAS crece respecto a la IAS en aire menos denso. Cerca de la V~NE~, las deflexiones de mando deben limitarse a un tercio de su recorrido total. La velocidad la regula CS 22.1505 y su línea roja, CS 22.1545(a); el límite de un tercio del recorrido es una advertencia que CS 22.1585(o)(2) obliga a incluir en el Manual de Vuelo.
+
+**V~RA~ (Velocidad máxima en aire turbulento / Rough Air Speed)**
+: Velocidad máxima a la que puede volarse en aire turbulento. Es la marca que separa los arcos del anemómetro según CS 22.1545: en la V~RA~ termina el arco verde (operación normal) y empieza el amarillo (precaución, solo aire en calma). No debe confundirse con la V~A~, que es un límite estructural frente a deflexiones de mando y no se marca en la esfera, aunque en muchos veleros ambas tengan valores próximos.
 
 **WADA (World Anti-Doping Agency)**
 : Agencia Mundial Antidopaje. Organización internacional que regula y controla exhaustivamente el consumo de sustancias y dopaje en deportistas de competición, siendo los campeonatos de vuelo a vela sometidos también a este mismo estándar.

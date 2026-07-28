@@ -16,6 +16,10 @@ rompe la compilación.
 
 ## [En curso]
 
+### Maqueta y producción
+
+* **Glosario** — la `V~NE~` de la entrada de flutter se escribe ya con subíndice, como la componen CS-22 y 14 CFR §1.2 y como estaba en el resto de la colección. No cambia ningún dato.
+
 ## [0.8.8] — 28 de julio de 2026
 
 **Qué releer:** **cap01, los cuatro pilares de la aeronave** (la regla de oro y la viñeta del resumen). Se corrige una atribución normativa. Lo que el alumno debe comprobar antes de volar no cambia: cambia de qué norma cuelga el cuarto punto.

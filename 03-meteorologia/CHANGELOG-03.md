@@ -16,6 +16,10 @@ rompe la compilación.
 
 ## [En curso]
 
+### Maqueta y producción
+
+* **Glosario** — las dos velocidades V de la entrada de IAS se escriben ya con subíndice (`V~NE~`, `V~A~`), como las componen CS-22 y 14 CFR §1.2 y como estaban en el resto de la colección. No cambia ningún dato.
+
 ## [1.0-rc.11] — 28 de julio de 2026
 
 **Qué releer:** **Apéndice «Fuentes de meteorología para vuelo a vela».** Se añaden herramientas de pronóstico y criterios para revisar condiciones de onda.
