@@ -103,10 +103,12 @@ make
 ```
 Los archivos finales se guardarán en:
 - `build/pdf/` - PDFs de alta calidad listos para impresión o consulta digital (Typst).
-- `build/epub/` - Libros electrónicos adaptados para e-readers (Pandoc).
+- `build/epub/` - Libros electrónicos adaptados para e-readers (Pandoc). Las imágenes raster se convierten dentro del EPUB a WebP (EPUB 3.3), sin pérdida para PNG y a calidad 82 para JPEG, con un ancho máximo de 1200 px; el PDF sigue usando los originales.
 - `build/rag/` - Markdown para cargar el libro en un asistente de estudio (NotebookLM y
   similares), un fichero por asignatura. Ver [Markdown para RAG](#markdown-para-rag).
 - `build/web/` - Paquetes `.web.tar.gz` para el lector HTML de VuelaLibre.net. Cada uno contiene el HTML semántico resuelto por Quarto, sus imágenes y un manifiesto de páginas.
+
+El CI comprueba XML, recursos WebP, dimensiones y manifiesto de cada EPUB con EPUBCheck 5.3 antes de publicar.
 
 Cada entregable lleva en el nombre **el libro, su versión y su fecha** (`yymmdd`), de modo que un
 fichero descargado se identifica sin abrirlo y dos versiones del mismo libro no se pisan:
@@ -160,7 +162,7 @@ El lector web no interpreta los `.qmd` directamente: Quarto resuelve primero tí
 make web          # sólo los 9 paquetes HTML, sin recompilar PDF, EPUB ni RAG
 ```
 
-Cada paquete publica la licencia, dedicatoria, reconocimientos, introducción, capítulos, apéndices, glosario y bibliografía. Se excluyen portada, epígrafe, guía de lectura repetida, colofón y contracubierta. El CI valida los nueve paquetes y sus **141 páginas** antes de entregarlos al sitio.
+Cada paquete publica la licencia, dedicatoria, reconocimientos, introducción, capítulos, apéndices, glosario y bibliografía. Se excluyen portada, epígrafe, guía de lectura repetida, colofón y contracubierta. Las imágenes raster llevan AVIF y WebP a 480, 768 y 1200 px (sin ampliar el original), con JPEG/PNG como fallback, `srcset`, `sizes` y dimensiones intrínsecas. El CI valida los nueve paquetes y sus **141 páginas** antes de entregarlos al sitio.
 
 En VuelaLibre.net, el lector se sirve bajo rutas estables como:
 

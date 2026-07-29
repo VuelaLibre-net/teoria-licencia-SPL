@@ -19,7 +19,7 @@ LIBROS = 01-derecho-aereo-atc \
          08-aeronave-sistemas \
          09-navegacion
 
-.PHONY: all help clean rag web reconocimientos $(LIBROS) completo completo-pdf completo-epub completo-rag
+.PHONY: all help clean rag epub web reconocimientos $(LIBROS) completo completo-pdf completo-epub completo-rag
 
 # Fuentes para los reconocimientos y estado de revisores
 fuentes_revisores = recursos/estado-revisores.json tools/actualizar-reconocimientos.py
@@ -143,11 +143,12 @@ fuentes_typst = $(wildcard _extensions/orange-book-es/*.typ) \
 
 # El EPUB no ejecuta nada de la extensión typst —ni el filtro, ni las funciones—:
 # sólo se lleva esta hoja, que cada _quarto.yml enlaza con include-in-header.
-fuentes_epub = _extensions/orange-book-es/epub-estilos.html
+fuentes_epub = _extensions/orange-book-es/epub-estilos.html \
+               tools/epub/optimizar_imagenes.py tools/epub/validar.py
 
 # El HTML web se genera directamente con Quarto: necesita todas las fuentes e
 # imágenes como PDF/EPUB, pero no ejecuta los filtros exclusivos de Typst.
-fuentes_web = tools/web/construir.py
+fuentes_web = tools/web/construir.py tools/web/imagenes.py
 
 # ⚠️ El paquete typst vendorizado (typst/packages/…/lib.typ) NO se lista, y no es
 # un olvido. Quarto lo copia a la caché de cada libro y NO la refresca cuando
@@ -219,6 +220,7 @@ $(call epub_de,$(1)): $(call fuentes_texto_de,$(1)) $(call fuentes_imagen_de,$(1
 	  --metadata estado="$$(call estado_libro,$(1))" \
 	  --metadata estado-nota="$$(call nota_libro,$(1))"
 	@mv $(1)/_book/*.epub $$@
+	@python3 tools/epub/optimizar_imagenes.py $$@
 	@echo "✓ EPUB generado en $$@"
 
 # El entregable para RAG no pasa por Quarto: no soporta formatos de texto en
@@ -261,6 +263,9 @@ reconocimientos: $(fuentes_revisores)
 # recarga en el cuaderno de NotebookLM, y cuesta segundos en vez de minutos.
 rag: $(foreach libro,$(LIBROS),$(call rag_de,$(libro)))
 
+# Sólo los EPUB de los 9, sin recompilar PDF, Markdown ni HTML web.
+epub: $(foreach libro,$(LIBROS),$(call epub_de,$(libro)))
+
 # Sólo los paquetes HTML para el sitio web.
 web: $(foreach libro,$(LIBROS),$(call web_de,$(libro)))
 
@@ -301,6 +306,7 @@ $(epub_completo): $(fuentes_completo) $(fuentes_cover_completo) $(fuentes_epub) 
 	  --metadata estado-nota="$(call nota_libro,recursos-completo)"
 	@rm -f _quarto.yml
 	@mv _book/*.epub $@
+	@python3 tools/epub/optimizar_imagenes.py $@
 	@echo "✓ EPUB del Manual Completo generado en $@"
 
 $(rag_completo): $(fuentes_completo) tools/rag/construir.sh tools/rag/rag.lua recursos-completo/_quarto-completo.yml
@@ -324,6 +330,7 @@ help:
 	@printf '  make %-35s %s\n' 'all' 'Compila los 9 libros (PDF + EPUB + RAG + web).'
 	@printf '  make %-35s %s\n' 'completo' 'Compila el libro unificado completo (PDF + EPUB + RAG).'
 	@printf '  make %-35s %s\n' 'rag' 'Sólo los Markdown para RAG de los 9 libros.'
+	@printf '  make %-35s %s\n' 'epub' 'Sólo los 9 EPUB optimizados.'
 	@printf '  make %-35s %s\n' 'web' 'Sólo los paquetes HTML para el sitio web.'
 	@printf '  make %-35s %s\n' 'estados' 'Muestra libro, versión y estado editorial.'
 	@printf '  make %-35s %s\n' 'clean' 'Borra build/, _book/, cachés y archivos unificados en raíz.'
