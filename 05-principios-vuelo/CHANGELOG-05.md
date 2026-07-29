@@ -16,6 +16,8 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.4] — 29 de julio de 2026
+
 ### Maqueta y producción
 
 * **cap05, cap07, glosario y preliminares** — las velocidades V se escriben ya todas con subíndice (`V~NE~`, `V~A~`, `V~RA~`), que es como las componen CS-22 y 14 CFR §1.2. El libro mezclaba las dos formas: 27 estaban planas, incluidas las tres entradas del glosario y un encabezado de cap05. No cambia ningún dato ni ninguna cifra.
