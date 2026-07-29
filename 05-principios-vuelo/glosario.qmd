@@ -66,7 +66,7 @@ Este glosario recoge las definiciones y acrónimos esenciales de la aerodinámic
 : Relación entre la sustentación aerodinámica total y el peso del planeador, expresada en unidades *g*. En vuelo recto y nivelado: n = 1g. En un viraje de 60° de inclinación: n = 2g. El factor de carga eleva la velocidad de pérdida en proporción a su raíz cuadrada: a 2g, sube un 41%. Deflexiones bruscas y maniobras mal coordinadas en turbulencia pueden superar los límites del diagrama V-n.
 
 **Flutter (Flameo aeroelástico)**
-: Fenómeno físico de oscilaciones aeroelásticas autoexcitadas e inestables que afectan a las superficies sustentadoras o de control del planeador al superar la VNE, pudiendo destruir la estructura en segundos debido a la interacción del flujo de aire a alta velocidad con la flexibilidad estructural.
+: Fenómeno físico de oscilaciones aeroelásticas autoexcitadas e inestables que afectan a las superficies sustentadoras o de control del planeador al superar la V~NE~, pudiendo destruir la estructura en segundos debido a la interacción del flujo de aire a alta velocidad con la flexibilidad estructural.
 
 **Fugoide (modo fugoide)**
 : Modo de oscilación longitudinal lento y de largo período (30-50 segundos) en el que el planeador intercambia altitud y velocidad en ciclos suaves. Generalmente bien amortiguado y apenas perceptible si el piloto mantiene los mandos sujetos. No es peligroso por sí mismo, pero puede desconcertar al piloto inexperto que intenta corregirlo con entradas bruscas.
@@ -75,7 +75,7 @@ Este glosario recoge las definiciones y acrónimos esenciales de la aerodinámic
 : Efecto secundario indeseable al accionar los alerones para iniciar un viraje. El alerón que baja (ala exterior) genera más sustentación y también más resistencia inducida, frenando ese lado y tirando del morro en dirección contraria al giro. Es especialmente pronunciado en planeadores de gran envergadura. Se corrige con coordinación pie-mano: aplicar palanca y pedal en la misma dirección simultáneamente.
 
 **IAS (Velocidad indicada / Indicated Air Speed)**
-: Velocidad de la aeronave respecto al aire circundante tal como la indica el anemómetro, sin correcciones por temperatura ni densidad. Es la referencia para todos los límites aerodinámicos y estructurales (VNE, VA, velocidades de pérdida y curva polar).
+: Velocidad de la aeronave respecto al aire circundante tal como la indica el anemómetro, sin correcciones por temperatura ni densidad. Es la referencia para todos los límites aerodinámicos y estructurales (V~NE~, V~A~, velocidades de pérdida y curva polar).
 
 **Mando diferencial de alerones**
 : Sistema de varillaje que hace que el alerón que sube (ala interior del giro) recorra un ángulo mayor que el alerón que baja (ala exterior). Al generar más resistencia parásita en el ala interior, compensa parcialmente la resistencia inducida del ala exterior y reduce la guiñada adversa de forma mecánica. No la elimina completamente: la coordinación pie-mano sigue siendo necesaria.
@@ -101,11 +101,11 @@ Este glosario recoge las definiciones y acrónimos esenciales de la aerodinámic
 **Torbellinos de punta de ala (*wingtip vortices*)**
 : Vórtices helicoidales que se generan en cada punta de ala por la diferencia de presión entre extradós e intradós: el aire fluye alrededor de la punta desde la zona de alta presión (intradós) hacia la de baja (extradós). Al desprenderse hacia atrás inclinan el vector de sustentación, generando la resistencia inducida. A escala mayor, los torbellinos de punta de aeronaves pesadas constituyen la turbulencia de estela, cuya peligrosidad en entornos de aeródromo mixto no debe subestimarse.
 
-**VA (Velocidad de maniobra / Maneuvering Speed)**
-: Velocidad máxima a la que pueden aplicarse deflexiones totales en un solo mando sin causar daños estructurales. Por debajo de VA, ante una deflexión brusca completa, el planeador entra en pérdida antes de generar suficientes Gs para superar su límite de carga. Por encima de VA, esa protección desaparece. Importante: la VA no cubre entradas simultáneas en más de un eje de control; incluso por debajo de VA, combinar timón y palanca a fondo puede superar los límites estructurales.
+**V~A~ (Velocidad de maniobra / Maneuvering Speed)**
+: Velocidad máxima a la que pueden aplicarse deflexiones totales en un solo mando sin causar daños estructurales. Por debajo de V~A~, ante una deflexión brusca completa, el planeador entra en pérdida antes de generar suficientes Gs para superar su límite de carga. Por encima de V~A~, esa protección desaparece. Importante: la V~A~ no cubre entradas simultáneas en más de un eje de control; incluso por debajo de V~A~, combinar timón y palanca a fondo puede superar los límites estructurales.
 
-**VRA (Velocidad máxima en aire turbulento / Rough Air Speed)**
-: Velocidad máxima a la que puede volarse en aire turbulento. Es la marca que separa los arcos del anemómetro según CS 22.1545: en la VRA termina el arco verde (operación normal) y empieza el amarillo (precaución, solo aire en calma). No debe confundirse con la VA, que es un límite estructural frente a deflexiones de mando y no se marca en la esfera, aunque en muchos veleros ambas tengan valores próximos.
+**V~RA~ (Velocidad máxima en aire turbulento / Rough Air Speed)**
+: Velocidad máxima a la que puede volarse en aire turbulento. Es la marca que separa los arcos del anemómetro según CS 22.1545: en la V~RA~ termina el arco verde (operación normal) y empieza el amarillo (precaución, solo aire en calma). No debe confundirse con la V~A~, que es un límite estructural frente a deflexiones de mando y no se marca en la esfera, aunque en muchos veleros ambas tengan valores próximos.
 
 **Velocidad de mínimo descenso (Minimum Sink Speed)**
 : Velocidad a la que el planeador pierde la menor cantidad de altura posible por unidad de tiempo (obtenida en el vértice superior de la curva polar), óptima para centrar y explotar térmicas débiles.
@@ -113,8 +113,8 @@ Este glosario recoge las definiciones y acrónimos esenciales de la aerodinámic
 **Velocidad de mejor planeo (V~G~)**
 : Velocidad a la que el planeador obtiene su máxima distancia recorrida por unidad de altura perdida en aire en calma (máxima fineza, correspondiente al L/D máximo determinado por la tangente a la curva polar).
 
-**VNE (Velocidad de nunca exceder / Never Exceed Speed)**
-: Límite absoluto de velocidad del planeador, indicado por la línea roja en el anemómetro. Superarla expone el planeador al riesgo de flutter aeroelástico, que puede desintegrar la estructura en segundos, sin previo aviso. La VNE disminuye con la altitud porque la TAS crece respecto a la IAS en aire menos denso. Cerca de la VNE, las deflexiones de mando deben limitarse a un tercio de su recorrido total. La velocidad la regula CS 22.1505 y su línea roja, CS 22.1545(a); el límite de un tercio del recorrido es una advertencia que CS 22.1585(o)(2) obliga a incluir en el Manual de Vuelo.
+**V~NE~ (Velocidad de nunca exceder / Never Exceed Speed)**
+: Límite absoluto de velocidad del planeador, indicado por la línea roja en el anemómetro. Superarla expone el planeador al riesgo de flutter aeroelástico, que puede desintegrar la estructura en segundos, sin previo aviso. La V~NE~ disminuye con la altitud porque la TAS crece respecto a la IAS en aire menos denso. Cerca de la V~NE~, las deflexiones de mando deben limitarse a un tercio de su recorrido total. La velocidad la regula CS 22.1505 y su línea roja, CS 22.1545(a); el límite de un tercio del recorrido es una advertencia que CS 22.1585(o)(2) obliga a incluir en el Manual de Vuelo.
 
 **Viento relativo (*relative wind*)**
 : Dirección y velocidad del flujo de aire que incide sobre el ala, opuesta a la trayectoria de vuelo real del planeador. El ángulo de ataque se mide siempre respecto al viento relativo, nunca respecto al horizonte ni a la actitud del morro. Un planeador puede tener el morro arriba y aun así tener el viento relativo proveniente de arriba si la trayectoria real es ascendente; a la inversa, puede tener el morro bajo y un ángulo de ataque peligrosamente alto si la trayectoria de descenso es más pronunciada que la actitud.

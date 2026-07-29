@@ -69,7 +69,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Conocimi
 : Sistema electrónico de alerta de tráfico y prevención de colisiones de corto alcance diseñado especialmente para planeadores, que transmite la posición GPS tridimensional proyectada a otras aeronaves equipadas.
 
 **Flutter (Flameo aeroelástico)**
-: Fenómeno físico de oscilaciones aeroelásticas autoexcitadas e inestables que afectan a las superficies sustentadoras o de control del planeador al superar la VNE, pudiendo destruir la estructura en segundos debido a la interacción del flujo de aire a alta velocidad con la flexibilidad estructural.
+: Fenómeno físico de oscilaciones aeroelásticas autoexcitadas e inestables que afectan a las superficies sustentadoras o de control del planeador al superar la V~NE~, pudiendo destruir la estructura en segundos debido a la interacción del flujo de aire a alta velocidad con la flexibilidad estructural.
 
 **Gancho de remolque (Towhook)**
 : Mecanismo de enganche y suelta rápida del cable de lanzamiento, habitualmente del fabricante Tost. El gancho de morro se usa para remolque por avión; el gancho de CG, para torno, e incorpora suelta automática (**back-release**) si el cable tira hacia atrás y abajo.
@@ -134,5 +134,5 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Conocimi
 **Variómetro**
 : Instrumento que indica la velocidad vertical del planeador. Es la herramienta esencial del vuelo sin motor para detectar y centrar ascendencias; en su variante de energía total descuenta las maniobras del piloto.
 
-**VRA (Velocidad máxima en aire turbulento / Rough Air Speed)**
-: Velocidad máxima a la que puede volarse en aire turbulento. En la esfera del anemómetro es el límite entre el arco verde y el amarillo (CS 22.1545). No debe confundirse con la velocidad de maniobra (VA), que es un límite estructural y no se marca en la esfera; su tratamiento aerodinámico corresponde al **Libro 5 — Principios de vuelo**, capítulo 5.
+**V~RA~ (Velocidad máxima en aire turbulento / Rough Air Speed)**
+: Velocidad máxima a la que puede volarse en aire turbulento. En la esfera del anemómetro es el límite entre el arco verde y el amarillo (CS 22.1545). No debe confundirse con la velocidad de maniobra (V~A~), que es un límite estructural y no se marca en la esfera; su tratamiento aerodinámico corresponde al **Libro 5 — Principios de vuelo**, capítulo 5.

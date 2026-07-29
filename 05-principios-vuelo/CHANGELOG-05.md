@@ -16,6 +16,10 @@ rompe la compilación.
 
 ## [En curso]
 
+### Maqueta y producción
+
+* **cap05, cap07, glosario y preliminares** — las velocidades V se escriben ya todas con subíndice (`V~NE~`, `V~A~`, `V~RA~`), que es como las componen CS-22 y 14 CFR §1.2. El libro mezclaba las dos formas: 27 estaban planas, incluidas las tres entradas del glosario y un encabezado de cap05. No cambia ningún dato ni ninguna cifra.
+
 ## [1.0-rc.3] — 28 de julio de 2026
 
 **Qué releer:** **cap03, estabilidad direccional**, y la entrada **VNE del glosario**. Dos correcciones: un término mal elegido y una atribución normativa equivocada. El contenido técnico que el alumno aprende no cambia en ninguna de las dos.

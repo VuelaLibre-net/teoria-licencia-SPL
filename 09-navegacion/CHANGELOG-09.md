@@ -16,6 +16,25 @@ rompe la compilación.
 
 ## [En curso]
 
+**Qué releer:** **cap04, terminología de la brújula**, y **cap01 y cap03, sus resúmenes.** Se matizan dos afirmaciones que el postit daba
+como absolutas y el cuerpo del capítulo ya enunciaba con más precisión: la equivalencia entre minuto
+de latitud y milla náutica, y la relación entre línea recta y ortodrómica en la proyección Lambert.
+No cambia ningún dato: cambia el grado de certeza con que se enuncian.
+
+### Cambiado
+
+* **cap04** — corregido un falso amigo: *compass* se había traducido como «compás», que en español
+  es el instrumento de dibujo. El instrumento magnético es la **brújula**, y así lo llama el resto
+  del libro (el cap02 se titula «Magnetismo y brújulas»). Afecta al enunciado y a la solución del
+  ejercicio 1, a la regla nemotécnica —ahora «Oeste, la brújula marca de más», que pierde la rima
+  con «compás»— y al resumen, donde **CH** pasa a leerse «Rumbo de Brújula».
+* **cap01** — el resumen decía «1 minuto de Latitud es **siempre** 1 Milla Náutica». Ahora dice que
+  **equivale** a 1 NM y explica por qué: la milla náutica se definió como el minuto de arco de
+  meridiano. Misma precisión en la entradilla de objetivos y en el cuerpo del capítulo.
+* **cap03** — el resumen decía «una línea recta **es** una ortodrómica». Ahora dice que **se
+  aproxima mucho** a una ortodrómica, que es lo que ya afirmaba el cuerpo del capítulo («se aproxima
+  mucho a un círculo máximo»).
+
 ## [0.8.7] — 27 de julio de 2026
 
 **Qué releer:** **cap04, cadena de rumbos y ejercicios.** Se retiran atribuciones concluyentes sobre bancos y tipos de preguntas de examen. El contenido técnico no cambia.
