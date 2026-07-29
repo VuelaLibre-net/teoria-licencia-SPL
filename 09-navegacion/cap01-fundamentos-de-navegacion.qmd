@@ -6,7 +6,7 @@
 > En este capítulo aprenderás:
 >
 >
-> * **El sistema de coordenadas**: latitud y longitud, y por qué un minuto de latitud es siempre una milla náutica.
+> * **El sistema de coordenadas**: latitud y longitud, y por qué un minuto de latitud equivale a una milla náutica.
 > * **Ortodrómica y loxodrómica**: la ruta más corta frente a la de rumbo constante, y cuál vuelas en realidad.
 > * **El tiempo en aviación**: qué es UTC (hora Zulu) y por qué toda la aviación trabaja con él.
 > * **Orto, ocaso y vuelo diurno**: dónde está el límite legal de la luz para un planeador.
@@ -22,7 +22,7 @@ Para situarnos en cualquier parte del mundo, utilizamos una red imaginaria de l�
 Esta red de paralelos y meridianos (@fig-09-cap01-coordenadas) nos permite situar con precisión cualquier punto de la Tierra.
 
 ::: {.callout-tip title="Regla de oro"}
-Recuerda siempre esta equivalencia fundamental: **1 minuto de latitud equivale a 1 milla náutica**. Esto te permite calcular distancias directamente sobre los meridianos de una carta aeronáutica.
+Recuerda siempre esta equivalencia fundamental: **1 minuto de latitud equivale a 1 milla náutica**. No es una casualidad: la milla náutica se definió precisamente como la longitud del minuto de arco de meridiano, y hoy vale 1852 m exactos. Esto te permite calcular distancias directamente sobre los meridianos de una carta aeronáutica.
 :::
 
 ![Sistema de coordenadas terrestres (Latitud y Longitud)](imagenes/09-cap01-coordenadas.jpg){#fig-09-cap01-coordenadas}
@@ -73,7 +73,7 @@ Aunque es común ver anemómetros en kilómetros por hora (km/h) en muchos plane
 ::: {.postit}
 **Resumen del capítulo: fundamentos de navegación**
 
-* **Coordenadas**: Latitud (Paralelos, N/S) y Longitud (Meridianos, E/W). Recuerda: 1 minuto de Latitud es siempre 1 Milla Náutica. 1 minuto de Longitud varía con la latitud.
+* **Coordenadas**: Latitud (Paralelos, N/S) y Longitud (Meridianos, E/W). Recuerda: 1 minuto de Latitud equivale a 1 Milla Náutica, porque la milla náutica se definió como el minuto de arco de meridiano. 1 minuto de Longitud varía con la latitud.
 * **Ortodrómica vs Loxodrómica**: La Ortodrómica es la distancia más corta (círculo máximo) pero cambia de rumbo continuamente. La Loxodrómica mantiene el rumbo constante (corta a los meridianos igual) pero es más larga. En distancias de planeador, la diferencia es despreciable.
 * **El Tiempo**: En aviación usamos UTC (Universal Time Coordinated) o "Zulu" para evitar confusiones con los husos horarios locales y cambios de hora.
 * **Unidades**: Acostúmbrate a pensar en Millas Náuticas (NM) y Nudos (kts). Son el estándar internacional y facilitan los cálculos mentales (1 grado de latitud = 60 NM).

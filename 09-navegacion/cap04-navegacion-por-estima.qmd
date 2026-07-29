@@ -122,9 +122,9 @@ Resuélvelos con lápiz y papel antes de mirar la solución.
 
 **Ejercicio 1 — Cadena de rumbos.**
 
-Quieres volar un rumbo verdadero (TC) de 250°. La carta indica una variación magnética de 3°W y la tablilla de tu brújula da un desvío de 1°E para ese rumbo. No hay viento. ¿Qué rumbo de compás (CH) debes volar?
+Quieres volar un rumbo verdadero (TC) de 250°. La carta indica una variación magnética de 3°W y la tablilla de tu brújula da un desvío de 1°E para ese rumbo. No hay viento. ¿Qué rumbo de brújula (CH) debes volar?
 
-**Solución.** Sin viento, no hay corrección de deriva, así que TH = TC = 250°. Aplica la variación con la convención (W +) sobre el verdadero para pasar a magnético: MH = 250° + 3° = 253°. Ahora el desvío, que es 1°E, resta: CH = 253° − 1° = **252°**. Regla nemotécnica: «Oeste, el compás marca de más» (hay que sumar al verdadero para obtener lo que volarás).
+**Solución.** Sin viento, no hay corrección de deriva, así que TH = TC = 250°. Aplica la variación con la convención (W +) sobre el verdadero para pasar a magnético: MH = 250° + 3° = 253°. Ahora el desvío, que es 1°E, resta: CH = 253° − 1° = **252°**. Regla nemotécnica: «Oeste, la brújula marca de más» (hay que sumar al verdadero para obtener lo que volarás).
 
 **Ejercicio 2 — Deriva y rumbo a volar.**
 
@@ -137,7 +137,7 @@ Tu TAS es de 90 km/h y quieres seguir una ruta con rumbo verdadero 000° (al nor
 
 * **El Triángulo de Velocidades**: Es la base de todo. Tres vectores: **TAS** (Tu velocidad real aire), **Viento** (Velocidad del aire) y **GS** (Tu velocidad suelo). Si conoces dos, calculas el tercero.
 * **Deriva (Drift)**: El ángulo que el viento te desvía de tu rumbo. Debes corregirlo "metiendo morro al viento" (**Ángulo de Corrección de Deriva - WCA**).
-* **La Fórmula Mágica**: TC (Rumbo Verdadero) $\pm$ WCA = TH (Rumbo Verdadero de Proa). TH $\pm$ VAR = MH (Rumbo Magnético). MH $\pm$ DEV = CH (Rumbo de Compás). Convención de signos: **(W −) / (E +)**.
+* **La Fórmula Mágica**: TC (Rumbo Verdadero) $\pm$ WCA = TH (Rumbo Verdadero de Proa). TH $\pm$ VAR = MH (Rumbo Magnético). MH $\pm$ DEV = CH (Rumbo de Brújula). Convención de signos: **(W −) / (E +)**.
 * **Deriva y velocidad suelo**: $DA = (V_{cruzado} \times 60)/TAS$ y $GS = TAS \pm V \cdot \cos\alpha$. Con TAS baja, un viento moderado produce mucha deriva.
 * **Tiempo/distancia/velocidad**: $T = D/GS$. Pasa horas decimales a minutos multiplicando por 60.
 * **Regla del 60**: Si te desvías 1 milla en 60 millas de vuelo, tu error de rumbo es 1 grado. Útil para correcciones mentales rápidas.
