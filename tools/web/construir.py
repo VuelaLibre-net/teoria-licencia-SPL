@@ -17,6 +17,8 @@ import tarfile
 import tempfile
 from pathlib import Path
 
+from imagenes import optimize_html_images
+
 
 EXCLUDED = {
     "index.qmd",
@@ -110,6 +112,11 @@ def main() -> None:
             "toc=false",
         ]
         subprocess.run(command, check=True)
+        image_stats = optimize_html_images(quarto_output)
+        print(
+            f"  🖼 {book.name}: {image_stats.images} imágenes responsive, "
+            f"{image_stats.alt_added} alt, {image_stats.dimensions_added} dimensiones"
+        )
 
         pages = []
         for order, source in enumerate(published, start=1):
@@ -129,7 +136,7 @@ def main() -> None:
 
         number = int(book.name.split("-", 1)[0])
         manifest = {
-            "schemaVersion": 1,
+            "schemaVersion": 2,
             "book": {
                 "sourceSlug": book.name,
                 "siteSlug": book.name.split("-", 1)[1],

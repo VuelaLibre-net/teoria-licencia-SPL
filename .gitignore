@@ -19,6 +19,7 @@ _book/
 .gstack/
 /notes/
 tools/web/__pycache__/
+tools/epub/__pycache__/
 
 /.quarto/
 **/*.quarto_ipynb
