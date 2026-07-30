@@ -59,8 +59,15 @@ Las convenciones siguientes son fijas:
   la posición de mandos sea relevante para entenderla.
 
 Para rotulación de diagramas se usa Libertinus Sans, que está vendorizada en
-`recursos/fuentes/`. El texto debe medir al menos 9 pt al tamaño final en PDF. No se
-crea texto convertido a píxeles si puede conservarse como texto vectorial.
+`recursos/fuentes/`. El texto debe medir al menos 9 pt **al tamaño final en PDF, es
+decir, después de aplicar el `width` de inserción**: un diagrama insertado al 90 %
+encoge su tipografía en la misma proporción, así que 9 pt en el máster no son 9 pt en
+la página. No se crea texto convertido a píxeles si puede conservarse como texto
+vectorial.
+
+⚠️ Ninguna otra fuente está garantizada. Typst no falla ante una fuente ausente: cae a
+otra en silencio (ver `CLAUDE.md`). Una fuente nueva se vendoriza en `recursos/fuentes/`
+o no se usa.
 
 ## Tipos de figura
 
@@ -69,6 +76,21 @@ crea texto convertido a píxeles si puede conservarse como texto vectorial.
 Explican geometría, flujos, procedimientos, instrumentos o relaciones cualitativas.
 Su máster preferido es SVG editable; se exporta PNG solo si SVG no es viable para el
 destino. Usan la identidad gráfica anterior y etiquetas breves.
+
+⚠️ **El SVG aún no se ha usado en la colección: las 143 figuras actuales son PNG o
+JPEG.** La primera figura SVG es un piloto y se revisa en los cuatro entregables antes
+de generalizar el formato, porque hay dos incógnitas conocidas:
+
+- Typst rasteriza el SVG con **resvg**, que no admite `@font-face`, tiene soporte
+  limitado de `<style>` y CSS y no aplica filtros. El texto se compone con las fuentes
+  del sistema; si la familia no está, cae a otra sin avisar. Libertinus Sans sí está
+  (la instala el CI), cualquier otra no.
+- `tools/epub/optimizar_imagenes.py` y `tools/web/imagenes.py` filtran por
+  `{".jpg", ".jpeg", ".png"}`: un SVG pasa sin `srcset`, sin AVIF/WebP y sin el `alt`
+  que sintetiza el pipeline web. Hay que comprobar que se ve bien igualmente.
+
+Si el piloto falla en algún entregable, el diagrama se entrega como PNG y el SVG se
+conserva como máster editable junto a la ficha.
 
 ### Gráficos cuantitativos
 
@@ -117,7 +139,9 @@ bibliografía o en la ficha de procedencia.
 
 - Los nombres nuevos usan `XX-capYY-descripcion.ext`, en minúsculas ASCII y
   kebab-case; por ejemplo, `05-cap04-guinada-adversa.svg`.
-- No se añaden nuevos archivos `.jpeg`; se usa `.jpg`.
+- No se añaden nuevos archivos `.jpeg`; se usa `.jpg`. Queda uno heredado,
+  `01-derecho-aereo-atc/imagenes/01-cap05-preferencias-paso-ladera.jpeg`, que se
+  renombra cuando se toque esa figura.
 - Un SVG debe contener vectores reales, no encapsular un PNG o JPEG salvo que sea un
   caso excepcional justificado.
 - Se eliminan EXIF y otros metadatos personales de los raster publicados.
@@ -136,8 +160,19 @@ diagramas rasterizados y las cartas con texto fino deben superar ese mínimo; un
 puede llegar a 150 ppp efectivos si su detalle lo permite. No se interpola una imagen
 pequeña para aparentar más resolución.
 
+⚠️ **Ese mínimo sirve al PDF, no a los otros entregables.** El pipeline recorta el
+ancho: `tools/epub/optimizar_imagenes.py` reescala a `MAX_WIDTH = 1200` y convierte a
+WebP con `quality=82`, y `tools/web/imagenes.py` genera variantes de 480, 768 y
+1200 px en AVIF y WebP. Todo lo que exceda 1200 px es resolución para imprimir. El
+máster se guarda a resolución de impresión y no se reduce para «aligerar la web»: de
+eso se ocupan los dos scripts.
+
 El peso normal de un SVG no supera 500 KB y el de una imagen raster no supera 2 MB.
 Una carta o documento muy detallado puede excederlo si la legibilidad lo requiere.
+Hoy lo superan cinco figuras heredadas —`01-cap07-zonas-prd.png`,
+`07-cap05-cono-alcance.png`, `09-cap03-carta-enaire-ama.png`,
+`05-cap07-espiral-vs-barrena.png` y `03-cap04-familias-nubes-perfil.png`, entre 2,4 y
+3,5 MB—, que se normalizan cuando se revisen.
 
 ## Inserción en Quarto
 
@@ -145,39 +180,99 @@ Cada figura de contenido vive en `imagenes/` del libro y se inserta con un pie
 informativo, un identificador estable y un texto alternativo independiente:
 
 ```markdown
-![La guiñada adversa: el aumento de resistencia del ala exterior desvía inicialmente el morro en sentido contrario al viraje](imagenes/05-cap04-guinada-adversa.svg){#fig-05-cap04-guinada-adversa fig-alt="Vista cenital de un planeador. Una flecha roja muestra la resistencia inducida hacia el lado contrario al giro deseado y una trayectoria verde discontinua muestra el giro deseado." width="90%" fig-align="center"}
+![La guiñada adversa: el aumento de resistencia del ala exterior desvía inicialmente el morro en sentido contrario al viraje](imagenes/05-cap04-guinada-adversa.svg){#fig-05-cap04-guinada-adversa fig-alt="Vista cenital de un planeador. Una flecha roja muestra la resistencia inducida hacia el lado contrario al giro deseado y una trayectoria discontinua muestra el giro deseado."}
 ```
 
 - El pie explica qué aprende la persona lectora. No empieza por «Figura N» porque
   Quarto aporta la numeración.
 - `fig-alt` describe la información visual que no debe perder un lector de pantalla.
   No duplica el pie ni contiene créditos, prompts o una receta de generación.
-- El ID es `fig-` seguido del nombre del archivo sin extensión. Debe ser único,
-  minúsculo, ASCII y en kebab-case.
+- **En una figura nueva**, el ID es `fig-` seguido del nombre del archivo sin
+  extensión. Debe ser único, minúsculo, ASCII y en kebab-case. Manda el ID: si hay que
+  elegir, se renombra el archivo para que coincida, nunca al revés.
 - Las referencias internas usan exclusivamente `@fig-...`.
-- Se usa `width` relativo (`70%`, `90%` o `100%`) y `fig-align="center"`, salvo que
-  la composición justifique otra decisión.
 - No se renombra un ID ya publicado sin revisar sus referencias internas y externas.
 
+⚠️ La regla anterior **no es retroactiva**: 33 de las 143 figuras actuales tienen un ID
+que no coincide con su archivo (`01-cap02-certificado-aeronavegabilidad.jpg` va con
+`#fig-01-cap02-cofa-example`), y unos quince conservan el ID en inglés de la migración
+desde AsciiDoc. Se corrigen al sustituir esas figuras, no antes: un ID publicado se
+renombra con sus referencias, no por higiene. El caso raro es
+`03-cap03-indices-estabilidad.jpg`, cuyo ID dice `cap10`; ése sí conviene revisarlo
+porque induce a error al buscar la figura.
+
+Las 143 figuras actuales se insertan **sin `width` ni `fig-align`** y se maquetan bien
+con el valor por omisión. Una figura nueva no los añade salvo que su composición lo
+pida; si los lleva, se usa `width` relativo (`70%`, `90%` o `100%`) y
+`fig-align="center"`. Fijar uno solo por costumbre deja la colección con dos criterios
+de maqueta.
+
 La compatibilidad de `fig-alt` se comprueba al incorporar la primera figura que lo
-use en PDF, EPUB y paquete web. Hasta entonces no se reescriben las 143 figuras
-actuales solo para añadirlo.
+use en PDF, EPUB y paquete web —ninguna de las 143 lo lleva todavía—. Hasta entonces
+no se reescriben solo para añadirlo. Al comprobarlo, verificar que no choca con el
+`alt` que `tools/web/imagenes.py` sintetiza por su cuenta.
 
 ## Prompts, fuentes editables y estados
 
 Los prompts no se ponen en comentarios HTML dentro de los `.qmd`: el EPUB elimina
 comentarios, pero el paquete web puede conservarlos. Si una figura generada o
-regenerable necesita trazabilidad, se crea junto a ella un archivo no publicado con
-el mismo nombre y sufijo `.prompt.md`, por ejemplo:
+regenerable necesita trazabilidad, se crea un archivo no publicado con el mismo nombre
+que la figura y sufijo `.prompt.md`, en `prompts/` **fuera de `imagenes/`**:
 
 ```text
-05-principios-vuelo/imagenes/05-cap04-guinada-adversa.prompt.md
+05-principios-vuelo/prompts/05-cap04-guinada-adversa.prompt.md
+```
+
+⚠️ La ficha va fuera de `imagenes/` porque **Quarto copia ese directorio entero al
+paquete web** —se ve como `quarto/imagenes/` dentro del `.tar.gz`—, y una ficha allí se
+publicaría junto a la figura. «No publicado» aquí no es una convención: es una ruta.
+Al crear la primera ficha, comprobarlo sobre el entregable:
+
+```bash
+tar tzf build/web/05-principios-vuelo-*.web.tar.gz | grep -c '\.prompt\.md'   # 0
 ```
 
 La ficha incluye tipo de figura, estado (`borrador`, `revision-tecnica` o `final`),
 fecha, herramienta y versión, prompt, fuentes técnicas, licencia de las fuentes,
 restricciones y persona que hizo la revisión técnica. El máster editable se conserva
 junto a la ficha o en una ruta indicada por ella.
+
+La ficha usa front matter YAML con `schema: 1` y el prompt como cuerpo Markdown:
+
+```markdown
+---
+schema: 1
+figura: 05-cap04-guinada-adversa.svg
+tipo: diagrama-conceptual
+estado: borrador
+fecha: ""
+herramienta:
+  nombre: ""
+  version: ""
+fuentes:
+  - referencia: ""
+    licencia: ""
+restricciones: []
+revision:
+  persona: ""
+  fecha: ""
+master_editable: ""
+---
+
+Prompt completo de la figura.
+```
+
+`figura` ata la ficha a su imagen aunque una de las dos se mueva o se renombre; el
+nombre del archivo por sí solo no basta. `fecha` va vacía en la plantilla a propósito:
+una fecha de ejemplo se copia tal cual y envejece sin que nadie lo note.
+
+Los tres estados son `borrador`, `revision-tecnica` y `final`. Una figura ya publicada
+que se regenera **vuelve a `borrador`** y necesita revisión técnica otra vez: el
+estado describe la versión actual del archivo, no el historial de la figura.
+
+`ilustra` puede crear y editar esta ficha. No sustituye una ficha YAML inválida:
+se corrige primero en el repositorio para no perder trazabilidad. Nada valida hoy el
+`schema: 1`; si se automatiza la comprobación, va con el resto de guardianes del CI.
 
 El prompt de un diagrama generado pide siempre fondo blanco, estilo vectorial plano,
 etiquetas en español y la paleta de esta guía. No se pide a IA texto largo, cálculos,
@@ -263,7 +358,8 @@ Para cada figura nueva o sustituida, comprobar:
 - [ ] Las etiquetas son legibles, están en español y el significado no depende solo
   del color.
 - [ ] El pie, `fig-alt`, nombre e ID cumplen la sección de Quarto.
-- [ ] La fuente, licencia, atribución y cualquier modificación están registradas.
+- [ ] La fuente, licencia, atribución y cualquier modificación están registradas, y la
+  ficha `.prompt.md` está en `prompts/`, no en `imagenes/`.
 - [ ] PDF: texto, líneas finas, numeración e índice de ilustraciones son legibles al
   100 % y en escala de grises.
 - [ ] EPUB y web: la figura no desborda en pantalla estrecha, se ve sobre fondos claro
@@ -272,4 +368,6 @@ Para cada figura nueva o sustituida, comprobar:
 - [ ] El entregable publicable no conserva placeholders ni trazas de prompts.
 
 La automatización de este control se incorporará en un cambio independiente. Mientras
-no exista, quien cambie una ilustración compila y revisa al menos el libro afectado.
+no exista, quien cambie una ilustración compila y revisa al menos el libro afectado:
+`make <libro>` produce sus cuatro entregables. No basta con que salga con 0 — toda esta
+cadena falla en silencio (ver `CLAUDE.md`), así que hay que mirar los archivos.
