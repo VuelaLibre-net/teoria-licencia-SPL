@@ -23,3 +23,6 @@ tools/epub/__pycache__/
 
 /.quarto/
 **/*.quarto_ipynb
+
+# Directorios de backup creados por la app ilustra (~/ws/ilustra)
+**/.ilustra-backup/
