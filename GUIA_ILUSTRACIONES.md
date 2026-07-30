@@ -234,7 +234,9 @@ guía no convierte automáticamente una figura existente en provisional.
 
 Antes de incorporar una figura se registra su origen y licencia. Para material propio
 se identifica autoría y fecha; para una adaptación se identifica también la obra base
-convierte automáticamente una fuente externa en reutilizable bajo esa licencia.
+y su licencia, y qué se ha modificado. Que una fuente sea pública, gratuita o de un
+organismo oficial no la convierte en reutilizable: la licencia de esta colección no se
+propaga hacia atrás ni autoriza por sí sola a republicar material ajeno.
 
 No se usan logotipos de AESA, EASA, ENAIRE ni de otros organismos como decoración o
 para insinuar una aprobación. Una carta o documento oficial se reproduce solo cuando
