@@ -16,6 +16,12 @@ rompe la compilación.
 
 ## [En curso]
 
+**Qué releer:** **cap02, la curva polar.** La figura se rehace y su pie pasa a nombrar los tres puntos marcados. El texto del apartado no cambia, pero la figura ya no da las dos velocidades con cifra: conviene comprobar que se lee bien junto al cuerpo, que sí las explica.
+
+### Cambiado
+
+* **cap02, curva polar** — figura nueva. Marca **tres** puntos numerados (1 pérdida, 2 mínimo descenso, 3 máximo planeo) donde la anterior sólo señalaba dos con bocadillos, e incorpora la tangente desde el origen y el ángulo de planeo, que es de donde sale el punto 3. A cambio desaparecen las cifras concretas de la versión anterior (74 y 93 km/h), que eran de un planeador sin identificar. El pie recoge ahora los tres puntos y la figura lleva `fig-alt` para lectores de pantalla.
+
 ### Maqueta y producción
 
 * **cap05, cap07, glosario y preliminares** — las velocidades V se escriben ya todas con subíndice (`V~NE~`, `V~A~`, `V~RA~`), que es como las componen CS-22 y 14 CFR §1.2. El libro mezclaba las dos formas: 27 estaban planas, incluidas las tres entradas del glosario y un encabezado de cap05. No cambia ningún dato ni ninguna cifra.

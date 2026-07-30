@@ -19,7 +19,7 @@ La curva polar es el DNI de rendimiento de tu planeador. Muestra la relación en
 * **Velocidad de mínimo descenso (V~z\ min~):** está en el pico superior de la curva (el punto del eje Y más próximo a cero). Volando a esta velocidad pierdes la mínima altura por unidad de tiempo, así que es la que maximiza tu permanencia en el aire. Es tu referencia al virar de forma pronunciada dentro del núcleo de una térmica o en una espera.
 * **Velocidad de máximo planeo (V~max\ planeo~, también llamada de mejor planeo o de fineza):** se obtiene trazando una tangente desde el origen de coordenadas (0,0) hasta tocar la curva. Da la mejor relación entre distancia avanzada y altura perdida. Es la velocidad para las transiciones limpias y para conseguir el mayor recorrido posible sobre el terreno.
 
-![La curva polar de velocidades de un planeador](imagenes/05-cap02-curva-polar.jpg){#fig-05-cap02-curva-polar}
+![La curva polar de velocidades de un planeador: 1 pérdida, 2 máximo tiempo volando, 3. máxima distancia.](imagenes/05-cap02-curva-polar.jpg){#fig-05-cap02-curva-polar fig-alt="Las diferentes velocidades mostradas en una polar de un planeador."}
 
 ## Eficiencia y el coeficiente de planeo (L/D)
 
