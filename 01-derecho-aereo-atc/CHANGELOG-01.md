@@ -16,6 +16,13 @@ rompe la compilación.
 
 ## [En curso]
 
+### Maqueta y producción
+
+* **cap05, tres ilustraciones rehechas** — ninguna cambia la regla que enseñan.
+  * *Prioridades de paso* — el fondo era un cielo fotográfico, y los planeadores se veían en planta: se miraba desde arriba con fondo de cielo. Ahora el fondo es la vista cenital del terreno, coherente con esa planta, y los planeadores y las flechas van en azul marino sobre él.
+  * *Preferencia de paso en ladera* — la ladera era un contorno vacío que podía leerse como una línea más del dibujo; ahora va rellena en color tierra y se distingue del aire a la primera.
+  * *Alturas mínimas* — mismo dibujo, trazo redibujado y azul más oscuro para igualarlo a las otras dos.
+
 ## [1.0-rc.11] — 28 de julio de 2026
 
 **Qué releer:** **cap05, prioridad de paso en ladera y excepciones de altura mínima.** Dos atribuciones normativas equivocadas y una enumeración incompleta. Lo que el alumno debe hacer en vuelo no cambia; sí cambia de dónde sale la regla, que es lo que un examen tiene que poder citar.
