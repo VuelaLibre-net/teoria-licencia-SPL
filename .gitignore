@@ -26,3 +26,13 @@ tools/epub/__pycache__/
 
 # Directorios de backup creados por la app ilustra (~/ws/ilustra)
 **/.ilustra-backup/
+
+# Salida HTML que cae FUERA de _book/. Un render con el contexto del proyecto
+# escribe en el output-dir (_book/, ya ignorado arriba); un `quarto render
+# <fichero>.qmd` suelto, o uno interrumpido, trata el fichero como documento
+# independiente y deja el .html junto al original, con el site_libs/ de la
+# plantilla (bootstrap, buscador, resaltado) al lado. Ninguno es entrada de nada.
+# Ojo: ningún libro tiene hoy un .html propio, pero si algún día se añade uno a
+# mano, esta segunda regla lo dejaría invisible.
+/[0-9][0-9]-*/site_libs/
+/[0-9][0-9]-*/*.html
