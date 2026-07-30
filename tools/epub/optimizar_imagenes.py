@@ -25,6 +25,12 @@ ATTR_RE = re.compile(
 MEDIA_TYPE_RE = re.compile(
     r"(\bmedia-type\s*=\s*[\"'])image/(?:jpeg|png)([\"'])", re.IGNORECASE
 )
+# Un `fig-alt=` en el .qmd llega al EPUB copiado ADEMÁS en el div envoltorio que
+# Quarto pone alrededor de la figura (`div class="quarto-float …" alt="…"`). El
+# texto alternativo ya viaja donde debe, en el <img> de dentro; ésta es una
+# copia de más. Y un EPUB es XHTML: EPUBCheck rechaza `alt` en un div —«attribute
+# "alt" not allowed here»— y el entregable no valida. Se retira la copia.
+DIV_ALT_RE = re.compile(r"(<div\b[^>]*?)\s+alt\s*=\s*(?:\"[^\"]*\"|'[^']*')", re.IGNORECASE)
 
 
 @dataclass(frozen=True)
@@ -82,6 +88,8 @@ def rewrite_text(content: bytes, references: dict[str, str], is_opf: bool) -> by
         text = text.replace(old, new)
     if is_opf:
         text = rewrite_opf_media_types(text, set(references.values()))
+    else:
+        text = DIV_ALT_RE.sub(r"\1", text)
     return text.encode("utf-8")
 
 
