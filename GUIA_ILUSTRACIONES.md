@@ -38,7 +38,15 @@ La paleta técnica no depende del color temático de una portada ni de un capít
 | Peso | Gris oscuro `#333333` |
 | Tracción | Naranja `#FF6600` |
 | Zona segura o rango permitido | Verde `#2E7D32` |
-| Estado o trayectoria de atención, sin significado físico | Naranja `#E65C00` |
+| Estado o trayectoria de atención, sin significado físico | Ámbar `#B26A00` |
+
+El ámbar de atención y el naranja de tracción **no aparecen en la misma figura**: son
+tonos vecinos y en escala de grises convergen. Si una figura necesita las dos ideas, la
+de atención se distingue además por trazo discontinuo y etiqueta.
+
+El naranja `#FF6600` tiene un contraste de aproximadamente 2,9:1 sobre blanco: sirve
+para una línea o una flecha gruesa, **no para texto de etiqueta**, que va en gris
+`#333333`.
 
 Las convenciones siguientes son fijas:
 
@@ -200,9 +208,12 @@ logotipos ni texto ornamental.
 
 Código de color obligatorio para fuerzas: sustentación azul #0066CC, resistencia roja
 #CC0000, peso gris oscuro #333333 y tracción naranja #FF6600. Las zonas seguras usan
-verde #2E7D32. No dependas solo del color: añade etiquetas, tipos de línea o formas
-distintivas. La trayectoria por el aire es continua; la proyección sobre el suelo,
-discontinua; el viento usa flecha hueca o azul.
+verde #2E7D32 y un estado o trayectoria de atención sin significado físico usa ámbar
+#B26A00, que no aparece en la misma figura que el naranja de tracción. Todo el texto
+va en gris #333333: el naranja no tiene contraste suficiente para una etiqueta. No
+dependas solo del color: añade etiquetas, tipos de línea o formas distintivas. La
+trayectoria por el aire es continua; la proyección sobre el suelo, discontinua; el
+viento usa flecha hueca o azul.
 
 Restricciones: todo el texto debe estar en español y ser breve. No inventes cifras,
 escalas, símbolos aeronáuticos, procedimientos, logotipos ni detalles técnicos. No
