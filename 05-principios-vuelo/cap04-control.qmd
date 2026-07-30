@@ -32,7 +32,7 @@ Hilo recto: vuelo coordinado. Cuando se desvía, el hilo se va hacia el mismo la
 
 El derrape es el que hay que evitar: el ala interior va más lenta y puede alcanzar el ángulo de ataque crítico sin previo aviso, iniciando una pérdida asimétrica. El resbale es más aparatoso —el fuselaje ofrece más resistencia y el viraje es ineficiente—, pero rara vez es peligroso por sí solo. La @fig-05-cap04-hilo-lana-estados resume los tres estados del hilo y su lectura.
 
-![Los tres estados del hilo de lana: coordinado, derrape y resbale](imagenes/05-cap04-hilo-lana-estados.png){#fig-05-cap04-hilo-lana-estados}
+![Los tres estados del hilo de lana en un giro a la izquierda, de arriba abajo: resbale, coordinado y derrape.](imagenes/05-cap04-hilo-lana-estados.png){#fig-05-cap04-hilo-lana-estados}
 
 ::: {.callout-tip title="Regla de oro"}
 Vuela con el hilo recto. Si se mueve, corrígelo con el pedal. Y si el hilo está torcido y los mandos están blandos al mismo tiempo, actúa: estás a punto de entrar en pérdida.

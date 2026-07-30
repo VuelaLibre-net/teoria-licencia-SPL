@@ -16,10 +16,12 @@ rompe la compilación.
 
 ## [En curso]
 
-**Qué releer:** **cap02, la curva polar.** La figura se rehace y su pie pasa a nombrar los tres puntos marcados. El texto del apartado no cambia, pero la figura ya no da las dos velocidades con cifra: conviene comprobar que se lee bien junto al cuerpo, que sí las explica.
+**Qué releer:** **cap02, la curva polar; cap04, el hilo de lana; cap05, el diagrama V-n.** Tres figuras nuevas. Las de cap02 y cap05 cambian lo que el lector ve: la polar deja de dar velocidades con cifra y el diagrama V-n pasa a ser el de la FAA que su pie ya citaba, en inglés y en mph.
 
 ### Cambiado
 
+* **cap04, hilo de lana** — figura nueva, tomada desde la cabina: tres paneles con el mismo panorama y el hilo en resbale, coordinado y derrape, en un giro a la izquierda. La anterior era un esquema. La lectura coincide con la regla del cuerpo —hilo hacia el interior del giro, derrape; hacia el exterior, resbale—, y el pie dice ahora en qué orden van los paneles, que no es el que decía.
+* **cap05, diagrama V-n** — se sustituye el esquema genérico en español por la envolvente del **Schweizer SGS 1-35** del *FAA Glider Flying Handbook*, que es la que el pie viene citando como fuente desde siempre: hasta ahora el pie describía «las líneas curvas amarillas» de una figura que no estaba. Añade las líneas de ráfaga de 24 FPS y los cuatro puntos de condición. **Está en inglés y en mph**, y es de un planeador estadounidense concreto; el cuerpo sigue citando los límites de CS-22 en g, que sí concuerdan (5,33 y 2,67).
 * **cap02, curva polar** — figura nueva. Marca **tres** puntos numerados (1 pérdida, 2 mínimo descenso, 3 máximo planeo) donde la anterior sólo señalaba dos con bocadillos, e incorpora la tangente desde el origen y el ángulo de planeo, que es de donde sale el punto 3. A cambio desaparecen las cifras concretas de la versión anterior (74 y 93 km/h), que eran de un planeador sin identificar. El pie recoge ahora los tres puntos y la figura lleva `fig-alt` para lectores de pantalla.
 
 ## [1.0-rc.4] — 29 de julio de 2026
