@@ -16,6 +16,8 @@ rompe la compilación.
 
 ## [En curso]
 
+## [0.8.9] — 29 de julio de 2026
+
 ### Maqueta y producción
 
 * **Glosario** — las tres velocidades V de las entradas de flutter y V~RA~ se escriben ya con subíndice (`V~NE~`, `V~A~`), como las componen CS-22 y 14 CFR §1.2 y como estaban en el resto de la colección. No cambia ningún dato.

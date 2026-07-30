@@ -16,6 +16,8 @@ rompe la compilación.
 
 ## [En curso]
 
+## [0.8.8] — 29 de julio de 2026
+
 **Qué releer:** **cap04, terminología de la brújula**, y **cap01 y cap03, sus resúmenes.** Se matizan dos afirmaciones que el postit daba
 como absolutas y el cuerpo del capítulo ya enunciaba con más precisión: la equivalencia entre minuto
 de latitud y milla náutica, y la relación entre línea recta y ortodrómica en la proyección Lambert.

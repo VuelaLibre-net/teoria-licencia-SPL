@@ -26,6 +26,11 @@ rompe la compilación.
 
 * **cap09, cizalladura** — la nube pasa de contorno esquemático a cúmulo con volumen, y las flechas de flujo ascendente interno del ámbar al rojo. Las tres viñetas y la leyenda no cambian.
 * **cap02, convergencia topográfica** — se retira la línea horizontal que partía el cuadro entre los paneles A y B: separaba dos vistas del mismo fenómeno como si fueran figuras distintas.
+
+## [1.0-rc.12] — 29 de julio de 2026
+
+### Maqueta y producción
+
 * **Glosario** — las dos velocidades V de la entrada de IAS se escriben ya con subíndice (`V~NE~`, `V~A~`), como las componen CS-22 y 14 CFR §1.2 y como estaban en el resto de la colección. No cambia ningún dato.
 
 ## [1.0-rc.11] — 28 de julio de 2026
