@@ -16,6 +16,10 @@ rompe la compilación.
 
 ## [En curso]
 
+### Maqueta y producción
+
+* **cap02, ilusiones ópticas** — la figura era línea negra sobre blanco y todo pesaba lo mismo: el planeador descendiendo, las nubes y el horizonte artificial competían entre sí. Ahora va en color, con el planeador en rojo, el cielo del bocadillo en azul y el instrumento en gris con la barra de actitud azul, de modo que la escena se separa del instrumento a la primera. No cambia lo que ilustra.
+
 ## [1.0-rc.10] — 28 de julio de 2026
 
 **Qué releer:** **cap02, apartado de alcohol** (el recuadro de Normativa y su línea del resumen). Se corrige la referencia del AMC y se completa la regla con un tercer límite que faltaba. Las cifras que ya estaban —8 horas y 0,2 g/l— no cambian.

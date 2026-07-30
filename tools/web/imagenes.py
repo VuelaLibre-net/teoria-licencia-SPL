@@ -16,6 +16,13 @@ ATTR_RE = re.compile(
     r"\b(?P<name>[\w:-]+)\s*=\s*(?:\"(?P<double>[^\"]*)\"|'(?P<single>[^']*)')",
     re.IGNORECASE,
 )
+# Un `fig-alt=` en el .qmd sale copiado ADEMÁS en el div envoltorio que Quarto
+# pone alrededor de la figura (`div class="quarto-float …" alt="…"`). El texto
+# alternativo ya viaja donde sirve, en el <img> de dentro; ésta es una copia de
+# más, y `alt` no es un atributo válido en un div. El navegador la ignora, pero
+# el mismo duplicado tumba la validación del EPUB (ver tools/epub/
+# optimizar_imagenes.py), así que se retira también aquí y no se publica.
+DIV_ALT_RE = re.compile(r"(<div\b[^>]*?)\s+alt\s*=\s*(?:\"[^\"]*\"|'[^']*')", re.IGNORECASE)
 
 
 @dataclass(frozen=True)
@@ -23,12 +30,14 @@ class ImageStats:
     images: int = 0
     alt_added: int = 0
     dimensions_added: int = 0
+    div_alt_removed: int = 0
 
     def __add__(self, other: "ImageStats") -> "ImageStats":
         return ImageStats(
             self.images + other.images,
             self.alt_added + other.alt_added,
             self.dimensions_added + other.dimensions_added,
+            self.div_alt_removed + other.div_alt_removed,
         )
 
 
@@ -141,6 +150,8 @@ def optimize_html_images(html_dir: Path) -> ImageStats:
             return transformed
 
         transformed = IMG_RE.sub(replace, content)
+        transformed, div_alts = DIV_ALT_RE.subn(r"\1", transformed)
+        stats += ImageStats(div_alt_removed=div_alts)
         if transformed != content:
             html_path.write_text(transformed, encoding="utf-8")
         total += stats

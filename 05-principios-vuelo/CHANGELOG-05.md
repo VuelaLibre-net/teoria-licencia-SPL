@@ -16,6 +16,12 @@ rompe la compilación.
 
 ## [En curso]
 
+**Qué releer:** **cap02, la curva polar.** La figura se rehace y su pie pasa a nombrar los tres puntos marcados. El texto del apartado no cambia, pero la figura ya no da las dos velocidades con cifra: conviene comprobar que se lee bien junto al cuerpo, que sí las explica.
+
+### Cambiado
+
+* **cap02, curva polar** — figura nueva. Marca **tres** puntos numerados (1 pérdida, 2 mínimo descenso, 3 máximo planeo) donde la anterior sólo señalaba dos con bocadillos, e incorpora la tangente desde el origen y el ángulo de planeo, que es de donde sale el punto 3. A cambio desaparecen las cifras concretas de la versión anterior (74 y 93 km/h), que eran de un planeador sin identificar. El pie recoge ahora los tres puntos y la figura lleva `fig-alt` para lectores de pantalla.
+
 ## [1.0-rc.4] — 29 de julio de 2026
 
 ### Maqueta y producción

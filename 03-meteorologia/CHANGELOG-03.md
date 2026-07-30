@@ -16,6 +16,17 @@ rompe la compilación.
 
 ## [En curso]
 
+**Qué releer:** **cap09, ciclo de vida de la célula tormentosa.** La figura que acompaña al apartado era un boceto provisional —llevaba impreso «MOCKUP — ToDo: crear ilustración final»— y se ha publicado así en varias versiones. Ya es una ilustración de verdad. El texto de las tres fases no cambia; lo que cambia es que ahora la figura lo sostiene.
+
+### Añadido
+
+* **cap09, ciclo de la tormenta** — la ilustración definitiva desarrolla las fases de cúmulo, desarrollo, madurez y disipación, con las corrientes ascendente y descendente, la isoterma de 0 °C, dónde hay gotas, nieve y hielo, el tipo de precipitación de cada fase y la escala de tiempo (0 a 30 min aprox.). Todo ello ya estaba en el cuerpo del apartado.
+
+### Maqueta y producción
+
+* **cap09, cizalladura** — la nube pasa de contorno esquemático a cúmulo con volumen, y las flechas de flujo ascendente interno del ámbar al rojo. Las tres viñetas y la leyenda no cambian.
+* **cap02, convergencia topográfica** — se retira la línea horizontal que partía el cuadro entre los paneles A y B: separaba dos vistas del mismo fenómeno como si fueran figuras distintas.
+
 ## [1.0-rc.12] — 29 de julio de 2026
 
 ### Maqueta y producción

@@ -115,7 +115,8 @@ def main() -> None:
         image_stats = optimize_html_images(quarto_output)
         print(
             f"  🖼 {book.name}: {image_stats.images} imágenes responsive, "
-            f"{image_stats.alt_added} alt, {image_stats.dimensions_added} dimensiones"
+            f"{image_stats.alt_added} alt, {image_stats.dimensions_added} dimensiones, "
+            f"{image_stats.div_alt_removed} alt de div retirados"
         )
 
         pages = []
