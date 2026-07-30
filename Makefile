@@ -322,6 +322,52 @@ $(rag_completo): $(fuentes_completo) tools/rag/construir.sh tools/rag/rag.lua re
 	  $@
 	@echo "✓ Markdown para RAG de Manual Completo generado en $@"
 
+# --- ESPEJO INDEXABLE DEL CONTENIDO ---
+# Copia los .qmd de los 9 libros con extensión .md para que un indexador de
+# código pueda leerlos. No es un entregable: no se publica, no lleva versión ni
+# fecha y no entra en `all`.
+#
+# Existe porque el indexador (codebase-memory-mcp) no conoce la extensión .qmd
+# —es un binario compilado, sin variable de entorno para añadir extensiones— y
+# los 9 libros se quedaban fuera del grafo: quedaba indexada la cadena de
+# producción y no la materia.
+#
+# ⚠️ Tienen que ser COPIAS. Un symlink .md -> .qmd crea el nodo del fichero pero
+# el indexador no lee su contenido: 0 secciones, y el proyecto sale indexado y
+# vacío sin dar error. Comprobado.
+#
+# El espejo vive FUERA del árbol de trabajo a propósito: son 177 duplicados de
+# la fuente canónica y dentro del repositorio se editarían por error. Cambiar el
+# destino: `make espejo ESPEJO=/otro/sitio`.
+#
+# No se sincroniza solo: tras editar un .qmd hay que volver a lanzarlo y
+# reindexar, o las consultas devuelven la versión vieja sin avisar.
+ESPEJO ?= ../aesa-spl-quatro-contenido
+
+.PHONY: espejo
+espejo:
+	@if [ -e "$(ESPEJO)" ] && [ ! -f "$(ESPEJO)/LEEME.md" ]; then \
+		echo "✗ $(ESPEJO) existe y no parece un espejo (no tiene LEEME.md): no se toca."; \
+		exit 1; \
+	fi
+	@rm -rf "$(ESPEJO)"
+	@mkdir -p "$(ESPEJO)"
+	@for libro in $(LIBROS); do \
+		mkdir -p "$(ESPEJO)/$$libro"; \
+		for qmd in $$libro/*.qmd; do \
+			cp "$$qmd" "$(ESPEJO)/$${qmd%.qmd}.md"; \
+		done; \
+		cp $$libro/CHANGELOG-*.md "$(ESPEJO)/$$libro/"; \
+	done
+	@printf '%s\n' \
+		'# Espejo de contenido — NO EDITAR' '' \
+		'Copias de los `.qmd` de aesa-spl-quatro, renombradas a `.md` para que las' \
+		'lea un indexador de código. La fuente canónica es `<libro>/*.qmd` en el' \
+		'repositorio; lo que se edite aquí no se publica y se pierde al regenerar.' '' \
+		'Regenerar: `make espejo` en el repositorio.' > "$(ESPEJO)/LEEME.md"
+	@echo "✓ Espejo de $$(ls $(ESPEJO)/*/*.md | grep -vc CHANGELOG) ficheros" \
+	      "($$(ls $(ESPEJO)/*/*.md | grep -c '/cap[0-9]') capítulos) en $(ESPEJO): reindexa para verlo"
+
 # --- UTILIDADES ---
 
 # Muestra los targets principales y los libros compilables.
@@ -333,6 +379,7 @@ help:
 	@printf '  make %-35s %s\n' 'epub' 'Sólo los 9 EPUB optimizados.'
 	@printf '  make %-35s %s\n' 'web' 'Sólo los paquetes HTML para el sitio web.'
 	@printf '  make %-35s %s\n' 'estados' 'Muestra libro, versión y estado editorial.'
+	@printf '  make %-35s %s\n' 'espejo' 'Copia los .qmd como .md fuera del repo, para indexar.'
 	@printf '  make %-35s %s\n' 'clean' 'Borra build/, _book/, cachés y archivos unificados en raíz.'
 	@printf '%s\n' '' 'Libros:'
 	@for libro in $(LIBROS); do \
