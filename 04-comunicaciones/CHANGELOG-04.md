@@ -16,15 +16,15 @@ rompe la compilación.
 
 ## [En curso]
 
-**Qué releer:** **cap02, cambio y abandono de frecuencia.** La figura pasa de ilustrar la idea a desarrollar el intercambio completo, con fraseología. Conviene comprobar que dice lo mismo que el cuerpo del apartado (ver el aviso de abajo sobre el indicativo).
+**Qué releer:** **cap02, cambio y abandono de frecuencia.** La figura pasa de ilustrar la idea a desarrollar el intercambio completo, con fraseología.
 
 ### Añadido
 
 * **cap02, cambio de frecuencia** — la ilustración desarrolla ahora los tres pasos del intercambio —petición del piloto, instrucción del controlador y colación— con la fraseología de cada uno, en vez de una sola viñeta con «Cambio aprobado, buen vuelo».
 
-### Pendiente
+### Corregido
 
-* **cap02, indicativo de la figura** — la ilustración usa **EC-LMN** y el cuerpo del capítulo usa **EC-DPE** en los tres ejemplos de fraseología. Hay que unificarlo: o se rehace la figura, o se cambia el indicativo del texto.
+* **cap02, indicativo de la figura** — la colación de la ilustración firmaba **EC-LMN**, un indicativo que no aparece en ningún otro sitio de la colección. Pasa a **EC-DPE**, el que usan los tres ejemplos de fraseología del propio apartado y el resto del libro.
 
 ## [1.0-rc.10] — 27 de julio de 2026
 
