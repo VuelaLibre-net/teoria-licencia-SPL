@@ -60,6 +60,8 @@ Asegúrate de estar completamente separado del planeador antes de tirar de la an
 
 Una vez abierto el paracaídas, el piloto desciende a una velocidad vertical de aproximadamente 5-7 m/s —equivalente a saltar al suelo desde una altura de 1,5 metros—. Es una toma de tierra que exige una preparación física y mental precisa para evitar lesiones.
 
+![Descenso y toma de tierra con paracaídas de emergencia](imagenes/06-cap08-paracaidas.jpeg){#fig-06-cap08-paracaidas width="70%"}
+
 ### Direccionamiento de la campana en el aire
 
 Muchos pilotos creen erróneamente que un paracaídas de emergencia redondo o cuadrado no ofrece ningún tipo de control. Aunque no permite un planeo controlado como una campana de salto deportivo, **sí es posible girar la campana en el aire para orientarse cara al viento**:

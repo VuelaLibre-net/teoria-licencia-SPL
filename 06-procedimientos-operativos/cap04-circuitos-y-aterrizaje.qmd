@@ -92,7 +92,7 @@ Para realizar un resbale de forma segura, aplica la siguiente técnica:
 3. **Control de velocidad:** como el aire incide de lado sobre el fuselaje, la presión estática y dinámica en las tomas del planeador se altera y **el anemómetro muestra indicaciones erróneas o nulas**. Controla la velocidad de aproximación de forma exclusivamente visual, manteniendo el morro en una actitud ligeramente picada respecto al horizonte.
 4. **Salida:** para finalizar la maniobra, relaja primero la presión en la palanca de profundidad (morro abajo) y luego neutraliza suavemente los alerones y el pedal de dirección. El planeador volverá de inmediato al vuelo coordinado en la senda deseada.
 
-![El resbale lateral: mandos cruzados para descender más sin acelerar](imagenes/06-cap04-resbale-lateral.png){#fig-06-cap04-resbale-lateral}
+![Errores durante el viraje: El derrape y el resbale.](imagenes/06-cap04-resbale-lateral.png){#fig-06-cap04-resbale-lateral}
 
 ::: {.callout-warning title="Seguridad"}
 Debido a que el flujo de aire está desprendido y el anemómetro no es fiable durante el resbale, existe riesgo de entrada en pérdida si el piloto tira excesivamente de la palanca de profundidad. Mantén siempre una actitud de morro netamente baja. Practica la maniobra a altura de seguridad antes de intentarla en circuito.
