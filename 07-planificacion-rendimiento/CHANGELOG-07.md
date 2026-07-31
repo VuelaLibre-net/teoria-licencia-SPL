@@ -16,6 +16,29 @@ rompe la compilación.
 
 ## [En curso]
 
+## [0.9.0] — 31 de julio de 2026
+
+**Qué releer:** **cap01, datum y límites de peso y centrado; cap02, curva polar y sus tres figuras; cap03, triángulo FAI/AAT y ventana de convección; cap04, formulario FPL; cap05, monitoreo del planeo final.** Seis ilustraciones traducidas a español y unidades métricas, tres retiradas y una nueva.
+
+### Cambiado
+
+* **cap01, datum y momento** — la tabla de ejemplo estaba en inglés; ahora en español, mismos valores.
+* **cap01, límites de peso y centrado** — la envolvente estaba en libras y en inglés; se sustituye por una en español y kilogramos.
+* **cap02, curva polar** — se rehace con **tres** puntos numerados (1 pérdida, 2 mínimo descenso, 3 máximo planeo) en vez de dos con bocadillos en inglés, y en km/h y m/s en vez de nudos. Sigue el mismo criterio que la curva polar de 05-principios-vuelo. El pie pasa de «dos velocidades clave» a «tres velocidades clave».
+* **cap02, desplazamiento de la polar con el peso** — tabla traducida a español, mismos valores (libras y nudos).
+* **cap02, efecto del viento sobre la polar** — gráfico traducido a español y a km/h y m/s; se retira además un número residual superpuesto en la esquina que no pertenecía a la figura.
+* **cap04, formulario de plan de vuelo** — sustituye el mockup «FIGURA PENDIENTE» por el formulario ICAO real, bilingüe (EN/ES) en cada casilla, cumplimentado con el mismo ejemplo que desarrolla el texto: casilla 8 (V, G), 9 (GLID), 15 (K0120, DCT VTC-1 DCT VTC-2 DCT), 16 (ZZZZ), 18 (DEST/AREA DE LA TAREA) y 19 (E/0430, P/1).
+
+### Retirado
+
+* **cap03, ventana de convección** — se retira la ilustración y su referencia; el texto que explica el concepto no cambia.
+* **cap03, triángulo FAI frente a tarea AAT** — se retira la ilustración y su referencia; el texto de la sección (marcada «Más allá del examen») no cambia.
+* **cap05, monitoreo del planeo final en 3 puntos** — se retira la ilustración y su referencia; el método de los tres puntos que explica el texto no cambia.
+
+### Maqueta y producción
+
+* **cap05, cono de alcance** — refinamiento artístico de la ilustración existente; mismo contenido.
+
 ## [0.8.9] — 28 de julio de 2026
 
 **Qué releer:** **cap04, casillas 15 y 19 del plan de vuelo** (el apartado «Casillas clave» y la viñeta correspondiente del resumen). Se separa lo que exige el formulario de lo que hace el piloto de planeador. Lo que hay que escribir en cada casilla no cambia.
