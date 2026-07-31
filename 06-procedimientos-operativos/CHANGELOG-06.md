@@ -16,6 +16,10 @@ rompe la compilación.
 
 ## [En curso]
 
+### Corregido
+
+* **cap01, inspección prevuelo** — el pie de la figura de inspección decía «sentido horario» cuando la ilustración muestra el recorrido en sentido anti-horario.
+
 ## [0.9.0] — 31 de julio de 2026
 
 **Qué releer:** **cap02, «Fusibles de seguridad»; cap08, «Descenso y toma de tierra».** Texto reestructurado en cap02 y nuevas ilustraciones en ambos capítulos.
