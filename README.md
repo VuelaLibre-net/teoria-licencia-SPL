@@ -28,7 +28,7 @@ La biblioteca está organizada por asignaturas según el syllabus oficial de AES
 | 3 | **`03-meteorologia`** | Meteorología | `1.0-rc.12` | 🟡 En revisión |
 | 4 | **`04-comunicaciones`** | Comunicaciones | `1.0-rc.10` | 🟡 En revisión |
 | 5 | **`05-principios-vuelo`** | Principios de Vuelo | `1.0-rc.4` | 🟡 En revisión |
-| 6 | **`06-procedimientos-operativos`** | Procedimientos Operativos | `0.8.9` | 🟡 En revisión |
+| 6 | **`06-procedimientos-operativos`** | Procedimientos Operativos | `0.9.0` | 🟡 En revisión |
 | 7 | **`07-planificacion-rendimiento`** | Planificación y Rendimiento de Vuelo | `0.8.9` | 🟡 En revisión |
 | 8 | **`08-aeronave-sistemas`** | Conocimientos Generales de la Aeronave, Estructura, Sistemas y Equipo de Emergencia | `0.8.9` | 🟡 En revisión |
 | 9 | **`09-navegacion`** | Navegación | `0.8.8` | 🟡 En revisión |

@@ -16,6 +16,21 @@ rompe la compilación.
 
 ## [En curso]
 
+## [0.9.0] — 31 de julio de 2026
+
+**Qué releer:** **cap02, «Fusibles de seguridad»; cap08, «Descenso y toma de tierra».** Texto reestructurado en cap02 y nuevas ilustraciones en ambos capítulos.
+
+### Cambiado
+
+* **cap02** — se reestructura la explicación de fusibles de seguridad: el texto pasa de lista anidada a párrafos con tabla, y se añade la ilustración del catálogo Tost con colores, resistencias nominales y referencias de insertos (@fig-06-cap02-fusibles-tost).
+* **cap08** — se añade la ilustración de descenso y toma de tierra con paracaídas de emergencia en la sección correspondiente (@fig-06-cap08-paracaidas).
+
+### Estado en esta versión
+
+* 8 capítulos y 3 apéndices, entre ellos el glosario y la bibliografía.
+* Estado editorial: **Creando ilustraciones**, deducido de la versión 0.9.0.
+* El texto está completo; se continúan añadiendo ilustraciones. La marca de agua lo advierte en cada página.
+
 ## [0.8.9] — 29 de julio de 2026
 
 ### Maqueta y producción

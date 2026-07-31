@@ -143,17 +143,10 @@ El **fusible de seguridad** (**weak link** o eslabón débil) es un dispositivo 
 
 La obligación operativa del piloto es montar **exactamente el fusible de seguridad especificado en el AFM** de su planeador: ni más resistente, ni más débil. Como referencia de diseño, la norma de certificación **EASA CS 22.581(b)** asume que la resistencia nominal última del cable o fusible no es inferior a 1,3 veces el peso máximo del planeador ni a 500 daN, valores con los que se dimensiona estructuralmente el gancho de remolque.
 
-En los clubes europeos se utiliza el sistema estandarizado de la firma Tost. Es fundamental entender que **la selección del fusible correcto depende obligatoriamente tanto del peso del planeador como del método de lanzamiento**:
+En los clubes europeos se utiliza el sistema estandarizado de la firma Tost. Es fundamental entender que **la selección del fusible correcto depende obligatoriamente tanto del peso del planeador como del método de lanzamiento**.
 
-* **En remolque por avión (aerotow):** las aceleraciones son progresivas y las tensiones del cable son de menor magnitud. Para proteger el gancho de morro de sobretensiones peligrosas para la estabilidad, se emplean fusibles de menor resistencia:
-* **Verde (300 daN):** para monoplazas estándar y ligeros.
-* **Blanco (500 daN):** para biplazas de instrucción y veleros pesados.
-* **En lanzamiento por torno (winch):** la aceleración es muy brusca y las tensiones del cable durante el ascenso empinado son muy elevadas debido a la geometría del tiro. Se requieren fusibles de mayor resistencia para evitar roturas prematuras en plena trepada:
-* **Blanco (500 daN):** para torno en monoplazas muy ligeros.
-* **Azul (600 daN):** para la mayoría de los monoplazas estándar (ej. LS4, Astir, Discus).
-* **Rojo (750 daN):** para monoplazas pesados y biplazas de escuela ligeros (ej. K-21 con un tripulante).
-* **Marrón (850 daN):** para biplazas de escuela y veleros de alto rendimiento de gran peso.
-* **Negro (1000 daN):** para biplazas de alto rendimiento muy pesados (ej. Duo Discus, DG-1000) o veleros motorizados cargados.
+**En remolque por avión (aerotow):** las aceleraciones son progresivas y las tensiones del cable son de menor magnitud. Para proteger el gancho de morro de sobretensiones peligrosas para la estabilidad, se emplean fusibles de menor resistencia.
+
 
 | Color | Resistencia nominal (daN) | Aplicación típica (según AFM) |
 | --- | --- | --- |
@@ -165,6 +158,8 @@ En los clubes europeos se utiliza el sistema estandarizado de la firma Tost. Es 
 | **Marrón** (No. 2) | 850 daN | Lanzamiento por torno de biplazas de escuela y veleros de alto rendimiento. |
 | **Negro** (No. 1) | 1000 daN | Lanzamiento por torno de biplazas pesados cargados o motoveleros. |
 : Códigos de colores y resistencias de fusibles de seguridad Tost
+
+![Catálogo de fusibles de seguridad Tost: colores, resistencias nominales y referencias](imagenes/06-cap02-fusibles-tost.png){#fig-06-cap02-fusibles-tost width="70%"}
 
 Los colores, numeración y resistencias nominales corresponden al catálogo de fusibles de seguridad de Tost Flugzeuggerätebau; la aplicación concreta la fija siempre el AFM de cada planeador.
 
