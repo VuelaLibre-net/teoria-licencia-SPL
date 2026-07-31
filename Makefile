@@ -166,16 +166,23 @@ fuentes_web = tools/web/construir.py tools/web/imagenes.py
 # Estado editorial del libro, deducido de su versión.
 #
 #   >= 1.0.0 (final) completado (cadena vacía: apaga la marca y la nota)
-#   < 1.0.0 o rc    en revisión (marca de agua diagonal y nota en portadilla)
+#   1.x-rc.n        en revisión   (un candidato es ANTERIOR a la 1.x.0)
+#   0.9.x           en revisión
+#   0.8.x           creando ilustraciones
+#   0.7.x y menos   en desarrollo
 estado_libro = $$(v=$$($(SED_VERSION) $(1)/_quarto.yml 2>/dev/null || $(SED_VERSION) $(1)/_quarto-completo.yml 2>/dev/null | head -1); \
 	case "$$v" in *-*) pre=1 ;; *) pre=0 ;; esac; \
-	base=$${v%%-*}; may=$$(echo "$$base" | cut -d. -f1); \
-	case "$$may" in *[!0-9]*|"") echo ""; exit ;; esac; \
+	base=$${v%%-*}; may=$$(echo "$$base" | cut -d. -f1); men=$$(echo "$$base" | cut -d. -f2); \
+	case "$$may$$men" in *[!0-9]*|"") echo ""; exit ;; esac; \
 	if [ "$$may" -ge 1 ] && [ "$$pre" -eq 0 ]; then echo ""; \
-	else echo "En revisión"; fi)
+	elif [ "$$may" -ge 1 ] || [ "$$men" -ge 9 ]; then echo "En revisión"; \
+	elif [ "$$men" -ge 8 ]; then echo "Creando ilustraciones"; \
+	else echo "En desarrollo"; fi)
 
 nota_libro = $$(case "$(call estado_libro,$(1))" in \
 	"En revisión") echo "Edición pendiente de revisión técnica por más instructores. El contenido puede cambiar antes de la versión definitiva." ;; \
+	"Creando ilustraciones") echo "El texto está completo pero NO HA SIDO REVISADO y las ilustraciones aún se están elaborando." ;; \
+	"En desarrollo") echo "Texto e ilustraciones en elaboración. Contenido provisional, sujeto a cambios." ;; \
 	*) echo "" ;; esac)
 
 # Las reglas se generan una por libro, y no como regla de patrón, porque el
