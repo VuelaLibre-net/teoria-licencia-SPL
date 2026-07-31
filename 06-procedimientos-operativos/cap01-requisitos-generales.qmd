@@ -133,7 +133,7 @@ El movimiento del planeador sobre el terreno requiere de un protocolo de equipo 
 
 Antes del primer despegue del día, el piloto al mando debe realizar una inspección de 360 grados alrededor de la aeronave siguiendo un orden lógico y utilizando la lista de comprobación oficial de su AFM (@fig-06-cap01-inspeccion-prevuelo):
 
-![Ejemplo de una inspección prevuelo detallada en sentido horario de un ASK-21](imagenes/06-cap01-prevuelo.jpg){#fig-06-cap01-inspeccion-prevuelo}
+![Ejemplo de una inspección prevuelo detallada en sentido anti-horario de un ASK-21](imagenes/06-cap01-prevuelo.jpg){#fig-06-cap01-inspeccion-prevuelo}
 
 ![Ejemplo de checklist de inspecciones diarias del manual de vuelo de un ASK-21 (Y recuerda: Usa las listas oficiales de tu propio avión)](imagenes/checklist-prevuelo.png){#fig-06-cap01-checklist-prevuelo}
 
