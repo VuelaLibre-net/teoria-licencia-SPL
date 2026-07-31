@@ -14,6 +14,8 @@ más antigua.
 exige que la versión en curso tenga su entrada aquí**: subir la versión sin registrar qué cambió
 rompe la compilación.
 
+## [En curso]
+
 ## [1.0-rc.6] — 31 de julio de 2026
 
 ### Maqueta y producción
