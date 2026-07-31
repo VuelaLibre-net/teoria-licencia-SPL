@@ -38,7 +38,7 @@ Rellenar un formulario ICAO para un avión sin motor tiene sus peculiaridades (@
 * **Casilla 18 (otros datos)**: aquí desarrollas los ZZZZ de las casillas anteriores con nombre y coordenadas, por ejemplo `DEP/CAMPO DE SANTOS 4035N00407W` o `DEST/AREA DE LA TAREA`. Si no hay nada que indicar, escribe `0` (cero).
 * **Casilla 19 (información suplementaria)**: no se transmite con el mensaje FPL, pero es la información que usará el SAR si no apareces: autonomía (`E/`, que el formulario define como autonomía **de combustible** en horas y minutos; el planeador puro no lo lleva, así que por convenio se anotan las horas de luz que restan hasta la puesta de sol), personas a bordo (`P/`), equipo de radio de emergencia (`R/`), equipo de supervivencia (`S/`) y si llevas **ELT** o baliza personal (PLB). Rellénala con el mismo cuidado que el resto: puede acortar tu rescate en horas.
 
-![Formulario de plan de vuelo ICAO rellenado para un vuelo de distancia en planeador](imagenes/07-cap04-fpl-casillas.png){#fig-07-cap04-fpl-casillas}
+![Formulario de plan de vuelo ICAO (FPL), con las casillas en español](imagenes/07-cap04-fpl-casillas.png){#fig-07-cap04-fpl-casillas}
 
 ## Abrir el plan en el aire: el AFIL
 

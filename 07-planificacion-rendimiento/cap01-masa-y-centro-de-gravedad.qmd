@@ -68,7 +68,7 @@ Los pesos y brazos de partida salen de la **ficha de pesaje** oficial del planea
 
 El peso máximo al despegue (MTOW, *Maximum Take-Off Weight*) no es una sugerencia: es un límite estructural. Un planeador pesado necesita más carrera de despegue y una velocidad de remolque mayor, típicamente 10-20 km/h extra. Volará más deprisa en crucero, sí, pero su régimen de ascenso en térmica se resiente. Y por encima del MTOW los márgenes desaparecen: el planeador sufre más con la turbulencia fuerte y los límites de factor de carga se alcanzan mucho antes, con el consiguiente riesgo de fatiga o de fallo estructural.
 
-![Efecto de la posición del CG en la estabilidad longitudinal](imagenes/07-cap01-limites-cg.jpg){#fig-07-cap01-limites-cg}
+![Efecto de la posición del CG en la estabilidad longitudinal](imagenes/07-cap01-limites-cg.jpg){#fig-07-cap01-limites-cg width="70%"}
 
 ## Lastre de agua: rendimiento a cambio de disciplina
 

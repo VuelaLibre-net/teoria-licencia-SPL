@@ -20,7 +20,7 @@ La curva polar representa la tasa de descenso frente a la velocidad aire. Es el 
 * **Velocidad de mínimo descenso**: el punto más alto de la curva. A esa velocidad pierdes los mínimos metros por segundo; es la ideal para aguantar en el aire mientras esperas una térmica.
 * **Velocidad de máximo planeo (L/D)**: el punto donde la tangente desde el origen toca la curva. A esa velocidad recorres la mayor distancia posible por cada metro de altura perdido; es tu velocidad de planeo en aire en calma.
 
-![La curva polar y sus dos velocidades clave](imagenes/07-cap02-polar-anotada.png){#fig-07-cap02-polar-anotada}
+![La curva polar y sus tres velocidades clave:  entrada en pérdida; máximo tiempo de vuelo; máximo planeo.](imagenes/07-cap02-polar-anotada.png){#fig-07-cap02-polar-anotada}
 
 ::: {.callout-note title="Airmanship"}
 Aprende de memoria estos dos valores para tu modelo de planeador. En aire en calma no hay motivo para volar a velocidades intermedias si lo que buscas es llegar lejos o aguantar en el aire.
