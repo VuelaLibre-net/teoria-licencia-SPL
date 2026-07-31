@@ -381,7 +381,7 @@
   // "EN DESARROLLO") caben en una sola línea y se renderizan igual que antes.
   set page(foreground: if estado != none {
     let contenido = if estado == "Creando ilustraciones" {
-      stack(dir: ttb, spacing: 0.1em,
+      stack(dir: ttb, spacing: 0.7em,
         text(size: 52pt, weight: "black", fill: rgb(200, 30, 30, 23), "CREANDO"),
         text(size: 52pt, weight: "black", fill: rgb(200, 30, 30, 23), "ILUSTRACIONES"),
       )
