@@ -27,7 +27,7 @@ rompe la compilación.
 * **cap02, curva polar** — se rehace con **tres** puntos numerados (1 pérdida, 2 mínimo descenso, 3 máximo planeo) en vez de dos con bocadillos en inglés, y en km/h y m/s en vez de nudos. Sigue el mismo criterio que la curva polar de 05-principios-vuelo. El pie pasa de «dos velocidades clave» a «tres velocidades clave».
 * **cap02, desplazamiento de la polar con el peso** — tabla traducida a español, mismos valores (libras y nudos).
 * **cap02, efecto del viento sobre la polar** — gráfico traducido a español y a km/h y m/s; se retira además un número residual superpuesto en la esquina que no pertenecía a la figura.
-* **cap04, formulario de plan de vuelo** — sustituye el mockup «FIGURA PENDIENTE» por el formulario ICAO real, bilingüe (EN/ES) en cada casilla. El pie decía «rellenado»: la figura no lleva casillas cumplimentadas, así que se corrige a «con las casillas en español».
+* **cap04, formulario de plan de vuelo** — sustituye el mockup «FIGURA PENDIENTE» por el formulario ICAO real, bilingüe (EN/ES) en cada casilla, cumplimentado con el mismo ejemplo que desarrolla el texto: casilla 8 (V, G), 9 (GLID), 15 (K0120, DCT VTC-1 DCT VTC-2 DCT), 16 (ZZZZ), 18 (DEST/AREA DE LA TAREA) y 19 (E/0430, P/1).
 
 ### Retirado
 
