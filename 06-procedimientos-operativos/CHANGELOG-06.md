@@ -14,7 +14,9 @@ más antigua.
 exige que la versión en curso tenga su entrada aquí**: subir la versión sin registrar qué cambió
 rompe la compilación.
 
-## [En curso]
+## [0.9.1] — 31 de julio de 2026
+
+**Qué releer:** **cap01, inspección prevuelo** (el pie de la figura). El pie decía que el recorrido se hace en «sentido horario»; la ilustración lo muestra en sentido anti-horario. Se corrige el pie, no la ilustración.
 
 ### Corregido
 
