@@ -16,6 +16,8 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.11] — 31 de julio de 2026
+
 ### Maqueta y producción
 
 * **cap02, ilusiones ópticas** — la figura era línea negra sobre blanco y todo pesaba lo mismo: el planeador descendiendo, las nubes y el horizonte artificial competían entre sí. Ahora va en color, con el planeador en rojo, el cielo del bocadillo en azul y el instrumento en gris con la barra de actitud azul, de modo que la escena se separa del instrumento a la primera. No cambia lo que ilustra.

@@ -16,6 +16,8 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.12] — 31 de julio de 2026
+
 ### Maqueta y producción
 
 * **cap05, tres ilustraciones rehechas** — ninguna cambia la regla que enseñan.

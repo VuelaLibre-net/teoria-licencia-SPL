@@ -16,6 +16,8 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.5] — 31 de julio de 2026
+
 **Qué releer:** **cap02, la curva polar; cap04, el hilo de lana; cap05, el diagrama V-n.** Tres figuras nuevas. Las de cap02 y cap05 cambian lo que el lector ve: la polar deja de dar velocidades con cifra y el diagrama V-n pasa a ser el de la FAA que su pie ya citaba, en inglés y en mph.
 
 ### Cambiado
