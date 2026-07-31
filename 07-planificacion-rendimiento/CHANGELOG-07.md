@@ -18,7 +18,7 @@ rompe la compilación.
 
 ## [0.9.0] — 31 de julio de 2026
 
-**Qué releer:** **cap01, datum y límites de peso y centrado; cap02, curva polar y sus tres figuras; cap03, triángulo FAI/AAT y ventana de convección; cap04, formulario FPL.** Seis ilustraciones traducidas a español y unidades métricas, dos retiradas y una nueva.
+**Qué releer:** **cap01, datum y límites de peso y centrado; cap02, curva polar y sus tres figuras; cap03, triángulo FAI/AAT y ventana de convección; cap04, formulario FPL; cap05, monitoreo del planeo final.** Seis ilustraciones traducidas a español y unidades métricas, tres retiradas y una nueva.
 
 ### Cambiado
 
@@ -33,6 +33,7 @@ rompe la compilación.
 
 * **cap03, ventana de convección** — se retira la ilustración y su referencia; el texto que explica el concepto no cambia.
 * **cap03, triángulo FAI frente a tarea AAT** — se retira la ilustración y su referencia; el texto de la sección (marcada «Más allá del examen») no cambia.
+* **cap05, monitoreo del planeo final en 3 puntos** — se retira la ilustración y su referencia; el método de los tres puntos que explica el texto no cambia.
 
 ### Maqueta y producción
 
