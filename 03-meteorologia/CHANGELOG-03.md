@@ -16,6 +16,8 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.13] — 31 de julio de 2026
+
 **Qué releer:** **cap09, ciclo de vida de la célula tormentosa.** La figura que acompaña al apartado era un boceto provisional —llevaba impreso «MOCKUP — ToDo: crear ilustración final»— y se ha publicado así en varias versiones. Ya es una ilustración de verdad. El texto de las tres fases no cambia; lo que cambia es que ahora la figura lo sostiene.
 
 ### Añadido

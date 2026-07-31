@@ -16,6 +16,8 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.11] — 31 de julio de 2026
+
 **Qué releer:** **cap02, cambio y abandono de frecuencia.** La figura pasa de ilustrar la idea a desarrollar el intercambio completo, con fraseología.
 
 ### Añadido
