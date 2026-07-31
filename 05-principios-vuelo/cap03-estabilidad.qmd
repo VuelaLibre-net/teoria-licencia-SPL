@@ -66,7 +66,7 @@ La estabilidad direccional asegura que el planeador vuele alineado con el viento
 
 La deriva actúa exactamente como una veleta. Al estar situada a gran distancia por detrás del Centro de Gravedad, cualquier guiñada no deseada expone la superficie lateral de la cola al viento relativo. La presión del aire sobre la aleta genera una fuerza que empuja la cola de vuelta, alineando automáticamente el morro del planeador con la dirección del avance (@fig-05-cap03-efecto-veleta).
 
-![Efecto veleta: la deriva realinea el morro con el viento relativo](imagenes/05-cap03-efecto-veleta.png){#fig-05-cap03-efecto-veleta}
+![Efecto veleta: la deriva alinéa el morro con el viento relativo](imagenes/05-cap03-efecto-veleta.png){#fig-05-cap03-efecto-veleta}
 
 ::: {.postit}
 **Resumen del capítulo: estabilidad**
