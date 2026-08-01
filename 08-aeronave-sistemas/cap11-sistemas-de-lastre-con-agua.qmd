@@ -46,7 +46,7 @@ Vacía el lastre de agua antes de aterrizar; es una limitación operativa del Ma
 
 Para compensar el desplazamiento del centro de gravedad que provoca el agua de las alas, algunos planeadores llevan un pequeño depósito en la deriva. Al llenar ese tanque de cola, se recupera el equilibrio óptimo del velero para volar rápido.
 
-![Esquema del sistema de lastre de agua compartimentado](imagenes/08-cap11-lastre-agua.jpg){#fig-08-cap11-lastre-agua}
+![Manijas del  sistema de lastre de agua compartimentado](imagenes/08-cap11-lastre-agua.jpg){#fig-08-cap11-lastre-agua}
 
 ::: {.postit}
 **Resumen del capítulo: lastre de agua**

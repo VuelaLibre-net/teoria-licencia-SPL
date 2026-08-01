@@ -16,6 +16,24 @@ rompe la compilación.
 
 ## [En curso]
 
+## [0.9.0] — 1 de agosto de 2026
+
+**Qué releer:** **cap01, gancho de remolque CG; cap05, aerofrenos, flaps y compensador; cap06, anemómetro, variómetro de energía total y FLARM; cap07, conectores L'Hotellier; cap10, motor retráctil; cap11, lastre de agua; cap14, comunicador satelital, sistema EDS y kit de supervivencia.** Se incorporan nuevas ilustraciones y esquemas en español, se ajustan dimensiones y pies de figura.
+
+### Añadido
+
+* **cap01** — figura del gancho de remolque de centro de gravedad (CG) (`#fig-08-cap01-planeador`) e imagen de cabina.
+* **cap05** — figuras explicativas de aerofrenos extendidos (`#fig-08-cap05-8-5-3-1-el-aerofreno`), flaps (`#fig-08-cap05-8-5-3-2-flaps`) y compensador (`#fig-08-cap05-8-5-3-2-el-compensador-trim-tab-en-ingle`).
+* **cap06** — figuras de anemómetro ADI2 (`#fig-08-cap06-8-6-4-2-anemometro`), sistema de variómetro de energía total (`#fig-08-cap06-un-sistema-de-variometro-de-energia-tota`) y unidad FLARM en cabina (`#fig-08-cap06-4-2-ver-y-evitar`).
+* **cap14** — figuras de comunicador bidireccional vía satélite (`#fig-08-cap14-1-11-2-equipos-de-emergencia-a-bordo`) y sistema EDS de demanda de pulso electrónico (`#fig-08-cap14-sistema-de-demanda-de-pulso-electronico`).
+
+### Cambiado
+
+* **cap07** — actualización del pie de foto de la figura de conectores de mandos (`#fig-08-cap07-conectores-mandos`) especificando el orificio para el pin de seguridad.
+* **cap10** — reubicación y actualización del pie de foto de la figura de motor retráctil (`#fig-08-cap10-motor-retractil`).
+* **cap11** — actualización del pie de foto de la figura de manijas del sistema de lastre de agua (`#fig-08-cap11-lastre-agua`).
+* **cap14** — ajuste de escala/ancho (`width="45%"`) en la figura del kit de supervivencia (`#fig-08-cap14-equipo-supervivencia`).
+
 ## [0.8.9] — 29 de julio de 2026
 
 ### Maqueta y producción

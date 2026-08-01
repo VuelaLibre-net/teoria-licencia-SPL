@@ -67,11 +67,12 @@ Manejar el motor de un planeador exige disciplina. La secuencia de arranque (ext
 Con el motor extraído, la relación de planeo cae en picado por la resistencia del mástil. Si el motor no arranca tras sacarlo, tienes que estar a altura suficiente para hacer la toma de emergencia con el motor fuera, o para retraerlo a tiempo. Elige siempre el campo antes de intentar el arranque: el motor es el plan B, nunca el plan A.
 :::
 
+![Planeadores con motor y motor retráctil en posición de funcionamiento.](imagenes/08-cap10-motor-retractil.jpg){#fig-08-cap10-motor-retractil}
+
 ## Instrumentación y combustible
 
 La unidad de control electrónica (como el ILEC) gestiona las RPM y las temperaturas de cilindro (CHT) y de gases de escape (EGT). El piloto de motovelero debe vigilar de cerca el nivel de combustible y la temperatura, porque un motor de dos tiempos es muy sensible al sobrecalentamiento.
 
-![Esquema de un planeador con motor retráctil en posición de funcionamiento](imagenes/08-cap10-motor-retractil.jpg){#fig-08-cap10-motor-retractil}
 
 ::: {.postit}
 **Resumen del capítulo: motoveleros y sistemas retráctiles**
