@@ -31,7 +31,7 @@ La biblioteca está organizada por asignaturas según el syllabus oficial de AES
 | 6 | **`06-procedimientos-operativos`** | Procedimientos Operativos | `0.9.1` | 🟡 En revisión |
 | 7 | **`07-planificacion-rendimiento`** | Planificación y Rendimiento de Vuelo | `0.9.0` | 🟡 En revisión |
 | 8 | **`08-aeronave-sistemas`** | Conocimientos Generales de la Aeronave, Estructura, Sistemas y Equipo de Emergencia | `0.9.0` | 🟡 En revisión |
-| 9 | **`09-navegacion`** | Navegación | `0.8.8` | 🎨 Creando ilustraciones |
+| 9 | **`09-navegacion`** | Navegación | `0.9.0` | 🟡 En revisión |
 
 ### Estados editoriales
 

@@ -16,6 +16,21 @@ rompe la compilación.
 
 ## [En curso]
 
+## [0.9.0] — 1 de agosto de 2026
+
+**Qué releer:** **cap01, cap02, cap04, cap05, cap06 y cap07.** Se incorporan e integran nuevas ilustraciones y gráficos en español para coordenadas, tablilla de desvíos, triángulo de viento, triangulación, dispositivo GNSS en cabina e interacción con ATC/ATS, y se aclara la responsabilidad del PIC en aeródromos no controlados.
+
+### Añadido
+
+* **cap01, cap02, cap04, cap05, cap06, cap07** — sustitución e integración de nuevas ilustraciones técnicas en español (`09-cap01-coordenadas.jpg`, `09-cap02-tablilla-desvios.jpg`, `09-cap04-triangulo-viento.jpg`, `09-cap05-triangulacion.jpg`, `09-cap06-gnss-cabina.jpg`, `09-cap07-atc.jpg`).
+* **cap07** — precisión sobre la responsabilidad del PIC respecto a las decisiones en aeródromos no controlados aun contando con servicios de información.
+
+### Estado en esta versión
+
+* 7 capítulos y 3 apéndices, entre ellos el glosario y la bibliografía.
+* Estado editorial: **En revisión**, deducido de la versión 0.9.0.
+* El texto y las ilustraciones principales están completos; pasa a fase de revisión técnica.
+
 ## [0.8.8] — 29 de julio de 2026
 
 **Qué releer:** **cap04, terminología de la brújula**, y **cap01 y cap03, sus resúmenes.** Se matizan dos afirmaciones que el postit daba
