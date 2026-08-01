@@ -67,7 +67,7 @@ La aproximación a un campo no conocido debe ser más conservadora que la habitu
 5. **La toma:** toca tierra con la mínima velocidad posible y mantén el planeador recto. Una vez en tierra, frena con decisión: es preferible romper el tren de aterrizaje contra un surco que intentar flotar sobre un obstáculo y entrar en pérdida.
 
 ::: {.callout-warning title="Seguridad: EL «CABALLITO» (GROUND LOOP)"}
-Si durante el rodaje ves que vas a chocar contra un obstáculo insalvable a alta velocidad, puedes provocar un «caballito» deliberado bajando un ala al suelo. El planeador pivotará sobre esa ala y se detendrá bruscamente, sacrificando la estructura del ala para salvar al piloto. Esta maniobra solo se usa como último recurso, cuando la alternativa es el impacto frontal a velocidad.
+Si durante el rodaje es inevitable el impacto a alta velocidad contra un obstáculo insalvable, puedes provocar un «caballito» deliberado (*ground loop*) llevando un ala al suelo y aplicando timón a fondo hacia ese mismo lado. El planeador pivotará violentamente sobre la punta del ala y se detendrá bruscamente, sacrificando la estructura del plano o del tren para disipar la energía y proteger a los ocupantes. Esta maniobra es un último recurso cuando la única alternativa es el choque frontal; recuerda que el material es reemplazable, pero la vida de los ocupantes no.
 :::
 
 ## Procedimientos post-aterrizaje fuera de campo

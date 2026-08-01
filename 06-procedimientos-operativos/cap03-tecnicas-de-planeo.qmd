@@ -1,5 +1,6 @@
 # Técnicas de planeo
 
+
 > El vuelo de planeador es, en esencia, una conversación permanente con la atmósfera. El piloto que aprende a escuchar el aire —las variaciones del variómetro, el comportamiento del planeador en distintas masas de aire, los indicios sutiles que anuncian una térmica— desarrolla una capacidad que trasciende la técnica y se convierte en instinto. Esta sección recorre las tres grandes familias de sustentación dinámica: térmica, ladera y onda, junto con la gestión del lastre de agua para condiciones específicas.
 >
 >
@@ -43,6 +44,8 @@ La lógica es la siguiente: si esperas encontrar térmicas de 2 m/s en el tramo 
 * **Ajusta el anillo** al valor de ascenso que esperas en la próxima térmica (p. ej., 2 m/s).
 * **Vuela a la velocidad que marque el anillo** en el vario. En masas de aire descendente, volarás más rápido; en ascendente, más despacio.
 * El resultado es el **menor tiempo posible** para completar la travesía —no el mayor planeo instantáneo.
+
+![El anillo MacCready](imagenes/06-cap03-el-anillo-maccready.png){#fig-06-cap03-el-anillo-maccready}
 
 ### El hilo de lana lateral como medidor del ángulo de ataque (técnica complementaria)
 
