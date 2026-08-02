@@ -190,15 +190,24 @@ del repositorio, de donde cualquiera puede descargarlos sin cuenta de GitHub. El
 # 1. Sube la versión de los libros que hayan cambiado y cierra sus CHANGELOG
 #    (ver «Qué ha cambiado en cada libro», arriba). Fusiona esos cambios a main.
 
-# 2. Ya en main, con todo fusionado y el CI en verde, crea un tag anotado:
+# 2. Ya en main, con todo fusionado, crea un tag anotado:
 git switch main && git pull
 git tag -a v0.9.0 -m "Descripción breve de la entrega"
 git push origin v0.9.0
 ```
 
-El tag compila y verifica con el CI **entero** (el mismo job, no una copia), y con los 36 entregables
-recién compilados crea una **release en borrador**. En unos minutos aparece en la pestaña _Releases_,
-todavía no visible al público.
+El tag **no recompila**: busca el run del CI que ya validó **ese mismo commit** —el de la fusión a
+`main`— y publica sus entregables, con lo que la release sale en un par de minutos en vez de en
+media hora. No hace falta esperar a que ese CI termine antes de etiquetar: si sigue en marcha, la
+release lo espera.
+
+Sólo compila cuando no hay nada que reutilizar: si ningún run del CI ha visto ese commit, o si sus
+artefactos han caducado (la retención del repositorio son **2 días**, así que etiquetar más tarde
+implica recompilar). Y si el CI ya evaluó ese commit **y no salió verde**, la release **aborta**: un
+tag no publica un árbol que el CI ha rechazado.
+
+Con los 39 entregables —10 PDF, 10 EPUB, 10 Markdown para RAG y 9 paquetes web: los nueve libros más
+el manual completo, que no tiene web— crea una **release en borrador**, todavía no visible al público.
 
 Para terminar, **a mano**:
 
