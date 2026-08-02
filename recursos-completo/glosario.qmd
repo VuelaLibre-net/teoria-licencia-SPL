@@ -134,6 +134,9 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 **Base (Tramo de base / Base leg)**
 : Tramo del circuito de tráfico perpendicular a la prolongación del eje de la pista que conecta el tramo de viento en cola con el tramo final.
 
+**Bataneo (buffet)**
+: Vibración de la estructura provocada por el aire desprendido del ala que golpea el fuselaje y la cola al acercarse al ángulo de ataque crítico. Es el aviso previo a la pérdida más perceptible, junto al morro alto y los mandos blandos. Importa en meteorología porque el hielo estructural lo suprime: con el perfil contaminado, el planeador puede entrar en pérdida muy por encima de su velocidad habitual y sin ningún aviso.
+
 **Bernoulli, teorema de**
 : Principio de la física de fluidos que establece que, en un fluido en movimiento, un aumento de la velocidad del flujo se corresponde con una disminución de la presión estática. En aerodinámica explica parte de la sustentación: el aire que acelera sobre el extradós genera una zona de baja presión que aspira el ala hacia arriba. Se complementa con el efecto acción-reacción de Newton (deflexión del flujo hacia abajo en el borde de salida).
 

@@ -17,6 +17,18 @@ LIBROS = [
     "09-navegacion"
 ]
 
+# Cierre del syllabus unificado. Cada libro suelto lleva su propio "Ponte a
+# prueba" con la URL de su test; aquí van los nueve en un solo aviso al final,
+# apuntando a la raíz de los exámenes.
+PONTE_A_PRUEBA_COMPLETO = """## Ponte a prueba {.unnumbered .unlisted}
+
+La teoría se afianza respondiendo preguntas. Cada asignatura cuenta con su propio test de autoevaluación en línea, con preguntas tipo examen. Los tienes todos aquí:
+
+[https://vuelalibre.net/examenes/](https://vuelalibre.net/examenes/)
+
+Consulta a tu instructor, quien te indicará cuál es el banco de preguntas o el formato más adecuado, y sigue su recomendación. Te será de gran utilidad tanto para afianzar los conocimientos de cada capítulo como para tu repaso general antes de presentarte al examen teórico.
+"""
+
 def clean_id(s):
     """Limpia un texto para generar un identificador único uniforme (réplica de glosario-enlaces.lua)."""
     replacements = {
@@ -254,19 +266,20 @@ def main():
             if syl_files:
                 syl_path = syl_files[0]
                 content = syl_path.read_text(encoding='utf-8')
-                body, ponte = parse_syllabus(content)
-                
+                # El "Ponte a prueba" de cada libro se descarta: en el manual
+                # completo serían nueve avisos idénticos salvo la URL. Va uno
+                # solo al final, apuntando a la raíz de los tests.
+                body, _ = parse_syllabus(content)
+
                 # Obtener el título del libro
                 title, _ = get_chapters_and_title(libro)
-                
+
                 # Escribir sección H2 que no entra en la tabla de contenidos (.unnumbered .unlisted)
                 f.write(f"## {idx}. {title} {{.unnumbered .unlisted}}\n\n")
                 f.write(f"{body}\n\n")
-                
-                if ponte:
-                    f.write("### Ponte a prueba {.unnumbered .unlisted}\n\n")
-                    f.write(f"{ponte}\n\n")
-                    
+
+        f.write(PONTE_A_PRUEBA_COMPLETO)
+
     print(f"✓ Syllabus consolidado escrito en {syllabus_unificado_path}")
     
     # 4. Copiar preliminares comunes de referencia (desde Libro 1)
