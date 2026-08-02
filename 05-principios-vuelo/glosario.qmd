@@ -45,7 +45,7 @@ Este glosario recoge las definiciones y acrónimos esenciales de la aerodinámic
 : Desviación lateral de la trayectoria del planeador respecto al suelo provocada por el viento de costado (en navegación). En aerodinámica, se refiere a la superficie fija vertical de la cola (estabilizador vertical) que aporta estabilidad de guiñada.
 
 **Efecto suelo (*ground effect*)**
-: Mejora transitoria de la eficiencia aerodinámica que experimenta el planeador cuando vuela por debajo de una envergadura de ala sobre el terreno. El suelo actúa como barrera que comprime los torbellinos de punta de ala, reduce el *downwash* y disminuye la resistencia inducida. Como resultado, el planeador "flota" más de lo esperado: una entrada larga o con exceso de velocidad puede añadir centenares de metros de rodada.
+: Mejora transitoria de la eficiencia aerodinámica que experimenta el planeador cuando vuela por debajo de una envergadura de ala sobre el terreno. El suelo actúa como barrera que comprime los torbellinos de punta de ala, reduce el *downwash* y disminuye la resistencia inducida. Como resultado, el planeador "flota" más de lo esperado y se resiste a posarse: una entrada larga o con exceso de velocidad alarga la toma y puede dejarte sin pista por delante.
 
 **Efecto veleta**
 : Tendencia del planeador a alinearse automáticamente con la dirección del viento relativo gracias a la deriva. La distancia entre el CG y la deriva actúa como brazo de palanca que amplifica la fuerza correctora. Es el mecanismo que proporciona la estabilidad direccional del planeador.

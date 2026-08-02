@@ -357,7 +357,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Relación entre una distancia medida en la carta y la distancia real en el terreno. En la carta VFR estándar 1:500.000, 1 cm equivale a 5 km.
 
 **Espacio aéreo controlado**
-: Volumen de espacio aéreo (clases A a E) en el que se presta servicio de control. En clases C y D el VFR necesita autorización ATC y comunicación radio para entrar.
+: Volumen de espacio aéreo (clases A a E) en el que se presta servicio de control. En **clase A** sólo se admite IFR: el VFR no puede entrar. En **clases B, C y D** el VFR necesita autorización ATC y comunicación bilateral; la clase B no se emplea en España. La **clase E** también es espacio controlado, pero al VFR no se le presta allí servicio de control y no necesita ni autorización ni radio.
 
 **Estabilidad atmosférica**
 : Propiedad de la atmósfera que describe la tendencia de una parcela de aire desplazada verticalmente a regresar a su posición original (estable) o a continuar alejándose (inestable). El vuelo a vela vive de la inestabilidad. Una atmósfera estable impide el desarrollo de térmicas; una inestable las fomenta.
@@ -435,7 +435,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Fenómeno físico de oscilaciones aeroelásticas autoexcitadas e inestables que afectan a las superficies sustentadoras o de control del planeador al superar la V~NE~, pudiendo destruir la estructura en segundos debido a la interacción del flujo de aire a alta velocidad con la flexibilidad estructural.
 
 **FPL (Plan de vuelo / Flight Plan)**
-: Datos del vuelo previsto que el piloto presenta ante las autoridades ATS antes de operar donde se preste servicio de control de tránsito aéreo (clases B, C y D, o aeródromos controlados; en clase E el VFR no necesita plan de vuelo, ni radio, ni autorización). Incluye tipo de aeronave, indicativo, aeródromo de origen y destino, ruta prevista, nivel de crucero y hora estimada. Es obligatorio además en todo vuelo que cruce una frontera.
+: Datos del vuelo previsto que el piloto presenta ante los servicios de tránsito aéreo. **SERA.4001 b)** lo exige, entre otros casos, para todo vuelo al que se preste servicio de control —para el VFR, en la práctica clases B, C y D, y los aeródromos controlados—, para todo vuelo que cruce una frontera internacional y para los que discurran por áreas o rutas designadas por la autoridad competente para facilitar la información de vuelo, la alerta y el salvamento. En clase E el VFR no recibe servicio de control, así que no necesita plan de vuelo, ni radio, ni autorización. Incluye tipo de aeronave, indicativo, aeródromo de origen y destino, ruta prevista, nivel de crucero y hora estimada.
 
 **Frente cálido**
 : Superficie de separación entre una masa de aire cálido que avanza sobre una masa fría preexistente. El ascenso es gradual (pendiente suave), lo que produce precipitaciones débiles y continuas, techos nubosos bajos y estabilidad: condiciones operativas pobres para el vuelo a vela. Sus precursores son los cirros descendentes (Ci → Cs → As → Ns).
@@ -528,7 +528,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Línea de la carta que une los puntos con igual valor de variación (declinación) magnética.
 
 **K-Index (índice K)**
-: Índice de estabilidad atmosférica que combina el gradiente vertical de temperatura entre 850 hPa y 500 hPa con la humedad en niveles medios. Es el indicador diario más usado por los volovelistas: K < 5 (día débil), 5–15 (buenas térmicas), 15–20 (excelente), 20–30 (excelente con chubascos), > 30 (alta probabilidad de tormentas).
+: Índice de estabilidad atmosférica que combina el gradiente vertical de temperatura entre 850 hPa y 500 hPa con la humedad en niveles medios. Es el indicador diario más usado por los volovelistas: K < 5 (día débil), 5–15 (buenas térmicas), 15–20 (excelente), 20–30 (excelente con chubascos), > 30 (alta probabilidad de tormentas). Las bandas altas concuerdan con la escala de George de probabilidad de tormenta de masa de aire (15–20 ≈ 20 %, 31–35 ≈ 60–80 %); las bajas son una adaptación al vuelo a vela, porque por debajo de 15 la escala meteorológica no distingue: para ella son todo días sin tormenta.
 
 **LAPL (Licencia de Piloto de Aeronave Ligera / Light Aircraft Pilot Licence)**
 : Licencia europea para determinadas operaciones no comerciales con aeronaves ligeras, sujeta a las atribuciones y limitaciones aplicables.
@@ -756,7 +756,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Gradiente Adiabático Saturado. Ritmo al que se enfría una parcela de aire saturada (en formación de nube) al ascender adiabáticamente: aproximadamente 1,5 °C por cada 1.000 ft. Es menor que el DALR porque la condensación libera calor latente que "frena" el enfriamiento.
 
 **SAO (Sailplane Air Operations)**
-: Normativa operativa específica de EASA para pilotos al mando de planeadores. Fija reglas como la obligatoriedad del oxígeno por encima de 10.000 ft de altitud.
+: Normativa operativa específica de EASA para planeadores, en el anexo II del Reglamento (UE) 2018/1976. Sus reglas son de criterio antes que de umbral: **SAO.OP.150** obliga al piloto al mando a garantizar que todos los ocupantes usen oxígeno suplementario cuando determine que, a la altitud prevista, su falta puede mermarles las facultades. El Reglamento no fija ninguna cifra; los **10.000 ft** salen del **AMC1 SAO.OP.150**, y sólo como regla por defecto para cuando el piloto no pueda hacer esa valoración.
 
 **SAR (Búsqueda y salvamento / Search and Rescue)**
 : Organización y operaciones destinadas a localizar y auxiliar aeronaves y personas en peligro.

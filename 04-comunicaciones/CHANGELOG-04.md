@@ -19,6 +19,7 @@ rompe la compilación.
 ### Cambiado
 
 * **Glosario, entradas «FPL» y «Squawk»** — «FPL» pasa a titularse como el resto de la colección (`Plan de vuelo / Flight Plan`, español primero) y recoge la obligación en vuelos que cruzan frontera, que sólo estaba en los libros 07 y 09. En «Squawk», el 7600 se glosa como «fallo de radio, NORDO» en vez de sólo «NORDO». Es la misma definición que llevan ahora los libros 07 y 09.
+* **Glosario, entrada «FPL»** — se ancla en **SERA.4001 b)**, que es lo que obliga a presentarlo, y se añade el caso de las áreas o rutas designadas por la autoridad competente, que faltaba. Los supuestos que ya recogía —servicio de control, aeródromo controlado, cruce de frontera, clase E exenta— quedan verificados contra el Reglamento y no cambian.
 
 ### Corregido
 

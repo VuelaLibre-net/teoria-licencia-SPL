@@ -19,6 +19,7 @@ rompe la compilación.
 ### Cambiado
 
 * **Glosario, entrada «FPL»** — se adopta la del libro 04, que detalla en qué espacios aéreos hace falta el plan de vuelo y qué datos incluye. Conserva la obligación en vuelos que cruzan frontera, que era lo propio de esta versión.
+* **Glosario, entrada «FPL»** — se ancla en **SERA.4001 b)** y se añade el caso de las áreas o rutas designadas por la autoridad competente. El resto queda igual, verificado contra el Reglamento.
 
 ## [0.9.1] — 1 de agosto de 2026
 

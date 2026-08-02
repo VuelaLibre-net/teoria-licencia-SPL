@@ -23,10 +23,12 @@ rompe la compilación.
 ### Cambiado
 
 * **Glosario, entradas «Hipoxia» e «IAS»** — se unifican con las de los libros que también las definen, para que el manual completo no tenga que elegir entre versiones distintas del mismo término. «Hipoxia» gana los cuatro tipos que sólo estaban en el libro 02; «IAS» gana el encadenado IAS → TAS → GS que sólo estaba en el libro 09. Nada de lo que ya decían cambia.
+* **cap03, K-Index** — bajo la tabla de umbrales se dice de dónde salen: las bandas altas son la escala de George de probabilidad de tormenta; las tres primeras filas, una adaptación de esta colección, porque por debajo de 15 la escala meteorológica no distingue. Mismo tratamiento que ya tenía el Total Totals. Los valores de la tabla no cambian.
 
 ### Corregido
 
 * **Glosario, entrada «Niebla»** — decía que la bruma reduce la visibilidad a entre 1.000 y 5.000 m «sin afectar el código CAVOK». Es al revés: CAVOK exige 10 km o más, así que con bruma no puede haberlo.
+* **Glosario, entrada «K-Index»** — las bandas no llevaban procedencia y parecían discrepar de la escala meteorológica. Se aclara que las altas concuerdan con la escala de George y que las bajas son la adaptación al vuelo a vela.
 
 ### Maqueta y producción
 

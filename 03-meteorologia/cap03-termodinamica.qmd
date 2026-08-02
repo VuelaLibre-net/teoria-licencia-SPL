@@ -131,6 +131,8 @@ El K-Index combina el gradiente de temperatura entre 850 hPa y 500 hPa con la hu
 | > 30 | Alta probabilidad de tormentas (> 60 %): no planifiques vuelos largos |
 : Umbrales del K-Index y su interpretación
 
+Las bandas altas de la tabla concuerdan con la escala clásica de George de probabilidad de tormenta de masa de aire (15–20 ≈ 20 %, 21–30 ≈ 20–60 %, 31–35 ≈ 60–80 %). Las tres primeras filas, en cambio, son una adaptación operativa de esta colección: por debajo de 15 la escala meteorológica no distingue nada, porque sólo pronostica tormentas, y para el volovelista ahí está justo la diferencia entre un día sin térmica y un buen día.
+
 ::: {.callout-note title="Airmanship"}
 El K-Index fue diseñado para predecir tormentas, no la calidad del vuelo a vela. Sus umbrales varían según la región y la estación: en zonas áridas como la Meseta Central, la baja humedad puede dar K bajos incluso con térmicas potentes. En montaña, si el nivel de 850 hPa queda cerca del suelo, el índice pierde representatividad. Úsalo siempre junto al TT y, si el día tiene pinta de complicarse, añade el CAPE.
 :::

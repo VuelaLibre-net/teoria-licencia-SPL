@@ -22,6 +22,7 @@ rompe la compilación.
 * **Glosario, entrada «DECIDE»** — el modelo tenía dos pasos cambiados de sitio: ponía «Implementar» donde va *Identify* (identificar las acciones posibles) y «Determinar» donde va *Do* (ejecutarlas), de modo que el alumno memorizaba primero implementar y después determinar. Los seis pasos van ahora con su término original y su glosa.
 * **Glosario, entrada «SHELL»** — el modelo no lo desarrolló la OACI: es de Edwards (1972), completado por Hawkins (1975); la OACI lo adoptó y lo difundió.
 * **Glosario, entrada «AUT / TUE»** — WADA no concede exenciones terapéuticas. Las conceden las organizaciones nacionales antidopaje y las federaciones internacionales; WADA fija el estándar y revisa las concesiones. Se retira además la mención a las autoridades aeronáuticas, que no intervienen.
+* **Glosario, entrada «SAO»** — decía que Part-SAO «fija la obligatoriedad del oxígeno por encima de 10.000 ft», y eso contradecía al propio cap04 del libro. SAO.OP.150 no da ninguna cifra: obliga al piloto a valorar si la falta de oxígeno merma a los ocupantes. Los 10.000 ft son del AMC1 y sólo aplican cuando el piloto no puede hacer esa valoración.
 
 ## [1.0-rc.11] — 31 de julio de 2026
 
