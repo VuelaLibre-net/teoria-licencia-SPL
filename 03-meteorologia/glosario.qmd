@@ -14,6 +14,9 @@ Este glosario contiene las definiciones y acrónimos más relevantes de la meteo
 **Atmósfera Estándar Internacional (ISA)**
 : Modelo idealizado de referencia que define los valores estándar de presión (1013,25 hPa), temperatura (15 °C) y densidad del aire a nivel del mar, con un gradiente térmico estándar de 2 °C/1.000 ft. Es la base de calibración de todos los instrumentos aeronáuticos.
 
+**Bataneo (buffet)**
+: Vibración de la estructura provocada por el aire desprendido del ala que golpea el fuselaje y la cola al acercarse al ángulo de ataque crítico. Es el aviso previo a la pérdida más perceptible, junto al morro alto y los mandos blandos. Importa en meteorología porque el hielo estructural lo suprime: con el perfil contaminado, el planeador puede entrar en pérdida muy por encima de su velocidad habitual y sin ningún aviso.
+
 **Borrasca (Depresión / L)**
 : Sistema de baja presión atmosférica caracterizado por convergencia de aire en superficie que fuerza el ascenso, el enfriamiento y la formación de nubes, frentes y precipitación. Los vientos en superficie circulan en sentido antihorario en el hemisferio norte. La zona post-frontal es a menudo la más favorable para el vuelo a vela.
 

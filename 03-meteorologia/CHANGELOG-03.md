@@ -16,6 +16,10 @@ rompe la compilación.
 
 ## [En curso]
 
+### Añadido
+
+* **Glosario** — entrada «Bataneo (buffet)»: qué es la vibración, que es el aviso previo a la pérdida y por qué el hielo estructural lo suprime. El término lo usaba ya el cap09 sin definirlo aquí.
+
 ### Maqueta y producción
 
 * **cap09, engelamiento** — el recuadro de Seguridad dice «bataneo» y no «buffet», que es el término que usan el capítulo de pérdida del libro 05 y el glosario. Se redacta además «muy por encima de la velocidad habitual» en lugar de «a velocidades muy superiores a las habituales». El aviso no cambia.
