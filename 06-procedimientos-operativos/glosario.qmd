@@ -72,7 +72,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Procedim
 : Piloto designado para el mando y encargado de la realización segura del vuelo.
 
 **Resbale lateral (Sideslip)**
-: Maniobra aerodinámica coordinada de forma cruzada (alerón a un lado, pedal al opuesto) por la cual se presenta el fuselaje de lado a la corriente libre, generando un incremento drástico de la resistencia aerodinámica que incrementa la tasa de descenso sin aumentar la velocidad.
+: Maniobra deliberadamente descoordinada, con los mandos cruzados (alerón a un lado, pedal al opuesto), por la cual se presenta el fuselaje de lado a la corriente libre, generando un incremento drástico de la resistencia aerodinámica que incrementa la tasa de descenso sin aumentar la velocidad.
 
 **Self-launch (Autolanzamiento)**
 : Capacidad de despegue y ascenso autónomo del planeador utilizando una unidad de potencia auxiliar motora integrada en la estructura (motoveleros TMG o veleros de motor retráctil).

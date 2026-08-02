@@ -20,6 +20,9 @@ rompe la compilación.
 
 * **Glosario, entradas «Engelamiento» y «Térmica»** — se adoptan las del libro 03, que son más completas: «Engelamiento» añade el margen de 0 °C a −15 °C, la cúpula y que el planeador no lleva antihielo; «Térmica» explica el mecanismo y de qué depende su intensidad. El rótulo pasa a `Engelamiento (icing)`, en minúscula como el resto de la colección.
 
+### Corregido
+
+* **Glosario, entrada «Resbale lateral»** — se describía como maniobra «coordinada de forma cruzada». Un resbale es por definición vuelo descoordinado, con los mandos cruzados a propósito; llamarlo coordinado chocaba con lo que enseña el libro 5 con el hilo de lana.
 ## [0.9.2] — 1 de agosto de 2026
 
 **Qué releer:** **cap02, cap03, cap05 y cap06.** Se incorpora la ilustración del anillo MacCready en cap03, se recoloca la figura de remolque por avión en cap02, se detalla la maniobra del «caballito» (*ground loop*) en cap05 y se matiza la técnica de escaneo visual en cap06.

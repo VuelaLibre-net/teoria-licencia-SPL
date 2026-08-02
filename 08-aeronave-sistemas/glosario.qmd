@@ -29,7 +29,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Conocimi
 **CG (Centro de gravedad)**
 : Punto teórico donde se considera aplicada la resultante de todas las fuerzas de gravedad que actúan sobre el planeador. Su ubicación longitudinal es clave para la estabilidad y el control del vuelo.
 
-**CoA (Certificado de Aeronavegabilidad)**
+**CofA (Certificado de Aeronavegabilidad / Certificate of Airworthiness)**
 : Documento que certifica que una aeronave se ajusta al diseño aprobado y se considera apta para el vuelo mientras se mantenga aeronavegable y cumpla los requisitos aplicables.
 
 **Compensador (Trim)**

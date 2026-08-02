@@ -19,6 +19,9 @@ rompe la compilación.
 ### Corregido
 
 * **Glosario, entrada «Hipoxia»** — decía «déficit de oxígeno **cerebral**» y hablaba de «falta de presión **transferencial** en altitud». La hipoxia afecta a células y tejidos, no sólo al cerebro, y el término es *presión parcial* de oxígeno; «transferencial» no existe y no aparecía en ningún otro punto de la colección. La definición nueva parte de la redacción correcta y conserva los cuatro tipos, alineados con lo que ya decía cap04. Es la misma definición que llevan ahora los libros 03 y 08.
+* **Glosario, entrada «DECIDE»** — el modelo tenía dos pasos cambiados de sitio: ponía «Implementar» donde va *Identify* (identificar las acciones posibles) y «Determinar» donde va *Do* (ejecutarlas), de modo que el alumno memorizaba primero implementar y después determinar. Los seis pasos van ahora con su término original y su glosa.
+* **Glosario, entrada «SHELL»** — el modelo no lo desarrolló la OACI: es de Edwards (1972), completado por Hawkins (1975); la OACI lo adoptó y lo difundió.
+* **Glosario, entrada «AUT / TUE»** — WADA no concede exenciones terapéuticas. Las conceden las organizaciones nacionales antidopaje y las federaciones internacionales; WADA fija el estándar y revisa las concesiones. Se retira además la mención a las autoridades aeronáuticas, que no intervienen.
 
 ## [1.0-rc.11] — 31 de julio de 2026
 

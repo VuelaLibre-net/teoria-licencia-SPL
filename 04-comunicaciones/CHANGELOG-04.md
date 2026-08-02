@@ -20,6 +20,9 @@ rompe la compilación.
 
 * **Glosario, entradas «FPL» y «Squawk»** — «FPL» pasa a titularse como el resto de la colección (`Plan de vuelo / Flight Plan`, español primero) y recoge la obligación en vuelos que cruzan frontera, que sólo estaba en los libros 07 y 09. En «Squawk», el 7600 se glosa como «fallo de radio, NORDO» en vez de sólo «NORDO». Es la misma definición que llevan ahora los libros 07 y 09.
 
+### Corregido
+
+* **Glosario, entrada «MAYDAY»** — el uso falso o malicioso no lo sanciona EASA, que no tipifica infracciones ni sanciona pilotos, sino la normativa nacional: en España la Ley 21/2003 y, según el caso, el Código Penal.
 ## [1.0-rc.11] — 31 de julio de 2026
 
 **Qué releer:** **cap02, cambio y abandono de frecuencia.** La figura pasa de ilustrar la idea a desarrollar el intercambio completo, con fraseología.

@@ -20,6 +20,9 @@ rompe la compilación.
 
 * **Glosario, entradas «Hipoxia» y «V~RA~»** — «Hipoxia» gana los cuatro tipos del libro 02 sobre la redacción que ya tenía. «V~RA~» adopta la del libro 05: dice qué arco empieza y cuál acaba en esa marca, y que V~RA~ y V~A~ suelen andar próximas. Se pierde la remisión al «Libro 5, capítulo 5», que en el manual completo no tenía sentido.
 
+### Corregido
+
+* **Glosario, entrada del certificado de aeronavegabilidad** — pasa de `CoA` a `CofA`, la sigla que usa el libro 01 con la misma definición palabra por palabra. Con dos siglas distintas, el glosario del manual completo publicaba el mismo certificado dos veces.
 ## [0.9.0] — 1 de agosto de 2026
 
 **Qué releer:** **cap01, gancho de remolque CG; cap05, aerofrenos, flaps y compensador; cap06, anemómetro, variómetro de energía total y FLARM; cap07, conectores L'Hotellier; cap10, motor retráctil; cap11, lastre de agua; cap14, comunicador satelital, sistema EDS y kit de supervivencia.** Se incorporan nuevas ilustraciones y esquemas en español, se ajustan dimensiones y pies de figura.

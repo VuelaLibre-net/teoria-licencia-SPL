@@ -15,7 +15,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Factores
 : Servicio de tránsito aéreo destinado a prevenir colisiones y a acelerar y mantener ordenadamente el movimiento del tránsito aéreo.
 
 **AUT / TUE (Autorización de Uso Terapéutico)**
-: **Therapeutic Use Exemption**. Permiso oficial emitido por una organización antidopaje o autoridad aeronáutica (como WADA) que permite a un piloto de competición utilizar una medicación específica que normalmente requeriría su suspensión en un control antidopaje, salvaguardando su salud de base.
+: **Therapeutic Use Exemption**. Permiso oficial que conceden las organizaciones nacionales antidopaje y las federaciones internacionales —no la propia WADA, que fija el estándar y revisa las concesiones— y que permite a un piloto de competición utilizar una medicación específica que normalmente requeriría su suspensión en un control antidopaje, salvaguardando su salud de base.
 
 **Cadena del error**
 : Sucesión de pequeñas decisiones erróneas, condiciones previas y errores latentes que, al alinearse e interactuar (como en el **modelo del queso suizo**), desencadenan un accidente o incidente.
@@ -36,7 +36,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Factores
 : Paradigma organizacional que reconoce la inevitabilidad del error humano no intencionado, tratándolo como una oportunidad de aprendizaje colectivo sin represalias, oponiéndose a todo encubrimiento o sanción punitiva irracional.
 
 **DECIDE**
-: Modelo estandarizado para la toma de decisiones aeronáuticas: Detectar, Estudiar, Considerar, Implementar, Determinar y Evaluar.
+: Modelo estandarizado para la toma de decisiones aeronáuticas, en seis pasos: **D**etect (detectar el cambio), **E**stimate (estimar si exige reacción), **C**hoose (elegir el resultado buscado), **I**dentify (identificar las acciones posibles), **D**o (ejecutar la elegida) y **E**valuate (evaluar su efecto).
 
 **Desorientación espacial**
 : Falsa apreciación de la posición, actitud o movimiento de la aeronave como consecuencia de ilusiones sensoriales originadas en el oído interno, obligando al piloto a desconfiar de sus sentidos y ampararse en los instrumentos.
@@ -84,7 +84,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Factores
 : Marco normativo europeo (EASA) que regula las licencias, el programa de estudios y la instrucción de vuelo para pilotos de planeador (SPL).
 
 **SHELL**
-: Modelo conceptual desarrollado por la OACI interconectando de forma unificada y armónica todos los vértices relativos al operador: **Software** (Procedimientos normativos), **Hardware** (La Aeronave), **Environment** (El Entorno físico), **Liveware** interior y **Liveware** externo (El piloto con respecto a otras personas).
+: Modelo conceptual propuesto por Edwards en 1972 como SHEL y completado por Hawkins en 1975, que la OACI adoptó y difundió. Interconecta de forma unificada y armónica todos los vértices relativos al operador: **Software** (Procedimientos normativos), **Hardware** (La Aeronave), **Environment** (El Entorno físico), **Liveware** interior y **Liveware** externo (El piloto con respecto a otras personas).
 
 **SPL (Licencia de Piloto de Planeador / Sailplane Pilot Licence)**
 : Licencia de la Unión Europea, regulada por la Part-SFCL, que permite ejercer las atribuciones de piloto de planeador dentro de las condiciones aplicables.

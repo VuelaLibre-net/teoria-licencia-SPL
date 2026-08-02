@@ -120,7 +120,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Espacio aéreo de dimensiones definidas establecido alrededor de un aeródromo para la protección de su tránsito.
 
 **AUT / TUE (Autorización de Uso Terapéutico)**
-: **Therapeutic Use Exemption**. Permiso oficial emitido por una organización antidopaje o autoridad aeronáutica (como WADA) que permite a un piloto de competición utilizar una medicación específica que normalmente requeriría su suspensión en un control antidopaje, salvaguardando su salud de base.
+: **Therapeutic Use Exemption**. Permiso oficial que conceden las organizaciones nacionales antidopaje y las federaciones internacionales —no la propia WADA, que fija el estándar y revisa las concesiones— y que permite a un piloto de competición utilizar una medicación específica que normalmente requeriría su suspensión en un control antidopaje, salvaguardando su salud de base.
 
 **Autoinformación (broadcast)**
 : En aeródromos no controlados, cada piloto transmite voluntariamente su posición, altitud e intenciones en la frecuencia del aeródromo. No hay interlocutor que emita autorizaciones: la separación depende de todos los pilotos en la frecuencia.
@@ -212,9 +212,6 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 **Cizalladura (wind shear)**
 : Variación brusca de la velocidad y/o dirección del viento en una distancia corta, tanto en el plano horizontal como vertical. Especialmente peligrosa en la aproximación final, donde puede provocar una pérdida súbita de sustentación por caída de la velocidad indicada.
 
-**CoA (Certificado de Aeronavegabilidad)**
-: Documento que certifica que una aeronave se ajusta al diseño aprobado y se considera apta para el vuelo mientras se mantenga aeronavegable y cumpla los requisitos aplicables.
-
 **CofA (Certificado de Aeronavegabilidad / Certificate of Airworthiness)**
 : Documento que certifica que una aeronave se ajusta al diseño aprobado y se considera apta para el vuelo mientras se mantenga aeronavegable y cumpla los requisitos aplicables.
 
@@ -285,7 +282,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Sistema geodésico de referencia mundial sobre el que el GNSS y la cartografía expresan las coordenadas. Configurar el receptor en un datum distinto puede desplazar la posición mostrada varios cientos de metros.
 
 **DECIDE**
-: Modelo estandarizado para la toma de decisiones aeronáuticas: Detectar, Estudiar, Considerar, Implementar, Determinar y Evaluar.
+: Modelo estandarizado para la toma de decisiones aeronáuticas, en seis pasos: **D**etect (detectar el cambio), **E**stimate (estimar si exige reacción), **C**hoose (elegir el resultado buscado), **I**dentify (identificar las acciones posibles), **D**o (ejecutar la elegida) y **E**valuate (evaluar su efecto).
 
 **Deriva**
 : Desviación lateral de la trayectoria del planeador respecto al suelo provocada por el viento de costado (en navegación). En aerodinámica, se refiere a la superficie fija vertical de la cola (estabilizador vertical) que aporta estabilidad de guiñada.
@@ -510,7 +507,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Reglas aplicables a los vuelos operados conforme al régimen de vuelo por instrumentos.
 
 **IGC (Registrador de vuelo / Logger)**
-: Dispositivo electrónico, certificado por la _International Gliding Commission_ (Comisión Internacional de Vuelo a Vela), que graba la traza GPS, la altitud de presión barométrica y una firma digital en un archivo `.igc` infalsificable, probando el paso por los puntos de viraje para validar récords y medallas FAI.
+: Dispositivo electrónico, certificado por la _International Gliding Commission_ (Comisión Internacional de Vuelo a Vela), que graba la traza GPS, la altitud de presión barométrica y una firma digital en un archivo `.igc` que hace detectable cualquier manipulación, probando el paso por los puntos de viraje para validar récords y medallas FAI.
 
 **IMSAFE**
 : Acrónimo nemotécnico de autoevaluación psicofísica recomendado antes de cada vuelo: Illness (Enfermedad), Medication (Medicación), Stress (Estrés), Alcohol (Alcohol), Fatigue (Fatiga) y Eating (Alimentación).
@@ -585,7 +582,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Gran volumen de aire troposférico con propiedades físicas (temperatura y humedad) horizontalmente homogéneas adquiridas en su zona de origen. Su temperatura relativa respecto al suelo que sobrevuela determina si la atmósfera es inestable (aire frío sobre suelo caliente) o estable (aire cálido sobre suelo frío).
 
 **MAYDAY**
-: Señal internacional de socorro por radio, repetida tres veces. Se usa solo cuando hay peligro grave e inminente y se necesita asistencia inmediata. Impone silencio de radio absoluto en la frecuencia a todas las estaciones no implicadas. Usarlo de forma falsa o maliciosa es una infracción muy grave según la normativa EASA.
+: Señal internacional de socorro por radio, repetida tres veces. Se usa solo cuando hay peligro grave e inminente y se necesita asistencia inmediata. Impone silencio de radio absoluto en la frecuencia a todas las estaciones no implicadas. Usarlo de forma falsa o maliciosa no lo sanciona EASA, sino la normativa nacional: en España, la Ley 21/2003 de Seguridad Aérea y, según el caso, el Código Penal.
 
 **MED (Part-MED)**
 : Subparte de la normativa europea (EASA) que estipula y rige exhaustivamente todas las condiciones fisiológicas y médicas que debe cumplir un piloto para mantener y ejercer las atribuciones de su licencia de vuelo.
@@ -627,7 +624,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Ver LCL. En terminología española, equivalente al LCL: la altura a la que se forma la base de los cúmulos. Estimación rápida: (T − Td) × 400 = altura en pies.
 
 **Niebla**
-: Suspensión de gotículas de agua microscópicas que reduce la visibilidad por debajo de 1.000 m. Invalida las operaciones VFR. Se distingue de la bruma (**mist**), que reduce la visibilidad entre 1.000 m y 5.000 m sin afectar el código CAVOK. En METAR se codifica como `FG` (niebla) o `BR` (bruma).
+: Suspensión de gotículas de agua microscópicas que reduce la visibilidad por debajo de 1.000 m. Invalida las operaciones VFR. Se distingue de la bruma (**mist**), que reduce la visibilidad entre 1.000 m y 5.000 m y, por tanto, también impide el CAVOK, que exige 10 km o más. En METAR se codifica como `FG` (niebla) o `BR` (bruma).
 
 **Niebla de advección**
 : Niebla que se forma cuando una masa de aire cálido y húmedo se desplaza horizontalmente sobre una superficie más fría (mar frío, valle nevado o costa), que enfría su base hasta la saturación. A diferencia de la de radiación, no depende del enfriamiento nocturno y puede persistir día y noche mientras dure el flujo.
@@ -735,7 +732,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Aproximación de cálculo mental: desviarse 1 NM de la ruta tras volar 60 NM equivale a un error de rumbo de 1º. Sirve para corregir el rumbo sobre la marcha.
 
 **Resbale lateral (Sideslip)**
-: Maniobra aerodinámica coordinada de forma cruzada (alerón a un lado, pedal al opuesto) por la cual se presenta el fuselaje de lado a la corriente libre, generando un incremento drástico de la resistencia aerodinámica que incrementa la tasa de descenso sin aumentar la velocidad.
+: Maniobra deliberadamente descoordinada, con los mandos cruzados (alerón a un lado, pedal al opuesto), por la cual se presenta el fuselaje de lado a la corriente libre, generando un incremento drástico de la resistencia aerodinámica que incrementa la tasa de descenso sin aumentar la velocidad.
 
 **Resistencia inducida**
 : Componente de la resistencia aerodinámica que es subproducto directo de generar sustentación. Las diferencias de presión entre extradós e intradós hacen que el aire fluya alrededor de las puntas del ala formando torbellinos helicoidales que inclinan el vector de sustentación hacia atrás, creando una fuerza opuesta al avance. Es máxima a velocidades bajas; disminuye al aumentar la velocidad. Las alas de gran envergadura (alta relación de aspecto) la reducen notablemente.
@@ -777,7 +774,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Marco normativo europeo (EASA) que regula las licencias, el programa de estudios y la instrucción de vuelo para pilotos de planeador (SPL).
 
 **SHELL**
-: Modelo conceptual desarrollado por la OACI interconectando de forma unificada y armónica todos los vértices relativos al operador: **Software** (Procedimientos normativos), **Hardware** (La Aeronave), **Environment** (El Entorno físico), **Liveware** interior y **Liveware** externo (El piloto con respecto a otras personas).
+: Modelo conceptual propuesto por Edwards en 1972 como SHEL y completado por Hawkins en 1975, que la OACI adoptó y difundió. Interconecta de forma unificada y armónica todos los vértices relativos al operador: **Software** (Procedimientos normativos), **Hardware** (La Aeronave), **Environment** (El Entorno físico), **Liveware** interior y **Liveware** externo (El piloto con respecto a otras personas).
 
 **SIGMET (Significant Meteorological Information)**
 : Mensaje de alerta que informa a las tripulaciones de fenómenos meteorológicos en ruta de gran relevancia para la seguridad: engelamiento severo (`SEV ICE`), turbulencia severa (`SEV TURB`), actividad de cenizas volcánicas o ciclones tropicales.

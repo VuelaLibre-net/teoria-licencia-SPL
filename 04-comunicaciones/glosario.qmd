@@ -45,7 +45,7 @@ Acrónimos y términos técnicos de comunicaciones aeronáuticas para la licenci
 : Maniobra por la que una aeronave militar identifica a una aeronave civil y le da instrucciones mediante señales visuales o radio, regulada por SERA.11015. La aeronave interceptada debe seguir las instrucciones visuales del interceptor, notificarlo al ATS si es posible, intentar contacto en 121,5 MHz y seleccionar 7700 en el transpondedor; las instrucciones del interceptor prevalecen sobre las de cualquier otra fuente mientras se solicita aclaración.
 
 **MAYDAY**
-: Señal internacional de socorro por radio, repetida tres veces. Se usa solo cuando hay peligro grave e inminente y se necesita asistencia inmediata. Impone silencio de radio absoluto en la frecuencia a todas las estaciones no implicadas. Usarlo de forma falsa o maliciosa es una infracción muy grave según la normativa EASA.
+: Señal internacional de socorro por radio, repetida tres veces. Se usa solo cuando hay peligro grave e inminente y se necesita asistencia inmediata. Impone silencio de radio absoluto en la frecuencia a todas las estaciones no implicadas. Usarlo de forma falsa o maliciosa no lo sanciona EASA, sino la normativa nacional: en España, la Ley 21/2003 de Seguridad Aérea y, según el caso, el Código Penal.
 
 **METAR (Meteorological Aerodrome Report)**
 : Informe meteorológico observacional codificado de un aeródromo que se emite a intervalos regulares (30 o 60 minutos), reportando viento, visibilidad, nubes, temperatura, punto de rocío y presión.

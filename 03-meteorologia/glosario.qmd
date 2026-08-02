@@ -138,7 +138,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes de la meteo
 : Ver LCL. En terminología española, equivalente al LCL: la altura a la que se forma la base de los cúmulos. Estimación rápida: (T − Td) × 400 = altura en pies.
 
 **Niebla**
-: Suspensión de gotículas de agua microscópicas que reduce la visibilidad por debajo de 1.000 m. Invalida las operaciones VFR. Se distingue de la bruma (**mist**), que reduce la visibilidad entre 1.000 m y 5.000 m sin afectar el código CAVOK. En METAR se codifica como `FG` (niebla) o `BR` (bruma).
+: Suspensión de gotículas de agua microscópicas que reduce la visibilidad por debajo de 1.000 m. Invalida las operaciones VFR. Se distingue de la bruma (**mist**), que reduce la visibilidad entre 1.000 m y 5.000 m y, por tanto, también impide el CAVOK, que exige 10 km o más. En METAR se codifica como `FG` (niebla) o `BR` (bruma).
 
 **Niebla de radiación**
 : Niebla que se forma durante las noches despejadas de otoño e invierno cuando el suelo pierde calor por radiación hacia el espacio, enfría el aire en contacto hasta el punto de rocío y produce condensación. Puede ser muy densa y persistir hasta mediados de la mañana. Especialmente frecuente en anticiclones invernales con vientos flojos.

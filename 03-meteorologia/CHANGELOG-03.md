@@ -24,6 +24,10 @@ rompe la compilación.
 
 * **Glosario, entradas «Hipoxia» e «IAS»** — se unifican con las de los libros que también las definen, para que el manual completo no tenga que elegir entre versiones distintas del mismo término. «Hipoxia» gana los cuatro tipos que sólo estaban en el libro 02; «IAS» gana el encadenado IAS → TAS → GS que sólo estaba en el libro 09. Nada de lo que ya decían cambia.
 
+### Corregido
+
+* **Glosario, entrada «Niebla»** — decía que la bruma reduce la visibilidad a entre 1.000 y 5.000 m «sin afectar el código CAVOK». Es al revés: CAVOK exige 10 km o más, así que con bruma no puede haberlo.
+
 ### Maqueta y producción
 
 * **cap09, engelamiento** — el recuadro de Seguridad dice «bataneo» y no «buffet», que es el término que usan el capítulo de pérdida del libro 05 y el glosario. Se redacta además «muy por encima de la velocidad habitual» en lugar de «a velocidades muy superiores a las habituales». El aviso no cambia.
