@@ -16,6 +16,10 @@ rompe la compilación.
 
 ## [En curso]
 
+### Maqueta y producción
+
+* **cap04, hilo de lana** — la figura pasa de tres paneles apilados a tres paneles en fila, y baja de 2,7 MB a 1,3 MB. El pie decía «de arriba abajo» y ahora dice «de izquierda a derecha»; el orden de los estados —resbale, coordinado, derrape— no cambia, y cada panel sigue rotulado dentro de la propia ilustración.
+
 ## [1.0-rc.6] — 31 de julio de 2026
 
 ### Maqueta y producción
