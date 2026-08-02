@@ -16,6 +16,10 @@ rompe la compilación.
 
 ## [En curso]
 
+### Maqueta y producción
+
+* **cap09, engelamiento** — el recuadro de Seguridad dice «bataneo» y no «buffet», que es el término que usan el capítulo de pérdida del libro 05 y el glosario. Se redacta además «muy por encima de la velocidad habitual» en lugar de «a velocidades muy superiores a las habituales». El aviso no cambia.
+
 ## [1.0-rc.13] — 31 de julio de 2026
 
 **Qué releer:** **cap09, ciclo de vida de la célula tormentosa.** La figura que acompaña al apartado era un boceto provisional —llevaba impreso «MOCKUP — ToDo: crear ilustración final»— y se ha publicado así en varias versiones. Ya es una ilustración de verdad. El texto de las tres fases no cambia; lo que cambia es que ahora la figura lo sostiene.
