@@ -5,8 +5,8 @@ Acrónimos y términos técnicos de comunicaciones aeronáuticas para la licenci
 **AFIL (Plan de vuelo presentado en vuelo / Airborne Flight Plan)**
 : Plan de vuelo presentado desde el aire, sin haberlo tramitado antes del despegue. El piloto contacta con la dependencia ATC o FIS durante el vuelo para dar los datos del plan y solicitar entrada en espacio controlado.
 
-**AFIS (Aerodrome Flight Information Service)**
-: Servicio de información de aeródromo. El operador AFIS da a los pilotos información sobre viento, pista en uso y tráfico conocido, pero no emite autorizaciones ni controla el tráfico. La separación sigue siendo responsabilidad del piloto al mando.
+**AFIS (Servicio de Información de Vuelo de Aeródromo / Aerodrome Flight Information Service)**
+: El operador AFIS da a los pilotos información sobre viento, pista en uso y tráfico conocido, pero no emite autorizaciones ni controla el tráfico. La separación sigue siendo responsabilidad del piloto al mando.
 
 **AIREP (Informe meteorológico en vuelo / Aircraft Report)**
 : Informe meteorológico oral que el piloto transmite por radio al FIS o ATC al encontrar condiciones peligrosas no pronosticadas: turbulencia fuerte, engelamiento severo, ondas orográficas intensas, tormentas o ceniza volcánica. Obligatorio conforme al Reglamento SERA y la normativa EASA Part-SAO.
@@ -50,7 +50,7 @@ Acrónimos y términos técnicos de comunicaciones aeronáuticas para la licenci
 **METAR (Meteorological Aerodrome Report)**
 : Informe meteorológico observacional codificado de un aeródromo que se emite a intervalos regulares (30 o 60 minutos), reportando viento, visibilidad, nubes, temperatura, punto de rocío y presión.
 
-**NORDO (No Radio)**
+**NORDO (Sin radio / No Radio)**
 : Situación en que una aeronave ha perdido todas las comunicaciones bidireccionales por radio. El procedimiento: seleccionar 7600 en el transpondedor, mantenerse en VMC, aterrizar en el aeródromo adecuado más cercano y notificar por teléfono al aterrizar.
 
 **OACI / ICAO (Organización de Aviación Civil Internacional / International Civil Aviation Organization)**

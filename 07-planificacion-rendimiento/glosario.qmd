@@ -8,7 +8,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes de planific
 **Carga alar (wing loading)**
 : Relación entre la masa total del planeador y la superficie de sus alas. Se expresa en kg/m² e influye directamente en las velocidades de crucero y de pérdida.
 
-**CG (Centro de gravedad)**
+**CG (Centro de gravedad / Center of Gravity)**
 : Punto teórico donde se considera aplicada la resultante de todas las fuerzas de gravedad que actúan sobre el planeador. Su ubicación longitudinal es clave para la estabilidad y el control del vuelo.
 
 **Coeficiente de planeo (fineza, L/D)**

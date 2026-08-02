@@ -26,7 +26,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Conocimi
 **Carga límite (Limit load)**
 : Carga máxima que la estructura puede soportar sin sufrir deformación permanente. Tras alcanzarla, la aeronave debe recuperar su forma original sin daños.
 
-**CG (Centro de gravedad)**
+**CG (Centro de gravedad / Center of Gravity)**
 : Punto teórico donde se considera aplicada la resultante de todas las fuerzas de gravedad que actúan sobre el planeador. Su ubicación longitudinal es clave para la estabilidad y el control del vuelo.
 
 **CofA (Certificado de Aeronavegabilidad / Certificate of Airworthiness)**
@@ -104,8 +104,8 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Conocimi
 **PCC (Comprobación de mandos positiva / Positive Control Check)**
 : Verificación obligatoria tras el montaje del planeador en la que un asistente sujeta físicamente cada superficie de mando en el exterior mientras el piloto acciona los controles en cabina para verificar la integridad y correcto sentido del movimiento.
 
-**PLB (Personal Locator Beacon)**
-: Baliza de localización personal portátil, de activación manual, que el piloto lleva consigo (bolsillo o arnés del paracaídas) y que transmite en 406 MHz a la red satelital de rescate.
+**PLB (Baliza de localización personal / Personal Locator Beacon)**
+: Baliza portátil de activación manual que el piloto lleva consigo (bolsillo o arnés del paracaídas) y que transmite en 406 MHz a la red satelital de rescate.
 
 **Poliuretano (PU)**
 : Sistema de pintura acrílica de poliuretano que sustituye cada vez más al gelcoat de poliéster en los veleros modernos. Se aplica en capa fina (menos peso) y es más elástico, así que resiste mucho mejor el craqueado por UV y conserva el brillo más años; a cambio, deja menos margen para reparar a base de lijar y pulir.

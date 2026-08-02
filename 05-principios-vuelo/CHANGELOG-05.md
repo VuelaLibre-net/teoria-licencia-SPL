@@ -22,6 +22,7 @@ rompe la compilación.
 * **Glosario, entrada «Curva polar»** — pasa a `Curva polar (polar de velocidades)`. El libro 07 llamaba «Polar de velocidades» a lo mismo y el manual completo publicaba las dos entradas; con el sinónimo en el rótulo, los dos libros comparten término.
 * **Glosario, entrada «Coeficiente de planeo»** — el rótulo pasa de `(L/D, *finesse*)` a `(fineza, L/D)`: *fineza* es la palabra castellana y es lo que el cuerpo del libro usa. La fineza es sinónimo del coeficiente de planeo, no de la curva polar.
 * **Glosario, introducción** — se retira la frase «Cada definición incluye una referencia al capítulo donde el concepto se trata en profundidad». Esas referencias se quitaron en la 0.8.6 y la promesa se había quedado huérfana. Era el único glosario de los nueve que la llevaba.
+* **Glosario, rótulo de `CG`** — añade el desarrollo inglés, que es de donde viene la sigla. Igual en los libros 07 y 08.
 
 ### Corregido
 

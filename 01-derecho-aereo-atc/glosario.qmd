@@ -191,7 +191,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes del marco n
 **LSA (Ley de Seguridad Aérea)**
 : Denominación abreviada de la Ley 21/2003, de 7 de julio, de Seguridad Aérea.
 
-**NOTAM (Notice to airmen)**
+**NOTAM (Notice to Airmen)**
 : Aviso distribuido por telecomunicaciones que contiene información aeronáutica cuyo conocimiento oportuno es esencial para las operaciones.
 
 **OACI / ICAO (Organización de Aviación Civil Internacional / International Civil Aviation Organization)**

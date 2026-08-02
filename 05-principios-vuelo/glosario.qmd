@@ -23,7 +23,7 @@ Este glosario recoge las definiciones y acrónimos esenciales de la aerodinámic
 **Centro de Presiones (CP)**
 : Punto de la cuerda aerodinámica donde se considera aplicado el vector resultante de la sustentación total del ala. No es fijo: se desplaza hacia adelante al aumentar el ángulo de ataque y hacia atrás al disminuirlo. Su movilidad obliga a situar el CG delante de su rango de movimiento para mantener la estabilidad longitudinal.
 
-**CG (Centro de gravedad)**
+**CG (Centro de gravedad / Center of Gravity)**
 : Punto teórico donde se considera aplicada la resultante de todas las fuerzas de gravedad que actúan sobre el planeador. Su ubicación longitudinal es clave para la estabilidad y el control del vuelo.
 
 **Coeficiente de planeo (fineza, L/D)**

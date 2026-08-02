@@ -22,6 +22,7 @@ rompe la compilación.
 * **Glosario, rótulos de `AD`, `AFM`, `CS-22`, `ELT` y `Part-ML`** — adoptan la forma completa del libro 01. Cuatro de ellos sólo llevaban el inglés o nada.
 * **Glosario, entrada «Aerofrenos», y encabezado de cap05** — pasan de `(spoilers)` a `(airbrakes)`. La definición explica ahora por qué: el spoiler estropea la sustentación desde el extradós, mientras que los aerofrenos de planeador salen por arriba y por abajo y añaden además resistencia. El contenido del apartado no cambia.
 * **Glosario, rótulos de `Carga alar`, `Lastre de agua`, `Lastre de cola` y `Transpondedor`** — misma forma que en los libros 06, 07 y 09.
+* **Glosario, rótulos de `CG` y `PLB`** — añaden el desarrollo español o inglés que les faltaba. `FES` se deja como está: es el nombre comercial de un sistema.
 
 ### Corregido
 

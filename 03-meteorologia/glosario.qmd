@@ -29,8 +29,8 @@ Este glosario contiene las definiciones y acrónimos más relevantes de la meteo
 **Brisa marina (sea breeze)**
 : Viento que sopla desde el mar hacia la tierra durante el día, originado por el calentamiento diferencial entre la superficie terrestre (que se calienta más rápido) y el mar. Al encontrarse con la masa cálida continental genera una línea de convergencia que puede explotarse como fuente de ascendencias para el cross-country.
 
-**CAPE (Convective Available Potential Energy)**
-: Energía Potencial Convectiva Disponible. Cuantifica la flotabilidad acumulada de una parcela de aire desde la superficie hasta el nivel de equilibrio. Se representa como el área entre la curva de la parcela y la curva de estado en el sondeo termodinámico. Valores orientativos: < 500 J/kg (día débil), 1.000–2.500 J/kg (excelente), > 3.500 J/kg (convección severa probable).
+**CAPE (Energía Potencial Convectiva Disponible / Convective Available Potential Energy)**
+: Cuantifica la flotabilidad acumulada de una parcela de aire desde la superficie hasta el nivel de equilibrio. Se representa como el área entre la curva de la parcela y la curva de estado en el sondeo termodinámico. Valores orientativos: < 500 J/kg (día débil), 1.000–2.500 J/kg (excelente), > 3.500 J/kg (convección severa probable).
 
 **CAVOK (Visibilidad, nubes y tiempo presente mejores que los valores o condiciones prescritos)**
 : Término de los informes meteorológicos que sustituye determinados datos de visibilidad, tiempo presente y nubes cuando se cumplen simultáneamente las condiciones establecidas: visibilidad de 10 km o más, sin nubes por debajo de 5.000 ft ni cumulonimbus, y sin tiempo significativo. El rótulo es el de OACI; en el club se oye el retroacrónimo *Ceiling And Visibility OK*, que no es la denominación oficial.
@@ -50,8 +50,8 @@ Este glosario contiene las definiciones y acrónimos más relevantes de la meteo
 **Cumulonimbus (Cb)**
 : Nube de desarrollo vertical extremo que puede alcanzar la tropopausa. Representa el peligro meteorológico más grave para la aviación ligera: turbulencia severa, granizo, rayos, lluvia torrencial y microbursts. La distancia de seguridad recomendada es de al menos 10–20 NM.
 
-**DALR (Dry Adiabatic Lapse Rate)**
-: Gradiente Adiabático Seco. Ritmo al que se enfría una parcela de aire sin saturar al ascender adiabáticamente: 3 °C por cada 1.000 ft. Es la clave del efecto Foehn en sotavento y de la fórmula de base de nubes.
+**DALR (Gradiente Adiabático Seco / Dry Adiabatic Lapse Rate)**
+: Ritmo al que se enfría una parcela de aire sin saturar al ascender adiabáticamente: 3 °C por cada 1.000 ft. Es la clave del efecto Foehn en sotavento y de la fórmula de base de nubes.
 
 **DANA (Depresión Aislada en Niveles Altos)**
 : Sistema de baja presión que se desprende de la circulación general y queda aislado en altura sobre la Península Ibérica, especialmente en otoño. Genera precipitaciones intensas y tormentas severas que pueden durar días. Especialmente relevante en el área mediterránea.
@@ -158,14 +158,14 @@ Este glosario contiene las definiciones y acrónimos más relevantes de la meteo
 **Rotor**
 : Vórtice turbulento de pequeña escala que se forma a sotavento del pie de una ladera o cordillera bajo la primera cresta de la onda de montaña. Genera turbulencia severa e impredecible a baja altura. Las nubes de rotor (**rotor clouds**) son estratos irregulares bajo la onda que señalan esta zona peligrosa.
 
-**SALR (Saturated Adiabatic Lapse Rate)**
-: Gradiente Adiabático Saturado. Ritmo al que se enfría una parcela de aire saturada (en formación de nube) al ascender adiabáticamente: aproximadamente 1,5 °C por cada 1.000 ft. Es menor que el DALR porque la condensación libera calor latente que "frena" el enfriamiento.
+**SALR (Gradiente Adiabático Saturado / Saturated Adiabatic Lapse Rate)**
+: Ritmo al que se enfría una parcela de aire saturada (en formación de nube) al ascender adiabáticamente: aproximadamente 1,5 °C por cada 1.000 ft. Es menor que el DALR porque la condensación libera calor latente que "frena" el enfriamiento.
 
 **SIGMET (Significant Meteorological Information)**
 : Mensaje de alerta que informa a las tripulaciones de fenómenos meteorológicos en ruta de gran relevancia para la seguridad: engelamiento severo (`SEV ICE`), turbulencia severa (`SEV TURB`), actividad de cenizas volcánicas o ciclones tropicales.
 
-**SIGWX (Significant Weather Chart)**
-: Mapa de Tiempo Significativo. Pronóstico a escala sinóptica que muestra la distribución de sistemas frontales, zonas de turbulencia e engelamiento, y otras áreas de meteorología significativa en una región geográfica. Imprescindible para la planificación de vuelos de distancia.
+**SIGWX (Mapa de Tiempo Significativo / Significant Weather Chart)**
+: Pronóstico a escala sinóptica que muestra la distribución de sistemas frontales, zonas de turbulencia e engelamiento, y otras áreas de meteorología significativa en una región geográfica. Imprescindible para la planificación de vuelos de distancia.
 
 **Sondeo termodinámico (Skew-T / Stüve)**
 : Diagrama que representa el perfil vertical de temperatura, temperatura del punto de rocío y viento en la atmósfera, obtenido mediante radiosondeo. Permite al piloto estimar la altura de las bases de cúmulos (LCL), el techo térmico, el riesgo de sobredesarrollo (LFC) y los índices de estabilidad (K-Index, CAPE, LI).

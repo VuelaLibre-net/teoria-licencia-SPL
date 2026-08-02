@@ -8,8 +8,8 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 **AD (Directiva de Aeronavegabilidad / Airworthiness Directive; Aeródromos)**
 : Abreviatura dependiente del contexto: una directiva de aeronavegabilidad es un requisito obligatorio para corregir una condición insegura; AD también identifica la sección de aeródromos del AIP.
 
-**ADM (Aeronautical Decision-Making)**
-: Toma de decisiones aeronáuticas. Proceso mental sistemático (por ejemplo, mediante el modelo DECIDE) empleado por el piloto para elegir la opción más segura como respuesta a un conjunto de circunstancias.
+**ADM (Toma de decisiones aeronáuticas / Aeronautical Decision-Making)**
+: Proceso mental sistemático (por ejemplo, mediante el modelo DECIDE) empleado por el piloto para elegir la opción más segura como respuesta a un conjunto de circunstancias.
 
 **Aerofrenos (airbrakes)**
 : Superficies móviles situadas generalmente en el extradós alar, accionadas por el piloto, cuya función es destruir la sustentación y aumentar la resistencia aerodinámica para controlar la senda de aproximación. Se les llama coloquialmente *spoilers*, pero el spoiler propiamente dicho sólo estropea la sustentación desde el extradós; los aerofrenos de planeador, del tipo Schempp-Hirth, salen por arriba y por abajo y añaden además resistencia.
@@ -23,8 +23,8 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 **AFIL (Plan de vuelo presentado en vuelo / Airborne Flight Plan)**
 : Plan de vuelo presentado desde el aire, sin haberlo tramitado antes del despegue. El piloto contacta con la dependencia ATC o FIS durante el vuelo para dar los datos del plan y solicitar entrada en espacio controlado.
 
-**AFIS (Aerodrome Flight Information Service)**
-: Servicio de información de aeródromo. El operador AFIS da a los pilotos información sobre viento, pista en uso y tráfico conocido, pero no emite autorizaciones ni controla el tráfico. La separación sigue siendo responsabilidad del piloto al mando.
+**AFIS (Servicio de Información de Vuelo de Aeródromo / Aerodrome Flight Information Service)**
+: El operador AFIS da a los pilotos información sobre viento, pista en uso y tráfico conocido, pero no emite autorizaciones ni controla el tráfico. La separación sigue siendo responsabilidad del piloto al mando.
 
 **AFM (Manual de Vuelo de la Aeronave / Aircraft Flight Manual)**
 : Documento aprobado que contiene las limitaciones, los procedimientos y los datos necesarios para operar la aeronave.
@@ -62,7 +62,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 **Altura de decisión**
 : Límite de altura preestablecido sobre el terreno por debajo del cual el piloto abandona la búsqueda de térmicas y se centra exclusivamente en el aterrizaje. En travesía se aplica como escalera: a 600 metros se elige la zona de aterrizaje, a 450 metros el campo definitivo y a 300 metros el piloto se compromete con el circuito. No confundir con la *decision height* (DH) de la aviación instrumental, que es la altura a la que hay que iniciar el motor y al aire si no se tiene referencia visual: aquí no hay aproximación por instrumentos ni frustrada posible.
 
-**AMA (Altitud Mínima de Área)**
+**AMA (Altitud Mínima de Área / Area Minimum Altitude)**
 : Cifra impresa en cada cuadrícula de la carta (paralelos y meridianos cada 30') que indica una altitud de seguridad sobre el obstáculo más alto del recuadro, con un margen mínimo de 1000 ft (2000 ft en alta montaña). Se lee como millares y centenares de pies.
 
 **AMC (Medios Aceptables de Cumplimiento / Acceptable Means of Compliance)**
@@ -122,8 +122,8 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 **ATZ (Zona de tránsito de aeródromo / Aerodrome Traffic Zone)**
 : Espacio aéreo de dimensiones definidas establecido alrededor de un aeródromo para la protección de su tránsito.
 
-**AUT / TUE (Autorización de Uso Terapéutico)**
-: **Therapeutic Use Exemption**. Permiso oficial que conceden las organizaciones nacionales antidopaje y las federaciones internacionales —no la propia WADA, que fija el estándar y revisa las concesiones— y que permite a un piloto de competición utilizar una medicación específica que normalmente requeriría su suspensión en un control antidopaje, salvaguardando su salud de base.
+**AUT / TUE (Autorización de Uso Terapéutico / Therapeutic Use Exemption)**
+: Permiso oficial que conceden las organizaciones nacionales antidopaje y las federaciones internacionales —no la propia WADA, que fija el estándar y revisa las concesiones— y que permite a un piloto de competición utilizar una medicación específica que normalmente requeriría su suspensión en un control antidopaje, salvaguardando su salud de base.
 
 **Autoinformación (broadcast)**
 : En aeródromos no controlados, cada piloto transmite voluntariamente su posición, altitud e intenciones en la frecuencia del aeródromo. No hay interlocutor que emita autorizaciones: la separación depende de todos los pilotos en la frecuencia.
@@ -176,8 +176,8 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 **Capa límite**
 : Delgada capa de aire que fluye directamente en contacto con la superficie del ala, donde la velocidad cae gradualmente desde la del flujo libre hasta cero en la superficie sólida. Puede ser **laminar** (flujo ordenado, mínima resistencia) o **turbulenta** (flujo caótico, mayor resistencia). El punto de transición entre ambos regímenes determina el rendimiento del perfil: unos pocos mosquitos aplastados en el borde de ataque pueden adelantarla y degradar el planeo de forma medible.
 
-**CAPE (Convective Available Potential Energy)**
-: Energía Potencial Convectiva Disponible. Cuantifica la flotabilidad acumulada de una parcela de aire desde la superficie hasta el nivel de equilibrio. Se representa como el área entre la curva de la parcela y la curva de estado en el sondeo termodinámico. Valores orientativos: < 500 J/kg (día débil), 1.000–2.500 J/kg (excelente), > 3.500 J/kg (convección severa probable).
+**CAPE (Energía Potencial Convectiva Disponible / Convective Available Potential Energy)**
+: Cuantifica la flotabilidad acumulada de una parcela de aire desde la superficie hasta el nivel de equilibrio. Se representa como el área entre la curva de la parcela y la curva de estado en el sondeo termodinámico. Valores orientativos: < 500 J/kg (día débil), 1.000–2.500 J/kg (excelente), > 3.500 J/kg (convección severa probable).
 
 **Carga alar (wing loading)**
 : Relación entre la masa total del planeador y la superficie de sus alas. Se expresa en kg/m² e influye directamente en las velocidades de crucero y de pérdida.
@@ -200,7 +200,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 **Centro de Presiones (CP)**
 : Punto de la cuerda aerodinámica donde se considera aplicado el vector resultante de la sustentación total del ala. No es fijo: se desplaza hacia adelante al aumentar el ángulo de ataque y hacia atrás al disminuirlo. Su movilidad obliga a situar el CG delante de su rango de movimiento para mantener la estabilidad longitudinal.
 
-**CG (Centro de gravedad)**
+**CG (Centro de gravedad / Center of Gravity)**
 : Punto teórico donde se considera aplicada la resultante de todas las fuerzas de gravedad que actúan sobre el planeador. Su ubicación longitudinal es clave para la estabilidad y el control del vuelo.
 
 **CIAIAC (Comisión de Investigación de Accidentes e Incidentes de Aviación Civil)**
@@ -281,8 +281,8 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 **Curva polar (polar de velocidades)**
 : Gráfica característica de cada modelo de planeador que relaciona la velocidad horizontal indicada (eje X, en km/h) con la tasa de descenso vertical (eje Y, en m/s) en condiciones de aire en calma. De ella se extraen la velocidad de mínimo descenso (vértice superior) y la velocidad de mejor planeo (tangente desde el origen). Es el "DNI" del planeador y la referencia para adaptar la velocidad al viento y a las zonas de ascenso o descenso.
 
-**DALR (Dry Adiabatic Lapse Rate)**
-: Gradiente Adiabático Seco. Ritmo al que se enfría una parcela de aire sin saturar al ascender adiabáticamente: 3 °C por cada 1.000 ft. Es la clave del efecto Foehn en sotavento y de la fórmula de base de nubes.
+**DALR (Gradiente Adiabático Seco / Dry Adiabatic Lapse Rate)**
+: Ritmo al que se enfría una parcela de aire sin saturar al ascender adiabáticamente: 3 °C por cada 1.000 ft. Es la clave del efecto Foehn en sotavento y de la fórmula de base de nubes.
 
 **DANA (Depresión Aislada en Niveles Altos)**
 : Sistema de baja presión que se desprende de la circulación general y queda aislado en altura sobre la Península Ibérica, especialmente en otoño. Genera precipitaciones intensas y tormentas severas que pueden durar días. Especialmente relevante en el área mediterránea.
@@ -323,7 +323,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 **DME (Equipo Radiotelemétrico / Distance Measuring Equipment)**
 : Radioayuda que permite a una aeronave determinar la distancia oblicua respecto de una estación terrestre.
 
-**DOP (Dilución de la precisión)**
+**DOP (Dilución de la precisión / Dilution of Precision)**
 : Degradación de la precisión del GNSS debida a la geometría de los satélites visibles: cuando están mal repartidos en el cielo, la posición calculada es menos precisa.
 
 **Dorsal (cuña de altas presiones / ridge)**
@@ -482,13 +482,13 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 **GM (Material Guía / Guidance Material)**
 : Material explicativo no vinculante que ayuda a interpretar los requisitos y los medios aceptables de cumplimiento.
 
-**GNSS (Sistema Global de Navegación por Satélite)**
+**GNSS (Sistema Global de Navegación por Satélite / Global Navigation Satellite System)**
 : Término genérico para los sistemas de posicionamiento por satélite (GPS, Galileo, GLONASS, BeiDou). Necesita captar al menos cuatro satélites para una posición tridimensional.
 
 **Gotículas superenfriadas**
 : Gotículas de agua líquida que permanecen en estado líquido a temperaturas por debajo de 0 °C (hasta −40 °C). Son inestables: al impactar con cualquier superficie sólida se congelan casi instantáneamente. Son la causa principal del engelamiento en vuelo.
 
-**GPS (Global Positioning System)**
+**GPS (Sistema de Posicionamiento Global / Global Positioning System)**
 : Sistema de posicionamiento por satélite original, operado por Estados Unidos. Es la constelación más conocida dentro del GNSS.
 
 **Granizo (GR)**
@@ -596,9 +596,6 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 **MAYDAY**
 : Señal internacional de socorro por radio, repetida tres veces. Se usa solo cuando hay peligro grave e inminente y se necesita asistencia inmediata. Impone silencio de radio absoluto en la frecuencia a todas las estaciones no implicadas. Usarlo de forma falsa o maliciosa no lo sanciona EASA, sino la normativa nacional: en España, la Ley 21/2003 de Seguridad Aérea y, según el caso, el Código Penal.
 
-**MED (Part-MED)**
-: Subparte de la normativa europea (EASA) que estipula y rige exhaustivamente todas las condiciones fisiológicas y médicas que debe cumplir un piloto para mantener y ejercer las atribuciones de su licencia de vuelo.
-
 **METAR (Meteorological Aerodrome Report)**
 : Informe meteorológico observacional codificado de un aeródromo que se emite a intervalos regulares (30 o 60 minutos), reportando viento, visibilidad, nubes, temperatura, punto de rocío y presión.
 
@@ -644,7 +641,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 **Niebla de radiación**
 : Niebla que se forma durante las noches despejadas de otoño e invierno cuando el suelo pierde calor por radiación hacia el espacio, enfría el aire en contacto hasta el punto de rocío y produce condensación. Puede ser muy densa y persistir hasta mediados de la mañana. Especialmente frecuente en anticiclones invernales con vientos flojos.
 
-**NORDO (No Radio)**
+**NORDO (Sin radio / No Radio)**
 : Situación en que una aeronave ha perdido todas las comunicaciones bidireccionales por radio. El procedimiento: seleccionar 7600 en el transpondedor, mantenerse en VMC, aterrizar en el aeródromo adecuado más cercano y notificar por teléfono al aterrizar.
 
 **Norte magnético**
@@ -653,7 +650,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 **Norte verdadero (Geográfico)**
 : Punto por el que pasa el eje de rotación de la Tierra. Es el norte de referencia de los mapas y las cartas aeronáuticas.
 
-**NOTAM (Notice to airmen)**
+**NOTAM (Notice to Airmen)**
 : Aviso distribuido por telecomunicaciones que contiene información aeronáutica cuyo conocimiento oportuno es esencial para las operaciones.
 
 **NSC (No Significant Clouds)**
@@ -686,6 +683,9 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 **Paracaídas de emergencia**
 : Dispositivo individual de salvamento de accionamiento manual que el piloto de planeador lleva integrado como respaldo obligatorio o recomendado en el cockpit.
 
+**Part-MED (Requisitos médicos aeronáuticos)**
+: Anexo IV del Reglamento (UE) n.º 1178/2011, que fija las condiciones médicas exigibles a las tripulaciones de vuelo y el régimen de los certificados médicos. Para la SPL basta el certificado médico LAPL.
+
 **Part-ML (Parte de mantenimiento de aeronaves ligeras)**
 : Parte del régimen europeo de aeronavegabilidad continuada aplicable a aeronaves ligeras, incluidos muchos planeadores.
 
@@ -704,8 +704,8 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 **PIC (Piloto al mando / Pilot in Command)**
 : Piloto designado para el mando y encargado de la realización segura del vuelo.
 
-**PLB (Personal Locator Beacon)**
-: Baliza de localización personal portátil, de activación manual, que el piloto lleva consigo (bolsillo o arnés del paracaídas) y que transmite en 406 MHz a la red satelital de rescate.
+**PLB (Baliza de localización personal / Personal Locator Beacon)**
+: Baliza portátil de activación manual que el piloto lleva consigo (bolsillo o arnés del paracaídas) y que transmite en 406 MHz a la red satelital de rescate.
 
 **Poliuretano (PU)**
 : Sistema de pintura acrílica de poliuretano que sustituye cada vez más al gelcoat de poliéster en los veleros modernos. Se aplica en capa fina (menos peso) y es más elástico, así que resiste mucho mejor el craqueado por UV y conserva el brillo más años; a cambio, deja menos margen para reparar a base de lijar y pulir.
@@ -761,10 +761,10 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 **RSC (Subcentro de Salvamento / Rescue Sub-Centre)**
 : Dependencia subordinada a un RCC que coordina operaciones de búsqueda y salvamento en una parte de su región.
 
-**SALR (Saturated Adiabatic Lapse Rate)**
-: Gradiente Adiabático Saturado. Ritmo al que se enfría una parcela de aire saturada (en formación de nube) al ascender adiabáticamente: aproximadamente 1,5 °C por cada 1.000 ft. Es menor que el DALR porque la condensación libera calor latente que "frena" el enfriamiento.
+**SALR (Gradiente Adiabático Saturado / Saturated Adiabatic Lapse Rate)**
+: Ritmo al que se enfría una parcela de aire saturada (en formación de nube) al ascender adiabáticamente: aproximadamente 1,5 °C por cada 1.000 ft. Es menor que el DALR porque la condensación libera calor latente que "frena" el enfriamiento.
 
-**SAO (Sailplane Air Operations)**
+**SAO (Operaciones de Planeadores / Sailplane Air Operations)**
 : Normativa operativa específica de EASA para planeadores, en el anexo II del Reglamento (UE) 2018/1976. Sus reglas son de criterio antes que de umbral: **SAO.OP.150** obliga al piloto al mando a garantizar que todos los ocupantes usen oxígeno suplementario cuando determine que, a la altitud prevista, su falta puede mermarles las facultades. El Reglamento no fija ninguna cifra; los **10.000 ft** salen del **AMC1 SAO.OP.150**, y sólo como regla por defecto para cuando el piloto no pueda hacer esa valoración.
 
 **SAR (Búsqueda y salvamento / Search and Rescue)**
@@ -779,7 +779,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 **SERA (Reglas Europeas Estandarizadas del Aire / Standardised European Rules of the Air)**
 : Reglas del aire comunes establecidas por el Reglamento de Ejecución (UE) n.º 923/2012.
 
-**SFCL (Sailplane Flight Crew Licensing)**
+**SFCL (Licencias de Tripulación de Vuelo de Planeadores / Sailplane Flight Crew Licensing)**
 : Marco normativo europeo (EASA) que regula las licencias, el programa de estudios y la instrucción de vuelo para pilotos de planeador (SPL).
 
 **SHELL**
@@ -788,8 +788,8 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 **SIGMET (Significant Meteorological Information)**
 : Mensaje de alerta que informa a las tripulaciones de fenómenos meteorológicos en ruta de gran relevancia para la seguridad: engelamiento severo (`SEV ICE`), turbulencia severa (`SEV TURB`), actividad de cenizas volcánicas o ciclones tropicales.
 
-**SIGWX (Significant Weather Chart)**
-: Mapa de Tiempo Significativo. Pronóstico a escala sinóptica que muestra la distribución de sistemas frontales, zonas de turbulencia e engelamiento, y otras áreas de meteorología significativa en una región geográfica. Imprescindible para la planificación de vuelos de distancia.
+**SIGWX (Mapa de Tiempo Significativo / Significant Weather Chart)**
+: Pronóstico a escala sinóptica que muestra la distribución de sistemas frontales, zonas de turbulencia e engelamiento, y otras áreas de meteorología significativa en una región geográfica. Imprescindible para la planificación de vuelos de distancia.
 
 **Sistema pitot-estática**
 : Conjunto de tomas de presión que alimenta los instrumentos básicos: el tubo Pitot mide la presión total (estática + dinámica) y las tomas estáticas, la presión ambiental. Su bloqueo (insectos, agua, hielo) deja al piloto sin indicación de velocidad y altura.
@@ -809,8 +809,8 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 **Squawk**
 : Código de cuatro dígitos en base octal (0–7) que el transpondedor emite al ser interrogado por el radar secundario (SSR), permitiendo al controlador identificar la aeronave en pantalla. Código VFR estándar en Europa: 7000. Los códigos 7700 (emergencia), 7600 (fallo de radio, NORDO) y 7500 (interferencia ilícita) son de uso exclusivo en esas situaciones.
 
-**SRM (Single-Pilot Resource Management)**
-: Gestión de recursos para pilotos solitarios. Habilidad para administrar todos los recursos disponibles (instrumentos, ATC, listas de chequeo) para operar de forma segura, reduciendo la carga de trabajo y minimizando el riesgo de errores sistemáticos.
+**SRM (Gestión de recursos del piloto único / Single-Pilot Resource Management)**
+: Habilidad para administrar todos los recursos disponibles (instrumentos, ATC, listas de chequeo) para operar de forma segura, reduciendo la carga de trabajo y minimizando el riesgo de errores sistemáticos.
 
 **SSR (Radar Secundario de Vigilancia / Secondary Surveillance Radar)**
 : Radar que interroga a los transpondedores a bordo y obtiene información codificada: código **squawk** (Modo A), altitud barométrica (Modo C) e identidad extendida (Modo S). Complementa al radar primario añadiendo en pantalla la etiqueta con número de vuelo y altitud.
@@ -884,8 +884,8 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 **TSA (Área temporalmente segregada / Temporary Segregated Area)**
 : Volumen de espacio aéreo reservado temporalmente y segregado del resto del tránsito mientras está activo.
 
-**TUC (Time of Useful Consciousness)**
-: Tiempo útil de conciencia. Intervalo crítico en el que el piloto retiene sus capacidades cognitivas y motoras para tomar medidas correctivas tras una interrupción del suministro de oxígeno a gran altitud. Se reduce rápidamente a mayor altura.
+**TUC (Tiempo útil de conciencia / Time of Useful Consciousness)**
+: Intervalo crítico en el que el piloto retiene sus capacidades cognitivas y motoras para tomar medidas correctivas tras una interrupción del suministro de oxígeno a gran altitud. Se reduce rápidamente a mayor altura.
 
 **Turbulencia de estela (wake turbulence)**
 : Vórtices tubulares contrarrotantes generados por el paso de aeronaves de ala fija al producir sustentación, o por el flujo y vórtices de rotor de los helicópteros. Descienden lentamente y persisten varios minutos después del paso de la aeronave. Cruzarlos perpendicularmente puede inducir un momento de balanceo que supere los alerones del planeador. La separación mínima recomendada es de al menos 3 minutos tras aeronaves pesadas y 3 diámetros de rotor en proximidad de helicópteros en estacionario.
@@ -959,8 +959,8 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 **Vuelo de onda (Wave soaring)**
 : Técnica de planeo que aprovecha el flujo ondulatorio estacionario y laminar (onda orográfica) que se genera a sotavento de un sistema montañoso en condiciones de fuerte viento estable, permitiendo alcanzar grandes altitudes en el lado ascendente de las ondas.
 
-**WADA (World Anti-Doping Agency)**
-: Agencia Mundial Antidopaje. Organización internacional que regula y controla exhaustivamente el consumo de sustancias y dopaje en deportistas de competición, siendo los campeonatos de vuelo a vela sometidos también a este mismo estándar.
+**WADA (Agencia Mundial Antidopaje / World Anti-Doping Agency)**
+: Organización internacional que regula y controla exhaustivamente el consumo de sustancias y dopaje en deportistas de competición, siendo los campeonatos de vuelo a vela sometidos también a este mismo estándar.
 
 **WCA (Ángulo de corrección de deriva / Wind Correction Angle)**
 : Ángulo que se aplica al rumbo, apuntando el morro hacia el viento, para compensar la deriva y mantener la trayectoria deseada sobre el terreno.

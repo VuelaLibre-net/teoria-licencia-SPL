@@ -19,6 +19,7 @@ rompe la compilación.
 ### Cambiado
 
 * **Glosario, rótulos de `AME` y `OACI`** — adoptan la forma del libro 01, con el término español delante y el inglés completo detrás. `AME` sólo llevaba el inglés y `OACI` dejaba «ICAO» sin desarrollar.
+* **Glosario, ocho rótulos** — `ADM`, `SRM`, `TUC`, `WADA`, `AUT / TUE`, `SAO` y `SFCL` sólo llevaban el inglés, y en cinco de ellos el nombre español estaba repetido como primera frase de la definición: ahora va en el rótulo y no se dice dos veces. `SAO` y `SFCL` adoptan además el desarrollo que ya usaba el libro 01 para `Part-SAO` y `Part-SFCL`. La entrada `MED (Part-MED)` pasa a `Part-MED (Requisitos médicos aeronáuticos)`, se corrige que no es una «subparte» sino el anexo IV del Reglamento (UE) n.º 1178/2011, y se añade que para la SPL basta el certificado médico LAPL.
 
 ### Corregido
 
