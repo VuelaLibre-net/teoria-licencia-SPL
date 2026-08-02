@@ -16,6 +16,10 @@ rompe la compilación.
 
 ## [En curso]
 
+## [0.9.2] — 2 de agosto de 2026
+
+**Qué releer:** **Glosario, entrada «FPL».** Queda anclada en SERA.4001 b) y recoge el supuesto de las áreas designadas por la autoridad competente, que faltaba. «Polar de velocidades» pasa a llamarse «Curva polar», como en el libro 05.
+
 ### Cambiado
 
 * **Glosario, entrada «FPL»** — se adopta la del libro 04, que detalla en qué espacios aéreos hace falta el plan de vuelo y qué datos incluye. Conserva la obligación en vuelos que cruzan frontera, que era lo propio de esta versión.
@@ -23,7 +27,6 @@ rompe la compilación.
 * **Glosario, entrada «Polar de velocidades»** — pasa a `Curva polar (polar de velocidades)`, con la definición del libro 05, que explica de dónde salen la velocidad de mínimo descenso y la de mejor planeo. Cambia de sitio en el orden alfabético.
 * **Glosario, rótulos de `Carga alar`, `Lastre de cola`, `Lastre de agua` y `Coeficiente de planeo`** — misma forma que en los libros 05 y 08, con la glosa inglesa en minúscula. Ninguna definición cambia; el coeficiente de planeo gana *fineza* en el rótulo.
 * **Glosario, rótulo de `CG`** — añade el desarrollo inglés, que es de donde viene la sigla. Igual en los libros 05 y 08.
-
 ## [0.9.1] — 1 de agosto de 2026
 
 **Qué releer:** **cap02, desplazamiento de la polar con el peso.** Se actualiza el gráfico explicativo del efecto del peso sobre la polar de velocidades (`07-cap02-polar-peso.png`).

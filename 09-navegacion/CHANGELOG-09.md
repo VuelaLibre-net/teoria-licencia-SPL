@@ -16,6 +16,10 @@ rompe la compilación.
 
 ## [En curso]
 
+## [0.9.1] — 2 de agosto de 2026
+
+**Qué releer:** **Glosario, entradas «IGC», «Espacio aéreo controlado» y «FPL».** El fichero `.igc` no es «infalsificable»: la firma hace detectable la manipulación. «Espacio aéreo controlado» sólo hablaba de las clases C y D: añade la A, donde no se admite VFR, y la B.
+
 ### Cambiado
 
 * **Glosario, entradas «FPL», «IAS» y «Squawk»** — «FPL» adopta la del libro 04, que detalla espacios aéreos y contenido del plan, sin perder la obligación en vuelos que cruzan frontera. «IAS» conserva el encadenado IAS → TAS → GS y añade la referencia a los límites aerodinámicos del libro 03. En «Squawk», el 7600 se glosa como «fallo de radio, NORDO».

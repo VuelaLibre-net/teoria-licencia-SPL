@@ -16,6 +16,10 @@ rompe la compilación.
 
 ## [En curso]
 
+## [0.9.3] — 2 de agosto de 2026
+
+**Qué releer:** **Glosario, entrada «Resbale lateral», y cuatro entradas nuevas.** El resbale es descoordinado por definición, no «coordinado de forma cruzada». Se incorporan al glosario las cuatro listas que el libro enseña: CB-SIFT-CBE, CRISE, FUSTALL y WULF.
+
 ### Añadido
 
 * **Glosario** — cuatro listas de comprobación que el libro enseña en cap01 y cap04 y que el glosario no recogía: `CB-SIFT-CBE` y `CRISE` (cabina, antes del enganche) y `FUSTALL` y `WULF` (viento en cola). `FUSTALL` se citaba incluso dentro de la definición de «Viento en cola» sin estar definida, y el cap08 del libro 08 remite a las cuatro dando por hecho que están aquí.

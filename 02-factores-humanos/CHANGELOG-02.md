@@ -16,6 +16,10 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.12] — 2 de agosto de 2026
+
+**Qué releer:** **Glosario, entradas «Hipoxia», «DECIDE», «SHELL», «AUT / TUE», «SAO» y «Part-MED».** Cinco correcciones de contenido: la hipoxia no es «cerebral» ni hay «presión transferencial», el modelo DECIDE tenía dos pasos cambiados de sitio, SHELL no lo desarrolló la OACI, las exenciones terapéuticas no las concede WADA y Part-SAO no fija ningún umbral de oxígeno —lo fija su AMC, y sólo por defecto—.
+
 ### Cambiado
 
 * **Glosario, rótulos de `AME` y `OACI`** — adoptan la forma del libro 01, con el término español delante y el inglés completo detrás. `AME` sólo llevaba el inglés y `OACI` dejaba «ICAO» sin desarrollar.
@@ -28,7 +32,6 @@ rompe la compilación.
 * **Glosario, entrada «SHELL»** — el modelo no lo desarrolló la OACI: es de Edwards (1972), completado por Hawkins (1975); la OACI lo adoptó y lo difundió.
 * **Glosario, entrada «AUT / TUE»** — WADA no concede exenciones terapéuticas. Las conceden las organizaciones nacionales antidopaje y las federaciones internacionales; WADA fija el estándar y revisa las concesiones. Se retira además la mención a las autoridades aeronáuticas, que no intervienen.
 * **Glosario, entrada «SAO»** — decía que Part-SAO «fija la obligatoriedad del oxígeno por encima de 10.000 ft», y eso contradecía al propio cap04 del libro. SAO.OP.150 no da ninguna cifra: obliga al piloto a valorar si la falta de oxígeno merma a los ocupantes. Los 10.000 ft son del AMC1 y sólo aplican cuando el piloto no puede hacer esa valoración.
-
 ## [1.0-rc.11] — 31 de julio de 2026
 
 ### Maqueta y producción

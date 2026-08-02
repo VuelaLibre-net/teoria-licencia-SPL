@@ -16,6 +16,10 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.12] — 2 de agosto de 2026
+
+**Qué releer:** **Glosario, entrada «MAYDAY».** El uso falso no lo sanciona EASA sino la ley nacional. El resto son rótulos: los doce con guion largo del libro pasan a la forma del resto de la colección.
+
 ### Cambiado
 
 * **Glosario, entradas «FPL» y «Squawk»** — «FPL» pasa a titularse como el resto de la colección (`Plan de vuelo / Flight Plan`, español primero) y recoge la obligación en vuelos que cruzan frontera, que sólo estaba en los libros 07 y 09. En «Squawk», el 7600 se glosa como «fallo de radio, NORDO» en vez de sólo «NORDO». Es la misma definición que llevan ahora los libros 07 y 09.

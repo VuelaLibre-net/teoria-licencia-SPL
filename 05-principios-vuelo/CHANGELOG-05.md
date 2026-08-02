@@ -16,6 +16,10 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.7] — 2 de agosto de 2026
+
+**Qué releer:** **Glosario, entradas «Efecto suelo», «IAS», «Curva polar» y «Coeficiente de planeo»; cap04, figura del hilo de lana.** El efecto suelo daba una distancia inventada. La figura del hilo de lana pasa a tres paneles en fila y su pie ya no dice «de arriba abajo».
+
 ### Cambiado
 
 * **Glosario, entrada «IAS»** — añade el encadenado IAS → TAS → GS que sólo estaba en el libro 09, para que los tres libros que definen el término digan lo mismo. Lo que ya decía no cambia.
@@ -32,7 +36,6 @@ rompe la compilación.
 
 * **cap04, hilo de lana** — la figura pasa de tres paneles apilados a tres paneles en fila, y baja de 2,7 MB a 1,3 MB. El pie decía «de arriba abajo» y ahora dice «de izquierda a derecha»; el orden de los estados —resbale, coordinado, derrape— no cambia, y cada panel sigue rotulado dentro de la propia ilustración.
 * **Glosario** — se restituye el orden alfabético: `Centro de Presiones` iba detrás de `CG`, `Deriva` detrás de `Diedro`, y el bloque de velocidades estaba desordenado por completo. El criterio es el texto visible del rótulo hasta el paréntesis, así que `V~NE~` y `V~RA~` quedan detrás de `Viento relativo`. Ninguna definición cambia.
-
 ## [1.0-rc.6] — 31 de julio de 2026
 
 ### Maqueta y producción

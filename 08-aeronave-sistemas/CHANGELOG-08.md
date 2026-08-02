@@ -16,6 +16,10 @@ rompe la compilación.
 
 ## [En curso]
 
+## [0.9.1] — 2 de agosto de 2026
+
+**Qué releer:** **Glosario, entradas «Hipoxia», «V~RA~» y el certificado de aeronavegabilidad; cap05, encabezado de aerofrenos.** El certificado pasa de `CoA` a `CofA`, como en el libro 01, para no publicarse dos veces en el manual completo. Los aerofrenos se rotulan `airbrakes` y no `spoilers`, con el porqué en el glosario.
+
 ### Cambiado
 
 * **Glosario, entradas «Hipoxia» y «V~RA~»** — «Hipoxia» gana los cuatro tipos del libro 02 sobre la redacción que ya tenía. «V~RA~» adopta la del libro 05: dice qué arco empieza y cuál acaba en esa marca, y que V~RA~ y V~A~ suelen andar próximas. Se pierde la remisión al «Libro 5, capítulo 5», que en el manual completo no tenía sentido.

@@ -16,6 +16,10 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.13] — 2 de agosto de 2026
+
+**Qué releer:** **Glosario y el resumen de cap07.** El glosario estrena convención de rótulos y la entrada CAVOK dice ya cuáles son las condiciones. El post-it de cap07 incorpora la clase B, que el propio capítulo ya explicaba. Ninguna definición técnica cambia de fondo.
+
 ### Cambiado
 
 * **cap07, resumen del capítulo** — el post-it enumeraba las clases controladas como «A, C, D y E» y se saltaba la B, que sí aparece en el recuadro de Airmanship del propio capítulo. Ahora dice que en B, C y D el VFR necesita autorización y comunicación bilateral, con la nota de que la B no se usa en España. La tabla de clases no cambia: mantiene a propósito sólo las que se vuelan aquí.
