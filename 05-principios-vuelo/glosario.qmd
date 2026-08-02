@@ -1,6 +1,6 @@
 # Glosario de términos
 
-Este glosario recoge las definiciones y acrónimos esenciales de la aerodinámica y los principios de vuelo aplicables a la licencia de piloto de planeador (SPL), organizados según el programa de formación EASA AMC1 SFCL.130. Cada definición incluye una referencia al capítulo donde el concepto se trata en profundidad.
+Este glosario recoge las definiciones y acrónimos esenciales de la aerodinámica y los principios de vuelo aplicables a la licencia de piloto de planeador (SPL), organizados según el programa de formación EASA AMC1 SFCL.130.
 
 **Ángulo de ataque (AoA / *Angle of Attack*)**
 : Ángulo que forma la cuerda aerodinámica del ala con la dirección del viento relativo. Es el parámetro aerodinámico más importante: de él dependen directamente el coeficiente de sustentación y el coeficiente de resistencia. Aumenta al tirar de la palanca; disminuye al empujarla. No confundirlo con la actitud del morro: un planeador puede tener el morro bajo y un ángulo de ataque peligrosamente alto si la trayectoria de descenso es más pronunciada que la actitud. La referencia es siempre el viento relativo, no el horizonte.
@@ -26,13 +26,13 @@ Este glosario recoge las definiciones y acrónimos esenciales de la aerodinámic
 **Centro de Presiones (CP)**
 : Punto de la cuerda aerodinámica donde se considera aplicado el vector resultante de la sustentación total del ala. No es fijo: se desplaza hacia adelante al aumentar el ángulo de ataque y hacia atrás al disminuirlo. Su movilidad obliga a situar el CG delante de su rango de movimiento para mantener la estabilidad longitudinal.
 
-**Coeficiente de planeo (L/D, *finesse*)**
+**Coeficiente de planeo (fineza, L/D)**
 : Relación entre la sustentación (*Lift*) y la resistencia total (*Drag*) de la aeronave, equivalente a la distancia horizontal recorrida por unidad de altura perdida en aire en calma (un planeador con L/D de 40 recorre 40 km por cada kilómetro de altura cedida).
 
 **Compensador (*trim*)**
 : Superficie de control secundaria —o mecanismo de ajuste sobre la superficie principal— que permite aliviar la presión sobre la palanca una vez establecida la actitud deseada. No es un accesorio de comodidad: es un mando aerodinámico fundamental que permite mantener una velocidad constante sin esfuerzo sostenido. Debe ajustarse cada vez que se cambia el régimen de vuelo.
 
-**Curva polar**
+**Curva polar (polar de velocidades)**
 : Gráfica característica de cada modelo de planeador que relaciona la velocidad horizontal indicada (eje X, en km/h) con la tasa de descenso vertical (eje Y, en m/s) en condiciones de aire en calma. De ella se extraen la velocidad de mínimo descenso (vértice superior) y la velocidad de mejor planeo (tangente desde el origen). Es el "DNI" del planeador y la referencia para adaptar la velocidad al viento y a las zonas de ascenso o descenso.
 
 **Diagrama V-n (envolvente de vuelo)**

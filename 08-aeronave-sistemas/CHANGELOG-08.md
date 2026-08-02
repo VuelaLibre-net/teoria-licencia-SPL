@@ -19,6 +19,9 @@ rompe la compilación.
 ### Cambiado
 
 * **Glosario, entradas «Hipoxia» y «V~RA~»** — «Hipoxia» gana los cuatro tipos del libro 02 sobre la redacción que ya tenía. «V~RA~» adopta la del libro 05: dice qué arco empieza y cuál acaba en esa marca, y que V~RA~ y V~A~ suelen andar próximas. Se pierde la remisión al «Libro 5, capítulo 5», que en el manual completo no tenía sentido.
+* **Glosario, rótulos de `AD`, `AFM`, `CS-22`, `ELT` y `Part-ML`** — adoptan la forma completa del libro 01. Cuatro de ellos sólo llevaban el inglés o nada.
+* **Glosario, entrada «Aerofrenos», y encabezado de cap05** — pasan de `(spoilers)` a `(airbrakes)`. La definición explica ahora por qué: el spoiler estropea la sustentación desde el extradós, mientras que los aerofrenos de planeador salen por arriba y por abajo y añaden además resistencia. El contenido del apartado no cambia.
+* **Glosario, rótulos de `Carga alar`, `Lastre de agua`, `Lastre de cola` y `Transpondedor`** — misma forma que en los libros 06, 07 y 09.
 
 ### Corregido
 

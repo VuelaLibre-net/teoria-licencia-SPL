@@ -2,8 +2,8 @@
 
 Este glosario contiene las definiciones y acrónimos más relevantes de Procedimientos Operativos aplicables a la licencia de piloto de planeador (SPL).
 
-**Aerofrenos (Spoilers)**
-: Superficies móviles situadas generalmente en el extradós alar, accionadas por el piloto, cuya función es destruir la sustentación y aumentar la resistencia aerodinámica para controlar la senda de aproximación.
+**Aerofrenos (airbrakes)**
+: Superficies móviles situadas generalmente en el extradós alar, accionadas por el piloto, cuya función es destruir la sustentación y aumentar la resistencia aerodinámica para controlar la senda de aproximación. Se les llama coloquialmente *spoilers*, pero el spoiler propiamente dicho sólo estropea la sustentación desde el extradós; los aerofrenos de planeador, del tipo Schempp-Hirth, salen por arriba y por abajo y añaden además resistencia.
 
 **Aerotow (Remolque por avión)**
 : Método de lanzamiento en el que una aeronave a motor remolca al planeador mediante un cable flexible de longitud normalizada (generalmente entre 30 y 60 metros) hasta una altitud determinada.
@@ -23,14 +23,17 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Procedim
 **Cable flojo (Slack line)**
 : Pérdida temporal de tensión en el cable de remolque durante el lanzamiento por avión, lo que puede provocar enredos o tirones violentos al tensarse de nuevo.
 
+**CB-SIFT-CBE**
+: Lista de comprobación de cabina que se ejecuta y se verbaliza inmediatamente antes del enganche del cable: **C**ontrols (mandos libres y con recorrido correcto), **B**allast (masa total y centro de gravedad dentro de límites), **S**traps (cinturones y arneses trabados), **I**nstruments (altímetro calado, variómetro, radio y FLARM), **F**laps (posición de despegue), **T**rim (compensador de despegue), **C**anopy (cúpula cerrada y con cerrojos blocados), **B**rakes (aerofrenos cerrados y blocados) y **E**ventualities (viento del momento y briefing de fallo de lanzamiento). Su equivalente tradicional en los clubes españoles es CRISE.
+
 **Circuito de tráfico (Circuito de aeródromo)**
 : Trayectoria patrón y ordenada que describe una aeronave para realizar una aproximación y aterrizaje seguro. En planeadores consta típicamente de viento cruzado, viento en cola, base y final.
 
+**CRISE**
+: Versión tradicional de la lista de cabina en los aeroclubes de habla hispana, para el mismo momento que CB-SIFT-CBE: **C**ontroles (palanca, pedales y aerofrenos), **R**eglajes (cinturones y paracaídas), **I**nstrumentos (altímetro, variómetro y FLARM), **S**eguridad exterior (cúpula, ventanilla, pista y viento) y **E**mergencias (briefing de rotura de cable). También se abrevia CRIS.
+
 **Engelamiento (icing)**
 : Formación de hielo en las superficies del planeador al volar en zonas con humedad visible y temperatura negativa (especialmente entre 0 °C y −15 °C). Altera el perfil alar, aumenta la velocidad de pérdida (**stall speed**) y puede opacificar la cúpula. Los planeadores no disponen de sistemas antihielo: la medida correctiva es descender a niveles de temperatura positiva.
-
-**Estela turbulenta (Wake turbulence)**
-: Turbulencia invisible y peligrosa (vórtices de punta de ala o flujo descendente de rotor) generada por el paso de aeronaves de gran masa o helicópteros en sustentación, que puede desestabilizar o dañar gravemente a un planeador que la atraviese.
 
 **Fallo de lanzamiento**
 : Interrupción involuntaria de la tracción durante el despegue (por ejemplo, rotura de cable en torno o remolque, o fallo de motor del avión remolcador) que exige la ejecución inmediata del briefing de emergencia preestablecido.
@@ -50,13 +53,16 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Procedim
 **Fusible de seguridad (Weak link)**
 : Eslabón o fusible metálico calibrado intercalado en el cable de remolque o torno, diseñado para romperse ante una sobretensión que supere los límites estructurales calculados antes de dañar al planeador o a la aeronave remolcadora.
 
+**FUSTALL**
+: Lista de comprobación del tramo de viento en cola: **F**laps (posición de aterrizaje), **U**ndercarriage (tren fuera y blocado), **S**peed (velocidad de aproximación del AFM), **T**rim (compensado a esa velocidad), **A**irbrakes (libres, y cerrados para la base), **L**anding area (viento, tráfico y zona de toma) y **L**and (dedicarse ya sólo a volar y aterrizar). El lastre de agua se vacía antes de entrar en el circuito. Su versión abreviada europea es WULF.
+
 **IMSAFE**
 : Acrónimo nemotécnico de autoevaluación psicofísica recomendado antes de cada vuelo: Illness (Enfermedad), Medication (Medicación), Stress (Estrés), Alcohol (Alcohol), Fatigue (Fatiga) y Eating (Alimentación).
 
 **Las 7 S**
 : Regla nemotécnica utilizada para evaluar sistemáticamente la aptitud de un campo desde el aire en un aterrizaje fuera de campo: **Size** (Tamaño), **Shape** (Forma), **Slope** (Pendiente), **Surface** (Superficie), **Surroundings** (Alrededores/Obstáculos), **Stock** (Ganado/Animales) y **Sun** (Posición del Sol).
 
-**Lastre de agua (Water ballast)**
+**Lastre de agua (water ballast)**
 : Agua cargada en tanques específicos situados en las alas para aumentar la masa del planeador y su carga alar, desplazando la curva polar de velocidades hacia valores más altos para volar más rápido con el mismo ángulo de planeo.
 
 **Outlanding (Aterrizaje fuera de campo / Toma fuera de campo)**
@@ -83,6 +89,9 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Procedim
 **Torno (Lanzamiento por torno / Winch)**
 : Método de lanzamiento en el que un planeador es acelerado a alta velocidad sobre la pista mediante el enrollado rápido de un cable por un motor potente estacionario en el extremo de la pista, elevándolo hasta la altura de suelta en un ascenso muy inclinado.
 
+**Turbulencia de estela (wake turbulence)**
+: Vórtices tubulares contrarrotantes generados por el paso de aeronaves de ala fija al producir sustentación, o por el flujo y vórtices de rotor de los helicópteros. Descienden lentamente y persisten varios minutos después del paso de la aeronave. Cruzarlos perpendicularmente puede inducir un momento de balanceo que supere los alerones del planeador. La separación mínima recomendada es de al menos 3 minutos tras aeronaves pesadas y 3 diámetros de rotor en proximidad de helicópteros en estacionario.
+
 **Viento en cola (Tramo de viento en cola / Downwind)**
 : Tramo del circuito de tráfico aéreo paralelo a la pista activa realizado en sentido contrario a la dirección de aterrizaje, donde se ejecutan las comprobaciones previas al aterrizaje (lista FUSTALL).
 
@@ -91,3 +100,6 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Procedim
 
 **Vuelo de onda (Wave soaring)**
 : Técnica de planeo que aprovecha el flujo ondulatorio estacionario y laminar (onda orográfica) que se genera a sotavento de un sistema montañoso en condiciones de fuerte viento estable, permitiendo alcanzar grandes altitudes en el lado ascendente de las ondas.
+
+**WULF**
+: Versión abreviada de la lista de viento en cola que se enseña en muchos clubes europeos, para el mismo momento que FUSTALL: **W**ater ballast (lastre vaciado), **U**ndercarriage (tren fuera y blocado), **L**oose articles / **L**ook-out (objetos sueltos asegurados y vigilancia exterior) y **F**laps (posición de aterrizaje).

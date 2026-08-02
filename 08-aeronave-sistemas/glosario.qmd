@@ -2,13 +2,13 @@
 
 Este glosario contiene las definiciones y acrónimos más relevantes de Conocimientos Generales de la Aeronave aplicables a la licencia de piloto de planeador (SPL).
 
-**AD (Directiva de Aeronavegabilidad / Airworthiness Directive)**
+**AD (Directiva de Aeronavegabilidad / Airworthiness Directive; Aeródromos)**
 : Abreviatura dependiente del contexto: una directiva de aeronavegabilidad es un requisito obligatorio para corregir una condición insegura; AD también identifica la sección de aeródromos del AIP.
 
-**Aerofrenos (Spoilers)**
-: Superficies móviles situadas generalmente en el extradós alar, accionadas por el piloto, cuya función es destruir la sustentación y aumentar la resistencia aerodinámica para controlar la senda de aproximación.
+**Aerofrenos (airbrakes)**
+: Superficies móviles situadas generalmente en el extradós alar, accionadas por el piloto, cuya función es destruir la sustentación y aumentar la resistencia aerodinámica para controlar la senda de aproximación. Se les llama coloquialmente *spoilers*, pero el spoiler propiamente dicho sólo estropea la sustentación desde el extradós; los aerofrenos de planeador, del tipo Schempp-Hirth, salen por arriba y por abajo y añaden además resistencia.
 
-**AFM (Manual de Vuelo / Aircraft Flight Manual)**
+**AFM (Manual de Vuelo de la Aeronave / Aircraft Flight Manual)**
 : Documento aprobado que contiene las limitaciones, los procedimientos y los datos necesarios para operar la aeronave.
 
 **ARC (Certificado de Revisión de la Aeronavegabilidad / Airworthiness Review Certificate)**
@@ -17,7 +17,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Conocimi
 **Bail-out (Abandono del planeador)**
 : Procedimiento de emergencia que consiste en el salto en paracaídas desde una aeronave en vuelo cuando esta ya no es controlable o segura.
 
-**Carga alar (Wing loading)**
+**Carga alar (wing loading)**
 : Relación entre la masa total del planeador y la superficie de sus alas. Se expresa en kg/m² e influye directamente en las velocidades de crucero y de pérdida.
 
 **Carga de rotura (Ultimate load)**
@@ -38,7 +38,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Conocimi
 **Composite (Material compuesto)**
 : Material formado por fibras (vidrio o carbono) embebidas en resina. Domina la construcción de planeadores modernos por su relación resistencia/peso y su acabado aerodinámico liso (GRP: fibra de vidrio; CRP: fibra de carbono).
 
-**CS-22 (Certification Specifications for Sailplanes)**
+**CS-22 (Especificaciones de Certificación para Planeadores y Planeadores Propulsados / Certification Specifications for Sailplanes and Powered Sailplanes)**
 : Especificaciones EASA aplicables al diseño y la certificación de planeadores y planeadores propulsados.
 
 **Cúpula (Canopy)**
@@ -47,7 +47,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Conocimi
 **EDS (Sistema de Oxígeno a Demanda / Electronic Delivery System)**
 : Sistema electrónico de suministro de oxígeno a demanda que detecta la inspiración del piloto y libera un pulso de oxígeno en ese instante, multiplicando la autonomía de la botella de oxígeno al interrumpir el flujo durante la exhalación.
 
-**ELT (Emergency Locator Transmitter)**
+**ELT (Transmisor Localizador de Emergencia / Emergency Locator Transmitter)**
 : Baliza de aeronave destinada a transmitir una señal de emergencia y facilitar su localización.
 
 **Energía total (Variómetro de energía total / TE)**
@@ -83,10 +83,10 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Conocimi
 **Larguero (Spar)**
 : Viga principal que recorre el ala de punta a punta y soporta las cargas de flexión en vuelo. Un daño estructural en el larguero deja el ala fuera de servicio.
 
-**Lastre de agua (Water ballast)**
+**Lastre de agua (water ballast)**
 : Agua cargada en tanques específicos situados en las alas para aumentar la masa del planeador y su carga alar, desplazando la curva polar de velocidades hacia valores más altos para volar más rápido con el mismo ángulo de planeo.
 
-**Lastre de cola**
+**Lastre de cola (fin ballast)**
 : Pequeño depósito de agua o soporte de pesas en la deriva que compensa el desplazamiento del CG producido por el lastre de las alas o por un piloto pesado, restaurando el centrado óptimo. Olvidar vaciarlo con un piloto ligero genera un CG peligrosamente retrasado.
 
 **LiFePO4 (Batería de litio-ferrofosfato)**
@@ -98,7 +98,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Conocimi
 **MTOW (Masa Máxima al Despegue / Maximum Take-Off Weight)**
 : Masa máxima autorizada o certificada con la que el planeador puede iniciar el vuelo, determinada por límites estructurales y de rendimiento aerodinámico.
 
-**Part-ML**
+**Part-ML (Parte de mantenimiento de aeronaves ligeras)**
 : Parte del régimen europeo de aeronavegabilidad continuada aplicable a aeronaves ligeras, incluidos muchos planeadores.
 
 **PCC (Comprobación de mandos positiva / Positive Control Check)**
@@ -125,7 +125,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Conocimi
 **TMG (Motovelero de turismo / Touring Motor Glider)**
 : Planeador propulsado equipado con motor y hélice no retráctiles que puede despegar y ascender por sus propios medios.
 
-**Transpondedor**
+**Transpondedor (transponder, XPDR)**
 : Equipo de a bordo que responde automáticamente a las interrogaciones del radar secundario (SSR) emitiendo un código **squawk** y, según el modo, la altitud barométrica o datos extendidos de identificación. Opera en la banda UHF (1.030/1.090 MHz), independientemente de la radio de voz. Imprescindible para ser visible por el TCAS de otros tráficos.
 
 **Tren retráctil**

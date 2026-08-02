@@ -8,7 +8,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Factores
 **AESA (Agencia Estatal de Seguridad Aérea)**
 : Autoridad española responsable de la supervisión de la seguridad de la aviación civil y de la aplicación de la normativa aeronáutica dentro de sus competencias.
 
-**AME (Aero-Medical Examiner)**
+**AME (Médico Examinador Aéreo / Aero-Medical Examiner)**
 : Médico autorizado para realizar reconocimientos y emitir o tramitar certificados médicos aeronáuticos dentro de sus atribuciones.
 
 **ATC (Control de Tránsito Aéreo / Air Traffic Control)**
@@ -68,7 +68,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Factores
 **Monóxido de carbono (CO)**
 : Gas letal, inodoro e invisible derivado de los sistemas de escape. Se une a la hemoglobina bloqueando el transporte de oxígeno (hipoxia anémica), afectando a los pilotos de motovelero (TMG) incluso a baja altitud.
 
-**OACI (Organización de Aviación Civil Internacional / ICAO)**
+**OACI / ICAO (Organización de Aviación Civil Internacional / International Civil Aviation Organization)**
 : Agencia especializada de las Naciones Unidas que establece normas y métodos recomendados para la aviación civil internacional.
 
 **PAVE**

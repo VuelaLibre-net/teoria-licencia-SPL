@@ -20,6 +20,8 @@ rompe la compilación.
 
 * **Glosario, entrada «FPL»** — se adopta la del libro 04, que detalla en qué espacios aéreos hace falta el plan de vuelo y qué datos incluye. Conserva la obligación en vuelos que cruzan frontera, que era lo propio de esta versión.
 * **Glosario, entrada «FPL»** — se ancla en **SERA.4001 b)** y se añade el caso de las áreas o rutas designadas por la autoridad competente. El resto queda igual, verificado contra el Reglamento.
+* **Glosario, entrada «Polar de velocidades»** — pasa a `Curva polar (polar de velocidades)`, con la definición del libro 05, que explica de dónde salen la velocidad de mínimo descenso y la de mejor planeo. Cambia de sitio en el orden alfabético.
+* **Glosario, rótulos de `Carga alar`, `Lastre de cola`, `Lastre de agua` y `Coeficiente de planeo`** — misma forma que en los libros 05 y 08, con la glosa inglesa en minúscula. Ninguna definición cambia; el coeficiente de planeo gana *fineza* en el rótulo.
 
 ## [0.9.1] — 1 de agosto de 2026
 

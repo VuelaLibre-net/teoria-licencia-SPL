@@ -24,6 +24,7 @@ rompe la compilación.
 
 * **Glosario, entradas «Hipoxia» e «IAS»** — se unifican con las de los libros que también las definen, para que el manual completo no tenga que elegir entre versiones distintas del mismo término. «Hipoxia» gana los cuatro tipos que sólo estaban en el libro 02; «IAS» gana el encadenado IAS → TAS → GS que sólo estaba en el libro 09. Nada de lo que ya decían cambia.
 * **cap03, K-Index** — bajo la tabla de umbrales se dice de dónde salen: las bandas altas son la escala de George de probabilidad de tormenta; las tres primeras filas, una adaptación de esta colección, porque por debajo de 15 la escala meteorológica no distingue. Mismo tratamiento que ya tenía el Total Totals. Los valores de la tabla no cambian.
+* **Glosario, rótulos de `CAVOK` y `QNH`** — se alinean con el libro 01. `CAVOK` abandona el retroacrónimo «Ceiling And Visibility OK», que no es la denominación de OACI, y lo recoge dentro de la definición junto con las condiciones concretas. `QNH` recupera su glosa.
 
 ### Corregido
 

@@ -16,6 +16,10 @@ rompe la compilación.
 
 ## [En curso]
 
+### Cambiado
+
+* **Glosario, rótulos de `AME` y `OACI`** — adoptan la forma del libro 01, con el término español delante y el inglés completo detrás. `AME` sólo llevaba el inglés y `OACI` dejaba «ICAO» sin desarrollar.
+
 ### Corregido
 
 * **Glosario, entrada «Hipoxia»** — decía «déficit de oxígeno **cerebral**» y hablaba de «falta de presión **transferencial** en altitud». La hipoxia afecta a células y tejidos, no sólo al cerebro, y el término es *presión parcial* de oxígeno; «transferencial» no existe y no aparecía en ningún otro punto de la colección. La definición nueva parte de la redacción correcta y conserva los cuatro tipos, alineados con lo que ya decía cap04. Es la misma definición que llevan ahora los libros 03 y 08.

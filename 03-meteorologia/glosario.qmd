@@ -32,8 +32,8 @@ Este glosario contiene las definiciones y acrónimos más relevantes de la meteo
 **CAPE (Convective Available Potential Energy)**
 : Energía Potencial Convectiva Disponible. Cuantifica la flotabilidad acumulada de una parcela de aire desde la superficie hasta el nivel de equilibrio. Se representa como el área entre la curva de la parcela y la curva de estado en el sondeo termodinámico. Valores orientativos: < 500 J/kg (día débil), 1.000–2.500 J/kg (excelente), > 3.500 J/kg (convección severa probable).
 
-**CAVOK (Ceiling And Visibility OK)**
-: Término de los informes meteorológicos que sustituye determinados datos de visibilidad, tiempo presente y nubes cuando se cumplen simultáneamente las condiciones establecidas.
+**CAVOK (Visibilidad, nubes y tiempo presente mejores que los valores o condiciones prescritos)**
+: Término de los informes meteorológicos que sustituye determinados datos de visibilidad, tiempo presente y nubes cuando se cumplen simultáneamente las condiciones establecidas: visibilidad de 10 km o más, sin nubes por debajo de 5.000 ft ni cumulonimbus, y sin tiempo significativo. El rótulo es el de OACI; en el club se oye el retroacrónimo *Ceiling And Visibility OK*, que no es la denominación oficial.
 
 **Cizalladura (wind shear)**
 : Variación brusca de la velocidad y/o dirección del viento en una distancia corta, tanto en el plano horizontal como vertical. Especialmente peligrosa en la aproximación final, donde puede provocar una pérdida súbita de sustentación por caída de la velocidad indicada.
@@ -152,7 +152,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes de la meteo
 **Onda de montaña (wave soaring)**
 : Oscilación ondulatoria del flujo de aire que se genera a sotavento de una cordillera cuando el viento es perpendicular a la cresta, supera un umbral de velocidad y existe una capa estable a la altura de la cresta. Permite el ascenso laminar hasta grandes altitudes. Los altocúmulos lenticulares son su señal visual. Los rotores en la base son el principal peligro.
 
-**QNH**
+**QNH (Reglaje altimétrico reducido al nivel medio del mar)**
 : Reglaje que permite al altímetro indicar altitud y, en tierra, aproximadamente la elevación del punto considerado.
 
 **Rotor**

@@ -119,7 +119,7 @@ Este glosario reúne las definiciones y acrónimos más relevantes de Navegació
 **Regla del 1 en 60**
 : Aproximación de cálculo mental: desviarse 1 NM de la ruta tras volar 60 NM equivale a un error de rumbo de 1º. Sirve para corregir el rumbo sobre la marcha.
 
-**SERA (Standardised European Rules of the Air / Reglas Europeas Estandarizadas del Aire)**
+**SERA (Reglas Europeas Estandarizadas del Aire / Standardised European Rules of the Air)**
 : Reglas del aire comunes establecidas por el Reglamento de Ejecución (UE) n.º 923/2012.
 
 **Squawk**
@@ -137,7 +137,7 @@ Este glosario reúne las definiciones y acrónimos más relevantes de Navegació
 **TMZ (Zona de transpondedor obligatorio / Transponder Mandatory Zone)**
 : Espacio aéreo en el que es obligatorio llevar y operar un transpondedor con las capacidades exigidas; no impone por sí solo comunicación o escucha radio, salvo que también sea RMZ o así se publique.
 
-**Transpondedor**
+**Transpondedor (transponder, XPDR)**
 : Equipo de a bordo que responde automáticamente a las interrogaciones del radar secundario (SSR) emitiendo un código **squawk** y, según el modo, la altitud barométrica o datos extendidos de identificación. Opera en la banda UHF (1.030/1.090 MHz), independientemente de la radio de voz. Imprescindible para ser visible por el TCAS de otros tráficos.
 
 **Triangulación (Líneas de posición)**
