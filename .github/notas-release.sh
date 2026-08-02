@@ -35,7 +35,7 @@ estados=$(make -s estados)
 cat <<'CABECERA'
 Los 9 manuales del temario teórico de la Licencia de Piloto de Planeador (SPL), conforme al syllabus AMC1 SFCL.130 (EASA-FCL) y adaptado a los requerimientos de AESA.
 
-Cada asignatura, en tres formatos —PDF, EPUB y Markdown para asistentes de estudio—, descargable directamente y sin cuenta de GitHub. El nombre de cada fichero lleva la asignatura, su versión y su fecha, así que se identifica sin abrirlo.
+Cada asignatura, en cuatro formatos —PDF, EPUB, Markdown para asistentes de estudio y paquete HTML para el sitio web—, descargable directamente y sin cuenta de GitHub. El nombre de cada fichero lleva la asignatura, su versión y su fecha, así que se identifica sin abrirlo.
 
 ## ⚠️ Ninguno de estos libros está terminado
 

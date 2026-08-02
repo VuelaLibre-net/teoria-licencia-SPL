@@ -1,8 +1,8 @@
 name: Publicar release
 
 # Se dispara al empujar un tag de versión (v0.9.0, v1.0.0…). El flujo es:
-# tag -> compila y verifica con el CI -> publica los 36 entregables en una
-# release EN BORRADOR.
+# tag -> localizar el CI que ya validó ESE commit -> publicar sus entregables en
+# una release EN BORRADOR. Sólo si no hay ninguno se compila aquí.
 #
 # En borrador a propósito: la parte mecánica y verificable se automatiza, pero
 # «esto sale al público» sigue siendo una decisión de una persona. Un borrador
@@ -15,18 +15,123 @@ on:
       - 'v*'
 
 jobs:
-  # Reutiliza el CI ENTERO —los mismos 600 y pico de líneas de verificación y las
-  # mismas versiones fijadas de Quarto y Typst— compilando el commit que el tag
-  # apunta. Lo que se publica es, byte a byte, lo que este job ha validado; no
-  # una compilación aparte que podría divergir.
+  # El tag se empuja sobre un commit de main que el CI acaba de compilar y
+  # verificar entero. Volver a compilarlo aquí son ~28 minutos que no añaden
+  # ninguna garantía: la garantía la da el SHA, no repetir el trabajo.
+  #
+  # Dos condiciones sostienen que lo publicado sea lo validado, y ninguna es
+  # negociable:
+  #
+  #  - El run reutilizado debe tener el head_sha IDÉNTICO al del tag. «El último
+  #    CI verde» no vale: publicaría un árbol que no es el que el tag nombra.
+  #  - Se descartan los runs de pull_request. En ese evento actions/checkout saca
+  #    el *merge ref*, no el head, así que sus artefactos corresponden a un árbol
+  #    que no existe como commit.
+  localizar:
+    runs-on: ubuntu-latest
+    permissions:
+      actions: read          # leer los runs del CI y sus artefactos
+    outputs:
+      # Vacío significa «no hay nada que reutilizar»: compila el job verificar.
+      run_id: ${{ steps.buscar.outputs.run_id }}
+    steps:
+      - name: Buscar el CI que ya validó este commit
+        id: buscar
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+
+          sha="$GITHUB_SHA"
+          # Los cuatro que sube el CI. Se exige que estén los cuatro y sin
+          # caducar: la retención de este repositorio son 2 días, así que un tag
+          # empujado más tarde no los encontrará y habrá que compilar.
+          esperados="manuales-spl-epub manuales-spl-pdf manuales-spl-rag manuales-spl-web"
+
+          # Margen para que el run de la rama aparezca: empujar el tag justo
+          # detrás de la fusión puede adelantar a su registro.
+          fin_gracia=$((SECONDS + 180))
+          # Tope de espera de un run en marcha. El CI tarda ~30 min; con 45 se
+          # cubre una cola razonable sin quedarse colgado si algo se atasca.
+          fin_espera=$((SECONDS + 2700))
+
+          while :; do
+            runs=$(gh api \
+              "repos/$GITHUB_REPOSITORY/actions/workflows/ci.yml/runs?head_sha=$sha&per_page=100" \
+              --jq '[.workflow_runs[] | select(.event != "pull_request") | {id, status, conclusion}]')
+
+            # La API devuelve los runs del más nuevo al más viejo.
+            verde=$(jq -r '[.[] | select(.conclusion == "success")] | first | .id // empty' <<<"$runs")
+
+            if [ -n "$verde" ]; then
+              vivos=$(gh api \
+                "repos/$GITHUB_REPOSITORY/actions/runs/$verde/artifacts?per_page=100" \
+                --jq '[.artifacts[] | select(.expired == false) | .name]')
+              faltan=""
+              for a in $esperados; do
+                jq -e --arg a "$a" 'index($a) != null' >/dev/null <<<"$vivos" || faltan="$faltan $a"
+              done
+
+              if [ -z "$faltan" ]; then
+                echo "run_id=$verde" >> "$GITHUB_OUTPUT"
+                echo "::notice::Se publican los entregables del run $verde del CI, que compiló y verificó este mismo commit ($sha). No se recompila."
+                exit 0
+              fi
+
+              echo "::warning::El run $verde validó este commit, pero sus artefactos ya no están (retención de 2 días):$faltan. Se compila aquí."
+              exit 0
+            fi
+
+            en_curso=$(jq -r '[.[] | select(.status != "completed")] | length' <<<"$runs")
+            total=$(jq -r 'length' <<<"$runs")
+
+            if [ "$en_curso" -gt 0 ]; then
+              if [ "$SECONDS" -ge "$fin_espera" ]; then
+                echo "::warning::El CI de este commit sigue sin terminar tras 45 minutos. Se compila aquí."
+                exit 0
+              fi
+              echo "El CI de este commit sigue en marcha. Se vuelve a mirar en 60 s."
+              sleep 60
+              continue
+            fi
+
+            if [ "$total" -gt 0 ]; then
+              # No se recompila: si el CI ya dijo que no sobre este árbol, volver
+              # a intentarlo aquí sólo serviría para publicar lo que se rechazó.
+              echo "::error::El CI ya evaluó este commit ($sha) y no salió verde. Arregla lo que falle, fusiona y vuelve a etiquetar."
+              exit 1
+            fi
+
+            if [ "$SECONDS" -lt "$fin_gracia" ]; then
+              echo "Todavía no hay ningún run del CI para este commit; puede que el tag haya adelantado al de la rama. Se vuelve a mirar en 30 s."
+              sleep 30
+              continue
+            fi
+
+            echo "::notice::Ningún run del CI ha compilado este commit. Se compila aquí."
+            exit 0
+          done
+
+  # Camino de reserva. Reutiliza el CI ENTERO —los mismos 600 y pico de líneas de
+  # verificación y las mismas versiones fijadas de Quarto y Typst— compilando el
+  # commit que el tag apunta, que es lo que se publicará.
   verificar:
+    needs: localizar
+    if: needs.localizar.outputs.run_id == ''
     uses: ./.github/workflows/ci.yml
 
   publicar:
-    needs: verificar
+    needs: [localizar, verificar]
+    # verificar se salta en el camino rápido, y un job saltado NO satisface un
+    # needs a secas: sin esta condición, reutilizar no publicaría nunca.
+    if: >-
+      !cancelled()
+      && needs.localizar.result == 'success'
+      && (needs.verificar.result == 'success' || needs.verificar.result == 'skipped')
     runs-on: ubuntu-latest
     permissions:
       contents: write        # gh release create necesita escribir en el repo
+      actions: read          # bajar artefactos de otro run necesita leerlos
     steps:
       - name: Descargar repositorio
         uses: actions/checkout@v7
@@ -40,19 +145,36 @@ jobs:
         with:
           # Los cuatro artefactos que sube el CI (manuales-spl-pdf/epub/rag/web). Se
           # aplanan en un solo directorio: la release los quiere sueltos, no en
-          # tres carpetas.
+          # cuatro carpetas.
           pattern: manuales-spl-*
           path: entregables
           merge-multiple: true
+          # El run del CI que validó este commit, o el propio si hubo que
+          # compilar aquí. Un solo camino de código para los dos casos; bajar de
+          # otro run exige además el token.
+          run-id: ${{ needs.localizar.outputs.run_id || github.run_id }}
+          github-token: ${{ github.token }}
 
-      - name: Comprobar que están los 36
-        # El CI ya verifica que hay 9 de cada antes de subirlos, pero aquí se
-        # confirma que la descarga los ha traído: una release con menos
-        # entregables de los que dice se publicaría igual de contenta.
+      - name: Comprobar que están los entregables
+        # El CI ya verifica esto mismo antes de subirlos, pero aquí se confirma
+        # que la descarga los ha traído: una release con menos entregables de los
+        # que dice se publicaría igual de contenta.
+        #
+        # Se cuenta POR TIPO y no por total: un total sigue cuadrando aunque
+        # falten tres EPUB y sobren tres PDF. Diez son los nueve libros más el
+        # manual completo (`make completo`), que no tiene paquete web.
         run: |
-          n=$(find entregables -type f \( -name '*.pdf' -o -name '*.epub' -o -name '*.md' -o -name '*.web.tar.gz' \) | wc -l)
-          [ "$n" -eq 36 ] || { echo "::error::Se esperaban 36 entregables y hay $n"; exit 1; }
-          echo "36 entregables recogidos."
+          pdfs=$(ls entregables/*.pdf 2>/dev/null | wc -l)
+          epubs=$(ls entregables/*.epub 2>/dev/null | wc -l)
+          mds=$(ls entregables/*.md 2>/dev/null | wc -l)
+          webs=$(ls entregables/*.web.tar.gz 2>/dev/null | wc -l)
+          errores=0
+          [ "$pdfs" -eq 10 ] || { echo "::error::Se esperaban 10 PDF (9 libros + completo) y hay $pdfs"; errores=1; }
+          [ "$epubs" -eq 10 ] || { echo "::error::Se esperaban 10 EPUB (9 libros + completo) y hay $epubs"; errores=1; }
+          [ "$mds" -eq 10 ] || { echo "::error::Se esperaban 10 Markdown para RAG (9 libros + completo) y hay $mds"; errores=1; }
+          [ "$webs" -eq 9 ] || { echo "::error::Se esperaban 9 paquetes web y hay $webs"; errores=1; }
+          [ "$errores" -eq 0 ] || exit 1
+          echo "39 entregables recogidos: 10 PDF, 10 EPUB, 10 Markdown para RAG y 9 paquetes web."
 
       - name: Redactar las notas
         run: bash .github/notas-release.sh "${GITHUB_REF_NAME}" > notas.md
