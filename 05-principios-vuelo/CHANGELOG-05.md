@@ -16,6 +16,10 @@ rompe la compilación.
 
 ## [En curso]
 
+### Cambiado
+
+* **Glosario, entrada «IAS»** — añade el encadenado IAS → TAS → GS que sólo estaba en el libro 09, para que los tres libros que definen el término digan lo mismo. Lo que ya decía no cambia.
+
 ### Maqueta y producción
 
 * **cap04, hilo de lana** — la figura pasa de tres paneles apilados a tres paneles en fila, y baja de 2,7 MB a 1,3 MB. El pie decía «de arriba abajo» y ahora dice «de izquierda a derecha»; el orden de los estados —resbale, coordinado, derrape— no cambia, y cada panel sigue rotulado dentro de la propia ilustración.

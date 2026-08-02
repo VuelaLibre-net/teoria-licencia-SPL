@@ -38,8 +38,8 @@ Acrónimos y términos técnicos de comunicaciones aeronáuticas para la licenci
 **FIS (Servicio de Información de Vuelo / Flight Information Service)**
 : Servicio cuya finalidad es facilitar asesoramiento e información útiles para la realización segura y eficaz de los vuelos.
 
-**FPL (Flight Plan — Plan de Vuelo)**
-: Datos del vuelo previsto que el piloto presenta ante las autoridades ATS antes de operar donde se preste servicio de control de tránsito aéreo (clases B, C y D, o aeródromos controlados; en clase E el VFR no necesita plan de vuelo, ni radio, ni autorización). Incluye tipo de aeronave, indicativo, aeródromo de origen y destino, ruta prevista, nivel de crucero y hora estimada.
+**FPL (Plan de vuelo / Flight Plan)**
+: Datos del vuelo previsto que el piloto presenta ante las autoridades ATS antes de operar donde se preste servicio de control de tránsito aéreo (clases B, C y D, o aeródromos controlados; en clase E el VFR no necesita plan de vuelo, ni radio, ni autorización). Incluye tipo de aeronave, indicativo, aeródromo de origen y destino, ruta prevista, nivel de crucero y hora estimada. Es obligatorio además en todo vuelo que cruce una frontera.
 
 **Interceptación (interception)**
 : Maniobra por la que una aeronave militar identifica a una aeronave civil y le da instrucciones mediante señales visuales o radio, regulada por SERA.11015. La aeronave interceptada debe seguir las instrucciones visuales del interceptor, notificarlo al ATS si es posible, intentar contacto en 121,5 MHz y seleccionar 7700 en el transpondedor; las instrucciones del interceptor prevalecen sobre las de cualquier otra fuente mientras se solicita aclaración.
@@ -81,7 +81,7 @@ Acrónimos y términos técnicos de comunicaciones aeronáuticas para la licenci
 : Reglas del aire comunes establecidas por el Reglamento de Ejecución (UE) n.º 923/2012.
 
 **Squawk**
-: Código de cuatro dígitos en base octal (0–7) que el transpondedor emite al ser interrogado por el radar secundario (SSR), permitiendo al controlador identificar la aeronave en pantalla. Código VFR estándar en Europa: 7000. Los códigos 7700 (emergencia), 7600 (NORDO) y 7500 (interferencia ilícita) son de uso exclusivo en esas situaciones.
+: Código de cuatro dígitos en base octal (0–7) que el transpondedor emite al ser interrogado por el radar secundario (SSR), permitiendo al controlador identificar la aeronave en pantalla. Código VFR estándar en Europa: 7000. Los códigos 7700 (emergencia), 7600 (fallo de radio, NORDO) y 7500 (interferencia ilícita) son de uso exclusivo en esas situaciones.
 
 **SSR (Secondary Surveillance Radar — Radar Secundario de Vigilancia)**
 : Radar que interroga a los transpondedores a bordo y obtiene información codificada: código **squawk** (Modo A), altitud barométrica (Modo C) e identidad extendida (Modo S). Complementa al radar primario añadiendo en pantalla la etiqueta con número de vuelo y altitud.

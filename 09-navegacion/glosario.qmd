@@ -51,7 +51,7 @@ Este glosario reúne las definiciones y acrónimos más relevantes de Navegació
 : Servicio cuya finalidad es facilitar asesoramiento e información útiles para la realización segura y eficaz de los vuelos.
 
 **FPL (Plan de vuelo / Flight Plan)**
-: Información estructurada que se suministra a los servicios de tránsito aéreo sobre un vuelo proyectado, siendo obligatorio en cruce de fronteras o espacio controlado.
+: Datos del vuelo previsto que el piloto presenta ante las autoridades ATS antes de operar donde se preste servicio de control de tránsito aéreo (clases B, C y D, o aeródromos controlados; en clase E el VFR no necesita plan de vuelo, ni radio, ni autorización). Incluye tipo de aeronave, indicativo, aeródromo de origen y destino, ruta prevista, nivel de crucero y hora estimada. Es obligatorio además en todo vuelo que cruce una frontera.
 
 **GNSS (Sistema Global de Navegación por Satélite)**
 : Término genérico para los sistemas de posicionamiento por satélite (GPS, Galileo, GLONASS, BeiDou). Necesita captar al menos cuatro satélites para una posición tridimensional.
@@ -66,7 +66,7 @@ Este glosario reúne las definiciones y acrónimos más relevantes de Navegació
 : Referencia lineal grande y bien definida (una costa, una cordillera, una autopista) que se sigue para reorientarse cuando hay incertidumbre de posición.
 
 **IAS (Velocidad indicada / Indicated Air Speed)**
-: Velocidad de la aeronave respecto al aire circundante tal como la indica el anemómetro, sin correcciones por temperatura ni densidad. En navegación es el punto de partida del cálculo: corregida por densidad da la TAS y, combinada con el viento, la GS; nunca se razona con la IAS a secas.
+: Velocidad de la aeronave respecto al aire circundante tal como la indica el anemómetro, sin correcciones por temperatura ni densidad. Es la referencia para todos los límites aerodinámicos y estructurales (V~NE~, V~A~, velocidades de pérdida y curva polar). En navegación es además el punto de partida del cálculo: corregida por densidad da la TAS y, combinada con el viento, la GS; nunca se razona con la IAS a secas.
 
 **IGC (Registrador de vuelo / Logger)**
 : Dispositivo electrónico, certificado por la _International Gliding Commission_ (Comisión Internacional de Vuelo a Vela), que graba la traza GPS, la altitud de presión barométrica y una firma digital en un archivo `.igc` infalsificable, probando el paso por los puntos de viraje para validar récords y medallas FAI.
@@ -123,7 +123,7 @@ Este glosario reúne las definiciones y acrónimos más relevantes de Navegació
 : Reglas del aire comunes establecidas por el Reglamento de Ejecución (UE) n.º 923/2012.
 
 **Squawk**
-: Código de cuatro dígitos en base octal (0–7) que el transpondedor emite al ser interrogado por el radar secundario (SSR), permitiendo al controlador identificar la aeronave en pantalla. Código VFR estándar en Europa: 7000. Los códigos 7700 (emergencia), 7600 (fallo de radio) y 7500 (interferencia ilícita) son de uso exclusivo en esas situaciones.
+: Código de cuatro dígitos en base octal (0–7) que el transpondedor emite al ser interrogado por el radar secundario (SSR), permitiendo al controlador identificar la aeronave en pantalla. Código VFR estándar en Europa: 7000. Los códigos 7700 (emergencia), 7600 (fallo de radio, NORDO) y 7500 (interferencia ilícita) son de uso exclusivo en esas situaciones.
 
 **Tablilla de desvíos**
 : Tarjeta instalada a la vista del piloto que indica la corrección a aplicar a la brújula en cada rumbo para compensar el desvío propio de la aeronave.

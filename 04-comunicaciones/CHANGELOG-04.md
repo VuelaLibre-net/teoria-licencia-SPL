@@ -16,6 +16,10 @@ rompe la compilación.
 
 ## [En curso]
 
+### Cambiado
+
+* **Glosario, entradas «FPL» y «Squawk»** — «FPL» pasa a titularse como el resto de la colección (`Plan de vuelo / Flight Plan`, español primero) y recoge la obligación en vuelos que cruzan frontera, que sólo estaba en los libros 07 y 09. En «Squawk», el 7600 se glosa como «fallo de radio, NORDO» en vez de sólo «NORDO». Es la misma definición que llevan ahora los libros 07 y 09.
+
 ## [1.0-rc.11] — 31 de julio de 2026
 
 **Qué releer:** **cap02, cambio y abandono de frecuencia.** La figura pasa de ilustrar la idea a desarrollar el intercambio completo, con fraseología.

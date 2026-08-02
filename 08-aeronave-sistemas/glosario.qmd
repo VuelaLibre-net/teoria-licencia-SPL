@@ -78,7 +78,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Conocimi
 : Capa exterior de resina de poliéster que protege la estructura de fibra contra la humedad y da el acabado liso característico. Sus enemigos son la radiación UV y los cambios bruscos de temperatura, que provocan el craqueado superficial.
 
 **Hipoxia**
-: Estado fisiológico de deficiencia de oxígeno en las células y tejidos del cuerpo humano, provocado al volar a gran altura por la reducción de la presión parcial de oxígeno en la atmósfera.
+: Estado fisiológico de deficiencia de oxígeno en las células y tejidos del cuerpo humano, provocado al volar a gran altura por la reducción de la presión parcial de oxígeno en la atmósfera. Existen cuatro tipos: hipóxica (baja presión atmosférica, la más frecuente en planeador), hipémica (transporte mermado por monóxido de carbono o tabaquismo), estancada (circulación reducida, por ejemplo por fuerzas G elevadas en virajes cerrados) e histotóxica (alcohol, drogas o medicamentos).
 
 **Larguero (Spar)**
 : Viga principal que recorre el ala de punta a punta y soporta las cargas de flexión en vuelo. Un daño estructural en el larguero deja el ala fuera de servicio.
@@ -135,4 +135,4 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Conocimi
 : Instrumento que indica la velocidad vertical del planeador. Es la herramienta esencial del vuelo sin motor para detectar y centrar ascendencias; en su variante de energía total descuenta las maniobras del piloto.
 
 **V~RA~ (Velocidad máxima en aire turbulento / Rough Air Speed)**
-: Velocidad máxima a la que puede volarse en aire turbulento. En la esfera del anemómetro es el límite entre el arco verde y el amarillo (CS 22.1545). No debe confundirse con la velocidad de maniobra (V~A~), que es un límite estructural y no se marca en la esfera; su tratamiento aerodinámico corresponde al **Libro 5 — Principios de vuelo**, capítulo 5.
+: Velocidad máxima a la que puede volarse en aire turbulento. Es la marca que separa los arcos del anemómetro según CS 22.1545: en la V~RA~ termina el arco verde (operación normal) y empieza el amarillo (precaución, solo aire en calma). No debe confundirse con la V~A~, que es un límite estructural frente a deflexiones de mando y no se marca en la esfera, aunque en muchos veleros ambas tengan valores próximos.

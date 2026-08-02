@@ -16,6 +16,10 @@ rompe la compilación.
 
 ## [En curso]
 
+### Cambiado
+
+* **Glosario, entrada «FPL»** — se adopta la del libro 04, que detalla en qué espacios aéreos hace falta el plan de vuelo y qué datos incluye. Conserva la obligación en vuelos que cruzan frontera, que era lo propio de esta versión.
+
 ## [0.9.1] — 1 de agosto de 2026
 
 **Qué releer:** **cap02, desplazamiento de la polar con el peso.** Se actualiza el gráfico explicativo del efecto del peso sobre la polar de velocidades (`07-cap02-polar-peso.png`).

@@ -75,7 +75,7 @@ Este glosario recoge las definiciones y acrónimos esenciales de la aerodinámic
 : Efecto secundario indeseable al accionar los alerones para iniciar un viraje. El alerón que baja (ala exterior) genera más sustentación y también más resistencia inducida, frenando ese lado y tirando del morro en dirección contraria al giro. Es especialmente pronunciado en planeadores de gran envergadura. Se corrige con coordinación pie-mano: aplicar palanca y pedal en la misma dirección simultáneamente.
 
 **IAS (Velocidad indicada / Indicated Air Speed)**
-: Velocidad de la aeronave respecto al aire circundante tal como la indica el anemómetro, sin correcciones por temperatura ni densidad. Es la referencia para todos los límites aerodinámicos y estructurales (V~NE~, V~A~, velocidades de pérdida y curva polar).
+: Velocidad de la aeronave respecto al aire circundante tal como la indica el anemómetro, sin correcciones por temperatura ni densidad. Es la referencia para todos los límites aerodinámicos y estructurales (V~NE~, V~A~, velocidades de pérdida y curva polar). En navegación es además el punto de partida del cálculo: corregida por densidad da la TAS y, combinada con el viento, la GS; nunca se razona con la IAS a secas.
 
 **Mando diferencial de alerones**
 : Sistema de varillaje que hace que el alerón que sube (ala interior del giro) recorra un ángulo mayor que el alerón que baja (ala exterior). Al generar más resistencia parásita en el ala interior, compensa parcialmente la resistencia inducida del ala exterior y reduce la guiñada adversa de forma mecánica. No la elimina completamente: la coordinación pie-mano sigue siendo necesaria.

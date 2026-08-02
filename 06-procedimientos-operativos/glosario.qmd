@@ -26,8 +26,8 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Procedim
 **Circuito de tráfico (Circuito de aeródromo)**
 : Trayectoria patrón y ordenada que describe una aeronave para realizar una aproximación y aterrizaje seguro. En planeadores consta típicamente de viento cruzado, viento en cola, base y final.
 
-**Engelamiento (Icing)**
-: Formación y acumulación de hielo sobre la estructura del planeador (borde de ataque, cúpula o superficies de control) al volar a través de humedad visible con temperaturas bajo cero, degradando drásticamente el rendimiento aerodinámico y aumentando la velocidad de pérdida.
+**Engelamiento (icing)**
+: Formación de hielo en las superficies del planeador al volar en zonas con humedad visible y temperatura negativa (especialmente entre 0 °C y −15 °C). Altera el perfil alar, aumenta la velocidad de pérdida (**stall speed**) y puede opacificar la cúpula. Los planeadores no disponen de sistemas antihielo: la medida correctiva es descender a niveles de temperatura positiva.
 
 **Estela turbulenta (Wake turbulence)**
 : Turbulencia invisible y peligrosa (vórtices de punta de ala o flujo descendente de rotor) generada por el paso de aeronaves de gran masa o helicópteros en sustentación, que puede desestabilizar o dañar gravemente a un planeador que la atraviese.
@@ -78,7 +78,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Procedim
 : Capacidad de despegue y ascenso autónomo del planeador utilizando una unidad de potencia auxiliar motora integrada en la estructura (motoveleros TMG o veleros de motor retráctil).
 
 **Térmica**
-: Columna o burbuja de aire caliente ascendente que se origina por el calentamiento solar desigual de la superficie del terreno y que constituye la fuente de sustentación fundamental para el vuelo sin motor.
+: Corriente convectiva ascendente de aire formada por el calentamiento diferencial del suelo. El sol calienta el terreno, el terreno calienta el aire en contacto y este asciende por flotabilidad. Es la fuente principal de sustentación en el vuelo a vela de distancia. Su intensidad depende del diferencial de temperatura suelo–atmósfera libre.
 
 **Torno (Lanzamiento por torno / Winch)**
 : Método de lanzamiento en el que un planeador es acelerado a alta velocidad sobre la pista mediante el enrollado rápido de un cable por un motor potente estacionario en el extremo de la pista, elevándolo hasta la altura de suelta en un ascenso muy inclinado.

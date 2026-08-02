@@ -16,6 +16,10 @@ rompe la compilación.
 
 ## [En curso]
 
+### Cambiado
+
+* **Glosario, entradas «FPL», «IAS» y «Squawk»** — «FPL» adopta la del libro 04, que detalla espacios aéreos y contenido del plan, sin perder la obligación en vuelos que cruzan frontera. «IAS» conserva el encadenado IAS → TAS → GS y añade la referencia a los límites aerodinámicos del libro 03. En «Squawk», el 7600 se glosa como «fallo de radio, NORDO».
+
 ## [0.9.0] — 1 de agosto de 2026
 
 **Qué releer:** **cap01, cap02, cap04, cap05, cap06 y cap07.** Se incorporan e integran nuevas ilustraciones y gráficos en español para coordenadas, tablilla de desvíos, triángulo de viento, triangulación, dispositivo GNSS en cabina e interacción con ATC/ATS, y se aclara la responsabilidad del PIC en aeródromos no controlados.
