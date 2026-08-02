@@ -324,7 +324,7 @@ $(rag_completo): $(fuentes_completo) tools/rag/construir.sh tools/rag/rag.lua re
 	    y=$$(echo $$iso | cut -d- -f1); m=$$(echo $$iso | cut -d- -f2); d=$$(echo $$iso | cut -d- -f3); \
 	    set -- $(MESES); shift $$(expr $$m - 1); \
 	    echo "$$(expr $$d + 0) de $$1 de $$y")" \
-	  "" \
+	  "$(call estado_libro,recursos-completo)" \
 	  "completo" \
 	  $@
 	@echo "✓ Markdown para RAG de Manual Completo generado en $@"
