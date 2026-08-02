@@ -16,6 +16,9 @@ rompe la compilación.
 
 ## [En curso]
 
+### Cambiado
+
+* **cap07, resumen del capítulo** — el post-it enumeraba las clases controladas como «A, C, D y E» y se saltaba la B, que sí aparece en el recuadro de Airmanship del propio capítulo. Ahora dice que en B, C y D el VFR necesita autorización y comunicación bilateral, con la nota de que la B no se usa en España. La tabla de clases no cambia: mantiene a propósito sólo las que se vuelan aquí.
 ## [1.0-rc.12] — 31 de julio de 2026
 
 ### Maqueta y producción

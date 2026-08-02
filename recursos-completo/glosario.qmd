@@ -59,8 +59,8 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 **Altocúmulo lenticular (ACSL)**
 : Nube en forma de lenteja o platillo, estacionaria respecto al terreno a pesar de los vientos intensos. Su presencia indica flujo laminar de onda de montaña en la vertical. Es la señal visual que invita al vuelo de onda.
 
-**Altura de decisión (Decision Height / DH)**
-: Límite de altura preestablecido sobre el terreno por debajo del cual el piloto abandona la búsqueda de térmicas y se centra exclusivamente en el aterrizaje. En travesía se aplica como escalera: a 600 metros se elige la zona de aterrizaje, a 450 metros el campo definitivo y a 300 metros el piloto se compromete con el circuito.
+**Altura de decisión**
+: Límite de altura preestablecido sobre el terreno por debajo del cual el piloto abandona la búsqueda de térmicas y se centra exclusivamente en el aterrizaje. En travesía se aplica como escalera: a 600 metros se elige la zona de aterrizaje, a 450 metros el campo definitivo y a 300 metros el piloto se compromete con el circuito. No confundir con la *decision height* (DH) de la aviación instrumental, que es la altura a la que hay que iniciar el motor y al aire si no se tiene referencia visual: aquí no hay aproximación por instrumentos ni frustrada posible.
 
 **AMA (Altitud Mínima de Área)**
 : Cifra impresa en cada cuadrícula de la carta (paralelos y meridianos cada 30') que indica una altitud de seguridad sobre el obstáculo más alto del recuadro, con un margen mínimo de 1000 ft (2000 ft en alta montaña). Se lee como millares y centenares de pies.

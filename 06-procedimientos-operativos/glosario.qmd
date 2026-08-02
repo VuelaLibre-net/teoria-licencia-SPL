@@ -8,8 +8,8 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Procedim
 **Aerotow (Remolque por avión)**
 : Método de lanzamiento en el que una aeronave a motor remolca al planeador mediante un cable flexible de longitud normalizada (generalmente entre 30 y 60 metros) hasta una altitud determinada.
 
-**Altura de decisión (Decision Height / DH)**
-: Límite de altura preestablecido sobre el terreno por debajo del cual el piloto abandona la búsqueda de térmicas y se centra exclusivamente en el aterrizaje. En travesía se aplica como escalera: a 600 metros se elige la zona de aterrizaje, a 450 metros el campo definitivo y a 300 metros el piloto se compromete con el circuito.
+**Altura de decisión**
+: Límite de altura preestablecido sobre el terreno por debajo del cual el piloto abandona la búsqueda de térmicas y se centra exclusivamente en el aterrizaje. En travesía se aplica como escalera: a 600 metros se elige la zona de aterrizaje, a 450 metros el campo definitivo y a 300 metros el piloto se compromete con el circuito. No confundir con la *decision height* (DH) de la aviación instrumental, que es la altura a la que hay que iniciar el motor y al aire si no se tiene referencia visual: aquí no hay aproximación por instrumentos ni frustrada posible.
 
 **Amerizaje (Ditching)**
 : Aterrizaje forzoso y controlado de una aeronave terrestre sobre una superficie de agua.

@@ -19,6 +19,7 @@ rompe la compilación.
 ### Cambiado
 
 * **Glosario, entradas «Engelamiento» y «Térmica»** — se adoptan las del libro 03, que son más completas: «Engelamiento» añade el margen de 0 °C a −15 °C, la cúpula y que el planeador no lleva antihielo; «Térmica» explica el mecanismo y de qué depende su intensidad. El rótulo pasa a `Engelamiento (icing)`, en minúscula como el resto de la colección.
+* **Glosario, entrada «Altura de decisión»** — pierde el rótulo inglés «Decision Height / DH», que es un término normalizado de aproximación por instrumentos y no lo que aquí se describe. La escalera de 600/450/300 m no cambia; se añade una línea que advierte de la confusión, como ya hacen las entradas `AD`, `V~RA~` y `TMZ`.
 
 ### Corregido
 
