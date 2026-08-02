@@ -16,6 +16,22 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.12] — 2 de agosto de 2026
+
+**Qué releer:** **Glosario, entradas «Hipoxia», «DECIDE», «SHELL», «AUT / TUE», «SAO» y «Part-MED».** Cinco correcciones de contenido: la hipoxia no es «cerebral» ni hay «presión transferencial», el modelo DECIDE tenía dos pasos cambiados de sitio, SHELL no lo desarrolló la OACI, las exenciones terapéuticas no las concede WADA y Part-SAO no fija ningún umbral de oxígeno —lo fija su AMC, y sólo por defecto—.
+
+### Cambiado
+
+* **Glosario, rótulos de `AME` y `OACI`** — adoptan la forma del libro 01, con el término español delante y el inglés completo detrás. `AME` sólo llevaba el inglés y `OACI` dejaba «ICAO» sin desarrollar.
+* **Glosario, ocho rótulos** — `ADM`, `SRM`, `TUC`, `WADA`, `AUT / TUE`, `SAO` y `SFCL` sólo llevaban el inglés, y en cinco de ellos el nombre español estaba repetido como primera frase de la definición: ahora va en el rótulo y no se dice dos veces. `SAO` y `SFCL` adoptan además el desarrollo que ya usaba el libro 01 para `Part-SAO` y `Part-SFCL`. La entrada `MED (Part-MED)` pasa a `Part-MED (Requisitos médicos aeronáuticos)`, se corrige que no es una «subparte» sino el anexo IV del Reglamento (UE) n.º 1178/2011, y se añade que para la SPL basta el certificado médico LAPL.
+
+### Corregido
+
+* **Glosario, entrada «Hipoxia»** — decía «déficit de oxígeno **cerebral**» y hablaba de «falta de presión **transferencial** en altitud». La hipoxia afecta a células y tejidos, no sólo al cerebro, y el término es *presión parcial* de oxígeno; «transferencial» no existe y no aparecía en ningún otro punto de la colección. La definición nueva parte de la redacción correcta y conserva los cuatro tipos, alineados con lo que ya decía cap04. Es la misma definición que llevan ahora los libros 03 y 08.
+* **Glosario, entrada «DECIDE»** — el modelo tenía dos pasos cambiados de sitio: ponía «Implementar» donde va *Identify* (identificar las acciones posibles) y «Determinar» donde va *Do* (ejecutarlas), de modo que el alumno memorizaba primero implementar y después determinar. Los seis pasos van ahora con su término original y su glosa.
+* **Glosario, entrada «SHELL»** — el modelo no lo desarrolló la OACI: es de Edwards (1972), completado por Hawkins (1975); la OACI lo adoptó y lo difundió.
+* **Glosario, entrada «AUT / TUE»** — WADA no concede exenciones terapéuticas. Las conceden las organizaciones nacionales antidopaje y las federaciones internacionales; WADA fija el estándar y revisa las concesiones. Se retira además la mención a las autoridades aeronáuticas, que no intervienen.
+* **Glosario, entrada «SAO»** — decía que Part-SAO «fija la obligatoriedad del oxígeno por encima de 10.000 ft», y eso contradecía al propio cap04 del libro. SAO.OP.150 no da ninguna cifra: obliga al piloto a valorar si la falta de oxígeno merma a los ocupantes. Los 10.000 ft son del AMC1 y sólo aplican cuando el piloto no puede hacer esa valoración.
 ## [1.0-rc.11] — 31 de julio de 2026
 
 ### Maqueta y producción

@@ -195,6 +195,19 @@ jobs:
       # sabe.
       run: python3 .github/comprobar-negrita.py
 
+    - name: Comprobar que los glosarios están alfabetizados
+      # Un glosario desordenado no rompe nada ni salta a la vista: son 418
+      # entradas en nueve ficheros, y una que se cuele dos posiciones más abajo
+      # sólo la descubre quien la busque con el dedo y no la encuentre.
+      # Aparecieron siete así, y el glosario unificado sumaba otras tantas
+      # porque ordenaba con un str.lower() a secas, que deja «Ángulo de ataque»
+      # detrás de «Zonas P/R/D».
+      #
+      # El criterio vive en tools/consolidar-completo.py (clave_glosario), que
+      # es quien ordena el unificado; el guardián lo importa de allí para que
+      # los dos no puedan divergir.
+      run: python3 .github/comprobar-orden-glosario.py
+
     - name: Comprobar que los subíndices de velocidad no quedan literales
       # `V~A~` funciona, pero `V~max planeo~` no: Pandoc no admite espacios sin
       # escapar dentro del subíndice y lo publica tal cual. Es una errata de
@@ -291,7 +304,7 @@ jobs:
       # La salida se guarda para poder mirarla en el paso siguiente: Typst avisa
       # de las fuentes que no encuentra por stderr, pero NO falla por ello, así
       # que el aviso se pierde entre miles de líneas y `make` sale con 0.
-      run: set -o pipefail && make 2>&1 | tee build.log
+      run: set -o pipefail && make 2>&1 | tee build.log && make completo 2>&1 | tee -a build.log
 
     - name: Comprobar que ninguna fuente ha caído a otra
       # `warning: unknown font family: X` significa que Typst no encontró la
@@ -325,11 +338,24 @@ jobs:
         # y evaluarían el estado contra la nada, en verde.
         libro_de() {
           base=$(basename "$1")
+          # El manual completo no es uno de los nueve directorios: sus fuentes
+          # viven en recursos-completo/ y su versión, en _quarto-completo.yml.
+          # Sin este caso, el guardián no sabía a qué libro correspondía y
+          # abortaba con error justo en el décimo entregable.
+          case "$base" in manual-completo-*) echo "recursos-completo"; return 0 ;; esac
           for d in 0*/; do
             d=${d%/}
             case "$base" in "$d"-*) echo "$d"; return 0 ;; esac
           done
           return 1
+        }
+
+        # La versión sale de _quarto.yml salvo en el manual completo, que la
+        # lleva en _quarto-completo.yml. Mismo apaño que estado_libro en el
+        # Makefile, y por el mismo motivo.
+        version_de() {
+          sed -n 's/^version: *"\{0,1\}\([^"]*\)"\{0,1\}/\1/p' \
+            "$1/_quarto.yml" "$1/_quarto-completo.yml" 2>/dev/null | head -1
         }
 
         for pdf in build/pdf/*.pdf; do
@@ -408,7 +434,7 @@ jobs:
           # Completado = mayor >= 1 y sin sufijo de pre-lanzamiento: un 1.0-rc.4
           # es ANTERIOR a la 1.0.0, no posterior.
           libro=$(libro_de "$pdf") || { echo "::error::No sé a qué libro corresponde $pdf"; errores=1; continue; }
-          version=$(sed -n 's/^version: *"\{0,1\}\([^"]*\)"\{0,1\}/\1/p' "$libro/_quarto.yml" | head -1)
+          version=$(version_de "$libro")
           mayor=${version%%.*}
           case "$version" in *-*) pre=1 ;; *) pre=0 ;; esac
           etiquetas='EN REVISIÓN|CREANDO ILUSTRACIONES|EN DESARROLLO'
@@ -573,7 +599,7 @@ jobs:
           # agua, así que el aviso va como bloque al principio; pero tiene que
           # estar: quien descargue un EPUB debe saber si el libro está terminado.
           libro=$(libro_de "$epub") || { echo "::error::No sé a qué libro corresponde $epub"; errores=1; continue; }
-          version=$(sed -n 's/^version: *"\{0,1\}\([^"]*\)"\{0,1\}/\1/p' "$libro/_quarto.yml" | head -1)
+          version=$(version_de "$libro")
           mayor=${version%%.*}
           case "$version" in *-*) pre=1 ;; *) pre=0 ;; esac
           etiquetas='En revisión|Creando ilustraciones|En desarrollo'
@@ -639,7 +665,7 @@ jobs:
           # Estado editorial, como en el PDF y el EPUB. Quien cargue esto en un
           # cuaderno debe saber si el libro está terminado.
           libro=$(libro_de "$md") || { echo "::error::No sé a qué libro corresponde $md"; errores=1; continue; }
-          version=$(sed -n 's/^version: *"\{0,1\}\([^"]*\)"\{0,1\}/\1/p' "$libro/_quarto.yml" | head -1)
+          version=$(version_de "$libro")
           mayor=${version%%.*}
           case "$version" in *-*) pre=1 ;; *) pre=0 ;; esac
           etiquetas='En revisión|Creando ilustraciones|En desarrollo'
@@ -660,9 +686,12 @@ jobs:
         epubs=$(ls build/epub/*.epub 2>/dev/null | wc -l)
         mds=$(ls build/rag/*.md 2>/dev/null | wc -l)
         webs=$(ls build/web/*.web.tar.gz 2>/dev/null | wc -l)
-        [ "$pdfs" -eq 9 ] || { echo "::error::Se esperaban 9 PDF y hay $pdfs"; errores=1; }
-        [ "$epubs" -eq 9 ] || { echo "::error::Se esperaban 9 EPUB y hay $epubs"; errores=1; }
-        [ "$mds" -eq 9 ] || { echo "::error::Se esperaban 9 Markdown para RAG y hay $mds"; errores=1; }
+        # Diez: los nueve libros más el manual completo. El completo no tiene
+        # paquete web —`make completo` sólo hace PDF, EPUB y RAG—, así que ahí
+        # se siguen esperando nueve.
+        [ "$pdfs" -eq 10 ] || { echo "::error::Se esperaban 10 PDF (9 libros + completo) y hay $pdfs"; errores=1; }
+        [ "$epubs" -eq 10 ] || { echo "::error::Se esperaban 10 EPUB (9 libros + completo) y hay $epubs"; errores=1; }
+        [ "$mds" -eq 10 ] || { echo "::error::Se esperaban 10 Markdown para RAG (9 libros + completo) y hay $mds"; errores=1; }
         [ "$webs" -eq 9 ] || { echo "::error::Se esperaban 9 paquetes web y hay $webs"; errores=1; }
 
         exit $errores

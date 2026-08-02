@@ -14,7 +14,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes del marco n
 **AFM (Manual de Vuelo de la Aeronave / Aircraft Flight Manual)**
 : Documento aprobado que contiene las limitaciones, los procedimientos y los datos necesarios para operar la aeronave.
 
-**AGL (Sobre el nivel del terreno / Above Ground Level)**
+**AGL (Altura sobre el terreno / Above Ground Level)**
 : Altura referida a la superficie del terreno situada debajo de la aeronave o del punto considerado.
 
 **AIC (Circular de Información Aeronáutica / Aeronautical Information Circular)**
@@ -44,7 +44,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes del marco n
 **AMP (Programa de Mantenimiento de la Aeronave / Aircraft Maintenance Programme)**
 : Programa que establece las tareas y los intervalos de mantenimiento aplicables a una aeronave.
 
-**AMSL (Sobre el nivel medio del mar / Above Mean Sea Level)**
+**AMSL (Altitud sobre el nivel del mar / Above Mean Sea Level)**
 : Altitud referida al nivel medio del mar.
 
 **APP (Control de Aproximación / Approach Control)**
@@ -87,7 +87,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes del marco n
 : Organización aprobada que puede ejercer privilegios de mantenimiento y de gestión de la aeronavegabilidad continuada dentro de su ámbito de aprobación.
 
 **CAVOK (Visibilidad, nubes y tiempo presente mejores que los valores o condiciones prescritos)**
-: Término de los informes meteorológicos que sustituye determinados datos de visibilidad, tiempo presente y nubes cuando se cumplen simultáneamente las condiciones establecidas.
+: Término de los informes meteorológicos que sustituye determinados datos de visibilidad, tiempo presente y nubes cuando se cumplen simultáneamente las condiciones establecidas: visibilidad de 10 km o más, sin nubes por debajo de 5.000 ft ni cumulonimbus, y sin tiempo significativo. El rótulo es el de OACI; en el club se oye el retroacrónimo *Ceiling And Visibility OK*, que no es la denominación oficial.
 
 **CDR (Ruta condicional / Conditional Route)**
 : Ruta ATS disponible únicamente cuando se cumplen las condiciones publicadas.
@@ -191,7 +191,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes del marco n
 **LSA (Ley de Seguridad Aérea)**
 : Denominación abreviada de la Ley 21/2003, de 7 de julio, de Seguridad Aérea.
 
-**NOTAM (Notice to airmen)**
+**NOTAM (Notice to Airmen)**
 : Aviso distribuido por telecomunicaciones que contiene información aeronáutica cuyo conocimiento oportuno es esencial para las operaciones.
 
 **OACI / ICAO (Organización de Aviación Civil Internacional / International Civil Aviation Organization)**

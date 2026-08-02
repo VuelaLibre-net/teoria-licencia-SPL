@@ -50,7 +50,7 @@ Al primer síntoma de engelamiento —escarcha en el borde del ala o cristales e
 2. Inicia el descenso hacia niveles con temperatura positiva.
 3. No esperes: el engelamiento se acelera a medida que más superficie queda cubierta.
 
-Un planeador con hielo estructural puede entrar en pérdida a velocidades muy superiores a las habituales, sin ningún síntoma previo de buffet.
+Un planeador con hielo estructural puede entrar en pérdida muy por encima de la velocidad habitual, sin ningún aviso previo de bataneo.
 :::
 
 ## Turbulencias de estela y orográficas

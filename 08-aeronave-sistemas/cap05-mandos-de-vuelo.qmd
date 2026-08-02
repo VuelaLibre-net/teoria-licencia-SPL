@@ -26,7 +26,7 @@ Controlan el planeador en sus tres ejes:
 
 La mayoría de los planeadores modernos usan varillas rígidas (*push-rods*) para la profundidad y el alabeo, por su precisión y su falta de holguras, mientras que el timón de dirección suele ir con cables de acero de alta resistencia.
 
-## Aerofrenos (spoilers)
+## Aerofrenos (airbrakes)
 
 El mando azul de la cabina acciona los aerofrenos. Su función es destruir parte de la sustentación y aumentar la resistencia, lo que te permite variar la pendiente de planeo sin tener que cambiar mucho la velocidad.
 

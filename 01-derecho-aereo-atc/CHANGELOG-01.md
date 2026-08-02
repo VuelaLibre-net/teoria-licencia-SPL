@@ -16,6 +16,16 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.13] — 2 de agosto de 2026
+
+**Qué releer:** **Glosario y el resumen de cap07.** El glosario estrena convención de rótulos y la entrada CAVOK dice ya cuáles son las condiciones. El post-it de cap07 incorpora la clase B, que el propio capítulo ya explicaba. Ninguna definición técnica cambia de fondo.
+
+### Cambiado
+
+* **cap07, resumen del capítulo** — el post-it enumeraba las clases controladas como «A, C, D y E» y se saltaba la B, que sí aparece en el recuadro de Airmanship del propio capítulo. Ahora dice que en B, C y D el VFR necesita autorización y comunicación bilateral, con la nota de que la B no se usa en España. La tabla de clases no cambia: mantiene a propósito sólo las que se vuelan aquí.
+* **Glosario, rótulos de `AGL` y `AMSL`** — pasan a «Altura sobre el terreno» y «Altitud sobre el nivel del mar», que es la forma del libro 09 y la única que distingue altura de altitud, como ya hacían las propias definiciones.
+* **Glosario, entrada «CAVOK»** — la definición dice ahora cuáles son las condiciones (10 km, sin nubes por debajo de 5.000 ft ni Cb, sin tiempo significativo) y advierte de que «Ceiling And Visibility OK» es un retroacrónimo de club, no la denominación de OACI. El rótulo, que ya era el oficial, no cambia: son los libros 03 y 04 los que se alinean con éste.
+* **Glosario, rótulo de `NOTAM`** — «Notice to Airmen» con la capitalización del resto de desarrollos ingleses de la colección.
 ## [1.0-rc.12] — 31 de julio de 2026
 
 ### Maqueta y producción

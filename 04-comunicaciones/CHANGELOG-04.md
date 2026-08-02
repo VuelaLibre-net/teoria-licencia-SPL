@@ -16,6 +16,25 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.12] — 2 de agosto de 2026
+
+**Qué releer:** **Glosario, entrada «MAYDAY».** El uso falso no lo sanciona EASA sino la ley nacional. El resto son rótulos: los doce con guion largo del libro pasan a la forma del resto de la colección.
+
+### Cambiado
+
+* **Glosario, entradas «FPL» y «Squawk»** — «FPL» pasa a titularse como el resto de la colección (`Plan de vuelo / Flight Plan`, español primero) y recoge la obligación en vuelos que cruzan frontera, que sólo estaba en los libros 07 y 09. En «Squawk», el 7600 se glosa como «fallo de radio, NORDO» en vez de sólo «NORDO». Es la misma definición que llevan ahora los libros 07 y 09.
+* **Glosario, entrada «FPL»** — se ancla en **SERA.4001 b)**, que es lo que obliga a presentarlo, y se añade el caso de las áreas o rutas designadas por la autoridad competente, que faltaba. Los supuestos que ya recogía —servicio de control, aeródromo controlado, cruce de frontera, clase E exenta— quedan verificados contra el Reglamento y no cambian.
+* **Glosario, doce rótulos con guion largo** — `AFIL`, `AIREP`, `ATIS`, `PTT`, `SAR`, `SERA`, `SSR`, `Transpondedor`, `VAC`, `VDF`, `VHF` y `VMC` pasaban el inglés delante separado por raya. Ahora siguen la forma del resto de la colección: español primero, barra, inglés. Eran los doce únicos de los nueve libros.
+* **Glosario, rótulos de `CAVOK`, `OACI`, `QFE`, `QNH` y `TWR`** — se alinean con el libro 01. Ninguna definición cambia salvo la de `CAVOK`, que gana las condiciones concretas.
+* **Glosario, rótulos de `AFIS` y `NORDO`** — `AFIS` llevaba el nombre español como primera frase de la definición y `NORDO` sólo el inglés.
+
+### Corregido
+
+* **Glosario, entrada «MAYDAY»** — el uso falso o malicioso no lo sanciona EASA, que no tipifica infracciones ni sanciona pilotos, sino la normativa nacional: en España la Ley 21/2003 y, según el caso, el Código Penal.
+
+### Maqueta y producción
+
+* **Glosario** — `Transmisión a ciegas` iba detrás de `Transpondedor`. Ninguna definición cambia.
 ## [1.0-rc.11] — 31 de julio de 2026
 
 **Qué releer:** **cap02, cambio y abandono de frecuencia.** La figura pasa de ilustrar la idea a desarrollar el intercambio completo, con fraseología.

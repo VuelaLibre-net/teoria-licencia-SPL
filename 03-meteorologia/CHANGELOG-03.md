@@ -16,6 +16,30 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.14] — 2 de agosto de 2026
+
+**Qué releer:** **Glosario, entradas «Niebla», «Bataneo» y «K-Index»; cap09, recuadro de engelamiento; cap03, tabla del K-Index.** La bruma sí impide el CAVOK, al contrario de lo que decía. Entrada nueva de «Bataneo». Bajo la tabla del K-Index se explica de dónde salen sus bandas; los valores no cambian.
+
+### Añadido
+
+* **Glosario** — entrada «Bataneo (buffet)»: qué es la vibración, que es el aviso previo a la pérdida y por qué el hielo estructural lo suprime. El término lo usaba ya el cap09 sin definirlo aquí.
+
+### Cambiado
+
+* **Glosario, entradas «Hipoxia» e «IAS»** — se unifican con las de los libros que también las definen, para que el manual completo no tenga que elegir entre versiones distintas del mismo término. «Hipoxia» gana los cuatro tipos que sólo estaban en el libro 02; «IAS» gana el encadenado IAS → TAS → GS que sólo estaba en el libro 09. Nada de lo que ya decían cambia.
+* **cap03, K-Index** — bajo la tabla de umbrales se dice de dónde salen: las bandas altas son la escala de George de probabilidad de tormenta; las tres primeras filas, una adaptación de esta colección, porque por debajo de 15 la escala meteorológica no distingue. Mismo tratamiento que ya tenía el Total Totals. Los valores de la tabla no cambian.
+* **Glosario, rótulos de `CAVOK` y `QNH`** — se alinean con el libro 01. `CAVOK` abandona el retroacrónimo «Ceiling And Visibility OK», que no es la denominación de OACI, y lo recoge dentro de la definición junto con las condiciones concretas. `QNH` recupera su glosa.
+* **Glosario, rótulos de `CAPE`, `DALR`, `SALR` y `SIGWX`** — el nombre español estaba como primera frase de la definición y ahora va en el rótulo, sin repetirse. Los nombres de mensaje meteorológico (`METAR`, `TAF`, `SIGMET`, `AIRMET`, `GAMET`, `NSC`) se dejan como están: no se traducen.
+
+### Corregido
+
+* **Glosario, entrada «Niebla»** — decía que la bruma reduce la visibilidad a entre 1.000 y 5.000 m «sin afectar el código CAVOK». Es al revés: CAVOK exige 10 km o más, así que con bruma no puede haberlo.
+* **Glosario, entrada «K-Index»** — las bandas no llevaban procedencia y parecían discrepar de la escala meteorológica. Se aclara que las altas concuerdan con la escala de George y que las bajas son la adaptación al vuelo a vela.
+
+### Maqueta y producción
+
+* **cap09, engelamiento** — el recuadro de Seguridad dice «bataneo» y no «buffet», que es el término que usan el capítulo de pérdida del libro 05 y el glosario. Se redacta además «muy por encima de la velocidad habitual» en lugar de «a velocidades muy superiores a las habituales». El aviso no cambia.
+* **Glosario** — se restituye el orden alfabético: `Cúmulo` iba detrás de `Cumulonimbus`, `IAS` detrás de `Inversión térmica` y las dos nieblas estaban invertidas. Ninguna definición cambia.
 ## [1.0-rc.13] — 31 de julio de 2026
 
 **Qué releer:** **cap09, ciclo de vida de la célula tormentosa.** La figura que acompaña al apartado era un boceto provisional —llevaba impreso «MOCKUP — ToDo: crear ilustración final»— y se ha publicado así en varias versiones. Ya es una ilustración de verdad. El texto de las tres fases no cambia; lo que cambia es que ahora la figura lo sostiene.

@@ -14,6 +14,9 @@ Este glosario contiene las definiciones y acrónimos más relevantes de la meteo
 **Atmósfera Estándar Internacional (ISA)**
 : Modelo idealizado de referencia que define los valores estándar de presión (1013,25 hPa), temperatura (15 °C) y densidad del aire a nivel del mar, con un gradiente térmico estándar de 2 °C/1.000 ft. Es la base de calibración de todos los instrumentos aeronáuticos.
 
+**Bataneo (buffet)**
+: Vibración de la estructura provocada por el aire desprendido del ala que golpea el fuselaje y la cola al acercarse al ángulo de ataque crítico. Es el aviso previo a la pérdida más perceptible, junto al morro alto y los mandos blandos. Importa en meteorología porque el hielo estructural lo suprime: con el perfil contaminado, el planeador puede entrar en pérdida muy por encima de su velocidad habitual y sin ningún aviso.
+
 **Borrasca (Depresión / L)**
 : Sistema de baja presión atmosférica caracterizado por convergencia de aire en superficie que fuerza el ascenso, el enfriamiento y la formación de nubes, frentes y precipitación. Los vientos en superficie circulan en sentido antihorario en el hemisferio norte. La zona post-frontal es a menudo la más favorable para el vuelo a vela.
 
@@ -26,11 +29,11 @@ Este glosario contiene las definiciones y acrónimos más relevantes de la meteo
 **Brisa marina (sea breeze)**
 : Viento que sopla desde el mar hacia la tierra durante el día, originado por el calentamiento diferencial entre la superficie terrestre (que se calienta más rápido) y el mar. Al encontrarse con la masa cálida continental genera una línea de convergencia que puede explotarse como fuente de ascendencias para el cross-country.
 
-**CAPE (Convective Available Potential Energy)**
-: Energía Potencial Convectiva Disponible. Cuantifica la flotabilidad acumulada de una parcela de aire desde la superficie hasta el nivel de equilibrio. Se representa como el área entre la curva de la parcela y la curva de estado en el sondeo termodinámico. Valores orientativos: < 500 J/kg (día débil), 1.000–2.500 J/kg (excelente), > 3.500 J/kg (convección severa probable).
+**CAPE (Energía Potencial Convectiva Disponible / Convective Available Potential Energy)**
+: Cuantifica la flotabilidad acumulada de una parcela de aire desde la superficie hasta el nivel de equilibrio. Se representa como el área entre la curva de la parcela y la curva de estado en el sondeo termodinámico. Valores orientativos: < 500 J/kg (día débil), 1.000–2.500 J/kg (excelente), > 3.500 J/kg (convección severa probable).
 
-**CAVOK (Ceiling And Visibility OK)**
-: Término de los informes meteorológicos que sustituye determinados datos de visibilidad, tiempo presente y nubes cuando se cumplen simultáneamente las condiciones establecidas.
+**CAVOK (Visibilidad, nubes y tiempo presente mejores que los valores o condiciones prescritos)**
+: Término de los informes meteorológicos que sustituye determinados datos de visibilidad, tiempo presente y nubes cuando se cumplen simultáneamente las condiciones establecidas: visibilidad de 10 km o más, sin nubes por debajo de 5.000 ft ni cumulonimbus, y sin tiempo significativo. El rótulo es el de OACI; en el club se oye el retroacrónimo *Ceiling And Visibility OK*, que no es la denominación oficial.
 
 **Cizalladura (wind shear)**
 : Variación brusca de la velocidad y/o dirección del viento en una distancia corta, tanto en el plano horizontal como vertical. Especialmente peligrosa en la aproximación final, donde puede provocar una pérdida súbita de sustentación por caída de la velocidad indicada.
@@ -38,17 +41,17 @@ Este glosario contiene las definiciones y acrónimos más relevantes de la meteo
 **Collado barométrico (pantano barométrico)**
 : Región de transición entre dos anticiclones y dos borrascas opuestas en la que el gradiente de presión es prácticamente nulo. Genera vientos flojos y variables, visibilidad reducida por niebla o bruma en invierno, y riesgo de tormentas locales aisladas en verano.
 
-**Cumulonimbus (Cb)**
-: Nube de desarrollo vertical extremo que puede alcanzar la tropopausa. Representa el peligro meteorológico más grave para la aviación ligera: turbulencia severa, granizo, rayos, lluvia torrencial y microbursts. La distancia de seguridad recomendada es de al menos 10–20 NM.
-
 **Cúmulo (Cu)**
 : Nube convectiva de desarrollo vertical con base plana y contornos bien definidos. Su presencia indica inestabilidad y térmicas activas. La base de los cúmulos marca el nivel de condensación por ascenso (NCA/LCL) y puede calcularse con la fórmula: (T − Td) × 400 = altitud en pies.
 
 **Cúmulo congestus (Cu con)**
 : Fase de desarrollo vertical intenso del cúmulo, previa al cumulonimbus. Sus torres de "coliflor" con contornos aún definidos señalan convección vigorosa y riesgo de sobredesarrollo hacia Cb. Cuando la parte superior pierde definición y se hace fibrosa, el Cb ya está en marcha.
 
-**DALR (Dry Adiabatic Lapse Rate)**
-: Gradiente Adiabático Seco. Ritmo al que se enfría una parcela de aire sin saturar al ascender adiabáticamente: 3 °C por cada 1.000 ft. Es la clave del efecto Foehn en sotavento y de la fórmula de base de nubes.
+**Cumulonimbus (Cb)**
+: Nube de desarrollo vertical extremo que puede alcanzar la tropopausa. Representa el peligro meteorológico más grave para la aviación ligera: turbulencia severa, granizo, rayos, lluvia torrencial y microbursts. La distancia de seguridad recomendada es de al menos 10–20 NM.
+
+**DALR (Gradiente Adiabático Seco / Dry Adiabatic Lapse Rate)**
+: Ritmo al que se enfría una parcela de aire sin saturar al ascender adiabáticamente: 3 °C por cada 1.000 ft. Es la clave del efecto Foehn en sotavento y de la fórmula de base de nubes.
 
 **DANA (Depresión Aislada en Niveles Altos)**
 : Sistema de baja presión que se desprende de la circulación general y queda aislado en altura sobre la Península Ibérica, especialmente en otoño. Genera precipitaciones intensas y tormentas severas que pueden durar días. Especialmente relevante en el área mediterránea.
@@ -93,16 +96,16 @@ Este glosario contiene las definiciones y acrónimos más relevantes de la meteo
 : Precipitación sólida formada por capas alternas de hielo transparente y opaco, resultado de múltiples recirculaciones de las gotículas en las corrientes ascendentes de un cumulonimbus. Granos de más de 2 cm de diámetro pueden perforar la cúpula o dañar estructuralmente el fuselaje de fibra. El granizo puede caer lejos del núcleo visible del Cb, bajo el yunque.
 
 **Hipoxia**
-: Estado fisiológico de deficiencia de oxígeno en las células y tejidos del cuerpo humano, provocado al volar a gran altura por la reducción de la presión parcial de oxígeno en la atmósfera.
+: Estado fisiológico de deficiencia de oxígeno en las células y tejidos del cuerpo humano, provocado al volar a gran altura por la reducción de la presión parcial de oxígeno en la atmósfera. Existen cuatro tipos: hipóxica (baja presión atmosférica, la más frecuente en planeador), hipémica (transporte mermado por monóxido de carbono o tabaquismo), estancada (circulación reducida, por ejemplo por fuerzas G elevadas en virajes cerrados) e histotóxica (alcohol, drogas o medicamentos).
+
+**IAS (Velocidad indicada / Indicated Air Speed)**
+: Velocidad de la aeronave respecto al aire circundante tal como la indica el anemómetro, sin correcciones por temperatura ni densidad. Es la referencia para todos los límites aerodinámicos y estructurales (V~NE~, V~A~, velocidades de pérdida y curva polar). En navegación es además el punto de partida del cálculo: corregida por densidad da la TAS y, combinada con el viento, la GS; nunca se razona con la IAS a secas.
 
 **Inversión térmica**
 : Capa atmosférica en la que la temperatura aumenta con la altitud en lugar de disminuir. Actúa como techo invisible que frena las térmicas por completo, limita la altura máxima de vuelo y atrapa contaminación y bruma en los niveles inferiores, degradando la visibilidad.
 
-**IAS (Velocidad indicada / Indicated Air Speed)**
-: Velocidad de la aeronave respecto al aire circundante tal como la indica el anemómetro, sin correcciones por temperatura ni densidad. Es la referencia para todos los límites aerodinámicos y estructurales (V~NE~, V~A~, velocidades de pérdida y curva polar).
-
 **K-Index (índice K)**
-: Índice de estabilidad atmosférica que combina el gradiente vertical de temperatura entre 850 hPa y 500 hPa con la humedad en niveles medios. Es el indicador diario más usado por los volovelistas: K < 5 (día débil), 5–15 (buenas térmicas), 15–20 (excelente), 20–30 (excelente con chubascos), > 30 (alta probabilidad de tormentas).
+: Índice de estabilidad atmosférica que combina el gradiente vertical de temperatura entre 850 hPa y 500 hPa con la humedad en niveles medios. Es el indicador diario más usado por los volovelistas: K < 5 (día débil), 5–15 (buenas térmicas), 15–20 (excelente), 20–30 (excelente con chubascos), > 30 (alta probabilidad de tormentas). Las bandas altas concuerdan con la escala de George de probabilidad de tormenta de masa de aire (15–20 ≈ 20 %, 31–35 ≈ 60–80 %); las bajas son una adaptación al vuelo a vela, porque por debajo de 15 la escala meteorológica no distingue: para ella son todo días sin tormenta.
 
 **LCL (Nivel de Condensación por Elevación / Lifted Condensation Level)**
 : Altitud a la que una parcela de aire, al ser elevada adiabáticamente, alcanza su punto de saturación y comienza a condensar. En la práctica, es la altura de la base de los cúmulos. En el sondeo Skew-T se obtiene donde la curva de temperatura de la parcela intersecta la curva del punto de rocío.
@@ -135,13 +138,13 @@ Este glosario contiene las definiciones y acrónimos más relevantes de la meteo
 : Ver LCL. En terminología española, equivalente al LCL: la altura a la que se forma la base de los cúmulos. Estimación rápida: (T − Td) × 400 = altura en pies.
 
 **Niebla**
-: Suspensión de gotículas de agua microscópicas que reduce la visibilidad por debajo de 1.000 m. Invalida las operaciones VFR. Se distingue de la bruma (**mist**), que reduce la visibilidad entre 1.000 m y 5.000 m sin afectar el código CAVOK. En METAR se codifica como `FG` (niebla) o `BR` (bruma).
-
-**Niebla de radiación**
-: Niebla que se forma durante las noches despejadas de otoño e invierno cuando el suelo pierde calor por radiación hacia el espacio, enfría el aire en contacto hasta el punto de rocío y produce condensación. Puede ser muy densa y persistir hasta mediados de la mañana. Especialmente frecuente en anticiclones invernales con vientos flojos.
+: Suspensión de gotículas de agua microscópicas que reduce la visibilidad por debajo de 1.000 m. Invalida las operaciones VFR. Se distingue de la bruma (**mist**), que reduce la visibilidad entre 1.000 m y 5.000 m y, por tanto, también impide el CAVOK, que exige 10 km o más. En METAR se codifica como `FG` (niebla) o `BR` (bruma).
 
 **Niebla de advección**
 : Niebla que se forma cuando una masa de aire cálido y húmedo se desplaza horizontalmente sobre una superficie más fría (mar frío, valle nevado o costa), que enfría su base hasta la saturación. A diferencia de la de radiación, no depende del enfriamiento nocturno y puede persistir día y noche mientras dure el flujo.
+
+**Niebla de radiación**
+: Niebla que se forma durante las noches despejadas de otoño e invierno cuando el suelo pierde calor por radiación hacia el espacio, enfría el aire en contacto hasta el punto de rocío y produce condensación. Puede ser muy densa y persistir hasta mediados de la mañana. Especialmente frecuente en anticiclones invernales con vientos flojos.
 
 **NSC (No Significant Clouds)**
 : Indicador en METAR/TAF que señala ausencia de nubes por debajo de 5.000 ft y ausencia de cumulonimbus. A diferencia de CAVOK, no implica visibilidad ≥ 10 km.
@@ -149,20 +152,20 @@ Este glosario contiene las definiciones y acrónimos más relevantes de la meteo
 **Onda de montaña (wave soaring)**
 : Oscilación ondulatoria del flujo de aire que se genera a sotavento de una cordillera cuando el viento es perpendicular a la cresta, supera un umbral de velocidad y existe una capa estable a la altura de la cresta. Permite el ascenso laminar hasta grandes altitudes. Los altocúmulos lenticulares son su señal visual. Los rotores en la base son el principal peligro.
 
-**QNH**
+**QNH (Reglaje altimétrico reducido al nivel medio del mar)**
 : Reglaje que permite al altímetro indicar altitud y, en tierra, aproximadamente la elevación del punto considerado.
 
 **Rotor**
 : Vórtice turbulento de pequeña escala que se forma a sotavento del pie de una ladera o cordillera bajo la primera cresta de la onda de montaña. Genera turbulencia severa e impredecible a baja altura. Las nubes de rotor (**rotor clouds**) son estratos irregulares bajo la onda que señalan esta zona peligrosa.
 
-**SALR (Saturated Adiabatic Lapse Rate)**
-: Gradiente Adiabático Saturado. Ritmo al que se enfría una parcela de aire saturada (en formación de nube) al ascender adiabáticamente: aproximadamente 1,5 °C por cada 1.000 ft. Es menor que el DALR porque la condensación libera calor latente que "frena" el enfriamiento.
+**SALR (Gradiente Adiabático Saturado / Saturated Adiabatic Lapse Rate)**
+: Ritmo al que se enfría una parcela de aire saturada (en formación de nube) al ascender adiabáticamente: aproximadamente 1,5 °C por cada 1.000 ft. Es menor que el DALR porque la condensación libera calor latente que "frena" el enfriamiento.
 
 **SIGMET (Significant Meteorological Information)**
 : Mensaje de alerta que informa a las tripulaciones de fenómenos meteorológicos en ruta de gran relevancia para la seguridad: engelamiento severo (`SEV ICE`), turbulencia severa (`SEV TURB`), actividad de cenizas volcánicas o ciclones tropicales.
 
-**SIGWX (Significant Weather Chart)**
-: Mapa de Tiempo Significativo. Pronóstico a escala sinóptica que muestra la distribución de sistemas frontales, zonas de turbulencia e engelamiento, y otras áreas de meteorología significativa en una región geográfica. Imprescindible para la planificación de vuelos de distancia.
+**SIGWX (Mapa de Tiempo Significativo / Significant Weather Chart)**
+: Pronóstico a escala sinóptica que muestra la distribución de sistemas frontales, zonas de turbulencia e engelamiento, y otras áreas de meteorología significativa en una región geográfica. Imprescindible para la planificación de vuelos de distancia.
 
 **Sondeo termodinámico (Skew-T / Stüve)**
 : Diagrama que representa el perfil vertical de temperatura, temperatura del punto de rocío y viento en la atmósfera, obtenido mediante radiosondeo. Permite al piloto estimar la altura de las bases de cúmulos (LCL), el techo térmico, el riesgo de sobredesarrollo (LFC) y los índices de estabilidad (K-Index, CAPE, LI).

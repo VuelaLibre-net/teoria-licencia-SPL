@@ -5,25 +5,28 @@ Este glosario contiene las definiciones y acrónimos más relevantes de planific
 **Brazo de palanca (Arm)**
 : Distancia horizontal medida desde el datum (línea de referencia) hasta el centro de gravedad de un elemento o peso a bordo del planeador.
 
-**Carga alar**
+**Carga alar (wing loading)**
 : Relación entre la masa total del planeador y la superficie de sus alas. Se expresa en kg/m² e influye directamente en las velocidades de crucero y de pérdida.
 
-**CG (Centro de gravedad)**
+**CG (Centro de gravedad / Center of Gravity)**
 : Punto teórico donde se considera aplicada la resultante de todas las fuerzas de gravedad que actúan sobre el planeador. Su ubicación longitudinal es clave para la estabilidad y el control del vuelo.
 
-**Coeficiente de planeo (L/D, *finesse*)**
+**Coeficiente de planeo (fineza, L/D)**
 : Relación entre la sustentación (*Lift*) y la resistencia total (*Drag*) de la aeronave, equivalente a la distancia horizontal recorrida por unidad de altura perdida en aire en calma (un planeador con L/D de 40 recorre 40 km por cada kilómetro de altura cedida).
+
+**Curva polar (polar de velocidades)**
+: Gráfica característica de cada modelo de planeador que relaciona la velocidad horizontal indicada (eje X, en km/h) con la tasa de descenso vertical (eje Y, en m/s) en condiciones de aire en calma. De ella se extraen la velocidad de mínimo descenso (vértice superior) y la velocidad de mejor planeo (tangente desde el origen). Es el "DNI" del planeador y la referencia para adaptar la velocidad al viento y a las zonas de ascenso o descenso.
 
 **Datum (Línea de referencia)**
 : Plano vertical imaginario a partir del cual se miden todas las distancias horizontales para calcular el centrado y el brazo de palanca de los componentes del planeador.
 
 **FPL (Plan de vuelo / Flight Plan)**
-: Información estructurada que se suministra a los servicios de tránsito aéreo sobre un vuelo proyectado, siendo obligatorio en cruce de fronteras o espacio controlado.
+: Datos del vuelo previsto que el piloto presenta ante los servicios de tránsito aéreo. **SERA.4001 b)** lo exige, entre otros casos, para todo vuelo al que se preste servicio de control —para el VFR, en la práctica clases B, C y D, y los aeródromos controlados—, para todo vuelo que cruce una frontera internacional y para los que discurran por áreas o rutas designadas por la autoridad competente para facilitar la información de vuelo, la alerta y el salvamento. En clase E el VFR no recibe servicio de control, así que no necesita plan de vuelo, ni radio, ni autorización. Incluye tipo de aeronave, indicativo, aeródromo de origen y destino, ruta prevista, nivel de crucero y hora estimada.
 
-**Lastre de agua (Water ballast)**
+**Lastre de agua (water ballast)**
 : Agua cargada en tanques específicos situados en las alas para aumentar la masa del planeador y su carga alar, desplazando la curva polar de velocidades hacia valores más altos para volar más rápido con el mismo ángulo de planeo.
 
-**Lastre de cola (Fin ballast)**
+**Lastre de cola (fin ballast)**
 : Pequeño depósito de agua o soporte de pesas en la deriva que compensa el desplazamiento del CG producido por el lastre de las alas o por un piloto pesado, restaurando el centrado óptimo. Olvidar vaciarlo con un piloto ligero genera un CG peligrosamente retrasado.
 
 **Momento**
@@ -31,9 +34,6 @@ Este glosario contiene las definiciones y acrónimos más relevantes de planific
 
 **MTOW (Masa Máxima al Despegue / Maximum Take-Off Weight)**
 : Masa máxima autorizada o certificada con la que el planeador puede iniciar el vuelo, determinada por límites estructurales y de rendimiento aerodinámico.
-
-**Polar de velocidades**
-: Gráfico o curva matemática que relaciona la velocidad indicada (IAS) del planeador con su velocidad o tasa de caída (sink rate). Define las velocidades operativas óptimas.
 
 **Teoría MacCready (Anillo MacCready)**
 : Método de optimización de velocidad de vuelo que indica la velocidad óptima a volar entre térmicas dada la intensidad esperada de la siguiente corriente térmica ascendente.

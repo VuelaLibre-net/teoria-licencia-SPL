@@ -23,14 +23,6 @@ El siguiente programa de estudios (Syllabus) corresponde a la asignatura de **De
 
 Este manual ha sido estructurado siguiendo fielmente este syllabus oficial para garantizar que cubres todos los puntos necesarios para el examen teórico.
 
-### Ponte a prueba {.unnumbered .unlisted}
-
-La teoría se afianza respondiendo preguntas. Esta asignatura cuenta con su propio test de autoevaluación en línea, con preguntas tipo examen. Por ejemplo:
-
-[https://vuelalibre.net/tests/01-derecho-aereo-atc/](https://vuelalibre.net/tests/01-derecho-aereo-atc/)
-
-Consulta a tu instructor, quien te indicará cuál es el banco de preguntas o el formato más adecuado, y sigue su recomendación. Te será de gran utilidad tanto para afianzar los conocimientos de cada capítulo como para tu repaso general antes de presentarte al examen teórico.
-
 ## 2. Factores Humanos {.unnumbered .unlisted}
 
 El siguiente programa de estudios (Syllabus) corresponde a la asignatura de **Factores Humanos** para la obtención de la licencia de piloto de planeador (SPL), conforme al AMC1 SFCL.130.
@@ -41,14 +33,6 @@ El siguiente programa de estudios (Syllabus) corresponde a la asignatura de **Fa
 * 2.4. Uso de oxígeno.
 
 Este manual ha sido estructurado siguiendo fielmente este syllabus oficial para garantizar que cubres todos los puntos necesarios para el examen teórico.
-
-### Ponte a prueba {.unnumbered .unlisted}
-
-La teoría se afianza respondiendo preguntas. Esta asignatura cuenta con su propio test de autoevaluación en línea, con preguntas tipo examen. Por ejemplo:
-
-[https://vuelalibre.net/tests/02-factores-humanos/](https://vuelalibre.net/tests/02-factores-humanos/)
-
-Consulta a tu instructor, quien te indicará cuál es el banco de preguntas o el formato más adecuado, y sigue su recomendación. Te será de gran utilidad tanto para afianzar los conocimientos de cada capítulo como para tu repaso general antes de presentarte al examen teórico.
 
 ## 3. Meteorología {.unnumbered .unlisted}
 
@@ -66,14 +50,6 @@ El siguiente programa de estudios (Syllabus) corresponde a la asignatura de **Me
 * 3.10. Información meteorológica.
 
 Este manual ha sido estructurado siguiendo fielmente este syllabus oficial para garantizar que cubres todos los puntos necesarios para el examen teórico.
-
-### Ponte a prueba {.unnumbered .unlisted}
-
-La teoría se afianza respondiendo preguntas. Esta asignatura cuenta con su propio test de autoevaluación en línea, con preguntas tipo examen. Por ejemplo:
-
-[https://vuelalibre.net/tests/03-meteorologia/](https://vuelalibre.net/tests/03-meteorologia/)
-
-Consulta a tu instructor, quien te indicará cuál es el banco de preguntas o el formato más adecuado, y sigue su recomendación. Te será de gran utilidad tanto para afianzar los conocimientos de cada capítulo como para tu repaso general antes de presentarte al examen teórico.
 
 ## 4. Comunicaciones {.unnumbered .unlisted}
 
@@ -93,14 +69,6 @@ Este es el programa oficial de la asignatura Comunicaciones para la licencia SPL
 
 Este manual sigue punto por punto este syllabus. Si lo has leído entero, tienes todo lo que el examen teórico puede pedirte en comunicaciones.
 
-### Ponte a prueba {.unnumbered .unlisted}
-
-La teoría se afianza respondiendo preguntas. Esta asignatura cuenta con su propio test de autoevaluación en línea, con preguntas tipo examen. Por ejemplo:
-
-[https://vuelalibre.net/tests/04-comunicaciones/](https://vuelalibre.net/tests/04-comunicaciones/)
-
-Consulta a tu instructor, quien te indicará cuál es el banco de preguntas o el formato más adecuado, y sigue su recomendación. Te será de gran utilidad tanto para afianzar los conocimientos de cada capítulo como para tu repaso general antes de presentarte al examen teórico.
-
 ## 5. Principios de Vuelo {.unnumbered .unlisted}
 
 El siguiente programa de estudios (Syllabus) corresponde a la asignatura de **Principios de Vuelo** para la obtención de la licencia de piloto de planeador (SPL), conforme al AMC1 SFCL.130.
@@ -114,14 +82,6 @@ El siguiente programa de estudios (Syllabus) corresponde a la asignatura de **Pr
 * 5.7. Picado en espiral (Spiral Dive).
 
 Este manual ha sido estructurado siguiendo fielmente este syllabus oficial para garantizar que cubres todos los puntos necesarios para el examen teórico.
-
-### Ponte a prueba {.unnumbered .unlisted}
-
-La teoría se afianza respondiendo preguntas. Esta asignatura cuenta con su propio test de autoevaluación en línea, con preguntas tipo examen. Por ejemplo:
-
-[https://vuelalibre.net/tests/05-principios-vuelo/](https://vuelalibre.net/tests/05-principios-vuelo/)
-
-Consulta a tu instructor, quien te indicará cuál es el banco de preguntas o el formato más adecuado, y sigue su recomendación. Te será de gran utilidad tanto para afianzar los conocimientos de cada capítulo como para tu repaso general antes de presentarte al examen teórico.
 
 ## 6. Procedimientos Operativos {.unnumbered .unlisted}
 
@@ -138,14 +98,6 @@ El siguiente programa de estudios (Syllabus) corresponde a la asignatura de **Pr
 
 Este manual ha sido estructurado siguiendo fielmente este syllabus oficial para garantizar que cubres todos los puntos necesarios para el examen teórico.
 
-### Ponte a prueba {.unnumbered .unlisted}
-
-La teoría se afianza respondiendo preguntas. Esta asignatura cuenta con su propio test de autoevaluación en línea, con preguntas tipo examen. Por ejemplo:
-
-[https://vuelalibre.net/tests/06-procedimientos-operativos/](https://vuelalibre.net/tests/06-procedimientos-operativos/)
-
-Consulta a tu instructor, quien te indicará cuál es el banco de preguntas o el formato más adecuado, y sigue su recomendación. Te será de gran utilidad tanto para afianzar los conocimientos de cada capítulo como para tu repaso general antes de presentarte al examen teórico.
-
 ## 7. Planificación y Rendimiento de Vuelo {.unnumbered .unlisted}
 
 El siguiente programa de estudios (Syllabus) corresponde a la asignatura de **Planificación y Rendimiento de Vuelo** para la obtención de la licencia de piloto de planeador (SPL), conforme al AMC1 SFCL.130.
@@ -157,14 +109,6 @@ El siguiente programa de estudios (Syllabus) corresponde a la asignatura de **Pl
 * **7.5. Monitoreo del vuelo y replanificación en vuelo.**
 
 Este manual ha sido estructurado siguiendo fielmente este syllabus oficial para garantizar que cubres todos los puntos necesarios para el examen teórico.
-
-### Ponte a prueba {.unnumbered .unlisted}
-
-La teoría se afianza respondiendo preguntas. Esta asignatura cuenta con su propio test de autoevaluación en línea, con preguntas tipo examen. Por ejemplo:
-
-[https://vuelalibre.net/tests/07-planificacion-rendimiento/](https://vuelalibre.net/tests/07-planificacion-rendimiento/)
-
-Consulta a tu instructor, quien te indicará cuál es el banco de preguntas o el formato más adecuado, y sigue su recomendación. Te será de gran utilidad tanto para afianzar los conocimientos de cada capítulo como para tu repaso general antes de presentarte al examen teórico.
 
 ## 8. Conocimientos Generales de la Aeronave, Estructura, Sistemas y Equipo de Emergencia {.unnumbered .unlisted}
 
@@ -187,14 +131,6 @@ El siguiente programa de estudios (Syllabus) corresponde a la asignatura de **Co
 
 Este manual ha sido estructurado siguiendo fielmente este syllabus oficial para garantizar que cubres todos los puntos necesarios para el examen teórico.
 
-### Ponte a prueba {.unnumbered .unlisted}
-
-La teoría se afianza respondiendo preguntas. Esta asignatura cuenta con su propio test de autoevaluación en línea, con preguntas tipo examen. Por ejemplo:
-
-[https://vuelalibre.net/tests/08-aeronave-sistemas/](https://vuelalibre.net/tests/08-aeronave-sistemas/)
-
-Consulta a tu instructor, quien te indicará cuál es el banco de preguntas o el formato más adecuado, y sigue su recomendación. Te será de gran utilidad tanto para afianzar los conocimientos de cada capítulo como para tu repaso general antes de presentarte al examen teórico.
-
 ## 9. Navegación {.unnumbered .unlisted}
 
 El siguiente programa de estudios (Syllabus) corresponde a la asignatura de **Navegación** para la obtención de la licencia de piloto de planeador (SPL), conforme al AMC1 SFCL.130.
@@ -209,11 +145,10 @@ El siguiente programa de estudios (Syllabus) corresponde a la asignatura de **Na
 
 Este manual ha sido estructurado siguiendo fielmente este syllabus oficial para garantizar que cubres todos los puntos necesarios para el examen teórico.
 
-### Ponte a prueba {.unnumbered .unlisted}
+## Ponte a prueba {.unnumbered .unlisted}
 
-La teoría se afianza respondiendo preguntas. Esta asignatura cuenta con su propio test de autoevaluación en línea, con preguntas tipo examen. Por ejemplo:
+La teoría se afianza respondiendo preguntas. Cada asignatura cuenta con su propio test de autoevaluación en línea, con preguntas tipo examen. Los tienes todos aquí:
 
-[https://vuelalibre.net/tests/09-navegacion/](https://vuelalibre.net/tests/09-navegacion/)
+[https://vuelalibre.net/examenes/](https://vuelalibre.net/examenes/)
 
 Consulta a tu instructor, quien te indicará cuál es el banco de preguntas o el formato más adecuado, y sigue su recomendación. Te será de gran utilidad tanto para afianzar los conocimientos de cada capítulo como para tu repaso general antes de presentarte al examen teórico.
-

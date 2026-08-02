@@ -16,6 +16,24 @@ rompe la compilación.
 
 ## [En curso]
 
+## [0.9.3] — 2 de agosto de 2026
+
+**Qué releer:** **Glosario, entrada «Resbale lateral», y cuatro entradas nuevas.** El resbale es descoordinado por definición, no «coordinado de forma cruzada». Se incorporan al glosario las cuatro listas que el libro enseña: CB-SIFT-CBE, CRISE, FUSTALL y WULF.
+
+### Añadido
+
+* **Glosario** — cuatro listas de comprobación que el libro enseña en cap01 y cap04 y que el glosario no recogía: `CB-SIFT-CBE` y `CRISE` (cabina, antes del enganche) y `FUSTALL` y `WULF` (viento en cola). `FUSTALL` se citaba incluso dentro de la definición de «Viento en cola» sin estar definida, y el cap08 del libro 08 remite a las cuatro dando por hecho que están aquí.
+
+### Cambiado
+
+* **Glosario, entradas «Engelamiento» y «Térmica»** — se adoptan las del libro 03, que son más completas: «Engelamiento» añade el margen de 0 °C a −15 °C, la cúpula y que el planeador no lleva antihielo; «Térmica» explica el mecanismo y de qué depende su intensidad. El rótulo pasa a `Engelamiento (icing)`, en minúscula como el resto de la colección.
+* **Glosario, entrada «Altura de decisión»** — pierde el rótulo inglés «Decision Height / DH», que es un término normalizado de aproximación por instrumentos y no lo que aquí se describe. La escalera de 600/450/300 m no cambia; se añade una línea que advierte de la confusión, como ya hacen las entradas `AD`, `V~RA~` y `TMZ`.
+* **Glosario, entrada «Aerofrenos»** — el rótulo pasa de `(Spoilers)` a `(airbrakes)`, y la definición explica la diferencia: un spoiler estropea la sustentación desde el extradós; los aerofrenos de planeador salen por arriba y por abajo y añaden además resistencia, que es lo que la propia definición describía. El cap04 ya usaba «Airbrakes» en la A de FUSTALL.
+* **Glosario, entrada «Estela turbulenta»** — pasa a llamarse `Turbulencia de estela (wake turbulence)`, como en el libro 03, y adopta su definición, que añade cuánto persisten los vórtices y las separaciones mínimas recomendadas. Cambia de sitio en el orden alfabético.
+
+### Corregido
+
+* **Glosario, entrada «Resbale lateral»** — se describía como maniobra «coordinada de forma cruzada». Un resbale es por definición vuelo descoordinado, con los mandos cruzados a propósito; llamarlo coordinado chocaba con lo que enseña el libro 5 con el hilo de lana.
 ## [0.9.2] — 1 de agosto de 2026
 
 **Qué releer:** **cap02, cap03, cap05 y cap06.** Se incorpora la ilustración del anillo MacCready en cap03, se recoloca la figura de remolque por avión en cap02, se detalla la maniobra del «caballito» (*ground loop*) en cap05 y se matiza la técnica de escaneo visual en cap06.

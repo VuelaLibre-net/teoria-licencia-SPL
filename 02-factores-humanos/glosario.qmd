@@ -2,20 +2,20 @@
 
 Este glosario contiene las definiciones y acrónimos más relevantes de Factores Humanos y Fisiología aplicables a la licencia de piloto de planeador (SPL).
 
-**ADM (Aeronautical Decision-Making)**
-: Toma de decisiones aeronáuticas. Proceso mental sistemático (por ejemplo, mediante el modelo DECIDE) empleado por el piloto para elegir la opción más segura como respuesta a un conjunto de circunstancias.
+**ADM (Toma de decisiones aeronáuticas / Aeronautical Decision-Making)**
+: Proceso mental sistemático (por ejemplo, mediante el modelo DECIDE) empleado por el piloto para elegir la opción más segura como respuesta a un conjunto de circunstancias.
 
 **AESA (Agencia Estatal de Seguridad Aérea)**
 : Autoridad española responsable de la supervisión de la seguridad de la aviación civil y de la aplicación de la normativa aeronáutica dentro de sus competencias.
 
-**AME (Aero-Medical Examiner)**
+**AME (Médico Examinador Aéreo / Aero-Medical Examiner)**
 : Médico autorizado para realizar reconocimientos y emitir o tramitar certificados médicos aeronáuticos dentro de sus atribuciones.
 
 **ATC (Control de Tránsito Aéreo / Air Traffic Control)**
 : Servicio de tránsito aéreo destinado a prevenir colisiones y a acelerar y mantener ordenadamente el movimiento del tránsito aéreo.
 
-**AUT / TUE (Autorización de Uso Terapéutico)**
-: **Therapeutic Use Exemption**. Permiso oficial emitido por una organización antidopaje o autoridad aeronáutica (como WADA) que permite a un piloto de competición utilizar una medicación específica que normalmente requeriría su suspensión en un control antidopaje, salvaguardando su salud de base.
+**AUT / TUE (Autorización de Uso Terapéutico / Therapeutic Use Exemption)**
+: Permiso oficial que conceden las organizaciones nacionales antidopaje y las federaciones internacionales —no la propia WADA, que fija el estándar y revisa las concesiones— y que permite a un piloto de competición utilizar una medicación específica que normalmente requeriría su suspensión en un control antidopaje, salvaguardando su salud de base.
 
 **Cadena del error**
 : Sucesión de pequeñas decisiones erróneas, condiciones previas y errores latentes que, al alinearse e interactuar (como en el **modelo del queso suizo**), desencadenan un accidente o incidente.
@@ -36,7 +36,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Factores
 : Paradigma organizacional que reconoce la inevitabilidad del error humano no intencionado, tratándolo como una oportunidad de aprendizaje colectivo sin represalias, oponiéndose a todo encubrimiento o sanción punitiva irracional.
 
 **DECIDE**
-: Modelo estandarizado para la toma de decisiones aeronáuticas: Detectar, Estudiar, Considerar, Implementar, Determinar y Evaluar.
+: Modelo estandarizado para la toma de decisiones aeronáuticas, en seis pasos: **D**etect (detectar el cambio), **E**stimate (estimar si exige reacción), **C**hoose (elegir el resultado buscado), **I**dentify (identificar las acciones posibles), **D**o (ejecutar la elegida) y **E**valuate (evaluar su efecto).
 
 **Desorientación espacial**
 : Falsa apreciación de la posición, actitud o movimiento de la aeronave como consecuencia de ilusiones sensoriales originadas en el oído interno, obligando al piloto a desconfiar de sus sentidos y ampararse en los instrumentos.
@@ -57,19 +57,19 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Factores
 : Respiración anormalmente rápida desencadenada por el estrés, el pánico o la ansiedad, generando una expulsión drástica de dióxido de carbono que provoca el estrechamiento de los vasos sanguíneos en el cerebro, reduciendo el flujo de oxígeno a pesar de volar a altitudes seguras.
 
 **Hipoxia**
-: Estado de déficit de oxígeno cerebral. Existen cuatro tipos: hipóxica (falta de presión transferencial en altitud), hipémica (mermas de transporte por CO), estancada e histotóxica (intoxicación orgánica celular por alcohol o drogas).
+: Estado fisiológico de deficiencia de oxígeno en las células y tejidos del cuerpo humano, provocado al volar a gran altura por la reducción de la presión parcial de oxígeno en la atmósfera. Existen cuatro tipos: hipóxica (baja presión atmosférica, la más frecuente en planeador), hipémica (transporte mermado por monóxido de carbono o tabaquismo), estancada (circulación reducida, por ejemplo por fuerzas G elevadas en virajes cerrados) e histotóxica (alcohol, drogas o medicamentos).
 
 **IMSAFE**
 : Acrónimo nemotécnico de autoevaluación psicofísica recomendado antes de cada vuelo: Illness (Enfermedad), Medication (Medicación), Stress (Estrés), Alcohol (Alcohol), Fatigue (Fatiga) y Eating (Alimentación).
 
-**MED (Part-MED)**
-: Subparte de la normativa europea (EASA) que estipula y rige exhaustivamente todas las condiciones fisiológicas y médicas que debe cumplir un piloto para mantener y ejercer las atribuciones de su licencia de vuelo.
-
 **Monóxido de carbono (CO)**
 : Gas letal, inodoro e invisible derivado de los sistemas de escape. Se une a la hemoglobina bloqueando el transporte de oxígeno (hipoxia anémica), afectando a los pilotos de motovelero (TMG) incluso a baja altitud.
 
-**OACI (Organización de Aviación Civil Internacional / ICAO)**
+**OACI / ICAO (Organización de Aviación Civil Internacional / International Civil Aviation Organization)**
 : Agencia especializada de las Naciones Unidas que establece normas y métodos recomendados para la aviación civil internacional.
+
+**Part-MED (Requisitos médicos aeronáuticos)**
+: Anexo IV del Reglamento (UE) n.º 1178/2011, que fija las condiciones médicas exigibles a las tripulaciones de vuelo y el régimen de los certificados médicos. Para la SPL basta el certificado médico LAPL.
 
 **PAVE**
 : Esquema simplificado y fundamental para ejecutar la evaluación sistemática y mitigación profiláctica de los riesgos de cualquier vuelo, dividido en: Piloto, Aeronave (**Aircraft**), Entorno (**enVironment**) y Presiones Externas.
@@ -77,29 +77,29 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Factores
 **Pulsioxímetro**
 : Dispositivo de dedo recomendado en vuelos a gran altura que muestra la saturación de oxígeno en sangre (SpO₂). Permite al piloto detectar la hipoxia de forma objetiva antes de que aparezcan los primeros síntomas.
 
-**SAO (Sailplane Air Operations)**
-: Normativa operativa específica de EASA para pilotos al mando de planeadores. Fija reglas como la obligatoriedad del oxígeno por encima de 10.000 ft de altitud.
+**SAO (Operaciones de Planeadores / Sailplane Air Operations)**
+: Normativa operativa específica de EASA para planeadores, en el anexo II del Reglamento (UE) 2018/1976. Sus reglas son de criterio antes que de umbral: **SAO.OP.150** obliga al piloto al mando a garantizar que todos los ocupantes usen oxígeno suplementario cuando determine que, a la altitud prevista, su falta puede mermarles las facultades. El Reglamento no fija ninguna cifra; los **10.000 ft** salen del **AMC1 SAO.OP.150**, y sólo como regla por defecto para cuando el piloto no pueda hacer esa valoración.
 
-**SFCL (Sailplane Flight Crew Licensing)**
+**SFCL (Licencias de Tripulación de Vuelo de Planeadores / Sailplane Flight Crew Licensing)**
 : Marco normativo europeo (EASA) que regula las licencias, el programa de estudios y la instrucción de vuelo para pilotos de planeador (SPL).
 
 **SHELL**
-: Modelo conceptual desarrollado por la OACI interconectando de forma unificada y armónica todos los vértices relativos al operador: **Software** (Procedimientos normativos), **Hardware** (La Aeronave), **Environment** (El Entorno físico), **Liveware** interior y **Liveware** externo (El piloto con respecto a otras personas).
+: Modelo conceptual propuesto por Edwards en 1972 como SHEL y completado por Hawkins en 1975, que la OACI adoptó y difundió. Interconecta de forma unificada y armónica todos los vértices relativos al operador: **Software** (Procedimientos normativos), **Hardware** (La Aeronave), **Environment** (El Entorno físico), **Liveware** interior y **Liveware** externo (El piloto con respecto a otras personas).
 
 **SPL (Licencia de Piloto de Planeador / Sailplane Pilot Licence)**
 : Licencia de la Unión Europea, regulada por la Part-SFCL, que permite ejercer las atribuciones de piloto de planeador dentro de las condiciones aplicables.
 
-**SRM (Single-Pilot Resource Management)**
-: Gestión de recursos para pilotos solitarios. Habilidad para administrar todos los recursos disponibles (instrumentos, ATC, listas de chequeo) para operar de forma segura, reduciendo la carga de trabajo y minimizando el riesgo de errores sistemáticos.
+**SRM (Gestión de recursos del piloto único / Single-Pilot Resource Management)**
+: Habilidad para administrar todos los recursos disponibles (instrumentos, ATC, listas de chequeo) para operar de forma segura, reduciendo la carga de trabajo y minimizando el riesgo de errores sistemáticos.
 
 **TMG (Motovelero de turismo / Touring Motor Glider)**
 : Planeador propulsado equipado con motor y hélice no retráctiles que puede despegar y ascender por sus propios medios.
 
-**TUC (Time of Useful Consciousness)**
-: Tiempo útil de conciencia. Intervalo crítico en el que el piloto retiene sus capacidades cognitivas y motoras para tomar medidas correctivas tras una interrupción del suministro de oxígeno a gran altitud. Se reduce rápidamente a mayor altura.
+**TUC (Tiempo útil de conciencia / Time of Useful Consciousness)**
+: Intervalo crítico en el que el piloto retiene sus capacidades cognitivas y motoras para tomar medidas correctivas tras una interrupción del suministro de oxígeno a gran altitud. Se reduce rápidamente a mayor altura.
 
 **VFR (Reglas de vuelo visual / Visual Flight Rules)**
 : Reglas aplicables a vuelos realizados con referencias visuales y dentro de los mínimos meteorológicos y operativos correspondientes; la separación proporcionada por ATC depende de la clase de espacio aéreo y de los tráficos implicados.
 
-**WADA (World Anti-Doping Agency)**
-: Agencia Mundial Antidopaje. Organización internacional que regula y controla exhaustivamente el consumo de sustancias y dopaje en deportistas de competición, siendo los campeonatos de vuelo a vela sometidos también a este mismo estándar.
+**WADA (Agencia Mundial Antidopaje / World Anti-Doping Agency)**
+: Organización internacional que regula y controla exhaustivamente el consumo de sustancias y dopaje en deportistas de competición, siendo los campeonatos de vuelo a vela sometidos también a este mismo estándar.

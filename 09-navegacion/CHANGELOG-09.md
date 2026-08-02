@@ -16,6 +16,21 @@ rompe la compilación.
 
 ## [En curso]
 
+## [0.9.1] — 2 de agosto de 2026
+
+**Qué releer:** **Glosario, entradas «IGC», «Espacio aéreo controlado» y «FPL».** El fichero `.igc` no es «infalsificable»: la firma hace detectable la manipulación. «Espacio aéreo controlado» sólo hablaba de las clases C y D: añade la A, donde no se admite VFR, y la B.
+
+### Cambiado
+
+* **Glosario, entradas «FPL», «IAS» y «Squawk»** — «FPL» adopta la del libro 04, que detalla espacios aéreos y contenido del plan, sin perder la obligación en vuelos que cruzan frontera. «IAS» conserva el encadenado IAS → TAS → GS y añade la referencia a los límites aerodinámicos del libro 03. En «Squawk», el 7600 se glosa como «fallo de radio, NORDO».
+* **Glosario, entrada «FPL»** — se ancla en **SERA.4001 b)** y se añade el caso de las áreas o rutas designadas por la autoridad competente. El resto queda igual, verificado contra el Reglamento.
+* **Glosario, rótulos de `SERA` y `Transpondedor`** — `SERA` pone el español delante, como el libro 01; `Transpondedor` recoge la sigla XPDR, que sólo estaba en el libro 04.
+* **Glosario, rótulos de `AMA`, `DOP`, `GNSS` y `GPS`** — completan el par español/inglés. `GNSS` y `GPS` estaban cada uno en un idioma distinto siendo entradas contiguas.
+
+### Corregido
+
+* **Glosario, entrada «IGC»** — el fichero `.igc` no es «infalsificable»: la firma digital hace **detectable** cualquier manipulación, que es una propiedad distinta y más modesta.
+* **Glosario, entrada «Espacio aéreo controlado»** — sólo hablaba de las clases C y D. Añade que en clase A no se admite VFR y que la clase B también exige autorización, con la nota de que en España no se emplea.
 ## [0.9.0] — 1 de agosto de 2026
 
 **Qué releer:** **cap01, cap02, cap04, cap05, cap06 y cap07.** Se incorporan e integran nuevas ilustraciones y gráficos en español para coordenadas, tablilla de desvíos, triángulo de viento, triangulación, dispositivo GNSS en cabina e interacción con ATC/ATS, y se aclara la responsabilidad del PIC en aeródromos no controlados.

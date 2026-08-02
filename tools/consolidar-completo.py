@@ -2,6 +2,7 @@
 import os
 import re
 import sys
+import unicodedata
 from pathlib import Path
 
 # Lista ordenada de directorios de los 9 libros
@@ -16,6 +17,40 @@ LIBROS = [
     "08-aeronave-sistemas",
     "09-navegacion"
 ]
+
+# Cierre del syllabus unificado. Cada libro suelto lleva su propio "Ponte a
+# prueba" con la URL de su test; aquí van los nueve en un solo aviso al final,
+# apuntando a la raíz de los exámenes.
+PONTE_A_PRUEBA_COMPLETO = """## Ponte a prueba {.unnumbered .unlisted}
+
+La teoría se afianza respondiendo preguntas. Cada asignatura cuenta con su propio test de autoevaluación en línea, con preguntas tipo examen. Los tienes todos aquí:
+
+[https://vuelalibre.net/examenes/](https://vuelalibre.net/examenes/)
+
+Consulta a tu instructor, quien te indicará cuál es el banco de preguntas o el formato más adecuado, y sigue su recomendación. Te será de gran utilidad tanto para afianzar los conocimientos de cada capítulo como para tu repaso general antes de presentarte al examen teórico.
+"""
+
+def clave_glosario(rotulo):
+    """Clave de ordenación alfabética de una entrada de glosario.
+
+    Es el texto visible del rótulo hasta el primer paréntesis, sin tildes, sin
+    la marca de subíndice y sin distinguir mayúsculas: es lo que el lector
+    persigue al recorrer la columna, y no lo que hay dentro del paréntesis.
+
+    Vive aquí, y no en el guardián, porque este script es quien ordena el
+    glosario unificado: si cada uno tuviera su propio criterio, el guardián
+    daría por desordenado justo lo que este script acaba de escribir.
+    `.github/comprobar-orden-glosario.py` la importa de este fichero.
+
+    Un `sorted(..., key=str.lower)` a secas no vale: deja «Ángulo de ataque»
+    detrás de «Zonas P/R/D» porque la Á va después de la Z en Unicode, y
+    «Cúmulo» detrás de «Curva polar» por la ú.
+    """
+    texto = rotulo.split("(")[0]
+    texto = texto.replace("~", "").replace("*", "").replace("_", "")
+    texto = unicodedata.normalize("NFD", texto)
+    texto = "".join(c for c in texto if unicodedata.category(c) != "Mn")
+    return re.sub(r"[^a-z0-9 ]", "", texto.lower()).strip()
 
 def clean_id(s):
     """Limpia un texto para generar un identificador único uniforme (réplica de glosario-enlaces.lua)."""
@@ -230,8 +265,9 @@ def main():
         f.write("# Glosario de términos\n\n")
         f.write("Este glosario unificado contiene las definiciones y acrónimos más relevantes del marco normativo aeronáutico (EASA, OACI, normativa nacional) aplicables a la licencia de piloto de planeador (SPL) de todas las asignaturas.\n\n")
         
-        # Ordenar por el término original de forma alfabética
-        sorted_ids = sorted(global_glossary.keys(), key=lambda t_id: global_glossary[t_id][0].lower())
+        # Ordenar por el término original, con el mismo criterio que vigila
+        # .github/comprobar-orden-glosario.py (ver clave_glosario).
+        sorted_ids = sorted(global_glossary.keys(), key=lambda t_id: clave_glosario(global_glossary[t_id][0]))
         for term_id in sorted_ids:
             term, def_text = global_glossary[term_id]
             f.write(f"**{term}**\n")
@@ -254,19 +290,20 @@ def main():
             if syl_files:
                 syl_path = syl_files[0]
                 content = syl_path.read_text(encoding='utf-8')
-                body, ponte = parse_syllabus(content)
-                
+                # El "Ponte a prueba" de cada libro se descarta: en el manual
+                # completo serían nueve avisos idénticos salvo la URL. Va uno
+                # solo al final, apuntando a la raíz de los tests.
+                body, _ = parse_syllabus(content)
+
                 # Obtener el título del libro
                 title, _ = get_chapters_and_title(libro)
-                
+
                 # Escribir sección H2 que no entra en la tabla de contenidos (.unnumbered .unlisted)
                 f.write(f"## {idx}. {title} {{.unnumbered .unlisted}}\n\n")
                 f.write(f"{body}\n\n")
-                
-                if ponte:
-                    f.write("### Ponte a prueba {.unnumbered .unlisted}\n\n")
-                    f.write(f"{ponte}\n\n")
-                    
+
+        f.write(PONTE_A_PRUEBA_COMPLETO)
+
     print(f"✓ Syllabus consolidado escrito en {syllabus_unificado_path}")
     
     # 4. Copiar preliminares comunes de referencia (desde Libro 1)
