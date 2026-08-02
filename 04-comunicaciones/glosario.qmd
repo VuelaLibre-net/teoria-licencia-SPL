@@ -92,11 +92,11 @@ Acrónimos y términos técnicos de comunicaciones aeronáuticas para la licenci
 **TMZ (Zona de transpondedor obligatorio / Transponder Mandatory Zone)**
 : Espacio aéreo en el que es obligatorio llevar y operar un transpondedor con las capacidades exigidas; no impone por sí solo comunicación o escucha radio, salvo que también sea RMZ o así se publique.
 
-**Transpondedor (transponder, XPDR)**
-: Equipo de a bordo que responde automáticamente a las interrogaciones del radar secundario (SSR) emitiendo un código **squawk** y, según el modo, la altitud barométrica o datos extendidos de identificación. Opera en la banda UHF (1.030/1.090 MHz), independientemente de la radio de voz. Imprescindible para ser visible por el TCAS de otros tráficos.
-
 **Transmisión a ciegas (blind transmission)**
 : Procedimiento para cuando sospechas que tu receptor ha fallado pero el emisor sigue funcionando. Transmites regularmente posición e intenciones en la frecuencia correcta, precediendo cada mensaje con «Transmitiendo a ciegas debido a fallo del receptor», aunque no llegue ninguna respuesta.
+
+**Transpondedor (transponder, XPDR)**
+: Equipo de a bordo que responde automáticamente a las interrogaciones del radar secundario (SSR) emitiendo un código **squawk** y, según el modo, la altitud barométrica o datos extendidos de identificación. Opera en la banda UHF (1.030/1.090 MHz), independientemente de la radio de voz. Imprescindible para ser visible por el TCAS de otros tráficos.
 
 **TWR (Torre de Control de Aeródromo / Aerodrome Control Tower)**
 : Dependencia ATS establecida para prestar servicio de control al tránsito de aeródromo.

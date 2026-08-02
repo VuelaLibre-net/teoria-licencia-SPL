@@ -20,11 +20,11 @@ Este glosario recoge las definiciones y acrónimos esenciales de la aerodinámic
 **Capa límite**
 : Delgada capa de aire que fluye directamente en contacto con la superficie del ala, donde la velocidad cae gradualmente desde la del flujo libre hasta cero en la superficie sólida. Puede ser **laminar** (flujo ordenado, mínima resistencia) o **turbulenta** (flujo caótico, mayor resistencia). El punto de transición entre ambos regímenes determina el rendimiento del perfil: unos pocos mosquitos aplastados en el borde de ataque pueden adelantarla y degradar el planeo de forma medible.
 
-**CG (Centro de gravedad)**
-: Punto teórico donde se considera aplicada la resultante de todas las fuerzas de gravedad que actúan sobre el planeador. Su ubicación longitudinal es clave para la estabilidad y el control del vuelo.
-
 **Centro de Presiones (CP)**
 : Punto de la cuerda aerodinámica donde se considera aplicado el vector resultante de la sustentación total del ala. No es fijo: se desplaza hacia adelante al aumentar el ángulo de ataque y hacia atrás al disminuirlo. Su movilidad obliga a situar el CG delante de su rango de movimiento para mantener la estabilidad longitudinal.
+
+**CG (Centro de gravedad)**
+: Punto teórico donde se considera aplicada la resultante de todas las fuerzas de gravedad que actúan sobre el planeador. Su ubicación longitudinal es clave para la estabilidad y el control del vuelo.
 
 **Coeficiente de planeo (fineza, L/D)**
 : Relación entre la sustentación (*Lift*) y la resistencia total (*Drag*) de la aeronave, equivalente a la distancia horizontal recorrida por unidad de altura perdida en aire en calma (un planeador con L/D de 40 recorre 40 km por cada kilómetro de altura cedida).
@@ -35,14 +35,14 @@ Este glosario recoge las definiciones y acrónimos esenciales de la aerodinámic
 **Curva polar (polar de velocidades)**
 : Gráfica característica de cada modelo de planeador que relaciona la velocidad horizontal indicada (eje X, en km/h) con la tasa de descenso vertical (eje Y, en m/s) en condiciones de aire en calma. De ella se extraen la velocidad de mínimo descenso (vértice superior) y la velocidad de mejor planeo (tangente desde el origen). Es el "DNI" del planeador y la referencia para adaptar la velocidad al viento y a las zonas de ascenso o descenso.
 
+**Deriva**
+: Desviación lateral de la trayectoria del planeador respecto al suelo provocada por el viento de costado (en navegación). En aerodinámica, se refiere a la superficie fija vertical de la cola (estabilizador vertical) que aporta estabilidad de guiñada.
+
 **Diagrama V-n (envolvente de vuelo)**
 : Representación gráfica de los límites estructurales del planeador que relaciona la velocidad (V) con el factor de carga en Gs (n). Define la "caja" de operaciones seguras: dentro de la envolvente la estructura aguanta; fuera, se producen deformaciones permanentes o roturas. Según CS-22: categoría U (*Utility*) soporta de +5,3g a −2,65g a la velocidad V~A~, límites que se estrechan a +4,0g y −1,5g a V~D~; categoría A (*Acrobática*) de +7,0g a −5,0g. Estos límites solo son válidos respetando también los límites de velocidad.
 
 **Diedro (ángulo diedro)**
 : Ángulo hacia arriba que forman las alas respecto al plano horizontal, dando al planeador una forma de "V" abierta vista de frente. Proporciona estabilidad lateral: cuando un ala baja por una perturbación, recibe el flujo de aire con mayor ángulo de ataque efectivo, genera más sustentación y vuelve a la posición nivelada sin intervención del piloto.
-
-**Deriva**
-: Desviación lateral de la trayectoria del planeador respecto al suelo provocada por el viento de costado (en navegación). En aerodinámica, se refiere a la superficie fija vertical de la cola (estabilizador vertical) que aporta estabilidad de guiñada.
 
 **Efecto suelo (*ground effect*)**
 : Mejora transitoria de la eficiencia aerodinámica que experimenta el planeador cuando vuela por debajo de una envergadura de ala sobre el terreno. El suelo actúa como barrera que comprime los torbellinos de punta de ala, reduce el *downwash* y disminuye la resistencia inducida. Como resultado, el planeador "flota" más de lo esperado y se resiste a posarse: una entrada larga o con exceso de velocidad alarga la toma y puede dejarte sin pista por delante.
@@ -104,17 +104,17 @@ Este glosario recoge las definiciones y acrónimos esenciales de la aerodinámic
 **V~A~ (Velocidad de maniobra / Maneuvering Speed)**
 : Velocidad máxima a la que pueden aplicarse deflexiones totales en un solo mando sin causar daños estructurales. Por debajo de V~A~, ante una deflexión brusca completa, el planeador entra en pérdida antes de generar suficientes Gs para superar su límite de carga. Por encima de V~A~, esa protección desaparece. Importante: la V~A~ no cubre entradas simultáneas en más de un eje de control; incluso por debajo de V~A~, combinar timón y palanca a fondo puede superar los límites estructurales.
 
-**V~RA~ (Velocidad máxima en aire turbulento / Rough Air Speed)**
-: Velocidad máxima a la que puede volarse en aire turbulento. Es la marca que separa los arcos del anemómetro según CS 22.1545: en la V~RA~ termina el arco verde (operación normal) y empieza el amarillo (precaución, solo aire en calma). No debe confundirse con la V~A~, que es un límite estructural frente a deflexiones de mando y no se marca en la esfera, aunque en muchos veleros ambas tengan valores próximos.
+**Velocidad de mejor planeo (V~G~)**
+: Velocidad a la que el planeador obtiene su máxima distancia recorrida por unidad de altura perdida en aire en calma (máxima fineza, correspondiente al L/D máximo determinado por la tangente a la curva polar).
 
 **Velocidad de mínimo descenso (Minimum Sink Speed)**
 : Velocidad a la que el planeador pierde la menor cantidad de altura posible por unidad de tiempo (obtenida en el vértice superior de la curva polar), óptima para centrar y explotar térmicas débiles.
 
-**Velocidad de mejor planeo (V~G~)**
-: Velocidad a la que el planeador obtiene su máxima distancia recorrida por unidad de altura perdida en aire en calma (máxima fineza, correspondiente al L/D máximo determinado por la tangente a la curva polar).
+**Viento relativo (*relative wind*)**
+: Dirección y velocidad del flujo de aire que incide sobre el ala, opuesta a la trayectoria de vuelo real del planeador. El ángulo de ataque se mide siempre respecto al viento relativo, nunca respecto al horizonte ni a la actitud del morro. Un planeador puede tener el morro arriba y aun así tener el viento relativo proveniente de arriba si la trayectoria real es ascendente; a la inversa, puede tener el morro bajo y un ángulo de ataque peligrosamente alto si la trayectoria de descenso es más pronunciada que la actitud.
 
 **V~NE~ (Velocidad de nunca exceder / Never Exceed Speed)**
 : Límite absoluto de velocidad del planeador, indicado por la línea roja en el anemómetro. Superarla expone el planeador al riesgo de flutter aeroelástico, que puede desintegrar la estructura en segundos, sin previo aviso. La V~NE~ disminuye con la altitud porque la TAS crece respecto a la IAS en aire menos denso. Cerca de la V~NE~, las deflexiones de mando deben limitarse a un tercio de su recorrido total. La velocidad la regula CS 22.1505 y su línea roja, CS 22.1545(a); el límite de un tercio del recorrido es una advertencia que CS 22.1585(o)(2) obliga a incluir en el Manual de Vuelo.
 
-**Viento relativo (*relative wind*)**
-: Dirección y velocidad del flujo de aire que incide sobre el ala, opuesta a la trayectoria de vuelo real del planeador. El ángulo de ataque se mide siempre respecto al viento relativo, nunca respecto al horizonte ni a la actitud del morro. Un planeador puede tener el morro arriba y aun así tener el viento relativo proveniente de arriba si la trayectoria real es ascendente; a la inversa, puede tener el morro bajo y un ángulo de ataque peligrosamente alto si la trayectoria de descenso es más pronunciada que la actitud.
+**V~RA~ (Velocidad máxima en aire turbulento / Rough Air Speed)**
+: Velocidad máxima a la que puede volarse en aire turbulento. Es la marca que separa los arcos del anemómetro según CS 22.1545: en la V~RA~ termina el arco verde (operación normal) y empieza el amarillo (precaución, solo aire en calma). No debe confundirse con la V~A~, que es un límite estructural frente a deflexiones de mando y no se marca en la esfera, aunque en muchos veleros ambas tengan valores próximos.

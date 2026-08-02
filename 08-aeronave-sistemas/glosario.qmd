@@ -89,11 +89,11 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Conocimi
 **Lastre de cola (fin ballast)**
 : Pequeño depósito de agua o soporte de pesas en la deriva que compensa el desplazamiento del CG producido por el lastre de las alas o por un piloto pesado, restaurando el centrado óptimo. Olvidar vaciarlo con un piloto ligero genera un CG peligrosamente retrasado.
 
-**LiFePO4 (Batería de litio-ferrofosfato)**
-: Tecnología de batería ligera con curva de descarga plana (mantiene el voltaje hasta casi agotarse). Requiere cargadores específicos y un manejo cuidadoso para evitar incendios por cortocircuito.
-
 **L’Hotellier (Conector)**
 : Conector manual de rótula usado en las conexiones de mandos de muchos planeadores. Crítico para la seguridad: exige pin de seguridad (imperdible) además del muelle, y ha sido causa de numerosos accidentes por olvido de conexión.
+
+**LiFePO4 (Batería de litio-ferrofosfato)**
+: Tecnología de batería ligera con curva de descarga plana (mantiene el voltaje hasta casi agotarse). Requiere cargadores específicos y un manejo cuidadoso para evitar incendios por cortocircuito.
 
 **MTOW (Masa Máxima al Despegue / Maximum Take-Off Weight)**
 : Masa máxima autorizada o certificada con la que el planeador puede iniciar el vuelo, determinada por límites estructurales y de rendimiento aerodinámico.

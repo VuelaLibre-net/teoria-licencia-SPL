@@ -195,6 +195,19 @@ jobs:
       # sabe.
       run: python3 .github/comprobar-negrita.py
 
+    - name: Comprobar que los glosarios están alfabetizados
+      # Un glosario desordenado no rompe nada ni salta a la vista: son 418
+      # entradas en nueve ficheros, y una que se cuele dos posiciones más abajo
+      # sólo la descubre quien la busque con el dedo y no la encuentre.
+      # Aparecieron siete así, y el glosario unificado sumaba otras tantas
+      # porque ordenaba con un str.lower() a secas, que deja «Ángulo de ataque»
+      # detrás de «Zonas P/R/D».
+      #
+      # El criterio vive en tools/consolidar-completo.py (clave_glosario), que
+      # es quien ordena el unificado; el guardián lo importa de allí para que
+      # los dos no puedan divergir.
+      run: python3 .github/comprobar-orden-glosario.py
+
     - name: Comprobar que los subíndices de velocidad no quedan literales
       # `V~A~` funciona, pero `V~max planeo~` no: Pandoc no admite espacios sin
       # escapar dentro del subíndice y lo publica tal cual. Es una errata de

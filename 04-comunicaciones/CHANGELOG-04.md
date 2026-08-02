@@ -26,6 +26,10 @@ rompe la compilación.
 ### Corregido
 
 * **Glosario, entrada «MAYDAY»** — el uso falso o malicioso no lo sanciona EASA, que no tipifica infracciones ni sanciona pilotos, sino la normativa nacional: en España la Ley 21/2003 y, según el caso, el Código Penal.
+
+### Maqueta y producción
+
+* **Glosario** — `Transmisión a ciegas` iba detrás de `Transpondedor`. Ninguna definición cambia.
 ## [1.0-rc.11] — 31 de julio de 2026
 
 **Qué releer:** **cap02, cambio y abandono de frecuencia.** La figura pasa de ilustrar la idea a desarrollar el intercambio completo, con fraseología.

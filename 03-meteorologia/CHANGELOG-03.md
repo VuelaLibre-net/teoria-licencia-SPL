@@ -34,6 +34,7 @@ rompe la compilación.
 ### Maqueta y producción
 
 * **cap09, engelamiento** — el recuadro de Seguridad dice «bataneo» y no «buffet», que es el término que usan el capítulo de pérdida del libro 05 y el glosario. Se redacta además «muy por encima de la velocidad habitual» en lugar de «a velocidades muy superiores a las habituales». El aviso no cambia.
+* **Glosario** — se restituye el orden alfabético: `Cúmulo` iba detrás de `Cumulonimbus`, `IAS` detrás de `Inversión térmica` y las dos nieblas estaban invertidas. Ninguna definición cambia.
 
 ## [1.0-rc.13] — 31 de julio de 2026
 
