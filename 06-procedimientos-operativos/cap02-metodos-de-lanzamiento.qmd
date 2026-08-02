@@ -16,6 +16,8 @@ El **lanzamiento por torno** es el método más rápido y económico para poner 
 
 Durante el ascenso, el ángulo de cabeceo aumenta rápidamente hasta superar los 40-45°. Esta actitud, que en cualquier otra situación sería alarmante, es completamente normal en el torno: el cable tirando desde adelante y abajo impone esa geometría. El planeador sube a razón de 10-15 metros por segundo y alcanza entre 300 y 500 metros en menos de un minuto (@fig-06-cap02-torno-fases). Durante la trepada, la tracción del cable carga el ala y eleva su velocidad de pérdida, así que se vuela más deprisa que en vuelo libre: como referencia, entre 1,3 y 1,6 veces la velocidad mínima de vuelo recto, sin superar nunca la velocidad máxima de torno que fija el AFM.
 
+![Fases del lanzamiento por torno o vehiculo y actitud del planeador](imagenes/06-cap02-torno-fases.jpg){#fig-06-cap02-torno-fases}
+
 ### Procedimiento y fraseología
 
 La comunicación entre el piloto y el operador del torno (tornero) es vital. Una orden malentendida puede resultar en una tracción inesperada. La secuencia estándar es:
@@ -25,7 +27,6 @@ La comunicación entre el piloto y el operador del torno (tornero) es vital. Una
 3. **«Remolque, remolque, remolque»**: el piloto autoriza la máxima potencia. El planeador acelera rápidamente: controla el alabeo con los alerones y mantén el eje con los pedales.
 4. **«Velero libre»**: tras la suelta del cable —al final de la trepada, típicamente a 300-400 metros, o de inmediato ante cualquier duda—, el piloto confirma que el cable se ha desenganchado y que vuela libre.
 
-![Fases del lanzamiento por torno o vehiculo y actitud del planeador](imagenes/06-cap02-torno-fases.jpg){#fig-06-cap02-torno-fases}
 
 ### Emergencia por rotura de cable
 
@@ -44,6 +45,8 @@ La posición correcta de remolque es fundamental tanto para la seguridad como pa
 * **Posición alta**: el planeador vuela justo por encima de la estela del remolcador, usando como referencia visual las ruedas del remolcador apoyadas en el horizonte. Desde esta posición, el planeador queda fuera del rebufo de la hélice y no ejerce fuerza de cabeceo sobre la cola del remolcador.
 * **Zona a evitar**: la zona inmediatamente detrás del remolcador y debajo de su estabilizador es extremadamente turbulenta por la estela de hélice. Atravesarla durante un vuelo normal es incómodo; durante una emergencia del remolcador, puede ser peligroso.
 
+![Posición correcta del planeador en remolque por avión](imagenes/06-cap02-aerotow-posicion.jpg){#fig-06-cap02-aerotow-posicion}
+
 ### Señales visuales en vuelo
 
 Aunque se use la radio, las señales visuales son el estándar internacional de seguridad aeronáutica ante el fallo de las comunicaciones:
@@ -52,7 +55,6 @@ Aunque se use la radio, las señales visuales son el estándar internacional de 
 * **Movimiento de timón del remolcador («fishtail»):** algo va mal en tu planeador — revísalo. Lo más habitual: los aerofrenos se han desplegado sin que te des cuenta.
 * **El planeador se sitúa bajo y al lado izquierdo del remolcador y alabea:** el piloto del planeador no puede soltar el cable y solicita que el remolcador le lleve de vuelta al aeródromo.
 
-![Posición correcta del planeador en remolque por avión](imagenes/06-cap02-aerotow-posicion.jpg){#fig-06-cap02-aerotow-posicion}
 
 ::: {.callout-tip title="Regla de oro"}
 Durante el remolque, mantén siempre el avión remolcador **en tu campo de visión**, preferiblemente en «posición alta» (las ruedas del remolcador apoyadas en el horizonte). Si el remolcador desaparece de tu campo de visión, has entrado en posición demasiado alta: el planeador estará levantando la cola del remolcador y puedes empujar su morro hacia el suelo. Ante cualquier duda, suelta el cable: siempre es la decisión más segura.

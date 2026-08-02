@@ -1,5 +1,6 @@
 # Equipo de evacuación de emergencia (*emergency bail-out aid*)
 
+
 > Si el vuelo termina mal y lejos de casa, tu supervivencia depende de lo que llevabas puesto y de lo que cargaste en el fuselaje antes de despegar.
 >
 >
@@ -18,6 +19,8 @@ Si tienes un accidente o una toma forzosa en una zona remota, necesitas que los 
 
 * **ELT (Emergency Locator Transmitter)**: va instalada de forma fija en el planeador. Se activa sola por el impacto (G) o a mano.
 * **PLB (Personal Locator Beacon)**: baliza portátil que el piloto lleva en el bolsillo o en el paracaídas. Se activa a mano.
+
+![Comunicador bidireccional vía satélite](imagenes/08-cap14-1-11-2-equipos-de-emergencia-a-bordo.png){#fig-08-cap14-1-11-2-equipos-de-emergencia-a-bordo width="45%"}
 
 ::: {.callout-important title="Normativa"}
 Asegúrate de que tu baliza emite en 406 MHz. Las antiguas señales de 121.5 MHz ya no se vigilan por satélite; solo sirven para el rastreo cercano (*homing*) de los equipos de rescate. Y la baliza debe estar registrada oficialmente.
@@ -40,6 +43,8 @@ Como buena práctica fisiológica, que no como requisito normativo, muchos pilot
 1. **Flujo continuo**: el oxígeno sale sin parar de un depósito a través de una cánula o una máscara. Es sencillo, pero poco eficiente: gasta mucho gas.
 2. **Sistemas EDS (Electronic Delivery System)**: dispositivos que detectan tu inspiración y sueltan un pulso de oxígeno justo cuando lo necesitas. Multiplican por tres o cuatro la duración de la botella.
 
+![Sistema de Demanda de Pulso Electrónico (EDS)](imagenes/08-cap14-sistema-de-demanda-de-pulso-electronico.png){#fig-08-cap14-sistema-de-demanda-de-pulso-electronico width="45%"}
+
 ## Kit de supervivencia esencial
 
 No despegues sin un kit básico de supervivencia, sobre todo si vuelas sobre montaña o zonas despobladas. Debería llevar:
@@ -49,7 +54,7 @@ No despegues sin un kit básico de supervivencia, sobre todo si vuelas sobre mon
 * **Protección térmica**: una manta de supervivencia (foil) para no entrar en hipotermia si te toca pasar la noche fuera.
 * **Energía**: un teléfono móvil con la batería cargada y, a poder ser, una batería externa (powerbank).
 
-![Componentes esenciales del kit de supervivencia y baliza PLB](imagenes/08-cap14-equipo-supervivencia.jpg){#fig-08-cap14-equipo-supervivencia}
+![Componentes esenciales del kit de supervivencia y baliza PLB](imagenes/08-cap14-equipo-supervivencia.jpg){#fig-08-cap14-equipo-supervivencia width="45%"}
 
 ::: {.postit}
 **Resumen del capítulo: equipo de emergencia**

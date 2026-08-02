@@ -18,6 +18,8 @@ Conviene tener clara la diferencia entre "el control" y "la información":
 * **ATC (Control de Tráfico Aéreo)**: Su función es separar tráficos mediante instrucciones obligatorias. Interactuarás con ellos en aeródromos controlados y espacios aéreos de clase C y D (@fig-09-cap07-control-aereo).
 * **FIS (Servicio de Información de Vuelo)**: No dan órdenes, sino información útil (meteorología, tráficos conocidos, estado de aeródromos). En España, gran parte de nuestros vuelos de distancia se realizan bajo la vigilancia de un centro FIS.
 
+En aeródromos no controlados puedes contar con algún servicio de información, pero el PIC es el responsable directo de todas las decisiones (@fig-09-cap07-control-aereo).
+
 ::: {.callout-note title="Airmanship"}
 Llamar a los servicios FIS (como Madrid o Barcelona Información) es una excelente práctica. Además de darte tranquilidad, si tienes que realizar un aterrizaje en campo, ellos sabrán tu última posición conocida y podrán coordinar ayuda si fuera necesario.
 :::

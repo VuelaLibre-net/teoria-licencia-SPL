@@ -35,7 +35,7 @@ Estos archivos digitales (.igc) son la prueba de que has pasado por los puntos d
 
 Los equipos modernos integran el GNSS con un **mapa móvil** que muestra ruta, espacios aéreos y datos de planeo (@fig-09-cap06-gnss-cabina).
 
-![Dispositivo GNSS moderno integrado en el panel de un planeador](imagenes/09-cap06-gnss-cabina.jpg){#fig-09-cap06-gnss-cabina}
+![Dispositivo GNSS moderno integrable en el panel de un planeador](imagenes/09-cap06-gnss-cabina.jpg){#fig-09-cap06-gnss-cabina}
 :::
 
 ## Limitaciones y conciencia situacional

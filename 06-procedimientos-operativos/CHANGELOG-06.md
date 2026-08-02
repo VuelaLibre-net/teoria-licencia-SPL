@@ -16,6 +16,25 @@ rompe la compilación.
 
 ## [En curso]
 
+## [0.9.2] — 1 de agosto de 2026
+
+**Qué releer:** **cap02, cap03, cap05 y cap06.** Se incorpora la ilustración del anillo MacCready en cap03, se recoloca la figura de remolque por avión en cap02, se detalla la maniobra del «caballito» (*ground loop*) en cap05 y se matiza la técnica de escaneo visual en cap06.
+
+### Añadido
+
+* **cap03** — figura del anillo MacCready (`imagenes/06-cap03-el-anillo-maccready.png`) (`#fig-06-cap03-el-anillo-maccready`).
+
+### Cambiado
+
+* **cap02** — reubicación de la figura de posición correcta en remolque por avión (`#fig-06-cap02-aerotow-posicion`).
+* **cap05** — matización del aviso sobre la maniobra del «caballito» deliberado (*ground loop*), detallando el uso del timón y la disipación de energía para proteger a los ocupantes.
+* **cap06** — ajuste de la recomendación de tiempo para la vigilancia activa fuera de cabina en el escaneo visual.
+* **cap07** — actualización de las ilustraciones de emergencia a cierta altura y lastre asimétrico.
+
+## [0.9.1] — 31 de julio de 2026
+
+**Qué releer:** **cap01, inspección prevuelo** (el pie de la figura). El pie decía que el recorrido se hace en «sentido horario»; la ilustración lo muestra en sentido anti-horario. Se corrige el pie, no la ilustración.
+
 ### Corregido
 
 * **cap01, inspección prevuelo** — el pie de la figura de inspección decía «sentido horario» cuando la ilustración muestra el recorrido en sentido anti-horario.

@@ -16,6 +16,14 @@ rompe la compilación.
 
 ## [En curso]
 
+## [0.9.1] — 1 de agosto de 2026
+
+**Qué releer:** **cap02, desplazamiento de la polar con el peso.** Se actualiza el gráfico explicativo del efecto del peso sobre la polar de velocidades (`07-cap02-polar-peso.png`).
+
+### Cambiado
+
+* **cap02** — regeneración y optimización visual del gráfico de desplazamiento de la curva polar según la carga y peso del planeador.
+
 ## [0.9.0] — 31 de julio de 2026
 
 **Qué releer:** **cap01, datum y límites de peso y centrado; cap02, curva polar y sus tres figuras; cap03, triángulo FAI/AAT y ventana de convección; cap04, formulario FPL; cap05, monitoreo del planeo final.** Seis ilustraciones traducidas a español y unidades métricas, tres retiradas y una nueva.

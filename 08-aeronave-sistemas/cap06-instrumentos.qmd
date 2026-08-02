@@ -1,5 +1,6 @@
 # Instrumentos
 
+
 > El panel de un planeador es austero: tres instrumentos de presión, una radio y poco más. Por eso mismo, entender qué mide cada uno y cómo falla es imprescindible.
 >
 >
@@ -40,6 +41,8 @@ La esfera del anemómetro lleva marcas de color que resumen las limitaciones de 
 * **Línea roja radial**: la V~NE~ (Velocidad Nunca Exceder). Es un límite absoluto, nunca un objetivo.
 * **Triángulo amarillo**: en muchos veleros marca la velocidad de aproximación recomendada con masa máxima sin lastre.
 
+![Anemómetro moderno ADI2, con indicadores de velocidad, altitud y velocidad vertical](imagenes/08-cap06-8-6-4-2-anemometro.png){#fig-08-cap06-8-6-4-2-anemometro}
+
 Estas marcas se complementan con las velocidades de remolque y torno indicadas en la placa de limitaciones y en el Manual de Vuelo. Y ojo en vuelo de onda a gran altitud: la V~NE~ **indicada** disminuye; el porqué se explica en el **Libro 5 — Principios de Vuelo**, capítulo 5.
 
 ## Instrumentos exigidos por la normativa
@@ -58,15 +61,18 @@ Si tiras de la palanca, el planeador sube pero pierde velocidad. Un variómetro 
 
 Los variómetros electrónicos modernos añaden señales acústicas (pitidos) que te dejan centrar la térmica sin apartar la vista del cielo, lo que también mejora la vigilancia del tráfico.
 
+![Un sistema de variómetro de energía total](imagenes/08-cap06-un-sistema-de-variometro-de-energia-tota.png){#fig-08-cap06-un-sistema-de-variometro-de-energia-tota}
+
 ## Aviónica: comunicación y seguridad
 
 * **Radio VHF**: fundamental para coordinarte en el aeródromo y con el control de tráfico. Úsala con brevedad para ahorrar batería.
 * **Transpondedor**: hace visible al planeador para los radares de los controladores y para los sistemas anticolisión (TCAS) de los aviones comerciales.
 * **FLARM**: el sistema estrella del vuelo sin motor. Avisa de otros planeadores cercanos y de posibles rumbos de colisión con señales visuales y sonoras.
 
+![FLARM detectando otro planeador abajo "a las once"](imagenes/08-cap06-4-2-ver-y-evitar.png){#fig-08-cap06-4-2-ver-y-evitar}
+
 Algunos planeadores montan además una brújula magnética y, como "instrumento" más barato y fiable de todos, el hilo de lana pegado a la cúpula, que canta el vuelo cruzado mejor que cualquier aguja. El magnetismo y el uso de la brújula se tratan en el **Libro 9 — Navegación**, capítulo 2; el hilo de lana, en el **Libro 5 — Principios de vuelo**, capítulo 4.
 
-![Esquema de conexiones del sistema pitot-estática e instrumentos](imagenes/08-cap06-panel-pitot.jpg){#fig-08-cap06-panel-pitot}
 
 ::: {.postit}
 **Resumen del capítulo: instrumentos**

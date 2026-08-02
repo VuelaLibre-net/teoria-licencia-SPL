@@ -16,6 +16,8 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.6] — 31 de julio de 2026
+
 ### Maqueta y producción
 
 * **cap03, efecto veleta** — ilustración regenerada en mayor resolución y pie de figura retocado.

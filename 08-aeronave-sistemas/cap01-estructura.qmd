@@ -1,5 +1,6 @@
 # Estructura (*airframe*)
 
+
 > La estructura del planeador es lo primero que inspeccionas cada mañana y lo último que debe fallarte en vuelo. Saber de qué está hecho tu velero y cómo se comporta cada material ante el sol, la humedad o un golpe es la base de toda la inspección prevuelo.
 >
 >
@@ -56,7 +57,7 @@ Para el resto del ala y del fuselaje se usa la **estructura tipo sándwich**: do
 
 Así se consiguen grandes superficies con una rigidez enorme y un peso mínimo. El precio es la fragilidad frente a los golpes puntuales: un topetazo con el borde de un hangar puede delaminar el interior sin dejar apenas marca por fuera.
 
-![Esquema de la estructura de un ala de materiales compuestos (larguero y sándwich)](imagenes/08-cap01-estructura-ala.jpg){#fig-08-cap01-estructura-ala}
+![Esquema de la estructura de un ala de materiales compuestos (sándwich)](imagenes/08-cap01-estructura-ala.jpg){#fig-08-cap01-estructura-ala width="50%"}
 
 ## La cúpula
 
@@ -67,16 +68,22 @@ La cúpula de plexiglás es, junto con tus ojos, tu principal defensa anticolisi
 * **Suelta de emergencia**: todas las cúpulas llevan un mecanismo de eyección (normalmente unos tiradores rojos) que libera la cúpula entera para poder saltar en paracaídas. Localízalo en cada planeador que vueles, porque no todos lo colocan en el mismo sitio.
 * **Cuidado del plexiglás**: se limpia solo con agua abundante, productos específicos y paños limpios de algodón, siempre a favor del flujo. Un trapo seco o un disolvente lo rayan para siempre.
 
+![El interior de un cockpit moderno](imagenes/08-cap01-8-1-2-1-cabina-de-un-planeador.png){#fig-08-cap01-8-1-2-1-cabina-de-un-planeador}
+
 ## El gancho de remolque
 
 El gancho de suelta (*release hook*) es el punto donde el planeador se une al cable del torno o a la cuerda de remolque. Casi todos montan ganchos de la marca Tost, y hay dos ubicaciones con funciones distintas:
 
+
 * **Gancho de morro** (*nose hook*): en la proa, pensado para el remolque por avión. Como la tracción va alineada con el eje longitudinal, resulta más fácil mantener la posición tras el remolcador.
 * **Gancho de CG** (*CG hook*): bajo el fuselaje, cerca del centro de gravedad, es el adecuado para el lanzamiento por torno. Permite rotar a la actitud de subida pronunciada sin que el cable tire del morro hacia abajo.
+
 
 El gancho de CG incorpora una suelta automática (*back-release*): si el cable tira hacia atrás y abajo, como ocurre al sobrevolar el torno al final del lanzamiento, el gancho libera el cable por sí solo aunque el piloto no accione la suelta.
 
 Muchos planeadores de escuela montan los dos ganchos, y la regla es sencilla: morro para avión, CG para torno. La autoridad sobre qué gancho corresponde a cada método de lanzamiento es siempre el manual de vuelo (AFM). Usar el de CG para remolque por avión está permitido en algunos modelos, pero exige más atención: la tendencia a encabritarse es mayor y una posición alta respecto al remolcador puede acabar provocando una suelta automática involuntaria.
+
+![Un gancho de remolque de centro de gravedad (CG)](imagenes/08-cap01-planeador.png){#fig-08-cap01-planeador width="50%"}
 
 ::: {.callout-warning title="Seguridad"}
 No te lances nunca en torno con el gancho de morro. Al quedar el enganche por delante del centro de gravedad, el cable tira del morro hacia el suelo en lugar de dejar rotar el planeador a la subida; para contrarrestarlo tendrías que tirar a fondo de profundidad, y eso sobrecarga el estabilizador horizontal y el timón en una fase de cargas ya muy altas. A esto se suma que el gancho de morro no da la suelta automática (**back-release**) del de CG, así que un fallo de suelta es mucho más peligroso. Por estas razones, en los tipos así certificados el AFM prohíbe de forma expresa el lanzamiento por torno con el gancho de morro.

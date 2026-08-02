@@ -53,7 +53,7 @@ Con el avión montado, no vueles nunca sin hacer un chequeo de mandos positivo c
 Si durante el montaje alguien te interrumpe para hablar, vuelve a empezar el paso en curso desde el principio. Las distracciones durante el rigging son la causa número uno de conexiones críticas olvidadas.
 :::
 
-![Comparativa de conector manual L’Hotellier y conector automático](imagenes/08-cap07-conectores-mandos.jpg){#fig-08-cap07-conectores-mandos}
+![Comparativa de conector manual L’Hotellier y conector automático con el orificio visible para poner el pin de seguridad.](imagenes/08-cap07-conectores-mandos.jpg){#fig-08-cap07-conectores-mandos}
 
 ::: {.postit}
 **Resumen del capítulo: montaje y rigging**
