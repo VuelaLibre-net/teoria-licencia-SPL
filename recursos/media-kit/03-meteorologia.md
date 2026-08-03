@@ -1,4 +1,4 @@
-# Libro 3 — Meteorología · Texto de media-kit
+# Libro 3 — Meteorología · Texto del media-kit
 
 ---
 
@@ -6,72 +6,62 @@
 
 > El cielo habla. Aprende a escucharlo antes de despegar.
 
-El **Libro 3 de Meteorología** del Manual SPL te enseña a leer la atmósfera como lo hace un instructor con miles de horas: no para aprobar un examen, sino para volver a casa cada vez. Desde la física del aire que te sostiene hasta los índices de sondeo que predicen si el día será épico o peligroso.
-
----
-
-## Cita célebre
-
-> «Ningún ave se remonta en calma.»
->
-> — Wilbur Wright (1900), pionero de la aviación y co-inventor del primer avión motorizado funcional.
+El **Libro 3 de Meteorología** del Manual SPL enseña a leer la atmósfera como la lee un instructor con miles de horas: no para aprobar, sino para volver a casa. De la física del aire que te sostiene a los índices de sondeo que anticipan si el día será épico o peligroso.
 
 ---
 
 ## Descripción larga (web / tienda / plataforma e-learning)
 
-### El tiempo no mata. La ignorancia del tiempo, sí.
+### El tiempo no mata. No entenderlo, sí.
 
-Un planeador sin motor es la aeronave más vulnerable ante la meteorología. No tienes turbinas que te den potencia para escapar, ni sistemas anti-hielo que compren segundos. Lo único que te protege es saber lo que el cielo te está diciendo, y actuar antes de que sea tarde.
+Un planeador es la aeronave más expuesta a la meteorología que existe. No hay potencia con la que escapar ni sistemas antihielo que compren segundos. Lo único que te protege es saber qué te está diciendo el cielo, y actuar mientras todavía sirve de algo.
 
-De eso trata el **Libro 3: Meteorología**.
-
-Con un lenguaje directo —el del instructor veterano que te habla tomando un café en el hangar, no el del libro de texto que nadie acaba— este volumen cubre los diez bloques temáticos del syllabus EASA AMC1 SFCL.130 sin saltarse nada y sin relleno:
+Diez capítulos del syllabus EASA AMC1 SFCL.130, con el lenguaje del instructor que te lo cuenta tomando café en el hangar. Sin saltarse nada y sin relleno.
 
 **Lo que encontrarás dentro:**
 
-- **La atmósfera que vuelas** — No el modelo ISA de manual, sino el que encuentras cada mañana al salir del hangar: gradientes reales, altitudes de densidad, y por qué un día caluroso en un aeródromo elevado puede convertir el despegue en una pesadilla.
+- **La atmósfera que vuelas.** No el modelo ISA del manual, sino la que te encuentras al salir del hangar: gradientes reales, altitud de densidad y por qué un día caluroso en un aeródromo alto complica el despegue.
 
-- **El viento y sus trampas** — Desde la fuerza de Coriolis que explica por qué el viento no sopla en línea recta de la alta a la baja, sino casi paralelo a las isobaras, hasta las brisas anabáticas que marcan las mejores térmicas de la ladera sur, pasando por el efecto Foehn que puede dejar el valle de sotavento 10-15 °C más caliente que el de barlovento.
+- **El viento y sus trampas.** De la fuerza de Coriolis, que explica por qué el viento en altura no sigue las isobaras, a las brisas anabáticas que marcan las mejores térmicas de ladera. Por medio, el efecto Foehn: aire que baja seco por sotavento y llega hasta 15 °C más caliente.
 
-- **Termodinámica práctica** — Cómo calcular la base de los cúmulos con una resta y una multiplicación antes de subir al planeador. Qué es una inversión térmica y por qué actúa como techo de cristal invisible. Qué dicen el K-Index, el CAPE y el LI sobre si el día será de récord o de tormenta vespertina.
+- **Termodinámica práctica.** Calcular la base de los cúmulos con una resta y una multiplicación antes de subir. Qué es una inversión y por qué actúa como techo invisible. Qué te dicen el K-Index, el CAPE y el LI sobre si el día promete o amenaza.
 
-- **Nubes: el mapa que está siempre ahí** — Los cirros que anuncian el frente cálido horas o incluso días antes de que llegue. Las lenticulares que señalan onda de montaña —y el rotor asesino que esconden a baja altura. El Cumulonimbus del que debes alejarte 10-20 NM aunque el cielo a tus pies parezca azul.
+- **Nubes: el mapa que siempre está ahí.** Los cirros que anuncian un frente cálido con un día de antelación. Las lenticulares que señalan onda de montaña y el rotor que esconden abajo. El cumulonimbo, del que hay que mantenerse entre 10 y 20 NM aunque el cielo bajo tus pies parezca tranquilo.
 
-- **Precipitación: más allá de "llueve"** — Por qué las alas mojadas aumentan la velocidad de pérdida. Cómo el granizo nace dentro del Cb en capas de hielo, como una cebolla, y llega a superar los 2 cm de diámetro. La lluvia engelante que opaca tu cúpula en segundos. Y la virga —esa cortina de lluvia que no llega al suelo— que oculta el downburst más peligroso de la aproximación.
+- **Precipitación: más allá de «llueve».** Por qué el ala mojada sube la velocidad de pérdida. Cómo se forma el granizo dentro del Cb por capas, como una cebolla, hasta superar los 2-3 cm. La lluvia engelante que te opaca la cúpula en segundos. Y la virga, esa cortina que no llega al suelo, bajo la que puede esconderse un downburst.
 
-- **Frentes y masas de aire** — Por qué las jornadas post-frente frío son las mejores del año para el vuelo de distancia. Cómo reconocer un frente cálido horas antes de que llegue, siguiendo la escalera de cirros → cirroestratos → altoestratos → nimbostratos. Y por qué ante un frente ocluido debes cancelar sin dudarlo.
+- **Frentes y masas de aire.** Por qué las jornadas de posfrente frío son las mejores del año para volar distancia. Cómo reconocer un frente cálido horas antes por la escalera de cirros, cirrostratos, altostratos y nimbostratos. Y por qué ante una oclusión lo razonable es posponer el vuelo.
 
-- **Sistemas de presión** — Leer un mapa sinóptico la noche anterior y saber con 24-48 horas de margen si mañana volarás o no. Anticiclones, borrascas, vaguadas, dorsales y el peligroso collado barométrico que incuba tormentas estáticas en verano.
+- **Sistemas de presión.** Leer un mapa sinóptico la noche antes y saber con 24-48 horas de margen si mañana vuelas. Anticiclones, borrascas, vaguadas, dorsales y el collado barométrico que incuba tormentas estáticas en verano.
 
-- **Climatología de España** — Las particularidades de la meseta castellana, la Baja Térmica Peninsular, los valles del Sistema Central y las convergencias de brisa que los pilotos de Fuentemilanos explotan en los vuelos de distancia.
+- **Climatología de España.** La meseta castellana, la baja térmica peninsular, los valles del Sistema Central y las convergencias de brisa que los pilotos de Fuentemilanos llevan años explotando.
 
-- **Peligros para el vuelo** — Engelamiento, turbulencia de estela (*wake turbulence*), rotores orográficos y cizalladura (*windshear*) en final. Los escenarios que matan a pilotos bien intencionados que no sabían lo que tenían delante.
+- **Peligros para el vuelo.** Engelamiento, turbulencia de estela, rotores orográficos y cizalladura en final. Los escenarios que sorprenden a pilotos con buena intención y poca información.
 
-- **Información meteorológica** — Leer un METAR, un TAF y un SIGWX sin que parezca un texto cifrado. Saber qué es CAVOK, qué esconde un NSC y cuándo el boletín de sondeo dice "no salgas hoy".
-
----
-
-### Para quién es este libro
-
-Para el **alumno que prepara el examen teórico AESA SPL** y quiere entender la meteorología, no memorizarla.
-
-Para el **piloto licenciado** que quiere volar más lejos y con más criterio, sabiendo interpretar el entorno en lugar de confiar en el azar.
-
-Para **cualquier piloto VFR** que vuela donde la meteorología convectiva es protagonista: da igual que vueles un ultraligero o con una LAPL, la física del Cb no distingue tipos de licencia.
+- **Información meteorológica.** Leer un METAR, un TAF y un SIGWX sin que parezcan texto cifrado. Qué significa CAVOK, qué esconde un NSC y cuándo un sondeo está diciendo «hoy no».
 
 ---
 
-### Por qué este manual es diferente
+### Para quién es
+
+Si preparas el examen teórico AESA SPL y quieres entender la meteorología, no memorizarla.
+
+Si ya tienes licencia y quieres volar más lejos con más criterio, interpretando el entorno en vez de confiar en la suerte.
+
+Si vuelas VFR donde la convección manda: da igual que sea un ultraligero o un LAPL, la física del Cb no distingue licencias.
+
+---
+
+### Qué lo hace distinto
 
 No es un compendio de definiciones. Es una conversación.
 
-Cada concepto se explica por su **consecuencia operativa** real: no "qué es la subsidencia" sino "qué significa la subsidencia para el techo de tus térmicas hoy". No "qué es el engelamiento" sino "qué haces en los próximos 60 segundos si la cúpula empieza a escarcharse".
+Cada concepto se explica por su consecuencia operativa. No «qué es la subsidencia», sino «qué le hace la subsidencia al techo de tus térmicas hoy». No «qué es el engelamiento», sino «qué haces en los próximos sesenta segundos si la cúpula empieza a escarchar».
 
-Las cajas de **SEGURIDAD**, **AIRMANSHIP** y **REGLA DE ORO** traducen la teoría en decisiones concretas que se toman antes o durante el vuelo. Los diagramas técnicos ilustran lo que las palabras describen. Y el glosario al final del libro cierra cada concepto con la definición precisa que necesitas para el examen.
+Los recuadros de **Seguridad**, **Airmanship** y **Regla de oro** traducen la teoría en decisiones concretas. Los diagramas enseñan lo que las palabras describen. Y el glosario cierra cada concepto con la definición que pide el examen.
 
 **Syllabus:** EASA AMC1 SFCL.130 — Meteorología (MET)
-**Formato:** PDF · EPUB · MD
+**Formato:** PDF · HTML · EPUB
 **Licencia:** CC BY-SA 4.0
 
 ---
@@ -86,9 +76,9 @@ Las cajas de **SEGURIDAD**, **AIRMANSHIP** y **REGLA DE ORO** traducen la teorí
 
 Unos miran el cielo y ven nubes. Otros ven información.
 
-Un planeador vuela sin motor, sin radar y sin potencia con la que huir de lo que el tiempo tiene preparado. Su único margen real es la anticipación: oler el frente con doce horas de adelanto, saber que detrás de esa virga puede esconderse un downburst, reconocer la inversión que mantiene el vuelo pegado a los mil pies por mucho que apriete el sol.
+Un planeador vuela sin motor, sin radar y sin potencia con la que huir de lo que el tiempo tenga preparado. Su margen real es la anticipación: oler el frente con doce horas de adelanto, saber que detrás de esa virga puede esconderse un downburst, reconocer la inversión que te va a dejar pegado a los mil pies por mucho que apriete el sol.
 
-Diez capítulos van de la física de la atmósfera a la lectura operativa de METAR, TAF y SIGWX, con parada en frentes, termodinámica y los sustos que la meteorología reserva para quien no la conoce.
+Diez capítulos van de la física de la atmósfera a la lectura operativa de METAR, TAF y SIGWX, con parada en frentes, termodinámica y los sustos que la meteorología reserva a quien no la conoce.
 
 El cielo habla. Aprende a escucharlo antes de despegar.
 
@@ -96,10 +86,10 @@ El cielo habla. Aprende a escucharlo antes de despegar.
 
 ## Taglines alternativos
 
-- *"El cielo tiene reglas. Este libro te las explica antes de que las aprendas por las malas."*
-- *"Meteorología para el que vuela sin motor: la física del aire que te sostiene y del que puede tirarte al suelo."*
-- *"De los cirros que anuncian frente a los downbursts bajo la virga: todo lo que el piloto de planeo necesita saber sobre el tiempo."*
-- *"No vuelas el avión. Vuelas la masa de aire que lo rodea. Apréndela."*
+- *«El cielo tiene reglas. Este libro te las explica antes de que las aprendas por las malas.»*
+- *«Meteorología para quien vuela sin motor: la física del aire que te sostiene y del que puede tirarte abajo.»*
+- *«De los cirros que anuncian frente a los downbursts bajo la virga: el tiempo, contado para el piloto de planeo.»*
+- *«No vuelas el planeador. Vuelas la masa de aire que lo rodea. Apréndela.»*
 
 ---
 

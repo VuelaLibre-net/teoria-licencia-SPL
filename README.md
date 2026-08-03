@@ -33,6 +33,44 @@ La biblioteca está organizada por asignaturas según el syllabus oficial de AES
 | 8 | **`08-aeronave-sistemas`** | Conocimientos Generales de la Aeronave, Estructura, Sistemas y Equipo de Emergencia | `0.9.1` | 🟡 En revisión |
 | 9 | **`09-navegacion`** | Navegación | `0.9.1` | 🟡 En revisión |
 
+### De qué va cada libro
+
+**1 · Derecho Aéreo y ATC** — El marco legal de cada vuelo, del Convenio de Chicago a las tres normas
+que un piloto de planeador debe tener en la cabeza. Sin jerga de opositor, con las consecuencias
+operativas de cada regla.
+
+**2 · Factores Humanos** — Cómo funciona de verdad el piloto: qué le lleva a decidir mal bajo presión,
+cómo la fatiga y el estrés le degradan el rendimiento sin que lo note, y qué herramientas mentales
+marcan la diferencia.
+
+**3 · Meteorología** — Leer la atmósfera como la lee un instructor con miles de horas: no para
+aprobar, sino para volver a casa. De la física del aire que te sostiene a los índices de sondeo que
+anticipan si el día será épico o peligroso.
+
+**4 · Comunicaciones** — Usar la radio como quien ha escuchado miles de horas de tráfico: con
+precisión, con brevedad y con la fraseología que el sistema espera en cada fase del vuelo.
+
+**5 · Principios de Vuelo** — La aerodinámica que sostiene cada planeo, el equilibrio de fuerzas que
+mantiene estable al planeador y los fenómenos —pérdida, barrena, picado en espiral— que hay que
+entender para reconocerlos, anticiparlos y salir de ellos.
+
+**6 · Procedimientos Operativos** — Cada procedimiento del vuelo sin motor, del primer chequeo
+prevuelo al paracaídas de emergencia que nadie quiere usar y todos deben saber desplegar.
+
+**7 · Planificación y Rendimiento** — Leer la polar de tu planeador, ajustar la velocidad de crucero a
+la térmica del día, calcular el centrado antes de despegar y rellenar un plan de vuelo OACI sin que
+parezca un formulario en otro idioma.
+
+**8 · Aeronave, Sistemas y Equipo de Emergencia** — La máquina con el nivel de detalle que necesita un
+piloto, no un ingeniero: lo justo para saber cuándo el planeador está en condiciones de volar y
+cuándo no.
+
+**9 · Navegación** — Leer una carta aeronáutica, calcular el rumbo con viento, navegar por estima y
+usar el GNSS sin convertirlo en una muleta que falla en el peor momento.
+
+Estas sinopsis resumen el texto de presentación de cada libro, que vive completo —con descripción
+larga, contraportada y taglines— en `recursos/media-kit/<libro>.md`.
+
 ### Estados editoriales
 
 El estado **no se declara**: se deduce de la versión del libro, que se mantiene a mano en el
@@ -192,9 +230,12 @@ del repositorio, de donde cualquiera puede descargarlos sin cuenta de GitHub. El
 
 # 2. Ya en main, con todo fusionado, crea un tag anotado:
 git switch main && git pull
-git tag -a v0.9.0 -m "Descripción breve de la entrega"
-git push origin v0.9.0
+git tag -a v0.9.2 -m "Descripción breve de la entrega"
+git push github v0.9.2
 ```
+
+El remoto de este repositorio se llama **`github`**, no `origin`: `git push origin …` falla con
+`fatal: 'origin' does not appear to be a git repository`.
 
 El tag **no recompila**: busca el run del CI que ya validó **ese mismo commit** —el de la fusión a
 `main`— y publica sus entregables, con lo que la release sale en un par de minutos en vez de en
@@ -219,16 +260,17 @@ Para terminar, **a mano**:
 Es borrador a propósito: compilar y verificar es mecánico y se automatiza, pero decidir que la entrega
 sale al público —y redactar qué ha cambiado, que un guión no puede inventar— es cosa de una persona.
 
-Sobre el **número del tag**: `v0.8.2` fue la versión del libro menos maduro (la colección es tan
-madura como su libro más atrasado). El prefijo `v` es obligatorio: lo distingue de la versión literal
-de los libros, que va sin él y aparece en el nombre de sus ficheros
-(`05-principios-vuelo-0.8.2-260717.pdf`).
+Sobre el **número del tag**: sale de la versión del libro menos maduro, porque la colección es tan
+madura como su libro más atrasado. Si esa versión ya está etiquetada —hoy los libros 08 y 09 van por
+la `0.9.1`, que es la última release—, se sube el último dígito. El prefijo `v` es obligatorio: lo
+distingue de la versión literal de los libros, que va sin él y aparece en el nombre de sus ficheros
+(`05-principios-vuelo-0.9.1-260802.pdf`).
 
 Si el borrador sale mal, se borra sin dejar rastro —no es público— y se vuelve a empezar:
 
 ```bash
-gh release delete v0.9.0 --yes
-git push origin --delete v0.9.0 && git tag -d v0.9.0
+gh release delete v0.9.2 --yes
+git push github --delete v0.9.2 && git tag -d v0.9.2
 ```
 
 ---
