@@ -36,3 +36,8 @@ tools/epub/__pycache__/
 # mano, esta segunda regla lo dejaría invisible.
 /[0-9][0-9]-*/site_libs/
 /[0-9][0-9]-*/*.html
+
+# Bytecode de Python: lo regenera el intérprete en cada ejecución de los
+# scripts de tools/. Uno llegó a versionarse y cambiaba en cada `make rag`.
+__pycache__/
+*.pyc
