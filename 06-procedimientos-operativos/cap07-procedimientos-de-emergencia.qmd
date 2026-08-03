@@ -174,13 +174,13 @@ Como ficha de repaso rápido, esta tabla resume la respuesta inmediata a cada em
 * **Rotura de cable según el método de lanzamiento**:
   
   * **Torno (winch)**:
-  * **< 150 m**: aterriza recto por derecho. No intentes virar.
-  * **150 - 200 m**: circuito abreviado recortado adaptado al viento.
-  * **> 200 m**: circuito de tráfico normal.
+    * **< 150 m**: aterriza recto por derecho. No intentes virar.
+    * **150 - 200 m**: circuito abreviado recortado adaptado al viento.
+    * **> 200 m**: circuito de tráfico normal.
   * **Avión (aerotow)**:
-  * **< 70 m**: aterriza recto por delante.
-  * **70 - 150 m**: retorno o circuito recortado (el viraje de retorno se inicia hacia el viento cruzado, con alabeo franco de unos 45°).
-  * **> 150 m**: circuito abreviado o normal.
+    * **< 70 m**: aterriza recto por delante.
+    * **70 - 150 m**: retorno o circuito recortado (el viraje de retorno se inicia hacia el viento cruzado, con alabeo franco de unos 45°).
+    * **> 150 m**: circuito abreviado o normal.
 * **«La maniobra imposible»**: intentar volver a pista a baja altura es letal. Si estás por debajo de la cota crítica (150 m en torno / 70 m en avión) y no hay pista, aterriza de frente.
 * **Fallo de gancho (aerotow)**: si no puedes soltar, sitúate **bajo y a la izquierda** del remolcador y alabea para avisarle; nunca por encima, que le levantarías la cola (**kiting**). Él soltará. Aterriza con el cable colgando planeando una final alta para librar vallas y obstáculos.
 * **Flutter**: ante una vibración destructiva, **sube el morro y abre los aerofrenos** para reducir la velocidad de inmediato. Nunca aceleres. Inspección obligatoria en tierra.

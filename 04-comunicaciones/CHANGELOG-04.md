@@ -16,6 +16,12 @@ rompe la compilación.
 
 ## [En curso]
 
+### Maqueta y producción
+
+* **cap04, post-it** — `Conceptos clave` había perdido un nivel de sangría y salía al mismo nivel que
+  los cuatro términos que encabeza (CAVOK, QNH, viento, AIREP) en vez de por encima de ellos. Sólo
+  cambia la sangría de esas cuatro líneas; el texto es el mismo.
+
 ## [1.0-rc.12] — 2 de agosto de 2026
 
 **Qué releer:** **Glosario, entrada «MAYDAY».** El uso falso no lo sanciona EASA sino la ley nacional. El resto son rótulos: los doce con guion largo del libro pasan a la forma del resto de la colección.

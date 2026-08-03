@@ -16,6 +16,20 @@ rompe la compilación.
 
 ## [En curso]
 
+**Qué releer:** **cap07, el resumen del capítulo.** Las seis alturas de decisión de rotura de cable
+salían publicadas al mismo nivel que su método de lanzamiento, seguidas y sin distinguir cuáles eran
+de torno y cuáles de remolque. Ahora cuelgan de su método. El texto y las cifras no cambian.
+
+### Corregido
+
+* **cap07, post-it** — la lista de rotura de cable había perdido un nivel de sangría: `Torno (winch)`
+  y `Avión (aerotow)` quedaban de hermanos de sus propias alturas en vez de encabezarlas, de modo que
+  el lector veía ocho puntos seguidos. Importaba porque los umbrales de los dos métodos son distintos
+  y **150 m aparece en ambos con sentido contrario** —en torno es el suelo por debajo del cual se
+  aterriza de frente; en remolque, el techo por encima del cual se hace circuito normal—, y aplanados
+  quedaban a cuatro líneas uno de otro sin nada que los asignara. Se corrige la sangría de seis
+  líneas; ni el texto ni las cifras se tocan.
+
 ## [0.9.3] — 2 de agosto de 2026
 
 **Qué releer:** **Glosario, entrada «Resbale lateral», y cuatro entradas nuevas.** El resbale es descoordinado por definición, no «coordinado de forma cruzada». Se incorporan al glosario las cuatro listas que el libro enseña: CB-SIFT-CBE, CRISE, FUSTALL y WULF.
