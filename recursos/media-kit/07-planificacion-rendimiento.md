@@ -1,4 +1,4 @@
-# Libro 7 — Planificación y Rendimiento de Vuelo · Texto de media-kit
+# Libro 7 — Planificación y Rendimiento de Vuelo · Texto de marketing
 
 ---
 
@@ -6,66 +6,56 @@
 
 > Los mejores pilotos de distancia no improvisan. Calculan, planifican y replantean en vuelo con los números delante.
 
-El **Libro 7 de Planificación y Rendimiento** del Manual SPL te enseña a leer la polar de tu planeador, optimizar la velocidad de crucero en función de la térmica del día, calcular el centrado antes de despegar y presentar un plan de vuelo ICAO sin que parezca un formulario en idioma extranjero.
-
----
-
-## Cita célebre
-
-> «La planificación es traer el futuro al presente para que puedas hacer algo al respecto ahora.»
->
-> — Alan Lakein (1973), autor estadounidense pionero y especialista en la gestión del tiempo.
+El **Libro 7 de Planificación y Rendimiento** del Manual SPL enseña a leer la polar de tu planeador, ajustar la velocidad de crucero a la térmica del día, calcular el centrado antes de despegar y rellenar un plan de vuelo OACI sin que parezca un formulario en otro idioma.
 
 ---
 
 ## Descripción larga (web / tienda / plataforma e-learning)
 
-### El piloto que sabe calcular tiene ventaja. El que no, espera que el día perdone los errores.
+### El que sabe calcular tiene ventaja. El que no, confía en que el día perdone.
 
-En vuelo a vela, la planificación no termina cuando sales del hangar. Empieza la noche anterior con la meteorología, sigue en el briefing de tierra con el centrado y el lastre, y continúa en vuelo con la gestión permanente de la ecuación distancia-altura-térmica que determina si llegas a la meta o declaras un campo fuera.
+En vuelo a vela la planificación no termina al salir del hangar. Empieza la noche antes con la meteorología, sigue en el briefing con el centrado y el lastre, y continúa en el aire con la gestión permanente de la ecuación distancia-altura-térmica que decide si llegas a meta o declaras campo fuera.
 
-El piloto que conoce su polar, que entiende la teoría de MacCready y que puede calcular la masa y el centrado de memoria en menos de dos minutos no es un matemático: es un piloto que ha convertido los números en criterio.
+El piloto que conoce su polar, entiende a MacCready y calcula masa y centrado en dos minutos no es un matemático. Es alguien que ha convertido los números en criterio.
 
-El **Libro 7: Planificación y Rendimiento de Vuelo** te da ese criterio.
-
-Con ejemplos de cálculo reales, diagramas de polar anotados y los escenarios de decisión que se presentan en competición y en vuelo de distancia, este volumen cubre los cinco bloques temáticos del syllabus EASA AMC1 SFCL.130:
+Cinco capítulos del syllabus EASA AMC1 SFCL.130, con ejemplos de cálculo reales, polares anotadas y los escenarios de decisión propios de la competición y el vuelo de distancia.
 
 **Lo que encontrarás dentro:**
 
-- **Masa y centro de gravedad** — Cómo calcular el peso operativo con piloto, lastre de plomo y agua, y verificar que el centrado está dentro de los límites del manual de vuelo. Por qué el CG atrasado es el escenario más peligroso del planeador —y no siempre el más obvio. El procedimiento para pilotos ligeros que vuelan planeadores de asiento doble en solitario.
+- **Masa y centro de gravedad.** Calcular el peso operativo con piloto, lastre de plomo y agua, y comprobar que el centrado cae dentro de los límites del manual de vuelo. Por qué el CG atrasado es el escenario más peligroso, y no siempre el más evidente. El procedimiento para pilotos ligeros que vuelan biplazas en solitario.
 
-- **La polar de velocidades** — Cómo leer la curva polar y extraer de ella la fineza máxima, la velocidad de mínimo descenso y la velocidad de crucero óptima para un viento dado. La polar modificada por el lastre de agua: por qué un planeador más pesado vuela más rápido con la misma fineza y cuándo ese intercambio compensa.
+- **La polar de velocidades.** Leer la curva y sacar de ella la fineza máxima, la velocidad de mínimo descenso y la de crucero óptima para un viento dado. Cómo la modifica el lastre de agua: por qué un planeador más pesado vuela más rápido con la misma fineza, y cuándo compensa ese intercambio.
 
-- **La teoría de MacCready** — El ajuste del anillo MacCready como herramienta de optimización entre térmicas. Qué velocidad volar entre térmicas cuando la siguiente promete 2 m/s y cuándo es mejor gastar lo que tienes para no aterrizar en el campo del granjero. La velocidad de crucero óptima con viento de frente y de cola: por qué no son simétricas.
+- **La teoría de MacCready.** El anillo que rodea al variómetro: ajustas la trepada esperada y te marca la velocidad que optimiza tu media de crucero. Qué velocidad volar entre térmicas cuando la siguiente promete 2 m/s, y cuándo conviene gastar lo que llevas para no acabar en el campo del vecino. Por qué la velocidad óptima con viento en cara y con viento en cola no es simétrica.
 
-- **Planificación de tareas de vuelo** — Cómo diseñar una tarea de distancia: los criterios de selección del recorrido, los puntos de viraje con altura mínima garantizada y la gestión de alternativas cuando el día no da lo que prometía. La hoja de planificación que simplifica las decisiones en vuelo y evita la saturación cognitiva en un día termal activo.
+- **Planificación de tareas.** Diseñar una tarea de distancia: criterios de recorrido, puntos de viraje con altura mínima garantizada y gestión de alternativas cuando el día se cae. La hoja de planificación que simplifica las decisiones en el aire y evita la saturación en una jornada termal fuerte. Y el equipo de supervivencia que Part-SAO exige sobre zonas donde el rescate sería difícil: ELT o PLB registrado, señales y lo apropiado a la ruta.
 
-- **El plan de vuelo ICAO** — Cuándo es obligatorio, cuándo es recomendable y cuándo es la única forma de que los servicios SAR sepan dónde buscarte si no vuelves. La cumplimentación campo a campo del formulario ICAO. El cierre del plan de vuelo: el paso que demasiados pilotos olvidan después de aterrizar fuera de campo y que activa innecesariamente los servicios de emergencia.
+- **El plan de vuelo OACI.** Cuándo es obligatorio, cuándo recomendable y cuándo es lo único que le dice a los servicios SAR dónde buscarte. La cumplimentación campo a campo. Y el cierre del plan, que demasiados olvidan después de aterrizar fuera y que activa un operativo que nadie necesitaba.
 
-- **Monitoreo y replantificación en vuelo** — Cómo evaluar durante el vuelo si el plan sigue siendo viable: la altura de seguridad por tramo, el punto de no retorno y la decisión de abortar el recorrido antes de que el margen de seguridad desaparezca.
-
----
-
-### Para quién es este libro
-
-Para el **alumno que prepara el examen teórico AESA SPL** y quiere entender la polar, el centrado y el plan de vuelo ICAO desde su lógica operativa real.
-
-Para el **piloto que hace circuitos locales** y quiere dar el salto al vuelo de distancia con las herramientas de planificación que los pilotos de competición usan desde el primer día.
-
-Para **cualquier piloto que lleve años haciendo los cálculos de centrado a ojo** y quiera entender por qué eso puede dejar de funcionar el día que tiene al pasajero equivocado.
+- **Monitoreo y replanificación en vuelo.** Evaluar sobre la marcha si el plan sigue siendo viable: altura de seguridad por tramo, punto de no retorno y la decisión de abortar antes de que el margen desaparezca.
 
 ---
 
-### Por qué este manual es diferente
+### Para quién es
 
-La planificación de vuelo suele enseñarse como un ejercicio matemático desconectado del vuelo real. Aquí cada cálculo llega con el escenario de vuelo que lo hace imprescindible.
+Si preparas el examen teórico AESA SPL y quieres entender la polar, el centrado y el plan de vuelo desde su lógica operativa.
 
-El centrado fuera de límites no es un error administrativo: es el factor que puede hacer irrecuperable una barrena a doscientos metros. La velocidad de crucero subóptima no es una molestia menor: en un vuelo de 500 km puede significar aterrizar fuera de campo o cruzar la línea de llegada. El plan de vuelo ICAO no es burocracia: es el registro oficial que le dice a los servicios SAR dónde buscarte cuando no apareces.
+Si haces circuitos locales y quieres dar el salto a la distancia con las herramientas que los pilotos de competición usan desde el primer día.
 
-Las cajas de **REGLA DE ORO** dan los atajos de cálculo mental que los pilotos experimentados aplican en cada vuelo de distancia; las de **SEGURIDAD** marcan los márgenes que no se negocian.
+Si llevas años calculando el centrado a ojo y quieres saber por qué eso puede dejar de funcionar el día que subes al pasajero equivocado.
+
+---
+
+### Qué lo hace distinto
+
+La planificación se suele enseñar como ejercicio matemático desconectado del vuelo. Aquí cada cálculo tiene detrás un escenario que lo hace necesario.
+
+El centrado fuera de límites no es un error administrativo: es lo que puede hacer irrecuperable una barrena a doscientos metros. Una velocidad de crucero subóptima no es una molestia: en un vuelo de 500 km es la diferencia entre cruzar la línea o aterrizar fuera. Y el plan de vuelo no es papeleo: es el único registro que le dice a SAR por dónde empezar.
+
+Los recuadros de **Seguridad** y **Regla de oro** recogen los atajos de cálculo mental que no figuran en ningún manual de performance y que se aplican en cada vuelo de distancia.
 
 **Syllabus:** EASA AMC1 SFCL.130 — Planificación y Rendimiento (PLN)
-**Formato:** PDF · EPUB · MD
+**Formato:** PDF · HTML · EPUB
 **Licencia:** CC BY-SA 4.0
 
 ---
@@ -78,9 +68,9 @@ Las cajas de **REGLA DE ORO** dan los atajos de cálculo mental que los pilotos 
 
 **Tema 7 de 9 del examen teórico para la obtención de la licencia EASA de Piloto de Planeadores (SPL)**
 
-Lo que separa al piloto que cierra un vuelo de distancia del que termina en el campo de un granjero no siempre es la técnica. Muchas veces son las cuentas que se hicieron, o que se dejaron sin hacer, en tierra: la polar que nadie consultó, el centrado calculado a ojo, el plan de vuelo que quedó sin cerrar tras el aterrizaje fuera.
+Lo que separa al piloto que cierra un vuelo de distancia del que acaba en el campo de un granjero no siempre es la técnica. Muchas veces son las cuentas que se hicieron, o que se dejaron sin hacer, en tierra: la polar que nadie consultó, el centrado calculado a ojo, el plan de vuelo que quedó sin cerrar tras el aterrizaje fuera.
 
-Cinco capítulos transforman la polar, el MacCready, la masa y el plan de vuelo ICAO en criterio de vuelo real.
+Cinco capítulos transforman la polar, el MacCready, la masa y el plan de vuelo OACI en criterio de vuelo real.
 
 Los mejores pilotos de distancia no improvisan. Calculan.
 
@@ -88,10 +78,10 @@ Los mejores pilotos de distancia no improvisan. Calculan.
 
 ## Taglines alternativos
 
-- *"Polar, MacCready, masa y centrado: las herramientas de planificación que separan el vuelo local del vuelo de distancia."*
-- *"El anillo MacCready no es un truco de competición. Es la forma sistemática de extraer el máximo rendimiento a cualquier planeador en cualquier día."*
-- *"Calcular el centrado antes del lanzamiento no es burocracia. Es la diferencia entre una barrena recuperable y una que no lo es."*
-- *"El piloto que conoce su polar vuela más lejos, más rápido y con más margen de seguridad. Este libro te explica cómo."*
+- *«Polar, MacCready, masa y centrado: las herramientas que separan el vuelo local del vuelo de distancia.»*
+- *«El anillo MacCready no es un truco de competición. Es cómo se le saca el máximo a cualquier planeador cualquier día.»*
+- *«Calcular el centrado antes del lanzamiento no es burocracia. Es la diferencia entre una barrena recuperable y una que no lo es.»*
+- *«El piloto que conoce su polar vuela más lejos, más rápido y con más margen.»*
 
 ---
 

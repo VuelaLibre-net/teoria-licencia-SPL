@@ -1,73 +1,63 @@
-# Libro 2 — Factores Humanos · Texto de media-kit
+# Libro 2 — Factores Humanos · Texto de marketing
 
 ---
 
 ## Blurb corto (redes sociales / catálogo)
 
-> El mayor riesgo en la cabina no son las nubes ni el viento. Eres tú.
+> El mayor riesgo de la cabina no son las nubes ni el viento. Eres tú.
 
-El **Libro 2 de Factores Humanos** del Manual SPL te enseña cómo funciona realmente el piloto: qué le hace tomar malas decisiones bajo presión, cómo la fatiga y el estrés degradan su rendimiento sin que él lo note, y qué herramientas mentales separan a quien vuelve a tierra del que no.
-
----
-
-## Cita célebre
-
-> «Un buen piloto es aquel que utiliza su excelente juicio para evitar situaciones que requieran su excelente habilidad.»
->
-> — Frank Borman (1968), astronauta comandante de la misión Apolo 8 y piloto de combate de la USAF.
+El **Libro 2 de Factores Humanos** del Manual SPL explica cómo funciona de verdad el piloto: qué le lleva a decidir mal bajo presión, cómo la fatiga y el estrés le degradan el rendimiento sin que lo note, y qué herramientas mentales marcan la diferencia.
 
 ---
 
 ## Descripción larga (web / tienda / plataforma e-learning)
 
-### El 90 % de los accidentes de vuelo a vela tienen un factor común: el piloto.
+### Nueve de cada diez accidentes de vuelo a vela tienen un factor común: el piloto.
 
-Ni los materiales, ni la meteorología, ni el fallo mecánico: en nueve de cada diez accidentes en vuelo a vela el factor humano es la causa principal o un elemento contribuyente. No lo decimos para repartir culpas. Es, en el fondo, el dato más esperanzador de toda la estadística de seguridad: si el problema es el ser humano, el ser humano puede aprender a gestionarlo.
+No los materiales compuestos, ni la meteorología, ni el fallo mecánico. En torno al 90 % de los accidentes de aviación general y vuelo a vela, el factor humano es la causa principal o un elemento que contribuye. No es un dato para repartir culpa. Es el más esperanzador de toda la estadística de seguridad: si el problema está en la persona, la persona puede aprender a gestionarlo.
 
-El **Libro 2: Factores Humanos** parte de ahí. No hay pilotos perfectos; hay pilotos que conocen sus límites y los gestionan, y pilotos que no.
+De ahí parte el **Libro 2: Factores Humanos**. No hay pilotos perfectos. Hay pilotos que conocen sus límites y los gestionan, y pilotos que no.
 
-Con rigor técnico y sin condescendencia, este volumen cubre los cuatro bloques temáticos del syllabus EASA AMC1 SFCL.130 dedicados a la dimensión humana del vuelo:
+Cuatro capítulos del syllabus EASA AMC1 SFCL.130, dedicados a la dimensión humana del vuelo:
 
 **Lo que encontrarás dentro:**
 
-- **Modelos conceptuales: SHELL y el queso suizo** — Por qué los accidentes nunca tienen una sola causa, sino una cadena de fallos que se alinean. Cómo el modelo del queso suizo de James Reason explica que basta con interrumpir un solo eslabón para salvar el vuelo. Y cómo el modelo SHELL te ayuda a ver las interfaces peligrosas entre tú, la máquina, el entorno y los demás.
+- **Modelos conceptuales: SHELL y el queso suizo.** Los accidentes no tienen una causa, tienen una cadena. El modelo de James Reason explica por qué basta con romper un eslabón para salvar el vuelo. El SHELL te enseña a ver las interfaces peligrosas entre tú, la máquina, el entorno y los demás.
 
-- **Toma de decisiones aeronáutica (ADM)** — El proceso de decisión bajo presión y por qué el cerebro toma atajos peligrosos cuando está saturado. Las cinco actitudes peligrosas —y el antídoto de cada una—, la visión de túnel y la sobrecarga de atención. El modelo DECIDE como herramienta de decisión sistemática.
+- **Toma de decisiones aeronáutica (ADM).** Cómo decide un cerebro saturado y qué atajos toma. Las trampas más frecuentes: sesgo de confirmación, continuación del plan, efecto halo. Y el modelo DECIDE como método sistemático.
 
-- **Cultura justa y gestión de recursos (SRM)** — La cultura justa (*just culture*) que distingue el error involuntario de la violación deliberada. Por qué reportar incidentes aunque nadie lo haya visto. Cómo la presión de grupo en el aeródromo empuja a despegar cuando la decisión correcta es quedarse en tierra. Y la gestión de recursos del piloto que vuela solo (SRM): usar el equipo, la información y la ayuda externa sin exceder tu propia capacidad.
+- **Gestión de recursos en cabina (CRM).** La cultura justa distingue el error involuntario de la violación deliberada. Por qué conviene reportar incidentes aunque no los haya visto nadie. Cómo la presión del grupo en el aeródromo empuja a despegar el día que lo sensato era quedarse.
 
-- **Conciencia situacional** — Qué es la pérdida de situación (*loss of situational awareness*) y cómo ocurre de forma silenciosa y progresiva. Las señales de alerta que tu cabeza te manda antes de que la situación sea irrecuperable.
+- **Conciencia situacional.** La pérdida de conciencia situacional no llega de golpe: se va instalando en silencio. Las señales que tu cabeza manda antes de que la situación sea irrecuperable.
 
-- **Fisiología aeronáutica** — Cómo la hipoxia te incapacita antes de que te des cuenta. Por qué un viraje prolongado en térmica puede engañar a tu oído interno y convencerte de que vuelas nivelado cuando sigues girando. Los efectos de la hiperventilación, la desorientación espacial y la fatiga acumulada en la precisión del pilotaje.
+- **Fisiología aeronáutica.** La hipoxia te incapacita antes de que te des cuenta. La ilusión somatogravitatoria puede convencerte de que vuelas nivelado mientras giras. Los efectos de la hiperventilación, la desorientación espacial y la fatiga acumulada sobre la precisión del pilotaje.
 
-- **Psicología del piloto** — Estrés, fatiga y sus efectos en el rendimiento cognitivo. La curva de Yerkes-Dodson y por qué demasiado poco estrés es tan peligroso como demasiado. Los estados emocionales que no deberían llevarte a la cabina: duelo, conflicto, euforia no controlada.
+- **Psicología del piloto.** Estrés y fatiga sobre el rendimiento cognitivo. La curva de Yerkes-Dodson, y por qué demasiada poca activación es tan mala como demasiada. Los estados emocionales que no deberían subir contigo: duelo, conflicto, euforia sin freno.
 
-- **El chequeo IMSAFE** — La herramienta de autoevaluación previa al vuelo que puede parecer obvia y salva vidas cuando se aplica con honestidad. Illness, Medication, Stress, Alcohol, Fatigue, Eating: seis preguntas que el piloto debe hacerse y responderse sin autoengaño.
+- **El chequeo IMSAFE.** Parece obvio y salva vidas cuando se hace con honestidad. Illness, Medication, Stress, Alcohol, Fatigue, Emotion: seis preguntas que solo sirven si te las respondes sin trampas.
 
-- **Uso de oxígeno** — Cuándo es obligatorio y cuándo es recomendable. Los síntomas de la hipoxia en la cabina de un planeador, que no está presurizada. Por qué el umbral de confort es muy diferente del umbral de seguridad.
-
----
-
-### Para quién es este libro
-
-Para el **alumno que prepara el examen teórico AESA SPL** y quiere entender la psicología y fisiología del vuelo, no memorizar listas de síntomas.
-
-Para el **piloto con experiencia** que ha sentido alguna vez que tomó una decisión que no debería haber tomado y quiere entender por qué ocurrió, para que no vuelva a ocurrir.
-
-Para **cualquier piloto VFR** que vuele en entornos de alta demanda cognitiva: termal activa, espacio aéreo complejo, vuelo de distancia o condiciones de visibilidad reducida.
+- **Uso de oxígeno.** Cuándo es obligatorio y cuándo recomendable. Los síntomas de hipoxia en una cabina de planeador, que no está presurizada. Por qué el umbral de confort está muy lejos del umbral de seguridad, y qué te dice un pulsioxímetro por debajo del 90 % de saturación.
 
 ---
 
-### Por qué este manual es diferente
+### Para quién es
 
-Los factores humanos se enseñan a menudo como un apartado teórico, desligado del vuelo real. Aquí van pegados a él.
+Si preparas el examen teórico AESA SPL y quieres entender la psicología y la fisiología del vuelo en lugar de memorizar listas de síntomas.
 
-Cada concepto, del modelo SHELL a la curva de fatiga, se ancla a escenarios concretos del vuelo a vela: la decisión de no abortar un lanzamiento incompleto, el vuelo que sigue hacia la tormenta porque "ya casi estamos en casa", el daño al planeador que no se reporta por vergüenza.
+Si alguna vez tomaste una decisión en el aire que sabías que no debías tomar, y quieres entender por qué la tomaste.
 
-Las cajas de **SEGURIDAD**, **AIRMANSHIP** y **REGLA DE ORO** convierten la psicología aeronáutica en criterio de decisión real. Porque conocerse como piloto no es introspección; es la herramienta de seguridad más infrautilizada del hangar.
+Si vuelas en entornos de alta demanda: térmica activa, espacio aéreo complejo, vuelo de distancia o visibilidad justa.
+
+---
+
+### Qué lo hace distinto
+
+Los factores humanos suelen enseñarse como un bloque teórico desconectado del vuelo. Aquí cada concepto aterriza en un escenario de vuelo a vela concreto: la decisión de no abortar un lanzamiento que no progresa, el vuelo que sigue hacia la tormenta porque «ya casi estamos en casa», el golpe al planeador que no se reporta por vergüenza.
+
+Los recuadros de **Seguridad**, **Airmanship** y **Regla de oro** convierten la psicología aeronáutica en criterio de decisión. Conocerse como piloto no es introspección: es la herramienta de seguridad más desaprovechada del hangar.
 
 **Syllabus:** EASA AMC1 SFCL.130 — Factores Humanos (HUM)
-**Formato:** PDF · EPUB · MD
+**Formato:** PDF · HTML · EPUB
 **Licencia:** CC BY-SA 4.0
 
 ---
@@ -82,18 +72,18 @@ Las cajas de **SEGURIDAD**, **AIRMANSHIP** y **REGLA DE ORO** convierten la psic
 
 Nueve de cada diez accidentes de vuelo a vela arrancan en un factor humano. No hablamos de pilotos incompetentes, sino de límites fisiológicos y psicológicos que no se quedan en tierra cuando subes al planeador: la fatiga que enturbia una decisión, la presión del grupo que te empuja a despegar cuando lo sensato era esperar, la hipoxia que nubla el juicio sin avisar.
 
-Cuatro bloques temáticos, del modelo SHELL al chequeo IMSAFE, te dan las herramientas que separan al piloto que gestiona sus límites del que finge no tenerlos.
+Cuatro capítulos, del modelo SHELL al chequeo IMSAFE, te dan las herramientas que separan al piloto que gestiona sus límites del que finge no tenerlos.
 
-El mayor riesgo en la cabina eres tú. Aprende a gestionarlo.
+El mayor riesgo de la cabina eres tú. Aprende a gestionarlo.
 
 ---
 
 ## Taglines alternativos
 
-- *"Fisiología, psicología y toma de decisiones para el piloto que sabe que el error humano es inevitable —y que gestionarlo no lo es."*
-- *"El modelo SHELL, el queso suizo y el chequeo IMSAFE: las herramientas que usan los pilotos que siempre vuelven a tierra."*
-- *"Noventa por ciento de los accidentes de vuelo a vela tienen un factor humano. Este libro es sobre ese noventa por ciento."*
-- *"No vuela mejor quien más horas tiene, sino quien conoce mejor cómo falla su propio cerebro bajo presión."*
+- *«Fisiología, psicología y toma de decisiones para el piloto que sabe que el error humano es inevitable, y que gestionarlo no lo es.»*
+- *«El modelo SHELL, el queso suizo y el chequeo IMSAFE: lo que usan los pilotos que siempre vuelven.»*
+- *«El 90 % de los accidentes de vuelo a vela tienen un factor humano. Este libro va de ese 90 %.»*
+- *«No vuela mejor quien más horas tiene, sino quien conoce mejor cómo falla su propio cerebro bajo presión.»*
 
 ---
 
