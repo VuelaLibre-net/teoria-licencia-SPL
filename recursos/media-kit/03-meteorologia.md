@@ -1,4 +1,4 @@
-# Libro 3 — Meteorología · Texto de marketing
+# Libro 3 — Meteorología · Texto del media-kit
 
 ---
 

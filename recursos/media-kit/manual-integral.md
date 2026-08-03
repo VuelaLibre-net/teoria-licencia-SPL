@@ -1,4 +1,4 @@
-# Manual Integral — Licencia de Piloto de Planeador (SPL) · Texto de marketing
+# Manual Integral — Licencia de Piloto de Planeador (SPL) · Texto del media-kit
 
 ---
 

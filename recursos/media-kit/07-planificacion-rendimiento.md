@@ -1,4 +1,4 @@
-# Libro 7 — Planificación y Rendimiento de Vuelo · Texto de marketing
+# Libro 7 — Planificación y Rendimiento de Vuelo · Texto del media-kit
 
 ---
 

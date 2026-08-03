@@ -1,4 +1,4 @@
-# Libro 4 — Comunicaciones · Texto de marketing
+# Libro 4 — Comunicaciones · Texto del media-kit
 
 ---
 

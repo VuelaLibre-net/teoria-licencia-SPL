@@ -1,4 +1,4 @@
-# Libro 2 — Factores Humanos · Texto de marketing
+# Libro 2 — Factores Humanos · Texto del media-kit
 
 ---
 

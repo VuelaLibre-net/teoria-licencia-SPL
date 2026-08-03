@@ -1,4 +1,4 @@
-# Libro 9 — Navegación · Texto de marketing
+# Libro 9 — Navegación · Texto del media-kit
 
 ---
 

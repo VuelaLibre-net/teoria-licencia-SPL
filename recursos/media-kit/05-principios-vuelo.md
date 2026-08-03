@@ -1,4 +1,4 @@
-# Libro 5 — Principios de Vuelo · Texto de marketing
+# Libro 5 — Principios de Vuelo · Texto del media-kit
 
 ---
 

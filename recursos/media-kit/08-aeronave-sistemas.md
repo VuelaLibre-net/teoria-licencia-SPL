@@ -1,4 +1,4 @@
-# Libro 8 — Conocimientos Generales de la Aeronave · Texto de marketing
+# Libro 8 — Conocimientos Generales de la Aeronave · Texto del media-kit
 
 ---
 

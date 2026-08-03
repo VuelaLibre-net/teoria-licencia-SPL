@@ -1,4 +1,4 @@
-# Libro 1 — Derecho Aéreo y ATC · Texto de marketing
+# Libro 1 — Derecho Aéreo y ATC · Texto del media-kit
 
 ---
 

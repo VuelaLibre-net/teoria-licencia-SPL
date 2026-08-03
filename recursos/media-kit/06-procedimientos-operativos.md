@@ -1,4 +1,4 @@
-# Libro 6 — Procedimientos Operativos · Texto de marketing
+# Libro 6 — Procedimientos Operativos · Texto del media-kit
 
 ---
 
