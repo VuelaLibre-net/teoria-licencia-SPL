@@ -16,6 +16,8 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.13] — 3 de agosto de 2026
+
 ### Maqueta y producción
 
 * **cap04, post-it** — `Conceptos clave` había perdido un nivel de sangría y salía al mismo nivel que

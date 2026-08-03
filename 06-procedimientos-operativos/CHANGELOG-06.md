@@ -16,6 +16,8 @@ rompe la compilación.
 
 ## [En curso]
 
+## [0.9.4] — 3 de agosto de 2026
+
 **Qué releer:** **cap07, el resumen del capítulo.** Las seis alturas de decisión de rotura de cable
 salían publicadas al mismo nivel que su método de lanzamiento, seguidas y sin distinguir cuáles eran
 de torno y cuáles de remolque. Ahora cuelgan de su método. El texto y las cifras no cambian.
