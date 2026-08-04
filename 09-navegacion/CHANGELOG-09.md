@@ -18,12 +18,12 @@ rompe la compilación.
 
 ## [0.9.3] — 4 de agosto de 2026
 
-> **La ampliación más grande que ha tenido este libro.** Pasa de 6.800 a 15.200 palabras y de 7 a 15
+> **La ampliación más grande que ha tenido este libro.** Pasa de 6.800 a 15.600 palabras y de 7 a 15
 > figuras, con 20 ejercicios resueltos y 4 tablas donde no había ninguna. Se mantiene en **En
 > revisión**: el material es nuevo y todavía no lo ha visto un instructor. La `0.9.2` no llegó a
 > publicarse; su contenido sale en esta versión.
 
-**Qué releer:** **los siete capítulos.** El libro pasa de 6.800 a unas 14.800 palabras y de 7 a 15 figuras. Lo sustancial es nuevo, no reescrito: **20 ejercicios resueltos** repartidos por los siete capítulos, **cuatro tablas** (equivalencias de unidades en cap01, tablilla de desvíos en cap02, lecturas de carta en cap03 y servicios por clase de espacio aéreo en cap07) y tres apartados que no existían: **el computador de vuelo** (cap04), **el cono de alcance y el error deliberado** (cap05) y **la altitud geométrica del GNSS frente a la barométrica** (cap06). Si sólo vas a releer dos cosas: el cap04 entero y el apartado del cono de alcance del cap05, porque son los que traen cálculo nuevo.
+**Qué releer:** **los siete capítulos.** El libro pasa de 6.800 a unas 15.600 palabras y de 7 a 15 figuras. Lo sustancial es nuevo, no reescrito: **20 ejercicios resueltos** repartidos por los siete capítulos, **cuatro tablas** (equivalencias de unidades en cap01, tablilla de desvíos en cap02, lecturas de carta en cap03 y servicios por clase de espacio aéreo en cap07) y tres apartados que no existían: **el computador de vuelo** (cap04), **el cono de alcance y el error deliberado** (cap05) y **la altitud geométrica del GNSS frente a la barométrica** (cap06). Si sólo vas a releer dos cosas: el cap04 entero y el apartado del cono de alcance del cap05, porque son los que traen cálculo nuevo.
 
 ### Añadido
 
