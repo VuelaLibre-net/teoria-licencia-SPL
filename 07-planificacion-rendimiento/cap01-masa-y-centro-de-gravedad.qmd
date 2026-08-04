@@ -82,6 +82,10 @@ Un centímetro del límite posterior. Ese piloto necesita lastre en el morro ant
 
 La lección está en la dirección del cambio: **cuanto menos pesa el piloto, más atrás se va el CG**, porque el asiento está por delante del *datum* y su momento es el que tira del conjunto hacia delante.
 
+Puestos los cuatro casos que calcula este capítulo sobre el rango permitido (@fig-07-cap01-envolvente-centrado), se ve de un vistazo lo que las cifras sueltas no enseñan: hacia dónde se mueve el CG en cada situación, y cuánto margen queda antes del límite.
+
+![Los cuatro casos de centrado de este capítulo sobre el rango permitido: aligerar al piloto atrasa el CG, y el lastre de cola lo atrasa a propósito hasta rozar el límite](imagenes/07-cap01-envolvente-centrado.png){#fig-07-cap01-envolvente-centrado width="100%"}
+
 Los pesos y brazos de partida salen de la **ficha de pesaje** oficial del planeador, que se actualiza tras cada pesada o reparación mayor. El procedimiento de pesado y la documentación asociada se estudian en el **Libro 8 — Conocimientos Generales de la Aeronave, Estructura, Sistemas y Equipo de Emergencia**, capítulo 4.
 
 ## Gestión de la masa: MTOW y sobrecarga

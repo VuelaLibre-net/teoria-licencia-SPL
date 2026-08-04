@@ -29,6 +29,24 @@ Según el tipo de tarea, tu estrategia mental cambia por completo.
 
 * **Triángulo FAI**: los puntos de viraje son fijos y precisos. La navegación es rígida: pasas por el vértice o la tarea no vale.
 * **Tarea de área asignada (AAT)**: alrededor de cada punto hay un sector circular grande, y tú decides dónde virar dentro de él. Si el día está mejor de lo previsto, vete al fondo del área para sumar distancia; si se está cerrando, toca el borde más cercano y vuelve a casa antes de que se agote la térmica.
+
+### Dónde está esto escrito, y dónde verlo volado
+
+Ninguno de estos recorridos es una convención de club: están definidos con sus cifras en el reglamento deportivo de la FAI. Si vas a declarar una tarea, mira el original antes que cualquier resumen, éste incluido.
+
+* **Los recorridos** —ida y vuelta, triángulo, distancia libre— se definen en el *Sporting Code Section 3*, apartado **1.4.2**, que es el que gobierna insignias y récords. Ahí se ve que el **ida y vuelta** es un circuito cerrado con **un solo** punto de viraje declarado, y el **triángulo**, uno con dos o tres, volados en el orden declarado.
+
+  [https://www.fai.org/sites/default/files/sc3_2024.pdf](https://www.fai.org/sites/default/files/sc3_2024.pdf)
+
+* **Las tareas de competición** —la de recorrido fijo (*Racing Task*) y la de área asignada (*Assigned Area Task*)— están en la **Parte 6** del Anexo A del mismo código, con la geometría de los sectores y cómo se puntúa cada una.
+
+  [https://www.fai.org/sites/default/files/sc3a_2025.pdf](https://www.fai.org/sites/default/files/sc3a_2025.pdf)
+
+* **Para verlos volados**, el Online Contest publica las trazas reales de cada temporada, con sus puntos de viraje y su tipo de tarea. Sus reglas explican además el criterio que convierte un triángulo cualquiera en un **triángulo FAI**: el lado más corto no puede bajar del **28 %** de la distancia total, ni del **25 %** a partir de 500 km.
+
+  [https://www.onlinecontest.org/olc-3.0/segelflugszene/cms.html?url=rules_overview%2Fb2_en](https://www.onlinecontest.org/olc-3.0/segelflugszene/cms.html?url=rules_overview%2Fb2_en)
+
+Ese 28 % es la razón de que un triángulo FAI no se pueda «estirar» hacia el lado bueno del día: en cuanto un lado se queda corto respecto a los otros dos, el recorrido deja de contar como triángulo FAI aunque hayas volado los mismos kilómetros.
 :::
 
 

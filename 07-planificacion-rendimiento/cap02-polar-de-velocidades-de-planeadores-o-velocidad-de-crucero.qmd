@@ -64,6 +64,10 @@ La polar del manual de vuelo está trazada en velocidad indicada (**IAS**, *Indi
 * **Pero recorres más terreno del que crees**: a 3.000 m, una IAS de 100 km/h son unos 120 km/h de TAS. Tu planeo final cubre más kilómetros por minuto y tu deriva con viento también es mayor de lo que sugiere el instrumento.
 * **En la aproximación a un aeródromo alto, la sensación engaña**: con la IAS de aproximación correcta, el suelo pasa más deprisa de lo habitual y la carrera de aterrizaje será más larga. No "frenes" el avión por debajo de la velocidad indicada del manual: la pérdida ocurre a la misma IAS de siempre.
 
+La @fig-07-cap02-ias-tas-altitud pone cifras a esa separación: despegando de un aeródromo de la meseta ya vuelas un 7 % más deprisa de lo que marca el instrumento, y en el techo de una onda, un 27 %.
+
+![Lo que separa la TAS de la IAS al subir, con la regla del 2 % por cada 300 m: para una indicada de 100 km/h, la velocidad real crece un 7 % sobre la meseta y un 27 % en el techo de onda](imagenes/07-cap02-ias-tas-altitud.png){#fig-07-cap02-ias-tas-altitud width="100%"}
+
 ::: {.callout-important title="Normativa"}
 Las limitaciones de velocidad de tu planeador (V~NE~ (Velocidad Nunca Exceder), V~A~ (Velocidad de Maniobra) en aire turbulento) figuran en el **manual de vuelo aprobado (AFM)** y derivan de la certificación europea **CS-22** para planeadores. Atención al volar alto: el **flutter** depende de la TAS, por lo que la V~NE~ **indicada** disminuye con la altitud. Esta reducción está prescrita por la norma **CS 22.1505**, que obliga a que dicha tabla figure como placa visible en la cabina. El AFM incluye una tabla de V~NE~ por altitudes —por ejemplo, un planeador con V~NE~ de 250 km/h a nivel del mar puede quedar limitado a unos 200 km/h indicados a 6.000 m—. Consúltala antes de cualquier vuelo de onda.
 :::

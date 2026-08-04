@@ -41,7 +41,9 @@ Calcular el planeo final una sola vez y volarlo a fe ciega es apostar la tarea �
 2. **En el punto medio del tramo**: recalcula. Si el margen se mantiene en torno a +300 m, la masa de aire se comporta como esperabas. Si ha bajado a +150 m y sigue cayendo, estás atravesando descendencia o más viento de cara del previsto. Acelera la decisión, no el planeador: busca ya tu alternativa.
 3. **A unos 5 km del destino**: última verificación con margen real para incorporarte al circuito. A esta distancia el resultado ya no es una estimación: es una realidad.
 
-La fuerza del método está en la tendencia: una lectura te dice dónde estás; dos lecturas comparadas te dicen hacia dónde vas. Una descendencia continua de 0,5 m/s se pierde entre el ruido del variómetro, pero salta a la vista al comparar el margen del punto inicial con el del punto medio.
+La fuerza del método está en la tendencia: una lectura te dice dónde estás; dos lecturas comparadas te dicen hacia dónde vas. Una descendencia continua de 0,5 m/s se pierde entre el ruido del variómetro, pero salta a la vista al comparar el margen del punto inicial con el del punto medio (@fig-07-cap05-metodo-tres-puntos).
+
+![Las dos trazas del planeo final: el margen que aguanta en +300 m y el que cae a +150 m en el punto medio y sigue bajando. Lo que decide no es el valor, es la pendiente](imagenes/07-cap05-metodo-tres-puntos.png){#fig-07-cap05-metodo-tres-puntos width="100%"}
 
 * **Caja de seguridad**: durante todo el planeo final, mantén al menos un aeródromo alternativo o un campo conocido dentro del cono de alcance con una llegada mínima de 300 m AGL. El día que el margen del punto medio se desplome, agradecerás tener la alternativa ya elegida.
 
