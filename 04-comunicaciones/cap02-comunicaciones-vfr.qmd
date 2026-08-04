@@ -193,23 +193,29 @@ Cuando anotes mentalmente o en tu pernera la instrucción dada por un controlado
 
 En comunicaciones, la teoría no basta: hay que practicar la voz. Completa estas transmisiones antes de mirar la solución; imagina que eres el planeador **EC-EPE** («Eco Papa Eco»).
 
+::: {.ejercicio}
 **Ejercicio 1 — Colación de autorización.**
 
 La Torre te dice: *«Eco Papa Eco, ruede al punto de espera pista 30, QNH 1019, notifique listo.»* ¿Cuál es tu colación correcta?
 
 **Solución.** *«Al punto de espera pista 30, QNH 1019, notificaré listo, Eco Papa Eco.»* Se colacionan la instrucción de rodaje, la pista y el QNH; el indicativo cierra la transmisión. Un simple «Recibido» aquí sería una desviación del procedimiento.
+:::
 
+::: {.ejercicio}
 **Ejercicio 2 — Primer contacto en un CTR.**
 
 Vas a entrar en el CTR de un aeródromo controlado desde el punto visual November. Ordena y completa tu llamada inicial con estos elementos: intenciones, indicativo, posición y altitud, y a quién llamas.
 
 **Solución.** El orden es **a quién → quién soy → dónde estoy → qué quiero**: *«Torre de [aeródromo], Eco Papa Eco, planeador, sobre November, 900 metros QNH, solicito entrada al CTR para tránsito hacia el sur.»* Espera su autorización antes de penetrar en el CTR: en espacio controlado se entra con clearance, no por iniciativa propia.
+:::
 
+::: {.ejercicio}
 **Ejercicio 3 — «Alinear ≠ despegar».**
 
 La Torre transmite: *«Eco Papa Eco, entre y mantenga posición pista 30.»* ¿Puedes iniciar el despegue? ¿Qué colacionas?
 
 **Solución.** No. «Entre y mantenga posición» (**line up and wait**) te autoriza a ocupar la pista, pero **no** a despegar; para eso hace falta un «autorizado a despegar» explícito. Colación: *«Entro y mantengo posición pista 30, Eco Papa Eco.»*
+:::
 
 ## Comunicaciones VFR con ATC (en ruta)
 
