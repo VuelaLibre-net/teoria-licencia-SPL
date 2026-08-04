@@ -10,8 +10,8 @@
       "nombre": "Pedro Berlinches",
       "subtitulo": "SPL · FI(S) · PPL(A) · FES(A)",
       "descripcion": "Instructor y Examinador de Vuelo a Vela",
-      "libros_validados": [1, 2, 3, 4, 5],
-      "libros_pendientes": [6, 7, 8, 9]
+      "libros_validados": [1, 2, 3, 4, 5, 6, 7],
+      "libros_pendientes": [8, 9]
     },
     {
       "nombre": "Luís Ferreira Escartín",

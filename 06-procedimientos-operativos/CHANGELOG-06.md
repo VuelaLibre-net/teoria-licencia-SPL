@@ -30,6 +30,7 @@ rompe la compilación.
 
 ### Añadido
 
+* **Reconocimientos** — Pedro aparece ya con su ✓ de validación técnica en este libro. El dato vive en `recursos/estado-revisores.json` y `tools/actualizar-reconocimientos.py` lo propaga; el JSON se había actualizado sin regenerar los `reconocimientos.qmd`, así que el visto bueno estaba registrado pero no impreso.
 * **cap02 — «Las cinco reglas del torno»**, apartado propio antes del procedimiento y la fraseología. Las cinco van en un recuadro de Seguridad con el enunciado en español y su original inglés al lado, tal y como se enseñan y se transmiten entre clubes: ni viento en cola, ni hierba alta, la mano en la anilla de suelta para soltar **antes** de que el ala toque el suelo, quien lleva el ala formado, y cuidado con el viento cruzado.
 
   Debajo se desarrolla el porqué de cada una, porque una regla que sólo se memoriza se salta el día que estorba. Las cinco comparten raíz: los tres segundos en que el planeador acelera de cero a volar sin que el ala tenga autoridad para corregir nada. La técnica de mandos cruzados no se repite aquí; queda la remisión al capítulo de operaciones especiales, donde ya estaba.
@@ -211,7 +212,7 @@ Nada de esto altera lo que el lector aprende; el revisor puede saltárselo.
   el aval en uno gris. Sigue cabiendo en una página, y ahora el CI lo comprueba.
 * **Se retira «Fuentes y agradecimientos» de la página de créditos.** No se pierde nada: la
   bibliografía ya acredita el *Glider Flying Handbook* de la FAA —y dice que es la fuente de buena
-  parte de las ilustraciones—, y los reconocimientos ya acreditan a Iñaqui Ulibarri con sus
+  parte de las ilustraciones—, y los reconocimientos ya acreditan a Iñaqui con sus
   credenciales. Era una duplicación, y es la que hacía que la página no cerrase.
 * El índice, la lista de ilustraciones y la de tablas bajan de cuerpo. Estaban a 15/13/11/11 pt
   con el texto del libro a 10: hasta la subsección más profunda era mayor que lo que se lee.

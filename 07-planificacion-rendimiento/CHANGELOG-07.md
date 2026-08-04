@@ -40,6 +40,7 @@ rompe la compilación.
 
 ### Maqueta y producción
 
+* **Reconocimientos** — Pedro aparece ya con su ✓ de validación técnica en este libro. El dato vive en `recursos/estado-revisores.json` y `tools/actualizar-reconocimientos.py` lo propaga; el JSON se había actualizado sin regenerar los `reconocimientos.qmd`, así que el visto bueno estaba registrado pero no impreso.
 * **cap01 — las tres soluciones se componen por pasos.** El ejemplo de la hoja de centrado y los dos ejercicios resueltos daban toda la aritmética en un párrafo seguido: había que reconstruir mentalmente dónde acababa un cálculo y empezaba el siguiente. Ahora cada paso lleva su rótulo y su fórmula centrada, compuesta como matemáticas y no como texto corrido. Es el primer capítulo de este libro con notación matemática.
 * **cap01 — los dos ejercicios resueltos pasan al bloque `::: {.ejercicio}`**, estrenado en el libro 09. Se leen como una unidad en el PDF y el EPUB, y en el Markdown para RAG cada uno se recupera como apartado propio en vez de diluirse en el capítulo.
 * **cap01, ejercicio 2** — se añade la remisión al **Libro 9 — Navegación**, capítulo 5: el planeo final con viento de aquí y el cono de alcance de allí son la misma fórmula despejada de dos maneras, y hasta ahora se enseñaban por separado sin decirlo.
@@ -202,7 +203,7 @@ Nada de esto altera lo que el lector aprende; el revisor puede saltárselo.
   el aval en uno gris. Sigue cabiendo en una página, y ahora el CI lo comprueba.
 * **Se retira «Fuentes y agradecimientos» de la página de créditos.** No se pierde nada: la
   bibliografía ya acredita el *Glider Flying Handbook* de la FAA —y dice que es la fuente de buena
-  parte de las ilustraciones—, y los reconocimientos ya acreditan a Iñaqui Ulibarri con sus
+  parte de las ilustraciones—, y los reconocimientos ya acreditan a Iñaqui con sus
   credenciales. Era una duplicación, y es la que hacía que la página no cerrase.
 * El índice, la lista de ilustraciones y la de tablas bajan de cuerpo. Estaban a 15/13/11/11 pt
   con el texto del libro a 10: hasta la subsección más profunda era mayor que lo que se lee.
