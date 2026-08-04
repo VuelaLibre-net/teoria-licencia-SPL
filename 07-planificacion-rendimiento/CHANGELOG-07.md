@@ -27,11 +27,9 @@ rompe la compilación.
 ### Añadido
 
 * **Tres figuras nuevas, de 7 a 10.** Éste y el libro 9 eran los dos más flojos de la colección en apoyo visual, y el 9 ya se amplió. Las tres se dibujan por código desde `tools/figuras/07_planificacion.py`, y **todas sus cifras salen del propio capítulo**: no hay ni un dato ajeno ni una estimación.
-
   * **cap01 — envolvente de centrado.** Los cuatro casos que el capítulo ya calcula, puestos sobre el rango permitido. Enseña lo que las cifras sueltas no enseñan: hacia dónde se mueve el CG en cada situación y cuánto margen queda.
   * **cap02 — IAS frente a TAS con la altitud.** La regla del 2 % por cada 300 m, con la meseta española (+7 %) y el techo de onda (+27 %) marcados. La relación es lineal y se lee mejor dibujada.
   * **cap05 — el método de los tres puntos.** Las dos trazas del planeo final, la que aguanta en +300 m y la que cae a +150 m y sigue bajando. El método es una comparación de tendencias y se explicaba sin ninguna.
-
 * **cap03 — dónde está definido cada tipo de tarea, con sus enlaces.** El apartado de tareas remite ahora al *Sporting Code Section 3* de la FAI, apartado 1.4.2, donde se definen el ida y vuelta y el triángulo; a la Parte 6 de su Anexo A, para el recorrido fijo y la tarea de área asignada; y a las reglas del Online Contest, que fijan el criterio del **28 %** del lado más corto que convierte un triángulo en triángulo FAI. Se eligió referenciar las fuentes en vez de dibujar un esquema para no ilustrar de memoria algo que tiene definición normativa.
 
 ## [1.0-rc.1] — 4 de agosto de 2026
