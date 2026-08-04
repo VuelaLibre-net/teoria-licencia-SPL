@@ -644,7 +644,9 @@ jobs:
 
           # Pandoc escribe Math en gfm como $`TeX`$ si el filtro no lo convierte.
           # Eso es sintaxis, no contenido útil para un RAG.
-          for resto in '$`' '\pm' '\alpha' '\times' '\cdot' '\cos' '\sin' '\sqrt' '\frac' '\circ' '_{'; do
+          for resto in '$`' '\pm' '\alpha' '\times' '\cdot' '\cos' '\sin' '\sqrt' '\frac' '\circ' '_{' \
+                       '\approx' '\div' '\le' '\ge' '\rightarrow' '\to' '\text{' '\mathrm' \
+                       '\quad' '\mathbf' '\mathit'; do
             if grep -Fq -- "$resto" "$md"; then
               echo "::error file=$md::Queda TeX crudo '$resto' en el Markdown para RAG"
               errores=1
@@ -662,9 +664,34 @@ jobs:
             errores=1
           fi
 
+          libro=$(libro_de "$md") || { echo "::error::No sé a qué libro corresponde $md"; errores=1; continue; }
+
+          # Los ejercicios resueltos, igual. Aquí no vale exigir presencia: no
+          # todos los libros los usan y un guardián global rompería los demás.
+          # Se comparan cuentas: cada ::: {.ejercicio} del .qmd debe aparecer
+          # como su propio apartado en el Markdown para RAG. Si el filtro dejara
+          # de reconocer la clase, el grep de '^:::' de arriba lo cazaría; esto
+          # caza lo contrario, que se los tragara sin dejar rastro.
+          #
+          # ⚠️ El manual completo es la excepción: sus capítulos NO están en
+          # recursos-completo/ —ahí sólo viven glosario, syllabus y
+          # preliminares—, sino en los nueve directorios de libro, que
+          # `_quarto-completo.yml` referencia. Contando sólo su directorio
+          # saldría 0 frente a los ejercicios de los nueve, y el guardián
+          # fallaría en verde al revés: acusando de perder lo que sí está.
+          case "$libro" in
+            recursos-completo) fuentes_ejercicios=(0*/*.qmd) ;;
+            *)                 fuentes_ejercicios=("$libro"/*.qmd) ;;
+          esac
+          en_qmd=$(cat "${fuentes_ejercicios[@]}" | grep -c '^::: *{\.ejercicio}' || true)
+          en_rag=$(grep -c '^### Ejercicio' "$md" || true)
+          if [ "$en_qmd" -ne "$en_rag" ]; then
+            echo "::error file=$md::$en_qmd ejercicios en los .qmd y $en_rag en el Markdown para RAG"
+            errores=1
+          fi
+
           # Estado editorial, como en el PDF y el EPUB. Quien cargue esto en un
           # cuaderno debe saber si el libro está terminado.
-          libro=$(libro_de "$md") || { echo "::error::No sé a qué libro corresponde $md"; errores=1; continue; }
           version=$(version_de "$libro")
           mayor=${version%%.*}
           case "$version" in *-*) pre=1 ;; *) pre=0 ;; esac

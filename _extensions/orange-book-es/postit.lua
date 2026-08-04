@@ -19,6 +19,7 @@ local ENVOLTORIOS = {
   colofon = "colofon",
   creditos = "creditos",
   ["mas-alla"] = "mas-alla",
+  ejercicio = "ejercicio",
   ["aviso-legal"] = "aviso-legal",
   aval = "aval",
   ["licencia-cc"] = "licencia-cc",

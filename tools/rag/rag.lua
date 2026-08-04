@@ -106,6 +106,31 @@ local function Header(h)
   return h
 end
 
+-- Asciende a encabezado propio un bloque cuya primera línea ya es su título en
+-- negrita, y devuelve el resto del contenido debajo.
+--
+-- Lo usan el post-it y el ejercicio, que son los dos bloques que un RAG debe
+-- recuperar enteros: el resumen es lo más denso del capítulo y el ejercicio no
+-- se entiende partido por la mitad. Como encabezado, el troceador los trata como
+-- unidad en vez de dejarlos colgando del apartado anterior.
+--
+-- Si la primera línea no es un título en negrita se antepone `respaldo`, para
+-- que el bloque nunca se quede sin rótulo; si lo es, se asciende ésa en vez de
+-- añadir otra y dejar el título dos veces seguidas.
+local function con_titulo(d, respaldo)
+  local contenido = pandoc.List(d.content)
+  local titulo = pandoc.List({ pandoc.Str(respaldo) })
+  local primero = contenido[1]
+  if primero and primero.t == "Para" and #primero.content == 1
+      and primero.content[1].t == "Strong" then
+    titulo = pandoc.List(primero.content[1].content)
+    contenido:remove(1)
+  end
+  local bloques = pandoc.List({ pandoc.Header(3, titulo, { class = "unnumbered" }) })
+  bloques:extend(contenido)
+  return bloques
+end
+
 local function Div(d)
   -- Recuadro del temario: se convierte en cita con su etiqueta por delante.
   for clase, respaldo in pairs(ETIQUETAS) do
@@ -118,22 +143,18 @@ local function Div(d)
   end
 
   -- El resumen de cada capítulo. Pasa a ser un encabezado propio: es el trozo
-  -- más denso del capítulo y así el troceador lo recupera como unidad.
+  -- más denso del capítulo y así el troceador lo recupera como unidad. Los 76
+  -- postits de la colección abren con su propio título en negrita
+  -- ("**Resumen del capítulo: definiciones y técnica**").
   if d.classes:includes("postit") then
-    local contenido = pandoc.List(d.content)
-    local titulo = pandoc.List({ pandoc.Str("Resumen del capítulo") })
-    -- Los 76 postits de la colección abren con su propio título en negrita
-    -- ("**Resumen del capítulo: definiciones y técnica**"). Se asciende ese, en
-    -- vez de anteponerle otro y dejar el título dos veces seguidas.
-    local primero = contenido[1]
-    if primero and primero.t == "Para" and #primero.content == 1
-        and primero.content[1].t == "Strong" then
-      titulo = pandoc.List(primero.content[1].content)
-      contenido:remove(1)
-    end
-    local bloques = pandoc.List({ pandoc.Header(3, titulo, { class = "unnumbered" }) })
-    bloques:extend(contenido)
-    return bloques
+    return con_titulo(d, "Resumen del capítulo")
+  end
+
+  -- Ejercicio resuelto: mismo trato. Enunciado, procedimiento y solución sólo
+  -- valen juntos, y su primera línea ya es el rótulo
+  -- ("**Ejercicio 4.1 — Cadena de rumbos con viento.**").
+  if d.classes:includes("ejercicio") then
+    return con_titulo(d, "Ejercicio")
   end
 
   -- "Más allá del examen": el contenido se queda (es materia), pero el div
@@ -160,8 +181,19 @@ end
 -- sólo las construcciones que usa la colección a texto plano legible.
 local function Math(m)
   local t = m.text
-  t = t:gsub("([%a]+)_%{([^}]+)%}", "%1_%2")
+  -- Subíndices. La regla exigía una letra justo antes del `_`, y se colaba
+  -- `(L/D)_{efectiva}`, cuyo carácter previo es un paréntesis: el CI lo cazó
+  -- como TeX crudo. Cualquier cosa puede llevar subíndice, así que no se pide
+  -- nada delante.
+  t = t:gsub("_%{([^}]+)%}", "_%1")
+  -- Los envoltorios de estilo se desenvuelven: al RAG le llega texto plano y la
+  -- negrita o la redonda de una fórmula no le dicen nada. `\mathbf` se coló 23
+  -- veces sin que nadie protestara, porque no estaba en la lista de TeX crudo
+  -- que vigila el CI. Ahora sí está.
   t = t:gsub("\\mathrm%s*%{([^}]+)%}", "%1")
+  t = t:gsub("\\mathbf%s*%{([^}]+)%}", "%1")
+  t = t:gsub("\\mathit%s*%{([^}]+)%}", "%1")
+  t = t:gsub("\\text%s*%{([^}]+)%}", "%1")
   t = t:gsub("\\sqrt%s*%{([^}]+)%}", "√%1")
   t = t:gsub("%^{\\circ}", "°")
   t = t:gsub("%^\\circ", "°")
@@ -170,8 +202,22 @@ local function Math(m)
   t = t:gsub("\\times", "×")
   t = t:gsub("\\cdot", "·")
   t = t:gsub("\\pm", "±")
+  -- Los ejercicios resueltos del libro 9 traen aproximaciones y desigualdades
+  -- que ningún otro capítulo usaba. Sin traducirlas, el CI aborta: hay un
+  -- guardián que falla ante cualquier TeX crudo en el Markdown para RAG.
+  t = t:gsub("\\approx", "≈")
+  t = t:gsub("\\div", "÷")
+  t = t:gsub("\\leq", "≤")
+  t = t:gsub("\\le%f[%A]", "≤")
+  t = t:gsub("\\geq", "≥")
+  t = t:gsub("\\ge%f[%A]", "≥")
+  t = t:gsub("\\rightarrow", "→")
+  t = t:gsub("\\to%f[%A]", "→")
+  t = t:gsub("\\%%", "%%")
   t = t:gsub("\\alpha", "α")
+  -- \qquad antes que \quad: si no, el primero se quedaría a medio traducir.
   t = t:gsub("\\qquad", ";")
+  t = t:gsub("\\quad", " ")
   t = t:gsub("\\sin", "sin")
   t = t:gsub("\\cos", "cos")
   t = t:gsub("sinα", "sin α")
