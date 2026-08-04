@@ -8,7 +8,8 @@
 >
 > * **ATC frente a FIS**: quién da órdenes obligatorias y quién facilita información.
 > * **El transpondedor**: los códigos squawk y cuándo es obligatorio llevarlo encendido.
-> * **El plan de vuelo (FPL)**: cuándo es obligatorio, su ciclo de vida y por qué hay que cerrarlo al aterrizar.
+> * **El plan de vuelo (FPL)**: cuándo es obligatorio, dónde se presenta, su ciclo de vida y por qué hay que cerrarlo al aterrizar.
+* **Los NOTAM y las fuentes oficiales**: dónde se consultan de verdad, y por qué las aplicaciones que todos usamos no valen para eso.
 > * **Los espacios aéreos especiales**: qué te exigen y qué servicios recibes en cada clase.
 
 ## ATC vs. FIS: ¿quién es quién?
@@ -33,6 +34,12 @@ El transpondedor es el equipo que permite a los radares del ATC "verte" e identi
 * **7600**: Fallo de radio.
 * **7500**: Interferencia ilícita (secuestro).
 
+La regla de uso es sencilla: **vuelas con 7000 salvo que el control te asigne un código concreto**, y en cuanto termina el servicio que motivó esa asignación vuelves a 7000. Los tres códigos de emergencia se seleccionan sin pedir permiso a nadie y sin esperar a que la situación empeore.
+
+::: {.callout-warning title="Seguridad"}
+Al girar las ruedas del transpondedor para poner un código, se pasa físicamente por códigos intermedios. Si estás poniendo, por ejemplo, un 7501 asignado, en el camino puedes emitir durante un instante un **7500** —interferencia ilícita— y disparar un aviso en el centro de control. Cambia el código **con decisión y sin detenerte**, o usa la posición de espera si tu equipo la tiene.
+:::
+
 ::: {.callout-warning title="Seguridad"}
 Si tu transpondedor está instalado y operativo, la práctica correcta es **mantenerlo encendido y en modo "ALT"** (transmisión de altitud) para que el radar te vea. Su uso es **obligatorio en las zonas de uso de transpondedor (TMZ) y allí donde lo exijan la clase de espacio aéreo o el AIP-España (ENR 1.6)** —las clases A y C lo requieren, y la D generalmente; véase la tabla del **Libro 1 — Derecho Aéreo y Procedimientos de Control de Tránsito Aéreo (ATC)**, capítulo 7—, y muy recomendable en cualquier espacio con tráfico. Solo en planeadores con batería muy limitada cabe valorar apagarlo fuera de esos espacios, y siempre como decisión deliberada: **nunca en una TMZ, en espacio controlado ni en zonas de tráfico intenso**.
 :::
@@ -45,9 +52,21 @@ El Plan de Vuelo (FPL) es tu contrato de seguridad con el sistema. En él indica
 Según el reglamento **SERA** (SERA.4001 b)), es obligatorio presentar un FPL si vas a cruzar fronteras, si se te presta servicio de control de tránsito aéreo (clases B, C y D) o si despegas o aterrizas en un aeródromo controlado. Ojo con la clase E: es espacio controlado, pero al VFR no se le presta servicio de control, así que no necesita plan de vuelo, ni radio, ni autorización. Y lo más importante de todo: si presentaste plan, **DEBES notificar tu llegada** para cerrarlo. Si no lo haces, se activarán los servicios de búsqueda y rescate (SAR) innecesariamente.
 :::
 
+### Dónde se consultan los NOTAM y se presenta el plan
+
+Un **NOTAM** es el aviso que corrige lo que la carta y el AIP ya no dicen bien: una zona restringida activada ese día, una pista cerrada, un obstáculo nuevo, una frecuencia cambiada. Es el único sitio donde aparecen los cambios posteriores a la edición de tu carta, así que la consulta previa al vuelo no es opcional.
+
+En España, el servicio oficial para el VFR es **Insignia VFR**, de ENAIRE. Desde ahí se hace el briefing previo —NOTAM de la ruta y de los aeródromos, meteorología— y se presenta el plan de vuelo:
+
+[https://insigniavfr.enaire.es/](https://insigniavfr.enaire.es/)
+
+::: {.callout-important title="Normativa"}
+Circulan varias aplicaciones de planificación que casi todo el mundo usa y que están muy bien para preparar el vuelo. **Ninguna de ellas es fuente oficial.** Consultan datos que ellas mismas procesan, con su propio calendario de actualización, y no responden de lo que muestran. La consulta que cuenta —y la que se te exigirá si algo sale mal— es la del AIP y la de Insignia VFR. Usa la aplicación que quieras para volar cómodo; comprueba en la oficial antes de despegar.
+:::
+
 El plan no es un papel que se entrega y se olvida. Tiene un ciclo de vida con cuatro mensajes asociados que comunicas a la misma dependencia donde lo presentaste: **DEP** (salida), **DLA** (demora), **CHG** (cambio) y **CNL** (cancelación). Y, según el AIP (ENR 1.10), un FPL VFR debe presentarse con cierta antelación a la EOBT (hora estimada fuera de calzos): típicamente al menos **60 minutos antes** si solicitas servicio de control, o antes de la salida si solo pides información de vuelo y alerta.
 
-![Interacción con el control de tráfico aéreo](imagenes/09-cap07-atc.jpg){#fig-09-cap07-control-aereo}
+![Imagen de la Torre de Control de un aeródromo, pero la presencia de una torre no quiere decir que sea controlado.](imagenes/09-cap07-atc.jpg){#fig-09-cap07-control-aereo}
 
 ## Operando en espacios especiales
 
@@ -62,6 +81,53 @@ No todas las zonas del cielo son iguales:
 Resumen de servicios al VFR según **SERA.8001**: en **C y D** hay autorización ATC y radio obligatoria; en **E** ni autorización ni radio (solo información de tráfico si la hay); en **F y G** solo servicio de información de vuelo. Saber qué te van a dar —y qué te van a exigir— en cada clase es parte de la planificación.
 :::
 
+La @tbl-09-cap07-clases-espacio lo pone en la forma en que se consulta mientras se prepara una ruta:
+
+| Clase | ¿Autorización para entrar? | ¿Radio? | ¿Quién te separa? | Qué recibes |
+| --- | --- | --- | --- | --- |
+| **A** | No aplica: **VFR prohibido** | — | — | — |
+| **C** | Sí | Sí | ATC te separa **del IFR** | Información de tráfico sobre otros VFR |
+| **D** | Sí | Sí | **Nadie** | Información de tráfico del IFR y de otros VFR |
+| **E** | No | No obligatoria | Nadie | Información de tráfico en la medida de lo posible |
+| **G** | No | No obligatoria | Nadie | Servicio de información de vuelo (FIS) si lo pides |
+: Qué te exigen y qué te dan en cada clase de espacio aéreo, volando VFR en planeador {#tbl-09-cap07-clases-espacio}
+
+Las dos columnas centrales son las que condicionan la ruta —si no llevas radio, la C y la D quedan fuera— y la cuarta es la que se malinterpreta más a menudo. **La separación entre VFR e IFR sólo existe en clase C.** En clase D tienes que pedir autorización, hablar por radio y recibir información de tráfico, y aun así **nadie te separa de nada**: ver y evitar sigue siendo tuyo. Esta misma tabla, con el detalle de requisitos de equipo, está en el **Libro 1 — Derecho Aéreo y Procedimientos de Control de Tránsito Aéreo (ATC)**, capítulo 7, junto a las zonas RMZ y TMZ.
+
+::: {.ejercicio}
+**Ejercicio 7.1 — ¿Por dónde paso?**
+
+Planificas un tramo de 60 km en línea recta. La carta muestra que la ruta directa atraviesa, en este orden: 15 km de **clase G**, después una **TMA de clase D** con suelo a 2.500 ft AMSL, y por último otros 20 km de **clase G**. Llevas transpondedor operativo y radio. La base de las nubes prevista está a 4.000 ft AMSL. ¿Qué opciones tienes?
+
+**Solución.** Tres, y las tres son legítimas:
+
+1. **Pasar por debajo.** El suelo de la clase D está a 2.500 ft AMSL, así que por debajo de esa cota sigues en clase G y no necesitas autorización ni radio. Con la base a 4.000 ft tienes una ventana de trabajo, pero estrecha: quedarte por debajo de 2.500 ft AMSL limita mucho la térmica y el alcance de planeo. Comprueba en la carta la elevación del terreno antes de contar con esta opción.
+2. **Pedir autorización y cruzar.** Llamas antes de llegar al límite, pides cruce y esperas la autorización **antes** de entrar. Recibirás información de tráfico, pero no separación.
+3. **Rodear.** Mides el rodeo en la carta y decides si el tiempo extra compensa. Si el rodeo son 15 km más a 60 kt de velocidad suelo, son unos ocho minutos.
+
+Lo que **no** es una opción es entrar sin autorización y avisar después. Y la decisión se toma en tierra, con el mapa delante, no cuando ya tienes el límite del espacio aéreo debajo del ala.
+:::
+
+::: {.ejercicio}
+**Ejercicio 7.2 — El reloj del plan de vuelo.**
+
+Es **agosto** y quieres estar fuera de calzos a las **11:30 hora local peninsular**. Vas a presentar un FPL solicitando servicio de control. (a) ¿Cuál es tu EOBT en la casilla del plan? (b) Si el AIP pide presentarlo con **60 minutos** de antelación, ¿a qué hora local, como muy tarde?
+
+**Solución.** (a) En agosto la hora local peninsular es **UTC + 2**, y el plan de vuelo se rellena **siempre en UTC**. Para pasar de local a Zulu se resta:
+
+$$
+11{:}30 - 2{:}00 = \mathbf{09{:}30 \ Z}
+$$
+
+(b) Sesenta minutos antes de la EOBT son las **08:30 Z**, que en hora local son:
+
+$$
+08{:}30 + 2{:}00 = \mathbf{10{:}30 \ local}
+$$
+
+Es decir, una hora antes de mover el planeador. Y si al final se retrasa la salida, el plan hay que actualizarlo con un mensaje **DLA**: un FPL con una EOBT que ya pasó no protege a nadie, y a partir de cierto margen dispara la fase de alerta.
+:::
+
 ::: {.postit}
 **Resumen del capítulo: uso de los ATS**
 
@@ -69,4 +135,7 @@ Resumen de servicios al VFR según **SERA.8001**: en **C y D** hay autorización
 * **Transpondedor**: Es tu visibilidad para el radar. En VFR pon 7000. Si tienes una emergencia: 7700. Si pierdes la radio: 7600. Si está operativo, llévalo encendido y en ALT (obligatorio en TMZ y donde lo exija la clase de espacio aéreo — AIP ENR 1.6); vigila el consumo de batería.
 * **Plan de Vuelo**: Fundamental para que te busquen si no llegas. Se activa al despegar y **ES OBLIGATORIO notificar tu llegada** a la dependencia ATS del aeródromo de destino tan pronto como sea posible (SERA).
 * **Espacios Aéreos**: Conoce dónde estás. En Clase C o D necesitas autorización radio. En Clase G eres libre, pero el FIS sigue estando ahí para ayudarte.
+* **Separación al VFR**: sólo en **clase C**, y sólo respecto al IFR. En clase D pides autorización, hablas por radio y recibes información de tráfico, pero **nadie te separa**.
+* **El reloj del FPL**: la EOBT va en **UTC**, y la antelación de presentación se cuenta sobre ella. Local a Zulu, **se resta** (−1 en invierno, −2 en verano en la Península).
+* **Fuentes oficiales**: los NOTAM y el plan de vuelo, en **Insignia VFR** de ENAIRE; las cartas, en el AIP. Las aplicaciones de planificación que todos usamos sirven para volar cómodo, **no** para dar por consultado el briefing.
 :::
