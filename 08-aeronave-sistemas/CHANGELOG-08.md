@@ -16,6 +16,8 @@ rompe la compilación.
 
 ## [En curso]
 
+**Qué releer:** **cap07 y cap11, ubicación de dos figuras; cap13, primer párrafo.** En cap07 la figura de los conectores pasa junto al tipo manual que ilustra, con su referencia `@fig` y un pie que ya no compara los dos tipos. En cap11 se adelanta a la descripción del sistema. En cap13 se matiza que «la mayoría» de los paracaídas de planeador son de apertura manual.
+
 ## [0.9.1] — 2 de agosto de 2026
 
 **Qué releer:** **Glosario, entradas «Hipoxia», «V~RA~» y el certificado de aeronavegabilidad; cap05, encabezado de aerofrenos.** El certificado pasa de `CoA` a `CofA`, como en el libro 01, para no publicarse dos veces en el manual completo. Los aerofrenos se rotulan `airbrakes` y no `spoilers`, con el porqué en el glosario.

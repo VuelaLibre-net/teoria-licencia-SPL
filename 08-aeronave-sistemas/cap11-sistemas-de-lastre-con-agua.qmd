@@ -26,6 +26,8 @@ El sistema es sencillo de concepto, pero exige un mantenimiento escrupuloso:
 * **Válvulas de descarga**: vacían el agua al exterior. Se accionan desde la cabina, normalmente con una palanca pequeña.
 * **Respiraderos**: orificios que dejan entrar aire mientras sale el agua. Si uno se bloquea, la succión puede dañar la estructura del ala.
 
+![Manijas del  sistema de lastre de agua compartimentado](imagenes/08-cap11-lastre-agua.jpg){#fig-08-cap11-lastre-agua}
+
 ## Llenado y vaciado
 
 El llenado se hace por unos orificios en el extradós del ala. Es clave que los dos planos carguen la misma cantidad de agua, para mantener la simetría lateral.
@@ -46,7 +48,6 @@ Vacía el lastre de agua antes de aterrizar; es una limitación operativa del Ma
 
 Para compensar el desplazamiento del centro de gravedad que provoca el agua de las alas, algunos planeadores llevan un pequeño depósito en la deriva. Al llenar ese tanque de cola, se recupera el equilibrio óptimo del velero para volar rápido.
 
-![Manijas del  sistema de lastre de agua compartimentado](imagenes/08-cap11-lastre-agua.jpg){#fig-08-cap11-lastre-agua}
 
 ::: {.postit}
 **Resumen del capítulo: lastre de agua**
