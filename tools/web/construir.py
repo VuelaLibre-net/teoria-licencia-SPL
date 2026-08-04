@@ -110,6 +110,19 @@ def main() -> None:
             f"estado-nota={args.status_note}",
             "--metadata",
             "toc=false",
+            # Las matemáticas, en MathML y resueltas al compilar.
+            #
+            # Quarto emite el HTML con las fórmulas en TeX crudo (`\[ … \]`) y
+            # carga MathJax desde un CDN para pintarlas en el navegador. El sitio
+            # publica el CUERPO de estas páginas dentro de su propia plantilla, no
+            # la cabecera que Quarto genera, así que ese script nunca llega: el
+            # lector veía `MH = CH + DEV = 270 + (+3) = 273^\circ` tal cual.
+            #
+            # Con MathML la conversión la hace pandoc aquí, el paquete queda
+            # autocontenido y no depende ni de un CDN ni de JavaScript. Es además
+            # lo que ya hacía el EPUB, donde las fórmulas siempre se vieron bien.
+            "--metadata",
+            "html-math-method=mathml",
         ]
         subprocess.run(command, check=True)
         image_stats = optimize_html_images(quarto_output)
