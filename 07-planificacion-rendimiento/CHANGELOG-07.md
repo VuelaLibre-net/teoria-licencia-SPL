@@ -16,6 +16,34 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.1] — 4 de agosto de 2026
+
+> **El libro pasa a candidato de versión.** Un instructor ha revisado el contenido y ha dado su visto
+> bueno. A partir de aquí la revisión técnica está hecha y lo que quede serán retoques hasta la
+> `1.0.0`: correcciones puntuales, maqueta e ilustraciones. Lo que **no** entra ya en un `rc` es
+> materia nueva sin revisar.
+>
+> El salto se hace desde la `0.9.2`. La numeración `0.9.3` no llegó a publicarse: su contenido —la
+> corrección del ejercicio de centrado y el rehecho de las soluciones que se describen abajo— sale en
+> esta misma versión.
+>
+> ⚠️ Queda una carencia conocida que el `rc` no tapa: con **7.978 palabras y 7 figuras**, éste y el
+> libro 9 eran los dos más flojos de la colección en ambas métricas. El 9 ya se ha ampliado; aquí
+> sigue pendiente, y es candidato natural a más ejercicios resueltos y a alguna figura de la polar.
+
+**Qué releer:** **cap01, «Ejemplo práctico de hoja de centrado» y «Ejercicios resueltos».** Las soluciones se rehacen: antes iban a renglón corrido, con toda la aritmética metida en un párrafo; ahora van por pasos, con las fórmulas compuestas como matemáticas. El contenido del razonamiento no cambia. Lo que sí cambia es una cifra del ejercicio 1: con los 6 litros de lastre de cola que pedía, el CG salía en **+0,381 m**, **fuera** del rango que el propio enunciado declara (+0,25 a +0,38), y el texto lo daba por bueno llamándolo «justo en el límite posterior». Ahora son 5 litros y el resultado, +0,373 m, queda dentro. Lo demás es maqueta.
+
+### Corregido
+
+* **cap01, ejercicio 1 de centrado** — el lastre de cola del enunciado baja de 6 a 5 litros. Con 6 kg a +3,90 m el CG resultaba +0,3807 m, un resultado **fuera de rango presentado como correcto** en el capítulo que abre advirtiendo de que el CG atrasado es la condición más peligrosa. La solución añade además la comprobación explícita de qué pasaría con un litro más, que es la lección que el ejercicio quería dar.
+* **cap01, tabla «Ejemplo de hoja de centrado de un monoplaza»** — le faltaba el identificador `{#tbl-…}`, y sin él **el pie de tabla no llegaba al PDF**: la tabla se publicaba muda y no aparecía en el índice de tablas. Añadido el id y la remisión `@tbl-…` desde la prosa.
+
+### Maqueta y producción
+
+* **cap01 — las tres soluciones se componen por pasos.** El ejemplo de la hoja de centrado y los dos ejercicios resueltos daban toda la aritmética en un párrafo seguido: había que reconstruir mentalmente dónde acababa un cálculo y empezaba el siguiente. Ahora cada paso lleva su rótulo y su fórmula centrada, compuesta como matemáticas y no como texto corrido. Es el primer capítulo de este libro con notación matemática.
+* **cap01 — los dos ejercicios resueltos pasan al bloque `::: {.ejercicio}`**, estrenado en el libro 09. Se leen como una unidad en el PDF y el EPUB, y en el Markdown para RAG cada uno se recupera como apartado propio en vez de diluirse en el capítulo.
+* **cap01, ejercicio 2** — se añade la remisión al **Libro 9 — Navegación**, capítulo 5: el planeo final con viento de aquí y el cono de alcance de allí son la misma fórmula despejada de dos maneras, y hasta ahora se enseñaban por separado sin decirlo.
+
 ## [0.9.2] — 2 de agosto de 2026
 
 **Qué releer:** **Glosario, entrada «FPL».** Queda anclada en SERA.4001 b) y recoge el supuesto de las áreas designadas por la autoridad competente, que faltaba. «Polar de velocidades» pasa a llamarse «Curva polar», como en el libro 05.

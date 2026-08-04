@@ -16,7 +16,25 @@ rompe la compilación.
 
 ## [En curso]
 
-## [0.9.4] — 3 de agosto de 2026
+## [1.0-rc.1] — 4 de agosto de 2026
+
+> **El libro pasa a candidato de versión.** El instructor revisor ha dado su visto bueno al contenido
+> completo. A partir de aquí la revisión técnica está hecha y lo que quede serán retoques hasta la
+> `1.0.0`: correcciones puntuales, maqueta e ilustraciones. Lo que **no** entra ya en un `rc` es
+> materia nueva sin revisar.
+>
+> El salto se hace desde la `0.9.4`. La numeración `0.9.5` no llegó a publicarse: su contenido —el
+> apartado del torno que se describe abajo— sale en esta misma versión.
+
+**Qué releer:** **cap02, apartado nuevo «Las cinco reglas del torno».** Es material que faltaba, aportado por el instructor revisor: las cinco reglas clásicas del lanzamiento por torno, con su original en inglés y el porqué de cada una. Nada del resto del capítulo cambia.
+
+### Añadido
+
+* **cap02 — «Las cinco reglas del torno»**, apartado propio antes del procedimiento y la fraseología. Las cinco van en un recuadro de Seguridad con el enunciado en español y su original inglés al lado, tal y como se enseñan y se transmiten entre clubes: ni viento en cola, ni hierba alta, la mano en la anilla de suelta para soltar **antes** de que el ala toque el suelo, quien lleva el ala formado, y cuidado con el viento cruzado.
+
+  Debajo se desarrolla el porqué de cada una, porque una regla que sólo se memoriza se salta el día que estorba. Las cinco comparten raíz: los tres segundos en que el planeador acelera de cero a volar sin que el ala tenga autoridad para corregir nada. La técnica de mandos cruzados no se repite aquí; queda la remisión al capítulo de operaciones especiales, donde ya estaba.
+
+  Añadido también al resumen del capítulo y a la entradilla.
 
 **Qué releer:** **cap07, el resumen del capítulo.** Las seis alturas de decisión de rotura de cable
 salían publicadas al mismo nivel que su método de lanzamiento, seguidas y sin distinguir cuáles eran

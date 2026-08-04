@@ -140,6 +140,25 @@ div.mas-alla {
   margin: 1.2em 0;
 }
 
+/* Ejercicio resuelto. Filete izquierdo en el azul de estructura de la colección
+ * (#003366) sobre fondo apenas teñido, igual que en el PDF: ni el amarillo del
+ * post-it, ni el gris de «más allá», ni ninguno de los cuatro colores de las
+ * admonitions. No es una quinta categoría de recuadro, es un envoltorio aparte.
+ *
+ * Aquí basta con el div: al contrario que «más allá», un ejercicio no lleva
+ * encabezados dentro, así que Pandoc no lo funde con ninguna sección. */
+div.ejercicio {
+  background-color: #f2f6fa;
+  border-left: 3px solid #003366;
+  border-radius: 0 2px 2px 0;
+  padding: 0.7em 0.9em;
+  margin: 1.2em 0;
+}
+
+div.ejercicio > :last-child {
+  margin-bottom: 0;
+}
+
 /* La entradilla: violeta y cuerpo menor, como el rol `mas-alla-tag` del tema
  * AsciiDoc original. Es un color distinto de los cuatro de las admonitions a
  * propósito, para que no se confunda con ellas. */

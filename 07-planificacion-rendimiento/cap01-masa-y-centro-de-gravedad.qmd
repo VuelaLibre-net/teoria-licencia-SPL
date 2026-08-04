@@ -49,18 +49,38 @@ La posición del CG es la media ponderada de todos los momentos (@fig-07-cap01-d
 
 ### Ejemplo práctico de hoja de centrado
 
-Imagina un monoplaza cuyo manual de vuelo da un rango de CG permitido de +0,25 m a +0,38 m detrás del *datum*:
+Imagina un monoplaza cuyo manual de vuelo da un rango de CG permitido de +0,25 m a +0,38 m detrás del *datum* (@tbl-07-cap01-hoja-centrado):
 
 | Elemento | Peso (kg) | Brazo (m) | Momento (kg·m) |
 | --- | --- | --- | --- |
 | Planeador en vacío (según ficha de pesaje) | 265 | +0,55 | +145,75 |
 | Piloto + paracaídas | 85 | −0,45 | −38,25 |
 | **Total** | **350** | — | **+107,50** |
-: Ejemplo de hoja de centrado de un monoplaza
+: Ejemplo de hoja de centrado de un monoplaza {#tbl-07-cap01-hoja-centrado}
 
-CG = 107,50 / 350 = **+0,31 m**, dentro del rango permitido.
+La suma de momentos entre la masa total da el centro de gravedad:
 
-Repite ahora el cálculo con un piloto de 60 kg. Su momento baja a −27,00 kg·m, el total queda en 325 kg y +118,75 kg·m, y el CG se va a +0,37 m, rozando el límite posterior: ese piloto necesita lastre en el morro antes de despegar. Fíjate en la lección del ejemplo: cuanto menos pesa el piloto, más atrás se va el CG, porque el asiento está por delante del *datum*.
+$$
+CG = \frac{\text{107,50}}{350} = +\text{0,31}\ \mathrm{m}
+$$
+
+Dentro del rango permitido, y con holgura por los dos lados.
+
+Repite ahora el cálculo con un piloto de **60 kg**. Cambia su momento:
+
+$$
+60 \times (-\text{0,45}) = -\text{27,00}\ \mathrm{kg}\cdot\mathrm{m}
+$$
+
+Y con él, el total y el resultado:
+
+$$
+CG = \frac{\text{145,75} - \text{27,00}}{265 + 60} = \frac{\text{118,75}}{325} = +\text{0,37}\ \mathrm{m}
+$$
+
+Un centímetro del límite posterior. Ese piloto necesita lastre en el morro antes de despegar.
+
+La lección está en la dirección del cambio: **cuanto menos pesa el piloto, más atrás se va el CG**, porque el asiento está por delante del *datum* y su momento es el que tira del conjunto hacia delante.
 
 Los pesos y brazos de partida salen de la **ficha de pesaje** oficial del planeador, que se actualiza tras cada pesada o reparación mayor. El procedimiento de pesado y la documentación asociada se estudian en el **Libro 8 — Conocimientos Generales de la Aeronave, Estructura, Sistemas y Equipo de Emergencia**, capítulo 4.
 
@@ -93,19 +113,105 @@ Nunca aterrices con los tanques de agua llenos a menos que sea una emergencia ab
 
 Aquí tienes un ejercicio de centrado y otro de planeo final, resueltos paso a paso. Intenta hacerlos tú antes de leer la solución.
 
+::: {.ejercicio}
 **Ejercicio 1 — Centrado con lastre de cola.**
 
-Un monoplaza tiene un rango de CG permitido de +0,25 m a +0,38 m. Con las alas cargadas de agua, la hoja de centrado queda así: planeador + agua de alas = 380 kg con brazo +0,50 m; piloto + paracaídas = 80 kg con brazo −0,45 m. El manual permite añadir hasta 6 litros (6 kg) de lastre de cola con un brazo de +3,90 m. ¿Dónde queda el CG sin lastre de cola? ¿Y cuánto lo recoloca añadir los 6 litros?
+Un monoplaza tiene un rango de CG permitido de +0,25 m a +0,38 m. Con las alas cargadas de agua, la hoja de centrado queda así: planeador + agua de alas = 380 kg con brazo +0,50 m; piloto + paracaídas = 80 kg con brazo −0,45 m. El manual permite añadir hasta 5 litros (5 kg) de lastre de cola con un brazo de +3,90 m. ¿Dónde queda el CG sin lastre de cola? ¿Y cuánto lo recoloca añadir los 5 litros?
 
-**Solución.** Momento del planeador con agua: 380 × (+0,50) = +190,0 kg·m. Momento del piloto: 80 × (−0,45) = −36,0 kg·m. Sin lastre de cola: masa 460 kg, momento +154,0 kg·m, CG = 154,0 / 460 = **+0,335 m** (dentro de rango, pero adelantado respecto al óptimo, cerca del posterior).
+**Solución.** Cada peso aporta su momento, que es peso por brazo. El planeador con el agua de alas:
 
-Con 6 kg en la cola: momento adicional 6 × (+3,90) = +23,4 kg·m. Masa 466 kg, momento +177,4 kg·m, CG = 177,4 / 466 = **+0,381 m**. El lastre de cola ha llevado el CG de +0,335 a +0,381 m, justo en el límite posterior, donde la resistencia de compensación es mínima. Lección: unos pocos litros muy alejados del *datum* mueven el CG mucho (su brazo es enorme), y por eso hay que vaciarlos con las alas: solos, dejarían el CG fuera de rango por detrás.
+$$
+380 \times (+\text{0,50}) = +\text{190,0}\ \mathrm{kg}\cdot\mathrm{m}
+$$
 
+Y el piloto, con su brazo negativo porque va por delante del *datum*:
+
+$$
+80 \times (-\text{0,45}) = -\text{36,0}\ \mathrm{kg}\cdot\mathrm{m}
+$$
+
+**Sin lastre de cola.** La masa suma 460 kg y los momentos, +154,0 kg·m:
+
+$$
+CG = \frac{\text{154,0}}{460} = +\text{0,335}\ \mathrm{m}
+$$
+
+Dentro de rango, pero adelantado respecto al óptimo.
+
+**Con los 5 litros.** El lastre añade su propio momento, y su brazo es enorme:
+
+$$
+5 \times (+\text{3,90}) = +\text{19,5}\ \mathrm{kg}\cdot\mathrm{m}
+$$
+
+$$
+CG = \frac{\text{154,0} + \text{19,5}}{460 + 5} = \frac{\text{173,5}}{465} = +\text{0,373}\ \mathrm{m}
+$$
+
+Cinco kilos han movido el CG de **+0,335 a +0,373 m**, muy cerca del límite posterior, que es donde la resistencia de compensación es mínima.
+
+Dos cosas que llevarse. La primera: unos pocos litros muy alejados del *datum* mueven el CG mucho, y por eso hay que vaciarlos con las alas —solos dejarían el CG fuera de rango por detrás—. La segunda: comprueba el resultado contra el rango, no contra la intuición. Un litro más, seis en vez de cinco, daría
+
+$$
+CG = \frac{\text{177,4}}{466} = +\text{0,381}\ \mathrm{m}
+$$
+
+**fuera** del límite posterior por menos de un milímetro. El manual dice hasta cinco por algo.
+:::
+
+::: {.ejercicio}
 **Ejercicio 2 — Planeo final con viento.**
 
 Estás a 1.200 m sobre el terreno, a 18 km del aeródromo. Tu planeador tiene una fineza de 30 en aire en calma, pero soplan 20 km/h de viento de cara y vuelas el planeo a 100 km/h. ¿Llegas con la altura de seguridad de 300 m?
 
-**Solución.** Con viento de cara, la fineza sobre el suelo cae en proporción a tu velocidad real de avance. A 100 km/h en el aire con 20 km/h de cara, avanzas sobre el suelo a 100 − 20 = 80 km/h, así que la fineza efectiva es 30 × (80 / 100) = **24**. Los 18 km de distancia exigen entonces 18 / 24 = 0,75 km = **750 m** de planeo puro. Partiendo de 1.200 m, al llegar sobre el campo te quedan 1.200 − 750 = **450 m**, por encima de los 300 m de seguridad: **llegas, con 150 m de margen.** Si el viento arreciara a 40 km/h, la fineza efectiva bajaría a 30 × (60 / 100) = 18, necesitarías 18 / 18 = 1.000 m y llegarías justo con 200 m: momento de subir una térmica más antes de comprometerte con el planeo final.
+**Solución.** Con viento de cara, la fineza sobre el suelo cae en la misma proporción que tu velocidad de avance real.
+
+**Paso 1 — velocidad sobre el suelo.**
+
+$$
+GS = 100 - 20 = 80\ \mathrm{km/h}
+$$
+
+**Paso 2 — fineza efectiva.** Es la nominal, corregida por esa proporción:
+
+$$
+(L/D)_{efectiva} = 30 \times \frac{80}{100} = 24
+$$
+
+**Paso 3 — altura que exige el tramo.** Con fineza 24, cada kilómetro cuesta un vigesimocuarto de kilómetro de altura:
+
+$$
+h = \frac{18}{24} = \text{0,75}\ \mathrm{km} = 750\ \mathrm{m}
+$$
+
+**Paso 4 — margen.** Partías de 1.200 m:
+
+$$
+1.200 - 750 = 450\ \mathrm{m}
+$$
+
+Por encima de los 300 m de seguridad: **llegas, con 150 m de margen.**
+
+**¿Y si el viento arrecia a 40 km/h?** Se rehace la cadena con la nueva velocidad suelo:
+
+$$
+(L/D)_{efectiva} = 30 \times \frac{60}{100} = 18
+$$
+
+$$
+h = \frac{18}{18} = 1\ \mathrm{km} = 1.000\ \mathrm{m}
+$$
+
+Llegarías justo con 200 m. Momento de subir una térmica más antes de comprometerte con el planeo final: el margen se ha comido dos tercios sin que tú hayas hecho nada.
+
+Es el mismo cálculo que el **Libro 9 — Navegación**, capítulo 5, plantea como cono de alcance. Allí se escribe como distancia alcanzable:
+
+$$
+D = h \cdot (L/D) \cdot \frac{GS}{TAS}
+$$
+
+y aquí como altura necesaria. Son la misma fórmula despejada de dos maneras, y conviene manejar las dos: ésta responde «¿me sobra altura?» y aquélla, «¿qué me queda dentro del alcance?».
+:::
 
 ::: {.postit}
 **Resumen del capítulo: masa y centro de gravedad**

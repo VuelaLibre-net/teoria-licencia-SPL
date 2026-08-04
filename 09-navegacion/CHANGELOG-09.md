@@ -16,6 +16,42 @@ rompe la compilación.
 
 ## [En curso]
 
+## [0.9.3] — 4 de agosto de 2026
+
+> **La ampliación más grande que ha tenido este libro.** Pasa de 6.800 a 15.600 palabras y de 7 a 15
+> figuras, con 20 ejercicios resueltos y 4 tablas donde no había ninguna. Se mantiene en **En
+> revisión**: el material es nuevo y todavía no lo ha visto un instructor. La `0.9.2` no llegó a
+> publicarse; su contenido sale en esta versión.
+
+**Qué releer:** **los siete capítulos.** El libro pasa de 6.800 a unas 15.600 palabras y de 7 a 15 figuras. Lo sustancial es nuevo, no reescrito: **20 ejercicios resueltos** repartidos por los siete capítulos, **cuatro tablas** (equivalencias de unidades en cap01, tablilla de desvíos en cap02, lecturas de carta en cap03 y servicios por clase de espacio aéreo en cap07) y tres apartados que no existían: **el computador de vuelo** (cap04), **el cono de alcance y el error deliberado** (cap05) y **la altitud geométrica del GNSS frente a la barométrica** (cap06). Si sólo vas a releer dos cosas: el cap04 entero y el apartado del cono de alcance del cap05, porque son los que traen cálculo nuevo.
+
+### Añadido
+
+* **Todos los capítulos — 20 ejercicios resueltos** en un bloque nuevo, `::: {.ejercicio}`. Enunciado con cifras, procedimiento paso a paso y resultado. Cubren cadena de rumbos en los dos sentidos, descomposición del viento, tramo completo de la planificación al ETA, recálculo de ETA en vuelo, regla del 1 en 60 con ángulo de cierre, alcance de planeo con viento y con fineza degradada, lectura de cuadrícula AMA, escala de carta, conversión de unidades, hora del ocaso, DOP y deducción del viento a partir del GNSS.
+* **cap01 — tabla de equivalencias** (NM, km, sm, nudos, pies, grado de latitud) con sus atajos mentales; apartado sobre cómo se escriben y se leen las coordenadas; cifra concreta de la diferencia entre ortodrómica y loxodrómica (97 m en 500 km a 41º N); conversión local↔UTC.
+* **cap02 — la tablilla de desvíos como tabla**, con las doce filas y la explicación de sus signos; el origen físico común de los dos errores dinámicos; la magnitud del error de viraje, del orden de la latitud del lugar.
+* **cap03 — tabla de lecturas de carta** (zonas P/R/D, límites verticales, obstáculos, AMA, tendidos, parques eólicos); de dónde salen los 5 km y las 2,7 NM por centímetro; la preparación de la carta en tierra.
+* **cap04 — apartado nuevo «El computador de vuelo»**: cara de cálculo y cara del viento con su procedimiento, y su relación con los ordenadores de planeo actuales. Separación explícita entre trayectoria y rumbo; la regla del reloj para descomponer el viento; distinción entre ETE y ETA; el **ángulo de cierre** en la regla del 1 en 60, que faltaba.
+* **cap05 — apartado nuevo «El cono de alcance»** ($D = h \cdot L/D$, corregido por viento con el factor GS/TAS y con margen de llegada) y **«El error deliberado»**; cadencia de fijación de posición; el apartado del desvío. Se marca el reparto con el Libro 7, que conserva la polar, el seguimiento del planeo final y el punto de no retorno.
+* **cap06 — la altitud del GNSS no es la del altímetro**: geométrica sobre el elipsoide frente a barométrica, con la advertencia de que los límites de espacio aéreo y la AMA se comprueban con el altímetro. La DOP como multiplicador del error.
+* **cap07 — tabla de servicios por clase de espacio aéreo** al VFR, concordante con la del Libro 1, cap07; regla de uso del squawk y el riesgo de pasar por 7500 al girar las ruedas; el reloj del plan de vuelo en UTC.
+* **cap03 y cap07 — las fuentes oficiales, con sus enlaces.** Aportación del instructor revisor. En cap03, de dónde se descarga la carta vigente ([https://aip.enaire.es/AIP/CartasInsigniaImpresas-es.html](https://aip.enaire.es/AIP/CartasInsigniaImpresas-es.html)) y por qué una carta vieja no avisa de que lo es. En cap07, apartado nuevo sobre qué es un NOTAM y dónde se consulta y se presenta el plan de vuelo: **Insignia VFR** de ENAIRE ([https://insigniavfr.enaire.es/](https://insigniavfr.enaire.es/)), con la advertencia de que las aplicaciones de planificación que todo el mundo usa **no son fuente oficial**. Son los primeros enlaces en el cuerpo de un capítulo de la colección; siguen el patrón de `bibliografia.qmd`, que imprime la URL para que sirva también en papel.
+* **Glosario** — diez entradas nuevas: AIP y NOTAM (copiadas literales del libro 1), altitud geométrica, coeficiente de planeo (copiada literal de los libros 5 y 7), componente cruzada, computador de vuelo, cono de alcance, error deliberado, ETA y ETE. De 53 a 63.
+
+### Cambiado
+
+* **cap01, cap04 y cap05 — sustituidas las tres ilustraciones provisionales** que seguían pendientes desde la auditoría de julio (`09-cap01-coordenadas`, `09-cap04-triangulo-viento`, `09-cap05-triangulacion`). El triángulo de velocidades va ahora **acotado en km/h y en nudos**, que era lo que pedía el informe.
+* **cap02 — el error de viraje** deja de ser sólo cualitativo: se añade su magnitud aproximada y el procedimiento de nivelar y ajustar después.
+
+### Maqueta y producción
+
+* **Bloque `.ejercicio` nuevo** en los cuatro entregables: `ejercicio.typ` para el PDF, `epub-estilos.html` para el EPUB, `tools/rag/rag.lua` para el Markdown de RAG —donde cada ejercicio se asciende a apartado propio para que el troceador lo recupere entero— y `book-web.css` en el repositorio del sitio. No es un quinto recuadro del temario: la taxonomía de cuatro títulos no se toca.
+* **Ocho figuras nuevas y dos sustituidas**, generadas por código desde `tools/figuras/`, con la paleta y la tipografía de `GUIA_ILUSTRACIONES.md`. Se estrena `09-navegacion/prompts/` con una ficha por figura.
+* **Guardián nuevo en el CI**: el número de bloques `.ejercicio` de los `.qmd` debe coincidir con el de apartados del Markdown para RAG. Se amplía también la lista de TeX crudo vigilado.
+* **Los decimales de las fórmulas, corregidos.** `0{,}75` llegaba a Typst como `0 comma 75`, y `comma` es un operador que compone con espacio detrás: los 67 decimales de la colección salían impresos como «0, 75». Ahora se escriben `\text{0,75}`, que Typst compone pegado. Afecta también al libro 07.
+* **`\mathbf` se colaba sin traducir en el Markdown para RAG** —23 veces— porque no estaba en la lista de TeX crudo que vigila el CI. Traducido en el filtro y añadido al guardián, junto con `\mathit` y `\quad`.
+* **Las matemáticas del paquete web, en MathML.** Quarto las emitía en TeX crudo y cargaba MathJax desde un CDN; el sitio publica el cuerpo de la página dentro de su propia plantilla, así que ese script nunca llegaba y el lector veía el TeX. Ahora las resuelve pandoc al compilar y el paquete queda autocontenido.
+
 ## [0.9.1] — 2 de agosto de 2026
 
 **Qué releer:** **Glosario, entradas «IGC», «Espacio aéreo controlado» y «FPL».** El fichero `.igc` no es «infalsificable»: la firma hace detectable la manipulación. «Espacio aéreo controlado» sólo hablaba de las clases C y D: añade la A, donde no se admite VFR, y la B.

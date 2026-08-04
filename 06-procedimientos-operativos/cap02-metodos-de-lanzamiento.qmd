@@ -6,7 +6,7 @@
 > En este capítulo aprenderás:
 >
 >
-> * **El lanzamiento por torno**: dinámica, fraseología y procedimiento de emergencia ante rotura de cable.
+> * **El lanzamiento por torno**: dinámica, las cinco reglas de seguridad, fraseología y procedimiento de emergencia ante rotura de cable.
 > * **El remolque por avión (aerotow)**: posiciones en remolque, señales visuales y cómo actuar si no puedes soltar.
 > * **Las reglas generales de seguridad**: ganchos, velocidades y comprobaciones previas al enganche.
 
@@ -17,6 +17,34 @@ El **lanzamiento por torno** es el método más rápido y económico para poner 
 Durante el ascenso, el ángulo de cabeceo aumenta rápidamente hasta superar los 40-45°. Esta actitud, que en cualquier otra situación sería alarmante, es completamente normal en el torno: el cable tirando desde adelante y abajo impone esa geometría. El planeador sube a razón de 10-15 metros por segundo y alcanza entre 300 y 500 metros en menos de un minuto (@fig-06-cap02-torno-fases). Durante la trepada, la tracción del cable carga el ala y eleva su velocidad de pérdida, así que se vuela más deprisa que en vuelo libre: como referencia, entre 1,3 y 1,6 veces la velocidad mínima de vuelo recto, sin superar nunca la velocidad máxima de torno que fija el AFM.
 
 ![Fases del lanzamiento por torno o vehiculo y actitud del planeador](imagenes/06-cap02-torno-fases.jpg){#fig-06-cap02-torno-fases}
+
+### Las cinco reglas del torno
+
+Casi todo lo que sale mal en un torno sale mal **abajo**, en los primeros segundos y con el planeador aún rodando. A esa altura no hay tiempo de analizar nada, así que la escuela británica condensó la prevención en cinco reglas que se recitan antes de engancharse. Se enseñan en inglés y así viajan de club en club; van aquí con su original al lado.
+
+::: {.callout-warning title="Seguridad: LAS CINCO REGLAS DEL TORNO"}
+1. **Nunca lances con viento en cola.** *Never winch launch with a tail wind.*
+2. **Nunca lances con la hierba alta.** *Never winch launch in long grass.*
+3. **Prepárate para soltar ANTES de que el ala toque el suelo. LA MANO EN LA BOLA DE SUELTA.** *Be ready to release BEFORE the wing touches the ground. Hand on release.*
+4. **Asegúrate de que quien lleva el ala está formado.** *Ensure wing runner is trained.*
+5. **Cuidado con el viento cruzado.** *Be careful in crosswinds.*
+:::
+
+Las cinco tienen la misma raíz: **el planeador acelera de cero a volar en tres segundos, y durante ese rato el ala no tiene autoridad para corregir nada.** Vale la pena entender el porqué de cada una, porque una regla que sólo se memoriza se salta el día que estorba:
+
+**Viento en cola.** El torno tira del cable, no del aire. Con viento en cola el planeador necesita mucha más carrera para alcanzar la misma velocidad indicada, el ángulo de trepada se desploma y la altura que ganas por metro de cable se hunde. Y si el cable rompe, la única pista que te queda por delante la tienes que aterrizar **también** en cola.
+
+**Hierba alta.** La hierba frena la punta del ala que aún va por el suelo y agarra el cable. Con el planeador acelerando, esa punta retenida hace de pivote: el velero guiña, se pone de través y el ala de fuera se levanta. Es el arranque exacto de la regla 3.
+
+**El ala que cae.** Si un ala toca el suelo con el planeador acelerando, el giro es violento e inmediato. La única acción útil es **cortar la tracción antes del contacto**, no después: se suelta al ver que el ala baja y no se corrige, no cuando ya raspa. Por eso la mano va en la anilla de suelta **desde que el cable se tensa**, no colocada «por si acaso» a mitad de carrera.
+
+**Quien lleva el ala.** El *wing runner* —quien sujeta y corre con la punta— decide cómo empieza el lanzamiento. Sujetarla torcida, soltarla tarde, soltarla pronto o correr sin seguir el eje producen justo la caída de ala de la regla 3. No es un puesto de voluntario improvisado.
+
+**Viento cruzado.** A baja velocidad el planeador quiere apuntar al viento y el ala de barlovento tiende a levantarse, con unos alerones que todavía casi no muerden. La técnica de mandos cruzados es la misma que en cualquier despegue y se detalla en el capítulo de operaciones especiales; lo propio del torno es que aquí dispones de **segundos**, no de metros de pista, para decidir si el lanzamiento sigue.
+
+::: {.callout-tip title="Regla de oro"}
+Las cinco se resuelven con la misma decisión, y es la más barata del día: **si algo no cuadra, no te enganches**. Un lanzamiento abortado en tierra cuesta cinco minutos. Los otros cuatro cuestan un planeador, y a veces más.
+:::
 
 ### Procedimiento y fraseología
 
@@ -187,6 +215,7 @@ No comiences la carrera de despegue sin haber verbalizado o repasado mentalmente
 **Resumen del capítulo: métodos de lanzamiento**
 
 * **Torno (winch)**: aceleración brutal de 0 a 100 en 3 segundos. Si se rompe el cable, lo primero es **bajar el morro** para recuperar velocidad. Solo entonces suelta el cable remanente y decide si aterrizar recto, hacer 180° o un circuito corto, según la altura disponible.
+* **Las cinco reglas del torno**: ni viento en cola, ni hierba alta; **la mano en la bola de suelta** y soltar **antes** de que el ala toque el suelo; quien lleva el ala, formado; y cuidado con el viento cruzado. Las cinco protegen de lo mismo: los tres segundos en que el planeador acelera sin que el ala pueda corregir nada.
 * **Remolque (aerotow)**: mantén la «posición alta» (rueda del remolcador en el horizonte). Si el remolcador alabea sus alas, es una orden de suelta inmediata: tiene una emergencia. Si no puedes soltar, vuela a un lado y alabea. Si se forma un **cable flojo (slack line)**, corrígelo con un resbale suave o con aerofrenos graduales. Entrena la maniobra **«Boxing the Wake»** a partir de 300 m AGL.
 * **Autolanzamiento (self-launch)**: ofrece total independencia. Cuidado con el par de cabeceo del motor sobre mástil: aplicar potencia pica el morro y reducirla o cortarla lo **encabrita**. Respeta la altura de seguridad de 300 m para arrancar el motor en vuelo; por debajo, concéntrate en el aterrizaje fuera de campo.
 * **Emergency briefing**: briefing mental y verbalizado antes de cada despegue. Define velocidades de seguridad y acciones precisas ante fallos a baja, media y alta altura según el viento.

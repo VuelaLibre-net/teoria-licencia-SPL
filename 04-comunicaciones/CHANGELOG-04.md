@@ -16,6 +16,14 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.14] — 4 de agosto de 2026
+
+**Qué releer:** **nada.** El texto de los tres ejercicios de fraseología del cap02 no cambia ni una palabra; sólo cambia el bloque que los envuelve.
+
+### Maqueta y producción
+
+* **cap02, «Ejercicios de fraseología»** — los tres ejercicios pasan al bloque `::: {.ejercicio}`, estrenado en el libro 09. Antes eran negrita suelta dentro del texto corrido: se distinguían mal al hojear y, en el Markdown para RAG, quedaban diluidos en el capítulo en vez de recuperarse enteros. Ahora cada uno es su propio apartado para el troceador.
+
 ## [1.0-rc.13] — 3 de agosto de 2026
 
 ### Maqueta y producción

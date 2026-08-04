@@ -5,6 +5,12 @@ Este glosario reúne las definiciones y acrónimos más relevantes de Navegació
 **AGL (Altura sobre el terreno / Above Ground Level)**
 : Altura referida a la superficie del terreno situada debajo de la aeronave o del punto considerado.
 
+**AIP (Publicación de Información Aeronáutica / Aeronautical Information Publication)**
+: Publicación oficial que contiene información aeronáutica duradera y esencial para la navegación aérea, organizada en Generalidades (GEN), En Ruta (ENR) y Aeródromos (AD).
+
+**Altitud geométrica (ellipsoidal height)**
+: Altitud que calcula el GNSS, medida sobre el elipsoide de referencia del WGS-84. No coincide con la altitud barométrica del altímetro —en la Península, la diferencia entre el elipsoide y el nivel medio del mar ronda los 50 m— y no debe usarse para comprobar límites de espacio aéreo ni la AMA.
+
 **AMA (Altitud Mínima de Área / Area Minimum Altitude)**
 : Cifra impresa en cada cuadrícula de la carta (paralelos y meridianos cada 30') que indica una altitud de seguridad sobre el obstáculo más alto del recuadro, con un margen mínimo de 1000 ft (2000 ft en alta montaña). Se lee como millares y centenares de pies.
 
@@ -19,6 +25,18 @@ Este glosario reúne las definiciones y acrónimos más relevantes de Navegació
 
 **ATS (Servicios de Tránsito Aéreo / Air Traffic Services)**
 : Término genérico que engloba el control de tránsito aéreo (ATC), el servicio de información de vuelo (FIS) y el servicio de alerta (ALRS).
+
+**Coeficiente de planeo (fineza, L/D)**
+: Relación entre la sustentación (*Lift*) y la resistencia total (*Drag*) de la aeronave, equivalente a la distancia horizontal recorrida por unidad de altura perdida en aire en calma (un planeador con L/D de 40 recorre 40 km por cada kilómetro de altura cedida).
+
+**Componente cruzada (crosswind component)**
+: Parte del viento perpendicular a la trayectoria, igual a $V \cdot \sin\alpha$. Es la que produce deriva y obliga a corregir el rumbo; la componente restante, paralela a la trayectoria, sólo cambia la velocidad suelo.
+
+**Computador de vuelo (whizz-wheel)**
+: Regla de cálculo circular de dos caras: la de cálculo resuelve proporciones de tiempo, velocidad y distancia y conversiones de unidades; la del viento resuelve gráficamente el triángulo de velocidades. Los ordenadores de planeo hacen lo mismo en continuo con el viento medido en vuelo.
+
+**Cono de alcance**
+: Superficie de terreno alcanzable en planeo desde la posición y altura actuales, $D = h \cdot (L/D)$. En aire en calma es un círculo; el viento lo deforma en la proporción $GS/TAS$, encogiéndolo contra el viento y estirándolo a favor.
 
 **Crepúsculo civil**
 : Periodo de transición entre el día y la noche. Para la aviación, la noche comienza al final del crepúsculo civil vespertino y termina al inicio del matutino, cuando el centro del sol está 6º por debajo del horizonte.
@@ -39,13 +57,22 @@ Este glosario reúne las definiciones y acrónimos más relevantes de Navegació
 : Hora prevista en la que la aeronave iniciará el movimiento asociado a la salida.
 
 **Error de viraje (regla "NO me paso / SÍ me paso")**
-: Error de la brújula al virar hacia rumbos Norte o Sur por efecto del *dip* magnético: al Norte la brújula se queda atrás (hay que sacar el viraje antes, "NO me paso") y al Sur se adelanta (hay que dejarla pasar, "SÍ me paso").
+: Error de la brújula al virar hacia rumbos Norte o Sur por efecto del *dip* magnético: al Norte la brújula se queda atrás (hay que sacar el viraje antes, "NO me paso") y al Sur se adelanta (hay que dejarla pasar, "SÍ me paso"). Su magnitud es del orden de la latitud del lugar.
+
+**Error deliberado (dog-leg)**
+: Técnica para localizar un punto pequeño: se vuela a propósito hacia un lado del objetivo, apuntando a una referencia lineal que pase por él, de modo que al alcanzarla no haya duda de hacia dónde girar. Cambia una duda por un rodeo.
 
 **Escala**
 : Relación entre una distancia medida en la carta y la distancia real en el terreno. En la carta VFR estándar 1:500.000, 1 cm equivale a 5 km.
 
 **Espacio aéreo controlado**
 : Volumen de espacio aéreo (clases A a E) en el que se presta servicio de control. En **clase A** sólo se admite IFR: el VFR no puede entrar. En **clases B, C y D** el VFR necesita autorización ATC y comunicación bilateral; la clase B no se emplea en España. La **clase E** también es espacio controlado, pero al VFR no se le presta allí servicio de control y no necesita ni autorización ni radio.
+
+**ETA (Hora prevista de llegada / Estimated Time of Arrival)**
+: Hora a la que se prevé que la aeronave llegue al punto o lugar de referencia correspondiente.
+
+**ETE (Tiempo estimado en ruta / Estimated Time En route)**
+: Tiempo previsto para recorrer un tramo, $ETE = D / GS$. Se calcula en tierra al preparar el vuelo; el ETA que se deriva de él se recalcula en vuelo con la velocidad suelo real.
 
 **FIS (Servicio de Información de Vuelo / Flight Information Service)**
 : Servicio cuya finalidad es facilitar asesoramiento e información útiles para la realización segura y eficaz de los vuelos.
@@ -100,6 +127,9 @@ Este glosario reúne las definiciones y acrónimos más relevantes de Navegació
 
 **Norte verdadero (Geográfico)**
 : Punto por el que pasa el eje de rotación de la Tierra. Es el norte de referencia de los mapas y las cartas aeronáuticas.
+
+**NOTAM (Notice to Airmen)**
+: Aviso distribuido por telecomunicaciones que contiene información aeronáutica cuyo conocimiento oportuno es esencial para las operaciones.
 
 **Nudo (kt)**
 : Unidad de velocidad igual a una milla náutica por hora (1 kt = 1,852 km/h).
