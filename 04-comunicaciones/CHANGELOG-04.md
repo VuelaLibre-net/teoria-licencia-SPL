@@ -180,7 +180,7 @@ Nada de esto altera lo que el lector aprende; el revisor puede saltárselo.
   el aval en uno gris. Sigue cabiendo en una página, y ahora el CI lo comprueba.
 * **Se retira «Fuentes y agradecimientos» de la página de créditos.** No se pierde nada: la
   bibliografía ya acredita el *Glider Flying Handbook* de la FAA —y dice que es la fuente de buena
-  parte de las ilustraciones—, y los reconocimientos ya acreditan a Iñaqui Ulibarri con sus
+  parte de las ilustraciones—, y los reconocimientos ya acreditan a Iñaqui con sus
   credenciales. Era una duplicación, y es la que hacía que la página no cerrase.
 * El pie de la figura del micrófono (`cap01`) estaba cortado: decía «Pulsa el PTT (» y ahí acababa.
   Se restaura entero desde el AsciiDoc de origen. El importador truncaba el pie en la primera marca

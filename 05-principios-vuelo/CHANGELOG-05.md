@@ -83,11 +83,11 @@ rompe la compilación.
 
 ## [1.0-rc.1] — 22 de julio de 2026
 
-**Qué releer:** **Todo el libro.** Validado por Pedro Berlinches (FI(S) · FE(S)).
+**Qué releer:** **Todo el libro.** Validado por Pedro (FI(S) · FE(S)).
 
 ### Cambiado
 
-* **Validación técnica** — Pedro Berlinches ha revisado y validado todo el contenido del libro.
+* **Validación técnica** — Pedro ha revisado y validado todo el contenido del libro.
 
 ## [0.8.6] — 22 de julio de 2026
 
@@ -173,7 +173,7 @@ Nada de esto altera lo que el lector aprende; el revisor puede saltárselo.
   el aval en uno gris. Sigue cabiendo en una página, y ahora el CI lo comprueba.
 * **Se retira «Fuentes y agradecimientos» de la página de créditos.** No se pierde nada: la
   bibliografía ya acredita el *Glider Flying Handbook* de la FAA —y dice que es la fuente de buena
-  parte de las ilustraciones—, y los reconocimientos ya acreditan a Iñaqui Ulibarri con sus
+  parte de las ilustraciones—, y los reconocimientos ya acreditan a Iñaqui con sus
   credenciales. Era una duplicación, y es la que hacía que la página no cerrase.
 * El pie de la figura de la respuesta dinámica (`cap03`) arrastraba un paréntesis suelto al final.
   Era lo que quedó de la atribución «(Fuente: FAA Glider Flying Handbook)» del AsciiDoc, que el

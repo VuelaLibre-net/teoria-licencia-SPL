@@ -165,7 +165,7 @@ Nada de esto altera lo que el lector aprende; el revisor puede saltárselo.
   el aval en uno gris. Sigue cabiendo en una página, y ahora el CI lo comprueba.
 * **Se retira «Fuentes y agradecimientos» de la página de créditos.** No se pierde nada: la
   bibliografía ya acredita el *Glider Flying Handbook* de la FAA —y dice que es la fuente de buena
-  parte de las ilustraciones—, y los reconocimientos ya acreditan a Iñaqui Ulibarri con sus
+  parte de las ilustraciones—, y los reconocimientos ya acreditan a Iñaqui con sus
   credenciales. Era una duplicación, y es la que hacía que la página no cerrase.
 * Los tres gradientes de `cap03` —DALR, SALR y LI— llevaban el término inglés en negrita dentro de
   una negrita, que Markdown no admite: el `**` interior cerraba el exterior, así que el desarrollo
