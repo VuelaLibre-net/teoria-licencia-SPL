@@ -19,7 +19,7 @@ LIBROS = [
 ]
 
 # Cierre del syllabus unificado. Cada libro suelto lleva su propio "Ponte a
-# prueba" con la URL de su test; aquí van los nueve en un solo aviso al final,
+# prueba" con la URL de sus exámenes; aquí van los nueve en un solo aviso al final,
 # apuntando a la raíz de los exámenes.
 PONTE_A_PRUEBA_COMPLETO = """## Ponte a prueba {.unnumbered .unlisted}
 
@@ -292,7 +292,7 @@ def main():
                 content = syl_path.read_text(encoding='utf-8')
                 # El "Ponte a prueba" de cada libro se descarta: en el manual
                 # completo serían nueve avisos idénticos salvo la URL. Va uno
-                # solo al final, apuntando a la raíz de los tests.
+                # solo al final, apuntando a la raíz de los exámenes.
                 body, _ = parse_syllabus(content)
 
                 # Obtener el título del libro

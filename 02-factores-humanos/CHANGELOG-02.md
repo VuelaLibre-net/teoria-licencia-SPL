@@ -16,6 +16,10 @@ rompe la compilación.
 
 ## [En curso]
 
+### Maqueta y producción
+
+* **Apéndice del syllabus, «Ponte a prueba»** — el enlace pasa de `/tests/` a `/examenes/`; el PDF añade un QR hacia la misma página. No cambia lo que se estudia.
+
 ## [1.0-rc.12] — 2 de agosto de 2026
 
 **Qué releer:** **Glosario, entradas «Hipoxia», «DECIDE», «SHELL», «AUT / TUE», «SAO» y «Part-MED».** Cinco correcciones de contenido: la hipoxia no es «cerebral» ni hay «presión transferencial», el modelo DECIDE tenía dos pasos cambiados de sitio, SHELL no lo desarrolló la OACI, las exenciones terapéuticas no las concede WADA y Part-SAO no fija ningún umbral de oxígeno —lo fija su AMC, y sólo por defecto—.

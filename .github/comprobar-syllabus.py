@@ -36,6 +36,8 @@ import re
 import sys
 
 ENTRADA = re.compile(r'^\s*\* \*{0,2}(\d+(?:\.\d+)+)\.\s*(.+?)\*{0,2}\s*$', re.M)
+ENLACE_EXAMEN = re.compile(r'\[(https://vuelalibre\.net/(?:tests|examenes)/[^]]*)\]'
+                            r'\((https://vuelalibre\.net/(?:tests|examenes)/[^)]*)\)')
 
 
 def entradas(texto):
@@ -66,8 +68,19 @@ def comprobar_libro(d):
         print(f"::error::{d} no tiene apéndice de syllabus")
         return 1
     syl = syls[0]
+    texto_syllabus = syl.read_text(encoding='utf-8')
 
-    todas = entradas(syl.read_text(encoding='utf-8'))
+    url_esperada = f"https://vuelalibre.net/examenes/{d.name}/"
+    enlaces_examen = ENLACE_EXAMEN.findall(texto_syllabus)
+    if enlaces_examen != [(url_esperada, url_esperada)]:
+        print(f"::error file={syl}::El enlace de exámenes debe ser exactamente "
+              f"{url_esperada}")
+        return 1
+    if "vuelalibre.net/tests/" in texto_syllabus:
+        print(f"::error file={syl}::Queda una ruta obsoleta /tests/")
+        return 1
+
+    todas = entradas(texto_syllabus)
     if not todas:
         print(f"::error file={syl}::El syllabus no da ni una entrada; la "
               f"comprobación pasaría en vacío. ¿Ha cambiado su formato?")

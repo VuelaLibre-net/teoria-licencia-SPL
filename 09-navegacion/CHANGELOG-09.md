@@ -16,6 +16,10 @@ rompe la compilación.
 
 ## [En curso]
 
+### Maqueta y producción
+
+* **Apéndice del syllabus, «Ponte a prueba»** — el enlace pasa de `/tests/` a `/examenes/`; el PDF añade un QR hacia la misma página. No cambia lo que se estudia.
+
 ## [0.9.3] — 4 de agosto de 2026
 
 > **La ampliación más grande que ha tenido este libro.** Pasa de 6.800 a 15.600 palabras y de 7 a 15

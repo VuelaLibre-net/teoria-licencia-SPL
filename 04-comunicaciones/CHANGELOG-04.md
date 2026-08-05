@@ -16,6 +16,10 @@ rompe la compilación.
 
 ## [En curso]
 
+### Maqueta y producción
+
+* **Apéndice del syllabus, «Ponte a prueba»** — el enlace pasa de `/tests/` a `/examenes/`; el PDF añade un QR hacia la misma página. No cambia lo que se estudia.
+
 ## [1.0-rc.14] — 4 de agosto de 2026
 
 **Qué releer:** **nada.** El texto de los tres ejercicios de fraseología del cap02 no cambia ni una palabra; sólo cambia el bloque que los envuelve.

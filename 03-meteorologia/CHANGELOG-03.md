@@ -16,6 +16,10 @@ rompe la compilación.
 
 ## [En curso]
 
+### Maqueta y producción
+
+* **Apéndice del syllabus, «Ponte a prueba»** — el enlace pasa de `/tests/` a `/examenes/`; el PDF añade un QR hacia la misma página. No cambia lo que se estudia.
+
 ## [1.0-rc.14] — 2 de agosto de 2026
 
 **Qué releer:** **Glosario, entradas «Niebla», «Bataneo» y «K-Index»; cap09, recuadro de engelamiento; cap03, tabla del K-Index.** La bruma sí impide el CAVOK, al contrario de lo que decía. Entrada nueva de «Bataneo». Bajo la tabla del K-Index se explica de dónde salen sus bandas; los valores no cambian.

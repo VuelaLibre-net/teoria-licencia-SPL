@@ -7,6 +7,7 @@ contributes:
     typst:
       include-in-header:
         - aviso-legal.typ
+        - examen-qr.typ
         - ejercicio.typ
         - glosario.typ
         - mas-alla.typ
@@ -18,6 +19,8 @@ contributes:
         - typst-show.typ
       filters:
         - path: orange-book.lua
+          at: post-quarto
+        - path: examen-qr.lua
           at: post-quarto
         - path: postit.lua
           at: post-quarto
