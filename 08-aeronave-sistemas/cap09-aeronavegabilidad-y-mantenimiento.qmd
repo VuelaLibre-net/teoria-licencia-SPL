@@ -6,7 +6,7 @@
 > En este capítulo aprenderás:
 >
 >
-> * **El CoA y el ARC**: los dos certificados que permiten despegar legalmente, y cómo se renueva o prorroga el ARC.
+> * **El CofA y el ARC**: los dos certificados que permiten despegar legalmente, y cómo se renueva o prorroga el ARC.
 > * **Part-ML y Part-CAO**: el marco simplificado de mantenimiento de la aviación ligera europea.
 > * **El mantenimiento del piloto-propietario**: qué tareas puedes firmar tú mismo y con qué condiciones.
 > * **Las AD y los SB**: las órdenes de obligado cumplimiento y las recomendaciones del fabricante.
@@ -24,7 +24,7 @@ Para que un planeador despegue legalmente necesita dos documentos clave:
 Según **ML.A.901**, el ARC tiene validez anual, pero puede prorrogarse dos veces consecutivas (un año cada vez) sin revisión completa si la aeronave ha permanecido en un **entorno controlado**: gestión continua por una CAMO/CAO y mantenimiento hecho por organizaciones aprobadas. Tras esas dos prórrogas toca revisión de aeronavegabilidad completa.
 :::
 
-Este capítulo es el desarrollo técnico completo del CoA y el ARC; su vertiente jurídica —qué documentos son obligatorios a bordo y la responsabilidad legal de volar con ellos en vigor— se estudia en el **Libro 1 — Derecho Aéreo y Procedimientos de Control de Tránsito Aéreo (ATC)**, capítulo 2.
+Este capítulo es el desarrollo técnico completo del CofA y el ARC; su vertiente jurídica —qué documentos son obligatorios a bordo y la responsabilidad legal de volar con ellos en vigor— se estudia en el **Libro 1 — Derecho Aéreo y Procedimientos de Control de Tránsito Aéreo (ATC)**, capítulo 2.
 
 ## Normativa EASA: Part-ML y Part-CAO
 
@@ -56,7 +56,7 @@ La seguridad aérea es cosa de todos. Cuando se detecta un fallo de diseño o un
 **Resumen del capítulo: mantenimiento y aeronavegabilidad**
 
 * **Inspección diaria (DI)**: es cosa del piloto. Sigue la lista: presión de ruedas, estado del gancho de remolque, bisagras de mandos, limpieza de pitot y estática.
-* **CoA y ARC**: el CoA es vitalicio; el ARC dura un año y se prorroga dos veces en entorno controlado (ML.A.901). Sin ARC en vigor, el avión no vuela.
+* **CofA y ARC**: el CofA es vitalicio; el ARC dura un año y se prorroga dos veces en entorno controlado (ML.A.901). Sin ARC en vigor, el avión no vuela.
 * **Mantenimiento programado**: la frecuencia concreta de inspecciones (por tiempo, ciclos u horas) la fija el AMP, según lo que diga el fabricante. Pero hay un suelo: si el AMP se basa en el Programa Mínimo de Inspección de Part-ML (ML.A.302), nunca puede ser menos restrictivo que **una inspección anual o cada 100 h, lo que antes se cumpla**.
 * **Mantenimiento por piloto-propietario**: tareas sencillas del Apéndice II de Part-ML, solo si eres propietario con licencia válida, y siempre registradas y firmadas (ML.A.803).
 * **Reporte de defectos**: si rompes algo o ves algo raro, anótalo. El siguiente piloto puede no verlo y matarse (un cable de timón deshilachado, por ejemplo).
