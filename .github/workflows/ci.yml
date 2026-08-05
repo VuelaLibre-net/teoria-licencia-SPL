@@ -370,10 +370,12 @@ jobs:
             continue
           fi
 
-          # En positivo: la extensión se aplicó de verdad. Comprobar sólo la
-          # ausencia de 'Chapter' pasaría también con un PDF vacío o truncado.
-          if ! grep -qE 'Capítulo [0-9]+\.' <<<"$texto"; then
-            echo "::error file=$pdf::No aparece 'Capítulo N': la extensión orange-book-es no se aplicó"
+          # En positivo: la extensión se aplicó de verdad. El manual completo
+          # numera por parte (I.1), los nueve libros siguen con capítulo árabe.
+          # Comprobar sólo la ausencia de 'Chapter' pasaría también con un PDF
+          # vacío o truncado.
+          if ! grep -qE 'Capítulo ([IVX]+\.[0-9]+|[0-9]+\.)' <<<"$texto"; then
+            echo "::error file=$pdf::No aparece numeración de capítulo: la extensión orange-book-es no se aplicó"
             errores=1
           fi
 
@@ -434,6 +436,26 @@ jobs:
           # Completado = mayor >= 1 y sin sufijo de pre-lanzamiento: un 1.0-rc.4
           # es ANTERIOR a la 1.0.0, no posterior.
           libro=$(libro_de "$pdf") || { echo "::error::No sé a qué libro corresponde $pdf"; errores=1; continue; }
+          if [ "$libro" = recursos-completo ]; then
+            if ! grep -Fq 'Capítulo I.1 ' <<<"$texto" \
+              || ! grep -Fq 'Capítulo II.1 ' <<<"$texto" \
+              || ! grep -Fq 'Capítulo IX.7 ' <<<"$texto"; then
+              echo "::error file=$pdf::El manual completo no reinicia la numeración en cada parte"
+              errores=1
+            fi
+            if grep -qE 'Capítulo (15|70)\.' <<<"$texto"; then
+              echo "::error file=$pdf::El manual completo conserva capítulos globales en vez de I.1, II.1…"
+              errores=1
+            fi
+            if ! grep -Fq 'Figura II.1.1' <<<"$texto" \
+              || ! grep -Fq 'Tabla VII.1.1' <<<"$texto"; then
+              echo "::error file=$pdf::Figuras o tablas del manual completo no llevan prefijo de parte"
+              errores=1
+            fi
+          elif grep -qE 'Capítulo [IVX]+\.[0-9]+' <<<"$texto"; then
+            echo "::error file=$pdf::Un libro individual ha recibido la numeración romana del completo"
+            errores=1
+          fi
           version=$(version_de "$libro")
           mayor=${version%%.*}
           case "$version" in *-*) pre=1 ;; *) pre=0 ;; esac
@@ -519,6 +541,7 @@ jobs:
             errores=1
           fi
           crudo=$(unzip -p "$epub" 'EPUB/text/*.xhtml' 2>/dev/null)
+          navegacion=$(unzip -p "$epub" EPUB/nav.xhtml 2>/dev/null)
           texto=$(sed -e 's/<[^>]*>//g' <<<"$crudo")
 
           # Comentarios del .qmd colados en el entregable. Los descarta
@@ -599,6 +622,30 @@ jobs:
           # agua, así que el aviso va como bloque al principio; pero tiene que
           # estar: quien descargue un EPUB debe saber si el libro está terminado.
           libro=$(libro_de "$epub") || { echo "::error::No sé a qué libro corresponde $epub"; errores=1; continue; }
+          if [ "$libro" = recursos-completo ]; then
+            if ! grep -qE '<h1[^>]*>I\.1 ' <<<"$crudo" \
+              || ! grep -qE '<h1[^>]*>II\.1 ' <<<"$crudo" \
+              || ! grep -qE '<h1[^>]*>IX\.7 ' <<<"$crudo"; then
+              echo "::error file=$epub::Los capítulos EPUB del manual completo no llevan prefijo de parte"
+              errores=1
+            fi
+            if ! grep -Fq '>I.1 ' <<<"$navegacion" \
+              || ! grep -Fq '>II.1 ' <<<"$navegacion" \
+              || ! grep -Fq '>IX.7 ' <<<"$navegacion"; then
+              echo "::error file=$epub::La navegación EPUB del manual completo no lleva prefijos de parte"
+              errores=1
+            fi
+            if ! grep -qE 'Figura.*II\.1\.1' <<<"$crudo" \
+              || ! grep -qE 'Tabla.*VII\.1\.1' <<<"$crudo" \
+              || ! grep -Fq 'Ejercicio IX.1.1' <<<"$crudo"; then
+              echo "::error file=$epub::Referencias, tablas o ejercicios EPUB no llevan prefijo de parte"
+              errores=1
+            fi
+            if grep -qE 'Figura.*15\.1|Tabla.*51\.1|Ejercicio 1\.1' <<<"$crudo"; then
+              echo "::error file=$epub::El EPUB completo conserva numeración global de objetos"
+              errores=1
+            fi
+          fi
           version=$(version_de "$libro")
           mayor=${version%%.*}
           case "$version" in *-*) pre=1 ;; *) pre=0 ;; esac

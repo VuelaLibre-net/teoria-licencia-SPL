@@ -31,6 +31,9 @@ $endif$
 $if(estado-nota)$
   estado-nota: "$estado-nota$",
 $endif$
+$if(manual-completo)$
+  manual-completo: $manual-completo$,
+$endif$
 $if(lang)$
   lang: "$lang$",
 $endif$

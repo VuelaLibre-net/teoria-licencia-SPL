@@ -327,7 +327,9 @@ def main():
     for idx, libro in enumerate(LIBROS, 1):
         title, chapters = get_chapters_and_title(libro)
         if chapters:
-            part_str = f"    - part: \"Parte {idx:02d}: {title}\"\n      chapters:\n"
+            # El número de parte pertenece a la maqueta: así el manual completo
+            # puede usar «Parte I» sin duplicarlo en el título semántico.
+            part_str = f"    - part: \"{title}\"\n      chapters:\n"
             for chap in chapters:
                 part_str += f"        - {chap}\n"
             chapters_yaml.append(part_str)

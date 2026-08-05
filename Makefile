@@ -144,7 +144,8 @@ fuentes_typst = $(wildcard _extensions/orange-book-es/*.typ) \
 # El EPUB no ejecuta nada de la extensión typst —ni el filtro, ni las funciones—:
 # sólo se lleva esta hoja, que cada _quarto.yml enlaza con include-in-header.
 fuentes_epub = _extensions/orange-book-es/epub-estilos.html \
-               tools/epub/optimizar_imagenes.py tools/epub/validar.py
+                tools/epub/optimizar_imagenes.py tools/epub/renumerar_completo.py \
+                tools/epub/validar.py
 
 # El HTML web se genera directamente con Quarto: necesita todas las fuentes e
 # imágenes como PDF/EPUB, pero no ejecuta los filtros exclusivos de Typst.
@@ -314,6 +315,7 @@ $(epub_completo): $(fuentes_completo) $(fuentes_cover_completo) $(fuentes_epub) 
 	@rm -f _quarto.yml
 	@mv _book/*.epub $@
 	@python3 tools/epub/optimizar_imagenes.py $@
+	@python3 tools/epub/renumerar_completo.py $@
 	@echo "✓ EPUB del Manual Completo generado en $@"
 
 $(rag_completo): $(fuentes_completo) tools/rag/construir.sh tools/rag/rag.lua recursos-completo/_quarto-completo.yml

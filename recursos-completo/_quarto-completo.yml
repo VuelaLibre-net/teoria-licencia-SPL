@@ -7,6 +7,7 @@ version: "0.9.1"
 repo-url: "https://github.com/VuelaLibre-net/teoria-licencia-SPL"
 cubierta: "recursos-completo/frente.jpg"
 contracubierta: "recursos-completo/reverso.jpg"
+manual-completo: true
 
 book:
   title: "Manual de formación teórica para la obtención de la Licencia de Piloto de Planeador (SPL)"
@@ -21,7 +22,7 @@ book:
     - recursos-completo/epigrafe.qmd
     - recursos-completo/reconocimientos.qmd
     - recursos-completo/introduccion.qmd
-    - part: "Parte 01: Derecho Aéreo y Procedimientos de Control de Tránsito Aéreo (ATC)"
+    - part: "Derecho Aéreo y Procedimientos de Control de Tránsito Aéreo (ATC)"
       chapters:
         - 01-derecho-aereo-atc/cap01-derecho-internacional-convenios-acuerdos-y-organizaciones.qmd
         - 01-derecho-aereo-atc/cap02-aeronavegabilidad.qmd
@@ -37,13 +38,13 @@ book:
         - 01-derecho-aereo-atc/cap12-seguridad.qmd
         - 01-derecho-aereo-atc/cap13-notificacion-de-accidentes.qmd
         - 01-derecho-aereo-atc/cap14-derecho-nacional.qmd
-    - part: "Parte 02: Factores Humanos"
+    - part: "Factores Humanos"
       chapters:
         - 02-factores-humanos/cap01-factores-humanos-conceptos-basicos.qmd
         - 02-factores-humanos/cap02-fisiologia-aeronautica-basica-y-mantenimiento-de-salud.qmd
         - 02-factores-humanos/cap03-psicologia-aeronautica-basica.qmd
         - 02-factores-humanos/cap04-uso-de-oxigeno.qmd
-    - part: "Parte 03: Meteorología"
+    - part: "Meteorología"
       chapters:
         - 03-meteorologia/cap01-la-atmosfera.qmd
         - 03-meteorologia/cap02-viento.qmd
@@ -55,7 +56,7 @@ book:
         - 03-meteorologia/cap08-climatologia.qmd
         - 03-meteorologia/cap09-peligros-para-el-vuelo.qmd
         - 03-meteorologia/cap10-informacion-meteorologica.qmd
-    - part: "Parte 04: Comunicaciones"
+    - part: "Comunicaciones"
       chapters:
         - 04-comunicaciones/cap01-definiciones-y-tecnica-de-comunicacion.qmd
         - 04-comunicaciones/cap02-comunicaciones-vfr.qmd
@@ -64,7 +65,7 @@ book:
         - 04-comunicaciones/cap05-acciones-ante-fallo-de-comunicaciones.qmd
         - 04-comunicaciones/cap06-procedimientos-de-socorro-y-urgencia.qmd
         - 04-comunicaciones/cap07-principios-generales-de-propagacion-vhf-y-asignacion-de-frecuencias.qmd
-    - part: "Parte 05: Principios de Vuelo"
+    - part: "Principios de Vuelo"
       chapters:
         - 05-principios-vuelo/cap01-aerodinamica-flujo-de-aire.qmd
         - 05-principios-vuelo/cap02-mecanica-de-vuelo.qmd
@@ -73,7 +74,7 @@ book:
         - 05-principios-vuelo/cap05-limitaciones-factor-de-carga-y-maniobras.qmd
         - 05-principios-vuelo/cap06-perdida-de-sustentacion-y-autorrotacion.qmd
         - 05-principios-vuelo/cap07-picado-en-espiral.qmd
-    - part: "Parte 06: Procedimientos Operativos"
+    - part: "Procedimientos Operativos"
       chapters:
         - 06-procedimientos-operativos/cap01-requisitos-generales.qmd
         - 06-procedimientos-operativos/cap02-metodos-de-lanzamiento.qmd
@@ -83,14 +84,14 @@ book:
         - 06-procedimientos-operativos/cap06-procedimientos-operativos-especiales-y-peligros.qmd
         - 06-procedimientos-operativos/cap07-procedimientos-de-emergencia.qmd
         - 06-procedimientos-operativos/cap08-uso-y-aterrizaje-con-paracaidas-de-emergencia.qmd
-    - part: "Parte 07: Planificación y Rendimiento de Vuelo"
+    - part: "Planificación y Rendimiento de Vuelo"
       chapters:
         - 07-planificacion-rendimiento/cap01-masa-y-centro-de-gravedad.qmd
         - 07-planificacion-rendimiento/cap02-polar-de-velocidades-de-planeadores-o-velocidad-de-crucero.qmd
         - 07-planificacion-rendimiento/cap03-planificacion-de-vuelo-y-definicion-de-tareas.qmd
         - 07-planificacion-rendimiento/cap04-plan-de-vuelo-icao.qmd
         - 07-planificacion-rendimiento/cap05-monitoreo-del-vuelo-y-replanificacion-en-vuelo.qmd
-    - part: "Parte 08: Conocimientos Generales de la Aeronave, Estructura, Sistemas y Equipo de Emergencia"
+    - part: "Conocimientos Generales de la Aeronave, Estructura, Sistemas y Equipo de Emergencia"
       chapters:
         - 08-aeronave-sistemas/cap01-estructura.qmd
         - 08-aeronave-sistemas/cap02-diseno-de-sistemas-cargas-y-tensiones.qmd
@@ -106,7 +107,7 @@ book:
         - 08-aeronave-sistemas/cap12-baterias.qmd
         - 08-aeronave-sistemas/cap13-paracaidas-de-emergencia.qmd
         - 08-aeronave-sistemas/cap14-equipo-de-evacuacion-de-emergencia.qmd
-    - part: "Parte 09: Navegación"
+    - part: "Navegación"
       chapters:
         - 09-navegacion/cap01-fundamentos-de-navegacion.qmd
         - 09-navegacion/cap02-magnetismo-y-brujulas.qmd
@@ -135,5 +136,9 @@ format:
   epub:
     strip-comments: true
     toc: true
+    number-sections: false
+    filters:
+      - path: _extensions/orange-book-es/numero-completo-epub.lua
+        at: post-quarto
     epub-cover-image: recursos-completo/frente.jpg
     include-in-header: _extensions/orange-book-es/epub-estilos.html

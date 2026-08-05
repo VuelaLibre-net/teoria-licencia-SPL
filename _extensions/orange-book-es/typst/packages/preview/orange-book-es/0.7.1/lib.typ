@@ -1,7 +1,3 @@
-#import("my-outline.typ"): *
-#import("my-index.typ"): *
-#import("theorems.typ"): *
-
 #let scr(it) = text(
   features: ("ss01",),
   box($cal(it)$),
@@ -57,9 +53,37 @@
 #let part-location = state("part-location", none)
 #let part-counter = counter("part-counter")
 #let part-change = state("part-change", false)
+#let manual-completo-state = state("manual-completo-state", false)
+
+// La edición completa reinicia los capítulos dentro de cada parte. La parte se
+// suma al número en vez de grabarse en los .qmd, que siguen siendo compartidos
+// con los nueve libros independientes.
+#let numero-encabezado(nums, part: none, appendix: false) = {
+  if appendix {
+    return numbering("A.1", ..nums)
+  }
+  if part != none {
+    let pattern = if nums.len() == 1 { "I.1" }
+                  else if nums.len() == 2 { "I.1.1" }
+                  else if nums.len() == 3 { "I.1.1.1" }
+                  else { "I.1.1.1.1" }
+    return numbering(pattern, part, ..nums)
+  }
+  let pattern = if nums.len() == 1 { "1." } else { "1.1" }
+  numbering(pattern, ..nums)
+}
+
+#import("my-outline.typ"): *
+#import("my-index.typ"): *
+#import("theorems.typ"): *
 
 #let part(title) = {
   pagebreak(to: "odd")
+  context {
+    if manual-completo-state.at(here()) {
+      counter(heading).update(0)
+    }
+  }
   part-change.update(x =>
     true
   )
@@ -317,12 +341,14 @@
   }
 }
 
-#let book(title: "", subtitle: "", date: "", author: (), paper-size: "a4", width: none, height: none, margin: (inside: 3.5cm, outside: 2.5cm, top: 2.5cm, bottom: 2.5cm), logo: none, cover: none, cover-background: auto, image-index:none, body, main-color: blue, copyright: [], lang: "en", list-of-figure-title: none, list-of-table-title: none, supplement-chapter: "Chapter", supplement-part: "Part", font-size: 10pt, part-style: 0, part-font-size: auto, lowercase-references: false, padded-heading-number: true, outline-font-size: auto, outline-small-depth: 1, outline-small-width: 9.5cm, heading-style: 0, first-line-indent: false, outline-depth: 3, front-matter-end: "Cómo leer este libro", version: none, fecha-actualizacion: none, cubierta: none, contracubierta: none, estado: none, estado-nota: none) = {
+#let book(title: "", subtitle: "", date: "", author: (), paper-size: "a4", width: none, height: none, margin: (inside: 3.5cm, outside: 2.5cm, top: 2.5cm, bottom: 2.5cm), logo: none, cover: none, cover-background: auto, image-index:none, body, main-color: blue, copyright: [], lang: "en", list-of-figure-title: none, list-of-table-title: none, supplement-chapter: "Chapter", supplement-part: "Part", font-size: 10pt, part-style: 0, part-font-size: auto, lowercase-references: false, padded-heading-number: true, outline-font-size: auto, outline-small-depth: 1, outline-small-width: 9.5cm, heading-style: 0, first-line-indent: false, outline-depth: 3, front-matter-end: "Cómo leer este libro", version: none, fecha-actualizacion: none, cubierta: none, contracubierta: none, estado: none, estado-nota: none, manual-completo: false) = {
 
   let supplement-chapter = if lang == "es" and supplement-chapter == "Chapter" { "Capítulo" } else { supplement-chapter }
   let supplement-part = if lang == "es" and supplement-part == "Part" { "Parte" } else { supplement-part }
   let list-of-figure-title = if lang == "es" and list-of-figure-title == none { "Índice de ilustraciones" } else { list-of-figure-title }
   let list-of-table-title = if lang == "es" and list-of-table-title == none { "Índice de tablas" } else { list-of-table-title }
+
+  manual-completo-state.update(manual-completo)
 
   set document(author: author, title: title)
   set text(size: font-size, lang: lang)
@@ -333,13 +359,15 @@
   set ref(supplement: (it)=>{lower(it.supplement)}) if lowercase-references
 
   
-  set math.equation(numbering: num =>
-    numbering("(1.1)", counter(heading).get().first(), num)
-  )
+  set math.equation(numbering: num => {
+    let part = if manual-completo-state.get() { part-counter.get().first() } else { none }
+    "(" + numero-encabezado((counter(heading).get().first(), num), part: part) + ")"
+  })
 
-  set figure(numbering: num =>
-    numbering("1.1", counter(heading).get().first(), num)
-  )
+  set figure(numbering: num => {
+    let part = if manual-completo-state.get() { part-counter.get().first() } else { none }
+    numero-encabezado((counter(heading).get().first(), num), part: part)
+  })
 
   set figure(gap: 1.3em)
 
@@ -415,7 +443,7 @@
         let counterInt = counter(heading).at(here())
         if before != () and counterInt.len()> 1 {
           box(width: 100%, inset: (bottom: 5pt), stroke: (bottom: 0.5pt))[
-            #text(if appendix != none {numbering("A.1", ..counterInt.slice(0,2)) + " " + before.last().body} else {numbering("1.1", ..counterInt.slice(0,2)) + " " + before.last().body})
+            #text(numero-encabezado(counterInt.slice(0,2), part: if manual-completo-state.at(here()) { part-counter.at(here()).first() } else { none }, appendix: appendix != none) + " " + before.last().body)
             #h(1fr)
             #page_number
           ]
@@ -434,9 +462,9 @@
               [#page_number],
               text(weight: "bold")[
                 #if appendix != none {
-                  numbering("A.1", counterInt) + ". " + before.last().body
+                  numero-encabezado((counterInt,), appendix: true) + ". " + before.last().body
                 } else {
-                  before.last().supplement + " " + str(counterInt) + ". " + before.last().body
+                  before.last().supplement + " " + numero-encabezado((counterInt,), part: if manual-completo-state.at(here()) { part-counter.at(here()).first() } else { none }) + " " + before.last().body
                 }
               ]
             )
@@ -455,9 +483,8 @@
     hanging-indent: 0pt,
     numbering: (..nums) => {
       let vals = nums.pos()
-      let pattern = if vals.len() == 1 { "1." }
-                    else if vals.len() <= 4 { "1.1" }
-      if pattern != none { numbering(pattern, ..nums) }
+      let part = if manual-completo-state.get() { part-counter.get().first() } else { none }
+      numero-encabezado(vals, part: part)
     }
   )
 
@@ -538,7 +565,7 @@
         set align(right)
         if it.numbering != none {
           text(size: 64pt, weight: "bold", fill: main-color)[
-          #counter(heading).display("1")
+          #context numero-encabezado(counter(heading).get(), part: if manual-completo-state.at(here()) { part-counter.at(here()).first() } else { none })
           ]
           v(-1.2em)
         }
@@ -575,7 +602,7 @@
       }
       set text(size: size)
       let number = if it.numbering != none {
-        let num = counter(heading).display(it.numbering)
+        let num = context numero-encabezado(counter(heading).get(), part: if manual-completo-state.at(here()) { part-counter.at(here()).first() } else { none }, appendix: appendix-state.at(here()) != none)
         let width = measure(num).width
         let gap = 7mm
         if (padded-heading-number){
@@ -805,4 +832,3 @@
     ]
   }
 }
-
