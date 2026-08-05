@@ -16,6 +16,10 @@ rompe la compilación.
 
 ## [En curso]
 
+### Maqueta y producción
+
+* **Apéndice del syllabus, «Ponte a prueba»** — el enlace pasa de `/tests/` a `/examenes/`; el PDF añade un QR hacia la misma página. No cambia lo que se estudia.
+
 ## [1.0-rc.13] — 2 de agosto de 2026
 
 **Qué releer:** **Glosario y el resumen de cap07.** El glosario estrena convención de rótulos y la entrada CAVOK dice ya cuáles son las condiciones. El post-it de cap07 incorpora la clase B, que el propio capítulo ya explicaba. Ninguna definición técnica cambia de fondo.

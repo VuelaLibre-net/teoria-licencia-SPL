@@ -16,6 +16,10 @@ rompe la compilación.
 
 ## [En curso]
 
+### Maqueta y producción
+
+* **Apéndice del syllabus, «Ponte a prueba»** — el enlace pasa de `/tests/` a `/examenes/`; el PDF añade un QR hacia la misma página. No cambia lo que se estudia.
+
 ## [1.0-rc.7] — 2 de agosto de 2026
 
 **Qué releer:** **Glosario, entradas «Efecto suelo», «IAS», «Curva polar» y «Coeficiente de planeo»; cap04, figura del hilo de lana.** El efecto suelo daba una distancia inventada. La figura del hilo de lana pasa a tres paneles en fila y su pie ya no dice «de arriba abajo».
