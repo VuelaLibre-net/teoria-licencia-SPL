@@ -300,11 +300,11 @@ jobs:
         rm -f estados.txt
         exit $errores
 
-    - name: Compilar manuales a PDF, EPUB, Markdown para RAG y HTML web
+    - name: Compilar los nueve manuales a PDF, EPUB, Markdown para RAG y HTML web
       # La salida se guarda para poder mirarla en el paso siguiente: Typst avisa
       # de las fuentes que no encuentra por stderr, pero NO falla por ello, así
       # que el aviso se pierde entre miles de líneas y `make` sale con 0.
-      run: set -o pipefail && make 2>&1 | tee build.log && make completo 2>&1 | tee -a build.log
+      run: set -o pipefail && make 2>&1 | tee build.log
 
     - name: Comprobar que ninguna fuente ha caído a otra
       # `warning: unknown font family: X` significa que Typst no encontró la
@@ -760,12 +760,11 @@ jobs:
         epubs=$(ls build/epub/*.epub 2>/dev/null | wc -l)
         mds=$(ls build/rag/*.md 2>/dev/null | wc -l)
         webs=$(ls build/web/*.web.tar.gz 2>/dev/null | wc -l)
-        # Diez: los nueve libros más el manual completo. El completo no tiene
-        # paquete web —`make completo` sólo hace PDF, EPUB y RAG—, así que ahí
-        # se siguen esperando nueve.
-        [ "$pdfs" -eq 10 ] || { echo "::error::Se esperaban 10 PDF (9 libros + completo) y hay $pdfs"; errores=1; }
-        [ "$epubs" -eq 10 ] || { echo "::error::Se esperaban 10 EPUB (9 libros + completo) y hay $epubs"; errores=1; }
-        [ "$mds" -eq 10 ] || { echo "::error::Se esperaban 10 Markdown para RAG (9 libros + completo) y hay $mds"; errores=1; }
+        # El manual completo se compila localmente por ahora. CI sólo publica y
+        # verifica los nueve libros individuales.
+        [ "$pdfs" -eq 9 ] || { echo "::error::Se esperaban 9 PDF y hay $pdfs"; errores=1; }
+        [ "$epubs" -eq 9 ] || { echo "::error::Se esperaban 9 EPUB y hay $epubs"; errores=1; }
+        [ "$mds" -eq 9 ] || { echo "::error::Se esperaban 9 Markdown para RAG y hay $mds"; errores=1; }
         [ "$webs" -eq 9 ] || { echo "::error::Se esperaban 9 paquetes web y hay $webs"; errores=1; }
 
         exit $errores
