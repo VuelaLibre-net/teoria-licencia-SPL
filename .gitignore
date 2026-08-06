@@ -5,7 +5,7 @@ _book/
 
 # Los index.typ son artefactos: los genera `keep-typ: true` en cada render y no
 # son entrada de nada. Se mantiene keep-typ porque el .typ es la única forma de
-# ver cómo interpreta Pandoc el contenido (ver CLAUDE.md), pero el fichero no se
+# ver cómo interpreta Pandoc el contenido, pero el fichero no se
 # versiona: además de ruido, lleva embebida la fecha del último commit del libro,
 # así que commitearlo cambiaba esa fecha y obligaba a regenerarlo otra vez.
 # Uno por libro (NN-*/index.typ) y el del manual completo, que se renderiza
@@ -16,7 +16,6 @@ _book/
 .tmp/
 
 /.luarc.json
-.gstack/
 /notes/
 tools/web/__pycache__/
 tools/epub/__pycache__/
