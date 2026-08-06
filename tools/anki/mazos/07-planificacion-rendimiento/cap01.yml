@@ -1,0 +1,124 @@
+# Mazo Anki de 07-planificacion-rendimiento, capítulo 1.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 07-planificacion-rendimiento
+capitulo: 1
+titulo: "Masa y centro de gravedad"
+tarjetas:
+  - id: cg-atrasado
+    tipo: basica
+    anverso: ¿Por qué el **CG atrasado** es la condición de centrado más peligrosa?
+    reverso: |
+      **Porque el planeador se vuelve inestable —tiende a subir el morro solo— y
+      la recuperación de una pérdida o barrena puede ser imposible.**
+
+  - id: cg-adelantado
+    tipo: basica
+    anverso: ¿Qué efectos tiene un **CG adelantado**?
+    reverso: |
+      **Muy estable (pesado de morro), pero menos eficiente** por la resistencia
+      del timón de profundidad deflectado, **y con velocidad de pérdida más
+      alta**.
+
+  - id: formula-del-cg
+    tipo: basica
+    anverso: ¿Cómo se calcula el **centro de gravedad**?
+    reverso: |
+      **CG = Σ momentos / Σ pesos.**
+
+      Cada peso se multiplica por su brazo (distancia al *datum*), se suman los
+      momentos y se divide entre la masa total. Los datos de partida salen de la
+      **ficha de pesaje oficial**.
+
+  - id: efectos-de-sobrepasar-mtow
+    tipo: basica
+    anverso: ¿Qué le pasa a un planeador que supera el **MTOW**?
+    reverso: |
+      **Necesita más pista para despegar, su velocidad de pérdida es mayor y
+      sufre más fatiga estructural con menos G.**
+
+  - id: lastre-de-cabina-fijado
+    tipo: basica
+    anverso: Si pesas poco, ¿cómo se compensa?
+    reverso: |
+      **Con lastre de plomo o pesas homologadas, fijadas mecánicamente en los
+      soportes que el fabricante instala en el morro.**
+
+      Nunca sacos de arena, mochilas ni objetos sueltos: en turbulencia o en la
+      rotación pueden desplazarse, bloquear los pedales o cambiar el centrado en
+      el peor momento. Comprueba siempre que tu peso entra en el margen del
+      asiento que ocupas.
+    etiquetas: [Airmanship]
+
+  - id: lastre-de-agua-efecto
+    tipo: basica
+    anverso: ¿Qué aporta y qué cuesta el **lastre de agua**?
+    reverso: |
+      **Permite volar más rápido con el mismo ángulo de planeo —ideal para días
+      fuertes—, pero empeora el régimen de ascenso en térmica.**
+
+  - id: lastre-de-cola
+    tipo: basica
+    anverso: ¿Para qué sirve el **lastre de cola** y qué precaución exige?
+    reverso: |
+      **No añade rendimiento: recoloca el CG cuando llenas las alas.**
+
+      Vacíalo siempre junto con los tanques principales. Agua sólo en la cola
+      equivale a un CG atrasado extremo.
+
+  - id: aterrizar-con-agua
+    tipo: basica
+    anverso: ¿Se puede aterrizar con los tanques de agua llenos?
+    reverso: |
+      **No, salvo emergencia absoluta.** El agua se tira antes de aterrizar.
+
+      La energía del impacto crece drásticamente con el peso y puedes romper el
+      planeador de forma irreparable.
+    etiquetas: [Seguridad]
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (6 viñetas)
+#  [1]
+#     **CG atrasado**: es la condición más peligrosa. El avión se vuelve inestable (quiere subir
+#     el morro solo) y la recuperación de una pérdida o barrena puede ser imposible. Si eres
+#     ligero, usa lastre fijado mecánicamente, nunca improvisado.
+#  [2]
+#     **CG adelantado**: el avión es muy estable (pesado de morro), pero menos eficiente por la
+#     resistencia del timón de profundidad deflectado, y con una velocidad de pérdida más alta.
+#  [3]
+#     **Cálculo del CG**: CG = Σ Momentos / Σ Pesos. Cada peso se multiplica por su brazo
+#     (distancia al *datum*) y la suma de momentos se divide entre la masa total. Los datos de
+#     partida salen de la ficha de pesaje oficial.
+#  [4]
+#     **Peso máximo (MTOW)**: un planeador sobrecargado necesita más pista para despegar, tiene
+#     una velocidad de pérdida mayor y sufre más fatiga estructural con menos Gs.
+#  [5]
+#     **Lastre de agua**: permite volar más rápido con el mismo ángulo de planeo (ideal para días
+#     fuertes), pero empeora el régimen de ascenso en térmica. Y recuerda: el agua se tira antes
+#     de aterrizar.
+#  [6]
+#     **Lastre de cola**: no añade rendimiento por sí mismo; recoloca el CG cuando llenas las
+#     alas. Vacíalo siempre junto con los tanques principales: agua solo en la cola equivale a un
+#     CG atrasado extremo.
+#
+# RECUADROS (3)
+#  [Regla de oro 1]
+#     Si pesas poco, usa lastre de plomo o pesas fijas. Nunca despegues sin comprobar que tu peso
+#     entra en el margen permitido para el asiento que ocupas.
+#  [Airmanship 2]
+#     El lastre de cabina debe ir siempre fijado mecánicamente en los soportes que el fabricante
+#     instala en el morro (planchas de plomo o pesas homologadas con su anclaje). Nunca improvises
+#     con sacos de arena, mochilas u objetos sueltos: en una turbulencia o en la rotación del
+#     despegue pueden desplazarse, bloquear los pedales o cambiar el centrado en el peor momento
+#     posible.
+#  [Seguridad 3]
+#     Nunca aterrices con los tanques de agua llenos a menos que sea una emergencia absoluta. La
+#     energía del impacto aumenta drásticamente con el peso, y podrías romper el planeador de
+#     forma irreparable.

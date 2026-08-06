@@ -1,0 +1,191 @@
+# Mazo Anki de 09-navegacion, capítulo 7.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 09-navegacion
+capitulo: 7
+titulo: "Uso de ATS"
+tarjetas:
+  - id: atc-vs-fis
+    tipo: basica
+    anverso: Diferencia entre **ATC** y **FIS**.
+    reverso: |
+      **El ATC (control) gestiona aeródromos y espacios controlados; el FIS
+      (información) te ayuda en ruta con meteorología y tráfico.**
+
+      Mantén contacto con FIS siempre que puedas: es una capa extra de
+      seguridad.
+
+  - id: por-que-llamar-a-fis
+    tipo: basica
+    anverso: ¿Qué ventaja concreta da haber estado hablando con **FIS** si aterrizas en campo?
+    reverso: |
+      **Que conocen tu última posición y pueden coordinar ayuda.**
+    etiquetas: [Airmanship]
+
+  - id: codigos-transpondedor
+    tipo: cloze
+    texto: |
+      Códigos de transpondedor: VFR {{c1::7000}}, emergencia {{c2::7700}},
+      fallo de radio {{c3::7600}}, interferencia ilícita {{c4::7500}}.
+
+  - id: cambiar-codigo-con-decision
+    tipo: basica
+    anverso: ¿Qué precaución hay al **cambiar el código** del transpondedor de ruedas?
+    reverso: |
+      **Cambiarlo con decisión y sin detenerte, o usar la posición de espera.**
+
+      Al girar las ruedas se pasa físicamente por códigos intermedios: camino de
+      un 7501 puedes emitir un instante 7500 y disparar un aviso en el centro de
+      control.
+    etiquetas: [Seguridad]
+
+  - id: transpondedor-encendido-alt
+    tipo: basica
+    anverso: ¿Cómo y dónde se lleva el transpondedor si está instalado y operativo?
+    reverso: |
+      **Encendido y en modo ALT** (transmisión de altitud).
+
+      Es obligatorio en las **TMZ** y donde lo exijan la clase de espacio aéreo
+      o el AIP-España (**ENR 1.6**): clases A y C lo requieren, y la D
+      generalmente. Apagarlo por batería sólo cabe como decisión deliberada
+      fuera de esos espacios; nunca en TMZ, espacio controlado o tráfico
+      intenso.
+    etiquetas: [Seguridad]
+
+  - id: cuando-es-obligatorio-el-fpl
+    tipo: basica
+    anverso: ¿Cuándo obliga **SERA.4001 b)** a presentar plan de vuelo?
+    reverso: |
+      **Al cruzar fronteras, cuando se te presta servicio de control (clases B,
+      C y D) y al despegar o aterrizar en aeródromo controlado.**
+
+      Ojo con la clase E: es espacio controlado, pero al VFR no se le presta
+      control, así que no necesita plan, ni radio, ni autorización.
+    etiquetas: [Normativa]
+
+  - id: cerrar-el-plan-de-vuelo
+    tipo: basica
+    anverso: ¿Qué hay que hacer al llegar si presentaste plan de vuelo?
+    reverso: |
+      **Notificar la llegada a la dependencia ATS del destino cuanto antes, para
+      cerrarlo.**
+
+      Si no, se activan innecesariamente los servicios de búsqueda y rescate
+      (SAR).
+    etiquetas: [Normativa]
+
+  - id: eobt-en-utc
+    tipo: basica
+    anverso: ¿En qué hora se expresa la **EOBT** del plan de vuelo?
+    reverso: |
+      **En UTC**, y la antelación de presentación se cuenta sobre ella.
+
+      De local a Zulu se resta: −1 en invierno, −2 en verano en la Península.
+
+  - id: servicios-al-vfr-por-clase
+    tipo: basica
+    anverso: "Resumen **SERA.8001**: ¿qué recibe el VFR en cada clase de espacio aéreo?"
+    reverso: |
+      * **C y D**: autorización ATC y radio obligatoria.
+      * **E**: ni autorización ni radio; sólo información de tráfico si la hay.
+      * **F y G**: sólo servicio de información de vuelo.
+    etiquetas: [Normativa]
+
+  - id: separacion-al-vfr
+    tipo: basica
+    anverso: ¿En qué clase de espacio aéreo se **separa** al VFR, y de quién?
+    reverso: |
+      **Sólo en clase C, y sólo respecto al IFR.**
+
+      En clase D pides autorización, hablas por radio y recibes información de
+      tráfico, pero **nadie te separa**.
+
+  - id: fuentes-oficiales
+    tipo: basica
+    anverso: ¿Cuáles son las **fuentes oficiales** para NOTAM, plan de vuelo y cartas?
+    reverso: |
+      **NOTAM y plan de vuelo, en Insignia VFR de ENAIRE; las cartas, en el
+      AIP.**
+
+      Las aplicaciones de planificación no son fuente oficial: procesan datos
+      con su propio calendario y no responden de lo que muestran. Úsalas para
+      volar cómodo; comprueba en la oficial antes de despegar.
+    etiquetas: [Normativa]
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (7 viñetas)
+#  [1]
+#     **Dependencias**: El ATC (Control) gestiona aeródromos y espacios controlados. El FIS
+#     (Información) te ayuda en ruta con meteo y tráfico. Mantén contacto con FIS cuando sea
+#     posible; es una capa extra de seguridad.
+#  [2]
+#     **Transpondedor**: Es tu visibilidad para el radar. En VFR pon 7000. Si tienes una
+#     emergencia: 7700. Si pierdes la radio: 7600. Si está operativo, llévalo encendido y en ALT
+#     (obligatorio en TMZ y donde lo exija la clase de espacio aéreo — AIP ENR 1.6); vigila el
+#     consumo de batería.
+#  [3]
+#     **Plan de Vuelo**: Fundamental para que te busquen si no llegas. Se activa al despegar y
+#     **ES OBLIGATORIO notificar tu llegada** a la dependencia ATS del aeródromo de destino tan
+#     pronto como sea posible (SERA).
+#  [4]
+#     **Espacios Aéreos**: Conoce dónde estás. En Clase C o D necesitas autorización radio. En
+#     Clase G eres libre, pero el FIS sigue estando ahí para ayudarte.
+#  [5]
+#     **Separación al VFR**: sólo en **clase C**, y sólo respecto al IFR. En clase D pides
+#     autorización, hablas por radio y recibes información de tráfico, pero **nadie te separa**.
+#  [6]
+#     **El reloj del FPL**: la EOBT va en **UTC**, y la antelación de presentación se cuenta sobre
+#     ella. Local a Zulu, **se resta** (−1 en invierno, −2 en verano en la Península).
+#  [7]
+#     **Fuentes oficiales**: los NOTAM y el plan de vuelo, en **Insignia VFR** de ENAIRE; las
+#     cartas, en el AIP. Las aplicaciones de planificación que todos usamos sirven para volar
+#     cómodo, **no** para dar por consultado el briefing.
+#
+# RECUADROS (6)
+#  [Airmanship 1]
+#     Llamar a los servicios FIS (como Madrid o Barcelona Información) es una excelente práctica.
+#     Además de darte tranquilidad, si tienes que realizar un aterrizaje en campo, ellos sabrán tu
+#     última posición conocida y podrán coordinar ayuda si fuera necesario.
+#  [Seguridad 2]
+#     Al girar las ruedas del transpondedor para poner un código, se pasa físicamente por códigos
+#     intermedios. Si estás poniendo, por ejemplo, un 7501 asignado, en el camino puedes emitir
+#     durante un instante un **7500** —interferencia ilícita— y disparar un aviso en el centro de
+#     control. Cambia el código **con decisión y sin detenerte**, o usa la posición de espera si
+#     tu equipo la tiene.
+#  [Seguridad 3]
+#     Si tu transpondedor está instalado y operativo, la práctica correcta es **mantenerlo
+#     encendido y en modo "ALT"** (transmisión de altitud) para que el radar te vea. Su uso es
+#     **obligatorio en las zonas de uso de transpondedor (TMZ) y allí donde lo exijan la clase de
+#     espacio aéreo o el AIP-España (ENR 1.6)** —las clases A y C lo requieren, y la D
+#     generalmente; véase la tabla del **Libro 1 — Derecho Aéreo y Procedimientos de Control de
+#     Tránsito Aéreo (ATC)**, capítulo 7—, y muy recomendable en cualquier espacio con tráfico.
+#     Solo en planeadores con batería muy limitada cabe valorar apagarlo fuera de esos espacios, y
+#     siempre como decisión deliberada: **nunca en una TMZ, en espacio controlado ni en zonas de
+#     tráfico intenso**.
+#  [Normativa 4]
+#     Según el reglamento **SERA** (SERA.4001 b)), es obligatorio presentar un FPL si vas a cruzar
+#     fronteras, si se te presta servicio de control de tránsito aéreo (clases B, C y D) o si
+#     despegas o aterrizas en un aeródromo controlado. Ojo con la clase E: es espacio controlado,
+#     pero al VFR no se le presta servicio de control, así que no necesita plan de vuelo, ni
+#     radio, ni autorización. Y lo más importante de todo: si presentaste plan, **DEBES notificar
+#     tu llegada** para cerrarlo. Si no lo haces, se activarán los servicios de búsqueda y rescate
+#     (SAR) innecesariamente.
+#  [Normativa 5]
+#     Circulan varias aplicaciones de planificación que casi todo el mundo usa y que están muy
+#     bien para preparar el vuelo. **Ninguna de ellas es fuente oficial.** Consultan datos que
+#     ellas mismas procesan, con su propio calendario de actualización, y no responden de lo que
+#     muestran. La consulta que cuenta —y la que se te exigirá si algo sale mal— es la del AIP y
+#     la de Insignia VFR. Usa la aplicación que quieras para volar cómodo; comprueba en la oficial
+#     antes de despegar.
+#  [Normativa 6]
+#     Resumen de servicios al VFR según **SERA.8001**: en **C y D** hay autorización ATC y radio
+#     obligatoria; en **E** ni autorización ni radio (solo información de tráfico si la hay); en
+#     **F y G** solo servicio de información de vuelo. Saber qué te van a dar —y qué te van a
+#     exigir— en cada clase es parte de la planificación.

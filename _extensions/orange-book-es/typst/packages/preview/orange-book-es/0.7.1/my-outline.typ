@@ -1,3 +1,17 @@
+#let numero-outline(nums, part: none, appendix: false) = {
+  if appendix {
+    return numbering("A.1", ..nums)
+  }
+  if part != none {
+    let pattern = if nums.len() == 1 { "I.1" }
+                  else if nums.len() == 2 { "I.1.1" }
+                  else if nums.len() == 3 { "I.1.1.1" }
+                  else { "I.1.1.1.1" }
+    return numbering(pattern, part, ..nums)
+  }
+  numbering(if nums.len() == 1 { "1." } else { "1.1" }, ..nums)
+}
+
 #let my-outline-row( textSize:none,
   textWeight: "regular",
   insetSize: 0pt,
@@ -9,7 +23,7 @@
   set text(size: textSize, fill: textColor, weight: textWeight)
   box(width: 100%, inset: (y: insetSize))[
     #grid(
-      columns: (1.2cm, 1fr, auto),
+      columns: (1.9cm, 1fr, auto),
       align: (left+top, left, left),
       gutter: 0pt, 
       number,
@@ -29,12 +43,12 @@
   show outline.entry: it => {
     let appendix-state = appendix-state.at(it.element.location())
     let appendix-state-hide-parent = appendix-state-hide-parent.at(it.element.location())
-    let numberingFormat = if appendix-state != none {"A.1"} else {"1.1"}
     let counterInt = counter(heading).at(it.element.location())
     let numberingSetting = it.element.numbering
     let number = none
     if numberingSetting != none and counterInt.first() >0 {
-      number = numbering(numberingFormat, ..counterInt)
+      let part = part-counter.at(it.element.location()).first()
+      number = numero-outline(counterInt, part: if part > 0 and appendix-state == none { part } else { none }, appendix: appendix-state != none)
     }
     let title = it.element.body
     let heading_page = it.page()
@@ -79,11 +93,11 @@
 #let my-outline-small(partTitle, appendix-state, part-state, part-location,part-change,part-counter, main-color, textSize1:none, textSize2:none, textSize3:none, textSize4:none, depth: 1, width: 9.5) = {
   show outline.entry: it => {
     let appendix-state = appendix-state.at(it.element.location())
-    let numberingFormat = if appendix-state != none {"A.1"} else {"1.1"}
     let counterInt = counter(heading).at(it.element.location())
     let number = none
     if counterInt.first() >0 {
-      number = numbering(numberingFormat, ..counterInt)
+      let part = part-counter.at(it.element.location()).first()
+      number = numero-outline(counterInt, part: if part > 0 and appendix-state == none { part } else { none }, appendix: appendix-state != none)
     }
     let title = it.element.body
     let heading_page = it.page()
@@ -108,7 +122,7 @@
     [
       #set text(size: textSize)
       #box(width: 100%)[
-        #box(width: 0.75cm, align(right, [#it.prefix().at("children").at(2) #h(0.2cm)]))
+        #box(width: 1.9cm, align(right, [#it.prefix().at("children").at(2) #h(0.2cm)]))
         #link(it.element.location(), it.element.at("caption").body)
         #box(width: 1fr, repeat(text(weight: "regular")[. #h(4pt)])) 
         #link(it.element.location(),heading_page)

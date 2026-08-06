@@ -1,0 +1,176 @@
+# Mazo Anki de 09-navegacion, capítulo 5.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 09-navegacion
+capitulo: 5
+titulo: "Navegación en vuelo"
+tarjetas:
+  - id: referencias-visuales-buenas
+    tipo: basica
+    anverso: ¿Qué **referencias visuales** sirven para navegar, y cuáles no?
+    reverso: |
+      **Sirven las grandes, lineales y con contraste**: ríos, autopistas, líneas
+      de costa, un embalse de forma reconocible, un pueblo con silo.
+
+      No sirve un pueblo cualquiera en una meseta con veinte pueblos iguales: no
+      es un punto de comprobación, es una trampa.
+    etiquetas: [Regla de oro]
+
+  - id: orientar-la-carta
+    tipo: basica
+    anverso: ¿Cómo se orienta la carta en vuelo, y cada cuánto se fija la posición?
+    reverso: |
+      **En el sentido del vuelo** —lo que ves a la derecha en el suelo, a la
+      derecha en el papel— y **la posición se fija cada 10-15 minutos**.
+
+  - id: cono-de-alcance
+    tipo: basica
+    anverso: ¿Cómo se calcula el **cono de alcance**?
+    reverso: |
+      **D = h × (L/D)**, corregido por viento con el factor **GS/TAS**.
+
+      Descuenta primero de la altura el margen de llegada.
+
+  - id: fineza-degradada
+    tipo: basica
+    anverso: ¿Por qué no se planifica el alcance con la **fineza del manual**?
+    reverso: |
+      **Porque se mide en aire en calma y vuelo rectilíneo estabilizado, y el
+      aire real entre térmicas desciende: ese descenso se suma al tuyo.**
+
+      Muchos pilotos planifican con la mitad de la fineza nominal y llegan con
+      altura sobrante — 300 m sobre el campo es un mínimo razonable para
+      organizar el circuito.
+    etiquetas: [Seguridad]
+
+  - id: flecha-del-ordenador
+    tipo: basica
+    anverso: ¿Qué no sabe el **ordenador de planeo** al dibujar su cono de alcance?
+    reverso: |
+      **El aire que vas a encontrar en los próximos veinte kilómetros.**
+
+      Conoce la polar, el viento medido y la altitud del campo. La flecha verde
+      es una hipótesis, no una promesa.
+    etiquetas: [Airmanship]
+
+  - id: triangulacion
+    tipo: basica
+    anverso: ¿En qué consiste **triangular** la posición?
+    reverso: |
+      **En cruzar al menos dos líneas de posición** —por ejemplo una carretera y
+      el eje de una montaña— en vez de fiarse de una sola referencia.
+
+      Cuanto más perpendicularmente se corten, mejor.
+
+  - id: error-deliberado
+    tipo: basica
+    anverso: ¿Qué es el **error deliberado** y qué problema resuelve?
+    reverso: |
+      **Apuntar a propósito a un lado del destino, hacia una referencia lineal:
+      al llegar sabes con certeza hacia dónde girar.**
+
+      Cambia una duda por un rodeo. Buen trato casi siempre, y sobre todo si el
+      punto es un aeródromo pequeño, el terreno es monótono y queda poca altura.
+    etiquetas: [Regla de oro]
+
+  - id: incertidumbre-de-posicion
+    tipo: basica
+    anverso: ¿Qué se hace ante una **incertidumbre de posición**?
+    reverso: |
+      **No seguir volando a ciegas.** Mantén el rumbo, busca referencias
+      grandes, confía en la estima inicial y, si hace falta, vuela hacia algo
+      inconfundible (un río, la costa).
+
+  - id: prioridad-al-perderse
+    tipo: basica
+    anverso: Si la duda persiste y la altura baja, ¿qué es lo primero?
+    reverso: |
+      **Aterrizar.** Navegar es secundario; volar el planeador y asegurar una
+      toma segura es lo primero.
+    etiquetas: [Seguridad]
+
+  - id: pedir-ayuda-atc
+    tipo: basica
+    anverso: ¿Cuándo se pide ayuda a ATC por dudas de posición?
+    reverso: |
+      **Antes de que la situación sea crítica.**
+
+      «Madrid, EC-XYZ, dudo de mi posición, solicito vector o confirmación». No
+      hay vergüenza en preguntar.
+    etiquetas: [Airmanship]
+
+  - id: decidir-el-desvio-con-altura
+    tipo: basica
+    anverso: ¿Con cuánta altura se decide un **desvío**, y con qué datos?
+    reverso: |
+      **Con altura sobrante**, y con tres datos: dónde estás, qué alcanzas y qué
+      hay dentro de ese alcance.
+
+      A 1.500 m la decisión tiene varias soluciones buenas; a 400 m tiene una
+      sola, y no la eliges tú.
+    etiquetas: [Seguridad]
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (6 viñetas)
+#  [1]
+#     **Referencias Visuales**: Usa objetos grandes, lineales y con contraste (ríos, autopistas,
+#     líneas de costa). Oriente la carta siempre en el sentido del vuelo (lo que ves a la derecha
+#     en el suelo, a la derecha en el papel). Fija la posición cada 10-15 minutos.
+#  [2]
+#     **Cono de alcance**: $D = h \cdot (L/D)$, corregido por viento con el factor $GS/TAS$.
+#     Descuenta primero el margen de llegada de la altura. Planifica con fineza degradada: el aire
+#     entre térmicas desciende y se suma a tu descenso.
+#  [3]
+#     **Triangulación**: No te fíes de una sola referencia. Cruza al menos dos "líneas de
+#     posición" (ej. el cruce de una carretera y el eje de una montaña) para saber dónde estás con
+#     certeza. Cuanto más perpendiculares se corten, mejor.
+#  [4]
+#     **Error deliberado**: para encontrar un punto pequeño, apunta a propósito a un lado hacia
+#     una referencia lineal. Al llegar sabes con certeza hacia dónde girar.
+#  [5]
+#     **Incertidumbre de Posición**: Si te pierdes, NO SIGAS VOLANDO A CIEGAS. Mantén el rumbo,
+#     busca referencias grandes, confía en tu estima inicial y, si es necesario, vuela hacia un
+#     lugar conocido (un río, una costa) o aterriza con seguridad antes de quedarte sin altura.
+#  [6]
+#     **Desvío**: se decide con altura y con tres datos —dónde estás, qué alcanzas y qué hay
+#     dentro de ese alcance—. Es la planificación del capítulo 4 hecha sobre las rodillas.
+#
+# RECUADROS (7)
+#  [Regla de oro 1]
+#     Elige puntos de comprobación que sean **inconfundibles y estén en tu ruta**: un cruce de
+#     autovía con río, un embalse de forma reconocible, un pueblo con silo. Un pueblo cualquiera
+#     en una meseta con veinte pueblos iguales no es un punto de comprobación: es una trampa.
+#  [Seguridad 2]
+#     La fineza del manual se mide en aire en calma y en vuelo rectilíneo estabilizado. El aire
+#     real entre térmicas **desciende**, y ese descenso se suma al tuyo. Planifica siempre con una
+#     fineza degradada —muchos pilotos usan la mitad de la nominal— y **llega con altura
+#     sobrante**: 300 m sobre el campo es un mínimo razonable para tener tiempo de organizar el
+#     circuito.
+#  [Airmanship 3]
+#     Este cálculo es el que hacen en continuo los ordenadores de planeo, y lo hacen mejor:
+#     conocen la polar del planeador, el viento medido y la altitud del campo. Lo que no conocen
+#     es el aire que vas a encontrar en los próximos veinte kilómetros. La flecha verde de la
+#     pantalla es una hipótesis, no una promesa.
+#  [Regla de oro 4]
+#     El error deliberado cambia **una duda por un rodeo**. Es un buen trato casi siempre, y sobre
+#     todo cuando el punto que buscas es un aeródromo pequeño, el terreno es monótono y te queda
+#     poca altura para exploraciones.
+#  [Seguridad 5]
+#     Si la incertidumbre persiste y tu altura se reduce, deja de intentar navegar y concéntrate
+#     en aterrizar. **Navegar es secundario; volar el planeador y asegurar una toma segura es lo
+#     primero.**
+#  [Airmanship 6]
+#     Si tienes radio y estás en contacto con un servicio ATC, no dudes en preguntar: "Madrid,
+#     EC-XYZ, dudo de mi posición, solicito vector o confirmación". No hay vergüenza en pedir
+#     ayuda antes de que la situación sea crítica.
+#  [Seguridad 7]
+#     Decide el desvío **con altura**, no cuando ya no te quede otra. Una decisión tomada a 1.500
+#     m tiene varias soluciones buenas; la misma decisión a 400 m tiene una sola, y no la eliges
+#     tú.

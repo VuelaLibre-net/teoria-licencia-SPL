@@ -1,0 +1,136 @@
+# Mazo Anki de 05-principios-vuelo, capítulo 2.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 05-principios-vuelo
+capitulo: 2
+titulo: "Mecánica de vuelo"
+tarjetas:
+  - id: el-motor-es-la-gravedad
+    tipo: basica
+    anverso: ¿Qué hace de «motor» en un planeador?
+    reverso: |
+      **La gravedad.** El planeador siempre cae a través de la masa de aire.
+
+      Bajando el morro se convierte altura (energía potencial) en velocidad
+      (cinética): la componente del peso hacia adelante actúa como tracción.
+
+  - id: velocidad-y-altura-como-energia
+    tipo: basica
+    anverso: ¿Cómo se relacionan velocidad y altura como reservas de energía?
+    reverso: |
+      **La velocidad da el mando; la altura es la reserva.**
+
+      Cediendo altura ganas velocidad, y gastando velocidad recuperas algo de
+      trayectoria ascendente. Pero el intercambio dura poco: la reserva sólo se
+      rellena subiendo en una ascendencia.
+    etiquetas: [Regla de oro]
+
+  - id: que-es-la-fineza
+    tipo: basica
+    anverso: ¿Qué significa una fineza (**L/D**) de 35:1?
+    reverso: |
+      **Que avanza 35 km por cada kilómetro de altura, en aire en calma.**
+
+  - id: recortar-el-ld-publicado
+    tipo: basica
+    anverso: ¿Con qué **L/D** se planifican los tramos finales y las tomas fuera de campo?
+    reverso: |
+      **Con la mitad del publicado en el AFM.**
+
+      Te protege cuando se suman el viento de cara, el aire que baja y la
+      suciedad o los mosquitos del borde de ataque, que merman más de lo que
+      parece.
+    etiquetas: [Airmanship]
+
+  - id: velocidad-de-transicion-y-viento
+    tipo: basica
+    anverso: ¿Cómo se ajusta la velocidad de transición al viento y al aire?
+    reverso: |
+      **Más rápido con viento de cara y en aire descendente; algo más despacio
+      con viento de cola.**
+
+  - id: lastre-de-agua-en-la-polar
+    tipo: basica
+    anverso: ¿Qué le hace el **lastre de agua** a la polar?
+    reverso: |
+      **La desplaza a la derecha: suben la velocidad de máximo planeo y la de
+      mínimo descenso.**
+
+      Ventajoso en condiciones fuertes y transiciones largas; penaliza en
+      térmicas débiles. Se larga antes de aterrizar.
+
+  - id: factor-de-carga-y-perdida-05
+    tipo: basica
+    anverso: ¿Cómo crece la velocidad de pérdida con el **factor de carga**?
+    reverso: |
+      **Con la raíz cuadrada de n.** En un viraje de 60º soportas **2 g** y la
+      velocidad de pérdida sube un **41 %**.
+
+      Si normalmente pierdes a 60 km/h, en ese viraje pierdes a 85 km/h, con el
+      mando respondiendo con aparente normalidad.
+    etiquetas: [Seguridad]
+
+  - id: patron-letal-de-accidente
+    tipo: basica
+    anverso: ¿Cuál es el patrón más repetido en la estadística de accidentes de planeador?
+    reverso: |
+      **Maniobra de aterrizaje, altura escasa, velocidad baja y una pisada
+      brusca de pedales con alabeo exagerado.**
+
+      La pérdida llega sin avisar y a esa altura no hay margen.
+    etiquetas: [Seguridad]
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (5 viñetas)
+#  [1]
+#     **El motor es la gravedad**: el planeador siempre cae a través de la masa de aire.
+#     Convertimos altura (energía potencial) en velocidad (cinética) bajando el morro. La
+#     componente del peso hacia adelante actúa como "tracción".
+#  [2]
+#     **La curva polar**: es el DNI del planeador. Relaciona velocidad horizontal con tasa de
+#     caída. Te dice a qué velocidad volar para llegar más lejos (máximo planeo) o para mantenerte
+#     más tiempo (mínimo descenso).
+#  [3]
+#     **Eficiencia (L/D)**: la fineza. Un planeador 35:1 avanza 35 km por cada kilómetro de altura
+#     en aire calmo. Pero ojo: el viento de cara y las descendencias destruyen ese número en la
+#     práctica. Ajusta la velocidad de transición según el viento (más rápido con viento de cara y
+#     en aire descendente; algo más despacio con viento de cola) y descuenta siempre un margen de
+#     seguridad del L/D publicado.
+#  [4]
+#     **Lastre de agua**: desplaza la polar a la derecha: suben la V~max\ planeo~ y la V~z\ min~.
+#     Ventajoso en condiciones fuertes y largas transiciones; penaliza en térmicas débiles. Se
+#     larga antes del aterrizaje.
+#  [5]
+#     **Factor de carga (n)**: en giros o maniobras bruscas, el peso aparente aumenta (n > 1g) y
+#     con él la velocidad de pérdida. Recuerda: en un viraje de 60° pesas el doble (2g) y tu
+#     velocidad de pérdida sube un 41%.
+#
+# RECUADROS (3)
+#  [Regla de oro 1]
+#     La velocidad te da el mando del planeador; la altura es tu reserva de energía. Cediendo
+#     altura ganas velocidad (palanca adelante) y, gastando el exceso de velocidad, puedes
+#     recuperar algo de trayectoria ascendente (palanca atrás). Pero ese intercambio dura poco: la
+#     reserva solo se rellena subiendo en una ascendencia.
+#  [Airmanship 2]
+#     Acostúmbrate a planificar los tramos finales y las tomas fuera de aeródromo con el L/D del
+#     manual recortado. Contar con la mitad del valor publicado en el Manual de Vuelo (AFM) te
+#     protege de quedarte bajo y corto cuando se suman el viento de cara, el aire que baja y la
+#     suciedad o los mosquitos acumulados en el borde de ataque, que merman el rendimiento más de
+#     lo que parece.
+#  [Seguridad 3]
+#     Cuando el factor de carga sube, la velocidad de pérdida (**stall**) también sube —y lo hace
+#     más rápido de lo que parece. La relación es con la raíz cuadrada del factor **n**: en un
+#     viraje de 60° donde soportamos **2g**, nuestra velocidad de pérdida aumenta un **41%**. Si
+#     normalmente perdemos a 60 km/h, en ese viraje la pérdida llega a 85 km/h, aunque el mando
+#     responda con aparente normalidad. El patrón más letal de la estadística de accidentes en
+#     planeador es siempre el mismo: maniobra de aterrizaje, altura escasa, velocidad baja, y de
+#     repente una pisada brusca de pedales con alabeo exagerado. La pérdida llega sin avisar, y a
+#     esa altura no hay margen para recuperar.

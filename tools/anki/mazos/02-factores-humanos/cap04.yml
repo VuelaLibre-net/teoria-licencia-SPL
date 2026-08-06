@@ -1,0 +1,284 @@
+# Mazo Anki de 02-factores-humanos, capítulo 4.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 02-factores-humanos
+capitulo: 4
+titulo: "Uso de oxígeno"
+tarjetas:
+  - id: ley-de-dalton
+    tipo: basica
+    anverso: ¿Qué explica la **ley de Dalton** sobre la hipoxia?
+    reverso: |
+      **Que la presión atmosférica baja con la altitud, y con ella la presión
+      parcial de oxígeno**, así que el oxígeno se transfiere peor a la sangre.
+
+  - id: ley-de-boyle
+    tipo: basica
+    anverso: ¿Qué explica la **ley de Boyle** en vuelo?
+    reverso: |
+      **Que los gases corporales se expanden al ascender.**
+
+      De ahí el barotrauma de oídos y senos si vuelas con congestión.
+    etiquetas: [Airmanship]
+
+  - id: mecanismo-de-la-hipoxia
+    tipo: basica
+    anverso: ¿Qué ocurre en el cuerpo cuando aparece la **hipoxia**?
+    reverso: |
+      **Que la presión es insuficiente para cargar la hemoglobina en los
+      alvéolos, y los glóbulos rojos llegan vacíos al cerebro.**
+
+  - id: cuatro-clases-de-hipoxia
+    tipo: cloze
+    texto: |
+      Clases de hipoxia: {{c1::hipóxica}} (baja presión atmosférica, la más
+      frecuente en planeador), {{c2::hipémica}} (monóxido de carbono,
+      tabaquismo), {{c3::estancada}} (fuerzas G en virajes cerrados) e
+      {{c4::histotóxica}} (alcohol, drogas o medicamentos).
+
+  - id: primer-sintoma-hipoxia
+    tipo: basica
+    anverso: ¿Cuál es el **primer síntoma** de la hipoxia y por qué es el más traicionero?
+    reverso: |
+      **La euforia: el piloto no percibe el peligro por sí mismo.**
+
+      Después llegan somnolencia, dificultad para calcular, cianosis y pérdida
+      de conciencia.
+    etiquetas: [Seguridad]
+
+  - id: tuc
+    tipo: basica
+    anverso: ¿Cuál es el **tiempo útil de conciencia** a 25.000 y a 30.000 ft?
+    reverso: |
+      **3 a 5 minutos a 25.000 ft; 1 a 2 minutos a 30.000 ft.**
+
+      Un descenso largo puede superar el TUC disponible: actúa antes de
+      necesitarlo.
+
+  - id: oxigeno-al-100-y-desciende
+    tipo: basica
+    anverso: Regla de actuación ante fallo de oxígeno o sospecha de hipoxia.
+    reverso: |
+      **«Oxígeno al 100 % y desciende»**, por debajo de 10.000 ft y sin dudarlo.
+
+      A cierta altitud el TUC no da para pensar.
+    etiquetas: [Regla de oro]
+
+  - id: distinguir-hipoxia-de-hiperventilacion
+    tipo: basica
+    anverso: ¿Cómo se distingue **hipoxia** de **hiperventilación**?
+    reverso: |
+      Por **altitud** y **estado emocional**:
+
+      * Por encima de 10.000 ft con euforia o aletargamiento → **hipoxia**:
+        oxígeno al 100 % y descender.
+      * Por debajo de 10.000 ft con hormigueo, sudoración y ansiedad →
+        **hiperventilación**: bajar el ritmo respiratorio.
+
+      **En caso de duda a gran altitud, trata la hipoxia.**
+    etiquetas: [Regla de oro]
+
+  - id: no-dar-oxigeno-en-hiperventilacion
+    tipo: basica
+    anverso: ¿Se da oxígeno suplementario ante una **hiperventilación**?
+    reverso: |
+      **No, si estás a baja altitud: agravaría el desequilibrio de CO₂.**
+
+      Si no puedes confirmar que estás por debajo de 10.000 ft, prioriza tratar
+      la hipoxia.
+    etiquetas: [Seguridad]
+
+  - id: hiperventilacion-causa
+    tipo: basica
+    anverso: ¿Cuál es la causa de la **hiperventilación** y qué síntomas da?
+    reverso: |
+      **Estrés o ansiedad, no falta de oxígeno.**
+
+      Al exhalar CO₂ en exceso los vasos cerebrales se contraen: hormigueo,
+      calambres y mareo, muy parecidos a los de la hipoxia.
+
+  - id: sao-op-150-oxigeno
+    tipo: basica
+    anverso: ¿Qué exige **SAO.OP.150** sobre el oxígeno suplementario?
+    reverso: |
+      **Que el piloto al mando garantice su uso cuando determine que la falta de
+      oxígeno puede disminuir las facultades de los ocupantes.**
+
+      Y el **AMC1 SAO.OP.150**: cuando no pueda determinarlo, se usa siempre por
+      encima de **10.000 ft** de altitud de presión.
+    etiquetas: [Normativa]
+
+  - id: oxigeno-de-noche-5000
+    tipo: basica
+    anverso: ¿Desde qué altitud se **recomienda** oxígeno en vuelo nocturno o al atardecer?
+    reverso: |
+      **Desde 5.000 ft** — recomendación, no norma.
+
+      Los bastones de la retina periférica son las primeras células afectadas
+      por la falta de oxígeno, así que la visión nocturna es la primera en
+      degradarse.
+    etiquetas: [Airmanship]
+
+  - id: flujo-continuo-vs-eds
+    tipo: basica
+    anverso: Compara el sistema de **flujo continuo** con el de **demanda pulsada (EDS)**.
+    reverso: |
+      **Flujo continuo**: sencillo, pero consume más y reseca las mucosas.
+      **EDS**: multiplica la autonomía de la botella, pero depende de pilas que
+      pueden fallar con el frío.
+
+  - id: oxigeno-de-aviacion
+    tipo: basica
+    anverso: ¿Por qué **oxígeno de aviación** y no medicinal?
+    reverso: |
+      **Porque el medicinal lleva más humedad, que puede congelarse en el
+      regulador en altitud y bloquear el flujo.**
+
+      Usa sólo el etiquetado «para uso aeronáutico»: seco, pureza superior al
+      98,5 %.
+    etiquetas: [Seguridad]
+
+  - id: grasas-y-oxigeno
+    tipo: basica
+    anverso: ¿Por qué no se usan cremas ni grasas cerca del equipo de oxígeno?
+    reverso: |
+      **Porque el oxígeno a presión en contacto con sustancias grasas puede
+      provocar una combustión explosiva sin llama ni chispa.**
+
+      Nada de cremas, protector solar ni lubricantes en conexiones, reguladores
+      o boquillas.
+    etiquetas: [Seguridad]
+
+  - id: presion-de-la-botella
+    tipo: basica
+    anverso: ¿Qué presión debe tener la botella de oxígeno antes del vuelo?
+    reverso: "**Entre 150 y 200 bar.**"
+
+  - id: pulsioximetro-umbral
+    tipo: basica
+    anverso: ¿Qué saturación (SpO₂) hay que mantener, y qué hacer por debajo?
+    reverso: |
+      **Por encima del 90 %.** Por debajo, activa el oxígeno y desciende de
+      inmediato.
+
+      El pulsioxímetro detecta la hipoxia antes de que los síntomas sean
+      evidentes. Registra tus valores a distintas altitudes: no todos
+      respondemos igual.
+    etiquetas: [Airmanship]
+
+  - id: checklist-de-hipoxia
+    tipo: basica
+    anverso: ¿Por qué llevar un *checklist* de emergencia para hipoxia?
+    reverso: |
+      **Porque el razonamiento puede estar ya deteriorado justo cuando más se
+      necesita.**
+    etiquetas: [Airmanship]
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (10 viñetas)
+#  [1]
+#     **Leyes de los gases:** La presión atmosférica disminuye con la altitud (ley de Dalton),
+#     reduciendo la capacidad del oxígeno para transferirse a la sangre. Los gases corporales se
+#     expanden al ascender (ley de Boyle); no vuele con congestión nasal intensa para evitar
+#     barotraumas dolorosos.
+#  [2]
+#     **Sistema respiratorio e hipoxia:** La hemoglobina transporta el oxígeno desde los alvéolos
+#     al cerebro. Cuando la presión es insuficiente, los glóbulos rojos llegan vacíos al cerebro y
+#     se produce hipoxia.
+#  [3]
+#     **Clases de hipoxia:** Existen cuatro tipos: **hipóxica** (baja presión atmosférica, la más
+#     frecuente en planeador), **hipémica** (monóxido de carbono o tabaquismo), **estancada**
+#     (fuerzas G elevadas en virajes cerrados) e **histotóxica** (alcohol, drogas o medicamentos).
+#  [4]
+#     **Síntomas y diagnóstico:** El primer síntoma es la euforia; el piloto no percibe el peligro
+#     por sí mismo. Posteriormente aparecen somnolencia, dificultad para calcular, cianosis y
+#     pérdida de conciencia. El pulsioxímetro detecta la hipoxia antes de que los síntomas sean
+#     evidentes.
+#  [5]
+#     **Tiempo útil de conciencia (TUC):** A 25.000 ft, el TUC es de 3 a 5 minutos; a 30.000 ft,
+#     de 1 a 2 minutos. Un descenso largo puede superar el TUC disponible: actúe siempre antes de
+#     necesitarlo.
+#  [6]
+#     **Normativa (SAO.OP.150 y su AMC):** El oxígeno suplementario es obligatorio cuando el
+#     piloto determine que su falta puede disminuir las facultades de los ocupantes; cuando no
+#     pueda determinarlo, la regla por defecto del AMC es usarlo siempre por encima de **10.000
+#     ft**. En vuelo nocturno o al atardecer se **recomienda** (no es norma) desde los **5.000
+#     ft**.
+#  [7]
+#     **Sistemas de oxígeno:** El flujo continuo es sencillo pero consume más oxígeno y reseca las
+#     mucosas. El sistema a demanda pulsada (EDS) multiplica la autonomía de la botella, pero
+#     depende de pilas que pueden fallar con el frío. Use siempre oxígeno de aviación seco; no
+#     medicinal.
+#  [8]
+#     **Seguridad del equipo:** No use grasas ni cremas cerca de conexiones de oxígeno: riesgo de
+#     combustión explosiva. Verifique la presión de la botella antes de cada vuelo (entre 150 y
+#     200 bar).
+#  [9]
+#     **Hiperventilación:** Causada por estrés o ansiedad, no por falta de oxígeno. Al exhalar
+#     CO~2~ en exceso, los vasos cerebrales se contraen, produciendo síntomas similares a la
+#     hipoxia (hormigueo, calambres, mareo). Tratamiento: reducir el ritmo respiratorio, hablar en
+#     voz alta o reinhalar CO~2~ cubriendo parcialmente la boca.
+#  [10]
+#     **Pulsioxímetro:** Mantenga la saturación (SpO~2~) por encima del **90%**; por debajo de ese
+#     umbral, active el oxígeno y descienda de inmediato.
+#
+# RECUADROS (10)
+#  [Airmanship 1]
+#     No vuele con un resfriado severo o congestión nasal, especialmente si prevé techos térmicos
+#     elevados o vuelos de onda. El aire atrapado en los senos paranasales o en el oído medio se
+#     expande al ascender y puede causar un dolor intenso y agudo (barotrauma) que incapacita para
+#     pilotar con seguridad.
+#  [Seguridad 2]
+#     La euforia es el síntoma más traicionero de la hipoxia: el piloto no sospecha que está en
+#     peligro. Si percibe visión borrosa, hormigueo en las extremidades, euforia injustificada o
+#     dolor de cabeza tras un ascenso rápido a gran altitud, asuma hipoxia. Active el suministro
+#     de oxígeno al 100% e inicie el descenso de inmediato.
+#  [Regla de oro 3]
+#     Ante cualquier fallo en el suministro de oxígeno o sospecha de hipoxia, aplique la regla:
+#     **«Oxígeno al 100% y desciende»**. Active el flujo completo y baje por debajo de los 10.000
+#     ft sin dudarlo. A partir de cierta altitud, el TUC no permite pensar ni actuar
+#     correctamente.
+#  [Airmanship 4]
+#     Disponga de un *checklist* de emergencia para hipoxia, ya que el razonamiento puede estar
+#     deteriorado en el momento en que más lo necesita. Si lleva pulsioxímetro a bordo, compruebe
+#     la saturación (SpO~2~) ante cualquier duda.
+#  [Regla de oro 5]
+#     Para distinguir hipoxia de hiperventilación, evalúe dos factores: **altitud** y **estado
+#     emocional**. * Si está por encima de 10.000 ft y se siente eufórico o aletargado: probable
+#     **hipoxia**. Aplique oxígeno al 100% y descienda. * Si está por debajo de 10.000 ft y
+#     experimenta hormigueo con sudoración y ansiedad: probable **hiperventilación**. Reduzca el
+#     ritmo respiratorio. En caso de duda a gran altitud, priorice el tratamiento de la hipoxia.
+#  [Seguridad 6]
+#     No aporte oxígeno suplementario si diagnostica hiperventilación y no está a gran altitud:
+#     añadir más oxígeno agravaría el desequilibrio de CO~2~ y empeoraría los síntomas. Si no
+#     puede confirmar que está por debajo de 10.000 ft, priorice el tratamiento de la hipoxia.
+#  [Normativa 7]
+#     **SAO.OP.150:** «El piloto al mando deberá garantizar que todas las personas a bordo
+#     utilicen oxígeno suplementario cuando determine que, a la altitud de vuelo prevista, la
+#     falta de oxígeno podría ocasionar la disminución de sus facultades o resultarles dañina.»
+#     **AMC1 SAO.OP.150:** cuando el piloto no pueda determinar ese efecto, el oxígeno deberá
+#     usarse siempre que la altitud de presión supere los **10.000 ft**.
+#  [Airmanship 8]
+#     Para vuelos **nocturnos o al atardecer** se recomienda —no lo exige la norma— iniciar el uso
+#     de oxígeno desde los **5.000 ft**: la visión nocturna es especialmente sensible a la falta
+#     de oxígeno, porque los bastones de la retina periférica son las primeras células en verse
+#     afectadas.
+#  [Seguridad 9]
+#     **Oxígeno de aviación, no medicinal.** El oxígeno medicinal contiene mayor concentración de
+#     humedad, que puede congelarse en el regulador a temperaturas de altitud elevadas y bloquear
+#     el flujo. Utilice exclusivamente oxígeno etiquetado como «para uso aeronáutico» (oxígeno
+#     seco, pureza superior al 98,5%). **Prohibido el contacto con grasas.** No aplique cremas
+#     hidratantes, protectores solares ni lubricantes cerca de las conexiones, reguladores o
+#     boquillas. El oxígeno a presión en contacto con sustancias grasas puede provocar una
+#     combustión explosiva sin necesidad de llama o chispa.
+#  [Airmanship 10]
+#     Registre sus valores de SpO~2~ a distintas altitudes durante los vuelos habituales (a 3.000
+#     m, a 5.000 m) para conocer su respuesta individual y tener referencias personales. No todos
+#     los pilotos responden igual a la altitud.

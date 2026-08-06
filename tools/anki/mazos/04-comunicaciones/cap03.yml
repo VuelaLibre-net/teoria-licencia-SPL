@@ -1,0 +1,173 @@
+# Mazo Anki de 04-comunicaciones, capítulo 3.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 04-comunicaciones
+capitulo: 3
+titulo: "Procedimientos operativos generales"
+tarjetas:
+  - id: esquema-de-llamada
+    tipo: basica
+    anverso: ¿Cuál es el **esquema de llamada** por radio?
+    reverso: |
+      **A quién → Quién soy → Dónde estoy → Qué necesito.**
+
+      Al colacionar, el indicativo va **al final**; en autoinformación, al
+      principio.
+    etiquetas: [Regla de oro]
+
+  - id: cuando-hacer-radio-check
+    tipo: basica
+    anverso: ¿Cuándo se hace una **prueba de radio**?
+    reverso: |
+      **Sólo si dudas de la integridad del equipo.**
+
+      Se responde con la escala de legibilidad: «Le recibo 5».
+
+  - id: reporte-de-posicion
+    tipo: basica
+    anverso: ¿Qué lleva un **reporte de posición**?
+    reverso: |
+      **Identificativo + posición + altitud (QNH o FL).**
+
+      En travesía se añaden hora UTC y siguiente punto estimado.
+
+  - id: actualizar-al-fis
+    tipo: basica
+    anverso: ¿Cuándo hay que actualizar la posición al **FIS**?
+    reverso: |
+      **Siempre que te apartes significativamente de la ruta prevista o cambies
+      de sector.**
+
+      Un FIS informado coordina antes una búsqueda si dejas de contactar.
+    etiquetas: [Airmanship]
+
+  - id: escuchar-antes-de-pulsar
+    tipo: basica
+    anverso: ¿Qué se hace antes de pulsar el PTT, y cuánto se espera tras una llamada sin respuesta?
+    reverso: |
+      **Escuchar la frecuencia unos segundos** —una transmisión que «pisa» a
+      otra bloquea ambas— y esperar **10 segundos** antes de reintentar.
+    etiquetas: [Airmanship]
+
+  - id: microfono-bloqueado
+    tipo: basica
+    anverso: ¿Cómo se detecta un **PTT atascado** y por qué importa?
+    reverso: |
+      **Comprobando que la luz TX se apaga al soltar el PTT.**
+
+      Un PTT atascado anula la frecuencia para todos.
+
+  - id: tecnica-de-microfono
+    tipo: basica
+    anverso: ¿Cómo se sujeta y se usa el micrófono?
+    reverso: |
+      **Cerca de los labios pero sin tocarlos, a volumen normal y constante.**
+
+      Gritar satura la señal y reduce la inteligibilidad.
+
+  - id: prioridad-de-mensajes
+    tipo: basica
+    anverso: Diferencia de prioridad entre **socorro** y **urgencia**.
+    reverso: |
+      **SOCORRO (Mayday)**: prioridad absoluta e impone **silencio total**.
+      **URGENCIA (Pan Pan)**: pide prioridad, sin exigir silencio.
+
+      Ante un Mayday ajeno, calla salvo que puedas asistir o retransmitir.
+
+  - id: falsa-emergencia
+    tipo: basica
+    anverso: ¿Qué consecuencias tiene transmitir un **Mayday o Pan Pan falso**?
+    reverso: |
+      **Es infracción penal grave en toda la EASA**: multas elevadas y retirada
+      de la licencia, además del riesgo real de desviar recursos de emergencia.
+    etiquetas: [Normativa]
+
+  - id: equipos-de-radio-potencia
+    tipo: basica
+    anverso: ¿Qué potencia dan una radio de panel y una portátil?
+    reverso: |
+      **Panel: 6-10 W con antena exterior. Portátil: 1-5 W**, como respaldo.
+
+  - id: etso-c169a
+    tipo: basica
+    anverso: ¿Qué certifica el marcado **ETSO-C169a**?
+    reverso: |
+      **Que la radio cumple la canalización de 8,33 kHz**, obligatoria por el
+      Reglamento UE 1079/2012.
+    etiquetas: [Normativa]
+
+  - id: saludo-en-el-primer-contacto
+    tipo: basica
+    anverso: ¿Cabe un «buenos días» en la radio?
+    reverso: |
+      **En el primer contacto con una estación, sí; en cada transmisión, no.**
+
+      No es fraseología OACI, que busca economía de palabras, pero al otro lado
+      hay una persona. En frecuencia saturada o en emergencia, al grano.
+    etiquetas: [Airmanship]
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (8 viñetas)
+#  [1]
+#     **Esquema de llamada**: A quién → Quién soy → Dónde estoy → Qué necesito. Al colacionar, el
+#     indicativo va al final. En autoinformación, el indicativo va al principio.
+#  [2]
+#     **Prueba de radio (radio check)**: Realízala solo si tienes dudas sobre la integridad del
+#     equipo. Usa la escala de legibilidad del 1 (ilegible) al 5 (perfecto): «Le recibo 5».
+#  [3]
+#     **Reportes de posición**: Identificativo + posición + altitud (QNH o FL). En travesía añade
+#     hora UTC y siguiente punto estimado. Actualiza al FIS si te apartas de tu ruta.
+#  [4]
+#     **Llamadas simultáneas**: Si la frecuencia está activa, espera. Tras una llamada sin
+#     respuesta, aguarda 10 segundos antes de reintentar. El ATC decide el turno cuando varias
+#     aeronaves llaman a la vez.
+#  [5]
+#     **Micrófono bloqueado**: Comprueba que la luz TX se apaga al soltar el PTT. Un PTT atascado
+#     anula la frecuencia para todos los usuarios.
+#  [6]
+#     **Prioridad de mensajes**: SOCORRO (Mayday) tiene prioridad absoluta e impone silencio
+#     total; URGENCIA (Pan Pan) pide prioridad sin exigir ese silencio. Ante un Mayday ajeno,
+#     calla salvo que puedas asistir o retransmitir.
+#  [7]
+#     **Técnica de micrófono**: Micrófono cerca de los labios pero sin tocarlos. Volumen normal y
+#     constante. Gritar satura la señal y reduce la inteligibilidad.
+#  [8]
+#     **Equipos de radio**: Panel (6–10 W, antena exterior) o portátil (1–5 W, respaldo).
+#     Obligatorio espaciado 8,33 kHz (Reglamento UE 1079/2012); el marcado **ETSO-C169a**
+#     certifica que la radio cumple esa canalización.
+#
+# RECUADROS (5)
+#  [Regla de oro 1]
+#     Antes de pulsar el PTT compón mentalmente el mensaje completo: *¿A quién? → ¿Quién soy? →
+#     ¿Dónde estoy? → ¿Qué necesito?* Un mensaje estructurado ocupa menos tiempo en frecuencia y
+#     reduce los errores de comprensión del controlador.
+#  [Airmanship 2]
+#     Algunos instructores recomiendan abrir la **primera** comunicación con una estación con un
+#     simple *«buenos días»* o *«buenas tardes»* antes del mensaje: *«Fuentemilanos tráfico,
+#     buenos días, Eco Charlie Delta Papa Eco…»*. No forma parte de la fraseología OACI —que busca
+#     economía de palabras— y por eso se reservaría al **primer contacto**, no a cada transmisión;
+#     pero al otro lado de la radio hay una persona, y ese saludo engrasa la relación con la
+#     torre, el FIS o el resto de tráficos de tu campo. Con una salvedad: en frecuencia saturada o
+#     en una emergencia, la cortesía sobra y vas directo al grano.
+#  [Airmanship 3]
+#     En travesías en planeador, actualiza tu posición al FIS siempre que te apartes
+#     significativamente de tu ruta prevista o cambies de sector. Un FIS informado puede coordinar
+#     con mayor rapidez una búsqueda si dejases de contactar.
+#  [Airmanship 4]
+#     Antes de pulsar el PTT escucha siempre la frecuencia unos segundos. Una transmisión que
+#     «pisa» a otra bloquea ambas comunicaciones. Si la frecuencia está activa, espera a que la
+#     conversación concluya antes de empezar la tuya.
+#  [Normativa 5]
+#     La transmisión maliciosa o falsa de señales de emergencia (Mayday / Pan Pan) constituye una
+#     infracción penal grave en todas las jurisdicciones de la EASA, sancionada con multas
+#     elevadas y la retirada de la licencia aeronaútica, además del riesgo operacional real que
+#     genera al desviar recursos de emergencia. Utilícelas exclusivamente cuando la situación real
+#     lo requiera.

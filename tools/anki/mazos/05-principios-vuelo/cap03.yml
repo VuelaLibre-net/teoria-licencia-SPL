@@ -1,0 +1,132 @@
+# Mazo Anki de 05-principios-vuelo, capítulo 3.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 05-principios-vuelo
+capitulo: 3
+titulo: "Estabilidad"
+tarjetas:
+  - id: estabilidad-estatica
+    tipo: basica
+    anverso: ¿Qué describe la **estabilidad estática**?
+    reverso: |
+      **La tendencia inicial tras una perturbación.**
+
+      Si al soltar los mandos tiende a volver a su posición original, es
+      estable; si se aleja más (divergencia), es inestable y peligroso.
+
+  - id: estabilidad-dinamica
+    tipo: basica
+    anverso: ¿Qué describe la **estabilidad dinámica**?
+    reverso: |
+      **Lo que pasa después de la reacción inicial**: si las oscilaciones se
+      amortiguan (bueno), se mantienen (neutro) o crecen (peligroso).
+
+  - id: fugoide-y-espiral
+    tipo: basica
+    anverso: Compara el modo **fugoide** con la **tendencia espiral**.
+    reverso: |
+      **Fugoide**: oscilación longitudinal lenta e inocua.
+      **Tendencia espiral**: divergencia lateral lenta; si sueltas los mandos
+      con un pequeño alabeo, la espiral **crece sola**. Es la importante.
+
+  - id: espiral-sin-referencias
+    tipo: basica
+    anverso: ¿Por qué no se vuela nunca sin referencias visuales del horizonte?
+    reverso: |
+      **Porque un planeador abandonado con cinco grados de alabeo desarrolla en
+      minutos una espiral descendente fatal.**
+
+      Es el origen de la mayoría de las pérdidas de control con visibilidad
+      reducida.
+    etiquetas: [Seguridad]
+
+  - id: cg-y-estabilidad-longitudinal
+    tipo: basica
+    anverso: ¿Cómo afecta la posición del **CG** a la estabilidad longitudinal?
+    reverso: |
+      **CG adelantado**: muy estable, pero pesado de mando.
+      **CG atrasado**: muy sensible e inestable, con riesgo de **barrena plana
+      irrecuperable**.
+
+  - id: diedro
+    tipo: basica
+    anverso: ¿Cómo da estabilidad lateral el **diedro**?
+    reverso: |
+      **Si un ala baja, gana ángulo de ataque efectivo y vuelve a subir**, así
+      que la forma en «V» nivela el planeador sola.
+
+  - id: estabilidad-direccional
+    tipo: basica
+    anverso: ¿Qué da la **estabilidad direccional** y qué evita?
+    reverso: |
+      **La deriva (cola vertical), que actúa como veleta.**
+
+      Mantiene el morro apuntando al viento relativo y evita el deslizamiento
+      lateral, tanto el resbale como el derrape.
+
+  - id: sao-gen-130-masa-y-cg
+    tipo: basica
+    anverso: ¿Qué exige **SAO.GEN.130 d)4)** antes de iniciar el vuelo?
+    reverso: |
+      **Cerciorarse de que la masa del planeador y la ubicación de su centro de
+      gravedad están dentro de los límites del AFM.**
+    etiquetas: [Normativa]
+
+  - id: estabilidad-escuela-vs-competicion
+    tipo: basica
+    anverso: ¿Por qué un velero de escuela va más «pesado» de mando que uno de competición?
+    reverso: |
+      **Porque se diseña con estabilidad estática positiva muy marcada, para
+      facilitar el aprendizaje y perdonar errores.**
+
+      Los de alta competición o acrobacia la reducen para ganar agilidad.
+    etiquetas: [Airmanship]
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (5 viñetas)
+#  [1]
+#     **Estabilidad estática**: es la tendencia inicial. Si sueltas los mandos tras un bache y el
+#     avión tiende a volver a su posición original, es estable. Si tiende a alejarse más
+#     (divergencia), es inestable y peligroso.
+#  [2]
+#     **Estabilidad dinámica**: describe lo que pasa **después** de la reacción inicial. ¿Las
+#     oscilaciones se amortiguan (bueno), se mantienen iguales (neutro) o crecen (peligroso)? El
+#     modo fugoide es una oscilación longitudinal lenta e inocua. La **tendencia espiral**
+#     (divergencia lateral lenta) es la más importante: si sueltas los mandos con un pequeño
+#     alabeo, la espiral crece sola.
+#  [3]
+#     **El CG es el rey**: la posición del centro de gravedad determina la estabilidad
+#     longitudinal. CG adelantado = muy estable pero "pesado". CG atrasado = muy sensible e
+#     inestable (riesgo de barrena plana irrecuperable).
+#  [4]
+#     **Estabilidad lateral (diedro)**: la forma en "V" de las alas ayuda a nivelar el avión solo.
+#     Si un ala baja, el diedro hace que tenga más ángulo de ataque efectivo y suba.
+#  [5]
+#     **Estabilidad direccional**: la deriva (cola vertical) actúa como una veleta, manteniendo el
+#     morro apuntando al viento relativo y evitando el deslizamiento lateral (*sideslip*), tanto
+#     el resbale como el derrape.
+#
+# RECUADROS (3)
+#  [Airmanship 1]
+#     Los veleros de escuela suelen diseñarse con una estabilidad estática positiva muy marcada
+#     para facilitar el aprendizaje y perdonar errores del alumno. Sin embargo, esto los hace más
+#     "pesados" o perezosos de mando. Los veleros de alta competición o acrobacia reducen esta
+#     estabilidad para ganar agilidad y respuesta inmediata.
+#  [Seguridad 2]
+#     La tendencia espiral es el origen de la mayoría de los incidentes por pérdida de control en
+#     condiciones de visibilidad reducida. Un planeador abandonado con cinco grados de alabeo
+#     puede, en cuestión de minutos, desarrollar una espiral descendente fatal. Nunca vueles sin
+#     referencias visuales del horizonte real.
+#  [Normativa 3]
+#     El Reglamento (UE) 2018/1976, Part-SAO, punto SAO.GEN.130 d)4), establece que el piloto al
+#     mando deberá "iniciar un vuelo únicamente tras cerciorarse de que […​] la masa del planeador
+#     y la ubicación de su centro de gravedad permiten efectuar el vuelo dentro de los límites
+#     definidos por el manual de vuelo de la aeronave (AFM)".

@@ -1,0 +1,316 @@
+# Mazo Anki de 02-factores-humanos, capítulo 2.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 02-factores-humanos
+capitulo: 2
+titulo: "Fisiología aeronáutica básica y mantenimiento de salud"
+tarjetas:
+  - id: imsafe
+    tipo: cloze
+    texto: |
+      **IMSAFE**: {{c1::Illness}}, {{c2::Medication}}, {{c3::Stress}},
+      {{c4::Alcohol}}, {{c5::Fatigue}}, {{c6::Eating}}.
+    extra: |
+      Se repasa antes de cada despegue. Si alguno sale desfavorable, la única
+      decisión de seguridad es cancelar el vuelo (**NO-GO**).
+
+  - id: cuando-consultar-ame
+    tipo: basica
+    anverso: ¿Cuándo hay que consultar a un **AME** antes de volver a volar al mando?
+    reverso: |
+      **Tras lesión importante, cirugía, inicio de medicación regular, embarazo
+      o primer uso de lentes correctoras.**
+
+      Hay que abstenerse de volar al mando hasta recuperar la condición apta
+      (**MED.A.020, *Decrease in medical fitness***).
+    etiquetas: [Normativa]
+
+  - id: vision-de-color-ishihara
+    tipo: basica
+    anverso: ¿Qué pasa si no se supera la prueba de **discriminación de color** (Ishihara)?
+    reverso: |
+      **La licencia Part-SFCL queda restringida al vuelo diurno (Day VFR).**
+    etiquetas: [Normativa]
+
+  - id: disbarismos-congestion
+    tipo: basica
+    anverso: ¿Por qué no se vuela con **congestión nasal** o resfriado?
+    reverso: |
+      **Porque los gases corporales se expanden al ascender y el barotrauma de
+      tímpanos y senos paranasales incapacita para pilotar.**
+
+      Es causa automática de **NO-GO**; el dolor en el descenso es atroz.
+    etiquetas: [Airmanship]
+
+  - id: ilusiones-sensoriales
+    tipo: basica
+    anverso: "Sin horizonte visible, ¿a quién se hace caso: al oído interno o a los instrumentos?"
+    reverso: |
+      **A los instrumentos**: anemómetro, hilo de lana, bola y horizonte
+      artificial.
+
+      Al perder las referencias exteriores el oído interno engaña; ignora el
+      instinto.
+    etiquetas: [Seguridad]
+
+  - id: angulo-muerto-antes-de-virar
+    tipo: basica
+    anverso: ¿Qué se hace antes de iniciar un viraje?
+    reverso: |
+      **Mirar brevemente hacia atrás por el lado exterior opuesto**, para
+      descartar tráfico en el ángulo muerto antes de inclinar las alas.
+    etiquetas: [Airmanship]
+
+  - id: colision-frontal
+    tipo: basica
+    anverso: ¿Por qué son tan peligrosas las trayectorias **frontales**, y cómo se evade?
+    reverso: |
+      **Porque el otro planeador no tiene movimiento lateral apreciable en el
+      campo visual: sólo crece de tamaño de repente.**
+
+      Hacen falta al menos 3 segundos para reaccionar, y la evasión se hace
+      preferentemente **virando a la derecha**. Es el escenario típico de ladera
+      o calle de nubes.
+    etiquetas: [Seguridad]
+
+  - id: mareo-y-biodramina
+    tipo: basica
+    anverso: ¿Se pueden tomar antihistamínicos contra el mareo (Biodramina) antes de volar?
+    reverso: |
+      **No.** Producen somnolencia profunda que compromete los tiempos de
+      reacción y el estado de alerta.
+
+      El mareo en sí no es motivo de vergüenza: lleva bolsas a mano.
+    etiquetas: [Seguridad]
+
+  - id: monoxido-de-carbono
+    tipo: basica
+    anverso: ¿Cómo se detecta el **monóxido de carbono** y qué se hace ante la sospecha?
+    reverso: |
+      **Sólo con un detector específico: es inodoro, incoloro e insípido.**
+
+      Ante síntoma (dolor de cabeza, labios rojo intenso) o cambio de color del
+      parche: **corta la calefacción, abre la ventilación al máximo, usa oxígeno
+      si lo tienes y aterriza sin dilación.** Peligro real en motoveleros.
+    etiquetas: [Seguridad]
+
+  - id: hipotermia-ropa
+    tipo: basica
+    anverso: ¿Cómo se previene la **hipotermia** en vuelo de onda invernal?
+    reverso: |
+      **Ropa de abrigo por capas y nada de calzado o calcetines apretados.**
+
+      El pie inmovilizado sobre los pedales necesita circulación libre: botas
+      holgadas, suelas térmicas y guantes que dejen mover la palanca.
+    etiquetas: [Airmanship]
+
+  - id: hiperventilacion-tratamiento
+    tipo: basica
+    anverso: ¿Qué provoca la **hiperventilación** y cómo se corta?
+    reverso: |
+      **El pánico hace jadear, baja el CO₂ en sangre y aparecen entumecimiento y
+      pérdida de visión.**
+
+      Se corta ralentizando conscientemente la respiración, prolongando la
+      exhalación, hablando en voz alta o cantando.
+
+  - id: evitar-primeras-veces
+    tipo: basica
+    anverso: ¿Cómo se mantiene el **estrés** dentro del rango operativo?
+    reverso: |
+      **Evitando sumar varias «primeras veces» en el mismo despegue.**
+
+      Velero nuevo + aeródromo desconocido + viento racheado cruzado es una
+      convergencia explosiva: la mente salta de la alarma al pánico. Añade las
+      variables de una en una.
+    etiquetas: [Airmanship]
+
+  - id: deshidratacion-retraso-sed
+    tipo: basica
+    anverso: ¿Por qué no vale esperar a tener **sed** para beber?
+    reverso: |
+      **Porque cuando aparece la sed la deshidratación ya ha mermado el
+      rendimiento cognitivo,** y el agua tarda unos 20 minutos en hidratar de
+      verdad.
+
+      La cabina cerrada es un invernadero. Bebe con regularidad desde el
+      despegue.
+    etiquetas: [Regla de oro]
+
+  - id: fatiga-solo-se-cura-durmiendo
+    tipo: basica
+    anverso: ¿Cómo se cura la **fatiga**?
+    reverso: |
+      **Durmiendo. Sólo así.**
+
+      El café y las bebidas energéticas enmascaran los síntomas pero no
+      restauran las capacidades. Si afecta a la atención o el razonamiento, es
+      **NO-GO**.
+    etiquetas: [Seguridad]
+
+  - id: alcohol-botella-al-mando
+    tipo: basica
+    anverso: ¿Qué exige la regla «de la botella al mando» (**AMC1 SAO.GEN.130(f) y SAO.GEN.135(b)**)?
+    reverso: |
+      * **8 horas** sin alcohol antes del vuelo.
+      * Alcoholemia al inicio inferior a **0,2 g/l**, o al límite nacional si es
+        más estricto.
+      * **Nada de alcohol durante el vuelo.**
+
+      No lo confundas con el AMC1 SAO.GEN.130(f) a secas, que trata del buceo y
+      la donación de sangre.
+    etiquetas: [Normativa]
+
+  - id: automedicacion
+    tipo: basica
+    anverso: ¿Se puede volar automedicado?
+    reverso: |
+      **No.** Hasta las pastillas de la alergia o del mareo adormecen de forma
+      incapacitante.
+
+  - id: aut-tue-competicion
+    tipo: basica
+    anverso: ¿Qué hace falta para competir bajo tratamiento médico?
+    reverso: |
+      **Una Autorización de Uso Terapéutico (AUT / TUE), tramitada
+      previamente.**
+
+      Hay controles antidopaje al aterrizar; el documento exime de sanción.
+    etiquetas: [Airmanship]
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (9 viñetas)
+#  [1]
+#     **Aptitud IMSAFE:** Revise el estado con la lista **Illness**, **Medication**, **Stress**,
+#     **Alcohol**, **Fatigue**, **Eating** antes del despegue. Ante dudas, cancele el vuelo
+#     (**NO-GO**). Si concurren problemas médicos importantes, consulte a un médico examinador
+#     aéreo (AME).
+#  [2]
+#     **Disbarismos:** Los gases corporales se expanden al ascender. No vuele nunca con resfriados
+#     o congestión nasal; el dolor en los tímpanos y senos paranasales por el cambio de presión le
+#     incapacitará para pilotar.
+#  [3]
+#     **Ilusiones sensoriales:** El oído interno engañará cuando se pierdan las referencias
+#     visuales exteriores. Si existe desorientación sin un horizonte claro, ignore las sensaciones
+#     y confíe ciegamente en los instrumentos.
+#  [4]
+#     **Monóxido de carbono (CO):** Gas letal, inodoro, incoloro e insípido que solo puede
+#     detectarse con un detector específico. Es un peligro real en motoveleros (TMG) por los gases
+#     del motor y el sistema de calefacción de cabina. Ante el menor síntoma o aviso del detector,
+#     corte la calefacción, abra la ventilación y aterrice inmediatamente.
+#  [5]
+#     **Hipotermia:** La inactividad en la cabina y el frío en altitud robarán el calor
+#     rápidamente, minando los reflejos y lucidez. Vuele siempre con ropa de abrigo puesta por
+#     capas y evita el calzado apretado para no limitar la circulación.
+#  [6]
+#     **Estrés e hiperventilación:** El pánico puede hacer jadear al implicado sin control,
+#     alterando el nivel de dióxido de carbono en la sangre, provocando entumecimiento y ceguera.
+#     Para frenarlo, ralentice conscientemente la respiración prolongando la exhalación, hable en
+#     voz alta o cante para regularse.
+#  [7]
+#     **Deshidratación:** La cabina cerrada es un invernadero y se pierden líquidos rápidamente.
+#     Cuando siente sed, ya tiene un déficit que merma las capacidades cognitivas. Beba agua
+#     regularmente desde el despegue para anticiparse a los dolores de cabeza o a un mortal golpe
+#     de calor.
+#  [8]
+#     **Fatiga:** El cansancio bloquea el tiempo de reacción y nubla la toma de decisiones. El
+#     café o una bebida no previenen sus efectos ocultos sobre la atención. La fatiga solo se cura
+#     de una manera: durmiendo para dar pie al necesario descanso reparador.
+#  [9]
+#     **Normativa EASA, medicación y alcohol:** La regla no tiene excepciones: **«de la botella al
+#     mando»**, 8 horas sin alcohol antes del vuelo, nada de alcohol durante el vuelo y
+#     alcoholemia inferior a 0,2 g/l —o al límite nacional, si es más estricto— (AMC1
+#     SAO.GEN.130(f) y SAO.GEN.135(b)). No se automedique; hasta las inocentes pastillas de la
+#     alergia o del mareo adormecen de forma incapacitante para volar.
+#
+# RECUADROS (16)
+#  [Normativa 1]
+#     Es obligatorio consultar con un Médico Examinador Aéreo (AME) o médico general si se ha
+#     sufrido una lesión importante, cirugía, inicio de medicación regular, embarazo, o uso por
+#     primera vez de lentes correctoras. Estas situaciones requieren una nueva evaluación de la
+#     aptitud médica; el piloto debe abstenerse de volar al mando hasta que se resuelva la causa y
+#     recupere la condición apta (**MED.A.020 Decrease in medical fitness**).
+#  [Regla de oro 2]
+#     Antes de cada vuelo, repase mentalmente la lista **IMSAFE**. Si alguno de sus elementos
+#     resulta desfavorable, la única decisión de seguridad es cancelar el vuelo (**NO-GO**).
+#  [Normativa 3]
+#     Una percepción correcta de los colores es obligatoria. Durante el reconocimiento médico
+#     inicial deberá superar pruebas como el test de Ishihara. Si no demuestra discriminación de
+#     color segura, la licencia de piloto de planeador —regida por la normativa Part-SFCL— quedará
+#     restringida al vuelo diurno (**Day** VFR).
+#  [Airmanship 4]
+#     Antes de iniciar un viraje (por ejemplo, a la derecha), acostúmbrese a mirar brevemente
+#     hacia atrás por el lado exterior opuesto. Esto asegura que no haya tráfico acercándose por
+#     el ángulo muerto antes de inclinar las alas e iniciar el giro.
+#  [Seguridad 5]
+#     El riesgo más grave de colisión en vuelo libre se produce en trayectorias frontales,
+#     habituales en vuelos de ladera o calles de nubes. Al aproximarse de frente, el otro
+#     planeador carece de movimiento lateral apreciable en el campo visual y simplemente aumenta
+#     de tamaño de forma repentina. Un piloto necesita al menos 3 segundos para reaccionar y
+#     ejecutar una maniobra evasiva, que deberá realizarse preferentemente **virando hacia la
+#     derecha**.
+#  [Airmanship 6]
+#     La congestión de vías altas (catarros, rinitis alérgicas fuertes) es una causa automática de
+#     auto-exclusión para volar (**No-Go**). El atroz dolor del barotrauma provocado en un
+#     descenso anulará por completo la capacidad para gobernar con seguridad el planeador.
+#  [Seguridad 7]
+#     Cuando se pierde la referencia del horizonte y lo que el piloto «siente» contradice lo que
+#     señalan los instrumentos, debe ignorar el instinto. **Confíe en los instrumentos**
+#     (anemómetro, hilo de lana, bola y horizonte artificial) y actúe en consecuencia.
+#  [Airmanship 8]
+#     El mareo puede afectar incluso a pilotos curtidos, especialmente tras períodos de
+#     inactividad o en condiciones de turbulencia severa. No es motivo de vergüenza: asúmalo con
+#     naturalidad y lleve siempre a bordo, al alcance de la mano, bolsas de mareo.
+#  [Seguridad 9]
+#     No ingiera fármacos antihistamínicos contra el mareo (como la **Biodramina**) antes de
+#     pilotar. Su formulación está contraindicada en aviación: producen somnolencia profunda que
+#     compromete gravemente los tiempos de reacción y el estado de alerta necesarios para la
+#     seguridad del vuelo.
+#  [Seguridad 10]
+#     En motoveleros, lleve instalado un detector de monóxido de carbono en el panel y verifique
+#     su fecha de caducidad. Ante cualquier síntoma (dolor de cabeza, labios de color rojo
+#     intenso) o si el parche cambia de color, actúe de inmediato: **corte la calefacción**, abra
+#     la ventilación al máximo, utilice oxígeno suplementario si dispone de él y aterrice sin
+#     dilación.
+#  [Airmanship 11]
+#     Para volar en onda invernal, abríguese siempre **por capas**. Evite tajantemente el calzado
+#     o calcetines que aprieten excesivamente; el pie inmovilizado sobre los pedales necesita un
+#     flujo sanguíneo sin restricciones para no congelarse. Elija botas lo suficientemente
+#     holgadas, suelas térmicas y guantes que permitan plena libertad de movimiento sobre la
+#     palanca de mandos.
+#  [Airmanship 12]
+#     Para mantener el estrés dentro del rango operativo de seguridad, es vital **evitar la suma
+#     de numerosas "primeras veces"** en un mismo despegue. Volar un modelo de velero totalmente
+#     nuevo para ti, despegando en remolque desde un aeródromo que no conoces y encarando un día
+#     de un vendaval racheado cruzado es una convergencia explosiva de factores inéditos. La mente
+#     sobrepasará la fase de alarma directamente al pánico. Intente siempre que la progresión
+#     añada estas variables de una en una.
+#  [Seguridad 13]
+#     **La fatiga solo se cura durmiendo.** El café y las bebidas energéticas enmascaran
+#     temporalmente los síntomas, pero no restauran las capacidades cognitivas. Si la fatiga
+#     afecta a la atención o el razonamiento, la decisión es **NO-GO** (cancelación del vuelo).
+#  [Regla de oro 14]
+#     El mecanismo biológico de la **sed** tiene un imperdonable retraso biológico. Cuando siente
+#     la boca seca, la deshidratación ya ha mermado el rendimiento cognitivo. Además, el agua que
+#     se beba en la cabina tardará unos 20 minutos en hidratar el flujo sanguíneo de forma
+#     efectiva. **Adelántese bebiendo de forma regular durante todo el vuelo; nunca espere a tener
+#     sed**.
+#  [Normativa 15]
+#     El **AMC1 SAO.GEN.130(f) y SAO.GEN.135(b)** (ED Decision 2019/001/R), titulado *Alcohol
+#     consumption*, concreta la regla «de la botella al mando» (**bottle to throttle**) para las
+#     tripulaciones de planeador: nada de alcohol en las **8 horas previas** al vuelo, una
+#     alcoholemia al inicio del vuelo que no supere **0,2 g/l** —o el límite nacional, si es más
+#     estricto— y **nada de alcohol durante el vuelo**. No lo confundas con el AMC1 SAO.GEN.130(f)
+#     a secas, que trata del buceo y la donación de sangre.
+#  [Airmanship 16]
+#     Para volar en campeonatos bajo un tratamiento médico sin arriesgarte a una descalificación
+#     (hay controles al aterrizar), debes justificar la medicación tramitando previamente una
+#     **Autorización de Uso Terapéutico (AUT / TUE)**. Este documento oficial eximirá al
+#     competidor de sanciones en controles antidopaje deportivos.

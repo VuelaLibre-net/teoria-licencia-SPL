@@ -1,0 +1,128 @@
+# Mazo Anki de 05-principios-vuelo, capítulo 6.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 05-principios-vuelo
+capitulo: 6
+titulo: "Pérdida de sustentación (*stalling*) y autorrotación (*spinning*)"
+tarjetas:
+  - id: angulo-de-ataque-critico
+    tipo: basica
+    anverso: ¿A qué **ángulo de ataque** entra en pérdida un ala?
+    reverso: "**Al superar el crítico, en torno a 15-18º.**"
+
+  - id: progresion-de-la-perdida
+    tipo: basica
+    anverso: ¿Por dónde empieza la pérdida y qué consecuencia tiene?
+    reverso: |
+      **Empieza en el encastre y progresa hacia las puntas**, por eso los
+      alerones conservan algo de autoridad al principio.
+
+  - id: avisos-de-perdida
+    tipo: basica
+    anverso: ¿Qué avisa de una **pérdida** inminente?
+    reverso: |
+      **Morro alto, mandos blandos y bataneo.** Al ceder el ala, cae el morro.
+
+  - id: perdida-acelerada
+    tipo: basica
+    anverso: ¿Qué es una **pérdida acelerada** y dónde es más letal?
+    reverso: |
+      **La que ocurre con factor de carga alto**: en un viraje de 60º (2 g), la
+      velocidad de pérdida sube un 41 % y el ala puede rendirse con el morro en
+      actitud aparentemente normal.
+
+      El escenario más letal es el viraje **base-final** del circuito.
+
+  - id: recuperacion-de-la-perdida
+    tipo: basica
+    anverso: ¿Cuál es la única cura de una pérdida?
+    reverso: "**Palanca adelante: bajar el morro.**"
+
+  - id: no-usar-alerones-en-perdida
+    tipo: basica
+    anverso: ¿Por qué **no** se levanta con alerones un ala caída en pérdida?
+    reverso: |
+      **Porque el alerón que baja aumenta el ángulo de ataque local de esa ala,
+      profundiza su pérdida e inicia la autorrotación.**
+
+      Palanca rigurosamente centrada en el eje lateral; para sostener las alas y
+      evitar la guiñada, **sólo pedal contrario**.
+    etiquetas: [Airmanship]
+
+  - id: fases-de-la-barrena
+    tipo: cloze
+    texto: |
+      Fases de la barrena: {{c1::incipiente}} (recuperable antes de un giro),
+      {{c2::desarrollada}} (movimiento constante) y {{c3::recuperación}} (cesa
+      la rotación).
+    extra: Cada vuelta cuesta 50-100 m de altura.
+
+  - id: salida-de-barrena
+    tipo: basica
+    anverso: Secuencia estándar de **salida de barrena**.
+    reverso: |
+      1. **Pie contrario** a la rotación, a fondo.
+      2. **Palanca al centro y adelante.**
+      3. Cuando pare el giro, **neutraliza el pedal** y recupera suavemente del
+         picado.
+
+      Consulta siempre el AFM de tu planeador.
+
+  - id: base-final-escenario-letal
+    tipo: basica
+    anverso: Describe el accidente más frecuente en el circuito de tráfico.
+    reverso: |
+      **Viraje de base a final, a menos de 150 m**: el piloto mete pedal para
+      cuadrar la final, el morro se desvía, compensa tirando de palanca y entra
+      en pérdida asimétrica sin margen.
+
+      Volar el circuito coordinado y con margen de velocidad es lo que separa un
+      aterrizaje normal de un accidente.
+    etiquetas: [Seguridad]
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (5 viñetas)
+#  [1]
+#     **Pérdida (stall)**: el ala se "rinde" al superar el ángulo de ataque crítico (≈ 15-18°). La
+#     pérdida comienza en el encastre y progresa hacia las puntas: por eso los alerones conservan
+#     algo de autoridad al inicio. Avisos: morro alto, mandos blandos y bataneo; al ceder el ala,
+#     cae el morro.
+#  [2]
+#     **Pérdida acelerada**: en un viraje cerrado (60° → 2g), la velocidad de pérdida sube un 41%.
+#     El ala puede entrar en pérdida con el morro en actitud aparentemente normal. El viraje
+#     **base-final** en el circuito es el escenario más letal.
+#  [3]
+#     **Recuperación de la pérdida**: palanca adelante (bajar el morro) es la única cura. No uses
+#     los alerones para levantar un ala caída: profundizan la pérdida e inician la barrena.
+#  [4]
+#     **Barrena (autorrotación)**: pérdida agravada y asimétrica con tres fases: **incipiente**
+#     (recuperable antes de un giro), **desarrollada** (movimiento constante) y **recuperación**
+#     (cesa la rotación). Cada vuelta cuesta 50-100 m de altura.
+#  [5]
+#     **Salida de barrena**: consulta siempre el AFM de tu planeador. La secuencia estándar: 1.
+#     pie contrario a la rotación (a fondo); 2. palanca al centro y adelante; 3. cuando pare el
+#     giro, **neutraliza el pedal** y entonces recupera suavemente del picado.
+#
+# RECUADROS (2)
+#  [Airmanship 1]
+#     Durante la recuperación de una pérdida, la palanca debe mantenerse siempre rigurosamente
+#     centrada en el eje lateral (cero alerones). Intentar levantar instintivamente un ala caída
+#     usando los alerones empeorará el escenario: el alerón que baja aumentará el ángulo de ataque
+#     local de esa ala caída, profundizando aún más su pérdida e iniciando violentamente la temida
+#     autorrotación o barrena. Usa siempre y exclusivamente el pedal contrario (timón de
+#     dirección) para evitar la guiñada y sostener las alas.
+#  [Seguridad 2]
+#     El escenario estadísticamente más letal: el viraje del tramo **base a final** en el circuito
+#     de tráfico, a menos de 150 metros de altura. El piloto mete pedal para cuadrar la final, el
+#     morro se desvía hacia un lado, compensa tirando de palanca… y el planeador entra en pérdida
+#     asimétrica sin margen de recuperación. Volar el circuito coordinado y con margen de
+#     velocidad no es una exigencia técnica: es lo que separa un aterrizaje normal de un
+#     accidente.

@@ -1,0 +1,71 @@
+# Mazo Anki de 01-derecho-aereo-atc, capítulo 3.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 01-derecho-aereo-atc
+capitulo: 3
+titulo: "Marcas de nacionalidad y matrícula de aeronaves"
+tarjetas:
+  - id: matricula-espanola
+    tipo: basica
+    anverso: ¿Cómo es una matrícula española y de dónde viene la marca?
+    reverso: |
+      **EC- seguida de tres letras** (por ejemplo, EC-ABC).
+
+      Mnemotécnico: **E**spaña **C**ivil. Es la marca OACI de España.
+    etiquetas: [Regla de oro]
+
+  - id: articulo-20-chicago
+    tipo: basica
+    anverso: ¿Qué exige el **artículo 20** del Convenio de Chicago?
+    reverso: |
+      **Que toda aeronave de navegación aérea internacional lleve sus marcas de
+      nacionalidad y matrícula.**
+    etiquetas: [Normativa]
+
+  - id: donde-van-las-marcas
+    tipo: basica
+    anverso: ¿Dónde se pintan las marcas de matrícula?
+    reverso: |
+      **En el fuselaje o la cola —y bajo las alas en algunos casos—, más la
+      bandera de España.**
+
+  - id: placa-de-identificacion
+    tipo: basica
+    anverso: ¿Cómo es y dónde va la **placa de identificación**?
+    reverso: |
+      **De material ignífugo, con la matrícula grabada, fijada a la estructura
+      cerca de la entrada.**
+
+      Nunca la pintes ni la cubras: es vital en la investigación de accidentes.
+    etiquetas: [Seguridad]
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (3 viñetas)
+#  [1]
+#     **Nacionalidad y matrícula**: en España, **EC-** seguida de tres letras (ej: EC-ABC).
+#  [2]
+#     **Marcas pintadas**: en el fuselaje o la cola (y bajo las alas en algunos casos), más la
+#     bandera de España.
+#  [3]
+#     **Placa de identificación**: de material ignífugo, con la matrícula grabada, fijada a la
+#     estructura cerca de la entrada.
+#
+# RECUADROS (3)
+#  [Normativa 1]
+#     El artículo 20 del Convenio de Chicago establece que toda aeronave empleada en la navegación
+#     aérea internacional debe llevar las correspondientes marcas de nacionalidad y matrícula. En
+#     España, las matrículas comienzan por **EC-**.
+#  [Seguridad 2]
+#     Nunca pintes encima de la placa de identificación ni la cubras. Su función es vital en caso
+#     de investigación de accidentes. Si restauras el planeador, asegúrate de que la placa sigue
+#     ahí y es legible.
+#  [Regla de oro 3]
+#     **EC** = Nemotecnia ***E**spaña **C**ivil*. La marca oficial OACI para España es "EC".

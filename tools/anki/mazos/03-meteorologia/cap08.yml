@@ -1,0 +1,131 @@
+# Mazo Anki de 03-meteorologia, capítulo 8.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 03-meteorologia
+capitulo: 8
+titulo: "Climatología"
+tarjetas:
+  - id: recursos-por-temporada-en-espana
+    tipo: basica
+    anverso: ¿Qué recurso se busca en cada temporada en España?
+    reverso: |
+      **Invierno y primavera con viento: onda en el Sistema Central o los
+      Pirineos. Verano: térmicas en La Mancha y el interior.**
+    etiquetas: [Regla de oro]
+
+  - id: baja-termica-peninsular
+    tipo: basica
+    anverso: ¿Qué es la **Baja Térmica Peninsular** y qué produce?
+    reverso: |
+      **Una baja presión permanente de verano por el calentamiento del centro de
+      España.**
+
+      Succiona aire del mar, refuerza las brisas costeras tierra adentro y
+      genera líneas de convergencia ideales para el *cross-country*.
+
+  - id: convergencias-como-autopistas
+    tipo: basica
+    anverso: ¿Cómo se aprovechan las líneas de convergencia de la Baja Térmica?
+    reverso: |
+      **Identificándolas en RASP o Skysight y trazando la ruta a lo largo de
+      ellas.**
+
+      Con brisa bien establecida, una sola línea puede regalar decenas de
+      kilómetros sin perder altitud.
+    etiquetas: [Regla de oro]
+
+  - id: estacionalidad-espanola
+    tipo: basica
+    anverso: ¿Qué ofrece cada estación en España?
+    reverso: |
+      **Primavera**: inestabilidad y buen vuelo local.
+      **Verano**: techos altos y tormentas secas de calor.
+      **Otoño**: lluvias y DANA.
+
+  - id: separacion-de-laderas-de-sotavento
+    tipo: basica
+    anverso: ¿Qué separación mínima se mantiene sobre una ladera de **sotavento**?
+    reverso: |
+      **300 ft de separación vertical del terreno**, como mínimo.
+
+      Catabáticos y rotores aparecen a baja altitud sin aviso visual.
+    etiquetas: [Seguridad]
+
+  - id: patrones-locales-de-rotor
+    tipo: basica
+    anverso: ¿Por qué hay que comparar el viento con el mapa orográfico del aeródromo?
+    reverso: |
+      **Porque los vientos del norte generan rotores en sectores distintos a los
+      del sur o del oeste.**
+
+      Aprende los patrones locales y pregunta a pilotos con experiencia en la
+      zona.
+    etiquetas: [Airmanship]
+
+  - id: tormentas-de-evolucion
+    tipo: basica
+    anverso: ¿Cuándo hay que aterrizar ante **tormentas de evolución** de verano?
+    reverso: |
+      **En cuanto veas cúmulos creciendo verticalmente a ritmo acelerado.**
+
+      No esperes a ver el yunque para decidir.
+    etiquetas: [Seguridad]
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (4 viñetas)
+#  [1]
+#     **España, país de contrastes**: Tenemos condiciones mundiales para el vuelo. Viento y **Onda
+#     de Montaña** en invierno/primavera (Pirineos, Sistema Central) y potentes **Térmicas** en
+#     verano (La Mancha, zonas interiores).
+#  [2]
+#     **Vientos Locales**: Cada valle tiene su dueño. Los vientos anabáticos y catabáticos definen
+#     la mañana y la tarde en zonas montañosas. Los rotores de sotavento son la trampa invisible
+#     del piloto imprudente.
+#  [3]
+#     **Estacionalidad**: La primavera ofrece inestabilidad y buen vuelo local. El verano trae
+#     techos altos y tormentas secas de calor. El otoño suele traer lluvias y DANA.
+#  [4]
+#     **Baja Térmica Peninsular**: En verano, el sol calienta tanto el centro de España que se
+#     forma una baja presión permanente. Esto succiona aire del mar, reforzando las brisas
+#     costeras que penetran muy adentro y generan líneas de convergencia ideales para el
+#     cross-country.
+#
+# RECUADROS (6)
+#  [Regla de oro 1]
+#     En España tienes temporada para casi todo el año: cuando el viento sopla fuerte en invierno,
+#     busca onda en el Sistema Central o los Pirineos; cuando el verano hornea las mesetas, busca
+#     térmicas en La Mancha. Conocer cuándo y dónde vale cada recurso define al piloto
+#     experimentado.
+#  [Seguridad 2]
+#     Los vientos catabáticos y los rotores de sotavento pueden aparecer a baja altitud sin previo
+#     aviso visual. Nunca sobrevueles una ladera de sotavento a menos de 300 ft de separación
+#     vertical del terreno, y conoce los puntos conflictivos de tu aeródromo local antes de volar
+#     en condiciones de viento fuerte.
+#  [Airmanship 3]
+#     Antes de cada vuelo en zona montañosa, consulta la dirección del viento y compárala con el
+#     mapa orográfico de tu aeródromo. Los vientos del norte generan rotores en sectores distintos
+#     a los del sur o del oeste. Aprende los patrones locales y consulta a pilotos con experiencia
+#     en la zona.
+#  [Airmanship 4]
+#     Los días post-frontales son el estándar de oro del vuelo ibérico: cielo azul, térmicas puras
+#     y visibilidad excepcional. Aprende a identificarlos en la previsión: busca el paso de un
+#     frente frío activo seguido de aire polar y presión en subida. El día siguiente suele ser
+#     extraordinario.
+#  [Seguridad 5]
+#     En verano, las tormentas de evolución (**air mass storms**) se desarrollan rápidamente
+#     durante las horas centrales del día a partir de cúmulos congestus. Si ves cúmulos que crecen
+#     verticalmente a ritmo acelerado, aterriza cuanto antes. No esperes a ver el yunque para
+#     decidir.
+#  [Regla de oro 6]
+#     Las líneas de convergencia generadas por la Baja Térmica Peninsular son autopistas de
+#     sustentación en verano. Identifícalas en las previsiones de modelos RASP o Skysight y
+#     planifica tu ruta de cross-country siguiéndolas: con brisa bien establecida, una sola línea
+#     de convergencia puede regalarte decenas de kilómetros sin perder altitud.

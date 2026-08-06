@@ -13,7 +13,7 @@
 
 Este repositorio contiene la versión digitalizada de 9 libros que cubren el temario teórico para la obtención de la **Licencia de Piloto de Planeador (SPL)** bajo la regulación **EASA-FCL (European Union Aviation Safety Agency - Flight Crew Licensing)**, adaptada a los requerimientos de la **Agencia Estatal de Seguridad Aérea (AESA)** española.
 
-El contenido está en **Quarto Markdown (.qmd)** para la generación de entregables de alta calidad en formatos cómodos de editar por los colaboradores: **PDF** (mediante Typst), **EPUB**, **Markdown para RAG** y un paquete **HTML** que se publica integrado en [VuelaLibre.net](https://vuelalibre.net).
+El contenido está en **Quarto Markdown (.qmd)** para la generación de entregables de alta calidad en formatos cómodos de editar por los colaboradores: **PDF** (mediante Typst), **EPUB**, **Markdown para RAG**, un paquete **HTML** que se publica integrado en [VuelaLibre.net](https://vuelalibre.net) y un **mazo Anki** por asignatura.
 
 ---
 
@@ -135,7 +135,7 @@ Para poder compilar la colección completa, necesitarás contar con:
 El proyecto incluye un _Makefile_ para automatizar la compilación de los libros:
 
 ### Compilar la colección completa
-Genera los entregables en formatos PDF, EPUB, Markdown para RAG y paquetes HTML para todos los libros:
+Genera los entregables en formatos PDF, EPUB, Markdown para RAG, paquetes HTML y mazos Anki para todos los libros:
 ```bash
 make
 ```
@@ -145,6 +145,7 @@ Los archivos finales se guardarán en:
 - `build/rag/` - Markdown para cargar el libro en un asistente de estudio (NotebookLM y
   similares), un fichero por asignatura. Ver [Markdown para RAG](#markdown-para-rag).
 - `build/web/` - Paquetes `.web.tar.gz` para el lector HTML de VuelaLibre.net. Cada uno contiene el HTML semántico resuelto por Quarto, sus imágenes y un manifiesto de páginas.
+- `build/anki/` - Mazos `.apkg` de repaso espaciado, un fichero por asignatura. Ver [Mazos Anki](#mazos-anki).
 
 El CI comprueba XML, recursos WebP, dimensiones y manifiesto de cada EPUB con EPUBCheck 5.3 antes de publicar.
 
@@ -156,6 +157,7 @@ build/pdf/09-navegacion-0.8.1-260716.pdf
 build/epub/09-navegacion-0.8.1-260716.epub
 build/rag/09-navegacion-0.8.1-260716.md
 build/web/09-navegacion-0.8.1-260716.web.tar.gz
+build/anki/09-navegacion-0.8.1-260716.apkg
 ```
 
 La fecha es la del último commit que tocó el libro —la misma que figura en su colofón—, no la de
@@ -209,6 +211,35 @@ https://vuelalibre.net/libros/navegacion/leer/
 https://vuelalibre.net/libros/navegacion/leer/navegacion-por-estima/
 ```
 
+### Mazos Anki
+
+Cada asignatura se publica también como un **mazo de repaso espaciado** para
+[Anki](https://apps.ankiweb.net/), con **598 tarjetas** en total. El árbol es
+`SPL::NN Asignatura::NN Capítulo`: puedes estudiar una asignatura entera, un solo capítulo, o los
+nueve libros de una vez.
+
+```bash
+make anki         # sólo los 9 mazos .apkg, sin recompilar nada más (segundos)
+```
+
+Se importan con doble clic sobre el `.apkg`. **Reimportar una versión nueva actualiza tus tarjetas
+sin borrar tu historial de repaso**: los identificadores son estables entre compilaciones, así que
+Anki reconoce cada tarjeta y sólo cambia lo que ha cambiado.
+
+Las tarjetas **no se generan automáticamente del texto**: están escritas a mano, una a una, en
+`tools/anki/mazos/`. Una tarjeta útil prueba un solo hecho y su anverso es una pregunta con una
+respuesta; trocear así el resumen de un capítulo exige criterio, y una tarjeta mal planteada
+memorizada es peor que no tenerla.
+
+Salen del **resumen (post-it) de cada capítulo** y de los **recuadros del temario** —Seguridad,
+Normativa, Regla de oro y Airmanship—, que viajan como etiqueta (`spl::recuadro::seguridad`) para
+poder filtrar por tipo. Cada tarjeta lleva además su asignatura y capítulo, y cita al pie el libro,
+el capítulo y la versión de la que sale, para poder contrastarla con el manual.
+
+Hay dos tipos de tarjeta: pregunta-respuesta y hueco (*cloze*), con hoja de estilo propia y modo
+oscuro. Mientras un libro no sea definitivo, su mazo incluye una tarjeta de aviso con el estado
+editorial.
+
 ### Limpiar la compilación
 Elimina los entregables generados (`build/`, `_book/`) y las cachés de Quarto. **No toca los `.qmd`,
 los `_quarto.yml` ni las `imagenes/`**, que son la fuente canónica:
@@ -247,8 +278,9 @@ artefactos han caducado (la retención del repositorio son **2 días**, así que
 implica recompilar). Y si el CI ya evaluó ese commit **y no salió verde**, la release **aborta**: un
 tag no publica un árbol que el CI ha rechazado.
 
-Con los 39 entregables —10 PDF, 10 EPUB, 10 Markdown para RAG y 9 paquetes web: los nueve libros más
-el manual completo, que no tiene web— crea una **release en borrador**, todavía no visible al público.
+Con los 48 entregables —10 PDF, 10 EPUB, 10 Markdown para RAG, 9 paquetes web y 9 mazos Anki: los
+nueve libros más el manual completo, que no tiene ni web ni mazo— crea una **release en borrador**,
+todavía no visible al público.
 
 Para terminar, **a mano**:
 

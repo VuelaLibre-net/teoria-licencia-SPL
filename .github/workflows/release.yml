@@ -43,10 +43,10 @@ jobs:
           set -euo pipefail
 
           sha="$GITHUB_SHA"
-          # Los cuatro que sube el CI. Se exige que estén los cuatro y sin
+          # Los cinco que sube el CI. Se exige que estén los cinco y sin
           # caducar: la retención de este repositorio son 2 días, así que un tag
           # empujado más tarde no los encontrará y habrá que compilar.
-          esperados="manuales-spl-epub manuales-spl-pdf manuales-spl-rag manuales-spl-web"
+          esperados="manuales-spl-epub manuales-spl-pdf manuales-spl-rag manuales-spl-web manuales-spl-anki"
 
           # Margen para que el run de la rama aparezca: empujar el tag justo
           # detrás de la fusión puede adelantar a su registro.
@@ -162,19 +162,21 @@ jobs:
         #
         # Se cuenta POR TIPO y no por total: un total sigue cuadrando aunque
         # falten tres EPUB y sobren tres PDF. Diez son los nueve libros más el
-        # manual completo (`make completo`), que no tiene paquete web.
+        # manual completo (`make completo`), que no tiene paquete web ni mazo Anki.
         run: |
           pdfs=$(ls entregables/*.pdf 2>/dev/null | wc -l)
           epubs=$(ls entregables/*.epub 2>/dev/null | wc -l)
           mds=$(ls entregables/*.md 2>/dev/null | wc -l)
           webs=$(ls entregables/*.web.tar.gz 2>/dev/null | wc -l)
+          ankis=$(ls entregables/*.apkg 2>/dev/null | wc -l)
           errores=0
           [ "$pdfs" -eq 10 ] || { echo "::error::Se esperaban 10 PDF (9 libros + completo) y hay $pdfs"; errores=1; }
           [ "$epubs" -eq 10 ] || { echo "::error::Se esperaban 10 EPUB (9 libros + completo) y hay $epubs"; errores=1; }
           [ "$mds" -eq 10 ] || { echo "::error::Se esperaban 10 Markdown para RAG (9 libros + completo) y hay $mds"; errores=1; }
           [ "$webs" -eq 9 ] || { echo "::error::Se esperaban 9 paquetes web y hay $webs"; errores=1; }
+          [ "$ankis" -eq 9 ] || { echo "::error::Se esperaban 9 mazos Anki y hay $ankis"; errores=1; }
           [ "$errores" -eq 0 ] || exit 1
-          echo "39 entregables recogidos: 10 PDF, 10 EPUB, 10 Markdown para RAG y 9 paquetes web."
+          echo "48 entregables recogidos: 10 PDF, 10 EPUB, 10 Markdown para RAG, 9 paquetes web y 9 mazos Anki."
 
       - name: Redactar las notas
         run: bash .github/notas-release.sh "${GITHUB_REF_NAME}" > notas.md
@@ -187,5 +189,6 @@ jobs:
             --draft \
             --title "${GITHUB_REF_NAME}" \
             --notes-file notas.md \
-            entregables/*.pdf entregables/*.epub entregables/*.md entregables/*.web.tar.gz
+            entregables/*.pdf entregables/*.epub entregables/*.md entregables/*.web.tar.gz \
+            entregables/*.apkg
           echo "Release ${GITHUB_REF_NAME} creada en BORRADOR. Revisa las notas y publícala a mano."

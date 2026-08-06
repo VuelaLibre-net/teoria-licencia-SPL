@@ -1,0 +1,216 @@
+# Mazo Anki de 09-navegacion, capítulo 4.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 09-navegacion
+capitulo: 4
+titulo: "Navegación por estima (*dead reckoning*)"
+tarjetas:
+  - id: triangulo-de-velocidades
+    tipo: basica
+    anverso: ¿Qué tres vectores forman el **triángulo de velocidades**?
+    reverso: |
+      **TAS** (velocidad verdadera respecto al aire), **viento** y **GS**
+      (velocidad respecto al suelo).
+
+      Conocidos dos, se calcula el tercero.
+
+  - id: ias-tas-gs
+    tipo: basica
+    anverso: Diferencia entre **IAS**, **TAS** y **GS**.
+    reverso: |
+      **IAS**: la que marca el anemómetro.
+      **TAS**: la IAS corregida por densidad.
+      **GS**: la TAS combinada con el viento.
+
+      En navegación se razona siempre con TAS y GS, nunca con la IAS a secas.
+    etiquetas: [Airmanship]
+
+  - id: correccion-tas-por-altitud
+    tipo: basica
+    anverso: ¿Cuánto crece la **TAS** respecto a la IAS con la altitud?
+    reverso: |
+      **Alrededor de un 2 % por cada 300 m** (unos 6,5-7 % por cada 1.000 m).
+
+  - id: trayectoria-no-es-rumbo
+    tipo: basica
+    anverso: Diferencia entre **trayectoria (TC)** y **rumbo (TH)**.
+    reverso: |
+      **La trayectoria es la línea sobre el terreno; el rumbo es hacia dónde
+      apunta el morro.**
+
+      Con viento cruzado no coinciden.
+
+  - id: deriva-y-wca
+    tipo: basica
+    anverso: ¿Qué es la **deriva** y con qué se corrige?
+    reverso: |
+      **El ángulo que el viento te desvía del rumbo.**
+
+      Se corrige «metiendo morro al viento»: el ángulo de corrección de deriva
+      (**WCA**). Viento de la derecha, corrección a la derecha.
+    etiquetas: [Regla de oro]
+
+  - id: cadena-de-rumbos
+    tipo: cloze
+    texto: |
+      La cadena de rumbos es TC ± WCA = {{c1::TH}}; TH ± VAR = {{c2::MH}};
+      MH ± DEV = {{c3::CH}}.
+    extra: |
+      Trayectoria verdadera → rumbo verdadero → rumbo magnético → rumbo de
+      brújula.
+
+  - id: convencion-de-signos-w-e
+    tipo: basica
+    anverso: ¿Cuál es la convención de signos de la variación y el desvío?
+    reverso: |
+      **(W −) / (E +)**: sobre el rumbo verdadero, una variación o desvío al
+      **oeste suma** grados y al **este resta**.
+
+      El valor oeste entra con signo negativo dentro del paréntesis y, al
+      restarlo, acaba sumando. Equivale a `MH = TC + VAR_W` o `MH = TC − VAR_E`.
+      De vuelta (de magnético a verdadero) los signos se invierten.
+    etiquetas: [Regla de oro]
+
+  - id: formula-deriva
+    tipo: basica
+    anverso: Fórmula del **ángulo de deriva** a partir del viento cruzado.
+    reverso: |
+      **DA = (V_cruzado × 60) / TAS**
+
+      Con TAS baja, un viento moderado produce mucha deriva.
+
+  - id: ejemplo-deriva-60kt
+    tipo: basica
+    anverso: A **TAS 60 kt** con **20 kt de viento cruzado**, ¿cuánta deriva hay?
+    reverso: |
+      **20º**, porque (20 × 60) / 60 = 20.
+
+      Ese mismo viento de cara dejaría la GS en 40 kt; de cola, en 80. Con TAS
+      baja, el viento manda.
+    etiquetas: [Regla de oro]
+
+  - id: coste-de-ignorar-variacion-en-ruta
+    tipo: basica
+    anverso: ¿Cuánto te saca de ruta un error de **5º** tras volar 100 km?
+    reverso: "**Unos 8 km.** Por eso no se ignora la variación donde es significativa."
+    etiquetas: [Airmanship]
+
+  - id: tiempo-distancia-velocidad
+    tipo: basica
+    anverso: Fórmula del tiempo de vuelo de un tramo, y cómo pasarlo a minutos.
+    reverso: |
+      **T = D / GS.**
+
+      El resultado sale en horas decimales: se multiplica por 60 para tener
+      minutos.
+
+  - id: ete-vs-eta
+    tipo: basica
+    anverso: Diferencia entre **ETE** y **ETA** en la práctica.
+    reverso: |
+      **El ETE se calcula en tierra; el ETA se recalcula en vuelo** con la
+      velocidad suelo real.
+
+  - id: regla-del-60
+    tipo: basica
+    anverso: Enuncia la **regla del 60**.
+    reverso: |
+      **Error (grados) = (desvío lateral × 60) / distancia.**
+
+      Para llegar al destino hay que sumar el ángulo de cierre, calculado sobre
+      la distancia **restante**. «Doblar el error» sólo vale a mitad de tramo.
+
+  - id: computador-circular
+    tipo: basica
+    anverso: ¿Por qué sigue teniendo sentido el **computador circular de vuelo**?
+    reverso: |
+      **Funciona sin batería, no se apaga con el sol de frente y obliga a ver el
+      problema como lo que es: un triángulo.**
+
+      Quien lo sabe usar detecta al instante que un resultado del ordenador de a
+      bordo es absurdo, porque lleva el orden de magnitud en la cabeza.
+    etiquetas: [Airmanship]
+
+  - id: reloj-desde-el-ultimo-punto
+    tipo: basica
+    anverso: ¿Cuál es el mejor aliado para saber **dónde estarás**?
+    reverso: |
+      **El reloj en marcha desde el último punto conocido.**
+
+      Tiempo transcurrido × velocidad suelo estimada. De eso trata realmente la
+      navegación a vela.
+    etiquetas: [Airmanship]
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (8 viñetas)
+#  [1]
+#     **El Triángulo de Velocidades**: Es la base de todo. Tres vectores: **TAS** (Tu velocidad
+#     real aire), **Viento** (Velocidad del aire) y **GS** (Tu velocidad suelo). Si conoces dos,
+#     calculas el tercero.
+#  [2]
+#     **Trayectoria no es rumbo**: la trayectoria (TC) es la línea sobre el terreno; el rumbo (TH)
+#     es hacia dónde apunta el morro. Con viento cruzado no coinciden.
+#  [3]
+#     **Deriva (Drift)**: El ángulo que el viento te desvía de tu rumbo. Debes corregirlo
+#     "metiendo morro al viento" (**Ángulo de Corrección de Deriva - WCA**).
+#  [4]
+#     **La Fórmula Mágica**: TC (Rumbo Verdadero) $\pm$ WCA = TH (Rumbo Verdadero de Proa). TH
+#     $\pm$ VAR = MH (Rumbo Magnético). MH $\pm$ DEV = CH (Rumbo de Brújula). Convención de
+#     signos: **(W −) / (E +)**. De vuelta, los signos se invierten.
+#  [5]
+#     **Deriva y velocidad suelo**: $DA = (V_{cruzado} \times 60)/TAS$ y $GS = TAS \pm V \cdot
+#     \cos\alpha$. Con TAS baja, un viento moderado produce mucha deriva.
+#  [6]
+#     **El computador de vuelo**: cara de cálculo para tiempo/velocidad/distancia y conversiones;
+#     cara del viento para el triángulo. Los ordenadores de planeo hacen lo mismo con el viento
+#     real medido en vuelo.
+#  [7]
+#     **Tiempo/distancia/velocidad**: $T = D/GS$. Pasa horas decimales a minutos multiplicando por
+#     60. El **ETE** se calcula en tierra; el **ETA se recalcula en vuelo** con la velocidad suelo
+#     real.
+#  [8]
+#     **Regla del 60**: $Error = (Desvio \times 60)/Distancia$. Para llegar al destino hay que
+#     sumar el ángulo de cierre, calculado sobre la distancia **restante**. «Doblar el error» sólo
+#     vale a mitad de tramo.
+#
+# RECUADROS (7)
+#  [Airmanship 1]
+#     No confundas las tres velocidades que entran en juego: la **IAS** (indicada) es la que marca
+#     el anemómetro; la **TAS** (verdadera) es la IAS corregida por densidad —crece
+#     aproximadamente un **2 % por cada 300 m** de altitud, unos 6,5-7 % por cada 1.000 m—; y la
+#     **GS** (suelo) es la TAS combinada con el viento. En navegación siempre razonamos con
+#     **TAS** y **GS**, nunca con la IAS a secas. (El **Libro 7 — Planificación y Rendimiento de
+#     Vuelo** usa esta misma regla en su forma «2 % por 300 m».)
+#  [Regla de oro 2]
+#     "Mete el morro al viento". Si el viento viene de la derecha, tu ángulo de corrección debe
+#     ser a la derecha (sumar grados a tu trayectoria deseada).
+#  [Airmanship 3]
+#     En el aire, solemos simplificar. Si el viento es suave, el WCA será pequeño. Pero nunca
+#     ignores la Variación si estás volando en zonas donde esta es significativa, ya que un error
+#     de 5 grados puede sacarte de ruta 8 km tras volar 100 km.
+#  [Regla de oro 4]
+#     El signo es lo que más despista. La regla es sencilla: sobre el rumbo verdadero, una
+#     variación o desvío al **Oeste (W) suma** grados, y al **Este (E) resta**. En las fórmulas lo
+#     escribimos como **(W −) / (E +)**: el valor Oeste entra con signo negativo dentro del
+#     paréntesis y, al restarlo, acaba sumando. La misma idea también se expresa como $MH = TC +
+#     VAR_W$ o $MH = TC - VAR_E$; es la misma convención con distinta notación.
+#  [Regla de oro 5]
+#     Volamos a **TAS = 60 kt** con un viento cruzado de **20 kt**. La deriva será $DA = (20
+#     \times 60) / 60 = 20^\circ$. Si ese mismo viento de 20 kt fuera de cara, nuestra velocidad
+#     suelo bajaría a **40 kt**; de cola, subiría a **80 kt**. Con TAS baja, ¡el viento manda!
+#  [Airmanship 6]
+#     El computador circular no es nostalgia. Funciona sin batería, no se apaga con el sol de
+#     frente y obliga a ver el problema como lo que es: un triángulo. Quien sabe usarlo detecta al
+#     instante que un resultado del ordenador de a bordo es absurdo, porque lleva el orden de
+#     magnitud en la cabeza.
+#  [Airmanship 7]
+#     Lleva siempre el reloj en marcha desde el último punto conocido. El tiempo transcurrido,
+#     multiplicado por tu velocidad suelo estimada, es tu mejor aliado para saber **dónde
+#     estarás** —que es de lo que trata realmente la navegación a vela.

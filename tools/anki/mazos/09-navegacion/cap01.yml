@@ -1,0 +1,215 @@
+# Mazo Anki de 09-navegacion, capítulo 1.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 09-navegacion
+capitulo: 1
+titulo: "Fundamentos de navegación"
+tarjetas:
+  - id: minuto-latitud-milla-nautica
+    tipo: basica
+    anverso: ¿A cuánta distancia equivale **1 minuto de latitud**, y por qué?
+    reverso: |
+      **A 1 milla náutica (1852 m exactos).**
+
+      No es casualidad: la milla náutica se definió como la longitud del minuto
+      de arco de meridiano. Permite medir distancias directamente sobre la
+      escala de latitudes de una carta.
+    etiquetas: [Regla de oro]
+
+  - id: grado-latitud-60-nm
+    tipo: basica
+    anverso: ¿Cuántas millas náuticas mide **1 grado de latitud**?
+    reverso: "**60 NM**, porque el grado tiene 60 minutos y cada minuto es 1 NM."
+
+  - id: minuto-longitud-variable
+    tipo: basica
+    anverso: ¿Por qué **1 minuto de longitud** no equivale a 1 milla náutica?
+    reverso: |
+      **Porque su valor varía con la latitud.**
+
+      Los meridianos convergen en los polos: el minuto de longitud mide 1 NM en
+      el ecuador y va encogiendo hasta cero. Sólo la escala de *latitudes* sirve
+      para medir distancias en la carta.
+
+  - id: paralelos-meridianos
+    tipo: cloze
+    texto: |
+      La **latitud** se mide sobre los {{c1::paralelos}} y va de {{c2::N a S}};
+      la **longitud** se mide sobre los {{c1::meridianos}} y va de {{c2::E a W}}.
+
+  - id: ortodromica-definicion
+    tipo: basica
+    anverso: ¿Qué es una ruta **ortodrómica** y qué inconveniente tiene?
+    reverso: |
+      **La distancia más corta entre dos puntos: el arco de círculo máximo.**
+
+      El inconveniente es que cambia de rumbo continuamente, porque corta a cada
+      meridiano con un ángulo distinto.
+
+  - id: loxodromica-definicion
+    tipo: basica
+    anverso: ¿Qué es una ruta **loxodrómica** y qué inconveniente tiene?
+    reverso: |
+      **La que mantiene rumbo constante: corta a todos los meridianos con el
+      mismo ángulo.**
+
+      El inconveniente es que es más larga que la ortodrómica.
+
+  - id: cual-se-vuela-en-planeador
+    tipo: basica
+    anverso: En vuelo a vela, ¿se navega por ortodrómica o por loxodrómica?
+    reverso: |
+      **Por loxodrómica: rumbo constante.**
+
+      Incluso en vuelos de 300, 500 o 1000 km la diferencia con la ortodrómica es
+      insignificante, y el rumbo constante es mucho más sencillo de volar.
+    etiquetas: [Airmanship]
+
+  - id: por-que-utc
+    tipo: basica
+    anverso: ¿Por qué la aviación trabaja en **UTC** («Zulu») y no en hora local?
+    reverso: |
+      **Para evitar las confusiones de los husos horarios y de los cambios de
+      hora estacionales.**
+
+      Una única referencia mundial para partes, NOTAM, planes de vuelo y
+      comunicaciones.
+
+  - id: local-a-zulu-peninsula
+    tipo: basica
+    anverso: En la Península, ¿cómo se pasa de **hora local a Zulu**?
+    reverso: |
+      **Se resta: 1 hora en invierno y 2 en verano.**
+
+      Local = UTC + 1 (invierno) o UTC + 2 (verano), así que el camino de vuelta
+      es una resta.
+
+  - id: error-signo-utc
+    tipo: basica
+    anverso: ¿Cuál es el error clásico al convertir la hora, y cómo se evita?
+    reverso: |
+      **Aplicar el signo al revés y creerte que te queda una hora más de luz.**
+
+      Contrasta la conversión con un dato que ya conozcas —la hora del último
+      parte meteorológico, por ejemplo— antes de decidir si sales.
+    etiquetas: [Seguridad]
+
+  - id: ocaso-no-es-noche
+    tipo: basica
+    anverso: ¿Cuándo empieza **la noche** a efectos aeronáuticos? ¿Coincide con el ocaso?
+    reverso: |
+      **No. El ocaso es el sol en el horizonte; la noche empieza al acabar el
+      crepúsculo civil, con el sol 6º por debajo del horizonte.**
+
+      Entre uno y otro queda un margen de luz que no es tiempo de noche.
+
+  - id: horas-orto-ocaso-aip
+    tipo: basica
+    anverso: ¿Dónde se publican las horas oficiales de **orto y ocaso** de cada aeródromo?
+    reverso: "**En el AIP-España, sección GEN 2.7.**"
+    etiquetas: [Normativa]
+
+  - id: vuelo-nocturno-spl
+    tipo: basica
+    anverso: ¿Puede un titular de **SPL** volar de noche?
+    reverso: |
+      **Sólo con privilegios de motovelero de turismo (TMG), la habilitación de
+      vuelo nocturno y el equipamiento de luces exigido.**
+
+      El vuelo en planeador es VFR y, con carácter general, diurno.
+    etiquetas: [Normativa]
+
+  - id: sao-ide-105-reloj
+    tipo: basica
+    anverso: ¿Qué exige **SAO.IDE.105** en cuanto a la medida del tiempo?
+    reverso: |
+      **Que todo planeador lleve un medio para medir y mostrar la hora en horas
+      y minutos.**
+
+      Llévalo en UTC, o ten clara la diferencia horaria del día.
+    etiquetas: [Normativa]
+
+  - id: kmh-a-nudos
+    tipo: basica
+    anverso: Regla mental para pasar de **km/h a nudos**.
+    reverso: |
+      **Quita la mitad y suma un 8 %.**
+
+      100 km/h → 50 + 4 = 54 kt.
+    etiquetas: [Regla de oro]
+
+  - id: nudos-a-kmh
+    tipo: basica
+    anverso: Regla mental para pasar de **nudos a km/h**.
+    reverso: |
+      **Dobla y quita un 8 %.**
+
+      50 kt → 100 − 8 = 92 km/h.
+    etiquetas: [Regla de oro]
+
+  - id: mil-pies-en-metros
+    tipo: basica
+    anverso: ¿A cuántos metros equivalen **1.000 ft**?
+    reverso: "**305 m.**"
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (5 viñetas)
+#  [1]
+#     **Coordenadas**: Latitud (Paralelos, N/S) y Longitud (Meridianos, E/W). Recuerda: 1 minuto
+#     de Latitud equivale a 1 Milla Náutica, porque la milla náutica se definió como el minuto de
+#     arco de meridiano. 1 minuto de Longitud varía con la latitud.
+#  [2]
+#     **Ortodrómica vs Loxodrómica**: La Ortodrómica es la distancia más corta (círculo máximo)
+#     pero cambia de rumbo continuamente. La Loxodrómica mantiene el rumbo constante (corta a los
+#     meridianos igual) pero es más larga. En distancias de planeador, la diferencia es
+#     despreciable.
+#  [3]
+#     **El Tiempo**: En aviación usamos UTC (Universal Time Coordinated) o "Zulu" para evitar
+#     confusiones con los husos horarios locales y cambios de hora. En la Península, local = UTC +
+#     1 en invierno y UTC + 2 en verano; para pasar de local a Zulu, **se resta**.
+#  [4]
+#     **Orto y ocaso no son la noche**: el ocaso es el sol en el horizonte; la noche empieza al
+#     acabar el crepúsculo civil, con el sol 6º por debajo. Las horas oficiales están en el
+#     AIP-España (GEN 2.7).
+#  [5]
+#     **Unidades**: Acostúmbrate a pensar en Millas Náuticas (NM) y Nudos (kts). Son el estándar
+#     internacional y facilitan los cálculos mentales (1 grado de latitud = 60 NM). De km/h a
+#     nudos, **quita la mitad y suma un 8 %**; al revés, **dobla y quita un 8 %**. 1.000 ft son
+#     305 m.
+#
+# RECUADROS (6)
+#  [Regla de oro 1]
+#     Recuerda siempre esta equivalencia fundamental: **1 minuto de latitud equivale a 1 milla
+#     náutica**. No es una casualidad: la milla náutica se definió precisamente como la longitud
+#     del minuto de arco de meridiano, y hoy vale 1852 m exactos. Esto te permite calcular
+#     distancias directamente sobre los meridianos de una carta aeronáutica.
+#  [Airmanship 2]
+#     En las distancias que manejamos habitualmente en vuelo a vela (vuelos de 300, 500 o incluso
+#     1000 km), la diferencia entre la ruta ortodrómica y la loxodrómica es insignificante.
+#     Siempre volamos rumbos constantes (loxodrómicas) por sencillez.
+#  [Normativa 3]
+#     **SAO.IDE.105** exige que todo planeador lleve un medio para medir y mostrar la hora en
+#     horas y minutos. Llévalo ajustado a UTC o ten clara la diferencia horaria del día (en
+#     España, +1h en invierno y +2h en verano respecto a UTC).
+#  [Seguridad 4]
+#     El error clásico no es la suma: es aplicar el signo al revés y creerse que te queda una hora
+#     más de luz. Comprueba la conversión con un dato que ya conozcas —la hora del último parte
+#     meteorológico, por ejemplo— antes de fiarte de ella para decidir si sales.
+#  [Normativa 5]
+#     El vuelo en planeador se realiza en condiciones visuales (VFR) y, con carácter general, **de
+#     día**. La operación nocturna en VMC solo está al alcance del titular SPL con privilegios de
+#     motovelero de turismo (TMG) y la correspondiente **habilitación de vuelo nocturno**, además
+#     del equipamiento de luces exigido. Consulta siempre la hora del ocaso al planificar: en
+#     altura tendrás luz un rato más, pero una vez abajo la oscuridad llega rápido. Las horas
+#     oficiales de orto y ocaso para cada aeródromo se publican en el AIP-España (GEN 2.7).
+#  [Regla de oro 6]
+#     Para pasar de km/h a nudos de cabeza: **quita la mitad y súmale un 8 %**. 100 km/h → 50 + 4
+#     = 54 kt. Al revés, de nudos a km/h: **dobla y quita un 8 %**. 50 kt → 100 − 8 = 92 km/h. Con
+#     dos cifras significativas basta y sobra para navegar.

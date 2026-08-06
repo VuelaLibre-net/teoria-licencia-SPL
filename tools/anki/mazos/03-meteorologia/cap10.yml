@@ -1,0 +1,99 @@
+# Mazo Anki de 03-meteorologia, capítulo 10.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 03-meteorologia
+capitulo: 10
+titulo: "Información meteorológica"
+tarjetas:
+  - id: metar-vs-taf
+    tipo: basica
+    anverso: Diferencia entre **METAR** y **TAF**.
+    reverso: |
+      **METAR: foto actual, cada 30 minutos. TAF: pronóstico, para 9, 24 o 30
+      horas.**
+
+  - id: codigos-fg-br-cavok
+    tipo: cloze
+    texto: |
+      En un METAR, {{c1::CAVOK}} indica visibilidad ≥ 10 km y sin nubes por
+      debajo de 5.000 ft; {{c2::FG}} indica niebla y {{c3::BR}}, neblina.
+
+  - id: sigwx
+    tipo: basica
+    anverso: ¿Qué muestran los mapas **SIGWX** y para qué sirven?
+    reverso: |
+      **Frentes, zonas de turbulencia y engelamiento.** Cruciales para
+      planificar rutas largas.
+
+  - id: aemet-ama-fuente-oficial
+    tipo: basica
+    anverso: ¿Cuál es la fuente **oficial y vinculante** del briefing meteorológico?
+    reverso: |
+      **AEMET, y su plataforma aeronáutica AMA** (Autoservicio Meteorológico
+      Aeronáutico): METAR, TAF, alertas y NOTAM meteorológicos.
+
+      Windy, Meteoblue, Skysight, Topmeteo, RASP o Meteo Parapente son realidad
+      operativa diaria, pero nunca sustituyen al briefing oficial.
+    etiquetas: [Airmanship]
+
+  - id: cruzar-fuentes
+    tipo: basica
+    anverso: ¿Basta una sola fuente meteorológica?
+    reverso: |
+      **No: cruza mapa de superficie + satélite + previsión local.**
+
+      Si la meteorología pinta dudosa, el mejor vuelo es el que se queda en
+      tierra.
+
+  - id: cultura-no-go
+    tipo: basica
+    anverso: Si lo que ves en pista contradice el pronóstico favorable, ¿qué prevalece?
+    reverso: |
+      **Lo que ves.**
+
+      Un vuelo cancelado nunca fue un accidente. La cultura **No-Go** no es
+      cobardía: es el criterio que define a un piloto maduro.
+    etiquetas: [Seguridad]
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (3 viñetas)
+#  [1]
+#     **METAR y TAF**: Tus boletines de cabecera. METAR = foto actual (cada 30 min). TAF =
+#     pronóstico (para 9, 24 o 30h). Aprende a descodificarlos fluidamente (CAVOK indica
+#     visibilidad ≥10 km y sin nubes por debajo de 5000 ft; FG indica niebla; BR neblina).
+#  [2]
+#     **Mapas Significativos (SIGWX)**: Muestran frentes, zonas de turbulencia y engelamiento.
+#     Cruciales para planificar rutas largas.
+#  [3]
+#     **Toma de decisiones**: No te fíes de una sola fuente. Cruza datos: mapa de superficie +
+#     satélite + previsión local. Si la meteo pinta dudosa, el mejor vuelo es el que se queda en
+#     tierra (no-go).
+#
+# RECUADROS (3)
+#  [Regla de oro 1]
+#     El día de convección excepcional — conocido coloquialmente como «día termonuclear» en el
+#     argot de competición — tiene firma numérica precisa: K-Index entre 15 y 20, CAPE entre 1.000
+#     y 2.500 J/kg, LI negativo, temperatura a 850 hPa varios grados por encima de la media en
+#     superficie, y vientos flojos. Busca estos índices directamente en el sondeo del día:
+#     gratuitamente en la Universidad de Wyoming, AEMET (AMA) o Windy; con más detalle soaring en
+#     Skysight, Topmeteo o Meteo Parapente.
+#  [Airmanship 2]
+#     AEMET —y su plataforma aeronáutica AMA (**Autoservicio Meteorológico Aeronáutico**)— es
+#     siempre la fuente pública, oficial y legalmente vinculante para tu planificación pre-vuelo
+#     (METAR, TAF, alertas, NOTAMs meteorológicos). Las plataformas generalistas como Windy o
+#     Meteoblue y las especializadas en vuelo a vela como Skysight, Topmeteo, los modelos RASP o
+#     Meteo Parapente se mencionan en este manual porque forman parte de la realidad operativa
+#     diaria, pero nunca deben sustituir al briefing meteorológico oficial de seguridad.
+#  [Seguridad 3]
+#     Si a pie de pista la meteorología real difiere del pronóstico favorable —nubosidad baja
+#     inesperada, viento variable fuerte, bruma densa— prevalece siempre lo que ves. Un vuelo
+#     cancelado nunca fue un accidente. La cultura **No-Go** no es cobardía: es el criterio que
+#     define a un piloto maduro.

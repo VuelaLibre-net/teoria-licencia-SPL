@@ -1,0 +1,81 @@
+# Mazo Anki de 08-aeronave-sistemas, capítulo 2.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 08-aeronave-sistemas
+capitulo: 2
+titulo: "Diseño de sistemas, cargas y tensiones"
+tarjetas:
+  - id: cs-22-337-factores-de-carga
+    tipo: cloze
+    texto: |
+      **CS 22.337**: la categoría **Utilitaria** debe soportar {{c1::+5,3 g /
+      −2,65 g}} y la **Acrobática**, {{c2::+7,0 g / −5,0 g}}.
+    extra: A la velocidad de maniobra. Los límites concretos, en el AFM.
+
+  - id: carga-limite-y-de-rotura
+    tipo: basica
+    anverso: Diferencia entre **carga límite** y **carga última**.
+    reverso: |
+      **La límite es la máxima sin deformación permanente; la última es la que
+      parte la estructura: 1,5 veces la límite (CS 22.303).**
+
+  - id: el-15-no-es-margen-de-maniobra
+    tipo: basica
+    anverso: ¿Se puede usar el factor de seguridad 1,5 como margen de maniobra?
+    reverso: |
+      **No.** Está para cubrir imperfecciones del material o condiciones
+      atmosféricas imprevistas, no para volar fuera de límites.
+    etiquetas: [Seguridad]
+
+  - id: fatiga-en-fibra
+    tipo: basica
+    anverso: ¿Cómo se vigila la **fatiga** en un planeador de fibra?
+    reverso: |
+      **Con revisiones periódicas (3.000 h, 6.000 h…) buscando microfisuras o
+      delaminación.**
+
+  - id: flutter-y-vne-08
+    tipo: basica
+    anverso: ¿Garantiza la V_NE que no habrá **flutter**?
+    reverso: |
+      **No del todo.** La V_NE se fija con margen frente al flutter, pero las
+      holguras o los desequilibrios en los mandos pueden provocarlo incluso por
+      debajo.
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (4 viñetas)
+#  [1]
+#     **Factor de carga (n)**: los planeadores son fuertes, no invencibles. Crece con la
+#     inclinación del viraje (a 60° de alabeo, 2g). Categoría Utilitaria: +5,3g / -2,65g.
+#     Categoría Acrobática: +7g / -5g (CS 22.337).
+#  [2]
+#     **Fatiga**: la fibra de vidrio dura muchísimo, pero se revisa periódicamente (3000h, 6000h…)
+#     en busca de microfisuras o delaminación.
+#  [3]
+#     **Carga límite y rotura**: la límite es la máxima sin deformación permanente; la de rotura
+#     es la que parte la estructura (1,5 veces la límite, CS 22.303). No te acerques a esos
+#     valores.
+#  [4]
+#     **Flameo (flutter)**: vibración autoexcitada mortal. La V~NE~ se fija con margen frente al
+#     flutter, pero las holguras o los desequilibrios en los mandos pueden provocarlo incluso por
+#     debajo. Respetar la V~NE~ es respetar tu vida.
+#
+# RECUADROS (2)
+#  [Normativa 1]
+#     **CS 22.337 (factores de carga límite de maniobra)**: la categoría Utilitaria debe soportar
+#     +5,3 / -2,65 (a la velocidad de maniobra) y la Acrobática, +7,0 / -5,0. **CS 22.303 (factor
+#     de seguridad)**: salvo indicación en contra, se aplica un factor de seguridad de 1,5 sobre
+#     las cargas límite para obtener las cargas últimas. Los límites concretos de tu aeronave
+#     están en su Manual de Vuelo. Consúltalos antes de volar un modelo nuevo.
+#  [Seguridad 2]
+#     No uses nunca el factor de seguridad como "margen de maniobra". Ese 1,5 está para cubrir
+#     imperfecciones del material o condiciones atmosféricas imprevistas, no para que el piloto
+#     vuele fuera de límites.

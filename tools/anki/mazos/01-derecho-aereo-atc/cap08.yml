@@ -1,0 +1,117 @@
+# Mazo Anki de 01-derecho-aereo-atc, capítulo 8.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 01-derecho-aereo-atc
+capitulo: 8
+titulo: "Servicio de tránsito aéreo (ATS) y gestión del tránsito aéreo (ATM)"
+tarjetas:
+  - id: atc-fis-alrs
+    tipo: basica
+    anverso: ¿Qué da cada uno de los tres servicios ATS?
+    reverso: |
+      * **ATC (control)**: autorizaciones que te separan de otros aviones. TWR,
+        APP y ACC, sólo en espacio controlado.
+      * **FIS (información)**: meteorología, peligros y tráficos. Evitar la
+        colisión sigue siendo tuyo.
+      * **ALRS (alerta)**: avisa a búsqueda y salvamento.
+
+  - id: informacion-de-trafico-no-es-separacion
+    tipo: basica
+    anverso: Diferencia práctica entre una llamada de ATC y una de FIS.
+    reverso: |
+      **ATC**: «Vire rumbo 360 por tráfico» — orden obligatoria, ellos te
+      separan.
+      **FIS**: «Tráfico convergiendo a su derecha» — información; **tú** decides
+      qué hacer.
+    etiquetas: [Airmanship]
+
+  - id: atm-tres-patas
+    tipo: cloze
+    texto: |
+      **ATM = {{c1::ATS}} + {{c2::ASM}} + {{c3::ATFM}}**: los servicios que te
+      atienden, la gestión del espacio aéreo y la de afluencia.
+
+  - id: fua
+    tipo: basica
+    anverso: ¿Qué es el **uso flexible del espacio aéreo (FUA)**?
+    reverso: |
+      **Que el espacio se reparte cada día, no de una vez para siempre.**
+
+      Hay zonas que existen sólo a ratos (**TSA, TRA**) y rutas abiertas sólo
+      cuando aquellas se liberan (**CDR**). Lo establece el Reglamento (CE)
+      2150/2005.
+    etiquetas: [Normativa]
+
+  - id: carta-vs-notam
+    tipo: basica
+    anverso: ¿Qué dice la carta y qué dicen los NOTAM?
+    reverso: |
+      **La carta dice dónde está una zona; los NOTAM dicen si hoy está activa.**
+
+      Se mira en la preparación del vuelo, no en el aire. Repetir la travesía de
+      la semana pasada sin volver a mirar es volar con una foto vieja.
+    etiquetas: [Regla de oro]
+
+  - id: slots-atfm-y-planeadores
+    tipo: basica
+    anverso: ¿Afectan los *slots* del **ATFM** a un planeador?
+    reverso: |
+      **No: son cosa del tráfico IFR.** A un planeador en clase G no le afectan.
+
+  - id: alerta-sin-plan-de-vuelo
+    tipo: basica
+    anverso: ¿Qué pasa con el servicio de alerta si no llevas plan de vuelo ni radio?
+    reverso: |
+      **Tarda muchísimo más en activarse**: sólo cuando tu familia avise de que
+      no has vuelto.
+    etiquetas: [Seguridad]
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (6 viñetas)
+#  [1]
+#     **Control (ATC)**: te dan órdenes (autorizaciones) para separarte de otros aviones. Son la
+#     TWR, la APP y el ACC, y solo opera en espacio aéreo controlado.
+#  [2]
+#     **Información de vuelo (FIS)**: te dan información útil (meteo, peligros, tráficos
+#     cercanos), pero el responsable de evitar colisiones eres tú. "Información de tráfico" no es
+#     "separación".
+#  [3]
+#     **Alerta (ALRS)**: avisa a búsqueda y salvamento (SAR) si no llegas a tiempo o tienes una
+#     emergencia. Y el ATS es sólo una de las tres patas del **ATM**:
+#  [4]
+#     **ATM = ATS + ASM + ATFM**: los servicios que te atienden, la gestión del espacio aéreo y la
+#     de afluencia.
+#  [5]
+#     **Uso flexible (FUA)**: el espacio se reparte cada día, no de una vez para siempre. Hay
+#     zonas que existen sólo a ratos (TSA, TRA) y rutas abiertas sólo cuando aquellas se liberan
+#     (CDR).
+#  [6]
+#     **Lo que te toca a ti**: la carta dice dónde está una zona; los NOTAM dicen si hoy está
+#     activa. Los *slots* del ATFM son cosa del tráfico IFR: a un planeador en Clase G no le
+#     afectan.
+#
+# RECUADROS (5)
+#  [Airmanship 1]
+#     * **ATC**: "Vire rumbo 360 por tráfico". (Orden obligatoria, ellos te separan). * **FIS**:
+#     "Tráfico convergiendo a su derecha". (Información, TÚ decides qué hacer para no chocar).
+#  [Seguridad 2]
+#     Si tienes una emergencia real y **NO** has presentado Plan de Vuelo ni estás en contacto
+#     radio, el Servicio de Alerta tardará mucho más en activarse (solo cuando tu familia avise de
+#     que no has vuelto). ¡Usa la radio y el Plan de Vuelo!
+#  [Regla de oro 3]
+#     La carta te dice dónde está una zona. Nunca si hoy está activa. Eso lo dicen los NOTAM y la
+#     publicación diaria del espacio aéreo, y se mira en la preparación del vuelo, no en el aire.
+#  [Normativa 4]
+#     El uso flexible del espacio aéreo lo establece el **Reglamento (CE) n.º 2150/2005**, que
+#     fija las normas comunes para repartirlo en la Unión Europea.
+#  [Airmanship 5]
+#     El espacio aéreo del que dispones hoy no es el de ayer. Repetir la travesía de la semana
+#     pasada sin mirar otra vez qué zonas están activas es volar con una foto vieja.

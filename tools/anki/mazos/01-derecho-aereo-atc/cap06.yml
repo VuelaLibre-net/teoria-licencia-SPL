@@ -1,0 +1,136 @@
+# Mazo Anki de 01-derecho-aereo-atc, capítulo 6.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 01-derecho-aereo-atc
+capitulo: 6
+titulo: "Procedimientos para navegación aérea: operaciones de aeronaves"
+tarjetas:
+  - id: minimos-vmc-generales
+    tipo: basica
+    anverso: ¿Cuáles son los **mínimos VMC** de regla general?
+    reverso: |
+      **5 km de visibilidad, y nubes a 1.500 m en horizontal / 1.000 ft en
+      vertical.**
+
+      Por encima de FL 100, **8 km**.
+
+  - id: minimos-vmc-baja-cota
+    tipo: basica
+    anverso: ¿Qué mínimos rigen por debajo de 3.000 ft AMSL (o 1.000 ft AGL) en espacio no controlado?
+    reverso: |
+      **5 km, libre de nubes y con el suelo a la vista.**
+
+      Volando a menos de 140 kt, la visibilidad puede reducirse a **1.500 m**.
+
+  - id: regla-semicircular
+    tipo: basica
+    anverso: Regla semicircular en España.
+    reverso: |
+      **«Norte Par / Sur Impar».**
+
+      Hacia el **norte** (270º-089º): niveles **pares** + 500 ft.
+      Hacia el **sur** (090º-269º): niveles **impares** + 500 ft.
+    etiquetas: [Regla de oro]
+
+  - id: qnh-qfe-qne
+    tipo: cloze
+    texto: |
+      Reglajes de altímetro: {{c1::QNH}} da altitud sobre el nivel del mar
+      (navegación y circuitos); {{c2::QFE}} da altura sobre el campo; y
+      {{c3::QNE}} (1013,25 hPa) da niveles de vuelo.
+    extra: |
+      Mnemotécnico: **QNH** = *Nautical Height*; **QFE** = *Field Elevation*.
+
+  - id: altitud-de-transicion-espana
+    tipo: basica
+    anverso: ¿Cuál es la **altitud de transición** en España y qué implica?
+    reverso: |
+      **6.000 ft en la mayor parte del país** (con excepciones como Madrid o
+      Granada).
+
+      Por debajo se vuela con **QNH** (altitud); por encima se cala **1013,25
+      hPa** y se vuela en **niveles de vuelo**.
+    etiquetas: [Normativa]
+
+  - id: oxigeno-legal-vs-fisiologico
+    tipo: basica
+    anverso: ¿Coinciden el mínimo legal de oxígeno y el fisiológico?
+    reverso: |
+      **No.** La regla por defecto del AMC1 SAO.OP.150 son 10.000 ft, pero
+      muchos pilotos sufren deterioro desde **8.000-9.000 ft**, sobre todo de
+      noche o con fatiga.
+
+      En vuelos de onda, conecta el oxígeno y úsalo antes de los 10.000 ft.
+    etiquetas: [Seguridad]
+
+  - id: comprobaciones-sao-gen-130
+    tipo: basica
+    anverso: ¿Qué comprueba el piloto al mando antes del vuelo según **SAO.GEN.130**?
+    reverso: |
+      **Que el planeador es aeronavegable, está matriculado y lleva los
+      instrumentos y equipos necesarios instalados y operativos**, y verifica
+      **masa, centrado, estiba y límites del AFM**.
+    etiquetas: [Normativa]
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (6 viñetas)
+#  [1]
+#     **Mínimos VMC**: regla general, 5 km de visibilidad y nubes a 1.500 m en horizontal / 1.000
+#     ft en vertical. Por debajo de 3.000 ft AMSL (o 1.000 ft AGL) en espacio no controlado basta
+#     con 5 km, libre de nubes y suelo a la vista; y volando a menos de 140 kt, la visibilidad
+#     puede reducirse a 1.500 m. Por encima de FL 100, 8 km.
+#  [2]
+#     **Regla semicircular (España, Norte-Sur)**: hacia el Norte (270°-089°), pares + 500 ft;
+#     hacia el Sur (090°-269°), impares + 500 ft. «Norte Par / Sur Impar».
+#  [3]
+#     **Altímetro**: QNH = altitud (navegación y circuitos); QFE = altura sobre el campo; QNE
+#     (1013,25 hPa) = niveles de vuelo por encima de la altitud de transición (6.000 ft en general
+#     en España).
+#  [4]
+#     **Oxígeno**: según SAO.OP.150, el comandante debe garantizar su uso cuando determine que la
+#     falta de oxígeno puede disminuir las facultades o ser dañina. Si no puede valorar ese
+#     efecto, el AMC1 SAO.OP.150 fija la regla por defecto: usar oxígeno por encima de 10.000 ft.
+#     Fisiológicamente, conéctalo antes.
+#  [5]
+#     **Pre-vuelo (SAO.GEN.130)**: antes de iniciar el vuelo, el piloto al mando comprueba que el
+#     planeador es aeronavegable, está matriculado y lleva los instrumentos y equipos necesarios
+#     instalados y operativos; también verifica masa, centrado, estiba y límites del AFM.
+#  [6]
+#     **Instrumentos mínimos (SAO.IDE.105)**: hora, altitud de presión y velocidad indicada; los
+#     TMG añaden rumbo magnético. En nube o de noche: velocidad vertical, actitud o
+#     viraje/resbale, y rumbo magnético.
+#
+# RECUADROS (6)
+#  [Regla de oro 1]
+#     **Norte Par / Sur Impar** Hacia el **N**orte → Niveles **P**ares. Hacia el **S**ur → Niveles
+#     **I**mpares.
+#  [Regla de oro 2]
+#     Como regla mnemotécnica en inglés: * **QNH** = ***N**autical **H**eight* (Altitud sobre el
+#     nivel del mar). * **QFE** = ***F**ield **E**levation* (Altura sobre el campo de vuelo).
+#  [Normativa 3]
+#     Por debajo de la **Altitud de Transición** (6.000 ft en la mayor parte de España, salvo
+#     excepciones como Madrid o Granada), volamos con **QNH** (Altitud). Por encima, calamos
+#     **1013,25 hPa** y volamos en **Niveles de Vuelo (FL)**.
+#  [Normativa 4]
+#     **AMC1 SAO.OP.150:** El piloto al mando debe asegurarse de que todos los ocupantes utilicen
+#     oxígeno suplementario siempre que la altitud de presión sea superior a los **10.000 ft**, en
+#     los casos en que no pueda determinar cómo la falta de oxígeno puede afectar a las personas a
+#     bordo.
+#  [Seguridad 5]
+#     La norma legal es el mínimo. Fisiológicamente, muchos pilotos sufren deterioro a partir de
+#     8.000-9.000 ft, especialmente de noche o ante fatiga. En vuelos de onda, conecta el oxígeno
+#     y úsalo antes de alcanzar los 10.000 ft.
+#  [Normativa 6]
+#     **SAO.IDE.105 a)**: todo planeador debe llevar medios para medir y mostrar la hora (en horas
+#     y minutos), la altitud de presión y la velocidad aerodinámica indicada; los planeadores
+#     motorizados añaden el rumbo magnético. **SAO.IDE.105 b)**: para volar en condiciones de
+#     nebulosidad o de noche se añaden medios para medir y mostrar la velocidad vertical, la
+#     actitud —o el viraje y el resbale— y el rumbo magnético.

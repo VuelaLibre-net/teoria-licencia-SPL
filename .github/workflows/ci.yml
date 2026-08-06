@@ -82,7 +82,8 @@ jobs:
       # WebP y variantes responsive, así que se fija también en CI.
       run: |
         sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils unzip
-        python3 -m pip install --user Pillow==12.1.0
+        # genanki arma los .apkg; PyYAML lee los mazos de tools/anki/mazos/.
+        python3 -m pip install --user Pillow==12.1.0 genanki==0.13.1 PyYAML==6.0.2
 
     - name: Configurar EPUBCheck
       # EPUBCheck 5.x conoce WebP como recurso EPUB 3.3. La versión apt de
@@ -300,11 +301,11 @@ jobs:
         rm -f estados.txt
         exit $errores
 
-    - name: Compilar manuales a PDF, EPUB, Markdown para RAG y HTML web
+    - name: Compilar los nueve manuales a PDF, EPUB, Markdown para RAG y HTML web
       # La salida se guarda para poder mirarla en el paso siguiente: Typst avisa
       # de las fuentes que no encuentra por stderr, pero NO falla por ello, así
       # que el aviso se pierde entre miles de líneas y `make` sale con 0.
-      run: set -o pipefail && make 2>&1 | tee build.log && make completo 2>&1 | tee -a build.log
+      run: set -o pipefail && make 2>&1 | tee build.log
 
     - name: Comprobar que ninguna fuente ha caído a otra
       # `warning: unknown font family: X` significa que Typst no encontró la
@@ -370,10 +371,12 @@ jobs:
             continue
           fi
 
-          # En positivo: la extensión se aplicó de verdad. Comprobar sólo la
-          # ausencia de 'Chapter' pasaría también con un PDF vacío o truncado.
-          if ! grep -qE 'Capítulo [0-9]+\.' <<<"$texto"; then
-            echo "::error file=$pdf::No aparece 'Capítulo N': la extensión orange-book-es no se aplicó"
+          # En positivo: la extensión se aplicó de verdad. El manual completo
+          # numera por parte (I.1), los nueve libros siguen con capítulo árabe.
+          # Comprobar sólo la ausencia de 'Chapter' pasaría también con un PDF
+          # vacío o truncado.
+          if ! grep -qE 'Capítulo ([IVX]+\.[0-9]+|[0-9]+\.)' <<<"$texto"; then
+            echo "::error file=$pdf::No aparece numeración de capítulo: la extensión orange-book-es no se aplicó"
             errores=1
           fi
 
@@ -434,6 +437,26 @@ jobs:
           # Completado = mayor >= 1 y sin sufijo de pre-lanzamiento: un 1.0-rc.4
           # es ANTERIOR a la 1.0.0, no posterior.
           libro=$(libro_de "$pdf") || { echo "::error::No sé a qué libro corresponde $pdf"; errores=1; continue; }
+          if [ "$libro" = recursos-completo ]; then
+            if ! grep -Fq 'Capítulo I.1 ' <<<"$texto" \
+              || ! grep -Fq 'Capítulo II.1 ' <<<"$texto" \
+              || ! grep -Fq 'Capítulo IX.7 ' <<<"$texto"; then
+              echo "::error file=$pdf::El manual completo no reinicia la numeración en cada parte"
+              errores=1
+            fi
+            if grep -qE 'Capítulo (15|70)\.' <<<"$texto"; then
+              echo "::error file=$pdf::El manual completo conserva capítulos globales en vez de I.1, II.1…"
+              errores=1
+            fi
+            if ! grep -Fq 'Figura II.1.1' <<<"$texto" \
+              || ! grep -Fq 'Tabla VII.1.1' <<<"$texto"; then
+              echo "::error file=$pdf::Figuras o tablas del manual completo no llevan prefijo de parte"
+              errores=1
+            fi
+          elif grep -qE 'Capítulo [IVX]+\.[0-9]+' <<<"$texto"; then
+            echo "::error file=$pdf::Un libro individual ha recibido la numeración romana del completo"
+            errores=1
+          fi
           version=$(version_de "$libro")
           mayor=${version%%.*}
           case "$version" in *-*) pre=1 ;; *) pre=0 ;; esac
@@ -519,6 +542,7 @@ jobs:
             errores=1
           fi
           crudo=$(unzip -p "$epub" 'EPUB/text/*.xhtml' 2>/dev/null)
+          navegacion=$(unzip -p "$epub" EPUB/nav.xhtml 2>/dev/null)
           texto=$(sed -e 's/<[^>]*>//g' <<<"$crudo")
 
           # Comentarios del .qmd colados en el entregable. Los descarta
@@ -599,6 +623,30 @@ jobs:
           # agua, así que el aviso va como bloque al principio; pero tiene que
           # estar: quien descargue un EPUB debe saber si el libro está terminado.
           libro=$(libro_de "$epub") || { echo "::error::No sé a qué libro corresponde $epub"; errores=1; continue; }
+          if [ "$libro" = recursos-completo ]; then
+            if ! grep -qE '<h1[^>]*>I\.1 ' <<<"$crudo" \
+              || ! grep -qE '<h1[^>]*>II\.1 ' <<<"$crudo" \
+              || ! grep -qE '<h1[^>]*>IX\.7 ' <<<"$crudo"; then
+              echo "::error file=$epub::Los capítulos EPUB del manual completo no llevan prefijo de parte"
+              errores=1
+            fi
+            if ! grep -Fq '>I.1 ' <<<"$navegacion" \
+              || ! grep -Fq '>II.1 ' <<<"$navegacion" \
+              || ! grep -Fq '>IX.7 ' <<<"$navegacion"; then
+              echo "::error file=$epub::La navegación EPUB del manual completo no lleva prefijos de parte"
+              errores=1
+            fi
+            if ! grep -qE 'Figura.*II\.1\.1' <<<"$crudo" \
+              || ! grep -qE 'Tabla.*VII\.1\.1' <<<"$crudo" \
+              || ! grep -Fq 'Ejercicio IX.1.1' <<<"$crudo"; then
+              echo "::error file=$epub::Referencias, tablas o ejercicios EPUB no llevan prefijo de parte"
+              errores=1
+            fi
+            if grep -qE 'Figura.*15\.1|Tabla.*51\.1|Ejercicio 1\.1' <<<"$crudo"; then
+              echo "::error file=$epub::El EPUB completo conserva numeración global de objetos"
+              errores=1
+            fi
+          fi
           version=$(version_de "$libro")
           mayor=${version%%.*}
           case "$version" in *-*) pre=1 ;; *) pre=0 ;; esac
@@ -713,18 +761,42 @@ jobs:
         epubs=$(ls build/epub/*.epub 2>/dev/null | wc -l)
         mds=$(ls build/rag/*.md 2>/dev/null | wc -l)
         webs=$(ls build/web/*.web.tar.gz 2>/dev/null | wc -l)
-        # Diez: los nueve libros más el manual completo. El completo no tiene
-        # paquete web —`make completo` sólo hace PDF, EPUB y RAG—, así que ahí
-        # se siguen esperando nueve.
-        [ "$pdfs" -eq 10 ] || { echo "::error::Se esperaban 10 PDF (9 libros + completo) y hay $pdfs"; errores=1; }
-        [ "$epubs" -eq 10 ] || { echo "::error::Se esperaban 10 EPUB (9 libros + completo) y hay $epubs"; errores=1; }
-        [ "$mds" -eq 10 ] || { echo "::error::Se esperaban 10 Markdown para RAG (9 libros + completo) y hay $mds"; errores=1; }
+        ankis=$(ls build/anki/*.apkg 2>/dev/null | wc -l)
+        # El manual completo se compila localmente por ahora. CI sólo publica y
+        # verifica los nueve libros individuales.
+        [ "$pdfs" -eq 9 ] || { echo "::error::Se esperaban 9 PDF y hay $pdfs"; errores=1; }
+        [ "$epubs" -eq 9 ] || { echo "::error::Se esperaban 9 EPUB y hay $epubs"; errores=1; }
+        [ "$mds" -eq 9 ] || { echo "::error::Se esperaban 9 Markdown para RAG y hay $mds"; errores=1; }
         [ "$webs" -eq 9 ] || { echo "::error::Se esperaban 9 paquetes web y hay $webs"; errores=1; }
+        [ "$ankis" -eq 9 ] || { echo "::error::Se esperaban 9 mazos Anki y hay $ankis"; errores=1; }
 
         exit $errores
 
     - name: Verificar los paquetes web
       run: python3 tools/web/validar.py
+
+    - name: Verificar los mazos Anki
+      # Un .apkg es un zip con una base sqlite dentro: ningún grep del resto de
+      # guardianes ve lo que hay en él. Ver tools/anki/validar.py.
+      run: python3 tools/anki/validar.py
+
+    - name: Comprobar que los mazos Anki cubren los 76 capítulos
+      # `construir.py` sólo aborta si un libro entero se queda sin tarjetas. Un
+      # capítulo suelto con `tarjetas: []` —el esqueleto recién extraído— pasaría
+      # inadvertido: el mazo se genera, el guardián lo da por bueno y el alumno
+      # estudia una asignatura con un tema de menos.
+      run: |
+        errores=0
+        for libro in $(ls -d [0-9][0-9]-*/ | tr -d /); do
+          caps=$(ls "$libro"/cap[0-9][0-9]-*.qmd 2>/dev/null | wc -l)
+          mazos=$(ls tools/anki/mazos/"$libro"/cap[0-9][0-9].yml 2>/dev/null | wc -l)
+          [ "$caps" -eq "$mazos" ] \
+            || { echo "::error::$libro tiene $caps capítulos y $mazos mazos"; errores=1; }
+          vacios=$(grep -l '^tarjetas: \[\]' tools/anki/mazos/"$libro"/*.yml 2>/dev/null | wc -l)
+          [ "$vacios" -eq 0 ] \
+            || { echo "::error::$libro tiene $vacios capítulo(s) sin tarjetas escritas"; errores=1; }
+        done
+        exit $errores
 
     - name: Subir artefactos PDF
       uses: actions/upload-artifact@v7
@@ -749,3 +821,9 @@ jobs:
       with:
         name: manuales-spl-web
         path: build/web/
+
+    - name: Subir artefactos Anki
+      uses: actions/upload-artifact@v7
+      with:
+        name: manuales-spl-anki
+        path: build/anki/

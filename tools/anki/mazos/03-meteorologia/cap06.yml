@@ -1,0 +1,116 @@
+# Mazo Anki de 03-meteorologia, capítulo 6.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 03-meteorologia
+capitulo: 6
+titulo: "Masas de aire y frentes"
+tarjetas:
+  - id: frente-frio
+    tipo: basica
+    anverso: ¿Qué trae un **frente frío** al cruzarlo, y después?
+    reverso: |
+      **Al cruzarlo**: chubascos, rolada de viento y bajada de temperatura.
+      **Después**: inestabilidad, cielo limpio y térmicas potentes.
+
+  - id: dia-post-frontal
+    tipo: basica
+    anverso: ¿Por qué son tan buenos los días **post-frontales**?
+    reverso: |
+      **Excelente visibilidad por ausencia de calima, presión en aumento y
+      fuerte calentamiento diurno**, con cúmulos de contornos definidos marcando
+      ascendencias robustas.
+    etiquetas: [Regla de oro]
+
+  - id: frente-calido
+    tipo: basica
+    anverso: ¿Qué trae un **frente cálido**?
+    reverso: |
+      **Lluvia continua, techos bajos y mala visibilidad**, anunciado por cirros
+      que van bajando a estratos.
+
+      El aire es estable: olvídate de las térmicas.
+
+  - id: oclusion
+    tipo: basica
+    anverso: ¿Qué es una **oclusión**?
+    reverso: |
+      **Cuando el frente frío alcanza al cálido.**
+
+      Tiempo revuelto, mezcla de nubes y precipitaciones. Poco aprovechable.
+
+  - id: masas-de-aire-temperatura-relativa
+    tipo: basica
+    anverso: ¿Qué determina si una masa de aire da térmicas?
+    reverso: |
+      **La temperatura relativa.**
+
+      Aire frío sobre suelo caliente = inestabilidad (térmicas). Aire cálido
+      sobre suelo frío = estabilidad (capas, niebla, inversión).
+
+  - id: sera-5001-minimos-vfr
+    tipo: basica
+    anverso: ¿Qué visibilidad mínima exige **SERA.5001** en clase G bajo 3.000 ft AMSL / 1.000 ft AGL?
+    reverso: |
+      **5 km, libre de nubes y con la superficie a la vista.**
+
+      Puede reducirse a **1.500 m** para vuelos a 140 kt o menos, si la
+      velocidad permite ver tráfico y obstáculos a tiempo. Entrar en IMC sin
+      habilitación instrumental es infracción grave.
+    etiquetas: [Normativa]
+
+  - id: despegar-con-visibilidad-marginal
+    tipo: basica
+    anverso: ¿Por qué no se despega con visibilidad marginal bajo una inversión?
+    reverso: |
+      **Porque ante una rotura de cable el aterrizaje de vuelta se haría sin
+      referencias visuales.**
+
+      Ante cualquier duda sobre la visibilidad, pospón el vuelo.
+    etiquetas: [Seguridad]
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (4 viñetas)
+#  [1]
+#     **Frente Frío**: El mejor amigo del volovelista (después de que pasa). Trae inestabilidad,
+#     cielo limpio y térmicas potentes (cielo de "post-frente"). Al cruzarlo, espera chubascos,
+#     rolada de viento y bajada de temperatura.
+#  [2]
+#     **Frente Cálido**: Malas noticias. Anunciado por cirros que bajan a estratos, trae lluvia
+#     continua, techos bajos y mala visibilidad. El aire es estable, así que olvídate de las
+#     térmicas.
+#  [3]
+#     **Oclusiones**: Cuando el frente frío alcanza al cálido. Generalmente significa tiempo
+#     revuelto, mezcla de nubes y precipitaciones. Poco aprovechable para el vuelo.
+#  [4]
+#     **Masas de Aire**: Lo que importa es la temperatura relativa. Aire frío sobre suelo caliente
+#     = inestabilidad (¡térmicas!). Aire cálido sobre suelo frío = estabilidad (capas, niebla,
+#     inversión).
+#
+# RECUADROS (3)
+#  [Regla de oro 1]
+#     Las jornadas inmediatas tras el cruce de un frente frío intercontinental suelen ofrecer las
+#     mejores condiciones de vuelo térmico. Se caracterizan por una excelente visibilidad por
+#     ausencia de calima, presión atmosférica en aumento y un fuerte calentamiento diurno que
+#     detona corrientes ascendentes robustas marcadas por nubes Cúmulos (Cu) de contornos
+#     definidos.
+#  [Normativa 2]
+#     **SERA.5001** (Reglamento de Ejecución (UE) 923/2012) establece los mínimos meteorológicos
+#     para el vuelo VFR. En espacio aéreo de clase G, por debajo de 3.000 ft AMSL o 1.000 ft sobre
+#     el terreno, la visibilidad mínima general es de **5 km**, volando libre de nubes y con la
+#     superficie a la vista. Puede reducirse hasta **1.500 m** para vuelos a 140 kt o menos,
+#     siempre que la velocidad permita ver el tráfico y los obstáculos con tiempo para evitar la
+#     colisión. La penetración inadvertida en IMC por un piloto VFR sin habilitación de vuelo
+#     instrumental constituye una infracción grave.
+#  [Seguridad 3]
+#     No despegues con visibilidad marginal bajo una inversión: ante una rotura de cable o un
+#     desenganche de emergencia, el aterrizaje de vuelta a tierra se realizaría sin referencias
+#     visuales, con riesgo de impacto irremediable. Si tienes alguna duda sobre la visibilidad,
+#     pospón el vuelo.

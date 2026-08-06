@@ -1,0 +1,94 @@
+# Mazo Anki de 01-derecho-aereo-atc, capítulo 1.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 01-derecho-aereo-atc
+capitulo: 1
+titulo: "Derecho internacional: convenios, acuerdos y organizaciones"
+tarjetas:
+  - id: convenio-de-chicago
+    tipo: basica
+    anverso: ¿Qué es el **Convenio de Chicago** (1944) y qué creó?
+    reverso: |
+      **El tratado fundador de la aviación civil internacional**, que fija los
+      estándares mundiales mínimos. De él nace la **OACI**.
+
+  - id: easa-y-aesa
+    tipo: basica
+    anverso: ¿Qué hace **EASA** y qué hace **AESA**?
+    reverso: |
+      **EASA redacta las normas comunes europeas; AESA las aplica en España.**
+
+  - id: reglamento-base-2018-1139
+    tipo: basica
+    anverso: ¿Cuál es la norma de mayor rango del sistema europeo?
+    reverso: |
+      **El Reglamento (UE) 2018/1139 (Reglamento Base)**, que establece las
+      normas comunes de aviación civil y crea EASA.
+    etiquetas: [Normativa]
+
+  - id: vinculante-vs-amc-gm
+    tipo: basica
+    anverso: Diferencia entre **Reglamentos** y **AMC/GM**.
+    reverso: |
+      **Reglamentos = QUÉ debes cumplir (obligatorio).**
+      **AMC/GM = CÓMO cumplirlo de forma estándar (recomendado).**
+    etiquetas: [Regla de oro]
+
+  - id: tres-normas-de-cabecera
+    tipo: cloze
+    texto: |
+      Tus tres normas de cabecera: {{c1::Part-SFCL}} (tu licencia),
+      {{c2::SERA}} (cómo volar) y {{c3::Part-SAO}} (cómo operar tu planeador).
+
+  - id: sao-gen-130-responsabilidad
+    tipo: basica
+    anverso: ¿Qué establece **SAO.GEN.130** sobre el piloto al mando?
+    reverso: |
+      **Que es responsable de la seguridad de la aeronave y de todas las
+      personas a bordo.**
+
+      No se delega: eres la autoridad final en tu cabina.
+    etiquetas: [Airmanship]
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (5 viñetas)
+#  [1]
+#     **OACI y Convenio de Chicago (1944)**: el tratado fundador. Fija los estándares mundiales
+#     mínimos.
+#  [2]
+#     **EASA**: nuestra autoridad común europea. Redacta normas que todos los países de la UE
+#     cumplen por igual; AESA las aplica en España.
+#  [3]
+#     **Normativa vinculante** (Reglamentos): es ley, obligatoria al 100%. Ahí están Part-SFCL,
+#     Part-SAO y SERA.
+#  [4]
+#     **Estándares no vinculantes** (AMC/GM): no son ley estricta, pero sí la forma estándar y
+#     segura de hacer las cosas. Síguelos y no tendrás problemas.
+#  [5]
+#     Tus normas de cabecera: **Part-SFCL** (tu licencia), **SERA** (cómo volar) y **Part-SAO**
+#     (cómo operar tu planeador).
+#
+# RECUADROS (4)
+#  [Normativa 1]
+#     El Reglamento (UE) 2018/1139 (Reglamento Base) establece las normas comunes en el ámbito de
+#     la aviación civil y crea la Agencia de la Unión Europea para la Seguridad Aérea (EASA). Es
+#     la norma de mayor rango en el sistema europeo.
+#  [Regla de oro 2]
+#     * **Normativa vinculante (Reglamentos)** = **QUÉ** debes cumplir (obligatorio). *
+#     **Estándares no vinculantes (AMC/GM)** = **CÓMO** cumplirlo de forma estándar (recomendado).
+#  [Airmanship 3]
+#     Según SAO.GEN.130 (Part-SAO), el piloto al mando es responsable de la seguridad de la
+#     aeronave y de todas las personas a bordo durante las operaciones. Esta responsabilidad no se
+#     delega: tú eres la autoridad final en tu cabina.
+#  [Seguridad 4]
+#     SERA.3210 establece las prioridades de paso para evitar colisiones. Un planeador siempre
+#     tiene prioridad sobre aeronaves de motor (aviones, helicópteros), pero debe ceder el paso a
+#     globos. Conoce estas reglas de memoria.

@@ -1,0 +1,92 @@
+# Mazo Anki de 01-derecho-aereo-atc, capítulo 4.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 01-derecho-aereo-atc
+capitulo: 4
+titulo: "Licencias de personal"
+tarjetas:
+  - id: licencia-spl-validez
+    tipo: basica
+    anverso: ¿Caduca la licencia **SPL**?
+    reverso: |
+      **No: vale de por vida.** Pero sus atribuciones dependen del certificado
+      médico y de la experiencia reciente.
+
+      Se rige por **Part-SFCL**.
+
+  - id: certificado-medico-spl
+    tipo: basica
+    anverso: ¿Qué certificado médico necesita una SPL?
+    reverso: |
+      **Clase 2 o LAPL.** Sin médico en vigor, la licencia es papel mojado.
+
+  - id: recencia-5-15-2
+    tipo: cloze
+    texto: |
+      Experiencia reciente en los últimos **24 meses**: {{c1::5}} horas de
+      vuelo, {{c2::15}} lanzamientos y {{c3::2}} vuelos de entrenamiento con un
+      FI(S).
+    extra: |
+      Mnemotécnico **5, 15, 2**. Si no llegas: vuela con instructor hasta
+      cumplirlos, o supera una verificación de competencia con un FE(S).
+
+  - id: pasajeros-sfcl-115
+    tipo: basica
+    anverso: ¿Qué exige **SFCL.115** para llevar pasajeros?
+    reverso: |
+      **10 horas o 30 lanzamientos como PIC tras obtener la licencia, y un vuelo
+      de entrenamiento demostrando competencia a un FI(S)** (salvo que ya seas
+      FI(S)), **más la recencia de SFCL.160(e)**: 3 lanzamientos en los últimos
+      90 días.
+
+      Incumplirlo implica sanción y pérdida de cobertura del seguro.
+    etiquetas: [Normativa]
+
+  - id: cambio-de-salud
+    tipo: basica
+    anverso: ¿Qué hacer si cambia tu estado de salud?
+    reverso: |
+      **Consultar con un AME antes de volver a volar.**
+
+      Operación, enfermedad grave, embarazo o gafas nuevas pueden dejar el
+      certificado médico en suspenso.
+    etiquetas: [Seguridad]
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (4 viñetas)
+#  [1]
+#     **Licencia SPL**: tu título de piloto, regido por la Part-SFCL. Vale de por vida, pero sus
+#     atribuciones dependen del médico y de la experiencia reciente.
+#  [2]
+#     **Certificado médico**: Clase 2 o LAPL. Sin médico en vigor, la licencia es papel mojado.
+#  [3]
+#     **Experiencia reciente**: en los últimos 24 meses, 5 horas de vuelo (como PIC, doble mando o
+#     con FI(S)), 15 lanzamientos y 2 vuelos de entrenamiento con un FI(S). Si no llegas, vuela
+#     con instructor hasta cumplirlos o supera una verificación de competencia con un FE(S).
+#  [4]
+#     **Pasajeros**: requieren experiencia extra (10 h o 30 lanzamientos tras la licencia), un
+#     vuelo de entrenamiento con un FI(S) demostrando competencia (salvo que ya seas FI(S)) y 3
+#     lanzamientos en los últimos 90 días.
+#
+# RECUADROS (3)
+#  [Seguridad 1]
+#     Si tu salud cambia (operación, enfermedad grave, embarazo, nuevas gafas), tu certificado
+#     médico puede quedar en suspenso. Consulta siempre con un Médico Examinador Aéreo (AME) antes
+#     de volver a volar.
+#  [Regla de oro 2]
+#     * **5 , 15 , 2** * **5** horas, **15** despegues, **2** vuelos con instructor. (En los
+#     últimos 2 años).
+#  [Normativa 3]
+#     Reglamentos (UE) 2018/1976 y 2020/358 (SFCL.115): el titular de una SPL solo transportará
+#     pasajeros si, tras obtener la licencia, ha completado 10 horas de vuelo o 30 lanzamientos
+#     como PIC **y un vuelo de entrenamiento demostrando la competencia a un FI(S)** (o posee
+#     certificado FI(S)), además de cumplir la recencia de SFCL.160(e). El incumplimiento implica
+#     sanción y pérdida de cobertura del seguro.

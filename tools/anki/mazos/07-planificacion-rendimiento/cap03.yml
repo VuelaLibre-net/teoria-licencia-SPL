@@ -1,0 +1,116 @@
+# Mazo Anki de 07-planificacion-rendimiento, capítulo 3.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 07-planificacion-rendimiento
+capitulo: 3
+titulo: "Planificación de vuelo y definición de tareas"
+tarjetas:
+  - id: velocidad-media-en-tarea
+    tipo: basica
+    anverso: ¿Qué determina la **velocidad media** en una tarea?
+    reverso: |
+      **No correr más, sino parar menos.**
+
+      Evita virar térmicas flojas; la clave está en la consistencia y en elegir
+      la ruta bajo las calles de nubes.
+
+  - id: ventana-de-vuelo
+    tipo: basica
+    anverso: ¿Qué se busca en el **sondeo** antes de despegar?
+    reverso: |
+      **A qué hora empieza la convección y cuándo muere**, para planificar la
+      ventana de vuelo y cruzar lo difícil en las horas centrales.
+
+  - id: orografia-y-trazado
+    tipo: basica
+    anverso: ¿Cómo condiciona la **orografía** el trazado de la tarea?
+    reverso: |
+      **La ruta más corta sobre el mapa rara vez es la más rápida sobre el
+      terreno.**
+
+      Evita valles ciegos, marca puntos de escape en cada tramo y traza la tarea
+      **a lo largo** de convergencias y ondas, no perpendicular a ellas.
+
+  - id: sao-ide-125-supervivencia
+    tipo: basica
+    anverso: ¿Qué exige **SAO.IDE.125** al volar sobre zonas de rescate difícil?
+    reverso: |
+      **Equipo de salvamento y señalización adecuado al área sobrevolada.**
+
+      Su AMC1 concreta el mínimo: **ELT** o **PLB** registrado, equipo para
+      hacer señales de socorro y equipo de supervivencia apropiado a la ruta.
+      Sobre agua aplica además **SAO.IDE.120**: valorar antes del vuelo los
+      riesgos de un amerizaje.
+    etiquetas: [Normativa]
+
+  - id: peso-del-equipo-de-supervivencia
+    tipo: basica
+    anverso: ¿Qué pesa el equipo de supervivencia básico y qué incluye?
+    reverso: |
+      **Menos de dos kilos: agua, abrigo y baliza.**
+
+  - id: minimos-personales
+    tipo: basica
+    anverso: ¿Qué son los **mínimos personales** y cuándo se fijan?
+    reverso: |
+      **Los límites propios —altura mínima para seguir en ruta, térmica mínima
+      aceptable— y se fijan antes de salir.**
+
+      Si bajas de ahí, cambias el chip de competición a supervivencia. Sé más
+      conservador en zonas desconocidas o con planeadores de bajo rendimiento.
+    etiquetas: [Airmanship]
+
+  - id: notam-y-espacios-en-la-tarea
+    tipo: basica
+    anverso: ¿Qué hay que verificar de la ruta al definir una tarea?
+    reverso: |
+      **Los NOTAM y los espacios aéreos controlados.**
+
+      Una tarea que cruce un TMA sin autorización es una tarea fallida, por
+      mucha distancia que hayas recorrido.
+    etiquetas: [Seguridad]
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (5 viñetas)
+#  [1]
+#     **Velocidad media**: no gana el que corre más, sino el que para menos. Evita virar térmicas
+#     flojas; la clave está en la consistencia y en elegir la ruta bajo las calles de nubes.
+#  [2]
+#     **Meteorología**: estudia el sondeo antes de despegar. ¿A qué hora empieza la convección?
+#     ¿Cuándo muere? Planifica la ventana de vuelo para cruzar lo difícil en las horas centrales.
+#  [3]
+#     **Orografía**: la ruta más corta sobre el mapa rara vez es la más rápida sobre el terreno.
+#     Evita los valles ciegos, marca puntos de escape en cada tramo y traza la tarea a lo largo de
+#     convergencias y ondas, no perpendicular a ellas.
+#  [4]
+#     **Equipo de supervivencia**: sobre zonas donde el rescate sería difícil, el Part-SAO
+#     (SAO.IDE.125) exige ELT o PLB, equipo de señales y supervivencia adecuados a la ruta. Agua,
+#     abrigo y baliza: menos de dos kilos que pueden salvarte la vida.
+#  [5]
+#     **Mínimos personales**: fíjalos antes de salir. ¿Altura mínima para seguir en ruta? ¿Térmica
+#     mínima aceptable? Si bajas de ahí, cambia el chip de competición a supervivencia.
+#
+# RECUADROS (3)
+#  [Seguridad 1]
+#     Recuerda siempre verificar los NOTAM y los espacios aéreos controlados en tu ruta. Una tarea
+#     que cruce un TMA sin autorización es una tarea fallida, independientemente de la distancia
+#     recorrida.
+#  [Normativa 2]
+#     El Reglamento (UE) 2018/1976 (**Part-SAO**), que regula las operaciones de planeadores en
+#     Europa, establece en **SAO.IDE.125** que los planeadores que operen sobre zonas donde la
+#     búsqueda y el salvamento serían especialmente difíciles deben llevar el equipo de salvamento
+#     y señalización adecuado al área sobrevolada. Su AMC1 concreta el mínimo: un **ELT**, una
+#     **baliza personal de localización (PLB)** o localizador equivalente registrado, equipo para
+#     hacer señales de socorro y el equipo de supervivencia apropiado a la ruta. Para vuelos sobre
+#     agua aplica además **SAO.IDE.120**: el piloto al mando debe valorar antes del vuelo los
+#     riesgos de supervivencia en caso de amerizaje.
+#  [Airmanship 3]
+#     Tus mínimos deben ser más conservadores si vuelas en zonas desconocidas o con planeadores de
+#     bajo rendimiento. La seguridad nunca es negociable.

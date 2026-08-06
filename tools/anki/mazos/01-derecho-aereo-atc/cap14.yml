@@ -1,0 +1,70 @@
+# Mazo Anki de 01-derecho-aereo-atc, capítulo 14.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 01-derecho-aereo-atc
+capitulo: 14
+titulo: "Derecho nacional"
+tarjetas:
+  - id: dgac-vs-aesa
+    tipo: basica
+    anverso: ¿Qué hace la **DGAC** y qué hace **AESA**?
+    reverso: |
+      **La DGAC escribe las reglas del juego (política y estrategia); AESA es el
+      árbitro que vigila y sanciona.**
+    etiquetas: [Airmanship]
+
+  - id: infracciones-muy-graves
+    tipo: basica
+    anverso: ¿Qué pueden acarrear las infracciones **muy graves**?
+    reverso: |
+      **La inhabilitación.** Son las que implican muerte o accidente.
+
+  - id: sanciones-y-desconocimiento
+    tipo: basica
+    anverso: ¿Exime el desconocimiento de la ley?
+    reverso: |
+      **No.**
+
+      Volar sin licencia, sin seguro o bajo los efectos del alcohol puede costar
+      miles de euros y la inhabilitación, también a un piloto privado.
+    etiquetas: [Seguridad]
+
+  - id: ante-la-duda-pregunta
+    tipo: basica
+    anverso: Ante una duda de legalidad de una operación, ¿qué se hace?
+    reverso: |
+      **Preguntar antes al club, al instructor o a AESA.**
+
+      Mejor preguntar que enfrentarse a un expediente sancionador.
+    etiquetas: [Regla de oro]
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (3 viñetas)
+#  [1]
+#     Establece el régimen de infracciones y sanciones: las **muy graves** (muerte o accidente)
+#     pueden acarrear la inhabilitación.
+#  [2]
+#     **DGAC**: define la política aeronáutica (las "reglas del juego").
+#  [3]
+#     **AESA**: vigila y sanciona (el "árbitro").
+#
+# RECUADROS (3)
+#  [Airmanship 1]
+#     Podríamos decir que la **DGAC** escribe las "reglas del juego" (política y estrategia) y
+#     **AESA** es el "árbitro" que asegura que se cumplan en el día a día (supervisión y sanción).
+#  [Seguridad 2]
+#     Las sanciones económicas pueden ser **muy elevadas**, incluso para pilotos privados. Volar
+#     sin licencia, sin seguro, o bajo los efectos del alcohol puede costarte miles de euros y la
+#     inhabilitación para volar. El desconocimiento de la ley **NO** te exime de su cumplimiento.
+#  [Regla de oro 3]
+#     Ante cualquier duda sobre la legalidad de una operación (ej: volar cerca de un aeropuerto
+#     controlado, llevar pasajeros sin recencia), **pregunta antes a tu club, instructor o a
+#     AESA**. Es mejor preguntar que enfrentarse a un expediente sancionador.

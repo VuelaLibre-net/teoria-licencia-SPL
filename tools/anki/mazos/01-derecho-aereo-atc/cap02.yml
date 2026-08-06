@@ -1,0 +1,95 @@
+# Mazo Anki de 01-derecho-aereo-atc, capítulo 2.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 01-derecho-aereo-atc
+capitulo: 2
+titulo: "Aeronavegabilidad (*airworthiness*) de aeronaves"
+tarjetas:
+  - id: que-es-el-cofa
+    tipo: basica
+    anverso: ¿Qué acredita el **CofA** y quién lo expide?
+    reverso: |
+      **Que la aeronave se ajusta al diseño aprobado y está en condiciones de
+      operación segura.**
+
+      Lo expide el Estado de matrícula (AESA en España) y no caduca si el avión
+      se mantiene correctamente.
+
+  - id: que-es-el-arc
+    tipo: basica
+    anverso: ¿Qué es el **ARC**?
+    reverso: |
+      **La «ITV» anual: confirma que el avión está revisado y apto.**
+
+      Verifica su fecha de validez antes de volar.
+
+  - id: volar-con-arc-caducado
+    tipo: basica
+    anverso: ¿Qué pasa si vuelas con el **ARC caducado**?
+    reverso: |
+      **Es ilegal, nadie ha certificado que el avión sea seguro en el último
+      año, y la aseguradora rechazará la cobertura.**
+
+      La mayoría de pólizas la condicionan a que la aeronave esté aeronavegable.
+    etiquetas: [Seguridad]
+
+  - id: part-ml-marco
+    tipo: basica
+    anverso: ¿Qué permite **Part-ML** al piloto-propietario?
+    reverso: |
+      **Certificar tareas de mantenimiento sencillas.**
+
+      Es el marco de mantenimiento de los planeadores.
+
+  - id: tu-parte-en-la-aeronavegabilidad
+    tipo: basica
+    anverso: ¿Qué le toca al piloto en la aeronavegabilidad?
+    reverso: |
+      **Inspección prevuelo, verificar que la documentación (CofA, ARC,
+      seguro…) está a bordo y en vigor, y anotar cualquier defecto en el
+      Diario.**
+
+  - id: muesca-en-el-gelcoat
+    tipo: basica
+    anverso: ¿Es sólo estética una muesca en el **gelcoat**?
+    reverso: |
+      **No: si afecta al perfil, afecta al vuelo.**
+
+      Ante la duda, pregunta. Mejor piloto curioso que piloto en apuros.
+    etiquetas: [Airmanship]
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (4 viñetas)
+#  [1]
+#     **CofA**: acredita que la aeronave se ajusta al diseño aprobado y está en condiciones de
+#     operación segura. Lo expide el Estado de matrícula (AESA en España) y no caduca si el avión
+#     se mantiene correctamente.
+#  [2]
+#     **ARC**: la "ITV" anual. Confirma que el avión está revisado y apto. Verifica su fecha de
+#     validez antes de volar.
+#  [3]
+#     **Part-ML**: el marco de mantenimiento de los planeadores; permite al piloto-propietario
+#     certificar tareas sencillas. Su desarrollo técnico (AMP, programa mínimo de inspección,
+#     AD/SB) está en el **Libro 8 — Conocimientos Generales de la Aeronave, Estructura, Sistemas y
+#     Equipo de Emergencia**, capítulo 9.
+#  [4]
+#     **Tu parte**: hacer la inspección pre-vuelo, verificar que la documentación (CofA, ARC,
+#     seguro…​) está a bordo y en vigor, y anotar cualquier defecto en el Diario de a bordo.
+#
+# RECUADROS (2)
+#  [Seguridad 1]
+#     Nunca vueles si el ARC está caducado. Es ilegal y, lo más importante, significa que nadie ha
+#     certificado oficialmente que el avión es seguro para volar en el último año. Además, muy
+#     probablemente tu aseguradora rechazará la cobertura si ocurre algo: la mayoría de las
+#     pólizas la condicionan a que la aeronave esté aeronavegable.
+#  [Airmanship 2]
+#     ¿Ves una muesca en el gelcoat? No es solo estética: si afecta al perfil, afecta al vuelo.
+#     Ante la duda, pregunta. Es mejor ser un piloto curioso que un piloto en apuros.

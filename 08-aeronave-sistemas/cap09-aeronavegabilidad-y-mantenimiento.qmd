@@ -50,7 +50,7 @@ La seguridad aérea es cosa de todos. Cuando se detecta un fallo de diseño o un
 * **Directiva de aeronavegabilidad (AD)**: la emite EASA y es obligatoria por ley. Si un planeador tiene una AD pendiente y no se cumple en plazo, queda en tierra automáticamente (*AOG, Aircraft On Ground*).
 * **Boletín de servicio (SB)**: lo emite el fabricante. Suelen ser recomendaciones de mejora. No siempre obligan por ley, pero ignorarlos puede afectar a la seguridad y al valor de reventa del avión.
 
-![El ciclo de la aeronavegabilidad: AMP, mantenimiento y ARC](imagenes/08-cap09-ciclo-mantenimiento.jpg){#fig-08-cap09-ciclo-mantenimiento}
+![El ciclo de la aeronavegabilidad: AMP, mantenimiento y ARC](imagenes/08-cap09-ciclo-mantenimiento.jpg){#fig-08-cap09-ciclo-mantenimiento width="50%"}
 
 ::: {.postit}
 **Resumen del capítulo: mantenimiento y aeronavegabilidad**

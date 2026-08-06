@@ -1,0 +1,79 @@
+# Mazo Anki de 03-meteorologia, capítulo 1.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 03-meteorologia
+capitulo: 1
+titulo: "La atmósfera"
+tarjetas:
+  - id: atmosfera-isa
+    tipo: basica
+    anverso: ¿Qué define la atmósfera **ISA** a nivel del mar?
+    reverso: "**15 ºC, 1013,25 hPa y 0 % de humedad.**"
+
+  - id: gradientes-estandar-isa
+    tipo: cloze
+    texto: |
+      Gradientes estándar ISA: la temperatura cae {{c1::2 ºC}} por cada 1.000 ft;
+      la presión cae {{c2::1 hPa}} por cada {{c3::30 ft (o 9 m)}}.
+    extra: |
+      Si subes 90 m, la presión cae 10 hPa; si subes 3.000 ft, cae 100 hPa.
+
+  - id: altitud-de-densidad
+    tipo: basica
+    anverso: ¿Qué le hace un día caluroso en un aeródromo elevado al rendimiento?
+    reverso: |
+      **Lo empeora drásticamente**: el remolcador trepa mucho más despacio, el
+      planeador necesita más pista y hay menos sustentación para el mismo ángulo
+      de ataque.
+    etiquetas: [Seguridad]
+
+  - id: presion-parcial-de-oxigeno
+    tipo: basica
+    anverso: ¿Baja la **proporción** de oxígeno con la altura?
+    reverso: |
+      **No: se mantiene en el 21 %.** Lo que cae drásticamente es su **presión
+      parcial**, y de ahí la hipoxia.
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (4 viñetas)
+#  [1]
+#     **Atmósfera ISA**: Modelo ideal para estandarizar instrumentos y rendimiento (15°C, 1013,25
+#     hPa, 0% humedad a MSL). Raramente encontrarás un día ISA "puro", pero es la referencia
+#     universal.
+#  [2]
+#     **Gradientes Estándar**: La temperatura cae 2°C por cada 1.000 ft. La presión cae 1 hPa por
+#     cada 30 ft **o por cada 9 metros**. Ambas equivalencias son útiles: la primera en entornos
+#     anglosajones (altímetros en pies), la segunda cuando trabajas con altitudes en metros.
+#  [3]
+#     **Densidad y Rendimiento**: El planeador vuela gracias a las moléculas de aire. Menor
+#     densidad (alta elevación o día caluroso) significa menos sustentación y peor rendimiento:
+#     necesitas más pista para despegar y corres más con el mismo ángulo de ataque.
+#  [4]
+#     **Presión parcial de O~2~**: Aunque la proporción de oxígeno se mantiene (21 %), la presión
+#     a la que entra en tus pulmones cae drásticamente con la altura, provocando hipoxia (cuyos
+#     efectos fisiológicos se detallan en el **Libro 2 — Factores humanos**, capítulo 4).
+#
+# RECUADROS (3)
+#  [Regla de oro 1]
+#     Memoriza estas tres equivalencias del gradiente estándar ISA: **2 °C / 1.000 pies** para la
+#     temperatura, y **1 hPa / 30 pies** para la presión. En sistema métrico, si subes 90 metros,
+#     la presión cae 10 hPa; en pies, si subes 3.000 pies, cae 100 hPa. Si despegas de un
+#     aeródromo a 2.000 pies con QNH 1013 hPa y 20 °C, puedes estimar que a 5.000 pies la
+#     temperatura será unos 6 °C más fría (14 °C) y la presión habrá bajado unos 100 hPa.
+#  [Seguridad 2]
+#     Un día caluroso en un aeródromo elevado (alta altitud de densidad) empeora drásticamente el
+#     rendimiento: el avión remolcador trepará mucho más despacio, el planeador necesitará más
+#     pista para despegar y en vuelo tendrás menor sustentación para el mismo ángulo de ataque.
+#  [Airmanship 3]
+#     La falta prolongada de oxígeno en los tejidos se conoce como **hipoxia**. Dado su impacto
+#     crítico en la seguridad del vuelo (pérdida del conocimiento, degradación visual), los
+#     síntomas detallados, el cálculo del Tiempo de Conciencia Útil (TUC) y el uso de equipos de
+#     oxígeno se estudian en profundidad en el **Libro 2 — Factores humanos**, capítulo 4.

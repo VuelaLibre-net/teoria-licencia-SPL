@@ -7,6 +7,7 @@ PDF_OUT = $(BUILD_DIR)/pdf
 EPUB_OUT = $(BUILD_DIR)/epub
 RAG_OUT = $(BUILD_DIR)/rag
 WEB_OUT = $(BUILD_DIR)/web
+ANKI_OUT = $(BUILD_DIR)/anki
 
 # Lista de libros de la colección (01 al 09)
 LIBROS = 01-derecho-aereo-atc \
@@ -19,7 +20,7 @@ LIBROS = 01-derecho-aereo-atc \
          08-aeronave-sistemas \
          09-navegacion
 
-.PHONY: all help clean rag epub web reconocimientos $(LIBROS) completo completo-pdf completo-epub completo-rag
+.PHONY: all help clean rag epub web anki reconocimientos $(LIBROS) completo completo-pdf completo-epub completo-rag
 
 # Fuentes para los reconocimientos y estado de revisores
 fuentes_revisores = recursos/estado-revisores.json tools/actualizar-reconocimientos.py
@@ -111,6 +112,22 @@ epub_de = $(EPUB_OUT)/$(1)-$(call sufijo_de,$(1)).epub
 rag_de = $(RAG_OUT)/$(1)-$(call sufijo_de,$(1)).md
 web_de = $(WEB_OUT)/$(1)-$(call sufijo_de,$(1)).web.tar.gz
 
+# ⚠️ El mazo Anki NO usa `sufijo_de`, y no es un descuido. Sus tarjetas no viven
+# en `<libro>/` sino en `tools/anki/mazos/<libro>/` (ver tools/anki/construir.py:
+# guardarlas dentro movería la fecha del colofón de los otros cuatro entregables
+# cada vez que se corrigiera una tarjeta). Con `fecha_corta_de` —el último commit
+# que tocó el libro— corregir una tarjeta no cambiaría el nombre del .apkg, y
+# caeríamos en la trampa de siempre: make lo da por al día, sale con 0 y no hay
+# fichero nuevo que delate que no se ha compilado nada.
+#
+# `git log` con dos rutas devuelve el commit más reciente que tocó CUALQUIERA de
+# las dos, que es justo lo que hace falta.
+fecha_corta_anki_de = $(shell iso=$$($(GIT_FECHA_ISO) $(1)/ tools/anki/mazos/$(1)/ 2>/dev/null); \
+	[ -n "$$iso" ] || iso=$$(date +%F); echo "$${iso#??}" | tr -d -)
+fecha_iso_anki_de = $(shell iso=$$($(GIT_FECHA_ISO) $(1)/ tools/anki/mazos/$(1)/ 2>/dev/null); \
+	[ -n "$$iso" ] || iso=$$(date +%F); echo "$$iso")
+anki_de = $(ANKI_OUT)/$(1)-$(call version_de,$(1))-$(call fecha_corta_anki_de,$(1)).apkg
+
 # El número de tema sale del prefijo del directorio (04-comunicaciones -> 4).
 numero_de = $(shell echo $(1) | cut -d- -f1 | sed 's/^0//')
 
@@ -144,11 +161,21 @@ fuentes_typst = $(wildcard _extensions/orange-book-es/*.typ) \
 # El EPUB no ejecuta nada de la extensión typst —ni el filtro, ni las funciones—:
 # sólo se lleva esta hoja, que cada _quarto.yml enlaza con include-in-header.
 fuentes_epub = _extensions/orange-book-es/epub-estilos.html \
-               tools/epub/optimizar_imagenes.py tools/epub/validar.py
+                tools/epub/optimizar_imagenes.py tools/epub/renumerar_completo.py \
+                tools/epub/validar.py
 
 # El HTML web se genera directamente con Quarto: necesita todas las fuentes e
 # imágenes como PDF/EPUB, pero no ejecuta los filtros exclusivos de Typst.
 fuentes_web = tools/web/construir.py tools/web/imagenes.py
+
+# El mazo Anki no lee los .qmd: sus tarjetas son fuente canónica aparte, escritas
+# a mano en tools/anki/mazos/<libro>/. Del libro sólo necesita el _quarto.yml
+# (título y versión), que ya entra por `fuentes_texto_de`. Los .qmd entran igual
+# —a través de esa misma variable— porque una corrección del manual puede
+# invalidar una tarjeta, y más vale recompilar de más que publicar un mazo que
+# contradice al libro.
+fuentes_anki = tools/anki/construir.py tools/anki/modelo.py
+mazos_de = $(wildcard tools/anki/mazos/$(1)/*.yml)
 
 # ⚠️ El paquete typst vendorizado (typst/packages/…/lib.typ) NO se lista, y no es
 # un olvido. Quarto lo copia a la caché de cada libro y NO la refresca cuando
@@ -257,8 +284,19 @@ $(call web_de,$(1)): $(call fuentes_texto_de,$(1)) $(call fuentes_imagen_de,$(1)
 	  $$@
 	@echo "✓ Paquete web generado en $$@"
 
+# El mazo Anki. Como el RAG, no pasa por Quarto: las tarjetas son fuente
+# canónica propia y genanki arma el .apkg. Tampoco depende de las imágenes: a
+# una tarjeta no le llega ninguna.
+$(call anki_de,$(1)): $(call fuentes_texto_de,$(1)) $(call mazos_de,$(1)) $(fuentes_anki)
+	@echo "==> [genanki] Generando mazo Anki de $(1)..."
+	@tools/anki/construir.py $(1) \
+	  "$$(call version_libro,$(1))" \
+	  "$(call fecha_iso_anki_de,$(1))" \
+	  "$$(call estado_libro,$(1))" \
+	  $$@
+
 .PHONY: $(1)
-$(1): $(call pdf_de,$(1)) $(call epub_de,$(1)) $(call rag_de,$(1)) $(call web_de,$(1))
+$(1): $(call pdf_de,$(1)) $(call epub_de,$(1)) $(call rag_de,$(1)) $(call web_de,$(1)) $(call anki_de,$(1))
 endef
 
 $(foreach libro,$(LIBROS),$(eval $(call reglas_de_libro,$(libro))))
@@ -275,6 +313,11 @@ epub: $(foreach libro,$(LIBROS),$(call epub_de,$(libro)))
 
 # Sólo los paquetes HTML para el sitio web.
 web: $(foreach libro,$(LIBROS),$(call web_de,$(libro)))
+
+# Sólo los mazos Anki de los 9. Es lo que se reimporta tras corregir tarjetas, y
+# cuesta segundos: no pasa por Quarto.
+anki: $(foreach libro,$(LIBROS),$(call anki_de,$(libro)))
+	@python3 tools/anki/validar.py
 
 # --- REGLAS PARA EL MANUAL COMPLETO (9 PARTES) ---
 completo: completo-pdf completo-epub completo-rag
@@ -314,6 +357,7 @@ $(epub_completo): $(fuentes_completo) $(fuentes_cover_completo) $(fuentes_epub) 
 	@rm -f _quarto.yml
 	@mv _book/*.epub $@
 	@python3 tools/epub/optimizar_imagenes.py $@
+	@python3 tools/epub/renumerar_completo.py $@
 	@echo "✓ EPUB del Manual Completo generado en $@"
 
 $(rag_completo): $(fuentes_completo) tools/rag/construir.sh tools/rag/rag.lua recursos-completo/_quarto-completo.yml
@@ -385,6 +429,7 @@ help:
 	@printf '  make %-35s %s\n' 'rag' 'Sólo los Markdown para RAG de los 9 libros.'
 	@printf '  make %-35s %s\n' 'epub' 'Sólo los 9 EPUB optimizados.'
 	@printf '  make %-35s %s\n' 'web' 'Sólo los paquetes HTML para el sitio web.'
+	@printf '  make %-35s %s\n' 'anki' 'Sólo los 9 mazos Anki (.apkg), y los valida.'
 	@printf '  make %-35s %s\n' 'estados' 'Muestra libro, versión y estado editorial.'
 	@printf '  make %-35s %s\n' 'espejo' 'Copia los .qmd como .md fuera del repo, para indexar.'
 	@printf '  make %-35s %s\n' 'clean' 'Borra build/, _book/, cachés y archivos unificados en raíz.'

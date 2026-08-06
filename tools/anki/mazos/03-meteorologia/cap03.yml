@@ -1,0 +1,191 @@
+# Mazo Anki de 03-meteorologia, capítulo 3.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 03-meteorologia
+capitulo: 3
+titulo: "Termodinámica"
+tarjetas:
+  - id: estabilidad-atmosferica
+    tipo: basica
+    anverso: ¿Qué significa que la atmósfera sea **estable** o **inestable**?
+    reverso: |
+      **Estable**: una burbuja empujada hacia arriba tiende a volver a bajar.
+      **Inestable**: sigue subiendo sola.
+
+      El vuelo a vela vive de la inestabilidad.
+
+  - id: dalr-y-salr
+    tipo: cloze
+    texto: |
+      El aire **seco** se enfría {{c1::3 ºC}} por cada 1.000 ft al subir
+      (**DALR**); el aire **saturado**, sólo {{c2::1,5 ºC}} (**SALR**).
+
+  - id: altura-de-la-base-de-los-cumulos
+    tipo: basica
+    anverso: ¿Cómo se estima la altura de la **base de los cúmulos**?
+    reverso: |
+      **(T ambiente − T rocío) × 400 = altitud de la base, en pies.**
+
+      El punto de rocío y la temperatura convergen a razón de unos 2,5 ºC por
+      cada 1.000 ft de ascenso.
+    etiquetas: [Regla de oro]
+
+  - id: inversiones
+    tipo: basica
+    anverso: ¿Qué es una **inversión** y qué efectos tiene?
+    reverso: |
+      **Una capa donde la temperatura sube con la altura.**
+
+      Actúa de tapadera: frena las térmicas y atrapa humo, bruma y humedad cerca
+      de la superficie, reduciendo mucho la visibilidad por debajo.
+    etiquetas: [Seguridad]
+
+  - id: fuentes-y-disparadores
+    tipo: basica
+    anverso: ¿Qué se busca para encontrar buenas térmicas?
+    reverso: |
+      **Fuentes** que se calienten rápido —suelos secos, campos cosechados,
+      roca al sol— y **disparadores** que ayuden a la burbuja a desprenderse:
+      una cresta orientada al viento, una línea de árboles al borde del campo.
+    etiquetas: [Airmanship]
+
+  - id: tt-y-k
+    tipo: basica
+    anverso: ¿Qué mide cada uno, el **TT** y el **K-Index**?
+    reverso: |
+      **El TT dice cuánto «combustible» tiene la atmósfera para armar un Cb en
+      el llano; el K, para la montaña.**
+
+      No te fíes de uno solo: úsalos juntos antes de cada *preflight*.
+    etiquetas: [Airmanship]
+
+  - id: limitaciones-del-tt
+    tipo: basica
+    anverso: ¿Cuándo falla el **TT**?
+    reverso: |
+      **Sobrestima la inestabilidad si la temperatura a 500 hPa es muy baja sin
+      soporte convectivo abajo, y no detecta bien la estabilidad fuerte ni la
+      humedad elevada por debajo de 850 hPa.**
+
+      En esos casos, refuerza con el K-Index y el CAPE.
+    etiquetas: [Seguridad]
+
+  - id: limitaciones-del-k
+    tipo: basica
+    anverso: ¿Cuándo pierde valor el **K-Index**?
+    reverso: |
+      **En zonas áridas como la Meseta Central**, donde la baja humedad da K
+      bajos aun con térmicas potentes, **y en montaña**, si el nivel de 850 hPa
+      queda cerca del suelo.
+
+      Fue diseñado para predecir tormentas, no la calidad del vuelo a vela.
+    etiquetas: [Airmanship]
+
+  - id: cape-en-contexto-volovelista
+    tipo: basica
+    anverso: ¿Cómo se interpreta un **CAPE** de 1.000-2.500 J/kg en vuelo a vela?
+    reverso: |
+      **Como excelente**, no como «moderadamente inestable».
+
+      Da térmicas potentes y bases altas sin riesgo de tormenta severa. Las
+      escalas de los manuales generales son de meteorología convectiva, no
+      aeronáuticas.
+    etiquetas: [Airmanship]
+
+  - id: dia-termonuclear
+    tipo: basica
+    anverso: Firma numérica de un **día de convección excepcional**.
+    reverso: |
+      **TT entre 48 y 55, K entre 15 y 20, CAPE entre 1.000 y 2.500 J/kg, LI
+      negativo y vientos flojos de componente variable.**
+
+      Son los días de récords de distancia.
+    etiquetas: [Regla de oro]
+
+  - id: umbrales-de-riesgo-de-tormenta
+    tipo: basica
+    anverso: ¿Qué combinación de índices señala **alto riesgo de tormenta** diurna?
+    reverso: |
+      **TT > 55 o K > 25 junto con CAPE > 2.500 J/kg.**
+
+      Planifica el aterrizaje antes de las 16:00 y ten identificado un campo
+      alternativo antes de que se levante la convección.
+    etiquetas: [Seguridad]
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (4 viñetas)
+#  [1]
+#     **Estabilidad Atmosférica**: Concepto clave. El aire es "estable" si una burbuja empujada
+#     hacia arriba tiende a volver a bajar, e "inestable" si sigue subiendo sola. El vuelo a vela
+#     vive de la inestabilidad.
+#  [2]
+#     **Gradientes Adiabáticos**: El aire seco se enfría 3°C por cada 1.000 ft al subir (DALR). El
+#     aire saturado (nube) se enfría solo la mitad, 1,5°C (SALR). Memoriza esto para predecir la
+#     base de las nubes y su desarrollo.
+#  [3]
+#     **Inversiones**: Son capas donde la temperatura **sube** con la altura en lugar de bajar.
+#     Actúan como una tapadera invisible que frena las térmicas y atrapa la contaminación/bruma.
+#  [4]
+#     **Convección**: El sol calienta el suelo, el suelo calienta el aire, y este sube como una
+#     burbuja (modelo burbuja) o como una pluma continua (modelo columna). Cuanto más frío esté el
+#     aire arriba en comparación con el suelo, más fuerte será la térmica.
+#
+# RECUADROS (9)
+#  [Regla de oro 1]
+#     Puedes estimar fácilmente la altura de la base de los cúmulos restando la temperatura del
+#     punto de rocío a la temperatura ambiente en el suelo. Como los dejas atrás a razón de unos
+#     2.5 °C por cada 1.000 pies de ascenso conjunto (el DALR menos la caída del punto de rocío),
+#     la fórmula es: **(T~ambiente~ - T~rocío~) x 400 = Altitud de la base en pies.**
+#  [Seguridad 2]
+#     Las inversiones no solo limitan la altura máxima a la que puedes trepar en un planeador,
+#     frenando la convección por completo, sino que también atrapan humo, bruma y humedad
+#     industrial cerca de la superficie, reduciendo drásticamente la visibilidad en vuelo por
+#     debajo de la capa de inversión.
+#  [Airmanship 3]
+#     Para encontrar las mejores térmicas, busca "fuentes" que se calienten rápido (suelos secos,
+#     campos cosechados, zonas rocosas al sol) y "disparadores" o puntos de ruptura que ayuden a
+#     la burbuja a desprenderse del suelo, como una cresta de una colina orientada al viento, o
+#     una línea de árboles al borde del campo soleado.
+#  [Airmanship 4]
+#     El gráfico TT + K que el instructor cuelga cada mañana en el hangar te da la fotografía
+#     rápida del día. El TT te dice cuánto "combustible" tiene la atmósfera para armar un Cb en el
+#     llano; el K te lo dice para la montaña. No confíes en uno solo: úsalos juntos antes de cada
+#     preflight.
+#  [Seguridad 5]
+#     El TT presenta limitaciones: sobrestima la inestabilidad si la temperatura a 500 hPa es muy
+#     baja sin soporte convectivo en capas bajas, y no detecta bien la estabilidad fuerte o la
+#     humedad elevada por debajo de 850 hPa. En esas situaciones, refuerza el análisis con el
+#     K-Index y el CAPE.
+#  [Airmanship 6]
+#     El K-Index fue diseñado para predecir tormentas, no la calidad del vuelo a vela. Sus
+#     umbrales varían según la región y la estación: en zonas áridas como la Meseta Central, la
+#     baja humedad puede dar K bajos incluso con térmicas potentes. En montaña, si el nivel de 850
+#     hPa queda cerca del suelo, el índice pierde representatividad. Úsalo siempre junto al TT y,
+#     si el día tiene pinta de complicarse, añade el CAPE.
+#  [Airmanship 7]
+#     Los valores de CAPE que ves en manuales de meteorología general suelen clasificar
+#     1.000–2.500 J/kg como "moderadamente inestable", reservando "muy inestable" para valores
+#     superiores. Para el volovelista, ese rango es perfectamente excelente: proporciona térmicas
+#     potentes y bases altas sin el riesgo de tormenta severa. Cuando consultes herramientas
+#     externas como Skysight o la Universidad de Wyoming, interpreta el CAPE en contexto
+#     aeronáutico, no según las escalas de meteorología convectiva para tormentas.
+#  [Regla de oro 8]
+#     Día de convección excepcional — conocido coloquialmente como «día termonuclear» en el argot
+#     de competición —: TT entre 48 y 55, K entre 15 y 20, CAPE entre 1.000 y 2.500 J/kg, LI
+#     negativo y vientos flojos de componente variable. Son los días de récords de distancia.
+#     Puedes encontrar todos estos índices en cualquier sondeo online: gratuitamente en la
+#     Universidad de Wyoming, AEMET (AMA), Windy o Meteoblue; con previsiones orientadas al
+#     planeador en Skysight, Topmeteo o Meteo Parapente.
+#  [Seguridad 9]
+#     TT > 55 o K > 25 combinado con CAPE > 2.500 J/kg señala alto riesgo de tormenta de evolución
+#     diurna. En estas condiciones, planifica el aterrizaje antes de las 16:00 h y ten siempre
+#     identificado un campo de aterrizaje alternativo en tierra antes de que se levante la
+#     convección.

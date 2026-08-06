@@ -1,0 +1,55 @@
+# Mazo Anki de 01-derecho-aereo-atc, capítulo 12.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 01-derecho-aereo-atc
+capitulo: 12
+titulo: "Seguridad (*security*)"
+tarjetas:
+  - id: safety-vs-security
+    tipo: basica
+    anverso: Diferencia entre **safety** y **security**.
+    reverso: |
+      **Safety**: seguridad operacional — que no te accidentes volando.
+      **Security**: seguridad física — que no te roben el avión ni pongan una
+      bomba.
+
+  - id: deberes-de-security
+    tipo: basica
+    anverso: ¿Qué te toca a ti en materia de **security**?
+    reverso: |
+      **No dejar el avión abierto o accesible a desconocidos, no llevar
+      mercancías peligrosas** (salvo excepciones aprobadas) **y respetar las
+      zonas restringidas de los aeropuertos.**
+
+  - id: comportamiento-sospechoso
+    tipo: basica
+    anverso: ¿Qué hacer si ves a alguien merodeando por los hangares?
+    reverso: |
+      **Avisar inmediatamente** al responsable del campo o a las fuerzas de
+      seguridad.
+    etiquetas: [Seguridad]
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (3 viñetas)
+#  [1]
+#     **SAFETY**: seguridad operacional. Que no te accidentes volando.
+#  [2]
+#     **SECURITY**: seguridad física. Que no te roben el avión ni pongan una bomba.
+#  [3]
+#     **Tu deber**: no dejar el avión abierto o accesible a desconocidos, no llevar mercancías
+#     peligrosas (salvo excepciones aprobadas) y respetar las zonas restringidas de los
+#     aeropuertos.
+#
+# RECUADROS (1)
+#  [Seguridad 1]
+#     Si ves a alguien merodeando por los hangares, manipulando aviones ajenos o comportándose de
+#     forma sospechosa en el aeródromo, **avisa inmediatamente** al responsable del campo o a las
+#     fuerzas de seguridad. La seguridad es cosa de todos.

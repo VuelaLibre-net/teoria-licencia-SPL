@@ -1,0 +1,152 @@
+# Mazo Anki de 06-procedimientos-operativos, capítulo 6.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 06-procedimientos-operativos
+capitulo: 6
+titulo: "Procedimientos operativos especiales y peligros"
+tarjetas:
+  - id: flarm-no-sustituye-la-vista
+    tipo: basica
+    anverso: ¿Qué papel tiene el **FLARM**?
+    reverso: |
+      **Complemento, nunca sustituto de la vigilancia visual.**
+
+      Te avisa de los peligros que ya conoce. Ante una alerta, busca visualmente
+      la aeronave: el sistema da la dirección, la maniobra es tuya. El 95 % del
+      tiempo, mira fuera y barre el horizonte por sectores.
+    etiquetas: [Airmanship]
+
+  - id: esquivar-buitres
+    tipo: basica
+    anverso: Ante colisión inminente con un **buitre**, ¿por arriba o por abajo?
+    reverso: |
+      **Siempre por encima.**
+
+      El instinto del buitre asustado es plegar alas y arrojarse en picado. Si
+      picas para esquivarlo, interceptas su trayectoria de caída.
+    etiquetas: [Airmanship]
+
+  - id: tendidos-electricos
+    tipo: basica
+    anverso: ¿Cómo se detectan los **tendidos eléctricos** desde el aire?
+    reverso: |
+      **Identificando los postes de hormigón o madera y trazando mentalmente la
+      línea entre ellos antes de sobrevolarla.**
+
+      Los cables son invisibles en muchas condiciones de luz: son el mayor
+      riesgo no detectado en travesía y campo.
+    etiquetas: [Seguridad]
+
+  - id: estela-de-helicoptero
+    tipo: basica
+    anverso: ¿Por qué es tan peligrosa la estela de un **helicóptero** para un planeador?
+    reverso: |
+      **Porque es desproporcionada para su peso, y el planeador tiene gran
+      envergadura y poca carga alar.**
+
+      Nunca despegues ni aterrices justo detrás de un helicóptero en movimiento,
+      y evita zonas de estacionario reciente.
+    etiquetas: [Seguridad]
+
+  - id: viento-cruzado-despegue-y-toma
+    tipo: basica
+    anverso: Técnica de **viento cruzado** en despegue y en aterrizaje.
+    reverso: |
+      **Despegue**: alerón al viento para que no levante el plano, pie contrario
+      para no salirte de la pista.
+      **Aterrizaje**: «cangrejo» hasta el final y alinear con el pie antes de
+      tocar.
+
+  - id: horizonte-falso-en-montana
+    tipo: basica
+    anverso: ¿Cuál es tu **horizonte real** volando en montaña?
+    reverso: |
+      **La base de la montaña o el valle, no las cumbres.**
+
+      Usar las cumbres como referencia te hace volar con el morro muy alto y
+      entrar en pérdida.
+
+  - id: contaminacion-del-borde-de-ataque
+    tipo: basica
+    anverso: ¿Cuánto sube la velocidad de pérdida con las alas mojadas?
+    reverso: |
+      **Entre un 5 y un 10 %**, efecto similar al de un engelamiento leve.
+
+      Cualquier contaminación del borde de ataque —humedad, rocío, lluvia
+      suave— obliga a añadir velocidad al circuito y a la aproximación. Si se
+      acumula hielo, desciende de inmediato.
+    etiquetas: [Seguridad]
+
+  - id: amerizaje
+    tipo: basica
+    anverso: ¿Cómo se ameriza un planeador?
+    reverso: |
+      **Tren fuera** —la rueda frena el planeador al contacto y evita que la
+      cabina bucee—, **paralelo a las olas y a velocidad mínima**.
+
+      En cuanto se pare, sal: se hunde en segundos.
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (5 viñetas)
+#  [1]
+#     **Vigilancia visual**: el FLARM ayuda, pero no lo ve todo. El 95 % del tiempo, mira fuera.
+#     Barre el horizonte en sectores. Antes de virar, mira siempre hacia el lado del viraje.
+#  [2]
+#     **Viento cruzado**: alerón al viento en el despegue para que no levante el plano, pie
+#     contrario para no irte de la pista. En el aterrizaje, «cangrejo» hasta el final y alinear
+#     con el pie antes de tocar.
+#  [3]
+#     **Vuelo en montaña**: horizonte falso. Las cumbres te engañan; si las usas como referencia,
+#     volarás con el morro muy alto y entrarás en pérdida. Tu horizonte real es la base de la
+#     montaña o el valle.
+#  [4]
+#     **Engelamiento y lluvia**: cualquier contaminación del borde de ataque sube la velocidad de
+#     pérdida. Añade velocidad al circuito y a la aproximación. Si se acumula hielo, desciende de
+#     inmediato.
+#  [5]
+#     **Amerizaje**: si no queda otra opción, **tren fuera** —la rueda frena el planeador al
+#     contacto y evita que la cabina bucee—, paralelo a las olas y a velocidad mínima. En cuanto
+#     el planeador se pare, sal: se hunde en segundos.
+#
+# RECUADROS (5)
+#  [Airmanship 1]
+#     El FLARM es una herramienta de seguridad extraordinariamente útil, (obligatoria para
+#     competición oficial desde un regional hasta los mundiales) pero **nunca sustituye a la
+#     vigilancia visual**. Considéralo como un complemento que te avisa de los peligros que ya
+#     conoce, no como un sistema que elimina todos los riesgos. Ante una alerta FLARM, reacciona
+#     buscando visualmente la aeronave conflictiva: el sistema te indica la dirección, pero la
+#     maniobra final es responsabilidad tuya.
+#  [Airmanship 2]
+#     En la península ibérica, el encuentro con buitres leonados en térmica es diario durante la
+#     temporada de vuelo. Los instructores de la escuela española enseñan una regla de oro de
+#     seguridad ante una trayectoria de colisión inminente con un buitre: **esquiva siempre al ave
+#     volando por encima de ella:** El instinto de escape natural de un buitre asustado ante una
+#     amenaza de gran tamaño es **plegar sus alas y arrojarse en picado hacia abajo** para ganar
+#     velocidad de escape rápida. Si el piloto intenta esquivar al buitre picando el planeador
+#     (por debajo), existe una altísima probabilidad de interceptar la trayectoria de caída del
+#     ave y chocar frontalmente. Ante la duda, mantén tu trayectoria coordinada o tira suavemente
+#     de la palanca para pasar por encima de su cota.
+#  [Seguridad 3]
+#     Los tendidos eléctricos y los cables de telecomunicaciones son invisibles desde el aire en
+#     muchas condiciones de luz. Son el mayor riesgo no detectado en el vuelo de travesía y campo.
+#     El FLARM puede incluir su posición en zonas de competición, pero en vuelo libre la
+#     responsabilidad de detectarlos es exclusivamente visual: identifica los postes de hormigón o
+#     madera y traza mentalmente la línea entre ellos antes de sobrevolarla.
+#  [Seguridad 4]
+#     La turbulencia de estela generada por helicópteros es desproporcionada en comparación con su
+#     peso. Dado que los planeadores tienen gran envergadura y poca carga alar, son extremadamente
+#     vulnerables. Nunca intentes aterrizar o despegar inmediatamente detrás de un helicóptero en
+#     movimiento y evita cruzar zonas donde se haya realizado vuelo estacionario reciente.
+#  [Seguridad 5]
+#     El agua en las alas —por humedad, rocío o lluvia suave— tiene un efecto similar al
+#     engelamiento leve: aumenta la resistencia y la velocidad de pérdida entre un 5-10 %. Aumenta
+#     tu velocidad de aproximación y de circuito si las alas están mojadas o si has volado en
+#     condiciones de humedad elevada. Este efecto es especialmente traicionero en el aterrizaje.

@@ -1,0 +1,223 @@
+# Mazo Anki de 06-procedimientos-operativos, capítulo 7.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 06-procedimientos-operativos
+capitulo: 7
+titulo: "Procedimientos de emergencia"
+tarjetas:
+  - id: regla-universal-de-emergencia-en-lanzamiento
+    tipo: basica
+    anverso: Ante cualquier emergencia en el lanzamiento, ¿qué es lo primero?
+    reverso: |
+      **Bajar el morro** para recuperar velocidad y evitar la pérdida.
+
+      Después: soltar el cable y decidir.
+
+  - id: rotura-de-cable-torno-alturas
+    tipo: cloze
+    texto: |
+      Rotura de cable en **torno**: por debajo de {{c1::150 m}}, aterriza recto
+      por derecho; entre {{c1::150}} y {{c2::200 m}}, circuito abreviado
+      adaptado al viento; por encima de {{c2::200 m}}, circuito normal.
+
+  - id: rotura-de-cable-aerotow-alturas
+    tipo: cloze
+    texto: |
+      Rotura de cable en **remolque**: por debajo de {{c1::70 m}}, recto por
+      delante; entre {{c1::70}} y {{c2::150 m}}, retorno o circuito recortado;
+      por encima de {{c2::150 m}}, circuito abreviado o normal.
+    extra: |
+      El viraje de retorno se inicia hacia el viento cruzado, con alabeo franco
+      de unos 45º.
+
+  - id: la-maniobra-imposible
+    tipo: basica
+    anverso: ¿Qué es **«la maniobra imposible»** y por qué lo es?
+    reverso: |
+      **Intentar volver a pista virando 180º a baja altura.**
+
+      La geometría del planeo no lo permite: el viraje consume una energía y una
+      altura que no existen. Por debajo de la cota crítica y sin pista delante,
+      **aterriza recto en campo abierto. Siempre.**
+    etiquetas: [Seguridad]
+
+  - id: alturas-son-formativas
+    tipo: basica
+    anverso: ¿Son normativas las alturas de decisión de 150/200 m y 70/150 m?
+    reverso: |
+      **No: son valores formativos de referencia.**
+
+      La cota crítica real la fijan el AFM del planeador y las instrucciones
+      locales del campo (longitud de pista, obstáculos, viento habitual).
+      Apréndelas como orden de magnitud y ajústalas con tu instructor.
+    etiquetas: [Normativa]
+
+  - id: fallo-de-gancho-en-remolque
+    tipo: basica
+    anverso: Si no puedes soltar en remolque, ¿dónde te colocas?
+    reverso: |
+      **Bajo y a la izquierda del remolcador, y alabeas para avisarle.**
+
+      Nunca por encima: le levantarías la cola (*kiting*). Él soltará.
+
+  - id: aterrizar-con-cable-colgando
+    tipo: basica
+    anverso: ¿Cómo se aterriza con el **cable colgando**?
+    reverso: |
+      **Con una final alta y margen generoso hasta pasar el umbral.**
+
+      Una aproximación baja puede enganchar el cable en una valla o línea
+      eléctrica: deceleración violenta e impacto sin control.
+    etiquetas: [Seguridad]
+
+  - id: flutter-que-hacer
+    tipo: basica
+    anverso: Ante una vibración destructiva (**flutter**), ¿qué se hace?
+    reverso: |
+      **Subir el morro suavemente y abrir los aerofrenos: frenar de inmediato.**
+
+      Nunca acelerar: es exactamente lo contrario de lo que necesitas. Tras
+      cualquier vibración anormal, inspección por técnico antes de volver a
+      volar.
+    etiquetas: [Seguridad]
+
+  - id: pitot-bloqueado
+    tipo: basica
+    anverso: Con el **pitot bloqueado**, ¿cómo se vuela?
+    reverso: |
+      **Por actitud visual de cabeceo y por el sonido del viento en cabina.**
+
+      No intentes corregir con un anemómetro que sabes bloqueado; mantén actitud
+      conservadora y sonido de viento consistente.
+
+  - id: apertura-de-cupula
+    tipo: basica
+    anverso: Si la **cúpula se abre** en vuelo, ¿qué se hace?
+    reverso: |
+      **Volar el planeador. Aviate.**
+
+      Baja el morro para contrarrestar el aumento de resistencia. No sueltes la
+      palanca para agarrarla: hay accidentes mortales por ahí. Deja que flote o
+      se desprenda.
+    etiquetas: [Seguridad]
+
+  - id: lastre-asimetrico
+    tipo: basica
+    anverso: ¿Cómo se vuela con **lastre asimétrico**?
+    reverso: |
+      **15-20 km/h más rápido en circuito**, para mantener la efectividad de los
+      alerones, y con las alas niveladas al tocar.
+
+      Si dejas caer la velocidad en base o final, el ala pesada entra en pérdida
+      asimétrica y da una barrena instantánea e irrecuperable a baja altura.
+    etiquetas: [Seguridad]
+
+  - id: valvulas-y-extintor
+    tipo: basica
+    anverso: ¿Qué hay que localizar en tierra en un planeador motorizado?
+    reverso: |
+      **Las válvulas de combustible y el extintor.**
+
+      Un fuego no deja tiempo para buscar manuales. La memoria muscular se
+      entrena en tierra.
+    etiquetas: [Airmanship]
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (8 viñetas)
+#  [1]
+#     **Regla universal**: ante cualquier emergencia en el lanzamiento, lo primero siempre es
+#     **bajar el morro** para recuperar velocidad y evitar la pérdida. Después, suelta el cable y
+#     decide.
+#  [2]
+#     **Rotura de cable según el método de lanzamiento**: * **Torno (winch)**: * **< 150 m**:
+#     aterriza recto por derecho. No intentes virar. * **150 - 200 m**: circuito abreviado
+#     recortado adaptado al viento. * **> 200 m**: circuito de tráfico normal. * **Avión
+#     (aerotow)**: * **< 70 m**: aterriza recto por delante. * **70 - 150 m**: retorno o circuito
+#     recortado (el viraje de retorno se inicia hacia el viento cruzado, con alabeo franco de unos
+#     45°). * **> 150 m**: circuito abreviado o normal.
+#  [3]
+#     **«La maniobra imposible»**: intentar volver a pista a baja altura es letal. Si estás por
+#     debajo de la cota crítica (150 m en torno / 70 m en avión) y no hay pista, aterriza de
+#     frente.
+#  [4]
+#     **Fallo de gancho (aerotow)**: si no puedes soltar, sitúate **bajo y a la izquierda** del
+#     remolcador y alabea para avisarle; nunca por encima, que le levantarías la cola
+#     (**kiting**). Él soltará. Aterriza con el cable colgando planeando una final alta para
+#     librar vallas y obstáculos.
+#  [5]
+#     **Flutter**: ante una vibración destructiva, **sube el morro y abre los aerofrenos** para
+#     reducir la velocidad de inmediato. Nunca aceleres. Inspección obligatoria en tierra.
+#  [6]
+#     **Fallos de instrumentos**: con el pitot bloqueado, vuela por actitud visual de cabeceo y
+#     por el sonido del viento en cabina.
+#  [7]
+#     **Apertura de cúpula**: vuela el planeador primero (**Aviate**). No intentes cerrarla si
+#     estás bajo. Baja el morro para contrarrestar el aumento de resistencia.
+#  [8]
+#     **Lastre asimétrico**: vuela 15-20 km/h más rápido en circuito para mantener la efectividad
+#     de los alerones y mantén las alas niveladas al tocar el suelo.
+#
+# RECUADROS (9)
+#  [Airmanship 1]
+#     Ante un fallo de lanzamiento a altura crítica, **un aterrizaje fuera de los límites del
+#     aeródromo (aterrizaje forzoso recto por delante) es siempre preferible a intentar un viraje
+#     de retorno forzado a baja altura**. Forzar el viraje para "salvar" el planeador y volver a
+#     la pista es la causa principal de pérdidas y barrenas fatales.
+#  [Seguridad 2]
+#     Intentar regresar al aeródromo virando 180° a baja altura —lo que en aviación se conoce como
+#     «la maniobra imposible»— es la causa documentada de la mayoría de los accidentes graves en
+#     el despegue. La geometría del planeo no lo permite: el viraje a baja altura consume una
+#     energía y altura que no existen. **Si estás por debajo de la altura crítica establecida (150
+#     m en torno y 70 m en avión) y no hay espacio de pista por delante, aterriza recto en campo
+#     abierto. ¡Siempre!**
+#  [Seguridad 3]
+#     Cuando vueles una aproximación con el cable colgando, **bajo ninguna circunstancia realices
+#     una aproximación baja**. El cable podría engancharse en una valla o línea eléctrica antes
+#     del umbral de la pista, lo que provocaría una deceleración violenta y un impacto del
+#     planeador contra el suelo sin control (**pitch-up** o pérdida instantánea). Mantén un margen
+#     de altura generoso hasta superar el umbral.
+#  [Airmanship 4]
+#     Familiarízate con la posición de las válvulas de combustible y el extintor de tu planeador
+#     motorizado antes del primer vuelo. Una emergencia de fuego no deja tiempo para buscar
+#     manuales ni para recordar dónde están los controles de emergencia. La memoria muscular se
+#     entrena en tierra, no en vuelo.
+#  [Seguridad 5]
+#     Si experimentas una vibración fuerte y descontrolada, **reduce la velocidad de inmediato**:
+#     sube el morro suavemente y abre los aerofrenos para frenar aerodinámicamente. El *flutter*
+#     solo ocurre a altas velocidades y puede destruir el planeador en segundos. Nunca intentes
+#     aumentar la velocidad para «salir» de una vibración: es la acción exactamente contraria a lo
+#     que necesitas. Tras cualquier episodio de vibración anormal, el planeador debe ser
+#     inspeccionado por un técnico antes de volar de nuevo.
+#  [Airmanship 6]
+#     En caso de fallo instrumental completo en circuito de tráfico, confía plenamente en tu
+#     estimación visual del ángulo de planeo respecto al punto de toma. Mantén una actitud de
+#     morro conservadora, previene el pérdida asegurando una buena corriente de aire (sonido del
+#     viento consistente en cabina) y no intentes corregir visualmente basándote en un anemómetro
+#     que sabes bloqueado.
+#  [Seguridad 7]
+#     Nunca dejes de pilotar para intentar sujetar o cerrar una cúpula que se abre en circuito o a
+#     baja altura. Muchos accidentes mortales se han producido porque el piloto soltó la palanca
+#     de mandos para agarrar la cúpula con ambas manos, entrando el planeador en pérdida y barrena
+#     incontrolada o levantando la cola del remolcador y estrellándolo contra el suelo. Deja que
+#     la cúpula flote o se desprenda si es necesario; ¡concéntrate únicamente en volar!
+#  [Seguridad 8]
+#     Un ala cargada con decenas de litros de agua tiene una velocidad de pérdida muy superior al
+#     ala vacía. En caso de vaciado asimétrico, si permites que la velocidad caiga demasiado en el
+#     tramo final o en el viraje de base, el ala pesada entrará en pérdida de forma asimétrica y
+#     repentina, provocando una barrena (**spin**) instantánea e irrecuperable a baja altura.
+#     Mantener la velocidad recomendada en circuito es tu defensa absoluta.
+#  [Normativa 9]
+#     Las alturas de decisión que aparecen en este capítulo (150 y 200 m en torno; 70 y 150 m en
+#     remolque) y la escalera de decisión del aterrizaje fuera de campo son **valores formativos
+#     de referencia**, no cifras normativas: la cota crítica real de cada planeador la fijan su
+#     AFM y las instrucciones locales del campo (longitud de pista, obstáculos, viento habitual).
+#     Apréndelas como orden de magnitud y ajústalas a tu aeronave y a tu aeródromo con tu
+#     instructor.

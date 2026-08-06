@@ -1,0 +1,121 @@
+# Mazo Anki de 03-meteorologia, capítulo 4.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 03-meteorologia
+capitulo: 4
+titulo: "Nubes y niebla"
+tarjetas:
+  - id: que-anuncian-los-cirros
+    tipo: basica
+    anverso: ¿Qué anuncian los **cirros** altos?
+    reverso: "**Un frente: mal tiempo en 24-48 horas.**"
+
+  - id: cumulos-como-mapa
+    tipo: basica
+    anverso: ¿Qué marcan los **cúmulos** pequeños y algodonosos?
+    reverso: "**Térmicas.** Son el mapa del cielo del volovelista."
+
+  - id: cu-congestus-a-cb
+    tipo: basica
+    anverso: ¿Qué hacer si un cúmulo crece mucho verticalmente?
+    reverso: |
+      **Vigilarlo de cerca, y si pasa a Cumulonimbus, alejarse.**
+
+      Turbulencia severa, granizo y rayos que pueden destruir el planeador.
+
+  - id: separacion-de-un-cb
+    tipo: basica
+    anverso: ¿Qué separación lateral se mantiene de un **Cumulonimbus**?
+    reverso: |
+      **Entre 10 y 20 millas náuticas.**
+
+      Si un sistema convectivo amenaza el aeródromo, inicia el aterrizaje de
+      inmediato.
+    etiquetas: [Seguridad]
+
+  - id: niebla-de-radiacion-vs-adveccion
+    tipo: basica
+    anverso: Diferencia entre niebla de **radiación** y de **advección**.
+    reverso: |
+      **Radiación**: noches frías y despejadas; suele disiparse con el sol.
+      **Advección**: aire cálido sobre superficie fría; puede aparecer **a
+      cualquier hora** y no depende de la noche.
+
+      Niebla es visibilidad < 1 km.
+
+  - id: niebla-al-atardecer
+    tipo: basica
+    anverso: ¿Qué riesgo tienen las tardes de los días que empezaron con niebla de radiación?
+    reverso: |
+      **Que el enfriamiento nocturno la reinstaure en minutos y cierre el campo
+      antes de que aterrices.**
+
+      En costas y valles con viento de mar, añade el riesgo de advección, que
+      llega sin aviso.
+    etiquetas: [Regla de oro]
+
+  - id: lenticulares
+    tipo: basica
+    anverso: ¿Qué indican las nubes **lenticulares**?
+    reverso: |
+      **Onda de montaña**: forma de lenteja y quietas aunque sople mucho viento.
+
+      Permiten subir muy alto, pero advierten de rotores muy peligrosos a baja
+      altura.
+
+  - id: rotor-bajo-la-onda
+    tipo: basica
+    anverso: ¿Cómo se delata visualmente el **rotor** bajo la zona de onda?
+    reverso: |
+      **Por fractocúmulos deshilachados e inestables.**
+
+      Es un cilindro de turbulencia giratoria muy violento. En remolque, el
+      avión zarandeará con fuerza al atravesarlo: mantén altura suficiente y
+      sigue las indicaciones del remolcador.
+    etiquetas: [Seguridad]
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (4 viñetas)
+#  [1]
+#     **Significado de las nubes**: Para el piloto de planeador, las nubes son el mapa del cielo.
+#     Los **Cúmulos (Cu)** pequeños y algodónosos son nuestros mejores amigos (marcan térmicas).
+#     Los **Cirros** altos suelen anunciar un frente (mal tiempo en 24-48h).
+#  [2]
+#     **Peligro de Desarrollo Vertical**: Si un cúmulo crece mucho verticalmente (**Cu
+#     congestus**), vigílalo de cerca. Si pasa a **Cumulonimbus (Cb)**, aléjate millas: hay
+#     turbulencia severa, granizo y rayos que pueden destruir el planeador.
+#  [3]
+#     **Niebla vs Neblina**: Ambas reducen la visibilidad. La niebla (< 1 km) es crítica para el
+#     aterrizaje y despegue. Hay dos tipos frecuentes: la **de radiación** (noches frías y
+#     despejadas, suele disiparse con el sol por la mañana) y la **de advección** (aire cálido
+#     sobre superficie fría, puede presentarse a cualquier hora y no depende de la noche).
+#  [4]
+#     **Nubes Lenticulares**: Tienen forma de lenteja o platillo y se quedan "quietas" aunque
+#     sople mucho viento. Indican **Onda de Montaña**, un fenómeno que permite subir muy alto pero
+#     advierte de turbulencia (rotores) muy peligrosa a baja altura.
+#
+# RECUADROS (3)
+#  [Seguridad 1]
+#     El piloto debe evitar en todo momento volar en las inmediaciones de un Cumulonimbus. Se
+#     recomienda mantener una separación lateral de seguridad entre 10 y 20 millas náuticas. Si un
+#     sistema convectivo amenaza el aeródromo, inicie de inmediato el procedimiento de aterrizaje.
+#  [Regla de oro 2]
+#     Presta especial atención a la tarde en los días que hayan empezado con niebla de radiación
+#     persistente. Al caer el sol, el enfriamiento nocturno puede reinstaurar la niebla en minutos
+#     y cerrarte el campo antes de que aterrices. En costas y valles con viento de componente mar,
+#     añade también el riesgo de niebla de advección: puede llegar sin previo aviso y a cualquier
+#     hora del día.
+#  [Seguridad 3]
+#     Bajo la zona de onda, a baja altura, se esconde el **rotor**: un cilindro de turbulencia
+#     giratoria muy violento que se delata visualmente por fractocúmulos deshilachados e
+#     inestables. Si haces un remolque en zona de onda, el avión remolcador zarandeará con fuerza
+#     al atravesar el rotor. Mantén siempre altura suficiente para evitarlo y sigue las
+#     indicaciones del piloto remolcador en todo momento.

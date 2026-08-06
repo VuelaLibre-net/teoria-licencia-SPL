@@ -1,0 +1,281 @@
+# Mazo Anki de 04-comunicaciones, capítulo 2.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 04-comunicaciones
+capitulo: 2
+titulo: "Comunicaciones VFR"
+tarjetas:
+  - id: autoinformacion
+    tipo: basica
+    anverso: ¿Cómo se opera la radio en un campo **sin torre**?
+    reverso: |
+      **Por autoinformación: tú eres el controlador.** Transmites al aire tu
+      posición e intenciones.
+
+      «Fuentemilanos, velero EC-BRT, viento en cola pista 34». En
+      autoinformación el indicativo va **al principio**.
+
+  - id: afis-no-controla
+    tipo: basica
+    anverso: ¿Qué proporciona un servicio **AFIS**?
+    reverso: |
+      **Sólo información** (viento, pista en uso, meteorología). **No controla.**
+
+      La decisión final y la separación siguen siendo del piloto al mando.
+    etiquetas: [Normativa]
+
+  - id: ver-y-evitar
+    tipo: basica
+    anverso: ¿Puede fiarse el piloto de que «nadie ha cantado posición»?
+    reverso: |
+      **No.** No todos llevan radio ni te han oído.
+
+      Asegúrate **visualmente** de que pista y final están libres antes de
+      virar. Es un error fatal frecuente en el viraje base-final.
+    etiquetas: [Seguridad]
+
+  - id: sintonizar-con-antelacion
+    tipo: basica
+    anverso: ¿Con cuánta antelación se sintoniza la frecuencia del campo, y para qué?
+    reverso: |
+      **Diez minutos antes.** Escuchar a otros te da pista en uso, viento y
+      densidad de tráfico.
+
+  - id: circuito-estandar
+    tipo: basica
+    anverso: Si nadie indica lo contrario, ¿en qué sentido es el circuito y qué se notifica?
+    reverso: |
+      **A izquierdas.** Se notifican **entrada, viento en cola, base y final**.
+
+  - id: circuitos-separados-velero-motor
+    tipo: basica
+    anverso: En campos con mucha actividad de vuelo a vela, ¿por dónde va cada circuito?
+    reverso: |
+      **El de planeadores puede ir por un lado de la pista y el de aviones con
+      motor —remolcadores incluidos— por el contrario.**
+
+      Consulta siempre la carta del aeródromo antes del vuelo.
+    etiquetas: [Regla de oro]
+
+  - id: prioridad-de-paso-sera-3210
+    tipo: cloze
+    texto: |
+      Orden de prioridad de paso de **SERA.3210**, de mayor a menor:
+      {{c1::globos}} > {{c2::planeadores}} > {{c3::dirigibles}} >
+      {{c4::aeronaves con motor}}.
+    extra: |
+      El planeador tiene prioridad sobre todo aerodino propulsado y **cede el
+      paso a los globos**. Nunca justifica descuidar la vigilancia visual.
+
+  - id: parapentes-y-alas-delta
+    tipo: basica
+    anverso: ¿Qué hacer con parapentes y alas delta, que SERA no cita en la jerarquía?
+    reverso: |
+      **Tratarlos como a un planeador y, además, cederles el paso.**
+
+      Maniobran bastante peor y descienden sin poder remontar. Ante la duda,
+      sepárate.
+    etiquetas: [Airmanship]
+
+  - id: fraseologia-torno
+    tipo: basica
+    anverso: Fraseología de lanzamiento con **torno**.
+    reverso: |
+      «**Listo tensando**» → «**Remolcando** ×3» → «**Cable libre**».
+
+      Para abortar: «**Stop torno** ×3».
+
+  - id: fallo-de-torno-bajo
+    tipo: basica
+    anverso: ¿Qué se hace ante un fallo de torno **por debajo de 150 m AGL**?
+    reverso: |
+      **Bajar el morro de inmediato para recuperar velocidad y aterrizar recto
+      al frente. No virar.**
+
+      Intentar regresar a la pista a baja altura es la causa más frecuente de
+      accidentes mortales en lanzamiento con torno.
+    etiquetas: [Seguridad]
+
+  - id: acuerdo-con-el-remolcador
+    tipo: basica
+    anverso: ¿Qué se acuerda con el piloto remolcador **antes** de subir al planeador?
+    reverso: |
+      **La altitud de suelta y la dirección de alejamiento**, para que el
+      remolcador vuelva a pista sin cruzarse con el velero.
+    etiquetas: [Airmanship]
+
+  - id: entrar-y-alinear-no-es-despegar
+    tipo: basica
+    anverso: ¿Autoriza a despegar un «entrar y alinear» / «entrar y mantener»?
+    reverso: |
+      **Nunca.** Hay que oír explícitamente «**Autorizado a despegar**».
+
+      Ante la duda: «Confirme, ¿autorizado salida?». No uses la palabra
+      *despegar* salvo para colacionar una autorización expresa.
+    etiquetas: [Seguridad]
+
+  - id: colacion-en-controlado
+    tipo: basica
+    anverso: ¿Cómo se colaciona en espacio controlado?
+    reverso: |
+      **Repitiendo cada instrucción, sin el viento, y con el indicativo al
+      final.**
+
+      «Autorizado a aterrizar pista 36, Eco Papa Eco».
+
+  - id: puntos-de-notificacion
+    tipo: basica
+    anverso: ¿Qué son los **puntos de notificación** y dónde se estudian?
+    reverso: |
+      **Las puertas de entrada y salida visual del CTR** (Sierra, Norte, Eco…),
+      y están en la **carta VAC**.
+
+  - id: fis-no-separa
+    tipo: basica
+    anverso: ¿Qué te da —y qué no— el **FIS**?
+    reverso: |
+      **Da información de tráficos y meteorología, si su carga de trabajo lo
+      permite. No controla: la separación sigue siendo tuya.**
+
+  - id: no-esfumarse-de-una-frecuencia
+    tipo: basica
+    anverso: ¿Se puede abandonar sin más una frecuencia controlada o de información?
+    reverso: |
+      **No.** Solicita el cambio o avisa de que la abandonas.
+
+      «Madrid, EC-DPE, para pasar a frecuencia de club 123.500».
+
+  - id: rmz
+    tipo: basica
+    anverso: ¿Qué es una **RMZ** y dónde se consultan sus límites?
+    reverso: |
+      **Una zona con radio obligatoria donde el servicio de control no lo es**,
+      establecida al amparo de SERA.
+
+      Sus límites y condiciones, en la **carta ENR 6.12**.
+    etiquetas: [Normativa]
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (12 viñetas)
+#  [1]
+#     **Autoinformación**: En el campo sin torre, tú eres el controlador. Transmite «al aire» tu
+#     posición e intenciones. «Fuentemilanos, velero EC-BRT, viento en cola pista 34».
+#  [2]
+#     **Ver y Evitar**: La radio ayuda, pero tus ojos mandan. No asumas que todos tienen radio o
+#     te han escuchado. Busca activamente otros tráficos.
+#  [3]
+#     **La Frecuencia Correcta**: Sintoniza la frecuencia del campo 10 minutos antes. Escuchar a
+#     otros te dirá pista en uso, viento y densidad de tráfico.
+#  [4]
+#     **Circuito Estándar**: Si nadie indica lo contrario, el circuito es a izquierdas. Notifica:
+#     entrada, viento en cola, base y final.
+#  [5]
+#     **Lanzamiento (torno/remolcador)**: Con torno: «Listo tensando» → «Remolcando x3» → «Cable
+#     libre». Abortar: «Stop torno x3». Fallo bajo (por debajo de 150 m en torno): recto al
+#     frente, nunca regreses virando. **En aeródromos controlados**
+#  [6]
+#     **Autorización (Clearance)**: En espacio controlado, la palabra de la Torre es ley.
+#     Necesitas autorización explícita para todo: arrancar, rodar, despegar, entrar en zona. Si no
+#     oyes «autorizado», no te muevas.
+#  [7]
+#     **Plan de Vuelo (FPL)**: Tu billete de entrada. Preséntalo con al menos 60 minutos de
+#     antelación; los plazos exactos, en el AIP-España ENR 1.10.
+#  [8]
+#     **Puntos de Notificación**: Son las puertas de entrada/salida visual al CTR (Sierra, Norte,
+#     Eco…​). Conócelos bien en la carta VAC y notifica sobre ellos con precisión.
+#  [9]
+#     **Colacionar Todo**: En controlado es vital. Repite cada instrucción, sin el viento y con tu
+#     indicativo al final. «Autorizado a aterrizar pista 36, Eco Papa Eco». **Con ATC, en ruta**
+#  [10]
+#     **Servicio de Información de Vuelo (FIS)**: Es un servicio de asesoramiento, no de control.
+#     Te informan sobre tráficos y meteorología (si tienen carga de trabajo), pero la separación
+#     sigue siendo tu responsabilidad. "Para información, contacto con Madrid Información…​".
+#  [11]
+#     **Cambio de Frecuencia**: Nunca te "esfumes" de una frecuencia controlada o de información.
+#     Solicita el cambio o avisa de que abandonas la frecuencia. "Madrid, EC-DPE para pasar a
+#     frecuencia de club 123.500".
+#  [12]
+#     **Transpondedor en ruta**: Si dispones de transpondedor, código VFR por defecto: **7000**.
+#     Emergencias: **7700** (emergencia activa — **Mayday**) y **7600** (fallo de radio — ver cap.
+#     7). Solo usar ante la emergencia real.
+#
+# RECUADROS (14)
+#  [Normativa 1]
+#     Aunque en algunos campos exista un operador de radio prestando un servicio AFIS (**Aerodrome
+#     Flight Information Service**), este operador **no proporciona control**, solo información
+#     (viento, pista en uso, meteorología). La decisión final y la responsabilidad de la
+#     separación siguen siendo íntegramente del piloto al mando.
+#  [Seguridad 2]
+#     Un error fatal es iniciar un viraje (por ejemplo, de tramo base a final) confiando
+#     únicamente en que "nadie ha cantado posición por la radio". Asegúrate siempre visualmente de
+#     que la pista y la aproximación final están libres de tráfico antes de virar.
+#  [Regla de oro 3]
+#     En campos con mucha actividad de vuelo a vela, el circuito de planeadores puede discurrir
+#     por un lado de la pista y el de aviones con motor (incluidos los remolcadores) por el
+#     contrario. Consulta siempre la carta del aeródromo antes del vuelo.
+#  [Normativa 4]
+#     Según el Reglamento SERA (artículo SERA.3210), el orden de prioridad de paso —de mayor a
+#     menor— es: globos > planeadores > dirigibles > aeronaves con motor. El planeador tiene
+#     prioridad sobre todo aerodino propulsado por motor y **cede el paso a los globos**. Esta
+#     prioridad aplica en vuelo y en las inmediaciones del aeródromo; nunca justifica descuidar la
+#     vigilancia visual activa.
+#  [Airmanship 5]
+#     SERA no incluye a parapentes y alas delta en esa jerarquía con esa literalidad, pero el
+#     criterio operativo prudente es tratarlos como a un planeador y, además, cederles el paso:
+#     maniobran bastante peor que tú y descienden sin poder remontar. Ante la duda, sepárate.
+#  [Seguridad 6]
+#     Si el cable se rompe o el torno falla, baja el morro de inmediato para recuperar velocidad.
+#     A baja altura —por debajo de unos **150 m AGL** en torno— no vires: aterriza recto al frente
+#     en el terreno disponible. Intentar regresar a la pista de origen a baja altura es la causa
+#     más frecuente de accidentes mortales en lanzamiento con torno. Las franjas de decisión
+#     completas por altura (recto al frente, circuito abreviado o circuito normal) se desarrollan
+#     en el **Libro 6 — Procedimientos operativos**, capítulo 7.
+#  [Airmanship 7]
+#     Antes de subir al planeador, acuerda siempre con el piloto remolcador la altitud de suelta y
+#     la dirección de alejamiento. Así el remolcador puede regresar a la pista sin cruzarse con el
+#     velero que inicia su vuelo.
+#  [Seguridad 8]
+#     Una autorización para «entrar y alinear» o «entrar y mantener» en la pista activa **nunca**
+#     constituye una autorización para despegar. Debes permanecer inmóvil en la cabecera hasta
+#     escuchar explícitamente las palabras: *«Autorizado a despegar»* (**Cleared for take-off**).
+#     Si tienes cualquier duda, consulta: «Confirme, ¿autorizado salida?». No utilices jamás la
+#     palabra *despegar* salvo para colacionar (read-back) una autorización expresa.
+#  [Airmanship 9]
+#     Si surge la necesidad imprevista de entrar en espacio controlado sin plan de vuelo previo,
+#     es posible abrirlo en el aire (AFIL — Airborne Flight Plan) contactando por radio a la
+#     dependencia ATC y facilitando tipo de aeronave, posición, intenciones y tiempos estimados.
+#     Esta opción depende de la disponibilidad del servicio y de la carga de trabajo del
+#     controlador.
+#  [Normativa 10]
+#     Los plazos exactos de presentación del plan de vuelo están especificados en el **AIP-España
+#     ENR 1.10** y pueden variar según el tipo de operación y la dependencia ATC. Consúltalo antes
+#     de cada vuelo que implique espacio controlado; el incumplimiento puede resultar en la
+#     denegación de la autorización.
+#  [Regla de oro 11]
+#     Cuando anotes mentalmente o en tu pernera la instrucción dada por un controlador, si se
+#     compone de autorización de pista de aterrizaje o despegue, rumbo o altitud a mantener, QNH,
+#     o el código del transpondedor, tu respuesta por radio **NO puede ser "Wilco"** o
+#     **"Copiado"**. Debes recitar esos parámetros tal y como te los han dado.
+#  [Airmanship 12]
+#     En travesías de vuelo a vela (**cross-country**), mantener la escucha en la frecuencia del
+#     FIS regional correspondiente proporciona una capa adicional de seguridad, especialmente en
+#     días con desarrollo tormentoso donde la información meteorológica en tiempo real es crítica.
+#     Además, estar en contacto con el FIS acelera la activación de los servicios de Búsqueda y
+#     Salvamento (SAR) ante una toma en campo fuera de aeródromo.
+#  [Normativa 13]
+#     Los códigos 7600 (fallo de radio) y 7700 (emergencia) activan alertas inmediatas en todos
+#     los centros de control. Selecciónelos únicamente ante la situación real que corresponda y
+#     extreme la precaución al cambiar de código para no activarlos accidentalmente.
+#  [Normativa 14]
+#     Las RMZ están reguladas por el Reglamento SERA y permiten al Estado miembro establecer
+#     requisitos de radio en espacio aéreo donde el servicio de control no es obligatorio. Sus
+#     límites y condiciones aparecen referenciados en la **carta ENR 6.12** (carta de zonas de
+#     radio obligatoria).

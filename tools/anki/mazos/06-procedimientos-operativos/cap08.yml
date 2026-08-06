@@ -1,0 +1,119 @@
+# Mazo Anki de 06-procedimientos-operativos, capítulo 8.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 06-procedimientos-operativos
+capitulo: 8
+titulo: "Uso y aterrizaje con paracaídas de emergencia"
+tarjetas:
+  - id: cuando-saltar
+    tipo: basica
+    anverso: ¿Cuándo se salta en paracaídas?
+    reverso: |
+      **Sólo si el planeador es irrecuperable**: fallo estructural, colisión en
+      vuelo, fuego incontrolable o barrena irrecuperable.
+
+      Si el planeador vuela de forma controlable, quédate dentro.
+
+  - id: altura-minima-de-salto
+    tipo: basica
+    anverso: ¿Cuál es la **altura mínima** para saltar?
+    reverso: |
+      **150 m AGL.** Por debajo, el paracaídas puede no tener tiempo de abrirse
+      del todo.
+
+  - id: secuencia-de-salto
+    tipo: basica
+    anverso: Secuencia de **salto** en emergencia.
+    reverso: |
+      1. Desprender la **cúpula**.
+      2. Soltar los **arneses**.
+      3. **Saltar** alejándote de la cola, por el interior del giro.
+      4. Contar «mil uno, mil dos, mil tres».
+      5. **Tirar de la anilla** (en paracaídas manuales).
+
+  - id: saltar-con-g-elevadas
+    tipo: basica
+    anverso: En barrena o espiral, ¿cómo se sale con 3-4 G encima?
+    reverso: |
+      **Aprovechando el instante de menor G al inicio de cada rotación para
+      empujar la cúpula y saltar.**
+
+      Actúa con decisión: cada segundo de demora es altura perdida.
+    etiquetas: [Seguridad]
+
+  - id: separarse-antes-de-tirar
+    tipo: basica
+    anverso: ¿Por qué hay que estar separado del planeador antes de tirar de la anilla?
+    reverso: |
+      **Porque la campana puede engancharse en el estabilizador, el fuselaje o
+      las superficies de control e impedir la apertura completa.**
+    etiquetas: [Seguridad]
+
+  - id: toma-de-tierra-en-paracaidas
+    tipo: basica
+    anverso: ¿Cómo se toma tierra en paracaídas?
+    reverso: |
+      **Girando la campana con las bandas de las hombreras para caer cara al
+      viento**, en posición **PLF** (pies y rodillas juntos y flexionados), y
+      rodando al tocar.
+
+      Con viento, tira de los cordones inferiores para colapsar la campana.
+
+  - id: mantenimiento-del-paracaidas
+    tipo: basica
+    anverso: ¿Cada cuánto se pliega e inspecciona el paracaídas, y qué lo invalida?
+    reverso: |
+      **Cada 6-12 meses según fabricante, por técnico certificado.**
+
+      Nunca vueles con la tarjeta caducada, ni un solo día. Exposición a humedad
+      intensa, productos químicos (gasolina, aceites, disolventes) o impacto
+      mecánico obligan a inspección. Protégelo del UV.
+    etiquetas: [Seguridad]
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (5 viñetas)
+#  [1]
+#     **Cuándo saltar**: solo cuando el planeador es irrecuperable: fallo estructural, colisión en
+#     vuelo, fuego incontrolable o barrena irrecuperable. Si el planeador vuela de forma
+#     controlable, quédate dentro.
+#  [2]
+#     **Altura mínima**: 150 m AGL. Por debajo de esta cota, el paracaídas puede no tener tiempo
+#     suficiente para abrirse del todo.
+#  [3]
+#     **Secuencia de salto**: (1) desprender la cúpula, (2) soltar los arneses, (3) saltar
+#     alejándote de la cola por el interior del giro, (4) contar «mil uno, mil dos, mil tres», (5)
+#     tirar de la anilla (en paracaídas manuales).
+#  [4]
+#     **Descenso y toma de tierra**: gira la campana en el aire tirando de las bandas de las
+#     hombreras para **aterrizar cara al viento** y reducir el impacto horizontal. Adopta la
+#     posición PLF (pies y rodillas juntos y flexionados) y rueda al tocar el suelo. Con viento,
+#     tira de los cordones inferiores para colapsar la campana.
+#  [5]
+#     **Mantenimiento**: plegado e inspección obligatorios cada 6-12 meses según el fabricante,
+#     por un técnico certificado. Protégelo de la radiación UV, la humedad y los contaminantes
+#     químicos. Es tu último recurso: cuídalo.
+#
+# RECUADROS (3)
+#  [Seguridad 1]
+#     En una barrena o espiral descontrolada, las fuerzas G pueden ser muy elevadas —hasta 3-4 G
+#     centrífugos— y dificultar enormemente la salida de la cabina. Actúa con decisión y rapidez:
+#     cada segundo de demora es altura que se pierde. Si las fuerzas G te impiden moverte,
+#     aprovecha el instante de menor G al inicio de cada rotación para empujar la cúpula y saltar.
+#  [Seguridad 2]
+#     Asegúrate de estar completamente separado del planeador antes de tirar de la anilla. Si la
+#     campana se abre junto al planeador, puede engancharse en el estabilizador, el fuselaje o las
+#     superficies de control, impidiendo una apertura completa.
+#  [Seguridad 3]
+#     Nunca vueles con un paracaídas cuya tarjeta de inspección esté caducada, aunque sea por un
+#     solo día. Del mismo modo, si el paracaídas ha estado expuesto a humedad intensa, a productos
+#     químicos (gasolina, aceites, disolventes) o a cualquier impacto mecánico, debe ser
+#     inspeccionado por un técnico antes de volver a usarlo. La tarjeta de inspección en vigor no
+#     es una formalidad burocrática: es la única garantía objetiva de que el equipo funciona.

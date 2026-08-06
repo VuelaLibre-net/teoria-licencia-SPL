@@ -1,0 +1,92 @@
+# Mazo Anki de 08-aeronave-sistemas, capítulo 4.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 08-aeronave-sistemas
+capitulo: 4
+titulo: "Masa y centro de gravedad"
+tarjetas:
+  - id: mtow-vs-masa-sin-agua
+    tipo: basica
+    anverso: ¿Por qué hay dos límites de masa, con y sin agua?
+    reverso: |
+      **Porque el agua en las alas no castiga la raíz del ala como el peso en
+      cabina.**
+
+  - id: limites-de-cg-cual-es-peligroso
+    tipo: basica
+    anverso: ¿Cuál de los dos límites de CG es el peligroso, y por qué?
+    reverso: |
+      **El trasero.**
+
+      CG adelantado: mandos pesados y recogida corta. CG atrasado: inestable y
+      barrena potencialmente irrecuperable.
+
+  - id: placa-de-limitaciones-y-lastre
+    tipo: basica
+    anverso: ¿Qué exige la **placa de limitaciones** de cabina (CS-22)?
+    reverso: |
+      **Que sean visibles las cargas mínima y máxima del asiento.**
+
+      Si tu peso con paracaídas y ropa queda por debajo del mínimo, es
+      obligatorio instalar lastre antes de despegar, según diga el AFM.
+    etiquetas: [Normativa]
+
+  - id: lastre-fijo-de-plomo
+    tipo: basica
+    anverso: ¿Qué es el **lastre fijo** y para qué se pone?
+    reverso: |
+      **Placas de plomo en el morro, para corregir un CG atrasado con piloto
+      ligero.**
+
+  - id: olvidar-vaciar-el-lastre-de-cola
+    tipo: basica
+    anverso: ¿Qué pasa si se olvida vaciar el **lastre de cola** con un piloto ligero delante?
+    reverso: |
+      **Una emergencia grave: CG peligrosamente atrasado.**
+
+  - id: cuando-se-pesa-el-planeador
+    tipo: basica
+    anverso: ¿Cuándo hay que volver a pesar el planeador y dónde consta?
+    reverso: |
+      **Tras reparaciones, repintado o cambios de equipo**, según el manual de
+      mantenimiento.
+
+      El resultado vive en el **Certificado de Pesaje**.
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (5 viñetas)
+#  [1]
+#     **MTOW y masa sin agua**: dos límites distintos. El agua en las alas no castiga la raíz del
+#     ala como el peso en cabina.
+#  [2]
+#     **Límites de CG**: adelantado, mandos pesados y recogida corta; retrasado, inestable y
+#     barrena potencialmente irrecuperable. El trasero es el peligroso.
+#  [3]
+#     **Lastre fijo**: placas de plomo en el morro para corregir un CG atrasado (piloto ligero).
+#     Si no llegas al peso mínimo de la placa de limitaciones, lastre obligatorio.
+#  [4]
+#     **Lastre de cola**: depósito de agua o pesas en la deriva para ajustar el CG óptimo.
+#     Cuidado: olvidar vaciarlo con un piloto ligero delante es una emergencia grave (CG
+#     peligrosamente atrasado).
+#  [5]
+#     **Pesaje**: tras reparaciones, repintado o cambios de equipo, según el manual de
+#     mantenimiento. El resultado vive en el Certificado de Pesaje.
+#
+# RECUADROS (2)
+#  [Normativa 1]
+#     La certificación CS-22 exige una placa de limitaciones visible en cabina con las cargas
+#     mínima y máxima del asiento. Comprueba siempre el peso mínimo en cabina: si el tuyo (con
+#     paracaídas y ropa) queda por debajo de ese mínimo, es obligatorio instalar lastre antes de
+#     despegar, según indique el Manual de Vuelo.
+#  [Airmanship 2]
+#     El cálculo numérico de masa y centrado (datum, brazos y momentos) se desarrolla con un
+#     ejemplo completo en el **Libro 7 — Planificación y Rendimiento de Vuelo**, capítulo 1. Aquí
+#     nos interesa la parte física: dónde está cada lastre y qué sistemas lo gestionan.

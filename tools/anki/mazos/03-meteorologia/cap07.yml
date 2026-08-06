@@ -1,0 +1,103 @@
+# Mazo Anki de 03-meteorologia, capítulo 7.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 03-meteorologia
+capitulo: 7
+titulo: "Sistemas de presión"
+tarjetas:
+  - id: anticiclon
+    tipo: basica
+    anverso: ¿Qué caracteriza un **anticiclón** y en qué sentido gira su viento?
+    reverso: |
+      **Aire que baja (subsidencia) y se seca: estabilidad y buen tiempo.**
+      Viento en sentido **horario** en el hemisferio norte.
+
+      En invierno atrapa nieblas y contaminación.
+
+  - id: borrasca
+    tipo: basica
+    anverso: ¿Qué caracteriza una **borrasca** y en qué sentido gira su viento?
+    reverso: |
+      **Aire que sube y condensa: fábrica de nubes, frentes y viento.**
+      Viento en sentido **antihorario** en el hemisferio norte.
+
+  - id: vaguada-y-dorsal
+    tipo: basica
+    anverso: Diferencia entre **vaguada** y **dorsal**.
+    reverso: |
+      **Vaguada**: lengua de baja presión, mal tiempo estirado.
+      **Dorsal**: lengua de alta presión, buen tiempo estirado.
+
+  - id: collado
+    tipo: basica
+    anverso: ¿Qué es un **collado** barométrico y qué implica?
+    reverso: |
+      **La zona neutra entre dos altas y dos bajas cruzadas: un pantano
+      barométrico.**
+
+      Vientos flojos, dirección variable y probabilidad de nieblas o tormentas
+      estáticas en verano. Evolución lenta e impredecible: no comprometas un
+      vuelo de distancia hasta que el patrón se resuelva.
+    etiquetas: [Airmanship]
+
+  - id: mapa-sinoptico-la-noche-anterior
+    tipo: basica
+    anverso: ¿Qué se decide mirando el mapa sinóptico la noche anterior?
+    reverso: |
+      **Dorsal o anticiclón sobre España → planifica vuelo de distancia.
+      Vaguada o borrasca acercándose → no planifiques.**
+
+      El movimiento de las isobaras da 24-48 horas de margen.
+    etiquetas: [Regla de oro]
+
+  - id: borrasca-a-menos-de-500-km
+    tipo: basica
+    anverso: ¿A qué distancia de una depresión activa se cancela el vuelo?
+    reverso: |
+      **A menos de 500 km de la zona de vuelo, cancela antes de salir.**
+
+      Las condiciones VFR se degradan rápido: nubosidad baja, visibilidad
+      reducida y ráfagas.
+    etiquetas: [Seguridad]
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (4 viñetas)
+#  [1]
+#     **Anticiclones (H)**: Zonas de alta presión donde el aire baja (subsidencia) y se seca.
+#     Garantizan estabilidad y buen tiempo, pero en invierno atrapan nieblas y contaminación. El
+#     viento gira en sentido horario (H. Norte).
+#  [2]
+#     **Borrascas (L)**: Zonas de baja presión donde el aire sube y condensa. Son fábricas de
+#     nubes, frentes y viento. El viento gira en sentido antihorario (H. Norte).
+#  [3]
+#     **Vaguadas y Dorsales**: Una vaguada es una "lengua" de baja presión (mal tiempo estirado);
+#     una dorsal es una "lengua" de alta presión (buen tiempo estirado).
+#  [4]
+#     **Collado**: Zona neutra entre dos altas y dos bajas cruzadas. Es como un pantano
+#     barométrico: vientos flojos, dirección variable y probabilidad de nieblas o tormentas
+#     estáticas en verano.
+#
+# RECUADROS (3)
+#  [Regla de oro 1]
+#     Para planificar el vuelo del día, mira el mapa sinóptico la noche anterior: si España está
+#     bajo una dorsal o anticiclón (H), planifica vuelo de distancia; si hay una vaguada o
+#     borrasca acercándose, no planifiques. El movimiento de las isobaras te da 24-48 horas de
+#     margen para decidir con criterio.
+#  [Seguridad 2]
+#     Nunca salgas con previsión de borrasca activa en aproximación. Las condiciones VFR pueden
+#     degradarse rápidamente: nubosidad baja, visibilidad reducida y ráfagas que complican el
+#     aterrizaje. Cancela antes de salir si el mapa sinóptico muestra una depresión activa a menos
+#     de 500 km de tu zona de vuelo.
+#  [Airmanship 3]
+#     Cuando el mapa sinóptico muestre un collado centrado sobre tu zona de vuelo, no improvises:
+#     las condiciones evolucionan con lentitud e impredecibilidad. Espera a que el patrón se
+#     resuelva claramente —hacia anticiclón o hacia situación post-frontal con viento del norte—
+#     antes de comprometerte con un vuelo de distancia.

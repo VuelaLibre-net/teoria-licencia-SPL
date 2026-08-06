@@ -1,0 +1,241 @@
+# Mazo Anki de 06-procedimientos-operativos, capítulo 2.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 06-procedimientos-operativos
+capitulo: 2
+titulo: "Métodos de lanzamiento"
+tarjetas:
+  - id: cinco-reglas-del-torno
+    tipo: basica
+    anverso: ¿Cuáles son las **cinco reglas del torno**?
+    reverso: |
+      1. Nunca con **viento en cola**.
+      2. Nunca con **hierba alta**.
+      3. **La mano en la bola de suelta**, y soltar **antes** de que el ala
+         toque el suelo.
+      4. Quien lleva el ala, **formado**.
+      5. Cuidado con el **viento cruzado**.
+
+      Las cinco protegen de lo mismo: los tres segundos en que el planeador
+      acelera sin que el ala pueda corregir nada.
+    etiquetas: [Seguridad]
+
+  - id: si-algo-no-cuadra
+    tipo: basica
+    anverso: ¿Cuál es la decisión más barata del día en el torno?
+    reverso: |
+      **Si algo no cuadra, no te enganches.**
+
+      Un lanzamiento abortado en tierra cuesta cinco minutos. Lo otro cuesta un
+      planeador, y a veces más.
+    etiquetas: [Regla de oro]
+
+  - id: rotura-de-cable-prioridad
+    tipo: basica
+    anverso: ¿Cuál es la prioridad absoluta si se rompe el cable en el ascenso?
+    reverso: |
+      **Bajar el morro** a actitud de planeo para recuperar velocidad y evitar
+      la pérdida.
+
+      Sólo después: suelta el cable remanente y decide entre aterrizar recto,
+      girar 180º o hacer circuito abreviado, según la altura.
+    etiquetas: [Seguridad]
+
+  - id: posicion-alta-en-remolque
+    tipo: basica
+    anverso: ¿Cuál es la referencia de la **posición alta** en remolque, y qué pasa si la pierdes?
+    reverso: |
+      **Las ruedas del remolcador apoyadas en el horizonte.**
+
+      Si el remolcador desaparece de tu vista estás demasiado alto: le estás
+      levantando la cola y puedes empujar su morro contra el suelo. Ante la
+      duda, **suelta**.
+    etiquetas: [Regla de oro]
+
+  - id: alabeo-del-remolcador
+    tipo: basica
+    anverso: ¿Qué significa que el **remolcador alabee** sus alas?
+    reverso: |
+      **Orden de suelta inmediata: tiene una emergencia.**
+
+      Si eres tú quien no puede soltar, ponte a un lado y alabea.
+
+  - id: cable-flojo
+    tipo: basica
+    anverso: ¿Cómo se corrige un **cable flojo** (*slack line*)?
+    reverso: |
+      **Con un resbale suave o con aerofrenos graduales.**
+
+  - id: boxing-the-wake
+    tipo: basica
+    anverso: ¿A partir de qué altura se entrena el **«boxing the wake»**, y qué se evita?
+    reverso: |
+      **A partir de 300 m AGL.**
+
+      No hagas el cuadro demasiado estrecho ni recortes esquinas: penetrarías en
+      los vórtices de punta de ala y sufrirías un alabeo violento. Si pierdes el
+      control o el remolcador desaparece, **suelta**.
+    etiquetas: [Seguridad]
+
+  - id: par-de-cabeceo-del-motor
+    tipo: basica
+    anverso: En autolanzamiento con motor sobre mástil, ¿qué hace el **par de cabeceo**?
+    reverso: |
+      **Aplicar potencia pica el morro; reducirla o cortarla lo encabrita.**
+
+  - id: altura-minima-arranque-en-vuelo
+    tipo: basica
+    anverso: ¿Cuál es la altura mínima para intentar arrancar el motor en vuelo?
+    reverso: |
+      **Unos 300 m AGL.**
+
+      Por debajo, o si no arranca al primer intento, olvídate del motor y
+      concéntrate en el aterrizaje fuera de campo. Muchos accidentes graves
+      vienen de insistir a pocos metros del suelo.
+    etiquetas: [Seguridad]
+
+  - id: cross-check-de-mandos
+    tipo: basica
+    anverso: ¿Por qué se hace la comprobación de mandos **cruzada**?
+    reverso: |
+      **Porque un mando de alerones o timón mal conectado puede ser imposible de
+      detectar en la inspección individual.**
+
+      Con otro piloto o el jefe de fila, antes del lanzamiento. Elimina una de
+      las causas más frecuentes de accidente en el despegue.
+    etiquetas: [Airmanship]
+
+  - id: anilla-doble-tost
+    tipo: basica
+    anverso: ¿Por qué hay que verificar la compatibilidad de la anilla con el gancho?
+    reverso: |
+      **Porque una anilla simple tipo Schweizer en un gancho Tost puede no
+      liberarse al accionar el tirador en vuelo**, con arrastre incontrolable.
+
+      El sistema de **doble anilla Tost** es el único homologado para ganchos
+      Tost.
+    etiquetas: [Seguridad]
+
+  - id: fusibles-weak-links
+    tipo: basica
+    anverso: ¿Qué pasa si se instala un **fusible** más resistente del especificado?
+    reverso: |
+      **Que ante una sobretensión brusca se romperán antes las alas o el morro
+      del planeador que el cable.**
+
+      Nada de puentear con mosquetones o grilletes. En remolque por avión, un
+      fusible demasiado resistente daña el gancho de morro y el fuselaje.
+      Ejemplo de código: azul = 600 daN para monoplazas en torno.
+    etiquetas: [Seguridad]
+
+  - id: emergency-briefing
+    tipo: basica
+    anverso: ¿Por qué se verbaliza el **emergency briefing** antes de rodar?
+    reverso: |
+      **Porque ante una rotura de cable a baja altura no hay tiempo para
+      pensar.**
+
+      Bajar el morro, estabilizar velocidad y trayectoria debe estar precargado
+      y salir como respuesta refleja.
+    etiquetas: [Airmanship]
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (6 viñetas)
+#  [1]
+#     **Torno (winch)**: aceleración brutal de 0 a 100 en 3 segundos. Si se rompe el cable, lo
+#     primero es **bajar el morro** para recuperar velocidad. Solo entonces suelta el cable
+#     remanente y decide si aterrizar recto, hacer 180° o un circuito corto, según la altura
+#     disponible.
+#  [2]
+#     **Las cinco reglas del torno**: ni viento en cola, ni hierba alta; **la mano en la bola de
+#     suelta** y soltar **antes** de que el ala toque el suelo; quien lleva el ala, formado; y
+#     cuidado con el viento cruzado. Las cinco protegen de lo mismo: los tres segundos en que el
+#     planeador acelera sin que el ala pueda corregir nada.
+#  [3]
+#     **Remolque (aerotow)**: mantén la «posición alta» (rueda del remolcador en el horizonte). Si
+#     el remolcador alabea sus alas, es una orden de suelta inmediata: tiene una emergencia. Si no
+#     puedes soltar, vuela a un lado y alabea. Si se forma un **cable flojo (slack line)**,
+#     corrígelo con un resbale suave o con aerofrenos graduales. Entrena la maniobra **«Boxing the
+#     Wake»** a partir de 300 m AGL.
+#  [4]
+#     **Autolanzamiento (self-launch)**: ofrece total independencia. Cuidado con el par de cabeceo
+#     del motor sobre mástil: aplicar potencia pica el morro y reducirla o cortarla lo
+#     **encabrita**. Respeta la altura de seguridad de 300 m para arrancar el motor en vuelo; por
+#     debajo, concéntrate en el aterrizaje fuera de campo.
+#  [5]
+#     **Emergency briefing**: briefing mental y verbalizado antes de cada despegue. Define
+#     velocidades de seguridad y acciones precisas ante fallos a baja, media y alta altura según
+#     el viento.
+#  [6]
+#     **Comprobaciones previas**: ganchos correctos, velocidades respetadas, mandos libres y
+#     comprobación cruzada. Realiza la inspección de cuerdas (sin nudos), anillas dobles Tost
+#     compatibles y fusibles de seguridad (**weak links**) de resistencia por código de colores
+#     (ej. azul = 600 daN para monoplazas en torno).
+#
+# RECUADROS (10)
+#  [Seguridad 1]
+#     1. **Nunca lances con viento en cola.** *Never winch launch with a tail wind.* 2. **Nunca
+#     lances con la hierba alta.** *Never winch launch in long grass.* 3. **Prepárate para soltar
+#     ANTES de que el ala toque el suelo. LA MANO EN LA BOLA DE SUELTA.** *Be ready to release
+#     BEFORE the wing touches the ground. Hand on release.* 4. **Asegúrate de que quien lleva el
+#     ala está formado.** *Ensure wing runner is trained.* 5. **Cuidado con el viento cruzado.**
+#     *Be careful in crosswinds.*
+#  [Regla de oro 2]
+#     Las cinco se resuelven con la misma decisión, y es la más barata del día: **si algo no
+#     cuadra, no te enganches**. Un lanzamiento abortado en tierra cuesta cinco minutos. Los otros
+#     cuatro cuestan un planeador, y a veces más.
+#  [Seguridad 3]
+#     Si el cable se rompe durante el ascenso, la prioridad **absoluta e inmediata** es **bajar el
+#     morro** a actitud de planeo para recuperar velocidad y evitar la pérdida. Solo una vez que
+#     la velocidad es segura, activa la suelta de emergencia del cable remanente y decide:
+#     aterrizar recto en la pista restante (baja altura), realizar un giro de 180° (altura media)
+#     o completar un circuito abreviado (altura suficiente). **En lanzamiento por torno, nunca
+#     intentes retornar a pista si estás por debajo de 150 metros**: es la maniobra más letal del
+#     vuelo sin motor.
+#  [Regla de oro 4]
+#     Durante el remolque, mantén siempre el avión remolcador **en tu campo de visión**,
+#     preferiblemente en «posición alta» (las ruedas del remolcador apoyadas en el horizonte). Si
+#     el remolcador desaparece de tu campo de visión, has entrado en posición demasiado alta: el
+#     planeador estará levantando la cola del remolcador y puedes empujar su morro hacia el suelo.
+#     Ante cualquier duda, suelta el cable: siempre es la decisión más segura.
+#  [Seguridad 5]
+#     Evita realizar un cuadro demasiado estrecho o recortar las esquinas, ya que el planeador
+#     penetrará en los vórtices de punta de ala de forma descontrolada. Esto puede provocar un
+#     alabeo violento e imprevisto. Si pierdes el control o el remolcador desaparece de tu vista,
+#     suelta el cable inmediatamente.
+#  [Seguridad 6]
+#     Establece siempre una altura mínima de seguridad para el arranque del motor en vuelo
+#     (típicamente **300 metros AGL**). Si desciendes por debajo de esa altura y el motor no
+#     arranca al primer intento, desiste inmediatamente, olvídate del motor y concéntrate
+#     exclusivamente en realizar un aterrizaje fuera de campo controlado. Muchos accidentes graves
+#     ocurren por intentar solucionar fallos del motor a escasos metros del suelo.
+#  [Airmanship 7]
+#     Realiza siempre una comprobación de mandos cruzada (**cross-check**) con otro piloto o el
+#     jefe de fila antes del lanzamiento. Un mando de alerones o timón no conectado correctamente
+#     puede ser imposible de detectar durante la inspección individual. Esta sencilla verificación
+#     elimina una de las causas más frecuentes de accidentes en el despegue.
+#  [Seguridad 8]
+#     El sistema de doble anilla Tost es el único homologado para ganchos Tost. El uso accidental
+#     de una anilla simple de tipo americano (Schweizer) en un gancho Tost grasping-style puede
+#     provocar que el gancho no se libere al accionar el tirador en vuelo, resultando en un
+#     arrastre incontrolable. Verifica siempre la compatibilidad del cable antes de enganchar.
+#  [Seguridad 9]
+#     Nunca instales un fusible de seguridad de resistencia superior a la especificada en el AFM
+#     de tu planeador, ni realices puenteos en el cable utilizando mosquetones o grilletes sin
+#     fusible. En caso de una sobretensión brusca (como una ráfaga o un tirón por cable flojo), la
+#     rotura de las alas o del morro del planeador ocurrirá antes de que el cable se rompa.
+#     Asimismo, utilizar un fusible excesivamente resistente en remolque por avión puede causar
+#     daños graves en el gancho de morro y en la estructura del fuselaje antes de romperse.
+#  [Airmanship 10]
+#     No comiences la carrera de despegue sin haber verbalizado o repasado mentalmente tu
+#     **emergency briefing**. En caso de rotura de cable a baja altura, no hay tiempo para pensar
+#     qué hacer; la acción correcta (bajar el morro, estabilizar la velocidad y la trayectoria)
+#     debe estar precargada en la mente y ejecutarse como una respuesta refleja.

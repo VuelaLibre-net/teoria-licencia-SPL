@@ -1,0 +1,118 @@
+# Mazo Anki de 08-aeronave-sistemas, capítulo 5.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 08-aeronave-sistemas
+capitulo: 5
+titulo: "Mandos de vuelo"
+tarjetas:
+  - id: mandos-primarios-y-transmision
+    tipo: basica
+    anverso: ¿Qué mueve cada mando primario y cómo se transmite?
+    reverso: |
+      **Alerones (alabeo), profundidad (cabeceo) y dirección (guiñada).**
+
+      Varillas rígidas para alabeo y profundidad; **cables** para la dirección.
+      Revisa holguras, tensión y deshilachados en la inspección.
+
+  - id: codigo-de-colores-cs22780
+    tipo: cloze
+    texto: |
+      Código de colores de cabina (**CS 22.780**): {{c1::azul}} para los
+      aerofrenos, {{c2::verde}} para el compensador, {{c3::amarillo}} para la
+      suelta de remolque y {{c4::rojo}} para la suelta de cúpula.
+    extra: |
+      El blanco queda para la apertura normal de cúpula; si una sola palanca
+      hace las dos cosas, manda el rojo. La norma **reserva** el amarillo y el
+      rojo: ningún otro mando puede llevarlos, y por eso el ojo puede fiarse.
+      CS 22.1555 obliga a marcarlos.
+
+  - id: aerofrenos-efecto
+    tipo: basica
+    anverso: ¿Qué hacen los **aerofrenos** y qué efecto tienen sobre la actitud?
+    reverso: |
+      **Destruyen sustentación y aumentan resistencia para controlar la senda.**
+
+      Al sacarlos el morro tiende a bajar y el planeador puede vibrar:
+      anticípate y compensa con profundidad para no perder la velocidad de
+      aproximación.
+    etiquetas: [Airmanship]
+
+  - id: flaps-positivos-y-negativos
+    tipo: basica
+    anverso: ¿Cuándo se usan **flaps** positivos y negativos?
+    reverso: |
+      **Positivos para térmica y aterrizaje; negativos para transiciones
+      rápidas.**
+
+      Sólo en veleros de rendimiento.
+
+  - id: que-hace-el-compensador
+    tipo: basica
+    anverso: ¿Qué hace —y qué no hace— el **compensador**?
+    reverso: |
+      **Alivia la presión de palanca para una velocidad dada. No vuela el
+      avión.**
+
+      Se ajusta en cada fase del vuelo. Mando verde.
+
+  - id: libertad-y-sentido-de-mandos
+    tipo: basica
+    anverso: ¿Qué se comprueba de los mandos antes de cada despegue?
+    reverso: |
+      **Libertad y sentido**: llévalos a sus topes y verifica **a la vista** que
+      las superficies se mueven en la dirección correcta.
+
+      Un mando invertido tras un mantenimiento es una emergencia crítica y se
+      manifiesta justo al despegar.
+    etiquetas: [Seguridad]
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (6 viñetas)
+#  [1]
+#     **Mandos primarios**: alerones (alabeo), profundidad (cabeceo) y dirección (guiñada).
+#     Varillas rígidas para alabeo y profundidad; cables para la dirección. Revisa holguras,
+#     tensión y deshilachados en la inspección.
+#  [2]
+#     **Código de colores (CS 22.780)**: azul (aerofrenos), verde (compensador), amarillo (suelta
+#     de remolque), rojo (suelta de cúpula). No es una costumbre: lo exige la certificación, que
+#     además reserva el amarillo y el rojo para esos mandos y se los prohíbe a todos los demás.
+#     Reconócelo al instante.
+#  [3]
+#     **Aerofrenos**: mando azul. Destruyen sustentación y aumentan resistencia para controlar la
+#     senda. Al sacarlos, el morro tiende a bajar: compensa con profundidad.
+#  [4]
+#     **Flaps**: positivos para térmica y aterrizaje; negativos para transiciones rápidas. Solo en
+#     veleros de rendimiento.
+#  [5]
+#     **Compensador (trim)**: mando verde. No vuela el avión: alivia la presión de palanca para
+#     una velocidad dada. Ajústalo en cada fase del vuelo.
+#  [6]
+#     **Libertad y sentido**: comprobación completa de mandos antes de cada despegue. Un mando
+#     invertido tras un mantenimiento es mortal.
+#
+# RECUADROS (3)
+#  [Airmanship 1]
+#     Al sacar los aerofrenos, la mayoría de los planeadores bajan un poco el morro o vibran
+#     ligeramente. Anticípate y compensa ese cambio de actitud con el elevador para no perder la
+#     velocidad de aproximación.
+#  [Airmanship 2]
+#     Los mandos de cabina siguen un código de colores que **no es una costumbre, sino un
+#     requisito de certificación**: lo fija CS 22.780, y CS 22.1555 obliga a marcarlos conforme a
+#     él. **Azul** para los aerofrenos, **verde** para el compensador, **amarillo** para la suelta
+#     del cable de remolque y **rojo** para la suelta de cúpula —el blanco queda para su apertura
+#     normal, y si una sola palanca hace las dos cosas, manda el rojo—. La norma **reserva**
+#     además esos dos colores: ningún otro mando de la cabina puede ser amarillo ni rojo, y por
+#     eso el ojo puede fiarse de ellos. Localízalos en cada planeador antes de volar.
+#  [Seguridad 3]
+#     Antes de cada despegue, comprueba siempre la libertad y el sentido de los mandos. Lleva
+#     todas las superficies a sus topes y verifica a la vista que se mueven en la dirección
+#     correcta. Un mando invertido tras un mantenimiento es una emergencia crítica, y se
+#     manifiesta justo al despegar.

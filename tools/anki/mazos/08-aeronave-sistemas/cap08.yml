@@ -1,0 +1,90 @@
+# Mazo Anki de 08-aeronave-sistemas, capítulo 8.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 08-aeronave-sistemas
+capitulo: 8
+titulo: "Manuales y documentos"
+tarjetas:
+  - id: que-lleva-el-afm
+    tipo: basica
+    anverso: ¿Qué contiene el **Manual de Vuelo (AFM)**?
+    reverso: |
+      **Los límites (V_NE, factores de carga), los procedimientos de emergencia
+      y las tablas de carga.**
+
+      Léelo antes de volar un modelo nuevo.
+
+  - id: sao-gen-155-que-va-a-bordo
+    tipo: basica
+    anverso: Según **SAO.GEN.155**, ¿qué va a bordo y qué puede quedarse en tierra?
+    reverso: |
+      **A bordo**: AFM, cartas actualizadas e información de señales de
+      interceptación.
+      **En el aeródromo**: certificados de matrícula, aeronavegabilidad, ARC,
+      seguro y licencia de radio.
+
+      Excepción: en vuelos a la vista del aeródromo, toda la documentación —AFM
+      incluido— puede quedarse en tierra. Igual para licencia y médico del
+      piloto (**SFCL.045**).
+    etiquetas: [Normativa]
+
+  - id: sin-arc-no-hay-seguro
+    tipo: basica
+    anverso: ¿Qué pasa con el seguro si el **ARC** está caducado?
+    reverso: "**No cubre nada.**"
+
+  - id: como-se-lee-una-checklist
+    tipo: basica
+    anverso: ¿Cómo se ejecuta una lista de comprobación?
+    reverso: |
+      **Leyendo cada punto, comprobando físicamente el mando o instrumento y
+      confirmando en voz alta.** Nunca de memoria.
+
+      Si te saltas un paso, empieza la lista de nuevo.
+    etiquetas: [Regla de oro]
+
+  - id: diario-tecnico
+    tipo: basica
+    anverso: ¿Para qué se consulta el **diario técnico** antes de volar?
+    reverso: |
+      **Para ver que no haya averías pendientes que te afecten.**
+
+      Al acabar, anota tu vuelo y cualquier incidencia.
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (4 viñetas)
+#  [1]
+#     **Manual de Vuelo (AFM)**: a bordo en cada vuelo (salvo vuelos a la vista del aeródromo).
+#     Contiene los límites (V~NE~, factores de carga), los procedimientos de emergencia y las
+#     tablas de carga. Léelo antes de volar un modelo nuevo.
+#  [2]
+#     **Certificados**: el avión necesita certificado de aeronavegabilidad, ARC en vigor, seguro y
+#     licencia de estación de radio. Pueden quedarse en el aeródromo (SAO.GEN.155). Sin ARC en
+#     vigor, el seguro no cubre nada.
+#  [3]
+#     **Chequeos**: CB-SIFT-CBE antes de despegar, FUSTALL/WULF en viento en cola. Lee, comprueba
+#     y confirma; nunca de memoria.
+#  [4]
+#     **Diario técnico**: antes de volar, mira que no haya averías pendientes que te afecten. Al
+#     acabar, anota tu vuelo y cualquier incidencia.
+#
+# RECUADROS (2)
+#  [Normativa 1]
+#     **SAO.GEN.155** exige llevar a bordo en cada vuelo el AFM, las cartas actualizadas y la
+#     información de señales de interceptación; los certificados (matrícula, aeronavegabilidad,
+#     ARC, seguro, licencia de radio) pueden quedarse en el aeródromo. Hay una excepción: en los
+#     vuelos que se mantengan a la vista del aeródromo, o dentro de la distancia que fije la
+#     autoridad competente, toda la documentación (incluido el AFM) puede quedarse en tierra. Lo
+#     mismo vale para la licencia y el certificado médico del piloto (SFCL.045).
+#  [Regla de oro 2]
+#     No recites la lista de memoria. Lee cada punto, comprueba físicamente el mando o el
+#     instrumento y confirma en voz alta su estado. Si te saltas un paso, empieza la lista de
+#     nuevo.

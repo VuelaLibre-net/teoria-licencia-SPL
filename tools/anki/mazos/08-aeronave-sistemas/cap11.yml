@@ -1,0 +1,73 @@
+# Mazo Anki de 08-aeronave-sistemas, capítulo 11.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 08-aeronave-sistemas
+capitulo: 11
+titulo: "Sistemas de lastre con agua (*water ballast systems*)"
+tarjetas:
+  - id: para-que-el-lastre-de-agua-08
+    tipo: basica
+    anverso: ¿Para qué sirve el **lastre de agua** y cuándo compensa?
+    reverso: |
+      **Aumenta la carga alar y desplaza la polar a la derecha: corres más con
+      el mismo ángulo de planeo.**
+
+      Sólo merece la pena con térmicas fuertes.
+
+  - id: lastre-y-isocero
+    tipo: basica
+    anverso: ¿Por qué hay que vaciar el lastre antes de subir por encima de la **isocero**?
+    reverso: |
+      **Porque el agua se expande al congelarse y puede reventar la estructura
+      interna del ala.**
+
+  - id: vaciado-asimetrico-08
+    tipo: basica
+    anverso: Si falla una válvula y queda agua en un solo ala, ¿qué tienes?
+    reverso: |
+      **Una emergencia grave de control lateral.**
+
+      Aterriza con velocidad extra y cuidado: el planeador querrá alabear hacia
+      el ala pesada.
+
+  - id: por-que-no-aterrizar-con-agua
+    tipo: basica
+    anverso: ¿Por qué es una limitación del AFM vaciar el agua antes de aterrizar?
+    reverso: |
+      **Porque el planeador no está diseñado para encajar las cargas de impacto
+      con los tanques llenos.**
+
+      Además alarga mucho la carrera de frenado y aumenta el riesgo de daño
+      estructural contra un obstáculo.
+    etiquetas: [Seguridad]
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (4 viñetas)
+#  [1]
+#     **Para qué sirve**: aumentar la carga alar y desplazar la polar a la derecha (correr más con
+#     el mismo ángulo de planeo). Solo merece la pena con térmicas fuertes.
+#  [2]
+#     **Riesgo de hielo**: el agua se expande al congelarse. Si subes por encima de la isocero,
+#     puede reventar la estructura interna del ala. Vacía antes de subir.
+#  [3]
+#     **Vaciado asimétrico**: si una válvula falla y te quedas con agua en un solo ala, tienes una
+#     emergencia grave de control lateral. Aterriza con velocidad extra y cuidado: el avión querrá
+#     alabear hacia el ala pesada.
+#  [4]
+#     **Antes de aterrizar**: tira el agua. Aterrizar con lastre castiga el tren y la estructura
+#     sin necesidad, y sube la velocidad de toma.
+#
+# RECUADROS (1)
+#  [Seguridad 1]
+#     Vacía el lastre de agua antes de aterrizar; es una limitación operativa del Manual de Vuelo.
+#     El planeador no está diseñado para encajar las cargas de impacto de una toma con los tanques
+#     llenos. Además, aterrizar con agua alarga mucho la carrera de frenado y aumenta el riesgo de
+#     daños estructurales si chocas contra un obstáculo.
