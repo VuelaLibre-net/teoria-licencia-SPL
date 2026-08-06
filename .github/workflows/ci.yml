@@ -10,6 +10,25 @@ on:
   # exactamente lo que el CI valida. Añadir el trigger no cambia en nada lo que
   # ocurre en push y pull_request.
   workflow_call:
+  # Lanzable a mano: `gh workflow run ci.yml --ref main`.
+  #
+  # Es la única vía para dar un run a un commit que ya está empujado, y hace
+  # falta más de lo que parece. `push` y `pull_request` sólo se disparan una vez,
+  # cuando el evento ocurre; si ese webhook se pierde, el commit se queda sin CI
+  # para siempre y no hay forma de reclamarlo. Pasó el 6 de agosto de 2026: una
+  # incidencia de Actions obligó a GitHub a descartar ~85 % de los webhooks
+  # durante horas, y varios commits —incluido un merge a `main`— se quedaron sin
+  # run sin que nada fallara: el PR seguía marcando `mergeStateStatus: CLEAN`,
+  # verde por AUSENCIA de comprobaciones.
+  #
+  # Y no es sólo cosmético: `release.yml` localiza el run del CI que validó el
+  # commit etiquetado y **aborta** si no lo encuentra. Sin este disparador, un
+  # commit sin run no se puede publicar nunca.
+  #
+  # ⚠️ `workflow_dispatch` sólo aparece si el fichero que lo declara está en la
+  # rama por defecto. Añadirlo en una rama y no fusionarlo no sirve de nada: el
+  # botón —y `gh workflow run`— no existirán hasta que esté en `main`.
+  workflow_dispatch:
 
 env:
   # Debe cumplir el quarto-required de _extensions/orange-book-es/_extension.yml.
