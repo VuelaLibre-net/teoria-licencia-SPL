@@ -20,7 +20,7 @@ tarjetas:
 
   - id: sao-gen-155-que-va-a-bordo
     tipo: basica
-    anverso: Según **SAO.GEN.155**, ¿qué va a bordo y qué puede quedarse en tierra?
+    anverso: ¿Qué documentación va **a bordo** y cuál puede quedarse en tierra?
     reverso: |
       **A bordo**: AFM, cartas actualizadas e información de señales de
       interceptación.
@@ -29,7 +29,9 @@ tarjetas:
 
       Excepción: en vuelos a la vista del aeródromo, toda la documentación —AFM
       incluido— puede quedarse en tierra. Igual para licencia y médico del
-      piloto (**SFCL.045**).
+      piloto.
+
+      *Fundamento: Part-SAO, SAO.GEN.155; licencia y médico, SFCL.045.*
     etiquetas: [Normativa]
 
   - id: sin-arc-no-hay-seguro

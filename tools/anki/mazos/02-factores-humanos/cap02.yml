@@ -154,15 +154,16 @@ tarjetas:
 
   - id: alcohol-botella-al-mando
     tipo: basica
-    anverso: ¿Qué exige la regla «de la botella al mando» (**AMC1 SAO.GEN.130(f) y SAO.GEN.135(b)**)?
+    anverso: ¿Qué exige la regla **«de la botella al mando»**?
     reverso: |
       * **8 horas** sin alcohol antes del vuelo.
       * Alcoholemia al inicio inferior a **0,2 g/l**, o al límite nacional si es
         más estricto.
       * **Nada de alcohol durante el vuelo.**
 
-      No lo confundas con el AMC1 SAO.GEN.130(f) a secas, que trata del buceo y
-      la donación de sangre.
+      *Fundamento: AMC1 SAO.GEN.130(f) y SAO.GEN.135(b), «Alcohol consumption».
+      No confundir con el AMC1 SAO.GEN.130(f) a secas, que trata del buceo y la
+      donación de sangre.*
     etiquetas: [Normativa]
 
   - id: automedicacion

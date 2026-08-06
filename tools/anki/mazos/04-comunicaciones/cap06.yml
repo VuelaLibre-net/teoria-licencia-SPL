@@ -53,13 +53,15 @@ tarjetas:
   - id: senales-de-interceptacion
     tipo: cloze
     texto: |
-      Señales del interceptor (SERA.11015): alabeando por delante y a tu
-      izquierda = {{c1::«Sígame»}}; viraje ascendente brusco de 90º o más =
+      Señales del **interceptor**: alabeando por delante y a tu izquierda =
+      {{c1::«Sígame»}}; viraje ascendente brusco de 90º o más =
       {{c2::«Prosiga»}}; tren desplegado y faros encendidos sobre la pista =
       {{c3::«Aterrice en este aeródromo»}}.
     extra: |
       Se responde alabeando y siguiéndole. A bordo debe llevarse copia de las
-      señales (**SAO.GEN.155**).
+      señales.
+
+      *Fundamento: SERA.11015; obligación de llevarlas a bordo, SAO.GEN.155.*
 
   - id: procedimiento-de-interceptacion
     tipo: basica

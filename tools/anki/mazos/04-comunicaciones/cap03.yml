@@ -94,10 +94,11 @@ tarjetas:
 
   - id: etso-c169a
     tipo: basica
-    anverso: ¿Qué certifica el marcado **ETSO-C169a**?
+    anverso: ¿Cómo se sabe que una radio cumple la canalización de **8,33 kHz**?
     reverso: |
-      **Que la radio cumple la canalización de 8,33 kHz**, obligatoria por el
-      Reglamento UE 1079/2012.
+      **Por su marcado ETSO-C169a.**
+
+      *Fundamento: Reglamento (UE) 1079/2012, que impone ese espaciado.*
     etiquetas: [Normativa]
 
   - id: saludo-en-el-primer-contacto

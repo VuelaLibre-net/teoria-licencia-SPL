@@ -24,7 +24,7 @@ tarjetas:
 
   - id: plazos-de-presentacion-fpl
     tipo: basica
-    anverso: ¿Con cuánta antelación se presenta el FPL (AIP-España, **ENR 1.10**)?
+    anverso: ¿Con cuánta antelación se presenta el **plan de vuelo**?
     reverso: |
       * Si pides **servicio de control**: **60 minutos** antes de la EOBT.
       * Desde aeródromo controlado que no opere H24: **30 minutos**.
@@ -32,6 +32,8 @@ tarjetas:
         **antes de la salida**.
       * En vuelo (**AFIL**): con antelación suficiente para que ATS lo reciba
         antes de entrar en espacio controlado.
+
+      *Fundamento: AIP-España, ENR 1.10.*
     etiquetas: [Normativa]
 
   - id: casilla-15-velocidad

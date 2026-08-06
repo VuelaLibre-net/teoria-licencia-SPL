@@ -20,10 +20,12 @@ tarjetas:
 
   - id: articulo-20-chicago
     tipo: basica
-    anverso: ¿Qué exige el **artículo 20** del Convenio de Chicago?
+    anverso: ¿Qué exige el **Convenio de Chicago** sobre las marcas de las aeronaves?
     reverso: |
-      **Que toda aeronave de navegación aérea internacional lleve sus marcas de
-      nacionalidad y matrícula.**
+      **Que toda aeronave empleada en navegación aérea internacional lleve sus
+      marcas de nacionalidad y matrícula.**
+
+      *Fundamento: Convenio de Chicago, artículo 20.*
     etiquetas: [Normativa]
 
   - id: donde-van-las-marcas

@@ -58,13 +58,15 @@ tarjetas:
 
   - id: cuando-es-obligatorio-el-fpl
     tipo: basica
-    anverso: ¿Cuándo obliga **SERA.4001 b)** a presentar plan de vuelo?
+    anverso: ¿Cuándo es obligatorio presentar **plan de vuelo**?
     reverso: |
       **Al cruzar fronteras, cuando se te presta servicio de control (clases B,
       C y D) y al despegar o aterrizar en aeródromo controlado.**
 
       Ojo con la clase E: es espacio controlado, pero al VFR no se le presta
       control, así que no necesita plan, ni radio, ni autorización.
+
+      *Fundamento: SERA.4001 b).*
     etiquetas: [Normativa]
 
   - id: cerrar-el-plan-de-vuelo
@@ -88,11 +90,13 @@ tarjetas:
 
   - id: servicios-al-vfr-por-clase
     tipo: basica
-    anverso: "Resumen **SERA.8001**: ¿qué recibe el VFR en cada clase de espacio aéreo?"
+    anverso: ¿Qué recibe el **VFR** en cada clase de espacio aéreo?
     reverso: |
       * **C y D**: autorización ATC y radio obligatoria.
       * **E**: ni autorización ni radio; sólo información de tráfico si la hay.
       * **F y G**: sólo servicio de información de vuelo.
+
+      *Fundamento: SERA.8001.*
     etiquetas: [Normativa]
 
   - id: separacion-al-vfr

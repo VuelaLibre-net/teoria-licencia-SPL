@@ -36,14 +36,15 @@ tarjetas:
 
   - id: pasajeros-sfcl-115
     tipo: basica
-    anverso: ¿Qué exige **SFCL.115** para llevar pasajeros?
+    anverso: ¿Qué experiencia hace falta para **llevar pasajeros** con una SPL?
     reverso: |
       **10 horas o 30 lanzamientos como PIC tras obtener la licencia, y un vuelo
       de entrenamiento demostrando competencia a un FI(S)** (salvo que ya seas
-      FI(S)), **más la recencia de SFCL.160(e)**: 3 lanzamientos en los últimos
-      90 días.
+      FI(S)), **más 3 lanzamientos en los últimos 90 días.**
 
       Incumplirlo implica sanción y pérdida de cobertura del seguro.
+
+      *Fundamento: Part-SFCL, SFCL.115(a)(2) y SFCL.160(e).*
     etiquetas: [Normativa]
 
   - id: cambio-de-salud

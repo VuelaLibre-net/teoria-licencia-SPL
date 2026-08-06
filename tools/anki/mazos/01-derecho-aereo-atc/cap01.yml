@@ -24,10 +24,12 @@ tarjetas:
 
   - id: reglamento-base-2018-1139
     tipo: basica
-    anverso: ¿Cuál es la norma de mayor rango del sistema europeo?
+    anverso: ¿Qué norma europea crea EASA y fija las normas comunes de aviación civil?
     reverso: |
-      **El Reglamento (UE) 2018/1139 (Reglamento Base)**, que establece las
-      normas comunes de aviación civil y crea EASA.
+      **El Reglamento Base.** Es la de mayor rango del sistema europeo: de ella
+      cuelgan Part-SFCL, Part-SAO y las demás.
+
+      *Fundamento: Reglamento (UE) 2018/1139.*
     etiquetas: [Normativa]
 
   - id: vinculante-vs-amc-gm
@@ -46,12 +48,14 @@ tarjetas:
 
   - id: sao-gen-130-responsabilidad
     tipo: basica
-    anverso: ¿Qué establece **SAO.GEN.130** sobre el piloto al mando?
+    anverso: ¿De qué responde el **piloto al mando**, y puede delegarlo?
     reverso: |
-      **Que es responsable de la seguridad de la aeronave y de todas las
-      personas a bordo.**
+      **De la seguridad de la aeronave y de todas las personas a bordo, y no se
+      delega.**
 
-      No se delega: eres la autoridad final en tu cabina.
+      Eres la autoridad final en tu cabina.
+
+      *Fundamento: Part-SAO, SAO.GEN.130.*
     etiquetas: [Airmanship]
 
 

@@ -125,12 +125,14 @@ tarjetas:
 
   - id: sao-ide-105-reloj
     tipo: basica
-    anverso: ¿Qué exige **SAO.IDE.105** en cuanto a la medida del tiempo?
+    anverso: ¿Qué exige la normativa en cuanto a la **medida del tiempo** a bordo?
     reverso: |
       **Que todo planeador lleve un medio para medir y mostrar la hora en horas
       y minutos.**
 
       Llévalo en UTC, o ten clara la diferencia horaria del día.
+
+      *Fundamento: Part-SAO, SAO.IDE.105.*
     etiquetas: [Normativa]
 
   - id: kmh-a-nudos

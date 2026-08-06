@@ -48,13 +48,15 @@ tarjetas:
 
   - id: marcas-del-anemometro
     tipo: basica
-    anverso: ¿Qué marcan los arcos del anemómetro (**CS 22.1545**)?
+    anverso: ¿Qué marcan los **arcos del anemómetro**?
     reverso: |
       **El arco verde termina en la V_RA** (velocidad máxima en aire
       turbulento), donde empieza el **arco amarillo**, que acaba en la **línea
       roja de la V_NE**.
 
       El arco amarillo es sólo para aire en calma.
+
+      *Fundamento: CS 22.1545.*
     etiquetas: [Regla de oro]
 
   - id: va-no-es-marca-del-anemometro

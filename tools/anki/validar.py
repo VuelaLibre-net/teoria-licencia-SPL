@@ -25,6 +25,15 @@ Lo que comprueba, y por qué cada cosa:
   temario.
 * **Los nombres de mazo respetan el árbol** `SPL::NN Asignatura::NN Capítulo`: el
   nombre es la identidad del mazo en la colección del alumno.
+* **El anverso no se apoya en el número de una norma.** Es la convención de
+  `examenes/REGLAS.md` §57: el examen no debería preguntar nunca por el número de un
+  artículo, reglamento, anexo, ley o sección, porque saberse esos números no es
+  relevante para un alumno piloto de planeador — lo evaluable es qué dice la
+  norma y cómo se aplica en vuelo. Una tarjeta cuyo anverso empiece por
+  «¿Qué exige SAO.IDE.105…?» entrena justo el emparejamiento que el examen no
+  debe usar. **La prohibición acaba en el anverso**: en el reverso los identificadores
+  son obligatorios y cuanto más finos, mejor, porque son lo que permite volver
+  al texto legal y contrastar la tarjeta.
 """
 
 from __future__ import annotations
@@ -55,6 +64,22 @@ MAQUETA = (
 
 RE_MAZO = re.compile(r"^SPL::\d{2} .+?(?:::\d{2} .+)?$")
 RE_CLOZE = re.compile(r"\{\{c\d+::")
+
+# Identificadores normativos NUMÉRICOS, prohibidos en el anverso (ver cabecera).
+# Los nombres propios sin número —Part-SFCL, Part-SAO, SERA, Part-ML, CS-22— sí
+# valen como concepto: «¿Qué regula el Part-SFCL?» es una pregunta legítima.
+# Sólo se busca en el campo 0, que es el que ve el alumno antes de responder:
+# `Anverso` en las básicas y `Texto` en las cloze.
+RE_NORMA_NUMERADA = re.compile(
+    r"""(
+      \bSAO\.[A-Z]{2,4}\.\d+ | \bSFCL\.\d+ | \bSERA\.\d+ | \bML\.A\.\d+ | \bMED\.A\.\d+ |
+      \bCS\s?22\.\d+ | \bAMC\d\b | \bETSO-[A-Za-z0-9]+ |
+      Reglamento\s*\((?:UE|CE)\)\s*n?\.?º?\s*\d+ | Real\s+Decreto\s+\d+ |
+      \bart[íi]culos?\s+\d+ | \bAnexo\s+\d+ | \b(?:ENR|GEN|AD)\s+\d+\.\d+ |
+      \b\d{4}/\d{3,4}\b
+    )""",
+    re.X,
+)
 
 
 def abrir(apkg: Path) -> sqlite3.Connection:
@@ -123,6 +148,14 @@ def validar(apkg: Path) -> list[str]:
 
         if modelo == "SPL Cloze" and not RE_CLOZE.search(campos[0]):
             fallos.append(f"{etiqueta}: nota cloze sin ningún {{{{cN::…}}}}")
+
+        norma = RE_NORMA_NUMERADA.search(campos[0])
+        if norma:
+            fallos.append(
+                f"{etiqueta}: el anverso se apoya en el número de una norma "
+                f"({norma.group(0)!r}); pregunta por lo que dice y deja el "
+                "identificador en el reverso"
+            )
 
         for tag in tags.split():
             if tag.startswith("spl::recuadro::") and tag.split("::")[-1] not in CATEGORIAS:

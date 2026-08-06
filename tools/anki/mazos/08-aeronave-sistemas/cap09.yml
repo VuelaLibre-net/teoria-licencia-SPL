@@ -28,13 +28,15 @@ tarjetas:
 
   - id: prorrogas-del-arc
     tipo: basica
-    anverso: ¿Cuántas veces se prorroga el **ARC** y con qué condición (**ML.A.901**)?
+    anverso: ¿Cuántas veces puede prorrogarse el **ARC**, y con qué condición?
     reverso: |
       **Dos veces consecutivas, un año cada vez, si la aeronave ha permanecido
       en entorno controlado**: gestión continua por una CAMO/CAO y mantenimiento
       por organizaciones aprobadas.
 
       Tras esas dos prórrogas, revisión de aeronavegabilidad completa.
+
+      *Fundamento: Part-ML, ML.A.901.*
     etiquetas: [Normativa]
 
   - id: suelo-del-mantenimiento-programado
@@ -50,13 +52,15 @@ tarjetas:
 
   - id: mantenimiento-piloto-propietario
     tipo: basica
-    anverso: ¿Quién puede firmar tareas de **piloto-propietario** (**ML.A.803**)?
+    anverso: ¿Quién puede firmar las tareas de **mantenimiento de piloto-propietario**?
     reverso: |
       **El propietario o copropietario legal con licencia de piloto válida**, y
-      sólo las tareas sencillas del Apéndice II de Part-ML.
+      sólo las tareas sencillas que la norma enumera.
 
       Todas quedan registradas y firmadas en el Diario de la Aeronave, con el
       número de licencia.
+
+      *Fundamento: Part-ML, ML.A.803 y su Apéndice II.*
     etiquetas: [Normativa]
 
   - id: reporte-de-defectos

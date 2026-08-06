@@ -70,10 +70,12 @@ tarjetas:
 
   - id: sao-gen-130-masa-y-cg
     tipo: basica
-    anverso: ¿Qué exige **SAO.GEN.130 d)4)** antes de iniciar el vuelo?
+    anverso: ¿Qué hay que comprobar sobre **masa y centrado** antes de volar?
     reverso: |
-      **Cerciorarse de que la masa del planeador y la ubicación de su centro de
-      gravedad están dentro de los límites del AFM.**
+      **Que la masa del planeador y la ubicación de su centro de gravedad están
+      dentro de los límites del AFM.**
+
+      *Fundamento: Part-SAO, SAO.GEN.130 d)4).*
     etiquetas: [Normativa]
 
   - id: estabilidad-escuela-vs-competicion

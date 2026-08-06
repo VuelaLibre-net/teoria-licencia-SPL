@@ -12,9 +12,14 @@ tarjetas:
   - id: cs-22-337-factores-de-carga
     tipo: cloze
     texto: |
-      **CS 22.337**: la categoría **Utilitaria** debe soportar {{c1::+5,3 g /
-      −2,65 g}} y la **Acrobática**, {{c2::+7,0 g / −5,0 g}}.
-    extra: A la velocidad de maniobra. Los límites concretos, en el AFM.
+      Factores de carga límite de maniobra: la categoría **Utilitaria** debe
+      soportar {{c1::+5,3 g / −2,65 g}} y la **Acrobática**,
+      {{c2::+7,0 g / −5,0 g}}.
+    extra: |
+      A la velocidad de maniobra. Los límites concretos de tu aeronave, en el
+      AFM.
+
+      *Fundamento: CS 22.337 «Limit manoeuvring load factors».*
 
   - id: carga-limite-y-de-rotura
     tipo: basica

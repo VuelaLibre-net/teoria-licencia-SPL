@@ -69,11 +69,13 @@ tarjetas:
 
   - id: comprobaciones-sao-gen-130
     tipo: basica
-    anverso: ¿Qué comprueba el piloto al mando antes del vuelo según **SAO.GEN.130**?
+    anverso: ¿Qué debe comprobar el piloto al mando **antes de iniciar el vuelo**?
     reverso: |
       **Que el planeador es aeronavegable, está matriculado y lleva los
-      instrumentos y equipos necesarios instalados y operativos**, y verifica
+      instrumentos y equipos necesarios instalados y operativos**, y verificar
       **masa, centrado, estiba y límites del AFM**.
+
+      *Fundamento: Part-SAO, SAO.GEN.130.*
     etiquetas: [Normativa]
 
 
