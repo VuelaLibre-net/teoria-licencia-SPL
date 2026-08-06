@@ -1,0 +1,155 @@
+# Mazo Anki de 06-procedimientos-operativos, capítulo 3.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 06-procedimientos-operativos
+capitulo: 3
+titulo: "Técnicas de planeo"
+tarjetas:
+  - id: centrado-de-termica
+    tipo: basica
+    anverso: Al atravesar una térmica, ¿hacia dónde se vira?
+    reverso: |
+      **Hacia el ala que sube: ahí está el núcleo.**
+
+      Una vez establecido el giro, no inviertas nunca el sentido: ajusta. Cierra
+      el viraje cuando el vario sube, ábrelo cuando baja.
+    etiquetas: [Regla de oro]
+
+  - id: hilo-lateral-limitaciones
+    tipo: basica
+    anverso: ¿Para qué sirve —y para qué no— el **hilo de lana lateral**?
+    reverso: |
+      **Es una ayuda didáctica para visualizar el ángulo de ataque en vuelo
+      térmico lento.**
+
+      En vuelo rápido pierde toda precisión: los ángulos de ataque son
+      minúsculos. Nunca sustituye al anemómetro, al horizonte ni al hilo central
+      de coordinación.
+    etiquetas: [Seguridad]
+
+  - id: anillo-maccready
+    tipo: basica
+    anverso: ¿Cómo se usa el **anillo MacCready**?
+    reverso: |
+      **Se pone en el valor de ascenso que esperas encontrar** (por ejemplo
+      2 m/s) **y se vuela a la velocidad que marque.**
+
+      Acelera en descendencias, aminora en ascendencias.
+
+  - id: vuelo-de-ladera-preferencia
+    tipo: basica
+    anverso: En vuelo de ladera, ¿quién tiene preferencia y hacia dónde no se vira?
+    reverso: |
+      **Tiene preferencia quien lleva la ladera a su derecha. Nunca se vira
+      hacia el monte.**
+
+      Mantente pegado a barlovento, con vía de escape al valle siempre
+      disponible.
+
+  - id: no-virar-hacia-la-ladera
+    tipo: basica
+    anverso: ¿Qué hay a sotavento de la cresta que hace tan peligroso virar hacia la ladera?
+    reverso: |
+      **Aire descendiendo con violencia, incluso con condiciones aparentemente
+      buenas en barlovento.**
+
+      Una entrada accidental en rotor a baja altura sobre el terreno puede ser
+      irrecuperable.
+    etiquetas: [Seguridad]
+
+  - id: vuelo-de-onda-donde-subir
+    tipo: basica
+    anverso: ¿Dónde se asciende en **onda**, y qué exige?
+    reverso: |
+      **En la zona laminar, delante de la nube de rotor.**
+
+      Exige oxígeno, ropa de abrigo y altímetro calibrado. Cuidado al bajar: el
+      rotor puede romper el planeador en segundos.
+
+  - id: onda-y-espacio-aereo
+    tipo: basica
+    anverso: ¿Qué hay que consultar antes de un vuelo de onda planificado?
+    reverso: |
+      **El espacio aéreo**: es frecuente que las altitudes de onda coincidan con
+      zonas restringidas o reservadas al tráfico controlado, que exigen
+      autorización previa.
+    etiquetas: [Airmanship]
+
+  - id: lastre-y-velocidad-de-perdida
+    tipo: basica
+    anverso: ¿Cuánto sube la velocidad de pérdida con **lastre de agua**?
+    reverso: |
+      **Hasta 15-20 km/h.**
+
+      Ajusta todas las velocidades de referencia —despegue, aproximación,
+      circuito—. Nunca aterrices con lastre completo salvo avería del vaciado, y
+      entonces extrema la suavidad: la inercia puede superar la resistencia
+      estructural de las alas.
+    etiquetas: [Seguridad]
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (6 viñetas)
+#  [1]
+#     **Centrado de térmica**: siente el empujón en el asiento. Si el ala derecha sube, el núcleo
+#     está a la derecha: vira a la derecha. Cierra el viraje cuando el vario sube, ábrelo cuando
+#     baja. Con práctica, este ciclo se vuelve automático.
+#  [2]
+#     **Hilo de lana lateral (side string)**: técnica complementaria opcional para visualizar de
+#     forma didáctica el ángulo de ataque en vuelo lento; no sustituye al hilo central ni al
+#     anemómetro.
+#  [3]
+#     **Anillo MacCready**: tu selector de velocidad óptima. Pon el anillo en el valor de ascenso
+#     que esperas encontrar (p. ej., 2 m/s) y vuela a la velocidad que te marque. Acelera en
+#     corrientes descendentes, aminora en corrientes ascendentes.
+#  [4]
+#     **Ladera**: mantente pegado a barlovento con vía de escape hacia el valle siempre
+#     disponible. Si tienes la ladera a tu derecha, tienes preferencia. Nunca vires hacia el
+#     monte.
+#  [5]
+#     **Onda**: la autopista al cielo. Sube en la zona laminar, delante de la nube de rotor.
+#     Requiere oxígeno y ropa de abrigo. Cuidado al bajar: el rotor puede romperte el planeador en
+#     segundos.
+#  [6]
+#     **Lastre de agua**: más masa = más velocidad sin perder planeo. Útil en días fuertes y
+#     travesías largas. Vacíalo antes de aterrizar y ajusta siempre las velocidades de referencia:
+#     con lastre, la pérdida llega mucho antes.
+#
+# RECUADROS (5)
+#  [Regla de oro 1]
+#     Si al atravesar una térmica un ala sube, el núcleo está de ese lado: **vira hacia el ala que
+#     sube**. Una vez establecido el giro, no inviertas nunca el sentido: ajusta. Cierra el viraje
+#     cuando el vario sube, ábrelo cuando baja. Con el tiempo, este ajuste se vuelve automático y
+#     no necesitas calcularlo conscientemente.
+#  [Seguridad 2]
+#     En el vuelo rápido (**high-speed flight**), el hilo de lana lateral pierde toda precisión
+#     debido a que los ángulos de ataque son extremadamente pequeños. En este rango, el anemómetro
+#     y la observación del horizonte son los únicos métodos de referencia válidos para evitar
+#     exceder la V~NE~ (Velocidad Nunca Exceder). El hilo de lana lateral es una herramienta
+#     didáctica complementaria para el vuelo térmico lento, nunca un sustituto de los instrumentos
+#     primarios de vuelo ni del hilo de lana central de coordinación.
+#  [Seguridad 3]
+#     Nunca vires hacia la ladera si no tienes espacio garantizado para completar el viraje con
+#     margen. A sotavento de la montaña —detrás de la cresta— el aire puede descender con
+#     violencia incluso en condiciones de vuelo aparentemente buenas en barlovento. Una entrada
+#     accidental en la zona de rotor a baja altura sobre el terreno puede ser irrecuperable.
+#  [Airmanship 4]
+#     El vuelo de onda a gran altitud requiere equipamiento específico: oxígeno a partir de los
+#     3.000-4.000 metros según la autonomía y condición del piloto, ropa de abrigo adecuada y un
+#     altímetro calibrado. Antes de un vuelo de onda planificado, consulta el espacio aéreo: es
+#     frecuente que las altitudes de onda coincidan con zonas restringidas o reservadas para el
+#     tráfico controlado, que requieren autorización previa.
+#  [Seguridad 5]
+#     Un planeador con lastre de agua tiene una **velocidad de pérdida significativamente mayor**
+#     —hasta 15-20 km/h más que sin lastre—. Ajusta todas tus velocidades de referencia (despegue,
+#     aproximación, circuito) en consecuencia. **Nunca aterrices con lastre completo**, salvo que
+#     una avería del vaciado te obligue — y entonces, extrema la suavidad de la toma: la inercia
+#     adicional puede superar la resistencia estructural de las alas y provocar un fallo
+#     catastrófico.

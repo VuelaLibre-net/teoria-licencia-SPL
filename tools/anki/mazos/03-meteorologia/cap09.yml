@@ -1,0 +1,108 @@
+# Mazo Anki de 03-meteorologia, capítulo 9.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 03-meteorologia
+capitulo: 9
+titulo: "Peligros para el vuelo (*flight hazards*)"
+tarjetas:
+  - id: ciclo-de-la-tormenta
+    tipo: cloze
+    texto: |
+      Fases de una tormenta: {{c1::desarrollo}} (cúmulo, ascendente dominante,
+      sin lluvia), {{c2::madurez}} (ascendente y descendente juntas, granizo,
+      rayos y *downburst*) y {{c3::disipación}} (descendente dominante).
+    extra: La fase de **madurez** es la más peligrosa.
+
+  - id: embedded-cb
+    tipo: basica
+    anverso: ¿Qué son los **embedded Cb** y por qué son peligrosos?
+    reverso: |
+      **Células de tormenta incrustadas dentro de capas nubosas densas** —
+      frentes cálidos u ocluidos— que enmascaran su presencia.
+
+      Ante pronósticos de sistemas severos o indicios de fuerte inestabilidad,
+      prioriza el retorno rápido y seguro a tierra.
+    etiquetas: [Seguridad]
+
+  - id: tipos-de-engelamiento
+    tipo: basica
+    anverso: ¿Qué depósitos de hielo hay y cuál es el peor?
+    reverso: |
+      **Escarcha** (en rigor no es engelamiento: es sublimación), **hielo
+      opaco**, **mixto** y **claro**.
+
+      El **clear ice** es el más peligroso: invisible e irregular. Mayor riesgo
+      entre 0 y −15 ºC.
+
+  - id: actuar-ante-engelamiento
+    tipo: basica
+    anverso: Al primer síntoma de **engelamiento**, ¿qué se hace?
+    reverso: |
+      1. **Gira 180º** y sal de la nubosidad.
+      2. **Desciende** hacia niveles con temperatura positiva.
+      3. **No esperes**: se acelera según se cubre más superficie.
+
+      Un planeador con hielo estructural entra en pérdida muy por encima de la
+      velocidad habitual y **sin bataneo previo**.
+    etiquetas: [Seguridad]
+
+  - id: turbulencia-de-estela
+    tipo: basica
+    anverso: ¿Cuánto se espera tras un avión pesado y por qué?
+    reverso: |
+      **Tres minutos.** La estela **desciende lentamente** y causa vuelco
+      instantáneo.
+
+  - id: cizalladura-y-downburst
+    tipo: basica
+    anverso: ¿Qué secuencia produce un **downburst** en final?
+    reverso: |
+      **Primero viento de cara, después un brusco hundimiento y viento de
+      cola.**
+
+      La cizalladura es un cambio brusco de viento en final; la caída de
+      velocidad de cara puede tirarte al suelo.
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (5 viñetas)
+#  [1]
+#     **Tormentas (Cb)**: La madre de todos los peligros. Jamás vueles bajo un Cb ni cerca de él
+#     (< 10-20 NM). Turbulencia extrema, granizo y rayos. Si ves un yunque, da media vuelta.
+#  [2]
+#     **Ciclo de la tormenta**: tres fases. Desarrollo (cúmulo): ascendente dominante, sin lluvia.
+#     Madurez: ascendente y descendente juntas, granizo, rayos y **downburst** — la más peligrosa.
+#     Disipación: descendente dominante, la célula se deshace.
+#  [3]
+#     **Engelamiento**: El hielo destruye la aerodinámica y eleva la velocidad de pérdida sin
+#     aviso. Cuatro depósitos —escarcha (en rigor no es engelamiento: es sublimación), hielo
+#     opaco, mixto y claro—; el **clear ice** es el más peligroso por invisible e irregular. Mayor
+#     riesgo entre 0 y −15 °C. Ante hielo, sal de la nube y baja a aire cálido.
+#  [4]
+#     **Turbulencia**: La de estela de aviones pesados desciende lentamente y causa vuelco
+#     instantáneo (espera 3 minutos antes de usar la pista). El rotor de onda se forma a sotavento
+#     a baja cota con rotación caótica e invisible.
+#  [5]
+#     **Cizalladura (Windshear)**: Cambio brusco de viento en tramo final. Puede tirarte al suelo
+#     (caída de velocidad de cara). Los **downbursts** (reventones) provocan primero viento de
+#     cara y luego un brusco hundimiento y viento de cola.
+#
+# RECUADROS (2)
+#  [Seguridad 1]
+#     Las células de tormenta en desarrollo o incrustadas ("embedded Cb") dentro de capas nubosas
+#     densas (como frentes cálidos u ocluidos) pueden enmascarar su presencia. Ante pronósticos de
+#     sistemas tormentosos severos, alertas meteorológicas marcando núcleos intensos, o indicios
+#     de fuerte inestabilidad, debe priorizarse el retorno rápido y seguro a tierra.
+#  [Seguridad 2]
+#     Al primer síntoma de engelamiento —escarcha en el borde del ala o cristales en la cúpula—
+#     actúa de inmediato: 1. Gira 180° y sal de la zona de nubosidad. 2. Inicia el descenso hacia
+#     niveles con temperatura positiva. 3. No esperes: el engelamiento se acelera a medida que más
+#     superficie queda cubierta. Un planeador con hielo estructural puede entrar en pérdida muy
+#     por encima de la velocidad habitual, sin ningún aviso previo de bataneo.

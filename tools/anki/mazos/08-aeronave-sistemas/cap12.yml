@@ -1,0 +1,99 @@
+# Mazo Anki de 08-aeronave-sistemas, capítulo 12.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 08-aeronave-sistemas
+capitulo: 12
+titulo: "Baterías (rendimiento y limitaciones operativas)"
+tarjetas:
+  - id: plomo-vs-lifepo4
+    tipo: basica
+    anverso: Compara baterías de **plomo-ácido/gel** y **LiFePO4**.
+    reverso: |
+      **Plomo/gel**: pesadas, robustas, baratas.
+      **LiFePO4**: ligeras, voltaje constante, cargador específico.
+
+  - id: fusible-junto-al-borne
+    tipo: basica
+    anverso: ¿Dónde va el **fusible** de la batería y por qué?
+    reverso: |
+      **Lo más cerca posible del borne.**
+
+      Un cortocircuito en vuelo sin fusible es fuego en cabina en segundos.
+
+  - id: fusibles-de-repuesto
+    tipo: basica
+    anverso: Si un fusible se funde en vuelo, ¿cuántas veces lo cambias?
+    reverso: |
+      **Una.** Si vuelve a fundirse, desconecta el equipo afectado: tienes un
+      cortocircuito serio que puede acabar en fuego eléctrico.
+
+      Lleva repuestos en el bolsillo de la cabina.
+    etiquetas: [Regla de oro]
+
+  - id: baterias-y-frio
+    tipo: basica
+    anverso: ¿Qué le hace el frío a la batería?
+    reverso: |
+      **Le hace perder capacidad de golpe.**
+
+      Una que parece llena en tierra puede morirse rápido en onda a −20 ºC.
+
+  - id: bateria-para-vuelo-en-nubes
+    tipo: basica
+    anverso: ¿Con qué carga se despega para volar en nubes?
+    reverso: |
+      **Con las baterías prácticamente llenas.**
+
+      Sin referencias visuales, los instrumentos son tu vida.
+
+  - id: sujecion-de-la-bateria
+    tipo: basica
+    anverso: ¿Qué fuerzas debe aguantar el soporte de la batería (**CS 22.561**)?
+    reverso: |
+      **15 g hacia delante, 9 g hacia abajo, 7,5 g hacia arriba y 6 g lateral.**
+
+      Nada de gomas elásticas ni montajes improvisados: soportes o cinchas
+      aprobados por el fabricante, comprobados en cada prevuelo. La batería es
+      un proyectil de varios kilos.
+    etiquetas: [Normativa]
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (5 viñetas)
+#  [1]
+#     **Tipos**: plomo-ácido/gel (pesadas, robustas, baratas) frente a LiFePO4 (ligeras, voltaje
+#     constante, cargador específico).
+#  [2]
+#     **Fusibles**: imprescindibles. Lo más cerca posible del borne de la batería. Un
+#     cortocircuito en vuelo sin fusible es fuego en cabina en segundos.
+#  [3]
+#     **Efecto del frío**: las baterías pierden capacidad de golpe con el frío. Una que parece
+#     llena en tierra puede morirse rápido en onda a -20 ºC.
+#  [4]
+#     **Vuelo en nubes**: despega con las baterías prácticamente llenas. Sin referencias visuales,
+#     los instrumentos son tu vida, y ninguna norma te salvará de una batería vacía dentro de una
+#     nube.
+#  [5]
+#     **Fijación**: la batería es un proyectil de varios kilos. Su soporte debe aguantar 15g hacia
+#     delante (CS 22.561). Comprueba que su "cinturón de seguridad" está apretado y bloqueado
+#     antes de cada vuelo.
+#
+# RECUADROS (2)
+#  [Normativa 1]
+#     **CS 22.561(d)** exige que la estructura de soporte retenga cualquier masa que pueda
+#     lesionar a un ocupante si se suelta en un aterrizaje de emergencia, soportando las fuerzas
+#     de inercia últimas de **CS 22.561(b)(1)**: 15g hacia delante, 9g hacia abajo, 7,5g hacia
+#     arriba y 6g lateral. No sujetes nunca la batería con gomas elásticas ni montajes
+#     improvisados: usa los soportes o cinchas aprobados por el fabricante y comprueba su firmeza
+#     en cada inspección prevuelo.
+#  [Regla de oro 2]
+#     Lleva siempre fusibles de repuesto en el bolsillo de la cabina. Si uno se funde en vuelo,
+#     cámbialo una vez. Si vuelve a fundirse, desconecta el equipo afectado: tienes un
+#     cortocircuito serio que puede acabar en fuego eléctrico.

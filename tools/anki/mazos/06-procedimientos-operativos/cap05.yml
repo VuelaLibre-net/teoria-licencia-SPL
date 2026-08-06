@@ -1,0 +1,130 @@
+# Mazo Anki de 06-procedimientos-operativos, capítulo 5.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 06-procedimientos-operativos
+capitulo: 5
+titulo: "Aterrizaje fuera de campo (*outlanding*)"
+tarjetas:
+  - id: escalera-600-450-300
+    tipo: basica
+    anverso: Escalera de decisión del aterrizaje fuera de campo.
+    reverso: |
+      * **600 m** sobre el terreno: elige la **zona**.
+      * **450 m**: elige el **campo**.
+      * **300 m**: **comprométete** con el circuito y olvida las térmicas.
+
+      Retrasar la decisión buscando un «milagro rasante» es la causa número 1 de
+      accidentes graves.
+    etiquetas: [Seguridad]
+
+  - id: las-siete-s
+    tipo: cloze
+    texto: |
+      Las **7 S** de la selección de campo: {{c1::tamaño}}, {{c2::forma}},
+      {{c3::pendiente}}, {{c4::superficie}}, {{c5::alrededores}},
+      {{c6::animales}} y {{c7::sol}}.
+    extra: |
+      Un campo grande, llano, con viento en cara y sin obstáculos en la
+      aproximación es tu seguro de vida.
+
+  - id: circuito-estandar-fuera-de-campo
+    tipo: basica
+    anverso: ¿Qué circuito se vuela en un aterrizaje fuera de campo?
+    reverso: |
+      **El estándar. Nada de aproximaciones directas raras.**
+
+      El viento en cola sirve para inspeccionar el terreno; la base, para
+      ajustar la altura; el final, para clavar la toma.
+
+  - id: frenar-a-fondo-en-el-rodaje
+    tipo: basica
+    anverso: Ya en tierra en un campo, ¿se frena o se intenta salvar el obstáculo?
+    reverso: |
+      **Se frena a fondo.**
+
+      Mejor romper el tren en un surco que flotar sobre un obstáculo y entrar en
+      pérdida a tres metros del suelo.
+
+  - id: ground-loop-deliberado
+    tipo: basica
+    anverso: Si el impacto contra un obstáculo insalvable es inevitable, ¿qué último recurso hay?
+    reverso: |
+      **Provocar un «caballito» (*ground loop*): ala al suelo y timón a fondo
+      hacia ese mismo lado.**
+
+      El planeador pivota sobre la punta del ala y se detiene, sacrificando
+      plano o tren para disipar energía. El material es reemplazable; los
+      ocupantes no.
+    etiquetas: [Seguridad]
+
+  - id: quedarse-junto-al-planeador
+    tipo: basica
+    anverso: Tras aterrizar en zona aislada, ¿se busca ayuda a pie?
+    reverso: |
+      **No: permanece junto al planeador.**
+
+      Quince metros de envergadura blanca se avistan desde el aire
+      infinitamente mejor que un piloto caminando. Irse multiplica el riesgo de
+      desorientación, hipotermia y retraso en la localización.
+    etiquetas: [Seguridad]
+
+  - id: post-toma-fuera-de-campo
+    tipo: basica
+    anverso: ¿Qué se hace tras la toma fuera de campo?
+    reverso: |
+      **Asegurar el planeador contra el viento** (pesos en planos, cúpula
+      cerrada, fundas de pitot), **transmitir las coordenadas GPS exactas**,
+      permanecer junto a la aeronave —la tela del paracaídas sirve de refugio— y
+      tratar al agricultor con respeto y educación.
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (5 viñetas)
+#  [1]
+#     **La decisión (600/450/300 m)**: a 600 m sobre el terreno, elige la zona; a 450 m, el campo;
+#     a 300 m, comprométete con el circuito y olvida las térmicas. Retrasar esta decisión buscando
+#     un «milagro rasante» es la causa número 1 de accidentes graves.
+#  [2]
+#     **Selección del campo (7 S)**: tamaño, forma, pendiente, superficie, alrededores, animales y
+#     sol. Un campo grande, llano, con viento en cara y sin obstáculos en la aproximación es tu
+#     seguro de vida.
+#  [3]
+#     **El circuito**: hazlo **estándar**. No inventes aproximaciones directas raras. El viento en
+#     cola sirve para inspeccionar el terreno; la base, para ajustar la altura; el final, para
+#     clavar la toma.
+#  [4]
+#     **En tierra**: frena a fondo. Es mejor romper el tren en un surco que intentar flotar sobre
+#     un obstáculo y entrar en pérdida a tres metros del suelo.
+#  [5]
+#     **Procedimientos post-toma**: asegura el planeador contra el viento (pesos en planos, cúpula
+#     cerrada, fundas de pitot), transmite tus coordenadas GPS exactas, permanece junto a la
+#     aeronave si estás en zona aislada (usa la tela del paracaídas como refugio) y mantén un
+#     trato respetuoso y educado con el agricultor.
+#
+# RECUADROS (3)
+#  [Seguridad 1]
+#     Retrasar la decisión de aterrizar buscando una «térmica de rescate» a baja altura es el
+#     patrón más documentado en los accidentes graves de vuelo sin motor. Una vez fijada la altura
+#     de decisión, respétala sin excepciones. El planeador se puede reparar. El piloto, no
+#     siempre.
+#  [Seguridad 2]
+#     Si durante el rodaje es inevitable el impacto a alta velocidad contra un obstáculo
+#     insalvable, puedes provocar un «caballito» deliberado (*ground loop*) llevando un ala al
+#     suelo y aplicando timón a fondo hacia ese mismo lado. El planeador pivotará violentamente
+#     sobre la punta del ala y se detendrá bruscamente, sacrificando la estructura del plano o del
+#     tren para disipar la energía y proteger a los ocupantes. Esta maniobra es un último recurso
+#     cuando la única alternativa es el choque frontal; recuerda que el material es reemplazable,
+#     pero la vida de los ocupantes no.
+#  [Seguridad 3]
+#     **Permanece siempre junto al planeador**. Una aeronave de color blanco o brillante de 15
+#     metros de envergadura es infinitamente más fácil de avistar desde el aire por los equipos de
+#     rescate que un piloto caminando solo por el bosque o la montaña. Abandonar el velero para
+#     buscar ayuda a pie multiplica el riesgo de desorientación, hipotermia y retraso en la
+#     localización.

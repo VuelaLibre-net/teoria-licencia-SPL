@@ -1,0 +1,158 @@
+# Mazo Anki de 08-aeronave-sistemas, capítulo 1.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 08-aeronave-sistemas
+capitulo: 1
+titulo: "Estructura (*airframe*)"
+tarjetas:
+  - id: materiales-del-planeador
+    tipo: basica
+    anverso: ¿De qué están hechos los planeadores?
+    reverso: |
+      **La mayoría de fibra de vidrio y carbono (composite)**, por resistencia y
+      acabado liso. Los clásicos, de madera y tela. El metal es raro en
+      planeadores puros, salvo el Blaník.
+
+  - id: por-que-son-blancos
+    tipo: basica
+    anverso: ¿Por qué son blancos los planeadores de composite?
+    reverso: |
+      **Porque la resina epoxi pierde propiedades mecánicas si se calienta
+      demasiado**, y el blanco refleja la radiación solar.
+
+      Es una razón técnica, no estética.
+    etiquetas: [Airmanship]
+
+  - id: gelcoat
+    tipo: basica
+    anverso: ¿Qué es el **gelcoat** y cómo se cuida?
+    reverso: |
+      **La «piel» blanca del planeador, sensible a los UV y a los cambios
+      bruscos de temperatura.**
+
+      Fundas siempre que puedas y encerado al menos una vez al año, con ceras
+      **sin silicona**.
+    etiquetas: [Regla de oro]
+
+  - id: gelcoat-vs-poliuretano
+    tipo: basica
+    anverso: ¿Qué aporta la pintura de **poliuretano** frente al gelcoat?
+    reverso: |
+      **Más ligera y elástica, resiste mejor el craqueado; pero se repara peor
+      con lijado y pulido.**
+
+  - id: larguero
+    tipo: basica
+    anverso: ¿Qué es el **larguero** y qué pasa si se daña?
+    reverso: |
+      **La columna vertebral del ala: soporta las cargas de vuelo.**
+
+      Si se daña, el ala es chatarra.
+
+  - id: estructura-sandwich
+    tipo: basica
+    anverso: ¿Qué es una **estructura sándwich** y cuál es su punto débil?
+    reverso: |
+      **Dos capas duras con un núcleo ligero (espuma o nido de abeja): muy
+      rígida y ligera.**
+
+      Delicada ante los golpes puntuales.
+
+  - id: gancho-de-morro-vs-cg
+    tipo: basica
+    anverso: ¿Qué gancho se usa para avión y cuál para torno?
+    reverso: |
+      **Morro para avión, CG para torno** — lo manda el AFM.
+
+      El de CG tiene suelta automática (*back-release*).
+
+  - id: por-que-no-torno-con-gancho-de-morro
+    tipo: basica
+    anverso: ¿Por qué no se lanza en torno con el **gancho de morro**?
+    reverso: |
+      **Porque al quedar por delante del CG, el cable tira del morro hacia el
+      suelo** en vez de dejar rotar el planeador. Contrarrestarlo exige
+      profundidad a fondo, sobrecargando estabilizador y timón en una fase de
+      cargas ya altas.
+
+      Además, el de morro no da *back-release*: un fallo de suelta es mucho más
+      peligroso. En los tipos así certificados, el AFM lo prohíbe expresamente.
+    etiquetas: [Seguridad]
+
+  - id: vida-del-gancho-tost
+    tipo: basica
+    anverso: ¿Qué se comprueba del gancho de remolque, y qué vida tiene?
+    reverso: |
+      **En prevuelo: acciona la suelta con el cable de pruebas y comprueba que
+      abre y cierra con franqueza, sin agarrotamientos.**
+
+      Los Tost tienen vida limitada en años y en número de lanzamientos; al
+      cumplirla, revisión o sustitución según el fabricante.
+    etiquetas: [Seguridad]
+
+  - id: cupula-cuidados
+    tipo: basica
+    anverso: ¿Qué se comprueba y cómo se limpia la **cúpula**?
+    reverso: |
+      **Pestillos bloqueados antes de despegar y suelta de emergencia
+      localizada.**
+
+      El plexiglás, sólo con agua y paños adecuados.
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (6 viñetas)
+#  [1]
+#     **Materiales**: la mayoría, de fibra de vidrio y de carbono (composite) por su resistencia y
+#     su acabado liso. Los clásicos, de madera y tela. El metal es raro en planeadores puros
+#     (salvo el Blaník).
+#  [2]
+#     **Gelcoat**: la "piel" blanca del planeador. Sensible a los rayos UV y a los cambios bruscos
+#     de temperatura. Protégelo con fundas y no lo dejes al sol sin necesidad. En los veleros
+#     modernos lo sustituye cada vez más la pintura de poliuretano (PU): más ligera y elástica,
+#     resiste mejor el craqueado, pero se repara peor con lijado y pulido.
+#  [3]
+#     **Larguero**: la columna vertebral del ala. Soporta las cargas de vuelo. Si se daña, el ala
+#     es chatarra.
+#  [4]
+#     **Estructura sándwich**: dos capas duras con un núcleo ligero (espuma o nido de abeja). Muy
+#     rígida y ligera, pero delicada ante los golpes puntuales.
+#  [5]
+#     **Cúpula**: pestillos bloqueados antes de despegar, suelta de emergencia localizada y
+#     plexiglás limpio solo con agua y paños adecuados.
+#  [6]
+#     **Gancho de remolque**: morro para avión, CG para torno (lo manda el AFM). Nunca torno con
+#     el gancho de morro: tira del morro al suelo y sobrecarga la cola. El de CG tiene suelta
+#     automática (**back-release**). Comprueba su funcionamiento en la inspección diaria.
+#
+# RECUADROS (4)
+#  [Airmanship 1]
+#     Los planeadores de composite son casi siempre blancos por una razón técnica, no estética: la
+#     resina epoxi que une las fibras pierde propiedades mecánicas si se calienta demasiado. El
+#     blanco refleja la radiación solar y mantiene la estructura dentro de sus límites térmicos.
+#  [Regla de oro 2]
+#     Trata el gelcoat como tratarías tu propia piel. Protégelo del sol con fundas siempre que
+#     puedas y encéralo al menos una vez al año con ceras sin silicona para conservar su
+#     elasticidad y su protección UV.
+#  [Seguridad 3]
+#     No te lances nunca en torno con el gancho de morro. Al quedar el enganche por delante del
+#     centro de gravedad, el cable tira del morro hacia el suelo en lugar de dejar rotar el
+#     planeador a la subida; para contrarrestarlo tendrías que tirar a fondo de profundidad, y eso
+#     sobrecarga el estabilizador horizontal y el timón en una fase de cargas ya muy altas. A esto
+#     se suma que el gancho de morro no da la suelta automática (**back-release**) del de CG, así
+#     que un fallo de suelta es mucho más peligroso. Por estas razones, en los tipos así
+#     certificados el AFM prohíbe de forma expresa el lanzamiento por torno con el gancho de
+#     morro.
+#  [Seguridad 4]
+#     El gancho de remolque es un mecanismo con desgaste y con revisiones propias: los Tost tienen
+#     una vida limitada en años y en número de lanzamientos, y al cumplirla deben revisarse o
+#     sustituirse según el manual del fabricante. En la inspección prevuelo, acciona la suelta con
+#     el cable de pruebas y comprueba que el gancho abre y cierra con franqueza, sin
+#     agarrotamientos.

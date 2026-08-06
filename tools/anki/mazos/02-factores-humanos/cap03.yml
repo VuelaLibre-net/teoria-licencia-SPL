@@ -1,0 +1,175 @@
+# Mazo Anki de 02-factores-humanos, capítulo 3.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 02-factores-humanos
+capitulo: 3
+titulo: "Psicología aeronáutica básica"
+tarjetas:
+  - id: conciencia-situacional
+    tipo: basica
+    anverso: ¿Qué es la **conciencia situacional** y por qué importa tanto?
+    reverso: |
+      **Percibir lo que ocurre, comprender su significado y proyectar su estado
+      futuro.**
+
+      Perderla es el primer eslabón de la mayoría de las cadenas de accidentes
+      en vuelo a vela.
+    etiquetas: [Seguridad]
+
+  - id: que-erosiona-la-conciencia-situacional
+    tipo: basica
+    anverso: ¿Qué erosiona la conciencia situacional?
+    reverso: |
+      **La sobrecarga cualitativa de atención, el pánico ante un fenómeno no
+      comprendido, la fatiga y la incomodidad de un asiento mal ajustado.**
+
+  - id: adm-decide
+    tipo: basica
+    anverso: ¿Qué es la **ADM** y qué modelo la sistematiza?
+    reverso: |
+      **La toma de decisiones aeronáutica: el proceso mental para elegir
+      consistentemente la mejor opción ante unas circunstancias.**
+
+      El modelo de referencia es **DECIDE**.
+
+  - id: estres-rendimiento
+    tipo: basica
+    anverso: ¿Cómo afecta el **estrés** al rendimiento?
+    reverso: |
+      **Un nivel moderado lo mejora (alerta); el excesivo o crónico bloquea la
+      decisión y fija la atención en detalles irrelevantes (visión de túnel).**
+
+  - id: instinto-de-tirar-de-la-palanca
+    tipo: basica
+    anverso: ¿Qué instinto peligroso aparece bajo pánico, y qué provoca?
+    reverso: |
+      **«Alejarse del suelo tirando fuertemente de la palanca».**
+
+      A baja altura esa maniobra abrupta gasta toda la energía del planeador y
+      precipita una pérdida de control o una barrena irrecuperable.
+    etiquetas: [Seguridad]
+
+  - id: carga-de-trabajo-vaso
+    tipo: basica
+    anverso: ¿Qué se hace cuando la **carga de trabajo** desborda?
+    reverso: |
+      **Parar un segundo, respirar y simplificar radicalmente las prioridades:
+      Aviate, Navigate, Communicate.**
+
+      Primero vuela el planeador con seguridad; luego hacia dónde; y sólo si es
+      estrictamente necesario, la radio.
+    etiquetas: [Regla de oro]
+
+  - id: procesamiento-de-informacion
+    tipo: basica
+    anverso: ¿Qué componentes tiene el **procesamiento de información**?
+    reverso: |
+      **Percepción** (interpretar el medio), **atención** (foco) y las memorias
+      **sensorial, a corto plazo y a largo plazo**.
+
+      Demasiada información externa sin asimilar produce sobrecarga cualitativa.
+
+  - id: pave
+    tipo: cloze
+    texto: |
+      **PAVE**: {{c1::Piloto}}, {{c2::Aeronave}}, {{c3::Environment (medio
+      ambiente)}} y {{c4::Operación o presiones externas}}.
+    extra: |
+      Desglosar el vuelo con PAVE antes de despegar permite cortar la cadena de
+      errores antes de sentarse en la cabina.
+
+  - id: actitudes-peligrosas
+    tipo: basica
+    anverso: ¿Cuáles son las **cinco actitudes peligrosas**?
+    reverso: |
+      **Antiautoridad, impulsividad, invulnerabilidad, arrogancia (exceso de
+      confianza) y resignación.**
+
+  - id: srm
+    tipo: basica
+    anverso: ¿Qué es la **SRM** (gestión de recursos del piloto solitario)?
+    reverso: |
+      **La habilidad de usar de forma integrada el equipo de a bordo, la
+      información, las comunicaciones y la ayuda externa para no exceder la
+      propia capacidad.**
+
+  - id: complacencia-e-indisciplina
+    tipo: basica
+    anverso: Diferencia entre **complacencia** e **indisciplina**.
+    reverso: |
+      **La complacencia nace del exceso de rutina y da una falsa sensación de
+      seguridad; la indisciplina contagia una mala cultura de seguridad al
+      aeródromo al ignorar las normas.**
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (9 viñetas)
+#  [1]
+#     **Conciencia situacional**: Es la capacidad precisa de percibir lo que ocurre, comprender su
+#     significado y proyectar su estado futuro. Perderla es el primer eslabón de la mayoría de las
+#     cadenas de accidentes.
+#  [2]
+#     **Toma de decisiones (ADM)**: Proceso mental sistemático (como el modelo DECIDE) utilizado
+#     por los pilotos para elegir consistentemente la mejor opción de acción en respuesta a un
+#     conjunto de circunstancias.
+#  [3]
+#     **Estrés**: Es la respuesta del cuerpo ante una demanda física o psicológica. Un nivel
+#     moderado mejora el rendimiento (alerta), pero el estrés excesivo o crónico bloquea la
+#     capacidad de tomar decisiones y fija la atención en detalles irrelevantes (visión de túnel).
+#  [4]
+#     **Carga de trabajo y Rendimiento**: Tu capacidad de procesamiento es limitada (como un vaso
+#     de agua). Si la complejidad del vuelo (mal tiempo, tráfico, avería) llena el vaso, te
+#     desbordas. Simplifica la tarea (aviate, navigate, communicate) para recuperar margen de
+#     seguridad.
+#  [5]
+#     **Procesamiento de Información**: Comprende la percepción (interpretación del medio
+#     ambiente), atención (foco) y las memorias sensorial, a corto plazo y a largo plazo. Un
+#     exceso de información externa sin asimilar puede generar sobrecarga cualitativa.
+#  [6]
+#     **Gestión de Riesgos (PAVE)**: Evaluar sistemáticamente factores críticos divididos en
+#     Piloto, Aeronave, Medio Ambiente (**Environment**) y Operación o Presiones Externas.
+#  [7]
+#     **Actitudes Peligrosas**: Las cinco actitudes a evitar son la antiautoridad, la
+#     impulsividad, la invulnerabilidad, la arrogancia (exceso de confianza) y la resignación.
+#  [8]
+#     **Gestión de Recursos (SRM)**: La habilidad del piloto solitario para usar integralmente el
+#     equipo a bordo, la información, las comunicaciones y la ayuda externa para no exceder su
+#     capacidad límite.
+#  [9]
+#     **Complacencia e Indisciplina**: La complacencia surge por el exceso de rutina generando una
+#     falsa sensación de seguridad, mientras que la indisciplina contagia una mala cultura de
+#     seguridad en el aeródromo al ignorar las normas.
+#
+# RECUADROS (5)
+#  [Seguridad 1]
+#     La pérdida de la conciencia situacional suele ser el eslabón inicial en la mayoría de las
+#     cadenas de accidentes en el vuelo a vela. Una sobrecarga cualitativa de la atención, el
+#     pánico derivado de un fenómeno no comprendido, la fatiga o la incomodidad en un asiento mal
+#     ajustado erosionan drásticamente la capacidad de asimilar el cuadro informativo completo que
+#     define una situación de vuelo segura.
+#  [Regla de oro 2]
+#     Desglosar mentalmente tu vuelo usando PAVE antes del despegue te permite detectar y cortar
+#     la cadena de errores antes de sentarte en la cabina.
+#  [Seguridad 3]
+#     Bajo condiciones de estrés extremo y pánico, instintos básicos de supervivencia como
+#     intentar "alejarse del suelo tirando fuertemente de la palanca" pueden superar tu
+#     raciocinio. Esta maniobra instintiva y abrupta a baja altura gastará toda la energía de tu
+#     planeador, precipitándote irremediablemente a una pérdida de control o barrena
+#     irrecuperable. Conoce tus límites y no te metas en escenarios para los que no estás
+#     sobradamente preparado.
+#  [Regla de oro 4]
+#     Cuando notes que tu vaso se está desbordando, detente un segundo, respira, y reduce la carga
+#     mental simplificando radicalmente tus prioridades según el antiguo adagio de la aviación:
+#     **Aviate, Navigate, Communicate** (Primero vuela el avión con seguridad, luego preocúpate de
+#     hacia dónde, y, por último y de ser estrictamente necesario, coge la radio para contarlo).
+#  [Airmanship 5]
+#     Es preferible anticiparse en tierra que reaccionar en el aire. Evitar enfrentarse a muchas
+#     situaciones nuevas simultáneamente (un velero nuevo en un aeródromo desconocido y con mal
+#     tiempo) es la mayor muestra de que sabes gestionar tus recursos usando como base el sentido
+#     común.

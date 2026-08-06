@@ -1,0 +1,137 @@
+# Mazo Anki de 07-planificacion-rendimiento, capítulo 5.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 07-planificacion-rendimiento
+capitulo: 5
+titulo: "Monitoreo del vuelo y replanificación en vuelo"
+tarjetas:
+  - id: cono-de-alcance-opcion-segura
+    tipo: basica
+    anverso: ¿Qué regla gobierna el **cono de alcance** en ruta?
+    reverso: |
+      **Tener siempre una opción de aterrizaje segura dentro del cono.**
+
+      Lo que queda fuera es inalcanzable.
+
+  - id: regla-mental-de-alcance
+    tipo: basica
+    anverso: Regla mental de alcance por kilómetro de altura.
+    reverso: |
+      **1 km de altura da 20-30 km de alcance**, según viento y planeador.
+
+      Con viento de cara fuerte, divide por dos.
+
+  - id: correccion-de-deriva-6-grados
+    tipo: basica
+    anverso: A 100 km/h, ¿cuánta corrección pide cada 10 km/h de **viento cruzado**?
+    reverso: |
+      **Unos 6º hacia el viento.**
+
+      Con 20 km/h cruzados, apunta unos 12º al lado del viento y comprueba
+      contra una referencia lejana que el rumbo sobre el suelo se mantiene.
+    etiquetas: [Regla de oro]
+
+  - id: la-termica-es-la-manga-de-viento
+    tipo: basica
+    anverso: ¿Cómo se estima el viento **sin mirar ningún instrumento**?
+    reverso: |
+      **Por la deriva de los círculos en térmica.**
+
+      La dirección y la distancia que te desplazas en cada giro dicen de dónde
+      sopla y con cuánta fuerza. La térmica es tu manga de viento.
+    etiquetas: [Regla de oro]
+
+  - id: planeo-final-tres-puntos
+    tipo: basica
+    anverso: ¿En qué tres momentos se verifica el margen del **planeo final**?
+    reverso: |
+      **Al inicio, en el punto medio y a 5 km del destino.**
+
+      La tendencia entre lecturas delata a tiempo la descendencia continua o el
+      viento imprevisto.
+
+  - id: punto-de-no-retorno
+    tipo: basica
+    anverso: ¿Qué es el **punto de no retorno** (PNR) y qué implica cruzarlo?
+    reverso: |
+      **El momento a partir del cual ya no vuelves a casa.**
+
+      Desde ahí el objetivo es el siguiente aeródromo o campo seguro. Decírtelo
+      en voz alta —«he cruzado el PNR»— ayuda a dejar de mirar el GPS de la
+      tarea y empezar a mirar el suelo.
+    etiquetas: [Airmanship]
+
+  - id: altura-de-seguridad
+    tipo: basica
+    anverso: ¿Qué es la **altura de seguridad** (*safety height*) y para qué es?
+    reverso: |
+      **Un margen intocable para llegar al campo —300 m, por ejemplo—, y es para
+      el circuito, no para planear.**
+
+  - id: llegar-con-cero-metros
+    tipo: basica
+    anverso: Si el ordenador de vuelo indica llegada con **0 m**, ¿llegas?
+    reverso: |
+      **No.** Ese cálculo es teórico y el aire real casi nunca está en calma
+      absoluta.
+
+      Lleva siempre colchón de altura y no dejes que se consuma.
+    etiquetas: [Seguridad]
+
+  - id: factor-humano-en-el-calculo
+    tipo: basica
+    anverso: ¿Cómo degradan hipoxia, deshidratación y fatiga la replanificación en vuelo?
+    reverso: |
+      **Estropean el cálculo mental y retrasan la decisión de aterrizar fuera.**
+
+      Bebe de forma programada, usa oxígeno en vuelos altos y añade margen
+      cuando lleves horas de tarea.
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (6 viñetas)
+#  [1]
+#     **Cono de alcance**: visualiza el cono bajo el planeador; lo que queda fuera es
+#     inalcanzable. Ten siempre una opción de aterrizaje segura dentro del cono.
+#  [2]
+#     **Cálculo mental**: 1 km de altura da 20-30 km de alcance, según el viento y el avión; con
+#     viento de cara fuerte, divide por dos. Para la deriva: a 100 km/h, cada 10 km/h de viento
+#     cruzado pide unos 6° de corrección.
+#  [3]
+#     **Planeo final en 3 puntos**: verifica el margen de llegada al inicio, en el punto medio y a
+#     5 km del destino. La tendencia entre lecturas delata a tiempo la descendencia continua o el
+#     viento imprevisto.
+#  [4]
+#     **Punto de no retorno**: llega un momento en que ya no vuelves a casa. Tenlo identificado. A
+#     partir de ahí, tu objetivo es el siguiente aeródromo o campo seguro.
+#  [5]
+#     **Factor humano**: hipoxia, deshidratación y fatiga degradan el cálculo mental y retrasan la
+#     decisión de aterrizar fuera. Bebe de forma programada, usa oxígeno en vuelos altos y añade
+#     margen cuando lleves horas de tarea (detalles en el **Libro 2 — Factores humanos**, capítulo
+#     4).
+#  [6]
+#     **Altura de seguridad (*safety height*)**: fija un margen intocable para llegar al campo
+#     (300 m, por ejemplo). Esa altura es para el circuito, no para planear. Si el calculador dice
+#     que llegas con 0 m, no llegas.
+#
+# RECUADROS (3)
+#  [Regla de oro 1]
+#     **La térmica es tu manga de viento.** Mientras espiraleas, tus círculos derivan con el
+#     viento: la dirección y la distancia que te desplazas en cada giro te dicen de dónde sopla y
+#     con cuánta fuerza, sin mirar ningún instrumento. Para corregir la deriva en planeo recto: a
+#     100 km/h, cada **10 km/h de viento cruzado ≈ 6° de corrección** hacia el viento. Con 20 km/h
+#     cruzados, apunta unos 12° al lado del viento y comprueba contra una referencia lejana del
+#     terreno que tu rumbo sobre el suelo se mantiene.
+#  [Airmanship 2]
+#     Cantar en voz alta (o para ti mismo) "He cruzado el PNR" te ayuda mentalmente a dejar de
+#     mirar el GPS de la tarea y empezar a mirar seriamente el suelo.
+#  [Seguridad 3]
+#     Si tu ordenador de vuelo indica que llegas con 0 metros, **no llegas**. Ese cálculo es
+#     teórico: en el mundo real el aire casi nunca está en calma absoluta. Lleva siempre un
+#     colchón de altura y no dejes que se consuma.

@@ -1,0 +1,119 @@
+# Mazo Anki de 05-principios-vuelo, capítulo 4.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 05-principios-vuelo
+capitulo: 4
+titulo: "Control"
+tarjetas:
+  - id: guinada-adversa
+    tipo: basica
+    anverso: ¿Qué es la **guiñada adversa** y por qué aparece?
+    reverso: |
+      **Que al alabear para girar, el morro se va al revés del giro.**
+
+      El ala que sube tiene más resistencia y frena ese lado. Es el efecto
+      secundario más molesto en veleros de gran envergadura.
+
+  - id: coordinacion-pie-mano
+    tipo: basica
+    anverso: ¿Cuál es el antídoto de la guiñada adversa?
+    reverso: |
+      **Coordinación pie-mano: palanca y pedal al mismo lado y al mismo
+      tiempo.**
+
+      El timón de dirección contrarresta el freno del ala exterior y el morro
+      sigue la curva sin derrapar.
+    etiquetas: [Regla de oro]
+
+  - id: mando-diferencial
+    tipo: basica
+    anverso: ¿Qué es el **mando diferencial** de alerones?
+    reverso: |
+      **Un diseño en que el alerón que sube se deflecta más que el que baja**,
+      para reducir la guiñada adversa.
+
+      Aun así, seguirás necesitando pie.
+
+  - id: hilo-de-lana
+    tipo: cloze
+    texto: |
+      Hilo de lana recto = vuelo {{c1::coordinado}}. Hilo hacia el **interior**
+      del viraje = {{c2::derrape (skid)}}. Hacia el **exterior** =
+      {{c3::resbale (slip)}}.
+    extra: |
+      Se corrige pisando el pedal **contrario** al lado hacia el que se va el
+      hilo.
+
+  - id: por-que-el-derrape-es-peligroso
+    tipo: basica
+    anverso: ¿Por qué el **derrape** es más peligroso que el resbale?
+    reverso: |
+      **Porque el ala interior puede entrar en pérdida asimétrica.**
+
+  - id: hilo-torcido-y-mandos-blandos
+    tipo: basica
+    anverso: "Hilo torcido **y** mandos blandos a la vez: ¿qué significa?"
+    reverso: |
+      **Que estás a punto de entrar en pérdida.** Actúa.
+    etiquetas: [Regla de oro]
+
+  - id: eficacia-de-mando
+    tipo: basica
+    anverso: ¿Qué te dicen los mandos por el tacto?
+    reverso: |
+      **Duros: vas rápido. Blandos y «chiclosos»: estás cerca de la pérdida.**
+
+  - id: uso-del-compensador
+    tipo: basica
+    anverso: ¿En qué orden se usa el **compensador** al cambiar de régimen de vuelo?
+    reverso: |
+      **Primero establece la nueva actitud con la palanca; después ajusta el
+      trim hasta no sentir fuerza en la mano.**
+
+      No es para descansar el brazo: es lo que permite mantener una velocidad
+      constante sin esfuerzo.
+    etiquetas: [Airmanship]
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (5 viñetas)
+#  [1]
+#     **Guiñada adversa**: el efecto secundario más molesto en los veleros de gran envergadura. Al
+#     alabear para girar, el ala que sube tiene más resistencia y frena ese lado, metiendo el
+#     morro **al revés** del giro. **Antídoto**: pie y mano juntos (coordinación).
+#  [2]
+#     **Hilo de lana (yaw string)**: indicador de coordinación en el parabrisas. Recto = vuelo
+#     coordinado. Hilo hacia el interior del viraje = derrape (**skid**); hacia el exterior =
+#     resbale (**slip**). El derrape es el peligroso: el ala interior puede entrar en pérdida
+#     asimétrica. Corrígelo pisando el pedal contrario al lado del hilo.
+#  [3]
+#     **Compensador (trim)**: no es solo para descansar el brazo. Es fundamental para mantener una
+#     velocidad constante sin esfuerzo. Compensa siempre que cambies de régimen de vuelo (de
+#     termicar a planear rápido).
+#  [4]
+#     **Eficacia de mando**: los mandos "hablan". Si están duros, vas rápido. Si están blandos y
+#     "chiclosos", estás cerca de la pérdida. Escucha lo que te dicen a través de la mano.
+#  [5]
+#     **Mando diferencial**: diseño de los alerones para reducir la guiñada adversa (el alerón que
+#     sube lo hace más que el que baja), pero aun así necesitarás pie.
+#
+# RECUADROS (3)
+#  [Regla de oro 1]
+#     La solución a la guiñada adversa es la **Coordinación Pie-Mano**. Se debe aplicar palanca y
+#     pedal hacia el mismo lado y al mismo tiempo. El timón de dirección contrarresta el freno
+#     abrupto del ala exterior, forzando al morro a seguir la curva suavemente sin derrapar.
+#  [Regla de oro 2]
+#     Vuela con el hilo recto. Si se mueve, corrígelo con el pedal. Y si el hilo está torcido y
+#     los mandos están blandos al mismo tiempo, actúa: estás a punto de entrar en pérdida.
+#  [Airmanship 3]
+#     Acostúmbrate a usar el compensador constantemente. Después de cambiar el régimen de vuelo
+#     (por ejemplo, de termicar a velocidad lenta a volar recto a mayor velocidad), primero
+#     establece la nueva actitud con la palanca y luego ajusta el trim hasta que no sientas fuerza
+#     en la mano.

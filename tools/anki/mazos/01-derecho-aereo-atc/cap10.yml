@@ -1,0 +1,54 @@
+# Mazo Anki de 01-derecho-aereo-atc, capítulo 10.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 01-derecho-aereo-atc
+capitulo: 10
+titulo: "Aeródromos y campos de despegue externos"
+tarjetas:
+  - id: sentido-del-circuito
+    tipo: basica
+    anverso: ¿En qué sentido son los virajes del circuito de tránsito?
+    reverso: "**A la izquierda, salvo señal en contrario.**"
+
+  - id: area-de-senales
+    tipo: basica
+    anverso: ¿Qué indican las señales del **área de señales**?
+    reverso: |
+      * **Manga de viento**: dirección e intensidad del viento.
+      * **T tumbada**: dirección de aterrizaje y despegue.
+      * **Flecha a la derecha**: virajes a la derecha.
+      * **Cruz roja con diagonales amarillas**: prohibido aterrizar.
+      * **Panel rojo con una diagonal**: precaución, área de maniobras en mal
+        estado.
+      * **Doble cruz blanca**: planeadores en actividad.
+
+  - id: buscar-el-area-de-senales
+    tipo: basica
+    anverso: ¿Qué se busca al llegar a un campo nuevo, incluso sin radio?
+    reverso: |
+      **El área de señales**: da pista en uso y sentido de giro de un vistazo.
+    etiquetas: [Regla de oro]
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (2 viñetas)
+#  [1]
+#     **Circuito de tránsito**: virajes a la **izquierda**, salvo señal en contrario.
+#  [2]
+#     **Área de señales**: la manga de viento indica dirección e intensidad; la T tumbada, la
+#     dirección de aterrizaje y despegue; la flecha derecha avisa de virajes a la derecha; la cruz
+#     roja con diagonales amarillas prohíbe aterrizar; el panel rojo con una sola diagonal pide
+#     precaución por mal estado del área de maniobras; y la doble cruz blanca anuncia planeadores
+#     en actividad.
+#
+# RECUADROS (1)
+#  [Regla de oro 1]
+#     Antes de despegar o al llegar a un campo nuevo, **busca siempre el área de señales**. Te
+#     dará información (pista en uso y sentido de giro) de un solo vistazo, incluso sin radio.

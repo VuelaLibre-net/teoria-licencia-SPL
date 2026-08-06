@@ -1,0 +1,109 @@
+# Mazo Anki de 08-aeronave-sistemas, capítulo 6.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 08-aeronave-sistemas
+capitulo: 6
+titulo: "Instrumentos"
+tarjetas:
+  - id: pitot-y-estatica
+    tipo: basica
+    anverso: ¿Qué mide cada toma, el **pitot** y la **estática**?
+    reverso: |
+      **El pitot (morro o cola) mide presión total; las estáticas (fuselaje),
+      presión ambiente.**
+
+      Si se bloquean —insectos, agua— te quedas ciego de velocidad y altura.
+
+  - id: cuidado-de-las-tomas
+    tipo: basica
+    anverso: ¿Cómo se cuidan las tomas de presión, y qué no se hace nunca?
+    reverso: |
+      **Fundas protectoras en tierra y comprobación de limpieza en prevuelo.**
+
+      **Nunca soples directamente en ellas**: la sobrepresión revienta las
+      membranas de los instrumentos. Un nido de araña en el pitot deja el
+      anemómetro a cero en pleno despegue.
+    etiquetas: [Seguridad]
+
+  - id: arcos-del-anemometro-08
+    tipo: basica
+    anverso: ¿Qué marca cada zona del anemómetro?
+    reverso: |
+      * **Arco verde**: normal, hasta la **V_RA**.
+      * **Arco amarillo**: precaución, de V_RA a V_NE; sólo en aire en calma.
+      * **Línea roja**: **V_NE**.
+      * **Triángulo amarillo**: velocidad de aproximación con masa máxima sin
+        lastre.
+
+  - id: qnh-vs-qfe
+    tipo: basica
+    anverso: ¿Cuándo se cala el altímetro en **QNH** y cuándo en **QFE**?
+    reverso: |
+      **QNH para altitud sobre el nivel del mar** (rutas, espacios aéreos).
+      **QFE para altura sobre el campo** (circuito).
+
+  - id: variometro-de-energia-total
+    tipo: basica
+    anverso: ¿Qué aporta el **variómetro de energía total**?
+    reverso: |
+      **Ignora los «palancazos» —que sólo cambian velocidad por altura— y dice
+      únicamente si la masa de aire sube o baja.**
+
+  - id: sao-ide-105-equipamiento
+    tipo: basica
+    anverso: ¿Qué instrumentos exige **SAO.IDE.105** como mínimo?
+    reverso: |
+      **Hora (horas y minutos), altitud de presión y velocidad indicada** para
+      todo planeador; **más rumbo magnético** si es motorizado.
+
+      Para nubes o noche se añaden **velocidad vertical**, **actitud o
+      viraje-resbale** y **rumbo magnético**. El vuelo nocturno exige además
+      luces de navegación, anticolisión, aterrizaje y cabina.
+    etiquetas: [Normativa]
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (6 viñetas)
+#  [1]
+#     **Pitot y estática**: los sentidos del avión. El pitot (morro/cola) mide presión total; las
+#     estáticas (fuselaje), presión ambiente. Si se bloquean (insectos, agua), te quedas ciego de
+#     velocidad y altura.
+#  [2]
+#     **Anemómetro**: conoce tus arcos de color. Verde: normal, hasta la V~RA~ (velocidad máxima
+#     en aire turbulento). Amarillo: precaución, de la V~RA~ a la V~NE~ (solo aire calmo). Línea
+#     roja: V~NE~, peligro de muerte. Triángulo amarillo: velocidad de aproximación con masa
+#     máxima sin lastre.
+#  [3]
+#     **Equipamiento mínimo (SAO.IDE.105)**: hora, altitud de presión y velocidad indicada para
+#     todo planeador (más rumbo magnético si es motorizado). Para nubes o noche se añaden
+#     velocidad vertical, actitud/viraje-resbale y rumbo magnético.
+#  [4]
+#     **Altímetro**: recuerda calarlo. QNH para altitud sobre el nivel del mar (rutas, espacios
+#     aéreos); QFE para altura sobre el campo (circuito).
+#  [5]
+#     **Variómetro (energía total)**: la herramienta clave. Ignora los "palancazos" (que cambian
+#     velocidad por altura) y solo te dice si la masa de aire sube o baja.
+#  [6]
+#     **Aviónica**: radio VHF, transpondedor y FLARM. El FLARM es la red de seguridad anticolisión
+#     del vuelo sin motor.
+#
+# RECUADROS (2)
+#  [Seguridad 1]
+#     Las tomas de presión son un imán para los insectos. Un nido de araña en el pitot hará que tu
+#     anemómetro marque cero en pleno despegue. Pon fundas protectoras en tierra y comprueba que
+#     las tomas están limpias en la inspección prevuelo. Y no soples nunca directamente en ellas:
+#     la sobrepresión revienta las delicadas membranas de los instrumentos.
+#  [Normativa 2]
+#     **SAO.IDE.105** exige a todo planeador medios para medir y mostrar la hora (en horas y
+#     minutos), la altitud de presión y la velocidad aerodinámica indicada. Los planeadores
+#     motorizados llevan además rumbo magnético. Para volar en condiciones de nebulosidad (nubes)
+#     o de noche se añaden tres: la velocidad vertical, la actitud o el viraje y resbale, y el
+#     rumbo magnético. El vuelo nocturno exige, además, luces de navegación, anticolisión, de
+#     aterrizaje y de cabina.

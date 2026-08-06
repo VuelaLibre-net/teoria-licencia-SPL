@@ -1,0 +1,60 @@
+# Mazo Anki de 01-derecho-aereo-atc, capítulo 11.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 01-derecho-aereo-atc
+capitulo: 11
+titulo: "Búsqueda y salvamento (*search and rescue*)"
+tarjetas:
+  - id: fases-de-emergencia-sar
+    tipo: cloze
+    texto: |
+      Fases de emergencia SAR: {{c1::INCERFA}} (incertidumbre sobre la seguridad
+      de la aeronave), {{c2::ALERFA}} (preocupación) y {{c3::DETRESFA}}
+      (certeza razonable de peligro grave e inminente).
+
+  - id: senales-tierra-aire
+    tipo: cloze
+    texto: |
+      Señales tierra-aire: **V** = {{c1::necesito ayuda}}; **X** =
+      {{c2::necesito ayuda médica}}; **N** = {{c3::no}}; **Y** = {{c4::sí}}.
+
+  - id: interceptar-una-senal-de-socorro
+    tipo: basica
+    anverso: Si en vuelo interceptas una señal de socorro, ¿qué haces?
+    reverso: |
+      1. **Anota la posición.**
+      2. **No satures la frecuencia**: escucha primero.
+      3. **Notifica al ATC** o a quien puedas, de inmediato.
+      4. Si es posible, **mantente en la zona hasta ser relevado**, sin ponerte
+         en peligro.
+    etiquetas: [Seguridad]
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (4 viñetas)
+#  [1]
+#     **INCERFA (Fase de incertidumbre)**: existe incertidumbre sobre la seguridad de la aeronave
+#     y sus ocupantes.
+#  [2]
+#     **ALERFA (Fase de alerta)**: existe preocupación por la seguridad de la aeronave y sus
+#     ocupantes.
+#  [3]
+#     **DETRESFA (Fase de peligro)**: existe certeza razonable de peligro grave e inminente y de
+#     que se necesita ayuda inmediata.
+#  [4]
+#     **Señales tierra-aire**: **V** = necesito ayuda; **X** = necesito ayuda médica; **N** = no;
+#     **Y** = sí.
+#
+# RECUADROS (1)
+#  [Seguridad 1]
+#     Si volando interceptas una señal de socorro (visual o en 121.5 MHz): 1. **Anota la
+#     posición**. 2. **No satures la frecuencia** (escucha primero). 3. **Notifica al ATC** o a
+#     quien puedas inmediatamente. 4. Si es posible, mantente en la zona hasta ser relevado (sin
+#     ponerte en peligro).

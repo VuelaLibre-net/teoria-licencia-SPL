@@ -1,0 +1,103 @@
+# Mazo Anki de 01-derecho-aereo-atc, capítulo 7.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 01-derecho-aereo-atc
+capitulo: 7
+titulo: "Reglamentación de tránsito aéreo: estructura del espacio aéreo"
+tarjetas:
+  - id: clases-controladas-y-vfr
+    tipo: basica
+    anverso: ¿Qué necesita el VFR en cada clase controlada?
+    reverso: |
+      * **A**: sólo IFR.
+      * **B, C y D**: autorización ATC y comunicación bilateral. (La B no se usa
+        en España.)
+      * **E**: ni autorización ni radio obligatoria.
+
+  - id: clase-g
+    tipo: basica
+    anverso: ¿Qué hay en la **clase G**?
+    reverso: |
+      **Espacio no controlado: vuelas bajo tu responsabilidad, con «ver y
+      evitar».**
+
+      Puedes recibir FIS si está disponible y lo solicitas, pero **nadie te
+      separa**.
+
+  - id: clases-que-no-se-usan-en-espana
+    tipo: basica
+    anverso: ¿Qué clases de espacio aéreo no se usan en la práctica en España?
+    reverso: |
+      **La B y la F.**
+
+      El espacio español es mayoritariamente G, y A, C, D y E en rutas y
+      entornos aeroportuarios.
+    etiquetas: [Airmanship]
+
+  - id: autorizacion-no-exime
+    tipo: basica
+    anverso: ¿Elimina una autorización ATC la responsabilidad del piloto?
+    reverso: |
+      **No.** Si no puedes cumplirla con seguridad, comunícalo de inmediato y
+      coordina una alternativa segura.
+
+  - id: rmz-vs-tmz
+    tipo: basica
+    anverso: Diferencia entre **RMZ** y **TMZ**.
+    reverso: |
+      **RMZ**: obligatorio llevar radio y contactar.
+      **TMZ**: obligatorio llevar y operar el transpondedor según lo publicado.
+
+      Si ves una RMZ en el mapa, no entres mudo.
+    etiquetas: [Regla de oro]
+
+  - id: zonas-p-y-r
+    tipo: basica
+    anverso: ¿Qué riesgo tiene infringir una zona **P** o **R** activa?
+    reverso: |
+      **Sanciones graves e incluso interceptación por aviones militares.**
+
+      Planifica y comprueba los NOTAM para saber si las R están activas.
+    etiquetas: [Seguridad]
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (4 viñetas)
+#  [1]
+#     **Clases controladas**: la clase A es solo IFR; en B, C y D el VFR necesita autorización ATC
+#     y comunicación bilateral —la B no se usa en España—; en E el VFR no necesita autorización ni
+#     radio obligatoria. La separación la garantiza ATC según la clase: IFR siempre, y puede
+#     incluir VFR en las clases más restrictivas.
+#  [2]
+#     **Clase G (no controlada)**: vuelas bajo tu responsabilidad, con "ver y evitar". Puedes
+#     recibir servicio de información de vuelo (FIS) si está disponible y lo solicitas, pero nadie
+#     te separa.
+#  [3]
+#     **Autorizaciones ATC**: una autorización o instrucción no elimina la responsabilidad del
+#     piloto al mando. Si no puedes cumplirla con seguridad, comunícalo de inmediato y coordina
+#     una alternativa segura.
+#  [4]
+#     **Zonas especiales**: en una **RMZ** es obligatorio llevar radio y contactar; en una
+#     **TMZ**, llevar y operar el transponder según los requisitos publicados.
+#
+# RECUADROS (3)
+#  [Airmanship 1]
+#     Aunque la normativa OACI define teóricamente las clases **B** y **F**, en la práctica no se
+#     utilizan para la aviación general o la formación en España. El espacio aéreo español es
+#     mayoritariamente Clase G (espacio no controlado fuera de rutas/aeropuertos) o Clases A, C, D
+#     y E (en rutas y entornos aeroportuarios).
+#  [Regla de oro 2]
+#     Si ves una RMZ en el mapa, no entres mudo. Llama a la frecuencia indicada e informa:
+#     "Juliana Información, EC-OJE, planeador, entrando en RMZ sector norte…​".
+#  [Seguridad 3]
+#     Infringir una zona P o R activa puede llevar a sanciones graves e incluso a la
+#     interceptación por aviones militares. Planifica tu vuelo y comprueba los NOTAM para saber si
+#     las zonas R están activas. Las señales de interceptación y el procedimiento de respuesta
+#     (SERA.11015) se estudian en el Libro 4 (*Comunicaciones*), capítulo 8.

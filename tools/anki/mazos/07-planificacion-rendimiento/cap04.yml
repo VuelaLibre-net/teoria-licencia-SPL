@@ -1,0 +1,142 @@
+# Mazo Anki de 07-planificacion-rendimiento, capítulo 4.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 07-planificacion-rendimiento
+capitulo: 4
+titulo: "Plan de vuelo ICAO (*ATS flight plan*)"
+tarjetas:
+  - id: cuando-es-obligatorio-el-fpl-07
+    tipo: basica
+    anverso: ¿Cuándo es obligatorio presentar **plan de vuelo**?
+    reverso: |
+      * Al cruzar fronteras.
+      * Cuando se te presta servicio de control (clases **B, C y D**).
+      * Desde o hacia aeródromos controlados.
+      * En VFR nocturno fuera de las inmediaciones del aeródromo.
+      * Cuando lo exija la autoridad ATS.
+
+      En clase **E** el VFR vuela sin plan, sin radio y sin autorización.
+    etiquetas: [Normativa]
+
+  - id: plazos-de-presentacion-fpl
+    tipo: basica
+    anverso: ¿Con cuánta antelación se presenta el FPL (AIP-España, **ENR 1.10**)?
+    reverso: |
+      * Si pides **servicio de control**: **60 minutos** antes de la EOBT.
+      * Desde aeródromo controlado que no opere H24: **30 minutos**.
+      * Desde **aeródromo no controlado** y sólo con información y alerta:
+        **antes de la salida**.
+      * En vuelo (**AFIL**): con antelación suficiente para que ATS lo reciba
+        antes de entrar en espacio controlado.
+    etiquetas: [Normativa]
+
+  - id: casilla-15-velocidad
+    tipo: basica
+    anverso: ¿Qué velocidad y en qué formato va en la **casilla 15** del plan de vuelo?
+    reverso: |
+      **La TAS de crucero** —en planeador, tu media estimada—, con **K** para
+      km/h (`K0120`) o **N** para nudos (`N0065`).
+
+  - id: destino-fuera-de-aerodromo
+    tipo: basica
+    anverso: ¿Cómo se anota un destino que no es un aeródromo?
+    reverso: |
+      **`ZZZZ` en la casilla 16, y el detalle con coordenadas en la 18.**
+
+  - id: casilla-19
+    tipo: basica
+    anverso: ¿Qué lleva la **casilla 19** y para qué sirve?
+    reverso: |
+      **Autonomía (`E/`), personas a bordo, ELT/PLB y equipo de supervivencia.**
+
+      Es lo que usará el SAR. El planeador puro no lleva combustible: por
+      convenio se anotan las horas hasta la puesta de sol.
+
+  - id: afil
+    tipo: basica
+    anverso: ¿Qué es un plan **AFIL**?
+    reverso: |
+      **Un plan de vuelo abierto por radio desde el aire**, con el FIC (Madrid,
+      Barcelona o Canarias Información), cuando no hay cobertura en tierra.
+
+  - id: tmg-autonomia
+    tipo: basica
+    anverso: ¿Qué cambia en el plan de vuelo si vuelas un **TMG** como avión de turismo?
+    reverso: |
+      **Que sigues las reglas de una avioneta: declaras autonomía de combustible
+      real, no solar.**
+
+  - id: cerrar-el-plan-o-sar
+    tipo: basica
+    anverso: ¿Qué pasa si aterrizas fuera y no cierras el plan de vuelo?
+    reverso: |
+      **Se activa una operación de búsqueda y rescate.**
+
+      Tras asegurar el planeador, la prioridad es notificar estado y posición:
+      llama al ARO o a la torre en cuanto tengas cobertura.
+    etiquetas: [Seguridad]
+
+  - id: fic-en-travesia
+    tipo: basica
+    anverso: ¿Para qué sirve el **FIC** además de para abrir planes de vuelo?
+    reverso: |
+      **Da tráfico esencial, NOTAM de última hora y un canal ya abierto si las
+      cosas se tuercen.**
+
+      Apunta las frecuencias de los sectores de tu ruta en la planificación,
+      junto a los puntos de escape.
+    etiquetas: [Airmanship]
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (5 viñetas)
+#  [1]
+#     **¿Cuándo es obligatorio?**: al cruzar fronteras, cuando se te presta servicio de control
+#     (clases B, C y D; en la E el VFR vuela sin plan, sin radio y sin autorización), desde o
+#     hacia aeródromos controlados, en VFR nocturno fuera de las inmediaciones del aeródromo y
+#     cuando lo exija la autoridad ATS. Muy recomendable en vuelos de distancia para activar los
+#     servicios de alerta (SAR).
+#  [2]
+#     **Casillas clave**: velocidad (casilla 15): la **TAS** de crucero, con **K** para km/h
+#     (K0120) o **N** para nudos (N0065); en planeador se anota tu media estimada. Destino fuera
+#     de aeródromo: ZZZZ en la casilla 16 y el detalle con coordenadas en la 18. Casilla 19:
+#     autonomía (**E/** es autonomía de combustible; el planeador puro no lo lleva y por convenio
+#     se anotan las horas hasta la puesta de sol), personas a bordo, ELT/PLB y equipo de
+#     supervivencia; es lo que usará el SAR.
+#  [3]
+#     **AFIL**: sin cobertura en tierra, puedes abrir el plan por radio con el FIC (Madrid,
+#     Barcelona o Canarias Información), con antelación suficiente antes de entrar en espacio
+#     controlado.
+#  [4]
+#     **Motoveleros (TMG)**: si vuelas un TMG como avión de turismo, sigues las mismas reglas que
+#     una avioneta: declara autonomía de combustible real, no solar.
+#  [5]
+#     **Cierre del plan**: si aterrizas en un campo y te vas a cenar sin cerrar el plan, se activa
+#     una operación de búsqueda y rescate. Llama a la oficina de notificación de los servicios de
+#     tránsito aéreo (ARO) o a la torre en cuanto tengas cobertura.
+#
+# RECUADROS (3)
+#  [Normativa 1]
+#     Los plazos de presentación (AIP-España, ENR 1.10) dependen de qué pidas y desde dónde
+#     salgas. Si solicitas **servicio de control de tránsito aéreo**, presenta el FPL al menos
+#     **60 minutos antes** de la hora estimada de fuera de calzos (EOBT); desde un aeródromo
+#     controlado que no opere H24, el mínimo se reduce a **30 minutos**. Si despegas de un
+#     **aeródromo no controlado** y solo solicitas servicio de información y alerta, basta con
+#     presentarlo **antes de la salida**. En vuelo (**AFIL**), debe transmitirse con antelación
+#     suficiente para que la dependencia ATS lo reciba antes de entrar en espacio aéreo
+#     controlado.
+#  [Airmanship 2]
+#     El FIC no es solo para abrir planes de vuelo. En travesía por zonas como el Sistema Central,
+#     mantener escucha con Madrid Información te da tráfico esencial, NOTAM de última hora y un
+#     canal ya abierto si las cosas se tuercen. Apunta las frecuencias de los sectores de tu ruta
+#     en la planificación, junto a los puntos de escape.
+#  [Seguridad 3]
+#     Nunca te vayas a casa sin confirmar que tu plan de vuelo está cerrado. Si aterrizas fuera de
+#     campo, tu prioridad tras asegurar el avión es notificar tu estado y posición para evitar
+#     falsas alarmas SAR.

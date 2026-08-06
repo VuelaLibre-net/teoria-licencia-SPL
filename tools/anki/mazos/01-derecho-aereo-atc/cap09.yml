@@ -1,0 +1,60 @@
+# Mazo Anki de 01-derecho-aereo-atc, capítulo 9.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 01-derecho-aereo-atc
+capitulo: 9
+titulo: "Servicios de información aeronáutica (AIS)"
+tarjetas:
+  - id: aip
+    tipo: basica
+    anverso: ¿Qué es el **AIP**?
+    reverso: |
+      **El «manual gordo» y permanente**: mapas, frecuencias, zonas peligrosas,
+      horarios de aeropuertos. Es la base.
+
+  - id: notam
+    tipo: basica
+    anverso: ¿Qué son los **NOTAM** y con qué frecuencia se consultan?
+    reverso: |
+      **Avisos temporales urgentes** —pista cerrada, festival aéreo, restricción
+      temporal—. **Consultarlos antes de cada vuelo es obligatorio.**
+
+  - id: aic
+    tipo: basica
+    anverso: ¿Qué son las **AIC**?
+    reverso: |
+      **Circulares informativas sobre seguridad y cambios administrativos.**
+
+  - id: icaro-e-insignia
+    tipo: basica
+    anverso: ¿Dónde se consulta gratis el AIS en España?
+    reverso: |
+      **En los portales ICARO e Insignia de ENAIRE.**
+
+      Insignia muestra los NOTAM sobre el mapa; acostúmbrate a usarla.
+    etiquetas: [Regla de oro]
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (3 viñetas)
+#  [1]
+#     **AIP**: el "manual gordo" y permanente. Mapas, frecuencias, zonas peligrosas, horarios de
+#     aeropuertos. Es la base.
+#  [2]
+#     **NOTAM**: la actualidad. Avisos temporales urgentes (una pista cerrada, un festival aéreo,
+#     una restricción temporal). Consultarlos antes de cada vuelo es obligatorio.
+#  [3]
+#     **AIC**: circulares informativas sobre seguridad y cambios administrativos.
+#
+# RECUADROS (1)
+#  [Regla de oro 1]
+#     En España, puedes consultar todo esto gratis en los portales **ICARO** e **Insignia** de
+#     ENAIRE. Insignia es una herramienta visual fantástica para ver los NOTAM sobre el mapa.
+#     Acostúmbrate a usarla.

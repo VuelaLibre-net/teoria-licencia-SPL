@@ -1,0 +1,84 @@
+# Mazo Anki de 01-derecho-aereo-atc, capítulo 5.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 01-derecho-aereo-atc
+capitulo: 5
+titulo: "Reglas del aire"
+tarjetas:
+  - id: vfr-ver-y-ser-visto
+    tipo: basica
+    anverso: ¿En qué consiste el vuelo **VFR**?
+    reverso: |
+      **En ver y ser visto. Ojos fuera.**
+
+      La mayoría de las colisiones ocurren en días claros y cerca de los
+      aeródromos: nunca asumas que el otro te ha visto.
+    etiquetas: [Seguridad]
+
+  - id: prioridad-y-frente
+    tipo: basica
+    anverso: Orden de prioridad de paso, y qué se hace de frente.
+    reverso: |
+      **Globo > planeador > motor.** Cede quien más capacidad de maniobra tiene.
+
+      **De frente, siempre a la derecha.** En convergencia, paso para el que
+      viene por la derecha.
+    etiquetas: [Regla de oro]
+
+  - id: prioridad-en-aterrizaje-y-ladera
+    tipo: basica
+    anverso: ¿Quién manda en aterrizaje y en ladera?
+    reverso: |
+      **En aterrizaje, el velero más bajo**, y los planeadores tienen
+      preferencia sobre los aviones a motor.
+
+      **En ladera, quien lleva la montaña a su derecha** — es convención del
+      vuelo a vela, **no** regla de SERA.
+
+  - id: alturas-minimas-sera-5005
+    tipo: basica
+    anverso: ¿Qué alturas mínimas fija **SERA.5005 f)**?
+    reverso: |
+      **150 m en general y 300 m sobre zonas pobladas.**
+
+  - id: excepcion-rd-552-2014
+    tipo: basica
+    anverso: ¿Qué excepciones da el **Real Decreto 552/2014** a los planeadores?
+    reverso: |
+      **Exceptúa de los 150 m al vuelo de ladera**, si no entraña riesgo ni
+      molestias a personas o bienes, **y permite bajar hasta 50 m entrenando
+      aterrizajes forzosos**, a 150 m de cualquier persona, vehículo,
+      embarcación u obstáculo artificial.
+    etiquetas: [Normativa]
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (3 viñetas)
+#  [1]
+#     **VFR**: volamos viendo y siendo vistos. Ojos fuera.
+#  [2]
+#     **Prioridad de paso**: globos > planeadores > motor (cede quien más maniobra tiene). En
+#     convergencia, paso para el que viene por la derecha. En aterrizaje, el velero más bajo
+#     manda, y los planeadores tienen preferencia sobre los aviones a motor. En ladera, prioridad
+#     para quien lleva la montaña a su derecha: es convención del vuelo a vela, no regla de SERA.
+#  [3]
+#     **Alturas mínimas (SERA.5005 f)**: 150 m en general, 300 m sobre zonas pobladas. En España,
+#     el Real Decreto 552/2014 exceptúa de los 150 m a los planeadores en ladera, siempre que no
+#     entrañen riesgo ni molestias a personas o bienes, y permite bajar hasta 50 m entrenando
+#     aterrizajes forzosos, a 150 m de cualquier persona, vehículo o embarcación y de todo
+#     obstáculo artificial.
+#
+# RECUADROS (2)
+#  [Seguridad 1]
+#     La mayoría de colisiones ocurren en días claros y cerca de los aeródromos. Nunca asumas que
+#     el otro te ha visto. Si tienes dudas, cede el paso.
+#  [Regla de oro 2]
+#     **Globo > Planeador > Motor.** Si tiene motor, te cede el paso. Si es un globo, tú cedes. Si
+#     vais de frente, **siempre a la derecha**.

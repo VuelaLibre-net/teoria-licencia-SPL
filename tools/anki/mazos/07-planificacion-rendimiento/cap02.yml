@@ -1,0 +1,137 @@
+# Mazo Anki de 07-planificacion-rendimiento, capítulo 2.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 07-planificacion-rendimiento
+capitulo: 2
+titulo: "Polar de velocidades (*speed polar*) de planeadores o velocidad de crucero"
+tarjetas:
+  - id: que-da-la-polar
+    tipo: basica
+    anverso: ¿Qué dos velocidades hay que saberse de memoria de la **polar**?
+    reverso: |
+      **La de mínimo descenso** (aguantar más tiempo en el aire) **y la de
+      máximo planeo** (llegar más lejos).
+
+      En aire en calma no hay motivo para volar a velocidades intermedias.
+    etiquetas: [Airmanship]
+
+  - id: polar-y-lastre
+    tipo: basica
+    anverso: ¿Cómo desplaza el **lastre** la polar?
+    reverso: |
+      **A la derecha y abajo.**
+
+      El planeo máximo no cambia, pero se vuela a más velocidad; el mínimo
+      descenso empeora. El agua es para días fuertes.
+
+  - id: maccready
+    tipo: basica
+    anverso: ¿Qué dice la **teoría MacCready** sobre la velocidad de crucero?
+    reverso: |
+      **Que se ajusta a la térmica que esperas encontrar.**
+
+      Día fuerte, vuela rápido (cambias altura por tiempo); día flojo, vuela
+      despacio y conserva.
+
+  - id: velocidad-con-viento
+    tipo: basica
+    anverso: ¿Cómo se ajusta la velocidad de crucero al **viento**?
+    reverso: |
+      **Con viento de cara, más rápido**: suma medio viento a la velocidad de
+      máximo planeo, para penetrar mejor.
+      **Con viento de cola, a máximo planeo** y déjate empujar.
+
+  - id: polar-en-ias
+    tipo: basica
+    anverso: ¿En qué velocidad se vuela la polar, y qué pasa en altura?
+    reverso: |
+      **Se vuela en IAS**, pero en altura la TAS es mayor (≈2 % por cada 300 m):
+      recorres más terreno del que crees.
+
+  - id: vne-disminuye-con-altitud
+    tipo: basica
+    anverso: ¿Por qué disminuye la **V_NE indicada** con la altitud?
+    reverso: |
+      **Porque el *flutter* depende de la TAS, no de la IAS.**
+
+      La reducción la prescribe **CS 22.1505**, que obliga a llevar la tabla
+      como placa visible en cabina. Un planeador con V_NE de 250 km/h a nivel
+      del mar puede quedar en unos 200 km/h indicados a 6.000 m. Consulta el AFM
+      antes de cualquier vuelo de onda.
+    etiquetas: [Normativa]
+
+  - id: donde-estan-las-limitaciones
+    tipo: basica
+    anverso: ¿Dónde figuran la **V_NE** y la **V_A** de tu planeador, y de qué normativa derivan?
+    reverso: |
+      **En el manual de vuelo aprobado (AFM)**, y derivan de la certificación
+      europea **CS-22**.
+    etiquetas: [Normativa]
+
+  - id: llegar-justo-no-es-llegar
+    tipo: basica
+    anverso: Si el calculador de planeo dice que llegas «justo», ¿llegas?
+    reverso: |
+      **No.**
+
+      El calculador no sabe si encontrarás un hundimiento inesperado ni si el
+      viento en cara será más fuerte abajo. Busca alternativa antes de que el
+      cono de alcance se cierre.
+    etiquetas: [Seguridad]
+
+  - id: planeo-final-con-margen
+    tipo: basica
+    anverso: ¿Con qué margen se calcula el **planeo final**?
+    reverso: |
+      **Con el suficiente para llegar a unos 200 m sobre el campo y usar los
+      frenos**, en vez de pasar a ras de los árboles rezando por una burbuja.
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (6 viñetas)
+#  [1]
+#     **La polar**: es tu curva de rendimiento. Conócela: te da la velocidad para aguantar más
+#     tiempo en el aire (mínimo descenso) y la velocidad para llegar más lejos (máximo planeo).
+#  [2]
+#     **Efecto del peso**: el lastre desplaza la polar a la derecha y abajo. El planeo máximo no
+#     cambia, pero se vuela a más velocidad; el mínimo descenso empeora. El agua es para días
+#     fuertes.
+#  [3]
+#     **Teoría MacCready**: ajusta la velocidad de crucero a la térmica que esperas. Día fuerte,
+#     vuela rápido (cambias altura por tiempo); día flojo, vuela despacio y conserva.
+#  [4]
+#     **Efecto del viento**: con viento de cara, vuela más rápido (suma medio viento a tu
+#     velocidad de máximo planeo) para penetrar mejor. Con viento de cola, vuela a máximo planeo y
+#     déjate empujar.
+#  [5]
+#     **IAS vs TAS**: la polar se vuela en IAS, pero en altura la TAS es mayor (~2 % por cada 300
+#     m). Recorres más terreno del que crees y la V~NE~ indicada disminuye con la altitud
+#     (flutter): consulta la tabla del AFM antes de volar en onda.
+#  [6]
+#     **Planeo final**: calcula la llegada con margen. Es mejor llegar a 200 m sobre el campo y
+#     usar los frenos que pasar a ras de los árboles rezando por una burbuja.
+#
+# RECUADROS (3)
+#  [Airmanship 1]
+#     Aprende de memoria estos dos valores para tu modelo de planeador. En aire en calma no hay
+#     motivo para volar a velocidades intermedias si lo que buscas es llegar lejos o aguantar en
+#     el aire.
+#  [Normativa 2]
+#     Las limitaciones de velocidad de tu planeador (V~NE~ (Velocidad Nunca Exceder), V~A~
+#     (Velocidad de Maniobra) en aire turbulento) figuran en el **manual de vuelo aprobado (AFM)**
+#     y derivan de la certificación europea **CS-22** para planeadores. Atención al volar alto: el
+#     **flutter** depende de la TAS, por lo que la V~NE~ **indicada** disminuye con la altitud.
+#     Esta reducción está prescrita por la norma **CS 22.1505**, que obliga a que dicha tabla
+#     figure como placa visible en la cabina. El AFM incluye una tabla de V~NE~ por altitudes —por
+#     ejemplo, un planeador con V~NE~ de 250 km/h a nivel del mar puede quedar limitado a unos 200
+#     km/h indicados a 6.000 m—. Consúltala antes de cualquier vuelo de onda.
+#  [Seguridad 3]
+#     Si tu calculador de planeo dice que llegas "justo", en realidad **no llegas**. El calculador
+#     no sabe si encontrarás un hundimiento inesperado ni si el viento en cara será más fuerte a
+#     baja altura. Busca una alternativa antes de que el cono de alcance se cierre.

@@ -1,0 +1,173 @@
+# Mazo Anki de 03-meteorologia, capítulo 2.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 03-meteorologia
+capitulo: 2
+titulo: "Viento"
+tarjetas:
+  - id: motor-del-viento
+    tipo: basica
+    anverso: ¿Qué mueve el viento y cómo se lee su intensidad en un mapa?
+    reverso: |
+      **La fuerza de gradiente: el aire va de las altas (H) a las bajas (L).**
+
+      Cuanto más juntas estén las isobaras, más fuerte sopla.
+
+  - id: coriolis-y-geostrofico
+    tipo: basica
+    anverso: ¿Qué hace la fuerza de **Coriolis** en el hemisferio norte?
+    reverso: |
+      **Desvía el viento a la derecha**, hasta que en altura sopla paralelo a
+      las isobaras: es el **viento geostrófico**.
+
+  - id: buys-ballot
+    tipo: basica
+    anverso: Enuncia la ley de **Buys Ballot**.
+    reverso: |
+      **En el hemisferio norte, de espaldas al viento, la baja presión queda a
+      tu izquierda.**
+    etiquetas: [Regla de oro]
+
+  - id: friccion-y-gradiente-de-viento
+    tipo: basica
+    anverso: ¿Cómo cambia el viento cerca del suelo, y qué implica al aterrizar?
+    reverso: |
+      **El rozamiento lo frena y debilita a Coriolis, así que cruza las isobaras
+      hacia la baja presión.**
+
+      En los últimos metros no sólo será más flojo, sino de dirección distinta:
+      mantén margen de velocidad en la aproximación para no perder sustentación
+      en la recogida.
+    etiquetas: [Seguridad]
+
+  - id: anabatico-y-catabatico
+    tipo: basica
+    anverso: Diferencia entre viento **anabático** y **catabático**.
+    reverso: |
+      **Anabático**: de día, el sol calienta las laderas antes que el valle y el
+      aire asciende.
+      **Catabático**: de noche, el aire frío baja por la ladera.
+
+  - id: restitucion
+    tipo: basica
+    anverso: ¿Qué es la **restitución** y cuándo ocurre?
+    reverso: |
+      **A última hora de la tarde: los catabáticos de ambas laderas estrujan el
+      aire cálido del centro del valle y lo fuerzan a subir.**
+
+      Da ascendencias amplias y suaves que permiten prolongar el vuelo al
+      atardecer, en aire completamente calmado.
+    etiquetas: [Airmanship]
+
+  - id: foehn-y-stau
+    tipo: basica
+    anverso: ¿Por qué el aire llega tan caliente al sotavento en un **Foehn**?
+    reverso: |
+      **Porque sube en barlovento precipitando y cediendo calor latente (SALR),
+      y baja ya seco calentándose al DALR completo.**
+
+      Puede llegar hasta 15 ºC más caliente. La «pared de Foehn» marca
+      visualmente la cresta.
+
+  - id: reconocer-un-foehn
+    tipo: basica
+    anverso: ¿Cómo se reconoce un **Foehn** desde la pista?
+    reverso: |
+      **Temperatura varios grados por encima de lo normal para el mes, humedad
+      relativa inusualmente baja y una masa de nubes estacionaria sobre la
+      sierra.**
+
+      Bases muy altas y térmicas explosivas. Aprovéchalo, pero vigila los
+      rotores cerca del terreno en sotavento.
+    etiquetas: [Regla de oro]
+
+  - id: rotores-en-sotavento-de-foehn
+    tipo: basica
+    anverso: ¿Qué esconde el sotavento de una cordillera bajo **Foehn activo**?
+    reverso: |
+      **Rotores de turbulencia severa en los niveles inferiores.**
+
+      No te confíes por ver cielo despejado y temperatura cálida: mantén altitud
+      al cruzar y evita las laderas de sotavento a baja altura.
+    etiquetas: [Seguridad]
+
+  - id: convergencia-de-brisa
+    tipo: basica
+    anverso: ¿Cómo se identifica una **línea de convergencia** de brisa marina?
+    reverso: |
+      **Por las distintas alturas de base de los cúmulos a cada lado y por la
+      franja de nubosidad activa sobre el límite.**
+
+      Es un minifrente con ascendencias excelentes para el *cross-country*.
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (6 viñetas)
+#  [1]
+#     **El motor del viento**: El aire fluye naturalmente de las Altas (H) a las Bajas (L)
+#     presiones debido a la fuerza de gradiente. Cuanto más juntas estén las isobaras, más fuerte
+#     soplará.
+#  [2]
+#     **Fuerza de Coriolis**: En el hemisferio norte, la rotación terrestre desvía el viento hacia
+#     la derecha. Por eso, en altura, el viento acaba soplando paralelo a las isobaras (viento
+#     geostrófico).
+#  [3]
+#     **Efecto de la Fricción**: Cerca del suelo, el rozamiento frena el viento y debilita el
+#     efecto Coriolis, haciendo que el viento cruce las isobaras hacia la baja presión. Al
+#     aterrizar, espera que el viento cambie de dirección e intensidad en los últimos metros.
+#  [4]
+#     **Brisas Locales**: El sol calienta las laderas antes que el valle, generando brisas
+#     ascendentes (anabáticas) de día. De noche, el aire frío baja (catabático). Conocer este
+#     ciclo es vital para encontrar ascendencias o evitar descendencias peligrosas en montaña.
+#  [5]
+#     **Efecto Foehn y Stau**: El aire que sube en barlovento precipita y cede calor latente
+#     (SALR). Al descender en sotavento —ya seco— se calienta al DALR completo, llegando hasta 15
+#     °C más caliente. La "pared de Foehn" marca visualmente la cresta. Cuidado con los rotores en
+#     el sotavento.
+#  [6]
+#     **Brisas Marinas y Convergencias**: La brisa marina penetra tierra adentro creando una línea
+#     de convergencia (minifrente) con ascendencias excelentes para el cross-country. Identifícala
+#     por las diferentes alturas de base de los cúmulos a cada lado y por la franja de nubosidad
+#     activa sobre el límite.
+#
+# RECUADROS (6)
+#  [Regla de oro 1]
+#     La Ley de Buys Ballot es una regla clásica que resume este efecto: en el hemisferio norte,
+#     si te pones de espaldas al viento, el centro de baja presión siempre estará a tu lado
+#     izquierdo.
+#  [Seguridad 2]
+#     Debido a la fricción, cuando te acercas al suelo para aterrizar experimentarás el "gradiente
+#     de viento" (*wind shear* en capa límite). En los últimos metros, el viento no solo será más
+#     flojo que en el circuito, sino que su dirección cruzará más hacia la baja presión. Debes
+#     mantener tu velocidad de aproximación con un margen de seguridad adecuado para evitar la
+#     pérdida de sustentación en la recogida (**flare**).
+#  [Airmanship 3]
+#     A última hora de la tarde, cuando los fríos vientos catabáticos bajan por ambas laderas de
+#     un valle, "estrujan" el aire residual cálido que queda en el centro, forzándolo a subir.
+#     Este fenómeno se conoce como **restitución**. Crea zonas muy amplias y suaves de ascendencia
+#     en el centro del valle, permitiendo prolongar vuelos al atardecer en aire completamente
+#     calmado.
+#  [Seguridad 4]
+#     El sotavento de una cordillera bajo un Foehn activo puede esconder rotores de turbulencia
+#     severa en los niveles inferiores. No te confíes por ver cielos despejados y temperatura
+#     cálida en sotavento: mantén altitud al cruzar cordilleras en estas condiciones y evita las
+#     laderas de sotavento a baja altura.
+#  [Regla de oro 5]
+#     Si a pie de pista el termómetro marca varios grados por encima de lo habitual para el mes,
+#     la humedad relativa es inusualmente baja y ves una masa de nubes estacionaria sobre la
+#     sierra al norte: estás bajo un Foehn. Las bases de nube serán muy altas y las térmicas
+#     explosivas. Aprovéchalo, pero vigila los rotores cerca del terreno en el sotavento.
+#  [Airmanship 6]
+#     En verano, los pilotos que operan desde Fuentemilanos (Segovia) trabajan frecuentemente la
+#     convergencia de brisa del SW que penetra desde el Atlántico a través del Sistema Central. La
+#     Baja Térmica Peninsular (ver capítulo de Climatología) actúa como un gran aspirador que
+#     succiona la brisa marina tierra adentro, creando líneas de convergencia NW–SE que funcionan
+#     como autopistas de ascendencias para el cross-country. Revisa modelos RASP o Skysight —o su
+#     equivalente en Topmeteo o Meteo Parapente— la tarde anterior para anticipar su posición.

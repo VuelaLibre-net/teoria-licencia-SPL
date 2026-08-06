@@ -1,0 +1,183 @@
+# Mazo Anki de 06-procedimientos-operativos, capítulo 4.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 06-procedimientos-operativos
+capitulo: 4
+titulo: "Circuitos y aterrizaje"
+tarjetas:
+  - id: tramos-del-circuito
+    tipo: basica
+    anverso: ¿Qué tramos y alturas tiene el **circuito estándar**?
+    reverso: |
+      **Cruzado, viento en cola, base y final**, con referencias de **250-300 m,
+      200-300 m y 150 m** hasta la toma.
+
+      El circuito no es un ritual: es un gestor de energía.
+
+  - id: fustall
+    tipo: cloze
+    texto: |
+      **FUSTALL**: {{c1::Flaps}}, {{c2::Undercarriage}} (tren fuera y blocado),
+      {{c3::Speed}}, {{c4::Trim}}, {{c5::Airbrakes}} (libres y cerrados),
+      {{c6::Landing area}} (viento y tráfico), {{c7::Land}}.
+    extra: |
+      El lastre de agua se vacía **antes** de entrar al circuito.
+
+  - id: fustall-siempre-en-el-mismo-punto
+    tipo: basica
+    anverso: ¿Cuándo se hace el FUSTALL en el viento en cola?
+    reverso: |
+      **Siempre en el mismo punto** —por ejemplo, con la cabecera a la altura
+      del ala—.
+
+      La repetición lo convierte en hábito. Quien improvisa el momento del
+      chequeo acaba por no hacerlo.
+    etiquetas: [Regla de oro]
+
+  - id: wulf
+    tipo: cloze
+    texto: |
+      **WULF**: {{c1::Water ballast}} vaciado, {{c2::Undercarriage}} fuera y
+      blocado, {{c3::Loose articles / Look-out}}, {{c4::Flaps}} en posición de
+      aterrizaje.
+    extra: |
+      Variante abreviada de FUSTALL usada en muchos clubes europeos. Ambas
+      buscan llegar a base con la configuración completa y la atención fuera de
+      la cabina.
+
+  - id: velocidad-de-aproximacion
+    tipo: basica
+    anverso: ¿Cómo se calcula la **velocidad de aproximación**?
+    reverso: |
+      **1,5 × V_S, más la mitad del viento y de la racha.**
+
+  - id: gradiente-de-viento-en-final
+    tipo: basica
+    anverso: ¿Por qué es tan peligroso entrar lento en final con viento en cara?
+    reverso: |
+      **Porque el gradiente de viento próximo al suelo puede robar 15-20 km/h en
+      décimas de segundo**, a una altura donde no hay recuperación posible.
+
+      La velocidad adicional en final no es un lujo: es un seguro de vida.
+    etiquetas: [Seguridad]
+
+  - id: uso-de-aerofrenos-en-final
+    tipo: basica
+    anverso: ¿Con cuántos aerofrenos se entra en final y cómo se corrige?
+    reverso: |
+      **Con el 50 % sacados.** Si el punto de toma sube en el parabrisas,
+      cierra; si baja, abre.
+
+      Nunca cierres bruscamente cerca del suelo: balonazo y golpe de cola.
+
+  - id: pasarse-de-largo-en-final
+    tipo: basica
+    anverso: Si vas a pasarte de largo con los frenos abiertos del todo, ¿qué haces?
+    reverso: |
+      **Prolongar el giro de base o hacer una S suave en final**, si el campo lo
+      permite.
+
+      Si nada funciona, es un campo largo: aterriza y rueda hasta el final de la
+      pista. Lo que no se hace es cerrar los frenos de golpe cerca del suelo.
+    etiquetas: [Airmanship]
+
+  - id: resbale-lateral
+    tipo: basica
+    anverso: ¿Cómo se ejecuta un **resbale lateral** y qué precaución tiene?
+    reverso: |
+      **Cruzando mandos, con el ala baja al viento y actitud visual de morro
+      netamente bajo.**
+
+      El anemómetro no es fiable —flujo desprendido—, así que tirar de palanca
+      puede llevarte a la pérdida. Se sale relajando primero la palanca.
+      Practícalo a altura de seguridad.
+    etiquetas: [Seguridad]
+
+  - id: aproximacion-con-viento-de-cola
+    tipo: basica
+    anverso: En aproximación con **viento de cola**, ¿a qué te fías?
+    reverso: |
+      **Exclusivamente al anemómetro**, ignorando la velocidad aparente del
+      terreno bajo la cabina.
+
+      Mantén la velocidad recomendada y prepárate para un rodaje muy largo y un
+      frenado enérgico.
+    etiquetas: [Seguridad]
+
+  - id: pio-cerca-del-suelo
+    tipo: basica
+    anverso: Si el velero oscila en cabeceo (**PIO**) cerca del suelo, ¿qué se hace?
+    reverso: |
+      **Congelar la palanca y dejar actuar su estabilidad estática.**
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (6 viñetas)
+#  [1]
+#     **Circuito estándar**: cuatro tramos —cruzado, viento en cola, base y final— con alturas de
+#     referencia: 250-300, 200-300 y 150 metros hasta la toma. El circuito no es un ritual, es un
+#     gestor de energía.
+#  [2]
+#     **FUSTALL en el viento en cola**: **Flaps**, **Undercarriage** (tren fuera y blocado),
+#     **Speed** (velocidad de aproximación), **Trim**, **Airbrakes** (aerofrenos libres y
+#     cerrados), **Landing area** (viento y tráfico), **Land**. Lastre de agua vaciado antes de
+#     entrar al circuito. Hazlo siempre en el mismo punto del recorrido.
+#  [3]
+#     **Velocidad de aproximación**: calcula tu velocidad base (1,5 V~S~) y **súmale la mitad del
+#     viento y de la racha**. Entrar lento con viento es receta para un accidente por cizalladura.
+#  [4]
+#     **Aerofrenos**: entra en final con el 50 % sacados. Si el punto de toma sube en el
+#     parabrisas, cierra; si baja, abre. Nunca cierres bruscamente cerca del suelo: balonazo y
+#     golpe de cola.
+#  [5]
+#     **Resbale lateral (sideslip)**: método de descenso rápido de emergencia cruzando mandos.
+#     Recuerda: **ala baja al viento**, actitud visual de morro bajo (el anemómetro no es fiable
+#     por el flujo cruzado) y salida relajando primero la palanca.
+#  [6]
+#     **Viento de cola y PIOs**: en tomas con viento de cola, ignora la velocidad visual del suelo
+#     (evita pérdidas de sustentación) y prepárate para un rodaje largo. Si el velero oscila en
+#     cabeceo (**PIO**) cerca del suelo, congela la palanca y deja actuar su estabilidad estática.
+#
+# RECUADROS (6)
+#  [Regla de oro 1]
+#     Haz el FUSTALL siempre en el mismo punto del viento en cola —por ejemplo, cuando la cabecera
+#     de la pista quede a la altura del ala—. La repetición convierte la lista en un hábito y hace
+#     prácticamente imposible omitirla. Un piloto que improvisa el momento del chequeo acaba por
+#     no hacerlo.
+#  [Airmanship 2]
+#     En muchos clubes europeos se enseña la mnemotecnia abreviada **WULF** para el mismo chequeo
+#     de viento en cola: **W** (**Water ballast**): lastre de agua vaciado; **U**
+#     (**Undercarriage**): tren fuera y blocado; **L** (**Loose articles / Look-out**): objetos
+#     sueltos asegurados y vigilancia exterior; **F** (**Flaps**): flaps en posición de
+#     aterrizaje. Ambas listas persiguen lo mismo: llegar al tramo de base con la configuración
+#     completa y la atención puesta fuera de la cabina.
+#  [Seguridad 3]
+#     Entrar en final lento con viento en cara es una de las combinaciones más peligrosas en el
+#     vuelo de planeador. El gradiente de viento próximo al suelo puede robarte los últimos 15-20
+#     km/h de velocidad en décimas de segundo, llevándote directamente a la pérdida a una altura
+#     donde la recuperación es imposible. La velocidad adicional en final no es un lujo: es un
+#     seguro de vida.
+#  [Airmanship 4]
+#     Si en el viraje de base a final observas que vas a pasar de largo el punto de toma con los
+#     aerofrenos completamente abiertos, no cierres los frenos bruscamente cerca del suelo: el
+#     planeador sufrirá un balonazo repentino. En su lugar, si el campo lo permite, prolonga el
+#     giro de base o realiza una S suave en final para aumentar la distancia recorrida. Si nada
+#     funciona, estás en una situación de campo largo: aterriza y rueda hasta el final de la
+#     pista.
+#  [Seguridad 5]
+#     Debido a que el flujo de aire está desprendido y el anemómetro no es fiable durante el
+#     resbale, existe riesgo de entrada en pérdida si el piloto tira excesivamente de la palanca
+#     de profundidad. Mantén siempre una actitud de morro netamente baja. Practica la maniobra a
+#     altura de seguridad antes de intentarla en circuito.
+#  [Seguridad 6]
+#     Cuando vueles una aproximación con viento de cola, **fía tu control de velocidad
+#     exclusivamente al anemómetro**, ignorando la velocidad aparente con la que pasa el terreno
+#     bajo la cabina. Mantén la velocidad de aproximación recomendada y prepárate para una carrera
+#     de rodaje muy larga y un frenado enérgico.

@@ -1,0 +1,105 @@
+# Mazo Anki de 08-aeronave-sistemas, capítulo 10.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 08-aeronave-sistemas
+capitulo: 10
+titulo: "Estructura, motores y hélices"
+tarjetas:
+  - id: el-motor-es-el-plan-b
+    tipo: basica
+    anverso: ¿Qué se hace **antes** de intentar arrancar el motor en vuelo?
+    reverso: |
+      **Elegir el campo.**
+
+      El motor es el plan B, nunca el plan A. La cota mínima para intentarlo son
+      **300 m**.
+    etiquetas: [Seguridad]
+
+  - id: pilon-como-freno-de-aire
+    tipo: basica
+    anverso: ¿Qué pasa con el planeo si el motor sale pero no arranca?
+    reverso: |
+      **Se reduce a la mitad: el pilón es un freno de aire gigante.**
+
+      Debes tener altura para hacer la toma con el motor fuera, o para
+      retraerlo a tiempo.
+
+  - id: shock-cooling
+    tipo: basica
+    anverso: ¿Qué es el **shock cooling** y cómo se evita?
+    reverso: |
+      **El agrietamiento de la culata por parar el motor de golpe tras una
+      subida a plena potencia.**
+
+      Déjalo enfriar al ralentí, o planeando con el motor fuera unos minutos.
+
+  - id: helice-antes-de-retraer
+    tipo: basica
+    anverso: ¿Cómo debe quedar la **hélice** antes de retraer el motor?
+    reverso: |
+      **Frenada y vertical.** El espejo es tu amigo.
+
+  - id: magneto-independiente
+    tipo: basica
+    anverso: ¿Por qué hay que tratar siempre la hélice como si pudiera arrancar?
+    reverso: |
+      **Porque el magneto genera corriente por sí mismo: para pararlo se pone a
+      masa su devanado primario.**
+
+      Con el cable de masa roto, el motor sigue «vivo» aunque el contacto esté
+      en OFF.
+    etiquetas: [Seguridad]
+
+  - id: engelamiento-de-carburador
+    tipo: basica
+    anverso: ¿En qué rango aparece el **engelamiento de carburador** y cuál es el primer síntoma?
+    reverso: |
+      **Entre −7 y +21 ºC con humedad**, y el primer síntoma es la **caída de
+      RPM**.
+
+  - id: drenar-combustible
+    tipo: basica
+    anverso: ¿Qué se hace con el combustible antes de volar un motorizado?
+    reverso: "**Drenarlo**, para eliminar agua y sedimentos."
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (5 viñetas)
+#  [1]
+#     **Complejidad**: un motor añade peso, complejidad y modos de fallo. El arranque en vuelo
+#     consume altura; por eso la cota mínima para intentarlo son 300 m (ver **Libro 6 —
+#     Procedimientos operativos**, capítulo 2).
+#  [2]
+#     **Fallo de arranque**: ten siempre un campo elegido antes de intentar arrancar. Si el motor
+#     no sale o no prende, te queda un planeador con un "freno de aire" gigante (el pilón): el
+#     planeo se reduce a la mitad.
+#  [3]
+#     **Shock cooling**: no pares el motor de golpe tras una subida a plena potencia. Déjalo
+#     enfriar al ralentí, o planeando con el motor fuera unos minutos, para evitar grietas en la
+#     culata.
+#  [4]
+#     **Hélice**: asegúrate de que está frenada y vertical antes de retraer. El espejo es tu
+#     amigo. Paso fijo o paso variable (velocidad constante), según el modelo.
+#  [5]
+#     **Motor de combustión**: el encendido por magnetos es independiente de la batería (para
+#     pararlo, se pone a masa el primario). Vigila el engelamiento del carburador (−7 a +21 °C con
+#     humedad; primer síntoma, caída de RPM) y drena el combustible antes de volar.
+#
+# RECUADROS (2)
+#  [Seguridad 1]
+#     Como el magneto genera corriente por sí mismo, para detenerlo hay que poner a masa
+#     (cortocircuitar) su devanado primario. Un magneto con el cable de masa roto puede dejar el
+#     motor "vivo" aunque el contacto esté en *OFF*: trata siempre la hélice como si pudiera
+#     arrancar.
+#  [Seguridad 2]
+#     Con el motor extraído, la relación de planeo cae en picado por la resistencia del mástil. Si
+#     el motor no arranca tras sacarlo, tienes que estar a altura suficiente para hacer la toma de
+#     emergencia con el motor fuera, o para retraerlo a tiempo. Elige siempre el campo antes de
+#     intentar el arranque: el motor es el plan B, nunca el plan A.

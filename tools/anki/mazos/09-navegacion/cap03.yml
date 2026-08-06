@@ -1,0 +1,142 @@
+# Mazo Anki de 09-navegacion, capítulo 3.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 09-navegacion
+capitulo: 3
+titulo: "Cartas aeronáuticas"
+tarjetas:
+  - id: proyeccion-lambert
+    tipo: basica
+    anverso: ¿Qué proyección usan las cartas VFR 1:500.000 y qué propiedades tiene?
+    reverso: |
+      **La proyección Lambert.**
+
+      Es *conforme* (mantiene las formas), una línea recta se aproxima mucho a
+      la ortodrómica, y la escala es prácticamente constante entre los dos
+      paralelos estándar, que es la zona útil de la carta.
+
+  - id: escala-500000
+    tipo: basica
+    anverso: En una carta **1:500.000**, ¿cuánto representa 1 cm?
+    reverso: "**5 km, o 2,7 NM.**"
+
+  - id: medir-con-la-barra
+    tipo: basica
+    anverso: ¿Con qué se miden las distancias sobre la carta, y por qué?
+    reverso: |
+      **Con la barra de escala impresa en la propia carta.**
+
+      La regla graduada es más rápida, pero la barra no miente nunca y no
+      depende de que hayas cogido la regla correcta. Con dos cartas de escalas
+      distintas sobre las rodillas, mide con la barra de la que estás usando.
+    etiquetas: [Regla de oro]
+
+  - id: cifras-de-obstaculo
+    tipo: basica
+    anverso: En el símbolo de un obstáculo, ¿qué significan las dos cifras?
+    reverso: |
+      **La cifra sin paréntesis es la altitud sobre el nivel del mar (AMSL); la
+      del paréntesis, la altura sobre el terreno (AGL).**
+
+  - id: ama-que-es
+    tipo: basica
+    anverso: ¿Qué es la **AMA** (Altitud Mínima de Área) y qué garantiza?
+    reverso: |
+      **El número grande de cada recuadro de la carta: garantiza 1000 ft de
+      separación sobre el obstáculo más alto de ese cuadrante** (2000 ft en alta
+      montaña).
+
+      Es tu red de seguridad si pierdes visibilidad o navegas sobre relieve.
+    etiquetas: [Normativa]
+
+  - id: ama-es-altitud
+    tipo: basica
+    anverso: ¿Cómo se compara la **AMA** con el altímetro?
+    reverso: |
+      **Directamente, con el altímetro en QNH: es una altitud AMSL.**
+
+      No se le resta la elevación del terreno. Y no es una «cota máxima».
+
+  - id: zonas-p-r-d
+    tipo: cloze
+    texto: |
+      En la carta, las zonas **P** son {{c1::prohibidas}}, las **R**
+      {{c1::restringidas}} y las **D** {{c1::peligrosas}}.
+
+  - id: tendidos-y-eolicos
+    tipo: basica
+    anverso: ¿Qué obstáculos vigilar al planificar un posible **aterrizaje en campo**?
+    reverso: |
+      **Los tendidos de alta tensión y los parques eólicos.**
+
+      En la carta, líneas negras finas con marcas transversales, y símbolos de
+      aspas.
+    etiquetas: [Seguridad]
+
+  - id: preparar-la-carta-en-tierra
+    tipo: basica
+    anverso: ¿Qué hay que dejar hecho en la carta **antes de despegar**?
+    reverso: |
+      **Ruta trazada, distancias acumuladas marcadas cada 10 km, rumbo magnético
+      rotulado en cada tramo y espacios aéreos rodeados.**
+
+      Lo que no esté dibujado antes de despegar no lo vas a dibujar a 1.500 m
+      con una térmica esperando.
+    etiquetas: [Airmanship]
+
+  - id: tintas-hipsometricas
+    tipo: basica
+    anverso: ¿Para qué sirven las **tintas hipsométricas** de una carta?
+    reverso: "**Para hacerse una idea rápida del relieve por el color del terreno.**"
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (5 viñetas)
+#  [1]
+#     **Proyección Lambert**: Es la estándar para cartas VFR (1:500.000). Es "conforme" (mantiene
+#     las formas) y una línea recta se aproxima mucho a una ortodrómica (la ruta más corta). La
+#     escala es prácticamente constante entre los dos paralelos estándar de la proyección (la zona
+#     útil de la carta).
+#  [2]
+#     **Simbología**: Debes leer una carta con fluidez. Conoce los símbolos de obstáculos (la
+#     cifra sin paréntesis es la altitud sobre el nivel del mar —AMSL—; la que va entre paréntesis
+#     es la altura sobre el terreno —AGL—), los espacios aéreos (clases A a G) y las zonas P/R/D
+#     (prohibida, restringida, peligrosa), además de los aeródromos.
+#  [3]
+#     **Escala**: 1:500.000 significa que 1 cm en el papel son 5 km —o 2,7 NM— en la realidad.
+#     Mide con la barra de escala impresa en la propia carta.
+#  [4]
+#     **La carta se prepara en tierra**: ruta trazada, distancias acumuladas marcadas, rumbo
+#     magnético rotulado en cada tramo y espacios aéreos rodeados.
+#  [5]
+#     **Elevaciones**: Las tintas hipsométricas (colores del terreno) te dan una idea rápida del
+#     relieve. La **Altitud Mínima de Área (AMA)** —no "cota máxima"— es el número grande en cada
+#     recuadro. Proporciona separación mínima de 1000 ft sobre el obstáculo más alto de esa zona.
+#     Es una **altitud AMSL**: se compara directamente con el altímetro en QNH y no se le resta la
+#     elevación del terreno.
+#
+# RECUADROS (4)
+#  [Regla de oro 1]
+#     La regla graduada es más rápida que la aritmética, pero **la barra de escala impresa en la
+#     carta no miente nunca** y no depende de que hayas cogido la regla correcta. Si tienes dos
+#     cartas de escalas distintas encima de las rodillas, mide siempre con la barra de la carta
+#     que estás usando.
+#  [Seguridad 2]
+#     Presta especial atención a los tendidos de alta tensión y los parques eólicos, especialmente
+#     si estás planificando un posible aterrizaje en campo. En la carta se representan con líneas
+#     negras finas con marcas transversales o símbolos de aspas.
+#  [Airmanship 3]
+#     La carta se prepara **en tierra**, no sobre las rodillas. Traza la ruta, marca las
+#     distancias acumuladas cada 10 km, rotula el rumbo magnético de cada tramo junto a la línea y
+#     rodea los espacios aéreos que la ruta roza. Lo que no esté dibujado antes de despegar no lo
+#     vas a dibujar a 1.500 m con una térmica esperando.
+#  [Normativa 4]
+#     La AMA garantiza una separación mínima de **1000 pies** (o 2000 pies en zonas de alta
+#     montaña) sobre el obstáculo más alto de ese cuadrante. Es tu "red de seguridad" si pierdes
+#     la visibilidad o necesitas navegar con seguridad sobre el relieve.

@@ -1,0 +1,122 @@
+# Mazo Anki de 02-factores-humanos, capítulo 1.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 02-factores-humanos
+capitulo: 1
+titulo: "Factores humanos: conceptos básicos"
+tarjetas:
+  - id: modelo-shell
+    tipo: cloze
+    texto: |
+      En el modelo **SHELL**, la **S** es {{c1::Software (procedimientos)}}, la
+      **H** {{c2::Hardware (la aeronave)}}, la **E** {{c3::Environment (el
+      entorno)}} y las dos **L** {{c4::Liveware: el piloto y las demás
+      personas}}.
+    extra: Analiza la interacción del piloto con cada uno de esos elementos.
+
+  - id: gestion-del-error
+    tipo: basica
+    anverso: ¿Cuál es el objetivo de la **gestión del error** humano?
+    reverso: |
+      **Detectarlo a tiempo y gestionar sus consecuencias, no eliminarlo.**
+
+      Se asume que el error humano es inevitable.
+
+  - id: cadena-del-error
+    tipo: basica
+    anverso: ¿Qué es la **cadena del error** y qué hacer con ella?
+    reverso: |
+      **La suma de pequeños errores y condiciones latentes que produce un
+      accidente: rara vez hay una sola causa.**
+
+      Romper un solo eslabón salva el vuelo. Ante la primera señal —meteorología
+      que se deteriora, avería sin resolver, fatiga— adopta la medida más
+      conservadora disponible.
+    etiquetas: [Regla de oro]
+
+  - id: fases-criticas-accidentes
+    tipo: basica
+    anverso: Según el informe de seguridad de EASA, ¿cuáles son las **fases más críticas** del vuelo en planeador?
+    reverso: |
+      **El aterrizaje (≈50 % de los accidentes) y el despegue (21 %).**
+    etiquetas: [Seguridad]
+
+  - id: reducir-probabilidad-de-error
+    tipo: basica
+    anverso: ¿Qué prácticas reducen la probabilidad de error?
+    reverso: |
+      * Usar las listas de verificación **aunque te las sepas de memoria**.
+      * Pedir evaluación del instructor con regularidad.
+      * Vigilar la fatiga y la complacencia que trae la experiencia acumulada.
+    etiquetas: [Airmanship]
+
+  - id: cultura-justa
+    tipo: basica
+    anverso: ¿Qué es la **cultura justa** y qué implica en el hangar?
+    reverso: |
+      **Que se pueda reportar un error sin represalias, para aprender en
+      colectivo.**
+
+      Si en el remolque o al entrar al hangar golpeas el estabilizador,
+      notifícalo de inmediato. Encubrirlo pone en riesgo al siguiente que vuele
+      esa aeronave sin saber del daño.
+    etiquetas: [Airmanship]
+
+  - id: influencias-en-el-comportamiento
+    tipo: basica
+    anverso: ¿Qué factores alteran la capacidad mental del piloto al mando?
+    reverso: |
+      **El comportamiento bajo presión, la motivación frente a necesidades
+      insatisfechas (pirámide de Maslow) y la presión de los compañeros de
+      hangar.**
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (4 viñetas)
+#  [1]
+#     **Modelo SHELL**: Marco conceptual fundamental que analiza la interacción entre el piloto
+#     (Liveware) y otros elementos: Software (procedimientos), Hardware (la aeronave), Environment
+#     (el entorno) y otro Liveware (otras personas).
+#  [2]
+#     **Gestión del error**: Se asume que el error humano es inevitable. El objetivo de la
+#     seguridad no es eliminarlo por completo, sino detectarlo a tiempo y gestionar sus
+#     consecuencias antes de que afecten a la seguridad del vuelo.
+#  [3]
+#     **Cadena del error**: Los accidentes rara vez ocurren por una sola causa. Son la suma de
+#     pequeños errores y condiciones latentes. Tu trabajo es romper esa cadena en cuanto detectes
+#     el primer eslabón.
+#  [4]
+#     **Influencias en el comportamiento**: El comportamiento mental bajo presión, nuestra
+#     motivación diaria aplicada al vuelo frente a una base de necesidades insatisfechas (Pirámide
+#     de Maslow), así como la presión directa de compañeros de hangar, alteran profundamente
+#     nuestra capacidad mental como comandantes. Debemos respaldar una rigurosa "cultura justa"
+#     para permitir el libre reporte de errores técnicos sin represión ajena, aprendiendo en
+#     colectivo en lugar de esconder daños fatales.
+#
+# RECUADROS (4)
+#  [Seguridad 1]
+#     El análisis del Informe de Seguridad de EASA (European Union Aviation Safety Agency) indica
+#     que las fases más críticas del vuelo en planeador son el aterrizaje (aproximadamente el 50 %
+#     de los accidentes) y el despegue (21 %). Mantenga el máximo nivel de atención durante estos
+#     periodos, con la cabina libre de distracciones y todos los sistemas verificados.
+#  [Airmanship 2]
+#     Para reducir la probabilidad de error, utilice las listas de verificación aunque conozca el
+#     procedimiento de memoria, solicite la evaluación del instructor con regularidad y esté
+#     atento a factores que degradan el rendimiento, como la fatiga o la complacencia derivada de
+#     la experiencia acumulada.
+#  [Regla de oro 3]
+#     **Romper un solo eslabón salva el vuelo.** Ante cualquier señal de que la cadena del error
+#     ha comenzado —condiciones meteorológicas que se deterioran, una avería sin resolver, fatiga
+#     elevada— adopte la medida más conservadora disponible. Es la acción más eficaz al alcance
+#     del piloto.
+#  [Airmanship 4]
+#     Fomente la cultura justa en su entorno inmediato. Si durante el remolque o guardado del
+#     planeador se produce un daño accidental —por ejemplo, un golpe en el estabilizador al entrar
+#     al hangar— notifíquelo de inmediato al instructor o mecánico responsable. Encubrirlo pone en
+#     riesgo al piloto que vuele esa aeronave a continuación sin conocer el daño preexistente.

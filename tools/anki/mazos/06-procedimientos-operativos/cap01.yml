@@ -1,0 +1,176 @@
+# Mazo Anki de 06-procedimientos-operativos, capítulo 1.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 06-procedimientos-operativos
+capitulo: 1
+titulo: "Requisitos generales"
+tarjetas:
+  - id: cuatro-pilares-del-planeador
+    tipo: basica
+    anverso: ¿Cuáles son los **cuatro pilares** que verificar antes de cada vuelo?
+    reverso: |
+      Tres documentales, de **SAO.GEN.155**: **aeronavegabilidad** (certificado
+      + ARC en vigor), **matrícula** y **manual de vuelo (AFM) a bordo**.
+
+      El cuarto lo impone **SAO.GEN.130(d)(4)** al piloto al mando: **pesada y
+      centrado** dentro de los límites del manual.
+
+      Si falta alguno, el planeador no vuela.
+    etiquetas: [Regla de oro]
+
+  - id: papeles-del-piloto
+    tipo: basica
+    anverso: ¿Qué papeles debe llevar el piloto?
+    reverso: |
+      **Licencia SPL en vigor, certificado médico vigente, DNI y los datos del
+      libro de vuelo (SFCL.045).**
+
+      El alumno, en travesía en solitario: médico, DNI y prueba de la
+      autorización de su instructor (**SFCL.125**).
+
+  - id: pic-ultima-autoridad
+    tipo: basica
+    anverso: ¿Quién decide si el vuelo se hace?
+    reverso: |
+      **El piloto al mando: es la última autoridad.**
+
+      Velero en mal estado, meteorología marginal o tú por debajo del 100 % —la
+      decisión de no volar es tuya.
+
+  - id: imsafe-en-frio
+    tipo: basica
+    anverso: ¿Dónde y cómo conviene hacer el chequeo **IMSAFE**?
+    reverso: |
+      **En voz alta o por escrito, antes de salir de casa.**
+
+      En el aeródromo, el entusiasmo del grupo y la presión social hacen
+      minimizar síntomas. Decir «no» en frío es más fácil que hacerlo con el
+      remolcador ya preparado. Un solo «sí» basta para quedarse en tierra.
+    etiquetas: [Airmanship]
+
+  - id: requisitos-para-llevar-pasajeros
+    tipo: basica
+    anverso: ¿Qué exige llevar **pasajeros** con una SPL?
+    reverso: |
+      * **10 horas o 30 lanzamientos** como PIC tras la emisión de la licencia,
+        más un vuelo de entrenamiento demostrando competencia a un **FI(S)**
+        (SFCL.115(a)(2)).
+      * **3 lanzamientos como PIC en los 90 días anteriores** —en TMG, 3
+        despegues y aterrizajes— (**SFCL.160(e)**).
+
+      Y no ser alumno.
+    etiquetas: [Normativa]
+
+  - id: denegar-pasajero-o-equipaje
+    tipo: basica
+    anverso: ¿Puede el PIC negarse a llevar a un pasajero?
+    reverso: |
+      **Sí: tiene el derecho y el deber de denegarlo si supone un peligro.**
+
+      Si el peso del pasajero y el equipo supera los límites, o si su
+      comportamiento puede comprometer tu concentración, la respuesta es un «no»
+      firme y sin negociación.
+    etiquetas: [Seguridad]
+
+  - id: pcc-y-anclaje
+    tipo: basica
+    anverso: ¿Qué exigen las operaciones en tierra tras el montaje?
+    reverso: |
+      **Comprobación positiva de mandos (PCC) tras cada montaje**, anclaje de
+      cara al viento con cúpulas cerradas y, para remolcar con coche, la **regla
+      de la cuerda larga**: más de media envergadura.
+
+  - id: crise
+    tipo: cloze
+    texto: |
+      Mnemotécnico **CRISE**: **C** = {{c1::mandos/controles}}, **R** =
+      {{c2::reglajes y arneses}}, **I** = {{c3::instrumentos}}, **S** =
+      {{c4::seguridad exterior}}, **E** = {{c5::emergencias}}.
+    extra: |
+      Palanca libre, pedales ajustados y aerofrenos cerrados; cinturones y
+      paracaídas; altímetro, variómetro y FLARM; cúpula pestillada, pista
+      despejada y viento; briefing mental de rotura de cable.
+
+      La europea **CB-SIFT-CBE** persigue lo mismo: no conectar el cable hasta
+      haber hecho una verificación física e instrumental completa en cabina.
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (7 viñetas)
+#  [1]
+#     **Los papeles del planeador (SAO.GEN.155) y su estado (SAO.GEN.130)**: antes de cada vuelo
+#     verifica los cuatro pilares de la aeronave. Tres los enumera SAO.GEN.155: aeronavegabilidad
+#     (certificado + ARC), matrícula y manual de vuelo (AFM). El cuarto te lo exige
+#     SAO.GEN.130(d)(4) como piloto al mando: la pesada y el centrado dentro de los límites del
+#     manual. Si falta alguno, el planeador no vuela.
+#  [2]
+#     **Tus papeles**: licencia (SPL (Sailplane Pilot Licence)) en vigor, certificado médico
+#     vigente, DNI y datos del libro de vuelo (SFCL.045). Si eres alumno, en las travesías en
+#     solitario lleva el médico, el DNI y la prueba de la autorización de tu instructor
+#     (SFCL.125).
+#  [3]
+#     **Responsabilidad del PIC**: tú eres la última autoridad. Si el velero no está en
+#     condiciones, la meteo es marginal o tú no estás al 100 % (IMSAFE), la decisión de no volar
+#     es tuya.
+#  [4]
+#     **IMSAFE**: **Illness, Medication, Stress, Alcohol, Fatigue, Emotion/Eating**. Un solo «sí»
+#     es suficiente para quedarte en tierra.
+#  [5]
+#     **Pasajeros**: licencia SPL (Sailplane Pilot Licence) (no alumno), 3 lanzamientos en los
+#     últimos 90 días, 10 horas o 30 lanzamientos tras la licencia, y un vuelo de verificación con
+#     instructor.
+#  [6]
+#     **Operaciones en tierra**: comprobación de mandos positiva (PCC) tras cada montaje. Anclaje
+#     de cara al viento con cúpulas cerradas. Regla de la cuerda larga (más de media envergadura)
+#     para remolcar con coche.
+#  [7]
+#     **Prevuelo y CB-SIFT-CBE**: inspección prevuelo sistemática de 360 grados. Checklist de
+#     cabina estricto CB-SIFT-CBE antes de conectar el cable de lanzamiento.
+#
+# RECUADROS (5)
+#  [Regla de oro 1]
+#     Antes de cada vuelo, verifica los cuatro pilares de la aeronave. Tres son documentales y los
+#     enumera **SAO.GEN.155**: **aeronavegabilidad** (certificado de aeronavegabilidad + ARC en
+#     vigor), **matrícula** (certificado de matrícula) y **manual de vuelo** (AFM a bordo). El
+#     cuarto no es un papel, sino una comprobación que te impone **SAO.GEN.130(d)(4)** como piloto
+#     al mando: la **pesada y el centrado** dentro de los límites del manual. Si alguno falla, el
+#     planeador no vuela.
+#  [Airmanship 2]
+#     Haz el chequeo **IMSAFE** en voz alta o por escrito antes de salir de casa. La dinámica del
+#     aeródromo —el entusiasmo del grupo, el buen tiempo, la presión social— puede llevar a
+#     minimizar síntomas que en casa te parecerían evidentes. Decidir en frío, antes de llegar al
+#     campo, es siempre más fácil que decir «no» delante de tus compañeros cuando el remolcador ya
+#     está preparado.
+#  [Seguridad 3]
+#     Como PIC tienes el derecho y el deber de denegar el transporte a cualquier pasajero o
+#     equipaje que consideres que puede representar un peligro para la seguridad del vuelo. Esta
+#     decisión no admite presiones externas: si el peso del pasajero más el equipo supera los
+#     límites de la aeronave, o si el pasajero muestra un comportamiento que puede comprometer tu
+#     concentración, la respuesta es un «no» firme y sin negociación.
+#  [Normativa 4]
+#     Según el Reglamento (UE) 2018/1976, el titular de una SPL (Sailplane Pilot Licence) solo
+#     transportará pasajeros si cumple dos condiciones: haber completado, tras la emisión de la
+#     licencia, al menos 10 horas de vuelo o 30 lanzamientos o despegues y aterrizajes como PIC en
+#     planeadores, además de un vuelo de entrenamiento demostrando la competencia a un FI(S)
+#     (SFCL.115(a)(2)); y haber realizado, en los 90 días anteriores, al menos 3 lanzamientos como
+#     PIC en planeador —en TMG, 3 despegues y aterrizajes— (SFCL.160(e)).
+#  [Airmanship 5]
+#     En la mayoría de los aeroclubs de habla hispana, especialmente en centros históricos como
+#     Ocaña o Fuentemilanos, los instructores han utilizado tradicionalmente la regla mnemotécnica
+#     **CRISE** (o **CRIS**): * **C** (**Mandos / Controles**): palanca libre, pedales ajustados y
+#     aerofrenos cerrados y asegurados. * **R** (**Reglajes / Arneses**): cinturones ajustados,
+#     paracaídas colocado y comodidad del piloto en cabina. * **I** (**Instrumentos**): altímetro
+#     a cero (QFE) o calado en QNH, variómetro y vario eléctrico encendidos, y FLARM configurado.
+#     * **S** (**Seguridad exterior**): cúpula cerrada y pestillada, ventanilla cerrada, pista
+#     despejada y viento evaluado. * **E** (**Emergencias**): briefing mental de rotura de cable y
+#     planificación inmediata ante un fallo en el despegue. Ambas mnemotécnicas (la europea
+#     CB-SIFT-CBE y la tradicional CRISE) persiguen el mismo fin de seguridad: no conectar el
+#     cable del planeador a pista hasta que no se haya realizado una verificación física e
+#     instrumental completa en cabina.

@@ -1,0 +1,84 @@
+# Mazo Anki de 03-meteorologia, capítulo 5.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 03-meteorologia
+capitulo: 5
+titulo: "Precipitación"
+tarjetas:
+  - id: lluvia-y-rendimiento
+    tipo: basica
+    anverso: ¿Qué le hace la **lluvia** a un planeador?
+    reverso: |
+      **El agua en las alas arruina el perfil laminar: sube la velocidad de
+      pérdida y la tasa de descenso.**
+
+      Con alas mojadas, añade un mínimo de **5-10 kt** a la velocidad de
+      aproximación y evita giros pronunciados: la pérdida puede llegar sin
+      aviso.
+    etiquetas: [Seguridad]
+
+  - id: granizo-bajo-el-yunque
+    tipo: basica
+    anverso: ¿Dónde puede caer **granizo** además de bajo la vertical del Cb?
+    reverso: |
+      **Decenas de kilómetros bajo el yunque extendido**, expulsado por el
+      viento en altura.
+
+      Mantén la distancia del yunque aunque el cielo debajo parezca despejado.
+      Es destructivo para la fibra.
+    etiquetas: [Airmanship]
+
+  - id: lluvia-engelante
+    tipo: basica
+    anverso: ¿Qué es la **lluvia engelante (FZRA)** y qué se hace?
+    reverso: |
+      **Gotas superenfriadas que se congelan al impactar: el hielo se acumula en
+      segundos, pesa y deforma el perfil.**
+
+      Es una emergencia grave. Sal de la zona de inmediato, normalmente
+      cambiando de altitud.
+
+  - id: virga
+    tipo: basica
+    anverso: ¿Qué avisa la **virga**?
+    reverso: |
+      **Fuertes corrientes descendentes y posible turbulencia severa debajo.**
+
+      Es una cortina de lluvia que se evapora antes de tocar el suelo.
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (4 viñetas)
+#  [1]
+#     **Lluvia y Performance**: Para un planeador, la lluvia es kryptonita. El agua en las alas
+#     arruina el perfil laminar, aumentando drásticamente la velocidad de pérdida y la tasa de
+#     descenso. Si llueve, añade velocidad de seguridad al aterrizar.
+#  [2]
+#     **Granizo (GR)**: Asociado a los Cumulonimbus (Cb). Puede encontrarse incluso fuera de la
+#     nube, bajo el yunque. Es destructivo para la estructura de fibra. NUNCA vueles debajo de un
+#     yunque de tormenta.
+#  [3]
+#     **Lluvia Engelante (FZRA)**: Gotas superenfriadas que se congelan al impactar. Es una
+#     emergencia grave: el hielo se acumula en segundos, pesando y deformando el perfil. Sal
+#     inmediatamente de esa zona (generalmente cambiando de altitud).
+#  [4]
+#     **Virga**: Cortina de lluvia que se evapora antes de tocar el suelo. Es un aviso visual de
+#     fuertes corrientes descendentes y posible turbulencia severa debajo de ella.
+#
+# RECUADROS (2)
+#  [Seguridad 1]
+#     Con alas mojadas, añade siempre un margen mínimo de 5-10 kt sobre tu velocidad de
+#     aproximación estándar. Evita giros pronunciados: el riesgo de entrada en pérdida es
+#     significativamente mayor que en configuración seca y puede producirse sin advertencia
+#     previa.
+#  [Airmanship 2]
+#     No asumas que el granizo cae solo bajo la vertical del Cb: el viento en altura puede
+#     expulsarlo decenas de kilómetros bajo el yunque extendido. Mantén siempre la distancia de
+#     seguridad del yunque, aunque el cielo por debajo parezca completamente despejado.

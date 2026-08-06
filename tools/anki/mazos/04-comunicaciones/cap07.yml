@@ -1,0 +1,148 @@
+# Mazo Anki de 04-comunicaciones, capítulo 7.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 04-comunicaciones
+capitulo: 7
+titulo: "Principios generales de propagación VHF y asignación de frecuencias"
+tarjetas:
+  - id: propagacion-vhf
+    tipo: basica
+    anverso: ¿Cómo se propagan las ondas **VHF** y qué fórmula da el alcance?
+    reverso: |
+      **En línea recta (alcance visual).** Una montaña de por medio te deja sin
+      contacto.
+
+      Alcance ≈ **1,23 × √H**: la altura es tu aliada.
+
+  - id: bloqueo-en-valles
+    tipo: basica
+    anverso: ¿Qué precaución exige volar bajo en montaña?
+    reverso: |
+      **Un plan de comunicaciones alternativo, o un relé con otro avión**: en
+      valles profundos se pierde la red de repetidores.
+
+  - id: squelch
+    tipo: basica
+    anverso: ¿Cómo se ajusta el **squelch**?
+    reverso: |
+      **Justo hasta que desaparece el siseo de fondo, y ni un punto más.**
+
+      Al máximo, las señales débiles de planeadores lejanos o de un ATC distante
+      no abren la puerta: creerás que la frecuencia está en silencio.
+    etiquetas: [Regla de oro]
+
+  - id: frecuencias-clave
+    tipo: basica
+    anverso: Frecuencias clave del vuelo a vela en España.
+    reverso: |
+      * **121,500** — emergencia internacional, escucha permanente.
+      * **122,600 / 123,375 / 123,400** — vuelo a vela.
+      * **123,450** — charla entre pilotos.
+      * **123,500** — aeródromo no controlado genérico.
+
+      Los FIS regionales, en el AIP-España **GEN 3.3**.
+
+  - id: radios-de-25-khz
+    tipo: basica
+    anverso: ¿Sirve todavía una radio antigua de **25 kHz**?
+    reverso: |
+      **Como regla general no, pero hay exención.**
+
+      El AIP-España (**ENR 1.8**) mantiene sub-bandas nacionales en 25 kHz para
+      aire-aire y aire-tierra **hasta el 31-12-2028**, justo las de vuelo a vela
+      (122,600; 123,375; 123,400; 123,450; 123,500). Aun así, sin 8,33 kHz no te
+      comunicarás con la mayoría de las dependencias ATC.
+    etiquetas: [Normativa]
+
+  - id: canales-no-frecuencias
+    tipo: basica
+    anverso: ¿Por qué las cartas muestran diales acabados en .005, .010 o con sufijo «C»?
+    reverso: |
+      **Porque con 8,33 kHz se nombran *canales*, no frecuencias exactas.**
+
+      No es un error de sintonía: sintoniza el canal tal como figura en la
+      carta.
+    etiquetas: [Airmanship]
+
+  - id: boton-ident
+    tipo: basica
+    anverso: ¿Cuándo se pulsa el botón **IDENT** del transpondedor?
+    reverso: "**Sólo cuando lo pida el ATC.**"
+
+  - id: tmz-transpondedor
+    tipo: basica
+    anverso: ¿Dónde es obligatorio el transpondedor?
+    reverso: |
+      **En las TMZ (SERA.6005 b), descritas en AIP-España ENR 2.1 y carta ENR 6)
+      y donde lo exijan la clase de espacio aéreo o el AIP (ENR 1.6)**: clases A
+      y C, y D generalmente.
+    etiquetas: [Normativa]
+
+  - id: apuntar-frecuencias-fis
+    tipo: basica
+    anverso: ¿Por qué se anotan las frecuencias FIS antes de la travesía?
+    reverso: |
+      **Porque en cobertura degradada o tras una emergencia, buscarlas en el
+      mapa es tiempo que no tienes.**
+    etiquetas: [Airmanship]
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (6 viñetas)
+#  [1]
+#     **Alcance Visual**: Las ondas VHF viajan en línea recta. Si hay una montaña entre la antena
+#     y tú, no te oirán. La altura es tu aliada: a mayor altitud, mayor alcance (1.23 × √H).
+#  [2]
+#     **Separación 8.33 kHz**: El espacio aéreo está saturado. Para meter más canales, se redujo
+#     el ancho de banda. Asegúrate de que tu radio es "8.33 compliant" o no podrás sintonizar
+#     muchas frecuencias modernas.
+#  [3]
+#     **Squelch**: Es la "puerta de ruido". Ajústalo justo hasta que desaparezca el ruido de fondo
+#     ("siseo"). Si lo cierras demasiado, bloquearás señales débiles pero importantes.
+#  [4]
+#     **Bloqueo**: En valles profundos, puedes perder contacto con la red de repetidores. Ten
+#     previsto un plan de comunicaciones (o un relé con otro avión) si vuelas bajo en montaña.
+#  [5]
+#     **Frecuencias clave**: 121,500 MHz (emergencia internacional, escucha permanente). 122,600 /
+#     123,375 / 123,400 MHz (vuelo a vela). 123,450 MHz (charla entre pilotos). 123,500 MHz
+#     (aeródromo no controlado genérico). FIS regionales: consultar AIP España GEN 3.3.
+#  [6]
+#     **Transpondedor (XPDR)**: Responde automáticamente al radar secundario (SSR). Códigos:
+#     **7000** (VFR estándar), **7600** (fallo de radio — NORDO), **7700** (emergencia activa).
+#     Obligatorio en zonas TMZ (SERA.6005 b) — descritas en AIP-España ENR 2.1, carta ENR 6— y
+#     donde lo exijan la clase de espacio aéreo o el AIP (ENR 1.6): clases A y C, y D
+#     generalmente. Botón **IDENT**: solo cuando lo pida el ATC.
+#
+# RECUADROS (4)
+#  [Normativa 1]
+#     Si tu velero lleva una radio antigua de 25 kHz —la que solo marca diales acabados en .000,
+#     .025, .050 o .075—, la regla general en Europa es que ya no basta: para operar con las
+#     dependencias modernas del ATC necesitas un equipo capaz de sintonizar el espaciado de 8,33
+#     kHz. Hay una excepción que conviene conocer: el AIP-España (ENR 1.8) mantiene, comunicadas a
+#     la Comisión (Reg. 2023/1770 y 2023/1771), unas **sub-bandas nacionales en 25 kHz para
+#     comunicaciones aire-aire y aire-tierra hasta el 31-12-2028** —precisamente las de vuelo a
+#     vela que aparecen en la tabla de este capítulo (122,600; 123,375; 123,400; 123,450;
+#     123,500)—. Así que como afirmación legal la frase exige el matiz de la exención; como
+#     recomendación práctica, equipa 8,33 sin dudarlo: sin él no te comunicarás con la mayoría de
+#     las dependencias del ATC.
+#  [Regla de oro 2]
+#     No subas el squelch más allá del punto donde cesa el ruido. Si lo dejas «al máximo», las
+#     señales débiles de planeadores lejanos o de un ATC distante no tendrán fuerza suficiente
+#     para abrir la puerta. Creerás que la frecuencia está en silencio cuando en realidad alguien
+#     te está llamando.
+#  [Airmanship 3]
+#     Con el espaciado de 8,33 kHz, las cartas y las radios muestran **canales**, no frecuencias
+#     exactas: verás diales acabados en .005, .010, .015… y a veces un sufijo «C». No es un error
+#     de sintonía; es la nomenclatura del canal, que no coincide con la frecuencia real. Sintoniza
+#     el canal tal como figura en la carta.
+#  [Airmanship 4]
+#     Antes de cada travesía, anota las frecuencias de FIS de los sectores que atravesarás. En una
+#     zona con cobertura degradada o tras una emergencia, buscar la frecuencia en el mapa es
+#     tiempo que no tienes.

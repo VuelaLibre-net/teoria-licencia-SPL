@@ -1,0 +1,128 @@
+# Mazo Anki de 09-navegacion, capítulo 6.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 09-navegacion
+capitulo: 6
+titulo: "Uso de GNSS"
+tarjetas:
+  - id: gnss-ayuda-no-sustituto
+    tipo: basica
+    anverso: ¿Qué papel tiene el **GNSS** en la navegación VFR?
+    reverso: |
+      **Ayuda a la conciencia situacional; no sustituye a la navegación visual
+      ni a la carta.**
+
+      Las baterías fallan, las señales se pierden y los dispositivos se cuelgan.
+
+  - id: satelites-necesarios
+    tipo: basica
+    anverso: ¿Cuántos satélites hacen falta para una posición **3D**?
+    reverso: "**Cuatro.**"
+
+  - id: fuentes-de-error-gnss
+    tipo: basica
+    anverso: ¿Por qué puede fallar un receptor **GNSS**?
+    reverso: |
+      **Por falta de satélites, interferencias o errores de la base de datos.**
+
+      Verifica siempre que el destino y las coordenadas son los correctos.
+
+  - id: dop
+    tipo: basica
+    anverso: ¿Qué es la **DOP** y por qué es peligrosa?
+    reverso: |
+      **La dilución de la precisión: multiplica el error de medida según la
+      geometría de los satélites.**
+
+      Con los satélites agrupados —valles, laderas— el error crece varias veces
+      **sin ninguna alarma**.
+
+  - id: altitud-gnss-vs-altimetro
+    tipo: basica
+    anverso: ¿Por qué no coinciden la altitud del **GNSS** y la del **altímetro**?
+    reverso: |
+      **La del GNSS es geométrica sobre el elipsoide; la del altímetro es
+      barométrica.**
+
+  - id: con-que-se-comprueba-el-espacio-aereo
+    tipo: basica
+    anverso: ¿Con qué instrumento se comprueban los límites verticales de espacio aéreo y la AMA?
+    reverso: |
+      **Con el altímetro, nunca con la cifra del GNSS.**
+
+      Están definidos en altitud barométrica. Que las dos pantallas estén a un
+      palmo una de otra no las hace comparables.
+    etiquetas: [Seguridad]
+
+  - id: backup-gnss
+    tipo: basica
+    anverso: ¿Qué respaldo hay que llevar si se navega con GNSS?
+    reverso: |
+      **Carta de papel y brújula**, y si confías en una tablet, el teléfono con
+      una app cargada.
+
+      Si el GPS muere en pleno vuelo de distancia, debes poder volver a casa a
+      la vieja usanza.
+    etiquetas: [Regla de oro]
+
+  - id: gnss-en-el-examen
+    tipo: basica
+    anverso: ¿Qué puede hacer el examinador con tu GNSS en la prueba de pericia SPL?
+    reverso: |
+      **Apagártelo, para comprobar que sabes volver al aeródromo con el mapa y
+      la brújula.**
+    etiquetas: [Airmanship]
+
+  - id: datum-y-unidades
+    tipo: basica
+    anverso: ¿Qué hay que comprobar en la **configuración** del receptor?
+    reverso: |
+      **Que el datum (normalmente WGS84) y las unidades (NM, kt, m) coinciden
+      con la planificación y con lo que esperas ver en los instrumentos.**
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (6 viñetas)
+#  [1]
+#     **Ayuda, no sustituto**: El GPS es una herramienta fabulosa para la conciencia situacional,
+#     pero nunca debe sustituir a la navegación visual y a la carta. Las baterías fallan, las
+#     señales se pierden y los dispositivos se cuelgan.
+#  [2]
+#     **Fuentes de Error**: El GPS puede fallar por falta de satélites (necesitas 4 para posición
+#     3D), interferencias o errores en la base de datos. Verifica siempre que el destino y las
+#     coordenadas son correctos.
+#  [3]
+#     **La DOP multiplica**: el error final es el de medida por la dilución de la precisión. Con
+#     los satélites agrupados —valles, laderas— el error crece varias veces sin ninguna alarma.
+#  [4]
+#     **Altitud GNSS ≠ altitud del altímetro**: la del GNSS es geométrica sobre el elipsoide; la
+#     del altímetro, barométrica. Los límites de espacio aéreo y la AMA se comprueban **con el
+#     altímetro**.
+#  [5]
+#     **Backup**: Lleva siempre una carta de papel y una brújula. Si el GPS muere en medio de un
+#     vuelo de distancia, debes ser capaz de volver a casa "a la vieja usanza".
+#  [6]
+#     **Configuración**: Asegúrate de que tu datum (usualmente WGS84) y las unidades (NM, kts, m)
+#     coinciden con tu planificación y con lo que esperas ver en los instrumentos.
+#
+# RECUADROS (3)
+#  [Seguridad 1]
+#     Los límites verticales del espacio aéreo, las altitudes de la carta y la AMA están definidos
+#     en **altitud barométrica**. Para decidir si estás por debajo del techo de una TMA se mira el
+#     **altímetro**, nunca la cifra del GNSS. Que las dos pantallas estén a un palmo la una de la
+#     otra no las hace comparables.
+#  [Airmanship 2]
+#     El GNSS no te exime de saber navegar visualmente: el vuelo VFR se apoya en referencias del
+#     terreno, con o sin pantalla. Y tenlo presente en el examen de pericia de la SPL: el
+#     examinador puede apagarte el dispositivo para comprobar que sabes volver al aeródromo con el
+#     mapa y la brújula.
+#  [Regla de oro 3]
+#     Lleva siempre una **fuente de respaldo** (backup). Si confías en una tablet, ten tu teléfono
+#     con una app de navegación cargada y, por supuesto, la carta de papel doblada y lista en el
+#     bolsillo lateral de la cabina.

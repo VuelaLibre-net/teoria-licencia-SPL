@@ -1,0 +1,97 @@
+# Mazo Anki de 08-aeronave-sistemas, capítulo 7.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 08-aeronave-sistemas
+capitulo: 7
+titulo: "Montaje de la aeronave, conexión de superficies de control"
+tarjetas:
+  - id: pcc-mando-positivo
+    tipo: basica
+    anverso: ¿En qué consiste la comprobación de **mando positivo (PCC)**?
+    reverso: |
+      **Una persona sujeta la superficie y tú intentas mover la palanca: debe
+      ofrecer resistencia sólida.**
+
+      Si se mueve libre, no está conectado. Es obligatoria tras cada montaje.
+
+  - id: bulones-principales
+    tipo: basica
+    anverso: ¿Cómo deben quedar los **bulones principales**?
+    reverso: |
+      **Entrando limpios y asegurados** con imperdibles o seguros R.
+
+      Son el seguro de vida de las alas.
+
+  - id: lhotellier-pin
+    tipo: basica
+    anverso: ¿Basta el «clic» del muelle en un conector **L'Hotellier**?
+    reverso: |
+      **No: hace falta el pin de seguridad (imperdible).**
+
+      Es el pin el que garantiza que la unión no se suelte por las vibraciones,
+      y es de obligado cumplimiento en los modelos afectados por la directiva de
+      aeronavegabilidad correspondiente.
+    etiquetas: [Seguridad]
+
+  - id: interrupcion-durante-el-montaje
+    tipo: basica
+    anverso: Si te interrumpen durante el montaje, ¿qué haces?
+    reverso: |
+      **Vuelves a empezar el paso en curso desde el principio.**
+
+      Las distracciones durante el *rigging* son la causa número uno de
+      conexiones críticas olvidadas.
+    etiquetas: [Regla de oro]
+
+  - id: cintado-de-juntas
+    tipo: basica
+    anverso: ¿Para qué sirve el **cintado** de las juntas ala-fuselaje?
+    reverso: |
+      **Reduce el ruido y mejora bastante el rendimiento a baja velocidad.** No
+      es sólo estética.
+
+  - id: carga-suelta-en-el-fuselaje
+    tipo: basica
+    anverso: ¿Qué error clásico y mortal se comete tras el montaje?
+    reverso: |
+      **Dejar herramientas o pesos sueltos en el fuselaje.**
+
+      Pueden desplazarse en vuelo y bloquear los mandos.
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (5 viñetas)
+#  [1]
+#     **Verificación de mandos**: tras montar, el test de "mando positivo" (PCC) es obligatorio.
+#     Una persona sujeta la superficie (el alerón) y tú intentas mover la palanca. Debe ofrecer
+#     resistencia sólida. Si se mueve libre, no está conectado.
+#  [2]
+#     **Bulones principales**: son el seguro de vida de las alas. Deben entrar limpios y quedar
+#     asegurados (imperdibles o seguros R).
+#  [3]
+#     **L’Hotellier**: conexión manual crítica. Pin de seguridad siempre; el clic del muelle no
+#     basta.
+#  [4]
+#     **Cintado**: tapar las juntas ala-fuselaje no es solo estética; reduce el ruido y mejora
+#     bastante el rendimiento a baja velocidad.
+#  [5]
+#     **Carga suelta**: un clásico error mortal es dejar herramientas o pesos sueltos en el
+#     fuselaje tras el montaje. Pueden desplazarse en vuelo y bloquear los mandos.
+#
+# RECUADROS (2)
+#  [Seguridad 1]
+#     Si tu planeador usa conectores L’Hotellier, el pin de seguridad (imperdible) que bloquea el
+#     conector es de obligado cumplimiento en los modelos afectados por la directiva de
+#     aeronavegabilidad correspondiente. No te fíes nunca del "clic" del muelle: es el pin el que
+#     garantiza que la unión no se suelte por las vibraciones del vuelo.
+#  [Regla de oro 2]
+#     Si durante el montaje alguien te interrumpe para hablar, vuelve a empezar el paso en curso
+#     desde el principio. Las distracciones durante el rigging son la causa número uno de
+#     conexiones críticas olvidadas.

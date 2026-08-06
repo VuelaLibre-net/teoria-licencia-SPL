@@ -1,0 +1,106 @@
+# Mazo Anki de 04-comunicaciones, capítulo 5.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 04-comunicaciones
+capitulo: 5
+titulo: "Acciones ante fallo de comunicaciones"
+tarjetas:
+  - id: codigo-7600-nordo
+    tipo: basica
+    anverso: ¿Qué código se selecciona ante un **fallo de radio** y qué efecto tiene?
+    reverso: |
+      **7600.** La aeronave aparece destacada en el radar secundario (SSR) como
+      situación **NORDO**.
+
+  - id: procedimiento-fallo-radio
+    tipo: basica
+    anverso: Procedimiento en vuelo tras confirmar el fallo de radio.
+    reverso: |
+      **Mantén VMC y aterriza preferentemente en un aeródromo no controlado.**
+
+      Si has de ir a uno controlado: sobrevuela la torre por zona no operativa,
+      haz balanceos de alas, colócate paralelo a la pista por delante de la
+      torre y observa las señales luminosas. **Notifica por teléfono al tomar
+      tierra.**
+    etiquetas: [Seguridad]
+
+  - id: senales-de-luces-en-vuelo
+    tipo: cloze
+    texto: |
+      Señales luminosas **en vuelo** (SERA): verde fija = {{c1::autorizado a
+      aterrizar}}; roja fija = {{c2::ceda el paso}}; destellos rojos =
+      {{c3::aeródromo peligroso}}; destellos verdes = {{c4::regrese para
+      aterrizar}}; destellos blancos = {{c5::aterrice en este aeródromo}}.
+
+  - id: senales-de-luces-en-tierra
+    tipo: basica
+    anverso: En **tierra**, ¿qué significan verde fija y destellos verdes?
+    reverso: |
+      **Verde fija: autorizado para despegar. Destellos verdes: autorizado para
+      rodar.**
+
+      Ojo: no significan lo mismo que en vuelo.
+
+  - id: acusar-recibo-de-senal-luminosa
+    tipo: basica
+    anverso: ¿Cómo se acusa recibo de una señal luminosa de la torre?
+    reverso: |
+      **De día**: guiñadas con el timón o balanceos de alas bien visibles.
+      **De noche**: encendiendo y apagando las luces de aterrizaje o navegación.
+      **En tierra**: moviendo alerones o timón de dirección.
+    etiquetas: [Regla de oro]
+
+  - id: transmision-a-ciegas
+    tipo: basica
+    anverso: Si sólo falla el **receptor**, ¿qué se hace?
+    reverso: |
+      **Transmitir posición e intenciones en la frecuencia correcta, precedidas
+      de «Transmitiendo a ciegas debido a fallo del receptor».**
+
+      Se repite en cada cambio de tramo.
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (4 viñetas)
+#  [1]
+#     **Código 7600**: Al confirmar el fallo de radio, seleccione 7600 en el transpondedor. La
+#     aeronave aparecerá destacada en la pantalla del radar secundario (SSR) como situación NORDO.
+#  [2]
+#     **Procedimiento en vuelo**: Mantenga VMC. Aterrice preferentemente en un aeródromo no
+#     controlado. Si debe acudir a uno controlado, sobrevuele la Torre por zona no operativa,
+#     efectúe balanceos de alas y observe las señales de luces. Notifique por teléfono en cuanto
+#     tome tierra.
+#  [3]
+#     **Señales de luces (SERA)**: *Verde fija* (vuelo) = autorizado a aterrizar. *Roja fija*
+#     (vuelo) = ceda el paso. *Destellos rojos* (vuelo) = aeródromo peligroso. *Destellos verdes*
+#     (vuelo) = regrese para aterrizar. *Destellos blancos* (vuelo) = aterrice en este aeródromo.
+#     Las señales equivalentes en tierra tienen significados distintos: *verde fija* = autorizado
+#     para despegar; *destellos verdes* = autorizado para rodar.
+#  [4]
+#     **Transmisión a ciegas**: Si solo falla el receptor, transmita posición e intenciones en la
+#     frecuencia correcta precediendo el mensaje con «Transmitiendo a ciegas debido a fallo del
+#     receptor». Repítalo en cada cambio de tramo.
+#
+# RECUADROS (3)
+#  [Seguridad 1]
+#     Si no tienes más remedio que aterrizar en un aeródromo controlado, acércate a la Torre por
+#     zonas que no interfieran con las operaciones y haz balanceos de alas (**wing rock**) para
+#     que te vean. Luego colócate paralelo a la pista, por delante de la torre, y mira las señales
+#     luminosas del ATC.
+#  [Normativa 2]
+#     Las señales luminosas de la Torre de Control están reguladas por el Reglamento de Ejecución
+#     (UE) n.º 923/2012 —Reglas Europeas Estandarizadas del Aire (**SERA**)—. Su correcto
+#     conocimiento e interpretación es obligatorio para todo piloto que opere en espacios aéreos
+#     con servicio ATC (Fuente: documentación oficial SERA, EASA / AESA).
+#  [Regla de oro 3]
+#     Al recibir una señal de la Torre en vuelo, acusa recibo de la única forma posible: de día,
+#     guiñadas con el timón o balanceos de alas bien visibles. De noche, encendiendo y apagando
+#     las luces de aterrizaje o de navegación. En tierra, moviendo los alerones o el timón de
+#     dirección.

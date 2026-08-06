@@ -1,0 +1,95 @@
+# Mazo Anki de 08-aeronave-sistemas, capítulo 3.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 08-aeronave-sistemas
+capitulo: 3
+titulo: "Tren de aterrizaje, ruedas, neumáticos y frenos"
+tarjetas:
+  - id: gestion-del-tren-retractil
+    tipo: basica
+    anverso: ¿Cuándo se guarda y cuándo se saca el **tren retráctil**?
+    reverso: |
+      **Se guarda sólo tras soltar el remolque y alcanzar altura segura; se saca
+      al entrar en viento en cola, sin excepción.**
+
+      Tren abajo y bloqueado. Que forme parte de tu chequeo mental antes de
+      aterrizar.
+    etiquetas: [Regla de oro]
+
+  - id: tren-como-fusible
+    tipo: basica
+    anverso: ¿Qué papel tiene el tren en una toma muy dura?
+    reverso: |
+      **El de elemento fusible: rompe él antes que el fuselaje.**
+
+      En muchos planeadores, la única suspensión son el neumático y el cojín.
+
+  - id: frenos-de-rueda
+    tipo: basica
+    anverso: ¿Cómo se accionan los **frenos de rueda** en un planeador?
+    reverso: |
+      **Al final del recorrido de los aerofrenos, o con una maneta aparte.**
+
+      De disco (eficaces, pero se calientan) o de tambor. Comprueba que frenan
+      antes de despegar.
+
+  - id: frenar-con-brusquedad
+    tipo: basica
+    anverso: ¿Por qué no se frena de golpe al principio de la carrera de aterrizaje?
+    reverso: |
+      **Porque puedes capotar —el morro se clava— o hacer planos en la rueda por
+      desgaste del neumático.**
+    etiquetas: [Seguridad]
+
+  - id: tren-que-no-sale
+    tipo: basica
+    anverso: Si el tren **no sale**, ¿qué se hace?
+    reverso: |
+      **Un tirón suave; si no sale, toma sobre hierba con el tren dentro.**
+
+      Daños menores, piloto a salvo.
+
+  - id: patin-de-cola
+    tipo: basica
+    anverso: ¿Para qué sirve el **patín de cola**?
+    reverso: |
+      **Protege el fuselaje en tomas con el morro alto.** Es un punto de
+      desgaste a vigilar.
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (5 viñetas)
+#  [1]
+#     **Configuraciones**: tren fijo (escuela, simple) o retráctil (rendimiento). El retráctil se
+#     saca sin falta en viento en cola: tren abajo y bloqueado.
+#  [2]
+#     **Amortiguación**: en muchos planeadores, la única suspensión es el neumático y tu cojín. El
+#     tren hace de "elemento fusible": en una toma muy dura rompe él antes que el fuselaje.
+#  [3]
+#     **Frenos**: de disco (eficaces, pero pueden calentarse) o de tambor. Entran al final del
+#     recorrido de los aerofrenos o con una maneta aparte. Comprueba que frenan bien antes de
+#     despegar.
+#  [4]
+#     **Patín de cola**: protege el fuselaje en tomas con el morro alto. Es un punto de desgaste a
+#     vigilar.
+#  [5]
+#     **Tren que no sale**: prueba un tirón suave; si no, toma sobre hierba con el tren dentro.
+#     Daños menores, piloto a salvo.
+#
+# RECUADROS (2)
+#  [Regla de oro 1]
+#     Trata la gestión del tren retráctil como algo sagrado: se guarda solo tras soltar el
+#     remolque y alcanzar una altura segura, y se vuelve a sacar al entrar en el tramo de viento
+#     en cola (*downwind*), sin excepción. Que forme parte de tu chequeo mental antes de
+#     aterrizar.
+#  [Seguridad 2]
+#     No frenes con brusquedad al principio de la carrera de aterrizaje si llevas mucha velocidad:
+#     puedes provocar un capotaje (el morro se clava en el suelo) o hacer planos en la rueda por
+#     desgaste excesivo del neumático.

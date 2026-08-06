@@ -1,0 +1,105 @@
+# Mazo Anki de 04-comunicaciones, capítulo 4.
+#
+# Fuente canónica: se edita a mano. `extraer.py` sólo crea el esqueleto y
+# vuelca el material al pie; no vuelve a tocar este fichero.
+#
+# Cada tarjeta: id (slug estable, NO renombrar: es la identidad de la nota
+# en la colección del alumno), tipo (basica|cloze), y los campos.
+libro: 04-comunicaciones
+capitulo: 4
+titulo: "Términos de información meteorológica relevantes (VFR)"
+tarjetas:
+  - id: atis
+    tipo: basica
+    anverso: ¿Qué es el **ATIS** y qué da?
+    reverso: |
+      **Una voz automática de aeropuerto con pista en uso, viento, QNH y un
+      código de información** (por ejemplo «Información Bravo»).
+
+  - id: usar-el-codigo-atis
+    tipo: basica
+    anverso: ¿Cómo se aprovecha el ATIS en la primera llamada?
+    reverso: |
+      **Escuchándolo entero antes de llamar y citando su código.**
+
+      «Jerez TWR, velero EC-DPE, a 10 millas al norte, con información Bravo,
+      solicito…». El controlador sabe que ya tienes los datos.
+    etiquetas: [Regla de oro]
+
+  - id: volmet
+    tipo: basica
+    anverso: ¿Qué es el **VOLMET**?
+    reverso: |
+      **Una emisora que difunde METAR, TAF y SIGMET de varios aeropuertos en
+      bucle.**
+
+      Permite planificar la llegada o elegir alternativo sin saturar la
+      frecuencia de control.
+
+  - id: cavok
+    tipo: basica
+    anverso: ¿Qué significa **CAVOK** y qué condiciones implica?
+    reverso: |
+      **Ceiling and Visibility OK**: visibilidad ≥ 10 km, sin nubes bajas y sin
+      fenómenos significativos.
+
+      Las mejores condiciones posibles para VFR.
+
+  - id: qnh-para-que
+    tipo: basica
+    anverso: ¿Para qué sirve el **QNH**?
+    reverso: |
+      **Es la presión de referencia para leer la altitud sobre el nivel del
+      mar**, y por tanto para respetar los límites verticales de los espacios
+      aéreos.
+
+  - id: viento-norte-magnetico-o-verdadero
+    tipo: basica
+    anverso: ¿A qué norte se refiere el viento según la fuente?
+    reverso: |
+      **Torre y ATIS: norte magnético** (igual que la numeración de pistas).
+      **Mapas, METAR/TAF en texto y VOLMET: norte geográfico (verdadero).**
+
+  - id: airep
+    tipo: basica
+    anverso: ¿Qué es un **AIREP** y cuándo se emite?
+    reverso: |
+      **Un informe del piloto en vuelo para avisar de fenómenos meteorológicos
+      severos no pronosticados.**
+
+      SERA obliga al piloto al mando a notificar sin demora cualquier condición
+      peligrosa que pueda afectar a otras aeronaves.
+    etiquetas: [Normativa]
+
+
+# ==========================================================================
+# MATERIAL DE ORIGEN — no lo lee ninguna herramienta, es para redactar.
+# ==========================================================================
+#
+# POST-IT (3 viñetas)
+#  [1]
+#     **ATIS**: Voz automática en aeropuertos. Escucharla antes de llamar proporciona pista en
+#     uso, viento, QNH y el **código de información** (p. ej., «Información Bravo»). Ahorra tiempo
+#     al controlador y agiliza la comunicación.
+#  [2]
+#     **VOLMET**: Emisora dedicada a difundir METAR, TAF y SIGMET de varios aeropuertos en bucle.
+#     Permite planificar la llegada o seleccionar un alternativo sin saturar la frecuencia de
+#     control.
+#  [3]
+#     **Conceptos clave**: * **CAVOK**: **Ceiling and Visibility OK** (visibilidad ≥ 10 km, sin
+#     nubes bajas, sin fenómenos). Las mejores condiciones posibles para VFR. * **QNH**: Presión
+#     de referencia para leer la altitud sobre el nivel del mar. Fundamental para respetar los
+#     límites verticales de los espacios aéreos. * **Viento**: La Torre y el ATIS facilitan el
+#     viento referido al Norte Magnético (igual que la numeración de pistas). En mapas, METAR/TAF
+#     en texto y VOLMET el viento viene referido al Norte Geográfico (verdadero). * **AIREP**:
+#     Informe emitido obligatoriamente por el piloto en vuelo para notificar a otras aeronaves
+#     sobre fenómenos meteorológicos severos no pronosticados.
+#
+# RECUADROS (2)
+#  [Regla de oro 1]
+#     Escucha el ATIS completo **antes** de llamar a la Torre. Luego incluye el código en tu
+#     primera llamada: *«Jerez TWR, velero EC-DPE, a 10 millas al norte, con información Bravo,
+#     solicito…​»* El controlador sabe que ya tienes todos los datos y puede ir directo al grano.
+#  [Normativa 2]
+#     El Reglamento SERA obliga al piloto en mando a notificar sin demora cualquier condición
+#     meteorológica peligrosa que pueda afectar a la seguridad de otras aeronaves.
