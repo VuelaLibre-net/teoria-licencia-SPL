@@ -21,14 +21,15 @@ tarjetas:
   - id: codigo-de-colores-cs22780
     tipo: cloze
     texto: |
-      Código de colores de cabina (**CS 22.780**): {{c1::azul}} para los
+      Código de colores de los mandos de cabina: {{c1::azul}} para los
       aerofrenos, {{c2::verde}} para el compensador, {{c3::amarillo}} para la
       suelta de remolque y {{c4::rojo}} para la suelta de cúpula.
     extra: |
       El blanco queda para la apertura normal de cúpula; si una sola palanca
       hace las dos cosas, manda el rojo. La norma **reserva** el amarillo y el
       rojo: ningún otro mando puede llevarlos, y por eso el ojo puede fiarse.
-      CS 22.1555 obliga a marcarlos.
+
+      *Fundamento: CS 22.780; la obligación de marcarlos, CS 22.1555.*
 
   - id: aerofrenos-efecto
     tipo: basica

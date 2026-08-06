@@ -41,18 +41,22 @@ tarjetas:
 
   - id: alturas-minimas-sera-5005
     tipo: basica
-    anverso: ¿Qué alturas mínimas fija **SERA.5005 f)**?
+    anverso: ¿Cuáles son las **alturas mínimas de vuelo** en VFR?
     reverso: |
       **150 m en general y 300 m sobre zonas pobladas.**
 
+      *Fundamento: SERA.5005 f).*
+
   - id: excepcion-rd-552-2014
     tipo: basica
-    anverso: ¿Qué excepciones da el **Real Decreto 552/2014** a los planeadores?
+    anverso: ¿Qué excepciones a las alturas mínimas tiene el planeador **en España**?
     reverso: |
-      **Exceptúa de los 150 m al vuelo de ladera**, si no entraña riesgo ni
-      molestias a personas o bienes, **y permite bajar hasta 50 m entrenando
+      **El vuelo de ladera queda exceptuado de los 150 m**, si no entraña riesgo
+      ni molestias a personas o bienes, **y se puede bajar hasta 50 m entrenando
       aterrizajes forzosos**, a 150 m de cualquier persona, vehículo,
       embarcación u obstáculo artificial.
+
+      *Fundamento: Real Decreto 552/2014.*
     etiquetas: [Normativa]
 
 

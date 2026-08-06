@@ -37,14 +37,16 @@ tarjetas:
 
   - id: sao-ide-125-supervivencia
     tipo: basica
-    anverso: ¿Qué exige **SAO.IDE.125** al volar sobre zonas de rescate difícil?
+    anverso: ¿Qué equipo hay que llevar al volar sobre **zonas donde el rescate sería difícil**?
     reverso: |
-      **Equipo de salvamento y señalización adecuado al área sobrevolada.**
+      **Equipo de salvamento y señalización adecuado al área sobrevolada**: como
+      mínimo **ELT** o **PLB** registrado, equipo para hacer señales de socorro
+      y equipo de supervivencia apropiado a la ruta.
 
-      Su AMC1 concreta el mínimo: **ELT** o **PLB** registrado, equipo para
-      hacer señales de socorro y equipo de supervivencia apropiado a la ruta.
-      Sobre agua aplica además **SAO.IDE.120**: valorar antes del vuelo los
-      riesgos de un amerizaje.
+      Sobre agua, además, hay que valorar antes del vuelo los riesgos de un
+      amerizaje.
+
+      *Fundamento: Part-SAO, SAO.IDE.125 y su AMC1; sobre agua, SAO.IDE.120.*
     etiquetas: [Normativa]
 
   - id: peso-del-equipo-de-supervivencia

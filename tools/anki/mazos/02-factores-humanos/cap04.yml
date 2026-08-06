@@ -103,13 +103,13 @@ tarjetas:
 
   - id: sao-op-150-oxigeno
     tipo: basica
-    anverso: ¿Qué exige **SAO.OP.150** sobre el oxígeno suplementario?
+    anverso: ¿Cuándo es obligatorio el **oxígeno suplementario**?
     reverso: |
-      **Que el piloto al mando garantice su uso cuando determine que la falta de
-      oxígeno puede disminuir las facultades de los ocupantes.**
+      **Cuando el piloto al mando determine que su falta puede disminuir las
+      facultades de los ocupantes**; y si no puede determinarlo, **siempre por
+      encima de 10.000 ft** de altitud de presión.
 
-      Y el **AMC1 SAO.OP.150**: cuando no pueda determinarlo, se usa siempre por
-      encima de **10.000 ft** de altitud de presión.
+      *Fundamento: Part-SAO, SAO.OP.150, y su AMC1.*
     etiquetas: [Normativa]
 
   - id: oxigeno-de-noche-5000

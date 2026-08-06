@@ -53,13 +53,15 @@ tarjetas:
 
   - id: sera-5001-minimos-vfr
     tipo: basica
-    anverso: ¿Qué visibilidad mínima exige **SERA.5001** en clase G bajo 3.000 ft AMSL / 1.000 ft AGL?
+    anverso: ¿Qué visibilidad mínima exige el VFR en **clase G** por debajo de 3.000 ft AMSL o 1.000 ft AGL?
     reverso: |
       **5 km, libre de nubes y con la superficie a la vista.**
 
       Puede reducirse a **1.500 m** para vuelos a 140 kt o menos, si la
       velocidad permite ver tráfico y obstáculos a tiempo. Entrar en IMC sin
       habilitación instrumental es infracción grave.
+
+      *Fundamento: SERA.5001.*
     etiquetas: [Normativa]
 
   - id: despegar-con-visibilidad-marginal

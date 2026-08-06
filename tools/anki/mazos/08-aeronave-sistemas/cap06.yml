@@ -55,7 +55,7 @@ tarjetas:
 
   - id: sao-ide-105-equipamiento
     tipo: basica
-    anverso: ¿Qué instrumentos exige **SAO.IDE.105** como mínimo?
+    anverso: ¿Qué **instrumentos mínimos** debe llevar un planeador?
     reverso: |
       **Hora (horas y minutos), altitud de presión y velocidad indicada** para
       todo planeador; **más rumbo magnético** si es motorizado.
@@ -63,6 +63,8 @@ tarjetas:
       Para nubes o noche se añaden **velocidad vertical**, **actitud o
       viraje-resbale** y **rumbo magnético**. El vuelo nocturno exige además
       luces de navegación, anticolisión, aterrizaje y cabina.
+
+      *Fundamento: Part-SAO, SAO.IDE.105 a) y b).*
     etiquetas: [Normativa]
 
 

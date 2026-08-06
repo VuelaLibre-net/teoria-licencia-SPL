@@ -52,13 +52,15 @@ tarjetas:
 
   - id: sujecion-de-la-bateria
     tipo: basica
-    anverso: ¿Qué fuerzas debe aguantar el soporte de la batería (**CS 22.561**)?
+    anverso: ¿Qué fuerzas debe aguantar el **soporte de la batería**?
     reverso: |
       **15 g hacia delante, 9 g hacia abajo, 7,5 g hacia arriba y 6 g lateral.**
 
       Nada de gomas elásticas ni montajes improvisados: soportes o cinchas
       aprobados por el fabricante, comprobados en cada prevuelo. La batería es
       un proyectil de varios kilos.
+
+      *Fundamento: CS 22.561(d), con las fuerzas de CS 22.561(b)(1).*
     etiquetas: [Normativa]
 
 

@@ -64,12 +64,13 @@ tarjetas:
   - id: prioridad-de-paso-sera-3210
     tipo: cloze
     texto: |
-      Orden de prioridad de paso de **SERA.3210**, de mayor a menor:
-      {{c1::globos}} > {{c2::planeadores}} > {{c3::dirigibles}} >
-      {{c4::aeronaves con motor}}.
+      Orden de **prioridad de paso**, de mayor a menor: {{c1::globos}} >
+      {{c2::planeadores}} > {{c3::dirigibles}} > {{c4::aeronaves con motor}}.
     extra: |
       El planeador tiene prioridad sobre todo aerodino propulsado y **cede el
       paso a los globos**. Nunca justifica descuidar la vigilancia visual.
+
+      *Fundamento: SERA.3210.*
 
   - id: parapentes-y-alas-delta
     tipo: basica

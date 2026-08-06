@@ -22,13 +22,15 @@ tarjetas:
 
   - id: sao-op-150-08
     tipo: basica
-    anverso: ¿Qué exige **SAO.OP.150** y qué concreta su AMC1?
+    anverso: ¿Quién decide si se usa **oxígeno suplementario**, y con qué criterio por defecto?
     reverso: |
-      **Que el piloto al mando garantice el uso de oxígeno cuando determine que
-      su falta puede deteriorar las facultades de los ocupantes.**
+      **El piloto al mando, que debe garantizar su uso cuando determine que su
+      falta puede deteriorar las facultades de los ocupantes.**
 
-      El **AMC1**: cuando no pueda valorarlo, oxígeno siempre que la altitud de
-      presión supere los **10.000 ft**.
+      Si no puede valorarlo, el criterio por defecto es **oxígeno siempre que la
+      altitud de presión supere los 10.000 ft**.
+
+      *Fundamento: Part-SAO, SAO.OP.150, y su AMC1.*
     etiquetas: [Normativa]
 
   - id: eds-ahorro
