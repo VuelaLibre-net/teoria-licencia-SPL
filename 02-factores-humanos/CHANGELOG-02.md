@@ -16,6 +16,10 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.13] — 7 de agosto de 2026
+
+**Qué releer:** **nada.** El único cambio es el enlace del apéndice del syllabus y su QR; ni el texto ni las figuras cambian.
+
 ### Maqueta y producción
 
 * **Apéndice del syllabus, «Ponte a prueba»** — el enlace pasa de `/tests/` a `/examenes/`; el PDF añade un QR hacia la misma página. No cambia lo que se estudia.
@@ -53,7 +57,6 @@ rompe la compilación.
 ### Añadido
 
 * **cap02, alcohol** — el tercer punto de ese AMC, que faltaba: **nada de alcohol durante el vuelo**. El resumen recoge además el matiz «o el límite nacional, si es más estricto», que el cuerpo ya explicaba.
-
 
 ## [1.0-rc.9] — 27 de julio de 2026
 

@@ -16,6 +16,8 @@ rompe la compilación.
 
 ## [En curso]
 
+## [0.9.5] — 7 de agosto de 2026
+
 **Qué releer:** **cap06, arcos de colores del anemómetro y figura del FLARM; cap07 y cap11, ubicación de dos figuras; cap08 y cap09, la sigla del certificado de aeronavegabilidad; cap13, primer párrafo.** En cap06 se añade el arco blanco, que faltaba. En cap07 la figura de los conectores pasa junto al tipo manual que ilustra, con su referencia `@fig` y un pie que ya no compara los dos tipos. En cap11 se adelanta a la descripción del sistema. En cap13 se matiza que «la mayoría» de los paracaídas de planeador son de apertura manual.
 
 ### Añadido

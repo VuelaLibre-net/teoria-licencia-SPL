@@ -16,6 +16,10 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.8] — 7 de agosto de 2026
+
+**Qué releer:** **cap01, comparativa con la aviación general.** «Avión de turismo» pasa a «avión ligero de aviación general»; las cifras no cambian.
+
 ### Cambiado
 
 * **cap01, comparativa con la aviación general** — «un avión de turismo, entre 7 y 8» pasa a «un avión ligero de aviación general, como un Cessna 172 o una Piper PA-28, entre 7 y 8»: *avión de turismo* no es categoría formal y el ejemplo aterriza la cifra.

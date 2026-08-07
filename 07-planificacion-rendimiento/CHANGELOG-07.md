@@ -16,6 +16,10 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.3] — 7 de agosto de 2026
+
+**Qué releer:** **cap04, resumen.** «Avioneta» pasa a «avión ligero de aviación general» en la viñeta de los motoveleros; lo que se declara no cambia.
+
 ### Cambiado
 
 * **cap04, resumen, motoveleros (TMG)** — «las mismas reglas que una avioneta» pasa a «las mismas reglas que un avión ligero de aviación general», por coherencia con el libro 05 y porque *avioneta* no es término formal.
