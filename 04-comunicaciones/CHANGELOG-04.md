@@ -16,6 +16,10 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.15] — 7 de agosto de 2026
+
+**Qué releer:** **nada.** El único cambio es el enlace del apéndice del syllabus y su QR; ni el texto ni las figuras cambian.
+
 ### Maqueta y producción
 
 * **Apéndice del syllabus, «Ponte a prueba»** — el enlace pasa de `/tests/` a `/examenes/`; el PDF añade un QR hacia la misma página. No cambia lo que se estudia.

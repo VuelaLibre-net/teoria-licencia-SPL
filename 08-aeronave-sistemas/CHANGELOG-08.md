@@ -16,7 +16,9 @@ rompe la compilación.
 
 ## [En curso]
 
-**Qué releer:** **cap06, arcos de colores del anemómetro; cap07 y cap11, ubicación de dos figuras; cap08 y cap09, la sigla del certificado de aeronavegabilidad; cap13, primer párrafo.** En cap06 se añade el arco blanco, que faltaba. En cap07 la figura de los conectores pasa junto al tipo manual que ilustra, con su referencia `@fig` y un pie que ya no compara los dos tipos. En cap11 se adelanta a la descripción del sistema. En cap13 se matiza que «la mayoría» de los paracaídas de planeador son de apertura manual.
+## [0.9.5] — 7 de agosto de 2026
+
+**Qué releer:** **cap06, arcos de colores del anemómetro y figura del FLARM; cap07 y cap11, ubicación de dos figuras; cap08 y cap09, la sigla del certificado de aeronavegabilidad; cap13, primer párrafo.** En cap06 se añade el arco blanco, que faltaba. En cap07 la figura de los conectores pasa junto al tipo manual que ilustra, con su referencia `@fig` y un pie que ya no compara los dos tipos. En cap11 se adelanta a la descripción del sistema. En cap13 se matiza que «la mayoría» de los paracaídas de planeador son de apertura manual.
 
 ### Añadido
 
@@ -24,6 +26,7 @@ rompe la compilación.
 
 ### Corregido
 
+* **cap06, figura de la unidad FLARM** (`#fig-08-cap06-4-2-ver-y-evitar`) — el rótulo «encima» quedaba pegado al círculo de las once del anillo de direcciones, de modo que el LED rojo parecía ser el suyo. El pie dice que el tráfico está **abajo** a las once, así que la figura contradecía al texto justo en lo que venía a explicar. Ahora «encima» lleva su propio testigo, apagado, separado del anillo.
 * **cap08 y cap09, sigla del certificado de aeronavegabilidad** — cuatro apariciones de `CoA` pasan a `CofA`, la forma que la 0.9.1 ya fijó en el glosario y que usa el libro 01. Una de ellas era el **título** del apartado de cap09 («El CofA y el ARC: la "ITV" del cielo»), que se contradecía con el párrafo de cierre del propio apartado y con el post-it, escritos ya en la forma nueva.
 
 ### Maqueta y producción
