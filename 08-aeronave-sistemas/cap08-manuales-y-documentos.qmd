@@ -37,7 +37,7 @@ La normativa europea de operaciones con veleros distingue entre lo que debe ir e
 **En el aeródromo o lugar de operación (disponibles):**
 
 * Certificado de matrícula (CoR).
-* Certificado de aeronavegabilidad (CoA) con sus anexos y el certificado de revisión (ARC).
+* Certificado de aeronavegabilidad (CofA) con sus anexos y el certificado de revisión (ARC).
 * Certificado de niveles de ruido (si es un motovelero).
 * Licencia de estación de radio de la aeronave (si lleva equipo de radio).
 * Seguro de responsabilidad civil en vigor.
