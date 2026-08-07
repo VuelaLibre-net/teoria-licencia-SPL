@@ -36,10 +36,23 @@ Las tomas de presión son un imán para los insectos. Un nido de araña en el pi
 
 La esfera del anemómetro lleva marcas de color que resumen las limitaciones de velocidad del planeador:
 
-* **Arco verde**: rango de operación normal, desde 1,1 veces la velocidad de pérdida hasta la **V~RA~**, la velocidad máxima en aire turbulento (CS 22.1545). No la confundas con la velocidad de maniobra (V~A~): esa es un límite estructural que no se marca en la esfera (se estudia en el **Libro 5 — Principios de vuelo**, capítulo 5).
-* **Arco amarillo**: rango de precaución, de la V~RA~ a la V~NE~. Solo con aire en calma y movimientos de mando suaves.
-* **Línea roja radial**: la V~NE~ (Velocidad Nunca Exceder). Es un límite absoluto, nunca un objetivo.
-* **Triángulo amarillo**: en muchos veleros marca la velocidad de aproximación recomendada con masa máxima sin lastre.
+::: {.arco-blanco}
+**Arco blanco**: sólo lo llevan los planeadores con flaps (capítulo 5). Marca el rango de uso de las posiciones **positivas**, desde 1,1 veces la velocidad de pérdida con los flaps en la posición de aterrizaje hasta la **V~FE~**, la velocidad máxima con flaps extendidos. Ocupa la parte baja de la esfera, solapado con el arco verde: bajar flaps por encima de la V~FE~ puede dañar el flap y su mando. Las posiciones **negativas** son otra cosa: sirven precisamente para correr entre térmicas, se usan muy por encima de ese arco y sus límites no están en la esfera, sino en la placa de limitaciones y en el Manual de Vuelo.
+:::
+
+::: {.arco-verde}
+**Arco verde**: rango de operación normal, desde 1,1 veces la velocidad de pérdida hasta la **V~RA~**, la velocidad máxima en aire turbulento (CS 22.1545). No la confundas con la velocidad de maniobra (V~A~): esa es un límite estructural que no se marca en la esfera (se estudia en el **Libro 5 — Principios de vuelo**, capítulo 5).
+:::
+
+::: {.arco-amarillo}
+**Arco amarillo**: rango de precaución, de la V~RA~ a la V~NE~. Solo con aire en calma y movimientos de mando suaves.
+:::
+
+::: {.arco-rojo}
+**Línea roja radial**: la V~NE~ (Velocidad Nunca Exceder). Es un límite absoluto, nunca un objetivo.
+:::
+
+El **triángulo amarillo** que llevan muchos veleros no es un arco, sino una marca suelta: la velocidad de aproximación recomendada con masa máxima sin lastre.
 
 ![Anemómetro moderno ADI2, con indicadores de velocidad, altitud y velocidad vertical](imagenes/08-cap06-8-6-4-2-anemometro.png){#fig-08-cap06-8-6-4-2-anemometro}
 
@@ -78,7 +91,7 @@ Algunos planeadores montan además una brújula magnética y, como "instrumento"
 **Resumen del capítulo: instrumentos**
 
 * **Pitot y estática**: los sentidos del avión. El pitot (morro/cola) mide presión total; las estáticas (fuselaje), presión ambiente. Si se bloquean (insectos, agua), te quedas ciego de velocidad y altura.
-* **Anemómetro**: conoce tus arcos de color. Verde: normal, hasta la V~RA~ (velocidad máxima en aire turbulento). Amarillo: precaución, de la V~RA~ a la V~NE~ (solo aire calmo). Línea roja: V~NE~, peligro de muerte. Triángulo amarillo: velocidad de aproximación con masa máxima sin lastre.
+* **Anemómetro**: conoce tus arcos de color. Blanco (sólo con flaps): posiciones positivas, hasta la V~FE~; las negativas se usan más deprisa y su límite está en la placa, no en la esfera. Verde: normal, hasta la V~RA~ (velocidad máxima en aire turbulento). Amarillo: precaución, de la V~RA~ a la V~NE~ (solo aire calmo). Línea roja: V~NE~, peligro de muerte. Triángulo amarillo: velocidad de aproximación con masa máxima sin lastre.
 * **Equipamiento mínimo (SAO.IDE.105)**: hora, altitud de presión y velocidad indicada para todo planeador (más rumbo magnético si es motorizado). Para nubes o noche se añaden velocidad vertical, actitud/viraje-resbale y rumbo magnético.
 * **Altímetro**: recuerda calarlo. QNH para altitud sobre el nivel del mar (rutas, espacios aéreos); QFE para altura sobre el campo (circuito).
 * **Variómetro (energía total)**: la herramienta clave. Ignora los "palancazos" (que cambian velocidad por altura) y solo te dice si la masa de aire sube o baja.

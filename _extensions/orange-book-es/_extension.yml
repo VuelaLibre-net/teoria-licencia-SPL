@@ -6,6 +6,7 @@ contributes:
   formats:
     typst:
       include-in-header:
+        - arcos.typ
         - aviso-legal.typ
         - examen-qr.typ
         - ejercicio.typ

@@ -163,6 +163,14 @@ local function Div(d)
     return d.content
   end
 
+  -- Los arcos del anemómetro (cap06 del libro 8): el color es maqueta y el RAG
+  -- no lo ve; el texto ya abre diciendo qué arco es. El div se desenvuelve.
+  for _, arco in ipairs({ "arco-blanco", "arco-verde", "arco-amarillo", "arco-rojo" }) do
+    if d.classes:includes(arco) then
+      return d.content
+    end
+  end
+
   return d
 end
 
