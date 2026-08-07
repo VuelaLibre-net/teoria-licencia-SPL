@@ -278,9 +278,10 @@ artefactos han caducado (la retención del repositorio son **2 días**, así que
 implica recompilar). Y si el CI ya evaluó ese commit **y no salió verde**, la release **aborta**: un
 tag no publica un árbol que el CI ha rechazado.
 
-Con los 48 entregables —10 PDF, 10 EPUB, 10 Markdown para RAG, 9 paquetes web y 9 mazos Anki: los
-nueve libros más el manual completo, que no tiene ni web ni mazo— crea una **release en borrador**,
-todavía no visible al público.
+Con los 45 entregables —9 PDF, 9 EPUB, 9 Markdown para RAG, 9 paquetes web y 9 mazos Anki— crea una
+**release en borrador**, todavía no visible al público. El **manual completo no entra**: salió del CI
+y se compila en local con `make completo`, así que sus ficheros no existen entre los artefactos que
+la release recoge.
 
 Para terminar, **a mano**:
 
