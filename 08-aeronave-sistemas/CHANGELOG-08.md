@@ -16,10 +16,19 @@ rompe la compilación.
 
 ## [En curso]
 
-**Qué releer:** **cap07 y cap11, ubicación de dos figuras; cap13, primer párrafo.** En cap07 la figura de los conectores pasa junto al tipo manual que ilustra, con su referencia `@fig` y un pie que ya no compara los dos tipos. En cap11 se adelanta a la descripción del sistema. En cap13 se matiza que «la mayoría» de los paracaídas de planeador son de apertura manual.
+**Qué releer:** **cap06, arcos de colores del anemómetro; cap07 y cap11, ubicación de dos figuras; cap08 y cap09, la sigla del certificado de aeronavegabilidad; cap13, primer párrafo.** En cap06 se añade el arco blanco, que faltaba. En cap07 la figura de los conectores pasa junto al tipo manual que ilustra, con su referencia `@fig` y un pie que ya no compara los dos tipos. En cap11 se adelanta a la descripción del sistema. En cap13 se matiza que «la mayoría» de los paracaídas de planeador son de apertura manual.
+
+### Añadido
+
+* **cap06, «Los arcos de colores del anemómetro» y su post-it** — el **arco blanco**, que no estaba descrito: rango de uso de las posiciones positivas de flap, de 1,1 V~S0~ a la V~FE~, superpuesto a la parte baja del arco verde. Se advierte de que las posiciones negativas, las de correr entre térmicas (capítulo 5), quedan fuera del arco y su límite sale de la placa de limitaciones y del Manual de Vuelo, no de la esfera. Los arcos se reordenan como en la esfera, de despacio a deprisa —blanco, verde, amarillo, roja—, en el apartado y en el post-it, y el triángulo amarillo pasa a párrafo aparte: es una marca suelta, no un arco.
+
+### Corregido
+
+* **cap08 y cap09, sigla del certificado de aeronavegabilidad** — cuatro apariciones de `CoA` pasan a `CofA`, la forma que la 0.9.1 ya fijó en el glosario y que usa el libro 01. Una de ellas era el **título** del apartado de cap09 («El CofA y el ARC: la "ITV" del cielo»), que se contradecía con el párrafo de cierre del propio apartado y con el post-it, escritos ya en la forma nueva.
 
 ### Maqueta y producción
 
+* **cap06, arcos del anemómetro** — cada arco se compone sobre el color que describe, con tinta que contraste (envoltorios `arco-*` nuevos: `arcos.typ` en el PDF, CSS en el EPUB, desenvueltos en el Markdown para RAG). El CSS del paquete web vive en vuelalibre.net y va en su propio commit.
 * **Apéndice del syllabus, «Ponte a prueba»** — el enlace pasa de `/tests/` a `/examenes/`; el PDF añade un QR hacia la misma página. No cambia lo que se estudia.
 
 ## [0.9.1] — 2 de agosto de 2026

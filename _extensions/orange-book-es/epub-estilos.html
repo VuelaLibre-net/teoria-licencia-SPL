@@ -159,6 +159,52 @@ div.ejercicio > :last-child {
   margin-bottom: 0;
 }
 
+/* Los arcos de colores del anemómetro (cap06 del libro 8): cada párrafo va
+ * sobre el color del arco que describe, con tinta que contraste. Los mismos
+ * colores que arcos.typ en el PDF: verde y rojo, los de las señales luminosas
+ * de la Torre; amarillo, el del borde del post-it. El blanco lleva borde gris
+ * porque sobre fondo blanco no se vería. No son admonitions: aquí el color no
+ * clasifica, ES el contenido. */
+div.arco-blanco,
+div.arco-verde,
+div.arco-amarillo,
+div.arco-rojo {
+  border-radius: 2px;
+  padding: 0.7em 0.9em;
+  margin: 0.9em 0;
+}
+
+div.arco-blanco > :last-child,
+div.arco-verde > :last-child,
+div.arco-amarillo > :last-child,
+div.arco-rojo > :last-child {
+  margin-bottom: 0;
+}
+
+div.arco-blanco {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #969696;
+}
+
+div.arco-verde {
+  background-color: #2e7d32;
+  color: #ffffff;
+  border: 1px solid #1b5e20;
+}
+
+div.arco-amarillo {
+  background-color: #fbc02d;
+  color: #000000;
+  border: 1px solid #c49000;
+}
+
+div.arco-rojo {
+  background-color: #c62828;
+  color: #ffffff;
+  border: 1px solid #8e1b1b;
+}
+
 /* La entradilla: violeta y cuerpo menor, como el rol `mas-alla-tag` del tema
  * AsciiDoc original. Es un color distinto de los cuatro de las admonitions a
  * propósito, para que no se confunda con ellas. */

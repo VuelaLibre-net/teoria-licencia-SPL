@@ -16,6 +16,10 @@ rompe la compilación.
 
 ## [En curso]
 
+### Cambiado
+
+* **cap01, comparativa con la aviación general** — «un avión de turismo, entre 7 y 8» pasa a «un avión ligero de aviación general, como un Cessna 172 o una Piper PA-28, entre 7 y 8»: *avión de turismo* no es categoría formal y el ejemplo aterriza la cifra.
+
 ### Maqueta y producción
 
 * **Apéndice del syllabus, «Ponte a prueba»** — el enlace pasa de `/tests/` a `/examenes/`; el PDF añade un QR hacia la misma página. No cambia lo que se estudia.

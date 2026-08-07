@@ -16,6 +16,10 @@ rompe la compilación.
 
 ## [En curso]
 
+### Cambiado
+
+* **cap04, resumen, motoveleros (TMG)** — «las mismas reglas que una avioneta» pasa a «las mismas reglas que un avión ligero de aviación general», por coherencia con el libro 05 y porque *avioneta* no es término formal.
+
 ### Maqueta y producción
 
 * **Apéndice del syllabus, «Ponte a prueba»** — el enlace pasa de `/tests/` a `/examenes/`; el PDF añade un QR hacia la misma página. No cambia lo que se estudia.

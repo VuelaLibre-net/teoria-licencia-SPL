@@ -20,6 +20,12 @@ local ENVOLTORIOS = {
   creditos = "creditos",
   ["mas-alla"] = "mas-alla",
   ejercicio = "ejercicio",
+  -- Los arcos del anemómetro (cap06 del libro 8): párrafo sobre el color del
+  -- arco que describe. Funciones en arcos.typ.
+  ["arco-blanco"] = "arco-blanco",
+  ["arco-verde"] = "arco-verde",
+  ["arco-amarillo"] = "arco-amarillo",
+  ["arco-rojo"] = "arco-rojo",
   ["aviso-legal"] = "aviso-legal",
   aval = "aval",
   ["licencia-cc"] = "licencia-cc",
