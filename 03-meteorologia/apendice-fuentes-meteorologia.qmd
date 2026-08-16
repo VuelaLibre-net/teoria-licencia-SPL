@@ -13,7 +13,7 @@ Esta relación reúne algunas de las herramientas de pronóstico meteorológico 
 **Herramientas específicas para vuelo a vela — gratuitas o con versiones gratuitas y mejoras de pago**
 
 * **RASP** (Regional Atmospheric Soaring Prediction). Desarrollado por el Dr. Jack Glendening, utiliza el modelo WRF a alta resolución. Incluye predicción de onda en algunas configuraciones regionales. Cobertura variable según la zona geográfica.
-  [https://www.drjack.info](https://www.drjack.info)
+  [http://www.drjack.info](http://www.drjack.info)
   — *Instancia para la península ibérica*, mantenida por la comunidad, con predicción, curva de estado y observaciones:
   [https://raspuri.mooo.com](https://raspuri.mooo.com)
 

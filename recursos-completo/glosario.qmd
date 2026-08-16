@@ -579,7 +579,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Coordenada que mide la distancia angular al norte o al sur del Ecuador (latitud 0º), formada por los paralelos. Un minuto de latitud equivale a una milla náutica.
 
 **LCL (Nivel de Condensación por Elevación / Lifted Condensation Level)**
-: Altitud a la que una parcela de aire, al ser elevada adiabáticamente, alcanza su punto de saturación y comienza a condensar. En la práctica, es la altura de la base de los cúmulos. En el sondeo Skew-T se obtiene donde la curva de temperatura de la parcela intersecta la curva del punto de rocío.
+: Altitud a la que una parcela de aire, al ser elevada adiabáticamente, alcanza su punto de saturación y comienza a condensar. En la práctica, es la altura de la base de los cúmulos. En el sondeo Skew-T se construye cruzando dos líneas: la adiabática seca trazada desde la temperatura en superficie y la línea de relación de mezcla saturante trazada desde el punto de rocío en superficie. No debe confundirse con el punto en que las curvas de temperatura y de punto de rocío se juntan, que señala una capa ya saturada (niebla, estratos o nube existente). Estimación rápida: (T − Td) × 400 = altura en pies.
 
 **LFC (Nivel de Convección Libre / Level of Free Convection)**
 : Altitud por encima de la cual una parcela de aire levantada artificialmente se vuelve más cálida que el entorno y asciende libremente sin necesidad de fuerza externa. Su cruce indica que la convección puede dispararse de forma autónoma. Si es demasiado bajo en un día caluroso, el riesgo de sobredesarrollo hacia Cb es alto.
@@ -671,8 +671,8 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 **NOTAM (Notice to Airmen)**
 : Aviso distribuido por telecomunicaciones que contiene información aeronáutica cuyo conocimiento oportuno es esencial para las operaciones.
 
-**NSC (No Significant Clouds)**
-: Indicador en METAR/TAF que señala ausencia de nubes por debajo de 5.000 ft y ausencia de cumulonimbus. A diferencia de CAVOK, no implica visibilidad ≥ 10 km.
+**NSC (No Significant Cloud)**
+: Indicador en METAR/TAF que señala ausencia de nubes por debajo de 5.000 ft (o de la altitud mínima de sector más alta, la que sea mayor) y ausencia de cumulonimbus y de cúmulos congestus. Sólo se usa cuando no procede CAVOK: a diferencia de éste, no implica visibilidad ≥ 10 km. No afirma que el cielo esté despejado, sino que ninguna nube es operativamente significativa; para el cielo realmente despejado están `SKC` (**Sky Clear**), que escribe un observador humano, y `NCD` (**No Cloud Detected**), que emite una estación automática cuyos sensores no han detectado nubes.
 
 **Nudo (kt)**
 : Unidad de velocidad igual a una milla náutica por hora (1 kt = 1,852 km/h).
@@ -817,6 +817,9 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 
 **Sondeo termodinámico (Skew-T / Stüve)**
 : Diagrama que representa el perfil vertical de temperatura, temperatura del punto de rocío y viento en la atmósfera, obtenido mediante radiosondeo. Permite al piloto estimar la altura de las bases de cúmulos (LCL), el techo térmico, el riesgo de sobredesarrollo (LFC) y los índices de estabilidad (K-Index, CAPE, LI).
+
+**SPECI (Special Aerodrome Report)**
+: Informe meteorológico especial de aeródromo, con el mismo formato que el METAR, emitido fuera del ciclo regular en cuanto una condición cambia de forma significativa: viraje o aumento del viento, cruce de un umbral operativo de visibilidad o de base de nubes, aparición de tormenta. Prevalece sobre el METAR vigente por ser posterior.
 
 **SPIC (Alumno piloto al mando / Student Pilot-in-Command)**
 : Alumno piloto que actúa como piloto al mando en un vuelo con un instructor que únicamente observa y no influye en el control de la aeronave.
