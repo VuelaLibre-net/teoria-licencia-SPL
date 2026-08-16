@@ -86,6 +86,8 @@ ejemplo completa, SPECI, las cuatro octas y varios indicadores que faltaban.
 * **cap10, figura del sondeo** — el fichero `03-cap03-indices-estabilidad.jpg` pasa a llamarse
   `03-cap10-indices-estabilidad.jpg`. El nombre venía de una reutilización y sólo lo usa el
   capítulo 10.
+* **Apéndice «Fuentes de meteorología»** — el enlace de RASP pasa a `http://`. El sitio del Dr. Jack
+  no sirve por HTTPS —el puerto 443 ni siquiera responde—, así que el enlace anterior no abría nada.
 * **cap10, tablas** — las dos tablas del capítulo reciben su `{#tbl-…}` y se citan desde la prosa.
   Sin identificador, Quarto no las convierte en float y **el pie no llega al PDF**, aunque en la web
   sí salga. Efecto lateral buscado: el PDF del libro pasa a tener índice de tablas, que hasta ahora
