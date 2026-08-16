@@ -108,7 +108,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes de la meteo
 : Índice de estabilidad atmosférica que combina el gradiente vertical de temperatura entre 850 hPa y 500 hPa con la humedad en niveles medios. Es el indicador diario más usado por los volovelistas: K < 5 (día débil), 5–15 (buenas térmicas), 15–20 (excelente), 20–30 (excelente con chubascos), > 30 (alta probabilidad de tormentas). Las bandas altas concuerdan con la escala de George de probabilidad de tormenta de masa de aire (15–20 ≈ 20 %, 31–35 ≈ 60–80 %); las bajas son una adaptación al vuelo a vela, porque por debajo de 15 la escala meteorológica no distingue: para ella son todo días sin tormenta.
 
 **LCL (Nivel de Condensación por Elevación / Lifted Condensation Level)**
-: Altitud a la que una parcela de aire, al ser elevada adiabáticamente, alcanza su punto de saturación y comienza a condensar. En la práctica, es la altura de la base de los cúmulos. En el sondeo Skew-T se obtiene donde la curva de temperatura de la parcela intersecta la curva del punto de rocío.
+: Altitud a la que una parcela de aire, al ser elevada adiabáticamente, alcanza su punto de saturación y comienza a condensar. En la práctica, es la altura de la base de los cúmulos. En el sondeo Skew-T se construye cruzando dos líneas: la adiabática seca trazada desde la temperatura en superficie y la línea de relación de mezcla saturante trazada desde el punto de rocío en superficie. No debe confundirse con el punto en que las curvas de temperatura y de punto de rocío se juntan, que señala una capa ya saturada (niebla, estratos o nube existente). Estimación rápida: (T − Td) × 400 = altura en pies.
 
 **LFC (Nivel de Convección Libre / Level of Free Convection)**
 : Altitud por encima de la cual una parcela de aire levantada artificialmente se vuelve más cálida que el entorno y asciende libremente sin necesidad de fuerza externa. Su cruce indica que la convección puede dispararse de forma autónoma. Si es demasiado bajo en un día caluroso, el riesgo de sobredesarrollo hacia Cb es alto.
@@ -146,8 +146,8 @@ Este glosario contiene las definiciones y acrónimos más relevantes de la meteo
 **Niebla de radiación**
 : Niebla que se forma durante las noches despejadas de otoño e invierno cuando el suelo pierde calor por radiación hacia el espacio, enfría el aire en contacto hasta el punto de rocío y produce condensación. Puede ser muy densa y persistir hasta mediados de la mañana. Especialmente frecuente en anticiclones invernales con vientos flojos.
 
-**NSC (No Significant Clouds)**
-: Indicador en METAR/TAF que señala ausencia de nubes por debajo de 5.000 ft y ausencia de cumulonimbus. A diferencia de CAVOK, no implica visibilidad ≥ 10 km.
+**NSC (No Significant Cloud)**
+: Indicador en METAR/TAF que señala ausencia de nubes por debajo de 5.000 ft (o de la altitud mínima de sector más alta, la que sea mayor) y ausencia de cumulonimbus y de cúmulos congestus. Sólo se usa cuando no procede CAVOK: a diferencia de éste, no implica visibilidad ≥ 10 km. No afirma que el cielo esté despejado, sino que ninguna nube es operativamente significativa; para el cielo realmente despejado están `SKC` (**Sky Clear**), que escribe un observador humano, y `NCD` (**No Cloud Detected**), que emite una estación automática cuyos sensores no han detectado nubes.
 
 **Onda de montaña (wave soaring)**
 : Oscilación ondulatoria del flujo de aire que se genera a sotavento de una cordillera cuando el viento es perpendicular a la cresta, supera un umbral de velocidad y existe una capa estable a la altura de la cresta. Permite el ascenso laminar hasta grandes altitudes. Los altocúmulos lenticulares son su señal visual. Los rotores en la base son el principal peligro.
@@ -169,6 +169,9 @@ Este glosario contiene las definiciones y acrónimos más relevantes de la meteo
 
 **Sondeo termodinámico (Skew-T / Stüve)**
 : Diagrama que representa el perfil vertical de temperatura, temperatura del punto de rocío y viento en la atmósfera, obtenido mediante radiosondeo. Permite al piloto estimar la altura de las bases de cúmulos (LCL), el techo térmico, el riesgo de sobredesarrollo (LFC) y los índices de estabilidad (K-Index, CAPE, LI).
+
+**SPECI (Special Aerodrome Report)**
+: Informe meteorológico especial de aeródromo, con el mismo formato que el METAR, emitido fuera del ciclo regular en cuanto una condición cambia de forma significativa: viraje o aumento del viento, cruce de un umbral operativo de visibilidad o de base de nubes, aparición de tormenta. Prevalece sobre el METAR vigente por ser posterior.
 
 **Stau**
 : Efecto complementario al Foehn: acumulación de nubes y precipitación intensa en la ladera de barlovento de una cordillera, donde el aire húmedo asciende y condensa. Mientras en barlovento llueve (Stau), en sotavento el cielo puede estar despejado y la temperatura es varios grados más alta (Foehn).

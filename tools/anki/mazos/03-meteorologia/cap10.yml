@@ -19,8 +19,38 @@ tarjetas:
   - id: codigos-fg-br-cavok
     tipo: cloze
     texto: |
-      En un METAR, {{c1::CAVOK}} indica visibilidad ≥ 10 km y sin nubes por
-      debajo de 5.000 ft; {{c2::FG}} indica niebla y {{c3::BR}}, neblina.
+      En un METAR, {{c1::CAVOK}} indica visibilidad ≥ 10 km, sin nubes por
+      debajo de 5.000 ft y sin {{c2::Cb ni TCU a cualquier nivel}};
+      {{c3::FG}} indica niebla y {{c4::BR}}, neblina.
+
+  - id: speci
+    tipo: basica
+    anverso: ¿Qué es un **SPECI** y qué relación tiene con el METAR?
+    reverso: |
+      **El informe especial de aeródromo: mismo formato que el METAR, pero
+      emitido fuera del ciclo regular porque algo ha cambiado de forma
+      significativa.**
+
+      Viento que vira o arrecia, visibilidad o base de nubes que cruzan un
+      umbral operativo, aparición de tormenta. Es posterior al METAR vigente,
+      así que prevalece sobre él.
+
+  - id: octas-cobertura
+    tipo: cloze
+    texto: |
+      La cobertura nubosa se codifica en octavos: {{c1::FEW}} son 1–2 octas,
+      {{c2::SCT}} son 3–4, {{c3::BKN}} son 5–7 y {{c4::OVC}} son 8.
+
+  - id: viento-verdadero-magnetico
+    tipo: basica
+    anverso: ¿A qué norte va referida la dirección del viento en un METAR o TAF escrito?
+    reverso: |
+      **Al norte verdadero.**
+
+      El viento que da la Torre o el ATIS por radio va referido al **norte
+      magnético**, igual que la numeración de las pistas, para poder
+      compararlo con el rumbo de pista sin corregir nada.
+    etiquetas: [Normativa]
 
   - id: sigwx
     tipo: basica
@@ -29,22 +59,36 @@ tarjetas:
       **Frentes, zonas de turbulencia y engelamiento.** Cruciales para
       planificar rutas largas.
 
+  - id: sigmet-airmet-nivel
+    tipo: basica
+    anverso: ¿En qué se diferencian **SIGMET** y **AIRMET**?
+    reverso: |
+      **En el nivel y la severidad: el SIGMET cubre cualquier nivel de la FIR;
+      el AIRMET, fenómenos menos severos por debajo del FL100 (FL150 en zona
+      montañosa).**
+
+      El GAMET no es una alerta, sino un pronóstico de área en lenguaje
+      abreviado para niveles bajos.
+
   - id: aemet-ama-fuente-oficial
     tipo: basica
     anverso: ¿Cuál es la fuente **oficial y vinculante** del briefing meteorológico?
     reverso: |
       **AEMET, y su plataforma aeronáutica AMA** (Autoservicio Meteorológico
-      Aeronáutico): METAR, TAF, alertas y NOTAM meteorológicos.
+      Aeronáutico): METAR, SPECI, TAF, SIGMET y AIRMET.
 
-      Windy, Meteoblue, Skysight, Topmeteo, RASP o Meteo Parapente son realidad
-      operativa diaria, pero nunca sustituyen al briefing oficial.
+      Los NOTAM no: los publica el servicio de información aeronáutica (AIS,
+      en España ENAIRE). Windy, Meteoblue, Skysight, Topmeteo, RASP o Meteo
+      Parapente son realidad operativa diaria, pero nunca sustituyen al
+      briefing oficial.
     etiquetas: [Airmanship]
 
   - id: cruzar-fuentes
     tipo: basica
     anverso: ¿Basta una sola fuente meteorológica?
     reverso: |
-      **No: cruza mapa de superficie + satélite + previsión local.**
+      **No: cruza METAR y TAF del campo y de los alternos + SIGWX + sondeo del
+      día + lo que ves a pie de pista.**
 
       Si la meteorología pinta dudosa, el mejor vuelo es el que se queda en
       tierra.
@@ -66,33 +110,47 @@ tarjetas:
 #
 # POST-IT (3 viñetas)
 #  [1]
-#     **METAR y TAF**: Tus boletines de cabecera. METAR = foto actual (cada 30 min). TAF =
-#     pronóstico (para 9, 24 o 30h). Aprende a descodificarlos fluidamente (CAVOK indica
-#     visibilidad ≥10 km y sin nubes por debajo de 5000 ft; FG indica niebla; BR neblina).
+#     **METAR, SPECI y TAF**: Tus boletines de cabecera. METAR = foto actual (cada 30 min);
+#     SPECI = foto urgente, fuera de ciclo, porque algo ha cambiado; TAF = pronóstico (para 9,
+#     24 o 30 h). Aprende a descodificarlos fluidamente (CAVOK indica visibilidad ≥ 10 km, sin
+#     nubes por debajo de 5.000 ft y sin Cb ni TCU **a cualquier nivel**; FG indica niebla; BR
+#     neblina; las octas van FEW 1–2, SCT 3–4, BKN 5–7, OVC 8).
 #  [2]
 #     **Mapas Significativos (SIGWX)**: Muestran frentes, zonas de turbulencia y engelamiento.
-#     Cruciales para planificar rutas largas.
+#     Cruciales para planificar rutas largas. Los avisos se distinguen por nivel: SIGMET a
+#     cualquiera, AIRMET por debajo del FL100 (FL150 en montaña).
 #  [3]
-#     **Toma de decisiones**: No te fíes de una sola fuente. Cruza datos: mapa de superficie +
-#     satélite + previsión local. Si la meteo pinta dudosa, el mejor vuelo es el que se queda en
-#     tierra (no-go).
+#     **Toma de decisiones**: No te fíes de una sola fuente. Cruza datos: METAR y TAF del campo y
+#     de los alternos + SIGWX + sondeo del día + lo que ves a pie de pista. Si la meteo pinta
+#     dudosa, el mejor vuelo es el que se queda en tierra (no-go).
 #
-# RECUADROS (3)
-#  [Regla de oro 1]
+# RECUADROS (4)
+#  [Normativa 1]
+#     En el METAR y el TAF escritos, la dirección del viento va referida al **norte verdadero**.
+#     El viento que te da la Torre o el ATIS por radio va referido al **norte magnético**, igual
+#     que la numeración de las pistas, para que puedas compararlo directamente con el rumbo de la
+#     pista sin corregir nada. Es la misma cifra medida contra dos nortes distintos, y es punto de
+#     examen habitual. El libro de Comunicaciones lo trata en detalle.
+#  [Regla de oro 2]
 #     El día de convección excepcional — conocido coloquialmente como «día termonuclear» en el
 #     argot de competición — tiene firma numérica precisa: K-Index entre 15 y 20, CAPE entre 1.000
-#     y 2.500 J/kg, LI negativo, temperatura a 850 hPa varios grados por encima de la media en
-#     superficie, y vientos flojos. Busca estos índices directamente en el sondeo del día:
-#     gratuitamente en la Universidad de Wyoming, AEMET (AMA) o Windy; con más detalle soaring en
-#     Skysight, Topmeteo o Meteo Parapente.
-#  [Airmanship 2]
+#     y 2.500 J/kg, LI negativo, temperatura a 850 hPa varios grados por encima de **su media
+#     climatológica para esa fecha**, y vientos flojos. Ojo con ese último dato, que se memoriza
+#     mal: se compara con la climatología, no con la superficie. A 850 hPa —unos 1.500 m— el aire
+#     está en un día normal entre 10 y 15 °C **por debajo** del suelo, y que estuviera por encima
+#     significaría una inversión brutal, es decir, el día en que no hay una sola térmica. Busca
+#     estos índices directamente en el sondeo del día, en cualquiera de las fuentes del apéndice.
+#  [Airmanship 3]
 #     AEMET —y su plataforma aeronáutica AMA (**Autoservicio Meteorológico Aeronáutico**)— es
-#     siempre la fuente pública, oficial y legalmente vinculante para tu planificación pre-vuelo
-#     (METAR, TAF, alertas, NOTAMs meteorológicos). Las plataformas generalistas como Windy o
-#     Meteoblue y las especializadas en vuelo a vela como Skysight, Topmeteo, los modelos RASP o
-#     Meteo Parapente se mencionan en este manual porque forman parte de la realidad operativa
-#     diaria, pero nunca deben sustituir al briefing meteorológico oficial de seguridad.
-#  [Seguridad 3]
+#     siempre la fuente pública, oficial y legalmente vinculante para tu planificación pre-vuelo:
+#     METAR, SPECI, TAF, SIGMET y AIRMET. Los NOTAM no salen de ahí: los publica el servicio de
+#     información aeronáutica (AIS, en España ENAIRE), y los que difunden información
+#     meteorológica —el SNOWTAM del estado de la pista, el ASHTAM de cenizas volcánicas— se nutren
+#     de datos de AEMET pero se emiten por AIS. Las plataformas generalistas y las especializadas
+#     en vuelo a vela que recoge el apéndice se mencionan en este manual porque forman parte de la
+#     realidad operativa diaria, pero nunca deben sustituir al briefing meteorológico oficial de
+#     seguridad.
+#  [Seguridad 4]
 #     Si a pie de pista la meteorología real difiere del pronóstico favorable —nubosidad baja
 #     inesperada, viento variable fuerte, bruma densa— prevalece siempre lo que ves. Un vuelo
 #     cancelado nunca fue un accidente. La cultura **No-Go** no es cobardía: es el criterio que

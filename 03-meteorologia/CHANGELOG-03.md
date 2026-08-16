@@ -16,6 +16,91 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.16] — 16 de agosto de 2026
+
+**Qué releer:** **cap10 entero, y las entradas «LCL» y «NSC» del glosario.** Una auditoría externa
+encontró cuatro errores técnicos en el apartado de sondeos, y uno de ellos —la temperatura a 850 hPa—
+era físicamente imposible. El LCL estaba mal definido, el LFC estaba traducido como «nivel de
+condensación» y la regla del LCL alto inducía a error. El apartado de METAR y TAF gana la cadena de
+ejemplo completa, SPECI, las cuatro octas y varios indicadores que faltaban.
+
+### Corregido
+
+* **cap10, sondeos (10.3)** — el LCL **no** es donde se juntan la curva de temperatura y la del
+  punto de rocío: eso es una capa ya saturada. Se describe la construcción correcta —adiabática
+  seca desde la temperatura, línea de relación de mezcla saturante desde el punto de rocío— y se
+  enlaza con la Regla de oro de cap03, que es su aproximación aritmética. Se añade que, con la
+  temperatura máxima prevista, lo que se obtiene es el CCL, que es el criterio que ya usaba el techo
+  térmico.
+* **cap10, sondeos (10.3)** — el umbral fijo de «LCL por encima de 3.000 m ⇒ térmica seca» se
+  sustituye por lo que de verdad decide si hay cúmulos: la posición del LCL **relativa al techo
+  térmico**. Un LCL a 3.000 m con el techo a 4.000 da un día magnífico.
+* **cap10, sondeos (10.3)** — el `LFC` pasa a llamarse «nivel de convección libre», como ya lo
+  llamaba el glosario; hasta ahora el capítulo daba el mismo nombre castellano a dos siglas
+  distintas. La definición del techo térmico deja de ser circular.
+* **cap10, recuadro «Regla de oro»** — la temperatura a 850 hPa se compara con **su media
+  climatológica para la fecha**, no con la superficie: a 1.500 m el aire está normalmente 10-15 °C
+  por debajo del suelo, y lo contrario describiría el día sin una sola térmica. Los umbrales de CAPE
+  del capítulo se alinean con los del glosario (vigilancia por encima de 2.500, convección severa
+  probable por encima de 3.500).
+* **cap10, tabla METAR vs TAF** — la frecuencia de emisión del TAF pasa a los valores de OACI
+  Anexo 3: cada 3 h los de 9 h de validez, cada 6 h los de 24 y 30 h. El «1-2 veces al día» anterior
+  no correspondía a ningún caso.
+* **cap10, SIGWX (10.2)** — SIGMET, AIRMET y GAMET se separan en tres viñetas. El límite de FL100
+  o FL150 es del AIRMET; el SIGMET cubre cualquier nivel de la FIR.
+* **cap10, recuadro «Airmanship»** — se retiran los NOTAM de la lista de productos de AEMET: los
+  publica el servicio AIS (ENAIRE), aunque SNOWTAM y ASHTAM se nutran de datos de AEMET.
+* **cap10, CAVOK y NSC** — CAVOK abandona el retroacrónimo «Ceiling And Visibility OK», como ya
+  habían hecho los glosarios, y precisa que la ausencia de Cb y TCU es **a cualquier nivel**. `NSC`
+  pasa a «No Significant Cloud», en singular, y recoge la condición de la altitud mínima de sector.
+* **Glosario, «LCL»** — misma corrección de la construcción gráfica que en cap10.
+* **Glosario, «NSC»** — singular, con TCU, la altitud mínima de sector y la aclaración de que sólo
+  se usa cuando no procede CAVOK.
+* **cap10, ortotipografía** — «No te fíes» con tilde, «9, 24 o 30 horas» y «FL100 o FL150» sin la
+  tilde que la RAE retiró en 2010, y «Regla de oro» con la capitalización del recuadro.
+
+### Añadido
+
+* **cap10, ejemplo de decodificación (10.1.1)** — se imprime la **cadena METAR completa** antes de
+  descomponerla. Faltaba: el apartado enseñaba a leer los grupos ya segmentados, que es la parte
+  fácil, y la última viñeta hablaba de un `=` que no aparecía en ninguna parte.
+* **cap10, ejemplo de decodificación (10.1.1)** — el `OVC040` del ejemplo se explota en vez de
+  disimularse: es un **no-go** para vuelo a vela, porque sin sol no hay convección. Y lista de los
+  grupos frecuentes que el ejemplo no trae (`G`, `VRB`, `V`, `VV///`, `NSW`, `RE`, `WS`, `AUTO`, `M`,
+  `A2992`, `COR`, `AMD`).
+* **cap10, METAR y TAF (10.1)** — el **SPECI**, que no se mencionaba ni una vez; las cuatro octas
+  completas en tabla (`FEW`, `SCT`, `BKN`, `OVC`), de las que sólo estaban las dos del ejemplo;
+  `NCD` y `SKC`, que se confunden con `NSC`; `FM` entre los indicadores de cambio del TAF; y la
+  precisión de que `PROB30` y `PROB40` son los dos únicos que existen.
+* **cap10, recuadro «Normativa» nuevo** — el viento del METAR y el TAF va referido al norte
+  verdadero, y el de la Torre al magnético. Punto de examen habitual, hasta ahora sólo tratado en el
+  libro de Comunicaciones.
+* **Glosario** — entrada «SPECI».
+* **Mazo Anki de cap10** — cuatro tarjetas nuevas (SPECI, octas, viento verdadero frente a
+  magnético, SIGMET frente a AIRMET). Las tres que repetían errores del capítulo —el CAVOK sin la
+  condición de Cb y TCU, el NOTAM atribuido a AEMET y el «mapa de superficie + satélite»— quedan
+  corregidas sin cambiar su identificador, para que la reimportación actualice y no duplique.
+
+### Maqueta y producción
+
+* **cap10, figura del sondeo** — el fichero `03-cap03-indices-estabilidad.jpg` pasa a llamarse
+  `03-cap10-indices-estabilidad.jpg`. El nombre venía de una reutilización y sólo lo usa el
+  capítulo 10.
+* **cap10, tablas** — las dos tablas del capítulo reciben su `{#tbl-…}` y se citan desde la prosa.
+  Sin identificador, Quarto no las convierte en float y **el pie no llega al PDF**, aunque en la web
+  sí salga. Efecto lateral buscado: el PDF del libro pasa a tener índice de tablas, que hasta ahora
+  salía vacío y por eso no se imprimía.
+
+### Pendiente
+
+* **cap10, recuadro «Regla de oro»** — queda por revisar con un instructor de travesía el fondo del
+  heurístico, no ya su coherencia interna: para vuelo a vela puede ser discutible que un CAPE de
+  1.000-2.500 J/kg sea la firma del día excepcional y no la del día con riesgo de sobredesarrollo.
+  Los *boomers* clásicos suelen tener CAPE modesto y lo que los define es una capa adiabática seca
+  profunda.
+* **cap10** — quedan fuera de esta versión los epígrafes del syllabus sobre imágenes de satélite,
+  radar meteorológico y mapas de superficie y de altura. El resumen del capítulo ya no los promete.
+
 ## [1.0-rc.15] — 7 de agosto de 2026
 
 **Qué releer:** **nada.** El único cambio es el enlace del apéndice del syllabus y su QR; ni el texto ni las figuras cambian.
