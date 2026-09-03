@@ -141,7 +141,7 @@ Además del torno, el remolque por avión y el autolanzamiento, existen otros do
 
 Independientemente del método de lanzamiento, existen reglas de seguridad comunes que deben verificarse antes de cada vuelo:
 
-1. **Ganchos de remolque adecuados:** si el planeador dispone de gancho de morro (para aerotow) y gancho de centro de gravedad (para torno), asegúrate de usar el correcto para cada método. Usar el gancho equivocado puede generar geometrías de tracción peligrosas o impedir la suelta.
+1. **Gancho autorizado:** comprueba en el AFM y en las placas qué gancho corresponde a cada método. La disposición habitual es morro para remolque por avión y gancho próximo al CG para torno El destinado al torno debe disponer de suelta automática (*back-release*).
 2. **Velocidades de remolque (V~T~):** nunca excedas la velocidad máxima de remolque especificada en el AFM. Un remolque demasiado rápido genera oscilaciones que pueden superar los límites estructurales del planeador. Uno demasiado lento pone al remolcador al borde de la pérdida.
 3. **Comprobaciones previas al enganche:** antes de enganchar el cable, verifica:
   
@@ -159,7 +159,7 @@ Realiza siempre una comprobación de mandos cruzada (**cross-check**) con otro p
 
 Antes de cada jornada de vuelo y en cada inspección prevuelo individual, el piloto y el personal de pista deben verificar el estado de los equipos de remolque y torno:
 
-* **Ganchos de remolque:** comprueba visualmente que las mandíbulas del gancho de morro (para remolque por avión) y de CG (para torno) estén limpias de tierra, óxido o grasa vieja. Acciona la anilla de suelta desde la cabina y verifica que el gancho se abre de forma instantánea y completa, y que el muelle lo retorna a su posición cerrada.
+* **Ganchos de remolque:** comprueba que los ganchos instalados estén limpios de tierra, óxido o grasa vieja. Acciona la anilla de suelta desde la cabina y verifica que el mecanismo abre por completo y vuelve con franqueza a su posición cerrada. La función de cada gancho es la indicada por el AFM y las placas del planeador.
 * **Anillas de remolque:** inspecciona las anillas metálicas en los extremos del cable. En Europa, el sistema estándar es el **doble anillo Tost**. Comprueba que las anillas no presenten grietas, abolladuras, soldaduras desgastadas o deformaciones elípticas.
 * **Cables y cuerdas de remolque:** revisa la cuerda de nailon o el cable de acero en toda su longitud. Debe estar libre de nudos. **Un solo nudo en la cuerda de remolque reduce su resistencia estructural hasta en un 50 %** y crea un punto de alta fricción propenso a la rotura. Comprueba que no haya filamentos deshilachados y que la cuerda no presente decoloración por exposición prolongada a la radiación UV.
 
@@ -219,5 +219,5 @@ No comiences la carrera de despegue sin haber verbalizado o repasado mentalmente
 * **Remolque (aerotow)**: mantén la «posición alta» (rueda del remolcador en el horizonte). Si el remolcador alabea sus alas, es una orden de suelta inmediata: tiene una emergencia. Si no puedes soltar, vuela a un lado y alabea. Si se forma un **cable flojo (slack line)**, corrígelo con un resbale suave o con aerofrenos graduales. Entrena la maniobra **«Boxing the Wake»** a partir de 300 m AGL.
 * **Autolanzamiento (self-launch)**: ofrece total independencia. Cuidado con el par de cabeceo del motor sobre mástil: aplicar potencia pica el morro y reducirla o cortarla lo **encabrita**. Respeta la altura de seguridad de 300 m para arrancar el motor en vuelo; por debajo, concéntrate en el aterrizaje fuera de campo.
 * **Emergency briefing**: briefing mental y verbalizado antes de cada despegue. Define velocidades de seguridad y acciones precisas ante fallos a baja, media y alta altura según el viento.
-* **Comprobaciones previas**: ganchos correctos, velocidades respetadas, mandos libres y comprobación cruzada. Realiza la inspección de cuerdas (sin nudos), anillas dobles Tost compatibles y fusibles de seguridad (**weak links**) de resistencia por código de colores (ej. azul = 600 daN para monoplazas en torno).
+* **Comprobaciones previas**: gancho autorizado por el AFM, velocidades respetadas, mandos libres y comprobación cruzada. Revisa también las cuerdas (sin nudos), las anillas dobles Tost y el fusible de seguridad (**weak link**) que corresponda al planeador.
 :::

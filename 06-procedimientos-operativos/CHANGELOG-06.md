@@ -16,6 +16,16 @@ rompe la compilación.
 
 ## [En curso]
 
+**Qué releer:** **cap02, «Reglas generales de seguridad» e «Inspección del equipo de lanzamiento».** La selección del gancho se basa ahora en el AFM y las placas; morro para avión y CG para torno queda como disposición habitual, no como regla universal.
+
+### Corregido
+
+* **cap02, ganchos de remolque** — se aclara que el gancho autorizado para torno debe disponer de suelta automática y que la función no puede deducirse solo de la posición del mecanismo.
+
+### Documentación
+
+* **Bibliografía** — añade CS-22 Amendment 3 y el catálogo Tost 2026-3 como fuentes de la corrección.
+
 ## [1.0-rc.2] — 7 de agosto de 2026
 
 **Qué releer:** **nada.** El único cambio es el enlace del apéndice del syllabus y su QR; ni el texto ni las figuras cambian.
