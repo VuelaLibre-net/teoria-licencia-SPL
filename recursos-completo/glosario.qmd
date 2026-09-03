@@ -288,7 +288,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Nube de desarrollo vertical extremo que puede alcanzar la tropopausa. Representa el peligro meteorológico más grave para la aviación ligera: turbulencia severa, granizo, rayos, lluvia torrencial y microbursts. La distancia de seguridad recomendada es de al menos 10–20 NM.
 
 **Cúpula (Canopy)**
-: Cubierta transparente de plexiglás de la cabina. Incorpora pestillos de bloqueo, ventilación y un mecanismo de suelta de emergencia que libera la cúpula completa para permitir el salto en paracaídas.
+: Cubierta transparente de plexiglás de la cabina. Incorpora pestillos de bloqueo y ventilación, y forma parte de la salida de emergencia. Según el diseño, el procedimiento puede exigir abrirla, desprenderla o accionar varios mandos en el orden indicado por el AFM.
 
 **Curva polar (polar de velocidades)**
 : Gráfica característica de cada modelo de planeador que relaciona la velocidad horizontal indicada (eje X, en km/h) con la tasa de descenso vertical (eje Y, en m/s) en condiciones de aire en calma. De ella se extraen la velocidad de mínimo descenso (vértice superior) y la velocidad de mejor planeo (tangente desde el origen). Es el "DNI" del planeador y la referencia para adaptar la velocidad al viento y a las zonas de ascenso o descenso.
@@ -492,10 +492,10 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Pronóstico meteorológico de área para vuelos de aviación general por debajo del FL100, emitido por los proveedores meteorológicos nacionales. Informa de peligros como engelamiento, turbulencia, nieblas y tormentas en ruta.
 
 **Gancho de remolque (Towhook)**
-: Mecanismo de enganche y suelta rápida del cable de lanzamiento, habitualmente del fabricante Tost. El gancho de morro se usa para remolque por avión; el gancho de CG, para torno, e incorpora suelta automática (**back-release**) si el cable tira hacia atrás y abajo.
+: Mecanismo de enganche y suelta rápida del cable de lanzamiento, a menudo fabricado por Tost. El AFM y las placas indican qué gancho corresponde a cada método. En la configuración habitual, el de morro se destina al remolque por avión y el próximo al CG al torno; todo gancho autorizado para torno debe disponer de suelta automática (**back-release**).
 
 **Gelcoat**
-: Capa exterior de resina de poliéster que protege la estructura de fibra contra la humedad y da el acabado liso característico. Sus enemigos son la radiación UV y los cambios bruscos de temperatura, que provocan el craqueado superficial.
+: Capa exterior de resina de poliéster que da a muchas estructuras de fibra su acabado liso y ayuda a proteger el laminado del ambiente. La radiación UV y los cambios de temperatura favorecen con el tiempo el craqueado superficial.
 
 **GM (Material Guía / Guidance Material)**
 : Material explicativo no vinculante que ayuda a interpretar los requisitos y los medios aceptables de cumplimiento.
@@ -564,7 +564,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Licencia europea para determinadas operaciones no comerciales con aeronaves ligeras, sujeta a las atribuciones y limitaciones aplicables.
 
 **Larguero (Spar)**
-: Viga principal que recorre el ala de punta a punta y soporta las cargas de flexión en vuelo. Un daño estructural en el larguero deja el ala fuera de servicio.
+: Principal elemento resistente longitudinal del ala. Soporta buena parte de las cargas de flexión, mientras el revestimiento y otros elementos comparten cargas según el diseño. Un daño real o sospechado obliga a dejar el planeador fuera de servicio hasta su evaluación.
 
 **Las 7 S**
 : Regla nemotécnica utilizada para evaluar sistemáticamente la aptitud de un campo desde el aire en un aterrizaje fuera de campo: **Size** (Tamaño), **Shape** (Forma), **Slope** (Pendiente), **Surface** (Superficie), **Surroundings** (Alrededores/Obstáculos), **Stock** (Ganado/Animales) y **Sun** (Posición del Sol).
@@ -726,7 +726,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Baliza portátil de activación manual que el piloto lleva consigo (bolsillo o arnés del paracaídas) y que transmite en 406 MHz a la red satelital de rescate.
 
 **Poliuretano (PU)**
-: Sistema de pintura acrílica de poliuretano que sustituye cada vez más al gelcoat de poliéster en los veleros modernos. Se aplica en capa fina (menos peso) y es más elástico, así que resiste mucho mejor el craqueado por UV y conserva el brillo más años; a cambio, deja menos margen para reparar a base de lijar y pulir.
+: Sistema de pintura usado como acabado exterior en algunos veleros modernos. No se mantiene ni se repara igual que el gelcoat de poliéster, por lo que limpiadores, ceras, pulimentos y métodos de reparación deben ajustarse al manual de mantenimiento.
 
 **PPL (Licencia de Piloto Privado / Private Pilot Licence)**
 : Licencia que permite ejercer atribuciones de piloto privado dentro de las condiciones aplicables.

@@ -16,6 +16,20 @@ rompe la compilación.
 
 ## [En curso]
 
+**Qué releer:** **cap01 completo y Glosario, entradas «Cúpula», «Gancho de remolque», «Gelcoat», «Larguero» y «Poliuretano».** Se corrigen varias reglas demasiado generales sobre estructura, acabados, salida de emergencia y ganchos. La imagen de cabina se conserva, pero ahora queda claro que su numeración pertenece solo a la configuración dibujada.
+
+### Corregido
+
+* **cap01, materiales y acabados** — la fibra de carbono deja de compararse de forma absoluta con el acero; madera, tela y aluminio ganan indicios concretos para la inspección; y el cuidado del gelcoat o la pintura pasa a depender del manual, sin pesos, plazos ni productos universales.
+* **cap01, larguero** — ya no se le atribuyen todas las cargas de flexión ni se declara irrecuperable cualquier ala dañada. Un daño real o sospechado deja el planeador fuera de servicio hasta su evaluación.
+* **cap01, cúpula** — la salida de emergencia se explica como un procedimiento propio de cada modelo. La figura de cabina no se retira: su pie y el texto inmediato advierten de que los mandos 16 y 3 no forman una secuencia general.
+* **cap01, ganchos de lanzamiento** — el AFM y las placas pasan a ser la regla principal. La pareja Tost E 85/G 88 queda como configuración habitual, y la exigencia de *back-release* se vincula al gancho autorizado para torno.
+* **Glosario y mazo Anki de cap01** — adoptan las mismas condiciones y eliminan las formulaciones antiguas.
+
+### Documentación
+
+* **Bibliografía** — añade CS-22 Amendment 3, el manual de estructuras de la FAA, el catálogo Tost 2026-3 y la explicación del larguero publicada por Alexander Schleicher.
+
 ## [0.9.5] — 7 de agosto de 2026
 
 **Qué releer:** **cap06, arcos de colores del anemómetro y figura del FLARM; cap07 y cap11, ubicación de dos figuras; cap08 y cap09, la sigla del certificado de aeronavegabilidad; cap13, primer párrafo.** En cap06 se añade el arco blanco, que faltaba. En cap07 la figura de los conectores pasa junto al tipo manual que ilustra, con su referencia `@fig` y un pie que ya no compara los dos tipos. En cap11 se adelanta a la descripción del sistema. En cap13 se matiza que «la mayoría» de los paracaídas de planeador son de apertura manual.
