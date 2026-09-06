@@ -70,7 +70,7 @@ La cúpula de plexiglás es, junto con tus ojos, tu principal defensa anticolisi
 
 La ilustración siguiente representa una configuración concreta. Los números 16 y 3 solo sirven para leer este esquema: **no son una secuencia válida para cualquier planeador**. En la aeronave que vayas a volar, manda el AFM y el marcado de sus propios mandos.
 
-![Ejemplo de una cabina con dos mandos para la apertura de emergencia; su numeración no debe trasladarse a otro planeador](imagenes/08-cap01-8-1-2-1-cabina-de-un-planeador.png){#fig-08-cap01-8-1-2-1-cabina-de-un-planeador fig-alt="Esquema de una cabina con los mandos numerados. Una advertencia destaca los mandos 16 y 3 como parte de una configuración concreta de apertura de emergencia, no como procedimiento general."}
+![Ejemplo de una cabina con dos mandos rojos para la apertura de emergencia.](imagenes/08-cap01-8-1-2-1-cabina-de-un-planeador.png){#fig-08-cap01-8-1-2-1-cabina-de-un-planeador fig-alt="Esquema de una cabina con los mandos numerados. Una advertencia destaca los mandos 16 y 3 como parte de una configuración concreta de apertura de emergencia, no como procedimiento general."}
 
 ## El gancho de remolque
 
