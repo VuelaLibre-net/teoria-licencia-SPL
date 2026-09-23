@@ -141,7 +141,7 @@ Además del torno, el remolque por avión y el autolanzamiento, existen otros do
 
 Independientemente del método de lanzamiento, existen reglas de seguridad comunes que deben verificarse antes de cada vuelo:
 
-1. **Gancho autorizado:** comprueba en el AFM y en las placas qué gancho corresponde a cada método. La disposición habitual es morro para remolque por avión y gancho próximo al CG para torno El destinado al torno debe disponer de suelta automática (*back-release*).
+1. **Gancho autorizado:** comprueba en el AFM y en las placas qué gancho corresponde a cada método. La disposición habitual es morro para remolque por avión y gancho próximo al CG para torno. El destinado al torno debe disponer de suelta automática (*back-release*).
 2. **Velocidades de remolque (V~T~):** nunca excedas la velocidad máxima de remolque especificada en el AFM. Un remolque demasiado rápido genera oscilaciones que pueden superar los límites estructurales del planeador. Uno demasiado lento pone al remolcador al borde de la pérdida.
 3. **Comprobaciones previas al enganche:** antes de enganchar el cable, verifica:
   
@@ -159,7 +159,7 @@ Realiza siempre una comprobación de mandos cruzada (**cross-check**) con otro p
 
 Antes de cada jornada de vuelo y en cada inspección prevuelo individual, el piloto y el personal de pista deben verificar el estado de los equipos de remolque y torno:
 
-* **Ganchos de remolque:** comprueba que los ganchos instalados estén limpios de tierra, óxido o grasa vieja. Acciona la anilla de suelta desde la cabina y verifica que el mecanismo abre por completo y vuelve con franqueza a su posición cerrada. La función de cada gancho es la indicada por el AFM y las placas del planeador.
+* **Ganchos de remolque:** comprueba que los ganchos instalados estén limpios de tierra, óxido o grasa vieja. Acciona la anilla de suelta desde la cabina y verifica que el mecanismo abre por completo y vuelve a su posición cerrada sin quedarse a medias. La función de cada gancho es la indicada por el AFM y las placas del planeador.
 * **Anillas de remolque:** inspecciona las anillas metálicas en los extremos del cable. En Europa, el sistema estándar es el **doble anillo Tost**. Comprueba que las anillas no presenten grietas, abolladuras, soldaduras desgastadas o deformaciones elípticas.
 * **Cables y cuerdas de remolque:** revisa la cuerda de nailon o el cable de acero en toda su longitud. Debe estar libre de nudos. **Un solo nudo en la cuerda de remolque reduce su resistencia estructural hasta en un 50 %** y crea un punto de alta fricción propenso a la rotura. Comprueba que no haya filamentos deshilachados y que la cuerda no presente decoloración por exposición prolongada a la radiación UV.
 
