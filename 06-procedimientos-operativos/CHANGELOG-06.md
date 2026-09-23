@@ -16,6 +16,8 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.3] — 23 de septiembre de 2026
+
 **Qué releer:** **cap02, «Reglas generales de seguridad» e «Inspección del equipo de lanzamiento».** La selección del gancho se basa ahora en el AFM y las placas; morro para avión y CG para torno queda como disposición habitual, no como regla universal.
 
 ### Corregido
