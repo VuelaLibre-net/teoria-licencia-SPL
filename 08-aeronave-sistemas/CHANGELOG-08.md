@@ -16,6 +16,8 @@ rompe la compilación.
 
 ## [En curso]
 
+## [0.9.6] — 23 de septiembre de 2026
+
 **Qué releer:** **cap01 completo y Glosario, entradas «Cúpula», «Gancho de remolque», «Gelcoat», «Larguero» y «Poliuretano».** Se corrigen varias reglas demasiado generales sobre estructura, acabados, salida de emergencia y ganchos. La imagen de cabina se conserva, pero ahora queda claro que su numeración pertenece solo a la configuración dibujada.
 
 ### Corregido
