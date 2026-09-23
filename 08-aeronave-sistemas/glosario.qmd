@@ -42,7 +42,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Conocimi
 : Especificaciones EASA aplicables al diseño y la certificación de planeadores y planeadores propulsados.
 
 **Cúpula (Canopy)**
-: Cubierta transparente de plexiglás de la cabina. Incorpora pestillos de bloqueo, ventilación y un mecanismo de suelta de emergencia que libera la cúpula completa para permitir el salto en paracaídas.
+: Cubierta transparente de plexiglás de la cabina. Incorpora pestillos de bloqueo y ventilación, y forma parte de la salida de emergencia. Según el diseño, el procedimiento puede exigir abrirla, desprenderla o accionar varios mandos en el orden indicado por el AFM.
 
 **EDS (Sistema de Oxígeno a Demanda / Electronic Delivery System)**
 : Sistema electrónico de suministro de oxígeno a demanda que detecta la inspiración del piloto y libera un pulso de oxígeno en ese instante, multiplicando la autonomía de la botella de oxígeno al interrumpir el flujo durante la exhalación.
@@ -72,16 +72,16 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Conocimi
 : Fenómeno físico de oscilaciones aeroelásticas autoexcitadas e inestables que afectan a las superficies sustentadoras o de control del planeador al superar la V~NE~, pudiendo destruir la estructura en segundos debido a la interacción del flujo de aire a alta velocidad con la flexibilidad estructural.
 
 **Gancho de remolque (Towhook)**
-: Mecanismo de enganche y suelta rápida del cable de lanzamiento, habitualmente del fabricante Tost. El gancho de morro se usa para remolque por avión; el gancho de CG, para torno, e incorpora suelta automática (**back-release**) si el cable tira hacia atrás y abajo.
+: Mecanismo de enganche y suelta rápida del cable de lanzamiento, a menudo fabricado por Tost. El AFM y las placas indican qué gancho corresponde a cada método. En la configuración habitual, el de morro se destina al remolque por avión y el próximo al CG al torno; todo gancho autorizado para torno debe disponer de suelta automática (**back-release**).
 
 **Gelcoat**
-: Capa exterior de resina de poliéster que protege la estructura de fibra contra la humedad y da el acabado liso característico. Sus enemigos son la radiación UV y los cambios bruscos de temperatura, que provocan el craqueado superficial.
+: Capa exterior de resina de poliéster que da a muchas estructuras de fibra su acabado liso y ayuda a proteger el laminado del ambiente. La radiación UV y los cambios de temperatura favorecen con el tiempo el craqueado superficial.
 
 **Hipoxia**
 : Estado fisiológico de deficiencia de oxígeno en las células y tejidos del cuerpo humano, provocado al volar a gran altura por la reducción de la presión parcial de oxígeno en la atmósfera. Existen cuatro tipos: hipóxica (baja presión atmosférica, la más frecuente en planeador), hipémica (transporte mermado por monóxido de carbono o tabaquismo), estancada (circulación reducida, por ejemplo por fuerzas G elevadas en virajes cerrados) e histotóxica (alcohol, drogas o medicamentos).
 
 **Larguero (Spar)**
-: Viga principal que recorre el ala de punta a punta y soporta las cargas de flexión en vuelo. Un daño estructural en el larguero deja el ala fuera de servicio.
+: Principal elemento resistente longitudinal del ala. Soporta buena parte de las cargas de flexión, mientras el revestimiento y otros elementos comparten cargas según el diseño. Un daño real o sospechado obliga a dejar el planeador fuera de servicio hasta su evaluación.
 
 **Lastre de agua (water ballast)**
 : Agua cargada en tanques específicos situados en las alas para aumentar la masa del planeador y su carga alar, desplazando la curva polar de velocidades hacia valores más altos para volar más rápido con el mismo ángulo de planeo.
@@ -108,7 +108,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Conocimi
 : Baliza portátil de activación manual que el piloto lleva consigo (bolsillo o arnés del paracaídas) y que transmite en 406 MHz a la red satelital de rescate.
 
 **Poliuretano (PU)**
-: Sistema de pintura acrílica de poliuretano que sustituye cada vez más al gelcoat de poliéster en los veleros modernos. Se aplica en capa fina (menos peso) y es más elástico, así que resiste mucho mejor el craqueado por UV y conserva el brillo más años; a cambio, deja menos margen para reparar a base de lijar y pulir.
+: Sistema de pintura usado como acabado exterior en algunos veleros modernos. No se mantiene ni se repara igual que el gelcoat de poliéster, por lo que limpiadores, ceras, pulimentos y métodos de reparación deben ajustarse al manual de mantenimiento.
 
 **Rigging (Montaje)**
 : Proceso de ensamblaje del planeador (fuselaje, alas y estabilizador) con la conexión de sus superficies de mando. Fase crítica de seguridad que exige método, ausencia de distracciones y verificación final con PCC.

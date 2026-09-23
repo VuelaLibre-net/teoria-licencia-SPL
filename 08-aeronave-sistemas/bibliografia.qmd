@@ -10,6 +10,8 @@ Apuntes de teoría de **Iñaqui Ulibarri García de la Cueva** para la Organizac
 
 * **Easy Access Rules for Sailplanes**. Agencia de la Unión Europea para la Seguridad Aérea (EASA). Compendio consolidado del Reglamento (UE) 2018/1976 —que contiene la **Part-SFCL** (licencias) y la **Part-SAO** (operaciones)— junto con sus AMC y GM.
   [https://www.easa.europa.eu/sites/default/files/dfu/Sailplane%20Rule%20Book.pdf](https://www.easa.europa.eu/sites/default/files/dfu/Sailplane%20Rule%20Book.pdf)
+* **CS-22 Amendment 3 — Sailplanes and Powered Sailplanes**. EASA, 2021; fichero corregido en 2022. Especificaciones de certificación empleadas para comprobar la salida de emergencia, los ganchos de lanzamiento y el efecto de la temperatura sobre la resistencia estructural.
+  [https://www.easa.europa.eu/en/document-library/certification-specifications/cs-22-amendment-3](https://www.easa.europa.eu/en/document-library/certification-specifications/cs-22-amendment-3)
 * **Reglamento de Ejecución (UE) n.º 923/2012 — SERA** (*Standardised European Rules of the Air*). Reglas del aire comunes para la Unión Europea (versión consolidada). En España se aplica mediante el Real Decreto 552/2014.
   [https://eur-lex.europa.eu/legal-content/ES/TXT/PDF/?uri=CELEX:02012R0923-20250501](https://eur-lex.europa.eu/legal-content/ES/TXT/PDF/?uri=CELEX:02012R0923-20250501)
 * **Ley 21/2003, de 7 de julio, de Seguridad Aérea**. Jefatura del Estado (España). Publicada en el BOE núm. 162, de 8 de julio de 2003. Marco legal nacional que complementa la normativa europea.
@@ -42,6 +44,12 @@ La OACI desarrolla las normas y métodos recomendados (SARPS) mediante 19 anexos
 
 * **Glider Flying Handbook (FAA-H-8083-13B)**. Federal Aviation Administration (FAA), U.S. Department of Transportation. Obra en dominio público; fuente de buena parte de las ilustraciones técnicas de la colección.
   [https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/glider_handbook](https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/glider_handbook)
+* **Aviation Maintenance Technician Handbook—Airframe (FAA-H-8083-31B)**. Federal Aviation Administration (FAA), 2023. Manual técnico de referencia para materiales compuestos, estructuras alares, inspección y reparación.
+  [https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/amt_airframe_hb_vol_1.pdf](https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/amt_airframe_hb_vol_1.pdf)
+* **Tost Catalog 2026-3**. TOST GmbH Flugzeuggerätebau. Características y mantenimiento de los ganchos E 85 y G 88.
+  [https://www.tost.de/wp-content/uploads/2026/03/tost_katalog_EN_2026-3_download.pdf](https://www.tost.de/wp-content/uploads/2026/03/tost_katalog_EN_2026-3_download.pdf)
+* **The Wingspar**. Alexander Schleicher GmbH. Explicación del reparto de las cargas de flexión y torsión entre larguero y revestimiento en sus alas.
+  [https://www.alexander-schleicher.de/en/service/technik/holm-im-fluegel/](https://www.alexander-schleicher.de/en/service/technik/holm-im-fluegel/)
 * **Methodik der Segelflugausbildung** (*Segelflugrechte*, Rev. 2). Deutscher Aero Club (DAeC), 2022. Metodología alemana de instrucción de vuelo a vela.
   [https://www.daec.de/media/files/2022/Sportarten/Segelflug/Methodik_der_Segelflugausbildung_Segelflugrechte_Rev.2.pdf](https://www.daec.de/media/files/2022/Sportarten/Segelflug/Methodik_der_Segelflugausbildung_Segelflugrechte_Rev.2.pdf)
 * **Vuelo sin motor: técnicas avanzadas**. Helmut Reichmann. Edición española de la obra de referencia internacional sobre la técnica del vuelo de distancia (orig. *Streckensegelflug*; ed. inglesa, *Cross-Country Soaring*). ISBN 978-84-283-1567-8.

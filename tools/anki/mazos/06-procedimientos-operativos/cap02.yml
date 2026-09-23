@@ -175,10 +175,9 @@ tarjetas:
 #     velocidades de seguridad y acciones precisas ante fallos a baja, media y alta altura según
 #     el viento.
 #  [6]
-#     **Comprobaciones previas**: ganchos correctos, velocidades respetadas, mandos libres y
-#     comprobación cruzada. Realiza la inspección de cuerdas (sin nudos), anillas dobles Tost
-#     compatibles y fusibles de seguridad (**weak links**) de resistencia por código de colores
-#     (ej. azul = 600 daN para monoplazas en torno).
+#     **Comprobaciones previas**: gancho autorizado por el AFM, velocidades respetadas, mandos
+#     libres y comprobación cruzada. Revisa también las cuerdas (sin nudos), las anillas dobles
+#     Tost y el fusible de seguridad (**weak link**) que corresponda al planeador.
 #
 # RECUADROS (10)
 #  [Seguridad 1]
