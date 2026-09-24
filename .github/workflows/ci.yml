@@ -846,3 +846,63 @@ jobs:
       with:
         name: manuales-spl-anki
         path: build/anki/
+
+    # --- EDICIÓN INGLESA (PILOTO) -------------------------------------------
+    # Va DESPUÉS de subir los artefactos españoles, y no es casual: comparte
+    # build/ con ellos, y release.yml exige exactamente 9 ficheros de cada tipo
+    # en cada artefacto. Compilada antes, se colaría en los artefactos que
+    # publica el release.
+    - name: Compilar la edición inglesa (piloto)
+      run: set -o pipefail && make en 2>&1 | tee build-en.log
+
+    - name: Verificar la edición inglesa
+      run: |
+        errores=0
+        libros=$(make -s libros-en)
+        [ -n "$libros" ] || { echo "::error::«make libros-en» no ha devuelto ningún libro"; exit 1; }
+        mkdir -p build/en
+        for libro in $libros; do
+          slug=$(basename "$libro")
+          for ext in pdf epub md web.tar.gz apkg; do
+            n=$(ls build/{pdf,epub,rag,web,anki}/"$slug"-*."$ext" 2>/dev/null | wc -l)
+            [ "$n" -eq 1 ] || { echo "::error::$slug: $n entregables .$ext (se espera 1)"; errores=1; }
+          done
+          # Se reúnen en build/en/ para subirlos como un artefacto aparte.
+          cp build/{pdf,epub,rag,web,anki}/"$slug"-* build/en/
+
+          pdf=$(ls build/pdf/"$slug"-*.pdf)
+          texto=$(pdftotext "$pdf" - 2>/dev/null)
+          [ "${#texto}" -ge 1000 ] || { echo "::error file=$pdf::No se pudo extraer texto"; errores=1; continue; }
+          # En positivo: numeración inglesa, índice con puntos guía, índice
+          # alfabético y versión en la portadilla.
+          grep -qE 'Chapter [0-9]+\.' <<<"$texto" || { echo "::error file=$pdf::Sin «Chapter N.»"; errores=1; }
+          grep -q '\. \. \. \.' <<<"$texto" || { echo "::error file=$pdf::Sin índice: ¿el H1 de introduction.qmd casa con front-matter-end?"; errores=1; }
+          grep -q 'Index' <<<"$texto" || { echo "::error file=$pdf::Falta el índice alfabético (Index)"; errores=1; }
+          grep -q 'Version ' <<<"$texto" || { echo "::error file=$pdf::Falta «Version» en la portadilla"; errores=1; }
+          # En negativo: nada de la maqueta en español.
+          restos=$(grep -oE 'Capítulo|Índice|Figura [0-9]|Tabla [0-9]|Versión|Última actualización|Motor tipográfico|EN REVISIÓN|EN DESARROLLO|CREANDO' <<<"$texto" | sort | uniq -c)
+          [ -z "$restos" ] || { echo "::error file=$pdf::Restos en español:"; echo "$restos"; errores=1; }
+
+          epub=$(ls build/epub/"$slug"-*.epub)
+          if unzip -p "$epub" 'EPUB/text/*.xhtml' | grep -q '?meta:'; then
+            echo "::error file=$epub::Shortcodes sin resolver"; errores=1
+          fi
+
+          rag=$(ls build/rag/"$slug"-*.md)
+          grep -qE '^> \*\*(Safety|Regulation|Golden rule|Airmanship)\*\*' "$rag" \
+            || { echo "::error file=$rag::Sin recuadros etiquetados en inglés"; errores=1; }
+          if grep -nE '<div|<span|^:::|@fig-|@tbl-|\{\{<|Estado editorial|Seguridad|Normativa|Regla de oro' "$rag"; then
+            echo "::error file=$rag::Maqueta sin traducir o restos en español"; errores=1
+          fi
+
+          web=$(ls build/web/"$slug"-*.web.tar.gz)
+          tar xzf "$web" -O manifest.json | python3 -c 'import json,sys; b=json.load(sys.stdin)["book"]; sys.exit(b.get("lang") != "en")' \
+            || { echo "::error file=$web::El manifiesto no declara lang: en"; errores=1; }
+        done
+        exit $errores
+
+    - name: Subir artefactos de la edición inglesa
+      uses: actions/upload-artifact@v7
+      with:
+        name: manuales-spl-en
+        path: build/en/

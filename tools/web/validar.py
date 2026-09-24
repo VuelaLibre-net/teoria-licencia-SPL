@@ -93,9 +93,11 @@ def validate_responsive_images(content: str, names: set[str], archive: Path) -> 
 
 def main() -> None:
     archives = sorted(Path("build/web").glob("*.web.tar.gz"))
-    if len(archives) != 9:
-        sys.exit(f"Se esperaban 9 paquetes web y hay {len(archives)}")
+    # Los recuentos (9 paquetes, 141 páginas) son de la edición española. La
+    # inglesa, en piloto, se valida igual pero no cuenta.
+    espanoles = 0
     total = 0
+    ingleses = 0
     for archive in archives:
         with tarfile.open(archive, "r:gz") as tar:
             names = {member.name for member in tar.getmembers() if member.isfile()}
@@ -121,13 +123,25 @@ def main() -> None:
                     validate_responsive_images(content, names, archive)
                 except ValueError as error:
                     sys.exit(str(error))
-            required = {"licencia.qmd", "dedicatoria.qmd", "reconocimientos.qmd"}
+            lang = book.get("lang", "es")
+            required = (
+                {"licence.qmd", "dedication.qmd", "acknowledgements.qmd"}
+                if lang == "en"
+                else {"licencia.qmd", "dedicatoria.qmd", "reconocimientos.qmd"}
+            )
             if not required.issubset({page.get("source") for page in pages}):
                 sys.exit(f"{archive}: faltan preliminares web obligatorios")
+            if lang == "en":
+                ingleses += 1
+                continue
+            espanoles += 1
             total += len(pages)
+    if espanoles != 9:
+        sys.exit(f"Se esperaban 9 paquetes web y hay {espanoles}")
     if total != 141:
         sys.exit(f"Se esperaban 141 páginas web y hay {total}")
-    print(f"9 paquetes web válidos con {total} páginas.")
+    extra = f" (y {ingleses} de la edición inglesa)" if ingleses else ""
+    print(f"9 paquetes web válidos con {total} páginas{extra}.")
 
 
 if __name__ == "__main__":

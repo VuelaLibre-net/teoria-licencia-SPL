@@ -1,0 +1,9 @@
+# How to Read This Book {.unnumbered}
+
+*Translation pending.*
+<!-- GUÍA-DE-LECTURA: desde esta marca hasta el final, el texto es idéntico en
+     los libros de la edición inglesa. -->
+
+::: {.callout-warning title="Safety"}
+*Translation pending.*
+:::

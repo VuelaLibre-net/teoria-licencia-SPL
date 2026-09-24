@@ -1,0 +1,59 @@
+---
+origen: 07-planificacion-rendimiento/cap01-masa-y-centro-de-gravedad.qmd
+---
+
+# Mass and centre of gravity
+
+> *Infrastructure test chapter: its text is a placeholder until the pilot translation. It exercises every construction the deliverables have to handle.*
+
+## The datum and the arm
+
+The **datum** is the reference line from which every arm is measured. A mass of 80 kg with an arm of −0.45 m gives a moment of −36 kg·m.
+
+@fig-07-cap01-envolvente-centrado shows the four cases worked out in this chapter, and @tbl-07-cap01-hoja-centrado a loading sheet.
+
+![The four loading cases against the permitted CG range.](imagenes/07-cap01-envolvente-centrado.png){#fig-07-cap01-envolvente-centrado fig-alt="Mass against CG position, with the permitted range shaded."}
+
+| Item | Mass (kg) | Arm (m) | Moment (kg·m) |
+|---|---:|---:|---:|
+| Glider | 300 | 0.60 | 180 |
+| Pilot | 80 | −0.45 | −36 |
+| **Total** | **380** | **0.38** | **144** |
+: Example loading sheet for a single-seater {#tbl-07-cap01-hoja-centrado}
+
+::: {.callout-warning title="Safety"}
+An aft CG can make a spin unrecoverable.
+:::
+
+::: {.callout-important title="Regulation"}
+The flight manual limits are mandatory.
+:::
+
+::: {.callout-tip title="Golden rule"}
+Weigh yourself with your parachute on.
+:::
+
+::: {.callout-note title="Airmanship"}
+Check the ballast before every flight, not only the first one of the day.
+:::
+
+::: {.ejercicio}
+**Exercise 1 — Fin ballast.**
+
+Where is the CG with 5 L of fin ballast?
+
+**Solution.** It moves aft to +0.373 m.
+:::
+
+::: {.mas-alla}
+## Competition loading
+
+[**↗ BEYOND THE EXAM.**]{.mas-alla-tag} Placeholder section for the "beyond the exam" wrapper.
+:::
+
+::: {.postit}
+**Chapter summary: mass and centre of gravity**
+
+* **Aft CG**: the most dangerous condition.
+* **Forward CG**: stable but less efficient.
+:::

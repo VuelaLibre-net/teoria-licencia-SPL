@@ -20,13 +20,28 @@ from pathlib import Path
 from imagenes import optimize_html_images
 
 
+# Con los nombres de fichero de las dos ediciones: la inglesa (en/) usa los
+# suyos, que acaban siendo los slugs de sus URL.
 EXCLUDED = {
     "index.qmd",
     "epigrafe.qmd",
     "colofon.qmd",
     "contracubierta.qmd",
+    "epigraph.qmd",
+    "colophon.qmd",
+    "back-cover.qmd",
 }
-PRELIMINAR = {"licencia.qmd", "dedicatoria.qmd", "reconocimientos.qmd"}
+PRELIMINAR = {
+    "licencia.qmd", "dedicatoria.qmd", "reconocimientos.qmd",
+    "licence.qmd", "dedication.qmd", "acknowledgements.qmd",
+}
+INTRODUCCION = {"introduccion.qmd", "introduction.qmd"}
+COMPLETADO = {"es": "Completado", "en": "Complete"}
+
+
+def read_book_lang(config: Path) -> str:
+    lang = re.search(r'^lang: *"?([a-z]+)"?\s*$', config.read_text(encoding="utf-8"), re.M)
+    return lang.group(1) if lang else "es"
 
 
 def read_book_config(config: Path) -> tuple[str, list[str]]:
@@ -49,11 +64,11 @@ def read_book_config(config: Path) -> tuple[str, list[str]]:
 def page_kind(source: str) -> str:
     if source in PRELIMINAR:
         return "frontmatter"
-    if source == "introduccion.qmd":
+    if source in INTRODUCCION:
         return "introduction"
     if source.startswith("cap"):
         return "chapter"
-    if source.startswith("apendice"):
+    if source.startswith(("apendice", "appendix")):
         return "appendix"
     return Path(source).stem
 
@@ -85,6 +100,7 @@ def main() -> None:
     if not config.is_file():
         sys.exit(f"construir.py: no existe {config}")
     title, sources = read_book_config(config)
+    lang = read_book_lang(config)
     published = [source for source in sources if source not in EXCLUDED]
     if not published:
         sys.exit(f"construir.py: {book.name} no aporta páginas publicables")
@@ -125,7 +141,7 @@ def main() -> None:
             "html-math-method=mathml",
         ]
         subprocess.run(command, check=True)
-        image_stats = optimize_html_images(quarto_output)
+        image_stats = optimize_html_images(quarto_output, lang)
         print(
             f"  🖼 {book.name}: {image_stats.images} imágenes responsive, "
             f"{image_stats.alt_added} alt, {image_stats.dimensions_added} dimensiones, "
@@ -156,9 +172,10 @@ def main() -> None:
                 "siteSlug": book.name.split("-", 1)[1],
                 "number": number,
                 "title": title,
+                "lang": lang,
                 "version": args.version,
                 "editionDate": args.edition_date,
-                "status": args.status or "Completado",
+                "status": args.status or COMPLETADO.get(lang, COMPLETADO["es"]),
                 "statusNote": args.status_note,
             },
             "pages": pages,

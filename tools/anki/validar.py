@@ -49,7 +49,8 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parents[2]
 SALIDA = RAIZ / "build" / "anki"
 
-CATEGORIAS = {"seguridad", "normativa", "regla-de-oro", "airmanship"}
+CATEGORIAS = {"seguridad", "normativa", "regla-de-oro", "airmanship",
+              "safety", "regulation", "golden-rule"}
 
 # `**` y `*` no se buscan a secas: un asterisco suelto es legítimo en una tarjeta
 # de meteorología. Se busca el par, que es lo que delataría una negrita o una
@@ -62,7 +63,7 @@ MAQUETA = (
     (re.compile(r"\?meta:"), "shortcode de metadatos sin resolver"),
 )
 
-RE_MAZO = re.compile(r"^SPL::\d{2} .+?(?:::\d{2} .+)?$")
+RE_MAZO = re.compile(r"^SPL(?: \(EN\))?::\d{2} .+?(?:::\d{2} .+)?$")
 RE_CLOZE = re.compile(r"\{\{c\d+::")
 
 # Identificadores normativos NUMÉRICOS, prohibidos en el anverso (ver cabecera).
@@ -75,6 +76,7 @@ RE_NORMA_NUMERADA = re.compile(
       \bSAO\.[A-Z]{2,4}\.\d+ | \bSFCL\.\d+ | \bSERA\.\d+ | \bML\.A\.\d+ | \bMED\.A\.\d+ |
       \bCS\s?22\.\d+ | \bAMC\d\b | \bETSO-[A-Za-z0-9]+ |
       Reglamento\s*\((?:UE|CE)\)\s*n?\.?º?\s*\d+ | Real\s+Decreto\s+\d+ |
+      Regulation\s*\((?:EU|EC)\)\s*(?:No\.?)?\s*\d+ | \bArticles?\s+\d+ | \bAnnex\s+\d+ |
       \bart[íi]culos?\s+\d+ | \bAnexo\s+\d+ | \b(?:ENR|GEN|AD)\s+\d+\.\d+ |
       \b\d{4}/\d{3,4}\b
     )""",
@@ -146,7 +148,7 @@ def validar(apkg: Path) -> list[str]:
                 if patron.search(campo):
                     fallos.append(f"{etiqueta}, campo {i}: {motivo}")
 
-        if modelo == "SPL Cloze" and not RE_CLOZE.search(campos[0]):
+        if modelo in ("SPL Cloze", "SPL Cloze (English)") and not RE_CLOZE.search(campos[0]):
             fallos.append(f"{etiqueta}: nota cloze sin ningún {{{{cN::…}}}}")
 
         norma = RE_NORMA_NUMERADA.search(campos[0])

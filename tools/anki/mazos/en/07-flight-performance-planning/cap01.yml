@@ -1,0 +1,18 @@
+# Anki deck for en/07-flight-performance-planning, chapter 1.
+#
+# Infrastructure test cards until the pilot translation. Each card's id is its
+# identity in the student's collection: do NOT rename it once published.
+libro: en/07-flight-performance-planning
+capitulo: 1
+titulo: "Mass and centre of gravity"
+tarjetas:
+  - id: cg-atrasado
+    tipo: basica
+    anverso: Why is an **aft CG** the most dangerous loading condition?
+    reverso: |
+      The glider becomes unstable in pitch, and recovery from a stall or spin
+      may be impossible.
+    etiquetas: [Safety]
+  - id: momento
+    tipo: cloze
+    texto: The moment of an item is its {{c1::mass}} multiplied by its {{c2::arm}}.

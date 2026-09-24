@@ -13,8 +13,12 @@ Es también la razón de dibujarlas por código y no con un generador de imágen
 prohíbe en los gráficos cuantitativos, que «se construyen desde datos
 verificables». Estos tres lo son.
 
+Los rótulos van en los dos idiomas, cada uno con `t(español, inglés)`: la
+edición inglesa (en/) comparte las cifras y sólo cambia el texto y el formato
+de los números. Al tocar un rótulo, tócalo en los dos.
+
 Uso:
-    python3 tools/figuras/07_planificacion.py [nombre ...]
+    python3 tools/figuras/07_planificacion.py [--lang en] [nombre ...]
 """
 
 import sys
@@ -30,7 +34,21 @@ from estilo import (
     guardar, lienzo, usar_estilo,
 )
 
-DESTINO = Path(__file__).resolve().parent.parent.parent / "07-planificacion-rendimiento" / "imagenes"
+RAIZ = Path(__file__).resolve().parent.parent.parent
+DESTINOS = {
+    "es": RAIZ / "07-planificacion-rendimiento" / "imagenes",
+    "en": RAIZ / "en" / "07-flight-performance-planning" / "imagenes",
+}
+IDIOMA = "es"
+
+
+def t(es, en):
+    """El rótulo en el idioma que se está dibujando."""
+    return en if IDIOMA == "en" else es
+
+
+def destino(nombre):
+    return DESTINOS[IDIOMA] / nombre
 
 
 # --------------------------------------------------------------------------
@@ -50,10 +68,10 @@ def envolvente_centrado():
     # Cada caso lleva su propio desplazamiento de rótulo: los cuatro puntos
     # caen en dos parejas muy juntas y, colocados todos igual, se pisan.
     casos = [
-        (0.31, 350, "piloto 85 kg", SEGURA, (0.004, 0), "left", "center"),
-        (0.37, 325, "piloto 60 kg", ATENCION, (-0.004, 0), "right", "center"),
-        (0.335, 460, "alas con agua,\nsin lastre de cola", SEGURA, (0, -9), "center", "top"),
-        (0.373, 465, "con 5 L en la cola", ATENCION, (0, 9), "center", "bottom"),
+        (0.31, 350, t("piloto 85 kg", "85 kg pilot"), SEGURA, (0.004, 0), "left", "center"),
+        (0.37, 325, t("piloto 60 kg", "60 kg pilot"), ATENCION, (-0.004, 0), "right", "center"),
+        (0.335, 460, t("alas con agua,\nsin lastre de cola", "wing water,\nno fin ballast"), SEGURA, (0, -9), "center", "top"),
+        (0.373, 465, t("con 5 L en la cola", "with 5 L in the fin"), ATENCION, (0, 9), "center", "bottom"),
     ]
 
     fig, ax = lienzo(0.62)
@@ -64,7 +82,7 @@ def envolvente_centrado():
     ax.add_patch(mpatches.Rectangle(
         (limite_adelante, y0), limite_atras - limite_adelante, y1 - y0,
         facecolor=SEGURA, alpha=0.10, edgecolor=SEGURA, lw=1.6, zorder=1))
-    for x, etq in ((limite_adelante, "límite\nadelantado"), (limite_atras, "límite\natrasado")):
+    for x, etq in ((limite_adelante, t("límite\nadelantado", "forward\nlimit")), (limite_atras, t("límite\natrasado", "aft\nlimit"))):
         ax.axvline(x, color=SEGURA, lw=1.6, zorder=2)
         ax.text(x, y1 + 4, etq, fontsize=MENOR - 1, color=SEGURA, fontweight="bold",
                 ha="center", va="bottom")
@@ -80,21 +98,25 @@ def envolvente_centrado():
                     arrowprops=dict(arrowstyle="->", color=TEXTO, lw=1.1,
                                     ls=(0, (3, 2))), zorder=4)
 
-    ax.set_xlabel("posición del centro de gravedad tras el datum (m)")
-    ax.set_ylabel("masa total (kg)")
+    ax.set_xlabel(t("posición del centro de gravedad tras el datum (m)", "centre of gravity position aft of datum (m)"))
+    ax.set_ylabel(t("masa total (kg)", "total mass (kg)"))
     ax.set_xlim(0.225, 0.405)
     ax.set_ylim(y0, y1 + 34)
     ax.set_xticks([0.25, 0.28, 0.31, 0.34, 0.37, 0.40])
-    ax.set_xticklabels(["0,25", "0,28", "0,31", "0,34", "0,37", "0,40"])
+    ax.set_xticklabels(t(["0,25", "0,28", "0,31", "0,34", "0,37", "0,40"],
+                         ["0.25", "0.28", "0.31", "0.34", "0.37", "0.40"]))
     for lado in ("top", "right"):
         ax.spines[lado].set_visible(False)
 
     ax.text(0.225, y0 - 46,
-            "Los cuatro casos que calcula este capítulo, sobre el rango permitido. Las dos\n"
-            "flechas marcan el sentido del cambio: un piloto más ligero atrasa el CG, y el\n"
-            "lastre de cola lo atrasa a propósito hasta rozar el límite.",
+            t("Los cuatro casos que calcula este capítulo, sobre el rango permitido. Las dos\n"
+              "flechas marcan el sentido del cambio: un piloto más ligero atrasa el CG, y el\n"
+              "lastre de cola lo atrasa a propósito hasta rozar el límite.",
+              "The four cases this chapter works out, against the permitted range. The two\n"
+              "arrows show the direction of change: a lighter pilot moves the CG aft, and\n"
+              "fin ballast moves it aft on purpose until it nears the limit."),
             fontsize=MENOR, color=TEXTO, ha="left", va="top")
-    return guardar(fig, DESTINO / "07-cap01-envolvente-centrado.png")
+    return guardar(fig, destino("07-cap01-envolvente-centrado.png"))
 
 
 # --------------------------------------------------------------------------
@@ -118,21 +140,21 @@ def ias_tas_altitud():
 
     ax.plot(tas, alturas, lw=2.4, color=SUSTENTACION, zorder=4)
     ax.axvline(ias, lw=1.6, ls=(0, (5, 4)), color=ESTRUCTURA, zorder=3)
-    ax.text(ias - 1.6, 2150, "IAS\nlo que marca\nel anemómetro",
+    ax.text(ias - 1.6, 2150, t("IAS\nlo que marca\nel anemómetro", "IAS\nwhat the\nASI shows"),
             fontsize=MENOR, color=ESTRUCTURA, fontweight="bold", ha="right", va="center")
-    ax.text(tas[-1] + 1.2, 2150, "TAS\nlo que vuelas\nde verdad",
+    ax.text(tas[-1] + 1.2, 2150, t("TAS\nlo que vuelas\nde verdad", "TAS\nwhat you are\nreally flying"),
             fontsize=MENOR, color=SUSTENTACION, fontweight="bold", ha="left", va="center")
 
-    for h, etq, dy in ((1000, "meseta española:\naeródromos a ~1.000 m", -230),
-                       (4000, "techo de onda", -230)):
-        t = ias * (1 + 0.02 * h / 300)
-        ax.plot([ias, t], [h, h], lw=1.2, color=ATENCION, zorder=5)
-        ax.plot(t, h, "o", ms=7, color=ATENCION, zorder=6)
-        ax.text(t + 0.9, h + dy, f"+{t - ias:.0f} %  {etq}", fontsize=MENOR - 1,
+    for h, etq, dy in ((1000, t("meseta española:\naeródromos a ~1.000 m", "Spanish meseta:\naerodromes at ~1,000 m"), -230),
+                       (4000, t("techo de onda", "wave ceiling"), -230)):
+        v = ias * (1 + 0.02 * h / 300)
+        ax.plot([ias, v], [h, h], lw=1.2, color=ATENCION, zorder=5)
+        ax.plot(v, h, "o", ms=7, color=ATENCION, zorder=6)
+        ax.text(v + 0.9, h + dy, f"+{v - ias:.0f} %  {etq}", fontsize=MENOR - 1,
                 color=ATENCION, fontweight="bold", ha="left", va="top")
 
-    ax.set_xlabel("velocidad (km/h) para una IAS de 100 km/h", labelpad=14)
-    ax.set_ylabel("altitud (m)")
+    ax.set_xlabel(t("velocidad (km/h) para una IAS de 100 km/h", "speed (km/h) for an IAS of 100 km/h"), labelpad=14)
+    ax.set_ylabel(t("altitud (m)", "altitude (m)"))
     ax.set_xlim(88, 136)
     ax.set_xticks([95, 100, 105, 110, 115, 120, 125, 130, 135])
     ax.set_ylim(0, 4300)
@@ -140,11 +162,14 @@ def ias_tas_altitud():
         ax.spines[lado].set_visible(False)
 
     ax.text(88, -900,
-            "Regla del capítulo: la TAS supera a la IAS un 2 % por cada 300 m. La polar del\n"
-            "manual está trazada en IAS, así que el anemómetro sigue sirviendo para volarla;\n"
-            "lo que cambia es la velocidad real sobre el terreno y, con ella, el alcance.",
+            t("Regla del capítulo: la TAS supera a la IAS un 2 % por cada 300 m. La polar del\n"
+              "manual está trazada en IAS, así que el anemómetro sigue sirviendo para volarla;\n"
+              "lo que cambia es la velocidad real sobre el terreno y, con ella, el alcance.",
+              "The chapter’s rule: TAS exceeds IAS by 2 % for every 300 m. The manual’s polar is\n"
+              "plotted in IAS, so the ASI still works for flying it; what changes is the real\n"
+              "speed over the ground and, with it, the range."),
             fontsize=MENOR, color=TEXTO, ha="left", va="top")
-    return guardar(fig, DESTINO / "07-cap02-ias-tas-altitud.png")
+    return guardar(fig, destino("07-cap02-ias-tas-altitud.png"))
 
 
 # --------------------------------------------------------------------------
@@ -171,15 +196,15 @@ def metodo_tres_puntos():
 
     ax.axhspan(0, 300, color=ATENCION, alpha=0.08, zorder=0)
     ax.axhline(300, lw=1.4, ls=(0, (5, 4)), color=SEGURA, zorder=2)
-    ax.text(0.4, 312, "margen de llegada previsto: +300 m", fontsize=MENOR,
+    ax.text(0.4, 312, t("margen de llegada previsto: +300 m", "planned arrival margin: +300 m"), fontsize=MENOR,
             color=SEGURA, fontweight="bold", ha="left", va="bottom")
 
     ax.plot(x, sana, lw=2.6, color=SEGURA, zorder=4)
     ax.plot(x, degradada, lw=2.6, color=RESISTENCIA, zorder=4)
 
-    for xp, etq in ((0, "1. al iniciar\nel planeo final"),
-                    (tramo / 2, "2. en el punto medio"),
-                    (tramo - 5, "3. a 5 km\ndel destino")):
+    for xp, etq in ((0, t("1. al iniciar\nel planeo final", "1. at the start of\nthe final glide")),
+                    (tramo / 2, t("2. en el punto medio", "2. at the midpoint")),
+                    (tramo - 5, t("3. a 5 km\ndel destino", "3. 5 km from\nthe destination"))):
         ax.axvline(xp, lw=1.0, ls=(0, (2, 3)), color=ESTRUCTURA, alpha=0.6, zorder=1)
         ax.text(xp, -95, etq, fontsize=MENOR - 1, color=ESTRUCTURA,
                 ha="center", va="top")
@@ -187,24 +212,27 @@ def metodo_tres_puntos():
         ax.plot(xp, 300, "o", ms=7, color=SEGURA, zorder=6)
         ax.plot(xp, float(np.interp(xp, x, degradada)), "o", ms=7, color=RESISTENCIA, zorder=6)
 
-    ax.text(tramo * 0.60, 322, "el margen aguanta:\nsigues adelante", fontsize=MENOR,
+    ax.text(tramo * 0.60, 322, t("el margen aguanta:\nsigues adelante", "margin holds:\ncarry on"), fontsize=MENOR,
             color=SEGURA, fontweight="bold", ha="left", va="bottom")
-    ax.text(tramo / 2 + 1.0, 150, "+150 m y cayendo:\nbusca alternativa ya",
+    ax.text(tramo / 2 + 1.0, 150, t("+150 m y cayendo:\nbusca alternativa ya", "+150 m and falling:\nfind an alternative now"),
             fontsize=MENOR, color=RESISTENCIA, fontweight="bold", ha="left", va="bottom")
 
-    ax.set_xlabel("distancia recorrida del planeo final (km)", labelpad=30)
-    ax.set_ylabel("margen de llegada previsto (m)")
+    ax.set_xlabel(t("distancia recorrida del planeo final (km)", "distance flown on the final glide (km)"), labelpad=30)
+    ax.set_ylabel(t("margen de llegada previsto (m)", "planned arrival margin (m)"))
     ax.set_xlim(0, tramo)
     ax.set_ylim(-60, 420)
     for lado in ("top", "right"):
         ax.spines[lado].set_visible(False)
 
     ax.text(0, -235,
-            "Una lectura dice dónde estás; dos comparadas dicen hacia dónde vas. Una\n"
-            "descendencia continua de 0,5 m/s se pierde en el ruido del variómetro y salta a\n"
-            "la vista al comparar el margen del punto inicial con el del punto medio.",
+            t("Una lectura dice dónde estás; dos comparadas dicen hacia dónde vas. Una\n"
+              "descendencia continua de 0,5 m/s se pierde en el ruido del variómetro y salta a\n"
+              "la vista al comparar el margen del punto inicial con el del punto medio.",
+              "One reading tells you where you are; two compared tell you where you are going.\n"
+              "Steady sink of 0.5 m/s gets lost in the variometer’s noise, and stands out when\n"
+              "you compare the margin at the starting point with the one at the midpoint."),
             fontsize=MENOR, color=TEXTO, ha="left", va="top")
-    return guardar(fig, DESTINO / "07-cap05-metodo-tres-puntos.png")
+    return guardar(fig, destino("07-cap05-metodo-tres-puntos.png"))
 
 
 FIGURAS = {
@@ -215,8 +243,16 @@ FIGURAS = {
 
 
 def main(argv):
+    global IDIOMA
+    argv = list(argv[1:])
+    if argv[:1] == ["--lang"]:
+        IDIOMA = argv[1] if len(argv) > 1 else ""
+        argv = argv[2:]
+    if IDIOMA not in DESTINOS:
+        raise SystemExit(f"Idioma desconocido «{IDIOMA}». Disponibles: {', '.join(DESTINOS)}")
+    DESTINOS[IDIOMA].mkdir(parents=True, exist_ok=True)
     usar_estilo()
-    for nombre in (argv[1:] or list(FIGURAS)):
+    for nombre in (argv or list(FIGURAS)):
         if nombre not in FIGURAS:
             raise SystemExit(f"No conozco «{nombre}». Disponibles: {', '.join(FIGURAS)}")
         ruta = FIGURAS[nombre]()

@@ -1,0 +1,9 @@
+# Glossary of terms
+
+*Translation pending.*
+
+**Arm**
+: Horizontal distance from the datum to the centre of gravity of an item on board.
+
+**Datum**
+: Reference line from which arms are measured.

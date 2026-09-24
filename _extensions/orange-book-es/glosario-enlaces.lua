@@ -208,13 +208,18 @@ local function Pandoc(doc)
     return doc
   end
 
+  -- La edición inglesa (en/) lleva `lang: en` y su glosario se llama
+  -- glossary.qmd; todo lo demás del filtro es igual en los dos idiomas.
+  local ingles = pandoc.utils.stringify(doc.meta.lang or "") == "en"
+  local fichero_glosario = ingles and "glossary.qmd" or "glosario.qmd"
+
   -- Cargar glosario
   local terms = {}
-  local f = io.open("glosario.qmd", "r")
+  local f = io.open(fichero_glosario, "r")
   if not f then
     local file_state = quarto.doc.file_metadata()
     if file_state and file_state.file and file_state.file.resourceDir then
-      f = io.open(file_state.file.resourceDir .. "/glosario.qmd", "r")
+      f = io.open(file_state.file.resourceDir .. "/" .. fichero_glosario, "r")
     end
   end
 
@@ -274,10 +279,10 @@ local function Pandoc(doc)
       if h.level == 1 then
         local title = pandoc.utils.stringify(h.content)
         local lower_title = title:lower()
-        if lower_title:find("glosario") then
+        if lower_title:find("glosario") or lower_title:find("glossary") then
           in_glossary = true
           in_chapter = false
-        elseif h.classes:includes("unnumbered") and not lower_title:find("introduccion") then
+        elseif h.classes:includes("unnumbered") and not lower_title:find("introduccion") and not lower_title:find("introduction") then
           in_glossary = false
           in_chapter = false
         else
@@ -337,7 +342,7 @@ local function Pandoc(doc)
     if block.t == "Header" then
       local title = pandoc.utils.stringify(block.content)
       local lower_title = title:lower()
-      if lower_title:find("colofon") or lower_title:find("colofón") then
+      if lower_title:find("colofon") or lower_title:find("colofón") or lower_title:find("colophon") then
         insert_idx = i
         break
       end
@@ -350,7 +355,7 @@ local function Pandoc(doc)
     end
   end
 
-  local index_header = pandoc.Header(1, {pandoc.Str("Índice alfabético")}, pandoc.Attr("indice-alfabetico", {"unnumbered", "unlisted"}, {}))
+  local index_header = pandoc.Header(1, {pandoc.Str(ingles and "Index" or "Índice alfabético")}, pandoc.Attr("indice-alfabetico", {"unnumbered", "unlisted"}, {}))
   -- in-dexter no aplica la lengua del documento: normalizamos sólo la clave de
   -- ordenación para que las tildes no creen letras independientes en español.
   local index_block = pandoc.RawBlock('typst', '#let orden-es = key => upper(key).replace("Á", "A").replace("É", "E").replace("Í", "I").replace("Ó", "O").replace("Ú", "U").replace("Ü", "U")\n#columns(3, gutter: 15pt)[\n  #show par: pad.with(left: 0.65em)\n  #make-index(title: none, sort-order: orden-es)\n]')
