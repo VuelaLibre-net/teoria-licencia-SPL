@@ -22,6 +22,10 @@ Airmanship one ends “airmanship sets the standard”. The rest is wording only
   dashed asides become commas, brackets or colons, and some literal phrasings are rewritten. No
   figures, formulas, regulatory quotes or glossary terms change.
 
+### Layout and production
+
+* **Covers** — front and back covers in English, in `recursos/covers/` like the Spanish ones.
+
 ## [0.8.0] — 24 September 2026
 
 **What to reread:** **the whole book.** First complete translation, from Spanish version 1.0-rc.3.

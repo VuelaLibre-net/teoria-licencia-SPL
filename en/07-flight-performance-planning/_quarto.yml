@@ -5,8 +5,8 @@ project:
 lang: en
 version: "0.8.0"
 repo-url: "https://github.com/VuelaLibre-net/teoria-licencia-SPL"
-cubierta: "cover/frente.jpg"
-contracubierta: "cover/reverso.jpg"
+cubierta: "cover/frente.png"
+contracubierta: "cover/reverso.png"
 
 book:
   title: "Flight Performance and Planning"
@@ -43,5 +43,5 @@ format:
     # editor. Typst los descarta solos; el EPUB los arrastraría al entregable.
     strip-comments: true
     toc: true
-    epub-cover-image: cover/frente.jpg
+    epub-cover-image: cover/frente.png
     include-in-header: _extensions/orange-book-es/epub-estilos.html
