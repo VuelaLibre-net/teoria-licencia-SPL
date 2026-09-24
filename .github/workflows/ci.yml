@@ -891,7 +891,9 @@ jobs:
           rag=$(ls build/rag/"$slug"-*.md)
           grep -qE '^> \*\*(Safety|Regulation|Golden rule|Airmanship)\*\*' "$rag" \
             || { echo "::error file=$rag::Sin recuadros etiquetados en inglés"; errores=1; }
-          if grep -nE '<div|<span|^:::|@fig-|@tbl-|\{\{<|Estado editorial|Seguridad|Normativa|Regla de oro' "$rag"; then
+          # Las etiquetas de recuadro en español, no la palabra suelta: «Ley de
+          # Seguridad Aérea» es un nombre propio y se cita tal cual.
+          if grep -nE '<div|<span|^:::|@fig-|@tbl-|\{\{<|Estado editorial|^> \*\*(Seguridad|Normativa|Regla de oro)\*\*' "$rag"; then
             echo "::error file=$rag::Maqueta sin traducir o restos en español"; errores=1
           fi
 

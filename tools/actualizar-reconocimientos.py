@@ -36,9 +36,41 @@ Este manual es el fruto de un esfuerzo colaborativo dentro de la comunidad de vu
 
 FOOTER = ":::\n"
 
+# Edición inglesa (en/): mismo listado, con su cabecera y las descripciones
+# traducidas. Las marcas ✓ son las de la edición española —quien validó el
+# libro, validó el texto español—, y la cabecera lo dice.
+DIRECTORIOS_EN = [
+    ("en/07-flight-performance-planning", 7),
+]
 
-def generar_contenido_reconocimientos(revisores_data: dict, num_libro: int) -> str:
-    lineas = [HEADER]
+HEADER_EN = """# Acknowledgements {.unnumbered}
+
+This manual is the result of a collaborative effort within the gliding community. We wish to express our sincere thanks to:
+
+* The **Spanish Aviation Safety Agency (AESA)** and **EASA**, for providing the regulatory and documentary framework that keeps our operations safe.
+* The **Flight Instructors (FI(S))** and **Examiners (FE(S))** who have given their time to review these sections and ensure their technical rigour.
+* The **VuelaLibre.net** community, for driving initiatives that modernise and open up access to high-quality aeronautical training.
+* All the pilots whose constant feedback helps keep this manual a living, evolving tool.
+* The authors of the classic international manuals, whose structure served as the basis for organising the knowledge in a way that is teachable and accessible to new generations of glider pilots and, in particular, to:
+
+A ✓ marks the reviewers who have validated the Spanish edition of this book, from which this translation is made.
+
+::: {.creditos}
+"""
+
+# Toda descripción nueva en el JSON necesita aquí su traducción: el script
+# aborta antes que publicar una línea en español en la edición inglesa.
+DESCRIPCIONES_EN = {
+    "Campeón de España de Vuelo a Vela. Instructor y Examinador de Vuelo a Vela":
+        "Spanish Gliding Champion. Gliding instructor and examiner",
+    "Instructor y Examinador de Vuelo a Vela": "Gliding instructor and examiner",
+    "Instructora y Examinadora de Vuelo a Vela": "Gliding instructor and examiner",
+    "Piloto de Vuelo a Vela. Edición técnica": "Glider pilot. Technical editing",
+}
+
+
+def generar_contenido_reconocimientos(revisores_data: dict, num_libro: int, idioma: str = "es") -> str:
+    lineas = [HEADER_EN if idioma == "en" else HEADER]
     revisores = revisores_data.get("revisores", [])
 
     blocks = []
@@ -46,6 +78,10 @@ def generar_contenido_reconocimientos(revisores_data: dict, num_libro: int) -> s
         nombre = rev["nombre"]
         subtitulo = rev["subtitulo"]
         descripcion = rev["descripcion"]
+        if idioma == "en":
+            if descripcion not in DESCRIPCIONES_EN:
+                raise SystemExit(f"✗ Falta la traducción inglesa de «{descripcion}» en DESCRIPCIONES_EN")
+            descripcion = DESCRIPCIONES_EN[descripcion]
 
         if rev.get("honorifico"):
             nombre_con_sufijo = nombre
@@ -91,6 +127,12 @@ def main() -> None:
         contenido = generar_contenido_reconocimientos(revisores_data, num_libro)
         target_file.write_text(contenido, encoding="utf-8")
         print(f"✓ Actualizado {subfolder}/reconocimientos.qmd (Libro {num_libro if num_libro != 0 else 'Completo'})")
+
+    for subfolder, num_libro in DIRECTORIOS_EN:
+        target_file = BASE_DIR / subfolder / "acknowledgements.qmd"
+        contenido = generar_contenido_reconocimientos(revisores_data, num_libro, "en")
+        target_file.write_text(contenido, encoding="utf-8")
+        print(f"✓ Actualizado {subfolder}/acknowledgements.qmd (Book {num_libro})")
 
 
 if __name__ == "__main__":
