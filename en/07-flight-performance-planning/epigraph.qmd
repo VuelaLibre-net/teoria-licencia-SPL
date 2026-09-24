@@ -1,5 +1,12 @@
+---
+origen: 07-planificacion-rendimiento/epigrafe.qmd
+origen-commit: c5e8824
+---
+
 # Epigraph {.unnumbered .unlisted .oculto}
 
 ::: {.epigrafe}
-*Translation pending.*
+“Planning is bringing the future into the present so that you can do something about it now.”
+
+ — Alan Lakein (1973), American author and pioneering time-management specialist.
 :::

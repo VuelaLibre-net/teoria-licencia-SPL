@@ -1,0 +1,84 @@
+---
+origen: 07-planificacion-rendimiento/cap04-plan-de-vuelo-icao.qmd
+origen-commit: 5a71faf
+---
+
+# ICAO flight plan (*ATS flight plan*)
+
+> The flight plan (FPL) is much more than a piece of paperwork: it is your life insurance on cross-country flights. On a local flight you do not usually need one, but as soon as you decide to leave your aerodrome's safety cone it becomes the only way for the search and rescue (SAR) services to know where to look for you if you do not come back.
+>
+>
+> In this chapter you will learn:
+>
+>
+> * **When an FPL is mandatory** under SERA.4001 and how that applies in Spain.
+> * **The key items of the ICAO form** for a glider, including the supplementary information (Item 19).
+> * **How to file a flight plan in the air (AFIL)** with the Spanish flight information centres.
+> * **The particulars of touring motor gliders (TMG)** and fuel endurance.
+> * **Closing the plan**: the step you must never, ever forget.
+
+## When is it mandatory?
+
+Under **SERA.4001** (SERA: Standardised European Rules of the Air) and its application in Spain, a glider needs a flight plan in these cases:
+
+* **Cross-border flights**: whenever you cross an international border.
+* **Air traffic control service**: a flight plan is mandatory for any flight provided with an air traffic control service —in practice, **classes B, C and D**— and when the departure or destination is a **controlled aerodrome**. Note the subtlety of class E: it is controlled airspace, but VFR traffic is not provided with a control service there, so it needs no flight plan, no radio and no clearance (SERA.4001(b)).
+* **When required by the ATS authority**: in designated areas or along designated routes, to facilitate information, alerting and SAR services or coordination with military units.
+* **Night VFR flight**: if the flight will leave the vicinity of the aerodrome (an exceptional case in a glider).
+* **Over the sea**: in Spain, for flights more than 12 nautical miles from the coast (a national requirement; check the value in force in AIP-España, ENR 1.10).
+* **Cross-country flight**: not mandatory in class G (uncontrolled) airspace, but highly recommended: it is what triggers the alerting services if you do not turn up.
+
+::: {.callout-important title="Regulation"}
+The filing times (AIP-España, ENR 1.10) depend on what you request and where you depart from. If you request an **air traffic control service**, file the FPL at least **60 minutes before** the estimated off-block time (EOBT); from a controlled aerodrome that does not operate H24, the minimum drops to **30 minutes**. If you take off from an **uncontrolled aerodrome** and only request flight information and alerting services, filing it **before departure** is enough. In flight (**AFIL**), it must be transmitted in sufficient time for the ATS unit to receive it before you enter controlled airspace.
+:::
+
+## Key items for gliders
+
+Filling in an ICAO form for an aircraft with no engine has its quirks (@fig-07-cap04-fpl-casillas):
+
+* **Item 8 (flight rules and type of flight)**: the item carries two pieces of data. First the **flight rules**: **V** (VFR) —even if you are flying a competition, legally you are a visual flight—. Then the **type of flight**: for a sport glider, **G** (general aviation). So Item 8 reads **V** and **G**.
+* **Item 9 (type of aircraft)**: enter **GLID** (**glider**).
+* **Item 15 (speed and route)**: the item asks for the cruising **true airspeed (TAS)**, with **K** for km/h (e.g. K0120) or **N** for knots (e.g. N0065); for a glider you enter the estimated cruising average for the task, which is the only figure you can give in advance. For the route, the turning points or areas (e.g. DCT VTC-1 DCT VTC-2 DCT).
+* **Item 16 (destination and alternates)**: if you intend to land out, use **ZZZZ** and give the details of the place in Item 18.
+* **Item 18 (other information)**: here you expand the ZZZZ of the previous items with a name and coordinates, for example `DEP/CAMPO DE SANTOS 4035N00407W` or `DEST/AREA DE LA TAREA`. If there is nothing to report, write `0` (zero).
+* **Item 19 (supplementary information)**: it is not transmitted with the FPL message, but it is the information SAR will use if you do not turn up: endurance (`E/`, which the form defines as **fuel** endurance in hours and minutes; a pure glider carries none, so by convention the hours of daylight left until sunset are entered), persons on board (`P/`), emergency radio (`R/`), survival equipment (`S/`) and whether you carry an **ELT** or personal locator beacon (PLB). Fill it in with the same care as the rest: it can shorten your rescue by hours.
+
+![ICAO flight plan form filled in for a cross-country glider flight](imagenes/07-cap04-fpl-casillas.png){#fig-07-cap04-fpl-casillas}
+
+## Filing the plan in the air: the AFIL
+
+What if you take off from a field with no mobile coverage and no access to ENAIRE's ICARO app? The regulations provide for filing the flight plan **in flight (AFIL, *Air-Filed Flight Plan*)**, transmitting it by radio to an ATS unit:
+
+1. Tune in to the **Flight Information Centre (FIC)** for your region: in Spain, **Madrid Information**, **Barcelona Information** or **Canarias Information** (check the sector frequency in ENAIRE's AIP or on the navigation chart; it varies by area).
+2. On first contact, state: identification, aircraft type (GLID), position and altitude, intentions (route and destination) and the express request to **file a flight plan in the air**.
+3. Have the form data ready before transmitting: the operator will essentially ask you for the same items as on the ground (speed, route, destination, endurance and persons on board).
+4. Remember the timing: the AFIL must be transmitted **in sufficient time** for the unit to receive it before you enter controlled airspace.
+
+::: {.callout-note title="Airmanship"}
+The FIC is not only for filing flight plans. On a crossing over areas such as the Sistema Central, keeping a listening watch with Madrid Information gives you essential traffic, last-minute NOTAMs and a channel already open if things go wrong. Write down the frequencies of the sectors along your route when you plan, next to the escape points.
+:::
+
+## Touring motor gliders (TMG)
+
+If you fly a touring motor glider (TMG) and fly the cross-country under power, the rules change: for flight plan purposes you are a normal powered aircraft. The endurance you declare must be your real fuel endurance —tank capacity and engine consumption—, not the hours of daylight left.
+
+## Closing the flight plan: the critical step
+
+A flight plan that is opened and never closed triggers a SAR operation: helicopters and emergency teams mobilised. If it is down to forgetfulness, the fines are severe on top of the embarrassment.
+
+* **How to close it**: call the ARO (ATS reporting office), tell the control tower by radio before landing, or use an official app such as ENAIRE's ICARO.
+* **Timing**: you have 30 minutes from the estimated time of arrival before they start to worry. If you land in a field with no coverage, try to let someone at the club know or find a phone as soon as possible.
+
+::: {.callout-warning title="Safety"}
+Never go home without confirming that your flight plan is closed. If you land out, your priority after securing the aircraft is to report your status and position to avoid false SAR alarms.
+:::
+
+::: {.postit}
+**Chapter summary: ICAO flight plan**
+
+* **When is it mandatory?**: when crossing borders, when you are provided with a control service (classes B, C and D; in class E, VFR traffic flies with no plan, no radio and no clearance), to or from controlled aerodromes, at night VFR beyond the vicinity of the aerodrome, and when the ATS authority requires it. Highly recommended on cross-country flights to trigger the alerting services (SAR).
+* **Key items**: speed (Item 15): the cruising **TAS**, with **K** for km/h (K0120) or **N** for knots (N0065); for a glider you enter your estimated average. Destination away from an aerodrome: ZZZZ in Item 16 and the details with coordinates in Item 18. Item 19: endurance (**E/** is fuel endurance; a pure glider carries none and by convention the hours until sunset are entered), persons on board, ELT/PLB and survival equipment; this is what SAR will use.
+* **AFIL**: with no coverage on the ground, you can file the plan by radio with the FIC (Madrid, Barcelona or Canarias Information), in sufficient time before entering controlled airspace.
+* **Touring motor gliders (TMG)**: if you fly a TMG as a touring aircraft, you follow the same rules as a light general aviation aeroplane: declare your real fuel endurance, not daylight.
+* **Closing the plan**: if you land in a field and go off to dinner without closing the plan, a search and rescue operation is launched. Call the ATS reporting office (ARO) or the tower as soon as you have coverage.
+:::

@@ -1,9 +1,50 @@
+---
+origen: 07-planificacion-rendimiento/glosario.qmd
+origen-commit: 2375434
+---
+
 # Glossary of terms
 
-*Translation pending.*
+This glossary contains the most relevant definitions and acronyms of flight performance and planning applicable to the Sailplane Pilot Licence (SPL).
 
 **Arm**
-: Horizontal distance from the datum to the centre of gravity of an item on board.
+: Horizontal distance measured from the datum (reference line) to the centre of gravity of an item or weight on board the glider.
+
+**Best glide speed (V~G~)**
+: Speed at which the glider achieves its greatest distance covered per unit of height lost in still air (maximum glide ratio, corresponding to the maximum L/D determined by the tangent to the polar curve).
+
+**CG (Centre of Gravity)**
+: Theoretical point at which the resultant of all the gravitational forces acting on the glider is considered to be applied. Its longitudinal position is key to the stability and control of the flight.
 
 **Datum**
-: Reference line from which arms are measured.
+: Imaginary vertical plane from which all horizontal distances are measured to calculate the balance and the arm of the glider's components.
+
+**Fin ballast (tail ballast)**
+: Small water tank or weight holder in the fin that compensates for the shift of the CG caused by the wing ballast or by a heavy pilot, restoring the optimum balance. Forgetting to empty it with a light pilot produces a dangerously aft CG.
+
+**FPL (Flight Plan)**
+: Information about the intended flight that the pilot submits to the air traffic services. **SERA.4001(b)** requires it, among other cases, for any flight provided with an air traffic control service —for VFR, in practice classes B, C and D, and controlled aerodromes—, for any flight crossing an international border, and for flights within areas or along routes designated by the competent authority to facilitate flight information, alerting and search and rescue. In class E, VFR traffic receives no control service, so it needs no flight plan, no radio and no clearance. It includes the aircraft type, callsign, departure and destination aerodromes, intended route, cruising level and estimated time.
+
+**Glide ratio (L/D)**
+: Ratio between the aircraft's lift and total drag, equivalent to the horizontal distance covered per unit of height lost in still air (a glider with an L/D of 40 covers 40 km for every kilometre of height given up).
+
+**MacCready theory (MacCready ring)**
+: Flight speed optimisation method that gives the optimum speed to fly between thermals for the expected strength of the next thermal.
+
+**Minimum sink speed**
+: Speed at which the glider loses the least possible height per unit of time (found at the top of the polar curve), optimal for centring and working weak thermals.
+
+**Moment**
+: Turning effect or rotational tendency exerted by a weight according to its arm relative to the datum. It is calculated by multiplying the mass of the object by its arm.
+
+**MTOM (Maximum Take-Off Mass)**
+: Maximum authorised or certified mass with which the glider may begin the flight, determined by structural and aerodynamic performance limits.
+
+**Polar curve (speed polar)**
+: Characteristic graph of each glider type that relates the indicated horizontal speed (X axis, in km/h) to the vertical rate of sink (Y axis, in m/s) in still-air conditions. From it come the minimum sink speed (top of the curve) and the best glide speed (tangent from the origin). It is the glider's “identity card” and the reference for adapting speed to the wind and to areas of lift or sink.
+
+**Water ballast**
+: Water carried in dedicated tanks in the wings to increase the glider's mass and wing loading, shifting the polar curve towards higher values so as to fly faster at the same glide angle.
+
+**Wing loading**
+: Ratio between the glider's total mass and its wing area. It is expressed in kg/m² and directly affects the cruising and stall speeds.

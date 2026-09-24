@@ -1,0 +1,91 @@
+# Anki deck for en/07-flight-performance-planning, chapter 5.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/07-planificacion-rendimiento/cap05.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/07-flight-performance-planning
+capitulo: 5
+titulo: "Flight monitoring and in-flight re-planning"
+tarjetas:
+  - id: cono-de-alcance-opcion-segura
+    tipo: basica
+    anverso: What rule governs the **glide cone** en route?
+    reverso: |
+      **Always have a safe landing option inside the cone.**
+
+      Whatever lies outside it is out of reach.
+
+  - id: regla-mental-de-alcance
+    tipo: basica
+    anverso: Mental rule for range per kilometre of height.
+    reverso: |
+      **1 km of height gives 20–30 km of range**, depending on the wind and the
+      glider.
+
+      With a strong headwind, halve it.
+
+  - id: correccion-de-deriva-6-grados
+    tipo: basica
+    anverso: At 100 km/h, how much correction does every 10 km/h of **crosswind** need?
+    reverso: |
+      **About 6° into the wind.**
+
+      With 20 km/h of crosswind, aim about 12° to the windward side and check
+      against a distant reference that your track over the ground holds.
+    etiquetas: [Golden rule]
+
+  - id: la-termica-es-la-manga-de-viento
+    tipo: basica
+    anverso: How do you estimate the wind **without looking at any instrument**?
+    reverso: |
+      **From the drift of your circles in a thermal.**
+
+      The direction and distance you are carried on each turn tell you where the
+      wind is coming from and how strong it is. The thermal is your windsock.
+    etiquetas: [Golden rule]
+
+  - id: planeo-final-tres-puntos
+    tipo: basica
+    anverso: At which three moments do you check the margin on the **final glide**?
+    reverso: |
+      **At the start, at the midpoint and 5 km from the destination.**
+
+      The trend between readings gives away steady sink or unforecast wind in
+      time.
+
+  - id: punto-de-no-retorno
+    tipo: basica
+    anverso: What is the **point of no return** (PNR), and what does crossing it involve?
+    reverso: |
+      **The moment after which you will no longer get home.**
+
+      From then on, the goal is the next safe aerodrome or field. Saying it out
+      loud —“I have crossed the PNR”— helps you stop looking at the task on the
+      GPS and start looking at the ground.
+    etiquetas: [Airmanship]
+
+  - id: altura-de-seguridad
+    tipo: basica
+    anverso: What is the **safety height**, and what is it for?
+    reverso: |
+      **An untouchable margin for arriving at the field —300 m, for example—,
+      and it is for the circuit, not for gliding.**
+
+  - id: llegar-con-cero-metros
+    tipo: basica
+    anverso: If the flight computer shows an arrival with **0 m**, will you make it?
+    reverso: |
+      **No.** That calculation is theoretical, and real air is almost never
+      completely still.
+
+      Always carry a cushion of height and do not let it be used up.
+    etiquetas: [Safety]
+
+  - id: factor-humano-en-el-calculo
+    tipo: basica
+    anverso: How do hypoxia, dehydration and fatigue degrade in-flight re-planning?
+    reverso: |
+      **They spoil mental arithmetic and delay the decision to land out.**
+
+      Drink on a schedule, use oxygen on high flights and add margin when you
+      have been on task for hours.

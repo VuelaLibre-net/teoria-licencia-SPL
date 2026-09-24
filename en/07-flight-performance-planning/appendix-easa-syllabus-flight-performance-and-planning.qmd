@@ -1,5 +1,24 @@
+---
+origen: 07-planificacion-rendimiento/apendice-syllabus-oficial-easa---planificacion-y-rendimiento-de-vuelo.qmd
+origen-commit: e0f5386
+---
+
 # Official EASA syllabus - flight performance and planning
 
-*Translation pending: to be taken from the original text of AMC1 SFCL.130.*
+The following syllabus corresponds to the subject **Flight Performance and Planning** for the Sailplane Pilot Licence (SPL), as set out in AMC1 SFCL.130 (Annex to ED Decision 2020/004/R, AMC & GM to Part-SFCL):
 
-* **7.1. Mass and centre of gravity.**
+* **7.1. Mass and balance.**
+* **7.2. Speed polar of sailplanes or cruising speed.**
+* **7.3. Flight planning and task setting.**
+* **7.4. ICAO flight plan (ATS flight plan).**
+* **7.5. Flight monitoring and in-flight re-planning.**
+
+This manual has been structured to follow this official syllabus faithfully, so that you cover every point needed for the theoretical examination.
+
+## Test yourself
+
+Theory sinks in by answering questions. This subject has its own online self-assessment test, with exam-style questions (currently in Spanish). For example:
+
+[https://vuelalibre.net/examenes/07-planificacion-rendimiento/](https://vuelalibre.net/examenes/07-planificacion-rendimiento/)
+
+Ask your instructor, who will tell you which question bank or format is most suitable, and follow that advice. It will be very useful both for consolidating what you learn in each chapter and for your general revision before you sit the theoretical examination.

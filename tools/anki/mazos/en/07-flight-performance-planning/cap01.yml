@@ -1,18 +1,78 @@
 # Anki deck for en/07-flight-performance-planning, chapter 1.
 #
-# Infrastructure test cards until the pilot translation. Each card's id is its
-# identity in the student's collection: do NOT rename it once published.
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/07-planificacion-rendimiento/cap01.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
 libro: en/07-flight-performance-planning
 capitulo: 1
-titulo: "Mass and centre of gravity"
+titulo: "Mass and balance"
 tarjetas:
   - id: cg-atrasado
     tipo: basica
     anverso: Why is an **aft CG** the most dangerous loading condition?
     reverso: |
-      The glider becomes unstable in pitch, and recovery from a stall or spin
-      may be impossible.
+      **Because the glider becomes unstable —it tends to raise its nose by
+      itself— and recovery from a stall or spin may be impossible.**
+
+  - id: cg-adelantado
+    tipo: basica
+    anverso: What are the effects of a **forward CG**?
+    reverso: |
+      **Very stable (nose-heavy), but less efficient** because of the drag of
+      the deflected elevator, **and with a higher stall speed**.
+
+  - id: formula-del-cg
+    tipo: basica
+    anverso: How is the **centre of gravity** calculated?
+    reverso: |
+      **CG = Σ moments / Σ weights.**
+
+      Each weight is multiplied by its arm (distance from the *datum*), the
+      moments are added up and divided by the total mass. The starting data come
+      from the **official weighing record**.
+
+  - id: efectos-de-sobrepasar-mtow
+    tipo: basica
+    anverso: What happens to a glider that exceeds its **MTOM**?
+    reverso: |
+      **It needs more runway to take off, its stall speed is higher and it
+      suffers more structural fatigue at lower g.**
+
+  - id: lastre-de-cabina-fijado
+    tipo: basica
+    anverso: If you are light, how do you compensate?
+    reverso: |
+      **With lead ballast or approved weights, mechanically secured in the
+      mountings the manufacturer fits in the nose.**
+
+      Never sandbags, rucksacks or loose objects: in turbulence or on rotation
+      they can shift, jam the pedals or change the balance at the worst moment.
+      Always check that your weight is within the range for the seat you occupy.
+    etiquetas: [Airmanship]
+
+  - id: lastre-de-agua-efecto
+    tipo: basica
+    anverso: What does **water ballast** give you, and what does it cost?
+    reverso: |
+      **It lets you fly faster at the same glide angle —ideal for strong days—,
+      but it worsens the climb rate in thermals.**
+
+  - id: lastre-de-cola
+    tipo: basica
+    anverso: What is **fin ballast** for, and what precaution does it require?
+    reverso: |
+      **It adds no performance: it repositions the CG when you fill the wings.**
+
+      Always dump it together with the main tanks. Water only in the tail
+      amounts to an extreme aft CG.
+
+  - id: aterrizar-con-agua
+    tipo: basica
+    anverso: Can you land with the water tanks full?
+    reverso: |
+      **No, except in an absolute emergency.** The water is dumped before
+      landing.
+
+      The impact energy rises sharply with weight and you could damage the
+      glider beyond repair.
     etiquetas: [Safety]
-  - id: momento
-    tipo: cloze
-    texto: The moment of an item is its {{c1::mass}} multiplied by its {{c2::arm}}.

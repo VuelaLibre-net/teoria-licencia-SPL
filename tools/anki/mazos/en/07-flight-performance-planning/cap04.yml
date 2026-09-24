@@ -1,0 +1,93 @@
+# Anki deck for en/07-flight-performance-planning, chapter 4.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/07-planificacion-rendimiento/cap04.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/07-flight-performance-planning
+capitulo: 4
+titulo: "ICAO flight plan (*ATS flight plan*)"
+tarjetas:
+  - id: cuando-es-obligatorio-el-fpl-07
+    tipo: basica
+    anverso: When is filing a **flight plan** mandatory?
+    reverso: |
+      * When crossing borders.
+      * When you are provided with a control service (classes **B, C and D**).
+      * To or from controlled aerodromes.
+      * At night VFR beyond the vicinity of the aerodrome.
+      * When the ATS authority requires it.
+
+      In class **E**, VFR traffic flies with no plan, no radio and no clearance.
+    etiquetas: [Regulation]
+
+  - id: plazos-de-presentacion-fpl
+    tipo: basica
+    anverso: How far in advance is the **flight plan** filed?
+    reverso: |
+      * If you request a **control service**: **60 minutes** before the EOBT.
+      * From a controlled aerodrome that does not operate H24: **30 minutes**.
+      * From an **uncontrolled aerodrome**, with information and alerting only:
+        **before departure**.
+      * In flight (**AFIL**): in sufficient time for ATS to receive it before
+        you enter controlled airspace.
+
+      *Basis: AIP-España, ENR 1.10.*
+    etiquetas: [Regulation]
+
+  - id: casilla-15-velocidad
+    tipo: basica
+    anverso: Which speed goes in **Item 15** of the flight plan, and in what format?
+    reverso: |
+      **The cruising TAS** —for a glider, your estimated average—, with **K**
+      for km/h (`K0120`) or **N** for knots (`N0065`).
+
+  - id: destino-fuera-de-aerodromo
+    tipo: basica
+    anverso: How do you enter a destination that is not an aerodrome?
+    reverso: |
+      **`ZZZZ` in Item 16, and the details with coordinates in Item 18.**
+
+  - id: casilla-19
+    tipo: basica
+    anverso: What goes in **Item 19**, and what is it for?
+    reverso: |
+      **Endurance (`E/`), persons on board, ELT/PLB and survival equipment.**
+
+      It is what SAR will use. A pure glider carries no fuel: by convention the
+      hours until sunset are entered.
+
+  - id: afil
+    tipo: basica
+    anverso: What is an **AFIL** flight plan?
+    reverso: |
+      **A flight plan filed by radio from the air**, with the FIC (Madrid,
+      Barcelona or Canarias Information), when there is no coverage on the
+      ground.
+
+  - id: tmg-autonomia
+    tipo: basica
+    anverso: What changes in the flight plan if you fly a **TMG** as a touring aircraft?
+    reverso: |
+      **You follow the rules for a light aeroplane: you declare your real fuel
+      endurance, not daylight.**
+
+  - id: cerrar-el-plan-o-sar
+    tipo: basica
+    anverso: What happens if you land out and do not close your flight plan?
+    reverso: |
+      **A search and rescue operation is launched.**
+
+      After securing the glider, the priority is to report your status and
+      position: call the ARO or the tower as soon as you have coverage.
+    etiquetas: [Safety]
+
+  - id: fic-en-travesia
+    tipo: basica
+    anverso: What is the **FIC** useful for, besides filing flight plans?
+    reverso: |
+      **It gives you essential traffic, last-minute NOTAMs and a channel already
+      open if things go wrong.**
+
+      Write down the frequencies of the sectors along your route when you plan,
+      next to the escape points.
+    etiquetas: [Airmanship]

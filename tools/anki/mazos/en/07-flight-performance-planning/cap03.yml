@@ -1,0 +1,73 @@
+# Anki deck for en/07-flight-performance-planning, chapter 3.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/07-planificacion-rendimiento/cap03.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/07-flight-performance-planning
+capitulo: 3
+titulo: "Flight planning and task setting"
+tarjetas:
+  - id: velocidad-media-en-tarea
+    tipo: basica
+    anverso: What determines **average speed** on a task?
+    reverso: |
+      **Not flying faster, but stopping less.**
+
+      Avoid turning in weak thermals; the key lies in consistency and in
+      choosing the route under the cloud streets.
+
+  - id: ventana-de-vuelo
+    tipo: basica
+    anverso: What do you look for in the **sounding** before take-off?
+    reverso: |
+      **When convection starts and when it dies**, to plan the flying window
+      and cross the difficult parts in the middle of the day.
+
+  - id: orografia-y-trazado
+    tipo: basica
+    anverso: How does the **terrain** shape the layout of the task?
+    reverso: |
+      **The shortest route on the map is rarely the fastest over the ground.**
+
+      Avoid blind valleys, mark escape points on every leg and lay the task
+      **along** convergences and waves, not across them.
+
+  - id: sao-ide-125-supervivencia
+    tipo: basica
+    anverso: What equipment must you carry when flying over **areas where rescue would be difficult**?
+    reverso: |
+      **Rescue and signalling equipment appropriate to the area overflown**: at
+      least a registered **ELT** or **PLB**, equipment for making distress
+      signals and survival equipment appropriate to the route.
+
+      Over water, the risks of ditching must also be assessed before the flight.
+
+      *Basis: Part-SAO, SAO.IDE.125 and its AMC1; over water, SAO.IDE.120.*
+    etiquetas: [Regulation]
+
+  - id: peso-del-equipo-de-supervivencia
+    tipo: basica
+    anverso: How much does basic survival equipment weigh, and what does it include?
+    reverso: |
+      **Less than two kilos: water, warm clothing and a beacon.**
+
+  - id: minimos-personales
+    tipo: basica
+    anverso: What are **personal minima**, and when are they set?
+    reverso: |
+      **Your own limits —minimum height to continue en route, minimum acceptable
+      thermal— and they are set before you leave.**
+
+      If you go below them, you switch from competition mode to survival mode.
+      Be more conservative in unfamiliar areas or with low-performance gliders.
+    etiquetas: [Airmanship]
+
+  - id: notam-y-espacios-en-la-tarea
+    tipo: basica
+    anverso: What must you check along the route when setting a task?
+    reverso: |
+      **The NOTAMs and the controlled airspace.**
+
+      A task that crosses a TMA without clearance is a failed task, however
+      much distance you have covered.
+    etiquetas: [Safety]

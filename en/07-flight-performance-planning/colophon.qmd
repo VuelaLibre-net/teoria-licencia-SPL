@@ -1,3 +1,8 @@
+---
+origen: 07-planificacion-rendimiento/colofon.qmd
+origen-commit: 1651432
+---
+
 # Colophon {.unnumbered .unlisted .oculto}
 
 ::: {.colofon}

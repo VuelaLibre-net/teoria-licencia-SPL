@@ -3,7 +3,7 @@ project:
   output-dir: _book
 
 lang: en
-version: "0.1.0"
+version: "0.8.0"
 repo-url: "https://github.com/VuelaLibre-net/teoria-licencia-SPL"
 cubierta: "cover/frente.jpg"
 contracubierta: "cover/reverso.jpg"
@@ -18,7 +18,11 @@ book:
     - epigraph.qmd
     - acknowledgements.qmd
     - introduction.qmd
-    - cap01-mass-and-centre-of-gravity.qmd
+    - cap01-mass-and-balance.qmd
+    - cap02-speed-polar-of-sailplanes-or-cruising-speed.qmd
+    - cap03-flight-planning-and-task-setting.qmd
+    - cap04-icao-flight-plan.qmd
+    - cap05-flight-monitoring-and-in-flight-re-planning.qmd
   appendices:
     - appendix-easa-syllabus-flight-performance-and-planning.qmd
     - glossary.qmd
