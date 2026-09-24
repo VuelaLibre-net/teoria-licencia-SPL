@@ -23,7 +23,7 @@ In gliding, average speed decides how many kilometres you can cover before the s
 
 * **Do not stop in weak thermals**: average speed does not go up by flying faster between clouds, but by not stopping to turn in lift that is below the day's average.
 * **Consistency**: keeping a steady flow and using cloud streets to make progress without turning is what really drives the average up.
-* **The day's window**: if the day offers 6 hours of convection and your average is 50 km/h, your real radius of action is good for a task of about 300 km. Trying for more is buying tickets for an outlanding.
+* **The day's window**: if the day offers 6 hours of convection and your average is 50 km/h, your real radius of action is good for a task of about 300 km. Try for more and you are buying a ticket to an outlanding.
 
 ::: {.mas-alla}
 ## FAI triangle and AAT: two ways to compete
@@ -39,11 +39,11 @@ Depending on the type of task, your mindset changes completely.
 
 None of these courses is a club convention: they are defined, with their figures, in the FAI sporting rules. If you are going to declare a task, look at the original before any summary, this one included.
 
-* **The courses** —out-and-return, triangle, free distance— are defined in *Sporting Code Section 3*, paragraph **1.4.2**, which governs badges and records. There you can see that the **out-and-return** is a closed course with **a single** declared turning point, and the **triangle** one with two or three, flown in the declared order.
+* **The courses** (out-and-return, triangle, free distance) are defined in *Sporting Code Section 3*, paragraph **1.4.2**, which governs badges and records. There you can see that the **out-and-return** is a closed course with **a single** declared turning point, and the **triangle** one with two or three, flown in the declared order.
 
   [https://www.fai.org/sites/default/files/sc3_2024.pdf](https://www.fai.org/sites/default/files/sc3_2024.pdf)
 
-* **Competition tasks** —the fixed-course *Racing Task* and the *Assigned Area Task*— are in **Part 6** of Annex A to the same code, with the geometry of the sectors and how each one is scored.
+* **Competition tasks**, the fixed-course *Racing Task* and the *Assigned Area Task*, are in **Part 6** of Annex A to the same code, with the geometry of the sectors and how each one is scored.
 
   [https://www.fai.org/sites/default/files/sc3a_2025.pdf](https://www.fai.org/sites/default/files/sc3a_2025.pdf)
 
@@ -57,7 +57,7 @@ That 28 % is why an FAI triangle cannot be “stretched” towards the good side
 
 ## Meteorology: your invisible engine
 
-Before take-off you need to know the life cycle of that day's sky.
+Before take-off, you need to know how the day's sky will develop.
 
 * **The convection window**: identify the time the first thermals start (the **trigger**) and the time convection dies. Plan to cross the difficult areas (shade, mountains) during the hours of maximum sunshine.
 * **Sounding and cloud base**: the height of the inversion and the cloud base define your working space. The bigger the margin between the base and the ground, the safer your progress will be.
@@ -72,7 +72,7 @@ In Spain, most cross-country tasks are flown over mountainous terrain or within 
 
 * **Blind valleys**: a valley that narrows and rises with no landable fields and no flyable way out is a classic mountain trap. When you draw the route on the chart, identify these funnels and plan to cross the ranges through passes with an escape route on both sides. Rule of thumb: never commit to a valley without having worked out how to get out of it with the height you will have at that point, not the height you would like to have.
 * **Escape points**: mark on your plan the aerodromes and areas of landable fields that flank each leg of the route. Each segment of the task must answer the question: “if the thermal dies here, where do I glide to?”. If a leg has no answer, rethink the route or set a more demanding minimum crossing height.
-* **Organised lift systems**: the mesetas generate **convergence lines**, and the great ranges (the Sistema Central is the classic example) trigger **mountain waves** downwind. Planning the task along these structures —instead of crossing them at right angles— multiplies your average speed. You studied the phenomena themselves (convergence, wave, the Foehn effect) in **Book 3 — Meteorology**, chapters 2 and 8; here the lesson is strategic: the shortest route on the map is rarely the fastest over the ground.
+* **Organised lift systems**: the mesetas generate **convergence lines**, and the great ranges (the Sistema Central is the classic example) trigger **mountain waves** downwind. Plan the task along these structures, not across them, and your average speed climbs sharply. You studied the phenomena themselves (convergence, wave, the Foehn effect) in **Book 3 — Meteorology**, chapters 2 and 8; here the lesson is strategic: the shortest route on the map is rarely the fastest over the ground.
 * **Shaded areas**: north faces and deep valleys go into shade hours before the mesetas. Plan to cross the critical areas during the middle of the day.
 
 ## Survival equipment: when the route complicates a rescue
@@ -90,7 +90,7 @@ In practice, for a crossing over the Spanish mountains: water, warm clothing (at
 A good pilot knows when to stop being a competitor and become a survivor.
 
 * **Minimum acceptable thermal**: below a certain height (500 m above the ground, for example), any thermal is a good one. Above it, pick only the best.
-* **Decision height**: set a point at which you stop looking for the next thermal and concentrate only on choosing a field to land in. Do not wait until you are at 100 metres to look for one. The criteria for choosing and assessing the field from the air —the **7 S** rule— are developed in **Book 6 — Operational Procedures**, chapter 5; go over them before every cross-country flight.
+* **Decision height**: set a point at which you stop looking for the next thermal and concentrate only on choosing a field to land in. Do not wait until you are at 100 metres to look for one. The criteria for choosing and assessing a field from the air, the **7 S** rule, are covered in **Book 6 — Operational Procedures**, chapter 5; go over them before every cross-country flight.
 
 ::: {.callout-note title="Airmanship"}
 Your minima should be more conservative if you are flying in unfamiliar areas or in low-performance gliders. Safety is never negotiable.

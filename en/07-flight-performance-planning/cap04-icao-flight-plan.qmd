@@ -22,7 +22,7 @@ origen-commit: 5a71faf
 Under **SERA.4001** (SERA: Standardised European Rules of the Air) and its application in Spain, a glider needs a flight plan in these cases:
 
 * **Cross-border flights**: whenever you cross an international border.
-* **Air traffic control service**: a flight plan is mandatory for any flight provided with an air traffic control service —in practice, **classes B, C and D**— and when the departure or destination is a **controlled aerodrome**. Note the subtlety of class E: it is controlled airspace, but VFR traffic is not provided with a control service there, so it needs no flight plan, no radio and no clearance (SERA.4001(b)).
+* **Air traffic control service**: a flight plan is mandatory for any flight provided with an air traffic control service (in practice, **classes B, C and D**) and when the departure or destination is a **controlled aerodrome**. Note the subtlety of class E: it is controlled airspace, but VFR traffic is not provided with a control service there, so it needs no flight plan, no radio and no clearance (SERA.4001(b)).
 * **When required by the ATS authority**: in designated areas or along designated routes, to facilitate information, alerting and SAR services or coordination with military units.
 * **Night VFR flight**: if the flight will leave the vicinity of the aerodrome (an exceptional case in a glider).
 * **Over the sea**: in Spain, for flights more than 12 nautical miles from the coast (a national requirement; check the value in force in AIP-España, ENR 1.10).
@@ -36,7 +36,7 @@ The filing times (AIP-España, ENR 1.10) depend on what you request and where yo
 
 Filling in an ICAO form for an aircraft with no engine has its quirks (@fig-07-cap04-fpl-casillas):
 
-* **Item 8 (flight rules and type of flight)**: the item carries two pieces of data. First the **flight rules**: **V** (VFR) —even if you are flying a competition, legally you are a visual flight—. Then the **type of flight**: for a sport glider, **G** (general aviation). So Item 8 reads **V** and **G**.
+* **Item 8 (flight rules and type of flight)**: the item carries two pieces of data. First the **flight rules**: **V** (VFR): even in a competition, you are legally a visual flight. Then the **type of flight**: for a sport glider, **G** (general aviation). So Item 8 reads **V** and **G**.
 * **Item 9 (type of aircraft)**: enter **GLID** (**glider**).
 * **Item 15 (speed and route)**: the item asks for the cruising **true airspeed (TAS)**, with **K** for km/h (e.g. K0120) or **N** for knots (e.g. N0065); for a glider you enter the estimated cruising average for the task, which is the only figure you can give in advance. For the route, the turning points or areas (e.g. DCT VTC-1 DCT VTC-2 DCT).
 * **Item 16 (destination and alternates)**: if you intend to land out, use **ZZZZ** and give the details of the place in Item 18.
@@ -60,11 +60,11 @@ The FIC is not only for filing flight plans. On a crossing over areas such as th
 
 ## Touring motor gliders (TMG)
 
-If you fly a touring motor glider (TMG) and fly the cross-country under power, the rules change: for flight plan purposes you are a normal powered aircraft. The endurance you declare must be your real fuel endurance —tank capacity and engine consumption—, not the hours of daylight left.
+If you fly a touring motor glider (TMG) and fly the cross-country under power, the rules change: for flight plan purposes you are a normal powered aircraft. The endurance you declare must be your real fuel endurance (tank capacity and engine consumption), not the hours of daylight left.
 
 ## Closing the flight plan: the critical step
 
-A flight plan that is opened and never closed triggers a SAR operation: helicopters and emergency teams mobilised. If it is down to forgetfulness, the fines are severe on top of the embarrassment.
+A flight plan that is opened and never closed triggers a SAR operation: helicopters and emergency teams mobilised. If you simply forgot, expect a heavy fine on top of the embarrassment.
 
 * **How to close it**: call the ARO (ATS reporting office), tell the control tower by radio before landing, or use an official app such as ENAIRE's ICARO.
 * **Timing**: you have 30 minutes from the estimated time of arrival before they start to worry. If you land in a field with no coverage, try to let someone at the club know or find a phone as soon as possible.

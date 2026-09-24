@@ -33,7 +33,7 @@ Learn these two values by heart for your glider type. In still air there is no r
 
 ## The effect of weight: the polar shifts
 
-Remember the water ballast from the previous chapter? Here is the graphical explanation of why it works. As the weight (wing loading) increases, the whole polar curve shifts to the right and downwards, sliding along the tangent from the origin (@fig-07-cap02-polar-peso). There are three consequences:
+Remember the water ballast from the previous chapter? This is why it works, shown on the graph. As the weight (wing loading) increases, the whole polar curve shifts to the right and downwards, sliding along the tangent from the origin (@fig-07-cap02-polar-peso). There are three consequences:
 
 * **The best glide ratio (L/D) does not change**: the tangent from the origin touches the new curve with the same slope. A glider with a glide ratio of 40 still has a glide ratio of 40 when full of water.
 * **That glide is reached at a higher speed**: if your best glide was at 95 km/h empty, with ballast it may be at 110 km/h. You cover the same kilometres per metre of height, but faster. That is why water wins races on strong days.
@@ -74,7 +74,7 @@ Why does this matter to you in Spain? Because many of the gliding aerodromes on 
 ![What separates TAS from IAS as you climb, with the rule of 2 % for every 300 m: for an indicated 100 km/h, the real speed grows by 7 % over the meseta and by 27 % at the wave ceiling](imagenes/07-cap02-ias-tas-altitud.png){#fig-07-cap02-ias-tas-altitud width="100%"}
 
 ::: {.callout-important title="Regulation"}
-Your glider's speed limitations (V~NE~ (never exceed speed), V~A~ (manoeuvring speed) in turbulent air) appear in the **approved flight manual (AFM)** and derive from the European certification specification **CS-22** for sailplanes. Take care when flying high: **flutter** depends on TAS, so the **indicated** V~NE~ decreases with altitude. This reduction is prescribed by **CS 22.1505**, which requires the table to be shown on a placard visible in the cockpit. The AFM includes a table of V~NE~ against altitude —for example, a glider with a V~NE~ of 250 km/h at sea level may be limited to about 200 km/h indicated at 6,000 m—. Check it before any wave flight.
+Your glider's speed limitations (V~NE~ (never exceed speed), V~A~ (manoeuvring speed) in turbulent air) appear in the **approved flight manual (AFM)** and derive from the European certification specification **CS-22** for sailplanes. Take care when flying high: **flutter** depends on TAS, so the **indicated** V~NE~ decreases with altitude. This reduction is prescribed by **CS 22.1505**, which requires the table to be shown on a placard visible in the cockpit. The AFM includes a table of V~NE~ against altitude. For example, a glider with a V~NE~ of 250 km/h at sea level may be limited to about 200 km/h indicated at 6,000 m. Check it before any wave flight.
 :::
 
 ## Final glide and safety

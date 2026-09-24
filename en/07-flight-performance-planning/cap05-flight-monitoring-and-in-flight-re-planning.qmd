@@ -19,7 +19,7 @@ origen-commit: e9e893e
 
 ## The glide cone: your safety bubble
 
-Imagine an inverted cone reaching down from your glider to the ground. Everything inside that circle is reachable terrain if you do not find a single thermal more (@fig-07-cap05-cono-alcance).
+Imagine an inverted cone reaching down from your glider to the ground. Everything inside that circle is reachable terrain if you find no more thermals (@fig-07-cap05-cono-alcance).
 
 * **The shape of the cone**: in still air it is a perfect circle. With a strong headwind it is distorted into an ellipse that shrinks ahead and stretches behind.
 * **The decision horizon**: do not wait until your destination is on the edge of the cone. If the goal is beyond your visual or instrument reach, it is time to re-plan.
@@ -40,7 +40,7 @@ Under stress you will not always be able to trust the flight computer. You have 
 
 ## Monitoring the final glide: the 3-point method
 
-Working out the final glide once and flying it on blind faith is betting the task —and the glider— on the air mass not changing. The professional method checks the margin at three points:
+Working out the final glide once and flying it on blind faith is betting the task, and the glider, on the air mass not changing. The professional method checks the margin at three points:
 
 1. **At the start of the final glide**: note your planned arrival height (for example, arrival calculated at +300 m above the field).
 2. **At the midpoint of the leg**: recalculate. If the margin holds at around +300 m, the air mass is behaving as you expected. If it has dropped to +150 m and is still falling, you are flying through sink or more headwind than forecast. Speed up the decision, not the glider: look for your alternative now.
@@ -72,7 +72,7 @@ The safety height is not negotiable: it is the margin that absorbs a miscalculat
 
 ## The human factor: your calculator degrades too
 
-Everything above —mental rules, the 3-point method, the PNR decision— depends on a single instrument: your brain. And that instrument loses precision just when you need it most:
+Everything above (mental rules, the 3-point method, the PNR decision) depends on a single instrument: your brain. And that instrument loses precision just when you need it most:
 
 * **Hypoxia**: on wave flights above 3,000 m without supplementary oxygen, mental arithmetic and judgement degrade insidiously: the first symptom is, precisely, not noticing the symptoms. A final glide calculated with incipient hypoxia is a miscalculated final glide.
 * **Dehydration and fatigue**: after 4 or 5 hours of task under the canopy, dehydration slows decisions and encourages fixation: carrying on towards the goal “because that was the plan” instead of re-planning. Delay in accepting an outlanding is exactly the error this chapter tries to prevent.

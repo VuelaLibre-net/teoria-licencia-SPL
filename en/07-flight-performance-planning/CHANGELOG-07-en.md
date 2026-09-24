@@ -13,6 +13,15 @@ was translated from (`origen-commit`). Terminology follows `en/terminologia.yml`
 
 ## [In progress]
 
+**What to reread:** **introduction, box descriptions.** Each now opens with “These…”, and the
+Airmanship one ends “airmanship sets the standard”. The rest is wording only.
+
+### Changed
+
+* **Introduction and cap01–cap05** — prose reworded to read less like a translation: Spanish-style
+  dashed asides become commas, brackets or colons, and some literal phrasings are rewritten. No
+  figures, formulas, regulatory quotes or glossary terms change.
+
 ## [0.8.0] — 24 September 2026
 
 **What to reread:** **the whole book.** First complete translation, from Spanish version 1.0-rc.3.

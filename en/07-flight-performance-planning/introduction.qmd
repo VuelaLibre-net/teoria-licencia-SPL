@@ -7,7 +7,7 @@ origen-commit: 7a61500
 
 ***Subject 7 of 9 of the theoretical examination for the Sailplane Pilot Licence (SPL)***
 
-The difference between the pilot who completes a cross-country flight and the one who lands in a farmer's field is not always a matter of technique. Very often it lies in the calculations that were made —or not made— on the ground: the polar nobody checked, the loading worked out by eye, the flight plan that was never closed after the outlanding.
+The difference between the pilot who completes a cross-country flight and the one who lands in a farmer's field is not always a matter of technique. More often it comes down to the sums done, or skipped, on the ground: the polar nobody checked, the loading worked out by eye, the flight plan that was never closed after the outlanding.
 
 Five chapters turn the polar, MacCready, mass and balance and the ICAO flight plan into real flying judgement.
 
@@ -18,38 +18,38 @@ The best cross-country pilots do not improvise. They calculate.
 
 **Start at the end of each chapter**
 
-Every chapter closes with a summary on a yellow background. It is neither decoration nor an afterthought: it is the chapter boiled down to what you must not forget.
+Every chapter closes with a summary on a yellow background. It is not decoration, and it is not an afterthought. It is the chapter boiled down to what you must not forget.
 
 Read it **before** you study the chapter, so that you know where you are heading, and come back to it **when you finish**, to check whether what you remember is what matters. On the eve of the exam, those summaries are your complete revision: if a single one feels unfamiliar, you know which chapter to reread.
 
 **The boxes are not side notes**
 
-The running text explains. The boxes warn, and each one speaks with a different voice. Recognising it tells you how to read it:
+The running text explains. The boxes warn, and each one speaks with a different voice. Once you recognise the voice, you know how to read the box:
 
 ::: {.callout-warning title="Safety"}
-They flag anything whose neglect could cost you the glider or your life. These are the ones to reread before flying, not before the exam.
+These flag anything that could cost you the glider, or your life, if you ignore it. Reread them before you fly, not before the exam.
 :::
 
 ::: {.callout-important title="Regulation"}
-They set out what the law requires. There is no room for personal judgement: you comply. When they clash with your habits, it is the habit that is wrong.
+These set out what the law requires. There is no room for personal judgement: you comply. When they clash with your habits, it is the habit that is wrong.
 :::
 
 ::: {.callout-tip title="Golden rule"}
-They condense into one sentence something that took a pilot years to learn. They are there so that it takes you a minute.
+These put into one sentence something that took a pilot years to learn, so that it takes you a minute.
 :::
 
 ::: {.callout-note title="Airmanship"}
-They deal with the judgement that is not written in any regulation: what separates a legal pilot from a good one. The regulations set the minimum; this sets the standard.
+These cover the judgement no regulation writes down: what separates a legal pilot from a good one. The regulations set the minimum; airmanship sets the standard.
 :::
 
 **How to find what you are looking for**
 
 The **table of contents** in the front matter takes you to every chapter and its sections. After it comes the **list of figures**: the drawings and diagrams are numbered and referred to from the text, so you can go straight to the figure and back.
 
-The **glossary**, at the end of the book, defines the terms and acronyms of the subject. Use it without embarrassment: much of the difficulty of aviation lies in its vocabulary, not in its ideas. The **bibliography** tells you where everything comes from and where to go next if a chapter leaves you wanting more.
+The **glossary**, at the end of the book, defines the terms and acronyms of the subject. Use it freely: much of the difficulty of aviation lies in its vocabulary, not in its ideas. The **bibliography** tells you where everything comes from and where to go next if a chapter leaves you wanting more.
 
 **What this book is not**
 
 This manual prepares you for the theoretical examination; it does not replace your instructor. Theory gives you judgement; judgement becomes piloting in the glider's seat, with an FI(S) beside you.
 
-And when the regulations change —they will—, the legal text published by AESA or EASA prevails over what you read here.
+And when the regulations change, as they will, the legal text published by AESA or EASA takes precedence over anything you read here.

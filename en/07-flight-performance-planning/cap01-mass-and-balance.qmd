@@ -5,7 +5,7 @@ origen-commit: e9e893e
 
 # Mass and balance
 
-> Mass and balance are the foundations of safety on every flight. The numbers you write down in the hangar have very real physical consequences: they decide whether the glider fits you like a glove or turns into an unpredictable machine.
+> Mass and balance are the foundations of safety on every flight. The numbers you write down in the hangar have very real physical consequences: they decide whether the glider handles like a glove or turns unpredictable.
 >
 >
 > In this chapter you will learn:
@@ -18,7 +18,7 @@ origen-commit: e9e893e
 
 ## Centre of gravity (CG) and stability
 
-The centre of gravity is the point where the whole weight of the glider is concentrated. Longitudinal stability depends on its position relative to the centre of pressure: where the CG lies decides how the aircraft responds to the stick.
+The centre of gravity is the point through which the glider's whole weight acts. Longitudinal stability depends on its position relative to the centre of pressure: where the CG lies decides how the aircraft responds to the stick.
 
 ### The danger of an aft CG
 
@@ -85,7 +85,7 @@ $$
 
 One centimetre from the aft limit. That pilot needs ballast in the nose before take-off.
 
-The lesson lies in the direction of the change: **the lighter the pilot, the further aft the CG moves**, because the seat is forward of the *datum* and its moment is the one pulling the whole towards the front.
+The lesson is in which way the CG moves: **the lighter the pilot, the further aft the CG moves**, because the seat is forward of the *datum* and its moment is the one pulling the whole towards the front.
 
 With the four cases this chapter works out plotted against the permitted range (@fig-07-cap01-envolvente-centrado), you can see at a glance what the individual figures do not show: which way the CG moves in each situation, and how much margin is left before the limit.
 
@@ -103,11 +103,11 @@ The maximum take-off mass (MTOM) is not a suggestion: it is a structural limit. 
 
 Water lets you “cheat” the polar, but it demands flawless management. By increasing the wing loading, the glider reaches much higher cruising speeds at the same glide angle, which makes it the ideal weapon for days with strong thermals. The downside is that the climb rate gets worse: if thermals drop below 1.5 m/s, the extra weight sinks you before you can climb.
 
-And one obligation that allows no carelessness: dump the water before landing. The extra weight on touchdown can seriously damage the undercarriage and the fuselage. Dumping takes between 3 and 8 minutes depending on the glider, so plan it before you join the circuit.
+One thing you cannot get wrong: dump the water before landing. The extra weight on touchdown can seriously damage the undercarriage and the fuselage. Dumping takes between 3 and 8 minutes depending on the glider, so plan it before you join the circuit.
 
 ### Fin ballast: the clever counterweight
 
-Many modern gliders carry a small water tank in the fin: the fin ballast (*tail tank*). Its purpose is not to add weight but to reposition the CG. The main wing tanks usually sit slightly forward of the centre of gravity, so filling them moves the CG forward and brings in trim drag. A few litres in the tail return the CG to its optimum position, close to the aft limit, where drag is lowest.
+Many modern gliders carry a small water tank in the fin: the fin ballast (*tail tank*). It is there to move the CG, not to add weight. The main wing tanks usually sit slightly forward of the centre of gravity, so filling them moves the CG forward and brings in trim drag. A few litres in the tail return the CG to its optimum position, close to the aft limit, where drag is lowest.
 
 Two non-negotiable rules when using it:
 
@@ -159,7 +159,7 @@ $$
 
 Five kilos have moved the CG from **+0.335 to +0.373 m**, very close to the aft limit, which is where trim drag is lowest.
 
-Two things to take away. First: a few litres a long way from the *datum* move the CG a lot, which is why they must be dumped with the wings —on their own they would leave the CG out of range aft—. Second: check the result against the range, not against your intuition. One more litre, six instead of five, would give
+Two things to take away. First: a few litres a long way from the *datum* move the CG a lot, which is why they must be dumped with the wings: on their own they would leave the CG out of range aft. Second: check the result against the range, not against your intuition. One more litre, six instead of five, would give
 
 $$
 CG = \frac{177.4}{466} = +0.381\ \mathrm{m}
