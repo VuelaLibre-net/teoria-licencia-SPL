@@ -1,0 +1,1391 @@
+# Terminología ES→EN de la colección SPL.
+#
+# Fuente de verdad para la edición inglesa: cada término del glosario
+# unificado (recursos-completo/glosario.qmd) con su equivalente inglés.
+#
+#   es       rótulo del glosario español, literal.
+#   en       rótulo inglés que se usará en glossary.qmd y en el texto.
+#   origen   glosario: el equivalente inglés ya figuraba en el rótulo ES.
+#            propuesta: equivalente nuevo, pendiente de revisión.
+#   libros   libros cuyo glosario contiene la entrada.
+#   nota     decisión o duda terminológica.
+#
+# Criterios: ortografía británica y terminología EASA/ICAO (centre,
+# licence, manoeuvre, mass en vez de weight); siglas oficiales intactas;
+# nombres propios españoles (AESA, CIAIAC, DGAC) se conservan con glosa.
+# Al revisar una propuesta, cambiar su origen a «revisado».
+
+- es: "ACC (Centro de Control de Área / Area Control Centre)"
+  en: "ACC (Area Control Centre)"
+  origen: glosario
+  libros: ["01"]
+- es: "AD (Directiva de Aeronavegabilidad / Airworthiness Directive; Aeródromos)"
+  en: "AD (Airworthiness Directive; Aerodromes)"
+  origen: glosario
+  libros: ["01", "08"]
+- es: "ADM (Toma de decisiones aeronáuticas / Aeronautical Decision-Making)"
+  en: "ADM (Aeronautical Decision-Making)"
+  origen: glosario
+  libros: ["02"]
+- es: "Aerofrenos (airbrakes)"
+  en: "Airbrakes"
+  origen: glosario
+  libros: ["06", "08"]
+- es: "Aerotow (Remolque por avión)"
+  en: "Aerotow"
+  origen: glosario
+  libros: ["06"]
+- es: "AESA (Agencia Estatal de Seguridad Aérea)"
+  en: "AESA (Spanish Aviation Safety Agency)"
+  origen: propuesta
+  libros: ["01", "02"]
+  nota: "nombre propio: se mantiene «AESA»; la glosa inglesa es descriptiva"
+- es: "AFIL (Plan de vuelo presentado en vuelo / Airborne Flight Plan)"
+  en: "AFIL (Airborne Flight Plan)"
+  origen: glosario
+  libros: ["04"]
+- es: "AFIS (Servicio de Información de Vuelo de Aeródromo / Aerodrome Flight Information Service)"
+  en: "AFIS (Aerodrome Flight Information Service)"
+  origen: glosario
+  libros: ["04"]
+- es: "AFM (Manual de Vuelo de la Aeronave / Aircraft Flight Manual)"
+  en: "AFM (Aircraft Flight Manual)"
+  origen: glosario
+  libros: ["01", "08"]
+- es: "AGL (Altura sobre el terreno / Above Ground Level)"
+  en: "AGL (Above Ground Level)"
+  origen: glosario
+  libros: ["01", "09"]
+- es: "AIC (Circular de Información Aeronáutica / Aeronautical Information Circular)"
+  en: "AIC (Aeronautical Information Circular)"
+  origen: glosario
+  libros: ["01"]
+- es: "AIP (Publicación de Información Aeronáutica / Aeronautical Information Publication)"
+  en: "AIP (Aeronautical Information Publication)"
+  origen: glosario
+  libros: ["01", "09"]
+- es: "AIRAC (Reglamentación y Control de la Información Aeronáutica / Aeronautical Information Regulation\
+    \ and Control)"
+  en: "AIRAC (Aeronautical Information Regulation and Control)"
+  origen: glosario
+  libros: ["01"]
+- es: "AIREP (Informe meteorológico en vuelo / Aircraft Report)"
+  en: "AIREP (Air-Report)"
+  origen: glosario
+  libros: ["04"]
+  nota: "ICAO: «air-report»; el glosario ES dice «Aircraft Report»"
+- es: "AIRMET (Airmen’s Meteorological Information)"
+  en: "AIRMET (Airmen's Meteorological Information)"
+  origen: glosario
+  libros: ["03"]
+- es: "AIS (Servicio de Información Aeronáutica / Aeronautical Information Service)"
+  en: "AIS (Aeronautical Information Service)"
+  origen: glosario
+  libros: ["01"]
+- es: "ALERFA (Fase de alerta / Alert Phase)"
+  en: "ALERFA (Alert Phase)"
+  origen: glosario
+  libros: ["01"]
+- es: "ALRS (Servicio de alerta / Alerting Service)"
+  en: "ALRS (Alerting Service)"
+  origen: glosario
+  libros: ["01"]
+- es: "Altitud geométrica (ellipsoidal height)"
+  en: "Geometric altitude (ellipsoidal height)"
+  origen: glosario
+  libros: ["09"]
+- es: "Altocúmulo lenticular (ACSL)"
+  en: "Altocumulus lenticularis (ACSL)"
+  origen: propuesta
+  libros: ["03"]
+- es: "Altura de decisión"
+  en: "Decision height"
+  origen: propuesta
+  libros: ["06"]
+  nota: "en vuelo sin motor suele decirse también «decision point» o «commit height»; confirmar uso en\
+    \ el cap."
+- es: "AMA (Altitud Mínima de Área / Area Minimum Altitude)"
+  en: "AMA (Area Minimum Altitude)"
+  origen: glosario
+  libros: ["09"]
+- es: "AMC (Medios Aceptables de Cumplimiento / Acceptable Means of Compliance)"
+  en: "AMC (Acceptable Means of Compliance)"
+  origen: glosario
+  libros: ["01"]
+- es: "AME (Médico Examinador Aéreo / Aero-Medical Examiner)"
+  en: "AME (Aero-Medical Examiner)"
+  origen: glosario
+  libros: ["01", "02"]
+- es: "Amerizaje (Ditching)"
+  en: "Ditching"
+  origen: glosario
+  libros: ["06"]
+- es: "AMP (Programa de Mantenimiento de la Aeronave / Aircraft Maintenance Programme)"
+  en: "AMP (Aircraft Maintenance Programme)"
+  origen: glosario
+  libros: ["01"]
+- es: "AMSL (Altitud sobre el nivel del mar / Above Mean Sea Level)"
+  en: "AMSL (Above Mean Sea Level)"
+  origen: glosario
+  libros: ["01", "09"]
+- es: "ANDS (Error de aceleración de la brújula)"
+  en: "ANDS (Accelerate North, Decelerate South)"
+  origen: propuesta
+  libros: ["09"]
+  nota: "mnemotecnia inglesa original; en ES se glosa como «error de aceleración»"
+- es: "Ángulo de ataque crítico"
+  en: "Critical angle of attack"
+  origen: propuesta
+  libros: ["05"]
+- es: "Anticiclón (H)"
+  en: "Anticyclone (High, H)"
+  origen: propuesta
+  libros: ["03"]
+- es: "APP (Control de Aproximación / Approach Control)"
+  en: "APP (Approach Control)"
+  origen: glosario
+  libros: ["01"]
+- es: "ARC (Certificado de Revisión de la Aeronavegabilidad / Airworthiness Review Certificate)"
+  en: "ARC (Airworthiness Review Certificate)"
+  origen: glosario
+  libros: ["01", "08"]
+- es: "ASM (Gestión del espacio aéreo / Airspace Management)"
+  en: "ASM (Airspace Management)"
+  origen: glosario
+  libros: ["01"]
+- es: "ATC (Control de Tránsito Aéreo / Air Traffic Control)"
+  en: "ATC (Air Traffic Control)"
+  origen: glosario
+  libros: ["01", "02", "04", "09"]
+- es: "ATCO (Controlador de Tránsito Aéreo / Air Traffic Control Officer)"
+  en: "ATCO (Air Traffic Control Officer)"
+  origen: glosario
+  libros: ["01"]
+- es: "ATFM (Gestión de Afluencia del Tránsito Aéreo / Air Traffic Flow Management)"
+  en: "ATFM (Air Traffic Flow Management)"
+  origen: glosario
+  libros: ["01"]
+- es: "ATIS (Servicio Automático de Información Terminal / Automatic Terminal Information Service)"
+  en: "ATIS (Automatic Terminal Information Service)"
+  origen: glosario
+  libros: ["04"]
+- es: "ATM (Gestión del Tránsito Aéreo / Air Traffic Management)"
+  en: "ATM (Air Traffic Management)"
+  origen: glosario
+  libros: ["01"]
+- es: "Atmósfera Estándar Internacional (ISA)"
+  en: "International Standard Atmosphere (ISA)"
+  origen: propuesta
+  libros: ["03"]
+- es: "ATS (Servicios de Tránsito Aéreo / Air Traffic Services)"
+  en: "ATS (Air Traffic Services)"
+  origen: glosario
+  libros: ["01", "04", "09"]
+- es: "ATZ (Zona de tránsito de aeródromo / Aerodrome Traffic Zone)"
+  en: "ATZ (Aerodrome Traffic Zone)"
+  origen: glosario
+  libros: ["01"]
+- es: "AUT / TUE (Autorización de Uso Terapéutico / Therapeutic Use Exemption)"
+  en: "TUE (Therapeutic Use Exemption)"
+  origen: glosario
+  libros: ["02"]
+  nota: "en inglés desaparece «AUT»"
+- es: "Autoinformación (broadcast)"
+  en: "Blind broadcast"
+  origen: glosario
+  libros: ["04"]
+  nota: "SERA/ICAO: transmisión de autoinformación en frecuencia común; confirmar frente a «self-announce»"
+- es: "AWY (Aerovía / Airway)"
+  en: "AWY (Airway)"
+  origen: glosario
+  libros: ["01"]
+- es: "Bail-out (Abandono del planeador)"
+  en: "Bail-out"
+  origen: glosario
+  libros: ["06", "08"]
+- es: "Base (Tramo de base / Base leg)"
+  en: "Base leg"
+  origen: glosario
+  libros: ["06"]
+- es: "Bataneo (buffet)"
+  en: "Buffet"
+  origen: glosario
+  libros: ["03"]
+- es: "Bernoulli, teorema de"
+  en: "Bernoulli's theorem"
+  origen: propuesta
+  libros: ["05"]
+- es: "Borrasca (Depresión / L)"
+  en: "Depression (Low, L)"
+  origen: propuesta
+  libros: ["03"]
+- es: "Brazo de palanca (Arm)"
+  en: "Arm"
+  origen: glosario
+  libros: ["07"]
+- es: "Brisa anabática (viento anabático)"
+  en: "Anabatic wind"
+  origen: propuesta
+  libros: ["03"]
+- es: "Brisa catabática (viento catabático)"
+  en: "Katabatic wind"
+  origen: propuesta
+  libros: ["03"]
+- es: "Brisa marina (sea breeze)"
+  en: "Sea breeze"
+  origen: glosario
+  libros: ["03"]
+- es: "CAA (Autoridad de Aviación Civil / Civil Aviation Authority)"
+  en: "CAA (Civil Aviation Authority)"
+  origen: glosario
+  libros: ["01"]
+- es: "Cable flojo (Slack line)"
+  en: "Slack line"
+  origen: glosario
+  libros: ["06"]
+- es: "Cadena del error"
+  en: "Error chain"
+  origen: propuesta
+  libros: ["02"]
+- es: "CAMO (Organización de Gestión del Mantenimiento de la Aeronavegabilidad Continuada / Continuing\
+    \ Airworthiness Management Organisation)"
+  en: "CAMO (Continuing Airworthiness Management Organisation)"
+  origen: glosario
+  libros: ["01"]
+- es: "CAO (Organización Combinada de Aeronavegabilidad / Combined Airworthiness Organisation)"
+  en: "CAO (Combined Airworthiness Organisation)"
+  origen: glosario
+  libros: ["01"]
+- es: "Capa límite"
+  en: "Boundary layer"
+  origen: propuesta
+  libros: ["05"]
+- es: "CAPE (Energía Potencial Convectiva Disponible / Convective Available Potential Energy)"
+  en: "CAPE (Convective Available Potential Energy)"
+  origen: glosario
+  libros: ["03"]
+- es: "Carga alar (wing loading)"
+  en: "Wing loading"
+  origen: glosario
+  libros: ["07", "08"]
+- es: "Carga de rotura (Ultimate load)"
+  en: "Ultimate load"
+  origen: glosario
+  libros: ["08"]
+- es: "Carga límite (Limit load)"
+  en: "Limit load"
+  origen: glosario
+  libros: ["08"]
+- es: "CAVOK (Visibilidad, nubes y tiempo presente mejores que los valores o condiciones prescritos)"
+  en: "CAVOK (Ceiling And Visibility OK)"
+  origen: propuesta
+  libros: ["01", "03", "04"]
+  nota: "definición ICAO: visibilidad, nubes y tiempo presente mejores que los prescritos"
+- es: "CB-SIFT-CBE"
+  en: "CB-SIFT-CBE"
+  origen: propuesta
+  libros: ["06"]
+  nota: "comprobación previa al despegue; la mnemotecnia es de origen británico y se conserva"
+- es: "CDR (Ruta condicional / Conditional Route)"
+  en: "CDR (Conditional Route)"
+  origen: glosario
+  libros: ["01"]
+- es: "Centro de Presiones (CP)"
+  en: "Centre of pressure (CP)"
+  origen: propuesta
+  libros: ["05"]
+- es: "CG (Centro de gravedad / Center of Gravity)"
+  en: "CG (Centre of Gravity)"
+  origen: glosario
+  libros: ["05", "07", "08"]
+  nota: "ortografía británica: «centre»"
+- es: "CIAIAC (Comisión de Investigación de Accidentes e Incidentes de Aviación Civil)"
+  en: "CIAIAC (Spanish Civil Aviation Accident and Incident Investigation Commission)"
+  origen: propuesta
+  libros: ["01"]
+  nota: "nombre propio; glosa descriptiva"
+- es: "Cianosis"
+  en: "Cyanosis"
+  origen: propuesta
+  libros: ["02"]
+- es: "Cinetosis"
+  en: "Motion sickness"
+  origen: propuesta
+  libros: ["02"]
+- es: "Circuito de tráfico (Circuito de aeródromo)"
+  en: "Traffic circuit (aerodrome circuit)"
+  origen: propuesta
+  libros: ["06"]
+  nota: "británico «circuit»; evitar «pattern» (uso FAA)"
+- es: "Cizalladura (wind shear)"
+  en: "Wind shear"
+  origen: glosario
+  libros: ["03"]
+- es: "Coeficiente de planeo (fineza, L/D)"
+  en: "Glide ratio (L/D)"
+  origen: propuesta
+  libros: ["05", "07", "09"]
+- es: "CofA (Certificado de Aeronavegabilidad / Certificate of Airworthiness)"
+  en: "CofA (Certificate of Airworthiness)"
+  origen: glosario
+  libros: ["01", "08"]
+- es: "Colación (readback)"
+  en: "Readback"
+  origen: glosario
+  libros: ["04"]
+- es: "Collado barométrico (pantano barométrico)"
+  en: "Col (barometric col)"
+  origen: propuesta
+  libros: ["03"]
+- es: "Compensador (Trim)"
+  en: "Trim"
+  origen: glosario
+  libros: ["05", "08"]
+- es: "Complacencia"
+  en: "Complacency"
+  origen: propuesta
+  libros: ["02"]
+- es: "Componente cruzada (crosswind component)"
+  en: "Crosswind component"
+  origen: glosario
+  libros: ["09"]
+- es: "Composite (Material compuesto)"
+  en: "Composite"
+  origen: glosario
+  libros: ["08"]
+- es: "Computador de vuelo (whizz-wheel)"
+  en: "Flight computer (whizz-wheel)"
+  origen: glosario
+  libros: ["09"]
+- es: "Conciencia situacional"
+  en: "Situational awareness"
+  origen: propuesta
+  libros: ["02"]
+- es: "Cono de alcance"
+  en: "Glide cone"
+  origen: propuesta
+  libros: ["09"]
+  nota: "confirmar: «final glide cone» / «range cone»"
+- es: "CPL (Licencia de Piloto Comercial / Commercial Pilot Licence)"
+  en: "CPL (Commercial Pilot Licence)"
+  origen: glosario
+  libros: ["01"]
+- es: "Crepúsculo civil"
+  en: "Civil twilight"
+  origen: propuesta
+  libros: ["09"]
+- es: "CRISE"
+  en: "CRISE"
+  origen: propuesta
+  libros: ["06"]
+  nota: "mnemotecnia española; buscar equivalente o explicar en nota"
+- es: "CS (Especificaciones de Certificación / Certification Specifications)"
+  en: "CS (Certification Specifications)"
+  origen: glosario
+  libros: ["01"]
+- es: "CS-22 (Especificaciones de Certificación para Planeadores y Planeadores Propulsados / Certification\
+    \ Specifications for Sailplanes and Powered Sailplanes)"
+  en: "CS-22 (Certification Specifications for Sailplanes and Powered Sailplanes)"
+  origen: glosario
+  libros: ["01", "08"]
+- es: "CTA (Área de control / Control Area)"
+  en: "CTA (Control Area)"
+  origen: glosario
+  libros: ["01"]
+- es: "CTR (Zona de control / Control Zone)"
+  en: "CTR (Control Zone)"
+  origen: glosario
+  libros: ["01", "04"]
+- es: "Cultura justa (Just Culture)"
+  en: "Just culture"
+  origen: glosario
+  libros: ["02"]
+- es: "Cúmulo (Cu)"
+  en: "Cumulus (Cu)"
+  origen: propuesta
+  libros: ["03"]
+- es: "Cúmulo congestus (Cu con)"
+  en: "Cumulus congestus (Cu con)"
+  origen: propuesta
+  libros: ["03"]
+- es: "Cumulonimbus (Cb)"
+  en: "Cumulonimbus (Cb)"
+  origen: propuesta
+  libros: ["03"]
+- es: "Cúpula (Canopy)"
+  en: "Canopy"
+  origen: glosario
+  libros: ["08"]
+- es: "Curva polar (polar de velocidades)"
+  en: "Polar curve (speed polar)"
+  origen: propuesta
+  libros: ["05", "07"]
+- es: "DALR (Gradiente Adiabático Seco / Dry Adiabatic Lapse Rate)"
+  en: "DALR (Dry Adiabatic Lapse Rate)"
+  origen: glosario
+  libros: ["03"]
+- es: "DANA (Depresión Aislada en Niveles Altos)"
+  en: "Cut-off low (DANA)"
+  origen: propuesta
+  libros: ["03"]
+  nota: "DANA es término español; en inglés «cut-off low»"
+- es: "Datum (Línea de referencia)"
+  en: "Datum"
+  origen: glosario
+  libros: ["07"]
+- es: "Datum WGS-84 (World Geodetic System 1984)"
+  en: "WGS-84 datum (World Geodetic System 1984)"
+  origen: glosario
+  libros: ["09"]
+- es: "DECIDE"
+  en: "DECIDE"
+  origen: propuesta
+  libros: ["02"]
+- es: "Deriva"
+  en: "Drift"
+  origen: propuesta
+  libros: ["05", "09"]
+- es: "Desorientación espacial"
+  en: "Spatial disorientation"
+  origen: propuesta
+  libros: ["02"]
+- es: "Desvío"
+  en: "Deviation"
+  origen: propuesta
+  libros: ["09"]
+  nota: "compass deviation"
+- es: "DETRESFA (Fase de peligro / Distress Phase)"
+  en: "DETRESFA (Distress Phase)"
+  origen: glosario
+  libros: ["01"]
+- es: "DGAC (Dirección General de Aviación Civil)"
+  en: "DGAC (Spanish Directorate General of Civil Aviation)"
+  origen: propuesta
+  libros: ["01"]
+  nota: "nombre propio; glosa descriptiva"
+- es: "Diagrama V-n (envolvente de vuelo)"
+  en: "V-n diagram (flight envelope)"
+  origen: propuesta
+  libros: ["05"]
+- es: "Diedro (ángulo diedro)"
+  en: "Dihedral (dihedral angle)"
+  origen: propuesta
+  libros: ["05"]
+- es: "Disbarismos (Barotraumas)"
+  en: "Dysbarism (barotrauma)"
+  origen: propuesta
+  libros: ["02"]
+- es: "DME (Equipo Radiotelemétrico / Distance Measuring Equipment)"
+  en: "DME (Distance Measuring Equipment)"
+  origen: glosario
+  libros: ["01"]
+- es: "DOP (Dilución de la precisión / Dilution of Precision)"
+  en: "DOP (Dilution of Precision)"
+  origen: glosario
+  libros: ["09"]
+- es: "Dorsal (cuña de altas presiones / ridge)"
+  en: "Ridge (of high pressure)"
+  origen: glosario
+  libros: ["03"]
+- es: "Downburst (microburst / microrráfaga)"
+  en: "Downburst (microburst)"
+  origen: glosario
+  libros: ["03"]
+- es: "EASA (Agencia de la Unión Europea para la Seguridad Aérea / European Union Aviation Safety Agency)"
+  en: "EASA (European Union Aviation Safety Agency)"
+  origen: glosario
+  libros: ["01", "02"]
+- es: "EDS (Sistema de Oxígeno a Demanda / Electronic Delivery System)"
+  en: "EDS (Electronic Delivery System)"
+  origen: glosario
+  libros: ["02", "08"]
+  nota: "revisar: también «Electronic Oxygen Delivery System»"
+- es: "EET (Duración prevista / Estimated Elapsed Time)"
+  en: "EET (Estimated Elapsed Time)"
+  origen: glosario
+  libros: ["01"]
+- es: "Efecto Foehn (Foehn effect)"
+  en: "Foehn effect"
+  origen: glosario
+  libros: ["03"]
+- es: "Efecto veleta"
+  en: "Weathercock stability"
+  origen: propuesta
+  libros: ["05"]
+- es: "Eficacia de mando"
+  en: "Control effectiveness"
+  origen: propuesta
+  libros: ["05"]
+- es: "ELT (Transmisor Localizador de Emergencia / Emergency Locator Transmitter)"
+  en: "ELT (Emergency Locator Transmitter)"
+  origen: glosario
+  libros: ["01", "08"]
+- es: "Energía total (Variómetro de energía total / TE)"
+  en: "Total energy (TE variometer)"
+  origen: glosario
+  libros: ["08"]
+- es: "Engelamiento (icing)"
+  en: "Icing"
+  origen: glosario
+  libros: ["03", "06"]
+- es: "EOBT (Hora estimada fuera de calzos / Estimated Off-Block Time)"
+  en: "EOBT (Estimated Off-Block Time)"
+  origen: glosario
+  libros: ["01", "04", "09"]
+- es: "Error de viraje (regla \"NO me paso / SÍ me paso\")"
+  en: "Turning error (UNOS: Undershoot North, Overshoot South)"
+  origen: propuesta
+  libros: ["09"]
+  nota: "la regla ES «NO me paso / SÍ me paso» se sustituye por la mnemotecnia inglesa UNOS"
+- es: "Error deliberado (dog-leg)"
+  en: "Deliberate error (dog-leg)"
+  origen: glosario
+  libros: ["09"]
+  nota: "británico también «aiming off»"
+- es: "Escala"
+  en: "Scale"
+  origen: propuesta
+  libros: ["09"]
+- es: "Espacio aéreo controlado"
+  en: "Controlled airspace"
+  origen: propuesta
+  libros: ["09"]
+- es: "Estabilidad atmosférica"
+  en: "Atmospheric stability"
+  origen: propuesta
+  libros: ["03"]
+- es: "Estabilidad condicional"
+  en: "Conditional instability"
+  origen: propuesta
+  libros: ["03"]
+  nota: "el glosario ES dice «estabilidad condicional»; el término inglés habitual es «conditional instability»"
+- es: "Estabilidad dinámica"
+  en: "Dynamic stability"
+  origen: propuesta
+  libros: ["05"]
+- es: "Estabilidad estática"
+  en: "Static stability"
+  origen: propuesta
+  libros: ["05"]
+- es: "Estructura sándwich"
+  en: "Sandwich construction"
+  origen: propuesta
+  libros: ["08"]
+- es: "ETA (Hora prevista de llegada / Estimated Time of Arrival)"
+  en: "ETA (Estimated Time of Arrival)"
+  origen: glosario
+  libros: ["01", "09"]
+- es: "ETD (Hora prevista de salida / Estimated Time of Departure)"
+  en: "ETD (Estimated Time of Departure)"
+  origen: glosario
+  libros: ["01"]
+- es: "ETE (Tiempo estimado en ruta / Estimated Time En route)"
+  en: "ETE (Estimated Time En Route)"
+  origen: glosario
+  libros: ["09"]
+- es: "Factor de carga (n)"
+  en: "Load factor (n)"
+  origen: propuesta
+  libros: ["05", "08"]
+- es: "Fallo de lanzamiento"
+  en: "Launch failure"
+  origen: propuesta
+  libros: ["06"]
+- es: "Fallo de suelta (Towhook jam)"
+  en: "Release failure (towhook jam)"
+  origen: glosario
+  libros: ["06"]
+- es: "Fatiga"
+  en: "Fatigue"
+  origen: propuesta
+  libros: ["02"]
+- es: "FCL (Licencias de la Tripulación de Vuelo / Flight Crew Licensing)"
+  en: "FCL (Flight Crew Licensing)"
+  origen: glosario
+  libros: ["01"]
+- es: "FE(S) (Examinador de Vuelo de Planeadores / Flight Examiner (Sailplanes))"
+  en: "FE(S) (Flight Examiner (Sailplanes))"
+  origen: glosario
+  libros: ["01"]
+- es: "FES (Front Electric Sustainer)"
+  en: "FES (Front Electric Sustainer)"
+  origen: glosario
+  libros: ["08"]
+- es: "FI(S) (Instructor de Vuelo de Planeadores / Flight Instructor (Sailplanes))"
+  en: "FI(S) (Flight Instructor (Sailplanes))"
+  origen: glosario
+  libros: ["01"]
+- es: "FIC (Centro de Información de Vuelo / Flight Information Centre)"
+  en: "FIC (Flight Information Centre)"
+  origen: glosario
+  libros: ["01"]
+- es: "Final (Tramo final / Final approach leg)"
+  en: "Final approach (final leg)"
+  origen: glosario
+  libros: ["06"]
+- es: "FIR (Región de Información de Vuelo / Flight Information Region)"
+  en: "FIR (Flight Information Region)"
+  origen: glosario
+  libros: ["01"]
+- es: "FIS (Servicio de Información de Vuelo / Flight Information Service)"
+  en: "FIS (Flight Information Service)"
+  origen: glosario
+  libros: ["01", "04", "09"]
+- es: "FISO (Operador del Servicio de Información de Vuelo / Flight Information Service Officer)"
+  en: "FISO (Flight Information Service Officer)"
+  origen: glosario
+  libros: ["01"]
+- es: "FL (Nivel de vuelo / Flight Level)"
+  en: "FL (Flight Level)"
+  origen: glosario
+  libros: ["01"]
+- es: "Flaps"
+  en: "Flaps"
+  origen: propuesta
+  libros: ["08"]
+- es: "FLARM"
+  en: "FLARM"
+  origen: propuesta
+  libros: ["06", "08"]
+- es: "Flutter (Flameo aeroelástico)"
+  en: "Flutter"
+  origen: glosario
+  libros: ["05", "06", "08"]
+- es: "FPL (Plan de vuelo / Flight Plan)"
+  en: "FPL (Flight Plan)"
+  origen: glosario
+  libros: ["04", "07", "09"]
+- es: "Frente cálido"
+  en: "Warm front"
+  origen: propuesta
+  libros: ["03"]
+- es: "Frente frío"
+  en: "Cold front"
+  origen: propuesta
+  libros: ["03"]
+- es: "Frente ocluido (oclusión)"
+  en: "Occluded front (occlusion)"
+  origen: propuesta
+  libros: ["03"]
+- es: "FUA (Uso flexible del espacio aéreo / Flexible Use of Airspace)"
+  en: "FUA (Flexible Use of Airspace)"
+  origen: glosario
+  libros: ["01"]
+- es: "Fugoide (modo fugoide)"
+  en: "Phugoid (phugoid mode)"
+  origen: propuesta
+  libros: ["05"]
+- es: "Fusible de seguridad (Weak link)"
+  en: "Weak link"
+  origen: glosario
+  libros: ["06"]
+- es: "FUSTALL"
+  en: "FUSTALL"
+  origen: propuesta
+  libros: ["06"]
+  nota: "mnemotecnia española; buscar equivalente o explicar en nota"
+- es: "FZRA (Lluvia engelante / Freezing Rain)"
+  en: "FZRA (Freezing Rain)"
+  origen: glosario
+  libros: ["03"]
+- es: "GAMET (General Area Meteorological Forecast)"
+  en: "GAMET (General Area Meteorological Forecast)"
+  origen: glosario
+  libros: ["03"]
+  nota: "ICAO: «area forecast for low-level flights»"
+- es: "Gancho de remolque (Towhook)"
+  en: "Towhook"
+  origen: glosario
+  libros: ["08"]
+- es: "Gelcoat"
+  en: "Gelcoat"
+  origen: propuesta
+  libros: ["08"]
+- es: "GM (Material Guía / Guidance Material)"
+  en: "GM (Guidance Material)"
+  origen: glosario
+  libros: ["01"]
+- es: "GNSS (Sistema Global de Navegación por Satélite / Global Navigation Satellite System)"
+  en: "GNSS (Global Navigation Satellite System)"
+  origen: glosario
+  libros: ["09"]
+- es: "Gotículas superenfriadas"
+  en: "Supercooled droplets"
+  origen: propuesta
+  libros: ["03"]
+- es: "GPS (Sistema de Posicionamiento Global / Global Positioning System)"
+  en: "GPS (Global Positioning System)"
+  origen: glosario
+  libros: ["09"]
+- es: "Granizo (GR)"
+  en: "Hail (GR)"
+  origen: propuesta
+  libros: ["03"]
+- es: "GS (Velocidad suelo / Ground Speed)"
+  en: "GS (Ground Speed)"
+  origen: glosario
+  libros: ["09"]
+- es: "Handrail (Pasamanos)"
+  en: "Handrail"
+  origen: glosario
+  libros: ["09"]
+- es: "Hiperventilación"
+  en: "Hyperventilation"
+  origen: propuesta
+  libros: ["02"]
+- es: "Hipoxia"
+  en: "Hypoxia"
+  origen: propuesta
+  libros: ["02", "03", "08"]
+- es: "HJ (Periodo diurno, de orto a ocaso)"
+  en: "HJ (Sunrise to sunset)"
+  origen: propuesta
+  libros: ["01"]
+- es: "IAIP (Documentación integrada de información aeronáutica / Integrated Aeronautical Information\
+    \ Package)"
+  en: "IAIP (Integrated Aeronautical Information Package)"
+  origen: glosario
+  libros: ["01"]
+- es: "IAS (Velocidad indicada / Indicated Air Speed)"
+  en: "IAS (Indicated Airspeed)"
+  origen: glosario
+  libros: ["03", "05", "09"]
+- es: "IFR (Reglas de vuelo por instrumentos / Instrument Flight Rules)"
+  en: "IFR (Instrument Flight Rules)"
+  origen: glosario
+  libros: ["01"]
+- es: "IGC (Registrador de vuelo / Logger)"
+  en: "IGC logger (flight recorder)"
+  origen: glosario
+  libros: ["09"]
+  nota: "IGC = International Gliding Commission"
+- es: "IMSAFE"
+  en: "IMSAFE"
+  origen: propuesta
+  libros: ["02", "06"]
+- es: "INCERFA (Fase de incertidumbre / Uncertainty Phase)"
+  en: "INCERFA (Uncertainty Phase)"
+  origen: glosario
+  libros: ["01"]
+- es: "Interceptación (interception)"
+  en: "Interception"
+  origen: glosario
+  libros: ["04"]
+- es: "Inversión térmica"
+  en: "Temperature inversion"
+  origen: propuesta
+  libros: ["03"]
+- es: "IR (Reglas de Ejecución / Implementing Rules)"
+  en: "IR (Implementing Rules)"
+  origen: glosario
+  libros: ["01"]
+- es: "Isógona (línea isogónica)"
+  en: "Isogonal (isogonic line)"
+  origen: propuesta
+  libros: ["09"]
+- es: "K-Index (índice K)"
+  en: "K-Index"
+  origen: glosario
+  libros: ["03"]
+- es: "LAPL (Licencia de Piloto de Aeronave Ligera / Light Aircraft Pilot Licence)"
+  en: "LAPL (Light Aircraft Pilot Licence)"
+  origen: glosario
+  libros: ["01"]
+- es: "Larguero (Spar)"
+  en: "Spar"
+  origen: glosario
+  libros: ["08"]
+- es: "Las 7 S"
+  en: "The 7 S"
+  origen: propuesta
+  libros: ["06"]
+  nota: "mnemotecnia; confirmar si procede de fuente inglesa"
+- es: "Lastre de agua (water ballast)"
+  en: "Water ballast"
+  origen: glosario
+  libros: ["06", "07", "08"]
+- es: "Lastre de cola (fin ballast)"
+  en: "Fin ballast (tail ballast)"
+  origen: glosario
+  libros: ["07", "08"]
+- es: "Latitud"
+  en: "Latitude"
+  origen: propuesta
+  libros: ["09"]
+- es: "LCL (Nivel de Condensación por Elevación / Lifted Condensation Level)"
+  en: "LCL (Lifted Condensation Level)"
+  origen: glosario
+  libros: ["03"]
+- es: "LFC (Nivel de Convección Libre / Level of Free Convection)"
+  en: "LFC (Level of Free Convection)"
+  origen: glosario
+  libros: ["03"]
+- es: "L’Hotellier (Conector)"
+  en: "L'Hotellier connector"
+  origen: propuesta
+  libros: ["08"]
+- es: "LI (Índice de Levantamiento / Lifted Index)"
+  en: "LI (Lifted Index)"
+  origen: glosario
+  libros: ["03"]
+- es: "LiFePO4 (Batería de litio-ferrofosfato)"
+  en: "LiFePO4 (lithium iron phosphate battery)"
+  origen: propuesta
+  libros: ["08"]
+- es: "Línea de convergencia"
+  en: "Convergence line"
+  origen: propuesta
+  libros: ["03"]
+- es: "Longitud"
+  en: "Longitude"
+  origen: propuesta
+  libros: ["09"]
+- es: "Loxodrómica (Línea de rumbo)"
+  en: "Rhumb line (loxodrome)"
+  origen: propuesta
+  libros: ["09"]
+- es: "LSA (Ley de Seguridad Aérea)"
+  en: "LSA (Spanish Aviation Safety Act)"
+  origen: propuesta
+  libros: ["01"]
+  nota: "Ley 21/2003; nombre propio con glosa"
+- es: "Mando diferencial de alerones"
+  en: "Differential aileron"
+  origen: propuesta
+  libros: ["05"]
+- es: "Masa de aire"
+  en: "Air mass"
+  origen: propuesta
+  libros: ["03"]
+- es: "MAYDAY"
+  en: "MAYDAY"
+  origen: propuesta
+  libros: ["04"]
+- es: "METAR (Meteorological Aerodrome Report)"
+  en: "METAR (Meteorological Aerodrome Report)"
+  origen: glosario
+  libros: ["03", "04"]
+  nota: "ICAO: «aerodrome routine meteorological report»"
+- es: "Microburst (microrráfaga)"
+  en: "Microburst"
+  origen: glosario
+  libros: ["03"]
+- es: "Milla náutica (NM)"
+  en: "Nautical mile (NM)"
+  origen: propuesta
+  libros: ["09"]
+- es: "Modelo burbuja (bubble model)"
+  en: "Bubble model"
+  origen: glosario
+  libros: ["03"]
+- es: "Modelo columna / pluma (column/plume model)"
+  en: "Column / plume model"
+  origen: glosario
+  libros: ["03"]
+- es: "Momento"
+  en: "Moment"
+  origen: propuesta
+  libros: ["07"]
+- es: "Monóxido de carbono (CO)"
+  en: "Carbon monoxide (CO)"
+  origen: propuesta
+  libros: ["02"]
+- es: "MTOW (Masa Máxima al Despegue / Maximum Take-Off Weight)"
+  en: "MTOM (Maximum Take-Off Mass)"
+  origen: glosario
+  libros: ["07", "08"]
+  nota: "EASA usa «mass» (MTOM); el glosario ES dice «MTOW / Weight»"
+- es: "Multitrayecto"
+  en: "Multipath"
+  origen: propuesta
+  libros: ["09"]
+- es: "Navegación a estima (Dead Reckoning)"
+  en: "Dead reckoning"
+  origen: glosario
+  libros: ["09"]
+- es: "Navegación observada"
+  en: "Map reading (pilotage)"
+  origen: propuesta
+  libros: ["09"]
+  nota: "británico «map reading»; FAA «pilotage»"
+- es: "NCA (Nivel de Condensación por Ascenso)"
+  en: "LCL (Lifted Condensation Level)"
+  origen: propuesta
+  libros: ["03"]
+  nota: "duplica la entrada LCL: en EN no se crea entrada propia"
+- es: "Niebla"
+  en: "Fog"
+  origen: propuesta
+  libros: ["03"]
+- es: "Niebla de advección"
+  en: "Advection fog"
+  origen: propuesta
+  libros: ["03"]
+- es: "Niebla de radiación"
+  en: "Radiation fog"
+  origen: propuesta
+  libros: ["03"]
+- es: "NORDO (Sin radio / No Radio)"
+  en: "NORDO (No Radio)"
+  origen: glosario
+  libros: ["04"]
+- es: "Norte magnético"
+  en: "Magnetic north"
+  origen: propuesta
+  libros: ["09"]
+- es: "Norte verdadero (Geográfico)"
+  en: "True (geographic) north"
+  origen: propuesta
+  libros: ["09"]
+- es: "NOTAM (Notice to Airmen)"
+  en: "NOTAM (Notice to Airmen)"
+  origen: glosario
+  libros: ["01", "09"]
+  nota: "ICAO desde 2021: «Notice to Air Missions» sólo FAA; ICAO sigue «Notice to Airmen»"
+- es: "NSC (No Significant Cloud)"
+  en: "NSC (No Significant Cloud)"
+  origen: glosario
+  libros: ["03"]
+- es: "Nudo (kt)"
+  en: "Knot (kt)"
+  origen: propuesta
+  libros: ["09"]
+- es: "OACI / ICAO (Organización de Aviación Civil Internacional / International Civil Aviation Organization)"
+  en: "ICAO (International Civil Aviation Organization)"
+  origen: glosario
+  libros: ["01", "02", "04"]
+  nota: "ortografía oficial: «Organization» con z"
+- es: "Ocaso"
+  en: "Sunset"
+  origen: propuesta
+  libros: ["09"]
+- es: "Onda de montaña (wave soaring)"
+  en: "Mountain wave (wave soaring)"
+  origen: glosario
+  libros: ["03"]
+- es: "Orto"
+  en: "Sunrise"
+  origen: propuesta
+  libros: ["09"]
+- es: "Ortodrómica (Círculo máximo)"
+  en: "Great circle (orthodrome)"
+  origen: propuesta
+  libros: ["09"]
+- es: "Outlanding (Aterrizaje fuera de campo / Toma fuera de campo)"
+  en: "Outlanding (field landing)"
+  origen: glosario
+  libros: ["06"]
+- es: "PAN PAN"
+  en: "PAN PAN"
+  origen: propuesta
+  libros: ["04"]
+- es: "Paracaídas de emergencia"
+  en: "Emergency parachute"
+  origen: propuesta
+  libros: ["06"]
+- es: "Part-MED (Requisitos médicos aeronáuticos)"
+  en: "Part-MED (Aeromedical requirements)"
+  origen: propuesta
+  libros: ["02"]
+- es: "Part-ML (Parte de mantenimiento de aeronaves ligeras)"
+  en: "Part-ML (Maintenance of light aircraft)"
+  origen: propuesta
+  libros: ["01", "08"]
+- es: "Part-SAO (Operaciones de Planeadores / Sailplane Air Operations)"
+  en: "Part-SAO (Sailplane Air Operations)"
+  origen: glosario
+  libros: ["01"]
+- es: "Part-SFCL (Licencias de Tripulación de Vuelo de Planeadores / Sailplane Flight Crew Licensing)"
+  en: "Part-SFCL (Sailplane Flight Crew Licensing)"
+  origen: glosario
+  libros: ["01"]
+- es: "PAVE"
+  en: "PAVE"
+  origen: propuesta
+  libros: ["02"]
+- es: "PCC (Comprobación de mandos positiva / Positive Control Check)"
+  en: "PCC (Positive Control Check)"
+  origen: glosario
+  libros: ["06", "08"]
+- es: "PIC (Piloto al mando / Pilot in Command)"
+  en: "PIC (Pilot in Command)"
+  origen: glosario
+  libros: ["01", "06"]
+- es: "PLB (Baliza de localización personal / Personal Locator Beacon)"
+  en: "PLB (Personal Locator Beacon)"
+  origen: glosario
+  libros: ["08"]
+- es: "Poliuretano (PU)"
+  en: "Polyurethane (PU)"
+  origen: propuesta
+  libros: ["08"]
+- es: "PPL (Licencia de Piloto Privado / Private Pilot Licence)"
+  en: "PPL (Private Pilot Licence)"
+  origen: glosario
+  libros: ["01"]
+- es: "Proyección Lambert (cónica conforme)"
+  en: "Lambert projection (conformal conic)"
+  origen: propuesta
+  libros: ["09"]
+- es: "PTT (Pulsar para hablar / Push-to-Talk)"
+  en: "PTT (Push-to-Talk)"
+  origen: glosario
+  libros: ["04"]
+- es: "Pulsioxímetro"
+  en: "Pulse oximeter"
+  origen: propuesta
+  libros: ["02"]
+- es: "QDM"
+  en: "QDM"
+  origen: propuesta
+  libros: ["04"]
+- es: "QFE (Reglaje altimétrico referido a un datum de aeródromo)"
+  en: "QFE (Altimeter setting referred to aerodrome datum)"
+  origen: propuesta
+  libros: ["01", "04"]
+- es: "QNE (Indicación con el reglaje altimétrico estándar)"
+  en: "QNE (Standard altimeter setting indication)"
+  origen: propuesta
+  libros: ["01"]
+- es: "QNH (Reglaje altimétrico reducido al nivel medio del mar)"
+  en: "QNH (Altimeter setting to mean sea level)"
+  origen: propuesta
+  libros: ["01", "03", "04"]
+- es: "RCC (Centro Coordinador de Salvamento / Rescue Coordination Centre)"
+  en: "RCC (Rescue Coordination Centre)"
+  origen: glosario
+  libros: ["01"]
+- es: "Regla del 1 en 60"
+  en: "1 in 60 rule"
+  origen: propuesta
+  libros: ["09"]
+- es: "Resbale lateral (Sideslip)"
+  en: "Sideslip"
+  origen: glosario
+  libros: ["06"]
+- es: "Resistencia inducida"
+  en: "Induced drag"
+  origen: propuesta
+  libros: ["05"]
+- es: "Resistencia parásita"
+  en: "Parasite drag"
+  origen: propuesta
+  libros: ["05"]
+- es: "Rigging (Montaje)"
+  en: "Rigging"
+  origen: glosario
+  libros: ["08"]
+- es: "RMZ (Zona de radio obligatoria / Radio Mandatory Zone)"
+  en: "RMZ (Radio Mandatory Zone)"
+  origen: glosario
+  libros: ["01", "04"]
+- es: "Rotor"
+  en: "Rotor"
+  origen: propuesta
+  libros: ["03"]
+- es: "RSC (Subcentro de Salvamento / Rescue Sub-Centre)"
+  en: "RSC (Rescue Sub-Centre)"
+  origen: glosario
+  libros: ["01"]
+- es: "SALR (Gradiente Adiabático Saturado / Saturated Adiabatic Lapse Rate)"
+  en: "SALR (Saturated Adiabatic Lapse Rate)"
+  origen: glosario
+  libros: ["03"]
+- es: "SAO (Operaciones de Planeadores / Sailplane Air Operations)"
+  en: "SAO (Sailplane Air Operations)"
+  origen: glosario
+  libros: ["02"]
+- es: "SAR (Búsqueda y salvamento / Search and Rescue)"
+  en: "SAR (Search and Rescue)"
+  origen: glosario
+  libros: ["01", "04"]
+- es: "SB (Boletín de Servicio / Service Bulletin)"
+  en: "SB (Service Bulletin)"
+  origen: glosario
+  libros: ["01", "08"]
+- es: "Self-launch (Autolanzamiento)"
+  en: "Self-launch"
+  origen: glosario
+  libros: ["06"]
+- es: "SERA (Reglas Europeas Estandarizadas del Aire / Standardised European Rules of the Air)"
+  en: "SERA (Standardised European Rules of the Air)"
+  origen: glosario
+  libros: ["01", "04", "09"]
+- es: "SFCL (Licencias de Tripulación de Vuelo de Planeadores / Sailplane Flight Crew Licensing)"
+  en: "SFCL (Sailplane Flight Crew Licensing)"
+  origen: glosario
+  libros: ["02"]
+- es: "SHELL"
+  en: "SHELL"
+  origen: propuesta
+  libros: ["02"]
+- es: "SIGMET (Significant Meteorological Information)"
+  en: "SIGMET (Significant Meteorological Information)"
+  origen: glosario
+  libros: ["03"]
+- es: "SIGWX (Mapa de Tiempo Significativo / Significant Weather Chart)"
+  en: "SIGWX (Significant Weather Chart)"
+  origen: glosario
+  libros: ["03"]
+- es: "Sistema pitot-estática"
+  en: "Pitot-static system"
+  origen: propuesta
+  libros: ["08"]
+- es: "SNS (Sistema de Notificación de Sucesos)"
+  en: "Occurrence reporting system"
+  origen: propuesta
+  libros: ["01"]
+  nota: "en ES «SNS»; en inglés sin sigla, referir a Reg. (UE) 376/2014"
+- es: "Sondeo termodinámico (Skew-T / Stüve)"
+  en: "Thermodynamic diagram (Skew-T / Stüve)"
+  origen: propuesta
+  libros: ["03"]
+- es: "SPECI (Special Aerodrome Report)"
+  en: "SPECI (Special Aerodrome Report)"
+  origen: glosario
+  libros: ["03"]
+  nota: "ICAO: «aerodrome special meteorological report»"
+- es: "SPIC (Alumno piloto al mando / Student Pilot-in-Command)"
+  en: "SPIC (Student Pilot-in-Command)"
+  origen: glosario
+  libros: ["01"]
+- es: "SPL (Licencia de Piloto de Planeador / Sailplane Pilot Licence)"
+  en: "SPL (Sailplane Pilot Licence)"
+  origen: glosario
+  libros: ["01", "02"]
+- es: "Squawk"
+  en: "Squawk"
+  origen: propuesta
+  libros: ["04", "09"]
+- es: "SRM (Gestión de recursos del piloto único / Single-Pilot Resource Management)"
+  en: "SRM (Single-Pilot Resource Management)"
+  origen: glosario
+  libros: ["02"]
+- es: "SSR (Radar Secundario de Vigilancia / Secondary Surveillance Radar)"
+  en: "SSR (Secondary Surveillance Radar)"
+  origen: glosario
+  libros: ["04"]
+- es: "Stau"
+  en: "Stau (upslope cloud)"
+  origen: propuesta
+  libros: ["03"]
+- es: "Sustentador (Turbo)"
+  en: "Sustainer (turbo)"
+  origen: glosario
+  libros: ["08"]
+- es: "Tablilla de desvíos"
+  en: "Deviation card (compass card)"
+  origen: propuesta
+  libros: ["09"]
+- es: "TAF (Terminal Aerodrome Forecast)"
+  en: "TAF (Terminal Aerodrome Forecast)"
+  origen: glosario
+  libros: ["03", "04"]
+  nota: "ICAO: «aerodrome forecast»"
+- es: "TAS (Velocidad verdadera / True Air Speed)"
+  en: "TAS (True Airspeed)"
+  origen: glosario
+  libros: ["09"]
+- es: "Tendencia espiral"
+  en: "Spiral instability"
+  origen: propuesta
+  libros: ["05"]
+- es: "Teoría MacCready (Anillo MacCready)"
+  en: "MacCready theory (MacCready ring)"
+  origen: glosario
+  libros: ["07"]
+- es: "Térmica"
+  en: "Thermal"
+  origen: propuesta
+  libros: ["03", "06"]
+- es: "Tintas hipsométricas"
+  en: "Hypsometric tints (layer tints)"
+  origen: propuesta
+  libros: ["09"]
+- es: "TMA (Área de Control Terminal / Terminal Control Area)"
+  en: "TMA (Terminal Control Area)"
+  origen: glosario
+  libros: ["01"]
+- es: "TMG (Motovelero de turismo / Touring Motor Glider)"
+  en: "TMG (Touring Motor Glider)"
+  origen: glosario
+  libros: ["01", "02", "08"]
+- es: "TMZ (Zona de transpondedor obligatorio / Transponder Mandatory Zone)"
+  en: "TMZ (Transponder Mandatory Zone)"
+  origen: glosario
+  libros: ["01", "04", "09"]
+- es: "Torno (Lanzamiento por torno / Winch)"
+  en: "Winch launch"
+  origen: glosario
+  libros: ["06"]
+- es: "TR (Habilitación de tipo / Type Rating)"
+  en: "TR (Type Rating)"
+  origen: glosario
+  libros: ["01"]
+- es: "TRA (Área temporalmente reservada / Temporary Reserved Area)"
+  en: "TRA (Temporary Reserved Area)"
+  origen: glosario
+  libros: ["01"]
+- es: "Transmisión a ciegas (blind transmission)"
+  en: "Blind transmission"
+  origen: glosario
+  libros: ["04"]
+- es: "Transpondedor (transponder, XPDR)"
+  en: "Transponder (XPDR)"
+  origen: glosario
+  libros: ["04", "08", "09"]
+- es: "Tren retráctil"
+  en: "Retractable undercarriage"
+  origen: propuesta
+  libros: ["08"]
+  nota: "británico; FAA «landing gear»"
+- es: "Triangulación (Líneas de posición)"
+  en: "Position fixing (lines of position)"
+  origen: propuesta
+  libros: ["09"]
+- es: "Triángulo de velocidades (Triángulo del viento)"
+  en: "Triangle of velocities (wind triangle)"
+  origen: propuesta
+  libros: ["09"]
+- es: "Tropopausa"
+  en: "Tropopause"
+  origen: propuesta
+  libros: ["03"]
+- es: "Troposfera"
+  en: "Troposphere"
+  origen: propuesta
+  libros: ["03"]
+- es: "TSA (Área temporalmente segregada / Temporary Segregated Area)"
+  en: "TSA (Temporary Segregated Area)"
+  origen: glosario
+  libros: ["01"]
+- es: "TUC (Tiempo útil de conciencia / Time of Useful Consciousness)"
+  en: "TUC (Time of Useful Consciousness)"
+  origen: glosario
+  libros: ["02"]
+- es: "Turbulencia de estela (wake turbulence)"
+  en: "Wake turbulence"
+  origen: glosario
+  libros: ["03", "06"]
+- es: "TWR (Torre de Control de Aeródromo / Aerodrome Control Tower)"
+  en: "TWR (Aerodrome Control Tower)"
+  origen: glosario
+  libros: ["01", "04"]
+- es: "UOP (Incertidumbre de posición / Uncertainty of Position)"
+  en: "UOP (Uncertainty of Position)"
+  origen: glosario
+  libros: ["09"]
+- es: "UTC (Tiempo Universal Coordinado / Hora Zulu)"
+  en: "UTC (Coordinated Universal Time / Zulu)"
+  origen: glosario
+  libros: ["09"]
+- es: "V~A~ (Velocidad de maniobra / Maneuvering Speed)"
+  en: "V~A~ (Manoeuvring Speed)"
+  origen: glosario
+  libros: ["05"]
+  nota: "ortografía británica: «manoeuvring»"
+- es: "VAC (Carta de Aproximación Visual / Visual Approach Chart)"
+  en: "VAC (Visual Approach Chart)"
+  origen: glosario
+  libros: ["04"]
+- es: "Vaguada (surco de bajas presiones / trough)"
+  en: "Trough (of low pressure)"
+  origen: glosario
+  libros: ["03"]
+- es: "Variación magnética (Declinación)"
+  en: "Magnetic variation (declination)"
+  origen: propuesta
+  libros: ["09"]
+- es: "Variómetro"
+  en: "Variometer"
+  origen: propuesta
+  libros: ["08"]
+- es: "VDF (Radiogoniometría VHF / VHF Direction Finding)"
+  en: "VDF (VHF Direction Finding)"
+  origen: glosario
+  libros: ["04"]
+- es: "Velocidad de mejor planeo (V~G~)"
+  en: "Best glide speed (V~G~)"
+  origen: propuesta
+  libros: ["05", "07"]
+- es: "Velocidad de mínimo descenso (Minimum Sink Speed)"
+  en: "Minimum sink speed"
+  origen: glosario
+  libros: ["05", "07"]
+- es: "VFR (Reglas de vuelo visual / Visual Flight Rules)"
+  en: "VFR (Visual Flight Rules)"
+  origen: glosario
+  libros: ["01", "02", "04"]
+- es: "VHF (Muy Alta Frecuencia / Very High Frequency)"
+  en: "VHF (Very High Frequency)"
+  origen: glosario
+  libros: ["04"]
+- es: "Viento en cola (Tramo de viento en cola / Downwind)"
+  en: "Downwind leg"
+  origen: glosario
+  libros: ["06"]
+- es: "Viento geostrófico"
+  en: "Geostrophic wind"
+  origen: propuesta
+  libros: ["03"]
+- es: "Virga"
+  en: "Virga"
+  origen: propuesta
+  libros: ["03"]
+- es: "VMC (Condiciones meteorológicas visuales / Visual Meteorological Conditions)"
+  en: "VMC (Visual Meteorological Conditions)"
+  origen: glosario
+  libros: ["01", "04"]
+- es: "V~NE~ (Velocidad de nunca exceder / Never Exceed Speed)"
+  en: "V~NE~ (Never Exceed Speed)"
+  origen: glosario
+  libros: ["05"]
+- es: "VOLMET"
+  en: "VOLMET"
+  origen: propuesta
+  libros: ["04"]
+- es: "VOR (Radiofaro omnidireccional VHF / VHF Omnidirectional Radio Range)"
+  en: "VOR (VHF Omnidirectional Radio Range)"
+  origen: glosario
+  libros: ["01"]
+- es: "V~RA~ (Velocidad máxima en aire turbulento / Rough Air Speed)"
+  en: "V~RA~ (Rough Air Speed)"
+  origen: glosario
+  libros: ["05", "08"]
+- es: "Vuelo de ladera (Ridge soaring)"
+  en: "Ridge soaring"
+  origen: glosario
+  libros: ["06"]
+- es: "Vuelo de onda (Wave soaring)"
+  en: "Wave soaring"
+  origen: glosario
+  libros: ["06"]
+- es: "WADA (Agencia Mundial Antidopaje / World Anti-Doping Agency)"
+  en: "WADA (World Anti-Doping Agency)"
+  origen: glosario
+  libros: ["02"]
+- es: "WCA (Ángulo de corrección de deriva / Wind Correction Angle)"
+  en: "WCA (Wind Correction Angle)"
+  origen: glosario
+  libros: ["09"]
+- es: "WULF"
+  en: "WULF"
+  origen: propuesta
+  libros: ["06"]
+  nota: "mnemotecnia; confirmar si procede de fuente inglesa"
+- es: "Zona peligrosa (D de Danger)"
+  en: "Danger area (D)"
+  origen: propuesta
+  libros: ["01"]
+- es: "Zona prohibida (P de Prohibited)"
+  en: "Prohibited area (P)"
+  origen: propuesta
+  libros: ["01"]
+- es: "Zona restringida (R de Restricted)"
+  en: "Restricted area (R)"
+  origen: propuesta
+  libros: ["01"]
+- es: "Zonas P/R/D"
+  en: "P/R/D areas"
+  origen: propuesta
+  libros: ["09"]
