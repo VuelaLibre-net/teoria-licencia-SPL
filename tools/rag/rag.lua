@@ -28,12 +28,33 @@ local sec = { 0, 0, 0, 0, 0 }
 -- mapeo del temario que usa la maqueta (warning → Seguridad, etc.); en la
 -- práctica todos los bloques traen su title=, pero sin este respaldo un bloque
 -- sin título perdería la categoría en silencio.
-local ETIQUETAS = {
-  ["callout-warning"]   = "Seguridad",
-  ["callout-important"] = "Normativa",
-  ["callout-tip"]       = "Regla de oro",
-  ["callout-note"]      = "Airmanship",
+--
+-- Los textos que el filtro escribe van por idioma: construir.sh pasa
+-- `idioma` (es/en) según el `lang:` del _quarto.yml del libro.
+local TEXTOS = {
+  es = {
+    etiquetas = {
+      ["callout-warning"]   = "Seguridad",
+      ["callout-important"] = "Normativa",
+      ["callout-tip"]       = "Regla de oro",
+      ["callout-note"]      = "Airmanship",
+    },
+    resumen = "Resumen del capítulo", ejercicio = "Ejercicio",
+    Figura = "Figura", Tabla = "Tabla", figura = "figura", tabla = "tabla",
+  },
+  en = {
+    etiquetas = {
+      ["callout-warning"]   = "Safety",
+      ["callout-important"] = "Regulation",
+      ["callout-tip"]       = "Golden rule",
+      ["callout-note"]      = "Airmanship",
+    },
+    resumen = "Chapter summary", ejercicio = "Exercise",
+    Figura = "Figure", Tabla = "Table", figura = "figure", tabla = "table",
+  },
 }
+local T = TEXTOS.es
+local ETIQUETAS = T.etiquetas
 
 local function numero(n)
   if etiqueta == "" then return tostring(n) end
@@ -147,14 +168,14 @@ local function Div(d)
   -- postits de la colección abren con su propio título en negrita
   -- ("**Resumen del capítulo: definiciones y técnica**").
   if d.classes:includes("postit") then
-    return con_titulo(d, "Resumen del capítulo")
+    return con_titulo(d, T.resumen)
   end
 
   -- Ejercicio resuelto: mismo trato. Enunciado, procedimiento y solución sólo
   -- valen juntos, y su primera línea ya es el rótulo
   -- ("**Ejercicio 4.1 — Cadena de rumbos con viento.**").
   if d.classes:includes("ejercicio") then
-    return con_titulo(d, "Ejercicio")
+    return con_titulo(d, T.ejercicio)
   end
 
   -- "Más allá del examen": el contenido se queda (es materia), pero el div
@@ -243,7 +264,7 @@ local vfig, vtbl = 0, 0
 local function Figure(f)
   vfig = vfig + 1
   local pie = pandoc.utils.stringify(f.caption.long)
-  local texto = "Figura " .. numero(vfig)
+  local texto = T.Figura .. " " .. numero(vfig)
   if pie ~= "" then texto = texto .. ": " .. pie end
   return pandoc.Para({ pandoc.Emph({ pandoc.Str(texto) }) })
 end
@@ -256,7 +277,7 @@ local function Table(t)
   vtbl = vtbl + 1
   local inlines = pies[1].content or {}
   local limpio = limpia_pie(inlines)
-  local cabeza = pandoc.List({ pandoc.Str("Tabla " .. numero(vtbl) .. ":"), pandoc.Space() })
+  local cabeza = pandoc.List({ pandoc.Str(T.Tabla .. " " .. numero(vtbl) .. ":"), pandoc.Space() })
   cabeza:extend(limpio)
   t.caption.long = pandoc.Blocks({})
   return { pandoc.Para({ pandoc.Strong(cabeza) }), t }
@@ -266,7 +287,7 @@ end
 local function Cite(c)
   local id = c.citations[1] and c.citations[1].id
   if not id then return c end
-  local clase = id:match("^fig%-") and "figura" or (id:match("^tbl%-") and "tabla")
+  local clase = id:match("^fig%-") and T.figura or (id:match("^tbl%-") and T.tabla)
   if not clase then return c end
   local n = numeros[id]
   if not n then
@@ -279,6 +300,8 @@ end
 
 function Pandoc(doc)
   etiqueta = pandoc.utils.stringify(doc.meta.etiqueta or "")
+  T = TEXTOS[pandoc.utils.stringify(doc.meta.idioma or "es")] or TEXTOS.es
+  ETIQUETAS = T.etiquetas
   numerar(doc)
   return doc:walk({
     Header = Header,

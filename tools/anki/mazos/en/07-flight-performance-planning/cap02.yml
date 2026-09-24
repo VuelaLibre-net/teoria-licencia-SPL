@@ -1,0 +1,90 @@
+# Anki deck for en/07-flight-performance-planning, chapter 2.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/07-planificacion-rendimiento/cap02.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/07-flight-performance-planning
+capitulo: 2
+titulo: "Speed polar of sailplanes or cruising speed"
+tarjetas:
+  - id: que-da-la-polar
+    tipo: basica
+    anverso: Which two speeds from the **polar** must you know by heart?
+    reverso: |
+      **Minimum sink speed** (staying airborne longest) **and best glide speed**
+      (going furthest).
+
+      In still air there is no reason to fly at intermediate speeds.
+    etiquetas: [Airmanship]
+
+  - id: polar-y-lastre
+    tipo: basica
+    anverso: How does **ballast** shift the polar?
+    reverso: |
+      **To the right and down.**
+
+      The best glide ratio does not change, but it is flown at a higher speed;
+      minimum sink gets worse. Water is for strong days.
+
+  - id: maccready
+    tipo: basica
+    anverso: What does **MacCready theory** say about cruising speed?
+    reverso: |
+      **That it should match the thermal you expect to find.**
+
+      Strong day, fly fast (you trade height for time); weak day, fly slowly
+      and conserve.
+
+  - id: velocidad-con-viento
+    tipo: basica
+    anverso: How do you adjust your cruising speed to the **wind**?
+    reverso: |
+      **With a headwind, faster**: add half the wind to your best glide speed,
+      to penetrate better.
+
+      **With a tailwind, at best glide speed**, and let yourself be pushed.
+
+  - id: polar-en-ias
+    tipo: basica
+    anverso: In which speed is the polar flown, and what happens at altitude?
+    reverso: |
+      **It is flown in IAS**, but at altitude TAS is higher (≈2 % for every
+      300 m): you cover more ground than you think.
+
+  - id: vne-disminuye-con-altitud
+    tipo: basica
+    anverso: Why does the **indicated V_NE** decrease with altitude?
+    reverso: |
+      **Because *flutter* depends on TAS, not IAS.**
+
+      The reduction is prescribed by **CS 22.1505**, which requires the table
+      to be shown on a placard visible in the cockpit. A glider with a V_NE of
+      250 km/h at sea level may be limited to about 200 km/h indicated at
+      6,000 m. Check the AFM before any wave flight.
+    etiquetas: [Regulation]
+
+  - id: donde-estan-las-limitaciones
+    tipo: basica
+    anverso: Where are your glider's **V_NE** and **V_A** given, and which regulations do they derive from?
+    reverso: |
+      **In the approved flight manual (AFM)**, and they derive from the European
+      certification specification **CS-22**.
+    etiquetas: [Regulation]
+
+  - id: llegar-justo-no-es-llegar
+    tipo: basica
+    anverso: If the final glide computer says you will “just” make it, will you?
+    reverso: |
+      **No.**
+
+      The computer does not know whether you will meet unexpected sink or
+      whether the headwind will be stronger lower down. Look for an alternative
+      before the glide cone closes.
+    etiquetas: [Safety]
+
+  - id: planeo-final-con-margen
+    tipo: basica
+    anverso: With what margin is the **final glide** calculated?
+    reverso: |
+      **Enough to arrive at about 200 m above the field and use the
+      airbrakes**, rather than skimming the treetops praying for a bubble.

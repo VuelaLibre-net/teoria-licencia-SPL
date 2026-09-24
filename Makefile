@@ -20,13 +20,30 @@ LIBROS = 01-derecho-aereo-atc \
          08-aeronave-sistemas \
          09-navegacion
 
-.PHONY: all help clean rag epub web anki reconocimientos $(LIBROS) completo completo-pdf completo-epub completo-rag
+# Edición inglesa, en piloto. Vive en en/ y no dentro de cada libro: la fecha
+# de un libro es la del último commit que tocó su carpeta, y un fichero inglés
+# ahí dentro movería la fecha —y el nombre— de los entregables en español.
+#
+# No entra en `all` ni en los agregados rag/epub/web/anki: el CI y el release
+# cuentan exactamente 9 entregables de cada tipo. Se compila con `make en`.
+LIBROS_EN = en/07-flight-performance-planning
+
+.PHONY: all en help clean rag epub web anki reconocimientos $(LIBROS) $(LIBROS_EN) completo completo-pdf completo-epub completo-rag
 
 # Fuentes para los reconocimientos y estado de revisores
 fuentes_revisores = recursos/estado-revisores.json tools/actualizar-reconocimientos.py
 
 # Por defecto, compilar toda la colección de libros (01 a 09)
 all: $(LIBROS)
+
+# La edición inglesa (piloto).
+en: $(LIBROS_EN)
+
+# Los libros de la edición inglesa, uno por línea: el CI los lee de aquí en vez
+# de repetir la lista.
+.PHONY: libros-en
+libros-en:
+	@for libro in $(LIBROS_EN); do echo "$$libro"; done
 
 # --- AUTO-CONSOLIDACIÓN Y VARIABLES DEL MANUAL COMPLETO ---
 _ := $(shell python3 tools/consolidar-completo.py)
@@ -73,6 +90,10 @@ fuentes_cover_completo = recursos-completo/frente.jpg recursos-completo/reverso.
 # $((10#08)) (bashismos). `expr` interpreta los ceros a la izquierda en decimal,
 # que es justo lo que hace falta para los meses 01-09.
 MESES = enero febrero marzo abril mayo junio julio agosto septiembre octubre noviembre diciembre
+MONTHS = January February March April May June July August September October November December
+
+# Idioma de un libro: los de en/ son la edición inglesa; el resto, español.
+idioma_de = $(if $(filter en/%,$(1)),en,es)
 
 # La extracción de la versión y la fecha se escriben UNA vez y se usan de dos
 # maneras: dentro de las recetas (donde make deja que las expanda el shell) y al
@@ -82,10 +103,11 @@ MESES = enero febrero marzo abril mayo junio julio agosto septiembre octubre nov
 SED_VERSION = sed -n 's/^version: *"\{0,1\}\([^"]*\)"\{0,1\}/\1/p'
 GIT_FECHA_ISO = git log -1 --format=%cs --
 
-fecha_libro = $$(iso=$$($(GIT_FECHA_ISO) $(1)/ 2>/dev/null || date +%F); \
+fecha_libro = $$(iso=$$($(GIT_FECHA_ISO) $(1)/ 2>/dev/null); [ -n "$$iso" ] || iso=$$(date +%F); \
 	y=$$(echo $$iso | cut -d- -f1); m=$$(echo $$iso | cut -d- -f2); d=$$(echo $$iso | cut -d- -f3); \
-	set -- $(MESES); shift $$(expr $$m - 1); \
-	echo "$$(expr $$d + 0) de $$1 de $$y")
+	$(if $(filter en,$(call idioma_de,$(1))),set -- $(MONTHS); shift $$(expr $$m - 1); \
+	echo "$$(expr $$d + 0) $$1 $$y",set -- $(MESES); shift $$(expr $$m - 1); \
+	echo "$$(expr $$d + 0) de $$1 de $$y"))
 version_quarto = $$(quarto --version 2>/dev/null || echo "?")
 version_libro = $$($(SED_VERSION) $(1)/_quarto.yml | head -1)
 
@@ -107,10 +129,12 @@ fecha_corta_de = $(shell iso=$$($(GIT_FECHA_ISO) $(1)/ 2>/dev/null); \
 fecha_iso_de = $(shell iso=$$($(GIT_FECHA_ISO) $(1)/ 2>/dev/null); \
 	[ -n "$$iso" ] || iso=$$(date +%F); echo "$$iso")
 sufijo_de = $(call version_de,$(1))-$(call fecha_corta_de,$(1))
-pdf_de = $(PDF_OUT)/$(1)-$(call sufijo_de,$(1)).pdf
-epub_de = $(EPUB_OUT)/$(1)-$(call sufijo_de,$(1)).epub
-rag_de = $(RAG_OUT)/$(1)-$(call sufijo_de,$(1)).md
-web_de = $(WEB_OUT)/$(1)-$(call sufijo_de,$(1)).web.tar.gz
+# El nombre del entregable es el de la carpeta, sin la ruta: los libros ingleses
+# viven en en/ y su slug inglés ya los distingue de los españoles.
+pdf_de = $(PDF_OUT)/$(notdir $(1))-$(call sufijo_de,$(1)).pdf
+epub_de = $(EPUB_OUT)/$(notdir $(1))-$(call sufijo_de,$(1)).epub
+rag_de = $(RAG_OUT)/$(notdir $(1))-$(call sufijo_de,$(1)).md
+web_de = $(WEB_OUT)/$(notdir $(1))-$(call sufijo_de,$(1)).web.tar.gz
 
 # ⚠️ El mazo Anki NO usa `sufijo_de`, y no es un descuido. Sus tarjetas no viven
 # en `<libro>/` sino en `tools/anki/mazos/<libro>/` (ver tools/anki/construir.py:
@@ -126,10 +150,10 @@ fecha_corta_anki_de = $(shell iso=$$($(GIT_FECHA_ISO) $(1)/ tools/anki/mazos/$(1
 	[ -n "$$iso" ] || iso=$$(date +%F); echo "$${iso#??}" | tr -d -)
 fecha_iso_anki_de = $(shell iso=$$($(GIT_FECHA_ISO) $(1)/ tools/anki/mazos/$(1)/ 2>/dev/null); \
 	[ -n "$$iso" ] || iso=$$(date +%F); echo "$$iso")
-anki_de = $(ANKI_OUT)/$(1)-$(call version_de,$(1))-$(call fecha_corta_anki_de,$(1)).apkg
+anki_de = $(ANKI_OUT)/$(notdir $(1))-$(call version_de,$(1))-$(call fecha_corta_anki_de,$(1)).apkg
 
 # El número de tema sale del prefijo del directorio (04-comunicaciones -> 4).
-numero_de = $(shell echo $(1) | cut -d- -f1 | sed 's/^0//')
+numero_de = $(shell echo $(notdir $(1)) | cut -d- -f1 | sed 's/^0//')
 
 # --- ENTRADAS DE CADA LIBRO ---
 # De qué depende un entregable. Se escriben aquí, una vez, para que las tres
@@ -206,10 +230,33 @@ estado_libro = $$(v=$$($(SED_VERSION) $(1)/_quarto.yml 2>/dev/null || $(SED_VERS
 	elif [ "$$men" -ge 8 ]; then echo "Creando ilustraciones"; \
 	else echo "En desarrollo"; fi)
 
-nota_libro = $$(case "$(call estado_libro,$(1))" in \
+nota_libro = $(call nota_libro_$(call idioma_de,$(1)),$(1))
+nota_libro_es = $$(case "$(call estado_libro,$(1))" in \
 	"En revisión") echo "Edición pendiente de revisión técnica por más instructores. El contenido puede cambiar antes de la versión definitiva." ;; \
 	"Creando ilustraciones") echo "El texto está completo pero NO HA SIDO REVISADO y las ilustraciones aún se están elaborando." ;; \
 	"En desarrollo") echo "Texto e ilustraciones en elaboración. Contenido provisional, sujeto a cambios." ;; \
+	*) echo "" ;; esac)
+nota_libro_en = $$(case "$(call estado_libro,$(1))" in \
+	"En revisión") echo "This edition is awaiting technical review by more instructors. The content may change before the final version." ;; \
+	"Creando ilustraciones") echo "The text is complete but HAS NOT BEEN REVIEWED, and the illustrations are still in progress." ;; \
+	"En desarrollo") echo "Text and illustrations in progress. Provisional content, subject to change." ;; \
+	*) echo "" ;; esac)
+
+# La etiqueta que se IMPRIME (marca de agua, portadilla, aviso del EPUB,
+# cabecera del RAG, manifiesto web, tarjeta de aviso Anki). `estado_libro` sigue
+# devolviendo la etiqueta española en los dos idiomas porque es un dato —lo leen
+# `make estados`, el guardián del README y las notas del release—; aquí sólo se
+# traduce para mostrarlo.
+#
+# ⚠️ Se elige con el nombre de la variable y no con `$(if …)`: make cuenta los
+# paréntesis dentro de un `$(if)` y el `)` de los patrones de `case` lo cierra
+# antes de tiempo. El shell recibía la receta mutilada.
+estado_visible = $(call estado_visible_$(call idioma_de,$(1)),$(1))
+estado_visible_es = $(call estado_libro,$(1))
+estado_visible_en = $$(case "$(call estado_libro,$(1))" in \
+	"En revisión") echo "In review" ;; \
+	"Creando ilustraciones") echo "Creating illustrations" ;; \
+	"En desarrollo") echo "In development" ;; \
 	*) echo "" ;; esac)
 
 # Las reglas se generan una por libro, y no como regla de patrón, porque el
@@ -240,7 +287,7 @@ $(call pdf_de,$(1)): $(call fuentes_texto_de,$(1)) $(call fuentes_imagen_de,$(1)
 	quarto render $(1)/ --to orange-book-es-typst \
 	  --metadata fecha-actualizacion="$$(call fecha_libro,$(1))" \
 	  --metadata version-quarto="$$(call version_quarto)" \
-	  --metadata estado="$$(call estado_libro,$(1))" \
+	  --metadata estado="$$(call estado_visible,$(1))" \
 	  --metadata estado-nota="$$(call nota_libro,$(1))"
 	@mv $(1)/_book/*.pdf $$@
 	@echo "✓ PDF generado en $$@"
@@ -251,7 +298,7 @@ $(call epub_de,$(1)): $(call fuentes_texto_de,$(1)) $(call fuentes_imagen_de,$(1
 	quarto render $(1)/ --to epub \
 	  --metadata fecha-actualizacion="$$(call fecha_libro,$(1))" \
 	  --metadata version-quarto="$$(call version_quarto)" \
-	  --metadata estado="$$(call estado_libro,$(1))" \
+	  --metadata estado="$$(call estado_visible,$(1))" \
 	  --metadata estado-nota="$$(call nota_libro,$(1))"
 	@mv $(1)/_book/*.epub $$@
 	@python3 tools/epub/optimizar_imagenes.py $$@
@@ -268,7 +315,7 @@ $(call rag_de,$(1)): $(call fuentes_texto_de,$(1)) tools/rag/construir.sh tools/
 	@tools/rag/construir.sh $(1) \
 	  "$$(call version_libro,$(1))" \
 	  "$$(call fecha_libro,$(1))" \
-	  "$$(call estado_libro,$(1))" \
+	  "$$(call estado_visible,$(1))" \
 	  "$(call numero_de,$(1))" \
 	  $$@
 	@echo "✓ Markdown para RAG generado en $$@"
@@ -279,7 +326,7 @@ $(call web_de,$(1)): $(call fuentes_texto_de,$(1)) $(call fuentes_imagen_de,$(1)
 	@tools/web/construir.py $(1) \
 	  "$$(call version_libro,$(1))" \
 	  "$(call fecha_iso_de,$(1))" \
-	  "$$(call estado_libro,$(1))" \
+	  "$$(call estado_visible,$(1))" \
 	  "$$(call nota_libro,$(1))" \
 	  $$@
 	@echo "✓ Paquete web generado en $$@"
@@ -292,14 +339,14 @@ $(call anki_de,$(1)): $(call fuentes_texto_de,$(1)) $(call mazos_de,$(1)) $(fuen
 	@tools/anki/construir.py $(1) \
 	  "$$(call version_libro,$(1))" \
 	  "$(call fecha_iso_anki_de,$(1))" \
-	  "$$(call estado_libro,$(1))" \
+	  "$$(call estado_visible,$(1))" \
 	  $$@
 
 .PHONY: $(1)
 $(1): $(call pdf_de,$(1)) $(call epub_de,$(1)) $(call rag_de,$(1)) $(call web_de,$(1)) $(call anki_de,$(1))
 endef
 
-$(foreach libro,$(LIBROS),$(eval $(call reglas_de_libro,$(libro))))
+$(foreach libro,$(LIBROS) $(LIBROS_EN),$(eval $(call reglas_de_libro,$(libro))))
 
 reconocimientos: $(fuentes_revisores)
 	python3 tools/actualizar-reconocimientos.py
@@ -433,8 +480,9 @@ help:
 	@printf '  make %-35s %s\n' 'estados' 'Muestra libro, versión y estado editorial.'
 	@printf '  make %-35s %s\n' 'espejo' 'Copia los .qmd como .md fuera del repo, para indexar.'
 	@printf '  make %-35s %s\n' 'clean' 'Borra build/, _book/, cachés y archivos unificados en raíz.'
+	@printf '  make %-35s %s\n' 'en' 'Compila la edición inglesa (piloto).'
 	@printf '%s\n' '' 'Libros:'
-	@for libro in $(LIBROS); do \
+	@for libro in $(LIBROS) $(LIBROS_EN); do \
 		printf '  make %-35s %s\n' "$$libro" 'Compila ese libro (PDF + EPUB + RAG + web).'; \
 	done
 
@@ -461,7 +509,7 @@ estados:
 # colección, viven en git y no se regeneran a partir de nada.
 clean:
 	rm -rf $(BUILD_DIR) _book .quarto
-	@for libro in $(LIBROS); do \
+	@for libro in $(LIBROS) $(LIBROS_EN); do \
 		rm -rf $$libro/_book $$libro/.quarto; \
 	done
 	rm -f recursos-completo/_quarto-completo.yml recursos-completo/glosario.qmd recursos-completo/apendice-syllabus-completo.qmd recursos-completo/licencia.qmd recursos-completo/dedicatoria.qmd recursos-completo/reconocimientos.qmd recursos-completo/bibliografia.qmd _quarto.yml

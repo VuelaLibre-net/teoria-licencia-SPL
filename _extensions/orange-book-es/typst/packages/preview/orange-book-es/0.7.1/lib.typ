@@ -347,6 +347,12 @@
   let supplement-part = if lang == "es" and supplement-part == "Part" { "Parte" } else { supplement-part }
   let list-of-figure-title = if lang == "es" and list-of-figure-title == none { "Índice de ilustraciones" } else { list-of-figure-title }
   let list-of-table-title = if lang == "es" and list-of-table-title == none { "Índice de tablas" } else { list-of-table-title }
+  // Edición inglesa (en/). Chapter/Part ya son los valores por defecto; sólo
+  // faltan los títulos de las listas —sin ellos salen con título `none`— y el
+  // H1 de introduction.qmd, que es donde se imprime el índice (ver abajo).
+  let list-of-figure-title = if lang == "en" and list-of-figure-title == none { "List of Figures" } else { list-of-figure-title }
+  let list-of-table-title = if lang == "en" and list-of-table-title == none { "List of Tables" } else { list-of-table-title }
+  let front-matter-end = if lang == "en" and front-matter-end == "Cómo leer este libro" { "How to Read This Book" } else { front-matter-end }
 
   manual-completo-state.update(manual-completo)
 
@@ -408,10 +414,12 @@
   // ninguna palabra se rompa. Las demás etiquetas ("EN REVISIÓN",
   // "EN DESARROLLO") caben en una sola línea y se renderizan igual que antes.
   set page(foreground: if estado != none {
-    let contenido = if estado == "Creando ilustraciones" {
+    // La edición inglesa recibe la etiqueta ya traducida por el Makefile
+    // ("Creating illustrations"), que tampoco cabe en una línea.
+    let contenido = if estado in ("Creando ilustraciones", "Creating illustrations") {
       stack(dir: ttb, spacing: 0.7em,
-        text(size: 52pt, weight: "black", fill: rgb(200, 30, 30, 23), "CREANDO"),
-        text(size: 52pt, weight: "black", fill: rgb(200, 30, 30, 23), "ILUSTRACIONES"),
+        ..upper(estado).split(" ").map(palabra =>
+          text(size: 52pt, weight: "black", fill: rgb(200, 30, 30, 23), palabra)),
       )
     } else {
       text(size: 52pt, weight: "black", fill: rgb(200, 30, 30, 23), upper(estado))
@@ -700,7 +708,7 @@
       #if version != none or fecha-actualizacion != none [
         #v(0.8cm, weak: true)
         #text(size: 1em)[
-          #if version != none [Versión #version]
+          #if version != none { if lang == "en" [Version #version] else [Versión #version] }
           #if version != none and fecha-actualizacion != none [ · ]
           #if fecha-actualizacion != none [#fecha-actualizacion]
         ]

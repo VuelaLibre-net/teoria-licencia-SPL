@@ -152,3 +152,40 @@ CLOZE = genanki.Model(
 )
 
 MODELOS = {"basica": BASICA, "cloze": CLOZE}
+
+# Edición inglesa (en/). Modelos PROPIOS, con otro nombre y por tanto otro id:
+# traducir los nombres de campo de los españoles cambiaría su id y rompería la
+# reimportación en las colecciones de los alumnos (ver `id_estable`). Mismo CSS
+# y misma forma; sólo cambian los rótulos.
+BASIC = genanki.Model(
+    id_estable("SPL Basic"),
+    "SPL Basic",
+    fields=[{"name": "Front"}, {"name": "Back"}, {"name": "Source"}],
+    templates=[
+        {
+            "name": "Card",
+            "qfmt": "{{Front}}",
+            "afmt": '{{FrontSide}}<hr id="answer">{{Back}}'
+            '<div class="fuente">{{Source}}</div>',
+        }
+    ],
+    css=_CSS,
+)
+
+CLOZE_EN = genanki.Model(
+    id_estable("SPL Cloze (English)"),
+    "SPL Cloze (English)",
+    model_type=genanki.Model.CLOZE,
+    fields=[{"name": "Text"}, {"name": "Extra"}, {"name": "Source"}],
+    templates=[
+        {
+            "name": "Cloze",
+            "qfmt": "{{cloze:Text}}",
+            "afmt": "{{cloze:Text}}{{#Extra}}<hr id=\"answer\">{{Extra}}{{/Extra}}"
+            '<div class="fuente">{{Source}}</div>',
+        }
+    ],
+    css=_CSS,
+)
+
+MODELOS_POR_IDIOMA = {"es": MODELOS, "en": {"basica": BASIC, "cloze": CLOZE_EN}}

@@ -1,0 +1,107 @@
+---
+origen: 07-planificacion-rendimiento/cap03-planificacion-de-vuelo-y-definicion-de-tareas.qmd
+origen-commit: e9e893e
+---
+
+# Flight planning and task setting
+
+> Cross-country flying is not just a matter of stick skill; it is a game of strategy in which time management and the weather are your main resources. A well-planned task is half the success of a cross-country flight.
+>
+>
+> In this chapter you will learn:
+>
+>
+> * **Average speed**: working out the convection window and the day's real radius of action.
+> * **FAI triangle and AAT**: two types of task, two different mindsets.
+> * **Planning over Spanish terrain**: blind valleys, escape points and convergence lines.
+> * **Survival equipment**: what European regulations require when the route would complicate a rescue.
+> * **Personal minima**: the “switch” that turns you from competitor into survivor.
+
+## Average speed: the key to distance
+
+In gliding, average speed decides how many kilometres you can cover before the sun goes down and convection dies. And the way to raise it is less intuitive than it seems.
+
+* **Do not stop in weak thermals**: average speed does not go up by flying faster between clouds, but by not stopping to turn in lift that is below the day's average.
+* **Consistency**: keeping a steady flow and using cloud streets to make progress without turning is what really drives the average up.
+* **The day's window**: if the day offers 6 hours of convection and your average is 50 km/h, your real radius of action is good for a task of about 300 km. Try for more and you are buying a ticket to an outlanding.
+
+::: {.mas-alla}
+## FAI triangle and AAT: two ways to compete
+
+[**↗ BEYOND THE EXAM.**]{.mas-alla-tag} Competition task types (FAI triangle, AAT) and racing strategy should not be exam material. They are included because they are the natural next step in cross-country flying; read them as an introduction.
+
+Depending on the type of task, your mindset changes completely.
+
+* **FAI triangle**: the turning points are fixed and precise. The navigation is rigid: you round the turning point or the task does not count.
+* **Assigned area task (AAT)**: around each point there is a large circular sector, and you decide where to turn within it. If the day is better than forecast, go deep into the area to add distance; if it is closing down, touch the nearest edge and head home before the thermals run out.
+
+### Where this is written down, and where to see it flown
+
+None of these courses is a club convention: they are defined, with their figures, in the FAI sporting rules. If you are going to declare a task, look at the original before any summary, this one included.
+
+* **The courses** (out-and-return, triangle, free distance) are defined in *Sporting Code Section 3*, paragraph **1.4.2**, which governs badges and records. There you can see that the **out-and-return** is a closed course with **a single** declared turning point, and the **triangle** one with two or three, flown in the declared order.
+
+  [https://www.fai.org/sites/default/files/sc3_2024.pdf](https://www.fai.org/sites/default/files/sc3_2024.pdf)
+
+* **Competition tasks**, the fixed-course *Racing Task* and the *Assigned Area Task*, are in **Part 6** of Annex A to the same code, with the geometry of the sectors and how each one is scored.
+
+  [https://www.fai.org/sites/default/files/sc3a_2025.pdf](https://www.fai.org/sites/default/files/sc3a_2025.pdf)
+
+* **To see them flown**, the Online Contest publishes the real traces of each season, with their turning points and task type. Its rules also explain the criterion that turns any triangle into an **FAI triangle**: the shortest leg may not be less than **28 %** of the total distance, or **25 %** from 500 km upwards.
+
+  [https://www.onlinecontest.org/olc-3.0/segelflugszene/cms.html?url=rules_overview%2Fb2_en](https://www.onlinecontest.org/olc-3.0/segelflugszene/cms.html?url=rules_overview%2Fb2_en)
+
+That 28 % is why an FAI triangle cannot be “stretched” towards the good side of the day: as soon as one leg becomes too short relative to the other two, the course no longer counts as an FAI triangle, even if you have flown the same kilometres.
+:::
+
+
+## Meteorology: your invisible engine
+
+Before take-off, you need to know how the day's sky will develop.
+
+* **The convection window**: identify the time the first thermals start (the **trigger**) and the time convection dies. Plan to cross the difficult areas (shade, mountains) during the hours of maximum sunshine.
+* **Sounding and cloud base**: the height of the inversion and the cloud base define your working space. The bigger the margin between the base and the ground, the safer your progress will be.
+
+::: {.callout-warning title="Safety"}
+Always remember to check the NOTAMs and the controlled airspace along your route. A task that crosses a TMA without clearance is a failed task, whatever the distance flown.
+:::
+
+## Planning over Spanish terrain
+
+In Spain, most cross-country tasks are flown over mountainous terrain or within its area of influence. The terrain is not just an obstacle: it is both your source of energy and your main planning risk.
+
+* **Blind valleys**: a valley that narrows and rises with no landable fields and no flyable way out is a classic mountain trap. When you draw the route on the chart, identify these funnels and plan to cross the ranges through passes with an escape route on both sides. Rule of thumb: never commit to a valley without having worked out how to get out of it with the height you will have at that point, not the height you would like to have.
+* **Escape points**: mark on your plan the aerodromes and areas of landable fields that flank each leg of the route. Each segment of the task must answer the question: “if the thermal dies here, where do I glide to?”. If a leg has no answer, rethink the route or set a more demanding minimum crossing height.
+* **Organised lift systems**: the mesetas generate **convergence lines**, and the great ranges (the Sistema Central is the classic example) trigger **mountain waves** downwind. Plan the task along these structures, not across them, and your average speed climbs sharply. You studied the phenomena themselves (convergence, wave, the Foehn effect) in **Book 3 — Meteorology**, chapters 2 and 8; here the lesson is strategic: the shortest route on the map is rarely the fastest over the ground.
+* **Shaded areas**: north faces and deep valleys go into shade hours before the mesetas. Plan to cross the critical areas during the middle of the day.
+
+## Survival equipment: when the route complicates a rescue
+
+A task over sparsely populated ranges or large forests makes you ask yourself: if I land out (or bail out), how long will it take them to find me, and what do I need until then? The answer is not just common sense: it is a regulatory requirement.
+
+::: {.callout-important title="Regulation"}
+Regulation (EU) 2018/1976 (**Part-SAO**), which governs sailplane operations in Europe, lays down in **SAO.IDE.125** that sailplanes operated over areas where search and rescue would be especially difficult must carry the rescue and signalling equipment appropriate to the area overflown. Its AMC1 sets out the minimum: an **ELT**, a **personal locator beacon (PLB)** or equivalent registered locator, equipment for making distress signals, and survival equipment appropriate to the route. For flights over water, **SAO.IDE.120** also applies: the pilot-in-command must assess, before the flight, the survival risks in the event of ditching.
+:::
+
+In practice, for a crossing over the Spanish mountains: water, warm clothing (at 2,500 m it is cold even in July), a registered PLB or ELT, a charged mobile phone and a signalling mirror or reflective vest weigh less than two kilos and fit behind the seat back. Put them on the task equipment list, not in the “maybe later” category.
+
+## Personal minima: the safety switch
+
+A good pilot knows when to stop being a competitor and become a survivor.
+
+* **Minimum acceptable thermal**: below a certain height (500 m above the ground, for example), any thermal is a good one. Above it, pick only the best.
+* **Decision height**: set a point at which you stop looking for the next thermal and concentrate only on choosing a field to land in. Do not wait until you are at 100 metres to look for one. The criteria for choosing and assessing a field from the air, the **7 S** rule, are covered in **Book 6 — Operational Procedures**, chapter 5; go over them before every cross-country flight.
+
+::: {.callout-note title="Airmanship"}
+Your minima should be more conservative if you are flying in unfamiliar areas or in low-performance gliders. Safety is never negotiable.
+:::
+
+::: {.postit}
+**Chapter summary: task planning**
+
+* **Average speed**: the winner is not the one who flies fastest, but the one who stops least. Avoid turning in weak thermals; the key lies in consistency and in choosing the route under the cloud streets.
+* **Meteorology**: study the sounding before take-off. When does convection start? When does it die? Plan the flying window so that you cross the difficult parts in the middle of the day.
+* **Terrain**: the shortest route on the map is rarely the fastest over the ground. Avoid blind valleys, mark escape points on every leg and lay the task along convergences and waves, not across them.
+* **Survival equipment**: over areas where rescue would be difficult, Part-SAO (SAO.IDE.125) requires an ELT or PLB, and signalling and survival equipment appropriate to the route. Water, warm clothes and a beacon: less than two kilos that can save your life.
+* **Personal minima**: set them before you leave. Minimum height to continue en route? Minimum acceptable thermal? If you go below them, switch from competition mode to survival mode.
+:::

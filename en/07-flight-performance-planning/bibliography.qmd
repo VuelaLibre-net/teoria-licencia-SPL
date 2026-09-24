@@ -1,0 +1,55 @@
+---
+origen: 07-planificacion-rendimiento/bibliografia.qmd
+origen-commit: 4a61f62
+---
+
+# Bibliography and sources
+
+This bibliography is common to the nine books of the SPL training manual. It brings together the regulatory sources, technical manuals and instruction notes used as references in preparing the content of the collection.
+
+**Instruction notes (DTO Fuentemilanos)**
+
+Theory notes by **Iñaqui Ulibarri García de la Cueva** for the Fuentemilanos Declared Training Organisation (DTO), organised by subject of the SPL syllabus (in Spanish).
+
+**Regulations**
+
+* **Easy Access Rules for Sailplanes**. European Union Aviation Safety Agency (EASA). Consolidated compendium of Regulation (EU) 2018/1976 —which contains **Part-SFCL** (licensing) and **Part-SAO** (operations)— together with its AMC and GM.
+  [https://www.easa.europa.eu/sites/default/files/dfu/Sailplane%20Rule%20Book.pdf](https://www.easa.europa.eu/sites/default/files/dfu/Sailplane%20Rule%20Book.pdf)
+* **Commission Implementing Regulation (EU) No 923/2012 — SERA** (*Standardised European Rules of the Air*). Common rules of the air for the European Union (consolidated version). In Spain it is applied through Real Decreto 552/2014 (Royal Decree 552/2014).
+  [https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02012R0923-20250501](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02012R0923-20250501)
+* **Ley 21/2003, de 7 de julio, de Seguridad Aérea** (Spanish Aviation Safety Act 21/2003 of 7 July). Head of State (Spain). Published in the BOE (Official State Gazette) no. 162 of 8 July 2003. National legal framework that complements European regulations.
+* **Doc 4444 — PANS-ATM** (*Procedures for Air Navigation Services — Air Traffic Management*). International Civil Aviation Organization (ICAO). Its **Appendix 2** contains the model flight plan form and the instructions for completing each item, which is what chapter 4 applies.
+
+**Annexes to the Chicago Convention (ICAO)**
+
+ICAO develops its Standards and Recommended Practices (SARPs) through 19 annexes to the Convention on International Civil Aviation. The most relevant to the glider pilot are Annexes 1, 2, 7, 8, 11, 12, 13, 14 and 15.
+
+* Annex 1 — Personnel Licensing
+* Annex 2 — Rules of the Air
+* Annex 3 — Meteorological Service for International Air Navigation
+* Annex 4 — Aeronautical Charts
+* Annex 5 — Units of Measurement to be Used in Air and Ground Operations
+* Annex 6 — Operation of Aircraft
+* Annex 7 — Aircraft Nationality and Registration Marks
+* Annex 8 — Airworthiness of Aircraft
+* Annex 9 — Facilitation
+* Annex 10 — Aeronautical Telecommunications
+* Annex 11 — Air Traffic Services
+* Annex 12 — Search and Rescue
+* Annex 13 — Aircraft Accident and Incident Investigation
+* Annex 14 — Aerodromes
+* Annex 15 — Aeronautical Information Services
+* Annex 16 — Environmental Protection
+* Annex 17 — Security: Safeguarding International Civil Aviation against Acts of Unlawful Interference
+* Annex 18 — The Safe Transport of Dangerous Goods by Air
+* Annex 19 — Safety Management
+
+**Technical manuals and training methods**
+
+* **Glider Flying Handbook (FAA-H-8083-13B)**. Federal Aviation Administration (FAA), U.S. Department of Transportation. A public-domain work; the source of many of the collection's technical illustrations.
+  [https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/glider_handbook](https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/glider_handbook)
+* **Methodik der Segelflugausbildung** (*Segelflugrechte*, Rev. 2). Deutscher Aero Club (DAeC), 2022. German methodology for gliding instruction.
+  [https://www.daec.de/media/files/2022/Sportarten/Segelflug/Methodik_der_Segelflugausbildung_Segelflugrechte_Rev.2.pdf](https://www.daec.de/media/files/2022/Sportarten/Segelflug/Methodik_der_Segelflugausbildung_Segelflugrechte_Rev.2.pdf)
+* **Sporting Code Section 3 — Gliding (Classes D & DM)**. Fédération Aéronautique Internationale (FAI), 2025 edition, in force since 1 October 2025. Defines the cross-country task types —FAI triangle, assigned area task (AAT)— and the rules for validating flights and records.
+  [https://www.fai.org/sites/default/files/document/file/sc3_2025.pdf](https://www.fai.org/sites/default/files/document/file/sc3_2025.pdf)
+* **Cross-Country Soaring**. Helmut Reichmann. English edition of the international reference work on cross-country soaring technique (orig. *Streckensegelflug*). The collection was prepared from the Spanish edition, *Vuelo sin motor: técnicas avanzadas* (ISBN 978-84-283-1567-8).

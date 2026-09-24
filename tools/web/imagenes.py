@@ -68,8 +68,11 @@ def _local_path(src: str) -> Path | None:
     return path
 
 
-def _fallback_alt(path: Path) -> str:
-    return f"Gráfico: {re.sub(r'[-_]+', ' ', path.stem)}"
+ALT_PREFIX = {"es": "Gráfico", "en": "Figure"}
+
+
+def _fallback_alt(path: Path, lang: str = "es") -> str:
+    return f"{ALT_PREFIX.get(lang, ALT_PREFIX['es'])}: {re.sub(r'[-_]+', ' ', path.stem)}"
 
 
 def _variants(path: Path, source_dir: Path) -> tuple[int, int, dict[str, str]]:
@@ -105,7 +108,7 @@ def _variants(path: Path, source_dir: Path) -> tuple[int, int, dict[str, str]]:
     }
 
 
-def _transform_image(tag: str, source_dir: Path) -> tuple[str, ImageStats]:
+def _transform_image(tag: str, source_dir: Path, lang: str = "es") -> tuple[str, ImageStats]:
     src = _attribute(tag, "src")
     if src is None:
         return tag, ImageStats()
@@ -117,7 +120,7 @@ def _transform_image(tag: str, source_dir: Path) -> tuple[str, ImageStats]:
     alt_added = 0
     dimensions_added = 0
     if _attribute(tag, "alt") is None:
-        tag = _set_attribute(tag, "alt", _fallback_alt(path))
+        tag = _set_attribute(tag, "alt", _fallback_alt(path, lang))
         alt_added = 1
     if _attribute(tag, "width") is None:
         tag = _set_attribute(tag, "width", str(width))
@@ -136,7 +139,7 @@ def _transform_image(tag: str, source_dir: Path) -> tuple[str, ImageStats]:
     )
 
 
-def optimize_html_images(html_dir: Path) -> ImageStats:
+def optimize_html_images(html_dir: Path, lang: str = "es") -> ImageStats:
     """Sustituye cada imagen raster local por un ``picture`` responsive."""
     total = ImageStats()
     for html_path in sorted(html_dir.glob("*.html")):
@@ -145,7 +148,7 @@ def optimize_html_images(html_dir: Path) -> ImageStats:
 
         def replace(match: re.Match[str]) -> str:
             nonlocal stats
-            transformed, image_stats = _transform_image(match.group(0), html_dir)
+            transformed, image_stats = _transform_image(match.group(0), html_dir, lang)
             stats += image_stats
             return transformed
 

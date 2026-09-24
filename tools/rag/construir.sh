@@ -29,6 +29,8 @@ fi
 
 titulo=$(sed -n 's/^  title: *"\{0,1\}\([^"]*\)"\{0,1\}/\1/p' "$config" | head -1)
 repo=$(sed -n 's/^repo-url: *"\{0,1\}\([^"]*\)"\{0,1\}/\1/p' "$config" | head -1)
+idioma=$(sed -n 's/^lang: *"\{0,1\}\([a-z]*\)"\{0,1\}/\1/p' "$config" | head -1)
+[ -n "$idioma" ] || idioma=es
 
 [ -n "$titulo" ] || { echo "construir.sh: $libro sin title en $config" >&2; exit 1; }
 
@@ -43,7 +45,7 @@ repo=$(sed -n 's/^repo-url: *"\{0,1\}\([^"]*\)"\{0,1\}/\1/p' "$config" | head -1
 # tramo, así que pedir los dos mete cada apéndice DOS veces en el entregable.
 lista=$(sed -n '/^  chapters:/,/^format:/p' "$config" \
   | sed -n 's/^[[:space:]]*- \(.*\.qmd\)$/\1/p' \
-  | grep -vxE '(.*/)?(index|licencia|dedicatoria|epigrafe|reconocimientos|colofon|contracubierta)\.qmd')
+  | grep -vxE '(.*/)?(index|licencia|dedicatoria|epigrafe|reconocimientos|colofon|contracubierta|licence|dedication|epigraph|acknowledgements|colophon|back-cover)\.qmd')
 
 [ -n "$lista" ] || { echo "construir.sh: $libro no aportó ningún .qmd" >&2; exit 1; }
 
@@ -56,6 +58,23 @@ repetidos=$(echo "$lista" | sort | uniq -d)
 tmp=$(mktemp -d)
 trap 'rm -rf "$tmp"' EXIT
 
+if [ "$idioma" = en ]; then
+{
+  echo "# $titulo"
+  echo
+  echo "- **Collection:** Theoretical manuals for the SPL sailplane pilot licence (EASA/AESA)."
+  echo "- **Subject:** $numero of 9."
+  echo "- **Version:** $version — updated $fecha."
+  echo "- **Editorial status:** ${estado:-Complete}."
+  [ -n "$repo" ] && echo "- **Source:** $repo"
+  echo
+  echo "Document generated from the book for indexing by retrieval tools. It"
+  echo "keeps the full text, its boxes —tagged with the syllabus label: Safety,"
+  echo "Regulation, Golden rule, Airmanship— and each chapter summary. Illustrations"
+  echo "are not included; their captions are."
+  echo
+} > "$tmp/salida.md"
+else
 {
   echo "# $titulo"
   echo
@@ -71,6 +90,7 @@ trap 'rm -rf "$tmp"' EXIT
   echo "resumen de cada capítulo. Las ilustraciones no se incluyen; sí sus pies."
   echo
 } > "$tmp/salida.md"
+fi
 
 ncap=0
 napendice=0
@@ -83,7 +103,7 @@ for f in $lista; do
   case "$nombre" in
     cap*)
       ncap=$((ncap + 1)); etiqueta=$ncap ;;
-    apendice*|glosario.qmd|bibliografia.qmd)
+    apendice*|glosario.qmd|bibliografia.qmd|appendix*|glossary.qmd|bibliography.qmd)
       napendice=$((napendice + 1))
       etiqueta=$(echo "$napendice" | awk '{printf "%c", 64 + $1}') ;;
     *)
@@ -94,7 +114,7 @@ for f in $lista; do
   # De introduccion.qmd sólo entra la cabecera: el gancho propio del libro. La
   # cola —la guía de lectura— es idéntica en los 9 y explica la maqueta, que el
   # RAG no ve; nueve copias sólo darían trozos duplicados que compiten entre sí.
-  if [ "$nombre" = "introduccion.qmd" ]; then
+  if [ "$nombre" = "introduccion.qmd" ] || [ "$nombre" = "introduction.qmd" ]; then
     sed '/GUÍA-DE-LECTURA/,$d' "$entrada" > "$tmp/introduccion.qmd"
     entrada=$tmp/introduccion.qmd
   fi
@@ -109,6 +129,7 @@ for f in $lista; do
     --wrap=none \
     --lua-filter="$filtro" \
     --metadata=etiqueta="$etiqueta" \
+    --metadata=idioma="$idioma" \
     >> "$tmp/salida.md"
   echo >> "$tmp/salida.md"
 done

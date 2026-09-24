@@ -31,18 +31,47 @@ import genanki
 import yaml
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
-from modelo import MODELOS, guid, id_estable, markdown_a_html  # noqa: E402
+from modelo import MODELOS_POR_IDIOMA, guid, id_estable, markdown_a_html  # noqa: E402
 
 RAIZ = pathlib.Path(__file__).resolve().parents[2]
 MAZOS = RAIZ / "tools" / "anki" / "mazos"
 
-CATEGORIAS = {"Seguridad", "Normativa", "Regla de oro", "Airmanship"}
+CATEGORIAS = {"Seguridad", "Normativa", "Regla de oro", "Airmanship",
+              "Safety", "Regulation", "Golden rule"}
+
+# Lo que el mazo escribe por su cuenta, por idioma. La edición inglesa cuelga de
+# su propia raíz para no mezclarse con los mazos españoles del alumno.
+TEXTOS = {
+    "es": {
+        "raiz": "SPL",
+        "cap": "cap.",
+        "estado": "Estado de este mazo",
+        "aviso": "El libro del que salen estas tarjetas todavía no es definitivo; su "
+                 "contenido puede cambiar. Contrasta con el manual antes de dar por "
+                 "buena una tarjeta que te choque.",
+        "generado": "Generado el",
+    },
+    "en": {
+        "raiz": "SPL (EN)",
+        "cap": "ch.",
+        "estado": "Status of this deck",
+        "aviso": "The book these cards come from is not final yet; its content may "
+                 "change. Check the manual before trusting a card that surprises you.",
+        "generado": "Generated on",
+    },
+}
 
 
 def slug(texto: str) -> str:
     """Normaliza una etiqueta para Anki, que separa las etiquetas por espacios."""
     plano = unicodedata.normalize("NFKD", texto).encode("ascii", "ignore").decode()
     return re.sub(r"[^a-z0-9]+", "-", plano.lower()).strip("-")
+
+
+def idioma_libro(libro: str) -> str:
+    quarto = (RAIZ / libro / "_quarto.yml").read_text(encoding="utf-8")
+    m = re.search(r'^lang:\s*"?([a-z]+)"?', quarto, re.M)
+    return m.group(1) if m else "es"
 
 
 def titulo_libro(libro: str) -> str:
@@ -75,11 +104,17 @@ def construir(libro: str, version: str, fecha: str, estado: str, salida: pathlib
     if not directorio.is_dir():
         raise SystemExit(f"✗ No hay mazos para {libro}: falta {directorio.relative_to(RAIZ)}")
 
-    numero = int(libro.split("-")[0])
+    idioma = idioma_libro(libro)
+    textos = TEXTOS[idioma]
+    modelos = MODELOS_POR_IDIOMA[idioma]
+    # Los libros ingleses van como en/<libro>: el número sale de la carpeta, y la
+    # etiqueta cambia la barra por el separador de jerarquía de Anki.
+    numero = int(pathlib.PurePosixPath(libro).name.split("-")[0])
+    etiqueta_libro = libro.replace("/", "::")
     nombre_libro = titulo_libro(libro)
     # El mazo raíz agrupa las nueve asignaturas bajo un solo árbol plegable en
     # Anki; cada asignatura es un submazo, y cada capítulo un submazo suyo.
-    raiz = f"SPL::{numero:02d} {nombre_libro}"
+    raiz = f"{textos['raiz']}::{numero:02d} {nombre_libro}"
 
     mazos: dict[str, genanki.Deck] = {}
     vistos: set[str] = set()
@@ -112,7 +147,7 @@ def construir(libro: str, version: str, fecha: str, estado: str, salida: pathlib
         mazo = mazos.setdefault(
             nombre_mazo, genanki.Deck(id_estable(nombre_mazo), nombre_mazo)
         )
-        fuente = f"{nombre_libro} · cap. {capitulo} — {titulo_cap} · v{version}"
+        fuente = f"{nombre_libro} · {textos['cap']} {capitulo} — {titulo_cap} · v{version}"
 
         for tarjeta in tarjetas:
             id_tarjeta = tarjeta["id"]
@@ -121,13 +156,13 @@ def construir(libro: str, version: str, fecha: str, estado: str, salida: pathlib
             vistos.add(id_tarjeta)
 
             tipo, campos = campos_de(tarjeta, fuente)
-            etiquetas = [f"spl::{libro}", f"spl::{libro}::cap{capitulo:02d}"]
+            etiquetas = [f"spl::{etiqueta_libro}", f"spl::{etiqueta_libro}::cap{capitulo:02d}"]
             for extra in tarjeta.get("etiquetas") or []:
                 etiquetas.append(f"spl::{slug(extra)}" if extra not in CATEGORIAS
                                  else f"spl::recuadro::{slug(extra)}")
             mazo.add_note(
                 genanki.Note(
-                    model=MODELOS[tipo],
+                    model=modelos[tipo],
                     fields=campos,
                     tags=etiquetas,
                     guid=guid(libro, capitulo, id_tarjeta),
@@ -146,17 +181,13 @@ def construir(libro: str, version: str, fecha: str, estado: str, salida: pathlib
         aviso = mazos.setdefault(raiz, genanki.Deck(id_estable(raiz), raiz))
         aviso.add_note(
             genanki.Note(
-                model=MODELOS["basica"],
+                model=modelos["basica"],
                 fields=[
-                    markdown_a_html(f"**Estado de este mazo:** {nombre_libro} v{version}"),
-                    markdown_a_html(
-                        f"**{estado}.** El libro del que salen estas tarjetas todavía no es "
-                        "definitivo; su contenido puede cambiar. Contrasta con el manual "
-                        "antes de dar por buena una tarjeta que te choque."
-                    ),
-                    f"Generado el {fecha}",
+                    markdown_a_html(f"**{textos['estado']}:** {nombre_libro} v{version}"),
+                    markdown_a_html(f"**{estado}.** {textos['aviso']}"),
+                    f"{textos['generado']} {fecha}",
                 ],
-                tags=[f"spl::{libro}", "spl::aviso"],
+                tags=[f"spl::{etiqueta_libro}", "spl::aviso"],
                 guid=guid(libro, 0, "aviso-de-estado"),
             )
         )

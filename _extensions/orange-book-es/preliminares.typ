@@ -150,7 +150,7 @@
       #set text(size: 0.9em)
       #body
       #v(0.4em)
-      #text(size: 0.85em, style: "italic")[Motor tipográfico: Typst #sys.version.]
+      #text(size: 0.85em, style: "italic")[#context if text.lang == "en" [Typesetting engine: Typst #sys.version.] else [Motor tipográfico: Typst #sys.version.]]
     ]
   ]
   v(1fr)

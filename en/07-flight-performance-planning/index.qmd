@@ -1,0 +1,6 @@
+---
+origen: 07-planificacion-rendimiento/index.qmd
+origen-commit: 2890174
+---
+
+# Flight performance and planning {.unnumbered .unlisted .oculto}

@@ -1,0 +1,47 @@
+project:
+  type: book
+  output-dir: _book
+
+lang: en
+version: "0.8.0"
+repo-url: "https://github.com/VuelaLibre-net/teoria-licencia-SPL"
+cubierta: "cover/frente.png"
+contracubierta: "cover/reverso.png"
+
+book:
+  title: "Flight Performance and Planning"
+  author: "VuelaLibre.net"
+  chapters:
+    - index.qmd
+    - licence.qmd
+    - dedication.qmd
+    - epigraph.qmd
+    - acknowledgements.qmd
+    - introduction.qmd
+    - cap01-mass-and-balance.qmd
+    - cap02-speed-polar-of-sailplanes-or-cruising-speed.qmd
+    - cap03-flight-planning-and-task-setting.qmd
+    - cap04-icao-flight-plan.qmd
+    - cap05-flight-monitoring-and-in-flight-re-planning.qmd
+  appendices:
+    - appendix-easa-syllabus-flight-performance-and-planning.qmd
+    - glossary.qmd
+    - bibliography.qmd
+    - colophon.qmd
+    - back-cover.qmd
+
+format:
+  orange-book-es-typst:
+    toc: true
+    number-sections: true
+    keep-typ: true
+    margin:
+      top: 2.5cm
+      bottom: 2.5cm
+  epub:
+    # Los .qmd llevan la marca GUÍA-DE-LECTURA como comentario HTML, para el
+    # editor. Typst los descarta solos; el EPUB los arrastraría al entregable.
+    strip-comments: true
+    toc: true
+    epub-cover-image: cover/frente.png
+    include-in-header: _extensions/orange-book-es/epub-estilos.html

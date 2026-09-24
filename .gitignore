@@ -11,6 +11,7 @@ _book/
 # Uno por libro (NN-*/index.typ) y el del manual completo, que se renderiza
 # desde la raíz del repo (index.typ), no desde recursos-completo/.
 /[0-9][0-9]-*/index.typ
+/en/[0-9][0-9]-*/index.typ
 /index.typ
 
 .tmp/
