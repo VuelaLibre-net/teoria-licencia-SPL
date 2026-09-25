@@ -5,7 +5,7 @@ origen-commit: 2890174
 
 # National law
 
-> Beyond the European rules, national legislation governs what we do; knowing the Aviation Safety Act saves you costly legal surprises.
+> European rules are not the whole story: national legislation also governs what we do. Knowing the Aviation Safety Act spares you costly legal surprises.
 >
 >
 > In this chapter you will learn:
@@ -17,25 +17,25 @@ origen-commit: 2890174
 
 ## Spanish legislation: the national framework
 
-In addition to European regulations (EASA/SERA), Spain has its own legislation that supplements and develops the EU framework. The main law is **Ley 21/2003, de 7 de julio, de Seguridad Aérea (LSA)**, the Spanish Aviation Safety Act 21/2003 of 7 July.
+On top of the European regulations (EASA/SERA), Spain has its own legislation, which supplements the EU framework and fills in its detail. The main law is **Ley 21/2003, de 7 de julio, de Seguridad Aérea (LSA)**, the Spanish Aviation Safety Act 21/2003 of 7 July.
 
 ## The Directorate General of Civil Aviation (DGAC)
 
-The **Dirección General de Aviación Civil (DGAC)**, the Spanish Directorate General of Civil Aviation, is the directorate of the Ministry of Transport and Sustainable Mobility responsible for designing the strategy and directing aviation policy.
+The **Dirección General de Aviación Civil (DGAC)**, the Spanish Directorate General of Civil Aviation, is the part of the Ministry of Transport and Sustainable Mobility that designs the strategy and directs aviation policy.
 
-While AESA oversees and sanctions, the DGAC works on the policy and regulatory side: it designs the strategy for the aviation sector, drafts and proposes national rules, represents Spain in bodies such as ICAO and coordinates the different bodies in the sector.
+AESA oversees and sanctions; the DGAC works on the policy and regulatory side. It designs the strategy for the aviation sector, drafts and proposes national rules, represents Spain in bodies such as ICAO and coordinates the different organisations in the sector.
 
 ::: {.callout-note title="Airmanship"}
-You could say that the **DGAC** writes the “rules of the game” (policy and strategy) and **AESA** is the “referee” that makes sure they are followed day to day (oversight and sanctions).
+Think of the **DGAC** as the one that writes the “rules of the game” (policy and strategy), and of **AESA** as the “referee” that makes sure they are followed day to day (oversight and sanctions).
 :::
 
 ## AESA: Spain's air police
 
-The **Agencia Estatal de Seguridad Aérea (AESA)**, the Spanish Aviation Safety Agency, created by Real Decreto 184/2008 (Royal Decree 184/2008), ensures compliance with civil aviation rules in Spain. It checks that operators, pilots, maintenance workshops and aerodromes comply with the rules; it regulates air transport, air navigation and airport security; it analyses the risks to air transport safety; and it has the power to impose **sanctions** when the rules are broken.
+The **Agencia Estatal de Seguridad Aérea (AESA)**, the Spanish Aviation Safety Agency, created by Real Decreto 184/2008 (Royal Decree 184/2008), enforces the civil aviation rules in Spain. It checks that operators, pilots, maintenance workshops and aerodromes comply with them. It also regulates air transport, air navigation and airport security, analyses the risks to air transport safety, and has the power to impose **sanctions** when the rules are broken.
 
 ## Infringements and sanctions
 
-The LSA classifies infringements by severity (@fig-01-cap14-infracciones). The examples below summarise it in an unofficial translation:
+The LSA classifies infringements by severity (@fig-01-cap14-infracciones). The examples below summarise it (unofficial translation):
 
 ### Minor infringements
 
@@ -59,17 +59,17 @@ The LSA classifies infringements by severity (@fig-01-cap14-infracciones). The e
 ![Scale of aviation infringements](imagenes/01-cap14-escala-infracciones.jpg){#fig-01-cap14-infracciones}
 
 ::: {.callout-warning title="Safety"}
-Financial penalties can be **very high**, even for private pilots. Flying without a licence, without insurance or under the influence of alcohol can cost you thousands of euros and a ban from flying. Ignorance of the law does **NOT** exempt you from complying with it.
+Fines can be **very high**, even for private pilots. Flying without a licence, without insurance or under the influence of alcohol can cost you thousands of euros and a ban from flying. Not knowing the law does **NOT** excuse you from complying with it.
 :::
 
 ::: {.callout-tip title="Golden rule"}
-If you have any doubt about whether an operation is legal (e.g. flying close to a controlled airport, carrying passengers without recency), **ask your club, your instructor or AESA first**. Better to ask than to face disciplinary proceedings.
+If you have any doubt about whether an operation is legal (e.g. flying close to a controlled airport, carrying passengers without recency), **ask your club, your instructor or AESA first**. Better to ask than to end up facing disciplinary proceedings.
 :::
 
 ::: {.postit}
 **Chapter summary: national law**
 
-Besides Europe, in Spain the **Aviation Safety Act (LSA 21/2003)** applies.
+Besides the European rules, Spain applies the **Aviation Safety Act (LSA 21/2003)**.
 
 * It sets out the regime of infringements and sanctions: the **very serious** ones (death or accident) can lead to a ban from flying.
 * **DGAC**: defines aviation policy (the “rules of the game”).

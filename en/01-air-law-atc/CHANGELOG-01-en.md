@@ -19,6 +19,10 @@ was translated from (`origen-commit`). Terminology follows `en/terminologia.yml`
 
 * **cap01, cap02, cap04, cap05, cap09, cap14** — some literal phrasings reworded to read less
   like a translation. No figures, regulatory quotes or glossary terms change.
+* **Epigraph and cap01–cap14, including the chapter summaries** — prose revised throughout for
+  natural English: shorter sentences, fewer semicolon chains, no calques from the Spanish. The
+  content is unchanged: same facts, figures, rules and terminology, and the same structure as the
+  Spanish chapters.
 
 ## [0.8.0] — 25 September 2026
 

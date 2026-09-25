@@ -5,7 +5,7 @@ origen-commit: 6cc868e
 
 # Rules of the air
 
-> The sky has no STOP signs, but it does have strict rules; mastering the SERA regulation is essential to avoid collisions.
+> The sky has no STOP signs, but it does have strict rules. To avoid collisions you need to know SERA inside out.
 >
 >
 > In this chapter you will learn:
@@ -14,17 +14,17 @@ origen-commit: 6cc868e
 > * The SERA regulation, the European highway code of the air.
 > * The “see and avoid” principle of visual flight (VFR).
 > * Who gives way to whom (balloons > gliders > powered aircraft).
-> * When you may fly low (ridges, field landings) and when you may not.
+> * When you may fly low (ridges, field landings), and when you may not.
 
 ## The highway code of the sky: SERA
 
-In Europe we fly under a single regulation: **SERA** (**Standardised European Rules of the Air**), directly applicable in Spain as an EU regulation and supplemented by Real Decreto 552/2014 (Royal Decree 552/2014). Whether you fly in Albacete or in Germany, the basic rules are the same.
+In Europe we all fly under one regulation: **SERA** (**Standardised European Rules of the Air**). As an EU regulation it applies directly in Spain, supplemented by Real Decreto 552/2014 (Royal Decree 552/2014). Whether you fly in Albacete or in Germany, the basic rules are the same.
 
-The fundamental principle is **VFR** (**Visual Flight Rules**): we fly by external visual references.
+The underlying principle is **VFR** (**Visual Flight Rules**): we fly by looking outside.
 
 ## Basic principle: “see and avoid”
 
-In visual flight, you alone are responsible for not colliding. Air traffic control (ATC) can help you, but the final responsibility is yours. That demands a constant scan of the sky (the visual scanning technique) and a little gymnastics: move the aircraft or your head to see behind the canopy frame or under the nose, because blind spots exist.
+In visual flight, avoiding collisions is your job. Air traffic control (ATC) can help, but the final responsibility is yours. That means scanning the sky all the time (the visual scanning technique) and doing a little gymnastics: blind spots are real, so move the aircraft or your head to see behind the canopy frame and under the nose.
 
 ::: {.callout-warning title="Safety"}
 Most collisions happen on clear days and close to aerodromes. Never assume the other pilot has seen you. If in doubt, give way.
@@ -32,45 +32,45 @@ Most collisions happen on clear days and close to aerodromes. Never assume the o
 
 ## Right of way
 
-Who goes first when two aircraft meet? SERA.3210 makes it clear.
+Who goes first when two aircraft meet? SERA.3210 settles it.
 
 ### 1. The manoeuvrability hierarchy
 
-The basic rule: the less able to manoeuvre, the higher the priority.
+The basic rule: the less an aircraft can manoeuvre, the higher its priority.
 
 1. **Balloons**: highest priority; they can hardly manoeuvre.
-2. **Gliders**: we can only go down; we cannot hold level indefinitely.
+2. **Gliders**: we can only go down, and we cannot hold level indefinitely.
 3. **Airships**.
 4. **Powered aeroplanes and microlights**: they have an engine and manoeuvre at will.
 
-There is one exception: powered aircraft must give way to aircraft towing other aircraft or objects (a banner, or the tug-glider combination itself), because their manoeuvrability is greatly reduced. As a free-flying glider the rule does not bind you, but prudence does: keep clear of an aerotow combination as soon as you see it.
+There is one exception: powered aircraft must give way to aircraft towing other aircraft or objects (a banner, or the tug-glider combination itself), because a tow combination manoeuvres far less freely. The rule does not bind you as a free-flying glider, but common sense does: keep clear of an aerotow combination as soon as you see it.
 
 ### 2. Conflict situations
 
 * **Head-on**: both turn to their **right**.
 
-* **Converging**: on crossing tracks at the same level, the one coming from the **right** has priority. Careful: if you are coming from the right but flying under power and the other is a glider, the glider wins through the hierarchy.
-* **Overtaking**: if you catch up with another aircraft from behind, the one ahead has priority. Overtake it on its **right**. With one exception tailor-made for us: a glider overtaking another glider may do so **on the right or on the left** (useful on a ridge, where only one side is safe).
-* **On a ridge**: if two gliders meet on a collision course while ridge soaring, **the one with the hill on its right has priority**. The other must move away from the slope to give way (@fig-01-cap05-prioridades-ladera). This rule **is not in SERA**: it is a universal gliding convention. The regulation's head-on rule makes *both* aircraft turn right, which is impossible for the one that has the slope on that very side.
+* **Converging**: on crossing tracks at the same level, the one coming from the **right** has priority. Careful: if you are coming from the right under power and the other aircraft is a glider, the hierarchy wins and the glider has priority.
+* **Overtaking**: if you catch up with another aircraft from behind, the one ahead has priority. Overtake it on its **right**. There is one exception made for us: a glider overtaking another glider may pass **on the right or on the left** (useful on a ridge, where only one side is safe).
+* **On a ridge**: if two gliders meet on a collision course while ridge soaring, **the one with the hill on its right has priority**. The other must turn away from the slope to give way (@fig-01-cap05-prioridades-ladera). This rule **is not in SERA**: it is a convention that glider pilots follow everywhere. The regulation's head-on rule has *both* aircraft turn right, which is impossible for the one with the slope on that side.
 
 ![Right of way when ridge soaring](imagenes/01-cap05-preferencias-paso-ladera.jpeg){#fig-01-cap05-prioridades-ladera}
 
-* **Landing**: the lowest glider has priority to land (but diving to cut in is not allowed). In addition, under SERA.3210, gliders on final and landing always have priority over powered aircraft (@fig-01-cap05-prioridades).
+* **Landing**: the lowest glider has priority to land (but you may not dive to cut in). Under SERA.3210, gliders on final and landing also always have priority over powered aircraft (@fig-01-cap05-prioridades).
 
 ![Right-of-way rules: head-on and converging](imagenes/01-cap05-prioridades-paso.jpg){#fig-01-cap05-prioridades}
 
 ## Minimum flight heights
 
-To protect people and property on the ground, SERA.5005 sets minimum heights. Except for take-off or landing, you may not fly below:
+SERA.5005 sets minimum heights to protect people and property on the ground. Except when taking off or landing, you may not fly below:
 
 1. **300 m** above the highest obstacle within a radius of 600 m, when flying over congested areas (cities, towns, gatherings of people).
 2. **150 m** above ground or water, in open country.
 
 ### Exceptions for gliding
 
-SERA.5005(f) allows exceptions “by permission from the competent authority”, and its AMC1 gives that very authority the task of setting the minimum heights for ridge soaring and for forced landing practice. In Spain they are set by **article 15 of Real Decreto 552/2014** (unofficial translation), which allows flight below the heights in SERA.5005(f)(2) (the 150 m in open country, not the 300 m over populated areas) in two cases that concern us:
+SERA.5005(f) allows exceptions “by permission from the competent authority”, and its AMC1 leaves it to that same authority to set the minimum heights for ridge soaring and forced landing practice. In Spain they are set by **article 15 of Real Decreto 552/2014** (unofficial translation). It allows flight below the heights in SERA.5005(f)(2) (the 150 m in open country, not the 300 m over populated areas) in two cases that matter to us:
 
-* **Ridge soaring**: gliders flying on ridges are exempt, provided that this involves no risk or nuisance to persons or property on the surface.
+* **Ridge soaring**: gliders flying on ridges are exempt, provided they create no risk or nuisance to persons or property on the surface.
 * **Forced landing training**: you may descend to **50 m (150 ft)**, keeping 150 m from any person, vehicle or vessel on the surface and from any artificial obstacle (@fig-01-cap05-alturas-minimas).
 
 ![Minimum safe heights](imagenes/01-cap05-alturas-minimas.jpg){#fig-01-cap05-alturas-minimas}
@@ -86,7 +86,7 @@ If you are head-on, **always to the right**.
 
 The **SERA** regulation is the highway code of the sky:
 
-* **VFR**: we fly by seeing and being seen. Eyes outside.
-* **Right of way**: balloons > gliders > powered (the one that can manoeuvre most gives way). When converging, the one coming from the right has priority. When landing, the lowest glider goes first, and gliders have priority over powered aircraft. On a ridge, priority to the one with the hill on its right: a gliding convention, not a SERA rule.
+* **VFR**: we fly to see and be seen. Eyes outside.
+* **Right of way**: balloons > gliders > powered (the one that can manoeuvre most gives way). When converging, the one coming from the right has priority. When landing, the lowest glider goes first, and gliders have priority over powered aircraft. On a ridge, the one with the hill on its right has priority: a gliding convention, not a SERA rule.
 * **Minimum heights (SERA.5005(f))**: 150 m in general, 300 m over populated areas. In Spain, Real Decreto 552/2014 exempts gliders on a ridge from the 150 m, provided there is no risk or nuisance to persons or property, and allows descent to 50 m when practising forced landings, 150 m from any person, vehicle or vessel and from any artificial obstacle.
 :::

@@ -5,7 +5,7 @@ origen-commit: aad4396
 
 # Air traffic service (ATS) and air traffic management (ATM)
 
-> The Air Traffic Services are there to help you, but you need to know what to ask for: control, information or alerting. And above them there is a larger system that decides what airspace is available to you each day.
+> The Air Traffic Services are there to help you, but you need to know what to ask for: control, information or alerting. Above them sits a larger system that decides what airspace you can use each day.
 >
 >
 > In this chapter you will learn:
@@ -18,17 +18,17 @@ origen-commit: aad4396
 
 ## What is ATS for?
 
-The purpose of the Air Traffic Services (**ATS**) goes beyond “watching”. Under SERA.7001, their tasks are to prevent collisions (between aircraft and with obstacles), to expedite and maintain an orderly flow of traffic, to provide advice and information useful for safety, and to notify and assist in emergencies.
+The Air Traffic Services (**ATS**) do more than “watch”. Under SERA.7001, their tasks are to prevent collisions (between aircraft and with obstacles), to expedite and maintain an orderly flow of traffic, to provide advice and information useful for safety, and to notify and assist in emergencies.
 
-To do all that, ATS is divided into three very different services. Knowing which one you are receiving at any moment makes all the difference.
+For that, ATS is split into three very different services, and it makes all the difference to know which one you are getting at any given moment.
 
 ## 1. Air traffic control service (ATC)
 
-The premier league service. Its main task is to **separate** aircraft.
+The top tier. Its main task is to **separate** aircraft.
 
-It is provided by air traffic controllers (ATCOs), and from them you receive **clearances** (mandatory instructions) and traffic information. Under certain rules, making sure you do not collide is the controller's responsibility.
+Air traffic controllers (ATCOs) provide it, and they give you **clearances** (mandatory instructions) and traffic information. Under certain rules, keeping you from colliding is the controller's responsibility.
 
-It is organised into three units according to the phase of flight (@fig-01-cap08-dependencias-atc):
+It is organised into three units, one for each phase of flight (@fig-01-cap08-dependencias-atc):
 
 1. **Tower** (TWR): controls the aerodrome and the circuit (take-offs, landings, taxiing).
 2. **Approach** (APP): controls arrivals to and departures from the airport area.
@@ -38,9 +38,9 @@ It is organised into three units according to the phase of flight (@fig-01-cap08
 
 ## 2. Flight information service (FIS)
 
-This is what gliders receive most of the time, in class G or E. It is provided by controllers or flight information service officers (FISOs), and what they give you is **advice and information**: whether there is traffic, what the weather is doing, whether danger areas are active…
+This is the service gliders get most of the time, in class G or E. Controllers or flight information service officers (FISOs) provide it, and what they give you is **advice and information**: whether there is traffic, what the weather is doing, whether danger areas are active…
 
-Here the responsibility is **yours**. FIS warns you (“traffic at 12 o'clock”), but you are the one who sees and avoids. They do not separate you from anyone.
+Here the responsibility is **yours**. FIS warns you (“traffic at 12 o'clock”), but seeing and avoiding is up to you. Nobody separates you from anyone.
 
 ::: {.callout-note title="Airmanship"}
 * **ATC**: “Turn heading 360 for traffic”. (A mandatory instruction; they separate you.)
@@ -49,50 +49,50 @@ Here the responsibility is **yours**. FIS warns you (“traffic at 12 o'clock”
 
 ## 3. Alerting service (ALRS)
 
-Your life insurance. It is activated when there is an emergency or there are fears for an aircraft's safety, and it works in three phases of increasing concern (@fig-01-cap08-fases-emergencia):
+Your life insurance. It is activated when there is an emergency or when there are fears for an aircraft's safety, and it works in three phases of growing concern (@fig-01-cap08-fases-emergencia):
 
-1. **INCERFA (uncertainty phase)**: there is uncertainty about the safety of the aircraft and its occupants. Information starts to be gathered. It is declared under the rules in any of these three situations:
+1. **INCERFA (uncertainty phase)**: there is uncertainty about the safety of the aircraft and its occupants. ATS starts gathering information. The rules declare it in any of these three situations:
   
   * **No communication**: no communication has been received from the aircraft within 30 minutes of the expected time, or of the first unsuccessful attempt to contact it (whichever comes first).
   * **Late arrival**: the aircraft has not arrived within 30 minutes of its estimated time of arrival (ETA).
   * **Doubts about safety**: there are well-founded suspicions or doubts about the safety of the aircraft and its occupants.
 2. **ALERFA (alert phase)**: there is concern for the safety of the aircraft and its occupants. The rescue services (SAR) are warned so that they are ready.
-3. **DETRESFA (distress phase)**: there is reasonable certainty that the aircraft and its occupants are threatened by grave and imminent danger and need immediate assistance. The rescue assets go out: SAR helicopters and aircraft.
+3. **DETRESFA (distress phase)**: there is reasonable certainty that the aircraft and its occupants are threatened by grave and imminent danger and need immediate assistance. The rescue assets are sent out: SAR helicopters and aircraft.
 
 ![Emergency phases of the alerting service](imagenes/01-cap08-fases-emergencia.jpg){#fig-01-cap08-fases-emergencia}
 
 ::: {.callout-warning title="Safety"}
-If you have a real emergency and have **NOT** filed a flight plan and are not in radio contact, the alerting service will take much longer to activate (only when your family reports that you have not come back). Use the radio and the flight plan!
+If you have a real emergency, have **NOT** filed a flight plan and are not in radio contact, the alerting service will take much longer to start (only when your family reports that you have not come home). Use the radio and file the flight plan!
 :::
 
-Two useful cross-references within the collection: the **light signals** a tower can use to direct you without radio are covered in **Book 4 — Communications**, chapter 7; and the **flight plan**, which feeds this alerting service, in Books 4 — Communications (procedure), 7 — Flight Performance and Planning (the form) and 9 — Navigation (use of the ATS).
+Two useful cross-references within the collection. The **light signals** a tower can use to direct you without radio are covered in **Book 4 — Communications**, chapter 7. The **flight plan**, which feeds this alerting service, is covered in Books 4 — Communications (procedure), 7 — Flight Performance and Planning (the form) and 9 — Navigation (use of the ATS).
 
 ## Air traffic management (ATM)
 
-ATS is the part of the system that talks to you on the radio. But above it there is something bigger: **Air Traffic Management** (**ATM**), which manages both the traffic and the airspace it flies through. It has three legs:
+ATS is the part of the system that talks to you on the radio. Above it there is something bigger: **Air Traffic Management** (**ATM**), which manages both the traffic and the airspace it flies through. It has three legs:
 
-* **ATS**: the three services you have just seen. The one that looks after you.
+* **ATS**: the three services you have just seen. This is the leg that looks after you.
 * **ASM**: airspace management. It decides what airspace is available, to whom and when.
 * **ATFM**: air traffic flow management. It matches the number of aircraft to what the system can absorb.
 
 Of the three, the one that affects you directly is the second.
 
-For decades, military airspace was military seven days a week, whether it was used or not. Today the **flexible use of airspace** (**FUA**) applies: airspace is a single resource that is shared out every day according to who really needs it. A management cell decides in the afternoon which areas will be activated tomorrow and which will be released, and publishes it.
+For decades, military airspace was military seven days a week, used or not. Today the **flexible use of airspace** (**FUA**) applies: airspace is a single resource, shared out every day according to who really needs it. Each afternoon a management cell decides which areas will be activated tomorrow and which will be released, and publishes the result.
 
-That produces areas that only exist at certain times: **TSAs** and **TRAs**, reserved by the hour. And routes that are only open when the area they cross is free: **CDRs**.
+The result is areas that only exist at certain times (**TSAs** and **TRAs**, reserved by the hour) and routes that are only open when the area they cross is free (**CDRs**).
 
 ::: {.callout-tip title="Golden rule"}
-The chart tells you where an area is. Never whether it is active today. That is what the NOTAMs and the daily airspace publication tell you, and you check it when preparing the flight, not in the air.
+The chart tells you where an area is, never whether it is active today. For that you need the NOTAMs and the daily airspace publication, and you check them while preparing the flight, not in the air.
 :::
 
-Flow management is another story and hardly affects you. When there are more aircraft than capacity, the system shares out the shortage with **slots**: allocated take-off times that hold aircraft on the ground instead of stacking them in the air. It concerns IFR traffic with a flight plan. A glider flying VFR in class G neither receives nor needs one; at most, it explains why an aerodrome with commercial traffic keeps you waiting.
+Flow management is another matter and hardly affects you. When there are more aircraft than the system can handle, it rations capacity with **slots**: allocated take-off times that keep aircraft on the ground instead of stacking them in the air. Slots are for IFR traffic with a flight plan. A glider flying VFR in class G neither gets one nor needs one; at most, they explain why an aerodrome with commercial traffic keeps you waiting.
 
 ::: {.callout-important title="Regulation"}
 The flexible use of airspace is established by **Regulation (EC) No 2150/2005**, which lays down common rules for the flexible use of airspace in the European Union.
 :::
 
 ::: {.callout-note title="Airmanship"}
-The airspace available to you today is not yesterday's. Repeating last week's cross-country without checking again which areas are active is flying with an old photograph.
+The airspace available to you today is not yesterday's. Repeat last week's cross-country without checking again which areas are active, and you are flying with an old photograph.
 :::
 
 ::: {.postit}
@@ -100,9 +100,9 @@ The airspace available to you today is not yesterday's. Repeating last week's cr
 
 ATS offers you three kinds of help:
 
-* **Control (ATC)**: they give you instructions (clearances) to separate you from other aircraft. They are TWR, APP and ACC, and the service only operates in controlled airspace.
+* **Control (ATC)**: they give you instructions (clearances) to separate you from other aircraft. The units are TWR, APP and ACC, and the service only operates in controlled airspace.
 * **Flight information (FIS)**: they give you useful information (weather, hazards, nearby traffic), but you are responsible for avoiding collisions. “Traffic information” is not “separation”.
-* **Alerting (ALRS)**: alerts search and rescue (SAR) if you do not arrive on time or have an emergency.
+* **Alerting (ALRS)**: alerts search and rescue (SAR) if you do not arrive on time or if you have an emergency.
 
 And ATS is only one of the three legs of **ATM**:
 

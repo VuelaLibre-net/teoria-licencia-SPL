@@ -6,7 +6,7 @@ origen-commit: c5e8824
 # Epigraph {.unnumbered .unlisted .oculto}
 
 ::: {.epigrafe}
-“In aviation, rules are not designed to limit freedom, but to make sure we can all enjoy it again tomorrow.”
+“In aviation, the rules are not there to limit our freedom. They are there so that we can all enjoy it again tomorrow.”
 
  — Anonymous, from the oral tradition of aviation safety.
 :::

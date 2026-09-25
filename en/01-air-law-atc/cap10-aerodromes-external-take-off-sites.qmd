@@ -5,7 +5,7 @@ origen-commit: aad4396
 
 # Aerodromes, external take-off sites
 
-> In the circuit, visual rules reign supreme; learn to read the ground signals when the radio falls silent.
+> In the circuit, visual rules come first. Learn to read the ground signals for when the radio goes quiet.
 >
 >
 > In this chapter you will learn:
@@ -17,15 +17,15 @@ origen-commit: aad4396
 
 ## The aerodrome: the realm of visual rules
 
-An aerodrome is much more than a runway. It is an organised system that lets fast aeroplanes and slow gliders live together without colliding, and it rests on two pillars: the **circuit** and the **visual signals**.
+An aerodrome is much more than a runway. It is an organised system that lets fast aeroplanes and slow gliders share the same place without colliding, and it rests on two things: the **circuit** and the **visual signals**.
 
 ## The aerodrome circuit (traffic circuit)
 
-To keep traffic in order, we all fly an imaginary rectangle around the runway. Turns are made to the **left** unless otherwise indicated (@fig-01-cap10-circuito-transito). In a glider, the downwind leg is usually flown at about **200–300 metres AGL**, and ideally you join the circuit at 45° to that leg.
+To keep traffic in order, everyone flies the same imaginary rectangle around the runway. Turns are to the **left** unless a signal says otherwise (@fig-01-cap10-circuito-transito). In a glider, the downwind leg is usually flown at about **200–300 metres AGL**, and ideally you join the circuit at 45° to that leg.
 
 ### Key legs for the glider
 
-1. **Downwind**: you fly parallel to the runway, in the opposite direction to the landing. This is where the pre-landing checks go.
+1. **Downwind**: you fly parallel to the runway, in the opposite direction to the landing. This is where you do the pre-landing checks.
 2. **Base leg**: you turn 90° towards the runway and make the last adjustment to height and speed. Minimum height to start it: 150 m.
 3. **Final**: lined up with the runway, airbrakes out.
 
@@ -35,7 +35,7 @@ To keep traffic in order, we all fly an imaginary rectangle around the runway. T
 
 ![Windsock](imagenes/01-cap10-manga-viento.png){#fig-01-cap10-manga-viento}
 
-If you have no radio (or it fails), the ground talks to you. The **light signals** a tower can direct at you with a lamp are covered in **Book 4 — Communications**, chapter 7 (communications failure); the ground signals are here. In the **signals area**, a white-bordered square near the tower or the runway, you will find vital symbols (@fig-01-cap10-area-senales):
+If you have no radio (or it fails), the ground talks to you. The **light signals** a tower can flash at you with a lamp are covered in **Book 4 — Communications**, chapter 7 (communications failure); this chapter deals with the ground signals. The **signals area**, a white-bordered square near the tower or the runway, holds symbols you must know (@fig-01-cap10-area-senales):
 
 | Signal | Meaning |
 | --- | --- |
@@ -51,21 +51,21 @@ If you have no radio (or it fails), the ground talks to you. The **light signals
 ![The language of the ground: the signals area](imagenes/01-cap10-senales-aerodromo.png){#fig-01-cap10-area-senales}
 
 ::: {.callout-tip title="Golden rule"}
-Before take-off or when you arrive at a new airfield, **always look for the signals area**. It gives you information (runway in use and direction of turns) at a glance, even without a radio.
+Before take-off or when you arrive at a new airfield, **always look for the signals area**. At a glance, and without a radio, it tells you the runway in use and the direction of turns.
 :::
 
 ## External take-off sites and landings away from aerodromes
 
-Gliding does not always start or end at an aerodrome. The syllabus includes **external take-off sites** (uncertified sites operated from occasionally) and, by the very nature of the glider, **field landings**. Their technique is covered in **Book 6 — Operational Procedures**, chapter 5; what matters here is their legal side:
+A gliding flight does not always start or end at an aerodrome. The syllabus includes **external take-off sites** (uncertified sites used occasionally) and, because of what a glider is, **field landings**. Their technique is covered in **Book 6 — Operational Procedures**, chapter 5. Here we look at the legal side:
 
-* **Landowner's permission**: taking off from an external site requires the prior consent of whoever has the use of the land, as well as meeting the conditions set by national rules for flights away from aerodromes.
-* **Responsibility of the pilot-in-command**: you are responsible for checking that the site is suitable and the operation safe (dimensions, obstacles, third parties). An external site has no signals area, no information service, and nobody who has inspected the surface for you.
-* **After a field landing**: the aircraft may have caused damage (crops, fences) for which you are liable in civil law; compulsory third-party liability insurance covers precisely these cases. Find the landowner, record the condition of the land and agree how the glider will be retrieved; the operational side and dealing with the landowner are developed in **Book 6 — Operational Procedures**.
+* **Landowner's permission**: to take off from an external site you need the prior consent of whoever has the use of the land, and you must meet the conditions national rules set for flights away from aerodromes.
+* **Responsibility of the pilot-in-command**: it is up to you to check that the site is suitable and the operation safe (dimensions, obstacles, third parties). An external site has no signals area, no information service and nobody who has inspected the surface for you.
+* **After a field landing**: the aircraft may have caused damage (crops, fences) for which you are liable in civil law, and compulsory third-party liability insurance exists for exactly these cases. Find the landowner, record the condition of the land and agree how the glider will be retrieved. The operational side, and how to deal with the landowner, are covered in **Book 6 — Operational Procedures**.
 
 ::: {.postit}
 **Chapter summary: aerodromes**
 
-On the ground, visual rules rule:
+Around the aerodrome, visual rules come first:
 
 * **Circuit**: turns to the **left**, unless a signal says otherwise.
 * **Signals area**: the windsock shows direction and strength; the landing T, the landing and take-off direction; the right-hand arrow warns of right-hand turns; the red square with yellow diagonals prohibits landing; the red panel with a single diagonal calls for caution because the manoeuvring area is in poor condition; and the double white cross announces gliders in operation.
