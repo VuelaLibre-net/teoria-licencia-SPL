@@ -1,0 +1,33 @@
+---
+origen: 01-derecho-aereo-atc/apendice-syllabus-oficial-easa---derecho-aereo.qmd
+origen-commit: e0f5386
+---
+
+# Official EASA syllabus - air law
+
+The following syllabus corresponds to the subject **Air Law and ATC Procedures** for the Sailplane Pilot Licence (SPL), as set out in AMC1 SFCL.130 (Annex to ED Decision 2020/004/R, AMC & GM to Part-SFCL).
+
+* 1.1. International law: conventions, agreements and organisations.
+* 1.2. Airworthiness of aircraft.
+* 1.3. Aircraft nationality and registration marks.
+* 1.4. Personnel licensing.
+* 1.5. Rules of the air.
+* 1.6. Procedures for air navigation: aircraft operations.
+* 1.7. Air traffic regulations: airspace structure.
+* 1.8. Air traffic service (ATS) and air traffic management (ATM).
+* 1.9. Aeronautical information services (AIS).
+* 1.10. Aerodromes, external take-off sites.
+* 1.11. Search and rescue.
+* 1.12. Security.
+* 1.13. Accident reporting.
+* 1.14. National law.
+
+This manual has been structured to follow this official syllabus faithfully, so that you cover every point needed for the theoretical examination.
+
+## Test yourself
+
+Theory sinks in by answering questions. This subject has its own online self-assessment test, with exam-style questions (currently in Spanish). For example:
+
+[https://vuelalibre.net/examenes/01-derecho-aereo-atc/](https://vuelalibre.net/examenes/01-derecho-aereo-atc/)
+
+Ask your instructor, who will tell you which question bank or format is most suitable, and follow that advice. It will be very useful both for consolidating what you learn in each chapter and for your general revision before you sit the theoretical examination.

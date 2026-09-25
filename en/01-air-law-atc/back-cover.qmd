@@ -1,0 +1,10 @@
+---
+origen: 01-derecho-aereo-atc/contracubierta.qmd
+origen-commit: ef2d4cb
+---
+
+# Back cover {.unnumbered .unlisted .oculto}
+
+::: {.content-visible when-format="epub"}
+![](cover/reverso.jpg){.contracubierta}
+:::

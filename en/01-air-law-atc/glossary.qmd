@@ -1,0 +1,293 @@
+---
+origen: 01-derecho-aereo-atc/glosario.qmd
+origen-commit: 2375434
+---
+
+# Glossary of terms
+
+This glossary contains the most relevant definitions and acronyms of the aviation regulatory framework (EASA, ICAO, national rules) applicable to the Sailplane Pilot Licence (SPL).
+
+**ACC (Area Control Centre)**
+: ATS unit that provides area control service to flights under its jurisdiction.
+
+**AD (Airworthiness Directive; Aerodromes)**
+: Context-dependent abbreviation: an airworthiness directive is a mandatory requirement to correct an unsafe condition; AD also identifies the aerodromes part of the AIP.
+
+**AESA (Spanish Aviation Safety Agency)**
+: Agencia Estatal de Seguridad Aérea: the Spanish authority responsible for overseeing civil aviation safety and applying aviation regulations within its remit.
+
+**AFM (Aircraft Flight Manual)**
+: Approved document containing the limitations, procedures and data needed to operate the aircraft.
+
+**AGL (Above Ground Level)**
+: Height referred to the surface of the ground below the aircraft or the point considered.
+
+**AIC (Aeronautical Information Circular)**
+: Publication containing aeronautical information that does not qualify for inclusion in the AIP or in a NOTAM.
+
+**AIP (Aeronautical Information Publication)**
+: Official publication containing aeronautical information of a lasting character essential to air navigation, organised in General (GEN), En-route (ENR) and Aerodromes (AD).
+
+**AIRAC (Aeronautical Information Regulation and Control)**
+: System of common dates for publishing significant, foreseeable aeronautical changes and bringing them into effect.
+
+**AIS (Aeronautical Information Service)**
+: Service responsible for providing the aeronautical information needed for the safety, regularity and efficiency of air navigation.
+
+**ALERFA (Alert Phase)**
+: Phase declared when there is concern for the safety of an aircraft and its occupants.
+
+**ALRS (Alerting Service)**
+: ATS service that notifies the appropriate organisations of aircraft in need of search and rescue and cooperates with them.
+
+**AMC (Acceptable Means of Compliance)**
+: Non-binding means published by EASA that offer a recognised way of demonstrating compliance with a rule.
+
+**AME (Aero-Medical Examiner)**
+: Doctor authorised to carry out examinations and to issue or process aviation medical certificates within their privileges.
+
+**AMP (Aircraft Maintenance Programme)**
+: Programme setting out the maintenance tasks and intervals applicable to an aircraft.
+
+**AMSL (Above Mean Sea Level)**
+: Altitude referred to mean sea level.
+
+**APP (Approach Control)**
+: ATS unit that provides control service to controlled flights arriving at or departing from one or more aerodromes.
+
+**ARC (Airworthiness Review Certificate)**
+: Certificate showing that the aircraft has passed the required airworthiness review and remains valid for the applicable period.
+
+**ASM (Airspace Management)**
+: Function that manages the use of airspace according to the needs of its different users.
+
+**ATC (Air Traffic Control)**
+: Air traffic service intended to prevent collisions and to expedite and maintain an orderly flow of air traffic.
+
+**ATCO (Air Traffic Control Officer)**
+: Person licensed to provide air traffic control services within their privileges.
+
+**ATFM (Air Traffic Flow Management)**
+: Function that matches air traffic demand to the available capacity of the system.
+
+**ATM (Air Traffic Management)**
+: Integrated management of air traffic and airspace through the air traffic services (ATS), airspace management (ASM) and flow management (ATFM).
+
+**ATS (Air Traffic Services)**
+: Generic term covering air traffic control (ATC), flight information service (FIS) and alerting service (ALRS).
+
+**ATZ (Aerodrome Traffic Zone)**
+: Airspace of defined dimensions established around an aerodrome to protect its traffic.
+
+**AWY (Airway)**
+: A control area or part of one established in the form of a corridor.
+
+**CAA (Civil Aviation Authority)**
+: Generic name for a State's aviation authority; in Spain, its powers are shared mainly between the DGAC and AESA.
+
+**CAMO (Continuing Airworthiness Management Organisation)**
+: Organisation approved to manage the continuing airworthiness of aircraft within its privileges.
+
+**CAO (Combined Airworthiness Organisation)**
+: Approved organisation that may exercise maintenance and continuing airworthiness management privileges within the scope of its approval.
+
+**CAVOK (Visibility, cloud and present weather better than prescribed values or conditions)**
+: Term used in weather reports that replaces certain visibility, present weather and cloud data when the established conditions are met at the same time: visibility of 10 km or more, no cloud below 5,000 ft and no cumulonimbus, and no significant weather. The name is ICAO's; at the club you will hear the backronym *Ceiling And Visibility OK*, which is not the official name.
+
+**CDR (Conditional Route)**
+: ATS route available only when the published conditions are met.
+
+**CIAIAC (Spanish Civil Aviation Accident and Incident Investigation Commission)**
+: Comisión de Investigación de Accidentes e Incidentes de Aviación Civil: the official Spanish body responsible for investigating civil aviation accidents and serious incidents for preventive purposes.
+
+**CofA (Certificate of Airworthiness)**
+: Document certifying that an aircraft conforms to the approved design and is considered fit for flight while it remains airworthy and meets the applicable requirements.
+
+**CPL (Commercial Pilot Licence)**
+: Licence allowing the holder to exercise commercial pilot privileges under the applicable conditions; there is no separate CPL(S) for sailplanes.
+
+**CS (Certification Specifications)**
+: Technical specifications used in the certification of aircraft, products and equipment.
+
+**CS-22 (Certification Specifications for Sailplanes and Powered Sailplanes)**
+: EASA specifications applicable to the design and certification of sailplanes and powered sailplanes.
+
+**CTA (Control Area)**
+: Controlled airspace extending upwards from a specified limit above the earth.
+
+**CTR (Control Zone)**
+: Controlled airspace extending upwards from the surface of the earth to a defined upper limit.
+
+**Danger area (D)**
+: Airspace of defined dimensions within which activities dangerous to the flight of aircraft may exist at specified times.
+
+**DETRESFA (Distress Phase)**
+: Phase declared when there is reasonable certainty that an aircraft and its occupants are threatened by grave and imminent danger and require immediate assistance.
+
+**DGAC (Spanish Directorate General of Civil Aviation)**
+: Dirección General de Aviación Civil: the directorate responsible for formulating aviation policy and exercising the functions assigned to it by Spanish law.
+
+**DME (Distance Measuring Equipment)**
+: Radio navigation aid that allows an aircraft to determine its slant distance from a ground station.
+
+**EASA (European Union Aviation Safety Agency)**
+: European Union agency that develops and oversees the common civil aviation safety framework within its remit.
+
+**EET (Estimated Elapsed Time)**
+: The time estimated to be needed to proceed from one reference point to another during a flight.
+
+**ELT (Emergency Locator Transmitter)**
+: Aircraft beacon designed to transmit an emergency signal and help locate the aircraft.
+
+**EOBT (Estimated Off-Block Time)**
+: The estimated time at which the aircraft will start the movement associated with departure.
+
+**ETA (Estimated Time of Arrival)**
+: The time at which the aircraft is expected to arrive at the relevant reference point or place.
+
+**ETD (Estimated Time of Departure)**
+: The time at which the aircraft is estimated to begin its departure.
+
+**FCL (Flight Crew Licensing)**
+: Part of Regulation (EU) No 1178/2011 on flight crew licences; it is distinct from Part-SFCL, which is specific to sailplanes.
+
+**FE(S) (Flight Examiner (Sailplanes))**
+: Examiner authorised to conduct sailplane skill tests and proficiency checks within their privileges.
+
+**FI(S) (Flight Instructor (Sailplanes))**
+: Instructor authorised to give flight instruction in sailplanes within their privileges.
+
+**FIC (Flight Information Centre)**
+: Unit established to provide flight information service and alerting service.
+
+**FIR (Flight Information Region)**
+: Airspace of defined dimensions within which flight information and alerting services are provided.
+
+**FIS (Flight Information Service)**
+: Service provided to give advice and information useful for the safe and efficient conduct of flights.
+
+**FISO (Flight Information Service Officer)**
+: Staff qualified to provide the flight information service within their privileges.
+
+**FL (Flight Level)**
+: Surface of constant pressure expressed in hundreds of feet and related to the standard altimeter setting of 1013.25 hPa.
+
+**FUA (Flexible Use of Airspace)**
+: Concept by which airspace is managed as a common resource and allocated dynamically according to needs.
+
+**GM (Guidance Material)**
+: Non-binding explanatory material that helps interpret the requirements and the acceptable means of compliance.
+
+**HJ (Sunrise to sunset)**
+: Code indicating the period between sunrise and sunset.
+
+**IAIP (Integrated Aeronautical Information Package)**
+: Coordinated set of aeronautical information publications and products, including the AIP and its amendments.
+
+**ICAO (International Civil Aviation Organization)**
+: Specialised agency of the United Nations that sets standards and recommended practices for international civil aviation.
+
+**IFR (Instrument Flight Rules)**
+: Rules applicable to flights conducted under instrument flight rules.
+
+**INCERFA (Uncertainty Phase)**
+: Phase declared when there is uncertainty about the safety of an aircraft and its occupants.
+
+**IR (Implementing Rules)**
+: Legally binding requirements that develop the European civil aviation Basic Regulation.
+
+**LAPL (Light Aircraft Pilot Licence)**
+: European licence for certain non-commercial operations with light aircraft, subject to the applicable privileges and limitations.
+
+**LSA (Spanish Aviation Safety Act)**
+: Short name of Ley 21/2003, de 7 de julio, de Seguridad Aérea (Aviation Safety Act 21/2003 of 7 July).
+
+**NOTAM (Notice to Airmen)**
+: Notice distributed by means of telecommunication containing aeronautical information the timely knowledge of which is essential to flight operations.
+
+**Occurrence reporting system**
+: SNS (Sistema de Notificación de Sucesos): the Spanish system for receiving and managing civil aviation occurrence reports for safety purposes.
+
+**Part-ML (Maintenance of light aircraft)**
+: Part of the European continuing airworthiness regime applicable to light aircraft, including many sailplanes.
+
+**Part-SAO (Sailplane Air Operations)**
+: Part of Regulation (EU) 2018/1976 containing the operational requirements applicable to sailplanes.
+
+**Part-SFCL (Sailplane Flight Crew Licensing)**
+: Part of Regulation (EU) 2018/1976 governing sailplane licences, privileges, instructors and examiners.
+
+**PIC (Pilot in Command)**
+: The pilot designated as being in command and charged with the safe conduct of the flight.
+
+**PPL (Private Pilot Licence)**
+: Licence allowing the holder to exercise private pilot privileges under the applicable conditions.
+
+**Prohibited area (P)**
+: Airspace of defined dimensions, above the land areas or territorial waters of a State, within which the flight of aircraft is prohibited.
+
+**QFE (Altimeter setting referred to aerodrome datum)**
+: Setting that makes the altimeter show height relative to the datum for which it was calculated and, at that point, read approximately zero.
+
+**QNE (Standard altimeter setting indication)**
+: Indication obtained by setting 1013.25 hPa, used to express flight levels; it is not a pressure reported by a station.
+
+**QNH (Altimeter setting to mean sea level)**
+: Setting that lets the altimeter show altitude and, on the ground, approximately the elevation of the point considered.
+
+**RCC (Rescue Coordination Centre)**
+: Unit responsible for coordinating search and rescue operations within an assigned region.
+
+**Restricted area (R)**
+: Airspace of defined dimensions within which the flight of aircraft is restricted in accordance with certain specified conditions.
+
+**RMZ (Radio Mandatory Zone)**
+: Airspace of defined dimensions in which the carriage and use of radio equipment is mandatory in accordance with the published requirements.
+
+**RSC (Rescue Sub-Centre)**
+: Unit subordinate to an RCC that coordinates search and rescue operations in part of its region.
+
+**SAR (Search and Rescue)**
+: Organisation and operations intended to locate and assist aircraft and persons in distress.
+
+**SB (Service Bulletin)**
+: Manufacturer's communication with instructions, inspections or modifications, whether mandatory or not depending on the applicable framework.
+
+**SERA (Standardised European Rules of the Air)**
+: Common rules of the air laid down by Commission Implementing Regulation (EU) No 923/2012.
+
+**SPIC (Student Pilot-in-Command)**
+: Student pilot acting as pilot-in-command on a flight with an instructor who only observes and does not influence the control of the aircraft.
+
+**SPL (Sailplane Pilot Licence)**
+: European Union licence, governed by Part-SFCL, that allows the holder to exercise the privileges of a sailplane pilot under the applicable conditions.
+
+**TMA (Terminal Control Area)**
+: Control area normally established at the confluence of ATS routes in the vicinity of one or more major aerodromes, with the limits published for each TMA.
+
+**TMG (Touring Motor Glider)**
+: Powered sailplane with a non-retractable engine and propeller that can take off and climb under its own power.
+
+**TMZ (Transponder Mandatory Zone)**
+: Airspace in which the carriage and operation of a transponder with the required capabilities is mandatory; on its own it does not require radio communication or listening watch, unless it is also an RMZ or it is so published.
+
+**TR (Type Rating)**
+: Endorsement on the licence certifying the qualification to operate a type of aircraft when the rules require that rating.
+
+**TRA (Temporary Reserved Area)**
+: Volume of airspace temporarily reserved for a specific activity, through which other aircraft may be allowed to pass under the applicable conditions.
+
+**TSA (Temporary Segregated Area)**
+: Volume of airspace temporarily reserved and segregated from other traffic while it is active.
+
+**TWR (Aerodrome Control Tower)**
+: ATS unit established to provide control service to aerodrome traffic.
+
+**VFR (Visual Flight Rules)**
+: Rules applicable to flights conducted with visual references and within the corresponding weather and operating minima; the separation provided by ATC depends on the airspace class and the traffic involved.
+
+**VMC (Visual Meteorological Conditions)**
+: Visibility and distance-from-cloud conditions equal to or better than the applicable minima.
+
+**VOR (VHF Omnidirectional Radio Range)**
+: Radio navigation aid that provides magnetic radials relative to a ground station.

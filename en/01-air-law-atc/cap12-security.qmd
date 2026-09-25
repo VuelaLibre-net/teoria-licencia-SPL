@@ -1,0 +1,53 @@
+---
+origen: 01-derecho-aereo-atc/cap12-seguridad.qmd
+origen-commit: 63531db
+---
+
+# Security
+
+> Aviation security is not just for the big airlines; protecting your aircraft from unlawful acts is a fundamental responsibility of the pilot.
+>
+>
+> In this chapter you will learn:
+>
+>
+> * The difference between avoiding accidents (**safety**) and preventing criminal acts (**security**).
+> * How to secure your aircraft on the ground and check that nobody has tampered with it.
+> * Which articles are prohibited on board because of the risk they pose.
+
+## Safety vs security: aren't they the same?
+
+Spanish uses a single word, *seguridad*, for both, but in aviation two very different concepts live side by side (@fig-01-cap12-safety-vs-security):
+
+1. **Safety** (operational safety): preventing unintended **accidents**. The engine not stopping, not colliding, maintenance done properly. It is “flying safely”.
+2. **Security** (aviation security): protecting against intentional **unlawful acts**. Nobody stealing your aircraft, nobody planting a bomb, preventing hijacks. It is physical protection.
+
+![The difference between safety and security](imagenes/01-cap12-safety-security.jpg){#fig-01-cap12-safety-vs-security}
+
+## Your responsibility in general aviation
+
+Even if you fly a glider from a small airfield, **security** comes with you too:
+
+* **Access control**: do not leave your aircraft open or accessible to anyone. If you have a hangar, lock it. If not, secure the cockpit.
+* **Pre-flight inspection with a security eye**: as well as checking the oil, check whether anyone has touched anything. Are there unfamiliar objects in the cockpit? Signs of forced entry?
+* **Documentation**: always carry your identification (national ID card, licence). The Guardia Civil or the airport authority may ask for it at any time, airside or landside.
+
+## Dangerous goods
+
+These are articles or substances that can pose a risk to health, safety or property. The general rule is simple: carrying them on board is **prohibited** (@fig-01-cap12-mercancias-peligrosas). Reasonable quantities of what is needed for the flight or for safety are allowed (approved medical oxygen, lithium batteries for personal use under certain conditions), always with extreme caution.
+
+![Dangerous goods labelling](imagenes/01-cap12-mercancias-peligrosas.jpg){#fig-01-cap12-mercancias-peligrosas}
+
+::: {.callout-warning title="Safety"}
+If you see someone loitering around the hangars, tampering with other people's aircraft or behaving suspiciously at the aerodrome, **report it immediately** to the person in charge of the airfield or to the police. Security is everyone's business.
+:::
+
+::: {.postit}
+**Chapter summary: security**
+
+Mind the difference in English:
+
+* **SAFETY**: operational safety. Not having an accident while flying.
+* **SECURITY**: physical security. Nobody stealing your aircraft or planting a bomb.
+* **Your duty**: do not leave the aircraft open or accessible to strangers, do not carry dangerous goods (except for approved exceptions) and respect the restricted areas of airports.
+:::

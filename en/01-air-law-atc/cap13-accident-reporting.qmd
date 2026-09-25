@@ -1,0 +1,62 @@
+---
+origen: 01-derecho-aereo-atc/cap13-notificacion-de-accidentes.qmd
+origen-commit: 2890174
+---
+
+# Accident reporting
+
+> Reporting occurrences is not about finding someone to blame, but about learning from mistakes to keep the skies safe for everyone.
+>
+>
+> In this chapter you will learn:
+>
+>
+> * The legal differences between an accident, a serious incident and an incident.
+> * When you must report an occurrence to the CIAIAC and to AESA, and the deadlines: without delay to the former, within 72 hours to the latter.
+> * The “just culture” principle: reporting honest mistakes without fear of punishment.
+
+## Key definitions (Regulations (EU) No 996/2010 and No 376/2014)
+
+In aviation, not everything is an accident. There are legal nuances that matter (@fig-01-cap13-piramide-sucesos):
+
+1. **ACCIDENT**: someone is fatally or seriously injured; the aircraft suffers major structural damage or failures that affect its strength or flight capability; or the aircraft goes missing or becomes inaccessible.
+2. **SERIOUS INCIDENT**: an occurrence with a high probability of having ended in an accident. The classic “near miss”.
+3. **INCIDENT**: any other occurrence that affects or could affect safety, without reaching the above.
+
+![Occurrence severity pyramid (Heinrich)](imagenes/01-cap13-piramide-sucesos.jpg){#fig-01-cap13-piramide-sucesos}
+
+## The duty to report: the occurrence reporting system
+
+To improve safety, the State needs data. Not to punish, but to prevent. That is why two systems exist side by side:
+
+* **Mandatory reporting**: all accidents and serious incidents must be reported.
+* **Voluntary reporting**: if something happens to you that is not mandatory to report but you think others can learn from it, report it anyway.
+
+### To whom, and when?
+
+1. **CIAIAC** (Comisión de Investigación de Accidentes e Incidentes de Aviación Civil, the Spanish civil aviation accident and incident investigation commission): investigates the technical causes, so that it does not happen again.
+2. **AESA** (Agencia Estatal de Seguridad Aérea, the Spanish Aviation Safety Agency): oversees regulatory compliance.
+
+The deadlines are not the same: to the CIAIAC, report the accident or serious incident **without delay** (Regulation (EU) No 996/2010, Article 9); to AESA, report the occurrence as soon as possible and in any case within **72 hours** at most (Regulation (EU) No 376/2014) (@fig-01-cap13-flujo-notificacion).
+
+::: {.callout-tip title="Golden rule"}
+European regulations promote a “just culture”. The aim of reporting is **NOT to find someone to blame** (except for gross negligence or wilful misconduct), but to **learn**. Do not be afraid to report your mistakes; it is the only way the system improves.
+:::
+
+![The occurrence reporting process](imagenes/01-cap13-flujo-notificacion.jpg){#fig-01-cap13-flujo-notificacion}
+
+::: {.callout-warning title="Safety"}
+If you suffer or witness an accident:
+
+1. Priority: **save lives** and prevent further danger (fire, etc.).
+2. Then: **DO NOT TOUCH ANYTHING**. Preserving the wreckage is vital for the CIAIAC investigation. Only move it if it is essential to free victims or prevent a fire.
+:::
+
+::: {.postit}
+**Chapter summary: accidents and incidents**
+
+* **Accident**: there are fatal or serious injuries, structural damage to the aircraft, or the aircraft goes missing or becomes inaccessible.
+* **Serious incident**: the circumstances indicate that there was a high probability of an accident, or the occurrence endangered (or could have endangered) the safety of the operation.
+* **Obligation**: report it **without delay** to the **CIAIAC**; report the occurrence to **AESA** within **72 hours** at most.
+* **Evidence**: do not touch anything, except to save lives or prevent another hazard. Preserving the wreckage is vital for the investigation.
+:::
