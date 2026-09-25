@@ -5,7 +5,7 @@ origen-commit: aad4396
 
 # Search and rescue
 
-> When everything else fails, the Search and Rescue system is your last line of defence; it lets them find you.
+> When everything else fails, the Search and Rescue system is your last line of defence. It is how they find you.
 >
 >
 > In this chapter you will learn:
@@ -17,11 +17,11 @@ origen-commit: aad4396
 
 ## When everything fails: the SAR system
 
-The Search and Rescue service (**SAR**) is your final safety net. In Spain it is the responsibility of the **Ejército del Aire** (the Spanish Air and Space Force), supported by other assets, and its mission is simple: to find you and save you.
+The Search and Rescue service (**SAR**) is your final safety net. In Spain it is run by the **Ejército del Aire** (the Spanish Air and Space Force), supported by other assets, and its mission is simple: find you and save you.
 
 ### Organisation
 
-The one pulling the strings is the **RCC** (Rescue Coordination Centre). There are three main ones in Spain:
+The **RCC** (Rescue Coordination Centre) pulls the strings. Spain has three main ones:
 
 1. **RCC Madrid** (Torrejón Air Base): covers most of the peninsula.
 2. **RCC Canarias** (Gando Air Base): covers the archipelago and a vast area of the Atlantic.
@@ -31,7 +31,7 @@ There are also **RSCs** (rescue sub-centres) for specific areas.
 
 ## The emergency phases (SAR review)
 
-SAR does not go out searching “just because”. It acts in stages according to severity, in phases activated by ATC or by the RCC itself:
+SAR does not go out searching “just because”. It acts in stages that match the severity, in phases activated by ATC or by the RCC itself:
 
 1. **INCERFA (uncertainty phase)**: there is uncertainty about the safety of the aircraft and its occupants. The RCC starts gathering information.
 2. **ALERFA (alert phase)**: there is concern for the safety of the aircraft and its occupants. The SAR teams get ready.
@@ -41,7 +41,7 @@ SAR does not go out searching “just because”. It acts in stages according to
 
 ## The language of survival: ground-to-air signals
 
-If you are on the ground and an aircraft is looking for you, you have to communicate. Without a radio, use the **visual signals code**: make them large (at least 2.5 m) and with contrast, using cloth, stones or furrows (@fig-01-cap11-senales-tierra-aire).
+If you are on the ground and an aircraft is looking for you, you have to tell it something. Without a radio, use the **visual signals code**: make the signals large (at least 2.5 m) and high-contrast, with cloth, stones or furrows (@fig-01-cap11-senales-tierra-aire).
 
 | Symbol | Meaning | Mnemonic |
 | --- | --- | --- |
@@ -55,7 +55,7 @@ If you are on the ground and an aircraft is looking for you, you have to communi
 ![Visual distress signals code](imagenes/01-cap11-senales-socorro.jpg){#fig-01-cap11-senales-tierra-aire}
 
 ::: {.callout-warning title="Safety"}
-If in flight you pick up a distress signal (visual or on 121.5 MHz):
+If you pick up a distress signal in flight (visual or on 121.5 MHz):
 
 1. **Note the position**.
 2. **Do not block the frequency** (listen first).
@@ -66,7 +66,7 @@ If in flight you pick up a distress signal (visual or on 121.5 MHz):
 ::: {.postit}
 **Chapter summary: search and rescue (SAR)**
 
-If something goes wrong, SAR will look for you. Know the phases:
+If something goes wrong, SAR will come looking for you. Know the phases:
 
 * **INCERFA (uncertainty phase)**: there is uncertainty about the safety of the aircraft and its occupants.
 * **ALERFA (alert phase)**: there is concern for the safety of the aircraft and its occupants.
