@@ -45,7 +45,7 @@ Knowing these statistics lets you focus your attention on the phases and situati
 
 ## Conceptual models: the SHELL model
 
-Gliding does not happen in a vacuum: the pilot is constantly interacting with their surroundings. To understand that interaction, ICAO uses the **SHELL model**, a conceptual framework first developed by the psychologist Elwyn Edwards in 1972 (as the SHEL model) and later refined by Frank Hawkins, who added the second L for other people. The name is an acronym of its components, which fit together like the pieces of a jigsaw puzzle, with the human factor always at the centre (@fig-02-cap01-modelo-shell):
+Gliding does not happen in a vacuum: the pilot is always interacting with their surroundings. To understand that interaction, ICAO uses the **SHELL model**, a conceptual framework first developed by the psychologist Elwyn Edwards in 1972 (as the SHEL model) and later refined by Frank Hawkins, who added the second L for other people. The name is an acronym of its components, which fit together like the pieces of a jigsaw puzzle, with the human factor always at the centre (@fig-02-cap01-modelo-shell):
 
 * **Software (S):** The non-physical elements. It includes the applicable regulations, flight manuals, standard procedures, **checklists** and aeronautical symbols.
 * **Hardware (H):** The machine. It covers the glider itself, the instruments on board and any other physical tool or equipment.
@@ -125,5 +125,5 @@ The practical conclusion is clear: safety sits at the base of the pyramid and ca
 * **SHELL model**: The basic conceptual framework for analysing how the pilot (Liveware) interacts with the other elements: Software (procedures), Hardware (the aircraft), Environment (the surroundings) and other Liveware (other people).
 * **Error management**: Human error is taken to be inevitable. The aim of safety is not to eliminate it altogether, but to detect it in time and manage its consequences before they affect the safety of the flight.
 * **Error chain**: Accidents rarely have a single cause. They are the sum of small errors and latent conditions. Your job is to break the chain as soon as you spot the first link.
-* **Influences on behaviour**: How we think under pressure, our everyday motivation to fly set against unmet basic needs (Maslow's pyramid) and direct pressure from fellow pilots at the hangar all deeply affect our mental capacity as commanders. We should support a strict “just culture” in which technical errors can be reported freely without reprisals, so that we learn together instead of hiding damage that could prove fatal.
+* **Influences on behaviour**: How we think under pressure, our motivation to fly when basic needs are unmet (Maslow's pyramid) and direct pressure from fellow pilots at the hangar all deeply affect our mental capacity as pilots-in-command. Support a strict “just culture”, in which technical errors can be reported freely without reprisals: we learn together instead of hiding damage that could prove fatal.
 :::

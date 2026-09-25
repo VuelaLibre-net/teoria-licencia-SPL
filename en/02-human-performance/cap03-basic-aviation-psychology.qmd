@@ -47,7 +47,7 @@ Losing situational awareness is usually the first link in most gliding accident 
 
 Aeronautical decision-making (ADM, for **Aeronautical Decision Making**) is the systematic, repeatable mental process a pilot uses to choose the best possible course of action in response to a given set of circumstances in the glider cockpit.
 
-Whether thermalling or on final approach, the pilot interacts with the environment by assessing scenarios and hazards, making plans, managing the level of risk and acting on it. One of the most widely accepted frameworks in civil aviation for training and shaping ADM is the **DECIDE model** (@fig-02-cap03-decide):
+Whether thermalling or on final approach, the pilot is constantly assessing situations and hazards, making plans, managing the level of risk and acting on it. One of the most widely accepted frameworks in civil aviation for training and shaping ADM is the **DECIDE model** (@fig-02-cap03-decide):
 
 * **D**etect that a change or an error has occurred that needs your attention.
 * **E**stimate the need to react, actively gathering all the information about the event.
@@ -123,7 +123,7 @@ Under extreme stress and panic, basic survival instincts such as trying to “ge
 
 Everything you do in the air follows a continuous cycle known as the “3 P” model: **Perceive, Process and Perform**. Every second of a flight, the pilot perceives information from the environment, processes it mentally and acts on it.
 
-The human mind's capacity to handle this endless stream of events at once is essentially finite: think of it as a glass that can only hold so much water. During a turbulent aerotow, flying into the sun, while trying to spot another glider that has just called on base, the cognitive glass can overflow spectacularly. This is known as **qualitative overload**. When the complexity of the flying task at that precise moment outstrips the pilot's performance and training, the safety margin disappears and the latent accident takes its place.
+The mind can only handle so much of this endless stream of events at once: think of it as a glass that holds a fixed amount of water. During a turbulent aerotow, flying into the sun, while trying to spot another glider that has just called on base, the cognitive glass can overflow spectacularly. This is known as **qualitative overload**. When the complexity of the flying task at that precise moment outstrips the pilot's performance and training, the safety margin disappears and the latent accident takes its place.
 
 ::: {.callout-tip title="Golden rule"}
 When you feel your glass overflowing, stop for a second, breathe, and cut the mental load by ruthlessly simplifying your priorities, following the old aviation saying: **Aviate, Navigate, Communicate** (first fly the aircraft safely, then worry about where you are going, and only last, and only if strictly necessary, pick up the radio to tell someone about it).

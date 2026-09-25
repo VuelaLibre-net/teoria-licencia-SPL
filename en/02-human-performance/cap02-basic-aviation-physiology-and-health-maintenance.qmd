@@ -5,11 +5,11 @@ origen-commit: 58a0ec2
 
 # Basic aviation physiology and health maintenance
 
-> This chapter looks at how the flight environment affects the human body and at what determines a glider pilot's physical fitness. We will go over its effect on the senses, the toll that altitude takes, and the non-negotiable rules for keeping the flight safe before you take the controls.
+> This chapter looks at how the flight environment affects the human body and at what determines a glider pilot's physical fitness. It covers the effects on the senses, the toll that altitude takes, and the non-negotiable rules you must meet before you take the controls.
 
 ## Fitness to fly and self-assessment (the IMSAFE checklist)
 
-As a glider pilot, your physical and mental health is the most critical component of flight safety. European rules state clearly that a pilot must not fly if unfit for any reason, such as an injury, illness, medication, fatigue or the effects of any psychoactive substance, or simply if they feel unwell.
+Your physical and mental health is the most critical part of flight safety. European rules state clearly that a pilot must not fly if unfit for any reason, such as an injury, illness, medication, fatigue or the effects of any psychoactive substance, or simply if they feel unwell.
 
 ::: {.callout-important title="Regulation"}
 You must consult an Aero-Medical Examiner (AME) or a general practitioner if you have had a significant injury or surgery, started regular medication, become pregnant or started wearing corrective lenses for the first time. These situations call for a new assessment of your medical fitness, and you must not fly as pilot-in-command until the cause has been resolved and you are fit again (**MED.A.020 Decrease in medical fitness**).
@@ -185,7 +185,7 @@ The immediate treatment is to slow your breathing down deliberately. Talking or 
 Prolonged stress eats away at safety: it can breed **overconfidence** or shut down critical thinking. Pressure (winning a task, keeping up with a more experienced pilot, or simply wanting to reach your destination) leads you to take risks you would find unacceptable on the ground. Assess your abilities strictly and honestly. The best competition pilots have one thing in common: they are hard on themselves when they review their own decisions after landing.
 
 ::: {.callout-note title="Airmanship"}
-To keep stress within the safe operating range, it is vital to **avoid stacking up several “firsts”** on the same flight. Flying a glider type that is completely new to you, on aerotow from an aerodrome you do not know, into a gusty crosswind gale, is an explosive combination of unfamiliar factors. Your mind will skip the alarm stage and go straight to panic. Always try to add these variables one at a time.
+To keep stress within the safe operating range, **avoid stacking up several “firsts”** on the same flight. Flying a glider type that is completely new to you, on aerotow from an aerodrome you do not know, into a gusty crosswind gale, is an explosive combination of unfamiliar factors. Your mind will skip the alarm stage and go straight to panic. Always try to add these variables one at a time.
 :::
 
 ## Fatigue (acute and chronic) and its effect on performance
@@ -202,7 +202,7 @@ Bear in mind that flying after an exhausting day at work affects your arrival ci
 
 ## Dehydration, heatstroke and sun exposure
 
-In summer, the canopy acts like a greenhouse. Thermalling in flying clothes with a parachute on your back, the temperature in the cockpit can rise considerably.
+In summer, the canopy acts like a greenhouse. When you are thermalling in flying clothes with a parachute on your back, the cockpit can get very hot.
 
 In these conditions, and with faster breathing at altitude, the body cools itself by sweating heavily. Losing between 1 and 3 litres of water an hour without really noticing is common.
 
