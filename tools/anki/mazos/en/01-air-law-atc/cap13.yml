@@ -1,0 +1,51 @@
+# Anki deck for en/01-air-law-atc, chapter 13.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/01-derecho-aereo-atc/cap13.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/01-air-law-atc
+capitulo: 13
+titulo: "Accident reporting"
+tarjetas:
+  - id: definicion-de-accidente
+    tipo: basica
+    anverso: What is an **accident**?
+    reverso: |
+      **Fatal or serious injuries, structural damage to the aircraft, or the
+      aircraft missing or inaccessible.**
+
+  - id: incidente-grave
+    tipo: basica
+    anverso: What is a **serious incident**?
+    reverso: |
+      **One whose circumstances indicate a high probability of an accident**, or
+      that endangered (or could have endangered) the safety of the operation.
+
+  - id: plazos-de-notificacion
+    tipo: basica
+    anverso: To whom, and by when, is an accident reported?
+    reverso: |
+      **Without delay to the CIAIAC**, and **to AESA within 72 hours at most.**
+    etiquetas: [Regulation]
+
+  - id: preservar-los-restos
+    tipo: basica
+    anverso: After an accident, what is the order of priorities?
+    reverso: |
+      1. **Save lives** and prevent further danger (fire).
+      2. **Do not touch anything.**
+
+      Preserving the wreckage is vital for the CIAIAC investigation. Only move
+      it if it is essential to free victims or prevent a fire.
+    etiquetas: [Safety]
+
+  - id: cultura-justa-notificacion
+    tipo: basica
+    anverso: What is reporting for, according to **just culture**?
+    reverso: |
+      **To learn, not to find someone to blame** (except for gross negligence
+      or wilful misconduct).
+
+      Do not be afraid to report your mistakes: it is the only way the system
+      improves.
+    etiquetas: [Golden rule]

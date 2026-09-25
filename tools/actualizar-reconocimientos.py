@@ -40,6 +40,7 @@ FOOTER = ":::\n"
 # traducidas. Las marcas ✓ son las de la edición española —quien validó el
 # libro, validó el texto español—, y la cabecera lo dice.
 DIRECTORIOS_EN = [
+    ("en/01-air-law-atc", 1),
     ("en/07-flight-performance-planning", 7),
 ]
 

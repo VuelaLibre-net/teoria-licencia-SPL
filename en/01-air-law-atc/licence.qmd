@@ -1,0 +1,66 @@
+---
+origen: 01-derecho-aereo-atc/licencia.qmd
+origen-commit: 2af3da2
+---
+
+# Legal information and licence {.unnumbered}
+
+::: {.licencia}
+::: {.content-visible when-format="epub"}
+::: {.estado}
+**{{< meta estado >}}** — {{< meta estado-nota >}}
+:::
+:::
+
+Theoretical training manual for the **Sailplane Pilot Licence (SPL)**, following the syllabus of AMC1 SFCL.130 (EASA-FCL), adapted to the requirements of AESA, the Spanish Aviation Safety Agency.
+
+© 2026 VuelaLibre.net
+
+Published by **VuelaLibre.net** · <https://vuelalibre.net>
+
+## Licence {.unnumbered .unlisted}
+
+::: {.licencia-cc}
+This work is distributed under the **Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)** licence.
+:::
+
+::: {.dos-columnas}
+::: {.columna}
+**You are free to:**
+
+* copy and redistribute the material in any medium
+* adapt: remix, transform and build upon the material
+* use it commercially
+:::
+
+::: {.columna}
+**Provided that:**
+
+* appropriate credit is given
+* a link to the licence is provided
+* any changes made are indicated
+* adaptations are distributed under the same or a compatible licence
+:::
+:::
+
+Attribution may be given in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+
+Full text of the licence: <https://creativecommons.org/licenses/by-sa/4.0/deed.en>
+
+## Disclaimer — use at your own risk {.unnumbered .unlisted}
+
+::: {.aviso-legal}
+Aviation is an activity with inherent risks. Although every effort has been made to ensure the technical accuracy of this manual using up-to-date official sources:
+
+* **The authors, editors and contributors accept NO liability whatsoever** for personal injury, damage to property or any other harm that may arise from misinterpretation of, or technical errors in, the text.
+* This manual is a **study aid** and in no case replaces the mandatory theoretical instruction or practical training with a qualified flight instructor (FI(S)).
+* In the event of any discrepancy with the regulations in force published by AESA or EASA, the official legal text of the aviation authority always prevails.
+:::
+
+## Validation by AESA {.unnumbered .unlisted}
+
+::: {.aval}
+The **syllabi of this collection have been validated by AESA** (Spanish Aviation Safety Agency), the civil aviation authority of Spain, as regards their suitability for the syllabus of AMC1 SFCL.130 for Sailplane Pilot Licence (SPL) theoretical training. The validation covers the original Spanish edition; this English translation has not been submitted to AESA. The authors alone are responsible for the content.
+:::
+
+:::

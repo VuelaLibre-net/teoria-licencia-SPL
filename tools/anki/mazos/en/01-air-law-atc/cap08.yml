@@ -1,0 +1,73 @@
+# Anki deck for en/01-air-law-atc, chapter 8.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/01-derecho-aereo-atc/cap08.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/01-air-law-atc
+capitulo: 8
+titulo: "Air traffic service (ATS) and air traffic management (ATM)"
+tarjetas:
+  - id: atc-fis-alrs
+    tipo: basica
+    anverso: What does each of the three ATS services provide?
+    reverso: |
+      * **ATC (control)**: clearances that separate you from other aircraft.
+        TWR, APP and ACC, only in controlled airspace.
+      * **FIS (information)**: weather, hazards and traffic. Avoiding a
+        collision is still up to you.
+      * **ALRS (alerting)**: alerts search and rescue.
+
+  - id: informacion-de-trafico-no-es-separacion
+    tipo: basica
+    anverso: The practical difference between an ATC call and a FIS call.
+    reverso: |
+      **ATC**: “Turn heading 360 for traffic”: a mandatory instruction; they
+      separate you.
+
+      **FIS**: “Traffic converging on your right”: information; **you** decide
+      what to do.
+    etiquetas: [Airmanship]
+
+  - id: atm-tres-patas
+    tipo: cloze
+    texto: |
+      **ATM = {{c1::ATS}} + {{c2::ASM}} + {{c3::ATFM}}**: the services that look
+      after you, airspace management and flow management.
+
+  - id: fua
+    tipo: basica
+    anverso: What is the **flexible use of airspace (FUA)**?
+    reverso: |
+      **Airspace is shared out every day, not once and for all.**
+
+      Some areas only exist at certain times (**TSA, TRA**) and some routes are
+      only open when those areas are released (**CDR**). It is established by
+      Regulation (EC) No 2150/2005.
+    etiquetas: [Regulation]
+
+  - id: carta-vs-notam
+    tipo: basica
+    anverso: What does the chart tell you, and what do the NOTAMs tell you?
+    reverso: |
+      **The chart says where an area is; the NOTAMs say whether it is active
+      today.**
+
+      You check it when preparing the flight, not in the air. Repeating last
+      week's cross-country without checking again is flying with an old
+      photograph.
+    etiquetas: [Golden rule]
+
+  - id: slots-atfm-y-planeadores
+    tipo: basica
+    anverso: Do **ATFM** *slots* affect a glider?
+    reverso: |
+      **No: they are a matter for IFR traffic.** They do not affect a glider in
+      class G.
+
+  - id: alerta-sin-plan-de-vuelo
+    tipo: basica
+    anverso: What happens to the alerting service if you have neither a flight plan nor a radio?
+    reverso: |
+      **It takes much longer to activate**: only when your family reports that
+      you have not come back.
+    etiquetas: [Safety]

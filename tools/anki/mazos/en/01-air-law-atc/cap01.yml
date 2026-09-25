@@ -1,0 +1,58 @@
+# Anki deck for en/01-air-law-atc, chapter 1.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/01-derecho-aereo-atc/cap01.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/01-air-law-atc
+capitulo: 1
+titulo: "International law: conventions, agreements and organisations"
+tarjetas:
+  - id: convenio-de-chicago
+    tipo: basica
+    anverso: What is the **Chicago Convention** (1944), and what did it create?
+    reverso: |
+      **The founding treaty of international civil aviation**, which sets the
+      minimum worldwide standards. **ICAO** was born from it.
+
+  - id: easa-y-aesa
+    tipo: basica
+    anverso: What does **EASA** do, and what does **AESA** do?
+    reverso: |
+      **EASA drafts the common European rules; AESA applies them in Spain.**
+
+  - id: reglamento-base-2018-1139
+    tipo: basica
+    anverso: Which European rule establishes EASA and lays down the common civil aviation rules?
+    reverso: |
+      **The Basic Regulation.** It is the highest-ranking rule in the European
+      system: Part-SFCL, Part-SAO and the rest hang from it.
+
+      *Basis: Regulation (EU) 2018/1139.*
+    etiquetas: [Regulation]
+
+  - id: vinculante-vs-amc-gm
+    tipo: basica
+    anverso: The difference between **Regulations** and **AMC/GM**.
+    reverso: |
+      **Regulations = WHAT you must comply with (mandatory).**
+
+      **AMC/GM = HOW to comply in the standard way (recommended).**
+    etiquetas: [Golden rule]
+
+  - id: tres-normas-de-cabecera
+    tipo: cloze
+    texto: |
+      Your three core rules: {{c1::Part-SFCL}} (your licence), {{c2::SERA}}
+      (how to fly) and {{c3::Part-SAO}} (how to operate your glider).
+
+  - id: sao-gen-130-responsabilidad
+    tipo: basica
+    anverso: What is the **pilot-in-command** responsible for, and can it be delegated?
+    reverso: |
+      **The safety of the aircraft and of all persons on board, and it cannot
+      be delegated.**
+
+      You are the final authority in your cockpit.
+
+      *Basis: Part-SAO, SAO.GEN.130.*
+    etiquetas: [Airmanship]

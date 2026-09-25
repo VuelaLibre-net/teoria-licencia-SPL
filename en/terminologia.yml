@@ -277,10 +277,10 @@
   origen: glosario
   libros: ["08"]
 - es: "CAVOK (Visibilidad, nubes y tiempo presente mejores que los valores o condiciones prescritos)"
-  en: "CAVOK (Ceiling And Visibility OK)"
-  origen: propuesta
+  en: "CAVOK (Visibility, cloud and present weather better than prescribed values or conditions)"
+  origen: glosario
   libros: ["01", "03", "04"]
-  nota: "definición ICAO: visibilidad, nubes y tiempo presente mejores que los prescritos"
+  nota: "rótulo ICAO; «Ceiling And Visibility OK» es un retroacrónimo, no la denominación oficial (lo advierte el glosario ES)"
 - es: "CB-SIFT-CBE"
   en: "CB-SIFT-CBE"
   origen: propuesta

@@ -1,0 +1,78 @@
+# Anki deck for en/01-air-law-atc, chapter 6.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/01-derecho-aereo-atc/cap06.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/01-air-law-atc
+capitulo: 6
+titulo: "Procedures for air navigation: aircraft operations"
+tarjetas:
+  - id: minimos-vmc-generales
+    tipo: basica
+    anverso: What are the general **VMC minima**?
+    reverso: |
+      **5 km visibility, and cloud 1,500 m horizontally / 1,000 ft
+      vertically.**
+
+      Above FL 100, **8 km**.
+
+  - id: minimos-vmc-baja-cota
+    tipo: basica
+    anverso: Which minima apply below 3,000 ft AMSL (or 1,000 ft AGL) in uncontrolled airspace?
+    reverso: |
+      **5 km, clear of cloud and with the surface in sight.**
+
+      Flying at less than 140 kt, visibility may be reduced to **1,500 m**.
+
+  - id: regla-semicircular
+    tipo: basica
+    anverso: The semicircular rule in Spain.
+    reverso: |
+      **“North Even / South Odd”.**
+
+      Heading **north** (270°–089°): **even** levels + 500 ft.
+
+      Heading **south** (090°–269°): **odd** levels + 500 ft.
+    etiquetas: [Golden rule]
+
+  - id: qnh-qfe-qne
+    tipo: cloze
+    texto: |
+      Altimeter settings: {{c1::QNH}} gives altitude above sea level
+      (navigation and circuits); {{c2::QFE}} gives height above the airfield;
+      and {{c3::QNE}} (1013.25 hPa) gives flight levels.
+    extra: |
+      Mnemonic: **QNH** = *Nautical Height*; **QFE** = *Field Elevation*.
+
+  - id: altitud-de-transicion-espana
+    tipo: basica
+    anverso: What is the **transition altitude** in Spain, and what does it imply?
+    reverso: |
+      **6,000 ft in most of the country** (with exceptions such as Madrid or
+      Granada).
+
+      Below it you fly on **QNH** (altitude); above it you set **1013.25 hPa**
+      and fly **flight levels**.
+    etiquetas: [Regulation]
+
+  - id: oxigeno-legal-vs-fisiologico
+    tipo: basica
+    anverso: Are the legal and the physiological oxygen minimum the same?
+    reverso: |
+      **No.** The default rule in AMC1 SAO.OP.150 is 10,000 ft, but many pilots
+      suffer impairment from **8,000–9,000 ft**, especially at night or when
+      fatigued.
+
+      On wave flights, connect the oxygen and use it before 10,000 ft.
+    etiquetas: [Safety]
+
+  - id: comprobaciones-sao-gen-130
+    tipo: basica
+    anverso: What must the pilot-in-command check **before starting the flight**?
+    reverso: |
+      **That the sailplane is airworthy, registered and has the necessary
+      instruments and equipment installed and operative**, and check **mass,
+      balance, loading and the AFM limits**.
+
+      *Basis: Part-SAO, SAO.GEN.130.*
+    etiquetas: [Regulation]

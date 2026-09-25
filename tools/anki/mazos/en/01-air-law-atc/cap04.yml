@@ -1,0 +1,55 @@
+# Anki deck for en/01-air-law-atc, chapter 4.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/01-derecho-aereo-atc/cap04.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/01-air-law-atc
+capitulo: 4
+titulo: "Personnel licensing"
+tarjetas:
+  - id: licencia-spl-validez
+    tipo: basica
+    anverso: Does the **SPL** expire?
+    reverso: |
+      **No: it is valid for life.** But its privileges depend on the medical
+      certificate and recent experience.
+
+      It is governed by **Part-SFCL**.
+
+  - id: certificado-medico-spl
+    tipo: basica
+    anverso: Which medical certificate does an SPL need?
+    reverso: |
+      **Class 2 or LAPL.** Without a valid medical, the licence is worthless.
+
+  - id: recencia-5-15-2
+    tipo: cloze
+    texto: |
+      Recent experience in the last **24 months**: {{c1::5}} hours of flight
+      time, {{c2::15}} launches and {{c3::2}} training flights with an FI(S).
+    extra: |
+      Mnemonic **5, 15, 2**. If you fall short: fly with an instructor until you
+      meet them, or pass a proficiency check with an FE(S).
+
+  - id: pasajeros-sfcl-115
+    tipo: basica
+    anverso: What experience is needed to **carry passengers** with an SPL?
+    reverso: |
+      **10 hours or 30 launches as PIC after obtaining the licence, and a
+      training flight demonstrating competence to an FI(S)** (unless you are
+      already an FI(S)), **plus 3 launches in the last 90 days.**
+
+      Failing to comply leads to sanctions and loss of insurance cover.
+
+      *Basis: Part-SFCL, SFCL.115(a)(2) and SFCL.160(e).*
+    etiquetas: [Regulation]
+
+  - id: cambio-de-salud
+    tipo: basica
+    anverso: What should you do if your state of health changes?
+    reverso: |
+      **Consult an AME before flying again.**
+
+      Surgery, serious illness, pregnancy or new glasses can suspend the
+      medical certificate.
+    etiquetas: [Safety]

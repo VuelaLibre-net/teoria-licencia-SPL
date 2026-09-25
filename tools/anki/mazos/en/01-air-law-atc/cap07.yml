@@ -1,0 +1,64 @@
+# Anki deck for en/01-air-law-atc, chapter 7.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/01-derecho-aereo-atc/cap07.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/01-air-law-atc
+capitulo: 7
+titulo: "Air traffic regulations: airspace structure"
+tarjetas:
+  - id: clases-controladas-y-vfr
+    tipo: basica
+    anverso: What does VFR traffic need in each controlled class?
+    reverso: |
+      * **A**: IFR only.
+      * **B, C and D**: ATC clearance and two-way communication. (B is not used
+        in Spain.)
+      * **E**: neither a clearance nor a mandatory radio.
+
+  - id: clase-g
+    tipo: basica
+    anverso: What is **class G** like?
+    reverso: |
+      **Uncontrolled airspace: you fly under your own responsibility, with “see
+      and avoid”.**
+
+      You can receive FIS if it is available and you request it, but **nobody
+      separates you**.
+
+  - id: clases-que-no-se-usan-en-espana
+    tipo: basica
+    anverso: Which airspace classes are not used in practice in Spain?
+    reverso: |
+      **B and F.**
+
+      Spanish airspace is mostly G, and A, C, D and E on routes and around
+      airports.
+    etiquetas: [Airmanship]
+
+  - id: autorizacion-no-exime
+    tipo: basica
+    anverso: Does an ATC clearance remove the pilot's responsibility?
+    reverso: |
+      **No.** If you cannot comply safely, say so immediately and coordinate a
+      safe alternative.
+
+  - id: rmz-vs-tmz
+    tipo: basica
+    anverso: The difference between an **RMZ** and a **TMZ**.
+    reverso: |
+      **RMZ**: mandatory to carry a radio and make contact.
+
+      **TMZ**: mandatory to carry and operate a transponder as published.
+
+      If you see an RMZ on the chart, do not enter silently.
+    etiquetas: [Golden rule]
+
+  - id: zonas-p-y-r
+    tipo: basica
+    anverso: What is the risk of infringing an active **P** or **R** area?
+    reverso: |
+      **Serious sanctions and even interception by military aircraft.**
+
+      Plan and check the NOTAMs to find out whether the R areas are active.
+    etiquetas: [Safety]

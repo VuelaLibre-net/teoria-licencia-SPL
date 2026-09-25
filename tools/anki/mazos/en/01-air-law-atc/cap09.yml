@@ -1,0 +1,37 @@
+# Anki deck for en/01-air-law-atc, chapter 9.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/01-derecho-aereo-atc/cap09.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/01-air-law-atc
+capitulo: 9
+titulo: "Aeronautical information services (AIS)"
+tarjetas:
+  - id: aip
+    tipo: basica
+    anverso: What is the **AIP**?
+    reverso: |
+      **The permanent “fat manual”**: charts, frequencies, danger areas, airport
+      hours. It is the foundation.
+
+  - id: notam
+    tipo: basica
+    anverso: What are **NOTAMs**, and how often do you check them?
+    reverso: |
+      **Urgent temporary notices** (closed runway, air show, temporary
+      restriction). **Checking them before every flight is mandatory.**
+
+  - id: aic
+    tipo: basica
+    anverso: What are **AICs**?
+    reverso: |
+      **Informative circulars on safety and administrative changes.**
+
+  - id: icaro-e-insignia
+    tipo: basica
+    anverso: Where can you consult the AIS free of charge in Spain?
+    reverso: |
+      **On ENAIRE's ICARO and Insignia portals.**
+
+      Insignia shows the NOTAMs on the map; get into the habit of using it.
+    etiquetas: [Golden rule]

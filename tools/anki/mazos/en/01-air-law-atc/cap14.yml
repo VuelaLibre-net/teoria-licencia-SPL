@@ -1,0 +1,42 @@
+# Anki deck for en/01-air-law-atc, chapter 14.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/01-derecho-aereo-atc/cap14.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/01-air-law-atc
+capitulo: 14
+titulo: "National law"
+tarjetas:
+  - id: dgac-vs-aesa
+    tipo: basica
+    anverso: What does the **DGAC** do, and what does **AESA** do?
+    reverso: |
+      **The DGAC writes the rules of the game (policy and strategy); AESA is the
+      referee that oversees and sanctions.**
+    etiquetas: [Airmanship]
+
+  - id: infracciones-muy-graves
+    tipo: basica
+    anverso: What can **very serious** infringements lead to?
+    reverso: |
+      **A ban from flying.** They are the ones involving death or an accident.
+
+  - id: sanciones-y-desconocimiento
+    tipo: basica
+    anverso: Does ignorance of the law exempt you?
+    reverso: |
+      **No.**
+
+      Flying without a licence, without insurance or under the influence of
+      alcohol can cost thousands of euros and a ban from flying, even for a
+      private pilot.
+    etiquetas: [Safety]
+
+  - id: ante-la-duda-pregunta
+    tipo: basica
+    anverso: If you have a doubt about whether an operation is legal, what do you do?
+    reverso: |
+      **Ask your club, your instructor or AESA first.**
+
+      Better to ask than to face disciplinary proceedings.
+    etiquetas: [Golden rule]

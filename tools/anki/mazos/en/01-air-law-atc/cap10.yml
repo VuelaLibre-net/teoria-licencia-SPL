@@ -1,0 +1,33 @@
+# Anki deck for en/01-air-law-atc, chapter 10.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/01-derecho-aereo-atc/cap10.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/01-air-law-atc
+capitulo: 10
+titulo: "Aerodromes, external take-off sites"
+tarjetas:
+  - id: sentido-del-circuito
+    tipo: basica
+    anverso: In which direction are circuit turns made?
+    reverso: "**To the left, unless a signal says otherwise.**"
+
+  - id: area-de-senales
+    tipo: basica
+    anverso: What do the signals in the **signals area** mean?
+    reverso: |
+      * **Windsock**: wind direction and strength.
+      * **Landing T**: landing and take-off direction.
+      * **Right-hand arrow**: turns to the right.
+      * **Red square with yellow diagonals**: landing prohibited.
+      * **Red panel with one diagonal**: caution, manoeuvring area in poor
+        condition.
+      * **Double white cross**: gliders in operation.
+
+  - id: buscar-el-area-de-senales
+    tipo: basica
+    anverso: What do you look for when you arrive at a new airfield, even without a radio?
+    reverso: |
+      **The signals area**: it gives you the runway in use and the direction of
+      turns at a glance.
+    etiquetas: [Golden rule]

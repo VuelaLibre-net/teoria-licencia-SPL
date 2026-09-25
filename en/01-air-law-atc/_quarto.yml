@@ -1,0 +1,56 @@
+project:
+  type: book
+  output-dir: _book
+
+lang: en
+version: "0.8.0"
+repo-url: "https://github.com/VuelaLibre-net/teoria-licencia-SPL"
+cubierta: "cover/frente.jpg"
+contracubierta: "cover/reverso.jpg"
+
+book:
+  title: "Air Law and ATC Procedures"
+  author: "VuelaLibre.net"
+  chapters:
+    - index.qmd
+    - licence.qmd
+    - dedication.qmd
+    - epigraph.qmd
+    - acknowledgements.qmd
+    - introduction.qmd
+    - cap01-international-law-conventions-agreements-and-organisations.qmd
+    - cap02-airworthiness-of-aircraft.qmd
+    - cap03-aircraft-nationality-and-registration-marks.qmd
+    - cap04-personnel-licensing.qmd
+    - cap05-rules-of-the-air.qmd
+    - cap06-procedures-for-air-navigation-aircraft-operations.qmd
+    - cap07-air-traffic-regulations-airspace-structure.qmd
+    - cap08-air-traffic-service-and-air-traffic-management.qmd
+    - cap09-aeronautical-information-services-ais.qmd
+    - cap10-aerodromes-external-take-off-sites.qmd
+    - cap11-search-and-rescue.qmd
+    - cap12-security.qmd
+    - cap13-accident-reporting.qmd
+    - cap14-national-law.qmd
+  appendices:
+    - appendix-easa-syllabus-air-law-and-atc-procedures.qmd
+    - glossary.qmd
+    - bibliography.qmd
+    - colophon.qmd
+    - back-cover.qmd
+
+format:
+  orange-book-es-typst:
+    toc: true
+    number-sections: true
+    keep-typ: true
+    margin:
+      top: 2.5cm
+      bottom: 2.5cm
+  epub:
+    # Los .qmd llevan la marca GUÍA-DE-LECTURA como comentario HTML, para el
+    # editor. Typst los descarta solos; el EPUB los arrastraría al entregable.
+    strip-comments: true
+    toc: true
+    epub-cover-image: cover/frente.jpg
+    include-in-header: _extensions/orange-book-es/epub-estilos.html

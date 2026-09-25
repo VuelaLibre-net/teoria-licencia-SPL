@@ -1,0 +1,110 @@
+---
+origen: 01-derecho-aereo-atc/cap06-procedimientos-para-navegacion-aerea-operaciones-de-aeronaves.qmd
+origen-commit: aad4396
+---
+
+# Procedures for air navigation: aircraft operations
+
+> Navigating safely demands precise rules; master the VMC minima and cruising levels so you can share the sky efficiently.
+>
+>
+> In this chapter you will learn:
+>
+>
+> * The weather minima (VMC): when visual flight is legal and which exceptions apply to gliders.
+> * The semicircular rule: how to choose your cruising altitude according to your track.
+> * The critical difference between QNH (altitude), QFE (height) and QNE (flight levels).
+> * When oxygen is mandatory to avoid silent hypoxia.
+
+## VFR minima: visibility and distance from cloud
+
+To fly visually (VFR) you need minimum weather conditions (**VMC**). If the weather falls below those minima, VFR flight is prohibited. The general rule is divided by altitude.
+
+### Below 3,000 ft AMSL (or 1,000 ft AGL)
+
+This is where gliders usually operate, and the minima depend on the airspace you are in:
+
+* **Controlled airspace (classes B, C, D, E)**: 5 km visibility, and a distance from cloud of 1,500 m horizontally and 1,000 ft vertically.
+* **Uncontrolled airspace (classes F, G)**: 5 km visibility, clear of cloud and in sight of the surface.
+
+There is an interesting exception in uncontrolled airspace: if you fly at less than 140 kt (as a glider does), the rules allow the minimum visibility to be reduced to **1,500 m**, provided your speed lets you see other traffic or obstacles in good time to avoid a collision (@fig-01-cap06-vmc-minima).
+
+### Above 3,000 ft AMSL (up to FL 100)
+
+5 km visibility, and a distance from cloud of 1,500 m horizontally and 1,000 ft vertically, whatever airspace you are in. And a detail for big wave days: above FL 100, the minimum visibility rises to **8 km**.
+
+![VMC (Visual Meteorological Conditions) minima for visual flight (VFR).](imagenes/01-cap06-minimos-vmc.jpg){#fig-01-cap06-vmc-minima}
+
+## Semicircular rule for cruising levels
+
+To avoid head-on encounters en route, each aircraft flies at an altitude that depends on its magnetic track. In Spain, since 2019, the semicircular rule for VFR flights above **3,000 ft AGL** is oriented **North-South**:
+
+* **Northbound tracks (270° to 089°)**: **even** altitudes or levels + 500 ft (4,500 ft, 6,500 ft, FL 45, FL 65…).
+* **Southbound tracks (090° to 269°)**: **odd** altitudes or levels + 500 ft (3,500 ft, 5,500 ft, FL 35, FL 55…).
+
+(@fig-01-cap06-semicircular)
+
+::: {.callout-tip title="Golden rule"}
+**North Even / South Odd**
+Heading **north** → **even** levels.
+Heading **south** → **odd** levels.
+:::
+
+![Semicircular rule for VFR cruising levels (North-South)](imagenes/01-cap06-regla-semicircular.jpg){#fig-01-cap06-semicircular}
+
+## Altimeter setting: QNH, QFE and QNE
+
+Your altimeter measures pressure, not height. Depending on the pressure you set in the Kollsman window, it will tell you one story or another:
+
+* **QNH**: altimeter setting reduced to mean sea level. The altimeter shows **altitude** and, on the ground, roughly the aerodrome elevation. It is what we use to navigate and to fly circuits.
+* **QFE**: aerodrome pressure. The altimeter shows **height** above the aerodrome; on the ground it reads zero. Little used on cross-countries, useful in local flying or competitions.
+* **QNE**: the indication with the standard setting (1013.25 hPa). The altimeter shows **flight levels (FL)**. It is used above the transition altitude (6,000 ft generally in Spain, with exceptions such as Madrid at 13,000 ft or Granada at 7,000 ft) so that all aircraft share the same reference, whatever the weather. One subtlety: unlike QNH and QFE, QNE is not a pressure anyone reports to you, but the **altimeter reading with 1013.25 hPa set**; that is why we speak of “setting standard”, not “setting the QNE”.
+
+::: {.callout-tip title="Golden rule"}
+As an English mnemonic:
+
+* **QNH** = ***N**autical **H**eight* (altitude above sea level).
+* **QFE** = ***F**ield **E**levation* (height above the airfield).
+:::
+
+::: {.callout-important title="Regulation"}
+Below the **transition altitude** (6,000 ft in most of Spain, with exceptions such as Madrid or Granada), we fly on **QNH** (altitude). Above it, we set **1013.25 hPa** and fly **flight levels (FL)**.
+:::
+
+## Supplemental oxygen
+
+As you climb there is less oxygen, and hypoxia is a silent enemy: you feel euphoric, lose judgement and pass out without warning. That is why the rules say two things:
+
+1. The pilot-in-command must ensure that all occupants use supplemental oxygen whenever they determine that its lack may impair their faculties.
+2. If the pilot cannot determine that effect, according to EASA oxygen **shall** always be used above **10,000 ft**.
+
+::: {.callout-important title="Regulation"}
+**AMC1 SAO.OP.150:** the pilot-in-command must ensure that all occupants use supplemental oxygen whenever the pressure altitude is above **10,000 ft**, in cases where they cannot determine how the lack of oxygen may affect the persons on board.
+:::
+
+::: {.callout-warning title="Safety"}
+The legal rule is the minimum. Physiologically, many pilots suffer impairment from 8,000–9,000 ft, especially at night or when fatigued. On wave flights, connect the oxygen and use it before you reach 10,000 ft.
+:::
+
+## Minimum instruments on board
+
+The same operations rules set the glider's minimum equipment according to the type of flight.
+
+::: {.callout-important title="Regulation"}
+**SAO.IDE.105(a)**: every sailplane must carry a means of measuring and displaying the time (in hours and minutes), pressure altitude and indicated airspeed; powered sailplanes add magnetic heading. **SAO.IDE.105(b)**: for flight in cloud or at night, a means of measuring and displaying vertical speed, attitude (or turn and slip) and magnetic heading is added.
+:::
+
+In practice: by day and in VFR, a wristwatch, the altimeter and the airspeed indicator are enough. The compass is added in powered sailplanes (TMG). And cloud or night flying also requires the variometer, an attitude or turn-and-slip indicator, and magnetic heading.
+
+One operational procedure from the syllabus is developed in other volumes of this collection: the **flight plan**. Its radio procedure is in **Book 4 — Communications** (ch. 3), the ICAO form item by item in **Book 7 — Flight Performance and Planning** (ch. 4), and its relationship with the ATS services in **Book 9 — Navigation** (ch. 7).
+
+::: {.postit}
+**Chapter summary: procedures for air navigation**
+
+* **VMC minima**: general rule, 5 km visibility and cloud 1,500 m horizontally / 1,000 ft vertically. Below 3,000 ft AMSL (or 1,000 ft AGL) in uncontrolled airspace, 5 km, clear of cloud and with the surface in sight is enough; and flying at less than 140 kt, visibility may be reduced to 1,500 m. Above FL 100, 8 km.
+* **Semicircular rule (Spain, North-South)**: northbound (270°–089°), even + 500 ft; southbound (090°–269°), odd + 500 ft. “North Even / South Odd”.
+* **Altimeter**: QNH = altitude (navigation and circuits); QFE = height above the aerodrome; QNE (1013.25 hPa) = flight levels above the transition altitude (6,000 ft generally in Spain).
+* **Oxygen**: under SAO.OP.150, the pilot-in-command must ensure it is used when they determine that the lack of oxygen may impair faculties or be harmful. If they cannot assess that effect, AMC1 SAO.OP.150 sets the default rule: use oxygen above 10,000 ft. Physiologically, connect it earlier.
+* **Pre-flight (SAO.GEN.130)**: before starting the flight, the pilot-in-command checks that the sailplane is airworthy, registered and has the necessary instruments and equipment installed and operative; they also check mass, balance, loading and the AFM limits.
+* **Minimum instruments (SAO.IDE.105)**: time, pressure altitude and indicated airspeed; TMGs add magnetic heading. In cloud or at night: vertical speed, attitude or turn/slip, and magnetic heading.
+:::
