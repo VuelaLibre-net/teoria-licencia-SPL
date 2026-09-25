@@ -13,6 +13,13 @@ was translated from (`origen-commit`). Terminology follows `en/terminologia.yml`
 
 ## [In progress]
 
+**What to reread:** nothing new in substance; wording only.
+
+### Changed
+
+* **cap01, cap02, cap04, cap05, cap09, cap14** — some literal phrasings reworded to read less
+  like a translation. No figures, regulatory quotes or glossary terms change.
+
 ## [0.8.0] — 25 September 2026
 
 **What to reread:** **the whole book.** First complete translation, from Spanish version 1.0-rc.14.

@@ -43,7 +43,7 @@ Never fly if the ARC has expired. It is illegal and, most importantly, it means 
 
 ## Glider maintenance: Part-ML
 
-From the legal point of view, all you need to retain is the framework: gliders are maintained under **Part-ML** (Annex Vb to Regulation (EU) No 1321/2014), a simplified set of rules for light aviation that rests on an **Aircraft Maintenance Programme (AMP)** and that, for certain simple tasks, allows the **pilot-owner** to sign off the maintenance personally. All of this in detail (how the AMP works, the minimum inspection programme, which tasks the pilot-owner may sign off and under what conditions, airworthiness directives (AD) and service bulletins (SB)) belongs to its natural subject, **Aircraft General Knowledge, Airframe and Systems and Emergency Equipment**: it is covered in **Book 8 — Aircraft General Knowledge, Airframe and Systems and Emergency Equipment**, chapter 9.
+Legally, all you need to remember is the framework: gliders are maintained under **Part-ML** (Annex Vb to Regulation (EU) No 1321/2014), a simplified set of rules for light aviation that rests on an **Aircraft Maintenance Programme (AMP)** and that, for certain simple tasks, allows the **pilot-owner** to sign off the maintenance personally. The detail (how the AMP works, the minimum inspection programme, which tasks the pilot-owner may sign off and under what conditions, airworthiness directives (AD) and service bulletins (SB)) belongs to its natural subject, **Aircraft General Knowledge, Airframe and Systems and Emergency Equipment**: it is covered in **Book 8 — Aircraft General Knowledge, Airframe and Systems and Emergency Equipment**, chapter 9.
 
 ## Pilot responsibilities
 

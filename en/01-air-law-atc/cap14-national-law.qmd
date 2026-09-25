@@ -23,7 +23,7 @@ In addition to European regulations (EASA/SERA), Spain has its own legislation t
 
 The **Dirección General de Aviación Civil (DGAC)**, the Spanish Directorate General of Civil Aviation, is the directorate of the Ministry of Transport and Sustainable Mobility responsible for designing the strategy and directing aviation policy.
 
-While AESA oversees and sanctions, the DGAC plays on the policy and regulatory field: it designs the strategy for the aviation sector, drafts and proposes national rules, represents Spain in bodies such as ICAO and coordinates the different bodies in the sector.
+While AESA oversees and sanctions, the DGAC works on the policy and regulatory side: it designs the strategy for the aviation sector, drafts and proposes national rules, represents Spain in bodies such as ICAO and coordinates the different bodies in the sector.
 
 ::: {.callout-note title="Airmanship"}
 You could say that the **DGAC** writes the “rules of the game” (policy and strategy) and **AESA** is the “referee” that makes sure they are followed day to day (oversight and sanctions).

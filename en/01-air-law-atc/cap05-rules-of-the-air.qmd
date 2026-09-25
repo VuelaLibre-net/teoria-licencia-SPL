@@ -50,7 +50,7 @@ There is one exception: powered aircraft must give way to aircraft towing other 
 * **Head-on**: both turn to their **right**.
 
 * **Converging**: on crossing tracks at the same level, the one coming from the **right** has priority. Careful: if you are coming from the right but flying under power and the other is a glider, the glider wins through the hierarchy.
-* **Overtaking**: if you catch up with another aircraft from behind, the one ahead has priority. Overtake it on its **right**. With one exception made to measure for us: a glider overtaking another glider may do so **on the right or on the left** (useful on a ridge, where only one side is safe).
+* **Overtaking**: if you catch up with another aircraft from behind, the one ahead has priority. Overtake it on its **right**. With one exception tailor-made for us: a glider overtaking another glider may do so **on the right or on the left** (useful on a ridge, where only one side is safe).
 * **On a ridge**: if two gliders meet on a collision course while ridge soaring, **the one with the hill on its right has priority**. The other must move away from the slope to give way (@fig-01-cap05-prioridades-ladera). This rule **is not in SERA**: it is a universal gliding convention. The regulation's head-on rule makes *both* aircraft turn right, which is impossible for the one that has the slope on that very side.
 
 ![Right of way when ridge soaring](imagenes/01-cap05-preferencias-paso-ladera.jpeg){#fig-01-cap05-prioridades-ladera}

@@ -18,9 +18,9 @@ origen-commit: aad4396
 
 ## Where the rules come from: the Chicago Convention and ICAO
 
-The birth certificate of modern air law is the **1944 Chicago Convention**. There, nations agreed to unify aviation rules worldwide, and from that agreement come the principles that let us fly safely and in an orderly way between different countries today.
+The birth certificate of modern air law is the **1944 Chicago Convention**. There, nations agreed to unify aviation rules worldwide, and that agreement is the source of the principles that let us fly safely and in good order from one country to another today.
 
-The convention created **ICAO** (International Civil Aviation Organization), a specialised agency of the United Nations. Its job is to develop the principles and techniques of international air navigation, to foster air transport between countries and to watch over operational safety (**safety**) around the world.
+The convention created **ICAO** (International Civil Aviation Organization), a specialised agency of the United Nations. Its job is to develop the principles and techniques of international air navigation, to foster air transport between countries and to promote **safety** around the world.
 
 ICAO sets the minimum standards that its 193 member States must meet. It is not, however, a “world police”: each country is sovereign to adopt these standards into its own legislation, although the Convention obliges it to notify the differences when it does not comply with a standard.
 
@@ -68,7 +68,7 @@ These are documents that help you comply with the law without being law themselv
 
 ## The 3 reference rules for the glider pilot
 
-Of all the regulatory alphabet soup, there are three regulations you will end up knowing by heart. They are your everyday frame of reference.
+Out of the whole regulatory alphabet soup, you will end up knowing three regulations by heart. They are your everyday frame of reference.
 
 ### 1. Part-SFCL (licensing)
 
@@ -84,7 +84,7 @@ Under SAO.GEN.130 (Part-SAO), the pilot-in-command is responsible for the safety
 
 ### 3. SERA (Rules of the Air)
 
-**Standardised European Rules of the Air** is the highway code of the sky: right of way, cruising levels, visibility and distance-from-cloud minima (VMC), signals and lights. Being an EU implementing regulation, it applies **directly** in Spain, with no need for a national rule to transpose it; Real Decreto 552/2014 (Royal Decree 552/2014) **supplements and develops** it in the aspects SERA leaves to each State.
+**Standardised European Rules of the Air** is the highway code of the sky: right of way, cruising levels, visibility and distance-from-cloud minima (VMC), signals and lights. As an EU implementing regulation, it applies **directly** in Spain, with no need for a national rule to transpose it; Real Decreto 552/2014 (Royal Decree 552/2014) **supplements and develops** it in the aspects SERA leaves to each State.
 
 ::: {.callout-warning title="Safety"}
 SERA.3210 sets out the right-of-way rules to avoid collisions. A glider always has priority over powered aircraft (aeroplanes, helicopters), but must give way to balloons. Know these rules by heart.

@@ -17,7 +17,7 @@ origen-commit: aad4396
 
 ## Information is safety
 
-Before take-off, the pilot must “become familiar with all available information appropriate to the intended operation”. This is not advice: it is a **legal obligation** (SERA.2010). So that you can comply with it, States provide Aeronautical Information Services (**AIS**).
+Before take-off, the pilot must “become familiar with all available information appropriate to the intended operation”. This is not advice: it is a **legal obligation** (SERA.2010). To help you comply, States provide Aeronautical Information Services (**AIS**).
 
 In Spain, the main provider is **ENAIRE**, and everything is grouped in the Integrated Aeronautical Information Package (IAIP).
 
