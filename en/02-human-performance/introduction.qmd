@@ -1,0 +1,55 @@
+---
+origen: 02-factores-humanos/introduccion.qmd
+origen-commit: 7a61500
+---
+
+# How to Read This Book {.unnumbered}
+
+***Subject 2 of 9 of the theoretical examination for the Sailplane Pilot Licence (SPL)***
+
+In 90 % of gliding accidents, the main cause is a human factor. This is not incompetence. People have physiological and psychological limits, and those limits do not go away when they climb into a glider. Fatigue wears down decision-making. Peer pressure pushes you to take off when the right decision is to stay on the ground.
+
+Four blocks of material take you from the SHELL model to the IMSAFE check: the tools that separate the pilot who manages their limits from the pilot who ignores them.
+
+The biggest risk in the cockpit is you. Learn to manage it.
+<!-- GUÍA-DE-LECTURA: desde esta marca hasta el final, el texto es idéntico en
+     los libros de la edición inglesa. Si lo editas, propágalo a los demás.
+     Todo lo anterior es propio de este libro. -->
+
+**Start at the end of each chapter**
+
+Every chapter closes with a summary on a yellow background. It is not decoration, and it is not an afterthought. It is the chapter boiled down to what you must not forget.
+
+Read it **before** you study the chapter, so that you know where you are heading, and come back to it **when you finish**, to check whether what you remember is what matters. On the eve of the exam, those summaries are your complete revision: if a single one feels unfamiliar, you know which chapter to reread.
+
+**The boxes are not side notes**
+
+The running text explains. The boxes warn, and each one speaks with a different voice. Once you recognise the voice, you know how to read the box:
+
+::: {.callout-warning title="Safety"}
+These flag anything that could cost you the glider, or your life, if you ignore it. Reread them before you fly, not before the exam.
+:::
+
+::: {.callout-important title="Regulation"}
+These set out what the law requires. There is no room for personal judgement: you comply. When they clash with your habits, it is the habit that is wrong.
+:::
+
+::: {.callout-tip title="Golden rule"}
+These put into one sentence something that took a pilot years to learn, so that it takes you a minute.
+:::
+
+::: {.callout-note title="Airmanship"}
+These cover the judgement no regulation writes down: what separates a legal pilot from a good one. The regulations set the minimum; airmanship sets the standard.
+:::
+
+**How to find what you are looking for**
+
+The **table of contents** in the front matter takes you to every chapter and its sections. After it comes the **list of figures**: the drawings and diagrams are numbered and referred to from the text, so you can go straight to the figure and back.
+
+The **glossary**, at the end of the book, defines the terms and acronyms of the subject. Use it freely: much of the difficulty of aviation lies in its vocabulary, not in its ideas. The **bibliography** tells you where everything comes from and where to go next if a chapter leaves you wanting more.
+
+**What this book is not**
+
+This manual prepares you for the theoretical examination; it does not replace your instructor. Theory gives you judgement; judgement becomes piloting in the glider's seat, with an FI(S) beside you.
+
+And when the regulations change, as they will, the legal text published by AESA or EASA takes precedence over anything you read here.
