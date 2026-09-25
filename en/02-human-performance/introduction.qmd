@@ -9,7 +9,7 @@ origen-commit: 7a61500
 
 In 90 % of gliding accidents, the main cause is a human factor. This is not incompetence. People have physiological and psychological limits, and those limits do not go away when they climb into a glider. Fatigue wears down decision-making. Peer pressure pushes you to take off when the right decision is to stay on the ground.
 
-Four blocks of material take you from the SHELL model to the IMSAFE check: the tools that separate the pilot who manages their limits from the pilot who ignores them.
+Four chapters take you from the SHELL model to the IMSAFE check: the tools that separate pilots who manage their limits from pilots who ignore them.
 
 The biggest risk in the cockpit is you. Learn to manage it.
 <!-- GUÍA-DE-LECTURA: desde esta marca hasta el final, el texto es idéntico en
