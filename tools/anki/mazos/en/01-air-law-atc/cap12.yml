@@ -1,0 +1,33 @@
+# Anki deck for en/01-air-law-atc, chapter 12.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/01-derecho-aereo-atc/cap12.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/01-air-law-atc
+capitulo: 12
+titulo: "Security"
+tarjetas:
+  - id: safety-vs-security
+    tipo: basica
+    anverso: The difference between **safety** and **security**.
+    reverso: |
+      **Safety**: operational safety; not having an accident while flying.
+
+      **Security**: physical security; nobody stealing your aircraft or planting
+      a bomb.
+
+  - id: deberes-de-security
+    tipo: basica
+    anverso: What is your part in **security**?
+    reverso: |
+      **Not leaving the aircraft open or accessible to strangers, not carrying
+      dangerous goods** (except for approved exceptions) **and respecting the
+      restricted areas of airports.**
+
+  - id: comportamiento-sospechoso
+    tipo: basica
+    anverso: What should you do if you see someone loitering around the hangars?
+    reverso: |
+      **Report it immediately** to the person in charge of the airfield or to
+      the police.
+    etiquetas: [Safety]

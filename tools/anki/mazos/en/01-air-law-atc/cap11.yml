@@ -1,0 +1,32 @@
+# Anki deck for en/01-air-law-atc, chapter 11.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/01-derecho-aereo-atc/cap11.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/01-air-law-atc
+capitulo: 11
+titulo: "Search and rescue"
+tarjetas:
+  - id: fases-de-emergencia-sar
+    tipo: cloze
+    texto: |
+      SAR emergency phases: {{c1::INCERFA}} (uncertainty about the safety of the
+      aircraft), {{c2::ALERFA}} (concern) and {{c3::DETRESFA}} (reasonable
+      certainty of grave and imminent danger).
+
+  - id: senales-tierra-aire
+    tipo: cloze
+    texto: |
+      Ground-to-air signals: **V** = {{c1::require assistance}}; **X** =
+      {{c2::require medical assistance}}; **N** = {{c3::no}}; **Y** = {{c4::yes}}.
+
+  - id: interceptar-una-senal-de-socorro
+    tipo: basica
+    anverso: If you pick up a distress signal in flight, what do you do?
+    reverso: |
+      1. **Note the position.**
+      2. **Do not block the frequency**: listen first.
+      3. **Notify ATC**, or whoever you can, immediately.
+      4. If possible, **stay in the area until relieved**, without putting
+         yourself in danger.
+    etiquetas: [Safety]

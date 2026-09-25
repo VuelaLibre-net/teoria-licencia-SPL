@@ -1,0 +1,58 @@
+# Anki deck for en/01-air-law-atc, chapter 5.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/01-derecho-aereo-atc/cap05.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/01-air-law-atc
+capitulo: 5
+titulo: "Rules of the air"
+tarjetas:
+  - id: vfr-ver-y-ser-visto
+    tipo: basica
+    anverso: What does **VFR** flight consist of?
+    reverso: |
+      **Seeing and being seen. Eyes outside.**
+
+      Most collisions happen on clear days and close to aerodromes: never
+      assume the other pilot has seen you.
+    etiquetas: [Safety]
+
+  - id: prioridad-y-frente
+    tipo: basica
+    anverso: Order of right of way, and what to do head-on.
+    reverso: |
+      **Balloon > glider > powered.** The one most able to manoeuvre gives way.
+
+      **Head-on, always to the right.** When converging, the one coming from the
+      right has priority.
+    etiquetas: [Golden rule]
+
+  - id: prioridad-en-aterrizaje-y-ladera
+    tipo: basica
+    anverso: Who has priority when landing, and on a ridge?
+    reverso: |
+      **When landing, the lowest glider**, and gliders have priority over
+      powered aircraft.
+
+      **On a ridge, the one with the hill on its right**: a gliding convention,
+      **not** a SERA rule.
+
+  - id: alturas-minimas-sera-5005
+    tipo: basica
+    anverso: What are the **minimum flight heights** in VFR?
+    reverso: |
+      **150 m in general and 300 m over populated areas.**
+
+      *Basis: SERA.5005(f).*
+
+  - id: excepcion-rd-552-2014
+    tipo: basica
+    anverso: What exceptions to the minimum heights does a glider have **in Spain**?
+    reverso: |
+      **Ridge soaring is exempt from the 150 m**, if it involves no risk or
+      nuisance to persons or property, **and you may descend to 50 m when
+      practising forced landings**, 150 m from any person, vehicle, vessel or
+      artificial obstacle.
+
+      *Basis: Real Decreto 552/2014 (Royal Decree 552/2014).*
+    etiquetas: [Regulation]

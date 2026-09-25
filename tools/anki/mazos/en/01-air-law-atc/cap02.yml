@@ -1,0 +1,62 @@
+# Anki deck for en/01-air-law-atc, chapter 2.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/01-derecho-aereo-atc/cap02.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/01-air-law-atc
+capitulo: 2
+titulo: "Airworthiness of aircraft"
+tarjetas:
+  - id: que-es-el-cofa
+    tipo: basica
+    anverso: What does the **CofA** certify, and who issues it?
+    reverso: |
+      **That the aircraft conforms to the approved design and is in a
+      condition for safe operation.**
+
+      It is issued by the State of registry (AESA in Spain) and does not expire
+      if the aircraft is properly maintained.
+
+  - id: que-es-el-arc
+    tipo: basica
+    anverso: What is the **ARC**?
+    reverso: |
+      **The annual “MOT”: it confirms that the aircraft has been reviewed and
+      is fit.**
+
+      Check its expiry date before flying.
+
+  - id: volar-con-arc-caducado
+    tipo: basica
+    anverso: What happens if you fly with an **expired ARC**?
+    reverso: |
+      **It is illegal, nobody has certified in the last year that the aircraft
+      is safe, and the insurer will refuse cover.**
+
+      Most policies make cover conditional on the aircraft being airworthy.
+    etiquetas: [Safety]
+
+  - id: part-ml-marco
+    tipo: basica
+    anverso: What does **Part-ML** allow the pilot-owner to do?
+    reverso: |
+      **Certify simple maintenance tasks.**
+
+      It is the maintenance framework for gliders.
+
+  - id: tu-parte-en-la-aeronavegabilidad
+    tipo: basica
+    anverso: What is the pilot's part in airworthiness?
+    reverso: |
+      **The pre-flight inspection, checking that the documentation (CofA, ARC,
+      insurance…) is on board and valid, and recording any defect in the
+      technical log.**
+
+  - id: muesca-en-el-gelcoat
+    tipo: basica
+    anverso: Is a chip in the **gelcoat** just cosmetic?
+    reverso: |
+      **No: if it affects the profile, it affects the flight.**
+
+      When in doubt, ask. Better a curious pilot than a pilot in trouble.
+    etiquetas: [Airmanship]

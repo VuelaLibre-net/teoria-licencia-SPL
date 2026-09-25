@@ -1,0 +1,45 @@
+# Anki deck for en/01-air-law-atc, chapter 3.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/01-derecho-aereo-atc/cap03.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/01-air-law-atc
+capitulo: 3
+titulo: "Aircraft nationality and registration marks"
+tarjetas:
+  - id: matricula-espanola
+    tipo: basica
+    anverso: What does a Spanish registration look like, and where does the mark come from?
+    reverso: |
+      **EC- followed by three letters** (for example, EC-ABC).
+
+      Mnemonic: **E**spaña **C**ivil (Spanish for “civil Spain”). It is Spain's
+      ICAO mark.
+    etiquetas: [Golden rule]
+
+  - id: articulo-20-chicago
+    tipo: basica
+    anverso: What does the **Chicago Convention** require regarding aircraft marks?
+    reverso: |
+      **That every aircraft engaged in international air navigation bears its
+      nationality and registration marks.**
+
+      *Basis: Chicago Convention, Article 20.*
+    etiquetas: [Regulation]
+
+  - id: donde-van-las-marcas
+    tipo: basica
+    anverso: Where are the registration marks painted?
+    reverso: |
+      **On the fuselage or tail (and under the wings in some cases), plus the
+      Spanish flag.**
+
+  - id: placa-de-identificacion
+    tipo: basica
+    anverso: What is the **identification plate** like, and where does it go?
+    reverso: |
+      **Made of fireproof material, engraved with the registration, fixed to
+      the structure near the entrance.**
+
+      Never paint over it or cover it: it is vital in accident investigation.
+    etiquetas: [Safety]
