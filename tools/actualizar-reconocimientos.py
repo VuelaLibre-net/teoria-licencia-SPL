@@ -41,6 +41,7 @@ FOOTER = ":::\n"
 # libro, validó el texto español—, y la cabecera lo dice.
 DIRECTORIOS_EN = [
     ("en/01-air-law-atc", 1),
+    ("en/02-human-performance", 2),
     ("en/07-flight-performance-planning", 7),
 ]
 

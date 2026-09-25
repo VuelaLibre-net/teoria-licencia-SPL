@@ -27,6 +27,7 @@ LIBROS = 01-derecho-aereo-atc \
 # No entra en `all` ni en los agregados rag/epub/web/anki: el CI y el release
 # cuentan exactamente 9 entregables de cada tipo. Se compila con `make en`.
 LIBROS_EN = en/01-air-law-atc \
+            en/02-human-performance \
             en/07-flight-performance-planning
 
 .PHONY: all en help clean rag epub web anki reconocimientos $(LIBROS) $(LIBROS_EN) completo completo-pdf completo-epub completo-rag
