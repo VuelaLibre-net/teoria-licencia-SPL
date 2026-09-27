@@ -17,7 +17,7 @@ Most of the aerodromes that gliders fly from (club sites, forest strips, private
 
 Here safety comes from the **blind broadcast**: you transmit your position, altitude and intentions on the field frequency so that everyone knows where you are. Nobody will give you permission to take off or land. You report, and you decide.
 
-Two basic things:
+The basics:
 
 * **Whom you call**: the name of the aerodrome, not “Tower”. *«Fuentemilanos, buenos días…»* (“Fuentemilanos, good morning…”) or *«Santa Cilia, tráfico…»* (“Santa Cilia traffic…”)
 * **What you say**: callsign, position, altitude and intention. *«…velero Eco Papa Eco, a 5 minutos al este del campo a 1.500 metros, notificaré entrando al circuito.»* (“…glider Echo Papa Echo, 5 minutes east of the field at 1,500 metres, will report joining the circuit.”)
@@ -52,7 +52,7 @@ Just by listening for a few minutes you can work out (@fig-04-cap02-escucha-prev
 * **Wind**: other pilots often mention it on base or final.
 * **Traffic density**: you will know how many aircraft are in the circuit, whether tugs are active or gliders are thermalling nearby.
 
-Once you have that mental picture, press the PTT. Your first call will carry specific information, and nobody will have to repeat to you what you could already have heard.
+Once you have that mental picture, press the PTT. Your first call will be specific, and nobody will have to repeat what you could have heard for yourself.
 
 ### The standard circuit and its position reports
 
@@ -77,7 +77,7 @@ Under the SERA Regulation (SERA.3210), the order of right of way, from highest t
 :::
 
 ::: {.callout-note title="Airmanship"}
-SERA does not place paragliders and hang gliders in that hierarchy in so many words, but the prudent operational approach is to treat them like a glider and, in addition, give way to them: they manoeuvre much worse than you and descend with no way of climbing back. When in doubt, keep clear.
+SERA does not name paragliders and hang gliders in that hierarchy, but the prudent approach is to treat them like a glider and, in addition, give way to them: they manoeuvre much worse than you and descend with no way of climbing back. When in doubt, keep clear.
 :::
 
 ### Coordinating with the tug and the winch
@@ -150,12 +150,12 @@ A clearance to “line up” or “line up and wait” on the active runway **ne
 
 ### The flight plan (FPL)
 
-To enter airspace where you receive an air traffic control service (classes B, C and D, or any controlled aerodrome), you must file a **Flight Plan (FPL)** with the relevant ATS units, with the notice before the estimated off-block time (EOBT) set by the AIP-España and the aerodrome VAC. Class E is the exception within controlled airspace: VFR flights receive no control service there, so they need no flight plan, radio or clearance (SERA.4001(b)).
+To enter airspace where you receive an air traffic control service (classes B, C and D, or any controlled aerodrome), you must file a **Flight Plan (FPL)** with the relevant ATS units, ahead of the estimated off-block time (EOBT) by the period set in the AIP-España and the aerodrome VAC. Class E is the exception within controlled airspace: VFR flights receive no control service there, so they need no flight plan, radio or clearance (SERA.4001(b)).
 
 A glider nearly always flies in Class G. But if you need to cross a CTR or enter airspace where you will be controlled, file the FPL in good time. The deadlines and formats are in the AIP-España (ENR 1.10) and are binding, so check them before every flight that involves controlled airspace.
 
 ::: {.callout-note title="Airmanship"}
-If an unforeseen need arises to enter controlled airspace without a flight plan, you can file one in the air (AFIL, Airborne Flight Plan) by calling the ATC unit on the radio and giving the aircraft type, position, intentions and estimated times. This option depends on the availability of the service and on the controller's workload.
+If you unexpectedly need to enter controlled airspace without a flight plan, you can file one in the air (AFIL, Airborne Flight Plan) by calling the ATC unit on the radio and giving the aircraft type, position, intentions and estimated times. This option depends on the availability of the service and on the controller's workload.
 :::
 
 ::: {.callout-important title="Regulation"}
@@ -181,7 +181,7 @@ From then on you follow the Tower's instructions on altitude and route. No impro
 
 We saw it in chapter 1: the **readback** is not optional. In controlled airspace it is even less so, because the controller separates traffic on the basis that you will do exactly what you have repeated.
 
-Any ATC instruction that affects your flight path, the active runway, the pressure setting or radar identification, **you read back** word for word, and you finish with your callsign.
+Every ATC instruction that affects your flight path, the active runway, the pressure setting or radar identification must be **read back** word for word, ending with your callsign.
 
 If the Tower says:
 *«Eco Papa Eco, autorizado a aterrizar pista 36.»* (“Echo Papa Echo, cleared to land runway 36.”)
@@ -260,7 +260,7 @@ When you need to change frequency, there are two cases (@fig-04-cap02-cambio-fre
 If your glider has a **transponder**, it transmits a four-digit code (*squawk*) that ATC uses to identify you on the screen. In VFR, the default code is **7000**, unless ATC assigns you a different one. You will find the emergency codes in chapter 7.
 
 ::: {.callout-important title="Regulation"}
-Codes 7600 (radio failure) and 7700 (emergency) trigger immediate alerts at every control centre. Select them only in the real situation they correspond to, and take great care when changing code so as not to set them off by accident.
+Codes 7600 (radio failure) and 7700 (emergency) trigger immediate alerts at every control centre. Select them only when that situation is real, and take great care when changing code so as not to set them off by accident.
 :::
 
 ### Radio mandatory zones (RMZ)

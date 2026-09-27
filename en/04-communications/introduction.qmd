@@ -7,11 +7,11 @@ origen-commit: fd1162d
 
 ***Subject 4 of 9 of the theoretical examination for the Sailplane Pilot Licence (SPL)***
 
-Radio freezes more student pilots than the aerodynamic stall. Not because the physics is hard, but because nobody has explained the system to them: what the pilot says, what the controller answers, and why every part of that conversation has a safety reason behind it.
+Radio freezes more student pilots than the aerodynamic stall. The physics is not the problem. The problem is that nobody has explained the system to them: what the pilot says, what the controller answers, and why every part of that conversation has a safety reason behind it.
 
 A wrong readback can make the controller believe you have vacated the runway when you are still on it. A badly worded emergency call can delay the SAR response by the minutes that make the difference.
 
-Seven chapters turn radio procedure into one more flight instrument: one that, once you master it, frees all your attention for what matters.
+Over seven chapters, radio procedure becomes one more flight instrument, and once you master it, it frees your attention for what matters.
 
 The radio examples in this book are given in Spanish, as you will hear and use them at Spanish airfields, and each one is followed by its English translation. Spanish radio phrases appear in italics between «angle quotes»; the translation follows in “inverted commas”.
 <!-- GUÍA-DE-LECTURA: desde esta marca hasta el final, el texto es idéntico en

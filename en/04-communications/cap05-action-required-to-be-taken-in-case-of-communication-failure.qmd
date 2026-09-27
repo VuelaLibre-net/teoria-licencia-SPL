@@ -15,7 +15,7 @@ First go over the basics: volume, **squelch**, headset connectors (**jacks**), f
 
 Set **code 7600** now.
 
-With that code, the secondary surveillance radar (SSR) at the control centres shows your aircraft with a special alert on the screen. The sector controllers know you are NORDO and start coordinating: they clear the airspace around you and follow you visually.
+With that code set, your aircraft appears on the control centres' secondary surveillance radar (SSR) screens with a special alert. The sector controllers know you are NORDO and start coordinating: they clear the airspace around you and follow you visually.
 
 ## Standard procedure in VFR flight
 
@@ -37,7 +37,7 @@ If you have no choice but to land at a controlled aerodrome, approach the Tower 
 Since the earliest aerodromes, control towers have had directional lamps with coloured filters (the “light gun”) for exactly this purpose: guiding aircraft with no radio (@fig-04-cap05-pistola-luces). Memorise these signals. If you ever need them, there will be no time to look them up.
 
 ::: {.callout-important title="Regulation"}
-Control Tower light signals are laid down in Commission Implementing Regulation (EU) No 923/2012, the Standardised European Rules of the Air (**SERA**). Every pilot operating in airspace with an ATC service must know them and interpret them correctly (source: official SERA documentation, EASA / AESA).
+Control Tower light signals are laid down in Commission Implementing Regulation (EU) No 923/2012, the Standardised European Rules of the Air (**SERA**). Every pilot who flies in airspace with an ATC service must know them and read them correctly (source: official SERA documentation, EASA / AESA).
 :::
 
 **Signals to aircraft in flight:**

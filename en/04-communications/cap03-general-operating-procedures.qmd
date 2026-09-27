@@ -32,11 +32,11 @@ In a **blind broadcast** (uncontrolled aerodrome), with no designated station to
 *— «Eco Charlie Delta Papa Eco, en viento en cola derecha pista tres cuatro, intención aterrizaje.»* (“Echo Charlie Delta Papa Echo, right-hand downwind runway three four, intending to land.”)
 
 ::: {.callout-tip title="Golden rule"}
-Before you press the PTT, put the whole message together in your head: *Whom? → Who am I? → Where am I? → What do I need?* A structured message takes up less time on the frequency and reduces the controller's misunderstandings.
+Before you press the PTT, put the whole message together in your head: *Whom? → Who am I? → Where am I? → What do I need?* A structured message takes up less time on the frequency and gives the controller less to misunderstand.
 :::
 
 ::: {.callout-note title="Airmanship"}
-Some instructors recommend opening the **first** call to a station with a simple *«buenos días»* (“good morning”) or *«buenas tardes»* (“good afternoon”) before the message: *«Fuentemilanos tráfico, buenos días, Eco Charlie Delta Papa Eco…»* (“Fuentemilanos traffic, good morning, Echo Charlie Delta Papa Echo…”). It is not part of ICAO phraseology, which aims for economy of words, and so it would be kept for the **first contact**, not for every transmission; but there is a person at the other end of the radio, and that greeting oils the relationship with the tower, FIS or the other traffic at your field. With one proviso: on a busy frequency or in an emergency, courtesy can wait and you go straight to the point.
+Some instructors recommend opening the **first** call to a station with a simple *«buenos días»* (“good morning”) or *«buenas tardes»* (“good afternoon”) before the message: *«Fuentemilanos tráfico, buenos días, Eco Charlie Delta Papa Eco…»* (“Fuentemilanos traffic, good morning, Echo Charlie Delta Papa Echo…”). It is not ICAO phraseology, which aims for economy of words, so keep it for the **first contact** rather than every transmission. But there is a person at the other end of the radio, and a greeting oils the relationship with the tower, FIS or the other traffic at your field. With one proviso: on a busy frequency or in an emergency, courtesy can wait and you go straight to the point.
 :::
 
 ## Radio check
@@ -87,7 +87,7 @@ On cross-country flights in a glider, update your position with FIS whenever you
 
 ## Simultaneous calls and waiting on the frequency
 
-When two aircraft transmit at the same time, the signals overlap and what reaches the other end is distorted or unintelligible audio. This is **mutual blocking**.
+When two aircraft transmit at the same time, the signals overlap and the other end hears distorted or unintelligible audio. This is **mutual blocking**.
 
 If it happens, the controller may reply *«Estación llamando a [dependencia], identifíquese»* (“Station calling [unit], identify yourself”), or repeat the only fragment they could make out. In that case:
 
@@ -135,7 +135,7 @@ The malicious or false transmission of emergency signals (Mayday / Pan Pan) is a
 
 Using the **headset** microphone or the **boom mic** properly is simpler than it looks, but three things make the difference between clean audio and a transmission the controller has to ask you to repeat.
 
-* **Physical distance**: the foam side of the microphone **a centimetre from your lips without touching them**. Too far away and your voice is lost in the cockpit noise. Touching it, it produces static.
+* **Physical distance**: the foam side of the microphone **a centimetre from your lips without touching them**. Too far away and your voice is lost in the cockpit noise; touching them, it produces static.
 * **Sideways position**: set the capsule slightly to one side, level with the corner of your mouth, not in front of it. That way the air released when you say plosive consonants (“P”, “T”, “K”) passes over the capsule instead of hitting the diaphragm and producing the pops that distort the audio (**plosive sounds**).
 * **Constant volume**: speak at a normal conversational volume. Treat the microphone like the one on your smartphone. **Do not shout**. Even in turbulence or cockpit noise, shouting saturates the signal and makes it less readable, not clearer (**clipping**). If your usual volume is not enough, adjust the microphone gain on the panel or check the cable connectors (**jack plugs**).
 

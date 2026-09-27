@@ -19,6 +19,9 @@ translated from (`origen-commit`). Terminology follows `en/terminologia.yml`.
 
 * **cap01, cap02, cap03, cap04 and cap07** — a few sentences reworded to read more naturally.
   The Spanish radio phrases, figures, rules and terminology do not change.
+* **Introduction and cap01–cap07** — a fuller pass on the English prose: about thirty sentences
+  made shorter and more direct. The Spanish radio phrases, figures, rules and terminology do not
+  change.
 
 ## [0.8.0] — 27 September 2026
 

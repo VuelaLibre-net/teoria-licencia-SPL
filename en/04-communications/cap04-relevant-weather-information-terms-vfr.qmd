@@ -35,7 +35,7 @@ On long **cross-country** flights, when the weather starts to deteriorate and yo
 
 ## Key concepts in weather transmissions
 
-On the radio, weather is not described in your own words: standard terminology is used, which every pilot understands the same way, whatever the accent and however much background noise there is.
+On the radio you do not describe the weather in your own words. You use standard terms that every pilot understands the same way, whatever the accent and however noisy the frequency.
 
 ### CAVOK
 
@@ -76,7 +76,7 @@ You will find both on the regional VOLMET or in the pre-flight weather briefing.
 
 The **AIREP** (**Air-Report**) is the report that you, as pilot, transmit to FIS or ATC when you meet hazardous weather en route that had not been forecast.
 
-If you run into severe turbulence, icing, a thunderstorm, hail or strong mountain waves, you make a special AIREP with your position and altitude. That way ATC can warn other traffic in the area.
+If you run into severe turbulence, icing, a thunderstorm, hail or strong mountain waves, you make a special AIREP with your position and altitude, so that ATC can warn other traffic in the area.
 
 ::: {.callout-important title="Regulation"}
 The SERA Regulation requires the pilot-in-command to report without delay any hazardous weather condition that may affect the safety of other aircraft.

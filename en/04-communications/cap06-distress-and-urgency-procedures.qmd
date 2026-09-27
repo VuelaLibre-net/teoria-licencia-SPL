@@ -5,7 +5,7 @@ origen-commit: a07f595
 
 # Distress and urgency procedures
 
-> MAYDAY and PAN PAN are not synonyms. This chapter explains when to use each one, exactly what to say and on which frequency. They are the two most important messages you can transmit on the radio, and you hope never to need them. That is why you must know them by heart. The chapter closes with another procedure you hope never to use: what to do if a military aircraft intercepts you.
+> MAYDAY and PAN PAN are not synonyms. This chapter explains when to use each one, exactly what to say and on which frequency. They are the two most important messages you can send on the radio, and with luck you will never need either. That is exactly why you must know them by heart. The chapter closes with another procedure you hope never to use: what to do if a military aircraft intercepts you.
 
 ## MAYDAY: distress
 
@@ -13,7 +13,7 @@ origen-commit: a07f595
 
 Use it when there is **grave and imminent danger and you need immediate assistance**. The lives of the occupants or the integrity of the glider are at risk right now.
 
-In gliding, that means: fire on board, severe structural failure (canopy, rudder, wing), medical incapacitation of the pilot, or a loss of height with no field available that demands action now.
+In a glider that means fire on board, severe structural failure (canopy, rudder, wing), medical incapacitation of the pilot, or a loss of height with no field available that demands action now.
 
 The word is repeated **three times** so that it stands out from normal traffic and interference:
 
@@ -58,7 +58,7 @@ With your heart racing and your hands busy, it can be hard to structure a messag
 
 ## The right frequency
 
-There is a widespread idea that in any emergency the first thing to do is change to 121.500 MHz. It is wrong.
+Many pilots believe that in any emergency the first thing to do is change to 121.500 MHz. They are wrong.
 
 **The best frequency for declaring an emergency is the one you are already on.**
 

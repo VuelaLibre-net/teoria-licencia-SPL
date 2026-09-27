@@ -25,7 +25,7 @@ That is why **altitude is your best ally for radio range**. The higher you fly, 
 
 For decades, the aviation VHF spectrum was divided into channels 25 kHz apart. That worked well until the growth of air traffic in Europe left too few channels for new ATC sectors, approaches and aerodromes.
 
-The solution was to reduce the spacing of each channel from 25 kHz to **8.33 kHz**. That tripled the number of channels available in the same slice of the spectrum.
+The answer was to cut the spacing from 25 kHz to **8.33 kHz**, which tripled the number of channels in the same slice of the spectrum.
 
 Commission Implementing Regulation (EU) No 1079/2012 imposed the transition throughout Europe. In Spain, since **31 December 2022**, VFR flights must be equipped with “8.33-compatible” radios (**8.33 compliant**). IFR flights complied earlier.
 
@@ -63,7 +63,7 @@ In high mountains, prepare for this with two measures:
 
 ## Common frequencies in sport aviation
 
-Knowing the most common frequencies by heart lets you tune them without looking at the chart and react quickly to any change or emergency.
+If you know the most common frequencies by heart, you can tune them without looking at the chart and react quickly to any change or emergency.
 
 | Frequency (MHz) | Use | Scope |
 | --- | --- | --- |
@@ -87,7 +87,7 @@ Before every cross-country flight, write down the FIS frequencies for the sector
 
 ## The transponder: secondary identification in flight
 
-The **transponder** (*XPDR*) answers ground radars automatically by transmitting a four-digit code (*squawk*). That way the controller sees your aircraft identified on the screen.
+The **transponder** (*XPDR*) answers ground radars automatically by transmitting a four-digit code (*squawk*), so the controller sees your aircraft identified on the screen.
 
 Carrying one in working order is mandatory inside a **TMZ** (*Transponder Mandatory Zone*) and wherever the airspace class or the AIP-España (ENR 1.6) requires it: classes A and C require it, and D generally does (see the table in **Book 1 — Air Law and ATC Procedures**, chapter 7). Outside those areas it is still highly advisable wherever there is traffic: if it is fitted and working, the correct practice is to have it switched on in ALT mode (altitude reporting).
 
