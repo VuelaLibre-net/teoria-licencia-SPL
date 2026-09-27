@@ -1,0 +1,6 @@
+---
+origen: 06-procedimientos-operativos/index.qmd
+origen-commit: 2890174
+---
+
+# Operational Procedures {.unnumbered .unlisted .oculto}
