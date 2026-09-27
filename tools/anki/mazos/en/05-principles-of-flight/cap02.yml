@@ -1,0 +1,84 @@
+# Anki deck for en/05-principles-of-flight, chapter 2.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/05-principios-vuelo/cap02.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/05-principles-of-flight
+capitulo: 2
+titulo: "Flight mechanics"
+tarjetas:
+  - id: el-motor-es-la-gravedad
+    tipo: basica
+    anverso: What acts as the “engine” of a sailplane?
+    reverso: |
+      **Gravity.** The sailplane is always descending through the air mass.
+
+      Lowering the nose converts height (potential energy) into speed (kinetic
+      energy): the forward component of the weight acts as thrust.
+
+  - id: velocidad-y-altura-como-energia
+    tipo: basica
+    anverso: How are speed and height related as energy reserves?
+    reverso: |
+      **Speed gives you control; height is the reserve.**
+
+      Giving up height gains you speed, and using up speed regains some upward
+      path. But the exchange does not last: the reserve is refilled only by
+      climbing in lift.
+    etiquetas: [Golden rule]
+
+  - id: que-es-la-fineza
+    tipo: basica
+    anverso: What does a glide ratio (**L/D**) of 35:1 mean?
+    reverso: |
+      **That the sailplane travels 35 km for every kilometre of height, in
+      still air.**
+
+  - id: recortar-el-ld-publicado
+    tipo: basica
+    anverso: What **L/D** do you use to plan final glides and outlandings?
+    reverso: |
+      **Half the figure published in the AFM.**
+
+      It protects you when a headwind, sinking air and dirt or insects on the
+      leading edge all add up, and they cut performance more than you might
+      think.
+    etiquetas: [Airmanship]
+
+  - id: velocidad-de-transicion-y-viento
+    tipo: basica
+    anverso: How do you adjust your cruising speed for the wind and the air?
+    reverso: |
+      **Faster into wind and in sinking air; a little slower with a
+      tailwind.**
+
+  - id: lastre-de-agua-en-la-polar
+    tipo: basica
+    anverso: What does **water ballast** do to the polar?
+    reverso: |
+      **It shifts it to the right: the best glide speed and the minimum sink
+      speed both increase.**
+
+      An advantage in strong conditions and on long glides; a penalty in weak
+      thermals. It is dumped before landing.
+
+  - id: factor-de-carga-y-perdida-05
+    tipo: basica
+    anverso: How does the stall speed grow with **load factor**?
+    reverso: |
+      **With the square root of n.** In a 60° turn you bear **2 g** and the
+      stall speed rises by **41 %**.
+
+      If you normally stall at 60 km/h, in that turn you stall at 85 km/h,
+      with the controls seeming to respond normally.
+    etiquetas: [Safety]
+
+  - id: patron-letal-de-accidente
+    tipo: basica
+    anverso: What is the most frequent pattern in sailplane accident statistics?
+    reverso: |
+      **Manoeuvring to land, little height, low speed and a sudden stab of
+      rudder with too much bank.**
+
+      The stall comes without warning, and at that height there is no margin.
+    etiquetas: [Safety]

@@ -10,7 +10,7 @@
 > * **Triángulo FAI y AAT**: dos tipos de tarea, dos estrategias mentales distintas.
 > * **La planificación sobre la orografía española**: valles ciegos, puntos de escape y líneas de convergencia.
 > * **El equipo de supervivencia**: qué exige la normativa europea cuando la ruta complica un eventual rescate.
-> * **Los mínimos personales**: el "interruptor" que te convierte de competidor en superviviente.
+> * **Los mínimos personales**: el «interruptor» que te convierte de competidor en superviviente.
 
 ## Velocidad media: la clave de la distancia
 
@@ -66,7 +66,7 @@ Recuerda siempre verificar los NOTAM y los espacios aéreos controlados en tu ru
 En España, la mayoría de las tareas de distancia se juegan sobre terreno montañoso o en su área de influencia. La orografía no es solo un obstáculo: es a la vez tu fuente de energía y tu principal riesgo de planificación.
 
 * **Valles ciegos**: un valle que se estrecha y asciende sin campos aterrizables ni salida volable es una trampa clásica de montaña. Al trazar la ruta sobre la carta, identifica estos embudos y planifica el cruce de las sierras por collados con escapatoria a ambos lados. Regla práctica: nunca te comprometas con un valle sin tener resuelto cómo salir de él con la altura que tendrás en ese punto, no con la que te gustaría tener.
-* **Puntos de escape**: marca en la planificación los aeródromos y zonas de campos aterrizables que flanquean cada tramo de la ruta. Cada segmento de la tarea debe responder a la pregunta: "si la térmica muere aquí, ¿hacia dónde planeo?". Si un tramo no tiene respuesta, replantea la ruta o fija una altura mínima de cruce más exigente.
+* **Puntos de escape**: marca en la planificación los aeródromos y zonas de campos aterrizables que flanquean cada tramo de la ruta. Cada segmento de la tarea debe responder a la pregunta: «si la térmica muere aquí, ¿hacia dónde planeo?». Si un tramo no tiene respuesta, replantea la ruta o fija una altura mínima de cruce más exigente.
 * **Sistemas organizados de sustentación**: las mesetas generan **líneas de convergencia** y las grandes cadenas (el Sistema Central es el ejemplo clásico) disparan **ondas de montaña** a sotavento. Planificar la tarea a lo largo de estas estructuras —en lugar de cruzarlas perpendicularmente— multiplica la velocidad media. Los fenómenos en sí (convergencias, onda, efecto Föhn) los estudiaste en el **Libro 3 — Meteorología**, capítulos 2 y 8; aquí la lección es estratégica: la ruta más corta sobre el mapa rara vez es la más rápida sobre el terreno.
 * **Zonas de sombra**: las caras norte y los valles profundos entran en sombra horas antes que las mesetas. Planifica el paso por las zonas comprometidas durante las horas centrales del día.
 
@@ -78,7 +78,7 @@ Una tarea sobre sierras despobladas o grandes masas forestales exige preguntarse
 El Reglamento (UE) 2018/1976 (**Part-SAO**), que regula las operaciones de planeadores en Europa, establece en **SAO.IDE.125** que los planeadores que operen sobre zonas donde la búsqueda y el salvamento serían especialmente difíciles deben llevar el equipo de salvamento y señalización adecuado al área sobrevolada. Su AMC1 concreta el mínimo: un **ELT**, una **baliza personal de localización (PLB)** o localizador equivalente registrado, equipo para hacer señales de socorro y el equipo de supervivencia apropiado a la ruta. Para vuelos sobre agua aplica además **SAO.IDE.120**: el piloto al mando debe valorar antes del vuelo los riesgos de supervivencia en caso de amerizaje.
 :::
 
-En la práctica, para una travesía sobre el monte español: agua, ropa de abrigo (a 2.500 m hace frío incluso en julio), un PLB o ELT registrado, teléfono móvil cargado y un espejo de señales o chaleco reflectante pesan menos de dos kilos y caben detrás del respaldo. Inclúyelos en la lista de equipo de la tarea, no en la categoría de "ya si eso".
+En la práctica, para una travesía sobre el monte español: agua, ropa de abrigo (a 2.500 m hace frío incluso en julio), un PLB o ELT registrado, teléfono móvil cargado y un espejo de señales o chaleco reflectante pesan menos de dos kilos y caben detrás del respaldo. Inclúyelos en la lista de equipo de la tarea, no en la categoría de «ya si eso».
 
 ## Mínimos personales: el interruptor de seguridad
 

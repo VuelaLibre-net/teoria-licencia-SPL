@@ -1,0 +1,26 @@
+---
+origen: 05-principios-vuelo/apendice-syllabus-oficial-easa---principios-de-vuelo.qmd
+origen-commit: e0f5386
+---
+
+# Official EASA syllabus - principles of flight
+
+The following syllabus corresponds to the subject **Principles of Flight** for the Sailplane Pilot Licence (SPL), as set out in AMC1 SFCL.130 (Annex to ED Decision 2020/004/R, AMC & GM to Part-SFCL).
+
+* 5.1. Aerodynamics (airflow).
+* 5.2. Flight mechanics.
+* 5.3. Stability.
+* 5.4. Control.
+* 5.5. Limitations (load factor and manoeuvres).
+* 5.6. Stalling and spinning.
+* 5.7. Spiral dive.
+
+This manual has been structured to follow this official syllabus faithfully, so that you cover every point needed for the theoretical examination.
+
+## Test yourself
+
+Theory sinks in by answering questions. This subject has its own online self-assessment test, with exam-style questions (currently in Spanish). For example:
+
+[https://vuelalibre.net/examenes/05-principios-vuelo/](https://vuelalibre.net/examenes/05-principios-vuelo/)
+
+Ask your instructor, who will tell you which question bank or format is most suitable, and follow that advice. It will be very useful both for consolidating what you learn in each chapter and for your general revision before you sit the theoretical examination.

@@ -1,0 +1,84 @@
+# Anki deck for en/05-principles-of-flight, chapter 6.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/05-principios-vuelo/cap06.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/05-principles-of-flight
+capitulo: 6
+titulo: "Stalling and spinning"
+tarjetas:
+  - id: angulo-de-ataque-critico
+    tipo: basica
+    anverso: At what **angle of attack** does a wing stall?
+    reverso: "**When it exceeds the critical angle, around 15–18°.**"
+
+  - id: progresion-de-la-perdida
+    tipo: basica
+    anverso: Where does the stall start, and what follows from that?
+    reverso: |
+      **It starts at the wing root and spreads towards the tips**, which is
+      why the ailerons keep some authority at first.
+
+  - id: avisos-de-perdida
+    tipo: basica
+    anverso: What warns you of an imminent **stall**?
+    reverso: |
+      **High nose, soft controls and buffet.** When the wing lets go, the nose
+      drops.
+
+  - id: perdida-acelerada
+    tipo: basica
+    anverso: What is an **accelerated stall**, and where is it deadliest?
+    reverso: |
+      **A stall at a high load factor**: in a 60° turn (2 g), the stall speed
+      rises by 41 % and the wing can let go with the nose in an apparently
+      normal attitude.
+
+      The deadliest scenario is the **base-to-final** turn in the circuit.
+
+  - id: recuperacion-de-la-perdida
+    tipo: basica
+    anverso: What is the only cure for a stall?
+    reverso: "**Stick forward: lower the nose.**"
+
+  - id: no-usar-alerones-en-perdida
+    tipo: basica
+    anverso: Why do you **not** use aileron to raise a dropped wing in a stall?
+    reverso: |
+      **Because the down-going aileron increases the local angle of attack of
+      that wing, deepens its stall and starts autorotation.**
+
+      Keep the stick strictly centred laterally; to hold the wings up and stop
+      the yaw, use **opposite rudder only**.
+    etiquetas: [Airmanship]
+
+  - id: fases-de-la-barrena
+    tipo: cloze
+    texto: |
+      Phases of the spin: {{c1::incipient}} (recoverable within one turn),
+      {{c2::developed}} (steady motion) and {{c3::recovery}} (the rotation
+      stops).
+    extra: Each turn costs 50–100 m of height.
+
+  - id: salida-de-barrena
+    tipo: basica
+    anverso: The standard **spin recovery** sequence.
+    reverso: |
+      1. **Full rudder** against the rotation.
+      2. **Stick central and forward.**
+      3. When the rotation stops, **centralise the rudder** and ease out of the
+         dive smoothly.
+
+      Always check your sailplane's AFM.
+
+  - id: base-final-escenario-letal
+    tipo: basica
+    anverso: Describe the most common accident in the circuit.
+    reverso: |
+      **The base-to-final turn, below 150 m**: the pilot uses rudder to line
+      up with final, the nose swings, the pilot compensates by pulling back on
+      the stick and enters an asymmetric stall with no margin.
+
+      Flying the circuit coordinated and with a speed margin is what separates
+      a normal landing from an accident.
+    etiquetas: [Safety]

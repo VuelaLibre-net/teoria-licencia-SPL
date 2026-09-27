@@ -1,6 +1,6 @@
 ---
 origen: 07-planificacion-rendimiento/cap03-planificacion-de-vuelo-y-definicion-de-tareas.qmd
-origen-commit: e9e893e
+origen-commit: 1d5d148
 ---
 
 # Flight planning and task setting

@@ -1,0 +1,125 @@
+---
+origen: 05-principios-vuelo/glosario.qmd
+origen-commit: 6e22a6e
+---
+
+# Glossary of terms
+
+This glossary brings together the essential definitions and acronyms of aerodynamics and the principles of flight for the Sailplane Pilot Licence (SPL), organised according to the EASA AMC1 SFCL.130 training syllabus.
+
+**Adverse yaw**
+: An unwanted side effect of using the ailerons to start a turn. The down-going aileron (outer wing) produces more lift and also more induced drag, holding that side back and pulling the nose away from the turn. It is especially pronounced in long-span sailplanes. It is corrected by coordinating hand and foot: applying stick and rudder in the same direction at the same time.
+
+**Angle of attack (AoA)**
+: The angle between the chord of the wing and the direction of the relative airflow. It is the most important aerodynamic parameter: the lift coefficient and the drag coefficient depend directly on it. It increases when you pull the stick back and decreases when you push it forward. Do not confuse it with the nose attitude: a sailplane can have its nose low and a dangerously high angle of attack if the descending flight path is steeper than the attitude. The reference is always the relative airflow, not the horizon.
+
+**Autorotation**
+: See Spin. A self-sustaining rotating and descending motion caused by an asymmetric stall of the two wings: yaw and roll feed each other with no input from the pilot.
+
+**Bernoulli's theorem**
+: A principle of fluid physics which states that, in a moving fluid, an increase in the speed of the flow goes with a decrease in static pressure. In aerodynamics it explains part of lift: the air speeding up over the upper surface creates an area of low pressure that draws the wing upwards. It is complemented by Newton's action and reaction (the downward deflection of the flow at the trailing edge).
+
+**Best glide speed (V~G~)**
+: Speed at which the glider achieves its greatest distance covered per unit of height lost in still air (maximum glide ratio, corresponding to the maximum L/D determined by the tangent to the polar curve).
+
+**Boundary layer**
+: The thin layer of air flowing in direct contact with the surface of the wing, in which the speed falls gradually from that of the free stream to zero at the solid surface. It can be **laminar** (orderly flow, minimum drag) or **turbulent** (chaotic flow, more drag). The transition point between the two regimes determines the performance of the aerofoil: a few squashed insects on the leading edge can move it forward and degrade the glide measurably.
+
+**Centre of pressure (CP)**
+: The point on the chord where the resultant of the total lift of the wing is taken to act. It is not fixed: it moves forward as the angle of attack increases and back as it decreases. Because it moves, the CG has to be placed ahead of its range of movement to keep longitudinal stability.
+
+**CG (Centre of Gravity)**
+: Theoretical point at which the resultant of all the gravitational forces acting on the glider is considered to be applied. Its longitudinal position is key to the stability and control of the flight.
+
+**Control effectiveness**
+: How strongly the control surfaces respond at a given flying speed. At high speed the dynamic pressure is greater and the controls are firm and very responsive. At low speed it decreases and the controls become soft or “mushy”. This loss of effectiveness close to the stall speed is a direct physical warning: the wing is approaching the critical angle of attack.
+
+**Critical angle of attack**
+: The maximum angle of attack the wing can reach before the airflow separates from the upper surface and lift is destroyed. For most sailplane aerofoils it lies between 15° and 18°. Exceeding it, whatever the speed, weight or altitude, always causes a **stall**.
+
+**Differential aileron**
+: A linkage that makes the up-going aileron (inner wing of the turn) move through a larger angle than the down-going aileron (outer wing). By producing more parasite drag on the inner wing, it partly offsets the induced drag of the outer wing and reduces adverse yaw mechanically. It does not remove it completely: hand and foot coordination is still needed.
+
+**Dihedral (dihedral angle)**
+: The upward angle of the wings relative to the horizontal plane, which gives the sailplane the shape of an open “V” seen from the front. It provides lateral stability: when a wing drops because of a disturbance, it meets the airflow at a greater effective angle of attack, produces more lift and returns to the level position with no input from the pilot.
+
+**Drift**
+: The sideways deviation of the sailplane's path over the ground caused by a crosswind (in navigation). Not to be confused with the fin (vertical stabiliser), the fixed vertical tail surface that gives yaw stability (chapter 3).
+
+**Dynamic stability**
+: The behaviour of the aircraft over time after a disturbance. If the oscillations die away progressively, dynamic stability is **positive**; if they stay the same, it is **neutral**; if they grow, it is **negative** or divergent. Modes that matter for the sailplane: the phugoid (a slow, harmless longitudinal oscillation) and spiral instability (a lateral divergence that can turn into a spiral dive if left unwatched).
+
+**Flutter**
+: A physical phenomenon of self-excited, unstable aeroelastic oscillations that affect the sailplane's lifting or control surfaces above V~NE~. It can destroy the structure within seconds, through the interaction between high-speed airflow and the flexibility of the structure.
+
+**Glide ratio (L/D)**
+: Ratio between the aircraft's lift and total drag, equivalent to the horizontal distance covered per unit of height lost in still air (a glider with an L/D of 40 covers 40 km for every kilometre of height given up).
+
+**Graveyard spiral**
+: See Spiral dive. The popular name for the spiral dive, which refers to the deadly tendency to pull back on the stick without first levelling the wings, tightening the spiral until the structure fails.
+
+**Ground effect**
+: A temporary improvement in aerodynamic efficiency that the sailplane experiences when flying less than one wingspan above the ground. The ground acts as a barrier that squeezes the wingtip vortices, reduces the *downwash* and lowers induced drag. As a result, the sailplane “floats” further than expected and is reluctant to touch down: an approach that is long or too fast lengthens the landing and can leave you with no runway ahead.
+
+**IAS (Indicated Airspeed)**
+: The aircraft's speed relative to the surrounding air as shown by the airspeed indicator, without corrections for temperature or density. It is the reference for all aerodynamic and structural limits (V~NE~, V~A~, stall speeds and the polar curve). In navigation it is also the starting point of the calculation: corrected for density it gives the TAS and, combined with the wind, the GS; you never reason with the IAS alone.
+
+**Induced drag**
+: The component of aerodynamic drag that is a direct by-product of generating lift. The pressure differences between the upper and lower surfaces make the air flow round the wingtips, forming helical vortices that tilt the lift vector backwards and create a force opposing forward motion. It is greatest at low speeds and decreases as speed increases. Long-span wings (high aspect ratio) reduce it considerably.
+
+**Lift**
+: The aerodynamic force perpendicular to the direction of the relative airflow that opposes weight and keeps the sailplane flying. It is produced by the pressure difference between the upper surface (low pressure, faster flow) and the lower surface (high pressure, slower flow), according to Bernoulli's theorem, together with the downward deflection of the flow at the trailing edge (Newton's third law). It depends on air density, the square of the speed, the wing area and the lift coefficient.
+
+**Load factor (n)**
+: The ratio between the total aerodynamic lift and the weight of the sailplane, expressed in units of *g*. In straight and level flight: n = 1g. In a turn at 60° of bank: n = 2g. Load factor raises the stall speed in proportion to its square root: at 2g, it rises by 41%. Abrupt deflections and badly coordinated manoeuvres in turbulence can exceed the limits of the V-n diagram.
+
+**Minimum sink speed**
+: Speed at which the glider loses the least possible height per unit of time (found at the top of the polar curve), optimal for centring and working weak thermals.
+
+**Parasite drag**
+: The component of aerodynamic drag due to the sailplane's movement through the air, regardless of the lift produced. It includes skin friction, form drag and interference drag between surfaces. It increases with the square of the speed: if the speed doubles, parasite drag quadruples. At high speed it outweighs induced drag.
+
+**Phugoid (phugoid mode)**
+: A slow, long-period longitudinal oscillation (about 10 to 15 seconds at normal sailplane speeds) in which the sailplane trades height for speed in gentle cycles. Generally well damped and barely noticeable if the pilot keeps hold of the controls. It is not dangerous in itself, but it can puzzle an inexperienced pilot who tries to correct it with abrupt inputs.
+
+**Polar curve (speed polar)**
+: Characteristic graph of each glider type that relates the indicated horizontal speed (X axis, in km/h) to the vertical rate of sink (Y axis, in m/s) in still-air conditions. From it come the minimum sink speed (top of the curve) and the best glide speed (tangent from the origin). It is the glider's “identity card” and the reference for adapting speed to the wind and to areas of lift or sink.
+
+**Relative airflow (relative wind)**
+: The direction and speed of the airflow meeting the wing, opposite to the sailplane's actual flight path. The angle of attack is always measured relative to the relative airflow, never to the horizon or the nose attitude. A sailplane can have its nose up and still have the relative airflow coming from above if the actual flight path is climbing; conversely, it can have its nose low and a dangerously high angle of attack if the descending flight path is steeper than the attitude.
+
+**Spin (autorotation)**
+: A flight condition that results from an asymmetric stall. One wing stalls more deeply than the other and drops sharply, and its greater angle of attack locks it in the stall, while the other wing is still partly flying. The imbalance strongly couples yaw and roll: a fast rotation and a descent of up to 100 m per turn, each turn taking about 4 seconds. Recovery (in a fixed order): full rudder against the rotation, stick central and forward, centralise the rudder when the rotation stops, and ease out of the dive smoothly.
+
+**Spiral dive**
+: A flight condition in which the banked sailplane follows a descending curved path with increasing speed and load factor. The sailplane *is flying*; it is not stalled. Key diagnosis: speed high or increasing = spiral dive; speed low and constant = spin. The treatment is opposite in each case, so confusing them is deadly. Spiral dive recovery: level the wings first, ease out of the dive smoothly and, if the speed is approaching V~NE~, extend the airbrakes smoothly.
+
+**Spiral instability**
+: A lateral dynamic stability characteristic found in most sailplanes: if left alone with a small angle of bank, the bank slowly increases until a spiral dive develops. The sailplane is statically stable in roll but dynamically divergent in the spiral mode when left unwatched. It is the root cause of loss-of-control accidents in reduced visibility.
+
+**Stall**
+: An aerodynamic condition that occurs when the angle of attack exceeds the critical value (≈ 15°–18°) and the airflow breaks away turbulently from the upper surface of the wing. Lift drops dramatically and drag shoots up. Warning signs: high nose, low speed, soft controls and structural buffet. Recovery: stick forward to reduce the angle of attack. Never use the ailerons to raise a dropped wing during the stall.
+
+**Static stability**
+: The aircraft's initial tendency in response to a disturbance. If it tends to return to its equilibrium position, static stability is **positive**; if it stays in the new position, it is **neutral**; if it moves even further from equilibrium, it is **negative**. Positive static stability is the basic design condition of all civil training sailplanes.
+
+**Trim**
+: A secondary control surface (or an adjusting mechanism on the main surface) that relieves the pressure on the stick once the desired attitude has been set. It is not a comfort accessory: it is an essential aerodynamic control that lets you hold a constant speed without sustained effort. It must be adjusted every time the flight regime changes.
+
+**V~A~ (Manoeuvring Speed)**
+: The maximum speed at which full deflection of a single control can be applied without causing structural damage. Below V~A~, if a full abrupt deflection is applied, the sailplane stalls before it generates enough g to exceed its load limit. Above V~A~, that protection disappears. Important: V~A~ does not cover simultaneous inputs on more than one control axis; even below V~A~, combining full rudder and full stick can exceed the structural limits.
+
+**V-n diagram (flight envelope)**
+: A graphical representation of the sailplane's structural limits that relates speed (V) to load factor in g (n). It marks out the “box” of safe operation: inside the envelope the structure holds; outside it, permanent deformation or failure occurs. Under CS-22: category U (*Utility*) withstands from +5.3g to −2.65g at V~A~, limits that narrow to +4.0g and −1.5g at V~D~; category A (*Aerobatic*) from +7.0g to −5.0g. These limits are valid only if the speed limits are also respected.
+
+**V~NE~ (Never Exceed Speed)**
+: The sailplane's absolute speed limit, marked by the red line on the airspeed indicator. Exceeding it exposes the sailplane to the risk of aeroelastic flutter, which can break the structure apart within seconds, without warning. V~NE~ decreases with altitude because TAS increases relative to IAS in thinner air. Close to V~NE~, control deflections must be limited to one third of their full travel. The speed is governed by CS 22.1505 and its red line by CS 22.1545(a); the one-third travel limit is a warning that CS 22.1585(o)(2) requires to be included in the Flight Manual.
+
+**V~RA~ (Rough Air Speed)**
+: The maximum speed at which the sailplane may be flown in turbulent air. It is the marking that divides the arcs of the airspeed indicator under CS 22.1545: the green arc (normal operation) ends at V~RA~ and the yellow arc (caution, smooth air only) begins. Do not confuse it with V~A~, which is a structural limit for control deflections and is not marked on the dial, although in many sailplanes the two have similar values.
+
+**Weathercock stability**
+: The sailplane's tendency to align itself automatically with the direction of the relative airflow, thanks to the fin. The distance between the CG and the fin acts as a lever arm that amplifies the correcting force. It is the mechanism that gives the sailplane its directional stability.
+
+**Wingtip vortices**
+: Helical vortices formed at each wingtip by the pressure difference between the upper and lower surfaces: the air flows round the tip from the high-pressure area (lower surface) to the low-pressure area (upper surface). As they trail behind, they tilt the lift vector, producing induced drag. On a larger scale, the wingtip vortices of heavy aircraft make up wake turbulence, whose danger at aerodromes with mixed traffic should not be underestimated.

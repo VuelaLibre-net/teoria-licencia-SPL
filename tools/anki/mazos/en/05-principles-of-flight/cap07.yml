@@ -1,0 +1,49 @@
+# Anki deck for en/05-principles-of-flight, chapter 7.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/05-principios-vuelo/cap07.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/05-principles-of-flight
+capitulo: 7
+titulo: "Spiral dive"
+tarjetas:
+  - id: espiral-vs-barrena-diagnostico
+    tipo: basica
+    anverso: How do you tell a **spiral dive** from a **spin**?
+    reverso: |
+      **By looking at the airspeed indicator.**
+
+      Speed high or increasing → **spiral dive**: the sailplane is flying and
+      accelerating.
+      Speed low and constant → **spin**: the wing is stalled and cannot
+      accelerate.
+
+      The recovery techniques are opposite: do not confuse them.
+
+  - id: instinto-en-la-espiral
+    tipo: basica
+    anverso: What happens if you pull back on the stick in a spiral dive **without levelling the wings**?
+    reverso: |
+      **You tighten the spiral and increase the g until the structure fails.**
+
+      Never pull back to stop a dive with the wings banked.
+    etiquetas: [Safety]
+
+  - id: salida-de-espiral
+    tipo: basica
+    anverso: The recovery sequence for a **spiral dive**.
+    reverso: |
+      1. **Level the wings** (aileron and rudder coordinated against the
+         turn). This comes first: the bank sustains the spiral.
+      2. **Ease out** of the dive smoothly.
+      3. If the speed is approaching V_NE, **slow down with the airbrakes**,
+         smoothly.
+
+  - id: causa-tipica-de-la-espiral
+    tipo: basica
+    anverso: What is the typical cause of a spiral dive?
+    reverso: |
+      **Loss of visual reference (cloud, night) and distraction.**
+
+      The sailplane has spiral instability: if you leave it alone with a
+      little bank, the spiral grows by itself.

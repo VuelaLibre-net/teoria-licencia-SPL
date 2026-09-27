@@ -1,6 +1,6 @@
 ---
 origen: 07-planificacion-rendimiento/cap02-polar-de-velocidades-de-planeadores-o-velocidad-de-crucero.qmd
-origen-commit: e9e893e
+origen-commit: 1d5d148
 ---
 
 # Speed polar of sailplanes or cruising speed

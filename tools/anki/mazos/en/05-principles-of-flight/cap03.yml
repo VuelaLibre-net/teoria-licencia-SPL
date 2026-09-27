@@ -1,0 +1,89 @@
+# Anki deck for en/05-principles-of-flight, chapter 3.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/05-principios-vuelo/cap03.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/05-principles-of-flight
+capitulo: 3
+titulo: "Stability"
+tarjetas:
+  - id: estabilidad-estatica
+    tipo: basica
+    anverso: What does **static stability** describe?
+    reverso: |
+      **The initial tendency after a disturbance.**
+
+      If, when you let go of the controls, the aircraft tends to return to its
+      original position, it is stable; if it moves further away (divergence),
+      it is unstable and dangerous.
+
+  - id: estabilidad-dinamica
+    tipo: basica
+    anverso: What does **dynamic stability** describe?
+    reverso: |
+      **What happens after the initial reaction**: whether the oscillations
+      die away (good), stay the same (neutral) or grow (dangerous).
+
+  - id: fugoide-y-espiral
+    tipo: basica
+    anverso: Compare the **phugoid** mode with **spiral instability**.
+    reverso: |
+      **Phugoid**: a slow, harmless longitudinal oscillation.
+      **Spiral instability**: a slow lateral divergence; if you let go of the
+      controls with a little bank, the spiral **grows by itself**. This is the
+      one that matters.
+
+  - id: espiral-sin-referencias
+    tipo: basica
+    anverso: Why must you never fly without visual references to the horizon?
+    reverso: |
+      **Because a sailplane left alone with five degrees of bank develops a
+      fatal descending spiral within minutes.**
+
+      It lies behind most losses of control in reduced visibility.
+    etiquetas: [Safety]
+
+  - id: cg-y-estabilidad-longitudinal
+    tipo: basica
+    anverso: How does the position of the **CG** affect longitudinal stability?
+    reverso: |
+      **CG forward**: very stable, but heavy on the controls.
+      **CG aft**: very sensitive and unstable, with a risk of an
+      **unrecoverable flat spin**.
+
+  - id: diedro
+    tipo: basica
+    anverso: How does **dihedral** give lateral stability?
+    reverso: |
+      **If a wing drops, it gains effective angle of attack and rises again**,
+      so the “V” shape levels the sailplane by itself.
+
+  - id: estabilidad-direccional
+    tipo: basica
+    anverso: What provides **directional stability**, and what does it prevent?
+    reverso: |
+      **The fin (vertical tail), which acts like a weathervane.**
+
+      It keeps the nose pointing into the relative airflow and prevents
+      sideslip, whether a slip or a skid.
+
+  - id: sao-gen-130-masa-y-cg
+    tipo: basica
+    anverso: What must you check about **mass and balance** before flying?
+    reverso: |
+      **That the mass of the sailplane and the location of its centre of
+      gravity are within the AFM limits.**
+
+      *Basis: Part-SAO, SAO.GEN.130(d)(4).*
+    etiquetas: [Regulation]
+
+  - id: estabilidad-escuela-vs-competicion
+    tipo: basica
+    anverso: Why does a training sailplane feel “heavier” on the controls than a competition one?
+    reverso: |
+      **Because it is designed with very strong positive static stability, to
+      make learning easier and to forgive mistakes.**
+
+      High-performance competition and aerobatic sailplanes reduce it to gain
+      agility.
+    etiquetas: [Airmanship]

@@ -1,6 +1,6 @@
 ---
 origen: 07-planificacion-rendimiento/glosario.qmd
-origen-commit: 2375434
+origen-commit: 6e22a6e
 ---
 
 # Glossary of terms

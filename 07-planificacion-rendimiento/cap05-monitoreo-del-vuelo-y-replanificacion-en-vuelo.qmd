@@ -55,7 +55,7 @@ El PNR es el momento del vuelo en el que ya no tienes altura para volver al aer�
 * **Cambio de chip**: cruzado el PNR, tu prioridad número uno deja de ser la tarea y pasa a ser la localización constante de campos aterrizables.
 
 ::: {.callout-note title="Airmanship"}
-Cantar en voz alta (o para ti mismo) "He cruzado el PNR" te ayuda mentalmente a dejar de mirar el GPS de la tarea y empezar a mirar seriamente el suelo.
+Cantar en voz alta (o para ti mismo) «He cruzado el PNR» te ayuda mentalmente a dejar de mirar el GPS de la tarea y empezar a mirar seriamente el suelo.
 :::
 
 ## Altura de seguridad y replanificación
@@ -70,7 +70,7 @@ La altura de seguridad (*safety height*) no se negocia: es el margen que absorbe
 Todo lo anterior —reglas mentales, método de los 3 puntos, decisión del PNR— depende de un único instrumento: tu cerebro. Y ese instrumento pierde precisión justo cuando más lo necesitas:
 
 * **Hipoxia**: en vuelos de onda por encima de 3.000 m sin oxígeno suplementario, la capacidad de cálculo mental y el juicio se degradan de forma traicionera: el primer síntoma es, precisamente, no notar los síntomas. Un planeo final calculado con hipoxia incipiente es un planeo final mal calculado.
-* **Deshidratación y fatiga**: tras 4 o 5 horas de tarea bajo la cubierta, la deshidratación enlentece las decisiones y favorece la fijación: seguir hacia el objetivo "porque era el plan" en lugar de replanificar. La demora en aceptar una toma fuera de campo es exactamente el error que este capítulo intenta evitar.
+* **Deshidratación y fatiga**: tras 4 o 5 horas de tarea bajo la cubierta, la deshidratación enlentece las decisiones y favorece la fijación: seguir hacia el objetivo «porque era el plan» en lugar de replanificar. La demora en aceptar una toma fuera de campo es exactamente el error que este capítulo intenta evitar.
 
 Los mecanismos fisiológicos, el Tiempo de Conciencia Útil y el uso del oxígeno se estudian en el **Libro 2 — Factores humanos**, capítulo 4. Aquí quédate con la regla operativa: bebe de forma programada (no cuando tengas sed), usa oxígeno según el manual en vuelos altos y, si llevas muchas horas de tarea, desconfía de tus propias estimaciones y añade margen a todos los cálculos.
 

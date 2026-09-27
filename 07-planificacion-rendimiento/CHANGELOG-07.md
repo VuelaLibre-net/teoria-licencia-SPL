@@ -16,6 +16,13 @@ rompe la compilación.
 
 ## [En curso]
 
+### Maqueta y producción
+
+* **Glosario, Curva polar** — las comillas rectas de "DNI" pasan a latinas («DNI»), igual que en el
+  libro 05, que comparte la definición. No cambia el texto.
+* **cap01, cap02, cap03 y cap05** — las comillas rectas ("…") pasan a latinas («…»), como en el
+  resto de la colección. No cambia el texto.
+
 ## [1.0-rc.3] — 7 de agosto de 2026
 
 **Qué releer:** **cap04, resumen.** «Avioneta» pasa a «avión ligero de aviación general» en la viñeta de los motoveleros; lo que se declara no cambia.

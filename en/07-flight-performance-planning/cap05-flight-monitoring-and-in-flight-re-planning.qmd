@@ -1,6 +1,6 @@
 ---
 origen: 07-planificacion-rendimiento/cap05-monitoreo-del-vuelo-y-replanificacion-en-vuelo.qmd
-origen-commit: e9e893e
+origen-commit: 1d5d148
 ---
 
 # Flight monitoring and in-flight re-planning
