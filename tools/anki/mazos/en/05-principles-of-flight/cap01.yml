@@ -1,0 +1,79 @@
+# Anki deck for en/05-principles-of-flight, chapter 1.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/05-principios-vuelo/cap01.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/05-principles-of-flight
+capitulo: 1
+titulo: "Aerodynamics (airflow)"
+tarjetas:
+  - id: bernoulli-y-newton
+    tipo: basica
+    anverso: Are Bernoulli and Newton **two forces** that add up to lift?
+    reverso: |
+      **No: they are two descriptions of the same phenomenon.**
+
+      The wing that speeds up the air over its upper surface (lowering its
+      pressure) is the same wing that deflects the air downwards at the
+      trailing edge. Both views give the same force.
+    etiquetas: [Golden rule]
+
+  - id: capa-limite-tres-estados
+    tipo: basica
+    anverso: What happens to the wing in each state of the **boundary layer**?
+    reverso: |
+      * **Laminar** (orderly): minimum drag. The holy grail of modern
+        sailplanes.
+      * **Turbulent**: drag rises, but the wing **keeps producing lift**.
+      * **Separated** from the aerofoil: lift collapses. That is the stall.
+
+  - id: centro-de-presiones
+    tipo: basica
+    anverso: What is the **centre of pressure**, and why does it complicate stability?
+    reverso: |
+      **The point where lift acts, and it moves with the angle of attack**:
+      forward at high angles, back at low ones.
+
+  - id: cg-delante-del-cp
+    tipo: basica
+    anverso: Why is the **CG placed ahead of the CP**?
+    reverso: |
+      **To give positive longitudinal stability.**
+
+      The nose-down tendency this produces is countered by the horizontal
+      stabiliser, which generates a **downward** force that balances the
+      aircraft in pitch.
+    etiquetas: [Safety]
+
+  - id: resistencia-parasita-e-inducida
+    tipo: basica
+    anverso: The difference between **parasite** and **induced** drag.
+    reverso: |
+      **Parasite**: friction with the air; it **rises** with speed.
+      **Induced**: the price of generating lift; it **falls** with speed.
+
+  - id: origen-de-la-inducida
+    tipo: basica
+    anverso: Where does **induced** drag come from, and how is it kept low in a sailplane?
+    reverso: |
+      **From the wingtip vortices, which tilt the lift vector.**
+
+      It is kept low with a **high aspect ratio** (long, narrow wings) and
+      **winglets**.
+
+  - id: efecto-suelo
+    tipo: basica
+    anverso: What is **ground effect**, and at what height does it appear?
+    reverso: |
+      **Less than one wingspan above the ground**, the tip vortices are
+      squeezed, induced drag falls and the sailplane floats.
+
+  - id: efecto-suelo-en-la-toma
+    tipo: basica
+    anverso: If ground effect makes the sailplane “unwilling to land”, what must you **not** do?
+    reverso: |
+      **Do not push the nose down to force the landing.**
+
+      Control the glide with the airbrakes and let the sailplane settle by
+      itself, having first made sure you have enough runway.
+    etiquetas: [Airmanship]

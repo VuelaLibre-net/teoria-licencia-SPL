@@ -1,0 +1,104 @@
+# Anki deck for en/05-principles-of-flight, chapter 5.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/05-principios-vuelo/cap05.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/05-principles-of-flight
+capitulo: 5
+titulo: "Limitations (load factor and manoeuvres)"
+tarjetas:
+  - id: diagrama-v-n
+    tipo: basica
+    anverso: What does the **V-n diagram** show?
+    reverso: |
+      **The g the structure can take at each speed.**
+
+      Leaving the box means breaking the sailplane.
+
+  - id: limites-cs22
+    tipo: basica
+    anverso: The **CS-22** load factor limits for each category.
+    reverso: |
+      **Category U**: +5.3 g / −2.65 g at V_A, narrowing to +4.0 g / −1.5 g at
+      V_D.
+      **Category A**: +7.0 g / −5.0 g.
+    etiquetas: [Regulation]
+
+  - id: velocidad-de-maniobra
+    tipo: basica
+    anverso: What does **V_A** (manoeuvring speed) protect you against?
+    reverso: |
+      **Below it, the sailplane stalls before it breaks** if you deflect a
+      control abruptly.
+
+      Above it, the same deflection can damage the structure.
+
+  - id: va-no-protege-de-entradas-combinadas
+    tipo: basica
+    anverso: What does V_A **not** protect you against?
+    reverso: |
+      **Simultaneous inputs on more than one axis.**
+
+      Certification covers full deflection of **one** control at a time. Full
+      elevator and full rudder together, even below V_A, can exceed the design
+      limit. In turbulence, smooth control inputs.
+    etiquetas: [Safety]
+
+  - id: marcas-del-anemometro
+    tipo: basica
+    anverso: What do the **arcs on the airspeed indicator** mark?
+    reverso: |
+      **The green arc ends at V_RA** (rough air speed), where the **yellow
+      arc** begins, ending at the **red line of V_NE**.
+
+      The yellow arc is for smooth air only.
+
+      *Basis: CS 22.1545.*
+    etiquetas: [Golden rule]
+
+  - id: va-no-es-marca-del-anemometro
+    tipo: basica
+    anverso: Is **V_A** marked on the airspeed indicator?
+    reverso: |
+      **No: it is a structural limit, not a marking.**
+
+      In many sailplanes its value is close to V_RA, but they are not the
+      same thing.
+
+  - id: vne-y-flutter
+    tipo: basica
+    anverso: What is **V_NE**, and what happens if you exceed it?
+    reverso: |
+      **The absolute speed limit (CS 22.1505), shown by the red line.**
+
+      Going beyond it invites **flutter**, an aeroelastic vibration that can
+      break the sailplane apart in seconds. It is not a recommendation.
+
+  - id: vne-y-altitud-05
+    tipo: basica
+    anverso: Why does the **indicated V_NE** fall as you climb?
+    reverso: |
+      **Because flutter depends on TAS, and in thinner air TAS increases
+      relative to the IAS you read.**
+
+      Use the cockpit table of V_NE corrections for altitude. Critical in wave
+      flying.
+    etiquetas: [Safety]
+
+  - id: deflexiones-cerca-de-vne
+    tipo: basica
+    anverso: How much can you move the controls close to **V_NE**?
+    reverso: |
+      **About one third of their travel.**
+
+      The dynamic pressure is so high that a full deflection can exceed the
+      structural envelope even without turbulence. V_NE is not a cruising
+      speed.
+    etiquetas: [Airmanship]
+
+  - id: que-hacer-en-turbulencia-fuerte
+    tipo: basica
+    anverso: What do you do when you meet **strong turbulence**?
+    reverso: |
+      **Slow down below V_A straight away and stay in the green arc.**
+    etiquetas: [Golden rule]

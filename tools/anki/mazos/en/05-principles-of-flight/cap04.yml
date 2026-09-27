@@ -1,0 +1,77 @@
+# Anki deck for en/05-principles-of-flight, chapter 4.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/05-principios-vuelo/cap04.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/05-principles-of-flight
+capitulo: 4
+titulo: "Control"
+tarjetas:
+  - id: guinada-adversa
+    tipo: basica
+    anverso: What is **adverse yaw**, and why does it happen?
+    reverso: |
+      **When you roll to turn, the nose swings the wrong way.**
+
+      The rising wing has more drag and holds that side back. It is the most
+      annoying side effect in long-span sailplanes.
+
+  - id: coordinacion-pie-mano
+    tipo: basica
+    anverso: What is the antidote to adverse yaw?
+    reverso: |
+      **Hand and foot coordination: stick and rudder to the same side at the
+      same time.**
+
+      The rudder counters the braking of the outer wing and the nose follows
+      the turn without skidding.
+    etiquetas: [Golden rule]
+
+  - id: mando-diferencial
+    tipo: basica
+    anverso: What is **differential aileron**?
+    reverso: |
+      **A design in which the up-going aileron deflects further than the
+      down-going one**, to reduce adverse yaw.
+
+      Even so, you will still need your feet.
+
+  - id: hilo-de-lana
+    tipo: cloze
+    texto: |
+      Yaw string straight = {{c1::coordinated}} flight. String towards the
+      **inside** of the turn = {{c2::skid}}. Towards the **outside** =
+      {{c3::slip}}.
+    extra: |
+      Correct it by pressing the pedal **opposite** to the side the string
+      has moved to.
+
+  - id: por-que-el-derrape-es-peligroso
+    tipo: basica
+    anverso: Why is a **skid** more dangerous than a slip?
+    reverso: |
+      **Because the inner wing can enter an asymmetric stall.**
+
+  - id: hilo-torcido-y-mandos-blandos
+    tipo: basica
+    anverso: "String off centre **and** soft controls at the same time: what does it mean?"
+    reverso: |
+      **That you are about to stall.** Act.
+    etiquetas: [Golden rule]
+
+  - id: eficacia-de-mando
+    tipo: basica
+    anverso: What do the controls tell you through their feel?
+    reverso: |
+      **Firm: you are fast. Soft and “mushy”: you are close to the stall.**
+
+  - id: uso-del-compensador
+    tipo: basica
+    anverso: In what order do you use the **trim** when you change flight regime?
+    reverso: |
+      **First set the new attitude with the stick; then adjust the trim until
+      you feel no force in your hand.**
+
+      It is not for resting your arm: it is what lets you hold a constant
+      speed without effort.
+    etiquetas: [Airmanship]
