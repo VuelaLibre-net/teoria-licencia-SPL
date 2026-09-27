@@ -1,6 +1,6 @@
 ---
 origen: 07-planificacion-rendimiento/cap01-masa-y-centro-de-gravedad.qmd
-origen-commit: e9e893e
+origen-commit: 1d5d148
 ---
 
 # Mass and balance
