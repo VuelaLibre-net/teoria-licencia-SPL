@@ -10,7 +10,7 @@
 > * **La teoría MacCready**: cómo ajustar tu velocidad de crucero a la fuerza del día.
 > * **El efecto del peso**: cómo el lastre de agua desplaza la polar sin cambiar el planeo máximo.
 > * **El efecto del viento y el aire descendente**: cuándo acelerar y cuándo conservar.
-> * **IAS y TAS en altura**: por qué el anemómetro te "miente" en aeródromos altos y en vuelo de onda.
+> * **IAS y TAS en altura**: por qué el anemómetro te «miente» en aeródromos altos y en vuelo de onda.
 > * **El planeo final**: gestión de energía con margen de seguridad.
 
 ## La polar: tu curva de rendimiento
@@ -54,7 +54,7 @@ La polar del manual de vuelo está trazada para aire en calma. En el mundo real,
 
 ![Efecto del viento sobre la velocidad óptima: la tangente se desplaza](imagenes/07-cap02-polar-viento.png){#fig-07-cap02-polar-viento}
 
-## IAS y TAS: cuando el anemómetro te "miente"
+## IAS y TAS: cuando el anemómetro te «miente»
 
 La polar del manual de vuelo está trazada en velocidad indicada (**IAS**, *Indicated Airspeed*), que es lo que marca tu anemómetro. Pero el anemómetro mide presión dinámica, no velocidad real: a medida que subes y el aire se hace menos denso, tu velocidad verdadera (**TAS**, *True Airspeed*) es cada vez mayor que la indicada. La regla aproximada: la TAS supera a la IAS en un 2 % por cada 300 m de altitud.
 
@@ -62,7 +62,7 @@ La polar del manual de vuelo está trazada en velocidad indicada (**IAS**, *Indi
 
 * **Las velocidades de la polar se vuelan en IAS**: el máximo planeo y el mínimo descenso ocurren a la misma IAS de siempre; no tienes que corregir nada en el anemómetro para planear bien.
 * **Pero recorres más terreno del que crees**: a 3.000 m, una IAS de 100 km/h son unos 120 km/h de TAS. Tu planeo final cubre más kilómetros por minuto y tu deriva con viento también es mayor de lo que sugiere el instrumento.
-* **En la aproximación a un aeródromo alto, la sensación engaña**: con la IAS de aproximación correcta, el suelo pasa más deprisa de lo habitual y la carrera de aterrizaje será más larga. No "frenes" el avión por debajo de la velocidad indicada del manual: la pérdida ocurre a la misma IAS de siempre.
+* **En la aproximación a un aeródromo alto, la sensación engaña**: con la IAS de aproximación correcta, el suelo pasa más deprisa de lo habitual y la carrera de aterrizaje será más larga. No «frenes» el avión por debajo de la velocidad indicada del manual: la pérdida ocurre a la misma IAS de siempre.
 
 La @fig-07-cap02-ias-tas-altitud pone cifras a esa separación: despegando de un aeródromo de la meseta ya vuelas un 7 % más deprisa de lo que marca el instrumento, y en el techo de una onda, un 27 %.
 
@@ -81,7 +81,7 @@ El planeo final es el tramo desde la última térmica hasta el aeródromo: un ej
 * **El cono de alcance**: imagina un cono invertido que baja de tu planeador hasta el suelo. Lo que quede fuera de ese círculo es inalcanzable. Con viento de cara, el círculo se convierte en una elipse desplazada; tenlo siempre presente.
 
 ::: {.callout-warning title="Seguridad"}
-Si tu calculador de planeo dice que llegas "justo", en realidad **no llegas**. El calculador no sabe si encontrarás un hundimiento inesperado ni si el viento en cara será más fuerte a baja altura. Busca una alternativa antes de que el cono de alcance se cierre.
+Si tu calculador de planeo dice que llegas «justo», en realidad **no llegas**. El calculador no sabe si encontrarás un hundimiento inesperado ni si el viento en cara será más fuerte a baja altura. Busca una alternativa antes de que el cono de alcance se cierre.
 :::
 
 ::: {.postit}
