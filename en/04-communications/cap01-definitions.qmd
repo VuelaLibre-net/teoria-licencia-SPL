@@ -1,0 +1,163 @@
+---
+origen: 04-comunicaciones/cap01-definiciones-y-tecnica-de-comunicacion.qmd
+origen-commit: fe80b78
+---
+
+# Definitions
+
+> In this chapter you will learn the language of aeronautical radio: what a readback is and why it is not optional, how standard phraseology works, the rules for saying numbers, times and frequencies, how to keep good radio discipline and how to identify yourself correctly to the air traffic services.
+
+## Introduction to aeronautical communications
+
+Radio is the main channel between you and the air traffic services. Everything that happens in controlled airspace goes through it, in real time. The rules are not left to each country: **Annex 10 to the Convention on International Civil Aviation**, issued by ICAO (*International Civil Aviation Organization*), sets the technical and procedural standards that every member State applies.
+
+Voice communications use the VHF band (*Very High Frequency*), between **118 MHz and 136.975 MHz**, with amplitude modulation (AM). VHF waves do not bend round the horizon: their range depends on line of sight, so the higher you fly, the further you reach. In mountainous areas or at low height you may need a **relay**, another station that passes your message on. Channel spacing in Europe is **8.33 kHz** (the technical and regulatory side is in chapter 7).
+
+In ICAO vocabulary, the ground station is the **aeronautical station**, identified by the suffix “Radio” in calls. You, in the glider, operate as an **aircraft station**.
+
+::: {.callout-important title="Regulation"}
+**ICAO Annex 10** (Volume II, Communication Procedures) is the international reference standard for aeronautical telecommunications. The radio equipment must be approved and calibrated to its specifications before any flight in controlled airspace.
+:::
+
+## The readback
+
+Talking to ATC on the radio is not a conversation. It is a procedure, and it has rules. The most important is the **readback**: repeating the controller's own words back, exactly as they were said.
+
+Why? Because it is the only way the air traffic controller (ATC) can know that you received the instruction correctly. If they do not hear your readback, they do not know whether it reached you, whether you understood it, or whether you heard something different.
+
+Under ICAO rules (Annex 10) and SERA (*Standardised European Rules of the Air*), you **must** read back:
+
+* All clearances and permissions (take-offs, landings, runway crossings).
+* Heading, speed, altitude or flight level instructions.
+* The runway in use.
+* The altimeter setting (**QNH** or QFE). A QNH is never answered with *«Recibido»* (“Roger”): you repeat the figure, without exception.
+* The transponder code (**squawk code**), when ATC assigns you one.
+* Frequency change instructions.
+* Transfers to other ATC units.
+
+::: {.callout-important title="Regulation"}
+The obligation to read back clearances and critical instructions is laid down in Annex 10 to the ICAO Convention on International Civil Aviation. Recorded communications are kept for at least 30 days, and may be retained indefinitely if they are relevant to an investigation or a claim. A wrong or missing readback is a deviation from standard procedures and can lead to an incident or an accident.
+:::
+
+::: {.callout-warning title="Safety"}
+Failing to read back a take-off or landing clearance is one of the most frequent causes of **runway incursions**. If the controller does not hear the correct readback, they may clear another aircraft onto the same runway at the same time. If you have any doubt about an instruction, ask for confirmation at once, before you carry it out.
+:::
+
+## Standard phraseology
+
+There is no room for colloquial language on the radio. Every word has an exact meaning, and using it wrongly creates ambiguity where there must be none. **Standard phraseology** exists for precisely that reason: to pass information with no margin for error and without blocking the frequency any longer than necessary.
+
+These are the terms you need to know from day one, as they are said on Spanish radio:
+
+* ***Afirma*** (Affirm): “Yes”, “Permission granted” or “That is correct”. It is the standard Spanish word in the official phraseology (AESA's phraseology and communications guide), the equivalent of the English **AFFIRM**, which ICAO shortened from **Affirmative** precisely so that it could not be confused with **Negative** on a noisy frequency. In practice you will also hear *«Afirmo»*; what you must always avoid is *«Afirmativo»*.
+* ***Negativo*** (Negative): “No”, “Permission not granted” or “That is not correct”.
+* **Wilco** (**Will comply**): “Understood, I will comply”. You use it when you receive a long instruction that does not require a mandatory readback.
+* ***Solicito*** (Request): to ask for a clearance, a service or information. For example: *«Solicito autorización de rodaje»* (“Request taxi”).
+* ***Recibido*** (**Roger**): “I have received your transmission”. Careful: it is not an answer to a question, and it does not replace a readback when one is mandatory.
+
+::: {.callout-tip title="Golden rule"}
+The radio frequency is a shared resource. A short, precise message without hesitation frees the frequency for other traffic and for emergencies. Plan the message before you press the PTT: who is calling, whom you are calling, and what you need.
+:::
+
+![Press the PTT (*Push-to-Talk*) on the stick and wait a second before speaking; speak at a normal volume and keep the microphone close to your mouth without touching it. When you have finished, release the PTT and make sure you are no longer transmitting (the *TX* indicator goes out).](imagenes/04-cap01-disciplina-radio.jpg){#fig-04-cap01-microfono}
+
+## Transmitting numbers, times and frequencies
+
+A number misheard on the radio can be a wrong QNH, a wrong frequency or a flight level that is not yours. The ICAO rules for transmitting figures close that door.
+
+### Transmitting numbers
+
+Numbers are said **digit by digit**, without grouping:
+
+* 34: *«tres cuatro»* (“three four”), never *«treinta y cuatro»* (“thirty-four”)
+* 2576: *«dos cinco siete seis»* (“two five seven six”)
+
+The exception: whole hundreds and thousands are said as units:
+
+* 200: *«dos cientos»* (“two hundred”)
+* 2000: *«dos mil»* (“two thousand”)
+* 2600: *«dos mil seiscientos»* (“two thousand six hundred”)
+* 25000: *«dos cinco mil»* (“two five thousand”)
+
+### Transmitting times
+
+In aviation the time is always **UTC** (*Coordinated Universal Time*), also called Zulu. If there is no risk of confusion, the minutes are enough. If there could be ambiguity, you use all four digits:
+
+* 09:20: *«dos cero»* (“two zero”), or *«cero nueve dos cero»* (“zero nine two zero”) if it could be confused
+* 17:55: *«cinco cinco»* (“five five”), or *«uno siete cinco cinco»* (“one seven five five”)
+
+### Transmitting frequencies
+
+Digit by digit, with the word *«coma»* (“decimal”) for the decimal point:
+
+* 123.500: *«uno dos tres coma cinco cero cero»* (“one two three decimal five zero zero”)
+* 124.400: *«uno dos cuatro coma cuatro cero cero»* (“one two four decimal four zero zero”)
+
+::: {.callout-tip title="Golden rule"}
+Before leaving a frequency, always read back the new value in full. That way both sides confirm that the pilot has understood the correct channel before turning the dial.
+:::
+
+## Radio discipline: think, listen, then speak
+
+Good equipment is not enough. The quality of your communications depends above all on you. **Radio discipline** is what makes the frequency work for everyone.
+
+Four steps, always in this order:
+
+1. **Think**: before you press, organise in your head what you are going to say. Write it down if necessary. Messages full of “erm…” and pauses block the frequency. If you have already filed a VFR flight plan, do not repeat details the controller already has unless asked.
+2. **Listen**: tune the frequency and listen for a few seconds before transmitting. Do not interrupt or “step on” a transmission in progress. If there is active traffic, wait your turn.
+3. **Press and count one**: press the PTT (*Push-To-Talk*) button one second **before** you speak (@fig-04-cap01-microfono). That way the first syllable is not clipped while the transmitter opens the carrier.
+4. **Speak**: clearly, steadily, without rushing. Fewer than 100 words per minute, at an even volume. When you have finished, release the PTT at once.
+
+::: {.callout-note title="Airmanship"}
+To check the quality of a radio signal, use the standard readability scale from 1 (unreadable) to 5 (perfectly readable). A radio check should not last more than 10 seconds. If you get no answer after your first call to a tower, wait at least 10 seconds before trying again, so as not to interfere with the controller's other tasks.
+:::
+
+## Aircraft identification
+
+Your **callsign** is your name in the airspace. ATC needs to know at all times whom it is talking to. Never transmit without identifying yourself, and never use a callsign that is not yours.
+
+For gliders, the callsign is the registration assigned by the registering authority. Civil registrations follow the ICAO scheme of national prefixes: in Spain it is **EC-** followed by three letters, for example “EC-DPE”. Germany uses “D-”, France “F-”. Some combinations are forbidden because they could be confused with international distress or urgency signals (SOS, PAN, MAY).
+
+How to identify yourself:
+
+* **First contact**: the full registration, spelt out in the ICAO phonetic alphabet. *«Eco Charlie Delta Papa Eco»* (Spanish radio writes *Eco* for Echo).
+* **Abbreviated registration**: in later contacts you may use the first letter of the national prefix plus the last two letters of the registration. *«Eco Papa Eco»*.
+* **Who opens the door**: you may abbreviate only once the ground station has used the abbreviated registration to address you. Until then, always the full callsign.
+
+Always add your callsign at the end of every readback. That way the controller can confirm that the instruction was received by the right aircraft, and not by another one that also heard it.
+
+| Letter | Word | Letter | Word | Letter | Word |
+| --- | --- | --- | --- | --- | --- |
+| A | Alfa | J | Juliett | S | Sierra |
+| B | Bravo | K | Kilo | T | Tango |
+| C | Charlie | L | Lima | U | Uniform |
+| D | Delta | M | Mike | V | Victor |
+| E | Echo (*Eco* in Spanish phraseology) | N | November | W | Whiskey |
+| F | Foxtrot | O | Oscar | X | X-ray |
+| G | Golf | P | Papa | Y | Yankee |
+| H | Hotel | Q | Quebec | Z | Zulu |
+| I | India | R | Romeo |  |  |
+: ICAO phonetic alphabet {#tbl-tabla-alfabeto-fonetico}
+
+| Digit (ICAO) | In Spanish radio | Digit (ICAO) | In Spanish radio | Digit (ICAO) | In Spanish radio |
+| --- | --- | --- | --- | --- | --- |
+| 0 (*Zero*) | Cero | 4 (*Four*) | Cuatro | 8 (*Eight*) | Ocho |
+| 1 (*One*) | Uno | 5 (*Five*) | Cinco | 9 (*Niner*) | Nueve (*) |
+| 2 (*Two*) | Dos | 6 (*Six*) | Seis |  |  |
+| 3 (*Three*) | Tres | 7 (*Seven*) | Siete |  |  |
+: ICAO phonetic digits
+
+::: {.callout-note title="Airmanship"}
+(*) On international frequencies, the digit 9 is pronounced **“Niner”** to avoid confusion with “Nein” (no, in German). The ICAO phonetic alphabet is designed to be recognisable in any language and over a degraded radio link.
+:::
+
+::: {.postit}
+**Chapter summary: definitions and technique**
+
+* **Introduction**: aeronautical voice communications use VHF (118–136.975 MHz) and are governed by ICAO Annex 10. Channel spacing in Europe is 8.33 kHz (Regulation (EU) No 1079/2012). The ground station is the “aeronautical station”; the pilot operates from the “aircraft station”.
+* **The readback**: repeating ATC instructions word for word is mandatory for: clearances, headings/altitudes, runway in use, QNH, frequency changes, ATC transfers and the transponder code when one is assigned.
+* **Standard phraseology**: the radio has no room for colloquial language. Key Spanish terms: ***Afirma*** (Affirm), ***Negativo*** (Negative), **Wilco**, ***Solicito*** (Request), ***Recibido*** (Roger). *«Recibido»* never replaces a mandatory readback, and *«Afirmativo»* is always avoided.
+* **Radio discipline**: Think → Listen → Press and count one → Speak. Fewer than 100 words per minute, message prepared before pressing the PTT.
+* **Transmitting numbers, times and frequencies**: numbers digit by digit (*«tres cuatro»*, “three four”, never *«treinta y cuatro»*); whole hundreds and thousands as units (*«dos mil seiscientos»*, “two thousand six hundred”). Times in UTC, usually just the minutes. Frequencies with *«coma»* (“decimal”): *«uno dos cuatro coma cuatro cero»*. Always read back the new channel before changing.
+* **Identification**: the registration is the aircraft's name. First contact: full registration in phonetics. Abbreviated registration: only once the tower uses it first.
+:::
