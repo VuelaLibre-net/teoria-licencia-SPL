@@ -1,0 +1,12 @@
+---
+origen: 05-principios-vuelo/epigrafe.qmd
+origen-commit: c5e8824
+---
+
+# Epigraph {.unnumbered .unlisted .oculto}
+
+::: {.epigrafe}
+“The whole problem is confined within these limits, viz. to make a surface support a given weight by the application of power to the resistance of air.”
+
+ — George Cayley (1809), British engineer, regarded as the father of aerodynamics for defining the forces of flight.
+:::
