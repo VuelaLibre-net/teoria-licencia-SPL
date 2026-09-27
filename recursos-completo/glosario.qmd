@@ -324,10 +324,10 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Órgano directivo encargado de formular la política del sector aéreo y ejercer las funciones que le atribuye la normativa española.
 
 **Diagrama V-n (envolvente de vuelo)**
-: Representación gráfica de los límites estructurales del planeador que relaciona la velocidad (V) con el factor de carga en Gs (n). Define la "caja" de operaciones seguras: dentro de la envolvente la estructura aguanta; fuera, se producen deformaciones permanentes o roturas. Según CS-22: categoría U (*Utility*) soporta de +5,3g a −2,65g a la velocidad V~A~, límites que se estrechan a +4,0g y −1,5g a V~D~; categoría A (*Acrobática*) de +7,0g a −5,0g. Estos límites solo son válidos respetando también los límites de velocidad.
+: Representación gráfica de los límites estructurales del planeador que relaciona la velocidad (V) con el factor de carga en Gs (n). Define la «caja» de operaciones seguras: dentro de la envolvente la estructura aguanta; fuera, se producen deformaciones permanentes o roturas. Según CS-22: categoría U (*Utility*) soporta de +5,3g a −2,65g a la velocidad V~A~, límites que se estrechan a +4,0g y −1,5g a V~D~; categoría A (*Acrobática*) de +7,0g a −5,0g. Estos límites solo son válidos respetando también los límites de velocidad.
 
 **Diedro (ángulo diedro)**
-: Ángulo hacia arriba que forman las alas respecto al plano horizontal, dando al planeador una forma de "V" abierta vista de frente. Proporciona estabilidad lateral: cuando un ala baja por una perturbación, recibe el flujo de aire con mayor ángulo de ataque efectivo, genera más sustentación y vuelve a la posición nivelada sin intervención del piloto.
+: Ángulo hacia arriba que forman las alas respecto al plano horizontal, dando al planeador una forma de «V» abierta vista de frente. Proporciona estabilidad lateral: cuando un ala baja por una perturbación, recibe el flujo de aire con mayor ángulo de ataque efectivo, genera más sustentación y vuelve a la posición nivelada sin intervención del piloto.
 
 **Disbarismos (Barotraumas)**
 : Alteraciones orgánicas o dolor neurálgico originados por la expansión y contracción de pequeños volúmenes de gas atrapados en el cuerpo (senos paranasales, oído medio, intestinos) frente a los inevitables cambios en la presión atmosférica por la Ley de Boyle.
@@ -360,7 +360,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Tendencia del planeador a alinearse automáticamente con la dirección del viento relativo gracias a la deriva. La distancia entre el CG y la deriva actúa como brazo de palanca que amplifica la fuerza correctora. Es el mecanismo que proporciona la estabilidad direccional del planeador.
 
 **Eficacia de mando**
-: Grado de respuesta de las superficies de control en función de la velocidad de vuelo. A alta velocidad, la presión dinámica es mayor y los mandos están duros y muy reactivos. A baja velocidad, disminuye y los mandos se vuelven blandos o "chiclosos". Esta pérdida de eficacia próxima a la velocidad de pérdida es una advertencia física directa: el ala se acerca al ángulo de ataque crítico.
+: Grado de respuesta de las superficies de control en función de la velocidad de vuelo. A alta velocidad, la presión dinámica es mayor y los mandos están duros y muy reactivos. A baja velocidad, disminuye y los mandos se vuelven blandos o «chiclosos». Esta pérdida de eficacia próxima a la velocidad de pérdida es una advertencia física directa: el ala se acerca al ángulo de ataque crítico.
 
 **ELT (Transmisor Localizador de Emergencia / Emergency Locator Transmitter)**
 : Baliza de aeronave destinada a transmitir una señal de emergencia y facilitar su localización.
@@ -477,7 +477,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Concepto por el que el espacio aéreo se gestiona como un recurso común y se asigna dinámicamente según las necesidades.
 
 **Fugoide (modo fugoide)**
-: Modo de oscilación longitudinal lento y de largo período (30-50 segundos) en el que el planeador intercambia altitud y velocidad en ciclos suaves. Generalmente bien amortiguado y apenas perceptible si el piloto mantiene los mandos sujetos. No es peligroso por sí mismo, pero puede desconcertar al piloto inexperto que intenta corregirlo con entradas bruscas.
+: Modo de oscilación longitudinal lento y de largo período (de unos 10 a 15 segundos a las velocidades habituales de un planeador) en el que el planeador intercambia altitud y velocidad en ciclos suaves. Generalmente bien amortiguado y apenas perceptible si el piloto mantiene los mandos sujetos. No es peligroso por sí mismo, pero puede desconcertar al piloto inexperto que intenta corregirlo con entradas bruscas.
 
 **Fusible de seguridad (Weak link)**
 : Eslabón o fusible metálico calibrado intercalado en el cable de remolque o torno, diseñado para romperse ante una sobretensión que supere los límites estructurales calculados antes de dañar al planeador o a la aeronave remolcadora.

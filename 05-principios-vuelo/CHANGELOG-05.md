@@ -16,6 +16,29 @@ rompe la compilación.
 
 ## [En curso]
 
+**Qué releer:** **cap03, modo fugoide**, y en el **Glosario** las entradas *Fugoide* y *Picado en
+espiral*. El resto son erratas y comillas.
+
+### Corregido
+
+* **cap03 y Glosario, modo fugoide** — el periodo no coincidía: 30-60 segundos en el capítulo y
+  30-50 en el glosario, y ninguna de las dos cifras vale para un planeador (son propias de aviones
+  más rápidos). El periodo es proporcional a la velocidad (aproximación de Lanchester, T ≈ 0,45·V
+  con V en m/s): a las velocidades habituales de un planeador, de unos 10 a 15 segundos. Ambos
+  textos dicen ahora eso.
+* **Glosario, Picado en espiral** — la recuperación empezaba por «abrir aerofrenos», al revés que
+  el cap07. Ahora sigue su orden: nivelar las alas, recuperar suavemente del picado y, solo si la
+  velocidad se acerca a la V~NE~, extender los aerofrenos con suavidad.
+* **cap02, pie de la curva polar** — la numeración de los tres puntos era irregular («1 …, 2 …,
+  3. …»).
+* **cap03, pie del efecto veleta** — «alinéa» pasa a «alinea».
+
+### Maqueta y producción
+
+* **Capítulos y Glosario** — las comillas rectas ("…") pasan a comillas latinas («…»), como en el
+  resto de la colección. No cambia el texto. Queda la de *Curva polar* en el glosario, que comparte
+  definición con el libro 07 y debe cambiar a la vez en los dos.
+
 ## [1.0-rc.8] — 7 de agosto de 2026
 
 **Qué releer:** **cap01, comparativa con la aviación general.** «Avión de turismo» pasa a «avión ligero de aviación general»; las cifras no cambian.
