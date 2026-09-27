@@ -30,7 +30,7 @@ The polar curve is your sailplane's performance ID card. It shows the relationsh
 
 The glide ratio (L/D) expresses how many metres the sailplane travels forward for each metre of height lost in still air. A training sailplane such as the ASK 21 manages about 35:1 (it covers 35 km for every kilometre of height given up). Open Class racing sailplanes exceed 60:1 thanks to their long span and laminar aerofoils.
 
-In real air, the figures in the manual remain theory: wind and moving air masses force you to adjust your speeds.
+In real air, the figures in the manual are only theory: wind and moving air masses force you to adjust your speeds.
 
 * **Headwind:** into wind, your progress over the ground falls even if you hold the same airspeed. Fly faster than V~best\ glide~: as a rule of thumb, add 50% of the headwind component to your cruising speed (@fig-05-cap02-curva-polar-viento-de-cara).
 
@@ -62,7 +62,7 @@ How these devices are built and operated is covered in **Book 8 — Aircraft Gen
 
 ## Load factor (n)
 
-The **load factor** (n) indicates how many times the sailplane's weight is bearing on the structure at any moment. It is expressed in units of **g**.
+The **load factor** (n) tells you how many times its own weight the sailplane's structure is carrying at any moment. It is expressed in units of **g**.
 
 In straight and level flight lift exactly equals weight: **n = 1g**. As soon as the sailplane banks into a turn, centrifugal force adds to gravity and the load factor rises. In a turn at 60° of bank, the structure (and the pilot) bears **2g**: structurally the sailplane weighs twice as much, and the wing has to produce twice as much lift. At 75° the load reaches almost 4g (@fig-05-cap02-factor-de-carga-alabeo).
 

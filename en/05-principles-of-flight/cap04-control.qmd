@@ -13,7 +13,7 @@ origen-commit: 2375434
 
 ## Adverse yaw: the price of roll
 
-In sailplanes, adverse yaw is a very pronounced aerodynamic side effect of trying to turn with the ailerons, because of the long wingspan.
+Because of their long span, sailplanes suffer badly from adverse yaw, an aerodynamic side effect of turning with the ailerons.
 
 When you move the stick sideways to start a turn, the aileron on the outer wing goes down to increase lift and raise that side. The problem is that, in creating more lift, it also generates a large amount of **induced drag**. That drag holds back the rising wing and pulls it backwards, yawing the sailplane's nose away from the intended turn (@fig-05-cap04-guinada-adversa).
 

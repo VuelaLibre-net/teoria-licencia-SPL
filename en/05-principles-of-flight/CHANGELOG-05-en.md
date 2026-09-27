@@ -11,6 +11,15 @@ The English edition is a translation of the Spanish book `05-principios-vuelo`. 
 in its front matter the Spanish file it comes from (`origen`) and the commit of that file it was
 translated from (`origen-commit`). Terminology follows `en/terminologia.yml`.
 
+## [In progress]
+
+**What to reread:** nothing new in substance; wording only.
+
+### Changed
+
+* **cap01–cap04, cap06 and cap07** — a dozen sentences made shorter and more direct. Content,
+  figures and terminology unchanged.
+
 ## [0.8.0] — 28 September 2026
 
 **What to reread:** **the whole book.** First complete translation, from Spanish version 1.0-rc.8.

@@ -19,7 +19,7 @@ Learn to read these symptoms: the sailplane warns you before the stall arrives.
 * No normal sound of air flowing past the cockpit.
 * Structural vibration known as “buffet”, caused by turbulent air striking the fuselage and tail.
 
-The stall does not arrive all at once across the whole span: it starts at the **wing root** (where the wing joins the fuselage) and spreads towards the tips. This is deliberate design: the wing has a greater angle of incidence at the root than at the tips, so the root stalls first. The ailerons, out at the tips, keep some authority for the first few moments: it is a design margin that lets you keep the wings level while the stall gives its warning. But if a wing does drop, do not try to raise it with aileron; hold it up with rudder, as you will see below.
+The stall does not arrive all at once across the whole span: it starts at the **wing root** (where the wing joins the fuselage) and spreads towards the tips. This is by design: the wing has a greater angle of incidence at the root than at the tips, so the root stalls first. The ailerons, out at the tips, keep some authority for the first few moments: it is a design margin that lets you keep the wings level while the stall gives its warning. But if a wing does drop, do not try to raise it with aileron; hold it up with rudder, as you will see below.
 
 ## Stall recovery
 

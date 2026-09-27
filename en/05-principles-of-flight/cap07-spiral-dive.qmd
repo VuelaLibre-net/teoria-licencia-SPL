@@ -43,7 +43,7 @@ Once the visual horizon is lost, the inner ear quickly becomes disoriented. The 
 Recovery from a spiral dive must be carried out as a set procedure, actively fighting the instinct to pull back on the stick at first:
 
 1. **Level the wings:** this comes first, because the bank is what sustains and tightens the spiral. Apply stick and rudder firmly against the turn until the wings are completely level with your reference or on the instruments.
-2. **Recover from the dive:** only when the wings are at 0° of bank, pull back on the stick firmly but smoothly to raise the nose. Do it progressively, taking care not to exceed excessive load factors as you come out of the dive.
+2. **Recover from the dive:** only when the wings are at 0° of bank, pull back on the stick firmly but smoothly to raise the nose. Do it progressively, taking care not to pull excessive g as you come out of the dive.
 3. **Control the speed:** if the speed approaches V~NE~ (never exceed speed), extend the airbrakes to check the acceleration; but do so smoothly, because at high speed and with a high load factor an abrupt extension adds load to the structure.
 
 ::: {.postit}
