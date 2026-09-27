@@ -12,7 +12,7 @@ origen-commit: 2890174
 
 ## The International Standard Atmosphere (ISA)
 
-To standardise aircraft design and instrument calibration worldwide, the International Civil Aviation Organization (ICAO) defined the **International Standard Atmosphere** (ISA). It is an ideal atmospheric model that assumes **dry air** (0 % humidity) and sets theoretical average values, because you will rarely meet a “pure” ISA day in real life.
+To standardise aircraft design and instrument calibration worldwide, the International Civil Aviation Organization (ICAO) defined the **International Standard Atmosphere** (ISA). It is an idealised model that assumes **dry air** (0 % humidity) and uses theoretical average values; you will rarely meet a “pure” ISA day in real life.
 
 At mean sea level (MSL), ISA sets the following reference conditions (@fig-03-cap01-atmosfera-isa):
 
@@ -26,7 +26,7 @@ Because the ISA model assumes 0 % humidity, it does not define a **dew point** e
 
 ## Standard lapse rates in aviation
 
-As we climb, atmospheric conditions change according to set patterns defined in the ISA model, known as standard lapse rates. These rules let you do quick mental calculations in flight.
+As we climb, conditions change in fixed ways that the ISA model defines as standard lapse rates. They let you do quick mental calculations in flight.
 
 * **Standard temperature lapse rate**: temperature in the troposphere falls by 2 °C for every 1,000 feet of climb (or 6.5 °C for every 1,000 metres).
 * **Standard pressure lapse rate**: atmospheric pressure falls by about 1 hPa for every 30 feet of climb in the lower layers of the atmosphere.
@@ -37,7 +37,7 @@ Memorise these three equivalences of the ISA standard lapse rate: **2 °C / 1,00
 
 ## Air density and glider performance
 
-A glider flies thanks to the air molecules that strike its wings. **Lift** depends directly on air density.
+A glider flies on the air that meets its wings, so **lift** depends directly on air density.
 
 Lower air density (which amounts to a higher “density altitude”) means fewer molecules acting on the wings, which reduces the overall performance of the glider. Certain weather conditions reduce air density dangerously:
 
@@ -46,7 +46,7 @@ Lower air density (which amounts to a higher “density altitude”) means fewer
 * High humidity (water vapour is less dense than dry air).
 
 ::: {.callout-warning title="Safety"}
-A hot day at a high aerodrome (high density altitude) makes performance drastically worse: the tug will climb much more slowly, the glider will need more runway to take off, and in flight you will have less lift for the same angle of attack.
+A hot day at a high aerodrome (high density altitude) cuts performance sharply: the tug will climb much more slowly, the glider will need more runway to take off, and in flight you will have less lift for the same angle of attack.
 :::
 
 ## Partial pressure of oxygen and hypoxia
@@ -54,7 +54,7 @@ A hot day at a high aerodrome (high density altitude) makes performance drastica
 Although the proportion of oxygen in the air stays constant at 21 % throughout the troposphere, the drop in atmospheric pressure as you climb lowers the pressure at which that oxygen enters your lungs. At 18,000 feet, atmospheric pressure is half of what it is at sea level.
 
 ::: {.callout-note title="Airmanship"}
-A prolonged lack of oxygen in the body's tissues is called **hypoxia**. Because of its critical impact on flight safety (loss of consciousness, impaired vision), its detailed symptoms, the calculation of the Time of Useful Consciousness (TUC) and the use of oxygen equipment are studied in depth in **Book 2 — Human Performance**, chapter 4.
+A prolonged lack of oxygen in the body's tissues is called **hypoxia**. It matters so much for flight safety (loss of consciousness, impaired vision) that its symptoms, the Time of Useful Consciousness (TUC) and the use of oxygen equipment are covered in depth in **Book 2 — Human Performance**, chapter 4.
 :::
 
 ::: {.postit}
@@ -62,6 +62,6 @@ A prolonged lack of oxygen in the body's tissues is called **hypoxia**. Because 
 
 * **ISA atmosphere**: an ideal model for standardising instruments and performance (15 °C, 1013.25 hPa, 0 % humidity at MSL). You will rarely meet a “pure” ISA day, but it is the universal reference.
 * **Standard lapse rates**: temperature falls by 2 °C for every 1,000 ft. Pressure falls by 1 hPa for every 30 ft **or every 9 metres**. Both equivalences are useful: the first where altimeters read in feet, the second when you work with altitudes in metres.
-* **Density and performance**: a glider flies thanks to air molecules. Lower density (high elevation or a hot day) means less lift and poorer performance: you need more runway to take off and you fly faster for the same angle of attack.
+* **Density and performance**: a glider needs air to fly. Lower density (high elevation or a hot day) means less lift and poorer performance: you need more runway to take off and you fly faster for the same angle of attack.
 * **Partial pressure of O~2~**: although the proportion of oxygen stays the same (21 %), the pressure at which it enters your lungs falls sharply with height, causing hypoxia (its physiological effects are covered in detail in **Book 2 — Human Performance**, chapter 4).
 :::

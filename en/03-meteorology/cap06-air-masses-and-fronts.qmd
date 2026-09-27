@@ -27,7 +27,7 @@ The days immediately after the passage of a large-scale cold front usually offer
 
 ## Warm fronts and pre-frontal subsidence
 
-A **warm front** occurs when a mass of warm air advances and rises gently over a denser, stationary mass of cold air lying in the lower basin. Because its slope is much gentler than that of a cold front, it develops and moves slowly and over a long period.
+A **warm front** occurs when a mass of warm air advances and rises gently over a denser, stationary mass of cold air lying in the lower basin. Its slope is much gentler than that of a cold front, so it moves slowly and its effects last a long time.
 
 The approach of a warm front can be seen hours or days in advance as **cirrus (Ci)** clouds appear in stages (@fig-03-cap06-frente-calido-nubes). As the system advances, the cloud thickens and gradually lowers, passing through cirrostratus and altostratus and ending in a layer of nimbostratus (Ns) and stratus (St).
 
@@ -35,8 +35,8 @@ A warm front makes VFR conditions steadily worse:
 
 * It brings continuous precipitation and persistent drizzle over a wide area.
 * Cloud ceilings come down gradually, hiding high ground and mountains.
-* Constant humidity favours warm mist and fog that drastically reduce surface visibility.
-* Thermodynamically, it makes the air mass completely stable, physically suppressing any usable convective currents or thermals.
+* Constant humidity favours warm mist and fog that cut surface visibility sharply.
+* Thermodynamically, it makes the air mass completely stable and suppresses any usable thermals.
 
 ![Typical cloud sequence as a warm front approaches (seen from the ground)](imagenes/03-cap06-frente-calido-nubes.png){#fig-03-cap06-frente-calido-nubes}
 
@@ -56,7 +56,7 @@ There is a fourth type of front, less common but seen on synoptic charts: the **
 
 ## Air masses and relative temperature
 
-When it comes to convection, the absolute temperature of the air mass matters less; what counts is the **temperature of the air mass relative to the temperature of the ground it is moving over**.
+For convection, the absolute temperature of the air mass matters less than its **temperature relative to the ground it is moving over**.
 
 * **Cold air sliding over warm ground = INSTABILITY.** This happens when cool maritime air arrives over continental plateaus warmed by the sun. The base of that air mass is warmed by contact with the ground, becomes lighter and rises: strong thermals start up, good for cross-country flying.
 * **Warm air sliding over cold ground = STABILITY.** This happens when a warm mass moves over a cold ocean or over snow-covered land. The base of that air cools and becomes denser in contact with the ground, forming a stable inversion that suppresses any thermals and favours persistent fog.

@@ -12,7 +12,7 @@ origen-commit: d5b3cf4
 
 ## What drives the wind: the pressure gradient force
 
-Wind is basically air in motion, and its main driver is the difference in atmospheric pressure between one area and another.
+Wind is air in motion, driven mainly by differences in atmospheric pressure from one area to another.
 
 Air naturally flows from areas of high pressure (anticyclones) towards areas of low pressure (depressions). This tendency to even out pressure produces what we call the **Pressure Gradient Force** (PGF). The rule is simple: the bigger the pressure difference over a short distance, the stronger the gradient force. On weather charts this shows up in the isobars (lines joining points of equal pressure): the closer together the isobars, the stronger the wind (@fig-03-cap02-gradiente-isobaras).
 
@@ -22,7 +22,7 @@ Air naturally flows from areas of high pressure (anticyclones) towards areas of 
 
 If the Earth did not rotate, the wind would flow straight from high to low pressure, crossing the isobars at right angles. Because the Earth rotates, however, an apparent force appears, called the **Coriolis force**.
 
-In the northern hemisphere, the Coriolis force deflects any moving mass of air to the **right**. As the wind speeds up under the pressure gradient, Coriolis pulls it to the right. Above about 1,000 metres above the ground (the friction level), the two forces (gradient and Coriolis) balance. The result is that the wind stops crossing the isobars and ends up blowing **parallel** to them. This free wind aloft is called the **geostrophic wind**.
+In the northern hemisphere, the Coriolis force deflects any moving mass of air to the **right**. As the wind speeds up under the pressure gradient, Coriolis pulls it to the right. Above about 1,000 metres over the ground (the friction level), the two forces (gradient and Coriolis) balance. The wind then stops crossing the isobars and blows **parallel** to them. This free wind aloft is called the **geostrophic wind**.
 
 ::: {.callout-tip title="Golden rule"}
 Buys Ballot's law is a classic rule that sums up this effect: in the northern hemisphere, if you stand with your back to the wind, the centre of low pressure is always on your left.
@@ -30,12 +30,12 @@ Buys Ballot's law is a classic rule that sums up this effect: in the northern he
 
 ## The effect of surface friction
 
-Close to the ground (below those 1,000 metres), a third player comes in: drag against the terrain, or surface friction. Trees, buildings, mountains and the texture of the ground itself “brake” the airflow.
+Close to the ground (below those 1,000 metres), a third factor comes in: surface friction. Trees, buildings, mountains and the texture of the ground itself “brake” the airflow.
 
 As friction slows the wind, the Coriolis effect (which depends on speed) also weakens. The pressure gradient force, however, stays the same. Since Coriolis can no longer fully balance the gradient, the surface wind is deflected and **crosses the isobars towards the low pressure** (typically at an angle of about 30 degrees to the isobars).
 
 ::: {.callout-warning title="Safety"}
-Because of friction, as you get close to the ground to land you will meet the “wind gradient” (boundary-layer *wind shear*). In the last few metres the wind will not only be lighter than in the circuit, its direction will also cross more towards the low pressure. Keep your approach speed with a proper safety margin to avoid losing lift in the round-out (**flare**).
+Because of friction, as you get close to the ground to land you will meet the “wind gradient” (boundary-layer *wind shear*). In the last few metres the wind will be lighter than in the circuit, and it will cross the isobars more sharply towards the low pressure. Fly the approach with a proper speed margin so that you do not run out of lift in the round-out (**flare**).
 :::
 
 ![Circulation across a cloud street](imagenes/03-cap02-calles-nubes.jpg){#fig-03-cap02-calles-nubes}
@@ -59,7 +59,7 @@ Late in the afternoon, when cold katabatic winds flow down both slopes of a vall
 
 ## Foehn and Stau: when the mountain warms the air
 
-When moist Atlantic wind hits a mountain range, something happens that looks almost like magic: the same air that arrives cold and full of cloud on the windward side can reach the lee valley dry, clear and ten degrees warmer. This is the **Foehn effect**, and its twin the **Stau** (**Stau effect**), and both have direct consequences for the pilot.
+When moist Atlantic wind hits a mountain range, something happens that looks almost like magic: the same air that arrives cold and full of cloud on the windward side can reach the lee valley dry, clear and ten degrees warmer. This is the **Foehn effect**. Its twin is the **Stau** (**Stau effect**), and both have direct consequences for the pilot.
 
 The mechanism is asymmetric. On the **windward** slope (the one facing the wind), the air rises and first cools at the DALR (3 °C/1,000 ft) until it reaches its dew point, condenses and precipitates. From that level upwards it climbs saturated, cooling at only 1.5 °C/1,000 ft (SALR) and releasing latent heat into the atmosphere. On the lee side, the air has already lost its moisture on the windward slope and descends **dry** all the way, warming at the full DALR (3 °C/1,000 ft). The result: it reaches the lee valley warmer than when it set out (@fig-03-cap02-fohn-stau). With height differences of 1,500–2,000 m, the difference between the two valleys can exceed 10–15 °C.
 

@@ -12,7 +12,7 @@ origen-commit: 69b985e
 
 ## METAR and TAF reports
 
-Because soaring depends so heavily on the atmosphere, the ability to read and interpret aeronautical weather information accurately is a basic requirement before any flight. The main standard reports are the METAR and the TAF:
+Soaring depends so heavily on the atmosphere that reading aeronautical weather information accurately is a basic requirement before any flight. The main standard reports are the METAR and the TAF:
 
 * **METAR (Meteorological Aerodrome Report):** an observation of the actual, current weather at the aerodrome. It is usually issued every 30 minutes (or every 60 minutes, depending on the aerodrome). It gives concise data on surface wind direction and speed, horizontal visibility, cloud (amount and base height), air temperature, dew point and altimeter setting (QNH). The message often ends with a short-term `TREND` forecast valid for the next 2 hours (or `NOSIG` if no significant change is expected).
 * **SPECI (Special Aerodrome Report):** the urgent sibling of the METAR. It is issued outside the regular cycle as soon as conditions change significantly: the wind veers or strengthens, visibility or cloud base crosses an operational threshold, a thunderstorm appears. Its format is identical to the METAR; only the first word changes. If you find a SPECI when you check an aerodrome, read it before the METAR: it is more recent and was issued precisely because something has got worse.
@@ -22,7 +22,7 @@ Because soaring depends so heavily on the atmosphere, the ability to read and in
   * `TEMPO`: temporary fluctuations, each lasting less than an hour and together less than half the period.
   * `PROB30` and `PROB40`: a 30 % or 40 % probability of what follows. **These are the only two that exist**: if the probability reaches 50 %, the phenomenon is coded as a change (`BECMG` or `FM`), and below 30 % it is not coded at all.
 
-The crew must be fluent in this code. Of particular operational importance are indicators such as:
+You must be fluent in this code. The indicators that matter most in practice include:
 
 * CAVOK: indicates ideal VFR conditions, and requires four things **at the same time**: horizontal visibility of 10 km or more; no cloud below 5,000 ft or the highest minimum sector altitude, whichever is greater; **no Cb or TCU at any level**; and no significant weather. That “at any level” is a classic exam trap: a cumulonimbus with its base at 7,000 ft rules out CAVOK even though it is well above the 5,000 ft threshold. The label is the ICAO one; around the club you will hear the backronym *Ceiling And Visibility OK*, which is not the official name.
 * NSC (No Significant Cloud): no cloud below 5,000 ft (or the highest minimum sector altitude, whichever is greater) and no Cb or TCU, when the CAVOK criteria are not met, typically because visibility is below 10 km.
@@ -139,7 +139,7 @@ An exceptional convection day (known informally in competition slang as a “the
 
 Before you go out to the launch point, cross-check several sources: it is both mandatory and prudent. Do not trust a single model or a single parameter.
 
-* **Compare what you see with what the model forecasts:** if you arrive at the field and cloud is already covering the sunny slope when the sounding predicted thermal activity until 3 in the afternoon, something has gone wrong. Reality rules: cancel or wait.
+* **Compare what you see with what the model forecasts:** if you arrive at the field and cloud is already covering the sunny slope when the sounding promised thermals until 3 in the afternoon, something has gone wrong. Reality rules: cancel or wait.
 * **The pilot-in-command's judgement:** the last word is always yours, not the model's. Cross-check at least two independent sources from those listed in the appendix (one general and one aimed at soaring), check the METAR and TAF for your home aerodrome and for nearby alternates, see whether there is a recent SPECI, and note the K and CAPE indices from the day's sounding. But remember: no favourable forecast on paper carries more weight than what you see at the launch point.
 
 ::: {.callout-note title="Airmanship"}

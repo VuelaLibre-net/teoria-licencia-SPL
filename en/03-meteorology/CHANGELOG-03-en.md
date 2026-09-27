@@ -11,6 +11,16 @@ The English edition is a translation of the Spanish book `03-meteorologia`. Each
 its front matter the Spanish file it comes from (`origen`) and the commit of that file it was
 translated from (`origen-commit`). Terminology follows `en/terminologia.yml`.
 
+## [In progress]
+
+**What to reread:** nothing new in substance; wording only.
+
+### Changed
+
+* **cap01–cap10, including the chapter summaries** — prose revised for natural English: shorter
+  sentences, plainer wording, fewer calques from the Spanish. The content is unchanged: same
+  facts, figures, rules and terminology, and the same structure as the Spanish chapters.
+
 ## [0.8.0] — 27 September 2026
 
 **What to reread:** **the whole book.** First complete translation, from Spanish version 1.0-rc.16.

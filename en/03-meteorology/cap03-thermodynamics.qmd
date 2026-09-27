@@ -15,7 +15,7 @@ origen-commit: 2375434
 
 The stability of the atmosphere defines how a mass of air (a “bubble” or parcel) behaves when it is pushed upwards. Soaring lives, above all, on instability (@fig-03-cap03-estabilidad).
 
-We can understand it by picturing a ball on different kinds of ground:
+Picture a ball on different kinds of ground:
 
 * **Stable atmosphere**: if you push a ball up the slope from the bottom of a valley, it rolls back to the middle. In the air, if the surroundings cool slowly with height (environmental lapse rate less than 1 °C/100 m), a rising bubble cools faster than its surroundings. It soon becomes colder (and heavier) than the air around it, stops rising and sinks back.
 * **Unstable atmosphere**: picture the ball balanced precariously on a hilltop; a small push sends it rolling away without stopping. If the surrounding air cools very quickly with height (more than 1 °C/100 m), a bubble that starts to rise always stays warmer (and lighter) than the air around it, and its climb speeds up. This is the ideal condition for strong thermals.
@@ -51,12 +51,12 @@ Temperature normally falls with altitude, but sometimes the opposite happens: we
 A temperature inversion acts like a lid or a glass ceiling. Because the air above the inversion is surprisingly warm, when a thermal rises and hits that layer it suddenly finds itself surrounded by air that is warmer (and therefore lighter) than itself. The thermal loses its **buoyancy** at once and its climb stops dead.
 
 ::: {.callout-warning title="Safety"}
-Inversions not only limit the maximum height you can climb to in a glider, shutting down convection completely; they also trap smoke, haze and industrial moisture near the surface, drastically reducing in-flight visibility below the inversion layer.
+Inversions shut convection down completely and so cap the height you can climb to in a glider. They also trap smoke, haze and industrial moisture near the surface, and in-flight visibility below the inversion layer can become very poor.
 :::
 
 ## Convection: carrying heat upwards
 
-Convection is the process by which heat is carried vertically through the atmosphere, and it is precisely the mechanism that forms thermals.
+Convection carries heat vertically through the atmosphere, and it is the very mechanism that forms thermals.
 
 The sun does not heat the air directly: it heats the surface of the earth. This heating is very uneven: a dark ploughed field, a rocky area or a village of dry rooftops will warm up much faster than a dense forest or a lake. The warm ground heats the layer of air just above it by contact.
 
@@ -92,7 +92,7 @@ An experienced flying instructor usually works with two pairs of indices:
 * **TT + K** as everyday tools for deciding whether you fly and what you can expect.
 * **CAPE + LI** as tools for deeper analysis when the day “has a catch”.
 
-The key distinction that field experience brings: **TT (Total Totals) is especially reliable over flat country, while K is more representative in the mountains**. When you plan a flight over flat terrain (Castile, Aragon, La Mancha), look at TT. If you will be flying among mountain ranges (the Pyrenees, the Sistema Central, the Sistema Ibérico), give more weight to K.
+Field experience adds a key distinction: **TT (Total Totals) is especially reliable over flat country, while K is more representative in the mountains**. When you plan a flight over flat terrain (Castile, Aragon, La Mancha), look at TT. If you will be flying among mountain ranges (the Pyrenees, the Sistema Central, the Sistema Ibérico), give more weight to K.
 
 ### Total Totals (TT): the index for flat country
 
@@ -116,7 +116,7 @@ TT thresholds and what they mean for soaring:
 | 64 | Frequent moderate thunderstorms with severe storms and tornadoes |
 : Total Totals (TT) thresholds and what they mean
 
-The classic TT thunderstorm thresholds come from the work of Robert C. Miller for the US military warning centre (*Notes on Analysis and Severe-Storm Forecasting Procedures of the Air Force Global Weather Central*, 1972); the “for soaring” bands in the first two rows are an operational adaptation by this collection, not Miller's.
+The classic TT thunderstorm thresholds come from the work of Robert C. Miller for the US military warning centre (*Notes on Analysis and Severe-Storm Forecasting Procedures of the Air Force Global Weather Central*, 1972). The “for soaring” bands in the first two rows are an operational adaptation by this collection, not Miller's.
 
 ::: {.callout-warning title="Safety"}
 TT has its limits: it overestimates instability if the temperature at 500 hPa is very low without convective support at low levels, and it does not pick up strong stability or high humidity below 850 hPa well. In those situations, back up your analysis with the K-Index and CAPE.
@@ -136,7 +136,7 @@ The K-Index combines the temperature gradient between 850 hPa and 500 hPa with h
 | > 30 | High probability of thunderstorms (> 60 %): do not plan long flights |
 : K-Index thresholds and what they mean
 
-The upper bands of the table agree with George's classic scale of air-mass thunderstorm probability (15–20 ≈ 20 %, 21–30 ≈ 20–60 %, 31–35 ≈ 60–80 %). The first three rows, on the other hand, are an operational adaptation by this collection: below 15 the meteorological scale makes no distinction at all, because it only forecasts thunderstorms, and for the glider pilot that is exactly where the difference lies between a day with no thermals and a good day.
+The upper bands of the table agree with George's classic scale of air-mass thunderstorm probability (15–20 ≈ 20 %, 21–30 ≈ 20–60 %, 31–35 ≈ 60–80 %). The first three rows, on the other hand, are an operational adaptation by this collection. Below 15 the meteorological scale makes no distinction at all, because it only forecasts thunderstorms; yet for the glider pilot that is exactly where a day with no thermals and a good day part company.
 
 ::: {.callout-note title="Airmanship"}
 The K-Index was designed to predict thunderstorms, not the quality of soaring. Its thresholds vary with region and season: in dry areas such as the Meseta Central, low humidity can give low K values even with strong thermals. In the mountains, if the 850 hPa level lies close to the ground, the index is less representative. Always use it together with TT and, if the day looks as though it may turn nasty, add CAPE.
