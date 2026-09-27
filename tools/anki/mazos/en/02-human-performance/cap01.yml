@@ -1,0 +1,73 @@
+# Anki deck for en/02-human-performance, chapter 1.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/02-factores-humanos/cap01.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/02-human-performance
+capitulo: 1
+titulo: "Human factors: basic concepts"
+tarjetas:
+  - id: modelo-shell
+    tipo: cloze
+    texto: |
+      In the **SHELL** model, **S** is {{c1::Software (procedures)}}, **H** is
+      {{c2::Hardware (the aircraft)}}, **E** is {{c3::Environment (the
+      surroundings)}} and the two **L**s are {{c4::Liveware: the pilot and the
+      other people}}.
+    extra: It analyses how the pilot interacts with each of those elements.
+
+  - id: gestion-del-error
+    tipo: basica
+    anverso: What is the aim of human **error management**?
+    reverso: |
+      **To detect errors in time and manage their consequences, not to eliminate
+      them.**
+
+      Human error is taken to be inevitable.
+
+  - id: cadena-del-error
+    tipo: basica
+    anverso: What is the **error chain** and what should you do about it?
+    reverso: |
+      **The sum of small errors and latent conditions that produces an accident:
+      there is rarely a single cause.**
+
+      Breaking a single link saves the flight. At the first sign (deteriorating
+      weather, an unresolved defect, fatigue), take the most conservative option
+      available.
+    etiquetas: [Golden rule]
+
+  - id: fases-criticas-accidentes
+    tipo: basica
+    anverso: According to the EASA safety review, which are the **most critical phases** of a glider flight?
+    reverso: |
+      **Landing (≈50 % of accidents) and take-off (21 %).**
+    etiquetas: [Safety]
+
+  - id: reducir-probabilidad-de-error
+    tipo: basica
+    anverso: Which practices make errors less likely?
+    reverso: |
+      * Using the checklists **even when you know them by heart**.
+      * Asking your instructor to assess you regularly.
+      * Watching out for fatigue and the complacency that experience brings.
+    etiquetas: [Airmanship]
+
+  - id: cultura-justa
+    tipo: basica
+    anverso: What is a **just culture** and what does it mean in the hangar?
+    reverso: |
+      **Being able to report an error without reprisals, so that everyone
+      learns.**
+
+      If you knock the tailplane while towing the glider or putting it in the
+      hangar, report it at once. Covering it up puts the next pilot at risk, who
+      will fly the aircraft without knowing about the damage.
+    etiquetas: [Airmanship]
+
+  - id: influencias-en-el-comportamiento
+    tipo: basica
+    anverso: What affects the mental capacity of the pilot-in-command?
+    reverso: |
+      **Behaviour under pressure, motivation set against unmet needs (Maslow's
+      pyramid) and pressure from fellow pilots at the hangar.**

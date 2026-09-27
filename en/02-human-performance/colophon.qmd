@@ -1,0 +1,21 @@
+---
+origen: 02-factores-humanos/colofon.qmd
+origen-commit: 1651432
+---
+
+# Colophon {.unnumbered .unlisted .oculto}
+
+::: {.colofon}
+**Colophon**
+
+This manual was typeset from Quarto Markdown sources, with no intermediaries, in the repository:
+
+{{< meta repo-url >}}
+
+The `.qmd` files in that repository are the canonical version.
+
+Typeset with Quarto {{< meta version-quarto >}} and the `orange-book-es` extension, a Spanish derivative of the `orange-book` package. The typeface family is Libertinus.
+
+**Version {{< meta version >}}** · Last updated: {{< meta fecha-actualizacion >}}
+
+:::

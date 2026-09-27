@@ -1,0 +1,105 @@
+# Anki deck for en/02-human-performance, chapter 3.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/02-factores-humanos/cap03.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/02-human-performance
+capitulo: 3
+titulo: "Basic aviation psychology"
+tarjetas:
+  - id: conciencia-situacional
+    tipo: basica
+    anverso: What is **situational awareness**, and why does it matter so much?
+    reverso: |
+      **Perceiving what is happening, understanding what it means and
+      projecting its future state.**
+
+      Losing it is the first link in most gliding accident chains.
+    etiquetas: [Safety]
+
+  - id: que-erosiona-la-conciencia-situacional
+    tipo: basica
+    anverso: What erodes situational awareness?
+    reverso: |
+      **Qualitative attention overload, panic over something you do not
+      understand, fatigue and the discomfort of a badly adjusted seat.**
+
+  - id: adm-decide
+    tipo: basica
+    anverso: What is **ADM** and which model makes it systematic?
+    reverso: |
+      **Aeronautical decision-making: the mental process for consistently
+      choosing the best option in a given set of circumstances.**
+
+      The reference model is **DECIDE**.
+
+  - id: estres-rendimiento
+    tipo: basica
+    anverso: How does **stress** affect performance?
+    reverso: |
+      **A moderate level improves it (alertness); too much, or chronic stress,
+      blocks decisions and fixes attention on irrelevant details (tunnel
+      vision).**
+
+  - id: instinto-de-tirar-de-la-palanca
+    tipo: basica
+    anverso: What dangerous instinct appears under panic, and what does it lead to?
+    reverso: |
+      **“Getting away from the ground by hauling back on the stick”.**
+
+      At low height, that sudden manoeuvre uses up all the glider's energy and
+      leads to a loss of control or an unrecoverable spin.
+    etiquetas: [Safety]
+
+  - id: carga-de-trabajo-vaso
+    tipo: basica
+    anverso: What do you do when your **workload** overflows?
+    reverso: |
+      **Stop for a second, breathe and ruthlessly simplify your priorities:
+      Aviate, Navigate, Communicate.**
+
+      First fly the glider safely; then think about where you are going; and
+      only if strictly necessary, the radio.
+    etiquetas: [Golden rule]
+
+  - id: procesamiento-de-informacion
+    tipo: basica
+    anverso: What are the components of **information processing**?
+    reverso: |
+      **Perception** (interpreting the environment), **attention** (focus) and
+      **sensory, short-term and long-term** memory.
+
+      Too much outside information that you cannot take in causes qualitative
+      overload.
+
+  - id: pave
+    tipo: cloze
+    texto: |
+      **PAVE**: {{c1::Pilot}}, {{c2::Aircraft}}, {{c3::enVironment}} and
+      {{c4::External pressures}}.
+    extra: |
+      Breaking the flight down with PAVE before take-off lets you cut the error
+      chain before you even get into the cockpit.
+
+  - id: actitudes-peligrosas
+    tipo: basica
+    anverso: What are the **five hazardous attitudes**?
+    reverso: |
+      **Anti-authority, impulsivity, invulnerability, arrogance (overconfidence)
+      and resignation.**
+
+  - id: srm
+    tipo: basica
+    anverso: What is **SRM** (single-pilot resource management)?
+    reverso: |
+      **The ability to make integrated use of the equipment on board,
+      information, communications and outside help so as not to exceed your
+      own capacity.**
+
+  - id: complacencia-e-indisciplina
+    tipo: basica
+    anverso: What is the difference between **complacency** and **indiscipline**?
+    reverso: |
+      **Complacency grows out of too much routine and gives a false sense of
+      security; indiscipline spreads a poor safety culture around the
+      aerodrome as people ignore the rules.**

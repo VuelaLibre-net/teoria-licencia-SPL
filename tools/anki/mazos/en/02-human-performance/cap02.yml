@@ -1,0 +1,179 @@
+# Anki deck for en/02-human-performance, chapter 2.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/02-factores-humanos/cap02.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/02-human-performance
+capitulo: 2
+titulo: "Basic aviation physiology and health maintenance"
+tarjetas:
+  - id: imsafe
+    tipo: cloze
+    texto: |
+      **IMSAFE**: {{c1::Illness}}, {{c2::Medication}}, {{c3::Stress}},
+      {{c4::Alcohol}}, {{c5::Fatigue}}, {{c6::Eating}}.
+    extra: |
+      Run through it before every take-off. If any item comes out badly, the
+      only safe decision is to cancel the flight (**NO-GO**).
+
+  - id: cuando-consultar-ame
+    tipo: basica
+    anverso: When must you consult an **AME** before flying as pilot-in-command again?
+    reverso: |
+      **After a significant injury, surgery, starting regular medication,
+      pregnancy or first wearing corrective lenses.**
+
+      You must not fly as pilot-in-command until you are fit again
+      (**MED.A.020, *Decrease in medical fitness***).
+    etiquetas: [Regulation]
+
+  - id: vision-de-color-ishihara
+    tipo: basica
+    anverso: What happens if you fail the **colour discrimination** test (Ishihara)?
+    reverso: |
+      **Your Part-SFCL licence is restricted to daytime flight (Day VFR).**
+    etiquetas: [Regulation]
+
+  - id: disbarismos-congestion
+    tipo: basica
+    anverso: Why should you not fly with a **blocked nose** or a cold?
+    reverso: |
+      **Because body gases expand as you climb, and barotrauma of the eardrums
+      and sinuses leaves you unable to fly.**
+
+      It is an automatic **NO-GO**; the pain in the descent is terrible.
+    etiquetas: [Airmanship]
+
+  - id: ilusiones-sensoriales
+    tipo: basica
+    anverso: "With no visible horizon, what do you trust: your inner ear or the instruments?"
+    reverso: |
+      **The instruments**: airspeed indicator, yaw string, slip ball and
+      artificial horizon.
+
+      Once outside references are lost, the inner ear lies to you; ignore your
+      instinct.
+    etiquetas: [Safety]
+
+  - id: angulo-muerto-antes-de-virar
+    tipo: basica
+    anverso: What do you do before starting a turn?
+    reverso: |
+      **Take a quick look back over the opposite side**, to rule out traffic in
+      the blind spot before banking.
+    etiquetas: [Airmanship]
+
+  - id: colision-frontal
+    tipo: basica
+    anverso: Why are **head-on** tracks so dangerous, and how do you avoid a collision?
+    reverso: |
+      **Because the other glider has no noticeable sideways movement in your
+      visual field: it just suddenly grows bigger.**
+
+      You need at least 3 seconds to react, and you should preferably avoid by
+      **turning right**. It is the typical scenario on a ridge or a cloud
+      street.
+    etiquetas: [Safety]
+
+  - id: mareo-y-biodramina
+    tipo: basica
+    anverso: Can you take antihistamine travel-sickness tablets (such as Biodramina) before flying?
+    reverso: |
+      **No.** They cause deep drowsiness that compromises your reaction times
+      and alertness.
+
+      Airsickness itself is nothing to be ashamed of: keep sick bags to hand.
+    etiquetas: [Safety]
+
+  - id: monoxido-de-carbono
+    tipo: basica
+    anverso: How do you detect **carbon monoxide**, and what do you do if you suspect it?
+    reverso: |
+      **Only with a dedicated detector: it has no smell, colour or taste.**
+
+      At any symptom (headache, bright red lips) or if the patch changes colour:
+      **turn off the heating, open the ventilation fully, use oxygen if you
+      have it and land without delay.** A real danger in motor gliders.
+    etiquetas: [Safety]
+
+  - id: hipotermia-ropa
+    tipo: basica
+    anverso: How do you prevent **hypothermia** on a winter wave flight?
+    reverso: |
+      **Warm clothing in layers, and no tight shoes or socks.**
+
+      A foot held still on the pedals needs free circulation: roomy boots,
+      thermal insoles and gloves that let you move the stick.
+    etiquetas: [Airmanship]
+
+  - id: hiperventilacion-tratamiento
+    tipo: basica
+    anverso: What causes **hyperventilation**, and how do you stop it?
+    reverso: |
+      **Panic makes you pant, the CO₂ in your blood drops and numbness and loss
+      of vision set in.**
+
+      You stop it by deliberately slowing your breathing, with long breaths out,
+      talking out loud or singing.
+
+  - id: evitar-primeras-veces
+    tipo: basica
+    anverso: How do you keep **stress** within the operating range?
+    reverso: |
+      **By not stacking several “firsts” on the same flight.**
+
+      New glider + unfamiliar aerodrome + gusty crosswind is an explosive mix:
+      the mind jumps from alarm to panic. Add the variables one at a time.
+    etiquetas: [Airmanship]
+
+  - id: deshidratacion-retraso-sed
+    tipo: basica
+    anverso: Why is it no good waiting until you are **thirsty** to drink?
+    reverso: |
+      **Because by the time you feel thirsty, dehydration has already cut into
+      your cognitive performance,** and water takes about 20 minutes to really
+      rehydrate you.
+
+      The closed cockpit is a greenhouse. Drink regularly from take-off.
+    etiquetas: [Golden rule]
+
+  - id: fatiga-solo-se-cura-durmiendo
+    tipo: basica
+    anverso: How do you cure **fatigue**?
+    reverso: |
+      **By sleeping. Nothing else works.**
+
+      Coffee and energy drinks mask the symptoms but do not restore your
+      abilities. If it affects your attention or reasoning, it is **NO-GO**.
+    etiquetas: [Safety]
+
+  - id: alcohol-botella-al-mando
+    tipo: basica
+    anverso: What does the **“bottle to throttle”** rule require?
+    reverso: |
+      * **8 hours** without alcohol before the flight.
+      * A blood alcohol level at the start of the flight below **0.2 g/l**, or
+        the national limit if stricter.
+      * **No alcohol during the flight.**
+
+      *Source: AMC1 SAO.GEN.130(f) & SAO.GEN.135(b), “Alcohol consumption”.
+      Not to be confused with AMC1 SAO.GEN.130(f) on its own, which deals with
+      scuba diving and blood donation.*
+    etiquetas: [Regulation]
+
+  - id: automedicacion
+    tipo: basica
+    anverso: Can you fly after medicating yourself?
+    reverso: |
+      **No.** Even allergy or travel-sickness tablets can make you too drowsy
+      to fly.
+
+  - id: aut-tue-competicion
+    tipo: basica
+    anverso: What do you need to compete while under medical treatment?
+    reverso: |
+      **A Therapeutic Use Exemption (TUE), applied for in advance.**
+
+      There is doping control after landing; the document protects you from
+      sanctions.
+    etiquetas: [Airmanship]

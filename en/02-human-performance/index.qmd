@@ -1,0 +1,6 @@
+---
+origen: 02-factores-humanos/index.qmd
+origen-commit: 2890174
+---
+
+# Human performance {.unnumbered .unlisted .oculto}

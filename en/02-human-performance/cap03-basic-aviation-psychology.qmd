@@ -1,0 +1,162 @@
+---
+origen: 02-factores-humanos/cap03-psicologia-aeronautica-basica.qmd
+origen-commit: 2890174
+---
+
+# Basic aviation psychology
+
+> Flying well is, above all, deciding well. This chapter is about the instrument that really flies the glider: your mind. How it processes information, how it decides under pressure, and which attitudes and mental traps to watch for in yourself.
+>
+>
+> In this chapter you will learn:
+>
+>
+> * **Information processing**: perception, attention and the types of memory.
+> * **Situational awareness**: what it is and what degrades it.
+> * **Decision-making (ADM)**: the DECIDE model and risk management with PAVE.
+> * **The five hazardous attitudes** and their antidotes.
+> * **Workload and SRM**: tunnel vision, overload and resource management for the pilot flying alone.
+
+## Information processing: attention, memory and perception
+
+In flight your brain never stops processing information, through three linked mechanisms: perception, attention and memory.
+
+**Perception** is the ability to make sense of what is around you and of changes in the flight variables (a shift in the wind, the closeness of the ground). In the air, the usual cues for depth and size are missing. Distances are harder to judge, and a flood of information without those cues can lead to qualitative overload.
+
+**Attention** is the filter that lets you concentrate on the relevant information inside the cockpit and outside it. It is a limited resource: physical or psychological factors can wear it down quickly until you no longer see the whole picture.
+
+**Memory**, in which the hippocampus plays a key part, lets you encode, store and retrieve vital information. In the cockpit you use several memory systems (@fig-02-cap03-memoria-tipos):
+
+* **Sensory memory:** Holds information for barely 200 milliseconds after the senses pick it up.
+* **Short-term memory:** Lasts about 30 seconds. It is the pilot's “RAM”, essential for dealing with the immediate tactical situation.
+* **Long-term memory:** Your permanent store of knowledge. It divides into non-declarative memory (procedural or unconscious, such as the mechanical feel of the stick) and declarative memory (explicit, combining episodic and semantic memory, such as the speeds in the flight manual or past experiences).
+
+![The types of human memory](imagenes/02-cap03-memoria-tipos.jpg){#fig-02-cap03-memoria-tipos}
+
+## Situational awareness (**Situational Awareness**) and what reduces it
+
+Situational awareness (**Situational Awareness**) is the perception of the elements in the environment within a volume of time and space, the understanding of what they mean and, above all, the projection of their state or position into the near future.
+
+In a glider, it means building an accurate mental picture of what is going on and keeping it up to date for the whole flight: how the wind is changing and where it is heading, where you really are relative to the landing field, who is in the circuit, what the other aircraft are doing, and your own height and energy.
+
+::: {.callout-warning title="Safety"}
+Losing situational awareness is the first link in most gliding accident chains. Attention overload, panic over something you do not understand, fatigue, even a badly adjusted seat: all of them sharply reduce your ability to take in the full picture a safe flight depends on.
+:::
+
+## Aeronautical decision-making (ADM)
+
+**Aeronautical decision-making** (ADM) is the systematic, repeatable mental process a pilot uses to choose the best course of action in a given set of circumstances.
+
+Whether thermalling or on final approach, the pilot is constantly assessing situations and hazards, making plans, managing the level of risk and acting on it. One of the most widely used frameworks for training ADM in civil aviation is the **DECIDE model** (@fig-02-cap03-decide):
+
+* **D**etect that a change or an error has occurred that needs your attention.
+* **E**stimate the need to react, actively gathering all the information about the event.
+* **C**hoose the best outcome after considering all the possible ways of dealing with the hazard.
+* **I**dentify the actions that will achieve it.
+* **D**o the chosen action, methodically, quickly or calmly as the situation requires.
+* **E**valuate the result: check whether the course taken corrects the deviation, learn from it and share the conclusions.
+
+![The DECIDE model for aeronautical decision-making](imagenes/02-cap03-decide.jpg){#fig-02-cap03-decide}
+
+## Risk management and assessment models (the PAVE model)
+
+Risk management protects your decisions. Every flight carries some hazards. You cannot avoid them all; your job is to identify, assess and reduce them, systematically.
+
+The **PAVE model** divides the risks of a flight into four basic elements that are easy to assess:
+
+* **P (Pilot):** Physical and psychological condition. Is the pilot rested? Suffering from fatigue or stress? Current on recent experience?
+* **A (Aircraft):** The state of the glider. Is it the right equipment for the planned flight? Are the instruments working and the inspections up to date?
+* **V (enVironment):** Weather, alternate aerodromes, terrain, traffic density and airspace.
+* **E (External pressures):** Factors such as the need to finish a course, the pressure not to disappoint a passenger or the rush to catch a weather window that is closing.
+
+::: {.callout-tip title="Golden rule"}
+Run through your flight with PAVE before take-off and you can spot the error chain, and cut it, before you even get into the cockpit.
+:::
+
+## Recognising and mitigating hazardous attitudes
+
+Your attitudes (how you are disposed towards the world around you) shape how you react to risk. Aviation training traditionally names five hazardous attitudes that you must learn to recognise and neutralise in yourself.
+
+### Anti-authority (**anti-authority**)
+
+“Don't tell me what to do”, or plain indiscipline. A pilot with this attitude rejects established standards, rules or the advice of experienced instructors as unnecessary or excessive.
+
+**Antidote:** Follow the rules: most of them were written in blood. Complying with them is the most basic safety measure there is. “Follow the rules. They are usually right.”
+
+### Impulsivity (**impulsivity**)
+
+“I must do something, and I must do it now.” Faced with a problem, the pilot feels driven to act at once, without stopping to think about the consequences.
+
+**Antidote:** Except in a very few extreme emergencies, take a second to apply the DECIDE model. “Not so fast. Think first.”
+
+### Invulnerability (**invulnerability**)
+
+“It won't happen to me.” The pilot knows the risks exist but feels somehow protected, as if accidents only happened to other people.
+
+**Antidote:** Accidents happen to anyone who puts their aircraft in a situation with no safety margin. “It could happen to me.”
+
+### Arrogance or overconfidence (*Macho*)
+
+“I can do it.” Bravado. Overconfident in their flying, the pilot tries to impress, showing off supposedly superior skill by pulling stunts or ignoring guidance.
+
+**Antidote:** Accepting your operational limits is the truest sign of **airmanship**. Taking unnecessary risks is a sign of immaturity. “Taking chances is foolish.”
+
+### Resignation (**resignation**)
+
+“What's the use? It's all lost.” When things go wrong, or a problem on a cross-country gets complicated, the pilot decides they have no control over the situation and stops flying, becoming a passenger in their own accident. It sometimes goes hand in hand with blind complacency about minor problems.
+
+**Antidote:** Never stop flying the aircraft. There is always something you can do to improve the situation; trust your training. “I'm not helpless. I can make a difference.”
+
+## Managing workload and psychological stress in flight
+
+Stress is the body's general response to any physical, environmental or psychological demand. In flying, it acts as an ancient alarm that warns us of possible danger.
+
+Not all stress is harmful. A moderate dose (the kind you feel on your first solo) does you good: it raises your alertness, sharpens your senses and speeds up your reactions.
+
+But if the psychological pressure keeps building (say you stray into severe instrument conditions, ignoring your limits), that manageable stress quickly turns into panic. Performance plummets and you are flooded with sensory input. Unable to cope, the brain locks up and pours whatever attention it has left into a single detail of the flight (often the least important one), shutting out everything else. This deadly effect is known informally as **tunnel vision** (@fig-02-cap03-vision-tunel).
+
+::: {.callout-warning title="Safety"}
+Under extreme stress and panic, basic survival instincts such as trying to “get away from the ground by hauling back on the stick” can override your reasoning. At low height, that sudden, instinctive pull uses up all your glider's energy and ends in a loss of control or an unrecoverable spin. Know your limits, and stay out of situations you are not fully prepared for.
+:::
+
+![Tunnel vision under extreme stress](imagenes/02-cap03-vision-tunel.jpg){#fig-02-cap03-vision-tunel}
+
+Everything you do in the air follows a continuous cycle, the “3 P” model: **Perceive, Process and Perform**. Every second of the flight you take in information, work out what it means and act on it.
+
+The mind can only handle so much of this endless stream of events at once: think of it as a glass that holds a fixed amount of water. On a turbulent aerotow, into the sun, while you try to spot a glider that has just called on base, the glass can overflow. This is **qualitative overload**. The moment the task demands more than your skill and training can give, the safety margin is gone and the accident is waiting.
+
+::: {.callout-tip title="Golden rule"}
+When you feel your glass overflowing, stop for a second, breathe, and cut your priorities down to the old aviation saying: **Aviate, Navigate, Communicate** (first fly the aircraft safely, then worry about where you are going, and only last, and only if strictly necessary, pick up the radio to tell someone about it).
+:::
+
+## Single-pilot resource management (SRM)
+
+SRM is the art of making good use of every resource on board and outside the glider (information, equipment and other people) before and during the flight, so that a pilot flying alone stays safe.
+
+In a multi-crew cockpit, tasks are shared out. In a glider you make every decision yourself, so you have to use everything available to avoid overloading your head. SRM resources include your own equipment (instruments, the trim on board), radio communications (asking ATC or getting weather information) and tools on the ground (a good pre-flight, or an instructor on the radio).
+
+::: {.callout-note title="Airmanship"}
+Planning on the ground beats reacting in the air. Not taking on several new things at once (a new glider at an unfamiliar aerodrome in poor weather) is the clearest sign that you know how to manage your resources. Most of it is common sense.
+:::
+
+## Complacency and lack of operational discipline
+
+Two of the most insidious enemies, both linked to hazardous attitudes, are complacency and lack of operational discipline.
+
+**Complacency** is a false sense of security bred by routine and familiar surroundings. Thoughts like “I've landed here thousands of times” lead you to skip the pre-flight checklist or stop watching for traffic. However good your skills are, never drop your guard.
+
+**Indiscipline**, closely tied to the anti-authority attitude, means deliberately departing from the standards and procedures you were taught. And it is catching: a bad practice seen often enough at an airfield ends up as normal for everyone there, students pick up lethal habits and the whole club's safety culture suffers.
+
+::: {.postit}
+**Chapter summary: aviation psychology**
+
+* **Situational awareness**: The ability to perceive accurately what is happening, understand what it means and project its future state. Losing it is the first link in most accident chains.
+* **Decision-making (ADM)**: A systematic mental process (such as the DECIDE model) that pilots use to choose the best course of action consistently in response to a set of circumstances.
+* **Stress**: The body's response to a physical or psychological demand. A moderate level improves performance (alertness), but excessive or chronic stress blocks decision-making and fixes attention on irrelevant details (tunnel vision).
+* **Workload and performance**: Your processing capacity is limited (like a glass of water). If the complexity of the flight (bad weather, traffic, a defect) fills the glass, you overflow. Simplify the task (aviate, navigate, communicate) to win back your safety margin.
+* **Information processing**: It covers perception (interpreting the environment), attention (focus) and sensory, short-term and long-term memory. Too much outside information that you cannot take in can cause qualitative overload.
+* **Risk management (PAVE)**: A systematic assessment of the critical factors, divided into Pilot, Aircraft, enVironment (**Environment**) and External pressures.
+* **Hazardous attitudes**: The five attitudes to avoid are anti-authority, impulsivity, invulnerability, arrogance (overconfidence) and resignation.
+* **Resource management (SRM)**: The solo pilot's ability to make full use of the equipment on board, information, communications and outside help so as not to exceed their limits.
+* **Complacency and indiscipline**: Complacency comes from too much routine and creates a false sense of security, while indiscipline spreads a poor safety culture around the aerodrome as people ignore the rules.
+:::

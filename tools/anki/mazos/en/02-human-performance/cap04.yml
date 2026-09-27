@@ -1,0 +1,174 @@
+# Anki deck for en/02-human-performance, chapter 4.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/02-factores-humanos/cap04.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/02-human-performance
+capitulo: 4
+titulo: "Use of oxygen"
+tarjetas:
+  - id: ley-de-dalton
+    tipo: basica
+    anverso: What does **Dalton's law** explain about hypoxia?
+    reverso: |
+      **That atmospheric pressure falls with altitude, and so does the partial
+      pressure of oxygen**, so oxygen passes into the blood less easily.
+
+  - id: ley-de-boyle
+    tipo: basica
+    anverso: What does **Boyle's law** explain in flight?
+    reverso: |
+      **That body gases expand as you climb.**
+
+      Hence barotrauma of the ears and sinuses if you fly with a blocked nose.
+    etiquetas: [Airmanship]
+
+  - id: mecanismo-de-la-hipoxia
+    tipo: basica
+    anverso: What happens in the body when **hypoxia** sets in?
+    reverso: |
+      **The pressure is too low to load the haemoglobin in the alveoli, and the
+      red blood cells reach the brain empty.**
+
+  - id: cuatro-clases-de-hipoxia
+    tipo: cloze
+    texto: |
+      Types of hypoxia: {{c1::hypoxic}} (low atmospheric pressure, the most
+      frequent in gliders), {{c2::hypaemic}} (carbon monoxide, smoking),
+      {{c3::stagnant}} (G-forces in tight turns) and {{c4::histotoxic}}
+      (alcohol, drugs or medicines).
+
+  - id: primer-sintoma-hipoxia
+    tipo: basica
+    anverso: What is the **first symptom** of hypoxia, and why is it the most treacherous?
+    reverso: |
+      **Euphoria: the pilot does not see the danger on their own.**
+
+      Then come drowsiness, difficulty with calculations, cyanosis and loss of
+      consciousness.
+    etiquetas: [Safety]
+
+  - id: tuc
+    tipo: basica
+    anverso: What is the **Time of Useful Consciousness** at 25,000 and at 30,000 ft?
+    reverso: |
+      **3 to 5 minutes at 25,000 ft; 1 to 2 minutes at 30,000 ft.**
+
+      A long descent can take longer than the TUC available: act before you
+      need to.
+
+  - id: oxigeno-al-100-y-desciende
+    tipo: basica
+    anverso: What is the rule for an oxygen failure or suspected hypoxia?
+    reverso: |
+      **“100 % oxygen and descend”**, below 10,000 ft and without hesitation.
+
+      At a certain altitude, the TUC leaves no time to think.
+    etiquetas: [Golden rule]
+
+  - id: distinguir-hipoxia-de-hiperventilacion
+    tipo: basica
+    anverso: How do you tell **hypoxia** from **hyperventilation**?
+    reverso: |
+      By **altitude** and **emotional state**:
+
+      * Above 10,000 ft with euphoria or sluggishness → **hypoxia**: 100 %
+        oxygen and descend.
+      * Below 10,000 ft with tingling, sweating and anxiety →
+        **hyperventilation**: slow your breathing down.
+
+      **If in doubt at high altitude, treat for hypoxia.**
+    etiquetas: [Golden rule]
+
+  - id: no-dar-oxigeno-en-hiperventilacion
+    tipo: basica
+    anverso: Do you give supplemental oxygen for **hyperventilation**?
+    reverso: |
+      **Not if you are at low altitude: it would worsen the CO₂ imbalance.**
+
+      If you cannot confirm that you are below 10,000 ft, treat for hypoxia
+      first.
+    etiquetas: [Safety]
+
+  - id: hiperventilacion-causa
+    tipo: basica
+    anverso: What causes **hyperventilation**, and what are its symptoms?
+    reverso: |
+      **Stress or anxiety, not a lack of oxygen.**
+
+      Breathing out too much CO₂ constricts the blood vessels in the brain:
+      tingling, cramps and dizziness, very similar to hypoxia.
+
+  - id: sao-op-150-oxigeno
+    tipo: basica
+    anverso: When is **supplemental oxygen** mandatory?
+    reverso: |
+      **When the pilot-in-command determines that a lack of it may impair the
+      occupants' faculties**; and if they cannot determine this, **always above
+      10,000 ft** pressure altitude.
+
+      *Source: Part-SAO, SAO.OP.150, and its AMC1.*
+    etiquetas: [Regulation]
+
+  - id: oxigeno-de-noche-5000
+    tipo: basica
+    anverso: From what altitude is oxygen **recommended** at night or at dusk?
+    reverso: |
+      **From 5,000 ft**: a recommendation, not a rule.
+
+      The rods in the peripheral retina are the first cells affected by a lack
+      of oxygen, so night vision is the first to degrade.
+    etiquetas: [Airmanship]
+
+  - id: flujo-continuo-vs-eds
+    tipo: basica
+    anverso: Compare the **continuous-flow** system with the **pulse-demand (EDS)** system.
+    reverso: |
+      **Continuous flow**: simple, but uses more oxygen and dries the nasal
+      passages. **EDS**: makes the cylinder last much longer, but depends on
+      batteries that can fail in the cold.
+
+  - id: oxigeno-de-aviacion
+    tipo: basica
+    anverso: Why **aviation oxygen** and not medical oxygen?
+    reverso: |
+      **Because medical oxygen contains more moisture, which can freeze in the
+      regulator at altitude and block the flow.**
+
+      Use only oxygen labelled “for aviation use”: dry, more than 98.5 % pure.
+    etiquetas: [Safety]
+
+  - id: grasas-y-oxigeno
+    tipo: basica
+    anverso: Why must creams and grease be kept away from oxygen equipment?
+    reverso: |
+      **Because oxygen under pressure in contact with greasy substances can
+      ignite explosively without any flame or spark.**
+
+      No creams, sunscreen or lubricants on connections, regulators or
+      nozzles.
+    etiquetas: [Safety]
+
+  - id: presion-de-la-botella
+    tipo: basica
+    anverso: What pressure should the oxygen cylinder show before the flight?
+    reverso: "**Between 150 and 200 bar.**"
+
+  - id: pulsioximetro-umbral
+    tipo: basica
+    anverso: What saturation (SpO₂) should you keep, and what do you do below it?
+    reverso: |
+      **Above 90 %.** Below that, turn on the oxygen and descend immediately.
+
+      The pulse oximeter detects hypoxia before the symptoms become obvious.
+      Record your own readings at different altitudes: not everyone responds in
+      the same way.
+    etiquetas: [Airmanship]
+
+  - id: checklist-de-hipoxia
+    tipo: basica
+    anverso: Why carry an emergency *checklist* for hypoxia?
+    reverso: |
+      **Because your reasoning may already be impaired just when you need it
+      most.**
+    etiquetas: [Airmanship]

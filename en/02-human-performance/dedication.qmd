@@ -1,0 +1,16 @@
+---
+origen: 02-factores-humanos/dedicatoria.qmd
+origen-commit: 75457a3
+---
+
+# Dedication {.unnumbered .unlisted .oculto}
+
+::: {.dedicatoria}
+**In memory of Iñaqui Ulibarri García de la Cueva**
+
+The teacher who gave us our wings and taught us to fly wisely.
+
+We still feel you in the back seat; you are with us in every thermal and in every decision we take in command, remembering your lessons.
+
+Thank you for leaving us your immense passion, the finest of legacies.
+:::

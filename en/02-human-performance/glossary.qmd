@@ -1,0 +1,110 @@
+---
+origen: 02-factores-humanos/glosario.qmd
+origen-commit: 2375434
+---
+
+# Glossary of terms
+
+This glossary contains the most relevant definitions and acronyms of human factors and physiology applicable to the Sailplane Pilot Licence (SPL).
+
+**ADM (Aeronautical Decision-Making)**
+: A systematic mental process (for example, using the DECIDE model) that the pilot uses to choose the safest option in response to a set of circumstances.
+
+**AESA (Spanish Aviation Safety Agency)**
+: Agencia Estatal de Seguridad Aérea: the Spanish authority responsible for overseeing civil aviation safety and applying aviation regulations within its remit.
+
+**AME (Aero-Medical Examiner)**
+: Doctor authorised to carry out examinations and to issue or process aviation medical certificates within their privileges.
+
+**ATC (Air Traffic Control)**
+: Air traffic service intended to prevent collisions and to expedite and maintain an orderly flow of air traffic.
+
+**Carbon monoxide (CO)**
+: A lethal gas with no smell and no colour, produced by exhaust systems. It binds to haemoglobin and blocks the transport of oxygen (anaemic hypoxia), affecting motor glider (TMG) pilots even at low altitude.
+
+**Complacency**
+: A limiting state of mind bred by routine and familiarity with the environment, which creates a false sense of security and leads you to skip basic procedures such as checklists.
+
+**Cyanosis**
+: A bluish colour of the skin, lips and fingertips caused by a marked lack of oxygen in the blood; one of the advanced physical symptoms of hypoxia.
+
+**DECIDE**
+: A standard model for aeronautical decision-making in six steps: **D**etect (detect the change), **E**stimate (estimate whether it calls for a reaction), **C**hoose (choose the desired outcome), **I**dentify (identify the possible actions), **D**o (carry out the chosen one) and **E**valuate (evaluate its effect).
+
+**Dysbarism (barotrauma)**
+: Physical disorders or nerve pain caused by the expansion and contraction of small volumes of gas trapped in the body (sinuses, middle ear, intestines) as atmospheric pressure changes, in line with Boyle's law.
+
+**EASA (European Union Aviation Safety Agency)**
+: European Union agency that develops and oversees the common civil aviation safety framework within its remit.
+
+**EDS (Electronic Delivery System)**
+: Electronic on-demand oxygen system that senses the pilot's breath and releases a pulse of oxygen at that moment, making the cylinder last much longer by shutting off the flow while the pilot breathes out.
+
+**Error chain**
+: A series of small wrong decisions, pre-existing conditions and latent errors that, when they line up and interact (as in the **Swiss cheese model**), trigger an accident or incident.
+
+**Fatigue**
+: Physiological decline in physical or mental performance caused by lack of sleep, disrupted circadian rhythms or sustained mental effort; it drastically slows reaction time and weakens the ability to assess risks sensibly.
+
+**Hyperventilation**
+: Abnormally fast breathing triggered by stress, panic or anxiety, which flushes out large amounts of carbon dioxide; this narrows the blood vessels in the brain and reduces the oxygen supply even when flying at safe altitudes.
+
+**Hypoxia**
+: A physiological state in which the body's cells and tissues lack oxygen, caused when flying at high altitude by the fall in the partial pressure of oxygen in the atmosphere. There are four types: hypoxic (low atmospheric pressure, the most frequent in gliders), hypaemic (transport impaired by carbon monoxide or smoking), stagnant (reduced circulation, for example from high G in tight turns) and histotoxic (alcohol, drugs or medicines).
+
+**ICAO (International Civil Aviation Organization)**
+: Specialised agency of the United Nations that sets standards and recommended practices for international civil aviation.
+
+**IMSAFE**
+: Mnemonic for the physical and mental self-assessment recommended before every flight: Illness, Medication, Stress, Alcohol, Fatigue and Eating.
+
+**Just culture**
+: An organisational approach that accepts that unintentional human error is inevitable and treats it as a chance for everyone to learn, without reprisals, rejecting both cover-ups and irrational punishment.
+
+**Motion sickness**
+: Sickness caused by movement (**motion sickness**), triggered in flight by a conflict between what the visual system perceives (a cockpit that is not moving) and what the vestibular system of the inner ear registers (the aircraft's accelerations and turns).
+
+**Part-MED (Aeromedical requirements)**
+: Annex IV to Regulation (EU) No 1178/2011, which sets the medical requirements for flight crew and the rules for medical certificates. For the SPL, an LAPL medical certificate is enough.
+
+**PAVE**
+: A simple, basic framework for systematically assessing and mitigating the risks of any flight in advance, divided into: Pilot, Aircraft (**Aircraft**), enVironment (**enVironment**) and External pressures.
+
+**Pulse oximeter**
+: Finger device recommended for high-altitude flights that shows the oxygen saturation of the blood (SpO₂). It lets the pilot detect hypoxia objectively before the first symptoms appear.
+
+**SAO (Sailplane Air Operations)**
+: EASA's operational rules for sailplanes, in Annex II to Regulation (EU) 2018/1976. Its rules rely on judgement rather than thresholds: **SAO.OP.150** requires the pilot-in-command to ensure that all occupants use supplemental oxygen when they determine that, at the intended altitude, a lack of it may impair their faculties. The Regulation sets no figure; the **10,000 ft** comes from **AMC1 SAO.OP.150**, and only as the default rule when the pilot cannot make that assessment.
+
+**SFCL (Sailplane Flight Crew Licensing)**
+: European (EASA) regulatory framework governing licences, the syllabus and flight training for sailplane pilots (SPL).
+
+**SHELL**
+: Conceptual model proposed by Edwards in 1972 as SHEL and completed by Hawkins in 1975, which ICAO adopted and spread. It brings together all the elements that surround the operator: **Software** (procedures and rules), **Hardware** (the aircraft), **Environment** (the physical surroundings), the central **Liveware** and the other **Liveware** (the pilot in relation to other people).
+
+**Situational awareness**
+: **Situational Awareness**. Full perception and proper understanding of the elements of the flight in the present, analytical understanding of their current status and an accurate projection of how they will develop.
+
+**Spatial disorientation**
+: A false sense of the aircraft's position, attitude or movement caused by sensory illusions originating in the inner ear, which forces the pilot to distrust their senses and rely on the instruments.
+
+**SPL (Sailplane Pilot Licence)**
+: European Union licence, governed by Part-SFCL, that allows the holder to exercise the privileges of a sailplane pilot under the applicable conditions.
+
+**SRM (Single-Pilot Resource Management)**
+: The ability to manage all available resources (instruments, ATC, checklists) to operate safely, reducing workload and minimising the risk of systematic errors.
+
+**TMG (Touring Motor Glider)**
+: Powered sailplane with a non-retractable engine and propeller that can take off and climb under its own power.
+
+**TUC (Time of Useful Consciousness)**
+: The critical interval during which the pilot keeps the cognitive and motor abilities needed to take corrective action after the oxygen supply is cut off at high altitude. It shortens rapidly with height.
+
+**TUE (Therapeutic Use Exemption)**
+: Official permission, granted by national anti-doping organisations and international federations (not by WADA itself, which sets the standard and reviews the exemptions granted), that allows a competition pilot to use a specific medicine that would normally lead to suspension in a doping test, while protecting their underlying health.
+
+**VFR (Visual Flight Rules)**
+: Rules applicable to flights conducted with visual references and within the corresponding weather and operational minima; the separation provided by ATC depends on the airspace class and the traffic involved.
+
+**WADA (World Anti-Doping Agency)**
+: International organisation that regulates and thoroughly monitors the use of substances and doping by competition athletes; gliding championships are also subject to its standard.

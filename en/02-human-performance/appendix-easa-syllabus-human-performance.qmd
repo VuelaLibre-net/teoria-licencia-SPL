@@ -1,0 +1,23 @@
+---
+origen: 02-factores-humanos/apendice-syllabus-oficial-easa---factores-humanos.qmd
+origen-commit: e0f5386
+---
+
+# Official EASA syllabus - human performance
+
+The following syllabus corresponds to the subject **Human Performance** for the Sailplane Pilot Licence (SPL), as set out in AMC1 SFCL.130 (Annex to ED Decision 2020/004/R, AMC & GM to Part-SFCL).
+
+* 2.1. Human factors: basic concepts.
+* 2.2. Basic aviation physiology and health maintenance.
+* 2.3. Basic aviation psychology.
+* 2.4. Use of oxygen.
+
+This manual has been structured to follow this official syllabus faithfully, so that you cover every point needed for the theoretical examination.
+
+## Test yourself
+
+Theory sinks in by answering questions. This subject has its own online self-assessment test, with exam-style questions (currently in Spanish). For example:
+
+[https://vuelalibre.net/examenes/02-factores-humanos/](https://vuelalibre.net/examenes/02-factores-humanos/)
+
+Ask your instructor, who will tell you which question bank or format is most suitable, and follow that advice. It will be very useful both for consolidating what you learn in each chapter and for your general revision before you sit the theoretical examination.
