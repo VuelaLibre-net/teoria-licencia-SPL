@@ -1,19 +1,19 @@
 ---
-origen: 03-meteorologia/introduccion.qmd
-origen-commit: 7a61500
+origen: 04-comunicaciones/introduccion.qmd
+origen-commit: fd1162d
 ---
 
 # How to Read This Book {.unnumbered}
 
-***Subject 3 of 9 of the theoretical examination for the Sailplane Pilot Licence (SPL)***
+***Subject 4 of 9 of the theoretical examination for the Sailplane Pilot Licence (SPL)***
 
-Some pilots look at the sky and see clouds. Others look at the sky and see information.
+Radio freezes more student pilots than the aerodynamic stall. The physics is not the problem. The problem is that nobody has explained the system to them: what the pilot says, what the controller answers, and why every part of that conversation has a safety reason behind it.
 
-A glider flies with no engine, no radar and no power to escape whatever the weather has in store. The only real advantage a glider pilot has is anticipation: spotting the front twelve hours ahead, knowing that virga can hide a downburst, or recognising the invisible temperature inversion that will cap the flight at a thousand feet however hot the sun.
+A wrong readback can make the controller believe you have vacated the runway when you are still on it. A badly worded emergency call can delay the SAR response by the minutes that make the difference.
 
-Ten chapters run from the physics of the atmosphere to reading METAR, TAF and SIGWX in practice, taking in fronts, thermodynamics and the hazards the weather holds for pilots who do not understand it.
+Over seven chapters, radio procedure becomes one more flight instrument, and once you master it, it frees your attention for what matters.
 
-The sky talks. Learn to listen to it before you take off.
+The radio examples in this book are given in Spanish, as you will hear and use them at Spanish airfields, and each one is followed by its English translation. Spanish radio phrases appear in italics between «angle quotes»; the translation follows in “inverted commas”.
 <!-- GUÍA-DE-LECTURA: desde esta marca hasta el final, el texto es idéntico en
      los libros de la edición inglesa. Si lo editas, propágalo a los demás.
      Todo lo anterior es propio de este libro. -->

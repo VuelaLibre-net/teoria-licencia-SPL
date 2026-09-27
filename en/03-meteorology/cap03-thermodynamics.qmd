@@ -13,7 +13,7 @@ origen-commit: 2375434
 
 ## Atmospheric stability: the fuel of soaring
 
-The stability of the atmosphere defines how a mass of air (a “bubble” or parcel) behaves when it is pushed upwards. Soaring lives, above all, on instability (@fig-03-cap03-estabilidad).
+Atmospheric stability describes what a mass of air (a “bubble” or parcel) does when something pushes it upwards. Soaring lives, above all, on instability (@fig-03-cap03-estabilidad).
 
 Picture a ball on different kinds of ground:
 
@@ -25,7 +25,7 @@ Picture a ball on different kinds of ground:
 
 ## Adiabatic lapse rates and the cloud base
 
-When a bubble of air rises by convection, it expands as it meets lower atmospheric pressure aloft. This expansion makes it cool internally (an adiabatic process), without exchanging heat with the outside air. How fast it cools depends on whether the air is dry or saturated.
+A bubble of air rising by convection meets lower pressure aloft and expands. The expansion cools it from within (an adiabatic process), with no heat exchanged with the air outside. How fast it cools depends on whether the air is dry or saturated.
 
 * **Dry adiabatic lapse rate (DALR)**: as long as the bubble has not reached 100 % humidity, it cools at a constant rate of **3 °C for every 1,000 feet** (1 °C every 100 metres).
 * **Saturated adiabatic lapse rate (SALR)**: when the bubble has cooled enough to reach its dew point, the water vapour starts to condense and forms the base of a cloud (the Lifted Condensation Level, or LCL). Condensation releases latent heat inside the bubble. So from the cloud base upwards the bubble keeps rising but cools much more slowly, typically at **1.5 °C for every 1,000 feet** (0.5 °C every 100 metres at low levels).
@@ -48,7 +48,7 @@ To apply the formula, follow these steps before every flight:
 
 Temperature normally falls with altitude, but sometimes the opposite happens: we find layers where **the air temperature increases as we climb**. This is called a temperature inversion.
 
-A temperature inversion acts like a lid or a glass ceiling. Because the air above the inversion is surprisingly warm, when a thermal rises and hits that layer it suddenly finds itself surrounded by air that is warmer (and therefore lighter) than itself. The thermal loses its **buoyancy** at once and its climb stops dead.
+A temperature inversion acts like a lid or a glass ceiling. The air above the inversion is surprisingly warm. A thermal that rises into that layer suddenly finds itself surrounded by air warmer (and therefore lighter) than itself. The thermal loses its **buoyancy** at once and its climb stops dead.
 
 ::: {.callout-warning title="Safety"}
 Inversions shut convection down completely and so cap the height you can climb to in a glider. They also trap smoke, haze and industrial moisture near the surface, and in-flight visibility below the inversion layer can become very poor.
@@ -66,7 +66,7 @@ That warm air, now less dense and lighter, tends to rise by buoyancy, forming a 
 To find the best thermals, look for “sources” that warm up quickly (dry ground, harvested fields, rocky areas in the sun) and “triggers”, or release points that help the bubble break away from the ground, such as the crest of a hill facing the wind or a line of trees at the edge of a sunny field.
 :::
 
-Meteorologists distinguish two conceptual models of how that vertical flow is organised inside:
+Meteorologists use two models to describe how that vertical flow is organised:
 
 * **Bubble model**: heat builds up over the source until the bubble breaks away, as if you were pulling a balloon free. The climb is intermittent: the central core rises faster than the edges, where the air sinks. The glider must find the core and stay in it to get the best climb (@fig-03-cap03-modelo-burbuja).
 
@@ -124,7 +124,7 @@ TT has its limits: it overestimates instability if the temperature at 500 hPa is
 
 ### K-Index: the index for the mountains
 
-The K-Index combines the temperature gradient between 850 hPa and 500 hPa with humidity at low and middle levels. It is the usual measure for forecasting convective activity in mountain areas:
+The K-Index combines the temperature gradient between 850 hPa and 500 hPa with humidity at low and middle levels. In mountain areas it is the usual measure for forecasting convection:
 
 | K | Conditions for soaring |
 | --- | --- |
@@ -147,7 +147,7 @@ The K-Index was designed to predict thunderstorms, not the quality of soaring. I
 * **CAPE** (**Convective Available Potential Energy**): it quantifies the energy available for convection. It is the area between the parcel curve and the environment curve on the thermodynamic diagram. Reference values: 0 J/kg = absolute stability; 1,000–2,500 J/kg = an excellent thermal day; > 3,500 J/kg = severe convection likely.
 
 ::: {.callout-note title="Airmanship"}
-The CAPE values you see in general meteorology textbooks usually rate 1,000–2,500 J/kg as “moderately unstable”, keeping “very unstable” for higher values. For the glider pilot, that range is simply excellent: it gives strong thermals and high bases without the risk of severe thunderstorms. When you consult outside tools such as SkySight or the University of Wyoming, read CAPE in its aeronautical context, not on the scales used in convective meteorology for thunderstorms.
+General meteorology textbooks usually rate a CAPE of 1,000–2,500 J/kg as “moderately unstable” and keep “very unstable” for higher values. For the glider pilot, that range is simply excellent: it gives strong thermals and high bases without the risk of severe thunderstorms. When you consult outside tools such as SkySight or the University of Wyoming, read CAPE in its aeronautical context, not on the scales used in convective meteorology for thunderstorms.
 :::
 
 * **LI (Lifted Index)**: the difference between the temperature of the parcel and that of the environment at 500 hPa, after lifting the parcel adiabatically from the ground. Negative values indicate instability: the more negative, the greater the convective potential.

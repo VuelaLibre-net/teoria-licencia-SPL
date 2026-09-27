@@ -13,17 +13,17 @@ origen-commit: 2890174
 
 ## General circulation of the atmosphere
 
-Before getting into local climatology, it helps to set the planetary context. The Earth's atmosphere does not circulate at random: the sun's heat, the Earth's rotation and the temperature difference between the equator and the poles organise the flow into three circulation bands in each hemisphere, called the **general circulation cells**.
+Before looking at local climatology, it helps to see the planetary picture. The Earth's atmosphere does not circulate at random: the sun's heat, the Earth's rotation and the temperature difference between the equator and the poles organise the flow into three circulation bands in each hemisphere, called the **general circulation cells**.
 
 * **Hadley cell** (tropics, 0–30° latitude): heavily heated equatorial air rises, forming the **Intertropical Convergence Zone (ITCZ)**, the most active band of instability on the planet. Aloft it flows towards the poles and, at around 30°, sinks (subsidence), forming the subtropical anticyclones (such as the Azores high, which is key to the climate of the Peninsula).
 * **Ferrel cell** (temperate zone, 30–60° latitude): the westerly **polar jet stream** meanders through this band. Its fluctuations steer fronts and depressions towards the Iberian Peninsula. Pilots planning cross-country flights in winter or spring will feel its direct influence.
 * **Polar cell** (polar regions, 60–90° latitude): cold polar air that sinks at the poles and flows at the surface towards the middle latitudes, supplying them with the Arctic air masses that reach us behind winter cold fronts.
 
-Spain lies on the southern edge of the Ferrel cell, which makes it a transition zone: it can come under the subtropical anticyclonic influence (fine weather in summer) or see Atlantic fronts pass through from the Ferrel cell (rain and wind in winter). This border position produces exceptional weather variability, which is exactly what makes flying in the Peninsula so technically demanding and so rewarding.
+Spain lies on the southern edge of the Ferrel cell, which makes it a transition zone: it can come under the subtropical anticyclonic influence (fine weather in summer) or see Atlantic fronts pass through from the Ferrel cell (rain and wind in winter). Sitting on that border makes the weather exceptionally variable, and that is what makes flying in the Peninsula so technically demanding and so rewarding.
 
 ## Spain: a land of aeronautical contrasts
 
-Thanks to its complex terrain and geographical position, the Iberian Peninsula offers world-class conditions for gliding all year round.
+With its complex terrain and its position, the Iberian Peninsula offers world-class gliding conditions all year round.
 
 * **Wave and ridge flying:** in winter and in windy spring, the great mountain massifs act as giant deflectors. Particularly notable are the **mountain wave** in the Sistema Central (legendary sites such as Fuentemilanos, Santo Tomé, Pedro Bernardo or Arcones) and the powerful “Pyrenean convergence”. These conditions allow spectacular wave climbs and flights of extreme height and distance.
 * **Pure thermal flying:** in summer, the vast inland plains and plateaus (such as La Mancha) are heated intensely by the sun, producing formidable convection and huge convergence lines (such as the one over the Montes de Toledo), ideal for cross-country marathons.
@@ -69,7 +69,7 @@ In summer, **air mass storms** develop quickly in the middle of the day from cum
 
 At the height of summer, intense solar radiation bakes the surface of the vast plateaus of the inland Peninsula. This fierce heating produces large columns of rising warm air, establishing a permanent **Iberian thermal low** over central Spain.
 
-Although it is not as deep barometrically as a strong polar depression, this stagnant mass exerts a constant suction. Like a gigantic vacuum cleaner, the thermal low keeps pulling the dense, cool, moist air lying over the ocean and the surrounding seas and drawing it inland.
+Although it is shallower than a strong polar depression, this stagnant low exerts a constant suction. Like a gigantic vacuum cleaner, the thermal low keeps pulling the dense, cool, moist air lying over the ocean and the surrounding seas and drawing it inland.
 
 This relentless inflow of sea air turns into extensive **sea-breeze fronts** that reach tens of kilometres inland. As they run into the scorching continental air and the barriers of the mountain ranges, they force the unstable air upwards along formidable **convergence lines**: invisible motorways of lift that the experienced pilot learns to follow on cross-country flights.
 

@@ -1,0 +1,30 @@
+---
+origen: 04-comunicaciones/apendice-syllabus-oficial-easa---comunicaciones.qmd
+origen-commit: e0f5386
+---
+
+# Official EASA syllabus - communications
+
+The following syllabus corresponds to the subject **Communications** for the Sailplane Pilot Licence (SPL), as set out in AMC1 SFCL.130 (Annex to ED Decision 2020/004/R, AMC & GM to Part-SFCL).
+
+* 4.1. Definitions.
+* 4.2. VFR communications:
+  
+  * 4.2.1. VFR communication at uncontrolled airfields.
+  * 4.2.2. VFR communication at controlled airfields.
+  * 4.2.3. VFR communication with ATC (en-route).
+* 4.3. General operating procedures.
+* 4.4. Relevant weather information terms (VFR).
+* 4.5. Action required to be taken in case of communication failure.
+* 4.6. Distress and urgency procedures.
+* 4.7. General principles of VHF propagation and allocation of frequencies.
+
+This manual follows this syllabus point by point. If you have read it all, you have everything the theoretical examination can ask of you in communications.
+
+## Test yourself
+
+Theory sinks in by answering questions. This subject has its own online self-assessment test, with exam-style questions (currently in Spanish). For example:
+
+[https://vuelalibre.net/examenes/04-comunicaciones/](https://vuelalibre.net/examenes/04-comunicaciones/)
+
+Ask your instructor, who will tell you which question bank or format is most suitable, and follow that advice. It will be very useful both for consolidating what you learn in each chapter and for your general revision before you sit the theoretical examination.

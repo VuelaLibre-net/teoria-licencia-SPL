@@ -26,7 +26,7 @@ You must be fluent in this code. The indicators that matter most in practice inc
 
 * CAVOK: indicates ideal VFR conditions, and requires four things **at the same time**: horizontal visibility of 10 km or more; no cloud below 5,000 ft or the highest minimum sector altitude, whichever is greater; **no Cb or TCU at any level**; and no significant weather. That “at any level” is a classic exam trap: a cumulonimbus with its base at 7,000 ft rules out CAVOK even though it is well above the 5,000 ft threshold. The label is the ICAO one; around the club you will hear the backronym *Ceiling And Visibility OK*, which is not the official name.
 * NSC (No Significant Cloud): no cloud below 5,000 ft (or the highest minimum sector altitude, whichever is greater) and no Cb or TCU, when the CAVOK criteria are not met, typically because visibility is below 10 km.
-* NCD (**No Cloud Detected**) and SKC (**Sky Clear**): often confused with NSC, and they do not mean the same. `NCD` is reported by an **automatic** station whose sensors have detected no cloud; `SKC` is written by a **human observer** who sees a clear sky. `NSC`, on the other hand, does not say there is no cloud: it says none is operationally significant.
+* NCD (**No Cloud Detected**) and SKC (**Sky Clear**): often confused with NSC, but they mean different things. `NCD` is reported by an **automatic** station whose sensors have detected no cloud; `SKC` is written by a **human observer** who sees a clear sky. `NSC`, on the other hand, does not say there is no cloud: it says none is operationally significant.
 * Reduced visibility: abbreviations such as `FG` (**Fog**) or `BR` (**Mist**) indicate marginal or restrictive VFR conditions and can hold up take-offs for a while.
 
 Cloud cover is coded in **eighths of the sky covered**, or oktas, and there are four steps, not two:
@@ -47,7 +47,7 @@ In written METARs and TAFs, the wind direction is given relative to **true north
 
 ### A worked example of METAR decoding
 
-The message arrives in one piece, and the first step is to **split it into groups**; from there, each one is read on its own. This is the one we are going to decode:
+The message arrives in one piece. The first step is to **split it into groups** and read each one on its own. Here is the one we will decode:
 
 ```
 METAR LEMD 241100Z 18002KT 9999 FEW028 OVC040 16/09 Q1019 NOSIG=
@@ -62,11 +62,11 @@ Group by group:
 * **9999**: horizontal visibility of 10 km or more (excellent).
 * **FEW028**: few clouds (**Few**, 1 to 2 oktas) with a base 2,800 feet above aerodrome elevation.
 * **OVC040**: overcast (**Overcast**, 8 oktas) at 4,000 feet.
-* **16/09**: air temperature 16 °C and dew point 9 °C. (If we apply our thermodynamic golden rule: (16 − 9) × 400 = 2,800 feet. It matches the cloud reported at 2,800 feet perfectly.)
+* **16/09**: air temperature 16 °C and dew point 9 °C. (Apply the golden rule from the thermodynamics chapter: (16 − 9) × 400 = 2,800 feet, a perfect match for the cloud reported at 2,800 feet.)
 * **Q1019**: altimeter setting (QNH) of 1019 hPa.
 * **NOSIG**: TREND forecast indicating that **no** **sig**nificant changes are expected in the next 2 hours. The `=` marks the end of the message.
 
-With the message decoded, what is left is the hard part: deciding. This METAR is a **no-go** for soaring, and a single word says so: `OVC040`. With overcast at 4,000 feet no sun reaches the ground, and without sun there is no differential heating, no thermals and no flying. It does not matter that the visibility is excellent, the wind calm and the QNH comfortable. And notice how close the two came: `FEW028` matched the golden rule and promised cumulus at 2,800 feet, and the layer covering them is only 1,200 feet higher. Get into the habit of asking yourself, group by group, what each one does to the day.
+Decoding is the easy part. Deciding is harder. This METAR is a **no-go** for soaring, and a single word says so: `OVC040`. With overcast at 4,000 feet no sun reaches the ground, and without sun there is no differential heating, no thermals and no flying. It does not matter that the visibility is excellent, the wind calm and the QNH comfortable. And notice how close the two came: `FEW028` matched the golden rule and promised cumulus at 2,800 feet, and the layer covering them is only 1,200 feet higher. Get into the habit of asking yourself, group by group, what each one does to the day.
 
 Other groups that turn up every day and are not in this example:
 
@@ -96,9 +96,9 @@ While METAR and TAF cover specific airports, **Significant Weather Charts (SIGWX
 * SIGWX charts show the distribution of fronts (cold, warm, stationary, occluded) and pressure systems, with their forecast movement.
 * They identify axes of instability such as **troughs**, which come before the development of cumulus and showers.
 
-The associated services also issue specific warnings. They are easily confused, and what separates them is the level:
+The same services also issue specific warnings. They are easy to confuse; the difference is the level they cover:
 
-* **SIGMET** (**Significant Meteorological Information**): phenomena hazardous to any aircraft, **at any level** and throughout the FIR: severe icing (`SEV ICE`), severe turbulence (`SEV TURB`), embedded cumulonimbus, volcanic ash. Although most of these phenomena live above FL100, the warning also applies to you: the Cb whose top justifies the SIGMET has its base at your height.
+* **SIGMET** (**Significant Meteorological Information**): phenomena hazardous to any aircraft, **at any level** and throughout the FIR: severe icing (`SEV ICE`), severe turbulence (`SEV TURB`), embedded cumulonimbus, volcanic ash. Most of these phenomena live above FL100, but the warning still concerns you: the Cb whose top justifies the SIGMET has its base at your height.
 * **AIRMET** (**Airmen's Meteorological Information**): phenomena less severe than those in a SIGMET, **below FL100** (FL150 in mountainous areas). This is the one made to measure for us.
 * **GAMET** (**General Area Meteorological Forecast**): an area forecast in abbreviated plain language for low levels, not a one-off warning.
 

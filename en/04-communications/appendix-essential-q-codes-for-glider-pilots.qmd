@@ -1,0 +1,33 @@
+---
+origen: 04-comunicaciones/apendice-codigos-q-esenciales-para-el-piloto-de-planeador.qmd
+origen-commit: 4640b79
+---
+
+# Essential Q Codes for Glider Pilots
+
+**Q codes** are three-letter abbreviations beginning with “Q”, created to simplify communications in Morse code. Only a few have survived in modern VHF and in aeronautical documentation.
+
+As a glider pilot you will come across them mainly in two places: **altimetry** (QNH, QFE) and **direction finding** (QDM, QDR), plus the runway code **QFU**. The five in real use in gliding are in the tables below.
+
+## Altimetry codes
+
+| Code | Meaning |
+| --- | --- |
+| **QNH** | Altimeter sub-scale setting to show altitude above mean sea level (MSL). It is the standard setting for VFR below the transition altitude. With QNH set, the altimeter shows your altitude AMSL in flight, which is what you need to respect airspace ceilings. When ATC gives you a QNH, read the full figure back; *«Recibido»* (“Roger”) is not enough. |
+| **QFE** | Atmospheric pressure at aerodrome elevation or at the runway threshold. With QFE set, the altimeter reads zero feet on the ground at that aerodrome. In flight it shows height above that reference aerodrome, not above the ground you are flying over. Uncommon in European aviation today; QNH is the reference setting in ATS communications. |
+: Altimetry Q codes
+
+## Direction-finding and runway codes
+
+They come up when you ask a ground station for directions using a direction finder (VDF, *VHF Direction Finding*), or when the runway in use is reported.
+
+| Code | Meaning |
+| --- | --- |
+| **QDM** | Magnetic heading to steer **towards** the transmitting station. |
+| **QDR** | Magnetic bearing **from** the station (bearing or radial). |
+| **QFU** | Magnetic direction of the runway in use. It is the runway number multiplied by ten (runway 23 → QFU 230°). It comes up in AFIS communications or at fields with a lot of background noise, where the runway number might be misheard. |
+: Direction-finding and runway Q codes
+
+::: {.callout-note title="Airmanship"}
+On a cross-country flight in poor visibility, or after becoming disorientated, asking the nearest FIS for a QDM is a valid and recommended navigation aid. Do not keep it only for emergencies: use it whenever you are unsure of your position.
+:::

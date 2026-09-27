@@ -1,0 +1,90 @@
+# Anki deck for en/04-communications, chapter 7.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/04-comunicaciones/cap07.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/04-communications
+capitulo: 7
+titulo: "General principles of VHF propagation and allocation of frequencies"
+tarjetas:
+  - id: propagacion-vhf
+    tipo: basica
+    anverso: How do **VHF** waves travel, and what formula gives the range?
+    reverso: |
+      **In straight lines (line of sight).** A mountain in the way cuts you
+      off.
+
+      Range ≈ **1.23 × √H**: height is your ally.
+
+  - id: bloqueo-en-valles
+    tipo: basica
+    anverso: What precaution does flying low in the mountains call for?
+    reverso: |
+      **An alternative communications plan, or a relay through another
+      aircraft**: in deep valleys you lose the repeater network.
+
+  - id: squelch
+    tipo: basica
+    anverso: How do you set the **squelch**?
+    reverso: |
+      **Just to the point where the background hiss disappears, and not a bit
+      more.**
+
+      At maximum, weak signals from distant gliders or a distant ATC unit will
+      not open the gate: you will think the frequency is silent.
+    etiquetas: [Golden rule]
+
+  - id: frecuencias-clave
+    tipo: basica
+    anverso: Key gliding frequencies in Spain.
+    reverso: |
+      * **121.500**: international emergency, permanent watch.
+      * **122.600 / 123.375 / 123.400**: gliding.
+      * **123.450**: chat between pilots.
+      * **123.500**: generic uncontrolled aerodrome.
+
+      Regional FIS frequencies are in AIP-España **GEN 3.3**.
+
+  - id: radios-de-25-khz
+    tipo: basica
+    anverso: Is an old **25 kHz** radio still any use?
+    reverso: |
+      **As a general rule no, but there is an exemption.**
+
+      The AIP-España (**ENR 1.8**) keeps national 25 kHz sub-bands for
+      air-to-air and air-to-ground use **until 31 December 2028**, precisely
+      the gliding ones (122.600, 123.375, 123.400, 123.450, 123.500). Even so,
+      without 8.33 kHz you will not be able to talk to most ATC units.
+    etiquetas: [Regulation]
+
+  - id: canales-no-frecuencias
+    tipo: basica
+    anverso: Why do charts show dials ending in .005 or .010, or with a “C” suffix?
+    reverso: |
+      **Because with 8.33 kHz, *channels* are named, not exact frequencies.**
+
+      It is not a tuning error: tune the channel exactly as it appears on the
+      chart.
+    etiquetas: [Airmanship]
+
+  - id: boton-ident
+    tipo: basica
+    anverso: When do you press the transponder **IDENT** button?
+    reverso: "**Only when ATC asks for it.**"
+
+  - id: tmz-transpondedor
+    tipo: basica
+    anverso: Where is a transponder mandatory?
+    reverso: |
+      **In TMZs (SERA.6005(b), described in AIP-España ENR 2.1 and chart
+      ENR 6) and wherever the airspace class or the AIP (ENR 1.6) requires
+      it**: classes A and C, and D generally.
+    etiquetas: [Regulation]
+
+  - id: apuntar-frecuencias-fis
+    tipo: basica
+    anverso: Why do you write down the FIS frequencies before a cross-country flight?
+    reverso: |
+      **Because with poor coverage or after an emergency, looking them up on
+      the map is time you do not have.**
+    etiquetas: [Airmanship]

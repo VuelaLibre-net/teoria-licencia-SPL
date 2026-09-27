@@ -1,0 +1,125 @@
+---
+origen: 04-comunicaciones/glosario.qmd
+origen-commit: 2375434
+---
+
+# Glossary of terms
+
+Acronyms and technical terms of aeronautical communications for the SPL licence, in accordance with EASA and ICAO rules.
+
+**AFIL (Airborne Flight Plan)**
+: A flight plan filed from the air, without having been processed before take-off. The pilot contacts the ATC or FIS unit during the flight to give the flight plan details and ask to enter controlled airspace.
+
+**AFIS (Aerodrome Flight Information Service)**
+: The AFIS operator gives pilots information on wind, runway in use and known traffic, but issues no clearances and does not control traffic. Separation remains the responsibility of the pilot-in-command.
+
+**AIREP (Air-Report)**
+: An oral weather report that the pilot transmits by radio to FIS or ATC on meeting hazardous conditions that had not been forecast: severe turbulence, severe icing, strong mountain waves, thunderstorms or volcanic ash. Mandatory under the SERA Regulation and the EASA Part-SAO rules.
+
+**ATC (Air Traffic Control)**
+: Air traffic service intended to prevent collisions and to expedite and maintain an orderly flow of air traffic.
+
+**ATIS (Automatic Terminal Information Service)**
+: A voice recording in a continuous loop on the aerodrome's own VHF frequency. It gives the runway in use, weather conditions (wind, visibility, cloud, QNH) and operational information (works, NOTAMs, etc.). Each broadcast carries a letter of the phonetic alphabet, which changes when there is significant new information. Listen to it before calling the Tower.
+
+**ATS (Air Traffic Services)**
+: Generic term covering air traffic control (ATC), flight information service (FIS) and alerting service (ALRS).
+
+**Blind broadcast**
+: At uncontrolled aerodromes, each pilot voluntarily transmits their position, altitude and intentions on the aerodrome frequency. There is no station issuing clearances: separation depends on all the pilots on the frequency.
+
+**Blind transmission**
+: The procedure for when you suspect your receiver has failed but the transmitter still works. You regularly transmit your position and intentions on the right frequency, starting each message with *«Transmitiendo a ciegas debido a fallo del receptor»* (“Transmitting blind due to receiver failure”), even though no answer comes.
+
+**CAVOK (Visibility, cloud and present weather better than prescribed values or conditions)**
+: Term used in weather reports that replaces certain visibility, present weather and cloud data when the established conditions are met at the same time: visibility of 10 km or more, no cloud below 5,000 ft and no cumulonimbus, and no significant weather. The name is ICAO's; at the club you will hear the backronym *Ceiling And Visibility OK*, which is not the official name.
+
+**CTR (Control Zone)**
+: Controlled airspace extending upwards from the surface of the earth to a defined upper limit.
+
+**EOBT (Estimated Off-Block Time)**
+: The estimated time at which the aircraft will start the movement associated with departure.
+
+**FIS (Flight Information Service)**
+: Service provided to give advice and information useful for the safe and efficient conduct of flights.
+
+**FPL (Flight Plan)**
+: Information about the intended flight that the pilot submits to the air traffic services. **SERA.4001(b)** requires it, among other cases, for any flight provided with an air traffic control service —for VFR, in practice classes B, C and D, and controlled aerodromes—, for any flight crossing an international border, and for flights within areas or along routes designated by the competent authority to facilitate flight information, alerting and search and rescue. In class E, VFR traffic receives no control service, so it needs no flight plan, no radio and no clearance. It includes the aircraft type, callsign, departure and destination aerodromes, intended route, cruising level and estimated time.
+
+**ICAO (International Civil Aviation Organization)**
+: Specialised agency of the United Nations that sets standards and recommended practices for international civil aviation.
+
+**Interception**
+: A manoeuvre by which a military aircraft identifies a civil aircraft and gives it instructions by visual signals or by radio, governed by SERA.11015. The intercepted aircraft must follow the interceptor's visual instructions, notify ATS if possible, try to make contact on 121.5 MHz and select 7700 on the transponder; the interceptor's instructions take precedence over those from any other source while clarification is requested.
+
+**MAYDAY**
+: The international radio distress signal, repeated three times. It is used only when there is grave and imminent danger and immediate assistance is needed. It imposes absolute radio silence on the frequency on all stations not involved. False or malicious use is not penalised by EASA but by national law: in Spain, the Aviation Safety Act (Ley 21/2003) and, depending on the case, the Criminal Code.
+
+**METAR (Meteorological Aerodrome Report)**
+: A coded observation report from an aerodrome, issued at regular intervals (30 or 60 minutes), giving wind, visibility, cloud, temperature, dew point and pressure.
+
+**NORDO (No Radio)**
+: The situation in which an aircraft has lost all two-way radio communication. The procedure: select 7600 on the transponder, stay in VMC, land at the nearest suitable aerodrome and report by telephone after landing.
+
+**PAN PAN**
+: The international radio urgency signal, repeated three times. It is used when there is a serious safety problem that needs priority attention from ATC, but no grave and imminent danger and no need for immediate rescue. Unlike MAYDAY, it does not impose radio silence on other traffic.
+
+**PTT (Push-to-Talk)**
+: The transmit button. When pressed, the radio switches from receive to transmit; when released, it goes back to listening. In gliders it is usually on the control stick. If it sticks, it causes a blocked microphone.
+
+**QDM**
+: The Q code for the magnetic heading the aircraft must steer to reach the direction-finding (VDF) station. If you are disorientated, ask FIS for a QDM and you will be given the heading to reach the station.
+
+**QFE (Altimeter setting referred to aerodrome datum)**
+: Setting that makes the altimeter show height relative to the datum for which it was calculated and, at that point, read approximately zero.
+
+**QNH (Altimeter setting to mean sea level)**
+: Setting that lets the altimeter show altitude and, on the ground, approximately the elevation of the point considered.
+
+**Readback**
+: The pilot repeats back to the controller, word for word, the instructions or clearances received, confirming that they have been heard and understood. Mandatory for runway clearances, headings, altitudes, QNH, transponder codes and frequency changes. Replying only *«Recibido»* (“Roger”) or “Wilco” in these cases is a deviation from ICAO/EASA procedure.
+
+**RMZ (Radio Mandatory Zone)**
+: Airspace of defined dimensions in which the carriage and use of radio equipment is mandatory in accordance with the published requirements.
+
+**SAR (Search and Rescue)**
+: Organisation and operations intended to locate and assist aircraft and persons in distress.
+
+**SERA (Standardised European Rules of the Air)**
+: Common rules of the air laid down by Commission Implementing Regulation (EU) No 923/2012.
+
+**Squawk**
+: A four-digit code in octal (0–7) that the transponder transmits when interrogated by the secondary surveillance radar (SSR), allowing the controller to identify the aircraft on the screen. Standard VFR code in Europe: 7000. Codes 7700 (emergency), 7600 (radio failure, NORDO) and 7500 (unlawful interference) are reserved for those situations.
+
+**SSR (Secondary Surveillance Radar)**
+: Radar that interrogates on-board transponders and obtains coded information: the **squawk** code (Mode A), barometric altitude (Mode C) and extended identity (Mode S). It complements the primary radar by adding a label on the screen with the flight number and altitude.
+
+**TAF (Terminal Aerodrome Forecast)**
+: A coded weather forecast describing the conditions expected at a specific aerodrome over a given period (typically 9, 24 or 30 hours).
+
+**TMZ (Transponder Mandatory Zone)**
+: Airspace in which the carriage and operation of a transponder with the required capabilities is mandatory; on its own it does not require radio communication or listening watch, unless it is also an RMZ or it is so published.
+
+**Transponder (XPDR)**
+: On-board equipment that automatically answers interrogations from the secondary surveillance radar (SSR) by transmitting a **squawk** code and, depending on the mode, barometric altitude or extended identification data. It works in the UHF band (1,030/1,090 MHz), independently of the voice radio. Essential for being visible to other traffic's TCAS.
+
+**TWR (Aerodrome Control Tower)**
+: ATS unit established to provide control service to aerodrome traffic.
+
+**VAC (Visual Approach Chart)**
+: A chart for a specific aerodrome showing the visual reporting points of the CTR, the Tower frequencies, the preferred VFR arrival and departure routes and nearby obstacles. Published in the AIP España for each aerodrome.
+
+**VDF (VHF Direction Finding)**
+: A system that determines an aircraft's bearing from the direction of its radio signal. The associated Q codes (QDM, QDR, QTE) allow FIS to give the pilot the heading to reach or leave the station, which is useful when disorientated.
+
+**VFR (Visual Flight Rules)**
+: Rules applicable to flights conducted with visual references and within the corresponding weather and operational minima; the separation provided by ATC depends on the airspace class and the traffic involved.
+
+**VHF (Very High Frequency)**
+: The radio frequency band between 30 MHz and 300 MHz. Civil aeronautical voice communications use the sub-band from 118.000 to 136.975 MHz with amplitude modulation (AM). VHF waves travel in straight lines (**line of sight**), so range increases with altitude. Channel spacing in Europe: 8.33 kHz since Regulation (EU) No 1079/2012.
+
+**VMC (Visual Meteorological Conditions)**
+: Visibility and distance-from-cloud conditions equal to or better than the applicable minima.
+
+**VOLMET**
+: A continuous weather broadcast for aircraft in flight. It transmits METARs, TAFs and SIGMETs for several airports in a region in a loop. Unlike ATIS, which covers a single aerodrome, VOLMET lets you assess conditions at several alternates without crowding the control frequency.

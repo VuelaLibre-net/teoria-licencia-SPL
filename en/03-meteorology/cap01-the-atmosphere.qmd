@@ -5,7 +5,7 @@ origen-commit: 2890174
 
 # The atmosphere
 
-> Without understanding the atmosphere, no forecast chart makes sense.
+> No forecast chart makes sense until you understand the atmosphere.
 > In this chapter you will learn what the International Standard Atmosphere (ISA) is, why air
 > pressure, temperature and density change with altitude, and how those changes directly
 > affect the performance of your glider and your own physiology in flight.
@@ -20,7 +20,7 @@ At mean sea level (MSL), ISA sets the following reference conditions (@fig-03-ca
 * Atmospheric pressure: 1013.25 hPa (equivalent to 29.92 inHg or 760 mm Hg)
 * Air density: 1.225 kg/m^3^
 
-Because the ISA model assumes 0 % humidity, it does not define a **dew point** either. In the real atmosphere, the dew point is the temperature to which a mass of air must be cooled for the water vapour it contains to start condensing. When the air temperature and the dew point come close or become equal, the relative humidity reaches 100 % and the air is saturated: cloud or fog forms. For the glider pilot, the difference between temperature and dew point is the key figure for estimating the cumulus base and the likelihood of morning fog (see Chapter 3: Thermodynamics).
+Because the ISA model assumes 0 % humidity, it does not define a **dew point** either. In the real atmosphere, the dew point is the temperature to which a mass of air must be cooled for the water vapour it contains to start condensing. When the air temperature drops close to the dew point, or reaches it, the relative humidity hits 100 % and the air is saturated: cloud or fog forms. For a glider pilot, the gap between temperature and dew point is the figure that tells you the likely cumulus base and the chance of morning fog (see Chapter 3: Thermodynamics).
 
 ![Temperatures in the ISA standard atmosphere](imagenes/03-cap01-atmosfera-isa.jpg){#fig-03-cap01-atmosfera-isa}
 
@@ -39,7 +39,7 @@ Memorise these three equivalences of the ISA standard lapse rate: **2 °C / 1,00
 
 A glider flies on the air that meets its wings, so **lift** depends directly on air density.
 
-Lower air density (which amounts to a higher “density altitude”) means fewer molecules acting on the wings, which reduces the overall performance of the glider. Certain weather conditions reduce air density dangerously:
+Lower air density (a higher “density altitude”) means fewer molecules acting on the wings, and the glider performs worse overall. Some weather conditions cut density dangerously:
 
 * High temperatures (the air expands and becomes less dense).
 * Low atmospheric pressure.
@@ -51,7 +51,7 @@ A hot day at a high aerodrome (high density altitude) cuts performance sharply: 
 
 ## Partial pressure of oxygen and hypoxia
 
-Although the proportion of oxygen in the air stays constant at 21 % throughout the troposphere, the drop in atmospheric pressure as you climb lowers the pressure at which that oxygen enters your lungs. At 18,000 feet, atmospheric pressure is half of what it is at sea level.
+The air holds 21 % oxygen all the way up through the troposphere. What changes as you climb is the pressure: it falls, and so does the pressure at which that oxygen enters your lungs. At 18,000 feet, atmospheric pressure is half of what it is at sea level.
 
 ::: {.callout-note title="Airmanship"}
 A prolonged lack of oxygen in the body's tissues is called **hypoxia**. It matters so much for flight safety (loss of consciousness, impaired vision) that its symptoms, the Time of Useful Consciousness (TUC) and the use of oxygen equipment are covered in depth in **Book 2 — Human Performance**, chapter 4.

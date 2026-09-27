@@ -20,6 +20,8 @@ translated from (`origen-commit`). Terminology follows `en/terminologia.yml`.
 * **cap01–cap10, including the chapter summaries** — prose revised for natural English: shorter
   sentences, plainer wording, fewer calques from the Spanish. The content is unchanged: same
   facts, figures, rules and terminology, and the same structure as the Spanish chapters.
+* **Introduction and cap01–cap10** — a second pass on the prose: about fifty sentences made
+  shorter and more direct, with fewer set phrases. Content, figures and terminology unchanged.
 
 ## [0.8.0] — 27 September 2026
 

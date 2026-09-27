@@ -1,0 +1,12 @@
+---
+origen: 04-comunicaciones/epigrafe.qmd
+origen-commit: 928269b
+---
+
+# Epigraph {.unnumbered .unlisted .oculto}
+
+::: {.epigrafe}
+“The great enemy of communication, we find, is the illusion of it.”
+
+ — William H. Whyte (1950), American writer and urbanist, in *Fortune* magazine.
+:::

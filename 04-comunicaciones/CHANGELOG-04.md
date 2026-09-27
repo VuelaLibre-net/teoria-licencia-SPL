@@ -16,6 +16,15 @@ rompe la compilación.
 
 ## [En curso]
 
+**Qué releer:** **el epígrafe**, nada más.
+
+### Corregido
+
+* **Epígrafe** — la cita no es de George Bernard Shaw, a quien se le atribuye a menudo, sino de
+  William H. Whyte, en un artículo de la revista *Fortune* de 1950 («The great enemy of
+  communication, we find, is the illusion of it»). Se corrigen la atribución y el texto, que ahora
+  traduce la frase original.
+
 ## [1.0-rc.15] — 7 de agosto de 2026
 
 **Qué releer:** **nada.** El único cambio es el enlace del apéndice del syllabus y su QR; ni el texto ni las figuras cambian.

@@ -1,0 +1,62 @@
+# Anki deck for en/04-communications, chapter 5.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/04-comunicaciones/cap05.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/04-communications
+capitulo: 5
+titulo: "Action required to be taken in case of communication failure"
+tarjetas:
+  - id: codigo-7600-nordo
+    tipo: basica
+    anverso: Which code do you select after a **radio failure**, and what does it do?
+    reverso: |
+      **7600.** The aircraft stands out on the secondary surveillance radar
+      (SSR) as a **NORDO** case.
+
+  - id: procedimiento-fallo-radio
+    tipo: basica
+    anverso: The in-flight procedure once the radio failure is confirmed.
+    reverso: |
+      **Stay in VMC and land preferably at an uncontrolled aerodrome.**
+
+      If you have to go to a controlled one: fly past the tower away from the
+      operating area, rock your wings, position yourself parallel to the
+      runway in front of the tower and watch for the light signals.
+      **Telephone as soon as you land.**
+    etiquetas: [Safety]
+
+  - id: senales-de-luces-en-vuelo
+    tipo: cloze
+    texto: |
+      Light signals **in flight** (SERA): steady green = {{c1::cleared to
+      land}}; steady red = {{c2::give way}}; red flashes = {{c3::aerodrome
+      unsafe, do not land}}; green flashes = {{c4::return for landing}}; white
+      flashes = {{c5::land at this aerodrome}}.
+
+  - id: senales-de-luces-en-tierra
+    tipo: basica
+    anverso: On the **ground**, what do steady green and green flashes mean?
+    reverso: |
+      **Steady green: cleared for take-off. Green flashes: cleared to taxi.**
+
+      Careful: they do not mean the same as in flight.
+
+  - id: acusar-recibo-de-senal-luminosa
+    tipo: basica
+    anverso: How do you acknowledge a light signal from the tower?
+    reverso: |
+      **By day**: clearly visible yawing on the rudder or rocking of the wings.
+      **At night**: switching the landing or navigation lights on and off.
+      **On the ground**: moving the ailerons or the rudder.
+    etiquetas: [Golden rule]
+
+  - id: transmision-a-ciegas
+    tipo: basica
+    anverso: If only the **receiver** has failed, what do you do?
+    reverso: |
+      **Transmit your position and intentions on the right frequency,
+      preceded by *«Transmitiendo a ciegas debido a fallo del receptor»*
+      (“Transmitting blind due to receiver failure”).**
+
+      Repeat it at each change of circuit leg.

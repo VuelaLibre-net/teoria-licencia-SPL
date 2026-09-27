@@ -1,0 +1,93 @@
+# Anki deck for en/04-communications, chapter 6.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/04-comunicaciones/cap06.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/04-communications
+capitulo: 6
+titulo: "Distress and urgency procedures"
+tarjetas:
+  - id: cuando-mayday
+    tipo: basica
+    anverso: When do you declare **MAYDAY** (×3), and what does it do?
+    reverso: |
+      **In grave and imminent danger with a risk to life** (fire, collision,
+      structural failure).
+
+      It gives absolute priority and imposes **total radio silence** on
+      everyone else.
+
+  - id: cuando-pan-pan
+    tipo: basica
+    anverso: When do you use **PAN PAN** (×3)?
+    reverso: |
+      **In an urgency that calls for priority assistance but with no immediate
+      risk of an accident**: someone ill on board, disorientation, a
+      non-critical failure.
+
+      It asks for priority, not silence.
+
+  - id: silencio-ante-mayday-ajeno
+    tipo: basica
+    anverso: What may be transmitted on a frequency where a **Mayday** has been declared?
+    reverso: |
+      **Only direct help to the aircraft in distress, or the relay of its
+      message (*Mayday relay*).**
+    etiquetas: [Regulation]
+
+  - id: estructura-mensaje-emergencia
+    tipo: basica
+    anverso: The structure of a distress or urgency message.
+    reverso: |
+      **WHOM** (station) + **WHO** (callsign) + **WHERE** (position) + **WHAT
+      IS HAPPENING** (problem) + **WHAT YOU REQUEST** (intentions and
+      assistance).
+
+  - id: frecuencia-de-emergencia
+    tipo: basica
+    anverso: On which frequency do you declare the emergency?
+    reverso: |
+      **The one on which you are already in contact.** If that fails or
+      nobody answers, change to the international emergency frequency,
+      **121.500 MHz**.
+
+  - id: senales-de-interceptacion
+    tipo: cloze
+    texto: |
+      **Interceptor** signals: rocking its wings ahead of you and to your left
+      = {{c1::“Follow me”}}; abrupt climbing turn of 90° or more =
+      {{c2::“You may proceed”}}; gear down and landing lights on over the
+      runway = {{c3::“Land at this aerodrome”}}.
+    extra: |
+      You respond by rocking your wings and following. A copy of the signals
+      must be carried on board.
+      *Basis: SERA.11015; carriage on board, SAO.GEN.155.*
+
+  - id: procedimiento-de-interceptacion
+    tipo: basica
+    anverso: The full procedure when you are **intercepted**.
+    reverso: |
+      **Follow the visual instructions + notify ATS + call on 121.500 MHz +
+      squawk 7700.**
+
+  - id: prevalencia-del-interceptor
+    tipo: basica
+    anverso: If ATC tells you one thing and the interceptor another, whom do you obey?
+    reverso: |
+      **The interceptor**, while you ask for immediate clarification
+      (**SERA.11015(c) and (d)**).
+
+      Keep a smooth, predictable flight path, make no abrupt manoeuvres and
+      respond to every signal.
+    etiquetas: [Safety]
+
+  - id: senalizacion-de-un-velero
+    tipo: basica
+    anverso: How does a glider without navigation lights respond visually?
+    reverso: |
+      **With a wide, clear wing rock**, making up for the rest with the radio
+      (121.500 MHz) and the transponder (7700).
+
+      The best interception is the one that never happens: check the NOTAMs
+      and P and R areas before every cross-country flight.
+    etiquetas: [Airmanship]

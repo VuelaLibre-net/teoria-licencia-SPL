@@ -12,7 +12,7 @@ origen-commit: 2890174
 
 ## Anticyclones (H)
 
-An **anticyclone** (marked with an ‘H’ for **High** on synoptic charts; Spanish charts use ‘A’) is a large region of the atmosphere where the pressure is higher than in its surroundings. In these systems the dense air mass sinks gently and spreads out at the surface, a process known as **subsidence**.
+An **anticyclone** (marked with an ‘H’ for **High** on synoptic charts; Spanish charts use ‘A’) is a large region of the atmosphere where the pressure is higher than in its surroundings. The dense air sinks gently and spreads out at the surface, a process known as **subsidence**.
 
 As it descends, the air is compressed and warms adiabatically, which dries it out and strongly inhibits the vertical growth of convective cloud. In the northern hemisphere, the surface air flows outwards, turning clockwise. The isobars, usually widely spaced, indicate areas of calm or very light winds.
 
@@ -32,7 +32,7 @@ To plan the day's flight, look at the synoptic chart the evening before: if Spai
 
 ## Depressions (L)
 
-**Depressions** (marked with ‘L’ for **Low**; Spanish charts use ‘B’) are areas of low pressure: zones where the pressure is a **relative minimum compared with the surroundings**, with closed isobars around the centre. What defines them is this relationship with their surroundings, not an absolute threshold: there are depressions with a centre above 1,013 hPa, and anticyclones (thermal ones above all) whose edges are below that value.
+**Depressions** (marked with ‘L’ for **Low**; Spanish charts use ‘B’) are areas of low pressure: zones where the pressure is a **relative minimum compared with the surroundings**, with closed isobars around the centre. They are defined by comparison with their surroundings, not by an absolute threshold: there are depressions with a centre above 1,013 hPa, and anticyclones (thermal ones above all) whose edges are below that value.
 
 Unlike in an anticyclone, the pressure gradient forces the surrounding air to converge on the centre of the depression and rise from there. That ascent cools the air and encourages condensation, producing extensive cloud and active fronts with precipitation.
 
@@ -51,7 +51,7 @@ Anticyclones and depressions are not always perfect circles: they often send out
 
 ## Slack pressure: the barometric col
 
-A **col**, or **barometric col**, forms when two high-pressure centres and two low-pressure centres sit alternately around a central area and cancel each other's gradients. The result is an area of light, variable winds, with no clear dominant direction and no isobars with any appreciable push.
+A **col**, or **barometric col**, forms when two high-pressure centres and two low-pressure centres sit alternately around a central area and cancel each other's gradients. That leaves an area of light, variable winds, with no clear dominant direction and no isobars with any appreciable push.
 
 Although its calm makes it look harmless, this pattern brings its own operational problems, which depend on the season:
 1.  **In summer:** it stops cold fronts from clearing away the strong daytime heating. This stored energy can produce very violent, stationary, isolated local thunderstorms, which often bring hazards such as virga.

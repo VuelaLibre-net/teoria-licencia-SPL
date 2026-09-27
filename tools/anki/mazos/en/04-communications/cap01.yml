@@ -1,0 +1,116 @@
+# Anki deck for en/04-communications, chapter 1.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/04-comunicaciones/cap01.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/04-communications
+capitulo: 1
+titulo: "Definitions"
+tarjetas:
+  - id: banda-vhf-aeronautica
+    tipo: basica
+    anverso: Which band does aeronautical voice use, and with what channel spacing in Europe?
+    reverso: |
+      **VHF, 118–136.975 MHz, with 8.33 kHz spacing** (Regulation (EU)
+      No 1079/2012).
+
+      The international reference standard is **ICAO Annex 10**
+      (Volume II).
+    etiquetas: [Regulation]
+
+  - id: estacion-aeronautica-vs-de-aeronave
+    tipo: basica
+    anverso: What are the two stations in an aeronautical radio link called?
+    reverso: |
+      **The ground one is the “aeronautical station”; the pilot operates from
+      the “aircraft station”.**
+
+  - id: que-se-colaciona
+    tipo: basica
+    anverso: What must you **read back**?
+    reverso: |
+      Clearances, headings and altitudes, runway in use, **QNH**, frequency
+      changes, ATC transfers and the assigned transponder code.
+
+  - id: recibido-no-sustituye-colacion
+    tipo: basica
+    anverso: Is *«Recibido»* (“Roger”) or “Wilco” an acceptable reply to a clearance?
+    reverso: |
+      **No.** You must read the parameters back exactly as they were given.
+
+      *«Recibido»* never replaces a mandatory readback, and *«Afirmativo»* is
+      always avoided (the word is ***Afirma***, Affirm).
+    etiquetas: [Golden rule]
+
+  - id: colacion-y-runway-incursion
+    tipo: basica
+    anverso: Why is reading back a take-off or landing clearance critical?
+    reverso: |
+      **Because leaving it out is one of the most frequent causes of runway
+      incursions.**
+
+      If the controller does not hear the correct readback, they may clear
+      another aircraft onto the same runway. When in doubt, ask for
+      confirmation **before** you act.
+    etiquetas: [Safety]
+
+  - id: conservacion-de-grabaciones
+    tipo: basica
+    anverso: How long are recorded communications kept?
+    reverso: |
+      **At least 30 days**, and indefinitely if they are relevant to an
+      investigation or a claim.
+    etiquetas: [Regulation]
+
+  - id: disciplina-de-radio
+    tipo: basica
+    anverso: What is the **radio discipline** sequence?
+    reverso: |
+      **Think → Listen → Press and count one → Speak.**
+
+      Fewer than 100 words per minute, with the message prepared before you
+      press the PTT: who is calling, whom you are calling, what you need.
+    etiquetas: [Golden rule]
+
+  - id: transmision-de-numeros
+    tipo: basica
+    anverso: How are **numbers** transmitted on the radio?
+    reverso: |
+      **Digit by digit** (*«tres cuatro»*, “three four”, never *«treinta y
+      cuatro»*), except whole hundreds and thousands, which are said as units
+      (*«dos mil seiscientos»*, “two thousand six hundred”).
+
+  - id: transmision-de-frecuencias
+    tipo: basica
+    anverso: How are **frequencies** said, and what do you do before changing?
+    reverso: |
+      **With *«coma»* (“decimal”): *«uno dos cuatro coma cuatro cero»*.**
+
+      And **always read back the full new channel** before leaving the
+      frequency.
+    etiquetas: [Golden rule]
+
+  - id: matricula-abreviada
+    tipo: basica
+    anverso: When may you abbreviate the **registration**?
+    reverso: |
+      **Only once the tower has used it in abbreviated form first.**
+
+      First contact is always made with the full registration in phonetics.
+
+  - id: escala-de-legibilidad
+    tipo: basica
+    anverso: What scale is used for signal quality, and how long does a radio check last?
+    reverso: |
+      **From 1 (unreadable) to 5 (perfectly readable)**, and the check should
+      not last more than **10 seconds**.
+
+      If there is no answer, wait at least 10 seconds before trying again.
+    etiquetas: [Airmanship]
+
+  - id: niner
+    tipo: basica
+    anverso: Why is 9 pronounced **“niner”** on international frequencies?
+    reverso: |
+      **So that it is not confused with “nein” (no, in German).**
+    etiquetas: [Airmanship]

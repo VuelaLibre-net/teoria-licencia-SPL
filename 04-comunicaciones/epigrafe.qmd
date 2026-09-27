@@ -1,7 +1,7 @@
 # Epígrafe {.unnumbered .unlisted .oculto}
 
 ::: {.epigrafe}
-«El mayor problema de la comunicación es la ilusión de que se ha llevado a cabo.»
+«El gran enemigo de la comunicación, según descubrimos, es la ilusión de que existe.»
 
- — George Bernard Shaw (1950), dramaturgo, crítico literario y premio Nobel de Literatura en 1925.
+ — William H. Whyte (1950), escritor y urbanista estadounidense, en la revista *Fortune*.
 :::

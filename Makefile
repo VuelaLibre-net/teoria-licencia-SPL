@@ -29,6 +29,7 @@ LIBROS = 01-derecho-aereo-atc \
 LIBROS_EN = en/01-air-law-atc \
             en/02-human-performance \
             en/03-meteorology \
+            en/04-communications \
             en/07-flight-performance-planning
 
 .PHONY: all en help clean rag epub web anki reconocimientos $(LIBROS) $(LIBROS_EN) completo completo-pdf completo-epub completo-rag
