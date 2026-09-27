@@ -1,0 +1,6 @@
+---
+origen: 03-meteorologia/index.qmd
+origen-commit: d4f43bb
+---
+
+# Meteorology {.unnumbered .unlisted .oculto}
