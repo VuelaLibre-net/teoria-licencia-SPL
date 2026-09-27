@@ -36,8 +36,8 @@ espiral*. El resto son erratas y comillas.
 ### Maqueta y producción
 
 * **Capítulos y Glosario** — las comillas rectas ("…") pasan a comillas latinas («…»), como en el
-  resto de la colección. No cambia el texto. Queda la de *Curva polar* en el glosario, que comparte
-  definición con el libro 07 y debe cambiar a la vez en los dos.
+  resto de la colección. No cambia el texto. La de *Curva polar* en el glosario cambia a la vez en el
+  libro 07, que comparte la definición.
 
 ## [1.0-rc.8] — 7 de agosto de 2026
 
