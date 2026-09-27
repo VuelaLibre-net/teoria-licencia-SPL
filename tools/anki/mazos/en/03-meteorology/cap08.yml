@@ -1,0 +1,72 @@
+# Anki deck for en/03-meteorology, chapter 8.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/03-meteorologia/cap08.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/03-meteorology
+capitulo: 8
+titulo: "Climatology"
+tarjetas:
+  - id: recursos-por-temporada-en-espana
+    tipo: basica
+    anverso: Which resource do you look for in each season in Spain?
+    reverso: |
+      **Windy winter and spring: wave in the Sistema Central or the Pyrenees.
+      Summer: thermals in La Mancha and inland.**
+    etiquetas: [Golden rule]
+
+  - id: baja-termica-peninsular
+    tipo: basica
+    anverso: What is the **Iberian thermal low**, and what does it produce?
+    reverso: |
+      **A permanent summer low caused by the heating of central Spain.**
+
+      It draws in air from the sea, strengthens the coastal breezes inland and
+      creates convergence lines that are ideal for *cross-country* flying.
+
+  - id: convergencias-como-autopistas
+    tipo: basica
+    anverso: How do you make use of the convergence lines created by the thermal low?
+    reverso: |
+      **By identifying them in RASP or SkySight and planning your route along
+      them.**
+
+      With a well-established sea breeze, a single line can give you tens of
+      kilometres without losing height.
+    etiquetas: [Golden rule]
+
+  - id: estacionalidad-espanola
+    tipo: basica
+    anverso: What does each season offer in Spain?
+    reverso: |
+      **Spring**: instability and good local flying.
+      **Summer**: high cloud bases and dry heat thunderstorms.
+      **Autumn**: rain and cut-off lows (DANA).
+
+  - id: separacion-de-laderas-de-sotavento
+    tipo: basica
+    anverso: What minimum separation do you keep over a **lee** slope?
+    reverso: |
+      **At least 300 ft of vertical separation from the terrain.**
+
+      Katabatic winds and rotors appear at low altitude with no visual warning.
+    etiquetas: [Safety]
+
+  - id: patrones-locales-de-rotor
+    tipo: basica
+    anverso: Why should you compare the wind with the relief map of the airfield?
+    reverso: |
+      **Because northerly winds produce rotors in different sectors from
+      southerly or westerly ones.**
+
+      Learn the local patterns and ask pilots with experience of the area.
+    etiquetas: [Airmanship]
+
+  - id: tormentas-de-evolucion
+    tipo: basica
+    anverso: When should you land in the face of summer **air mass storms**?
+    reverso: |
+      **As soon as you see cumulus growing upwards at an increasing rate.**
+
+      Do not wait to see the anvil before you decide.
+    etiquetas: [Safety]

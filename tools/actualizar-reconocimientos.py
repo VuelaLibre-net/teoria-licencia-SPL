@@ -42,6 +42,7 @@ FOOTER = ":::\n"
 DIRECTORIOS_EN = [
     ("en/01-air-law-atc", 1),
     ("en/02-human-performance", 2),
+    ("en/03-meteorology", 3),
     ("en/07-flight-performance-planning", 7),
 ]
 

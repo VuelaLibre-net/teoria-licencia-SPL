@@ -1,0 +1,38 @@
+# Anki deck for en/03-meteorology, chapter 1.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/03-meteorologia/cap01.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/03-meteorology
+capitulo: 1
+titulo: "The atmosphere"
+tarjetas:
+  - id: atmosfera-isa
+    tipo: basica
+    anverso: What does the **ISA** atmosphere define at sea level?
+    reverso: "**15 °C, 1013.25 hPa and 0 % humidity.**"
+
+  - id: gradientes-estandar-isa
+    tipo: cloze
+    texto: |
+      ISA standard lapse rates: temperature falls by {{c1::2 °C}} for every
+      1,000 ft; pressure falls by {{c2::1 hPa}} for every {{c3::30 ft (or 9 m)}}.
+    extra: |
+      If you climb 90 m, the pressure falls by 10 hPa; if you climb 3,000 ft, it
+      falls by 100 hPa.
+
+  - id: altitud-de-densidad
+    tipo: basica
+    anverso: What does a hot day at a high aerodrome do to performance?
+    reverso: |
+      **It makes it drastically worse**: the tug climbs much more slowly, the
+      glider needs more runway and there is less lift for the same angle of
+      attack.
+    etiquetas: [Safety]
+
+  - id: presion-parcial-de-oxigeno
+    tipo: basica
+    anverso: Does the **proportion** of oxygen fall with height?
+    reverso: |
+      **No: it stays at 21 %.** What falls sharply is its **partial pressure**,
+      and that is what causes hypoxia.

@@ -1,0 +1,101 @@
+# Anki deck for en/03-meteorology, chapter 10.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/03-meteorologia/cap10.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/03-meteorology
+capitulo: 10
+titulo: "Meteorological information"
+tarjetas:
+  - id: metar-vs-taf
+    tipo: basica
+    anverso: What is the difference between a **METAR** and a **TAF**?
+    reverso: |
+      **METAR: a current snapshot, every 30 minutes. TAF: a forecast, for 9, 24
+      or 30 hours.**
+
+  - id: codigos-fg-br-cavok
+    tipo: cloze
+    texto: |
+      In a METAR, {{c1::CAVOK}} means visibility ≥ 10 km, no cloud below
+      5,000 ft and no {{c2::Cb or TCU at any level}}; {{c3::FG}} means fog and
+      {{c4::BR}} mist.
+
+  - id: speci
+    tipo: basica
+    anverso: What is a **SPECI**, and how does it relate to the METAR?
+    reverso: |
+      **The special aerodrome report: same format as the METAR, but issued
+      outside the regular cycle because something has changed significantly.**
+
+      Wind veering or strengthening, visibility or cloud base crossing an
+      operational threshold, a thunderstorm appearing. It is more recent than
+      the current METAR, so it takes precedence over it.
+
+  - id: octas-cobertura
+    tipo: cloze
+    texto: |
+      Cloud cover is coded in eighths: {{c1::FEW}} is 1–2 oktas, {{c2::SCT}} is
+      3–4, {{c3::BKN}} is 5–7 and {{c4::OVC}} is 8.
+
+  - id: viento-verdadero-magnetico
+    tipo: basica
+    anverso: Which north is the wind direction in a written METAR or TAF referred to?
+    reverso: |
+      **True north.**
+
+      The wind that the Tower or the ATIS gives you by radio is referred to
+      **magnetic north**, like the runway numbers, so you can compare it with
+      the runway heading without correcting anything.
+    etiquetas: [Regulation]
+
+  - id: sigwx
+    tipo: basica
+    anverso: What do **SIGWX** charts show, and what are they for?
+    reverso: |
+      **Fronts and areas of turbulence and icing.** Crucial for planning long
+      routes.
+
+  - id: sigmet-airmet-nivel
+    tipo: basica
+    anverso: How do a **SIGMET** and an **AIRMET** differ?
+    reverso: |
+      **In level and severity: a SIGMET covers any level in the FIR; an AIRMET,
+      less severe phenomena below FL100 (FL150 in mountainous areas).**
+
+      A GAMET is not a warning but an area forecast in abbreviated plain
+      language for low levels.
+
+  - id: aemet-ama-fuente-oficial
+    tipo: basica
+    anverso: What is the **official, binding** source for the weather briefing?
+    reverso: |
+      **AEMET, the Spanish State Meteorological Agency, and its aeronautical
+      platform AMA** (Autoservicio Meteorológico Aeronáutico): METAR, SPECI,
+      TAF, SIGMET and AIRMET.
+
+      Not NOTAMs: those are published by the aeronautical information service
+      (AIS; in Spain, ENAIRE). Windy, Meteoblue, SkySight, TopMeteo, RASP or
+      Meteo-Parapente are part of everyday operational reality, but they never
+      replace the official briefing.
+    etiquetas: [Airmanship]
+
+  - id: cruzar-fuentes
+    tipo: basica
+    anverso: Is a single weather source enough?
+    reverso: |
+      **No: cross-check the METAR and TAF for the field and the alternates +
+      SIGWX + the day's sounding + what you see at the launch point.**
+
+      If the weather looks doubtful, the best flight is the one that stays on
+      the ground.
+
+  - id: cultura-no-go
+    tipo: basica
+    anverso: If what you see at the airfield contradicts a favourable forecast, which wins?
+    reverso: |
+      **What you see.**
+
+      A cancelled flight has never been an accident. A **no-go** culture is not
+      cowardice: it is the judgement that marks a mature pilot.
+    etiquetas: [Safety]

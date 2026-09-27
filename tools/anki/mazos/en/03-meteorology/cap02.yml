@@ -1,0 +1,101 @@
+# Anki deck for en/03-meteorology, chapter 2.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/03-meteorologia/cap02.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/03-meteorology
+capitulo: 2
+titulo: "Wind"
+tarjetas:
+  - id: motor-del-viento
+    tipo: basica
+    anverso: What drives the wind, and how do you read its strength on a chart?
+    reverso: |
+      **The gradient force: air flows from high (H) to low (L) pressure.**
+
+      The closer together the isobars, the stronger it blows.
+
+  - id: coriolis-y-geostrofico
+    tipo: basica
+    anverso: What does the **Coriolis** force do in the northern hemisphere?
+    reverso: |
+      **It deflects the wind to the right**, until aloft it blows parallel to
+      the isobars: this is the **geostrophic wind**.
+
+  - id: buys-ballot
+    tipo: basica
+    anverso: State **Buys Ballot's** law.
+    reverso: |
+      **In the northern hemisphere, with your back to the wind, the low
+      pressure is on your left.**
+    etiquetas: [Golden rule]
+
+  - id: friccion-y-gradiente-de-viento
+    tipo: basica
+    anverso: How does the wind change near the ground, and what does it mean for landing?
+    reverso: |
+      **Friction slows it and weakens Coriolis, so it crosses the isobars
+      towards the low pressure.**
+
+      In the last few metres it will not only be lighter but also from a
+      different direction: keep a speed margin on the approach so as not to
+      lose lift in the round-out.
+    etiquetas: [Safety]
+
+  - id: anabatico-y-catabatico
+    tipo: basica
+    anverso: What is the difference between an **anabatic** and a **katabatic** wind?
+    reverso: |
+      **Anabatic**: by day, the sun warms the slopes before the valley and the
+      air rises.
+      **Katabatic**: at night, cold air flows down the slope.
+
+  - id: restitucion
+    tipo: basica
+    anverso: What is **restitution**, and when does it happen?
+    reverso: |
+      **Late in the afternoon: the katabatic winds on both slopes squeeze the
+      warm air in the middle of the valley and force it upwards.**
+
+      It gives broad, smooth lift that lets you stretch the flight into the
+      evening, in completely calm air.
+    etiquetas: [Airmanship]
+
+  - id: foehn-y-stau
+    tipo: basica
+    anverso: Why does the air reach the lee side so warm in a **Foehn**?
+    reverso: |
+      **Because it rises on the windward side, precipitating and releasing
+      latent heat (SALR), and comes down dry, warming at the full DALR.**
+
+      It can arrive up to 15 °C warmer. The “Foehn wall” marks the crest.
+
+  - id: reconocer-un-foehn
+    tipo: basica
+    anverso: How do you recognise a **Foehn** from the airfield?
+    reverso: |
+      **Temperature several degrees above normal for the month, unusually low
+      relative humidity and a stationary mass of cloud over the mountains.**
+
+      Very high bases and explosive thermals. Make the most of it, but watch
+      out for rotors near the ground on the lee side.
+    etiquetas: [Golden rule]
+
+  - id: rotores-en-sotavento-de-foehn
+    tipo: basica
+    anverso: What lurks in the lee of a mountain range under an **active Foehn**?
+    reverso: |
+      **Rotors with severe turbulence at the lower levels.**
+
+      Do not be lulled by clear skies and warm temperatures: keep your altitude
+      when crossing and avoid lee slopes at low height.
+    etiquetas: [Safety]
+
+  - id: convergencia-de-brisa
+    tipo: basica
+    anverso: How do you identify a sea-breeze **convergence line**?
+    reverso: |
+      **By the different cumulus base heights on either side and by the band of
+      active cloud over the boundary.**
+
+      It is a mini-front with excellent lift for *cross-country* flying.

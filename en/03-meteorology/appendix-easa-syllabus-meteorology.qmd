@@ -1,0 +1,29 @@
+---
+origen: 03-meteorologia/apendice-syllabus-oficial-easa---meteorologia.qmd
+origen-commit: e0f5386
+---
+
+# Official EASA syllabus - meteorology
+
+The following syllabus corresponds to the subject **Meteorology** for the Sailplane Pilot Licence (SPL), as set out in AMC1 SFCL.130 (Annex to ED Decision 2020/004/R, AMC & GM to Part-SFCL).
+
+* 3.1. The atmosphere.
+* 3.2. Wind.
+* 3.3. Thermodynamics.
+* 3.4. Clouds and fog.
+* 3.5. Precipitation.
+* 3.6. Air masses and fronts.
+* 3.7. Pressure systems.
+* 3.8. Climatology.
+* 3.9. Flight hazards.
+* 3.10. Meteorological information.
+
+This manual has been structured to follow this official syllabus faithfully, so that you cover every point needed for the theoretical examination.
+
+## Test yourself
+
+Theory sinks in by answering questions. This subject has its own online self-assessment test, with exam-style questions (currently in Spanish). For example:
+
+[https://vuelalibre.net/examenes/03-meteorologia/](https://vuelalibre.net/examenes/03-meteorologia/)
+
+Ask your instructor, who will tell you which question bank or format is most suitable, and follow that advice. It will be very useful both for consolidating what you learn in each chapter and for your general revision before you sit the theoretical examination.

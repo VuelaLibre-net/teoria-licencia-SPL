@@ -1,0 +1,67 @@
+# Anki deck for en/03-meteorology, chapter 9.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/03-meteorologia/cap09.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/03-meteorology
+capitulo: 9
+titulo: "Flight hazards"
+tarjetas:
+  - id: ciclo-de-la-tormenta
+    tipo: cloze
+    texto: |
+      Stages of a thunderstorm: {{c1::developing}} (cumulus, updraught
+      dominant, no rain), {{c2::mature}} (updraught and downdraught together,
+      hail, lightning and *downburst*) and {{c3::dissipating}} (downdraught
+      dominant).
+    extra: The **mature** stage is the most dangerous.
+
+  - id: embedded-cb
+    tipo: basica
+    anverso: What are **embedded Cb**, and why are they dangerous?
+    reverso: |
+      **Thunderstorm cells embedded in thick cloud layers** (warm or occluded
+      fronts) that hide their presence.
+
+      When severe systems are forecast or there are signs of strong
+      instability, give priority to getting back on the ground quickly and
+      safely.
+    etiquetas: [Safety]
+
+  - id: tipos-de-engelamiento
+    tipo: basica
+    anverso: What kinds of ice deposit are there, and which is the worst?
+    reverso: |
+      **Hoar frost** (strictly speaking not icing, since it forms by
+      deposition), **rime ice**, **mixed ice** and **clear ice**.
+
+      **Clear ice** is the most dangerous: invisible and uneven. Greatest risk
+      between 0 and −15 °C.
+
+  - id: actuar-ante-engelamiento
+    tipo: basica
+    anverso: What do you do at the first sign of **icing**?
+    reverso: |
+      1. **Turn through 180°** and get out of the cloud.
+      2. **Descend** towards levels where the temperature is above zero.
+      3. **Do not wait**: it speeds up as more of the surface is covered.
+
+      A glider with structural ice stalls well above its usual speed and
+      **with no warning buffet**.
+    etiquetas: [Safety]
+
+  - id: turbulencia-de-estela
+    tipo: basica
+    anverso: How long do you wait behind a heavy aircraft, and why?
+    reverso: |
+      **Three minutes.** The wake **sinks slowly** and can roll you over
+      instantly.
+
+  - id: cizalladura-y-downburst
+    tipo: basica
+    anverso: What sequence does a **downburst** produce on final?
+    reverso: |
+      **First a headwind, then sudden sink and a tailwind.**
+
+      Wind shear is a sudden change of wind on final; losing headwind speed can
+      put you on the ground.

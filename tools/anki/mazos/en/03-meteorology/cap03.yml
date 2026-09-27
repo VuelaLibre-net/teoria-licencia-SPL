@@ -1,0 +1,115 @@
+# Anki deck for en/03-meteorology, chapter 3.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/03-meteorologia/cap03.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/03-meteorology
+capitulo: 3
+titulo: "Thermodynamics"
+tarjetas:
+  - id: estabilidad-atmosferica
+    tipo: basica
+    anverso: What does it mean for the atmosphere to be **stable** or **unstable**?
+    reverso: |
+      **Stable**: a bubble pushed upwards tends to sink back.
+      **Unstable**: it keeps rising on its own.
+
+      Soaring lives on instability.
+
+  - id: dalr-y-salr
+    tipo: cloze
+    texto: |
+      **Dry** air cools by {{c1::3 °C}} for every 1,000 ft as it rises
+      (**DALR**); **saturated** air by only {{c2::1.5 °C}} (**SALR**).
+
+  - id: altura-de-la-base-de-los-cumulos
+    tipo: basica
+    anverso: How do you estimate the height of the **cumulus base**?
+    reverso: |
+      **(Air temperature − dew point) × 400 = cloud base height, in feet.**
+
+      The dew point and the temperature converge at about 2.5 °C for every
+      1,000 ft of ascent.
+    etiquetas: [Golden rule]
+
+  - id: inversiones
+    tipo: basica
+    anverso: What is an **inversion**, and what effects does it have?
+    reverso: |
+      **A layer where temperature rises with height.**
+
+      It acts as a lid: it stops thermals and traps smoke, haze and moisture
+      near the surface, greatly reducing visibility below it.
+    etiquetas: [Safety]
+
+  - id: fuentes-y-disparadores
+    tipo: basica
+    anverso: What do you look for to find good thermals?
+    reverso: |
+      **Sources** that warm up quickly (dry ground, harvested fields, rock in
+      the sun) and **triggers** that help the bubble break away: a crest facing
+      the wind, a line of trees at the edge of a field.
+    etiquetas: [Airmanship]
+
+  - id: tt-y-k
+    tipo: basica
+    anverso: What does each one measure, **TT** and the **K-Index**?
+    reverso: |
+      **TT tells you how much “fuel” the atmosphere has to build a Cb over flat
+      country; K tells you the same for the mountains.**
+
+      Do not rely on just one: use them together before every *pre-flight*.
+    etiquetas: [Airmanship]
+
+  - id: limitaciones-del-tt
+    tipo: basica
+    anverso: When does **TT** let you down?
+    reverso: |
+      **It overestimates instability if the temperature at 500 hPa is very low
+      without convective support lower down, and it does not pick up strong
+      stability or high humidity below 850 hPa well.**
+
+      In those cases, back it up with the K-Index and CAPE.
+    etiquetas: [Safety]
+
+  - id: limitaciones-del-k
+    tipo: basica
+    anverso: When is the **K-Index** less useful?
+    reverso: |
+      **In dry areas such as the Meseta Central**, where low humidity gives low
+      K values even with strong thermals, **and in the mountains**, if the
+      850 hPa level lies close to the ground.
+
+      It was designed to predict thunderstorms, not the quality of soaring.
+    etiquetas: [Airmanship]
+
+  - id: cape-en-contexto-volovelista
+    tipo: basica
+    anverso: How should a **CAPE** of 1,000–2,500 J/kg be read for soaring?
+    reverso: |
+      **As excellent**, not as “moderately unstable”.
+
+      It gives strong thermals and high bases without the risk of severe
+      thunderstorms. The scales in general textbooks come from convective
+      meteorology, not aviation.
+    etiquetas: [Airmanship]
+
+  - id: dia-termonuclear
+    tipo: basica
+    anverso: The numerical signature of an **exceptional convection day**.
+    reverso: |
+      **TT between 48 and 55, K between 15 and 20, CAPE between 1,000 and
+      2,500 J/kg, negative LI and light, variable winds.**
+
+      These are the days for distance records.
+    etiquetas: [Golden rule]
+
+  - id: umbrales-de-riesgo-de-tormenta
+    tipo: basica
+    anverso: Which combination of indices signals a **high risk of daytime thunderstorms**?
+    reverso: |
+      **TT > 55 or K > 25 together with CAPE > 2,500 J/kg.**
+
+      Plan to land before 16:00 and have an alternative field identified before
+      the convection builds.
+    etiquetas: [Safety]
