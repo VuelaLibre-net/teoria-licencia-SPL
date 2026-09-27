@@ -1,0 +1,50 @@
+project:
+  type: book
+  output-dir: _book
+
+lang: en
+version: "0.8.0"
+repo-url: "https://github.com/VuelaLibre-net/teoria-licencia-SPL"
+cubierta: "cover/frente.jpg"
+contracubierta: "cover/reverso.jpg"
+
+book:
+  title: "Communications"
+  author: "VuelaLibre.net"
+  chapters:
+    - index.qmd
+    - licence.qmd
+    - dedication.qmd
+    - epigraph.qmd
+    - acknowledgements.qmd
+    - introduction.qmd
+    - cap01-definitions.qmd
+    - cap02-vfr-communications.qmd
+    - cap03-general-operating-procedures.qmd
+    - cap04-relevant-weather-information-terms-vfr.qmd
+    - cap05-action-required-to-be-taken-in-case-of-communication-failure.qmd
+    - cap06-distress-and-urgency-procedures.qmd
+    - cap07-general-principles-of-vhf-propagation-and-allocation-of-frequencies.qmd
+  appendices:
+    - appendix-easa-syllabus-communications.qmd
+    - appendix-essential-q-codes-for-glider-pilots.qmd
+    - glossary.qmd
+    - bibliography.qmd
+    - colophon.qmd
+    - back-cover.qmd
+
+format:
+  orange-book-es-typst:
+    toc: true
+    number-sections: true
+    keep-typ: true
+    margin:
+      top: 2.5cm
+      bottom: 2.5cm
+  epub:
+    # Los .qmd llevan la marca GUÍA-DE-LECTURA como comentario HTML, para el
+    # editor. Typst los descarta solos; el EPUB los arrastraría al entregable.
+    strip-comments: true
+    toc: true
+    epub-cover-image: cover/frente.jpg
+    include-in-header: _extensions/orange-book-es/epub-estilos.html
