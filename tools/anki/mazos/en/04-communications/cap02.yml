@@ -1,0 +1,165 @@
+# Anki deck for en/04-communications, chapter 2.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/04-comunicaciones/cap02.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/04-communications
+capitulo: 2
+titulo: "VFR communications"
+tarjetas:
+  - id: autoinformacion
+    tipo: basica
+    anverso: How is the radio used at a field **without a tower**?
+    reverso: |
+      **By blind broadcast: you are the controller.** You broadcast your
+      position and intentions into the air.
+
+      *«Fuentemilanos, velero EC-BRT, viento en cola pista 34»*
+      (“Fuentemilanos, glider EC-BRT, downwind runway 34”). In a blind
+      broadcast the callsign goes **at the beginning**.
+
+  - id: afis-no-controla
+    tipo: basica
+    anverso: What does an **AFIS** service provide?
+    reverso: |
+      **Information only** (wind, runway in use, weather). **It does not
+      control.**
+
+      The final decision and separation remain with the pilot-in-command.
+    etiquetas: [Regulation]
+
+  - id: ver-y-evitar
+    tipo: basica
+    anverso: Can a pilot rely on “nobody having called their position”?
+    reverso: |
+      **No.** Not everyone has a radio, or has heard you.
+
+      Make sure **visually** that the runway and final are clear before you
+      turn. It is a common fatal mistake on the base-to-final turn.
+    etiquetas: [Safety]
+
+  - id: sintonizar-con-antelacion
+    tipo: basica
+    anverso: How far ahead do you tune the field frequency, and why?
+    reverso: |
+      **Ten minutes before.** Listening to others gives you the runway in use,
+      the wind and the traffic density.
+
+  - id: circuito-estandar
+    tipo: basica
+    anverso: Unless told otherwise, which way is the circuit flown, and what do you report?
+    reverso: |
+      **Left-hand.** You report **joining, downwind, base and final**.
+
+  - id: circuitos-separados-velero-motor
+    tipo: basica
+    anverso: At fields with a lot of gliding activity, where does each circuit go?
+    reverso: |
+      **The glider circuit may be on one side of the runway and the powered
+      circuit (tugs included) on the other.**
+
+      Always check the aerodrome chart before the flight.
+    etiquetas: [Golden rule]
+
+  - id: prioridad-de-paso-sera-3210
+    tipo: cloze
+    texto: |
+      Order of **right of way**, from highest to lowest: {{c1::balloons}} >
+      {{c2::gliders}} > {{c3::airships}} > {{c4::power-driven aircraft}}.
+    extra: |
+      A glider has priority over every power-driven heavier-than-air aircraft
+      and **gives way to balloons**. It never justifies relaxing your lookout.
+      *Basis: SERA.3210.*
+
+  - id: parapentes-y-alas-delta
+    tipo: basica
+    anverso: What do you do about paragliders and hang gliders, which SERA does not mention in the hierarchy?
+    reverso: |
+      **Treat them like a glider and, in addition, give way to them.**
+
+      They manoeuvre much worse than you and descend with no way of climbing
+      back. When in doubt, keep clear.
+    etiquetas: [Airmanship]
+
+  - id: fraseologia-torno
+    tipo: basica
+    anverso: Radio phraseology for a **winch** launch (as said in Spain).
+    reverso: |
+      *«**Listo tensando**»* (“ready, take up slack”) → *«**Remolcando**»* ×3
+      (“all out”) → *«**Cable libre**»* (“cable released”).
+
+      To abort: *«**Stop torno**»* ×3 (“stop winch”).
+
+  - id: fallo-de-torno-bajo
+    tipo: basica
+    anverso: What do you do after a winch failure **below 150 m AGL**?
+    reverso: |
+      **Lower the nose at once to regain speed and land straight ahead. Do not
+      turn.**
+
+      Trying to get back to the runway at low height is the most frequent
+      cause of fatal winch-launch accidents.
+    etiquetas: [Safety]
+
+  - id: acuerdo-con-el-remolcador
+    tipo: basica
+    anverso: What do you agree with the tug pilot **before** getting into the glider?
+    reverso: |
+      **The release altitude and the direction to turn away**, so that the tug
+      can return to the runway without crossing the glider.
+    etiquetas: [Airmanship]
+
+  - id: entrar-y-alinear-no-es-despegar
+    tipo: basica
+    anverso: Does “line up” or “line up and wait” clear you to take off?
+    reverso: |
+      **Never.** You must hear *«**Autorizado a despegar**»* (“cleared for
+      take-off”) explicitly.
+
+      When in doubt: *«Confirme, ¿autorizado salida?»* (“Confirm, cleared for
+      departure?”). Do not use the word *despegar* (“take off”) except to read
+      back an express clearance.
+    etiquetas: [Safety]
+
+  - id: colacion-en-controlado
+    tipo: basica
+    anverso: How do you read back in controlled airspace?
+    reverso: |
+      **By repeating every instruction, without the wind, and with your
+      callsign at the end.**
+
+      *«Autorizado a aterrizar pista 36, Eco Papa Eco»* (“Cleared to land
+      runway 36, Echo Papa Echo”).
+
+  - id: puntos-de-notificacion
+    tipo: basica
+    anverso: What are **reporting points**, and where do you look them up?
+    reverso: |
+      **The visual entry and exit gates to the CTR** (Sierra, North, Echo…),
+      and they are on the **VAC**.
+
+  - id: fis-no-separa
+    tipo: basica
+    anverso: What does **FIS** give you, and what does it not?
+    reverso: |
+      **It gives traffic and weather information, workload permitting. It
+      does not control: separation is still yours.**
+
+  - id: no-esfumarse-de-una-frecuencia
+    tipo: basica
+    anverso: Can you just leave a control or information frequency?
+    reverso: |
+      **No.** Ask for the change or report that you are leaving.
+
+      *«Madrid, EC-DPE, para pasar a frecuencia de club 123.500»* (“Madrid,
+      EC-DPE, changing to club frequency 123.500”).
+
+  - id: rmz
+    tipo: basica
+    anverso: What is an **RMZ**, and where do you look up its limits?
+    reverso: |
+      **A zone where the radio is mandatory although the control service is
+      not**, set up under SERA.
+
+      Its limits and conditions are on **chart ENR 6.12**.
+    etiquetas: [Regulation]

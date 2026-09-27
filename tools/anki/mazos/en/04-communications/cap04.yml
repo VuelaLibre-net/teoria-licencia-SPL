@@ -1,0 +1,72 @@
+# Anki deck for en/04-communications, chapter 4.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/04-comunicaciones/cap04.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/04-communications
+capitulo: 4
+titulo: "Relevant weather information terms (VFR)"
+tarjetas:
+  - id: atis
+    tipo: basica
+    anverso: What is **ATIS**, and what does it give you?
+    reverso: |
+      **An automatic airport voice broadcast with the runway in use, wind, QNH
+      and an information code** (for example *«Información Bravo»*,
+      “Information Bravo”).
+
+  - id: usar-el-codigo-atis
+    tipo: basica
+    anverso: How do you make use of the ATIS in your first call?
+    reverso: |
+      **By listening to all of it before calling and quoting its code.**
+
+      *«Jerez TWR, velero EC-DPE, a 10 millas al norte, con información Bravo,
+      solicito…»* (“Jerez Tower, glider EC-DPE, 10 miles north, with
+      information Bravo, request…”). The controller knows you already have the
+      data.
+    etiquetas: [Golden rule]
+
+  - id: volmet
+    tipo: basica
+    anverso: What is **VOLMET**?
+    reverso: |
+      **A station that broadcasts METARs, TAFs and SIGMETs for several
+      airports in a loop.**
+
+      It lets you plan your arrival or choose an alternate without crowding
+      the control frequency.
+
+  - id: cavok
+    tipo: basica
+    anverso: What does **CAVOK** mean, and what conditions does it imply?
+    reverso: |
+      **Read informally as Ceiling and Visibility OK**: visibility ≥ 10 km, no
+      low cloud and no significant weather.
+
+      The best possible conditions for VFR.
+
+  - id: qnh-para-que
+    tipo: basica
+    anverso: What is **QNH** for?
+    reverso: |
+      **It is the reference pressure for reading altitude above sea level**,
+      and so for respecting the vertical limits of airspace.
+
+  - id: viento-norte-magnetico-o-verdadero
+    tipo: basica
+    anverso: Which north is the wind referred to, depending on the source?
+    reverso: |
+      **Tower and ATIS: magnetic north** (like the runway numbers).
+      **Charts, METAR/TAF in text and VOLMET: true (geographic) north.**
+
+  - id: airep
+    tipo: basica
+    anverso: What is an **AIREP**, and when is it made?
+    reverso: |
+      **A report from the pilot in flight warning of severe weather that had
+      not been forecast.**
+
+      SERA requires the pilot-in-command to report without delay any
+      hazardous condition that may affect other aircraft.
+    etiquetas: [Regulation]

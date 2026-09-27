@@ -1,0 +1,120 @@
+# Anki deck for en/04-communications, chapter 3.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/04-comunicaciones/cap03.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/04-communications
+capitulo: 3
+titulo: "General operating procedures"
+tarjetas:
+  - id: esquema-de-llamada
+    tipo: basica
+    anverso: What is the structure of a radio **call**?
+    reverso: |
+      **Whom → Who I am → Where I am → What I need.**
+
+      In a readback, the callsign goes **at the end**; in a blind broadcast,
+      at the beginning.
+    etiquetas: [Golden rule]
+
+  - id: cuando-hacer-radio-check
+    tipo: basica
+    anverso: When do you ask for a **radio check**?
+    reverso: |
+      **Only if you doubt the integrity of the equipment.**
+
+      The answer uses the readability scale: *«Le recibo 5»* (“Readability
+      5”).
+
+  - id: reporte-de-posicion
+    tipo: basica
+    anverso: What goes into a **position report**?
+    reverso: |
+      **Identification + position + altitude (QNH or FL).**
+
+      On a cross-country flight, add the UTC time and the next point with its
+      estimate.
+
+  - id: actualizar-al-fis
+    tipo: basica
+    anverso: When must you update your position with **FIS**?
+    reverso: |
+      **Whenever you depart significantly from your planned route or change
+      sector.**
+
+      A well-informed FIS can coordinate a search sooner if you stop making
+      contact.
+    etiquetas: [Airmanship]
+
+  - id: escuchar-antes-de-pulsar
+    tipo: basica
+    anverso: What do you do before pressing the PTT, and how long do you wait after a call with no answer?
+    reverso: |
+      **Listen to the frequency for a few seconds** (a transmission that
+      “steps on” another blocks both) and wait **10 seconds** before trying
+      again.
+    etiquetas: [Airmanship]
+
+  - id: microfono-bloqueado
+    tipo: basica
+    anverso: How do you spot a **stuck PTT**, and why does it matter?
+    reverso: |
+      **By checking that the TX light goes out when you release the PTT.**
+
+      A stuck PTT knocks out the frequency for everyone.
+
+  - id: tecnica-de-microfono
+    tipo: basica
+    anverso: How do you hold and use the microphone?
+    reverso: |
+      **Close to your lips but not touching them, at a normal, steady
+      volume.**
+
+      Shouting saturates the signal and reduces intelligibility.
+
+  - id: prioridad-de-mensajes
+    tipo: basica
+    anverso: What is the difference in priority between **distress** and **urgency**?
+    reverso: |
+      **DISTRESS (Mayday)**: absolute priority, and it imposes **total
+      silence**.
+      **URGENCY (Pan Pan)**: asks for priority, without requiring silence.
+
+      If you hear someone else's Mayday, keep quiet unless you can assist or
+      relay.
+
+  - id: falsa-emergencia
+    tipo: basica
+    anverso: What are the consequences of transmitting a **false Mayday or Pan Pan**?
+    reverso: |
+      **It is a serious criminal offence throughout EASA**: heavy fines and
+      withdrawal of the licence, on top of the real risk of diverting
+      emergency resources.
+    etiquetas: [Regulation]
+
+  - id: equipos-de-radio-potencia
+    tipo: basica
+    anverso: How much power do a panel radio and a handheld radio give?
+    reverso: |
+      **Panel: 6–10 W with an external antenna. Handheld: 1–5 W**, as a
+      backup.
+
+  - id: etso-c169a
+    tipo: basica
+    anverso: How do you know that a radio meets **8.33 kHz** channel spacing?
+    reverso: |
+      **By its ETSO-C169a marking.**
+
+      *Basis: Regulation (EU) No 1079/2012, which imposes that spacing.*
+    etiquetas: [Regulation]
+
+  - id: saludo-en-el-primer-contacto
+    tipo: basica
+    anverso: Is there room for a “good morning” on the radio?
+    reverso: |
+      **On first contact with a station, yes; in every transmission, no.**
+
+      It is not ICAO phraseology, which aims for economy of words, but there
+      is a person at the other end. On a busy frequency or in an emergency,
+      get to the point.
+    etiquetas: [Airmanship]
