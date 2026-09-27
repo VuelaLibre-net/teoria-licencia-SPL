@@ -13,7 +13,21 @@ translated from (`origen-commit`). Terminology follows `en/terminologia.yml`.
 
 ## [In progress]
 
-**What to reread:** nothing new in substance; wording only.
+**What to reread:** **cap03, phugoid mode**, and the glossary entries *Phugoid* and *Spiral
+dive*. The rest is wording only.
+
+### Fixed
+
+Ported from the Spanish edition, where these errors have been corrected at the same time:
+
+* **cap03 and Glossary, phugoid mode** — the period did not match (30–60 seconds in the chapter,
+  30–50 in the glossary), and neither figure suits a sailplane. The period is proportional to
+  speed (Lanchester's approximation, T ≈ 0.45·V with V in m/s), so at normal sailplane speeds it
+  is about 10 to 15 seconds. Both texts now say so.
+* **Glossary, Spiral dive** — the recovery started with “open the airbrakes”, the opposite of
+  cap07. It now follows cap07: level the wings, ease out of the dive and, only if the speed is
+  approaching V~NE~, extend the airbrakes smoothly.
+* **All chapters and the glossary** — `origen-commit` updated to the corrected Spanish text.
 
 ### Changed
 
@@ -62,12 +76,4 @@ translated from (`origen-commit`). Terminology follows `en/terminologia.yml`.
 * **Figures** — all 14 figures still carry Spanish text.
 * **Covers** — front and back covers are still the Spanish ones.
 * **Carried over from the Spanish edition**, to be fixed there first and then ported:
-  * the glossary gives the phugoid a period of 30–50 seconds; cap03 says 30–60 seconds;
-  * the glossary entry for the spiral dive gives the recovery as “open the airbrakes, level the
-    wings first”, while cap07 levels the wings first and uses the airbrakes only if the speed
-    approaches V~NE~; the English text follows the Spanish in both places;
-  * the glossary entry *Deriva* mixes drift and the fin in a single definition;
-  * the caption of the polar in cap02 numbers its points irregularly (“1 …, 2 …, 3. …”) and the
-    weathercock figure caption in cap03 has a spelling mistake (“alinéa”); the English captions
-    are correct;
-  * the chapters use straight quotes ("…") instead of «…».
+  * the glossary entry *Deriva* mixes drift and the fin in a single definition.

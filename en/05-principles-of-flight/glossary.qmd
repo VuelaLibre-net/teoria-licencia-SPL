@@ -1,6 +1,6 @@
 ---
 origen: 05-principios-vuelo/glosario.qmd
-origen-commit: 2375434
+origen-commit: a374a39
 ---
 
 # Glossary of terms
@@ -80,7 +80,7 @@ This glossary brings together the essential definitions and acronyms of aerodyna
 : The component of aerodynamic drag due to the sailplane's movement through the air, regardless of the lift produced. It includes skin friction, form drag and interference drag between surfaces. It increases with the square of the speed: if the speed doubles, parasite drag quadruples. At high speed it outweighs induced drag.
 
 **Phugoid (phugoid mode)**
-: A slow, long-period (30–50 seconds) longitudinal oscillation in which the sailplane trades height for speed in gentle cycles. Generally well damped and barely noticeable if the pilot keeps hold of the controls. It is not dangerous in itself, but it can puzzle an inexperienced pilot who tries to correct it with abrupt inputs.
+: A slow, long-period longitudinal oscillation (about 10 to 15 seconds at normal sailplane speeds) in which the sailplane trades height for speed in gentle cycles. Generally well damped and barely noticeable if the pilot keeps hold of the controls. It is not dangerous in itself, but it can puzzle an inexperienced pilot who tries to correct it with abrupt inputs.
 
 **Polar curve (speed polar)**
 : Characteristic graph of each glider type that relates the indicated horizontal speed (X axis, in km/h) to the vertical rate of sink (Y axis, in m/s) in still-air conditions. From it come the minimum sink speed (top of the curve) and the best glide speed (tangent from the origin). It is the glider's “identity card” and the reference for adapting speed to the wind and to areas of lift or sink.
@@ -92,7 +92,7 @@ This glossary brings together the essential definitions and acronyms of aerodyna
 : A flight condition that results from an asymmetric stall. One wing stalls more deeply than the other and drops sharply, and its greater angle of attack locks it in the stall, while the other wing is still partly flying. The imbalance strongly couples yaw and roll: a fast rotation and a descent of up to 100 m per turn, each turn taking about 4 seconds. Recovery (in a fixed order): full rudder against the rotation, stick central and forward, centralise the rudder when the rotation stops, and ease out of the dive smoothly.
 
 **Spiral dive**
-: A flight condition in which the banked sailplane follows a descending curved path with increasing speed and load factor. The sailplane *is flying*; it is not stalled. Key diagnosis: speed high or increasing = spiral dive; speed low and constant = spin. The treatment is opposite in each case, so confusing them is deadly. Spiral dive recovery: open the airbrakes, level the wings first, ease out of the dive smoothly.
+: A flight condition in which the banked sailplane follows a descending curved path with increasing speed and load factor. The sailplane *is flying*; it is not stalled. Key diagnosis: speed high or increasing = spiral dive; speed low and constant = spin. The treatment is opposite in each case, so confusing them is deadly. Spiral dive recovery: level the wings first, ease out of the dive smoothly and, if the speed is approaching V~NE~, extend the airbrakes smoothly.
 
 **Spiral instability**
 : A lateral dynamic stability characteristic found in most sailplanes: if left alone with a small angle of bank, the bank slowly increases until a spiral dive develops. The sailplane is statically stable in roll but dynamically divergent in the spiral mode when left unwatched. It is the root cause of loss-of-control accidents in reduced visibility.

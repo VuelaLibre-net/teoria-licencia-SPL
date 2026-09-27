@@ -1,6 +1,6 @@
 ---
 origen: 05-principios-vuelo/cap02-mecanica-de-vuelo.qmd
-origen-commit: 29b3a9d
+origen-commit: a374a39
 ---
 
 # Flight mechanics

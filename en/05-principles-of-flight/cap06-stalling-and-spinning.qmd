@@ -1,6 +1,6 @@
 ---
 origen: 05-principios-vuelo/cap06-perdida-de-sustentacion-y-autorrotacion.qmd
-origen-commit: d5b3cf4
+origen-commit: a374a39
 ---
 
 # Stalling and spinning

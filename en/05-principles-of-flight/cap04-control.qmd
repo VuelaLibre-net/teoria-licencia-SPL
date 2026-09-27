@@ -1,6 +1,6 @@
 ---
 origen: 05-principios-vuelo/cap04-control.qmd
-origen-commit: 2375434
+origen-commit: a374a39
 ---
 
 # Control

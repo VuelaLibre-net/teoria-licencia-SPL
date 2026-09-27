@@ -1,6 +1,6 @@
 ---
 origen: 05-principios-vuelo/cap05-limitaciones-factor-de-carga-y-maniobras.qmd
-origen-commit: 1604290
+origen-commit: a374a39
 ---
 
 # Limitations (load factor and manoeuvres)

@@ -1,6 +1,6 @@
 ---
 origen: 05-principios-vuelo/cap07-picado-en-espiral.qmd
-origen-commit: 1604290
+origen-commit: a374a39
 ---
 
 # Spiral dive

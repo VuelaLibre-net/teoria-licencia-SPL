@@ -1,6 +1,6 @@
 ---
 origen: 05-principios-vuelo/cap01-aerodinamica-flujo-de-aire.qmd
-origen-commit: 5a71faf
+origen-commit: a374a39
 ---
 
 # Aerodynamics (airflow)

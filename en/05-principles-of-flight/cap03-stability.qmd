@@ -1,6 +1,6 @@
 ---
 origen: 05-principios-vuelo/cap03-estabilidad.qmd
-origen-commit: 19f429a
+origen-commit: a374a39
 ---
 
 # Stability
@@ -35,7 +35,7 @@ Depending on how those oscillations develop over time, the behaviour falls into 
 
 Two oscillation modes deserve special attention in a sailplane:
 
-* **Phugoid mode:** a slow, long-period longitudinal oscillation (typically 30–60 seconds). The sailplane rises and falls, trading height for speed in gentle cycles. Its damping is weak, but the cycle is so slow that your usual small stick movements correct it without your noticing. It only shows up if you let go of the controls for a good while.
+* **Phugoid mode:** a slow, long-period longitudinal oscillation (about 10 to 15 seconds at normal sailplane speeds). The sailplane rises and falls, trading height for speed in gentle cycles. Its damping is weak, but the cycle is so slow that your usual small stick movements correct it without your noticing. It only shows up if you let go of the controls for a good while.
 * **Spiral instability:** a lateral dynamic instability. Most sailplanes are statically stable in roll, but dynamically they tend towards a slight **spiral divergence**: if left alone with a small angle of bank, the bank slowly increases until it becomes a descending spiral. That is why the pilot must always watch the lateral attitude, especially in cloud or when visual references to the horizon are lost.
 
 ::: {.callout-warning title="Safety"}
