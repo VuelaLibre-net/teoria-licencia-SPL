@@ -1,0 +1,48 @@
+# Anki deck for en/03-meteorology, chapter 5.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/03-meteorologia/cap05.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/03-meteorology
+capitulo: 5
+titulo: "Precipitation"
+tarjetas:
+  - id: lluvia-y-rendimiento
+    tipo: basica
+    anverso: What does **rain** do to a glider?
+    reverso: |
+      **Water on the wings spoils the laminar profile: the stall speed and the
+      rate of descent go up.**
+
+      With wet wings, add a minimum of **5–10 kt** to your approach speed and
+      avoid steep turns: the stall can come without warning.
+    etiquetas: [Safety]
+
+  - id: granizo-bajo-el-yunque
+    tipo: basica
+    anverso: Where can **hail** fall apart from directly beneath the Cb?
+    reverso: |
+      **Tens of kilometres out under the spreading anvil**, thrown out by the
+      wind aloft.
+
+      Keep your distance from the anvil even if the sky below looks clear. It
+      is destructive to composite structures.
+    etiquetas: [Airmanship]
+
+  - id: lluvia-engelante
+    tipo: basica
+    anverso: What is **freezing rain (FZRA)**, and what do you do?
+    reverso: |
+      **Supercooled drops that freeze on impact: ice builds up in seconds, adds
+      weight and deforms the aerofoil.**
+
+      It is a serious emergency. Leave the area at once, usually by changing
+      altitude.
+
+  - id: virga
+    tipo: basica
+    anverso: What does **virga** warn you of?
+    reverso: |
+      **Strong downdraughts and possible severe turbulence beneath it.**
+
+      It is a curtain of rain that evaporates before reaching the ground.

@@ -1,0 +1,73 @@
+# Anki deck for en/03-meteorology, chapter 6.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/03-meteorologia/cap06.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/03-meteorology
+capitulo: 6
+titulo: "Air masses and fronts"
+tarjetas:
+  - id: frente-frio
+    tipo: basica
+    anverso: What does a **cold front** bring as it passes, and afterwards?
+    reverso: |
+      **As it passes**: showers, a wind veer and a drop in temperature.
+      **Afterwards**: instability, clean skies and strong thermals.
+
+  - id: dia-post-frontal
+    tipo: basica
+    anverso: Why are **post-frontal** days so good?
+    reverso: |
+      **Excellent visibility with no haze, rising pressure and strong daytime
+      heating**, with well-defined cumulus marking vigorous thermals.
+    etiquetas: [Golden rule]
+
+  - id: frente-calido
+    tipo: basica
+    anverso: What does a **warm front** bring?
+    reverso: |
+      **Continuous rain, low ceilings and poor visibility**, heralded by cirrus
+      that lowers to stratus.
+
+      The air is stable: forget about thermals.
+
+  - id: oclusion
+    tipo: basica
+    anverso: What is an **occlusion**?
+    reverso: |
+      **When the cold front catches up with the warm front.**
+
+      Unsettled weather, mixed cloud and precipitation. Of little use for
+      flying.
+
+  - id: masas-de-aire-temperatura-relativa
+    tipo: basica
+    anverso: What decides whether an air mass gives thermals?
+    reverso: |
+      **Its relative temperature.**
+
+      Cold air over warm ground = instability (thermals). Warm air over cold
+      ground = stability (layer cloud, fog, inversion).
+
+  - id: sera-5001-minimos-vfr
+    tipo: basica
+    anverso: What minimum visibility does VFR require in **class G** at and below 3,000 ft AMSL or 1,000 ft above terrain?
+    reverso: |
+      **5 km, clear of cloud and with the surface in sight.**
+
+      It may be reduced to **1,500 m** for flights at 140 kt or less, if the
+      speed allows traffic and obstacles to be seen in time. Entering IMC
+      without an instrument rating is a serious offence.
+
+      *Basis: SERA.5001.*
+    etiquetas: [Regulation]
+
+  - id: despegar-con-visibilidad-marginal
+    tipo: basica
+    anverso: Why should you not take off in marginal visibility under an inversion?
+    reverso: |
+      **Because after a cable break the landing back on the field would have
+      to be made without visual references.**
+
+      If you have any doubt about the visibility, postpone the flight.
+    etiquetas: [Safety]

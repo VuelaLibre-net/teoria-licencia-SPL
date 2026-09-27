@@ -1,0 +1,76 @@
+# Anki deck for en/03-meteorology, chapter 4.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/03-meteorologia/cap04.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/03-meteorology
+capitulo: 4
+titulo: "Clouds and fog"
+tarjetas:
+  - id: que-anuncian-los-cirros
+    tipo: basica
+    anverso: What do high **cirrus** clouds announce?
+    reverso: "**A front: bad weather within 24–48 hours.**"
+
+  - id: cumulos-como-mapa
+    tipo: basica
+    anverso: What do small, cotton-wool **cumulus** mark?
+    reverso: "**Thermals.** They are the glider pilot's map of the sky."
+
+  - id: cu-congestus-a-cb
+    tipo: basica
+    anverso: What should you do if a cumulus grows tall?
+    reverso: |
+      **Watch it closely, and if it becomes a cumulonimbus, move away.**
+
+      Severe turbulence, hail and lightning can destroy the glider.
+
+  - id: separacion-de-un-cb
+    tipo: basica
+    anverso: What lateral separation do you keep from a **cumulonimbus**?
+    reverso: |
+      **Between 10 and 20 nautical miles.**
+
+      If a convective system threatens the airfield, start your landing at once.
+    etiquetas: [Safety]
+
+  - id: niebla-de-radiacion-vs-adveccion
+    tipo: basica
+    anverso: What is the difference between **radiation** fog and **advection** fog?
+    reverso: |
+      **Radiation**: cold, clear nights; it usually clears with the sun.
+      **Advection**: warm air over a cold surface; it can appear **at any
+      time** and does not depend on the night.
+
+      Fog means visibility < 1 km.
+
+  - id: niebla-al-atardecer
+    tipo: basica
+    anverso: What is the risk in the late afternoon on days that began with radiation fog?
+    reverso: |
+      **Overnight cooling can bring it back in minutes and close the field
+      before you land.**
+
+      On coasts and in valleys with an onshore wind, add the risk of advection
+      fog, which arrives without warning.
+    etiquetas: [Golden rule]
+
+  - id: lenticulares
+    tipo: basica
+    anverso: What do **lenticular** clouds indicate?
+    reverso: |
+      **Mountain wave**: lens-shaped, and they stay still even in strong wind.
+
+      They let you climb very high, but warn of very dangerous rotors at low
+      level.
+
+  - id: rotor-bajo-la-onda
+    tipo: basica
+    anverso: How does the **rotor** below the wave give itself away?
+    reverso: |
+      **Through ragged, unstable fractocumulus.**
+
+      It is a very violent cylinder of rotating turbulence. On tow, the tug
+      will be thrown about hard as it crosses it: keep enough height and follow
+      the tug pilot's instructions.
+    etiquetas: [Safety]

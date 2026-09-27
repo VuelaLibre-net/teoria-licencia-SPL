@@ -1,0 +1,66 @@
+# Anki deck for en/03-meteorology, chapter 7.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/03-meteorologia/cap07.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/03-meteorology
+capitulo: 7
+titulo: "Pressure systems"
+tarjetas:
+  - id: anticiclon
+    tipo: basica
+    anverso: What characterises an **anticyclone**, and which way does its wind turn?
+    reverso: |
+      **Air that sinks (subsidence) and dries out: stability and fine
+      weather.**
+
+      The wind turns **clockwise** in the northern hemisphere.
+
+      In winter it traps fog and pollution.
+
+  - id: borrasca
+    tipo: basica
+    anverso: What characterises a **depression**, and which way does its wind turn?
+    reverso: |
+      **Air that rises and condenses: a factory of cloud, fronts and wind.**
+
+      The wind turns **anticlockwise** in the northern hemisphere.
+
+  - id: vaguada-y-dorsal
+    tipo: basica
+    anverso: What is the difference between a **trough** and a **ridge**?
+    reverso: |
+      **Trough**: a tongue of low pressure, bad weather stretched out.
+      **Ridge**: a tongue of high pressure, good weather stretched out.
+
+  - id: collado
+    tipo: basica
+    anverso: What is a barometric **col**, and what does it mean for flying?
+    reverso: |
+      **The neutral zone between two highs and two lows set crosswise: an area
+      of slack pressure.**
+
+      Light winds, variable direction and a chance of fog, or of stationary
+      thunderstorms in summer. It evolves slowly and unpredictably: do not
+      commit to a cross-country flight until the pattern resolves.
+    etiquetas: [Airmanship]
+
+  - id: mapa-sinoptico-la-noche-anterior
+    tipo: basica
+    anverso: What do you decide by looking at the synoptic chart the evening before?
+    reverso: |
+      **Ridge or anticyclone over Spain: plan a cross-country flight.
+      Trough or depression approaching: do not.**
+
+      The movement of the isobars gives you 24–48 hours' notice.
+    etiquetas: [Golden rule]
+
+  - id: borrasca-a-menos-de-500-km
+    tipo: basica
+    anverso: How close does an active depression have to be for you to cancel the flight?
+    reverso: |
+      **Less than 500 km from your flying area: cancel before you set off.**
+
+      VFR conditions deteriorate quickly: low cloud, reduced visibility and
+      gusts.
+    etiquetas: [Safety]
