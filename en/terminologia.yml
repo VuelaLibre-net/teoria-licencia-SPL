@@ -133,6 +133,10 @@
   origen: propuesta
   libros: ["09"]
   nota: "mnemotecnia inglesa original; en ES se glosa como «error de aceleración»"
+- es: "Ángulo de ataque (AoA / *Angle of Attack*)"
+  en: "Angle of attack (AoA)"
+  origen: glosario
+  libros: ["05"]
 - es: "Ángulo de ataque crítico"
   en: "Critical angle of attack"
   origen: propuesta
@@ -195,6 +199,11 @@
   origen: glosario
   libros: ["04"]
   nota: "SERA/ICAO: transmisión de autoinformación en frecuencia común; confirmar frente a «self-announce»"
+- es: "Autorrotación (*spin*)"
+  en: "Autorotation"
+  origen: propuesta
+  libros: ["05"]
+  nota: "En inglés remite a «Spin (autorotation)», como el español remite a Barrena."
 - es: "AWY (Aerovía / Airway)"
   en: "AWY (Airway)"
   origen: glosario
@@ -203,6 +212,10 @@
   en: "Bail-out"
   origen: glosario
   libros: ["06", "08"]
+- es: "Barrena (autorrotación / *spin*)"
+  en: "Spin (autorotation)"
+  origen: propuesta
+  libros: ["05"]
 - es: "Base (Tramo de base / Base leg)"
   en: "Base leg"
   origen: glosario
@@ -445,6 +458,7 @@
   en: "Drift"
   origen: propuesta
   libros: ["05", "09"]
+  nota: "En el libro 05 el glosario español junta dos acepciones: la de navegación (drift) y la superficie vertical de cola, que en inglés es «fin» (vertical stabiliser). El rótulo se queda en Drift y la definición inglesa distingue la fin."
 - es: "Desorientación espacial"
   en: "Spatial disorientation"
   origen: propuesta
@@ -508,6 +522,10 @@
   en: "Foehn effect"
   origen: glosario
   libros: ["03"]
+- es: "Efecto suelo (*ground effect*)"
+  en: "Ground effect"
+  origen: glosario
+  libros: ["05"]
 - es: "Efecto veleta"
   en: "Weathercock stability"
   origen: propuesta
@@ -550,6 +568,10 @@
   en: "Controlled airspace"
   origen: propuesta
   libros: ["09"]
+- es: "Espiral del cementerio (*graveyard spiral*)"
+  en: "Graveyard spiral"
+  origen: glosario
+  libros: ["05"]
 - es: "Estabilidad atmosférica"
   en: "Atmospheric stability"
   origen: propuesta
@@ -725,6 +747,10 @@
   en: "GS (Ground Speed)"
   origen: glosario
   libros: ["09"]
+- es: "Guiñada adversa (*adverse yaw*)"
+  en: "Adverse yaw"
+  origen: glosario
+  libros: ["05"]
 - es: "Handrail (Pasamanos)"
   en: "Handrail"
   origen: glosario
@@ -1007,10 +1033,18 @@
   en: "PCC (Positive Control Check)"
   origen: glosario
   libros: ["06", "08"]
+- es: "Pérdida de sustentación (*stall*)"
+  en: "Stall"
+  origen: glosario
+  libros: ["05"]
 - es: "PIC (Piloto al mando / Pilot in Command)"
   en: "PIC (Pilot in Command)"
   origen: glosario
   libros: ["01", "06"]
+- es: "Picado en espiral (*spiral dive*)"
+  en: "Spiral dive"
+  origen: glosario
+  libros: ["05"]
 - es: "PLB (Baliza de localización personal / Personal Locator Beacon)"
   en: "PLB (Personal Locator Beacon)"
   origen: glosario
@@ -1169,6 +1203,10 @@
   en: "Stau (upslope cloud)"
   origen: propuesta
   libros: ["03"]
+- es: "Sustentación (*lift*)"
+  en: "Lift"
+  origen: glosario
+  libros: ["05"]
 - es: "Sustentador (Turbo)"
   en: "Sustainer (turbo)"
   origen: glosario
@@ -1214,6 +1252,10 @@
   en: "TMZ (Transponder Mandatory Zone)"
   origen: glosario
   libros: ["01", "04", "09"]
+- es: "Torbellinos de punta de ala (*wingtip vortices*)"
+  en: "Wingtip vortices"
+  origen: glosario
+  libros: ["05"]
 - es: "Torno (Lanzamiento por torno / Winch)"
   en: "Winch launch"
   origen: glosario
@@ -1279,6 +1321,11 @@
   en: "UTC (Coordinated Universal Time / Zulu)"
   origen: glosario
   libros: ["09"]
+- es: "Viento relativo (*relative wind*)"
+  en: "Relative airflow (relative wind)"
+  origen: propuesta
+  libros: ["05"]
+  nota: "«Relative airflow» es el uso británico y de EASA; «relative wind», el del rótulo español, queda como alias."
 - es: "V~A~ (Velocidad de maniobra / Maneuvering Speed)"
   en: "V~A~ (Manoeuvring Speed)"
   origen: glosario

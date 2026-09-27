@@ -44,6 +44,7 @@ DIRECTORIOS_EN = [
     ("en/02-human-performance", 2),
     ("en/03-meteorology", 3),
     ("en/04-communications", 4),
+    ("en/05-principles-of-flight", 5),
     ("en/07-flight-performance-planning", 7),
 ]
 
