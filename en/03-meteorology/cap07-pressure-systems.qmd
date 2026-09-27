@@ -1,0 +1,82 @@
+---
+origen: 03-meteorologia/cap07-sistemas-de-presion.qmd
+origen-commit: 2890174
+---
+
+# Pressure systems
+
+> Anticyclones and depressions are the main characters on the synoptic chart: they decide
+> whether you will get wind, cloud, fog or the perfect blue sky. In this chapter you will learn
+> to interpret the position of the pressure centres, to anticipate flying conditions
+> 24–48 hours ahead and to recognise the traps of the barometric col.
+
+## Anticyclones (H)
+
+An **anticyclone** (marked with an ‘H’ for **High** on synoptic charts; Spanish charts use ‘A’) is a large region of the atmosphere where the pressure is higher than in its surroundings. In these systems the dense air mass sinks gently and spreads out at the surface, a process known as **subsidence**.
+
+As it descends, the air is compressed and warms adiabatically, which dries it out markedly and drastically inhibits the vertical growth of convective cloud. In the northern hemisphere, the surface air flows outwards, turning clockwise. The isobars, usually widely spaced, indicate areas of calm or very light winds.
+
+What this means for flying varies greatly with the season:
+
+* **In the warm months:** skies are clear and deep blue. However, strong subsidence acts as an effective lid that abruptly stops thermals rising, often lowering the working ceiling.
+* **In the cold months:** night-time temperatures drop sharply as the ground radiates heat away quickly. This often sets off persistent, dense radiation fog and very stable **temperature inversions** that block visibility in the valleys for days on end.
+
+Not all anticyclones are the same. By the way they form, there are two types with very different effects on flying:
+
+* **Dynamic or warm anticyclone** (**warm high**): it forms by subsidence where the Hadley and Ferrel cells meet (around 30° latitude). Air descends from the upper troposphere, is compressed and warms. It can reach up to the tropopause. The **Azores high** is the Iberian example par excellence: in summer it settles over the Peninsula and guarantees long flying days with blue skies and light winds.
+* **Cold or thermal anticyclone** (**cold high**): it forms when large continental surfaces cool strongly and chill the air in contact with the ground. It is dense and cold in the lower layers but shallow, barely reaching 3,000–4,000 m. The Iberian winter anticyclone is of this type: it brings freezing nights, persistent radiation fog in the Duero and Ebro basins, and low temperature inversions that block any convective activity.
+
+::: {.callout-tip title="Golden rule"}
+To plan the day's flight, look at the synoptic chart the evening before: if Spain is under a ridge or an anticyclone (H), plan a cross-country flight; if a trough or depression is approaching, do not. The movement of the isobars gives you 24–48 hours to make an informed decision.
+:::
+
+## Depressions (L)
+
+**Depressions** (marked with ‘L’ for **Low**; Spanish charts use ‘B’) are areas of low pressure: zones where the pressure is a **relative minimum compared with the surroundings**, with closed isobars around the centre. What defines them is this relationship with their surroundings, not an absolute threshold: there are depressions with a centre above 1,013 hPa, and anticyclones (thermal ones above all) whose edges are below that value.
+
+Unlike in an anticyclone, the pressure gradient forces the surrounding air to converge on the centre of the depression and rise from there. That ascent cools the air and encourages condensation, producing extensive cloud and active fronts with precipitation.
+
+In the northern hemisphere, depressions turn **anticlockwise**. Their tightly packed isobars mean strong, gusty winds: VFR operation inside an active depression is not viable. However, the post-frontal rear of the system (what is left after the depression has passed) often gives the best flying days of the year.
+
+::: {.callout-warning title="Safety"}
+Never set off when an active depression is forecast to be approaching. VFR conditions can deteriorate quickly: low cloud, reduced visibility and gusts that make landing difficult. Cancel before you leave if the synoptic chart shows an active depression less than 500 km from your flying area.
+:::
+
+## Troughs and ridges: irregular isobars
+
+Anticyclones and depressions are not always perfect circles: they often send out tongue-shaped “arms” that stretch across the chart.
+
+* **Trough:** an elongated extension of low pressure reaching out from a depression, like a tentacle. It produces the same conditions as its parent depression: instability, showers, turbulence and gusts. On the chart it shows up as a ‘U’ or ‘V’ bend in the isobars pointing towards the equator.
+* **Ridge:** an elongated extension of an anticyclone, which carries its subsidence and fine weather with it. While a ridge dominates your area, the air sinks, the sky clears and thermals are capped in height by that same subsidence.
+
+## Slack pressure: the barometric col
+
+A **col**, or **barometric col**, forms when two high-pressure centres and two low-pressure centres sit alternately around a central area and cancel each other's gradients. The result is an area of light, variable winds, with no clear dominant direction and no isobars with any appreciable push.
+
+Although its calm makes it look harmless, this pattern imposes specific operating conditions depending on the season:
+1.  **In summer:** it stops cold fronts from clearing away the strong daytime heating. This stored energy can produce very violent, stationary, isolated local thunderstorms, which often bring hazards such as virga.
+2.  **In winter:** the complete stability favours dense, persistent fog banks. With freezing air trapped near the ground by subsidence, visibility can be ruled out for days.
+
+::: {.callout-note title="Airmanship"}
+When the synoptic chart shows a col centred over your flying area, do not improvise: conditions evolve slowly and unpredictably. Wait until the pattern clearly resolves, towards an anticyclone or towards a post-frontal situation with a northerly wind, before committing to a cross-country flight.
+:::
+
+## Reference table: pressure systems and soaring
+
+| System | Symbol | Circulation (N. hemisphere) | Typical cloud | What it means for the glider |
+| --- | --- | --- | --- | --- |
+| Anticyclone | H / A | Clockwise, divergent at the surface (subsidence) | Little or none | Good VFR weather; inversion caps thermal height. Radiation fog in winter. |
+| Depression | L / B | Anticlockwise, convergent (rising air) | Abundant; active fronts | Strong, gusty wind, precipitation, VFR not viable. Excellent after the front. |
+| Trough | — | Growing local instability | Cumuliform, showers | Isolated thunderstorms and turbulence. Avoid, or plan before the daytime heating. |
+| Ridge | — | Stable subsidence | Little or none | Favourable VFR conditions, moderate thermals. No significant convective risk. |
+| Col / slack pressure | — | Light and variable, no dominant direction | Variable (fog in winter; stationary Cb in summer) | Unpredictable. Do not plan cross-country flights until the pattern resolves. |
+: Synoptic pressure systems and what they mean operationally for the glider
+
+::: {.postit}
+**Chapter summary: pressure systems**
+
+* **Anticyclones (H)**: high-pressure areas where the air sinks (subsidence) and dries out. They bring stability and good weather, but in winter they trap fog and pollution. The wind turns clockwise (N. hemisphere).
+* **Depressions (L)**: low-pressure areas where the air rises and condenses. They are factories of cloud, fronts and wind. The wind turns anticlockwise (N. hemisphere).
+* **Troughs and ridges**: a trough is a “tongue” of low pressure (bad weather stretched out); a ridge is a “tongue” of high pressure (good weather stretched out).
+* **Col**: a neutral zone between two highs and two lows set crosswise. It is like a slack pressure swamp: light winds, variable direction and a chance of fog, or of stationary thunderstorms in summer.
+:::

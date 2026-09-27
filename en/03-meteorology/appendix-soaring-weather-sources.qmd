@@ -1,0 +1,54 @@
+---
+origen: 03-meteorologia/apendice-fuentes-meteorologia.qmd
+origen-commit: 078bf92
+---
+
+# Weather Sources for Soaring
+
+This list brings together some of the weather forecasting tools that are useful to the glider pilot. They are grouped by cost (free or paid) and by focus (specific to soaring or for general use). Features and prices may change; ask your instructor and check each site for up-to-date information.
+
+**Soaring-specific tools — paid**
+
+* **SkySight**. Probably the most complete tool, and the most widely used by glider pilots. It includes specific layers for wave (amplitude, wavelength, rotor position), thermals, convergence and upper winds. Subscription with a free trial.
+  [https://skysight.io](https://skysight.io)
+
+* **TopMeteo**. Widely used in Europe, with good accuracy in the Alps and the Pyrenees. Soaring-oriented forecasts with European coverage.
+  [https://topmeteo.eu](https://topmeteo.eu)
+
+**Soaring-specific tools — free, or free versions with paid upgrades**
+
+* **RASP** (Regional Atmospheric Soaring Prediction). Developed by Dr Jack Glendening, it uses the WRF model at high resolution. Some regional set-ups include wave forecasts. Coverage varies by geographical area.
+  [http://www.drjack.info](http://www.drjack.info)
+  *Iberian Peninsula instance*, maintained by the community, with forecasts, soundings and observations:
+  [https://raspuri.mooo.com](https://raspuri.mooo.com)
+
+* **Soaringmeteo**. An open-source project run by a non-profit association. It gives forecasts of thermals, convective layer depth and cloud cover using the GFS and WRF models, with good detail over the Alps.
+  [https://soaringmeteo.org](https://soaringmeteo.org)
+
+* **Meteo-Parapente**. Its own high-resolution model, with forecasts of wind, thermals and cloud cover by layer. Simple interface with a mobile app. Popular with paraglider and glider pilots in France and Spain.
+  [https://meteo-parapente.com](https://meteo-parapente.com)
+
+* **EDL-Soaring**. Specialises in mountain wave, with interactive maps covering Spain and France. It offers downloadable data in mbtiles format for offline use in navigation apps (XCSoar, SeeYou, etc.).
+  [https://www.edl-soaring.com/maps/](https://www.edl-soaring.com/maps/)
+
+**General weather tools — free**
+
+* **AEMET — Autoservicio Meteorológico Aeronáutico (AMA)**. The official Spanish service (from the Spanish State Meteorological Agency), with METAR, TAF, SIGMET and radar and satellite imagery. Registration with a pilot licence is required. Useful for the general synoptic picture, although it has no wave-specific layers.
+  [https://ama.aemet.es](https://ama.aemet.es)
+
+* **Windy**. Displays wind at several pressure levels (850, 700, 500 hPa) with the ECMWF, GFS and ICON models. It lets you check quickly whether there is a component perpendicular to the ridge and compare how far the models agree. It does not model wave specifically.
+  [https://www.windy.com](https://www.windy.com)
+
+* **Meteoblue**. It offers an aviation layer (“AIR”) with a vertical profile of wind and temperature, and cloud cover by layer. Useful as a quick cross-check of the atmospheric profile.
+  [https://www.meteoblue.com](https://www.meteoblue.com)
+
+* **Soundings — University of Wyoming**. A worldwide archive of radiosonde soundings with Skew-T diagrams. The Madrid/Barajas sounding (station 08221) lets you confirm the vertical profile of wind and stability, which is key to forecasting wave in the Sistema Central.
+  [https://weather.uwyo.edu/upperair/sounding.shtml](https://weather.uwyo.edu/upperair/sounding.shtml)
+
+**What to look for in a wave forecast**
+
+Whatever tool you use, to forecast mountain wave you need to check three conditions:
+
+* **Wind perpendicular to the ridge**, ideally between 15 and 40 km/h at the surface and increasing with height.
+* **Atmospheric stability**: a stable layer aloft, ideally with an inversion at or slightly above summit height.
+* **Wind direction constant with height**: no significant directional shear (the wind must keep its component perpendicular to the ridge at all levels).

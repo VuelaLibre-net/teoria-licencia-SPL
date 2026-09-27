@@ -1,0 +1,87 @@
+---
+origen: 03-meteorologia/cap08-climatologia.qmd
+origen-commit: 2890174
+---
+
+# Climatology
+
+> Spain has a privileged position for soaring: complex terrain, extreme temperature contrasts
+> between the plateaus and the coast, and sea on three sides. In this chapter you will learn
+> what defines the aeronautical climate of the Iberian Peninsula in each season, how local
+> winds behave in the valleys, and what role the Iberian thermal low plays as the engine of
+> the best summer cross-country days.
+
+## General circulation of the atmosphere
+
+Before getting into local climatology, it helps to set the planetary context. The Earth's atmosphere does not circulate at random: the sun's heat, the Earth's rotation and the temperature difference between the equator and the poles organise the flow into three circulation bands in each hemisphere, called the **general circulation cells**.
+
+* **Hadley cell** (tropics, 0–30° latitude): heavily heated equatorial air rises, forming the **Intertropical Convergence Zone (ITCZ)**, the most active band of instability on the planet. Aloft it flows towards the poles and, at around 30°, sinks and descends (subsidence), forming the subtropical anticyclones (such as the Azores high, which is key to the climate of the Peninsula).
+* **Ferrel cell** (temperate zone, 30–60° latitude): the westerly **polar jet stream** meanders through this band. Its fluctuations steer fronts and depressions towards the Iberian Peninsula. Pilots planning cross-country flights in winter or spring will feel its direct influence.
+* **Polar cell** (polar regions, 60–90° latitude): cold polar air that sinks at the poles and flows at the surface towards the middle latitudes, supplying them with the Arctic air masses that reach us behind winter cold fronts.
+
+Spain lies on the southern edge of the Ferrel cell, which makes it a transition zone: it can come under the subtropical anticyclonic influence (fine weather in summer) or see Atlantic fronts pass through from the Ferrel cell (rain and wind in winter). This border position produces exceptional weather variability, which is exactly what makes flying in the Peninsula so technically demanding and so rewarding.
+
+## Spain: a land of aeronautical contrasts
+
+Thanks to its complex terrain and geographical position, the Iberian Peninsula offers world-class conditions for gliding all year round.
+
+* **Wave and ridge flying:** in winter and in windy spring, the great mountain massifs act as giant deflectors. Particularly notable are the **mountain wave** in the Sistema Central (legendary sites such as Fuentemilanos, Santo Tomé, Pedro Bernardo or Arcones) and the powerful “Pyrenean convergence”. These conditions allow spectacular wave climbs and flights of extreme height and distance.
+* **Pure thermal flying:** in summer, the vast inland plains and plateaus (such as La Mancha) are heated intensely by the sun, producing formidable convection and huge convergence lines (such as the one over the Montes de Toledo), ideal for cross-country marathons.
+
+::: {.callout-tip title="Golden rule"}
+In Spain there is a season for almost the whole year: when the wind blows hard in winter, look for wave in the Sistema Central or the Pyrenees; when summer bakes the plateaus, look for thermals in La Mancha. Knowing when and where each resource works is what marks out the experienced pilot.
+:::
+
+## Local winds and valley dynamics
+
+For an airline pilot the general wind is everything; for the glider pilot, who flies close to the terrain, **every valley has its own atmospheric master**. Chapter 2: Wind describes the anabatic and katabatic cycle and the Foehn effect in detail; here we focus on how those mechanisms shape flying in the specific Iberian setting.
+
+In mountain areas such as the Sistema Central, the Pyrenees or the Picos de Europa, **morning anabatic winds** set off the first thermals even before the sun is 30° above the horizon: east-facing sunny slopes are the first to work. In the evening, the **katabatic winds** flowing down both sides of the valley can create a zone of restitution in the middle, that smooth lift that sometimes lets you stretch the flight until dusk. Knowing the katabatic direction at your home airfield is as important as knowing where the runway threshold is.
+
+**Lee rotors** are the invisible trap of Iberian climatology: with a northerly wind in the Sistema Central, or with the Tramontana in the Pyrenees, the rotor can sit right over the airfield at circuit height. If the day shows lenticulars aloft and you see ragged fractocumulus low down, treat that area as one of severe turbulence.
+
+::: {.callout-warning title="Safety"}
+Katabatic winds and lee rotors can appear at low altitude with no visual warning. Never fly over a lee slope with less than 300 ft of vertical separation from the terrain, and learn the trouble spots at your home airfield before flying in strong wind conditions.
+:::
+
+::: {.callout-note title="Airmanship"}
+Before every flight in mountain areas, check the wind direction and compare it with the relief map of your airfield. Northerly winds produce rotors in different sectors from southerly or westerly ones. Learn the local patterns and ask pilots with experience of the area.
+:::
+
+## Seasons in aviation: the pilot's calendar
+
+The changing face of each season gives the glider pilot clear rules for flying:
+
+* **Spring:** the long-awaited awakening. The days grow longer and brighter, and the increasing heating of the ground sets off instability, creating strong contrasts with the air aloft, which is still cold from the tail end of winter. It gives vigorous thermals that develop earlier each day, though with the constant threat of frontal passages and unsettled days.
+* **Summer:** the main season for cross-country flying. Strong thermals lift cloud bases very high. However, there is a risk of rapidly developing thunderstorms that may force precautionary landings for safety.
+* **Autumn:** generally associated with more stability and rain. In the Mediterranean area it is the season of cut-off lows (DANA, *Depresión Aislada en Niveles Altos*), which bring severe thunderstorms and heavy rain and significantly reduce the chances of flying.
+* **Post-frontal days:** whatever the season, the day after a cold front has passed usually gives excellent conditions. The atmosphere is clean and sharp, with exceptional visibility. The temperature contrast between the freezing air and the ground revives the best thermals of the year.
+
+::: {.callout-note title="Airmanship"}
+Post-frontal days are the gold standard of Iberian flying: blue skies, pure thermals and exceptional visibility. Learn to spot them in the forecast: look for an active cold front passing, followed by polar air and rising pressure. The next day is often outstanding.
+:::
+
+::: {.callout-warning title="Safety"}
+In summer, **air mass storms** develop quickly in the middle of the day from cumulus congestus. If you see cumulus growing upwards at an increasing rate, land as soon as you can. Do not wait to see the anvil before you decide.
+:::
+
+## The Iberian summer thermal low
+
+At the height of summer, intense solar radiation bakes the surface of the vast plateaus of the inland Peninsula. This fierce heating produces large columns of rising warm air, establishing a permanent **Iberian thermal low** over central Spain.
+
+Although it is not as deep barometrically as a strong polar depression, this stagnant mass exerts a constant suction. Like a gigantic vacuum cleaner, the thermal low keeps pulling the dense, cool, moist air lying over the ocean and the surrounding seas and drawing it inland.
+
+This relentless advance of sea air forced inland turns into extensive **sea-breeze fronts** that reach tens of kilometres inland. As they run into the scorching continental air and the barriers of the mountain ranges, they force the unstable air upwards along formidable **convergence lines**: invisible motorways of lift that the experienced pilot learns to follow on cross-country flights.
+
+::: {.callout-tip title="Golden rule"}
+The convergence lines created by the Iberian thermal low are summer motorways of lift. Identify them in RASP or SkySight model forecasts and plan your cross-country route to follow them: with a well-established sea breeze, a single convergence line can give you tens of kilometres without losing height.
+:::
+
+::: {.postit}
+**Chapter summary: climatology**
+
+* **Spain, a land of contrasts**: we have world-class soaring conditions. Wind and **mountain wave** in winter and spring (Pyrenees, Sistema Central) and powerful **thermals** in summer (La Mancha, inland areas).
+* **Local winds**: every valley has its master. Anabatic and katabatic winds define the morning and the evening in mountain areas. Lee rotors are the invisible trap for the careless pilot.
+* **Seasons**: spring offers instability and good local flying. Summer brings high cloud bases and dry heat thunderstorms. Autumn usually brings rain and cut-off lows (DANA).
+* **Iberian thermal low**: in summer the sun heats central Spain so much that a permanent low forms. It draws in air from the sea, strengthening the coastal breezes, which push far inland and create convergence lines that are ideal for cross-country flying.
+:::
