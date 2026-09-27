@@ -23,7 +23,7 @@ In ICAO vocabulary, the ground station is the **aeronautical station**, identifi
 
 Talking to ATC on the radio is not a conversation. It is a procedure, and it has rules. The most important is the **readback**: repeating the controller's own words back, exactly as they were said.
 
-Why? Because it is the only way the air traffic controller (ATC) can know that you received the instruction correctly. If they do not hear your readback, they do not know whether it reached you, whether you understood it, or whether you heard something different.
+Why? Because it is the only way the air traffic controller (ATC) can know that you received the instruction correctly. Without your readback, they cannot tell whether it reached you, whether you understood it, or whether you heard something else.
 
 Under ICAO rules (Annex 10) and SERA (*Standardised European Rules of the Air*), you **must** read back:
 
@@ -49,7 +49,7 @@ There is no room for colloquial language on the radio. Every word has an exact m
 
 These are the terms you need to know from day one, as they are said on Spanish radio:
 
-* ***Afirma*** (Affirm): “Yes”, “Permission granted” or “That is correct”. It is the standard Spanish word in the official phraseology (AESA's phraseology and communications guide), the equivalent of the English **AFFIRM**, which ICAO shortened from **Affirmative** precisely so that it could not be confused with **Negative** on a noisy frequency. In practice you will also hear *«Afirmo»*; what you must always avoid is *«Afirmativo»*.
+* ***Afirma*** (Affirm): “Yes”, “Permission granted” or “That is correct”. It is the standard word in the official Spanish phraseology (AESA's phraseology and communications guide). Its English equivalent is **AFFIRM**, which ICAO shortened from **Affirmative** so that it could not be mistaken for **Negative** on a noisy frequency. In practice you will also hear *«Afirmo»*; what you must always avoid is *«Afirmativo»*.
 * ***Negativo*** (Negative): “No”, “Permission not granted” or “That is not correct”.
 * **Wilco** (**Will comply**): “Understood, I will comply”. You use it when you receive a long instruction that does not require a mandatory readback.
 * ***Solicito*** (Request): to ask for a clearance, a service or information. For example: *«Solicito autorización de rodaje»* (“Request taxi”).

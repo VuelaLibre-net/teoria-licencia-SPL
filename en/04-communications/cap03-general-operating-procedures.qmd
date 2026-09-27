@@ -36,7 +36,7 @@ Before you press the PTT, put the whole message together in your head: *Whom? �
 :::
 
 ::: {.callout-note title="Airmanship"}
-Some instructors recommend opening the **first** call to a station with a simple *«buenos días»* (“good morning”) or *«buenas tardes»* (“good afternoon”) before the message: *«Fuentemilanos tráfico, buenos días, Eco Charlie Delta Papa Eco…»* (“Fuentemilanos traffic, good morning, Echo Charlie Delta Papa Echo…”). It is not part of ICAO phraseology, which aims for economy of words, and so it would be kept for the **first contact**, not for every transmission; but there is a person at the other end of the radio, and that greeting oils the relationship with the tower, FIS or the other traffic at your field. With one proviso: on a busy frequency or in an emergency, courtesy is superfluous and you go straight to the point.
+Some instructors recommend opening the **first** call to a station with a simple *«buenos días»* (“good morning”) or *«buenas tardes»* (“good afternoon”) before the message: *«Fuentemilanos tráfico, buenos días, Eco Charlie Delta Papa Eco…»* (“Fuentemilanos traffic, good morning, Echo Charlie Delta Papa Echo…”). It is not part of ICAO phraseology, which aims for economy of words, and so it would be kept for the **first contact**, not for every transmission; but there is a person at the other end of the radio, and that greeting oils the relationship with the tower, FIS or the other traffic at your field. With one proviso: on a busy frequency or in an emergency, courtesy can wait and you go straight to the point.
 :::
 
 ## Radio check
@@ -103,7 +103,7 @@ Before you press the PTT, always listen to the frequency for a few seconds. A tr
 
 ## The blocked microphone (stuck PTT)
 
-It is a more common problem than it seems, and a more serious one: the **blocked microphone** or stuck PTT. In gliders the PTT button is usually built into the control stick, exactly where any accidental pressure can activate it.
+The **blocked microphone**, or stuck PTT, is more common than it seems, and more serious. In gliders the PTT button is usually built into the control stick, exactly where any accidental pressure can activate it.
 
 If the button stays mechanically pressed (a failed spring, the headset lead pulling on it, or a leg resting on a portable PTT), your radio goes into **continuous transmission** and sends out a carrier non-stop.
 

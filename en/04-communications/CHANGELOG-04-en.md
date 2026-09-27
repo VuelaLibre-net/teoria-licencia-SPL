@@ -11,6 +11,15 @@ The English edition is a translation of the Spanish book `04-comunicaciones`. Ea
 in its front matter the Spanish file it comes from (`origen`) and the commit of that file it was
 translated from (`origen-commit`). Terminology follows `en/terminologia.yml`.
 
+## [In progress]
+
+**What to reread:** nothing new in substance; wording only.
+
+### Changed
+
+* **cap01, cap02, cap03, cap04 and cap07** — a few sentences reworded to read more naturally.
+  The Spanish radio phrases, figures, rules and terminology do not change.
+
 ## [0.8.0] — 27 September 2026
 
 **What to reread:** **the whole book.** First complete translation, from Spanish version 1.0-rc.15

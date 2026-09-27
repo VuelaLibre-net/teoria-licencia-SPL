@@ -56,7 +56,7 @@ Once you have that mental picture, press the PTT. Your first call will carry spe
 
 ### The standard circuit and its position reports
 
-The **traffic circuit** is the rectangular pattern that organises traffic around the aerodrome. Without it, every pilot would arrive however they saw fit.
+The **traffic circuit** is the rectangular pattern that organises traffic around the aerodrome. Without it, every pilot would arrive in their own way.
 
 Unless the aerodrome's visual approach chart (*VAC*) says otherwise, because of obstacles or noise restrictions, the standard ICAO/EASA circuit **is always left-hand**. The reason is practical: in conventional aeroplanes the pilot-in-command sits on the left, and in tandem gliders the view to that side is usually better. With a left-hand circuit, the runway always stays in sight.
 
@@ -82,7 +82,7 @@ SERA does not place paragliders and hang gliders in that hierarchy in so many wo
 
 ### Coordinating with the tug and the winch
 
-The launch has no equivalent in any other kind of aviation: your take-off depends on coordinating with someone outside the aircraft. Doing it well makes the difference.
+The launch has no equivalent in any other kind of aviation: your take-off depends on coordinating with someone outside the aircraft, and doing it well makes all the difference.
 
 #### Winch launch
 
@@ -191,7 +191,7 @@ Your readback is:
 The wind need not be read back, but the runway clearance must.
 
 ::: {.callout-tip title="Golden rule"}
-When you note down, mentally or on your kneeboard, an instruction from a controller, if it includes a landing or take-off runway clearance, a heading or altitude to maintain, a QNH or a transponder code, your reply on the radio **CANNOT be “Wilco”** or *«Copiado»* (“Copied”). You must read those parameters back exactly as they were given to you.
+If a controller's instruction includes a landing or take-off runway clearance, a heading or altitude to maintain, a QNH or a transponder code, your reply on the radio **CANNOT be “Wilco”** or *«Copiado»* (“Copied”), however you note it down, mentally or on your kneeboard. You must read those parameters back exactly as they were given to you.
 :::
 
 ### Phraseology exercises

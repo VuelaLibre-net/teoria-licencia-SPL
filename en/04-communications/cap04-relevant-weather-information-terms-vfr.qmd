@@ -67,7 +67,7 @@ When you work out your final glide or the crosswind component, you need to know 
 
 Two kinds of weather warning that appear on VOLMET and in pre-flight briefings:
 
-* **SIGMET** (**Significant Meteorological Information**): a warning issued by meteorological watch offices for severe en-route phenomena (thunderstorms, severe icing, severe turbulence, volcanic ash). It covers large areas and is valid for up to 4 hours (6 h over oceanic areas). It means you must take the flight decision very seriously.
+* **SIGMET** (**Significant Meteorological Information**): a warning issued by meteorological watch offices for severe en-route phenomena (thunderstorms, severe icing, severe turbulence, volcanic ash). It covers large areas and is valid for up to 4 hours (6 h over oceanic areas). When one is in force, take the flight decision very seriously.
 * **AIRMET** (**Airmen's Meteorological Information**): a less severe warning, aimed especially at low-level and general aviation. It covers moderate phenomena (moderate turbulence, moderate icing, reduced visibility) that do not reach the SIGMET threshold.
 
 You will find both on the regional VOLMET or in the pre-flight weather briefing. If an active SIGMET affects your route, assess whether conditions are flyable before you set off.
