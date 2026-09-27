@@ -5,7 +5,7 @@ origen-commit: a374a39
 
 # Stalling and spinning
 
-> The stall and the spin are the situations new pilots fear most and the ones practised most in training. In this chapter you will learn to recognise the symptoms that warn you before the stall arrives, to carry out the recovery correctly (even though it goes against instinct) and to tell a clean stall from autorotation so that you apply the right technique in each case.
+> The stall and the spin are the situations new pilots fear most and the ones practised most in training. In this chapter you will learn to recognise the symptoms that warn you before the stall arrives and to carry out the recovery correctly, even though it goes against instinct. You will also learn to tell a clean stall from autorotation, so that you apply the right technique in each case.
 
 ## The stall
 
@@ -16,7 +16,7 @@ Learn to read these symptoms: the sailplane warns you before the stall arrives.
 * An unusually high nose attitude relative to the horizon.
 * Very low speed on the airspeed indicator.
 * Flying controls that feel excessively soft, spongy and ineffective.
-* No normal sound of air flowing past the cockpit.
+* The usual sound of air flowing past the cockpit dies away.
 * Structural vibration known as “buffet”, caused by turbulent air striking the fuselage and tail.
 
 The stall does not arrive all at once across the whole span: it starts at the **wing root** (where the wing joins the fuselage) and spreads towards the tips. This is by design: the wing has a greater angle of incidence at the root than at the tips, so the root stalls first. The ailerons, out at the tips, keep some authority for the first few moments: it is a design margin that lets you keep the wings level while the stall gives its warning. But if a wing does drop, do not try to raise it with aileron; hold it up with rudder, as you will see below.

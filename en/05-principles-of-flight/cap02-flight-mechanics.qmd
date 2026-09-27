@@ -14,12 +14,12 @@ A sailplane has no engine. Once released from the tow, its only fuel is the heig
 Gliding flight is a constant exchange: potential energy (height) is converted into kinetic energy (speed). For the wing to keep producing lift, the sailplane flies slightly nose-down relative to the air mass. That attitude makes a component of the weight point forward along the flight path, acting as thrust and balancing aerodynamic **drag**.
 
 ::: {.callout-tip title="Golden rule"}
-Speed gives you control of the sailplane; height is your energy reserve. By giving up height you gain speed (stick forward) and, by using up excess speed, you can regain some upward path (stick back). But that exchange does not last: the reserve is refilled only by climbing in lift.
+Speed gives you control of the sailplane; height is your energy reserve. By giving up height you gain speed (stick forward) and, by using up excess speed, you can zoom back up a little (stick back). But that exchange does not last: the reserve is refilled only by climbing in lift.
 :::
 
 ## The polar curve
 
-The polar curve is your sailplane's performance ID card. It shows the relationship between speed (km/h) and rate of sink (m/s) in still air. You must know it, because the two key operating speeds come from it (@fig-05-cap02-curva-polar):
+The polar curve is your sailplane's performance ID card. It shows the relationship between speed (km/h) and rate of sink (m/s) in still air. Learn it: the two speeds you fly by come from it (@fig-05-cap02-curva-polar):
 
 * **Minimum sink speed (V~min\ sink~):** at the top of the curve (the point closest to zero on the Y axis). At this speed you lose the least height per unit of time, so it is the speed that keeps you in the air longest. It is your reference when turning steeply in the core of a thermal or when holding.
 * **Best glide speed (V~best\ glide~, also called the speed for best L/D):** found by drawing a tangent from the origin (0,0) to touch the curve. It gives the best ratio of distance covered to height lost. It is the speed for clean glides between thermals and for covering the greatest possible distance over the ground.
@@ -28,7 +28,7 @@ The polar curve is your sailplane's performance ID card. It shows the relationsh
 
 ## Efficiency and glide ratio (L/D)
 
-The glide ratio (L/D) expresses how many metres the sailplane travels forward for each metre of height lost in still air. A training sailplane such as the ASK 21 manages about 35:1 (it covers 35 km for every kilometre of height given up). Open Class racing sailplanes exceed 60:1 thanks to their long span and laminar aerofoils.
+The glide ratio (L/D) tells you how many metres the sailplane travels forward for each metre of height lost in still air. A training sailplane such as the ASK 21 manages about 35:1 (it covers 35 km for every kilometre of height given up). Open Class racing sailplanes exceed 60:1 thanks to their long span and laminar aerofoils.
 
 In real air, the figures in the manual are only theory: wind and moving air masses force you to adjust your speeds.
 
@@ -40,14 +40,14 @@ In real air, the figures in the manual are only theory: wind and moving air mass
 * **Sinking air:** when you fly through a descending air mass, your actual rate of sink increases by the same amount. The best speed to fly rises above V~best\ glide~: fly faster to get out of that area as soon as possible and limit the height you lose in it.
 
 ::: {.callout-note title="Airmanship"}
-Get used to planning final glides and outlandings with a reduced L/D. Counting on half the figure published in the Aircraft Flight Manual (AFM) protects you from ending up low and short when a headwind, sinking air and dirt or insects on the leading edge all add up, and they cut performance more than you might think.
+Plan final glides and outlandings with less L/D than the book gives. Counting on half the figure published in the Aircraft Flight Manual (AFM) protects you from ending up low and short when a headwind, sinking air and dirt or insects on the leading edge all add up. Together they cut performance more than you might think.
 :::
 
 ### Water ballast and the polar curve
 
 Some sailplanes carry water tanks in their wings. Ballast does not change the shape of the wing: it simply adds weight, and that pushes the polar curve to the right. V~best\ glide~ and V~min\ sink~ both increase, and the minimum rate of sink also increases slightly.
 
-What is it for? On a day of strong thermals with long glides between them, the ballasted sailplane covers the ground faster for the same glide angle; in a competition that means minutes gained. The price: in weak thermals it climbs worse, because it needs more speed and each circle costs more height. The ballast is dumped before landing.
+What is it for? On a day of strong thermals with long glides between them, the ballasted sailplane covers the ground faster for the same glide angle; in a competition that means minutes gained. The price: in weak thermals it climbs less well, because it needs more speed and each circle costs more height. The ballast is dumped before landing.
 
 The key point: **ballast does not change the maximum L/D**. The best glide ratio is the same with and without water; the only thing that changes is the speed at which you achieve it, which rises with weight. That is why the ballasted sailplane flies faster “for the same glide”. The mass and balance calculation that makes it possible to load that ballast is covered in **Book 7 — Flight Performance and Planning**, chapter 2.
 
