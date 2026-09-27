@@ -13,11 +13,11 @@ origen-commit: 2890174
 
 ## Cold fronts and instability
 
-A **cold front** is the boundary surface along which a mass of cold air, being denser, advances as a wedge and pushes in underneath an existing mass of warm air. This forces the warm air to rise steeply.
+A **cold front** is the boundary where a mass of cold, denser air advances as a wedge and pushes in underneath the warm air already there, forcing it to rise steeply.
 
 The passage of a cold front brings a sharp drop in temperature, an abrupt veer in the wind (usually to the north-west or north), reduced visibility and organised precipitation, often as showers and clouds with great vertical development such as cumulonimbus (Cb) (@fig-03-cap06-frente-frio-estructura).
 
-For soaring, the best weather comes after the front. Once the frontal barrier has cleared, the region is dominated by a transitional air mass that is clearly colder than the ground. As its base is warmed by contact with the ground, marked **post-frontal instability** sets in.
+For soaring, the best weather comes after the front. Once the front has gone through, a transitional air mass takes over, clearly colder than the ground. As its base is warmed by contact with the ground, marked **post-frontal instability** sets in.
 
 ::: {.callout-tip title="Golden rule"}
 The days immediately after the passage of a large-scale cold front usually offer the best thermal conditions. They bring excellent visibility with no haze, rising atmospheric pressure and strong daytime heating that sets off vigorous thermals marked by well-defined cumulus (Cu).
@@ -29,7 +29,7 @@ The days immediately after the passage of a large-scale cold front usually offer
 
 A **warm front** occurs when a mass of warm air advances and rises gently over a denser, stationary mass of cold air lying in the lower basin. Its slope is much gentler than that of a cold front, so it moves slowly and its effects last a long time.
 
-The approach of a warm front can be seen hours or days in advance as **cirrus (Ci)** clouds appear in stages (@fig-03-cap06-frente-calido-nubes). As the system advances, the cloud thickens and gradually lowers, passing through cirrostratus and altostratus and ending in a layer of nimbostratus (Ns) and stratus (St).
+You can see a warm front coming hours or days ahead, as **cirrus (Ci)** clouds appear in stages (@fig-03-cap06-frente-calido-nubes). As the system advances, the cloud thickens and gradually lowers, passing through cirrostratus and altostratus and ending in a layer of nimbostratus (Ns) and stratus (St).
 
 A warm front makes VFR conditions steadily worse:
 
@@ -48,7 +48,7 @@ In operational terms, an occlusion combines the worst of both fronts: the violen
 
 ![Internal vertical structure of an occluded front (cold occlusion)](imagenes/03-cap06-frente-ocluido.png){#fig-03-cap06-tipos-frentes}
 
-There is a fourth type of front, less common but seen on synoptic charts: the **stationary front**. It forms when two air masses of similar temperature and density meet and neither is strong enough to push over the other. The result is an almost motionless boundary between the two masses, which can last for days, bringing persistent rain and fog along its axis. On synoptic charts it is drawn with alternating blue triangles and red semicircles on opposite sides of the frontal line.
+A fourth type of front is less common but does appear on synoptic charts: the **stationary front**. It forms when two air masses of similar temperature and density meet and neither is strong enough to push over the other. The boundary between them hardly moves and can last for days, bringing persistent rain and fog along its axis. On synoptic charts it is drawn with alternating blue triangles and red semicircles on opposite sides of the frontal line.
 
 ::: {.callout-important title="Regulation"}
 **SERA.5001** (Commission Implementing Regulation (EU) No 923/2012) sets the weather minima for VFR flight. In class G airspace, at and below 3,000 ft AMSL or 1,000 ft above terrain, whichever is higher, the general minimum visibility is **5 km**, clear of cloud and with the surface in sight. It may be reduced to **1,500 m** for flights at 140 kt or less, provided the speed gives adequate opportunity to see other traffic or obstacles in time to avoid a collision. Inadvertent entry into IMC by a VFR pilot without an instrument rating is a serious offence.
@@ -59,7 +59,7 @@ There is a fourth type of front, less common but seen on synoptic charts: the **
 For convection, the absolute temperature of the air mass matters less than its **temperature relative to the ground it is moving over**.
 
 * **Cold air sliding over warm ground = INSTABILITY.** This happens when cool maritime air arrives over continental plateaus warmed by the sun. The base of that air mass is warmed by contact with the ground, becomes lighter and rises: strong thermals start up, good for cross-country flying.
-* **Warm air sliding over cold ground = STABILITY.** This happens when a warm mass moves over a cold ocean or over snow-covered land. The base of that air cools and becomes denser in contact with the ground, forming a stable inversion that suppresses any thermals and favours persistent fog.
+* **Warm air sliding over cold ground = STABILITY.** It is typical of a warm mass moving over a cold ocean or snow-covered land. The base of that air cools and becomes denser in contact with the ground, forming a stable inversion that suppresses any thermals and favours persistent fog.
 
 ## Classifying air masses
 

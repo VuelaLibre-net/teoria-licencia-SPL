@@ -12,13 +12,13 @@ origen-commit: 2890174
 
 ## Rain and aerodynamic degradation
 
-Gliders are designed with laminar-flow aerofoils tuned for high efficiency. Rain badly disturbs the aerofoil, making the airflow separate early and turn turbulent along the wet wings.
+Gliders are designed with laminar-flow aerofoils tuned for high efficiency. Rain spoils that: the airflow separates early and turns turbulent along the wet wings.
 
-In rain, the consequences are immediate:
+The effects are immediate:
 
 * **Higher stall speed:** the wing will lose its lift at a significantly higher speed than when it is dry.
 * **Lower glide performance:** the **glide ratio** suffers, so you must recalculate your glide cone and look for landing options within a shorter range.
-* **Higher rate of descent:** there is a marked increase in the **sink rate** needed to hold the same flying speed.
+* **Higher rate of descent:** you sink noticeably faster (**sink rate**) at the same flying speed.
 
 ::: {.callout-warning title="Safety"}
 With wet wings, always add a minimum margin of 5–10 kt to your standard approach speed. Avoid steep turns: the risk of stalling is significantly higher than when the wings are dry, and the stall can come without warning.
@@ -26,9 +26,9 @@ With wet wings, always add a minimum margin of 5–10 kt to your standard approa
 
 ## Hail (GR) and convective clouds
 
-Hail is born inside the cumulonimbus (Cb). Powerful updraughts hurl water droplets above the freezing level, where they freeze. They then fall, are caught by the updraught again and rise once more, gaining a layer of ice on each cycle, like an onion, until they are too heavy for the updraught to hold. The result is hailstones that can exceed 2–3 cm across.
+Hail is born inside the cumulonimbus (Cb). Powerful updraughts hurl water droplets above the freezing level, where they freeze. They then fall, are caught by the updraught again and rise once more, gaining a layer of ice on each cycle, like an onion, until they are too heavy for the updraught to hold. Hailstones can end up more than 2–3 cm across.
 
-For composite aircraft with light fibre structures, the kinetic energy of the hail (added to the aircraft's own speed) poses a serious structural risk. Cracked and holed **canopies** are common, as is damage to the protective **gelcoat**, and severe direct hits can cause delamination of the composite core.
+For light composite aircraft, the energy of the hail (added to the aircraft's own speed) is a serious structural risk. Cracked and holed **canopies** are common, as is damage to the protective **gelcoat**, and severe direct hits can cause delamination of the composite core.
 
 ::: {.callout-note title="Airmanship"}
 Do not assume that hail falls only directly beneath the Cb: the wind aloft can throw it out tens of kilometres under the spreading anvil. Always keep a safe distance from the anvil, even if the sky below looks completely clear.
@@ -50,7 +50,7 @@ At the first sign of icing (rime on the wing's leading edge or on the canopy), t
 
 **Virga** is a curtain of precipitation that falls from the base of a cloud but evaporates before reaching the ground. It looks like grey or bluish streaks that fade into the air at mid-height, never touching the terrain.
 
-The danger is not the rain itself but what happens when those drops evaporate: evaporation cools the surrounding air, which becomes denser and falls en masse towards the ground as a violent downdraught, the **downburst** or **microburst** (@fig-03-cap05-virga-microrrafaga).
+The danger lies in what happens when those drops evaporate. Evaporation cools the surrounding air, which becomes denser and falls en masse towards the ground as a violent downdraught, the **downburst** or **microburst** (@fig-03-cap05-virga-microrrafaga).
 
 ![Danger under the virga: the birth of a microburst](imagenes/03-cap05-virga-microburst.jpg){#fig-03-cap05-virga-microrrafaga}
 

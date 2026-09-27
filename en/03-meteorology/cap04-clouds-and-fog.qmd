@@ -12,7 +12,7 @@ origen-commit: 1f048bb
 
 ## Reading the clouds
 
-For a glider crew, clouds are the visual map of the atmosphere. The figure below sums up the four main families and what each means in practice for soaring (@fig-03-cap04-familias-nubes-perfil):
+For a glider crew, clouds are a map of the atmosphere you can see. The figure below sums up the four main families and what each means in practice for soaring (@fig-03-cap04-familias-nubes-perfil):
 
 ![Vertical profile of the four cloud families with approximate base heights](imagenes/03-cap04-familias-nubes-perfil.png){#fig-03-cap04-familias-nubes-perfil}
 
@@ -58,7 +58,7 @@ Any significant drop in visibility is bad news for flight under the Visual Fligh
 * **Mist and haze:** they reduce horizontal visibility to between 1,000 m and 3,000 m.
 * **Fog:** water suspended at ground level that restricts visibility to less than 1,000 m. In these conditions, VFR operation is not possible.
 
-**Radiation fog** is of particular interest. It forms at dawn in winter after clear nights under anticyclonic conditions. The rapid cooling of the ground chills the lowest layer of air, saturating it and producing thick, localised banks of fog.
+**Radiation fog** matters most. It forms at dawn in winter after clear nights under anticyclonic conditions. The rapid cooling of the ground chills the lowest layer of air, saturating it and producing thick, localised banks of fog.
 
 Another type that matters at coastal and valley airfields is **advection fog**. Unlike radiation fog, it does not depend on the ground cooling overnight: it forms when a mass of warm, moist air moves horizontally over a colder surface (a cold sea, a snow-covered valley or a coastline). The temperature contrast is enough to saturate the base of that air mass and produce a dense fog bank that can persist day and night for as long as the flow lasts. It is typical of the Galician and Cantabrian coast in winter and of the Mediterranean coast in autumn with an easterly *levante* wind.
 
@@ -70,7 +70,7 @@ Pay special attention to the late afternoon on days that began with persistent r
 
 **Lenticular clouds** (**Altocumulus lenticularis**) have smooth, convex, lens-like shapes. Although they form under strong winds aloft, they stay completely stationary relative to the terrain.
 
-They are the visible proof of a steady laminar flow crossing a mountain obstacle and bouncing downwind of it. In practice they signal a **mountain wave** system, where you can climb steadily without turbulence and gain a great deal of height in silky-smooth air (@fig-03-cap04-nubes-onda-montana).
+They show a steady laminar flow that has crossed a mountain barrier and is bouncing downwind of it. In practice they signal a **mountain wave** system, where you can climb steadily without turbulence and gain a great deal of height in silky-smooth air (@fig-03-cap04-nubes-onda-montana).
 
 ![Mountain wave system downwind of a ridge.](imagenes/03-cap04-onda-montana.jpg){#fig-03-cap04-nubes-onda-montana}
 

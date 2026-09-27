@@ -11,7 +11,7 @@ Some pilots look at the sky and see clouds. Others look at the sky and see infor
 
 A glider flies with no engine, no radar and no power to escape whatever the weather has in store. The only real advantage a glider pilot has is anticipation: spotting the front twelve hours ahead, knowing that virga can hide a downburst, or recognising the invisible temperature inversion that will cap the flight at a thousand feet however hot the sun.
 
-Ten chapters take you from the physics of the atmosphere to the practical reading of METAR, TAF and SIGWX, by way of fronts, thermodynamics and the hazards that the weather keeps for those who do not understand it.
+Ten chapters run from the physics of the atmosphere to reading METAR, TAF and SIGWX in practice, taking in fronts, thermodynamics and the hazards the weather holds for pilots who do not understand it.
 
 The sky talks. Learn to listen to it before you take off.
 <!-- GUÍA-DE-LECTURA: desde esta marca hasta el final, el texto es idéntico en
