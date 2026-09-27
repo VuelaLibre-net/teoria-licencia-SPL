@@ -1,6 +1,6 @@
 ---
 origen: 05-principios-vuelo/glosario.qmd
-origen-commit: a374a39
+origen-commit: 6e22a6e
 ---
 
 # Glossary of terms
