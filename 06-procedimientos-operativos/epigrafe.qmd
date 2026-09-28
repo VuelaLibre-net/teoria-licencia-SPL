@@ -1,7 +1,7 @@
 # Epígrafe {.unnumbered .unlisted .oculto}
 
 ::: {.epigrafe}
-«No vuelas por instinto; vuelas gracias a una preparación meticulosa y al respeto absoluto por los procedimientos establecidos.»
+«En el vuelo he aprendido que el descuido y el exceso de confianza suelen ser mucho más peligrosos que los riesgos asumidos deliberadamente.»
 
- — Neil Armstrong (1969), piloto de pruebas, de planeadores y primer astronauta en pisar la Luna.
+ — Wilbur Wright (1900), pionero de la aviación, en una carta a su padre.
 :::

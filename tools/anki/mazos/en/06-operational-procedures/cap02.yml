@@ -1,0 +1,142 @@
+# Anki deck for en/06-operational-procedures, chapter 2.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/06-procedimientos-operativos/cap02.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/06-operational-procedures
+capitulo: 2
+titulo: "Launch methods"
+tarjetas:
+  - id: cinco-reglas-del-torno
+    tipo: basica
+    anverso: What are the **five winch rules**?
+    reverso: |
+      1. Never with a **tail wind**.
+      2. Never in **long grass**.
+      3. **Hand on the release**, and release **before** the wing touches the
+         ground.
+      4. A **trained** wing runner.
+      5. Care in **crosswinds**.
+
+      All five protect against the same thing: the three seconds in which the
+      sailplane accelerates while the wing can correct nothing.
+    etiquetas: [Safety]
+
+  - id: si-algo-no-cuadra
+    tipo: basica
+    anverso: What is the cheapest decision of the day on the winch?
+    reverso: |
+      **If something does not add up, do not hook on.**
+
+      A launch abandoned on the ground costs five minutes. The alternative
+      costs a sailplane, and sometimes more.
+    etiquetas: [Golden rule]
+
+  - id: rotura-de-cable-prioridad
+    tipo: basica
+    anverso: What is the absolute priority if the cable breaks during the climb?
+    reverso: |
+      **Lower the nose** to the gliding attitude to regain speed and avoid a
+      stall.
+
+      Only then: release the remaining cable and choose between landing
+      straight ahead, turning through 180° or flying an abbreviated circuit,
+      according to height.
+    etiquetas: [Safety]
+
+  - id: posicion-alta-en-remolque
+    tipo: basica
+    anverso: What is the reference for the **high tow position**, and what happens if you lose it?
+    reverso: |
+      **The tug's wheels sitting on the horizon.**
+
+      If the tug disappears from view you are too high: you are lifting its
+      tail and may push its nose into the ground. If in doubt, **release**.
+    etiquetas: [Golden rule]
+
+  - id: alabeo-del-remolcador
+    tipo: basica
+    anverso: What does it mean when the **tug rocks its wings**?
+    reverso: |
+      **An order to release at once: the tug has an emergency.**
+
+      If you are the one who cannot release, move to one side and rock your
+      wings.
+
+  - id: cable-flojo
+    tipo: basica
+    anverso: How do you correct a **slack line**?
+    reverso: |
+      **With a gentle sideslip or with gradual airbrake.**
+
+  - id: boxing-the-wake
+    tipo: basica
+    anverso: From what height do you practise **boxing the wake**, and what do you avoid?
+    reverso: |
+      **From 300 m AGL.**
+
+      Do not fly the box too tight or cut the corners: you would enter the
+      wingtip vortices and suffer a violent roll. If you lose control or the
+      tug disappears, **release**.
+    etiquetas: [Safety]
+
+  - id: par-de-cabeceo-del-motor
+    tipo: basica
+    anverso: On a self-launch with a pylon-mounted engine, what does the **pitching moment** do?
+    reverso: |
+      **Applying power pushes the nose down; reducing or cutting it pitches it
+      up.**
+
+  - id: altura-minima-arranque-en-vuelo
+    tipo: basica
+    anverso: What is the minimum height for trying to start the engine in flight?
+    reverso: |
+      **About 300 m AGL.**
+
+      Below that, or if it does not start at the first attempt, forget the
+      engine and concentrate on the outlanding. Many serious accidents come
+      from persisting a few metres above the ground.
+    etiquetas: [Safety]
+
+  - id: cross-check-de-mandos
+    tipo: basica
+    anverso: Why is a **control cross-check** done?
+    reverso: |
+      **Because a badly connected aileron or rudder control can be impossible
+      to spot during your own inspection.**
+
+      With another pilot or the launch marshal, before the launch. It removes
+      one of the most frequent causes of take-off accidents.
+    etiquetas: [Airmanship]
+
+  - id: anilla-doble-tost
+    tipo: basica
+    anverso: Why must you check that the ring is compatible with the hook?
+    reverso: |
+      **Because a single Schweizer-type ring on a Tost hook may not release
+      when the knob is pulled in flight**, dragging you along uncontrollably.
+
+      The **Tost double ring** system is the only one approved for Tost hooks.
+    etiquetas: [Safety]
+
+  - id: fusibles-weak-links
+    tipo: basica
+    anverso: What happens if a stronger **weak link** than specified is fitted?
+    reverso: |
+      **In a sudden overload, the sailplane's wings or nose will break before
+      the cable does.**
+
+      No bypassing with karabiners or shackles. On aerotow, too strong a weak
+      link damages the nose hook and the fuselage. Example code: blue =
+      600 daN for single-seaters on the winch.
+    etiquetas: [Safety]
+
+  - id: emergency-briefing
+    tipo: basica
+    anverso: Why is the **emergency briefing** said out loud before rolling?
+    reverso: |
+      **Because in a cable break at low height there is no time to think.**
+
+      Lowering the nose and stabilising speed and flight path must be preloaded
+      and come out as a reflex.
+    etiquetas: [Airmanship]

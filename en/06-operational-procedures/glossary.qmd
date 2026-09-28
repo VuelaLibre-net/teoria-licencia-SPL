@@ -1,0 +1,110 @@
+---
+origen: 06-procedimientos-operativos/glosario.qmd
+origen-commit: 92f079f
+---
+
+# Glossary of terms
+
+This glossary contains the most relevant definitions and acronyms of Operational Procedures for the Sailplane Pilot Licence (SPL).
+
+**Aerotow**
+: A launch method in which a powered aircraft tows the sailplane on a flexible rope of standard length (usually between 30 and 60 metres) up to a given height.
+
+**Airbrakes**
+: Movable surfaces, usually on the upper surface of the wing and operated by the pilot, whose job is to destroy lift and increase drag in order to control the approach path. They are often loosely called *spoilers*, but a spoiler proper only spoils lift from the upper surface; sailplane airbrakes of the Schempp-Hirth type come out above and below the wing and add drag as well.
+
+**Bail-out**
+: An emergency procedure consisting of a parachute jump from an aircraft in flight when it is no longer controllable or safe.
+
+**Base leg**
+: The leg of the traffic circuit at right angles to the extended runway centreline that joins the downwind leg to the final approach.
+
+**CB-SIFT-CBE**
+: A cockpit checklist carried out, and said out loud, immediately before the cable is attached: **C**ontrols (controls free and with correct travel), **B**allast (total mass and centre of gravity within limits), **S**traps (harness locked), **I**nstruments (altimeter set, variometer, radio and FLARM), **F**laps (take-off setting), **T**rim (set for take-off), **C**anopy (closed and its catches locked), **B**rakes (airbrakes closed and locked) and **E**ventualities (the current wind and the launch failure briefing). Its traditional equivalent in Spanish clubs is CRISE.
+
+**CRISE**
+: The traditional form of the cockpit checklist in Spanish-speaking gliding clubs, used at the same moment as CB-SIFT-CBE; its letters come from Spanish words: **C**ontroles (controls: stick, pedals and airbrakes), **R**eglajes (adjustments: harness and parachute), **I**nstrumentos (instruments: altimeter, variometer and FLARM), **S**eguridad exterior (outside safety: canopy, clear-view panel, runway and wind) and **E**mergencias (emergencies: cable break briefing). It is also shortened to CRIS.
+
+**Decision height**
+: A pre-set height above the ground below which the pilot stops looking for thermals and concentrates solely on landing. On cross-country flights it is applied as a ladder: at 600 metres the landing area is chosen, at 450 metres the final field and at 300 metres the pilot commits to the circuit. Not to be confused with the *decision height* (DH) of instrument flying, which is the height at which a go-around must be started if the required visual reference has not been gained: here there is no instrument approach and no go-around is possible.
+
+**Ditching**
+: A forced, controlled landing of a land aircraft on a water surface.
+
+**Downwind leg**
+: The leg of the traffic circuit parallel to the runway in use and flown in the opposite direction to the landing, on which the pre-landing checks (the FUSTALL checklist) are done.
+
+**Emergency parachute**
+: A manually operated personal life-saving device that the sailplane pilot wears in the cockpit as a mandatory or recommended back-up.
+
+**Final approach (final leg)**
+: The leg lined up with the runway centreline in the direction of landing, on which the descent is managed with the airbrakes down to touchdown and until the aircraft stops.
+
+**FLARM**
+: A short-range electronic traffic warning and collision avoidance system designed especially for sailplanes, which transmits the aircraft's projected three-dimensional GPS position to other equipped aircraft.
+
+**Flutter**
+: A physical phenomenon of self-excited, unstable aeroelastic oscillations that affect the sailplane's lifting or control surfaces above V~NE~. It can destroy the structure within seconds, through the interaction between high-speed airflow and the flexibility of the structure.
+
+**FUSTALL**
+: The downwind checklist: **F**laps (landing position), **U**ndercarriage (wheel down and locked), **S**peed (approach speed from the AFM), **T**rim (trimmed for that speed), **A**irbrakes (free, then closed for the base leg), **L**anding area (wind, traffic and touchdown area) and **L**and (from now on, just fly and land). Water ballast is dumped before joining the circuit. Its short European version is WULF.
+
+**Icing**
+: The formation of ice on the glider's surfaces when flying in visible moisture at below-zero temperatures (especially between 0 °C and −15 °C). It distorts the aerofoil, raises the **stall speed** and can make the canopy opaque. Gliders have no anti-icing systems: the remedy is to descend to levels where the temperature is above zero.
+
+**IMSAFE**
+: Mnemonic for the physical and mental self-assessment recommended before every flight: Illness, Medication, Stress, Alcohol, Fatigue and Eating.
+
+**Launch failure**
+: An involuntary interruption of the pull during take-off (for example, a cable break on the winch or on tow, or an engine failure on the tug) that requires the pre-set emergency briefing to be carried out at once.
+
+**Outlanding (field landing)**
+: A planned operational procedure for a precautionary landing away from an approved aerodrome, made in suitable open or agricultural fields because thermals have run out or usable height has been lost.
+
+**PCC (Positive Control Check)**
+: A mandatory check after rigging the sailplane in which a helper physically holds each control surface on the outside while the pilot moves the controls in the cockpit, to confirm that the connections are sound and move in the correct sense.
+
+**PIC (Pilot in Command)**
+: The pilot designated as being in command and charged with the safe conduct of the flight.
+
+**Release failure (towhook jam)**
+: An aerotow emergency in which the sailplane's release knob does not free the cable when pulled. The situation must be signalled to the tug (moving low and to the left of the tug and rocking the wings; never above it, because that would lift the tug's tail) so that the tug releases the cable from its end, and a final approach higher than usual must be planned with the rope hanging, to clear the obstacles before the runway.
+
+**Ridge soaring**
+: A soaring technique that uses the rising air deflected upwards by the relief of a hill or mountain range on its windward face.
+
+**Self-launch**
+: The ability of a sailplane to take off and climb by itself, using an auxiliary power unit built into the structure (TMG motorgliders or sailplanes with a retractable engine).
+
+**Sideslip**
+: A deliberately uncoordinated manoeuvre with crossed controls (aileron one way, rudder the other) in which the side of the fuselage is presented to the free airflow, greatly increasing drag and so the rate of sink without increasing speed.
+
+**Slack line**
+: A temporary loss of tension in the tow rope during an aerotow, which can cause tangling or violent jerks when the rope tightens again.
+
+**The 7 S**
+: A mnemonic rule used to assess systematically from the air whether a field is suitable for an outlanding: **Size**, **Shape**, **Slope**, **Surface**, **Surroundings** (obstacles), **Stock** (livestock) and **Sun** (position of the sun).
+
+**Thermal**
+: A rising convective current of air formed by uneven heating of the ground. The sun heats the ground, the ground heats the air in contact with it, and the air rises by buoyancy. It is the main source of lift in cross-country soaring. Its strength depends on the temperature difference between the ground and the free atmosphere.
+
+**Traffic circuit (aerodrome circuit)**
+: The standard, orderly path an aircraft flies to make a safe approach and landing. For sailplanes it typically consists of crosswind, downwind, base and final.
+
+**Wake turbulence**
+: Counter-rotating tubular vortices produced by fixed-wing aircraft as they generate lift, or by the rotor downwash and vortices of helicopters. They sink slowly and persist for several minutes after the aircraft has passed. Crossing them at right angles can induce a rolling moment greater than the glider's ailerons can hold. The recommended minimum separation is at least 3 minutes behind heavy aircraft and 3 rotor diameters from hovering helicopters.
+
+**Water ballast**
+: Water carried in dedicated tanks in the wings to increase the glider's mass and wing loading, shifting the polar curve towards higher values so as to fly faster at the same glide angle.
+
+**Wave soaring**
+: A soaring technique that uses the stationary, smooth wave flow (mountain wave) set up downwind of a mountain range in strong, stable wind, allowing great heights to be reached on the rising side of the waves.
+
+**Weak link**
+: A calibrated metal link or fuse inserted in the tow or winch cable, designed to break under an overload that exceeds the calculated structural limits before the sailplane or the tug is damaged.
+
+**Winch launch**
+: A launch method in which a sailplane is accelerated to high speed along the runway by a powerful stationary engine at the far end rapidly winding in a cable, which lifts it to release height in a very steep climb.
+
+**WULF**
+: A short version of the downwind checklist taught in many European clubs, used at the same moment as FUSTALL: **W**ater ballast (dumped), **U**ndercarriage (down and locked), **L**oose articles / **L**ook-out (loose articles secured and a good look-out) and **F**laps (landing position).

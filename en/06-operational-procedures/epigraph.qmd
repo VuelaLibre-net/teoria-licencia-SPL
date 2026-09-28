@@ -1,0 +1,12 @@
+---
+origen: 06-procedimientos-operativos/epigrafe.qmd
+origen-commit: 70cb56e
+---
+
+# Epigraph {.unnumbered .unlisted .oculto}
+
+::: {.epigrafe}
+“In flying I have learned that carelessness and overconfidence are usually far more dangerous than deliberately accepted risks.”
+
+ — Wilbur Wright (1900), aviation pioneer, in a letter to his father.
+:::

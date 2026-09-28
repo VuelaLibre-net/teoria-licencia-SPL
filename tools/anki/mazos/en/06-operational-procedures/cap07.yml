@@ -1,0 +1,128 @@
+# Anki deck for en/06-operational-procedures, chapter 7.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/06-procedimientos-operativos/cap07.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/06-operational-procedures
+capitulo: 7
+titulo: "Emergency procedures"
+tarjetas:
+  - id: regla-universal-de-emergencia-en-lanzamiento
+    tipo: basica
+    anverso: In any launch emergency, what comes first?
+    reverso: |
+      **Lower the nose** to regain speed and avoid a stall.
+
+      Then: release the cable and decide.
+
+  - id: rotura-de-cable-torno-alturas
+    tipo: cloze
+    texto: |
+      Cable break on the **winch**: below {{c1::150 m}}, land straight ahead;
+      between {{c1::150}} and {{c2::200 m}}, an abbreviated circuit adapted to
+      the wind; above {{c2::200 m}}, a normal circuit.
+
+  - id: rotura-de-cable-aerotow-alturas
+    tipo: cloze
+    texto: |
+      Cable break on **aerotow**: below {{c1::70 m}}, straight ahead; between
+      {{c1::70}} and {{c2::150 m}}, turn back or fly a shortened circuit; above
+      {{c2::150 m}}, an abbreviated or normal circuit.
+    extra: |
+      The turn back starts towards the crosswind, with a firm bank of about
+      45°.
+
+  - id: la-maniobra-imposible
+    tipo: basica
+    anverso: What is **“the impossible turn”**, and why is it impossible?
+    reverso: |
+      **Trying to get back to the runway by turning through 180° at low
+      height.**
+
+      The geometry of the glide does not allow it: the turn uses energy and
+      height that you do not have. Below the critical height and with no
+      runway ahead, **land straight ahead in open country. Always.**
+    etiquetas: [Safety]
+
+  - id: alturas-son-formativas
+    tipo: basica
+    anverso: Are the decision heights of 150/200 m and 70/150 m regulatory?
+    reverso: |
+      **No: they are reference values for training.**
+
+      The real critical height is set by the sailplane's AFM and the local
+      airfield instructions (runway length, obstacles, usual wind). Learn them
+      as an order of magnitude and adjust them with your instructor.
+    etiquetas: [Regulation]
+
+  - id: fallo-de-gancho-en-remolque
+    tipo: basica
+    anverso: If you cannot release on aerotow, where do you position yourself?
+    reverso: |
+      **Low and to the left of the tug, rocking your wings to warn the pilot.**
+
+      Never above: you would lift the tug's tail (*kiting*). The tug will
+      release.
+
+  - id: aterrizar-con-cable-colgando
+    tipo: basica
+    anverso: How do you land with the **rope hanging**?
+    reverso: |
+      **With a high final and a generous margin until you are past the
+      threshold.**
+
+      A low approach can catch the rope on a fence or power line: violent
+      deceleration and an uncontrolled impact.
+    etiquetas: [Safety]
+
+  - id: flutter-que-hacer
+    tipo: basica
+    anverso: With destructive vibration (**flutter**), what do you do?
+    reverso: |
+      **Raise the nose gently and open the airbrakes: slow down at once.**
+
+      Never speed up: it is exactly the opposite of what you need. After any
+      abnormal vibration, an engineer must inspect the sailplane before it
+      flies again.
+    etiquetas: [Safety]
+
+  - id: pitot-bloqueado
+    tipo: basica
+    anverso: With the **pitot blocked**, how do you fly?
+    reverso: |
+      **By visual pitch attitude and by the sound of the air in the cockpit.**
+
+      Do not try to correct against an airspeed indicator you know is blocked;
+      keep a conservative attitude and a steady sound of air.
+
+  - id: apertura-de-cupula
+    tipo: basica
+    anverso: If the **canopy opens** in flight, what do you do?
+    reverso: |
+      **Fly the sailplane. Aviate.**
+
+      Lower the nose to counter the extra drag. Do not let go of the stick to
+      grab the canopy: that has caused fatal accidents. Let it float or come
+      off.
+    etiquetas: [Safety]
+
+  - id: lastre-asimetrico
+    tipo: basica
+    anverso: How do you fly with **asymmetric ballast**?
+    reverso: |
+      **15–20 km/h faster in the circuit**, to keep the ailerons effective, and
+      with the wings level at touchdown.
+
+      If you let the speed fall on base or final, the heavy wing stalls
+      asymmetrically and you get an instant, unrecoverable spin at low height.
+    etiquetas: [Safety]
+
+  - id: valvulas-y-extintor
+    tipo: basica
+    anverso: What must you locate on the ground in a motorglider?
+    reverso: |
+      **The fuel valves and the fire extinguisher.**
+
+      A fire leaves no time to look through manuals. Muscle memory is trained
+      on the ground.
+    etiquetas: [Airmanship]

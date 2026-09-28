@@ -1,0 +1,89 @@
+# Anki deck for en/06-operational-procedures, chapter 6.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/06-procedimientos-operativos/cap06.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/06-operational-procedures
+capitulo: 6
+titulo: "Special operational procedures and hazards"
+tarjetas:
+  - id: flarm-no-sustituye-la-vista
+    tipo: basica
+    anverso: What role does **FLARM** play?
+    reverso: |
+      **A supplement, never a substitute for a visual look-out.**
+
+      It warns you of the dangers it knows about. When it warns you, look for
+      the aircraft: the system gives the direction, the manoeuvre is yours.
+      Look outside 95% of the time and scan the horizon in sectors.
+    etiquetas: [Airmanship]
+
+  - id: esquivar-buitres
+    tipo: basica
+    anverso: On an imminent collision course with a **vulture**, over or under?
+    reverso: |
+      **Always over it.**
+
+      A frightened vulture's instinct is to fold its wings and dive. If you
+      dive to avoid it, you cross its falling path.
+    etiquetas: [Airmanship]
+
+  - id: tendidos-electricos
+    tipo: basica
+    anverso: How do you spot **power lines** from the air?
+    reverso: |
+      **By picking out the concrete or wooden poles and drawing the line
+      between them in your mind before flying over it.**
+
+      The wires are invisible in many light conditions: they are the biggest
+      undetected hazard in cross-country flying and field landings.
+    etiquetas: [Safety]
+
+  - id: estela-de-helicoptero
+    tipo: basica
+    anverso: Why is a **helicopter's** wake so dangerous for a sailplane?
+    reverso: |
+      **Because it is out of proportion to the helicopter's weight, and the
+      sailplane has a long span and low wing loading.**
+
+      Never take off or land just behind a moving helicopter, and avoid areas
+      where one has recently been hovering.
+    etiquetas: [Safety]
+
+  - id: viento-cruzado-despegue-y-toma
+    tipo: basica
+    anverso: "**Crosswind** technique on take-off and landing."
+    reverso: |
+      **Take-off**: aileron into wind so that the wing does not lift, opposite
+      rudder to stay on the runway.
+      **Landing**: crab all the way down final and line up with the rudder
+      before touching down.
+
+  - id: horizonte-falso-en-montana
+    tipo: basica
+    anverso: What is your **real horizon** when flying in the mountains?
+    reverso: |
+      **The foot of the mountain or the valley, not the peaks.**
+
+      Using the peaks as a reference makes you fly with the nose too high and
+      stall.
+
+  - id: contaminacion-del-borde-de-ataque
+    tipo: basica
+    anverso: How much do wet wings raise the stall speed?
+    reverso: |
+      **By 5 to 10%**, an effect similar to light icing.
+
+      Any contamination of the leading edge (humidity, dew, light rain) means
+      adding speed in the circuit and on the approach. If ice builds up,
+      descend at once.
+    etiquetas: [Safety]
+
+  - id: amerizaje
+    tipo: basica
+    anverso: How do you ditch a sailplane?
+    reverso: |
+      **Wheel down** (the wheel slows the sailplane on contact and stops the
+      cockpit diving), **parallel to the waves and at minimum speed**.
+
+      As soon as it stops, get out: it sinks in seconds.

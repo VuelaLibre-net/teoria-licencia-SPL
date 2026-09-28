@@ -1,0 +1,80 @@
+# Anki deck for en/06-operational-procedures, chapter 5.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/06-procedimientos-operativos/cap05.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/06-operational-procedures
+capitulo: 5
+titulo: "Outlanding"
+tarjetas:
+  - id: escalera-600-450-300
+    tipo: basica
+    anverso: The decision ladder for an outlanding.
+    reverso: |
+      * **600 m** above the ground: choose the **area**.
+      * **450 m**: choose the **field**.
+      * **300 m**: **commit** to the circuit and forget the thermals.
+
+      Putting off the decision in search of a “low-level miracle” is the
+      number 1 cause of serious accidents.
+    etiquetas: [Safety]
+
+  - id: las-siete-s
+    tipo: cloze
+    texto: |
+      The **7 S** of field selection: {{c1::size}}, {{c2::shape}},
+      {{c3::slope}}, {{c4::surface}}, {{c5::surroundings}}, {{c6::stock}} and
+      {{c7::sun}}.
+    extra: |
+      A large, level field, into wind and with no obstacles on the approach, is
+      your life insurance.
+
+  - id: circuito-estandar-fuera-de-campo
+    tipo: basica
+    anverso: What circuit do you fly for an outlanding?
+    reverso: |
+      **The standard one. No odd straight-in approaches.**
+
+      The downwind leg is for inspecting the ground; base, for adjusting your
+      height; final, for putting it down on the spot.
+
+  - id: frenar-a-fondo-en-el-rodaje
+    tipo: basica
+    anverso: Once on the ground in a field, do you brake or try to clear the obstacle?
+    reverso: |
+      **Brake hard.**
+
+      Better to break the undercarriage in a furrow than to float over an
+      obstacle and stall three metres above the ground.
+
+  - id: ground-loop-deliberado
+    tipo: basica
+    anverso: If hitting an obstacle you cannot avoid is inevitable, what last resort is there?
+    reverso: |
+      **A deliberate ground loop: wing on the ground and full rudder towards
+      the same side.**
+
+      The sailplane pivots on the wingtip and stops, sacrificing the wing or
+      the undercarriage to absorb the energy. Equipment can be replaced; the
+      occupants cannot.
+    etiquetas: [Safety]
+
+  - id: quedarse-junto-al-planeador
+    tipo: basica
+    anverso: After landing in a remote area, do you go for help on foot?
+    reverso: |
+      **No: stay with the sailplane.**
+
+      Fifteen metres of white wingspan are infinitely easier to spot from the
+      air than a pilot on foot. Leaving multiplies the risk of getting lost, of
+      hypothermia and of delay in being found.
+    etiquetas: [Safety]
+
+  - id: post-toma-fuera-de-campo
+    tipo: basica
+    anverso: What do you do after an outlanding?
+    reverso: |
+      **Secure the sailplane against the wind** (weights on the wings, canopy
+      closed, pitot covers), **pass on your exact GPS coordinates**, stay with
+      the aircraft (the parachute canopy makes a shelter) and treat the farmer
+      with respect and courtesy.

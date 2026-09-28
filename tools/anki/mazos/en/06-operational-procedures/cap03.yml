@@ -1,0 +1,89 @@
+# Anki deck for en/06-operational-procedures, chapter 3.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/06-procedimientos-operativos/cap03.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/06-operational-procedures
+capitulo: 3
+titulo: "Soaring techniques"
+tarjetas:
+  - id: centrado-de-termica
+    tipo: basica
+    anverso: Flying through a thermal, which way do you turn?
+    reverso: |
+      **Towards the rising wing: that is where the core is.**
+
+      Once the turn is established, never reverse it: adjust it. Tighten the
+      turn when the vario rises, widen it when it falls.
+    etiquetas: [Golden rule]
+
+  - id: hilo-lateral-limitaciones
+    tipo: basica
+    anverso: What is the **side string** for, and what is it not for?
+    reverso: |
+      **It is a teaching aid for seeing the angle of attack in slow thermal
+      flying.**
+
+      In fast flight it loses all accuracy: the angles of attack are tiny. It
+      never replaces the airspeed indicator, the horizon or the central yaw
+      string.
+    etiquetas: [Safety]
+
+  - id: anillo-maccready
+    tipo: basica
+    anverso: How do you use the **MacCready ring**?
+    reverso: |
+      **Set it to the climb rate you expect to find** (for example 2 m/s)
+      **and fly at the speed it shows.**
+
+      Speed up in sink, slow down in lift.
+
+  - id: vuelo-de-ladera-preferencia
+    tipo: basica
+    anverso: In ridge soaring, who has right of way, and which way must you never turn?
+    reverso: |
+      **The pilot with the ridge on their right has right of way. Never turn
+      towards the hill.**
+
+      Stay close in on the windward side, with an escape route to the valley
+      always available.
+
+  - id: no-virar-hacia-la-ladera
+    tipo: basica
+    anverso: What lies on the lee side of the crest that makes turning towards the slope so dangerous?
+    reverso: |
+      **Violently sinking air, even when conditions look good on the windward
+      side.**
+
+      Straying into the rotor at low height over the ground may be
+      unrecoverable.
+    etiquetas: [Safety]
+
+  - id: vuelo-de-onda-donde-subir
+    tipo: basica
+    anverso: Where do you climb in **wave**, and what does it require?
+    reverso: |
+      **In the smooth zone, ahead of the rotor cloud.**
+
+      It requires oxygen, warm clothing and a calibrated altimeter. Take care
+      coming down: the rotor can break the sailplane in seconds.
+
+  - id: onda-y-espacio-aereo
+    tipo: basica
+    anverso: What must you check before a planned wave flight?
+    reverso: |
+      **The airspace**: wave heights often coincide with restricted areas or
+      areas reserved for controlled traffic, which need prior clearance.
+    etiquetas: [Airmanship]
+
+  - id: lastre-y-velocidad-de-perdida
+    tipo: basica
+    anverso: How much does **water ballast** raise the stall speed?
+    reverso: |
+      **By up to 15–20 km/h.**
+
+      Adjust all your reference speeds (take-off, approach, circuit). Never
+      land with full ballast unless the dump system fails, and then be as
+      gentle as possible: the inertia can exceed the structural strength of the
+      wings.
+    etiquetas: [Safety]
