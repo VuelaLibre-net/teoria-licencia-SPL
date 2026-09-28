@@ -1,0 +1,73 @@
+# Anki deck for en/06-operational-procedures, chapter 8.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/06-procedimientos-operativos/cap08.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/06-operational-procedures
+capitulo: 8
+titulo: "Emergency parachute operation and landing"
+tarjetas:
+  - id: cuando-saltar
+    tipo: basica
+    anverso: When do you bail out with the parachute?
+    reverso: |
+      **Only if the sailplane cannot be recovered**: structural failure,
+      mid-air collision, uncontrollable fire or an unrecoverable spin.
+
+      If the sailplane is flying under control, stay inside.
+
+  - id: altura-minima-de-salto
+    tipo: basica
+    anverso: What is the **minimum height** for bailing out?
+    reverso: |
+      **150 m AGL.** Below that, the parachute may not have time to open fully.
+
+  - id: secuencia-de-salto
+    tipo: basica
+    anverso: The emergency **bail-out** sequence.
+    reverso: |
+      1. Jettison the **canopy**.
+      2. Release the **harness**.
+      3. **Jump**, getting away from the tail, on the inside of the turn.
+      4. Count “one thousand, two thousand, three thousand”.
+      5. **Pull the handle** (on manual parachutes).
+
+  - id: saltar-con-g-elevadas
+    tipo: basica
+    anverso: In a spin or spiral, how do you get out with 3–4 g on you?
+    reverso: |
+      **By using the moment of lowest g at the start of each rotation to push
+      the canopy away and jump.**
+
+      Act firmly: every second of delay is height lost.
+    etiquetas: [Safety]
+
+  - id: separarse-antes-de-tirar
+    tipo: basica
+    anverso: Why must you be clear of the sailplane before pulling the handle?
+    reverso: |
+      **Because the canopy can catch on the stabiliser, the fuselage or the
+      control surfaces and fail to open fully.**
+    etiquetas: [Safety]
+
+  - id: toma-de-tierra-en-paracaidas
+    tipo: basica
+    anverso: How do you land under a parachute?
+    reverso: |
+      **Turn the canopy with the shoulder risers to land into wind**, in the
+      **PLF** position (feet and knees together and bent), and roll as you
+      touch down.
+
+      In wind, pull the lower lines to collapse the canopy.
+
+  - id: mantenimiento-del-paracaidas
+    tipo: basica
+    anverso: How often is the parachute packed and inspected, and what makes it unserviceable?
+    reverso: |
+      **Every 6–12 months depending on the manufacturer, by a certified
+      rigger.**
+
+      Never fly with an expired card, not even by a single day. Exposure to
+      heavy damp, chemicals (petrol, oils, solvents) or a mechanical impact
+      calls for an inspection. Protect it from UV.
+    etiquetas: [Safety]

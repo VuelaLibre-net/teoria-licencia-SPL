@@ -1,0 +1,113 @@
+# Anki deck for en/06-operational-procedures, chapter 4.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/06-procedimientos-operativos/cap04.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/06-operational-procedures
+capitulo: 4
+titulo: "Circuits and landing"
+tarjetas:
+  - id: tramos-del-circuito
+    tipo: basica
+    anverso: What legs and heights does the **standard circuit** have?
+    reverso: |
+      **Crosswind, downwind, base and final**, with references of **250–300 m,
+      200–300 m and 150 m** down to touchdown.
+
+      The circuit is not a ritual: it is an energy manager.
+
+  - id: fustall
+    tipo: cloze
+    texto: |
+      **FUSTALL**: {{c1::Flaps}}, {{c2::Undercarriage}} (wheel down and
+      locked), {{c3::Speed}}, {{c4::Trim}}, {{c5::Airbrakes}} (free, then
+      closed), {{c6::Landing area}} (wind and traffic), {{c7::Land}}.
+    extra: |
+      The water ballast is dumped **before** joining the circuit.
+
+  - id: fustall-siempre-en-el-mismo-punto
+    tipo: basica
+    anverso: When on the downwind leg do you do FUSTALL?
+    reverso: |
+      **Always at the same point** (for example, with the threshold level
+      with your wing).
+
+      Repetition makes it a habit. A pilot who improvises when to do the
+      checks ends up not doing them.
+    etiquetas: [Golden rule]
+
+  - id: wulf
+    tipo: cloze
+    texto: |
+      **WULF**: {{c1::Water ballast}} dumped, {{c2::Undercarriage}} down and
+      locked, {{c3::Loose articles / Look-out}}, {{c4::Flaps}} in the landing
+      position.
+    extra: |
+      A short version of FUSTALL used in many European clubs. Both aim to
+      reach base fully configured, with your attention outside the cockpit.
+
+  - id: velocidad-de-aproximacion
+    tipo: basica
+    anverso: How do you work out the **approach speed**?
+    reverso: |
+      **1.5 × V_S, plus half the wind and half the gust.**
+
+  - id: gradiente-de-viento-en-final
+    tipo: basica
+    anverso: Why is it so dangerous to arrive slow on final with a headwind?
+    reverso: |
+      **Because the wind gradient near the ground can steal 15–20 km/h in a
+      fraction of a second**, at a height from which there is no recovery.
+
+      The extra speed on final is not a luxury: it is life insurance.
+    etiquetas: [Safety]
+
+  - id: uso-de-aerofrenos-en-final
+    tipo: basica
+    anverso: With how much airbrake do you start final, and how do you correct?
+    reverso: |
+      **Half out.** If the touchdown point rises on the canopy, close them; if
+      it sinks, open them.
+
+      Never close them abruptly near the ground: balloon and tail strike.
+
+  - id: pasarse-de-largo-en-final
+    tipo: basica
+    anverso: If you are going to overshoot with the airbrakes fully open, what do you do?
+    reverso: |
+      **Extend the base leg or fly a gentle S-turn on final**, if the field
+      allows.
+
+      If nothing works, you are landing long: land and roll to the end of the
+      runway. What you do not do is close the airbrakes suddenly near the
+      ground.
+    etiquetas: [Airmanship]
+
+  - id: resbale-lateral
+    tipo: basica
+    anverso: How do you fly a **sideslip**, and what is the precaution?
+    reverso: |
+      **Crossed controls, lower wing into the wind and a clearly nose-low
+      attitude judged by eye.**
+
+      The airspeed indicator is unreliable (disturbed airflow), so pulling back
+      on the stick can lead to a stall. You exit by relaxing the stick first.
+      Practise it at a safe height.
+    etiquetas: [Safety]
+
+  - id: aproximacion-con-viento-de-cola
+    tipo: basica
+    anverso: On a **downwind** approach, what do you rely on?
+    reverso: |
+      **Solely on the airspeed indicator**, ignoring the apparent speed of the
+      ground under the cockpit.
+
+      Hold the recommended speed and be ready for a very long ground run and
+      firm braking.
+    etiquetas: [Safety]
+
+  - id: pio-cerca-del-suelo
+    tipo: basica
+    anverso: If the sailplane oscillates in pitch (**PIO**) near the ground, what do you do?
+    reverso: |
+      **Freeze the stick and let its static stability do the work.**

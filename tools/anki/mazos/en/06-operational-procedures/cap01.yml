@@ -1,0 +1,99 @@
+# Anki deck for en/06-operational-procedures, chapter 1.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/06-procedimientos-operativos/cap01.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/06-operational-procedures
+capitulo: 1
+titulo: "General requirements"
+tarjetas:
+  - id: cuatro-pilares-del-planeador
+    tipo: basica
+    anverso: What are the **four pillars** to check before every flight?
+    reverso: |
+      Three are documents, from **SAO.GEN.155**: **airworthiness** (certificate
+      + valid ARC), **registration** and **flight manual (AFM) on board**.
+
+      The fourth is required of the pilot-in-command by **SAO.GEN.130(d)(4)**:
+      **mass and balance** within the limits of the manual.
+
+      If any one is missing, the sailplane does not fly.
+    etiquetas: [Golden rule]
+
+  - id: papeles-del-piloto
+    tipo: basica
+    anverso: What papers must the pilot carry?
+    reverso: |
+      **A valid SPL, a valid medical certificate, an identity document and the
+      logbook data (SFCL.045).**
+
+      A student on a solo cross-country flight: medical, identity document and
+      evidence of the instructor's authorisation (**SFCL.125**).
+
+  - id: pic-ultima-autoridad
+    tipo: basica
+    anverso: Who decides whether the flight goes ahead?
+    reverso: |
+      **The pilot-in-command: the final authority.**
+
+      Sailplane not airworthy, marginal weather or you below 100%: the
+      decision not to fly is yours.
+
+  - id: imsafe-en-frio
+    tipo: basica
+    anverso: Where and how is it best to do the **IMSAFE** check?
+    reverso: |
+      **Out loud or in writing, before you leave home.**
+
+      At the airfield, the group's enthusiasm and social pressure lead you to
+      play down symptoms. Saying “no” calmly is easier than saying it with the
+      tug already waiting. A single “yes” is enough to stay on the ground.
+    etiquetas: [Airmanship]
+
+  - id: requisitos-para-llevar-pasajeros
+    tipo: basica
+    anverso: What does it take to carry **passengers** with an SPL?
+    reverso: |
+      * **10 hours or 30 launches** as PIC after the issue of the licence,
+        plus a training flight demonstrating competence to an **FI(S)**
+        (SFCL.115(a)(2)).
+      * **3 launches as PIC in the preceding 90 days** (in TMGs, 3 take-offs
+        and landings) (**SFCL.160(e)**).
+
+      And you must not be a student.
+    etiquetas: [Regulation]
+
+  - id: denegar-pasajero-o-equipaje
+    tipo: basica
+    anverso: Can the PIC refuse to carry a passenger?
+    reverso: |
+      **Yes: the PIC has the right and the duty to refuse if it is a hazard.**
+
+      If the passenger's weight plus equipment exceeds the limits, or their
+      behaviour may compromise your concentration, the answer is a firm “no”,
+      with no negotiation.
+    etiquetas: [Safety]
+
+  - id: pcc-y-anclaje
+    tipo: basica
+    anverso: What do ground operations require after rigging?
+    reverso: |
+      **A positive control check (PCC) after every rigging**, tying down facing
+      into wind with canopies closed and, when towing with a car, the **long
+      rope rule**: more than half the span.
+
+  - id: crise
+    tipo: cloze
+    texto: |
+      The Spanish mnemonic **CRISE**: **C** = {{c1::controls (Controles)}},
+      **R** = {{c2::adjustments and harness (Reglajes)}}, **I** =
+      {{c3::instruments (Instrumentos)}}, **S** = {{c4::outside safety
+      (Seguridad exterior)}}, **E** = {{c5::emergencies (Emergencias)}}.
+    extra: |
+      Stick free, pedals adjusted and airbrakes closed; harness and parachute;
+      altimeter, variometer and FLARM; canopy latched, runway clear and wind;
+      a mental cable-break briefing.
+
+      The European **CB-SIFT-CBE** has the same aim: not to attach the cable
+      until a complete physical and instrument check has been made in the
+      cockpit.
