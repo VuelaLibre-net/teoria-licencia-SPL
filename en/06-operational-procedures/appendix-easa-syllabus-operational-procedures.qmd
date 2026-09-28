@@ -1,0 +1,27 @@
+---
+origen: 06-procedimientos-operativos/apendice-syllabus-oficial-easa---procedimientos-operativos.qmd
+origen-commit: e0f5386
+---
+
+# Official EASA syllabus - operational procedures
+
+The following syllabus corresponds to the subject **Operational Procedures** for the Sailplane Pilot Licence (SPL), as set out in AMC1 SFCL.130 (Annex to ED Decision 2020/004/R, AMC & GM to Part-SFCL).
+
+* 6.1. General requirements.
+* 6.2. Launch methods.
+* 6.3. Soaring techniques.
+* 6.4. Circuits and landing.
+* 6.5. Outlanding.
+* 6.6. Special operational procedures and hazards.
+* 6.7. Emergency procedures.
+* 6.8. Emergency parachute operation and landing.
+
+This manual has been structured to follow this official syllabus faithfully, so that you cover every point needed for the theoretical examination.
+
+## Test yourself
+
+Theory sinks in by answering questions. This subject has its own online self-assessment test, with exam-style questions (currently in Spanish). For example:
+
+[https://vuelalibre.net/examenes/06-procedimientos-operativos/](https://vuelalibre.net/examenes/06-procedimientos-operativos/)
+
+Ask your instructor, who will tell you which question bank or format is most suitable, and follow that advice. It will be very useful both for consolidating what you learn in each chapter and for your general revision before you sit the theoretical examination.
