@@ -5,7 +5,7 @@ origen-commit: a374a39
 
 # Stability
 
-> A well-designed sailplane wants to return to equilibrium when something disturbs it. In this chapter you will learn what makes a sailplane stable longitudinally, laterally and directionally, why the position of the centre of gravity is the most critical parameter to check before every flight, and how the dihedral angle and the fin work together to keep you level and straight without effort.
+> A well-designed sailplane wants to return to equilibrium when something disturbs it. In this chapter you will learn what makes a sailplane stable longitudinally, laterally and directionally, and why the position of the centre of gravity is the most critical thing to check before every flight. You will also see how the dihedral angle and the fin work together to keep you level and straight without effort.
 
 ## Static stability
 
@@ -13,12 +13,12 @@ An aircraft's stability is its inherent ability to return to equilibrium after a
 
 Depending on its design, the sailplane's behaviour falls into one of three types:
 
-* **Positive static stability:** after a disturbance, the sailplane tends to return to its original position by itself. It is the basic design condition for safety in civil aircraft.
+* **Positive static stability:** after a disturbance, the sailplane tends to return to its original position by itself. Civil aircraft are designed this way for safety.
 * **Neutral static stability:** the aircraft makes no attempt to correct the disturbance, but it does not amplify it either. If a gust raises the nose by 5 degrees, the sailplane stays in that new attitude, neither returning to the previous one nor pitching up further.
 * **Negative static stability (instability):** the aircraft tends to move further and further away from its original equilibrium position. It is a dangerous condition: a small nose-up disturbance would make the sailplane keep pitching up, faster and faster.
 
 ::: {.callout-note title="Airmanship"}
-Training sailplanes are usually designed with very strong positive static stability, to make learning easier and to forgive the student's mistakes. However, this makes them “heavier” or more sluggish on the controls. High-performance competition and aerobatic sailplanes reduce this stability to gain agility and immediate response.
+Training sailplanes are usually designed with very strong positive static stability, to make learning easier and to forgive the student's mistakes. However, this makes them “heavier” or more sluggish on the controls. High-performance competition and aerobatic sailplanes trade some of this stability for agility and quick response.
 :::
 
 ## Dynamic stability
@@ -36,7 +36,7 @@ Depending on how those oscillations develop over time, the behaviour falls into 
 Two oscillation modes deserve special attention in a sailplane:
 
 * **Phugoid mode:** a slow, long-period longitudinal oscillation (about 10 to 15 seconds at normal sailplane speeds). The sailplane rises and falls, trading height for speed in gentle cycles. Its damping is weak, but the cycle is so slow that your usual small stick movements correct it without your noticing. It only shows up if you let go of the controls for a good while.
-* **Spiral instability:** a lateral dynamic instability. Most sailplanes are statically stable in roll, but dynamically they tend towards a slight **spiral divergence**: if left alone with a small angle of bank, the bank slowly increases until it becomes a descending spiral. That is why the pilot must always watch the lateral attitude, especially in cloud or when visual references to the horizon are lost.
+* **Spiral instability:** a lateral dynamic instability. Most sailplanes are statically stable in roll, but dynamically they tend towards a slight **spiral divergence**: if left alone with a small angle of bank, the bank slowly increases until it becomes a descending spiral. So always watch the lateral attitude, especially in cloud or when visual references to the horizon are lost.
 
 ::: {.callout-warning title="Safety"}
 Spiral instability lies behind most loss-of-control incidents in reduced visibility. A sailplane left alone with five degrees of bank can, within minutes, develop a fatal descending spiral. Never fly without visual references to the real horizon.
@@ -44,12 +44,12 @@ Spiral instability lies behind most loss-of-control incidents in reduced visibil
 
 ## Longitudinal stability: the role of the CG
 
-Longitudinal stability governs pitch. The parameter that determines it is the position of the centre of gravity (CG) relative to the centre of pressure (CP).
+Longitudinal stability governs pitch. It depends on the position of the centre of gravity (CG) relative to the centre of pressure (CP).
 
 For the sailplane to be stable in pitch, the **CG must lie ahead of the CP** in normal flight conditions. That arrangement creates a natural nose-down moment. To balance it, the horizontal stabiliser produces a downward force that keeps the sailplane level.
 
 * **CG too far forward:** stability increases, but the sailplane becomes excessively nose-heavy and hard to manoeuvre, especially on take-off and landing. L/D falls because of the extra drag from the tail as it balances the heavy nose.
-* **CG too far aft:** this is the critical, dangerous condition. If the CG is behind the permitted limits, the sailplane becomes unstable: after any disturbance the nose tends to rise uncontrollably. Worse still: if the stall develops into a spin, the aft CG tends to flatten it, and a flat spin leaves the controls without the authority to stop it.
+* **CG too far aft:** this is the critical, dangerous condition. If the CG is behind the permitted limits, the sailplane becomes unstable: after any disturbance the nose tends to rise uncontrollably. Worse still: if the stall develops into a spin, the aft CG tends to flatten it, and a flat spin leaves the controls with no authority to stop it.
 
 ::: {.callout-important title="Regulation"}
 Regulation (EU) 2018/1976, Part-SAO, point SAO.GEN.130(d)(4), requires the pilot-in-command to “only commence a flight if he or she is satisfied that […] the mass of the sailplane and the centre of gravity location are such that the flight can be conducted within the limits defined by the aircraft flight manual (AFM)”.
@@ -57,11 +57,11 @@ Regulation (EU) 2018/1976, Part-SAO, point SAO.GEN.130(d)(4), requires the pilot
 
 ## Lateral stability: the dihedral effect
 
-Lateral stability is the sailplane's tendency to level its wings after a disturbance that causes an unwanted roll. The main design feature that achieves this is the **dihedral angle**.
+Lateral stability is the sailplane's tendency to level its wings after a disturbance that causes an unwanted roll. The main design feature behind it is the **dihedral angle**.
 
 Dihedral is the upward angle of the wings relative to the horizontal, which gives the sailplane, seen from the front, the shape of a very open “V” (@fig-05-cap03-efecto-diedro).
 
-When a gust drops one wing (the left, say), the sailplane starts to slip sideways towards that side. Because of the dihedral angle, the lower wing meets the airflow at a greater effective angle of attack than the rising wing. This produces extra lift on the lower wing, which pushes the sailplane back to a level position automatically.
+When a gust drops one wing (the left, say), the sailplane starts to slip sideways towards that side. Because of the dihedral angle, the lower wing meets the airflow at a greater effective angle of attack than the rising wing. This produces extra lift on the lower wing, which rolls the sailplane back level by itself.
 
 ![The self-levelling effect of positive dihedral](imagenes/05-cap03-efecto-diedro.jpg){#fig-05-cap03-efecto-diedro}
 

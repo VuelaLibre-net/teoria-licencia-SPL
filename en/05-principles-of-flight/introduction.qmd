@@ -7,7 +7,7 @@ origen-commit: 1604290
 
 ***Subject 5 of 9 of the theoretical examination for the Sailplane Pilot Licence (SPL)***
 
-There is nothing mysterious about a sailplane's aerodynamics. There is physics. And physics does not negotiate.
+There is nothing mysterious about a sailplane's aerodynamics. Only physics. And physics does not negotiate.
 
 When the angle of attack exceeds the critical value, lift collapses, whatever the altitude. When the centre of gravity is beyond its aft limit, recovery from a spin may be impossible. When a spiral dive begins without outside references, the airspeed can pass V~NE~ before the pilot understands what is happening.
 

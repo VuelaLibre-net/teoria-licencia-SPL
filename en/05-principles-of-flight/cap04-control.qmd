@@ -5,11 +5,11 @@ origen-commit: a374a39
 
 # Control
 
-> A sailplane's controls are much more than a stick and pedals: they are the channel
-> of communication between pilot and aircraft. In this chapter you will learn to
-> understand adverse yaw and how to counter it by coordinating hand and foot, why the
-> trim is an essential flying tool and not just a rest for your arm, and what the
-> controls are telling you through how firm or soft they feel.
+> A sailplane's controls are much more than a stick and pedals: they are how pilot
+> and aircraft talk to each other. In this chapter you will learn what adverse yaw is
+> and how to counter it by coordinating hand and foot. You will see why the trim is an
+> essential flying tool and not just a rest for your arm, and what the controls tell
+> you through how firm or soft they feel.
 
 ## Adverse yaw: the price of roll
 
@@ -27,7 +27,7 @@ The answer to adverse yaw is **hand and foot coordination**. Apply stick and rud
 
 To reduce adverse yaw mechanically, sailplanes use **differential aileron**.
 
-The linkage is set up so that the up-going aileron (on the inner wing of the turn) moves through a larger angle than the down-going aileron (on the outer wing). By raising the inner aileron further, extra parasite drag is deliberately created on that side, which helps to offset the induced drag of the outer wing. Although this design markedly reduces the tendency of the nose to swing out of the turn, it does not remove it completely; the pilot must still always use the rudder (pedal) to keep the turn coordinated.
+The linkage is set up so that the up-going aileron (on the inner wing of the turn) moves through a larger angle than the down-going aileron (on the outer wing). Raising the inner aileron further deliberately adds parasite drag on that side, which helps to offset the induced drag of the outer wing. This design markedly reduces the tendency of the nose to swing out of the turn, but it does not remove it completely. You must still use the rudder (pedal) to keep the turn coordinated.
 
 ## The yaw string: your coordination indicator
 
@@ -45,17 +45,17 @@ Fly with the string straight. If it moves, correct it with the pedal. And if the
 
 ## Trim
 
-The trim is not just relief for your arm. It is, in fact, an aerodynamic control: it balances the forces on the tail and lets the sailplane hold a constant nose attitude and speed by itself, without you having to push or pull.
+The trim is not just relief for your arm. It is an aerodynamic control in its own right: it balances the forces on the tail and lets the sailplane hold a constant nose attitude and speed by itself, without you having to push or pull.
 
 ::: {.callout-note title="Airmanship"}
-Get used to trimming all the time. After changing the flight regime (for example, from thermalling at low speed to flying straight at a higher speed), first set the new attitude with the stick and then adjust the trim until you feel no force in your hand.
+Make trimming a habit. After changing the flight regime (for example, from thermalling at low speed to flying straight at a higher speed), first set the new attitude with the stick and then adjust the trim until you feel no force in your hand.
 :::
 
 ## Control effectiveness
 
-The controls give you vital information about the sailplane's speed through the way they resist your hand.
+The way the controls resist your hand tells you something vital: how fast the sailplane is flying.
 
-When you fly fast, the airflow strikes the control surfaces hard. The controls will feel **firm** and very responsive.
+When you fly fast, the airflow strikes the control surfaces hard. The controls feel **firm** and very responsive.
 
 However, as you slow down towards the stall, the airflow weakens. The controls lose effectiveness and become soft, or **“mushy”**. That lack of response is a direct physical warning that you are flying too slowly and close to the limit of lift.
 

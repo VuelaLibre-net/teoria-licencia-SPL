@@ -33,6 +33,9 @@ Ported from the Spanish edition, where these errors have been corrected at the s
 
 * **cap01–cap04, cap06 and cap07** — a dozen sentences made shorter and more direct. Content,
   figures and terminology unchanged.
+* **Introduction and cap01–cap07** — a second pass on the prose: about forty sentences made
+  shorter and more direct, with fewer passives and set phrases. Content, figures and terminology
+  unchanged.
 
 ## [0.8.0] — 28 September 2026
 

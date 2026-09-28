@@ -5,15 +5,15 @@ origen-commit: a374a39
 
 # Limitations (load factor and manoeuvres)
 
-> Every sailplane has structural limits that must not be crossed: doing so can
-> destroy the aircraft in seconds. In this chapter you will learn to read the V-n
-> diagram, to understand why the manoeuvring speed protects the structure in turbulence,
-> what the red line on the airspeed indicator means and why load factor raises the
-> stall speed in turns.
+> Every sailplane has structural limits that must not be crossed: cross them and the
+> aircraft can be destroyed in seconds. In this chapter you will learn to read the V-n
+> diagram and why the manoeuvring speed protects the structure in turbulence. You will
+> also see what the red line on the airspeed indicator means and why load factor raises
+> the stall speed in turns.
 
 ## The V-n diagram: your survival map
 
-The V-n diagram, also known as the flight envelope, is the graphical representation of your sailplane's structural limits. It relates the speed at which you are flying (V) to the load factor in g (n) that the structure is bearing (@fig-05-cap05-diagrama-vn).
+The V-n diagram, also known as the flight envelope, is a graph of your sailplane's structural limits. It relates the speed at which you are flying (V) to the load factor in g (n) that the structure is bearing (@fig-05-cap05-diagrama-vn).
 
 The diagram marks out the area of safe operation. As long as you stay within its limits, the structure will hold. If you go beyond them (through too much g or too much speed), the sailplane will suffer permanent deformation or structural failure.
 
@@ -26,7 +26,7 @@ Under CS-22, Utility (U) category sailplanes are designed to withstand from +5.3
 The manoeuvring speed (V~A~) is the maximum speed at which you can apply full control deflections without causing structural damage.
 
 If you are flying at or below V~A~ and apply an abrupt control deflection, the sailplane will simply **stall** before it generates enough g to exceed its structural load limit. The wing will stop flying and shed the load, protecting the sailplane.
-However, if you are flying faster than V~A~ and make an abrupt movement, the sailplane will not stall in time; it will generate an extreme g-force that exceeds the limits of the structure and breaks it.
+However, if you are flying faster than V~A~ and make an abrupt movement, the sailplane will not stall in time. Instead it pulls an extreme g-force, more than the structure can take, and the structure breaks.
 
 V~A~ is a structural limit, not a marking on the airspeed indicator. The marking you see on the dial is **V~RA~**, the **rough air speed**: the green arc ends and the yellow arc begins there, in accordance with CS 22.1545. In many sailplanes V~A~ and V~RA~ are almost the same, but certification distinguishes them, and so should you: V~A~ protects you against full deflection of a control; V~RA~, against the gusts of turbulent air; and V~NE~ is the absolute limit where the yellow arc ends at the red line.
 
@@ -45,7 +45,7 @@ The red line on the airspeed indicator marks V~NE~ (never exceed speed). It is a
 Flutter is an aeroelastic vibration of the wings or control surfaces which, if it occurs, can break the sailplane apart within seconds.
 
 ::: {.callout-warning title="Safety"}
-V~NE~ decreases with altitude: in thinner air, the true airspeed (TAS), on which flutter depends, increases relative to the indicated airspeed (IAS) you read on the airspeed indicator. Pay attention to the table of V~NE~ corrections for altitude in the cockpit. This effect is critical in wave flying, where great heights are reached; its link with wave meteorology is covered in **Book 3 — Meteorology**.
+V~NE~ decreases with altitude: in thinner air, the true airspeed (TAS), on which flutter depends, increases relative to the indicated airspeed (IAS) you read on the airspeed indicator. Check the table of V~NE~ corrections for altitude in the cockpit. This effect is critical in wave flying, where great heights are reached; its link with wave meteorology is covered in **Book 3 — Meteorology**.
 :::
 
 ::: {.callout-note title="Airmanship"}
