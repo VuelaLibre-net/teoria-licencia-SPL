@@ -5,7 +5,7 @@ origen-commit: 2e18652
 
 # Launch methods
 
-> The launch is the highest-energy phase of a sailplane flight and, together with the landing, the one with the highest statistical risk. In a matter of seconds, the pilot goes from standing still on the ground to flying at considerable speed, depending on a cable or on a tug aircraft. There is no room for improvisation: the procedures are exact, communication is precise and the emergency reactions must be instinctive.
+> The launch is the highest-energy phase of a sailplane flight and, together with the landing, the one with the highest statistical risk. In a few seconds the pilot goes from standing still to flying fast, hanging on a cable or behind a tug. There is no room for improvisation: the procedures are exact, the calls are precise and the emergency reactions must be instinctive.
 >
 >
 > In this chapter you will learn:
@@ -53,7 +53,7 @@ All five are solved by the same decision, and it is the cheapest one of the day:
 
 ### Procedure and radio calls
 
-Communication between the pilot and the winch driver is vital. A misunderstood command can lead to an unexpected pull. The standard sequence at Spanish airfields, with each call followed by its translation, is:
+The pilot and the winch driver must understand each other perfectly. A misunderstood command can lead to an unexpected pull. The standard sequence at Spanish airfields, with each call followed by its translation, is:
 
 1. *«Listo para tensar el cable»* (“Ready to take up slack”): the pilot indicates that they are ready. The winch driver starts to wind in the cable slowly, with no sudden tension.
 2. *«Cable en tensión»* (“Cable taut”): the pilot confirms that the cable is pulling smoothly and evenly.
@@ -66,7 +66,7 @@ Communication between the pilot and the winch driver is vital. A misunderstood c
 A cable break during the climb is one of the most demanding emergencies in sailplane flying. The reaction must be **instinctive and immediate, without hesitation**. The moment the tension disappears, the sailplane's nose tends to rise dangerously (the effect of the cable is suddenly gone) and the speed falls quickly. If you do not act in the first two seconds, a **stall** at low height can be fatal.
 
 ::: {.callout-warning title="Safety"}
-If the cable breaks during the climb, the **absolute and immediate** priority is to **lower the nose** to the gliding attitude to regain speed and avoid a stall. Only once the speed is safe, pull the release to drop the remaining cable, and decide: land straight ahead on the remaining runway (low height), make a 180° turn (medium height) or fly an abbreviated circuit (enough height). **On a winch launch, never try to turn back to the runway if you are below 150 metres**: it is the deadliest manoeuvre in gliding.
+If the cable breaks during the climb, the first thing to do, **immediately**, is to **lower the nose** to the gliding attitude to regain speed and avoid a stall. Only once the speed is safe, pull the release to drop the remaining cable, and decide: land straight ahead on the remaining runway (low height), make a 180° turn (medium height) or fly an abbreviated circuit (enough height). **On a winch launch, never try to turn back to the runway if you are below 150 metres**: it is the deadliest manoeuvre in gliding.
 :::
 
 ## Aerotow
@@ -178,7 +178,7 @@ The **weak link** is a calibrated metal fitting inserted in the tow cable, desig
 
 The pilot's operational obligation is to fit **exactly the weak link specified in the AFM** of their sailplane: neither stronger nor weaker. As a design reference, the certification standard **EASA CS 22.581(b)** assumes that the ultimate nominal strength of the cable or weak link is not less than 1.3 times the maximum weight of the sailplane nor less than 500 daN. Those are the values used to size the tow hook structurally.
 
-European clubs use the standardised system made by Tost. It is essential to understand that **choosing the right weak link always depends both on the weight of the sailplane and on the launch method**.
+European clubs use the standardised system made by Tost. The key point: **the right weak link always depends both on the weight of the sailplane and on the launch method**.
 
 **On aerotow:** accelerations build up gradually and the loads in the cable are smaller. To protect the nose hook from overloads that endanger stability, weaker links are used.
 
@@ -213,7 +213,7 @@ This briefing structures the immediate decision-making in the event of a cable b
 3. **Failure at critical height and turning back:** set the minimum height for attempting a safe turn back (as a guide, 150 metres AGL on a winch launch and 70 metres AGL on aerotow; see @fig-06-cap07-emergencia-altura on landing options by height and launch method) and decide in advance which way you will turn, taking into account the current wind direction and strength to counter the drift.
 
 ::: {.callout-note title="Airmanship"}
-Do not start the take-off run without having said out loud or gone over in your head your **emergency briefing**. In a cable break at low height there is no time to think about what to do. The correct action (lower the nose, stabilise the speed and the flight path) must be preloaded in your mind and carried out as a reflex.
+Do not start the take-off run without having said out loud or gone over in your head your **emergency briefing**. In a cable break at low height there is no time to think about what to do. The correct action (lower the nose, stabilise the speed and the flight path) must already be in your head and come out as a reflex.
 :::
 
 ::: {.postit}

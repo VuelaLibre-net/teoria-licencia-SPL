@@ -5,7 +5,7 @@ origen-commit: 02d77b9
 
 # Special operational procedures and hazards
 
-> Sailplane flying takes place in an environment shared with other aircraft and with birds, with weather that can develop in minutes and with terrain that can be as much an ally as an enemy. Knowing the specific procedures for each of these situations (and understanding why they are designed the way they are) is what separates the reactive pilot from the preventive one.
+> You share the sky with other aircraft and with birds, the weather can change in minutes and the terrain can help you as much as it can hurt you. Knowing the procedure for each of these situations, and why it is designed that way, is what separates the pilot who reacts from the one who prevents.
 >
 >
 > In this chapter you will learn:
@@ -60,7 +60,7 @@ For FLARM to do its safety job without causing fatal distractions in the cockpit
 4. **No abrupt “blind” avoiding action:** if you cannot get the traffic in sight, **avoid violent turns or height changes** based only on what the FLARM display shows. An abrupt turn without seeing the other sailplane can put you into its avoiding path, or into a collision with a third, unequipped sailplane that the system cannot see. If in doubt, make smooth, predictable changes of attitude to make yourself more visible.
 
 ::: {.callout-note title="Airmanship"}
-FLARM is an extraordinarily useful safety tool (mandatory in official competitions, from regional contests to world championships), but it **never replaces a visual look-out**. Treat it as a supplement that warns you of the dangers it knows about, not as a system that removes every risk. When FLARM warns you, react by looking for the conflicting aircraft: the system gives you the direction, but the final manoeuvre is your responsibility.
+FLARM is a very useful safety tool (mandatory in official competitions, from regional contests to world championships), but it **never replaces a visual look-out**. Treat it as a supplement that warns you of the dangers it knows about, not as a system that removes every risk. When FLARM warns you, react by looking for the conflicting aircraft: the system gives you the direction, but the final manoeuvre is your responsibility.
 :::
 
 ## Wildlife hazards: birds
@@ -93,7 +93,7 @@ Power lines and telecommunications cables are invisible from the air in many lig
 * **Special danger from helicopters:** helicopters produce extremely powerful wake turbulence because of the load on their rotor blades. In the hover or in slow taxiing (**hover**), the downward airflow (**downwash**) spreads out radially at the surface and can overturn a sailplane on the ground; always keep at least **three rotor diameters** away. In forward flight they produce very strong wake vortices because of their low operating speeds. Avoid flying below or behind them and take extreme care in mixed circuits, because ATC does not always give wake turbulence warnings for light or medium helicopters.
 
 ::: {.callout-warning title="Safety"}
-The wake turbulence produced by helicopters is out of all proportion to their weight. Because sailplanes have long spans and low wing loading, they are extremely vulnerable. Never try to land or take off immediately behind a moving helicopter, and avoid crossing areas where a helicopter has recently been hovering.
+The wake turbulence produced by helicopters is out of all proportion to their weight. With their long spans and low wing loading, sailplanes are especially vulnerable. Never try to land or take off immediately behind a moving helicopter, and avoid crossing areas where a helicopter has recently been hovering.
 :::
 
 ### Icing

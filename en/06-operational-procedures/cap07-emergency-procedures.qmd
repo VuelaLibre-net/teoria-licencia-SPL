@@ -5,7 +5,7 @@ origen-commit: a65a255
 
 # Emergency procedures
 
-> Emergencies in flight are not handled by improvising: they are handled by training. The difference between an emergency that ends with the sailplane on the ground and the crew unhurt, and one that ends in an accident, is often measured in one or two seconds of reaction time and in whether the correct procedure had become automatic. This chapter describes the most frequent emergencies in gliding and the exact procedure for each.
+> Emergencies in flight are not handled by improvising: they are handled by training. Whether an emergency ends with the sailplane on the ground and the crew unhurt, or in an accident, often comes down to one or two seconds of reaction time and to whether the right procedure had become automatic. This chapter describes the most frequent emergencies in gliding and the exact procedure for each.
 >
 >
 > In this chapter you will learn:
@@ -34,7 +34,7 @@ After a **launch failure** (a winch cable break or a tug engine failure), the pi
 
 1. **Palanca (stick):** push the stick forward at once (nose down) to settle the sailplane in a normal gliding attitude. In the steep climbing attitude the speed falls dramatically, and a delay of more than two seconds in lowering the nose will cause an imminent stall.
 2. **Pulsador (release knob):** pull the cable release hard two or three times. That makes sure the broken cable comes right off the sailplane and you are not trailing pieces that could catch on obstacles on the ground (fences, crops) during the approach.
-3. **Pensar (think):** assess the height available, the runway remaining and the wind, so as to carry out the matching decision in a fraction of a second.
+3. **Pensar (think):** assess the height available, the runway remaining and the wind, and act on your decision in a fraction of a second.
 
 The tactical decision depends directly on the height AGL reached when the failure happens and on the launch method used, because the rate of climb and the horizontal distance from the runway differ greatly between the winch and the tug (@fig-06-cap07-emergencia-altura):
 
@@ -75,7 +75,7 @@ When you fly an approach with the rope hanging, **under no circumstances fly a l
 
 ## Fire on board
 
-In motorgliders (**Motorsegler**) or self-launching sailplanes, fire is an extremely grave threat. The composite materials of the structure (carbon, glass fibre, resins) give off highly toxic fumes that can incapacitate the pilot in under thirty seconds.
+In motorgliders (**Motorsegler**) or self-launching sailplanes, fire is one of the gravest threats there is. The composite materials of the structure (carbon, glass fibre, resins) give off highly toxic fumes that can incapacitate the pilot in under thirty seconds.
 
 The priority is threefold and simultaneous: **cut off the fuel**, **clear the cockpit of smoke** and **land at once**.
 
@@ -128,7 +128,7 @@ If your sailplane's canopy was not properly latched during the pre-flight checks
 
 The safety procedure calls for the following immediate actions:
 
-1. **Fly the sailplane first (Aviate):** your absolute priority is to keep control of the aircraft. Ignore the canopy completely for the first few seconds. **Do not try to close it or hold it** if you are at low height or in a turn: you would lose your attention on flying and could induce an unusual attitude or a stall. Your sailplane can go on flying perfectly well with the canopy open.
+1. **Fly the sailplane first (Aviate):** your first and only priority is to keep control of the aircraft. Ignore the canopy completely for the first few seconds. **Do not try to close it or hold it** if you are at low height or in a turn: you would lose your attention on flying and could induce an unusual attitude or a stall. Your sailplane can go on flying perfectly well with the canopy open.
 2. **Put up with the noise and the whirl:** the noise will be deafening and loose objects will be flying around the cockpit, but the sailplane will go on flying perfectly well. If you are wearing sunglasses and your harness is tight, you will be safe.
 3. **Set up a steeper glide path:** an open or partly detached canopy causes a **massive increase in drag**. Your glide angle will get considerably worse. To hold the safe speed you will have to fly more nose-down (a steeper approach path and a higher rate of sink).
 4. **Plan the landing:** if you are on take-off, carry on with a steady tow to a safe height if possible, or release and fly a normal circuit. Fly a circuit adapted to a higher rate of sink and land at the aerodrome as soon as possible. Only try to close the canopy if you are at a good safe height, in coordinated flight and with one hand, without ever stopping flying the sailplane.
@@ -139,7 +139,7 @@ Never stop flying the sailplane to try to hold or close a canopy that opens in t
 
 ### Asymmetric water ballast dumping
 
-Water ballast (**water ballast**) in the wings improves performance at high speed on cross-country flights. However, if one of the wing valves jams or leaks when you start to dump (**dumping**), the sailplane will empty unevenly. That creates a considerable sideways imbalance in weight, with one wing much heavier than the other.
+Water ballast (**water ballast**) in the wings improves performance at high speed on cross-country flights. However, if one of the wing valves jams or leaks when you start to dump (**dumping**), the sailplane will empty unevenly. That leaves the sailplane badly out of balance sideways, with one wing much heavier than the other.
 
 The pilot must manage this asymmetry with the following technique:
 
@@ -151,7 +151,7 @@ The pilot must manage this asymmetry with the following technique:
 ![Asymmetric ballast dumping: the loaded wing drops and needs sustained crossed controls](imagenes/06-cap07-lastre-asimetrico.png){#fig-06-cap07-lastre-asimetrico}
 
 ::: {.callout-warning title="Safety"}
-A wing loaded with tens of litres of water has a much higher stall speed than the empty wing. With asymmetric dumping, if you let the speed fall too far on final or in the turn onto base, the heavy wing will stall suddenly and asymmetrically, causing an instant **spin** that cannot be recovered at low height. Holding the recommended circuit speed is your absolute defence.
+A wing loaded with tens of litres of water has a much higher stall speed than the empty wing. With asymmetric dumping, if you let the speed fall too far on final or in the turn onto base, the heavy wing will stall suddenly and asymmetrically, causing an instant **spin** that cannot be recovered at low height. Holding the recommended circuit speed is your best defence.
 :::
 
 ::: {.callout-important title="Regulation"}

@@ -5,7 +5,7 @@ origen-commit: 19f429a
 
 # General requirements
 
-> Before take-off, the sailplane pilot has to meet a set of legal and safety requirements that are not mere red tape: they are the first line of defence against an accident. Knowing exactly which documents must be carried on board, what the responsibilities of the pilot-in-command are and when you are entitled to carry passengers protects you, other people and your licence.
+> Before take-off, the sailplane pilot has to meet legal and safety requirements that are not mere red tape: they are the first line of defence against an accident. Know which documents go on board, what the pilot-in-command answers for and when you may carry passengers. That knowledge protects you, other people and your licence.
 >
 >
 > In this chapter you will learn:
@@ -56,7 +56,7 @@ Its main duties include:
 
 ### The IMSAFE check
 
-Before you get into the cockpit, carry out this honest self-assessment. It is not a formality: it is the first, and most important, check of the day.
+Before you get into the cockpit, be honest with yourself. It is not a formality: it is the first, and most important, check of the day.
 
 * **I** (**Illness**): Do I have any illness or symptom, however mild? A cold can stop the pressure in the middle ear from equalising as you climb.
 * **M** (**Medication**): Have I taken any medicines that could affect my reflexes, vision or alertness?
@@ -73,7 +73,7 @@ Do the **IMSAFE** check out loud or in writing before you leave home. The atmosp
 
 ## Carriage of passengers
 
-Taking someone up in your sailplane is a considerable extra responsibility. It is not just a matter of technique: it is the safety of someone who has put their trust in you and who probably would not know what to do if you were incapacitated.
+Taking someone up in your sailplane adds a real responsibility. It is not just a matter of technique: it is the safety of someone who has put their trust in you and who probably would not know what to do if you were incapacitated.
 
 To exercise this privilege, **Part-SFCL** requires the pilot to meet strict recent-experience requirements:
 

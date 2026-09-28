@@ -5,7 +5,7 @@ origen-commit: c56a602
 
 # Circuits and landing
 
-> The traffic circuit is the heart of sailplane flying: the moment when all the energy gathered during the flight is turned into a precise, safe landing. Unlike a powered aircraft, the sailplane has no second chance if the first approach goes wrong: there is no power to put it right. The circuit demands planning ahead, a three-dimensional picture of the airspace and the ability to make decisions as the ground comes closer.
+> The traffic circuit is where all the energy gathered during the flight becomes a precise, safe landing. Unlike a powered aircraft, a sailplane gets no second chance if the first approach goes wrong: there is no power to put it right. The circuit asks you to plan ahead, to picture the airspace in three dimensions and to decide as the ground comes up.
 >
 >
 > In this chapter you will learn:
@@ -40,7 +40,7 @@ Before joining the downwind leg, open the water ballast valves (even if you are 
 * **T** (**Trim**): trim the sailplane for the chosen approach speed.
 * **A** (**Airbrakes**): check that the airbrakes move freely and close them again for the base leg.
 * **L** (**Landing area**): scan the landing area and the whole circuit: wind, other aircraft and people on the runway. Is there another sailplane on final?
-* **L** (**Land**): with everything checked, spend the rest of the circuit solely on flying and landing the sailplane.
+* **L** (**Land**): with everything checked, spend the rest of the circuit just flying and landing the sailplane.
 
 ::: {.callout-tip title="Golden rule"}
 Always do FUSTALL at the same point on the downwind leg (for example, when the runway threshold is level with your wing). Repetition turns the checklist into a habit and makes it almost impossible to leave out. A pilot who improvises when to do the checks ends up not doing them.
@@ -123,7 +123,7 @@ When you fly a downwind approach, **rely solely on the airspeed indicator for sp
 
 In the final stage of the approach and at touchdown, at low speed, the flying controls are less effective and there is a slight delay (**control lag**) between moving the stick and the aircraft's physical response. If a small gust pitches the sailplane up, a tired pilot or one with slow reflexes may push the stick forward hard; when the sailplane responds and starts to pitch down, the pilot pulls back hard. This cycle of excessive, out-of-phase corrections quickly grows:
 
-* **Consequences:** the oscillations can end in an extremely hard contact of the main wheel or the nose wheel with the runway, with severe structural damage to the fuselage or injury to the crew.
+* **Consequences:** the oscillations can end in a very hard impact of the main wheel or the nose wheel with the runway, with severe structural damage to the fuselage or injury to the crew.
 * **Correction in flight:** the moment you feel a pitch oscillation starting near the runway, **freeze the stick** in a steady, neutral position. Let the sailplane settle by itself through its longitudinal static stability and, if necessary, open the airbrakes to half or keep them there to settle the aircraft gently (@fig-06-cap04-pio-cabeceo).
 
 ![Pilot-induced oscillation (PIO): out-of-phase corrections that keep growing](imagenes/06-cap04-pio-cabeceo.png){#fig-06-cap04-pio-cabeceo}

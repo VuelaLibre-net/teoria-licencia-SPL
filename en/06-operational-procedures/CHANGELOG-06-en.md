@@ -26,6 +26,9 @@ file it was translated from (`origen-commit`). Terminology follows `en/terminolo
 
 * **cap01–cap08** — a pass on the prose: over twenty long sentences split into shorter ones.
   Content, figures and terminology unchanged.
+* **Introduction and cap01–cap08** — a second pass on the prose: the chapter openings rewritten
+  more directly and about twenty set phrases made plainer. Content, figures and terminology
+  unchanged.
 
 ## [0.8.0] — 28 September 2026
 

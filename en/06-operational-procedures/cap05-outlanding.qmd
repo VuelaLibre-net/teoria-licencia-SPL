@@ -5,7 +5,7 @@ origen-commit: 02d77b9
 
 # Outlanding
 
-> The **outlanding** is a statistical fact of cross-country flying. It is neither a failure nor an accident: it is a planned, practised procedure that can be carried out perfectly well with a cool head and enough height. The difference between an outlanding you tell stories about in the hangar and one that turns into an accident lies in a single factor: the moment at which the pilot makes the decision.
+> The **outlanding** is a statistical fact of cross-country flying. It is neither a failure nor an accident: it is a planned, practised procedure that goes perfectly well with a cool head and enough height. What separates an outlanding you tell stories about in the hangar from one that ends in an accident is one thing: when the pilot makes the decision.
 >
 >
 > In this chapter you will learn:
@@ -77,7 +77,7 @@ If a high-speed impact with an obstacle becomes inevitable during the ground run
 
 ## Procedures after an outlanding
 
-Once the sailplane has come safely to a stop and the adrenaline starts to settle, the flight is not over. A successful **outlanding** calls for a series of coordinated actions to keep the aircraft intact, handle the communications for the retrieve, ensure your survival if you are in a remote area and keep a respectful relationship with the landowners.
+Once the sailplane has come safely to a stop and the adrenaline starts to settle, the flight is not over. After a successful **outlanding** you still have work to do: keep the aircraft intact, arrange the retrieve, look after yourself if you are somewhere remote and stay on good terms with the landowner.
 
 ### Securing the sailplane
 
@@ -103,7 +103,7 @@ Your road crew (**retrieve crew**) or your gliding club need to know exactly whe
 If you have landed in a mountainous, desert or wooded region that is hard to reach, the rescue may take several hours or even last through the night. Apply the following golden rule of aviation survival:
 
 ::: {.callout-warning title="Safety"}
-**Always stay with the sailplane**. A white or brightly coloured aircraft with a 15-metre span is infinitely easier for rescue teams to spot from the air than a pilot walking alone through a forest or across a mountain. Leaving the sailplane to look for help on foot multiplies the risk of getting lost, of hypothermia and of delay in being found.
+**Always stay with the sailplane**. A white or brightly coloured aircraft with a 15-metre span is far easier for rescue teams to spot from the air than a pilot walking alone through a forest or across a mountain. Leaving the sailplane to look for help on foot multiplies the risk of getting lost, of hypothermia and of delay in being found.
 :::
 
 * **The cockpit as a shelter:** the sailplane's cockpit gives excellent protection against wind, rain and cold. Use the cushions and the space inside to insulate yourself from damp ground or from the cold of the structure.

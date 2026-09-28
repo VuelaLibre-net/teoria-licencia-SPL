@@ -6,7 +6,7 @@ origen-commit: 02d77b9
 # Soaring techniques
 
 
-> Sailplane flying is, at heart, a constant conversation with the atmosphere. The pilot who learns to listen to the air (the changes on the variometer, how the sailplane behaves in different air masses, the subtle signs that announce a thermal) develops an ability that goes beyond technique and becomes instinct. This chapter covers the three great families of lift (thermal, ridge and wave) together with the management of water ballast for particular conditions.
+> Sailplane flying is, at heart, a constant conversation with the atmosphere. Learn to listen to the air (the changes on the variometer, how the sailplane behaves in different air masses, the small signs that announce a thermal) and technique turns into instinct. This chapter covers the three main kinds of lift (thermal, ridge and wave) and how to manage water ballast.
 >
 >
 > In this chapter you will learn:
@@ -66,7 +66,7 @@ This technique has operational limitations that you should know:
 Its use is limited strictly to slow thermal flying, to help the student see how close the sailplane is to its maximum lift coefficient and to prevent secondary stalls in steep turns.
 
 ::: {.callout-warning title="Safety"}
-In **high-speed flight**, the side string loses all accuracy because the angles of attack are extremely small. In that range, the airspeed indicator and watching the horizon are the only valid references for avoiding exceeding V~NE~ (never exceed speed). The side string is a complementary teaching aid for slow thermal flying, never a substitute for the primary flight instruments or for the central yaw string.
+In **high-speed flight**, the side string is useless, because the angles of attack are tiny. In that range, the airspeed indicator and watching the horizon are the only valid references for avoiding exceeding V~NE~ (never exceed speed). The side string is a complementary teaching aid for slow thermal flying, never a substitute for the primary flight instruments or for the central yaw string.
 :::
 
 ## Ridge and wave soaring

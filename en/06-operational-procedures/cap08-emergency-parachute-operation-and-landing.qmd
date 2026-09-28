@@ -5,7 +5,7 @@ origen-commit: c56a602
 
 # Emergency parachute operation and landing
 
-> The **emergency parachute** is the pilot's last resort when the sailplane has stopped being a safe means of transport. It is not equipment you use “just in case”: you use it when the alternative is to die inside the aircraft. Understanding when the situation justifies jumping, how to carry out the bail-out sequence and how to handle the descent and landing makes the difference between surviving and not. This chapter also covers the correct maintenance of the parachute: a neglected parachute is one that may not open.
+> The **emergency parachute** is the pilot's last resort when the sailplane has stopped being a safe means of transport. It is not equipment you use “just in case”: you use it when the alternative is to die inside the aircraft. Knowing when to jump, how to run through the bail-out sequence and how to handle the descent and landing makes the difference between surviving and not. This chapter also covers parachute maintenance: a neglected parachute may not open.
 >
 >
 > In this chapter you will learn:
