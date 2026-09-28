@@ -1,6 +1,6 @@
 ---
 origen: 06-procedimientos-operativos/glosario.qmd
-origen-commit: 2375434
+origen-commit: 92f079f
 ---
 
 # Glossary of terms
@@ -68,7 +68,7 @@ This glossary contains the most relevant definitions and acronyms of Operational
 : The pilot designated as being in command and charged with the safe conduct of the flight.
 
 **Release failure (towhook jam)**
-: An aerotow emergency in which the sailplane's release knob does not free the cable when pulled. The situation must be signalled to the tug (from a raised position to the side, rocking the wings) so that the tug releases the cable from its end, and a final approach higher than usual must be planned with the rope hanging, to clear the obstacles before the runway.
+: An aerotow emergency in which the sailplane's release knob does not free the cable when pulled. The situation must be signalled to the tug (moving low and to the left of the tug and rocking the wings; never above it, because that would lift the tug's tail) so that the tug releases the cable from its end, and a final approach higher than usual must be planned with the rope hanging, to clear the obstacles before the runway.
 
 **Ridge soaring**
 : A soaring technique that uses the rising air deflected upwards by the relief of a hill or mountain range on its windward face.

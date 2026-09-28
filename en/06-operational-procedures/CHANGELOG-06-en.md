@@ -13,7 +13,14 @@ file it was translated from (`origen-commit`). Terminology follows `en/terminolo
 
 ## [In progress]
 
-**What to reread:** nothing new in substance; wording only.
+**What to reread:** the glossary entry *Release failure (towhook jam)*. The rest is wording only.
+
+### Fixed
+
+* **Glossary, Release failure (towhook jam)** — the signal to the tug was described from “a raised
+  position to the side”, the opposite of cap07. It now says what the chapter says: low and to the
+  left of the tug, rocking the wings, and never above it, because climbing above the tug lifts its
+  tail (kiting) and can drive it into the ground. Corrected in the Spanish edition at the same time.
 
 ### Changed
 
@@ -59,9 +66,6 @@ plus the corrected epigraph.
 * **Figures** — all 20 figures still carry Spanish text.
 * **Covers** — front and back covers are still the Spanish ones.
 * **Carried over from the Spanish edition**, to be fixed there first and then ported:
-  * the glossary entry *Release failure (towhook jam)* tells the pilot to signal from “a raised
-    position to the side”, while cap07 says low and to the left, and never above, because climbing
-    above the tug causes kiting; the English text follows the Spanish in both places;
   * cap01 sends the reader to chapter 8 of book 04 for the interception signals; book 04 has seven
     chapters and they are in chapter 6, which is what the English text says;
   * cap01 says that a single unfavourable IMSAFE answer is enough not to fly, while its summary
