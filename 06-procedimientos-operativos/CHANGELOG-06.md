@@ -16,10 +16,14 @@ rompe la compilación.
 
 ## [En curso]
 
-**Qué releer:** **el epígrafe**, nada más.
+**Qué releer:** **el epígrafe** y, en el **Glosario**, la entrada *Fallo de suelta*.
 
 ### Corregido
 
+* **Glosario, Fallo de suelta** — la señal al remolcador se describía desde una «posición elevada
+  y lateral», al revés que el cap07. Ahora dice lo mismo que el capítulo: bajo y a la izquierda del
+  remolcador, balanceando las alas, y nunca por encima, porque subir levanta la cola del remolcador
+  (*kiting*) y puede estrellarlo.
 * **Epígrafe** — la frase atribuida a Neil Armstrong (1969) no consta en ninguna fuente. Se
   sustituye por una cita documentada de Wilbur Wright, de una carta a su padre del 23 de
   septiembre de 1900 («In flying I have learned that carelessness and overconfidence are usually
