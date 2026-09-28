@@ -19,7 +19,7 @@ origen-commit: 2e18652
 
 The **winch launch** is the quickest and cheapest way to get a sailplane into the air. A powerful engine at the far end of the runway winds in a cable at high speed, pulling the sailplane from rest to flying speed in barely three or four seconds. It feels like a catapult: the acceleration is so sudden that new pilots are often surprised by how strong it is.
 
-During the climb, the pitch angle quickly increases to more than 40–45°. This attitude, which would be alarming in any other situation, is completely normal on the winch: the cable pulling from ahead and below imposes that geometry. The sailplane climbs at 10–15 metres per second and reaches between 300 and 500 metres in less than a minute (@fig-06-cap02-torno-fases). During the climb the pull of the cable loads the wing and raises its stall speed, so you fly faster than in free flight: as a guide, between 1.3 and 1.6 times the minimum speed in straight flight, never exceeding the maximum winch launch speed set in the AFM.
+During the climb, the pitch angle quickly increases to more than 40–45°. This attitude, which would be alarming in any other situation, is completely normal on the winch: the cable pulling from ahead and below imposes that geometry. The sailplane climbs at 10–15 metres per second and reaches between 300 and 500 metres in less than a minute (@fig-06-cap02-torno-fases). During the climb the pull of the cable loads the wing and raises its stall speed, so you fly faster than in free flight. As a guide, fly at between 1.3 and 1.6 times the minimum speed in straight flight, never exceeding the maximum winch launch speed set in the AFM.
 
 ![Phases of a winch or car launch and the attitude of the sailplane](imagenes/06-cap02-torno-fases.jpg){#fig-06-cap02-torno-fases}
 
@@ -35,7 +35,7 @@ Almost everything that goes wrong on a winch launch goes wrong **low down**, in 
 5. **Be careful in crosswinds.**
 :::
 
-All five have the same root: **the sailplane goes from standstill to flying in three seconds, and during that time the wing has no authority to correct anything.** It is worth understanding the reason for each, because a rule that is only memorised gets skipped on the day it is in the way:
+All five have the same root: **the sailplane goes from standstill to flying in three seconds, and during that time the wing has no authority to correct anything.** It is worth understanding the reason for each. A rule that is only memorised gets skipped on the day it is in the way:
 
 **Tail wind.** The winch pulls the cable, not the air. With a tail wind the sailplane needs a much longer ground run to reach the same indicated airspeed, the climb angle collapses and the height gained per metre of cable drops away. And if the cable breaks, the only runway left ahead of you has to be landed on **also** downwind.
 
@@ -45,7 +45,7 @@ All five have the same root: **the sailplane goes from standstill to flying in t
 
 **The wing runner.** The *wing runner* (the person who holds the wingtip and runs with it) decides how the launch begins. Holding it crooked, letting go late, letting go early or running off the line all produce exactly the wing drop of rule 3. It is not a job for an improvised volunteer.
 
-**Crosswind.** At low speed the sailplane wants to point into wind and the upwind wing tends to rise, while the ailerons still barely bite. The crossed-controls technique is the same as for any take-off and is described in the chapter on special operations; what is special about the winch is that here you have **seconds**, not metres of runway, to decide whether the launch goes on.
+**Crosswind.** At low speed the sailplane wants to point into wind and the upwind wing tends to rise, while the ailerons still barely bite. The crossed-controls technique is the same as for any take-off and is described in the chapter on special operations. What is special about the winch is that here you have **seconds**, not metres of runway, to decide whether the launch goes on.
 
 ::: {.callout-tip title="Golden rule"}
 All five are solved by the same decision, and it is the cheapest one of the day: **if something does not add up, do not hook on**. A launch abandoned on the ground costs five minutes. The other four cost a sailplane, and sometimes more.
@@ -99,7 +99,7 @@ On tow, always keep the tug aircraft **in view**, preferably in the “high tow 
 
 The tug's wake has two components: the propeller slipstream (**propwash**), which causes light turbulence in the centre, and the wingtip vortices (**wingtip vortices**), which induce strong rolling moments at the edges.
 
-The manoeuvre consists of flying a rectangular pattern (a box) around the tug's wake: starting from the standard high tow position, you cross the wake down to the low tow position, and from there you fly to the four corners of the rectangle (low left, high left, high right, low right) with coordinated controls, keeping a constant distance from the wake, and finish by crossing back up to the high position (@fig-06-cap02-boxing-wake). Each leg is an exercise in fine control: clean movements, without cutting the corners or entering the wingtip vortices.
+The manoeuvre consists of flying a rectangular pattern (a box) around the tug's wake. Starting from the standard high tow position, you cross the wake down to the low tow position. From there you fly to the four corners of the rectangle (low left, high left, high right, low right) with coordinated controls, keeping a constant distance from the wake, and finish by crossing back up to the high position (@fig-06-cap02-boxing-wake). Each leg is an exercise in fine control: clean movements, without cutting the corners or entering the wingtip vortices.
 
 It is not exam material, nor something you learn from a book: it is a flying exercise practised **with an instructor**, who will teach you the rhythm and the limits in your type of sailplane. Always start outside the circuit and above a reference safety height of **300 m AGL**.
 
@@ -176,7 +176,7 @@ The Tost double ring system is the only one approved for Tost hooks. Accidentall
 
 The **weak link** is a calibrated metal fitting inserted in the tow cable, designed to break before an excessive, unexpected tension in the cable causes structural damage to the sailplane or the tug.
 
-The pilot's operational obligation is to fit **exactly the weak link specified in the AFM** of their sailplane: neither stronger nor weaker. As a design reference, the certification standard **EASA CS 22.581(b)** assumes that the ultimate nominal strength of the cable or weak link is not less than 1.3 times the maximum weight of the sailplane nor less than 500 daN, the values used to size the tow hook structurally.
+The pilot's operational obligation is to fit **exactly the weak link specified in the AFM** of their sailplane: neither stronger nor weaker. As a design reference, the certification standard **EASA CS 22.581(b)** assumes that the ultimate nominal strength of the cable or weak link is not less than 1.3 times the maximum weight of the sailplane nor less than 500 daN. Those are the values used to size the tow hook structurally.
 
 European clubs use the standardised system made by Tost. It is essential to understand that **choosing the right weak link always depends both on the weight of the sailplane and on the launch method**.
 
@@ -213,7 +213,7 @@ This briefing structures the immediate decision-making in the event of a cable b
 3. **Failure at critical height and turning back:** set the minimum height for attempting a safe turn back (as a guide, 150 metres AGL on a winch launch and 70 metres AGL on aerotow; see @fig-06-cap07-emergencia-altura on landing options by height and launch method) and decide in advance which way you will turn, taking into account the current wind direction and strength to counter the drift.
 
 ::: {.callout-note title="Airmanship"}
-Do not start the take-off run without having said out loud or gone over in your head your **emergency briefing**. In a cable break at low height there is no time to think about what to do; the correct action (lower the nose, stabilise the speed and the flight path) must be preloaded in your mind and carried out as a reflex.
+Do not start the take-off run without having said out loud or gone over in your head your **emergency briefing**. In a cable break at low height there is no time to think about what to do. The correct action (lower the nose, stabilise the speed and the flight path) must be preloaded in your mind and carried out as a reflex.
 :::
 
 ::: {.postit}

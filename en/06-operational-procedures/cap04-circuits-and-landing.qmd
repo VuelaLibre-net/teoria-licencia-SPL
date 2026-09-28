@@ -52,7 +52,7 @@ Many European clubs teach the short mnemonic **WULF** for the same downwind chec
 
 ## Managing speed and wind
 
-Speed in the circuit must be steady and safe. As a general reference, use the **recommended approach speed** in the AFM or, failing that, **1.5 times the stall speed** (1.5 V~S~): the margin is larger than in a powered aircraft because the sailplane meets the wind gradient and the round-out with no power to correct.
+Speed in the circuit must be steady and safe. As a general reference, use the **recommended approach speed** in the AFM or, failing that, **1.5 times the stall speed** (1.5 V~S~). The margin is larger than in a powered aircraft because the sailplane meets the wind gradient and the round-out with no power to correct.
 
 Wind changes this equation considerably:
 
@@ -105,7 +105,7 @@ Because the airflow is disturbed and the airspeed indicator is unreliable during
 
 ### Downwind landing
 
-Although the golden rule of aviation is always to land into wind to shorten the ground run, there are operational situations (such as a steep upslope in an outlanding, or obstacles on the approach) that may force the pilot to land downwind.
+The golden rule of aviation is always to land into wind to shorten the ground run. Even so, there are operational situations (such as a steep upslope in an outlanding, or obstacles on the approach) that may force the pilot to land downwind.
 
 A tailwind radically changes the pilot's sensory references and the physics of the landing:
 

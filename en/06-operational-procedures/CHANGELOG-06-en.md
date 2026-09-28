@@ -11,6 +11,15 @@ The English edition is a translation of the Spanish book `06-procedimientos-oper
 `.qmd` records in its front matter the Spanish file it comes from (`origen`) and the commit of that
 file it was translated from (`origen-commit`). Terminology follows `en/terminologia.yml`.
 
+## [In progress]
+
+**What to reread:** nothing new in substance; wording only.
+
+### Changed
+
+* **cap01–cap08** — a pass on the prose: over twenty long sentences split into shorter ones.
+  Content, figures and terminology unchanged.
+
 ## [0.8.0] — 28 September 2026
 
 **What to reread:** **the whole book.** First complete translation, from Spanish version 1.0-rc.3

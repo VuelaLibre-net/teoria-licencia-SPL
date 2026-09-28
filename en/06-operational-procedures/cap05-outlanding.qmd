@@ -72,7 +72,7 @@ The approach to an unfamiliar field must be more conservative than usual. The ma
 5. **Touchdown:** touch down at the lowest possible speed and keep the sailplane straight. Once on the ground, brake firmly: it is better to break the undercarriage in a furrow than to try to float over an obstacle and stall.
 
 ::: {.callout-warning title="Safety: THE GROUND LOOP"}
-If, during the ground run, a high-speed impact with an obstacle you cannot avoid becomes inevitable, you can deliberately ground loop the sailplane (*ground loop*) by putting a wing on the ground and applying full rudder towards the same side. The sailplane will pivot violently on the wingtip and come to an abrupt stop, sacrificing the wing structure or the undercarriage to absorb the energy and protect the occupants. This manoeuvre is a last resort when the only alternative is a head-on collision; remember that equipment can be replaced, but the occupants' lives cannot.
+If a high-speed impact with an obstacle becomes inevitable during the ground run, you can deliberately ground loop the sailplane (*ground loop*) by putting a wing on the ground and applying full rudder towards the same side. The sailplane will pivot violently on the wingtip and come to an abrupt stop, sacrificing the wing structure or the undercarriage to absorb the energy and protect the occupants. This manoeuvre is a last resort when the only alternative is a head-on collision; remember that equipment can be replaced, but the occupants' lives cannot.
 :::
 
 ## Procedures after an outlanding
@@ -107,7 +107,7 @@ If you have landed in a mountainous, desert or wooded region that is hard to rea
 :::
 
 * **The cockpit as a shelter:** the sailplane's cockpit gives excellent protection against wind, rain and cold. Use the cushions and the space inside to insulate yourself from damp ground or from the cold of the structure.
-* **The emergency parachute:** the nylon canopy of your emergency parachute is a very valuable survival tool. You can pull it out of the pack and use its large area to rig a tent-like shelter against the sailplane, wrap yourself in it to keep in body heat (it makes an effective windbreak) or spread it on the ground as a high-contrast visual signal for air searches.
+* **The emergency parachute:** the nylon canopy of your emergency parachute is a very valuable survival tool. You can pull it out of the pack and use its large area to rig a tent-like shelter against the sailplane. You can also wrap yourself in it to keep in body heat (it makes an effective windbreak), or spread it on the ground as a high-contrast visual signal for air searches.
 
 ### Dealing with the landowner
 

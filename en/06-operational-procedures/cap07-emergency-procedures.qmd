@@ -44,7 +44,7 @@ The tactical decision depends directly on the height AGL reached when the failur
 * **Safe height (above 200 m AGL):** settle at the gliding speed and fly a standard abbreviated circuit.
 * **On aerotow:** the climb-out is flatter and the sailplane moves horizontally well away from the departure runway. The decision bands are:
 * **Low height (below 70 m, ≈230 ft AGL):** land straight ahead on the remaining runway or in clear fields ahead, avoiding obstacles with small changes of heading (30° at most).
-* **Critical height (between 70 m ≈230 ft and 150 m ≈490 ft AGL):** assess the length of runway and the wind. If you have to turn back, start the turn **towards the crosswind component**, coordinated and with a firm bank of about 45°: the wind carries you back towards the extended runway centreline during the turn, whereas turning downwind lengthens the path and the height lost. If turning back does not pay, fly a shortened approach to the safest alternative field.
+* **Critical height (between 70 m ≈230 ft and 150 m ≈490 ft AGL):** assess the length of runway and the wind. If you have to turn back, start the turn **towards the crosswind component**, coordinated and with a firm bank of about 45°. The wind carries you back towards the extended runway centreline during the turn, whereas turning downwind lengthens the path and the height lost. If turning back does not pay, fly a shortened approach to the safest alternative field.
 * **Safe height (above 150 m ≈ 500 ft AGL):** fly a shortened or normal circuit.
 
 ![Landing options by height and launch method after a cable break](imagenes/06-cap07-emergencia-altura.jpg){#fig-06-cap07-emergencia-altura}
@@ -119,7 +119,7 @@ A blockage of your sailplane's pressure ports (usually by condensed rainwater, i
 * **Flying technique:** if your sailplane has an **alternate static source** in the cockpit, select it with the appropriate valve.
 
 ::: {.callout-note title="Airmanship"}
-If all the instruments fail in the circuit, trust your visual judgement of the glide angle towards the touchdown point completely. Keep a conservative nose attitude, guard against the stall by making sure there is a good airflow (a steady sound of air in the cockpit) and do not try to correct by eye against an airspeed indicator you know to be blocked.
+If all the instruments fail in the circuit, trust your visual judgement of the glide angle towards the touchdown point completely. Keep a conservative nose attitude and guard against the stall by making sure there is a good airflow (a steady sound of air in the cockpit). Do not try to correct by eye against an airspeed indicator you know to be blocked.
 :::
 
 ### Canopy opening in flight
@@ -155,7 +155,7 @@ A wing loaded with tens of litres of water has a much higher stall speed than th
 :::
 
 ::: {.callout-important title="Regulation"}
-The decision heights in this chapter (150 and 200 m on the winch; 70 and 150 m on aerotow) and the decision ladder for outlandings are **reference values for training**, not regulatory figures: the real critical height for each sailplane is set by its AFM and by the local instructions for the airfield (runway length, obstacles, usual wind). Learn them as an order of magnitude and adjust them to your aircraft and your aerodrome with your instructor.
+The decision heights in this chapter (150 and 200 m on the winch; 70 and 150 m on aerotow) and the decision ladder for outlandings are **reference values for training**, not regulatory figures. The real critical height for each sailplane is set by its AFM and by the local instructions for the airfield (runway length, obstacles, usual wind). Learn them as an order of magnitude and adjust them to your aircraft and your aerodrome with your instructor.
 :::
 
 As a quick revision card, this table sums up the immediate response to each emergency in the chapter (the details are in each section):

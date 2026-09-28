@@ -35,7 +35,7 @@ Unless you fly within sight of the aerodrome or in an area authorised by the aut
 * **Logbook:** enough data (or the logbook itself) to show that you meet the requirements of the regulations, including recent experience.
 * **Interception signals:** a copy of the international procedures and visual signals for interception (SERA.11015; the signals and the correct response are covered in **Book 4 — Communications**, chapter 6).
 
-The rest of the aircraft's papers (certificate of registration, certificate of airworthiness with its annexes, ARC, radio licence if radio equipment is fitted, insurance certificate and journey log) do not need to fly with you: SAO.GEN.155 requires them to be available at the aerodrome or operating site.
+The rest of the aircraft's papers (certificate of registration, certificate of airworthiness with its annexes, ARC, radio licence if radio equipment is fitted, insurance certificate and journey log) do not need to fly with you. SAO.GEN.155 requires them to be available at the aerodrome or operating site.
 
 ::: {.callout-tip title="Golden rule"}
 Before every flight, check the four pillars of the aircraft. Three are documents, and **SAO.GEN.155** lists them: **airworthiness** (certificate of airworthiness + valid ARC), **registration** (certificate of registration) and **flight manual** (AFM on board). The fourth is not a paper but a check that **SAO.GEN.130(d)(4)** requires of you as pilot-in-command: **mass and balance** within the limits of the manual. If any of them fails, the sailplane does not fly.
@@ -83,11 +83,11 @@ To exercise this privilege, **Part-SFCL** requires the pilot to meet strict rece
 * **Check flight:** a training flight in which you demonstrate to an FI(S) the competence required to carry passengers (unless you hold an FI(S) certificate).
 
 ::: {.callout-warning title="Safety"}
-As PIC you have the right and the duty to refuse carriage of any passenger or baggage that you consider may be a hazard to the safety of the flight. That decision is not open to outside pressure: if the mass of the passenger plus equipment exceeds the aircraft's limits, or if the passenger behaves in a way that may compromise your concentration, the answer is a firm “no”, with no negotiation.
+As PIC you have the right and the duty to refuse carriage of any passenger or baggage that you consider may be a hazard to the safety of the flight. That decision is not open to outside pressure. If the mass of the passenger plus equipment exceeds the aircraft's limits, or if the passenger behaves in a way that may compromise your concentration, the answer is a firm “no”, with no negotiation.
 :::
 
 ::: {.callout-important title="Regulation"}
-Under Regulation (EU) 2018/1976, an SPL (Sailplane Pilot Licence) holder may carry passengers only if two conditions are met: after the issue of the licence, they have completed at least 10 hours of flight time or 30 launches or take-offs and landings as PIC on sailplanes, plus one training flight demonstrating their competence to an FI(S) (SFCL.115(a)(2)); and, in the preceding 90 days, they have carried out at least 3 launches as PIC in sailplanes (in TMGs, 3 take-offs and landings) (SFCL.160(e)).
+Under Regulation (EU) 2018/1976, an SPL (Sailplane Pilot Licence) holder may carry passengers only if two conditions are met. First, after the issue of the licence, they have completed at least 10 hours of flight time or 30 launches or take-offs and landings as PIC on sailplanes, plus one training flight demonstrating their competence to an FI(S) (SFCL.115(a)(2)). Second, in the preceding 90 days, they have carried out at least 3 launches as PIC in sailplanes (in TMGs, 3 take-offs and landings) (SFCL.160(e)).
 :::
 
 ## Ground operations and preparation

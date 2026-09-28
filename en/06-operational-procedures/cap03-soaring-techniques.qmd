@@ -22,7 +22,7 @@ origen-commit: 02d77b9
 
 **Thermals** are columns of rising air produced by uneven heating of the ground. When the sun warms the surface (especially over dark ground such as ploughed fields, tarmac or south-facing slopes), the warmer, lighter air rises as a bubble or a column. This rising air is the main source of energy for **cross-country** flying.
 
-Think of a pan of boiling water: the heat rises from the bottom in irregular, intermittent currents. A thermal in the atmosphere works in a similar way: it is not a uniform tube of rising air but a mass of changing shape, with a core of strongest lift surrounded by calmer air and, at its outer edges, often by sinking air.
+Think of a pan of boiling water: the heat rises from the bottom in irregular, intermittent currents. A thermal in the atmosphere works in a similar way. It is not a uniform tube of rising air but a mass of changing shape, with a core of strongest lift surrounded by calmer air and, at its outer edges, often by sinking air.
 
 ### Centring the thermal
 
@@ -107,7 +107,7 @@ The most useful comparison is with a cyclist: on a long descent, carrying a load
 * **Ice:** if you fly at high altitude with ballast, add antifreeze to the water to stop it freezing and damaging the tanks or the dump systems.
 
 ::: {.callout-warning title="Safety"}
-A sailplane carrying water ballast has a **significantly higher stall speed** (up to 15–20 km/h more than without ballast). Adjust all your reference speeds (take-off, approach, circuit) accordingly. **Never land with full ballast** unless a fault in the dump system leaves you no choice, and then make the landing as gentle as you possibly can: the extra inertia can exceed the structural strength of the wings and cause a catastrophic failure.
+A sailplane carrying water ballast has a **significantly higher stall speed** (up to 15–20 km/h more than without ballast). Adjust all your reference speeds (take-off, approach, circuit) accordingly. **Never land with full ballast** unless a fault in the dump system leaves you no choice. If it does, make the landing as gentle as you possibly can: the extra inertia can exceed the structural strength of the wings and cause a catastrophic failure.
 :::
 
 ::: {.postit}
