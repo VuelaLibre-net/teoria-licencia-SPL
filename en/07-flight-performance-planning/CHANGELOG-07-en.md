@@ -21,6 +21,8 @@ Airmanship one ends “airmanship sets the standard”. The rest is wording only
 * **Introduction and cap01–cap05** — prose reworded to read less like a translation: Spanish-style
   dashed asides become commas, brackets or colons, and some literal phrasings are rewritten. No
   figures, formulas, regulatory quotes or glossary terms change.
+* **cap01, reference to Book 8** — the title of Book 8 now reads as on its cover and title
+  page: *Aircraft General Knowledge, Airframe, Systems and Emergency Equipment*.
 
 ### Layout and production
 

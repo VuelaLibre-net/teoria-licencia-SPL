@@ -36,6 +36,8 @@ Ported from the Spanish edition, where these errors have been corrected at the s
 * **Introduction and cap01–cap07** — a second pass on the prose: about forty sentences made
   shorter and more direct, with fewer passives and set phrases. Content, figures and terminology
   unchanged.
+* **cap02, reference to Book 8** — the title of Book 8 now reads as on its cover and title
+  page: *Aircraft General Knowledge, Airframe, Systems and Emergency Equipment*.
 
 ### Layout and production
 

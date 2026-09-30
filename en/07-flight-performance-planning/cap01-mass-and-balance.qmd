@@ -91,7 +91,7 @@ With the four cases this chapter works out plotted against the permitted range (
 
 ![The four loading cases of this chapter against the permitted range: a lighter pilot moves the CG aft, and fin ballast moves it aft on purpose until it nears the limit](imagenes/07-cap01-envolvente-centrado.png){#fig-07-cap01-envolvente-centrado width="100%"}
 
-The starting weights and arms come from the glider's official **weighing record**, which is updated after every weighing or major repair. The weighing procedure and the associated documentation are covered in **Book 8 — Aircraft General Knowledge, Airframe and Systems and Emergency Equipment**, chapter 4.
+The starting weights and arms come from the glider's official **weighing record**, which is updated after every weighing or major repair. The weighing procedure and the associated documentation are covered in **Book 8 — Aircraft General Knowledge, Airframe, Systems and Emergency Equipment**, chapter 4.
 
 ## Managing mass: MTOM and overloading
 

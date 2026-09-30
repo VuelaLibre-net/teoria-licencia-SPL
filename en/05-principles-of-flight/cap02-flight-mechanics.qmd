@@ -58,7 +58,7 @@ Two devices let the pilot change the shape of the polar curve when it suits them
 * **Airbrakes (or spoilers)**: when extended, they destroy lift and add a lot of drag. The whole polar drops sharply: at any given speed, the rate of sink shoots up. They are the tool for controlling the approach path (they let you descend without speeding up), and their operational use in the circuit is covered in **Book 6 — Operational Procedures**.
 * **Flaps**: they change the camber of the aerofoil. In a positive setting they increase lift and shift the polar towards low speeds (useful in thermals); in a negative setting they reduce it and shift the polar towards high speeds (useful on fast glides). Not all sailplanes have them.
 
-How these devices are built and operated is covered in **Book 8 — Aircraft General Knowledge, Airframe and Systems and Emergency Equipment**, chapter 5; here we are concerned with their aerodynamic effect on the polar and on the stall.
+How these devices are built and operated is covered in **Book 8 — Aircraft General Knowledge, Airframe, Systems and Emergency Equipment**, chapter 5; here we are concerned with their aerodynamic effect on the polar and on the stall.
 
 ## Load factor (n)
 

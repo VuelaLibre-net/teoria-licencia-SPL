@@ -23,6 +23,8 @@ was translated from (`origen-commit`). Terminology follows `en/terminologia.yml`
   natural English: shorter sentences, fewer semicolon chains, no calques from the Spanish. The
   content is unchanged: same facts, figures, rules and terminology, and the same structure as the
   Spanish chapters.
+* **cap02, reference to Book 8** — the title of Book 8 now reads as on its cover and title
+  page: *Aircraft General Knowledge, Airframe, Systems and Emergency Equipment*.
 
 ### Layout and production
 
