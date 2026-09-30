@@ -43,8 +43,8 @@ tarjetas:
     tipo: basica
     anverso: ¿Cuál es el mínimo de inspección si el AMP se basa en el Programa Mínimo de Part-ML?
     reverso: |
-      **Una inspección anual o cada 100 h, lo que antes se cumpla**
-      (**ML.A.302**).
+      **Una inspección anual** (**ML.A.302**). El límite de 100 h, lo que
+      antes se cumpla, sólo se añade en el motovelero de turismo (TMG).
 
       La frecuencia concreta la fija el AMP según el fabricante, pero nunca
       puede ser menos restrictiva que ese suelo.
@@ -86,7 +86,7 @@ tarjetas:
 #     **Mantenimiento programado**: la frecuencia concreta de inspecciones (por tiempo, ciclos u
 #     horas) la fija el AMP, según lo que diga el fabricante. Pero hay un suelo: si el AMP se basa
 #     en el Programa Mínimo de Inspección de Part-ML (ML.A.302), nunca puede ser menos restrictivo
-#     que **una inspección anual o cada 100 h, lo que antes se cumpla**.
+#     que **una inspección anual** (en el TMG, **anual o cada 100 h, lo que antes se cumpla**).
 #  [4]
 #     **Mantenimiento por piloto-propietario**: tareas sencillas del Apéndice II de Part-ML, solo
 #     si eres propietario con licencia válida, y siempre registradas y firmadas (ML.A.803).
