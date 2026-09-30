@@ -16,6 +16,16 @@ rompe la compilación.
 
 ## [En curso]
 
+**Qué releer:** **Glosario, entrada «Lastre (ballast)»**, que es nueva. En cap04 sólo cambia el término inglés entre paréntesis.
+
+### Añadido
+
+* **Glosario, «Lastre (ballast)»** — entrada genérica junto a «Lastre de agua» y «Lastre de cola»: la masa que se añade para ajustar el peso o el centrado, fija o desechable, y que la placa de limitaciones y el Manual de Vuelo regulan. El PDF enlaza con ella la primera aparición de «lastre» en cap04, cap06, cap11 y el apéndice del syllabus.
+
+### Corregido
+
+* **cap04, entradilla y objetivos del capítulo** — el término inglés *ballast* acompaña al primer «lastre» y a la viñeta «La gestión del lastre (ballast)». Propuesto en el issue #44.
+
 ## [0.9.6] — 23 de septiembre de 2026
 
 **Qué releer:** **cap01 completo y Glosario, entradas «Cúpula», «Gancho de remolque», «Gelcoat», «Larguero» y «Poliuretano».** Se corrigen varias reglas demasiado generales sobre estructura, acabados, salida de emergencia y ganchos. La imagen de cabina se conserva, pero ahora queda claro que su numeración pertenece solo a la configuración dibujada.
