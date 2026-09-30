@@ -1,7 +1,7 @@
 # Epígrafe {.unnumbered .unlisted .oculto}
 
 ::: {.epigrafe}
-«La máquina no es el fin, es el instrumento. El fin es el ser humano liberado por ella.»
+«La máquina no aparta al hombre de los grandes problemas de la naturaleza, sino que lo sumerge aún más en ellos.»
 
- — Antoine de Saint-Exupéry (1939), pionero del correo aéreo internacional, piloto de reconocimiento militar y escritor.
+ — Antoine de Saint-Exupéry (1939), pionero del correo aéreo internacional, piloto de reconocimiento militar y escritor, en *Tierra de hombres*.
 :::

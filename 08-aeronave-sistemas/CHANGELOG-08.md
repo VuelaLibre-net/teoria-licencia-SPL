@@ -16,7 +16,7 @@ rompe la compilación.
 
 ## [En curso]
 
-**Qué releer:** **Glosario, entrada «Lastre (ballast)»**, que es nueva. En cap04 sólo cambia el término inglés entre paréntesis.
+**Qué releer:** **Glosario, entrada «Lastre (ballast)»**, que es nueva, y el **epígrafe**. En cap04 sólo cambia el término inglés entre paréntesis.
 
 ### Añadido
 
@@ -24,6 +24,7 @@ rompe la compilación.
 
 ### Corregido
 
+* **Epígrafe** — la cita atribuida a Saint-Exupéry («La máquina no es el fin, es el instrumento. El fin es el ser humano liberado por ella.») no aparece así en *Tierra de hombres*: su segunda frase no tiene fuente. Se sustituye por una frase documentada de la misma obra (1939), la de la máquina que no aparta al hombre de los grandes problemas de la naturaleza.
 * **cap04, entradilla y objetivos del capítulo** — el término inglés *ballast* acompaña al primer «lastre» y a la viñeta «La gestión del lastre (ballast)». Propuesto en el issue #44.
 
 ## [0.9.6] — 23 de septiembre de 2026
