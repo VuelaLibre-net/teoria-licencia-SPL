@@ -1,0 +1,146 @@
+---
+origen: 08-aeronave-sistemas/glosario.qmd
+origen-commit: 11e59c6
+---
+
+# Glossary of terms
+
+This glossary contains the most relevant definitions and acronyms of Aircraft General Knowledge for the Sailplane Pilot Licence (SPL).
+
+**AD (Airworthiness Directive; Aerodromes)**
+: Context-dependent abbreviation: an airworthiness directive is a mandatory requirement to correct an unsafe condition; AD also identifies the aerodromes part of the AIP.
+
+**AFM (Aircraft Flight Manual)**
+: Approved document containing the limitations, procedures and data needed to operate the aircraft.
+
+**Airbrakes**
+: Movable surfaces, usually on the upper surface of the wing and operated by the pilot, whose job is to destroy lift and increase drag in order to control the approach path. They are often loosely called *spoilers*, but a spoiler proper only spoils lift from the upper surface; sailplane airbrakes of the Schempp-Hirth type come out above and below the wing and add drag as well.
+
+**ARC (Airworthiness Review Certificate)**
+: Certificate showing that the aircraft has passed the required airworthiness review and remains valid for the applicable period.
+
+**Bail-out**
+: An emergency procedure consisting of a parachute jump from an aircraft in flight when it is no longer controllable or safe.
+
+**Ballast**
+: Mass added to the sailplane to adjust its total weight or its balance. It can be fixed, like the lead plates in the nose that compensate for a light pilot, or jettisonable in flight, like the water in the wings or the tail. The limitations placard and the Flight Manual state when it is compulsory and how much is allowed.
+
+**Canopy**
+: The transparent Perspex cover of the cockpit. It has locking catches and ventilation, and is part of the emergency exit. Depending on the design, the procedure may require opening it, jettisoning it or operating several handles in the order given in the AFM.
+
+**CG (Centre of Gravity)**
+: Theoretical point at which the resultant of all the gravitational forces acting on the glider is considered to be applied. Its longitudinal position is key to the stability and control of the flight.
+
+**CofA (Certificate of Airworthiness)**
+: Document certifying that an aircraft conforms to the approved design and is considered fit for flight while it remains airworthy and meets the applicable requirements.
+
+**Composite**
+: A material made of fibres (glass or carbon) embedded in resin. It dominates modern sailplane construction because of its strength-to-weight ratio and its smooth aerodynamic finish (GRP: glass-reinforced plastic; CRP: carbon-reinforced plastic).
+
+**CS-22 (Certification Specifications for Sailplanes and Powered Sailplanes)**
+: EASA specifications applicable to the design and certification of sailplanes and powered sailplanes.
+
+**EDS (Electronic Delivery System)**
+: Electronic on-demand oxygen system that senses the pilot's breath and releases a pulse of oxygen at that moment, making the cylinder last much longer by shutting off the flow while the pilot breathes out.
+
+**ELT (Emergency Locator Transmitter)**
+: Aircraft beacon designed to transmit an emergency signal and help locate the aircraft.
+
+**FES (Front Electric Sustainer)**
+: An electric propulsion system with a folding propeller mounted in the nose and lithium batteries. It starts instantly and is very reliable; the propeller is folded against the fuselage by air pressure when the motor stops.
+
+**Fin ballast (tail ballast)**
+: Small water tank or weight holder in the fin that compensates for the shift of the CG caused by the wing ballast or by a heavy pilot, restoring the optimum balance. Forgetting to empty it with a light pilot produces a dangerously aft CG.
+
+**Flaps**
+: Trailing-edge surfaces that change the camber of the wing: positive settings for thermalling and landing, negative settings to reduce drag on fast glides between thermals. Found on high-performance competition sailplanes.
+
+**FLARM**
+: A short-range electronic traffic warning and collision avoidance system designed especially for sailplanes, which transmits the aircraft's projected three-dimensional GPS position to other equipped aircraft.
+
+**Flutter**
+: A physical phenomenon of self-excited, unstable aeroelastic oscillations that affect the sailplane's lifting or control surfaces above V~NE~. It can destroy the structure within seconds, through the interaction between high-speed airflow and the flexibility of the structure.
+
+**Gelcoat**
+: An outer layer of polyester resin that gives many fibre structures their smooth finish and helps protect the laminate from the environment. UV radiation and changes in temperature encourage surface crazing over time.
+
+**Hypoxia**
+: A physiological state in which the body's cells and tissues lack oxygen, caused when flying at high altitude by the fall in the partial pressure of oxygen in the atmosphere. There are four types: hypoxic (low atmospheric pressure, the most frequent in gliders), hypaemic (transport impaired by carbon monoxide or smoking), stagnant (reduced circulation, for example from high G in tight turns) and histotoxic (alcohol, drugs or medicines).
+
+**L'Hotellier connector**
+: A manual ball-joint connector used in the control connections of many sailplanes. Critical for safety: it requires a safety pin in addition to the spring, and forgotten connections have caused many accidents.
+
+**LiFePO4 (lithium iron phosphate battery)**
+: A light battery technology with a flat discharge curve (it holds its voltage until it is almost flat). It needs specific chargers and careful handling to avoid fires from short circuits.
+
+**Limit load**
+: The maximum load the structure can withstand without permanent deformation. Once it has been reached, the aircraft must return to its original shape without damage.
+
+**Load factor (n)**
+: The ratio between the total aerodynamic lift and the weight of the sailplane, expressed in units of *g*. In straight and level flight: n = 1g. In a turn at 60° of bank: n = 2g. Load factor raises the stall speed in proportion to its square root: at 2g, it rises by 41%. Abrupt deflections and badly coordinated manoeuvres in turbulence can exceed the limits of the V-n diagram.
+
+**MTOM (Maximum Take-Off Mass)**
+: Maximum authorised or certified mass with which the glider may begin the flight, determined by structural and aerodynamic performance limits.
+
+**Part-ML (Maintenance of light aircraft)**
+: Part of the European continuing airworthiness regime applicable to light aircraft, including many sailplanes.
+
+**PCC (Positive Control Check)**
+: A mandatory check after rigging the sailplane in which a helper physically holds each control surface on the outside while the pilot moves the controls in the cockpit, to confirm that the connections are sound and move in the correct sense.
+
+**Pitot-static system**
+: The set of pressure sources that feeds the basic instruments: the pitot tube measures total pressure (static + dynamic) and the static vents measure ambient pressure. If they are blocked (insects, water, ice), the pilot is left without speed and height indications.
+
+**PLB (Personal Locator Beacon)**
+: A portable, manually activated beacon that the pilot carries (in a pocket or on the parachute harness) and that transmits on 406 MHz to the satellite rescue network.
+
+**Polyurethane (PU)**
+: A paint system used as the outer finish on some modern sailplanes. It is not maintained or repaired in the same way as polyester gelcoat, so cleaners, waxes, polishes and repair methods must follow the maintenance manual.
+
+**Retractable undercarriage**
+: An undercarriage that is retracted into the fuselage to remove drag, usually with a manual lever. Managing it with discipline (always lowered on the downwind leg) is part of the checklists.
+
+**Rigging**
+: The process of assembling the sailplane (fuselage, wings and tailplane) and connecting its control surfaces. A safety-critical stage that demands method, no distractions and a final check with the PCC.
+
+**Sandwich construction**
+: A construction technique with two thin, stiff layers of fibre separated by a light core of foam or honeycomb. It achieves great stiffness with minimum weight, but is vulnerable to point impacts that can cause internal delamination invisible from outside.
+
+**SB (Service Bulletin)**
+: Manufacturer's communication with instructions, inspections or modifications, whether mandatory or not depending on the applicable framework.
+
+**Spar**
+: The main longitudinal load-bearing member of the wing. It carries a large part of the bending loads, while the skin and other members share loads according to the design. Actual or suspected damage means the sailplane must be taken out of service until it has been assessed.
+
+**Sustainer (turbo)**
+: A low-power auxiliary engine, usually two-stroke and retractable, unable to take off on its own but enough to keep the sailplane in the air and get back to base if the thermals fail.
+
+**TMG (Touring Motor Glider)**
+: Powered sailplane with a non-retractable engine and propeller that can take off and climb under its own power.
+
+**Total energy (TE variometer)**
+: A compensated variometer (using a TE probe or antenna) that discounts the changes in height caused by the pilot's own changes of speed, showing only the real movement of the air mass.
+
+**Towhook**
+: The mechanism for attaching and quickly releasing the launch cable or rope, often made by Tost. The AFM and the placards state which hook is used for each method. In the usual configuration, the nose hook is used for aerotow and the hook near the CG for the winch; every hook authorised for winch launching must have an automatic release (**back-release**).
+
+**Transponder (XPDR)**
+: On-board equipment that automatically answers interrogations from the secondary surveillance radar (SSR) by transmitting a **squawk** code and, depending on the mode, barometric altitude or extended identification data. It works in the UHF band (1,030/1,090 MHz), independently of the voice radio. Essential for being visible to other traffic's TCAS.
+
+**Trim**
+: A device (spring or aerodynamic tab) that relieves the pressure the pilot has to hold on the stick to keep a given speed. It is operated with the green lever or an electric button.
+
+**Ultimate load**
+: The load at which the structure fails catastrophically. It is obtained by multiplying the limit load by the factor of safety of 1.5 laid down in CS 22.303.
+
+**Variometer**
+: An instrument that shows the sailplane's vertical speed. It is the essential tool of gliding for finding and centring lift; in its total energy version it discounts the pilot's manoeuvres.
+
+**V~RA~ (Rough Air Speed)**
+: The maximum speed at which the sailplane may be flown in turbulent air. It is the marking that divides the arcs of the airspeed indicator under CS 22.1545: the green arc (normal operation) ends at V~RA~ and the yellow arc (caution, smooth air only) begins. Do not confuse it with V~A~, which is a structural limit for control deflections and is not marked on the dial, although in many sailplanes the two have similar values.
+
+**Water ballast**
+: Water carried in dedicated tanks in the wings to increase the glider's mass and wing loading, shifting the polar curve towards higher values so as to fly faster at the same glide angle.
+
+**Wing loading**
+: Ratio between the glider's total mass and its wing area. It is expressed in kg/m² and directly affects the cruising and stall speeds.
