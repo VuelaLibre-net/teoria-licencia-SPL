@@ -39,7 +39,7 @@ Touring motor gliders (TMG) and self-launchers with a combustion engine add thre
 
 ### Ignition: the magnetos
 
-Ignition is produced by the *magnetos*, not by the battery. A magneto is a self-contained generator: as long as the crankshaft turns, it produces by itself the high voltage the spark plugs need, independently of the battery and the alternator. That is why the engine keeps running even if the electrical system fails. Aero engines have *dual* ignition (two magnetos and two spark plugs per cylinder) for safety and performance; before flight the magneto check is done, confirming the small RPM drop when only one is left running.
+Ignition is produced by the *magnetos*, not by the battery. A magneto is a self-contained generator: as long as the crankshaft turns, it produces by itself the high voltage the spark plugs need, independently of the battery and the alternator. That is why the engine keeps running even if the electrical system fails. Aero engines have *dual* ignition (two magnetos and two spark plugs per cylinder) for safety and performance. Before flight you do the magneto check, confirming the small RPM drop with only one magneto running.
 
 ::: {.callout-warning title="Safety"}
 Because the magneto generates current by itself, to stop it its primary winding has to be earthed (short-circuited). A magneto with a broken earth lead can leave the engine “live” even with the switch at *OFF*: always treat the propeller as if it could start.
@@ -62,7 +62,7 @@ On most self-launchers, the engine is mounted on a retractable pylon behind the 
 * **Retractable propellers**: the blades stop in a precise vertical position (with a position sensor or a mechanical stop) so that they can be stowed inside the fuselage.
 * **Folding propellers (FES)**: in the nose, centrifugal force opens them as they turn, and air pressure folds them back against the fuselage when the motor stops.
 
-Depending on blade pitch, the propeller can be *fixed pitch* (the blade angle does not change: simple and robust) or *variable pitch / constant speed* (a governor adjusts the angle: fine pitch and higher RPM for take-off, coarse pitch for an efficient cruise).
+By blade pitch, the propeller can be *fixed pitch*, where the blade angle does not change (simple and robust), or *variable pitch / constant speed*, where a governor adjusts the angle: fine pitch and higher RPM for take-off, coarse pitch for an efficient cruise.
 
 ## Managing and operating the engine
 

@@ -22,7 +22,7 @@ Flying within the mass and balance limits is not optional: it is a legal and a s
 
 Every sailplane has a defined **maximum take-off mass** (*MTOM*). Exceeding it puts loads on the structure it was not designed for, cuts the safety margin in manoeuvres and worsens the climb.
 
-It is worth separating the maximum total mass from the maximum mass without water: the water is carried in the wings and does not load the wing-root joint with the fuselage in the way that weight in the cockpit does. In the CS-22 certification documents this appears as the **maximum weight of non-lifting parts**.
+Keep the maximum total mass apart from the maximum mass without water. The water is carried in the wings, so it does not load the joint between wing root and fuselage the way weight in the cockpit does. In the CS-22 certification documents this appears as the **maximum weight of non-lifting parts**.
 
 ## The centre of gravity (CG)
 
@@ -43,7 +43,7 @@ The baggage compartment, usually behind the pilot, has very strict load limits (
 
 ## Weighing and documentation
 
-Over time, repairs, paint or changes of instruments alter the sailplane's empty weight. Establishing that empty weight and its CG by weighing is a certification requirement (CS 22.29). The procedure and the interval for reweighing are set by the manufacturer's maintenance manual and the aircraft maintenance programme: there is no universal period, although many programmes require it after structural repairs, repaints or changes of equipment. The results of the last weighing are recorded in the Weighing Report, which is kept with the aircraft documents.
+Over time, repairs, paint or changes of instruments alter the sailplane's empty weight. Establishing that empty weight and its CG by weighing is a certification requirement (CS 22.29). The procedure and the interval for reweighing come from the manufacturer's maintenance manual and the aircraft maintenance programme. There is no universal period, although many programmes require it after structural repairs, repaints or changes of equipment. The results of the last weighing go into the weighing record, which is kept with the aircraft documents.
 
 ![Example of a mass and balance calculation](imagenes/08-cap04-calculo-cg.jpg){#fig-08-cap04-calculo-cg}
 
@@ -58,5 +58,5 @@ The numerical mass and balance calculation (datum, arms and moments) is worked t
 * **CG limits**: forward, heavy controls and a short flare; aft, unstable and a potentially unrecoverable spin. The aft limit is the dangerous one.
 * **Fixed ballast**: lead plates in the nose to correct an aft CG (a light pilot). If you do not reach the minimum load on the limitations placard, ballast is compulsory.
 * **Fin ballast**: a water tank or weights in the fin to set the best CG. Take care: forgetting to empty it with a light pilot in front is a serious emergency (a dangerously aft CG).
-* **Weighing**: after repairs, repaints or changes of equipment, as the maintenance manual specifies. The result lives in the Weighing Report.
+* **Weighing**: after repairs, repaints or changes of equipment, as the maintenance manual specifies. The result lives in the weighing record.
 :::

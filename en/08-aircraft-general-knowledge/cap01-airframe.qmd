@@ -18,7 +18,7 @@ origen-commit: 9c75009
 > * **The canopy**: locking, ventilation and emergency exit.
 > * **The towhook**: nose hook, CG hook and the automatic release mechanism.
 
-Sailplane design aims to reduce drag and empty mass at the same time. With no engine to make up for losses in the glide, the surface finish matters a great deal: a badly finished repair, dirt or insects on the leading edge all reduce performance.
+Sailplane design aims to cut drag and empty mass at the same time. There is no engine to make up for losses in the glide, so the surface finish matters a great deal: a badly finished repair, dirt or insects on the leading edge all cost performance.
 
 ## Construction materials
 
@@ -37,7 +37,7 @@ Composite sailplanes are almost always white for a technical reason, not an aest
 
 ### Wood, fabric and metal
 
-Less common on today's airfields, but you can still see gems of classic aviation:
+They are less common on today's airfields, but a few classics are still flying:
 
 * **Wood and fabric**: wooden structures (such as the Schleicher K8) covered in aircraft fabric. Damp can deteriorate the wood and its joints; sun, tension and rubbing age the fabric. During the inspection, look for stains, distortion, open seams, tears or slack areas. If something does not look as it normally does, do not press on it or try to repair it: have it checked by competent staff.
 * **Metal (aluminium)**: rare in pure sailplanes; the best-known example is the Let L-13 Blaník. Its construction resembles that of a conventional aeroplane, with spars, ribs and riveted aluminium panels. The concerns here are corrosion, cracks around joints and rivets, and dents or wrinkles that give away a distortion. A new crack or distortion keeps the sailplane on the ground until it has been assessed.
@@ -86,9 +86,9 @@ The release hook is the point where the sailplane is attached to the winch cable
 * **CG hook**: usually a Tost G 88 fitted under the fuselage, near the centre of gravity, and intended for winch launching.
 
 
-The hook used for the winch must have an automatic release (*back-release*), as CS 22.711 and CS 22.713 require: when the sailplane overflies the winch with load on the cable, the mechanism releases it even if the pilot does not pull the release knob.
+The hook used for the winch must have an automatic release (*back-release*), as CS 22.711 and CS 22.713 require. If the sailplane overflies the winch with load still on the cable, the mechanism lets the cable go even if the pilot does not pull the release knob.
 
-Many training sailplanes have both. The usual arrangement is nose for aerotow and CG for winch, but the rule that matters is a different one: **use the hook that the AFM and the sailplane's placards authorise for that launch method**. Some types allow aerotow from a hook close to the CG; on those, follow the specific procedure in the manual.
+Many training sailplanes have both. The usual arrangement is nose for aerotow and CG for winch. The rule that matters, though, is this one: **use the hook that the AFM and the sailplane's placards authorise for that launch method**. Some types allow aerotow from a hook close to the CG; on those, follow the specific procedure in the manual.
 
 ![Towhook fitted under the fuselage, near the centre of gravity](imagenes/08-cap01-planeador.png){#fig-08-cap01-planeador width="50%" fig-alt="View from below of a sailplane next to the main wheel. A red circle marks the towhook under the fuselage."}
 

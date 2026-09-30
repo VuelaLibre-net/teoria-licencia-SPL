@@ -26,14 +26,14 @@ For a sailplane to take off legally, it needs two key documents:
 2. **Airworthiness review certificate (ARC)**: the periodic validation of the CofA, valid for one year. It is issued by an approved organisation (CAMO or CAO) or by independent certifying staff after reviewing the aircraft and its records. It plays the part that the periodic roadworthiness test (the Spanish ITV) plays for a car.
 
 ::: {.callout-important title="Regulation"}
-Under **ML.A.901**, the ARC is valid for one year, but it can be extended twice in succession (one year each time) without a full review if the aircraft has remained in a **controlled environment**: continuous management by a CAMO/CAO and maintenance carried out by approved organisations. After those two extensions a full airworthiness review is due.
+Under **ML.A.901**, the ARC is valid for one year. It can be extended twice in succession, one year each time, without a full review if the aircraft has remained in a **controlled environment**: continuous management by a CAMO/CAO and maintenance carried out by approved organisations. After those two extensions a full airworthiness review is due.
 :::
 
-This chapter gives the full technical treatment of the CofA and the ARC; the legal side (which documents are compulsory on board, and the legal responsibility for flying with them valid) is covered in **Book 1 — Air Law and ATC Procedures**, chapter 2.
+This chapter covers the technical side of the CofA and the ARC in full. The legal side (which documents are compulsory on board, and your legal responsibility for flying with them valid) is covered in **Book 1 — Air Law and ATC Procedures**, chapter 2.
 
 ## EASA rules: Part-ML and Part-CAO
 
-Light aviation is governed by simplified rules, which cut the red tape without lowering the guard on safety:
+Light aviation has simplified rules, which cut the red tape without relaxing on safety:
 
 * **Part-ML**: the specific rules for sailplanes and light aeroplanes. It allows the Aircraft Maintenance Programme (AMP) to be declared by the owner, who in doing so takes on more responsibility for their aircraft.
 * **Part-CAO**: regulates the organisations approved to carry out maintenance and manage airworthiness in combination.

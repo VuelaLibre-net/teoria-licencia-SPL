@@ -17,7 +17,7 @@ origen-commit: 4640b79
 > * **Structural fatigue** in composites and the life-extension inspections.
 > * **Flutter**: the vibration that can tear a sailplane apart in seconds.
 
-A sailplane does not only have to be aerodynamically efficient; it also has to withstand the forces of the atmosphere and the pilot's manoeuvres. That structural design is governed by strict standards (such as CS-22 of EASA, the European Union Aviation Safety Agency), which set how much load the aircraft must carry before it suffers damage.
+A sailplane has to be more than aerodynamically efficient. It also has to withstand the forces of the atmosphere and the pilot's manoeuvres. That structural design is governed by strict standards (such as CS-22 of EASA, the European Union Aviation Safety Agency), which set how much load the aircraft must carry before it suffers damage.
 
 ## The load factor (n)
 
@@ -66,7 +66,7 @@ That is why manufacturers set out service-life inspection programmes. Composite 
 
 **Flutter** is a self-excited vibration that appears when aerodynamic forces interact uncontrollably with the elasticity of the wing or the control surfaces. It is an extremely violent phenomenon, able to tear an aircraft apart in seconds.
 
-It is directly related to speed. V~NE~ (never-exceed speed) is certified with a safety margin below the speed at which flutter appears. But that margin is not a blank cheque: a sailplane with play in the controls, with mass balances wrongly adjusted after a repair, or with water trapped in the control surfaces can flutter even below V~NE~. That is why control surface balance is checked after any repair or repaint.
+It is directly related to speed. V~NE~ (never-exceed speed) is certified with a safety margin below the speed at which flutter appears. But that margin is not a blank cheque. A sailplane with play in the controls, with mass balances wrongly set after a repair, or with water trapped in the control surfaces can flutter even below V~NE~. That is why control surface balance is checked after any repair or repaint.
 
 ![The V-n diagram or flight envelope](imagenes/08-cap02-diagrama-vn.jpg){#fig-08-cap02-diagrama-vn}
 

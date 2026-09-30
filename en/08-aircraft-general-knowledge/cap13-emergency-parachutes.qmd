@@ -51,7 +51,7 @@ The parachute must fit your body, not the seat. Leg straps tight (but still lett
 The full procedure (the decision to bail out, getting out under g forces, the descent under the canopy and the landing, including landings in water and on power lines) is set out in **Book 6 — Operational Procedures, chapter 8**. Here we stay with the equipment: if the parachute is not properly packed, properly adjusted and within its service life, the best jumping technique will be of no use to you.
 
 ::: {.callout-warning title="Safety"}
-The minimum recommended height for a jump with a reasonable chance of success is 150 metres above the ground: the canopy needs between 50 and 90 metres to deploy fully, and getting out uses up the first 100. Below that height the margin is critical. If the emergency happens high up, do not hesitate: every second of delay is height lost.
+The minimum recommended height for a jump with a reasonable chance of success is 150 metres above the ground. The canopy needs between 50 and 90 metres to deploy fully, and getting out uses up the first 100. Below that height the margin is critical. If the emergency happens high up, do not hesitate: every second of delay is height lost.
 :::
 
 ![Emergency bail-out sequence and parachute opening](imagenes/08-cap13-secuencia-salto.jpg){#fig-08-cap13-secuencia-salto}

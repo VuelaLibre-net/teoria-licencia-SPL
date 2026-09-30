@@ -29,7 +29,7 @@ Two technologies dominate in recreational aviation:
 
 The battery is usually carried in the centre section of the fuselage, behind the pilot, or in a compartment in the nose (to help the balance).
 
-Because it is so dense, the way it is secured is a critical inspection point. A badly secured battery becomes a deadly projectile in a heavy landing or an accident.
+It packs a lot of mass into a small space, so the way it is secured is a critical inspection point. A badly secured battery becomes a deadly projectile in a heavy landing or an accident.
 
 ::: {.callout-important title="Regulation"}
 **CS 22.561(d)** requires the supporting structure to restrain any item of mass that could injure an occupant if it came loose in a crash landing, under the ultimate inertia forces of **CS 22.561(b)(1)**: 15g forward, 9g downward, 7.5g upward and 6g sideward. Never secure the battery with bungee cords or improvised mountings: use the brackets or straps approved by the manufacturer and check that they are firm at every pre-flight inspection.
@@ -41,7 +41,7 @@ Capacity is measured in ampere-hours (Ah). A 12 Ah battery can, in theory, power
 
 But performance drops a lot in the cold: at 0 °C you have about 80 % of the rated capacity left. If you are planning a long flight at altitude, take off with the batteries at 100 %.
 
-And if you are going to fly in cloud (with the relevant rating), do not take off without the batteries practically full: with no visual references, your instruments are the only thing keeping your wings level, and running out of power inside a cloud is a major emergency. The rules do not set a specific percentage; managing the energy available is your responsibility (SAO.OP.145 for powered sailplanes).
+And if you are going to fly in cloud (with the relevant rating), do not take off without the batteries practically full. With no visual references, your instruments are the only thing keeping your wings level, and running out of power inside a cloud is a major emergency. The rules do not set a specific percentage; managing the energy available is your responsibility (SAO.OP.145 for powered sailplanes).
 
 ## Protecting the system: fuses
 

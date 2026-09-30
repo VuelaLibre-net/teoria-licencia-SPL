@@ -42,7 +42,7 @@ Pressure sources are a magnet for insects. A spider's nest in the pitot will mak
 The face of the airspeed indicator carries colour markings that sum up the sailplane's speed limitations:
 
 ::: {.arco-blanco}
-**White arc**: only on sailplanes with flaps (chapter 5). It marks the operating range for the **positive** settings, from 1.1 times the stalling speed with the flaps in the landing position up to **V~FE~**, the maximum flaps-extended speed. It sits in the lower part of the dial, overlapping the green arc: lowering flaps above V~FE~ can damage the flap and its control. The **negative** settings are a different matter: they are meant precisely for cruising between thermals, they are used well above that arc, and their limits are not on the dial but on the limitations placard and in the Flight Manual.
+**White arc**: only on sailplanes with flaps (chapter 5). It marks the operating range for the **positive** settings, from 1.1 times the stalling speed with the flaps in the landing position up to **V~FE~**, the maximum flaps-extended speed. It sits in the lower part of the dial, overlapping the green arc: lowering flaps above V~FE~ can damage the flap and its control. The **negative** settings are another matter. They are meant for cruising between thermals and are used well above that arc; their limits are not on the dial but on the limitations placard and in the Flight Manual.
 :::
 
 ::: {.arco-verde}

@@ -11,6 +11,17 @@ The English edition is a translation of the Spanish book `08-aeronave-sistemas`.
 records in its front matter the Spanish file it comes from (`origen`) and the commit of that file it
 was translated from (`origen-commit`). Terminology follows `en/terminologia.yml`.
 
+## [In progress]
+
+**What to reread:** nothing new in substance; wording only.
+
+### Changed
+
+* **cap01, cap02, cap04, cap06, cap09, cap10, cap12 and cap13** — a pass on the prose: about fifteen
+  long sentences split or made more direct. Content, figures and terminology unchanged.
+* **cap04 and its Anki deck** — the Spanish *Certificado de Pesaje* is called the weighing record,
+  as in book 07.
+
 ## [0.8.0] — 30 September 2026
 
 **What to reread:** **the whole book.** First complete translation, from Spanish version 0.9.6 plus
