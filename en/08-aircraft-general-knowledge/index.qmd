@@ -1,0 +1,6 @@
+---
+origen: 08-aeronave-sistemas/index.qmd
+origen-commit: 2890174
+---
+
+# Aircraft General Knowledge {.unnumbered .unlisted .oculto}

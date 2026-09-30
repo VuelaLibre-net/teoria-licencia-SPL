@@ -32,7 +32,8 @@ LIBROS_EN = en/01-air-law-atc \
             en/04-communications \
             en/05-principles-of-flight \
             en/06-operational-procedures \
-            en/07-flight-performance-planning
+            en/07-flight-performance-planning \
+            en/08-aircraft-general-knowledge
 
 .PHONY: all en help clean rag epub web anki reconocimientos $(LIBROS) $(LIBROS_EN) completo completo-pdf completo-epub completo-rag
 
