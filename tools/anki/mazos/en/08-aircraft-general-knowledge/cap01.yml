@@ -1,0 +1,103 @@
+# Anki deck for en/08-aircraft-general-knowledge, chapter 1.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/08-aeronave-sistemas/cap01.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/08-aircraft-general-knowledge
+capitulo: 1
+titulo: "Airframe"
+tarjetas:
+  - id: materiales-del-planeador
+    tipo: basica
+    anverso: What materials are sailplanes made of, and what damage should you look for?
+    reverso: |
+      **Most modern ones use glass or carbon composites.**
+
+      In wood and fabric: damp, distortion, open seams, tears or slack areas.
+      In metal: corrosion, cracks and new dents.
+
+  - id: por-que-son-blancos
+    tipo: basica
+    anverso: Why are composite sailplanes white?
+    reverso: |
+      **Because the epoxy resin loses mechanical properties if it gets too
+      hot**, and white reflects solar radiation.
+
+      It is a technical reason, not an aesthetic one.
+    etiquetas: [Airmanship]
+
+  - id: gelcoat
+    tipo: basica
+    anverso: What is **gelcoat** and how do you look after it?
+    reverso: |
+      **An outer layer of resin that smooths the surface and helps protect the
+      laminate.** Sun and changes in temperature encourage crazing.
+
+      Protect it with covers and check the manual before waxing or polishing.
+    etiquetas: [Golden rule]
+
+  - id: gelcoat-vs-poliuretano
+    tipo: basica
+    anverso: Are **polyurethane** paint and gelcoat cared for in the same way?
+    reverso: |
+      **No. They are different finishes and are not always cleaned, polished or
+      repaired with the same products.** Follow the maintenance manual.
+
+  - id: larguero
+    tipo: basica
+    anverso: What is the **spar**, and what happens if it is damaged?
+    reverso: |
+      **It is the main longitudinal load-bearing member of the wing and carries
+      a large part of the bending loads.** It does not work alone: the skin and
+      other members also share loads.
+
+      If it is damaged, or damage is suspected, the sailplane is out of service
+      until competent staff have assessed it.
+
+  - id: estructura-sandwich
+    tipo: basica
+    anverso: What is **sandwich construction**, and what is its weak point?
+    reverso: |
+      **Two hard layers with a light core (foam or honeycomb): very stiff and
+      light.**
+
+      Delicate against point impacts.
+
+  - id: gancho-de-morro-vs-cg
+    tipo: basica
+    anverso: How do you choose the hook for aerotow or winch?
+    reverso: |
+      **The AFM and the sailplane's placards tell you.**
+
+      The usual arrangement is nose for aerotow and CG for winch. The hook used
+      for the winch must have an automatic release (*back-release*).
+
+  - id: por-que-no-torno-con-gancho-de-morro
+    tipo: basica
+    anverso: Why can a standard Tost E 85 nose hook not be used for the winch?
+    reverso: |
+      **Because it does not have the automatic release (*back-release*)
+      required for winch launching.** Always use the hook that the AFM and
+      placards authorise for that method.
+    etiquetas: [Safety]
+
+  - id: vida-del-gancho-tost
+    tipo: basica
+    anverso: What do you check on the towhook, and how is its life tracked?
+    reverso: |
+      **Pre-flight: operate the release with the test cable and check that it
+      opens and closes cleanly, without sticking.**
+
+      Its inspections are tracked by time and number of operations, according
+      to the maintenance programme and the manufacturer's instructions.
+    etiquetas: [Safety]
+
+  - id: cupula-cuidados
+    tipo: basica
+    anverso: What do you check on the **canopy**, and how do you look after it?
+    reverso: |
+      **Catches locked and emergency release handles located.** The sequence is
+      learnt on the ground with the AFM and the instructor.
+
+      The Perspex is cleaned with water or approved products and a soft cloth,
+      without rubbing it dry.

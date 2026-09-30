@@ -1,0 +1,50 @@
+# Anki deck for en/08-aircraft-general-knowledge, chapter 2.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/08-aeronave-sistemas/cap02.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/08-aircraft-general-knowledge
+capitulo: 2
+titulo: "System design, loads and stresses"
+tarjetas:
+  - id: cs-22-337-factores-de-carga
+    tipo: cloze
+    texto: |
+      Limit manoeuvring load factors: the **Utility** category must withstand
+      {{c1::+5.3 g / −2.65 g}} and the **Aerobatic** category
+      {{c2::+7.0 g / −5.0 g}}.
+    extra: |
+      At the manoeuvring speed. The actual limits for your aircraft are in the
+      AFM.
+
+      *Basis: CS 22.337 “Limit manoeuvring load factors”.*
+
+  - id: carga-limite-y-de-rotura
+    tipo: basica
+    anverso: The difference between **limit load** and **ultimate load**.
+    reverso: |
+      **The limit load is the maximum without permanent deformation; the
+      ultimate load is the one that breaks the structure: 1.5 times the limit
+      load (CS 22.303).**
+
+  - id: el-15-no-es-margen-de-maniobra
+    tipo: basica
+    anverso: Can the 1.5 factor of safety be used as a manoeuvring margin?
+    reverso: |
+      **No.** It is there to cover imperfections in the material or unexpected
+      atmospheric conditions, not for flying outside the limits.
+    etiquetas: [Safety]
+
+  - id: fatiga-en-fibra
+    tipo: basica
+    anverso: How is **fatigue** monitored in a composite sailplane?
+    reverso: |
+      **With periodic inspections (3,000 h, 6,000 h…) looking for fine cracks
+      or delamination.**
+
+  - id: flutter-y-vne-08
+    tipo: basica
+    anverso: Does V_NE guarantee that there will be no **flutter**?
+    reverso: |
+      **Not entirely.** V_NE is set with a margin against flutter, but play or
+      imbalance in the controls can cause it even below that speed.

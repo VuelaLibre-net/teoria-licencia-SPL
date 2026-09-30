@@ -1,0 +1,55 @@
+# Anki deck for en/08-aircraft-general-knowledge, chapter 4.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/08-aeronave-sistemas/cap04.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/08-aircraft-general-knowledge
+capitulo: 4
+titulo: "Mass and balance"
+tarjetas:
+  - id: mtow-vs-masa-sin-agua
+    tipo: basica
+    anverso: Why are there two mass limits, with and without water?
+    reverso: |
+      **Because water in the wings does not load the wing root the way weight
+      in the cockpit does.**
+
+  - id: limites-de-cg-cual-es-peligroso
+    tipo: basica
+    anverso: Which of the two CG limits is the dangerous one, and why?
+    reverso: |
+      **The aft limit.**
+
+      Forward CG: heavy controls and a short flare. Aft CG: unstable, and a
+      potentially unrecoverable spin.
+
+  - id: placa-de-limitaciones-y-lastre
+    tipo: basica
+    anverso: What does the cockpit **limitations placard** (CS-22) require?
+    reverso: |
+      **That the minimum and maximum seat loads are visible.**
+
+      If your weight with parachute and clothing is below the minimum, ballast
+      must be fitted before take-off, as the AFM specifies.
+    etiquetas: [Regulation]
+
+  - id: lastre-fijo-de-plomo
+    tipo: basica
+    anverso: What is **fixed ballast** and what is it for?
+    reverso: |
+      **Lead plates in the nose, to correct an aft CG with a light pilot.**
+
+  - id: olvidar-vaciar-el-lastre-de-cola
+    tipo: basica
+    anverso: What happens if you forget to empty the **fin ballast** with a light pilot in front?
+    reverso: |
+      **A serious emergency: a dangerously aft CG.**
+
+  - id: cuando-se-pesa-el-planeador
+    tipo: basica
+    anverso: When must the sailplane be weighed again, and where is it recorded?
+    reverso: |
+      **After repairs, repaints or changes of equipment**, as the maintenance
+      manual specifies.
+
+      The result lives in the **Weighing Report**.

@@ -1,0 +1,63 @@
+# Anki deck for en/08-aircraft-general-knowledge, chapter 12.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/08-aeronave-sistemas/cap12.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/08-aircraft-general-knowledge
+capitulo: 12
+titulo: "Batteries (performance and operational limitations)"
+tarjetas:
+  - id: plomo-vs-lifepo4
+    tipo: basica
+    anverso: Compare **lead-acid/gel** and **LiFePO4** batteries.
+    reverso: |
+      **Lead/gel**: heavy, robust, cheap.
+      **LiFePO4**: light, steady voltage, specific charger.
+
+  - id: fusible-junto-al-borne
+    tipo: basica
+    anverso: Where does the battery **fuse** go, and why?
+    reverso: |
+      **As close as possible to the terminal.**
+
+      A short circuit in flight without a fuse means fire in the cockpit within
+      seconds.
+
+  - id: fusibles-de-repuesto
+    tipo: basica
+    anverso: If a fuse blows in flight, how many times do you replace it?
+    reverso: |
+      **Once.** If it blows again, switch off the equipment concerned: you have
+      a serious short circuit that can end in an electrical fire.
+
+      Carry spares in the cockpit pocket.
+    etiquetas: [Golden rule]
+
+  - id: baterias-y-frio
+    tipo: basica
+    anverso: What does cold do to the battery?
+    reverso: |
+      **It makes it lose capacity suddenly.**
+
+      One that seems full on the ground can die quickly in wave at −20 °C.
+
+  - id: bateria-para-vuelo-en-nubes
+    tipo: basica
+    anverso: How charged must the batteries be to take off for cloud flying?
+    reverso: |
+      **Practically full.**
+
+      With no visual references, the instruments are your life.
+
+  - id: sujecion-de-la-bateria
+    tipo: basica
+    anverso: What forces must the **battery mounting** withstand?
+    reverso: |
+      **15 g forward, 9 g downward, 7.5 g upward and 6 g sideward.**
+
+      No bungee cords or improvised mountings: brackets or straps approved by
+      the manufacturer, checked at every pre-flight. The battery is a projectile
+      weighing several kilos.
+
+      *Basis: CS 22.561(d), with the forces of CS 22.561(b)(1).*
+    etiquetas: [Regulation]

@@ -1,0 +1,69 @@
+# Anki deck for en/08-aircraft-general-knowledge, chapter 9.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/08-aeronave-sistemas/cap09.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/08-aircraft-general-knowledge
+capitulo: 9
+titulo: "Airworthiness and maintenance"
+tarjetas:
+  - id: inspeccion-diaria
+    tipo: basica
+    anverso: Whose job is the **daily inspection**, and what does it include?
+    reverso: |
+      **The pilot's.**
+
+      Tyre pressures, condition of the towhook, control hinges, and pitot and
+      static vents clean.
+
+  - id: cofa-vs-arc
+    tipo: basica
+    anverso: The difference between the **CofA** and the **ARC**.
+    reverso: |
+      **The CofA is valid indefinitely; the ARC lasts one year.**
+
+      Without a valid ARC, the aircraft does not fly.
+
+  - id: prorrogas-del-arc
+    tipo: basica
+    anverso: How many times can the **ARC** be extended, and on what condition?
+    reverso: |
+      **Twice in succession, one year each time, if the aircraft has remained
+      in a controlled environment**: continuous management by a CAMO/CAO and
+      maintenance by approved organisations.
+
+      After those two extensions, a full airworthiness review.
+
+      *Basis: Part-ML, ML.A.901.*
+    etiquetas: [Regulation]
+
+  - id: suelo-del-mantenimiento-programado
+    tipo: basica
+    anverso: What is the minimum inspection if the AMP is based on the Part-ML Minimum Inspection Programme?
+    reverso: |
+      **An inspection every year or every 100 h, whichever comes first**
+      (**ML.A.302**).
+
+      The actual frequency is set by the AMP according to the manufacturer, but
+      it can never be less restrictive than that floor.
+    etiquetas: [Regulation]
+
+  - id: mantenimiento-piloto-propietario
+    tipo: basica
+    anverso: Who can sign off **pilot-owner maintenance** tasks?
+    reverso: |
+      **The legal owner or joint owner holding a valid pilot licence**, and
+      only the simple tasks that the rules list.
+
+      Every task is recorded and signed in the Aircraft Logbook, with the
+      licence number.
+
+      *Basis: Part-ML, ML.A.803 and its Appendix II.*
+    etiquetas: [Regulation]
+
+  - id: reporte-de-defectos
+    tipo: basica
+    anverso: Why do you record every defect, however small it seems?
+    reverso: |
+      **Because the next pilot may not see it and be killed**: a frayed rudder
+      cable, for example.

@@ -1,0 +1,55 @@
+# Anki deck for en/08-aircraft-general-knowledge, chapter 8.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/08-aeronave-sistemas/cap08.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/08-aircraft-general-knowledge
+capitulo: 8
+titulo: "Manuals and documents"
+tarjetas:
+  - id: que-lleva-el-afm
+    tipo: basica
+    anverso: What does the **Flight Manual (AFM)** contain?
+    reverso: |
+      **The limits (V_NE, load factors), the emergency procedures and the
+      loading tables.**
+
+      Read it before flying a new type.
+
+  - id: sao-gen-155-que-va-a-bordo
+    tipo: basica
+    anverso: Which documents go **on board**, and which can stay on the ground?
+    reverso: |
+      **On board**: AFM, current charts and interception signals information.
+      **At the aerodrome**: certificates of registration and airworthiness,
+      ARC, insurance and radio licence.
+
+      Exception: on flights within sight of the aerodrome, all the documents
+      (AFM included) may stay on the ground. The same goes for the pilot's
+      licence and medical certificate.
+
+      *Basis: Part-SAO, SAO.GEN.155; licence and medical, SFCL.045.*
+    etiquetas: [Regulation]
+
+  - id: sin-arc-no-hay-seguro
+    tipo: basica
+    anverso: What happens to the insurance if the **ARC** has expired?
+    reverso: "**It covers nothing.**"
+
+  - id: como-se-lee-una-checklist
+    tipo: basica
+    anverso: How do you run a checklist?
+    reverso: |
+      **Read each item, physically check the control or instrument and confirm
+      it out loud.** Never from memory.
+
+      If you skip a step, start the list again.
+    etiquetas: [Golden rule]
+
+  - id: diario-tecnico
+    tipo: basica
+    anverso: Why do you check the **technical log** before flying?
+    reverso: |
+      **To make sure there are no outstanding defects that affect you.**
+
+      Afterwards, record your flight and any problem.

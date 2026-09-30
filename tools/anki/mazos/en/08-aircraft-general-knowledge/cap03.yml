@@ -1,0 +1,59 @@
+# Anki deck for en/08-aircraft-general-knowledge, chapter 3.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/08-aeronave-sistemas/cap03.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/08-aircraft-general-knowledge
+capitulo: 3
+titulo: "Landing gear, wheels, tyres and brakes"
+tarjetas:
+  - id: gestion-del-tren-retractil
+    tipo: basica
+    anverso: When is a **retractable undercarriage** raised, and when is it lowered?
+    reverso: |
+      **It is raised only after releasing from the launch and reaching a safe
+      height; it is lowered on joining the downwind leg, without exception.**
+
+      Wheel down and locked. Make it part of your mental check before landing.
+    etiquetas: [Golden rule]
+
+  - id: tren-como-fusible
+    tipo: basica
+    anverso: What role does the undercarriage play in a very heavy landing?
+    reverso: |
+      **It acts as a fuse element: it breaks before the fuselage does.**
+
+      On many sailplanes the only suspension is the tyre and the cushion.
+
+  - id: frenos-de-rueda
+    tipo: basica
+    anverso: How are the **wheel brakes** operated on a sailplane?
+    reverso: |
+      **At the end of the airbrake lever's travel, or with a separate lever.**
+
+      Disc (effective, but they overheat) or drum. Check that they work before
+      take-off.
+
+  - id: frenar-con-brusquedad
+    tipo: basica
+    anverso: Why should you not brake hard at the start of the landing run?
+    reverso: |
+      **Because you can nose over (the nose digs in) or flat-spot the tyre
+      through wear.**
+    etiquetas: [Safety]
+
+  - id: tren-que-no-sale
+    tipo: basica
+    anverso: If the undercarriage **will not come down**, what do you do?
+    reverso: |
+      **A gentle jolt; if it still will not come down, land on grass with the
+      wheel up.**
+
+      Minor damage, pilot safe.
+
+  - id: patin-de-cola
+    tipo: basica
+    anverso: What is the **tail skid** for?
+    reverso: |
+      **It protects the fuselage in nose-high landings.** A wear point to keep
+      an eye on.

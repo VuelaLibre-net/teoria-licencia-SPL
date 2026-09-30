@@ -1,0 +1,70 @@
+# Anki deck for en/08-aircraft-general-knowledge, chapter 5.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/08-aeronave-sistemas/cap05.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/08-aircraft-general-knowledge
+capitulo: 5
+titulo: "Flight controls"
+tarjetas:
+  - id: mandos-primarios-y-transmision
+    tipo: basica
+    anverso: What does each primary control move, and how is it transmitted?
+    reverso: |
+      **Ailerons (roll), elevator (pitch) and rudder (yaw).**
+
+      Rigid push-rods for roll and pitch; **cables** for the rudder. Check for
+      play, tension and fraying during the inspection.
+
+  - id: codigo-de-colores-cs22780
+    tipo: cloze
+    texto: |
+      Colour code of the cockpit controls: {{c1::blue}} for the airbrakes,
+      {{c2::green}} for the trim, {{c3::yellow}} for the tow release and
+      {{c4::red}} for the canopy jettison.
+    extra: |
+      White is for normal canopy opening; if a single handle does both, red
+      takes precedence. The standard **reserves** yellow and red: no other
+      control may use them, which is why your eye can trust them.
+
+      *Basis: CS 22.780; the requirement to mark them, CS 22.1555.*
+
+  - id: aerofrenos-efecto
+    tipo: basica
+    anverso: What do the **airbrakes** do, and what effect do they have on attitude?
+    reverso: |
+      **They spoil lift and increase drag to control the glide path.**
+
+      When they are opened the nose tends to drop and the sailplane may
+      vibrate: anticipate it and correct with the elevator so as not to lose
+      your approach speed.
+    etiquetas: [Airmanship]
+
+  - id: flaps-positivos-y-negativos
+    tipo: basica
+    anverso: When are positive and negative **flap** settings used?
+    reverso: |
+      **Positive for thermalling and landing; negative for fast glides between
+      thermals.**
+
+      Only on performance sailplanes.
+
+  - id: que-hace-el-compensador
+    tipo: basica
+    anverso: What does the **trim** do, and what does it not do?
+    reverso: |
+      **It relieves the stick pressure for a given speed. It does not fly the
+      aircraft.**
+
+      Adjust it in every phase of flight. Green lever.
+
+  - id: libertad-y-sentido-de-mandos
+    tipo: basica
+    anverso: What do you check on the controls before every take-off?
+    reverso: |
+      **Full and free movement, and correct sense**: take them to their stops
+      and check **by eye** that the surfaces move in the right direction.
+
+      A reversed control after maintenance is a critical emergency, and it shows
+      itself right at take-off.
+    etiquetas: [Safety]
