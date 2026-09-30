@@ -13,7 +13,15 @@ was translated from (`origen-commit`). Terminology follows `en/terminologia.yml`
 
 ## [In progress]
 
-**What to reread:** nothing new in substance; wording only.
+**What to reread:** **cap09, Minimum Inspection Programme**, and its Anki card. The rest is wording
+only.
+
+### Fixed
+
+* **cap09 and its Anki deck, Minimum Inspection Programme (ML.A.302)** — the floor of “every year
+  or every 100 h, whichever comes first” was applied to every sailplane. The Part-ML MIP requires
+  an annual inspection for sailplanes and powered sailplanes, with no hours limit; the 100 h limit
+  applies only to touring motor gliders (TMG). Corrected in the Spanish edition at the same time.
 
 ### Changed
 

@@ -1,6 +1,6 @@
 ---
 origen: 08-aeronave-sistemas/cap09-aeronavegabilidad-y-mantenimiento.qmd
-origen-commit: 6f79f9b
+origen-commit: 9a6cb4e
 ---
 
 # Airworthiness and maintenance
@@ -38,7 +38,7 @@ Light aviation has simplified rules, which cut the red tape without relaxing on 
 * **Part-ML**: the specific rules for sailplanes and light aeroplanes. It allows the Aircraft Maintenance Programme (AMP) to be declared by the owner, who in doing so takes on more responsibility for their aircraft.
 * **Part-CAO**: regulates the organisations approved to carry out maintenance and manage airworthiness in combination.
 
-When the AMP is based on the **Minimum Inspection Programme (MIP)** set out in Part-ML itself (ML.A.302), the MIP sets a regulatory floor: an inspection at least **every year or every 100 flying hours, whichever comes first**. The AMP can be stricter (whatever the manufacturer says), but never less than that minimum.
+When the AMP is based on the **Minimum Inspection Programme (MIP)** set out in Part-ML itself (ML.A.302), the MIP sets a regulatory floor: for a sailplane or a powered sailplane, an inspection at least **every year**, with no hours limit; only the touring motor glider (TMG) has it **every year or every 100 flying hours, whichever comes first**. The AMP can be stricter (whatever the manufacturer says), but never less than that minimum.
 
 ## Pilot-owner maintenance
 
@@ -62,7 +62,7 @@ Aviation safety is everyone's business. When a design fault or a problem with a 
 
 * **Daily inspection (DI)**: the pilot's job. Follow the list: tyre pressures, condition of the towhook, control hinges, pitot and static vents clean.
 * **CofA and ARC**: the CofA is valid indefinitely; the ARC lasts a year and can be extended twice in a controlled environment (ML.A.901). Without a valid ARC, the aircraft does not fly.
-* **Scheduled maintenance**: the actual inspection frequency (by time, cycles or hours) is set by the AMP, according to what the manufacturer says. But there is a floor: if the AMP is based on the Part-ML Minimum Inspection Programme (ML.A.302), it can never be less restrictive than **an inspection every year or every 100 h, whichever comes first**.
+* **Scheduled maintenance**: the actual inspection frequency (by time, cycles or hours) is set by the AMP, according to what the manufacturer says. But there is a floor: if the AMP is based on the Part-ML Minimum Inspection Programme (ML.A.302), it can never be less restrictive than **an inspection every year** (for a TMG, **every year or every 100 h, whichever comes first**).
 * **Pilot-owner maintenance**: simple tasks from Appendix II to Part-ML, only if you are the owner and hold a valid licence, and always recorded and signed (ML.A.803).
 * **Defect reporting**: if you break something or see something odd, write it down. The next pilot may not see it and be killed (a frayed rudder cable, for example).
 :::

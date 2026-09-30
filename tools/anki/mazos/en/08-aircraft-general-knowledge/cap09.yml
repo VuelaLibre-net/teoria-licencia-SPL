@@ -41,8 +41,8 @@ tarjetas:
     tipo: basica
     anverso: What is the minimum inspection if the AMP is based on the Part-ML Minimum Inspection Programme?
     reverso: |
-      **An inspection every year or every 100 h, whichever comes first**
-      (**ML.A.302**).
+      **An inspection every year** (**ML.A.302**). The 100 h limit, whichever
+      comes first, is only added for the touring motor glider (TMG).
 
       The actual frequency is set by the AMP according to the manufacturer, but
       it can never be less restrictive than that floor.
