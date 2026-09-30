@@ -23,6 +23,10 @@ translated from (`origen-commit`). Terminology follows `en/terminologia.yml`.
   made shorter and more direct. The Spanish radio phrases, figures, rules and terminology do not
   change.
 
+### Layout and production
+
+* **Covers** — front and back covers in English.
+
 ## [0.8.0] — 27 September 2026
 
 **What to reread:** **the whole book.** First complete translation, from Spanish version 1.0-rc.15

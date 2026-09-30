@@ -23,6 +23,10 @@ translated from (`origen-commit`). Terminology follows `en/terminologia.yml`.
 * **Introduction and cap01–cap10** — a second pass on the prose: about fifty sentences made
   shorter and more direct, with fewer set phrases. Content, figures and terminology unchanged.
 
+### Layout and production
+
+* **Covers** — front and back covers in English.
+
 ## [0.8.0] — 27 September 2026
 
 **What to reread:** **the whole book.** First complete translation, from Spanish version 1.0-rc.16.

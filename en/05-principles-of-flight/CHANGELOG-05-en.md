@@ -37,6 +37,10 @@ Ported from the Spanish edition, where these errors have been corrected at the s
   shorter and more direct, with fewer passives and set phrases. Content, figures and terminology
   unchanged.
 
+### Layout and production
+
+* **Covers** — front and back covers in English.
+
 ## [0.8.0] — 28 September 2026
 
 **What to reread:** **the whole book.** First complete translation, from Spanish version 1.0-rc.8.
