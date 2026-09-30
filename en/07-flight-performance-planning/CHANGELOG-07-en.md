@@ -24,7 +24,8 @@ Airmanship one ends “airmanship sets the standard”. The rest is wording only
 
 ### Layout and production
 
-* **Covers** — front and back covers in English, in `recursos/covers/` like the Spanish ones.
+* **Covers** — front and back covers in English, kept in the book's own `cover/` folder like
+  the rest of the English edition.
 
 ## [0.8.0] — 24 September 2026
 

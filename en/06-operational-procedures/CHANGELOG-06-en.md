@@ -30,6 +30,10 @@ file it was translated from (`origen-commit`). Terminology follows `en/terminolo
   more directly and about twenty set phrases made plainer. Content, figures and terminology
   unchanged.
 
+### Layout and production
+
+* **Covers** — front and back covers in English.
+
 ## [0.8.0] — 28 September 2026
 
 **What to reread:** **the whole book.** First complete translation, from Spanish version 1.0-rc.3

@@ -24,6 +24,10 @@ was translated from (`origen-commit`). Terminology follows `en/terminologia.yml`
   content is unchanged: same facts, figures, rules and terminology, and the same structure as the
   Spanish chapters.
 
+### Layout and production
+
+* **Covers** — front and back covers in English.
+
 ## [0.8.0] — 25 September 2026
 
 **What to reread:** **the whole book.** First complete translation, from Spanish version 1.0-rc.14.
