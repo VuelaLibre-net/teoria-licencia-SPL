@@ -83,6 +83,9 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Conocimi
 **Larguero (Spar)**
 : Principal elemento resistente longitudinal del ala. Soporta buena parte de las cargas de flexión, mientras el revestimiento y otros elementos comparten cargas según el diseño. Un daño real o sospechado obliga a dejar el planeador fuera de servicio hasta su evaluación.
 
+**Lastre (ballast)**
+: Masa añadida al planeador para ajustar su peso total o su centrado. Puede ser fija, como las placas de plomo en el morro que compensan a un piloto ligero, o desechable en vuelo, como el agua de las alas o de la cola. La placa de limitaciones y el Manual de Vuelo fijan cuándo es obligatoria y cuánta se admite.
+
 **Lastre de agua (water ballast)**
 : Agua cargada en tanques específicos situados en las alas para aumentar la masa del planeador y su carga alar, desplazando la curva polar de velocidades hacia valores más altos para volar más rápido con el mismo ángulo de planeo.
 

@@ -569,6 +569,9 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 **Las 7 S**
 : Regla nemotécnica utilizada para evaluar sistemáticamente la aptitud de un campo desde el aire en un aterrizaje fuera de campo: **Size** (Tamaño), **Shape** (Forma), **Slope** (Pendiente), **Surface** (Superficie), **Surroundings** (Alrededores/Obstáculos), **Stock** (Ganado/Animales) y **Sun** (Posición del Sol).
 
+**Lastre (ballast)**
+: Masa añadida al planeador para ajustar su peso total o su centrado. Puede ser fija, como las placas de plomo en el morro que compensan a un piloto ligero, o desechable en vuelo, como el agua de las alas o de la cola. La placa de limitaciones y el Manual de Vuelo fijan cuándo es obligatoria y cuánta se admite.
+
 **Lastre de agua (water ballast)**
 : Agua cargada en tanques específicos situados en las alas para aumentar la masa del planeador y su carga alar, desplazando la curva polar de velocidades hacia valores más altos para volar más rápido con el mismo ángulo de planeo.
 
