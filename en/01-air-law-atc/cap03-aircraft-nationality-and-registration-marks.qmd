@@ -1,6 +1,6 @@
 ---
 origen: 01-derecho-aereo-atc/cap03-marcas-de-nacionalidad-y-matricula-de-aeronaves.qmd
-origen-commit: 7fe69f9
+origen-commit: 490af41
 ---
 
 # Aircraft nationality and registration marks
@@ -36,7 +36,7 @@ Under Spanish rules (Orden FOM/1687/2015, a ministerial order that follows ICAO 
 
 If the glider is too slender for marks of this size, the authority may accept smaller ones, as long as they remain legible (@fig-01-cap03-matricula-ubicacion).
 
-![Location of registration marks on a glider. Note: on the wing, the marks go on the lower surface, not on the upper surface as in the drawing; and the nationality mark is EC, not the flag.](imagenes/01-cap03-ubicacion-matricula.jpg){#fig-01-cap03-matricula-ubicacion}
+![Location of registration marks on a glider. *(FIX: on the wing, the marks go on the lower surface, not the upper one; the nationality mark is EC, not the flag; and the competition marking is not the club's or operator's letters.)*](imagenes/01-cap03-ubicacion-matricula.jpg){#fig-01-cap03-matricula-ubicacion .corregir}
 
 ## The identification plate (fireproof plate)
 

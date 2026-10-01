@@ -1,6 +1,6 @@
 ---
 origen: 01-derecho-aereo-atc/cap12-seguridad.qmd
-origen-commit: bc5e9d9
+origen-commit: 490af41
 ---
 
 # Security
@@ -22,7 +22,7 @@ Spanish uses a single word, *seguridad*, for both, but in aviation they are two 
 1. **Safety** (operational safety): preventing unintended **accidents**: the engine not stopping, no collisions, maintenance done properly. In short, “flying safely”.
 2. **Security** (aviation security): protecting against intentional **unlawful acts**: nobody stealing your aircraft, nobody planting a bomb, no hijacks. In short, physical protection.
 
-![The difference between safety and security. In aviation, *safety* is not the workplace safety the drawing suggests, but the prevention of accidents in the air and on the ground.](imagenes/01-cap12-safety-security.jpg){#fig-01-cap12-safety-vs-security}
+![The difference between safety and security. *(FIX: in aviation, “safety” is not the workplace safety the drawing suggests, but the prevention of accidents in the air and on the ground.)*](imagenes/01-cap12-safety-security.jpg){#fig-01-cap12-safety-vs-security .corregir}
 
 *Security* has its own rules. Internationally, ICAO **Annex 17**; in the European Union, **Regulation (EC) No 300/2008**, which lays down the common rules, and **Commission Implementing Regulation (EU) 2015/1998**, which sets out the detailed measures; and in Spain, the **National Civil Aviation Security Programme** (*Programa Nacional de Seguridad para la Aviación Civil*) provided for in the Ley de Seguridad Aérea (LSA, the Spanish Aviation Safety Act, Article 3). Almost all of these measures apply at airports with commercial traffic: passenger and baggage screening, access control and the **restricted areas**.
 

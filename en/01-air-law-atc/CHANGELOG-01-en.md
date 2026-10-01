@@ -15,8 +15,9 @@ was translated from (`origen-commit`). Terminology follows `en/terminologia.yml`
 
 **What to reread:** **the whole book.** These are the corrections of the audit of 1 October 2026,
 ported from the Spanish edition, and they touch all fourteen chapters, the glossary, the
-bibliography and the licence. Three figures are withdrawn until they are redrawn (semicircular
-rule, reporting flow and scale of infringements), and five carry a warning in their caption.
+bibliography and the licence. The 21 figures that have to be redrawn carry an “IN REVIEW”
+watermark and end their caption with *(FIX: …)*, saying what is wrong; they include the three that
+had been withdrawn (semicircular rule, reporting flow and scale of infringements).
 
 ### Fixed
 
@@ -36,6 +37,12 @@ rule, reporting flow and scale of infringements), and five carry a warning in th
 
 ### Changed
 
+* **Figures to be redrawn: “IN REVIEW” watermark and caption note** — the 21 figures in which the
+  audit found an error carry a diagonal “IN REVIEW” watermark in the PDF, the EPUB and the web
+  edition, and their caption ends with *(FIX: …)*, saying what is wrong. The note is left out of the
+  list of figures. The warnings some captions already carried now use this format. The three
+  figures that had been withdrawn come back marked in the same way. Each mark and note goes when
+  its figure is replaced.
 * **cap07 and cap08, radio examples** — the RMZ call and the ATC and FIS examples now carry
   their Spanish equivalent in italics after the English, as in Book 4.
 * **cap01, cap02, cap04, cap05, cap09, cap14** — some literal phrasings reworded to read less

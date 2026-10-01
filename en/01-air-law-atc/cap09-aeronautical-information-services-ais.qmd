@@ -1,6 +1,6 @@
 ---
 origen: 01-derecho-aereo-atc/cap09-servicios-de-informacion-aeronautica-ais.qmd
-origen-commit: 126575f
+origen-commit: 490af41
 ---
 
 # Aeronautical information services (AIS)
@@ -45,7 +45,7 @@ Some things cannot wait for the AIRAC cycle: a crane on the runway final, an uns
 
 Each NOTAM has its fields (@fig-01-cap09-ejemplo-notam). The ones you will look at most are **A**, the aerodrome or region affected; **B** and **C**, the start and end of validity, as year, month, day, hours and minutes in UTC (2310250800 is 25 October 2023 at 08:00 UTC); and **E**, the text of the notice.
 
-![Basic decoding of a NOTAM. The example is illustrative: Zaragoza's actual runways are 12L/30R and 12R/30L.](imagenes/01-cap09-ejemplo-notam.jpg){#fig-01-cap09-ejemplo-notam}
+![Basic decoding of a NOTAM. *(FIX: the example uses “RWY 12/30”, but Zaragoza's actual runways are 12L/30R and 12R/30L.)*](imagenes/01-cap09-ejemplo-notam.jpg){#fig-01-cap09-ejemplo-notam .corregir}
 
 Before **every** flight you must check the NOTAMs for your departure aerodrome, destination, alternates and route. In practice you do not read them one by one: you request them grouped in a **pre-flight information bulletin** (**PIB**) for your route and aerodromes, which is what ICARO gives you.
 

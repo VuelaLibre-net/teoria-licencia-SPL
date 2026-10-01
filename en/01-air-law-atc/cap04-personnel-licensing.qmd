@@ -1,6 +1,6 @@
 ---
 origen: 01-derecho-aereo-atc/cap04-licencias-de-personal.qmd
-origen-commit: 7fe69f9
+origen-commit: 490af41
 ---
 
 # Personnel licensing
@@ -36,7 +36,7 @@ A **Class 2** is only mandatory if you fly a sailplane in commercial operations 
 If your health changes (surgery, serious illness, pregnancy, admission to hospital, regular medication, or needing corrective lenses for the first time), your medical certificate may be suspended (MED.A.020). Always consult an Aero-Medical Examiner (AME) before flying again.
 :::
 
-![Validity of medical certificates by age. The drawing does not show the age-42 and age-51 rules explained in the text, and for Class 2 the 60 months apply up to the age of 40.](imagenes/01-cap04-validez-medical.jpg){#fig-01-cap04-medical-validity}
+![Validity of medical certificates by age. *(FIX: the age-42 and age-51 rules explained in the text are missing, and for Class 2 the 60 months apply up to the age of 40.)*](imagenes/01-cap04-validez-medical.jpg){#fig-01-cap04-medical-validity .corregir}
 
 ## Recent experience: the 24-month rule
 
@@ -55,7 +55,7 @@ You do not lose the licence, but your privileges become “dormant”. There are
 * **5** hours, **15** launches, **2** flights with an instructor. (In the last 2 years.)
 :::
 
-![Flowchart: can I fly today?](imagenes/01-cap04-recencia-requisitos.jpg){#fig-01-cap04-recencia-flow}
+![Flowchart: can I fly today? *(FIX: launch-method recency (SFCL.155) is missing: 5 launches in 24 months with each method, or 2 for bungee launches.)*](imagenes/01-cap04-recencia-requisitos.jpg){#fig-01-cap04-recencia-flow .corregir}
 
 ### On top of that, for each launch method
 

@@ -1,6 +1,6 @@
 ---
 origen: 01-derecho-aereo-atc/cap08-servicio-de-transito-aereo.qmd
-origen-commit: 126575f
+origen-commit: 490af41
 ---
 
 # Air traffic service (ATS) and air traffic management (ATM)
@@ -36,7 +36,7 @@ It is organised into three units, one for each phase of flight (@fig-01-cap08-de
 
 In Spain, the ACC also provides the en-route flight information service (in the Canary Islands, outside controlled airspace, the flight information centre, FIC, does it). And some uncontrolled aerodromes have an **AFIS** (aerodrome flight information service), with its flight information zone (**FIZ**): it gives you information and alerting, but it neither clears you nor separates you (AIP España, GEN 3.3).
 
-![Structure of ATC units. Note that the ACC is not at an airport, as the drawing suggests, and that the tower also controls the circuit, not just the ground.](imagenes/01-cap08-dependencias-atc.jpg){#fig-01-cap08-dependencias-atc}
+![Structure of ATC units. *(FIX: the ACC is not at an airport, as the drawing suggests, and the tower also controls the circuit, not just the ground.)*](imagenes/01-cap08-dependencias-atc.jpg){#fig-01-cap08-dependencias-atc .corregir}
 
 ## 2. Flight information service (FIS)
 
@@ -64,7 +64,7 @@ Your life insurance. It is activated when there is an emergency or when there ar
 
 From the first phase, the air traffic services unit informs the rescue coordination centre (RCC), which does not wait for the alert phase to start work (Commission Implementing Regulation (EU) 2017/373, ATS.TR.405).
 
-![Emergency phases of the alerting service. The rescue coordination centre is informed from the uncertainty phase onwards, as the text explains.](imagenes/01-cap08-fases-emergencia.jpg){#fig-01-cap08-fases-emergencia}
+![Emergency phases of the alerting service. *(FIX: search and rescue units go out in DETRESFA, not in ALERFA; the rescue coordination centre is informed from the uncertainty phase onwards; and DETRESFA needs grave and imminent danger or a need for immediate assistance, not both.)*](imagenes/01-cap08-fases-emergencia.jpg){#fig-01-cap08-fases-emergencia .corregir}
 
 ::: {.callout-warning title="Safety"}
 If you have a real emergency, have **NOT** filed a flight plan and are not in radio contact, the alerting service will take much longer to start (only when your family reports that you have not come home). Use the radio and file the flight plan!

@@ -1,6 +1,6 @@
 ---
 origen: 01-derecho-aereo-atc/cap13-notificacion-de-accidentes.qmd
-origen-commit: bc5e9d9
+origen-commit: 490af41
 ---
 
 # Accident reporting
@@ -23,7 +23,7 @@ In aviation, not everything is an accident, and the legal distinctions matter (@
 2. **SERIOUS INCIDENT**: an occurrence with a high probability of having ended in an accident. The classic “near miss”.
 3. **INCIDENT**: any other occurrence that affects or could affect safety, without reaching the above.
 
-![Occurrence severity pyramid, inspired by Heinrich. Its figures are illustrative: Heinrich published a ratio of 1 major injury, 29 minor injuries and 300 occurrences with no injury, which are not the categories of Regulation 996/2010.](imagenes/01-cap13-piramide-sucesos.jpg){#fig-01-cap13-piramide-sucesos}
+![Occurrence severity pyramid, inspired by Heinrich. *(FIX: its figures are illustrative: Heinrich published a ratio of 1 major injury, 29 minor injuries and 300 occurrences with no injury, which are not the categories of Regulation (EU) No 996/2010.)*](imagenes/01-cap13-piramide-sucesos.jpg){#fig-01-cap13-piramide-sucesos .corregir}
 
 ## The duty to report: the occurrence reporting system
 
@@ -43,9 +43,7 @@ The deadlines differ. To the investigation authority, report the accident or ser
 European regulations promote a “just culture”. The aim of reporting is **NOT to find someone to blame** (except for gross negligence or wilful misconduct), but to **learn**. Do not be afraid to report your mistakes: it is the only way the system gets better.
 :::
 
-<!-- RETIRADA hasta rehacerla (auditoría del libro 01, NOR-05: la figura daba por voluntaria la notificación de cualquier suceso que no fuera accidente o incidente grave). Ver recursos/auditorias/seguimiento-libro-01.md.
-![The occurrence reporting process](imagenes/01-cap13-flujo-notificacion.jpg){#fig-01-cap13-flujo-notificacion}
--->
+![The occurrence reporting process. *(FIX: accidents and serious incidents are not the only occurrences you must report: so are those listed in Implementing Regulation (EU) 2015/1018, Annex V, section 2, such as an airspace infringement or a near collision.)*](imagenes/01-cap13-flujo-notificacion.jpg){#fig-01-cap13-flujo-notificacion .corregir}
 
 ::: {.callout-warning title="Safety"}
 If you suffer or witness an accident:

@@ -1,6 +1,6 @@
 ---
 origen: 01-derecho-aereo-atc/cap02-aeronavegabilidad.qmd
-origen-commit: 84c93d3
+origen-commit: 490af41
 ---
 
 # Airworthiness of aircraft
@@ -27,7 +27,7 @@ The **Certificate of Airworthiness** (CofA) is issued by the authority of the St
 
 The CofA of EASA aircraft is valid **indefinitely**: it does not expire, provided the aircraft continues to comply with its type design and continuing airworthiness requirements, remains on the same register, its type certificate has not been invalidated and nobody has revoked or surrendered the CofA (21.A.181, @fig-01-cap02-cofa-example). But it is only valid together with a valid ARC. Without an ARC, the CofA is worthless.
 
-![Example of an EASA Certificate of Airworthiness (EASA Form 25). The specimen cites Regulation (EC) No 216/2008, since replaced by Regulation (EU) 2018/1139, and belongs to an aeroplane, not a sailplane.](imagenes/01-cap02-certificado-aeronavegabilidad.jpg){#fig-01-cap02-cofa-example}
+![Example of an EASA Certificate of Airworthiness (EASA Form 25). *(FIX: the specimen cites Regulation (EC) No 216/2008, since replaced by Regulation (EU) 2018/1139, and belongs to an aeroplane, not a sailplane.)*](imagenes/01-cap02-certificado-aeronavegabilidad.jpg){#fig-01-cap02-cofa-example .corregir}
 
 ## The annual “MOT”: the Airworthiness Review Certificate (ARC)
 
@@ -39,7 +39,7 @@ It is valid for **one year**, so it has to be renewed or extended every year. It
 Never fly with an expired ARC. It is illegal and, more importantly, it means nobody has officially certified in the last year that the aircraft is safe to fly. Your insurer may also refuse to cover you, or seek to recover from you what it has paid out, if anything happens: many policies make cover conditional on the aircraft being airworthy. Read yours.
 :::
 
-![ARC life cycle and its extensions. With the second extension the ARC remains valid until the end of the third year: the last stretch of the drawing, labelled as expired, is in fact valid.](imagenes/01-cap02-ciclo-arc.jpg){#fig-01-cap02-arc-process}
+![ARC life cycle and its extensions. *(FIX: with the second extension the ARC remains valid until the end of the third year: the last stretch, labelled as expired, is in fact valid.)*](imagenes/01-cap02-ciclo-arc.jpg){#fig-01-cap02-arc-process .corregir}
 
 ## Glider maintenance: Part-ML
 

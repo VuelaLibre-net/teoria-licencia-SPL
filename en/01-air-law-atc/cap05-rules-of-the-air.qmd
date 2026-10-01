@@ -1,6 +1,6 @@
 ---
 origen: 01-derecho-aereo-atc/cap05-reglas-del-aire.qmd
-origen-commit: 574edb6
+origen-commit: 490af41
 ---
 
 # Rules of the air
@@ -59,7 +59,7 @@ Careful: this hierarchy only decides when converging. Head-on and when overtakin
 
 * **Landing**: the lowest glider has priority to land (but you may not dive to cut in). Under SERA.3210, gliders on final and landing also always have priority over powered aircraft (@fig-01-cap05-prioridades).
 
-![Right-of-way rules: three encounters between gliders, each with its avoiding manoeuvre. The panels are unlabelled; the rule for each situation is in the text.](imagenes/01-cap05-prioridades-paso.jpg){#fig-01-cap05-prioridades}
+![Right-of-way rules: three encounters between gliders, each with its avoiding manoeuvre. *(FIX: the panels are unlabelled and the arrows do not make each glider's heading clear; the rule for each situation is in the text.)*](imagenes/01-cap05-prioridades-paso.jpg){#fig-01-cap05-prioridades .corregir}
 
 ## Minimum flight heights
 
@@ -75,7 +75,7 @@ SERA.5005(f) allows exceptions “by permission from the competent authority”,
 * **Ridge soaring**: gliders flying on ridges are exempt, provided they create no risk or nuisance to persons or property on the surface.
 * **Forced landing training**: you may descend to **50 m** (the rule says “50 m (150 ft)”, although 50 m is about 164 ft), provided there is no risk or nuisance to persons or property on the surface, keeping 150 m from any person, vehicle or vessel on the surface and from any artificial obstacle, and meeting the conditions of the operator's safety study: that of your school or club.
 
-![Minimum safe heights. Note: in the ridge-soaring panel the glider should be on the windward slope, where the air rises, not on the lee side.](imagenes/01-cap05-alturas-minimas.jpg){#fig-01-cap05-alturas-minimas}
+![Minimum safe heights. *(FIX: in the ridge-soaring panel the glider must be on the windward slope, where the air rises, not on the lee side; and the 300 m over the city are measured from the highest obstacle, not from a low rooftop.)*](imagenes/01-cap05-alturas-minimas.jpg){#fig-01-cap05-alturas-minimas .corregir}
 
 ::: {.callout-tip title="Golden rule"}
 **When converging: balloon > glider > airship > powered.**

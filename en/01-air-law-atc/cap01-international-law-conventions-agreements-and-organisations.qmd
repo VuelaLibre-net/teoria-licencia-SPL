@@ -1,6 +1,6 @@
 ---
 origen: 01-derecho-aereo-atc/cap01-derecho-internacional-convenios-acuerdos-y-organizaciones.qmd
-origen-commit: 84c93d3
+origen-commit: 490af41
 ---
 
 # International law: conventions, agreements and organisations
@@ -26,7 +26,7 @@ ICAO sets the minimum standards its 193 member States must meet. It is not a “
 
 To make international air transport possible, the Chicago Convention laid the foundations of the **freedoms of the air** (see @fig-01-cap01-chicago-freedoms): agreements that allow the aircraft of one State to enter or overfly the airspace of another. The Chicago conference defined the first five in agreements annexed to the Convention (overflight, technical stops and the basic commercial rights), but air law has kept evolving and nine are recognised today.
 
-![The freedoms of the air under the Chicago Convention. In the fifth freedom, the country in blue is, as in all the others, the aircraft's home country, even though the drawing labels it “foreign country A”.](imagenes/01-cap01-libertades-chicago.jpg){#fig-01-cap01-chicago-freedoms}
+![The freedoms of the air under the Chicago Convention. *(FIX: in the fifth freedom, the country in blue is, as in all the others, the aircraft's home country, even though the drawing labels it “foreign country A”.)*](imagenes/01-cap01-libertades-chicago.jpg){#fig-01-cap01-chicago-freedoms .corregir}
 
 ## The authority in Europe: EASA and the common system
 
@@ -59,7 +59,7 @@ These are documents that help you comply with the law without being law themselv
 * **GM** (**Guidance Material**): explanations, interpretations and examples to help you understand the requirements. It does not oblige; it helps.
 * **CS** (**Certification Specifications**): technical standards for certifying aircraft and products. The one that matters to us is CS-22, for sailplanes.
 
-![EASA regulatory structure: binding rules vs non-binding standards. CS are certification specifications for aircraft and products, not means of complying with the regulations.](imagenes/01-cap01-estructura-normativa-easa.jpg){#fig-01-cap01-hard-soft-law}
+![EASA regulatory structure: binding rules vs non-binding standards. *(FIX: the drawing presents CS as means of compliance; they are certification specifications for aircraft and products.)*](imagenes/01-cap01-estructura-normativa-easa.jpg){#fig-01-cap01-hard-soft-law .corregir}
 
 ::: {.callout-tip title="Golden rule"}
 * **Binding rules (Regulations)** = **WHAT** you must comply with (mandatory).
