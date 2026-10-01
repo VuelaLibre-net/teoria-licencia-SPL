@@ -31,7 +31,7 @@ La **Clase 2** sólo es obligatoria si vuelas un planeador en operaciones comerc
 Si tu salud cambia (operación, enfermedad grave, embarazo, ingreso hospitalario, medicación habitual, o necesitas lentes correctoras por primera vez), tu certificado médico puede quedar en suspenso (MED.A.020). Consulta siempre con un Médico Examinador Aéreo (AME) antes de volver a volar.
 :::
 
-![Validez de certificados médicos según edad. El dibujo no recoge las reglas de los 42 y los 51 años que explica el texto, y en la Clase 2 los 60 meses llegan hasta los 40 años.](imagenes/01-cap04-validez-medical.jpg){#fig-01-cap04-medical-validity}
+![Validez de certificados médicos según edad. *(CORREGIR: faltan las reglas de los 42 y los 51 años que explica el texto, y en la Clase 2 los 60 meses llegan hasta los 40 años.)*](imagenes/01-cap04-validez-medical.jpg){#fig-01-cap04-medical-validity .corregir}
 
 ## Experiencia reciente: la regla de los 24 meses
 
@@ -50,7 +50,7 @@ No pierdes la licencia; tus privilegios quedan "dormidos". Para despertarlos tie
 * **5** horas, **15** lanzamientos, **2** vuelos con instructor. (En los últimos 2 años).
 :::
 
-![Diagrama de flujo: ¿Puedo volar hoy?](imagenes/01-cap04-recencia-requisitos.jpg){#fig-01-cap04-recencia-flow}
+![Diagrama de flujo: ¿Puedo volar hoy? *(CORREGIR: falta la recencia por método de lanzamiento (SFCL.155): 5 lanzamientos en 24 meses con cada método, o 2 con cable elástico.)*](imagenes/01-cap04-recencia-requisitos.jpg){#fig-01-cap04-recencia-flow .corregir}
 
 ### Además, por cada método de lanzamiento
 

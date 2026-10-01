@@ -32,8 +32,9 @@ capítulos:
 * **Glosario** (*Autoridad de investigación de accidentes*, *AFIS*, *FIZ*, *PIB* y *SUP*, nuevas;
   *CAVOK*, *CIAIAC*, *DETRESFA*, *ELT* y *RSC*), **Bibliografía** y **licencia** de los
   preliminares.
-* Tres figuras se retiran hasta rehacerse (regla semicircular, flujo de notificación y escala de
-  infracciones), y cinco llevan en el pie un aviso de su error.
+* Las 21 figuras que hay que rehacer llevan encima la marca «EN REVISIÓN» y, al final del pie,
+  *(CORREGIR: …)* con lo que está mal; entre ellas vuelven las tres que se habían retirado (regla
+  semicircular, flujo de notificación y escala de infracciones).
 
 ### Corregido
 
@@ -305,12 +306,17 @@ capítulos:
   24 meses (2 con cable elástico). Apartado nuevo, viñeta en el post-it y tarjeta nueva
   `recencia-por-metodo-de-lanzamiento`.
 
-### Retirado
+### Cambiado
 
-* **cap06, cap13 y cap14, tres figuras** — la de la regla semicircular repartía los niveles
-  Este-Oeste, al revés que la regla española; la del flujo de notificación daba por voluntario todo
-  lo que no fuera accidente o incidente grave; y la escala de infracciones contradecía la LSA y el
-  propio texto. Quedan comentadas en el `.qmd` hasta que se rehagan.
+* **Figuras por rehacer: marca «EN REVISIÓN» y nota en el pie** — las 21 figuras en las que la
+  auditoría encontró algún error llevan encima, en diagonal, la marca «EN REVISIÓN», en el PDF, el
+  EPUB y la web, y su pie termina con *(CORREGIR: …)*, que dice qué está mal. La nota no sale en el
+  índice de ilustraciones. Los avisos que ya llevaban algunos pies pasan a este formato. Las tres
+  figuras que se habían retirado vuelven así marcadas: la de la regla semicircular, que reparte los
+  niveles Este-Oeste, al revés que la regla española; la del flujo de notificación, que da por
+  voluntario todo lo que no sea accidente o incidente grave; y la escala de infracciones, que las
+  clasifica por tipo de conducta y no por sus consecuencias, como la LSA. Al sustituir cada figura
+  se quitan la marca y la nota.
 
 ## [1.0-rc.14] — 7 de agosto de 2026
 

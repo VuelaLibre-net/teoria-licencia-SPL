@@ -817,8 +817,14 @@
         [
           // Las figuras sin pie no salen en la lista
           #show figure.where(caption: none): set figure(outlined: false)
+          // El estado `indice-figuras` sólo vale true mientras se compone esta
+          // lista: el filtro figura-corregir.lua lo consulta para dejar fuera
+          // del índice la nota «(CORREGIR: …)» del pie (Quarto no pasa a
+          // Typst los pies cortos, fig-scap).
           #if figuras.len() > 0 {
+            state("indice-figuras", false).update(true)
             my-outline-sec(list-of-figure-title, figure.where(kind: "quarto-float-fig"), font-size * 0.95)
+            state("indice-figuras", false).update(false)
           }
           #if tablas.len() > 0 {
             my-outline-sec(list-of-table-title, figure.where(kind: "quarto-float-tbl"), font-size * 0.95)

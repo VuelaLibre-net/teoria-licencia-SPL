@@ -21,7 +21,7 @@ La OACI fija los estándares mínimos que sus 193 estados miembros deben cumplir
 
 Para que el transporte aéreo internacional fuera posible, el Convenio de Chicago sentó las bases de las **libertades del aire** (ver @fig-01-cap01-chicago-freedoms): acuerdos que dan a las aeronaves de un Estado permiso para entrar en el espacio aéreo de otro o sobrevolarlo. La conferencia de Chicago definió las cinco primeras en acuerdos anejos al Convenio (el sobrevuelo, la escala técnica y los derechos comerciales básicos), pero el derecho aéreo ha seguido evolucionando y hoy se reconocen nueve.
 
-![Las libertades del aire según el Convenio de Chicago. En la quinta libertad, el país en azul es, como en las demás, el de origen de la aeronave, aunque el dibujo lo rotule «país extranjero A».](imagenes/01-cap01-libertades-chicago.jpg){#fig-01-cap01-chicago-freedoms}
+![Las libertades del aire según el Convenio de Chicago. *(CORREGIR: en la quinta libertad, el país en azul es, como en las demás, el de origen de la aeronave, aunque el dibujo lo rotule «país extranjero A».)*](imagenes/01-cap01-libertades-chicago.jpg){#fig-01-cap01-chicago-freedoms .corregir}
 
 ## La autoridad en Europa: EASA y el sistema común
 
@@ -54,7 +54,7 @@ Son documentos que ayudan a cumplir la ley sin ser ley en sí mismos. Que no te 
 * **GM** (**Guidance Material**, Material Guía): explicaciones, interpretaciones y ejemplos para entender los requisitos. No obliga; ayuda.
 * **CS** (**Certification Specifications**): estándares técnicos para certificar aeronaves y productos. El que nos toca es el CS-22, el de planeadores.
 
-![Estructura normativa EASA: normativa vinculante vs estándares no vinculantes. Las CS son especificaciones de certificación de aeronaves y productos, no medios de cumplimiento de los reglamentos.](imagenes/01-cap01-estructura-normativa-easa.jpg){#fig-01-cap01-hard-soft-law}
+![Estructura normativa EASA: normativa vinculante vs estándares no vinculantes. *(CORREGIR: el dibujo presenta las CS como medios de cumplimiento; son especificaciones de certificación de aeronaves y productos.)*](imagenes/01-cap01-estructura-normativa-easa.jpg){#fig-01-cap01-hard-soft-law .corregir}
 
 ::: {.callout-tip title="Regla de oro"}
 * **Normativa vinculante (Reglamentos)** = **QUÉ** debes cumplir (obligatorio).

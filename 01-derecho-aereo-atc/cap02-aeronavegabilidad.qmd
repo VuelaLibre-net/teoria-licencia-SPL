@@ -22,7 +22,7 @@ El **Certificado de Aeronavegabilidad** (CofA) es el documento que emite la auto
 
 El CofA de las aeronaves EASA tiene validez **ilimitada**: no caduca, siempre que la aeronave siga cumpliendo su diseño de tipo y su mantenimiento de la aeronavegabilidad, conserve la misma matrícula, no se haya anulado su certificado de tipo y nadie haya revocado el CofA ni renunciado a él (21.A.181, @fig-01-cap02-cofa-example). Eso sí, para ser válido debe ir siempre acompañado de un ARC en vigor. Sin ARC, el CofA es papel mojado.
 
-![Ejemplo de Certificado de Aeronavegabilidad EASA (formulario 25). El modelo cita el Reglamento (CE) 216/2008, hoy sustituido por el Reglamento (UE) 2018/1139, y es de un avión, no de un planeador.](imagenes/01-cap02-certificado-aeronavegabilidad.jpg){#fig-01-cap02-cofa-example}
+![Ejemplo de Certificado de Aeronavegabilidad EASA (formulario 25). *(CORREGIR: el modelo cita el Reglamento (CE) 216/2008, hoy sustituido por el Reglamento (UE) 2018/1139, y es de un avión, no de un planeador.)*](imagenes/01-cap02-certificado-aeronavegabilidad.jpg){#fig-01-cap02-cofa-example .corregir}
 
 ## La "ITV" anual: certificado de revisión de aeronavegabilidad (ARC)
 
@@ -34,7 +34,7 @@ Su validez es de **un año**, así que toca renovarlo o prorrogarlo anualmente. 
 Nunca vueles si el ARC está caducado. Es ilegal y, lo más importante, significa que nadie ha certificado oficialmente que el avión es seguro para volar en el último año. Además, tu aseguradora puede negarse a cubrirte o repetir contra ti si ocurre algo: muchas pólizas condicionan la cobertura a que la aeronave sea aeronavegable. Lee la tuya.
 :::
 
-![Ciclo de vida del ARC y sus prórrogas. Con la segunda prórroga, el ARC vale hasta cumplirse el tercer año: el último tramo del dibujo, rotulado como caducado, es en realidad válido.](imagenes/01-cap02-ciclo-arc.jpg){#fig-01-cap02-arc-process}
+![Ciclo de vida del ARC y sus prórrogas. *(CORREGIR: con la segunda prórroga, el ARC vale hasta cumplirse el tercer año: el último tramo, rotulado como caducado, es válido.)*](imagenes/01-cap02-ciclo-arc.jpg){#fig-01-cap02-arc-process .corregir}
 
 ## Mantenimiento de planeadores: Part-ML
 

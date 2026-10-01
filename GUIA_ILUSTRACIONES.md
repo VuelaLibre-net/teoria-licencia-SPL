@@ -201,6 +201,23 @@ renombra con sus referencias, no por higiene. El caso raro es
 `03-cap03-indices-estabilidad.jpg`, cuyo ID dice `cap10`; ése sí conviene revisarlo
 porque induce a error al buscar la figura.
 
+### Figuras que hay que corregir
+
+Una figura publicada con un error no se retira mientras se rehace: se marca. Lleva la
+clase `.corregir` y, al final del pie y en cursiva, qué está mal:
+
+```markdown
+![Alturas mínimas de seguridad. *(CORREGIR: en la viñeta del vuelo de ladera, el planeador debe estar a barlovento.)*](imagenes/01-cap05-alturas-minimas.jpg){#fig-01-cap05-alturas-minimas .corregir}
+```
+
+El filtro `_extensions/orange-book-es/figura-corregir.lua` superpone a la imagen la marca
+diagonal «EN REVISIÓN» («IN REVIEW» en la edición inglesa) en el PDF, el EPUB y la web, y
+deja la nota fuera del índice de ilustraciones. En la edición inglesa la nota es
+*(FIX: …)*. El filtro se activa en el `_quarto.yml` de cada libro que tenga figuras
+marcadas, con `filters:` (`path: _extensions/orange-book-es/figura-corregir.lua`,
+`at: post-quarto`); sin esa línea, la clase no hace nada. Al sustituir la figura se
+quitan la clase y la nota.
+
 Las 143 figuras actuales se insertan **sin `width` ni `fig-align`** y se maquetan bien
 con el valor por omisión. Una figura nueva no los añade salvo que su composición lo
 pida; si los lleva, se usa `width` relativo (`70%`, `90%` o `100%`) y

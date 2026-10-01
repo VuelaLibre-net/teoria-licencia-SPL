@@ -49,9 +49,7 @@ Las multas para un particular van del apercibimiento o de 60 € hasta 45.000 �
 
 Y hay conductas que no son sólo una infracción administrativa: emprender el vuelo bajo los efectos del alcohol o las drogas es un **delito** (Ley 209/1964, Penal y Procesal de la Navegación Aérea, art. 31).
 
-<!-- RETIRADA hasta rehacerla (auditoría del libro 01, NOR-06: la figura clasificaba las infracciones por tipo de conducta, como si fuera un catálogo de la LSA, y se contradecía con el texto). Ver recursos/auditorias/seguimiento-libro-01.md.
-![Escala de infracciones aeronáuticas](imagenes/01-cap14-escala-infracciones.jpg){#fig-01-cap14-infracciones}
--->
+![Escala de infracciones aeronáuticas. *(CORREGIR: la LSA no clasifica las infracciones por tipo de conducta, como hace el dibujo, sino por lo que provocan (art. 44): la misma conducta es leve, grave o muy grave según sus consecuencias.)*](imagenes/01-cap14-escala-infracciones.jpg){#fig-01-cap14-infracciones .corregir}
 
 ::: {.callout-warning title="Seguridad"}
 Las sanciones económicas pueden ser **muy elevadas**, incluso para pilotos privados. Volar sin licencia o sin seguro puede costarte miles de euros y, si acaba en un incidente grave o un accidente, la suspensión o la revocación de tu licencia; volar bajo los efectos del alcohol, además, es delito. El desconocimiento de la ley **NO** te exime de su cumplimiento.

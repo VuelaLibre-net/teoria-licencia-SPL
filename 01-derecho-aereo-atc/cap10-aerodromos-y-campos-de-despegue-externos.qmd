@@ -24,11 +24,11 @@ Para ordenar el tráfico, todos volamos un rectángulo imaginario alrededor de l
 2. **Tramo base**: viras 90º hacia la pista y haces el último ajuste de altura y velocidad. Referencia habitual para iniciarlo: unos 150 m (es un criterio de instrucción, no un mínimo legal; ver el Libro 6, capítulo 4).
 3. **Final**: enfilado a pista, con frenos fuera.
 
-![Circuito de tránsito estándar (virajes a la izquierda). El dibujo usa un avión, pero el circuito es el mismo para el planeador; el texto explica los tramos que importan.](imagenes/01-cap10-circuito-transito.jpg){#fig-01-cap10-circuito-transito}
+![Circuito de tránsito estándar (virajes a la izquierda). *(CORREGIR: el dibujo usa un bimotor en lugar de un planeador e introduce el IP y el «tramo de entrada», que el texto no explica.)*](imagenes/01-cap10-circuito-transito.jpg){#fig-01-cap10-circuito-transito .corregir}
 
 ## El área de señales
 
-![Manga de viento. Los 3 nudos por franja son una referencia orientativa, no una norma; y algunas conversiones del dibujo están mal redondeadas (9 kt son unos 17 km/h y 4,6 m/s; 15 kt, unos 7,7 m/s).](imagenes/01-cap10-manga-viento.png){#fig-01-cap10-manga-viento}
+![Manga de viento. *(CORREGIR: los 3 nudos por franja son una referencia orientativa, no una norma; y algunas conversiones están mal redondeadas: 9 kt son unos 17 km/h y 4,6 m/s; 15 kt, unos 7,7 m/s.)*](imagenes/01-cap10-manga-viento.png){#fig-01-cap10-manga-viento .corregir}
 
 Si no tienes radio (o te falla), el suelo te habla. Las **señales luminosas** que la torre puede dirigirte con lámpara se estudian en el **Libro 4 — Comunicaciones**, capítulo 5 (fallo de comunicaciones); las del suelo las tienes aquí. En el **área de señales**, un cuadrado bordeado de blanco cerca de la torre o la pista, encontrarás símbolos vitales (@fig-01-cap10-area-senales):
 
@@ -47,7 +47,7 @@ Si no tienes radio (o te falla), el suelo te habla. Las **señales luminosas** q
 | **Letra C** | (Negra sobre fondo amarillo). Oficina de notificación de los servicios de tránsito aéreo. |
 : Señales visuales de aeródromo (SERA, apéndice 1, 3.2)
 
-![El lenguaje del suelo: Área de señales. Ojo: la mancuerna no exige pistas pavimentadas, sino usar sólo pistas y calles de rodaje; y la cruz roja prohíbe aterrizar, sin que el aeródromo tenga por qué estar cerrado.](imagenes/01-cap10-senales-aerodromo.png){#fig-01-cap10-area-senales}
+![El lenguaje del suelo: Área de señales. *(CORREGIR: la mancuerna no exige pistas pavimentadas, sino usar sólo pistas y calles de rodaje; y la cruz roja prohíbe aterrizar, sin que el aeródromo tenga por qué estar cerrado.)*](imagenes/01-cap10-senales-aerodromo.png){#fig-01-cap10-area-senales .corregir}
 
 ::: {.callout-tip title="Regla de oro"}
 Antes de despegar o al llegar a un campo nuevo, **busca siempre el área de señales**. Te dará información (pista en uso y sentido de giro) de un solo vistazo, incluso sin radio.

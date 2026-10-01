@@ -31,7 +31,7 @@ Según la normativa española (Orden FOM/1687/2015, que sigue el Anexo 7 de OACI
 
 Si el planeador es muy estilizado y no caben marcas de este tamaño, la autoridad puede aceptar dimensiones reducidas, siempre que sigan siendo legibles (@fig-01-cap03-matricula-ubicacion).
 
-![Ubicación de marcas de matrícula en un planeador. Ojo: en el ala, las marcas van en el intradós (la cara inferior), no en la superior como en el dibujo; y la marca de nacionalidad es EC, no la bandera.](imagenes/01-cap03-ubicacion-matricula.jpg){#fig-01-cap03-matricula-ubicacion}
+![Ubicación de marcas de matrícula en un planeador. *(CORREGIR: en el ala, las marcas van en el intradós (la cara inferior), no en la superior; la marca de nacionalidad es EC, no la bandera; y el distintivo de competición no son las letras del club u operador.)*](imagenes/01-cap03-ubicacion-matricula.jpg){#fig-01-cap03-matricula-ubicacion .corregir}
 
 ## La placa de identificación (Fireproof Plate)
 

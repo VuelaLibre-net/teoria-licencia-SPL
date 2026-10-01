@@ -18,7 +18,7 @@ En aviación no todo es un accidente. Hay matices legales que importan (@fig-01-
 2. **INCIDENTE GRAVE**: un suceso con alta probabilidad de haber acabado en accidente. El clásico "casi pasa".
 3. **INCIDENTE**: cualquier otro suceso que afecte o pueda afectar a la seguridad, sin llegar a lo anterior.
 
-![Pirámide de gravedad de sucesos, inspirada en Heinrich. Sus cifras son ilustrativas: Heinrich publicó la proporción de 1 lesión grave, 29 leves y 300 sucesos sin lesiones, que no son las categorías del Reglamento 996/2010.](imagenes/01-cap13-piramide-sucesos.jpg){#fig-01-cap13-piramide-sucesos}
+![Pirámide de gravedad de sucesos, inspirada en Heinrich. *(CORREGIR: sus cifras son ilustrativas: Heinrich publicó la proporción de 1 lesión grave, 29 leves y 300 sucesos sin lesiones, que no son las categorías del Reglamento 996/2010.)*](imagenes/01-cap13-piramide-sucesos.jpg){#fig-01-cap13-piramide-sucesos .corregir}
 
 ## El deber de notificar: sistema SNS
 
@@ -38,9 +38,7 @@ Los plazos no son iguales: a la autoridad de investigación, comunica el acciden
 La normativa europea promueve la "Cultura Justa". El objetivo de notificar **NO es buscar culpables** (salvo negligencia grave o dolo), sino **aprender**. No tengas miedo a reportar tus errores; es la única forma de que el sistema mejore.
 :::
 
-<!-- RETIRADA hasta rehacerla (auditoría del libro 01, NOR-05: la figura daba por voluntaria la notificación de cualquier suceso que no fuera accidente o incidente grave). Ver recursos/auditorias/seguimiento-libro-01.md.
-![Proceso de notificación de un suceso](imagenes/01-cap13-flujo-notificacion.jpg){#fig-01-cap13-flujo-notificacion}
--->
+![Proceso de notificación de un suceso. *(CORREGIR: no sólo los accidentes y los incidentes graves son de notificación obligatoria: también los sucesos de la lista del Reglamento de Ejecución (UE) 2015/1018, anexo V, sección 2, como una violación de espacio aéreo o una cuasicolisión.)*](imagenes/01-cap13-flujo-notificacion.jpg){#fig-01-cap13-flujo-notificacion .corregir}
 
 ::: {.callout-warning title="Seguridad"}
 Si sufres o presencias un accidente:

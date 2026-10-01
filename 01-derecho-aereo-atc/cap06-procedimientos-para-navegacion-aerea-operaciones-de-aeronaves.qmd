@@ -28,7 +28,7 @@ Ojo con una excepción que verás citada a menudo: SERA permite que, en espacio 
 
 Visibilidad de 5 km y distancia a nubes de 1.500 m en horizontal y 1.000 ft en vertical, estés en el espacio aéreo que estés. Y un dato para los días grandes de onda: por encima de FL 100, la visibilidad mínima sube a **8 km**.
 
-![Mínimos VMC (Visual Meteorological Conditions) para vuelo visual (VFR).](imagenes/01-cap06-minimos-vmc.jpg){#fig-01-cap06-vmc-minima}
+![Mínimos VMC (Visual Meteorological Conditions) para vuelo visual (VFR). *(CORREGIR: la franja inferior acaba en el mayor de los dos valores, 900 m AMSL o 300 m AGL.)*](imagenes/01-cap06-minimos-vmc.jpg){#fig-01-cap06-vmc-minima .corregir}
 
 ## Regla semicircular de niveles de crucero
 
@@ -43,9 +43,7 @@ Hacia el **N**orte → Niveles **P**ares.
 Hacia el **S**ur → Niveles **I**mpares.
 :::
 
-<!-- RETIRADA hasta rehacerla (auditoría del libro 01, COH-01: la figura reparte los niveles Este-Oeste, según el apéndice 3 de SERA, y no Norte-Sur como en España). Ver recursos/auditorias/seguimiento-libro-01.md.
-![Regla semicircular de niveles de crucero VFR (Norte-Sur)](imagenes/01-cap06-regla-semicircular.jpg){#fig-01-cap06-semicircular}
--->
+![Regla semicircular de niveles de crucero VFR. *(CORREGIR: el dibujo reparte los niveles Este-Oeste, como el apéndice 3 de SERA; en España rige la regla Norte-Sur: de 270° a 089°, pares + 500 ft; de 090° a 269°, impares + 500 ft.)*](imagenes/01-cap06-regla-semicircular.jpg){#fig-01-cap06-semicircular .corregir}
 
 ## Reglaje de altímetro: QNH, QFE y QNE
 

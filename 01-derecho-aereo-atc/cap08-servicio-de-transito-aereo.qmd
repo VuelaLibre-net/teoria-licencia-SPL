@@ -31,7 +31,7 @@ Se organiza en tres dependencias según la fase de vuelo (@fig-01-cap08-dependen
 
 En España, el ACC presta además el servicio de información de vuelo en ruta (en Canarias, fuera del espacio controlado, lo hace el centro de información de vuelo, FIC). Y en algunos aeródromos no controlados hay un **AFIS** (servicio de información de vuelo de aeródromo), con su zona de información de vuelo (**FIZ**): te da información y alerta, pero ni te autoriza ni te separa (AIP España, GEN 3.3).
 
-![Estructura de dependencias ATC. Ojo: el ACC no está en un aeropuerto, como sugiere el dibujo, y la torre controla también el circuito, no sólo el suelo.](imagenes/01-cap08-dependencias-atc.jpg){#fig-01-cap08-dependencias-atc}
+![Estructura de dependencias ATC. *(CORREGIR: el ACC no está en un aeropuerto, como sugiere el dibujo, y la torre controla también el circuito, no sólo el suelo.)*](imagenes/01-cap08-dependencias-atc.jpg){#fig-01-cap08-dependencias-atc .corregir}
 
 ## 2. Servicio de información de vuelo (FIS)
 
@@ -59,7 +59,7 @@ Tu seguro de vida. Se activa cuando hay una emergencia o se teme por la segurida
 
 Desde la primera fase, la dependencia de tránsito aéreo informa al centro coordinador de salvamento (RCC), que no espera a la alerta para empezar a trabajar (Reglamento de Ejecución (UE) 2017/373, ATS.TR.405).
 
-![Fases de emergencia del Servicio de Alerta. El centro coordinador de salvamento está informado desde la fase de incertidumbre, como explica el texto.](imagenes/01-cap08-fases-emergencia.jpg){#fig-01-cap08-fases-emergencia}
+![Fases de emergencia del Servicio de Alerta. *(CORREGIR: los medios de búsqueda y salvamento salen en DETRESFA, no en ALERFA; el centro coordinador de salvamento está informado desde la fase de incertidumbre; y en DETRESFA basta con un peligro grave e inminente o con necesitar asistencia inmediata, no hacen falta las dos cosas.)*](imagenes/01-cap08-fases-emergencia.jpg){#fig-01-cap08-fases-emergencia .corregir}
 
 ::: {.callout-warning title="Seguridad"}
 Si tienes una emergencia real y **NO** has presentado Plan de Vuelo ni estás en contacto radio, el Servicio de Alerta tardará mucho más en activarse (solo cuando tu familia avise de que no has vuelto). ¡Usa la radio y el Plan de Vuelo!

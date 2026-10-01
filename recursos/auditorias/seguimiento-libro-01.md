@@ -121,13 +121,44 @@ bibliografías, licencias y mazos), con su `origen-commit` al día. Las tres fig
 también en inglés. Los términos nuevos entran en `en/terminologia.yml` como `propuesta`, pendientes
 de revisión.
 
+## Figuras marcadas para corregir
+
+Desde el 1 de octubre de 2026, cada figura con un error lleva la clase `.corregir`, la marca
+«EN REVISIÓN» encima y, al final del pie, *(CORREGIR: …)* con lo que está mal; en inglés,
+«IN REVIEW» y *(FIX: …)*. Ver `GUIA_ILUSTRACIONES.md`. Al entregar la figura nueva se quitan la
+clase y la nota, y se anota aquí.
+
+| Capítulo | Figura | Hallazgo | Sustituida en |
+| --- | --- | --- | --- |
+| cap01 | `01-cap01-libertades-chicago` | PED-04 | |
+| cap01 | `01-cap01-estructura-normativa-easa` | PED-04 | |
+| cap02 | `01-cap02-certificado-aeronavegabilidad` | COH-07 | |
+| cap02 | `01-cap02-ciclo-arc` | COH-04 | |
+| cap03 | `01-cap03-ubicacion-matricula` | COH-06 | |
+| cap04 | `01-cap04-validez-medical` | PED-07 | |
+| cap04 | `01-cap04-recencia-requisitos` | SYL-01 | |
+| cap05 | `01-cap05-prioridades-paso` | COH-08 | |
+| cap05 | `01-cap05-alturas-minimas` | TEC-03, NOR-08 | |
+| cap06 | `01-cap06-minimos-vmc` | TEC-04 | |
+| cap06 | `01-cap06-regla-semicircular` | COH-01 | |
+| cap08 | `01-cap08-dependencias-atc` | PED-10 | |
+| cap08 | `01-cap08-fases-emergencia` | NOR-12, PED-10 | |
+| cap09 | `01-cap09-ejemplo-notam` | PED-11 | |
+| cap10 | `01-cap10-circuito-transito` | PED-12 | |
+| cap10 | `01-cap10-manga-viento` | TEC-14 | |
+| cap10 | `01-cap10-senales-aerodromo` | TEC-06 | |
+| cap12 | `01-cap12-safety-security` | PED-14 | |
+| cap13 | `01-cap13-piramide-sucesos` | TEC-15 | |
+| cap13 | `01-cap13-flujo-notificacion` | NOR-05 | |
+| cap14 | `01-cap14-escala-infracciones` | NOR-06 | |
+
 ## Figuras retiradas provisionalmente
 
 | Figura | Motivo | Retirada en | Repuesta en |
 | --- | --- | --- | --- |
-| `01-cap06-regla-semicircular` | COH-01 | fase 2 | |
-| `01-cap13-flujo-notificacion` | NOR-05 | fase 2 | |
-| `01-cap14-escala-infracciones` | NOR-06 | fase 2 | |
+| `01-cap06-regla-semicircular` | COH-01 | fase 2 | repuesta con la marca «EN REVISIÓN» (1 oct 2026) |
+| `01-cap13-flujo-notificacion` | NOR-05 | fase 2 | repuesta con la marca «EN REVISIÓN» (1 oct 2026) |
+| `01-cap14-escala-infracciones` | NOR-06 | fase 2 | repuesta con la marca «EN REVISIÓN» (1 oct 2026) |
 
 ## Preguntas abiertas
 

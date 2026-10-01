@@ -17,7 +17,7 @@ En español usamos "seguridad" para todo, pero en aviación conviven dos concept
 1. **Seguridad operacional** (**safety**): prevenir **accidentes** no intencionados. Que no se pare el motor, que no choques, que el mantenimiento esté bien hecho. Es "volar seguro".
 2. **Seguridad de la aviación** (**security**): protegerse contra **actos ilícitos** intencionados. Que no te roben el avión, que nadie ponga una bomba, evitar secuestros. Es protección física.
 
-![Diferencia entre Safety y Security. En aviación, la *safety* no es la seguridad laboral que sugiere el dibujo, sino la prevención de accidentes en vuelo y en tierra.](imagenes/01-cap12-safety-security.jpg){#fig-01-cap12-safety-vs-security}
+![Diferencia entre Safety y Security. *(CORREGIR: en aviación, la «safety» no es la seguridad laboral que sugiere el dibujo, sino la prevención de accidentes en vuelo y en tierra.)*](imagenes/01-cap12-safety-security.jpg){#fig-01-cap12-safety-vs-security .corregir}
 
 La *security* tiene sus propias normas. En el ámbito internacional, el **Anexo 17** de la OACI; en la Unión Europea, el **Reglamento (CE) 300/2008**, que fija las normas comunes, y el **Reglamento de Ejecución (UE) 2015/1998**, que las desarrolla; y en España, el **Programa Nacional de Seguridad para la Aviación Civil** que prevé la Ley de Seguridad Aérea (art. 3). Casi todas sus medidas se aplican en los aeropuertos con tráfico comercial: los controles de pasajeros y equipajes, los accesos y las **zonas restringidas**.
 
