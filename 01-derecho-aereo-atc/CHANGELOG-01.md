@@ -116,6 +116,14 @@ casi todas normativas:
 * **cap04 y su tarjeta Anki, pasajeros** — «el incumplimiento implica sanción y pérdida de
   cobertura del seguro» salía de un recuadro de Normativa sin que SFCL.115 diga nada de eso. Pasa
   fuera del recuadro y con el matiz de la póliza.
+* **cap05, post-it y tarjeta Anki, altura mínima fuera de zonas pobladas** — SERA.5005 f) 2) no
+  pide sólo 150 m sobre tierra o agua: también 150 m sobre el obstáculo más alto en un radio de
+  150 m. Sin eso, volar a 150 m junto a una antena de 100 m parecía legal.
+* **cap05, post-it y tarjeta Anki, aterrizajes forzosos** — faltaban dos condiciones del art. 33.1 b)
+  del Real Decreto 1180/2018: que no haya riesgo ni molestias para personas o bienes, y el estudio
+  de seguridad del operador. Se avisa además de que «50 m (150 ft)» es la cifra de la norma, aunque
+  50 m son unos 164 ft (hallazgo H1 de la auditoría de julio). El pie de la figura de alturas
+  mínimas advierte de que su viñeta de ladera pone el planeador a sotavento, hasta que se rehaga.
 
 ### Añadido
 

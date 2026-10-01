@@ -61,16 +61,16 @@ Ojo: esta jerarquía sólo decide en convergencia. De frente y en alcance no cue
 Para proteger a las personas y bienes en tierra, SERA.5005 establece alturas mínimas. Salvo para despegar o aterrizar, no puedes volar por debajo de:
 
 1. **300 m** sobre el obstáculo más alto en un radio de 600 m, cuando sobrevuelas aglomeraciones (ciudades, pueblos, gente reunida).
-2. **150 m** sobre tierra o agua, en campo abierto.
+2. **150 m** sobre tierra o agua, o sobre el obstáculo más alto en un radio de 150 m, en cualquier otra parte (@fig-01-cap05-alturas-minimas).
 
 ### Excepciones para el vuelo a vela
 
 SERA.5005 f) admite excepciones «con permiso de la autoridad competente», y su AMC1 encarga precisamente a esa autoridad fijar las alturas mínimas del vuelo de ladera y de las prácticas de aterrizaje forzoso. En España las fija el **artículo 33 del Real Decreto 1180/2018** (que derogó el Real Decreto 552/2014), que permite volar por debajo de lo establecido en SERA.5005 f) 2) —los 150 m de campo abierto, no los 300 m de zona poblada— en dos casos que nos afectan:
 
 * **Vuelo de ladera**: los planeadores que efectúan vuelos en laderas quedan exceptuados, siempre que no entrañen ningún riesgo ni molestias a las personas o bienes en la superficie.
-* **Entrenamiento de aterrizajes forzosos**: se puede bajar hasta **50 m (150 ft)**, manteniendo 150 m respecto de cualquier persona, vehículo o embarcación que se encuentre en la superficie y de todo obstáculo artificial (@fig-01-cap05-alturas-minimas).
+* **Entrenamiento de aterrizajes forzosos**: se puede bajar hasta **50 m** (la norma dice «50 m (150 ft)», aunque 50 m son unos 164 ft), siempre que no haya riesgo ni molestias para las personas o bienes en la superficie, manteniendo 150 m respecto de cualquier persona, vehículo o embarcación que se encuentre en la superficie y de todo obstáculo artificial, y cumpliendo las condiciones del estudio de seguridad del operador: el de tu escuela o club.
 
-![Alturas mínimas de seguridad](imagenes/01-cap05-alturas-minimas.jpg){#fig-01-cap05-alturas-minimas}
+![Alturas mínimas de seguridad. Ojo: en la viñeta del vuelo de ladera, el planeador debería estar en la ladera de barlovento, donde el aire sube, y no a sotavento.](imagenes/01-cap05-alturas-minimas.jpg){#fig-01-cap05-alturas-minimas}
 
 ::: {.callout-tip title="Regla de oro"}
 **En convergencia: globo > planeador > dirigible > motor.**
@@ -85,5 +85,5 @@ El reglamento **SERA** es el código de circulación del cielo:
 
 * **VFR**: volamos viendo y siendo vistos. Ojos fuera.
 * **Prioridad de paso**: en convergencia, globos > planeadores > motor (cede quien más maniobra tiene) y, entre iguales, paso para el que viene por la derecha. De frente, ambos a la derecha; quien alcanza se aparta, sea cual sea su categoría. En aterrizaje, el velero más bajo manda, y los planeadores tienen preferencia sobre los aviones a motor. En ladera, prioridad para quien lleva la montaña a su derecha: es convención del vuelo a vela, no regla de SERA.
-* **Alturas mínimas (SERA.5005 f)**: 150 m en general, 300 m sobre zonas pobladas. En España, el Real Decreto 1180/2018 (art. 33) exceptúa de los 150 m a los planeadores en ladera, siempre que no entrañen riesgo ni molestias a personas o bienes, y permite bajar hasta 50 m entrenando aterrizajes forzosos, a 150 m de cualquier persona, vehículo o embarcación y de todo obstáculo artificial.
+* **Alturas mínimas (SERA.5005 f)**: 150 m sobre el terreno o el obstáculo más alto en un radio de 150 m; 300 m sobre zonas pobladas. En España, el Real Decreto 1180/2018 (art. 33) exceptúa de los 150 m a los planeadores en ladera, siempre que no entrañen riesgo ni molestias a personas o bienes, y permite bajar hasta 50 m entrenando aterrizajes forzosos, a 150 m de cualquier persona, vehículo o embarcación y de todo obstáculo artificial, y con el estudio de seguridad del operador.
 :::
