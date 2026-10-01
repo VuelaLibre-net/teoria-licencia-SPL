@@ -220,6 +220,9 @@ casi todas normativas:
 * **Glosario, CAVOK** — faltaban tres condiciones: la altitud mínima de sector más alta cuando
   supera los 5.000 ft, los torrecúmulos a cualquier altura y que no se notifique la visibilidad
   mínima (Reglamento de Ejecución (UE) 2017/373). Los libros 03 y 04 ya lo decían bien.
+* **Licencia (preliminares)** — el syllabus se atribuía a «EASA-FCL»; el AMC1 SFCL.130 pertenece a
+  la Part-SFCL. Hallazgo NOR-19 de la auditoría del libro 01; el rótulo «Validación por AESA» se
+  mantiene.
 
 ### Añadido
 

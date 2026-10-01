@@ -45,42 +45,42 @@ no se toca: es el registro de lo que se encontró. Aquí se anota qué se ha hec
 
 | ID | Hallazgo | Fase | Estado | Commit | Nota |
 | --- | --- | --- | --- | --- | --- |
-| COH-02 | Remisiones al libro 04 | 3 / 4 | pendiente | | |
-| NOR-08 | SERA.5005 f) 2): obstáculo más alto | 3 | pendiente | | |
-| NOR-09 | Aterrizajes forzosos: condiciones y 164 ft | 3 | pendiente | | |
-| TEC-03 | Figura de alturas mínimas (sotavento) | 3 | pendiente | | Figura |
-| TEC-04 | VMC: «de ambos valores el mayor» | 3 | pendiente | | |
-| NOR-10 | AMC1 SAO.OP.150 como obligación | 3 / 4 | pendiente | | |
-| NOR-11 | SAO.IDE.105 b) | 3 | pendiente | | |
-| TEC-05 | Zonas R y D | 3 | pendiente | | |
-| NOR-12 | Fases de emergencia (ATS.TR.405) | 3 | pendiente | | |
-| SYL-02 | AFIS | 3 | pendiente | | |
-| SYL-03 | SUP y PIB | 3 | pendiente | | |
-| TEC-06 | Mancuerna | 3 | pendiente | | |
-| SYL-04 | Señales de SERA, apéndice 1, 3.2 | 3 | pendiente | | |
-| NOR-13 | Campos externos: base normativa | 3 | pendiente | | Consentimiento del propietario: experto |
-| COH-03 | Base a 150 m | 3 | pendiente | | FI(S) |
-| PED-01 | cap10: apertura y post-it | 3 | pendiente | | |
-| TEC-07 | Cobertura del ARCC de Palma | 3 | pendiente | | |
-| SYL-05 | ELT/PLB | 3 | pendiente | | |
-| COH-04 | Figura del ARC | 3 | pendiente | | Figura |
-| TEC-08 | Defectos: ML.A.403 | 3 | pendiente | | |
-| NOR-14 | Seguro como consecuencia automática | 3 / 4 | pendiente | | Corredor o jurista |
-| COH-05 | Marcas bajo el ala | 3 | pendiente | | |
-| COH-06 | Figura de ubicación de la matrícula | 3 | pendiente | | Figura |
-| NOR-15 | Orden FOM/1687/2015, RD 1029/2025, bandera | 1 / 3 | parcial | | fase 1: matrícula de tres o cuatro letras (RD 1029/2025) y cita de la Orden FOM/1687/2015; falta la bandera (fase 3) |
-| TEC-09 | TMG como atribución directa | 3 | pendiente | | |
-| PED-02 | Clase 2 prometida | 3 | pendiente | | |
-| NOR-16 | SAO.GEN.150, mercancías peligrosas | 3 | pendiente | | Ejemplos: AESA o EASA |
-| PED-03 | Artículos prohibidos frente a mercancías peligrosas | 3 | pendiente | | |
-| SYL-06 | Marco normativo de la *security* | 3 | pendiente | | |
-| TEC-10 | Incidente grave en el resumen | 3 | pendiente | | |
+| COH-02 | Remisiones al libro 04 | 3 / 4 | aplicado | | fase 3: cap06, cap07, cap08 y cap10; queda 06/cap01 (fase 4) |
+| NOR-08 | SERA.5005 f) 2): obstáculo más alto | 3 | aplicado | | fase 3 |
+| NOR-09 | Aterrizajes forzosos: condiciones y 164 ft | 3 | aplicado | | fase 3 |
+| TEC-03 | Figura de alturas mínimas (sotavento) | 3 | figura | | fase 3: pie de figura con aviso; la figura queda por rehacer |
+| TEC-04 | VMC: «de ambos valores el mayor» | 3 | aplicado | | fase 3: libros 01 y 03, Anki y banco |
+| NOR-10 | AMC1 SAO.OP.150 como obligación | 3 / 4 | parcial | | fase 3: libro 01; quedan 02/cap04 y 08/cap14 (fase 4) |
+| NOR-11 | SAO.IDE.105 b) | 3 | aplicado | | fase 3 |
+| TEC-05 | Zonas R y D | 3 | aplicado | | fase 3 |
+| NOR-12 | Fases de emergencia (ATS.TR.405) | 3 | aplicado | | fase 3: cap08, cap11, glosario y Anki |
+| SYL-02 | AFIS | 3 | aplicado | | fase 3: cap08 y glosario (AFIS, FIZ) |
+| SYL-03 | SUP y PIB | 3 | aplicado | | fase 3: cap09, glosario (SUP, PIB) y Anki |
+| TEC-06 | Mancuerna | 3 | aplicado | | fase 3; la figura sigue con el error, avisado en el pie |
+| SYL-04 | Señales de SERA, apéndice 1, 3.2 | 3 | aplicado | | fase 3 |
+| NOR-13 | Campos externos: base normativa | 3 | parcial | | fase 3: Part-SAO, RD 1189/2011 y SERA.4020; el consentimiento del propietario y el despegue tras una toma fuera de campo, pendientes de experto |
+| COH-03 | Base a 150 m | 3 | parcial | | fase 3: rotulado como criterio de instrucción; falta que lo valide un FI(S) |
+| PED-01 | cap10: apertura y post-it | 3 | aplicado | | fase 3 |
+| TEC-07 | Cobertura del ARCC de Palma | 3 | aplicado | | fase 3 |
+| SYL-05 | ELT/PLB | 3 | aplicado | | fase 3: apartado, post-it, glosario y Anki |
+| COH-04 | Figura del ARC | 3 | figura | | fase 3: pie de figura con aviso |
+| TEC-08 | Defectos: ML.A.403 | 3 | aplicado | | fase 3 |
+| NOR-14 | Seguro como consecuencia automática | 3 / 4 | parcial | | fase 3: libro 01 y Anki; queda 08/cap08 (fase 4); redacción pendiente de corredor o jurista |
+| COH-05 | Marcas bajo el ala | 3 | aplicado | | fase 3: post-it, Anki y banco |
+| COH-06 | Figura de ubicación de la matrícula | 3 | figura | | fase 3: pie de figura con aviso |
+| NOR-15 | Orden FOM/1687/2015, RD 1029/2025, bandera | 1 / 3 | aplicado | | fases 1 y 3 |
+| TEC-09 | TMG como atribución directa | 3 | aplicado | | fase 3: texto y tarjeta nueva; la edición inglesa, en la fase 6 |
+| PED-02 | Clase 2 prometida | 3 | aplicado | | fase 3 |
+| NOR-16 | SAO.GEN.150, mercancías peligrosas | 3 | parcial | | fase 3: texto, Anki y banco; los artículos concretos de la excepción, pendientes de AESA o EASA |
+| PED-03 | Artículos prohibidos frente a mercancías peligrosas | 3 | aplicado | | fase 3 |
+| SYL-06 | Marco normativo de la *security* | 3 | aplicado | | fase 3 |
+| TEC-10 | Incidente grave en el resumen | 3 | aplicado | | fase 3: post-it, Anki y banco |
 | NOR-17 | Inhabilitación | 2 | aplicado | | fase 2, con NOR-06; banco c14-q03 reescrito |
-| SYL-07 | Derecho nacional | 3 | pendiente | | |
-| TEC-11 | CAVOK | 3 / 4 | pendiente | | |
+| SYL-07 | Derecho nacional | 3 | aplicado | | fase 3 |
+| TEC-11 | CAVOK | 3 / 4 | parcial | | fase 3: glosario del 01; quedan los del 03 y el 04 (fase 4) |
 | TEC-12 | La CIAIAC en el glosario | 1 | aplicado | | fase 1, con NOR-04 |
-| NOR-18 | Bibliografía | 3 | pendiente | | |
-| NOR-19 | Rótulo «Validación por AESA» | 3 | pendiente | | Ramón confirma el rótulo |
+| NOR-18 | Bibliografía | 3 | aplicado | | fase 3: las 9 bibliografías |
+| NOR-19 | Rótulo «Validación por AESA» | 3 | parcial | | fase 3: «Part-SFCL» en las 9 licencias; Ramón decide mantener el rótulo «Validación por AESA». Falta conservar el respaldo documental de AESA |
 
 ## Bajas
 
@@ -89,7 +89,7 @@ no se toca: es el registro de lo que se encontró. Aquí se anota qué se ha hec
 | TEC-13 | 5 | pendiente | | |
 | PED-04 | 5 | pendiente | | |
 | COH-07 | 5 | pendiente | | Figura |
-| PED-05 | 5 / 4 | pendiente | | |
+| PED-05 | 5 / 4 | parcial | | fase 3: «entorno controlado» en cap02; quedan los otros puntos (fase 5) y 08/cap09 (fase 4) |
 | PED-06 | 5 | pendiente | | |
 | SYL-08 | 5 | pendiente | | |
 | PED-07 | 5 | pendiente | | Figura |
@@ -102,16 +102,16 @@ no se toca: es el registro de lo que se encontró. Aquí se anota qué se ha hec
 | NOR-22 | 5 | pendiente | | |
 | PED-10 | 5 | pendiente | | Figura |
 | PED-11 | 5 | pendiente | | |
-| TEC-14 | 5 | pendiente | | Figura de la manga |
+| TEC-14 | 5 | parcial | | fase 3: la T, la cruz y la diagonal; la manga y su figura, pendientes |
 | PED-12 | 5 | pendiente | | Figura |
-| NOR-23 | 5 | pendiente | | |
+| NOR-23 | 5 | aplicado | | fase 3, con TEC-07 |
 | PED-13 | 5 | pendiente | | 2,5 m: Anexo 12 |
-| COH-10 | 5 | pendiente | | |
+| COH-10 | 5 | aplicado | | fase 3, con SYL-06 |
 | PED-14 | 5 | pendiente | | Figura |
 | PED-15 | 5 | pendiente | | |
 | PED-16 | 5 | pendiente | | |
 | TEC-15 | 5 | pendiente | | Figura |
-| NOR-24 | 5 | pendiente | | |
+| NOR-24 | 5 | aplicado | | fase 3: glosario y 9 bibliografías |
 
 ## Figuras retiradas provisionalmente
 
