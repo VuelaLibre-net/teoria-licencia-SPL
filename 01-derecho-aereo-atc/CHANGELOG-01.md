@@ -241,6 +241,17 @@ capítulos:
   mantenimiento, misma matrícula, certificado de tipo no anulado y CofA no revocado ni objeto de
   renuncia. La Part-ML es el «Anexo V ter» en la versión española, no el «Anexo Vb». El pie de la
   figura del CofA avisa de que el modelo cita un reglamento derogado y es de un avión.
+* **cap03, placa de identificación** — el texto fundía dos placas: la de matrícula, de material
+  incombustible y con la marca de nacionalidad y matrícula (Orden FOM/1687/2015, art. 5), y la del
+  fabricante, ignífuga, con nombre, modelo y número de serie (21.A.801). Se distinguen, y se aclara
+  que la foto es de una placa de fabricante.
+* **cap04, atribuciones de la SPL** — faltaban las condiciones para volar con remuneración o en
+  operaciones comerciales (18 años y 75 h o 200 lanzamientos tras la licencia, SFCL.115 a) 3)) y la
+  remuneración de instructores y examinadores (SFCL.115 b)).
+* **cap04 y tarjeta Anki, cambios de salud y recencia** — «nuevas gafas» pasa a «necesitar lentes
+  correctoras por primera vez», y se añaden la medicación habitual y el ingreso hospitalario
+  (MED.A.020). En la regla de oro, «15 despegues» pasa a «15 lanzamientos», como dice SFCL.160. El
+  pie de la figura de validez del médico avisa de lo que el dibujo no recoge.
 
 ### Añadido
 

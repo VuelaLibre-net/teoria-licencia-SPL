@@ -35,9 +35,12 @@ Si el planeador es muy estilizado y no caben marcas de este tamaño, la autorida
 
 ## La placa de identificación (Fireproof Plate)
 
-Además de la pintura, tu planeador necesita una identidad "indestructible": una **placa de identificación** de **material ignífugo** (acero inoxidable, titanio…​) fijada a la estructura, normalmente cerca de la entrada de la cabina, de forma que sea legible.
+Además de la pintura, tu planeador necesita una identidad "indestructible". En realidad son dos placas, que a veces se combinan en una:
 
-En ella van grabados la marca de nacionalidad, la matrícula y los datos de fabricante, modelo y número de serie (@fig-01-cap03-placa-ignifuga). Su razón de ser es sombría pero importante: si hay un accidente con fuego, la placa debe sobrevivir para que la aeronave pueda identificarse.
+* La **placa de identificación de la matrícula**, de metal u otro material **incombustible**, con al menos la marca de nacionalidad y la de matrícula, fijada en un lugar visible cerca de la entrada principal (Orden FOM/1687/2015, art. 5).
+* La **placa del fabricante**, **ignífuga**, con su nombre, la designación del modelo y el número de serie (Reglamento (UE) 748/2012, 21.A.801).
+
+La de la figura es una placa de fabricante con un hueco para la matrícula (@fig-01-cap03-placa-ignifuga). Su razón de ser es sombría pero importante: si hay un accidente con fuego, la placa debe sobrevivir para que la aeronave pueda identificarse.
 
 ::: {.callout-warning title="Seguridad"}
 Nunca pintes encima de la placa de identificación ni la cubras. Su función es vital en caso de investigación de accidentes. Si restauras el planeador, asegúrate de que la placa sigue ahí y es legible.

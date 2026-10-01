@@ -15,7 +15,7 @@
 
 Para volar un planeador legalmente en Europa necesitas una licencia **SPL** (**Sailplane Pilot Licence**), regulada por la Part-SFCL del Reglamento (UE) 2018/1976 (actualizado por el 2020/358).
 
-Puedes obtenerla a los 16 años, aunque ya a los 14 puedes volar solo como alumno. Te da derecho a actuar como piloto al mando (PIC) en planeadores, incluidos los planeadores con motor, y en teoría es **vitalicia**: el papel no caduca. Los **motoveleros de turismo (TMG)** son otra cosa: si hiciste la prueba de pericia en un planeador, para volarlos necesitas extender las atribuciones con formación y una prueba de pericia en TMG (SFCL.150), y su recencia es distinta: en los últimos 24 meses, 12 horas que incluyan, en TMG, 6 horas, 12 despegues y aterrizajes y un vuelo de entrenamiento de 1 hora con instructor (SFCL.160 b)).
+Puedes obtenerla a los 16 años, aunque ya a los 14 puedes volar solo como alumno. Te da derecho a actuar como piloto al mando (PIC) en planeadores, incluidos los planeadores con motor, sin remuneración y en operaciones no comerciales, y en teoría es **vitalicia**: el papel no caduca. Para volar con remuneración o en operaciones comerciales necesitas además tener 18 años y, tras obtener la licencia, 75 horas de vuelo o 200 lanzamientos como PIC (SFCL.115 a) 3)); y los instructores y examinadores pueden cobrar por instruir o examinar (SFCL.115 b)). Los **motoveleros de turismo (TMG)** son otra cosa: si hiciste la prueba de pericia en un planeador, para volarlos necesitas extender las atribuciones con formación y una prueba de pericia en TMG (SFCL.150), y su recencia es distinta: en los últimos 24 meses, 12 horas que incluyan, en TMG, 6 horas, 12 despegues y aterrizajes y un vuelo de entrenamiento de 1 hora con instructor (SFCL.160 b)).
 
 Pero que el papel no caduque no significa que puedas volar siempre. Para ejercer tus privilegios debes cumplir dos condiciones **sine qua non**: tener un **certificado médico válido** y cumplir los requisitos de **experiencia reciente**.
 
@@ -28,10 +28,10 @@ Vale tanto un certificado **Clase 2** como un **LAPL** (**Light Aircraft Pilot L
 La **Clase 2** sólo es obligatoria si vuelas un planeador en operaciones comerciales (MED.A.030 c) 4)). Su validez es de 60 meses hasta los 40 años (con la misma regla de los 42), 24 meses entre los 40 y los 50 (un certificado expedido antes de los 50 deja de valer a los 51) y 12 meses a partir de los 50 (MED.A.045).
 
 ::: {.callout-warning title="Seguridad"}
-Si tu salud cambia (operación, enfermedad grave, embarazo, nuevas gafas), tu certificado médico puede quedar en suspenso. Consulta siempre con un Médico Examinador Aéreo (AME) antes de volver a volar.
+Si tu salud cambia (operación, enfermedad grave, embarazo, ingreso hospitalario, medicación habitual, o necesitas lentes correctoras por primera vez), tu certificado médico puede quedar en suspenso (MED.A.020). Consulta siempre con un Médico Examinador Aéreo (AME) antes de volver a volar.
 :::
 
-![Validez de certificados médicos según edad](imagenes/01-cap04-validez-medical.jpg){#fig-01-cap04-medical-validity}
+![Validez de certificados médicos según edad. El dibujo no recoge las reglas de los 42 y los 51 años que explica el texto, y en la Clase 2 los 60 meses llegan hasta los 40 años.](imagenes/01-cap04-validez-medical.jpg){#fig-01-cap04-medical-validity}
 
 ## Experiencia reciente: la regla de los 24 meses
 
@@ -47,7 +47,7 @@ No pierdes la licencia; tus privilegios quedan "dormidos". Para despertarlos tie
 
 ::: {.callout-tip title="Regla de oro"}
 * **5 , 15 , 2**
-* **5** horas, **15** despegues, **2** vuelos con instructor. (En los últimos 2 años).
+* **5** horas, **15** lanzamientos, **2** vuelos con instructor. (En los últimos 2 años).
 :::
 
 ![Diagrama de flujo: ¿Puedo volar hoy?](imagenes/01-cap04-recencia-requisitos.jpg){#fig-01-cap04-recencia-flow}
