@@ -58,15 +58,15 @@ Never use the factor of safety as a “manoeuvring margin”. That 1.5 is there 
 
 ## Fatigue and service life
 
-Glass and carbon fibre are very durable, but they do not last for ever. Over the years and the flying hours, repeated stresses and landings end up producing fine cracks or delamination.
+Glass and carbon fibre last well, but not for ever. Years of flying, repeated stresses and landings eventually produce fine cracks or delamination.
 
-That is why manufacturers set out service-life inspection programmes. Composite aircraft commonly undergo in-depth structural inspections at 3,000, 6,000 and 9,000 flying hours to confirm that the structure is still safe.
+So manufacturers lay down service-life inspection programmes. Composite aircraft commonly undergo in-depth structural inspections at 3,000, 6,000 and 9,000 flying hours to confirm that the structure is still safe.
 
 ## Flutter: the deadly vibration
 
-**Flutter** is a self-excited vibration that appears when aerodynamic forces interact uncontrollably with the elasticity of the wing or the control surfaces. It is an extremely violent phenomenon, able to tear an aircraft apart in seconds.
+**Flutter** is a self-excited vibration that appears when aerodynamic forces interact uncontrollably with the elasticity of the wing or the control surfaces. It is extremely violent and can tear an aircraft apart in seconds.
 
-It is directly related to speed. V~NE~ (never-exceed speed) is certified with a safety margin below the speed at which flutter appears. But that margin is not a blank cheque. A sailplane with play in the controls, with mass balances wrongly set after a repair, or with water trapped in the control surfaces can flutter even below V~NE~. That is why control surface balance is checked after any repair or repaint.
+It is closely tied to speed. V~NE~ (never-exceed speed) is certified with a safety margin below the speed at which flutter appears. But that margin is not a blank cheque. A sailplane with play in the controls, with mass balances wrongly set after a repair, or with water trapped in the control surfaces can flutter even below V~NE~. That is why control surface balance is checked after any repair or repaint.
 
 ![The V-n diagram or flight envelope](imagenes/08-cap02-diagrama-vn.jpg){#fig-08-cap02-diagrama-vn}
 

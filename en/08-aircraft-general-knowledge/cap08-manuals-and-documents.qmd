@@ -54,7 +54,7 @@ The European rules for sailplane operations distinguish between what must be car
 
 ## Checklists
 
-Human memory fails, above all under stress or when distracted. Using checklists systematically is what separates a serious pilot from a casual one.
+Human memory fails, above all under stress or when distracted. A serious pilot uses checklists every time; a casual one trusts memory.
 
 There are several kinds of check:
 
@@ -68,7 +68,7 @@ Do not recite the checklist from memory. Read each item, physically check the co
 
 ## Aircraft logbook and maintenance
 
-Every flying hour and every landing is recorded in the **Aircraft Logbook**. It is what allows the inspections in the maintenance programme to be tracked, and it is the sailplane's medical history. Do not take off if the aircraft has an open defect that affects safety, or if the hours or the date for the next scheduled inspection have already run out.
+Every flying hour and every landing is recorded in the **Aircraft Logbook**. It is how the inspections in the maintenance programme are tracked, and it is the sailplane's medical history. Do not take off if the aircraft has an open defect that affects safety, or if the hours or the date for the next scheduled inspection have already run out.
 
 ![The sailplane's mandatory documents and on-board folder](imagenes/08-cap08-documentos-bordo.jpg){#fig-08-cap08-documentos-bordo}
 

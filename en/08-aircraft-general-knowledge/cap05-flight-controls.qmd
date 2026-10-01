@@ -16,10 +16,10 @@ origen-commit: 2375434
 > * **The primary controls**: ailerons, elevator and rudder, and how movement is transmitted (push-rods and cables).
 > * **The airbrakes**: the blue lever and its effect on the glide path.
 > * **Flaps**: positive and negative settings on performance sailplanes.
-> * **The trim**: spring or tab, and why it is your best friend.
+> * **The trim**: spring or tab, and why it saves you so much work.
 > * **The full and free, correct-sense control check** before every take-off.
 
-A sailplane is flown with your fingertips. That precision in the controls is what lets you centre a narrow thermal or nail an approach. And understanding how your movement travels from the cockpit to the control surfaces is what lets you catch any fault before take-off.
+You fly a sailplane with your fingertips. Precise controls let you centre a narrow thermal or nail an approach. And if you understand how your movement travels from the cockpit to the control surfaces, you can catch a fault before take-off.
 
 ## The primary controls
 
@@ -27,7 +27,7 @@ They control the sailplane about its three axes:
 
 * **Ailerons**: control roll (longitudinal axis). They move asymmetrically (one up, the other down) to bank the sailplane.
 * **Elevator**: controls pitch (lateral axis). When you pull back on the stick, the elevator goes up, the tail goes down and the nose rises.
-* **Rudder**: controls yaw (normal axis) through the pedals. It is essential for coordinating turns and countering the adverse yaw from the ailerons.
+* **Rudder**: controls yaw (normal axis) through the pedals. You need it to coordinate turns and to counter the adverse yaw from the ailerons.
 
 Most modern sailplanes use rigid push-rods for the elevator and ailerons, because they are precise and free of play, while the rudder is usually worked by high-strength steel cables.
 
@@ -52,7 +52,7 @@ On competition sailplanes and performance two-seaters, flaps change the camber o
 
 ## The trim
 
-The green lever, or the electric button that takes the load off the stick, is your best friend. The trim does not “fly” the aircraft: it relieves the pressure you would otherwise have to hold on the elevator to keep a given speed.
+The green lever, or the electric button that takes the load off the stick, saves you a lot of work. The trim does not “fly” the aircraft: it relieves the pressure you would otherwise have to hold on the elevator to keep a given speed.
 
 * **Spring trim**: the most common; springs “hold” the stick in the chosen position.
 * **Trim tab**: a small surface on the trailing edge of the elevator that moves the opposite way.
@@ -60,7 +60,7 @@ The green lever, or the electric button that takes the load off the stick, is yo
 ![The trim](imagenes/08-cap05-8-5-3-2-el-compensador-trim-tab-en-ingle.png){#fig-08-cap05-8-5-3-2-el-compensador-trim-tab-en-ingle width="50%"}
 
 ::: {.callout-note title="Airmanship"}
-The cockpit controls follow a colour code that is **not a custom but a certification requirement**: CS 22.780 sets it, and CS 22.1555 requires the controls to be marked according to it. **Blue** for the airbrakes, **green** for the trim, **yellow** for the tow cable release and **red** for the canopy jettison (white is for normal canopy opening, and if a single handle does both, red takes precedence). The standard also **reserves** those two colours: no other control in the cockpit may be yellow or red, which is why your eye can trust them. Find them in every sailplane before you fly.
+The cockpit controls follow a colour code. It is **a certification requirement, not a custom**: CS 22.780 sets it, and CS 22.1555 requires the controls to be marked according to it. **Blue** for the airbrakes, **green** for the trim, **yellow** for the tow cable release and **red** for the canopy jettison (white is for normal canopy opening, and if a single handle does both, red takes precedence). The standard also **reserves** those two colours: no other control in the cockpit may be yellow or red, which is why your eye can trust them. Find them in every sailplane before you fly.
 :::
 
 ::: {.callout-warning title="Safety"}

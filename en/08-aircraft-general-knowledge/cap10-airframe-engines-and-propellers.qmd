@@ -5,7 +5,7 @@ origen-commit: 97aa75e
 
 # Airframe, engines and propellers
 
-> The engine has given gliding a safety net against outlandings, and in exchange it has added new failure modes that the pilot has to master.
+> The engine has given gliding a safety net against outlandings. It has also brought new ways for things to go wrong, and the pilot has to master them.
 >
 >
 > In this chapter you will learn:
@@ -17,7 +17,7 @@ origen-commit: 97aa75e
 > * **The retractable pylon and propellers** that fold or park in position, and blade pitch.
 > * **Managing the engine in flight**: starting sequence, decision heights and instruments.
 
-The engine has changed gliding: it has broken the total dependence on external launch methods and has provided a safety net against outlandings. In exchange, it adds mechanical complexity and new responsibilities for the pilot.
+The engine has changed gliding: it has broken the total dependence on external launch methods and has provided a safety net against outlandings. The price is mechanical complexity and new responsibilities for the pilot.
 
 ## Turbo or self-launcher
 
@@ -66,7 +66,7 @@ By blade pitch, the propeller can be *fixed pitch*, where the blade angle does n
 
 ## Managing and operating the engine
 
-Handling a sailplane's engine demands discipline. The starting sequence (extension, opening the doors, switching on the fuel pump, starting) must be perfectly memorised.
+A sailplane's engine needs disciplined handling. The starting sequence (extension, opening the doors, switching on the fuel pump, starting) must be perfectly memorised.
 
 ::: {.callout-warning title="Safety"}
 With the engine extended, the glide ratio drops sharply because of the drag of the pylon. If the engine does not start once it is out, you must be high enough to make the emergency landing with the engine extended, or to retract it in time. Always choose your field before trying to start: the engine is plan B, never plan A.
