@@ -180,6 +180,16 @@ casi todas normativas:
 * **cap10, tramo base** — «altura mínima de inicio: 150 m» parecía un límite legal; es una
   referencia de instrucción, como dice el libro 6.
 * **cap10, remisión a las señales luminosas** — están en el capítulo 5 del libro 4, no en el 7.
+* **cap11, centros coordinadores de salvamento** — el de Palma no cubre sólo «el Mediterráneo y
+  Baleares»: su región coincide con la FIR Barcelona, que incluye el nordeste peninsular y el
+  Levante, más Andorra (AIP GEN 3.6). Quien vuela en Cataluña o Valencia depende de Palma. Se usa el
+  nombre del AIP (ARCC), se actualiza el del Ejército del Aire y del Espacio y se retira la mención a
+  los subcentros (RSC), que el AIP no publica; el glosario lo aclara en su entrada.
+* **cap11, Glosario y tarjeta Anki, balizas** — la figura del capítulo empieza por la baliza ELT y
+  el satélite, pero el texto no las explicaba. Apartado nuevo: 406 MHz para la detección por
+  satélite (Cospas-Sarsat), 121,5 MHz para la localización final, el registro de la baliza y lo
+  que pide Part-SAO sobre zonas de SAR difícil (SAO.IDE.125 y su AMC1). Viñeta en el post-it y
+  tarjeta nueva `balizas-elt-plb`.
 
 ### Añadido
 

@@ -135,7 +135,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes del marco n
 : Tiempo que se estima necesario para llegar desde un punto de referencia a otro durante un vuelo.
 
 **ELT (Transmisor Localizador de Emergencia / Emergency Locator Transmitter)**
-: Baliza de aeronave destinada a transmitir una señal de emergencia y facilitar su localización.
+: Baliza de aeronave destinada a transmitir una señal de emergencia y facilitar su localización. Emite en 406 MHz, la frecuencia que detectan los satélites Cospas-Sarsat, y en 121,5 MHz, que sirve para la localización final con radiogoniómetro.
 
 **EOBT (Hora estimada fuera de calzos / Estimated Off-Block Time)**
 : Hora prevista en la que la aeronave iniciará el movimiento asociado a la salida.
@@ -240,7 +240,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes del marco n
 : Espacio aéreo de dimensiones definidas en el que es obligatorio llevar y utilizar equipo de radio conforme a los requisitos publicados.
 
 **RSC (Subcentro de Salvamento / Rescue Sub-Centre)**
-: Dependencia subordinada a un RCC que coordina operaciones de búsqueda y salvamento en una parte de su región.
+: Dependencia subordinada a un RCC que coordina operaciones de búsqueda y salvamento en una parte de su región. El AIP España no publica ninguno: sólo los tres ARCC de Madrid, Palma y Canarias.
 
 **SAR (Búsqueda y salvamento / Search and Rescue)**
 : Organización y operaciones destinadas a localizar y auxiliar aeronaves y personas en peligro.
