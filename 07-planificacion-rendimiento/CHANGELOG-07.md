@@ -25,6 +25,13 @@ rompe la compilación.
   transposición; y el RD 552/2014 está derogado desde el 11 de noviembre de 2018 por el Real Decreto
   1180/2018, que es quien lo desarrolla hoy. Se corrige la entrada y se añade una para el RD
   1180/2018. Hallazgo NOR-02 de la auditoría del libro 01.
+* **Bibliografía, normas citadas** — la bibliografía no recogía buena parte de las normas que
+  citan los capítulos. Se añade una lista de normas consolidadas con su enlace (Reglamentos
+  2018/1139, 1178/2011, 1321/2014, 2017/373, 2150/2005, 996/2010, 376/2014, 2015/1018, 300/2008,
+  2015/1998 y 785/2004; Leyes 48/1960, 209/1964 y 2/2024; Reales Decretos 184/2008, 1088/2020,
+  1189/2011 y 1029/2025; Orden FOM/1687/2015), el enlace consolidado de la Ley 21/2003 y los anexos
+  17 y 18 entre los más relevantes. El 2018/1976 se cita como Reglamento de Ejecución. Hallazgo
+  NOR-18 de la auditoría del libro 01.
 
 ### Maqueta y producción
 

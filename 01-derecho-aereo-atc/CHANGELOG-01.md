@@ -210,6 +210,16 @@ casi todas normativas:
 * **cap14, el derecho nacional** — el capítulo se reducía a la Ley de Seguridad Aérea. Se añade un
   mapa breve: la Ley 48/1960 de Navegación Aérea, la Ley 209/1964 Penal y Procesal, el Real Decreto
   1180/2018, el Real Decreto 1088/2020 de notificación de sucesos y la Ley 2/2024.
+* **Bibliografía, normas citadas** — la bibliografía no recogía buena parte de las normas que
+  citan los capítulos. Se añade una lista de normas consolidadas con su enlace (Reglamentos
+  2018/1139, 1178/2011, 1321/2014, 2017/373, 2150/2005, 996/2010, 376/2014, 2015/1018, 300/2008,
+  2015/1998 y 785/2004; Leyes 48/1960, 209/1964 y 2/2024; Reales Decretos 184/2008, 1088/2020,
+  1189/2011 y 1029/2025; Orden FOM/1687/2015), el enlace consolidado de la Ley 21/2003 y los anexos
+  17 y 18 entre los más relevantes. El 2018/1976 se cita como Reglamento de Ejecución. Hallazgo
+  NOR-18 de la auditoría del libro 01.
+* **Glosario, CAVOK** — faltaban tres condiciones: la altitud mínima de sector más alta cuando
+  supera los 5.000 ft, los torrecúmulos a cualquier altura y que no se notifique la visibilidad
+  mínima (Reglamento de Ejecución (UE) 2017/373). Los libros 03 y 04 ya lo decían bien.
 
 ### Añadido
 

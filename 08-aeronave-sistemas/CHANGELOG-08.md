@@ -32,6 +32,13 @@ rompe la compilación.
 * **cap09, Programa Mínimo de Inspección (ML.A.302), y su tarjeta Anki** — el suelo «anual o cada 100 h, lo que antes se cumpla» se aplicaba a todos los planeadores. El MIP de Part-ML exige a los planeadores y planeadores motorizados una inspección anual, sin límite de horas; el de 100 h sólo se añade en el motovelero de turismo (TMG). Se corrige en el texto, el post-it y la tarjeta.
 * **Epígrafe** — la cita atribuida a Saint-Exupéry («La máquina no es el fin, es el instrumento. El fin es el ser humano liberado por ella.») no aparece así en *Tierra de hombres*: su segunda frase no tiene fuente. Se sustituye por una frase documentada de la misma obra (1939), la de la máquina que no aparta al hombre de los grandes problemas de la naturaleza.
 * **cap04, entradilla y objetivos del capítulo** — el término inglés *ballast* acompaña al primer «lastre» y a la viñeta «La gestión del lastre (ballast)». Propuesto en el issue #44.
+* **Bibliografía, normas citadas** — la bibliografía no recogía buena parte de las normas que
+  citan los capítulos. Se añade una lista de normas consolidadas con su enlace (Reglamentos
+  2018/1139, 1178/2011, 1321/2014, 2017/373, 2150/2005, 996/2010, 376/2014, 2015/1018, 300/2008,
+  2015/1998 y 785/2004; Leyes 48/1960, 209/1964 y 2/2024; Reales Decretos 184/2008, 1088/2020,
+  1189/2011 y 1029/2025; Orden FOM/1687/2015), el enlace consolidado de la Ley 21/2003 y los anexos
+  17 y 18 entre los más relevantes. El 2018/1976 se cita como Reglamento de Ejecución. Hallazgo
+  NOR-18 de la auditoría del libro 01.
 
 ## [0.9.6] — 23 de septiembre de 2026
 

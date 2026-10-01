@@ -8,7 +8,7 @@ Apuntes de teoría de **Iñaqui Ulibarri García de la Cueva** para la Organizac
 
 **Normativa y reglamentación**
 
-* **Easy Access Rules for Sailplanes**. Agencia de la Unión Europea para la Seguridad Aérea (EASA). Compendio consolidado del Reglamento (UE) 2018/1976 —que contiene la **Part-SFCL** (licencias) y la **Part-SAO** (operaciones)— junto con sus AMC y GM.
+* **Easy Access Rules for Sailplanes**. Agencia de la Unión Europea para la Seguridad Aérea (EASA). Compendio consolidado del Reglamento de Ejecución (UE) 2018/1976 —que contiene la **Part-SFCL** (licencias) y la **Part-SAO** (operaciones)— junto con sus AMC y GM.
   [https://www.easa.europa.eu/sites/default/files/dfu/Sailplane%20Rule%20Book.pdf](https://www.easa.europa.eu/sites/default/files/dfu/Sailplane%20Rule%20Book.pdf)
 * **CS-22 Amendment 3 — Sailplanes and Powered Sailplanes**. EASA, 2021; fichero corregido en 2022. Especificaciones de certificación empleadas para comprobar la salida de emergencia, los ganchos de lanzamiento y el efecto de la temperatura sobre la resistencia estructural.
   [https://www.easa.europa.eu/en/document-library/certification-specifications/cs-22-amendment-3](https://www.easa.europa.eu/en/document-library/certification-specifications/cs-22-amendment-3)
@@ -16,11 +16,31 @@ Apuntes de teoría de **Iñaqui Ulibarri García de la Cueva** para la Organizac
   [https://eur-lex.europa.eu/legal-content/ES/TXT/PDF/?uri=CELEX:02012R0923-20250501](https://eur-lex.europa.eu/legal-content/ES/TXT/PDF/?uri=CELEX:02012R0923-20250501)
 * **Real Decreto 1180/2018, de 21 de septiembre**, por el que se desarrolla el Reglamento del aire y disposiciones operativas comunes para los servicios y procedimientos de navegación aérea. Publicado en el BOE núm. 272, de 10 de noviembre de 2018. Desarrolla SERA en España —niveles de crucero, alturas mínimas, visibilidad— y derogó el Real Decreto 552/2014.
   [https://www.boe.es/buscar/act.php?id=BOE-A-2018-15406](https://www.boe.es/buscar/act.php?id=BOE-A-2018-15406)
-* **Ley 21/2003, de 7 de julio, de Seguridad Aérea**. Jefatura del Estado (España). Publicada en el BOE núm. 162, de 8 de julio de 2003. Marco legal nacional que complementa la normativa europea.
+* **Ley 21/2003, de 7 de julio, de Seguridad Aérea**. Jefatura del Estado (España). Publicada en el BOE núm. 162, de 8 de julio de 2003. Marco legal nacional que complementa la normativa europea: competencias, inspección, infracciones y sanciones (versión consolidada).
+  [https://www.boe.es/eli/es/l/2003/07/07/21/con](https://www.boe.es/eli/es/l/2003/07/07/21/con)
+
+Otras normas citadas en la colección (versiones consolidadas):
+
+* **Reglamento (UE) 2018/1139**, normas comunes de aviación civil y creación de EASA. [CELEX 02018R1139](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32018R1139)
+* **Reglamento (UE) n.º 1178/2011**, tripulaciones de vuelo; su anexo IV es la **Part-MED** (certificados médicos). [CELEX 32011R1178](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32011R1178)
+* **Reglamento (UE) n.º 1321/2014**, aeronavegabilidad continuada; su anexo V ter es la **Part-ML**. [CELEX 32014R1321](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32014R1321)
+* **Reglamento de Ejecución (UE) 2017/373**, proveedores de servicios de navegación aérea (servicios de tránsito aéreo, información aeronáutica y meteorología). [CELEX 32017R0373](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32017R0373)
+* **Reglamento (CE) n.º 2150/2005**, uso flexible del espacio aéreo. [CELEX 32005R2150](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32005R2150)
+* **Reglamento (UE) n.º 996/2010**, investigación y prevención de accidentes e incidentes en la aviación civil. [CELEX 32010R0996](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32010R0996)
+* **Reglamento (UE) n.º 376/2014**, notificación de sucesos, y **Reglamento de Ejecución (UE) 2015/1018**, lista de sucesos de notificación obligatoria. [CELEX 32014R0376](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32014R0376) · [CELEX 32015R1018](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32015R1018)
+* **Reglamento (CE) n.º 300/2008**, normas comunes de seguridad de la aviación civil (*security*), y **Reglamento de Ejecución (UE) 2015/1998**, que las desarrolla. [CELEX 32008R0300](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32008R0300) · [CELEX 32015R1998](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32015R1998)
+* **Reglamento (CE) n.º 785/2004**, requisitos de seguro de las compañías aéreas y operadores de aeronaves. [CELEX 32004R0785](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32004R0785)
+* **Ley 48/1960, de 21 de julio, sobre Navegación Aérea**. [BOE-A-1960-10905](https://www.boe.es/buscar/act.php?id=BOE-A-1960-10905)
+* **Ley 209/1964, de 24 de diciembre, Penal y Procesal de la Navegación Aérea**. [BOE-A-1964-21509](https://www.boe.es/buscar/act.php?id=BOE-A-1964-21509)
+* **Ley 2/2024, de 1 de agosto**, de creación de la Autoridad Administrativa Independiente para la Investigación Técnica de Accidentes e Incidentes ferroviarios, marítimos y de aviación civil. [BOE-A-2024-15937](https://www.boe.es/buscar/act.php?id=BOE-A-2024-15937)
+* **Real Decreto 184/2008**, Estatuto de la Agencia Estatal de Seguridad Aérea. [BOE-A-2008-2595](https://www.boe.es/buscar/act.php?id=BOE-A-2008-2595)
+* **Real Decreto 1088/2020**, régimen de notificación de sucesos de la aviación civil. [BOE-A-2020-15874](https://www.boe.es/buscar/act.php?id=BOE-A-2020-15874)
+* **Real Decreto 1189/2011**, aeródromos de uso restringido y aeródromos eventuales. [BOE-A-2011-14118](https://www.boe.es/buscar/act.php?id=BOE-A-2011-14118)
+* **Real Decreto 1029/2025**, matriculación de aeronaves civiles, y **Orden FOM/1687/2015**, marcas de nacionalidad y matrícula. [BOE-A-2025-22950](https://www.boe.es/buscar/act.php?id=BOE-A-2025-22950) · [BOE-A-2015-8940](https://www.boe.es/buscar/act.php?id=BOE-A-2015-8940)
 
 **Anexos al Convenio de Chicago (OACI)**
 
-La OACI desarrolla las normas y métodos recomendados (SARPS) mediante 19 anexos al Convenio sobre Aviación Civil Internacional. Los más relevantes para el piloto de planeador son los anexos 1, 2, 7, 8, 11, 12, 13, 14 y 15.
+La OACI desarrolla las normas y métodos recomendados (SARPS) mediante 19 anexos al Convenio sobre Aviación Civil Internacional. Los más relevantes para el piloto de planeador son los anexos 1, 2, 7, 8, 11, 12, 13, 14 y 15, y los anexos 17 (seguridad frente a actos ilícitos) y 18 (mercancías peligrosas).
 
 * Anexo 1 — Licencias al personal
 * Anexo 2 — Reglamento del aire

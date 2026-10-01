@@ -33,6 +33,13 @@ rompe la compilación.
 * **cap06, mínimos VFR en clase G** — la franja baja es «3.000 ft AMSL o 1.000 ft sobre el
   terreno, el mayor de los dos valores», como dice SERA.5001; faltaba el criterio. Hallazgo TEC-04
   de la auditoría del libro 01.
+* **Bibliografía, normas citadas** — la bibliografía no recogía buena parte de las normas que
+  citan los capítulos. Se añade una lista de normas consolidadas con su enlace (Reglamentos
+  2018/1139, 1178/2011, 1321/2014, 2017/373, 2150/2005, 996/2010, 376/2014, 2015/1018, 300/2008,
+  2015/1998 y 785/2004; Leyes 48/1960, 209/1964 y 2/2024; Reales Decretos 184/2008, 1088/2020,
+  1189/2011 y 1029/2025; Orden FOM/1687/2015), el enlace consolidado de la Ley 21/2003 y los anexos
+  17 y 18 entre los más relevantes. El 2018/1976 se cita como Reglamento de Ejecución. Hallazgo
+  NOR-18 de la auditoría del libro 01.
 
 ## [1.0-rc.16] — 16 de agosto de 2026
 
