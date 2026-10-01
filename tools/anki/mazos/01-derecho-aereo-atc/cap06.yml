@@ -20,7 +20,7 @@ tarjetas:
 
   - id: minimos-vmc-baja-cota
     tipo: basica
-    anverso: ¿Qué mínimos rigen por debajo de 3.000 ft AMSL (o 1.000 ft AGL) en espacio no controlado?
+    anverso: ¿Qué mínimos rigen por debajo de 3.000 ft AMSL (o 1.000 ft AGL, si es mayor) en espacio no controlado?
     reverso: |
       **5 km, libre de nubes y con el suelo a la vista.**
 

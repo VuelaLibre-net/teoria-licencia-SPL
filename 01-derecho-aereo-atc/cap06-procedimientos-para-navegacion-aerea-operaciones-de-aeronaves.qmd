@@ -17,7 +17,7 @@ Para volar visual (VFR) necesitas unas condiciones meteorológicas mínimas (**V
 
 ### Por debajo de 3.000 ft AMSL (o 1.000 ft AGL)
 
-Es la zona donde solemos movernos los planeadores, y los mínimos dependen del espacio aéreo en que estés:
+El límite de esta franja es el **mayor** de los dos valores: 3.000 ft sobre el nivel del mar o 1.000 ft sobre el terreno. Sobre la meseta, con el suelo a unos 2.600 ft, la franja llega hasta unos 3.600 ft AMSL. Es la zona donde solemos movernos los planeadores, y los mínimos dependen del espacio aéreo en que estés:
 
 * **Espacio aéreo controlado (Clases B, C, D, E)**: visibilidad de 5 km y distancia a nubes de 1.500 m en horizontal y 1.000 ft en vertical.
 * **Espacio aéreo no controlado (Clases F, G)**: visibilidad de 5 km, libre de nubes y a la vista de la superficie.
@@ -71,10 +71,10 @@ Por debajo de la **Altitud de Transición** (6.000 ft en la mayor parte de Espa�
 A medida que subes hay menos oxígeno, y la hipoxia es un enemigo silencioso: te sientes eufórico, pierdes juicio y te desmayas sin previo aviso. Por eso la norma dice dos cosas:
 
 1. El piloto al mando debe asegurar que todos los ocupantes usen oxígeno suplementario siempre que determine que su falta puede afectar a sus facultades.
-2. Si el piloto no puede determinar ese efecto, según EASA el oxígeno **deberá** usarse siempre por encima de los **10.000 ft**.
+2. Si el piloto no puede determinar ese efecto, el medio aceptable de cumplimiento de EASA (AMC) es que todos lo usen por encima de los **10.000 ft**.
 
 ::: {.callout-important title="Normativa"}
-**AMC1 SAO.OP.150:** El piloto al mando debe asegurarse de que todos los ocupantes utilicen oxígeno suplementario siempre que la altitud de presión sea superior a los **10.000 ft**, en los casos en que no pueda determinar cómo la falta de oxígeno puede afectar a las personas a bordo.
+**SAO.OP.150** obliga al piloto al mando a garantizar el uso de oxígeno cuando determine que su falta puede afectar a las facultades de los ocupantes. Su **AMC1** añade el medio aceptable de cumplimiento: cuando no pueda determinarlo, **debería** asegurarse de que todos lo usen siempre que la altitud de presión supere los **10.000 ft**. Un AMC no es vinculante como el reglamento, pero apartarse de él exige demostrar que se cumple igual.
 :::
 
 ::: {.callout-warning title="Seguridad"}
@@ -86,20 +86,20 @@ La norma legal es el mínimo. Fisiológicamente, muchos pilotos sufren deterioro
 La misma normativa de operaciones fija el equipamiento mínimo del planeador según el tipo de vuelo.
 
 ::: {.callout-important title="Normativa"}
-**SAO.IDE.105 a)**: todo planeador debe llevar medios para medir y mostrar la hora (en horas y minutos), la altitud de presión y la velocidad aerodinámica indicada; los planeadores motorizados añaden el rumbo magnético. **SAO.IDE.105 b)**: para volar en condiciones de nebulosidad o de noche se añaden medios para medir y mostrar la velocidad vertical, la actitud —o el viraje y el resbale— y el rumbo magnético.
+**SAO.IDE.105 a)**: todo planeador debe llevar medios para medir y mostrar la hora (en horas y minutos), la altitud de presión y la velocidad aerodinámica indicada; los planeadores motorizados añaden el rumbo magnético. **SAO.IDE.105 b)**: cuando el planeador no pueda mantenerse en la trayectoria deseada sin referirse a instrumentos, en vuelo en nube o de noche, se añaden medios para medir y mostrar la velocidad vertical, la actitud —o el viraje y el resbale— y el rumbo magnético.
 :::
 
-En la práctica: de día y en VFR bastan un reloj de pulsera, el altímetro y el anemómetro. La brújula se suma en los motorizados (TMG). Y el vuelo en nube o nocturno exige además el variómetro, un indicador de actitud o de viraje y resbale, y el rumbo magnético.
+En la práctica: de día y en VFR bastan un reloj de pulsera, el altímetro y el anemómetro. La brújula se suma en los planeadores motorizados. Y el vuelo en nube o nocturno exige además el variómetro, un indicador de actitud o de viraje y resbale, y el rumbo magnético. Lo mismo vale, aunque estés en VMC, cuando no tengas referencia exterior para mantener la actitud: sin horizonte, sobre el mar, el desierto o la nieve (GM1 SAO.IDE.105(b)).
 
-Queda un procedimiento operativo del syllabus que esta colección desarrolla en otros volúmenes: el **plan de vuelo**. Su operativa por radio está en el **Libro 4 — Comunicaciones** (cap. 3), el formulario OACI casilla a casilla en el **Libro 7 — Planificación y Rendimiento de Vuelo** (cap. 4) y su relación con los servicios ATS en el **Libro 9 — Navegación** (cap. 7).
+Queda un procedimiento operativo del syllabus que esta colección desarrolla en otros volúmenes: el **plan de vuelo**. Su operativa por radio está en el **Libro 4 — Comunicaciones** (cap. 2), el formulario OACI casilla a casilla en el **Libro 7 — Planificación y Rendimiento de Vuelo** (cap. 4) y su relación con los servicios ATS en el **Libro 9 — Navegación** (cap. 7).
 
 ::: {.postit}
 **Resumen del capítulo: procedimientos para la navegación**
 
-* **Mínimos VMC**: regla general, 5 km de visibilidad y nubes a 1.500 m en horizontal / 1.000 ft en vertical. Por debajo de 3.000 ft AMSL (o 1.000 ft AGL) en espacio no controlado basta con 5 km, libre de nubes y suelo a la vista; la reducción a 1.500 m que permite SERA no se aplica en España a los planeadores. Por encima de FL 100, 8 km.
+* **Mínimos VMC**: regla general, 5 km de visibilidad y nubes a 1.500 m en horizontal / 1.000 ft en vertical. Por debajo de 3.000 ft AMSL (o 1.000 ft AGL, si es mayor) en espacio no controlado basta con 5 km, libre de nubes y suelo a la vista; la reducción a 1.500 m que permite SERA no se aplica en España a los planeadores. Por encima de FL 100, 8 km.
 * **Regla semicircular (España, Norte-Sur)**: hacia el Norte (270°-089°), pares + 500 ft; hacia el Sur (090°-269°), impares + 500 ft. «Norte Par / Sur Impar».
 * **Altímetro**: QNH = altitud (navegación y circuitos); QFE = altura sobre el campo; QNE (1013,25 hPa) = niveles de vuelo por encima de la altitud de transición (6.000 ft en general en España).
 * **Oxígeno**: según SAO.OP.150, el comandante debe garantizar su uso cuando determine que la falta de oxígeno puede disminuir las facultades o ser dañina. Si no puede valorar ese efecto, el AMC1 SAO.OP.150 fija la regla por defecto: usar oxígeno por encima de 10.000 ft. Fisiológicamente, conéctalo antes.
 * **Pre-vuelo (SAO.GEN.130)**: antes de iniciar el vuelo, el piloto al mando comprueba que el planeador es aeronavegable, está matriculado y lleva los instrumentos y equipos necesarios instalados y operativos; también verifica masa, centrado, estiba y límites del AFM.
-* **Instrumentos mínimos (SAO.IDE.105)**: hora, altitud de presión y velocidad indicada; los TMG añaden rumbo magnético. En nube o de noche: velocidad vertical, actitud o viraje/resbale, y rumbo magnético.
+* **Instrumentos mínimos (SAO.IDE.105)**: hora, altitud de presión y velocidad indicada; los planeadores motorizados añaden rumbo magnético. En nube, de noche o sin referencia exterior para mantener la actitud: velocidad vertical, actitud o viraje/resbale, y rumbo magnético.
 :::

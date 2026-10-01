@@ -30,7 +30,9 @@ rompe la compilación.
   transposición; y el RD 552/2014 está derogado desde el 11 de noviembre de 2018 por el Real Decreto
   1180/2018, que es quien lo desarrolla hoy. Se corrige la entrada y se añade una para el RD
   1180/2018. Hallazgo NOR-02 de la auditoría del libro 01.
-
+* **cap06, mínimos VFR en clase G** — la franja baja es «3.000 ft AMSL o 1.000 ft sobre el
+  terreno, el mayor de los dos valores», como dice SERA.5001; faltaba el criterio. Hallazgo TEC-04
+  de la auditoría del libro 01.
 
 ## [1.0-rc.16] — 16 de agosto de 2026
 

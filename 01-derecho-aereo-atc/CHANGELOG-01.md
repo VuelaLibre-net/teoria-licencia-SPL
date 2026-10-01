@@ -124,6 +124,17 @@ casi todas normativas:
   de seguridad del operador. Se avisa además de que «50 m (150 ft)» es la cifra de la norma, aunque
   50 m son unos 164 ft (hallazgo H1 de la auditoría de julio). El pie de la figura de alturas
   mínimas advierte de que su viñeta de ladera pone el planeador a sotavento, hasta que se rehaga.
+* **cap06, post-it y tarjeta Anki, franja VMC baja** — «por debajo de 3.000 ft AMSL (o 1.000 ft
+  AGL)» no decía cuál de los dos vale. SERA.5001 toma el mayor: sobre la meseta, la franja llega a
+  unos 3.600 ft AMSL. Se explica con ese ejemplo.
+* **cap06, oxígeno** — el AMC1 SAO.OP.150 se presentaba con «deberá» y «debe», como si fuera el
+  reglamento. Es un medio aceptable de cumplimiento («should»); se dice así, y en qué se diferencia
+  de SAO.OP.150, que es el que obliga.
+* **cap06 y post-it, instrumentos** — a SAO.IDE.105 b) le faltaba su primer supuesto: el vuelo en
+  VMC sin referencia exterior para mantener la actitud (mar, desierto o nieve, según el GM1). Y el
+  rumbo magnético lo añaden los planeadores motorizados, no sólo los TMG.
+* **cap06, remisión al plan de vuelo** — la operativa por radio del plan de vuelo está en el
+  capítulo 2 del libro 4, no en el 3, desde que ese libro se renumeró.
 
 ### Añadido
 
