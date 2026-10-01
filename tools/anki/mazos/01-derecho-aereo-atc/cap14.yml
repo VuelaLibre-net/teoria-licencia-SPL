@@ -19,9 +19,37 @@ tarjetas:
 
   - id: infracciones-muy-graves
     tipo: basica
-    anverso: ¿Qué pueden acarrear las infracciones **muy graves**?
+    anverso: ¿Cuándo es **muy grave** una infracción de seguridad de la LSA y qué puede acarrear?
     reverso: |
-      **La inhabilitación.** Son las que implican muerte o accidente.
+      **Cuando el incumplimiento causa un accidente, una muerte o daños de más
+      de 15.000 €.** Además de la multa (90.001 a 225.000 € para un particular),
+      puede llevar a revocar la licencia; dos muy graves en un año suponen tres
+      años de inhabilitación.
+
+      *Fundamento: Ley 21/2003, arts. 44, 55 y 56.*
+    etiquetas: [Normativa]
+
+  - id: lsa-gravedad-por-consecuencias
+    tipo: basica
+    anverso: ¿Cómo gradúa la Ley de Seguridad Aérea las infracciones del piloto?
+    reverso: |
+      **Por sus consecuencias, no por la conducta.** Incumplir una obligación de
+      seguridad es **leve**; **grave** si causa un incidente grave, lesiones
+      graves o daños de 5.000 a 15.000 €; **muy grave** si causa un accidente,
+      una muerte o daños de más de 15.000 €.
+
+      *Fundamento: Ley 21/2003, art. 44.*
+    etiquetas: [Normativa]
+
+  - id: alcohol-es-delito
+    tipo: basica
+    anverso: ¿Qué es, legalmente, emprender el vuelo bajo los efectos del alcohol o las drogas?
+    reverso: |
+      **Un delito**, no sólo una infracción administrativa.
+
+      *Fundamento: Ley 209/1964, Penal y Procesal de la Navegación Aérea,
+      art. 31.*
+    etiquetas: [Normativa]
 
   - id: sanciones-y-desconocimiento
     tipo: basica
@@ -29,8 +57,10 @@ tarjetas:
     reverso: |
       **No.**
 
-      Volar sin licencia, sin seguro o bajo los efectos del alcohol puede costar
-      miles de euros y la inhabilitación, también a un piloto privado.
+      Volar sin licencia o sin seguro puede costar miles de euros también a un
+      piloto privado y, si acaba en un incidente grave o un accidente, la
+      suspensión o la revocación de la licencia. Volar bajo los efectos del
+      alcohol es, además, delito.
     etiquetas: [Seguridad]
 
   - id: ante-la-duda-pregunta

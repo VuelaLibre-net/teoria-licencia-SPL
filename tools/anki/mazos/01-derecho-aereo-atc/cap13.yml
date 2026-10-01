@@ -31,6 +31,20 @@ tarjetas:
       CIAIAC), y **a AESA en un máximo de 72 horas.**
     etiquetas: [Normativa]
 
+  - id: sucesos-de-notificacion-obligatoria
+    tipo: basica
+    anverso: Además de accidentes e incidentes graves, ¿qué sucesos debe notificar obligatoriamente un piloto de planeador?
+    reverso: |
+      **Los de la lista del Reglamento 2015/1018** (anexo V, sección 2). Por
+      ejemplo: una violación de espacio aéreo, una cuasicolisión que exija
+      maniobra evasiva, una suelta del cable que haya puesto en peligro el
+      planeador, una llamada de emergencia o quedarte sin ninguna zona de
+      aterrizaje segura.
+
+      *Fundamento: Reglamento (UE) 376/2014, art. 4; Reglamento de Ejecución
+      (UE) 2015/1018, anexo V.*
+    etiquetas: [Normativa]
+
   - id: preservar-los-restos
     tipo: basica
     anverso: Tras un accidente, ¿qué orden de prioridades hay?

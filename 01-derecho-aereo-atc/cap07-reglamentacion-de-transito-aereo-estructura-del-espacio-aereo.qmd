@@ -17,7 +17,7 @@ El aire no es libre, o al menos no todo. Para ordenar el tráfico, el espacio a�
 
 ## Espacio aéreo controlado vs no controlado
 
-Esta es la gran división. En el **controlado**, alguien (ATC) te separa de otros aviones, o al menos te vigila. En el **no controlado** vas por tu cuenta, eso sí, con la radio a mano.
+Esta es la gran división. En el **controlado** hay un ATC que te da autorizaciones y, según la clase, te separa de otros tráficos o sólo te informa de ellos: lo ves en la tabla de abajo. En el **no controlado** vas por tu cuenta, eso sí, con la radio a mano.
 
 ### Clases de espacio aéreo (SERA.6001)
 
@@ -25,12 +25,14 @@ La OACI define 7 clases, pero en España usamos principalmente las clases **A, C
 
 | Clase | Tipo | Requisitos para VFR (Planeadores) |
 | --- | --- | --- |
-| **A** | **Controlado** (Exclusivo IFR) | **PROHIBIDO VFR**. No puedes entrar. (Ej: Madrid TMA Area A). **Requisitos**: Autorización + Radio + Transponder. |
-| **C** | **Controlado** | **Separación**: ATC te separa del IFR. De otros VFR solo recibes información de tráfico (y asesoramiento anticolisión si lo pides): **de los VFR te separas tú**. **Requisitos**: Autorización + Radio + Transponder. |
-| **D** | **Controlado** | **Separación**: ninguna para el VFR. ATC te da información de tráfico del IFR y de otros VFR, pero **ver y evitar es cosa tuya**. **Requisitos**: Autorización + Radio + Transponder (generalmente). |
+| **A** | **Controlado** (Exclusivo IFR) | **PROHIBIDO VFR**. No puedes entrar. (Ej: Madrid TMA Area A). |
+| **C** | **Controlado** | **Separación**: ATC te separa del IFR. De otros VFR solo recibes información de tráfico (y asesoramiento anticolisión si lo pides): **de los VFR te separas tú**. **Requisitos**: Autorización + Radio. |
+| **D** | **Controlado** | **Separación**: ninguna para el VFR. ATC te da información de tráfico del IFR y de otros VFR, pero **ver y evitar es cosa tuya**. **Requisitos**: Autorización + Radio. |
 | **E** | **Controlado** (Para IFR) | **Híbrido**: Controlado para IFR, "libre" para VFR. **VFR**: No necesitas autorización ni radio (aunque es muy recomendable). ATC no te separa de nadie, pero da información de tráfico si puede. |
 | **G** | **NO Controlado** | **Libre**: Vuelas bajo tu responsabilidad. **Servicio**: Solo Información de Vuelo (FIS) si la pides. |
 : Clases de espacio aéreo y requisitos VFR para planeadores
+
+El **transpondedor** no depende de la clase de espacio. En España es obligatorio, salvo las excepciones que conceda la Dirección General de Aviación Civil, en tres casos: a **FL145 o superior** (cuenta en los días de onda), dentro de los TMA de Madrid, Zaragoza, Sevilla, Barcelona, Palma, Valencia y Canarias a cualquier nivel, y en las **TMZ** (AIP España, ENR 1.6).
 
 ::: {.callout-note title="Airmanship"}
 Aunque la normativa OACI define teóricamente las clases **B** y **F**, en la práctica no se utilizan para la aviación general o la formación en España. El espacio aéreo español es mayoritariamente Clase G (espacio no controlado fuera de rutas/aeropuertos) o Clases A, C, D y E (en rutas y entornos aeroportuarios).

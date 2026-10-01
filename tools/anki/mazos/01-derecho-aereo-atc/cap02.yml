@@ -50,8 +50,8 @@ tarjetas:
     anverso: ¿Qué le toca al piloto en la aeronavegabilidad?
     reverso: |
       **Inspección prevuelo, verificar que la documentación (CofA, ARC,
-      seguro…) está a bordo y en vigor, y anotar cualquier defecto en el
-      Diario.**
+      seguro…) está en vigor y disponible, a bordo o en el aeródromo, y
+      anotar cualquier defecto en el Diario.**
 
   - id: muesca-en-el-gelcoat
     tipo: basica

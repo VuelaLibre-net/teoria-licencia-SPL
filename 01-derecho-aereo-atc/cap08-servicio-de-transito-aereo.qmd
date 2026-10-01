@@ -7,7 +7,7 @@
 >
 >
 > * Los tres servicios ATS: Control (ATC), Información (FIS) y Alerta (ALRS).
-> * Cuándo te separan ellos (ATC) y cuándo te separas tú (FIS).
+> * Cuándo te separa el ATC, y de quién según la clase de espacio, y cuándo te separas tú.
 > * El protocolo de búsqueda y salvamento: INCERFA, ALERFA y DETRESFA.
 > * Qué es la gestión del tránsito aéreo (ATM) y por qué el espacio aéreo que ves en la carta no es el que tendrás mañana.
 
@@ -21,7 +21,7 @@ Para todo eso, el ATS se divide en tres servicios muy distintos entre sí. Saber
 
 El servicio de primera división. Su misión principal es **separar** aeronaves.
 
-Lo prestan los controladores aéreos (ATCO), y de ellos recibes **autorizaciones** (instrucciones obligatorias) e información de tráfico. La responsabilidad de que no choques, bajo ciertas reglas, es del controlador.
+Lo prestan los controladores aéreos (ATCO), y de ellos recibes **autorizaciones** e **instrucciones**, además de información de tráfico. A quién separan depende de la clase de espacio: en clase C, al VFR sólo lo separan del IFR; en clase D no lo separan de nadie, y de los otros VFR te separas tú. Y en cualquier clase, evitar la colisión sigue siendo responsabilidad del piloto al mando (SERA.3201).
 
 Se organiza en tres dependencias según la fase de vuelo (@fig-01-cap08-dependencias-atc):
 
@@ -38,7 +38,7 @@ Es lo que recibimos los planeadores la mayor parte del tiempo, en Clase G o E. L
 Aquí la responsabilidad es **tuya**. El FIS te avisa ("tráfico a las 12"), pero quien ve y evita eres tú. No te separan de nadie.
 
 ::: {.callout-note title="Airmanship"}
-* **ATC**: "Vire rumbo 360 por tráfico". (Orden obligatoria, ellos te separan).
+* **ATC**: "Vire rumbo 360 por tráfico". (Instrucción obligatoria: la cumples, pero ver y evitar sigue siendo cosa tuya).
 * **FIS**: "Tráfico convergiendo a su derecha". (Información, TÚ decides qué hacer para no chocar).
 :::
 
@@ -95,7 +95,7 @@ El espacio aéreo del que dispones hoy no es el de ayer. Repetir la travesía de
 
 El ATS te ofrece tres tipos de ayuda:
 
-* **Control (ATC)**: te dan órdenes (autorizaciones) para separarte de otros aviones. Son la TWR, la APP y el ACC, y solo opera en espacio aéreo controlado.
+* **Control (ATC)**: te dan autorizaciones e instrucciones obligatorias y, según la clase de espacio, te separan de otros tráficos: en clase C, al VFR sólo del IFR; en clase D, de nadie. Son la TWR, la APP y el ACC, y solo opera en espacio aéreo controlado.
 * **Información de vuelo (FIS)**: te dan información útil (meteo, peligros, tráficos cercanos), pero el responsable de evitar colisiones eres tú. "Información de tráfico" no es "separación".
 * **Alerta (ALRS)**: avisa a búsqueda y salvamento (SAR) si no llegas a tiempo o tienes una emergencia.
 

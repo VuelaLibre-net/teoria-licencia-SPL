@@ -37,15 +37,15 @@ Para evitar encuentros frontales en ruta, cada uno vuela a una altitud según su
 * **Derrotas hacia el norte (270° a 089°)**: altitudes o niveles **pares** + 500 ft (4.500 ft, 6.500 ft, FL 45, FL 65…​).
 * **Derrotas hacia el sur (090° a 269°)**: altitudes o niveles **impares** + 500 ft (3.500 ft, 5.500 ft, FL 35, FL 55…​).
 
-(@fig-01-cap06-semicircular)
-
 ::: {.callout-tip title="Regla de oro"}
 **Norte Par / Sur Impar**
 Hacia el **N**orte → Niveles **P**ares.
 Hacia el **S**ur → Niveles **I**mpares.
 :::
 
+<!-- RETIRADA hasta rehacerla (auditoría del libro 01, COH-01: la figura reparte los niveles Este-Oeste, según el apéndice 3 de SERA, y no Norte-Sur como en España). Ver recursos/auditorias/seguimiento-libro-01.md.
 ![Regla semicircular de niveles de crucero VFR (Norte-Sur)](imagenes/01-cap06-regla-semicircular.jpg){#fig-01-cap06-semicircular}
+-->
 
 ## Reglaje de altímetro: QNH, QFE y QNE
 

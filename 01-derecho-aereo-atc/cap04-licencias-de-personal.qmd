@@ -8,7 +8,7 @@
 >
 > * Qué es la licencia SPL: validez, privilegios y normativa aplicable (Part-SFCL).
 > * Las diferencias entre el certificado médico LAPL y el Clase 2, y cuánto duran.
-> * La regla "5 horas - 15 lanzamientos - 2 vuelos" para mantenerte legal.
+> * La regla "5 horas - 15 lanzamientos - 2 vuelos" y la recencia propia de cada método de lanzamiento.
 > * Qué necesitas, además de la licencia, para llevar a alguien contigo.
 
 ## La licencia SPL (Sailplane Pilot Licence)
@@ -50,6 +50,12 @@ No pierdes la licencia; tus privilegios quedan "dormidos". Para despertarlos tie
 
 ![Diagrama de flujo: ¿Puedo volar hoy?](imagenes/01-cap04-recencia-requisitos.jpg){#fig-01-cap04-recencia-flow}
 
+### Además, por cada método de lanzamiento
+
+El "5-15-2" no basta. Tus atribuciones se limitan a los métodos de lanzamiento en los que te has formado —torno, remolque, autolanzamiento, cable elástico (**bungee**)—, y cada uno tiene su propia recencia (SFCL.155). Para mantener un método debes haber hecho con él al menos **5 lanzamientos en los últimos 24 meses**; con cable elástico bastan **2**. Si no llegas, completa los que te falten en doble mando o solo bajo la supervisión de un instructor.
+
+Puedes cumplir de sobra el "5-15-2" a base de remolques y, aun así, no estar al día para despegar en torno.
+
 ## Transporte de pasajeros
 
 Llevar a alguien contigo es una gran responsabilidad, y la licencia recién sacada no te lo permite de inmediato. Primero debes completar **10 horas** de vuelo o **30 lanzamientos** como piloto al mando **después** de obtener la licencia y, además, un **vuelo de entrenamiento** en el que demuestres a un instructor FI(S) tu competencia para el transporte de pasajeros (salvo que ya seas titular de un certificado FI(S)).
@@ -68,5 +74,6 @@ Para pilotar legalmente necesitas tres cosas:
 * **Licencia SPL**: tu título de piloto, regido por la Part-SFCL. Vale de por vida, pero sus atribuciones dependen del médico y de la experiencia reciente.
 * **Certificado médico**: Clase 2 o LAPL. Sin médico en vigor, la licencia es papel mojado.
 * **Experiencia reciente**: en los últimos 24 meses, 5 horas de vuelo (como PIC, doble mando o con FI(S)), 15 lanzamientos y 2 vuelos de entrenamiento con un FI(S). Si no llegas, vuela con instructor hasta cumplirlos o supera una verificación de competencia con un FE(S).
+* **Métodos de lanzamiento**: sólo puedes usar aquellos en los que te formaste, y cada uno exige al menos 5 lanzamientos en los últimos 24 meses (2 con cable elástico) (SFCL.155).
 * **Pasajeros**: requieren experiencia extra (10 h o 30 lanzamientos tras la licencia), un vuelo de entrenamiento con un FI(S) demostrando competencia (salvo que ya seas FI(S)) y 3 lanzamientos en los últimos 90 días.
 :::

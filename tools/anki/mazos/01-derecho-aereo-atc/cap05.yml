@@ -23,10 +23,11 @@ tarjetas:
     tipo: basica
     anverso: Orden de prioridad de paso, y qué se hace de frente.
     reverso: |
-      **Globo > planeador > motor.** Cede quien más capacidad de maniobra tiene.
+      **En convergencia: globo > planeador > motor.** Cede quien más capacidad
+      de maniobra tiene; entre iguales, paso para el que viene por la derecha.
 
-      **De frente, siempre a la derecha.** En convergencia, paso para el que
-      viene por la derecha.
+      **De frente, ambos a la derecha**, y quien alcanza se aparta, sea cual
+      sea su categoría.
     etiquetas: [Regla de oro]
 
   - id: prioridad-en-aterrizaje-y-ladera

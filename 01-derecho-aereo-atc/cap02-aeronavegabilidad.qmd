@@ -50,12 +50,11 @@ Antes de cada vuelo te toca una inspección exterior e interior, siguiendo la li
 
 ### 2. Verificación de documentación
 
-Antes de despegar, comprueba que la documentación obligatoria está a bordo y en vigor.
-Según la normativa de operaciones de planeadores (Part-SAO), esto incluye:
+Antes de despegar, comprueba que la documentación obligatoria está en vigor. No toda tiene que ir a bordo:
 
-* **Documentos de la aeronave**: CofA, ARC, Certificado de Matrícula, Seguro, Licencia de Estación de Radio.
-* **Documentos de la operación**: Manual de Vuelo (AFM), listas de chequeo.
-* **Documentos del piloto**: tu licencia (SPL) y tu certificado médico.
+* **A bordo** (Part-SAO, SAO.GEN.155 a)): el Manual de Vuelo (AFM) o documento equivalente, las cartas aeronáuticas de la zona, los datos del plan de vuelo si lo has presentado y la información sobre interceptación.
+* **A bordo o disponibles en el aeródromo** (SAO.GEN.155 c)): Certificado de Matrícula, CofA, ARC, Licencia de Estación de Radio si llevas equipo de radio, certificado del seguro y Diario de a bordo.
+* **Documentos del piloto** (Part-SFCL, SFCL.045): tu licencia (SPL), tu certificado médico, un documento de identidad con foto y datos suficientes de tu libro de vuelo. En vuelos a la vista del aeródromo pueden quedarse en él.
 
 ### 3. Reporte de defectos
 
@@ -73,5 +72,5 @@ La aeronavegabilidad es la salud de tu aeronave. Para volar legal y seguro:
 * **CofA**: acredita que la aeronave se ajusta al diseño aprobado y está en condiciones de operación segura. Lo expide el Estado de matrícula (AESA en España) y no caduca si el avión se mantiene correctamente.
 * **ARC**: la "ITV" anual. Confirma que el avión está revisado y apto. Verifica su fecha de validez antes de volar.
 * **Part-ML**: el marco de mantenimiento de los planeadores; permite al piloto-propietario certificar tareas sencillas. Su desarrollo técnico (AMP, programa mínimo de inspección, AD/SB) está en el **Libro 8 — Conocimientos Generales de la Aeronave, Estructura, Sistemas y Equipo de Emergencia**, capítulo 9.
-* **Tu parte**: hacer la inspección pre-vuelo, verificar que la documentación (CofA, ARC, seguro…​) está a bordo y en vigor, y anotar cualquier defecto en el Diario de a bordo.
+* **Tu parte**: hacer la inspección pre-vuelo, verificar que la documentación (CofA, ARC, seguro…​) está en vigor y disponible, a bordo o en el aeródromo, y anotar cualquier defecto en el Diario de a bordo.
 :::

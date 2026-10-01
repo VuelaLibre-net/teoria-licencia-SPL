@@ -24,7 +24,7 @@ En aviación no todo es un accidente. Hay matices legales que importan (@fig-01-
 
 Para mejorar la seguridad, el Estado necesita datos. No para castigar, sino para prevenir. Por eso conviven dos sistemas:
 
-* **Notificación obligatoria**: todos los accidentes e incidentes graves deben notificarse.
+* **Notificación obligatoria**: los accidentes e incidentes graves y, además, los sucesos de la lista del Reglamento de Ejecución (UE) 2015/1018 (anexo V, sección 2, planeadores). Entre ellos, una violación de espacio aéreo, una suelta del cable que haya puesto en peligro el planeador, una cuasicolisión que exija una maniobra evasiva de emergencia, una llamada de emergencia o quedarte sin ninguna zona de aterrizaje segura.
 * **Notificación voluntaria**: si te pasa algo que no es obligatorio reportar pero crees que otros pueden aprender de ello, repórtalo igualmente.
 
 ### ¿A quién y cuándo?
@@ -32,13 +32,15 @@ Para mejorar la seguridad, el Estado necesita datos. No para castigar, sino para
 1. **La autoridad de investigación de accidentes**: investiga las causas técnicas, para que no vuelva a pasar. Desde el 15 de julio de 2026 es la Autoridad Administrativa Independiente para la Investigación Técnica de Accidentes e Incidentes ferroviarios, marítimos y de aviación civil, que sustituyó a la CIAIAC (Ley 2/2024).
 2. **AESA** (Agencia Estatal de Seguridad Aérea): supervisa el cumplimiento normativo.
 
-Los plazos no son iguales: a la autoridad de investigación, comunica el accidente o incidente grave **sin demora** (Reglamento (UE) 996/2010, art. 9); a AESA, notifica el suceso lo antes posible y, en todo caso, en un máximo de **72 horas** (Reglamento (UE) 376/2014) (@fig-01-cap13-flujo-notificacion).
+Los plazos no son iguales: a la autoridad de investigación, comunica el accidente o incidente grave **sin demora** (Reglamento (UE) 996/2010, art. 9); a AESA, notifica el suceso en un plazo de **72 horas** desde que tengas conocimiento de él (Reglamento (UE) 376/2014, art. 4.7), a través del sistema de tu organización o, si no perteneces a ninguna, directamente al Sistema de Notificación de Sucesos (SNS) de AESA.
 
 ::: {.callout-tip title="Regla de oro"}
 La normativa europea promueve la "Cultura Justa". El objetivo de notificar **NO es buscar culpables** (salvo negligencia grave o dolo), sino **aprender**. No tengas miedo a reportar tus errores; es la única forma de que el sistema mejore.
 :::
 
+<!-- RETIRADA hasta rehacerla (auditoría del libro 01, NOR-05: la figura daba por voluntaria la notificación de cualquier suceso que no fuera accidente o incidente grave). Ver recursos/auditorias/seguimiento-libro-01.md.
 ![Proceso de notificación de un suceso](imagenes/01-cap13-flujo-notificacion.jpg){#fig-01-cap13-flujo-notificacion}
+-->
 
 ::: {.callout-warning title="Seguridad"}
 Si sufres o presencias un accidente:
@@ -53,5 +55,6 @@ Si sufres o presencias un accidente:
 * **Accidente**: hay lesiones mortales o graves, daños estructurales al avión, o la aeronave desaparece o queda inaccesible.
 * **Incidente grave**: las circunstancias indican que hubo alta probabilidad de accidente, o el suceso puso (o pudo poner) en peligro la seguridad de la operación.
 * **Obligación**: comunicarlo **sin demora** a la **autoridad de investigación de accidentes** (la antigua CIAIAC); notificar el suceso a **AESA** en un plazo máximo de **72 horas**.
+* **Qué se notifica**: no sólo accidentes e incidentes graves. También los sucesos de la lista del Reglamento 2015/1018, como una violación de espacio aéreo, una cuasicolisión con maniobra evasiva o una suelta del cable que haya puesto en peligro el planeador.
 * **Pruebas**: no toques nada, salvo para salvar vidas o evitar otro peligro. Preservar los restos es vital para la investigación.
 :::

@@ -31,15 +31,15 @@ no se toca: es el registro de lo que se encontró. Aquí se anota qué se ha hec
 | --- | --- | --- | --- | --- | --- |
 | NOR-01 | 1.500 m de visibilidad no valen para planeadores | 1 | aplicado | | fase 1: cap06, libro 03, Anki 01 y 03, banco c06-q03 |
 | NOR-02 | RD 552/2014 derogado: RD 1180/2018 | 1 | aplicado | | fase 1: cap01, cap05, 9 bibliografías, Anki, lección 05 y examen oficial |
-| TEC-01 | «El planeador siempre tiene prioridad» | 2 | pendiente | | |
-| NOR-03 | Documentación a bordo (SAO.GEN.155, SFCL.045) | 2 | pendiente | | |
-| SYL-01 | SFCL.155, métodos de lanzamiento | 2 | pendiente | | Redacción a validar por un FI(S) |
-| COH-01 | Figura semicircular Este-Oeste | 2 | pendiente | | Retirar y rehacer |
-| NOR-07 | Transpondedor en España | 2 | pendiente | | Exenciones de la DGAC: pregunta abierta |
-| TEC-02 | «El ATC te separa» | 2 | pendiente | | |
+| TEC-01 | «El planeador siempre tiene prioridad» | 2 | aplicado | | fase 2: cap01, cap05, post-it, Anki y citas del banco |
+| NOR-03 | Documentación a bordo (SAO.GEN.155, SFCL.045) | 2 | aplicado | | fase 2: cap02, cap12, Anki y banco c02-q09; la competencia de la Guardia Civil queda abierta |
+| SYL-01 | SFCL.155, métodos de lanzamiento | 2 | parcial | | fase 2: apartado, post-it y tarjeta nuevos con el texto literal de SFCL.155; falta que lo valide un FI(S). La lección 04 ya tiene 10 preguntas y no lleva ninguna sobre esto |
+| COH-01 | Figura semicircular Este-Oeste | 2 | figura | | fase 2: figura retirada (comentada en cap06) hasta que se rehaga |
+| NOR-07 | Transpondedor en España | 2 | parcial | | fase 2: regla del AIP ENR 1.6 en el cap07; falta saber si hay exención para planeadores |
+| TEC-02 | «El ATC te separa» | 2 | aplicado | | fase 2: cap07, cap08, post-it, Anki y citas del banco |
 | NOR-04 | CIAIAC suprimida | 1 | aplicado | | fase 1: cap13, glosario, Anki, lecciones 01, 13 y 14 y examen oficial; la Autoridad no tiene sigla oficial |
-| NOR-05 | Notificación obligatoria (Reglamento 2015/1018) | 2 | pendiente | | |
-| NOR-06 | Catálogo de infracciones de la LSA | 2 | pendiente | | Retirar la figura y rehacerla |
+| NOR-05 | Notificación obligatoria (Reglamento 2015/1018) | 2 | aplicado | | fase 2: cap13, post-it, tarjeta nueva y pregunta 9 nueva en la lección 13; figura del flujo retirada |
+| NOR-06 | Catálogo de infracciones de la LSA | 2 | aplicado | | fase 2: cap14 reescrito según los arts. 44, 50, 55 y 56 de la LSA y la Ley 209/1964; figura retirada; Anki |
 
 ## Medias
 
@@ -75,7 +75,7 @@ no se toca: es el registro de lo que se encontró. Aquí se anota qué se ha hec
 | PED-03 | Artículos prohibidos frente a mercancías peligrosas | 3 | pendiente | | |
 | SYL-06 | Marco normativo de la *security* | 3 | pendiente | | |
 | TEC-10 | Incidente grave en el resumen | 3 | pendiente | | |
-| NOR-17 | Inhabilitación | 2 | pendiente | | Junto con NOR-06 |
+| NOR-17 | Inhabilitación | 2 | aplicado | | fase 2, con NOR-06; banco c14-q03 reescrito |
 | SYL-07 | Derecho nacional | 3 | pendiente | | |
 | TEC-11 | CAVOK | 3 / 4 | pendiente | | |
 | TEC-12 | La CIAIAC en el glosario | 1 | aplicado | | fase 1, con NOR-04 |
@@ -117,9 +117,9 @@ no se toca: es el registro de lo que se encontró. Aquí se anota qué se ha hec
 
 | Figura | Motivo | Retirada en | Repuesta en |
 | --- | --- | --- | --- |
-| `01-cap06-regla-semicircular` | COH-01 | | |
-| `01-cap13-flujo-notificacion` | NOR-05 | | |
-| `01-cap14-escala-infracciones` | NOR-06 | | |
+| `01-cap06-regla-semicircular` | COH-01 | fase 2 | |
+| `01-cap13-flujo-notificacion` | NOR-05 | fase 2 | |
+| `01-cap14-escala-infracciones` | NOR-06 | fase 2 | |
 
 ## Preguntas abiertas
 

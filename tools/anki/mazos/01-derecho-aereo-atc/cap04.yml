@@ -34,6 +34,17 @@ tarjetas:
       Mnemotécnico **5, 15, 2**. Si no llegas: vuela con instructor hasta
       cumplirlos, o supera una verificación de competencia con un FE(S).
 
+  - id: recencia-por-metodo-de-lanzamiento
+    tipo: basica
+    anverso: Cumples el «5-15-2», pero ¿puedes despegar con cualquier método de lanzamiento?
+    reverso: |
+      **No.** Sólo con los métodos en los que te formaste, y cada uno exige al
+      menos **5 lanzamientos en los últimos 24 meses** (con cable elástico,
+      **2**). Si no llegas, completa los que falten con instructor.
+
+      *Fundamento: SFCL.155.*
+    etiquetas: [Normativa]
+
   - id: pasajeros-sfcl-115
     tipo: basica
     anverso: ¿Qué experiencia hace falta para **llevar pasajeros** con una SPL?

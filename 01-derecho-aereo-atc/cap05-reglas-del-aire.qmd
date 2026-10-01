@@ -31,7 +31,7 @@ La mayoría de colisiones ocurren en días claros y cerca de los aeródromos. Nu
 
 ### 1. La jerarquía de maniobrabilidad
 
-La regla básica: quien menos capacidad de maniobra tiene, prioridad lleva.
+Cuando dos aeronaves **convergen** —rutas que se cruzan, más o menos al mismo nivel—, SERA da prioridad a quien menos capacidad de maniobra tiene:
 
 1. **Globos**: máxima prioridad, apenas pueden maniobrar.
 2. **Planeadores**: solo bajamos; no podemos mantener nivel indefinidamente.
@@ -39,6 +39,8 @@ La regla básica: quien menos capacidad de maniobra tiene, prioridad lleva.
 4. **Aviones con motor y ultraligeros**: tienen motor y maniobran a voluntad.
 
 Hay una excepción: las aeronaves de motor deben ceder el paso a las que remolcan a otra aeronave u objetos (la pancarta o el propio conjunto remolcador-planeador), porque su maniobrabilidad está muy reducida. A ti como velero libre la norma no te obliga, pero la prudencia sí: apártate de un tren de remolque en cuanto lo veas.
+
+Ojo: esta jerarquía sólo decide en convergencia. De frente y en alcance no cuenta la categoría, y cualquier aeronave cede el paso a otra cuya maniobrabilidad esté alterada o que se vea obligada a aterrizar (SERA.3210 b) y c) 4)).
 
 ### 2. Situaciones de conflicto
 
@@ -71,9 +73,9 @@ SERA.5005 f) admite excepciones «con permiso de la autoridad competente», y su
 ![Alturas mínimas de seguridad](imagenes/01-cap05-alturas-minimas.jpg){#fig-01-cap05-alturas-minimas}
 
 ::: {.callout-tip title="Regla de oro"}
-**Globo > Planeador > Motor.**
-Si tiene motor, te cede el paso. Si es un globo, tú cedes.
-Si vais de frente, **siempre a la derecha**.
+**En convergencia: globo > planeador > dirigible > motor.**
+De frente, los dos a la derecha (en ladera, la convención). Quien alcanza, se aparta.
+Quien aterriza, primero.
 :::
 
 ::: {.postit}
@@ -82,6 +84,6 @@ Si vais de frente, **siempre a la derecha**.
 El reglamento **SERA** es el código de circulación del cielo:
 
 * **VFR**: volamos viendo y siendo vistos. Ojos fuera.
-* **Prioridad de paso**: globos > planeadores > motor (cede quien más maniobra tiene). En convergencia, paso para el que viene por la derecha. En aterrizaje, el velero más bajo manda, y los planeadores tienen preferencia sobre los aviones a motor. En ladera, prioridad para quien lleva la montaña a su derecha: es convención del vuelo a vela, no regla de SERA.
+* **Prioridad de paso**: en convergencia, globos > planeadores > motor (cede quien más maniobra tiene) y, entre iguales, paso para el que viene por la derecha. De frente, ambos a la derecha; quien alcanza se aparta, sea cual sea su categoría. En aterrizaje, el velero más bajo manda, y los planeadores tienen preferencia sobre los aviones a motor. En ladera, prioridad para quien lleva la montaña a su derecha: es convención del vuelo a vela, no regla de SERA.
 * **Alturas mínimas (SERA.5005 f)**: 150 m en general, 300 m sobre zonas pobladas. En España, el Real Decreto 1180/2018 (art. 33) exceptúa de los 150 m a los planeadores en ladera, siempre que no entrañen riesgo ni molestias a personas o bienes, y permite bajar hasta 50 m entrenando aterrizajes forzosos, a 150 m de cualquier persona, vehículo o embarcación y de todo obstáculo artificial.
 :::

@@ -13,8 +13,9 @@ tarjetas:
     tipo: basica
     anverso: ¿Qué da cada uno de los tres servicios ATS?
     reverso: |
-      * **ATC (control)**: autorizaciones que te separan de otros aviones. TWR,
-        APP y ACC, sólo en espacio controlado.
+      * **ATC (control)**: autorizaciones e instrucciones obligatorias. Al VFR
+        sólo lo separa del IFR en clase C, y de nadie en clase D. TWR, APP y
+        ACC, sólo en espacio controlado.
       * **FIS (información)**: meteorología, peligros y tráficos. Evitar la
         colisión sigue siendo tuyo.
       * **ALRS (alerta)**: avisa a búsqueda y salvamento.
@@ -23,8 +24,8 @@ tarjetas:
     tipo: basica
     anverso: Diferencia práctica entre una llamada de ATC y una de FIS.
     reverso: |
-      **ATC**: «Vire rumbo 360 por tráfico» — orden obligatoria, ellos te
-      separan.
+      **ATC**: «Vire rumbo 360 por tráfico» — instrucción obligatoria: la
+      cumples, pero ver y evitar sigue siendo cosa tuya.
       **FIS**: «Tráfico convergiendo a su derecha» — información; **tú** decides
       qué hacer.
     etiquetas: [Airmanship]

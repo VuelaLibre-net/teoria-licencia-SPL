@@ -16,11 +16,18 @@ rompe la compilación.
 
 ## [En curso]
 
-**Qué releer:** **cap06, mínimos VMC** (la reducción a 1.500 m), **cap13** (la autoridad de
-investigación que sustituye a la CIAIAC), **cap01 y cap05** (el Real Decreto 1180/2018 en lugar del
-552/2014), **cap03, matrícula**, en el **Glosario** las entradas *Autoridad de investigación de
-accidentes*, que es nueva, y *CIAIAC*, y la **Bibliografía**. Son las correcciones de mayor
-prioridad de la auditoría del 1 de octubre de 2026 (`recursos/auditorias/`).
+**Qué releer:** las correcciones de la auditoría del 1 de octubre de 2026 (`recursos/auditorias/`),
+casi todas normativas:
+
+* **cap01** (Real Decreto 1180/2018; prioridad de paso), **cap02** (qué documentación va a bordo),
+  **cap03, matrícula**, **cap04** (recencia por método de lanzamiento, nueva), **cap05** (Real
+  Decreto 1180/2018 y prioridad de paso), **cap06** (la reducción a 1.500 m; la figura semicircular
+  se retira) y **cap07** (separación ATC y transpondedor).
+* **cap08** (qué separa el ATC), **cap12** (documentación), **cap13** (la autoridad que sustituye a
+  la CIAIAC y los sucesos de notificación obligatoria) y **cap14** (el régimen de infracciones, que
+  cambia entero).
+* En el **Glosario**, *Autoridad de investigación de accidentes*, que es nueva, y *CIAIAC*; y la
+  **Bibliografía**.
 
 ### Corregido
 
@@ -49,6 +56,53 @@ prioridad de la auditoría del 1 de octubre de 2026 (`recursos/auditorias/`).
   transposición; y el RD 552/2014 está derogado desde el 11 de noviembre de 2018 por el Real Decreto
   1180/2018, que es quien lo desarrolla hoy. Se corrige la entrada y se añade una para el RD
   1180/2018. Hallazgo NOR-02 de la auditoría del libro 01.
+* **cap01 y cap05, prioridad de paso, y su tarjeta Anki** — el recuadro de Seguridad del cap01
+  decía que «un planeador siempre tiene prioridad sobre aeronaves de motor», y la regla de oro del
+  cap05 resumía «Globo > Planeador > Motor». En SERA.3210 esa jerarquía sólo decide en
+  **convergencia**: de frente viran los dos a la derecha, quien alcanza se aparta sea cual sea su
+  categoría y todos ceden a quien aterriza o tiene la maniobrabilidad alterada. Se dice así en los
+  dos capítulos, el post-it y la tarjeta `prioridad-y-frente`.
+* **cap02 y cap12, documentación** — el cap02 atribuía a Part-SAO la obligación de llevar a bordo
+  el CofA, el ARC, la matrícula, el seguro y la licencia de radio. SAO.GEN.155 sólo exige a bordo el
+  Manual de Vuelo, las cartas, el plan de vuelo y la información de interceptación; los certificados
+  pueden quedarse en el aeródromo (letra c). La licencia, el médico y el documento de identidad
+  salen de SFCL.045, que también permite dejarlos en el aeródromo en vuelos a la vista de él: por
+  eso el «lleva siempre» del cap12 era falso.
+* **cap07 y cap08, separación ATC, y sus tarjetas Anki** — el texto decía que en el espacio
+  controlado el ATC «te separa» y que la responsabilidad de no chocar «es del controlador». Al VFR,
+  el ATC sólo lo separa del IFR en clase C y de nadie en clase D (SERA, apéndice 4), y evitar la
+  colisión es siempre responsabilidad del piloto al mando (SERA.3201).
+* **cap07, transpondedor** — la tabla de clases lo ligaba a la C y a la D. En España no depende de
+  la clase: es obligatorio a FL145 o superior, en los TMA que enumera el AIP y en las TMZ, salvo
+  exención de la DGAC (AIP ENR 1.6). Se quita de la tabla y se explica debajo.
+* **cap13, sucesos de notificación obligatoria** — no son sólo los accidentes e incidentes graves:
+  también los de la lista del Reglamento de Ejecución (UE) 2015/1018 (anexo V, sección 2), como una
+  violación de espacio aéreo o una cuasicolisión. El plazo de 72 horas cuenta desde que se tiene
+  conocimiento del suceso (Reglamento (UE) 376/2014, art. 4.7). Viñeta nueva en el post-it y
+  tarjeta nueva `sucesos-de-notificacion-obligatoria`.
+* **cap14, infracciones y sanciones, y sus tarjetas Anki** — las tres listas de infracciones no eran
+  las de la Ley 21/2003. La ley gradúa las infracciones del piloto por sus consecuencias (art. 44):
+  leve el incumplimiento, grave si causa un incidente grave o lesiones graves, muy grave si causa un
+  accidente o una muerte. Se explica así, con las cuantías del art. 55.1 y las sanciones accesorias
+  del art. 56 (suspensión o revocación de la licencia; la inhabilitación sólo con dos muy graves en
+  un año). Volar bajo los efectos del alcohol es, además, delito (Ley 209/1964, art. 31). Tarjetas
+  nuevas `lsa-gravedad-por-consecuencias` y `alcohol-es-delito`; la de `infracciones-muy-graves`
+  cambia de pregunta.
+
+### Añadido
+
+* **cap04, recencia por método de lanzamiento** — el capítulo presentaba el «5-15-2» como
+  suficiente para mantenerse legal. SFCL.155 limita además las atribuciones a los métodos de
+  lanzamiento en los que se ha formado el piloto y exige, para cada uno, 5 lanzamientos en los últimos
+  24 meses (2 con cable elástico). Apartado nuevo, viñeta en el post-it y tarjeta nueva
+  `recencia-por-metodo-de-lanzamiento`.
+
+### Retirado
+
+* **cap06, cap13 y cap14, tres figuras** — la de la regla semicircular repartía los niveles
+  Este-Oeste, al revés que la regla española; la del flujo de notificación daba por voluntario todo
+  lo que no fuera accidente o incidente grave; y la escala de infracciones contradecía la LSA y el
+  propio texto. Quedan comentadas en el `.qmd` hasta que se rehagan.
 
 
 ## [1.0-rc.14] — 7 de agosto de 2026
