@@ -190,6 +190,20 @@ casi todas normativas:
   satélite (Cospas-Sarsat), 121,5 MHz para la localización final, el registro de la baliza y lo
   que pide Part-SAO sobre zonas de SAR difícil (SAO.IDE.125 y su AMC1). Viñeta en el post-it y
   tarjeta nueva `balizas-elt-plb`.
+* **cap12, post-it y tarjeta Anki, mercancías peligrosas** — la excepción se describía como
+  «oxígeno medicinal aprobado, baterías de litio de uso personal» y, en el resumen, «excepciones
+  aprobadas». SAO.GEN.150 hace al piloto al mando responsable de no permitirlas a bordo, y sólo
+  considera autorizadas, sin aprobación, cantidades razonables de artículos para la seguridad del
+  vuelo. Qué artículos concretos entran queda pendiente de consulta. Tarjeta nueva
+  `mercancias-peligrosas-planeador`.
+* **cap12, artículos prohibidos y mercancías peligrosas** — el capítulo trataba las mercancías
+  peligrosas, que son *safety* (Anexo 18), como si fueran *security*. Se distinguen de los
+  artículos prohibidos del Reglamento (CE) 300/2008, que sí son *security*.
+* **cap12, marco normativo de la *security*** — el capítulo no citaba ninguna norma. Se añaden el
+  Anexo 17, los Reglamentos 300/2008 y 2015/1998 y el Programa Nacional de Seguridad (LSA, art. 3),
+  y se explican la zona de operaciones, el lado tierra y las zonas restringidas, que el resumen
+  mencionaba sin que el cuerpo las tratara; el acceso no autorizado es infracción muy grave (LSA,
+  art. 48.3). Las conductas del piloto quedan rotuladas como buenas prácticas.
 
 ### Añadido
 

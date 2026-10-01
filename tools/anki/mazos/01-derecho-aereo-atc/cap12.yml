@@ -21,9 +21,22 @@ tarjetas:
     tipo: basica
     anverso: ¿Qué te toca a ti en materia de **security**?
     reverso: |
-      **No dejar el avión abierto o accesible a desconocidos, no llevar
-      mercancías peligrosas** (salvo excepciones aprobadas) **y respetar las
-      zonas restringidas de los aeropuertos.**
+      **No dejar el avión abierto o accesible a desconocidos, no permitir
+      mercancías peligrosas a bordo** (salvo las cantidades razonables para la
+      seguridad del vuelo) **y respetar las zonas restringidas de los
+      aeropuertos.**
+
+  - id: mercancias-peligrosas-planeador
+    tipo: basica
+    anverso: ¿Qué dice Part-SAO sobre las **mercancías peligrosas** a bordo de un planeador?
+    reverso: |
+      **El piloto al mando no permitirá que nadie las lleve.** Sólo se
+      consideran autorizadas, sin aprobación, cantidades razonables de
+      artículos que se usan para la seguridad del vuelo y conviene tener a
+      mano.
+
+      *Fundamento: SAO.GEN.150.*
+    etiquetas: [Normativa]
 
   - id: comportamiento-sospechoso
     tipo: basica
