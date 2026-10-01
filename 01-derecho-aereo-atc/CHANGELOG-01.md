@@ -97,6 +97,15 @@ casi todas normativas:
   distingue además el diario de a bordo (*journey log*) del registro técnico.
 * **cap02 y su tarjeta Anki, seguro** — «la aseguradora rechazará la cobertura» pasa a «puede
   negarse a cubrirte o repetir contra ti»: depende de cada póliza.
+* **cap03, post-it y tarjeta Anki, ubicación de las marcas** — el resumen decía «en el fuselaje o
+  la cola (y bajo las alas en algunos casos)», al revés que el propio capítulo y que la Orden
+  FOM/1687/2015 (anexo II A): las marcas van siempre una vez en el intradós del ala y, además, en el
+  fuselaje o la cola. El pie de la figura de ubicación avisa de que el dibujo las pone en el
+  extradós y llama «nacionalidad» a la bandera, hasta que se rehaga.
+* **cap03, bandera** — la Orden admite una franja con los colores de la bandera, por encima de las
+  marcas y paralela a la línea de vuelo, o la propia bandera en cualquier superficie exterior, en
+  ambos casos con al menos la altura de las marcas (anexo II D). El capítulo sólo daba la primera
+  forma, y mezclaba las condiciones de las dos.
 
 ### Añadido
 

@@ -31,7 +31,7 @@ Según la normativa española (Orden FOM/1687/2015, que sigue el Anexo 7 de OACI
 
 Si el planeador es muy estilizado y no caben marcas de este tamaño, la autoridad puede aceptar dimensiones reducidas, siempre que sigan siendo legibles (@fig-01-cap03-matricula-ubicacion).
 
-![Ubicación de marcas de matrícula en un planeador](imagenes/01-cap03-ubicacion-matricula.jpg){#fig-01-cap03-matricula-ubicacion}
+![Ubicación de marcas de matrícula en un planeador. Ojo: en el ala, las marcas van en el intradós (la cara inferior), no en la superior como en el dibujo; y la marca de nacionalidad es EC, no la bandera.](imagenes/01-cap03-ubicacion-matricula.jpg){#fig-01-cap03-matricula-ubicacion}
 
 ## La placa de identificación (Fireproof Plate)
 
@@ -47,7 +47,7 @@ Nunca pintes encima de la placa de identificación ni la cubras. Su función es 
 
 ## La bandera de España
 
-Junto a las letras, es obligatorio llevar la **bandera de España**, normalmente en la deriva o en el fuselaje, por encima de la matrícula y paralela a la línea de vuelo. Es el símbolo de la nacionalidad de la aeronave y de la soberanía del estado que la registra.
+Junto a las letras, es obligatorio llevar los colores de **España**, de una de dos formas: una **franja** con los colores de la bandera, en el fuselaje o a través de la deriva, por encima de las marcas y paralela a ellas y a la línea de vuelo; o la **propia bandera**, que puede ir en cualquier superficie exterior, a ambos lados. En los dos casos, su altura es al menos la de las marcas de matrícula (Orden FOM/1687/2015, anexo II D). Es el símbolo de la nacionalidad de la aeronave y de la soberanía del estado que la registra.
 
 ::: {.callout-tip title="Regla de oro"}
 **EC** = Nemotecnia ***E**spaña **C**ivil*. La marca oficial OACI para España es "EC".
@@ -59,6 +59,6 @@ Junto a las letras, es obligatorio llevar la **bandera de España**, normalmente
 Tu planeador tiene una identidad legal única que debe ser visible y resistente:
 
 * **Nacionalidad y matrícula**: en España, **EC-** seguida de tres letras (ej: EC-ABC); cuatro cuando se agoten las series de tres (RD 1029/2025).
-* **Marcas pintadas**: en el fuselaje o la cola (y bajo las alas en algunos casos), más la bandera de España.
+* **Marcas pintadas**: una vez en el intradós del ala y, además, en ambos costados del fuselaje o en la cola; más la franja o la bandera de España.
 * **Placa de identificación**: de material ignífugo, con la matrícula grabada, fijada a la estructura cerca de la entrada.
 :::
