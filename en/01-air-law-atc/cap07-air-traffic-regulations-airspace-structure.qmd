@@ -1,6 +1,6 @@
 ---
 origen: 01-derecho-aereo-atc/cap07-reglamentacion-de-transito-aereo-estructura-del-espacio-aereo.qmd
-origen-commit: 574edb6
+origen-commit: c1fc13b
 ---
 
 # Air traffic regulations: airspace structure
