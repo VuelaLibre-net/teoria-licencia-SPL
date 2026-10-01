@@ -106,6 +106,16 @@ casi todas normativas:
   marcas y paralela a la línea de vuelo, o la propia bandera en cualquier superficie exterior, en
   ambos casos con al menos la altura de las marcas (anexo II D). El capítulo sólo daba la primera
   forma, y mezclaba las condiciones de las dos.
+* **cap04, motoveleros de turismo** — la licencia daba derecho a volar «planeadores y
+  motoveleros». Con la prueba de pericia hecha en planeador, el TMG exige extender las atribuciones
+  (SFCL.150) y tiene su propia recencia (SFCL.160 b)). Se dice así, con tarjeta Anki nueva
+  `spl-y-tmg`.
+* **cap04, Clase 2** — la apertura prometía comparar el médico LAPL y el Clase 2, y sólo se
+  explicaba el primero. Se añade cuándo es obligatoria la Clase 2 (operaciones comerciales con
+  planeador, MED.A.030 c) 4)) y su validez por edades (MED.A.045 a) 3)).
+* **cap04 y su tarjeta Anki, pasajeros** — «el incumplimiento implica sanción y pérdida de
+  cobertura del seguro» salía de un recuadro de Normativa sin que SFCL.115 diga nada de eso. Pasa
+  fuera del recuadro y con el matiz de la póliza.
 
 ### Añadido
 

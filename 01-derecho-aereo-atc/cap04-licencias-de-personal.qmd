@@ -15,7 +15,7 @@
 
 Para volar un planeador legalmente en Europa necesitas una licencia **SPL** (**Sailplane Pilot Licence**), regulada por la Part-SFCL del Reglamento (UE) 2018/1976 (actualizado por el 2020/358).
 
-Puedes obtenerla a los 16 años, aunque ya a los 14 puedes volar solo como alumno. Te da derecho a actuar como piloto al mando (PIC) en planeadores y motoveleros, y en teoría es **vitalicia**: el papel no caduca.
+Puedes obtenerla a los 16 años, aunque ya a los 14 puedes volar solo como alumno. Te da derecho a actuar como piloto al mando (PIC) en planeadores, incluidos los planeadores con motor, y en teoría es **vitalicia**: el papel no caduca. Los **motoveleros de turismo (TMG)** son otra cosa: si hiciste la prueba de pericia en un planeador, para volarlos necesitas extender las atribuciones con formación y una prueba de pericia en TMG (SFCL.150), y su recencia es distinta: en los últimos 24 meses, 12 horas que incluyan, en TMG, 6 horas, 12 despegues y aterrizajes y un vuelo de entrenamiento de 1 hora con instructor (SFCL.160 b)).
 
 Pero que el papel no caduque no significa que puedas volar siempre. Para ejercer tus privilegios debes cumplir dos condiciones **sine qua non**: tener un **certificado médico válido** y cumplir los requisitos de **experiencia reciente**.
 
@@ -24,6 +24,8 @@ Pero que el papel no caduque no significa que puedas volar siempre. Para ejercer
 Sin médico, no hay vuelo. Controlar la fecha de caducidad es responsabilidad tuya.
 
 Vale tanto un certificado **Clase 2** como un **LAPL** (**Light Aircraft Pilot Licence**). Para la mayoría de pilotos deportivos, el LAPL es suficiente y menos exigente. Su validez depende de tu edad: **60 meses** (5 años) si tienes menos de 40, y **24 meses** (2 años) a partir de los 40 (@fig-01-cap04-medical-validity). Ojo con el matiz de MED.A.045: un certificado emitido **antes** de cumplir los 40 deja de ser válido cuando cumples los **42**, aunque los 60 meses no hayan vencido. Si te lo expidieron a los 39, no te vale hasta los 44: caduca a los 42.
+
+La **Clase 2** sólo es obligatoria si vuelas un planeador en operaciones comerciales (MED.A.030 c) 4)). Su validez es de 60 meses hasta los 40 años (con la misma regla de los 42), 24 meses entre los 40 y los 50 (un certificado expedido antes de los 50 deja de valer a los 51) y 12 meses a partir de los 50 (MED.A.045).
 
 ::: {.callout-warning title="Seguridad"}
 Si tu salud cambia (operación, enfermedad grave, embarazo, nuevas gafas), tu certificado médico puede quedar en suspenso. Consulta siempre con un Médico Examinador Aéreo (AME) antes de volver a volar.
@@ -63,8 +65,10 @@ Llevar a alguien contigo es una gran responsabilidad, y la licencia recién saca
 Y una vez cumplido eso, hay un requisito de recencia: **3 lanzamientos en los últimos 90 días**. Si llevas tres meses sin volar, haz unos vuelos solo antes de invitar a nadie.
 
 ::: {.callout-important title="Normativa"}
-Reglamentos (UE) 2018/1976 y 2020/358 (SFCL.115): el titular de una SPL solo transportará pasajeros si, tras obtener la licencia, ha completado 10 horas de vuelo o 30 lanzamientos como PIC **y un vuelo de entrenamiento demostrando la competencia a un FI(S)** (o posee certificado FI(S)), además de cumplir la recencia de SFCL.160(e). El incumplimiento implica sanción y pérdida de cobertura del seguro.
+Reglamentos (UE) 2018/1976 y 2020/358 (SFCL.115): el titular de una SPL solo transportará pasajeros si, tras obtener la licencia, ha completado 10 horas de vuelo o 30 lanzamientos como PIC **y un vuelo de entrenamiento demostrando la competencia a un FI(S)** (o posee certificado FI(S)), además de cumplir la recencia de SFCL.160(e).
 :::
+
+Volar con pasajeros sin cumplirlo es una infracción de la Ley de Seguridad Aérea y, según tu póliza, puede dejarte sin cobertura.
 
 ::: {.postit}
 **Resumen del capítulo: licencias**
