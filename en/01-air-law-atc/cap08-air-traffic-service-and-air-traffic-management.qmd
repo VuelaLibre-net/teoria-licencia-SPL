@@ -42,11 +42,11 @@ In Spain, the ACC also provides the en-route flight information service (in the 
 
 This is the service gliders get most of the time, in class G or E. Controllers or flight information service officers (FISOs) provide it, and what they give you is **advice and information**: whether there is traffic, what the weather is doing, whether danger areas are active…
 
-Here the responsibility is **yours**. FIS warns you (“traffic at 12 o'clock”), but seeing and avoiding is up to you. Nobody separates you from anyone.
+Here the responsibility is **yours**. FIS warns you (“traffic at 12 o'clock”, *tráfico a las 12*), but seeing and avoiding is up to you. Nobody separates you from anyone.
 
 ::: {.callout-note title="Airmanship"}
-* **ATC**: “Turn heading 360 for traffic”. (A mandatory instruction: you comply, but see and avoid is still up to you.)
-* **FIS**: “Traffic converging on your right”. (Information; YOU decide what to do to avoid a collision.)
+* **ATC**: “Turn heading 360 for traffic” (*Vire rumbo 360 por tráfico*). (A mandatory instruction: you comply, but see and avoid is still up to you.)
+* **FIS**: “Traffic converging on your right” (*Tráfico convergiendo a su derecha*). (Information; YOU decide what to do to avoid a collision.)
 :::
 
 ## 3. Alerting service (ALRS)

@@ -36,6 +36,8 @@ rule, reporting flow and scale of infringements), and five carry a warning in th
 
 ### Changed
 
+* **cap07 and cap08, radio examples** — the RMZ call and the ATC and FIS examples now carry
+  their Spanish equivalent in italics after the English, as in Book 4.
 * **cap01, cap02, cap04, cap05, cap09, cap14** — some literal phrasings reworded to read less
   like a translation. No figures, regulatory quotes or glossary terms change.
 * **Epigraph and cap01–cap14, including the chapter summaries** — prose revised throughout for

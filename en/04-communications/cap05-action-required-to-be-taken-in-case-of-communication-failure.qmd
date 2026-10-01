@@ -67,7 +67,7 @@ Sometimes only the receiver has failed: your voice goes out normally, but you re
 
 The idea is simple: you keep transmitting your position and intentions on the right frequency, but every message is preceded by a warning:
 
-*«Transmitiendo a ciegas debido a fallo del receptor. Transmitiendo a ciegas. Torre de San Javier, planeador EC-EPE, a 5 millas del punto Sierra a 2.000 pies, intención entrar en zona y proceder a inicial de pista 23 para toma completa.»* (“Transmitting blind due to receiver failure. Transmitting blind. San Javier Tower, glider EC-EPE, 5 miles from point Sierra at 2,000 feet, intending to enter the zone and proceed to initial for runway 23 for a full-stop landing.”)
+“Transmitting blind due to receiver failure. Transmitting blind. San Javier Tower, glider EC-EPE, 5 miles from point Sierra at 2,000 feet, intending to enter the zone and proceed to initial for runway 23 for a full-stop landing.” (*Transmitiendo a ciegas debido a fallo del receptor. Transmitiendo a ciegas. Torre de San Javier, planeador EC-EPE, a 5 millas del punto Sierra a 2.000 pies, intención entrar en zona y proceder a inicial de pista 23 para toma completa.*)
 
 Transmit each complete message twice: with no acknowledgement, repetition is your only guarantee that it gets through whole. And repeat the warning at each change of circuit leg or when you start the descent on final. The controller may be receiving you perfectly on the ground and coordinating traffic from what you describe, even though you cannot confirm it.
 
@@ -77,5 +77,5 @@ Transmit each complete message twice: with no acknowledgement, repetition is you
 * **Code 7600**: once the radio failure is confirmed, select 7600 on the transponder. The aircraft will stand out on the secondary surveillance radar (SSR) screen as a NORDO case.
 * **In-flight procedure**: stay in VMC. Land preferably at an uncontrolled aerodrome. If you must go to a controlled one, fly past the Tower away from operating areas, rock your wings and watch for the light signals. Telephone as soon as you land.
 * **Light signals (SERA)**: *steady green* (in flight) = cleared to land. *Steady red* (in flight) = give way. *Red flashes* (in flight) = aerodrome unsafe. *Green flashes* (in flight) = return for landing. *White flashes* (in flight) = land at this aerodrome. The corresponding signals on the ground mean different things: *steady green* = cleared for take-off; *green flashes* = cleared to taxi.
-* **Blind transmission**: if only the receiver has failed, transmit your position and intentions on the right frequency, starting the message with *«Transmitiendo a ciegas debido a fallo del receptor»* (“Transmitting blind due to receiver failure”). Repeat it at each change of circuit leg.
+* **Blind transmission**: if only the receiver has failed, transmit your position and intentions on the right frequency, starting the message with “Transmitting blind due to receiver failure” (*Transmitiendo a ciegas debido a fallo del receptor*). Repeat it at each change of circuit leg.
 :::

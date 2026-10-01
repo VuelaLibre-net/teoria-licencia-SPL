@@ -13,7 +13,7 @@ A wrong readback can make the controller believe you have vacated the runway whe
 
 Over seven chapters, radio procedure becomes one more flight instrument, and once you master it, it frees your attention for what matters.
 
-The radio examples in this book are given in Spanish, as you will hear and use them at Spanish airfields, and each one is followed by its English translation. Spanish radio phrases appear in italics between «angle quotes»; the translation follows in “inverted commas”.
+The radio examples in this book are given first in English, in “inverted commas”, and then, in italics and in brackets, in Spanish, as you will hear and use them at Spanish airfields. Each version follows the phraseology of its own language, so they are equivalent rather than word-for-word translations.
 <!-- GUÍA-DE-LECTURA: desde esta marca hasta el final, el texto es idéntico en
      los libros de la edición inglesa. Si lo editas, propágalo a los demás.
      Todo lo anterior es propio de este libro. -->

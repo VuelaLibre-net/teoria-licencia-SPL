@@ -30,7 +30,7 @@ Under ICAO rules (Annex 10) and SERA (*Standardised European Rules of the Air*),
 * All clearances and permissions (take-offs, landings, runway crossings).
 * Heading, speed, altitude or flight level instructions.
 * The runway in use.
-* The altimeter setting (**QNH** or QFE). A QNH is never answered with *«Recibido»* (“Roger”): you repeat the figure, without exception.
+* The altimeter setting (**QNH** or QFE). A QNH is never answered with “Roger” (*Recibido*): you repeat the figure, without exception.
 * The transponder code (**squawk code**), when ATC assigns you one.
 * Frequency change instructions.
 * Transfers to other ATC units.
@@ -49,10 +49,10 @@ There is no room for colloquial language on the radio. Every word has an exact m
 
 These are the terms you need to know from day one, as they are said on Spanish radio:
 
-* ***Afirma*** (Affirm): “Yes”, “Permission granted” or “That is correct”. It is the standard word in the official Spanish phraseology (AESA's phraseology and communications guide). Its English equivalent is **AFFIRM**, which ICAO shortened from **Affirmative** so that it could not be mistaken for **Negative** on a noisy frequency. In practice you will also hear *«Afirmo»*; what you must always avoid is *«Afirmativo»*.
+* **AFFIRM** (*Afirma*): “Yes”, “Permission granted” or “That is correct”. ICAO shortened it from **Affirmative** so that it could not be mistaken for **Negative** on a noisy frequency. In Spanish, *Afirma* is the standard word in the official phraseology (AESA's phraseology and communications guide); you will also hear *Afirmo*, but always avoid “Affirmative” (*Afirmativo*).
 * ***Negativo*** (Negative): “No”, “Permission not granted” or “That is not correct”.
 * **Wilco** (**Will comply**): “Understood, I will comply”. You use it when you receive a long instruction that does not require a mandatory readback.
-* ***Solicito*** (Request): to ask for a clearance, a service or information. For example: *«Solicito autorización de rodaje»* (“Request taxi”).
+* ***Solicito*** (Request): to ask for a clearance, a service or information. For example: “Request taxi” (*Solicito autorización de rodaje*).
 * ***Recibido*** (**Roger**): “I have received your transmission”. Careful: it is not an answer to a question, and it does not replace a readback when one is mandatory.
 
 ::: {.callout-tip title="Golden rule"}
@@ -69,29 +69,29 @@ A number misheard on the radio can be a wrong QNH, a wrong frequency or a flight
 
 Numbers are said **digit by digit**, without grouping:
 
-* 34: *«tres cuatro»* (“three four”), never *«treinta y cuatro»* (“thirty-four”)
-* 2576: *«dos cinco siete seis»* (“two five seven six”)
+* 34: “three four” (*tres cuatro*), never “thirty-four” (*treinta y cuatro*)
+* 2576: “two five seven six” (*dos cinco siete seis*)
 
 The exception: whole hundreds and thousands are said as units:
 
-* 200: *«dos cientos»* (“two hundred”)
-* 2000: *«dos mil»* (“two thousand”)
-* 2600: *«dos mil seiscientos»* (“two thousand six hundred”)
-* 25000: *«dos cinco mil»* (“two five thousand”)
+* 200: “two hundred” (*doscientos*)
+* 2000: “two thousand” (*dos mil*)
+* 2600: “two thousand six hundred” (*dos mil seiscientos*)
+* 25000: “two five thousand” (*dos cinco mil*)
 
 ### Transmitting times
 
 In aviation the time is always **UTC** (*Coordinated Universal Time*), also called Zulu. If there is no risk of confusion, the minutes are enough. If there could be ambiguity, you use all four digits:
 
-* 09:20: *«dos cero»* (“two zero”), or *«cero nueve dos cero»* (“zero nine two zero”) if it could be confused
-* 17:55: *«cinco cinco»* (“five five”), or *«uno siete cinco cinco»* (“one seven five five”)
+* 09:20: “two zero” (*dos cero*), or “zero nine two zero” (*cero nueve dos cero*) if it could be confused
+* 17:55: “five five” (*cinco cinco*), or “one seven five five” (*uno siete cinco cinco*)
 
 ### Transmitting frequencies
 
-Digit by digit, with the word *«coma»* (“decimal”) for the decimal point:
+Digit by digit, with the word “decimal” (*coma*) for the decimal point:
 
-* 123.500: *«uno dos tres coma cinco cero cero»* (“one two three decimal five zero zero”)
-* 124.400: *«uno dos cuatro coma cuatro cero cero»* (“one two four decimal four zero zero”)
+* 123.500: “one two three decimal five zero zero” (*uno dos tres coma cinco cero cero*)
+* 124.400: “one two four decimal four zero zero” (*uno dos cuatro coma cuatro cero cero*)
 
 ::: {.callout-tip title="Golden rule"}
 Before leaving a frequency, always read back the new value in full. Both sides then know the pilot has the right channel before turning the dial.
@@ -120,8 +120,8 @@ For gliders, the callsign is the registration assigned by the registering author
 
 How to identify yourself:
 
-* **First contact**: the full registration, spelt out in the ICAO phonetic alphabet. *«Eco Charlie Delta Papa Eco»* (Spanish radio writes *Eco* for Echo).
-* **Abbreviated registration**: in later contacts you may use the first letter of the national prefix plus the last two letters of the registration. *«Eco Papa Eco»*.
+* **First contact**: the full registration, spelt out in the ICAO phonetic alphabet. “Echo Charlie Delta Papa Echo” (*Eco Charlie Delta Papa Eco*: Spanish radio writes *Eco* for Echo).
+* **Abbreviated registration**: in later contacts you may use the first letter of the national prefix plus the last two letters of the registration: “Echo Papa Echo” (*Eco Papa Eco*).
 * **Who opens the door**: you may abbreviate only once the ground station has used the abbreviated registration to address you. Until then, always the full callsign.
 
 Always add your callsign at the end of every readback, so that the controller can confirm the right aircraft received the instruction, and not another one that also heard it.
@@ -156,8 +156,8 @@ Always add your callsign at the end of every readback, so that the controller ca
 
 * **Introduction**: aeronautical voice communications use VHF (118–136.975 MHz) and are governed by ICAO Annex 10. Channel spacing in Europe is 8.33 kHz (Regulation (EU) No 1079/2012). The ground station is the “aeronautical station”; the pilot operates from the “aircraft station”.
 * **The readback**: repeating ATC instructions word for word is mandatory for: clearances, headings/altitudes, runway in use, QNH, frequency changes, ATC transfers and the transponder code when one is assigned.
-* **Standard phraseology**: the radio has no room for colloquial language. Key Spanish terms: ***Afirma*** (Affirm), ***Negativo*** (Negative), **Wilco**, ***Solicito*** (Request), ***Recibido*** (Roger). *«Recibido»* never replaces a mandatory readback, and *«Afirmativo»* is always avoided.
+* **Standard phraseology**: the radio has no room for colloquial language. Key terms: **AFFIRM** (*Afirma*), **NEGATIVE** (*Negativo*), **WILCO**, **REQUEST** (*Solicito*), **ROGER** (*Recibido*). “Roger” (*Recibido*) never replaces a mandatory readback, and “Affirmative” (*Afirmativo*) is always avoided.
 * **Radio discipline**: Think → Listen → Press and count one → Speak. Fewer than 100 words per minute, message prepared before pressing the PTT.
-* **Transmitting numbers, times and frequencies**: numbers digit by digit (*«tres cuatro»*, “three four”, never *«treinta y cuatro»*); whole hundreds and thousands as units (*«dos mil seiscientos»*, “two thousand six hundred”). Times in UTC, usually just the minutes. Frequencies with *«coma»* (“decimal”): *«uno dos cuatro coma cuatro cero»*. Always read back the new channel before changing.
+* **Transmitting numbers, times and frequencies**: numbers digit by digit (“three four” (*tres cuatro*), never “thirty-four” (*treinta y cuatro*)); whole hundreds and thousands as units (“two thousand six hundred” (*dos mil seiscientos*)). Times in UTC, usually just the minutes. Frequencies with “decimal” (*coma*): “one two four decimal four zero” (*uno dos cuatro coma cuatro cero*). Always read back the new channel before changing.
 * **Identification**: the registration is the aircraft's name. First contact: full registration in phonetics. Abbreviated registration: only once the tower uses it first.
 :::

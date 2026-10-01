@@ -13,7 +13,7 @@ file it was translated from (`origen-commit`). Terminology follows `en/terminolo
 
 ## [In progress]
 
-**What to reread:** the glossary entry *Release failure (towhook jam)*, the licence and the bibliography. The rest is wording only.
+**What to reread:** the glossary entry *Release failure (towhook jam)*, the winch calls in cap02, the licence and the bibliography. The rest is wording only.
 
 ### Fixed
 
@@ -30,6 +30,9 @@ file it was translated from (`origen-commit`). Terminology follows `en/terminolo
 
 ### Changed
 
+* **cap02, winch calls** — given first in English and then in Spanish, in italics, as in
+  Book 4. The full-power call is now the standard “All out, all out, all out” instead of a literal
+  “Launch, launch, launch”, and “Glider free” becomes “Glider released”.
 * **cap01–cap08** — a pass on the prose: over twenty long sentences split into shorter ones.
   Content, figures and terminology unchanged.
 * **Introduction and cap01–cap08** — a second pass on the prose: the chapter openings rewritten

@@ -17,10 +17,10 @@ It is a voice recording (usually synthetic) that plays in a continuous loop on i
 * Current **weather conditions**: wind, visibility, cloud, temperature, dew point and QNH.
 * **Operational information**: works on taxiways, wind shear warnings or bird activity.
 
-Each broadcast carries a letter of the phonetic alphabet as its **information code** (*«Información Bravo»*, “Information Bravo”, for example). When the conditions or the runway in use change significantly, the broadcast moves on to the next letter (*«Información Charlie»*).
+Each broadcast carries a letter of the phonetic alphabet as its **information code** (“Information Bravo” (*Información Bravo*), for example). When the conditions or the runway in use change significantly, the broadcast moves on to the next letter (“Information Charlie”, *Información Charlie*).
 
 ::: {.callout-tip title="Golden rule"}
-Listen to the whole ATIS **before** calling the Tower. Then include the code in your first call: *«Jerez TWR, velero EC-DPE, a 10 millas al norte, con información Bravo, solicito…»* (“Jerez Tower, glider EC-DPE, 10 miles north, with information Bravo, request…”). The controller knows you already have all the data and can get straight to the point.
+Listen to the whole ATIS **before** calling the Tower. Then include the code in your first call: “Jerez Tower, glider EC-DPE, 10 miles north, with information Bravo, request…” (*Jerez Torre, velero EC-DPE, a 10 millas al norte, con información Bravo, solicito…*). The controller knows you already have all the data and can get straight to the point.
 :::
 
 ![The sequence of listening to the ATIS before contacting the Tower](imagenes/04-cap04-atis-escucha.jpg){#fig-04-cap04-atis-escucha}
@@ -58,7 +58,7 @@ A glider's altimeter is a barometer: it needs a reference pressure in its window
 
 When you work out your final glide or the crosswind component, you need to know which reference the wind is given in. It is not always the same (@fig-04-cap04-viento-magnetico-geografico).
 
-* **Wind given by radio (Tower / ATIS):** the wind direction for approach and take-off operations is given relative to **magnetic north** (*«Viento 240 grados, 15 nudos»*, “Wind 240 degrees, 15 knots”). That makes sense: both the cockpit compass and the runway numbers use magnetic variation, so you can compare the runway direction with the wind directly, without corrections.
+* **Wind given by radio (Tower / ATIS):** the wind direction for approach and take-off operations is given relative to **magnetic north** (“Wind 240 degrees, 15 knots” (*Viento 240 grados, 15 nudos*)). That makes sense: both the cockpit compass and the runway numbers use magnetic variation, so you can compare the runway direction with the wind directly, without corrections.
 * **Written wind (weather charts / METAR in text / VOLMET):** if you look up the wind on a weather website, on an upper-wind chart (GRIB) or in a METAR/TAF in text form (including the one broadcast by VOLMET), the direction is given relative to **true (geographic) north**. VOLMET broadcasts METARs and TAFs in text form, so its wind is also **true**, different from the operational wind the Tower gives you.
 
 ![The difference between magnetic wind (radio) and true wind (charts)](imagenes/04-cap04-viento-mag-geo.jpg){#fig-04-cap04-viento-magnetico-geografico}
@@ -85,7 +85,7 @@ The SERA Regulation requires the pilot-in-command to report without delay any ha
 ::: {.postit}
 **Chapter summary: weather terminology**
 
-* **ATIS**: automatic voice broadcast at airports. Listening to it before calling gives you the runway in use, wind, QNH and the **information code** (e.g. *«Información Bravo»*). It saves the controller time and speeds up communication.
+* **ATIS**: automatic voice broadcast at airports. Listening to it before calling gives you the runway in use, wind, QNH and the **information code** (e.g. “Information Bravo”, *Información Bravo*). It saves the controller time and speeds up communication.
 * **VOLMET**: a station that broadcasts METARs, TAFs and SIGMETs for several airports in a loop. It lets you plan your arrival or choose an alternate without crowding the control frequency.
 * **Key concepts**:
   * **CAVOK**: visibility ≥ 10 km, no low cloud, no significant weather (in radio slang, *Ceiling and Visibility OK*, which is not the official name). The best possible conditions for VFR.

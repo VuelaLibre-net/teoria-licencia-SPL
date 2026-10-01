@@ -55,7 +55,7 @@ Sometimes the airspace is class G, and free, but the authority wants a little or
 * **TMZ** (**Transponder Mandatory Zone**): you must carry and operate a **transponder** with the required capabilities. A listening watch or radio contact is only mandatory if the zone is also an RMZ or the publication says so.
 
 ::: {.callout-tip title="Golden rule"}
-If you see an RMZ on the chart, do not enter silently. Call the frequency shown **before entering** and report: “Juliana Information, EC-OJE, glider, five miles north of the RMZ, four thousand five hundred feet, will enter the RMZ southbound…”.
+If you see an RMZ on the chart, do not enter silently. Call the frequency shown **before entering** and report: “Juliana Information, EC-OJE, glider, five miles north of the RMZ, four thousand five hundred feet, will enter the RMZ southbound…” (*Juliana Información, EC-OJE, planeador, cinco millas al norte de la RMZ, cuatro mil quinientos pies, entraré en la RMZ rumbo sur…*).
 :::
 
 ## Prohibited, restricted and danger areas

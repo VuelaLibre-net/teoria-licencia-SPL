@@ -13,7 +13,7 @@ translated from (`origen-commit`). Terminology follows `en/terminologia.yml`.
 
 ## [In progress]
 
-**What to reread:** **cap03 and cap06** (false emergencies), **cap04** (CAVOK), the glossary entry *CAVOK*, the licence and the bibliography. The rest is wording only.
+**What to reread:** **cap03 and cap06** (false emergencies), **cap04** (CAVOK), the glossary entry *CAVOK*, the licence and the bibliography, and the radio examples in the introduction and cap01–cap07, now in English first. The rest is wording only.
 
 ### Fixed
 
@@ -31,6 +31,11 @@ translated from (`origen-commit`). Terminology follows `en/terminologia.yml`.
 
 ### Changed
 
+* **Introduction, cap01–cap07, appendix and glossary, radio examples** — every message is
+  now given first in English, in inverted commas, followed by the Spanish equivalent in italics
+  and brackets. Each version follows the phraseology of its own language: for example, the
+  English clearance no longer opens with “roger”, and the Spanish uses *doscientos*,
+  *Jerez Torre* and *contacte con*. The introduction explains the convention.
 * **cap01, cap02, cap03, cap04 and cap07** — a few sentences reworded to read more naturally.
   The Spanish radio phrases, figures, rules and terminology do not change.
 * **Introduction and cap01–cap07** — a fuller pass on the English prose: about thirty sentences

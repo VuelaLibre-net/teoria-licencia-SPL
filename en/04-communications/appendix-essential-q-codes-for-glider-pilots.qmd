@@ -13,7 +13,7 @@ As a glider pilot you will come across them mainly in two places: **altimetry** 
 
 | Code | Meaning |
 | --- | --- |
-| **QNH** | Altimeter sub-scale setting to show altitude above mean sea level (MSL). It is the standard setting for VFR below the transition altitude. With QNH set, the altimeter shows your altitude AMSL in flight, which is what you need to respect airspace ceilings. When ATC gives you a QNH, read the full figure back; *«Recibido»* (“Roger”) is not enough. |
+| **QNH** | Altimeter sub-scale setting to show altitude above mean sea level (MSL). It is the standard setting for VFR below the transition altitude. With QNH set, the altimeter shows your altitude AMSL in flight, which is what you need to respect airspace ceilings. When ATC gives you a QNH, read the full figure back; “Roger” (*Recibido*) is not enough. |
 | **QFE** | Atmospheric pressure at aerodrome elevation or at the runway threshold. With QFE set, the altimeter reads zero feet on the ground at that aerodrome. In flight it shows height above that reference aerodrome, not above the ground you are flying over. Uncommon in European aviation today; QNH is the reference setting in ATS communications. |
 : Altimetry Q codes
 

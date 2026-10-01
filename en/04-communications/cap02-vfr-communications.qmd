@@ -19,8 +19,8 @@ Here safety comes from the **blind broadcast**: you transmit your position, alti
 
 The basics:
 
-* **Whom you call**: the name of the aerodrome, not “Tower”. *«Fuentemilanos, buenos días…»* (“Fuentemilanos, good morning…”) or *«Santa Cilia, tráfico…»* (“Santa Cilia traffic…”)
-* **What you say**: callsign, position, altitude and intention. *«…velero Eco Papa Eco, a 5 minutos al este del campo a 1.500 metros, notificaré entrando al circuito.»* (“…glider Echo Papa Echo, 5 minutes east of the field at 1,500 metres, will report joining the circuit.”)
+* **Whom you call**: the name of the aerodrome, not “Tower”. “Fuentemilanos, good morning…” (*Fuentemilanos, buenos días…*) or “Santa Cilia traffic…” (*Santa Cilia, tráfico…*)
+* **What you say**: callsign, position, altitude and intention. “…glider Echo Papa Echo, 5 minutes east of the field at 1,500 metres, will report joining the circuit.” (*…velero Eco Papa Eco, a 5 minutos al este del campo a 1.500 metros, notificaré entrando al circuito.*)
 
 ::: {.callout-important title="Regulation"}
 Even where a radio operator provides an AFIS (**Aerodrome Flight Information Service**) at a field, that operator **does not provide control**, only information (wind, runway in use, weather). The final decision and the responsibility for separation remain entirely with the pilot-in-command.
@@ -62,11 +62,11 @@ Unless the aerodrome's visual approach chart (*VAC*) says otherwise, because of 
 
 These are the reports you make around the circuit:
 
-1. **Joining the circuit**: call before you enter the vicinity. *«Fuentemilanos, Eco Papa Eco, a tres minutos, notificaré entrando en circuito»* (“Fuentemilanos, Echo Papa Echo, three minutes out, will report joining the circuit”).
-2. **Downwind** (*viento en cola*): the leg parallel to the runway but in the opposite direction to the landing. Abeam the runway numbers or halfway along the leg, you call: *«Fuentemilanos, Eco Papa Eco, viento en cola pista 16»* (“Fuentemilanos, Echo Papa Echo, downwind runway 16”). In a glider, this report must be made from a position that guarantees you can glide to the runway.
-3. **Base leg** (*tramo base*): the leg perpendicular to the centreline, where you configure the glider for landing. *«Fuentemilanos, Eco Papa Eco, virando a base 16»* (“Fuentemilanos, Echo Papa Echo, turning base 16”).
-4. **Final approach** (*final*): lined up with the runway, after the last turn. *«Fuentemilanos, Eco Papa Eco, en final 16»* (“Fuentemilanos, Echo Papa Echo, final 16”).
-5. **Runway vacated** (*pista libre*): on the ground and off the active runway. *«Fuentemilanos, Eco Papa Eco, pista 16 libre»* (“Fuentemilanos, Echo Papa Echo, runway 16 vacated”).
+1. **Joining the circuit**: call before you enter the vicinity. “Fuentemilanos, Echo Papa Echo, three minutes out, will report joining the circuit” (*Fuentemilanos, Eco Papa Eco, a tres minutos, notificaré entrando en circuito*).
+2. **Downwind** (*viento en cola*): the leg parallel to the runway but in the opposite direction to the landing. Abeam the runway numbers or halfway along the leg, you call: “Fuentemilanos, Echo Papa Echo, downwind runway 16” (*Fuentemilanos, Eco Papa Eco, viento en cola pista 16*). In a glider, this report must be made from a position that guarantees you can glide to the runway.
+3. **Base leg** (*tramo base*): the leg perpendicular to the centreline, where you configure the glider for landing. “Fuentemilanos, Echo Papa Echo, turning base 16” (*Fuentemilanos, Eco Papa Eco, virando a base 16*).
+4. **Final approach** (*final*): lined up with the runway, after the last turn. “Fuentemilanos, Echo Papa Echo, final 16” (*Fuentemilanos, Eco Papa Eco, en final 16*).
+5. **Runway vacated** (*pista libre*): on the ground and off the active runway. “Fuentemilanos, Echo Papa Echo, runway 16 vacated” (*Fuentemilanos, Eco Papa Eco, pista 16 libre*).
 
 ::: {.callout-tip title="Golden rule"}
 At fields with a lot of gliding activity, the glider circuit may be flown on one side of the runway and the powered circuit (tugs included) on the other. Always check the aerodrome chart before the flight.
@@ -90,12 +90,12 @@ If the field has air-to-ground radio with the winch, the sequence is:
 
 1. Canopy closed, aircraft ready. You transmit:
   
-  *«Torno, velero EC-DPE, doble mando, listo para tensar.»* (“Winch, glider EC-DPE, two-seater, ready to take up slack.”)
+  “Winch, glider EC-DPE, dual, ready to take up slack.” (*Torno, velero EC-DPE, doble mando, listo para tensar.*)
 2. The operator takes up the slack gently. Airbrakes closed, wings level, you confirm:
   
-  *«Remolcando, remolcando, remolcando.»* (“All out, all out, all out.”) The winch applies full power.
-3. When you release the cable: *«Velero libre, Eco Papa Eco.»* (“Glider released, Echo Papa Echo.”)
-4. If something goes wrong: *«Stop torno, stop torno, stop torno.»* (“Stop winch, stop winch, stop winch.”)
+  “All out, all out, all out.” (*Remolcando, remolcando, remolcando.*) The winch applies full power.
+3. When you release the cable: “Glider released, Echo Papa Echo.” (*Velero libre, Eco Papa Eco.*)
+4. If something goes wrong: “Stop winch, stop winch, stop winch.” (*Stop torno, stop torno, stop torno.*)
 
 Without air-to-ground radio, the **wing runner** coordinates with visual signals:
 
@@ -114,14 +114,14 @@ If the cable breaks or the winch fails, lower the nose at once to regain speed. 
 
 Phraseology varies from one aerodrome to another; always check the local instructions. A common sequence:
 
-*— Glider pilot: «Remolcadora Delta Victor Yankee, planeador Eco Papa Eco, doble mando, listo tensando.»* (“Tug Delta Victor Yankee, glider Echo Papa Echo, two-seater, ready, take up slack.”)
+— Glider pilot: “Tug Delta Victor Yankee, glider Echo Papa Echo, dual, ready, take up slack.” (*Remolcadora Delta Victor Yankee, planeador Eco Papa Eco, doble mando, listo tensando.*)
 
-*— Tug: «Eco Papa Eco, tensando.»* (“Echo Papa Echo, taking up slack.”)
+— Tug: “Echo Papa Echo, taking up slack.” (*Eco Papa Eco, tensando.*)
 
-*— Glider pilot: «Remolcando.»* (“All out.”)
+— Glider pilot: “All out.” (*Remolcando.*)
 
 On release:
-*— «Remolcadora Delta Victor Yankee, velero libre.»* (“Tug Delta Victor Yankee, glider released.”)
+— “Tug Delta Victor Yankee, glider released.” (*Remolcadora Delta Victor Yankee, velero libre.*)
 
 If the glider **cannot release the cable**, the in-flight distress signal is: rock the wings hard and move below and to the left of the tug, so that the tug pilot can release it from their end.
 
@@ -145,7 +145,7 @@ In controlled airspace such as a CTR, only the controller can issue instructions
 * Landing.
 
 ::: {.callout-warning title="Safety"}
-A clearance to “line up” or “line up and wait” on the active runway **never** amounts to a take-off clearance. You must stay still at the threshold until you hear the words *«Autorizado a despegar»* (**Cleared for take-off**) explicitly. If you have any doubt, ask: *«Confirme, ¿autorizado salida?»* (“Confirm, cleared for departure?”). Never use the word *despegar* (“take off”) except to read back an express clearance.
+A clearance to “line up” or “line up and wait” on the active runway **never** amounts to a take-off clearance. You must stay still at the threshold until you hear the words **“Cleared for take-off”** (*Autorizado a despegar*) explicitly. If you have any doubt, ask: “Confirm, cleared for departure?” (*Confirme, ¿autorizado a salir?*). Never use the words “take off” (*despegar*) except to read back an express clearance.
 :::
 
 ### The flight plan (FPL)
@@ -172,8 +172,8 @@ These are the **visual reporting points**: physical references on the ground (a 
 
 Call the Tower 3 to 5 minutes before you reach the CTR entry point:
 
-*— «Jerez Torre, EC-DPE, sobre punto Sierra a 1000 pies, para entrar en zona y aterrizar.»* (“Jerez Tower, EC-DPE, over point Sierra at 1,000 feet, to enter the zone and land.”)
-*— «EC-DPE, recibido, autorizado a entrar en zona por punto Sierra a 1000 pies o inferior, notifique viento en cola derecha pista 02.»* (“EC-DPE, roger, cleared to enter the zone via point Sierra at 1,000 feet or below, report right-hand downwind runway 02.”)
+— “Jerez Tower, EC-DPE, over point Sierra at 1,000 feet, to enter the zone and land.” (*Jerez Torre, EC-DPE, sobre punto Sierra a 1000 pies, para entrar en zona y aterrizar.*)
+— “EC-DPE, cleared to enter the zone via point Sierra at 1,000 feet or below, report right-hand downwind runway 02.” (*EC-DPE, autorizado a entrar en zona por punto Sierra a 1000 pies o inferior, notifique viento en cola derecha pista 02.*)
 
 From then on you follow the Tower's instructions on altitude and route. No improvising.
 
@@ -184,26 +184,26 @@ We saw it in chapter 1: the **readback** is not optional. In controlled airspace
 Every ATC instruction that affects your flight path, the active runway, the pressure setting or radar identification must be **read back** word for word, ending with your callsign.
 
 If the Tower says:
-*«Eco Papa Eco, autorizado a aterrizar pista 36.»* (“Echo Papa Echo, cleared to land runway 36.”)
+“Echo Papa Echo, cleared to land runway 36.” (*Eco Papa Eco, autorizado a aterrizar pista 36.*)
 
 Your readback is:
-*«Autorizado a aterrizar pista 36, Eco Papa Eco.»* (“Cleared to land runway 36, Echo Papa Echo.”)
+“Cleared to land runway 36, Echo Papa Echo.” (*Autorizado a aterrizar pista 36, Eco Papa Eco.*)
 The wind need not be read back, but the runway clearance must.
 
 ::: {.callout-tip title="Golden rule"}
-If a controller's instruction includes a landing or take-off runway clearance, a heading or altitude to maintain, a QNH or a transponder code, your reply on the radio **CANNOT be “Wilco”** or *«Copiado»* (“Copied”), however you note it down, mentally or on your kneeboard. You must read those parameters back exactly as they were given to you.
+If a controller's instruction includes a landing or take-off runway clearance, a heading or altitude to maintain, a QNH or a transponder code, your reply on the radio **CANNOT be “Wilco”** or “Copied” (*Copiado*), however you note it down, mentally or on your kneeboard. You must read those parameters back exactly as they were given to you.
 :::
 
 ### Phraseology exercises
 
-In communications, theory is not enough: you have to practise the voice. Work out these transmissions before looking at the solution; imagine you are the glider **EC-EPE** (*«Eco Papa Eco»*).
+In communications, theory is not enough: you have to practise the voice. Work out these transmissions before looking at the solution; imagine you are the glider **EC-EPE**, “Echo Papa Echo” (*Eco Papa Eco*).
 
 ::: {.ejercicio}
 **Exercise 1 — Reading back a clearance.**
 
-The Tower tells you: *«Eco Papa Eco, ruede al punto de espera pista 30, QNH 1019, notifique listo.»* (“Echo Papa Echo, taxi to holding point runway 30, QNH 1019, report ready.”) What is your correct readback?
+The Tower tells you: “Echo Papa Echo, taxi to holding point runway 30, QNH 1019, report ready.” (*Eco Papa Eco, ruede al punto de espera pista 30, QNH 1019, notifique listo.*) What is your correct readback?
 
-**Solution.** *«Al punto de espera pista 30, QNH 1019, notificaré listo, Eco Papa Eco.»* (“To holding point runway 30, QNH 1019, will report ready, Echo Papa Echo.”) You read back the taxi instruction, the runway and the QNH; the callsign closes the transmission. A plain *«Recibido»* (“Roger”) here would be a deviation from procedure.
+**Solution.** “To holding point runway 30, QNH 1019, will report ready, Echo Papa Echo.” (*Al punto de espera pista 30, QNH 1019, notificaré listo, Eco Papa Eco.*) You read back the taxi instruction, the runway and the QNH; the callsign closes the transmission. A plain “Roger” (*Recibido*) here would be a deviation from procedure.
 :::
 
 ::: {.ejercicio}
@@ -211,15 +211,15 @@ The Tower tells you: *«Eco Papa Eco, ruede al punto de espera pista 30, QNH 101
 
 You are going to enter the CTR of a controlled aerodrome from visual reporting point November. Put these elements of your initial call in order and complete them: intentions, callsign, position and altitude, and whom you are calling.
 
-**Solution.** The order is **whom → who I am → where I am → what I want**: *«Torre de [aeródromo], Eco Papa Eco, planeador, sobre November, 900 metros QNH, solicito entrada al CTR para tránsito hacia el sur.»* (“[Aerodrome] Tower, Echo Papa Echo, glider, over November, 900 metres QNH, request entry to the CTR for transit southbound.”) Wait for the clearance before entering the CTR: in controlled airspace you go in with a clearance, not on your own initiative.
+**Solution.** The order is **whom → who I am → where I am → what I want**: “[Aerodrome] Tower, Echo Papa Echo, glider, over November, 900 metres QNH, request entry to the CTR for transit southbound.” (*Torre de [aeródromo], Eco Papa Eco, planeador, sobre November, 900 metros QNH, solicito entrada al CTR para tránsito hacia el sur.*) Wait for the clearance before entering the CTR: in controlled airspace you go in with a clearance, not on your own initiative.
 :::
 
 ::: {.ejercicio}
 **Exercise 3 — “Line up ≠ take off”.**
 
-The Tower transmits: *«Eco Papa Eco, entre y mantenga posición pista 30.»* (“Echo Papa Echo, line up and wait runway 30.”) Can you start the take-off? What do you read back?
+The Tower transmits: “Echo Papa Echo, line up and wait runway 30.” (*Eco Papa Eco, entre y mantenga posición pista 30.*) Can you start the take-off? What do you read back?
 
-**Solution.** No. *«Entre y mantenga posición»* (**line up and wait**) clears you to occupy the runway, but **not** to take off; for that you need an explicit *«autorizado a despegar»* (“cleared for take-off”). Readback: *«Entro y mantengo posición pista 30, Eco Papa Eco.»* (“Lining up and waiting runway 30, Echo Papa Echo.”)
+**Solution.** No. **“Line up and wait”** (*Entre y mantenga posición*) clears you to occupy the runway, but **not** to take off; for that you need an explicit “cleared for take-off” (*autorizado a despegar*). Readback: “Lining up and waiting runway 30, Echo Papa Echo.” (*Entro y mantengo posición pista 30, Eco Papa Eco.*)
 :::
 
 ## VFR communication with ATC (en-route)
@@ -238,7 +238,7 @@ What you can ask for or receive:
 
 To make contact, tune the “Information” frequency for your area (**Madrid Información**, **Zaragoza Información**…) and identify yourself with your callsign, aircraft type, position, route and what you need:
 
-*«Madrid Información, velero EC-DPE, sobre la sierra de Ayllón a 2000 metros, rumbo sur hacia Fuentemilanos, solicito información de tráfico.»* (“Madrid Information, glider EC-DPE, over the Sierra de Ayllón at 2,000 metres, heading south towards Fuentemilanos, request traffic information.”)
+“Madrid Information, glider EC-DPE, over the Sierra de Ayllón at 2,000 metres, heading south towards Fuentemilanos, request traffic information.” (*Madrid Información, velero EC-DPE, sobre la sierra de Ayllón a 2000 metros, rumbo sur hacia Fuentemilanos, solicito información de tráfico.*)
 
 ::: {.callout-note title="Airmanship"}
 On gliding **cross-country** flights, listening out on the relevant regional FIS frequency adds an extra layer of safety, especially on days with thunderstorm development, when real-time weather information is critical. Being in contact with FIS also speeds up the activation of the Search and Rescue (SAR) services if you land out away from an aerodrome.
@@ -250,8 +250,8 @@ Do not disappear from a frequency without a word. The Tower, Approach or Informa
 
 When you need to change frequency, there are two cases (@fig-04-cap02-cambio-frecuencia):
 
-* **If you are under ATC control**: ask for permission. *«Torre, EC-DPE, solicito abandonar frecuencia para pasar a operaciones de club en 123.400»* (“Tower, EC-DPE, request to leave the frequency for club operations on 123.400”).
-* **If you are on an Information (FIS) frequency**: it is not control, so you just tell them. *«Madrid Información, EC-DPE, abandonamos su frecuencia para pasar con Fuentemilanos 123.500. Buen día»* (“Madrid Information, EC-DPE, leaving your frequency for Fuentemilanos 123.500. Good day”).
+* **If you are under ATC control**: ask for permission. “Tower, EC-DPE, request to leave the frequency for club operations on 123.400” (*Torre, EC-DPE, solicito abandonar frecuencia para pasar a operaciones de club en 123.400*).
+* **If you are on an Information (FIS) frequency**: it is not control, so you just tell them. “Madrid Information, EC-DPE, leaving your frequency for Fuentemilanos 123.500. Good day” (*Madrid Información, EC-DPE, abandonamos su frecuencia para pasar con Fuentemilanos 123.500. Buen día*).
 
 ![An orderly transition between units and frequencies](imagenes/04-cap02-cambio-frecuencia.jpg){#fig-04-cap02-cambio-frecuencia}
 
@@ -284,22 +284,22 @@ RMZs are governed by the SERA Regulation, which allows a Member State to set rad
 
 **At uncontrolled aerodromes**
 
-* **Blind broadcast**: at a field without a tower, you are the controller. Broadcast your position and intentions “into the air”. *«Fuentemilanos, velero EC-BRT, viento en cola pista 34»* (“Fuentemilanos, glider EC-BRT, downwind runway 34”).
+* **Blind broadcast**: at a field without a tower, you are the controller. Broadcast your position and intentions “into the air”. “Fuentemilanos traffic, glider EC-BRT, downwind runway 34” (*Fuentemilanos, velero EC-BRT, viento en cola pista 34*).
 * **See and avoid**: the radio helps, but your eyes are in charge. Do not assume everyone has a radio or has heard you. Actively look for other traffic.
 * **The right frequency**: tune the field frequency 10 minutes before arrival. Listening to others will tell you the runway in use, the wind and the traffic density.
 * **Standard circuit**: unless told otherwise, the circuit is left-hand. Report: joining, downwind, base and final.
-* **Launch (winch/tug)**: on the winch: *«Listo tensando»* (“ready, take up slack”) → *«Remolcando»* ×3 (“all out”) → *«Cable libre»* (“cable released”). To abort: *«Stop torno»* ×3 (“stop winch”). Failure at low height (below 150 m on the winch): straight ahead, never turn back.
+* **Launch (winch/tug)**: on the winch: “ready, take up slack” (*listo, tensando*) → “all out” ×3 (*remolcando*) → “cable released” (*cable libre*). To abort: “stop winch” ×3 (*stop torno*). Failure at low height (below 150 m on the winch): straight ahead, never turn back.
 
 **At controlled aerodromes**
 
-* **Clearance**: in controlled airspace, the Tower's word is law. You need an explicit clearance for everything: start-up, taxi, take-off, entering the zone. If you do not hear *«autorizado»* (“cleared”), do not move.
+* **Clearance**: in controlled airspace, the Tower's word is law. You need an explicit clearance for everything: start-up, taxi, take-off, entering the zone. If you do not hear “cleared” (*autorizado*), do not move.
 * **Flight plan (FPL)**: your entry ticket. File it at least 60 minutes in advance; the exact deadlines are in AIP-España ENR 1.10.
 * **Reporting points**: the visual entry and exit gates to the CTR (Sierra, North, Echo…). Know them well on the VAC and report over them accurately.
-* **Read back everything**: vital in controlled airspace. Repeat every instruction, without the wind and with your callsign at the end. *«Autorizado a aterrizar pista 36, Eco Papa Eco»* (“Cleared to land runway 36, Echo Papa Echo”).
+* **Read back everything**: vital in controlled airspace. Repeat every instruction, without the wind and with your callsign at the end. “Cleared to land runway 36, Echo Papa Echo” (*Autorizado a aterrizar pista 36, Eco Papa Eco*).
 
 **With ATC, en route**
 
-* **Flight Information Service (FIS)**: an advisory service, not a control service. They tell you about traffic and weather (workload permitting), but separation is still your responsibility. *«Para información, contacto con Madrid Información…»* (“For information, contact Madrid Information…”).
-* **Changing frequency**: never “vanish” from a controlled or information frequency. Ask for the change or report that you are leaving the frequency. *«Madrid, EC-DPE para pasar a frecuencia de club 123.500»* (“Madrid, EC-DPE, changing to club frequency 123.500”).
+* **Flight Information Service (FIS)**: an advisory service, not a control service. They tell you about traffic and weather (workload permitting), but separation is still your responsibility. “For information, contact Madrid Information…” (*Para información, contacte con Madrid Información…*).
+* **Changing frequency**: never “vanish” from a controlled or information frequency. Ask for the change or report that you are leaving the frequency. “Madrid, EC-DPE, changing to club frequency 123.500” (*Madrid, EC-DPE, paso a frecuencia de club 123.500*).
 * **Transponder en route**: if you have a transponder, the default VFR code is **7000**. Emergencies: **7700** (active emergency, **Mayday**) and **7600** (radio failure, see chapter 7). Use them only in a real emergency.
 :::
