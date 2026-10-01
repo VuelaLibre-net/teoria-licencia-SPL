@@ -41,3 +41,13 @@ tools/epub/__pycache__/
 # scripts de tools/. Uno llegó a versionarse y cambiaba en cada `make rag`.
 __pycache__/
 *.pyc
+
+# Copias locales de los textos legales que respaldan las auditorías
+# (recursos/fuentes/). Son ~100 MB de PDF del BOE, EUR-Lex, EASA, OACI y AIP:
+# versionarlos inflaría el historial para siempre, y el AIP caduca en cada
+# ciclo AIRAC. Sí se versionan el README (qué es cada fichero, de dónde sale y
+# qué versión se leyó) y SHA256SUMS, para poder volver a descargarlos y
+# comprobar que son los mismos bytes.
+/recursos/fuentes/*
+!/recursos/fuentes/README.md
+!/recursos/fuentes/SHA256SUMS
