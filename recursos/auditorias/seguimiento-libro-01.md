@@ -86,31 +86,31 @@ no se toca: es el registro de lo que se encontró. Aquí se anota qué se ha hec
 
 | ID | Fase | Estado | Commit | Nota |
 | --- | --- | --- | --- | --- |
-| TEC-13 | 5 | pendiente | | |
-| PED-04 | 5 | pendiente | | |
-| COH-07 | 5 | pendiente | | Figura |
-| PED-05 | 5 / 4 | parcial | | fases 3 y 4: «entorno controlado» y ML.A.902 en 01/cap02 y 08/cap09; quedan 21.A.181 y «Anexo V ter» (fase 5) |
-| PED-06 | 5 | pendiente | | |
-| SYL-08 | 5 | pendiente | | |
-| PED-07 | 5 | pendiente | | Figura |
-| COH-08 | 5 | pendiente | | Figura |
-| NOR-20 | 5 | pendiente | | |
-| PED-08 | 5 | pendiente | | |
-| PED-09 | 5 | pendiente | | |
+| TEC-13 | 5 | aplicado | | fase 5 |
+| PED-04 | 5 | aplicado | | fase 5; las figuras llevan aviso en el pie |
+| COH-07 | 5 | figura | | fase 5: aviso en el pie |
+| PED-05 | 5 / 4 | aplicado | | fases 3, 4 y 5 |
+| PED-06 | 5 | aplicado | | fase 5 |
+| SYL-08 | 5 | aplicado | | fase 5 |
+| PED-07 | 5 | aplicado | | fase 5; la figura del médico lleva aviso en el pie |
+| COH-08 | 5 | figura | | fase 5: pie neutro; la figura sigue sin rótulos |
+| NOR-20 | 5 | aplicado | | fase 5 |
+| PED-08 | 5 | aplicado | | fase 5: texto y Anki |
+| PED-09 | 5 | aplicado | | fase 5: SAO.GEN.130 en cap06 y autorizaciones en cap07 |
 | COH-09 | 5 | pendiente | | Médico aeronáutico |
-| NOR-21 | 5 | pendiente | | |
-| NOR-22 | 5 | pendiente | | |
-| PED-10 | 5 | pendiente | | Figura |
-| PED-11 | 5 | pendiente | | |
-| TEC-14 | 5 | parcial | | fase 3: la T, la cruz y la diagonal; la manga y su figura, pendientes |
-| PED-12 | 5 | pendiente | | Figura |
+| NOR-21 | 5 | aplicado | | fase 5 |
+| NOR-22 | 5 | aplicado | | fase 5: texto y Anki |
+| PED-10 | 5 | aplicado | | fase 5: SERA.7001 y avisos en los pies |
+| PED-11 | 5 | aplicado | | fase 5 |
+| TEC-14 | 5 | figura | | fases 3 y 5: texto corregido; la figura de la manga lleva aviso en el pie |
+| PED-12 | 5 | figura | | fase 5: aviso en el pie |
 | NOR-23 | 5 | aplicado | | fase 3, con TEC-07 |
-| PED-13 | 5 | pendiente | | 2,5 m: Anexo 12 |
+| PED-13 | 5 | parcial | | fase 5: acuse; los 2,5 m, pendientes del Anexo 12 |
 | COH-10 | 5 | aplicado | | fase 3, con SYL-06 |
-| PED-14 | 5 | pendiente | | Figura |
-| PED-15 | 5 | pendiente | | |
-| PED-16 | 5 | pendiente | | |
-| TEC-15 | 5 | pendiente | | Figura |
+| PED-14 | 5 | figura | | fase 5: avisos en los pies |
+| PED-15 | 5 | aplicado | | fase 5: texto y Anki |
+| PED-16 | 5 | aplicado | | fase 5: cap13 y cap14 |
+| TEC-15 | 5 | figura | | fase 5: aviso en el pie |
 | NOR-24 | 5 | aplicado | | fase 3: glosario y 9 bibliografías |
 
 ## Figuras retiradas provisionalmente
