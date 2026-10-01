@@ -113,6 +113,14 @@ no se toca: es el registro de lo que se encontró. Aquí se anota qué se ha hec
 | TEC-15 | 5 | figura | | fase 5: aviso en el pie |
 | NOR-24 | 5 | aplicado | | fase 3: glosario y 9 bibliografías |
 
+## Edición inglesa
+
+Fase 6 completada el 1 de octubre de 2026: todas las correcciones de las fases 1 a 5 están portadas a
+`en/01-air-law-atc/` y a los libros ingleses 02, 03, 04, 06 y 08 (capítulos, glosarios,
+bibliografías, licencias y mazos), con su `origen-commit` al día. Las tres figuras retiradas lo están
+también en inglés. Los términos nuevos entran en `en/terminologia.yml` como `propuesta`, pendientes
+de revisión.
+
 ## Figuras retiradas provisionalmente
 
 | Figura | Motivo | Retirada en | Repuesta en |
