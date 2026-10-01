@@ -164,6 +164,22 @@ casi todas normativas:
 * **cap09, AIRAC y estructura del AIP** — el ciclo AIRAC no daba su cifra, típica de examen: 28
   días, con la información en manos del usuario al menos 28 días antes (AIP GEN 3.1). Y el AIP se
   organiza en tres partes, no en tres volúmenes.
+* **cap10 y tarjeta Anki, señales de tierra** — la mancuerna obligaba a usar «SOLO pistas y calles
+  pavimentadas»; SERA no habla de pavimento, y en un campo de vuelo a vela las pistas suelen ser de
+  hierba. Se añaden las cuatro señales de SERA, apéndice 1, 3.2, que faltaban: la mancuerna con
+  barras negras, las cruces sobre pistas o calles de rodaje cerradas, las dos cifras de la
+  dirección de despegue y la letra C. Y se ajustan a la norma la T (se aterriza «hacia su
+  travesaño»), la cruz roja (prohíbe aterrizar, no cierra el aeródromo) y la diagonal única. El pie
+  de la figura del área de señales advierte de sus dos errores hasta que se rehaga.
+* **cap10, campos externos y tomas fuera de campo** — la sección no citaba ninguna norma. Se apoya
+  ahora en Part-SAO (lugar de operación y SAO.OP.100), en el Real Decreto 1189/2011 (aeródromo
+  eventual: hasta 40 operaciones al año y 15 al mes) y en SERA.4020 (aviso de llegada si había plan
+  de vuelo, con remisión al libro 7). La responsabilidad por daños es de quien opera el planeador,
+  cubierta por el seguro obligatorio del Reglamento (CE) 785/2004. La apertura y el post-it recogen
+  ya esta sección, que es la mitad del título del epígrafe del syllabus.
+* **cap10, tramo base** — «altura mínima de inicio: 150 m» parecía un límite legal; es una
+  referencia de instrucción, como dice el libro 6.
+* **cap10, remisión a las señales luminosas** — están en el capítulo 5 del libro 4, no en el 7.
 
 ### Añadido
 
