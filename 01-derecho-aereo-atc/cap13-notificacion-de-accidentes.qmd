@@ -1,6 +1,6 @@
 # Notificación de accidentes
 
-> Notificar sucesos no busca culpables, sino aprender de los errores para mantener los cielos seguros para todos.
+> Notificar un suceso no sirve para buscar culpables, sino para que otros no repitan el mismo error.
 >
 >
 > En este capítulo aprenderás:
@@ -22,7 +22,7 @@ En aviación no todo es un accidente. Hay matices legales que importan (@fig-01-
 
 ## El deber de notificar: sistema SNS
 
-Para mejorar la seguridad, el Estado necesita datos. No para castigar, sino para prevenir. Por eso conviven dos sistemas:
+Para mejorar la seguridad hacen falta datos, y se recogen para prevenir, no para castigar. Hay dos vías:
 
 * **Notificación obligatoria**: los accidentes e incidentes graves y, además, los sucesos de la lista del Reglamento de Ejecución (UE) 2015/1018 (anexo V, sección 2, planeadores). Entre ellos, una violación de espacio aéreo, una suelta del cable que haya puesto en peligro el planeador, una cuasicolisión que exija una maniobra evasiva de emergencia, una llamada de emergencia o quedarte sin ninguna zona de aterrizaje segura.
 * **Notificación voluntaria**: si te pasa algo que no es obligatorio reportar pero crees que otros pueden aprender de ello, repórtalo igualmente.
@@ -35,7 +35,7 @@ Para mejorar la seguridad, el Estado necesita datos. No para castigar, sino para
 Los plazos no son iguales: a la autoridad de investigación, comunica el accidente o incidente grave **sin demora** (Reglamento (UE) 996/2010, art. 9); a AESA, notifica el suceso en un plazo de **72 horas** desde que tengas conocimiento de él (Reglamento (UE) 376/2014, art. 4.7), a través del sistema de tu organización o, si no perteneces a ninguna, directamente al Sistema de Notificación de Sucesos (SNS) de AESA.
 
 ::: {.callout-tip title="Regla de oro"}
-La normativa europea promueve la "Cultura Justa". El objetivo de notificar **NO es buscar culpables** (salvo negligencia grave o dolo), sino **aprender**. No tengas miedo a reportar tus errores; es la única forma de que el sistema mejore.
+La normativa europea promueve la "Cultura Justa". El objetivo de notificar **NO es buscar culpables** (salvo negligencia grave o dolo), sino **aprender**. No tengas miedo a contar tus errores: así aprenden los demás.
 :::
 
 ![Proceso de notificación de un suceso. *(CORREGIR: no sólo los accidentes y los incidentes graves son de notificación obligatoria: también los sucesos de la lista del Reglamento de Ejecución (UE) 2015/1018, anexo V, sección 2, como una violación de espacio aéreo o una cuasicolisión.)*](imagenes/01-cap13-flujo-notificacion.jpg){#fig-01-cap13-flujo-notificacion .corregir}
@@ -44,7 +44,7 @@ La normativa europea promueve la "Cultura Justa". El objetivo de notificar **NO 
 Si sufres o presencias un accidente:
 
 1. Prioridad: **Salvar vidas** y evitar más peligros (fuego, etc.).
-2. Después: **NO TOQUES NADA**. Preservar los restos es vital para la investigación técnica. Solo muévelos si es necesario por razones de seguridad o para socorrer a los heridos, o si te lo autoriza quien controle el lugar; y, si puedes, fotografía antes lo que vayas a mover (Reglamento (UE) 996/2010, art. 13).
+2. Después: **NO TOQUES NADA**. Los restos son la prueba principal de la investigación técnica. Solo muévelos si es necesario por razones de seguridad o para socorrer a los heridos, o si te lo autoriza quien controle el lugar; y, si puedes, fotografía antes lo que vayas a mover (Reglamento (UE) 996/2010, art. 13).
 :::
 
 ::: {.postit}

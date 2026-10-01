@@ -1,6 +1,6 @@
 # Reglamentación de tránsito aéreo: estructura del espacio aéreo
 
-> El cielo está dividido en "cajones" invisibles; saber en cuál estás es la clave para evitar infracciones y peligros.
+> El cielo está dividido en "cajones" invisibles. Si sabes en cuál estás, te ahorras infracciones y sustos.
 >
 >
 > En este capítulo aprenderás:
@@ -13,11 +13,11 @@
 
 ## El mapa de carreteras del cielo
 
-El aire no es libre, o al menos no todo. Para ordenar el tráfico, el espacio aéreo se divide en **clases** (de la A a la G) y **zonas**. Saber dónde estás es vital para no infringir la ley ni ponerte en peligro.
+El aire no es libre, o al menos no todo. Para ordenar el tráfico, el espacio aéreo se divide en **clases** (de la A a la G) y **zonas**, y en cada una rigen reglas distintas.
 
 ## Espacio aéreo controlado vs no controlado
 
-Esta es la gran división. En el **controlado** hay un ATC que te da autorizaciones y, según la clase, te separa de otros tráficos o sólo te informa de ellos: lo ves en la tabla de abajo. En el **no controlado** vas por tu cuenta, eso sí, con la radio a mano.
+Es la primera división. En el **controlado** hay un ATC que te da autorizaciones y, según la clase, te separa de otros tráficos o sólo te informa de ellos: lo ves en la tabla de abajo. En el **no controlado** vas por tu cuenta, eso sí, con la radio a mano.
 
 ### Clases de espacio aéreo (SERA.6001)
 
@@ -44,7 +44,7 @@ Aunque la normativa OACI define teóricamente las clases **B** y **F**, en la pr
 
 ## Zonas especiales: RMZ y TMZ
 
-A veces el espacio es Clase G, libre, pero la autoridad quiere un poco de orden sin llegar a controlarlo todo. Para eso existen dos figuras:
+A veces el espacio es Clase G, libre, pero la autoridad quiere algo de orden sin llegar a controlarlo. Para eso hay dos figuras:
 
 * **RMZ** (**Radio Mandatory Zone**): zona, normalmente en espacio de clase E, F o G, donde es **obligatorio llevar radio y comunicar**. Antes de entrar debes hacer una llamada inicial: quién eres (indicativo y tipo), dónde estás (posición y nivel) y qué quieres (SERA.6005 a)).
 * **TMZ** (**Transponder Mandatory Zone**): es obligatorio llevar y operar el **transponder** con las capacidades exigidas. La escucha o comunicación por radio solo es obligatoria si la zona también es RMZ o si así se publica.

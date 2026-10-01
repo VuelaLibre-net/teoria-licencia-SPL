@@ -1,6 +1,6 @@
 # Derecho internacional: convenios, acuerdos y organizaciones
 
-> Entender el marco legal no es burocracia: es el cimiento de tu seguridad y de tu libertad para volar más allá de nuestras fronteras.
+> El marco legal parece burocracia, pero de él depende que vueles seguro, aquí y al otro lado de la frontera.
 >
 >
 > En este capítulo aprenderás:
@@ -13,7 +13,7 @@
 
 ## El origen de las normas: Convenio de Chicago y OACI
 
-El acta de nacimiento del derecho aéreo moderno es el **Convenio de Chicago de 1944**. Allí las naciones acordaron unificar las normas de aviación a nivel global, y de ese acuerdo salen los principios que hoy nos permiten volar de forma segura y ordenada entre países distintos.
+El derecho aéreo moderno nace con el **Convenio de Chicago de 1944**. Allí los países acordaron unas normas de aviación comunes, y de ese acuerdo salen los principios que hoy nos dejan volar de un país a otro con seguridad y orden.
 
 Del convenio nació la **OACI** (Organización de Aviación Civil Internacional, **ICAO**), una agencia especializada de la ONU. Su trabajo consiste en desarrollar los principios y técnicas de la navegación aérea internacional, fomentar el transporte aéreo entre países y velar por la seguridad operacional (**safety**) en todo el mundo.
 
@@ -25,9 +25,9 @@ Para que el transporte aéreo internacional fuera posible, el Convenio de Chicag
 
 ## La autoridad en Europa: EASA y el sistema común
 
-En Europa hemos ido un paso más allá de la simple cooperación. Los estados miembros de la Unión Europea han cedido competencias a una autoridad común: **EASA** (Agencia de la Unión Europea para la Seguridad Aérea).
+En Europa la cooperación va más lejos: los estados miembros de la Unión Europea han cedido competencias a una autoridad común, **EASA** (Agencia de la Unión Europea para la Seguridad Aérea).
 
-En la práctica, esto significa que casi todo lo que te afecta como piloto (licencias, operaciones, aeronavegabilidad) se decide a nivel europeo y es **directamente aplicable** en España, sin que el gobierno español tenga que transcribirlo a una ley nacional.
+Por eso casi todo lo que te afecta como piloto (licencias, operaciones, aeronavegabilidad) se decide a nivel europeo y es **directamente aplicable** en España, sin que el gobierno español tenga que transcribirlo a una ley nacional.
 
 ¿Y entonces, qué papel juega AESA? La **AESA** (Agencia Estatal de Seguridad Aérea) es el organismo público español, adscrito al Ministerio de Transportes y Movilidad Sostenible, que actúa como tu autoridad competente directa: emite tu licencia, inspecciona tu club y vigila el cumplimiento en territorio español. Pero lo hace aplicando e interpretando las reglas comunes europeas.
 
@@ -63,7 +63,7 @@ Son documentos que ayudan a cumplir la ley sin ser ley en sí mismos. Que no te 
 
 ## Las 3 normas de referencia del piloto de planeador
 
-De toda la sopa de letras normativa, hay tres reglamentos que acabarás conociendo de memoria. Son tu marco de referencia diario.
+De toda la sopa de letras normativa, hay tres reglamentos que acabarás sabiéndote de memoria, porque son los que usas a diario.
 
 ### 1. Part-SFCL (licencias)
 
@@ -74,7 +74,7 @@ El **Sailplane Flight Crew Licensing** regula todo lo relativo a tu licencia: lo
 El **Sailplane Air Operations** regula cómo se opera el planeador de forma segura: las responsabilidades del piloto al mando, los documentos que debes llevar a bordo, los procedimientos de emergencia, el transporte de pasajeros y el uso de aeródromos. Sale del mismo reglamento que el Part-SFCL.
 
 ::: {.callout-note title="Airmanship"}
-Según SAO.GEN.130 (Part-SAO), el piloto al mando es responsable de la seguridad de la aeronave y de todas las personas a bordo durante las operaciones. Esta responsabilidad no se delega: tú eres la autoridad final en tu cabina.
+Según SAO.GEN.130 (Part-SAO), el piloto al mando es responsable de la seguridad de la aeronave y de todas las personas a bordo durante las operaciones. Esa responsabilidad no se delega: en tu cabina, la última palabra es tuya.
 :::
 
 ### 3. SERA (Reglas del Aire)

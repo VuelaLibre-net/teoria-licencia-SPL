@@ -1,6 +1,6 @@
 # Aeródromos y campos de despegue externos
 
-> En el circuito de tránsito, las reglas visuales reinan supremas; aprende a leer las señales del suelo cuando la radio calla.
+> En el aeródromo mandan las reglas visuales. Aprende a leer las señales del suelo por si la radio calla.
 >
 >
 > En este capítulo aprenderás:
@@ -12,7 +12,7 @@
 
 ## El aeródromo: territorio de reglas visuales
 
-Un aeródromo es mucho más que una pista. Es un sistema organizado para que aviones rápidos y planeadores lentos convivan sin chocar, y se apoya en dos pilares: el **circuito de tránsito** y las **señales visuales**.
+Un aeródromo no es solo una pista. Está organizado para que aviones rápidos y planeadores lentos convivan sin chocar, y para eso se apoya en dos cosas: el **circuito de tránsito** y las **señales visuales**.
 
 ## El circuito de tránsito (Traffic Pattern)
 
@@ -30,7 +30,7 @@ Para ordenar el tráfico, todos volamos un rectángulo imaginario alrededor de l
 
 ![Manga de viento. *(CORREGIR: los 3 nudos por franja son una referencia orientativa, no una norma; y algunas conversiones están mal redondeadas: 9 kt son unos 17 km/h y 4,6 m/s; 15 kt, unos 7,7 m/s.)*](imagenes/01-cap10-manga-viento.png){#fig-01-cap10-manga-viento .corregir}
 
-Si no tienes radio (o te falla), el suelo te habla. Las **señales luminosas** que la torre puede dirigirte con lámpara se estudian en el **Libro 4 — Comunicaciones**, capítulo 5 (fallo de comunicaciones); las del suelo las tienes aquí. En el **área de señales**, un cuadrado bordeado de blanco cerca de la torre o la pista, encontrarás símbolos vitales (@fig-01-cap10-area-senales):
+Si no tienes radio (o te falla), el suelo te habla. Las **señales luminosas** que la torre puede dirigirte con lámpara se estudian en el **Libro 4 — Comunicaciones**, capítulo 5 (fallo de comunicaciones); las del suelo las tienes aquí. En el **área de señales**, un cuadrado bordeado de blanco cerca de la torre o la pista, encontrarás estos símbolos (@fig-01-cap10-area-senales):
 
 | Señal | Significado |
 | --- | --- |
@@ -39,7 +39,7 @@ Si no tienes radio (o te falla), el suelo te habla. Las **señales luminosas** q
 | **Flecha Derecha** | → **Atención**: Virajes a la **DERECHA**. El circuito no es estándar. |
 | **Cruz Roja con Diagonales** | (Cuadrado rojo con aspa amarilla). **PROHIBIDO ATERRIZAR**, y la prohibición puede prolongarse. |
 | **Diagonal Única** | (Cuadrado rojo con una diagonal amarilla). **PRECAUCIÓN** en la aproximación y el aterrizaje, por el mal estado del área de maniobras o por cualquier otra razón. |
-| **Doble Cruz Blanca** | **Planeadores en actividad**. ¡Ojo! Indica que se realizan operaciones de vuelo a vela. |
+| **Doble Cruz Blanca** | **Planeadores en actividad**: hay operaciones de vuelo a vela. |
 | **Mancuerna (Pesas)** | (Blanca). Aterrizaje, despegue y rodaje **solo en las pistas y calles de rodaje**, que pueden ser de hierba. |
 | **Mancuerna con barras negras** | (Blanca, con una barra negra en cada círculo). Aterrizaje y despegue **solo en las pistas**; el resto de maniobras, libre. |
 | **Cruces sobre pista o calle de rodaje** | (Blancas en las pistas, amarillas en las calles de rodaje). Esa zona **no se puede usar**. |

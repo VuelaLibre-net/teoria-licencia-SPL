@@ -1,6 +1,6 @@
 # Marcas de nacionalidad y matrícula de aeronaves
 
-> Tu planeador tiene una identidad legal única; identificarlo correctamente es el primer paso de cualquier operación.
+> Cada planeador tiene su identidad legal, y cualquier operación empieza por saber leerla.
 >
 >
 > En este capítulo aprenderás:
@@ -40,17 +40,17 @@ Además de la pintura, tu planeador necesita una identidad "indestructible". En 
 * La **placa de identificación de la matrícula**, de metal u otro material **incombustible**, con al menos la marca de nacionalidad y la de matrícula, fijada en un lugar visible cerca de la entrada principal (Orden FOM/1687/2015, art. 5).
 * La **placa del fabricante**, **ignífuga**, con su nombre, la designación del modelo y el número de serie (Reglamento (UE) 748/2012, 21.A.801).
 
-La de la figura es una placa de fabricante con un hueco para la matrícula (@fig-01-cap03-placa-ignifuga). Su razón de ser es sombría pero importante: si hay un accidente con fuego, la placa debe sobrevivir para que la aeronave pueda identificarse.
+La de la figura es una placa de fabricante con un hueco para la matrícula (@fig-01-cap03-placa-ignifuga). El motivo es poco agradable: si hay un accidente con fuego, la placa tiene que sobrevivir para que se pueda identificar la aeronave.
 
 ::: {.callout-warning title="Seguridad"}
-Nunca pintes encima de la placa de identificación ni la cubras. Su función es vital en caso de investigación de accidentes. Si restauras el planeador, asegúrate de que la placa sigue ahí y es legible.
+Nunca pintes encima de la placa de identificación ni la tapes: si hay que investigar un accidente, es lo que identifica el planeador. Si restauras el planeador, asegúrate de que la placa sigue ahí y es legible.
 :::
 
 ![Ejemplo de placa de identificación ignífuga](imagenes/01-cap03-placa-ignifuga.jpg){#fig-01-cap03-placa-ignifuga}
 
 ## La bandera de España
 
-Junto a las letras, es obligatorio llevar los colores de **España**, de una de dos formas: una **franja** con los colores de la bandera, en el fuselaje o a través de la deriva, por encima de las marcas y paralela a ellas y a la línea de vuelo; o la **propia bandera**, que puede ir en cualquier superficie exterior, a ambos lados. En los dos casos, su altura es al menos la de las marcas de matrícula (Orden FOM/1687/2015, anexo II D). Es el símbolo de la nacionalidad de la aeronave y de la soberanía del estado que la registra.
+Junto a las letras, es obligatorio llevar los colores de **España**, de una de dos formas: una **franja** con los colores de la bandera, en el fuselaje o a través de la deriva, por encima de las marcas y paralela a ellas y a la línea de vuelo; o la **propia bandera**, que puede ir en cualquier superficie exterior, a ambos lados. En los dos casos, su altura es al menos la de las marcas de matrícula (Orden FOM/1687/2015, anexo II D). Así se ve a simple vista qué Estado tiene registrada la aeronave.
 
 ::: {.callout-tip title="Regla de oro"}
 **EC** = Nemotecnia ***E**spaña **C**ivil*. La marca oficial OACI para España es "EC".

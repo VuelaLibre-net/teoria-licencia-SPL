@@ -1,6 +1,6 @@
 # Seguridad (*security*)
 
-> La seguridad de la aviación no es solo para grandes aerolíneas; proteger tu aeronave de actos ilícitos es una responsabilidad fundamental del piloto.
+> La seguridad de la aviación no es cosa sólo de las aerolíneas: proteger tu planeador de actos ilícitos también te toca a ti.
 >
 >
 > En este capítulo aprenderás:
@@ -40,7 +40,7 @@ En planeador, la regla es tuya como piloto al mando: **no permitirás que nadie 
 ![Etiquetado de mercancías peligrosas. Aprende a reconocer estas etiquetas: lo que las lleva no debe subir al planeador, salvo la excepción de SAO.GEN.150.](imagenes/01-cap12-mercancias-peligrosas.jpg){#fig-01-cap12-mercancias-peligrosas}
 
 ::: {.callout-warning title="Seguridad"}
-Si ves a alguien merodeando por los hangares, manipulando aviones ajenos o comportándose de forma sospechosa en el aeródromo, **avisa inmediatamente** al responsable del campo o a las fuerzas de seguridad. La seguridad es cosa de todos.
+Si ves a alguien merodeando por los hangares, manipulando aviones ajenos o comportándose de forma sospechosa en el aeródromo, **avisa inmediatamente** al responsable del campo o a las fuerzas de seguridad.
 :::
 
 ::: {.postit}

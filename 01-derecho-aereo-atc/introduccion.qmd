@@ -2,11 +2,11 @@
 
 ***Tema 1 de 9 del examen teórico para la Licencia de Piloto de Planeador (SPL)***
 
-Un planeador opera en un sistema de espacios aéreos y responsabilidades legales que existen para que cada vuelo sea predecible. Ignorar ese sistema no te hace más libre; te hace más expuesto.
+Volar en planeador es moverte dentro de un sistema de espacios aéreos y responsabilidades legales. Existe para que los demás sepan qué vas a hacer tú, y tú, qué van a hacer ellos.
 
-Catorce capítulos convierten el marco normativo en criterio operativo: qué documentos van en la cabina, qué espacio aéreo requiere autorización, qué activa la fase de alerta SAR y por qué reportar un incidente es la única forma de que el sistema aprenda.
+En catorce capítulos, este libro baja de la norma a la práctica: qué documentos llevas en la cabina, en qué espacio aéreo necesitas autorización, qué pone en marcha la alerta SAR y por qué conviene notificar un incidente aunque no haya pasado nada.
 
-El cielo tiene reglas. Aprende a usarlas antes de despegar.
+Todo esto se aprende en tierra, antes de despegar.
 
 <!-- GUÍA-DE-LECTURA: desde esta marca hasta el final, el texto es idéntico en
      los 9 libros y el CI comprueba que no diverge. Si lo editas, propágalo a

@@ -1,6 +1,6 @@
 # Aeronavegabilidad (*airworthiness*) de aeronaves
 
-> Un planeador sano es un planeador seguro; aprende a verificar la "salud técnica" de tu aeronave antes de cada vuelo.
+> Un planeador es tan seguro como su estado técnico. Aprende a comprobarlo antes de cada vuelo.
 >
 >
 > En este capítulo aprenderás:
@@ -14,7 +14,7 @@
 
 La aeronavegabilidad es, en pocas palabras, la salud técnica de tu aeronave. Un planeador es aeronavegable cuando cumple con el diseño aprobado por la autoridad (tiene sus papeles en regla) y está en condiciones de operar de manera segura, sin defectos peligrosos.
 
-Como piloto, eres el último eslabón de la cadena de seguridad. Da igual lo bien diseñado que esté el avión: si no se mantiene correctamente, deja de ser seguro.
+Y tú eres el último que lo comprueba antes de volar. Da igual lo bien diseñado que esté el avión: si no se mantiene como es debido, deja de ser seguro.
 
 ## Certificado de aeronavegabilidad (CofA)
 
@@ -31,14 +31,14 @@ El **ARC** (**Airworthiness Review Certificate**, Certificado de Revisión de Ae
 Su validez es de **un año**, así que toca renovarlo o prorrogarlo anualmente. Admite dos prórrogas consecutivas sin nueva revisión completa, es decir, 1 año + 1 año + 1 año, pero sólo si la misma organización —una CAMO o, en aviación ligera, una CAO— ha gestionado la aeronavegabilidad del planeador sin interrupción desde que se expidió (ML.A.902). Al cumplirse el tercer año, revisión a fondo sin excusas (@fig-01-cap02-arc-process). El régimen técnico que sostiene el ARC —el programa de mantenimiento, el programa mínimo de inspección y las directivas de aeronavegabilidad— se desarrolla en el **Libro 8 — Conocimientos Generales de la Aeronave, Estructura, Sistemas y Equipo de Emergencia**, capítulo 9; aquí interesa su cara jurídica: sin ARC en vigor no puedes volar.
 
 ::: {.callout-warning title="Seguridad"}
-Nunca vueles si el ARC está caducado. Es ilegal y, lo más importante, significa que nadie ha certificado oficialmente que el avión es seguro para volar en el último año. Además, tu aseguradora puede negarse a cubrirte o repetir contra ti si ocurre algo: muchas pólizas condicionan la cobertura a que la aeronave sea aeronavegable. Lee la tuya.
+Nunca vueles si el ARC está caducado. Es ilegal y, sobre todo, quiere decir que en el último año nadie ha certificado que el avión pueda volar con seguridad. Además, tu aseguradora puede negarse a cubrirte o repetir contra ti si ocurre algo: muchas pólizas condicionan la cobertura a que la aeronave sea aeronavegable. Lee la tuya.
 :::
 
 ![Ciclo de vida del ARC y sus prórrogas. *(CORREGIR: con la segunda prórroga, el ARC vale hasta cumplirse el tercer año: el último tramo, rotulado como caducado, es válido.)*](imagenes/01-cap02-ciclo-arc.jpg){#fig-01-cap02-arc-process .corregir}
 
 ## Mantenimiento de planeadores: Part-ML
 
-Desde el punto de vista legal basta con que retengas el marco: los planeadores se mantienen bajo la **Part-ML** (Anexo V ter del Reglamento (UE) 1321/2014), una normativa simplificada para la aviación ligera que descansa sobre un **Programa de Mantenimiento (AMP)** y que, en ciertas tareas sencillas, permite al **piloto-propietario** firmar el mantenimiento él mismo. El desarrollo de todo esto —cómo funciona el AMP, el programa mínimo de inspección, qué tareas puede firmar el piloto-propietario y con qué condiciones, las directivas de aeronavegabilidad (AD) y los boletines de servicio (SB)— corresponde a su asignatura natural, **Conocimientos Generales de la Aeronave, Estructura, Sistemas y Equipo de Emergencia**: se estudia en el **Libro 8 — Conocimientos Generales de la Aeronave, Estructura, Sistemas y Equipo de Emergencia**, capítulo 9.
+Desde el punto de vista legal basta con que retengas el marco: los planeadores se mantienen bajo la **Part-ML** (Anexo V ter del Reglamento (UE) 1321/2014), una normativa simplificada para la aviación ligera que descansa sobre un **Programa de Mantenimiento (AMP)** y que, en ciertas tareas sencillas, permite al **piloto-propietario** firmar el mantenimiento él mismo. El desarrollo de todo esto —cómo funciona el AMP, el programa mínimo de inspección, qué tareas puede firmar el piloto-propietario y con qué condiciones, las directivas de aeronavegabilidad (AD) y los boletines de servicio (SB)— se estudia en el **Libro 8 — Conocimientos Generales de la Aeronave, Estructura, Sistemas y Equipo de Emergencia**, capítulo 9.
 
 ## Responsabilidades del piloto
 
@@ -61,7 +61,7 @@ Antes de despegar, comprueba que la documentación obligatoria está en vigor. N
 Si encuentras algo mal durante la pre-vuelo o durante el vuelo, anótalo en el **diario de a bordo** (*journey log*) o en el registro técnico de la aeronave. El siguiente piloto te lo agradecerá. Y si el defecto puede poner seriamente en peligro la seguridad del vuelo, el planeador no vuela hasta que se rectifique (ML.A.403): no es una decisión que puedas aplazar por tu cuenta.
 
 ::: {.callout-note title="Airmanship"}
-¿Ves una muesca en el gelcoat? No es solo estética: si afecta al perfil, afecta al vuelo. Ante la duda, pregunta. Es mejor ser un piloto curioso que un piloto en apuros.
+¿Ves una muesca en el gelcoat? No es solo estética: si afecta al perfil, afecta al vuelo. Ante la duda, pregunta: más vale enterarse en tierra que en el aire.
 :::
 
 ::: {.postit}

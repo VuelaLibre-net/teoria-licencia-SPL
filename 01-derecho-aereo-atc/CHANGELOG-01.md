@@ -308,6 +308,10 @@ capítulos:
 
 ### Cambiado
 
+* **Introducción y cap01–cap14, redacción** — se reescriben las entradillas de los capítulos y unas
+  cuarenta frases que sonaban a fórmula («es vital», «la clave», «tu red de seguridad final»,
+  «no es X: es Y») por otras más directas. No cambian los datos, las normas citadas, los post-it,
+  las figuras ni la terminología.
 * **Figuras por rehacer: marca «EN REVISIÓN» y nota en el pie** — las 21 figuras en las que la
   auditoría encontró algún error llevan encima, en diagonal, la marca «EN REVISIÓN», en el PDF, el
   EPUB y la web, y su pie termina con *(CORREGIR: …)*, que dice qué está mal. La nota no sale en el

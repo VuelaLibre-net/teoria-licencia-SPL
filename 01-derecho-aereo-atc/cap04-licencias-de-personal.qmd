@@ -1,6 +1,6 @@
 # Licencias de personal
 
-> Tu licencia es un privilegio, no un derecho; mantenerla activa requiere experiencia continua y aptitud médica.
+> La licencia no caduca, pero para usarla tienes que seguir volando y tener el médico en vigor.
 >
 >
 > En este capítulo aprenderás:
@@ -17,11 +17,11 @@ Para volar un planeador legalmente en Europa necesitas una licencia **SPL** (**S
 
 Puedes obtenerla a los 16 años, aunque ya a los 14 puedes volar solo como alumno. Te da derecho a actuar como piloto al mando (PIC) en planeadores, incluidos los planeadores con motor, sin remuneración y en operaciones no comerciales, y en teoría es **vitalicia**: el papel no caduca. Para volar con remuneración o en operaciones comerciales necesitas además tener 18 años y, tras obtener la licencia, 75 horas de vuelo o 200 lanzamientos como PIC (SFCL.115 a) 3)); y los instructores y examinadores pueden cobrar por instruir o examinar (SFCL.115 b)). Los **motoveleros de turismo (TMG)** son otra cosa: si hiciste la prueba de pericia en un planeador, para volarlos necesitas extender las atribuciones con formación y una prueba de pericia en TMG (SFCL.150), y su recencia es distinta: en los últimos 24 meses, 12 horas que incluyan, en TMG, 6 horas, 12 despegues y aterrizajes y un vuelo de entrenamiento de 1 hora con instructor (SFCL.160 b)).
 
-Pero que el papel no caduque no significa que puedas volar siempre. Para ejercer tus privilegios debes cumplir dos condiciones **sine qua non**: tener un **certificado médico válido** y cumplir los requisitos de **experiencia reciente**.
+Pero que el papel no caduque no significa que puedas volar siempre. Para ejercer tus privilegios tienes que cumplir dos condiciones: tener un **certificado médico válido** y cumplir los requisitos de **experiencia reciente**.
 
 ## El certificado médico
 
-Sin médico, no hay vuelo. Controlar la fecha de caducidad es responsabilidad tuya.
+Sin médico no se vuela, y vigilar cuándo caduca es cosa tuya.
 
 Vale tanto un certificado **Clase 2** como un **LAPL** (**Light Aircraft Pilot Licence**). Para la mayoría de pilotos deportivos, el LAPL es suficiente y menos exigente. Su validez depende de tu edad: **60 meses** (5 años) si tienes menos de 40, y **24 meses** (2 años) a partir de los 40 (@fig-01-cap04-medical-validity). Ojo con el matiz de MED.A.045: un certificado emitido **antes** de cumplir los 40 deja de ser válido cuando cumples los **42**, aunque los 60 meses no hayan vencido. Si te lo expidieron a los 39, no te vale hasta los 44: caduca a los 42.
 
@@ -60,7 +60,7 @@ Puedes cumplir de sobra el "5-15-2" a base de remolques y, aun así, no estar al
 
 ## Transporte de pasajeros
 
-Llevar a alguien contigo es una gran responsabilidad, y la licencia recién sacada no te lo permite de inmediato. Primero debes completar **10 horas** de vuelo o **30 lanzamientos** como piloto al mando **después** de obtener la licencia y, además, un **vuelo de entrenamiento** en el que demuestres a un instructor FI(S) tu competencia para el transporte de pasajeros (salvo que ya seas titular de un certificado FI(S)).
+Con la licencia recién sacada todavía no puedes llevar a nadie. Primero debes completar **10 horas** de vuelo o **30 lanzamientos** como piloto al mando **después** de obtener la licencia y, además, un **vuelo de entrenamiento** en el que demuestres a un instructor FI(S) tu competencia para el transporte de pasajeros (salvo que ya seas titular de un certificado FI(S)).
 
 Y una vez cumplido eso, hay un requisito de recencia: **3 lanzamientos en los últimos 90 días**. Si llevas tres meses sin volar, haz unos vuelos solo antes de invitar a nadie.
 

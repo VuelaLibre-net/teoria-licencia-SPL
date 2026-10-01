@@ -1,6 +1,6 @@
 # Procedimientos para navegación aérea: operaciones de aeronaves
 
-> Navegar seguro exige reglas precisas; domina los mínimos VMC y los niveles de crucero para compartir el cielo eficientemente.
+> Para compartir el cielo sin sustos tienes que saberte los mínimos VMC y los niveles de crucero.
 >
 >
 > En este capítulo aprenderás:
@@ -9,7 +9,7 @@
 > * Los mínimos meteorológicos (VMC): cuándo es legal volar visual y qué excepciones tenemos los planeadores.
 > * La regla semicircular: cómo elegir tu altitud de crucero según el rumbo.
 > * La diferencia crítica entre QNH (altitud), QFE (altura) y QNE (niveles de vuelo).
-> * Cuándo es obligatorio el oxígeno para esquivar la hipoxia silenciosa.
+> * Cuándo hay que usar oxígeno para no sufrir hipoxia.
 
 ## Mínimos VFR: visibilidad y distancia a nubes
 
@@ -66,7 +66,7 @@ Por debajo de la **Altitud de Transición** (6.000 ft en la mayor parte de Espa�
 
 ## Oxígeno suplementario
 
-A medida que subes hay menos oxígeno, y la hipoxia es un enemigo silencioso: te sientes eufórico, pierdes juicio y te desmayas sin previo aviso. Por eso la norma dice dos cosas:
+A medida que subes hay menos oxígeno, y la hipoxia no avisa: te sientes eufórico, pierdes juicio y acabas perdiendo el conocimiento. Por eso la norma dice dos cosas:
 
 1. El piloto al mando debe asegurar que todos los ocupantes usen oxígeno suplementario siempre que determine que su falta puede afectar a sus facultades.
 2. Si el piloto no puede determinar ese efecto, el medio aceptable de cumplimiento de EASA (AMC) es que todos lo usen por encima de los **10.000 ft**.

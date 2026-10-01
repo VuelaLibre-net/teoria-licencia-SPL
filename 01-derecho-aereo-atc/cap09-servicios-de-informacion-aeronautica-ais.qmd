@@ -1,6 +1,6 @@
 # Servicios de información aeronáutica (AIS)
 
-> La información es seguridad; un piloto que ignora los NOTAM es un piloto que vuela a ciegas hacia el peligro.
+> Quien despega sin mirar los NOTAM vuela a ciegas: no sabe qué zonas están activas ni qué ha cambiado en su ruta.
 >
 >
 > En este capítulo aprenderás:
@@ -10,7 +10,7 @@
 > * El deber legal del piloto de consultar la información disponible antes del vuelo.
 > * Dónde consultar todo esto, y cómo ver los NOTAM y las restricciones sobre el mapa.
 
-## La información es seguridad
+## Informarse antes de volar
 
 Antes de despegar, el piloto debe "familiarizarse con toda la información disponible". No es un consejo: es una **obligación legal** (SERA.2010). Para que puedas cumplirla, los estados prestan los Servicios de Información Aeronáutica (**AIS**).
 
@@ -18,7 +18,7 @@ En España, el proveedor principal es **ENAIRE**, y todo se agrupa en la "Docume
 
 ## El manual AIP (Publicación de Información Aeronáutica)
 
-El **AIP** es la "biblia" de la aviación de un país: contiene la información permanente esencial para navegar, organizada en tres partes (@fig-01-cap09-estructura-aip):
+El **AIP** reúne la información permanente que necesitas para navegar por un país, organizada en tres partes (@fig-01-cap09-estructura-aip):
 
 1. **GEN (Generalidades)**: reglamentos, señales de socorro, tablas de conversión, salida y puesta de sol, servicios disponibles.
 2. **ENR (En Ruta)**: estructura del espacio aéreo (vías aéreas, zonas prohibidas y restringidas), radioayudas, alertas para la navegación.
@@ -28,7 +28,7 @@ El **AIP** es la "biblia" de la aviación de un país: contiene la información 
 
 ### El ciclo AIRAC
 
-El AIP no cambia cada día. Las actualizaciones importantes y previsibles (nuevas rutas, frecuencias) se publican siguiendo el sistema **AIRAC** (Reglamentación y Control de la Información Aeronáutica), que garantiza que los cambios llegan a todos con antelación suficiente antes de entrar en vigor: entran en vigor en fechas comunes, cada **28 días**, y ENAIRE los distribuye con 42 días de antelación para que lleguen al menos 28 días antes (AIP España, GEN 3.1).
+El AIP no cambia cada día. Las actualizaciones importantes y previsibles (nuevas rutas, frecuencias) se publican siguiendo el sistema **AIRAC** (Reglamentación y Control de la Información Aeronáutica), para que los cambios lleguen a todos con tiempo: entran en vigor en fechas comunes, cada **28 días**, y ENAIRE los distribuye con 42 días de antelación para que lleguen al menos 28 días antes (AIP España, GEN 3.1).
 
 ### Suplementos al AIP (SUP)
 
@@ -49,7 +49,7 @@ Consultar los NOTAM de tu aeródromo de salida, destino, alternativos y la ruta 
 Son avisos que no justifican un NOTAM (no afectan a la operación de forma urgente y directa) pero conviene conocer: asuntos administrativos como nuevas tasas, recomendaciones de seguridad estacionales, prevención de engelamiento o explicaciones técnicas.
 
 ::: {.callout-tip title="Regla de oro"}
-En España, puedes consultar todo esto gratis en los portales **ICARO** e **Insignia** de ENAIRE. Insignia es una herramienta visual fantástica para ver los NOTAM sobre el mapa. Acostúmbrate a usarla.
+En España, puedes consultar todo esto gratis en los portales **ICARO** e **Insignia** de ENAIRE. Insignia, además, te pinta los NOTAM sobre el mapa. Acostúmbrate a usarla.
 :::
 
 ::: {.postit}
