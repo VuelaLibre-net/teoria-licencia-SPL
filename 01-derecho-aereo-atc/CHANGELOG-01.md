@@ -271,6 +271,13 @@ capítulos:
   (SERA.6001 b)).
 * **cap07, autorizaciones** — el resumen decía que una autorización no exime al piloto de su
   responsabilidad sin que el cuerpo lo explicara. Se añade al cuerpo, con SERA.3201.
+* **cap08, objetivos del ATS y figuras** — SERA.7001 limita a los obstáculos del área de maniobras
+  la prevención de colisiones con obstáculos. Los pies de las figuras de dependencias y de fases de
+  emergencia avisan de sus desajustes con el texto.
+* **cap09, NOTAM** — la apertura prometía enseñar a usar Insignia, y el capítulo no lo hacía; la
+  promesa se ajusta. La figura del NOTAM aparecía antes de presentarlo y nadie explicaba sus campos:
+  ahora va después, con una línea sobre los campos A, B, C y E y el formato de la fecha. Su pie avisa
+  de que las pistas reales de Zaragoza son 12L/30R y 12R/30L.
 
 ### Añadido
 

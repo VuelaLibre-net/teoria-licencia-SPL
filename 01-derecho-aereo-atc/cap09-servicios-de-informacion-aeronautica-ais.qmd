@@ -8,7 +8,7 @@
 >
 > * Las fuentes de información: AIP (permanente), sus suplementos SUP (temporales y largos), NOTAM (urgente) y AIC (informativo).
 > * El deber legal del piloto de consultar la información disponible antes del vuelo.
-> * Cómo usar ENAIRE Insignia para ver las restricciones sobre el mapa.
+> * Dónde consultar todo esto, y cómo ver los NOTAM y las restricciones sobre el mapa.
 
 ## La información es seguridad
 
@@ -36,9 +36,11 @@ Cuando un cambio es temporal pero largo —tres meses o más— o necesita texto
 
 ## Noticias urgentes: NOTAM (Notice to airmen)
 
-![Decodificación básica de un NOTAM](imagenes/01-cap09-ejemplo-notam.jpg){#fig-01-cap09-ejemplo-notam}
+Hay cosas que no pueden esperar al ciclo AIRAC: una grúa en final de pista, un VOR inoperativo, un festival aéreo el sábado…​ Para eso existen los **NOTAM**: avisos temporales (generalmente de 3 meses como máximo) sobre el establecimiento, estado o modificación de cualquier instalación, servicio o procedimiento aeronáutico, o sobre un peligro para la navegación.
 
-Hay cosas que no pueden esperar al ciclo AIRAC: una grúa en final de pista, un VOR inoperativo, un festival aéreo el sábado…​ Para eso existen los **NOTAM**: avisos temporales (generalmente de 3 meses como máximo) sobre el establecimiento, estado o modificación de cualquier instalación, servicio o procedimiento aeronáutico, o sobre un peligro para la navegación (@fig-01-cap09-ejemplo-notam).
+Cada NOTAM tiene sus campos (@fig-01-cap09-ejemplo-notam). Los que más vas a mirar son el **A**, el aeródromo o la región afectados; el **B** y el **C**, el inicio y el final de la validez, con el año, el mes, el día, la hora y los minutos en UTC (2310250800 es el 25 de octubre de 2023 a las 08:00 UTC); y el **E**, el texto del aviso.
+
+![Decodificación básica de un NOTAM. El ejemplo es ilustrativo: las pistas reales de Zaragoza son 12L/30R y 12R/30L.](imagenes/01-cap09-ejemplo-notam.jpg){#fig-01-cap09-ejemplo-notam}
 
 Consultar los NOTAM de tu aeródromo de salida, destino, alternativos y la ruta antes de **cada** vuelo es obligatorio. En la práctica no se leen sueltos: se piden agrupados en un **boletín de información previa al vuelo** (**PIB**) para tu ruta y tus aeródromos, que es lo que te entrega ICARO.
 
