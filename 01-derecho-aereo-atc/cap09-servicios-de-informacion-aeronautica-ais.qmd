@@ -6,7 +6,7 @@
 > En este capítulo aprenderás:
 >
 >
-> * Las tres fuentes de información: AIP (permanente), NOTAM (urgente) y AIC (informativo).
+> * Las fuentes de información: AIP (permanente), sus suplementos SUP (temporales y largos), NOTAM (urgente) y AIC (informativo).
 > * El deber legal del piloto de consultar la información disponible antes del vuelo.
 > * Cómo usar ENAIRE Insignia para ver las restricciones sobre el mapa.
 
@@ -18,7 +18,7 @@ En España, el proveedor principal es **ENAIRE**, y todo se agrupa en la "Docume
 
 ## El manual AIP (Publicación de Información Aeronáutica)
 
-El **AIP** es la "biblia" de la aviación de un país: contiene la información permanente esencial para navegar, organizada en tres volúmenes (@fig-01-cap09-estructura-aip):
+El **AIP** es la "biblia" de la aviación de un país: contiene la información permanente esencial para navegar, organizada en tres partes (@fig-01-cap09-estructura-aip):
 
 1. **GEN (Generalidades)**: reglamentos, señales de socorro, tablas de conversión, salida y puesta de sol, servicios disponibles.
 2. **ENR (En Ruta)**: estructura del espacio aéreo (vías aéreas, zonas prohibidas y restringidas), radioayudas, alertas para la navegación.
@@ -28,7 +28,11 @@ El **AIP** es la "biblia" de la aviación de un país: contiene la información 
 
 ### El ciclo AIRAC
 
-El AIP no cambia cada día. Las actualizaciones importantes y previsibles (nuevas rutas, frecuencias) se publican siguiendo el sistema **AIRAC** (Reglamentación y Control de la Información Aeronáutica), que garantiza que los cambios llegan a todos con antelación suficiente antes de entrar en vigor.
+El AIP no cambia cada día. Las actualizaciones importantes y previsibles (nuevas rutas, frecuencias) se publican siguiendo el sistema **AIRAC** (Reglamentación y Control de la Información Aeronáutica), que garantiza que los cambios llegan a todos con antelación suficiente antes de entrar en vigor: entran en vigor en fechas comunes, cada **28 días**, y ENAIRE los distribuye con 42 días de antelación para que lleguen al menos 28 días antes (AIP España, GEN 3.1).
+
+### Suplementos al AIP (SUP)
+
+Cuando un cambio es temporal pero largo —tres meses o más— o necesita textos extensos o gráficos, no va en un NOTAM: se publica como **suplemento al AIP** (**SUP**), en páginas amarillas, o rosas si sigue el ciclo AIRAC. En vuelo a vela son frecuentes: zonas temporales para un campeonato, cambios en un aeródromo durante unas obras. Consulta los SUP en vigor junto con el AIP.
 
 ## Noticias urgentes: NOTAM (Notice to airmen)
 
@@ -36,7 +40,7 @@ El AIP no cambia cada día. Las actualizaciones importantes y previsibles (nueva
 
 Hay cosas que no pueden esperar al ciclo AIRAC: una grúa en final de pista, un VOR inoperativo, un festival aéreo el sábado…​ Para eso existen los **NOTAM**: avisos temporales (generalmente de 3 meses como máximo) sobre el establecimiento, estado o modificación de cualquier instalación, servicio o procedimiento aeronáutico, o sobre un peligro para la navegación (@fig-01-cap09-ejemplo-notam).
 
-Consultar los NOTAM de tu aeródromo de salida, destino, alternativos y la ruta antes de **cada** vuelo es obligatorio.
+Consultar los NOTAM de tu aeródromo de salida, destino, alternativos y la ruta antes de **cada** vuelo es obligatorio. En la práctica no se leen sueltos: se piden agrupados en un **boletín de información previa al vuelo** (**PIB**) para tu ruta y tus aeródromos, que es lo que te entrega ICARO.
 
 ## Circulares de Información Aeronáutica (AIC)
 
@@ -52,6 +56,7 @@ En España, puedes consultar todo esto gratis en los portales **ICARO** e **Insi
 La información es seguridad. Tus fuentes:
 
 * **AIP**: el "manual gordo" y permanente. Mapas, frecuencias, zonas peligrosas, horarios de aeropuertos. Es la base.
+* **SUP**: suplementos al AIP para cambios temporales largos (tres meses o más). Se consultan junto con el AIP.
 * **NOTAM**: la actualidad. Avisos temporales urgentes (una pista cerrada, un festival aéreo, una restricción temporal). Consultarlos antes de cada vuelo es obligatorio.
 * **AIC**: circulares informativas sobre seguridad y cambios administrativos.
 :::

@@ -215,6 +215,9 @@ Este glosario contiene las definiciones y acrónimos más relevantes del marco n
 **Part-SFCL (Licencias de Tripulación de Vuelo de Planeadores / Sailplane Flight Crew Licensing)**
 : Parte del Reglamento (UE) 2018/1976 que regula las licencias, atribuciones, instructores y examinadores de planeadores.
 
+**PIB (Boletín de información previa al vuelo / Pre-flight Information Bulletin)**
+: Recopilación de los NOTAM en vigor y de otra información de importancia operacional para una ruta o unos aeródromos concretos, preparada antes del vuelo.
+
 **PIC (Piloto al mando / Pilot in Command)**
 : Piloto designado para el mando y encargado de la realización segura del vuelo.
 
@@ -256,6 +259,9 @@ Este glosario contiene las definiciones y acrónimos más relevantes del marco n
 
 **SPL (Licencia de Piloto de Planeador / Sailplane Pilot Licence)**
 : Licencia de la Unión Europea, regulada por la Part-SFCL, que permite ejercer las atribuciones de piloto de planeador dentro de las condiciones aplicables.
+
+**SUP (Suplemento al AIP / AIP Supplement)**
+: Publicación que recoge cambios temporales de larga duración (tres meses o más) de la información del AIP, o información temporal con textos extensos o gráficos.
 
 **TMA (Área de Control Terminal / Terminal Control Area)**
 : Área de control establecida normalmente en la confluencia de rutas ATS, en las inmediaciones de uno o más aeródromos importantes, cuyos límites son los publicados para cada TMA.

@@ -156,6 +156,14 @@ casi todas normativas:
   *FIZ* en el glosario.
 * **cap08, remisión a las señales luminosas** — están en el capítulo 5 del libro 4, no en el 7,
   desde que ese libro se renumeró.
+* **cap09 y Glosario, SUP y PIB** — faltaban los suplementos al AIP (SUP), donde se publican los
+  cambios temporales largos, frecuentes en vuelo a vela (campeonatos, zonas temporales), y el
+  boletín de información previa al vuelo (PIB), que es como se consultan los NOTAM en la práctica.
+  Apartado nuevo, viñeta en el post-it, entradas *SUP* y *PIB* en el glosario y tarjeta Anki nueva
+  `sup-y-airac`.
+* **cap09, AIRAC y estructura del AIP** — el ciclo AIRAC no daba su cifra, típica de examen: 28
+  días, con la información en manos del usuario al menos 28 días antes (AIP GEN 3.1). Y el AIP se
+  organiza en tres partes, no en tres volúmenes.
 
 ### Añadido
 
