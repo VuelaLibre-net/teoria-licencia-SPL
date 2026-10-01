@@ -88,6 +88,15 @@ casi todas normativas:
   un año). Volar bajo los efectos del alcohol es, además, delito (Ley 209/1964, art. 31). Tarjetas
   nuevas `lsa-gravedad-por-consecuencias` y `alcohol-es-delito`; la de `infracciones-muy-graves`
   cambia de pregunta.
+* **cap02, prórroga del ARC** — «entorno controlado» es terminología de la antigua Part-M. Part-ML
+  (ML.A.902 b)) exige que la misma CAMO o CAO haya gestionado la aeronavegabilidad sin interrupción
+  desde que se expidió el ARC; se dice así. El pie de la figura del ciclo del ARC avisa de que su
+  último tramo, rotulado como caducado, es válido, hasta que la figura se rehaga.
+* **cap02, defectos** — el reporte de defectos parecía una cortesía. ML.A.403 a) obliga a
+  rectificar antes del vuelo cualquier defecto que ponga seriamente en peligro la seguridad. Se
+  distingue además el diario de a bordo (*journey log*) del registro técnico.
+* **cap02 y su tarjeta Anki, seguro** — «la aseguradora rechazará la cobertura» pasa a «puede
+  negarse a cubrirte o repetir contra ti»: depende de cada póliza.
 
 ### Añadido
 
@@ -103,7 +112,6 @@ casi todas normativas:
   Este-Oeste, al revés que la regla española; la del flujo de notificación daba por voluntario todo
   lo que no fuera accidente o incidente grave; y la escala de infracciones contradecía la LSA y el
   propio texto. Quedan comentadas en el `.qmd` hasta que se rehagan.
-
 
 ## [1.0-rc.14] — 7 de agosto de 2026
 
