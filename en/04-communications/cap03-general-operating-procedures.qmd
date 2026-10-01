@@ -1,6 +1,6 @@
 ---
 origen: 04-comunicaciones/cap03-procedimientos-operativos-generales.qmd
-origen-commit: a80eda3
+origen-commit: 8390229
 ---
 
 # General operating procedures
@@ -128,7 +128,7 @@ Not all messages are equal. ICAO sets a clear order of priority so that the most
 6. **Flight regularity communications**: closing a flight plan, position confirmations and operational coordination.
 
 ::: {.callout-important title="Regulation"}
-The malicious or false transmission of emergency signals (Mayday / Pan Pan) is a serious criminal offence in every EASA jurisdiction, punishable by heavy fines and the withdrawal of the pilot's licence, quite apart from the real operational risk it creates by diverting emergency resources. Use them only when the real situation demands it.
+The malicious or false transmission of emergency signals (Mayday / Pan Pan) is no joke: in Spain, if it causes the rescue services to be mobilised, it is a criminal offence punishable by imprisonment or a fine (Código Penal, the Spanish Criminal Code, Article 561), quite apart from the real operational risk it creates by diverting emergency resources. Use them only when the real situation demands it.
 :::
 
 ## Microphone technique

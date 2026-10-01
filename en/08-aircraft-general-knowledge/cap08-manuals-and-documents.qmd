@@ -1,6 +1,6 @@
 ---
 origen: 08-aeronave-sistemas/cap08-manuales-y-documentos.qmd
-origen-commit: 6f79f9b
+origen-commit: 8390229
 ---
 
 # Manuals and documents
@@ -76,7 +76,7 @@ Every flying hour and every landing is recorded in the **Aircraft Logbook**. It 
 **Chapter summary: aircraft documents**
 
 * **Flight Manual (AFM)**: on board on every flight (except flights within sight of the aerodrome). It contains the limits (V~NE~, load factors), the emergency procedures and the loading tables. Read it before flying a new type.
-* **Certificates**: the aircraft needs a certificate of airworthiness, a valid ARC, insurance and an aircraft radio licence. They may stay at the aerodrome (SAO.GEN.155). Without a valid ARC, the insurance covers nothing.
+* **Certificates**: the aircraft needs a certificate of airworthiness, a valid ARC, insurance and an aircraft radio licence. They may stay at the aerodrome (SAO.GEN.155). Without a valid ARC you do not fly, and the insurer may refuse to cover you or seek recovery from you, depending on the policy.
 * **Checks**: CB-SIFT-CBE before take-off, FUSTALL/WULF on the downwind leg. Read, check and confirm; never from memory.
 * **Technical log**: before flying, check that there are no outstanding defects that affect you. Afterwards, record your flight and any problem.
 :::

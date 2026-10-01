@@ -21,10 +21,12 @@ tarjetas:
     tipo: basica
     anverso: Order of right of way, and what to do head-on.
     reverso: |
-      **Balloon > glider > powered.** The one most able to manoeuvre gives way.
+      **When converging: balloon > glider > powered.** The one most able to
+      manoeuvre gives way; between equals, the one coming from the right has
+      priority.
 
-      **Head-on, always to the right.** When converging, the one coming from the
-      right has priority.
+      **Head-on, both turn right**, and the overtaking aircraft keeps clear,
+      whatever its category.
     etiquetas: [Golden rule]
 
   - id: prioridad-en-aterrizaje-y-ladera
@@ -41,7 +43,9 @@ tarjetas:
     tipo: basica
     anverso: What are the **minimum flight heights** in VFR?
     reverso: |
-      **150 m in general and 300 m over populated areas.**
+      **150 m above the ground or the highest obstacle within a radius of
+      150 m, and 300 m above the highest obstacle within 600 m when flying
+      over populated areas.**
 
       *Basis: SERA.5005(f).*
 
@@ -51,8 +55,10 @@ tarjetas:
     reverso: |
       **Ridge soaring is exempt from the 150 m**, if it involves no risk or
       nuisance to persons or property, **and you may descend to 50 m when
-      practising forced landings**, 150 m from any person, vehicle, vessel or
-      artificial obstacle.
+      practising forced landings**, with no risk or nuisance, 150 m from any
+      person, vehicle, vessel or artificial obstacle and in line with the
+      operator's safety study.
 
-      *Basis: Real Decreto 552/2014 (Royal Decree 552/2014).*
+      *Basis: Real Decreto 1180/2018 (Royal Decree 1180/2018), art. 33
+      (previously RD 552/2014).*
     etiquetas: [Regulation]

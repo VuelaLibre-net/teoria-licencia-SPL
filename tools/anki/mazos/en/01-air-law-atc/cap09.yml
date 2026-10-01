@@ -21,6 +21,16 @@ tarjetas:
       **Urgent temporary notices** (closed runway, air show, temporary
       restriction). **Checking them before every flight is mandatory.**
 
+  - id: sup-y-airac
+    tipo: basica
+    anverso: Where is a temporary AIP change lasting three months or more published, and how often does an AIRAC change take effect?
+    reverso: |
+      **In an AIP Supplement (SUP).** AIRAC changes take effect on common
+      dates **every 28 days**, and reach users at least 28 days in advance.
+
+      *Basis: AIP España, GEN 3.1.*
+    etiquetas: [Regulation]
+
   - id: aic
     tipo: basica
     anverso: What are **AICs**?

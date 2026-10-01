@@ -1,6 +1,6 @@
 ---
 origen: 04-comunicaciones/cap06-procedimientos-de-socorro-y-urgencia.qmd
-origen-commit: a07f595
+origen-commit: 8390229
 ---
 
 # Distress and urgency procedures
@@ -20,7 +20,7 @@ The word is repeated **three times** so that it stands out from normal traffic a
 *«Mayday, Mayday, Mayday…»*
 
 ::: {.callout-warning title="Safety"}
-The malicious or false transmission of a MAYDAY distress message mobilises the State's search and rescue (SAR) resources. Under the Spanish Aviation Safety Act (*Ley de Seguridad Aérea*), simulating an emergency or giving false information that compromises safety is classed as a very serious offence, carries heavy fines and may lead to the revocation of the pilot's licence.
+The malicious or false transmission of a MAYDAY distress message mobilises the State's search and rescue (SAR) resources. In Spain, simulating a danger or an accident that causes the rescue services to be mobilised is a **criminal offence**, punishable by imprisonment of three months and one day to one year or by a fine (Código Penal, the Spanish Criminal Code, Article 561).
 :::
 
 ::: {.callout-important title="Regulation"}

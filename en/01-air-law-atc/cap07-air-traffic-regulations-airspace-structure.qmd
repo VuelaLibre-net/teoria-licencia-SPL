@@ -1,6 +1,6 @@
 ---
 origen: 01-derecho-aereo-atc/cap07-reglamentacion-de-transito-aereo-estructura-del-espacio-aereo.qmd
-origen-commit: 2375434
+origen-commit: 574edb6
 ---
 
 # Air traffic regulations: airspace structure
@@ -22,7 +22,7 @@ The air is not free, or at least not all of it. To keep traffic in order, airspa
 
 ## Controlled vs uncontrolled airspace
 
-This is the main split. In **controlled** airspace, someone (ATC) separates you from other aircraft, or at least keeps an eye on you. In **uncontrolled** airspace you are on your own, with the radio to hand.
+This is the main split. In **controlled** airspace there is an ATC unit that gives you clearances and, depending on the class, separates you from other traffic or just tells you about it: you can see which in the table below. In **uncontrolled** airspace you are on your own, with the radio to hand.
 
 ### Airspace classes (SERA.6001)
 
@@ -30,15 +30,19 @@ ICAO defines 7 classes, but in Spain we mainly use classes **A, C, D and E** (co
 
 | Class | Type | Requirements for VFR (gliders) |
 | --- | --- | --- |
-| **A** | **Controlled** (IFR only) | **VFR PROHIBITED**. You cannot enter. (E.g. Madrid TMA area A). **Requirements**: clearance + radio + transponder. |
-| **C** | **Controlled** | **Separation**: ATC separates you from IFR traffic. From other VFR traffic you only receive traffic information (and traffic avoidance advice on request): **you separate yourself from VFR traffic**. **Requirements**: clearance + radio + transponder. |
-| **D** | **Controlled** | **Separation**: none for VFR. ATC gives you traffic information on IFR and other VFR traffic, but **see and avoid is up to you**. **Requirements**: clearance + radio + transponder (generally). |
+| **A** | **Controlled** (IFR only) | **VFR PROHIBITED**. You cannot enter. (E.g. Madrid TMA area A). |
+| **C** | **Controlled** | **Separation**: ATC separates you from IFR traffic. From other VFR traffic you only receive traffic information (and traffic avoidance advice on request): **you separate yourself from VFR traffic**. **Requirements**: clearance + radio. |
+| **D** | **Controlled** | **Separation**: none for VFR. ATC gives you traffic information on IFR and other VFR traffic, but **see and avoid is up to you**. **Requirements**: clearance + radio. |
 | **E** | **Controlled** (for IFR) | **Hybrid**: controlled for IFR, “free” for VFR. **VFR**: you need neither a clearance nor a radio (although a radio is highly recommended). ATC does not separate you from anyone, but gives traffic information where it can. |
 | **G** | **Uncontrolled** | **Free**: you fly under your own responsibility. **Service**: flight information (FIS) only, if you request it. |
 : Airspace classes and VFR requirements for gliders
 
+Be careful with clearances too: an ATC clearance or instruction does not relieve you of the responsibility to avoid a collision (SERA.3201). If you cannot comply with it safely, say so at once and ask for another.
+
+The **transponder** does not depend on the airspace class. In Spain it is mandatory, except for exemptions granted by the Dirección General de Aviación Civil (Spanish Directorate General of Civil Aviation), in three cases: at **FL145 or above** (this matters on wave days), inside the Madrid, Zaragoza, Sevilla, Barcelona, Palma, Valencia and Canarias TMAs at any level, and in **TMZs** (AIP España, ENR 1.6).
+
 ::: {.callout-note title="Airmanship"}
-ICAO rules define classes **B** and **F**, but in practice they are not used for general aviation or training in Spain. Spanish airspace is mostly class G (uncontrolled airspace away from routes and airports) or classes A, C, D and E (on routes and around airports).
+ICAO rules define classes **B** and **F**, but in practice they are not used for general aviation or training in Spain. Below FL195 and outside TMAs, CTRs and airways, Spanish airspace is mostly class G; classes A, C, D and E are found on routes and around airports. And above FL195 everything is class C (SERA.6001(b)).
 :::
 
 ![Visual summary of the airspace classes used in Spain (A, C, D, E, G)](imagenes/01-cap07-clases-espacio-aereo.jpg){#fig-01-cap07-clases-espacio}
@@ -47,11 +51,11 @@ ICAO rules define classes **B** and **F**, but in practice they are not used for
 
 Sometimes the airspace is class G, and free, but the authority wants a little order without controlling everything. These two arrangements do that:
 
-* **RMZ** (**Radio Mandatory Zone**): uncontrolled airspace where it is **mandatory to carry a radio and communicate**. Before entering you must say who you are, where you are and what you intend to do.
+* **RMZ** (**Radio Mandatory Zone**): a zone, usually in class E, F or G airspace, where it is **mandatory to carry a radio and communicate**. Before entering you must make an initial call: who you are (call sign and type), where you are (position and level) and what you intend to do (SERA.6005(a)).
 * **TMZ** (**Transponder Mandatory Zone**): you must carry and operate a **transponder** with the required capabilities. A listening watch or radio contact is only mandatory if the zone is also an RMZ or the publication says so.
 
 ::: {.callout-tip title="Golden rule"}
-If you see an RMZ on the chart, do not enter silently. Call the frequency shown and report: “Juliana Information, EC-OJE, glider, entering RMZ north sector…”.
+If you see an RMZ on the chart, do not enter silently. Call the frequency shown **before entering** and report: “Juliana Information, EC-OJE, glider, five miles north of the RMZ, four thousand five hundred feet, will enter the RMZ southbound…”.
 :::
 
 ## Prohibited, restricted and danger areas
@@ -59,13 +63,13 @@ If you see an RMZ on the chart, do not enter silently. Call the frequency shown 
 Some airspace is “locked” for safety or defence reasons and marked with codes such as LER71:
 
 * **P** (**Prohibited**): never enter. Think of the Royal Palace or nuclear power stations.
-* **R** (**Restricted**): entry is subject to conditions. You can usually pass through when it is inactive, or with special permission (nature reserves, military exercise areas).
-* **D** (**Danger**): there is a hazard of some kind (explosives testing, hazardous activities). You may enter at your own risk, but you are better off avoiding them (@fig-01-cap07-zonas-prd).
+* **R** (**Restricted**): entry is subject to conditions, which are the ones the AIP publishes (ENR 5.1) for each area. Some are only active at certain times; others are permanent and prohibit overflight except in specific cases, such as **LER170**, the Monfragüe National Park, from the surface up to FL090.
+* **D** (**Danger**): there are activities dangerous to flight (testing, air exercises, firing). Read the remarks in the AIP before entering: some require prior coordination, such as **LED125**, which asks you to coordinate with Talavera Air Base. In any case, you are better off avoiding them (@fig-01-cap07-zonas-prd).
 
-![VFR aeronautical chart showing areas LEP141 (prohibited, red, for the Almaraz nuclear power station); LER170 and LER71C (restricted); LED125 (danger).](imagenes/01-cap07-zonas-prd.png){#fig-01-cap07-zonas-prd}
+![VFR aeronautical chart showing areas LEP141 (prohibited, red, for the Almaraz nuclear power station); LER170 and LER71C (restricted); LED125 (danger). Data checked against the AIP España in force on 1 October 2026; the chart changes, so always use the current edition.](imagenes/01-cap07-zonas-prd.png){#fig-01-cap07-zonas-prd}
 
 ::: {.callout-warning title="Safety"}
-Infringing an active P or R area can bring serious sanctions, and even interception by military aircraft. Plan your flight and check the NOTAMs to see whether the R areas are active. Interception signals and the response procedure (SERA.11015) are covered in Book 4 (*Communications*), chapter 8.
+Infringing an active P or R area can bring serious sanctions, and even interception by military aircraft. Plan your flight and check the NOTAMs to see whether the R areas are active. Interception signals and the response procedure (SERA.11015) are covered in Book 4 (*Communications*), chapter 6.
 :::
 
 ::: {.postit}

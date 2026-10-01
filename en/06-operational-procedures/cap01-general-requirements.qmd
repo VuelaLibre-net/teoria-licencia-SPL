@@ -1,6 +1,6 @@
 ---
 origen: 06-procedimientos-operativos/cap01-requisitos-generales.qmd
-origen-commit: 19f429a
+origen-commit: 8390229
 ---
 
 # General requirements

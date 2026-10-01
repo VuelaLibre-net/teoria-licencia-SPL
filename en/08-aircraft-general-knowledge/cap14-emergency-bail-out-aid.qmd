@@ -1,6 +1,6 @@
 ---
 origen: 08-aeronave-sistemas/cap14-equipo-de-evacuacion-de-emergencia.qmd
-origen-commit: 97aa75e
+origen-commit: 8390229
 ---
 
 # Emergency bail-out aid
@@ -38,7 +38,7 @@ As you climb, atmospheric pressure falls and fewer oxygen molecules reach your l
 ::: {.callout-important title="Regulation"}
 **SAO.OP.150 (use of supplemental oxygen)**: “The pilot-in-command shall ensure that all persons on board use supplemental oxygen whenever he or she determines that, at the altitude of the intended flight, lack of oxygen might result in impairment of their faculties or harmfully affect them.”
 
-**AMC1 SAO.OP.150** sets out the criterion: when the pilot cannot determine that effect, they should ensure that all occupants use oxygen during any period in which the pressure altitude is above 10,000 ft.
+**AMC1 SAO.OP.150** sets out the criterion as an acceptable means of compliance: when the pilot cannot determine that effect, they should ensure that all occupants use oxygen during any period in which the pressure altitude is above 10,000 ft.
 :::
 
 As good physiological practice, and not as a regulatory requirement, many pilots use oxygen from lower altitudes (around 5,000 ft) at dusk, because vision is the first thing to suffer from a lack of oxygen.

@@ -1,6 +1,6 @@
 ---
 origen: 01-derecho-aereo-atc/cap01-derecho-internacional-convenios-acuerdos-y-organizaciones.qmd
-origen-commit: aad4396
+origen-commit: XXXX
 ---
 
 # International law: conventions, agreements and organisations
@@ -26,7 +26,7 @@ ICAO sets the minimum standards its 193 member States must meet. It is not a “
 
 To make international air transport possible, the Chicago Convention laid the foundations of the **freedoms of the air** (see @fig-01-cap01-chicago-freedoms): agreements that allow the aircraft of one State to enter or overfly the airspace of another. The Chicago conference defined the first five in agreements annexed to the Convention (overflight, technical stops and the basic commercial rights), but air law has kept evolving and nine are recognised today.
 
-![The freedoms of the air under the Chicago Convention](imagenes/01-cap01-libertades-chicago.jpg){#fig-01-cap01-chicago-freedoms}
+![The freedoms of the air under the Chicago Convention. In the fifth freedom, the country in blue is, as in all the others, the aircraft's home country, even though the drawing labels it “foreign country A”.](imagenes/01-cap01-libertades-chicago.jpg){#fig-01-cap01-chicago-freedoms}
 
 ## The authority in Europe: EASA and the common system
 
@@ -45,21 +45,21 @@ EASA regulations are organised in layers with different legal force (@fig-01-cap
 These are mandatory. Nobody is exempt unless the authority grants an exemption in writing. There are two levels:
 
 * **Basic Regulation**: the “constitution” of aviation safety in Europe, currently Regulation (EU) 2018/1139. It sets out the essential principles and the high-level objectives.
-* **Implementing Rules** (IRs): the detailed rules that put the Basic Regulation into practice. For example, Regulation (EU) 2018/1976 (amended by 2020/358) specifically governs sailplane licences.
+* **Implementing Rules** (IRs): the detailed rules that put the Basic Regulation into practice. For example, Implementing Regulation (EU) 2018/1976 (amended by 2020/358) specifically governs sailplane licences.
 
 ::: {.callout-important title="Regulation"}
-Regulation (EU) 2018/1139 (the Basic Regulation) lays down common rules in the field of civil aviation and establishes the European Union Aviation Safety Agency (EASA). It is the highest-ranking rule in the European system.
+Regulation (EU) 2018/1139 (the Basic Regulation) lays down common rules in the field of civil aviation and establishes the European Union Aviation Safety Agency (EASA). It is the highest-ranking rule in the EASA regulatory system; only the EU Treaties stand above it.
 :::
 
 ### Non-binding standards (soft law): how to comply with the law
 
 These are documents that help you comply with the law without being law themselves. Do not be fooled by the “non-binding” label: in aviation they are followed almost to the letter.
 
-* **AMC** (**Acceptable Means of Compliance**): methods and procedures that EASA publishes as a safe way of complying with the binding rules. If you follow the AMC, you automatically comply with the rule. If you prefer to do it another way, you will have to show, with a fair amount of paperwork, that your method is just as safe.
+* **AMC** (**Acceptable Means of Compliance**): methods and procedures that EASA publishes as a recognised way of showing that you comply with the binding rules. If you prefer to do it another way (an alternative means of compliance, AltMoC), you must be able to show that you still comply fully with the rule. In sailplane operations that alternative means does not need to be approved by the authority, although in commercial operations requiring a declaration it has to be notified to it (GM1 SAO.GEN.110(b)(2)).
 * **GM** (**Guidance Material**): explanations, interpretations and examples to help you understand the requirements. It does not oblige; it helps.
 * **CS** (**Certification Specifications**): technical standards for certifying aircraft and products. The one that matters to us is CS-22, for sailplanes.
 
-![EASA regulatory structure: binding rules vs non-binding standards](imagenes/01-cap01-estructura-normativa-easa.jpg){#fig-01-cap01-hard-soft-law}
+![EASA regulatory structure: binding rules vs non-binding standards. CS are certification specifications for aircraft and products, not means of complying with the regulations.](imagenes/01-cap01-estructura-normativa-easa.jpg){#fig-01-cap01-hard-soft-law}
 
 ::: {.callout-tip title="Golden rule"}
 * **Binding rules (Regulations)** = **WHAT** you must comply with (mandatory).
@@ -72,7 +72,7 @@ Out of the whole regulatory alphabet soup, three regulations are the ones you wi
 
 ### 1. Part-SFCL (licensing)
 
-**Sailplane Flight Crew Licensing** governs everything to do with your licence: the requirements for obtaining the SPL (**Sailplane Pilot Licence**), the recent experience you need to keep it, the ratings and privileges (TMG, aerobatics, towing…) and the privileges of instructors and examiners. It comes from Implementing Regulation (EU) 2018/1976 and its amendments, such as 2020/358.
+**Sailplane Flight Crew Licensing** governs everything to do with your licence: the requirements for obtaining the SPL (**Sailplane Pilot Licence**), the recent experience you need to keep it, the extension to the touring motor glider (TMG), the aerobatic privileges and the towing rating, and the privileges of instructors and examiners. It comes from Implementing Regulation (EU) 2018/1976 and its amendments, such as 2020/358.
 
 ### 2. Part-SAO (operations)
 
@@ -84,10 +84,10 @@ Under SAO.GEN.130 (Part-SAO), the pilot-in-command is responsible for the safety
 
 ### 3. SERA (Rules of the Air)
 
-**Standardised European Rules of the Air** is the highway code of the sky: right of way, cruising levels, visibility and distance-from-cloud minima (VMC), signals and lights. As an EU implementing regulation, it applies **directly** in Spain, with no need for a national rule to transpose it; Real Decreto 552/2014 (Royal Decree 552/2014) **supplements** it and fills in the details SERA leaves to each State.
+**Standardised European Rules of the Air** is the highway code of the sky: right of way, cruising levels, visibility and distance-from-cloud minima (VMC), signals and lights. As an EU implementing regulation, it applies **directly** in Spain, with no need for a national rule to transpose it; Real Decreto 1180/2018 (Royal Decree 1180/2018), which repealed the earlier Real Decreto 552/2014, **supplements** it and fills in the details SERA leaves to each State.
 
 ::: {.callout-warning title="Safety"}
-SERA.3210 sets out the right-of-way rules to avoid collisions. A glider always has priority over powered aircraft (aeroplanes, helicopters), but must give way to balloons. Know these rules by heart.
+SERA.3210 sets out the right-of-way rules to avoid collisions. When converging, a power-driven aircraft gives way to a glider, and a glider gives way to a balloon; but head-on, both alter heading to the right, an overtaking aircraft keeps out of the way whatever its category, and everyone gives way to an aircraft that is landing or whose manoeuvrability is impaired. The detail is in chapter 5; know these rules by heart.
 :::
 
 ::: {.postit}

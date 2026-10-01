@@ -1,6 +1,6 @@
 ---
 origen: 03-meteorologia/glosario.qmd
-origen-commit: 69b985e
+origen-commit: 8390229
 ---
 
 # Glossary of terms
@@ -38,7 +38,7 @@ This glossary contains the most relevant definitions and acronyms of aeronautica
 : It quantifies the accumulated buoyancy of a parcel of air from the surface to the equilibrium level. It is shown as the area between the parcel curve and the environment curve on the thermodynamic sounding. Guide values: < 500 J/kg (weak day), 1,000–2,500 J/kg (excellent), > 3,500 J/kg (severe convection likely).
 
 **CAVOK (Visibility, cloud and present weather better than prescribed values or conditions)**
-: Term used in weather reports that replaces certain visibility, present weather and cloud data when the established conditions are met at the same time: visibility of 10 km or more, no cloud below 5,000 ft and no cumulonimbus, and no significant weather. The name is ICAO's; at the club you will hear the backronym *Ceiling And Visibility OK*, which is not the official name.
+: Term used in weather reports that replaces certain visibility, present weather and cloud data when the established conditions are met at the same time: visibility of 10 km or more (the lowest visibility is not reported); no cloud below 5,000 ft or below the highest minimum sector altitude, whichever is greater, and no cumulonimbus or towering cumulus at any height; and no weather of significance to aviation (Commission Implementing Regulation (EU) 2017/373). The name is ICAO's; at the club you will hear the backronym *Ceiling And Visibility OK*, which is not the official name.
 
 **Col (barometric col)**
 : A transition area between two anticyclones and two opposing depressions where the pressure gradient is practically zero. It produces light, variable winds, reduced visibility from fog or mist in winter, and a risk of isolated local thunderstorms in summer.

@@ -11,7 +11,8 @@ tarjetas:
     tipo: basica
     anverso: What does a Spanish registration look like, and where does the mark come from?
     reverso: |
-      **EC- followed by three letters** (for example, EC-ABC).
+      **EC- followed by three letters** (for example, EC-ABC); four once the
+      three-letter series run out (RD 1029/2025).
 
       Mnemonic: **E**spaña **C**ivil (Spanish for “civil Spain”). It is Spain's
       ICAO mark.
@@ -31,8 +32,10 @@ tarjetas:
     tipo: basica
     anverso: Where are the registration marks painted?
     reverso: |
-      **On the fuselage or tail (and under the wings in some cases), plus the
-      Spanish flag.**
+      **Once on the lower surface of the wing and, in addition, on both sides
+      of the fuselage or on the tail**, plus the Spanish stripe or flag.
+
+      *Basis: Orden FOM/1687/2015, Annex II.*
 
   - id: placa-de-identificacion
     tipo: basica

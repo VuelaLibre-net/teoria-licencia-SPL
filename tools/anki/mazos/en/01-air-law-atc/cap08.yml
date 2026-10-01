@@ -11,7 +11,8 @@ tarjetas:
     tipo: basica
     anverso: What does each of the three ATS services provide?
     reverso: |
-      * **ATC (control)**: clearances that separate you from other aircraft.
+      * **ATC (control)**: mandatory clearances and instructions. VFR traffic
+        is separated only from IFR in class C, and from nobody in class D.
         TWR, APP and ACC, only in controlled airspace.
       * **FIS (information)**: weather, hazards and traffic. Avoiding a
         collision is still up to you.
@@ -21,8 +22,8 @@ tarjetas:
     tipo: basica
     anverso: The practical difference between an ATC call and a FIS call.
     reverso: |
-      **ATC**: “Turn heading 360 for traffic”: a mandatory instruction; they
-      separate you.
+      **ATC**: “Turn heading 360 for traffic”: a mandatory instruction; you
+      comply, but see and avoid is still up to you.
 
       **FIS**: “Traffic converging on your right”: information; **you** decide
       what to do.

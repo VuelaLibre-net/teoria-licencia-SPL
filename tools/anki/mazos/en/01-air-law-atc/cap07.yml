@@ -30,7 +30,8 @@ tarjetas:
     tipo: basica
     anverso: Which airspace classes are not used in practice in Spain?
     reverso: |
-      **B and F.**
+      **B and F.** And above FL195 all airspace is class C
+      (SERA.6001(b)).
 
       Spanish airspace is mostly G, and A, C, D and E on routes and around
       airports.

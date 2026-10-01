@@ -1,6 +1,6 @@
 ---
 origen: 04-comunicaciones/cap04-terminos-de-informacion-meteorologica-relevantes-vfr.qmd
-origen-commit: a65a255
+origen-commit: 8390229
 ---
 
 # Relevant weather information terms (VFR)
@@ -39,7 +39,7 @@ On the radio you do not describe the weather in your own words. You use standard
 
 ### CAVOK
 
-Probably the most welcome word you can hear on the ATIS. Read informally as *Ceiling and Visibility OK*, it means that three conditions are met at the same time:
+Probably the most welcome word you can hear on the ATIS. In radio slang it is read as *Ceiling and Visibility OK*, although that expansion is not ICAO's name for it. It means that three conditions are met at the same time:
 
 1. **Visibility** of 10 kilometres or more.
 2. **No convective cloud** (neither cumulonimbus, CB, nor towering cumulus, TCU) and no cloud layer below 5,000 feet or the minimum sector altitude, whichever is greater.
@@ -88,7 +88,7 @@ The SERA Regulation requires the pilot-in-command to report without delay any ha
 * **ATIS**: automatic voice broadcast at airports. Listening to it before calling gives you the runway in use, wind, QNH and the **information code** (e.g. *«Información Bravo»*). It saves the controller time and speeds up communication.
 * **VOLMET**: a station that broadcasts METARs, TAFs and SIGMETs for several airports in a loop. It lets you plan your arrival or choose an alternate without crowding the control frequency.
 * **Key concepts**:
-  * **CAVOK**: read informally as **Ceiling and Visibility OK** (visibility ≥ 10 km, no low cloud, no significant weather). The best possible conditions for VFR.
+  * **CAVOK**: visibility ≥ 10 km, no low cloud, no significant weather (in radio slang, *Ceiling and Visibility OK*, which is not the official name). The best possible conditions for VFR.
   * **QNH**: the reference pressure for reading altitude above sea level. Essential for respecting the vertical limits of airspace.
   * **Wind**: the Tower and the ATIS give the wind relative to magnetic north (like the runway numbers). On charts, in METAR/TAF text and on VOLMET the wind is given relative to true (geographic) north.
   * **AIREP**: a report the pilot must make in flight to tell other aircraft about severe weather phenomena that had not been forecast.
