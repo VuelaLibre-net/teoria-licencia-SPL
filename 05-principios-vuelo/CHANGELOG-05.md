@@ -17,7 +17,7 @@ rompe la compilación.
 ## [En curso]
 
 **Qué releer:** **cap03, modo fugoide**, y en el **Glosario** las entradas *Fugoide* y *Picado en
-espiral*, y la **Bibliografía**: la entrada de SERA y la nueva del Real Decreto 1180/2018. El resto
+espiral*, la **licencia** de los preliminares y la **Bibliografía**, que corrige la entrada de SERA y añade la lista de normas citadas. El resto
 son erratas y comillas.
 
 ### Corregido

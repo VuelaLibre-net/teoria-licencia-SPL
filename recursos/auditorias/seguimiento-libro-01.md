@@ -39,18 +39,18 @@ no se toca: es el registro de lo que se encontró. Aquí se anota qué se ha hec
 | TEC-02 | «El ATC te separa» | 2 | aplicado | | fase 2: cap07, cap08, post-it, Anki y citas del banco |
 | NOR-04 | CIAIAC suprimida | 1 | aplicado | | fase 1: cap13, glosario, Anki, lecciones 01, 13 y 14 y examen oficial; la Autoridad no tiene sigla oficial |
 | NOR-05 | Notificación obligatoria (Reglamento 2015/1018) | 2 | aplicado | | fase 2: cap13, post-it, tarjeta nueva y pregunta 9 nueva en la lección 13; figura del flujo retirada |
-| NOR-06 | Catálogo de infracciones de la LSA | 2 | aplicado | | fase 2: cap14 reescrito según los arts. 44, 50, 55 y 56 de la LSA y la Ley 209/1964; figura retirada; Anki |
+| NOR-06 | Catálogo de infracciones de la LSA | 2 | aplicado | | fase 2 (cap14) y fase 4: falsas emergencias en el libro 04 (Código Penal, art. 561) e IMC en el libro 03, sin gravedad fija |
 
 ## Medias
 
 | ID | Hallazgo | Fase | Estado | Commit | Nota |
 | --- | --- | --- | --- | --- | --- |
-| COH-02 | Remisiones al libro 04 | 3 / 4 | aplicado | | fase 3: cap06, cap07, cap08 y cap10; queda 06/cap01 (fase 4) |
+| COH-02 | Remisiones al libro 04 | 3 / 4 | aplicado | | fases 3 y 4: libro 01 (cap06, cap07, cap08, cap10) y 06/cap01 |
 | NOR-08 | SERA.5005 f) 2): obstáculo más alto | 3 | aplicado | | fase 3 |
 | NOR-09 | Aterrizajes forzosos: condiciones y 164 ft | 3 | aplicado | | fase 3 |
 | TEC-03 | Figura de alturas mínimas (sotavento) | 3 | figura | | fase 3: pie de figura con aviso; la figura queda por rehacer |
 | TEC-04 | VMC: «de ambos valores el mayor» | 3 | aplicado | | fase 3: libros 01 y 03, Anki y banco |
-| NOR-10 | AMC1 SAO.OP.150 como obligación | 3 / 4 | parcial | | fase 3: libro 01; quedan 02/cap04 y 08/cap14 (fase 4) |
+| NOR-10 | AMC1 SAO.OP.150 como obligación | 3 / 4 | aplicado | | fases 3 y 4: libros 01, 02 y 08 |
 | NOR-11 | SAO.IDE.105 b) | 3 | aplicado | | fase 3 |
 | TEC-05 | Zonas R y D | 3 | aplicado | | fase 3 |
 | NOR-12 | Fases de emergencia (ATS.TR.405) | 3 | aplicado | | fase 3: cap08, cap11, glosario y Anki |
@@ -65,7 +65,7 @@ no se toca: es el registro de lo que se encontró. Aquí se anota qué se ha hec
 | SYL-05 | ELT/PLB | 3 | aplicado | | fase 3: apartado, post-it, glosario y Anki |
 | COH-04 | Figura del ARC | 3 | figura | | fase 3: pie de figura con aviso |
 | TEC-08 | Defectos: ML.A.403 | 3 | aplicado | | fase 3 |
-| NOR-14 | Seguro como consecuencia automática | 3 / 4 | parcial | | fase 3: libro 01 y Anki; queda 08/cap08 (fase 4); redacción pendiente de corredor o jurista |
+| NOR-14 | Seguro como consecuencia automática | 3 / 4 | parcial | | fases 3 y 4: libros 01 y 08 y banco 08; redacción pendiente de corredor o jurista |
 | COH-05 | Marcas bajo el ala | 3 | aplicado | | fase 3: post-it, Anki y banco |
 | COH-06 | Figura de ubicación de la matrícula | 3 | figura | | fase 3: pie de figura con aviso |
 | NOR-15 | Orden FOM/1687/2015, RD 1029/2025, bandera | 1 / 3 | aplicado | | fases 1 y 3 |
@@ -77,7 +77,7 @@ no se toca: es el registro de lo que se encontró. Aquí se anota qué se ha hec
 | TEC-10 | Incidente grave en el resumen | 3 | aplicado | | fase 3: post-it, Anki y banco |
 | NOR-17 | Inhabilitación | 2 | aplicado | | fase 2, con NOR-06; banco c14-q03 reescrito |
 | SYL-07 | Derecho nacional | 3 | aplicado | | fase 3 |
-| TEC-11 | CAVOK | 3 / 4 | parcial | | fase 3: glosario del 01; quedan los del 03 y el 04 (fase 4) |
+| TEC-11 | CAVOK | 3 / 4 | aplicado | | fases 3 y 4: glosarios 01, 03 y 04; retroacrónimo del libro 04 y su banco |
 | TEC-12 | La CIAIAC en el glosario | 1 | aplicado | | fase 1, con NOR-04 |
 | NOR-18 | Bibliografía | 3 | aplicado | | fase 3: las 9 bibliografías |
 | NOR-19 | Rótulo «Validación por AESA» | 3 | parcial | | fase 3: «Part-SFCL» en las 9 licencias; Ramón decide mantener el rótulo «Validación por AESA». Falta conservar el respaldo documental de AESA |
@@ -89,7 +89,7 @@ no se toca: es el registro de lo que se encontró. Aquí se anota qué se ha hec
 | TEC-13 | 5 | pendiente | | |
 | PED-04 | 5 | pendiente | | |
 | COH-07 | 5 | pendiente | | Figura |
-| PED-05 | 5 / 4 | parcial | | fase 3: «entorno controlado» en cap02; quedan los otros puntos (fase 5) y 08/cap09 (fase 4) |
+| PED-05 | 5 / 4 | parcial | | fases 3 y 4: «entorno controlado» y ML.A.902 en 01/cap02 y 08/cap09; quedan 21.A.181 y «Anexo V ter» (fase 5) |
 | PED-06 | 5 | pendiente | | |
 | SYL-08 | 5 | pendiente | | |
 | PED-07 | 5 | pendiente | | Figura |

@@ -16,7 +16,7 @@ rompe la compilación.
 
 ## [En curso]
 
-**Qué releer:** **Bibliografía**, la entrada de SERA y la nueva del Real Decreto 1180/2018.
+**Qué releer:** la **licencia** de los preliminares y la **Bibliografía**, que corrige la entrada de SERA y añade la lista de normas citadas en la colección.
 
 ### Corregido
 

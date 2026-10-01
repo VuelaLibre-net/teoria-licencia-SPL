@@ -16,7 +16,7 @@ rompe la compilación.
 
 ## [En curso]
 
-**Qué releer:** **el epígrafe** y la **Bibliografía**: la entrada de SERA y la nueva del Real Decreto 1180/2018.
+**Qué releer:** **el epígrafe**, **cap03 y cap06** (falsas emergencias), **cap04, CAVOK**, en el **Glosario** la entrada *CAVOK*, la **licencia** de los preliminares y la **Bibliografía**.
 
 ### Corregido
 
@@ -39,6 +39,15 @@ rompe la compilación.
 * **Licencia (preliminares)** — el syllabus se atribuía a «EASA-FCL»; el AMC1 SFCL.130 pertenece a
   la Part-SFCL. Hallazgo NOR-19 de la auditoría del libro 01; el rótulo «Validación por AESA» se
   mantiene.
+* **cap03, cap06 y tarjeta Anki, falsas emergencias** — la falsa emergencia se calificaba de
+  «infracción muy grave» de la Ley de Seguridad Aérea y de «infracción penal grave en todas las
+  jurisdicciones de la EASA»; ninguna de las dos cosas tiene fuente. Lo que sí es cierto en España
+  es que simular un peligro que haga movilizar a los servicios de salvamento es delito (Código
+  Penal, art. 561). Hallazgo NOR-06 de la auditoría del libro 01.
+* **cap04, post-it, tarjeta Anki y Glosario, CAVOK** — *Ceiling and Visibility OK* se daba como el
+  significado de la sigla; es un retroacrónimo de uso común, no la denominación de OACI, como ya
+  dice el glosario del libro 01. Las condiciones del glosario se completan (Reglamento de Ejecución
+  (UE) 2017/373). Hallazgo TEC-11 de la auditoría del libro 01.
 
 ## [1.0-rc.15] — 7 de agosto de 2026
 

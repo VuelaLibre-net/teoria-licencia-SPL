@@ -16,7 +16,7 @@ rompe la compilación.
 
 ## [En curso]
 
-**Qué releer:** **cap06, mínimos VFR en clase G** y la **Bibliografía**.
+**Qué releer:** **cap06, mínimos VFR en clase G**, en el **Glosario** la entrada *CAVOK*, la **licencia** de los preliminares y la **Bibliografía**.
 
 ### Corregido
 
@@ -43,6 +43,13 @@ rompe la compilación.
 * **Licencia (preliminares)** — el syllabus se atribuía a «EASA-FCL»; el AMC1 SFCL.130 pertenece a
   la Part-SFCL. Hallazgo NOR-19 de la auditoría del libro 01; el rótulo «Validación por AESA» se
   mantiene.
+* **cap06 y su tarjeta Anki, IMC sin habilitación** — se calificaba de «infracción grave». La Ley
+  de Seguridad Aérea gradúa las infracciones del piloto por sus consecuencias (art. 44), así que no
+  tiene una gravedad fija; se dice que incumple las reglas del aire y que es una causa clásica de
+  accidente. Hallazgo NOR-06 de la auditoría del libro 01.
+* **Glosario, CAVOK** — faltaban la altitud mínima de sector más alta, los torrecúmulos y que no se
+  notifique la visibilidad mínima (Reglamento de Ejecución (UE) 2017/373). Se alinea con el libro 01
+  y con el cap10 de este libro. Hallazgo TEC-11 de la auditoría del libro 01.
 
 ## [1.0-rc.16] — 16 de agosto de 2026
 

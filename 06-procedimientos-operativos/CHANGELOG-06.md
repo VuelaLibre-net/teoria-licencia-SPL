@@ -16,7 +16,7 @@ rompe la compilación.
 
 ## [En curso]
 
-**Qué releer:** **el epígrafe** y, en el **Glosario**, la entrada *Fallo de suelta*. Además, la **Bibliografía**: la entrada de SERA y la nueva del Real Decreto 1180/2018.
+**Qué releer:** **el epígrafe** y, en el **Glosario**, la entrada *Fallo de suelta*. Además, **cap01** (una remisión al libro 4), la **licencia** de los preliminares y la **Bibliografía**.
 
 ### Corregido
 
@@ -43,6 +43,8 @@ rompe la compilación.
 * **Licencia (preliminares)** — el syllabus se atribuía a «EASA-FCL»; el AMC1 SFCL.130 pertenece a
   la Part-SFCL. Hallazgo NOR-19 de la auditoría del libro 01; el rótulo «Validación por AESA» se
   mantiene.
+* **cap01, remisión a la interceptación** — está en el capítulo 6 del libro 4, no en el 8, desde
+  que ese libro se renumeró. Hallazgo COH-02 de la auditoría del libro 01.
 
 ## [1.0-rc.3] — 23 de septiembre de 2026
 

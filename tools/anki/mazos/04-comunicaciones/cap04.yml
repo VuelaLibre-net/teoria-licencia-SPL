@@ -40,8 +40,9 @@ tarjetas:
     tipo: basica
     anverso: ¿Qué significa **CAVOK** y qué condiciones implica?
     reverso: |
-      **Ceiling and Visibility OK**: visibilidad ≥ 10 km, sin nubes bajas y sin
-      fenómenos significativos.
+      **Visibilidad ≥ 10 km, sin nubes bajas y sin fenómenos significativos.**
+      En la jerga, *Ceiling and Visibility OK*, que no es la denominación de
+      OACI.
 
       Las mejores condiciones posibles para VFR.
 

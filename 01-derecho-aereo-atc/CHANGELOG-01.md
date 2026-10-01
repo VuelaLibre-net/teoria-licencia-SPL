@@ -16,18 +16,24 @@ rompe la compilación.
 
 ## [En curso]
 
-**Qué releer:** las correcciones de la auditoría del 1 de octubre de 2026 (`recursos/auditorias/`),
-casi todas normativas:
+**Qué releer:** **todo el libro**. Son las correcciones de la auditoría del 1 de octubre de 2026
+(`recursos/auditorias/`, con su seguimiento), casi todas normativas, y tocan los catorce
+capítulos:
 
-* **cap01** (Real Decreto 1180/2018; prioridad de paso), **cap02** (qué documentación va a bordo),
-  **cap03, matrícula**, **cap04** (recencia por método de lanzamiento, nueva), **cap05** (Real
-  Decreto 1180/2018 y prioridad de paso), **cap06** (la reducción a 1.500 m; la figura semicircular
-  se retira) y **cap07** (separación ATC y transpondedor).
-* **cap08** (qué separa el ATC), **cap12** (documentación), **cap13** (la autoridad que sustituye a
-  la CIAIAC y los sucesos de notificación obligatoria) y **cap14** (el régimen de infracciones, que
-  cambia entero).
-* En el **Glosario**, *Autoridad de investigación de accidentes*, que es nueva, y *CIAIAC*; y la
-  **Bibliografía**.
+* **cap01–cap07**: Real Decreto 1180/2018 en lugar del 552/2014; prioridad de paso sólo en
+  convergencia; qué documentación va a bordo; ARC, defectos y seguro; marcas en el intradós y
+  bandera; TMG, Clase 2 y recencia por método de lanzamiento; alturas mínimas; la reducción a
+  1.500 m, que no vale para planeadores; la franja VMC baja; oxígeno e instrumentos; separación
+  ATC, transpondedor y zonas R y D.
+* **cap08–cap14**: fases de emergencia y AFIS; SUP, PIB y AIRAC; señales de SERA y campos
+  externos; centros de salvamento y balizas; mercancías peligrosas y marco de la *security*; la
+  autoridad que sustituye a la CIAIAC y los sucesos de notificación obligatoria; el régimen de
+  infracciones de la LSA, que cambia entero.
+* **Glosario** (*Autoridad de investigación de accidentes*, *AFIS*, *FIZ*, *PIB* y *SUP*, nuevas;
+  *CAVOK*, *CIAIAC*, *DETRESFA*, *ELT* y *RSC*), **Bibliografía** y **licencia** de los
+  preliminares.
+* Tres figuras se retiran hasta rehacerse (regla semicircular, flujo de notificación y escala de
+  infracciones), y cinco llevan en el pie un aviso de su error.
 
 ### Corregido
 

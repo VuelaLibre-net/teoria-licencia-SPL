@@ -34,7 +34,7 @@ Por radio, el tiempo no se describe con palabras propias: se usa terminología e
 
 ### CAVOK
 
-Probablemente la palabra más bienvenida que puedes escuchar en el ATIS. *Ceiling and Visibility OK* (techo y visibilidad correctos) significa que se cumplen tres condiciones a la vez:
+Probablemente la palabra más bienvenida que puedes escuchar en el ATIS. En la jerga se lee como *Ceiling and Visibility OK* (techo y visibilidad correctos), aunque ese desarrollo no es la denominación de OACI. Significa que se cumplen tres condiciones a la vez:
 
 1. **Visibilidad** de 10 kilómetros o más.
 2. **Ninguna nube** convectiva (ni Cumulonimbus CB, ni Cumulus Congestus TCU) y ninguna capa de nubes por debajo de 5.000 pies o de la altitud mínima del sector, lo que sea mayor.
@@ -83,7 +83,7 @@ El Reglamento SERA obliga al piloto en mando a notificar sin demora cualquier co
 * **ATIS**: Voz automática en aeropuertos. Escucharla antes de llamar proporciona pista en uso, viento, QNH y el **código de información** (p. ej., «Información Bravo»). Ahorra tiempo al controlador y agiliza la comunicación.
 * **VOLMET**: Emisora dedicada a difundir METAR, TAF y SIGMET de varios aeropuertos en bucle. Permite planificar la llegada o seleccionar un alternativo sin saturar la frecuencia de control.
 * **Conceptos clave**:
-  * **CAVOK**: **Ceiling and Visibility OK** (visibilidad ≥ 10 km, sin nubes bajas, sin fenómenos). Las mejores condiciones posibles para VFR.
+  * **CAVOK**: visibilidad ≥ 10 km, sin nubes bajas, sin fenómenos (en la jerga, *Ceiling and Visibility OK*, que no es la denominación oficial). Las mejores condiciones posibles para VFR.
   * **QNH**: Presión de referencia para leer la altitud sobre el nivel del mar. Fundamental para respetar los límites verticales de los espacios aéreos.
   * **Viento**: La Torre y el ATIS facilitan el viento referido al Norte Magnético (igual que la numeración de pistas). En mapas, METAR/TAF en texto y VOLMET el viento viene referido al Norte Geográfico (verdadero).
   * **AIREP**: Informe emitido obligatoriamente por el piloto en vuelo para notificar a otras aeronaves sobre fenómenos meteorológicos severos no pronosticados.

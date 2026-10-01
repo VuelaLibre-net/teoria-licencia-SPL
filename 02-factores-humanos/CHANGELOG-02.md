@@ -16,7 +16,7 @@ rompe la compilación.
 
 ## [En curso]
 
-**Qué releer:** **Bibliografía**, la entrada de SERA y la nueva del Real Decreto 1180/2018.
+**Qué releer:** **cap04, AMC del oxígeno**, la **licencia** de los preliminares y la **Bibliografía**, que añade la lista de normas citadas en la colección.
 
 ### Corregido
 
@@ -35,6 +35,9 @@ rompe la compilación.
 * **Licencia (preliminares)** — el syllabus se atribuía a «EASA-FCL»; el AMC1 SFCL.130 pertenece a
   la Part-SFCL. Hallazgo NOR-19 de la auditoría del libro 01; el rótulo «Validación por AESA» se
   mantiene.
+* **cap04, AMC1 SAO.OP.150** — el umbral de 10.000 ft se presentaba con «deberá», como si fuera el
+  reglamento. Es el medio aceptable de cumplimiento («debería»), no vinculante como SAO.OP.150.
+  Hallazgo NOR-10 de la auditoría del libro 01.
 
 ## [1.0-rc.13] — 7 de agosto de 2026
 

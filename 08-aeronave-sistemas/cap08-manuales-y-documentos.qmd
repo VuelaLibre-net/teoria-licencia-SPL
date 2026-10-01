@@ -71,7 +71,7 @@ Cada hora de vuelo y cada aterrizaje quedan registrados en el **Diario de la Aer
 **Resumen del capítulo: documentación del avión**
 
 * **Manual de Vuelo (AFM)**: a bordo en cada vuelo (salvo vuelos a la vista del aeródromo). Contiene los límites (V~NE~, factores de carga), los procedimientos de emergencia y las tablas de carga. Léelo antes de volar un modelo nuevo.
-* **Certificados**: el avión necesita certificado de aeronavegabilidad, ARC en vigor, seguro y licencia de estación de radio. Pueden quedarse en el aeródromo (SAO.GEN.155). Sin ARC en vigor, el seguro no cubre nada.
+* **Certificados**: el avión necesita certificado de aeronavegabilidad, ARC en vigor, seguro y licencia de estación de radio. Pueden quedarse en el aeródromo (SAO.GEN.155). Sin ARC en vigor no se vuela, y la aseguradora puede negarse a cubrirte o repetir contra ti, según la póliza.
 * **Chequeos**: CB-SIFT-CBE antes de despegar, FUSTALL/WULF en viento en cola. Lee, comprueba y confirma; nunca de memoria.
 * **Diario técnico**: antes de volar, mira que no haya averías pendientes que te afecten. Al acabar, anota tu vuelo y cualquier incidencia.
 :::
