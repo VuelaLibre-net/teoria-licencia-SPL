@@ -33,7 +33,7 @@ Podríamos decir que la **DGAC** escribe las "reglas del juego" (política y est
 
 ## AESA: el policía del aire español
 
-La **Agencia Estatal de Seguridad Aérea (AESA)**, creada por Real Decreto 184/2008, vela por el cumplimiento de la normativa de aviación civil en España. Vigila que operadores, pilotos, talleres de mantenimiento y aeródromos cumplan las normas; regula el transporte aéreo, la navegación aérea y la seguridad aeroportuaria; analiza los riesgos para la seguridad del transporte aéreo; y tiene potestad para imponer **sanciones** cuando se infringen las normas.
+La **Agencia Estatal de Seguridad Aérea (AESA)**, creada por Real Decreto 184/2008, vela por el cumplimiento de la normativa de aviación civil en España. Vigila que operadores, pilotos, talleres de mantenimiento y aeródromos cumplan las normas; regula el transporte aéreo, la navegación aérea y la seguridad aeroportuaria; analiza los riesgos para la seguridad del transporte aéreo; y tiene potestad para imponer **sanciones** cuando se infringen las normas. También es quien **expide tu licencia** y lleva el Registro de matrícula (Real Decreto 184/2008, art. 9), y gestiona el sistema de notificación de sucesos.
 
 ## Infracciones y sanciones
 

@@ -278,6 +278,21 @@ capítulos:
   promesa se ajusta. La figura del NOTAM aparecía antes de presentarlo y nadie explicaba sus campos:
   ahora va después, con una línea sobre los campos A, B, C y E y el formato de la fecha. Su pie avisa
   de que las pistas reales de Zaragoza son 12L/30R y 12R/30L.
+* **cap11, acuse de las señales tierra-aire** — el superviviente no sabía cómo reconocer que el
+  avión le había entendido: alabeo de alas de día, dos destellos de faros o luces de navegación de
+  noche (AIP GEN 3.6, 6.3). El tamaño de 2,5 m de las señales queda pendiente de cotejar con el
+  Anexo 12.
+* **cap12, figuras** — sus pies explican que la *safety* aeronáutica no es la seguridad laboral que
+  sugiere el dibujo y para qué sirve reconocer las etiquetas de mercancías peligrosas.
+* **cap13 y tarjeta Anki, accidente y restos** — la definición de accidente no tenía su ventana
+  temporal ni sus exclusiones (un roce en el extremo de un ala no es, por sí solo, un accidente), y
+  la excepción para mover restos era más estrecha que la del Reglamento 996/2010 (art. 13): por
+  seguridad, para socorrer a los heridos o con autorización, fotografiando antes lo que se mueva.
+  El pie de la pirámide de sucesos avisa de que sus cifras no son las de Heinrich.
+* **cap13 y cap14, AESA** — se presentaba sólo como vigilante y sancionadora. Gestiona además el
+  SNS, y lo que sepa sólo por una notificación no puede usarlo contra un error involuntario
+  (Reglamento 376/2014, art. 16.6); y es quien expide la licencia y lleva el Registro de matrícula
+  (Real Decreto 184/2008, art. 9).
 
 ### Añadido
 

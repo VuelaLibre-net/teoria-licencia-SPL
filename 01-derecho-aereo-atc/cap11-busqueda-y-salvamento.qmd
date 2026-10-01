@@ -53,6 +53,8 @@ Si estás en tierra y te busca un avión, tienes que comunicarte. Sin radio, usa
 | **→** | **Procedemos en esta dirección** | Flecha indicando rumbo. |
 : Código de señales visuales tierra-aire
 
+¿Cómo sabrás que el avión te ha entendido? De día, **alabea las alas**; de noche, hace dos destellos con los faros de aterrizaje o enciende y apaga dos veces las luces de navegación. Si no hace ninguna de esas señales, no te ha entendido (AIP España, GEN 3.6).
+
 ![Código de señales visuales de socorro](imagenes/01-cap11-senales-socorro.jpg){#fig-01-cap11-senales-tierra-aire}
 
 ::: {.callout-warning title="Seguridad"}

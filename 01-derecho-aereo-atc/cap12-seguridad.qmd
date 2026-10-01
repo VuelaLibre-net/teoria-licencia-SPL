@@ -17,7 +17,7 @@ En español usamos "seguridad" para todo, pero en aviación conviven dos concept
 1. **Seguridad operacional** (**safety**): prevenir **accidentes** no intencionados. Que no se pare el motor, que no choques, que el mantenimiento esté bien hecho. Es "volar seguro".
 2. **Seguridad de la aviación** (**security**): protegerse contra **actos ilícitos** intencionados. Que no te roben el avión, que nadie ponga una bomba, evitar secuestros. Es protección física.
 
-![Diferencia entre Safety y Security](imagenes/01-cap12-safety-security.jpg){#fig-01-cap12-safety-vs-security}
+![Diferencia entre Safety y Security. En aviación, la *safety* no es la seguridad laboral que sugiere el dibujo, sino la prevención de accidentes en vuelo y en tierra.](imagenes/01-cap12-safety-security.jpg){#fig-01-cap12-safety-vs-security}
 
 La *security* tiene sus propias normas. En el ámbito internacional, el **Anexo 17** de la OACI; en la Unión Europea, el **Reglamento (CE) 300/2008**, que fija las normas comunes, y el **Reglamento de Ejecución (UE) 2015/1998**, que las desarrolla; y en España, el **Programa Nacional de Seguridad para la Aviación Civil** que prevé la Ley de Seguridad Aérea (art. 3). Casi todas sus medidas se aplican en los aeropuertos con tráfico comercial: los controles de pasajeros y equipajes, los accesos y las **zonas restringidas**.
 
@@ -37,7 +37,7 @@ Ojo con no confundir dos cosas. Los **artículos prohibidos** son asunto de *sec
 
 En planeador, la regla es tuya como piloto al mando: **no permitirás que nadie lleve mercancías peligrosas a bordo** (SAO.GEN.150 a)). La única excepción son cantidades razonables de artículos que se usan para la seguridad del vuelo y que conviene tener a mano en la cabina: esas se consideran autorizadas, sin necesidad de aprobación (SAO.GEN.150 b)). Qué entra exactamente en esa excepción depende del artículo; ante la duda, pregunta a tu escuela o al fabricante del equipo.
 
-![Etiquetado de mercancías peligrosas](imagenes/01-cap12-mercancias-peligrosas.jpg){#fig-01-cap12-mercancias-peligrosas}
+![Etiquetado de mercancías peligrosas. Aprende a reconocer estas etiquetas: lo que las lleva no debe subir al planeador, salvo la excepción de SAO.GEN.150.](imagenes/01-cap12-mercancias-peligrosas.jpg){#fig-01-cap12-mercancias-peligrosas}
 
 ::: {.callout-warning title="Seguridad"}
 Si ves a alguien merodeando por los hangares, manipulando aviones ajenos o comportándose de forma sospechosa en el aeródromo, **avisa inmediatamente** al responsable del campo o a las fuerzas de seguridad. La seguridad es cosa de todos.

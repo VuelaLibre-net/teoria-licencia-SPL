@@ -14,11 +14,11 @@
 
 En aviación no todo es un accidente. Hay matices legales que importan (@fig-01-cap13-piramide-sucesos):
 
-1. **ACCIDENTE**: alguien sufre lesiones mortales o graves; la aeronave sufre daños estructurales importantes o fallos que afectan a su resistencia o capacidad de vuelo; o la aeronave desaparece o queda inaccesible.
+1. **ACCIDENTE**: entre el momento en que alguien embarca con intención de volar y el momento en que todos desembarcan, alguien sufre lesiones mortales o graves; la aeronave sufre daños estructurales importantes o fallos que afectan a su resistencia o capacidad de vuelo; o la aeronave desaparece o queda inaccesible. Ojo: los daños limitados a piezas como los extremos de las alas, las ruedas, los frenos o el revestimiento no bastan, por sí solos, para que sea un accidente (Reglamento (UE) 996/2010, art. 2).
 2. **INCIDENTE GRAVE**: un suceso con alta probabilidad de haber acabado en accidente. El clásico "casi pasa".
 3. **INCIDENTE**: cualquier otro suceso que afecte o pueda afectar a la seguridad, sin llegar a lo anterior.
 
-![Pirámide de gravedad de sucesos (Heinrich)](imagenes/01-cap13-piramide-sucesos.jpg){#fig-01-cap13-piramide-sucesos}
+![Pirámide de gravedad de sucesos, inspirada en Heinrich. Sus cifras son ilustrativas: Heinrich publicó la proporción de 1 lesión grave, 29 leves y 300 sucesos sin lesiones, que no son las categorías del Reglamento 996/2010.](imagenes/01-cap13-piramide-sucesos.jpg){#fig-01-cap13-piramide-sucesos}
 
 ## El deber de notificar: sistema SNS
 
@@ -30,7 +30,7 @@ Para mejorar la seguridad, el Estado necesita datos. No para castigar, sino para
 ### ¿A quién y cuándo?
 
 1. **La autoridad de investigación de accidentes**: investiga las causas técnicas, para que no vuelva a pasar. Desde el 15 de julio de 2026 es la Autoridad Administrativa Independiente para la Investigación Técnica de Accidentes e Incidentes ferroviarios, marítimos y de aviación civil, que sustituyó a la CIAIAC (Ley 2/2024).
-2. **AESA** (Agencia Estatal de Seguridad Aérea): supervisa el cumplimiento normativo.
+2. **AESA** (Agencia Estatal de Seguridad Aérea): gestiona el Sistema de Notificación de Sucesos (SNS) para analizar los riesgos. Lo que sepa sólo por tu notificación no puede usarlo para abrirte un expediente por un error involuntario o un descuido (Reglamento (UE) 376/2014, art. 16.6).
 
 Los plazos no son iguales: a la autoridad de investigación, comunica el accidente o incidente grave **sin demora** (Reglamento (UE) 996/2010, art. 9); a AESA, notifica el suceso en un plazo de **72 horas** desde que tengas conocimiento de él (Reglamento (UE) 376/2014, art. 4.7), a través del sistema de tu organización o, si no perteneces a ninguna, directamente al Sistema de Notificación de Sucesos (SNS) de AESA.
 
@@ -46,7 +46,7 @@ La normativa europea promueve la "Cultura Justa". El objetivo de notificar **NO 
 Si sufres o presencias un accidente:
 
 1. Prioridad: **Salvar vidas** y evitar más peligros (fuego, etc.).
-2. Después: **NO TOQUES NADA**. Preservar los restos es vital para la investigación técnica. Solo muévelos si es imprescindible para sacar a víctimas o evitar un incendio.
+2. Después: **NO TOQUES NADA**. Preservar los restos es vital para la investigación técnica. Solo muévelos si es necesario por razones de seguridad o para socorrer a los heridos, o si te lo autoriza quien controle el lugar; y, si puedes, fotografía antes lo que vayas a mover (Reglamento (UE) 996/2010, art. 13).
 :::
 
 ::: {.postit}
