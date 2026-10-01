@@ -12,8 +12,10 @@ Apuntes de teoría de **Iñaqui Ulibarri García de la Cueva** para la Organizac
   [https://www.easa.europa.eu/sites/default/files/dfu/Sailplane%20Rule%20Book.pdf](https://www.easa.europa.eu/sites/default/files/dfu/Sailplane%20Rule%20Book.pdf)
 * **CS-22 Amendment 3 — Sailplanes and Powered Sailplanes**. EASA, 2021; fichero corregido en 2022. Especificaciones de certificación aplicables a los ganchos y mecanismos de suelta para los distintos métodos de lanzamiento.
   [https://www.easa.europa.eu/en/document-library/certification-specifications/cs-22-amendment-3](https://www.easa.europa.eu/en/document-library/certification-specifications/cs-22-amendment-3)
-* **Reglamento de Ejecución (UE) n.º 923/2012 — SERA** (*Standardised European Rules of the Air*). Reglas del aire comunes para la Unión Europea (versión consolidada). En España se aplica mediante el Real Decreto 552/2014.
+* **Reglamento de Ejecución (UE) n.º 923/2012 — SERA** (*Standardised European Rules of the Air*). Reglas del aire comunes para la Unión Europea (versión consolidada). Se aplica directamente en España, sin transposición.
   [https://eur-lex.europa.eu/legal-content/ES/TXT/PDF/?uri=CELEX:02012R0923-20250501](https://eur-lex.europa.eu/legal-content/ES/TXT/PDF/?uri=CELEX:02012R0923-20250501)
+* **Real Decreto 1180/2018, de 21 de septiembre**, por el que se desarrolla el Reglamento del aire y disposiciones operativas comunes para los servicios y procedimientos de navegación aérea. Publicado en el BOE núm. 272, de 10 de noviembre de 2018. Desarrolla SERA en España —niveles de crucero, alturas mínimas, visibilidad— y derogó el Real Decreto 552/2014.
+  [https://www.boe.es/buscar/act.php?id=BOE-A-2018-15406](https://www.boe.es/buscar/act.php?id=BOE-A-2018-15406)
 * **Ley 21/2003, de 7 de julio, de Seguridad Aérea**. Jefatura del Estado (España). Publicada en el BOE núm. 162, de 8 de julio de 2003. Marco legal nacional que complementa la normativa europea.
 
 **Anexos al Convenio de Chicago (OACI)**

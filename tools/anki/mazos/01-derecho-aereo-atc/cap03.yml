@@ -13,7 +13,8 @@ tarjetas:
     tipo: basica
     anverso: ¿Cómo es una matrícula española y de dónde viene la marca?
     reverso: |
-      **EC- seguida de tres letras** (por ejemplo, EC-ABC).
+      **EC- seguida de tres letras** (por ejemplo, EC-ABC); cuatro cuando se
+      agoten las series de tres (RD 1029/2025).
 
       Mnemotécnico: **E**spaña **C**ivil. Es la marca OACI de España.
     etiquetas: [Regla de oro]

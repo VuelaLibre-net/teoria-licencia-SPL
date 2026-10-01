@@ -29,15 +29,15 @@ no se toca: es el registro de lo que se encontró. Aquí se anota qué se ha hec
 
 | ID | Hallazgo | Fase | Estado | Commit | Nota |
 | --- | --- | --- | --- | --- | --- |
-| NOR-01 | 1.500 m de visibilidad no valen para planeadores | 1 | pendiente | | |
-| NOR-02 | RD 552/2014 derogado: RD 1180/2018 | 1 | pendiente | | |
+| NOR-01 | 1.500 m de visibilidad no valen para planeadores | 1 | aplicado | | fase 1: cap06, libro 03, Anki 01 y 03, banco c06-q03 |
+| NOR-02 | RD 552/2014 derogado: RD 1180/2018 | 1 | aplicado | | fase 1: cap01, cap05, 9 bibliografías, Anki, lección 05 y examen oficial |
 | TEC-01 | «El planeador siempre tiene prioridad» | 2 | pendiente | | |
 | NOR-03 | Documentación a bordo (SAO.GEN.155, SFCL.045) | 2 | pendiente | | |
 | SYL-01 | SFCL.155, métodos de lanzamiento | 2 | pendiente | | Redacción a validar por un FI(S) |
 | COH-01 | Figura semicircular Este-Oeste | 2 | pendiente | | Retirar y rehacer |
 | NOR-07 | Transpondedor en España | 2 | pendiente | | Exenciones de la DGAC: pregunta abierta |
 | TEC-02 | «El ATC te separa» | 2 | pendiente | | |
-| NOR-04 | CIAIAC suprimida | 1 | pendiente | | |
+| NOR-04 | CIAIAC suprimida | 1 | aplicado | | fase 1: cap13, glosario, Anki, lecciones 01, 13 y 14 y examen oficial; la Autoridad no tiene sigla oficial |
 | NOR-05 | Notificación obligatoria (Reglamento 2015/1018) | 2 | pendiente | | |
 | NOR-06 | Catálogo de infracciones de la LSA | 2 | pendiente | | Retirar la figura y rehacerla |
 
@@ -68,7 +68,7 @@ no se toca: es el registro de lo que se encontró. Aquí se anota qué se ha hec
 | NOR-14 | Seguro como consecuencia automática | 3 / 4 | pendiente | | Corredor o jurista |
 | COH-05 | Marcas bajo el ala | 3 | pendiente | | |
 | COH-06 | Figura de ubicación de la matrícula | 3 | pendiente | | Figura |
-| NOR-15 | Orden FOM/1687/2015, RD 1029/2025, bandera | 1 / 3 | pendiente | | |
+| NOR-15 | Orden FOM/1687/2015, RD 1029/2025, bandera | 1 / 3 | parcial | | fase 1: matrícula de tres o cuatro letras (RD 1029/2025) y cita de la Orden FOM/1687/2015; falta la bandera (fase 3) |
 | TEC-09 | TMG como atribución directa | 3 | pendiente | | |
 | PED-02 | Clase 2 prometida | 3 | pendiente | | |
 | NOR-16 | SAO.GEN.150, mercancías peligrosas | 3 | pendiente | | Ejemplos: AESA o EASA |
@@ -78,7 +78,7 @@ no se toca: es el registro de lo que se encontró. Aquí se anota qué se ha hec
 | NOR-17 | Inhabilitación | 2 | pendiente | | Junto con NOR-06 |
 | SYL-07 | Derecho nacional | 3 | pendiente | | |
 | TEC-11 | CAVOK | 3 / 4 | pendiente | | |
-| TEC-12 | La CIAIAC en el glosario | 1 | pendiente | | Derivado de NOR-04 |
+| TEC-12 | La CIAIAC en el glosario | 1 | aplicado | | fase 1, con NOR-04 |
 | NOR-18 | Bibliografía | 3 | pendiente | | |
 | NOR-19 | Rótulo «Validación por AESA» | 3 | pendiente | | Ramón confirma el rótulo |
 

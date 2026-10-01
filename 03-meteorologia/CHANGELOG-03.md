@@ -16,6 +16,22 @@ rompe la compilación.
 
 ## [En curso]
 
+**Qué releer:** **cap06, mínimos VFR en clase G** y la **Bibliografía**.
+
+### Corregido
+
+* **cap06, mínimos VFR en clase G, y su tarjeta Anki** — decía que la visibilidad «puede reducirse
+  hasta 1.500 m para vuelos a 140 kt o menos». SERA sólo lo permite si lo prescribe la autoridad
+  competente, y en España sólo se ha hecho para helicópteros y aviones de operaciones aéreas
+  especializadas (Real Decreto 1180/2018, art. 30): para un planeador el mínimo sigue siendo 5 km.
+  Hallazgo NOR-01 de la auditoría del libro 01.
+* **Bibliografía, SERA y Real Decreto 1180/2018** — la entrada de SERA decía que «en España se aplica
+  mediante el Real Decreto 552/2014». SERA es un reglamento de la UE y se aplica directamente, sin
+  transposición; y el RD 552/2014 está derogado desde el 11 de noviembre de 2018 por el Real Decreto
+  1180/2018, que es quien lo desarrolla hoy. Se corrige la entrada y se añade una para el RD
+  1180/2018. Hallazgo NOR-02 de la auditoría del libro 01.
+
+
 ## [1.0-rc.16] — 16 de agosto de 2026
 
 **Qué releer:** **cap10 entero, y las entradas «LCL» y «NSC» del glosario.** Una auditoría externa

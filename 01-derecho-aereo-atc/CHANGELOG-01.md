@@ -16,6 +16,41 @@ rompe la compilación.
 
 ## [En curso]
 
+**Qué releer:** **cap06, mínimos VMC** (la reducción a 1.500 m), **cap13** (la autoridad de
+investigación que sustituye a la CIAIAC), **cap01 y cap05** (el Real Decreto 1180/2018 en lugar del
+552/2014), **cap03, matrícula**, en el **Glosario** las entradas *Autoridad de investigación de
+accidentes*, que es nueva, y *CIAIAC*, y la **Bibliografía**. Son las correcciones de mayor
+prioridad de la auditoría del 1 de octubre de 2026 (`recursos/auditorias/`).
+
+### Corregido
+
+* **cap06, mínimos VMC, y su tarjeta Anki** — el capítulo permitía bajar la visibilidad a 1.500 m
+  volando a menos de 140 kt en espacio no controlado. SERA sólo lo admite «cuando así lo prescriba la
+  autoridad competente», y España lo ha prescrito únicamente para helicópteros y aviones de
+  operaciones aéreas especializadas (Real Decreto 1180/2018, art. 30). Para un planeador el mínimo
+  sigue siendo 5 km. Se corrige el cuerpo, el post-it y la tarjeta `minimos-vmc-baja-cota`.
+* **cap01 y cap05, Real Decreto 552/2014** — el capítulo citaba como vigente un real decreto que el
+  Real Decreto 1180/2018 derogó en 2018. Las excepciones de altura mínima del vuelo de ladera y de
+  las prácticas de aterrizaje forzoso siguen siendo las mismas, palabra por palabra, pero ahora están
+  en el **artículo 33 del RD 1180/2018**. Cambia la cita en cap01, en el cuerpo y el post-it de cap05
+  y en el fundamento de la tarjeta `excepcion-rd-552-2014`, que conserva su identificador. La
+  entrada [1.0-rc.11] de este registro, que citaba el RD 552/2014, se deja como estaba.
+* **cap13, Glosario y tarjetas Anki, CIAIAC** — la CIAIAC quedó suprimida el 15 de julio de 2026, al
+  constituirse la Autoridad Administrativa Independiente para la Investigación Técnica de Accidentes
+  e Incidentes ferroviarios, marítimos y de aviación civil (Ley 2/2024, disposición adicional
+  primera). El capítulo habla ahora de «la autoridad de investigación de accidentes» y explica el
+  relevo; el glosario añade la entrada de la Autoridad y marca la CIAIAC como suprimida.
+* **cap03, matrícula española, y su tarjeta Anki** — el Real Decreto 1029/2025, en vigor desde el 3
+  de diciembre de 2025, fija la matrícula en EC- y cuatro letras, aunque se siguen asignando tres
+  hasta agotar las series. Se añade ese matiz, que el Registro lo gestiona AESA y la cita de la
+  Orden FOM/1687/2015 como norma española de las marcas.
+* **Bibliografía, SERA y Real Decreto 1180/2018** — la entrada de SERA decía que «en España se aplica
+  mediante el Real Decreto 552/2014». SERA es un reglamento de la UE y se aplica directamente, sin
+  transposición; y el RD 552/2014 está derogado desde el 11 de noviembre de 2018 por el Real Decreto
+  1180/2018, que es quien lo desarrolla hoy. Se corrige la entrada y se añade una para el RD
+  1180/2018. Hallazgo NOR-02 de la auditoría del libro 01.
+
+
 ## [1.0-rc.14] — 7 de agosto de 2026
 
 **Qué releer:** **nada.** El único cambio es el enlace del apéndice del syllabus y su QR; ni el texto ni las figuras cambian.

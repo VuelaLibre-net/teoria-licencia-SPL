@@ -16,6 +16,17 @@ rompe la compilación.
 
 ## [En curso]
 
+**Qué releer:** **Bibliografía**, la entrada de SERA y la nueva del Real Decreto 1180/2018.
+
+### Corregido
+
+* **Bibliografía, SERA y Real Decreto 1180/2018** — la entrada de SERA decía que «en España se aplica
+  mediante el Real Decreto 552/2014». SERA es un reglamento de la UE y se aplica directamente, sin
+  transposición; y el RD 552/2014 está derogado desde el 11 de noviembre de 2018 por el Real Decreto
+  1180/2018, que es quien lo desarrolla hoy. Se corrige la entrada y se añade una para el RD
+  1180/2018. Hallazgo NOR-02 de la auditoría del libro 01.
+
+
 ## [1.0-rc.13] — 7 de agosto de 2026
 
 **Qué releer:** **nada.** El único cambio es el enlace del apéndice del syllabus y su QR; ni el texto ni las figuras cambian.

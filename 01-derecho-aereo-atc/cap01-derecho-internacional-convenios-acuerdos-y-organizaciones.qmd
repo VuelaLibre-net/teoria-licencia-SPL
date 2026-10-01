@@ -79,7 +79,7 @@ Según SAO.GEN.130 (Part-SAO), el piloto al mando es responsable de la seguridad
 
 ### 3. SERA (Reglas del Aire)
 
-El **Standardised European Rules of the Air** es el código de circulación del cielo: prioridades de paso, niveles de crucero, mínimos de visibilidad y distancia a nubes (VMC), señales y luces. Al ser un reglamento de ejecución de la UE, se aplica **directamente** en España, sin necesidad de norma nacional que lo transponga; el Real Decreto 552/2014 lo **complementa y desarrolla** en los aspectos que SERA deja a cada Estado.
+El **Standardised European Rules of the Air** es el código de circulación del cielo: prioridades de paso, niveles de crucero, mínimos de visibilidad y distancia a nubes (VMC), señales y luces. Al ser un reglamento de ejecución de la UE, se aplica **directamente** en España, sin necesidad de norma nacional que lo transponga; el Real Decreto 1180/2018 —que derogó el anterior, el 552/2014— lo **complementa y desarrolla** en los aspectos que SERA deja a cada Estado.
 
 ::: {.callout-warning title="Seguridad"}
 SERA.3210 establece las prioridades de paso para evitar colisiones. Un planeador siempre tiene prioridad sobre aeronaves de motor (aviones, helicópteros), pero debe ceder el paso a globos. Conoce estas reglas de memoria.

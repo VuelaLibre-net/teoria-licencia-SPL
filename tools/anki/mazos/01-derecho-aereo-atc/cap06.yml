@@ -24,7 +24,8 @@ tarjetas:
     reverso: |
       **5 km, libre de nubes y con el suelo a la vista.**
 
-      Volando a menos de 140 kt, la visibilidad puede reducirse a **1.500 m**.
+      La reducción a 1.500 m por debajo de 140 kt que permite SERA no se aplica
+      en España a los planeadores (RD 1180/2018, art. 30).
 
   - id: regla-semicircular
     tipo: basica

@@ -74,6 +74,9 @@ Este glosario contiene las definiciones y acrónimos más relevantes del marco n
 **ATZ (Zona de tránsito de aeródromo / Aerodrome Traffic Zone)**
 : Espacio aéreo de dimensiones definidas establecido alrededor de un aeródromo para la protección de su tránsito.
 
+**Autoridad de investigación de accidentes**
+: Organismo español que investiga los accidentes e incidentes graves de aviación civil con finalidad preventiva, no sancionadora. Desde el 15 de julio de 2026 es la Autoridad Administrativa Independiente para la Investigación Técnica de Accidentes e Incidentes ferroviarios, marítimos y de aviación civil (Ley 2/2024), que sustituyó a la CIAIAC.
+
 **AWY (Aerovía / Airway)**
 : Área de control o parte de ella dispuesta en forma de corredor.
 
@@ -93,7 +96,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes del marco n
 : Ruta ATS disponible únicamente cuando se cumplen las condiciones publicadas.
 
 **CIAIAC (Comisión de Investigación de Accidentes e Incidentes de Aviación Civil)**
-: Organismo oficial español encargado de investigar accidentes e incidentes graves de aviación civil con finalidad preventiva.
+: Organismo español que investigaba los accidentes e incidentes graves de aviación civil hasta su supresión el 15 de julio de 2026. Sus funciones y las referencias legales a ella pasaron a la nueva autoridad de investigación de accidentes (Ley 2/2024).
 
 **CofA (Certificado de Aeronavegabilidad / Certificate of Airworthiness)**
 : Documento que certifica que una aeronave se ajusta al diseño aprobado y se considera apta para el vuelo mientras se mantenga aeronavegable y cumpla los requisitos aplicables.

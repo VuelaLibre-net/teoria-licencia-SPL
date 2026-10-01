@@ -16,7 +16,7 @@ rompe la compilación.
 
 ## [En curso]
 
-**Qué releer:** **Glosario, entrada «Lastre (ballast)»**, que es nueva, el **epígrafe** y el **cap09, Programa Mínimo de Inspección**. En cap04 sólo cambia el término inglés entre paréntesis.
+**Qué releer:** **Glosario, entrada «Lastre (ballast)»**, que es nueva, el **epígrafe** y el **cap09, Programa Mínimo de Inspección**. En cap04 sólo cambia el término inglés entre paréntesis. Además, la **Bibliografía**: la entrada de SERA y la nueva del Real Decreto 1180/2018.
 
 ### Añadido
 
@@ -24,6 +24,11 @@ rompe la compilación.
 
 ### Corregido
 
+* **Bibliografía, SERA y Real Decreto 1180/2018** — la entrada de SERA decía que «en España se aplica
+  mediante el Real Decreto 552/2014». SERA es un reglamento de la UE y se aplica directamente, sin
+  transposición; y el RD 552/2014 está derogado desde el 11 de noviembre de 2018 por el Real Decreto
+  1180/2018, que es quien lo desarrolla hoy. Se corrige la entrada y se añade una para el RD
+  1180/2018. Hallazgo NOR-02 de la auditoría del libro 01.
 * **cap09, Programa Mínimo de Inspección (ML.A.302), y su tarjeta Anki** — el suelo «anual o cada 100 h, lo que antes se cumpla» se aplicaba a todos los planeadores. El MIP de Part-ML exige a los planeadores y planeadores motorizados una inspección anual, sin límite de horas; el de 100 h sólo se añade en el motovelero de turismo (TMG). Se corrige en el texto, el post-it y la tarjeta.
 * **Epígrafe** — la cita atribuida a Saint-Exupéry («La máquina no es el fin, es el instrumento. El fin es el ser humano liberado por ella.») no aparece así en *Tierra de hombres*: su segunda frase no tiene fuente. Se sustituye por una frase documentada de la misma obra (1939), la de la máquina que no aparta al hombre de los grandes problemas de la naturaleza.
 * **cap04, entradilla y objetivos del capítulo** — el término inglés *ballast* acompaña al primer «lastre» y a la viñeta «La gestión del lastre (ballast)». Propuesto en el issue #44.

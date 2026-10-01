@@ -17,10 +17,16 @@ rompe la compilación.
 ## [En curso]
 
 **Qué releer:** **cap03, modo fugoide**, y en el **Glosario** las entradas *Fugoide* y *Picado en
-espiral*. El resto son erratas y comillas.
+espiral*, y la **Bibliografía**: la entrada de SERA y la nueva del Real Decreto 1180/2018. El resto
+son erratas y comillas.
 
 ### Corregido
 
+* **Bibliografía, SERA y Real Decreto 1180/2018** — la entrada de SERA decía que «en España se aplica
+  mediante el Real Decreto 552/2014». SERA es un reglamento de la UE y se aplica directamente, sin
+  transposición; y el RD 552/2014 está derogado desde el 11 de noviembre de 2018 por el Real Decreto
+  1180/2018, que es quien lo desarrolla hoy. Se corrige la entrada y se añade una para el RD
+  1180/2018. Hallazgo NOR-02 de la auditoría del libro 01.
 * **cap03 y Glosario, modo fugoide** — el periodo no coincidía: 30-60 segundos en el capítulo y
   30-50 en el glosario, y ninguna de las dos cifras vale para un planeador (son propias de aviones
   más rápidos). El periodo es proporcional a la velocidad (aproximación de Lanchester, T ≈ 0,45·V

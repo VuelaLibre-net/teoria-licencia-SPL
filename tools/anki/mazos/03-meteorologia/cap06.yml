@@ -57,11 +57,12 @@ tarjetas:
     reverso: |
       **5 km, libre de nubes y con la superficie a la vista.**
 
-      Puede reducirse a **1.500 m** para vuelos a 140 kt o menos, si la
-      velocidad permite ver tráfico y obstáculos a tiempo. Entrar en IMC sin
-      habilitación instrumental es infracción grave.
+      SERA permite rebajarla a 1.500 m a 140 kt o menos si lo prescribe la
+      autoridad, pero en España no vale para planeadores (RD 1180/2018,
+      art. 30). Entrar en IMC sin habilitación instrumental es infracción
+      grave.
 
-      *Fundamento: SERA.5001.*
+      *Fundamento: SERA.5001; RD 1180/2018, art. 30.*
     etiquetas: [Normativa]
 
   - id: despegar-con-visibilidad-marginal

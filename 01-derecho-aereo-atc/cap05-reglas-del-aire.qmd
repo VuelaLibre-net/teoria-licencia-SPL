@@ -13,7 +13,7 @@
 
 ## El código de circulación del cielo: SERA
 
-En Europa volamos bajo un reglamento unificado: **SERA** (**Standardised European Rules of the Air**), directamente aplicable en España como reglamento de la UE y complementado por el Real Decreto 552/2014. Da igual si vuelas en Albacete o en Alemania: las reglas básicas son las mismas.
+En Europa volamos bajo un reglamento unificado: **SERA** (**Standardised European Rules of the Air**), directamente aplicable en España como reglamento de la UE y desarrollado por el Real Decreto 1180/2018. Da igual si vuelas en Albacete o en Alemania: las reglas básicas son las mismas.
 
 El principio fundamental es **VFR** (**Visual Flight Rules**): volamos basándonos en referencias visuales externas.
 
@@ -63,7 +63,7 @@ Para proteger a las personas y bienes en tierra, SERA.5005 establece alturas mí
 
 ### Excepciones para el vuelo a vela
 
-SERA.5005 f) admite excepciones «con permiso de la autoridad competente», y su AMC1 encarga precisamente a esa autoridad fijar las alturas mínimas del vuelo de ladera y de las prácticas de aterrizaje forzoso. En España las fija el **artículo 15 del Real Decreto 552/2014**, que permite volar por debajo de lo establecido en SERA.5005 f) 2) —los 150 m de campo abierto, no los 300 m de zona poblada— en dos casos que nos afectan:
+SERA.5005 f) admite excepciones «con permiso de la autoridad competente», y su AMC1 encarga precisamente a esa autoridad fijar las alturas mínimas del vuelo de ladera y de las prácticas de aterrizaje forzoso. En España las fija el **artículo 33 del Real Decreto 1180/2018** (que derogó el Real Decreto 552/2014), que permite volar por debajo de lo establecido en SERA.5005 f) 2) —los 150 m de campo abierto, no los 300 m de zona poblada— en dos casos que nos afectan:
 
 * **Vuelo de ladera**: los planeadores que efectúan vuelos en laderas quedan exceptuados, siempre que no entrañen ningún riesgo ni molestias a las personas o bienes en la superficie.
 * **Entrenamiento de aterrizajes forzosos**: se puede bajar hasta **50 m (150 ft)**, manteniendo 150 m respecto de cualquier persona, vehículo o embarcación que se encuentre en la superficie y de todo obstáculo artificial (@fig-01-cap05-alturas-minimas).
@@ -83,5 +83,5 @@ El reglamento **SERA** es el código de circulación del cielo:
 
 * **VFR**: volamos viendo y siendo vistos. Ojos fuera.
 * **Prioridad de paso**: globos > planeadores > motor (cede quien más maniobra tiene). En convergencia, paso para el que viene por la derecha. En aterrizaje, el velero más bajo manda, y los planeadores tienen preferencia sobre los aviones a motor. En ladera, prioridad para quien lleva la montaña a su derecha: es convención del vuelo a vela, no regla de SERA.
-* **Alturas mínimas (SERA.5005 f)**: 150 m en general, 300 m sobre zonas pobladas. En España, el Real Decreto 552/2014 exceptúa de los 150 m a los planeadores en ladera, siempre que no entrañen riesgo ni molestias a personas o bienes, y permite bajar hasta 50 m entrenando aterrizajes forzosos, a 150 m de cualquier persona, vehículo o embarcación y de todo obstáculo artificial.
+* **Alturas mínimas (SERA.5005 f)**: 150 m en general, 300 m sobre zonas pobladas. En España, el Real Decreto 1180/2018 (art. 33) exceptúa de los 150 m a los planeadores en ladera, siempre que no entrañen riesgo ni molestias a personas o bienes, y permite bajar hasta 50 m entrenando aterrizajes forzosos, a 150 m de cualquier persona, vehículo o embarcación y de todo obstáculo artificial.
 :::

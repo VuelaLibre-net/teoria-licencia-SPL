@@ -131,6 +131,9 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 **Autoinformación (broadcast)**
 : En aeródromos no controlados, cada piloto transmite voluntariamente su posición, altitud e intenciones en la frecuencia del aeródromo. No hay interlocutor que emita autorizaciones: la separación depende de todos los pilotos en la frecuencia.
 
+**Autoridad de investigación de accidentes**
+: Organismo español que investiga los accidentes e incidentes graves de aviación civil con finalidad preventiva, no sancionadora. Desde el 15 de julio de 2026 es la Autoridad Administrativa Independiente para la Investigación Técnica de Accidentes e Incidentes ferroviarios, marítimos y de aviación civil (Ley 2/2024), que sustituyó a la CIAIAC.
+
 **AWY (Aerovía / Airway)**
 : Área de control o parte de ella dispuesta en forma de corredor.
 
@@ -207,7 +210,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Punto teórico donde se considera aplicada la resultante de todas las fuerzas de gravedad que actúan sobre el planeador. Su ubicación longitudinal es clave para la estabilidad y el control del vuelo.
 
 **CIAIAC (Comisión de Investigación de Accidentes e Incidentes de Aviación Civil)**
-: Organismo oficial español encargado de investigar accidentes e incidentes graves de aviación civil con finalidad preventiva.
+: Organismo español que investigaba los accidentes e incidentes graves de aviación civil hasta su supresión el 15 de julio de 2026. Sus funciones y las referencias legales a ella pasaron a la nueva autoridad de investigación de accidentes (Ley 2/2024).
 
 **Cianosis**
 : Coloración azulada en la piel, labios y yemas de los dedos producida por una acusada deficiencia de oxígeno en la sangre, siendo uno de los síntomas físicos avanzados propios de la hipoxia.

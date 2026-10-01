@@ -22,7 +22,7 @@ Es la zona donde solemos movernos los planeadores, y los mínimos dependen del e
 * **Espacio aéreo controlado (Clases B, C, D, E)**: visibilidad de 5 km y distancia a nubes de 1.500 m en horizontal y 1.000 ft en vertical.
 * **Espacio aéreo no controlado (Clases F, G)**: visibilidad de 5 km, libre de nubes y a la vista de la superficie.
 
-Hay una excepción interesante en espacio no controlado: si vuelas a menos de 140 kt (como un planeador), la normativa permite reducir la visibilidad mínima a **1.500 m**, siempre que tu velocidad te deje ver otros tráficos u obstáculos con tiempo de sobra para evitar la colisión (@fig-01-cap06-vmc-minima).
+Ojo con una excepción que verás citada a menudo: SERA permite que, en espacio no controlado y volando a 140 kt o menos, la autoridad competente autorice visibilidades de hasta **1.500 m**. En España sólo lo ha hecho para helicópteros y aviones de operaciones aéreas especializadas (Real Decreto 1180/2018, art. 30), así que **para un planeador el mínimo sigue siendo 5 km**, por despacio que vueles (@fig-01-cap06-vmc-minima).
 
 ### Por encima de 3.000 ft AMSL (hasta FL 100)
 
@@ -96,7 +96,7 @@ Queda un procedimiento operativo del syllabus que esta colección desarrolla en 
 ::: {.postit}
 **Resumen del capítulo: procedimientos para la navegación**
 
-* **Mínimos VMC**: regla general, 5 km de visibilidad y nubes a 1.500 m en horizontal / 1.000 ft en vertical. Por debajo de 3.000 ft AMSL (o 1.000 ft AGL) en espacio no controlado basta con 5 km, libre de nubes y suelo a la vista; y volando a menos de 140 kt, la visibilidad puede reducirse a 1.500 m. Por encima de FL 100, 8 km.
+* **Mínimos VMC**: regla general, 5 km de visibilidad y nubes a 1.500 m en horizontal / 1.000 ft en vertical. Por debajo de 3.000 ft AMSL (o 1.000 ft AGL) en espacio no controlado basta con 5 km, libre de nubes y suelo a la vista; la reducción a 1.500 m que permite SERA no se aplica en España a los planeadores. Por encima de FL 100, 8 km.
 * **Regla semicircular (España, Norte-Sur)**: hacia el Norte (270°-089°), pares + 500 ft; hacia el Sur (090°-269°), impares + 500 ft. «Norte Par / Sur Impar».
 * **Altímetro**: QNH = altitud (navegación y circuitos); QFE = altura sobre el campo; QNE (1013,25 hPa) = niveles de vuelo por encima de la altitud de transición (6.000 ft en general en España).
 * **Oxígeno**: según SAO.OP.150, el comandante debe garantizar su uso cuando determine que la falta de oxígeno puede disminuir las facultades o ser dañina. Si no puede valorar ese efecto, el AMC1 SAO.OP.150 fija la regla por defecto: usar oxígeno por encima de 10.000 ft. Fisiológicamente, conéctalo antes.
