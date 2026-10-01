@@ -30,7 +30,7 @@ El SAR no sale a buscar "porque sí". Actúa escalonadamente según la gravedad,
 
 1. **INCERFA (Fase de incertidumbre)**: existe incertidumbre sobre la seguridad de la aeronave y sus ocupantes. El RCC empieza a recabar información.
 2. **ALERFA (Fase de alerta)**: existe preocupación por la seguridad de la aeronave y sus ocupantes. Se preparan los equipos SAR.
-3. **DETRESFA (Fase de peligro)**: existe certeza razonable de peligro grave e inminente y de que se necesita ayuda inmediata. Despegan los medios: aviones y helicópteros (@fig-01-cap11-actuacion-accidente).
+3. **DETRESFA (Fase de peligro)**: existe certeza razonable de peligro grave e inminente o de que se necesita ayuda inmediata. Despegan los medios: aviones y helicópteros (@fig-01-cap11-actuacion-accidente).
 
 ![Cadena de supervivencia en caso de accidente](imagenes/01-cap11-actuacion-accidente.jpg){#fig-01-cap11-actuacion-accidente}
 
@@ -65,6 +65,6 @@ Si algo sale mal, el SAR te buscará. Conoce las fases:
 
 * **INCERFA (Fase de incertidumbre)**: existe incertidumbre sobre la seguridad de la aeronave y sus ocupantes.
 * **ALERFA (Fase de alerta)**: existe preocupación por la seguridad de la aeronave y sus ocupantes.
-* **DETRESFA (Fase de peligro)**: existe certeza razonable de peligro grave e inminente y de que se necesita ayuda inmediata.
+* **DETRESFA (Fase de peligro)**: existe certeza razonable de peligro grave e inminente o de que se necesita ayuda inmediata.
 * **Señales tierra-aire**: **V** = necesito ayuda; **X** = necesito ayuda médica; **N** = no; **Y** = sí.
 :::

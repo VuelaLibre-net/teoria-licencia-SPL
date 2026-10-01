@@ -14,7 +14,8 @@ tarjetas:
     texto: |
       Fases de emergencia SAR: {{c1::INCERFA}} (incertidumbre sobre la seguridad
       de la aeronave), {{c2::ALERFA}} (preocupación) y {{c3::DETRESFA}}
-      (certeza razonable de peligro grave e inminente).
+      (certeza razonable de peligro grave e inminente, o de que se necesita
+      ayuda inmediata).
 
   - id: senales-tierra-aire
     tipo: cloze

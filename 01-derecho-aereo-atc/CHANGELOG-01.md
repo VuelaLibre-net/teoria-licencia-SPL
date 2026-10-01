@@ -143,6 +143,19 @@ casi todas normativas:
   contraste.
 * **cap07, remisión a la interceptación** — está en el capítulo 6 del libro 4, no en el 8, desde
   que ese libro se renumeró.
+* **cap08, fases de emergencia** — se daban tres situaciones de INCERFA, y la tercera («dudas sobre
+  la seguridad») no es un supuesto de ATS.TR.405 sino la definición de la fase; no se daban los
+  supuestos de ALERFA ni los de DETRESFA, que incluye el aterrizaje forzoso; y parecía que el centro
+  coordinador de salvamento sólo intervenía desde ALERFA, cuando se le informa desde la primera fase.
+  Se reescribe según el Reglamento de Ejecución (UE) 2017/373, ATS.TR.405.
+* **cap08, cap11, Glosario y tarjeta Anki, DETRESFA** — la definición decía «amenazados por un
+  peligro grave e inminente **y** necesitan ayuda inmediata»; la norma dice «**o**».
+* **cap08 y Glosario, AFIS** — faltaba el servicio de información de vuelo de aeródromo, que en
+  España prestan algunos aeródromos no controlados con su FIZ, y que el FIS en ruta lo presta el ACC
+  (en Canarias, fuera del espacio controlado, el FIC), según el AIP GEN 3.3. Entradas nuevas *AFIS* y
+  *FIZ* en el glosario.
+* **cap08, remisión a las señales luminosas** — están en el capítulo 5 del libro 4, no en el 7,
+  desde que ese libro se renumeró.
 
 ### Añadido
 
