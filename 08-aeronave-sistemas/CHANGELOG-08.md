@@ -51,6 +51,9 @@ rompe la compilación.
   Hallazgo PED-05 de la auditoría del libro 01.
 * **cap14, AMC1 SAO.OP.150** — el umbral de 10.000 ft es un medio aceptable de cumplimiento
   («debería»), no una obligación del reglamento. Hallazgo NOR-10 de la auditoría del libro 01.
+* **cap08, entradilla** — «ni el seguro ni el certificado de aeronavegabilidad te cubren» daba el
+  seguro por perdido de forma automática, como el resumen corregido antes; pasa a «no se vuela, y el
+  seguro puede dejar de cubrirte». Hallazgo NOR-14 de la auditoría del libro 01.
 
 ## [0.9.6] — 23 de septiembre de 2026
 

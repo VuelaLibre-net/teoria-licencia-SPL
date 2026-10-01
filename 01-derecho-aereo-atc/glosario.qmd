@@ -11,7 +11,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes del marco n
 **AESA (Agencia Estatal de Seguridad Aérea)**
 : Autoridad española responsable de la supervisión de la seguridad de la aviación civil y de la aplicación de la normativa aeronáutica dentro de sus competencias.
 
-**AFIS (Servicio de información de vuelo de aeródromo / Aerodrome Flight Information Service)**
+**AFIS (Servicio de Información de Vuelo de Aeródromo / Aerodrome Flight Information Service)**
 : Servicio de información de vuelo y de alerta que se presta en determinados aeródromos no controlados y en su zona de información de vuelo (FIZ). No autoriza ni separa: los pilotos mantienen su propia separación con la información que reciben.
 
 **AFM (Manual de Vuelo de la Aeronave / Aircraft Flight Manual)**
