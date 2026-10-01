@@ -252,6 +252,25 @@ capítulos:
   correctoras por primera vez», y se añaden la medicación habitual y el ingreso hospitalario
   (MED.A.020). En la regla de oro, «15 despegues» pasa a «15 lanzamientos», como dice SFCL.160. El
   pie de la figura de validez del médico avisa de lo que el dibujo no recoge.
+* **cap05, figura de prioridades** — el pie nombraba dos situaciones y la imagen tiene tres
+  viñetas sin rótulos; el pie lo dice ahora, hasta que la figura se rehaga.
+* **cap06, regla semicircular** — no citaba fuente y databa la orientación Norte-Sur «desde 2019»;
+  sale del Real Decreto 1180/2018 (art. 6 y anexo I) y del AIP ENR 1.7. Los ejemplos de niveles de
+  vuelo (FL 35, 45, 55) quedaban por debajo de la altitud de transición; pasan a FL 65, 75, 85 y 95.
+* **cap06 y tarjeta Anki, reglajes de altímetro** — la mnemotecnia «QFE = Field Elevation» invertía
+  la realidad: con QFE el altímetro marca 0 en el campo; es con QNH cuando marca su elevación. Se
+  avisa de que es sólo un truco, y la tarjeta trata el QNE como lectura con 1013,25 hPa calados, no
+  como un reglaje que alguien te dé.
+* **cap06, comprobaciones previas al vuelo** — el resumen mencionaba SAO.GEN.130 sin que el cuerpo
+  lo tratara. Se añade al cuerpo.
+* **cap07, RMZ** — no son sólo espacio no controlado: también existen en clase E (SERA.6005 a)). La
+  llamada inicial se hace antes de entrar e incluye posición y nivel; el ejemplo de la regla de oro
+  se corrige.
+* **cap07 y tarjeta Anki, clase C por encima de FL195** — «el espacio aéreo español es
+  mayoritariamente Clase G» omitía que todo lo que está por encima de FL195 es clase C
+  (SERA.6001 b)).
+* **cap07, autorizaciones** — el resumen decía que una autorización no exime al piloto de su
+  responsabilidad sin que el cuerpo lo explicara. Se añade al cuerpo, con SERA.3201.
 
 ### Añadido
 

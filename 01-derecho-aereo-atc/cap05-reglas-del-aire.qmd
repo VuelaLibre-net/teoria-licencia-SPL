@@ -54,7 +54,7 @@ Ojo: esta jerarquía sólo decide en convergencia. De frente y en alcance no cue
 
 * **Aterrizaje**: el velero más bajo tiene prioridad para aterrizar (pero no vale picar para colarse). Además, según SERA.3210, los planeadores en final y aterrizaje siempre tienen preferencia sobre las aeronaves de motor (@fig-01-cap05-prioridades).
 
-![Reglas de prioridad de paso: Frente y Convergencia](imagenes/01-cap05-prioridades-paso.jpg){#fig-01-cap05-prioridades}
+![Reglas de prioridad de paso: tres encuentros entre planeadores con su maniobra de separación. Las viñetas no llevan rótulo; la regla de cada situación está en el texto.](imagenes/01-cap05-prioridades-paso.jpg){#fig-01-cap05-prioridades}
 
 ## Alturas mínimas de vuelo
 
