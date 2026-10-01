@@ -20,8 +20,10 @@ tarjetas:
     tipo: basica
     anverso: ¿Qué es un **incidente grave**?
     reverso: |
-      **Aquel cuyas circunstancias indican alta probabilidad de accidente**, o
-      que puso —o pudo poner— en peligro la seguridad de la operación.
+      **Un incidente en el que las circunstancias indican que hubo una alta
+      probabilidad de accidente.**
+
+      *Fundamento: Reglamento (UE) 996/2010, art. 2.16.*
 
   - id: plazos-de-notificacion
     tipo: basica

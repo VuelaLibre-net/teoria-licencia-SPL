@@ -12,7 +12,14 @@
 
 ## La legislación española: el marco nacional
 
-Además de la normativa europea (EASA/SERA), en España existe legislación propia que complementa y desarrolla el marco comunitario. La ley principal es la **Ley 21/2003, de 7 de julio, de Seguridad Aérea (LSA)**.
+Además de la normativa europea (EASA/SERA), en España existe legislación propia que complementa y desarrolla el marco comunitario. Las piezas que más te afectan son estas:
+
+* **Ley 48/1960, sobre Navegación Aérea**: la ley general de la aviación civil española.
+* **Ley 21/2003, de 7 de julio, de Seguridad Aérea (LSA)**: reparte las competencias, regula la inspección y fija las infracciones y sanciones. Es la protagonista de este capítulo.
+* **Ley 209/1964, Penal y Procesal de la Navegación Aérea**: los delitos aeronáuticos.
+* **Real Decreto 1180/2018**: desarrolla en España el reglamento del aire europeo (SERA).
+* **Real Decreto 1088/2020**: completa el régimen de notificación de sucesos.
+* **Ley 2/2024**: crea la autoridad independiente que investiga los accidentes, que sustituyó a la CIAIAC.
 
 ## La Dirección General de Aviación Civil (DGAC)
 

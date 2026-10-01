@@ -53,7 +53,7 @@ Si sufres o presencias un accidente:
 **Resumen del capítulo: accidentes e incidentes**
 
 * **Accidente**: hay lesiones mortales o graves, daños estructurales al avión, o la aeronave desaparece o queda inaccesible.
-* **Incidente grave**: las circunstancias indican que hubo alta probabilidad de accidente, o el suceso puso (o pudo poner) en peligro la seguridad de la operación.
+* **Incidente grave**: un incidente en el que las circunstancias indican que hubo una alta probabilidad de accidente (el Reglamento 996/2010 da ejemplos en su anexo).
 * **Obligación**: comunicarlo **sin demora** a la **autoridad de investigación de accidentes** (la antigua CIAIAC); notificar el suceso a **AESA** en un plazo máximo de **72 horas**.
 * **Qué se notifica**: no sólo accidentes e incidentes graves. También los sucesos de la lista del Reglamento 2015/1018, como una violación de espacio aéreo, una cuasicolisión con maniobra evasiva o una suelta del cable que haya puesto en peligro el planeador.
 * **Pruebas**: no toques nada, salvo para salvar vidas o evitar otro peligro. Preservar los restos es vital para la investigación.

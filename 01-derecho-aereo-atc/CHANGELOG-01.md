@@ -204,6 +204,12 @@ casi todas normativas:
   y se explican la zona de operaciones, el lado tierra y las zonas restringidas, que el resumen
   mencionaba sin que el cuerpo las tratara; el acceso no autorizado es infracción muy grave (LSA,
   art. 48.3). Las conductas del piloto quedan rotuladas como buenas prácticas.
+* **cap13, post-it y tarjeta Anki, incidente grave** — la definición añadía «o el suceso puso (o
+  pudo poner) en peligro la seguridad de la operación», que no está en el Reglamento (UE) 996/2010
+  (art. 2.16) y la confunde con la de incidente. El cuerpo ya era correcto.
+* **cap14, el derecho nacional** — el capítulo se reducía a la Ley de Seguridad Aérea. Se añade un
+  mapa breve: la Ley 48/1960 de Navegación Aérea, la Ley 209/1964 Penal y Procesal, el Real Decreto
+  1180/2018, el Real Decreto 1088/2020 de notificación de sucesos y la Ley 2/2024.
 
 ### Añadido
 
