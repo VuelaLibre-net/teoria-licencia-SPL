@@ -106,11 +106,11 @@ Fomente la cultura justa en su entorno inmediato. Si durante el remolque o guard
 
 ### Motivación y desempeño: la pirámide de Maslow
 
-El rendimiento del piloto está estrechamente vinculado a su motivación y equilibrio psicológico. Abraham Maslow definió una jerarquía de necesidades humanas que va desde las más básicas —salud, alimentación, seguridad física— hasta las de orden superior —reconocimiento, logro personal, autorrealización—. Esta jerarquía tiene una aplicación directa en el contexto aeronáutico.
+El rendimiento del piloto está estrechamente vinculado a su motivación y equilibrio psicológico. Abraham Maslow definió una jerarquía de necesidades humanas en cinco niveles: en la base, las **fisiológicas** (descanso, hidratación, alimentación); encima, las de **seguridad** (sentirse a salvo); después, las de **pertenencia** y las de **estima**, y en la cima, la **autorrealización**. Esta jerarquía tiene una aplicación directa en el contexto aeronáutico.
 
-Cuando la motivación por alcanzar un objetivo —batir una marca personal, ganar una competición— supera el nivel básico de seguridad, el piloto puede asumir riesgos injustificados: continuar hacia condiciones meteorológicas adversas, sobrevolar zonas sin alternativa de aterrizaje o ignorar señales de alarma. Del mismo modo, operar bajo un estado emocional negativo intenso —estrés, conflicto personal o preocupación económica grave— reduce la capacidad de atención y favorece la negligencia en las fases críticas del vuelo.
+Cuando la motivación por alcanzar un objetivo —batir una marca personal, ganar una competición— pasa por encima de esas necesidades básicas, el piloto puede asumir riesgos injustificados: continuar hacia condiciones meteorológicas adversas, sobrevolar zonas sin alternativa de aterrizaje o ignorar señales de alarma. Del mismo modo, operar bajo un estado emocional negativo intenso —estrés, conflicto personal o preocupación económica grave— reduce la capacidad de atención y favorece la negligencia en las fases críticas del vuelo.
 
-La conclusión práctica es clara: la seguridad ocupa la base de la pirámide y no puede subordinarse a ningún objetivo de orden superior (@fig-02-cap01-piramide-maslow).
+La conclusión práctica: las necesidades de los niveles inferiores —las fisiológicas y las de seguridad— tienen que estar cubiertas antes de perseguir objetivos de orden superior, y ningún logro justifica sacrificarlas (@fig-02-cap01-piramide-maslow).
 
 ![La pirámide de Maslow aplicada a un piloto de planeadores](imagenes/02-cap01-piramide-maslow.png){#fig-02-cap01-piramide-maslow}
 

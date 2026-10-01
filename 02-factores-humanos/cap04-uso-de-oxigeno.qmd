@@ -49,9 +49,9 @@ La euforia es el síntoma más traicionero de la hipoxia: el piloto no sospecha 
 
 El TUC es el intervalo que transcurre desde que se interrumpe el suministro de oxígeno hasta que el piloto pierde la capacidad de tomar medidas protectoras. A mayor altitud, menor tiempo disponible para reaccionar.
 
-La siguiente tabla muestra los valores de referencia (@fig-02-cap04-hipoxia-tiempo-conciencia):
+Los valores de referencia de la FAA son: a 22.000 ft, de 5 a 10 minutos; a 25.000 ft, de 3 a 5 minutos; a 30.000 ft, de 1 a 2 minutos, y a 35.000 ft, de 30 a 60 segundos (@fig-02-cap04-hipoxia-tiempo-conciencia). Son valores medios: varían mucho de una persona a otra y se acortan con el esfuerzo físico, y otras tablas, como la de la OACI, dan cifras algo menores.
 
-![Tiempo de conciencia útil (*Time of Useful Consciousness*) según la altitud](imagenes/02-cap04-hipoxia-tiempo-conciencia.png){#fig-02-cap04-hipoxia-tiempo-conciencia}
+![Tiempo de conciencia útil (*Time of Useful Consciousness*) según la altitud. *(CORREGIR: por encima de 10.000 ft el oxígeno no es obligatorio por ley, es la regla por defecto del AMC1 SAO.OP.150; a 22.000 ft el TUC es de 5 a 10 minutos y a 25.000 ft de 3 a 5, y por debajo de 10.000 ft la visión nocturna ya se degrada.)*](imagenes/02-cap04-hipoxia-tiempo-conciencia.png){#fig-02-cap04-hipoxia-tiempo-conciencia .corregir}
 
 Un descenso desde 7.000 m hasta 3.000 m a 5 m/s de tasa de descenso tarda más de 13 minutos, tiempo con frecuencia superior al TUC disponible a esa altitud. Iniciar el descenso sin oxígeno puede ser demasiado tarde.
 
@@ -103,7 +103,7 @@ Para distinguir hipoxia de hiperventilación, evalúe dos factores: **altitud** 
 * Si está por encima de 10.000 ft y se siente eufórico o aletargado: probable **hipoxia**. Aplique oxígeno al 100% y descienda.
 * Si está por debajo de 10.000 ft y experimenta hormigueo con sudoración y ansiedad: probable **hiperventilación**. Reduzca el ritmo respiratorio.
 
-En caso de duda a gran altitud, priorice el tratamiento de la hipoxia.
+En caso de duda, a cualquier altitud, trate primero la hipoxia.
 :::
 
 ### Tratamiento
@@ -116,7 +116,7 @@ El objetivo es restablecer el nivel de CO~2~ en sangre. Para ello:
 4. Si la hiperventilación persiste, dé por concluido el vuelo y regrese al campo.
 
 ::: {.callout-warning title="Seguridad"}
-No aporte oxígeno suplementario si diagnostica hiperventilación y no está a gran altitud: añadir más oxígeno agravaría el desequilibrio de CO~2~ y empeoraría los síntomas. Si no puede confirmar que está por debajo de 10.000 ft, priorice el tratamiento de la hipoxia.
+Ante la duda entre hipoxia e hiperventilación, trate primero la hipoxia: active o aumente el oxígeno y compruebe el equipo; después, controle el ritmo respiratorio. Los primeros síntomas de las dos se parecen y pueden darse a la vez, porque la hipoxia también hace respirar más deprisa. Respirar oxígeno no empeora una hiperventilación: el CO~2~ se pierde por el ritmo de la respiración, no por el oxígeno que se respira.
 :::
 
 ## Requisitos normativos para el uso de oxígeno
@@ -139,7 +139,7 @@ Para vuelos **nocturnos o al atardecer** se recomienda —no lo exige la norma�
 
 En los planeadores se utilizan principalmente dos tipos de sistemas:
 
-* **Sistema de flujo continuo:** Suministra un caudal constante de oxígeno regulado por el piloto (habitualmente 2 a 2,5 L/min). Es sencillo, fiable y económico, pero consume oxígeno también durante la exhalación, lo que limita la autonomía y reseca las mucosas nasales. Según la doctrina FAA, no se recomienda por encima de **25.000 ft (FL250)**; más arriba se requieren sistemas de demanda con máscara.
+* **Sistema de flujo continuo:** Suministra un caudal constante de oxígeno regulado por el piloto (habitualmente 2 a 2,5 L/min). Es sencillo, fiable y económico, pero consume oxígeno también durante la exhalación, lo que limita la autonomía y reseca las mucosas nasales. Con **cánula**, la interfaz habitual en planeador, sólo es adecuado hasta unos **18.000 ft (FL180)**: por encima hace falta mascarilla, porque al hablar o al respirar por la boca la cánula deja de aportar oxígeno suficiente. Con mascarilla, la FAA lo considera adecuado hasta unos 25.000 ft. En vuelos de onda altos conviene llevar además un oxígeno de respaldo.
 * **Sistema a demanda pulsada (*Electronic Demand System*, EDS):** Detecta el inicio de cada inspiración mediante sensores barométricos y libera únicamente el volumen necesario, interrumpiendo el flujo durante la exhalación. Puede multiplicar por tres o cuatro la autonomía de la botella respecto al flujo continuo. El principal inconveniente es su dependencia de pilas de 9 V, que pueden fallar a temperaturas muy bajas; se recomienda conectarlo a la batería principal del planeador y usar la pila como respaldo.
 
 ### Inspección, uso, mantenimiento y seguridad
@@ -175,8 +175,8 @@ Registre sus valores de SpO~2~ a distintas altitudes durante los vuelos habitual
 * **Síntomas y diagnóstico:** El primer síntoma es la euforia; el piloto no percibe el peligro por sí mismo. Posteriormente aparecen somnolencia, dificultad para calcular, cianosis y pérdida de conciencia. El pulsioxímetro detecta la hipoxia antes de que los síntomas sean evidentes.
 * **Tiempo útil de conciencia (TUC):** A 25.000 ft, el TUC es de 3 a 5 minutos; a 30.000 ft, de 1 a 2 minutos. Un descenso largo puede superar el TUC disponible: actúe siempre antes de necesitarlo.
 * **Normativa (SAO.OP.150 y su AMC):** El oxígeno suplementario es obligatorio cuando el piloto determine que su falta puede disminuir las facultades de los ocupantes; cuando no pueda determinarlo, la regla por defecto del AMC es usarlo siempre por encima de **10.000 ft**. En vuelo nocturno o al atardecer se **recomienda** (no es norma) desde los **5.000 ft**.
-* **Sistemas de oxígeno:** El flujo continuo es sencillo pero consume más oxígeno y reseca las mucosas. El sistema a demanda pulsada (EDS) multiplica la autonomía de la botella, pero depende de pilas que pueden fallar con el frío. Use siempre oxígeno de aviación seco; no medicinal.
+* **Sistemas de oxígeno:** El flujo continuo es sencillo pero consume más oxígeno y reseca las mucosas. La cánula sólo sirve hasta unos 18.000 ft; por encima, mascarilla. El sistema a demanda pulsada (EDS) multiplica la autonomía de la botella, pero depende de pilas que pueden fallar con el frío. Use siempre oxígeno de aviación seco; no medicinal.
 * **Seguridad del equipo:** No use grasas ni cremas cerca de conexiones de oxígeno: riesgo de combustión explosiva. Verifique la presión de la botella antes de cada vuelo (entre 150 y 200 bar).
-* **Hiperventilación:** Causada por estrés o ansiedad, no por falta de oxígeno. Al exhalar CO~2~ en exceso, los vasos cerebrales se contraen, produciendo síntomas similares a la hipoxia (hormigueo, calambres, mareo). Tratamiento: reducir el ritmo respiratorio, hablar en voz alta o reinhalar CO~2~ cubriendo parcialmente la boca.
+* **Hiperventilación:** Causada por estrés o ansiedad, no por falta de oxígeno. Al exhalar CO~2~ en exceso, los vasos cerebrales se contraen, produciendo síntomas similares a la hipoxia (hormigueo, calambres, mareo). Tratamiento: reducir el ritmo respiratorio, hablar en voz alta o reinhalar CO~2~ cubriendo parcialmente la boca. Ante la duda con la hipoxia, oxígeno primero.
 * **Pulsioxímetro:** Mantenga la saturación (SpO~2~) por encima del **90%**; por debajo de ese umbral, active el oxígeno y descienda de inmediato.
 :::

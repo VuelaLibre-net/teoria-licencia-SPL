@@ -31,9 +31,15 @@ tarjetas:
 
   - id: vision-de-color-ishihara
     tipo: basica
-    anverso: ¿Qué pasa si no se supera la prueba de **discriminación de color** (Ishihara)?
+    anverso: ¿Cuándo se exige una **percepción de los colores** segura al piloto de planeador?
     reverso: |
-      **La licencia Part-SFCL queda restringida al vuelo diurno (Day VFR).**
+      **Con certificado médico LAPL, sólo si pide la habilitación de vuelo
+      nocturno.**
+
+      Con certificado de clase 2, el reconocimiento inicial incluye el test de
+      Ishihara, y quien no lo supera queda limitado al vuelo diurno.
+
+      *Fundamento: Part-MED, MED.A.030 y MED.B.075.*
     etiquetas: [Normativa]
 
   - id: disbarismos-congestion
@@ -61,8 +67,11 @@ tarjetas:
     tipo: basica
     anverso: ¿Qué se hace antes de iniciar un viraje?
     reverso: |
-      **Mirar brevemente hacia atrás por el lado exterior opuesto**, para
-      descartar tráfico en el ángulo muerto antes de inclinar las alas.
+      **Despejar primero el sector hacia el que se va a virar** (delante,
+      arriba, abajo y hacia atrás), y después echar un vistazo al lado opuesto
+      y por detrás, por el ángulo muerto.
+
+      *Fundamento: FAA, Glider Flying Handbook, cap. 7.*
     etiquetas: [Airmanship]
 
   - id: colision-frontal
@@ -154,12 +163,15 @@ tarjetas:
 
   - id: alcohol-botella-al-mando
     tipo: basica
-    anverso: ¿Qué exige la regla **«de la botella al mando»**?
+    anverso: ¿Qué concreta el medio aceptable de cumplimiento con la regla **«de la botella al mando»**?
     reverso: |
       * **8 horas** sin alcohol antes del vuelo.
       * Alcoholemia al inicio inferior a **0,2 g/l**, o al límite nacional si es
         más estricto.
       * **Nada de alcohol durante el vuelo.**
+
+      Es un AMC, no una tasa legal: la norma (SAO.GEN.130 f) y SERA.2020)
+      prohíbe volar con las facultades mermadas, y una tasa menor no ampara.
 
       *Fundamento: AMC1 SAO.GEN.130(f) y SAO.GEN.135(b), «Alcohol consumption».
       No confundir con el AMC1 SAO.GEN.130(f) a secas, que trata del buceo y la

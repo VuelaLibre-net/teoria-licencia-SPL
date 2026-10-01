@@ -12,12 +12,12 @@ Es obligatorio consultar con un Médico Examinador Aéreo (AME) o médico genera
 
 Para ayudar a evaluar sistemáticamente la condición individual antes de acceder a la cabina, la aviación ha estandarizado una lista de chequeo personal conocida por el acrónimo mnemotécnico **IMSAFE** (del inglés "I am safe" - **Estoy a salvo**). Esta revisión es tan vital como la propia inspección prevuelo del planeador (@fig-02-cap02-imsafe-checklist):
 
-![Evaluación personal del piloto antes del vuelo](imagenes/02-cap02-imsafe.jpg){#fig-02-cap02-imsafe-checklist}
+![Evaluación personal del piloto antes del vuelo. *(CORREGIR: el plazo del alcohol es de 8 h según el AMC, no de 24 h; y con las preguntas del estrés y del alcohol, formuladas en positivo, la regla «si alguna respuesta es NO» se invierte.)*](imagenes/02-cap02-imsafe.jpg){#fig-02-cap02-imsafe-checklist .corregir}
 
 * **I - *Illness* (Enfermedad):** ¿Tiene algún síntoma actual? Incluso un resfriado puede agravarse con los cambios de presión en vuelo (disbarismos) y mermar la capacidad de atención. No vuele si presenta fiebre o proceso vírico.
 * **M - *Medication* (Medicación):** ¿Está tomando algún fármaco, con o sin receta? Muchos medicamentos de venta libre, como los antihistamínicos para la alergia, producen somnolencia y alteran el rendimiento cognitivo y motor.
 * **S - *Stress* (Estrés):** ¿Existe alguna presión psicológica o emocional relevante? Problemas laborales, familiares o financieros graves reducen los recursos cognitivos disponibles, afectando la capacidad de juicio y el rendimiento en la cabina.
-* **A - *Alcohol* (Alcohol):** ¿Ha consumido alcohol recientemente? Sus efectos residuales persisten mucho después de la ingesta. La norma en aviación es «de la botella al mando» (**bottle to throttle**): se requiere un margen mínimo de 8 horas desde la última copa.
+* **A - *Alcohol* (Alcohol):** ¿Ha consumido alcohol recientemente? Sus efectos residuales persisten mucho después de la ingesta. La regla en aviación es «de la botella al mando» (**bottle to throttle**): el medio aceptable de cumplimiento de EASA fija un margen mínimo de 8 horas desde la última copa.
 * **F - *Fatigue* (Fatiga):** ¿Ha descansado y dormido lo suficiente? La fatiga reduce el estado de alerta, la capacidad de decisión y los tiempos de reacción de forma significativa.
 * **E - *Eating* (Alimentación):** ¿Ha comido y bebido adecuadamente en las últimas horas? Volar en ayunas reduce los niveles de glucosa y merma la concentración. En jornadas largas, la hidratación es tan importante como la alimentación; beba agua con regularidad para prevenir la deshidratación y el golpe de calor.
 
@@ -41,7 +41,7 @@ El interior del ojo funciona de forma similar al sensor de una cámara de fotos.
 Existe un "punto ciego" anatómico en el lugar donde el nervio óptico se conecta con la retina, por lo que una imagen proyectada exactamente en esa pequeña área no será visible. Además, factores como la miopía, el exceso de sol, el tabaco o la fatiga reducen significativamente la agudeza visual.
 
 ::: {.callout-important title="Normativa"}
-Una percepción correcta de los colores es obligatoria. Durante el reconocimiento médico inicial deberá superar pruebas como el test de Ishihara. Si no demuestra discriminación de color segura, la licencia de piloto de planeador —regida por la normativa Part-SFCL— quedará restringida al vuelo diurno (**Day** VFR).
+Para la licencia de piloto de planeador basta, como mínimo, el certificado médico LAPL (MED.A.030). Con ese certificado, la percepción de los colores sólo se evalúa si se solicita la habilitación de vuelo nocturno, que exige una percepción de los colores segura. Con un certificado de clase 2, el reconocimiento inicial incluye el test de Ishihara y, si no se demuestra una percepción segura, el certificado limita las atribuciones al vuelo diurno (MED.B.075). Las dos reglas son de la Part-MED, no de la Part-SFCL.
 :::
 
 #### Técnicas de escaneo visual
@@ -57,7 +57,7 @@ Para escanear el cielo de forma eficaz, utiliza el método del reloj (@fig-02-ca
 ![Patrón de escaneo visual mediante el método horario](imagenes/02-cap02-escaneo-visual.jpg){#fig-02-cap02-escaneo-visual}
 
 ::: {.callout-note title="Airmanship"}
-Antes de iniciar un viraje (por ejemplo, a la derecha), acostúmbrese a mirar brevemente hacia atrás por el lado exterior opuesto. Esto asegura que no haya tráfico acercándose por el ángulo muerto antes de inclinar las alas e iniciar el giro.
+Antes de iniciar un viraje, despeje primero el sector hacia el que va a virar: por delante, por encima y por debajo, y hasta donde alcance la vista hacia atrás. Después eche también un vistazo al lado opuesto y por detrás, donde puede acercarse tráfico por el ángulo muerto. Sólo entonces incline las alas.
 :::
 
 ::: {.callout-warning title="Seguridad"}
@@ -216,10 +216,10 @@ La normativa aeronáutica prohíbe volar bajo los efectos de sustancias psicoact
 El alcohol es el depresor del sistema nervioso central más extendido. Sus efectos sobre el tiempo de reacción se agravan en altitud por la menor oxigenación en sangre (hipoxia hipobárica).
 
 ::: {.callout-important title="Normativa"}
-El **AMC1 SAO.GEN.130(f) y SAO.GEN.135(b)** (ED Decision 2019/001/R), titulado *Alcohol consumption*, concreta la regla «de la botella al mando» (**bottle to throttle**) para las tripulaciones de planeador: nada de alcohol en las **8 horas previas** al vuelo, una alcoholemia al inicio del vuelo que no supere **0,2 g/l** —o el límite nacional, si es más estricto— y **nada de alcohol durante el vuelo**. No lo confundas con el AMC1 SAO.GEN.130(f) a secas, que trata del buceo y la donación de sangre.
+La norma no fija una tasa: prohíbe ejercer cualquier función a bordo a quien esté incapacitado por los efectos de una sustancia psicoactiva o se sienta indispuesto (**SAO.GEN.130 f)** para el piloto al mando y **SAO.GEN.135 b)** para el resto de la tripulación; también **SERA.2020**). El medio aceptable de cumplimiento **AMC1 SAO.GEN.130(f) y SAO.GEN.135(b)** (ED Decision 2019/001/R), titulado *Alcohol consumption*, concreta la regla «de la botella al mando» (**bottle to throttle**) para las tripulaciones de planeador: nada de alcohol en las **8 horas previas** al vuelo, una alcoholemia al inicio del vuelo que no supere **0,2 g/l** —o el límite nacional, si es más estricto— y **nada de alcohol durante el vuelo**. No lo confundas con el AMC1 SAO.GEN.130(f) a secas, que trata del buceo y la donación de sangre.
 :::
 
-Circula la idea de que en España se exige «cero alcohol» para volar. No es así: **España no ha fijado un límite nacional más estricto** —así lo indica el propio material de AESA sobre las pruebas de alcoholemia en rampa, cuyo formulario recoge «Límite Nacional Reglamentario (no definido en España)»—, de modo que se aplica el umbral de 0,2 g/l de la norma EASA. No lo confundas con el tráfico rodado. Dicho esto, ese 0,2 g/l es un límite legal, no un objetivo: la única práctica segura es subirte al planeador sin nada de alcohol en el cuerpo.
+Circula la idea de que en España se exige «cero alcohol» para volar. No es así: **España no ha fijado un límite nacional más estricto** —ni la Ley 21/2003 de Seguridad Aérea ni el Real Decreto 1180/2018 fijan una tasa—, de modo que la cifra de referencia es la del AMC de EASA, 0,2 g/l. No lo confundas con el tráfico rodado. Pero ese 0,2 g/l no es una garantía: con una tasa menor y las facultades mermadas también se incumple la norma, y en España emprender el vuelo bajo la influencia de bebidas alcohólicas que puedan afectar a la capacidad es un **delito** (Ley 209/1964, art. 31; véase el libro 01, capítulo 14). La única práctica segura es subirte al planeador sin nada de alcohol en el cuerpo.
 
 ### Automedicación, antihistamínicos y analgésicos
 
@@ -248,5 +248,5 @@ Para volar en campeonatos bajo un tratamiento médico sin arriesgarte a una desc
 * **Estrés e hiperventilación:** El pánico puede hacer jadear al implicado sin control, alterando el nivel de dióxido de carbono en la sangre, provocando entumecimiento y ceguera. Para frenarlo, ralentice conscientemente la respiración prolongando la exhalación, hable en voz alta o cante para regularse.
 * **Deshidratación:** La cabina cerrada es un invernadero y se pierden líquidos rápidamente. Cuando siente sed, ya tiene un déficit que merma las capacidades cognitivas. Beba agua regularmente desde el despegue para anticiparse a los dolores de cabeza o a un mortal golpe de calor.
 * **Fatiga:** El cansancio bloquea el tiempo de reacción y nubla la toma de decisiones. El café o una bebida no previenen sus efectos ocultos sobre la atención. La fatiga solo se cura de una manera: durmiendo para dar pie al necesario descanso reparador.
-* **Normativa EASA, medicación y alcohol:** La regla no tiene excepciones: **«de la botella al mando»**, 8 horas sin alcohol antes del vuelo, nada de alcohol durante el vuelo y alcoholemia inferior a 0,2 g/l —o al límite nacional, si es más estricto— (AMC1 SAO.GEN.130(f) y SAO.GEN.135(b)). No se automedique; hasta las inocentes pastillas de la alergia o del mareo adormecen de forma incapacitante para volar.
+* **Normativa EASA, medicación y alcohol:** La norma prohíbe volar con las facultades mermadas por cualquier sustancia psicoactiva (SAO.GEN.130 f) y SERA.2020). Su medio aceptable de cumplimiento concreta **«de la botella al mando»**: 8 horas sin alcohol antes del vuelo, nada de alcohol durante el vuelo y alcoholemia inferior a 0,2 g/l —o al límite nacional, si es más estricto— (AMC1 SAO.GEN.130(f) y SAO.GEN.135(b)). Una tasa menor no ampara a quien vuela con las facultades mermadas. No se automedique; hasta las inocentes pastillas de la alergia o del mareo adormecen de forma incapacitante para volar.
 :::

@@ -16,10 +16,52 @@ rompe la compilación.
 
 ## [En curso]
 
-**Qué releer:** **cap04, AMC del oxígeno**, la **licencia** de los preliminares y la **Bibliografía**, que añade la lista de normas citadas en la colección.
+**Qué releer:** las correcciones de la auditoría del libro 02 del 1 de octubre de 2026 (`recursos/auditorias/`, con su seguimiento): **cap01, Maslow**; **cap02, IMSAFE, visión del color, vigilancia antes de virar y alcohol**; **cap03, DECIDE**; **cap04, tiempo útil de conciencia, hiperventilación y cánula**. Además, del libro 01: **cap04, AMC del oxígeno**, la **licencia** de los preliminares y la **Bibliografía**, que añade la lista de normas citadas en la colección.
 
 ### Corregido
 
+* **cap01, pirámide de Maslow** — el texto decía que «la seguridad ocupa la base de la pirámide».
+  En Maslow la base son las necesidades fisiológicas y la seguridad es el segundo nivel, como ya
+  dibujaba la figura. Se enumeran los cinco niveles en orden y la conclusión práctica pasa a ser que
+  las necesidades fisiológicas y de seguridad deben estar cubiertas antes de perseguir objetivos de
+  orden superior. Hallazgo TEC-01 de la auditoría del libro 02.
+* **cap02, alcohol** — el AMC1 SAO.GEN.130(f) y SAO.GEN.135(b) se presentaba como «límite legal» y
+  «regla sin excepciones». Es un medio aceptable de cumplimiento; la norma (SAO.GEN.130 f),
+  SAO.GEN.135 b) y SERA.2020) no fija una tasa, sino que prohíbe volar con las facultades mermadas,
+  y una tasa menor de 0,2 g/l no ampara a quien las tiene. Se añade que en España volar bajo la
+  influencia del alcohol es delito (Ley 209/1964, art. 31) y se retira la referencia a un formulario
+  de AESA que no se ha podido localizar. Cambian el recuadro de normativa, la letra A de IMSAFE, el
+  post-it y la tarjeta `alcohol-botella-al-mando`. Hallazgo NOR-01 de la auditoría del libro 02.
+* **cap02, visión del color** — el recuadro decía que la percepción de los colores es obligatoria y
+  que, sin ella, la licencia Part-SFCL queda restringida al vuelo diurno. Para la SPL basta el
+  certificado médico LAPL, con el que la visión del color sólo se evalúa si se pide la habilitación
+  nocturna (MED.A.030); el test de Ishihara y la limitación al vuelo diurno son de los certificados
+  de clase 1 y 2 (MED.B.075), y todo ello es Part-MED, no Part-SFCL. Recuadro y tarjeta
+  `vision-de-color-ishihara`. Hallazgo NOR-02 de la auditoría del libro 02.
+* **cap02, vigilancia antes de virar** — el recuadro mandaba mirar hacia atrás por el lado opuesto
+  al viraje. Ahora se despeja primero el sector hacia el que se vira y después el lado opuesto y por
+  detrás (FAA, *Glider Flying Handbook*, cap. 7). Recuadro y tarjeta `angulo-muerto-antes-de-virar`.
+  Hallazgo TEC-02 de la auditoría del libro 02; la secuencia exacta queda pendiente de un FI(S).
+* **cap03, modelo DECIDE** — los pasos 4 y 5 estaban cambiados («Implementar» donde va *Identify* y
+  «Determinar resultados» donde va *Do*). Pasan al orden Detect, Estimate, Choose, Identify, Do y
+  Evaluate, el mismo que ya tenía el glosario. Hallazgo TEC-03 de la auditoría del libro 02.
+* **cap04, tiempo útil de conciencia** — el texto remitía a una «tabla» que es una figura y no daba
+  ninguna cifra. Ahora da los valores de la FAA (de 22.000 a 35.000 ft) y avisa de que son medias que
+  varían con la persona y el esfuerzo. Tarjeta `tuc`. Hallazgo COH-02 de la auditoría del libro 02.
+* **cap04, hiperventilación** — un recuadro de seguridad prohibía dar oxígeno ante una
+  hiperventilación «a baja altitud», porque agravaría el desequilibrio de CO~2~. La OACI (Doc 8984)
+  y la FAA (AIM 8-1-3) mandan lo contrario: ante la duda, oxígeno primero, comprobar el equipo y
+  después controlar la respiración; el oxígeno no empeora la hiperventilación, y las dos pueden
+  darse a la vez. Cambian el recuadro, la regla de oro del diagnóstico («en caso de duda, a
+  cualquier altitud, trate primero la hipoxia»), el post-it y las tarjetas
+  `distinguir-hipoxia-de-hiperventilacion` y `no-dar-oxigeno-en-hiperventilacion`, que conserva su
+  `id` aunque diga ya lo contrario. Hallazgo TEC-04 de la auditoría del libro 02; la redacción clínica queda pendiente de un
+  médico aeronáutico.
+* **cap04, límite de la cánula** — no se decía que la cánula sólo es adecuada hasta unos 18.000 ft
+  (FL180) y que por encima hace falta mascarilla, porque al hablar o respirar por la boca deja de
+  aportar oxígeno suficiente (FAA, folleto *Oxygen Equipment*). Se añade, con la mascarilla hasta
+  unos 25.000 ft y la recomendación de un oxígeno de respaldo en onda. Texto, post-it y tarjeta
+  `flujo-continuo-vs-eds`. Hallazgo TEC-05 de la auditoría del libro 02; pendiente de validar por un FI(S) con experiencia de onda.
 * **Bibliografía, SERA y Real Decreto 1180/2018** — la entrada de SERA decía que «en España se aplica
   mediante el Real Decreto 552/2014». SERA es un reglamento de la UE y se aplica directamente, sin
   transposición; y el RD 552/2014 está derogado desde el 11 de noviembre de 2018 por el Real Decreto
@@ -38,6 +80,16 @@ rompe la compilación.
 * **cap04, AMC1 SAO.OP.150** — el umbral de 10.000 ft se presentaba con «deberá», como si fuera el
   reglamento. Es el medio aceptable de cumplimiento («debería»), no vinculante como SAO.OP.150.
   Hallazgo NOR-10 de la auditoría del libro 01.
+
+### Cambiado
+
+* **Figuras por rehacer: marca «EN REVISIÓN» y nota en el pie** — tres figuras en las que la
+  auditoría encontró errores graves llevan encima, en diagonal, la marca «EN REVISIÓN», en el PDF,
+  el EPUB y la web, y su pie termina con *(CORREGIR: …)*, que dice qué está mal: la lista IMSAFE
+  (cap02), que da 24 h para el alcohol en vez de 8 y cuya regla del «NO» se invierte en dos
+  preguntas; el modelo DECIDE (cap03), con los pasos 4 y 5 cambiados; y el tiempo útil de conciencia
+  (cap04), que rotula como obligatorio el oxígeno por encima de 3.000 m y da cifras que no coinciden
+  con la fuente. Al sustituir cada figura se quitan la marca y la nota.
 
 ## [1.0-rc.13] — 7 de agosto de 2026
 

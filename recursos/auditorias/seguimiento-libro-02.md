@@ -45,15 +45,15 @@ no se toca: es el registro de lo que se encontró. Aquí se anota qué se ha hec
 
 | ID | Hallazgo | Fase | Estado | Commit | Nota |
 | --- | --- | --- | --- | --- | --- |
-| TEC-01 | Maslow: la seguridad no es la base | 2 | pendiente | | cap01, examen-50 P7, `en/`; rótulo SMS de la figura |
-| COH-01 | Figura IMSAFE: «24 h» y polaridad del «NO» | 2 | pendiente | | figura con `.corregir`; plazo del libro 06 en la fase 4 |
-| NOR-01 | Alcohol: AMC presentado como límite legal | 2 | pendiente | | cap02, Anki, `c02-q10`, lección 02, examen-50 P9 y P29; el formulario de AESA, pregunta abierta |
-| NOR-02 | Visión del color con certificado LAPL | 2 | pendiente | | cap02 y Anki |
-| TEC-02 | Vigilancia antes de virar | 2 | pendiente | | se aplica la regla del GFH; la secuencia exacta, pregunta al FI(S); coordinar con COH-05 |
-| TEC-03 | DECIDE: pasos 4 y 5 cambiados | 2 | pendiente | | cap03 con el orden del glosario; figura con `.corregir` |
-| COH-02 | Figura del TUC: «obligatorio» y cifras | 2 | pendiente | | figura con `.corregir`; cuerpo y resumen con la tabla del PHAK |
-| TEC-04 | Hiperventilación: no prohibir el oxígeno | 2 | pendiente | | se aplica la doctrina OACI/FAA; redacción clínica, pregunta al médico aeronáutico |
-| TEC-05 | Límite de la cánula (18.000 ft) | 2 / 4 | pendiente | | cap04 y libro 08; validación, pregunta al FI(S) de onda |
+| TEC-01 | Maslow: la seguridad no es la base | 2 | aplicado | | fase 2: cap01 y examen-50 P7; el rótulo SMS de la figura y `en/`, en fases posteriores |
+| COH-01 | Figura IMSAFE: «24 h» y polaridad del «NO» | 2 | figura | | fase 2: figura marcada con `.corregir`; el plazo del libro 06, en la fase 4 |
+| NOR-01 | Alcohol: AMC presentado como límite legal | 2 | parcial | | fase 2: cap02 (IMSAFE, recuadro, texto y post-it), Anki, lección 02 P10, examen-50 P9 y P29; queda abierta la fuente del «formulario de AESA», retirado del texto |
+| NOR-02 | Visión del color con certificado LAPL | 2 | aplicado | | fase 2: cap02 y Anki |
+| TEC-02 | Vigilancia antes de virar | 2 | parcial | | fase 2: cap02 y Anki con la regla del GFH; la secuencia exacta, pregunta al FI(S); la figura de escaneo, con COH-05 |
+| TEC-03 | DECIDE: pasos 4 y 5 cambiados | 2 | figura | | fase 2: cap03 con el orden del glosario; figura marcada con `.corregir` |
+| COH-02 | Figura del TUC: «obligatorio» y cifras | 2 | figura | | fase 2: cuerpo con la tabla del PHAK, Anki `tuc`, lección 04 P7; figura marcada con `.corregir` |
+| TEC-04 | Hiperventilación: no prohibir el oxígeno | 2 | parcial | | fase 2: recuadro, regla de oro, post-it, Anki y lección 02 P8 con la doctrina OACI/FAA; redacción clínica, pregunta al médico aeronáutico |
+| TEC-05 | Límite de la cánula (18.000 ft) | 2 / 4 | parcial | | fase 2: cap04, post-it, Anki y lección 04 P9; el libro 08, en la fase 4; validación, pregunta al FI(S) de onda |
 
 ## Medias
 
@@ -114,6 +114,15 @@ no se toca: es el registro de lo que se encontró. Aquí se anota qué se ha hec
 | PED-06 | 5 | pendiente | | promesa del apéndice; formato del examen |
 | PED-07 | 5 | pendiente | | cita de Borman; pregunta al autor |
 
+## Banco de examen
+
+Las correcciones de `examenes/` van en su rama local `auditoria-02`, que sale de
+`auditoria-01-fuentes-legales` y no tiene remoto.
+
+| Fase | Commit en `examenes/` | Preguntas |
+| --- | --- | --- |
+| 2 | `bcd67d2` | lección 02 P8 y P10; lección 04 P7 y P9; examen-50 P7, P9 y P29 |
+
 ## Edición inglesa
 
 Fase 6 pendiente. `en/02-human-performance/` está al día con el español a 1 de octubre de 2026
@@ -132,12 +141,12 @@ clase y la nota, y se anota aquí.
 | cap01 | `02-cap01-piramide-maslow` | TEC-01 (rótulo SMS) | | |
 | cap01 | `02-cap01-queso-suizo` | COH-03 | | |
 | cap01 | `02-cap01-cadena-error` | COH-04 | | |
-| cap02 | `02-cap02-imsafe` | COH-01 | | |
+| cap02 | `02-cap02-imsafe` | COH-01 | fase 2 | |
 | cap02 | `02-cap02-escaneo-visual` | COH-05 | | |
 | cap02 | `02-cap02-curva-estres` | TEC-09 | | |
-| cap03 | `02-cap03-decide` | TEC-03 | | |
+| cap03 | `02-cap03-decide` | TEC-03 | fase 2 | |
 | cap03 | `02-cap03-vision-tunel` | PED-04 | | |
-| cap04 | `02-cap04-hipoxia-tiempo-conciencia` | COH-02 | | |
+| cap04 | `02-cap04-hipoxia-tiempo-conciencia` | COH-02 | fase 2 | |
 | cap04 | `02-cap04-pulsioximetro` | COH-13 (marca comercial) | | |
 
 ## Preguntas abiertas

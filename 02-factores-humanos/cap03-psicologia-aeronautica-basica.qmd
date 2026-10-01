@@ -44,14 +44,14 @@ La Toma de Decisiones Aeronáuticas (ADM, por las siglas de **Aeronautical Decis
 
 Durante un vuelo en térmica o en el trayecto final del aterrizaje, el piloto interactúa con el entorno evaluando escenarios y peligros, definiendo planes, gestionando el nivel de riesgo y obrando en consecuencia. Uno de los esquemas estructurales más aceptados en la aviación civil para entrenar y modelar la ADM de manera natural es el **modelo DECIDE** (@fig-02-cap03-decide):
 
-* **D**etectar errores que requieren solución o un cambio que solicita atención.
-* **E**studiar y recopilar activamente toda la información del evento suscitado.
-* **C**onsiderar la mejor opción o todas las vías posibles para resolver el potencial peligro.
-* **I**mplementar de manera metódica, rápida o pausada, la mejor opción.
-* **D**eterminar objetivamente cuáles serían los resultados del proceso o de la decisión tomada.
-* **E**valuar lo aprendido, valorando si el curso forjado corrige el desvío, y comunicar las conclusiones.
+* **D**etect (detectar) que se ha producido un cambio o un error que requiere atención.
+* **E**stimate (estimar) si hace falta reaccionar, reuniendo activamente toda la información sobre lo que ocurre.
+* **C**hoose (elegir) el resultado que se busca, después de considerar todas las vías posibles para resolver el peligro.
+* **I**dentify (identificar) las acciones que permiten conseguirlo.
+* **D**o (hacer): ejecutar la acción elegida, de manera metódica, rápida o pausada según lo pida la situación.
+* **E**valuate (evaluar) el resultado: comprobar si el curso tomado corrige el desvío, aprender de ello y comunicar las conclusiones.
 
-![Modelo DECIDE para la toma de decisiones aeronáuticas](imagenes/02-cap03-decide.jpg){#fig-02-cap03-decide}
+![Modelo DECIDE para la toma de decisiones aeronáuticas. *(CORREGIR: los pasos van en el orden Detectar, Estimar, Elegir, Identificar, Hacer y Evaluar; la figura pone «Implementar» en cuarto lugar y «Determinar resultados» en quinto, y lleva una palabra en inglés.)*](imagenes/02-cap03-decide.jpg){#fig-02-cap03-decide .corregir}
 
 ## Gestión de riesgos y modelos de evaluación (modelo PAVE)
 
