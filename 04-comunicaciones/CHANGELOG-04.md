@@ -48,6 +48,7 @@ rompe la compilación.
   significado de la sigla; es un retroacrónimo de uso común, no la denominación de OACI, como ya
   dice el glosario del libro 01. Las condiciones del glosario se completan (Reglamento de Ejecución
   (UE) 2017/373). Hallazgo TEC-11 de la auditoría del libro 01.
+* **cap01, errata** — «*dos cientos*» pasa a «*doscientos*» en el ejemplo de números redondos.
 
 ## [1.0-rc.15] — 7 de agosto de 2026
 
