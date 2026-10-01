@@ -12,7 +12,19 @@ tarjetas:
     texto: |
       SAR emergency phases: {{c1::INCERFA}} (uncertainty about the safety of the
       aircraft), {{c2::ALERFA}} (concern) and {{c3::DETRESFA}} (reasonable
-      certainty of grave and imminent danger).
+      certainty of grave and imminent danger, or that immediate assistance is
+      needed).
+
+  - id: balizas-elt-plb
+    tipo: basica
+    anverso: On which frequencies does an ELT or PLB transmit, and what is each one for?
+    reverso: |
+      **406 MHz**, the one the Cospas-Sarsat satellites detect (register your
+      beacon), and **121.5 MHz**, so that SAR assets can locate you in the
+      final phase with a direction finder.
+
+      *Basis: AIP España, GEN 3.6; SAO.IDE.125 and its AMC1.*
+    etiquetas: [Safety]
 
   - id: senales-tierra-aire
     tipo: cloze

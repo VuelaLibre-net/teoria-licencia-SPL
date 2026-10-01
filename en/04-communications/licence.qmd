@@ -1,6 +1,6 @@
 ---
 origen: 04-comunicaciones/licencia.qmd
-origen-commit: 2af3da2
+origen-commit: 4e35a1c
 ---
 
 # Legal information and licence {.unnumbered}
@@ -12,7 +12,7 @@ origen-commit: 2af3da2
 :::
 :::
 
-Theoretical training manual for the **Sailplane Pilot Licence (SPL)**, following the syllabus of AMC1 SFCL.130 (EASA-FCL), adapted to the requirements of AESA, the Spanish Aviation Safety Agency.
+Theoretical training manual for the **Sailplane Pilot Licence (SPL)**, following the syllabus of AMC1 SFCL.130 (Part-SFCL), adapted to the requirements of AESA, the Spanish Aviation Safety Agency.
 
 © 2026 VuelaLibre.net
 

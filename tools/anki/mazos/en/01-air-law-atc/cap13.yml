@@ -18,14 +18,30 @@ tarjetas:
     tipo: basica
     anverso: What is a **serious incident**?
     reverso: |
-      **One whose circumstances indicate a high probability of an accident**, or
-      that endangered (or could have endangered) the safety of the operation.
+      **An incident in which the circumstances indicate that there was a high
+      probability of an accident.**
+
+      *Basis: Regulation (EU) No 996/2010, Article 2(16).*
 
   - id: plazos-de-notificacion
     tipo: basica
     anverso: To whom, and by when, is an accident reported?
     reverso: |
-      **Without delay to the CIAIAC**, and **to AESA within 72 hours at most.**
+      **Without delay to the accident investigation authority** (formerly the
+      CIAIAC), and **to AESA within 72 hours at most.**
+    etiquetas: [Regulation]
+
+  - id: sucesos-de-notificacion-obligatoria
+    tipo: basica
+    anverso: Apart from accidents and serious incidents, which occurrences must a sailplane pilot report?
+    reverso: |
+      **Those listed in Regulation 2015/1018** (Annex V, Section 2). For
+      example: an airspace infringement, a near collision requiring an
+      avoidance manoeuvre, a cable release that endangered the sailplane, an
+      emergency call, or being left with no safe landing area.
+
+      *Basis: Regulation (EU) No 376/2014, Article 4; Commission Implementing
+      Regulation (EU) 2015/1018, Annex V.*
     etiquetas: [Regulation]
 
   - id: preservar-los-restos
@@ -35,8 +51,9 @@ tarjetas:
       1. **Save lives** and prevent further danger (fire).
       2. **Do not touch anything.**
 
-      Preserving the wreckage is vital for the CIAIAC investigation. Only move
-      it if it is essential to free victims or prevent a fire.
+      Preserving the wreckage is vital for the technical investigation. Only
+      move it for safety reasons or to help the injured, and photograph
+      anything before you move it.
     etiquetas: [Safety]
 
   - id: cultura-justa-notificacion

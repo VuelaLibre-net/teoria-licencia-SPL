@@ -1,6 +1,6 @@
 ---
 origen: 01-derecho-aereo-atc/glosario.qmd
-origen-commit: 2375434
+origen-commit: 6df5942
 ---
 
 # Glossary of terms
@@ -10,11 +10,17 @@ This glossary contains the most relevant definitions and acronyms of the aviatio
 **ACC (Area Control Centre)**
 : ATS unit that provides area control service to flights under its jurisdiction.
 
+**Accident investigation authority**
+: Spanish body that investigates civil aviation accidents and serious incidents for preventive, not punitive, purposes. Since 15 July 2026 it has been the Autoridad Administrativa Independiente para la Investigación Técnica de Accidentes e Incidentes ferroviarios, marítimos y de aviación civil (Ley 2/2024), which replaced the CIAIAC.
+
 **AD (Airworthiness Directive; Aerodromes)**
 : Context-dependent abbreviation: an airworthiness directive is a mandatory requirement to correct an unsafe condition; AD also identifies the aerodromes part of the AIP.
 
 **AESA (Spanish Aviation Safety Agency)**
 : Agencia Estatal de Seguridad Aérea: the Spanish authority responsible for overseeing civil aviation safety and applying aviation regulations within its remit.
+
+**AFIS (Aerodrome Flight Information Service)**
+: Flight information and alerting service provided at certain uncontrolled aerodromes and in their flight information zone (FIZ). It does not issue clearances or provide separation: pilots keep themselves separated using the information they receive.
 
 **AFM (Aircraft Flight Manual)**
 : Approved document containing the limitations, procedures and data needed to operate the aircraft.
@@ -92,13 +98,13 @@ This glossary contains the most relevant definitions and acronyms of the aviatio
 : Approved organisation that may exercise maintenance and continuing airworthiness management privileges within the scope of its approval.
 
 **CAVOK (Visibility, cloud and present weather better than prescribed values or conditions)**
-: Term used in weather reports that replaces certain visibility, present weather and cloud data when the established conditions are met at the same time: visibility of 10 km or more, no cloud below 5,000 ft and no cumulonimbus, and no significant weather. The name is ICAO's; at the club you will hear the backronym *Ceiling And Visibility OK*, which is not the official name.
+: Term used in weather reports that replaces certain visibility, present weather and cloud data when the established conditions are met at the same time: visibility of 10 km or more (the lowest visibility is not reported); no cloud below 5,000 ft or below the highest minimum sector altitude, whichever is greater, and no cumulonimbus or towering cumulus at any height; and no weather of significance to aviation (Commission Implementing Regulation (EU) 2017/373). The name is ICAO's; at the club you will hear the backronym *Ceiling And Visibility OK*, which is not the official name.
 
 **CDR (Conditional Route)**
 : ATS route available only when the published conditions are met.
 
 **CIAIAC (Spanish Civil Aviation Accident and Incident Investigation Commission)**
-: Comisión de Investigación de Accidentes e Incidentes de Aviación Civil: the official Spanish body responsible for investigating civil aviation accidents and serious incidents for preventive purposes.
+: Comisión de Investigación de Accidentes e Incidentes de Aviación Civil: the Spanish body that investigated civil aviation accidents and serious incidents until it was abolished on 15 July 2026. Its functions and the legal references to it passed to the new accident investigation authority (Ley 2/2024).
 
 **CofA (Certificate of Airworthiness)**
 : Document certifying that an aircraft conforms to the approved design and is considered fit for flight while it remains airworthy and meets the applicable requirements.
@@ -122,7 +128,7 @@ This glossary contains the most relevant definitions and acronyms of the aviatio
 : Airspace of defined dimensions within which activities dangerous to the flight of aircraft may exist at specified times.
 
 **DETRESFA (Distress Phase)**
-: Phase declared when there is reasonable certainty that an aircraft and its occupants are threatened by grave and imminent danger and require immediate assistance.
+: Phase declared when there is reasonable certainty that an aircraft and its occupants are threatened by grave and imminent danger or require immediate assistance.
 
 **DGAC (Spanish Directorate General of Civil Aviation)**
 : Dirección General de Aviación Civil: the directorate responsible for formulating aviation policy and exercising the functions assigned to it by Spanish law.
@@ -137,7 +143,7 @@ This glossary contains the most relevant definitions and acronyms of the aviatio
 : The time estimated to be needed to proceed from one reference point to another during a flight.
 
 **ELT (Emergency Locator Transmitter)**
-: Aircraft beacon designed to transmit an emergency signal and help locate the aircraft.
+: Aircraft beacon designed to transmit an emergency signal and help locate the aircraft. It transmits on 406 MHz, the frequency detected by the Cospas-Sarsat satellites, and on 121.5 MHz, used for final location with a direction finder.
 
 **EOBT (Estimated Off-Block Time)**
 : The estimated time at which the aircraft will start the movement associated with departure.
@@ -168,6 +174,9 @@ This glossary contains the most relevant definitions and acronyms of the aviatio
 
 **FISO (Flight Information Service Officer)**
 : Staff qualified to provide the flight information service within their privileges.
+
+**FIZ (Flight Information Zone)**
+: Airspace associated with an aerodrome with AFIS, within which that service is provided.
 
 **FL (Flight Level)**
 : Surface of constant pressure expressed in hundreds of feet and related to the standard altimeter setting of 1013.25 hPa.
@@ -212,10 +221,13 @@ This glossary contains the most relevant definitions and acronyms of the aviatio
 : Part of the European continuing airworthiness regime applicable to light aircraft, including many sailplanes.
 
 **Part-SAO (Sailplane Air Operations)**
-: Part of Regulation (EU) 2018/1976 containing the operational requirements applicable to sailplanes.
+: Part of Commission Implementing Regulation (EU) 2018/1976 containing the operational requirements applicable to sailplanes.
 
 **Part-SFCL (Sailplane Flight Crew Licensing)**
-: Part of Regulation (EU) 2018/1976 governing sailplane licences, privileges, instructors and examiners.
+: Part of Commission Implementing Regulation (EU) 2018/1976 governing sailplane licences, privileges, instructors and examiners.
+
+**PIB (Pre-flight Information Bulletin)**
+: Compilation of current NOTAM and other information of operational significance for a specific route or specific aerodromes, prepared before the flight.
 
 **PIC (Pilot in Command)**
 : The pilot designated as being in command and charged with the safe conduct of the flight.
@@ -245,7 +257,7 @@ This glossary contains the most relevant definitions and acronyms of the aviatio
 : Airspace of defined dimensions in which the carriage and use of radio equipment is mandatory in accordance with the published requirements.
 
 **RSC (Rescue Sub-Centre)**
-: Unit subordinate to an RCC that coordinates search and rescue operations in part of its region.
+: Unit subordinate to an RCC that coordinates search and rescue operations in part of its region. The AIP España does not publish any: only the three ARCCs of Madrid, Palma and Canarias.
 
 **SAR (Search and Rescue)**
 : Organisation and operations intended to locate and assist aircraft and persons in distress.
@@ -261,6 +273,9 @@ This glossary contains the most relevant definitions and acronyms of the aviatio
 
 **SPL (Sailplane Pilot Licence)**
 : European Union licence, governed by Part-SFCL, that allows the holder to exercise the privileges of a sailplane pilot under the applicable conditions.
+
+**SUP (AIP Supplement)**
+: Publication containing temporary changes of long duration (three months or longer) to the information in the AIP, or temporary information with extensive text or graphics.
 
 **TMA (Terminal Control Area)**
 : Control area normally established at the confluence of ATS routes in the vicinity of one or more major aerodromes, with the limits published for each TMA.

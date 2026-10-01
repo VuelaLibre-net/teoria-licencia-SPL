@@ -1,11 +1,11 @@
 ---
 origen: 08-aeronave-sistemas/cap08-manuales-y-documentos.qmd
-origen-commit: 8390229
+origen-commit: 6df5942
 ---
 
 # Manuals and documents
 
-> A sailplane that is legally in order matters as much as one that is mechanically in order: without the paperwork in place, neither the insurance nor the certificate of airworthiness covers you.
+> A sailplane that is legally in order matters as much as one that is mechanically in order: without the paperwork in place you do not fly, and the insurance may stop covering you.
 >
 >
 > In this chapter you will learn:

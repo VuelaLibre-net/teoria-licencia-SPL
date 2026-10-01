@@ -13,11 +13,20 @@ was translated from (`origen-commit`). Terminology follows `en/terminologia.yml`
 
 ## [In progress]
 
-**What to reread:** **cap09, Minimum Inspection Programme**, and its Anki card. The rest is wording
-only.
+**What to reread:** **cap09, Minimum Inspection Programme and ARC extension**, **cap08** (ARC and insurance), **cap14** (oxygen AMC), the licence and the bibliography. The rest is wording only.
 
 ### Fixed
 
+* **cap08, insurance** — “without a valid ARC the insurance covers nothing” becomes “the insurer
+  may refuse to cover you or seek recovery from you, depending on the policy”, also in the
+  chapter opening. Ported from the Spanish edition.
+* **cap09 and its Anki deck, ARC extension** — under ML.A.902, not ML.A.901, and on condition that
+  the same CAMO or CAO has managed the continuing airworthiness without interruption.
+* **cap14, AMC1 SAO.OP.150** — an acceptable means of compliance (“should”).
+* **Bibliography and licence** — ported from the Spanish edition: SERA applies directly in Spain;
+  new entries for Royal Decree 1180/2018 (which repealed Royal Decree 552/2014) and for the other
+  regulations cited in the collection, with links to their consolidated versions; Annexes 17 and 18
+  among the most relevant; and the syllabus is attributed to Part-SFCL, not “EASA-FCL”.
 * **cap09 and its Anki deck, Minimum Inspection Programme (ML.A.302)** — the floor of “every year
   or every 100 h, whichever comes first” was applied to every sailplane. The Part-ML MIP requires
   an annual inspection for sailplanes and powered sailplanes, with no hours limit; the 100 h limit

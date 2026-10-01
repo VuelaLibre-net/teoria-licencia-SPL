@@ -13,7 +13,17 @@ was translated from (`origen-commit`). Terminology follows `en/terminologia.yml`
 
 ## [In progress]
 
-**What to reread:** nothing new in substance; wording only.
+**What to reread:** **cap04, the oxygen AMC**, the licence and the bibliography. The rest is wording only.
+
+### Fixed
+
+* **cap04, AMC1 SAO.OP.150** — the 10,000 ft threshold is an acceptable means of compliance
+  (“should”), not binding like the regulation. Ported from the Spanish edition.
+* **Bibliography and licence** — ported from the Spanish edition: SERA applies directly in Spain;
+  new entries for Royal Decree 1180/2018 (which repealed Royal Decree 552/2014) and for the other
+  regulations cited in the collection, with links to their consolidated versions; Annexes 17 and 18
+  among the most relevant; and the syllabus is attributed to Part-SFCL, not “EASA-FCL”.
+
 
 ### Changed
 

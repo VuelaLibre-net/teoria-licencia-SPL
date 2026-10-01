@@ -87,9 +87,10 @@ tarjetas:
     tipo: basica
     anverso: What are the consequences of transmitting a **false Mayday or Pan Pan**?
     reverso: |
-      **It is a serious criminal offence throughout EASA**: heavy fines and
-      withdrawal of the licence, on top of the real risk of diverting
-      emergency resources.
+      **In Spain it can be a criminal offence**: simulating a danger that
+      causes the rescue services to be mobilised is punishable by
+      imprisonment or a fine (Código Penal, the Spanish Criminal Code,
+      Article 561). It also diverts emergency resources.
     etiquetas: [Regulation]
 
   - id: equipos-de-radio-potencia

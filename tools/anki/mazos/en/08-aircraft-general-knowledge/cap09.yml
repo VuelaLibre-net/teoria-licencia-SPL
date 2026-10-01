@@ -28,13 +28,14 @@ tarjetas:
     tipo: basica
     anverso: How many times can the **ARC** be extended, and on what condition?
     reverso: |
-      **Twice in succession, one year each time, if the aircraft has remained
-      in a controlled environment**: continuous management by a CAMO/CAO and
-      maintenance by approved organisations.
+      **Twice in succession, one year each time, if the same CAMO or CAO has
+      managed the continuing airworthiness without interruption** since the
+      ARC was issued and the maintenance has been carried out by approved
+      organisations.
 
       After those two extensions, a full airworthiness review.
 
-      *Basis: Part-ML, ML.A.901.*
+      *Basis: Part-ML, ML.A.902.*
     etiquetas: [Regulation]
 
   - id: suelo-del-mantenimiento-programado
