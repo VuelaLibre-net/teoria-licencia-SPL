@@ -1,0 +1,12 @@
+---
+origen: 08-aeronave-sistemas/epigrafe.qmd
+origen-commit: c44a9ba
+---
+
+# Epigraph {.unnumbered .unlisted .oculto}
+
+::: {.epigrafe}
+“The machine does not isolate man from the great problems of nature but plunges him more deeply into them.”
+
+ — Antoine de Saint-Exupéry (1939), international airmail pioneer, military reconnaissance pilot and writer, in *Wind, Sand and Stars*.
+:::

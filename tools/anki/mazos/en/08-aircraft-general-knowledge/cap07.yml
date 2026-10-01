@@ -1,0 +1,62 @@
+# Anki deck for en/08-aircraft-general-knowledge, chapter 7.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/08-aeronave-sistemas/cap07.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/08-aircraft-general-knowledge
+capitulo: 7
+titulo: "Rigging of aircraft, connection of control surfaces"
+tarjetas:
+  - id: pcc-mando-positivo
+    tipo: basica
+    anverso: What does the **positive control check (PCC)** consist of?
+    reverso: |
+      **One person holds the surface and you try to move the stick: it must
+      meet solid resistance.**
+
+      If it moves freely, it is not connected. It is compulsory after every
+      rigging.
+
+  - id: bulones-principales
+    tipo: basica
+    anverso: How must the **main pins** be left?
+    reverso: |
+      **Inserted clean and locked** with safety pins or R-clips.
+
+      They are the wings' life insurance.
+
+  - id: lhotellier-pin
+    tipo: basica
+    anverso: Is the “click” of the spring enough on an **L'Hotellier** connector?
+    reverso: |
+      **No: the safety pin is needed.**
+
+      It is the pin that ensures the joint cannot come apart under vibration,
+      and it is mandatory on the types covered by the relevant airworthiness
+      directive.
+    etiquetas: [Safety]
+
+  - id: interrupcion-durante-el-montaje
+    tipo: basica
+    anverso: If you are interrupted while rigging, what do you do?
+    reverso: |
+      **Start the step you were on again from the beginning.**
+
+      Distraction during *rigging* is the number one cause of forgotten
+      critical connections.
+    etiquetas: [Golden rule]
+
+  - id: cintado-de-juntas
+    tipo: basica
+    anverso: What is the **tape** over the wing-to-fuselage joints for?
+    reverso: |
+      **It reduces noise and improves low-speed performance considerably.** It
+      is not just for looks.
+
+  - id: carga-suelta-en-el-fuselaje
+    tipo: basica
+    anverso: What classic, deadly mistake is made after rigging?
+    reverso: |
+      **Leaving tools or weights loose in the fuselage.**
+
+      They can shift in flight and jam the controls.

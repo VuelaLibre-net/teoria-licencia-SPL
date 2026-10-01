@@ -1,0 +1,65 @@
+# Anki deck for en/08-aircraft-general-knowledge, chapter 10.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/08-aeronave-sistemas/cap10.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/08-aircraft-general-knowledge
+capitulo: 10
+titulo: "Airframe, engines and propellers"
+tarjetas:
+  - id: el-motor-es-el-plan-b
+    tipo: basica
+    anverso: What do you do **before** trying to start the engine in flight?
+    reverso: |
+      **Choose your field.**
+
+      The engine is plan B, never plan A. The minimum height for trying is
+      **300 m**.
+    etiquetas: [Safety]
+
+  - id: pilon-como-freno-de-aire
+    tipo: basica
+    anverso: What happens to the glide if the engine comes out but does not start?
+    reverso: |
+      **It is cut in half: the pylon is a giant airbrake.**
+
+      You must have the height to land with the engine extended, or to retract
+      it in time.
+
+  - id: shock-cooling
+    tipo: basica
+    anverso: What is **shock cooling**, and how do you avoid it?
+    reverso: |
+      **Cracking of the cylinder head from stopping the engine abruptly after a
+      full-power climb.**
+
+      Let it cool at idle, or glide for a few minutes with the engine extended.
+
+  - id: helice-antes-de-retraer
+    tipo: basica
+    anverso: How must the **propeller** be left before retracting the engine?
+    reverso: |
+      **Braked and vertical.** The mirror is your friend.
+
+  - id: magneto-independiente
+    tipo: basica
+    anverso: Why must you always treat the propeller as if it could start?
+    reverso: |
+      **Because the magneto generates current by itself: to stop it, its
+      primary winding is earthed.**
+
+      With a broken earth lead, the engine stays “live” even with the switch at
+      OFF.
+    etiquetas: [Safety]
+
+  - id: engelamiento-de-carburador
+    tipo: basica
+    anverso: In what range does **carburettor icing** occur, and what is the first symptom?
+    reverso: |
+      **Between −7 and +21 °C in humid air**, and the first symptom is a **drop
+      in RPM**.
+
+  - id: drenar-combustible
+    tipo: basica
+    anverso: What do you do with the fuel before flying a powered sailplane?
+    reverso: "**Drain a sample**, to get rid of water and sediment."

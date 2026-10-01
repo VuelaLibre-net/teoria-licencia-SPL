@@ -1,0 +1,46 @@
+# Anki deck for en/08-aircraft-general-knowledge, chapter 14.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/08-aeronave-sistemas/cap14.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/08-aircraft-general-knowledge
+capitulo: 14
+titulo: "Emergency bail-out aid"
+tarjetas:
+  - id: elt-plb-406
+    tipo: basica
+    anverso: On what frequency must your beacon transmit, and why?
+    reverso: |
+      **406 MHz, and it must be officially registered.**
+
+      406 MHz beacons with GPS send your exact position to the satellite within
+      minutes. The old 121.5 MHz ones are no longer monitored by satellite: they
+      are only used for close-range *homing*.
+    etiquetas: [Regulation]
+
+  - id: sao-op-150-08
+    tipo: basica
+    anverso: Who decides whether **supplemental oxygen** is used, and what is the default criterion?
+    reverso: |
+      **The pilot-in-command, who must ensure it is used whenever they
+      determine that a lack of it may impair the occupants' faculties.**
+
+      If they cannot assess it, the default criterion is **oxygen whenever the
+      pressure altitude is above 10,000 ft**.
+
+      *Basis: Part-SAO, SAO.OP.150, and its AMC1.*
+    etiquetas: [Regulation]
+
+  - id: eds-ahorro
+    tipo: basica
+    anverso: What do **EDS** oxygen systems give you?
+    reverso: "**They save a lot of oxygen: they deliver only on demand.**"
+
+  - id: kit-de-supervivencia-08
+    tipo: basica
+    anverso: What goes in the survival kit, and how should you dress?
+    reverso: |
+      **Water, warm clothing, a signal mirror and a charged mobile phone.**
+
+      Dress for the temperature outside, not for the one in the cockpit: on a
+      remote hillside it may take hours or days to get you out.

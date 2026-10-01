@@ -1,0 +1,44 @@
+# Anki deck for en/08-aircraft-general-knowledge, chapter 11.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/08-aeronave-sistemas/cap11.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/08-aircraft-general-knowledge
+capitulo: 11
+titulo: "Water ballast systems"
+tarjetas:
+  - id: para-que-el-lastre-de-agua-08
+    tipo: basica
+    anverso: What is **water ballast** for, and when is it worth carrying?
+    reverso: |
+      **It increases the wing loading and shifts the polar to the right: you fly
+      faster for the same glide angle.**
+
+      Only worth it with strong thermals.
+
+  - id: lastre-y-isocero
+    tipo: basica
+    anverso: Why must the ballast be dumped before climbing above the **freezing level**?
+    reverso: |
+      **Because water expands when it freezes and can burst the internal
+      structure of the wing.**
+
+  - id: vaciado-asimetrico-08
+    tipo: basica
+    anverso: If a valve fails and water is left in one wing only, what do you have?
+    reverso: |
+      **A serious lateral control emergency.**
+
+      Land with extra speed and care: the sailplane will want to roll towards
+      the heavy wing.
+
+  - id: por-que-no-aterrizar-con-agua
+    tipo: basica
+    anverso: Why is dumping the water before landing an AFM limitation?
+    reverso: |
+      **Because the sailplane is not designed to take the impact loads with
+      full tanks.**
+
+      It also greatly lengthens the landing run and increases the risk of
+      structural damage against an obstacle.
+    etiquetas: [Safety]

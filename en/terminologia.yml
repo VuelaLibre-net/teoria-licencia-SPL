@@ -826,6 +826,10 @@
   origen: propuesta
   libros: ["06"]
   nota: "mnemotecnia; confirmar si procede de fuente inglesa"
+- es: "Lastre (ballast)"
+  en: "Ballast"
+  origen: glosario
+  libros: ["08"]
 - es: "Lastre de agua (water ballast)"
   en: "Water ballast"
   origen: glosario

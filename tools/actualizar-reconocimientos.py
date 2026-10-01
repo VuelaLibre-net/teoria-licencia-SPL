@@ -47,6 +47,7 @@ DIRECTORIOS_EN = [
     ("en/05-principles-of-flight", 5),
     ("en/06-operational-procedures", 6),
     ("en/07-flight-performance-planning", 7),
+    ("en/08-aircraft-general-knowledge", 8),
 ]
 
 HEADER_EN = """# Acknowledgements {.unnumbered}

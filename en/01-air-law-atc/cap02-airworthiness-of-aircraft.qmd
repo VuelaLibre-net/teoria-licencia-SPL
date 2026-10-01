@@ -12,7 +12,7 @@ origen-commit: aad4396
 >
 >
 > * The difference between the **Certificate of Airworthiness** (CofA) and the **Airworthiness Review Certificate** (ARC), and what the law requires before you can fly.
-> * The legal side of the light aviation maintenance framework (Part-ML). The technical detail is in Book 8 — Aircraft General Knowledge, Airframe and Systems and Emergency Equipment.
+> * The legal side of the light aviation maintenance framework (Part-ML). The technical detail is in Book 8 — Aircraft General Knowledge, Airframe, Systems and Emergency Equipment.
 > * What falls to you: the pre-flight inspection, checking the documents and reporting defects.
 
 ## The concept of airworthiness
@@ -33,7 +33,7 @@ The CofA of EASA aircraft is valid **indefinitely**: it does not expire, provide
 
 The **ARC** (**Airworthiness Review Certificate**) confirms that someone reviewed the aircraft's documentation and physical condition at a given date and found everything in order.
 
-It is valid for **one year**, so it has to be renewed or extended every year. In a controlled environment (managed by a CAMO or, in light aviation, by a CAO), the ARC can be extended twice in a row without a full physical review: 1 year + 1 year + 1 year. In the third year comes a thorough review, with no excuses (@fig-01-cap02-arc-process). The technical regime behind the ARC (the maintenance programme, the minimum inspection programme and airworthiness directives) is in **Book 8 — Aircraft General Knowledge, Airframe and Systems and Emergency Equipment**, chapter 9. Here we only need its legal consequence: without a valid ARC you cannot fly.
+It is valid for **one year**, so it has to be renewed or extended every year. In a controlled environment (managed by a CAMO or, in light aviation, by a CAO), the ARC can be extended twice in a row without a full physical review: 1 year + 1 year + 1 year. In the third year comes a thorough review, with no excuses (@fig-01-cap02-arc-process). The technical regime behind the ARC (the maintenance programme, the minimum inspection programme and airworthiness directives) is in **Book 8 — Aircraft General Knowledge, Airframe, Systems and Emergency Equipment**, chapter 9. Here we only need its legal consequence: without a valid ARC you cannot fly.
 
 ::: {.callout-warning title="Safety"}
 Never fly with an expired ARC. It is illegal and, more importantly, it means nobody has officially certified in the last year that the aircraft is safe to fly. Your insurer will also very probably refuse cover if anything happens, because most policies make it conditional on the aircraft being airworthy.
@@ -43,7 +43,7 @@ Never fly with an expired ARC. It is illegal and, more importantly, it means nob
 
 ## Glider maintenance: Part-ML
 
-On the legal side, you only need to remember the framework. Gliders are maintained under **Part-ML** (Annex Vb to Regulation (EU) No 1321/2014), a simplified set of rules for light aviation. It rests on an **Aircraft Maintenance Programme (AMP)** and, for certain simple tasks, lets the **pilot-owner** sign off the maintenance personally. The detail (how the AMP works, the minimum inspection programme, which tasks the pilot-owner may sign off and under what conditions, airworthiness directives (AD) and service bulletins (SB)) belongs to its own subject and is covered in **Book 8 — Aircraft General Knowledge, Airframe and Systems and Emergency Equipment**, chapter 9.
+On the legal side, you only need to remember the framework. Gliders are maintained under **Part-ML** (Annex Vb to Regulation (EU) No 1321/2014), a simplified set of rules for light aviation. It rests on an **Aircraft Maintenance Programme (AMP)** and, for certain simple tasks, lets the **pilot-owner** sign off the maintenance personally. The detail (how the AMP works, the minimum inspection programme, which tasks the pilot-owner may sign off and under what conditions, airworthiness directives (AD) and service bulletins (SB)) belongs to its own subject and is covered in **Book 8 — Aircraft General Knowledge, Airframe, Systems and Emergency Equipment**, chapter 9.
 
 ## Pilot responsibilities
 
@@ -77,6 +77,6 @@ Airworthiness is your aircraft's health. To fly legally and safely:
 
 * **CofA**: certifies that the aircraft conforms to the approved design and is in a condition for safe operation. It is issued by the State of registry (AESA in Spain) and does not expire if the aircraft is properly maintained.
 * **ARC**: the annual “MOT”. It confirms that the aircraft has been reviewed and is fit to fly. Check its expiry date before you fly.
-* **Part-ML**: the maintenance framework for gliders. It lets the pilot-owner certify simple tasks. Its technical side (AMP, minimum inspection programme, AD/SB) is in **Book 8 — Aircraft General Knowledge, Airframe and Systems and Emergency Equipment**, chapter 9.
+* **Part-ML**: the maintenance framework for gliders. It lets the pilot-owner certify simple tasks. Its technical side (AMP, minimum inspection programme, AD/SB) is in **Book 8 — Aircraft General Knowledge, Airframe, Systems and Emergency Equipment**, chapter 9.
 * **Your part**: carry out the pre-flight inspection, check that the documentation (CofA, ARC, insurance…) is on board and valid, and record any defect in the technical log.
 :::

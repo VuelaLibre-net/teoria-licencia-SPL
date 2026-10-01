@@ -33,7 +33,7 @@ La aviación ligera se rige por normas simplificadas, que recortan la carga buro
 * **Part-ML**: la normativa específica para veleros y aviones ligeros. Permite que el Programa de Mantenimiento de la Aeronave (AMP) lo declare el propio propietario, que asume así más responsabilidad sobre su avión.
 * **Part-CAO**: regula a las organizaciones autorizadas a hacer el mantenimiento y a gestionar la aeronavegabilidad de forma combinada.
 
-Cuando el AMP se basa en el **Programa Mínimo de Inspección (MIP)** que recoge la propia Part-ML (ML.A.302), este fija un suelo regulatorio: una inspección al menos **anual o cada 100 horas de vuelo, lo que antes se cumpla**. El AMP puede ser más exigente —lo que diga el fabricante—, pero nunca menos que ese mínimo.
+Cuando el AMP se basa en el **Programa Mínimo de Inspección (MIP)** que recoge la propia Part-ML (ML.A.302), este fija un suelo regulatorio: para un planeador o un planeador motorizado, una inspección al menos **anual**, sin límite de horas; sólo el motovelero de turismo (TMG) la tiene **anual o cada 100 horas de vuelo, lo que antes se cumpla**. El AMP puede ser más exigente —lo que diga el fabricante—, pero nunca menos que ese mínimo.
 
 ## Mantenimiento del piloto-propietario
 
@@ -57,7 +57,7 @@ La seguridad aérea es cosa de todos. Cuando se detecta un fallo de diseño o un
 
 * **Inspección diaria (DI)**: es cosa del piloto. Sigue la lista: presión de ruedas, estado del gancho de remolque, bisagras de mandos, limpieza de pitot y estática.
 * **CofA y ARC**: el CofA es vitalicio; el ARC dura un año y se prorroga dos veces en entorno controlado (ML.A.901). Sin ARC en vigor, el avión no vuela.
-* **Mantenimiento programado**: la frecuencia concreta de inspecciones (por tiempo, ciclos u horas) la fija el AMP, según lo que diga el fabricante. Pero hay un suelo: si el AMP se basa en el Programa Mínimo de Inspección de Part-ML (ML.A.302), nunca puede ser menos restrictivo que **una inspección anual o cada 100 h, lo que antes se cumpla**.
+* **Mantenimiento programado**: la frecuencia concreta de inspecciones (por tiempo, ciclos u horas) la fija el AMP, según lo que diga el fabricante. Pero hay un suelo: si el AMP se basa en el Programa Mínimo de Inspección de Part-ML (ML.A.302), nunca puede ser menos restrictivo que **una inspección anual** (en el TMG, **anual o cada 100 h, lo que antes se cumpla**).
 * **Mantenimiento por piloto-propietario**: tareas sencillas del Apéndice II de Part-ML, solo si eres propietario con licencia válida, y siempre registradas y firmadas (ML.A.803).
 * **Reporte de defectos**: si rompes algo o ves algo raro, anótalo. El siguiente piloto puede no verlo y matarse (un cable de timón deshilachado, por ejemplo).
 :::

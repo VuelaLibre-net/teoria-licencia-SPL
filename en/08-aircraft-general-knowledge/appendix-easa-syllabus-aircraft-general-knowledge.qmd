@@ -1,0 +1,33 @@
+---
+origen: 08-aeronave-sistemas/apendice-syllabus-oficial-easa---conocimientos-generales-de-la-aeronave.qmd
+origen-commit: e0f5386
+---
+
+# Official EASA syllabus - aircraft general knowledge
+
+The following syllabus corresponds to the subject **Aircraft General Knowledge, Airframe, Systems and Emergency Equipment** for the Sailplane Pilot Licence (SPL), as set out in AMC1 SFCL.130 (Annex to ED Decision 2020/004/R, AMC & GM to Part-SFCL).
+
+* 8.1. Airframe.
+* 8.2. System design, loads and stresses.
+* 8.3. Landing gear, wheels, tyres and brakes.
+* 8.4. Mass and balance.
+* 8.5. Flight controls.
+* 8.6. Instruments.
+* 8.7. Rigging of aircraft, connection of control surfaces.
+* 8.8. Manuals and documents.
+* 8.9. Airworthiness and maintenance.
+* 8.10. Airframe, engines and propellers.
+* 8.11. Water ballast systems.
+* 8.12. Batteries (performance and operational limitations).
+* 8.13. Emergency parachutes.
+* 8.14. Emergency bail-out aid.
+
+This manual has been structured to follow this official syllabus faithfully, so that you cover every point needed for the theoretical examination.
+
+## Test yourself
+
+Theory sinks in by answering questions. This subject has its own online self-assessment test, with exam-style questions (currently in Spanish). For example:
+
+[https://vuelalibre.net/examenes/08-aeronave-sistemas/](https://vuelalibre.net/examenes/08-aeronave-sistemas/)
+
+Ask your instructor, who will tell you which question bank or format is most suitable, and follow that advice. It will be very useful both for consolidating what you learn in each chapter and for your general revision before you sit the theoretical examination.

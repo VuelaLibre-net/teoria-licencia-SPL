@@ -1,0 +1,46 @@
+# Anki deck for en/08-aircraft-general-knowledge, chapter 13.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/08-aeronave-sistemas/cap13.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/08-aircraft-general-knowledge
+capitulo: 13
+titulo: "Emergency parachutes"
+tarjetas:
+  - id: plegado-y-vida-util
+    tipo: basica
+    anverso: How often is a parachute repacked, and what is its service life?
+    reverso: |
+      **Repacked and aired every 6–12 months depending on the manufacturer, by
+      a certified *rigger***, with a maximum service life of 15 or 20 years,
+      for example.
+
+      One packed a week ago opens much sooner than one packed a year ago: do
+      not stretch the periods.
+    etiquetas: [Golden rule]
+
+  - id: ajuste-del-arnes
+    tipo: basica
+    anverso: How must the **harness** be adjusted?
+    reverso: |
+      **Snug to the body, leg straps tight and chest strap fastened.**
+
+      A loose harness turns the opening jolt into an injury.
+
+  - id: enemigos-del-paracaidas
+    tipo: basica
+    anverso: What damages a stored parachute?
+    reverso: |
+      **UV light, damp and dirt.**
+
+      Always carry it in its bag and do not leave it lying on the runway.
+
+  - id: por-que-150-m
+    tipo: basica
+    anverso: Why is the minimum bail-out height **150 m**?
+    reverso: |
+      **Because the canopy needs between 50 and 90 m to deploy fully, and
+      getting out uses up the first 100.**
+
+      Below that, the margin is critical.
+    etiquetas: [Safety]

@@ -16,7 +16,7 @@ rompe la compilación.
 
 ## [En curso]
 
-**Qué releer:** **Glosario, entrada «Lastre (ballast)»**, que es nueva. En cap04 sólo cambia el término inglés entre paréntesis.
+**Qué releer:** **Glosario, entrada «Lastre (ballast)»**, que es nueva, el **epígrafe** y el **cap09, Programa Mínimo de Inspección**. En cap04 sólo cambia el término inglés entre paréntesis.
 
 ### Añadido
 
@@ -24,6 +24,8 @@ rompe la compilación.
 
 ### Corregido
 
+* **cap09, Programa Mínimo de Inspección (ML.A.302), y su tarjeta Anki** — el suelo «anual o cada 100 h, lo que antes se cumpla» se aplicaba a todos los planeadores. El MIP de Part-ML exige a los planeadores y planeadores motorizados una inspección anual, sin límite de horas; el de 100 h sólo se añade en el motovelero de turismo (TMG). Se corrige en el texto, el post-it y la tarjeta.
+* **Epígrafe** — la cita atribuida a Saint-Exupéry («La máquina no es el fin, es el instrumento. El fin es el ser humano liberado por ella.») no aparece así en *Tierra de hombres*: su segunda frase no tiene fuente. Se sustituye por una frase documentada de la misma obra (1939), la de la máquina que no aparta al hombre de los grandes problemas de la naturaleza.
 * **cap04, entradilla y objetivos del capítulo** — el término inglés *ballast* acompaña al primer «lastre» y a la viñeta «La gestión del lastre (ballast)». Propuesto en el issue #44.
 
 ## [0.9.6] — 23 de septiembre de 2026

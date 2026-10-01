@@ -1,0 +1,68 @@
+# Anki deck for en/08-aircraft-general-knowledge, chapter 6.
+#
+# Canonical source, edited by hand. Translated from
+# tools/anki/mazos/08-aeronave-sistemas/cap06.yml, with the same ids:
+# an id is the card's identity in the student's collection, do NOT rename it.
+libro: en/08-aircraft-general-knowledge
+capitulo: 6
+titulo: "Instruments"
+tarjetas:
+  - id: pitot-y-estatica
+    tipo: basica
+    anverso: What does each pressure source measure, the **pitot** and the **static**?
+    reverso: |
+      **The pitot (nose or tail) measures total pressure; the static vents
+      (fuselage) measure ambient pressure.**
+
+      If they are blocked (insects, water) you lose your speed and height
+      information.
+
+  - id: cuidado-de-las-tomas
+    tipo: basica
+    anverso: How do you look after the pressure sources, and what must you never do?
+    reverso: |
+      **Protective covers on the ground, and a check that they are clean in the
+      pre-flight inspection.**
+
+      **Never blow straight into them**: the overpressure bursts the
+      instruments' diaphragms. A spider's nest in the pitot leaves the airspeed
+      indicator at zero in the middle of the take-off.
+    etiquetas: [Safety]
+
+  - id: arcos-del-anemometro-08
+    tipo: basica
+    anverso: What does each marking on the airspeed indicator show?
+    reverso: |
+      * **Green arc**: normal, up to **V_RA**.
+      * **Yellow arc**: caution, from V_RA to V_NE; smooth air only.
+      * **Red line**: **V_NE**.
+      * **Yellow triangle**: approach speed at maximum mass without water
+        ballast.
+
+  - id: qnh-vs-qfe
+    tipo: basica
+    anverso: When is the altimeter set to **QNH**, and when to **QFE**?
+    reverso: |
+      **QNH for altitude above mean sea level** (routes, airspace).
+      **QFE for height above the airfield** (circuit).
+
+  - id: variometro-de-energia-total
+    tipo: basica
+    anverso: What does the **total energy variometer** give you?
+    reverso: |
+      **It ignores “stick thermals” (which only trade speed for height) and
+      tells you only whether the air mass is rising or sinking.**
+
+  - id: sao-ide-105-equipamiento
+    tipo: basica
+    anverso: What **minimum instruments** must a sailplane carry?
+    reverso: |
+      **Time (hours and minutes), pressure altitude and indicated airspeed**
+      for every sailplane; **plus magnetic heading** if it is powered.
+
+      For cloud or night, **vertical speed**, **attitude or turn and slip** and
+      **magnetic heading** are added. Night flying also requires navigation,
+      anti-collision, landing and cockpit lights.
+
+      *Basis: Part-SAO, SAO.IDE.105(a) and (b).*
+    etiquetas: [Regulation]
