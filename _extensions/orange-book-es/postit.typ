@@ -15,7 +15,7 @@
 // silencio— y el razonamiento por el que se descartó Roboto se aplicaba, sin que
 // nadie lo viera, a la fuente que se eligió en su lugar.
 //
-// Ahora la fuente viaja en el repo (`recursos/fuentes/`) y el CI la instala antes
+// Ahora la fuente viaja en el repo (`recursos/fonts/`) y el CI la instala antes
 // de compilar. Cualquier fuente que no esté tumba el build: hay un guardián que
 // falla si Typst avisa de `unknown font family`.
 //

@@ -59,14 +59,14 @@ Las convenciones siguientes son fijas:
   la posición de mandos sea relevante para entenderla.
 
 Para rotulación de diagramas se usa Libertinus Sans, que está vendorizada en
-`recursos/fuentes/`. El texto debe medir al menos 9 pt **al tamaño final en PDF, es
+`recursos/fonts/`. El texto debe medir al menos 9 pt **al tamaño final en PDF, es
 decir, después de aplicar el `width` de inserción**: un diagrama insertado al 90 %
 encoge su tipografía en la misma proporción, así que 9 pt en el máster no son 9 pt en
 la página. No se crea texto convertido a píxeles si puede conservarse como texto
 vectorial.
 
 ⚠️ Ninguna otra fuente está garantizada. Typst no falla ante una fuente ausente: cae a
-otra en silencio (ver `CLAUDE.md`). Una fuente nueva se vendoriza en `recursos/fuentes/`
+otra en silencio (ver `CLAUDE.md`). Una fuente nueva se vendoriza en `recursos/fonts/`
 o no se usa.
 
 ## Tipos de figura
