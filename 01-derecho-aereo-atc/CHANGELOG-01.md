@@ -293,6 +293,9 @@ capítulos:
   SNS, y lo que sepa sólo por una notificación no puede usarlo contra un error involuntario
   (Reglamento 376/2014, art. 16.6); y es quien expide la licencia y lleva el Registro de matrícula
   (Real Decreto 184/2008, art. 9).
+* **cap10, figuras de la manga y del circuito** — sus pies avisan de que los 3 nudos por franja son
+  una referencia orientativa y corrigen dos conversiones mal redondeadas, y de que el circuito, aunque
+  dibujado con un avión, es el mismo para el planeador.
 
 ### Añadido
 
