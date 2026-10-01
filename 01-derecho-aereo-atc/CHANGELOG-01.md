@@ -135,6 +135,14 @@ casi todas normativas:
   rumbo magnético lo añaden los planeadores motorizados, no sólo los TMG.
 * **cap06, remisión al plan de vuelo** — la operativa por radio del plan de vuelo está en el
   capítulo 2 del libro 4, no en el 3, desde que ese libro se renumeró.
+* **cap07, zonas R y D** — el texto decía que por una zona R «normalmente se puede pasar si está
+  inactiva», y que en una D se puede entrar bajo propia responsabilidad, pero la figura del mismo
+  capítulo muestra una R permanente con el sobrevuelo prohibido (LER170, Monfragüe) y una D que exige
+  coordinación previa (LED125, Base Aérea de Talavera). Se explica que las condiciones de cada zona
+  están en el AIP (ENR 5.1), con esos dos ejemplos, y el pie de la figura lleva la fecha de
+  contraste.
+* **cap07, remisión a la interceptación** — está en el capítulo 6 del libro 4, no en el 8, desde
+  que ese libro se renumeró.
 
 ### Añadido
 

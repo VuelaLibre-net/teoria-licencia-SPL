@@ -56,13 +56,13 @@ Si ves una RMZ en el mapa, no entres mudo. Llama a la frecuencia indicada e info
 El espacio aéreo puede tener "candados" por seguridad o defensa, marcados con códigos como LER71:
 
 * **P** (**Prohibited**) - Prohibida: no se entra jamás. Piensa en el Palacio Real o en centrales nucleares.
-* **R** (**Restricted**) - Restringida: entrada sujeta a condiciones. Normalmente se puede pasar si está inactiva o con permiso especial (parques naturales, zonas de maniobras militares).
-* **D** (**Danger**) - Peligrosa: hay un peligro no específico (pruebas de explosivos, actividades de riesgo). Puedes entrar bajo tu responsabilidad, pero mejor evítalas (@fig-01-cap07-zonas-prd).
+* **R** (**Restricted**) - Restringida: entrada sujeta a condiciones, que son las que publica el AIP (ENR 5.1) para cada zona. Algunas se activan sólo a ratos; otras son permanentes y prohíben el sobrevuelo salvo excepciones, como **LER170**, el Parque Nacional de Monfragüe, desde el suelo hasta FL090.
+* **D** (**Danger**) - Peligrosa: hay actividades peligrosas para el vuelo (pruebas, ejercicios aéreos, tiro). Lee sus observaciones en el AIP antes de entrar: algunas exigen coordinación previa, como **LED125**, que pide coordinar con la Base Aérea de Talavera. Y, en todo caso, mejor evítalas (@fig-01-cap07-zonas-prd).
 
-![Carta aeronáutica VFR mostrando zonas LEP141 (Prohibida, rojo, por central nuclear de Almaraz); LER170 y LER71C (Restringidas); LED125 (Peligrosa).](imagenes/01-cap07-zonas-prd.png){#fig-01-cap07-zonas-prd}
+![Carta aeronáutica VFR mostrando zonas LEP141 (Prohibida, rojo, por central nuclear de Almaraz); LER170 y LER71C (Restringidas); LED125 (Peligrosa). Datos contrastados con el AIP España vigente el 1 de octubre de 2026; la carta cambia, así que consulta siempre la edición en vigor.](imagenes/01-cap07-zonas-prd.png){#fig-01-cap07-zonas-prd}
 
 ::: {.callout-warning title="Seguridad"}
-Infringir una zona P o R activa puede llevar a sanciones graves e incluso a la interceptación por aviones militares. Planifica tu vuelo y comprueba los NOTAM para saber si las zonas R están activas. Las señales de interceptación y el procedimiento de respuesta (SERA.11015) se estudian en el Libro 4 (*Comunicaciones*), capítulo 8.
+Infringir una zona P o R activa puede llevar a sanciones graves e incluso a la interceptación por aviones militares. Planifica tu vuelo y comprueba los NOTAM para saber si las zonas R están activas. Las señales de interceptación y el procedimiento de respuesta (SERA.11015) se estudian en el Libro 4 (*Comunicaciones*), capítulo 6.
 :::
 
 ::: {.postit}
