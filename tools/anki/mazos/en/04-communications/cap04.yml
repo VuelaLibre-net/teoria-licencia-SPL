@@ -41,8 +41,9 @@ tarjetas:
     tipo: basica
     anverso: What does **CAVOK** mean, and what conditions does it imply?
     reverso: |
-      **Read informally as Ceiling and Visibility OK**: visibility ≥ 10 km, no
-      low cloud and no significant weather.
+      **Visibility ≥ 10 km, no low cloud and no significant weather.**
+      In radio slang, *Ceiling and Visibility OK*, which is not ICAO's name
+      for it.
 
       The best possible conditions for VFR.
 

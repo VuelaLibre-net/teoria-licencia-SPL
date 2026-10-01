@@ -1,6 +1,6 @@
 ---
 origen: 01-derecho-aereo-atc/cap14-derecho-nacional.qmd
-origen-commit: 2890174
+origen-commit: 490af41
 ---
 
 # National law
@@ -17,7 +17,14 @@ origen-commit: 2890174
 
 ## Spanish legislation: the national framework
 
-On top of the European regulations (EASA/SERA), Spain has its own legislation, which supplements the EU framework and fills in its detail. The main law is **Ley 21/2003, de 7 de julio, de Seguridad Aérea (LSA)**, the Spanish Aviation Safety Act 21/2003 of 7 July.
+On top of the European regulations (EASA/SERA), Spain has its own legislation, which supplements the EU framework and fills in its detail. These are the pieces that affect you most:
+
+* **Ley 48/1960, sobre Navegación Aérea**, the Spanish Air Navigation Act: the general law of Spanish civil aviation.
+* **Ley 21/2003, de 7 de julio, de Seguridad Aérea (LSA)**, the Spanish Aviation Safety Act 21/2003 of 7 July: it allocates responsibilities, regulates inspection and sets out the infringements and sanctions. It is the main subject of this chapter.
+* **Ley 209/1964, Penal y Procesal de la Navegación Aérea**, the Spanish Air Navigation Criminal and Procedural Act: aviation crimes.
+* **Real Decreto 1180/2018** (Royal Decree 1180/2018): implements the European rules of the air (SERA) in Spain.
+* **Real Decreto 1088/2020** (Royal Decree 1088/2020): completes the occurrence reporting regime.
+* **Ley 2/2024** (Act 2/2024): creates the independent authority that investigates accidents, which replaced the CIAIAC.
 
 ## The Directorate General of Civil Aviation (DGAC)
 
@@ -31,35 +38,26 @@ Think of the **DGAC** as the one that writes the “rules of the game” (policy
 
 ## AESA: Spain's air police
 
-The **Agencia Estatal de Seguridad Aérea (AESA)**, the Spanish Aviation Safety Agency, created by Real Decreto 184/2008 (Royal Decree 184/2008), enforces the civil aviation rules in Spain. It checks that operators, pilots, maintenance workshops and aerodromes comply with them. It also regulates air transport, air navigation and airport security, analyses the risks to air transport safety, and has the power to impose **sanctions** when the rules are broken.
+The **Agencia Estatal de Seguridad Aérea (AESA)**, the Spanish Aviation Safety Agency, created by Real Decreto 184/2008 (Royal Decree 184/2008), enforces the civil aviation rules in Spain. It checks that operators, pilots, maintenance workshops and aerodromes comply with them. It also regulates air transport, air navigation and airport security, analyses the risks to air transport safety, and has the power to impose **sanctions** when the rules are broken. It is also the body that **issues your licence** and keeps the aircraft register (Real Decreto 184/2008, Article 9), and it runs the occurrence reporting system.
 
 ## Infringements and sanctions
 
-The LSA classifies infringements by severity (@fig-01-cap14-infracciones). The examples below summarise it (unofficial translation):
+The LSA does not classify a pilot's conduct item by item: it grades infringements by what they lead to (Article 44).
 
-### Minor infringements
+* **Minor**: failing to meet any of your safety obligations (flying with a valid licence, not flying with impaired physical or mental capacity, operating an airworthy aircraft, following the operating rules, carrying the required documents, holding the compulsory insurance), if nothing else happens.
+* **Serious**: the same failure, if it causes a serious incident, serious injuries or damage of between €5,000 and €15,000.
+* **Very serious**: if it causes an accident, a person's death or damage of more than €15,000.
 
-* Unjustified delays in submitting documentation.
-* Minor breaches of administrative procedures that do not affect safety.
-* Minor documentation breaches.
+Some conduct is defined separately, with its own severity: failing to report an occurrence is minor; failing to notify a serious incident to the accident investigation authority is serious; failing to notify it of an accident, or obstructing its investigation, is very serious (Article 50).
 
-### Serious infringements
+Fines for a private individual range from a warning or €60 up to €45,000 for minor infringements, from €45,001 to €90,000 for serious ones and from €90,001 to €225,000 for very serious ones (Article 55(1)). In addition, a serious infringement can lead to the suspension of your licence for up to five years, and a very serious one to its revocation; two very serious infringements within a year mean three years' disqualification (Article 56).
 
-* Flying without a valid licence for the type of aircraft.
-* Breaking the rules of the air without causing serious risk.
-* Not carrying the mandatory documentation on board.
+And some conduct is more than an administrative infringement: setting out on a flight under the influence of alcohol or drugs is a **criminal offence** (Ley 209/1964, Penal y Procesal de la Navegación Aérea, Article 31).
 
-### Very serious infringements
-
-* Flying under the influence of **alcohol or drugs**.
-* **Gross negligence** causing an accident or a person's death.
-* Operating an aircraft without a valid **Certificate of Airworthiness**.
-* **Forging** aeronautical qualifications, licences or documentation.
-
-![Scale of aviation infringements](imagenes/01-cap14-escala-infracciones.jpg){#fig-01-cap14-infracciones}
+![Scale of aviation infringements. *(FIX: Ley 21/2003 does not classify infringements by type of conduct, as the drawing does, but by what they cause (art. 44): the same conduct is minor, serious or very serious depending on its consequences.)*](imagenes/01-cap14-escala-infracciones.jpg){#fig-01-cap14-infracciones .corregir}
 
 ::: {.callout-warning title="Safety"}
-Fines can be **very high**, even for private pilots. Flying without a licence, without insurance or under the influence of alcohol can cost you thousands of euros and a ban from flying. Not knowing the law does **NOT** excuse you from complying with it.
+Fines can be **very high**, even for private pilots. Flying without a licence or without insurance can cost you thousands of euros and, if it ends in a serious incident or an accident, the suspension or revocation of your licence; flying under the influence of alcohol is, on top of that, a crime. Not knowing the law does **NOT** excuse you from complying with it.
 :::
 
 ::: {.callout-tip title="Golden rule"}
@@ -71,7 +69,8 @@ If you have any doubt about whether an operation is legal (e.g. flying close to 
 
 Besides the European rules, Spain applies the **Aviation Safety Act (LSA 21/2003)**.
 
-* It sets out the regime of infringements and sanctions: the **very serious** ones (death or accident) can lead to a ban from flying.
+* It sets out the regime of infringements and sanctions. Failing to meet your safety obligations is **minor**; **serious** if it causes a serious incident or serious injuries, and **very serious** if it causes an accident or a death. Serious infringements can lead to the suspension of your licence for up to five years and very serious ones to its revocation.
+* Flying under the influence of **alcohol or drugs** is, in addition, a **crime** (Ley 209/1964).
 * **DGAC**: defines aviation policy (the “rules of the game”).
 * **AESA**: oversees and sanctions (the “referee”).
 :::

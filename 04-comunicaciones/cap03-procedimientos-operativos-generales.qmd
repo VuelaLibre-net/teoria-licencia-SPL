@@ -123,7 +123,7 @@ No todos los mensajes son iguales. La OACI establece un orden de prioridad claro
 6. **Comunicaciones de regularidad del vuelo**: Cierre de plan de vuelo, confirmaciones de posición y coordinaciones operativas.
 
 ::: {.callout-important title="Normativa"}
-La transmisión maliciosa o falsa de señales de emergencia (Mayday / Pan Pan) constituye una infracción penal grave en todas las jurisdicciones de la EASA, sancionada con multas elevadas y la retirada de la licencia aeronaútica, además del riesgo operacional real que genera al desviar recursos de emergencia. Utilícelas exclusivamente cuando la situación real lo requiera.
+La transmisión maliciosa o falsa de señales de emergencia (Mayday / Pan Pan) no es una broma: en España, si hace movilizar a los servicios de salvamento, es un delito castigado con prisión o multa (Código Penal, art. 561), además del riesgo operacional real que genera al desviar recursos de emergencia. Utilícelas exclusivamente cuando la situación real lo requiera.
 :::
 
 ## Técnica de micrófono

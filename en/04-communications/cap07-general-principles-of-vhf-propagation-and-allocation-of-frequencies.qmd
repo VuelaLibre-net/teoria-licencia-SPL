@@ -59,7 +59,7 @@ VHF waves travel in straight lines and do not pass through rock. If you drop bel
 In high mountains, prepare for this with two measures:
 
 1. **Anticipate the lack of coverage**: if you have to make a position report to FIS, do it **before** you go into that valley or behind that ridge.
-2. **The bridge aircraft (relay)**: in an emergency from the bottom of a valley with no coverage, remember that above you there are gliders from your own club flying higher, or airliners en route. They can “see” both your position in the valley and the distant tower. Use them as **relay stations**. Transmit: *«Tráfico en 123,500, aquí Eco Papa Eco en emergencia en el fondo del valle del Jerte, ¿alguien puede retransmitir mi Mayday a Madrid Información?»* (“Traffic on 123.500, this is Echo Papa Echo in an emergency at the bottom of the Jerte valley, can anyone relay my Mayday to Madrid Information?”). Their signal will reach the tower with no obstacles in the way, and they will relay your call.
+2. **The bridge aircraft (relay)**: in an emergency from the bottom of a valley with no coverage, remember that above you there are gliders from your own club flying higher, or airliners en route. They can “see” both your position in the valley and the distant tower. Use them as **relay stations**. Transmit: “Traffic on 123.500, this is Echo Papa Echo in an emergency at the bottom of the Jerte valley, can anyone relay my Mayday to Madrid Information?” (*Tráfico en 123,500, aquí Eco Papa Eco en emergencia en el fondo del valle del Jerte, ¿alguien puede retransmitir mi Mayday a Madrid Información?*). Their signal will reach the tower with no obstacles in the way, and they will relay your call.
 
 ## Common frequencies in sport aviation
 

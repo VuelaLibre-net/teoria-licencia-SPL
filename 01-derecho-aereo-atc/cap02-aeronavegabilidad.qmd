@@ -20,25 +20,25 @@ Como piloto, eres el último eslabón de la cadena de seguridad. Da igual lo bie
 
 El **Certificado de Aeronavegabilidad** (CofA) es el documento que emite la autoridad del Estado de matrícula (AESA en España) para certificar que la aeronave se ajusta al diseño aprobado y está en condiciones de operación segura.
 
-El CofA de las aeronaves EASA tiene validez **ilimitada**: no caduca, siempre que la aeronave se mantenga aeronavegable conforme a su programa de mantenimiento y nadie lo revoque (@fig-01-cap02-cofa-example). Eso sí, para ser válido debe ir siempre acompañado de un ARC en vigor. Sin ARC, el CofA es papel mojado.
+El CofA de las aeronaves EASA tiene validez **ilimitada**: no caduca, siempre que la aeronave siga cumpliendo su diseño de tipo y su mantenimiento de la aeronavegabilidad, conserve la misma matrícula, no se haya anulado su certificado de tipo y nadie haya revocado el CofA ni renunciado a él (21.A.181, @fig-01-cap02-cofa-example). Eso sí, para ser válido debe ir siempre acompañado de un ARC en vigor. Sin ARC, el CofA es papel mojado.
 
-![Certificado de Aeronavegabilidad EASA](imagenes/01-cap02-certificado-aeronavegabilidad.jpg){#fig-01-cap02-cofa-example}
+![Ejemplo de Certificado de Aeronavegabilidad EASA (formulario 25). *(CORREGIR: el modelo cita el Reglamento (CE) 216/2008, hoy sustituido por el Reglamento (UE) 2018/1139, y es de un avión, no de un planeador.)*](imagenes/01-cap02-certificado-aeronavegabilidad.jpg){#fig-01-cap02-cofa-example .corregir}
 
 ## La "ITV" anual: certificado de revisión de aeronavegabilidad (ARC)
 
 El **ARC** (**Airworthiness Review Certificate**, Certificado de Revisión de Aeronavegabilidad) confirma que, en un momento dado, alguien revisó la documentación y el estado físico del avión y todo estaba correcto.
 
-Su validez es de **un año**, así que toca renovarlo o prorrogarlo anualmente. En un entorno controlado (gestionado por una CAMO o, en aviación ligera, por una CAO), el ARC admite dos prórrogas consecutivas sin revisión física completa, es decir, 1 año + 1 año + 1 año. Al tercer año, revisión a fondo sin excusas (@fig-01-cap02-arc-process). El régimen técnico que sostiene el ARC —el programa de mantenimiento, el programa mínimo de inspección y las directivas de aeronavegabilidad— se desarrolla en el **Libro 8 — Conocimientos Generales de la Aeronave, Estructura, Sistemas y Equipo de Emergencia**, capítulo 9; aquí interesa su cara jurídica: sin ARC en vigor no puedes volar.
+Su validez es de **un año**, así que toca renovarlo o prorrogarlo anualmente. Admite dos prórrogas consecutivas sin nueva revisión completa, es decir, 1 año + 1 año + 1 año, pero sólo si la misma organización —una CAMO o, en aviación ligera, una CAO— ha gestionado la aeronavegabilidad del planeador sin interrupción desde que se expidió (ML.A.902). Al cumplirse el tercer año, revisión a fondo sin excusas (@fig-01-cap02-arc-process). El régimen técnico que sostiene el ARC —el programa de mantenimiento, el programa mínimo de inspección y las directivas de aeronavegabilidad— se desarrolla en el **Libro 8 — Conocimientos Generales de la Aeronave, Estructura, Sistemas y Equipo de Emergencia**, capítulo 9; aquí interesa su cara jurídica: sin ARC en vigor no puedes volar.
 
 ::: {.callout-warning title="Seguridad"}
-Nunca vueles si el ARC está caducado. Es ilegal y, lo más importante, significa que nadie ha certificado oficialmente que el avión es seguro para volar en el último año. Además, muy probablemente tu aseguradora rechazará la cobertura si ocurre algo: la mayoría de las pólizas la condicionan a que la aeronave esté aeronavegable.
+Nunca vueles si el ARC está caducado. Es ilegal y, lo más importante, significa que nadie ha certificado oficialmente que el avión es seguro para volar en el último año. Además, tu aseguradora puede negarse a cubrirte o repetir contra ti si ocurre algo: muchas pólizas condicionan la cobertura a que la aeronave sea aeronavegable. Lee la tuya.
 :::
 
-![Ciclo de vida del ARC y sus prórrogas](imagenes/01-cap02-ciclo-arc.jpg){#fig-01-cap02-arc-process}
+![Ciclo de vida del ARC y sus prórrogas. *(CORREGIR: con la segunda prórroga, el ARC vale hasta cumplirse el tercer año: el último tramo, rotulado como caducado, es válido.)*](imagenes/01-cap02-ciclo-arc.jpg){#fig-01-cap02-arc-process .corregir}
 
 ## Mantenimiento de planeadores: Part-ML
 
-Desde el punto de vista legal basta con que retengas el marco: los planeadores se mantienen bajo la **Part-ML** (Anexo Vb del Reglamento (UE) 1321/2014), una normativa simplificada para la aviación ligera que descansa sobre un **Programa de Mantenimiento (AMP)** y que, en ciertas tareas sencillas, permite al **piloto-propietario** firmar el mantenimiento él mismo. El desarrollo de todo esto —cómo funciona el AMP, el programa mínimo de inspección, qué tareas puede firmar el piloto-propietario y con qué condiciones, las directivas de aeronavegabilidad (AD) y los boletines de servicio (SB)— corresponde a su asignatura natural, **Conocimientos Generales de la Aeronave, Estructura, Sistemas y Equipo de Emergencia**: se estudia en el **Libro 8 — Conocimientos Generales de la Aeronave, Estructura, Sistemas y Equipo de Emergencia**, capítulo 9.
+Desde el punto de vista legal basta con que retengas el marco: los planeadores se mantienen bajo la **Part-ML** (Anexo V ter del Reglamento (UE) 1321/2014), una normativa simplificada para la aviación ligera que descansa sobre un **Programa de Mantenimiento (AMP)** y que, en ciertas tareas sencillas, permite al **piloto-propietario** firmar el mantenimiento él mismo. El desarrollo de todo esto —cómo funciona el AMP, el programa mínimo de inspección, qué tareas puede firmar el piloto-propietario y con qué condiciones, las directivas de aeronavegabilidad (AD) y los boletines de servicio (SB)— corresponde a su asignatura natural, **Conocimientos Generales de la Aeronave, Estructura, Sistemas y Equipo de Emergencia**: se estudia en el **Libro 8 — Conocimientos Generales de la Aeronave, Estructura, Sistemas y Equipo de Emergencia**, capítulo 9.
 
 ## Responsabilidades del piloto
 
@@ -50,16 +50,15 @@ Antes de cada vuelo te toca una inspección exterior e interior, siguiendo la li
 
 ### 2. Verificación de documentación
 
-Antes de despegar, comprueba que la documentación obligatoria está a bordo y en vigor.
-Según la normativa de operaciones de planeadores (Part-SAO), esto incluye:
+Antes de despegar, comprueba que la documentación obligatoria está en vigor. No toda tiene que ir a bordo:
 
-* **Documentos de la aeronave**: CofA, ARC, Certificado de Matrícula, Seguro, Licencia de Estación de Radio.
-* **Documentos de la operación**: Manual de Vuelo (AFM), listas de chequeo.
-* **Documentos del piloto**: tu licencia (SPL) y tu certificado médico.
+* **A bordo** (Part-SAO, SAO.GEN.155 a)): el Manual de Vuelo (AFM) o documento equivalente, las cartas aeronáuticas de la zona, los datos del plan de vuelo si lo has presentado y la información sobre interceptación.
+* **A bordo o disponibles en el aeródromo** (SAO.GEN.155 c)): Certificado de Matrícula, CofA, ARC, Licencia de Estación de Radio si llevas equipo de radio, certificado del seguro y Diario de a bordo.
+* **Documentos del piloto** (Part-SFCL, SFCL.045): tu licencia (SPL), tu certificado médico, un documento de identidad con foto y datos suficientes de tu libro de vuelo. En vuelos a la vista del aeródromo pueden quedarse en él.
 
 ### 3. Reporte de defectos
 
-Si encuentras algo mal durante la pre-vuelo o durante el vuelo, anótalo en el **Technical Log Book (Diario de a bordo)**. El siguiente piloto te lo agradecerá.
+Si encuentras algo mal durante la pre-vuelo o durante el vuelo, anótalo en el **diario de a bordo** (*journey log*) o en el registro técnico de la aeronave. El siguiente piloto te lo agradecerá. Y si el defecto puede poner seriamente en peligro la seguridad del vuelo, el planeador no vuela hasta que se rectifique (ML.A.403): no es una decisión que puedas aplazar por tu cuenta.
 
 ::: {.callout-note title="Airmanship"}
 ¿Ves una muesca en el gelcoat? No es solo estética: si afecta al perfil, afecta al vuelo. Ante la duda, pregunta. Es mejor ser un piloto curioso que un piloto en apuros.
@@ -73,5 +72,5 @@ La aeronavegabilidad es la salud de tu aeronave. Para volar legal y seguro:
 * **CofA**: acredita que la aeronave se ajusta al diseño aprobado y está en condiciones de operación segura. Lo expide el Estado de matrícula (AESA en España) y no caduca si el avión se mantiene correctamente.
 * **ARC**: la "ITV" anual. Confirma que el avión está revisado y apto. Verifica su fecha de validez antes de volar.
 * **Part-ML**: el marco de mantenimiento de los planeadores; permite al piloto-propietario certificar tareas sencillas. Su desarrollo técnico (AMP, programa mínimo de inspección, AD/SB) está en el **Libro 8 — Conocimientos Generales de la Aeronave, Estructura, Sistemas y Equipo de Emergencia**, capítulo 9.
-* **Tu parte**: hacer la inspección pre-vuelo, verificar que la documentación (CofA, ARC, seguro…​) está a bordo y en vigor, y anotar cualquier defecto en el Diario de a bordo.
+* **Tu parte**: hacer la inspección pre-vuelo, verificar que la documentación (CofA, ARC, seguro…​) está en vigor y disponible, a bordo o en el aeródromo, y anotar cualquier defecto en el Diario de a bordo.
 :::

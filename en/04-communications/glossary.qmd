@@ -1,6 +1,6 @@
 ---
 origen: 04-comunicaciones/glosario.qmd
-origen-commit: 2375434
+origen-commit: 8390229
 ---
 
 # Glossary of terms
@@ -29,10 +29,10 @@ Acronyms and technical terms of aeronautical communications for the SPL licence,
 : At uncontrolled aerodromes, each pilot voluntarily transmits their position, altitude and intentions on the aerodrome frequency. There is no station issuing clearances: separation depends on all the pilots on the frequency.
 
 **Blind transmission**
-: The procedure for when you suspect your receiver has failed but the transmitter still works. You regularly transmit your position and intentions on the right frequency, starting each message with *«Transmitiendo a ciegas debido a fallo del receptor»* (“Transmitting blind due to receiver failure”), even though no answer comes.
+: The procedure for when you suspect your receiver has failed but the transmitter still works. You regularly transmit your position and intentions on the right frequency, starting each message with “Transmitting blind due to receiver failure” (*Transmitiendo a ciegas debido a fallo del receptor*), even though no answer comes.
 
 **CAVOK (Visibility, cloud and present weather better than prescribed values or conditions)**
-: Term used in weather reports that replaces certain visibility, present weather and cloud data when the established conditions are met at the same time: visibility of 10 km or more, no cloud below 5,000 ft and no cumulonimbus, and no significant weather. The name is ICAO's; at the club you will hear the backronym *Ceiling And Visibility OK*, which is not the official name.
+: Term used in weather reports that replaces certain visibility, present weather and cloud data when the established conditions are met at the same time: visibility of 10 km or more (the lowest visibility is not reported); no cloud below 5,000 ft or below the highest minimum sector altitude, whichever is greater, and no cumulonimbus or towering cumulus at any height; and no weather of significance to aviation (Commission Implementing Regulation (EU) 2017/373). The name is ICAO's; at the club you will hear the backronym *Ceiling And Visibility OK*, which is not the official name.
 
 **CTR (Control Zone)**
 : Controlled airspace extending upwards from the surface of the earth to a defined upper limit.
@@ -77,7 +77,7 @@ Acronyms and technical terms of aeronautical communications for the SPL licence,
 : Setting that lets the altimeter show altitude and, on the ground, approximately the elevation of the point considered.
 
 **Readback**
-: The pilot repeats back to the controller, word for word, the instructions or clearances received, confirming that they have been heard and understood. Mandatory for runway clearances, headings, altitudes, QNH, transponder codes and frequency changes. Replying only *«Recibido»* (“Roger”) or “Wilco” in these cases is a deviation from ICAO/EASA procedure.
+: The pilot repeats back to the controller, word for word, the instructions or clearances received, confirming that they have been heard and understood. Mandatory for runway clearances, headings, altitudes, QNH, transponder codes and frequency changes. Replying only “Roger” (*Recibido*) or “Wilco” in these cases is a deviation from ICAO/EASA procedure.
 
 **RMZ (Radio Mandatory Zone)**
 : Airspace of defined dimensions in which the carriage and use of radio equipment is mandatory in accordance with the published requirements.

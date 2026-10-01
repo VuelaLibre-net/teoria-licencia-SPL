@@ -51,15 +51,16 @@ tarjetas:
 
   - id: sera-5001-minimos-vfr
     tipo: basica
-    anverso: What minimum visibility does VFR require in **class G** at and below 3,000 ft AMSL or 1,000 ft above terrain?
+    anverso: What minimum visibility does VFR require in **class G** at and below 3,000 ft AMSL or 1,000 ft above terrain (whichever is higher)?
     reverso: |
       **5 km, clear of cloud and with the surface in sight.**
 
-      It may be reduced to **1,500 m** for flights at 140 kt or less, if the
-      speed allows traffic and obstacles to be seen in time. Entering IMC
-      without an instrument rating is a serious offence.
+      SERA allows it to be reduced to 1,500 m at 140 kt or less if the
+      authority prescribes it, but in Spain that does not apply to gliders
+      (RD 1180/2018, Article 30). Entering IMC without an instrument rating
+      breaks the rules of the air and is a classic cause of accidents.
 
-      *Basis: SERA.5001.*
+      *Basis: SERA.5001; RD 1180/2018, Article 30.*
     etiquetas: [Regulation]
 
   - id: despegar-con-visibilidad-marginal

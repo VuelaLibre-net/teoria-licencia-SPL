@@ -23,6 +23,17 @@ tarjetas:
       **Avisos temporales urgentes** —pista cerrada, festival aéreo, restricción
       temporal—. **Consultarlos antes de cada vuelo es obligatorio.**
 
+  - id: sup-y-airac
+    tipo: basica
+    anverso: ¿Dónde se publica un cambio temporal del AIP que dura tres meses o más, y cada cuánto entra en vigor un cambio AIRAC?
+    reverso: |
+      **En un suplemento al AIP (SUP).** Los cambios AIRAC entran en vigor en
+      fechas comunes **cada 28 días**, y llegan al usuario al menos 28 días
+      antes.
+
+      *Fundamento: AIP España, GEN 3.1.*
+    etiquetas: [Normativa]
+
   - id: aic
     tipo: basica
     anverso: ¿Qué son las **AIC**?

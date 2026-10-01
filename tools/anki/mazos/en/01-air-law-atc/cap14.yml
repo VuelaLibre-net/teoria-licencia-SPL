@@ -17,9 +17,37 @@ tarjetas:
 
   - id: infracciones-muy-graves
     tipo: basica
-    anverso: What can **very serious** infringements lead to?
+    anverso: When is a safety infringement under the LSA **very serious**, and what can it lead to?
     reverso: |
-      **A ban from flying.** They are the ones involving death or an accident.
+      **When the failure causes an accident, a death or damage of more than
+      €15,000.** Besides the fine (€90,001 to €225,000 for a private
+      individual), it can lead to revocation of the licence; two very serious
+      infringements within a year mean three years' disqualification.
+
+      *Basis: Ley 21/2003, Articles 44, 55 and 56.*
+    etiquetas: [Regulation]
+
+  - id: lsa-gravedad-por-consecuencias
+    tipo: basica
+    anverso: How does the Aviation Safety Act grade a pilot's infringements?
+    reverso: |
+      **By their consequences, not by the conduct.** Failing to meet a safety
+      obligation is **minor**; **serious** if it causes a serious incident,
+      serious injuries or damage of €5,000 to €15,000; **very serious** if it
+      causes an accident, a death or damage of more than €15,000.
+
+      *Basis: Ley 21/2003, Article 44.*
+    etiquetas: [Regulation]
+
+  - id: alcohol-es-delito
+    tipo: basica
+    anverso: In legal terms, what is setting out on a flight under the influence of alcohol or drugs?
+    reverso: |
+      **A crime**, not just an administrative infringement.
+
+      *Basis: Ley 209/1964, Penal y Procesal de la Navegación Aérea,
+      Article 31.*
+    etiquetas: [Regulation]
 
   - id: sanciones-y-desconocimiento
     tipo: basica
@@ -27,9 +55,10 @@ tarjetas:
     reverso: |
       **No.**
 
-      Flying without a licence, without insurance or under the influence of
-      alcohol can cost thousands of euros and a ban from flying, even for a
-      private pilot.
+      Flying without a licence or without insurance can cost thousands of
+      euros, even for a private pilot, and, if it ends in a serious incident or
+      an accident, the suspension or revocation of the licence. Flying under
+      the influence of alcohol is, on top of that, a crime.
     etiquetas: [Safety]
 
   - id: ante-la-duda-pregunta

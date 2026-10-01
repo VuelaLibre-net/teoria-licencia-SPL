@@ -82,14 +82,14 @@ jobs:
       # máquina de desarrollo la fuente estaba instalada y aquí no.
       #
       # Se copian del repo, no se descargan ni se instalan de un paquete: los
-      # mismos bytes aquí y en local. Ver recursos/fuentes/README.md.
+      # mismos bytes aquí y en local. Ver recursos/fonts/README.md.
       #
       # A ~/.local/share/fonts porque Typst no usa fontconfig: escanea
       # directorios conocidos, y ése es uno. No sirve TYPST_FONT_PATHS: Quarto
       # invoca a Typst con --font-path y el parámetro pisa la variable.
       run: |
         mkdir -p ~/.local/share/fonts
-        cp recursos/fuentes/*.otf ~/.local/share/fonts/
+        cp recursos/fonts/*.otf ~/.local/share/fonts/
         # El guardián de abajo no vale de nada si el `cp` no ha copiado nada.
         n=$(ls -1 ~/.local/share/fonts/LibertinusSans-*.otf 2>/dev/null | wc -l)
         [ "$n" -eq 3 ] || { echo "::error::Se esperaban 3 .otf de Libertinus Sans y hay $n"; exit 1; }

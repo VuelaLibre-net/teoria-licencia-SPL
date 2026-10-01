@@ -82,8 +82,9 @@ tarjetas:
     tipo: basica
     anverso: ¿Qué consecuencias tiene transmitir un **Mayday o Pan Pan falso**?
     reverso: |
-      **Es infracción penal grave en toda la EASA**: multas elevadas y retirada
-      de la licencia, además del riesgo real de desviar recursos de emergencia.
+      **En España puede ser delito**: simular un peligro que haga movilizar a
+      los servicios de salvamento se castiga con prisión o multa (Código Penal,
+      art. 561). Además desvía recursos de emergencia.
     etiquetas: [Normativa]
 
   - id: equipos-de-radio-potencia

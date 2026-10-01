@@ -1,6 +1,6 @@
 ---
 origen: 08-aeronave-sistemas/cap09-aeronavegabilidad-y-mantenimiento.qmd
-origen-commit: 9a6cb4e
+origen-commit: 8390229
 ---
 
 # Airworthiness and maintenance
@@ -26,7 +26,7 @@ For a sailplane to take off legally, it needs two key documents:
 2. **Airworthiness review certificate (ARC)**: the periodic validation of the CofA, valid for one year. It is issued by an approved organisation (CAMO or CAO) or by independent certifying staff after reviewing the aircraft and its records. It plays the part that the periodic roadworthiness test (the Spanish ITV) plays for a car.
 
 ::: {.callout-important title="Regulation"}
-Under **ML.A.901**, the ARC is valid for one year. It can be extended twice in succession, one year each time, without a full review if the aircraft has remained in a **controlled environment**: continuous management by a CAMO/CAO and maintenance carried out by approved organisations. After those two extensions a full airworthiness review is due.
+Under **ML.A.902**, the ARC is valid for one year. It can be extended twice in succession, one year each time, without a full review if its conditions are met: the same CAMO or CAO has managed the aircraft's continuing airworthiness without interruption since the ARC was issued, and the maintenance has been carried out by approved organisations. After those two extensions a full airworthiness review is due.
 :::
 
 This chapter covers the technical side of the CofA and the ARC in full. The legal side (which documents are compulsory on board, and your legal responsibility for flying with them valid) is covered in **Book 1 — Air Law and ATC Procedures**, chapter 2.
@@ -61,7 +61,7 @@ Aviation safety is everyone's business. When a design fault or a problem with a 
 **Chapter summary: maintenance and airworthiness**
 
 * **Daily inspection (DI)**: the pilot's job. Follow the list: tyre pressures, condition of the towhook, control hinges, pitot and static vents clean.
-* **CofA and ARC**: the CofA is valid indefinitely; the ARC lasts a year and can be extended twice in a controlled environment (ML.A.901). Without a valid ARC, the aircraft does not fly.
+* **CofA and ARC**: the CofA is valid indefinitely; the ARC lasts a year and can be extended twice if the same CAMO or CAO has managed it without interruption (ML.A.902). Without a valid ARC, the aircraft does not fly.
 * **Scheduled maintenance**: the actual inspection frequency (by time, cycles or hours) is set by the AMP, according to what the manufacturer says. But there is a floor: if the AMP is based on the Part-ML Minimum Inspection Programme (ML.A.302), it can never be less restrictive than **an inspection every year** (for a TMG, **every year or every 100 h, whichever comes first**).
 * **Pilot-owner maintenance**: simple tasks from Appendix II to Part-ML, only if you are the owner and hold a valid licence, and always recorded and signed (ML.A.803).
 * **Defect reporting**: if you break something or see something odd, write it down. The next pilot may not see it and be killed (a frayed rudder cable, for example).

@@ -27,6 +27,11 @@
   en: "ADM (Aeronautical Decision-Making)"
   origen: glosario
   libros: ["02"]
+- es: "Aeródromo eventual"
+  en: "aeródromo eventual (occasional aerodrome)"
+  origen: propuesta
+  libros: ["01"]
+  nota: "Figura española del Real Decreto 1189/2011: se conserva en español con glosa."
 - es: "Aerofrenos (airbrakes)"
   en: "Airbrakes"
   origen: glosario
@@ -47,7 +52,7 @@
 - es: "AFIS (Servicio de Información de Vuelo de Aeródromo / Aerodrome Flight Information Service)"
   en: "AFIS (Aerodrome Flight Information Service)"
   origen: glosario
-  libros: ["04"]
+  libros: ["01", "04"]
 - es: "AFM (Manual de Vuelo de la Aeronave / Aircraft Flight Manual)"
   en: "AFM (Aircraft Flight Manual)"
   origen: glosario
@@ -153,6 +158,11 @@
   en: "ARC (Airworthiness Review Certificate)"
   origen: glosario
   libros: ["01", "08"]
+- es: "ARCC (Centro Coordinador de Salvamento Aeronáutico)"
+  en: "ARCC (Aeronautical Rescue Coordination Centre)"
+  origen: propuesta
+  libros: ["01"]
+  nota: "Nombre de los tres centros en el AIP España, GEN 3.6."
 - es: "ASM (Gestión del espacio aéreo / Airspace Management)"
   en: "ASM (Airspace Management)"
   origen: glosario
@@ -199,11 +209,21 @@
   origen: glosario
   libros: ["04"]
   nota: "SERA/ICAO: transmisión de autoinformación en frecuencia común; confirmar frente a «self-announce»"
+- es: "Autoridad de investigación de accidentes"
+  en: "Accident investigation authority"
+  origen: propuesta
+  libros: ["01"]
+  nota: "Desde el 15-07-2026, la Autoridad Administrativa Independiente para la Investigación Técnica de Accidentes e Incidentes ferroviarios, marítimos y de aviación civil (Ley 2/2024), que sustituyó a la CIAIAC. No tiene sigla oficial."
 - es: "Autorrotación (*spin*)"
   en: "Autorotation"
   origen: propuesta
   libros: ["05"]
   nota: "En inglés remite a «Spin (autorotation)», como el español remite a Barrena."
+- es: "Aviso de llegada"
+  en: "Arrival report"
+  origen: propuesta
+  libros: ["01"]
+  nota: "SERA.4020."
 - es: "AWY (Aerovía / Airway)"
   en: "AWY (Airway)"
   origen: glosario
@@ -334,6 +354,10 @@
   en: "Wind shear"
   origen: glosario
   libros: ["03"]
+- es: "Código Penal"
+  en: "Código Penal (Spanish Criminal Code)"
+  origen: propuesta
+  libros: ["04"]
 - es: "Coeficiente de planeo (fineza, L/D)"
   en: "Glide ratio (L/D)"
   origen: propuesta
@@ -481,6 +505,11 @@
   en: "V-n diagram (flight envelope)"
   origen: propuesta
   libros: ["05"]
+- es: "Diario de a bordo"
+  en: "Journey log"
+  origen: propuesta
+  libros: ["01", "06"]
+  nota: "Término de SAO.GEN.160; distinto del registro técnico (technical records)."
 - es: "Diedro (ángulo diedro)"
   en: "Dihedral (dihedral angle)"
   origen: propuesta
@@ -657,6 +686,10 @@
   en: "FISO (Flight Information Service Officer)"
   origen: glosario
   libros: ["01"]
+- es: "FIZ (Zona de información de vuelo / Flight Information Zone)"
+  en: "FIZ (Flight Information Zone)"
+  origen: glosario
+  libros: ["01"]
 - es: "FL (Nivel de vuelo / Flight Level)"
   en: "FL (Flight Level)"
   origen: glosario
@@ -813,6 +846,15 @@
   en: "K-Index"
   origen: glosario
   libros: ["03"]
+- es: "Lado tierra"
+  en: "Landside"
+  origen: propuesta
+  libros: ["01"]
+  nota: "Reglamento (CE) 300/2008, art. 3."
+- es: "Lanzamiento con cable elástico"
+  en: "Bungee launch"
+  origen: propuesta
+  libros: ["01", "06"]
 - es: "LAPL (Licencia de Piloto de Aeronave Ligera / Light Aircraft Pilot Licence)"
   en: "LAPL (Light Aircraft Pilot Licence)"
   origen: glosario
@@ -850,6 +892,11 @@
   en: "LFC (Level of Free Convection)"
   origen: glosario
   libros: ["03"]
+- es: "Lugar de operación"
+  en: "Operating site"
+  origen: propuesta
+  libros: ["01"]
+  nota: "Definición de Part-SAO (Reglamento de Ejecución (UE) 2018/1976, anexo I)."
 - es: "L’Hotellier (Conector)"
   en: "L'Hotellier connector"
   origen: propuesta
@@ -891,6 +938,10 @@
   en: "MAYDAY"
   origen: propuesta
   libros: ["04"]
+- es: "Medio alternativo de cumplimiento"
+  en: "AltMoC (Alternative Means of Compliance)"
+  origen: propuesta
+  libros: ["01"]
 - es: "METAR (Meteorological Aerodrome Report)"
   en: "METAR (Meteorological Aerodrome Report)"
   origen: glosario
@@ -993,6 +1044,11 @@
   en: "Mountain wave (wave soaring)"
   origen: glosario
   libros: ["03"]
+- es: "Orden FOM/1687/2015"
+  en: "Orden FOM/1687/2015 (Ministerial Order FOM/1687/2015)"
+  origen: propuesta
+  libros: ["01"]
+  nota: "Marcas de nacionalidad y matrícula."
 - es: "Orto"
   en: "Sunrise"
   origen: propuesta
@@ -1041,6 +1097,10 @@
   en: "Stall"
   origen: glosario
   libros: ["05"]
+- es: "PIB (Boletín de información previa al vuelo / Pre-flight Information Bulletin)"
+  en: "PIB (Pre-flight Information Bulletin)"
+  origen: glosario
+  libros: ["01"]
 - es: "PIC (Piloto al mando / Pilot in Command)"
   en: "PIC (Pilot in Command)"
   origen: glosario
@@ -1049,6 +1109,11 @@
   en: "Spiral dive"
   origen: glosario
   libros: ["05"]
+- es: "Planeador con motor"
+  en: "Powered sailplane"
+  origen: propuesta
+  libros: ["01", "08"]
+  nota: "Distinto del motovelero de turismo (TMG)."
 - es: "PLB (Baliza de localización personal / Personal Locator Beacon)"
   en: "PLB (Personal Locator Beacon)"
   origen: glosario
@@ -1061,6 +1126,11 @@
   en: "PPL (Private Pilot Licence)"
   origen: glosario
   libros: ["01"]
+- es: "Programa Nacional de Seguridad para la Aviación Civil"
+  en: "National Civil Aviation Security Programme"
+  origen: propuesta
+  libros: ["01"]
+  nota: "Ley 21/2003, art. 3."
 - es: "Proyección Lambert (cónica conforme)"
   en: "Lambert projection (conformal conic)"
   origen: propuesta
@@ -1093,6 +1163,11 @@
   en: "RCC (Rescue Coordination Centre)"
   origen: glosario
   libros: ["01"]
+- es: "Real Decreto 1180/2018"
+  en: "Real Decreto 1180/2018 (Royal Decree 1180/2018)"
+  origen: propuesta
+  libros: ["01", "03"]
+  nota: "Desarrolla SERA en España; derogó el Real Decreto 552/2014."
 - es: "Regla del 1 en 60"
   en: "1 in 60 rule"
   origen: propuesta
@@ -1207,6 +1282,10 @@
   en: "Stau (upslope cloud)"
   origen: propuesta
   libros: ["03"]
+- es: "SUP (Suplemento al AIP / AIP Supplement)"
+  en: "SUP (AIP Supplement)"
+  origen: glosario
+  libros: ["01"]
 - es: "Sustentación (*lift*)"
   en: "Lift"
   origen: glosario
@@ -1424,6 +1503,11 @@
   origen: propuesta
   libros: ["06"]
   nota: "mnemotecnia; confirmar si procede de fuente inglesa"
+- es: "Zona de operaciones"
+  en: "Airside"
+  origen: propuesta
+  libros: ["01"]
+  nota: "Reglamento (CE) 300/2008, art. 3."
 - es: "Zona peligrosa (D de Danger)"
   en: "Danger area (D)"
   origen: propuesta
@@ -1436,6 +1520,11 @@
   en: "Restricted area (R)"
   origen: propuesta
   libros: ["01"]
+- es: "Zona restringida de seguridad"
+  en: "Security restricted area"
+  origen: propuesta
+  libros: ["01"]
+  nota: "Reglamento (CE) 300/2008, art. 3."
 - es: "Zonas P/R/D"
   en: "P/R/D areas"
   origen: propuesta

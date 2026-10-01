@@ -55,10 +55,10 @@ All five are solved by the same decision, and it is the cheapest one of the day:
 
 The pilot and the winch driver must understand each other perfectly. A misunderstood command can lead to an unexpected pull. The standard sequence at Spanish airfields, with each call followed by its translation, is:
 
-1. *«Listo para tensar el cable»* (“Ready to take up slack”): the pilot indicates that they are ready. The winch driver starts to wind in the cable slowly, with no sudden tension.
-2. *«Cable en tensión»* (“Cable taut”): the pilot confirms that the cable is pulling smoothly and evenly.
-3. *«Remolque, remolque, remolque»* (“Launch, launch, launch”, the equivalent of the British “all out”): the pilot authorises full power. The sailplane accelerates rapidly: control roll with the ailerons and keep straight with the pedals.
-4. *«Velero libre»* (“Glider free”): after releasing the cable (at the end of the climb, typically at 300–400 metres, or immediately if in any doubt), the pilot confirms that the cable has come off and that they are flying free.
+1. “Ready to take up slack” (*Listo para tensar el cable*): the pilot indicates that they are ready. The winch driver starts to wind in the cable slowly, with no sudden tension.
+2. “Cable taut” (*Cable en tensión*): the pilot confirms that the cable is pulling smoothly and evenly.
+3. “All out, all out, all out” (*Remolque, remolque, remolque*): the pilot authorises full power. The sailplane accelerates rapidly: control roll with the ailerons and keep straight with the pedals.
+4. “Glider released” (*Velero libre*): after releasing the cable (at the end of the climb, typically at 300–400 metres, or immediately if in any doubt), the pilot confirms that the cable has come off and that they are flying free.
 
 
 ### Cable break emergency

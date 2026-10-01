@@ -12,7 +12,14 @@
 
 ## La legislación española: el marco nacional
 
-Además de la normativa europea (EASA/SERA), en España existe legislación propia que complementa y desarrolla el marco comunitario. La ley principal es la **Ley 21/2003, de 7 de julio, de Seguridad Aérea (LSA)**.
+Además de la normativa europea (EASA/SERA), en España existe legislación propia que complementa y desarrolla el marco comunitario. Las piezas que más te afectan son estas:
+
+* **Ley 48/1960, sobre Navegación Aérea**: la ley general de la aviación civil española.
+* **Ley 21/2003, de 7 de julio, de Seguridad Aérea (LSA)**: reparte las competencias, regula la inspección y fija las infracciones y sanciones. Es la protagonista de este capítulo.
+* **Ley 209/1964, Penal y Procesal de la Navegación Aérea**: los delitos aeronáuticos.
+* **Real Decreto 1180/2018**: desarrolla en España el reglamento del aire europeo (SERA).
+* **Real Decreto 1088/2020**: completa el régimen de notificación de sucesos.
+* **Ley 2/2024**: crea la autoridad independiente que investiga los accidentes, que sustituyó a la CIAIAC.
 
 ## La Dirección General de Aviación Civil (DGAC)
 
@@ -26,35 +33,26 @@ Podríamos decir que la **DGAC** escribe las "reglas del juego" (política y est
 
 ## AESA: el policía del aire español
 
-La **Agencia Estatal de Seguridad Aérea (AESA)**, creada por Real Decreto 184/2008, vela por el cumplimiento de la normativa de aviación civil en España. Vigila que operadores, pilotos, talleres de mantenimiento y aeródromos cumplan las normas; regula el transporte aéreo, la navegación aérea y la seguridad aeroportuaria; analiza los riesgos para la seguridad del transporte aéreo; y tiene potestad para imponer **sanciones** cuando se infringen las normas.
+La **Agencia Estatal de Seguridad Aérea (AESA)**, creada por Real Decreto 184/2008, vela por el cumplimiento de la normativa de aviación civil en España. Vigila que operadores, pilotos, talleres de mantenimiento y aeródromos cumplan las normas; regula el transporte aéreo, la navegación aérea y la seguridad aeroportuaria; analiza los riesgos para la seguridad del transporte aéreo; y tiene potestad para imponer **sanciones** cuando se infringen las normas. También es quien **expide tu licencia** y lleva el Registro de matrícula (Real Decreto 184/2008, art. 9), y gestiona el sistema de notificación de sucesos.
 
 ## Infracciones y sanciones
 
-La LSA clasifica las infracciones por gravedad (@fig-01-cap14-infracciones):
+La LSA no clasifica una a una las conductas del piloto: las gradúa por lo que provocan (art. 44).
 
-### Infracciones leves
+* **Leve**: incumplir cualquiera de tus obligaciones de seguridad —volar con un título válido, no volar con la capacidad física o psíquica disminuida, operar una aeronave aeronavegable, seguir las reglas operacionales, llevar la documentación requerida, tener el seguro obligatorio—, si no pasa nada más.
+* **Grave**: ese mismo incumplimiento, si causa un incidente grave, lesiones graves o daños de entre 5.000 y 15.000 €.
+* **Muy grave**: si causa un accidente, la muerte de una persona o daños de más de 15.000 €.
 
-* Retrasos no justificados en la presentación de documentación.
-* Incumplimientos menores de trámites administrativos que no afecten a la seguridad.
-* Incumplimientos menores de documentación.
+Algunas conductas están tipificadas aparte, con su propia gravedad: no notificar un suceso es leve; no comunicar un incidente grave a la autoridad de investigación de accidentes, grave; no comunicarle un accidente u obstaculizar su investigación, muy grave (art. 50).
 
-### Infracciones graves
+Las multas para un particular van del apercibimiento o de 60 € hasta 45.000 € en las leves, de 45.001 a 90.000 € en las graves y de 90.001 a 225.000 € en las muy graves (art. 55.1). Además, una infracción grave puede llevar a suspender tu licencia hasta cinco años, y una muy grave a revocarla; dos muy graves en un año suponen tres años de inhabilitación (art. 56).
 
-* Volar sin licencia válida para el tipo de aeronave.
-* Incumplir las reglas del aire sin causar riesgo grave.
-* No llevar la documentación obligatoria a bordo.
+Y hay conductas que no son sólo una infracción administrativa: emprender el vuelo bajo los efectos del alcohol o las drogas es un **delito** (Ley 209/1964, Penal y Procesal de la Navegación Aérea, art. 31).
 
-### Infracciones muy graves
-
-* Volar bajo los efectos del **alcohol o drogas**.
-* **Negligencia grave** que cause un accidente o la muerte de una persona.
-* Operar una aeronave sin **Certificado de Aeronavegabilidad** válido.
-* **Falsificar** títulos, licencias o documentación aeronáutica.
-
-![Escala de infracciones aeronáuticas](imagenes/01-cap14-escala-infracciones.jpg){#fig-01-cap14-infracciones}
+![Escala de infracciones aeronáuticas. *(CORREGIR: la LSA no clasifica las infracciones por tipo de conducta, como hace el dibujo, sino por lo que provocan (art. 44): la misma conducta es leve, grave o muy grave según sus consecuencias.)*](imagenes/01-cap14-escala-infracciones.jpg){#fig-01-cap14-infracciones .corregir}
 
 ::: {.callout-warning title="Seguridad"}
-Las sanciones económicas pueden ser **muy elevadas**, incluso para pilotos privados. Volar sin licencia, sin seguro, o bajo los efectos del alcohol puede costarte miles de euros y la inhabilitación para volar. El desconocimiento de la ley **NO** te exime de su cumplimiento.
+Las sanciones económicas pueden ser **muy elevadas**, incluso para pilotos privados. Volar sin licencia o sin seguro puede costarte miles de euros y, si acaba en un incidente grave o un accidente, la suspensión o la revocación de tu licencia; volar bajo los efectos del alcohol, además, es delito. El desconocimiento de la ley **NO** te exime de su cumplimiento.
 :::
 
 ::: {.callout-tip title="Regla de oro"}
@@ -66,7 +64,8 @@ Ante cualquier duda sobre la legalidad de una operación (ej: volar cerca de un 
 
 Además de Europa, en España manda la **Ley de Seguridad Aérea (LSA 21/2003)**.
 
-* Establece el régimen de infracciones y sanciones: las **muy graves** (muerte o accidente) pueden acarrear la inhabilitación.
+* Establece el régimen de infracciones y sanciones. Incumplir tus obligaciones de seguridad es **leve**; **grave** si causa un incidente grave o lesiones graves, y **muy grave** si causa un accidente o una muerte. Las graves pueden suspender tu licencia hasta cinco años y las muy graves, revocarla.
+* Volar bajo los efectos del **alcohol o drogas** es, además, un **delito** (Ley 209/1964).
 * **DGAC**: define la política aeronáutica (las "reglas del juego").
 * **AESA**: vigila y sanciona (el "árbitro").
 :::

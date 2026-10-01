@@ -1,6 +1,6 @@
 ---
 origen: 03-meteorologia/cap06-masas-de-aire-y-frentes.qmd
-origen-commit: 2890174
+origen-commit: 8390229
 ---
 
 # Air masses and fronts
@@ -51,7 +51,7 @@ In operational terms, an occlusion combines the worst of both fronts: the violen
 A fourth type of front is less common but does appear on synoptic charts: the **stationary front**. It forms when two air masses of similar temperature and density meet and neither is strong enough to push over the other. The boundary between them hardly moves and can last for days, bringing persistent rain and fog along its axis. On synoptic charts it is drawn with alternating blue triangles and red semicircles on opposite sides of the frontal line.
 
 ::: {.callout-important title="Regulation"}
-**SERA.5001** (Commission Implementing Regulation (EU) No 923/2012) sets the weather minima for VFR flight. In class G airspace, at and below 3,000 ft AMSL or 1,000 ft above terrain, whichever is higher, the general minimum visibility is **5 km**, clear of cloud and with the surface in sight. It may be reduced to **1,500 m** for flights at 140 kt or less, provided the speed gives adequate opportunity to see other traffic or obstacles in time to avoid a collision. Inadvertent entry into IMC by a VFR pilot without an instrument rating is a serious offence.
+**SERA.5001** (Commission Implementing Regulation (EU) No 923/2012) sets the weather minima for VFR flight. In class G airspace, at and below 3,000 ft AMSL or 1,000 ft above terrain, whichever is higher, the general minimum visibility is **5 km**, clear of cloud and with the surface in sight. SERA lets the competent authority reduce it to **1,500 m** for flights at 140 kt or less, but Spain has done so only for helicopters and for aeroplanes on specialised operations (Real Decreto 1180/2018, Article 30): **for a glider, the minimum is still 5 km**. Entering IMC without an instrument rating breaks the rules of the air. That is an infringement of the Spanish Aviation Safety Act (Ley 21/2003), whose seriousness depends on its consequences, and above all it is a classic cause of accidents.
 :::
 
 ## Air masses and relative temperature

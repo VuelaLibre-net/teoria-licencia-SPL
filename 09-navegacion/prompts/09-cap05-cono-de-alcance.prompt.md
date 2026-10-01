@@ -46,4 +46,4 @@ Aquí se ha elegido el código para **todas**, por dos razones:
 
 El estilo —paleta, tipografía Libertinus Sans y tamaño mínimo de 9 pt al tamaño final—
 está centralizado en `tools/figuras/estilo.py`, que aborta si la fuente no está en
-`recursos/fuentes/`.
+`recursos/fonts/`.

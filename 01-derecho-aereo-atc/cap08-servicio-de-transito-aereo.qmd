@@ -7,13 +7,13 @@
 >
 >
 > * Los tres servicios ATS: Control (ATC), Información (FIS) y Alerta (ALRS).
-> * Cuándo te separan ellos (ATC) y cuándo te separas tú (FIS).
+> * Cuándo te separa el ATC, y de quién según la clase de espacio, y cuándo te separas tú.
 > * El protocolo de búsqueda y salvamento: INCERFA, ALERFA y DETRESFA.
 > * Qué es la gestión del tránsito aéreo (ATM) y por qué el espacio aéreo que ves en la carta no es el que tendrás mañana.
 
 ## ¿Para qué sirve el ATS?
 
-El objetivo de los Servicios de Tránsito Aéreo (**ATS**, **Air Traffic Services**) va más allá de "vigilar". Según SERA.7001, sus misiones son prevenir colisiones (entre aeronaves y con obstáculos), acelerar y mantener ordenado el movimiento del tráfico, asesorar y dar información útil para la seguridad, y notificar y auxiliar en emergencias.
+El objetivo de los Servicios de Tránsito Aéreo (**ATS**, **Air Traffic Services**) va más allá de "vigilar". Según SERA.7001, sus misiones son prevenir colisiones (entre aeronaves y, en el área de maniobras, con los obstáculos), acelerar y mantener ordenado el movimiento del tráfico, asesorar y dar información útil para la seguridad, y notificar y auxiliar en emergencias.
 
 Para todo eso, el ATS se divide en tres servicios muy distintos entre sí. Saber cuál estás recibiendo en cada momento marca la diferencia.
 
@@ -21,15 +21,17 @@ Para todo eso, el ATS se divide en tres servicios muy distintos entre sí. Saber
 
 El servicio de primera división. Su misión principal es **separar** aeronaves.
 
-Lo prestan los controladores aéreos (ATCO), y de ellos recibes **autorizaciones** (instrucciones obligatorias) e información de tráfico. La responsabilidad de que no choques, bajo ciertas reglas, es del controlador.
+Lo prestan los controladores aéreos (ATCO), y de ellos recibes **autorizaciones** e **instrucciones**, además de información de tráfico. A quién separan depende de la clase de espacio: en clase C, al VFR sólo lo separan del IFR; en clase D no lo separan de nadie, y de los otros VFR te separas tú. Y en cualquier clase, evitar la colisión sigue siendo responsabilidad del piloto al mando (SERA.3201).
 
 Se organiza en tres dependencias según la fase de vuelo (@fig-01-cap08-dependencias-atc):
 
 1. **Torre** (TWR): controla el aeródromo y el circuito (despegues, aterrizajes, rodaje).
 2. **Aproximación** (APP): controla la entrada y salida de la zona del aeropuerto.
-3. **Centro de Control de Área** (ACC): controla los aviones en ruta, arriba del todo.
+3. **Centro de Control de Área** (ACC): controla los vuelos en ruta.
 
-![Estructura de dependencias ATC](imagenes/01-cap08-dependencias-atc.jpg){#fig-01-cap08-dependencias-atc}
+En España, el ACC presta además el servicio de información de vuelo en ruta (en Canarias, fuera del espacio controlado, lo hace el centro de información de vuelo, FIC). Y en algunos aeródromos no controlados hay un **AFIS** (servicio de información de vuelo de aeródromo), con su zona de información de vuelo (**FIZ**): te da información y alerta, pero ni te autoriza ni te separa (AIP España, GEN 3.3).
+
+![Estructura de dependencias ATC. *(CORREGIR: el ACC no está en un aeropuerto, como sugiere el dibujo, y la torre controla también el circuito, no sólo el suelo.)*](imagenes/01-cap08-dependencias-atc.jpg){#fig-01-cap08-dependencias-atc .corregir}
 
 ## 2. Servicio de información de vuelo (FIS)
 
@@ -38,7 +40,7 @@ Es lo que recibimos los planeadores la mayor parte del tiempo, en Clase G o E. L
 Aquí la responsabilidad es **tuya**. El FIS te avisa ("tráfico a las 12"), pero quien ve y evita eres tú. No te separan de nadie.
 
 ::: {.callout-note title="Airmanship"}
-* **ATC**: "Vire rumbo 360 por tráfico". (Orden obligatoria, ellos te separan).
+* **ATC**: "Vire rumbo 360 por tráfico". (Instrucción obligatoria: la cumples, pero ver y evitar sigue siendo cosa tuya).
 * **FIS**: "Tráfico convergiendo a su derecha". (Información, TÚ decides qué hacer para no chocar).
 :::
 
@@ -46,21 +48,24 @@ Aquí la responsabilidad es **tuya**. El FIS te avisa ("tráfico a las 12"), per
 
 Tu seguro de vida. Se activa cuando hay una emergencia o se teme por la seguridad de una aeronave, y funciona en tres fases de preocupación creciente (@fig-01-cap08-fases-emergencia):
 
-1. **INCERFA (Fase de incertidumbre)**: existe incertidumbre sobre la seguridad de la aeronave y sus ocupantes. Se empieza a recabar información. Se declara reglamentariamente ante cualquiera de estas tres situaciones:
+1. **INCERFA (Fase de incertidumbre)**: existe incertidumbre sobre la seguridad de la aeronave y sus ocupantes, y se empieza a recabar información. Se declara en dos situaciones:
   
-  * **Falta de comunicación**: no se ha recibido ninguna comunicación de la aeronave en los 30 minutos siguientes a la hora prevista, o desde el primer intento fallido de contactarla (lo que ocurra primero).
-  * **Retraso en la llegada**: la aeronave no llega en los 30 minutos siguientes a su hora prevista de llegada (ETA).
-  * **Dudas sobre la seguridad**: existen sospechas o dudas fundamentadas sobre la seguridad de la aeronave y sus ocupantes.
-2. **ALERFA (Fase de alerta)**: existe preocupación por la seguridad de la aeronave y sus ocupantes. Se avisa a los servicios de rescate (SAR) para que estén listos.
-3. **DETRESFA (Fase de peligro)**: existe certeza razonable de que la aeronave y sus ocupantes están amenazados por un peligro grave e inminente y necesitan ayuda inmediata. Salen los medios de rescate: helicópteros y aviones SAR.
+  * **Falta de comunicación**: no se ha recibido ninguna comunicación de la aeronave en los 30 minutos siguientes al momento en que debería haberse recibido, o desde el primer intento fallido de contactarla (lo que ocurra primero).
+  * **Retraso en la llegada**: la aeronave no llega en los 30 minutos siguientes a su última hora prevista de llegada, la notificada o la estimada por los servicios de tránsito aéreo (la que sea posterior).
 
-![Fases de emergencia del Servicio de Alerta](imagenes/01-cap08-fases-emergencia.jpg){#fig-01-cap08-fases-emergencia}
+  No se declara si no existe ninguna duda sobre la seguridad de la aeronave.
+2. **ALERFA (Fase de alerta)**: la preocupación aumenta. Se declara, por ejemplo, si tras la fase de incertidumbre sigue sin haber noticias de la aeronave; si, autorizada a aterrizar, no lo ha hecho 5 minutos después de la hora prevista y no se ha restablecido el contacto; o si se sabe que su eficiencia operativa está afectada, aunque no tanto como para que sea probable un aterrizaje forzoso.
+3. **DETRESFA (Fase de peligro)**: existe certeza razonable de que la aeronave y sus ocupantes están amenazados por un peligro grave e inminente o necesitan asistencia inmediata; por ejemplo, porque se sabe que ha realizado o va a realizar un aterrizaje forzoso. Salen los medios de rescate: helicópteros y aviones SAR.
+
+Desde la primera fase, la dependencia de tránsito aéreo informa al centro coordinador de salvamento (RCC), que no espera a la alerta para empezar a trabajar (Reglamento de Ejecución (UE) 2017/373, ATS.TR.405).
+
+![Fases de emergencia del Servicio de Alerta. *(CORREGIR: los medios de búsqueda y salvamento salen en DETRESFA, no en ALERFA; el centro coordinador de salvamento está informado desde la fase de incertidumbre; y en DETRESFA basta con un peligro grave e inminente o con necesitar asistencia inmediata, no hacen falta las dos cosas.)*](imagenes/01-cap08-fases-emergencia.jpg){#fig-01-cap08-fases-emergencia .corregir}
 
 ::: {.callout-warning title="Seguridad"}
 Si tienes una emergencia real y **NO** has presentado Plan de Vuelo ni estás en contacto radio, el Servicio de Alerta tardará mucho más en activarse (solo cuando tu familia avise de que no has vuelto). ¡Usa la radio y el Plan de Vuelo!
 :::
 
-Dos remisiones útiles dentro de la colección: las **señales luminosas** con las que una torre puede dirigirte sin radio se estudian en el **Libro 4 — Comunicaciones**, capítulo 7; y el **plan de vuelo**, que alimenta este servicio de alerta, en los Libros 4 — Comunicaciones (operativa), 7 — Planificación y Rendimiento de Vuelo (formulario) y 9 — Navegación (uso de los ATS).
+Dos remisiones útiles dentro de la colección: las **señales luminosas** con las que una torre puede dirigirte sin radio se estudian en el **Libro 4 — Comunicaciones**, capítulo 5; y el **plan de vuelo**, que alimenta este servicio de alerta, en los Libros 4 — Comunicaciones (operativa), 7 — Planificación y Rendimiento de Vuelo (formulario) y 9 — Navegación (uso de los ATS).
 
 ## La gestión del tránsito aéreo (ATM)
 
@@ -95,7 +100,7 @@ El espacio aéreo del que dispones hoy no es el de ayer. Repetir la travesía de
 
 El ATS te ofrece tres tipos de ayuda:
 
-* **Control (ATC)**: te dan órdenes (autorizaciones) para separarte de otros aviones. Son la TWR, la APP y el ACC, y solo opera en espacio aéreo controlado.
+* **Control (ATC)**: te dan autorizaciones e instrucciones obligatorias y, según la clase de espacio, te separan de otros tráficos: en clase C, al VFR sólo del IFR; en clase D, de nadie. Son la TWR, la APP y el ACC, y solo opera en espacio aéreo controlado.
 * **Información de vuelo (FIS)**: te dan información útil (meteo, peligros, tráficos cercanos), pero el responsable de evitar colisiones eres tú. "Información de tráfico" no es "separación".
 * **Alerta (ALRS)**: avisa a búsqueda y salvamento (SAR) si no llegas a tiempo o tienes una emergencia.
 

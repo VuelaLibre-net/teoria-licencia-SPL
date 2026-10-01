@@ -30,13 +30,13 @@ tarjetas:
     tipo: basica
     anverso: ¿Cuántas veces puede prorrogarse el **ARC**, y con qué condición?
     reverso: |
-      **Dos veces consecutivas, un año cada vez, si la aeronave ha permanecido
-      en entorno controlado**: gestión continua por una CAMO/CAO y mantenimiento
-      por organizaciones aprobadas.
+      **Dos veces consecutivas, un año cada vez, si la misma CAMO o CAO ha
+      gestionado la aeronavegabilidad sin interrupción** desde que se expidió el
+      ARC y el mantenimiento lo han hecho organizaciones aprobadas.
 
       Tras esas dos prórrogas, revisión de aeronavegabilidad completa.
 
-      *Fundamento: Part-ML, ML.A.901.*
+      *Fundamento: Part-ML, ML.A.902.*
     etiquetas: [Normativa]
 
   - id: suelo-del-mantenimiento-programado

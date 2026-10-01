@@ -23,10 +23,11 @@ tarjetas:
     tipo: basica
     anverso: Orden de prioridad de paso, y qué se hace de frente.
     reverso: |
-      **Globo > planeador > motor.** Cede quien más capacidad de maniobra tiene.
+      **En convergencia: globo > planeador > motor.** Cede quien más capacidad
+      de maniobra tiene; entre iguales, paso para el que viene por la derecha.
 
-      **De frente, siempre a la derecha.** En convergencia, paso para el que
-      viene por la derecha.
+      **De frente, ambos a la derecha**, y quien alcanza se aparta, sea cual
+      sea su categoría.
     etiquetas: [Regla de oro]
 
   - id: prioridad-en-aterrizaje-y-ladera
@@ -43,7 +44,9 @@ tarjetas:
     tipo: basica
     anverso: ¿Cuáles son las **alturas mínimas de vuelo** en VFR?
     reverso: |
-      **150 m en general y 300 m sobre zonas pobladas.**
+      **150 m sobre el terreno o el obstáculo más alto en un radio de 150 m,
+      y 300 m sobre el obstáculo más alto en 600 m si sobrevuelas zonas
+      pobladas.**
 
       *Fundamento: SERA.5005 f).*
 
@@ -53,10 +56,11 @@ tarjetas:
     reverso: |
       **El vuelo de ladera queda exceptuado de los 150 m**, si no entraña riesgo
       ni molestias a personas o bienes, **y se puede bajar hasta 50 m entrenando
-      aterrizajes forzosos**, a 150 m de cualquier persona, vehículo,
-      embarcación u obstáculo artificial.
+      aterrizajes forzosos**, sin riesgo ni molestias, a 150 m de cualquier
+      persona, vehículo, embarcación u obstáculo artificial y con el estudio
+      de seguridad del operador.
 
-      *Fundamento: Real Decreto 552/2014.*
+      *Fundamento: Real Decreto 1180/2018, art. 33 (antes, RD 552/2014).*
     etiquetas: [Normativa]
 
 

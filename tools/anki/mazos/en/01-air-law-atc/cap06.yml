@@ -18,11 +18,12 @@ tarjetas:
 
   - id: minimos-vmc-baja-cota
     tipo: basica
-    anverso: Which minima apply below 3,000 ft AMSL (or 1,000 ft AGL) in uncontrolled airspace?
+    anverso: Which minima apply below 3,000 ft AMSL (or 1,000 ft AGL, if higher) in uncontrolled airspace?
     reverso: |
       **5 km, clear of cloud and with the surface in sight.**
 
-      Flying at less than 140 kt, visibility may be reduced to **1,500 m**.
+      The reduction to 1,500 m below 140 kt that SERA allows does not apply
+      to gliders in Spain (RD 1180/2018, Article 30).
 
   - id: regla-semicircular
     tipo: basica
@@ -40,7 +41,7 @@ tarjetas:
     texto: |
       Altimeter settings: {{c1::QNH}} gives altitude above sea level
       (navigation and circuits); {{c2::QFE}} gives height above the airfield;
-      and {{c3::QNE}} (1013.25 hPa) gives flight levels.
+      and with 1013.25 hPa set ({{c3::QNE}} reading) you read flight levels.
     extra: |
       Mnemonic: **QNH** = *Nautical Height*; **QFE** = *Field Elevation*.
 

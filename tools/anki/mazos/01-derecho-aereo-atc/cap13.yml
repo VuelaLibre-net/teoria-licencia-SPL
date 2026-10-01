@@ -20,14 +20,31 @@ tarjetas:
     tipo: basica
     anverso: ¿Qué es un **incidente grave**?
     reverso: |
-      **Aquel cuyas circunstancias indican alta probabilidad de accidente**, o
-      que puso —o pudo poner— en peligro la seguridad de la operación.
+      **Un incidente en el que las circunstancias indican que hubo una alta
+      probabilidad de accidente.**
+
+      *Fundamento: Reglamento (UE) 996/2010, art. 2.16.*
 
   - id: plazos-de-notificacion
     tipo: basica
     anverso: ¿A quién y en qué plazo se notifica un accidente?
     reverso: |
-      **Sin demora a la CIAIAC**, y **a AESA en un máximo de 72 horas.**
+      **Sin demora a la autoridad de investigación de accidentes** (la antigua
+      CIAIAC), y **a AESA en un máximo de 72 horas.**
+    etiquetas: [Normativa]
+
+  - id: sucesos-de-notificacion-obligatoria
+    tipo: basica
+    anverso: Además de accidentes e incidentes graves, ¿qué sucesos debe notificar obligatoriamente un piloto de planeador?
+    reverso: |
+      **Los de la lista del Reglamento 2015/1018** (anexo V, sección 2). Por
+      ejemplo: una violación de espacio aéreo, una cuasicolisión que exija
+      maniobra evasiva, una suelta del cable que haya puesto en peligro el
+      planeador, una llamada de emergencia o quedarte sin ninguna zona de
+      aterrizaje segura.
+
+      *Fundamento: Reglamento (UE) 376/2014, art. 4; Reglamento de Ejecución
+      (UE) 2015/1018, anexo V.*
     etiquetas: [Normativa]
 
   - id: preservar-los-restos
@@ -37,8 +54,9 @@ tarjetas:
       1. **Salvar vidas** y evitar más peligros (fuego).
       2. **No tocar nada.**
 
-      Preservar los restos es vital para la investigación de la CIAIAC. Sólo
-      muévelos si es imprescindible para sacar víctimas o evitar un incendio.
+      Preservar los restos es vital para la investigación técnica. Sólo
+      muévelos por razones de seguridad o para socorrer a los heridos, y
+      fotografía antes lo que vayas a mover.
     etiquetas: [Seguridad]
 
   - id: cultura-justa-notificacion

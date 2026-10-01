@@ -7,7 +7,7 @@ técnica cerrada (sustentación, resistencia, peso, tracción, zona segura,
 atención).
 
 ⚠️ La tipografía es **Libertinus Sans y sólo Libertinus Sans**, cargada desde
-`recursos/fuentes/`. No se usa la instalada en el sistema: matplotlib, igual que
+`recursos/fonts/`. No se usa la instalada en el sistema: matplotlib, igual que
 Typst, cae a otra fuente en silencio si no la encuentra, y así el fallo sería
 invisible hasta ver el PDF publicado. `usar_estilo()` aborta si los ficheros no
 están donde deben.
@@ -26,7 +26,7 @@ from matplotlib import font_manager
 import matplotlib.pyplot as plt
 
 RAIZ = Path(__file__).resolve().parent.parent.parent
-FUENTES = RAIZ / "recursos" / "fuentes"
+FUENTES = RAIZ / "recursos" / "fonts"
 
 # Identidad gráfica (GUIA_ILUSTRACIONES.md, «Identidad gráfica»).
 FONDO = "#FFFFFF"

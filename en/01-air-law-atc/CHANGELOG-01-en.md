@@ -13,10 +13,38 @@ was translated from (`origen-commit`). Terminology follows `en/terminologia.yml`
 
 ## [In progress]
 
-**What to reread:** nothing new in substance; wording only.
+**What to reread:** **the whole book.** These are the corrections of the audit of 1 October 2026,
+ported from the Spanish edition, and they touch all fourteen chapters, the glossary, the
+bibliography and the licence. The 21 figures that have to be redrawn carry an “IN REVIEW”
+watermark and end their caption with *(FIX: …)*, saying what is wrong; they include the three that
+had been withdrawn (semicircular rule, reporting flow and scale of infringements).
+
+### Fixed
+
+* **cap01–cap14, glossary and Anki decks** — ported from the Spanish edition, where the audit of the
+  book was corrected. The main changes: Royal Decree 1180/2018 replaces the repealed 552/2014; the
+  1,500 m visibility reduction does not apply to sailplanes in Spain; right of way by category
+  applies only when converging; which documents go on board (SAO.GEN.155, SFCL.045); what ATC
+  separates in each airspace class; the transponder rule (AIP ENR 1.6); launch-method recency
+  (SFCL.155) and TMG privileges; emergency phases under ATS.TR.405; AFIS, SUP and PIB; all SERA
+  ground signals and the legal basis of external take-off sites; ARCC coverage and beacons; dangerous
+  goods under SAO.GEN.150; the accident investigation authority that replaced the CIAIAC; mandatory
+  occurrence reporting under Regulation 2015/1018; and the infringements regime of Ley 21/2003.
+* **Bibliography and licence** — ported from the Spanish edition: SERA applies directly in Spain;
+  new entries for Royal Decree 1180/2018 (which repealed Royal Decree 552/2014) and for the other
+  regulations cited in the collection, with links to their consolidated versions; Annexes 17 and 18
+  among the most relevant; and the syllabus is attributed to Part-SFCL, not “EASA-FCL”.
 
 ### Changed
 
+* **Figures to be redrawn: “IN REVIEW” watermark and caption note** — the 21 figures in which the
+  audit found an error carry a diagonal “IN REVIEW” watermark in the PDF, the EPUB and the web
+  edition, and their caption ends with *(FIX: …)*, saying what is wrong. The note is left out of the
+  list of figures. The warnings some captions already carried now use this format. The three
+  figures that had been withdrawn come back marked in the same way. Each mark and note goes when
+  its figure is replaced.
+* **cap07 and cap08, radio examples** — the RMZ call and the ATC and FIS examples now carry
+  their Spanish equivalent in italics after the English, as in Book 4.
 * **cap01, cap02, cap04, cap05, cap09, cap14** — some literal phrasings reworded to read less
   like a translation. No figures, regulatory quotes or glossary terms change.
 * **Epigraph and cap01–cap14, including the chapter summaries** — prose revised throughout for

@@ -14,7 +14,19 @@ tarjetas:
     texto: |
       Fases de emergencia SAR: {{c1::INCERFA}} (incertidumbre sobre la seguridad
       de la aeronave), {{c2::ALERFA}} (preocupación) y {{c3::DETRESFA}}
-      (certeza razonable de peligro grave e inminente).
+      (certeza razonable de peligro grave e inminente, o de que se necesita
+      ayuda inmediata).
+
+  - id: balizas-elt-plb
+    tipo: basica
+    anverso: ¿En qué frecuencias emite una baliza ELT o PLB, y para qué sirve cada una?
+    reverso: |
+      **406 MHz**, la que detectan los satélites Cospas-Sarsat (regístrala), y
+      **121,5 MHz**, para que los medios SAR te localicen en la fase final con
+      radiogoniómetro.
+
+      *Fundamento: AIP España, GEN 3.6; SAO.IDE.125 y su AMC1.*
+    etiquetas: [Seguridad]
 
   - id: senales-tierra-aire
     tipo: cloze

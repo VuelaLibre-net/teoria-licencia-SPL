@@ -13,10 +13,29 @@ translated from (`origen-commit`). Terminology follows `en/terminologia.yml`.
 
 ## [In progress]
 
-**What to reread:** nothing new in substance; wording only.
+**What to reread:** **cap03 and cap06** (false emergencies), **cap04** (CAVOK), the glossary entry *CAVOK*, the licence and the bibliography, and the radio examples in the introduction and cap01–cap07, now in English first. The rest is wording only.
+
+### Fixed
+
+* **cap03, cap06 and Anki, false emergencies** — no longer described as a “very serious
+  infringement” or a “serious criminal offence throughout EASA”; in Spain, faking a danger that
+  calls out the rescue services is an offence under the Código Penal (Spanish Criminal Code),
+  Article 561. Ported from the Spanish edition.
+* **cap04, glossary and Anki, CAVOK** — *Ceiling and Visibility OK* is a common backronym, not
+  ICAO's name; the glossary gives the full conditions.
+* **Bibliography and licence** — ported from the Spanish edition: SERA applies directly in Spain;
+  new entries for Royal Decree 1180/2018 (which repealed Royal Decree 552/2014) and for the other
+  regulations cited in the collection, with links to their consolidated versions; Annexes 17 and 18
+  among the most relevant; and the syllabus is attributed to Part-SFCL, not “EASA-FCL”.
+
 
 ### Changed
 
+* **Introduction, cap01–cap07, appendix and glossary, radio examples** — every message is
+  now given first in English, in inverted commas, followed by the Spanish equivalent in italics
+  and brackets. Each version follows the phraseology of its own language: for example, the
+  English clearance no longer opens with “roger”, and the Spanish uses *doscientos*,
+  *Jerez Torre* and *contacte con*. The introduction explains the convention.
 * **cap01, cap02, cap03, cap04 and cap07** — a few sentences reworded to read more naturally.
   The Spanish radio phrases, figures, rules and terminology do not change.
 * **Introduction and cap01–cap07** — a fuller pass on the English prose: about thirty sentences

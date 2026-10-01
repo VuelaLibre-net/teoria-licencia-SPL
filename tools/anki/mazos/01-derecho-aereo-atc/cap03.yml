@@ -13,7 +13,8 @@ tarjetas:
     tipo: basica
     anverso: ¿Cómo es una matrícula española y de dónde viene la marca?
     reverso: |
-      **EC- seguida de tres letras** (por ejemplo, EC-ABC).
+      **EC- seguida de tres letras** (por ejemplo, EC-ABC); cuatro cuando se
+      agoten las series de tres (RD 1029/2025).
 
       Mnemotécnico: **E**spaña **C**ivil. Es la marca OACI de España.
     etiquetas: [Regla de oro]
@@ -32,8 +33,10 @@ tarjetas:
     tipo: basica
     anverso: ¿Dónde se pintan las marcas de matrícula?
     reverso: |
-      **En el fuselaje o la cola —y bajo las alas en algunos casos—, más la
-      bandera de España.**
+      **Una vez en el intradós del ala y, además, en ambos costados del
+      fuselaje o en la cola**, más la franja o la bandera de España.
+
+      *Fundamento: Orden FOM/1687/2015, anexo II.*
 
   - id: placa-de-identificacion
     tipo: basica

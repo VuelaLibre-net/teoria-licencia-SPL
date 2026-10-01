@@ -1,6 +1,6 @@
 ---
 origen: 05-principios-vuelo/bibliografia.qmd
-origen-commit: 91fdd8a
+origen-commit: 6df5942
 ---
 
 # Bibliography and sources
@@ -13,15 +13,37 @@ Theory notes by **Iñaqui Ulibarri García de la Cueva** for the Fuentemilanos D
 
 **Regulations**
 
-* **Easy Access Rules for Sailplanes**. European Union Aviation Safety Agency (EASA). Consolidated compendium of Regulation (EU) 2018/1976 —which contains **Part-SFCL** (licensing) and **Part-SAO** (operations)— together with its AMC and GM.
+* **Easy Access Rules for Sailplanes**. European Union Aviation Safety Agency (EASA). Consolidated compendium of Commission Implementing Regulation (EU) 2018/1976 —which contains **Part-SFCL** (licensing) and **Part-SAO** (operations)— together with its AMC and GM.
   [https://www.easa.europa.eu/sites/default/files/dfu/Sailplane%20Rule%20Book.pdf](https://www.easa.europa.eu/sites/default/files/dfu/Sailplane%20Rule%20Book.pdf)
-* **Commission Implementing Regulation (EU) No 923/2012 — SERA** (*Standardised European Rules of the Air*). Common rules of the air for the European Union (consolidated version). In Spain it is applied through Real Decreto 552/2014 (Royal Decree 552/2014).
+* **Commission Implementing Regulation (EU) No 923/2012 — SERA** (*Standardised European Rules of the Air*). Common rules of the air for the European Union (consolidated version). It applies directly in Spain, with no transposition.
   [https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02012R0923-20250501](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02012R0923-20250501)
-* **Ley 21/2003, de 7 de julio, de Seguridad Aérea** (Spanish Aviation Safety Act 21/2003 of 7 July). Head of State (Spain). Published in the BOE (Official State Gazette) no. 162 of 8 July 2003. National legal framework that complements European regulations.
+* **Real Decreto 1180/2018, de 21 de septiembre** (Royal Decree 1180/2018 of 21 September), implementing the Rules of the Air and common operational provisions for air navigation services and procedures. Published in the BOE (Official State Gazette) no. 272 of 10 November 2018. It implements SERA in Spain —cruising levels, minimum heights, visibility— and repealed Real Decreto 552/2014.
+  [https://www.boe.es/buscar/act.php?id=BOE-A-2018-15406](https://www.boe.es/buscar/act.php?id=BOE-A-2018-15406)
+* **Ley 21/2003, de 7 de julio, de Seguridad Aérea** (Spanish Aviation Safety Act 21/2003 of 7 July). Head of State (Spain). Published in the BOE no. 162 of 8 July 2003. National legal framework that complements European regulations: powers, inspection, infringements and penalties (consolidated version).
+  [https://www.boe.es/eli/es/l/2003/07/07/21/con](https://www.boe.es/eli/es/l/2003/07/07/21/con)
+
+Other regulations cited in the collection (consolidated versions):
+
+* **Regulation (EU) 2018/1139**, common rules in the field of civil aviation and establishing EASA. [CELEX 32018R1139](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32018R1139)
+* **Commission Regulation (EU) No 1178/2011**, aircrew; its Annex IV is **Part-MED** (medical certificates). [CELEX 32011R1178](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011R1178)
+* **Commission Regulation (EU) No 1321/2014**, continuing airworthiness; its Annex Vb is **Part-ML**. [CELEX 32014R1321](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014R1321)
+* **Commission Implementing Regulation (EU) 2017/373**, providers of air navigation services (air traffic services, aeronautical information and meteorology). [CELEX 32017R0373](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32017R0373)
+* **Commission Regulation (EC) No 2150/2005**, flexible use of airspace. [CELEX 32005R2150](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32005R2150)
+* **Regulation (EU) No 996/2010**, investigation and prevention of accidents and incidents in civil aviation. [CELEX 32010R0996](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32010R0996)
+* **Regulation (EU) No 376/2014**, occurrence reporting, and **Commission Implementing Regulation (EU) 2015/1018**, list of occurrences subject to mandatory reporting. [CELEX 32014R0376](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014R0376) · [CELEX 32015R1018](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32015R1018)
+* **Regulation (EC) No 300/2008**, common rules in the field of civil aviation security, and **Commission Implementing Regulation (EU) 2015/1998**, which lays down the detailed measures for implementing them. [CELEX 32008R0300](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32008R0300) · [CELEX 32015R1998](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32015R1998)
+* **Regulation (EC) No 785/2004**, insurance requirements for air carriers and aircraft operators. [CELEX 32004R0785](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32004R0785)
+* **Ley 48/1960, de 21 de julio, sobre Navegación Aérea** (Air Navigation Act 48/1960 of 21 July). [BOE-A-1960-10905](https://www.boe.es/buscar/act.php?id=BOE-A-1960-10905)
+* **Ley 209/1964, de 24 de diciembre, Penal y Procesal de la Navegación Aérea** (Air Navigation Criminal and Procedural Act 209/1964 of 24 December). [BOE-A-1964-21509](https://www.boe.es/buscar/act.php?id=BOE-A-1964-21509)
+* **Ley 2/2024, de 1 de agosto** (Act 2/2024 of 1 August), creating the Independent Administrative Authority for the Technical Investigation of Railway, Maritime and Civil Aviation Accidents and Incidents. [BOE-A-2024-15937](https://www.boe.es/buscar/act.php?id=BOE-A-2024-15937)
+* **Real Decreto 184/2008** (Royal Decree 184/2008), Statute of the Agencia Estatal de Seguridad Aérea (AESA). [BOE-A-2008-2595](https://www.boe.es/buscar/act.php?id=BOE-A-2008-2595)
+* **Real Decreto 1088/2020** (Royal Decree 1088/2020), civil aviation occurrence reporting scheme. [BOE-A-2020-15874](https://www.boe.es/buscar/act.php?id=BOE-A-2020-15874)
+* **Real Decreto 1189/2011** (Royal Decree 1189/2011), restricted-use aerodromes and temporary aerodromes. [BOE-A-2011-14118](https://www.boe.es/buscar/act.php?id=BOE-A-2011-14118)
+* **Real Decreto 1029/2025** (Royal Decree 1029/2025), registration of civil aircraft, and **Orden FOM/1687/2015** (Ministerial Order FOM/1687/2015), nationality and registration marks. [BOE-A-2025-22950](https://www.boe.es/buscar/act.php?id=BOE-A-2025-22950) · [BOE-A-2015-8940](https://www.boe.es/buscar/act.php?id=BOE-A-2015-8940)
 
 **Annexes to the Chicago Convention (ICAO)**
 
-ICAO develops its Standards and Recommended Practices (SARPs) through 19 annexes to the Convention on International Civil Aviation. The most relevant to the glider pilot are Annexes 1, 2, 7, 8, 11, 12, 13, 14 and 15.
+ICAO develops its Standards and Recommended Practices (SARPs) through 19 annexes to the Convention on International Civil Aviation. The most relevant to the glider pilot are Annexes 1, 2, 7, 8, 11, 12, 13, 14 and 15, together with Annexes 17 (security against acts of unlawful interference) and 18 (dangerous goods).
 
 * Annex 1 — Personnel Licensing
 * Annex 2 — Rules of the Air

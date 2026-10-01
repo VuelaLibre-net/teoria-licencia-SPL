@@ -16,6 +16,308 @@ rompe la compilación.
 
 ## [En curso]
 
+**Qué releer:** **todo el libro**. Son las correcciones de la auditoría del 1 de octubre de 2026
+(`recursos/auditorias/`, con su seguimiento), casi todas normativas, y tocan los catorce
+capítulos:
+
+* **cap01–cap07**: Real Decreto 1180/2018 en lugar del 552/2014; prioridad de paso sólo en
+  convergencia; qué documentación va a bordo; ARC, defectos y seguro; marcas en el intradós y
+  bandera; TMG, Clase 2 y recencia por método de lanzamiento; alturas mínimas; la reducción a
+  1.500 m, que no vale para planeadores; la franja VMC baja; oxígeno e instrumentos; separación
+  ATC, transpondedor y zonas R y D.
+* **cap08–cap14**: fases de emergencia y AFIS; SUP, PIB y AIRAC; señales de SERA y campos
+  externos; centros de salvamento y balizas; mercancías peligrosas y marco de la *security*; la
+  autoridad que sustituye a la CIAIAC y los sucesos de notificación obligatoria; el régimen de
+  infracciones de la LSA, que cambia entero.
+* **Glosario** (*Autoridad de investigación de accidentes*, *AFIS*, *FIZ*, *PIB* y *SUP*, nuevas;
+  *CAVOK*, *CIAIAC*, *DETRESFA*, *ELT* y *RSC*), **Bibliografía** y **licencia** de los
+  preliminares.
+* Las 21 figuras que hay que rehacer llevan encima la marca «EN REVISIÓN» y, al final del pie,
+  *(CORREGIR: …)* con lo que está mal; entre ellas vuelven las tres que se habían retirado (regla
+  semicircular, flujo de notificación y escala de infracciones).
+
+### Corregido
+
+* **cap06, mínimos VMC, y su tarjeta Anki** — el capítulo permitía bajar la visibilidad a 1.500 m
+  volando a menos de 140 kt en espacio no controlado. SERA sólo lo admite «cuando así lo prescriba la
+  autoridad competente», y España lo ha prescrito únicamente para helicópteros y aviones de
+  operaciones aéreas especializadas (Real Decreto 1180/2018, art. 30). Para un planeador el mínimo
+  sigue siendo 5 km. Se corrige el cuerpo, el post-it y la tarjeta `minimos-vmc-baja-cota`.
+* **cap01 y cap05, Real Decreto 552/2014** — el capítulo citaba como vigente un real decreto que el
+  Real Decreto 1180/2018 derogó en 2018. Las excepciones de altura mínima del vuelo de ladera y de
+  las prácticas de aterrizaje forzoso siguen siendo las mismas, palabra por palabra, pero ahora están
+  en el **artículo 33 del RD 1180/2018**. Cambia la cita en cap01, en el cuerpo y el post-it de cap05
+  y en el fundamento de la tarjeta `excepcion-rd-552-2014`, que conserva su identificador. La
+  entrada [1.0-rc.11] de este registro, que citaba el RD 552/2014, se deja como estaba.
+* **cap13, Glosario y tarjetas Anki, CIAIAC** — la CIAIAC quedó suprimida el 15 de julio de 2026, al
+  constituirse la Autoridad Administrativa Independiente para la Investigación Técnica de Accidentes
+  e Incidentes ferroviarios, marítimos y de aviación civil (Ley 2/2024, disposición adicional
+  primera). El capítulo habla ahora de «la autoridad de investigación de accidentes» y explica el
+  relevo; el glosario añade la entrada de la Autoridad y marca la CIAIAC como suprimida.
+* **cap03, matrícula española, y su tarjeta Anki** — el Real Decreto 1029/2025, en vigor desde el 3
+  de diciembre de 2025, fija la matrícula en EC- y cuatro letras, aunque se siguen asignando tres
+  hasta agotar las series. Se añade ese matiz, que el Registro lo gestiona AESA y la cita de la
+  Orden FOM/1687/2015 como norma española de las marcas.
+* **Bibliografía, SERA y Real Decreto 1180/2018** — la entrada de SERA decía que «en España se aplica
+  mediante el Real Decreto 552/2014». SERA es un reglamento de la UE y se aplica directamente, sin
+  transposición; y el RD 552/2014 está derogado desde el 11 de noviembre de 2018 por el Real Decreto
+  1180/2018, que es quien lo desarrolla hoy. Se corrige la entrada y se añade una para el RD
+  1180/2018. Hallazgo NOR-02 de la auditoría del libro 01.
+* **cap01 y cap05, prioridad de paso, y su tarjeta Anki** — el recuadro de Seguridad del cap01
+  decía que «un planeador siempre tiene prioridad sobre aeronaves de motor», y la regla de oro del
+  cap05 resumía «Globo > Planeador > Motor». En SERA.3210 esa jerarquía sólo decide en
+  **convergencia**: de frente viran los dos a la derecha, quien alcanza se aparta sea cual sea su
+  categoría y todos ceden a quien aterriza o tiene la maniobrabilidad alterada. Se dice así en los
+  dos capítulos, el post-it y la tarjeta `prioridad-y-frente`.
+* **cap02 y cap12, documentación** — el cap02 atribuía a Part-SAO la obligación de llevar a bordo
+  el CofA, el ARC, la matrícula, el seguro y la licencia de radio. SAO.GEN.155 sólo exige a bordo el
+  Manual de Vuelo, las cartas, el plan de vuelo y la información de interceptación; los certificados
+  pueden quedarse en el aeródromo (letra c). La licencia, el médico y el documento de identidad
+  salen de SFCL.045, que también permite dejarlos en el aeródromo en vuelos a la vista de él: por
+  eso el «lleva siempre» del cap12 era falso.
+* **cap07 y cap08, separación ATC, y sus tarjetas Anki** — el texto decía que en el espacio
+  controlado el ATC «te separa» y que la responsabilidad de no chocar «es del controlador». Al VFR,
+  el ATC sólo lo separa del IFR en clase C y de nadie en clase D (SERA, apéndice 4), y evitar la
+  colisión es siempre responsabilidad del piloto al mando (SERA.3201).
+* **cap07, transpondedor** — la tabla de clases lo ligaba a la C y a la D. En España no depende de
+  la clase: es obligatorio a FL145 o superior, en los TMA que enumera el AIP y en las TMZ, salvo
+  exención de la DGAC (AIP ENR 1.6). Se quita de la tabla y se explica debajo.
+* **cap13, sucesos de notificación obligatoria** — no son sólo los accidentes e incidentes graves:
+  también los de la lista del Reglamento de Ejecución (UE) 2015/1018 (anexo V, sección 2), como una
+  violación de espacio aéreo o una cuasicolisión. El plazo de 72 horas cuenta desde que se tiene
+  conocimiento del suceso (Reglamento (UE) 376/2014, art. 4.7). Viñeta nueva en el post-it y
+  tarjeta nueva `sucesos-de-notificacion-obligatoria`.
+* **cap14, infracciones y sanciones, y sus tarjetas Anki** — las tres listas de infracciones no eran
+  las de la Ley 21/2003. La ley gradúa las infracciones del piloto por sus consecuencias (art. 44):
+  leve el incumplimiento, grave si causa un incidente grave o lesiones graves, muy grave si causa un
+  accidente o una muerte. Se explica así, con las cuantías del art. 55.1 y las sanciones accesorias
+  del art. 56 (suspensión o revocación de la licencia; la inhabilitación sólo con dos muy graves en
+  un año). Volar bajo los efectos del alcohol es, además, delito (Ley 209/1964, art. 31). Tarjetas
+  nuevas `lsa-gravedad-por-consecuencias` y `alcohol-es-delito`; la de `infracciones-muy-graves`
+  cambia de pregunta.
+* **cap02, prórroga del ARC** — «entorno controlado» es terminología de la antigua Part-M. Part-ML
+  (ML.A.902 b)) exige que la misma CAMO o CAO haya gestionado la aeronavegabilidad sin interrupción
+  desde que se expidió el ARC; se dice así. El pie de la figura del ciclo del ARC avisa de que su
+  último tramo, rotulado como caducado, es válido, hasta que la figura se rehaga.
+* **cap02, defectos** — el reporte de defectos parecía una cortesía. ML.A.403 a) obliga a
+  rectificar antes del vuelo cualquier defecto que ponga seriamente en peligro la seguridad. Se
+  distingue además el diario de a bordo (*journey log*) del registro técnico.
+* **cap02 y su tarjeta Anki, seguro** — «la aseguradora rechazará la cobertura» pasa a «puede
+  negarse a cubrirte o repetir contra ti»: depende de cada póliza.
+* **cap03, post-it y tarjeta Anki, ubicación de las marcas** — el resumen decía «en el fuselaje o
+  la cola (y bajo las alas en algunos casos)», al revés que el propio capítulo y que la Orden
+  FOM/1687/2015 (anexo II A): las marcas van siempre una vez en el intradós del ala y, además, en el
+  fuselaje o la cola. El pie de la figura de ubicación avisa de que el dibujo las pone en el
+  extradós y llama «nacionalidad» a la bandera, hasta que se rehaga.
+* **cap03, bandera** — la Orden admite una franja con los colores de la bandera, por encima de las
+  marcas y paralela a la línea de vuelo, o la propia bandera en cualquier superficie exterior, en
+  ambos casos con al menos la altura de las marcas (anexo II D). El capítulo sólo daba la primera
+  forma, y mezclaba las condiciones de las dos.
+* **cap04, motoveleros de turismo** — la licencia daba derecho a volar «planeadores y
+  motoveleros». Con la prueba de pericia hecha en planeador, el TMG exige extender las atribuciones
+  (SFCL.150) y tiene su propia recencia (SFCL.160 b)). Se dice así, con tarjeta Anki nueva
+  `spl-y-tmg`.
+* **cap04, Clase 2** — la apertura prometía comparar el médico LAPL y el Clase 2, y sólo se
+  explicaba el primero. Se añade cuándo es obligatoria la Clase 2 (operaciones comerciales con
+  planeador, MED.A.030 c) 4)) y su validez por edades (MED.A.045 a) 3)).
+* **cap04 y su tarjeta Anki, pasajeros** — «el incumplimiento implica sanción y pérdida de
+  cobertura del seguro» salía de un recuadro de Normativa sin que SFCL.115 diga nada de eso. Pasa
+  fuera del recuadro y con el matiz de la póliza.
+* **cap05, post-it y tarjeta Anki, altura mínima fuera de zonas pobladas** — SERA.5005 f) 2) no
+  pide sólo 150 m sobre tierra o agua: también 150 m sobre el obstáculo más alto en un radio de
+  150 m. Sin eso, volar a 150 m junto a una antena de 100 m parecía legal.
+* **cap05, post-it y tarjeta Anki, aterrizajes forzosos** — faltaban dos condiciones del art. 33.1 b)
+  del Real Decreto 1180/2018: que no haya riesgo ni molestias para personas o bienes, y el estudio
+  de seguridad del operador. Se avisa además de que «50 m (150 ft)» es la cifra de la norma, aunque
+  50 m son unos 164 ft (hallazgo H1 de la auditoría de julio). El pie de la figura de alturas
+  mínimas advierte de que su viñeta de ladera pone el planeador a sotavento, hasta que se rehaga.
+* **cap06, post-it y tarjeta Anki, franja VMC baja** — «por debajo de 3.000 ft AMSL (o 1.000 ft
+  AGL)» no decía cuál de los dos vale. SERA.5001 toma el mayor: sobre la meseta, la franja llega a
+  unos 3.600 ft AMSL. Se explica con ese ejemplo.
+* **cap06, oxígeno** — el AMC1 SAO.OP.150 se presentaba con «deberá» y «debe», como si fuera el
+  reglamento. Es un medio aceptable de cumplimiento («should»); se dice así, y en qué se diferencia
+  de SAO.OP.150, que es el que obliga.
+* **cap06 y post-it, instrumentos** — a SAO.IDE.105 b) le faltaba su primer supuesto: el vuelo en
+  VMC sin referencia exterior para mantener la actitud (mar, desierto o nieve, según el GM1). Y el
+  rumbo magnético lo añaden los planeadores motorizados, no sólo los TMG.
+* **cap06, remisión al plan de vuelo** — la operativa por radio del plan de vuelo está en el
+  capítulo 2 del libro 4, no en el 3, desde que ese libro se renumeró.
+* **cap07, zonas R y D** — el texto decía que por una zona R «normalmente se puede pasar si está
+  inactiva», y que en una D se puede entrar bajo propia responsabilidad, pero la figura del mismo
+  capítulo muestra una R permanente con el sobrevuelo prohibido (LER170, Monfragüe) y una D que exige
+  coordinación previa (LED125, Base Aérea de Talavera). Se explica que las condiciones de cada zona
+  están en el AIP (ENR 5.1), con esos dos ejemplos, y el pie de la figura lleva la fecha de
+  contraste.
+* **cap07, remisión a la interceptación** — está en el capítulo 6 del libro 4, no en el 8, desde
+  que ese libro se renumeró.
+* **cap08, fases de emergencia** — se daban tres situaciones de INCERFA, y la tercera («dudas sobre
+  la seguridad») no es un supuesto de ATS.TR.405 sino la definición de la fase; no se daban los
+  supuestos de ALERFA ni los de DETRESFA, que incluye el aterrizaje forzoso; y parecía que el centro
+  coordinador de salvamento sólo intervenía desde ALERFA, cuando se le informa desde la primera fase.
+  Se reescribe según el Reglamento de Ejecución (UE) 2017/373, ATS.TR.405.
+* **cap08, cap11, Glosario y tarjeta Anki, DETRESFA** — la definición decía «amenazados por un
+  peligro grave e inminente **y** necesitan ayuda inmediata»; la norma dice «**o**».
+* **cap08 y Glosario, AFIS** — faltaba el servicio de información de vuelo de aeródromo, que en
+  España prestan algunos aeródromos no controlados con su FIZ, y que el FIS en ruta lo presta el ACC
+  (en Canarias, fuera del espacio controlado, el FIC), según el AIP GEN 3.3. Entradas nuevas *AFIS* y
+  *FIZ* en el glosario.
+* **cap08, remisión a las señales luminosas** — están en el capítulo 5 del libro 4, no en el 7,
+  desde que ese libro se renumeró.
+* **cap09 y Glosario, SUP y PIB** — faltaban los suplementos al AIP (SUP), donde se publican los
+  cambios temporales largos, frecuentes en vuelo a vela (campeonatos, zonas temporales), y el
+  boletín de información previa al vuelo (PIB), que es como se consultan los NOTAM en la práctica.
+  Apartado nuevo, viñeta en el post-it, entradas *SUP* y *PIB* en el glosario y tarjeta Anki nueva
+  `sup-y-airac`.
+* **cap09, AIRAC y estructura del AIP** — el ciclo AIRAC no daba su cifra, típica de examen: 28
+  días, con la información en manos del usuario al menos 28 días antes (AIP GEN 3.1). Y el AIP se
+  organiza en tres partes, no en tres volúmenes.
+* **cap10 y tarjeta Anki, señales de tierra** — la mancuerna obligaba a usar «SOLO pistas y calles
+  pavimentadas»; SERA no habla de pavimento, y en un campo de vuelo a vela las pistas suelen ser de
+  hierba. Se añaden las cuatro señales de SERA, apéndice 1, 3.2, que faltaban: la mancuerna con
+  barras negras, las cruces sobre pistas o calles de rodaje cerradas, las dos cifras de la
+  dirección de despegue y la letra C. Y se ajustan a la norma la T (se aterriza «hacia su
+  travesaño»), la cruz roja (prohíbe aterrizar, no cierra el aeródromo) y la diagonal única. El pie
+  de la figura del área de señales advierte de sus dos errores hasta que se rehaga.
+* **cap10, campos externos y tomas fuera de campo** — la sección no citaba ninguna norma. Se apoya
+  ahora en Part-SAO (lugar de operación y SAO.OP.100), en el Real Decreto 1189/2011 (aeródromo
+  eventual: hasta 40 operaciones al año y 15 al mes) y en SERA.4020 (aviso de llegada si había plan
+  de vuelo, con remisión al libro 7). La responsabilidad por daños es de quien opera el planeador,
+  cubierta por el seguro obligatorio del Reglamento (CE) 785/2004. La apertura y el post-it recogen
+  ya esta sección, que es la mitad del título del epígrafe del syllabus.
+* **cap10, tramo base** — «altura mínima de inicio: 150 m» parecía un límite legal; es una
+  referencia de instrucción, como dice el libro 6.
+* **cap10, remisión a las señales luminosas** — están en el capítulo 5 del libro 4, no en el 7.
+* **cap11, centros coordinadores de salvamento** — el de Palma no cubre sólo «el Mediterráneo y
+  Baleares»: su región coincide con la FIR Barcelona, que incluye el nordeste peninsular y el
+  Levante, más Andorra (AIP GEN 3.6). Quien vuela en Cataluña o Valencia depende de Palma. Se usa el
+  nombre del AIP (ARCC), se actualiza el del Ejército del Aire y del Espacio y se retira la mención a
+  los subcentros (RSC), que el AIP no publica; el glosario lo aclara en su entrada.
+* **cap11, Glosario y tarjeta Anki, balizas** — la figura del capítulo empieza por la baliza ELT y
+  el satélite, pero el texto no las explicaba. Apartado nuevo: 406 MHz para la detección por
+  satélite (Cospas-Sarsat), 121,5 MHz para la localización final, el registro de la baliza y lo
+  que pide Part-SAO sobre zonas de SAR difícil (SAO.IDE.125 y su AMC1). Viñeta en el post-it y
+  tarjeta nueva `balizas-elt-plb`.
+* **cap12, post-it y tarjeta Anki, mercancías peligrosas** — la excepción se describía como
+  «oxígeno medicinal aprobado, baterías de litio de uso personal» y, en el resumen, «excepciones
+  aprobadas». SAO.GEN.150 hace al piloto al mando responsable de no permitirlas a bordo, y sólo
+  considera autorizadas, sin aprobación, cantidades razonables de artículos para la seguridad del
+  vuelo. Qué artículos concretos entran queda pendiente de consulta. Tarjeta nueva
+  `mercancias-peligrosas-planeador`.
+* **cap12, artículos prohibidos y mercancías peligrosas** — el capítulo trataba las mercancías
+  peligrosas, que son *safety* (Anexo 18), como si fueran *security*. Se distinguen de los
+  artículos prohibidos del Reglamento (CE) 300/2008, que sí son *security*.
+* **cap12, marco normativo de la *security*** — el capítulo no citaba ninguna norma. Se añaden el
+  Anexo 17, los Reglamentos 300/2008 y 2015/1998 y el Programa Nacional de Seguridad (LSA, art. 3),
+  y se explican la zona de operaciones, el lado tierra y las zonas restringidas, que el resumen
+  mencionaba sin que el cuerpo las tratara; el acceso no autorizado es infracción muy grave (LSA,
+  art. 48.3). Las conductas del piloto quedan rotuladas como buenas prácticas.
+* **cap13, post-it y tarjeta Anki, incidente grave** — la definición añadía «o el suceso puso (o
+  pudo poner) en peligro la seguridad de la operación», que no está en el Reglamento (UE) 996/2010
+  (art. 2.16) y la confunde con la de incidente. El cuerpo ya era correcto.
+* **cap14, el derecho nacional** — el capítulo se reducía a la Ley de Seguridad Aérea. Se añade un
+  mapa breve: la Ley 48/1960 de Navegación Aérea, la Ley 209/1964 Penal y Procesal, el Real Decreto
+  1180/2018, el Real Decreto 1088/2020 de notificación de sucesos y la Ley 2/2024.
+* **Bibliografía, normas citadas** — la bibliografía no recogía buena parte de las normas que
+  citan los capítulos. Se añade una lista de normas consolidadas con su enlace (Reglamentos
+  2018/1139, 1178/2011, 1321/2014, 2017/373, 2150/2005, 996/2010, 376/2014, 2015/1018, 300/2008,
+  2015/1998 y 785/2004; Leyes 48/1960, 209/1964 y 2/2024; Reales Decretos 184/2008, 1088/2020,
+  1189/2011 y 1029/2025; Orden FOM/1687/2015), el enlace consolidado de la Ley 21/2003 y los anexos
+  17 y 18 entre los más relevantes. El 2018/1976 se cita como Reglamento de Ejecución. Hallazgo
+  NOR-18 de la auditoría del libro 01.
+* **Glosario, CAVOK** — faltaban tres condiciones: la altitud mínima de sector más alta cuando
+  supera los 5.000 ft, los torrecúmulos a cualquier altura y que no se notifique la visibilidad
+  mínima (Reglamento de Ejecución (UE) 2017/373). Los libros 03 y 04 ya lo decían bien.
+* **Licencia (preliminares)** — el syllabus se atribuía a «EASA-FCL»; el AMC1 SFCL.130 pertenece a
+  la Part-SFCL. Hallazgo NOR-19 de la auditoría del libro 01; el rótulo «Validación por AESA» se
+  mantiene.
+* **cap01, AMC y medios alternativos** — «si sigues los AMC, automáticamente cumples la norma» y
+  el medio alternativo «con bastante papeleo» exageraban. Los AMC son la vía reconocida para
+  demostrar el cumplimiento; un medio alternativo (AltMoC) debe garantizar que se cumple igual, y en
+  operaciones de planeador no necesita aprobación de la autoridad (GM1 SAO.GEN.110(b)(2)).
+* **cap01, precisiones** — el Reglamento 2018/1139 es la norma de mayor rango del sistema de EASA,
+  no «del sistema europeo» (por encima están los Tratados); el 2018/1976 es un Reglamento de
+  Ejecución; y el TMG, la acrobacia y el remolque no son todos «habilitaciones». Los pies de las
+  figuras de las libertades y de la estructura normativa avisan de sus errores.
+* **cap02, CofA** — su validez ilimitada tiene las condiciones de 21.A.181: diseño de tipo y
+  mantenimiento, misma matrícula, certificado de tipo no anulado y CofA no revocado ni objeto de
+  renuncia. La Part-ML es el «Anexo V ter» en la versión española, no el «Anexo Vb». El pie de la
+  figura del CofA avisa de que el modelo cita un reglamento derogado y es de un avión.
+* **cap03, placa de identificación** — el texto fundía dos placas: la de matrícula, de material
+  incombustible y con la marca de nacionalidad y matrícula (Orden FOM/1687/2015, art. 5), y la del
+  fabricante, ignífuga, con nombre, modelo y número de serie (21.A.801). Se distinguen, y se aclara
+  que la foto es de una placa de fabricante.
+* **cap04, atribuciones de la SPL** — faltaban las condiciones para volar con remuneración o en
+  operaciones comerciales (18 años y 75 h o 200 lanzamientos tras la licencia, SFCL.115 a) 3)) y la
+  remuneración de instructores y examinadores (SFCL.115 b)).
+* **cap04 y tarjeta Anki, cambios de salud y recencia** — «nuevas gafas» pasa a «necesitar lentes
+  correctoras por primera vez», y se añaden la medicación habitual y el ingreso hospitalario
+  (MED.A.020). En la regla de oro, «15 despegues» pasa a «15 lanzamientos», como dice SFCL.160. El
+  pie de la figura de validez del médico avisa de lo que el dibujo no recoge.
+* **cap05, figura de prioridades** — el pie nombraba dos situaciones y la imagen tiene tres
+  viñetas sin rótulos; el pie lo dice ahora, hasta que la figura se rehaga.
+* **cap06, regla semicircular** — no citaba fuente y databa la orientación Norte-Sur «desde 2019»;
+  sale del Real Decreto 1180/2018 (art. 6 y anexo I) y del AIP ENR 1.7. Los ejemplos de niveles de
+  vuelo (FL 35, 45, 55) quedaban por debajo de la altitud de transición; pasan a FL 65, 75, 85 y 95.
+* **cap06 y tarjeta Anki, reglajes de altímetro** — la mnemotecnia «QFE = Field Elevation» invertía
+  la realidad: con QFE el altímetro marca 0 en el campo; es con QNH cuando marca su elevación. Se
+  avisa de que es sólo un truco, y la tarjeta trata el QNE como lectura con 1013,25 hPa calados, no
+  como un reglaje que alguien te dé.
+* **cap06, comprobaciones previas al vuelo** — el resumen mencionaba SAO.GEN.130 sin que el cuerpo
+  lo tratara. Se añade al cuerpo.
+* **cap07, RMZ** — no son sólo espacio no controlado: también existen en clase E (SERA.6005 a)). La
+  llamada inicial se hace antes de entrar e incluye posición y nivel; el ejemplo de la regla de oro
+  se corrige.
+* **cap07 y tarjeta Anki, clase C por encima de FL195** — «el espacio aéreo español es
+  mayoritariamente Clase G» omitía que todo lo que está por encima de FL195 es clase C
+  (SERA.6001 b)).
+* **cap07, autorizaciones** — el resumen decía que una autorización no exime al piloto de su
+  responsabilidad sin que el cuerpo lo explicara. Se añade al cuerpo, con SERA.3201.
+* **cap08, objetivos del ATS y figuras** — SERA.7001 limita a los obstáculos del área de maniobras
+  la prevención de colisiones con obstáculos. Los pies de las figuras de dependencias y de fases de
+  emergencia avisan de sus desajustes con el texto.
+* **cap09, NOTAM** — la apertura prometía enseñar a usar Insignia, y el capítulo no lo hacía; la
+  promesa se ajusta. La figura del NOTAM aparecía antes de presentarlo y nadie explicaba sus campos:
+  ahora va después, con una línea sobre los campos A, B, C y E y el formato de la fecha. Su pie avisa
+  de que las pistas reales de Zaragoza son 12L/30R y 12R/30L.
+* **cap11, acuse de las señales tierra-aire** — el superviviente no sabía cómo reconocer que el
+  avión le había entendido: alabeo de alas de día, dos destellos de faros o luces de navegación de
+  noche (AIP GEN 3.6, 6.3). El tamaño de 2,5 m de las señales queda pendiente de cotejar con el
+  Anexo 12.
+* **cap12, figuras** — sus pies explican que la *safety* aeronáutica no es la seguridad laboral que
+  sugiere el dibujo y para qué sirve reconocer las etiquetas de mercancías peligrosas.
+* **cap13 y tarjeta Anki, accidente y restos** — la definición de accidente no tenía su ventana
+  temporal ni sus exclusiones (un roce en el extremo de un ala no es, por sí solo, un accidente), y
+  la excepción para mover restos era más estrecha que la del Reglamento 996/2010 (art. 13): por
+  seguridad, para socorrer a los heridos o con autorización, fotografiando antes lo que se mueva.
+  El pie de la pirámide de sucesos avisa de que sus cifras no son las de Heinrich.
+* **cap13 y cap14, AESA** — se presentaba sólo como vigilante y sancionadora. Gestiona además el
+  SNS, y lo que sepa sólo por una notificación no puede usarlo contra un error involuntario
+  (Reglamento 376/2014, art. 16.6); y es quien expide la licencia y lleva el Registro de matrícula
+  (Real Decreto 184/2008, art. 9).
+* **cap10, figuras de la manga y del circuito** — sus pies avisan de que los 3 nudos por franja son
+  una referencia orientativa y corrigen dos conversiones mal redondeadas, y de que el circuito, aunque
+  dibujado con un avión, es el mismo para el planeador.
+
+### Añadido
+
+* **cap04, recencia por método de lanzamiento** — el capítulo presentaba el «5-15-2» como
+  suficiente para mantenerse legal. SFCL.155 limita además las atribuciones a los métodos de
+  lanzamiento en los que se ha formado el piloto y exige, para cada uno, 5 lanzamientos en los últimos
+  24 meses (2 con cable elástico). Apartado nuevo, viñeta en el post-it y tarjeta nueva
+  `recencia-por-metodo-de-lanzamiento`.
+
+### Cambiado
+
+* **Figuras por rehacer: marca «EN REVISIÓN» y nota en el pie** — las 21 figuras en las que la
+  auditoría encontró algún error llevan encima, en diagonal, la marca «EN REVISIÓN», en el PDF, el
+  EPUB y la web, y su pie termina con *(CORREGIR: …)*, que dice qué está mal. La nota no sale en el
+  índice de ilustraciones. Los avisos que ya llevaban algunos pies pasan a este formato. Las tres
+  figuras que se habían retirado vuelven así marcadas: la de la regla semicircular, que reparte los
+  niveles Este-Oeste, al revés que la regla española; la del flujo de notificación, que da por
+  voluntario todo lo que no sea accidente o incidente grave; y la escala de infracciones, que las
+  clasifica por tipo de conducta y no por sus consecuencias, como la LSA. Al sustituir cada figura
+  se quitan la marca y la nota.
+
 ## [1.0-rc.14] — 7 de agosto de 2026
 
 **Qué releer:** **nada.** El único cambio es el enlace del apéndice del syllabus y su QR; ni el texto ni las figuras cambian.

@@ -69,7 +69,7 @@ Los números van **dígito a dígito**, sin agrupar:
 
 La excepción: centenas y miles exactos se dicen como unidades:
 
-* «200»  «*dos cientos*»
+* «200»  «*doscientos*»
 * «2000»  «*dos mil*»
 * «2600»  «*dos mil seiscientos*»
 * «25000»  «*dos cinco mil*»

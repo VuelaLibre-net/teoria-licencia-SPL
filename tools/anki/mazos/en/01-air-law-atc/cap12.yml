@@ -20,9 +20,21 @@ tarjetas:
     tipo: basica
     anverso: What is your part in **security**?
     reverso: |
-      **Not leaving the aircraft open or accessible to strangers, not carrying
-      dangerous goods** (except for approved exceptions) **and respecting the
-      restricted areas of airports.**
+      **Not leaving the aircraft open or accessible to strangers, not permitting
+      dangerous goods on board** (except reasonable quantities for flight
+      safety) **and respecting the restricted areas of airports.**
+
+  - id: mercancias-peligrosas-planeador
+    tipo: basica
+    anverso: What does Part-SAO say about **dangerous goods** on board a sailplane?
+    reverso: |
+      **The pilot-in-command shall not permit any person to carry them.** The
+      only things considered authorised, with no approval needed, are
+      reasonable quantities of articles used to facilitate flight safety that
+      it is advisable to have to hand.
+
+      *Basis: SAO.GEN.150.*
+    etiquetas: [Regulation]
 
   - id: comportamiento-sospechoso
     tipo: basica

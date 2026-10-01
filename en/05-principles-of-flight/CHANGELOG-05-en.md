@@ -13,8 +13,7 @@ translated from (`origen-commit`). Terminology follows `en/terminologia.yml`.
 
 ## [In progress]
 
-**What to reread:** **cap03, phugoid mode**, and the glossary entries *Phugoid* and *Spiral
-dive*. The rest is wording only.
+**What to reread:** **cap03, phugoid mode**, the glossary entries *Phugoid* and *Spiral dive*, the licence and the bibliography. The rest is wording only.
 
 ### Fixed
 
@@ -28,6 +27,10 @@ Ported from the Spanish edition, where these errors have been corrected at the s
   cap07. It now follows cap07: level the wings, ease out of the dive and, only if the speed is
   approaching V~NE~, extend the airbrakes smoothly.
 * **All chapters and the glossary** — `origen-commit` updated to the corrected Spanish text.
+* **Bibliography and licence** — ported from the Spanish edition: SERA applies directly in Spain;
+  new entries for Royal Decree 1180/2018 (which repealed Royal Decree 552/2014) and for the other
+  regulations cited in the collection, with links to their consolidated versions; Annexes 17 and 18
+  among the most relevant; and the syllabus is attributed to Part-SFCL, not “EASA-FCL”.
 
 ### Changed
 

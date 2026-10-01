@@ -1,6 +1,6 @@
 ---
 origen: 04-comunicaciones/cap06-procedimientos-de-socorro-y-urgencia.qmd
-origen-commit: a07f595
+origen-commit: 8390229
 ---
 
 # Distress and urgency procedures
@@ -17,10 +17,10 @@ In a glider that means fire on board, severe structural failure (canopy, rudder,
 
 The word is repeated **three times** so that it stands out from normal traffic and interference:
 
-*«Mayday, Mayday, Mayday…»*
+“Mayday, Mayday, Mayday…” (*the same in Spanish*)
 
 ::: {.callout-warning title="Safety"}
-The malicious or false transmission of a MAYDAY distress message mobilises the State's search and rescue (SAR) resources. Under the Spanish Aviation Safety Act (*Ley de Seguridad Aérea*), simulating an emergency or giving false information that compromises safety is classed as a very serious offence, carries heavy fines and may lead to the revocation of the pilot's licence.
+The malicious or false transmission of a MAYDAY distress message mobilises the State's search and rescue (SAR) resources. In Spain, simulating a danger or an accident that causes the rescue services to be mobilised is a **criminal offence**, punishable by imprisonment of three months and one day to one year or by a fine (Código Penal, the Spanish Criminal Code, Article 561).
 :::
 
 ::: {.callout-important title="Regulation"}
@@ -29,7 +29,7 @@ Under international rules (ICAO/EASA), the declaration of a MAYDAY imposes **abs
 
 ## PAN PAN: urgency
 
-One step below is **urgency**. It is declared with **PAN PAN**, also three times: *«Pan Pan, Pan Pan, Pan Pan»*. It comes from the French *panne*, breakdown.
+One step below is **urgency**. It is declared with **PAN PAN**, also three times: “Pan Pan, Pan Pan, Pan Pan” (*the same in Spanish*). It comes from the French *panne*, breakdown.
 
 PAN PAN says that you have a serious problem that needs **priority attention** from ATC, but that you are not in immediate danger of an accident and do not need rescuing in the next few seconds.
 
@@ -49,10 +49,10 @@ With your heart racing and your hands busy, it can be hard to structure a messag
 6. **PERSONS:** persons on board (vital for the rescue services).
 
 *Example of a distress message (MAYDAY):*
-*«Mayday, Mayday, Mayday. Madrid Información. Velero ASK-21, EC-EPE. A 5 millas al este de Fuentemilanos, 2.800 metros. Impacto con ave y rotura masiva del timón de profundidad. El piloto y el pasajero van a saltar en paracaídas. 2 personas a bordo.»* (“Mayday, Mayday, Mayday. Madrid Information. Glider ASK-21, EC-EPE. 5 miles east of Fuentemilanos, 2,800 metres. Bird strike and major failure of the elevator. Pilot and passenger bailing out. 2 persons on board.”)
+“Mayday, Mayday, Mayday. Madrid Information. Glider ASK-21, EC-EPE. 5 miles east of Fuentemilanos, 2,800 metres. Bird strike and major failure of the elevator. Pilot and passenger bailing out. 2 persons on board.” (*Mayday, Mayday, Mayday. Madrid Información. Velero ASK-21, EC-EPE. A 5 millas al este de Fuentemilanos, 2.800 metros. Impacto con ave y rotura masiva del timón de profundidad. El piloto y el pasajero van a saltar en paracaídas. 2 personas a bordo.*)
 
 *Example of an urgency message (PAN PAN):*
-*«Pan Pan, Pan Pan, Pan Pan. Madrid Información. Velero ASK-21, EC-EPE. Sobre el embalse de Pinilla, 2.200 metros QNH 1018. Pérdida de altura progresiva sin térmica disponible. Planificando aterrizaje fuera de aeródromo en 10 minutos. 2 personas a bordo. Solicito información de campos en el área.»* (“Pan Pan, Pan Pan, Pan Pan. Madrid Information. Glider ASK-21, EC-EPE. Over the Pinilla reservoir, 2,200 metres QNH 1018. Gradual loss of height, no thermal available. Planning an outlanding in 10 minutes. 2 persons on board. Request information on fields in the area.”)
+“Pan Pan, Pan Pan, Pan Pan. Madrid Information. Glider ASK-21, EC-EPE. Over the Pinilla reservoir, 2,200 metres QNH 1018. Gradual loss of height, no thermal available. Planning an outlanding in 10 minutes. 2 persons on board. Request information on fields in the area.” (*Pan Pan, Pan Pan, Pan Pan. Madrid Información. Velero ASK-21, EC-EPE. Sobre el embalse de Pinilla, 2.200 metros QNH 1018. Pérdida de altura progresiva sin térmica disponible. Planificando aterrizaje fuera de aeródromo en 10 minutos. 2 personas a bordo. Solicito información de campos en el área.*)
 
 ![The structure of the emergency call](imagenes/04-cap06-estructura-emergencia.jpg){#fig-04-cap06-llamada-emergencia}
 
@@ -104,7 +104,7 @@ If you are intercepted, apply the four steps of SERA.11015 at once:
 
 1. **Follow the interceptor's visual instructions**, interpreting them and responding according to the signal tables.
 2. **Notify**, if possible, the air traffic services unit you are in contact with.
-3. **Try the radio**: a general call on **121.500 MHz**, giving your identity and the nature of the flight (for example: *«Aeronave interceptada, velero EC-EPE, vuelo VFR de Fuentemilanos a Santo Tomé, escucho»*, “Intercepted aircraft, glider EC-EPE, VFR flight from Fuentemilanos to Santo Tomé, listening”).
+3. **Try the radio**: a general call on **121.500 MHz**, giving your identity and the nature of the flight (for example: “Intercepted aircraft, glider EC-EPE, VFR flight from Fuentemilanos to Santo Tomé, listening” (*Aeronave interceptada, velero EC-EPE, vuelo VFR de Fuentemilanos a Santo Tomé, escucho*)).
 4. **Select Mode A, code 7700** on the transponder, unless ATS instructs you otherwise.
 
 ::: {.callout-important title="Regulation"}

@@ -30,10 +30,12 @@ tarjetas:
     tipo: basica
     anverso: What happens if you fly with an **expired ARC**?
     reverso: |
-      **It is illegal, nobody has certified in the last year that the aircraft
-      is safe, and the insurer will refuse cover.**
+      **It is illegal, and nobody has certified in the last year that the
+      aircraft is safe.**
 
-      Most policies make cover conditional on the aircraft being airworthy.
+      The insurer may also refuse to cover you or seek to recover from you
+      what it has paid out: many policies make cover conditional on the
+      aircraft being airworthy.
     etiquetas: [Safety]
 
   - id: part-ml-marco
@@ -49,8 +51,8 @@ tarjetas:
     anverso: What is the pilot's part in airworthiness?
     reverso: |
       **The pre-flight inspection, checking that the documentation (CofA, ARC,
-      insurance…) is on board and valid, and recording any defect in the
-      technical log.**
+      insurance…) is valid and available, on board or at the aerodrome, and
+      recording any defect in the journey log.**
 
   - id: muesca-en-el-gelcoat
     tipo: basica

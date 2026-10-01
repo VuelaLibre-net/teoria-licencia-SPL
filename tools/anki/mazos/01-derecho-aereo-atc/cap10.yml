@@ -25,6 +25,9 @@ tarjetas:
       * **Panel rojo con una diagonal**: precaución, área de maniobras en mal
         estado.
       * **Doble cruz blanca**: planeadores en actividad.
+      * **Mancuerna**: aterrizar, despegar y rodar sólo en pistas y calles de
+        rodaje (con barras negras: sólo aterrizar y despegar en pista).
+      * **Cruces sobre pista o calle de rodaje**: esa zona no se puede usar.
 
   - id: buscar-el-area-de-senales
     tipo: basica

@@ -12,17 +12,17 @@
 
 ## Cuando todo falla: el sistema SAR
 
-El Servicio de Búsqueda y Salvamento (**SAR**, **Search and Rescue**) es tu red de seguridad final. En España es responsabilidad del **Ejército del Aire**, con apoyo de otros medios, y su misión es simple: encontrarte y salvarte.
+El Servicio de Búsqueda y Salvamento (**SAR**, **Search and Rescue**) es tu red de seguridad final. En España es responsabilidad del **Ejército del Aire y del Espacio**, en colaboración con el Ministerio de Transportes y con apoyo de otros medios, y su misión es simple: encontrarte y salvarte.
 
 ### Organización
 
-Quien mueve los hilos es el **RCC** (Centro Coordinador de Salvamento). En España hay tres principales:
+Quien mueve los hilos es el **RCC** (Centro Coordinador de Salvamento; el AIP los llama ARCC). En España hay tres, uno por cada región de búsqueda y salvamento (AIP España, GEN 3.6):
 
-1. **RCC Madrid** (Base Aérea de Torrejón): cubre la mayor parte de la península.
-2. **RCC Canarias** (Base Aérea de Gando): cubre el archipiélago y una inmensa zona del Atlántico.
-3. **RCC Palma** (Base Aérea de Son San Juan): cubre el Mediterráneo y Baleares.
+1. **ARCC Madrid** (Torrejón): la región que coincide con la FIR Madrid, es decir, el centro, el oeste, el norte y el sur de la península.
+2. **ARCC Palma**: la FIR Barcelona —el nordeste peninsular y el Levante— y Baleares, más Andorra.
+3. **ARCC Canarias**: el archipiélago y una inmensa zona del Atlántico.
 
-Existen también **RSC** (subcentros) para zonas específicas.
+Si vuelas en Cataluña o en la Comunidad Valenciana, tu centro es el de Palma, no el de Madrid.
 
 ## Las fases de emergencia (repaso SAR)
 
@@ -30,9 +30,15 @@ El SAR no sale a buscar "porque sí". Actúa escalonadamente según la gravedad,
 
 1. **INCERFA (Fase de incertidumbre)**: existe incertidumbre sobre la seguridad de la aeronave y sus ocupantes. El RCC empieza a recabar información.
 2. **ALERFA (Fase de alerta)**: existe preocupación por la seguridad de la aeronave y sus ocupantes. Se preparan los equipos SAR.
-3. **DETRESFA (Fase de peligro)**: existe certeza razonable de peligro grave e inminente y de que se necesita ayuda inmediata. Despegan los medios: aviones y helicópteros (@fig-01-cap11-actuacion-accidente).
+3. **DETRESFA (Fase de peligro)**: existe certeza razonable de peligro grave e inminente o de que se necesita ayuda inmediata. Despegan los medios: aviones y helicópteros (@fig-01-cap11-actuacion-accidente).
 
 ![Cadena de supervivencia en caso de accidente](imagenes/01-cap11-actuacion-accidente.jpg){#fig-01-cap11-actuacion-accidente}
+
+### Balizas de emergencia: ELT y PLB
+
+La cadena de la figura empieza por la baliza. Una **ELT** (instalada en la aeronave) o una **PLB** (personal) emite en **406 MHz**, la única frecuencia que detectan los satélites del sistema Cospas-Sarsat desde 2009, y en **121,5 MHz**, que los medios SAR usan con sus radiogoniómetros para localizarte en la fase final. Regístrala: la señal de 406 MHz lleva un código que identifica la baliza y a su propietario.
+
+Part-SAO pide llevar equipos de señalización y supervivencia cuando vueles sobre zonas en las que la búsqueda y el salvamento serían especialmente difíciles, y su medio aceptable de cumplimiento concreta al menos una ELT, una PLB u otro localizador de emergencia registrado equivalente (SAO.IDE.125 y su AMC1).
 
 ## El lenguaje de la supervivencia: señales tierra-aire
 
@@ -46,6 +52,8 @@ Si estás en tierra y te busca un avión, tienes que comunicarte. Sin radio, usa
 | **Y** | **SÍ** / Afirmativo | "Y" de Yes. |
 | **→** | **Procedemos en esta dirección** | Flecha indicando rumbo. |
 : Código de señales visuales tierra-aire
+
+¿Cómo sabrás que el avión te ha entendido? De día, **alabea las alas**; de noche, hace dos destellos con los faros de aterrizaje o enciende y apaga dos veces las luces de navegación. Si no hace ninguna de esas señales, no te ha entendido (AIP España, GEN 3.6).
 
 ![Código de señales visuales de socorro](imagenes/01-cap11-senales-socorro.jpg){#fig-01-cap11-senales-tierra-aire}
 
@@ -65,6 +73,7 @@ Si algo sale mal, el SAR te buscará. Conoce las fases:
 
 * **INCERFA (Fase de incertidumbre)**: existe incertidumbre sobre la seguridad de la aeronave y sus ocupantes.
 * **ALERFA (Fase de alerta)**: existe preocupación por la seguridad de la aeronave y sus ocupantes.
-* **DETRESFA (Fase de peligro)**: existe certeza razonable de peligro grave e inminente y de que se necesita ayuda inmediata.
+* **DETRESFA (Fase de peligro)**: existe certeza razonable de peligro grave e inminente o de que se necesita ayuda inmediata.
+* **Balizas**: una ELT o PLB de 406 MHz, registrada, la detectan los satélites; los 121,5 MHz sirven para localizarte en la fase final.
 * **Señales tierra-aire**: **V** = necesito ayuda; **X** = necesito ayuda médica; **N** = no; **Y** = sí.
 :::

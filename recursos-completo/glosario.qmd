@@ -24,7 +24,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Plan de vuelo presentado desde el aire, sin haberlo tramitado antes del despegue. El piloto contacta con la dependencia ATC o FIS durante el vuelo para dar los datos del plan y solicitar entrada en espacio controlado.
 
 **AFIS (Servicio de Información de Vuelo de Aeródromo / Aerodrome Flight Information Service)**
-: El operador AFIS da a los pilotos información sobre viento, pista en uso y tráfico conocido, pero no emite autorizaciones ni controla el tráfico. La separación sigue siendo responsabilidad del piloto al mando.
+: Servicio de información de vuelo y de alerta que se presta en determinados aeródromos no controlados y en su zona de información de vuelo (FIZ). No autoriza ni separa: los pilotos mantienen su propia separación con la información que reciben.
 
 **AFM (Manual de Vuelo de la Aeronave / Aircraft Flight Manual)**
 : Documento aprobado que contiene las limitaciones, los procedimientos y los datos necesarios para operar la aeronave.
@@ -131,6 +131,9 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 **Autoinformación (broadcast)**
 : En aeródromos no controlados, cada piloto transmite voluntariamente su posición, altitud e intenciones en la frecuencia del aeródromo. No hay interlocutor que emita autorizaciones: la separación depende de todos los pilotos en la frecuencia.
 
+**Autoridad de investigación de accidentes**
+: Organismo español que investiga los accidentes e incidentes graves de aviación civil con finalidad preventiva, no sancionadora. Desde el 15 de julio de 2026 es la Autoridad Administrativa Independiente para la Investigación Técnica de Accidentes e Incidentes ferroviarios, marítimos y de aviación civil (Ley 2/2024), que sustituyó a la CIAIAC.
+
 **AWY (Aerovía / Airway)**
 : Área de control o parte de ella dispuesta en forma de corredor.
 
@@ -192,7 +195,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Carga máxima que la estructura puede soportar sin sufrir deformación permanente. Tras alcanzarla, la aeronave debe recuperar su forma original sin daños.
 
 **CAVOK (Visibilidad, nubes y tiempo presente mejores que los valores o condiciones prescritos)**
-: Término de los informes meteorológicos que sustituye determinados datos de visibilidad, tiempo presente y nubes cuando se cumplen simultáneamente las condiciones establecidas: visibilidad de 10 km o más, sin nubes por debajo de 5.000 ft ni cumulonimbus, y sin tiempo significativo. El rótulo es el de OACI; en el club se oye el retroacrónimo *Ceiling And Visibility OK*, que no es la denominación oficial.
+: Término de los informes meteorológicos que sustituye determinados datos de visibilidad, tiempo presente y nubes cuando se cumplen simultáneamente las condiciones establecidas: visibilidad de 10 km o más (sin que se notifique la visibilidad mínima); ninguna nube por debajo de 5.000 ft o de la altitud mínima de sector más alta, la que sea mayor, ni cumulonimbos ni torrecúmulos a ninguna altura; y ninguna condición meteorológica significativa para la aviación (Reglamento de Ejecución (UE) 2017/373). El rótulo es el de OACI; en el club se oye el retroacrónimo *Ceiling And Visibility OK*, que no es la denominación oficial.
 
 **CB-SIFT-CBE**
 : Lista de comprobación de cabina que se ejecuta y se verbaliza inmediatamente antes del enganche del cable: **C**ontrols (mandos libres y con recorrido correcto), **B**allast (masa total y centro de gravedad dentro de límites), **S**traps (cinturones y arneses trabados), **I**nstruments (altímetro calado, variómetro, radio y FLARM), **F**laps (posición de despegue), **T**rim (compensador de despegue), **C**anopy (cúpula cerrada y con cerrojos blocados), **B**rakes (aerofrenos cerrados y blocados) y **E**ventualities (viento del momento y briefing de fallo de lanzamiento). Su equivalente tradicional en los clubes españoles es CRISE.
@@ -207,7 +210,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Punto teórico donde se considera aplicada la resultante de todas las fuerzas de gravedad que actúan sobre el planeador. Su ubicación longitudinal es clave para la estabilidad y el control del vuelo.
 
 **CIAIAC (Comisión de Investigación de Accidentes e Incidentes de Aviación Civil)**
-: Organismo oficial español encargado de investigar accidentes e incidentes graves de aviación civil con finalidad preventiva.
+: Organismo español que investigaba los accidentes e incidentes graves de aviación civil hasta su supresión el 15 de julio de 2026. Sus funciones y las referencias legales a ella pasaron a la nueva autoridad de investigación de accidentes (Ley 2/2024).
 
 **Cianosis**
 : Coloración azulada en la piel, labios y yemas de los dedos producida por una acusada deficiencia de oxígeno en la sangre, siendo uno de los síntomas físicos avanzados propios de la hipoxia.
@@ -318,7 +321,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Error local de la brújula causado por los campos magnéticos del propio planeador (tubos de acero, radio, instrumentos). Se corrige consultando la tablilla de desvíos de la cabina.
 
 **DETRESFA (Fase de peligro / Distress Phase)**
-: Fase declarada cuando existe certeza razonable de que una aeronave y sus ocupantes están amenazados por un peligro grave e inminente y necesitan ayuda inmediata.
+: Fase declarada cuando existe certeza razonable de que una aeronave y sus ocupantes están amenazados por un peligro grave e inminente o necesitan ayuda inmediata.
 
 **DGAC (Dirección General de Aviación Civil)**
 : Órgano directivo encargado de formular la política del sector aéreo y ejercer las funciones que le atribuye la normativa española.
@@ -363,7 +366,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Grado de respuesta de las superficies de control en función de la velocidad de vuelo. A alta velocidad, la presión dinámica es mayor y los mandos están duros y muy reactivos. A baja velocidad, disminuye y los mandos se vuelven blandos o «chiclosos». Esta pérdida de eficacia próxima a la velocidad de pérdida es una advertencia física directa: el ala se acerca al ángulo de ataque crítico.
 
 **ELT (Transmisor Localizador de Emergencia / Emergency Locator Transmitter)**
-: Baliza de aeronave destinada a transmitir una señal de emergencia y facilitar su localización.
+: Baliza de aeronave destinada a transmitir una señal de emergencia y facilitar su localización. Emite en 406 MHz, la frecuencia que detectan los satélites Cospas-Sarsat, y en 121,5 MHz, que sirve para la localización final con radiogoniómetro.
 
 **Energía total (Variómetro de energía total / TE)**
 : Variómetro compensado (mediante sonda o antena TE) que descuenta las variaciones de altura provocadas por los cambios de velocidad del propio piloto, indicando únicamente el movimiento real de la masa de aire.
@@ -448,6 +451,9 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 
 **FISO (Operador del Servicio de Información de Vuelo / Flight Information Service Officer)**
 : Personal habilitado para prestar el servicio de información de vuelo dentro de sus atribuciones.
+
+**FIZ (Zona de información de vuelo / Flight Information Zone)**
+: Espacio aéreo asociado a un aeródromo con servicio AFIS, dentro del cual se presta ese servicio.
 
 **FL (Nivel de vuelo / Flight Level)**
 : Superficie de presión constante expresada en centenas de pies y referida al reglaje altimétrico estándar de 1013,25 hPa.
@@ -711,16 +717,19 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Parte del régimen europeo de aeronavegabilidad continuada aplicable a aeronaves ligeras, incluidos muchos planeadores.
 
 **Part-SAO (Operaciones de Planeadores / Sailplane Air Operations)**
-: Parte del Reglamento (UE) 2018/1976 que contiene los requisitos operativos aplicables a los planeadores.
+: Parte del Reglamento de Ejecución (UE) 2018/1976 que contiene los requisitos operativos aplicables a los planeadores.
 
 **Part-SFCL (Licencias de Tripulación de Vuelo de Planeadores / Sailplane Flight Crew Licensing)**
-: Parte del Reglamento (UE) 2018/1976 que regula las licencias, atribuciones, instructores y examinadores de planeadores.
+: Parte del Reglamento de Ejecución (UE) 2018/1976 que regula las licencias, atribuciones, instructores y examinadores de planeadores.
 
 **PAVE**
 : Esquema simplificado y fundamental para ejecutar la evaluación sistemática y mitigación profiláctica de los riesgos de cualquier vuelo, dividido en: Piloto, Aeronave (**Aircraft**), Entorno (**enVironment**) y Presiones Externas.
 
 **PCC (Comprobación de mandos positiva / Positive Control Check)**
 : Verificación obligatoria tras el montaje del planeador en la que un asistente sujeta físicamente cada superficie de mando en el exterior mientras el piloto acciona los controles en cabina para verificar la integridad y correcto sentido del movimiento.
+
+**PIB (Boletín de información previa al vuelo / Pre-flight Information Bulletin)**
+: Recopilación de los NOTAM en vigor y de otra información de importancia operacional para una ruta o unos aeródromos concretos, preparada antes del vuelo.
 
 **PIC (Piloto al mando / Pilot in Command)**
 : Piloto designado para el mando y encargado de la realización segura del vuelo.
@@ -780,7 +789,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Vórtice turbulento de pequeña escala que se forma a sotavento del pie de una ladera o cordillera bajo la primera cresta de la onda de montaña. Genera turbulencia severa e impredecible a baja altura. Las nubes de rotor (**rotor clouds**) son estratos irregulares bajo la onda que señalan esta zona peligrosa.
 
 **RSC (Subcentro de Salvamento / Rescue Sub-Centre)**
-: Dependencia subordinada a un RCC que coordina operaciones de búsqueda y salvamento en una parte de su región.
+: Dependencia subordinada a un RCC que coordina operaciones de búsqueda y salvamento en una parte de su región. El AIP España no publica ninguno: sólo los tres ARCC de Madrid, Palma y Canarias.
 
 **SALR (Gradiente Adiabático Saturado / Saturated Adiabatic Lapse Rate)**
 : Ritmo al que se enfría una parcela de aire saturada (en formación de nube) al ascender adiabáticamente: aproximadamente 1,5 °C por cada 1.000 ft. Es menor que el DALR porque la condensación libera calor latente que "frena" el enfriamiento.
@@ -841,6 +850,9 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 
 **Stau**
 : Efecto complementario al Foehn: acumulación de nubes y precipitación intensa en la ladera de barlovento de una cordillera, donde el aire húmedo asciende y condensa. Mientras en barlovento llueve (Stau), en sotavento el cielo puede estar despejado y la temperatura es varios grados más alta (Foehn).
+
+**SUP (Suplemento al AIP / AIP Supplement)**
+: Publicación que recoge cambios temporales de larga duración (tres meses o más) de la información del AIP, o información temporal con textos extensos o gráficos.
 
 **Sustentador (Turbo)**
 : Motor auxiliar de baja potencia, generalmente de dos tiempos y escamoteable, incapaz de despegar por sí solo pero suficiente para mantener el vuelo y regresar a la base si fallan las térmicas.

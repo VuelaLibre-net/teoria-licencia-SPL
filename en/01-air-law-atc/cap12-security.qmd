@@ -1,6 +1,6 @@
 ---
 origen: 01-derecho-aereo-atc/cap12-seguridad.qmd
-origen-commit: 63531db
+origen-commit: 490af41
 ---
 
 # Security
@@ -13,7 +13,7 @@ origen-commit: 63531db
 >
 > * The difference between avoiding accidents (**safety**) and preventing criminal acts (**security**).
 > * How to secure your aircraft on the ground and check that nobody has tampered with it.
-> * Which articles are prohibited on board because of the risk they pose.
+> * Which rules govern *security* and what you may not take on board: prohibited articles and dangerous goods.
 
 ## Safety vs security: aren't they the same?
 
@@ -22,21 +22,27 @@ Spanish uses a single word, *seguridad*, for both, but in aviation they are two 
 1. **Safety** (operational safety): preventing unintended **accidents**: the engine not stopping, no collisions, maintenance done properly. In short, “flying safely”.
 2. **Security** (aviation security): protecting against intentional **unlawful acts**: nobody stealing your aircraft, nobody planting a bomb, no hijacks. In short, physical protection.
 
-![The difference between safety and security](imagenes/01-cap12-safety-security.jpg){#fig-01-cap12-safety-vs-security}
+![The difference between safety and security. *(FIX: in aviation, “safety” is not the workplace safety the drawing suggests, but the prevention of accidents in the air and on the ground.)*](imagenes/01-cap12-safety-security.jpg){#fig-01-cap12-safety-vs-security .corregir}
+
+*Security* has its own rules. Internationally, ICAO **Annex 17**; in the European Union, **Regulation (EC) No 300/2008**, which lays down the common rules, and **Commission Implementing Regulation (EU) 2015/1998**, which sets out the detailed measures; and in Spain, the **National Civil Aviation Security Programme** (*Programa Nacional de Seguridad para la Aviación Civil*) provided for in the Ley de Seguridad Aérea (LSA, the Spanish Aviation Safety Act, Article 3). Almost all of these measures apply at airports with commercial traffic: passenger and baggage screening, access control and the **restricted areas**.
+
+At an airport, **airside** is the part with restricted access (aprons, runways and adjacent buildings) and **landside** is the rest; within airside, **security restricted areas** add further controls (Regulation (EC) No 300/2008, Article 3). Entering airside or the restricted areas of an airport of general interest without authorisation is a **very serious** infringement (Aviation Safety Act, Article 48(3)).
 
 ## Your responsibility in general aviation
 
-Even if you fly a glider from a small airfield, **security** concerns you too:
+Even if you fly a glider from a small airfield, **security** concerns you too. What follows is good practice, not an obligation under those rules:
 
 * **Access control**: do not leave your aircraft open or accessible to anyone. If you have a hangar, lock it. If not, secure the cockpit.
 * **Pre-flight inspection with a security eye**: as well as checking the oil, check whether anyone has tampered with anything. Are there unfamiliar objects in the cockpit? Signs of forced entry?
-* **Documentation**: always carry your identification (national ID card, licence). The Guardia Civil or the airport authority may ask to see it at any time, airside or landside.
+* **Documentation**: when you exercise the privileges of your licence, carry your licence, your medical certificate and a personal identification document with your photo; on flights within sight of the aerodrome they may stay there. Present them without undue delay if an authorised representative of the competent authority asks for them (SFCL.045).
 
 ## Dangerous goods
 
-These are articles or substances that can put health, safety or property at risk. The general rule is simple: you may **not** carry them on board (@fig-01-cap12-mercancias-peligrosas). Reasonable quantities of what the flight or safety requires are allowed (approved medical oxygen, lithium batteries for personal use under certain conditions), always with great care.
+Be careful not to confuse two things. **Prohibited articles** are a *security* matter: weapons, explosives and other items that may be used to commit an act of unlawful interference (Regulation (EC) No 300/2008, Article 3). **Dangerous goods** are a *safety* matter (ICAO Annex 18): articles or substances which, carried in an aircraft, are capable of posing a risk to health, safety, property or the environment, even if nobody intends to do harm with them (@fig-01-cap12-mercancias-peligrosas).
 
-![Dangerous goods labelling](imagenes/01-cap12-mercancias-peligrosas.jpg){#fig-01-cap12-mercancias-peligrosas}
+In a glider, the rule is yours as pilot-in-command: **you shall not permit any person to carry dangerous goods on board** (SAO.GEN.150(a)). The only exception is reasonable quantities of articles used to facilitate flight safety, which it is advisable to have to hand in the cockpit: these are considered authorised, with no approval needed (SAO.GEN.150(b)). Exactly what falls within that exception depends on the article; if in doubt, ask your school or the equipment manufacturer.
+
+![Dangerous goods labelling. Learn to recognise these labels: anything that carries them must not go on board the glider, except under the SAO.GEN.150 exception.](imagenes/01-cap12-mercancias-peligrosas.jpg){#fig-01-cap12-mercancias-peligrosas}
 
 ::: {.callout-warning title="Safety"}
 If you see someone loitering around the hangars, tampering with other people's aircraft or behaving suspiciously at the aerodrome, **report it immediately** to the person in charge of the airfield or to the police. Security is everyone's business.
@@ -49,5 +55,5 @@ Keep the two English words apart:
 
 * **SAFETY**: operational safety. Not having an accident while flying.
 * **SECURITY**: physical protection. Nobody stealing your aircraft or planting a bomb.
-* **Your duty**: do not leave the aircraft open or accessible to strangers, do not carry dangerous goods (except for approved exceptions) and respect the restricted areas of airports.
+* **Your duty**: do not leave the aircraft open or accessible to strangers, do not permit dangerous goods on board (except the reasonable quantities of articles for flight safety that the rule considers authorised) and respect the restricted areas of airports.
 :::

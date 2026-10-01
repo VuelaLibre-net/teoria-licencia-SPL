@@ -23,6 +23,9 @@ tarjetas:
       * **Red panel with one diagonal**: caution, manoeuvring area in poor
         condition.
       * **Double white cross**: gliders in operation.
+      * **Dumb-bell**: land, take off and taxi only on runways and taxiways
+        (with black bars: land and take off on runways only).
+      * **Crosses on a runway or taxiway**: that area is unfit for use.
 
   - id: buscar-el-area-de-senales
     tipo: basica

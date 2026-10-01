@@ -16,7 +16,7 @@ rompe la compilación.
 
 ## [En curso]
 
-**Qué releer:** **Glosario, entrada «Lastre (ballast)»**, que es nueva, el **epígrafe** y el **cap09, Programa Mínimo de Inspección**. En cap04 sólo cambia el término inglés entre paréntesis.
+**Qué releer:** **Glosario, entrada «Lastre (ballast)»**, que es nueva, el **epígrafe** y el **cap09, Programa Mínimo de Inspección**. En cap04 sólo cambia el término inglés entre paréntesis. Además, **cap08** (ARC y seguro), **cap09** (prórroga del ARC, ML.A.902), **cap14** (AMC del oxígeno), la **licencia** de los preliminares y la **Bibliografía**.
 
 ### Añadido
 
@@ -24,9 +24,36 @@ rompe la compilación.
 
 ### Corregido
 
+* **Bibliografía, SERA y Real Decreto 1180/2018** — la entrada de SERA decía que «en España se aplica
+  mediante el Real Decreto 552/2014». SERA es un reglamento de la UE y se aplica directamente, sin
+  transposición; y el RD 552/2014 está derogado desde el 11 de noviembre de 2018 por el Real Decreto
+  1180/2018, que es quien lo desarrolla hoy. Se corrige la entrada y se añade una para el RD
+  1180/2018. Hallazgo NOR-02 de la auditoría del libro 01.
 * **cap09, Programa Mínimo de Inspección (ML.A.302), y su tarjeta Anki** — el suelo «anual o cada 100 h, lo que antes se cumpla» se aplicaba a todos los planeadores. El MIP de Part-ML exige a los planeadores y planeadores motorizados una inspección anual, sin límite de horas; el de 100 h sólo se añade en el motovelero de turismo (TMG). Se corrige en el texto, el post-it y la tarjeta.
 * **Epígrafe** — la cita atribuida a Saint-Exupéry («La máquina no es el fin, es el instrumento. El fin es el ser humano liberado por ella.») no aparece así en *Tierra de hombres*: su segunda frase no tiene fuente. Se sustituye por una frase documentada de la misma obra (1939), la de la máquina que no aparta al hombre de los grandes problemas de la naturaleza.
 * **cap04, entradilla y objetivos del capítulo** — el término inglés *ballast* acompaña al primer «lastre» y a la viñeta «La gestión del lastre (ballast)». Propuesto en el issue #44.
+* **Bibliografía, normas citadas** — la bibliografía no recogía buena parte de las normas que
+  citan los capítulos. Se añade una lista de normas consolidadas con su enlace (Reglamentos
+  2018/1139, 1178/2011, 1321/2014, 2017/373, 2150/2005, 996/2010, 376/2014, 2015/1018, 300/2008,
+  2015/1998 y 785/2004; Leyes 48/1960, 209/1964 y 2/2024; Reales Decretos 184/2008, 1088/2020,
+  1189/2011 y 1029/2025; Orden FOM/1687/2015), el enlace consolidado de la Ley 21/2003 y los anexos
+  17 y 18 entre los más relevantes. El 2018/1976 se cita como Reglamento de Ejecución. Hallazgo
+  NOR-18 de la auditoría del libro 01.
+* **Licencia (preliminares)** — el syllabus se atribuía a «EASA-FCL»; el AMC1 SFCL.130 pertenece a
+  la Part-SFCL. Hallazgo NOR-19 de la auditoría del libro 01; el rótulo «Validación por AESA» se
+  mantiene.
+* **cap08, ARC y seguro** — «sin ARC en vigor, el seguro no cubre nada» pasa a «la aseguradora
+  puede negarse a cubrirte o repetir contra ti, según la póliza». Hallazgo NOR-14 de la auditoría
+  del libro 01.
+* **cap09 y su tarjeta Anki, prórroga del ARC** — la prórroga está en ML.A.902, no en ML.A.901, y
+  sus condiciones no son un «entorno controlado» (término de la antigua Part-M), sino que la misma
+  CAMO o CAO haya gestionado la aeronavegabilidad sin interrupción desde que se expidió el ARC.
+  Hallazgo PED-05 de la auditoría del libro 01.
+* **cap14, AMC1 SAO.OP.150** — el umbral de 10.000 ft es un medio aceptable de cumplimiento
+  («debería»), no una obligación del reglamento. Hallazgo NOR-10 de la auditoría del libro 01.
+* **cap08, entradilla** — «ni el seguro ni el certificado de aeronavegabilidad te cubren» daba el
+  seguro por perdido de forma automática, como el resumen corregido antes; pasa a «no se vuela, y el
+  seguro puede dejar de cubrirte». Hallazgo NOR-14 de la auditoría del libro 01.
 
 ## [0.9.6] — 23 de septiembre de 2026
 

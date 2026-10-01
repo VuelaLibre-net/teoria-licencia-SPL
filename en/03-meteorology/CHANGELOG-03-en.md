@@ -13,7 +13,20 @@ translated from (`origen-commit`). Terminology follows `en/terminologia.yml`.
 
 ## [In progress]
 
-**What to reread:** nothing new in substance; wording only.
+**What to reread:** **cap06, VFR minima in class G**, the glossary entry *CAVOK*, the licence and the bibliography. The rest is wording only.
+
+### Fixed
+
+* **cap06 and its Anki deck, VFR minima** — the 1,500 m visibility reduction does not apply to
+  sailplanes in Spain (Royal Decree 1180/2018, Article 30); the lower band uses whichever of
+  3,000 ft AMSL or 1,000 ft above terrain is higher; and flying into IMC no longer has a fixed
+  severity of infringement. Ported from the Spanish edition.
+* **Glossary, CAVOK** — the full conditions of Implementing Regulation (EU) 2017/373.
+* **Bibliography and licence** — ported from the Spanish edition: SERA applies directly in Spain;
+  new entries for Royal Decree 1180/2018 (which repealed Royal Decree 552/2014) and for the other
+  regulations cited in the collection, with links to their consolidated versions; Annexes 17 and 18
+  among the most relevant; and the syllabus is attributed to Part-SFCL, not “EASA-FCL”.
+
 
 ### Changed
 

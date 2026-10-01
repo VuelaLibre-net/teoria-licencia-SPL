@@ -59,14 +59,14 @@ Las convenciones siguientes son fijas:
   la posición de mandos sea relevante para entenderla.
 
 Para rotulación de diagramas se usa Libertinus Sans, que está vendorizada en
-`recursos/fuentes/`. El texto debe medir al menos 9 pt **al tamaño final en PDF, es
+`recursos/fonts/`. El texto debe medir al menos 9 pt **al tamaño final en PDF, es
 decir, después de aplicar el `width` de inserción**: un diagrama insertado al 90 %
 encoge su tipografía en la misma proporción, así que 9 pt en el máster no son 9 pt en
 la página. No se crea texto convertido a píxeles si puede conservarse como texto
 vectorial.
 
 ⚠️ Ninguna otra fuente está garantizada. Typst no falla ante una fuente ausente: cae a
-otra en silencio (ver `CLAUDE.md`). Una fuente nueva se vendoriza en `recursos/fuentes/`
+otra en silencio (ver `CLAUDE.md`). Una fuente nueva se vendoriza en `recursos/fonts/`
 o no se usa.
 
 ## Tipos de figura
@@ -200,6 +200,23 @@ desde AsciiDoc. Se corrigen al sustituir esas figuras, no antes: un ID publicado
 renombra con sus referencias, no por higiene. El caso raro es
 `03-cap03-indices-estabilidad.jpg`, cuyo ID dice `cap10`; ése sí conviene revisarlo
 porque induce a error al buscar la figura.
+
+### Figuras que hay que corregir
+
+Una figura publicada con un error no se retira mientras se rehace: se marca. Lleva la
+clase `.corregir` y, al final del pie y en cursiva, qué está mal:
+
+```markdown
+![Alturas mínimas de seguridad. *(CORREGIR: en la viñeta del vuelo de ladera, el planeador debe estar a barlovento.)*](imagenes/01-cap05-alturas-minimas.jpg){#fig-01-cap05-alturas-minimas .corregir}
+```
+
+El filtro `_extensions/orange-book-es/figura-corregir.lua` superpone a la imagen la marca
+diagonal «EN REVISIÓN» («IN REVIEW» en la edición inglesa) en el PDF, el EPUB y la web, y
+deja la nota fuera del índice de ilustraciones. En la edición inglesa la nota es
+*(FIX: …)*. El filtro se activa en el `_quarto.yml` de cada libro que tenga figuras
+marcadas, con `filters:` (`path: _extensions/orange-book-es/figura-corregir.lua`,
+`at: post-quarto`); sin esa línea, la clase no hace nada. Al sustituir la figura se
+quitan la clase y la nota.
 
 Las 143 figuras actuales se insertan **sin `width` ni `fig-align`** y se maquetan bien
 con el valor por omisión. Una figura nueva no los añade salvo que su composición lo

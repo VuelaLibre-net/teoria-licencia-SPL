@@ -31,10 +31,12 @@ tarjetas:
     tipo: basica
     anverso: ¿Qué pasa si vuelas con el **ARC caducado**?
     reverso: |
-      **Es ilegal, nadie ha certificado que el avión sea seguro en el último
-      año, y la aseguradora rechazará la cobertura.**
+      **Es ilegal, y nadie ha certificado que el avión sea seguro en el último
+      año.**
 
-      La mayoría de pólizas la condicionan a que la aeronave esté aeronavegable.
+      Además, la aseguradora puede negarse a cubrirte o repetir contra ti:
+      muchas pólizas condicionan la cobertura a que la aeronave sea
+      aeronavegable.
     etiquetas: [Seguridad]
 
   - id: part-ml-marco
@@ -50,8 +52,8 @@ tarjetas:
     anverso: ¿Qué le toca al piloto en la aeronavegabilidad?
     reverso: |
       **Inspección prevuelo, verificar que la documentación (CofA, ARC,
-      seguro…) está a bordo y en vigor, y anotar cualquier defecto en el
-      Diario.**
+      seguro…) está en vigor y disponible, a bordo o en el aeródromo, y
+      anotar cualquier defecto en el Diario.**
 
   - id: muesca-en-el-gelcoat
     tipo: basica

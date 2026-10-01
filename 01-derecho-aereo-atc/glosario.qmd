@@ -11,6 +11,9 @@ Este glosario contiene las definiciones y acrónimos más relevantes del marco n
 **AESA (Agencia Estatal de Seguridad Aérea)**
 : Autoridad española responsable de la supervisión de la seguridad de la aviación civil y de la aplicación de la normativa aeronáutica dentro de sus competencias.
 
+**AFIS (Servicio de Información de Vuelo de Aeródromo / Aerodrome Flight Information Service)**
+: Servicio de información de vuelo y de alerta que se presta en determinados aeródromos no controlados y en su zona de información de vuelo (FIZ). No autoriza ni separa: los pilotos mantienen su propia separación con la información que reciben.
+
 **AFM (Manual de Vuelo de la Aeronave / Aircraft Flight Manual)**
 : Documento aprobado que contiene las limitaciones, los procedimientos y los datos necesarios para operar la aeronave.
 
@@ -74,6 +77,9 @@ Este glosario contiene las definiciones y acrónimos más relevantes del marco n
 **ATZ (Zona de tránsito de aeródromo / Aerodrome Traffic Zone)**
 : Espacio aéreo de dimensiones definidas establecido alrededor de un aeródromo para la protección de su tránsito.
 
+**Autoridad de investigación de accidentes**
+: Organismo español que investiga los accidentes e incidentes graves de aviación civil con finalidad preventiva, no sancionadora. Desde el 15 de julio de 2026 es la Autoridad Administrativa Independiente para la Investigación Técnica de Accidentes e Incidentes ferroviarios, marítimos y de aviación civil (Ley 2/2024), que sustituyó a la CIAIAC.
+
 **AWY (Aerovía / Airway)**
 : Área de control o parte de ella dispuesta en forma de corredor.
 
@@ -87,13 +93,13 @@ Este glosario contiene las definiciones y acrónimos más relevantes del marco n
 : Organización aprobada que puede ejercer privilegios de mantenimiento y de gestión de la aeronavegabilidad continuada dentro de su ámbito de aprobación.
 
 **CAVOK (Visibilidad, nubes y tiempo presente mejores que los valores o condiciones prescritos)**
-: Término de los informes meteorológicos que sustituye determinados datos de visibilidad, tiempo presente y nubes cuando se cumplen simultáneamente las condiciones establecidas: visibilidad de 10 km o más, sin nubes por debajo de 5.000 ft ni cumulonimbus, y sin tiempo significativo. El rótulo es el de OACI; en el club se oye el retroacrónimo *Ceiling And Visibility OK*, que no es la denominación oficial.
+: Término de los informes meteorológicos que sustituye determinados datos de visibilidad, tiempo presente y nubes cuando se cumplen simultáneamente las condiciones establecidas: visibilidad de 10 km o más (sin que se notifique la visibilidad mínima); ninguna nube por debajo de 5.000 ft o de la altitud mínima de sector más alta, la que sea mayor, ni cumulonimbos ni torrecúmulos a ninguna altura; y ninguna condición meteorológica significativa para la aviación (Reglamento de Ejecución (UE) 2017/373). El rótulo es el de OACI; en el club se oye el retroacrónimo *Ceiling And Visibility OK*, que no es la denominación oficial.
 
 **CDR (Ruta condicional / Conditional Route)**
 : Ruta ATS disponible únicamente cuando se cumplen las condiciones publicadas.
 
 **CIAIAC (Comisión de Investigación de Accidentes e Incidentes de Aviación Civil)**
-: Organismo oficial español encargado de investigar accidentes e incidentes graves de aviación civil con finalidad preventiva.
+: Organismo español que investigaba los accidentes e incidentes graves de aviación civil hasta su supresión el 15 de julio de 2026. Sus funciones y las referencias legales a ella pasaron a la nueva autoridad de investigación de accidentes (Ley 2/2024).
 
 **CofA (Certificado de Aeronavegabilidad / Certificate of Airworthiness)**
 : Documento que certifica que una aeronave se ajusta al diseño aprobado y se considera apta para el vuelo mientras se mantenga aeronavegable y cumpla los requisitos aplicables.
@@ -114,7 +120,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes del marco n
 : Espacio aéreo controlado que se extiende hacia arriba desde la superficie terrestre hasta un límite superior definido.
 
 **DETRESFA (Fase de peligro / Distress Phase)**
-: Fase declarada cuando existe certeza razonable de que una aeronave y sus ocupantes están amenazados por un peligro grave e inminente y necesitan ayuda inmediata.
+: Fase declarada cuando existe certeza razonable de que una aeronave y sus ocupantes están amenazados por un peligro grave e inminente o necesitan ayuda inmediata.
 
 **DGAC (Dirección General de Aviación Civil)**
 : Órgano directivo encargado de formular la política del sector aéreo y ejercer las funciones que le atribuye la normativa española.
@@ -129,7 +135,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes del marco n
 : Tiempo que se estima necesario para llegar desde un punto de referencia a otro durante un vuelo.
 
 **ELT (Transmisor Localizador de Emergencia / Emergency Locator Transmitter)**
-: Baliza de aeronave destinada a transmitir una señal de emergencia y facilitar su localización.
+: Baliza de aeronave destinada a transmitir una señal de emergencia y facilitar su localización. Emite en 406 MHz, la frecuencia que detectan los satélites Cospas-Sarsat, y en 121,5 MHz, que sirve para la localización final con radiogoniómetro.
 
 **EOBT (Hora estimada fuera de calzos / Estimated Off-Block Time)**
 : Hora prevista en la que la aeronave iniciará el movimiento asociado a la salida.
@@ -160,6 +166,9 @@ Este glosario contiene las definiciones y acrónimos más relevantes del marco n
 
 **FISO (Operador del Servicio de Información de Vuelo / Flight Information Service Officer)**
 : Personal habilitado para prestar el servicio de información de vuelo dentro de sus atribuciones.
+
+**FIZ (Zona de información de vuelo / Flight Information Zone)**
+: Espacio aéreo asociado a un aeródromo con servicio AFIS, dentro del cual se presta ese servicio.
 
 **FL (Nivel de vuelo / Flight Level)**
 : Superficie de presión constante expresada en centenas de pies y referida al reglaje altimétrico estándar de 1013,25 hPa.
@@ -201,10 +210,13 @@ Este glosario contiene las definiciones y acrónimos más relevantes del marco n
 : Parte del régimen europeo de aeronavegabilidad continuada aplicable a aeronaves ligeras, incluidos muchos planeadores.
 
 **Part-SAO (Operaciones de Planeadores / Sailplane Air Operations)**
-: Parte del Reglamento (UE) 2018/1976 que contiene los requisitos operativos aplicables a los planeadores.
+: Parte del Reglamento de Ejecución (UE) 2018/1976 que contiene los requisitos operativos aplicables a los planeadores.
 
 **Part-SFCL (Licencias de Tripulación de Vuelo de Planeadores / Sailplane Flight Crew Licensing)**
-: Parte del Reglamento (UE) 2018/1976 que regula las licencias, atribuciones, instructores y examinadores de planeadores.
+: Parte del Reglamento de Ejecución (UE) 2018/1976 que regula las licencias, atribuciones, instructores y examinadores de planeadores.
+
+**PIB (Boletín de información previa al vuelo / Pre-flight Information Bulletin)**
+: Recopilación de los NOTAM en vigor y de otra información de importancia operacional para una ruta o unos aeródromos concretos, preparada antes del vuelo.
 
 **PIC (Piloto al mando / Pilot in Command)**
 : Piloto designado para el mando y encargado de la realización segura del vuelo.
@@ -228,7 +240,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes del marco n
 : Espacio aéreo de dimensiones definidas en el que es obligatorio llevar y utilizar equipo de radio conforme a los requisitos publicados.
 
 **RSC (Subcentro de Salvamento / Rescue Sub-Centre)**
-: Dependencia subordinada a un RCC que coordina operaciones de búsqueda y salvamento en una parte de su región.
+: Dependencia subordinada a un RCC que coordina operaciones de búsqueda y salvamento en una parte de su región. El AIP España no publica ninguno: sólo los tres ARCC de Madrid, Palma y Canarias.
 
 **SAR (Búsqueda y salvamento / Search and Rescue)**
 : Organización y operaciones destinadas a localizar y auxiliar aeronaves y personas en peligro.
@@ -247,6 +259,9 @@ Este glosario contiene las definiciones y acrónimos más relevantes del marco n
 
 **SPL (Licencia de Piloto de Planeador / Sailplane Pilot Licence)**
 : Licencia de la Unión Europea, regulada por la Part-SFCL, que permite ejercer las atribuciones de piloto de planeador dentro de las condiciones aplicables.
+
+**SUP (Suplemento al AIP / AIP Supplement)**
+: Publicación que recoge cambios temporales de larga duración (tres meses o más) de la información del AIP, o información temporal con textos extensos o gráficos.
 
 **TMA (Área de Control Terminal / Terminal Control Area)**
 : Área de control establecida normalmente en la confluencia de rutas ATS, en las inmediaciones de uno o más aeródromos importantes, cuyos límites son los publicados para cada TMA.

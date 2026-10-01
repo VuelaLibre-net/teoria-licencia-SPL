@@ -1,6 +1,6 @@
 ---
 origen: 04-comunicaciones/cap03-procedimientos-operativos-generales.qmd
-origen-commit: a80eda3
+origen-commit: 8390229
 ---
 
 # General operating procedures
@@ -13,30 +13,30 @@ Every aeronautical transmission follows the same pattern. Memorising it as a fix
 
 The initial call always goes in this order:
 
-1. **Whom you are calling**: the name of the unit (*«Jerez Torre»*, “Jerez Tower”; *«Madrid Información»*, “Madrid Information”).
-2. **Who is calling**: the aircraft's full callsign (*«Eco Charlie Delta Papa Eco»*).
-3. **Where you are**: position or phase of flight (*«sobre punto Sierra»*, “over point Sierra”; *«en viento en cola pista tres cuatro»*, “downwind runway three four”).
-4. **What you need**: request or intention (*«solicito datos»*, “request information”; *«listo para el despegue»*, “ready for departure”).
+1. **Whom you are calling**: the name of the unit (“Jerez Tower” (*Jerez Torre*); “Madrid Information” (*Madrid Información*)).
+2. **Who is calling**: the aircraft's full callsign (“Echo Charlie Delta Papa Echo”, *Eco Charlie Delta Papa Eco*).
+3. **Where you are**: position or phase of flight (“over point Sierra” (*sobre punto Sierra*); “downwind runway three four” (*en viento en cola pista tres cuatro*)).
+4. **What you need**: request or intention (“request information” (*solicito datos*); “ready for departure” (*listo para el despegue*)).
 
 *Example of a first call at a controlled aerodrome:*
-*— «Sabadell Torre, Delta Kilo India Alfa Victor, en punto de espera pista uno dos, listo para salida.»* (“Sabadell Tower, Delta Kilo India Alfa Victor, holding point runway one two, ready for departure.”)
+— “Sabadell Tower, Delta Kilo India Alfa Victor, holding point runway one two, ready for departure.” (*Sabadell Torre, Delta Kilo India Alfa Victor, en punto de espera pista uno dos, listo para salida.*)
 
 The controller replies. From the second exchange onwards you may abbreviate the callsign to its last three letters, but only if the ground station has done so first.
 
 When you **read back** an instruction, the callsign goes at the end:
 
-*— «Autorizado despegar pista uno dos, viento cero nueve cero grados seis nudos, Alfa Victor.»* (“Cleared for take-off runway one two, wind zero nine zero degrees six knots, Alfa Victor.”)
+— “Cleared for take-off runway one two, wind zero nine zero degrees six knots, Alfa Victor.” (*Autorizado despegar pista uno dos, viento cero nueve cero grados seis nudos, Alfa Victor.*)
 
 In a **blind broadcast** (uncontrolled aerodrome), with no designated station to talk to, the callsign goes at the beginning:
 
-*— «Eco Charlie Delta Papa Eco, en viento en cola derecha pista tres cuatro, intención aterrizaje.»* (“Echo Charlie Delta Papa Echo, right-hand downwind runway three four, intending to land.”)
+— “Echo Charlie Delta Papa Echo, right-hand downwind runway three four, intending to land.” (*Eco Charlie Delta Papa Eco, en viento en cola derecha pista tres cuatro, intención aterrizaje.*)
 
 ::: {.callout-tip title="Golden rule"}
 Before you press the PTT, put the whole message together in your head: *Whom? → Who am I? → Where am I? → What do I need?* A structured message takes up less time on the frequency and gives the controller less to misunderstand.
 :::
 
 ::: {.callout-note title="Airmanship"}
-Some instructors recommend opening the **first** call to a station with a simple *«buenos días»* (“good morning”) or *«buenas tardes»* (“good afternoon”) before the message: *«Fuentemilanos tráfico, buenos días, Eco Charlie Delta Papa Eco…»* (“Fuentemilanos traffic, good morning, Echo Charlie Delta Papa Echo…”). It is not ICAO phraseology, which aims for economy of words, so keep it for the **first contact** rather than every transmission. But there is a person at the other end of the radio, and a greeting oils the relationship with the tower, FIS or the other traffic at your field. With one proviso: on a busy frequency or in an emergency, courtesy can wait and you go straight to the point.
+Some instructors recommend opening the **first** call to a station with a simple “good morning” (*buenos días*) or “good afternoon” (*buenas tardes*) before the message: “Fuentemilanos traffic, good morning, Echo Charlie Delta Papa Echo…” (*Fuentemilanos tráfico, buenos días, Eco Charlie Delta Papa Eco…*). It is not ICAO phraseology, which aims for economy of words, so keep it for the **first contact** rather than every transmission. But there is a person at the other end of the radio, and a greeting oils the relationship with the tower, FIS or the other traffic at your field. With one proviso: on a busy frequency or in an emergency, courtesy can wait and you go straight to the point.
 :::
 
 ## Radio check
@@ -54,9 +54,9 @@ Reception quality is assessed on a readability scale from 1 to 5:
 * **5:** Perfectly readable (clear audio, no noise).
 
 **Example exchange:**
-*— «Fuentemilanos, buenas tardes, Eco Charlie Delta Papa Eco, solicito prueba de radio en 123.400.»* (“Fuentemilanos, good afternoon, Echo Charlie Delta Papa Echo, request radio check on 123.400.”)
-*— «Eco Papa Eco, le recibo 5.»* (“Echo Papa Echo, readability 5.”)
-*— «Cinco, gracias, Eco Papa Eco.»* (“Five, thank you, Echo Papa Echo.”)
+— “Fuentemilanos, good afternoon, Echo Charlie Delta Papa Echo, request radio check on 123.400.” (*Fuentemilanos, buenas tardes, Eco Charlie Delta Papa Eco, solicito prueba de radio en 123.400.*)
+— “Echo Papa Echo, readability 5.” (*Eco Papa Eco, le recibo 5.*)
+— “Five, thank you, Echo Papa Echo.” (*Cinco, gracias, Eco Papa Eco.*)
 
 The check should not last more than 10 seconds. Saying the numbers slowly and clearly is usually enough.
 
@@ -76,10 +76,10 @@ If FIS or ATC require it, you add:
 2. **Next reporting point** and estimated time of arrival.
 
 *Example at an uncontrolled field (blind broadcast):*
-*— «Buitrago, velero Eco Charlie Delta Papa Eco, sobre el embalse de Riosequillo, mil quinientos pies QNH, estimado Buitrago en cero cinco.»* (“Buitrago, glider Echo Charlie Delta Papa Echo, over the Riosequillo reservoir, one thousand five hundred feet QNH, estimating Buitrago at zero five.”)
+— “Buitrago, glider Echo Charlie Delta Papa Echo, over the Riosequillo reservoir, one thousand five hundred feet QNH, estimating Buitrago at zero five.” (*Buitrago, velero Eco Charlie Delta Papa Eco, sobre el embalse de Riosequillo, mil quinientos pies QNH, estimado Buitrago en cero cinco.*)
 
 *Example with FIS on a cross-country flight:*
-*— «Madrid Información, Eco Charlie Delta Papa Eco, sobre Somosierra, nivel de vuelo cero ocho cero, estimado Aranda en tres cinco.»* (“Madrid Information, Echo Charlie Delta Papa Echo, over Somosierra, flight level zero eight zero, estimating Aranda at three five.”)
+— “Madrid Information, Echo Charlie Delta Papa Echo, over Somosierra, flight level zero eight zero, estimating Aranda at three five.” (*Madrid Información, Eco Charlie Delta Papa Eco, sobre Somosierra, nivel de vuelo cero ocho cero, estimado Aranda en tres cinco.*)
 
 ::: {.callout-note title="Airmanship"}
 On cross-country flights in a glider, update your position with FIS whenever you depart significantly from your planned route or change sector. A well-informed FIS can coordinate a search more quickly if you stop making contact.
@@ -89,7 +89,7 @@ On cross-country flights in a glider, update your position with FIS whenever you
 
 When two aircraft transmit at the same time, the signals overlap and the other end hears distorted or unintelligible audio. This is **mutual blocking**.
 
-If it happens, the controller may reply *«Estación llamando a [dependencia], identifíquese»* (“Station calling [unit], identify yourself”), or repeat the only fragment they could make out. In that case:
+If it happens, the controller may reply “Station calling [unit], identify yourself” (*Estación llamando a [dependencia], identifíquese*), or repeat the only fragment they could make out. In that case:
 
 * Listen for whether your callsign was mentioned.
 * Wait for the frequency to be clear.
@@ -120,7 +120,7 @@ The cure is simple: **a visual check after every transmission** (@fig-04-cap03-l
 
 Not all messages are equal. ICAO sets a clear order of priority so that the most urgent always gets through first:
 
-1. **DISTRESS messages (MAYDAY)**: absolute priority. They indicate that the aircraft or the people on board are in grave and imminent danger (fire, structural failure, extreme medical emergency) and need immediate help. If you hear a Mayday, keep quiet. Total silence on that frequency, unless the aircraft in distress calls you or you are in a position to relay its call to a distant tower. The phrase for imposing silence is *«Cesen transmisiones, Mayday»* (*“Stop transmitting, Mayday”*).
+1. **DISTRESS messages (MAYDAY)**: absolute priority. They indicate that the aircraft or the people on board are in grave and imminent danger (fire, structural failure, extreme medical emergency) and need immediate help. If you hear a Mayday, keep quiet. Total silence on that frequency, unless the aircraft in distress calls you or you are in a position to relay its call to a distant tower. The phrase for imposing silence is “Stop transmitting, Mayday” (*Cesen transmisiones, Mayday*).
 2. **URGENCY messages (PAN PAN)**: second priority. There is a serious problem (a failing engine in a motor glider that is still flying, a critical loss of position, a passenger taken ill with no immediate threat to life) but no rescue is needed at that very second. They take priority over ordinary traffic and require others not to interfere, though without the total silence imposed by a Mayday.
 3. **Direction-finding communications (VDF)**: requests for a magnetic heading or bearing (QDM or QDR requests).
 4. **Flight safety messages**: ATC traffic warnings, separation and urgent weather information (SIGMET/AIRMET).
@@ -128,7 +128,7 @@ Not all messages are equal. ICAO sets a clear order of priority so that the most
 6. **Flight regularity communications**: closing a flight plan, position confirmations and operational coordination.
 
 ::: {.callout-important title="Regulation"}
-The malicious or false transmission of emergency signals (Mayday / Pan Pan) is a serious criminal offence in every EASA jurisdiction, punishable by heavy fines and the withdrawal of the pilot's licence, quite apart from the real operational risk it creates by diverting emergency resources. Use them only when the real situation demands it.
+The malicious or false transmission of emergency signals (Mayday / Pan Pan) is no joke: in Spain, if it causes the rescue services to be mobilised, it is a criminal offence punishable by imprisonment or a fine (Código Penal, the Spanish Criminal Code, Article 561), quite apart from the real operational risk it creates by diverting emergency resources. Use them only when the real situation demands it.
 :::
 
 ## Microphone technique
@@ -161,7 +161,7 @@ The technical details and regulations on VHF channel spacing are covered in chap
 **Chapter summary: general operating procedures**
 
 * **Call structure**: Whom → Who I am → Where I am → What I need. In a readback, the callsign goes at the end. In a blind broadcast, the callsign goes at the beginning.
-* **Radio check**: ask for one only if you have doubts about the equipment. Use the readability scale from 1 (unreadable) to 5 (perfect): *«Le recibo 5»* (“Readability 5”).
+* **Radio check**: ask for one only if you have doubts about the equipment. Use the readability scale from 1 (unreadable) to 5 (perfect): “Readability 5” (*Le recibo 5*).
 * **Position reports**: identification + position + altitude (QNH or FL). On a cross-country flight add the UTC time and the next point with its estimate. Update FIS if you leave your route.
 * **Simultaneous calls**: if the frequency is busy, wait. After a call with no answer, wait 10 seconds before trying again. ATC decides the order when several aircraft call at once.
 * **Blocked microphone**: check that the TX light goes out when you release the PTT. A stuck PTT knocks out the frequency for every user.

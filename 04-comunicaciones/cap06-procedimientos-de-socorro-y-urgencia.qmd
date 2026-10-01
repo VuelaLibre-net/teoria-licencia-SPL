@@ -15,7 +15,7 @@ La palabra se repite **tres veces** para que destaque sobre el tráfico normal y
 *«Mayday, Mayday, Mayday…​»*
 
 ::: {.callout-warning title="Seguridad"}
-La transmisión maliciosa o falsa de un mensaje de socorro MAYDAY moviliza recursos de búsqueda y salvamento (SAR) estatales. Según la Ley de Seguridad Aérea, simular emergencias o proporcionar información falsa que comprometa la seguridad se tipifica como infracción muy grave, conlleva sanciones económicas elevadas y puede resultar en la revocación de la licencia de vuelo.
+La transmisión maliciosa o falsa de un mensaje de socorro MAYDAY moviliza recursos de búsqueda y salvamento (SAR) estatales. En España, simular un peligro o un siniestro que haga movilizar a los servicios de salvamento es un **delito**, castigado con prisión de tres meses y un día a un año o con multa (Código Penal, art. 561).
 :::
 
 ::: {.callout-important title="Normativa"}

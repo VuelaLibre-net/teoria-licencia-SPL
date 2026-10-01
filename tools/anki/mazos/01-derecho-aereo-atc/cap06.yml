@@ -20,11 +20,12 @@ tarjetas:
 
   - id: minimos-vmc-baja-cota
     tipo: basica
-    anverso: ¿Qué mínimos rigen por debajo de 3.000 ft AMSL (o 1.000 ft AGL) en espacio no controlado?
+    anverso: ¿Qué mínimos rigen por debajo de 3.000 ft AMSL (o 1.000 ft AGL, si es mayor) en espacio no controlado?
     reverso: |
       **5 km, libre de nubes y con el suelo a la vista.**
 
-      Volando a menos de 140 kt, la visibilidad puede reducirse a **1.500 m**.
+      La reducción a 1.500 m por debajo de 140 kt que permite SERA no se aplica
+      en España a los planeadores (RD 1180/2018, art. 30).
 
   - id: regla-semicircular
     tipo: basica
@@ -40,8 +41,8 @@ tarjetas:
     tipo: cloze
     texto: |
       Reglajes de altímetro: {{c1::QNH}} da altitud sobre el nivel del mar
-      (navegación y circuitos); {{c2::QFE}} da altura sobre el campo; y
-      {{c3::QNE}} (1013,25 hPa) da niveles de vuelo.
+      (navegación y circuitos); {{c2::QFE}} da altura sobre el campo; y con
+      1013,25 hPa calados (lectura {{c3::QNE}}) se leen niveles de vuelo.
     extra: |
       Mnemotécnico: **QNH** = *Nautical Height*; **QFE** = *Field Elevation*.
 

@@ -24,6 +24,20 @@ tarjetas:
     reverso: |
       **Clase 2 o LAPL.** Sin médico en vigor, la licencia es papel mojado.
 
+      La Clase 2 sólo se exige para operaciones comerciales con planeador
+      (MED.A.030 c) 4)).
+
+  - id: spl-y-tmg
+    tipo: basica
+    anverso: Con una SPL obtenida en planeador, ¿puedes volar un motovelero de turismo (TMG)?
+    reverso: |
+      **No, hasta extender las atribuciones:** formación en una ATO o DTO y
+      prueba de pericia en TMG. Su recencia es distinta: 12 h en 24 meses, con
+      6 h, 12 despegues y aterrizajes y 1 h con instructor en TMG.
+
+      *Fundamento: SFCL.150 y SFCL.160 b).*
+    etiquetas: [Normativa]
+
   - id: recencia-5-15-2
     tipo: cloze
     texto: |
@@ -34,6 +48,17 @@ tarjetas:
       Mnemotécnico **5, 15, 2**. Si no llegas: vuela con instructor hasta
       cumplirlos, o supera una verificación de competencia con un FE(S).
 
+  - id: recencia-por-metodo-de-lanzamiento
+    tipo: basica
+    anverso: Cumples el «5-15-2», pero ¿puedes despegar con cualquier método de lanzamiento?
+    reverso: |
+      **No.** Sólo con los métodos en los que te formaste, y cada uno exige al
+      menos **5 lanzamientos en los últimos 24 meses** (con cable elástico,
+      **2**). Si no llegas, completa los que falten con instructor.
+
+      *Fundamento: SFCL.155.*
+    etiquetas: [Normativa]
+
   - id: pasajeros-sfcl-115
     tipo: basica
     anverso: ¿Qué experiencia hace falta para **llevar pasajeros** con una SPL?
@@ -42,7 +67,8 @@ tarjetas:
       de entrenamiento demostrando competencia a un FI(S)** (salvo que ya seas
       FI(S)), **más 3 lanzamientos en los últimos 90 días.**
 
-      Incumplirlo implica sanción y pérdida de cobertura del seguro.
+      Incumplirlo es una infracción y, según la póliza, puede dejarte sin
+      cobertura.
 
       *Fundamento: Part-SFCL, SFCL.115(a)(2) y SFCL.160(e).*
     etiquetas: [Normativa]
@@ -53,8 +79,9 @@ tarjetas:
     reverso: |
       **Consultar con un AME antes de volver a volar.**
 
-      Operación, enfermedad grave, embarazo o gafas nuevas pueden dejar el
-      certificado médico en suspenso.
+      Operación, enfermedad grave, embarazo, ingreso hospitalario, medicación
+      habitual o necesitar lentes correctoras por primera vez pueden dejar el
+      certificado médico en suspenso (MED.A.020).
     etiquetas: [Seguridad]
 
 

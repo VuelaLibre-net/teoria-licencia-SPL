@@ -22,6 +22,21 @@ tarjetas:
     reverso: |
       **Class 2 or LAPL.** Without a valid medical, the licence is worthless.
 
+      Class 2 is only required for commercial operations with a sailplane
+      (MED.A.030(c)(4)).
+
+  - id: spl-y-tmg
+    tipo: basica
+    anverso: With an SPL obtained on sailplanes, can you fly a touring motor glider (TMG)?
+    reverso: |
+      **No, not until you extend your privileges:** training at an ATO or DTO
+      and a skill test in a TMG. Its recency requirement is different: 12 h in
+      24 months, including 6 h, 12 take-offs and landings and 1 h with an
+      instructor on TMGs.
+
+      *Basis: SFCL.150 and SFCL.160(b).*
+    etiquetas: [Regulation]
+
   - id: recencia-5-15-2
     tipo: cloze
     texto: |
@@ -31,6 +46,17 @@ tarjetas:
       Mnemonic **5, 15, 2**. If you fall short: fly with an instructor until you
       meet them, or pass a proficiency check with an FE(S).
 
+  - id: recencia-por-metodo-de-lanzamiento
+    tipo: basica
+    anverso: You meet the “5-15-2”, but can you take off with any launch method?
+    reverso: |
+      **No.** Only with the methods you were trained in, and each one requires
+      at least **5 launches in the last 24 months** (for bungee launches,
+      **2**). If you fall short, make up the missing ones with an instructor.
+
+      *Basis: SFCL.155.*
+    etiquetas: [Regulation]
+
   - id: pasajeros-sfcl-115
     tipo: basica
     anverso: What experience is needed to **carry passengers** with an SPL?
@@ -39,7 +65,8 @@ tarjetas:
       training flight demonstrating competence to an FI(S)** (unless you are
       already an FI(S)), **plus 3 launches in the last 90 days.**
 
-      Failing to comply leads to sanctions and loss of insurance cover.
+      Failing to comply is an offence and, depending on the policy, may leave
+      you without cover.
 
       *Basis: Part-SFCL, SFCL.115(a)(2) and SFCL.160(e).*
     etiquetas: [Regulation]
@@ -50,6 +77,7 @@ tarjetas:
     reverso: |
       **Consult an AME before flying again.**
 
-      Surgery, serious illness, pregnancy or new glasses can suspend the
-      medical certificate.
+      Surgery, serious illness, pregnancy, admission to hospital, regular
+      medication or needing corrective lenses for the first time can suspend
+      the medical certificate (MED.A.020).
     etiquetas: [Safety]
