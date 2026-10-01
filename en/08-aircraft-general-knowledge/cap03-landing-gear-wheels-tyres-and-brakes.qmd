@@ -34,7 +34,7 @@ Treat the management of a retractable undercarriage as sacred: it is retracted o
 
 Unlike heavy aircraft, many sailplanes have only basic shock absorption: rubber blocks, steel leaf springs or simply the elasticity of the tyre itself.
 
-Even so, the undercarriage has an important safety role: it works as a **fuse element**. In a very heavy landing, the undercarriage mounting is designed to break before the main fuselage structure, absorbing part of the energy of the impact and protecting the pilot's spine.
+Even so, the undercarriage does an important safety job: it works as a **fuse element**. In a very heavy landing, the undercarriage mounting is designed to break before the main fuselage structure, absorbing part of the energy of the impact and protecting the pilot's spine.
 
 ## Tail skid and tailwheel
 
@@ -44,7 +44,7 @@ At the tail, sailplanes have a skid (on classic types) or a small tailwheel. It 
 
 The wheel brake is key to stopping the landing run, above all on short runways or in outlandings.
 
-* **Type of brake**: modern types have hydraulic disc brakes, which are very effective; older ones have drum brakes.
+* **Type of brake**: modern types have hydraulic disc brakes, which work very well; older ones have drum brakes.
 * **Operation**: on most sailplanes the brake comes on when the airbrake lever is moved to the end of its travel. On others it is on the pedals or on a separate lever.
 
 ::: {.callout-warning title="Safety"}

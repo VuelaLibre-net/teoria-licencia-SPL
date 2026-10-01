@@ -6,7 +6,7 @@ origen-commit: 5a7d271
 # Instruments
 
 
-> A sailplane's panel is spartan: three pressure instruments, a radio and not much else. That is exactly why you need to understand what each one measures and how it fails.
+> A sailplane's panel is spartan: three pressure instruments, a radio and not much else. With so few, you need to know what each one measures and how it fails.
 >
 >
 > In this chapter you will learn:
@@ -35,7 +35,7 @@ Pressure sources are a magnet for insects. A spider's nest in the pitot will mak
 
 1. **Airspeed indicator (ASI)**: shows the indicated airspeed (*IAS*). It is the most important instrument for safety; if it fails, fly by the sound of the air and the attitude of the nose.
 2. **Altimeter**: works as a barometer calibrated in feet or metres. It shows height above a reference (QNH or QFE).
-3. **Variometer**: shows vertical speed. In a sailplane it is vital for knowing whether you are in rising air (a thermal) or sinking air.
+3. **Variometer**: shows vertical speed. In a sailplane, it is how you know whether you are in rising air (a thermal) or sinking air.
 
 ### The colour arcs on the airspeed indicator
 
@@ -83,9 +83,9 @@ Modern electronic variometers add audio signals (beeps) that let you centre the 
 
 ## Avionics: communication and safety
 
-* **VHF radio**: essential for coordinating at the airfield and with air traffic control. Keep transmissions short to save the battery.
+* **VHF radio**: how you coordinate at the airfield and with air traffic control. Keep transmissions short to save the battery.
 * **Transponder**: makes the sailplane visible to controllers' radars and to the anti-collision systems (TCAS) of airliners.
-* **FLARM**: the star system of gliding. It warns of other sailplanes nearby and of possible collision courses, with visual and audio alerts.
+* **FLARM**: the anti-collision system built for gliding. It warns of other sailplanes nearby and of possible collision courses, with visual and audio alerts.
 
 ![FLARM detecting another sailplane below, “at eleven o'clock”](imagenes/08-cap06-4-2-ver-y-evitar.png){#fig-08-cap06-4-2-ver-y-evitar}
 
@@ -99,6 +99,6 @@ Some sailplanes also carry a magnetic compass and, as the cheapest and most reli
 * **Airspeed indicator**: know your colour arcs. White (flapped sailplanes only): positive settings, up to V~FE~; negative settings are used faster and their limit is on the placard, not on the dial. Green: normal, up to V~RA~ (rough-air speed). Yellow: caution, from V~RA~ to V~NE~ (smooth air only). Red line: V~NE~, danger to life. Yellow triangle: approach speed at maximum mass without water ballast.
 * **Minimum equipment (SAO.IDE.105)**: time, pressure altitude and indicated airspeed for every sailplane (plus magnetic heading if powered). For cloud or night, vertical speed, attitude or turn and slip, and magnetic heading are added.
 * **Altimeter**: remember to set it. QNH for altitude above mean sea level (routes, airspace); QFE for height above the airfield (circuit).
-* **Variometer (total energy)**: the key tool. It ignores “stick thermals” (which trade speed for height) and only tells you whether the air mass is rising or sinking.
+* **Variometer (total energy)**: the instrument you use most. It ignores “stick thermals” (which trade speed for height) and only tells you whether the air mass is rising or sinking.
 * **Avionics**: VHF radio, transponder and FLARM. FLARM is the anti-collision safety net of gliding.
 :::

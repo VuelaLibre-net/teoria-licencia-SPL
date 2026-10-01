@@ -22,14 +22,14 @@ The emergency parachute is the equipment no pilot wants to use for the first tim
 
 Most sailplane parachutes are manually opened. The canopy is packed in a container that the pilot wears on their back and which also serves as the seat back.
 
-It is not a passive object: it is a precision mechanical system with its own care requirements.
+It is a precision mechanical system, and it needs looking after.
 
 * **Damp**: sweat or rain make the fabric stick together and delay opening.
 * **UV rays**: sunlight degrades the nylon fibres. Always keep the parachute in its bag or inside the closed cockpit.
 
 ## Maintenance and packing
 
-The air trapped between the folds of the fabric is gradually lost over time. That is why the manufacturer requires periodic repacking by certified staff (usually every 6 or 12 months, depending on the model). Parachutes also have a maximum service life (often 15 or 20 years) set by the manufacturer, after which they are withdrawn from service.
+Over time, the air trapped between the folds of the fabric is gradually lost. So the manufacturer requires periodic repacking by certified staff (usually every 6 or 12 months, depending on the model). Parachutes also have a maximum service life (often 15 or 20 years) set by the manufacturer, after which they are withdrawn from service.
 
 ::: {.callout-tip title="Golden rule"}
 A parachute packed a week ago opens much sooner than one packed a year ago. Do not stretch the inspection periods: those seconds of difference in opening can be vital at low height.

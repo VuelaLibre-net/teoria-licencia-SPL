@@ -7,13 +7,13 @@ origen-commit: 7a61500
 
 ***Subject 8 of 9 of the theoretical examination for the Sailplane Pilot Licence (SPL)***
 
-A modern carbon-fibre sailplane is a piece of precision engineering. It is also a machine that fails in specific, predictable ways if it is not maintained, or if the pilot does not know what they are looking at during the pre-flight inspection.
+A modern carbon-fibre sailplane is precision engineering. It is also a machine that fails in specific, predictable ways when nobody maintains it, or when the pilot does not know what they are looking at during the pre-flight inspection.
 
 Internal delamination hidden under the gelcoat. An expired ARC that leaves every flight without legal cover. A tired battery that leaves the pilot without a radio at the worst possible moment.
 
-Fourteen chapters give the pilot the technical knowledge to tell when their sailplane is fit to fly and when it is not.
+Over fourteen chapters you will learn enough about the machine to tell when your sailplane is fit to fly and when it is not.
 
-The pilot who knows their sailplane inside out is never caught by a surprise they cannot recover from.
+Know your sailplane inside out, and it will not spring a surprise you cannot recover from.
 <!-- GUÍA-DE-LECTURA: desde esta marca hasta el final, el texto es idéntico en
      los libros de la edición inglesa. Si lo editas, propágalo a los demás.
      Todo lo anterior es propio de este libro. -->

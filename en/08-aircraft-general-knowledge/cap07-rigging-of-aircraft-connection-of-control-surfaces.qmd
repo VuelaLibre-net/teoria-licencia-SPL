@@ -17,7 +17,7 @@ origen-commit: 3da730a
 > * **The Positive Control Check (PCC)**: the check with a helper that closes the rigging.
 > * **Taping**: why the tape over the joints is not there for looks.
 
-Rigging is one of the most safety-critical stages. A badly assembled sailplane behaves unpredictably or, at worst, suffers a catastrophic failure in flight. Your best tools are discipline and following the Aircraft Flight Manual (AFM) to the letter.
+Rigging is one of the jobs that matter most to safety. A badly assembled sailplane behaves unpredictably or, at worst, suffers a catastrophic failure in flight. Your best tools are discipline and the Aircraft Flight Manual (AFM), followed to the letter.
 
 ## The rigging process
 

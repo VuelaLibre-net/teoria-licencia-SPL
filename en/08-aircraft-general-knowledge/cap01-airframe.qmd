@@ -28,8 +28,8 @@ Materials have changed over the decades, from the ash and spruce of the pioneers
 
 The great majority of modern sailplanes are built from composite materials, above all glass-reinforced plastic (*GRP*) and carbon-reinforced plastic (*CRP*).
 
-* **Glass fibre**: the industry standard since the late 1950s. A good strength-to-weight ratio, and surfaces that can be moulded extremely smooth.
-* **Carbon fibre**: more modern and more expensive. It allows very stiff, strong parts with little mass, although the result depends on how the fibres are oriented and how the laminate is built. Its main advantage over glass fibre is greater stiffness, which is why it is used in the most heavily loaded areas and in high-performance sailplanes.
+* **Glass fibre**: the industry standard since the late 1950s. Good strength for its weight, and it can be moulded into very smooth surfaces.
+* **Carbon fibre**: more modern and more expensive. It allows very stiff, strong parts with little mass, although the result depends on how the fibres are oriented and how the laminate is built. What it mainly adds over glass fibre is stiffness, so it goes into the most heavily loaded areas and into high-performance sailplanes.
 
 ::: {.callout-note title="Airmanship"}
 Composite sailplanes are almost always white for a technical reason, not an aesthetic one: the epoxy resin that binds the fibres loses mechanical properties if it gets too hot. White reflects solar radiation and keeps the structure within its temperature limits.
@@ -73,7 +73,7 @@ The Perspex canopy is, together with your eyes, your main defence against collis
 * **Emergency exit**: each type has its own procedure. Depending on the design, it may mean opening the canopy, jettisoning it, or operating two handles in a set order. Find the handles on the ground and learn the AFM sequence with your instructor; colour or position is not enough to guess it.
 * **Caring for the Perspex**: use plenty of water or an approved product and a clean, soft cloth, without rubbing it dry. Do not use solvents or household cleaners unless the manufacturer allows them.
 
-The illustration below shows one particular configuration. The numbers 16 and 3 are only there to read this drawing: **they are not a valid sequence for every sailplane**. In the aircraft you are going to fly, the AFM and the markings on its own handles are what count.
+The illustration below shows one particular configuration. The numbers 16 and 3 belong to this drawing only: **they are not a valid sequence for every sailplane**. In the aircraft you are going to fly, the AFM and the markings on its own handles are what count.
 
 ![Example of a cockpit with two red handles for emergency opening.](imagenes/08-cap01-8-1-2-1-cabina-de-un-planeador.png){#fig-08-cap01-8-1-2-1-cabina-de-un-planeador fig-alt="Drawing of a cockpit with numbered controls. A warning highlights handles 16 and 3 as part of one particular emergency opening configuration, not as a general procedure."}
 

@@ -27,6 +27,9 @@ only.
 
 * **cap01, cap02, cap04, cap06, cap09, cap10, cap12 and cap13** — a pass on the prose: about fifteen
   long sentences split or made more direct. Content, figures and terminology unchanged.
+* **Introduction and cap01–cap03, cap05–cap08, cap10, cap11, cap13 and cap14** — a second pass on
+  the prose: about thirty set phrases made plainer and more direct. Content, figures and
+  terminology unchanged.
 * **cap04 and its Anki deck** — the Spanish *Certificado de Pesaje* is called the weighing record,
   as in book 07.
 

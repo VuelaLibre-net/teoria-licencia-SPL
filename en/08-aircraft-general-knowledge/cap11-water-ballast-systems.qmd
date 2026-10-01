@@ -17,7 +17,7 @@ origen-commit: 3da730a
 > * **The risks**: freezing, asymmetric dumping and landing with water.
 > * **Fin ballast**: the counterweight that restores the best balance.
 
-**Water ballast** is what lets competition sailplanes match their weight to the conditions of the day. With more weight, the sailplane flies faster while losing less height, which is decisive for covering long distances when the thermals are strong.
+**Water ballast** lets competition sailplanes match their weight to the conditions of the day. With more weight, the sailplane flies faster while losing less height, which is decisive for covering long distances when the thermals are strong.
 
 ## What it is for: wing loading and speed
 
@@ -35,7 +35,7 @@ The system is simple in concept, but it needs scrupulous maintenance:
 
 ## Filling and dumping
 
-The tanks are filled through openings on the upper surface of the wing. It is essential that both wings take the same amount of water, to keep lateral symmetry.
+The tanks are filled through openings on the upper surface of the wing. Both wings must take the same amount of water, to keep the sailplane laterally balanced.
 
 Dumping in flight usually takes between 3 and 8 minutes, depending on the sailplane. When you open the valves you will see two trails of water coming out of the wings: confirmation that the system is working.
 
