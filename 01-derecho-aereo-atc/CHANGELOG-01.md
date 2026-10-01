@@ -229,6 +229,18 @@ capítulos:
 * **Licencia (preliminares)** — el syllabus se atribuía a «EASA-FCL»; el AMC1 SFCL.130 pertenece a
   la Part-SFCL. Hallazgo NOR-19 de la auditoría del libro 01; el rótulo «Validación por AESA» se
   mantiene.
+* **cap01, AMC y medios alternativos** — «si sigues los AMC, automáticamente cumples la norma» y
+  el medio alternativo «con bastante papeleo» exageraban. Los AMC son la vía reconocida para
+  demostrar el cumplimiento; un medio alternativo (AltMoC) debe garantizar que se cumple igual, y en
+  operaciones de planeador no necesita aprobación de la autoridad (GM1 SAO.GEN.110(b)(2)).
+* **cap01, precisiones** — el Reglamento 2018/1139 es la norma de mayor rango del sistema de EASA,
+  no «del sistema europeo» (por encima están los Tratados); el 2018/1976 es un Reglamento de
+  Ejecución; y el TMG, la acrobacia y el remolque no son todos «habilitaciones». Los pies de las
+  figuras de las libertades y de la estructura normativa avisan de sus errores.
+* **cap02, CofA** — su validez ilimitada tiene las condiciones de 21.A.181: diseño de tipo y
+  mantenimiento, misma matrícula, certificado de tipo no anulado y CofA no revocado ni objeto de
+  renuncia. La Part-ML es el «Anexo V ter» en la versión española, no el «Anexo Vb». El pie de la
+  figura del CofA avisa de que el modelo cita un reglamento derogado y es de un avión.
 
 ### Añadido
 

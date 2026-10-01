@@ -21,7 +21,7 @@ La OACI fija los estándares mínimos que sus 193 estados miembros deben cumplir
 
 Para que el transporte aéreo internacional fuera posible, el Convenio de Chicago sentó las bases de las **libertades del aire** (ver @fig-01-cap01-chicago-freedoms): acuerdos que dan a las aeronaves de un Estado permiso para entrar en el espacio aéreo de otro o sobrevolarlo. La conferencia de Chicago definió las cinco primeras en acuerdos anejos al Convenio (el sobrevuelo, la escala técnica y los derechos comerciales básicos), pero el derecho aéreo ha seguido evolucionando y hoy se reconocen nueve.
 
-![Las libertades del aire según el Convenio de Chicago](imagenes/01-cap01-libertades-chicago.jpg){#fig-01-cap01-chicago-freedoms}
+![Las libertades del aire según el Convenio de Chicago. En la quinta libertad, el país en azul es, como en las demás, el de origen de la aeronave, aunque el dibujo lo rotule «país extranjero A».](imagenes/01-cap01-libertades-chicago.jpg){#fig-01-cap01-chicago-freedoms}
 
 ## La autoridad en Europa: EASA y el sistema común
 
@@ -40,21 +40,21 @@ La normativa de EASA se organiza en capas con distinta fuerza legal (@fig-01-cap
 Es la normativa de obligado cumplimiento. Nadie queda eximido de ella salvo que la autoridad le conceda una exención por escrito. Tiene dos niveles:
 
 * **Reglamento Base** (**Basic Regulation**): la "Constitución" de la seguridad aérea en Europa, actualmente el Reglamento (UE) 2018/1139. Establece los principios esenciales y los objetivos de alto nivel.
-* **Reglamentos de Ejecución** (**Implementing Rules**, IRs): las leyes detalladas que desarrollan el reglamento base. Por ejemplo, el Reglamento (UE) 2018/1976 (actualizado por el 2020/358) regula específicamente las licencias de planeador.
+* **Reglamentos de Ejecución** (**Implementing Rules**, IRs): las leyes detalladas que desarrollan el reglamento base. Por ejemplo, el Reglamento de Ejecución (UE) 2018/1976 (actualizado por el 2020/358) regula específicamente las licencias de planeador.
 
 ::: {.callout-important title="Normativa"}
-El Reglamento (UE) 2018/1139 (Reglamento Base) establece las normas comunes en el ámbito de la aviación civil y crea la Agencia de la Unión Europea para la Seguridad Aérea (EASA). Es la norma de mayor rango en el sistema europeo.
+El Reglamento (UE) 2018/1139 (Reglamento Base) establece las normas comunes en el ámbito de la aviación civil y crea la Agencia de la Unión Europea para la Seguridad Aérea (EASA). Es la norma de mayor rango del sistema normativo de EASA; por encima sólo están los Tratados de la Unión.
 :::
 
 ### Estándares no vinculantes: cómo cumplir la ley
 
 Son documentos que ayudan a cumplir la ley sin ser ley en sí mismos. Que no te engañe la etiqueta de "no vinculantes": en aviación se siguen casi a rajatabla.
 
-* **AMC** (**Acceptable Means of Compliance**, Medios Aceptables de Cumplimiento): métodos y procedimientos que EASA publica como forma segura de cumplir la normativa vinculante. Si sigues los AMC, automáticamente cumples la norma. Si prefieres hacerlo de otra forma, tendrás que demostrar, con bastante papeleo, que tu método es igual de seguro.
+* **AMC** (**Acceptable Means of Compliance**, Medios Aceptables de Cumplimiento): métodos y procedimientos que EASA publica como vía reconocida para demostrar que cumples la normativa vinculante. Si prefieres hacerlo de otra forma —un medio alternativo de cumplimiento, AltMoC—, debes poder justificar que cumples igualmente la norma. En las operaciones de planeador, ese medio alternativo no necesita la aprobación de la autoridad, aunque en las comerciales que exigen declaración hay que notificárselo (GM1 SAO.GEN.110(b)(2)).
 * **GM** (**Guidance Material**, Material Guía): explicaciones, interpretaciones y ejemplos para entender los requisitos. No obliga; ayuda.
 * **CS** (**Certification Specifications**): estándares técnicos para certificar aeronaves y productos. El que nos toca es el CS-22, el de planeadores.
 
-![Estructura normativa EASA: normativa vinculante vs estándares no vinculantes](imagenes/01-cap01-estructura-normativa-easa.jpg){#fig-01-cap01-hard-soft-law}
+![Estructura normativa EASA: normativa vinculante vs estándares no vinculantes. Las CS son especificaciones de certificación de aeronaves y productos, no medios de cumplimiento de los reglamentos.](imagenes/01-cap01-estructura-normativa-easa.jpg){#fig-01-cap01-hard-soft-law}
 
 ::: {.callout-tip title="Regla de oro"}
 * **Normativa vinculante (Reglamentos)** = **QUÉ** debes cumplir (obligatorio).
@@ -67,7 +67,7 @@ De toda la sopa de letras normativa, hay tres reglamentos que acabarás conocien
 
 ### 1. Part-SFCL (licencias)
 
-El **Sailplane Flight Crew Licensing** regula todo lo relativo a tu licencia: los requisitos para obtener la SPL (**Sailplane Pilot Licence**), la experiencia reciente que necesitas para mantenerla, las habilitaciones (TMG, acrobacia, remolque…​) y los privilegios de instructores y examinadores. Nace del Reglamento de Ejecución (UE) 2018/1976 y sus modificaciones, como el 2020/358.
+El **Sailplane Flight Crew Licensing** regula todo lo relativo a tu licencia: los requisitos para obtener la SPL (**Sailplane Pilot Licence**), la experiencia reciente que necesitas para mantenerla, la extensión al motovelero de turismo (TMG), las atribuciones de acrobacia y la habilitación de remolque y los privilegios de instructores y examinadores. Nace del Reglamento de Ejecución (UE) 2018/1976 y sus modificaciones, como el 2020/358.
 
 ### 2. Part-SAO (operaciones)
 
