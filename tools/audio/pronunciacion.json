@@ -1,0 +1,36 @@
+{
+  "literales": {
+    "EASA": "EASA",
+    "AESA": "AESA",
+    "ICAO": "OACI",
+    "OACI": "OACI",
+    "ATC": "A T C",
+    "ATS": "A T S",
+    "VFR": "V F R",
+    "IFR": "I F R",
+    "QNH": "Q N H",
+    "QFE": "Q F E",
+    "METAR": "METAR",
+    "SPECI": "SPECI",
+    "TAF": "TAF",
+    "SIGMET": "SIGMET",
+    "NOTAM": "NOTAM",
+    "FLARM": "flarm",
+    "VNE": "uve ene e",
+    "VNO": "uve ene o",
+    "VFE": "uve efe e",
+    "VSO": "uve ese o"
+  },
+  "unidades": {
+    "km/h": "kilómetros por hora",
+    "m/s": "metros por segundo",
+    "ft/min": "pies por minuto",
+    "ft": "pies",
+    "kt": "nudos",
+    "kts": "nudos",
+    "hPa": "hectopascales",
+    "J/kg": "julios por kilogramo",
+    "°C": "grados Celsius",
+    "%": "por ciento"
+  }
+}
