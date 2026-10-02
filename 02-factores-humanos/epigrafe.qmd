@@ -3,5 +3,5 @@
 ::: {.epigrafe}
 «Un buen piloto es aquel que utiliza su excelente juicio para evitar situaciones que requieran su excelente habilidad.»
 
- — Frank Borman (1968), astronauta comandante de la misión Apolo 8 y piloto de combate de la USAF.
+ — Frank Borman, astronauta comandante de la misión Apolo 8 y piloto de combate de la USAF.
 :::

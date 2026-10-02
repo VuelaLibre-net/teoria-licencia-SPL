@@ -1,13 +1,13 @@
 ---
 origen: 02-factores-humanos/introduccion.qmd
-origen-commit: 7a61500
+origen-commit: f221486
 ---
 
 # How to Read This Book {.unnumbered}
 
 ***Subject 2 of 9 of the theoretical examination for the Sailplane Pilot Licence (SPL)***
 
-In 90 % of gliding accidents, the main cause is a human factor. This is not incompetence. People have physiological and psychological limits, and those limits do not go away when they climb into a glider. Fatigue wears down decision-making. Peer pressure pushes you to take off when the right decision is to stay on the ground.
+In the vast majority of gliding accidents, the main cause is a human factor. This is not incompetence. People have physiological and psychological limits, and those limits do not go away when they climb into a glider. Fatigue wears down decision-making. Peer pressure pushes you to take off when the right decision is to stay on the ground.
 
 Four chapters take you from the SHELL model to the IMSAFE check: the tools that separate pilots who manage their limits from pilots who ignore them.
 

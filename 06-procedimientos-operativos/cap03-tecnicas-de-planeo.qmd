@@ -88,7 +88,7 @@ El **vuelo de onda** (**wave soaring**) ocurre cuando, con viento fuerte y condi
 ![Esquema de la onda orográfica y sus zonas de vuelo](imagenes/06-cap03-onda-esquema.png){#fig-06-cap03-onda-esquema}
 
 ::: {.callout-note title="Airmanship"}
-El vuelo de onda a gran altitud requiere equipamiento específico: oxígeno a partir de los 3.000-4.000 metros según la autonomía y condición del piloto, ropa de abrigo adecuada y un altímetro calibrado. Antes de un vuelo de onda planificado, consulta el espacio aéreo: es frecuente que las altitudes de onda coincidan con zonas restringidas o reservadas para el tráfico controlado, que requieren autorización previa.
+El vuelo de onda a gran altitud requiere equipamiento específico: oxígeno cuando el piloto al mando determine que su falta puede mermar las facultades de los ocupantes (SAO.OP.150) y, si no puede valorarlo, por encima de 10.000 ft, unos 3.000 m (AMC1 SAO.OP.150), ropa de abrigo adecuada y un altímetro calibrado. Antes de un vuelo de onda planificado, consulta el espacio aéreo: es frecuente que las altitudes de onda coincidan con zonas restringidas o reservadas para el tráfico controlado, que requieren autorización previa.
 :::
 
 ## Gestión del lastre de agua (*water ballast*)

@@ -16,7 +16,7 @@ rompe la compilación.
 
 ## [En curso]
 
-**Qué releer:** **Glosario, entrada «Lastre (ballast)»**, que es nueva, el **epígrafe** y el **cap09, Programa Mínimo de Inspección**. En cap04 sólo cambia el término inglés entre paréntesis. Además, **cap08** (ARC y seguro), **cap09** (prórroga del ARC, ML.A.902), **cap14** (AMC del oxígeno), la **licencia** de los preliminares y la **Bibliografía**.
+**Qué releer:** **Glosario, entrada «Lastre (ballast)»**, que es nueva, el **epígrafe** y el **cap09, Programa Mínimo de Inspección**. En cap04 sólo cambia el término inglés entre paréntesis. Además, **cap08** (ARC y seguro), **cap09** (prórroga del ARC, ML.A.902), **cap14** (AMC del oxígeno, cita de SAO.OP.150, regla «oxígeno y desciende» y límite de la cánula), la **licencia** de los preliminares y la **Bibliografía**.
 
 ### Añadido
 
@@ -24,6 +24,11 @@ rompe la compilación.
 
 ### Corregido
 
+* **cap14, oxígeno** — tres derivados de la auditoría del libro 02 del 1 de octubre de 2026. La cita
+  de SAO.OP.150 pasa al texto literal español del Reglamento de Ejecución (UE) 2018/1976. La regla
+  «oxígeno al 100 % y desciende» pasa a «oxígeno y desciende», como en el libro 02, porque el 100 %
+  es un ajuste de los reguladores de mascarilla, no de la cánula ni del EDS. Y se añade que la
+  cánula sólo sirve hasta unos 18.000 ft: por encima hace falta mascarilla.
 * **Bibliografía, SERA y Real Decreto 1180/2018** — la entrada de SERA decía que «en España se aplica
   mediante el Real Decreto 552/2014». SERA es un reglamento de la UE y se aplica directamente, sin
   transposición; y el RD 552/2014 está derogado desde el 11 de noviembre de 2018 por el Real Decreto
@@ -39,6 +44,9 @@ rompe la compilación.
   1189/2011 y 1029/2025; Orden FOM/1687/2015), el enlace consolidado de la Ley 21/2003 y los anexos
   17 y 18 entre los más relevantes. El 2018/1976 se cita como Reglamento de Ejecución. Hallazgo
   NOR-18 de la auditoría del libro 01.
+  La lista ya no se presenta como «versiones consolidadas»: los enlaces llevan a la norma original,
+  desde la que EUR-Lex y el BOE dan acceso a la consolidada (hallazgo NOR-10 de la auditoría del
+  libro 02).
 * **Licencia (preliminares)** — el syllabus se atribuía a «EASA-FCL»; el AMC1 SFCL.130 pertenece a
   la Part-SFCL. Hallazgo NOR-19 de la auditoría del libro 01; el rótulo «Validación por AESA» se
   mantiene.

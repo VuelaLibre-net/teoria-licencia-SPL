@@ -13,24 +13,31 @@ tarjetas:
     tipo: basica
     anverso: ¿Qué explica la **ley de Dalton** sobre la hipoxia?
     reverso: |
-      **Que la presión atmosférica baja con la altitud, y con ella la presión
-      parcial de oxígeno**, así que el oxígeno se transfiere peor a la sangre.
+      **Que la presión parcial de cada gas es su parte de la presión total:**
+      el oxígeno es siempre el 21 %, así que, al bajar la presión atmosférica
+      con la altitud, baja con ella su presión parcial y el oxígeno se
+      transfiere peor a la sangre.
 
   - id: ley-de-boyle
     tipo: basica
     anverso: ¿Qué explica la **ley de Boyle** en vuelo?
     reverso: |
-      **Que los gases corporales se expanden al ascender.**
+      **Que los gases corporales se expanden al ascender y se contraen al
+      descender.**
 
-      De ahí el barotrauma de oídos y senos si vuelas con congestión.
+      De ahí el barotrauma de oídos y senos si vuelas con congestión, sobre
+      todo en el descenso.
     etiquetas: [Airmanship]
 
   - id: mecanismo-de-la-hipoxia
     tipo: basica
     anverso: ¿Qué ocurre en el cuerpo cuando aparece la **hipoxia**?
     reverso: |
-      **Que la presión es insuficiente para cargar la hemoglobina en los
-      alvéolos, y los glóbulos rojos llegan vacíos al cerebro.**
+      **Que la menor presión parcial de oxígeno carga menos la hemoglobina, y
+      el cerebro recibe menos oxígeno del que necesita.**
+
+      Es progresivo: la saturación ronda el 89 % a 10.000 ft y el 65 % a
+      20.000 ft.
 
   - id: cuatro-clases-de-hipoxia
     tipo: cloze
@@ -38,15 +45,15 @@ tarjetas:
       Clases de hipoxia: {{c1::hipóxica}} (baja presión atmosférica, la más
       frecuente en planeador), {{c2::hipémica}} (monóxido de carbono,
       tabaquismo), {{c3::estancada}} (fuerzas G en virajes cerrados) e
-      {{c4::histotóxica}} (alcohol, drogas o medicamentos).
+      {{c4::histotóxica}} (alcohol, narcóticos o tóxicos).
 
   - id: primer-sintoma-hipoxia
     tipo: basica
-    anverso: ¿Cuál es el **primer síntoma** de la hipoxia y por qué es el más traicionero?
+    anverso: ¿Qué síntoma temprano de la hipoxia es el más traicionero, y por qué?
     reverso: |
       **La euforia: el piloto no percibe el peligro por sí mismo.**
 
-      Después llegan somnolencia, dificultad para calcular, cianosis y pérdida
+      El orden de los síntomas varía de una persona a otra. Después llegan somnolencia, dificultad para calcular, cianosis y pérdida
       de conciencia.
     etiquetas: [Seguridad]
 
@@ -56,6 +63,7 @@ tarjetas:
     reverso: |
       **3 a 5 minutos a 25.000 ft; 1 a 2 minutos a 30.000 ft.**
 
+      Son valores medios de la FAA: varían mucho de una persona a otra.
       Un descenso largo puede superar el TUC disponible: actúa antes de
       necesitarlo.
 
@@ -63,51 +71,61 @@ tarjetas:
     tipo: basica
     anverso: Regla de actuación ante fallo de oxígeno o sospecha de hipoxia.
     reverso: |
-      **«Oxígeno al 100 % y desciende»**, por debajo de 10.000 ft y sin dudarlo.
+      **«Oxígeno y desciende»**: el equipo al máximo aporte y abajo, por
+      debajo de 10.000 ft, sin dudarlo.
 
       A cierta altitud el TUC no da para pensar.
     etiquetas: [Regla de oro]
 
   - id: distinguir-hipoxia-de-hiperventilacion
     tipo: basica
-    anverso: ¿Cómo se distingue **hipoxia** de **hiperventilación**?
+    anverso: ¿Qué se hace ante síntomas que pueden ser de **hipoxia** o de **hiperventilación**?
     reverso: |
-      Por **altitud** y **estado emocional**:
+      **No diagnosticar en vuelo: actuar por orden.**
 
-      * Por encima de 10.000 ft con euforia o aletargamiento → **hipoxia**:
-        oxígeno al 100 % y descender.
-      * Por debajo de 10.000 ft con hormigueo, sudoración y ansiedad →
-        **hiperventilación**: bajar el ritmo respiratorio.
+      1. Primero la hipoxia: oxígeno al máximo aporte, comprobar el equipo y,
+         si estás alto, descender.
+      2. Si no mejora, tratar la hiperventilación: bajar el ritmo respiratorio.
 
-      **En caso de duda a gran altitud, trata la hipoxia.**
+      Los síntomas se parecen, y la hipoxia también aparece por debajo de
+      10.000 ft (CO, noche, tabaco).
     etiquetas: [Regla de oro]
 
+  # El id se conserva aunque la tarjeta diga ya lo contrario: es la identidad
+  # de la nota en la colección del alumno (auditoría del libro 02, TEC-04).
   - id: no-dar-oxigeno-en-hiperventilacion
     tipo: basica
-    anverso: ¿Se da oxígeno suplementario ante una **hiperventilación**?
+    anverso: Si sospechas una **hiperventilación** pero no descartas la hipoxia, ¿das oxígeno?
     reverso: |
-      **No, si estás a baja altitud: agravaría el desequilibrio de CO₂.**
+      **Sí: ante la duda, trata primero la hipoxia.** Activa o aumenta el
+      oxígeno, comprueba el equipo y después controla el ritmo respiratorio.
 
-      Si no puedes confirmar que estás por debajo de 10.000 ft, prioriza tratar
-      la hipoxia.
+      El oxígeno no empeora una hiperventilación, y las dos pueden darse a la
+      vez.
+
+      *Fundamento: OACI, Doc 8984; FAA, AIM 8-1-3.*
     etiquetas: [Seguridad]
 
   - id: hiperventilacion-causa
     tipo: basica
     anverso: ¿Cuál es la causa de la **hiperventilación** y qué síntomas da?
     reverso: |
-      **Estrés o ansiedad, no falta de oxígeno.**
+      **Sobre todo el estrés o la ansiedad**, aunque también puede acompañar a
+      la hipoxia.
 
       Al exhalar CO₂ en exceso los vasos cerebrales se contraen: hormigueo,
       calambres y mareo, muy parecidos a los de la hipoxia.
 
   - id: sao-op-150-oxigeno
     tipo: basica
-    anverso: ¿Cuándo es obligatorio el **oxígeno suplementario**?
+    anverso: ¿Qué exige el reglamento europeo de operaciones con planeadores sobre el oxígeno, y qué regla por defecto da su medio aceptable de cumplimiento?
     reverso: |
-      **Cuando el piloto al mando determine que su falta puede disminuir las
-      facultades de los ocupantes**; y si no puede determinarlo, **siempre por
-      encima de 10.000 ft** de altitud de presión.
+      **El reglamento: usarlo cuando el piloto al mando determine que su falta
+      puede disminuir las facultades de los ocupantes.** No fija ninguna cifra.
+
+      El AMC1, medio aceptable de cumplimiento, dice que, si no puede
+      determinarlo, **debería** usarse por encima de **10.000 ft** de altitud
+      de presión.
 
       *Fundamento: Part-SAO, SAO.OP.150, y su AMC1.*
     etiquetas: [Normativa]
@@ -127,7 +145,8 @@ tarjetas:
     tipo: basica
     anverso: Compara el sistema de **flujo continuo** con el de **demanda pulsada (EDS)**.
     reverso: |
-      **Flujo continuo**: sencillo, pero consume más y reseca las mucosas.
+      **Flujo continuo**: sencillo, pero consume más y reseca las mucosas. Con
+      cánula, sólo hasta unos 18.000 ft; por encima, mascarilla.
       **EDS**: multiplica la autonomía de la botella, pero depende de pilas que
       pueden fallar con el frío.
 
@@ -135,11 +154,9 @@ tarjetas:
     tipo: basica
     anverso: ¿Por qué **oxígeno de aviación** y no medicinal?
     reverso: |
-      **Porque el medicinal lleva más humedad, que puede congelarse en el
-      regulador en altitud y bloquear el flujo.**
-
-      Usa sólo el etiquetado «para uso aeronáutico»: seco, pureza superior al
-      98,5 %.
+      **Porque ni el medicinal ni el industrial cumplen las especificaciones
+      del oxígeno de aviación: su idoneidad para el vuelo no está
+      garantizada.**
     etiquetas: [Seguridad]
 
   - id: grasas-y-oxigeno
@@ -155,8 +172,12 @@ tarjetas:
 
   - id: presion-de-la-botella
     tipo: basica
-    anverso: ¿Qué presión debe tener la botella de oxígeno antes del vuelo?
-    reverso: "**Entre 150 y 200 bar.**"
+    anverso: ¿Qué se comprueba en el manómetro de la botella de oxígeno antes del vuelo?
+    reverso: |
+      **Que la presión basta para el vuelo previsto con reserva**, según la
+      capacidad de la botella y la tabla de autonomía del fabricante.
+
+      La presión de llenado depende de la botella, y baja con el frío.
 
   - id: pulsioximetro-umbral
     tipo: basica
@@ -165,9 +186,10 @@ tarjetas:
       **Por encima del 90 %.** Por debajo, activa el oxígeno y desciende de
       inmediato.
 
-      El pulsioxímetro detecta la hipoxia antes de que los síntomas sean
-      evidentes. Registra tus valores a distintas altitudes: no todos
-      respondemos igual.
+      El pulsioxímetro ayuda a detectar la hipoxia antes de que los síntomas
+      sean evidentes, pero no es un sustituto: con monóxido de carbono marca
+      valores normales, y el frío o el movimiento lo falsean. Ante síntomas,
+      actúa aunque la lectura sea buena.
     etiquetas: [Airmanship]
 
   - id: checklist-de-hipoxia

@@ -13,10 +13,13 @@ was translated from (`origen-commit`). Terminology follows `en/terminologia.yml`
 
 ## [In progress]
 
-**What to reread:** **cap09, Minimum Inspection Programme and ARC extension**, **cap08** (ARC and insurance), **cap14** (oxygen AMC), the licence and the bibliography. The rest is wording only.
+**What to reread:** **cap09, Minimum Inspection Programme and ARC extension**, **cap08** (ARC and insurance), **cap14** (oxygen AMC, “oxygen and descend” and the cannula limit), the licence and the bibliography. The rest is wording only.
 
 ### Fixed
 
+* **cap14, oxygen** — ported from the Spanish edition (audit of book 02): the rule becomes
+  “oxygen and descend”, because 100 % is a setting of mask regulators, not of a cannula or an EDS;
+  and a cannula is only good up to about 18,000 ft, above which you need a mask.
 * **cap08, insurance** — “without a valid ARC the insurance covers nothing” becomes “the insurer
   may refuse to cover you or seek recovery from you, depending on the policy”, also in the
   chapter opening. Ported from the Spanish edition.
@@ -27,6 +30,8 @@ was translated from (`origen-commit`). Terminology follows `en/terminologia.yml`
   new entries for Royal Decree 1180/2018 (which repealed Royal Decree 552/2014) and for the other
   regulations cited in the collection, with links to their consolidated versions; Annexes 17 and 18
   among the most relevant; and the syllabus is attributed to Part-SFCL, not “EASA-FCL”.
+  The list of other regulations is no longer described as “consolidated versions”: the links go
+  to the original act, from which EUR-Lex and the BOE give access to the consolidated one.
 * **cap09 and its Anki deck, Minimum Inspection Programme (ML.A.302)** — the floor of “every year
   or every 100 h, whichever comes first” was applied to every sailplane. The Part-ML MIP requires
   an annual inspection for sailplanes and powered sailplanes, with no hours limit; the 100 h limit

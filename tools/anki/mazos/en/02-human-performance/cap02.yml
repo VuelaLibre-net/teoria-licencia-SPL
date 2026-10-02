@@ -18,28 +18,37 @@ tarjetas:
 
   - id: cuando-consultar-ame
     tipo: basica
-    anverso: When must you consult an **AME** before flying as pilot-in-command again?
+    anverso: When must you consult an **AME** before flying again?
     reverso: |
-      **After a significant injury, surgery, starting regular medication,
-      pregnancy or first wearing corrective lenses.**
+      **After surgery or an invasive medical procedure, when you start regular
+      medication, after a significant injury or illness that makes you unfit
+      to fly, in pregnancy, after a hospital admission or when you first need
+      corrective lenses.**
 
-      You must not fly as pilot-in-command until you are fit again
-      (**MED.A.020, *Decrease in medical fitness***).
+      With an LAPL medical certificate, the GMP who signed it also counts. You
+      do not exercise the privileges of your licence until the doctor declares
+      you fit (**MED.A.020, *Decrease in medical fitness***).
     etiquetas: [Regulation]
 
   - id: vision-de-color-ishihara
     tipo: basica
-    anverso: What happens if you fail the **colour discrimination** test (Ishihara)?
+    anverso: When does a glider pilot need **safe colour perception**?
     reverso: |
-      **Your Part-SFCL licence is restricted to daytime flight (Day VFR).**
+      **With an LAPL medical certificate, only when applying for a night
+      rating.**
+
+      With a class 2 certificate, the initial examination includes the
+      Ishihara test, and anyone who fails it is limited to daytime flight.
+
+      *Source: Part-MED, MED.A.030 and MED.B.075.*
     etiquetas: [Regulation]
 
   - id: disbarismos-congestion
     tipo: basica
     anverso: Why should you not fly with a **blocked nose** or a cold?
     reverso: |
-      **Because body gases expand as you climb, and barotrauma of the eardrums
-      and sinuses leaves you unable to fly.**
+      **Because in the descent the pressure cannot equalise in the ears and
+      sinuses, and barotrauma leaves you unable to fly.**
 
       It is an automatic **NO-GO**; the pain in the descent is terrible.
     etiquetas: [Airmanship]
@@ -59,8 +68,11 @@ tarjetas:
     tipo: basica
     anverso: What do you do before starting a turn?
     reverso: |
-      **Take a quick look back over the opposite side**, to rule out traffic in
-      the blind spot before banking.
+      **Clear the sector you are turning into first** (ahead, above, below and
+      towards the rear), then take a look at the opposite side and behind,
+      for the blind spot.
+
+      *Source: FAA, Glider Flying Handbook, ch. 7.*
     etiquetas: [Airmanship]
 
   - id: colision-frontal
@@ -70,9 +82,9 @@ tarjetas:
       **Because the other glider has no noticeable sideways movement in your
       visual field: it just suddenly grows bigger.**
 
-      You need at least 3 seconds to react, and you should preferably avoid by
-      **turning right**. It is the typical scenario on a ridge or a cloud
-      street.
+      Between seeing the dot and starting to move away, about 12.5 s go by:
+      spot traffic early. In a head-on encounter, SERA requires both to **turn
+      right**. It is the typical scenario on a ridge or a cloud street.
     etiquetas: [Safety]
 
   - id: mareo-y-biodramina
@@ -91,9 +103,10 @@ tarjetas:
     reverso: |
       **Only with a dedicated detector: it has no smell, colour or taste.**
 
-      At any symptom (headache, bright red lips) or if the patch changes colour:
-      **turn off the heating, open the ventilation fully, use oxygen if you
-      have it and land without delay.** A real danger in motor gliders.
+      At any symptom (headache, blurred vision, dizziness, drowsiness) or if the
+      patch changes colour: **turn off the heating, open the ventilation fully,
+      use oxygen if you have it and land without delay.** A real danger in
+      motor gliders.
     etiquetas: [Safety]
 
   - id: hipotermia-ropa
@@ -110,8 +123,8 @@ tarjetas:
     tipo: basica
     anverso: What causes **hyperventilation**, and how do you stop it?
     reverso: |
-      **Panic makes you pant, the CO₂ in your blood drops and numbness and loss
-      of vision set in.**
+      **Panic makes you pant, the CO₂ in your blood drops and numbness and
+      visual disturbances set in.**
 
       You stop it by deliberately slowing your breathing, with long breaths out,
       talking out loud or singing.
@@ -123,7 +136,7 @@ tarjetas:
       **By not stacking several “firsts” on the same flight.**
 
       New glider + unfamiliar aerodrome + gusty crosswind is an explosive mix:
-      the mind jumps from alarm to panic. Add the variables one at a time.
+      the mind jumps straight to panic. Add the variables one at a time.
     etiquetas: [Airmanship]
 
   - id: deshidratacion-retraso-sed
@@ -131,8 +144,7 @@ tarjetas:
     anverso: Why is it no good waiting until you are **thirsty** to drink?
     reverso: |
       **Because by the time you feel thirsty, dehydration has already cut into
-      your cognitive performance,** and water takes about 20 minutes to really
-      rehydrate you.
+      your cognitive performance.**
 
       The closed cockpit is a greenhouse. Drink regularly from take-off.
     etiquetas: [Golden rule]
@@ -141,7 +153,8 @@ tarjetas:
     tipo: basica
     anverso: How do you cure **fatigue**?
     reverso: |
-      **By sleeping. Nothing else works.**
+      **Acute fatigue, by resting and sleeping. Chronic fatigue does not ease
+      with normal rest: it needs medical advice.**
 
       Coffee and energy drinks mask the symptoms but do not restore your
       abilities. If it affects your attention or reasoning, it is **NO-GO**.
@@ -149,12 +162,15 @@ tarjetas:
 
   - id: alcohol-botella-al-mando
     tipo: basica
-    anverso: What does the **“bottle to throttle”** rule require?
+    anverso: What does the acceptable means of compliance set out for the **“bottle to throttle”** rule?
     reverso: |
       * **8 hours** without alcohol before the flight.
       * A blood alcohol level at the start of the flight below **0.2 g/l**, or
         the national limit if stricter.
       * **No alcohol during the flight.**
+
+      It is an AMC, not a legal limit: the rule (SAO.GEN.130(f) and SERA.2020)
+      forbids flying with impaired faculties, and a lower level is no defence.
 
       *Source: AMC1 SAO.GEN.130(f) & SAO.GEN.135(b), “Alcohol consumption”.
       Not to be confused with AMC1 SAO.GEN.130(f) on its own, which deals with
@@ -165,8 +181,9 @@ tarjetas:
     tipo: basica
     anverso: Can you fly after medicating yourself?
     reverso: |
-      **No.** Even allergy or travel-sickness tablets can make you too drowsy
-      to fly.
+      **Not with a medicine that could interfere with your ability to fly
+      (MED.A.020).** Many allergy or travel-sickness tablets can make you too
+      drowsy to fly. If in doubt, ask your medical examiner.
 
   - id: aut-tue-competicion
     tipo: basica
@@ -174,6 +191,7 @@ tarjetas:
     reverso: |
       **A Therapeutic Use Exemption (TUE), applied for in advance.**
 
-      There is doping control after landing; the document protects you from
-      sanctions.
+      It is granted by the national anti-doping organisation or the FAI,
+      depending on your level, and only covers the authorised use: that
+      substance, that dose and that route.
     etiquetas: [Airmanship]

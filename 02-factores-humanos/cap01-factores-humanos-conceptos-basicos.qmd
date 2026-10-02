@@ -15,15 +15,15 @@
 
 El vuelo a vela exige la coordinación constante entre el piloto, la aeronave y un entorno en permanente cambio. Durante décadas, la formación de pilotos se centró casi exclusivamente en las habilidades de manejo de los mandos (**stick and rudder skills**). La experiencia ha demostrado, sin embargo, que una técnica impecable no garantiza por sí sola la seguridad del vuelo. Aquí entran en juego los **factores humanos**.
 
-La Organización de Aviación Civil Internacional (OACI (Organización de Aviación Civil Internacional)) define los factores humanos como los elementos medioambientales, organizativos, laborales y las características individuales que influyen en el comportamiento dentro del entorno aeronáutico, con efecto directo sobre la salud y la seguridad operacional. En términos prácticos, se trata de comprender cómo interactúa el piloto con la aeronave, los procedimientos, la meteorología y el resto de personas implicadas en la operación.
+Según el Manual de instrucción sobre factores humanos de la Organización de Aviación Civil Internacional (OACI, Doc 9683), los factores humanos tratan de las personas en su entorno de vida y de trabajo: su relación con las máquinas, con los procedimientos y con el entorno, y sus relaciones con otras personas. En términos prácticos, se trata de comprender cómo interactúa el piloto con la aeronave, los procedimientos, la meteorología y el resto de personas implicadas en la operación.
 
 El piloto no es infalible. Existen limitaciones inherentes en la percepción, la memoria y la capacidad de procesar información compleja bajo presión. La disciplina de los factores humanos no pretende transformar al piloto en un agente sin errores, sino enseñarle a **reconocer sus limitaciones fisiológicas y psicológicas**, aceptarlas y aplicar estrategias contrastadas para gestionarlas en beneficio de la toma de decisiones aeronáuticas (**Aeronautical Decision-Making**, ADM).
 
 ## El factor humano en los accidentes de aviación
 
-A medida que la tecnología aeronáutica ha avanzado, la proporción de accidentes debidos a fallos mecánicos ha disminuido de forma significativa. Las estadísticas actuales reflejan que **el factor humano es la causa principal o un elemento contribuyente en aproximadamente el 90 % de los accidentes en la aviación general y el vuelo a vela**. Este dato es, ante todo, pedagógico: la inmensa mayoría de estos accidentes son previsibles y, por tanto, **evitables**.
+A medida que la tecnología aeronáutica ha avanzado, la proporción de accidentes debidos a fallos mecánicos ha disminuido de forma significativa. Para el conjunto de la aviación, la FAA atribuye a los factores humanos alrededor del **80 % de los accidentes**. En vuelo a vela, un análisis de unos 250 informes de accidentes de planeador de Alemania, Estados Unidos y Austria (C. Ceipek, 2019) atribuye **cerca del 90 % a errores del piloto**. Son cifras de estudios concretos, no una ley; su valor es, ante todo, pedagógico: la inmensa mayoría de estos accidentes son previsibles y, por tanto, **evitables**.
 
-El desglose del componente humano en la siniestralidad del vuelo a vela muestra las siguientes proporciones habituales:
+Ese mismo análisis reparte así el componente humano:
 
 * **Toma de decisiones inadecuada (aprox. 40 %):** Factor predominante. Incluye continuar el vuelo hacia condiciones meteorológicas adversas o posponer en exceso la búsqueda de un aterrizaje fuera de campo.
 * **Errores de pilotaje (aprox. 30 %):** Fallos en la técnica de vuelo o en el manejo de los mandos, con frecuencia relacionados con estados de distracción.
@@ -31,16 +31,16 @@ El desglose del componente humano en la siniestralidad del vuelo a vela muestra 
 * **Conciencia situacional insuficiente (aprox. 6 %):** Pérdida de percepción espacial o visual del tránsito, con riesgo de colisión en vuelo (**mid-air collision**).
 
 ::: {.callout-warning title="Seguridad"}
-El análisis del Informe de Seguridad de EASA (European Union Aviation Safety Agency) indica que las fases más críticas del vuelo en planeador son el aterrizaje (aproximadamente el 50 % de los accidentes) y el despegue (21 %). Mantenga el máximo nivel de atención durante estos periodos, con la cabina libre de distracciones y todos los sistemas verificados.
+La *Annual Safety Review 2019* de EASA indica que las fases más críticas del vuelo en planeador son el aterrizaje (aproximadamente el 50 % de los accidentes) y el despegue (21 %), en el promedio de 2008 a 2017 y contando sólo los accidentes con fase conocida. Mantenga el máximo nivel de atención durante estos periodos, con la cabina libre de distracciones y todos los sistemas verificados.
 :::
 
-Los accidentes con consecuencias fatales (hasta un 26 % según datos de EASA (European Union Aviation Safety Agency)) tienen como causa principal la pérdida de control en vuelo, que con frecuencia deriva en pérdida aerodinámica y barrena (**stall and spin**), especialmente peligrosas a baja altura en el circuito de tráfico. Otras causas graves incluyen las colisiones contra el terreno (17 %) y las emergencias mal gestionadas en lanzamientos a torno incompletos (10 %).
+Según la misma revisión, de los accidentes mortales de planeador entre 2014 y 2018, alrededor del 26 % se debieron a la pérdida aerodinámica y la barrena (**stall and spin**), especialmente peligrosas a baja altura en el circuito de tráfico; el 17 %, a colisiones con la ladera, y el 10 %, a lanzamientos a torno incompletos mal gestionados.
 
 Conocer estas estadísticas permite al piloto priorizar la atención en las fases y situaciones de mayor riesgo, y adoptar criterios de decisión más conservadores donde la experiencia demuestra que los márgenes son más estrechos.
 
 ## Modelos conceptuales: el modelo SHELL
 
-El vuelo a vela no ocurre en el vacío; es una actividad donde el ser humano interactúa constantemente con su entorno. Para comprender esta interacción, la OACI utiliza el **Modelo SHELL**, un marco conceptual desarrollado originariamente por el psicólogo Elwyn Edwards en 1972 (como modelo SHEL) y refinado después por Frank Hawkins, que añadió la segunda L de las otras personas. Su nombre es un acrónimo de sus componentes, que encajan entre sí como las piezas de un rompecabezas con el factor humano siempre en el centro (@fig-02-cap01-modelo-shell):
+El vuelo a vela no ocurre en el vacío; es una actividad donde el ser humano interactúa constantemente con su entorno. Para comprender esta interacción, la OACI utiliza el **Modelo SHELL**, un marco conceptual desarrollado originariamente por el psicólogo Elwyn Edwards en 1972 (como modelo SHEL) y representado después por Frank Hawkins (1975) con el diagrama de bloques que hoy usa la OACI. Su nombre es un acrónimo de sus componentes, que encajan entre sí como las piezas de un rompecabezas con el factor humano siempre en el centro (@fig-02-cap01-modelo-shell):
 
 * **Software (S):** Los elementos no materiales. Incluye la reglamentación aplicable, manuales de vuelo, procedimientos normativos, listas de chequeo (**checklists**) y la simbología aeronáutica.
 * **Hardware (H):** La máquina. Abarca el propio velero, los instrumentos de a bordo y cualquier otra herramienta o equipo físico.
@@ -54,11 +54,11 @@ La clave de la seguridad radica en las interfaces de contacto entre tu «yo cent
 
 ## El error humano: tipos y el modelo del queso suizo
 
-Según James Reason, el error humano es cualquier desviación de una secuencia de acciones físicas o mentales que impide lograr el resultado deseado. La filosofía de seguridad aeronáutica moderna asume que **errar es humano e inevitable**: el objetivo no es eliminar los errores por completo —algo que no es posible—, sino detectarlos temprano e interponer barreras defensivas antes de que generen consecuencias.
+Según James Reason, hay error humano cuando una secuencia **planificada** de acciones físicas o mentales no logra el resultado deseado, sin que el fallo pueda atribuirse al azar. La filosofía de seguridad aeronáutica moderna asume que **errar es humano e inevitable**: el objetivo no es eliminar los errores por completo —algo que no es posible—, sino detectarlos temprano e interponer barreras defensivas antes de que generen consecuencias.
 
 James Reason ilustró este proceso con el **modelo del queso suizo**: cada capa del sistema de seguridad (instrucción, procedimientos, listas de verificación, supervisión) actúa como una barrera con agujeros. Cuando los agujeros de todas las capas se alinean, el accidente se produce (@fig-02-cap01-queso-suizo).
 
-![El modelo del queso suizo de James Reason](imagenes/02-cap01-queso-suizo.png){#fig-02-cap01-queso-suizo}
+![El modelo del queso suizo de James Reason. *(CORREGIR: las capas dibujadas son las de la clasificación HFACS, no las del texto; varios ejemplos están en la capa equivocada —la planificación de ruta y el chequeo meteorológico son actos del piloto, y la toma fuera de aeródromo no es un acto inseguro— y «Supervisión insegura» aparece dos veces.)*](imagenes/02-cap01-queso-suizo.png){#fig-02-cap01-queso-suizo .corregir}
 
 Los fallos del piloto se clasifican en dos categorías según la intención del acto:
 
@@ -80,7 +80,7 @@ Los accidentes rara vez tienen una causa única. La mayoría resultan de una suc
 
 La consecuencia práctica más importante es que **basta con interrumpir un solo eslabón de la cadena para prevenir el accidente**. Una decisión conservadora, una verificación adicional o rechazar el vuelo ante una duda razonable son suficientes para detener el proceso antes de que derive en consecuencias.
 
-![Romper un eslabón de la cadena del error salva el vuelo](imagenes/02-cap01-cadena-error.jpg){#fig-02-cap01-cadena-error}
+![Romper un eslabón de la cadena del error salva el vuelo. *(CORREGIR: la falta de atención en el montaje es un error activo, no latente; un ejemplo latente sería una instrucción de montaje deficiente. El texto de la lista de chequeo dibujada no tiene sentido.)*](imagenes/02-cap01-cadena-error.jpg){#fig-02-cap01-cadena-error .corregir}
 
 ::: {.callout-tip title="Regla de oro"}
 **Romper un solo eslabón salva el vuelo.** Ante cualquier señal de que la cadena del error ha comenzado —condiciones meteorológicas que se deterioran, una avería sin resolver, fatiga elevada— adopte la medida más conservadora disponible. Es la acción más eficaz al alcance del piloto.
@@ -98,7 +98,7 @@ En un aeródromo, una de las formas de influencia más comunes es la presión de
 
 La forma en que un club gestiona los errores define su **cultura organizacional**. La respuesta histórica de la aviación al error fue punitiva: quien cometía un fallo era sancionado o reprendido. Lejos de mejorar la seguridad, ese enfoque incentivó el encubrimiento: los daños no se reportaban por temor al castigo y acababan produciendo accidentes en vuelos posteriores.
 
-En la actualidad se promueve activamente la **cultura justa** (**Just Culture**): un marco que reconoce la inevitabilidad del error no intencionado y lo trata como una oportunidad de aprendizaje colectivo, sin represalias, siempre que no medie negligencia deliberada ni violación consciente de procedimientos.
+En la actualidad se promueve activamente la **cultura justa** (**Just Culture**): un marco que reconoce la inevitabilidad del error no intencionado y lo trata como una oportunidad de aprendizaje colectivo: no se castigan las acciones, omisiones o decisiones acordes con la experiencia y la formación de cada uno, pero no se toleran la negligencia grave, las infracciones intencionadas ni los actos destructivos (Reglamento (UE) 376/2014, art. 2.12).
 
 ::: {.callout-note title="Airmanship"}
 Fomente la cultura justa en su entorno inmediato. Si durante el remolque o guardado del planeador se produce un daño accidental —por ejemplo, un golpe en el estabilizador al entrar al hangar— notifíquelo de inmediato al instructor o mecánico responsable. Encubrirlo pone en riesgo al piloto que vuele esa aeronave a continuación sin conocer el daño preexistente.
@@ -106,13 +106,13 @@ Fomente la cultura justa en su entorno inmediato. Si durante el remolque o guard
 
 ### Motivación y desempeño: la pirámide de Maslow
 
-El rendimiento del piloto está estrechamente vinculado a su motivación y equilibrio psicológico. Abraham Maslow definió una jerarquía de necesidades humanas que va desde las más básicas —salud, alimentación, seguridad física— hasta las de orden superior —reconocimiento, logro personal, autorrealización—. Esta jerarquía tiene una aplicación directa en el contexto aeronáutico.
+El rendimiento del piloto está estrechamente vinculado a su motivación y equilibrio psicológico. Abraham Maslow definió una jerarquía de necesidades humanas en cinco niveles: en la base, las **fisiológicas** (descanso, hidratación, alimentación); encima, las de **seguridad** (sentirse a salvo); después, las de **pertenencia** y las de **estima**, y en la cima, la **autorrealización**. Esta jerarquía tiene una aplicación directa en el contexto aeronáutico.
 
-Cuando la motivación por alcanzar un objetivo —batir una marca personal, ganar una competición— supera el nivel básico de seguridad, el piloto puede asumir riesgos injustificados: continuar hacia condiciones meteorológicas adversas, sobrevolar zonas sin alternativa de aterrizaje o ignorar señales de alarma. Del mismo modo, operar bajo un estado emocional negativo intenso —estrés, conflicto personal o preocupación económica grave— reduce la capacidad de atención y favorece la negligencia en las fases críticas del vuelo.
+Cuando la motivación por alcanzar un objetivo —batir una marca personal, ganar una competición— pasa por encima de esas necesidades básicas, el piloto puede asumir riesgos injustificados: continuar hacia condiciones meteorológicas adversas, sobrevolar zonas sin alternativa de aterrizaje o ignorar señales de alarma. Del mismo modo, operar bajo un estado emocional negativo intenso —estrés, conflicto personal o preocupación económica grave— reduce la capacidad de atención y favorece la negligencia en las fases críticas del vuelo.
 
-La conclusión práctica es clara: la seguridad ocupa la base de la pirámide y no puede subordinarse a ningún objetivo de orden superior (@fig-02-cap01-piramide-maslow).
+La conclusión práctica: las necesidades de los niveles inferiores —las fisiológicas y las de seguridad— tienen que estar cubiertas antes de perseguir objetivos de orden superior, y ningún logro justifica sacrificarlas (@fig-02-cap01-piramide-maslow).
 
-![La pirámide de Maslow aplicada a un piloto de planeadores](imagenes/02-cap01-piramide-maslow.png){#fig-02-cap01-piramide-maslow}
+![La pirámide de Maslow aplicada a un piloto de planeadores. *(CORREGIR: en el segundo nivel, la necesidad de seguridad de Maslow es sentirse a salvo, no la seguridad operacional ni el SMS.)*](imagenes/02-cap01-piramide-maslow.png){#fig-02-cap01-piramide-maslow .corregir}
 
 ::: {.postit}
 **Resumen del capítulo: conceptos básicos de factores humanos**
@@ -120,5 +120,5 @@ La conclusión práctica es clara: la seguridad ocupa la base de la pirámide y 
 * **Modelo SHELL**: Marco conceptual fundamental que analiza la interacción entre el piloto (Liveware) y otros elementos: Software (procedimientos), Hardware (la aeronave), Environment (el entorno) y otro Liveware (otras personas).
 * **Gestión del error**: Se asume que el error humano es inevitable. El objetivo de la seguridad no es eliminarlo por completo, sino detectarlo a tiempo y gestionar sus consecuencias antes de que afecten a la seguridad del vuelo.
 * **Cadena del error**: Los accidentes rara vez ocurren por una sola causa. Son la suma de pequeños errores y condiciones latentes. Tu trabajo es romper esa cadena en cuanto detectes el primer eslabón.
-* **Influencias en el comportamiento**: El comportamiento mental bajo presión, nuestra motivación diaria aplicada al vuelo frente a una base de necesidades insatisfechas (Pirámide de Maslow), así como la presión directa de compañeros de hangar, alteran profundamente nuestra capacidad mental como comandantes. Debemos respaldar una rigurosa "cultura justa" para permitir el libre reporte de errores técnicos sin represión ajena, aprendiendo en colectivo en lugar de esconder daños fatales.
+* **Influencias en el comportamiento**: El comportamiento mental bajo presión, nuestra motivación diaria aplicada al vuelo frente a una base de necesidades insatisfechas (Pirámide de Maslow), así como la presión directa de compañeros de hangar, alteran profundamente nuestra capacidad mental como comandantes. Debemos respaldar una rigurosa "cultura justa" para que los errores se notifiquen sin miedo a represalias y se aprenda de ellos en colectivo, en lugar de ocultar daños que pueden acabar en un accidente.
 :::

@@ -43,6 +43,8 @@ tarjetas:
     anverso: Según el informe de seguridad de EASA, ¿cuáles son las **fases más críticas** del vuelo en planeador?
     reverso: |
       **El aterrizaje (≈50 % de los accidentes) y el despegue (21 %).**
+
+      *Fuente: EASA, Annual Safety Review 2019, promedio de 2008 a 2017.*
     etiquetas: [Seguridad]
 
   - id: reducir-probabilidad-de-error
@@ -59,7 +61,8 @@ tarjetas:
     anverso: ¿Qué es la **cultura justa** y qué implica en el hangar?
     reverso: |
       **Que se pueda reportar un error sin represalias, para aprender en
-      colectivo.**
+      colectivo.** No ampara la negligencia grave, las infracciones
+      intencionadas ni los actos destructivos (Reglamento 376/2014, art. 2.12).
 
       Si en el remolque o al entrar al hangar golpeas el estabilizador,
       notifícalo de inmediato. Encubrirlo pone en riesgo al siguiente que vuele

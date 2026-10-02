@@ -19,7 +19,7 @@ Apuntes de teoría de **Iñaqui Ulibarri García de la Cueva** para la Organizac
 * **Ley 21/2003, de 7 de julio, de Seguridad Aérea**. Jefatura del Estado (España). Publicada en el BOE núm. 162, de 8 de julio de 2003. Marco legal nacional que complementa la normativa europea: competencias, inspección, infracciones y sanciones (versión consolidada).
   [https://www.boe.es/eli/es/l/2003/07/07/21/con](https://www.boe.es/eli/es/l/2003/07/07/21/con)
 
-Otras normas citadas en la colección (versiones consolidadas):
+Otras normas citadas en la colección (el enlace lleva a la norma original; desde ella, EUR-Lex y el BOE dan acceso a la versión consolidada vigente):
 
 * **Reglamento (UE) 2018/1139**, normas comunes de aviación civil y creación de EASA. [CELEX 32018R1139](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32018R1139)
 * **Reglamento (UE) n.º 1178/2011**, tripulaciones de vuelo; su anexo IV es la **Part-MED** (certificados médicos). [CELEX 32011R1178](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32011R1178)

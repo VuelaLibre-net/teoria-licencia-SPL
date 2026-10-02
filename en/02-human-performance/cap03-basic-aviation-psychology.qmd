@@ -1,6 +1,6 @@
 ---
 origen: 02-factores-humanos/cap03-psicologia-aeronautica-basica.qmd
-origen-commit: 2890174
+origen-commit: 0b42784
 ---
 
 # Basic aviation psychology
@@ -21,14 +21,14 @@ origen-commit: 2890174
 
 In flight your brain never stops processing information, through three linked mechanisms: perception, attention and memory.
 
-**Perception** is the ability to make sense of what is around you and of changes in the flight variables (a shift in the wind, the closeness of the ground). In the air, the usual cues for depth and size are missing. Distances are harder to judge, and a flood of information without those cues can lead to qualitative overload.
+**Perception** is the ability to make sense of what is around you and of changes in the flight variables (a shift in the wind, the closeness of the ground). In the air, the usual cues for depth and size are missing. Distances are harder to judge, and a flood of information without those cues can lead to work overload.
 
 **Attention** is the filter that lets you concentrate on the relevant information inside the cockpit and outside it. It is a limited resource: physical or psychological factors can wear it down quickly until you no longer see the whole picture.
 
 **Memory**, in which the hippocampus plays a key part, lets you encode, store and retrieve vital information. In the cockpit you use several memory systems (@fig-02-cap03-memoria-tipos):
 
-* **Sensory memory:** Holds information for barely 200 milliseconds after the senses pick it up.
-* **Short-term memory:** Lasts about 30 seconds. It is the pilot's “RAM”, essential for dealing with the immediate tactical situation.
+* **Sensory memory:** Holds information for only a moment after the senses pick it up: less than a second for vision and a few seconds for hearing.
+* **Short-term memory:** Lasts about 30 seconds and holds about 7 items. It is the pilot's “RAM”, essential for dealing with the immediate tactical situation.
 * **Long-term memory:** Your permanent store of knowledge. It divides into non-declarative memory (procedural or unconscious, such as the mechanical feel of the stick) and declarative memory (explicit, combining episodic and semantic memory, such as the speeds in the flight manual or past experiences).
 
 ![The types of human memory](imagenes/02-cap03-memoria-tipos.jpg){#fig-02-cap03-memoria-tipos}
@@ -40,7 +40,7 @@ Situational awareness (**Situational Awareness**) is the perception of the eleme
 In a glider, it means building an accurate mental picture of what is going on and keeping it up to date for the whole flight: how the wind is changing and where it is heading, where you really are relative to the landing field, who is in the circuit, what the other aircraft are doing, and your own height and energy.
 
 ::: {.callout-warning title="Safety"}
-Losing situational awareness is the first link in most gliding accident chains. Attention overload, panic over something you do not understand, fatigue, even a badly adjusted seat: all of them sharply reduce your ability to take in the full picture a safe flight depends on.
+Loss of situational awareness often appears in gliding accident chains. Attention overload, panic over something you do not understand, fatigue, even a badly adjusted seat: all of them sharply reduce your ability to take in the full picture a safe flight depends on.
 :::
 
 ## Aeronautical decision-making (ADM)
@@ -56,7 +56,7 @@ Whether thermalling or on final approach, the pilot is constantly assessing situ
 * **D**o the chosen action, methodically, quickly or calmly as the situation requires.
 * **E**valuate the result: check whether the course taken corrects the deviation, learn from it and share the conclusions.
 
-![The DECIDE model for aeronautical decision-making](imagenes/02-cap03-decide.jpg){#fig-02-cap03-decide}
+![The DECIDE model for aeronautical decision-making. *(FIX: the steps run Detect, Estimate, Choose, Identify, Do and Evaluate; the figure puts “Implement” fourth and “Determine results” fifth, and its labels are in Spanish.)*](imagenes/02-cap03-decide.jpg){#fig-02-cap03-decide .corregir}
 
 ## Risk management and assessment models (the PAVE model)
 
@@ -68,6 +68,8 @@ The **PAVE model** divides the risks of a flight into four basic elements that a
 * **A (Aircraft):** The state of the glider. Is it the right equipment for the planned flight? Are the instruments working and the inspections up to date?
 * **V (enVironment):** Weather, alternate aerodromes, terrain, traffic density and airspace.
 * **E (External pressures):** Factors such as the need to finish a course, the pressure not to disappoint a passenger or the rush to catch a weather window that is closing.
+
+PAVE works inside the **“3 P” model** of risk management: **perceive** the hazards of the flight (with PAVE), **process** their effect on safety and **perform** the best course of action. The cycle repeats throughout the flight.
 
 ::: {.callout-tip title="Golden rule"}
 Run through your flight with PAVE before take-off and you can spot the error chain, and cut it, before you even get into the cockpit.
@@ -119,14 +121,12 @@ But if the psychological pressure keeps building (say you stray into severe inst
 Under extreme stress and panic, basic survival instincts such as trying to “get away from the ground by hauling back on the stick” can override your reasoning. At low height, that sudden, instinctive pull uses up all your glider's energy and ends in a loss of control or an unrecoverable spin. Know your limits, and stay out of situations you are not fully prepared for.
 :::
 
-![Tunnel vision under extreme stress](imagenes/02-cap03-vision-tunel.jpg){#fig-02-cap03-vision-tunel}
+![Tunnel vision under extreme stress. *(FIX: the scale of the variometer drawn is inconsistent —“−4” appears twice—, and the label should refer to narrowed attention, not to loss of visual field.)*](imagenes/02-cap03-vision-tunel.jpg){#fig-02-cap03-vision-tunel .corregir}
 
-Everything you do in the air follows a continuous cycle, the “3 P” model: **Perceive, Process and Perform**. Every second of the flight you take in information, work out what it means and act on it.
-
-The mind can only handle so much of this endless stream of events at once: think of it as a glass that holds a fixed amount of water. On a turbulent aerotow, into the sun, while you try to spot a glider that has just called on base, the glass can overflow. This is **qualitative overload**. The moment the task demands more than your skill and training can give, the safety margin is gone and the accident is waiting.
+Every second of the flight you take in information, work out what it means and act on it. The mind can only handle so much of this endless stream of events at once: think of it as a glass that holds a fixed amount of water. On a turbulent aerotow, into the sun, while you try to spot a glider that has just called on base, the glass can overflow. This is **work overload**: more tasks and information arrive than fit in the time available. If the task is also too difficult for your training at that moment, the safety margin is gone and the accident is waiting.
 
 ::: {.callout-tip title="Golden rule"}
-When you feel your glass overflowing, stop for a second, breathe, and cut your priorities down to the old aviation saying: **Aviate, Navigate, Communicate** (first fly the aircraft safely, then worry about where you are going, and only last, and only if strictly necessary, pick up the radio to tell someone about it).
+When you feel your glass overflowing, stop for a second, breathe, and cut your priorities down to the old aviation saying: **Aviate, Navigate, Communicate** (first fly the glider safely, then decide where you are going and, third, communicate what is needed: asking for help or telling whoever needs to know).
 :::
 
 ## Single-pilot resource management (SRM)
@@ -150,11 +150,11 @@ Two of the most insidious enemies, both linked to hazardous attitudes, are compl
 ::: {.postit}
 **Chapter summary: aviation psychology**
 
-* **Situational awareness**: The ability to perceive accurately what is happening, understand what it means and project its future state. Losing it is the first link in most accident chains.
+* **Situational awareness**: The ability to perceive accurately what is happening, understand what it means and project its future state. Its loss often appears in accident chains.
 * **Decision-making (ADM)**: A systematic mental process (such as the DECIDE model) that pilots use to choose the best course of action consistently in response to a set of circumstances.
 * **Stress**: The body's response to a physical or psychological demand. A moderate level improves performance (alertness), but excessive or chronic stress blocks decision-making and fixes attention on irrelevant details (tunnel vision).
 * **Workload and performance**: Your processing capacity is limited (like a glass of water). If the complexity of the flight (bad weather, traffic, a defect) fills the glass, you overflow. Simplify the task (aviate, navigate, communicate) to win back your safety margin.
-* **Information processing**: It covers perception (interpreting the environment), attention (focus) and sensory, short-term and long-term memory. Too much outside information that you cannot take in can cause qualitative overload.
+* **Information processing**: It covers perception (interpreting the environment), attention (focus) and sensory, short-term and long-term memory. Too much outside information that you cannot take in can cause work overload.
 * **Risk management (PAVE)**: A systematic assessment of the critical factors, divided into Pilot, Aircraft, enVironment (**Environment**) and External pressures.
 * **Hazardous attitudes**: The five attitudes to avoid are anti-authority, impulsivity, invulnerability, arrogance (overconfidence) and resignation.
 * **Resource management (SRM)**: The solo pilot's ability to make full use of the equipment on board, information, communications and outside help so as not to exceed their limits.

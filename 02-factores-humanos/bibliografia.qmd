@@ -1,6 +1,6 @@
 # Bibliografía y fuentes
 
-Esta bibliografía es común a los nueve libros del manual de formación SPL. Reúne las fuentes normativas, los manuales técnicos y los apuntes de instrucción que se han utilizado como referencia para elaborar el contenido de la colección.
+Esta bibliografía es común a los nueve libros del manual de formación SPL. Reúne las fuentes normativas, los manuales técnicos y los apuntes de instrucción que se han utilizado como referencia para elaborar el contenido de la colección. Este libro añade al final las fuentes de factores humanos y medicina aeronáutica.
 
 **Apuntes de instrucción (DTO Fuentemilanos)**
 
@@ -17,7 +17,7 @@ Apuntes de teoría de **Iñaqui Ulibarri García de la Cueva** para la Organizac
 * **Ley 21/2003, de 7 de julio, de Seguridad Aérea**. Jefatura del Estado (España). Publicada en el BOE núm. 162, de 8 de julio de 2003. Marco legal nacional que complementa la normativa europea: competencias, inspección, infracciones y sanciones (versión consolidada).
   [https://www.boe.es/eli/es/l/2003/07/07/21/con](https://www.boe.es/eli/es/l/2003/07/07/21/con)
 
-Otras normas citadas en la colección (versiones consolidadas):
+Otras normas citadas en la colección (el enlace lleva a la norma original; desde ella, EUR-Lex y el BOE dan acceso a la versión consolidada vigente):
 
 * **Reglamento (UE) 2018/1139**, normas comunes de aviación civil y creación de EASA. [CELEX 32018R1139](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32018R1139)
 * **Reglamento (UE) n.º 1178/2011**, tripulaciones de vuelo; su anexo IV es la **Part-MED** (certificados médicos). [CELEX 32011R1178](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32011R1178)
@@ -67,3 +67,31 @@ La OACI desarrolla las normas y métodos recomendados (SARPS) mediante 19 anexos
 * **Methodik der Segelflugausbildung** (*Segelflugrechte*, Rev. 2). Deutscher Aero Club (DAeC), 2022. Metodología alemana de instrucción de vuelo a vela.
   [https://www.daec.de/media/files/2022/Sportarten/Segelflug/Methodik_der_Segelflugausbildung_Segelflugrechte_Rev.2.pdf](https://www.daec.de/media/files/2022/Sportarten/Segelflug/Methodik_der_Segelflugausbildung_Segelflugrechte_Rev.2.pdf)
 * **Vuelo sin motor: técnicas avanzadas**. Helmut Reichmann. Edición española de la obra de referencia internacional sobre la técnica del vuelo de distancia (orig. *Streckensegelflug*; ed. inglesa, *Cross-Country Soaring*). ISBN 978-84-283-1567-8.
+
+**Factores humanos y medicina aeronáutica**
+
+Fuentes de las cifras y los modelos de este libro. Las de la FAA son de otra jurisdicción: se citan como referencia técnica, no como norma aplicable en España.
+
+* **Reglamento (UE) n.º 1178/2011, anexo IV (Part-MED)**, requisitos médicos de las tripulaciones, versión consolidada, y sus medios aceptables de cumplimiento y material guía (**AMC & GM to Part-MED**, Issue 2, EASA). [CELEX 02011R1178-20260430](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:02011R1178-20260430) · [AMC & GM to Part-MED](https://www.easa.europa.eu/en/downloads/70485/en)
+* **Manual of Civil Aviation Medicine** (Doc 8984), 3.ª ed., 2012. Organización de Aviación Civil Internacional (OACI). Hipoxia, tiempo útil de conciencia, hiperventilación y enfermedad descompresiva.
+  [https://www.icao.int/sites/default/files/publications/DocSeries/8984_cons_en.pdf](https://www.icao.int/sites/default/files/publications/DocSeries/8984_cons_en.pdf)
+* **Manual de instrucción sobre factores humanos** (Doc 9683), 1.ª ed., 1998. OACI. Definición de factores humanos, modelo SHELL y modelo de Reason.
+* **Pilot's Handbook of Aeronautical Knowledge (FAA-H-8083-25C)**, 2023. FAA. Capítulo 2 (toma de decisiones: DECIDE, PAVE, 3P, IMSAFE), capítulo 7 (sistemas de oxígeno) y capítulo 17 (medicina aeronáutica).
+  [https://www.faa.gov/sites/faa.gov/files/FAA-H-8083-25C.pdf](https://www.faa.gov/sites/faa.gov/files/FAA-H-8083-25C.pdf)
+* **Aviation Instructor's Handbook (FAA-H-8083-9B)**, 2020. FAA. Capítulos 2 (la jerarquía de Maslow) y 3 (memoria).
+  [https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/aviation_instructors_handbook/aviation_instructors_handbook.pdf](https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/aviation_instructors_handbook/aviation_instructors_handbook.pdf)
+* **Aeronautical Information Manual (AIM)**, capítulo 8, «Medical Facts for Pilots». FAA.
+  [https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap8_section_1.html](https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap8_section_1.html)
+* **AC 61-107B CHG 1**, operaciones por encima de 25.000 ft, 2015. FAA. Hipoxia, hiperventilación, tiempo útil de conciencia y pulsioxímetro.
+  [https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_61-107B_CHG_1.pdf](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_61-107B_CHG_1.pdf)
+* **AC 90-48E**, el papel del piloto en la prevención de colisiones, 2022. FAA. Tiempo de reacción ante un tráfico.
+  [https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_90-48E.pdf](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_90-48E.pdf)
+* **Hypoxia** y **Oxygen Equipment: Use in General Aviation Operations**. Folletos de seguridad del Civil Aerospace Medical Institute (CAMI), FAA.
+  [https://www.faa.gov/pilots/safety/pilotsafetybrochures](https://www.faa.gov/pilots/safety/pilotsafetybrochures)
+* **Annual Safety Review 2019** y **2025**. EASA. Estadísticas de accidentes de planeador.
+  [https://www.easa.europa.eu/en/document-library/general-publications/annual-safety-review-2025](https://www.easa.europa.eu/en/document-library/general-publications/annual-safety-review-2025)
+* **Does Soaring Have To Be So Dangerous?** C. Ceipek, *Chess in the Air*, 2019. Análisis de unos 250 informes de accidentes de planeador.
+  [https://www.chessintheair.com/does-soaring-have-to-be-so-dangerous](https://www.chessintheair.com/does-soaring-have-to-be-so-dangerous)
+* **Human Error**. James Reason. Cambridge University Press, 1990.
+* **Código Mundial Antidopaje**. Agencia Mundial Antidopaje (WADA), 2021.
+  [https://www.wada-ama.org/en/resources/world-anti-doping-code-and-international-standards/world-anti-doping-code](https://www.wada-ama.org/en/resources/world-anti-doping-code-and-international-standards/world-anti-doping-code)

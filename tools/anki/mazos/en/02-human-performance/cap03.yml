@@ -14,15 +14,15 @@ tarjetas:
       **Perceiving what is happening, understanding what it means and
       projecting its future state.**
 
-      Losing it is the first link in most gliding accident chains.
+      Its loss often appears in gliding accident chains.
     etiquetas: [Safety]
 
   - id: que-erosiona-la-conciencia-situacional
     tipo: basica
     anverso: What erodes situational awareness?
     reverso: |
-      **Qualitative attention overload, panic over something you do not
-      understand, fatigue and the discomfort of a badly adjusted seat.**
+      **Attention overload, panic over something you do not understand,
+      fatigue and the discomfort of a badly adjusted seat.**
 
   - id: adm-decide
     tipo: basica
@@ -58,8 +58,9 @@ tarjetas:
       **Stop for a second, breathe and ruthlessly simplify your priorities:
       Aviate, Navigate, Communicate.**
 
-      First fly the glider safely; then think about where you are going; and
-      only if strictly necessary, the radio.
+      First fly the glider safely; then decide where you are going; and third,
+      communicate what is needed: asking for help or telling whoever needs to
+      know.
     etiquetas: [Golden rule]
 
   - id: procesamiento-de-informacion
@@ -69,8 +70,7 @@ tarjetas:
       **Perception** (interpreting the environment), **attention** (focus) and
       **sensory, short-term and long-term** memory.
 
-      Too much outside information that you cannot take in causes qualitative
-      overload.
+      Too much outside information that you cannot take in causes work overload.
 
   - id: pave
     tipo: cloze

@@ -279,7 +279,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Espacio aéreo controlado que se extiende hacia arriba desde la superficie terrestre hasta un límite superior definido.
 
 **Cultura justa (Just Culture)**
-: Paradigma organizacional que reconoce la inevitabilidad del error humano no intencionado, tratándolo como una oportunidad de aprendizaje colectivo sin represalias, oponiéndose a todo encubrimiento o sanción punitiva irracional.
+: Paradigma organizacional que reconoce la inevitabilidad del error humano no intencionado, tratándolo como una oportunidad de aprendizaje colectivo sin represalias, oponiéndose a todo encubrimiento o sanción punitiva irracional. No ampara la negligencia grave, las infracciones intencionadas ni los actos destructivos (Reglamento (UE) 376/2014, art. 2.12).
 
 **Cúmulo (Cu)**
 : Nube convectiva de desarrollo vertical con base plana y contornos bien definidos. Su presencia indica inestabilidad y térmicas activas. La base de los cúmulos marca el nivel de condensación por ascenso (NCA/LCL) y puede calcularse con la fórmula: (T − Td) × 400 = altitud en pies.
@@ -333,7 +333,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Ángulo hacia arriba que forman las alas respecto al plano horizontal, dando al planeador una forma de «V» abierta vista de frente. Proporciona estabilidad lateral: cuando un ala baja por una perturbación, recibe el flujo de aire con mayor ángulo de ataque efectivo, genera más sustentación y vuelve a la posición nivelada sin intervención del piloto.
 
 **Disbarismos (Barotraumas)**
-: Alteraciones orgánicas o dolor neurálgico originados por la expansión y contracción de pequeños volúmenes de gas atrapados en el cuerpo (senos paranasales, oído medio, intestinos) frente a los inevitables cambios en la presión atmosférica por la Ley de Boyle.
+: Trastornos causados por los cambios de presión atmosférica. Incluyen los barotraumas, por la expansión y contracción del gas atrapado en el cuerpo (senos paranasales, oído medio, intestinos) según la ley de Boyle, y la enfermedad descompresiva, por el gas disuelto en la sangre que forma burbujas al bajar la presión, más probable tras bucear.
 
 **DME (Equipo Radiotelemétrico / Distance Measuring Equipment)**
 : Radioayuda que permite a una aeronave determinar la distancia oblicua respecto de una estación terrestre.
@@ -546,7 +546,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Dispositivo electrónico, certificado por la _International Gliding Commission_ (Comisión Internacional de Vuelo a Vela), que graba la traza GPS, la altitud de presión barométrica y una firma digital en un archivo `.igc` que hace detectable cualquier manipulación, probando el paso por los puntos de viraje para validar récords y medallas FAI.
 
 **IMSAFE**
-: Acrónimo nemotécnico de autoevaluación psicofísica recomendado antes de cada vuelo: Illness (Enfermedad), Medication (Medicación), Stress (Estrés), Alcohol (Alcohol), Fatigue (Fatiga) y Eating (Alimentación).
+: Acrónimo nemotécnico de autoevaluación psicofísica recomendado antes de cada vuelo: Illness (Enfermedad), Medication (Medicación), Stress (Estrés), Alcohol (Alcohol), Fatigue (Fatiga) y Eating (Alimentación). En la versión de la FAA, la E es Emotion (estado emocional).
 
 **INCERFA (Fase de incertidumbre / Uncertainty Phase)**
 : Fase declarada cuando existe incertidumbre sobre la seguridad de una aeronave y sus ocupantes.
@@ -750,7 +750,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Botón de transmisión. Al pulsarlo, la radio pasa de recepción a emisión. Al soltarlo, vuelve a escuchar. En planeadores suele estar en la palanca de mando. Si se queda atascado, provoca la situación de micrófono bloqueado.
 
 **Pulsioxímetro**
-: Dispositivo de dedo recomendado en vuelos a gran altura que muestra la saturación de oxígeno en sangre (SpO₂). Permite al piloto detectar la hipoxia de forma objetiva antes de que aparezcan los primeros síntomas.
+: Dispositivo de dedo recomendado en vuelos a gran altura que muestra la saturación de oxígeno en sangre (SpO₂). Ayuda a detectar la hipoxia antes de que aparezcan los primeros síntomas, pero no sustituye a la atención a los síntomas: el monóxido de carbono, el frío y el movimiento falsean su lectura.
 
 **QDM**
 : Código Q con el rumbo magnético que debe seguir la aeronave para llegar a la estación de radiogoniometría (VDF). Si estás desorientado, pide un QDM al FIS y te darán el rumbo para llegar a la estación.
@@ -795,7 +795,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Ritmo al que se enfría una parcela de aire saturada (en formación de nube) al ascender adiabáticamente: aproximadamente 1,5 °C por cada 1.000 ft. Es menor que el DALR porque la condensación libera calor latente que "frena" el enfriamiento.
 
 **SAO (Operaciones de Planeadores / Sailplane Air Operations)**
-: Normativa operativa específica de EASA para planeadores, en el anexo II del Reglamento (UE) 2018/1976. Sus reglas son de criterio antes que de umbral: **SAO.OP.150** obliga al piloto al mando a garantizar que todos los ocupantes usen oxígeno suplementario cuando determine que, a la altitud prevista, su falta puede mermarles las facultades. El Reglamento no fija ninguna cifra; los **10.000 ft** salen del **AMC1 SAO.OP.150**, y sólo como regla por defecto para cuando el piloto no pueda hacer esa valoración.
+: Normativa operativa específica de EASA para planeadores, en el anexo II del Reglamento de Ejecución (UE) 2018/1976. Sus reglas son de criterio antes que de umbral: **SAO.OP.150** obliga al piloto al mando a garantizar que todos los ocupantes usen oxígeno suplementario cuando determine que, a la altitud prevista, su falta puede mermarles las facultades. El Reglamento no fija ninguna cifra; los **10.000 ft** salen del **AMC1 SAO.OP.150**, y sólo como regla por defecto para cuando el piloto no pueda hacer esa valoración.
 
 **SAR (Búsqueda y salvamento / Search and Rescue)**
 : Organización y operaciones destinadas a localizar y auxiliar aeronaves y personas en peligro.
@@ -810,7 +810,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Reglas del aire comunes establecidas por el Reglamento de Ejecución (UE) n.º 923/2012.
 
 **SFCL (Licencias de Tripulación de Vuelo de Planeadores / Sailplane Flight Crew Licensing)**
-: Marco normativo europeo (EASA) que regula las licencias, el programa de estudios y la instrucción de vuelo para pilotos de planeador (SPL).
+: Anexo III del Reglamento de Ejecución (UE) 2018/1976, que regula las licencias, atribuciones, instructores y examinadores de planeadores (SPL). El programa de estudios está en su medio aceptable de cumplimiento AMC1 SFCL.130.
 
 **SHELL**
 : Modelo conceptual propuesto por Edwards en 1972 como SHEL y completado por Hawkins en 1975, que la OACI adoptó y difundió. Interconecta de forma unificada y armónica todos los vértices relativos al operador: **Software** (Procedimientos normativos), **Hardware** (La Aeronave), **Environment** (El Entorno físico), **Liveware** interior y **Liveware** externo (El piloto con respecto a otras personas).
@@ -996,7 +996,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Técnica de planeo que aprovecha el flujo ondulatorio estacionario y laminar (onda orográfica) que se genera a sotavento de un sistema montañoso en condiciones de fuerte viento estable, permitiendo alcanzar grandes altitudes en el lado ascendente de las ondas.
 
 **WADA (Agencia Mundial Antidopaje / World Anti-Doping Agency)**
-: Organización internacional que regula y controla exhaustivamente el consumo de sustancias y dopaje en deportistas de competición, siendo los campeonatos de vuelo a vela sometidos también a este mismo estándar.
+: Organización internacional que fija el Código Mundial Antidopaje y la lista de sustancias prohibidas. Los controles en las competiciones de vuelo a vela los realizan la FAI o la organización nacional antidopaje (en España, la CELAD), conforme a ese código.
 
 **WCA (Ángulo de corrección de deriva / Wind Correction Angle)**
 : Ángulo que se aplica al rumbo, apuntando el morro hacia el viento, para compensar la deriva y mantener la trayectoria deseada sobre el terreno.

@@ -1,11 +1,11 @@
 ---
 origen: 02-factores-humanos/bibliografia.qmd
-origen-commit: 6df5942
+origen-commit: 0b42784
 ---
 
 # Bibliography and sources
 
-This bibliography is common to the nine books of the SPL training manual. It brings together the regulatory sources, technical manuals and instruction notes used as references in preparing the content of the collection.
+This bibliography is common to the nine books of the SPL training manual. It brings together the regulatory sources, technical manuals and instruction notes used as references in preparing the content of the collection. This book adds the human performance and aviation medicine sources at the end.
 
 **Instruction notes (DTO Fuentemilanos)**
 
@@ -22,7 +22,7 @@ Theory notes by **Iñaqui Ulibarri García de la Cueva** for the Fuentemilanos D
 * **Ley 21/2003, de 7 de julio, de Seguridad Aérea** (Spanish Aviation Safety Act 21/2003 of 7 July). Head of State (Spain). Published in the BOE no. 162 of 8 July 2003. National legal framework that complements European regulations: powers, inspection, infringements and penalties (consolidated version).
   [https://www.boe.es/eli/es/l/2003/07/07/21/con](https://www.boe.es/eli/es/l/2003/07/07/21/con)
 
-Other regulations cited in the collection (consolidated versions):
+Other regulations cited in the collection (the link goes to the original act; from there, EUR-Lex and the BOE give access to the current consolidated version):
 
 * **Regulation (EU) 2018/1139**, common rules in the field of civil aviation and establishing EASA. [CELEX 32018R1139](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32018R1139)
 * **Commission Regulation (EU) No 1178/2011**, aircrew; its Annex IV is **Part-MED** (medical certificates). [CELEX 32011R1178](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011R1178)
@@ -72,3 +72,31 @@ ICAO develops its Standards and Recommended Practices (SARPs) through 19 annexes
 * **Methodik der Segelflugausbildung** (*Segelflugrechte*, Rev. 2). Deutscher Aero Club (DAeC), 2022. German methodology for gliding instruction.
   [https://www.daec.de/media/files/2022/Sportarten/Segelflug/Methodik_der_Segelflugausbildung_Segelflugrechte_Rev.2.pdf](https://www.daec.de/media/files/2022/Sportarten/Segelflug/Methodik_der_Segelflugausbildung_Segelflugrechte_Rev.2.pdf)
 * **Cross-Country Soaring**. Helmut Reichmann. English edition of the international reference work on cross-country soaring technique (orig. *Streckensegelflug*). The collection was prepared from the Spanish edition, *Vuelo sin motor: técnicas avanzadas* (ISBN 978-84-283-1567-8).
+
+**Human performance and aviation medicine**
+
+Sources for the figures and models in this book. The FAA ones belong to another jurisdiction: they are cited as technical references, not as rules that apply in Spain.
+
+* **Regulation (EU) No 1178/2011, Annex IV (Part-MED)**, medical requirements for aircrew, consolidated version, and its acceptable means of compliance and guidance material (**AMC & GM to Part-MED**, Issue 2, EASA). [CELEX 02011R1178-20260430](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02011R1178-20260430) · [AMC & GM to Part-MED](https://www.easa.europa.eu/en/downloads/70485/en)
+* **Manual of Civil Aviation Medicine** (Doc 8984), 3rd ed., 2012. International Civil Aviation Organization (ICAO). Hypoxia, time of useful consciousness, hyperventilation and decompression sickness.
+  [https://www.icao.int/sites/default/files/publications/DocSeries/8984_cons_en.pdf](https://www.icao.int/sites/default/files/publications/DocSeries/8984_cons_en.pdf)
+* **Human Factors Training Manual** (Doc 9683), 1st ed., 1998. ICAO. Definition of human factors, the SHELL model and Reason's model.
+* **Pilot's Handbook of Aeronautical Knowledge (FAA-H-8083-25C)**, 2023. FAA. Chapter 2 (decision-making: DECIDE, PAVE, 3P, IMSAFE), chapter 7 (oxygen systems) and chapter 17 (aeromedical factors).
+  [https://www.faa.gov/sites/faa.gov/files/FAA-H-8083-25C.pdf](https://www.faa.gov/sites/faa.gov/files/FAA-H-8083-25C.pdf)
+* **Aviation Instructor's Handbook (FAA-H-8083-9B)**, 2020. FAA. Chapters 2 (Maslow's hierarchy) and 3 (memory).
+  [https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/aviation_instructors_handbook/aviation_instructors_handbook.pdf](https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/aviation_instructors_handbook/aviation_instructors_handbook.pdf)
+* **Aeronautical Information Manual (AIM)**, chapter 8, “Medical Facts for Pilots”. FAA.
+  [https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap8_section_1.html](https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap8_section_1.html)
+* **AC 61-107B CHG 1**, operations above 25,000 ft, 2015. FAA. Hypoxia, hyperventilation, time of useful consciousness and the pulse oximeter.
+  [https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_61-107B_CHG_1.pdf](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_61-107B_CHG_1.pdf)
+* **AC 90-48E**, pilots' role in collision avoidance, 2022. FAA. Reaction time to traffic.
+  [https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_90-48E.pdf](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_90-48E.pdf)
+* **Hypoxia** and **Oxygen Equipment: Use in General Aviation Operations**. Safety brochures of the Civil Aerospace Medical Institute (CAMI), FAA.
+  [https://www.faa.gov/pilots/safety/pilotsafetybrochures](https://www.faa.gov/pilots/safety/pilotsafetybrochures)
+* **Annual Safety Review 2019** and **2025**. EASA. Glider accident statistics.
+  [https://www.easa.europa.eu/en/document-library/general-publications/annual-safety-review-2025](https://www.easa.europa.eu/en/document-library/general-publications/annual-safety-review-2025)
+* **Does Soaring Have To Be So Dangerous?** C. Ceipek, *Chess in the Air*, 2019. Analysis of some 250 glider accident reports.
+  [https://www.chessintheair.com/does-soaring-have-to-be-so-dangerous](https://www.chessintheair.com/does-soaring-have-to-be-so-dangerous)
+* **Human Error**. James Reason. Cambridge University Press, 1990.
+* **World Anti-Doping Code**. World Anti-Doping Agency (WADA), 2021.
+  [https://www.wada-ama.org/en/resources/world-anti-doping-code-and-international-standards/world-anti-doping-code](https://www.wada-ama.org/en/resources/world-anti-doping-code-and-international-standards/world-anti-doping-code)

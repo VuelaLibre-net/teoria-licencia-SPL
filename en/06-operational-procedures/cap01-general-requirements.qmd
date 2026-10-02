@@ -1,6 +1,6 @@
 ---
 origen: 06-procedimientos-operativos/cap01-requisitos-generales.qmd
-origen-commit: 8390229
+origen-commit: bd1a990
 ---
 
 # General requirements
@@ -58,10 +58,10 @@ Its main duties include:
 
 Before you get into the cockpit, be honest with yourself. It is not a formality: it is the first, and most important, check of the day.
 
-* **I** (**Illness**): Do I have any illness or symptom, however mild? A cold can stop the pressure in the middle ear from equalising as you climb.
+* **I** (**Illness**): Do I have any illness or symptom, however mild? A cold can stop the pressure in the middle ear from equalising, especially as you descend.
 * **M** (**Medication**): Have I taken any medicines that could affect my reflexes, vision or alertness?
 * **S** (**Stress**): Am I under excessive personal or professional pressure that takes up part of my attention?
-* **A** (**Alcohol**): Have I drunk alcohol in the last 8–24 hours? Even one drink the night before can affect cognitive performance.
+* **A** (**Alcohol**): Have I drunk alcohol in the last 8 hours? That is the minimum set by EASA's acceptable means of compliance; the FAA recommends leaving 12 to 24 hours, because even one drink the night before can affect cognitive performance.
 * **F** (**Fatigue**): Have I had enough rest? Fatigue is one of the most frequent, and most underestimated, factors in accidents.
 * **E** (**Emotion / Eating**): Am I emotionally stable? Have I eaten, and am I properly hydrated?
 

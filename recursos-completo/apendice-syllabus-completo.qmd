@@ -32,7 +32,7 @@ El siguiente programa de estudios (Syllabus) corresponde a la asignatura de **Fa
 * 2.3. Psicología aeronáutica básica.
 * 2.4. Uso de oxígeno.
 
-Este manual ha sido estructurado siguiendo fielmente este syllabus oficial para garantizar que cubres todos los puntos necesarios para el examen teórico.
+Este manual sigue los epígrafes de este syllabus oficial. En el examen teórico, esta asignatura tiene 10 preguntas de opción múltiple y 20 minutos (AMC1 SFCL.135).
 
 ## 3. Meteorología {.unnumbered .unlisted}
 

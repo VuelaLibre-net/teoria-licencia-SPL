@@ -1,6 +1,6 @@
 ---
 origen: 02-factores-humanos/cap02-fisiologia-aeronautica-basica-y-mantenimiento-de-salud.qmd
-origen-commit: 58a0ec2
+origen-commit: 0b42784
 ---
 
 # Basic aviation physiology and health maintenance
@@ -12,19 +12,19 @@ origen-commit: 58a0ec2
 Your physical and mental health is the most critical part of flight safety. European rules are clear: you must not fly if you are unfit for any reason (injury, illness, medication, fatigue, the effects of any psychoactive substance) or simply if you feel unwell.
 
 ::: {.callout-important title="Regulation"}
-You must consult an Aero-Medical Examiner (AME) or a general practitioner if you have had a significant injury or surgery, started regular medication, become pregnant or started wearing corrective lenses for the first time. These situations call for a new assessment of your medical fitness, and you must not fly as pilot-in-command until the cause has been resolved and you are fit again (**MED.A.020 Decrease in medical fitness**).
+You must not exercise the privileges of your licence —or, as a student, fly solo— if you are aware of a decrease in your medical fitness, or if you are taking a medicine, prescribed or not, or receiving treatment that could interfere with safe flying. In addition, before flying again you must consult an Aero-Medical Examiner (AME) —or, with an LAPL medical certificate, also the general medical practitioner (GMP) who signed it— after surgery or an invasive medical procedure, when you start taking medication regularly, after a significant injury or illness that makes you unfit to fly, if you become pregnant, after being admitted to hospital or when you first need corrective lenses. The doctor decides whether you are fit again (**MED.A.020**, *Decrease in medical fitness*).
 :::
 
-To check yourself systematically before you get into the cockpit, aviation uses a personal checklist with the mnemonic **IMSAFE** (“I am safe”). It matters as much as the pre-flight inspection of the glider (@fig-02-cap02-imsafe-checklist):
+To check yourself systematically before you get into the cockpit, the FAA promotes a personal checklist with the mnemonic **IMSAFE** (“I am safe”). It matters as much as the pre-flight inspection of the glider (@fig-02-cap02-imsafe-checklist):
 
-![The pilot's self-assessment before flight](imagenes/02-cap02-imsafe.jpg){#fig-02-cap02-imsafe-checklist}
+![The pilot's self-assessment before flight. *(FIX: the alcohol period is 8 h under the AMC, not 24 h; and with the stress and alcohol questions worded positively, the rule “if any answer is NO” is reversed.)*](imagenes/02-cap02-imsafe.jpg){#fig-02-cap02-imsafe-checklist .corregir}
 
 * **I - *Illness*:** Do you have any symptoms right now? Even a cold can get worse with the pressure changes in flight (dysbarism), and it wears down your attention. Do not fly with a fever or a viral infection.
 * **M - *Medication*:** Are you taking any medicine, prescription or not? Many over-the-counter drugs, such as antihistamines for allergies, cause drowsiness and impair cognitive and motor performance.
 * **S - *Stress*:** Are you under significant psychological or emotional pressure? Serious problems at work, at home or with money take up mental space you need for judgement and flying.
-* **A - *Alcohol*:** Have you had a drink recently? The effects last long after the last glass. The aviation rule is “bottle to throttle” (**bottle to throttle**): at least 8 hours since the last drink.
+* **A - *Alcohol*:** Have you had a drink recently? The effects last long after the last glass. The aviation rule is “bottle to throttle” (**bottle to throttle**): EASA's acceptable means of compliance sets at least 8 hours since the last drink.
 * **F - *Fatigue*:** Have you rested and slept enough? Fatigue significantly reduces alertness, decision-making ability and reaction times.
-* **E - *Eating*:** Have you eaten and drunk properly in the last few hours? Flying on an empty stomach lowers blood glucose and saps concentration. On long days, drinking matters as much as eating: drink water regularly to prevent dehydration and heatstroke.
+* **E - *Eating* (in the FAA version, *Emotion*, your emotional state):** Have you eaten and drunk properly in the last few hours? Flying on an empty stomach lowers blood glucose and saps concentration. On long days, drinking matters as much as eating: drink water regularly to prevent dehydration and heatstroke.
 
 ::: {.callout-tip title="Golden rule"}
 Before every flight, run through the **IMSAFE** list in your head. If any item comes out badly, the only safe decision is to cancel the flight (**NO-GO**).
@@ -46,39 +46,38 @@ The inside of the eye works much like the sensor of a camera. Light enters and f
 Where the optic nerve joins the retina there is an anatomical “blind spot”: anything whose image falls exactly there goes unseen. Short-sightedness, too much sun, smoking and fatigue also reduce visual acuity considerably.
 
 ::: {.callout-important title="Regulation"}
-Correct colour perception is mandatory. At your initial medical you will have to pass tests such as the Ishihara test. If you cannot show safe colour discrimination, your sailplane pilot licence (governed by Part-SFCL) will be restricted to daytime flight (**Day** VFR).
+For the sailplane pilot licence an LAPL medical certificate is the minimum (MED.A.030). With that certificate, colour perception is only assessed if you apply for a night rating, which requires safe colour perception. With a class 2 certificate, the initial examination includes the Ishihara test and, if you cannot show safe colour perception, the certificate limits your privileges to daytime flight (MED.B.075). Both rules come from Part-MED, not Part-SFCL.
 :::
 
 #### Visual scanning techniques
 
-In visual flight, collisions are prevented mainly by **See and Avoid**. A good pilot spends more than 95% of the time looking outside and checks the instruments only in quick glances of 2 to 4 seconds.
+In visual flight, collisions are prevented mainly by **See and Avoid**. Most of your time must be spent looking outside: the FAA recommends no more than 4 or 5 seconds on the panel for every 16 seconds of outside scan.
 
 To scan the sky effectively, use the clock method (@fig-02-cap02-escaneo-visual):
 
 1. Take the glider's nose as **12 o'clock**.
-2. Sweep the sky in structured sectors, from **9** round to **3**.
+2. Sweep the sky in structured sectors, from behind on the left to behind on the right —beyond **9** and **3**— and above as well.
 3. Pay special attention to the band of sky closest to the horizon, because aircraft flying at your altitude will mostly appear there.
 
-![Visual scanning pattern using the clock method](imagenes/02-cap02-escaneo-visual.jpg){#fig-02-cap02-escaneo-visual}
+![The scan cycle: look outside, attitude and instruments](imagenes/02-cap02-escaneo-visual.jpg){#fig-02-cap02-escaneo-visual}
 
 ::: {.callout-note title="Airmanship"}
-Before starting a turn (to the right, for example), make a habit of taking a quick look back over the opposite side. That way you know no traffic is closing in from the blind spot before you bank.
+Before starting a turn, clear the sector you are turning into first: ahead, above and below, and as far back as you can see. Then also take a look at the opposite side and behind, where traffic can close in from the blind spot. Only then bank.
 :::
 
 ::: {.callout-warning title="Safety"}
-The worst collision risk in free flight is a head-on track, common when ridge soaring or running along cloud streets. A glider coming straight at you hardly moves across your visual field: it just suddenly gets bigger. A pilot needs at least 3 seconds to react and carry out an avoiding manoeuvre, which should preferably be **a turn to the right**.
+The worst collision risk in free flight is a head-on track, common when ridge soaring or running along cloud streets. A glider coming straight at you hardly moves across your visual field: it just suddenly gets bigger. Between seeing a dot in the sky and your glider starting to move out of the way, about 12.5 seconds go by (FAA, AC 90-48E): you have to spot traffic early. In a head-on encounter, SERA requires both aircraft to **turn to the right**.
 :::
 
 #### Night vision and visual illusions in flight
 
-Vision deteriorates as light and oxygen fall. Even at fairly low altitudes (6,000 feet), blood oxygen drops enough to affect the peripheral rods in poor light, so your eyesight falls off sooner than you would expect.
+Vision deteriorates as light and oxygen fall. Even at fairly low altitudes (about 5,000 feet, according to the FAA), blood oxygen drops enough to affect the peripheral rods in poor light, so your eyesight falls off sooner than you would expect.
 
 In darkness, over snow or over water there is little texture or outline to go on, and the brain easily fills the gap with dangerous illusions:
 
-* **Black hole approach (Black Hole Approach):** On final towards a lit runway surrounded by very dark terrain with no lights at the sides (a lake, for instance), the brain loses its true sense of depth. The illusion makes you believe you are higher than you are and that the approach path is steeper than normal. You feel the urge to lower the nose to “correct” it, and risk hitting the ground short of the threshold. The remedy is to hold the speed shown on the airspeed indicator and ignore the sensation until you have textured visual references on the ground again.
+* **Black hole approach (Black Hole Approach):** On final towards a lit runway surrounded by very dark terrain with no lights at the sides (a lake, for instance), the brain loses its true sense of depth. The illusion makes you believe you are higher than you are and that the approach path is steeper than normal. You feel the urge to lower the nose to “correct” it, and risk hitting the ground short of the threshold. The remedy is to know the illusion, cross-check the approach path against objective references —the approach lights, if any, or the altimeter— and not descend below the planned path.
 * **Autokinetic illusion:** If you stare at a single light in the dark for several seconds, the eye's tiny involuntary movements make the light seem to move. You may then wonder whether it is another aircraft. The remedy is to keep your scan going and never fix your eyes on a single light for more than a few seconds.
 
-![Visual illusions](imagenes/02-cap02-ilusiones-opticas.png){#fig-02-cap02-ilusiones-opticas}
 
 ### The ear and the vestibular system
 
@@ -90,6 +89,8 @@ As the glider climbs, atmospheric pressure falls and the trapped air expands, tr
 2. **Sinuses:** As with the ears, a temporary blockage causes intense nerve pain around the eyebrows or cheekbones.
 3. **Digestive tract and tooth decay:** Gassy food before a flight means painful cramps at altitude. In the same way, a tiny air bubble trapped under a filling can cause a fierce “barodontic” toothache in the climb.
 
+Besides trapped gas there is **dissolved** gas. After a dive with breathing apparatus, your blood and tissues hold extra nitrogen, which can form bubbles as you climb: **decompression sickness**. Diving and blood donation can both cause incapacitation, so the pilot-in-command must not fly until a reasonable time has passed after either. EASA guidance considers **24 hours** a suitable minimum after normal recreational diving or a normal blood donation (AMC1 and GM1 SAO.GEN.130(f), non-binding material).
+
 ::: {.callout-note title="Airmanship"}
 Upper airway congestion (colds, severe allergic rhinitis) automatically rules you out of flying (**No-Go**). A barotrauma in the descent hurts so much that you will not be able to fly the glider safely.
 :::
@@ -100,8 +101,10 @@ To stay oriented while thermalling under the clouds, you combine three sources o
 
 Our senses evolved for moving over the ground in two dimensions under constant gravity. Without a reliable view of the horizon, the brain falls easily for illusions that cause **spatial disorientation**: a false sense of your actual position or attitude.
 
-* **Vestibular illusions:** A long, steady turn in a thermal can fool the semicircular canals into sensing that the glider is level or barely turning (an illusion of stability). Conversely, severe turbulence can make you pull sharply on the stick when the aircraft is actually in a normal attitude.
+* **Vestibular illusions:** A long, steady turn in a thermal can fool the semicircular canals into sensing that the glider is level or barely turning (an illusion of stability). Conversely, severe turbulence can make you pull sharply on the stick when the aircraft is actually in a normal attitude. (@fig-02-cap02-ilusiones-opticas)
 * **Visual illusions:** A sloping approach perspective, a lack of texture on the ground (snow, water) or a runway much wider or narrower than usual can distort your estimate of height over the threshold.
+
+![Vestibular illusion in a prolonged turn: the pilot believes the glider is level while the attitude indicator shows the bank](imagenes/02-cap02-ilusiones-opticas.png){#fig-02-cap02-ilusiones-opticas}
 
 ::: {.callout-warning title="Safety"}
 When the horizon is lost and what you “feel” contradicts the instruments, ignore your instinct. **Trust the instruments** (airspeed indicator, yaw string, slip ball and artificial horizon) and act on them.
@@ -141,7 +144,7 @@ Carbon monoxide has no smell, no colour and no taste. It binds to haemoglobin ab
 The first symptoms are vague: a headache or slight muscle weakness, quickly followed by nausea, disorientation, blurred vision and misplaced euphoria. Left unchecked, it ends in loss of consciousness.
 
 ::: {.callout-warning title="Safety"}
-In motor gliders, have a carbon monoxide detector fitted to the panel and check its expiry date. At any symptom (headache, bright red lips), or if the detector patch changes colour, act at once: **turn off the heating**, open the ventilation fully, use supplemental oxygen if you have it and land without delay.
+In motor gliders, have a carbon monoxide detector fitted to the panel and check its expiry date. At any symptom (headache, blurred vision, dizziness, drowsiness or loss of strength), or if the detector patch changes colour, act at once: **turn off the heating**, open the ventilation fully, use supplemental oxygen if you have it and land without delay.
 :::
 
 ## Hypothermia and cold at altitude
@@ -162,12 +165,12 @@ Stress in the cockpit is not always the enemy. Some tension (the feeling just be
 
 Two frameworks help here, and they describe different things. The first, the **Yerkes-Dodson curve**, relates arousal to performance. It has the shape of an inverted U: too little tension gives you an apathetic pilot and too much a pilot who freezes, with the peak in the middle (@fig-02-cap02-curva-estres).
 
-![Arousal and pilot performance (the Yerkes-Dodson curve)](imagenes/02-cap02-curva-estres.png){#fig-02-cap02-curva-estres}
+![Arousal and pilot performance (the Yerkes-Dodson curve). *(FIX: the right-hand branch is over-arousal —anxiety, panic—, not “exhaustion”, which is a stage of Selye's syndrome; and the axis measures arousal.)*](imagenes/02-cap02-curva-estres.png){#fig-02-cap02-curva-estres .corregir}
 
 The second, Hans Selye's **General Adaptation Syndrome**, describes how the body responds when tension goes on for a long time, in three stages:
 
 1. **Alarm stage (reaction):** Faced with something new or a sudden threat, the body releases a surge of adrenaline. Heart rate and breathing shoot up, the pupils dilate and the brain goes on full alert, ready to fight or flee.
-2. **Resistance stage (adaptation):** If the stressor does not go away within a few minutes (for example, battling one strong sink after another far from a safe landable field), the body works hard to adjust and keep you composed.
+2. **Resistance stage (adaptation):** If the stressor goes on —in Selye's model, for hours or days— (for example, battling one strong sink after another far from a safe landable field), the body works hard to adjust and keep you composed.
 3. **Exhaustion stage:** When the situation is too intense or lasts too long, the reserves used in stage two run out. Exhaustion sets in, and your ability to think and to handle the glider collapses fast.
 
 ### Hyperventilation
@@ -178,38 +181,38 @@ This rapid breathing flushes large amounts of carbon dioxide (CO₂) out of the 
 
 The **symptoms** are easy to recognise: tingling and numbness in the hands and feet, cramps around the mouth, palpitations, nausea, pallor and a feeling of suffocation even though you are breathing. Left unchecked, it can lead to drowsiness and loss of consciousness.
 
-The immediate treatment is to slow your breathing down deliberately. Talking or singing out loud regulates the breathing cycle; holding your breath for a few seconds can also help restore the CO₂ in your blood.
+The immediate treatment is to slow your breathing down deliberately, making each breath out longer. Talking or singing out loud regulates the breathing cycle, and in severe cases breathing into a bag held over your nose and mouth helps. Because the first symptoms resemble those of hypoxia, at altitude you treat hypoxia first (Chapter 4).
 
 ### Overconfidence, pressure and decision-making
 
 Prolonged stress eats away at safety: it can breed **overconfidence** or switch off critical thinking. Pressure (winning a task, keeping up with a more experienced pilot, or just wanting to get there) pushes you into risks you would never accept on the ground. Be strict and honest about what you can do. The best competition pilots have one thing in common: they are hard on themselves when they review their own decisions after landing.
 
 ::: {.callout-note title="Airmanship"}
-To keep stress within the safe operating range, **avoid stacking up several “firsts”** on the same flight. Flying a glider type that is completely new to you, on aerotow from an aerodrome you do not know, into a gusty crosswind gale, is too many unknowns at once. Your mind will skip the alarm stage and go straight to panic. Add new things one at a time.
+To keep stress within the safe operating range, **avoid stacking up several “firsts”** on the same flight. Flying a glider type that is completely new to you, on aerotow from an aerodrome you do not know, into a gusty crosswind gale, is too many unknowns at once. Your mind will go straight to over-arousal: panic. Add new things one at a time.
 :::
 
 ## Fatigue (acute and chronic) and its effect on performance
 
-Acute stress is an immediate threat. Fatigue works slowly, wearing down mental and physical performance long before obvious signs such as yawning appear.
+Acute stress is an immediate threat. Fatigue wears down mental and physical performance long before obvious signs such as yawning appear. **Acute fatigue** belongs to a particular day —lack of sleep, exertion, heat— and is cured by rest and sleep. **Chronic fatigue** builds up over weeks, is not relieved by normal rest and needs medical advice.
 
 Fatigue degrades all of a pilot's abilities: it reduces analytical capacity, muddles reasoning, slows decision-making, lengthens reaction times and weakens the sustained attention you need to spot other traffic.
 
 Flying after an exhausting day at work affects your circuit and landing as much as flying short of sleep. Pilots also tend to underestimate how much circadian rhythms affect their performance.
 
 ::: {.callout-warning title="Safety"}
-**The only cure for fatigue is sleep.** Coffee and energy drinks mask the symptoms for a while, but they do not restore your cognitive abilities. If fatigue is affecting your attention or reasoning, the decision is **NO-GO** (cancel the flight).
+**Acute fatigue is cured only by rest and sleep; chronic fatigue needs medical advice.** Coffee and energy drinks mask the symptoms for a while, but they do not restore your cognitive abilities. If fatigue is affecting your attention or reasoning, the decision is **NO-GO** (cancel the flight).
 :::
 
 ## Dehydration, heatstroke and sun exposure
 
 In summer, the canopy acts like a greenhouse. When you are thermalling in flying clothes with a parachute on your back, the cockpit can get very hot.
 
-In these conditions, and breathing faster at altitude, you cool yourself by sweating heavily. You can easily lose 1 to 3 litres of water an hour without noticing.
+In these conditions, and breathing faster at altitude, you cool yourself by sweating heavily. You lose water without noticing: the FAA recommends replacing about half a litre an hour in moderate heat and about a litre in severe heat.
 
 Gradual dehydration thickens the blood and impairs circulation. The first symptoms are headache and growing tiredness. Next come muscle cramps and, in serious cases, **heatstroke**, which can cause a racing heart and loss of consciousness (**black out**) at the controls.
 
 ::: {.callout-tip title="Golden rule"}
-**Thirst** comes late. By the time your mouth feels dry, dehydration has already cut into your cognitive performance. And water you drink in the cockpit takes about 20 minutes to reach your bloodstream effectively. **Stay ahead by drinking regularly throughout the flight; never wait until you are thirsty**.
+**Thirst** comes late. By the time your mouth feels dry, dehydration has already cut into your cognitive performance. **Stay ahead by drinking regularly throughout the flight; never wait until you are thirsty**.
 :::
 
 ## Effects of alcohol, drugs, self-medication and doping
@@ -221,37 +224,37 @@ Aviation rules prohibit flying under the influence of psychoactive substances. T
 Alcohol is the commonest depressant of the central nervous system. Its effect on reaction time is worse at altitude, where there is less oxygen in the blood (hypobaric hypoxia).
 
 ::: {.callout-important title="Regulation"}
-**AMC1 SAO.GEN.130(f) and SAO.GEN.135(b)** (ED Decision 2019/001/R), entitled *Alcohol consumption*, sets out the “bottle to throttle” rule (**bottle to throttle**) for sailplane crews: no alcohol in the **8 hours before** the flight, a blood alcohol level at the start of the flight of no more than **0.2 g/l** (or the national limit, if stricter) and **no alcohol during the flight**. Do not confuse it with AMC1 SAO.GEN.130(f) on its own, which deals with scuba diving and blood donation.
+The rule sets no figure: no crew member may perform duties on a sailplane when incapacitated “by any cause, including injury, sickness, medication, fatigue or the effects of any psychoactive substance, or [when he or she] feels otherwise unfit” (**SAO.GEN.130(f)** for the pilot-in-command and **SAO.GEN.135(b)** for other crew; also **SERA.2020**). The acceptable means of compliance **AMC1 SAO.GEN.130(f) and SAO.GEN.135(b)** (ED Decision 2019/001/R), entitled *Alcohol consumption*, sets out the “bottle to throttle” rule (**bottle to throttle**) for sailplane crews: no alcohol in the **8 hours before** the flight, a blood alcohol level at the start of the flight of no more than **0.2 g/l** (or the national limit, if stricter) and **no alcohol during the flight**. Do not confuse it with AMC1 SAO.GEN.130(f) on its own, which deals with scuba diving and blood donation.
 :::
 
-You may hear that Spain requires “zero alcohol” for flying. It does not: **Spain has not set a stricter national limit**. AESA's own material on ramp alcohol tests says so: its form reads “National regulatory limit (not defined in Spain)” (unofficial translation). The EASA threshold of 0.2 g/l therefore applies. Do not mix it up with the road traffic limits. Still, 0.2 g/l is a legal limit, not a target. The only safe practice is to get into the glider with no alcohol in your body at all.
+You may hear that Spain requires “zero alcohol” for flying. It does not: **Spain has not set a stricter national limit**. Neither the Aviation Safety Act (Ley 21/2003) nor Royal Decree 1180/2018 sets a figure, so the reference value is that of the EASA AMC, 0.2 g/l. Do not mix it up with the road traffic limits. But 0.2 g/l is no guarantee: with a lower level and impaired faculties you are still in breach of the rule, and in Spain taking off under the influence of alcoholic drinks that may affect your capacity is a **criminal offence** (Ley 209/1964, art. 31, unofficial translation; see Book 01, Chapter 14). The only safe practice is to get into the glider with no alcohol in your body at all.
 
 ### Self-medication, antihistamines and painkillers
 
-Illegal drugs automatically invalidate an EASA medical certificate. Beyond them, the biggest hidden danger in general aviation is **self-medication**.
+Problematic use of illegal drugs makes a pilot unfit (MED.B.055). Beyond them, the biggest hidden danger in general aviation is **self-medication**.
 
-Over-the-counter medicines, such as **antihistamines** for hay fever or travel-sickness tablets, are incompatible with flying. They slow your reflexes and make you drowsy, often without you realising it.
+Many over-the-counter medicines, such as most **antihistamines** for hay fever or travel-sickness tablets, are incompatible with flying: they slow your reflexes and make you drowsy, often without you realising it. Some non-sedating antihistamines may be compatible, but that is for the medical examiner to decide, not the pilot.
 
-**The basic rule is simple: if the leaflet advises against driving or operating heavy machinery, flying under its effects is completely prohibited**.
+**The rule is clear: do not fly with a medicine that could interfere with your ability to fly (MED.A.020).** If the leaflet advises against driving or operating machinery, that is an unmistakable warning sign; if it does not, that guarantees nothing either. Before flying on a new medicine, EASA guidance suggests three questions: do I feel fit to fly?, do I really need to take it?, have I tried it on the ground without adverse effects? If in doubt, ask your medical examiner.
 
 ### Doping and therapeutic use exemptions (TUE)
 
-Like any other elite sport, competition gliding is regulated internationally and tested strictly under the rules of the **World Anti-Doping Agency (WADA)**.
+FAI gliding competitions apply the **World Anti-Doping Code**, set by the **World Anti-Doping Agency (WADA)**, like any other sport. Testing is carried out by the FAI or by the national anti-doping organisation (in Spain, CELAD).
 
 ::: {.callout-note title="Airmanship"}
-To fly in championships while under medical treatment without risking disqualification (there is testing after landing), you must justify the medication in advance by applying for a **Therapeutic Use Exemption (TUE)**. With it, a positive doping test will not lead to sanctions.
+To compete while being treated with a prohibited substance without risking a sanction, you must obtain a **Therapeutic Use Exemption (TUE)** from your national anti-doping organisation or from the FAI, depending on your level. A TUE only covers the use it authorises: that substance, that dose and that route.
 :::
 
 ::: {.postit}
 **Chapter summary: aviation physiology**
 
 * **IMSAFE fitness:** Check your condition with the list **Illness**, **Medication**, **Stress**, **Alcohol**, **Fatigue**, **Eating** before take-off. If in doubt, cancel the flight (**NO-GO**). If you have a significant medical problem, see an Aero-Medical Examiner (AME).
-* **Dysbarism:** Body gases expand as you climb. Never fly with a cold or a blocked nose: the pain in your eardrums and sinuses from the pressure change will leave you unable to fly.
+* **Dysbarism:** Body gases expand as you climb and contract as you descend. Never fly with a cold or a blocked nose: in the descent the pressure cannot equalise, and the pain in your eardrums and sinuses will leave you unable to fly.
 * **Sensory illusions:** Once you lose outside visual references, your inner ear will fool you. If you are disoriented with no clear horizon, ignore your sensations and trust the instruments completely.
 * **Carbon monoxide (CO):** A lethal gas with no smell, colour or taste that only a dedicated detector can pick up. It is a real danger in motor gliders (TMG) because of the engine fumes and the cabin heating. At the slightest symptom or warning from the detector, turn off the heating, open the ventilation and land immediately.
 * **Hypothermia:** Sitting still in the cockpit and the cold at altitude will quickly drain your body heat, dulling your reflexes and clarity. Always fly with warm clothing in layers, and avoid tight footwear that restricts circulation.
-* **Stress and hyperventilation:** Panic can make you pant uncontrollably, upsetting the carbon dioxide level in your blood and causing numbness and blindness. To stop it, slow your breathing deliberately with long breaths out, and talk or sing out loud to steady yourself.
+* **Stress and hyperventilation:** Panic can make you pant uncontrollably, upsetting the carbon dioxide level in your blood and causing numbness and visual disturbances. To stop it, slow your breathing deliberately with long breaths out, and talk or sing out loud to steady yourself.
 * **Dehydration:** The closed cockpit is a greenhouse and you lose fluid fast. By the time you feel thirsty, you already have a deficit that cuts into your cognitive abilities. Drink water regularly from take-off to head off headaches or a deadly heatstroke.
-* **Fatigue:** Tiredness slows your reactions and clouds your decisions. Coffee or energy drinks will not stop its hidden effects on attention. There is only one cure: sleep.
-* **EASA rules, medication and alcohol:** No exceptions: **“bottle to throttle”**, 8 hours without alcohol before the flight, no alcohol during the flight and a blood alcohol level below 0.2 g/l, or the national limit if stricter (AMC1 SAO.GEN.130(f) and SAO.GEN.135(b)). Do not self-medicate: even innocent-looking allergy or travel-sickness tablets can make you too drowsy to fly.
+* **Fatigue:** Tiredness slows your reactions and clouds your decisions. Coffee or energy drinks will not stop its hidden effects on attention. Acute fatigue is cured only by rest and sleep; chronic fatigue, which does not ease with normal rest, needs medical advice.
+* **EASA rules, medication and alcohol:** The rule forbids flying with your faculties impaired by any psychoactive substance (SAO.GEN.130(f) and SERA.2020). Its acceptable means of compliance sets out **“bottle to throttle”**: 8 hours without alcohol before the flight, no alcohol during the flight and a blood alcohol level below 0.2 g/l, or the national limit if stricter (AMC1 SAO.GEN.130(f) and SAO.GEN.135(b)). A lower level does not protect a pilot whose faculties are impaired. Do not self-medicate: even innocent-looking allergy or travel-sickness tablets can make you too drowsy to fly.
 :::

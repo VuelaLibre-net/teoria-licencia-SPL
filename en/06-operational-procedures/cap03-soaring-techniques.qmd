@@ -1,6 +1,6 @@
 ---
 origen: 06-procedimientos-operativos/cap03-tecnicas-de-planeo.qmd
-origen-commit: 02d77b9
+origen-commit: bd1a990
 ---
 
 # Soaring techniques
@@ -93,7 +93,7 @@ Never turn towards the slope unless you are sure you have room to complete the t
 ![Diagram of a mountain wave and its flying zones](imagenes/06-cap03-onda-esquema.png){#fig-06-cap03-onda-esquema}
 
 ::: {.callout-note title="Airmanship"}
-High-altitude wave flying needs specific equipment: oxygen from 3,000–4,000 metres depending on the pilot's endurance and condition, suitable warm clothing and a calibrated altimeter. Before a planned wave flight, check the airspace: wave heights often coincide with restricted areas or areas reserved for controlled traffic, which need prior clearance.
+High-altitude wave flying needs specific equipment: oxygen when the pilot-in-command determines that a lack of it may impair the occupants' faculties (SAO.OP.150) and, if they cannot assess this, above 10,000 ft, about 3,000 m (AMC1 SAO.OP.150), suitable warm clothing and a calibrated altimeter. Before a planned wave flight, check the airspace: wave heights often coincide with restricted areas or areas reserved for controlled traffic, which need prior clearance.
 :::
 
 ## Water ballast management
