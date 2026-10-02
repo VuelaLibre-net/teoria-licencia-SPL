@@ -1,10 +1,10 @@
 # Uso de oxígeno
 
-> A medida que el planeador gana altitud, la presión atmosférica desciende y el oxígeno disponible para el organismo disminuye. Este capítulo explica los mecanismos que provocan la hipoxia y la hiperventilación, describe sus síntomas y tratamientos, y detalla los requisitos reglamentarios y los equipos de oxígeno que el piloto debe conocer para operar con seguridad en altitud.
+> Al subir, la presión del aire baja y el cuerpo recibe menos oxígeno. Este capítulo explica por qué aparecen la hipoxia y la hiperventilación, cómo reconocerlas y tratarlas, qué dice la norma sobre el oxígeno y qué equipos se usan en planeador.
 
 ## La atmósfera y las leyes de los gases
 
-Para entender cómo afecta la altitud en la cabina de un planeador —que no está presurizada—, es necesario comprender dos principios básicos de física.
+Para entender cómo afecta la altitud en la cabina de un planeador —que no está presurizada—, conviene conocer tres leyes de los gases.
 
 La atmósfera está compuesta por un 78% de nitrógeno y un 21% de oxígeno. Ese porcentaje se mantiene constante conforme se gana altura, pero lo que cambia de forma significativa es la **presión atmosférica**.
 
@@ -63,7 +63,7 @@ Ante cualquier fallo en el suministro de oxígeno o sospecha de hipoxia, aplique
 
 ### Prevención y tratamiento
 
-La mejor prevención es anticipar las situaciones de riesgo y operar el equipo de oxígeno de forma rutinaria y automatizada.
+La mejor prevención es anticiparse y usar el equipo de oxígeno por rutina, siempre de la misma manera.
 
 Antes del vuelo, compruebe el equipo:
 

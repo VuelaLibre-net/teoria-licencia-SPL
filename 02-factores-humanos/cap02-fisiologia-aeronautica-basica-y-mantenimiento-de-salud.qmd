@@ -1,16 +1,16 @@
 # Fisiología aeronáutica básica y mantenimiento de salud
 
-> Este capítulo aborda cómo el entorno del vuelo afecta al organismo humano y los determinantes de la condición física del piloto de planeador. Repasaremos su impacto en los sentidos, el desgaste provocado por la altitud y las directrices normativas innegociables para preservar la seguridad operacional antes de situarse a los mandos.
+> En vuelo, el cuerpo soporta cambios de presión, de temperatura y de oxígeno, y los sentidos se orientan peor que en tierra. Este capítulo explica cómo te afecta todo eso, qué te deja en tierra antes de volar y qué dice la norma sobre el alcohol y los medicamentos.
 
 ## Aptitud para el vuelo y la evaluación personal (lista de chequeo IMSAFE)
 
-Como piloto de planeador, el estado de salud física y mental es el componente más crítico para la seguridad del vuelo. La normativa europea establece claramente que un piloto debe abstenerse de volar si está incapacitado por cualquier causa, como una lesión, enfermedad, medicación, fatiga o los efectos de cualquier sustancia psicoactiva, o si simplemente se siente indispuesto.
+Tu salud, física y mental, pesa en la seguridad del vuelo tanto como el estado del planeador. La normativa europea dice que un piloto debe abstenerse de volar si está incapacitado por cualquier causa, como una lesión, enfermedad, medicación, fatiga o los efectos de cualquier sustancia psicoactiva, o si simplemente se siente indispuesto.
 
 ::: {.callout-important title="Normativa"}
 No se pueden ejercer las atribuciones de la licencia —ni, siendo alumno, volar solo— si se nota una disminución de la aptitud médica, o si se toma un medicamento, con o sin receta, o se recibe un tratamiento que pueda interferir con el vuelo seguro. Además, antes de volver a volar hay que consultar con un Médico Examinador Aéreo (AME) —o, con certificado LAPL, también con el médico de cabecera (GMP) que lo firmó— tras una operación quirúrgica o un procedimiento médico invasivo, al empezar a tomar medicación de forma regular, tras una lesión o una enfermedad importantes que incapaciten para volar, en caso de embarazo, tras un ingreso hospitalario o al necesitar lentes correctoras por primera vez. El médico decide si el piloto vuelve a ser apto (**MED.A.020**, *Decrease in medical fitness*).
 :::
 
-Para ayudar a evaluar sistemáticamente la condición individual antes de acceder a la cabina, la FAA difunde una lista de chequeo personal conocida por el acrónimo mnemotécnico **IMSAFE** (del inglés "I am safe" - **Estoy a salvo**). Esta revisión es tan vital como la propia inspección prevuelo del planeador (@fig-02-cap02-imsafe-checklist):
+Para ayudar a evaluar sistemáticamente la condición individual antes de acceder a la cabina, la FAA difunde una lista de chequeo personal conocida por el acrónimo mnemotécnico **IMSAFE** (del inglés "I am safe" - **Estoy a salvo**). Esta revisión importa tanto como la inspección prevuelo del planeador (@fig-02-cap02-imsafe-checklist):
 
 ![Evaluación personal del piloto antes del vuelo. *(CORREGIR: el plazo del alcohol es de 8 h según el AMC, no de 24 h; y con las preguntas del estrés y del alcohol, formuladas en positivo, la regla «si alguna respuesta es NO» se invierte.)*](imagenes/02-cap02-imsafe.jpg){#fig-02-cap02-imsafe-checklist .corregir}
 
@@ -29,7 +29,7 @@ Antes de cada vuelo, repase mentalmente la lista **IMSAFE**. Si alguno de sus el
 
 ### La visión
 
-La visión es el sentido más importante para el piloto de planeador. Dado que nuestra evolución nos ha adaptado a movernos en dos dimensiones sobre el suelo, volar en un entorno tridimensional presenta desafíos únicos para nuestra percepción.
+Para el piloto de planeador, la vista es el sentido más importante. Pero el ser humano evolucionó para moverse en dos dimensiones sobre el suelo, y en el aire, que tiene tres, la percepción se equivoca con facilidad.
 
 #### Anatomía visual básica
 
@@ -68,7 +68,7 @@ El riesgo más grave de colisión en vuelo libre se produce en trayectorias fron
 
 La capacidad visual humana se degrada con la escasez luminosa y la disminución de oxígeno. A partir de altitudes relativamente bajas (unos 5.000 pies, según la FAA), la cantidad de oxígeno en sangre se reduce lo suficiente como para afectar al funcionamiento de los bastones periféricos en vuelos con poca luz, limitando prematuramente la agudeza visual.
 
-Por otro lado, la falta de texturas y contornos fiables en la oscuridad, en entornos nevados o sobre el agua facilita la aparición de peligrosas ilusiones en el cerebro del piloto:
+Por otro lado, la falta de texturas y contornos fiables en la oscuridad, en entornos nevados o sobre el agua favorece ilusiones peligrosas:
 
 * **Aproximación de agujero negro (Black Hole Approach):** Al realizar el tramo final hacia una pista iluminada rodeada de terreno muy oscuro y sin referencias luminosas laterales (como un lago), el cerebro pierde la percepción real de profundidad. La ilusión lleva a creer que vuelas más alto de lo real y que la senda es más empinada de lo normal. Esto genera el impulso de picar el morro para «corregirla», con riesgo de impacto antes del umbral. La medida correctiva es conocer la ilusión, contrastar la senda con referencias objetivas —las luces de aproximación, si las hay, o el altímetro— y no descender por debajo de la senda prevista.
 * **Ilusión autocinética:** Al fijar la mirada sobre una luz aislada en la oscuridad durante varios segundos, los micromovimientos involuntarios del ojo producen la falsa percepción de que la luz se desplaza. Esto puede confundir al piloto respecto a si se trata de otra aeronave en movimiento. El remedio es mantener el escaneo visual activo, evitando fijar la vista en un foco único durante más de unos pocos segundos.
@@ -76,25 +76,25 @@ Por otro lado, la falta de texturas y contornos fiables en la oscuridad, en ento
 
 ### El oído y el sistema vestibular
 
-Los disbarismos son una serie de alteraciones orgánicas secundarias a la expansión y contracción de los diminutos volúmenes de gas atrapados en el interior del cuerpo humano como consecuencia del cambio externo en la presión barométrica, cumpliendo rigurosamente la **Ley de Boyle**.
+Los disbarismos son las alteraciones que produce en el cuerpo el cambio de la presión exterior: el gas atrapado en sus cavidades se expande al subir y se contrae al bajar, según la **Ley de Boyle**.
 
-Al emprender un ascenso con el planeador, la presión atmosférica decae. El aire atrapado se expande buscando salir. Esto afecta sustancialmente tres regiones de la anatomía:
+Al subir, la presión baja y el aire atrapado se expande y busca salida. Afecta sobre todo a tres zonas:
 
 1. **Oído medio:** El conducto que iguala la presión con el exterior es la trompa de Eustaquio. En subida, el aire en expansión suele escapar por ella sin gran esfuerzo, incluso con algo de congestión. El problema serio llega en el **descenso**: con la trompa inflamada por un resfriado, el aire no consigue volver a entrar, el tímpano se deforma hacia dentro y aparece un dolor intolerable, la **barotitis media**.
-2. **Senos paranasales:** Al igual que en los oídos, la obstrucción temporal originará un intenso dolor neurálgico en la zona de las cejas o maxilares.
-3. **Tracto gastrointestinal y caries:** La ingestión de alimentos productores de gas antes de un vuelo desembocará en molestos retortijones en altura, de igual modo que una pequeña burbuja atrapada bajo un empaste dental puede ocasionar en ascenso un dantesco dolor de muelas "barodóntico".
+2. **Senos paranasales:** Como en el oído, si están obstruidos aparece un dolor intenso sobre las cejas o en los maxilares.
+3. **Tracto gastrointestinal y caries:** Los alimentos que producen gases, tomados antes de volar, dan retortijones en altura; y una pequeña burbuja atrapada bajo un empaste puede causar al subir un dolor de muelas muy fuerte (barodontalgia).
 
 Además del gas atrapado está el gas **disuelto**. Tras una inmersión con botella, la sangre y los tejidos guardan nitrógeno en exceso, que al subir puede formar burbujas: la **enfermedad descompresiva**. El buceo y la donación de sangre pueden ser causa de incapacidad, y por eso el piloto al mando no debe volar hasta que haya pasado un tiempo razonable después de cualquiera de los dos. La guía de EASA considera adecuadas, como mínimo, **24 horas** tras un buceo deportivo normal o una donación de sangre normal (AMC1 y GM1 SAO.GEN.130(f), material no vinculante).
 
 ::: {.callout-note title="Airmanship"}
-La congestión de vías altas (catarros, rinitis alérgicas fuertes) es una causa automática de auto-exclusión para volar (**No-Go**). El atroz dolor del barotrauma provocado en un descenso anulará por completo la capacidad para gobernar con seguridad el planeador.
+Con las vías altas congestionadas (catarro, rinitis alérgica fuerte) no se vuela: es **No-Go**. El dolor de un barotrauma en el descenso puede dejarle sin capacidad para pilotar.
 :::
 
 ## Desorientación espacial e ilusiones sensoriales
 
 Durante un vuelo térmico bajo las nubes, la orientación precisa requiere integrar tres fuentes de información: la visión, el sistema propioceptivo (señales de músculos y tendones) y, de forma fundamental, el **sistema vestibular** del oído interno, encargado de percibir la aceleración.
 
-Los sentidos humanos evolucionaron para el movimiento bidimensional sobre el terreno bajo una gravedad constante. Al volar sin referencias visuales fiables del horizonte, el cerebro es susceptible de generar ilusiones que producen **desorientación espacial**: una falsa apreciación de la posición u orientación real en el espacio.
+Los sentidos evolucionaron para movernos sobre el suelo, con la gravedad siempre en la misma dirección. Sin un horizonte visible y fiable, el cerebro puede generar ilusiones que producen **desorientación espacial**: una falsa apreciación de la posición u orientación real en el espacio.
 
 * **Ilusiones vestibulares:** Un viraje prolongado y estable en térmica puede engañar a los canales semicirculares, induciendo la percepción de que el planeador está nivelado o virando apenas (ilusión de estabilidad). En sentido contrario, la turbulencia severa puede impulsar al piloto a tirar bruscamente de la palanca cuando el avión se mantiene de hecho en actitud normal. (@fig-02-cap02-ilusiones-opticas)
 * **Ilusiones ópticas:** Una perspectiva de aproximación inclinada, la falta de texturas en el suelo (nieve, agua) o una pista significativamente más ancha o estrecha que la habitual pueden producir sesgos perceptivos en la estimación de la altitud sobre el umbral.
@@ -117,7 +117,7 @@ El mareo puede afectar incluso a pilotos curtidos, especialmente tras períodos 
 
 ![La fijación visual en el horizonte exterior previene la cinetosis (el mareo)](imagenes/02-cap02-cinetosis-fijacion.jpg){#fig-02-cap02-cinetosis-fijacion}
 
-Para prevenir y gestionar el fantasma del mareo en vuelo, interioriza y aplica en cabina las siguientes medidas (@fig-02-cap02-cinetosis-fijacion):
+Para prevenir el mareo y manejarlo si aparece (@fig-02-cap02-cinetosis-fijacion):
 
 * **La mirada al horizonte:** El remedio más eficaz es la referencia visual exterior. Ante los primeros síntomas de malestar, levante la barbilla, busque el horizonte natural y fije la vista en un punto lejano. Evite mirar los instrumentos o leer documentos en la rodillera.
 * **Reducción del movimiento:** Limite los movimientos bruscos de cabeza. Las aceleraciones negativas prolongadas incrementan la susceptibilidad al mareo; evite transiciones de actitud extremas sin necesidad.
@@ -125,10 +125,10 @@ Para prevenir y gestionar el fantasma del mareo en vuelo, interioriza y aplica e
 * **Hidratación:** La deshidratación en una cabina calentada por el sol bajo el plexiglás agrava el malestar. Lleve agua suficiente, beba con regularidad e incremente la ventilación facial para acceder a aire fresco.
 
 ::: {.callout-warning title="Seguridad"}
-No ingiera fármacos antihistamínicos contra el mareo (como la **Biodramina**) antes de pilotar. Su formulación está contraindicada en aviación: producen somnolencia profunda que compromete gravemente los tiempos de reacción y el estado de alerta necesarios para la seguridad del vuelo.
+No tome antihistamínicos contra el mareo (como la **Biodramina**) antes de pilotar. Están contraindicados en aviación: producen una somnolencia profunda que alarga el tiempo de reacción y reduce el estado de alerta.
 :::
 
-Si a pesar de las precauciones la cinetosis resulta limitante bajo los mandos, la prioridad es la seguridad. En bipuesto, transfiera los mandos al piloto calificado a bordo anunciando «**tienes los mandos**» o «**tuyo**». En monoplaza, estabilice el planeador en vuelo recto y nivelado para reducir el conflicto sensorial del oído interno, abra la ventilación al máximo y abrevie la misión buscando aterrizaje inmediato.
+Si a pesar de las precauciones la cinetosis resulta limitante bajo los mandos, la prioridad es la seguridad. En bipuesto, transfiera los mandos al piloto calificado a bordo anunciando «**tienes los mandos**» o «**tuyo**». En monoplaza, estabilice el planeador en vuelo recto y nivelado para reducir el conflicto sensorial del oído interno, abra la ventilación al máximo y abrevie el vuelo para aterrizar cuanto antes.
 
 ## Intoxicación por monóxido de carbono (riesgos en motoveleros o remolcadores)
 
@@ -144,19 +144,19 @@ En motoveleros, lleve instalado un detector de monóxido de carbono en el panel 
 
 ## Hipotermia y frío en altitud
 
-El vuelo a vela implica, con frecuencia, alcanzar grandes altitudes. Recuerde que el gradiente térmico de la atmósfera estándar reduce la temperatura exterior a razón de unos 2 °C por cada 1.000 ft. A 4.000 m se pueden registrar –20 °C, y en las proximidades de la tropopausa, valores de –50 °C o inferiores.
+En vuelo a vela se sube a menudo a mucha altura, y en la atmósfera estándar la temperatura exterior baja unos 2 °C por cada 1.000 ft. A 4.000 m se pueden registrar –20 °C, y en las proximidades de la tropopausa, valores de –50 °C o inferiores.
 
 La posición de pilotaje semirreclinada y la escasa actividad muscular favorecen la aparición de **hipotermia** (temperatura corporal central inferior a 35 °C). Además, la irradiación solar directa puede crear una sensación de confort térmico en el tronco, mientras los pies y piernas, en la sombra del panel frontal, quedan expuestos a temperaturas muy bajas con riesgo de congelación.
 
-Los síntomas hipotérmicos comienzan con temblores musculares, y progresan hacia letargo, confusión mental y alteraciones del habla. El riesgo adicional es que el frío reduce la capacidad del piloto para percibir su propio deterioro. Las bajas temperaturas también pueden inutilizar las baterías de los instrumentos electrónicos —incluido el regulador de oxígeno— complicando una situación ya de por sí delicada.
+Los síntomas hipotérmicos comienzan con temblores musculares, y progresan hacia letargo, confusión mental y alteraciones del habla. Lo peor es que el frío también le quita al piloto la capacidad de notar su propio deterioro. Y puede dejar sin batería los instrumentos electrónicos, incluido el regulador de oxígeno.
 
 ::: {.callout-note title="Airmanship"}
-Para volar en onda invernal, abríguese siempre **por capas**. Evite tajantemente el calzado o calcetines que aprieten excesivamente; el pie inmovilizado sobre los pedales necesita un flujo sanguíneo sin restricciones para no congelarse. Elija botas lo suficientemente holgadas, suelas térmicas y guantes que permitan plena libertad de movimiento sobre la palanca de mandos.
+Para volar en onda invernal, abríguese siempre **por capas**. Evite el calzado o calcetines que aprieten excesivamente; el pie inmovilizado sobre los pedales necesita un flujo sanguíneo sin restricciones para no congelarse. Elija botas lo suficientemente holgadas, suelas térmicas y guantes que permitan plena libertad de movimiento sobre la palanca de mandos.
 :::
 
 ## Estrés fisiológico y sus efectos
 
-El estrés en la cabina no siempre es un enemigo. En su justa medida, un nivel moderado de tensión —como el que se siente justo antes del despegue en una competición o al afrontar tu primer vuelo de ladera— resulta positivo y necesario. Activa el sistema nervioso, eleva el nivel de alerta y afina la capacidad de reacción, llevándole al punto de rendimiento máximo.
+No todo el estrés en la cabina es malo. En su justa medida, un nivel moderado de tensión —como el que se siente justo antes del despegue en una competición o al afrontar tu primer vuelo de ladera— resulta positivo y necesario. Activa el sistema nervioso, eleva el nivel de alerta y afina la capacidad de reacción, llevándole al punto de rendimiento máximo.
 
 Conviene distinguir dos marcos complementarios, porque describen cosas distintas. El primero, la **curva de Yerkes-Dodson**, relaciona el nivel de activación con el rendimiento: en forma de U invertida, muy poca tensión da un piloto apático y demasiada, uno bloqueado; el máximo está en el punto medio (@fig-02-cap02-curva-estres).
 
@@ -165,8 +165,8 @@ Conviene distinguir dos marcos complementarios, porque describen cosas distintas
 El segundo marco, el **Síndrome General de Adaptación** de Hans Selye, describe cómo responde el organismo cuando la tensión se prolonga, atravesando tres fases consecutivas:
 
 1. **Fase de alarma (reacción):** Ante un elemento novedoso o una amenaza abrupta, el cuerpo libera adrenalina de golpe. El ritmo cardíaco y respiratorio se disparan, las pupilas se dilatan y el cerebro entra en estado de máxima alerta preparándose para reaccionar o huir.
-2. **Fase de resistencia (adaptación):** Si el factor estresante se prolonga —en el modelo de Selye, horas o días— (por ejemplo, lidiando con descendencias fuertes sistemáticas y lejos de un campo aterrizable seguro), el cuerpo intenta amoldarse y mantener la compostura mediante un esfuerzo fisiológico activo para regularse.
-3. **Fase de agotamiento:** Cuando la situación supera al piloto en intensidad o duración, las reservas de energía de la fase dos se vacían. El agotamiento entra en escena, provocando un deterioro rápido y catastrófico de la capacidad analítica y merma en la pericia a los mandos.
+2. **Fase de resistencia (adaptación):** Si el factor estresante se prolonga —en el modelo de Selye, horas o días— (por ejemplo, lidiando con descendencias fuertes sistemáticas y lejos de un campo aterrizable seguro), el cuerpo intenta adaptarse con un esfuerzo fisiológico sostenido.
+3. **Fase de agotamiento:** Cuando la situación supera al piloto en intensidad o duración, las reservas de energía de la fase dos se vacían. Llega el agotamiento: la capacidad de análisis se deteriora deprisa y el pilotaje se resiente.
 
 ### Hiperventilación
 
@@ -180,10 +180,10 @@ El tratamiento inmediato consiste en reducir conscientemente el ritmo respirator
 
 ### Exceso de confianza, presión y toma de decisiones
 
-El estrés prolongado tiene efectos corrosivos sobre la seguridad: puede generar **exceso de confianza** o anular el análisis crítico. La presión —ganar una manga, seguir a un piloto más experimentado, o el simple deseo de llegar a destino— induce a asumir riesgos que, en tierra, consideraría inaceptables. Evalúe sus capacidades con rigor y honestidad. Los mejores pilotos de competición tienen un rasgo en común: son exigentes con la revisión crítica de sus propias decisiones tras el aterrizaje.
+El estrés prolongado también perjudica la seguridad de otra forma: puede generar **exceso de confianza** o anular el análisis crítico. La presión —ganar una manga, seguir a un piloto más experimentado, o el simple deseo de llegar a destino— induce a asumir riesgos que, en tierra, consideraría inaceptables. Evalúe sus capacidades con rigor y honestidad. Los mejores pilotos de competición comparten una costumbre: después de aterrizar, revisan con exigencia sus propias decisiones.
 
 ::: {.callout-note title="Airmanship"}
-Para mantener el estrés dentro del rango operativo de seguridad, es vital **evitar la suma de numerosas "primeras veces"** en un mismo despegue. Volar un modelo de velero totalmente nuevo para ti, despegando en remolque desde un aeródromo que no conoces y encarando un día de un vendaval racheado cruzado es una convergencia explosiva de factores inéditos. La mente pasará directamente a la sobreactivación: el pánico. Intente siempre que la progresión añada estas variables de una en una.
+Para que el estrés no se dispare, **evite sumar muchas "primeras veces"** en un mismo vuelo. Volar un modelo de velero totalmente nuevo para ti, despegando en remolque desde un aeródromo que no conoces y encarando un día de un vendaval racheado cruzado es juntar demasiadas novedades. La mente pasará directamente a la sobreactivación: el pánico. Intente siempre que la progresión añada estas variables de una en una.
 :::
 
 ## Fatiga (aguda y crónica) y su impacto en el rendimiento
@@ -207,12 +207,12 @@ Bajo estas condiciones, y con una tasa respiratoria mayor por la altitud, el cue
 Una deshidratación progresiva espesa la sangre y perjudica la circulación. Los primeros síntomas son dolor de cabeza y fatiga creciente. Si el proceso continúa, aparecen calambres musculares y, en casos graves, un **golpe de calor** que puede producir taquicardia y pérdida de consciencia (**black out**) sobre los mandos.
 
 ::: {.callout-tip title="Regla de oro"}
-El mecanismo biológico de la **sed** tiene un imperdonable retraso biológico. Cuando siente la boca seca, la deshidratación ya ha mermado el rendimiento cognitivo. **Adelántese bebiendo de forma regular durante todo el vuelo; nunca espere a tener sed**.
+La **sed** llega tarde. Cuando siente la boca seca, la deshidratación ya ha mermado el rendimiento cognitivo. **Adelántese bebiendo de forma regular durante todo el vuelo; nunca espere a tener sed**.
 :::
 
 ## Efectos del alcohol, drogas, automedicación y dopaje
 
-La normativa aeronáutica prohíbe volar bajo los efectos de sustancias psicoactivas. La seguridad en la cabina exige que el juicio y los reflejos del piloto operen sin ninguna merma.
+La normativa aeronáutica prohíbe volar bajo los efectos de sustancias psicoactivas. En la cabina, el juicio y los reflejos tienen que funcionar sin merma.
 
 ### La regla «de la botella al mando»
 
@@ -230,7 +230,7 @@ Dejando a un lado las drogas ilegales, cuyo consumo problemático hace no apto a
 
 Muchos medicamentos de venta libre —como buena parte de los **antihistamínicos** para la alergia estacional o las pastillas contra el mareo— son incompatibles con el vuelo: enlentecen los reflejos y producen somnolencia que el piloto a menudo no percibe como tal. Algunos antihistamínicos no sedantes sí pueden ser compatibles, pero esa decisión es del médico examinador, no del piloto.
 
-**La norma es clara: no se vuela con un medicamento que pueda interferir con la capacidad de pilotar (MED.A.020).** Si el prospecto desaconseja conducir o manejar maquinaria, es una señal de alarma inequívoca; si no lo dice, tampoco garantiza nada. Antes de volar con un medicamento nuevo, la guía de EASA propone tres preguntas: ¿me encuentro en condiciones de volar?, ¿necesito realmente tomarlo?, ¿lo he probado ya en tierra sin efectos adversos? Ante la duda, consulte al médico examinador.
+**No se vuela con un medicamento que pueda interferir con la capacidad de pilotar (MED.A.020).** Si el prospecto desaconseja conducir o manejar maquinaria, es una señal de alarma inequívoca; si no lo dice, tampoco garantiza nada. Antes de volar con un medicamento nuevo, la guía de EASA propone tres preguntas: ¿me encuentro en condiciones de volar?, ¿necesito realmente tomarlo?, ¿lo he probado ya en tierra sin efectos adversos? Ante la duda, consulte al médico examinador.
 
 ### Dopaje y autorización terapéutica (AUT)
 
