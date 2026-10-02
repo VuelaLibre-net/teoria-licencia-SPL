@@ -15,7 +15,7 @@
 
 El objetivo de los Servicios de Tránsito Aéreo (**ATS**, **Air Traffic Services**) va más allá de "vigilar". Según SERA.7001, sus misiones son prevenir colisiones (entre aeronaves y, en el área de maniobras, con los obstáculos), acelerar y mantener ordenado el movimiento del tráfico, asesorar y dar información útil para la seguridad, y notificar y auxiliar en emergencias.
 
-Para todo eso, el ATS se divide en tres servicios muy distintos entre sí. Saber cuál estás recibiendo en cada momento marca la diferencia.
+Para todo eso, el ATS se divide en tres servicios muy distintos, y conviene saber en cada momento cuál estás recibiendo.
 
 ## 1. Servicio de control (ATC)
 
@@ -46,7 +46,7 @@ Aquí la responsabilidad es **tuya**. El FIS te avisa ("tráfico a las 12"), per
 
 ## 3. Servicio de alerta (ALRS)
 
-Tu seguro de vida. Se activa cuando hay una emergencia o se teme por la seguridad de una aeronave, y funciona en tres fases de preocupación creciente (@fig-01-cap08-fases-emergencia):
+Es el que sale a buscarte. Se activa cuando hay una emergencia o se teme por la seguridad de una aeronave, y funciona en tres fases de preocupación creciente (@fig-01-cap08-fases-emergencia):
 
 1. **INCERFA (Fase de incertidumbre)**: existe incertidumbre sobre la seguridad de la aeronave y sus ocupantes, y se empieza a recabar información. Se declara en dos situaciones:
   
@@ -62,7 +62,7 @@ Desde la primera fase, la dependencia de tránsito aéreo informa al centro coor
 ![Fases de emergencia del Servicio de Alerta. *(CORREGIR: los medios de búsqueda y salvamento salen en DETRESFA, no en ALERFA; el centro coordinador de salvamento está informado desde la fase de incertidumbre; y en DETRESFA basta con un peligro grave e inminente o con necesitar asistencia inmediata, no hacen falta las dos cosas.)*](imagenes/01-cap08-fases-emergencia.jpg){#fig-01-cap08-fases-emergencia .corregir}
 
 ::: {.callout-warning title="Seguridad"}
-Si tienes una emergencia real y **NO** has presentado Plan de Vuelo ni estás en contacto radio, el Servicio de Alerta tardará mucho más en activarse (solo cuando tu familia avise de que no has vuelto). ¡Usa la radio y el Plan de Vuelo!
+Si tienes una emergencia real y **NO** has presentado Plan de Vuelo ni estás en contacto radio, el Servicio de Alerta tardará mucho más en activarse (solo cuando tu familia avise de que no has vuelto). Usa la radio y presenta el plan de vuelo.
 :::
 
 Dos remisiones útiles dentro de la colección: las **señales luminosas** con las que una torre puede dirigirte sin radio se estudian en el **Libro 4 — Comunicaciones**, capítulo 5; y el **plan de vuelo**, que alimenta este servicio de alerta, en los Libros 4 — Comunicaciones (operativa), 7 — Planificación y Rendimiento de Vuelo (formulario) y 9 — Navegación (uso de los ATS).

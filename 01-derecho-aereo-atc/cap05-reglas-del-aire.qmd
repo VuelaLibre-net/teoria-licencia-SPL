@@ -1,6 +1,6 @@
 # Reglas del aire
 
-> El cielo no tiene señales de STOP, pero tiene reglas estrictas; dominar el reglamento SERA es esencial para evitar colisiones.
+> En el cielo no hay señales de STOP, pero sí reglas de paso, y sabértelas es lo que evita las colisiones.
 >
 >
 > En este capítulo aprenderás:
@@ -15,7 +15,7 @@
 
 En Europa volamos bajo un reglamento unificado: **SERA** (**Standardised European Rules of the Air**), directamente aplicable en España como reglamento de la UE y desarrollado por el Real Decreto 1180/2018. Da igual si vuelas en Albacete o en Alemania: las reglas básicas son las mismas.
 
-El principio fundamental es **VFR** (**Visual Flight Rules**): volamos basándonos en referencias visuales externas.
+Nosotros volamos en **VFR** (**Visual Flight Rules**), guiándonos por lo que vemos fuera.
 
 ## Principio básico: "ver y evitar"
 
@@ -27,7 +27,7 @@ La mayoría de colisiones ocurren en días claros y cerca de los aeródromos. Nu
 
 ## Prioridades de paso (Right of Way)
 
-¿Quién pasa primero cuando dos aeronaves se encuentran? SERA.3210 lo deja claro.
+Quién pasa primero cuando dos aeronaves se encuentran lo dice SERA.3210.
 
 ### 1. La jerarquía de maniobrabilidad
 
@@ -48,7 +48,7 @@ Ojo: esta jerarquía sólo decide en convergencia. De frente y en alcance no cue
 
 * **Convergencia**: en rutas que se cruzan al mismo nivel, tiene prioridad quien viene por la **derecha**. Ojo: si tú vienes por la derecha pero vuelas a motor y el otro es un planeador, el planeador manda por jerarquía.
 * **Alcance**: si alcanzas a otro por detrás, el de delante tiene prioridad. Rebásalo por su **derecha**. Con una excepción hecha a nuestra medida: un planeador que adelanta a otro planeador puede hacerlo **por la derecha o por la izquierda** (útil en ladera, donde solo un lado es seguro).
-* **En ladera**: si dos planeadores se encuentran en rumbo de colisión volando una ladera, **tiene prioridad el que lleva la montaña a su derecha**. El otro debe separarse de la ladera para dejar paso (@fig-01-cap05-prioridades-ladera). Esta regla **no está en SERA**: es una convención universal del vuelo a vela. La del reglamento para el encuentro de frente obliga a virar a la derecha a *las dos* aeronaves, cosa imposible para quien tiene la ladera justo a ese lado.
+* **En ladera**: si dos planeadores se encuentran en rumbo de colisión volando una ladera, **tiene prioridad el que lleva la montaña a su derecha**. El otro debe separarse de la ladera para dejar paso (@fig-01-cap05-prioridades-ladera). Esta regla **no está en SERA**: es una convención del vuelo a vela. La del reglamento para el encuentro de frente obliga a virar a la derecha a *las dos* aeronaves, cosa imposible para quien tiene la ladera justo a ese lado.
 
 ![Preferencia de paso en vuelo de ladera](imagenes/01-cap05-preferencias-paso-ladera.jpeg){#fig-01-cap05-prioridades-ladera}
 

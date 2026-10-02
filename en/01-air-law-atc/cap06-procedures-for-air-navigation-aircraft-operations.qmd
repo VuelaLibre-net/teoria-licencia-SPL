@@ -1,6 +1,6 @@
 ---
 origen: 01-derecho-aereo-atc/cap06-procedimientos-para-navegacion-aerea-operaciones-de-aeronaves.qmd
-origen-commit: 490af41
+origen-commit: c1fc13b
 ---
 
 # Procedures for air navigation: aircraft operations

@@ -1,6 +1,6 @@
 # Derecho nacional
 
-> Más allá de las normas europeas, la legislación nacional rige nuestra actividad; conocer la Ley de Seguridad Aérea evita costosas sorpresas legales.
+> Las normas europeas no lo son todo: en España rige también la Ley de Seguridad Aérea, y conocerla te ahorra sustos caros.
 >
 >
 > En este capítulo aprenderás:
@@ -12,7 +12,7 @@
 
 ## La legislación española: el marco nacional
 
-Además de la normativa europea (EASA/SERA), en España existe legislación propia que complementa y desarrolla el marco comunitario. Las piezas que más te afectan son estas:
+Además de la normativa europea (EASA/SERA), España tiene leyes propias que la completan. Las que más te afectan son estas:
 
 * **Ley 48/1960, sobre Navegación Aérea**: la ley general de la aviación civil española.
 * **Ley 21/2003, de 7 de julio, de Seguridad Aérea (LSA)**: reparte las competencias, regula la inspección y fija las infracciones y sanciones. Es la protagonista de este capítulo.
@@ -56,7 +56,7 @@ Las sanciones económicas pueden ser **muy elevadas**, incluso para pilotos priv
 :::
 
 ::: {.callout-tip title="Regla de oro"}
-Ante cualquier duda sobre la legalidad de una operación (ej: volar cerca de un aeropuerto controlado, llevar pasajeros sin recencia), **pregunta antes a tu club, instructor o a AESA**. Es mejor preguntar que enfrentarse a un expediente sancionador.
+Ante cualquier duda sobre la legalidad de una operación (ej: volar cerca de un aeropuerto controlado, llevar pasajeros sin recencia), **pregunta antes a tu club, instructor o a AESA**. Preguntar sale más barato que un expediente sancionador.
 :::
 
 ::: {.postit}
