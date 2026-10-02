@@ -128,6 +128,8 @@ Desde el 1 de octubre de 2026, cada figura con un error lleva la clase `.corregi
 «IN REVIEW» y *(FIX: …)*. Ver `GUIA_ILUSTRACIONES.md`. Al entregar la figura nueva se quitan la
 clase y la nota, y se anota aquí.
 
+La lista de tareas para rehacerlas, con su versión inglesa, está en el issue [#58](https://github.com/VuelaLibre-net/teoria-licencia-SPL/issues/58).
+
 | Capítulo | Figura | Hallazgo | Sustituida en |
 | --- | --- | --- | --- |
 | cap01 | `01-cap01-libertades-chicago` | PED-04 | |

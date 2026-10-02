@@ -26,6 +26,10 @@
   color: "FBCA04"
   description: Mejoras de claridad, estructura o explicación para el alumno.
 
+- name: ilustraciones
+  color: "BFD4F2"
+  description: "Figuras e ilustraciones: crear, rehacer o corregir."
+
 - name: needs triage
   color: "EDEDED"
   description: Issue pendiente de revisar y clasificar.
