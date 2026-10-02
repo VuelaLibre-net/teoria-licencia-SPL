@@ -13,6 +13,8 @@ translated from (`origen-commit`). Terminology follows `en/terminologia.yml`.
 
 ## [In progress]
 
+## [0.8.1] — 2 October 2026
+
 **What to reread:** **cap03, phugoid mode**, the glossary entries *Phugoid* and *Spiral dive*, the licence and the bibliography. The rest is wording only.
 
 ### Fixed

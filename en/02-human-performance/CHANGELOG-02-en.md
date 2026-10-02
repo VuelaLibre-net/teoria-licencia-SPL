@@ -13,6 +13,8 @@ was translated from (`origen-commit`). Terminology follows `en/terminologia.yml`
 
 ## [In progress]
 
+## [0.8.1] — 2 October 2026
+
 **What to reread:** **the whole book.** The corrections of the audit of book 02 (1 October 2026) are ported from the Spanish edition and touch the four chapters, the glossary, the bibliography, the syllabus appendix, the introduction and the epigraph. Also **cap04, the oxygen AMC**, and the licence.
 
 ### Fixed

@@ -16,6 +16,8 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.4] — 2 de octubre de 2026
+
 **Qué releer:** la **licencia** de los preliminares y la **Bibliografía**, que corrige la entrada de SERA y añade la lista de normas citadas en la colección.
 
 ### Corregido

@@ -13,6 +13,8 @@ was translated from (`origen-commit`). Terminology follows `en/terminologia.yml`
 
 ## [In progress]
 
+## [0.8.1] — 2 October 2026
+
 **What to reread:** **introduction, box descriptions**, the licence and the bibliography. The rest is wording only.
 
 ### Fixed

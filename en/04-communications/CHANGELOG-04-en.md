@@ -13,6 +13,8 @@ translated from (`origen-commit`). Terminology follows `en/terminologia.yml`.
 
 ## [In progress]
 
+## [0.8.1] — 2 October 2026
+
 **What to reread:** **cap03 and cap06** (false emergencies), **cap04** (CAVOK), the glossary entry *CAVOK*, the licence and the bibliography, and the radio examples in the introduction and cap01–cap07, now in English first. The rest is wording only.
 
 ### Fixed

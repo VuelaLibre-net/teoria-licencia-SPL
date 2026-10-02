@@ -13,6 +13,8 @@ file it was translated from (`origen-commit`). Terminology follows `en/terminolo
 
 ## [In progress]
 
+## [0.8.1] — 2 October 2026
+
 **What to reread:** the glossary entry *Release failure (towhook jam)*, the winch calls in cap02, **cap01** (IMSAFE), **cap03** (oxygen in wave flying), the licence and the bibliography. The rest is wording only.
 
 ### Fixed

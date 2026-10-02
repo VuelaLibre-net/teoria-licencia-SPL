@@ -16,6 +16,8 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.15] — 2 de octubre de 2026
+
 **Qué releer:** **todo el libro**. Son las correcciones de la auditoría del 1 de octubre de 2026
 (`recursos/auditorias/`, con su seguimiento), casi todas normativas, y tocan los catorce
 capítulos:

@@ -13,6 +13,8 @@ translated from (`origen-commit`). Terminology follows `en/terminologia.yml`.
 
 ## [In progress]
 
+## [0.8.1] — 2 October 2026
+
 **What to reread:** **cap06, VFR minima in class G**, the glossary entry *CAVOK*, the licence and the bibliography. The rest is wording only.
 
 ### Fixed

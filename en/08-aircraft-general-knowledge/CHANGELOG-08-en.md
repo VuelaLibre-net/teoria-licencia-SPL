@@ -13,6 +13,8 @@ was translated from (`origen-commit`). Terminology follows `en/terminologia.yml`
 
 ## [In progress]
 
+## [0.8.1] — 2 October 2026
+
 **What to reread:** **cap09, Minimum Inspection Programme and ARC extension**, **cap08** (ARC and insurance), **cap14** (oxygen AMC, “oxygen and descend” and the cannula limit), the licence and the bibliography. The rest is wording only.
 
 ### Fixed

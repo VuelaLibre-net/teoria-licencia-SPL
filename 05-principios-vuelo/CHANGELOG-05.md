@@ -16,6 +16,8 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.9] — 2 de octubre de 2026
+
 **Qué releer:** **cap03, modo fugoide**, y en el **Glosario** las entradas *Fugoide* y *Picado en
 espiral*, la **licencia** de los preliminares y la **Bibliografía**, que corrige la entrada de SERA y añade la lista de normas citadas. El resto
 son erratas y comillas.

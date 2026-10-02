@@ -16,6 +16,8 @@ rompe la compilación.
 
 ## [En curso]
 
+## [0.9.7] — 2 de octubre de 2026
+
 **Qué releer:** **Glosario, entrada «Lastre (ballast)»**, que es nueva, el **epígrafe** y el **cap09, Programa Mínimo de Inspección**. En cap04 sólo cambia el término inglés entre paréntesis. Además, **cap08** (ARC y seguro), **cap09** (prórroga del ARC, ML.A.902), **cap14** (AMC del oxígeno, cita de SAO.OP.150, regla «oxígeno y desciende» y límite de la cánula), la **licencia** de los preliminares y la **Bibliografía**.
 
 ### Añadido
