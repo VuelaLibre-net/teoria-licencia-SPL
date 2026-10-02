@@ -17,6 +17,8 @@ was translated from (`origen-commit`). Terminology follows `en/terminologia.yml`
 
 ### Fixed
 
+* **cap04, gas laws** — the chapter announced “two basic principles of physics” and then explained
+  three: Dalton's, Boyle's and Henry's laws. Ported from the Spanish edition.
 * **Audit of book 02, ported from the Spanish edition** — the same corrections as in the Spanish
   book, chapter by chapter:
   * cap01: Maslow's hierarchy has physiological needs at its base, not safety; the accident

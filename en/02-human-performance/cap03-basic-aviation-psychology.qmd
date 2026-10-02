@@ -1,6 +1,6 @@
 ---
 origen: 02-factores-humanos/cap03-psicologia-aeronautica-basica.qmd
-origen-commit: 0b42784
+origen-commit: 440cb9b
 ---
 
 # Basic aviation psychology
