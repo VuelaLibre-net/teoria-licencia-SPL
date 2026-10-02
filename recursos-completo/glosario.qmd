@@ -279,7 +279,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Espacio aéreo controlado que se extiende hacia arriba desde la superficie terrestre hasta un límite superior definido.
 
 **Cultura justa (Just Culture)**
-: Paradigma organizacional que reconoce la inevitabilidad del error humano no intencionado, tratándolo como una oportunidad de aprendizaje colectivo sin represalias, oponiéndose a todo encubrimiento o sanción punitiva irracional.
+: Paradigma organizacional que reconoce la inevitabilidad del error humano no intencionado, tratándolo como una oportunidad de aprendizaje colectivo sin represalias, oponiéndose a todo encubrimiento o sanción punitiva irracional. No ampara la negligencia grave, las infracciones intencionadas ni los actos destructivos (Reglamento (UE) 376/2014, art. 2.12).
 
 **Cúmulo (Cu)**
 : Nube convectiva de desarrollo vertical con base plana y contornos bien definidos. Su presencia indica inestabilidad y térmicas activas. La base de los cúmulos marca el nivel de condensación por ascenso (NCA/LCL) y puede calcularse con la fórmula: (T − Td) × 400 = altitud en pies.
@@ -333,7 +333,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Ángulo hacia arriba que forman las alas respecto al plano horizontal, dando al planeador una forma de «V» abierta vista de frente. Proporciona estabilidad lateral: cuando un ala baja por una perturbación, recibe el flujo de aire con mayor ángulo de ataque efectivo, genera más sustentación y vuelve a la posición nivelada sin intervención del piloto.
 
 **Disbarismos (Barotraumas)**
-: Alteraciones orgánicas o dolor neurálgico originados por la expansión y contracción de pequeños volúmenes de gas atrapados en el cuerpo (senos paranasales, oído medio, intestinos) frente a los inevitables cambios en la presión atmosférica por la Ley de Boyle.
+: Trastornos causados por los cambios de presión atmosférica. Incluyen los barotraumas, por la expansión y contracción del gas atrapado en el cuerpo (senos paranasales, oído medio, intestinos) según la ley de Boyle, y la enfermedad descompresiva, por el gas disuelto en la sangre que forma burbujas al bajar la presión, más probable tras bucear.
 
 **DME (Equipo Radiotelemétrico / Distance Measuring Equipment)**
 : Radioayuda que permite a una aeronave determinar la distancia oblicua respecto de una estación terrestre.
@@ -750,7 +750,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Botón de transmisión. Al pulsarlo, la radio pasa de recepción a emisión. Al soltarlo, vuelve a escuchar. En planeadores suele estar en la palanca de mando. Si se queda atascado, provoca la situación de micrófono bloqueado.
 
 **Pulsioxímetro**
-: Dispositivo de dedo recomendado en vuelos a gran altura que muestra la saturación de oxígeno en sangre (SpO₂). Permite al piloto detectar la hipoxia de forma objetiva antes de que aparezcan los primeros síntomas.
+: Dispositivo de dedo recomendado en vuelos a gran altura que muestra la saturación de oxígeno en sangre (SpO₂). Ayuda a detectar la hipoxia antes de que aparezcan los primeros síntomas, pero no sustituye a la atención a los síntomas: el monóxido de carbono, el frío y el movimiento falsean su lectura.
 
 **QDM**
 : Código Q con el rumbo magnético que debe seguir la aeronave para llegar a la estación de radiogoniometría (VDF). Si estás desorientado, pide un QDM al FIS y te darán el rumbo para llegar a la estación.
@@ -996,7 +996,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Técnica de planeo que aprovecha el flujo ondulatorio estacionario y laminar (onda orográfica) que se genera a sotavento de un sistema montañoso en condiciones de fuerte viento estable, permitiendo alcanzar grandes altitudes en el lado ascendente de las ondas.
 
 **WADA (Agencia Mundial Antidopaje / World Anti-Doping Agency)**
-: Organización internacional que regula y controla exhaustivamente el consumo de sustancias y dopaje en deportistas de competición, siendo los campeonatos de vuelo a vela sometidos también a este mismo estándar.
+: Organización internacional que fija el Código Mundial Antidopaje y la lista de sustancias prohibidas. Los controles en las competiciones de vuelo a vela los realizan la FAI o la organización nacional antidopaje (en España, la CELAD), conforme a ese código.
 
 **WCA (Ángulo de corrección de deriva / Wind Correction Angle)**
 : Ángulo que se aplica al rumbo, apuntando el morro hacia el viento, para compensar la deriva y mantener la trayectoria deseada sobre el terreno.

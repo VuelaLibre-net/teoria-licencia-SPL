@@ -16,15 +16,15 @@ tarjetas:
       **Percibir lo que ocurre, comprender su significado y proyectar su estado
       futuro.**
 
-      Perderla es el primer eslabón de la mayoría de las cadenas de accidentes
-      en vuelo a vela.
+      Su pérdida aparece con frecuencia en las cadenas de accidentes del vuelo
+      a vela.
     etiquetas: [Seguridad]
 
   - id: que-erosiona-la-conciencia-situacional
     tipo: basica
     anverso: ¿Qué erosiona la conciencia situacional?
     reverso: |
-      **La sobrecarga cualitativa de atención, el pánico ante un fenómeno no
+      **La sobrecarga de la atención, el pánico ante un fenómeno no
       comprendido, la fatiga y la incomodidad de un asiento mal ajustado.**
 
   - id: adm-decide
@@ -60,8 +60,9 @@ tarjetas:
       **Parar un segundo, respirar y simplificar radicalmente las prioridades:
       Aviate, Navigate, Communicate.**
 
-      Primero vuela el planeador con seguridad; luego hacia dónde; y sólo si es
-      estrictamente necesario, la radio.
+      Primero vuela el planeador con seguridad; luego decide hacia dónde; y en
+      tercer lugar comunica lo necesario: pedir ayuda o avisar a quien deba
+      saberlo.
     etiquetas: [Regla de oro]
 
   - id: procesamiento-de-informacion
@@ -71,7 +72,7 @@ tarjetas:
       **Percepción** (interpretar el medio), **atención** (foco) y las memorias
       **sensorial, a corto plazo y a largo plazo**.
 
-      Demasiada información externa sin asimilar produce sobrecarga cualitativa.
+      Demasiada información externa sin asimilar produce sobrecarga de trabajo.
 
   - id: pave
     tipo: cloze

@@ -45,7 +45,7 @@ no se toca: es el registro de lo que se encontró. Aquí se anota qué se ha hec
 
 | ID | Hallazgo | Fase | Estado | Commit | Nota |
 | --- | --- | --- | --- | --- | --- |
-| TEC-01 | Maslow: la seguridad no es la base | 2 | aplicado | | fase 2: cap01 y examen-50 P7; el rótulo SMS de la figura y `en/`, en fases posteriores |
+| TEC-01 | Maslow: la seguridad no es la base | 2 | aplicado | | fase 2: cap01 y examen-50 P7; fase 3: figura marcada por el rótulo SMS; `en/`, en la fase 6 |
 | COH-01 | Figura IMSAFE: «24 h» y polaridad del «NO» | 2 | figura | | fase 2: figura marcada con `.corregir`; el plazo del libro 06, en la fase 4 |
 | NOR-01 | Alcohol: AMC presentado como límite legal | 2 | parcial | | fase 2: cap02 (IMSAFE, recuadro, texto y post-it), Anki, lección 02 P10, examen-50 P9 y P29; queda abierta la fuente del «formulario de AESA», retirado del texto |
 | NOR-02 | Visión del color con certificado LAPL | 2 | aplicado | | fase 2: cap02 y Anki |
@@ -59,34 +59,34 @@ no se toca: es el registro de lo que se encontró. Aquí se anota qué se ha hec
 
 | ID | Hallazgo | Fase | Estado | Commit | Nota |
 | --- | --- | --- | --- | --- | --- |
-| TEC-06 | Estadísticas de siniestralidad | 3 | pendiente | | cap01, introducción y Anki |
-| TEC-07 | Definición de factores humanos (HSE, no OACI) | 3 | pendiente | | cap01 |
-| COH-03 | Figura del queso suizo (HFACS) | 3 | pendiente | | figura con `.corregir` |
-| COH-04 | Figura de la cadena del error | 3 | pendiente | | figura con `.corregir` |
-| NOR-03 | Cultura justa: negligencia grave | 3 | pendiente | | cap01, glosario y Anki |
-| NOR-04 | MED.A.020 completo | 3 | pendiente | | cap02, Anki y examen-50 P11 |
-| TEC-08 | Ver y evitar: 12,5 s y proporción del AIM | 3 | pendiente | | cap02 y Anki |
-| COH-05 | Figura de escaneo y «método horario» | 3 | pendiente | | cap02; coordinar con TEC-02 |
-| SYL-01 | Gas disuelto: buceo, donación, Henry | 3 | pendiente | | cap02, cap04 y glosario; posible tarjeta nueva |
-| TEC-09 | Selye y Yerkes-Dodson en la figura | 3 | pendiente | | cap02 y figura con `.corregir`; la analogía, pregunta al especialista |
-| COH-06 | Tratamiento de la hiperventilación | 3 | pendiente | | cap02, cap04, Anki, `c02-q08` y P24; la apnea, pregunta al médico aeronáutico |
-| TEC-10 | Fatiga aguda y crónica | 3 | pendiente | | cap02, Anki, `c02-q09` y P28 |
-| TEC-11 | Deshidratación: 1–3 L/h y 20 min | 3 | pendiente | | cap02: cifras de reposición de la FAA; la tasa, pregunta al médico aeronáutico |
-| NOR-05 | Medicación y Part-MED | 3 | pendiente | | cap02 y Anki |
-| NOR-06 | Dopaje y AUT | 3 | pendiente | | cap02, glosario y Anki; «controles al aterrizar», pregunta al autor |
-| COH-07 | Disbarismos: el descenso | 3 / 4 | pendiente | | cap02, cap04, Anki, `c02-q03` y P13; libro 06 en la fase 4 |
-| TEC-12 | Sobrecarga cuantitativa | 3 | pendiente | | cap03; la definición, pregunta al especialista |
-| COH-08 | Conciencia situacional: «primer eslabón» | 3 | pendiente | | cap03, Anki, `c03-q02` y lección 03 |
-| TEC-13 | *Aviate, navigate, communicate* | 3 | pendiente | | cap03 y Anki |
-| TEC-14 | Dalton y «glóbulos vacíos» | 3 | pendiente | | cap04, Anki, `c04-q01` y `c04-q02` |
-| TEC-15 | Euforia como «primer» síntoma | 3 | pendiente | | cap04, Anki, `c04-q05` y P43 |
-| TEC-16 | «Oxígeno al 100 %» en equipos de planeador | 3 / 4 | pendiente | | cap04 y libro 08; los mandos, pregunta al FI(S) de onda |
-| TEC-17 | 150–200 bar | 3 | pendiente | | cap04, Anki y `c04-q10` |
-| TEC-18 | Diferencial hipoxia/hiperventilación | 3 | pendiente | | cap04 y Anki, con TEC-04 |
-| TEC-19 | Pulsioxímetro sin límites | 3 | pendiente | | cap04, glosario, Anki y `c04-q06`; el umbral, pregunta al médico aeronáutico |
-| COH-09 | Restos del AMC de oxígeno | 3 / 4 | pendiente | | Anki `sao-op-150-oxigeno`, examen-50 P45; libro 06 en la fase 4 |
-| COH-10 | Doc 9683 en el banco | 3 | pendiente | | fundamentos de 29 preguntas en `examenes/` |
-| NOR-07 | Bibliografía de factores humanos | 3 | pendiente | | decidir si el bloque va en las nueve bibliografías o sólo en la del 02 |
+| TEC-06 | Estadísticas de siniestralidad | 3 | aplicado | | fase 3: cap01, introducción y Anki |
+| TEC-07 | Definición de factores humanos (HSE, no OACI) | 3 | aplicado | | fase 3: cap01 con la definición del Doc 9683 |
+| COH-03 | Figura del queso suizo (HFACS) | 3 | figura | | fase 3: figura marcada con `.corregir` |
+| COH-04 | Figura de la cadena del error | 3 | figura | | fase 3: figura marcada con `.corregir` |
+| NOR-03 | Cultura justa: negligencia grave | 3 | aplicado | | fase 3: cap01, glosario, Anki y examen-50 P6 |
+| NOR-04 | MED.A.020 completo | 3 | aplicado | | fase 3: cap02, Anki y examen-50 P11 |
+| TEC-08 | Ver y evitar: 12,5 s y proporción del AIM | 3 | aplicado | | fase 3: cap02 y Anki |
+| COH-05 | Figura de escaneo y «método horario» | 3 | aplicado | | fase 3: paso del escaneo y pie de figura; la figura no necesita marca |
+| SYL-01 | Gas disuelto: buceo, donación, Henry | 3 | aplicado | | fase 3: cap02 (buceo y donación), cap04 (Henry) y glosario; sin tarjeta nueva |
+| TEC-09 | Selye y Yerkes-Dodson en la figura | 3 | parcial | | fase 3: cap02, Anki y figura marcada con `.corregir`; la analogía, pregunta al especialista |
+| COH-06 | Tratamiento de la hiperventilación | 3 | parcial | | fase 3: cap02, cap04, Anki, lección 02 P8 y examen-50 P23 y P24; se retira la apnea; pregunta al médico aeronáutico |
+| TEC-10 | Fatiga aguda y crónica | 3 | aplicado | | fase 3: cap02, post-it, Anki, lección 02 P9 y examen-50 P27, P28 y P31 |
+| TEC-11 | Deshidratación: 1–3 L/h y 20 min | 3 | parcial | | fase 3: cifras de reposición de la FAA y sin los 20 min; la tasa de pérdida, pregunta al médico aeronáutico |
+| NOR-05 | Medicación y Part-MED | 3 | aplicado | | fase 3: cap02 y Anki |
+| NOR-06 | Dopaje y AUT | 3 | parcial | | fase 3: cap02, glosario y Anki; «controles al aterrizar» retirado a falta de fuente |
+| COH-07 | Disbarismos: el descenso | 3 / 4 | aplicado | | fase 3: cap02, cap04, Anki, lección 02 P3 y examen-50 P13 a P15; el libro 06, en la fase 4 |
+| TEC-12 | Sobrecarga cuantitativa | 3 | parcial | | fase 3: «sobrecarga de trabajo» en cap03, Anki y lección 03 P6; la definición, pregunta al especialista |
+| COH-08 | Conciencia situacional: «primer eslabón» | 3 | aplicado | | fase 3: cap03, Anki, lección 03 P2 y examen-50 P33 |
+| TEC-13 | *Aviate, navigate, communicate* | 3 | aplicado | | fase 3: cap03 y Anki |
+| TEC-14 | Dalton y «glóbulos vacíos» | 3 | aplicado | | fase 3: cap04, Anki, lección 04 P1 y P2 y examen-50 P40 y P41 |
+| TEC-15 | Euforia como «primer» síntoma | 3 | aplicado | | fase 3: cap04, Anki, lección 04 P5 y examen-50 P43 |
+| TEC-16 | «Oxígeno al 100 %» en equipos de planeador | 3 / 4 | parcial | | fase 3: cap04 y Anki con «oxígeno y desciende»; el libro 08 en la fase 4; los mandos, pregunta al FI(S) de onda |
+| TEC-17 | 150–200 bar | 3 | aplicado | | fase 3: cap04, post-it, Anki y lección 04 P10 |
+| TEC-18 | Diferencial hipoxia/hiperventilación | 3 | parcial | | fase 3: cap04 y Anki como orden de actuación; pregunta al médico aeronáutico |
+| TEC-19 | Pulsioxímetro sin límites | 3 | parcial | | fase 3: cap04, post-it, glosario, Anki y lección 04 P6; el umbral, pregunta al médico aeronáutico |
+| COH-09 | Restos del AMC de oxígeno | 3 / 4 | parcial | | fase 3: Anki `sao-op-150-oxigeno` y examen-50 P45; el libro 06, en la fase 4 |
+| COH-10 | Doc 9683 en el banco | 3 | aplicado | | fase 3: fundamentos de las lecciones 01 a 04 y del examen-50 con la fuente real; el Doc 9683 se conserva donde trata el tema |
+| NOR-07 | Bibliografía de factores humanos | 3 | aplicado | | fase 3: bloque propio en la bibliografía del 02 (no en las demás, por decisión del autor) |
 
 ## Bajas
 
@@ -122,6 +122,7 @@ Las correcciones de `examenes/` van en su rama local `auditoria-02`, que sale de
 | Fase | Commit en `examenes/` | Preguntas |
 | --- | --- | --- |
 | 2 | `bcd67d2` | lección 02 P8 y P10; lección 04 P7 y P9; examen-50 P7, P9 y P29 |
+| 3 | `9ad0ab1` | lecciones 01 a 04 y examen-50: preguntas y citas de los post-it corregidos, y fundamentos con su fuente real (COH-10) |
 
 ## Edición inglesa
 
@@ -138,12 +139,11 @@ clase y la nota, y se anota aquí.
 
 | Capítulo | Figura | Hallazgo | Marcada en | Sustituida en |
 | --- | --- | --- | --- | --- |
-| cap01 | `02-cap01-piramide-maslow` | TEC-01 (rótulo SMS) | | |
-| cap01 | `02-cap01-queso-suizo` | COH-03 | | |
-| cap01 | `02-cap01-cadena-error` | COH-04 | | |
+| cap01 | `02-cap01-piramide-maslow` | TEC-01 (rótulo SMS) | fase 3 | |
+| cap01 | `02-cap01-queso-suizo` | COH-03 | fase 3 | |
+| cap01 | `02-cap01-cadena-error` | COH-04 | fase 3 | |
 | cap02 | `02-cap02-imsafe` | COH-01 | fase 2 | |
-| cap02 | `02-cap02-escaneo-visual` | COH-05 | | |
-| cap02 | `02-cap02-curva-estres` | TEC-09 | | |
+| cap02 | `02-cap02-curva-estres` | TEC-09 | fase 3 | |
 | cap03 | `02-cap03-decide` | TEC-03 | fase 2 | |
 | cap03 | `02-cap03-vision-tunel` | PED-04 | | |
 | cap04 | `02-cap04-hipoxia-tiempo-conciencia` | COH-02 | fase 2 | |

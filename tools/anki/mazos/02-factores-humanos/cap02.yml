@@ -20,13 +20,16 @@ tarjetas:
 
   - id: cuando-consultar-ame
     tipo: basica
-    anverso: ¿Cuándo hay que consultar a un **AME** antes de volver a volar al mando?
+    anverso: ¿Cuándo hay que consultar a un **AME** antes de volver a volar?
     reverso: |
-      **Tras lesión importante, cirugía, inicio de medicación regular, embarazo
-      o primer uso de lentes correctoras.**
+      **Tras una operación o un procedimiento médico invasivo, al empezar una
+      medicación regular, tras una lesión o una enfermedad importantes que
+      incapaciten para volar, en el embarazo, tras un ingreso hospitalario o
+      al necesitar lentes correctoras por primera vez.**
 
-      Hay que abstenerse de volar al mando hasta recuperar la condición apta
-      (**MED.A.020, *Decrease in medical fitness***).
+      Con certificado LAPL vale también el médico de cabecera que lo firmó.
+      No se ejercen las atribuciones de la licencia hasta que el médico declare
+      apto al piloto (**MED.A.020, *Decrease in medical fitness***).
     etiquetas: [Normativa]
 
   - id: vision-de-color-ishihara
@@ -46,8 +49,8 @@ tarjetas:
     tipo: basica
     anverso: ¿Por qué no se vuela con **congestión nasal** o resfriado?
     reverso: |
-      **Porque los gases corporales se expanden al ascender y el barotrauma de
-      tímpanos y senos paranasales incapacita para pilotar.**
+      **Porque en el descenso la presión no puede igualarse en oídos y senos,
+      y el barotrauma incapacita para pilotar.**
 
       Es causa automática de **NO-GO**; el dolor en el descenso es atroz.
     etiquetas: [Airmanship]
@@ -81,8 +84,9 @@ tarjetas:
       **Porque el otro planeador no tiene movimiento lateral apreciable en el
       campo visual: sólo crece de tamaño de repente.**
 
-      Hacen falta al menos 3 segundos para reaccionar, y la evasión se hace
-      preferentemente **virando a la derecha**. Es el escenario típico de ladera
+      Entre ver el punto y empezar a apartarse pasan unos 12,5 s: hay que
+      detectar pronto. En un encuentro frontal, SERA obliga a ambos a **virar
+      a la derecha**. Es el escenario típico de ladera
       o calle de nubes.
     etiquetas: [Seguridad]
 
@@ -122,7 +126,7 @@ tarjetas:
     anverso: ¿Qué provoca la **hiperventilación** y cómo se corta?
     reverso: |
       **El pánico hace jadear, baja el CO₂ en sangre y aparecen entumecimiento y
-      pérdida de visión.**
+      alteraciones visuales.**
 
       Se corta ralentizando conscientemente la respiración, prolongando la
       exhalación, hablando en voz alta o cantando.
@@ -134,7 +138,7 @@ tarjetas:
       **Evitando sumar varias «primeras veces» en el mismo despegue.**
 
       Velero nuevo + aeródromo desconocido + viento racheado cruzado es una
-      convergencia explosiva: la mente salta de la alarma al pánico. Añade las
+      convergencia explosiva: la mente salta directamente al pánico. Añade las
       variables de una en una.
     etiquetas: [Airmanship]
 
@@ -143,8 +147,7 @@ tarjetas:
     anverso: ¿Por qué no vale esperar a tener **sed** para beber?
     reverso: |
       **Porque cuando aparece la sed la deshidratación ya ha mermado el
-      rendimiento cognitivo,** y el agua tarda unos 20 minutos en hidratar de
-      verdad.
+      rendimiento cognitivo.**
 
       La cabina cerrada es un invernadero. Bebe con regularidad desde el
       despegue.
@@ -154,7 +157,8 @@ tarjetas:
     tipo: basica
     anverso: ¿Cómo se cura la **fatiga**?
     reverso: |
-      **Durmiendo. Sólo así.**
+      **La aguda, descansando y durmiendo. La crónica no se recupera con el
+      descanso normal: requiere consulta médica.**
 
       El café y las bebidas energéticas enmascaran los síntomas pero no
       restauran las capacidades. Si afecta a la atención o el razonamiento, es
@@ -182,8 +186,9 @@ tarjetas:
     tipo: basica
     anverso: ¿Se puede volar automedicado?
     reverso: |
-      **No.** Hasta las pastillas de la alergia o del mareo adormecen de forma
-      incapacitante.
+      **No con un medicamento que pueda interferir con la capacidad de pilotar
+      (MED.A.020).** Muchas pastillas de la alergia o del mareo adormecen de
+      forma incapacitante. Ante la duda, consulta al médico examinador.
 
   - id: aut-tue-competicion
     tipo: basica
@@ -192,7 +197,8 @@ tarjetas:
       **Una Autorización de Uso Terapéutico (AUT / TUE), tramitada
       previamente.**
 
-      Hay controles antidopaje al aterrizar; el documento exime de sanción.
+      Se pide a la organización nacional antidopaje o a la FAI, según el nivel,
+      y sólo ampara el uso autorizado: esa sustancia, esa dosis y esa vía.
     etiquetas: [Airmanship]
 
 # ==========================================================================

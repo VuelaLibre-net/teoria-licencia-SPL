@@ -16,7 +16,7 @@ rompe la compilación.
 
 ## [En curso]
 
-**Qué releer:** las correcciones de la auditoría del libro 02 del 1 de octubre de 2026 (`recursos/auditorias/`, con su seguimiento): **cap01, Maslow**; **cap02, IMSAFE, visión del color, vigilancia antes de virar y alcohol**; **cap03, DECIDE**; **cap04, tiempo útil de conciencia, hiperventilación y cánula**. Además, del libro 01: **cap04, AMC del oxígeno**, la **licencia** de los preliminares y la **Bibliografía**, que añade la lista de normas citadas en la colección.
+**Qué releer:** las correcciones de la auditoría del libro 02 del 1 de octubre de 2026 (`recursos/auditorias/`, con su seguimiento): **cap01, Maslow**; **cap02, IMSAFE, visión del color, vigilancia antes de virar y alcohol**; **cap03, DECIDE**; **cap04, tiempo útil de conciencia, hiperventilación y cánula**; y, en una segunda pasada, buena parte de los cuatro capítulos, el glosario y la bibliografía (estadísticas y definición del cap01, cultura justa, MED.A.020, ver y evitar, estrés, fatiga, deshidratación, medicación, dopaje, disbarismos y buceo, sobrecarga y conciencia situacional, Dalton, euforia, regla del oxígeno, botella, diagnóstico diferencial y pulsioxímetro). Además, del libro 01: **cap04, AMC del oxígeno**, la **licencia** de los preliminares y la **Bibliografía**, que añade la lista de normas citadas en la colección.
 
 ### Corregido
 
@@ -80,16 +80,43 @@ rompe la compilación.
 * **cap04, AMC1 SAO.OP.150** — el umbral de 10.000 ft se presentaba con «deberá», como si fuera el
   reglamento. Es el medio aceptable de cumplimiento («debería»), no vinculante como SAO.OP.150.
   Hallazgo NOR-10 de la auditoría del libro 01.
+* **cap01 e introducción, estadísticas** — el 90 % se presentaba como estadística «actual» de la aviación general y el vuelo a vela, y el reparto 40/30/12/6 como «proporciones habituales»; salen de un análisis de unos 250 accidentes de planeador (C. Ceipek, 2019). Ahora se atribuyen, se da el 80 % de la FAA para el conjunto de la aviación y se fechan las cifras de EASA (*Annual Safety Review 2019*). El 26 % se leía como «hasta un 26 % de los accidentes son mortales»: es el porcentaje de accidentes mortales debidos a pérdida y barrena. Tarjeta `fases-criticas-accidentes`. Hallazgo TEC-06 de la auditoría del libro 02.
+* **cap01, definición de factores humanos** — la que se atribuía a la OACI es de la HSE británica. Se sustituye por la del Doc 9683 de la OACI. Hallazgo TEC-07 de la auditoría del libro 02.
+* **cap01, cultura justa** — no excluye la «negligencia deliberada», sino la negligencia grave, las infracciones intencionadas y los actos destructivos (Reglamento (UE) 376/2014, art. 2.12). Capítulo, glosario y tarjeta `cultura-justa`. Hallazgo NOR-03 de la auditoría del libro 02.
+* **cap02, MED.A.020** — el recuadro omitía dos supuestos, se limitaba a volar «al mando» y no citaba los medicamentos ni la consulta al médico de cabecera que firmó el certificado LAPL. Recuadro y tarjeta `cuando-consultar-ame`. Hallazgo NOR-04 de la auditoría del libro 02.
+* **cap02, ver y evitar** — «más del 95 %» del tiempo fuera y «al menos 3 segundos» para reaccionar no tenían fuente; la FAA da 4 o 5 segundos de panel por cada 16 de fuera y unos 12,5 segundos entre ver un tráfico y apartarse (AC 90-48E). El viraje a la derecha en un encuentro frontal es obligatorio (SERA), no «preferente». El paso del escaneo se amplía hacia atrás y por encima, como la figura, cuyo pie pasa a «Ciclo de escaneo». Tarjeta `colision-frontal`. Hallazgos TEC-08 y COH-05 de la auditoría del libro 02.
+* **cap02, estrés** — el síndrome de Selye se describía a escala de minutos («a los pocos minutos») y el pánico como salida de la fase de alarma; el pánico es la sobreactivación de la curva de Yerkes-Dodson. Tarjeta `evitar-primeras-veces`. Hallazgo TEC-09 de la auditoría del libro 02.
+* **cap02 y cap04, hiperventilación** — se quita la apnea, que no recoge la FAA, y se unifica el tratamiento: respirar más despacio alargando la exhalación, hablar y, en los casos graves, una bolsa sobre la nariz y la boca. El post-it hablaba de «ceguera»: son alteraciones visuales. La hiperventilación también puede acompañar a la hipoxia. Tarjetas `hiperventilacion-tratamiento` e `hiperventilacion-causa`. Hallazgo COH-06 de la auditoría del libro 02.
+* **cap02, fatiga** — el epígrafe promete fatiga aguda y crónica y el texto no las distinguía; «la fatiga sólo se cura durmiendo» es falso para la crónica, que requiere médico. Texto, recuadro, post-it y tarjeta `fatiga-solo-se-cura-durmiendo`. Hallazgo TEC-10 de la auditoría del libro 02.
+* **cap02, deshidratación** — «es habitual perder entre 1 y 3 litros de agua por hora» y los «20 minutos» que tarda en hidratar no tenían fuente; se dan las cifras de reposición de la FAA. Tarjeta `deshidratacion-retraso-sed`. Hallazgo TEC-11 de la auditoría del libro 02; la cifra de pérdida queda pendiente de un médico aeronáutico.
+* **cap02, medicación** — las drogas no «invalidan automáticamente» el certificado, no todos los antihistamínicos son incompatibles y la «regla del prospecto» no es la norma. Ahora se cita MED.A.020 y las tres preguntas de la guía de EASA. Tarjeta `automedicacion`. Hallazgo NOR-05 de la auditoría del libro 02.
+* **cap02, dopaje** — la WADA fija el Código Mundial Antidopaje, pero los controles los hacen la FAI o la organización nacional (en España, la CELAD); la AUT sólo ampara el uso autorizado; se retira «hay controles al aterrizar», que no tenía fuente. Capítulo, glosario (WADA) y tarjeta `aut-tue-competicion`. Hallazgo NOR-06 de la auditoría del libro 02.
+* **cap02 y cap04, disbarismos** — los resúmenes y un recuadro del cap04 atribuían el riesgo a la expansión del gas al ascender; el cuerpo del cap02 ya explicaba que el problema serio llega en el descenso. Tarjetas `disbarismos-congestion` y `ley-de-boyle`. Hallazgo COH-07 de la auditoría del libro 02.
+* **cap03, sobrecarga** — se llamaba «sobrecarga cualitativa» a la de demasiadas tareas a la vez; pasa a «sobrecarga de trabajo». Tarjetas `que-erosiona-la-conciencia-situacional` y `procesamiento-de-informacion`. Hallazgo TEC-12 de la auditoría del libro 02.
+* **cap03, conciencia situacional** — su pérdida no es «el eslabón inicial de la mayoría de las cadenas de accidentes», afirmación sin fuente; aparece con frecuencia en ellas. Texto, post-it y tarjeta `conciencia-situacional`. Hallazgo COH-08 de la auditoría del libro 02.
+* **cap03, *aviate, navigate, communicate*** — comunicar va en tercer lugar, no «sólo si es estrictamente necesario». Tarjeta `carga-de-trabajo-vaso`. Hallazgo TEC-13 de la auditoría del libro 02.
+* **cap04, Dalton e hipoxia** — la caída de presión con la altitud no la causa la ley de Dalton, que explica la presión parcial, y los glóbulos rojos no llegan «vacíos»: la saturación baja de forma progresiva (89 % a 10.000 ft). Texto, post-it y tarjetas `ley-de-dalton` y `mecanismo-de-la-hipoxia`. Hallazgo TEC-14 de la auditoría del libro 02.
+* **cap04, euforia** — no es «el primer síntoma según el programa AESA»: es uno de los primeros, y el orden varía de una persona a otra. Texto, post-it y tarjeta `primer-sintoma-hipoxia`. Hallazgo TEC-15 de la auditoría del libro 02.
+* **cap04, regla del oxígeno** — «oxígeno al 100 %» es el ajuste de los reguladores de mascarilla, no de la cánula ni del EDS. La regla pasa a «oxígeno y desciende», con el máximo aporte de cada equipo. Tarjeta `oxigeno-al-100-y-desciende`, que conserva su `id`. Hallazgo TEC-16 de la auditoría del libro 02; los mandos concretos quedan pendientes de un FI(S) de onda.
+* **cap04, presión de la botella** — «entre 150 y 200 bar» no vale como criterio: la presión de llenado depende de la botella y baja con el frío. Se comprueba que basta para el vuelo con reserva. Texto, post-it y tarjeta `presion-de-la-botella`. Hallazgo TEC-17 de la auditoría del libro 02.
+* **cap04, diagnóstico diferencial** — la regla de oro asignaba el hormigueo a la hiperventilación por debajo de 10.000 ft, cuando también es síntoma de hipoxia. Pasa a un orden de actuación: primero la hipoxia, después la respiración. Tarjeta `distinguir-hipoxia-de-hiperventilacion`. Hallazgo TEC-18 de la auditoría del libro 02.
+* **cap04, pulsioxímetro** — se añaden sus límites: con monóxido de carbono marca valores normales, y el frío y el movimiento lo falsean; ante síntomas se actúa aunque la lectura sea buena. Se quita la invitación a medir a 5.000 m sin decir que es con oxígeno. Texto, post-it, glosario y tarjeta `pulsioximetro-umbral`. Hallazgo TEC-19 de la auditoría del libro 02.
+* **cap04, tarjeta `sao-op-150-oxigeno`** — presentaba el AMC como obligación («siempre por encima de 10.000 ft»); ahora distingue el reglamento del AMC. Hallazgo COH-09 de la auditoría del libro 02.
+
+### Añadido
+
+* **cap02 y cap04, gas disuelto** — ningún libro trataba la enfermedad descompresiva. Se añade en el cap02 la regla de EASA de dejar un tiempo razonable tras bucear o donar sangre (24 horas como mínimo, según la guía), y en el cap04 la ley de Henry y el riesgo por encima de unos 25.000 ft. El glosario deja de igualar disbarismo con barotrauma. Hallazgo SYL-01 de la auditoría del libro 02.
+* **Bibliografía, factores humanos y medicina aeronáutica** — la bibliografía no recogía ninguna fuente de las cifras y los modelos del libro. Se añade un bloque propio del libro 02 (Part-MED y sus AMC, OACI Doc 8984 y 9683, manuales y circulares de la FAA, *Annual Safety Review* de EASA, Reason, Ceipek y el Código Mundial Antidopaje). El resto de la bibliografía sigue siendo la común de la colección. Hallazgo NOR-07 de la auditoría del libro 02.
 
 ### Cambiado
 
-* **Figuras por rehacer: marca «EN REVISIÓN» y nota en el pie** — tres figuras en las que la
-  auditoría encontró errores graves llevan encima, en diagonal, la marca «EN REVISIÓN», en el PDF,
-  el EPUB y la web, y su pie termina con *(CORREGIR: …)*, que dice qué está mal: la lista IMSAFE
+* **Figuras por rehacer: marca «EN REVISIÓN» y nota en el pie** — siete figuras en las que la
+  auditoría encontró errores llevan encima, en diagonal, la marca «EN REVISIÓN», en el PDF,
+  el EPUB y la web, y su pie termina con *(CORREGIR: …)*, que dice qué está mal. Primero, la lista IMSAFE
   (cap02), que da 24 h para el alcohol en vez de 8 y cuya regla del «NO» se invierte en dos
   preguntas; el modelo DECIDE (cap03), con los pasos 4 y 5 cambiados; y el tiempo útil de conciencia
   (cap04), que rotula como obligatorio el oxígeno por encima de 3.000 m y da cifras que no coinciden
-  con la fuente. Al sustituir cada figura se quitan la marca y la nota.
+  con la fuente. En una segunda pasada se marcan otras cuatro: la pirámide de Maslow (cap01), que rotula la seguridad operacional en el nivel de la necesidad de sentirse a salvo; el queso suizo (cap01), con las capas de HFACS y ejemplos mal colocados; la cadena del error (cap01), que llama latente a un error activo; y la curva de estrés (cap02), que rotula como «agotamiento» la sobreactivación. Al sustituir cada figura se quitan la marca y la nota.
 
 ## [1.0-rc.13] — 7 de agosto de 2026
 
