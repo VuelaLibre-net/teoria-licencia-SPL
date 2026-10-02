@@ -287,7 +287,7 @@
   libros: ["01"]
 - es: "Cánula"
   en: "Cannula"
-  origen: propuesta
+  origen: revisado
   libros: ["02"]
   nota: "Interfaz de oxígeno nasal; adecuada hasta unos 18.000 ft (FAA)."
 - es: "CAO (Organización Combinada de Aeronavegabilidad / Combined Airworthiness Organisation)"
@@ -578,7 +578,7 @@
   libros: ["08"]
 - es: "Enfermedad descompresiva"
   en: "Decompression sickness"
-  origen: propuesta
+  origen: revisado
   libros: ["02"]
   nota: "También «the bends» en el texto."
 - es: "Engelamiento (icing)"
@@ -662,11 +662,11 @@
   libros: ["02"]
 - es: "Fatiga aguda"
   en: "Acute fatigue"
-  origen: propuesta
+  origen: revisado
   libros: ["02"]
 - es: "Fatiga crónica"
   en: "Chronic fatigue"
-  origen: propuesta
+  origen: revisado
   libros: ["02"]
 - es: "FCL (Licencias de la Tripulación de Vuelo / Flight Crew Licensing)"
   en: "FCL (Flight Crew Licensing)"
@@ -804,7 +804,7 @@
   libros: ["05"]
 - es: "Habilitación de vuelo nocturno"
   en: "Night rating"
-  origen: propuesta
+  origen: revisado
   libros: ["02"]
   nota: "Part-MED, MED.A.030 d)."
 - es: "Handrail (Pasamanos)"
@@ -913,7 +913,7 @@
   libros: ["03"]
 - es: "Ley de Henry"
   en: "Henry's law"
-  origen: propuesta
+  origen: revisado
   libros: ["02"]
 - es: "LFC (Nivel de Convección Libre / Level of Free Convection)"
   en: "LFC (Level of Free Convection)"
@@ -967,7 +967,7 @@
   libros: ["04"]
 - es: "Médico de cabecera (GMP)"
   en: "General medical practitioner (GMP)"
-  origen: propuesta
+  origen: revisado
   libros: ["02"]
   nota: "Part-MED, MED.A.020 c) 2): firma certificados LAPL."
 - es: "Medio alternativo de cumplimiento"
@@ -1160,7 +1160,7 @@
   libros: ["01"]
 - es: "Presión parcial"
   en: "Partial pressure"
-  origen: propuesta
+  origen: revisado
   libros: ["02"]
 - es: "Programa Nacional de Seguridad para la Aviación Civil"
   en: "National Civil Aviation Security Programme"
@@ -1287,12 +1287,12 @@
   nota: "en ES «SNS»; en inglés sin sigla, referir a Reg. (UE) 376/2014"
 - es: "Sobreactivación"
   en: "Over-arousal"
-  origen: propuesta
+  origen: revisado
   libros: ["02"]
   nota: "Rama derecha de la curva de Yerkes-Dodson."
 - es: "Sobrecarga de trabajo"
   en: "Work overload"
-  origen: propuesta
+  origen: revisado
   libros: ["02"]
   nota: "Sustituye a «sobrecarga cualitativa» (auditoría del libro 02, TEC-12)."
 - es: "Sondeo termodinámico (Skew-T / Stüve)"
