@@ -16,10 +16,20 @@ rompe la compilación.
 
 ## [En curso]
 
-**Qué releer:** **el epígrafe** y, en el **Glosario**, la entrada *Fallo de suelta*. Además, **cap01** (una remisión al libro 4), la **licencia** de los preliminares y la **Bibliografía**.
+**Qué releer:** **el epígrafe** y, en el **Glosario**, la entrada *Fallo de suelta*. Además, **cap01** (una remisión al libro 4 y el chequeo IMSAFE), **cap03** (oxígeno en el vuelo de onda), la **licencia** de los preliminares y la **Bibliografía**.
 
 ### Corregido
 
+* **cap01, chequeo IMSAFE** — tres derivados de la auditoría del libro 02 del 1 de octubre de 2026. El
+  resfriado impide igualar la presión del oído medio sobre todo al descender, no al ascender. El
+  plazo del alcohol era de «8-24 horas»: el medio aceptable de cumplimiento de EASA fija 8 horas, y
+  las 12 a 24 son la recomendación de la FAA. Y el texto decía que basta «una sola respuesta
+  negativa», cuando varias preguntas están formuladas en positivo: pasa a «un solo punto
+  desfavorable», como ya decía el post-it.
+* **cap03, oxígeno en el vuelo de onda** — decía «a partir de los 3.000-4.000 metros»; 4.000 m
+  quedan por encima de la regla por defecto. Ahora remite a SAO.OP.150 y a su AMC1 (por encima de
+  10.000 ft, unos 3.000 m, si el piloto no puede valorar el efecto). Derivado de la auditoría del
+  libro 02.
 * **Bibliografía, SERA y Real Decreto 1180/2018** — la entrada de SERA decía que «en España se aplica
   mediante el Real Decreto 552/2014». SERA es un reglamento de la UE y se aplica directamente, sin
   transposición; y el RD 552/2014 está derogado desde el 11 de noviembre de 2018 por el Real Decreto

@@ -46,14 +46,14 @@ no se toca: es el registro de lo que se encontró. Aquí se anota qué se ha hec
 | ID | Hallazgo | Fase | Estado | Commit | Nota |
 | --- | --- | --- | --- | --- | --- |
 | TEC-01 | Maslow: la seguridad no es la base | 2 | aplicado | | fase 2: cap01 y examen-50 P7; fase 3: figura marcada por el rótulo SMS; `en/`, en la fase 6 |
-| COH-01 | Figura IMSAFE: «24 h» y polaridad del «NO» | 2 | figura | | fase 2: figura marcada con `.corregir`; el plazo del libro 06, en la fase 4 |
+| COH-01 | Figura IMSAFE: «24 h» y polaridad del «NO» | 2 | figura | | fase 2: figura marcada con `.corregir`; el plazo del libro 06, en la fase 4; fase 4: plazo de 8 h en el libro 06 (cap01) |
 | NOR-01 | Alcohol: AMC presentado como límite legal | 2 | parcial | | fase 2: cap02 (IMSAFE, recuadro, texto y post-it), Anki, lección 02 P10, examen-50 P9 y P29; queda abierta la fuente del «formulario de AESA», retirado del texto |
 | NOR-02 | Visión del color con certificado LAPL | 2 | aplicado | | fase 2: cap02 y Anki |
 | TEC-02 | Vigilancia antes de virar | 2 | parcial | | fase 2: cap02 y Anki con la regla del GFH; la secuencia exacta, pregunta al FI(S); la figura de escaneo, con COH-05 |
 | TEC-03 | DECIDE: pasos 4 y 5 cambiados | 2 | figura | | fase 2: cap03 con el orden del glosario; figura marcada con `.corregir` |
 | COH-02 | Figura del TUC: «obligatorio» y cifras | 2 | figura | | fase 2: cuerpo con la tabla del PHAK, Anki `tuc`, lección 04 P7; figura marcada con `.corregir` |
 | TEC-04 | Hiperventilación: no prohibir el oxígeno | 2 | parcial | | fase 2: recuadro, regla de oro, post-it, Anki y lección 02 P8 con la doctrina OACI/FAA; redacción clínica, pregunta al médico aeronáutico |
-| TEC-05 | Límite de la cánula (18.000 ft) | 2 / 4 | parcial | | fase 2: cap04, post-it, Anki y lección 04 P9; el libro 08, en la fase 4; validación, pregunta al FI(S) de onda |
+| TEC-05 | Límite de la cánula (18.000 ft) | 2 / 4 | parcial | | fase 2: cap04, post-it, Anki y lección 04 P9; el libro 08, en la fase 4; validación, pregunta al FI(S) de onda; fase 4: límite de la cánula en el libro 08 (cap14) |
 
 ## Medias
 
@@ -74,17 +74,17 @@ no se toca: es el registro de lo que se encontró. Aquí se anota qué se ha hec
 | TEC-11 | Deshidratación: 1–3 L/h y 20 min | 3 | parcial | | fase 3: cifras de reposición de la FAA y sin los 20 min; la tasa de pérdida, pregunta al médico aeronáutico |
 | NOR-05 | Medicación y Part-MED | 3 | aplicado | | fase 3: cap02 y Anki |
 | NOR-06 | Dopaje y AUT | 3 | parcial | | fase 3: cap02, glosario y Anki; «controles al aterrizar» retirado a falta de fuente |
-| COH-07 | Disbarismos: el descenso | 3 / 4 | aplicado | | fase 3: cap02, cap04, Anki, lección 02 P3 y examen-50 P13 a P15; el libro 06, en la fase 4 |
+| COH-07 | Disbarismos: el descenso | 3 / 4 | aplicado | | fase 3: cap02, cap04, Anki, lección 02 P3 y examen-50 P13 a P15; el libro 06, en la fase 4; fase 4: el resfriado en el descenso en el libro 06 (cap01) |
 | TEC-12 | Sobrecarga cuantitativa | 3 | parcial | | fase 3: «sobrecarga de trabajo» en cap03, Anki y lección 03 P6; la definición, pregunta al especialista |
 | COH-08 | Conciencia situacional: «primer eslabón» | 3 | aplicado | | fase 3: cap03, Anki, lección 03 P2 y examen-50 P33 |
 | TEC-13 | *Aviate, navigate, communicate* | 3 | aplicado | | fase 3: cap03 y Anki |
 | TEC-14 | Dalton y «glóbulos vacíos» | 3 | aplicado | | fase 3: cap04, Anki, lección 04 P1 y P2 y examen-50 P40 y P41 |
 | TEC-15 | Euforia como «primer» síntoma | 3 | aplicado | | fase 3: cap04, Anki, lección 04 P5 y examen-50 P43 |
-| TEC-16 | «Oxígeno al 100 %» en equipos de planeador | 3 / 4 | parcial | | fase 3: cap04 y Anki con «oxígeno y desciende»; el libro 08 en la fase 4; los mandos, pregunta al FI(S) de onda |
+| TEC-16 | «Oxígeno al 100 %» en equipos de planeador | 3 / 4 | parcial | | fase 3: cap04 y Anki con «oxígeno y desciende»; el libro 08 en la fase 4; los mandos, pregunta al FI(S) de onda; fase 4: «oxígeno y desciende» en el libro 08 (cap14) |
 | TEC-17 | 150–200 bar | 3 | aplicado | | fase 3: cap04, post-it, Anki y lección 04 P10 |
 | TEC-18 | Diferencial hipoxia/hiperventilación | 3 | parcial | | fase 3: cap04 y Anki como orden de actuación; pregunta al médico aeronáutico |
 | TEC-19 | Pulsioxímetro sin límites | 3 | parcial | | fase 3: cap04, post-it, glosario, Anki y lección 04 P6; el umbral, pregunta al médico aeronáutico |
-| COH-09 | Restos del AMC de oxígeno | 3 / 4 | parcial | | fase 3: Anki `sao-op-150-oxigeno` y examen-50 P45; el libro 06, en la fase 4 |
+| COH-09 | Restos del AMC de oxígeno | 3 / 4 | aplicado | | fase 3: Anki `sao-op-150-oxigeno` y examen-50 P45; el libro 06, en la fase 4; fase 4: libro 06 (cap03) con SAO.OP.150 y su AMC1 |
 | COH-10 | Doc 9683 en el banco | 3 | aplicado | | fase 3: fundamentos de las lecciones 01 a 04 y del examen-50 con la fuente real; el Doc 9683 se conserva donde trata el tema |
 | NOR-07 | Bibliografía de factores humanos | 3 | aplicado | | fase 3: bloque propio en la bibliografía del 02 (no en las demás, por decisión del autor) |
 
@@ -98,7 +98,7 @@ no se toca: es el registro de lo que se encontró. Aquí se anota qué se ha hec
 | PED-03 | 5 | pendiente | | 3P junto a PAVE |
 | TEC-21 | 5 | pendiente | | memoria sensorial e hipocampo |
 | PED-04 | 5 | pendiente | | figura de visión de túnel con `.corregir`; pregunta al especialista |
-| COH-11 | 5 / 4 | pendiente | | IMSAFE «Emotion»; libro 06 en la fase 4 |
+| COH-11 | 5 / 4 | pendiente | | IMSAFE «Emotion»; libro 06 en la fase 4; fase 4: el libro 06 ya da «Emotion / Eating», sin cambio; el 02, en la fase 5 |
 | COH-12 | 5 / 4 | pendiente | | umbral nocturno único; libro 01 en la fase 4, tras el médico aeronáutico (COH-09 del libro 01) |
 | TEC-22 | 5 | pendiente | | agujero negro |
 | PED-05 | 5 | pendiente | | figura de ilusiones: mover, citar y nuevo pie |
@@ -123,6 +123,7 @@ Las correcciones de `examenes/` van en su rama local `auditoria-02`, que sale de
 | --- | --- | --- |
 | 2 | `bcd67d2` | lección 02 P8 y P10; lección 04 P7 y P9; examen-50 P7, P9 y P29 |
 | 3 | `9ad0ab1` | lecciones 01 a 04 y examen-50: preguntas y citas de los post-it corregidos, y fundamentos con su fuente real (COH-10) |
+| 4 | `cf0158d` | libro 01: cita literal de SAO.OP.150 en la lección 06 y el examen-50 |
 
 ## Edición inglesa
 

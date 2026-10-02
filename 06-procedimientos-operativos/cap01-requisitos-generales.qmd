@@ -53,14 +53,14 @@ Sus funciones principales incluyen:
 
 Antes de subir al cockpit, realiza este auto-examen de honestidad. No es una formalidad: es la primera —y más importante— verificación del día.
 
-* **I** (**Illness / Enfermedad**): ¿Sufro alguna enfermedad o síntoma, por leve que sea? Un resfriado puede impedir que se igualen las presiones en el oído medio al ascender.
+* **I** (**Illness / Enfermedad**): ¿Sufro alguna enfermedad o síntoma, por leve que sea? Un resfriado puede impedir que se igualen las presiones en el oído medio, sobre todo al descender.
 * **M** (**Medication / Medicación**): ¿He tomado medicamentos que puedan afectar mis reflejos, la visión o el nivel de alerta?
 * **S** (**Stress / Estrés**): ¿Estoy bajo una presión personal o profesional excesiva que ocupe parte de mi atención?
-* **A** (**Alcohol**): ¿He consumido alcohol en las últimas 8-24 horas? Incluso una copa la noche anterior puede afectar al rendimiento cognitivo.
+* **A** (**Alcohol**): ¿He bebido alcohol en las últimas 8 horas? Es el mínimo que fija el medio aceptable de cumplimiento de EASA; la FAA recomienda dejar entre 12 y 24 horas, porque incluso una copa la noche anterior puede afectar al rendimiento cognitivo.
 * **F** (**Fatigue / Fatiga**): ¿He descansado lo suficiente? La fatiga es uno de los factores más frecuentes y más infravalorados en los accidentes.
 * **E** (**Emotion / Eating**): ¿Estoy emocionalmente estable? ¿He comido y estoy correctamente hidratado?
 
-Una sola respuesta negativa en cualquiera de estos puntos es razón suficiente para no volar ese día. No existen los vuelos «de desconexión» cuando el piloto no está al cien por cien.
+Un solo punto desfavorable en cualquiera de estas preguntas es razón suficiente para no volar ese día. No existen los vuelos «de desconexión» cuando el piloto no está al cien por cien.
 
 ::: {.callout-note title="Airmanship"}
 Haz el chequeo **IMSAFE** en voz alta o por escrito antes de salir de casa. La dinámica del aeródromo —el entusiasmo del grupo, el buen tiempo, la presión social— puede llevar a minimizar síntomas que en casa te parecerían evidentes. Decidir en frío, antes de llegar al campo, es siempre más fácil que decir «no» delante de tus compañeros cuando el remolcador ya está preparado.
