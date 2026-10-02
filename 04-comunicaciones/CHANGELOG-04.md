@@ -16,6 +16,8 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.16] — 2 de octubre de 2026
+
 **Qué releer:** **el epígrafe**, **cap03 y cap06** (falsas emergencias), **cap04, CAVOK**, en el **Glosario** la entrada *CAVOK*, la **licencia** de los preliminares y la **Bibliografía**.
 
 ### Corregido

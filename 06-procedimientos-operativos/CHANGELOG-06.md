@@ -16,6 +16,8 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.4] — 2 de octubre de 2026
+
 **Qué releer:** **el epígrafe** y, en el **Glosario**, la entrada *Fallo de suelta*. Además, **cap01** (una remisión al libro 4 y el chequeo IMSAFE), **cap03** (oxígeno en el vuelo de onda), la **licencia** de los preliminares y la **Bibliografía**.
 
 ### Corregido
