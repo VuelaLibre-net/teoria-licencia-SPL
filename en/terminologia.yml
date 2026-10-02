@@ -29,7 +29,7 @@
   libros: ["02"]
 - es: "Aeródromo eventual"
   en: "aeródromo eventual (occasional aerodrome)"
-  origen: propuesta
+  origen: revisado
   libros: ["01"]
   nota: "Figura española del Real Decreto 1189/2011: se conserva en español con glosa."
 - es: "Aerofrenos (airbrakes)"
@@ -42,7 +42,7 @@
   libros: ["06"]
 - es: "AESA (Agencia Estatal de Seguridad Aérea)"
   en: "AESA (Spanish Aviation Safety Agency)"
-  origen: propuesta
+  origen: revisado
   libros: ["01", "02"]
   nota: "nombre propio: se mantiene «AESA»; la glosa inglesa es descriptiva"
 - es: "AFIL (Plan de vuelo presentado en vuelo / Airborne Flight Plan)"
@@ -101,11 +101,11 @@
   libros: ["09"]
 - es: "Altocúmulo lenticular (ACSL)"
   en: "Altocumulus lenticularis (ACSL)"
-  origen: propuesta
+  origen: revisado
   libros: ["03"]
 - es: "Altura de decisión"
   en: "Decision height"
-  origen: propuesta
+  origen: revisado
   libros: ["06"]
   nota: "en vuelo sin motor suele decirse también «decision point» o «commit height»; confirmar uso en\
     \ el cap."
@@ -135,7 +135,7 @@
   libros: ["01", "09"]
 - es: "ANDS (Error de aceleración de la brújula)"
   en: "ANDS (Accelerate North, Decelerate South)"
-  origen: propuesta
+  origen: revisado
   libros: ["09"]
   nota: "mnemotecnia inglesa original; en ES se glosa como «error de aceleración»"
 - es: "Ángulo de ataque (AoA / *Angle of Attack*)"
@@ -144,11 +144,11 @@
   libros: ["05"]
 - es: "Ángulo de ataque crítico"
   en: "Critical angle of attack"
-  origen: propuesta
+  origen: revisado
   libros: ["05"]
 - es: "Anticiclón (H)"
   en: "Anticyclone (High, H)"
-  origen: propuesta
+  origen: revisado
   libros: ["03"]
 - es: "APP (Control de Aproximación / Approach Control)"
   en: "APP (Approach Control)"
@@ -160,7 +160,7 @@
   libros: ["01", "08"]
 - es: "ARCC (Centro Coordinador de Salvamento Aeronáutico)"
   en: "ARCC (Aeronautical Rescue Coordination Centre)"
-  origen: propuesta
+  origen: revisado
   libros: ["01"]
   nota: "Nombre de los tres centros en el AIP España, GEN 3.6."
 - es: "ASM (Gestión del espacio aéreo / Airspace Management)"
@@ -189,7 +189,7 @@
   libros: ["01"]
 - es: "Atmósfera Estándar Internacional (ISA)"
   en: "International Standard Atmosphere (ISA)"
-  origen: propuesta
+  origen: revisado
   libros: ["03"]
 - es: "ATS (Servicios de Tránsito Aéreo / Air Traffic Services)"
   en: "ATS (Air Traffic Services)"
@@ -211,17 +211,17 @@
   nota: "SERA/ICAO: transmisión de autoinformación en frecuencia común; confirmar frente a «self-announce»"
 - es: "Autoridad de investigación de accidentes"
   en: "Accident investigation authority"
-  origen: propuesta
+  origen: revisado
   libros: ["01"]
   nota: "Desde el 15-07-2026, la Autoridad Administrativa Independiente para la Investigación Técnica de Accidentes e Incidentes ferroviarios, marítimos y de aviación civil (Ley 2/2024), que sustituyó a la CIAIAC. No tiene sigla oficial."
 - es: "Autorrotación (*spin*)"
   en: "Autorotation"
-  origen: propuesta
+  origen: revisado
   libros: ["05"]
   nota: "En inglés remite a «Spin (autorotation)», como el español remite a Barrena."
 - es: "Aviso de llegada"
   en: "Arrival report"
-  origen: propuesta
+  origen: revisado
   libros: ["01"]
   nota: "SERA.4020."
 - es: "AWY (Aerovía / Airway)"
@@ -234,7 +234,7 @@
   libros: ["06", "08"]
 - es: "Barrena (autorrotación / *spin*)"
   en: "Spin (autorotation)"
-  origen: propuesta
+  origen: revisado
   libros: ["05"]
 - es: "Base (Tramo de base / Base leg)"
   en: "Base leg"
@@ -246,11 +246,11 @@
   libros: ["03"]
 - es: "Bernoulli, teorema de"
   en: "Bernoulli's theorem"
-  origen: propuesta
+  origen: revisado
   libros: ["05"]
 - es: "Borrasca (Depresión / L)"
   en: "Depression (Low, L)"
-  origen: propuesta
+  origen: revisado
   libros: ["03"]
 - es: "Brazo de palanca (Arm)"
   en: "Arm"
@@ -258,11 +258,11 @@
   libros: ["07"]
 - es: "Brisa anabática (viento anabático)"
   en: "Anabatic wind"
-  origen: propuesta
+  origen: revisado
   libros: ["03"]
 - es: "Brisa catabática (viento catabático)"
   en: "Katabatic wind"
-  origen: propuesta
+  origen: revisado
   libros: ["03"]
 - es: "Brisa marina (sea breeze)"
   en: "Sea breeze"
@@ -278,7 +278,7 @@
   libros: ["06"]
 - es: "Cadena del error"
   en: "Error chain"
-  origen: propuesta
+  origen: revisado
   libros: ["02"]
 - es: "CAMO (Organización de Gestión del Mantenimiento de la Aeronavegabilidad Continuada / Continuing\
     \ Airworthiness Management Organisation)"
@@ -287,7 +287,7 @@
   libros: ["01"]
 - es: "Cánula"
   en: "Cannula"
-  origen: propuesta
+  origen: revisado
   libros: ["02"]
   nota: "Interfaz de oxígeno nasal; adecuada hasta unos 18.000 ft (FAA)."
 - es: "CAO (Organización Combinada de Aeronavegabilidad / Combined Airworthiness Organisation)"
@@ -296,7 +296,7 @@
   libros: ["01"]
 - es: "Capa límite"
   en: "Boundary layer"
-  origen: propuesta
+  origen: revisado
   libros: ["05"]
 - es: "CAPE (Energía Potencial Convectiva Disponible / Convective Available Potential Energy)"
   en: "CAPE (Convective Available Potential Energy)"
@@ -321,7 +321,7 @@
   nota: "rótulo ICAO; «Ceiling And Visibility OK» es un retroacrónimo, no la denominación oficial (lo advierte el glosario ES)"
 - es: "CB-SIFT-CBE"
   en: "CB-SIFT-CBE"
-  origen: propuesta
+  origen: revisado
   libros: ["06"]
   nota: "comprobación previa al despegue; la mnemotecnia es de origen británico y se conserva"
 - es: "CDR (Ruta condicional / Conditional Route)"
@@ -330,7 +330,7 @@
   libros: ["01"]
 - es: "Centro de Presiones (CP)"
   en: "Centre of pressure (CP)"
-  origen: propuesta
+  origen: revisado
   libros: ["05"]
 - es: "CG (Centro de gravedad / Center of Gravity)"
   en: "CG (Centre of Gravity)"
@@ -339,20 +339,20 @@
   nota: "ortografía británica: «centre»"
 - es: "CIAIAC (Comisión de Investigación de Accidentes e Incidentes de Aviación Civil)"
   en: "CIAIAC (Spanish Civil Aviation Accident and Incident Investigation Commission)"
-  origen: propuesta
+  origen: revisado
   libros: ["01"]
   nota: "nombre propio; glosa descriptiva"
 - es: "Cianosis"
   en: "Cyanosis"
-  origen: propuesta
+  origen: revisado
   libros: ["02"]
 - es: "Cinetosis"
   en: "Motion sickness"
-  origen: propuesta
+  origen: revisado
   libros: ["02"]
 - es: "Circuito de tráfico (Circuito de aeródromo)"
   en: "Traffic circuit (aerodrome circuit)"
-  origen: propuesta
+  origen: revisado
   libros: ["06"]
   nota: "británico «circuit»; evitar «pattern» (uso FAA)"
 - es: "Cizalladura (wind shear)"
@@ -361,11 +361,11 @@
   libros: ["03"]
 - es: "Código Penal"
   en: "Código Penal (Spanish Criminal Code)"
-  origen: propuesta
+  origen: revisado
   libros: ["04"]
 - es: "Coeficiente de planeo (fineza, L/D)"
   en: "Glide ratio (L/D)"
-  origen: propuesta
+  origen: revisado
   libros: ["05", "07", "09"]
 - es: "CofA (Certificado de Aeronavegabilidad / Certificate of Airworthiness)"
   en: "CofA (Certificate of Airworthiness)"
@@ -377,7 +377,7 @@
   libros: ["04"]
 - es: "Collado barométrico (pantano barométrico)"
   en: "Col (barometric col)"
-  origen: propuesta
+  origen: revisado
   libros: ["03"]
 - es: "Compensador (Trim)"
   en: "Trim"
@@ -385,7 +385,7 @@
   libros: ["05", "08"]
 - es: "Complacencia"
   en: "Complacency"
-  origen: propuesta
+  origen: revisado
   libros: ["02"]
 - es: "Componente cruzada (crosswind component)"
   en: "Crosswind component"
@@ -401,11 +401,11 @@
   libros: ["09"]
 - es: "Conciencia situacional"
   en: "Situational awareness"
-  origen: propuesta
+  origen: revisado
   libros: ["02"]
 - es: "Cono de alcance"
   en: "Glide cone"
-  origen: propuesta
+  origen: revisado
   libros: ["09"]
   nota: "confirmar: «final glide cone» / «range cone»"
 - es: "CPL (Licencia de Piloto Comercial / Commercial Pilot Licence)"
@@ -414,11 +414,11 @@
   libros: ["01"]
 - es: "Crepúsculo civil"
   en: "Civil twilight"
-  origen: propuesta
+  origen: revisado
   libros: ["09"]
 - es: "CRISE"
   en: "CRISE"
-  origen: propuesta
+  origen: revisado
   libros: ["06"]
   nota: "mnemotecnia española; se conserva con la glosa inglesa de cada letra (Controles, controls…)"
 - es: "CS (Especificaciones de Certificación / Certification Specifications)"
@@ -444,15 +444,15 @@
   libros: ["02"]
 - es: "Cúmulo (Cu)"
   en: "Cumulus (Cu)"
-  origen: propuesta
+  origen: revisado
   libros: ["03"]
 - es: "Cúmulo congestus (Cu con)"
   en: "Cumulus congestus (Cu con)"
-  origen: propuesta
+  origen: revisado
   libros: ["03"]
 - es: "Cumulonimbus (Cb)"
   en: "Cumulonimbus (Cb)"
-  origen: propuesta
+  origen: revisado
   libros: ["03"]
 - es: "Cúpula (Canopy)"
   en: "Canopy"
@@ -460,7 +460,7 @@
   libros: ["08"]
 - es: "Curva polar (polar de velocidades)"
   en: "Polar curve (speed polar)"
-  origen: propuesta
+  origen: revisado
   libros: ["05", "07"]
 - es: "DALR (Gradiente Adiabático Seco / Dry Adiabatic Lapse Rate)"
   en: "DALR (Dry Adiabatic Lapse Rate)"
@@ -468,7 +468,7 @@
   libros: ["03"]
 - es: "DANA (Depresión Aislada en Niveles Altos)"
   en: "Cut-off low (DANA)"
-  origen: propuesta
+  origen: revisado
   libros: ["03"]
   nota: "DANA es término español; en inglés «cut-off low»"
 - es: "Datum (Línea de referencia)"
@@ -481,20 +481,20 @@
   libros: ["09"]
 - es: "DECIDE"
   en: "DECIDE"
-  origen: propuesta
+  origen: revisado
   libros: ["02"]
 - es: "Deriva"
   en: "Drift"
-  origen: propuesta
+  origen: revisado
   libros: ["05", "09"]
   nota: "En el libro 05 el glosario español junta dos acepciones: la de navegación (drift) y la superficie vertical de cola, que en inglés es «fin» (vertical stabiliser). El rótulo se queda en Drift y la definición inglesa distingue la fin."
 - es: "Desorientación espacial"
   en: "Spatial disorientation"
-  origen: propuesta
+  origen: revisado
   libros: ["02"]
 - es: "Desvío"
   en: "Deviation"
-  origen: propuesta
+  origen: revisado
   libros: ["09"]
   nota: "compass deviation"
 - es: "DETRESFA (Fase de peligro / Distress Phase)"
@@ -503,25 +503,25 @@
   libros: ["01"]
 - es: "DGAC (Dirección General de Aviación Civil)"
   en: "DGAC (Spanish Directorate General of Civil Aviation)"
-  origen: propuesta
+  origen: revisado
   libros: ["01"]
   nota: "nombre propio; glosa descriptiva"
 - es: "Diagrama V-n (envolvente de vuelo)"
   en: "V-n diagram (flight envelope)"
-  origen: propuesta
+  origen: revisado
   libros: ["05"]
 - es: "Diario de a bordo"
   en: "Journey log"
-  origen: propuesta
+  origen: revisado
   libros: ["01", "06"]
   nota: "Término de SAO.GEN.160; distinto del registro técnico (technical records)."
 - es: "Diedro (ángulo diedro)"
   en: "Dihedral (dihedral angle)"
-  origen: propuesta
+  origen: revisado
   libros: ["05"]
 - es: "Disbarismos (Barotraumas)"
   en: "Dysbarism (barotrauma)"
-  origen: propuesta
+  origen: revisado
   libros: ["02"]
 - es: "DME (Equipo Radiotelemétrico / Distance Measuring Equipment)"
   en: "DME (Distance Measuring Equipment)"
@@ -562,11 +562,11 @@
   libros: ["05"]
 - es: "Efecto veleta"
   en: "Weathercock stability"
-  origen: propuesta
+  origen: revisado
   libros: ["05"]
 - es: "Eficacia de mando"
   en: "Control effectiveness"
-  origen: propuesta
+  origen: revisado
   libros: ["05"]
 - es: "ELT (Transmisor Localizador de Emergencia / Emergency Locator Transmitter)"
   en: "ELT (Emergency Locator Transmitter)"
@@ -578,7 +578,7 @@
   libros: ["08"]
 - es: "Enfermedad descompresiva"
   en: "Decompression sickness"
-  origen: propuesta
+  origen: revisado
   libros: ["02"]
   nota: "También «the bends» en el texto."
 - es: "Engelamiento (icing)"
@@ -591,7 +591,7 @@
   libros: ["01", "04", "09"]
 - es: "Error de viraje (regla \"NO me paso / SÍ me paso\")"
   en: "Turning error (UNOS: Undershoot North, Overshoot South)"
-  origen: propuesta
+  origen: revisado
   libros: ["09"]
   nota: "la regla ES «NO me paso / SÍ me paso» se sustituye por la mnemotecnia inglesa UNOS"
 - es: "Error deliberado (dog-leg)"
@@ -601,11 +601,11 @@
   nota: "británico también «aiming off»"
 - es: "Escala"
   en: "Scale"
-  origen: propuesta
+  origen: revisado
   libros: ["09"]
 - es: "Espacio aéreo controlado"
   en: "Controlled airspace"
-  origen: propuesta
+  origen: revisado
   libros: ["09"]
 - es: "Espiral del cementerio (*graveyard spiral*)"
   en: "Graveyard spiral"
@@ -613,24 +613,24 @@
   libros: ["05"]
 - es: "Estabilidad atmosférica"
   en: "Atmospheric stability"
-  origen: propuesta
+  origen: revisado
   libros: ["03"]
 - es: "Estabilidad condicional"
   en: "Conditional instability"
-  origen: propuesta
+  origen: revisado
   libros: ["03"]
   nota: "el glosario ES dice «estabilidad condicional»; el término inglés habitual es «conditional instability»"
 - es: "Estabilidad dinámica"
   en: "Dynamic stability"
-  origen: propuesta
+  origen: revisado
   libros: ["05"]
 - es: "Estabilidad estática"
   en: "Static stability"
-  origen: propuesta
+  origen: revisado
   libros: ["05"]
 - es: "Estructura sándwich"
   en: "Sandwich construction"
-  origen: propuesta
+  origen: revisado
   libros: ["08"]
 - es: "ETA (Hora prevista de llegada / Estimated Time of Arrival)"
   en: "ETA (Estimated Time of Arrival)"
@@ -646,11 +646,11 @@
   libros: ["09"]
 - es: "Factor de carga (n)"
   en: "Load factor (n)"
-  origen: propuesta
+  origen: revisado
   libros: ["05", "08"]
 - es: "Fallo de lanzamiento"
   en: "Launch failure"
-  origen: propuesta
+  origen: revisado
   libros: ["06"]
 - es: "Fallo de suelta (Towhook jam)"
   en: "Release failure (towhook jam)"
@@ -658,15 +658,15 @@
   libros: ["06"]
 - es: "Fatiga"
   en: "Fatigue"
-  origen: propuesta
+  origen: revisado
   libros: ["02"]
 - es: "Fatiga aguda"
   en: "Acute fatigue"
-  origen: propuesta
+  origen: revisado
   libros: ["02"]
 - es: "Fatiga crónica"
   en: "Chronic fatigue"
-  origen: propuesta
+  origen: revisado
   libros: ["02"]
 - es: "FCL (Licencias de la Tripulación de Vuelo / Flight Crew Licensing)"
   en: "FCL (Flight Crew Licensing)"
@@ -714,11 +714,11 @@
   libros: ["01"]
 - es: "Flaps"
   en: "Flaps"
-  origen: propuesta
+  origen: revisado
   libros: ["08"]
 - es: "FLARM"
   en: "FLARM"
-  origen: propuesta
+  origen: revisado
   libros: ["06", "08"]
 - es: "Flutter (Flameo aeroelástico)"
   en: "Flutter"
@@ -730,15 +730,15 @@
   libros: ["04", "07", "09"]
 - es: "Frente cálido"
   en: "Warm front"
-  origen: propuesta
+  origen: revisado
   libros: ["03"]
 - es: "Frente frío"
   en: "Cold front"
-  origen: propuesta
+  origen: revisado
   libros: ["03"]
 - es: "Frente ocluido (oclusión)"
   en: "Occluded front (occlusion)"
-  origen: propuesta
+  origen: revisado
   libros: ["03"]
 - es: "FUA (Uso flexible del espacio aéreo / Flexible Use of Airspace)"
   en: "FUA (Flexible Use of Airspace)"
@@ -746,7 +746,7 @@
   libros: ["01"]
 - es: "Fugoide (modo fugoide)"
   en: "Phugoid (phugoid mode)"
-  origen: propuesta
+  origen: revisado
   libros: ["05"]
 - es: "Fusible de seguridad (Weak link)"
   en: "Weak link"
@@ -754,7 +754,7 @@
   libros: ["06"]
 - es: "FUSTALL"
   en: "FUSTALL"
-  origen: propuesta
+  origen: revisado
   libros: ["06"]
   nota: "mnemotecnia española; buscar equivalente o explicar en nota"
 - es: "FZRA (Lluvia engelante / Freezing Rain)"
@@ -772,7 +772,7 @@
   libros: ["08"]
 - es: "Gelcoat"
   en: "Gelcoat"
-  origen: propuesta
+  origen: revisado
   libros: ["08"]
 - es: "GM (Material Guía / Guidance Material)"
   en: "GM (Guidance Material)"
@@ -784,7 +784,7 @@
   libros: ["09"]
 - es: "Gotículas superenfriadas"
   en: "Supercooled droplets"
-  origen: propuesta
+  origen: revisado
   libros: ["03"]
 - es: "GPS (Sistema de Posicionamiento Global / Global Positioning System)"
   en: "GPS (Global Positioning System)"
@@ -792,7 +792,7 @@
   libros: ["09"]
 - es: "Granizo (GR)"
   en: "Hail (GR)"
-  origen: propuesta
+  origen: revisado
   libros: ["03"]
 - es: "GS (Velocidad suelo / Ground Speed)"
   en: "GS (Ground Speed)"
@@ -804,7 +804,7 @@
   libros: ["05"]
 - es: "Habilitación de vuelo nocturno"
   en: "Night rating"
-  origen: propuesta
+  origen: revisado
   libros: ["02"]
   nota: "Part-MED, MED.A.030 d)."
 - es: "Handrail (Pasamanos)"
@@ -813,15 +813,15 @@
   libros: ["09"]
 - es: "Hiperventilación"
   en: "Hyperventilation"
-  origen: propuesta
+  origen: revisado
   libros: ["02"]
 - es: "Hipoxia"
   en: "Hypoxia"
-  origen: propuesta
+  origen: revisado
   libros: ["02", "03", "08"]
 - es: "HJ (Periodo diurno, de orto a ocaso)"
   en: "HJ (Sunrise to sunset)"
-  origen: propuesta
+  origen: revisado
   libros: ["01"]
 - es: "IAIP (Documentación integrada de información aeronáutica / Integrated Aeronautical Information\
     \ Package)"
@@ -843,7 +843,7 @@
   nota: "IGC = International Gliding Commission"
 - es: "IMSAFE"
   en: "IMSAFE"
-  origen: propuesta
+  origen: revisado
   libros: ["02", "06"]
 - es: "INCERFA (Fase de incertidumbre / Uncertainty Phase)"
   en: "INCERFA (Uncertainty Phase)"
@@ -855,7 +855,7 @@
   libros: ["04"]
 - es: "Inversión térmica"
   en: "Temperature inversion"
-  origen: propuesta
+  origen: revisado
   libros: ["03"]
 - es: "IR (Reglas de Ejecución / Implementing Rules)"
   en: "IR (Implementing Rules)"
@@ -863,7 +863,7 @@
   libros: ["01"]
 - es: "Isógona (línea isogónica)"
   en: "Isogonal (isogonic line)"
-  origen: propuesta
+  origen: revisado
   libros: ["09"]
 - es: "K-Index (índice K)"
   en: "K-Index"
@@ -871,12 +871,12 @@
   libros: ["03"]
 - es: "Lado tierra"
   en: "Landside"
-  origen: propuesta
+  origen: revisado
   libros: ["01"]
   nota: "Reglamento (CE) 300/2008, art. 3."
 - es: "Lanzamiento con cable elástico"
   en: "Bungee launch"
-  origen: propuesta
+  origen: revisado
   libros: ["01", "06"]
 - es: "LAPL (Licencia de Piloto de Aeronave Ligera / Light Aircraft Pilot Licence)"
   en: "LAPL (Light Aircraft Pilot Licence)"
@@ -888,7 +888,7 @@
   libros: ["08"]
 - es: "Las 7 S"
   en: "The 7 S"
-  origen: propuesta
+  origen: revisado
   libros: ["06"]
   nota: "mnemotecnia; confirmar si procede de fuente inglesa"
 - es: "Lastre (ballast)"
@@ -905,7 +905,7 @@
   libros: ["07", "08"]
 - es: "Latitud"
   en: "Latitude"
-  origen: propuesta
+  origen: revisado
   libros: ["09"]
 - es: "LCL (Nivel de Condensación por Elevación / Lifted Condensation Level)"
   en: "LCL (Lifted Condensation Level)"
@@ -913,7 +913,7 @@
   libros: ["03"]
 - es: "Ley de Henry"
   en: "Henry's law"
-  origen: propuesta
+  origen: revisado
   libros: ["02"]
 - es: "LFC (Nivel de Convección Libre / Level of Free Convection)"
   en: "LFC (Level of Free Convection)"
@@ -921,12 +921,12 @@
   libros: ["03"]
 - es: "Lugar de operación"
   en: "Operating site"
-  origen: propuesta
+  origen: revisado
   libros: ["01"]
   nota: "Definición de Part-SAO (Reglamento de Ejecución (UE) 2018/1976, anexo I)."
 - es: "L’Hotellier (Conector)"
   en: "L'Hotellier connector"
-  origen: propuesta
+  origen: revisado
   libros: ["08"]
 - es: "LI (Índice de Levantamiento / Lifted Index)"
   en: "LI (Lifted Index)"
@@ -934,45 +934,45 @@
   libros: ["03"]
 - es: "LiFePO4 (Batería de litio-ferrofosfato)"
   en: "LiFePO4 (lithium iron phosphate battery)"
-  origen: propuesta
+  origen: revisado
   libros: ["08"]
 - es: "Línea de convergencia"
   en: "Convergence line"
-  origen: propuesta
+  origen: revisado
   libros: ["03"]
 - es: "Longitud"
   en: "Longitude"
-  origen: propuesta
+  origen: revisado
   libros: ["09"]
 - es: "Loxodrómica (Línea de rumbo)"
   en: "Rhumb line (loxodrome)"
-  origen: propuesta
+  origen: revisado
   libros: ["09"]
 - es: "LSA (Ley de Seguridad Aérea)"
   en: "LSA (Spanish Aviation Safety Act)"
-  origen: propuesta
+  origen: revisado
   libros: ["01"]
   nota: "Ley 21/2003; nombre propio con glosa"
 - es: "Mando diferencial de alerones"
   en: "Differential aileron"
-  origen: propuesta
+  origen: revisado
   libros: ["05"]
 - es: "Masa de aire"
   en: "Air mass"
-  origen: propuesta
+  origen: revisado
   libros: ["03"]
 - es: "MAYDAY"
   en: "MAYDAY"
-  origen: propuesta
+  origen: revisado
   libros: ["04"]
 - es: "Médico de cabecera (GMP)"
   en: "General medical practitioner (GMP)"
-  origen: propuesta
+  origen: revisado
   libros: ["02"]
   nota: "Part-MED, MED.A.020 c) 2): firma certificados LAPL."
 - es: "Medio alternativo de cumplimiento"
   en: "AltMoC (Alternative Means of Compliance)"
-  origen: propuesta
+  origen: revisado
   libros: ["01"]
 - es: "METAR (Meteorological Aerodrome Report)"
   en: "METAR (Meteorological Aerodrome Report)"
@@ -985,7 +985,7 @@
   libros: ["03"]
 - es: "Milla náutica (NM)"
   en: "Nautical mile (NM)"
-  origen: propuesta
+  origen: revisado
   libros: ["09"]
 - es: "Modelo burbuja (bubble model)"
   en: "Bubble model"
@@ -997,11 +997,11 @@
   libros: ["03"]
 - es: "Momento"
   en: "Moment"
-  origen: propuesta
+  origen: revisado
   libros: ["07"]
 - es: "Monóxido de carbono (CO)"
   en: "Carbon monoxide (CO)"
-  origen: propuesta
+  origen: revisado
   libros: ["02"]
 - es: "MTOW (Masa Máxima al Despegue / Maximum Take-Off Weight)"
   en: "MTOM (Maximum Take-Off Mass)"
@@ -1010,7 +1010,7 @@
   nota: "EASA usa «mass» (MTOM); el glosario ES dice «MTOW / Weight»"
 - es: "Multitrayecto"
   en: "Multipath"
-  origen: propuesta
+  origen: revisado
   libros: ["09"]
 - es: "Navegación a estima (Dead Reckoning)"
   en: "Dead reckoning"
@@ -1018,25 +1018,25 @@
   libros: ["09"]
 - es: "Navegación observada"
   en: "Map reading (pilotage)"
-  origen: propuesta
+  origen: revisado
   libros: ["09"]
   nota: "británico «map reading»; FAA «pilotage»"
 - es: "NCA (Nivel de Condensación por Ascenso)"
   en: "LCL (Lifted Condensation Level)"
-  origen: propuesta
+  origen: revisado
   libros: ["03"]
   nota: "duplica la entrada LCL: en EN no se crea entrada propia"
 - es: "Niebla"
   en: "Fog"
-  origen: propuesta
+  origen: revisado
   libros: ["03"]
 - es: "Niebla de advección"
   en: "Advection fog"
-  origen: propuesta
+  origen: revisado
   libros: ["03"]
 - es: "Niebla de radiación"
   en: "Radiation fog"
-  origen: propuesta
+  origen: revisado
   libros: ["03"]
 - es: "NORDO (Sin radio / No Radio)"
   en: "NORDO (No Radio)"
@@ -1044,11 +1044,11 @@
   libros: ["04"]
 - es: "Norte magnético"
   en: "Magnetic north"
-  origen: propuesta
+  origen: revisado
   libros: ["09"]
 - es: "Norte verdadero (Geográfico)"
   en: "True (geographic) north"
-  origen: propuesta
+  origen: revisado
   libros: ["09"]
 - es: "NOTAM (Notice to Airmen)"
   en: "NOTAM (Notice to Airmen)"
@@ -1061,7 +1061,7 @@
   libros: ["03"]
 - es: "Nudo (kt)"
   en: "Knot (kt)"
-  origen: propuesta
+  origen: revisado
   libros: ["09"]
 - es: "OACI / ICAO (Organización de Aviación Civil Internacional / International Civil Aviation Organization)"
   en: "ICAO (International Civil Aviation Organization)"
@@ -1070,7 +1070,7 @@
   nota: "ortografía oficial: «Organization» con z"
 - es: "Ocaso"
   en: "Sunset"
-  origen: propuesta
+  origen: revisado
   libros: ["09"]
 - es: "Onda de montaña (wave soaring)"
   en: "Mountain wave (wave soaring)"
@@ -1078,16 +1078,16 @@
   libros: ["03"]
 - es: "Orden FOM/1687/2015"
   en: "Orden FOM/1687/2015 (Ministerial Order FOM/1687/2015)"
-  origen: propuesta
+  origen: revisado
   libros: ["01"]
   nota: "Marcas de nacionalidad y matrícula."
 - es: "Orto"
   en: "Sunrise"
-  origen: propuesta
+  origen: revisado
   libros: ["09"]
 - es: "Ortodrómica (Círculo máximo)"
   en: "Great circle (orthodrome)"
-  origen: propuesta
+  origen: revisado
   libros: ["09"]
 - es: "Outlanding (Aterrizaje fuera de campo / Toma fuera de campo)"
   en: "Outlanding (field landing)"
@@ -1095,19 +1095,19 @@
   libros: ["06"]
 - es: "PAN PAN"
   en: "PAN PAN"
-  origen: propuesta
+  origen: revisado
   libros: ["04"]
 - es: "Paracaídas de emergencia"
   en: "Emergency parachute"
-  origen: propuesta
+  origen: revisado
   libros: ["06"]
 - es: "Part-MED (Requisitos médicos aeronáuticos)"
   en: "Part-MED (Aeromedical requirements)"
-  origen: propuesta
+  origen: revisado
   libros: ["02"]
 - es: "Part-ML (Parte de mantenimiento de aeronaves ligeras)"
   en: "Part-ML (Maintenance of light aircraft)"
-  origen: propuesta
+  origen: revisado
   libros: ["01", "08"]
 - es: "Part-SAO (Operaciones de Planeadores / Sailplane Air Operations)"
   en: "Part-SAO (Sailplane Air Operations)"
@@ -1119,7 +1119,7 @@
   libros: ["01"]
 - es: "PAVE"
   en: "PAVE"
-  origen: propuesta
+  origen: revisado
   libros: ["02"]
 - es: "PCC (Comprobación de mandos positiva / Positive Control Check)"
   en: "PCC (Positive Control Check)"
@@ -1143,7 +1143,7 @@
   libros: ["05"]
 - es: "Planeador con motor"
   en: "Powered sailplane"
-  origen: propuesta
+  origen: revisado
   libros: ["01", "08"]
   nota: "Distinto del motovelero de turismo (TMG)."
 - es: "PLB (Baliza de localización personal / Personal Locator Beacon)"
@@ -1152,7 +1152,7 @@
   libros: ["08"]
 - es: "Poliuretano (PU)"
   en: "Polyurethane (PU)"
-  origen: propuesta
+  origen: revisado
   libros: ["08"]
 - es: "PPL (Licencia de Piloto Privado / Private Pilot Licence)"
   en: "PPL (Private Pilot Licence)"
@@ -1160,16 +1160,16 @@
   libros: ["01"]
 - es: "Presión parcial"
   en: "Partial pressure"
-  origen: propuesta
+  origen: revisado
   libros: ["02"]
 - es: "Programa Nacional de Seguridad para la Aviación Civil"
   en: "National Civil Aviation Security Programme"
-  origen: propuesta
+  origen: revisado
   libros: ["01"]
   nota: "Ley 21/2003, art. 3."
 - es: "Proyección Lambert (cónica conforme)"
   en: "Lambert projection (conformal conic)"
-  origen: propuesta
+  origen: revisado
   libros: ["09"]
 - es: "PTT (Pulsar para hablar / Push-to-Talk)"
   en: "PTT (Push-to-Talk)"
@@ -1177,23 +1177,23 @@
   libros: ["04"]
 - es: "Pulsioxímetro"
   en: "Pulse oximeter"
-  origen: propuesta
+  origen: revisado
   libros: ["02"]
 - es: "QDM"
   en: "QDM"
-  origen: propuesta
+  origen: revisado
   libros: ["04"]
 - es: "QFE (Reglaje altimétrico referido a un datum de aeródromo)"
   en: "QFE (Altimeter setting referred to aerodrome datum)"
-  origen: propuesta
+  origen: revisado
   libros: ["01", "04"]
 - es: "QNE (Indicación con el reglaje altimétrico estándar)"
   en: "QNE (Standard altimeter setting indication)"
-  origen: propuesta
+  origen: revisado
   libros: ["01"]
 - es: "QNH (Reglaje altimétrico reducido al nivel medio del mar)"
   en: "QNH (Altimeter setting to mean sea level)"
-  origen: propuesta
+  origen: revisado
   libros: ["01", "03", "04"]
 - es: "RCC (Centro Coordinador de Salvamento / Rescue Coordination Centre)"
   en: "RCC (Rescue Coordination Centre)"
@@ -1201,12 +1201,12 @@
   libros: ["01"]
 - es: "Real Decreto 1180/2018"
   en: "Real Decreto 1180/2018 (Royal Decree 1180/2018)"
-  origen: propuesta
+  origen: revisado
   libros: ["01", "03"]
   nota: "Desarrolla SERA en España; derogó el Real Decreto 552/2014."
 - es: "Regla del 1 en 60"
   en: "1 in 60 rule"
-  origen: propuesta
+  origen: revisado
   libros: ["09"]
 - es: "Resbale lateral (Sideslip)"
   en: "Sideslip"
@@ -1214,11 +1214,11 @@
   libros: ["06"]
 - es: "Resistencia inducida"
   en: "Induced drag"
-  origen: propuesta
+  origen: revisado
   libros: ["05"]
 - es: "Resistencia parásita"
   en: "Parasite drag"
-  origen: propuesta
+  origen: revisado
   libros: ["05"]
 - es: "Rigging (Montaje)"
   en: "Rigging"
@@ -1230,7 +1230,7 @@
   libros: ["01", "04"]
 - es: "Rotor"
   en: "Rotor"
-  origen: propuesta
+  origen: revisado
   libros: ["03"]
 - es: "RSC (Subcentro de Salvamento / Rescue Sub-Centre)"
   en: "RSC (Rescue Sub-Centre)"
@@ -1266,7 +1266,7 @@
   libros: ["02"]
 - es: "SHELL"
   en: "SHELL"
-  origen: propuesta
+  origen: revisado
   libros: ["02"]
 - es: "SIGMET (Significant Meteorological Information)"
   en: "SIGMET (Significant Meteorological Information)"
@@ -1278,26 +1278,26 @@
   libros: ["03"]
 - es: "Sistema pitot-estática"
   en: "Pitot-static system"
-  origen: propuesta
+  origen: revisado
   libros: ["08"]
 - es: "SNS (Sistema de Notificación de Sucesos)"
   en: "Occurrence reporting system"
-  origen: propuesta
+  origen: revisado
   libros: ["01"]
   nota: "en ES «SNS»; en inglés sin sigla, referir a Reg. (UE) 376/2014"
 - es: "Sobreactivación"
   en: "Over-arousal"
-  origen: propuesta
+  origen: revisado
   libros: ["02"]
   nota: "Rama derecha de la curva de Yerkes-Dodson."
 - es: "Sobrecarga de trabajo"
   en: "Work overload"
-  origen: propuesta
+  origen: revisado
   libros: ["02"]
   nota: "Sustituye a «sobrecarga cualitativa» (auditoría del libro 02, TEC-12)."
 - es: "Sondeo termodinámico (Skew-T / Stüve)"
   en: "Thermodynamic diagram (Skew-T / Stüve)"
-  origen: propuesta
+  origen: revisado
   libros: ["03"]
 - es: "SPECI (Special Aerodrome Report)"
   en: "SPECI (Special Aerodrome Report)"
@@ -1314,7 +1314,7 @@
   libros: ["01", "02"]
 - es: "Squawk"
   en: "Squawk"
-  origen: propuesta
+  origen: revisado
   libros: ["04", "09"]
 - es: "SRM (Gestión de recursos del piloto único / Single-Pilot Resource Management)"
   en: "SRM (Single-Pilot Resource Management)"
@@ -1326,7 +1326,7 @@
   libros: ["04"]
 - es: "Stau"
   en: "Stau (upslope cloud)"
-  origen: propuesta
+  origen: revisado
   libros: ["03"]
 - es: "SUP (Suplemento al AIP / AIP Supplement)"
   en: "SUP (AIP Supplement)"
@@ -1342,7 +1342,7 @@
   libros: ["08"]
 - es: "Tablilla de desvíos"
   en: "Deviation card (compass card)"
-  origen: propuesta
+  origen: revisado
   libros: ["09"]
 - es: "TAF (Terminal Aerodrome Forecast)"
   en: "TAF (Terminal Aerodrome Forecast)"
@@ -1355,7 +1355,7 @@
   libros: ["09"]
 - es: "Tendencia espiral"
   en: "Spiral instability"
-  origen: propuesta
+  origen: revisado
   libros: ["05"]
 - es: "Teoría MacCready (Anillo MacCready)"
   en: "MacCready theory (MacCready ring)"
@@ -1363,11 +1363,11 @@
   libros: ["07"]
 - es: "Térmica"
   en: "Thermal"
-  origen: propuesta
+  origen: revisado
   libros: ["03", "06"]
 - es: "Tintas hipsométricas"
   en: "Hypsometric tints (layer tints)"
-  origen: propuesta
+  origen: revisado
   libros: ["09"]
 - es: "TMA (Área de Control Terminal / Terminal Control Area)"
   en: "TMA (Terminal Control Area)"
@@ -1407,24 +1407,24 @@
   libros: ["04", "08", "09"]
 - es: "Tren retráctil"
   en: "Retractable undercarriage"
-  origen: propuesta
+  origen: revisado
   libros: ["08"]
   nota: "británico; FAA «landing gear»"
 - es: "Triangulación (Líneas de posición)"
   en: "Position fixing (lines of position)"
-  origen: propuesta
+  origen: revisado
   libros: ["09"]
 - es: "Triángulo de velocidades (Triángulo del viento)"
   en: "Triangle of velocities (wind triangle)"
-  origen: propuesta
+  origen: revisado
   libros: ["09"]
 - es: "Tropopausa"
   en: "Tropopause"
-  origen: propuesta
+  origen: revisado
   libros: ["03"]
 - es: "Troposfera"
   en: "Troposphere"
-  origen: propuesta
+  origen: revisado
   libros: ["03"]
 - es: "TSA (Área temporalmente segregada / Temporary Segregated Area)"
   en: "TSA (Temporary Segregated Area)"
@@ -1452,7 +1452,7 @@
   libros: ["09"]
 - es: "Viento relativo (*relative wind*)"
   en: "Relative airflow (relative wind)"
-  origen: propuesta
+  origen: revisado
   libros: ["05"]
   nota: "«Relative airflow» es el uso británico y de EASA; «relative wind», el del rótulo español, queda como alias."
 - es: "V~A~ (Velocidad de maniobra / Maneuvering Speed)"
@@ -1470,11 +1470,11 @@
   libros: ["03"]
 - es: "Variación magnética (Declinación)"
   en: "Magnetic variation (declination)"
-  origen: propuesta
+  origen: revisado
   libros: ["09"]
 - es: "Variómetro"
   en: "Variometer"
-  origen: propuesta
+  origen: revisado
   libros: ["08"]
 - es: "VDF (Radiogoniometría VHF / VHF Direction Finding)"
   en: "VDF (VHF Direction Finding)"
@@ -1482,7 +1482,7 @@
   libros: ["04"]
 - es: "Velocidad de mejor planeo (V~G~)"
   en: "Best glide speed (V~G~)"
-  origen: propuesta
+  origen: revisado
   libros: ["05", "07"]
 - es: "Velocidad de mínimo descenso (Minimum Sink Speed)"
   en: "Minimum sink speed"
@@ -1502,11 +1502,11 @@
   libros: ["06"]
 - es: "Viento geostrófico"
   en: "Geostrophic wind"
-  origen: propuesta
+  origen: revisado
   libros: ["03"]
 - es: "Virga"
   en: "Virga"
-  origen: propuesta
+  origen: revisado
   libros: ["03"]
 - es: "VMC (Condiciones meteorológicas visuales / Visual Meteorological Conditions)"
   en: "VMC (Visual Meteorological Conditions)"
@@ -1518,7 +1518,7 @@
   libros: ["05"]
 - es: "VOLMET"
   en: "VOLMET"
-  origen: propuesta
+  origen: revisado
   libros: ["04"]
 - es: "VOR (Radiofaro omnidireccional VHF / VHF Omnidirectional Radio Range)"
   en: "VOR (VHF Omnidirectional Radio Range)"
@@ -1546,32 +1546,32 @@
   libros: ["09"]
 - es: "WULF"
   en: "WULF"
-  origen: propuesta
+  origen: revisado
   libros: ["06"]
   nota: "mnemotecnia; confirmar si procede de fuente inglesa"
 - es: "Zona de operaciones"
   en: "Airside"
-  origen: propuesta
+  origen: revisado
   libros: ["01"]
   nota: "Reglamento (CE) 300/2008, art. 3."
 - es: "Zona peligrosa (D de Danger)"
   en: "Danger area (D)"
-  origen: propuesta
+  origen: revisado
   libros: ["01"]
 - es: "Zona prohibida (P de Prohibited)"
   en: "Prohibited area (P)"
-  origen: propuesta
+  origen: revisado
   libros: ["01"]
 - es: "Zona restringida (R de Restricted)"
   en: "Restricted area (R)"
-  origen: propuesta
+  origen: revisado
   libros: ["01"]
 - es: "Zona restringida de seguridad"
   en: "Security restricted area"
-  origen: propuesta
+  origen: revisado
   libros: ["01"]
   nota: "Reglamento (CE) 300/2008, art. 3."
 - es: "Zonas P/R/D"
   en: "P/R/D areas"
-  origen: propuesta
+  origen: revisado
   libros: ["09"]

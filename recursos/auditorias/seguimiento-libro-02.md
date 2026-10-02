@@ -135,7 +135,7 @@ inglesas, con su `origen-commit` al día. Las ocho figuras marcadas llevan en in
 *(FIX: …)*, y el libro inglés activa el filtro. Diez términos nuevos entran en
 `en/terminologia.yml` como `propuesta` (cánula, enfermedad descompresiva, fatiga aguda y crónica,
 habilitación de vuelo nocturno, ley de Henry, médico de cabecera, presión parcial, sobreactivación
-y sobrecarga de trabajo), pendientes de revisión.
+y sobrecarga de trabajo); el autor los aceptó el 2 de octubre de 2026 y pasan a `revisado`.
 
 `en/04-communications/cap01-definitions.qmd` sigue con un `origen-commit` anterior a la errata
 «dos cientos» del libro 04 (`c1369fe`), que no es de esta auditoría.
