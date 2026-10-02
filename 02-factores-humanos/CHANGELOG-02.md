@@ -129,13 +129,14 @@ rompe la compilación.
 
 ### Cambiado
 
-* **Figuras por rehacer: marca «EN REVISIÓN» y nota en el pie** — ocho figuras en las que la
+* **Figuras por rehacer: marca «EN REVISIÓN» y nota en el pie** — nueve figuras en las que la
   auditoría encontró errores llevan encima, en diagonal, la marca «EN REVISIÓN», en el PDF,
   el EPUB y la web, y su pie termina con *(CORREGIR: …)*, que dice qué está mal. Primero, la lista IMSAFE
   (cap02), que da 24 h para el alcohol en vez de 8 y cuya regla del «NO» se invierte en dos
   preguntas; el modelo DECIDE (cap03), con los pasos 4 y 5 cambiados; y el tiempo útil de conciencia
   (cap04), que rotula como obligatorio el oxígeno por encima de 3.000 m y da cifras que no coinciden
-  con la fuente. En una segunda pasada se marcan otras cuatro: la pirámide de Maslow (cap01), que rotula la seguridad operacional en el nivel de la necesidad de sentirse a salvo; el queso suizo (cap01), con las capas de HFACS y ejemplos mal colocados; la cadena del error (cap01), que llama latente a un error activo; la curva de estrés (cap02), que rotula como «agotamiento» la sobreactivación; y, en una tercera, la visión de túnel (cap03), con la escala del variómetro mal dibujada. Al sustituir cada figura se quitan la marca y la nota.
+  con la fuente. En una segunda pasada se marcan otras cuatro: la pirámide de Maslow (cap01), que rotula la seguridad operacional en el nivel de la necesidad de sentirse a salvo; el queso suizo (cap01), con las capas de HFACS y ejemplos mal colocados; la cadena del error (cap01), que llama latente a un error activo; la curva de estrés (cap02), que rotula como «agotamiento» la sobreactivación; en una tercera, la visión de túnel (cap03), con la escala del variómetro mal dibujada; y, en una cuarta, el pulsioxímetro (cap04), que muestra la marca comercial de un fabricante. Al sustituir cada figura se quitan la marca y la nota.
+* **Fichas de las figuras** — las 15 figuras del libro tienen ficha de procedencia en `prompts/`, fuera de `imagenes/` para que no se publique: qué enseña cada una, qué falla y, en las que hay que rehacer, el encargo. La figura de la cianosis pasa a llamarse `02-cap04-cianosis.jpg`, porque sólo la usa el cap04. Hallazgo COH-13 de la auditoría del libro 02.
 
 ## [1.0-rc.13] — 7 de agosto de 2026
 

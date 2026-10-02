@@ -110,7 +110,7 @@ no se toca: es el registro de lo que se encontró. Aquí se anota qué se ha hec
 | NOR-08 | 5 | aplicado | | fase 5: recuadro de normativa del cap04 |
 | NOR-09 | 5 | aplicado | | fase 5: glosario |
 | NOR-10 | 5 | aplicado | | fase 5: rótulo de la lista de normas en las nueve bibliografías y entrada en los nueve CHANGELOG |
-| COH-13 | 7 | pendiente | | fichas `.prompt.md`, nombre de la figura de cianosis y marca del pulsioxímetro |
+| COH-13 | 7 | figura | | fase 7: fichas `.prompt.md` de las 15 figuras en `02-factores-humanos/prompts/`; la de cianosis pasa a `02-cap04-cianosis.jpg`; el pulsioxímetro, marcado con `.corregir`. Falta sustituir la foto y confirmar la procedencia del escaneo |
 | PED-06 | 5 | aplicado | | fase 5: apéndice con el formato del examen (AMC1 SFCL.135) |
 | PED-07 | 5 | parcial | | fase 5: se quita el año; la fuente primaria, pregunta al autor |
 
@@ -156,7 +156,27 @@ clase y la nota, y se anota aquí.
 | cap03 | `02-cap03-decide` | TEC-03 | fase 2 | |
 | cap03 | `02-cap03-vision-tunel` | PED-04 | fase 5 | |
 | cap04 | `02-cap04-hipoxia-tiempo-conciencia` | COH-02 | fase 2 | |
-| cap04 | `02-cap04-pulsioximetro` | COH-13 (marca comercial) | | |
+| cap04 | `02-cap04-pulsioximetro` | COH-13 (marca comercial) | fase 7 | |
+
+## Fichas de las figuras
+
+Fase 7. Cada figura del libro tiene su ficha en `02-factores-humanos/prompts/`, con el formato de
+`GUIA_ILUSTRACIONES.md` (`schema: 1`). Las nueve marcadas están en `borrador` y llevan qué falla y
+el encargo para rehacerlas; la del tiempo útil de conciencia, que es un gráfico cuantitativo, lleva
+la tabla de la FAA para dibujarla por código. Las otras seis están en `revision-tecnica`, con
+observaciones menores que no son hallazgos de la auditoría:
+
+| Figura | Observación |
+| --- | --- |
+| `02-cap01-modelo-shell` | S, H y E sin glosa española; relieve 3D |
+| `02-cap02-escaneo-visual` | procedencia sin confirmar (COH-13); el título promete actitud e instrumentos que no dibuja; «º» por «°» |
+| `02-cap02-ilusiones-opticas` | el nombre dice «ópticas» y es vestibular; coherencia del indicador de actitud |
+| `02-cap02-cinetosis-fijacion` | rótulos ilegibles en el panel |
+| `02-cap03-memoria-tipos` | «milisegundos» frente al texto; «amarrarse» por «atarse» |
+| `02-cap04-cianosis` | aspecto fotográfico; «extremidades» en el pie y labios en la imagen |
+
+Ninguna ficha tiene herramienta, fecha ni revisor: la procedencia de las figuras no estaba
+documentada. Se rellenan al rehacer cada una.
 
 ## Preguntas abiertas
 
@@ -168,6 +188,7 @@ clase y la nota, y se anota aquí.
 | Tasa realista de pérdida hídrica en cabina; los 20 minutos | médico aeronáutico | TEC-11 | |
 | Signos del CO; ejemplos de hipoxia histotóxica | médico aeronáutico | TEC-23, TEC-24 | |
 | Umbral nocturno único para la colección (5.000 o 6.000 ft) | médico aeronáutico | COH-12 (y COH-09 del libro 01) | |
+| Pie de la figura de la cianosis: ¿«extremidades» o «labios y uñas»? | médico aeronáutico | COH-13 | |
 | Mandos del EDS y del flujo continuo ante sospecha de hipoxia; altitud a partir de la que se exige mascarilla | FI(S) con experiencia de onda | TEC-05, TEC-16, TEC-25 | |
 | Secuencia de vigilancia antes de virar que enseña la DTO | FI(S) | TEC-02 | |
 | ¿Tiene sentido el agujero negro para una SPL? | FI(S) | TEC-22 | |
@@ -179,5 +200,6 @@ clase y la nota, y se anota aquí.
 | Fuente del «formulario de AESA» sobre alcoholemia en rampa | autor | NOR-01 | |
 | Fuente de «hay controles al aterrizar» | autor | NOR-06 | |
 | Fuente primaria de la cita de Borman | autor | PED-07 | |
-| ¿El bloque de fuentes de factores humanos va en las nueve bibliografías o sólo en la del 02? | autor | NOR-07 | |
+| ¿El bloque de fuentes de factores humanos va en las nueve bibliografías o sólo en la del 02? | autor | NOR-07 | Sólo en la del 02 (2 oct 2026) |
+| Origen y licencia de la figura del escaneo visual | autor | COH-13 | |
 | Oxígeno medicinal frente al aeronáutico en España; especificación aplicable | proveedor de gases o AESA | TEC-27 | |

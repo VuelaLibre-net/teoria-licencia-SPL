@@ -45,7 +45,7 @@ Uno de los primeros síntomas, y el más peligroso, suele ser la **euforia**: el
 La euforia es el síntoma más traicionero de la hipoxia: el piloto no sospecha que está en peligro. Si percibe visión borrosa, hormigueo en las extremidades, euforia injustificada o dolor de cabeza tras un ascenso rápido a gran altitud, asuma hipoxia. Aumente al máximo el aporte de oxígeno de su equipo e inicie el descenso de inmediato.
 :::
 
-![Cianosis: coloración azulada en extremidades por falta de oxígeno](imagenes/02-cap02-sintomas-hipoxia.jpg){#fig-02-cap04-cianosis}
+![Cianosis: coloración azulada en extremidades por falta de oxígeno](imagenes/02-cap04-cianosis.jpg){#fig-02-cap04-cianosis}
 
 ### Tiempo útil de conciencia (*Time of Useful Consciousness*, TUC)
 
@@ -158,7 +158,7 @@ Antes de cada vuelo en altitud, compruebe visualmente la botella, las conexiones
 
 El pulsioxímetro es un dispositivo no invasivo que mide la saturación de oxígeno en sangre (SpO~2~) y la frecuencia cardíaca en tiempo real (@fig-02-cap04-pulsioximetro). Es una ayuda muy útil para detectar la hipoxia antes de que los síntomas sean evidentes para el propio piloto, pero no un sustituto de la atención a los síntomas. Tiene límites importantes: con **monóxido de carbono** marca valores normales aunque haya hipoxia, porque confunde la hemoglobina ocupada por el CO con la saturada de oxígeno; y con los dedos fríos, el movimiento o el sol directo da lecturas bajas o inestables. Ante síntomas, actúe aunque la lectura sea buena.
 
-![Pulsioxímetro de dedo mostrando lectura de saturación de oxígeno y frecuencia cardíaca](imagenes/02-cap04-pulsioximetro.jpg){#fig-02-cap04-pulsioximetro}
+![Pulsioxímetro de dedo mostrando lectura de saturación de oxígeno y frecuencia cardíaca. *(CORREGIR: la imagen muestra la marca comercial de un fabricante; hay que sustituirla por un pulsioxímetro genérico.)*](imagenes/02-cap04-pulsioximetro.jpg){#fig-02-cap04-pulsioximetro .corregir}
 
 Coloque el pulsioxímetro en el dedo índice antes del despegue y mantenga la lectura visible durante el vuelo. Para vuelos de onda, fíjelo con velcro en la cabina o utilice un guante adaptado que permita leerlo sin quitarse el equipo de frío.
 
