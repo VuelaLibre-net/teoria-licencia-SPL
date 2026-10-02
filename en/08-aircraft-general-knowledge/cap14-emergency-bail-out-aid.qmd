@@ -1,6 +1,6 @@
 ---
 origen: 08-aeronave-sistemas/cap14-equipo-de-evacuacion-de-emergencia.qmd
-origen-commit: 8390229
+origen-commit: bd1a990
 ---
 
 # Emergency bail-out aid
@@ -33,7 +33,7 @@ Make sure your beacon transmits on 406 MHz. The old 121.5 MHz signals are no lon
 
 ## Oxygen systems and hypoxia
 
-As you climb, atmospheric pressure falls and fewer oxygen molecules reach your lungs. That causes **hypoxia**, with treacherous symptoms: euphoria, lack of concentration, tunnel vision. The full physiology of hypoxia, the time of useful consciousness and the “100 % oxygen and descend” rule are covered in **Book 2 — Human Performance, chapter 4**. Here we concentrate on the equipment and the rules.
+As you climb, atmospheric pressure falls and fewer oxygen molecules reach your lungs. That causes **hypoxia**, with treacherous symptoms: euphoria, lack of concentration, tunnel vision. The full physiology of hypoxia, the time of useful consciousness and the “oxygen and descend” rule are covered in **Book 2 — Human Performance, chapter 4**. Here we concentrate on the equipment and the rules.
 
 ::: {.callout-important title="Regulation"}
 **SAO.OP.150 (use of supplemental oxygen)**: “The pilot-in-command shall ensure that all persons on board use supplemental oxygen whenever he or she determines that, at the altitude of the intended flight, lack of oxygen might result in impairment of their faculties or harmfully affect them.”
@@ -45,7 +45,7 @@ As good physiological practice, and not as a regulatory requirement, many pilots
 
 ## Oxygen equipment
 
-1. **Continuous flow**: oxygen flows constantly from a cylinder through a cannula or a mask. It is simple but inefficient: it uses a lot of gas.
+1. **Continuous flow**: oxygen flows constantly from a cylinder through a cannula or a mask. It is simple but inefficient: it uses a lot of gas. A cannula is only good up to about 18,000 ft (FL180); above that you need a mask (Book 2, chapter 4).
 2. **EDS (Electronic Delivery System)**: devices that detect when you breathe in and release a pulse of oxygen just when you need it. They make the cylinder last three or four times longer.
 
 ![Electronic pulse-demand oxygen system (EDS)](imagenes/08-cap14-sistema-de-demanda-de-pulso-electronico.png){#fig-08-cap14-sistema-de-demanda-de-pulso-electronico width="45%"}

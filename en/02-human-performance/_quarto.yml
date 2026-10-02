@@ -29,6 +29,12 @@ book:
     - colophon.qmd
     - back-cover.qmd
 
+# Marca de agua «EN REVISIÓN» sobre las figuras con la clase .corregir, en
+# todas las salidas (PDF, EPUB y web). Ver el propio filtro.
+filters:
+  - path: _extensions/orange-book-es/figura-corregir.lua
+    at: post-quarto
+
 format:
   orange-book-es-typst:
     toc: true

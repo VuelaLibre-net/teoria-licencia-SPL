@@ -1,6 +1,6 @@
 ---
 origen: 02-factores-humanos/glosario.qmd
-origen-commit: 2375434
+origen-commit: 0b42784
 ---
 
 # Glossary of terms
@@ -32,7 +32,7 @@ This glossary contains the most relevant definitions and acronyms of human facto
 : A standard model for aeronautical decision-making in six steps: **D**etect (detect the change), **E**stimate (estimate whether it calls for a reaction), **C**hoose (choose the desired outcome), **I**dentify (identify the possible actions), **D**o (carry out the chosen one) and **E**valuate (evaluate its effect).
 
 **Dysbarism (barotrauma)**
-: Physical disorders or nerve pain caused by the expansion and contraction of small volumes of gas trapped in the body (sinuses, middle ear, intestines) as atmospheric pressure changes, in line with Boyle's law.
+: Disorders caused by changes in atmospheric pressure. They include barotrauma, from the expansion and contraction of gas trapped in the body (sinuses, middle ear, intestines) in line with Boyle's law, and decompression sickness, from gas dissolved in the blood that forms bubbles as the pressure falls, more likely after diving.
 
 **EASA (European Union Aviation Safety Agency)**
 : European Union agency that develops and oversees the common civil aviation safety framework within its remit.
@@ -56,10 +56,10 @@ This glossary contains the most relevant definitions and acronyms of human facto
 : Specialised agency of the United Nations that sets standards and recommended practices for international civil aviation.
 
 **IMSAFE**
-: Mnemonic for the physical and mental self-assessment recommended before every flight: Illness, Medication, Stress, Alcohol, Fatigue and Eating.
+: Mnemonic for the physical and mental self-assessment recommended before every flight: Illness, Medication, Stress, Alcohol, Fatigue and Eating. In the FAA version, the E is Emotion (emotional state).
 
 **Just culture**
-: An organisational approach that accepts that unintentional human error is inevitable and treats it as a chance for everyone to learn, without reprisals, rejecting both cover-ups and irrational punishment.
+: An organisational approach that accepts that unintentional human error is inevitable and treats it as a chance for everyone to learn, without reprisals, rejecting both cover-ups and irrational punishment. It does not cover gross negligence, wilful violations or destructive acts (Regulation (EU) No 376/2014, Art. 2(12)).
 
 **Motion sickness**
 : Sickness caused by movement (**motion sickness**), triggered in flight by a conflict between what the visual system perceives (a cockpit that is not moving) and what the vestibular system of the inner ear registers (the aircraft's accelerations and turns).
@@ -71,13 +71,13 @@ This glossary contains the most relevant definitions and acronyms of human facto
 : A simple, basic framework for systematically assessing and mitigating the risks of any flight in advance, divided into: Pilot, Aircraft (**Aircraft**), enVironment (**enVironment**) and External pressures.
 
 **Pulse oximeter**
-: Finger device recommended for high-altitude flights that shows the oxygen saturation of the blood (SpO₂). It lets the pilot detect hypoxia objectively before the first symptoms appear.
+: Finger device recommended for high-altitude flights that shows the oxygen saturation of the blood (SpO₂). It helps to detect hypoxia before the first symptoms appear, but it does not replace watching for symptoms: carbon monoxide, cold and movement distort its reading.
 
 **SAO (Sailplane Air Operations)**
-: EASA's operational rules for sailplanes, in Annex II to Regulation (EU) 2018/1976. Its rules rely on judgement rather than thresholds: **SAO.OP.150** requires the pilot-in-command to ensure that all occupants use supplemental oxygen when they determine that, at the intended altitude, a lack of it may impair their faculties. The Regulation sets no figure; the **10,000 ft** comes from **AMC1 SAO.OP.150**, and only as the default rule when the pilot cannot make that assessment.
+: EASA's operational rules for sailplanes, in Annex II to Commission Implementing Regulation (EU) 2018/1976. Its rules rely on judgement rather than thresholds: **SAO.OP.150** requires the pilot-in-command to ensure that all occupants use supplemental oxygen when they determine that, at the intended altitude, a lack of it may impair their faculties. The Regulation sets no figure; the **10,000 ft** comes from **AMC1 SAO.OP.150**, and only as the default rule when the pilot cannot make that assessment.
 
 **SFCL (Sailplane Flight Crew Licensing)**
-: European (EASA) regulatory framework governing licences, the syllabus and flight training for sailplane pilots (SPL).
+: Annex III to Commission Implementing Regulation (EU) 2018/1976, governing licences, privileges, instructors and examiners for sailplanes (SPL). The syllabus is in its acceptable means of compliance AMC1 SFCL.130.
 
 **SHELL**
 : Conceptual model proposed by Edwards in 1972 as SHEL and completed by Hawkins in 1975, which ICAO adopted and spread. It brings together all the elements that surround the operator: **Software** (procedures and rules), **Hardware** (the aircraft), **Environment** (the physical surroundings), the central **Liveware** and the other **Liveware** (the pilot in relation to other people).
@@ -107,4 +107,4 @@ This glossary contains the most relevant definitions and acronyms of human facto
 : Rules applicable to flights conducted with visual references and within the corresponding weather and operational minima; the separation provided by ATC depends on the airspace class and the traffic involved.
 
 **WADA (World Anti-Doping Agency)**
-: International organisation that regulates and thoroughly monitors the use of substances and doping by competition athletes; gliding championships are also subject to its standard.
+: International organisation that sets the World Anti-Doping Code and the list of prohibited substances. Testing at gliding competitions is carried out by the FAI or by the national anti-doping organisation (in Spain, CELAD), in line with that code.

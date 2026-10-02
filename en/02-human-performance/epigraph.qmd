@@ -1,6 +1,6 @@
 ---
 origen: 02-factores-humanos/epigrafe.qmd
-origen-commit: c5e8824
+origen-commit: 0b42784
 ---
 
 # Epigraph {.unnumbered .unlisted .oculto}
@@ -8,5 +8,5 @@ origen-commit: c5e8824
 ::: {.epigrafe}
 “A superior pilot uses his superior judgment to avoid situations which require the use of his superior skill.”
 
- — Frank Borman (1968), commander of the Apollo 8 mission and USAF fighter pilot.
+ — Frank Borman, commander of the Apollo 8 mission and USAF fighter pilot.
 :::

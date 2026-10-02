@@ -11,24 +11,30 @@ tarjetas:
     tipo: basica
     anverso: What does **Dalton's law** explain about hypoxia?
     reverso: |
-      **That atmospheric pressure falls with altitude, and so does the partial
-      pressure of oxygen**, so oxygen passes into the blood less easily.
+      **That the partial pressure of each gas is its share of the total
+      pressure:** oxygen is always 21 %, so as atmospheric pressure falls with
+      altitude, its partial pressure falls too and oxygen passes into the blood
+      less easily.
 
   - id: ley-de-boyle
     tipo: basica
     anverso: What does **Boyle's law** explain in flight?
     reverso: |
-      **That body gases expand as you climb.**
+      **That body gases expand as you climb and contract as you descend.**
 
-      Hence barotrauma of the ears and sinuses if you fly with a blocked nose.
+      Hence barotrauma of the ears and sinuses if you fly with a blocked nose,
+      especially in the descent.
     etiquetas: [Airmanship]
 
   - id: mecanismo-de-la-hipoxia
     tipo: basica
     anverso: What happens in the body when **hypoxia** sets in?
     reverso: |
-      **The pressure is too low to load the haemoglobin in the alveoli, and the
-      red blood cells reach the brain empty.**
+      **The lower partial pressure of oxygen loads less onto the haemoglobin,
+      and the brain gets less oxygen than it needs.**
+
+      It is gradual: saturation is about 89 % at 10,000 ft and 65 % at
+      20,000 ft.
 
   - id: cuatro-clases-de-hipoxia
     tipo: cloze
@@ -36,15 +42,16 @@ tarjetas:
       Types of hypoxia: {{c1::hypoxic}} (low atmospheric pressure, the most
       frequent in gliders), {{c2::hypaemic}} (carbon monoxide, smoking),
       {{c3::stagnant}} (G-forces in tight turns) and {{c4::histotoxic}}
-      (alcohol, drugs or medicines).
+      (alcohol, narcotics or poisons).
 
   - id: primer-sintoma-hipoxia
     tipo: basica
-    anverso: What is the **first symptom** of hypoxia, and why is it the most treacherous?
+    anverso: Which early symptom of hypoxia is the most treacherous, and why?
     reverso: |
       **Euphoria: the pilot does not see the danger on their own.**
 
-      Then come drowsiness, difficulty with calculations, cyanosis and loss of
+      The order of symptoms varies from person to person. Then come
+      drowsiness, difficulty with calculations, cyanosis and loss of
       consciousness.
     etiquetas: [Safety]
 
@@ -54,6 +61,7 @@ tarjetas:
     reverso: |
       **3 to 5 minutes at 25,000 ft; 1 to 2 minutes at 30,000 ft.**
 
+      These are FAA averages: they vary a great deal from person to person.
       A long descent can take longer than the TUC available: act before you
       need to.
 
@@ -61,51 +69,58 @@ tarjetas:
     tipo: basica
     anverso: What is the rule for an oxygen failure or suspected hypoxia?
     reverso: |
-      **“100 % oxygen and descend”**, below 10,000 ft and without hesitation.
+      **“Oxygen and descend”**: your equipment at maximum supply and down below
+      10,000 ft, without hesitation.
 
       At a certain altitude, the TUC leaves no time to think.
     etiquetas: [Golden rule]
 
   - id: distinguir-hipoxia-de-hiperventilacion
     tipo: basica
-    anverso: How do you tell **hypoxia** from **hyperventilation**?
+    anverso: What do you do about symptoms that could be **hypoxia** or **hyperventilation**?
     reverso: |
-      By **altitude** and **emotional state**:
+      **Do not diagnose in flight: act in order.**
 
-      * Above 10,000 ft with euphoria or sluggishness → **hypoxia**: 100 %
-        oxygen and descend.
-      * Below 10,000 ft with tingling, sweating and anxiety →
-        **hyperventilation**: slow your breathing down.
+      1. Hypoxia first: oxygen at maximum supply, check the equipment and, if
+         you are high, descend.
+      2. If it does not improve, treat hyperventilation: slow your breathing.
 
-      **If in doubt at high altitude, treat for hypoxia.**
+      The symptoms are alike, and hypoxia also occurs below 10,000 ft (CO,
+      night, smoking).
     etiquetas: [Golden rule]
 
   - id: no-dar-oxigeno-en-hiperventilacion
     tipo: basica
-    anverso: Do you give supplemental oxygen for **hyperventilation**?
+    anverso: If you suspect **hyperventilation** but cannot rule out hypoxia, do you use oxygen?
     reverso: |
-      **Not if you are at low altitude: it would worsen the CO₂ imbalance.**
+      **Yes: if in doubt, treat hypoxia first.** Turn the oxygen on or up, check
+      the equipment and then control your breathing rate.
 
-      If you cannot confirm that you are below 10,000 ft, treat for hypoxia
-      first.
+      Oxygen does not make hyperventilation worse, and the two can occur
+      together.
+
+      *Source: ICAO, Doc 8984; FAA, AIM 8-1-3.*
     etiquetas: [Safety]
 
   - id: hiperventilacion-causa
     tipo: basica
     anverso: What causes **hyperventilation**, and what are its symptoms?
     reverso: |
-      **Stress or anxiety, not a lack of oxygen.**
+      **Mainly stress or anxiety**, although it can also come with hypoxia.
 
       Breathing out too much CO₂ constricts the blood vessels in the brain:
       tingling, cramps and dizziness, very similar to hypoxia.
 
   - id: sao-op-150-oxigeno
     tipo: basica
-    anverso: When is **supplemental oxygen** mandatory?
+    anverso: What does **SAO.OP.150** require about oxygen, and what default rule does its AMC1 give?
     reverso: |
-      **When the pilot-in-command determines that a lack of it may impair the
-      occupants' faculties**; and if they cannot determine this, **always above
-      10,000 ft** pressure altitude.
+      **The regulation: use it when the pilot-in-command determines that a lack
+      of it may impair the occupants' faculties.** It sets no figure.
+
+      AMC1, an acceptable means of compliance, says that if they cannot
+      determine this, oxygen **should** be used above **10,000 ft** pressure
+      altitude.
 
       *Source: Part-SAO, SAO.OP.150, and its AMC1.*
     etiquetas: [Regulation]
@@ -125,17 +140,16 @@ tarjetas:
     anverso: Compare the **continuous-flow** system with the **pulse-demand (EDS)** system.
     reverso: |
       **Continuous flow**: simple, but uses more oxygen and dries the nasal
-      passages. **EDS**: makes the cylinder last much longer, but depends on
+      passages. With a cannula, only up to about 18,000 ft; above that, a
+      mask. **EDS**: makes the cylinder last much longer, but depends on
       batteries that can fail in the cold.
 
   - id: oxigeno-de-aviacion
     tipo: basica
     anverso: Why **aviation oxygen** and not medical oxygen?
     reverso: |
-      **Because medical oxygen contains more moisture, which can freeze in the
-      regulator at altitude and block the flow.**
-
-      Use only oxygen labelled “for aviation use”: dry, more than 98.5 % pure.
+      **Because neither medical nor industrial oxygen meets the specifications
+      of aviation oxygen: their suitability for flight is not guaranteed.**
     etiquetas: [Safety]
 
   - id: grasas-y-oxigeno
@@ -151,8 +165,12 @@ tarjetas:
 
   - id: presion-de-la-botella
     tipo: basica
-    anverso: What pressure should the oxygen cylinder show before the flight?
-    reverso: "**Between 150 and 200 bar.**"
+    anverso: What do you check on the oxygen cylinder gauge before the flight?
+    reverso: |
+      **That the pressure is enough for the planned flight with a reserve**,
+      given the cylinder's capacity and the manufacturer's endurance table.
+
+      The filling pressure depends on the cylinder, and it drops in the cold.
 
   - id: pulsioximetro-umbral
     tipo: basica
@@ -160,9 +178,10 @@ tarjetas:
     reverso: |
       **Above 90 %.** Below that, turn on the oxygen and descend immediately.
 
-      The pulse oximeter detects hypoxia before the symptoms become obvious.
-      Record your own readings at different altitudes: not everyone responds in
-      the same way.
+      The pulse oximeter helps to detect hypoxia before the symptoms become
+      obvious, but it is not a substitute: with carbon monoxide it reads
+      normal, and cold or movement distort it. If you have symptoms, act even
+      if the reading looks good.
     etiquetas: [Airmanship]
 
   - id: checklist-de-hipoxia

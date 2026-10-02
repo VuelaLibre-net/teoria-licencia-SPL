@@ -1,6 +1,6 @@
 ---
 origen: 02-factores-humanos/apendice-syllabus-oficial-easa---factores-humanos.qmd
-origen-commit: e0f5386
+origen-commit: 0b42784
 ---
 
 # Official EASA syllabus - human performance
@@ -12,7 +12,7 @@ The following syllabus corresponds to the subject **Human Performance** for the 
 * 2.3. Basic aviation psychology.
 * 2.4. Use of oxygen.
 
-This manual has been structured to follow this official syllabus faithfully, so that you cover every point needed for the theoretical examination.
+This manual follows the headings of this official syllabus. In the theoretical examination, this subject has 10 multiple-choice questions and 20 minutes (AMC1 SFCL.135).
 
 ## Test yourself
 

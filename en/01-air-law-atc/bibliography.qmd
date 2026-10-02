@@ -1,6 +1,6 @@
 ---
 origen: 01-derecho-aereo-atc/bibliografia.qmd
-origen-commit: 6df5942
+origen-commit: 0b42784
 ---
 
 # Bibliography and sources
@@ -22,7 +22,7 @@ Theory notes by **Iñaqui Ulibarri García de la Cueva** for the Fuentemilanos D
 * **Ley 21/2003, de 7 de julio, de Seguridad Aérea** (Spanish Aviation Safety Act 21/2003 of 7 July). Head of State (Spain). Published in the BOE no. 162 of 8 July 2003. National legal framework that complements European regulations: powers, inspection, infringements and penalties (consolidated version).
   [https://www.boe.es/eli/es/l/2003/07/07/21/con](https://www.boe.es/eli/es/l/2003/07/07/21/con)
 
-Other regulations cited in the collection (consolidated versions):
+Other regulations cited in the collection (the link goes to the original act; from there, EUR-Lex and the BOE give access to the current consolidated version):
 
 * **Regulation (EU) 2018/1139**, common rules in the field of civil aviation and establishing EASA. [CELEX 32018R1139](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32018R1139)
 * **Commission Regulation (EU) No 1178/2011**, aircrew; its Annex IV is **Part-MED** (medical certificates). [CELEX 32011R1178](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011R1178)

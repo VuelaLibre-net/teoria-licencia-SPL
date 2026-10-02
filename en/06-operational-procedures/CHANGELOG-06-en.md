@@ -13,16 +13,22 @@ file it was translated from (`origen-commit`). Terminology follows `en/terminolo
 
 ## [In progress]
 
-**What to reread:** the glossary entry *Release failure (towhook jam)*, the winch calls in cap02, the licence and the bibliography. The rest is wording only.
+**What to reread:** the glossary entry *Release failure (towhook jam)*, the winch calls in cap02, **cap01** (IMSAFE), **cap03** (oxygen in wave flying), the licence and the bibliography. The rest is wording only.
 
 ### Fixed
 
+* **cap01, IMSAFE, and cap03, oxygen in wave flying** — ported from the Spanish edition (audit of
+  book 02): a cold stops the middle ear equalising especially in the descent; alcohol, 8 hours
+  under EASA's AMC (12 to 24 hours is the FAA's recommendation); and oxygen in wave flying under
+  SAO.OP.150 and its AMC1, not “from 3,000–4,000 metres”.
 * **cap01** — the cross-reference to interception in Book 4 is chapter 6 (only the source is
   updated: the English already said so).
 * **Bibliography and licence** — ported from the Spanish edition: SERA applies directly in Spain;
   new entries for Royal Decree 1180/2018 (which repealed Royal Decree 552/2014) and for the other
   regulations cited in the collection, with links to their consolidated versions; Annexes 17 and 18
   among the most relevant; and the syllabus is attributed to Part-SFCL, not “EASA-FCL”.
+  The list of other regulations is no longer described as “consolidated versions”: the links go
+  to the original act, from which EUR-Lex and the BOE give access to the consolidated one.
 * **Glossary, Release failure (towhook jam)** — the signal to the tug was described from “a raised
   position to the side”, the opposite of cap07. It now says what the chapter says: low and to the
   left of the tug, rocking the wings, and never above it, because climbing above the tug lifts its

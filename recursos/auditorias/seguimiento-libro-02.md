@@ -128,10 +128,17 @@ Las correcciones de `examenes/` van en su rama local `auditoria-02`, que sale de
 
 ## Edición inglesa
 
-Fase 6 pendiente. `en/02-human-performance/` está al día con el español a 1 de octubre de 2026
-(ningún `origen-commit` desfasado), así que la fase 6 porta exactamente lo que cambien las fases 2 a
-5. Ya están bien en inglés: DECIDE, PAVE, «planned» de Reason, el hipocampo y «Electronic Delivery
-System».
+Fase 6 completada el 2 de octubre de 2026: todas las correcciones de las fases 2 a 5 están portadas
+a `en/02-human-performance/` (capítulos, glosario, bibliografía, apéndice, introducción, epígrafe y
+mazos), a los capítulos ingleses del 06 (cap01 y cap03) y del 08 (cap14) y a las ocho bibliografías
+inglesas, con su `origen-commit` al día. Las ocho figuras marcadas llevan en inglés «IN REVIEW» y
+*(FIX: …)*, y el libro inglés activa el filtro. Diez términos nuevos entran en
+`en/terminologia.yml` como `propuesta` (cánula, enfermedad descompresiva, fatiga aguda y crónica,
+habilitación de vuelo nocturno, ley de Henry, médico de cabecera, presión parcial, sobreactivación
+y sobrecarga de trabajo), pendientes de revisión.
+
+`en/04-communications/cap01-definitions.qmd` sigue con un `origen-commit` anterior a la errata
+«dos cientos» del libro 04 (`c1369fe`), que no es de esta auditoría.
 
 ## Figuras marcadas para corregir
 

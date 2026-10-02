@@ -34,6 +34,8 @@ had been withdrawn (semicircular rule, reporting flow and scale of infringements
   new entries for Royal Decree 1180/2018 (which repealed Royal Decree 552/2014) and for the other
   regulations cited in the collection, with links to their consolidated versions; Annexes 17 and 18
   among the most relevant; and the syllabus is attributed to Part-SFCL, not “EASA-FCL”.
+  The list of other regulations is no longer described as “consolidated versions”: the links go
+  to the original act, from which EUR-Lex and the BOE give access to the consolidated one.
 
 ### Changed
 
