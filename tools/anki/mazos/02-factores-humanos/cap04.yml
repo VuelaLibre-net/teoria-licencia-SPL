@@ -118,7 +118,7 @@ tarjetas:
 
   - id: sao-op-150-oxigeno
     tipo: basica
-    anverso: ¿Qué exige **SAO.OP.150** sobre el oxígeno, y qué regla por defecto da su AMC1?
+    anverso: ¿Qué exige el reglamento europeo de operaciones con planeadores sobre el oxígeno, y qué regla por defecto da su medio aceptable de cumplimiento?
     reverso: |
       **El reglamento: usarlo cuando el piloto al mando determine que su falta
       puede disminuir las facultades de los ocupantes.** No fija ninguna cifra.

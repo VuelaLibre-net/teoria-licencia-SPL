@@ -45,7 +45,8 @@ was translated from (`origen-commit`). Terminology follows `en/terminologia.yml`
     year for the Borman quote).
   * Bibliography: a human performance and aviation medicine section of its own.
 
-  Anki cards updated to match, with no `id` changed.
+  Anki cards updated to match, with no `id` changed; the front of `sao-op-150-oxigeno` asks what
+  the rule says, not its number.
 * **cap04, AMC1 SAO.OP.150** — the 10,000 ft threshold is an acceptable means of compliance
   (“should”), not binding like the regulation. Ported from the Spanish edition.
 * **Bibliography and licence** — ported from the Spanish edition: SERA applies directly in Spain;

@@ -113,7 +113,7 @@ tarjetas:
 
   - id: sao-op-150-oxigeno
     tipo: basica
-    anverso: What does **SAO.OP.150** require about oxygen, and what default rule does its AMC1 give?
+    anverso: What do the EU sailplane operating rules require about oxygen, and what default rule does their acceptable means of compliance give?
     reverso: |
       **The regulation: use it when the pilot-in-command determines that a lack
       of it may impair the occupants' faculties.** It sets no figure.
