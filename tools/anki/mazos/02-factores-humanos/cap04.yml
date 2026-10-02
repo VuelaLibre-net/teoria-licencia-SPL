@@ -45,7 +45,7 @@ tarjetas:
       Clases de hipoxia: {{c1::hipóxica}} (baja presión atmosférica, la más
       frecuente en planeador), {{c2::hipémica}} (monóxido de carbono,
       tabaquismo), {{c3::estancada}} (fuerzas G en virajes cerrados) e
-      {{c4::histotóxica}} (alcohol, drogas o medicamentos).
+      {{c4::histotóxica}} (alcohol, narcóticos o tóxicos).
 
   - id: primer-sintoma-hipoxia
     tipo: basica
@@ -154,11 +154,9 @@ tarjetas:
     tipo: basica
     anverso: ¿Por qué **oxígeno de aviación** y no medicinal?
     reverso: |
-      **Porque el medicinal lleva más humedad, que puede congelarse en el
-      regulador en altitud y bloquear el flujo.**
-
-      Usa sólo el etiquetado «para uso aeronáutico»: seco, pureza superior al
-      98,5 %.
+      **Porque ni el medicinal ni el industrial cumplen las especificaciones
+      del oxígeno de aviación: su idoneidad para el vuelo no está
+      garantizada.**
     etiquetas: [Seguridad]
 
   - id: grasas-y-oxigeno

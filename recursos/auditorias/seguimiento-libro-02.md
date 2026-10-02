@@ -92,27 +92,27 @@ no se toca: es el registro de lo que se encontró. Aquí se anota qué se ha hec
 
 | ID | Fase | Estado | Commit | Nota |
 | --- | --- | --- | --- | --- |
-| TEC-20 | 5 | pendiente | | Reason «planificada»; SHELL, pregunta al especialista |
-| PED-01 | 5 | pendiente | | erratas y siglas duplicadas |
-| PED-02 | 5 | pendiente | | PAVE, Anki y examen-50 P35 |
-| PED-03 | 5 | pendiente | | 3P junto a PAVE |
-| TEC-21 | 5 | pendiente | | memoria sensorial e hipocampo |
-| PED-04 | 5 | pendiente | | figura de visión de túnel con `.corregir`; pregunta al especialista |
-| COH-11 | 5 / 4 | pendiente | | IMSAFE «Emotion»; libro 06 en la fase 4; fase 4: el libro 06 ya da «Emotion / Eating», sin cambio; el 02, en la fase 5 |
-| COH-12 | 5 / 4 | pendiente | | umbral nocturno único; libro 01 en la fase 4, tras el médico aeronáutico (COH-09 del libro 01) |
-| TEC-22 | 5 | pendiente | | agujero negro |
-| PED-05 | 5 | pendiente | | figura de ilusiones: mover, citar y nuevo pie |
-| TEC-23 | 5 | experto | | signos del CO; médico aeronáutico |
-| TEC-24 | 5 | experto | | hipoxia histotóxica; médico aeronáutico |
-| TEC-25 | 5 | pendiente | | caudal según la altitud |
-| TEC-26 | 5 | pendiente | | EDS: nombre, pilas y cableado |
-| TEC-27 | 5 | pendiente | | oxígeno medicinal; retirar «98,5 %» de Anki |
-| NOR-08 | 5 | pendiente | | SAO.IDE.115 y CS 22.1441/1449 |
-| NOR-09 | 5 | pendiente | | glosario: Reglamento de Ejecución; Part-SAO y Part-SFCL como en el 01 |
-| NOR-10 | 5 | pendiente | | enlaces consolidados en las bibliografías |
+| TEC-20 | 5 | parcial | | fase 5: Reason con «planificada»; SHELL sin atribuir a Hawkins la segunda L; pregunta al especialista |
+| PED-01 | 5 | aplicado | | fase 5: erratas, siglas, resumen del cap01 y trato de usted |
+| PED-02 | 5 | aplicado | | fase 5: cap03, post-it, Anki `pave`, lección 03 y examen-50 P35 |
+| PED-03 | 5 | aplicado | | fase 5: el 3P pasa junto a PAVE |
+| TEC-21 | 5 | aplicado | | fase 5: cap03 |
+| PED-04 | 5 | figura | | fase 5: figura marcada con `.corregir` (escala); el rótulo, pregunta al especialista |
+| COH-11 | 5 / 4 | aplicado | | fase 5: cap02 y glosario dicen que la E de la FAA es Emotion; el libro 06 ya la recogía |
+| COH-12 | 5 / 4 | parcial | | fase 5: cap02 a 5.000 ft y cap04 con la cita del AIM; el libro 01 y el umbral único, pregunta al médico aeronáutico |
+| TEC-22 | 5 | aplicado | | fase 5: cap02 |
+| PED-05 | 5 | aplicado | | fase 5: figura movida, citada y con pie nuevo |
+| TEC-23 | 5 | parcial | | fase 5: síntomas de la FAA en el texto y en Anki; pregunta al médico aeronáutico |
+| TEC-24 | 5 | parcial | | fase 5: según el PHAK y el AIM, en el texto, el post-it, Anki y el banco; pregunta al médico aeronáutico |
+| TEC-25 | 5 | aplicado | | fase 5: cap04 |
+| TEC-26 | 5 | aplicado | | fase 5: cap04 |
+| TEC-27 | 5 | parcial | | fase 5: cap04, post-it, Anki, lección 04 P10 y examen-50 P49 con la razón de la FAA; la situación en España, pregunta al proveedor o a AESA |
+| NOR-08 | 5 | aplicado | | fase 5: recuadro de normativa del cap04 |
+| NOR-09 | 5 | aplicado | | fase 5: glosario |
+| NOR-10 | 5 | aplicado | | fase 5: rótulo de la lista de normas en las nueve bibliografías y entrada en los nueve CHANGELOG |
 | COH-13 | 7 | pendiente | | fichas `.prompt.md`, nombre de la figura de cianosis y marca del pulsioxímetro |
-| PED-06 | 5 | pendiente | | promesa del apéndice; formato del examen |
-| PED-07 | 5 | pendiente | | cita de Borman; pregunta al autor |
+| PED-06 | 5 | aplicado | | fase 5: apéndice con el formato del examen (AMC1 SFCL.135) |
+| PED-07 | 5 | parcial | | fase 5: se quita el año; la fuente primaria, pregunta al autor |
 
 ## Banco de examen
 
@@ -124,6 +124,7 @@ Las correcciones de `examenes/` van en su rama local `auditoria-02`, que sale de
 | 2 | `bcd67d2` | lección 02 P8 y P10; lección 04 P7 y P9; examen-50 P7, P9 y P29 |
 | 3 | `9ad0ab1` | lecciones 01 a 04 y examen-50: preguntas y citas de los post-it corregidos, y fundamentos con su fuente real (COH-10) |
 | 4 | `cf0158d` | libro 01: cita literal de SAO.OP.150 en la lección 06 y el examen-50 |
+| 5 | `adec028` | PAVE (lección 03 y P35), hipoxia histotóxica, oxígeno de aviación (lección 04 P10 y P49) y cita de la cultura justa |
 
 ## Edición inglesa
 
@@ -146,7 +147,7 @@ clase y la nota, y se anota aquí.
 | cap02 | `02-cap02-imsafe` | COH-01 | fase 2 | |
 | cap02 | `02-cap02-curva-estres` | TEC-09 | fase 3 | |
 | cap03 | `02-cap03-decide` | TEC-03 | fase 2 | |
-| cap03 | `02-cap03-vision-tunel` | PED-04 | | |
+| cap03 | `02-cap03-vision-tunel` | PED-04 | fase 5 | |
 | cap04 | `02-cap04-hipoxia-tiempo-conciencia` | COH-02 | fase 2 | |
 | cap04 | `02-cap04-pulsioximetro` | COH-13 (marca comercial) | | |
 

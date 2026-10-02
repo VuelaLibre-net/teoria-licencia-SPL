@@ -10,7 +10,7 @@ Como piloto de planeador, el estado de salud física y mental es el componente m
 No se pueden ejercer las atribuciones de la licencia —ni, siendo alumno, volar solo— si se nota una disminución de la aptitud médica, o si se toma un medicamento, con o sin receta, o se recibe un tratamiento que pueda interferir con el vuelo seguro. Además, antes de volver a volar hay que consultar con un Médico Examinador Aéreo (AME) —o, con certificado LAPL, también con el médico de cabecera (GMP) que lo firmó— tras una operación quirúrgica o un procedimiento médico invasivo, al empezar a tomar medicación de forma regular, tras una lesión o una enfermedad importantes que incapaciten para volar, en caso de embarazo, tras un ingreso hospitalario o al necesitar lentes correctoras por primera vez. El médico decide si el piloto vuelve a ser apto (**MED.A.020**, *Decrease in medical fitness*).
 :::
 
-Para ayudar a evaluar sistemáticamente la condición individual antes de acceder a la cabina, la aviación ha estandarizado una lista de chequeo personal conocida por el acrónimo mnemotécnico **IMSAFE** (del inglés "I am safe" - **Estoy a salvo**). Esta revisión es tan vital como la propia inspección prevuelo del planeador (@fig-02-cap02-imsafe-checklist):
+Para ayudar a evaluar sistemáticamente la condición individual antes de acceder a la cabina, la FAA difunde una lista de chequeo personal conocida por el acrónimo mnemotécnico **IMSAFE** (del inglés "I am safe" - **Estoy a salvo**). Esta revisión es tan vital como la propia inspección prevuelo del planeador (@fig-02-cap02-imsafe-checklist):
 
 ![Evaluación personal del piloto antes del vuelo. *(CORREGIR: el plazo del alcohol es de 8 h según el AMC, no de 24 h; y con las preguntas del estrés y del alcohol, formuladas en positivo, la regla «si alguna respuesta es NO» se invierte.)*](imagenes/02-cap02-imsafe.jpg){#fig-02-cap02-imsafe-checklist .corregir}
 
@@ -19,7 +19,7 @@ Para ayudar a evaluar sistemáticamente la condición individual antes de accede
 * **S - *Stress* (Estrés):** ¿Existe alguna presión psicológica o emocional relevante? Problemas laborales, familiares o financieros graves reducen los recursos cognitivos disponibles, afectando la capacidad de juicio y el rendimiento en la cabina.
 * **A - *Alcohol* (Alcohol):** ¿Ha consumido alcohol recientemente? Sus efectos residuales persisten mucho después de la ingesta. La regla en aviación es «de la botella al mando» (**bottle to throttle**): el medio aceptable de cumplimiento de EASA fija un margen mínimo de 8 horas desde la última copa.
 * **F - *Fatigue* (Fatiga):** ¿Ha descansado y dormido lo suficiente? La fatiga reduce el estado de alerta, la capacidad de decisión y los tiempos de reacción de forma significativa.
-* **E - *Eating* (Alimentación):** ¿Ha comido y bebido adecuadamente en las últimas horas? Volar en ayunas reduce los niveles de glucosa y merma la concentración. En jornadas largas, la hidratación es tan importante como la alimentación; beba agua con regularidad para prevenir la deshidratación y el golpe de calor.
+* **E - *Eating* (Alimentación; en la versión de la FAA, *Emotion*, el estado emocional):** ¿Ha comido y bebido adecuadamente en las últimas horas? Volar en ayunas reduce los niveles de glucosa y merma la concentración. En jornadas largas, la hidratación es tan importante como la alimentación; beba agua con regularidad para prevenir la deshidratación y el golpe de calor.
 
 ::: {.callout-tip title="Regla de oro"}
 Antes de cada vuelo, repase mentalmente la lista **IMSAFE**. Si alguno de sus elementos resulta desfavorable, la única decisión de seguridad es cancelar el vuelo (**NO-GO**).
@@ -48,11 +48,11 @@ Para la licencia de piloto de planeador basta, como mínimo, el certificado méd
 
 El método principal para prevenir colisiones en vuelo visual es la técnica de "Ver y Evitar" (**See and Avoid**). La mayor parte del tiempo hay que mirar fuera: la FAA recomienda no dedicar más de 4 o 5 segundos al panel por cada 16 segundos de vigilancia exterior.
 
-Para escanear el cielo de forma eficaz, utiliza el método del reloj (@fig-02-cap02-escaneo-visual):
+Para escanear el cielo de forma eficaz, utilice el método del reloj (@fig-02-cap02-escaneo-visual):
 
 1. Considere el morro del planeador como las **12 en punto**.
-2. Realiza barridos visuales estructurados por sectores, desde atrás por la izquierda hasta atrás por la derecha —más allá de las **9** y de las **3**—, y también por encima.
-3. Concéntrate especialmente en la franja de cielo más cercana a la línea del horizonte, ya que las aeronaves que vuelan a la misma altitud aparecerán mayoritariamente en esa zona.
+2. Realice barridos visuales estructurados por sectores, desde atrás por la izquierda hasta atrás por la derecha —más allá de las **9** y de las **3**—, y también por encima.
+3. Concéntrese especialmente en la franja de cielo más cercana a la línea del horizonte, ya que las aeronaves que vuelan a la misma altitud aparecerán mayoritariamente en esa zona.
 
 ![Ciclo de escaneo: mirar fuera, actitud e instrumentos](imagenes/02-cap02-escaneo-visual.jpg){#fig-02-cap02-escaneo-visual}
 
@@ -66,14 +66,13 @@ El riesgo más grave de colisión en vuelo libre se produce en trayectorias fron
 
 #### Visión nocturna e ilusiones ópticas aeronáuticas
 
-La capacidad visual humana se degrada con la escasez luminosa y la disminución de oxígeno. A partir de altitudes relativamente bajas (6.000 pies), la cantidad de oxígeno en sangre se reduce lo suficiente como para afectar al funcionamiento de los bastones periféricos en vuelos con poca luz, limitando prematuramente la agudeza visual.
+La capacidad visual humana se degrada con la escasez luminosa y la disminución de oxígeno. A partir de altitudes relativamente bajas (unos 5.000 pies, según la FAA), la cantidad de oxígeno en sangre se reduce lo suficiente como para afectar al funcionamiento de los bastones periféricos en vuelos con poca luz, limitando prematuramente la agudeza visual.
 
 Por otro lado, la falta de texturas y contornos fiables en la oscuridad, en entornos nevados o sobre el agua facilita la aparición de peligrosas ilusiones en el cerebro del piloto:
 
-* **Aproximación de agujero negro (Black Hole Approach):** Al realizar el tramo final hacia una pista iluminada rodeada de terreno muy oscuro y sin referencias luminosas laterales (como un lago), el cerebro pierde la percepción real de profundidad. La ilusión lleva a creer que vuelas más alto de lo real y que la senda es más empinada de lo normal. Esto genera el impulso de picar el morro para «corregirla», con riesgo de impacto antes del umbral. La medida correctiva es mantener la velocidad indicada por el anemómetro e ignorar la sensación hasta recuperar referencias visuales de textura en tierra.
+* **Aproximación de agujero negro (Black Hole Approach):** Al realizar el tramo final hacia una pista iluminada rodeada de terreno muy oscuro y sin referencias luminosas laterales (como un lago), el cerebro pierde la percepción real de profundidad. La ilusión lleva a creer que vuelas más alto de lo real y que la senda es más empinada de lo normal. Esto genera el impulso de picar el morro para «corregirla», con riesgo de impacto antes del umbral. La medida correctiva es conocer la ilusión, contrastar la senda con referencias objetivas —las luces de aproximación, si las hay, o el altímetro— y no descender por debajo de la senda prevista.
 * **Ilusión autocinética:** Al fijar la mirada sobre una luz aislada en la oscuridad durante varios segundos, los micromovimientos involuntarios del ojo producen la falsa percepción de que la luz se desplaza. Esto puede confundir al piloto respecto a si se trata de otra aeronave en movimiento. El remedio es mantener el escaneo visual activo, evitando fijar la vista en un foco único durante más de unos pocos segundos.
 
-![Ilusiones ópticas](imagenes/02-cap02-ilusiones-opticas.png){#fig-02-cap02-ilusiones-opticas}
 
 ### El oído y el sistema vestibular
 
@@ -97,8 +96,10 @@ Durante un vuelo térmico bajo las nubes, la orientación precisa requiere integ
 
 Los sentidos humanos evolucionaron para el movimiento bidimensional sobre el terreno bajo una gravedad constante. Al volar sin referencias visuales fiables del horizonte, el cerebro es susceptible de generar ilusiones que producen **desorientación espacial**: una falsa apreciación de la posición u orientación real en el espacio.
 
-* **Ilusiones vestibulares:** Un viraje prolongado y estable en térmica puede engañar a los canales semicirculares, induciendo la percepción de que el planeador está nivelado o virando apenas (ilusión de estabilidad). En sentido contrario, la turbulencia severa puede impulsar al piloto a tirar bruscamente de la palanca cuando el avión se mantiene de hecho en actitud normal.
+* **Ilusiones vestibulares:** Un viraje prolongado y estable en térmica puede engañar a los canales semicirculares, induciendo la percepción de que el planeador está nivelado o virando apenas (ilusión de estabilidad). En sentido contrario, la turbulencia severa puede impulsar al piloto a tirar bruscamente de la palanca cuando el avión se mantiene de hecho en actitud normal. (@fig-02-cap02-ilusiones-opticas)
 * **Ilusiones ópticas:** Una perspectiva de aproximación inclinada, la falta de texturas en el suelo (nieve, agua) o una pista significativamente más ancha o estrecha que la habitual pueden producir sesgos perceptivos en la estimación de la altitud sobre el umbral.
+
+![Ilusión vestibular en un viraje prolongado: el piloto cree volar nivelado mientras el indicador de actitud muestra el alabeo](imagenes/02-cap02-ilusiones-opticas.png){#fig-02-cap02-ilusiones-opticas}
 
 ::: {.callout-warning title="Seguridad"}
 Cuando se pierde la referencia del horizonte y lo que el piloto «siente» contradice lo que señalan los instrumentos, debe ignorar el instinto. **Confíe en los instrumentos** (anemómetro, hilo de lana, bola y horizonte artificial) y actúe en consecuencia.
@@ -127,7 +128,7 @@ Para prevenir y gestionar el fantasma del mareo en vuelo, interioriza y aplica e
 No ingiera fármacos antihistamínicos contra el mareo (como la **Biodramina**) antes de pilotar. Su formulación está contraindicada en aviación: producen somnolencia profunda que compromete gravemente los tiempos de reacción y el estado de alerta necesarios para la seguridad del vuelo.
 :::
 
-Si a pesar de las precauciones la cinetosis resulta limitante bajo los mandos, la prioridad es la seguridad. En bipuesto, transfiera los mandos al piloto calificado a bordo anunciando «**tienes los mandos**» o «**tuyo**». En monoplaza, estabilice el planeador en vuelo recto y nivelado para reducir el conflicto sensorial del oído interno, abra la ventilación al máximo y abrevié la misión buscando aterrizaje inmediato.
+Si a pesar de las precauciones la cinetosis resulta limitante bajo los mandos, la prioridad es la seguridad. En bipuesto, transfiera los mandos al piloto calificado a bordo anunciando «**tienes los mandos**» o «**tuyo**». En monoplaza, estabilice el planeador en vuelo recto y nivelado para reducir el conflicto sensorial del oído interno, abra la ventilación al máximo y abrevie la misión buscando aterrizaje inmediato.
 
 ## Intoxicación por monóxido de carbono (riesgos en motoveleros o remolcadores)
 
@@ -138,7 +139,7 @@ El monóxido de carbono es inodoro, incoloro e insípido. Su afinidad por la hem
 Los síntomas iniciales son inespecíficos: dolor de cabeza o debilidad muscular leve que progresa rápidamente hacia náuseas, desorientación, visión borrosa y euforia inapropiada. Sin intervención, desemboca en pérdida de consciencia.
 
 ::: {.callout-warning title="Seguridad"}
-En motoveleros, lleve instalado un detector de monóxido de carbono en el panel y verifique su fecha de caducidad. Ante cualquier síntoma (dolor de cabeza, labios de color rojo intenso) o si el parche cambia de color, actúe de inmediato: **corte la calefacción**, abra la ventilación al máximo, utilice oxígeno suplementario si dispone de él y aterrice sin dilación.
+En motoveleros, lleve instalado un detector de monóxido de carbono en el panel y verifique su fecha de caducidad. Ante cualquier síntoma (dolor de cabeza, visión borrosa, mareo, somnolencia o pérdida de fuerza) o si el parche cambia de color, actúe de inmediato: **corte la calefacción**, abra la ventilación al máximo, utilice oxígeno suplementario si dispone de él y aterrice sin dilación.
 :::
 
 ## Hipotermia y frío en altitud
@@ -164,14 +165,14 @@ Conviene distinguir dos marcos complementarios, porque describen cosas distintas
 El segundo marco, el **Síndrome General de Adaptación** de Hans Selye, describe cómo responde el organismo cuando la tensión se prolonga, atravesando tres fases consecutivas:
 
 1. **Fase de alarma (reacción):** Ante un elemento novedoso o una amenaza abrupta, el cuerpo libera adrenalina de golpe. El ritmo cardíaco y respiratorio se disparan, las pupilas se dilatan y el cerebro entra en estado de máxima alerta preparándose para reaccionar o huir.
-2. **Fase de resistencia (adaptación):** Si el factor estresante se prolonga —en el modelo de Selye, horas o días— (por ejemplo, lidiando con descendencias fuertes sistemáticas y lejos de un campo aterriceble seguro), el cuerpo intenta amoldarse y mantener la compostura mediante un esfuerzo fisiológico activo para regularse.
+2. **Fase de resistencia (adaptación):** Si el factor estresante se prolonga —en el modelo de Selye, horas o días— (por ejemplo, lidiando con descendencias fuertes sistemáticas y lejos de un campo aterrizable seguro), el cuerpo intenta amoldarse y mantener la compostura mediante un esfuerzo fisiológico activo para regularse.
 3. **Fase de agotamiento:** Cuando la situación supera al piloto en intensidad o duración, las reservas de energía de la fase dos se vacían. El agotamiento entra en escena, provocando un deterioro rápido y catastrófico de la capacidad analítica y merma en la pericia a los mandos.
 
 ### Hiperventilación
 
 Una de las manifestaciones físicas del estrés agudo —no de una falta real de oxígeno— es la **hiperventilación**: una respiración excesivamente rápida y profunda desencadenada por la ansiedad.
 
-Esta respiración acelerada elimina grandes cantidades de dióxido de carbono (CO₂) de la sangre, aumentando su pH (alcalosis respiratoria). Paradojicamente, aunque los pulmones mueven más aire, la falta de CO₂ impide que la hemoglobina libere el oxígeno en los tejidos cerebrales.
+Esta respiración acelerada elimina grandes cantidades de dióxido de carbono (CO₂) de la sangre, aumentando su pH (alcalosis respiratoria). Paradójicamente, aunque los pulmones mueven más aire, la falta de CO₂ impide que la hemoglobina libere el oxígeno en los tejidos cerebrales.
 
 Los **síntomas** son característicos: hormigueo y entumecimiento en manos y pies, calambres alrededor de la boca, palpitaciones, náuseas, palidez y una sensación de asfixia a pesar de estar respirando. Sin intervención, puede derivar en somnolencia y pérdida de consciencia.
 

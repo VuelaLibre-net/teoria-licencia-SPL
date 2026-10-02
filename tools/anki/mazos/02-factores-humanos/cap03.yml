@@ -78,7 +78,7 @@ tarjetas:
     tipo: cloze
     texto: |
       **PAVE**: {{c1::Piloto}}, {{c2::Aeronave}}, {{c3::Environment (medio
-      ambiente)}} y {{c4::Operación o presiones externas}}.
+      ambiente)}} y {{c4::External pressures (presiones externas)}}.
     extra: |
       Desglosar el vuelo con PAVE antes de despegar permite cortar la cadena de
       errores antes de sentarse en la cabina.

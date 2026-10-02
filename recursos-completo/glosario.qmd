@@ -546,7 +546,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Dispositivo electrónico, certificado por la _International Gliding Commission_ (Comisión Internacional de Vuelo a Vela), que graba la traza GPS, la altitud de presión barométrica y una firma digital en un archivo `.igc` que hace detectable cualquier manipulación, probando el paso por los puntos de viraje para validar récords y medallas FAI.
 
 **IMSAFE**
-: Acrónimo nemotécnico de autoevaluación psicofísica recomendado antes de cada vuelo: Illness (Enfermedad), Medication (Medicación), Stress (Estrés), Alcohol (Alcohol), Fatigue (Fatiga) y Eating (Alimentación).
+: Acrónimo nemotécnico de autoevaluación psicofísica recomendado antes de cada vuelo: Illness (Enfermedad), Medication (Medicación), Stress (Estrés), Alcohol (Alcohol), Fatigue (Fatiga) y Eating (Alimentación). En la versión de la FAA, la E es Emotion (estado emocional).
 
 **INCERFA (Fase de incertidumbre / Uncertainty Phase)**
 : Fase declarada cuando existe incertidumbre sobre la seguridad de una aeronave y sus ocupantes.
@@ -795,7 +795,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Ritmo al que se enfría una parcela de aire saturada (en formación de nube) al ascender adiabáticamente: aproximadamente 1,5 °C por cada 1.000 ft. Es menor que el DALR porque la condensación libera calor latente que "frena" el enfriamiento.
 
 **SAO (Operaciones de Planeadores / Sailplane Air Operations)**
-: Normativa operativa específica de EASA para planeadores, en el anexo II del Reglamento (UE) 2018/1976. Sus reglas son de criterio antes que de umbral: **SAO.OP.150** obliga al piloto al mando a garantizar que todos los ocupantes usen oxígeno suplementario cuando determine que, a la altitud prevista, su falta puede mermarles las facultades. El Reglamento no fija ninguna cifra; los **10.000 ft** salen del **AMC1 SAO.OP.150**, y sólo como regla por defecto para cuando el piloto no pueda hacer esa valoración.
+: Normativa operativa específica de EASA para planeadores, en el anexo II del Reglamento de Ejecución (UE) 2018/1976. Sus reglas son de criterio antes que de umbral: **SAO.OP.150** obliga al piloto al mando a garantizar que todos los ocupantes usen oxígeno suplementario cuando determine que, a la altitud prevista, su falta puede mermarles las facultades. El Reglamento no fija ninguna cifra; los **10.000 ft** salen del **AMC1 SAO.OP.150**, y sólo como regla por defecto para cuando el piloto no pueda hacer esa valoración.
 
 **SAR (Búsqueda y salvamento / Search and Rescue)**
 : Organización y operaciones destinadas a localizar y auxiliar aeronaves y personas en peligro.
@@ -810,7 +810,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Reglas del aire comunes establecidas por el Reglamento de Ejecución (UE) n.º 923/2012.
 
 **SFCL (Licencias de Tripulación de Vuelo de Planeadores / Sailplane Flight Crew Licensing)**
-: Marco normativo europeo (EASA) que regula las licencias, el programa de estudios y la instrucción de vuelo para pilotos de planeador (SPL).
+: Anexo III del Reglamento de Ejecución (UE) 2018/1976, que regula las licencias, atribuciones, instructores y examinadores de planeadores (SPL). El programa de estudios está en su medio aceptable de cumplimiento AMC1 SFCL.130.
 
 **SHELL**
 : Modelo conceptual propuesto por Edwards en 1972 como SHEL y completado por Hawkins en 1975, que la OACI adoptó y difundió. Interconecta de forma unificada y armónica todos los vértices relativos al operador: **Software** (Procedimientos normativos), **Hardware** (La Aeronave), **Environment** (El Entorno físico), **Liveware** interior y **Liveware** externo (El piloto con respecto a otras personas).

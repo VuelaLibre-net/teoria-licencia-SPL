@@ -20,10 +20,10 @@ Para operar un planeador de forma segura, el cerebro del piloto procesa informac
 
 **La atención** es el filtro que permite centrarse en la información relevante de la cabina y el entorno exterior. La atención no es inagotable; puede verse erosionada rápidamente por factores biológicos o psicológicos, impidiendo percibir el cuadro completo de la situación.
 
-**La memoria**, localizada de forma clave en el hipocampo, permite codificar, almacenar y recuperar información vital. En la cabina se utilizan distintos sistemas (@fig-02-cap03-memoria-tipos):
+**La memoria**, en la que el hipocampo desempeña un papel clave, permite codificar, almacenar y recuperar información vital. En la cabina se utilizan distintos sistemas (@fig-02-cap03-memoria-tipos):
 
-* **Memoria sensorial:** Retiene información por apenas 200 milisegundos tras percibirla por los sentidos.
-* **Memoria a corto plazo:** Dura unos 30 segundos; es la «memoria RAM» del piloto, esencial para interactuar con el entorno táctico inmediato.
+* **Memoria sensorial:** Retiene la información apenas un instante tras percibirla por los sentidos: menos de un segundo la visual y unos segundos la auditiva.
+* **Memoria a corto plazo:** Dura unos 30 segundos y admite unos 7 elementos; es la «memoria RAM» del piloto, esencial para interactuar con el entorno táctico inmediato.
 * **Memoria a largo plazo:** Es el almacén de conocimiento a largo plazo. Se divide en no declarativa (procedimental o inconsciente, como el tacto mecánico de la palanca) y declarativa (explícita, combinando la memoria episódica con la memoria semántica, como las velocidades del manual o experiencias pasadas).
 
 ![Diagrama de los tipos de memoria humana.](imagenes/02-cap03-memoria-tipos.jpg){#fig-02-cap03-memoria-tipos}
@@ -62,7 +62,9 @@ El **modelo PAVE** divide los riesgos del vuelo en cuatro elementos fundamentale
 * **P (Piloto):** Estado fisiológico y psicológico. ¿Está el piloto descansado? ¿Sufre fatiga o estrés? ¿Cumple los requisitos de experiencia reciente?
 * **A (Aeronave):** Estado del planeador. ¿Es el equipo adecuado para el vuelo previsto? ¿Están los instrumentos operativos y las revisiones vigentes?
 * **V (enVironment — Entorno):** Meteorología, aeródromos de alternativa, orografía, densidad de tráfico y espacio aéreo.
-* **E (Presiones externas u Operación):** Factores como la necesidad de finalizar un curso, la presión de no decepcionar a un pasajero o la urgencia ante una ventana meteorológica en cierre.
+* **E (*External pressures*, presiones externas):** Factores como la necesidad de finalizar un curso, la presión de no decepcionar a un pasajero o la urgencia ante una ventana meteorológica en cierre.
+
+PAVE se aplica dentro del **modelo de las «3 P»** de gestión de riesgos: **percibir** los peligros del vuelo (con PAVE), **procesar** su efecto sobre la seguridad y **actuar** (*Perform*) aplicando la mejor medida. El ciclo se repite durante todo el vuelo.
 
 ::: {.callout-tip title="Regla de oro"}
 Desglosar mentalmente tu vuelo usando PAVE antes del despegue te permite detectar y cortar la cadena de errores antes de sentarte en la cabina.
@@ -106,7 +108,7 @@ Tus actitudes (la predisposición motivacional hacia tu entorno) marcan cómo re
 
 El estrés es la respuesta biológica no específica con la que el cuerpo humano reacciona ante cualquier demanda física, ambiental o psicológica que se le impone. En la aviación, actúa como un sistema arcaico de alarma que nos advierte de un posible peligro.
 
-A diferencia del imaginario popular, no todo el estrés es perjudicial. Un nivel de estrés moderado (como el que sufres la primera vez que sales en monomando) es altamente positivo: aumenta tu nivel de alerta, agudiza tus sentidos y optimiza tu velocidad de reacción, llevándote a tu punto máximo de rendimiento.
+A diferencia del imaginario popular, no todo el estrés es perjudicial. Un nivel de estrés moderado (como el que sufres en tu primer vuelo solo) es altamente positivo: aumenta tu nivel de alerta, agudiza tus sentidos y optimiza tu velocidad de reacción, llevándote a tu punto máximo de rendimiento.
 
 Sin embargo, si la presión psicológica continúa aumentando (por ejemplo, te metes inadvertidamente en condiciones instrumentales severas ignorando tus límites), este estrés tolerable se transforma rápidamente en pánico. El rendimiento cae en picado y el piloto sufre una intensa saturación sensorial. El cerebro, incapaz de procesar el abrumador cuadro informativo de la cabina, se bloquea y focaliza absolutamente toda su atención residual en un solo detalle del vuelo (a menudo el más insignificante), anulando cualquier otra entrada visual o cognitiva sensata. A este fenómeno letal se le denomina informalmente **visión de túnel** (@fig-02-cap03-vision-tunel).
 
@@ -114,11 +116,9 @@ Sin embargo, si la presión psicológica continúa aumentando (por ejemplo, te m
 Bajo condiciones de estrés extremo y pánico, instintos básicos de supervivencia como intentar "alejarse del suelo tirando fuertemente de la palanca" pueden superar tu raciocinio. Esta maniobra instintiva y abrupta a baja altura gastará toda la energía de tu planeador, precipitándote irremediablemente a una pérdida de control o barrena irrecuperable. Conoce tus límites y no te metas en escenarios para los que no estás sobradamente preparado.
 :::
 
-![Esquema conceptual de la visión de túnel bajo estrés extremo.](imagenes/02-cap03-vision-tunel.jpg){#fig-02-cap03-vision-tunel}
+![Esquema conceptual de la visión de túnel bajo estrés extremo. *(CORREGIR: la escala del variómetro dibujado es incoherente —el «−4» aparece dos veces—, y el rótulo debe hablar del estrechamiento de la atención, no de la pérdida de campo visual.)*](imagenes/02-cap03-vision-tunel.jpg){#fig-02-cap03-vision-tunel .corregir}
 
-Todo lo que se hace en el aire queda regido por un ciclo continuo conocido como el modelo de las «3 P»: **Percibir, Procesar y Actuar** (**Perform**). Cada segundo en vuelo, el piloto percibe información del entorno, la procesa cognitivamente y actúa en consecuencia.
-
-La capacidad de la mente humana para procesar simultáneamente esta incesante catarata de eventos es esencialmente finita; es como un vaso de agua que solo puede admitir cierto volumen. Durante un remolque turbulento, de espaldas al sol, tratando de ubicar a otro velero que notifica en base, el vaso cognitivo puede desbordarse estrepitosamente. A esto se le conoce como **sobrecarga de trabajo**: llegan más tareas e información de las que caben en el tiempo disponible. Cuando además la tarea es demasiado difícil para el entrenamiento del piloto en ese momento, el margen de seguridad desaparece y el accidente latente ocupa su lugar.
+Cada segundo en vuelo, el piloto percibe información del entorno, la procesa y actúa en consecuencia. La capacidad de la mente humana para procesar simultáneamente esta incesante catarata de eventos es esencialmente finita; es como un vaso de agua que solo puede admitir cierto volumen. Durante un remolque turbulento, de espaldas al sol, tratando de ubicar a otro velero que notifica en base, el vaso cognitivo puede desbordarse estrepitosamente. A esto se le conoce como **sobrecarga de trabajo**: llegan más tareas e información de las que caben en el tiempo disponible. Cuando además la tarea es demasiado difícil para el entrenamiento del piloto en ese momento, el margen de seguridad desaparece y el accidente latente ocupa su lugar.
 
 ::: {.callout-tip title="Regla de oro"}
 Cuando notes que tu vaso se está desbordando, detente un segundo, respira, y reduce la carga mental simplificando radicalmente tus prioridades según el antiguo adagio de la aviación: **Aviate, Navigate, Communicate** (primero vuela el planeador con seguridad, después decide hacia dónde y, en tercer lugar, comunica lo que sea necesario: pedir ayuda o avisar a quien deba saberlo).
@@ -128,7 +128,7 @@ Cuando notes que tu vaso se está desbordando, detente un segundo, respira, y re
 
 El SRM es el arte de gestionar hábilmente todos los recursos a bordo y fuera del planeador (información, equipos, y ayudas humanas) antes y durante el vuelo, garantizando una operación segura del piloto en solitario.
 
-A diferencia del vuelo con tripulación múltiple donde las tareas se delegan, el piloto de planeador gestiona integralmente el vuelo operando como único nodo de decisión. Tu trabajo exige emplear todos los elementos disponibles para no exceder tu capacidad de procesamiento. Los recursos del SRM incluyen tu propio equipo (instrumentación, compensador de abordo), las comunicaciones de radio (consultas al ATC o información meteorológica), y herramientas en tierra (un buen prevuelo o un instructor en radio).
+A diferencia del vuelo con tripulación múltiple donde las tareas se delegan, el piloto de planeador gestiona integralmente el vuelo operando como único nodo de decisión. Tu trabajo exige emplear todos los elementos disponibles para no exceder tu capacidad de procesamiento. Los recursos del SRM incluyen tu propio equipo (instrumentación, compensador de a bordo), las comunicaciones de radio (consultas al ATC o información meteorológica), y herramientas en tierra (un buen prevuelo o un instructor en radio).
 
 ::: {.callout-note title="Airmanship"}
 Es preferible anticiparse en tierra que reaccionar en el aire. Evitar enfrentarse a muchas situaciones nuevas simultáneamente (un velero nuevo en un aeródromo desconocido y con mal tiempo) es la mayor muestra de que sabes gestionar tus recursos usando como base el sentido común.
@@ -150,7 +150,7 @@ Dos de los peores y más insidiosos enemigos relacionados con las actitudes peli
 * **Estrés**: Es la respuesta del cuerpo ante una demanda física o psicológica. Un nivel moderado mejora el rendimiento (alerta), pero el estrés excesivo o crónico bloquea la capacidad de tomar decisiones y fija la atención en detalles irrelevantes (visión de túnel).
 * **Carga de trabajo y Rendimiento**: Tu capacidad de procesamiento es limitada (como un vaso de agua). Si la complejidad del vuelo (mal tiempo, tráfico, avería) llena el vaso, te desbordas. Simplifica la tarea (aviate, navigate, communicate) para recuperar margen de seguridad.
 * **Procesamiento de Información**: Comprende la percepción (interpretación del medio ambiente), atención (foco) y las memorias sensorial, a corto plazo y a largo plazo. Un exceso de información externa sin asimilar puede generar sobrecarga de trabajo.
-* **Gestión de Riesgos (PAVE)**: Evaluar sistemáticamente factores críticos divididos en Piloto, Aeronave, Medio Ambiente (**Environment**) y Operación o Presiones Externas.
+* **Gestión de Riesgos (PAVE)**: Evaluar sistemáticamente factores críticos divididos en Piloto, Aeronave, Medio Ambiente (**Environment**) y Presiones externas (**External pressures**).
 * **Actitudes Peligrosas**: Las cinco actitudes a evitar son la antiautoridad, la impulsividad, la invulnerabilidad, la arrogancia (exceso de confianza) y la resignación.
 * **Gestión de Recursos (SRM)**: La habilidad del piloto solitario para usar integralmente el equipo a bordo, la información, las comunicaciones y la ayuda externa para no exceder su capacidad límite.
 * **Complacencia e Indisciplina**: La complacencia surge por el exceso de rutina generando una falsa sensación de seguridad, mientras que la indisciplina contagia una mala cultura de seguridad en el aeródromo al ignorar las normas.

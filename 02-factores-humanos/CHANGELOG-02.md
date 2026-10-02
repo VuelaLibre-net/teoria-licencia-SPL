@@ -16,7 +16,7 @@ rompe la compilación.
 
 ## [En curso]
 
-**Qué releer:** las correcciones de la auditoría del libro 02 del 1 de octubre de 2026 (`recursos/auditorias/`, con su seguimiento): **cap01, Maslow**; **cap02, IMSAFE, visión del color, vigilancia antes de virar y alcohol**; **cap03, DECIDE**; **cap04, tiempo útil de conciencia, hiperventilación y cánula**; y, en una segunda pasada, buena parte de los cuatro capítulos, el glosario y la bibliografía (estadísticas y definición del cap01, cultura justa, MED.A.020, ver y evitar, estrés, fatiga, deshidratación, medicación, dopaje, disbarismos y buceo, sobrecarga y conciencia situacional, Dalton, euforia, regla del oxígeno, botella, diagnóstico diferencial y pulsioxímetro). Además, del libro 01: **cap04, AMC del oxígeno**, la **licencia** de los preliminares y la **Bibliografía**, que añade la lista de normas citadas en la colección.
+**Qué releer:** las correcciones de la auditoría del libro 02 del 1 de octubre de 2026 (`recursos/auditorias/`, con su seguimiento): **cap01, Maslow**; **cap02, IMSAFE, visión del color, vigilancia antes de virar y alcohol**; **cap03, DECIDE**; **cap04, tiempo útil de conciencia, hiperventilación y cánula**; y, en una segunda pasada, buena parte de los cuatro capítulos, el glosario y la bibliografía (estadísticas y definición del cap01, cultura justa, MED.A.020, ver y evitar, estrés, fatiga, deshidratación, medicación, dopaje, disbarismos y buceo, sobrecarga y conciencia situacional, Dalton, euforia, regla del oxígeno, botella, diagnóstico diferencial y pulsioxímetro); y, en una tercera, retoques menores (Reason, IMSAFE, agujero negro, PAVE y 3P, memoria, hipoxia histotóxica, equipos de oxígeno, el **apéndice del syllabus** y el **epígrafe**). Además, del libro 01: **cap04, AMC del oxígeno**, la **licencia** de los preliminares y la **Bibliografía**, que añade la lista de normas citadas en la colección.
 
 ### Corregido
 
@@ -74,6 +74,9 @@ rompe la compilación.
   1189/2011 y 1029/2025; Orden FOM/1687/2015), el enlace consolidado de la Ley 21/2003 y los anexos
   17 y 18 entre los más relevantes. El 2018/1976 se cita como Reglamento de Ejecución. Hallazgo
   NOR-18 de la auditoría del libro 01.
+  La lista ya no se presenta como «versiones consolidadas»: los enlaces llevan a la norma original,
+  desde la que EUR-Lex y el BOE dan acceso a la consolidada (hallazgo NOR-10 de la auditoría del
+  libro 02).
 * **Licencia (preliminares)** — el syllabus se atribuía a «EASA-FCL»; el AMC1 SFCL.130 pertenece a
   la Part-SFCL. Hallazgo NOR-19 de la auditoría del libro 01; el rótulo «Validación por AESA» se
   mantiene.
@@ -102,6 +105,22 @@ rompe la compilación.
 * **cap04, diagnóstico diferencial** — la regla de oro asignaba el hormigueo a la hiperventilación por debajo de 10.000 ft, cuando también es síntoma de hipoxia. Pasa a un orden de actuación: primero la hipoxia, después la respiración. Tarjeta `distinguir-hipoxia-de-hiperventilacion`. Hallazgo TEC-18 de la auditoría del libro 02.
 * **cap04, pulsioxímetro** — se añaden sus límites: con monóxido de carbono marca valores normales, y el frío y el movimiento lo falsean; ante síntomas se actúa aunque la lectura sea buena. Se quita la invitación a medir a 5.000 m sin decir que es con oxígeno. Texto, post-it, glosario y tarjeta `pulsioximetro-umbral`. Hallazgo TEC-19 de la auditoría del libro 02.
 * **cap04, tarjeta `sao-op-150-oxigeno`** — presentaba el AMC como obligación («siempre por encima de 10.000 ft»); ahora distingue el reglamento del AMC. Hallazgo COH-09 de la auditoría del libro 02.
+* **cap01, Reason y SHELL** — la definición de error de Reason exige una secuencia *planificada* que falla sin intervención del azar; y Hawkins (1975) dio al modelo SHELL el diagrama que usa la OACI, sin que conste que «añadiera la segunda L». El resumen del cap01 se redacta de nuevo sin «represión ajena» ni «esconder daños fatales». Hallazgos TEC-20 y PED-01 de la auditoría del libro 02.
+* **cap02, IMSAFE** — la lista no la «ha estandarizado la aviación»: la difunde la FAA, en cuya versión la E es *Emotion*. Se dice en el capítulo y en el glosario. Hallazgo COH-11 de la auditoría del libro 02.
+* **cap02, visión nocturna** — se degrada desde unos 5.000 ft, no 6.000, como ya decía el cap04, que cita ahora el AIM de la FAA. Hallazgo COH-12 de la auditoría del libro 02; el umbral único para la colección queda pendiente de un médico aeronáutico.
+* **cap02, aproximación de agujero negro** — la corrección era «mantener la velocidad indicada», pero la ilusión afecta a la senda: se contrasta con referencias objetivas y no se desciende por debajo de la senda prevista. Hallazgo TEC-22 de la auditoría del libro 02.
+* **cap02, figura de ilusiones** — mostraba una ilusión vestibular bajo las ópticas y ningún texto la citaba; se mueve tras las ilusiones, se cita y cambia su pie. Hallazgo PED-05 de la auditoría del libro 02.
+* **cap02, monóxido de carbono** — «labios de color rojo intenso» es un signo tardío y poco fiable; se sustituye por los síntomas que da la FAA. Tarjeta `monoxido-de-carbono`. Hallazgo TEC-23 de la auditoría del libro 02, pendiente de un médico aeronáutico.
+* **cap03, PAVE y 3P** — la E de PAVE es *External pressures*, no «Operación». El modelo de las «3 P» es, en la FAA, un modelo de gestión de riesgos ligado a PAVE: pasa junto a él. Tarjeta `pave`. Hallazgos PED-02 y PED-03 de la auditoría del libro 02.
+* **cap03, memoria** — los 200 ms valen para la memoria visual, no para toda la sensorial; el hipocampo interviene en la memoria, pero no la «aloja»; y la memoria a corto plazo admite unos 7 elementos, como dice la figura. Hallazgo TEC-21 de la auditoría del libro 02.
+* **cap04, hipoxia histotóxica** — la causan el alcohol, los narcóticos y algunos tóxicos; los sedantes y los antihistamínicos aumentan la vulnerabilidad, pero no la causan. Texto, post-it y tarjeta `cuatro-clases-de-hipoxia`. Hallazgo TEC-24 de la auditoría del libro 02, pendiente de un médico aeronáutico.
+* **cap04, sistemas de oxígeno** — el caudal del flujo continuo se regula según la altitud, no «2 a 2,5 L/min»; EDS es la denominación de un fabricante (*Electronic Delivery System*); los equipos actuales no usan pilas de 9 V, y conectarlos a la batería del planeador es una modificación de la aeronave. Hallazgos TEC-25 y TEC-26 de la auditoría del libro 02.
+* **cap04, oxígeno de aviación** — el motivo de no usar oxígeno medicinal no es su humedad, que no está respaldado, sino que no cumple las especificaciones del oxígeno de aviación (FAA). Se quita el «98,5 %». Texto, post-it y tarjeta `oxigeno-de-aviacion`. Hallazgo TEC-27 de la auditoría del libro 02.
+* **cap04, normativa del equipo** — se añaden SAO.IDE.115 (el planeador lleva equipo de oxígeno cuando SAO.OP.150 lo exige) y CS 22.1441 y 22.1449 (equipo aprobado y medio para comprobar el suministro). Hallazgo NOR-08 de la auditoría del libro 02.
+* **Glosario, SAO y SFCL** — el 2018/1976 es un Reglamento de Ejecución, y el programa de estudios no está en la Part-SFCL sino en su AMC1 SFCL.130. Hallazgo NOR-09 de la auditoría del libro 02.
+* **Apéndice del syllabus** — no promete ya «cubrir todos los puntos necesarios para el examen»: dice que sigue los epígrafes oficiales y da el formato del examen de la asignatura (10 preguntas en 20 minutos, AMC1 SFCL.135). Hallazgo PED-06 de la auditoría del libro 02.
+* **Epígrafe** — la cita de Frank Borman llevaba el año 1968, que no consta en ninguna fuente; se quita. La atribución sigue sin fuente primaria. Hallazgo PED-07 de la auditoría del libro 02.
+* **Erratas** — «monomando», «de abordo», «abrevié», «aterriceble», «Paradojicamente» y el trato de tú y de usted mezclado en el escaneo visual. Hallazgo PED-01 de la auditoría del libro 02.
 
 ### Añadido
 
@@ -110,13 +129,13 @@ rompe la compilación.
 
 ### Cambiado
 
-* **Figuras por rehacer: marca «EN REVISIÓN» y nota en el pie** — siete figuras en las que la
+* **Figuras por rehacer: marca «EN REVISIÓN» y nota en el pie** — ocho figuras en las que la
   auditoría encontró errores llevan encima, en diagonal, la marca «EN REVISIÓN», en el PDF,
   el EPUB y la web, y su pie termina con *(CORREGIR: …)*, que dice qué está mal. Primero, la lista IMSAFE
   (cap02), que da 24 h para el alcohol en vez de 8 y cuya regla del «NO» se invierte en dos
   preguntas; el modelo DECIDE (cap03), con los pasos 4 y 5 cambiados; y el tiempo útil de conciencia
   (cap04), que rotula como obligatorio el oxígeno por encima de 3.000 m y da cifras que no coinciden
-  con la fuente. En una segunda pasada se marcan otras cuatro: la pirámide de Maslow (cap01), que rotula la seguridad operacional en el nivel de la necesidad de sentirse a salvo; el queso suizo (cap01), con las capas de HFACS y ejemplos mal colocados; la cadena del error (cap01), que llama latente a un error activo; y la curva de estrés (cap02), que rotula como «agotamiento» la sobreactivación. Al sustituir cada figura se quitan la marca y la nota.
+  con la fuente. En una segunda pasada se marcan otras cuatro: la pirámide de Maslow (cap01), que rotula la seguridad operacional en el nivel de la necesidad de sentirse a salvo; el queso suizo (cap01), con las capas de HFACS y ejemplos mal colocados; la cadena del error (cap01), que llama latente a un error activo; la curva de estrés (cap02), que rotula como «agotamiento» la sobreactivación; y, en una tercera, la visión de túnel (cap03), con la escala del variómetro mal dibujada. Al sustituir cada figura se quitan la marca y la nota.
 
 ## [1.0-rc.13] — 7 de agosto de 2026
 

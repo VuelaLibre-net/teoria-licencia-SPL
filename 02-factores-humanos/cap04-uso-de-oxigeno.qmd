@@ -33,7 +33,7 @@ Aunque el vuelo a gran altitud es la causa más común, la hipoxia puede origina
 1. **Hipoxia hipóxica:** La presión atmosférica es insuficiente para transferir oxígeno a la sangre. Es la forma más frecuente en pilotos de planeador. Se corrige iniciando el descenso o activando el suministro de oxígeno suplementario.
 2. **Hipoxia hipémica (o anémica):** La sangre pierde capacidad de transporte de oxígeno. Ocurre principalmente por inhalación de **monóxido de carbono (CO)** procedente del escape del remolcador o por tabaquismo intenso, ya que el CO desplaza al oxígeno en la hemoglobina.
 3. **Hipoxia estancada (o isquémica):** La circulación sanguínea se detiene o reduce en el cerebro. En planeador puede producirse durante virajes cerrados con elevadas fuerzas G positivas, que desplazan la sangre hacia las extremidades inferiores y vacían de riego la cabeza, provocando visión en túnel o pérdida temporal de visión (**grey-out**).
-4. **Hipoxia histotóxica:** Las células cerebrales son incapaces de asimilar el oxígeno que reciben, por estar intoxicadas. El consumo de **alcohol, drogas o ciertos medicamentos** (relajantes musculares o antihistamínicos, entre otros) produce este efecto.
+4. **Hipoxia histotóxica:** Las células cerebrales son incapaces de asimilar el oxígeno que reciben, por estar intoxicadas. La producen el **alcohol, los narcóticos y algunos tóxicos**. Otros fármacos, como los sedantes o los antihistamínicos, no la causan por sí mismos, pero hacen al piloto más vulnerable a la hipoxia.
 
 ### Fases y síntomas
 
@@ -125,12 +125,14 @@ Ante la duda entre hipoxia e hiperventilación, trate primero la hipoxia: active
 **SAO.OP.150:** «El piloto al mando deberá garantizar que todas las personas a bordo utilicen oxígeno suplementario cuando determine que, a la altitud de vuelo prevista, la falta de oxígeno podría ocasionar la disminución de sus facultades o resultarles dañina.»
 
 **AMC1 SAO.OP.150** (medio aceptable de cumplimiento, no vinculante como el reglamento): cuando el piloto no pueda determinar ese efecto, debería asegurarse de que todos usen oxígeno siempre que la altitud de presión supere los **10.000 ft**.
+
+**SAO.IDE.115:** cuando SAO.OP.150 exija oxígeno, el planeador debe llevar un equipo capaz de almacenarlo y suministrarlo. Ese equipo debe estar aprobado y permitir comprobar en vuelo que el oxígeno llega (CS 22.1441 y CS 22.1449).
 :::
 
 El umbral de los 10.000 ft no es, por tanto, un límite legal incondicional: es la regla por defecto cuando no puedes valorar cómo afecta la falta de oxígeno a los ocupantes. La obligación de fondo es la primera: evaluar y garantizar.
 
 ::: {.callout-note title="Airmanship"}
-Para vuelos **nocturnos o al atardecer** se recomienda —no lo exige la norma— iniciar el uso de oxígeno desde los **5.000 ft**: la visión nocturna es especialmente sensible a la falta de oxígeno, porque los bastones de la retina periférica son las primeras células en verse afectadas.
+Para vuelos **nocturnos o al atardecer** se recomienda —no lo exige la norma— iniciar el uso de oxígeno desde los **5.000 ft** (FAA, AIM 8-1-2): la visión nocturna es especialmente sensible a la falta de oxígeno, porque los bastones de la retina periférica son las primeras células en verse afectadas.
 :::
 
 ## Equipos y sistemas de oxígeno en planeadores
@@ -139,15 +141,15 @@ Para vuelos **nocturnos o al atardecer** se recomienda —no lo exige la norma�
 
 En los planeadores se utilizan principalmente dos tipos de sistemas:
 
-* **Sistema de flujo continuo:** Suministra un caudal constante de oxígeno regulado por el piloto (habitualmente 2 a 2,5 L/min). Es sencillo, fiable y económico, pero consume oxígeno también durante la exhalación, lo que limita la autonomía y reseca las mucosas nasales. Con **cánula**, la interfaz habitual en planeador, sólo es adecuado hasta unos **18.000 ft (FL180)**: por encima hace falta mascarilla, porque al hablar o al respirar por la boca la cánula deja de aportar oxígeno suficiente. Con mascarilla, la FAA lo considera adecuado hasta unos 25.000 ft. En vuelos de onda altos conviene llevar además un oxígeno de respaldo.
-* **Sistema a demanda pulsada (*Electronic Demand System*, EDS):** Detecta el inicio de cada inspiración mediante sensores barométricos y libera únicamente el volumen necesario, interrumpiendo el flujo durante la exhalación. Puede multiplicar por tres o cuatro la autonomía de la botella respecto al flujo continuo. El principal inconveniente es su dependencia de pilas de 9 V, que pueden fallar a temperaturas muy bajas; se recomienda conectarlo a la batería principal del planeador y usar la pila como respaldo.
+* **Sistema de flujo continuo:** Suministra un caudal constante de oxígeno que el piloto regula según la altitud: el caudalímetro va graduado en pies. Es sencillo, fiable y económico, pero consume oxígeno también durante la exhalación, lo que limita la autonomía y reseca las mucosas nasales. Con **cánula**, la interfaz habitual en planeador, sólo es adecuado hasta unos **18.000 ft (FL180)**: por encima hace falta mascarilla, porque al hablar o al respirar por la boca la cánula deja de aportar oxígeno suficiente. Con mascarilla, la FAA lo considera adecuado hasta unos 25.000 ft. En vuelos de onda altos conviene llevar además un oxígeno de respaldo.
+* **Sistema a demanda pulsada (EDS, *Electronic Delivery System*, nombre comercial de un fabricante):** Detecta el inicio de cada inspiración mediante sensores barométricos y libera únicamente el volumen necesario, interrumpiendo el flujo durante la exhalación. Puede multiplicar por tres o cuatro la autonomía de la botella respecto al flujo continuo. El principal inconveniente es su dependencia de pilas, que pueden fallar a temperaturas muy bajas: lleve pilas de repuesto. Conectarlo a la batería del planeador es una modificación de la aeronave, que sólo puede hacerse conforme a su manual de vuelo y a la normativa de aeronavegabilidad.
 
 ### Inspección, uso, mantenimiento y seguridad
 
 Antes de cada vuelo en altitud, compruebe visualmente la botella, las conexiones y los tubos. Verifique la presión con el manómetro y asegúrese de que la cánula o mascarilla no presenta pliegues.
 
 ::: {.callout-warning title="Seguridad"}
-**Oxígeno de aviación, no medicinal.** El oxígeno medicinal contiene mayor concentración de humedad, que puede congelarse en el regulador a temperaturas de altitud elevadas y bloquear el flujo. Utilice exclusivamente oxígeno etiquetado como «para uso aeronáutico» (oxígeno seco, pureza superior al 98,5%).
+**Oxígeno de aviación, no medicinal.** Utilice exclusivamente oxígeno de aviación. Ni el medicinal ni el industrial cumplen sus mismas especificaciones, de modo que su idoneidad para el uso aeronáutico no está garantizada.
 
 **Prohibido el contacto con grasas.** No aplique cremas hidratantes, protectores solares ni lubricantes cerca de las conexiones, reguladores o boquillas. El oxígeno a presión en contacto con sustancias grasas puede provocar una combustión explosiva sin necesidad de llama o chispa.
 :::
@@ -171,11 +173,11 @@ Registre sus valores de SpO~2~ a distintas altitudes durante los vuelos habitual
 
 * **Leyes de los gases:** La presión atmosférica disminuye con la altitud y, con ella, la presión parcial del oxígeno, que es siempre el 21 % de la total (ley de Dalton): cuanto más alto, menos oxígeno pasa a la sangre. Los gases corporales se expanden al ascender y se contraen al descender (ley de Boyle); no vuele con congestión nasal intensa: en el descenso la presión no se iguala y causa barotraumas dolorosos.
 * **Sistema respiratorio e hipoxia:** La hemoglobina transporta el oxígeno desde los alvéolos al cerebro. Con la altitud, la sangre se carga cada vez menos de oxígeno y se produce hipoxia, de forma progresiva.
-* **Clases de hipoxia:** Existen cuatro tipos: **hipóxica** (baja presión atmosférica, la más frecuente en planeador), **hipémica** (monóxido de carbono o tabaquismo), **estancada** (fuerzas G elevadas en virajes cerrados) e **histotóxica** (alcohol, drogas o medicamentos).
+* **Clases de hipoxia:** Existen cuatro tipos: **hipóxica** (baja presión atmosférica, la más frecuente en planeador), **hipémica** (monóxido de carbono o tabaquismo), **estancada** (fuerzas G elevadas en virajes cerrados) e **histotóxica** (alcohol, narcóticos o tóxicos).
 * **Síntomas y diagnóstico:** Uno de los primeros síntomas, y el más traicionero, suele ser la euforia; el piloto no percibe el peligro por sí mismo. El orden varía de una persona a otra. Después aparecen somnolencia, dificultad para calcular, cianosis y pérdida de conciencia. El pulsioxímetro ayuda a detectar la hipoxia antes de que los síntomas sean evidentes, pero el monóxido de carbono y el frío falsean su lectura.
 * **Tiempo útil de conciencia (TUC):** A 25.000 ft, el TUC es de 3 a 5 minutos; a 30.000 ft, de 1 a 2 minutos. Un descenso largo puede superar el TUC disponible: actúe siempre antes de necesitarlo.
 * **Normativa (SAO.OP.150 y su AMC):** El oxígeno suplementario es obligatorio cuando el piloto determine que su falta puede disminuir las facultades de los ocupantes; cuando no pueda determinarlo, la regla por defecto del AMC es usarlo siempre por encima de **10.000 ft**. En vuelo nocturno o al atardecer se **recomienda** (no es norma) desde los **5.000 ft**.
-* **Sistemas de oxígeno:** El flujo continuo es sencillo pero consume más oxígeno y reseca las mucosas. La cánula sólo sirve hasta unos 18.000 ft; por encima, mascarilla. El sistema a demanda pulsada (EDS) multiplica la autonomía de la botella, pero depende de pilas que pueden fallar con el frío. Use siempre oxígeno de aviación seco; no medicinal.
+* **Sistemas de oxígeno:** El flujo continuo es sencillo pero consume más oxígeno y reseca las mucosas. La cánula sólo sirve hasta unos 18.000 ft; por encima, mascarilla. El sistema a demanda pulsada (EDS) multiplica la autonomía de la botella, pero depende de pilas que pueden fallar con el frío. Use siempre oxígeno de aviación: el medicinal no cumple sus especificaciones.
 * **Seguridad del equipo:** No use grasas ni cremas cerca de conexiones de oxígeno: riesgo de combustión explosiva. Antes de cada vuelo, compruebe que la presión de la botella basta para el vuelo previsto con reserva.
 * **Hiperventilación:** Causada sobre todo por el estrés o la ansiedad, aunque también puede acompañar a la hipoxia. Al exhalar CO~2~ en exceso, los vasos cerebrales se contraen, produciendo síntomas similares a la hipoxia (hormigueo, calambres, mareo). Tratamiento: reducir el ritmo respiratorio, hablar en voz alta o reinhalar CO~2~ con una bolsa sobre la nariz y la boca. Ante la duda con la hipoxia, oxígeno primero.
 * **Pulsioxímetro:** Mantenga la saturación (SpO~2~) por encima del **90%**; por debajo de ese umbral, active el oxígeno y descienda de inmediato. Es una ayuda, no un sustituto: ante síntomas, actúe aunque la lectura sea buena.

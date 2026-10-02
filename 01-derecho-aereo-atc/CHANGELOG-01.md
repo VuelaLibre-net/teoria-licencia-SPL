@@ -224,6 +224,9 @@ capítulos:
   1189/2011 y 1029/2025; Orden FOM/1687/2015), el enlace consolidado de la Ley 21/2003 y los anexos
   17 y 18 entre los más relevantes. El 2018/1976 se cita como Reglamento de Ejecución. Hallazgo
   NOR-18 de la auditoría del libro 01.
+  La lista ya no se presenta como «versiones consolidadas»: los enlaces llevan a la norma original,
+  desde la que EUR-Lex y el BOE dan acceso a la consolidada (hallazgo NOR-10 de la auditoría del
+  libro 02).
 * **Glosario, CAVOK** — faltaban tres condiciones: la altitud mínima de sector más alta cuando
   supera los 5.000 ft, los torrecúmulos a cualquier altura y que no se notifique la visibilidad
   mínima (Reglamento de Ejecución (UE) 2017/373). Los libros 03 y 04 ya lo decían bien.
