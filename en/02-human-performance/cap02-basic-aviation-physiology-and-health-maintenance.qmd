@@ -1,6 +1,6 @@
 ---
 origen: 02-factores-humanos/cap02-fisiologia-aeronautica-basica-y-mantenimiento-de-salud.qmd
-origen-commit: 0b42784
+origen-commit: 440cb9b
 ---
 
 # Basic aviation physiology and health maintenance

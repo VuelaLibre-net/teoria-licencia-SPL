@@ -1,6 +1,6 @@
 ---
 origen: 02-factores-humanos/cap04-uso-de-oxigeno.qmd
-origen-commit: a331b50
+origen-commit: 440cb9b
 ---
 
 # Use of oxygen
@@ -9,7 +9,7 @@ origen-commit: a331b50
 
 ## The atmosphere and the gas laws
 
-A glider cockpit is not pressurised. To understand what altitude does to you in it, you need two basic principles of physics.
+A glider cockpit is not pressurised. To understand what altitude does to you in it, you need three gas laws.
 
 The atmosphere is made up of 78% nitrogen and 21% oxygen. Those percentages stay the same as you climb. What changes is the **atmospheric pressure**.
 

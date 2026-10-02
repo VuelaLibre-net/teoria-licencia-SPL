@@ -24,7 +24,7 @@ master_editable: ""
 
 **Qué enseña.** Que bajo estrés extremo la atención se concentra en un solo detalle —aquí, el
 variómetro— y se pierde todo lo demás. Texto en `cap03-psicologia-aeronautica-basica.qmd`: el
-cerebro «focaliza absolutamente toda su atención residual en un solo detalle del vuelo».
+cerebro «pone toda la atención que le queda en un solo detalle del vuelo».
 
 **Estado.** Marcada con `.corregir` en la fase 5 de la corrección (hallazgo PED-04). Hay que
 rehacerla. Queda abierta para un especialista en factores humanos la pregunta de si el fenómeno es

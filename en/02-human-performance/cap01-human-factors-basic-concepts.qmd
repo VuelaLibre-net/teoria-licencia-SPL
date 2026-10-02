@@ -1,6 +1,6 @@
 ---
 origen: 02-factores-humanos/cap01-factores-humanos-conceptos-basicos.qmd
-origen-commit: 0b42784
+origen-commit: 440cb9b
 ---
 
 # Human factors: basic concepts

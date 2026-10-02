@@ -121,6 +121,7 @@ rompe la compilación.
 * **Apéndice del syllabus** — no promete ya «cubrir todos los puntos necesarios para el examen»: dice que sigue los epígrafes oficiales y da el formato del examen de la asignatura (10 preguntas en 20 minutos, AMC1 SFCL.135). Hallazgo PED-06 de la auditoría del libro 02.
 * **Epígrafe** — la cita de Frank Borman llevaba el año 1968, que no consta en ninguna fuente; se quita. La atribución sigue sin fuente primaria. Hallazgo PED-07 de la auditoría del libro 02.
 * **Erratas** — «monomando», «de abordo», «abrevié», «aterriceble», «Paradojicamente» y el trato de tú y de usted mezclado en el escaneo visual. Hallazgo PED-01 de la auditoría del libro 02.
+* **cap04, leyes de los gases** — el capítulo anunciaba «dos principios básicos de física» y explicaba tres: las leyes de Dalton, Boyle y Henry.
 
 ### Añadido
 
@@ -129,6 +130,11 @@ rompe la compilación.
 
 ### Cambiado
 
+* **Introducción y cap01–cap04, redacción** — se reescriben las entradillas de los capítulos, la
+  parte propia de la introducción y unas setenta frases que sonaban a fórmula o recargadas («es
+  vital», «la clave de la seguridad radica», «un dantesco dolor», «el fantasma del mareo», «una
+  convergencia explosiva») por otras más directas. No cambian los datos, las normas citadas, los
+  post-it, las figuras ni la terminología.
 * **Figuras por rehacer: marca «EN REVISIÓN» y nota en el pie** — nueve figuras en las que la
   auditoría encontró errores llevan encima, en diagonal, la marca «EN REVISIÓN», en el PDF,
   el EPUB y la web, y su pie termina con *(CORREGIR: …)*, que dice qué está mal. Primero, la lista IMSAFE

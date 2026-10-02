@@ -2,11 +2,11 @@
 
 ***Tema 2 de 9 del examen teórico para la Licencia de Piloto de Planeador (SPL)***
 
-La gran mayoría de los accidentes de vuelo a vela tienen un factor humano como causa principal. No es incompetencia: el ser humano tiene límites fisiológicos y psicológicos que no desaparecen cuando sube a un planeador. La fatiga que degrada la toma de decisiones. La presión de grupo que empuja a despegar cuando la decisión correcta es quedarse en tierra.
+Detrás de la mayoría de los accidentes de vuelo a vela hay un factor humano. No se trata de incompetencia: el cuerpo y la mente tienen límites, y siguen ahí cuando te sientas en el planeador. La fatiga empeora las decisiones. La presión del grupo empuja a despegar el día en que lo sensato era quedarse en tierra.
 
-Cuatro bloques temáticos cubren desde el modelo SHELL hasta el chequeo IMSAFE: las herramientas que separan al piloto que gestiona sus límites del que los ignora.
+Son cuatro capítulos: los conceptos básicos de los factores humanos y del error, la fisiología del vuelo y el cuidado de la salud, la psicología de las decisiones y el uso del oxígeno.
 
-El mayor riesgo en la cabina eres tú. Aprende a gestionarlo.
+Saber dónde están tus límites forma parte de la preparación del vuelo, igual que el prevuelo del planeador.
 <!-- GUÍA-DE-LECTURA: desde esta marca hasta el final, el texto es idéntico en
      los 9 libros y el CI comprueba que no diverge. Si lo editas, propágalo a
      los otros 8. Todo lo anterior es propio de este libro. -->
