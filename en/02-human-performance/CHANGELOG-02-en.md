@@ -59,11 +59,12 @@ was translated from (`origen-commit`). Terminology follows `en/terminologia.yml`
 
 ### Changed
 
-* **Figures to be redrawn: “IN REVIEW” mark and note in the caption** — eight figures with errors
+* **Figures to be redrawn: “IN REVIEW” mark and note in the caption** — nine figures with errors
   found in the audit carry the diagonal “IN REVIEW” mark and a caption ending in *(FIX: …)*:
   IMSAFE, Maslow's pyramid, the Swiss cheese model, the error chain, the stress curve, DECIDE,
-  tunnel vision and time of useful consciousness. The mark and the note are removed when each
-  figure is replaced.
+  tunnel vision, time of useful consciousness and the pulse oximeter, which shows a
+  manufacturer's brand name. The mark and the note are removed when each
+  figure is replaced. The cyanosis image is renamed `02-cap04-cianosis.jpg`, as only cap04 uses it.
 * **cap01, cap02, cap03** — a few sentences reworded to read more naturally. No figures,
   regulatory quotes or glossary terms change.
 * **Introduction and cap01–cap04, including the chapter summaries** — prose revised throughout

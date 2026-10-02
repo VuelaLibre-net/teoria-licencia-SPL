@@ -1,6 +1,6 @@
 ---
 origen: 02-factores-humanos/cap04-uso-de-oxigeno.qmd
-origen-commit: 0b42784
+origen-commit: a331b50
 ---
 
 # Use of oxygen
@@ -50,7 +50,7 @@ One of the first symptoms, and the most dangerous, is usually **euphoria**: the 
 Euphoria is the most treacherous symptom of hypoxia: the pilot does not suspect they are in danger. If you notice blurred vision, tingling in your hands and feet, unjustified euphoria or a headache after a fast climb to high altitude, assume hypoxia. Turn your equipment up to its maximum oxygen supply and start descending immediately.
 :::
 
-![Cyanosis: a bluish colour in the extremities caused by lack of oxygen](imagenes/02-cap02-sintomas-hipoxia.jpg){#fig-02-cap04-cianosis}
+![Cyanosis: a bluish colour in the extremities caused by lack of oxygen](imagenes/02-cap04-cianosis.jpg){#fig-02-cap04-cianosis}
 
 ### Time of Useful Consciousness (TUC)
 
@@ -163,7 +163,7 @@ Before every high-altitude flight, visually check the cylinder, the connections 
 
 The pulse oximeter is a non-invasive device that measures the oxygen saturation of the blood (SpO~2~) and the heart rate in real time (@fig-02-cap04-pulsioximetro). It is a very useful aid for detecting hypoxia before the symptoms become obvious to the pilot, but it does not replace watching for symptoms. It has important limits: with **carbon monoxide** it reads normal even when there is hypoxia, because it mistakes haemoglobin taken up by CO for haemoglobin saturated with oxygen; and cold fingers, movement or direct sunlight give low or unstable readings. If you have symptoms, act even if the reading looks good.
 
-![Finger pulse oximeter showing oxygen saturation and heart rate](imagenes/02-cap04-pulsioximetro.jpg){#fig-02-cap04-pulsioximetro}
+![Finger pulse oximeter showing oxygen saturation and heart rate. *(FIX: the image shows a manufacturer's brand name; it must be replaced with a generic pulse oximeter.)*](imagenes/02-cap04-pulsioximetro.jpg){#fig-02-cap04-pulsioximetro .corregir}
 
 Put the pulse oximeter on your index finger before take-off and keep the reading in view throughout the flight. For wave flights, fix it in the cockpit with Velcro or use an adapted glove so that you can read it without taking off your cold-weather gear.
 
