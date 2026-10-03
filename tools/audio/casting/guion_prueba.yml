@@ -1,0 +1,33 @@
+# Frases fijas que lee cada candidata en las pruebas de casting. Salen del
+# libro y se verbalizan con normalizar.py al sintetizar, igual que el guion
+# real. Cada papel del reparto se juzga sobre las muestras que le tocan.
+muestras:
+  - id: narracion
+    papeles: [Narradora, Divulgadora, Locutor]
+    texto: >-
+      El derecho aéreo moderno nace con el Convenio de Chicago de 1944. Allí los
+      países acordaron unas normas de aviación comunes, y de ese acuerdo salen los
+      principios que hoy nos dejan volar de un país a otro con seguridad y orden.
+      ¿Y entonces, qué papel juega AESA? Es tu autoridad competente directa: emite
+      tu licencia, inspecciona tu club y vigila el cumplimiento en territorio español.
+  - id: titulo
+    papeles: [Locutor]
+    texto: >-
+      Capítulo 7. Reglamentación de tránsito aéreo: estructura del espacio aéreo.
+  - id: seguridad
+    papeles: [Alerta, Locutor]
+    texto: >-
+      Seguridad. Infringir una zona P o R activa puede llevar a sanciones graves e
+      incluso a la interceptación por aviones militares. Planifica tu ruta antes de
+      despegar y consulta los NOTAM del día.
+  - id: tecnica
+    papeles: [Narradora, Instructor, Alerta]
+    texto: >-
+      Con QNH 1013 hPa, asciende a 3000 ft y notifica a Juliana Información en
+      123,500 MHz. A FL145 o superior, el transpondedor es obligatorio.
+  - id: instructor
+    papeles: [Instructor, Divulgadora]
+    texto: >-
+      Regla de oro. Si ves una RMZ en el mapa, no entres mudo: llama a la frecuencia
+      indicada antes de entrar. El airmanship no se aprende en los libros, pero
+      empieza en ellos.

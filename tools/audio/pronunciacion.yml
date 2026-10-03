@@ -1,0 +1,190 @@
+# Léxico de pronunciación del audiolibro: cómo se DICE cada sigla o palabra
+# que el motor de voz leería mal. Lo aplica tools/audio/normalizar.py antes de
+# sintetizar, así que el guion (`build/audio/guion/…/capNN.txt`) muestra ya lo
+# que suena.
+#
+# Para corregir una pronunciación: añade o cambia la entrada y vuelve a lanzar
+# `make audio NN capNN`. Sólo se sintetizan de nuevo los fragmentos que la usan.
+#
+# Escritura de las lecturas: ortografía española, con tilde donde cae el acento
+# («nótam», «méidei»). Una sigla que se deletrea se escribe letra a letra.
+# Las siglas que no estén aquí se leen como palabra si son pronunciables
+# (4+ letras sin tres consonantes seguidas) y si no se deletrean; `sembrar.py`
+# lista las que faltan.
+
+# Palabras enteras en MAYÚSCULAS, distinguiendo mayúsculas.
+siglas:
+  # Organismos
+  OACI: oací
+  ICAO: icao
+  EASA: easa
+  AESA: aesa
+  ENAIRE: enaire
+  AEMET: aemet
+  FAA: efe a a
+  FAI: fai
+  ONU: onu
+  UE: u e
+  CE: ce e
+  CEE: ce e e
+  DGAC: de ge a ce
+  CIAIAC: ciaiac
+  SASEMAR: sasemar
+  # Reglamentos y documentos
+  SERA: sera
+  SFCL: ese efe ce ele
+  SAO: sao
+  GEN: gen
+  OP: o pe
+  DEC: dec
+  AMC: a eme ce
+  GM: ge eme
+  CS: ce ese
+  AIP: a i pe
+  AIC: a i ce
+  ENR: e ene erre
+  AD: a de
+  AFM: a efe eme
+  ARC: arc
+  NOTAM: nótam
+  SNOWTAM: snóutam
+  # Licencias y personas
+  SPL: ese pe ele
+  LAPL: lapl
+  PPL: pe pe ele
+  TMG: te eme ge
+  PIC: pe i ce
+  FI: efe i
+  FE: efe e
+  ATO: a te o
+  DTO: de te o
+  # Tránsito aéreo
+  ATC: a te ce
+  ATS: a te ese
+  ACC: a ce ce
+  AFIS: afis
+  FIS: fis
+  ATIS: atis
+  CTR: ce te erre
+  TMA: te eme a
+  ATZ: a te zeta
+  FIR: fir
+  RMZ: erre eme zeta
+  TMZ: te eme zeta
+  VFR: uve efe erre
+  IFR: i efe erre
+  VMC: uve eme ce
+  IMC: i eme ce
+  FPL: efe pe ele
+  ETA: eta
+  ETD: e te de
+  UTC: u te ce
+  SAR: sar
+  ELT: e ele te
+  PLB: pe ele be
+  MAYDAY: méidei
+  PAN: pan
+  NORDO: nordo
+  SSR: ese ese erre
+  FLARM: flarm
+  ADS: a de ese
+  # Meteorología
+  METAR: métar
+  SPECI: speci
+  TAF: taf
+  SIGMET: sígmet
+  AIRMET: érmet
+  VOLMET: vólmet
+  GAMET: gámet
+  SIGWX: sig uve doble equis
+  CAVOK: cavok
+  NOSIG: nosig
+  TEMPO: tempo
+  BECMG: becoming
+  PROB: prob
+  FEW: fiú
+  SCT: ese ce te
+  BKN: be ka ene
+  OVC: o uve ce
+  NSC: ene ese ce
+  NCD: ene ce de
+  SKC: ese ka ce
+  CB: ce be
+  TCU: te ce u
+  ISA: isa
+  CAPE: cape
+  LCL: ele ce ele
+  QNH: cu ene hache
+  QFE: cu efe e
+  QNE: cu ene e
+  TT: te te
+  LI: ele i
+  # Navegación y vuelo
+  GPS: ge pe ese
+  GNSS: ge ene ese ese
+  VOR: vor
+  DME: de eme e
+  NDB: ene de be
+  VHF: uve hache efe
+  UHF: u hache efe
+  # Referencias de altura: se dice lo que significan, no se deletrean
+  # («mil pies sobre el terreno»). Criterio de Ramón (3 oct 2026) para toda
+  # esta familia de siglas.
+  AGL: sobre el terreno
+  AMSL: sobre el nivel del mar
+  MSL: nivel medio del mar
+  TAS: tas
+  IAS: i a ese
+  CAS: cas
+  GS: ge ese
+  WCA: uve doble ce a
+  TC: te ce
+  TH: te hache
+  MH: eme hache
+  CH: ce hache
+  CG: ce ge
+  MTOW: eme te o uve doble
+  VNE: uve ene e
+  NE: ene e
+  PTT: pe te te
+  CO: ce o
+  UV: ultravioleta
+  # Mnemotecnias y palabras en mayúsculas que son palabras
+  IMSAFE: im séif
+  PAVE: péiv
+  "NO": "no"
+  "SI": "si"
+  QUÉ: qué
+  CÓMO: cómo
+
+# Palabras o expresiones, sin distinguir mayúsculas (sobre todo inglés).
+palabras:
+  airmanship: érmanship
+  safety: séifti
+  Basic Regulation: béisic reguléishon
+  Implementing Rules: implementing rules
+  Acceptable Means of Compliance: acséptabol mins of compláians
+  Guidance Material: gáidans matírial
+  Certification Specifications: certificéishon spesifikéishons
+  Sailplane Flight Crew Licensing: séilplein fláit cru láisensing
+  Sailplane Air Operations: séilplein er operéishons
+  Sailplane Pilot Licence: séilplein páilot láisens
+  Standardised European Rules of the Air: stándardaisd iuropían rúls of de er
+  Part: part
+  briefing: brífing
+  debriefing: dibrífing
+  checklist: chéklist
+  cross-country: cros cántri
+  no-go: nou góu
+  go: góu
+  flutter: fláter
+  stall: stol
+  spin: spin
+  vs.: frente a
+  vs: frente a
+  etc.: etcétera
+  SpO2: ese pe o dos
+  LiFePO4: litio ferrofosfato
+  C169a: ce ciento sesenta y nueve a
+  IRs: i erres
+  AltMoC: alt moc

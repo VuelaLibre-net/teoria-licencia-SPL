@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Casting de voces</title>
+<style>
+  :root { --fondo:#faf8f4; --texto:#1d1d1b; --suave:#6b6760; --linea:#e2ddd3; --acento:#1f5f8b; --tarjeta:#fff; }
+  @media (prefers-color-scheme: dark) {
+    :root { --fondo:#16171a; --texto:#ecebe8; --suave:#9a978f; --linea:#2c2e33; --acento:#7fb6dc; --tarjeta:#1e2024; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--fondo); color:var(--texto); font:15px/1.5 system-ui, sans-serif; }
+  main { max-width: 980px; margin: 0 auto; padding: 24px 16px 80px; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  .ayuda { color: var(--suave); margin: 0 0 20px; }
+  nav { display:flex; gap:8px; flex-wrap:wrap; margin-bottom: 16px; position: sticky; top: 0; background: var(--fondo); padding: 8px 0; z-index: 1; }
+  nav button, .acciones button { border:1px solid var(--linea); background:var(--tarjeta); color:var(--texto); padding:6px 12px; border-radius:6px; cursor:pointer; font:inherit; }
+  nav button[aria-pressed=true] { border-color: var(--acento); color: var(--acento); font-weight: 600; }
+  .texto { background: var(--tarjeta); border:1px solid var(--linea); border-radius:8px; padding:12px 14px; margin-bottom:12px; }
+  .papeles { color: var(--suave); font-size: 13px; margin-bottom: 6px; }
+  .papel { display:inline-block; padding: 1px 8px; border-radius: 10px; border:1px solid var(--linea); margin: 2px 4px 2px 0; color: var(--texto); }
+  .papel-F { border-color: #b0577a; }
+  .papel-M { border-color: #3f78a8; }
+  .voz .cod .encaja { font-size: 11px; line-height: 1.3; margin-top: 2px; }
+  .voz { display:grid; grid-template-columns: 110px 1fr; gap: 6px 14px; align-items:center; background:var(--tarjeta);
+         border:1px solid var(--linea); border-radius:8px; padding:10px 14px; margin-bottom:8px; }
+  .voz .cod { font-weight:700; font-variant-numeric: tabular-nums; }
+  .voz .cod small { display:block; font-weight:400; color:var(--suave); }
+  audio { width: 100%; height: 34px; }
+  .notas { grid-column: 2; display:flex; flex-wrap:wrap; gap: 4px 16px; }
+  .crit { display:flex; align-items:center; gap:6px; font-size:13px; }
+  .crit span { min-width: 84px; color: var(--suave); }
+  .crit label { cursor:pointer; padding: 1px 6px; border-radius: 4px; border:1px solid var(--linea); }
+  .crit input { display:none; }
+  .crit input:checked + label { background: var(--acento); color: var(--fondo); border-color: var(--acento); }
+  .acciones { display:flex; gap:8px; margin-top: 24px; }
+  @media (max-width: 560px) { .voz { grid-template-columns: 1fr; } .notas { grid-column: 1; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>Casting de voces del audiolibro</h1>
+  <p class="ayuda">Escucha a ciegas: cada voz lleva un código al azar. Puntúa de 1 (mal) a 5 (excelente)
+    la <b>naturalidad</b>, el <b>acento</b> peninsular, la <b>claridad</b> y la adecuación al <b>papel</b>
+    indicado. Cada papel pide una voz de un sexo (Narradora y Divulgadora, femenina; Locutor,
+    Instructor y Alerta, masculina): puntúa «papel» pensando sólo en los que encajan con la voz. Las notas se guardan en este navegador; al terminar, pulsa «Exportar votos» y pasa
+    <code>votos.json</code> a <code>casting.py elegir</code>.</p>
+  <nav id="pestanas"></nav>
+  <section id="bloque"></section>
+  <div class="acciones">
+    <button id="exportar">Exportar votos</button>
+    <button id="borrar">Borrar mis votos</button>
+  </div>
+</main>
+<script>
+const DATOS = /*DATOS*/null;
+const CRITERIOS = [["naturalidad","Naturalidad"],["acento","Acento"],["claridad","Claridad"],["papel","Papel"]];
+const CLAVE = "casting-votos-" + DATOS.map(b => b.items.map(i => i.codigo).join("")).join("").slice(0, 40);
+let votos = {};
+try { votos = JSON.parse(localStorage.getItem(CLAVE) || "{}"); } catch (e) { votos = {}; }
+function guardar() { try { localStorage.setItem(CLAVE, JSON.stringify(votos)); } catch (e) {} }
+
+const pestanas = document.getElementById("pestanas");
+const bloque = document.getElementById("bloque");
+let actual = 0;
+
+function pintarPestanas() {
+  pestanas.innerHTML = "";
+  DATOS.forEach((b, i) => {
+    const hechos = b.items.filter(it => Object.keys((votos[b.id] || {})[it.codigo] || {}).length === 4).length;
+    const bt = document.createElement("button");
+    bt.textContent = `${b.id} (${hechos}/${b.items.length})`;
+    bt.setAttribute("aria-pressed", i === actual);
+    bt.onclick = () => { actual = i; pintar(); };
+    pestanas.appendChild(bt);
+  });
+}
+
+function pintar() {
+  pintarPestanas();
+  const b = DATOS[actual];
+  bloque.innerHTML = "";
+  const t = document.createElement("div");
+  t.className = "texto";
+  // Cada papel lleva el sexo de la voz que le corresponde en el reparto:
+  // una voz femenina no se puntúa como Locutor, ni una masculina como Narradora.
+  const papeles = b.papeles.map(p => typeof p === "string" ? { papel: p, sexo: "?" } : p);
+  const etiqueta = p => p.sexo === "F" ? "voz femenina" : p.sexo === "M" ? "voz masculina" : "";
+  t.innerHTML = `<div class="papeles">Papeles que se juzgan aquí: ${papeles.map(p =>
+      `<span class="papel papel-${p.sexo}">${p.papel}${etiqueta(p) ? " · " + etiqueta(p) : ""}</span>`).join(" ")}</div><div></div>`;
+  t.lastChild.textContent = b.texto;
+  bloque.appendChild(t);
+  b.items.forEach(it => {
+    const v = document.createElement("div");
+    v.className = "voz";
+    const encaja = papeles.filter(p => p.sexo === "?" || p.sexo === it.sexo).map(p => p.papel);
+    const pista = encaja.length ? `para ${encaja.join(", ")}` : "no encaja en estos papeles";
+    v.innerHTML = `<div class="cod">${it.codigo}<small>${it.sexo === "F" ? "femenina" : "masculina"}</small><small class="encaja">${pista}</small></div>
+      <audio controls preload="none" src="${it.audio}"></audio><div class="notas"></div>`;
+    const notas = v.querySelector(".notas");
+    CRITERIOS.forEach(([k, nombre]) => {
+      const c = document.createElement("div");
+      c.className = "crit";
+      c.innerHTML = `<span>${nombre}</span>`;
+      for (let n = 1; n <= 5; n++) {
+        const id = `${b.id}-${it.codigo}-${k}-${n}`;
+        const inp = document.createElement("input");
+        inp.type = "radio"; inp.name = `${b.id}-${it.codigo}-${k}`; inp.id = id;
+        inp.checked = ((votos[b.id] || {})[it.codigo] || {})[k] === n;
+        inp.onchange = () => {
+          votos[b.id] = votos[b.id] || {};
+          votos[b.id][it.codigo] = votos[b.id][it.codigo] || {};
+          votos[b.id][it.codigo][k] = n;
+          guardar(); pintarPestanas();
+        };
+        const lab = document.createElement("label");
+        lab.htmlFor = id; lab.textContent = n;
+        c.append(inp, lab);
+      }
+      notas.appendChild(c);
+    });
+    // Una sola muestra sonando a la vez.
+    v.querySelector("audio").addEventListener("play", e => {
+      document.querySelectorAll("audio").forEach(a => { if (a !== e.target) a.pause(); });
+    });
+    bloque.appendChild(v);
+  });
+}
+
+document.getElementById("exportar").onclick = () => {
+  const blob = new Blob([JSON.stringify(votos, null, 1)], { type: "application/json" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob); a.download = "votos.json"; a.click();
+};
+document.getElementById("borrar").onclick = () => {
+  if (confirm("¿Borrar todas tus notas de este panel?")) { votos = {}; guardar(); pintar(); }
+};
+pintar();
+</script>
+</body>
+</html>

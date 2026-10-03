@@ -1,0 +1,112 @@
+# Reparto del audiolibro: qué voz dice cada parte del guion y con qué pausas.
+#
+# Las voces se nombran por el NOMBRE del perfil en VoiceStudio, no por su id:
+# el id lo asigna cada instalación. Son clones de grabaciones peninsulares con
+# licencia libre, elegidos por escucha ciega con tools/audio/casting.py
+# (ver LEEME.md, «Casting»); `casting.py aplicar` reescribe este bloque.
+# La `atribucion`, cuando la licencia la exige, entra en los créditos hablados
+# y en los metadatos del audiolibro.
+#
+# `make audio-voces` comprueba que existen en VoiceStudio. En otra máquina se
+# recrean con `casting.py referencias <candidata>` y `clonar`, y renombrando el
+# perfil `CAST <candidata>` a `SPL <papel>`.
+
+voces:
+  SPL Narradora:
+    candidata: sharvard-f
+    fuente: "Sharvard Corpus (Aubanel, García Lecumberri y Cooke, 2014), Edinburgh DataShare"
+    url: https://datashare.ed.ac.uk/handle/10283/574
+    licencia: "CC-BY-3.0"
+    consentimiento: investigacion
+    atribucion: "Voz basada en el Sharvard Corpus, de Aubanel, García Lecumberri y Cooke, Universidad de Edimburgo, con licencia Creative Commons Atribución 3.0"
+  SPL Locutor:
+    candidata: mls-12367
+    fuente: "Multilingual LibriSpeech (LibriVox), lector 12367"
+    url: http://www.archive.org/download/poesias_1805_librivox/poesias_070_unamuno_64kb.mp3
+    licencia: "CC-BY-4.0 (corpus); grabación LibriVox de dominio público"
+    consentimiento: pd-lectura
+  SPL Instructor:
+    candidata: mls-7393
+    fuente: "Multilingual LibriSpeech (LibriVox), lector 7393"
+    url: http://www.archive.org/download/historietas_nacionales_1602_librivox/historietas_nacionales_19_alarcon_64kb.mp3
+    licencia: "CC-BY-4.0 (corpus); grabación LibriVox de dominio público"
+    consentimiento: pd-lectura
+  SPL Alerta:
+    # Instrucción de estilo de CosyVoice3, siempre EN ESPAÑOL: en inglés el
+    # motor pasa a pronunciar a la inglesa («pi o ar»). Con instrucción,
+    # VoiceStudio clona sin la transcripción de la referencia.
+    instruccion: "Voz firme, clara, autoritaria y ligeramente más pausada."
+    candidata: davefx
+    fuente: "Home Assistant voice-datasets, es_ES «Dave»"
+    url: https://github.com/OHF-Voice/voice-datasets
+    licencia: "CC0-1.0"
+    consentimiento: donada-tts
+  SPL Divulgadora:
+    candidata: mls-10246
+    fuente: "Multilingual LibriSpeech (LibriVox), lector 10246"
+    url: http://www.archive.org/download/isaias_1603_librivox/isaias_16_reinavalera_64kb.mp3
+    licencia: "CC-BY-4.0 (corpus); grabación LibriVox de dominio público"
+    consentimiento: pd-lectura
+
+# Rol (los que marca tools/audio/audio.lua) → voz, velocidad y pausas en ms.
+# `enfasis: true` convierte la negrita del libro en énfasis de CosyVoice3
+# (<strong>); en los demás roles la negrita no suena. `velocidad` la ignora
+# CosyVoice3 en VoiceStudio 0.5.6 (no se la pasa al modelo): sólo cuenta con
+# OmniVoice.
+# `pausa` es el silencio DESPUÉS del bloque; `pausa_antes`, el que se exige
+# antes (se suma al del bloque anterior si éste dejaba menos).
+roles:
+  titulo-capitulo: { voz: SPL Locutor,     velocidad: 0.95, pausa_antes: 800, pausa: 1500 }
+  seccion:         { voz: SPL Locutor,     velocidad: 0.95, pausa_antes: 1200, pausa: 700 }
+  subseccion:      { voz: SPL Locutor,     velocidad: 0.95, pausa_antes: 900, pausa: 500 }
+  rotulo:          { voz: SPL Locutor,     velocidad: 0.95, pausa_antes: 700, pausa: 400 }
+  narracion:       { voz: SPL Narradora,   pausa: 450 }
+  lista:           { voz: SPL Narradora,   pausa: 350 }
+  cita:            { voz: SPL Divulgadora, pausa: 500 }
+  figura:          { voz: SPL Narradora,   velocidad: 0.95, pausa_antes: 300, pausa: 600 }
+  tabla:           { voz: SPL Narradora,   velocidad: 0.95, pausa: 450 }
+  codigo:          { voz: SPL Narradora,   velocidad: 0.85, pausa: 600 }
+  seguridad:       { voz: SPL Alerta,      velocidad: 0.95, pausa: 450, enfasis: true }
+  normativa:       { voz: SPL Alerta,      pausa: 450 }
+  regla-de-oro:    { voz: SPL Instructor,  pausa: 450 }
+  airmanship:      { voz: SPL Instructor,  pausa: 450 }
+  resumen:         { voz: SPL Narradora,   velocidad: 0.95, pausa: 450 }
+  ejercicio:       { voz: SPL Instructor,  pausa: 450 }
+  solucion:        { voz: SPL Narradora,   pausa: 450 }
+  mas-alla:        { voz: SPL Divulgadora, pausa: 450 }
+  creditos:        { voz: SPL Locutor,     pausa: 700 }
+  # Sólo pausa, sin texto: el cierre de una caja y el hueco para pensar
+  # antes de la solución de un ejercicio.
+  fin-caja:        { pausa: 800 }
+  pausa-ejercicio: { pausa: 2500 }
+
+# Earcons (tools/audio/earcons.py): tono breve delante de un bloque, para
+# señalar un cambio de jerarquía. La clave es el rol, o `caja-<caja>` para el
+# rótulo de una caja. Los inserta el montaje (montaje.py), no VoiceStudio.
+earcons:
+  titulo-capitulo: capitulo      # nota grave de piano eléctrico, 1,2 s
+  seccion: seccion               # la misma, más aguda y corta, 0,6 s
+  caja-seguridad: aviso          # doble pulso sutil antes de «Seguridad.»
+
+# Silencios pedagógicos, en ms. Mandan sobre la `pausa` del rol.
+pausas:
+  item_lista: 800          # entre ítems de una lista (lectura de checklist)
+  fin_procedimiento: 2500  # tras la última línea de una lista numerada
+  fin_ejercicio: 2500      # tras la solución de un ejercicio, para asimilarla
+
+# Parámetros de síntesis y de máster. `num_step: 32` es el preset de calidad
+# del modelo (16 es el de la aplicación, bueno para borradores). La semilla
+# fija hace que un mismo texto suene igual en cada render, y es parte de la
+# clave de la caché: cambiarla vuelve a sintetizarlo todo.
+sintesis:
+  # Motor de VoiceStudio para todo el libro (omnivoice, cosyvoice…). Cambiarlo
+  # vuelve a sintetizar todo; elígelo con la ronda de motores del casting.
+  motor: cosyvoice
+  idioma: es
+  num_step: 32
+  guidance_scale: 2.0
+  seed: 42
+  trim_edges: true
+  loudness: acx          # -19 LUFS integrados, -3 dBTP: lo que pide ACX/Audible
+  mp3_bitrate: 128k
+  m4b_bitrate: 128k

@@ -1,0 +1,114 @@
+# Datos de la verbalización: unidades, signos y deletreo. Las expresiones
+# regulares viven en normalizar.py; aquí sólo lo que se lee, para retocarlo
+# sin tocar código.
+
+# Unidad tras un número. `genero` decide «una milla» / «un pie» y
+# «doscientas millas» / «doscientos pies». `singular` se usa con el 1.
+# Se prueban en este orden: las compuestas (km/h) antes que sus piezas (km).
+unidades:
+  - { simbolo: "kg/m³",  plural: "kilos por metro cúbico", singular: "kilo por metro cúbico", genero: m }
+  - { simbolo: "kg/m3",  plural: "kilos por metro cúbico", singular: "kilo por metro cúbico", genero: m }
+  - { simbolo: "kg · m", plural: "kilos metro",         singular: "kilo metro",         genero: m }
+  - { simbolo: "kg·m",   plural: "kilos metro",         singular: "kilo metro",         genero: m }
+  - { simbolo: "m³",     plural: "metros cúbicos",      singular: "metro cúbico",       genero: m }
+  - { simbolo: "m3",     plural: "metros cúbicos",      singular: "metro cúbico",       genero: m }
+  - { simbolo: "m²",     plural: "metros cuadrados",    singular: "metro cuadrado",     genero: m }
+  - { simbolo: "m2",     plural: "metros cuadrados",    singular: "metro cuadrado",     genero: m }
+  - { simbolo: "km/h",  plural: "kilómetros por hora", singular: "kilómetro por hora", genero: m }
+  - { simbolo: "m/s",   plural: "metros por segundo",  singular: "metro por segundo",  genero: m }
+  - { simbolo: "ft/min", plural: "pies por minuto",    singular: "pie por minuto",     genero: m }
+  - { simbolo: "fpm",   plural: "pies por minuto",     singular: "pie por minuto",     genero: m }
+  - { simbolo: "°C",    plural: "grados Celsius",      singular: "grado Celsius",      genero: m }
+  - { simbolo: "ºC",    plural: "grados Celsius",      singular: "grado Celsius",      genero: m }
+  - { simbolo: "°F",    plural: "grados Fahrenheit",   singular: "grado Fahrenheit",   genero: m }
+  - { simbolo: "hPa",   plural: "hectopascales",       singular: "hectopascal",        genero: m }
+  - { simbolo: "inHg",  plural: "pulgadas de mercurio", singular: "pulgada de mercurio", genero: f }
+  - { simbolo: "MHz",   plural: "megahercios",         singular: "megahercio",         genero: m }
+  - { simbolo: "kHz",   plural: "kilohercios",         singular: "kilohercio",         genero: m }
+  - { simbolo: "km",    plural: "kilómetros",          singular: "kilómetro",          genero: m }
+  - { simbolo: "NM",    plural: "millas náuticas",     singular: "milla náutica",      genero: f }
+  - { simbolo: "nm",    plural: "millas náuticas",     singular: "milla náutica",      genero: f }
+  - { simbolo: "ft",    plural: "pies",                singular: "pie",                genero: m }
+  - { simbolo: "kt",    plural: "nudos",               singular: "nudo",               genero: m }
+  - { simbolo: "kts",   plural: "nudos",               singular: "nudo",               genero: m }
+  - { simbolo: "KT",    plural: "nudos",               singular: "nudo",               genero: m }
+  - { simbolo: "kg",    plural: "kilos",               singular: "kilo",               genero: m }
+  - { simbolo: "lb",    plural: "libras",              singular: "libra",              genero: f }
+  - { simbolo: "cm",    plural: "centímetros",         singular: "centímetro",         genero: m }
+  - { simbolo: "mm",    plural: "milímetros",          singular: "milímetro",          genero: m }
+  - { simbolo: "m",     plural: "metros",              singular: "metro",              genero: m }
+  - { simbolo: "l",     plural: "litros",              singular: "litro",              genero: m }
+  - { simbolo: "L",     plural: "litros",              singular: "litro",              genero: m }
+  - { simbolo: "h",     plural: "horas",               singular: "hora",               genero: f }
+  - { simbolo: "min",   plural: "minutos",             singular: "minuto",             genero: m }
+  - { simbolo: "s",     plural: "segundos",            singular: "segundo",            genero: m }
+  - { simbolo: "g",     plural: "ge",                  singular: "ge",                 genero: f }
+  - { simbolo: "%",     plural: "por ciento",          singular: "por ciento",         genero: m }
+  - { simbolo: "°",     plural: "grados",              singular: "grado",              genero: m }
+  - { simbolo: "º",     plural: "grados",              singular: "grado",              genero: m }
+
+# Palabras tras un número que piden femenino aunque no sean unidad
+# («doscientas millas», «una octa»).
+femeninos: [millas, milla, octas, octa, horas, hora, libras, libra, veces, vez,
+            personas, persona, plazas, plaza, ruedas, rueda, palas, pala,
+            letras, letra, cifras, cifra, semanas, semana, revoluciones,
+            toneladas, tonelada, pulgadas, pulgada, clases, clase, fases, fase,
+            alas, ala, partes, parte, áreas, área, zonas, zona, normas, norma,
+            libertades, libertad, reglas, regla, etapas, etapa, fuerzas, fuerza,
+            preguntas, pregunta, licencias, licencia, aeronaves, aeronave,
+            categorías, categoría, nubes, nube, capas, capa, palabras, palabra]
+
+# Signos que quedan en el texto (prosa o fórmulas ya convertidas por audio.lua).
+signos:
+  "≈": " aproximadamente "
+  "×": " por "
+  "÷": " entre "
+  "±": " más o menos "
+  "≤": " menor o igual que "
+  "≥": " mayor o igual que "
+  "<": " menor que "
+  ">": " mayor que "
+  "→": ", pasa a, "
+  "⇒": ", luego, "
+  "√": " raíz cuadrada de "
+  "²": " al cuadrado"
+  "³": " al cubo"
+  "=": " igual a "
+  "+": " más "
+  "·": " por "
+  "&": " y "
+  "@": " arroba "
+  "↗": ""
+  "…": "..."
+
+# Nombre de cada letra, para deletrear siglas y códigos.
+letras:
+  A: a
+  B: be
+  C: ce
+  D: de
+  E: e
+  F: efe
+  G: ge
+  H: hache
+  I: i
+  J: jota
+  K: ka
+  L: ele
+  M: eme
+  N: ene
+  Ñ: eñe
+  O: o
+  P: pe
+  Q: cu
+  R: erre
+  S: ese
+  T: te
+  U: u
+  V: uve
+  W: uve doble
+  X: equis
+  Y: i griega
+  Z: zeta
+
+digitos: [cero, uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve]
