@@ -27,7 +27,12 @@ reglas o en el reparto, nunca a mano en el guion ni en el MP3.
    ```
 
    Debe decir `"enabled": true`.
-3. Cierra otras aplicaciones que usen la GPU.
+3. El motor de `sintesis.motor` (`reparto.yml`) tiene que estar instalado:
+   `curl -s http://127.0.0.1:3900/engines/tts` debe darlo como `available`.
+   Si no lo está, ver LEEME.md, «Motores».
+4. Cierra otras aplicaciones que usen la GPU y vigila la temperatura. En el
+   portátil, la síntesis se frena a medida que se calienta (85 °C tras una
+   tanda): `nvidia-smi --query-gpu=temperature.gpu --format=csv`.
 
 ## Ha cambiado un capítulo
 
@@ -73,8 +78,10 @@ Ejemplo: se corrige `03-meteorologia/cap05-….qmd`.
    ```
 
    Sólo se sintetizan los fragmentos que han cambiado. El resto sale de la
-   caché de VoiceStudio, así que una errata corregida cuesta segundos. Un
-   capítulo entero nuevo tarda aproximadamente la mitad de lo que dura.
+   caché (`~/.cache/spl-audio/fragmentos/`), así que una errata corregida
+   cuesta segundos. Un
+   capítulo entero nuevo con CosyVoice3 tarda entre una y dos veces lo que
+   dura (con OmniVoice, la mitad).
 
 4. **Verifica:**
 
@@ -130,6 +137,10 @@ entero: lo que no cambió sigue en caché.
 | Cambia `pronunciacion.yml`, `reglas.yml` o `normalizar.py` | Todos los capítulos que contienen lo cambiado | `make audio NN` de los libros afectados |
 | Cambia una pausa o una velocidad en `reparto.yml` | Todos los fragmentos de ese rol | `make audio NN` |
 | Cambia la semilla o `num_step` en `reparto.yml` | **Todo** se sintetiza de nuevo | Sólo a propósito: son horas de GPU |
+| Cambia una `instruccion:` (estilo) en `reparto.yml` | Todos los fragmentos de esa voz | `make audio NN` (sincroniza el perfil solo) |
+| Cambia `enfasis:` de un rol, o la negrita de una caja de Seguridad | Los fragmentos de ese rol con negrita | Como un capítulo, o `make audio NN` |
+| Cambian los `earcons:` o las `pausas:` de `reparto.yml`, o `earcons.py`/`montaje.py` | Sólo el montaje: la voz sale de la caché | `make audio NN` (minutos) |
+| Cambia `sintesis.motor` en `reparto.yml` | **Todo** se sintetiza de nuevo con el otro motor | Repite antes la ronda de motores del casting |
 | Sube la versión del libro | Nombre nuevo de carpeta y M4B; el audio sale de caché | `make audio NN` |
 
 ## Crear el audiolibro de un libro nuevo
@@ -137,7 +148,7 @@ entero: lo que no cambió sigue en caché.
 ```sh
 make audio-guion NN          # revisa todos los .txt
 tools/audio/sembrar.py NN    # siglas sin entrada → pronunciacion.yml
-make audio NN                # todos los MP3 y el M4B (≈ la mitad de lo que dura)
+make audio NN                # todos los MP3 y el M4B (con CosyVoice3, 1–2× lo que dura)
 make audio-verificar NN      # QA de todos los capítulos
 ```
 
@@ -177,9 +188,16 @@ anterior no viaja: la primera vez se sintetiza todo.
 
 Repite el casting (LEEME.md, «Casting»):
 
-1. `panel` para generar la escucha ciega.
-2. `elegir votos.json` para calcular el reparto.
-3. `aplicar` para llevarlo a VoiceStudio y a `reparto.yml`.
+1. `sintetizar --motor <motor>` y `panel` para generar la escucha ciega.
+2. `elegir votos.json --motor <motor>` para calcular el reparto.
+3. `aplicar` para llevarlo a VoiceStudio y a `reparto.yml`. Funciona aunque
+   dos voces intercambien papeles; las voces que salen del reparto vuelven a
+   llamarse `CAST <candidata>`, sin borrarse.
+
+Antes de aplicar, mira `medidas.csv`. Una voz con buena nota de oído puede
+inventar audio en alguna muestra. Con CosyVoice3 le pasó a Sharvard M: un
+título de 6 s le salió de 21 s. El Locutor lee todos los títulos, así que eso
+lo descarta para el papel.
 
 Después, `make audio NN` de **todos** los libros: los fragmentos de esa voz
 se sintetizan de nuevo. Si la voz nueva viene de una licencia CC BY, su
@@ -192,6 +210,7 @@ se sintetizan de nuevo. Si la voz nueva viene de una licencia CC BY, su
 | `VoiceStudio no responde en http://127.0.0.1:3900` | La aplicación está cerrada | Ábrela |
 | `CUDA out of memory` al sintetizar | VRAM retenida, o `torch.compile` activo | Comprueba `torch.compile`; si sigue, **reinicia VoiceStudio** (ni *unload* ni *flush* liberan del todo) |
 | OOM justo al empezar con una voz | Referencia demasiado larga para codificarla | Referencia ≤ 9 s: `casting.py referencias <id>` y `clonar --rehacer <id>` |
+| `CUDA out of memory` con CosyVoice3 y varios procesos `cosyvoice` en `nvidia-smi` | Alguien usó el render por capítulos de VoiceStudio, que lanza un proceso por capítulo | `curl -X POST "http://127.0.0.1:3900/model/unload/sidecar:cosyvoice"` (repetir hasta `not running`) |
 | `faltan voces en VoiceStudio` | Perfil borrado o renombrado | `make audio-voces`, y si hace falta «Recrear las voces» |
 | `deja N restos sin verbalizar` | Cifras, Markdown o TeX que el normalizador no conoce | Ajusta `normalizar.py`, `reglas.yml` o `pronunciacion.yml` |
 | `pronunciacion.yml: «False: …» no es texto` | YAML leyó `NO`/`SI` como booleano | Entrecomilla la entrada: `"NO": "no"` |
@@ -204,7 +223,11 @@ se sintetizan de nuevo. Si la voz nueva viene de una licencia CC BY, su
 - **No edites** `build/audio/guion/…`: se regenera en cada ejecución.
 - **No subas** el audio al repo ni lo añadas a `all`, al CI o al release. Se
   publica aparte, a mano.
-- **No uses** la vía `/v1/audio/speech` de VoiceStudio: carga una segunda copia
-  del motor que no se libera.
+- **No uses** la vía `/v1/audio/speech` de VoiceStudio, que carga una segunda
+  copia del motor que no se libera, **ni** su render por capítulos
+  (`/longform/render`), que con CosyVoice3 lanza un proceso por capítulo. La
+  cadena sintetiza por `/generate`.
+- **No borres** `~/.cache/spl-audio/fragmentos/` si no quieres sintetizarlo
+  todo de nuevo. Ocupa poco: WAV de 24 kHz.
 - **No cambies** la semilla ni `num_step` para «probar»: obliga a sintetizar
   toda la colección de nuevo.

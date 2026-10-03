@@ -34,8 +34,10 @@ Las salidas van a `build/audio/`:
   principio y al final.
 
 Repetir la orden no repite trabajo. Cada salida guarda una huella de lo que se
-pidió, y VoiceStudio guarda en caché cada fragmento ya sintetizado. Corregir una
-sigla sólo vuelve a sintetizar los fragmentos donde aparece.
+pidió, y cada fragmento ya sintetizado queda en `~/.cache/spl-audio/fragmentos/`.
+Su clave es el texto, la voz (grabación e instrucción) y los parámetros del
+motor. Corregir una sigla sólo vuelve a sintetizar los fragmentos donde
+aparece; el resto es montaje, que tarda segundos.
 
 ## Requisitos
 
@@ -67,9 +69,23 @@ calidad máxima (`num_step: 32`).
    Los datos están en **`reglas.yml`** y las siglas y palabras extranjeras en
    **`pronunciacion.yml`**.
 3. **`guion.py`** asigna voz, velocidad y pausas según **`reparto.yml`**.
-4. **`audio.py`** comprueba que el guion no deja restos sin verbalizar (cifras,
-   Markdown, TeX) y lo manda a VoiceStudio por `POST /longform/render`, a
-   través de **`cliente.py`**. Después descarga el resultado.
+4. **`audio.py`** comprueba que el guion no deja restos sin verbalizar
+   (cifras, Markdown, TeX). Después sintetiza **cada fragmento por separado**
+   con `POST /generate`, a través de **`cliente.py`**, y guarda los que no
+   estuvieran ya en la caché.
+5. **`montaje.py`** junta los fragmentos con:
+   - los silencios exactos del guion;
+   - los earcons (**`earcons.py`**);
+   - los capítulos: una sección por capítulo en el MP3, un capítulo del libro
+     por capítulo en el M4B.
+
+   Masteriza en dos pasadas a −19 LUFS (ACX) y codifica el MP3 o el M4B con
+   portada y metadatos.
+
+   No se usa el render por capítulos de VoiceStudio (`/longform/render`). Con
+   CosyVoice3 crea un proceso nuevo del motor (3,5 GB) por capítulo sin cerrar
+   el anterior, y a la segunda se queda sin VRAM: es `_build_synth` en
+   VoiceStudio 0.5.6. `/generate` reutiliza un solo proceso.
 
 ## Corregir una pronunciación
 
@@ -136,6 +152,91 @@ tools/audio/casting.py panel              # build/audio/casting/panel.html
 tools/audio/casting.py elegir votos.json  # reparto: sexo del papel, sin repetir voz
 tools/audio/casting.py aplicar            # CAST ganadores → «SPL …» y reparto.yml
 ```
+
+### Motores
+
+El libro entero se sintetiza con un solo motor, el de `sintesis.motor` en
+`reparto.yml` (hoy `cosyvoice`). Viaja en cada petición a `/generate` y entra
+en la clave de la caché; `audio.py` lo deja además activo en VoiceStudio.
+
+Las voces se eligieron así:
+
+1. Ronda 1: 15 voces con OmniVoice.
+2. Ronda 2: OmniVoice frente a CosyVoice3 con el reparto.
+3. Ronda 3: las 15 voces con CosyVoice3.
+
+Para que el reparto propuesto use un solo motor:
+
+```sh
+tools/audio/casting.py sintetizar --motor cosyvoice <candidatas>
+tools/audio/casting.py elegir votos.json --motor cosyvoice --penalizar-pd 0.1
+```
+
+CosyVoice3 y VoxCPM2 no salen en el catálogo de la interfaz. Se instalan con el
+instalador de VoiceStudio, que crea su propio entorno en `~/.omnivoice/engines/`:
+
+```sh
+curl -X POST http://127.0.0.1:3900/engines/sidecar/cosyvoice/install
+```
+
+VoxCPM2 (2B) no cabe en 6 GB junto a VoiceStudio. Sus muestras se generan con
+VoiceStudio **cerrado**:
+
+```sh
+tools/audio/casting.py sintetizar --motor voxcpm2 --externo <candidatas>
+```
+
+Esa orden usa `voxcpm2_muestras.py` con el entorno que instaló VoiceStudio.
+
+### Earcons y silencios pedagógicos
+
+Los earcons son tonos sintéticos, limpios y breves que avisan de un cambio de
+jerarquía. Se generan en `earcons.py` con numpy, siempre iguales y sin samples
+de terceros, y se colocan según `earcons:` en `reparto.yml`:
+
+| Earcon | Dónde | Sonido |
+|---|---|---|
+| `capitulo` | antes del título de cada capítulo | nota grave de piano eléctrico, 1,2 s |
+| `seccion` | antes de cada sección `##` | la misma, más aguda, corta y suave, 0,6 s |
+| `aviso` | antes del rótulo de una caja de Seguridad | doble pulso neutro y sutil |
+
+Los silencios pedagógicos están en `pausas:` de `reparto.yml`:
+
+- **0,8 s** entre los ítems de una lista, que se escucha como una checklist;
+- **2,5 s** tras la última línea de una lista numerada (un procedimiento);
+- **2,5 s** tras la solución de un ejercicio.
+
+Cambiar `earcons.py` o `montaje.py` cambia la huella, así que rehace los
+audiolibros. Como los fragmentos salen de la caché, sólo se repite el montaje.
+
+### Estilo y énfasis (CosyVoice3)
+
+Se probaron seis variantes de una caja de Seguridad (`build/audio/casting/emocion/`).
+Quedan dos mecanismos:
+
+- **Instrucción de estilo por voz.** Es la clave `instruccion:` de la voz en
+  `reparto.yml`, siempre en **español**: en inglés, el motor pasa a pronunciar
+  a la inglesa («P o R» → «pi o ar»). Vive en el perfil de VoiceStudio, porque
+  el render por capítulos no admite instrucción por fragmento. `voces.py` la
+  sincroniza y `make audio` lo llama antes de renderizar. Hoy sólo la lleva
+  Alerta («serio, firme y rotundo»).
+
+  Si un mismo papel necesitara otro tono en ciertos bloques, la vía es un
+  perfil variante: la misma grabación con otra instrucción y su propio nombre
+  en `roles:`.
+- **Énfasis.** La negrita del libro se dice con énfasis (`<strong>…</strong>`)
+  en los roles con `enfasis: true`; hoy, sólo `seguridad`. En la narración la
+  negrita no suena: casi cada término técnico va en negrita y enfatizarlos
+  todos cansa.
+
+Descartados:
+
+- `[breath]`: no aportaba nada audible.
+- Los parámetros de muestreo (`top_p`, `top_k`…): están fijos en
+  `cosyvoice3.yaml`, dentro de la instalación del motor, y valen para todo el
+  libro a la vez.
+- `velocidad:`: VoiceStudio 0.5.6 no se la pasa a CosyVoice3. Para cambiar el
+  ritmo de un papel, pídelo en su instrucción («habla despacio…»).
 
 Antes de clonar conviene una criba de oído de las grabaciones originales
 (`panel --referencias` y `criba votos.json`), para descartar acentos no
