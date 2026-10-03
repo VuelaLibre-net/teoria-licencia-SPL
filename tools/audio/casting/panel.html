@@ -18,8 +18,12 @@
   nav button, .acciones button { border:1px solid var(--linea); background:var(--tarjeta); color:var(--texto); padding:6px 12px; border-radius:6px; cursor:pointer; font:inherit; }
   nav button[aria-pressed=true] { border-color: var(--acento); color: var(--acento); font-weight: 600; }
   .texto { background: var(--tarjeta); border:1px solid var(--linea); border-radius:8px; padding:12px 14px; margin-bottom:12px; }
-  .papeles { color: var(--suave); font-size: 13px; }
-  .voz { display:grid; grid-template-columns: 70px 1fr; gap: 6px 14px; align-items:center; background:var(--tarjeta);
+  .papeles { color: var(--suave); font-size: 13px; margin-bottom: 6px; }
+  .papel { display:inline-block; padding: 1px 8px; border-radius: 10px; border:1px solid var(--linea); margin: 2px 4px 2px 0; color: var(--texto); }
+  .papel-F { border-color: #b0577a; }
+  .papel-M { border-color: #3f78a8; }
+  .voz .cod .encaja { font-size: 11px; line-height: 1.3; margin-top: 2px; }
+  .voz { display:grid; grid-template-columns: 110px 1fr; gap: 6px 14px; align-items:center; background:var(--tarjeta);
          border:1px solid var(--linea); border-radius:8px; padding:10px 14px; margin-bottom:8px; }
   .voz .cod { font-weight:700; font-variant-numeric: tabular-nums; }
   .voz .cod small { display:block; font-weight:400; color:var(--suave); }
@@ -39,7 +43,8 @@
   <h1>Casting de voces del audiolibro</h1>
   <p class="ayuda">Escucha a ciegas: cada voz lleva un código al azar. Puntúa de 1 (mal) a 5 (excelente)
     la <b>naturalidad</b>, el <b>acento</b> peninsular, la <b>claridad</b> y la adecuación al <b>papel</b>
-    indicado. Las notas se guardan en este navegador; al terminar, pulsa «Exportar votos» y pasa
+    indicado. Cada papel pide una voz de un sexo (Narradora y Divulgadora, femenina; Locutor,
+    Instructor y Alerta, masculina): puntúa «papel» pensando sólo en los que encajan con la voz. Las notas se guardan en este navegador; al terminar, pulsa «Exportar votos» y pasa
     <code>votos.json</code> a <code>casting.py elegir</code>.</p>
   <nav id="pestanas"></nav>
   <section id="bloque"></section>
@@ -78,13 +83,20 @@ function pintar() {
   bloque.innerHTML = "";
   const t = document.createElement("div");
   t.className = "texto";
-  t.innerHTML = `<div class="papeles">Papeles que se juzgan aquí: ${b.papeles.join(", ")}</div><div></div>`;
+  // Cada papel lleva el sexo de la voz que le corresponde en el reparto:
+  // una voz femenina no se puntúa como Locutor, ni una masculina como Narradora.
+  const papeles = b.papeles.map(p => typeof p === "string" ? { papel: p, sexo: "?" } : p);
+  const etiqueta = p => p.sexo === "F" ? "voz femenina" : p.sexo === "M" ? "voz masculina" : "";
+  t.innerHTML = `<div class="papeles">Papeles que se juzgan aquí: ${papeles.map(p =>
+      `<span class="papel papel-${p.sexo}">${p.papel}${etiqueta(p) ? " · " + etiqueta(p) : ""}</span>`).join(" ")}</div><div></div>`;
   t.lastChild.textContent = b.texto;
   bloque.appendChild(t);
   b.items.forEach(it => {
     const v = document.createElement("div");
     v.className = "voz";
-    v.innerHTML = `<div class="cod">${it.codigo}<small>${it.sexo === "F" ? "femenina" : "masculina"}</small></div>
+    const encaja = papeles.filter(p => p.sexo === "?" || p.sexo === it.sexo).map(p => p.papel);
+    const pista = encaja.length ? `para ${encaja.join(", ")}` : "no encaja en estos papeles";
+    v.innerHTML = `<div class="cod">${it.codigo}<small>${it.sexo === "F" ? "femenina" : "masculina"}</small><small class="encaja">${pista}</small></div>
       <audio controls preload="none" src="${it.audio}"></audio><div class="notas"></div>`;
     const notas = v.querySelector(".notas");
     CRITERIOS.forEach(([k, nombre]) => {

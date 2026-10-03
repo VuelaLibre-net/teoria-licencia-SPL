@@ -318,16 +318,68 @@ def _hablar(texto, perfil, motor, destino, reintento=True):
     return time.time() - t0
 
 
+VOXCPM2_PYTHON = Path.home() / ".omnivoice" / "engines" / "voxcpm2" / "voxcpm2" / ".venv" / "bin" / "python"
+
+
+def _sintetizar_externo(a, muestras):
+    """VoxCPM2 fuera de VoiceStudio (no cabe junto a él en 6 GB): se escribe
+    el trabajo y lo ejecuta voxcpm2_muestras.py con el entorno que instaló
+    VoiceStudio. Hay que tener VoiceStudio CERRADO."""
+    if a.motor != "voxcpm2":
+        raise SystemExit("casting: --externo sólo existe para voxcpm2")
+    trabajo = []
+    for c in candidatas(a.ids):
+        ref = SALIDA / "referencias" / f"{c['id']}.wav"
+        if not ref.exists():
+            print(f"✗ {c['id']}: falta la referencia", file=sys.stderr)
+            continue
+        for m in muestras:
+            destino = SALIDA / "muestras" / a.motor / c["id"] / f"{m['id']}.wav"
+            destino.parent.mkdir(parents=True, exist_ok=True)
+            trabajo.append({"texto": normalizar(m["texto"]), "referencia": str(ref),
+                            "referencia_texto": ref.with_suffix(".txt").read_text(encoding="utf-8").strip(),
+                            "destino": str(destino), "candidata": c["id"], "muestra": m["id"]})
+    fichero = SALIDA / "trabajo-voxcpm2.json"
+    fichero.write_text(json.dumps(trabajo, ensure_ascii=False))
+    p = subprocess.Popen([str(VOXCPM2_PYTHON), str(AQUI / "voxcpm2_muestras.py"), str(fichero)],
+                         stdout=subprocess.PIPE, text=True)
+    filas = []
+    for linea, t in zip(p.stdout, trabajo):
+        r = json.loads(linea)
+        filas.append({"motor": a.motor, "candidata": t["candidata"], "muestra": t["muestra"],
+                      "segundos_render": f"{r['segundos']}", "duracion": f"{r['duracion']}"})
+        print(f"  {a.motor} {t['candidata']:<14} {t['muestra']:<11} {r['duracion']:5.1f} s en {r['segundos']:5.1f} s")
+    if p.wait() != 0:
+        raise SystemExit("casting: voxcpm2_muestras.py falló (¿VoiceStudio sigue abierto?)")
+    return filas
+
+
 def cmd_sintetizar(a):
     muestras = yaml.safe_load((AQUI / "casting" / "guion_prueba.yml").read_text(encoding="utf-8"))["muestras"]
+    if a.externo:
+        nuevas = _sintetizar_externo(a, muestras)
+        registro = SALIDA / "sintesis.csv"
+        previas = list(csv.DictReader(registro.open())) if registro.exists() else []
+        previas = [r for r in previas if not (r["motor"] == a.motor and r["candidata"] in {n["candidata"] for n in nuevas})]
+        with registro.open("w", newline="") as f:
+            w = csv.DictWriter(f, fieldnames=["motor", "candidata", "muestra", "segundos_render", "duracion"])
+            w.writeheader()
+            w.writerows(previas + nuevas)
+        return
     ids = C.perfiles()
     registro = SALIDA / "sintesis.csv"
     filas = []
     if registro.exists():
         with registro.open() as f:
             filas = [r for r in csv.DictReader(f) if r["motor"] != a.motor or (a.ids and r["candidata"] not in a.ids)]
+    # Las ganadoras de un casting anterior ya no se llaman «CAST <id>» sino
+    # «SPL <papel>» (casting.py aplicar): se buscan también por ese nombre.
+    import guion as G
+    aplicadas = {v.get("candidata"): n for n, v in G.reparto()["voces"].items() if v.get("candidata")}
     for c in candidatas(a.ids):
         nombre = PREFIJO + c["id"]
+        if nombre not in ids:
+            nombre = aplicadas.get(c["id"], nombre)
         if nombre not in ids:
             print(f"✗ {c['id']}: no está clonada", file=sys.stderr)
             continue
@@ -354,7 +406,7 @@ def cmd_medir(a):
     import verificar as V
     muestras = {m["id"]: normalizar(m["texto"]) for m in
                 yaml.safe_load((AQUI / "casting" / "guion_prueba.yml").read_text(encoding="utf-8"))["muestras"]}
-    wavs = sorted((SALIDA / "muestras").glob("*/*/*.wav"))
+    wavs = sorted((SALIDA / "muestras").glob(f"{a.motor or '*'}/*/*.wav"))
     textos = [""] * len(wavs)
     if not a.sin_asr:
         print(f"==> transcribiendo {len(wavs)} muestras en CPU…", file=sys.stderr)
@@ -375,8 +427,11 @@ def cmd_medir(a):
                       "ppm": f"{ppm:.0f}", "huecos_0_9s": huecos, "pico_db": f"{m['pico']:.1f}", "wer": w,
                       "transcripcion": hip})
     out = SALIDA / "medidas.csv"
+    if a.motor and out.exists():
+        # Medir un motor no borra lo medido de los demás.
+        filas = [r for r in csv.DictReader(out.open()) if r["motor"] != a.motor] + filas
     with out.open("w", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=list(filas[0]))
+        w = csv.DictWriter(f, fieldnames=list(filas[-1]))
         w.writeheader()
         w.writerows(filas)
     sexo = {c["id"]: c["sexo"] for c in candidatas()}
@@ -458,7 +513,8 @@ def cmd_panel(a):
         items = [{"codigo": k, "sexo": sexo.get(v["candidata"], "?"),
                   "audio": f"muestras/{v['motor']}/{v['candidata']}/{m['id']}.wav"}
                  for k, v in orden if (SALIDA / "muestras" / v["motor"] / v["candidata"] / f"{m['id']}.wav").exists()]
-        bloques.append({"id": m["id"], "papeles": m["papeles"], "texto": normalizar(m["texto"]), "items": items})
+        papeles = [{"papel": p, "sexo": SEXO_PAPEL.get(p, "?")} for p in m["papeles"]]
+        bloques.append({"id": m["id"], "papeles": papeles, "texto": normalizar(m["texto"]), "items": items})
     html = (AQUI / "casting" / "panel.html").read_text(encoding="utf-8")
     html = html.replace("/*DATOS*/null", json.dumps(bloques, ensure_ascii=False))
     (SALIDA / "panel.html").write_text(html, encoding="utf-8")
@@ -617,7 +673,8 @@ def cmd_elegir(a):
     opciones = {}
     for papel in PESOS:
         filas = sorted(((nota(papel, c, m), c, m) for (pp, c, m) in notas
-                        if pp == papel and cands[c]["sexo"] == SEXO_PAPEL[papel]), reverse=True)
+                        if pp == papel and cands[c]["sexo"] == SEXO_PAPEL[papel]
+                        and (not a.motor or m == a.motor)), reverse=True)
         opciones[papel] = [f for f in filas if f[0] is not None][:6]
         print(f"\n{papel} ({SEXO_PAPEL[papel]}):")
         for n, c, m in opciones[papel][:4]:
@@ -645,30 +702,53 @@ def cmd_elegir(a):
 def cmd_aplicar(a):
     """Lleva la elección a VoiceStudio y al reparto:
 
-      * borra los perfiles `SPL <papel>` anteriores (las voces diseñadas);
-      * renombra el `CAST <candidata>` ganador a `SPL <papel>`;
-      * anota en reparto.yml la fuente, la licencia y la atribución de cada voz,
-        que guion.py lleva a los créditos hablados y audio.py al metadato.
+      * cada candidata elegida pasa a llamarse `SPL <papel>`, la encuentre como
+        `CAST <candidata>` o como el `SPL …` de un reparto anterior (así un
+        intercambio de papeles entre dos voces funciona);
+      * las voces que salen del reparto vuelven a `CAST <candidata>`, sin
+        borrarse; las diseñadas (sin candidata) sí se borran;
+      * anota en reparto.yml fuente, licencia y atribución de cada voz.
 
-    Los CAST que no ganan se quedan, para la ronda de motores."""
+    El renombrado pasa por nombres provisionales para no chocar a mitad."""
+    import guion as G
     eleccion = json.loads((SALIDA / "eleccion.json").read_text(encoding="utf-8"))
     cands = {c["id"]: c for c in candidatas()}
     ids = C.perfiles()
-    for papel, e in eleccion.items():
-        nombre, cast = f"SPL {papel}", PREFIJO + e["candidata"]
-        if cast not in ids:
-            if ids.get(nombre) and nombre in ids:
-                print(f"✓ {nombre} ya es {e['candidata']}?  ({cast} no existe; no toco nada)")
-                continue
-            raise SystemExit(f"casting: falta el perfil {cast} en VoiceStudio")
-        if nombre in ids:
-            with C._pedir("DELETE", f"/profiles/{ids[nombre]}"):
-                pass
-            print(f"- {nombre} (voz anterior) borrada")
-        with C._pedir("PUT", f"/profiles/{ids[cast]}", json.dumps({"name": nombre}).encode(),
+    previas = {n: v.get("candidata") for n, v in G.reparto()["voces"].items()}
+
+    def renombrar(pid, nombre):
+        with C._pedir("PUT", f"/profiles/{pid}", json.dumps({"name": nombre}).encode(),
                       {"Content-Type": "application/json"}):
             pass
-        print(f"+ {nombre} ← {e['candidata']} ({ids[cast]})")
+
+    # Dónde está hoy cada candidata.
+    donde = {n[len(PREFIJO):]: pid for n, pid in ids.items() if n.startswith(PREFIJO)}
+    for nombre, cand in previas.items():
+        if cand and nombre in ids:
+            donde[cand] = ids[nombre]
+    elegidas = {e["candidata"] for e in eleccion.values()}
+    faltan = sorted(elegidas - donde.keys())
+    if faltan:
+        raise SystemExit(f"casting: no encuentro en VoiceStudio el perfil de {', '.join(faltan)}")
+
+    # 1. Las elegidas, a nombres provisionales.
+    for papel, e in eleccion.items():
+        renombrar(donde[e["candidata"]], f"TMP {papel}")
+    # 2. Lo que quede llamado SPL … sale del reparto: a CAST si es un clon, fuera si es diseñada.
+    for nombre, pid in C.perfiles().items():
+        if nombre.startswith("SPL "):
+            cand = previas.get(nombre)
+            if cand:
+                renombrar(pid, PREFIJO + cand)
+                print(f"- {nombre} ({cand}) sale del reparto → {PREFIJO}{cand}")
+            else:
+                with C._pedir("DELETE", f"/profiles/{pid}"):
+                    pass
+                print(f"- {nombre} (voz diseñada) borrada")
+    # 3. Las provisionales, a su nombre definitivo.
+    for papel, e in eleccion.items():
+        renombrar(donde[e["candidata"]], f"SPL {papel}")
+        print(f"+ SPL {papel} ← {e['candidata']} ({e['motor']})")
 
     # reparto.yml: se reescribe sólo el bloque `voces:`, conservando el resto
     # del fichero (comentarios incluidos).
@@ -687,6 +767,10 @@ def cmd_aplicar(a):
                    f"    consentimiento: {c['consentimiento']}"]
         if c.get("atribucion"):
             lineas.append(f"    atribucion: {json.dumps(' '.join(c['atribucion'].split()), ensure_ascii=False)}")
+        # La instrucción de estilo es del papel, no de la voz: se conserva.
+        previa = G.reparto()["voces"].get(f"SPL {papel}", {}).get("instruccion")
+        if previa:
+            lineas.append(f"    instruccion: {json.dumps(previa, ensure_ascii=False)}")
     ruta.write_text(texto[:ini] + "\n".join(lineas) + "\n" + texto[fin:], encoding="utf-8")
     print(f"✓ {ruta} actualizado")
 
@@ -701,10 +785,12 @@ def main():
     s.add_argument("ids", nargs="*")
     s = sub.add_parser("sintetizar")
     s.add_argument("--motor", default="omnivoice")
+    s.add_argument("--externo", action="store_true", help="voxcpm2 fuera de VoiceStudio (cerrado)")
     s.add_argument("ids", nargs="*")
     s = sub.add_parser("medir")
     s.add_argument("--sin-asr", action="store_true")
     s.add_argument("--modelo", default="medium", help="modelo de faster-whisper (CPU)")
+    s.add_argument("--motor", help="medir sólo las muestras de este motor")
     s = sub.add_parser("panel")
     s.add_argument("--semilla", type=int, default=None)
     s.add_argument("--solo", nargs="*", help="candidatas (o motor/candidata) que entran en el panel")
@@ -720,6 +806,7 @@ def main():
     sub.add_parser("aplicar")
     s = sub.add_parser("elegir")
     s.add_argument("votos")
+    s.add_argument("--motor", help="sólo voces de este motor (el render usa un motor para todo el libro)")
     s.add_argument("--penalizar-pd", type=float, default=0.0,
                    help="puntos que restan las voces de LibriVox sin consentimiento expreso")
     a = ap.parse_args()
