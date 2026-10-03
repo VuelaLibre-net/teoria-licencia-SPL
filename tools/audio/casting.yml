@@ -1,0 +1,51 @@
+# Candidatas para el reparto del audiolibro: grabaciones de hablantes
+# peninsulares con licencia libre, que se clonan en VoiceStudio para las
+# pruebas de tools/audio/casting.py.
+#
+# `consentimiento` dice qué aceptó quien grabó:
+#   donada-tts       grabó para que se hiciera síntesis con su voz
+#   investigacion    grabó para un corpus de investigación de habla
+#   cc0-voluntario   donó su voz a un corpus abierto de tecnología del habla
+#   pd-lectura       leyó un libro para LibriVox: no consintió que se clonara
+# Las voces `pd-lectura` sólo se eligen si superan con claridad a las demás.
+#
+# Las fuentes se descargan a ~/.cache/spl-audio/fuentes/ (fuera del repo):
+# no se redistribuyen, sólo se usan para crear los perfiles de voz.
+
+candidatas:
+  - id: davefx
+    sexo: M
+    fuente: Home Assistant voice-datasets, es_ES «Dave»
+    url: https://github.com/OHF-Voice/voice-datasets
+    licencia: CC0-1.0
+    atribucion: null
+    consentimiento: donada-tts
+    acento: peninsular
+    lector: davefx
+    ruta: davefx/es-ES/0000000001_0300000050_General
+
+  - id: sharvard-m
+    sexo: M
+    fuente: Sharvard Corpus (Aubanel, García Lecumberri y Cooke, 2014), Edinburgh DataShare
+    url: https://datashare.ed.ac.uk/handle/10283/574
+    licencia: CC-BY-3.0
+    atribucion: >-
+      Voz basada en el Sharvard Corpus, de Aubanel, García Lecumberri y Cooke,
+      Universidad de Edimburgo, con licencia Creative Commons Atribución 3.0
+    consentimiento: investigacion
+    acento: peninsular
+    lector: sharvard
+    ruta: sharvard/M
+
+  - id: sharvard-f
+    sexo: F
+    fuente: Sharvard Corpus (Aubanel, García Lecumberri y Cooke, 2014), Edinburgh DataShare
+    url: https://datashare.ed.ac.uk/handle/10283/574
+    licencia: CC-BY-3.0
+    atribucion: >-
+      Voz basada en el Sharvard Corpus, de Aubanel, García Lecumberri y Cooke,
+      Universidad de Edimburgo, con licencia Creative Commons Atribución 3.0
+    consentimiento: investigacion
+    acento: peninsular
+    lector: sharvard
+    ruta: sharvard/F

@@ -8,6 +8,7 @@ EPUB_OUT = $(BUILD_DIR)/epub
 RAG_OUT = $(BUILD_DIR)/rag
 WEB_OUT = $(BUILD_DIR)/web
 ANKI_OUT = $(BUILD_DIR)/anki
+AUDIO_OUT = $(BUILD_DIR)/audio
 
 # Lista de libros de la colección (01 al 09)
 LIBROS = 01-derecho-aereo-atc \
@@ -427,6 +428,56 @@ $(rag_completo): $(fuentes_completo) tools/rag/construir.sh tools/rag/rag.lua re
 	  $@
 	@echo "✓ Markdown para RAG de Manual Completo generado en $@"
 
+# --- AUDIOLIBRO ---
+# El audiolibro en español, generado con el VoiceStudio local (API REST en
+# 127.0.0.1:3900; ver tools/audio/LEEME.md). No entra en `all`, ni en el CI, ni
+# en el release: sintetizar un libro lleva horas de GPU y sólo se hace aquí.
+#
+#   make audio 01 cap01      el MP3 de un capítulo (también: 1, intro)
+#   make audio 01            todos los MP3 del libro y su M4B
+#   make audio-guion 01 cap01  sólo el guion, para revisarlo sin sintetizar
+#   make audio-verificar 01 cap01  QA: transcripción, sonoridad y silencios
+#                                  (SIN_ASR=1: sólo sonoridad y silencios)
+#   make audio-voces [CREAR=1]   comprueba (o diseña) las voces del reparto
+#
+# Las palabras que siguen a `audio*` son argumentos, no objetivos: se les da
+# una regla vacía para que make no intente construirlas. También vale la forma
+# con variables, `make audio LIBRO=01 CAP=cap01`.
+ifneq ($(filter audio audio-guion audio-verificar,$(firstword $(MAKECMDGOALS))),)
+  AUDIO_ARGS := $(wordlist 2,$(words $(MAKECMDGOALS)),$(MAKECMDGOALS))
+  ifneq ($(AUDIO_ARGS),)
+    $(eval $(AUDIO_ARGS):;@:)
+  endif
+endif
+LIBRO ?= $(word 1,$(AUDIO_ARGS))
+CAP ?= $(wordlist 2,99,$(AUDIO_ARGS))
+libro_audio = $(filter $(LIBRO)-%,$(LIBROS))
+
+# Versión, fecha, estado y sufijo salen de las mismas funciones que los demás
+# entregables: el nombre del audio identifica la misma edición que el PDF.
+audio_datos = --version "$(call version_libro,$(libro_audio))" \
+	  --fecha "$(call fecha_libro,$(libro_audio))" \
+	  --estado "$(call estado_visible,$(libro_audio))" \
+	  --sufijo "$(call sufijo_de,$(libro_audio))" \
+	  --salida $(AUDIO_OUT)
+
+.PHONY: audio audio-guion audio-verificar audio-voces audio-libro-ok
+audio-libro-ok:
+	@[ -n "$(libro_audio)" ] || { echo "Uso: make audio NN [capNN …]   (NN = 01…09; p. ej. make audio 01 cap01)"; exit 2; }
+
+audio: audio-libro-ok
+	@tools/audio/audio.py $(libro_audio) $(CAP) $(audio_datos)
+
+audio-guion: audio-libro-ok
+	@tools/audio/audio.py $(libro_audio) $(CAP) --solo-guion $(audio_datos)
+
+audio-verificar: audio-libro-ok
+	@tools/audio/verificar.py $(AUDIO_OUT)/$(libro_audio)-$(call sufijo_de,$(libro_audio)) \
+	  $(AUDIO_OUT)/guion/$(libro_audio) $(CAP) $(if $(SIN_ASR),--sin-asr)
+
+audio-voces:
+	@tools/audio/voces.py $(if $(CREAR),--crear)
+
 # --- ESPEJO INDEXABLE DEL CONTENIDO ---
 # Copia los .qmd de los 9 libros con extensión .md para que un indexador de
 # código pueda leerlos. No es un entregable: no se publica, no lleva versión ni
@@ -488,6 +539,10 @@ help:
 	@printf '  make %-35s %s\n' 'espejo' 'Copia los .qmd como .md fuera del repo, para indexar.'
 	@printf '  make %-35s %s\n' 'clean' 'Borra build/, _book/, cachés y archivos unificados en raíz.'
 	@printf '  make %-35s %s\n' 'en' 'Compila la edición inglesa (piloto).'
+	@printf '  make %-35s %s\n' 'audio NN [capNN ...]' 'Audiolibro: MP3 del capítulo, o MP3 y M4B del libro.'
+	@printf '  make %-35s %s\n' 'audio-guion NN [capNN ...]' 'Sólo el guion del audiolibro, sin sintetizar.'
+	@printf '  make %-35s %s\n' 'audio-verificar NN [capNN ...]' 'QA del audio: transcripción, sonoridad, silencios.'
+	@printf '  make %-35s %s\n' 'audio-voces [CREAR=1]' 'Comprueba (o crea) las voces del reparto.'
 	@printf '%s\n' '' 'Libros:'
 	@for libro in $(LIBROS) $(LIBROS_EN); do \
 		printf '  make %-35s %s\n' "$$libro" 'Compila ese libro (PDF + EPUB + RAG + web).'; \
