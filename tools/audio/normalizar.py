@@ -250,6 +250,11 @@ def _pasada_lexico(t):
         t = re.sub(rf"(?<!\w){re.escape(p)}(?!\w)", palabras[p], t, flags=re.IGNORECASE)
     # Siglas: palabras en mayúsculas de dos letras o más.
     t = re.sub(r"\b[A-ZÑÁÉÍÓÚÜ]{2,}\b", lambda m: sigla(m.group(0)), t)
+    # Letras sueltas en mayúscula: «zona P o R», «clase G», «la letra D». Las
+    # vocales y la Y se quedan, porque son palabras («A FL145», «Y por
+    # encima…»); una consonante sola nunca lo es. Sin esto el motor lee «P o
+    # R» a la inglesa («pi o ar»).
+    t = re.sub(r"(?<![\w.-])([B-DF-HJ-NP-TV-XZÑ])(?![\w'-]|\.\w)", lambda m: deletrear(m.group(1)), t)
     return t
 
 

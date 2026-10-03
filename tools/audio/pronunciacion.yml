@@ -127,9 +127,12 @@ siglas:
   NDB: ene de be
   VHF: uve hache efe
   UHF: u hache efe
-  AGL: a ge ele
-  AMSL: a eme ese ele
-  MSL: eme ese ele
+  # Referencias de altura: se dice lo que significan, no se deletrean
+  # («mil pies sobre el terreno»). Criterio de Ramón (3 oct 2026) para toda
+  # esta familia de siglas.
+  AGL: sobre el terreno
+  AMSL: sobre el nivel del mar
+  MSL: nivel medio del mar
   TAS: tas
   IAS: i a ese
   CAS: cas
@@ -145,7 +148,7 @@ siglas:
   NE: ene e
   PTT: pe te te
   CO: ce o
-  UV: u uve
+  UV: ultravioleta
   # Mnemotecnias y palabras en mayúsculas que son palabras
   IMSAFE: im séif
   PAVE: péiv
