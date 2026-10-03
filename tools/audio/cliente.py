@@ -9,8 +9,6 @@ VOICESTUDIO_URL (por defecto http://127.0.0.1:3900).
 import json
 import mimetypes
 import os
-import sys
-import time
 import urllib.error
 import urllib.request
 import uuid
@@ -41,6 +39,11 @@ def get_json(ruta):
 
 def post_json(ruta, datos, timeout=60):
     with _pedir("POST", ruta, json.dumps(datos).encode(), {"Content-Type": "application/json"}, timeout) as r:
+        return json.load(r)
+
+
+def put_json(ruta, datos, timeout=60):
+    with _pedir("PUT", ruta, json.dumps(datos).encode(), {"Content-Type": "application/json"}, timeout) as r:
         return json.load(r)
 
 
@@ -93,78 +96,42 @@ def disenar_voz(nombre, diseno, idioma="Spanish", semilla=42):
     })
 
 
-def subir_portada(ruta):
-    return post_multipart("/audiobook/cover", {}, {"cover": ruta})["path"]
-
-
-def descargar_modelo_voz():
-    """Libera la VRAM del modelo de voz; se recarga solo en la siguiente síntesis."""
-    try:
-        with _pedir("POST", "/model/unload/tts", b"", {"Content-Type": "application/json"}):
-            pass
-    except ErrorVoiceStudio:
-        pass  # si ya estaba descargado o no se puede, el reconocedor lo intentará igual
-
-
-def transcribir(ruta, idioma="es"):
-    return post_multipart("/transcribe", {"language": idioma}, {"audio": ruta}, timeout=1800)
-
-
-def renderizar(peticion, progreso=None):
-    """POST /longform/render y sigue el SSE hasta `done`. Devuelve el evento
-    final. Cualquier capítulo fallido aborta: un audiolibro con un hueco en
-    silencio es peor que no tenerlo."""
-    cuerpo = json.dumps(peticion).encode()
-    r = _pedir("POST", "/longform/render", cuerpo,
-               {"Content-Type": "application/json", "Accept": "text/event-stream"}, timeout=3600)
-    # Un `chapter_error` no corta el stream: el servidor sigue con las demás
-    # pistas (y cortar la conexión cancelaría el trabajo). Se apuntan y se
-    # falla al final, con las pistas buenas ya en la caché para el reintento.
-    final, fallos = None, []
-    with r:
-        for linea in r:
-            linea = linea.decode("utf-8", errors="replace").strip()
-            if not linea.startswith("data:"):
-                continue
-            ev = json.loads(linea[5:].strip())
-            tipo = ev.get("type")
-            if progreso:
-                progreso(ev)
-            if tipo == "chapter_error":
-                fallos.append(f"pista {ev.get('index', 0) + 1}: {ev.get('error')}")
-            elif tipo == "error":
-                raise ErrorVoiceStudio(f"VoiceStudio: {ev.get('error') or ev}")
-            elif tipo == "stopped":
-                raise ErrorVoiceStudio(f"VoiceStudio detuvo el render: {ev}")
-            elif tipo == "done":
-                final = ev
-    if fallos or (final and final.get("failed_chapters")):
-        raise ErrorVoiceStudio("VoiceStudio no pudo sintetizar:\n  " + "\n  ".join(fallos or [str(final)]))
-    if not final:
-        raise ErrorVoiceStudio("VoiceStudio cerró la conexión sin terminar el render.")
-    return final
-
-
-def descargar(salida_servidor, destino):
+def generar(texto, perfil, destino, motor=None, idioma="es", num_step=None, guidance_scale=None,
+            seed=None, speed=None):
+    """Una locución por POST /generate (la vía principal de VoiceStudio, que
+    reutiliza un solo proceso del motor). Escribe el WAV en `destino`."""
+    campos = {"text": texto, "profile_id": perfil, "language": idioma, "wav_bits": "16"}
+    for k, v in (("engine", motor), ("num_step", num_step), ("guidance_scale", guidance_scale),
+                 ("seed", seed), ("speed", speed)):
+        if v is not None:
+            campos[k] = v
+    cuerpo, cab = _multipart(campos)
+    with _pedir("POST", "/generate", cuerpo, cab, timeout=900) as r:
+        tipo = r.headers.get("Content-Type", "")
+        datos = r.read()
     destino = Path(destino)
     destino.parent.mkdir(parents=True, exist_ok=True)
-    tmp = destino.with_suffix(destino.suffix + ".part")
-    with _pedir("GET", "/audio/" + urllib.request.quote(salida_servidor), timeout=600) as r, tmp.open("wb") as f:
-        while bloque := r.read(1 << 20):
-            f.write(bloque)
+    tmp = destino.with_suffix(".part")
+    if tipo.startswith("audio/"):
+        tmp.write_bytes(datos)
+    else:
+        info = json.loads(datos)
+        ident = info.get("id") or info.get("audio_id")
+        with _pedir("GET", f"/audio/{ident}.wav", timeout=120) as r:
+            tmp.write_bytes(r.read())
     tmp.replace(destino)
     return destino
 
 
-def progreso_consola(ev):
-    t = ev.get("type")
-    if t == "started":
-        progreso_consola.t0 = time.time()
-        print(f"   · {ev.get('chapters')} pistas en cola", file=sys.stderr)
-    elif t == "chapter":
-        dt = time.time() - getattr(progreso_consola, "t0", time.time())
-        print(f"   · pista {ev.get('index', 0) + 1}/{ev.get('total')} ({dt:.0f} s)", file=sys.stderr)
-    elif t in ("assembling", "mastering"):
-        print(f"   · {'montando' if t == 'assembling' else 'masterizando'}…", file=sys.stderr)
-    elif t == "routing_notice":
-        print(f"   ! {ev.get('message') or ev}", file=sys.stderr)
+def motor_activo():
+    return get_json("/engines/tts")["active"]
+
+
+def seleccionar_motor(motor):
+    """Fija el motor TTS activo de VoiceStudio. La síntesis lo pasa en cada
+    petición a /generate; esto sólo deja la interfaz de VoiceStudio en el
+    mismo motor que el libro."""
+    if motor_activo() != motor:
+        post_json("/engines/select", {"family": "tts", "backend_id": motor})
+        if motor_activo() != motor:
+            raise ErrorVoiceStudio(f"VoiceStudio no acepta {motor} como motor activo")

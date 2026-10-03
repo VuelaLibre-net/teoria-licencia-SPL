@@ -222,19 +222,39 @@ local function tabla(salida, t)
   end
 end
 
+-- La negrita del libro se marca con ‹…› en todo párrafo y elemento de lista.
+-- guion.py la convierte en <strong>…</strong> (énfasis de CosyVoice) en los
+-- papeles con `enfasis: true` en reparto.yml, y la borra en los demás: en la
+-- narración casi cada término técnico va en negrita y enfatizarlos todos
+-- sonaría a anuncio.
+local function con_enfasis(b)
+  return b:walk({
+    Strong = function(s)
+      local r = pandoc.List({ pandoc.Str("‹") })
+      r:extend(s.content)
+      r:insert(pandoc.Str("›"))
+      return r
+    end,
+  })
+end
+
 local function lista(salida, items, rol, ordenada)
   for i, item in ipairs(items) do
     local partes = {}
     local sub = pandoc.List({})
     for _, b in ipairs(item) do
       if b.t == "Para" or b.t == "Plain" then
-        partes[#partes + 1] = texto(b)
+        partes[#partes + 1] = texto(con_enfasis(b))
       else
         sub:insert(b)
       end
     end
     local t = table.concat(partes, " ")
-    emitir(salida, bloque(rol, t, { item = ordenada and tostring(i) or "-" }))
+    -- `ultimo` marca el final de la lista: tras una lista numerada (un
+    -- procedimiento) guion.py deja un silencio largo para asimilarla.
+    local attrs = { item = ordenada and tostring(i) or "-" }
+    if i == #items then attrs.ultimo = "1" end
+    emitir(salida, bloque(rol, t, attrs))
     aplanar(salida, sub, rol)
   end
 end
@@ -250,7 +270,7 @@ end
 -- Un párrafo puede llevar dentro la marca del span mas-alla-tag: se parte en
 -- rótulo («Más allá del examen.») y resto.
 local function parrafo(salida, b, rol)
-  local t = texto(b)
+  local t = texto(con_enfasis(b))
   if t:find("§MASALLA§", 1, true) then
     emitir(salida, bloque("rotulo", "Más allá del examen.", { caja = "mas-alla" }))
     t = t:gsub("§MASALLA§", ""):gsub("^%s+", "")

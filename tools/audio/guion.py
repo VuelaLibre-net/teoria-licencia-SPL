@@ -87,29 +87,79 @@ def _rol_efectivo(rol, attrs):
     return rol
 
 
+def _enfasis(texto, activo):
+    """‹…› (la negrita del libro, ver audio.lua) → <strong>…</strong>, que
+    CosyVoice3 dice con énfasis; o nada, si el papel no lo usa. Un énfasis
+    que abarca la frase entera no aporta: se quita."""
+    if not activo:
+        return texto.replace("‹", "").replace("›", "")
+    t = re.sub(r"‹\s*([^‹›]*?)\s*›", lambda m: f"<strong>{m.group(1)}</strong>" if m.group(1) else "", texto)
+    if re.fullmatch(r"<strong>[^<]*</strong>[.!?:;]?", t):
+        t = re.sub(r"</?strong>", "", t)
+    return t.replace("‹", "").replace("›", "")
+
+
+def sin_etiquetas(texto):
+    """El texto sin las etiquetas de control del motor (<strong>, [breath]):
+    lo que de verdad se oye, para el WER y el guardián de residuos."""
+    return re.sub(r"</?strong>|\[(?:breath|laughter|noise|cough)\]", "", texto)
+
+
 def _pista(titulo):
     return {"titulo": titulo, "fragmentos": []}
 
 
-def _anadir(pista, rol, texto):
-    """Añade un fragmento, o sólo su pausa si el rol no lleva texto."""
+def _earcon(rol, attrs):
+    """El earcon que va delante de un bloque, según `earcons:` de reparto.yml:
+    por rol («seccion») o, para los rótulos, por su caja («caja-seguridad»)."""
+    tabla = reparto().get("earcons") or {}
+    if rol == "rotulo" and attrs.get("caja"):
+        return tabla.get(f"caja-{attrs['caja']}")
+    return tabla.get(rol)
+
+
+def _pausa(rol, attrs, cfg):
+    """Pausa tras un bloque. Las pedagógicas (`pausas:` de reparto.yml) mandan
+    sobre la del rol: entre ítems de una lista, tras un procedimiento
+    (lista numerada) y tras la solución de un ejercicio."""
+    pausas = reparto().get("pausas") or {}
+    p = cfg.get("pausa", 0)
+    if attrs.get("item"):
+        p = pausas.get("item_lista", p)
+        if attrs.get("ultimo") and attrs["item"] != "-":
+            p = pausas.get("fin_procedimiento", p)
+    if rol == "fin-caja" and attrs.get("caja") == "ejercicio":
+        p = pausas.get("fin_ejercicio", p)
+    return p
+
+
+def _anadir(pista, rol, texto, attrs=None):
+    """Añade un fragmento (con su earcon delante, si le toca), o sólo su
+    pausa si el rol no lleva texto."""
+    attrs = attrs or {}
     cfg = reparto()["roles"][rol]
     frs = pista["fragmentos"]
-    if frs and cfg.get("pausa_antes"):
+    # La pausa previa va en el fragmento anterior, antes del earcon: el
+    # silencio, luego el tono, luego la voz.
+    if frs and cfg.get("pausa_antes") and not frs[-1].get("earcon"):
         frs[-1]["pausa"] = max(frs[-1]["pausa"], cfg["pausa_antes"])
     if "voz" not in cfg:
-        if frs:
-            frs[-1]["pausa"] = max(frs[-1]["pausa"], cfg.get("pausa", 0))
+        if frs and not frs[-1].get("earcon"):
+            frs[-1]["pausa"] = max(frs[-1]["pausa"], _pausa(rol, attrs, cfg))
         return
     dicho = normalizar(texto)
     if not dicho or dicho == ".":
         return
+    dicho = _enfasis(dicho, cfg.get("enfasis", False))
+    earcon = _earcon(rol, attrs)
+    if earcon:
+        frs.append({"earcon": earcon, "rol": "earcon", "texto": "", "pausa": 0})
     frs.append({
         "rol": rol,
         "voz": cfg["voz"],
         "velocidad": cfg.get("velocidad"),
         "texto": dicho,
-        "pausa": cfg.get("pausa", 0),
+        "pausa": _pausa(rol, attrs, cfg),
     })
 
 
@@ -132,12 +182,12 @@ def guion_fichero(ruta, etiqueta):
         elif actual is None:
             actual = _pista("")
             pistas.append(actual)
-        _anadir(actual, rol, texto)
+        _anadir(actual, rol, texto, attrs)
     # El último fragmento del fichero no necesita silencio detrás: lo pone el
     # reproductor o la pista siguiente.
     pistas = [p for p in pistas if p["fragmentos"]]
     for p in pistas:
-        p["fragmentos"][-1]["pausa"] = max(p["fragmentos"][-1]["pausa"], 1000)
+        p["fragmentos"][-1]["pausa"] = max(p["fragmentos"][-1].get("pausa", 0), 1000)
     return pistas
 
 
@@ -191,6 +241,9 @@ def escribir(pistas, destino_json, destino_txt):
         for p in pistas:
             f.write(f"=== {p['titulo']}\n")
             for fr in p["fragmentos"]:
+                if fr.get("earcon"):
+                    f.write(f"♪ {fr['earcon']}\n")
+                    continue
                 v = f" ×{fr['velocidad']}" if fr.get("velocidad") else ""
                 f.write(f"[{fr['voz'].removeprefix('SPL ')}{v}] {fr['texto']}  ‖{fr['pausa']}\n")
             f.write("\n")
@@ -206,6 +259,7 @@ def residuos(pistas):
     malos = []
     for p in pistas:
         for fr in p["fragmentos"]:
-            for m in re.finditer(r"[0-9*_\[\]{}\\#|<>$]|CORREGIR", fr["texto"]):
-                malos.append((p["titulo"], fr["texto"][max(0, m.start() - 30):m.end() + 30]))
+            texto = sin_etiquetas(fr["texto"])
+            for m in re.finditer(r"[0-9*_\[\]{}\\#|<>$‹›]|CORREGIR", texto):
+                malos.append((p["titulo"], texto[max(0, m.start() - 30):m.end() + 30]))
     return malos

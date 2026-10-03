@@ -25,10 +25,11 @@ import tempfile
 import unicodedata
 from pathlib import Path
 
+from guion import sin_etiquetas
 from normalizar import normalizar
 
 UMBRAL_WER = 0.12
-UMBRAL_SILENCIO_S = 3.0
+UMBRAL_SILENCIO_S = 3.5  # las pausas pedagógicas llegan a 2,5 s
 
 
 def _letras(t, verbalizar=False):
@@ -111,7 +112,7 @@ def main():
                 [str(Path(__file__).with_name("transcribir.py")), *(str(t) for t, _, _ in trozos)],
                 stdout=subprocess.PIPE, text=True, check=True).stdout.splitlines()
             for (trozo, ini, p), texto in zip(trozos, textos):
-                ref = _letras(" ".join(f["texto"] for f in p["fragmentos"]))
+                ref = _letras(" ".join(sin_etiquetas(f["texto"]) for f in p["fragmentos"]))
                 hip = _letras(texto, verbalizar=True)
                 w = wer(ref, hip)
                 errores += w * len(ref)

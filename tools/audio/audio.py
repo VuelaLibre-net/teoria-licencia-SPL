@@ -12,19 +12,23 @@ créditos, capítulos marcados y portada. Con capítulos, sólo sus MP3.
 Cada salida lleva al lado una huella (`.huella`) de la petición exacta que la
 produjo. Si la huella no cambia, no se vuelve a pedir nada: es lo que hace las
 veces de la fecha de los otros entregables, y no se deja engañar por mtimes.
-Y si cambia sólo un párrafo, VoiceStudio reutiliza de su caché todos los demás
-fragmentos, así que rehacer un capítulo tras corregir una sigla cuesta segundos.
+Cada fragmento sintetizado queda en ~/.cache/spl-audio/fragmentos/: si cambia
+sólo un párrafo, los demás salen de ahí y rehacer el capítulo tras corregir una
+sigla cuesta lo que tarda el montaje.
 """
 
 import argparse
 import hashlib
 import json
 import re
+import subprocess
 import sys
+import time
 from pathlib import Path
 
 import guion as G
 import cliente as C
+import montaje as M
 
 RAIZ = Path(__file__).resolve().parents[2]
 
@@ -49,42 +53,78 @@ def elegir(libro, pedidos):
     return elegidos
 
 
-def base_peticion(cfg_sintesis):
+def parametros(cfg_sintesis):
     s = cfg_sintesis
-    return {
-        "language": s["idioma"], "num_step": s["num_step"], "guidance_scale": s["guidance_scale"],
-        "seed": s["seed"], "trim_edges": s["trim_edges"], "loudness": s["loudness"],
-    }
+    return {"motor": s.get("motor", "omnivoice"), "idioma": s["idioma"], "num_step": s.get("num_step"),
+            "guidance_scale": s.get("guidance_scale"), "seed": s.get("seed"), "loudness": s.get("loudness")}
 
 
-def spans(pistas, ids):
+CACHE = Path.home() / ".cache" / "spl-audio" / "fragmentos"
+
+# Las herramientas del montaje también entran en la huella: cambiar un earcon
+# o el máster rehace el audio.
+HERRAMIENTAS = hashlib.sha256(b"".join(
+    (Path(__file__).with_name(n)).read_bytes() for n in ("earcons.py", "montaje.py"))).hexdigest()[:16]
+
+
+def _clave(fr, voz, params):
+    """Identidad de un fragmento sintetizado: texto, voz (perfil, grabación,
+    transcripción e instrucción) y parámetros del motor. Igual clave, mismo
+    audio: se reutiliza de la caché."""
+    return hashlib.sha256(json.dumps(
+        [fr["texto"], fr.get("velocidad"), voz.get("id"), voz.get("ref_audio_path"), voz.get("ref_text"),
+         voz.get("instruct"), params], sort_keys=True, ensure_ascii=False).encode()).hexdigest()
+
+
+def sintetizar(pistas, perfiles, params):
+    """Sintetiza los fragmentos que falten en la caché y devuelve las pistas
+    listas para montaje.montar. Un fragmento por petición a /generate: así
+    VoiceStudio usa un solo proceso del motor (ver montaje.py)."""
+    motor = params["motor"]
+    plan, pendientes = [], []
     for p in pistas:
-        yield p["titulo"], [
-            {"voice_id": ids[f["voz"]], "text": f["texto"], "pause_ms_after": f["pausa"],
-             "speed": f.get("velocidad")}
-            for f in p["fragmentos"]]
+        piezas = []
+        for fr in p["fragmentos"]:
+            if fr.get("earcon"):
+                piezas.append(("earcon", fr["earcon"]))
+                continue
+            voz = perfiles[fr["voz"]]
+            k = _clave(fr, voz, params)
+            ruta = CACHE / motor / k[:2] / f"{k}.wav"
+            if not ruta.exists():
+                pendientes.append((fr, voz, ruta))
+            piezas += [("voz", ruta), ("silencio", fr.get("pausa", 0))]
+        plan.append({"titulo": p["titulo"], "piezas": piezas})
+    t0 = time.time()
+    for n, (fr, voz, ruta) in enumerate(pendientes, 1):
+        C.generar(fr["texto"], voz["id"], ruta, motor=motor, idioma=params["idioma"],
+                  num_step=params.get("num_step"), guidance_scale=params.get("guidance_scale"),
+                  seed=params.get("seed"), speed=fr.get("velocidad"))
+        if n % 10 == 0 or n == len(pendientes):
+            print(f"   · {n}/{len(pendientes)} fragmentos ({time.time() - t0:.0f} s)", file=sys.stderr)
+    return plan, len(pendientes)
 
 
-def huella(peticion):
-    # La portada se sube en cada ejecución con un nombre nuevo: entra su
-    # contenido, no su ruta en el servidor.
-    p = dict(peticion)
-    p.pop("cover_path", None)
-    return hashlib.sha256(json.dumps(p, sort_keys=True, ensure_ascii=False).encode()).hexdigest()
-
-
-def producir(peticion, destino, huella_extra=""):
-    h = huella(peticion) + huella_extra
+def producir(pistas, destino, perfiles, params, formato, bitrate, meta, portada=None, huella_extra=""):
+    """Voz por fragmentos (con caché) + montaje propio con silencios, earcons
+    y máster. Si la huella no cambia, no se hace nada."""
+    portada_h = hashlib.sha256(Path(portada).read_bytes()).hexdigest()[:16] if portada and Path(portada).exists() else ""
+    h = hashlib.sha256(json.dumps(
+        [[[f.get("earcon"), f.get("texto"), f.get("voz"), f.get("pausa"), f.get("velocidad")] for f in p["fragmentos"]]
+         for p in pistas] + [[p["titulo"] for p in pistas], formato, bitrate, meta, params, portada_h,
+                             HERRAMIENTAS, huella_extra,
+                             {n: [v.get("id"), v.get("ref_audio_path"), v.get("instruct")] for n, v in perfiles.items()}],
+        sort_keys=True, ensure_ascii=False).encode()).hexdigest()
     marca = destino.with_name(destino.name + ".huella")
     if destino.exists() and marca.exists() and marca.read_text().strip() == h:
         print(f"✓ {destino} al día")
         return False
     print(f"==> [VoiceStudio] {destino.name}", file=sys.stderr)
-    final = C.renderizar(peticion, C.progreso_consola)
-    C.descargar(final["output"], destino)
+    plan, nuevos = sintetizar(pistas, perfiles, params)
+    print("   · montando y masterizando…", file=sys.stderr)
+    r = M.montar(plan, destino, formato, bitrate, meta, portada, params.get("loudness"))
     marca.write_text(h + "\n")
-    cache = final.get("cached_chapters", 0)
-    print(f"✓ {destino} ({final.get('duration_s', 0) / 60:.1f} min, {cache} pistas de caché)")
+    print(f"✓ {destino} ({r['duracion_s'] / 60:.1f} min, {r['capitulos']} capítulos, {nuevos} fragmentos nuevos)")
     return True
 
 
@@ -144,18 +184,28 @@ def main():
     if a.solo_guion:
         return
 
-    # 2. Voces: todas las del reparto tienen que existir en VoiceStudio.
-    ids = C.perfiles()
-    usadas = {fr["voz"] for _, _, ps in guiones for p in ps for fr in p["fragmentos"]} | {
+    # 2. Voces: todas las del reparto tienen que existir en VoiceStudio, con
+    #    su instrucción de estilo al día.
+    subprocess.run([str(Path(__file__).with_name("voces.py"))], check=True, stdout=subprocess.DEVNULL)
+    perfiles = {p["name"]: p for p in C.get_json("/profiles")}
+    ids = {n: p["id"] for n, p in perfiles.items()}
+    usadas = {fr["voz"] for _, _, ps in guiones for p in ps for fr in p["fragmentos"] if fr.get("voz")} | {
         reparto["roles"]["creditos"]["voz"]}
     faltan = sorted(usadas - ids.keys())
     if faltan:
         raise SystemExit("audio: faltan voces en VoiceStudio: " + ", ".join(faltan) +
                          ". Créalas con `make audio-voces CREAR=1`.")
     s = reparto["sintesis"]
-    base = base_peticion(s)
+    params = parametros(s)
+    # El motor va en cada petición a /generate (y en la huella y la caché);
+    # se deja también activo en VoiceStudio para que la interfaz lo muestre.
+    motor = s.get("motor", "omnivoice")
+    C.seleccionar_motor(motor)
+    # Las instrucciones de estilo van en el perfil, no en la petición: entran
+    # en la huella para que cambiarlas rehaga el audio.
+    extra = motor + json.dumps({n: v.get("instruccion") for n, v in reparto["voces"].items()}, sort_keys=True)
     meta = {"author": autor, "album": titulo_libro, "year": anio, "genre": "Audiolibro; Aviación",
-            "narrator": "Voces sintéticas (VoiceStudio, OmniVoice) clonadas de grabaciones libres. "
+            "narrator": f"Voces sintéticas (VoiceStudio, {motor}) clonadas de grabaciones libres. "
                         + " ".join(G.atribuciones())}
 
     # 3. Un MP3 por fichero. Cada sección `##` es un capítulo del MP3.
@@ -163,10 +213,8 @@ def main():
         stem = Path(f).stem
         num = nombre.split("-")[0]
         titulo = pistas[0]["titulo"] if pistas else stem
-        pet = dict(base, format="mp3", bitrate=s["mp3_bitrate"],
-                   chapters=[{"title": t, "spans": sp} for t, sp in spans(pistas, ids)],
-                   metadata=dict(meta, title=(f"{etiqueta}. " if etiqueta else "") + titulo))
-        producir(pet, dir_libro / f"{num}-{stem}.mp3")
+        producir(pistas, dir_libro / f"{num}-{stem}.mp3", perfiles, params, "mp3", s["mp3_bitrate"],
+                 dict(meta, title=(f"{etiqueta}. " if etiqueta else "") + titulo), huella_extra=extra)
 
     # 4. El libro entero: M4B con créditos, un capítulo por fichero y cierre.
     if a.caps:
@@ -178,17 +226,9 @@ def main():
         capitulos.append({"titulo": f"{etiqueta}. {titulo}" if etiqueta else titulo, "fragmentos": todos})
     capitulos.append(G.creditos_cierre(libro))
     G.escribir(capitulos, dir_guion / "libro.json", dir_guion / "libro.txt")
-    portada = libro / "cover" / "frente.jpg"
-    pet = dict(base, format="m4b", bitrate=s["m4b_bitrate"],
-               chapters=[{"title": t, "spans": sp} for t, sp in spans(capitulos, ids)],
-               metadata=dict(meta, title=titulo_libro, description=descripcion(libro)))
-    extra = hashlib.sha256(portada.read_bytes()).hexdigest()[:16] if portada.exists() else ""
-    destino = salida / f"{nombre}-{a.sufijo}.m4b"
-    marca = destino.with_name(destino.name + ".huella")
-    if not (destino.exists() and marca.exists() and marca.read_text().strip() == huella(pet) + extra):
-        if portada.exists():
-            pet["cover_path"] = C.subir_portada(portada.resolve())
-    producir(pet, destino, extra)
+    producir(capitulos, salida / f"{nombre}-{a.sufijo}.m4b", perfiles, params, "m4b", s["m4b_bitrate"],
+             dict(meta, title=titulo_libro, description=descripcion(libro)),
+             portada=libro / "cover" / "frente.jpg", huella_extra=extra)
 
 
 if __name__ == "__main__":

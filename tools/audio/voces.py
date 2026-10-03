@@ -31,6 +31,17 @@ def main():
         else:
             faltan.append(nombre)
             print(f"  ✗ {nombre}: no existe")
+    # La instrucción de estilo vive en el perfil de VoiceStudio (el render por
+    # capítulos no la admite por fragmento): se sincroniza desde reparto.yml.
+    perfiles = {p["name"]: p for p in C.get_json("/profiles")}
+    for nombre, voz in reparto["voces"].items():
+        p = perfiles.get(nombre)
+        if not p:
+            continue
+        quiere = voz.get("instruccion") or ""
+        if (p.get("instruct") or "") != quiere and (voz.get("candidata") or quiere):
+            C.put_json(f"/profiles/{p['id']}", {"instruct": quiere})
+            print(f"  ~ {nombre}: instrucción {'«' + quiere + '»' if quiere else 'quitada'}")
     if faltan and a.crear:
         for nombre in faltan:
             voz = reparto["voces"].get(nombre, {})
