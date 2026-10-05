@@ -26,7 +26,7 @@ Podemos entenderlo imaginando una pelota en diferentes relieves:
 * **Gradiente Adiabático Saturado (SALR - *Saturated Adiabatic Lapse Rate*)**: Cuando la burbuja se enfría lo suficiente como para alcanzar su punto de rocío, el vapor de agua comienza a condensarse, formando la base de una nube (Nivel de Condensación por Ascenso o NCA). La condensación libera calor latente dentro de la burbuja. Por tanto, a partir de la base de la nube, la burbuja sigue subiendo, pero se enfría mucho más despacio, típicamente a **1,5 °C por cada 1.000 pies** (0,5 °C cada 100 metros en niveles bajos).
 
 ::: {.callout-tip title="Regla de oro"}
-Puedes estimar fácilmente la altura de la base de los cúmulos restando la temperatura del punto de rocío a la temperatura ambiente en el suelo. Como los dejas atrás a razón de unos 2.5 °C por cada 1.000 pies de ascenso conjunto (el DALR menos la caída del punto de rocío), la fórmula es: **(T~ambiente~ - T~rocío~) x 400 = Altitud de la base en pies.**
+Puedes estimar fácilmente la altura de la base de los cúmulos restando la temperatura del punto de rocío a la temperatura ambiente en el suelo. Como los dejas atrás a razón de unos 2,5 °C por cada 1.000 pies de ascenso conjunto (el DALR menos la caída del punto de rocío), la fórmula es: **$T_{ambiente} - T_{rocío}$ × 400 = Altitud de la base en pies.**
 :::
 
 Para aplicar la fórmula, sigue estos pasos antes de cada vuelo:

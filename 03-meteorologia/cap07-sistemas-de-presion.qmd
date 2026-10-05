@@ -58,7 +58,7 @@ Cuando el mapa sinóptico muestre un collado centrado sobre tu zona de vuelo, no
 
 ## Tabla de referencia: sistemas de presión y vuelo a vela
 
-| Sistema | Símbolo | Circulación (H. Norte) | Nubosidad típica | Implicación para el velero |
+| Sistema | Símbolo | Circulación en el hemisferio norte | Nubosidad típica | Implicación para el velero |
 | --- | --- | --- | --- | --- |
 | Anticiclón | H / A | Horaria, divergente en superficie (subsidencia) | Escasa o nula | Buen tiempo VFR; inversión limita el techo térmico. Niebla de radiación en invierno. |
 | Borrasca / Depresión | L / B | Antihoraria, convergente (ascendencia) | Abundante; frentes activos | Viento fuerte y racheado, precipitación, VFR inviable. Excelente post-frente. |
@@ -70,8 +70,8 @@ Cuando el mapa sinóptico muestre un collado centrado sobre tu zona de vuelo, no
 ::: {.postit}
 **Resumen del capítulo: sistemas de presión**
 
-* **Anticiclones (H)**: Zonas de alta presión donde el aire baja (subsidencia) y se seca. Garantizan estabilidad y buen tiempo, pero en invierno atrapan nieblas y contaminación. El viento gira en sentido horario (H. Norte).
-* **Borrascas (L)**: Zonas de baja presión donde el aire sube y condensa. Son fábricas de nubes, frentes y viento. El viento gira en sentido antihorario (H. Norte).
+* **Anticiclones (H)**: Zonas de alta presión donde el aire baja (subsidencia) y se seca. Garantizan estabilidad y buen tiempo, pero en invierno atrapan nieblas y contaminación. El viento gira en sentido horario en el hemisferio norte.
+* **Borrascas (L)**: Zonas de baja presión donde el aire sube y condensa. Son fábricas de nubes, frentes y viento. El viento gira en sentido antihorario en el hemisferio norte.
 * **Vaguadas y Dorsales**: Una vaguada es una "lengua" de baja presión (mal tiempo estirado); una dorsal es una "lengua" de alta presión (buen tiempo estirado).
 * **Collado**: Zona neutra entre dos altas y dos bajas cruzadas. Es como un pantano barométrico: vientos flojos, dirección variable y probabilidad de nieblas o tormentas estáticas en verano.
 :::

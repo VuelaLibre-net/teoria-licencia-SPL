@@ -1,6 +1,8 @@
 # Definiciones
 
-> En este capítulo aprenderás el lenguaje que se usa en la radio aeronáutica: qué es la colación y por qué no es opcional, cómo funciona la fraseología estándar, las reglas para decir números, horas y frecuencias, cómo manejar bien la disciplina de radio y cómo identificarte correctamente ante los servicios de tránsito aéreo.
+> En este capítulo aprenderás el lenguaje que se usa en la radio aeronáutica: qué es la colación y por qué no es opcional, cómo funciona la fraseología estándar y las reglas para decir números, horas y frecuencias.
+>
+> También aprenderás a mantener la disciplina de radio y a identificarte correctamente ante los servicios de tránsito aéreo.
 
 ## Introducción a las comunicaciones aeronáuticas
 

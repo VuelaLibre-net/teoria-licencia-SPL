@@ -34,8 +34,11 @@ UMBRAL_SILENCIO_S = 3.5  # las pausas pedagógicas llegan a 2,5 s
 
 def _letras(t, verbalizar=False):
     # La transcripción trae cifras y siglas («1,013», «QNH»): se pasa por el
-    # mismo normalizador que el guion para comparar en igualdad.
+    # mismo normalizador que el guion para comparar en igualdad. Whisper suele
+    # poner los rótulos enteros en mayúsculas; se bajan antes para no deletrear
+    # «INFORMACIÓN» como si fuese una sigla, preservando las siglas cortas.
     if verbalizar:
+        t = re.sub(r"\b[A-ZÁÉÍÓÚÜÑ]{4,}\b", lambda m: m.group(0).lower(), t)
         t = normalizar(t)
     t = unicodedata.normalize("NFD", t.lower())
     t = "".join(c for c in t if unicodedata.category(c) != "Mn")

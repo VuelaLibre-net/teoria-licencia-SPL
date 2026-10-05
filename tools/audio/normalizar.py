@@ -202,6 +202,19 @@ def _pasada_aviacion(t):
     return t
 
 
+def _pasada_formulas(t):
+    """Dice las sumas y divisiones de las fórmulas cortas del texto."""
+    def suma_division(m):
+        numerador = m.group(1).strip()
+        denominador = m.group(2).strip()
+        return f"suma de {numerador} entre suma de {denominador}"
+
+    t = re.sub(r"Σ\s*([^/.,;:!?]+?)\s*/\s*Σ\s*([^.,;:!?]+)", suma_division, t)
+    # `stringify` une la variable y su subíndice Markdown: T~rocío~ → Trocío.
+    t = re.sub(r"\bT(ambiente|rocío)\b", r"T \1", t)
+    return t.replace("Σ", "suma de")
+
+
 def _pasada_unidades(t):
     reglas, _, _ = _datos()
     for u in reglas["unidades"]:
@@ -284,6 +297,7 @@ def _pasada_puntuacion(t):
     t = re.sub(r"([.;:!?])\s*,\s*", r"\1 ", t)
     t = re.sub(r"(,\s*)+([.;:!?])", r"\2", t)
     t = re.sub(r"(\s*,\s*)+", ", ", t)
+    t = re.sub(r",\s*([.;:!?])", r"\1", t)
     t = re.sub(r"^\s*,\s*", "", t)
     t = re.sub(r"\s+", " ", t).strip()
     t = re.sub(r",$", ".", t)
@@ -311,6 +325,7 @@ def normalizar(texto):
     t = _pasada_direcciones(t)
     t = _pasada_normas(t)
     t = _pasada_aviacion(t)
+    t = _pasada_formulas(t)
     t = _pasada_unidades(t)
     t = _pasada_numeros(t)
     t = _pasada_lexico(t)
