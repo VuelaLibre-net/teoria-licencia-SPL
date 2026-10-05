@@ -55,7 +55,7 @@ El FIC no es solo para abrir planes de vuelo. En travesía por zonas como el Sis
 
 ## Motoveleros (TMG)
 
-Si vuelas un motovelero de turismo (TMG) y haces la navegación a motor, las reglas cambian: a efectos del plan de vuelo eres una aeronave propulsada normal. La autonomía que declares debe ser la de combustible real —capacidad de los tanques y consumo del motor—, no las horas de sol que queden.
+Si vuelas un motovelero de turismo (TMG) y haces la navegación a motor, las reglas cambian: a efectos del plan de vuelo eres una aeronave propulsada normal. Declara la autonomía de combustible real: capacidad de los tanques y consumo del motor, no las horas de luz que queden.
 
 ## Cierre del plan de vuelo: el paso crítico
 
