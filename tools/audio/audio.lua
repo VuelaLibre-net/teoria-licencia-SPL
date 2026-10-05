@@ -212,7 +212,7 @@ local function tabla(salida, t)
     local partes = { f[1] or "" }
     for i = 2, #f do
       local col = cabecera[i]
-      if f[i] ~= "" then
+      if f[i] ~= "" and f[i] ~= "—" then
         partes[#partes + 1] = (col and col ~= "") and (col .. ": " .. f[i]) or f[i]
       end
     end

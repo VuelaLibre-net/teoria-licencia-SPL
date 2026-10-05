@@ -92,7 +92,10 @@ def _enfasis(texto, activo):
     CosyVoice3 dice con énfasis; o nada, si el papel no lo usa. Un énfasis
     que abarca la frase entera no aporta: se quita."""
     if not activo:
-        return texto.replace("‹", "").replace("›", "")
+        texto = texto.replace("‹", "").replace("›", "")
+        texto = re.sub(r",\s*([.;:!?])", r"\1", texto)
+        texto = re.sub(r":\s*,\s*", ": ", texto)
+        return re.sub(r"([.!?])\1+", r"\1", texto)
     t = re.sub(r"‹\s*([^‹›]*?)\s*›", lambda m: f"<strong>{m.group(1)}</strong>" if m.group(1) else "", texto)
     if re.fullmatch(r"<strong>[^<]*</strong>[.!?:;]?", t):
         t = re.sub(r"</?strong>", "", t)

@@ -82,6 +82,21 @@ siglas:
   SAR: sar
   ELT: e ele te
   PLB: pe ele be
+  PNR: pe ene erre
+  AFIL: afil
+  AAT: a a te
+  DCT: de ce te
+  ZZZZ: zeta zeta zeta zeta
+  FIC: efe i ce
+  IDE: i de e
+  GLID: glid
+  VTC: uve te ce
+  ICARO: ícaro
+  ARO: a erre o
+  EOBT: e o be te
+  ADN: a de ene
+  DEL: de e ele
+  EXAMEN: examen
   MAYDAY: méidei
   PAN: pan
   NORDO: nordo
@@ -152,6 +167,96 @@ siglas:
   # Mnemotecnias y palabras en mayúsculas que son palabras
   IMSAFE: im séif
   PAVE: péiv
+  TUC: te u ce
+  MED: eme e de
+  ADM: a de eme
+  DECIDE: decide
+  SRM: ese erre eme
+  SHELL: shel
+  GO: góu
+  AUT: a u te
+  EDS: e de ese
+  AME: a eme e
+  GMP: ge eme pe
+  AC: a ce
+  ED: e de
+  WADA: wada
+  CELAD: celad
+  TUE: te u e
+  RAM: erre a eme
+  SHEL: shel
+  HFACS: hache efe a ce ese
+  SMS: ese eme ese
+  AIM: a i eme
+  DALR: de a ele erre
+  SALR: ese a ele erre
+  FZRA: efe zeta erre a
+  TREND: trend
+  AMA: a eme a
+  AIS: a i ese
+  DANA: dana
+  RASP: rasp
+  NCA: ene ce a
+  NM: millas náuticas
+  GR: granizo
+  OK: okey
+  LEMD: ele e eme de
+  CCL: ce ce ele
+  LFC: ele efe ce
+  ASHTAM: ashtam
+  FG: niebla
+  BR: neblina
+  INESTABILIDAD: inestabilidad
+  ESTABILIDAD: estabilidad
+  ZCIT: zeta ce i te
+  EE: e e
+  UU: u u
+  NASA: nasa
+  OMM: o eme eme
+  NUNCA: nunca
+  SW: suroeste
+  NW: noroeste
+  SE: sureste
+  EC: e ce
+  DPE: de pe e
+  VAC: uve a ce
+  EPE: e pe e
+  AIREP: airep
+  AM: a eme
+  TX: te equis
+  URGENCIA: urgencia
+  TWR: te uve doble erre
+  PASA: pasa
+  SOLICITA: solicita
+  ASK: ask
+  XPDR: transpondedor
+  IDENT: áident
+  FL: nivel de vuelo
+  SOCORRO: socorro
+  ETSO: etso
+  II: dos
+  AFFIRM: afírm
+  SOS: ese o ese
+  MAY: mei
+  BRT: be erre te
+  VOL: vol
+  GRIB: grib
+  PERSONAS: personas
+  FOLLOW: fóllou
+  DESCEND: disénd
+  YOU: iú
+  LAND: land
+  WILCO: uílco
+  CAN: can
+  NOT: not
+  LOST: lost
+  GRAVE: grave
+  INMINENTE: inminente
+  RADIOS: radios
+  ALT: alt
+  VDF: uve de efe
+  QDM: cu de eme
+  QDR: cu de erre
   "NO": "no"
   "SI": "si"
   QUÉ: qué
