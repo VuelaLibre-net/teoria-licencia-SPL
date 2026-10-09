@@ -51,7 +51,7 @@ En térmica o en la final, el piloto evalúa la situación y sus peligros, hace 
 * **D**o (hacer): ejecutar la acción elegida, de manera metódica, rápida o pausada según lo pida la situación.
 * **E**valuate (evaluar) el resultado: comprobar si el curso tomado corrige el desvío, aprender de ello y comunicar las conclusiones.
 
-![Modelo DECIDE para la toma de decisiones aeronáuticas. *(CORREGIR: los pasos van en el orden Detectar, Estimar, Elegir, Identificar, Hacer y Evaluar; la figura pone «Implementar» en cuarto lugar y «Determinar resultados» en quinto, y lleva una palabra en inglés.)*](imagenes/02-cap03-decide.jpg){#fig-02-cap03-decide .corregir}
+![Modelo DECIDE para la toma de decisiones aeronáuticas.](imagenes/02-cap03-decide.jpg){#fig-02-cap03-decide}
 
 ## Gestión de riesgos y modelos de evaluación (modelo PAVE)
 
@@ -116,7 +116,7 @@ Sin embargo, si la presión psicológica continúa aumentando (por ejemplo, te m
 Bajo condiciones de estrés extremo y pánico, instintos básicos de supervivencia como intentar "alejarse del suelo tirando fuertemente de la palanca" pueden superar tu raciocinio. A baja altura, ese tirón brusco gasta la energía del planeador y acaba en una pérdida de control o en una barrena sin altura para recuperarla. Conoce tus límites y no te metas en situaciones para las que no estás bien preparado.
 :::
 
-![Esquema conceptual de la visión de túnel bajo estrés extremo. *(CORREGIR: la escala del variómetro dibujado es incoherente —el «−4» aparece dos veces—, y el rótulo debe hablar del estrechamiento de la atención, no de la pérdida de campo visual.)*](imagenes/02-cap03-vision-tunel.jpg){#fig-02-cap03-vision-tunel .corregir}
+![Esquema conceptual de la visión de túnel bajo estrés extremo.](imagenes/02-cap03-vision-tunel.jpg){#fig-02-cap03-vision-tunel}
 
 Cada segundo en vuelo, el piloto percibe información del entorno, la procesa y actúa en consecuencia. La mente sólo puede procesar a la vez una cantidad limitada: es como un vaso de agua, que admite cierto volumen y no más. En un remolque turbulento, de espaldas al sol, buscando a otro velero que notifica en base, el vaso se desborda. A esto se le conoce como **sobrecarga de trabajo**: llegan más tareas e información de las que caben en el tiempo disponible. Cuando además la tarea es demasiado difícil para el entrenamiento del piloto en ese momento, el margen de seguridad desaparece.
 

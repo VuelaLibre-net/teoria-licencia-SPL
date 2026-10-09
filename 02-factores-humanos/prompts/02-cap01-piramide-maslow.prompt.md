@@ -3,9 +3,9 @@ schema: 1
 figura: 02-cap01-piramide-maslow.png
 tipo: diagrama-conceptual
 estado: borrador
-fecha: ""
+fecha: "2026-10-09"
 herramienta:
-  nombre: ""
+  nombre: "ChatGPT (chatgpt.com)"
   version: ""
 fuentes:
   - referencia: "Maslow, A. H. (1943). «A Theory of Human Motivation». *Psychological Review*, 50(4), 370-396"
@@ -28,10 +28,17 @@ master_editable: ""
 las necesidades de abajo tienen que estar cubiertas antes de perseguir las de arriba. Texto en
 `cap01-factores-humanos-conceptos-basicos.qmd`, «Motivación y desempeño».
 
-**Estado.** Marcada con `.corregir` en la fase 3 de la corrección (hallazgo TEC-01). El orden de
-los niveles es correcto; sólo hay que cambiar el segundo.
+**Estado.** Sustituida el 9 de octubre de 2026 (issue #60) por una versión generada con el encargo
+de esta ficha; en la edición española se quitan la clase `.corregir` y la nota del pie. Vuelve a
+`borrador`: falta la revisión técnica de la figura nueva y su versión inglesa, que sigue siendo la
+anterior.
 
-## Qué falla en la figura actual
+## Procedencia
+
+Generada con ChatGPT (chatgpt.com) el 09-10-2026 con el prompt de esta ficha, sin retoques
+posteriores. La figura anterior no tenía la procedencia documentada.
+
+## Qué fallaba en la figura anterior
 
 * El nivel 2 («Seguridad») pone «Seguridad operacional (SMS), Previsión meteorológica, Equipamiento
   (arnés, paracaídas), Control del planeador». La necesidad de seguridad de Maslow es sentirse a

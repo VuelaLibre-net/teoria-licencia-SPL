@@ -2,7 +2,7 @@
 schema: 1
 figura: 02-cap02-ilusiones-opticas.png
 tipo: diagrama-conceptual
-estado: revision-tecnica
+estado: final
 fecha: ""
 herramienta:
   nombre: ""
@@ -15,8 +15,8 @@ restricciones:
   - texto visible en español, breve
   - sin personas reconocibles
 revision:
-  persona: ""
-  fecha: ""
+  persona: "Ramón G. Camus"
+  fecha: "2026-10-09"
 master_editable: ""
 ---
 
@@ -26,7 +26,8 @@ master_editable: ""
 nivelado mientras el indicador de actitud muestra el alabeo. Texto y pie en
 `cap02-fisiologia-aeronautica-basica-y-mantenimiento-de-salud.qmd`.
 
-**Estado.** Sin errores de contenido en la auditoría. Pendiente de revisión técnica.
+**Estado.** Revisada por el autor el 9 de octubre de 2026 (issue #60): la figura es correcta.
+Muestra una ilusión vestibular, y su pie ya lo dice; el fichero conserva su nombre.
 
 ## Procedencia
 
