@@ -3,9 +3,9 @@ schema: 1
 figura: 02-cap03-decide.jpg
 tipo: diagrama-conceptual
 estado: borrador
-fecha: ""
+fecha: "2026-10-09"
 herramienta:
-  nombre: ""
+  nombre: "ChatGPT (chatgpt.com)"
   version: ""
 fuentes:
   - referencia: "FAA, *Pilot's Handbook of Aeronautical Knowledge*, FAA-H-8083-25C (2023), cap. 2, «The DECIDE Model»"
@@ -25,10 +25,17 @@ master_editable: ""
 **Qué enseña.** El modelo DECIDE de toma de decisiones como ciclo de seis pasos. Texto en
 `cap03-psicologia-aeronautica-basica.qmd` (seis viñetas) y en el glosario.
 
-**Estado.** Marcada con `.corregir` en la fase 2 de la corrección (hallazgo TEC-03). Hay que
-rehacerla.
+**Estado.** Sustituida el 9 de octubre de 2026 (issue #60) por una versión generada con el encargo
+de esta ficha; en la edición española se quitan la clase `.corregir` y la nota del pie. Vuelve a
+`borrador`: falta la revisión técnica de la figura nueva y su versión inglesa, que sigue siendo la
+anterior.
 
-## Qué falla en la figura actual
+## Procedencia
+
+Generada con ChatGPT (chatgpt.com) el 09-10-2026 con el prompt de esta ficha, sin retoques
+posteriores. La figura anterior no tenía la procedencia documentada.
+
+## Qué fallaba en la figura anterior
 
 * Los pasos no siguen el modelo: pone «Estudiar», «Considerar», «Implementar» y «Determinar
   resultados». El orden es Detectar, Estimar, Elegir, Identificar, Hacer y Evaluar.

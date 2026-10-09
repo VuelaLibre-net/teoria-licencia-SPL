@@ -3,9 +3,9 @@ schema: 1
 figura: 02-cap04-pulsioximetro.jpg
 tipo: ilustracion-realista
 estado: borrador
-fecha: ""
+fecha: "2026-10-09"
 herramienta:
-  nombre: ""
+  nombre: "ChatGPT (chatgpt.com)"
   version: ""
 fuentes:
   - referencia: "Elaboración propia a partir del texto del capítulo"
@@ -25,10 +25,18 @@ master_editable: ""
 **Qué enseña.** Un pulsioxímetro de dedo con la lectura de saturación (SpO₂) y de frecuencia
 del pulso. Texto en `cap04-uso-de-oxigeno.qmd`, «Pulsioxímetro».
 
-**Estado.** Marcada con `.corregir` en la fase 7 de la corrección (hallazgo COH-13). Hay que
-sustituirla.
+**Estado.** Sustituida el 9 de octubre de 2026 (issue #60) por una versión generada con el encargo
+de esta ficha: sin marca comercial y con «SpO₂ %» bien compuesto. En la edición española se quitan
+la clase `.corregir` y la nota del pie. Vuelve a `borrador`: falta la revisión técnica de la figura
+nueva y su versión inglesa, que sigue siendo la anterior.
 
-## Qué falla en la figura actual
+## Procedencia
+
+Generada con ChatGPT (chatgpt.com) el 09-10-2026 con el prompt de esta ficha. Una primera versión
+añadía dos rótulos sin sentido («Zona segura / Pantalla» y «Atención / Pinza»); la definitiva, del
+mismo día, no los lleva. La figura anterior no tenía la procedencia documentada.
+
+## Qué fallaba en la figura anterior
 
 * Muestra la marca comercial de un fabricante en la pantalla. La guía excluye logotipos y marcas.
 * El rótulo «SpO2%» de la pantalla está mal compuesto: el 2 queda pegado al signo de porcentaje.
@@ -40,7 +48,7 @@ Genera una ilustración didáctica para un manual teórico de piloto de planeado
 
 Tipo de figura: ilustración de un objeto (estilo plano, no fotográfico).
 Objetivo didáctico: reconocer un pulsioxímetro de dedo y sus dos lecturas.
-Composición: un pulsioxímetro de pinza genérico colocado en un dedo índice, visto de tres cuartos, con la pantalla legible. Ningún nombre, marca ni logotipo en la carcasa ni en la pantalla.
+Composición: un pulsioxímetro de pinza genérico colocado en un dedo índice, visto de tres cuartos, con la pantalla legible. Ningún nombre, marca ni logotipo en la carcasa ni en la pantalla. Sin rótulos, flechas ni recuadros explicativos alrededor del aparato: el único texto es el de la pantalla.
 Etiquetas visibles exactas: en la pantalla, «SpO₂ %» con «97» y «PR lpm» con «72».
 Datos técnicos verificados: no aplica.
 

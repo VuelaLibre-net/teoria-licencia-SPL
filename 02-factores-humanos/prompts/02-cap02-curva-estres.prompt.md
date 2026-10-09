@@ -3,9 +3,9 @@ schema: 1
 figura: 02-cap02-curva-estres.png
 tipo: grafico-cualitativo
 estado: borrador
-fecha: ""
+fecha: "2026-10-09"
 herramienta:
-  nombre: ""
+  nombre: "ChatGPT (chatgpt.com)"
   version: ""
 fuentes:
   - referencia: "Yerkes, R. M. y Dodson, J. D. (1908). «The relation of strength of stimulus to rapidity of habit-formation». *Journal of Comparative Neurology and Psychology*, 18, 459-482"
@@ -27,10 +27,17 @@ activación da un piloto apático, demasiada uno bloqueado, y el máximo está e
 Texto en `cap02-fisiologia-aeronautica-basica-y-mantenimiento-de-salud.qmd`, «Estrés fisiológico y
 sus efectos», que separa este marco del síndrome general de adaptación de Selye.
 
-**Estado.** Marcada con `.corregir` en la fase 3 de la corrección (hallazgo TEC-09). Hay que
-rehacerla.
+**Estado.** Sustituida el 9 de octubre de 2026 (issue #60) por una versión generada con el encargo
+de esta ficha, no dibujada por código; en la edición española se quitan la clase `.corregir` y la
+nota del pie. Vuelve a `borrador`: falta la revisión técnica de la figura nueva y su versión
+inglesa, que sigue siendo la anterior.
 
-## Qué falla en la figura actual
+## Procedencia
+
+Generada con ChatGPT (chatgpt.com) el 09-10-2026 con el prompt de esta ficha, sin retoques
+posteriores. La figura anterior no tenía la procedencia documentada.
+
+## Qué fallaba en la figura anterior
 
 * La rama derecha rotula «Agotamiento y Pánico». El agotamiento es la tercera fase del síndrome de
   Selye, un efecto de la duración del estrés, no de su intensidad. La rama derecha es la

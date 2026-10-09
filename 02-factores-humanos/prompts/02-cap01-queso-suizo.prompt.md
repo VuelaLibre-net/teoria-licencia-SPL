@@ -3,9 +3,9 @@ schema: 1
 figura: 02-cap01-queso-suizo.png
 tipo: diagrama-conceptual
 estado: borrador
-fecha: ""
+fecha: "2026-10-09"
 herramienta:
-  nombre: ""
+  nombre: "ChatGPT (chatgpt.com)"
   version: ""
 fuentes:
   - referencia: "Reason, J. (1990). *Human Error*. Cambridge University Press"
@@ -29,10 +29,17 @@ accidente ocurre cuando los agujeros de todas se alinean. El texto
 (`cap01-factores-humanos-conceptos-basicos.qmd`, sección del error humano) nombra cuatro capas:
 instrucción, procedimientos, listas de verificación y supervisión.
 
-**Estado.** Marcada con `.corregir` en la fase 3 de la corrección (hallazgo COH-03 de la auditoría
-del 1 de octubre de 2026). Hay que rehacerla.
+**Estado.** Sustituida el 9 de octubre de 2026 (issue #60) por una versión generada con el encargo
+de esta ficha; en la edición española se quitan la clase `.corregir` y la nota del pie. Vuelve a
+`borrador`: falta la revisión técnica de la figura nueva y su versión inglesa, que sigue siendo la
+anterior.
 
-## Qué falla en la figura actual
+## Procedencia
+
+Generada con ChatGPT (chatgpt.com) el 09-10-2026 con el prompt de esta ficha, sin retoques
+posteriores. La figura anterior no tenía la procedencia documentada.
+
+## Qué fallaba en la figura anterior
 
 * Las capas dibujadas («Influencias organizacionales», «Supervisión insegura», «Precondiciones para
   actos inseguros», «Actos inseguros») son los cuatro niveles de HFACS (Shappell y Wiegmann, FAA,

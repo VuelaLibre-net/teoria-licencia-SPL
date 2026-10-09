@@ -12,7 +12,7 @@ No se pueden ejercer las atribuciones de la licencia —ni, siendo alumno, volar
 
 Para ayudar a evaluar sistemáticamente la condición individual antes de acceder a la cabina, la FAA difunde una lista de chequeo personal conocida por el acrónimo mnemotécnico **IMSAFE** (del inglés "I am safe" - **Estoy a salvo**). Esta revisión importa tanto como la inspección prevuelo del planeador (@fig-02-cap02-imsafe-checklist):
 
-![Evaluación personal del piloto antes del vuelo. *(CORREGIR: el plazo del alcohol es de 8 h según el AMC, no de 24 h; y con las preguntas del estrés y del alcohol, formuladas en positivo, la regla «si alguna respuesta es NO» se invierte.)*](imagenes/02-cap02-imsafe.jpg){#fig-02-cap02-imsafe-checklist .corregir}
+![Evaluación personal del piloto antes del vuelo.](imagenes/02-cap02-imsafe.jpg){#fig-02-cap02-imsafe-checklist}
 
 * **I - *Illness* (Enfermedad):** ¿Tiene algún síntoma actual? Incluso un resfriado puede agravarse con los cambios de presión en vuelo (disbarismos) y mermar la capacidad de atención. No vuele si presenta fiebre o proceso vírico.
 * **M - *Medication* (Medicación):** ¿Está tomando algún fármaco, con o sin receta? Muchos medicamentos de venta libre, como los antihistamínicos para la alergia, producen somnolencia y alteran el rendimiento cognitivo y motor.
@@ -160,7 +160,7 @@ No todo el estrés en la cabina es malo. En su justa medida, un nivel moderado d
 
 Conviene distinguir dos marcos complementarios, porque describen cosas distintas. El primero, la **curva de Yerkes-Dodson**, relaciona el nivel de activación con el rendimiento: en forma de U invertida, muy poca tensión da un piloto apático y demasiada, uno bloqueado; el máximo está en el punto medio (@fig-02-cap02-curva-estres).
 
-![Relación entre el nivel de activación y el rendimiento del piloto (curva de Yerkes-Dodson). *(CORREGIR: la rama derecha es la sobreactivación —ansiedad, pánico—, no el «agotamiento», que es una fase del síndrome de Selye; y el eje mide el nivel de activación.)*](imagenes/02-cap02-curva-estres.png){#fig-02-cap02-curva-estres .corregir}
+![Relación entre el nivel de activación y el rendimiento del piloto (curva de Yerkes-Dodson).](imagenes/02-cap02-curva-estres.png){#fig-02-cap02-curva-estres}
 
 El segundo marco, el **Síndrome General de Adaptación** de Hans Selye, describe cómo responde el organismo cuando la tensión se prolonga, atravesando tres fases consecutivas:
 

@@ -16,6 +16,29 @@ rompe la compilación.
 
 ## [En curso]
 
+### Corregido
+
+* **cap01–cap04, figuras marcadas** — se sustituyen las nueve figuras que llevaban la marca
+  «EN REVISIÓN» y se quitan la marca y la nota del pie: en el cap01, la pirámide de Maslow (el
+  segundo nivel es sentirse a salvo y «cross-country» pasa a «travesía»), el queso suizo (las capas
+  del texto: instrucción, procedimientos, listas de verificación y supervisión) y la cadena del error
+  (el despiste en el montaje es el error activo y el latente, unas instrucciones incompletas); en el
+  cap02, la lista IMSAFE (8 h para el alcohol y las seis preguntas con la misma polaridad) y la curva
+  de Yerkes-Dodson (nivel de activación, con la sobreactivación a la derecha); en el cap03, el modelo
+  DECIDE (los seis pasos en orden) y la visión de túnel (escala del variómetro de −5 a +5 y rótulo de
+  la atención); y en el cap04, el tiempo útil de conciencia (valores de la FAA y la regla por defecto
+  del AMC1 SAO.OP.150) y el pulsioxímetro (genérico, sin marca comercial). Issue #60.
+
+### Cambiado
+
+* **cap01–cap04, figuras rehechas** — se rehacen cinco figuras con observaciones de la revisión
+  técnica: el modelo SHELL (plano y con la glosa española de las cinco piezas), el escaneo visual
+  (redibujado desde el método del reloj, con el ciclo «mirar fuera, actitud, instrumentos» que
+  anuncia el pie), la cinetosis (sin rótulos en el panel), los tipos de memoria (duración de la
+  memoria sensorial como en el texto, «atarse» y una sola entrada) y la cianosis (dibujo plano, que
+  no puede confundirse con una fotografía). Las fichas de `prompts/` anotan herramienta, fecha y
+  prompt de todas las figuras nuevas. Las versiones inglesas siguen siendo las anteriores. Issue #60.
+
 ## [1.0-rc.14] — 2 de octubre de 2026
 
 **Qué releer:** las correcciones de la auditoría del libro 02 del 1 de octubre de 2026 (`recursos/auditorias/`, con su seguimiento): **cap01, Maslow**; **cap02, IMSAFE, visión del color, vigilancia antes de virar y alcohol**; **cap03, DECIDE**; **cap04, tiempo útil de conciencia, hiperventilación y cánula**; y, en una segunda pasada, buena parte de los cuatro capítulos, el glosario y la bibliografía (estadísticas y definición del cap01, cultura justa, MED.A.020, ver y evitar, estrés, fatiga, deshidratación, medicación, dopaje, disbarismos y buceo, sobrecarga y conciencia situacional, Dalton, euforia, regla del oxígeno, botella, diagnóstico diferencial y pulsioxímetro); y, en una tercera, retoques menores (Reason, IMSAFE, agujero negro, PAVE y 3P, memoria, hipoxia histotóxica, equipos de oxígeno, el **apéndice del syllabus** y el **epígrafe**). Además, del libro 01: **cap04, AMC del oxígeno**, la **licencia** de los preliminares y la **Bibliografía**, que añade la lista de normas citadas en la colección. Por último, **cap04, leyes de los gases** y el pie del **pulsioxímetro**, y la redacción de la **introducción** y de las entradillas de los cuatro capítulos, que cambia la forma y no los datos.
