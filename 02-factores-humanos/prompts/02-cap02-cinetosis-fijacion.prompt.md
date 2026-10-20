@@ -3,7 +3,7 @@ schema: 1
 figura: 02-cap02-cinetosis-fijacion.jpg
 tipo: diagrama-conceptual
 estado: borrador
-fecha: "2026-10-09"
+fecha: "2026-10-20"
 herramienta:
   nombre: "ChatGPT (chatgpt.com)"
   version: ""
@@ -31,8 +31,8 @@ inglesa, que sigue siendo la anterior.
 
 ## Procedencia
 
-Generada con ChatGPT (chatgpt.com) el 09-10-2026 con el prompt de esta ficha, sin retoques
-posteriores. La figura anterior no tenía la procedencia documentada.
+Generada con ChatGPT (chatgpt.com) el 09-10-2026 y regenerada el 20-10-2026 con el prompt de esta
+ficha, sin retoques posteriores. La figura anterior no tenía la procedencia documentada.
 
 ## Observaciones sobre la figura anterior
 
@@ -67,5 +67,7 @@ lean a 9 pt al imprimirse.
 
 ## Edición inglesa
 
-`en/02-human-performance/imagenes/` lleva una copia idéntica de esta imagen. Si se sustituye, se
-copia también allí.
+`en/02-human-performance/imagenes/` lleva desde el 20 de octubre de 2026 la figura española con los
+textos traducidos al inglés, editada con ChatGPT a partir de ella (issue #60); la traducción sigue
+`en/terminologia.yml`. Aún quedan en español «Correcto» y «Evitar»: su pie inglés conserva la marca
+*(FIX: …)* hasta que se traduzcan.

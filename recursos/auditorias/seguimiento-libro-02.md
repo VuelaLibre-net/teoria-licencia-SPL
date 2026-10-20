@@ -148,15 +148,15 @@ clase y la nota, y se anota aquí.
 
 | Capítulo | Figura | Hallazgo | Marcada en | Sustituida en |
 | --- | --- | --- | --- | --- |
-| cap01 | `02-cap01-piramide-maslow` | TEC-01 (rótulo SMS) | fase 3 | 9 oct 2026, issue #60 (edición española) |
-| cap01 | `02-cap01-queso-suizo` | COH-03 | fase 3 | 9 oct 2026, issue #60 (edición española) |
-| cap01 | `02-cap01-cadena-error` | COH-04 | fase 3 | 9 oct 2026, issue #60 (edición española) |
-| cap02 | `02-cap02-imsafe` | COH-01 | fase 2 | 9 oct 2026, issue #60 (edición española) |
-| cap02 | `02-cap02-curva-estres` | TEC-09 | fase 3 | 9 oct 2026, issue #60 (edición española) |
-| cap03 | `02-cap03-decide` | TEC-03 | fase 2 | 9 oct 2026, issue #60 (edición española) |
-| cap03 | `02-cap03-vision-tunel` | PED-04 | fase 5 | 9 oct 2026, issue #60 (edición española) |
-| cap04 | `02-cap04-hipoxia-tiempo-conciencia` | COH-02 | fase 2 | 9 oct 2026, issue #60 (edición española) |
-| cap04 | `02-cap04-pulsioximetro` | COH-13 (marca comercial) | fase 7 | 9 oct 2026, issue #60 (edición española) |
+| cap01 | `02-cap01-piramide-maslow` | TEC-01 (rótulo SMS) | fase 3 | 9 oct 2026, issue #60; inglés, 20 oct 2026 |
+| cap01 | `02-cap01-queso-suizo` | COH-03 | fase 3 | 9 oct 2026, issue #60; inglés, 20 oct 2026 |
+| cap01 | `02-cap01-cadena-error` | COH-04 | fase 3 | 9 oct 2026, issue #60; inglés, 20 oct 2026 |
+| cap02 | `02-cap02-imsafe` | COH-01 | fase 2 | 9 oct 2026, issue #60; inglés, 20 oct 2026 |
+| cap02 | `02-cap02-curva-estres` | TEC-09 | fase 3 | 9 oct 2026, issue #60; inglés pendiente (un rótulo en español) |
+| cap03 | `02-cap03-decide` | TEC-03 | fase 2 | 9 oct 2026, issue #60; inglés, 20 oct 2026 |
+| cap03 | `02-cap03-vision-tunel` | PED-04 | fase 5 | 9 oct 2026, issue #60; inglés, 20 oct 2026 |
+| cap04 | `02-cap04-hipoxia-tiempo-conciencia` | COH-02 | fase 2 | 9 oct 2026, issue #60; inglés, 20 oct 2026 |
+| cap04 | `02-cap04-pulsioximetro` | COH-13 (marca comercial) | fase 7 | 9 oct 2026, issue #60; inglés, 20 oct 2026 |
 
 ## Fichas de las figuras
 
@@ -183,7 +183,11 @@ figuras, generadas con ChatGPT a partir de las fichas; sus fichas anotan herrami
 prompt, y vuelven a `borrador` hasta su revisión técnica. Las cinco de `revision-tecnica` que se
 rehacen recogen sus observaciones; el escaneo se redibuja desde el método del reloj, sin partir de
 la figura anterior. La ilusión vestibular no cambia: el autor la da por correcta con su pie actual y
-pasa a `final`. Las versiones inglesas siguen siendo las anteriores.
+pasa a `final`.
+
+El 20 de octubre de 2026 se rehacen las quince figuras inglesas: son las españolas con los textos
+traducidos. La curva de estrés y la cinetosis conservan algún rótulo en español y llevan la marca
+*(FIX: …)* hasta que se corrijan.
 
 ## Preguntas abiertas
 

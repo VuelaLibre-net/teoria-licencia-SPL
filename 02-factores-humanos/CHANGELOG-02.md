@@ -37,7 +37,7 @@ rompe la compilación.
   anuncia el pie), la cinetosis (sin rótulos en el panel), los tipos de memoria (duración de la
   memoria sensorial como en el texto, «atarse» y una sola entrada) y la cianosis (dibujo plano, que
   no puede confundirse con una fotografía). Las fichas de `prompts/` anotan herramienta, fecha y
-  prompt de todas las figuras nuevas. Las versiones inglesas siguen siendo las anteriores. Issue #60.
+  prompt de todas las figuras nuevas. Issue #60.
 
 ## [1.0-rc.14] — 2 de octubre de 2026
 

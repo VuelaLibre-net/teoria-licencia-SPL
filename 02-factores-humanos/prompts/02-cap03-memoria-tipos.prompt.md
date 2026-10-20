@@ -70,6 +70,6 @@ lean a 9 pt al imprimirse.
 
 ## Edición inglesa
 
-`en/02-human-performance/imagenes/` lleva una copia idéntica de esta imagen. Al rehacerla, se
-genera también la versión con las etiquetas en inglés (términos de `en/terminologia.yml`), se
-sustituye allí y se quita la marca *(FIX: …)* del pie inglés.
+`en/02-human-performance/imagenes/` lleva desde el 20 de octubre de 2026 la figura española con los
+textos traducidos al inglés, editada con ChatGPT a partir de ella (issue #60); la traducción sigue
+`en/terminologia.yml`. Se quita la marca *(FIX: …)* del pie inglés, si la tenía.
