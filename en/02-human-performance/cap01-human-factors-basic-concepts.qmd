@@ -63,7 +63,7 @@ According to James Reason, human error occurs when a **planned** sequence of phy
 
 James Reason illustrated this process with the **Swiss cheese model**: each layer of the safety system (training, procedures, checklists, supervision) acts as a barrier with holes in it. When the holes in every layer line up, the accident happens (@fig-02-cap01-queso-suizo).
 
-![James Reason's Swiss cheese model. *(FIX: the layers drawn are those of the HFACS classification, not those in the text; several examples sit in the wrong layer —route planning and the weather check are pilot acts, and a field landing is not an unsafe act— and “Unsafe supervision” appears twice.)*](imagenes/02-cap01-queso-suizo.png){#fig-02-cap01-queso-suizo .corregir}
+![James Reason's Swiss cheese model.](imagenes/02-cap01-queso-suizo.png){#fig-02-cap01-queso-suizo}
 
 Pilot failures fall into two categories, depending on intent:
 
@@ -85,7 +85,7 @@ Accidents rarely have a single cause. Most come from a series of wrong decisions
 
 The practical lesson is that **breaking a single link in the chain is enough to prevent the accident**. A conservative decision, an extra check, or saying no to the flight when you have real doubts: any one of them stops the chain before it gets anywhere.
 
-![Breaking one link in the error chain saves the flight. *(FIX: lack of attention during rigging is an active error, not a latent one; a latent example would be poor rigging instructions. The text of the drawn checklist makes no sense.)*](imagenes/02-cap01-cadena-error.jpg){#fig-02-cap01-cadena-error .corregir}
+![Breaking one link in the error chain saves the flight.](imagenes/02-cap01-cadena-error.jpg){#fig-02-cap01-cadena-error}
 
 ::: {.callout-tip title="Golden rule"}
 **Breaking a single link saves the flight.** At any sign that the error chain has started (deteriorating weather, an unresolved defect, high fatigue), take the most conservative option available. Nothing else a pilot can do works as well.
@@ -117,7 +117,7 @@ When the drive to reach a goal (beating a personal best, winning a competition) 
 
 The practical conclusion: the lower levels —physiological and safety needs— must be met before you pursue higher goals, and no achievement justifies sacrificing them (@fig-02-cap01-piramide-maslow).
 
-![Maslow's pyramid applied to a glider pilot. *(FIX: at the second level, Maslow's safety need is feeling safe, not operational safety or an SMS.)*](imagenes/02-cap01-piramide-maslow.png){#fig-02-cap01-piramide-maslow .corregir}
+![Maslow's pyramid applied to a glider pilot.](imagenes/02-cap01-piramide-maslow.png){#fig-02-cap01-piramide-maslow}
 
 ::: {.postit}
 **Chapter summary: basic concepts of human factors**

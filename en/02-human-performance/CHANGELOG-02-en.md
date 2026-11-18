@@ -13,6 +13,15 @@ was translated from (`origen-commit`). Terminology follows `en/terminologia.yml`
 
 ## [In progress]
 
+### Fixed
+
+* **cap01–cap04, figures** — the fifteen figures of the book are replaced with the new Spanish
+  ones, with their text translated into English (terminology from `en/terminologia.yml`). The
+  figures marked “IN REVIEW” lose the mark and the *(FIX: …)* note: Maslow's pyramid, the Swiss
+  cheese model, the error chain, IMSAFE, DECIDE, tunnel vision, the Time of Useful Consciousness
+  and the pulse oximeter. The Yerkes-Dodson curve and the motion sickness figure keep a label in
+  Spanish and carry the mark until it is translated. Ported from the Spanish edition; issue #60.
+
 ## [0.8.1] — 2 October 2026
 
 **What to reread:** **the whole book.** The corrections of the audit of book 02 (1 October 2026) are ported from the Spanish edition and touch the four chapters, the glossary, the bibliography, the syllabus appendix, the introduction and the epigraph. Also **cap04, the oxygen AMC**, and the licence.

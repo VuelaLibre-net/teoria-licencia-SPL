@@ -3,9 +3,9 @@ schema: 1
 figura: 02-cap02-imsafe.jpg
 tipo: infografia
 estado: borrador
-fecha: ""
+fecha: "2026-10-20"
 herramienta:
-  nombre: ""
+  nombre: "ChatGPT (chatgpt.com)"
   version: ""
 fuentes:
   - referencia: "AMC1 SAO.GEN.130(f) & SAO.GEN.135(b), ED Decision 2019/001/R (8 h sin alcohol)"
@@ -28,10 +28,17 @@ master_editable: ""
 `cap02-fisiologia-aeronautica-basica-y-mantenimiento-de-salud.qmd`: el libro usa la E de
 *Eating* (alimentación) y avisa de que la FAA usa *Emotion*.
 
-**Estado.** Marcada con `.corregir` en la fase 2 de la corrección (hallazgo COH-01). Hay que
-rehacerla.
+**Estado.** Sustituida el 9 de octubre de 2026 (issue #60) por una versión generada con el encargo
+de esta ficha; en la edición española se quitan la clase `.corregir` y la nota del pie. Vuelve a
+`borrador`: falta la revisión técnica de la figura nueva y su versión inglesa, que sigue siendo la
+anterior.
 
-## Qué falla en la figura actual
+## Procedencia
+
+Generada con ChatGPT (chatgpt.com) el 09-10-2026 y regenerada el 20-10-2026 con el prompt de esta
+ficha, sin retoques posteriores. La figura anterior no tenía la procedencia documentada.
+
+## Qué fallaba en la figura anterior
 
 * El alcohol rotula «24 h mín. antes del vuelo». El AMC de EASA, el texto, Anki y el banco dicen
   8 h; las 12-24 h de la FAA son una recomendación de otra jurisdicción.
@@ -70,6 +77,6 @@ lean a 9 pt al imprimirse.
 
 ## Edición inglesa
 
-`en/02-human-performance/imagenes/` lleva una copia idéntica de esta imagen. Al rehacerla, se
-genera también la versión con las etiquetas en inglés (términos de `en/terminologia.yml`), se
-sustituye allí y se quita la marca *(FIX: …)* del pie inglés.
+`en/02-human-performance/imagenes/` lleva desde el 20 de octubre de 2026 la figura española con los
+textos traducidos al inglés, editada con ChatGPT a partir de ella (issue #60); la traducción sigue
+`en/terminologia.yml`. Se quita la marca *(FIX: …)* del pie inglés, si la tenía.

@@ -17,7 +17,7 @@ You must not exercise the privileges of your licence —or, as a student, fly so
 
 To check yourself systematically before you get into the cockpit, the FAA promotes a personal checklist with the mnemonic **IMSAFE** (“I am safe”). It matters as much as the pre-flight inspection of the glider (@fig-02-cap02-imsafe-checklist):
 
-![The pilot's self-assessment before flight. *(FIX: the alcohol period is 8 h under the AMC, not 24 h; and with the stress and alcohol questions worded positively, the rule “if any answer is NO” is reversed.)*](imagenes/02-cap02-imsafe.jpg){#fig-02-cap02-imsafe-checklist .corregir}
+![The pilot's self-assessment before flight.](imagenes/02-cap02-imsafe.jpg){#fig-02-cap02-imsafe-checklist}
 
 * **I - *Illness*:** Do you have any symptoms right now? Even a cold can get worse with the pressure changes in flight (dysbarism), and it wears down your attention. Do not fly with a fever or a viral infection.
 * **M - *Medication*:** Are you taking any medicine, prescription or not? Many over-the-counter drugs, such as antihistamines for allergies, cause drowsiness and impair cognitive and motor performance.
@@ -120,7 +120,7 @@ A typical case: the pilot is circling steadily in a thermal and looks down to pr
 Motion sickness can affect even seasoned pilots, especially after a spell without flying or in severe turbulence. There is nothing to be ashamed of. Accept it, and always keep sick bags within reach.
 :::
 
-![Fixing your eyes on the outside horizon prevents motion sickness](imagenes/02-cap02-cinetosis-fijacion.jpg){#fig-02-cap02-cinetosis-fijacion}
+![Fixing your eyes on the outside horizon prevents motion sickness. *(FIX: the labels “Correcto” and “Evitar” are still in Spanish.)*](imagenes/02-cap02-cinetosis-fijacion.jpg){#fig-02-cap02-cinetosis-fijacion .corregir}
 
 To prevent and manage airsickness, make these habits second nature (@fig-02-cap02-cinetosis-fijacion):
 
@@ -165,7 +165,7 @@ Stress in the cockpit is not always the enemy. Some tension (the feeling just be
 
 Two frameworks help here, and they describe different things. The first, the **Yerkes-Dodson curve**, relates arousal to performance. It has the shape of an inverted U: too little tension gives you an apathetic pilot and too much a pilot who freezes, with the peak in the middle (@fig-02-cap02-curva-estres).
 
-![Arousal and pilot performance (the Yerkes-Dodson curve). *(FIX: the right-hand branch is over-arousal —anxiety, panic—, not “exhaustion”, which is a stage of Selye's syndrome; and the axis measures arousal.)*](imagenes/02-cap02-curva-estres.png){#fig-02-cap02-curva-estres .corregir}
+![Arousal and pilot performance (the Yerkes-Dodson curve). *(FIX: the label “Máximo rendimiento” is still in Spanish.)*](imagenes/02-cap02-curva-estres.png){#fig-02-cap02-curva-estres .corregir}
 
 The second, Hans Selye's **General Adaptation Syndrome**, describes how the body responds when tension goes on for a long time, in three stages:
 
