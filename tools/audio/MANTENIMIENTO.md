@@ -86,6 +86,7 @@ Ejemplo: se corrige `03-meteorologia/cap05-….qmd`.
 4. **Verifica:**
 
    ```sh
+   # Cierra VoiceStudio: faster-whisper necesita la GPU libre y 4 GB de VRAM.
    make audio-verificar 03 cap05
    ```
 
@@ -96,8 +97,9 @@ Ejemplo: se corrige `03-meteorologia/cap05-….qmd`.
    - La sonoridad tiene que quedar entre -21 y -17 LUFS y no puede haber
      silencios de más de 3 s.
 
-   La transcripción va en CPU y tarda unos 4 min por capítulo de 10 min. Con
-   `SIN_ASR=1` sólo se mide la señal.
+   La transcripción va en GPU. La orden se detiene antes de empezar si hay otro
+   proceso de cálculo en ella o no quedan 4 GB de VRAM libres. Con `SIN_ASR=1`
+   sólo se mide la señal y no hace falta GPU.
 
 5. **Escucha** al menos el principio, las cajas y los trozos que cambiaste.
 
@@ -165,19 +167,17 @@ Las voces del reparto son clones. Las grabaciones de origen no viven en el
 repo: se vuelven a descargar.
 
 1. Mira en `reparto.yml` la `candidata` de cada voz `SPL …`.
-2. Prepara las fuentes, en `~/.cache/spl-audio/fuentes/`:
-   - **MLS:** `tools/audio/casting.py preparar-mls 12367 7393 10246`. Requiere
-     `hf auth login`.
-   - **davefx y Sharvard:** descárgalas como indica casting.yml (URL de cada
-     candidata).
+2. Prepara las fuentes, en `~/.cache/spl-audio/fuentes/`: davefx y Sharvard,
+   que se descargan como indica casting.yml (URL de cada candidata).
 3. Clona las candidatas:
 
    ```sh
-   tools/audio/casting.py referencias sharvard-f mls-12367 davefx mls-7393 mls-10246
-   tools/audio/casting.py clonar sharvard-f mls-12367 davefx mls-7393 mls-10246
+   tools/audio/casting.py referencias sharvard-f davefx
+   tools/audio/casting.py clonar sharvard-f davefx
    ```
 
-4. En VoiceStudio, renombra cada `CAST <candidata>` a su `SPL <papel>`.
+4. En VoiceStudio, renombra cada `CAST <candidata>` a su `SPL <papel>`. `davefx`
+   sirve para tres papeles (Locutor, Instructor y Alerta): duplica el perfil.
 5. Comprueba con `make audio-voces`.
 
 Las referencias se arman de forma determinista a partir de las mismas

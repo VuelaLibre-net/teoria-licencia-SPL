@@ -73,7 +73,8 @@ def _clave(fr, voz, params):
     audio: se reutiliza de la caché."""
     return hashlib.sha256(json.dumps(
         [fr["texto"], fr.get("velocidad"), voz.get("id"), voz.get("ref_audio_path"), voz.get("ref_text"),
-         voz.get("instruct"), params], sort_keys=True, ensure_ascii=False).encode()).hexdigest()
+         voz.get("instruct"), params] + ([fr["instruct"]] if fr.get("instruct") else []),
+        sort_keys=True, ensure_ascii=False).encode()).hexdigest()
 
 
 def sintetizar(pistas, perfiles, params):
@@ -93,13 +94,13 @@ def sintetizar(pistas, perfiles, params):
             ruta = CACHE / motor / k[:2] / f"{k}.wav"
             if not ruta.exists():
                 pendientes.append((fr, voz, ruta))
-            piezas += [("voz", ruta), ("silencio", fr.get("pausa", 0))]
+            piezas += [("voz", ruta, fr.get("ritmo")), ("silencio", fr.get("pausa", 0))]
         plan.append({"titulo": p["titulo"], "piezas": piezas})
     t0 = time.time()
     for n, (fr, voz, ruta) in enumerate(pendientes, 1):
         C.generar(fr["texto"], voz["id"], ruta, motor=motor, idioma=params["idioma"],
                   num_step=params.get("num_step"), guidance_scale=params.get("guidance_scale"),
-                  seed=params.get("seed"), speed=fr.get("velocidad"))
+                  seed=params.get("seed"), speed=fr.get("velocidad"), instruct=fr.get("instruct"))
         if n % 10 == 0 or n == len(pendientes):
             print(f"   · {n}/{len(pendientes)} fragmentos ({time.time() - t0:.0f} s)", file=sys.stderr)
     return plan, len(pendientes)
@@ -110,7 +111,9 @@ def producir(pistas, destino, perfiles, params, formato, bitrate, meta, portada=
     y máster. Si la huella no cambia, no se hace nada."""
     portada_h = hashlib.sha256(Path(portada).read_bytes()).hexdigest()[:16] if portada and Path(portada).exists() else ""
     h = hashlib.sha256(json.dumps(
-        [[[f.get("earcon"), f.get("texto"), f.get("voz"), f.get("pausa"), f.get("velocidad")] for f in p["fragmentos"]]
+        [[[f.get("earcon"), f.get("texto"), f.get("voz"), f.get("pausa"), f.get("velocidad")]
+          + ([f["instruct"]] if f.get("instruct") else []) + ([f["ritmo"]] if f.get("ritmo") else [])
+          for f in p["fragmentos"]]
          for p in pistas] + [[p["titulo"] for p in pistas], formato, bitrate, meta, params, portada_h,
                              HERRAMIENTAS, huella_extra,
                              {n: [v.get("id"), v.get("ref_audio_path"), v.get("instruct")] for n, v in perfiles.items()}],
@@ -149,6 +152,8 @@ def main():
     ap.add_argument("--estado", default="")
     ap.add_argument("--salida", default="build/audio")
     ap.add_argument("--solo-guion", action="store_true")
+    ap.add_argument("--literal", action="store_true",
+                    help="lee el libro tal cual aunque haya guion de podcast en tools/audio/podcast/")
     a = ap.parse_args()
 
     libro = Path(a.libro)
@@ -169,7 +174,7 @@ def main():
     elegidos = elegir(libro, a.caps)
     guiones = []
     for f, etiqueta in elegidos:
-        pistas = G.guion_fichero(libro / f, etiqueta)
+        pistas = G.guion_fichero(libro / f, etiqueta, a.literal)
         malos = G.residuos(pistas)
         if malos:
             for t, frag in malos[:20]:

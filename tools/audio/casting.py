@@ -492,6 +492,33 @@ def cmd_criba(a):
     print("\nPasan:", " ".join(pasan) or "ninguna")
 
 
+MUESTRA_ELENCO = {
+    "Narradora": "narracion",
+    "Locutor": "titulo",
+    "Instructor": "instructor",
+    "Alerta": "seguridad",
+    "Divulgadora": "narracion",
+}
+
+
+def _elenco_actual():
+    """Ejemplo representativo de cada voz aplicada en reparto.yml."""
+    reparto = yaml.safe_load((AQUI / "reparto.yml").read_text(encoding="utf-8"))
+    motor = reparto["sintesis"]["motor"]
+    elenco = []
+    for nombre, voz in reparto["voces"].items():
+        papel = nombre.removeprefix("SPL ")
+        candidata = voz.get("candidata")
+        muestra = MUESTRA_ELENCO.get(papel)
+        if not candidata or not muestra:
+            continue
+        audio = SALIDA / "muestras" / motor / candidata / f"{muestra}.wav"
+        if audio.exists():
+            elenco.append({"papel": papel, "candidata": candidata, "motor": motor,
+                           "muestra": muestra, "audio": audio.relative_to(SALIDA).as_posix()})
+    return elenco
+
+
 def cmd_panel(a):
     """Página de escucha ciega: cada (motor, candidata) recibe un código al
     azar; la clave vive aparte, en clave.json, y la página no la conoce."""
@@ -517,6 +544,7 @@ def cmd_panel(a):
         bloques.append({"id": m["id"], "papeles": papeles, "texto": normalizar(m["texto"]), "items": items})
     html = (AQUI / "casting" / "panel.html").read_text(encoding="utf-8")
     html = html.replace("/*DATOS*/null", json.dumps(bloques, ensure_ascii=False))
+    html = html.replace("/*ELENCO*/null", json.dumps(_elenco_actual(), ensure_ascii=False))
     (SALIDA / "panel.html").write_text(html, encoding="utf-8")
     print(f"✓ {SALIDA / 'panel.html'} ({len(clave)} voces, {len(muestras)} muestras). "
           f"Ábrelo en el navegador; la clave está en clave.json.")

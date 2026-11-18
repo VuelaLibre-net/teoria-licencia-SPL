@@ -5,9 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Casting de voces</title>
 <style>
-  :root { --fondo:#faf8f4; --texto:#1d1d1b; --suave:#6b6760; --linea:#e2ddd3; --acento:#1f5f8b; --tarjeta:#fff; }
+  :root { --fondo:#faf8f4; --texto:#1d1d1b; --suave:#6b6760; --linea:#e2ddd3; --acento:#1f5f8b; --tarjeta:#fff; --tinte:#edf5fa; }
   @media (prefers-color-scheme: dark) {
-    :root { --fondo:#16171a; --texto:#ecebe8; --suave:#9a978f; --linea:#2c2e33; --acento:#7fb6dc; --tarjeta:#1e2024; }
+    :root { --fondo:#16171a; --texto:#ecebe8; --suave:#9a978f; --linea:#2c2e33; --acento:#7fb6dc; --tarjeta:#1e2024; --tinte:#182732; }
   }
   * { box-sizing: border-box; }
   body { margin:0; background:var(--fondo); color:var(--texto); font:15px/1.5 system-ui, sans-serif; }
@@ -35,6 +35,16 @@
   .crit input { display:none; }
   .crit input:checked + label { background: var(--acento); color: var(--fondo); border-color: var(--acento); }
   .acciones { display:flex; gap:8px; margin-top: 24px; }
+  .elenco { margin-top: 40px; }
+  .elenco details { border-top: 1px solid var(--linea); padding-top: 16px; }
+  .elenco summary { cursor:pointer; color:var(--acento); font-weight:700; font-size:17px; }
+  .elenco summary small { display:block; margin:3px 0 0 22px; color:var(--suave); font-size:13px; font-weight:400; }
+  .elenco-lista { display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:8px; margin-top:16px; }
+  .elenco-voz { background:var(--tinte); border-left:3px solid var(--acento); border-radius:6px; padding:12px 14px; }
+  .elenco-cabecera { display:flex; justify-content:space-between; gap:12px; align-items:baseline; margin-bottom:8px; }
+  .elenco-papel { font-weight:700; }
+  .elenco-id { color:var(--suave); font-size:12px; text-align:right; }
+  .elenco-muestra { color:var(--suave); font-size:12px; margin-top:5px; }
   @media (max-width: 560px) { .voz { grid-template-columns: 1fr; } .notas { grid-column: 1; } }
 </style>
 </head>
@@ -52,9 +62,16 @@
     <button id="exportar">Exportar votos</button>
     <button id="borrar">Borrar mis votos</button>
   </div>
+  <section id="elenco" class="elenco" hidden>
+    <details>
+      <summary>Elenco seleccionado<small>Referencias abiertas del reparto aplicado; despliega después de votar.</small></summary>
+      <div id="elenco-lista" class="elenco-lista"></div>
+    </details>
+  </section>
 </main>
 <script>
 const DATOS = /*DATOS*/null;
+const ELENCO = /*ELENCO*/null;
 const CRITERIOS = [["naturalidad","Naturalidad"],["acento","Acento"],["claridad","Claridad"],["papel","Papel"]];
 const CLAVE = "casting-votos-" + DATOS.map(b => b.items.map(i => i.codigo).join("")).join("").slice(0, 40);
 let votos = {};
@@ -64,6 +81,12 @@ function guardar() { try { localStorage.setItem(CLAVE, JSON.stringify(votos)); }
 const pestanas = document.getElementById("pestanas");
 const bloque = document.getElementById("bloque");
 let actual = 0;
+
+function audioExclusivo(audio) {
+  audio.addEventListener("play", e => {
+    document.querySelectorAll("audio").forEach(a => { if (a !== e.target) a.pause(); });
+  });
+}
 
 function pintarPestanas() {
   pestanas.innerHTML = "";
@@ -121,11 +144,39 @@ function pintar() {
       notas.appendChild(c);
     });
     // Una sola muestra sonando a la vez.
-    v.querySelector("audio").addEventListener("play", e => {
-      document.querySelectorAll("audio").forEach(a => { if (a !== e.target) a.pause(); });
-    });
+    audioExclusivo(v.querySelector("audio"));
     bloque.appendChild(v);
   });
+}
+
+function pintarElenco() {
+  if (!Array.isArray(ELENCO) || !ELENCO.length) return;
+  const seccion = document.getElementById("elenco");
+  const lista = document.getElementById("elenco-lista");
+  ELENCO.forEach(it => {
+    const v = document.createElement("article");
+    v.className = "elenco-voz";
+    const cabecera = document.createElement("div");
+    cabecera.className = "elenco-cabecera";
+    const papel = document.createElement("span");
+    papel.className = "elenco-papel";
+    papel.textContent = it.papel;
+    const id = document.createElement("span");
+    id.className = "elenco-id";
+    id.textContent = `${it.candidata} · ${it.motor}`;
+    cabecera.append(papel, id);
+    const audio = document.createElement("audio");
+    audio.controls = true;
+    audio.preload = "none";
+    audio.src = it.audio;
+    audioExclusivo(audio);
+    const muestra = document.createElement("div");
+    muestra.className = "elenco-muestra";
+    muestra.textContent = `Muestra: ${it.muestra}`;
+    v.append(cabecera, audio, muestra);
+    lista.appendChild(v);
+  });
+  seccion.hidden = false;
 }
 
 document.getElementById("exportar").onclick = () => {
@@ -137,6 +188,7 @@ document.getElementById("borrar").onclick = () => {
   if (confirm("¿Borrar todas tus notas de este panel?")) { votos = {}; guardar(); pintar(); }
 };
 pintar();
+pintarElenco();
 </script>
 </body>
 </html>

@@ -26,10 +26,15 @@ import unicodedata
 from pathlib import Path
 
 from guion import sin_etiquetas
-from normalizar import normalizar
+from normalizar import _datos, normalizar
 
 UMBRAL_WER = 0.12
 UMBRAL_SILENCIO_S = 3.5  # las pausas pedagógicas llegan a 2,5 s
+TRANSCRIBIR = Path(__file__).with_name("transcribir.py")
+PALABRAS_CORTAS_ASR = {
+    "A", "AL", "CON", "DE", "DEL", "EL", "EN", "ES", "LA", "LAS", "LO", "LOS",
+    "NO", "O", "POR", "QUE", "SE", "SI", "SIN", "SU", "TU", "U", "UN", "UNA", "Y",
+}
 
 
 def _letras(t, verbalizar=False):
@@ -38,7 +43,17 @@ def _letras(t, verbalizar=False):
     # poner los rótulos enteros en mayúsculas; se bajan antes para no deletrear
     # «INFORMACIÓN» como si fuese una sigla, preservando las siglas cortas.
     if verbalizar:
-        t = re.sub(r"\b[A-ZÁÉÍÓÚÜÑ]{4,}\b", lambda m: m.group(0).lower(), t)
+        # Formas recurrentes con las que Whisper escribe el sonido «péiv».
+        t = re.sub(r"\bP-(?:IF|PAVE)\b", "PAVE", t, flags=re.IGNORECASE)
+        # En «P-PILOTO», el guion impide que normalizar() deletree la letra.
+        t = re.sub(r"\b([B-DF-HJ-NP-TV-XZÑ])-\s*", r"\1 ", t)
+        siglas = _datos()[1]
+        t = re.sub(r"\b[A-ZÁÉÍÓÚÜÑ]{4,}\b",
+                   lambda m: m.group(0) if m.group(0) in siglas else m.group(0).lower(), t)
+        # Whisper puede rotular una pista entera en mayúsculas. Sus palabras
+        # funcionales cortas no son siglas: «DE» no debe convertirse en «de e».
+        t = re.sub(r"\b[A-ZÁÉÍÓÚÜÑ]{1,3}\b",
+                   lambda m: m.group(0).lower() if m.group(0) in PALABRAS_CORTAS_ASR else m.group(0), t)
         t = normalizar(t)
     t = unicodedata.normalize("NFD", t.lower())
     t = "".join(c for c in t if unicodedata.category(c) != "Mn")
@@ -92,6 +107,10 @@ def main():
         mp3s = [m for m in mp3s if any(k in m.name for k in claves)]
     if not mp3s:
         raise SystemExit(f"verificar: no hay MP3 en {dir_mp3}; genera antes con `make audio`.")
+    if not sin_asr:
+        r = subprocess.run([str(TRANSCRIBIR), "--comprobar-gpu"])
+        if r.returncode:
+            raise SystemExit(r.returncode)
     mal = 0
     for mp3 in mp3s:
         stem = mp3.stem.split("-", 1)[1]
@@ -112,7 +131,7 @@ def main():
                                 "-i", str(mp3), "-ac", "1", "-ar", "16000", str(trozo)], check=True)
                 trozos.append((trozo, ini, p))
             textos = [] if sin_asr else subprocess.run(
-                [str(Path(__file__).with_name("transcribir.py")), *(str(t) for t, _, _ in trozos)],
+                [str(TRANSCRIBIR), *(str(t) for t, _, _ in trozos)],
                 stdout=subprocess.PIPE, text=True, check=True).stdout.splitlines()
             for (trozo, ini, p), texto in zip(trozos, textos):
                 ref = _letras(" ".join(sin_etiquetas(f["texto"]) for f in p["fragmentos"]))

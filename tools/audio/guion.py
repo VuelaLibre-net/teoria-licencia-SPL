@@ -105,7 +105,7 @@ def _enfasis(texto, activo):
 def sin_etiquetas(texto):
     """El texto sin las etiquetas de control del motor (<strong>, [breath]):
     lo que de verdad se oye, para el WER y el guardián de residuos."""
-    return re.sub(r"</?strong>|\[(?:breath|laughter|noise|cough)\]", "", texto)
+    return re.sub(r"</?(?:strong|laughter)>|\[(?:breath|quick_breath|laughter|noise|cough|sigh|mn)\]", "", texto)
 
 
 def _pista(titulo):
@@ -150,7 +150,8 @@ def _anadir(pista, rol, texto, attrs=None):
         if frs and not frs[-1].get("earcon"):
             frs[-1]["pausa"] = max(frs[-1]["pausa"], _pausa(rol, attrs, cfg))
         return
-    dicho = normalizar(texto)
+    dicho = (_con_etiquetas(texto, rol, f"[{pista['titulo']}]") if rol.startswith("podcast-")
+             else normalizar(texto))
     if not dicho or dicho == ".":
         return
     dicho = _enfasis(dicho, cfg.get("enfasis", False))
@@ -166,9 +167,12 @@ def _anadir(pista, rol, texto, attrs=None):
     })
 
 
-def guion_fichero(ruta, etiqueta):
+def guion_fichero(ruta, etiqueta, literal=False):
     """Guion de un .qmd: lista de pistas, la primera con el título y la
-    entradilla, y luego una por sección `##`."""
+    entradilla, y luego una por sección `##`. Si hay un guion de podcast
+    para el fichero (`ruta_podcast`), se usa ése, salvo con `literal`."""
+    if not literal and (podcast := ruta_podcast(ruta)):
+        return guion_podcast(podcast)
     pistas = []
     actual = None
     for rol, texto, attrs in bloques(ruta, etiqueta):
@@ -189,6 +193,94 @@ def guion_fichero(ruta, etiqueta):
     # El último fragmento del fichero no necesita silencio detrás: lo pone el
     # reproductor o la pista siguiente.
     pistas = [p for p in pistas if p["fragmentos"]]
+    for p in pistas:
+        p["fragmentos"][-1]["pausa"] = max(p["fragmentos"][-1].get("pausa", 0), 1000)
+    return pistas
+
+
+def ruta_podcast(ruta):
+    """El guion de podcast escrito a mano para un .qmd, si existe:
+    tools/audio/podcast/<libro>/<stem>.yml. Es contenido editorial propio,
+    no derivado: se edita, y el .qmd sigue siendo la fuente de los hechos."""
+    ruta = Path(ruta)
+    p = AQUI / "podcast" / ruta.resolve().parent.name / f"{ruta.stem}.yml"
+    return p if p.exists() else None
+
+
+ETIQUETA = re.compile(r"</?laughter>|\[(?:breath|quick_breath|laughter|noise|cough|sigh|mn|lipsmack)\]")
+
+
+def _con_etiquetas(texto, rol, donde):
+    """normalizar() convierte los corchetes en comas y rompería las etiquetas
+    de CosyVoice3: se sustituyen por marcas de letras, se normaliza y se
+    devuelven. Sólo valen las que `etiquetas:` de reparto.yml da al rol."""
+    permitidas = (reparto().get("etiquetas") or {}).get(rol, [])
+    guardadas = []
+
+    def guardar(m):
+        if m.group(0) not in permitidas:
+            raise SystemExit(f"guion: {donde}: la etiqueta {m.group(0)} no vale para {rol} "
+                             f"(permitidas: {' '.join(permitidas) or 'ninguna'}); ver reparto.yml")
+        guardadas.append(m.group(0))
+        return f" etq{'abcdefghijklmnopqrstuvwxyz'[len(guardadas) - 1]}etq "
+
+    marcado = ETIQUETA.sub(guardar, texto)
+    dicho = normalizar(marcado)
+    for i, e in enumerate(guardadas):
+        marca = f"etq{'abcdefghijklmnopqrstuvwxyz'[i]}etq"
+        dicho = re.sub(rf"\s*[,.;:]?\s*{marca}\s*[,.;:]?\s*", f" {e} ", dicho, flags=re.IGNORECASE)
+    dicho = re.sub(r"<laughter>\s+", "<laughter>", dicho)
+    dicho = re.sub(r"\s+</laughter>", "</laughter>", dicho)
+    return re.sub(r"\s+", " ", dicho).strip()
+
+
+def guion_podcast(fichero):
+    """Guion de un diálogo entre dos voces, de un YAML de `podcast/`:
+
+        pistas:
+          - titulo: Título de la sección (capítulo del MP3)
+            turnos:
+              - n: Lo que dice la Narradora.
+              - l: Lo que dice el Locutor.   # `pausa: ms` tras el turno
+                e: contento                  # emoción (`emociones:` de reparto.yml)
+                v: 1.1                       # ritmo, 0,5–2,0 (se aplica en el montaje)
+              - pausa: 2500                  # silencio suelto (pensar)
+
+    Cada texto pasa por normalizar, como el del libro. La primera pista lleva
+    el earcon de capítulo; las demás, el de sección."""
+    datos = yaml.safe_load(Path(fichero).read_text(encoding="utf-8"))
+    roles = {"n": "podcast-n", "l": "podcast-l"}
+    tabla = reparto().get("earcons") or {}
+    pistas = []
+    for i, p in enumerate(datos["pistas"]):
+        pista = _pista(p["titulo"])
+        pistas.append(pista)
+        earcon = tabla.get("titulo-capitulo" if i == 0 else "seccion")
+        if earcon:
+            pista["fragmentos"].append({"earcon": earcon, "rol": "earcon", "texto": "", "pausa": 0})
+        for turno in p["turnos"]:
+            frs = pista["fragmentos"]
+            clave = next((k for k in roles if k in turno), None)
+            if clave is None:
+                if frs and "pausa" in turno:
+                    frs[-1]["pausa"] = max(frs[-1].get("pausa", 0), turno["pausa"])
+                continue
+            n0 = len(frs)
+            _anadir(pista, roles[clave], turno[clave])
+            if len(frs) > n0:
+                fr = frs[-1]
+                if "pausa" in turno:
+                    fr["pausa"] = turno["pausa"]
+                if turno.get("e"):
+                    emociones = reparto().get("emociones") or {}
+                    if turno["e"] not in emociones:
+                        raise SystemExit(f"guion: [{p['titulo']}] emoción «{turno['e']}» no está en "
+                                         f"`emociones:` de reparto.yml ({', '.join(emociones)})")
+                    fr["instruct"] = emociones[turno["e"]]
+                if turno.get("v"):
+                    if not 0.5 <= turno["v"] <= 2.0:
+                        raise SystemExit(f"guion: [{p['titulo']}] v: {turno['v']} fuera de 0,5–2,0")
+                    fr["ritmo"] = turno["v"]
     for p in pistas:
         p["fragmentos"][-1]["pausa"] = max(p["fragmentos"][-1].get("pausa", 0), 1000)
     return pistas
