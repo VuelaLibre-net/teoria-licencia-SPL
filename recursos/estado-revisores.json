@@ -10,36 +10,36 @@
       "nombre": "Pedro Berlinches",
       "subtitulo": "SPL · FI(S) · PPL(A) · FES(A)",
       "descripcion": "Instructor y Examinador de Vuelo a Vela",
-      "libros_validados": [1, 2, 3, 4, 5, 6, 7],
-      "libros_pendientes": [8, 9]
+      "libros_validados": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+      "libros_pendientes": []
     },
     {
       "nombre": "Luís Ferreira Escartín",
       "subtitulo": "SPL · FI(S) · FE(S)",
       "descripcion": "Instructor y Examinador de Vuelo a Vela",
-      "libros_validados": [],
-      "libros_pendientes": [1, 2, 3, 4, 5, 6, 7, 8, 9]
+      "libros_validados": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+      "libros_pendientes": []
     },
     {
       "nombre": "Encarnación Novillo-Fertrell Vázquez",
       "subtitulo": "SPL · FI(S) · FE(S)",
       "descripcion": "Instructora y Examinadora de Vuelo a Vela",
-      "libros_validados": [],
-      "libros_pendientes": [1, 2, 3, 4, 5, 6, 7, 8, 9]
+      "libros_validados": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+      "libros_pendientes": []
     },
     {
       "nombre": "Carlos Bravo Domínguez",
       "subtitulo": "SPL · FI(S) · FE(S)",
       "descripcion": "Instructor y Examinador de Vuelo a Vela",
-      "libros_validados": [],
-      "libros_pendientes": [1, 2, 3, 4, 5, 6, 7, 8, 9]
+      "libros_validados": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+      "libros_pendientes": []
     },
     {
       "nombre": "Sergi Pujol Rodríguez",
       "subtitulo": "SPL · FI(S) · FE(S)",
       "descripcion": "Instructor y Examinador de Vuelo a Vela",
-      "libros_validados": [],
-      "libros_pendientes": [1, 2, 3, 4, 5, 6, 7, 8, 9]
+      "libros_validados": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+      "libros_pendientes": []
     },
     {
       "nombre": "Ramón Gutiérrez Camus",
