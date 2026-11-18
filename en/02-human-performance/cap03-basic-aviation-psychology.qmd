@@ -56,7 +56,7 @@ Whether thermalling or on final approach, the pilot is constantly assessing situ
 * **D**o the chosen action, methodically, quickly or calmly as the situation requires.
 * **E**valuate the result: check whether the course taken corrects the deviation, learn from it and share the conclusions.
 
-![The DECIDE model for aeronautical decision-making. *(FIX: the steps run Detect, Estimate, Choose, Identify, Do and Evaluate; the figure puts “Implement” fourth and “Determine results” fifth, and its labels are in Spanish.)*](imagenes/02-cap03-decide.jpg){#fig-02-cap03-decide .corregir}
+![The DECIDE model for aeronautical decision-making.](imagenes/02-cap03-decide.jpg){#fig-02-cap03-decide}
 
 ## Risk management and assessment models (the PAVE model)
 
@@ -121,7 +121,7 @@ But if the psychological pressure keeps building (say you stray into severe inst
 Under extreme stress and panic, basic survival instincts such as trying to “get away from the ground by hauling back on the stick” can override your reasoning. At low height, that sudden, instinctive pull uses up all your glider's energy and ends in a loss of control or an unrecoverable spin. Know your limits, and stay out of situations you are not fully prepared for.
 :::
 
-![Tunnel vision under extreme stress. *(FIX: the scale of the variometer drawn is inconsistent —“−4” appears twice—, and the label should refer to narrowed attention, not to loss of visual field.)*](imagenes/02-cap03-vision-tunel.jpg){#fig-02-cap03-vision-tunel .corregir}
+![Tunnel vision under extreme stress.](imagenes/02-cap03-vision-tunel.jpg){#fig-02-cap03-vision-tunel}
 
 Every second of the flight you take in information, work out what it means and act on it. The mind can only handle so much of this endless stream of events at once: think of it as a glass that holds a fixed amount of water. On a turbulent aerotow, into the sun, while you try to spot a glider that has just called on base, the glass can overflow. This is **work overload**: more tasks and information arrive than fit in the time available. If the task is also too difficult for your training at that moment, the safety margin is gone and the accident is waiting.
 

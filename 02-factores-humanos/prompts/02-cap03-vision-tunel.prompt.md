@@ -3,9 +3,9 @@ schema: 1
 figura: 02-cap03-vision-tunel.jpg
 tipo: diagrama-conceptual
 estado: borrador
-fecha: ""
+fecha: "2026-10-09"
 herramienta:
-  nombre: ""
+  nombre: "ChatGPT (chatgpt.com)"
   version: ""
 fuentes:
   - referencia: "Elaboración propia a partir del texto del capítulo"
@@ -26,12 +26,17 @@ master_editable: ""
 variómetro— y se pierde todo lo demás. Texto en `cap03-psicologia-aeronautica-basica.qmd`: el
 cerebro «pone toda la atención que le queda en un solo detalle del vuelo».
 
-**Estado.** Marcada con `.corregir` en la fase 5 de la corrección (hallazgo PED-04). Hay que
-rehacerla. Queda abierta para un especialista en factores humanos la pregunta de si el fenómeno es
-sólo atencional o también un estrechamiento del campo visual periférico; el rótulo propuesto se
-ciñe a lo que dice el texto.
+**Estado.** Sustituida el 9 de octubre de 2026 (issue #60) por una versión generada con el encargo
+de esta ficha; en la edición española se quitan la clase `.corregir` y la nota del pie. Vuelve a
+`borrador`: falta la revisión técnica de la figura nueva y su versión inglesa, que sigue siendo la
+anterior.
 
-## Qué falla en la figura actual
+## Procedencia
+
+Generada con ChatGPT (chatgpt.com) el 09-10-2026 con el prompt de esta ficha, sin retoques
+posteriores. La figura anterior no tenía la procedencia documentada.
+
+## Qué fallaba en la figura anterior
 
 * El rótulo dice «El estrés extremo reduce drásticamente el campo visual periférico». El texto
   describe una fijación de la atención, y el examen da por incorrecto el distractor de la visión
@@ -66,6 +71,6 @@ lean a 9 pt al imprimirse.
 
 ## Edición inglesa
 
-`en/02-human-performance/imagenes/` lleva una copia idéntica de esta imagen. Al rehacerla, se
-genera también la versión con las etiquetas en inglés (términos de `en/terminologia.yml`), se
-sustituye allí y se quita la marca *(FIX: …)* del pie inglés.
+`en/02-human-performance/imagenes/` lleva desde el 20 de octubre de 2026 la figura española con los
+textos traducidos al inglés, editada con ChatGPT a partir de ella (issue #60); la traducción sigue
+`en/terminologia.yml`. Se quita la marca *(FIX: …)* del pie inglés, si la tenía.

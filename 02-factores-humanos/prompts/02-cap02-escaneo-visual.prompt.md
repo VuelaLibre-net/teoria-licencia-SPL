@@ -2,10 +2,10 @@
 schema: 1
 figura: 02-cap02-escaneo-visual.jpg
 tipo: diagrama-conceptual
-estado: revision-tecnica
-fecha: ""
+estado: borrador
+fecha: "2026-10-09"
 herramienta:
-  nombre: ""
+  nombre: "ChatGPT (chatgpt.com)"
   version: ""
 fuentes:
   - referencia: "Sin identificar: hay que confirmar si está adaptada de material ajeno y con qué licencia"
@@ -27,16 +27,18 @@ horizonte como zona prioritaria, y que en viraje se vigila a lo largo del horizo
 ala. Texto en `cap02-fisiologia-aeronautica-basica-y-mantenimiento-de-salud.qmd`, «Técnicas de
 escaneo visual».
 
-**Estado.** Pendiente de procedencia. La auditoría (COH-13) observó que parece adaptada de
-material ajeno: la composición en sectores «explotados» y la nota vertical recuerdan a los
-diagramas de vigilancia de manuales de instrucción de vuelo sin motor de otros países. Mientras no
-se confirme su origen y su licencia, no puede pasar a `final`.
+**Estado.** Rehecha el 9 de octubre de 2026 (issue #60) desde cero, con el método del reloj del
+texto y el encargo de abajo, sin partir de la figura anterior; la duda de procedencia de aquella
+deja de aplicarse. Dibuja también el ciclo «mirar fuera, actitud, instrumentos» que promete el pie.
+Vuelve a `borrador`: falta la revisión técnica de la figura nueva y su versión inglesa, que sigue
+siendo la anterior.
 
 ## Procedencia
 
-Sin documentar. Está en el repositorio desde el 15-07-2026.
+Generada con ChatGPT (chatgpt.com) el 09-10-2026 con el prompt de esta ficha, sin retoques
+posteriores. La figura anterior no tenía la procedencia documentada.
 
-## Observaciones para la revisión técnica
+## Observaciones sobre la figura anterior
 
 * El título dice «Mirar fuera – Actitud – Instrumentos», y el pie del libro también, pero la
   figura sólo muestra los sectores de vigilancia exterior; no aparecen ni la actitud ni los
@@ -46,8 +48,34 @@ Sin documentar. Está en el repositorio desde el 15-07-2026.
   texto (12 en punto en el morro, barridos de atrás por la izquierda a atrás por la derecha, y por
   encima).
 
+## Prompt usado
+
+```text
+Genera una ilustración didáctica para un manual teórico de piloto de planeador SPL.
+
+Tipo de figura: diagrama conceptual (vista en planta).
+Objetivo didáctico: aprender el método del reloj para vigilar el cielo por sectores, y que la vigilancia exterior es parte de un ciclo con la actitud y los instrumentos.
+Composición: planeador genérico visto desde arriba en el centro, con el morro hacia arriba, dentro de la esfera de un reloj con las horas 12, 3, 6 y 9 marcadas. Sectores en abanico alrededor, numerados en el orden del barrido: empieza atrás por la izquierda, pasa por las 9, las 12 y las 3, y termina atrás por la derecha; una flecha curva indica el sentido. Un símbolo pequeño de «también por encima». A la derecha, un ciclo pequeño de tres pasos unidos por flechas.
+Etiquetas visibles exactas: «12 en punto: el morro», «9», «3», «6», «Inicio: atrás por la izquierda», «Fin: atrás por la derecha», «También por encima». Ciclo: «Mirar fuera», «Actitud», «Instrumentos». Título: «Escaneo visual: el método del reloj».
+Datos técnicos verificados: si aparece algún ángulo, usa el signo de grado (°), nunca el ordinal (º).
+
+Estilo: ilustración técnica vectorial plana sobre fondo blanco puro #FFFFFF. Líneas
+limpias y uniformes; estructura, ejes y líneas guía en azul navy #003366; etiquetas
+en gris oscuro #333333, con tipografía sans-serif legible. Sin sombras realistas,
+degradados decorativos, texturas, efectos 3D, fondos fotográficos, marcas de agua,
+logotipos ni texto ornamental. Las zonas seguras usan verde #2E7D32 y un estado de
+atención usa ámbar #B26A00. Todo el texto va en gris #333333. No dependas solo del
+color: añade etiquetas, tipos de línea o formas distintivas.
+
+Restricciones: todo el texto debe estar en español y ser breve. No inventes cifras,
+escalas, símbolos aeronáuticos, procedimientos, logotipos ni detalles técnicos. No
+incluyas texto de placeholder, palabras como MOCKUP o ToDo, ni referencias a archivos.
+Entrega una composición apaisada, con espacio suficiente para que las etiquetas se
+lean a 9 pt al imprimirse.
+```
+
 ## Edición inglesa
 
-`en/02-human-performance/imagenes/` lleva una copia idéntica de esta imagen. Al rehacerla, se
-genera también la versión con las etiquetas en inglés (términos de `en/terminologia.yml`), se
-sustituye allí y se quita la marca *(FIX: …)* del pie inglés.
+`en/02-human-performance/imagenes/` lleva desde el 20 de octubre de 2026 la figura española con los
+textos traducidos al inglés, editada con ChatGPT a partir de ella (issue #60); la traducción sigue
+`en/terminologia.yml`. Se quita la marca *(FIX: …)* del pie inglés, si la tenía.

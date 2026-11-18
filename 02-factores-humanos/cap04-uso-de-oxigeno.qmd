@@ -53,7 +53,7 @@ El TUC es el intervalo que transcurre desde que se interrumpe el suministro de o
 
 Los valores de referencia de la FAA son: a 22.000 ft, de 5 a 10 minutos; a 25.000 ft, de 3 a 5 minutos; a 30.000 ft, de 1 a 2 minutos, y a 35.000 ft, de 30 a 60 segundos (@fig-02-cap04-hipoxia-tiempo-conciencia). Son valores medios: varían mucho de una persona a otra y se acortan con el esfuerzo físico, y otras tablas, como la de la OACI, dan cifras algo menores.
 
-![Tiempo de conciencia útil (*Time of Useful Consciousness*) según la altitud. *(CORREGIR: por encima de 10.000 ft el oxígeno no es obligatorio por ley, es la regla por defecto del AMC1 SAO.OP.150; a 22.000 ft el TUC es de 5 a 10 minutos y a 25.000 ft de 3 a 5, y por debajo de 10.000 ft la visión nocturna ya se degrada.)*](imagenes/02-cap04-hipoxia-tiempo-conciencia.png){#fig-02-cap04-hipoxia-tiempo-conciencia .corregir}
+![Tiempo de conciencia útil (*Time of Useful Consciousness*) según la altitud.](imagenes/02-cap04-hipoxia-tiempo-conciencia.png){#fig-02-cap04-hipoxia-tiempo-conciencia}
 
 Un descenso desde 7.000 m hasta 3.000 m a 5 m/s de tasa de descenso tarda más de 13 minutos, tiempo con frecuencia superior al TUC disponible a esa altitud. Iniciar el descenso sin oxígeno puede ser demasiado tarde.
 
@@ -158,7 +158,7 @@ Antes de cada vuelo en altitud, compruebe visualmente la botella, las conexiones
 
 El pulsioxímetro es un dispositivo no invasivo que mide la saturación de oxígeno en sangre (SpO~2~) y la frecuencia cardíaca en tiempo real (@fig-02-cap04-pulsioximetro). Es una ayuda muy útil para detectar la hipoxia antes de que los síntomas sean evidentes para el propio piloto, pero no un sustituto de la atención a los síntomas. Tiene límites importantes: con **monóxido de carbono** marca valores normales aunque haya hipoxia, porque confunde la hemoglobina ocupada por el CO con la saturada de oxígeno; y con los dedos fríos, el movimiento o el sol directo da lecturas bajas o inestables. Ante síntomas, actúe aunque la lectura sea buena.
 
-![Pulsioxímetro de dedo mostrando lectura de saturación de oxígeno y frecuencia cardíaca. *(CORREGIR: la imagen muestra la marca comercial de un fabricante; hay que sustituirla por un pulsioxímetro genérico.)*](imagenes/02-cap04-pulsioximetro.jpg){#fig-02-cap04-pulsioximetro .corregir}
+![Pulsioxímetro de dedo mostrando lectura de saturación de oxígeno y frecuencia cardíaca.](imagenes/02-cap04-pulsioximetro.jpg){#fig-02-cap04-pulsioximetro}
 
 Coloque el pulsioxímetro en el dedo índice antes del despegue y mantenga la lectura visible durante el vuelo. Para vuelos de onda, fíjelo con velcro en la cabina o utilice un guante adaptado que permita leerlo sin quitarse el equipo de frío.
 

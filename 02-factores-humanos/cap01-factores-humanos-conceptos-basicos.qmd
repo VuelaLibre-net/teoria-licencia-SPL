@@ -58,7 +58,7 @@ Según James Reason, hay error humano cuando una secuencia **planificada** de ac
 
 James Reason ilustró este proceso con el **modelo del queso suizo**: cada capa del sistema de seguridad (instrucción, procedimientos, listas de verificación, supervisión) actúa como una barrera con agujeros. Cuando los agujeros de todas las capas se alinean, el accidente se produce (@fig-02-cap01-queso-suizo).
 
-![El modelo del queso suizo de James Reason. *(CORREGIR: las capas dibujadas son las de la clasificación HFACS, no las del texto; varios ejemplos están en la capa equivocada —la planificación de ruta y el chequeo meteorológico son actos del piloto, y la toma fuera de aeródromo no es un acto inseguro— y «Supervisión insegura» aparece dos veces.)*](imagenes/02-cap01-queso-suizo.png){#fig-02-cap01-queso-suizo .corregir}
+![El modelo del queso suizo de James Reason.](imagenes/02-cap01-queso-suizo.png){#fig-02-cap01-queso-suizo}
 
 Los fallos del piloto se clasifican en dos categorías según la intención del acto:
 
@@ -80,7 +80,7 @@ Los accidentes rara vez tienen una causa única. La mayoría resultan de una suc
 
 La consecuencia práctica más importante es que **basta con interrumpir un solo eslabón de la cadena para prevenir el accidente**. Una decisión conservadora, una verificación adicional o rechazar el vuelo ante una duda razonable son suficientes para detener el proceso antes de que derive en consecuencias.
 
-![Romper un eslabón de la cadena del error salva el vuelo. *(CORREGIR: la falta de atención en el montaje es un error activo, no latente; un ejemplo latente sería una instrucción de montaje deficiente. El texto de la lista de chequeo dibujada no tiene sentido.)*](imagenes/02-cap01-cadena-error.jpg){#fig-02-cap01-cadena-error .corregir}
+![Romper un eslabón de la cadena del error salva el vuelo.](imagenes/02-cap01-cadena-error.jpg){#fig-02-cap01-cadena-error}
 
 ::: {.callout-tip title="Regla de oro"}
 **Romper un solo eslabón salva el vuelo.** Ante cualquier señal de que la cadena del error ha comenzado —condiciones meteorológicas que se deterioran, una avería sin resolver, fatiga elevada— adopte la medida más conservadora disponible. Es la acción más eficaz al alcance del piloto.
@@ -112,7 +112,7 @@ Cuando la motivación por alcanzar un objetivo —batir una marca personal, gana
 
 La conclusión práctica: las necesidades de los niveles inferiores —las fisiológicas y las de seguridad— tienen que estar cubiertas antes de perseguir objetivos de orden superior, y ningún logro justifica sacrificarlas (@fig-02-cap01-piramide-maslow).
 
-![La pirámide de Maslow aplicada a un piloto de planeadores. *(CORREGIR: en el segundo nivel, la necesidad de seguridad de Maslow es sentirse a salvo, no la seguridad operacional ni el SMS.)*](imagenes/02-cap01-piramide-maslow.png){#fig-02-cap01-piramide-maslow .corregir}
+![La pirámide de Maslow aplicada a un piloto de planeadores.](imagenes/02-cap01-piramide-maslow.png){#fig-02-cap01-piramide-maslow}
 
 ::: {.postit}
 **Resumen del capítulo: conceptos básicos de factores humanos**
