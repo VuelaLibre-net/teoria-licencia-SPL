@@ -17,6 +17,7 @@ tag=${1:?falta el tag}
 # concuerden, así que la fuente de la que esto copia está vigilada.
 emoji_de() {
   case "$1" in
+    "Candidato de versión")  echo "🔵" ;;
     "En revisión")           echo "🟡" ;;
     "Creando ilustraciones") echo "🎨" ;;
     "En desarrollo")         echo "🚧" ;;
@@ -53,7 +54,7 @@ done <<<"$estados"
 
 cat <<'PIE'
 
-**En revisión**: el texto está completo, pendiente de revisión técnica por instructores. **Creando ilustraciones**: el texto está completo y faltan ilustraciones.
+**Candidato de versión**: revisión técnica completada por los instructores, pendiente de la edición definitiva. **En revisión**: el texto está completo, pendiente de revisión técnica por instructores. **Creando ilustraciones**: el texto está completo y faltan ilustraciones.
 
 Este manual es una **herramienta de apoyo al estudio**. No sustituye a la instrucción teórica ni a la práctica obligatoria con un instructor de vuelo cualificado, y ante cualquier discrepancia prevalece el texto legal de AESA o EASA.
 

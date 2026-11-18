@@ -225,7 +225,7 @@ mazos_de = $(wildcard tools/anki/mazos/$(1)/*.yml)
 # Estado editorial del libro, deducido de su versión.
 #
 #   >= 1.0.0 (final) completado (cadena vacía: apaga la marca y la nota)
-#   1.x-rc.n        en revisión   (un candidato es ANTERIOR a la 1.x.0)
+#   1.x-rc.n        candidato de versión (un candidato es ANTERIOR a la 1.x.0)
 #   0.9.x           en revisión
 #   0.8.x           creando ilustraciones
 #   0.7.x y menos   en desarrollo
@@ -233,18 +233,23 @@ estado_libro = $$(v=$$($(SED_VERSION) $(1)/_quarto.yml 2>/dev/null || $(SED_VERS
 	case "$$v" in *-*) pre=1 ;; *) pre=0 ;; esac; \
 	base=$${v%%-*}; may=$$(echo "$$base" | cut -d. -f1); men=$$(echo "$$base" | cut -d. -f2); \
 	case "$$may$$men" in *[!0-9]*|"") echo ""; exit ;; esac; \
+	case "$$v" in *-rc*) echo "Candidato de versión"; exit ;; esac; \
 	if [ "$$may" -ge 1 ] && [ "$$pre" -eq 0 ]; then echo ""; \
 	elif [ "$$may" -ge 1 ] || [ "$$men" -ge 9 ]; then echo "En revisión"; \
 	elif [ "$$men" -ge 8 ]; then echo "Creando ilustraciones"; \
 	else echo "En desarrollo"; fi)
 
+# ⚠️ Sin dos puntos en las notas: Quarto lee el valor de --metadata como YAML y
+# «a: b» dejaría de ser un texto.
 nota_libro = $(call nota_libro_$(call idioma_de,$(1)),$(1))
 nota_libro_es = $$(case "$(call estado_libro,$(1))" in \
+	"Candidato de versión") echo "Revisión técnica completada por los instructores. Pueden entrar correcciones puntuales antes de la edición definitiva." ;; \
 	"En revisión") echo "Edición pendiente de revisión técnica por más instructores. El contenido puede cambiar antes de la versión definitiva." ;; \
 	"Creando ilustraciones") echo "El texto está completo pero NO HA SIDO REVISADO y las ilustraciones aún se están elaborando." ;; \
 	"En desarrollo") echo "Texto e ilustraciones en elaboración. Contenido provisional, sujeto a cambios." ;; \
 	*) echo "" ;; esac)
 nota_libro_en = $$(case "$(call estado_libro,$(1))" in \
+	"Candidato de versión") echo "Technical review by the instructors is complete. Minor corrections may still be made before the final edition." ;; \
 	"En revisión") echo "This edition is awaiting technical review by more instructors. The content may change before the final version." ;; \
 	"Creando ilustraciones") echo "The text is complete but HAS NOT BEEN REVIEWED, and the illustrations are still in progress." ;; \
 	"En desarrollo") echo "Text and illustrations in progress. Provisional content, subject to change." ;; \
@@ -262,6 +267,7 @@ nota_libro_en = $$(case "$(call estado_libro,$(1))" in \
 estado_visible = $(call estado_visible_$(call idioma_de,$(1)),$(1))
 estado_visible_es = $(call estado_libro,$(1))
 estado_visible_en = $$(case "$(call estado_libro,$(1))" in \
+	"Candidato de versión") echo "Release candidate" ;; \
 	"En revisión") echo "In review" ;; \
 	"Creando ilustraciones") echo "Creating illustrations" ;; \
 	"En desarrollo") echo "In development" ;; \
