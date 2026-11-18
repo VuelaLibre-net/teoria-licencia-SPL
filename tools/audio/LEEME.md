@@ -119,16 +119,16 @@ declara en sus créditos y en sus metadatos que lo narran voces sintéticas.
 
 `make audio-verificar` hace dos comprobaciones:
 
-- **Transcripción**: transcribe cada sección con el reconocedor de VoiceStudio y
-  la compara con el guion. Si el porcentaje de error pasa del 12 %, conviene
+- **Transcripción**: transcribe cada sección en GPU con faster-whisper y la
+  compara con el guion. Si el porcentaje de error pasa del 12 %, conviene
   escuchar la sección.
 - **Señal**: con ffmpeg mide la sonoridad (el objetivo de ACX es -19 LUFS), el
   pico y los silencios de más de 3 s.
 
-Con 6 GB de VRAM, el reconocedor large-v3 puede colgarse junto al modelo de voz.
-`verificar.py` descarga antes el modelo de voz. Si aun así no responde, usa
-`SIN_ASR=1` para medir sólo la señal, y en VoiceStudio cambia el motor ASR a
-«Faster-Whisper (crash-isolated subprocess)».
+Antes de verificar, cierra VoiceStudio. La comprobación se niega a empezar si la
+GPU tiene procesos de cálculo activos o menos VRAM libre de la que necesita el
+modelo (4 GB para `medium`). `SIN_ASR=1` omite la transcripción y permite medir
+sólo la señal sin GPU.
 
 ## Casting: elegir las voces
 
@@ -246,7 +246,8 @@ Con 6 GB de VRAM hay tres trampas, ya resueltas en el código:
 
 - La referencia debe durar menos de unos 9 s. VoiceStudio la codifica entera
   de una vez y una de 12 s agota la memoria. Las de MLS, con clips de 10–20 s,
-  se recortan en una pausa y se transcriben con `transcribir.py` en CPU.
+  se recortan en una pausa y se transcriben con `transcribir.py` en GPU, con
+  VoiceStudio cerrado.
 - `torch.compile` tiene que estar desactivado en VoiceStudio (issue #2135):
   reserva memoria para cada longitud de frase y llena la tarjeta.
 - Se sintetiza por `/generate`. La vía `/v1/audio/speech` carga una segunda

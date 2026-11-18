@@ -86,6 +86,7 @@ Ejemplo: se corrige `03-meteorologia/cap05-….qmd`.
 4. **Verifica:**
 
    ```sh
+   # Cierra VoiceStudio: faster-whisper necesita la GPU libre y 4 GB de VRAM.
    make audio-verificar 03 cap05
    ```
 
@@ -96,8 +97,9 @@ Ejemplo: se corrige `03-meteorologia/cap05-….qmd`.
    - La sonoridad tiene que quedar entre -21 y -17 LUFS y no puede haber
      silencios de más de 3 s.
 
-   La transcripción va en CPU y tarda unos 4 min por capítulo de 10 min. Con
-   `SIN_ASR=1` sólo se mide la señal.
+   La transcripción va en GPU. La orden se detiene antes de empezar si hay otro
+   proceso de cálculo en ella o no quedan 4 GB de VRAM libres. Con `SIN_ASR=1`
+   sólo se mide la señal y no hace falta GPU.
 
 5. **Escucha** al menos el principio, las cajas y los trozos que cambiaste.
 
