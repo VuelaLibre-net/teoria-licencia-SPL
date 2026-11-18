@@ -1,0 +1,343 @@
+# Podcast del libro 02, capítulo 4. Dos voces: n = Narradora, l = Locutor.
+# Los hechos y las cifras salen del .qmd; aquí sólo cambia cómo se cuentan.
+# ‹…› es énfasis; `pausa:` en ms tras el turno; `- pausa: N` es un silencio suelto.
+
+pistas:
+  - titulo: "Uso de oxígeno"
+    turnos:
+      - l: "Un dato curioso para abrir. El aire que respiras a doce mil pies tiene exactamente el mismo porcentaje de oxígeno que al nivel del mar."
+        e: asombro
+      - n: "Veintiuno por ciento. Igual."
+        e: pensativo
+      - l: "Y sin embargo, a esa altura, tu cerebro empieza a pasarlo mal. ¿Cómo es posible?"
+        e: asombro
+        pausa: 900
+      - n: "Esa es la pregunta de hoy. Al subir, la presión del aire baja, y el cuerpo recibe menos oxígeno. Este capítulo explica por qué aparecen la hipoxia y la hiperventilación, cómo reconocerlas y tratarlas."
+        e: calido
+      - l: "Y qué dice la norma sobre el oxígeno. Y qué equipos se usan en planeador."
+      - n: "Este es el capítulo más técnico del tema. Pero también uno de los que más vidas salva. Vamos."
+        e: serio
+        pausa: 700
+
+  - titulo: "La atmósfera y las leyes de los gases"
+    turnos:
+      - n: "Para entender cómo afecta la altitud en la cabina de un planeador, que no está presurizada, conviene conocer tres leyes de los gases."
+      - l: "Tres leyes. Que tienen apellido: Dalton, Boyle y Henry."
+        e: animado
+      - n: "Primero, la atmósfera. Está compuesta por un 78 % de nitrógeno y un 21 % de oxígeno. Y ese porcentaje se mantiene constante conforme ganas altura."
+      - l: "Lo que cambia, y mucho, es la presión atmosférica."
+      - n: "Ahí entra la ‹ley de Dalton›. La presión total de una mezcla de gases es la suma de las presiones parciales de cada componente."
+      - l: "<laughter>A ver, traduce.</laughter>"
+      - n: "Cuando asciendes, la columna de aire que hay sobre ti es menor. Así que la presión total disminuye. Y como el oxígeno es siempre el 21 % de la mezcla, su presión parcial baja en la misma proporción."
+      - l: "Y esa presión parcial, ¿qué hace?"
+      - n: "Es la que «empuja» las moléculas de oxígeno a través de los alvéolos pulmonares, hacia la sangre. Cuanto más alto, menos empuje, y menos oxígeno pasa a la sangre."
+      - l: "[mn] O sea, sigues respirando un veintiuno por ciento de oxígeno. Pero tu sangre se carga cada vez menos."
+        e: asombro
+      - n: "Esa es la frase clave. Y un detalle importante: no hay un umbral a partir del cual el oxígeno deje de pasar. Es una degradación progresiva."
+        e: serio
+        v: 0.95
+      - l: "No es un interruptor. Es un regulador de intensidad."
+        e: contento
+      - n: "Segunda ley: la ‹ley de Boyle›. El volumen de un gas confinado aumenta si la presión exterior disminuye."
+      - l: "Que ya la vimos en el capítulo dos con el oído."
+        e: contento
+      - n: "Al ascender, cualquier bolsa de aire atrapada en el organismo, estómago, intestinos, senos paranasales u oídos, se expande para igualar la presión exterior."
+      - l: "Y tercera: la ‹ley de Henry›."
+      - n: "La cantidad de gas disuelto en un líquido depende de la presión de ese gas sobre él. Al bajar la presión, el nitrógeno disuelto en la sangre y los tejidos tiende a salir de solución. Y puede formar burbujas."
+      - l: "Es la enfermedad descompresiva. Los ‹bends›."
+      - n: "Según la OACI, empieza a ser una amenaza por encima de unos veinticinco mil pies. Y bucear antes de volar la hace mucho más probable, porque el cuerpo lleva entonces nitrógeno de más. Eso está en el capítulo dos."
+      - l: "Recopilo. Dalton: la presión parcial del oxígeno baja con la altura. Boyle: el gas atrapado se expande. Henry: el nitrógeno disuelto puede formar burbujas."
+        e: animado
+        v: 1.05
+      - n: "Y un consejo de buen hacer. No vueles con un resfriado severo o con congestión nasal, especialmente si prevés techos térmicos elevados o vuelos de onda."
+        e: calido
+      - l: "Porque el aire atrapado en los senos o en el oído medio no puede igualar la presión, sobre todo al descender."
+      - n: "Y puede causar un dolor intenso y agudo, un barotrauma, que te incapacita para pilotar con seguridad."
+        e: serio
+        pausa: 700
+
+  - titulo: "El sistema respiratorio"
+    turnos:
+      - n: "Ahora, el sistema respiratorio. Los pulmones contienen millones de alvéolos, recubiertos de capilares."
+      - l: "Al inspirar, el oxígeno llega a los alvéolos."
+      - n: "Y, impulsado por la presión barométrica, cruza hacia la sangre. Allí, la hemoglobina de los glóbulos rojos lo transporta hasta el cerebro, la retina y los músculos."
+      - l: "Y a la vuelta recoge el dióxido de carbono, el desecho."
+      - n: "Que se exhala en la siguiente respiración. Ahora, en altitud, los pulmones y el corazón funcionan con normalidad. Pero la menor presión parcial reduce la carga de oxígeno en la hemoglobina."
+      - l: "[mn] Y eso se mide en saturación."
+      - n: "La saturación de la sangre cae de forma progresiva. En torno al 89 % a diez mil pies, y al 65 % a veinte mil pies, según la OACI."
+      - l: "Ochenta y nueve a diez mil. Sesenta y cinco a veinte mil."
+        e: serio
+      - n: "Y el cerebro recibe menos oxígeno del que necesita. Ese déficit se llama ‹hipoxia›."
+        pausa: 700
+
+  - titulo: "Hipoxia"
+    turnos:
+      - l: "La palabra que da título a media aeromedicina. Hipoxia."
+        e: animado
+      - n: "Aunque el vuelo a gran altitud es la causa más común, la hipoxia puede originarse por cuatro mecanismos distintos."
+      - l: "Cuatro clases."
+      - n: "Primera: ‹hipoxia hipóxica›. La presión atmosférica es insuficiente para transferir oxígeno a la sangre."
+      - l: "Y es la más frecuente en pilotos de planeador."
+        e: serio
+      - n: "Se corrige iniciando el descenso o activando el oxígeno suplementario."
+      - l: "Segunda: ‹hipémica›, o anémica."
+      - n: "La sangre pierde capacidad de transporte de oxígeno. Ocurre sobre todo por inhalar monóxido de carbono, del escape del remolcador o por tabaquismo intenso. El monóxido desplaza al oxígeno en la hemoglobina."
+      - l: "Que ya lo vimos en el capítulo anterior. El enemigo invisible."
+        e: serio
+      - n: "Tercera: ‹hipoxia estancada›, o isquémica. La circulación sanguínea se detiene o se reduce en el cerebro."
+      - l: "Y en planeador, ¿cuándo pasa eso?"
+      - n: "En virajes cerrados, con elevadas fuerzas G positivas. La sangre se desplaza hacia las extremidades inferiores y vacía de riego la cabeza. Provoca visión en túnel, o pérdida temporal de visión. Es el ‹grey-out›."
+        e: pensativo
+      - l: "Y cuarta: ‹histotóxica›."
+      - n: "Las células cerebrales son incapaces de asimilar el oxígeno que reciben, porque están intoxicadas. La producen el alcohol, los narcóticos y algunos tóxicos."
+      - l: "¿Y los sedantes y antihistamínicos?"
+      - n: "No la causan por sí mismos. Pero hacen al piloto más vulnerable a la hipoxia."
+      - l: "Un truco para recordarlas. Hipóxica: falta presión. Hipémica: falla la sangre. Estancada: no circula. Histotóxica: la célula está intoxicada."
+        e: animado
+      - n: "Muy bien. Una pregunta. Vuelas un día de vuelo a vela, a nivel bajo, pero llevas tres cigarrillos fumados antes de despegar. ¿Qué tipo de hipoxia puedes tener?"
+        e: pensativo
+        v: 0.95
+        pausa: 2500
+      - l: "Hipémica. El monóxido de carbono del tabaco desplaza oxígeno en la hemoglobina. Y no hace falta altura."
+        e: contento
+      - n: "Perfecto. Ahora vamos con las fases y los síntomas."
+      - l: "Y aquí, ojo."
+        e: serio
+      - n: "Los síntomas de la hipoxia varían entre individuos. Dependen del nivel de fatiga, el tabaquismo, la ingesta de alcohol o la aclimatación a la altitud. Y hay un detalle muy importante: el piloto a menudo ‹no percibe› sus propios síntomas."
+      - l: "[mn] O sea, que no te enteras."
+        e: asombro
+      - n: "Uno de los primeros síntomas, y el más peligroso, suele ser la ‹euforia›. El piloto se siente excepcionalmente bien, y no detecta el peligro."
+      - l: "Te sientes de maravilla justo cuando estás en peligro."
+        e: preocupado
+      - n: "Después aparecen irritabilidad, dificultad para hablar, pérdida de memoria a corto plazo, disminución de la capacidad de cálculo y somnolencia."
+      - l: "Y en fases avanzadas."
+        e: serio
+      - n: "Cianosis. Coloración azulada en labios y uñas. Y finalmente, pérdida de conciencia."
+      - l: "Un detalle útil: el orden de los síntomas varía de una persona a otra, pero en cada piloto tiende a repetirse."
+      - n: "Por eso conocer los propios es la mejor alarma. Y ahora, el aviso de seguridad."
+        pausa: 400
+      - l: "La euforia es el síntoma más traicionero de la hipoxia. El piloto no sospecha que está en peligro."
+        e: serio
+        v: 0.93
+      - n: "Si percibes visión borrosa, hormigueo en las extremidades, euforia injustificada o dolor de cabeza tras un ascenso rápido a gran altitud, asume hipoxia."
+      - l: "Y actúa. Aumenta al máximo el aporte de oxígeno de tu equipo, e inicia el descenso de inmediato."
+        e: serio
+        v: 0.93
+      - n: "Ahora, un concepto clave. El tiempo útil de conciencia. En inglés, ‹Time of Useful Consciousness›, TUC."
+      - l: "A ver, qué es."
+      - n: "El intervalo que transcurre desde que se interrumpe el suministro de oxígeno hasta que el piloto pierde la capacidad de tomar medidas protectoras. A mayor altitud, menor tiempo disponible para reaccionar."
+      - l: "Dame cifras."
+      - n: "Los valores de referencia de la FAA. A veintidós mil pies, de cinco a diez minutos."
+      - l: "A veinticinco mil pies, de tres a cinco minutos."
+      - n: "A treinta mil pies, de uno a dos minutos."
+      - l: "Y a treinta y cinco mil pies, de treinta a sesenta segundos."
+      - n: "Son valores medios. Varían mucho de una persona a otra. Se acortan con el esfuerzo físico. Y otras tablas, como la de la OACI, dan cifras algo menores."
+      - l: "O sea, que no hay que jugar con el margen."
+      - n: "Y aquí un dato que impresiona. Un descenso desde siete mil metros hasta tres mil metros, a cinco metros por segundo, tarda más de trece minutos."
+      - l: "[breath] Trece minutos. Que con frecuencia es más que el tiempo útil de conciencia a esa altitud."
+        e: preocupado
+        v: 0.95
+      - n: "Y la conclusión: iniciar el descenso sin oxígeno puede ser demasiado tarde."
+      - l: "Así que la regla de oro. Dime."
+        e: serio
+      - n: "Ante cualquier fallo en el suministro de oxígeno, o sospecha de hipoxia: «oxígeno y desciende»."
+      - l: "Oxígeno y desciende."
+        e: serio
+        v: 0.9
+      - n: "Lleva el equipo al máximo aporte. Es el ajuste de cien por cien en un regulador con mascarilla. El de máximo flujo en un EDS. O el caudal de la altitud superior en un flujo continuo."
+      - l: "Y baja por debajo de los diez mil pies. Sin dudarlo."
+      - n: "Porque a partir de cierta altitud, el TUC no permite pensar ni actuar correctamente."
+      - l: "Primero oxígeno. Luego, abajo."
+        e: serio
+        v: 0.92
+      - n: "Pasamos a la prevención y el tratamiento. La mejor prevención es anticiparse. Usa el equipo de oxígeno por rutina, siempre de la misma manera."
+      - l: "Antes del vuelo, tres comprobaciones."
+      - n: "Primera: mira en el manómetro que la presión de la botella, según su capacidad y la temperatura, basta para el vuelo previsto, con reserva. Consulta la tabla de autonomía del fabricante. La presión de llenado depende de la botella, y baja con el frío."
+      - l: "Segunda: que la cánula o la mascarilla está bien conectada, sin pliegues ni obstrucciones."
+      - n: "Y tercera: que el regulador de flujo funciona correctamente."
+      - l: "Y si aparecen síntomas durante el vuelo, tres pasos también."
+      - n: "Uno: lleva el equipo al máximo aporte de oxígeno, de forma inmediata."
+      - l: "Dos: comprueba que la cánula o mascarilla sella bien, sin fugas."
+      - n: "Y tres: si los síntomas no remiten en pocos segundos, inicia el descenso por debajo de los diez mil pies."
+      - l: "Un consejo de buen hacer. Ten un ‹checklist› de emergencia para hipoxia."
+        e: calido
+      - n: "Porque el razonamiento puede estar deteriorado justo en el momento en que más lo necesitas."
+      - l: "Y si llevas pulsioxímetro, compruébalo ante cualquier duda."
+        pausa: 700
+
+  - titulo: "Hiperventilación"
+    turnos:
+      - n: "Ya hablamos de la hiperventilación en el capítulo dos. Ahora la vemos desde el punto de vista del oxígeno."
+        e: calido
+      - l: "Y es un tema que se mezcla con la hipoxia."
+      - n: "La hiperventilación es una respiración anormalmente rápida o profunda. Suele estar causada por el estrés o la ansiedad. Pero también puede ser una reacción del cuerpo a la propia hipoxia."
+      - l: "En planeador, ¿qué la desencadena?"
+      - n: "Turbulencias intensas. Situaciones fuera de campo complicadas. Decisiones difíciles en vuelo."
+      - l: "Y el mecanismo, otra vez."
+      - n: "Al hiperventilar, el piloto expulsa dióxido de carbono en exceso. El organismo regula el flujo sanguíneo cerebral en función del nivel de dióxido de carbono disuelto en sangre."
+      - l: "Y cuando ese nivel cae..."
+      - n: "A eso se le llama hipocapnia. Los vasos sanguíneos cerebrales se contraen. Y se reduce el aporte de oxígeno al cerebro, a pesar de que los pulmones están cargados de él."
+      - l: "El resultado paradójico: te asfixias con los pulmones llenos."
+        e: asombro
+      - n: "Los síntomas son similares a los de la hipoxia, y eso dificulta el diagnóstico diferencial. Hormigueo y entumecimiento en manos, pies y alrededor de la boca. Calambres o espasmos musculares."
+      - l: "Sensación de no poder tomar aire, y palpitaciones. Mareo, náuseas y somnolencia."
+      - n: "Y en casos graves, pérdida de conciencia."
+      - l: "Entonces, si no puedo distinguirlas, ¿qué hago?"
+        e: pensativo
+      - n: "La regla de oro. No intentes un diagnóstico fino en vuelo. El hormigueo, la sudoración o el mareo pueden ser de las dos. Y la hipoxia también aparece por debajo de diez mil pies, por monóxido de carbono, vuelo nocturno o tabaco."
+      - l: "Y se actúa por orden."
+      - n: "Primero, la hipoxia. Lleva el oxígeno al máximo aporte, comprueba el equipo y, si estás alto, desciende."
+      - l: "Y segundo, si los síntomas no mejoran, trata la hiperventilación. Reduce el ritmo respiratorio."
+      - n: "Una pregunta rápida. Estás a doce mil pies, notas hormigueo en las manos. ¿Qué haces primero?"
+        e: pensativo
+        v: 0.95
+        pausa: 2000
+      - l: "Hipoxia primero. Oxígeno al máximo, compruebo el equipo, y desciendo."
+        e: animado
+      - n: "Perfecto. Ahora, el tratamiento de la hiperventilación. El objetivo es restablecer el nivel de dióxido de carbono en sangre."
+      - l: "Primero: reduce el ritmo respiratorio. Respira más despacio, alargando la exhalación."
+      - n: "Segundo: habla en voz alta. Recita el checklist, o cuenta en voz alta. Hablar obliga a controlar la exhalación, y dificulta el jadeo."
+      - l: "Tercero, en casos graves: cubre la nariz y la boca con una bolsa de mareo."
+      - n: "Para reinhalar parte del dióxido de carbono exhalado y restablecer el equilibrio."
+      - l: "Y cuarto: si la hiperventilación persiste, da por concluido el vuelo y vuelve al campo."
+      - n: "Y un aviso de seguridad. Ante la duda entre hipoxia e hiperventilación, trata primero la hipoxia."
+      - l: "Activa o aumenta el oxígeno. Comprueba el equipo. Y después, controla el ritmo respiratorio."
+      - n: "Porque los primeros síntomas de las dos se parecen. Y pueden darse a la vez, porque la hipoxia también hace respirar más deprisa."
+      - l: "Y hay una duda típica: ¿respirar oxígeno empeora la hiperventilación?"
+      - n: "No. El dióxido de carbono se pierde por el ritmo de la respiración, no por el oxígeno que se respira."
+      - l: "Quedamos: ante la duda, oxígeno."
+        e: serio
+        v: 0.92
+        pausa: 700
+
+  - titulo: "Requisitos normativos para el uso de oxígeno"
+    turnos:
+      - l: "Vamos con la norma. Y aquí hay una confusión muy extendida."
+        e: animado
+      - n: "La del famoso límite de los diez mil pies."
+      - l: "Que mucha gente cree que es una ley."
+      - n: "Veamos lo que dice la norma. SAO.OP.150. El piloto al mando deberá garantizar que todas las personas a bordo utilicen oxígeno suplementario cuando determine que, a la altitud de vuelo prevista, la falta de oxígeno podría ocasionar la disminución de sus facultades, o resultarles dañina."
+      - l: "[mn] O sea que no pone una altura. Pone «cuando determine»."
+        e: asombro
+      - n: "Exacto. La obligación es evaluar y garantizar. Ahora, el medio aceptable de cumplimiento, el AMC uno de SAO.OP.150. No es vinculante como el reglamento."
+      - l: "Pero dice una cosa muy concreta."
+      - n: "Cuando el piloto no pueda determinar ese efecto, debería asegurarse de que todos usen oxígeno siempre que la altitud de presión supere los diez mil pies."
+      - l: "Ahí está. Los diez mil pies son la regla por defecto, cuando no puedes valorar el efecto."
+        e: contento
+      - n: "Y no es un límite legal incondicional. Muy importante."
+        e: serio
+        v: 0.95
+      - l: "Y hay otra pieza, creo. El equipo."
+      - n: "SAO.IDE.115. Cuando SAO.OP.150 exija oxígeno, el planeador debe llevar un equipo capaz de almacenarlo y suministrarlo. Ese equipo debe estar aprobado y permitir comprobar en vuelo que el oxígeno llega."
+      - l: "[mn] O sea, que no basta con llevar una botella cualquiera."
+      - n: "Un consejo de buen hacer. Para vuelos nocturnos o al atardecer, se recomienda iniciar el uso de oxígeno desde los cinco mil pies."
+      - l: "«Se recomienda». No lo exige la norma."
+        e: serio
+      - n: "No lo exige. Es una recomendación de la FAA. Y la razón: la visión nocturna es especialmente sensible a la falta de oxígeno, porque los bastones de la retina periférica son las primeras células en verse afectadas."
+      - l: "Bastones. Los del capítulo dos, los de la visión de poca luz."
+      - n: "Los mismos. Resumen: obligación de fondo, evaluar y garantizar. Regla por defecto, diez mil pies. Recomendación de noche, cinco mil."
+      - l: "Evaluar, diez mil, cinco mil de noche."
+        e: contento
+        v: 1.05
+        pausa: 700
+
+  - titulo: "Equipos y sistemas de oxígeno en planeadores"
+    turnos:
+      - n: "Vamos con el equipo físico. En los planeadores se utilizan principalmente dos tipos de sistemas."
+        e: animado
+      - l: "Flujo continuo y demanda pulsada."
+      - n: "El ‹flujo continuo› suministra un caudal constante de oxígeno, que el piloto regula según la altitud. El caudalímetro va graduado en pies."
+      - l: "Ventajas."
+      - n: "Es sencillo, fiable y económico."
+      - l: "Y el inconveniente."
+      - n: "Consume oxígeno también durante la exhalación. Lo que limita la autonomía y reseca las mucosas nasales."
+      - l: "Y la cánula."
+      - n: "Con cánula, que es la interfaz habitual en planeador, sólo es adecuado hasta unos dieciocho mil pies, nivel de vuelo ciento ochenta. Por encima hace falta mascarilla, porque al hablar o al respirar por la boca, la cánula deja de aportar oxígeno suficiente."
+      - l: "Y con mascarilla."
+      - n: "La FAA lo considera adecuado hasta unos veinticinco mil pies. Y en vuelos de onda altos conviene llevar además un oxígeno de respaldo."
+      - l: "Segundo sistema: demanda pulsada. EDS."
+      - n: "Es un nombre comercial de un fabricante. Detecta el inicio de cada inspiración mediante sensores barométricos, y libera únicamente el volumen necesario. Interrumpe el flujo durante la exhalación."
+      - l: "[mn] O sea, no desperdicia."
+      - n: "Puede multiplicar por tres o cuatro la autonomía de la botella, respecto al flujo continuo."
+      - l: "Pero tiene un inconveniente."
+        e: pensativo
+      - n: "Depende de pilas. Que pueden fallar a temperaturas muy bajas. Lleva pilas de repuesto. Y un apunte: conectarlo a la batería del planeador es una modificación de la aeronave. Sólo puede hacerse conforme a su manual de vuelo y a la normativa de aeronavegabilidad."
+      - l: "Repaso. Flujo continuo: sencillo, consume más, reseca. Cánula hasta dieciocho mil pies. Demanda pulsada: tres o cuatro veces más autonomía, pero con pilas."
+      - n: "Ahora, la inspección y la seguridad. Antes de cada vuelo en altitud, comprueba visualmente la botella, las conexiones y los tubos. Verifica la presión con el manómetro. Y asegúrate de que la cánula o la mascarilla no presenta pliegues."
+      - l: "Y aquí van dos avisos de seguridad muy serios."
+        e: serio
+        v: 0.93
+      - n: "Primero: oxígeno de aviación, no medicinal. Utiliza exclusivamente oxígeno de aviación."
+      - l: "Pero si el medicinal es oxígeno también."
+        e: asombro
+      - n: "Ni el medicinal ni el industrial cumplen sus mismas especificaciones. Su idoneidad para el uso aeronáutico no está garantizada."
+      - l: "Segundo aviso. Y este es de los que salvan la vida."
+        e: serio
+        v: 0.93
+      - n: "Prohibido el contacto con grasas. No apliques cremas hidratantes, protectores solares ni lubricantes cerca de las conexiones, reguladores o boquillas."
+        e: serio
+        v: 0.93
+      - l: "¿Y por qué?"
+      - n: "El oxígeno a presión en contacto con sustancias grasas puede provocar una combustión explosiva. Sin necesidad de llama ni de chispa."
+      - l: "O sea, que ni la crema del labio. Ni el protector solar de la cara, antes de ajustar la mascarilla."
+        e: asombro
+      - n: "Eso. Manos limpias y secas. Y cuidado con los cosméticos."
+      - l: "Regla fácil: con el oxígeno, nada de grasa."
+        e: serio
+        v: 0.92
+        pausa: 700
+
+  - titulo: "Pulsioxímetro"
+    turnos:
+      - l: "Último equipo. El pulsioxímetro."
+        e: animado
+      - n: "Es un dispositivo no invasivo que mide la saturación de oxígeno en sangre, SpO2, y la frecuencia cardíaca, en tiempo real."
+      - l: "<laughter>Esa cosita que te ponen en el dedo en el médico.</laughter>"
+        e: contento
+      - n: "Esa. Y es una ayuda muy útil para detectar la hipoxia antes de que los síntomas sean evidentes para el propio piloto."
+      - l: "Pero tiene límites."
+      - n: "Importantes. No es un sustituto de la atención a los síntomas. Con monóxido de carbono, marca valores normales aunque haya hipoxia."
+      - l: "¿Por qué?"
+      - n: "Porque confunde la hemoglobina ocupada por el monóxido de carbono con la saturada de oxígeno."
+      - l: "O sea, te dice «todo bien», y no es verdad."
+        e: preocupado
+      - n: "Y con los dedos fríos, el movimiento o el sol directo, da lecturas bajas o inestables. Por eso: ante síntomas, actúa aunque la lectura sea buena."
+      - l: "Y cómo se usa."
+      - n: "Colócalo en el dedo índice antes del despegue, y mantén la lectura visible durante el vuelo. Para vuelos de onda, fíjalo con velcro en la cabina, o utiliza un guante adaptado que permita leerlo sin quitarte el equipo de frío."
+      - l: "Y un umbral."
+      - n: "Un valor de saturación por debajo del 90 % es una señal para actuar. Activa el oxígeno suplementario e inicia el descenso."
+      - l: "Como referencia, a diez mil pies una persona sana sin oxígeno marca en torno al 89 %."
+      - n: "Y un consejo de buen hacer. Registra tus valores de saturación a distintas altitudes durante los vuelos habituales, con tu sistema de oxígeno funcionando."
+      - l: "Para conocer tu respuesta individual."
+      - n: "Porque no todos los pilotos responden igual a la altitud."
+        pausa: 700
+
+  - titulo: "Resumen del capítulo"
+    turnos:
+      - n: "Cerramos con el repaso del capítulo. Nueve ideas."
+        e: animado
+        v: 1.05
+      - l: "Primera: las leyes de los gases. La presión disminuye con la altitud, y con ella la presión parcial del oxígeno, que es siempre el 21 % del total. Dalton. Cuanto más alto, menos oxígeno pasa a la sangre."
+      - n: "Y Boyle: los gases corporales se expanden al ascender y se contraen al descender. No vueles con congestión nasal intensa."
+      - l: "Segunda: sistema respiratorio e hipoxia. La hemoglobina transporta el oxígeno desde los alvéolos al cerebro. Con la altitud, la sangre se carga cada vez menos."
+      - n: "Tercera: las cuatro clases de hipoxia. Hipóxica, la más frecuente en planeador. Hipémica, por monóxido de carbono o tabaco. Estancada, por fuerzas G elevadas. E histotóxica, por alcohol, narcóticos o tóxicos."
+      - l: "Cuarta: los síntomas. Uno de los primeros, y el más traicionero, es la euforia. El piloto no percibe el peligro. Después, somnolencia, dificultad para calcular, cianosis y pérdida de conciencia."
+      - n: "Quinta: el tiempo útil de conciencia. A veinticinco mil pies, de tres a cinco minutos. A treinta mil, de uno a dos. Un descenso largo puede superarlo. Actúa siempre antes de necesitarlo."
+      - l: "Sexta: la normativa. El oxígeno es obligatorio cuando el piloto determine que su falta puede disminuir las facultades de los ocupantes. Si no puede determinarlo, la regla por defecto del AMC es usarlo siempre por encima de diez mil pies."
+      - n: "Y de noche o al atardecer se recomienda desde cinco mil. No es norma."
+      - l: "Séptima: los sistemas. Flujo continuo: sencillo, pero consume más y reseca. Cánula sólo hasta dieciocho mil pies. Demanda pulsada: multiplica la autonomía, pero depende de pilas."
+      - n: "Y siempre oxígeno de aviación. El medicinal no cumple sus especificaciones."
+      - l: "Octava: seguridad del equipo. Nada de grasas ni cremas cerca de las conexiones. Riesgo de combustión explosiva. Y antes de cada vuelo, comprueba que la presión de la botella basta."
+      - n: "Novena: hiperventilación y pulsioxímetro. Hiperventilación: reduce el ritmo respiratorio, habla en voz alta, o reinhala con una bolsa. Y ante la duda con la hipoxia, oxígeno primero."
+      - l: "Y con el pulsioxímetro, mantén la saturación por encima del 90 %. Por debajo, oxígeno y descenso. Pero no es un sustituto: ante síntomas, actúa aunque la lectura sea buena."
+      - n: "Si te quedas con tres palabras de este capítulo."
+        e: pensativo
+      - l: "Oxígeno y desciende."
+      - n: "Con esto cerramos el tema dos, factores humanos. Has visto cómo funcionan el cuerpo y la mente del piloto, y cómo protegerlos."
+        e: calido
+      - l: "Y has aprendido que romper un solo eslabón salva el vuelo."
+        e: calido
+      - n: "Gracias por escuchar. Nos vemos en el siguiente tema."
+        e: calido
+      - l: "Hasta pronto."
+        e: calido

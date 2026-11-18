@@ -76,10 +76,37 @@ roles:
   solucion:        { voz: SPL Narradora,   pausa: 450 }
   mas-alla:        { voz: SPL Divulgadora, pausa: 450 }
   creditos:        { voz: SPL Locutor,     pausa: 700 }
+  # Podcast (tools/audio/podcast/): diálogo entre las dos voces. La pausa es
+  # la de un relevo natural entre interlocutores; cada turno puede fijar la suya.
+  podcast-n:       { voz: SPL Narradora,   pausa: 350, enfasis: true }
+  podcast-l:       { voz: SPL Locutor,     pausa: 350, enfasis: true }
   # Sólo pausa, sin texto: el cierre de una caja y el hueco para pensar
   # antes de la solución de un ejercicio.
   fin-caja:        { pausa: 800 }
   pausa-ejercicio: { pausa: 2500 }
+
+# Podcast (tools/audio/podcast/): emociones por turno y etiquetas permitidas.
+# La instrucción va a CosyVoice3 en cada fragmento (`instruct` de /generate),
+# SIEMPRE en español: en inglés el motor pasa a pronunciar a la inglesa. Con
+# instrucción, VoiceStudio clona sin la transcripción de la referencia, así
+# que sólo llevan emoción los turnos que la piden. Medido el 5-6 oct 2026
+# (build/audio/casting/emocion-podcast/): contento, asombro y triste cambian
+# el ritmo de la toma sin perder inteligibilidad.
+emociones:
+  contento:    "Habla muy contento, con una sonrisa en la voz."
+  asombro:     "Habla con mucha sorpresa y entusiasmo."
+  animado:     "Habla con energía y entusiasmo."
+  calido:      "Habla con calidez y cercanía, como charlando con un amigo."
+  pensativo:   "Habla despacio y pensativo, como dándole vueltas a la idea."
+  serio:       "Habla con seriedad y firmeza."
+  preocupado:  "Habla con preocupación, en voz más baja."
+  triste:      "Habla con tristeza."
+# Etiquetas de CosyVoice3 que vale cada voz: con la Narradora (Sharvard F) sólo
+# funciona la risa envolvente; [cough] sale como sílabas y [vocalized-noise]
+# inventa palabras (no se usan). [sigh], [quick_breath] y [lipsmack] no suenan.
+etiquetas:
+  podcast-n: ["<laughter>", "</laughter>"]
+  podcast-l: ["<laughter>", "</laughter>", "[laughter]", "[breath]", "[mn]"]
 
 # Earcons (tools/audio/earcons.py): tono breve delante de un bloque, para
 # señalar un cambio de jerarquía. La clave es el rol, o `caja-<caja>` para el
