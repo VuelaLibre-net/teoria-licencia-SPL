@@ -13,6 +13,10 @@ was translated from (`origen-commit`). Terminology follows `en/terminologia.yml`
 
 ## [In progress]
 
+## [0.8.2] — 18 November 2026
+
+**What to reread:** the **figures of cap01 to cap04** and their captions.
+
 ### Fixed
 
 * **cap01–cap04, figures** — the fifteen figures of the book are replaced with the new Spanish
@@ -21,6 +25,10 @@ was translated from (`origen-commit`). Terminology follows `en/terminologia.yml`
   cheese model, the error chain, IMSAFE, DECIDE, tunnel vision, the Time of Useful Consciousness
   and the pulse oximeter. The Yerkes-Dodson curve and the motion sickness figure keep a label in
   Spanish and carry the mark until it is translated. Ported from the Spanish edition; issue #60.
+
+### Layout and production
+
+* **Acknowledgements** — Luís Ferreira, Encarnación Novillo-Fertrell, Carlos Bravo and Sergi Pujol now carry the ✓ for validating the Spanish edition of this book.
 
 ## [0.8.1] — 2 October 2026
 

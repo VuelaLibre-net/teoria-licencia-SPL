@@ -16,6 +16,20 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.1] — 18 de noviembre de 2026
+
+> **El libro pasa a candidato de versión.** Los instructores revisores han dado su visto bueno al
+> contenido completo. A partir de aquí la revisión técnica está hecha y lo que quede serán retoques
+> hasta la `1.0.0`: correcciones puntuales, maqueta e ilustraciones. Lo que **no** entra ya en un
+> `rc` es materia nueva sin revisar.
+
+**Qué releer:** nada. El texto no cambia respecto a la `0.9.6`.
+
+### Maqueta y producción
+
+* **Reconocimientos** — Pedro Berlinches, Luís Ferreira, Encarnación Novillo-Fertrell, Carlos Bravo y Sergi Pujol aparecen ya con su ✓ de validación técnica en este libro.
+* **Estado editorial** — los candidatos de versión dejan de salir como «En revisión» y pasan a «Candidato de versión» en la marca de agua, la portadilla y el aviso del EPUB. La nota dice que la revisión técnica por los instructores está completada.
+
 ## [0.9.6] — 2 de octubre de 2026
 
 **Qué releer:** la **licencia** de los preliminares y la **Bibliografía**, que corrige la entrada de SERA y añade la lista de normas citadas en la colección.
