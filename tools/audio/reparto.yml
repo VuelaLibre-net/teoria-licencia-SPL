@@ -20,17 +20,17 @@ voces:
     consentimiento: investigacion
     atribucion: "Voz basada en el Sharvard Corpus, de Aubanel, García Lecumberri y Cooke, Universidad de Edimburgo, con licencia Creative Commons Atribución 3.0"
   SPL Locutor:
-    candidata: mls-12367
-    fuente: "Multilingual LibriSpeech (LibriVox), lector 12367"
-    url: http://www.archive.org/download/poesias_1805_librivox/poesias_070_unamuno_64kb.mp3
-    licencia: "CC-BY-4.0 (corpus); grabación LibriVox de dominio público"
-    consentimiento: pd-lectura
+    candidata: davefx
+    fuente: "Home Assistant voice-datasets, es_ES «Dave»"
+    url: https://github.com/OHF-Voice/voice-datasets
+    licencia: "CC0-1.0"
+    consentimiento: donada-tts
   SPL Instructor:
-    candidata: mls-7393
-    fuente: "Multilingual LibriSpeech (LibriVox), lector 7393"
-    url: http://www.archive.org/download/historietas_nacionales_1602_librivox/historietas_nacionales_19_alarcon_64kb.mp3
-    licencia: "CC-BY-4.0 (corpus); grabación LibriVox de dominio público"
-    consentimiento: pd-lectura
+    candidata: davefx
+    fuente: "Home Assistant voice-datasets, es_ES «Dave»"
+    url: https://github.com/OHF-Voice/voice-datasets
+    licencia: "CC0-1.0"
+    consentimiento: donada-tts
   SPL Alerta:
     # Instrucción de estilo de CosyVoice3, siempre EN ESPAÑOL: en inglés el
     # motor pasa a pronunciar a la inglesa («pi o ar»). Con instrucción,
@@ -42,11 +42,12 @@ voces:
     licencia: "CC0-1.0"
     consentimiento: donada-tts
   SPL Divulgadora:
-    candidata: mls-10246
-    fuente: "Multilingual LibriSpeech (LibriVox), lector 10246"
-    url: http://www.archive.org/download/isaias_1603_librivox/isaias_16_reinavalera_64kb.mp3
-    licencia: "CC-BY-4.0 (corpus); grabación LibriVox de dominio público"
-    consentimiento: pd-lectura
+    candidata: sharvard-f
+    fuente: "Sharvard Corpus (Aubanel, García Lecumberri y Cooke, 2014), Edinburgh DataShare"
+    url: https://datashare.ed.ac.uk/handle/10283/574
+    licencia: "CC-BY-3.0"
+    consentimiento: investigacion
+    atribucion: "Voz basada en el Sharvard Corpus, de Aubanel, García Lecumberri y Cooke, Universidad de Edimburgo, con licencia Creative Commons Atribución 3.0"
 
 # Rol (los que marca tools/audio/audio.lua) → voz, velocidad y pausas en ms.
 # `enfasis: true` convierte la negrita del libro en énfasis de CosyVoice3
