@@ -16,6 +16,10 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.15] — 18 de noviembre de 2026
+
+**Qué releer:** las **figuras de cap01 a cap04**, sustituidas o rehechas tras la auditoría, y sus pies.
+
 ### Corregido
 
 * **cap01–cap04, figuras marcadas** — se sustituyen las nueve figuras que llevaban la marca
@@ -38,6 +42,11 @@ rompe la compilación.
   memoria sensorial como en el texto, «atarse» y una sola entrada) y la cianosis (dibujo plano, que
   no puede confundirse con una fotografía). Las fichas de `prompts/` anotan herramienta, fecha y
   prompt de todas las figuras nuevas. Issue #60.
+
+### Maqueta y producción
+
+* **Reconocimientos** — Luís Ferreira, Encarnación Novillo-Fertrell, Carlos Bravo y Sergi Pujol aparecen ya con su ✓ de validación técnica en este libro.
+* **Estado editorial** — los candidatos de versión dejan de salir como «En revisión» y pasan a «Candidato de versión» en la marca de agua, la portadilla y el aviso del EPUB. La nota dice que la revisión técnica por los instructores está completada.
 
 ## [1.0-rc.14] — 2 de octubre de 2026
 

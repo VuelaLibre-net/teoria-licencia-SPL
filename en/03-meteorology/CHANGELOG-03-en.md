@@ -13,6 +13,14 @@ translated from (`origen-commit`). Terminology follows `en/terminologia.yml`.
 
 ## [In progress]
 
+## [0.8.2] — 18 November 2026
+
+**What to reread:** nothing. The content does not change from `0.8.1`: only the acknowledgements.
+
+### Layout and production
+
+* **Acknowledgements** — Luís Ferreira, Encarnación Novillo-Fertrell, Carlos Bravo and Sergi Pujol now carry the ✓ for validating the Spanish edition of this book.
+
 ## [0.8.1] — 2 October 2026
 
 **What to reread:** **cap06, VFR minima in class G**, the glossary entry *CAVOK*, the licence and the bibliography. The rest is wording only.

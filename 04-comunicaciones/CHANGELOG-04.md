@@ -16,6 +16,19 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.17] — 18 de noviembre de 2026
+
+**Qué releer:** la **entradilla del cap01**. Cambia la redacción, no el contenido.
+
+### Cambiado
+
+* **cap01, entradilla** — se parte en dos párrafos. Anuncia lo mismo.
+
+### Maqueta y producción
+
+* **Reconocimientos** — Luís Ferreira, Encarnación Novillo-Fertrell, Carlos Bravo y Sergi Pujol aparecen ya con su ✓ de validación técnica en este libro.
+* **Estado editorial** — los candidatos de versión dejan de salir como «En revisión» y pasan a «Candidato de versión» en la marca de agua, la portadilla y el aviso del EPUB. La nota dice que la revisión técnica por los instructores está completada.
+
 ## [1.0-rc.16] — 2 de octubre de 2026
 
 **Qué releer:** **el epígrafe**, **cap03 y cap06** (falsas emergencias), **cap04, CAVOK**, en el **Glosario** la entrada *CAVOK*, la **licencia** de los preliminares y la **Bibliografía**.

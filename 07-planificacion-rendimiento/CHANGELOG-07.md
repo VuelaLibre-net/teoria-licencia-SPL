@@ -16,6 +16,19 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.5] — 18 de noviembre de 2026
+
+**Qué releer:** **cap04, autonomía del motovelero de turismo**. Cambia la redacción, no la regla.
+
+### Cambiado
+
+* **cap04, autonomía del motovelero de turismo** — se reescribe la frase y «horas de sol» pasa a «horas de luz». La regla no cambia.
+
+### Maqueta y producción
+
+* **Reconocimientos** — Luís Ferreira, Encarnación Novillo-Fertrell, Carlos Bravo y Sergi Pujol aparecen ya con su ✓ de validación técnica en este libro.
+* **Estado editorial** — los candidatos de versión dejan de salir como «En revisión» y pasan a «Candidato de versión» en la marca de agua, la portadilla y el aviso del EPUB. La nota dice que la revisión técnica por los instructores está completada.
+
 ## [1.0-rc.4] — 2 de octubre de 2026
 
 **Qué releer:** la **licencia** de los preliminares y la **Bibliografía**, que corrige la entrada de SERA y añade la lista de normas citadas en la colección.
