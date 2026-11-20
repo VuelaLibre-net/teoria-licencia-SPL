@@ -27,10 +27,13 @@ master_editable: ""
 colores de España. Texto en `cap03-marcas-de-nacionalidad-y-matricula-de-aeronaves.qmd`, «Ubicación
 y dimensiones de las marcas» y «La bandera de España».
 
-**Estado.** Marcada con `.corregir` desde el 1 de octubre de 2026 (COH-06). Se rehace con un
-generador de imágenes. La edición inglesa es hoy una copia de la española.
+**Estado.** Marcada con `.corregir` desde el 1 de octubre de 2026 (COH-06). El 20 de noviembre de
+2026 (issue #58) Ramón da la figura española por buena sin rehacerla y se quitan la clase
+`.corregir` y la nota del pie en las dos ediciones. La edición inglesa pasa a ser esta misma figura
+con los rótulos traducidos (ChatGPT, 20-11-2026). Sigue en `borrador`. Los reparos de la auditoría,
+abajo, quedan como observaciones: si se rehace, el prompt de esta ficha sigue valiendo.
 
-## Qué falla en la figura actual
+## Observaciones de la auditoría
 
 * Las marcas del ala van en la cara superior (extradós); van en el intradós, la cara inferior, del
   ala izquierda o abarcando las dos.

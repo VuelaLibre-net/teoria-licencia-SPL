@@ -5,7 +5,7 @@ tipo: diagrama-conceptual
 estado: borrador
 fecha: "2026-11-20"
 herramienta:
-  nombre: ""
+  nombre: "ChatGPT (chatgpt.com)"
   version: ""
 fuentes:
   - referencia: "Reglamento de Ejecución (UE) 923/2012 (SERA), SERA.5005 f) (recursos/fuentes/ue/reg-923-2012-sera-consol-2025-05-01.pdf)"
@@ -28,10 +28,25 @@ master_editable: ""
 excepción española del vuelo de ladera. Texto en `cap05-reglas-del-aire.qmd`, «Alturas mínimas de
 vuelo» y «Excepciones para el vuelo a vela».
 
-**Estado.** Marcada con `.corregir` desde el 1 de octubre de 2026 (TEC-03, NOR-08). Se rehace con un
-generador de imágenes. La edición inglesa es hoy una copia de la española.
+**Estado.** Sustituida el 20 de noviembre de 2026 (issue #58) por una versión generada con
+ChatGPT, en las dos ediciones; se quitan la clase `.corregir` y la nota del pie. Estuvo marcada
+desde el 1 de octubre de 2026 (TEC-03, NOR-08). Sigue en `borrador`: falta la revisión técnica de la
+figura nueva.
 
-## Qué falla en la figura actual
+## Procedencia
+
+Generada con ChatGPT (chatgpt.com) el 20-11-2026 con el prompt de esta ficha, sin retoques posteriores.
+La edición inglesa es la española aceptada, editada en la misma herramienta para sustituir
+sólo los rótulos por los de «Edición inglesa». La figura anterior no tenía la procedencia
+documentada.
+
+**Diferencias con el encargo.** La figura aceptada no lleva el rótulo «Sotavento: el aire baja» ni
+las flechas que bajan tras la cresta, y no dibuja el planeador sobre la población: la cota del
+radio de 600 m no parte de él. Las dos correcciones de la auditoría (planeador a barlovento y
+300 m desde el obstáculo más alto) sí están. Si en la revisión técnica se echa de menos el
+sotavento, se pide en la misma conversación.
+
+## Qué fallaba en la figura anterior
 
 * El planeador de ladera está a sotavento, donde el aire baja. Debe estar a barlovento, donde el
   viento choca con la ladera y sube.
@@ -39,7 +54,7 @@ generador de imágenes. La edición inglesa es hoy una copia de la española.
   en un radio de 600 m.
 * En campo abierto falta «o sobre el obstáculo más alto en un radio de 150 m».
 
-## Prompt para rehacerla
+## Prompt
 
 Si el generador no coloca las cotas donde se piden, se dibuja por código: es un perfil con tres
 cotas.

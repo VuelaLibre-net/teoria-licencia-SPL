@@ -29,7 +29,7 @@ To keep traffic in order, everyone flies the same imaginary rectangle around the
 2. **Base leg**: you turn 90° towards the runway and make the last adjustment to height and speed. Usual reference for starting it: about 150 m (an instructional guideline, not a legal minimum; see Book 6, chapter 4).
 3. **Final**: lined up with the runway, airbrakes out.
 
-![Standard circuit (left-hand turns). *(FIX: the drawing shows a twin-engined aeroplane instead of a glider, and introduces the IP and the “joining leg”, which the text does not explain.)*](imagenes/01-cap10-circuito-transito.jpg){#fig-01-cap10-circuito-transito .corregir}
+![Standard circuit (left-hand turns).](imagenes/01-cap10-circuito-transito.jpg){#fig-01-cap10-circuito-transito}
 
 ## The signals area
 

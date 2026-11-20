@@ -5,7 +5,7 @@ tipo: diagrama-conceptual
 estado: borrador
 fecha: "2026-11-20"
 herramienta:
-  nombre: ""
+  nombre: "ChatGPT (chatgpt.com)"
   version: ""
 fuentes:
   - referencia: "Texto del cap10 y Libro 6, capítulo 4 (criterios de instrucción del circuito)"
@@ -27,16 +27,25 @@ incorporación a 45° al de viento en cola. Texto en
 `cap10-aerodromos-y-campos-de-despegue-externos.qmd`, «El circuito de tránsito (Traffic Pattern)» y
 «Fases clave para el planeador».
 
-**Estado.** Marcada con `.corregir` desde el 1 de octubre de 2026 (PED-12). Se rehace con un
-generador de imágenes. La edición inglesa es hoy una copia de la española.
+**Estado.** Sustituida el 20 de noviembre de 2026 (issue #58) por una versión generada con
+ChatGPT, en las dos ediciones; se quitan la clase `.corregir` y la nota del pie. Estuvo marcada
+desde el 1 de octubre de 2026 (PED-12). Sigue en `borrador`: falta la revisión técnica de la
+figura nueva.
 
-## Qué falla en la figura actual
+## Procedencia
+
+Generada con ChatGPT (chatgpt.com) el 20-11-2026 con el prompt de esta ficha, sin retoques posteriores.
+La edición inglesa es la española aceptada, editada en la misma herramienta para sustituir
+sólo los rótulos por los de «Edición inglesa». La figura anterior no tenía la procedencia
+documentada.
+
+## Qué fallaba en la figura anterior
 
 * Dibuja un bimotor, no un planeador.
 * Introduce el punto inicial (IP) y el «tramo de entrada», que el texto no explica.
 * Repite el circuito en planta y en perspectiva, con montañas de fondo; basta la planta.
 
-## Prompt para rehacerla
+## Prompt
 
 ```text
 Genera una ilustración didáctica para un manual teórico de piloto de planeador SPL.

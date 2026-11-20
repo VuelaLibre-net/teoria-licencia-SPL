@@ -5,7 +5,7 @@ tipo: diagrama-conceptual
 estado: borrador
 fecha: "2026-11-20"
 herramienta:
-  nombre: ""
+  nombre: "ChatGPT (chatgpt.com)"
   version: ""
 fuentes:
   - referencia: "Reglamento (CE) 300/2008, arts. 1 y 3 (recursos/fuentes/ue/reg-300-2008-security-consol-2026-08-02.pdf)"
@@ -26,16 +26,25 @@ master_editable: ""
 intencionados) y *security* (seguridad de la aviación: protegerse de actos ilícitos). Texto en
 `cap12-seguridad.qmd`, «Safety vs security: ¿no es lo mismo?».
 
-**Estado.** Marcada con `.corregir` desde el 1 de octubre de 2026 (PED-14). Se rehace con un
-generador de imágenes. La edición inglesa es hoy una copia de la española.
+**Estado.** Sustituida el 20 de noviembre de 2026 (issue #58) por una versión generada con
+ChatGPT, en las dos ediciones; se quitan la clase `.corregir` y la nota del pie. Estuvo marcada
+desde el 1 de octubre de 2026 (PED-14). Sigue en `borrador`: falta la revisión técnica de la
+figura nueva.
 
-## Qué falla en la figura actual
+## Procedencia
+
+Generada con ChatGPT (chatgpt.com) el 20-11-2026 con el prompt de esta ficha, sin retoques posteriores.
+La edición inglesa es la española aceptada, editada en la misma herramienta para sustituir
+sólo los rótulos por los de «Edición inglesa». La figura anterior no tenía la procedencia
+documentada.
+
+## Qué fallaba en la figura anterior
 
 * Ilustra la *safety* como seguridad laboral: casco de obra, grúa, guantes, «Salud ocupacional».
   En aviación es la prevención de accidentes en vuelo y en tierra.
 * La *security* lleva ciberseguridad y un coche con «POLICE», ajenos al capítulo.
 
-## Prompt para rehacerla
+## Prompt
 
 ```text
 Genera una ilustración didáctica para un manual teórico de piloto de planeador SPL.

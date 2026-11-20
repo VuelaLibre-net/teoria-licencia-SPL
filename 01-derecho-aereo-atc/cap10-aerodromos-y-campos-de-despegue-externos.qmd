@@ -24,7 +24,7 @@ Para ordenar el tráfico, todos volamos un rectángulo imaginario alrededor de l
 2. **Tramo base**: viras 90º hacia la pista y haces el último ajuste de altura y velocidad. Referencia habitual para iniciarlo: unos 150 m (es un criterio de instrucción, no un mínimo legal; ver el Libro 6, capítulo 4).
 3. **Final**: enfilado a pista, con frenos fuera.
 
-![Circuito de tránsito estándar (virajes a la izquierda). *(CORREGIR: el dibujo usa un bimotor en lugar de un planeador e introduce el IP y el «tramo de entrada», que el texto no explica.)*](imagenes/01-cap10-circuito-transito.jpg){#fig-01-cap10-circuito-transito .corregir}
+![Circuito de tránsito estándar (virajes a la izquierda).](imagenes/01-cap10-circuito-transito.jpg){#fig-01-cap10-circuito-transito}
 
 ## El área de señales
 

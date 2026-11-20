@@ -38,6 +38,18 @@ was translated from (`origen-commit`). Terminology follows `en/terminologia.yml`
   and a new caption). All are now PNG; the windsock and the signals already were. The English text
   of EASA Form 25 is still to be checked against EUR-Lex. Issue #58.
 * **cap10** — in the signals table, 3 knots are 5.6 km/h, not 5.5.
+* **cap01–cap12, six illustrations** — redrawn with an image generator (ChatGPT), now with English
+  labels, and stripped of the mark and the note: the freedoms of the air (the aircraft's country is
+  always the “home country”, also in the fifth freedom, whose leg between B and C is highlighted);
+  right of way (labelled panels and clear headings, with the glider that gives way in amber);
+  minimum heights (the 300 m are measured from the highest obstacle and the ridge-soaring glider
+  flies on the windward side); ATC units (the ACC away from the airport and the tower with the
+  circuit); the traffic circuit (a glider, with no IP or “joining leg”); and safety versus security
+  (no workplace safety or cybersecurity). In cap05, the reference to the right-of-way figure moves
+  from the landing case, which it does not show, to the sentence that opens “Conflict situations”.
+  Issue #58.
+* **cap03, location of registration marks** — the drawing is kept, now with English labels, and
+  loses the mark and the note in the caption. Issue #58.
 
 ### Layout and production
 

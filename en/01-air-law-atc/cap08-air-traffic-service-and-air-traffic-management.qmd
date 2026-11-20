@@ -36,7 +36,7 @@ It is organised into three units, one for each phase of flight (@fig-01-cap08-de
 
 In Spain, the ACC also provides the en-route flight information service (in the Canary Islands, outside controlled airspace, the flight information centre, FIC, does it). And some uncontrolled aerodromes have an **AFIS** (aerodrome flight information service), with its flight information zone (**FIZ**): it gives you information and alerting, but it neither clears you nor separates you (AIP España, GEN 3.3).
 
-![Structure of ATC units. *(FIX: the ACC is not at an airport, as the drawing suggests, and the tower also controls the circuit, not just the ground.)*](imagenes/01-cap08-dependencias-atc.jpg){#fig-01-cap08-dependencias-atc .corregir}
+![Structure of ATC units.](imagenes/01-cap08-dependencias-atc.jpg){#fig-01-cap08-dependencias-atc}
 
 ## 2. Flight information service (FIS)
 

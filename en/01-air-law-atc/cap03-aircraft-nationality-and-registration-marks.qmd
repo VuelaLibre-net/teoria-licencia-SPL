@@ -36,7 +36,7 @@ Under Spanish rules (Orden FOM/1687/2015, a ministerial order that follows ICAO 
 
 If the glider is too slender for marks of this size, the authority may accept smaller ones, as long as they remain legible (@fig-01-cap03-matricula-ubicacion).
 
-![Location of registration marks on a glider. *(FIX: on the wing, the marks go on the lower surface, not the upper one; the nationality mark is EC, not the flag; and the competition marking is not the club's or operator's letters.)*](imagenes/01-cap03-ubicacion-matricula.jpg){#fig-01-cap03-matricula-ubicacion .corregir}
+![Location of registration marks on a glider.](imagenes/01-cap03-ubicacion-matricula.jpg){#fig-01-cap03-matricula-ubicacion}
 
 ## The identification plate (fireproof plate)
 

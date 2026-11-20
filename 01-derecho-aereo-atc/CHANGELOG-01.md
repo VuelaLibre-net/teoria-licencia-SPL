@@ -39,6 +39,17 @@ rompe la compilación.
   faltaban); y la pirámide de sucesos (categorías del Reglamento 996/2010 y Heinrich como nota,
   con pie nuevo). Todas salen en PNG, salvo la manga y las señales, que ya lo eran. Issue #58.
 * **cap10** — en la tabla de señales, 3 nudos son 5,6 km/h, no 5,5.
+* **cap01–cap12, seis figuras ilustradas** — se rehacen con un generador de imágenes (ChatGPT) y
+  pierden la marca y la nota: las libertades del aire (el país de la aeronave es siempre el «país
+  de origen», también en la quinta, cuyo tramo entre B y C se destaca); las prioridades de paso
+  (viñetas rotuladas y rumbos claros, con quien cede en ámbar); las alturas mínimas (los 300 m se
+  miden desde el obstáculo más alto y el planeador de ladera vuela a barlovento); las dependencias
+  ATC (el ACC fuera del aeropuerto y la torre con el circuito); el circuito de tránsito (un
+  planeador, sin IP ni «tramo de entrada»); y *safety* frente a *security* (sin seguridad laboral
+  ni ciberseguridad). En cap05, la remisión a la figura de prioridades pasa del caso del aterrizaje,
+  que no dibuja, a la frase que abre «Situaciones de conflicto». Issue #58.
+* **cap03, ubicación de la matrícula** — se conserva la figura y se quitan la marca y la nota del
+  pie. Issue #58.
 
 ### Maqueta y producción
 

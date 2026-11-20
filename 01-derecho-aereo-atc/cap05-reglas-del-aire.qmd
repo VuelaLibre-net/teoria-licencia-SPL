@@ -44,6 +44,10 @@ Ojo: esta jerarquía sólo decide en convergencia. De frente y en alcance no cue
 
 ### 2. Situaciones de conflicto
 
+Cuando dos aeronaves van en rumbo de colisión, quién cede el paso y cómo lo hace depende de la forma en que se encuentran (@fig-01-cap05-prioridades).
+
+![Reglas de prioridad de paso: tres encuentros entre planeadores con su maniobra de separación.](imagenes/01-cap05-prioridades-paso.jpg){#fig-01-cap05-prioridades}
+
 * **De frente** (**head-on**): ambos viran a su **derecha**.
 
 * **Convergencia**: en rutas que se cruzan al mismo nivel, tiene prioridad quien viene por la **derecha**. Ojo: si tú vienes por la derecha pero vuelas a motor y el otro es un planeador, el planeador manda por jerarquía.
@@ -52,9 +56,8 @@ Ojo: esta jerarquía sólo decide en convergencia. De frente y en alcance no cue
 
 ![Preferencia de paso en vuelo de ladera](imagenes/01-cap05-preferencias-paso-ladera.jpeg){#fig-01-cap05-prioridades-ladera}
 
-* **Aterrizaje**: el velero más bajo tiene prioridad para aterrizar (pero no vale picar para colarse). Además, según SERA.3210, los planeadores en final y aterrizaje siempre tienen preferencia sobre las aeronaves de motor (@fig-01-cap05-prioridades).
+* **Aterrizaje**: el velero más bajo tiene prioridad para aterrizar (pero no vale picar para colarse). Además, según SERA.3210, los planeadores en final y aterrizaje siempre tienen preferencia sobre las aeronaves de motor.
 
-![Reglas de prioridad de paso: tres encuentros entre planeadores con su maniobra de separación. *(CORREGIR: las viñetas no llevan rótulo y las flechas no dejan claro el rumbo de cada planeador; la regla de cada situación está en el texto.)*](imagenes/01-cap05-prioridades-paso.jpg){#fig-01-cap05-prioridades .corregir}
 
 ## Alturas mínimas de vuelo
 
@@ -70,7 +73,7 @@ SERA.5005 f) admite excepciones «con permiso de la autoridad competente», y su
 * **Vuelo de ladera**: los planeadores que efectúan vuelos en laderas quedan exceptuados, siempre que no entrañen ningún riesgo ni molestias a las personas o bienes en la superficie.
 * **Entrenamiento de aterrizajes forzosos**: se puede bajar hasta **50 m** (la norma dice «50 m (150 ft)», aunque 50 m son unos 164 ft), siempre que no haya riesgo ni molestias para las personas o bienes en la superficie, manteniendo 150 m respecto de cualquier persona, vehículo o embarcación que se encuentre en la superficie y de todo obstáculo artificial, y cumpliendo las condiciones del estudio de seguridad del operador: el de tu escuela o club.
 
-![Alturas mínimas de seguridad. *(CORREGIR: en la viñeta del vuelo de ladera, el planeador debe estar a barlovento, donde el aire sube, y no a sotavento; y los 300 m sobre la ciudad se miden desde el obstáculo más alto, no desde una azotea baja.)*](imagenes/01-cap05-alturas-minimas.jpg){#fig-01-cap05-alturas-minimas .corregir}
+![Alturas mínimas de seguridad.](imagenes/01-cap05-alturas-minimas.jpg){#fig-01-cap05-alturas-minimas}
 
 ::: {.callout-tip title="Regla de oro"}
 **En convergencia: globo > planeador > dirigible > motor.**

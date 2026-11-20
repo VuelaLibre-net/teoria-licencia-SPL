@@ -31,7 +31,7 @@ Se organiza en tres dependencias según la fase de vuelo (@fig-01-cap08-dependen
 
 En España, el ACC presta además el servicio de información de vuelo en ruta (en Canarias, fuera del espacio controlado, lo hace el centro de información de vuelo, FIC). Y en algunos aeródromos no controlados hay un **AFIS** (servicio de información de vuelo de aeródromo), con su zona de información de vuelo (**FIZ**): te da información y alerta, pero ni te autoriza ni te separa (AIP España, GEN 3.3).
 
-![Estructura de dependencias ATC. *(CORREGIR: el ACC no está en un aeropuerto, como sugiere el dibujo, y la torre controla también el circuito, no sólo el suelo.)*](imagenes/01-cap08-dependencias-atc.jpg){#fig-01-cap08-dependencias-atc .corregir}
+![Estructura de dependencias ATC.](imagenes/01-cap08-dependencias-atc.jpg){#fig-01-cap08-dependencias-atc}
 
 ## 2. Servicio de información de vuelo (FIS)
 

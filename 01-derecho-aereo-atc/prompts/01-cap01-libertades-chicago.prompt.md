@@ -5,7 +5,7 @@ tipo: diagrama-conceptual
 estado: borrador
 fecha: "2026-11-20"
 herramienta:
-  nombre: ""
+  nombre: "ChatGPT (chatgpt.com)"
   version: ""
 fuentes:
   - referencia: "OACI, Doc 7300/9, Convenio sobre Aviación Civil Internacional, y acuerdos anejos de tránsito y de transporte (recursos/fuentes/oaci/oaci-doc-7300-9-convenio-chicago.pdf)"
@@ -26,11 +26,19 @@ master_editable: ""
 Chicago. Texto en `cap01-derecho-internacional-convenios-acuerdos-y-organizaciones.qmd`, «El origen
 de las normas: Convenio de Chicago y OACI».
 
-**Estado.** Marcada con `.corregir` desde el 1 de octubre de 2026 (PED-04). Se rehace con un
-generador de imágenes, a partir de la figura actual. La edición inglesa es hoy una copia de la
-española.
+**Estado.** Sustituida el 20 de noviembre de 2026 (issue #58) por una versión generada con
+ChatGPT, en las dos ediciones; se quitan la clase `.corregir` y la nota del pie. Estuvo marcada
+desde el 1 de octubre de 2026 (PED-04). Sigue en `borrador`: falta la revisión técnica de la
+figura nueva.
 
-## Qué falla en la figura actual
+## Procedencia
+
+Generada con ChatGPT (chatgpt.com) el 20-11-2026 con el prompt de esta ficha y la figura anterior adjunta, sin retoques posteriores.
+La edición inglesa es la española aceptada, editada en la misma herramienta para sustituir
+sólo los rótulos por los de «Edición inglesa». La figura anterior no tenía la procedencia
+documentada.
+
+## Qué fallaba en la figura anterior
 
 * En la quinta libertad, el país azul (el de la aeronave, como en las otras cuatro) se rotula «país
   extranjero A». Debe ser «país de origen».
@@ -39,7 +47,7 @@ española.
 * El título dice «5 libertades… Convenio de Chicago»; el texto explica que hoy se reconocen nueve y
   que Chicago definió las cinco primeras.
 
-## Prompt para rehacerla
+## Prompt
 
 Se adjunta la figura actual y se pide conservar la composición: cinco bandas numeradas, una por
 libertad.

@@ -132,24 +132,24 @@ La lista de tareas para rehacerlas, con su versión inglesa, está en el issue [
 
 | Capítulo | Figura | Hallazgo | Sustituida en |
 | --- | --- | --- | --- |
-| cap01 | `01-cap01-libertades-chicago` | PED-04 | |
+| cap01 | `01-cap01-libertades-chicago` | PED-04 | issue #58, 20 nov 2026 (ChatGPT) |
 | cap01 | `01-cap01-estructura-normativa-easa` | PED-04 | issue #58, 20 nov 2026 (por código, PNG) |
 | cap02 | `01-cap02-certificado-aeronavegabilidad` | COH-07 | issue #58, 20 nov 2026 (por código, PNG) |
 | cap02 | `01-cap02-ciclo-arc` | COH-04 | issue #58, 20 nov 2026 (por código, PNG) |
-| cap03 | `01-cap03-ubicacion-matricula` | COH-06 | |
+| cap03 | `01-cap03-ubicacion-matricula` | COH-06 | issue #58, 20 nov 2026 (se conserva; sólo se traduce la inglesa) |
 | cap04 | `01-cap04-validez-medical` | PED-07 | issue #58, 20 nov 2026 (por código, PNG) |
 | cap04 | `01-cap04-recencia-requisitos` | SYL-01 | issue #58, 20 nov 2026 (por código, PNG) |
-| cap05 | `01-cap05-prioridades-paso` | COH-08 | |
-| cap05 | `01-cap05-alturas-minimas` | TEC-03, NOR-08 | |
+| cap05 | `01-cap05-prioridades-paso` | COH-08 | issue #58, 20 nov 2026 (ChatGPT) |
+| cap05 | `01-cap05-alturas-minimas` | TEC-03, NOR-08 | issue #58, 20 nov 2026 (ChatGPT) |
 | cap06 | `01-cap06-minimos-vmc` | TEC-04 | issue #58, 20 nov 2026 (por código, PNG) |
 | cap06 | `01-cap06-regla-semicircular` | COH-01 | issue #58, 20 nov 2026 (por código, PNG) |
-| cap08 | `01-cap08-dependencias-atc` | PED-10 | |
+| cap08 | `01-cap08-dependencias-atc` | PED-10 | issue #58, 20 nov 2026 (ChatGPT) |
 | cap08 | `01-cap08-fases-emergencia` | NOR-12, PED-10 | issue #58, 20 nov 2026 (por código, PNG) |
 | cap09 | `01-cap09-ejemplo-notam` | PED-11 | issue #58, 20 nov 2026 (por código, PNG) |
-| cap10 | `01-cap10-circuito-transito` | PED-12 | |
+| cap10 | `01-cap10-circuito-transito` | PED-12 | issue #58, 20 nov 2026 (ChatGPT) |
 | cap10 | `01-cap10-manga-viento` | TEC-14 | issue #58, 20 nov 2026 (por código, PNG) |
 | cap10 | `01-cap10-senales-aerodromo` | TEC-06 | issue #58, 20 nov 2026 (por código, PNG) |
-| cap12 | `01-cap12-safety-security` | PED-14 | |
+| cap12 | `01-cap12-safety-security` | PED-14 | issue #58, 20 nov 2026 (ChatGPT) |
 | cap13 | `01-cap13-piramide-sucesos` | TEC-15 | issue #58, 20 nov 2026 (por código, PNG) |
 | cap13 | `01-cap13-flujo-notificacion` | NOR-05 | issue #58, 20 nov 2026 (por código, PNG) |
 | cap14 | `01-cap14-escala-infracciones` | NOR-06 | issue #58, 20 nov 2026 (por código, PNG) |

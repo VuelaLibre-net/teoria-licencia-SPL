@@ -5,7 +5,7 @@ tipo: diagrama-conceptual
 estado: borrador
 fecha: "2026-11-20"
 herramienta:
-  nombre: ""
+  nombre: "ChatGPT (chatgpt.com)"
   version: ""
 fuentes:
   - referencia: "AIP España, GEN 3.3 (recursos/fuentes/aip/aip-espana-GEN_3_3_es.pdf)"
@@ -25,18 +25,26 @@ master_editable: ""
 **Qué enseña.** Las tres dependencias del servicio de control y la fase de vuelo de cada una. Texto
 en `cap08-servicio-de-transito-aereo.qmd`, «1. Servicio de control (ATC)».
 
-**Estado.** Marcada con `.corregir` desde el 1 de octubre de 2026 (PED-10). Se rehace con un
-generador de imágenes, a partir de la figura actual. La edición inglesa es hoy una copia de la
-española.
+**Estado.** Sustituida el 20 de noviembre de 2026 (issue #58) por una versión generada con
+ChatGPT, en las dos ediciones; se quitan la clase `.corregir` y la nota del pie. Estuvo marcada
+desde el 1 de octubre de 2026 (PED-10). Sigue en `borrador`: falta la revisión técnica de la
+figura nueva.
 
-## Qué falla en la figura actual
+## Procedencia
+
+Generada con ChatGPT (chatgpt.com) el 20-11-2026 con el prompt de esta ficha y la figura anterior adjunta, sin retoques posteriores.
+La edición inglesa es la española aceptada, editada en la misma herramienta para sustituir
+sólo los rótulos por los de «Edición inglesa». La figura anterior no tenía la procedencia
+documentada.
+
+## Qué fallaba en la figura anterior
 
 * Dibuja el ACC como una terminal de aeropuerto con torre. Es un centro de control, en un edificio
   propio, lejos de los aeropuertos.
 * Rotula la torre «TWR - Suelo» y «gestión de pista y rodaje». La torre controla el aeródromo y el
   circuito: despegues, aterrizajes, rodaje y el tránsito del circuito.
 
-## Prompt para rehacerla
+## Prompt
 
 ```text
 Genera una ilustración didáctica para un manual teórico de piloto de planeador SPL, a partir de la imagen adjunta.

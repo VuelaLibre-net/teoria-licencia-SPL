@@ -26,7 +26,7 @@ ICAO sets the minimum standards its 193 member States must meet. It is not a “
 
 To make international air transport possible, the Chicago Convention laid the foundations of the **freedoms of the air** (see @fig-01-cap01-chicago-freedoms): agreements that allow the aircraft of one State to enter or overfly the airspace of another. The Chicago conference defined the first five in agreements annexed to the Convention (overflight, technical stops and the basic commercial rights), but air law has kept evolving and nine are recognised today.
 
-![The freedoms of the air under the Chicago Convention. *(FIX: in the fifth freedom, the country in blue is, as in all the others, the aircraft's home country, even though the drawing labels it “foreign country A”.)*](imagenes/01-cap01-libertades-chicago.jpg){#fig-01-cap01-chicago-freedoms .corregir}
+![The freedoms of the air under the Chicago Convention.](imagenes/01-cap01-libertades-chicago.jpg){#fig-01-cap01-chicago-freedoms}
 
 ## The authority in Europe: EASA and the common system
 

@@ -5,7 +5,7 @@ tipo: diagrama-conceptual
 estado: borrador
 fecha: "2026-11-20"
 herramienta:
-  nombre: ""
+  nombre: "ChatGPT (chatgpt.com)"
   version: ""
 fuentes:
   - referencia: "Reglamento de Ejecución (UE) 923/2012 (SERA), SERA.3210 (recursos/fuentes/ue/reg-923-2012-sera-consol-2025-05-01.pdf)"
@@ -25,17 +25,26 @@ master_editable: ""
 **Qué enseña.** Quién cede el paso y cómo, en los tres encuentros entre planeadores: de frente,
 convergencia y alcance. Texto en `cap05-reglas-del-aire.qmd`, «2. Situaciones de conflicto».
 
-**Estado.** Marcada con `.corregir` desde el 1 de octubre de 2026 (COH-08). Se rehace con un
-generador de imágenes. La edición inglesa es hoy una copia de la española.
+**Estado.** Sustituida el 20 de noviembre de 2026 (issue #58) por una versión generada con
+ChatGPT, en las dos ediciones; se quitan la clase `.corregir` y la nota del pie. Estuvo marcada
+desde el 1 de octubre de 2026 (COH-08). Sigue en `borrador`: falta la revisión técnica de la
+figura nueva.
 
-## Qué falla en la figura actual
+## Procedencia
+
+Generada con ChatGPT (chatgpt.com) el 20-11-2026 con el prompt de esta ficha, sin retoques posteriores.
+La edición inglesa es la española aceptada, editada en la misma herramienta para sustituir
+sólo los rótulos por los de «Edición inglesa». La figura anterior no tenía la procedencia
+documentada.
+
+## Qué fallaba en la figura anterior
 
 * Las tres viñetas no llevan rótulo: no se sabe qué situación es cada una.
 * Las flechas no dejan claro el rumbo de cada planeador; en una, el planeador apunta en un sentido y
   la flecha va en otro.
 * El fondo de campos y ríos resta legibilidad y va contra la guía.
 
-## Prompt para rehacerla
+## Prompt
 
 Si el generador no respeta los rumbos, se dibuja por código como las demás: es una vista en planta
 con tres pares de siluetas y flechas.
@@ -67,11 +76,12 @@ etiquetas se lean a 9 pt al imprimirse.
 
 ## Al sustituirla
 
-La remisión `@fig-01-cap05-prioridades` está en la viñeta «Aterrizaje», una regla que la figura no
-muestra. Se mueve a la frase que abre «2. Situaciones de conflicto», en las dos ediciones.
+La remisión `@fig-01-cap05-prioridades` estaba en la viñeta «Aterrizaje», una regla que la figura
+no muestra. Ahora va en la frase que abre «2. Situaciones de conflicto», en las dos ediciones, y la
+figura sigue a esa frase, antes de la lista.
 
 ## Edición inglesa
 
 «Head-on: both turn right», «Converging: the one that has the other on its right gives way»,
-«Overtaking: the overtaking aircraft keeps clear», «Green: has right of way, maintains heading and
-speed», «Amber: gives way». Cotejar con la traducción del cap05.
+«Overtaking: the overtaking glider keeps clear», «Green: has right of way, maintains heading and
+speed», «Amber: gives way».
