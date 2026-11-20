@@ -16,6 +16,17 @@ rompe la compilación.
 
 ## [En curso]
 
+### Corregido
+
+* **cap06, cap13 y cap14, figuras prioritarias** — se rehacen las tres figuras que llegaron a
+  retirarse tras la auditoría y se quitan la marca «EN REVISIÓN» y la nota del pie. La regla
+  semicircular reparte los niveles Norte-Sur, como en España (pares + 500 ft de 270° a 089°,
+  impares + 500 ft de 090° a 269°), no Este-Oeste. El proceso de notificación añade los sucesos
+  de la lista del Reglamento 2015/1018 a los obligatorios y dice a quién se notifica cada uno y en
+  qué plazo. La escala de infracciones gradúa la misma conducta por lo que provoca (art. 44 de la
+  LSA), con las multas a un particular y las sanciones sobre la licencia. Ahora se dibujan por
+  código (`tools/figuras/01_derecho_aereo.py`) y pasan de JPEG a PNG. Issue #58.
+
 ### Maqueta y producción
 
 * **Índice alfabético del PDF** — cada entrada usa el rótulo del glosario, no su equivalente inglés ni la clave de búsqueda más larga. Las siglas aparecen por la sigla y por su desarrollo («CTR» y «Zona de control»). El cambio está en el filtro común `glosario-enlaces.lua` y afecta a los nueve libros (#46). La palabra «visibilidad» deja de enlazar con la entrada CAVOK del glosario.

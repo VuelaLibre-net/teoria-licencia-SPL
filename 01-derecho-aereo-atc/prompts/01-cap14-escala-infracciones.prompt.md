@@ -1,12 +1,12 @@
 ---
 schema: 1
-figura: 01-cap14-escala-infracciones.jpg
+figura: 01-cap14-escala-infracciones.png
 tipo: diagrama-conceptual
 estado: borrador
 fecha: "2026-11-20"
 herramienta:
-  nombre: ""
-  version: ""
+  nombre: "matplotlib"
+  version: "3.10.9"
 fuentes:
   - referencia: "Ley 21/2003, de Seguridad Aérea, arts. 44, 50, 55.1 y 56 (recursos/fuentes/espana/ley-21-2003-seguridad-aerea.pdf)"
     licencia: "texto normativo"
@@ -17,7 +17,7 @@ restricciones:
 revision:
   persona: ""
   fecha: ""
-master_editable: ""
+master_editable: "tools/figuras/01_derecho_aereo.py"
 ---
 
 # 01-cap14-escala-infracciones
@@ -26,53 +26,54 @@ master_editable: ""
 según lo que provoca, y cuánto puede costar. Texto en `cap14-derecho-nacional.qmd`, «Infracciones y
 sanciones».
 
-**Estado.** Marcada con `.corregir` desde el 1 de octubre de 2026 (NOR-06). Es una de las tres
-**prioritarias** del issue #58: estuvo retirada. Se rehace por código. La edición inglesa es hoy
-una copia de la española.
+**Estado.** Sustituida el 20 de noviembre de 2026 (issue #58) por una versión dibujada por código,
+en las dos ediciones; se quitan la clase `.corregir` y la nota del pie, y la figura pasa de `.jpg`
+a `.png`. Estuvo marcada desde el 1 de octubre de 2026 (NOR-06) y es una de las tres prioritarias:
+llegó a retirarse. Sigue en `borrador`: falta la revisión técnica de la figura nueva.
 
-## Qué falla en la figura actual
+## Procedencia
+
+Dibujada con matplotlib 3.10.9 por `escala_infracciones()`, en
+`tools/figuras/01_derecho_aereo.py`. Se regenera con:
+
+```bash
+python3 tools/figuras/01_derecho_aereo.py [--lang en] 01-cap14-escala-infracciones
+```
+
+La figura anterior no tenía la procedencia documentada.
+
+## Qué fallaba en la figura anterior
 
 * Clasifica por tipo de conducta, con listas inventadas («uso inadecuado de radiofrecuencias»,
   «operación con peso o balance fuera de límites»…). La LSA las gradúa por sus consecuencias (art.
   44).
-* Contradice el texto: pone la licencia o el médico caducados como leve y el vuelo sin licencia o sin
-  CofA como muy grave. Sin consecuencias, todo eso es leve.
+* Contradice el texto: pone la licencia o el médico caducados como leve y el vuelo sin licencia o
+  sin CofA como muy grave. Sin consecuencias, todo eso es leve.
 * Las cuantías sólo dan el máximo («Hasta 45.000 €»); faltan los tramos y las sanciones sobre la
   licencia (art. 56).
 * El semáforo y las esposas sugieren un catálogo penal; lo penal es otra cosa (Ley 209/1964).
 
-## Cómo rehacerla: por código
+## Cómo está hecha
 
-En `tools/figuras/01_derecho_aereo.py`, con los rótulos en `t(es, en)`.
+Arriba, la conducta de partida: «Incumples una obligación de seguridad», con la lista de
+obligaciones del texto. De ella bajan tres flechas a tres escalones que suben con la gravedad:
+LEVE, GRAVE y MUY GRAVE, en un solo tono navy que se oscurece, con el nombre escrito. Debajo, tres
+filas:
 
-**Composición.** Tres escalones de izquierda a derecha, de menor a mayor, con la misma conducta de
-partida a la izquierda: «Incumples una obligación de seguridad (título, aptitud física,
-aeronavegabilidad, reglas operacionales, documentación, seguro)». Una flecha por escalón dice qué
-la hace subir:
-
-| Escalón | Qué provoca (art. 44) | Multa a un particular (art. 55.1) | Además (art. 56) |
+| Fila | Leve | Grave | Muy grave |
 | --- | --- | --- | --- |
-| Leve | nada más | apercibimiento o 60–45.000 € | — |
-| Grave | incidente grave, lesiones graves o daños de 5.000–15.000 € | 45.001–90.000 € | suspensión de la licencia hasta 5 años |
-| Muy grave | accidente, muerte o daños de más de 15.000 € | 90.001–225.000 € | revocación de la licencia |
+| Si provoca… (art. 44) | nada más | un incidente grave, lesiones graves o daños de 5.000 a 15.000 € | un accidente, la muerte de una persona o daños de más de 15.000 € |
+| Multa a un particular (art. 55.1) | apercibimiento o de 60 a 45.000 € | de 45.001 a 90.000 € | de 90.001 a 225.000 € |
+| Además, sobre tu licencia (art. 56) | — | puede suspenderse hasta 5 años | puede revocarse |
 
-Debajo, una caja aparte: «Tipificadas aparte (art. 50): no notificar un suceso, leve; no comunicar
-un incidente grave a la autoridad de investigación, grave; no comunicarle un accidente u
-obstaculizar la investigación, muy grave».
+Al pie, las conductas tipificadas aparte (art. 50). PNG, insertado con `width="100%"`.
 
-Los escalones en un solo tono que se oscurece (navy), con el nombre del nivel escrito: nada de
-verde, ámbar y rojo de semáforo.
-
-**Datos verificados.** Los del texto corregido (NOR-06, revisado contra la Ley 21/2003). Cotejar
-las cifras con la ley archivada antes de dibujar.
-
-**Formato.** PNG y `width="100%"`. Al sustituirla, la ruta del `.qmd` pasa de `.jpg` a `.png` en
-las dos ediciones y el `.jpg` se borra.
+**Datos.** Cotejados el 20 de noviembre de 2026 con la Ley 21/2003 archivada: art. 44.1-3, art.
+55.1 y art. 56.1, que dice «podrá imponerse», de ahí el «puede».
 
 ## Edición inglesa
 
-«Minor», «Serious», «Very serious» (los de la traducción del cap14), «You breach a safety
-obligation (…)», «nothing else», «serious incident, serious injury or damage of €5,000–15,000»,
-«accident, death or damage over €15,000», «Fine for a private individual (art. 55.1)», «licence
-suspended for up to 5 years», «licence revoked», «Classified separately (art. 50): …». Cotejar con
-la terminología del cap14 inglés.
+Desde el 20 de noviembre de 2026, la misma figura con `--lang en`, con los términos de la
+traducción del cap14: «MINOR», «SERIOUS», «VERY SERIOUS», «If it causes… (Art. 44)», «Fine for a
+private individual (Art. 55(1))», «On top of that, your licence (Art. 56)», «Defined separately
+(Art. 50)…». Importes con el símbolo delante: «€45,001 to €90,000».

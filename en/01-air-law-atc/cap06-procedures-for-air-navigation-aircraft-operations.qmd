@@ -48,7 +48,7 @@ Heading **north** → **even** levels.
 Heading **south** → **odd** levels.
 :::
 
-![Semicircular rule for VFR cruising levels. *(FIX: the drawing splits the levels East-West, as in SERA Appendix 3; Spain uses the North-South rule: 270° to 089°, even levels + 500 ft; 090° to 269°, odd levels + 500 ft.)*](imagenes/01-cap06-regla-semicircular.jpg){#fig-01-cap06-semicircular .corregir}
+![Semicircular rule for VFR cruising levels.](imagenes/01-cap06-regla-semicircular.png){#fig-01-cap06-semicircular width="100%"}
 
 ## Altimeter setting: QNH, QFE and QNE
 

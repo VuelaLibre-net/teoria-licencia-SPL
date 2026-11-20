@@ -13,6 +13,18 @@ was translated from (`origen-commit`). Terminology follows `en/terminologia.yml`
 
 ## [In progress]
 
+### Fixed
+
+* **cap06, cap13 and cap14, priority figures** — the three figures that were withdrawn after the
+  audit are redrawn, with English labels, and lose the “IN REVIEW” mark and the note in the
+  caption. The semicircular rule splits the levels North-South, as in Spain (even + 500 ft from
+  270° to 089°, odd + 500 ft from 090° to 269°), not East-West. The occurrence reporting process
+  adds the occurrences listed in Regulation 2015/1018 to the mandatory ones and says who each one
+  goes to and by when. The scale of infringements grades the same conduct by what it causes
+  (Article 44 of Ley 21/2003), with the fines for a private individual and the penalties on the
+  licence. They are now drawn by code (`tools/figuras/01_derecho_aereo.py`) and change from JPEG
+  to PNG. Issue #58.
+
 ### Layout and production
 
 * **PDF index** — every entry now uses the glossary headword instead of the longest search key or a stray piece of its definition. Acronyms are listed both under the acronym and under its expansion (“CTR” and “Control Zone”). The change is in the shared filter `glosario-enlaces.lua` and affects every book (#46). The word “visibility” no longer links to the CAVOK glossary entry.

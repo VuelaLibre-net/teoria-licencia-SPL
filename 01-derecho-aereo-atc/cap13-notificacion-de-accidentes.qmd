@@ -38,7 +38,7 @@ Los plazos no son iguales: a la autoridad de investigación, comunica el acciden
 La normativa europea promueve la "Cultura Justa". El objetivo de notificar **NO es buscar culpables** (salvo negligencia grave o dolo), sino **aprender**. No tengas miedo a contar tus errores: así aprenden los demás.
 :::
 
-![Proceso de notificación de un suceso. *(CORREGIR: no sólo los accidentes y los incidentes graves son de notificación obligatoria: también los sucesos de la lista del Reglamento de Ejecución (UE) 2015/1018, anexo V, sección 2, como una violación de espacio aéreo o una cuasicolisión.)*](imagenes/01-cap13-flujo-notificacion.jpg){#fig-01-cap13-flujo-notificacion .corregir}
+![Proceso de notificación de un suceso.](imagenes/01-cap13-flujo-notificacion.png){#fig-01-cap13-flujo-notificacion width="100%"}
 
 ::: {.callout-warning title="Seguridad"}
 Si sufres o presencias un accidente:

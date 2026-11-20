@@ -43,7 +43,7 @@ The deadlines differ. To the investigation authority, report the accident or ser
 European regulations promote a “just culture”. The aim of reporting is **NOT to find someone to blame** (except for gross negligence or wilful misconduct), but to **learn**. Do not be afraid to report your mistakes: it is the only way the system gets better.
 :::
 
-![The occurrence reporting process. *(FIX: accidents and serious incidents are not the only occurrences you must report: so are those listed in Implementing Regulation (EU) 2015/1018, Annex V, section 2, such as an airspace infringement or a near collision.)*](imagenes/01-cap13-flujo-notificacion.jpg){#fig-01-cap13-flujo-notificacion .corregir}
+![The occurrence reporting process.](imagenes/01-cap13-flujo-notificacion.png){#fig-01-cap13-flujo-notificacion width="100%"}
 
 ::: {.callout-warning title="Safety"}
 If you suffer or witness an accident:

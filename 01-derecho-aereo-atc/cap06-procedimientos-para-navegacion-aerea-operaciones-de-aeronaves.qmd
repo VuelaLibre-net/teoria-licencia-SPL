@@ -43,7 +43,7 @@ Hacia el **N**orte → Niveles **P**ares.
 Hacia el **S**ur → Niveles **I**mpares.
 :::
 
-![Regla semicircular de niveles de crucero VFR. *(CORREGIR: el dibujo reparte los niveles Este-Oeste, como el apéndice 3 de SERA; en España rige la regla Norte-Sur: de 270° a 089°, pares + 500 ft; de 090° a 269°, impares + 500 ft.)*](imagenes/01-cap06-regla-semicircular.jpg){#fig-01-cap06-semicircular .corregir}
+![Regla semicircular de niveles de crucero VFR.](imagenes/01-cap06-regla-semicircular.png){#fig-01-cap06-semicircular width="100%"}
 
 ## Reglaje de altímetro: QNH, QFE y QNE
 
