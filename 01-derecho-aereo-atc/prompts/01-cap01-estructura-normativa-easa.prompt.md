@@ -1,12 +1,12 @@
 ---
 schema: 1
-figura: 01-cap01-estructura-normativa-easa.jpg
+figura: 01-cap01-estructura-normativa-easa.png
 tipo: diagrama-conceptual
 estado: borrador
 fecha: "2026-11-20"
 herramienta:
-  nombre: ""
-  version: ""
+  nombre: "matplotlib"
+  version: "3.10.9"
 fuentes:
   - referencia: "Reglamento (UE) 2018/1139, art. 76 (recursos/fuentes/ue/reg-2018-1139-basico-easa-consol-2026-08-02.pdf)"
     licencia: "texto normativo"
@@ -16,7 +16,7 @@ restricciones:
 revision:
   persona: ""
   fecha: ""
-master_editable: ""
+master_editable: "tools/figuras/01_derecho_aereo.py"
 ---
 
 # 01-cap01-estructura-normativa-easa
@@ -25,19 +25,30 @@ master_editable: ""
 ayuda a cumplir. Texto en `cap01-derecho-internacional-convenios-acuerdos-y-organizaciones.qmd`,
 «Estructura normativa: normativa vinculante y estándares no vinculantes», y su «Regla de oro».
 
-**Estado.** Marcada con `.corregir` desde el 1 de octubre de 2026 (PED-04). Se rehace por código.
-La edición inglesa es hoy una copia de la española.
+**Estado.** Sustituida el 20 de noviembre de 2026 (issue #58) por una versión dibujada por código,
+en las dos ediciones; se quitan la clase `.corregir` y la nota del pie, y la figura pasa de `.jpg` a
+`.png`. Estuvo marcada desde el 1 de octubre de 2026 (PED-04). Sigue en `borrador`: falta la
+revisión técnica de la figura nueva.
 
-## Qué falla en la figura actual
+## Procedencia
+
+Dibujada con matplotlib 3.10.9 por `estructura_normativa_easa()`, en
+`tools/figuras/01_derecho_aereo.py`. Se regenera con:
+
+```bash
+python3 tools/figuras/01_derecho_aereo.py [--lang en] 01-cap01-estructura-normativa-easa
+```
+
+La figura anterior no tenía la procedencia documentada.
+
+## Qué fallaba en la figura anterior
 
 * Rotula la base «AMC + GM + CS: estándares no vinculantes / medios de cumplimiento». Las CS son
   especificaciones de certificación de aeronaves y productos (CS-22, planeadores), no medios de
   cumplimiento.
 * No da ningún ejemplo de cada capa.
 
-## Cómo rehacerla: por código
-
-En `tools/figuras/01_derecho_aereo.py`, con los rótulos en `t(es, en)`.
+## Cómo está hecha
 
 **Composición.** Dos bloques apilados con una flecha lateral «Fuerza legal» hacia abajo:
 
@@ -55,12 +66,9 @@ vinculante en navy lleno con texto blanco; el no vinculante, con contorno navy.
 **Datos verificados.** Los del texto: no añadir reglamentos delegados ni otras capas que el
 capítulo no explica.
 
-**Formato.** PNG y `width="100%"`. Al sustituirla, la ruta del `.qmd` pasa de `.jpg` a `.png` en
-las dos ediciones y el `.jpg` se borra.
+**Formato.** PNG, insertado con `width="100%"`.
 
 ## Edición inglesa
 
-«Legal force», «Binding rules: WHAT you must comply with», «Basic Regulation: Regulation (EU)
-2018/1139», «Implementing Rules (IR): e.g. 2018/1976 (Part-SFCL and Part-SAO)», «Non-binding
-standards», «AMC: HOW to comply in a recognised way», «GM: explanations and examples», «CS:
-specifications for certifying aircraft; e.g. CS-22».
+Desde el 20 de noviembre de 2026, la misma figura con `--lang en`: los rótulos en inglés están
+junto a los españoles en el script, con `t(es, en)`, y los números llevan el formato inglés.

@@ -54,7 +54,7 @@ Son documentos que ayudan a cumplir la ley sin ser ley en sí mismos. Que no te 
 * **GM** (**Guidance Material**, Material Guía): explicaciones, interpretaciones y ejemplos para entender los requisitos. No obliga; ayuda.
 * **CS** (**Certification Specifications**): estándares técnicos para certificar aeronaves y productos. El que nos toca es el CS-22, el de planeadores.
 
-![Estructura normativa EASA: normativa vinculante vs estándares no vinculantes. *(CORREGIR: el dibujo presenta las CS como medios de cumplimiento; son especificaciones de certificación de aeronaves y productos.)*](imagenes/01-cap01-estructura-normativa-easa.jpg){#fig-01-cap01-hard-soft-law .corregir}
+![Estructura normativa EASA: normativa vinculante vs estándares no vinculantes.](imagenes/01-cap01-estructura-normativa-easa.png){#fig-01-cap01-hard-soft-law width="100%"}
 
 ::: {.callout-tip title="Regla de oro"}
 * **Normativa vinculante (Reglamentos)** = **QUÉ** debes cumplir (obligatorio).

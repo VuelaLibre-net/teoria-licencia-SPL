@@ -26,6 +26,19 @@ rompe la compilación.
   qué plazo. La escala de infracciones gradúa la misma conducta por lo que provoca (art. 44 de la
   LSA), con las multas a un particular y las sanciones sobre la licencia. Ahora se dibujan por
   código (`tools/figuras/01_derecho_aereo.py`) y pasan de JPEG a PNG. Issue #58.
+* **cap01–cap13, once figuras más** — se rehacen por código, con el mismo script, y pierden la
+  marca y la nota: la estructura normativa de EASA (las CS, aparte, como especificaciones de
+  certificación); el certificado de aeronavegabilidad (formulario EASA 25 de un planeador con la
+  base del Reglamento 2018/1139, sin escudo ni firma, y pie nuevo que explica SAO.GEN.155 c)); el
+  ciclo del ARC (válido hasta el tercer año); la validez del médico (reglas de los 42 y los 51
+  años); la recencia (añade la del método de lanzamiento, SFCL.155); los mínimos VMC (la franja
+  inferior acaba en el mayor de 3.000 ft AMSL o 1.000 ft AGL); las fases de emergencia (los medios
+  SAR salen en DETRESFA y el RCC está informado desde INCERFA); el NOTAM (pista 12R/30L y CLSD); la
+  manga de viento (conversiones bien redondeadas y los 3 kt como referencia orientativa); las
+  señales de aeródromo (formas de SERA, pesas y aspa con su significado, y tres señales que
+  faltaban); y la pirámide de sucesos (categorías del Reglamento 996/2010 y Heinrich como nota,
+  con pie nuevo). Todas salen en PNG, salvo la manga y las señales, que ya lo eran. Issue #58.
+* **cap10** — en la tabla de señales, 3 nudos son 5,6 km/h, no 5,5.
 
 ### Maqueta y producción
 

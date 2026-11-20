@@ -1,12 +1,12 @@
 ---
 schema: 1
-figura: 01-cap13-piramide-sucesos.jpg
+figura: 01-cap13-piramide-sucesos.png
 tipo: diagrama-conceptual
 estado: borrador
 fecha: "2026-11-20"
 herramienta:
-  nombre: ""
-  version: ""
+  nombre: "matplotlib"
+  version: "3.10.9"
 fuentes:
   - referencia: "Reglamento (UE) 996/2010, art. 2 (recursos/fuentes/ue/reg-996-2010-investigacion-accidentes-consol-2024-05-19.pdf)"
     licencia: "texto normativo"
@@ -19,7 +19,7 @@ restricciones:
 revision:
   persona: ""
   fecha: ""
-master_editable: ""
+master_editable: "tools/figuras/01_derecho_aereo.py"
 ---
 
 # 01-cap13-piramide-sucesos
@@ -28,19 +28,30 @@ master_editable: ""
 gravedad, y la idea de que los leves son mucho más frecuentes que los graves. Texto en
 `cap13-notificacion-de-accidentes.qmd`, «Definiciones clave».
 
-**Estado.** Marcada con `.corregir` desde el 1 de octubre de 2026 (TEC-15). Se rehace por código.
-La edición inglesa es hoy una copia de la española.
+**Estado.** Sustituida el 20 de noviembre de 2026 (issue #58) por una versión dibujada por código,
+en las dos ediciones; se quitan la clase `.corregir` y la nota del pie, y la figura pasa de `.jpg` a
+`.png`. Estuvo marcada desde el 1 de octubre de 2026 (TEC-15). Sigue en `borrador`: falta la
+revisión técnica de la figura nueva.
 
-## Qué falla en la figura actual
+## Procedencia
+
+Dibujada con matplotlib 3.10.9 por `piramide_sucesos()`, en
+`tools/figuras/01_derecho_aereo.py`. Se regenera con:
+
+```bash
+python3 tools/figuras/01_derecho_aereo.py [--lang en] 01-cap13-piramide-sucesos
+```
+
+La figura anterior no tenía la procedencia documentada.
+
+## Qué fallaba en la figura anterior
 
 * Atribuye a Heinrich la proporción «1 accidente / 30 incidentes graves / 300 incidentes menores».
   Heinrich publicó 1 lesión grave, 29 leves y 300 accidentes sin lesión, en accidentes laborales:
   ni sus cifras ni sus categorías son las del Reglamento 996/2010.
 * Fondo de planos técnicos y un avión comercial, contra la guía.
 
-## Cómo rehacerla: por código
-
-En `tools/figuras/01_derecho_aereo.py`, con los rótulos en `t(es, en)`.
+## Cómo está hecha
 
 **Composición.** Pirámide de tres pisos, sin cifras:
 
@@ -54,16 +65,14 @@ grave, 29 leves y 300 sucesos sin lesión».
 
 Pisos en un solo tono navy que se oscurece hacia la cima, con el nombre escrito.
 
-**Formato.** PNG y `width="100%"`. Al sustituirla, la ruta del `.qmd` pasa de `.jpg` a `.png` en
-las dos ediciones y el `.jpg` se borra.
+**Formato.** PNG, insertado con `width="100%"`.
 
 ## Al sustituirla
 
-El pie dice «inspirada en Heinrich». Con la figura nueva puede quedar en «Pirámide de gravedad de
-sucesos (Reglamento (UE) 996/2010)», y la nota de Heinrich ya va en el dibujo. Proponérselo a Ramón.
+Por decisión de Ramón (20-11-2026), el pie deja de decir «inspirada en Heinrich» y pasa a
+«Pirámide de gravedad de sucesos (Reglamento (UE) 996/2010)»; la nota de Heinrich va en el dibujo.
 
 ## Edición inglesa
 
-«Accident», «Serious incident: almost an accident», «Incident: affects or could affect safety»,
-«More serious», «More frequent», «Heinrich (1931), on industrial accidents: for every serious
-injury, 29 minor ones and 300 occurrences without injury».
+Desde el 20 de noviembre de 2026, la misma figura con `--lang en`: los rótulos en inglés están
+junto a los españoles en el script, con `t(es, en)`, y los números llevan el formato inglés.

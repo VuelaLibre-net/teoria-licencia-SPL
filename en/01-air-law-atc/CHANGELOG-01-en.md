@@ -24,6 +24,20 @@ was translated from (`origen-commit`). Terminology follows `en/terminologia.yml`
   (Article 44 of Ley 21/2003), with the fines for a private individual and the penalties on the
   licence. They are now drawn by code (`tools/figuras/01_derecho_aereo.py`) and change from JPEG
   to PNG. Issue #58.
+* **cap01–cap13, eleven more figures** — redrawn by code with the same script, with English labels,
+  and stripped of the mark and the note: the EASA regulatory structure (CS shown apart, as
+  certification specifications); the Certificate of Airworthiness (EASA Form 25 for a glider, based
+  on Regulation 2018/1139, with no coat of arms or signature, and a new caption explaining
+  SAO.GEN.155(c)); the ARC cycle (valid until the third year); medical validity (the rules at 42
+  and 51); recency (now with the launch-method rule, SFCL.155); VMC minima (the lower band ends at
+  3,000 ft AMSL or 1,000 ft AGL, whichever is higher); the emergency phases (SAR units are
+  dispatched in DETRESFA and the RCC is informed from INCERFA); the NOTAM (runway 12R/30L and CLSD);
+  the windsock (correctly rounded conversions and the 3 kt as a rough guide); aerodrome signals
+  (SERA shapes, the dumb-bell and the yellow cross with their right meaning, and three signals that
+  were missing); and the occurrence pyramid (Regulation 996/2010 categories, Heinrich as a note,
+  and a new caption). All are now PNG; the windsock and the signals already were. The English text
+  of EASA Form 25 is still to be checked against EUR-Lex. Issue #58.
+* **cap10** — in the signals table, 3 knots are 5.6 km/h, not 5.5.
 
 ### Layout and production
 

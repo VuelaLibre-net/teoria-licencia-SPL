@@ -1,12 +1,12 @@
 ---
 schema: 1
-figura: 01-cap04-recencia-requisitos.jpg
+figura: 01-cap04-recencia-requisitos.png
 tipo: diagrama-conceptual
 estado: borrador
 fecha: "2026-11-20"
 herramienta:
-  nombre: ""
-  version: ""
+  nombre: "matplotlib"
+  version: "3.10.9"
 fuentes:
   - referencia: "Reglamento de Ejecución (UE) 2018/1976, Part-SFCL, SFCL.155 y SFCL.160 (recursos/fuentes/ue/reg-2018-1976-part-sao-sfcl-consol-2021-11-15.pdf)"
     licencia: "texto normativo"
@@ -16,7 +16,7 @@ restricciones:
 revision:
   persona: ""
   fecha: ""
-master_editable: ""
+master_editable: "tools/figuras/01_derecho_aereo.py"
 ---
 
 # 01-cap04-recencia-requisitos
@@ -25,10 +25,23 @@ master_editable: ""
 («5-15-2») y recencia del método de lanzamiento. Texto en `cap04-licencias-de-personal.qmd`,
 «Experiencia reciente: la regla de los 24 meses» y «Además, por cada método de lanzamiento».
 
-**Estado.** Marcada con `.corregir` desde el 1 de octubre de 2026 (SYL-01). Se rehace por código.
-La edición inglesa es hoy una copia de la española.
+**Estado.** Sustituida el 20 de noviembre de 2026 (issue #58) por una versión dibujada por código,
+en las dos ediciones; se quitan la clase `.corregir` y la nota del pie, y la figura pasa de `.jpg` a
+`.png`. Estuvo marcada desde el 1 de octubre de 2026 (SYL-01). Sigue en `borrador`: falta la
+revisión técnica de la figura nueva.
 
-## Qué falla en la figura actual
+## Procedencia
+
+Dibujada con matplotlib 3.10.9 por `recencia_requisitos()`, en
+`tools/figuras/01_derecho_aereo.py`. Se regenera con:
+
+```bash
+python3 tools/figuras/01_derecho_aereo.py [--lang en] 01-cap04-recencia-requisitos
+```
+
+La figura anterior no tenía la procedencia documentada.
+
+## Qué fallaba en la figura anterior
 
 * Falta la recencia por método de lanzamiento (SFCL.155): 5 lanzamientos en los últimos 24 meses
   con cada método, o 2 con cable elástico. Se puede cumplir el «5-15-2» con remolques y no estar al
@@ -36,9 +49,7 @@ La edición inglesa es hoy una copia de la española.
 * La salida «Vuelo prohibido (contactar instructor)» mezcla dos casos: sin médico no puedes ejercer
   las atribuciones; sin recencia, sí puedes volar con instructor para recuperarla.
 
-## Cómo rehacerla: por código
-
-En `tools/figuras/01_derecho_aereo.py`, con los rótulos en `t(es, en)`.
+## Cómo está hecha
 
 **Composición.** Diagrama de flujo vertical. Título: «¿Puedo volar hoy como piloto al mando?».
 
@@ -59,13 +70,9 @@ escritas.
 quedan fuera; una nota al pie lo dice: «Planeadores; los TMG tienen su propia recencia (SFCL.160
 b))».
 
-**Formato.** PNG y `width="100%"`. Al sustituirla, la ruta del `.qmd` pasa de `.jpg` a `.png` en
-las dos ediciones y el `.jpg` se borra.
+**Formato.** PNG, insertado con `width="100%"`.
 
 ## Edición inglesa
 
-«Can I fly today as pilot-in-command?», «Valid medical certificate?», «You cannot exercise the
-privileges of your licence», «In the last 24 months: 5 h, 15 launches and 2 training flights with an
-instructor?», «Complete what is missing with an instructor, dual or solo under supervision, or pass
-a proficiency check», «With today's launch method: 5 launches in 24 months (2 for bungee)?», «You
-can fly», «Yes», «No». Términos de la traducción del cap04.
+Desde el 20 de noviembre de 2026, la misma figura con `--lang en`: los rótulos en inglés están
+junto a los españoles en el script, con `t(es, en)`, y los números llevan el formato inglés.

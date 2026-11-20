@@ -28,7 +28,7 @@ Ojo con una excepción que verás citada a menudo: SERA permite que, en espacio 
 
 Visibilidad de 5 km y distancia a nubes de 1.500 m en horizontal y 1.000 ft en vertical, estés en el espacio aéreo que estés. Y un dato para los días grandes de onda: por encima de FL 100, la visibilidad mínima sube a **8 km**.
 
-![Mínimos VMC (Visual Meteorological Conditions) para vuelo visual (VFR). *(CORREGIR: la franja inferior acaba en el mayor de los dos valores, 900 m AMSL o 300 m AGL.)*](imagenes/01-cap06-minimos-vmc.jpg){#fig-01-cap06-vmc-minima .corregir}
+![Mínimos VMC (Visual Meteorological Conditions) para vuelo visual (VFR).](imagenes/01-cap06-minimos-vmc.png){#fig-01-cap06-vmc-minima width="100%"}
 
 ## Regla semicircular de niveles de crucero
 

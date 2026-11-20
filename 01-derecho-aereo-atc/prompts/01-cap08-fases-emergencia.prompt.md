@@ -1,12 +1,12 @@
 ---
 schema: 1
-figura: 01-cap08-fases-emergencia.jpg
+figura: 01-cap08-fases-emergencia.png
 tipo: diagrama-conceptual
 estado: borrador
 fecha: "2026-11-20"
 herramienta:
-  nombre: ""
-  version: ""
+  nombre: "matplotlib"
+  version: "3.10.9"
 fuentes:
   - referencia: "Reglamento de Ejecución (UE) 2017/373, ATS.TR.400 y ATS.TR.405 (recursos/fuentes/ue/reg-2017-373-ats-ais-met-consol-2026-02-22.pdf)"
     licencia: "texto normativo"
@@ -18,7 +18,7 @@ restricciones:
 revision:
   persona: ""
   fecha: ""
-master_editable: ""
+master_editable: "tools/figuras/01_derecho_aereo.py"
 ---
 
 # 01-cap08-fases-emergencia
@@ -27,10 +27,23 @@ master_editable: ""
 medios de búsqueda y salvamento. Texto en `cap08-servicio-de-transito-aereo.qmd`, «3. Servicio de
 alerta (ALRS)».
 
-**Estado.** Marcada con `.corregir` desde el 1 de octubre de 2026 (NOR-12, PED-10). Se rehace por
-código. La edición inglesa es hoy una copia de la española.
+**Estado.** Sustituida el 20 de noviembre de 2026 (issue #58) por una versión dibujada por código,
+en las dos ediciones; se quitan la clase `.corregir` y la nota del pie, y la figura pasa de `.jpg` a
+`.png`. Estuvo marcada desde el 1 de octubre de 2026 (NOR-12, PED-10). Sigue en `borrador`: falta la
+revisión técnica de la figura nueva.
 
-## Qué falla en la figura actual
+## Procedencia
+
+Dibujada con matplotlib 3.10.9 por `fases_emergencia()`, en
+`tools/figuras/01_derecho_aereo.py`. Se regenera con:
+
+```bash
+python3 tools/figuras/01_derecho_aereo.py [--lang en] 01-cap08-fases-emergencia
+```
+
+La figura anterior no tenía la procedencia documentada.
+
+## Qué fallaba en la figura anterior
 
 * En ALERFA dice «Se activan recursos de búsqueda y rescate»: salen en DETRESFA.
 * No dice que la dependencia ATS informa al centro coordinador de salvamento (RCC) desde la fase de
@@ -39,9 +52,7 @@ código. La edición inglesa es hoy una copia de la española.
 * Los criterios de cada fase son vagos («falta de información o contacto»); el texto da los de
   ATS.TR.405.
 
-## Cómo rehacerla: por código
-
-En `tools/figuras/01_derecho_aereo.py`, con los rótulos en `t(es, en)`.
+## Cómo está hecha
 
 **Composición.** Tres columnas de izquierda a derecha, unidas por flechas de escalada, con un número
 de fase (1, 2, 3) además del color:
@@ -55,15 +66,13 @@ de fase (1, 2, 3) además del color:
 
 Bajo las tres columnas, una banda continua desde la primera: «Desde INCERFA, el ATS informa al
 centro coordinador de salvamento (RCC)». Tonos de un solo color que se oscurecen hacia la derecha,
-o ámbar `#B26A00` y rojo `#CC0000` con el número de fase escrito.
+con el número de fase escrito.
 
 **Datos verificados.** Los del texto corregido (NOR-12), que sigue ATS.TR.405.
 
-**Formato.** PNG y `width="100%"`. Al sustituirla, la ruta del `.qmd` pasa de `.jpg` a `.png` en
-las dos ediciones y el `.jpg` se borra.
+**Formato.** PNG, insertado con `width="100%"`.
 
 ## Edición inglesa
 
-«INCERFA — Uncertainty phase», «ALERFA — Alert phase», «DETRESFA — Distress phase» (términos de
-`en/terminologia.yml`), «No news 30 min after expected…», «Search and rescue units are
-dispatched», «From INCERFA, ATS informs the rescue coordination centre (RCC)».
+Desde el 20 de noviembre de 2026, la misma figura con `--lang en`: los rótulos en inglés están
+junto a los españoles en el script, con `t(es, en)`, y los números llevan el formato inglés.

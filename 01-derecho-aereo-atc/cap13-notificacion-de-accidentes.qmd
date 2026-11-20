@@ -18,7 +18,7 @@ En aviación no todo es un accidente. Hay matices legales que importan (@fig-01-
 2. **INCIDENTE GRAVE**: un suceso con alta probabilidad de haber acabado en accidente. El clásico "casi pasa".
 3. **INCIDENTE**: cualquier otro suceso que afecte o pueda afectar a la seguridad, sin llegar a lo anterior.
 
-![Pirámide de gravedad de sucesos, inspirada en Heinrich. *(CORREGIR: sus cifras son ilustrativas: Heinrich publicó la proporción de 1 lesión grave, 29 leves y 300 sucesos sin lesiones, que no son las categorías del Reglamento 996/2010.)*](imagenes/01-cap13-piramide-sucesos.jpg){#fig-01-cap13-piramide-sucesos .corregir}
+![Pirámide de gravedad de sucesos (Reglamento (UE) 996/2010).](imagenes/01-cap13-piramide-sucesos.png){#fig-01-cap13-piramide-sucesos width="100%"}
 
 ## El deber de notificar: sistema SNS
 

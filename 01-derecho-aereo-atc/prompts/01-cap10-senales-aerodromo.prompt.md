@@ -5,8 +5,8 @@ tipo: diagrama-conceptual
 estado: borrador
 fecha: "2026-11-20"
 herramienta:
-  nombre: ""
-  version: ""
+  nombre: "matplotlib"
+  version: "3.10.9"
 fuentes:
   - referencia: "Reglamento de Ejecución (UE) 923/2012 (SERA), apéndice 1, 3.2 y figuras A1-1 a A1-11; págs. 96-97 del consolidado (recursos/fuentes/ue/reg-923-2012-sera-consol-2025-05-01.pdf)"
     licencia: "texto normativo"
@@ -16,7 +16,7 @@ restricciones:
 revision:
   persona: ""
   fecha: ""
-master_editable: ""
+master_editable: "tools/figuras/01_derecho_aereo.py"
 ---
 
 # 01-cap10-senales-aerodromo
@@ -25,10 +25,23 @@ master_editable: ""
 `cap10-aerodromos-y-campos-de-despegue-externos.qmd`, tabla «Señales visuales de aeródromo
 (SERA, apéndice 1, 3.2)».
 
-**Estado.** Marcada con `.corregir` desde el 1 de octubre de 2026 (TEC-06). Se rehace por código.
-La edición inglesa es hoy una copia de la española.
+**Estado.** Sustituida el 20 de noviembre de 2026 (issue #58) por una versión dibujada por código,
+en las dos ediciones; se quitan la clase `.corregir` y la nota del pie, y la figura conserva su
+nombre. Estuvo marcada desde el 1 de octubre de 2026 (TEC-06). Sigue en `borrador`: falta la
+revisión técnica de la figura nueva.
 
-## Qué falla en la figura actual
+## Procedencia
+
+Dibujada con matplotlib 3.10.9 por `senales_aerodromo()`, en
+`tools/figuras/01_derecho_aereo.py`. Se regenera con:
+
+```bash
+python3 tools/figuras/01_derecho_aereo.py [--lang en] 01-cap10-senales-aerodromo
+```
+
+La figura anterior no tenía la procedencia documentada.
+
+## Qué fallaba en la figura anterior
 
 * La mancuerna dice «SOLO en pistas y calles pavimentadas. No pises la hierba». SERA 3.2.3.1 dice
   sólo pistas y calles de rodaje, que pueden ser de hierba.
@@ -38,11 +51,10 @@ La edición inglesa es hoy una copia de la española.
   calle de rodaje y la letra C.
 * Las formas son aproximadas; la flecha a rayas no sigue la figura A1-9.
 
-## Cómo rehacerla: por código
+## Cómo está hecha
 
-En `tools/figuras/01_derecho_aereo.py`, con los rótulos en `t(es, en)`. Las formas se dibujan en
-vector copiando las proporciones de las figuras A1 de SERA (págs. 96-97 del PDF archivado), no de
-memoria.
+Las formas copian las proporciones de las figuras A1 de SERA (págs. 96-97 del PDF archivado):
+la T con el travesaño a la izquierda, la flecha acodada, las cruces en aspa y la doble cruz.
 
 **Composición.** Rejilla de 3 × 3, cada señal sobre un cuadro gris claro que haga de suelo, con su
 nombre y una línea de significado debajo:
@@ -65,12 +77,9 @@ aterrizaje ayuda a leerla.
 **Datos verificados.** Los de SERA, apéndice 1, 3.2, en el PDF archivado; coinciden con la tabla
 del cap10.
 
-**Formato.** Sigue en PNG, sin cambio de nombre. `width="100%"`; con nueve casillas, comprobar que
-el significado no baja de 9 pt.
+**Formato.** PNG, insertado con `width="100%"`. El significado más pequeño mide 9,3 pt impreso.
 
 ## Edición inglesa
 
-«Landing prohibited», «Special precautions», «Runways and taxiways only», «Runways only for take-off
-and landing», «Area unusable», «Landing T», «Right-hand traffic», «ATS reporting office», «Gliders
-flying», con los significados en inglés de SERA, Appendix 1, 3.2 (cotejar con la tabla del cap10
-inglés).
+Desde el 20 de noviembre de 2026, la misma figura con `--lang en`: los rótulos en inglés están
+junto a los españoles en el script, con `t(es, en)`, y los números llevan el formato inglés.

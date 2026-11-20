@@ -1,12 +1,12 @@
 ---
 schema: 1
-figura: 01-cap09-ejemplo-notam.jpg
+figura: 01-cap09-ejemplo-notam.png
 tipo: documento
 estado: borrador
 fecha: "2026-11-20"
 herramienta:
-  nombre: ""
-  version: ""
+  nombre: "matplotlib"
+  version: "3.10.9"
 fuentes:
   - referencia: "AIP España, AD 2 LEZG, designadores de pista 12L/30R y 12R/30L (recursos/fuentes/aip/aip-espana-AD_2_LEZG_es.pdf)"
     licencia: "cita y referencia"
@@ -19,27 +19,38 @@ restricciones:
 revision:
   persona: ""
   fecha: ""
-master_editable: ""
+master_editable: "tools/figuras/01_derecho_aereo.py"
 ---
 
 # 01-cap09-ejemplo-notam
 
-**Qué enseña.** Cómo leer los cuatro campos de un NOTAM que más se miran: lugar, inicio, fin y texto.
-Texto en `cap09-servicios-de-informacion-aeronautica-ais.qmd`, «Noticias urgentes: NOTAM», que usa
-este mismo ejemplo (2310250800 = 25 de octubre de 2023 a las 08:00 UTC).
+**Qué enseña.** Cómo leer los cuatro campos de un NOTAM que más se miran: lugar, inicio, fin y
+texto. Texto en `cap09-servicios-de-informacion-aeronautica-ais.qmd`, «Noticias urgentes: NOTAM»,
+que usa este mismo ejemplo (2310250800 = 25 de octubre de 2023 a las 08:00 UTC).
 
-**Estado.** Marcada con `.corregir` desde el 1 de octubre de 2026 (PED-11). Se rehace por código.
-La edición inglesa es hoy una copia de la española.
+**Estado.** Sustituida el 20 de noviembre de 2026 (issue #58) por una versión dibujada por código,
+en las dos ediciones; se quitan la clase `.corregir` y la nota del pie, y la figura pasa de `.jpg` a
+`.png`. Estuvo marcada desde el 1 de octubre de 2026 (PED-11). Sigue en `borrador`: falta la
+revisión técnica de la figura nueva.
 
-## Qué falla en la figura actual
+## Procedencia
+
+Dibujada con matplotlib 3.10.9 por `ejemplo_notam()`, en
+`tools/figuras/01_derecho_aereo.py`. Se regenera con:
+
+```bash
+python3 tools/figuras/01_derecho_aereo.py [--lang en] 01-cap09-ejemplo-notam
+```
+
+La figura anterior no tenía la procedencia documentada.
+
+## Qué fallaba en la figura anterior
 
 * El campo E dice «RWY 12/30 CLOSED», pero Zaragoza tiene dos pistas, 12L/30R y 12R/30L.
 * «CLOSED» no es la abreviatura OACI: en un NOTAM es «CLSD».
 * Los iconos (calendario para el fin, reloj para el inicio) no aportan nada.
 
-## Cómo rehacerla: por código
-
-En `tools/figuras/01_derecho_aereo.py`, con los rótulos en `t(es, en)`.
+## Cómo está hecha
 
 **Composición.** En el centro, el extracto del NOTAM en tipografía monoespaciada, como se imprime:
 
@@ -60,14 +71,12 @@ Cada línea con su llamada a un lado, unida por una línea navy:
 Título: «Extracto de un NOTAM (ejemplo)».
 
 **Datos verificados.** Pistas de LEZG en el AIP archivado: 12L/30R (3.032 m) y 12R/30L (3.718 m).
-Volver a mirar el AIP en vigor antes de dibujar. La fecha es la del texto; si se cambia, cambiar
-las dos.
+Si el AIP en vigor cambia las pistas, hay que cambiar la figura. La fecha es la del texto; si se
+cambia, cambiar las dos.
 
-**Formato.** PNG y `width="100%"`. Al sustituirla, la ruta del `.qmd` pasa de `.jpg` a `.png` en
-las dos ediciones y el `.jpg` se borra. La tipografía monoespaciada tiene que estar vendorizada en
-`recursos/fonts/`; si no lo está, usar DejaVu Sans Mono de matplotlib y comprobarla en el PDF.
+**Formato.** PNG, insertado con `width="100%"`.
 
 ## Edición inglesa
 
-El NOTAM no cambia. Llamadas: «Location: Zaragoza airport», «Start: 25-10-2023, 08:00 UTC», «End:
-25-10-2023, 20:00 UTC», «Text: runway 12R/30L closed», «Extract of a NOTAM (example)».
+Desde el 20 de noviembre de 2026, la misma figura con `--lang en`: los rótulos en inglés están
+junto a los españoles en el script, con `t(es, en)`, y los números llevan el formato inglés.

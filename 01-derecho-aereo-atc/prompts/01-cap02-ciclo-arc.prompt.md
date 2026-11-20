@@ -1,12 +1,12 @@
 ---
 schema: 1
-figura: 01-cap02-ciclo-arc.jpg
+figura: 01-cap02-ciclo-arc.png
 tipo: grafico-cuantitativo
 estado: borrador
 fecha: "2026-11-20"
 herramienta:
-  nombre: ""
-  version: ""
+  nombre: "matplotlib"
+  version: "3.10.9"
 fuentes:
   - referencia: "Reglamento (UE) 1321/2014, Parte ML, ML.A.902 (recursos/fuentes/ue/reg-1321-2014-aeronavegabilidad-part-ml-consol-2026-08-07.pdf)"
     licencia: "texto normativo"
@@ -16,7 +16,7 @@ restricciones:
 revision:
   persona: ""
   fecha: ""
-master_editable: ""
+master_editable: "tools/figuras/01_derecho_aereo.py"
 ---
 
 # 01-cap02-ciclo-arc
@@ -26,10 +26,23 @@ aeronavegabilidad cubre hasta tres años, y la condición para prorrogarlo. Text
 `cap02-aeronavegabilidad.qmd`, «La "ITV" anual: certificado de revisión de aeronavegabilidad
 (ARC)».
 
-**Estado.** Marcada con `.corregir` desde el 1 de octubre de 2026 (COH-04). Se rehace por código.
-La edición inglesa es hoy una copia de la española.
+**Estado.** Sustituida el 20 de noviembre de 2026 (issue #58) por una versión dibujada por código,
+en las dos ediciones; se quitan la clase `.corregir` y la nota del pie, y la figura pasa de `.jpg` a
+`.png`. Estuvo marcada desde el 1 de octubre de 2026 (COH-04). Sigue en `borrador`: falta la
+revisión técnica de la figura nueva.
 
-## Qué falla en la figura actual
+## Procedencia
+
+Dibujada con matplotlib 3.10.9 por `ciclo_arc()`, en
+`tools/figuras/01_derecho_aereo.py`. Se regenera con:
+
+```bash
+python3 tools/figuras/01_derecho_aereo.py [--lang en] 01-cap02-ciclo-arc
+```
+
+La figura anterior no tenía la procedencia documentada.
+
+## Qué fallaba en la figura anterior
 
 * El tramo válido acaba en la segunda prórroga («2 AÑOS») y el que va de ahí a «3 AÑOS» se rotula
   «CADUCADO». Con la segunda prórroga, el ARC vale hasta cumplirse el tercer año.
@@ -38,9 +51,7 @@ La edición inglesa es hoy una copia de la española.
 * «Revisión física» no es el nombre del acto: es una revisión de la aeronavegabilidad, que incluye
   la documentación y el estado físico.
 
-## Cómo rehacerla: por código
-
-En `tools/figuras/01_derecho_aereo.py`, con los rótulos en `t(es, en)`.
+## Cómo está hecha
 
 **Composición.** Eje horizontal de 0 a 3 años, a escala, con hitos en 0, 1, 2 y 3:
 
@@ -57,11 +68,9 @@ sin interrupción (ML.A.902)».
 **Datos verificados.** ML.A.902 a), consolidado a 07-08-2026: «Un CRA tendrá una validez de un año
 y podrá prorrogarse por un año más, con un máximo de dos prórrogas consecutivas».
 
-**Formato.** PNG y `width="100%"`. Al sustituirla, la ruta del `.qmd` pasa de `.jpg` a `.png` en
-las dos ediciones y el `.jpg` se borra.
+**Formato.** PNG, insertado con `width="100%"`.
 
 ## Edición inglesa
 
-«Airworthiness review: ARC issued», «1st extension», «2nd extension», «New airworthiness review»,
-«ARC valid», «1 year», «No new review: ARC expired, no flying», «Only if the same CAMO or CAO has
-managed continuing airworthiness without interruption (ML.A.902)».
+Desde el 20 de noviembre de 2026, la misma figura con `--lang en`: los rótulos en inglés están
+junto a los españoles en el script, con `t(es, en)`, y los números llevan el formato inglés.

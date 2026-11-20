@@ -59,7 +59,7 @@ These are documents that help you comply with the law without being law themselv
 * **GM** (**Guidance Material**): explanations, interpretations and examples to help you understand the requirements. It does not oblige; it helps.
 * **CS** (**Certification Specifications**): technical standards for certifying aircraft and products. The one that matters to us is CS-22, for sailplanes.
 
-![EASA regulatory structure: binding rules vs non-binding standards. *(FIX: the drawing presents CS as means of compliance; they are certification specifications for aircraft and products.)*](imagenes/01-cap01-estructura-normativa-easa.jpg){#fig-01-cap01-hard-soft-law .corregir}
+![EASA regulatory structure: binding rules vs non-binding standards.](imagenes/01-cap01-estructura-normativa-easa.png){#fig-01-cap01-hard-soft-law width="100%"}
 
 ::: {.callout-tip title="Golden rule"}
 * **Binding rules (Regulations)** = **WHAT** you must comply with (mandatory).
