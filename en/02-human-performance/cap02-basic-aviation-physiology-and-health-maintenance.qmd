@@ -120,7 +120,7 @@ A typical case: the pilot is circling steadily in a thermal and looks down to pr
 Motion sickness can affect even seasoned pilots, especially after a spell without flying or in severe turbulence. There is nothing to be ashamed of. Accept it, and always keep sick bags within reach.
 :::
 
-![Fixing your eyes on the outside horizon prevents motion sickness. *(FIX: the labels “Correcto” and “Evitar” are still in Spanish.)*](imagenes/02-cap02-cinetosis-fijacion.jpg){#fig-02-cap02-cinetosis-fijacion .corregir}
+![Fixing your eyes on the outside horizon prevents motion sickness.](imagenes/02-cap02-cinetosis-fijacion.jpg){#fig-02-cap02-cinetosis-fijacion}
 
 To prevent and manage airsickness, make these habits second nature (@fig-02-cap02-cinetosis-fijacion):
 
@@ -165,7 +165,7 @@ Stress in the cockpit is not always the enemy. Some tension (the feeling just be
 
 Two frameworks help here, and they describe different things. The first, the **Yerkes-Dodson curve**, relates arousal to performance. It has the shape of an inverted U: too little tension gives you an apathetic pilot and too much a pilot who freezes, with the peak in the middle (@fig-02-cap02-curva-estres).
 
-![Arousal and pilot performance (the Yerkes-Dodson curve). *(FIX: the label “Máximo rendimiento” is still in Spanish.)*](imagenes/02-cap02-curva-estres.png){#fig-02-cap02-curva-estres .corregir}
+![Arousal and pilot performance (the Yerkes-Dodson curve).](imagenes/02-cap02-curva-estres.png){#fig-02-cap02-curva-estres}
 
 The second, Hans Selye's **General Adaptation Syndrome**, describes how the body responds when tension goes on for a long time, in three stages:
 

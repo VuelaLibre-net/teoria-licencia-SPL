@@ -26,8 +26,8 @@ master_editable: ""
 `cap02-fisiologia-aeronautica-basica-y-mantenimiento-de-salud.qmd`.
 
 **Estado.** Rehecha el 9 de octubre de 2026 (issue #60) con el encargo de abajo, sin rótulos en las
-esferas del panel. Vuelve a `borrador`: falta la revisión técnica de la figura nueva y su versión
-inglesa, que sigue siendo la anterior.
+esferas del panel. Vuelve a `borrador`: falta la revisión técnica de la figura nueva. La versión
+inglesa está traducida del todo desde el 20 de noviembre de 2026.
 
 ## Procedencia
 
@@ -69,5 +69,6 @@ lean a 9 pt al imprimirse.
 
 `en/02-human-performance/imagenes/` lleva desde el 20 de octubre de 2026 la figura española con los
 textos traducidos al inglés, editada con ChatGPT a partir de ella (issue #60); la traducción sigue
-`en/terminologia.yml`. Aún quedan en español «Correcto» y «Evitar»: su pie inglés conserva la marca
-*(FIX: …)* hasta que se traduzcan.
+`en/terminologia.yml`. Quedaron en español «Correcto» y «Evitar»; el 20 de noviembre de 2026 se
+regenera con ChatGPT pidiendo sólo ese cambio («Correct» y «Avoid») y se quitan la clase
+`.corregir` y la marca *(FIX: …)* del pie inglés.

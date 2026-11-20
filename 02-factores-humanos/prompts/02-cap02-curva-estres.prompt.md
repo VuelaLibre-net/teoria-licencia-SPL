@@ -29,8 +29,8 @@ sus efectos», que separa este marco del síndrome general de adaptación de Sel
 
 **Estado.** Sustituida el 9 de octubre de 2026 (issue #60) por una versión generada con el encargo
 de esta ficha, no dibujada por código; en la edición española se quitan la clase `.corregir` y la
-nota del pie. Vuelve a `borrador`: falta la revisión técnica de la figura nueva y su versión
-inglesa, que sigue siendo la anterior.
+nota del pie. Vuelve a `borrador`: falta la revisión técnica de la figura nueva. La versión
+inglesa está traducida del todo desde el 20 de noviembre de 2026.
 
 ## Procedencia
 
@@ -79,5 +79,6 @@ lean a 9 pt al imprimirse.
 
 `en/02-human-performance/imagenes/` lleva desde el 20 de octubre de 2026 la figura española con los
 textos traducidos al inglés, editada con ChatGPT a partir de ella (issue #60); la traducción sigue
-`en/terminologia.yml`. Aún queda en español «Máximo rendimiento»: su pie inglés conserva la marca
-*(FIX: …)* hasta que se traduzca.
+`en/terminologia.yml`. Quedó en español «Máximo rendimiento»; el 20 de noviembre de 2026 se
+regenera con ChatGPT pidiendo sólo ese cambio («Peak performance») y se quitan la clase
+`.corregir` y la marca *(FIX: …)* del pie inglés.
