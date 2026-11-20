@@ -13,6 +13,17 @@ was translated from (`origen-commit`). Terminology follows `en/terminologia.yml`
 
 ## [In progress]
 
+## [0.8.3] — 20 November 2026
+
+**What to reread:** **cap02**, the Yerkes-Dodson curve and the motion sickness figure.
+
+### Fixed
+
+* **cap02, figures** — the Yerkes-Dodson curve and the motion sickness figure are translated in
+  full: “Máximo rendimiento” becomes “Peak performance”, and “Correcto” and “Evitar” become
+  “Correct” and “Avoid”. Both lose the “IN REVIEW” mark and the *(FIX: …)* note, so no figure of
+  the book is marked any more. Issue #60.
+
 ## [0.8.2] — 18 November 2026
 
 **What to reread:** the **figures of cap01 to cap04** and their captions.

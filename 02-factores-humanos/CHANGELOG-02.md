@@ -16,6 +16,17 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.16] — 20 de noviembre de 2026
+
+**Qué releer:** nada. El contenido no cambia respecto a la `1.0-rc.15`: sólo las fichas de dos
+figuras, por la edición inglesa.
+
+### Maqueta y producción
+
+* **Fichas de las figuras** — las de la curva de Yerkes-Dodson y la cinetosis anotan que su versión
+  inglesa ya está traducida del todo (20 de noviembre de 2026). La edición española no cambia.
+  Issue #60.
+
 ## [1.0-rc.15] — 18 de noviembre de 2026
 
 **Qué releer:** las **figuras de cap01 a cap04**, sustituidas o rehechas tras la auditoría, y sus pies.
