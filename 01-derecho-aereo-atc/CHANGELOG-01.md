@@ -16,6 +16,13 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.17] — 21 de noviembre de 2026
+
+**Qué releer:** las **21 figuras** que la auditoría marcó para rehacer (issue #58), en cap01–cap14,
+con sus pies; ya no queda ninguna figura «EN REVISIÓN» en el libro. Del texto, sólo la frase nueva
+que abre «Situaciones de conflicto» (cap05), los pies del certificado de aeronavegabilidad (cap02) y
+de la pirámide de sucesos (cap13), y una conversión de la tabla de señales (cap10).
+
 ### Corregido
 
 * **cap06, cap13 y cap14, figuras prioritarias** — se rehacen las tres figuras que llegaron a

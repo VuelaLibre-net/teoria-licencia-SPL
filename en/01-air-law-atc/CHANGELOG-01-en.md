@@ -13,6 +13,14 @@ was translated from (`origen-commit`). Terminology follows `en/terminologia.yml`
 
 ## [In progress]
 
+## [0.8.3] — 21 November 2026
+
+**What to reread:** the **21 figures** the audit marked for redrawing (issue #58), in cap01–cap14,
+with their captions; no figure in the book is “IN REVIEW” any more, and those 21 now carry English
+labels (the other eight still carry Spanish text). In the text, only the new sentence that opens
+“Conflict situations” (cap05), the captions of the Certificate of Airworthiness (cap02) and the
+occurrence pyramid (cap13), and one conversion in the signals table (cap10).
+
 ### Fixed
 
 * **cap06, cap13 and cap14, priority figures** — the three figures that were withdrawn after the
