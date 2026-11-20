@@ -34,6 +34,22 @@ local function trim(s)
   return (s:gsub("^%s+", ""):gsub("%s+$", ""))
 end
 
+-- Quita el marcado Markdown de un trozo del glosario: «*spin*» -> «spin»
+local function strip_markup(s)
+  s = trim(s)
+  s = s:gsub("^%*+", ""):gsub("%*+$", "")
+  s = s:gsub("^_+", ""):gsub("_+$", "")
+  return s
+end
+
+-- Prepara una entrada del índice alfabético como cadena de Typst: sin
+-- marcado («V~RA~» -> «VRA») y con las comillas y barras escapadas.
+local function index_text(s)
+  s = trim(s):gsub("[~%*_]", "")
+  s = s:gsub("\\", "\\\\"):gsub('"', '\\"')
+  return s
+end
+
 -- Encuentra un término con control de límites de palabras (word boundary) y sensibilidad a mayúsculas
 local function find_word_case(text, key, all_uppercase)
   local searchText = text
@@ -124,8 +140,9 @@ local function process_text_segment(text, terms, seen)
     result:insert(link_inline)
     
     if is_typst_book() then
-      local clean_key = best_term.search_keys[1]:gsub('"', '\\"')
-      result:insert(pandoc.RawInline('typst', '#index("' .. clean_key .. '")'))
+      for _, index_key in ipairs(best_term.index_keys) do
+        result:insert(pandoc.RawInline('typst', '#index("' .. index_key .. '")'))
+      end
     end
     
     if after_text ~= "" then
@@ -235,7 +252,8 @@ local function Pandoc(doc)
         
         local entry = {
           id = "",
-          search_keys = {}
+          search_keys = {},
+          index_keys = {}
         }
         
         if prefix:find("/") then
@@ -246,15 +264,57 @@ local function Pandoc(doc)
           add_search_keys(entry, prefix)
         end
         
-        entry.id = clean_id(entry.search_keys[1])
-        
+        -- El identificador y la entrada del índice salen del rótulo, antes de
+        -- añadir las claves del paréntesis y de ordenar: el índice alfabético
+        -- usa el rótulo del glosario, no la clave más larga.
+        local rotulo = entry.search_keys[1]
+        entry.id = clean_id(rotulo)
+
+        -- «FE(S) (Examinador…)»: el primer paréntesis va pegado a la sigla y es
+        -- parte del rótulo, pero el patrón de arriba lo toma por el comienzo
+        -- del paréntesis. Sólo se corrige para el índice; el id y las claves
+        -- de búsqueda siguen como estaban.
+        local rotulo_indice = rotulo
+        local paren_indice = paren
+        if paren and not prefix:match("%s$") then
+          local sufijo, resto = paren:match("^([^%(%)]*)%)%s*%((.*)$")
+          if sufijo then
+            rotulo_indice = rotulo .. "(" .. sufijo .. ")"
+            paren_indice = resto
+          end
+        end
+        table.insert(entry.index_keys, index_text(rotulo_indice))
+
         if paren then
-          for p in paren:gmatch("[^/,]+") do
-            p = trim(p)
-            p = p:gsub("^%*+", ""):gsub("%*+$", "")
-            p = p:gsub("^_+", ""):gsub("_+$", "")
-            if #p >= 2 and #p <= 15 then
-              table.insert(entry.search_keys, p)
+          -- Una sigla se indexa también por su desarrollo, el primer tramo del
+          -- paréntesis («CTR (Zona de control / Control Zone)» -> «Zona de
+          -- control»), sin límite de longitud: no es una clave de búsqueda.
+          if is_all_uppercase(rotulo) then
+            local desarrollo = strip_markup(paren_indice:match("^[^/]+") or "")
+            if desarrollo ~= "" and desarrollo ~= rotulo then
+              table.insert(entry.index_keys, index_text(desarrollo))
+            end
+          end
+
+          -- La coma separa sinónimos («transponder, XPDR») sólo si todos los
+          -- trozos son cortos. Si alguno es largo, el paréntesis es una frase
+          -- y partirla da claves sueltas que enlazan donde no deben: CAVOK
+          -- enlazaba cada «visibilidad» del texto.
+          for tramo in paren:gmatch("[^/]+") do
+            local trozos = {}
+            local todos_cortos = true
+            for p in tramo:gmatch("[^,]+") do
+              p = strip_markup(p)
+              table.insert(trozos, p)
+              if #p > 15 then todos_cortos = false end
+            end
+            if not todos_cortos then
+              trozos = { strip_markup(tramo) }
+            end
+            for _, p in ipairs(trozos) do
+              if #p >= 2 and #p <= 15 then
+                table.insert(entry.search_keys, p)
+              end
             end
           end
         end
@@ -265,9 +325,18 @@ local function Pandoc(doc)
     f:close()
   end
 
-  -- Ordenar por longitud descendente para emparejar términos más largos primero
+  -- Ordenar por longitud descendente para emparejar términos más largos primero.
+  -- table.sort no es estable: a igual longitud se desempata por el orden
+  -- original, para que dos compilaciones den el mismo resultado.
   for _, term in ipairs(terms) do
-    table.sort(term.search_keys, function(a, b) return #a > #b end)
+    local pos = {}
+    for i, key in ipairs(term.search_keys) do
+      pos[key] = pos[key] or i
+    end
+    table.sort(term.search_keys, function(a, b)
+      if #a ~= #b then return #a > #b end
+      return pos[a] < pos[b]
+    end)
   end
 
   local in_chapter = false

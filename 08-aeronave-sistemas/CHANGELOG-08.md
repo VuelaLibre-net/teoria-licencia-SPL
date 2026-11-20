@@ -16,6 +16,10 @@ rompe la compilación.
 
 ## [En curso]
 
+### Maqueta y producción
+
+* **Índice alfabético del PDF** — cada entrada usa el rótulo del glosario, no su equivalente inglés ni la clave de búsqueda más larga. Las siglas aparecen por la sigla y por su desarrollo («CTR» y «Zona de control»). El cambio está en el filtro común `glosario-enlaces.lua` y afecta a los nueve libros (#46).
+
 ## [1.0-rc.1] — 18 de noviembre de 2026
 
 > **El libro pasa a candidato de versión.** Los instructores revisores han dado su visto bueno al
