@@ -13,6 +13,10 @@ translated from (`origen-commit`). Terminology follows `en/terminologia.yml`.
 
 ## [In progress]
 
+### Layout and production
+
+* **PDF index** — every entry now uses the glossary headword instead of the longest search key or a stray piece of its definition. Acronyms are listed both under the acronym and under its expansion (“CTR” and “Control Zone”). The change is in the shared filter `glosario-enlaces.lua` and affects every book (#46). The word “visibility” no longer links to the CAVOK glossary entry.
+
 ## [0.8.2] — 18 November 2026
 
 **What to reread:** nothing. The content does not change from `0.8.1`: only the acknowledgements.
