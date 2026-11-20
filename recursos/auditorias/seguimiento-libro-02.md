@@ -152,7 +152,7 @@ clase y la nota, y se anota aquí.
 | cap01 | `02-cap01-queso-suizo` | COH-03 | fase 3 | 9 oct 2026, issue #60; inglés, 20 oct 2026 |
 | cap01 | `02-cap01-cadena-error` | COH-04 | fase 3 | 9 oct 2026, issue #60; inglés, 20 oct 2026 |
 | cap02 | `02-cap02-imsafe` | COH-01 | fase 2 | 9 oct 2026, issue #60; inglés, 20 oct 2026 |
-| cap02 | `02-cap02-curva-estres` | TEC-09 | fase 3 | 9 oct 2026, issue #60; inglés pendiente (un rótulo en español) |
+| cap02 | `02-cap02-curva-estres` | TEC-09 | fase 3 | 9 oct 2026, issue #60; inglés, 20 nov 2026 |
 | cap03 | `02-cap03-decide` | TEC-03 | fase 2 | 9 oct 2026, issue #60; inglés, 20 oct 2026 |
 | cap03 | `02-cap03-vision-tunel` | PED-04 | fase 5 | 9 oct 2026, issue #60; inglés, 20 oct 2026 |
 | cap04 | `02-cap04-hipoxia-tiempo-conciencia` | COH-02 | fase 2 | 9 oct 2026, issue #60; inglés, 20 oct 2026 |
@@ -186,8 +186,9 @@ la figura anterior. La ilusión vestibular no cambia: el autor la da por correct
 pasa a `final`.
 
 El 20 de octubre de 2026 se rehacen las quince figuras inglesas: son las españolas con los textos
-traducidos. La curva de estrés y la cinetosis conservan algún rótulo en español y llevan la marca
-*(FIX: …)* hasta que se corrijan.
+traducidos. La curva de estrés y la cinetosis conservaron algún rótulo en español y llevaron la
+marca *(FIX: …)* hasta el 20 de noviembre de 2026, cuando se regeneran con esos rótulos en inglés.
+Con ellas no queda ninguna figura marcada en el libro 02, en ninguna de las dos ediciones.
 
 ## Preguntas abiertas
 

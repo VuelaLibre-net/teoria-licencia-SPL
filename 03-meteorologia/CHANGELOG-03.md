@@ -16,6 +16,20 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.18] — 18 de noviembre de 2026
+
+**Qué releer:** **cap03, base de los cúmulos**, y **cap07, sistemas de presión**. Cambia la notación, no los datos.
+
+### Cambiado
+
+* **cap03, base de los cúmulos** — la fórmula pasa a notación matemática y el 2.5 a coma decimal. Los valores no cambian.
+* **cap07, sistemas de presión** — «H. Norte» se escribe «hemisferio norte» en la tabla y en las dos viñetas.
+
+### Maqueta y producción
+
+* **Reconocimientos** — Luís Ferreira, Encarnación Novillo-Fertrell, Carlos Bravo y Sergi Pujol aparecen ya con su ✓ de validación técnica en este libro.
+* **Estado editorial** — los candidatos de versión dejan de salir como «En revisión» y pasan a «Candidato de versión» en la marca de agua, la portadilla y el aviso del EPUB. La nota dice que la revisión técnica por los instructores está completada.
+
 ## [1.0-rc.17] — 2 de octubre de 2026
 
 **Qué releer:** **cap06, mínimos VFR en clase G e IMC sin habilitación**, en el **Glosario** la entrada *CAVOK*, la **licencia** de los preliminares y la **Bibliografía**.

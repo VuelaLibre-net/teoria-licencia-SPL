@@ -16,6 +16,15 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.10] — 18 de noviembre de 2026
+
+**Qué releer:** nada. El contenido no cambia respecto a la `1.0-rc.9`: sólo los reconocimientos y el estado editorial.
+
+### Maqueta y producción
+
+* **Reconocimientos** — Luís Ferreira, Encarnación Novillo-Fertrell, Carlos Bravo y Sergi Pujol aparecen ya con su ✓ de validación técnica en este libro.
+* **Estado editorial** — los candidatos de versión dejan de salir como «En revisión» y pasan a «Candidato de versión» en la marca de agua, la portadilla y el aviso del EPUB. La nota dice que la revisión técnica por los instructores está completada.
+
 ## [1.0-rc.9] — 2 de octubre de 2026
 
 **Qué releer:** **cap03, modo fugoide**, y en el **Glosario** las entradas *Fugoide* y *Picado en

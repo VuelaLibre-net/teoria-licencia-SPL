@@ -81,7 +81,9 @@ def montar(pistas, destino, formato="mp3", bitrate="128k", meta=None, portada=No
         lista, caps, t, n = [], [], 0.0, 0
         for pista in pistas:
             ini = t
-            for tipo, valor in pista["piezas"]:
+            for pieza in pista["piezas"]:
+                tipo, valor = pieza[:2]
+                ritmo = pieza[2] if len(pieza) > 2 else None
                 if tipo == "earcon":
                     ruta, dur = tonos[valor], _duracion(tonos[valor])
                 elif tipo == "silencio":
@@ -91,7 +93,10 @@ def montar(pistas, destino, formato="mp3", bitrate="128k", meta=None, portada=No
                 else:
                     ruta = tmp / f"v{n:05d}.wav"
                     n += 1
-                    _ff("-i", str(valor), "-ac", "1", "-ar", str(SR), "-af", RECORTE, "-c:a", "pcm_s16le", str(ruta))
+                    # `ritmo` estira o acorta el fragmento sin cambiar el tono: CosyVoice3
+                    # ignora `speed` en VoiceStudio, así que el ritmo se da aquí.
+                    filtro_voz = RECORTE + (f",atempo={ritmo:.3f}" if ritmo and ritmo != 1 else "")
+                    _ff("-i", str(valor), "-ac", "1", "-ar", str(SR), "-af", filtro_voz, "-c:a", "pcm_s16le", str(ruta))
                     dur = _duracion(ruta)
                 lista.append(ruta)
                 t += dur

@@ -97,12 +97,12 @@ def disenar_voz(nombre, diseno, idioma="Spanish", semilla=42):
 
 
 def generar(texto, perfil, destino, motor=None, idioma="es", num_step=None, guidance_scale=None,
-            seed=None, speed=None):
+            seed=None, speed=None, instruct=None):
     """Una locución por POST /generate (la vía principal de VoiceStudio, que
     reutiliza un solo proceso del motor). Escribe el WAV en `destino`."""
     campos = {"text": texto, "profile_id": perfil, "language": idioma, "wav_bits": "16"}
     for k, v in (("engine", motor), ("num_step", num_step), ("guidance_scale", guidance_scale),
-                 ("seed", seed), ("speed", speed)):
+                 ("seed", seed), ("speed", speed), ("instruct", instruct)):
         if v is not None:
             campos[k] = v
     cuerpo, cab = _multipart(campos)

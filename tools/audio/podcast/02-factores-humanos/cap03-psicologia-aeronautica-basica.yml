@@ -1,0 +1,336 @@
+# Podcast del libro 02, capítulo 3. Dos voces: n = Narradora, l = Locutor.
+# Los hechos y las cifras salen del .qmd; aquí sólo cambia cómo se cuentan.
+# ‹…› es énfasis; `pausa:` en ms tras el turno; `- pausa: N` es un silencio suelto.
+
+pistas:
+  - titulo: "Psicología aeronáutica básica"
+    turnos:
+      - l: "Una frase para empezar. Volar bien es, sobre todo, decidir bien."
+        e: pensativo
+      - n: "Y esa frase da miedo, ¿verdad? Porque implica que puedes pilotar de maravilla y aun así volar mal."
+        e: asombro
+      - l: "[mn] Pues sí. Hoy hablamos de la mente del piloto. Cómo procesa la información. Cómo decide bajo presión. Y qué actitudes y trampas psicológicas conviene reconocer en uno mismo."
+        e: calido
+      - n: "Cinco ideas para llevarte. Primera: el procesamiento de la información, con percepción, atención y memoria. Segunda: la conciencia situacional, qué es y qué la degrada."
+      - l: "Tercera: la toma de decisiones, con el modelo DECIDE y la gestión de riesgos con PAVE. Cuarta: las cinco actitudes peligrosas, y sus antídotos."
+      - n: "Y quinta: la carga de trabajo y el SRM, o gestión de recursos del piloto solo. Con la famosa visión de túnel."
+      - l: "<laughter>Y por el camino vas a tener cuatro o cinco siglas.</laughter> Pero con truco, que todas tienen un nombre fácil de recordar."
+        e: contento
+      - n: "Empezamos."
+        e: animado
+        pausa: 700
+
+  - titulo: "Procesamiento de la información: atención, memoria y percepción"
+    turnos:
+      - n: "Imagina tu cerebro en pleno vuelo. Procesa información sin parar, con tres mecanismos que trabajan juntos: percepción, atención y memoria."
+        e: calido
+      - l: "Tres. Vamos con el primero."
+      - n: "La ‹percepción› es la capacidad de interpretar los elementos del ambiente y los cambios en las variables de vuelo. La variación del viento. La proximidad del terreno."
+      - l: "[mn] Y aquí hay un problema. Que en el aire no hay las referencias habituales."
+        e: pensativo
+      - n: "Exacto. A diferencia del entorno en tierra, el aire carece de las referencias habituales de profundidad y tamaño. Interpretar distancias es más exigente. Y un exceso de información, sin las señales habituales, puede provocar sobrecarga de trabajo."
+      - l: "O sea que más información no siempre es mejor."
+        e: pensativo
+      - n: "Nada mejor. Segundo mecanismo: la ‹atención›. Es el filtro que permite centrarse en la información relevante de la cabina y del entorno exterior."
+      - l: "Un filtro. Como un embudo."
+      - n: "Pero con un detalle: se ‹agota›. Factores biológicos o psicológicos la reducen deprisa. Y te impiden ver la situación completa."
+        e: serio
+      - l: "Pues vamos con el tercero. La memoria."
+      - n: "Aquí el hipocampo desempeña un papel clave. La memoria permite codificar, almacenar y recuperar información. Y en la cabina se usan distintos sistemas. Tres."
+      - l: "Primero, la memoria sensorial."
+      - n: "Retiene la información apenas un instante tras percibirla por los sentidos. Menos de un segundo la visual. Unos pocos segundos la auditiva."
+      - l: "Es la que te permite oír el final de una frase de radio que acabas de dejar de escuchar."
+        e: contento
+      - n: "Segundo: la memoria a corto plazo. Dura unos treinta segundos y admite unos siete elementos. Es la memoria RAM del piloto."
+      - l: "La que usas para lo que está pasando ahora mismo."
+      - n: "Y se llena rápido. Por eso, cuando alguien te dice por radio una lista de cosas, cuesta retenerla."
+        e: serio
+      - l: "Y tercero: la memoria a largo plazo. Lo aprendido. Y se divide en dos."
+      - n: "La no declarativa, que es procedimental o inconsciente. Como el tacto mecánico de la palanca."
+      - l: "[mn] O sea, lo que haces sin pensar."
+      - n: "Y la declarativa, que es explícita. Combina la memoria episódica con la semántica. Por ejemplo, las velocidades del manual, o las experiencias pasadas."
+      - l: "Un repaso. Sensorial: un instante. Corto plazo: treinta segundos y siete cosas. Largo plazo: lo aprendido, con una parte que haces sin pensar."
+      - n: "Una pregunta para pensar. Si sólo caben siete elementos en tu memoria a corto plazo, ¿qué te conviene hacer con una lista larga de tareas?"
+        e: pensativo
+        v: 0.95
+        pausa: 2500
+      - l: "Pues no confiar en la cabeza. Usar la lista de chequeo."
+        e: contento
+      - n: "Eso. Escribirlo, o usar la lista. Que para eso existe."
+        pausa: 700
+
+  - titulo: "Conciencia situacional (Situational Awareness) y factores que la reducen"
+    turnos:
+      - l: "Entramos en un concepto que vas a oír mucho. La conciencia situacional."
+        e: animado
+      - n: "En inglés, ‹Situational Awareness›. Tiene tres pasos."
+      - l: "Primero, percibir y asimilar bien los elementos del entorno, en un volumen de tiempo y espacio."
+      - n: "Segundo: comprender su significado."
+      - l: "Y tercero, y fundamental: proyectar su estado o su ubicación en el futuro más próximo."
+      - n: "Percibir, comprender, proyectar. Es decir: no sólo ver dónde estás, sino saber a dónde vas a estar dentro de un minuto."
+        e: calido
+      - l: "Dame un ejemplo de planeador."
+      - n: "En la cabina, implica construir y mantener durante todo el vuelo una imagen mental precisa. La variación y tendencia del viento. Tu posición real frente al campo de aterrizaje. La ocupación del circuito de tráfico. Las condiciones del resto de aeronaves. Y tus variables de altitud y energía."
+      - l: "[mn] Una especie de mapa mental, que se actualiza continuamente."
+      - n: "Y ahora, el aviso de seguridad. La pérdida de la conciencia situacional aparece con frecuencia en las cadenas de accidentes del vuelo a vela."
+        e: serio
+        v: 0.93
+      - l: "¿Qué la pierde?"
+      - n: "Una sobrecarga de la atención. El pánico derivado de un fenómeno que no comprendes. La fatiga. O incluso la incomodidad en un asiento mal ajustado."
+      - l: "Un asiento mal ajustado. <laughter>Qué detalle más tonto.</laughter>"
+        e: asombro
+      - n: "Y qué importante. Todo eso reduce mucho tu capacidad de hacerte una idea completa de la situación."
+        e: serio
+      - l: "Moraleja: ajusta bien el asiento antes de despegar."
+        e: contento
+        pausa: 700
+
+  - titulo: "Toma de decisiones aeronáuticas (Aeronautical Decision-Making — ADM)"
+    turnos:
+      - n: "Vamos con la estrella del capítulo. La toma de decisiones aeronáuticas, ADM."
+        e: animado
+      - l: "Que ya apareció en el capítulo uno."
+      - n: "Y aquí la definimos bien. Es el proceso mental, sistemático y repetible, que emplea el piloto para decantarse por el mejor camino de acción posible, como respuesta a unas circunstancias dadas en la cabina."
+      - l: "[mn] Sistemático y repetible. O sea, un método."
+        e: pensativo
+      - n: "Un método. Porque en térmica, o en la final, no hay tiempo para improvisar. El piloto evalúa la situación y sus peligros, hace un plan, gestiona el riesgo y actúa."
+      - l: "Y hay un esquema muy usado para entrenar eso. El modelo DECIDE."
+      - n: "Es una palabra con seis letras. Cada letra es un paso."
+      - l: "Venga. D."
+        e: animado
+      - n: "‹Detect›. Detectar que se ha producido un cambio o un error que requiere atención."
+      - l: "E."
+      - n: "‹Estimate›. Estimar si hace falta reaccionar. Reuniendo activamente toda la información sobre lo que ocurre."
+      - l: "C."
+      - n: "‹Choose›. Elegir el resultado que buscas, después de considerar todas las vías posibles para resolver el peligro."
+      - l: "I."
+      - n: "‹Identify›. Identificar las acciones que permiten conseguirlo."
+      - l: "La segunda D."
+      - n: "‹Do›. Hacer. Ejecutar la acción elegida, de manera metódica, rápida o pausada según pida la situación."
+      - l: "Y la E del final."
+      - n: "‹Evaluate›. Evaluar el resultado. Comprobar si el curso tomado corrige el desvío. Aprender de ello. Y comunicar las conclusiones."
+      - l: "Detectar, estimar, elegir, identificar, hacer, evaluar."
+        e: contento
+        v: 1.05
+      - n: "Pongámoslo en una situación. Vas por la térmica y notas que el viento ha cambiado respecto al pronóstico. ¿Qué paso es ese?"
+        e: calido
+        pausa: 1500
+      - l: "Detectar. Has visto un cambio que requiere atención."
+        e: animado
+      - n: "Muy bien. Y ahora, ¿qué haces antes de decidir nada?"
+        pausa: 1500
+      - l: "Estimar. Reunir información. Mirar el viento, el campo, la altura, qué opciones tengo."
+        e: animado
+      - n: "Perfecto. Y fíjate en el último paso. Evaluar. Y comunicar las conclusiones. Eso es lo que convierte un susto en aprendizaje."
+        e: calido
+        pausa: 700
+
+  - titulo: "Gestión de riesgos y modelos de evaluación (modelo PAVE)"
+    turnos:
+      - n: "Todo vuelo tiene peligros. Esa es la primera idea."
+        e: serio
+      - l: "Y no puedes evitarlos todos."
+        e: pensativo
+      - n: "No. Pero sí puedes identificarlos, evaluarlos y reducirlos con método. De eso trata la gestión de riesgos."
+      - l: "Y el método tiene otro nombre fácil. PAVE."
+        e: animado
+      - n: "El modelo PAVE divide los riesgos del vuelo en cuatro elementos fáciles de evaluar. P, A, V, E."
+      - l: "La P es de ‹Piloto›."
+      - n: "Estado fisiológico y psicológico. ¿Estoy descansado? ¿Sufro fatiga o estrés? ¿Cumplo los requisitos de experiencia reciente?"
+      - l: "Que enlaza con IMSAFE, del capítulo anterior."
+        e: contento
+      - n: "Exacto. La A es de ‹Aeronave›. Estado del planeador. ¿Es el equipo adecuado para el vuelo previsto? ¿Están los instrumentos operativos? ¿Las revisiones vigentes?"
+      - l: "La V es de ‹enVironment›. Entorno. Y aquí se escribe con la V de «environment», porque la E ya está cogida."
+      - n: "<laughter>Ja, ja,</laughter> buena observación. Meteorología, aeródromos de alternativa, orografía, densidad de tráfico y espacio aéreo."
+        e: contento
+      - l: "Y la E es de ‹External pressures›. Presiones externas."
+      - n: "Esta es la más traicionera. Factores como la necesidad de acabar un curso, la presión de no decepcionar a un pasajero, o la urgencia ante una ventana meteorológica que se cierra."
+        e: serio
+      - l: "O sea, la que te hace decir: «ya que estoy aquí, voy»."
+        e: pensativo
+      - n: "Esa. Un matiz: PAVE se aplica dentro del modelo de las tres P de gestión de riesgos."
+      - l: "Tres P. Vamos."
+      - n: "Primera: ‹percibir› los peligros del vuelo. Con PAVE. Segunda: ‹procesar› su efecto sobre la seguridad. Y tercera: ‹actuar›, en inglés ‹Perform›, aplicando la mejor medida."
+      - l: "Percibir, procesar, actuar. Y se repite."
+        e: calido
+      - n: "Durante todo el vuelo. No es un trámite de antes de despegar."
+        e: serio
+      - l: "La regla de oro, ¿cuál es?"
+      - n: "Repasa tu vuelo con PAVE antes de despegar. Así puedes cortar la cadena del error antes incluso de sentarte en la cabina."
+      - l: "Ya sabemos de qué hablaba el capítulo uno. Romper el primer eslabón."
+        e: contento
+      - n: "Una pregunta de repaso. Un compañero te pide que le lleves a un vuelo de bautismo, y hay una nube negra que se acerca. ¿En qué letra de PAVE están los dos factores?"
+        e: pensativo
+        v: 0.95
+        pausa: 2500
+      - l: "La presión de no decepcionar al pasajero es la E, presiones externas. Y la nube que se acerca es la V, entorno."
+      - n: "Perfecto. Dos de cuatro letras activas. Mala señal."
+        e: preocupado
+        pausa: 700
+
+  - titulo: "Reconocimiento y mitigación de actitudes peligrosas"
+    turnos:
+      - n: "Ahora, algo más personal. Tus actitudes marcan cómo reaccionas ante el riesgo."
+        e: calido
+      - l: "O sea, que el riesgo no sólo está fuera. Está dentro."
+        e: asombro
+      - n: "La instrucción aeronáutica distingue cinco actitudes peligrosas, que debes saber reconocer en ti mismo y neutralizar. Y cada una viene con su frase típica y con su antídoto."
+      - l: "Pues vamos una a una. Y tú pones la voz del piloto que piensa mal."
+      - n: "<laughter>Ja, ja.</laughter> Primera: la ‹antiautoridad›. «No me digan lo que tengo que hacer»."
+        e: animado
+      - l: "Un piloto con antiautoridad rechaza los estándares, las normas o los consejos de instructores veteranos, porque los considera innecesarios o excesivos."
+      - n: "¿El antídoto?"
+      - l: "Sigue las reglas. Casi siempre tienen razón. Y muchas nacieron de un accidente."
+      - n: "Segunda: la ‹impulsividad›. «Tengo que hacer algo, y tiene que ser ya mismo»."
+      - l: "Ante un problema, sientes la necesidad de actuar sin pararte a pensar en las consecuencias."
+      - n: "Antídoto: salvo contadas emergencias extremas, tómate un segundo para aplicar el modelo DECIDE. «No tan deprisa, piensa primero»."
+      - l: "Mira qué bien conecta todo. Tercera: la ‹invulnerabilidad›. «A mí no me va a pasar»."
+        e: animado
+      - n: "Eres consciente de que hay riesgos, pero crees que a ti no te van a tocar."
+      - l: "Y el antídoto es una frase muy sencilla."
+      - n: "«Podría pasarme a mí». Los accidentes le ocurren a cualquiera que exponga su aeronave a una situación donde no existe margen de seguridad."
+      - l: "Cuarta: la arrogancia, o exceso de confianza. En inglés, ‹macho›. «Yo sí que puedo hacerlo»."
+      - n: "Quieres impresionar y demostrar lo bueno que eres. Te arriesgas sin necesidad, te saltas indicaciones y confías demasiado en tu pilotaje."
+      - l: "Antídoto."
+      - n: "Aceptar tus límites es la mejor muestra de ‹airmanship›, de buen aviador. Correr riesgos innecesarios es de inmaduros."
+      - l: "Y quinta: la ‹resignación›. «¿De qué sirve? Todo está perdido»."
+      - n: "Esta es especial, porque es lo contrario de las otras. Ante la adversidad, o la complejidad de una pérdida en ruta, crees que no tienes control. Dejas de pilotar y te conviertes en un pasajero más."
+        e: pensativo
+      - l: "Y a veces va unida a la complacencia ante problemas menores."
+      - n: "El antídoto: nunca dejes de volar la aeronave. Siempre hay alguna acción que puede mejorar la situación. Confía en tu entrenamiento. «Yo no tengo por qué rendirme, puedo cambiar esto»."
+      - l: "Repasemos las cinco. Antiautoridad, impulsividad, invulnerabilidad, arrogancia, resignación."
+      - n: "Ahora un juego. Te digo una frase y me dices qué actitud es. «Ya he aterrizado aquí cien veces, no hace falta que mire»."
+        e: animado
+        pausa: 2000
+      - l: "Mmm. Esa me suena a complacencia. Pero dentro de las cinco... invulnerabilidad, quizá."
+        e: pensativo
+      - n: "Buena respuesta. Y tienes razón en las dos. La complacencia, que veremos al final del capítulo, está muy cerca de las actitudes peligrosas. Otra: «No pienso hacer caso a ese instructor, es un exagerado»."
+        e: contento
+        pausa: 2000
+      - l: "Antiautoridad. Esa sí."
+        e: contento
+      - n: "Y última: «Como la cosa se ha liado, ya no hay nada que hacer»."
+        pausa: 2000
+      - l: "Resignación. Y la respuesta es: sigue volando."
+        e: serio
+        pausa: 700
+
+  - titulo: "Gestión de la carga de trabajo y el estrés psicológico en vuelo"
+    turnos:
+      - l: "Volvemos al estrés. Pero ahora con enfoque psicológico."
+        e: calido
+      - n: "El estrés es la respuesta biológica no específica con la que el cuerpo reacciona ante cualquier demanda física, ambiental o psicológica. Funciona como un sistema de alarma muy antiguo que avisa de un posible peligro."
+      - l: "Y ya sabemos que no todo es malo."
+      - n: "Exacto. Un nivel moderado, como el de tu primer vuelo solo, ayuda. Te pone alerta, agudiza los sentidos, acelera la reacción. Ahí es donde más rindes."
+      - l: "Pero si sigue subiendo..."
+      - n: "Si la presión psicológica continúa aumentando, por ejemplo si te metes inadvertidamente en condiciones instrumentales severas, ignorando tus límites, ese estrés tolerable se transforma rápidamente en pánico."
+      - l: "Y ahí todo se cae."
+        e: preocupado
+      - n: "El rendimiento cae en picado. Los sentidos se saturan. El cerebro no puede procesar todo lo que le llega de la cabina. Se bloquea. Y pone toda la atención que le queda en un solo detalle del vuelo."
+      - l: "Y casi siempre el menos importante."
+        e: pensativo
+      - n: "A menudo, sí. Y deja de atender a todo lo demás. Es lo que se llama, de manera informal, ‹visión de túnel›."
+      - l: "Visión de túnel. Atención de túnel, más bien."
+        e: pensativo
+      - n: "Y ahora, el aviso de seguridad. Bajo estrés extremo y pánico, instintos básicos de supervivencia, como intentar alejarse del suelo tirando fuertemente de la palanca, pueden superar tu raciocinio."
+        e: serio
+        v: 0.93
+      - l: "Tirar de la palanca. El instinto de «sube, sube»."
+        e: serio
+      - n: "Y a baja altura ese tirón brusco gasta la energía del planeador. Y acaba en una pérdida de control, o en una barrena sin altura para recuperarla."
+      - l: "O sea, que el instinto que te dice «sálvate» es precisamente el que te mata."
+        e: asombro
+      - n: "Por eso: conoce tus límites. No te metas en situaciones para las que no estás bien preparado."
+      - l: "Y hay otra imagen muy buena en el libro. El vaso de agua."
+        e: animado
+      - n: "Cada segundo en vuelo, percibes información del entorno, la procesas y actúas. Pero la mente sólo puede procesar a la vez una cantidad limitada. Es como un vaso de agua. Admite cierto volumen, y no más."
+      - l: "Y un ejemplo."
+      - n: "Un remolque turbulento, de espaldas al sol, buscando a otro velero que notifica en base. El vaso se desborda. A esto se le llama sobrecarga de trabajo."
+      - l: "Llegan más tareas e información de las que caben en el tiempo disponible."
+      - n: "Y cuando además la tarea es demasiado difícil para tu entrenamiento en ese momento, el margen de seguridad desaparece."
+      - l: "¿Y qué hago cuando noto que el vaso se desborda?"
+      - n: "La regla de oro. Para un segundo. Respira. Y simplifica tus prioridades con la vieja regla de la aviación."
+      - l: "Aviate, Navigate, Communicate."
+        e: serio
+        v: 0.95
+      - n: "Primero, ‹aviate›: vuela el planeador con seguridad. Segundo, ‹navigate›: decide hacia dónde. Y tercero, ‹communicate›: comunica lo que sea necesario. Pedir ayuda, o avisar a quien deba saberlo."
+      - l: "Volar, navegar, comunicar. En ese orden. Nunca al revés."
+        e: serio
+        v: 0.93
+      - n: "Nunca. Que mucha gente se pone a hablar por radio mientras el planeador se cae."
+        e: preocupado
+      - l: "Y no es una anécdota. Es de manual."
+      - n: "Una pregunta. Vas en un planeador, se te ha hecho un lío con el circuito, y de repente suena la radio. ¿Qué haces primero?"
+        e: pensativo
+        v: 0.95
+        pausa: 2000
+      - l: "Volar. Estabilizar el planeador. Y luego ya contesto."
+      - n: "Aviate."
+        e: serio
+        v: 0.9
+        pausa: 700
+
+  - titulo: "Gestión de recursos para pilotos solos (Single-Pilot Resource Management — SRM)"
+    turnos:
+      - n: "Un planeador, un piloto. Aquí no hay copiloto que te avise."
+        e: serio
+      - l: "Y para eso existe el SRM. Gestión de recursos para pilotos solos."
+      - n: "Consiste en aprovechar bien todos los recursos, a bordo y fuera del planeador, antes y durante el vuelo, cuando vuelas solo. Información, equipos y ayuda de otras personas."
+      - l: "En una tripulación de varios pilotos las tareas se reparten."
+      - n: "Pero en un planeador decides tú solo durante todo el vuelo. Por eso tienes que usar todo lo que tengas a mano para no pasar de tu capacidad."
+      - l: "¿Y qué cuenta como recurso?"
+      - n: "Tu propio equipo, como la instrumentación o el compensador de a bordo. Las comunicaciones de radio, con consultas al control de tránsito aéreo o información meteorológica. Y herramientas en tierra: un buen prevuelo, o un instructor en radio."
+      - l: "[mn] O sea, que hasta el instructor al otro lado de la radio es un recurso."
+        e: contento
+      - n: "Y de los mejores. Un consejo de buen hacer: es preferible anticiparse en tierra que reaccionar en el aire."
+      - l: "No juntes muchas situaciones nuevas a la vez."
+      - n: "Un velero nuevo, en un aeródromo desconocido y con mal tiempo. Saber evitarlo es la mejor prueba de que gestionas bien tus recursos."
+      - l: "Igual que decíamos en el capítulo anterior. Las primeras veces, de una en una."
+        e: contento
+        pausa: 700
+
+  - titulo: "Complacencia y falta de disciplina operativa"
+    turnos:
+      - l: "Terminamos con dos conceptos que están muy cerca de las actitudes peligrosas."
+        e: calido
+      - n: "La complacencia, y la indisciplina operativa."
+      - l: "La complacencia."
+      - n: "Nace de una falsa sensación de seguridad, generada por la excesiva rutina y la familiaridad del entorno. Pensamientos como «he aterrizado aquí miles de veces»."
+      - l: "Y eso lleva a saltarte la lista de comprobación prevuelo, o a dejar de vigilar el tráfico."
+      - n: "Aunque tu nivel de destreza sea excelente, no bajes nunca la guardia."
+      - l: "Y la indisciplina."
+      - n: "Está ligada íntimamente a la antiautoridad. Implica apartarte deliberadamente de los estándares y procedimientos que te enseñaron. Y se contagia."
+      - l: "¿Se contagia?"
+        e: asombro
+      - n: "Una mala práctica que se ve a menudo en un campo acaba pareciendo normal a todos sus pilotos. Pasa a los alumnos. Y deteriora la cultura de seguridad de todo el club."
+      - l: "Y ahí conectamos con lo que vimos de la cultura organizacional. Lo que hace un club se hace costumbre."
+      - n: "Exacto. Y es muy fácil. Basta con que nadie diga nada."
+        e: serio
+      - l: "Moraleja: si ves una mala práctica, no la copies. Y si puedes, dilo."
+        e: serio
+        v: 0.95
+        pausa: 700
+
+  - titulo: "Resumen del capítulo"
+    turnos:
+      - n: "Hora del repaso. Nueve ideas."
+        e: animado
+        v: 1.05
+      - l: "Primera: conciencia situacional. Percibir lo que ocurre, comprender su significado y proyectar su estado futuro. Perderla aparece con frecuencia en las cadenas de accidentes."
+      - n: "Segunda: la toma de decisiones, ADM. Un proceso mental sistemático, como el modelo DECIDE, para elegir consistentemente la mejor opción."
+      - l: "Tercera: el estrés. Un nivel moderado mejora el rendimiento. El excesivo bloquea la toma de decisiones y fija la atención en detalles irrelevantes. Visión de túnel."
+      - n: "Cuarta: la carga de trabajo. Tu capacidad es limitada, como un vaso de agua. Si el vuelo llena el vaso, te desbordas. Simplifica con aviate, navigate, communicate."
+      - l: "Quinta: el procesamiento de información. Percepción, atención y memoria: sensorial, a corto plazo y a largo plazo. Un exceso de información sin asimilar genera sobrecarga."
+      - n: "Sexta: la gestión de riesgos con PAVE. Piloto, Aeronave, enVironment y External pressures."
+      - l: "Séptima: las cinco actitudes peligrosas. Antiautoridad, impulsividad, invulnerabilidad, arrogancia y resignación."
+      - n: "Octava: el SRM. La habilidad del piloto solo para usar el equipo a bordo, la información, las comunicaciones y la ayuda externa, y no exceder su capacidad."
+      - l: "Y novena: complacencia e indisciplina. La complacencia viene del exceso de rutina. La indisciplina contagia una mala cultura al aeródromo."
+      - n: "Si tuvieras que quedarte con una sola frase."
+        e: pensativo
+      - l: "Volar bien es, sobre todo, decidir bien."
+        e: serio
+        v: 0.92
+      - n: "Y decidir bien empieza en tierra, con PAVE. Nos vemos en el capítulo cuatro, sobre el uso del oxígeno."
+        e: calido
+      - l: "Hasta pronto."
+        e: calido

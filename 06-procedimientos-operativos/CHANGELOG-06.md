@@ -16,6 +16,15 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.5] — 18 de noviembre de 2026
+
+**Qué releer:** nada. El contenido no cambia respecto a la `1.0-rc.4`: sólo los reconocimientos y el estado editorial.
+
+### Maqueta y producción
+
+* **Reconocimientos** — Luís Ferreira, Encarnación Novillo-Fertrell, Carlos Bravo y Sergi Pujol aparecen ya con su ✓ de validación técnica en este libro.
+* **Estado editorial** — los candidatos de versión dejan de salir como «En revisión» y pasan a «Candidato de versión» en la marca de agua, la portadilla y el aviso del EPUB. La nota dice que la revisión técnica por los instructores está completada.
+
 ## [1.0-rc.4] — 2 de octubre de 2026
 
 **Qué releer:** **el epígrafe** y, en el **Glosario**, la entrada *Fallo de suelta*. Además, **cap01** (una remisión al libro 4 y el chequeo IMSAFE), **cap03** (oxígeno en el vuelo de onda), la **licencia** de los preliminares y la **Bibliografía**.

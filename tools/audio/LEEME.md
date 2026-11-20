@@ -87,6 +87,52 @@ calidad máxima (`num_step: 32`).
    el anterior, y a la segunda se queda sin VRAM: es `_build_synth` en
    VoiceStudio 0.5.6. `/generate` reutiliza un solo proceso.
 
+## Podcast: guion de diálogo a mano
+
+Un capítulo puede sonar como podcast en vez de como lectura. Si existe
+`tools/audio/podcast/<libro>/<capítulo>.yml`, `guion.py` usa ese guion en lugar
+del derivado del `.qmd`; `--literal` (`audio.py --literal`) fuerza la lectura
+del libro. Es contenido editorial escrito a mano: se edita aquí, y el `.qmd`
+sigue siendo la fuente de los hechos y las cifras.
+
+```yaml
+pistas:                       # una por sección ## (capítulo del MP3)
+  - titulo: Título de la sección
+    turnos:
+      - n: Lo que dice la Narradora.   # voz SPL Narradora (rol podcast-n)
+      - l: Lo que dice el Locutor.     # voz SPL Locutor (rol podcast-l)
+        pausa: 900                     # silencio tras el turno, en ms
+        e: contento                    # emoción: instrucción de estilo de ese turno
+        v: 0.93                        # ritmo (0,5–2,0), aplicado en el montaje
+      - pausa: 2500                    # silencio suelto, para pensar
+```
+
+Los textos pasan por `normalizar.py` como los del libro (siglas en
+`pronunciacion.yml`, cifras, normas). `‹…›` es énfasis. Las dos voces son las
+dos del elenco con calidad suficiente: Sharvard F (Narradora) y davefx
+(Locutor, sin la instrucción de estilo de Alerta). Hoy hay guion de podcast
+para el libro 02, capítulos 1 a 4.
+
+**Expresividad.** Tres palancas, medidas en `build/audio/casting/emocion-podcast/`:
+
+- `e:` pone en ese turno una instrucción de estilo de CosyVoice3 (`emociones:`
+  de `reparto.yml`, en español: en inglés el motor pasa a pronunciar a la
+  inglesa). Viaja por fragmento en `POST /generate` y entra en la clave de la
+  caché. Con instrucción, VoiceStudio clona sin la transcripción de la
+  referencia: el timbre puede desviarse, así que sólo la llevan los turnos que
+  la piden (un tercio, más o menos).
+- Etiquetas en el texto, permitidas por voz en `etiquetas:` de `reparto.yml`.
+  `<laughter>…</laughter>` vale con las dos voces; `[laughter]`, `[breath]` y
+  `[mn]` (un «mm» de asentimiento), sólo con el Locutor. El guion falla si una
+  voz usa una etiqueta que no le toca. No valen: `[cough]` (sílabas sueltas),
+  `[vocalized-noise]` (inventa palabras) ni `[sigh]`, `[quick_breath]` y
+  `[lipsmack]` (no suenan).
+- `v:` estira o acorta el fragmento en el montaje (`atempo`, sin cambiar el
+  tono). El `speed` de CosyVoice3 no sirve: VoiceStudio no se lo pasa.
+
+CosyVoice3 ignora la semilla: cada síntesis nueva de un mismo texto sale
+distinta. La caché conserva la toma elegida.
+
 ## Corregir una pronunciación
 
 1. Busca la palabra en el guion (`build/audio/guion/…/capNN.txt`).
@@ -119,16 +165,16 @@ declara en sus créditos y en sus metadatos que lo narran voces sintéticas.
 
 `make audio-verificar` hace dos comprobaciones:
 
-- **Transcripción**: transcribe cada sección con el reconocedor de VoiceStudio y
-  la compara con el guion. Si el porcentaje de error pasa del 12 %, conviene
+- **Transcripción**: transcribe cada sección en GPU con faster-whisper y la
+  compara con el guion. Si el porcentaje de error pasa del 12 %, conviene
   escuchar la sección.
 - **Señal**: con ffmpeg mide la sonoridad (el objetivo de ACX es -19 LUFS), el
   pico y los silencios de más de 3 s.
 
-Con 6 GB de VRAM, el reconocedor large-v3 puede colgarse junto al modelo de voz.
-`verificar.py` descarga antes el modelo de voz. Si aun así no responde, usa
-`SIN_ASR=1` para medir sólo la señal, y en VoiceStudio cambia el motor ASR a
-«Faster-Whisper (crash-isolated subprocess)».
+Antes de verificar, cierra VoiceStudio. La comprobación se niega a empezar si la
+GPU tiene procesos de cálculo activos o menos VRAM libre de la que necesita el
+modelo (4 GB para `medium`). `SIN_ASR=1` omite la transcripción y permite medir
+sólo la señal sin GPU.
 
 ## Casting: elegir las voces
 
@@ -246,7 +292,8 @@ Con 6 GB de VRAM hay tres trampas, ya resueltas en el código:
 
 - La referencia debe durar menos de unos 9 s. VoiceStudio la codifica entera
   de una vez y una de 12 s agota la memoria. Las de MLS, con clips de 10–20 s,
-  se recortan en una pausa y se transcriben con `transcribir.py` en CPU.
+  se recortan en una pausa y se transcriben con `transcribir.py` en GPU, con
+  VoiceStudio cerrado.
 - `torch.compile` tiene que estar desactivado en VoiceStudio (issue #2135):
   reserva memoria para cada longitud de frase y llena la tarjeta.
 - Se sintetiza por `/generate`. La vía `/v1/audio/speech` carga una segunda

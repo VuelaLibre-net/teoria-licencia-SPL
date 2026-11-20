@@ -1,0 +1,282 @@
+# Podcast del libro 02, capítulo 1. Dos voces: n = Narradora, l = Locutor.
+# Los hechos y las cifras salen del .qmd; aquí sólo cambia cómo se cuentan.
+# ‹…› es énfasis; `pausa:` en ms tras el turno; `- pausa: N` es un silencio suelto.
+
+pistas:
+  - titulo: "Factores humanos: conceptos básicos"
+    turnos:
+      - n: "Bienvenido al tema dos del curso de piloto de planeador: factores humanos. Y empezamos con una pregunta incómoda."
+        e: calido
+      - l: "[breath] Uy... ¡Dispara!"
+        e: animado
+      - n: "Cuando un planeador tiene un accidente, ¿de quién suele ser la culpa? ¿Del planeador, del tiempo, o del piloto?"
+        v: 0.95
+        pausa: 900
+      - l: "Mmm... Mi intuición dice que del tiempo. O de una racha de mala suerte."
+        e: pensativo
+      - n: "Pues no. Y ahí está el problema. Detrás de la mayoría de los accidentes de vuelo a vela hay una causa humana. Y casi todos se podían haber evitado."
+        e: serio
+      - l: "[mn] Vaya. Entonces pilotar bien, por sí solo, no basta."
+        e: pensativo
+      - n: "Exacto. Y de eso va este capítulo: de por qué nos equivocamos, y de cómo poner barreras para que un error no acabe en accidente."
+      - l: "<laughter>Que no cunda el pánico, ¿eh?</laughter> Esto no va de asustarse. Va de aprender trucos que funcionan."
+        e: calido
+      - n: "Justo. Al final del capítulo sabrás cuatro cosas. Primera: el modelo SHELL, que explica cómo interactúas con todo lo que te rodea. Segunda: el error humano y el famoso queso suizo."
+      - l: "Tercera, la cadena del error, y por qué basta con romper un eslabón. Y cuarta, las influencias en el comportamiento: la presión de grupo, la cultura justa y la pirámide de Maslow."
+      - n: "Empezamos."
+        e: animado
+        pausa: 700
+
+  - titulo: "Introducción a los factores humanos y la seguridad en el vuelo"
+    turnos:
+      - n: "Piensa en cómo se formaban los pilotos hace décadas. Casi todo era técnica de manejo de los mandos. En inglés lo llaman ‹stick and rudder skills›: habilidad con la palanca y el pedal."
+      - l: "[mn] Que está muy bien, ¿eh? Una técnica limpia es importante."
+      - n: "Muchísimo. Pero la experiencia demostró que una técnica impecable no basta para volar seguro. Y de lo que falta se ocupan los ‹factores humanos›."
+      - l: "A ver, ponle definición. Que suena a asignatura de psicología."
+      - n: "Según el manual de la OACI, el documento nueve mil seiscientos ochenta y tres, los factores humanos tratan de las personas en su entorno de vida y de trabajo. Su relación con las máquinas, con los procedimientos, con el entorno, y con otras personas."
+      - l: "Dicho en piloto: cómo te llevas con tu planeador, con las normas, con el tiempo que hace y con la gente del aeródromo."
+        e: calido
+      - n: "Eso es. Y hay una frase del libro que me gusta mucho. Dice: el piloto se equivoca."
+      - l: "<laughter>Directa, ¿eh?</laughter>"
+      - n: "Sin adornos. Percibimos, recordamos y procesamos la información con límites. Y más aún bajo presión."
+        e: serio
+        v: 0.95
+      - l: "O sea que no se trata de convertirte en un piloto que nunca falla."
+      - n: "Ese piloto no existe. Se trata de reconocer tus limitaciones, fisiológicas y psicológicas, aceptarlas, y aplicar estrategias probadas para manejarlas cuando tomas decisiones en vuelo."
+      - l: "Eso tiene nombre, y lo vas a oír muchísimo: ADM, de ‹Aeronautical Decision-Making›. Toma de decisiones aeronáuticas."
+      - n: "Apúntalo. Nos acompañará todo el curso."
+        pausa: 700
+
+  - titulo: "El factor humano en los accidentes de aviación"
+    turnos:
+      - n: "Vamos con los números. Para el conjunto de la aviación, la FAA atribuye a los factores humanos alrededor del 80 % de los accidentes."
+      - l: "[breath] Ochenta por ciento. Ya es mucho."
+        e: preocupado
+      - n: "Pues en vuelo a vela sube. Un análisis de unos doscientos cincuenta informes de accidentes de planeador, de Alemania, Estados Unidos y Austria, atribuye cerca del 90 % a errores del piloto."
+      - l: "¿Noventa? Mi intuición de antes se ha hecho trizas."
+        e: asombro
+      - n: "<laughter>Ja, ja,</laughter> un poco. Eso sí: son cifras de estudios concretos, no una ley. Su valor es sobre todo pedagógico."
+      - l: "¿Pedagógico en qué sentido?"
+      - n: "En que si casi todos los accidentes son por errores humanos, entonces son previsibles. Y si son previsibles, son ‹evitables›."
+      - l: "Esa es la parte buena de la noticia. Si el problema fuera el viento, no podríamos hacer nada. Pero el problema somos nosotros, y eso sí se trabaja."
+        e: animado
+      - n: "Ahora, ¿cómo se reparte ese componente humano? Cuatro grandes bloques. ¿Quieres adivinar cuál es el primero?"
+      - l: "Venga. Diría que... pilotar mal. Torpeza con los mandos."
+        pausa: 600
+      - n: "Cerca. Pero no. El primero, con aproximadamente un 40 %, es la toma de decisiones inadecuada."
+      - l: "[mn] Decidir mal, no pilotar mal."
+        e: pensativo
+      - n: "Eso. Por ejemplo, seguir adelante hacia un tiempo que empeora, o retrasar demasiado la búsqueda de un campo para aterrizar fuera."
+      - l: "Ese lo he visto. El «una térmica más y me voy», que se alarga y se alarga."
+      - n: "Segundo bloque, aproximadamente el 30 %: errores de pilotaje. Fallos de técnica o de manejo de mandos, muchas veces ligados a la distracción."
+      - l: "Y el tercero: preparación deficiente antes del vuelo, un 12 % aproximadamente. Omisiones críticas en el montaje o en la verificación previa. Cosas como no conectar bien los mandos, o no asegurar la cabina."
+      - n: "Y el cuarto, un 6 % aproximadamente: conciencia situacional insuficiente. Perder la percepción espacial o no ver a otro tráfico, con riesgo de colisión en vuelo."
+      - l: "Que en inglés se llama ‹mid-air collision›."
+      - n: "Resumen rápido: decidir, pilotar, preparar y ver. Cuarenta, treinta, doce y seis."
+      - l: "Decidir, pilotar, preparar, ver. Repítelo en la ducha."
+        e: animado
+      - n: "Ahora, un aviso importante."
+        e: serio
+        v: 0.93
+        pausa: 500
+      - l: "Seguridad. Atención, que esto no es de relleno."
+        e: serio
+        v: 0.93
+      - n: "La revisión anual de seguridad de EASA, la de dos mil diecinueve, indica que las fases más críticas del vuelo en planeador son el aterrizaje, con aproximadamente el 50 % de los accidentes, y el despegue, con el 21 %."
+        e: serio
+        v: 0.95
+      - l: "O sea que entre las dos fases, más del setenta por ciento. Con muy poco tiempo de vuelo en cada una."
+        e: preocupado
+      - n: "Esos datos son el promedio de dos mil ocho a dos mil diecisiete, y cuentan sólo los accidentes con fase conocida. La conclusión práctica: máximo nivel de atención en esos momentos, cabina libre de distracciones, y todos los sistemas verificados."
+      - l: "Y hay otro dato sobre los accidentes mortales."
+      - n: "Sí. Entre dos mil catorce y dos mil dieciocho, alrededor del 26 % se debieron a pérdida aerodinámica y barrena, que en inglés es ‹stall and spin›. Especialmente peligrosas a baja altura, en el circuito de tráfico."
+      - l: "Y luego, un 17 % por colisión con la ladera, y un 10 % por lanzamientos a torno incompletos mal gestionados."
+      - n: "Estas cifras no están para asustar. Están para decirte dónde poner la atención: en las fases y situaciones de más riesgo, con criterios más conservadores allí donde los márgenes son más estrechos."
+        e: calido
+      - l: "Más prudentes donde menos margen tienes. Anotado."
+        pausa: 700
+
+  - titulo: "Modelos conceptuales: el modelo SHELL"
+    turnos:
+      - l: "Vale, toca el modelo SHELL. Que suena a gasolinera."
+        e: animado
+      - n: "<laughter>Ja, ja.</laughter> Nada que ver, aunque el nombre es un acrónimo. Antes de nada: en vuelo, el piloto está siempre en relación con lo que le rodea. Y para estudiar esa relación, la OACI usa el modelo SHELL."
+      - l: "¿Y quién lo inventó?"
+      - n: "El psicólogo Elwyn Edwards, en mil novecientos setenta y dos, como modelo SHEL. Después lo representó Frank Hawkins, en mil novecientos setenta y cinco, con el diagrama de bloques que usa hoy la OACI."
+      - l: "Y el dibujo es como un rompecabezas, ¿no?"
+      - n: "Eso es. Piezas que encajan entre sí, con el factor humano siempre en el centro. Te lo cuento pieza por pieza, y tú me dices si lo ves claro."
+      - l: "Dale. La primera es la S."
+      - n: "‹Software›. Ojo: aquí no hablamos de ordenadores. Son los elementos no materiales. La reglamentación, los manuales de vuelo, los procedimientos, las listas de chequeo y la simbología aeronáutica."
+      - l: "O sea, todo lo que está escrito o acordado, pero no se puede tocar."
+      - n: "Perfecto. La H: ‹Hardware›."
+      - l: "Esa es fácil. La máquina. El propio velero, los instrumentos de a bordo, cualquier equipo físico."
+      - n: "Sí. La E: ‹Environment›, el entorno donde se opera. Tanto las condiciones externas, como la meteorología, la visibilidad y la turbulencia, como las internas de la cabina: ruido, temperatura, ergonomía."
+      - l: "Pensar en el calor que pasas bajo la cúpula en verano, ¿no? Eso también cuenta."
+        e: calido
+      - n: "Cuenta. Y ahora, las dos L. Las dos son ‹Liveware›, que significa literalmente «equipo vivo». Las personas."
+      - l: "Primera L: las otras personas. Tu instructor, el personal de pista, los controladores, otros pilotos."
+      - n: "Y la segunda L, la del centro, eres ‹tú›. El piloto al mando, ‹Pilot in Command›. Tus capacidades físicas y cognitivas, tu entrenamiento, tu experiencia. Y también tu estado de fatiga o de estrés."
+      - l: "Ya. Y lo importante está en las juntas entre las piezas, ¿verdad?"
+      - n: "¡Exacto! Los problemas aparecen en las juntas, en las interfaces entre tu «yo central» y cada uno de los demás bloques. Si una pieza no encaja, aparece la ocasión para el error humano."
+        e: animado
+      - l: "Dame un ejemplo."
+      - n: "El del libro: interferencias de radio que dificultan la comunicación. La interfaz entre tú y el entorno falla, y de ahí puede salir un malentendido."
+      - l: "Pues voy a hacer un repaso, por si acaso. S de software: normas y procedimientos. H de hardware: el planeador. E de entorno: el tiempo y la cabina. L de liveware: las otras personas. Y la otra L, tú."
+      - n: "Impecable. Una pregunta para pensar: ¿en qué junta fallaría un piloto que sale a volar sin haber dormido?"
+        e: pensativo
+        v: 0.95
+        pausa: 2500
+      - l: "Pues entre tú y... tú mismo. Es la L central, la del piloto. La fatiga está dentro de la propia pieza del medio."
+      - n: "Muy bien visto. Y desde ahí, ese cansancio se contagia al resto de interfaces: lees peor los instrumentos, interpretas peor la radio."
+        e: contento
+        pausa: 700
+
+  - titulo: "El error humano: tipos y el modelo del queso suizo"
+    turnos:
+      - n: "Ahora hablemos del error. Según James Reason, hay error humano cuando una secuencia ‹planificada› de acciones, físicas o mentales, no logra el resultado deseado, sin que el fallo pueda atribuirse al azar."
+      - l: "O sea: querías hacer algo, lo planeaste, y no salió. Y no fue mala suerte."
+      - n: "Eso. Y la filosofía moderna de seguridad aeronáutica asume algo que a mucha gente le choca. Que errar es humano, y es inevitable."
+      - l: "Pero entonces, ¿para qué esforzarnos?"
+        e: pensativo
+      - n: "Porque el objetivo no es eliminar los errores, que no se puede. Es detectarlos pronto, y poner barreras defensivas antes de que tengan consecuencias."
+      - l: "Y ahí entra el queso."
+        e: animado
+      - n: "El queso suizo, sí. James Reason lo ilustró así. Imagina varias lonchas de queso, de esas con agujeros, colocadas una detrás de otra."
+      - l: "Cada loncha es una capa del sistema de seguridad. La instrucción, los procedimientos, las listas de verificación, la supervisión."
+      - n: "Y cada capa actúa como una barrera. Pero con agujeros. Ninguna barrera es perfecta."
+      - l: "Y si los agujeros se alinean..."
+      - n: "Se produce el accidente. Una cosa que falla, sola, normalmente la frena la siguiente loncha. El problema llega cuando los agujeros de todas las capas coinciden."
+      - l: "Qué bien se recuerda con la imagen del queso."
+        e: contento
+      - n: "Para eso están los modelos. Ahora, dos formas de clasificar los fallos. La primera, según la intención del acto. ¿Error o violación?"
+      - l: "Dime la diferencia."
+      - n: "Error: una desviación involuntaria. El piloto falla sin pretenderlo, por falta de atención o por aplicar una técnica incorrecta."
+      - l: "Y la violación, un incumplimiento deliberado. Sabes la norma y decides no cumplirla."
+      - n: "Y aquí viene lo peligroso. Cuando una violación se repite sin consecuencias, genera falsa confianza y normaliza la conducta de riesgo."
+        e: serio
+      - l: "O sea: «llevo veinte veces haciéndolo y no ha pasado nada». Y la vez veintiuna..."
+        e: pensativo
+      - n: "Esa. La segunda clasificación es según el momento en que se manifiestan respecto al accidente. Errores latentes y errores activos."
+      - l: "Latentes: vulnerabilidades que ya estaban ahí. Una instrucción inicial deficiente, o un procedimiento inadecuado que favorece el fallo."
+      - n: "Y activos: la equivocación inmediata que dispara la cadena. Como intentar un viraje a baja velocidad y baja altura."
+      - l: "Un truco: el latente es el agujero que llevaba tiempo en el queso. El activo es el que se abre justo ahora."
+        e: animado
+      - n: "Muy buena imagen. Y una pregunta rápida: una instrucción de montaje deficiente, ¿latente o activo?"
+        e: contento
+        pausa: 2000
+      - l: "Latente. Estaba ahí antes de que nadie montase nada."
+      - n: "Correcto. Ahora, un consejo de ‹airmanship›, de buen hacer aeronáutico."
+        pausa: 400
+      - l: "Para reducir la probabilidad de error: usa las listas de verificación aunque conozcas el procedimiento de memoria."
+      - n: "Pide la evaluación del instructor con regularidad."
+      - l: "Y vigila los factores que degradan el rendimiento, como la fatiga. O la complacencia que da la experiencia acumulada."
+      - n: "La complacencia. Esa trampa es de los veteranos. Cuando crees que ya no necesitas la lista."
+        e: pensativo
+      - l: "Pues usa la lista."
+        e: serio
+        v: 0.95
+        pausa: 700
+
+  - titulo: "Prevención y mitigación del error"
+    turnos:
+      - n: "Y llegamos a una de las ideas más prácticas del capítulo. Los accidentes rara vez tienen una causa única."
+      - l: "Lo que se suele ver es una sucesión."
+      - n: "Una sucesión de decisiones erróneas, condiciones previas y errores latentes que, alineados, forman la ‹cadena del error›. Es lo mismo que el queso suizo, contado de otra forma."
+      - l: "Una cadena. Eslabón tras eslabón."
+      - n: "Y de ahí sale la consecuencia más importante de todo el capítulo. Atención, que esta es la clave."
+        e: serio
+      - l: "Dímela."
+      - n: "Basta con interrumpir ‹un solo eslabón› de la cadena para prevenir el accidente."
+      - l: "[mn] Uno solo. No hace falta arreglarlo todo."
+        e: pensativo
+      - n: "No. Una decisión conservadora, una verificación adicional, o rechazar el vuelo ante una duda razonable. Es suficiente para detener el proceso antes de que derive en consecuencias."
+      - l: "Y esto, en la práctica, ¿cómo suena?"
+      - n: "Suena a «hoy no vuelo». Suena a «voy a revisarlo otra vez». Suena a «prefiero aterrizar ahora»."
+        e: serio
+        v: 0.95
+      - l: "Y ninguna de esas frases es de cobardes."
+        e: serio
+      - n: "Al contrario. Aquí la regla de oro."
+        e: serio
+        pausa: 500
+      - l: "Romper un solo eslabón salva el vuelo."
+        e: serio
+        v: 0.92
+      - n: "Ante cualquier señal de que la cadena del error ha empezado, como un tiempo que se deteriora, una avería sin resolver o una fatiga elevada, adopta la medida más conservadora disponible."
+      - l: "Es la acción más eficaz que tiene un piloto al alcance."
+      - n: "Repítela conmigo, y no la olvides: romper un solo eslabón salva el vuelo."
+      - l: "Romper un solo eslabón salva el vuelo."
+        e: serio
+        v: 0.92
+        pausa: 700
+
+  - titulo: "Influencias en el comportamiento humano"
+    turnos:
+      - l: "Queda la parte social. Que en vuelo a vela pesa mucho."
+      - n: "Muchísimo. El piloto opera en un entorno donde el club, la escuela, los instructores y los compañeros condicionan continuamente sus decisiones. Y para que no pesen en la seguridad, lo primero es saber reconocerlas."
+      - l: "Vamos con la primera. La presión de los compañeros, ‹peer pressure›."
+      - n: "Imagínate la escena. Día con viento cruzado marginal, o con un pronóstico dudoso. La mayoría del club decide despegar. Y tú estás dudando."
+      - l: "Y nadie te dice nada. Pero ahí, en el aire, se nota."
+        e: pensativo
+      - n: "Surge una presión implícita para no quedar al margen del grupo. Y hay que saber distinguir: ¿esta decisión sale de mi criterio técnico, o de la opinión ajena?"
+      - l: "Pregunta muy buena para hacerse en la pista."
+      - n: "Y el libro lo cierra con una frase muy clara. La firma en el libro del planeador es personal e intransferible. La responsabilidad de la decisión recae exclusivamente en el piloto al mando."
+      - l: "Nadie vuela por ti. Y si algo sale mal, tu firma está ahí."
+        e: serio
+      - n: "Pasamos a la cultura organizacional. La forma en que un club gestiona los errores define su cultura."
+      - l: "Y históricamente, la respuesta de la aviación fue castigar."
+      - n: "Sí. Quien cometía un fallo era sancionado o reprendido. Y con ese enfoque la seguridad ‹no mejoró›."
+      - l: "¿Y por qué? Parecería lógico."
+        e: asombro
+      - n: "Porque se escondían los errores. Los daños no se reportaban por miedo al castigo, y acababan produciendo accidentes en vuelos posteriores."
+      - l: "Claro. Si ocultas el golpe, el siguiente piloto vuela con un avión dañado y sin saberlo."
+      - n: "Por eso hoy se promueve la ‹cultura justa›. En inglés, ‹Just Culture›."
+      - l: "Explícamela. Que no suene a barra libre."
+      - n: "No lo es. Reconoce que el error no intencionado es inevitable, y lo trata como una oportunidad de aprendizaje colectivo. No se castigan las acciones, omisiones o decisiones acordes con la experiencia y la formación de cada uno."
+      - l: "Pero hay límites."
+        e: serio
+      - n: "Claros. No se toleran la negligencia grave, las infracciones intencionadas ni los actos destructivos. Lo dice el Reglamento de la Unión Europea trescientos setenta y seis de dos mil catorce, en su artículo dos, punto doce."
+      - l: "Equivocarse, bien. Hacerlo a propósito o con negligencia grave, no."
+      - n: "Eso. Y aquí otro consejo de buen hacer aeronáutico. Fomenta la cultura justa en tu entorno inmediato."
+      - l: "Ejemplo del libro. Durante el remolque o el guardado del planeador, se produce un daño accidental. Un golpe en el estabilizador al entrar en el hangar."
+      - n: "Avísalo de inmediato al instructor o al mecánico responsable."
+      - l: "Aunque dé vergüenza."
+        e: calido
+      - n: "Aunque dé vergüenza. Encubrirlo pone en riesgo al piloto que vuele esa aeronave a continuación, sin conocer el daño preexistente."
+      - l: "Y esa persona podrías ser tú, otro día."
+        e: serio
+        v: 0.93
+      - n: "Última influencia: la motivación y el desempeño. La pirámide de Maslow."
+      - l: "Que viene de la psicología. Cinco niveles, ¿no?"
+      - n: "Cinco. En la base, las necesidades ‹fisiológicas›: descanso, hidratación, alimentación. Encima, las de ‹seguridad›, sentirse a salvo."
+      - l: "Luego las de pertenencia."
+      - n: "Después las de estima. Y en la cima, la autorrealización."
+      - l: "Base, seguridad, pertenencia, estima, cima. Como una escalera."
+      - n: "Y aplicada al vuelo tiene mucha miga. Cuando la motivación por conseguir un objetivo, batir una marca personal o ganar una competición, pasa por encima de las necesidades básicas, el piloto puede asumir riesgos injustificados."
+      - l: "Seguir hacia un tiempo malo, sobrevolar zonas sin alternativa de aterrizaje, ignorar señales de alarma."
+      - n: "Y con un estado emocional negativo intenso, el efecto es parecido. Estrés, un conflicto personal, una preocupación económica grave. Reducen la capacidad de atención y favorecen la negligencia en las fases críticas del vuelo."
+      - l: "O sea, que antes de pensar en el récord, hay que haber dormido, comido y bebido."
+        e: calido
+      - n: "La conclusión práctica, tal cual: las necesidades de los niveles inferiores, las fisiológicas y las de seguridad, tienen que estar cubiertas antes de perseguir objetivos superiores. Y ningún logro justifica sacrificarlas."
+      - l: "Ningún logro justifica sacrificarlas. Eso va para la pared del hangar. <laughter>Ja, ja.</laughter>"
+        e: animado
+        pausa: 700
+
+  - titulo: "Resumen del capítulo"
+    turnos:
+      - n: "Repasemos todo. Cuatro ideas."
+        e: animado
+        v: 1.05
+      - l: "Primera: el modelo SHELL. Marco que analiza cómo interactúa el piloto, que es el Liveware, con el Software, el Hardware, el Entorno y otro Liveware."
+      - n: "Segunda: la gestión del error. Se asume que errar es inevitable. El objetivo no es eliminarlo, sino detectarlo a tiempo y gestionar sus consecuencias."
+      - l: "Tercera: la cadena del error. Los accidentes rara vez tienen una sola causa. Son la suma de pequeños errores y condiciones latentes."
+      - n: "Y tu trabajo es romper esa cadena en cuanto detectes el primer eslabón."
+      - l: "Cuarta: las influencias en el comportamiento. La presión de los compañeros de hangar, la motivación según la pirámide de Maslow, y la cultura justa."
+      - n: "Para que los errores se notifiquen sin miedo a represalias, y se aprenda de ellos entre todos, en lugar de ocultar daños que pueden acabar en un accidente."
+      - l: "Si te quedas con una sola frase..."
+        e: pensativo
+      - n: "Romper un solo eslabón salva el vuelo."
+      - l: "Y hasta aquí el capítulo uno. Nos vemos en el siguiente, donde hablaremos del cuerpo del piloto."
+        e: calido
+      - n: "Hasta pronto."
+        e: calido

@@ -23,15 +23,15 @@ Están escritos en **Quarto Markdown (.qmd)** y se compilan a **PDF** (Typst), *
 
 | # | Libro | Asignatura | Versión | Estado |
 | --- | --- | --- | --- | --- |
-| 1 | **`01-derecho-aereo-atc`** | Derecho Aéreo y Procedimientos de Control de Tránsito Aéreo (ATC) | `1.0-rc.15` | 🟡 En revisión |
-| 2 | **`02-factores-humanos`** | Factores Humanos | `1.0-rc.14` | 🟡 En revisión |
-| 3 | **`03-meteorologia`** | Meteorología | `1.0-rc.17` | 🟡 En revisión |
-| 4 | **`04-comunicaciones`** | Comunicaciones | `1.0-rc.16` | 🟡 En revisión |
-| 5 | **`05-principios-vuelo`** | Principios de Vuelo | `1.0-rc.9` | 🟡 En revisión |
-| 6 | **`06-procedimientos-operativos`** | Procedimientos Operativos | `1.0-rc.4` | 🟡 En revisión |
-| 7 | **`07-planificacion-rendimiento`** | Planificación y Rendimiento de Vuelo | `1.0-rc.4` | 🟡 En revisión |
-| 8 | **`08-aeronave-sistemas`** | Conocimientos Generales de la Aeronave, Estructura, Sistemas y Equipo de Emergencia | `0.9.7` | 🟡 En revisión |
-| 9 | **`09-navegacion`** | Navegación | `0.9.6` | 🟡 En revisión |
+| 1 | **`01-derecho-aereo-atc`** | Derecho Aéreo y Procedimientos de Control de Tránsito Aéreo (ATC) | `1.0-rc.16` | 🔵 Candidato de versión |
+| 2 | **`02-factores-humanos`** | Factores Humanos | `1.0-rc.16` | 🔵 Candidato de versión |
+| 3 | **`03-meteorologia`** | Meteorología | `1.0-rc.18` | 🔵 Candidato de versión |
+| 4 | **`04-comunicaciones`** | Comunicaciones | `1.0-rc.17` | 🔵 Candidato de versión |
+| 5 | **`05-principios-vuelo`** | Principios de Vuelo | `1.0-rc.10` | 🔵 Candidato de versión |
+| 6 | **`06-procedimientos-operativos`** | Procedimientos Operativos | `1.0-rc.5` | 🔵 Candidato de versión |
+| 7 | **`07-planificacion-rendimiento`** | Planificación y Rendimiento de Vuelo | `1.0-rc.5` | 🔵 Candidato de versión |
+| 8 | **`08-aeronave-sistemas`** | Conocimientos Generales de la Aeronave, Estructura, Sistemas y Equipo de Emergencia | `1.0-rc.1` | 🔵 Candidato de versión |
+| 9 | **`09-navegacion`** | Navegación | `1.0-rc.1` | 🔵 Candidato de versión |
 
 ### Qué hay en cada libro
 
@@ -62,7 +62,8 @@ El estado se deduce de la versión del libro (campo `version:` en su `_quarto.ym
 | Versión | Estado | Significado |
 | --- | --- | --- |
 | `>= 1.0.0` | ✅ Completado | Edición definitiva. Sin marca de agua ni aviso. |
-| `1.x-rc.n` · `0.9.x` | 🟡 En revisión | Pendiente de revisión técnica por instructores. |
+| `1.x-rc.n` | 🔵 Candidato de versión | Revisión técnica completada; pendiente de la edición definitiva. |
+| `0.9.x` | 🟡 En revisión | Pendiente de revisión técnica por instructores. |
 | `0.8.x` | 🎨 Creando ilustraciones | Texto completo; faltan ilustraciones. |
 | `<= 0.7.x` | 🚧 En desarrollo | Texto e ilustraciones en elaboración. |
 

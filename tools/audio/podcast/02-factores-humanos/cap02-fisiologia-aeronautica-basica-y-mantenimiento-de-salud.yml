@@ -1,0 +1,473 @@
+# Podcast del libro 02, capítulo 2. Dos voces: n = Narradora, l = Locutor.
+# Los hechos y las cifras salen del .qmd; aquí sólo cambia cómo se cuentan.
+# ‹…› es énfasis; `pausa:` en ms tras el turno; `- pausa: N` es un silencio suelto.
+
+pistas:
+  - titulo: "Fisiología aeronáutica básica y mantenimiento de salud"
+    turnos:
+      - l: "Una pregunta para empezar. ¿Cuántas veces has volado con un poco de catarro, pensando «no es nada»?"
+        e: calido
+        pausa: 800
+      - n: "<laughter>Ja, ja.</laughter> Ahora tendrás que responder con sinceridad, que esto es una grabación. Pero de eso va este capítulo: de tu cuerpo dentro de la cabina."
+        e: contento
+      - l: "[mn] Porque en vuelo el cuerpo soporta cambios de presión, de temperatura y de oxígeno. Y encima los sentidos se orientan peor que en tierra."
+      - n: "Hoy vamos a ver cómo te afecta todo eso, qué debería dejarte en tierra antes de despegar, y qué dice la norma sobre el alcohol y los medicamentos."
+      - l: "Esta última parte tiene miga. Hay mucho mito suelto por los clubes."
+        e: animado
+      - n: "Muchísimo. Vamos."
+        e: animado
+        pausa: 700
+
+  - titulo: "Aptitud para el vuelo y la evaluación personal (lista de chequeo IMSAFE)"
+    turnos:
+      - n: "Primera idea, y es de las gordas. Tu salud, física y mental, pesa en la seguridad del vuelo tanto como el estado del planeador."
+        e: serio
+      - l: "O sea: nadie despega con un planeador con el timón roto. Pero con el piloto roto, sí."
+        e: pensativo
+      - n: "Esa es la contradicción. La normativa europea dice que un piloto debe abstenerse de volar si está incapacitado por cualquier causa. Una lesión, una enfermedad, una medicación, fatiga o los efectos de cualquier sustancia psicoactiva. O si simplemente se siente indispuesto."
+        e: serio
+        v: 0.95
+      - l: "«Si simplemente se siente indispuesto». Eso incluye el «hoy no me noto bien». Y ya cuenta."
+        e: pensativo
+      - n: "Ya cuenta. Un apunte de normativa. No se pueden ejercer las atribuciones de la licencia, ni, siendo alumno, volar solo, si se nota una disminución de la aptitud médica, o si se toma un medicamento, con o sin receta, o se recibe un tratamiento que pueda interferir con el vuelo seguro."
+      - l: "Con o sin receta. Eso lo vamos a repetir mucho."
+        e: serio
+      - n: "Y hay casos en que no basta tu criterio. Antes de volver a volar hay que consultar con un médico examinador aéreo, el AME. O, con certificado LAPL, también con el médico de cabecera que lo firmó."
+      - l: "¿Cuándo exactamente?"
+      - n: "Tras una operación quirúrgica o un procedimiento médico invasivo. Al empezar a tomar medicación de forma regular. Tras una lesión o una enfermedad importantes que incapaciten para volar. En caso de embarazo. Tras un ingreso hospitalario. O al necesitar lentes correctoras por primera vez."
+      - l: "Y es el médico quien decide si vuelves a ser apto. No tú. Lo recoge MED.A.020."
+        e: serio
+      - n: "Exacto. Y para evaluar tu estado antes de subirte, hay una lista de chequeo personal que difunde la FAA. Se llama IMSAFE."
+      - l: "I, M, S, A, F, E. Que suena casi como «I am safe». Estoy a salvo."
+        e: animado
+      - n: "Eso es lo que quiere decir en inglés. Y la gracia es que cada letra es una pregunta. Esta revisión importa tanto como la inspección prevuelo del planeador."
+      - l: "Pues vamos letra a letra. La I."
+        e: animado
+      - n: "‹Illness›: enfermedad. ¿Tienes algún síntoma? Incluso un resfriado puede agravarse con los cambios de presión en vuelo, y mermar tu atención. Y si hay fiebre o proceso vírico, no se vuela."
+      - l: "La M: ‹Medication›, medicación. ¿Tomas algún fármaco, con o sin receta?"
+      - n: "Ojo, porque muchos medicamentos de venta libre, como los antihistamínicos para la alergia, producen somnolencia y alteran tu rendimiento cognitivo y motor. Y eso lo veremos a fondo más adelante."
+      - l: "La S: ‹Stress›. ¿Hay alguna presión psicológica o emocional relevante?"
+      - n: "Problemas laborales, familiares o financieros graves reducen los recursos cognitivos disponibles. Afectan al juicio, y al rendimiento en la cabina."
+      - l: "La A: ‹Alcohol›. ¿Has bebido recientemente?"
+      - n: "Sus efectos residuales persisten mucho después de la ingesta. La regla en aviación es la de la botella al mando, ‹bottle to throttle›. Y el medio aceptable de cumplimiento de EASA fija un margen mínimo de ocho horas desde la última copa."
+      - l: "[mn] Ocho horas. Que sale de esta lista, y luego lo vemos con calma."
+      - n: "La F: ‹Fatigue›. ¿Has descansado y dormido lo suficiente? La fatiga reduce el estado de alerta, la capacidad de decisión y los tiempos de reacción de forma significativa."
+      - l: "Y la E."
+      - n: "Aquí hay un matiz. En la versión de este libro es ‹Eating›: alimentación. ¿Has comido y bebido adecuadamente en las últimas horas? Volar en ayunas reduce los niveles de glucosa y merma la concentración."
+      - l: "Y en la versión de la FAA, la E es de ‹Emotion›. El estado emocional."
+      - n: "Las dos sirven. Y en jornadas largas, la hidratación importa tanto como la comida. Bebe agua con regularidad para prevenir la deshidratación y el golpe de calor."
+      - l: "Venga, repaso rápido. Illness, Medication, Stress, Alcohol, Fatigue, Eating."
+        e: animado
+        v: 1.05
+      - n: "Enfermedad, medicación, estrés, alcohol, fatiga, alimentación. ¿Y qué haces si alguna sale mal?"
+        pausa: 1500
+      - l: "Pues la regla de oro, que es muy simple. Antes de cada vuelo, repasa mentalmente la lista IMSAFE. Si alguno de sus elementos resulta desfavorable, la única decisión de seguridad es cancelar el vuelo."
+        e: serio
+        v: 0.93
+      - n: "‹No-Go›. Hoy no se vuela. Sin negociar."
+        e: serio
+        v: 0.9
+        pausa: 700
+
+  - titulo: "El sistema sensorial y la orientación"
+    turnos:
+      - n: "Pasamos a los sentidos. Y empezamos por el rey en un planeador: la vista."
+        e: animado
+      - l: "[mn] Que es lo que más usamos, evidentemente."
+      - n: "Es el sentido más importante para el piloto de planeador. Pero hay un problema de fondo. El ser humano evolucionó para moverse en dos dimensiones sobre el suelo. Y el aire tiene tres."
+      - l: "Así que ahí arriba la percepción se equivoca con facilidad."
+        e: pensativo
+      - n: "Con mucha facilidad. Vamos con la anatomía básica. El interior del ojo funciona de forma parecida al sensor de una cámara de fotos. La luz entra y se proyecta sobre la retina."
+      - l: "Y en la retina hay dos tipos de células. Conos y bastones."
+      - n: "Los ‹conos› funcionan bien con buena iluminación. Nos dan los detalles finos en el centro del campo visual, y distinguen los colores. Son la visión diurna."
+      - l: "Y los ‹bastones› están sobre todo en la zona periférica. No distinguen colores, pero son muy sensibles a la luz tenue, y excelentes detectando el movimiento lateral."
+      - n: "Para recordarlo: conos, color y centro. Bastones, periferia y poca luz."
+      - l: "Y un detalle curioso: tienes un punto ciego."
+        e: asombro
+      - n: "En el lugar donde el nervio óptico se conecta con la retina. Una imagen proyectada exactamente ahí no se ve. Además, la miopía, el exceso de sol, el tabaco o la fatiga reducen significativamente la agudeza visual."
+      - l: "Y para la licencia de planeador, ¿qué piden de visión?"
+      - n: "Un apunte de normativa. Basta, como mínimo, el certificado médico LAPL, MED.A.030. Con ese certificado, la percepción de los colores sólo se evalúa si solicitas la habilitación de vuelo nocturno."
+      - l: "Y con certificado de clase dos..."
+      - n: "El reconocimiento inicial incluye el test de Ishihara. Si no se demuestra una percepción segura de los colores, el certificado limita las atribuciones al vuelo diurno. Son reglas de la Part-MED, no de la Part-SFCL."
+      - l: "Vale. Ahora, lo más importante. Ver a los demás."
+      - n: "Se llama ‹See and Avoid›: ver y evitar. Es el método principal para prevenir colisiones en vuelo visual. Y la mayor parte del tiempo hay que mirar fuera. La FAA recomienda no dedicar más de cuatro o cinco segundos al panel por cada dieciséis segundos de vigilancia exterior."
+      - l: "Cuatro o cinco dentro. Dieciséis fuera. Eso es muy poco panel."
+        e: asombro
+      - n: "Y se hace con método. El método del reloj. Primero, considera el morro del planeador como las doce en punto."
+      - l: "Segundo, barridos visuales estructurados por sectores. Desde atrás por la izquierda hasta atrás por la derecha, más allá de las nueve y de las tres, y también por encima."
+      - n: "Y tercero: concéntrate en la franja de cielo más cercana a la línea del horizonte. Porque las aeronaves que vuelan a tu misma altitud aparecerán sobre todo ahí."
+      - l: "Un consejo de buen hacer. Antes de iniciar un viraje, despeja primero el sector hacia el que vas a virar. Por delante, por encima y por debajo, y hasta donde alcance la vista hacia atrás."
+        e: calido
+      - n: "Después echa también un vistazo al lado opuesto y por detrás, donde puede acercarse tráfico por el ángulo muerto. Y sólo entonces, inclinas las alas."
+      - l: "Primero mira. Luego vira."
+        e: serio
+        v: 0.92
+      - n: "Ahora, un aviso de seguridad. El riesgo más grave de colisión en vuelo libre se produce en trayectorias frontales."
+        e: serio
+        v: 0.93
+      - l: "Las típicas de un vuelo de ladera o una calle de nubes."
+      - n: "Y aquí está el truco traicionero. Al aproximarse de frente, el otro planeador no tiene movimiento lateral apreciable en tu campo visual. Simplemente, de repente, aumenta de tamaño."
+      - l: "[breath] Es un puntito que está quieto. Y de pronto no es un puntito."
+        e: preocupado
+      - n: "Entre ver ese punto en el cielo y que el planeador empiece a apartarse pasan unos doce coma cinco segundos. Es una referencia de la FAA, la circular noventa guion cuarenta y ocho E."
+      - l: "Doce segundos y medio. Hay que detectar pronto."
+        e: serio
+        v: 0.95
+      - n: "Y recuerda la regla. En un encuentro frontal, SERA obliga a ambas aeronaves a virar hacia la derecha."
+      - l: "Hacia la derecha. Los dos. Así no os cruzáis."
+        e: serio
+        v: 0.92
+      - n: "Siguiente tema: visión nocturna e ilusiones ópticas. Y aquí hay un dato que sorprende. La capacidad visual se degrada con la escasez de luz, y también con la disminución de oxígeno."
+      - l: "¿A qué altura empieza eso?"
+      - n: "A partir de altitudes relativamente bajas. Unos cinco mil pies, según la FAA. La cantidad de oxígeno en sangre baja lo suficiente como para afectar a los bastones periféricos, si hay poca luz."
+      - l: "Y en la oscuridad aparecen ilusiones."
+        e: pensativo
+      - n: "Sí, porque faltan texturas y contornos fiables. Pasa de noche, en entornos nevados o sobre el agua. Dos ilusiones clásicas. La primera: la aproximación de agujero negro."
+      - l: "A ver, explícamela."
+      - n: "Estás en el tramo final hacia una pista iluminada, pero rodeada de terreno muy oscuro, sin referencias luminosas laterales. Por ejemplo, un lago."
+      - l: "Y el cerebro se queda sin referencias."
+      - n: "Pierde la percepción real de profundidad. Te hace creer que vuelas más alto de lo real, y que la senda es más empinada de lo normal."
+      - l: "Y entonces tu instinto te dice: «voy muy alto, bajo el morro»."
+        e: asombro
+      - n: "Exacto. Y eso te lleva a picar para «corregirla», con riesgo de impacto antes del umbral. ¿La medida correctiva?"
+        e: serio
+        pausa: 1200
+      - l: "Conocer la ilusión. Contrastar la senda con referencias objetivas, como las luces de aproximación si las hay, o el altímetro. Y no descender por debajo de la senda prevista."
+      - n: "Perfecto. Segunda ilusión: la autocinética."
+      - l: "Fijas la mirada en una luz aislada en la oscuridad. Durante varios segundos. Y la luz parece moverse."
+      - n: "Son los micromovimientos involuntarios del ojo. Producen la falsa percepción de que la luz se desplaza. Y eso puede confundirte: ¿es otra aeronave en movimiento?"
+      - l: "El remedio: mantener el escaneo visual activo. No fijar la vista en un foco único durante más de unos pocos segundos."
+      - n: "Ahora, el oído. Y empezamos con una palabra rara: disbarismos."
+      - l: "Que significa..."
+      - n: "Las alteraciones que produce en el cuerpo el cambio de la presión exterior. El gas atrapado en las cavidades del cuerpo se expande al subir y se contrae al bajar. Es la ley de Boyle."
+      - l: "Subes, baja la presión, el aire atrapado se expande. Y busca salida."
+      - n: "Afecta sobre todo a tres zonas. Primera: el oído medio. El conducto que iguala la presión con el exterior es la trompa de Eustaquio."
+      - l: "Y aquí hay una asimetría importante. En la subida, el aire en expansión suele escapar sin gran esfuerzo. Incluso con algo de congestión."
+      - n: "El problema serio llega en el ‹descenso›. Con la trompa inflamada por un resfriado, el aire no consigue volver a entrar. El tímpano se deforma hacia dentro, y aparece un dolor intolerable. Es la barotitis media."
+      - l: "Y el descenso es justo cuando necesitas toda tu cabeza. Para el circuito, el aterrizaje."
+      - n: "Segunda zona: los senos paranasales. Como en el oído, si están obstruidos, dolor intenso sobre las cejas o en los maxilares."
+      - l: "Y tercera: el tracto gastrointestinal y las caries."
+      - n: "Los alimentos que producen gases, tomados antes de volar, dan retortijones en altura. Y una pequeña burbuja atrapada bajo un empaste puede causar, al subir, un dolor de muelas muy fuerte. Es la barodontalgia."
+      - l: "Todo el cuerpo es un recipiente con gas dentro."
+        e: asombro
+      - n: "Y además del gas atrapado está el gas ‹disuelto›. Tras una inmersión con botella, la sangre y los tejidos guardan nitrógeno en exceso. Al subir, puede formar burbujas. Es la enfermedad descompresiva."
+      - l: "Así que, si buceas el sábado, el domingo no vuelas. <laughter>Ja, ja.</laughter>"
+        e: contento
+      - n: "El buceo y la donación de sangre pueden ser causa de incapacidad. Por eso el piloto al mando no debe volar hasta que haya pasado un tiempo razonable después de cualquiera de los dos. La guía de EASA considera adecuadas, como mínimo, veinticuatro horas tras un buceo deportivo normal o una donación de sangre normal."
+      - l: "Veinticuatro horas. Que es material no vinculante, pero una buena referencia."
+      - n: "Y un consejo de buen hacer. Con las vías altas congestionadas, catarro o rinitis alérgica fuerte, no se vuela. Es No-Go."
+      - l: "Porque el dolor de un barotrauma en el descenso puede dejarte sin capacidad para pilotar."
+        e: serio
+        pausa: 700
+
+  - titulo: "Desorientación espacial e ilusiones sensoriales"
+    turnos:
+      - n: "Ahora una de las partes más fascinantes, y más peligrosas. Imagínate un vuelo térmico bajo las nubes."
+        e: animado
+      - l: "Estás girando en la térmica. Sin horizonte claro."
+        e: pensativo
+      - n: "Para orientarte, tu cerebro integra tres fuentes de información. La visión. El sistema propioceptivo, que son las señales de músculos y tendones. Y, de forma fundamental, el sistema vestibular, en el oído interno, que percibe la aceleración."
+      - l: "Visión, músculos y oído interno. Tres informantes."
+      - n: "Pero los sentidos evolucionaron para movernos sobre el suelo, con la gravedad siempre en la misma dirección. Sin un horizonte visible y fiable, el cerebro puede generar ilusiones. Y eso produce desorientación espacial: una falsa apreciación de tu posición real en el espacio."
+      - l: "Vamos con los dos tipos de ilusiones."
+      - n: "Las ilusiones ‹vestibulares›. Un viraje prolongado y estable en térmica puede engañar a los canales semicirculares."
+      - l: "Y tu cuerpo te dice: «estoy nivelado»."
+        e: asombro
+      - n: "O que estás virando apenas. Es la ilusión de estabilidad. Mientras, el planeador sigue inclinado."
+      - l: "Y en sentido contrario, la turbulencia fuerte."
+      - n: "Puede empujarte a tirar bruscamente de la palanca, cuando el planeador se mantiene en realidad en actitud normal. Y luego las ilusiones ‹ópticas›."
+      - l: "Una perspectiva de aproximación inclinada. La falta de texturas en el suelo, por nieve o agua. O una pista mucho más ancha o más estrecha de lo habitual."
+      - n: "Todo eso produce sesgos en la estimación de tu altitud sobre el umbral."
+      - l: "[mn] O sea, el cerebro te miente. Y lo hace con mucha convicción."
+        e: asombro
+      - n: "Por eso viene el aviso de seguridad más importante del capítulo. Cuando se pierde la referencia del horizonte, y lo que sientes contradice lo que señalan los instrumentos, debes ignorar el instinto."
+        e: serio
+        v: 0.93
+      - l: "Confía en los instrumentos. El anemómetro, el hilo de lana, la bola y el horizonte artificial."
+        e: serio
+        v: 0.93
+      - n: "Otra vez, para que quede grabado: lo que sientes contradice a los instrumentos. ¿A quién haces caso?"
+        pausa: 1500
+      - l: "A los instrumentos."
+      - n: "Aunque tu cuerpo jure lo contrario."
+        e: serio
+        v: 0.9
+        pausa: 700
+
+  - titulo: "Cinetosis (motion sickness o mareo)"
+    turnos:
+      - l: "Y ahora, uno de los grandes tabúes del hangar. El mareo."
+        e: animado
+      - n: "Se llama cinetosis, o ‹motion sickness›. Y no es un defecto. Es una reacción fisiológica que se produce cuando el cerebro recibe señales contradictorias de los distintos sentidos."
+      - l: "O sea que tus ojos dicen una cosa, y tu oído interno otra."
+      - n: "En la cabina de un planeador, el malestar suele aparecer cuando lo que perciben los ojos no coincide con lo que el sistema vestibular registra en cuanto a aceleraciones y giros."
+      - l: "Dame un ejemplo, que si no se queda en teoría."
+      - n: "Estás virando de forma sostenida en una térmica. Y agachas la cabeza para programar el ordenador de vuelo."
+      - l: "Mis ojos, fijos en una pantalla estática, dicen: «aquí no se mueve nada»."
+        e: pensativo
+      - n: "Pero el laberinto del oído interno sigue detectando variaciones de fuerza G y movimiento rotatorio. Ese conflicto desencadena una respuesta de malestar. Que puede progresar hacia fatiga repentina, palidez, sudoración fría, náuseas y vómitos."
+      - l: "Y esto le pasa a todo el mundo, ¿no?"
+      - n: "Puede afectar incluso a pilotos curtidos, especialmente tras períodos de inactividad o con turbulencia severa. Un consejo de buen hacer: no es motivo de vergüenza. Asúmelo con naturalidad. Y lleva siempre a bordo, al alcance de la mano, bolsas de mareo."
+      - l: "Pues vamos con el remedio. ¿Qué hago si empiezo a notarlo?"
+        e: animado
+      - n: "Cuatro ideas. Primera, y es la más eficaz: ‹la mirada al horizonte›. Ante los primeros síntomas, levanta la barbilla. Busca el horizonte natural. Y fija la vista en un punto lejano."
+      - l: "Y evita mirar los instrumentos, o leer documentos en la rodillera."
+      - n: "Segunda: reducir el movimiento. Limita los movimientos bruscos de cabeza. Las aceleraciones negativas prolongadas aumentan la susceptibilidad. Evita transiciones de actitud extremas sin necesidad."
+      - l: "Tercera: los vuelos con pasajeros."
+      - n: "Con pasajeros sin experiencia, sé prudente. Limita los vuelos de familiarización a unos treinta minutos. Y haz virajes suaves, para no darles una experiencia desagradable."
+      - l: "Y cuarta: hidratación. Una cabina calentada por el sol bajo el plexiglás agrava el malestar."
+      - n: "Lleva agua suficiente, bebe con regularidad, y aumenta la ventilación facial. Aire fresco."
+      - l: "Repasemos. Horizonte, poco movimiento, cuidado con los pasajeros, agua y aire."
+      - n: "Ahora, un aviso de seguridad muy concreto. No tomes antihistamínicos contra el mareo, como la Biodramina, antes de pilotar."
+      - l: "Pero si es para el mareo..."
+        e: asombro
+      - n: "Precisamente. Están contraindicados en aviación. Producen una somnolencia profunda que alarga el tiempo de reacción y reduce el estado de alerta. Curas el mareo y te quedas dormido a los mandos."
+        e: serio
+      - l: "<laughter>Mal negocio.</laughter>"
+      - n: "¿Y si el mareo te limita de verdad en pleno vuelo? La prioridad es la seguridad. En un biplaza, transfiere los mandos al piloto calificado a bordo, diciendo: «tienes los mandos», o «tuyo»."
+      - l: "Y en un monoplaza, no hay nadie a quien pasárselos."
+      - n: "En monoplaza, estabiliza el planeador en vuelo recto y nivelado, para reducir el conflicto sensorial del oído interno. Abre la ventilación al máximo. Y abrevia el vuelo: a aterrizar cuanto antes."
+        pausa: 700
+
+  - titulo: "Intoxicación por monóxido de carbono (riesgos en motoveleros o remolcadores)"
+    turnos:
+      - l: "Ahora un enemigo invisible. Y aquí, atención, que parece cosa de otros aviones."
+        e: serio
+      - n: "El monóxido de carbono. Y es relevante aunque el velero puro no tenga motor. Porque una parte significativa de la flota actual son motoveleros, TMG, o planeadores con motor retráctil."
+      - l: "Y en esas aeronaves, al encender la calefacción de cabina..."
+      - n: "Que suele extraer calor directamente del tubo de escape, existe riesgo de intoxicación por monóxido de carbono. Y durante el despegue en remolque, también se pueden inhalar gases de escape del avión remolcador."
+      - l: "O sea, que ni siquiera hace falta tener motor."
+        e: asombro
+      - n: "Hay que conocer bien al enemigo. El monóxido de carbono es inodoro, incoloro e insípido. No lo ves, no lo hueles, no lo notas."
+      - l: "Y qué hace exactamente."
+      - n: "Su afinidad por la hemoglobina es unas doscientas veces superior a la del oxígeno. Al inhalarlo, se une a la hemoglobina e impide el transporte de oxígeno al cerebro. Produce hipoxia anémica, sin necesidad de estar a gran altitud."
+      - l: "Tiene truco. Porque tú estás en el suelo, o bajo, y sin embargo tu cerebro está como si estuvieras muy alto."
+        e: pensativo
+      - n: "Exacto. Y un dato práctico. Como referencia habitual en la literatura aeromédica, fumar unos pocos cigarrillos antes del vuelo eleva la saturación de monóxido de carbono en la hemoglobina. Hasta un nivel que degrada la visión nocturna de forma equivalente a volar a varios miles de pies, aun a cota baja."
+      - l: "Las cifras exactas varían según la fuente."
+      - n: "Pero el mensaje operativo no cambia: fumar antes de volar recorta tu visión nocturna."
+      - l: "Y los síntomas, ¿cómo los reconozco?"
+      - n: "Son inespecíficos, y ahí está el peligro. Dolor de cabeza o debilidad muscular leve, que progresa rápidamente hacia náuseas, desorientación, visión borrosa y euforia inapropiada. Sin intervención, pérdida de consciencia."
+      - l: "«Euforia inapropiada». O sea, te sientes genial justo cuando estás peor."
+        e: preocupado
+      - n: "Por eso hay que actuar ante el primer síntoma. Aviso de seguridad. En motoveleros, lleva instalado un detector de monóxido de carbono en el panel. Y verifica su fecha de caducidad."
+      - l: "Y si algo suena. Dolor de cabeza, visión borrosa, mareo, somnolencia o pérdida de fuerza. O si el parche cambia de color."
+      - n: "Actúa de inmediato. Primero: ‹corta la calefacción›. Segundo: abre la ventilación al máximo. Tercero: usa oxígeno suplementario, si dispones de él. Y cuarto: aterriza sin dilación."
+        e: serio
+        v: 0.95
+      - l: "Corta, abre, oxígeno, aterriza."
+        e: serio
+        v: 0.95
+      - n: "Esa es la secuencia."
+        pausa: 700
+
+  - titulo: "Hipotermia y frío en altitud"
+    turnos:
+      - n: "Cambiamos de tema. Del veneno invisible al frío. Que en vuelo a vela sorprende a mucha gente."
+        e: calido
+      - l: "Pensamos en el calor del plexiglás, pero arriba hace un frío que pela."
+      - n: "En vuelo a vela se sube a menudo a mucha altura. En la atmósfera estándar, la temperatura exterior baja unos dos grados por cada mil pies. A cuatro mil metros se pueden registrar menos veinte grados. Y en las proximidades de la tropopausa, menos cincuenta o incluso menos."
+      - l: "[breath] Menos cincuenta. Y tú ahí, sentado, casi sin moverte."
+        e: asombro
+      - n: "Esa es la clave. La posición de pilotaje semirreclinada y la escasa actividad muscular favorecen la aparición de hipotermia. Que es una temperatura corporal central inferior a treinta y cinco grados."
+      - l: "Y hay otra trampa, creo. El sol."
+      - n: "La irradiación solar directa puede crear sensación de confort térmico en el tronco. Mientras tanto, los pies y las piernas, en la sombra del panel frontal, están expuestos a temperaturas muy bajas, con riesgo de congelación."
+      - l: "Cuerpo calentito, pies helados. Y no lo notas hasta que ya es tarde."
+        e: preocupado
+      - n: "Los síntomas empiezan con temblores musculares. Y progresan hacia letargo, confusión mental y alteraciones del habla."
+      - l: "Y lo peor..."
+      - n: "Lo peor es que el frío también le quita al piloto la capacidad de notar su propio deterioro. Y puede dejar sin batería los instrumentos electrónicos, incluido el regulador de oxígeno."
+      - l: "Vaya, qué panorama. ¿Consejo?"
+        e: contento
+      - n: "Un consejo de buen hacer, para volar en onda invernal. Abrígate siempre ‹por capas›."
+      - l: "Y cuidado con el calzado."
+      - n: "Evita calzado o calcetines que aprieten excesivamente. El pie inmovilizado sobre los pedales necesita un flujo sanguíneo sin restricciones para no congelarse. Elige botas lo bastante holgadas, suelas térmicas, y guantes que te permitan plena libertad de movimiento sobre la palanca."
+      - l: "Capas, botas holgadas, guantes con tacto. Anotado."
+        pausa: 700
+
+  - titulo: "Estrés fisiológico y sus efectos"
+    turnos:
+      - l: "Vale, el estrés. Que nos han enseñado que es malo."
+        e: pensativo
+      - n: "Pues no todo. Y esta es una idea que sorprende. En su justa medida, un nivel moderado de tensión resulta positivo y necesario."
+      - l: "¿Como cuándo?"
+      - n: "La que sientes justo antes del despegue en una competición, o al afrontar tu primer vuelo de ladera. Activa el sistema nervioso, eleva el nivel de alerta, afina la capacidad de reacción. Te lleva al punto de rendimiento máximo."
+      - l: "Una pizca de nervios te afila."
+        e: contento
+      - n: "Exacto. Y hay dos marcos complementarios, porque describen cosas distintas. El primero es la curva de Yerkes-Dodson."
+      - l: "Que tiene forma de U invertida."
+      - n: "Relaciona el nivel de activación con el rendimiento. Muy poca tensión da un piloto apático. Demasiada, un piloto bloqueado. Y el máximo está en el punto medio."
+      - l: "<laughter>Ni dormido ni histérico.</laughter> En medio."
+      - n: "Y el segundo marco es distinto. El síndrome general de adaptación, de Hans Selye. Describe cómo responde tu organismo cuando la tensión se ‹prolonga›. Con tres fases consecutivas."
+      - l: "Vamos una por una."
+      - n: "Primera, la fase de alarma. Ante algo novedoso o una amenaza abrupta, el cuerpo libera adrenalina de golpe. El ritmo cardíaco y respiratorio se disparan, las pupilas se dilatan, y el cerebro entra en máxima alerta, preparado para reaccionar o huir."
+      - l: "Segunda: la fase de resistencia. O adaptación."
+      - n: "Si el factor estresante se prolonga, en el modelo de Selye, horas o días, el cuerpo intenta adaptarse con un esfuerzo fisiológico sostenido. Por ejemplo, lidiando con descendencias fuertes sistemáticas y lejos de un campo aterrizable seguro."
+      - l: "Y tercera: agotamiento."
+      - n: "Cuando la situación supera al piloto en intensidad o duración, las reservas de energía de la fase dos se vacían. La capacidad de análisis se deteriora deprisa, y el pilotaje se resiente."
+      - l: "Alarma, resistencia, agotamiento. Como una batería que se va gastando."
+        e: contento
+      - n: "Ahora, una manifestación física del estrés agudo que conviene conocer: la hiperventilación."
+      - l: "A ver. Respirar rápido."
+      - n: "Una respiración excesivamente rápida y profunda, desencadenada por la ansiedad. Y ojo: no de una falta real de oxígeno."
+      - l: "Pero parece que falte aire."
+      - n: "Y lo paradójico: aunque los pulmones mueven más aire, esta respiración acelerada elimina grandes cantidades de dióxido de carbono de la sangre. Sube su pH. Es la alcalosis respiratoria. Y la falta de dióxido de carbono impide que la hemoglobina libere el oxígeno en los tejidos del cerebro."
+      - l: "O sea: respiras más y llega menos oxígeno al cerebro."
+        e: asombro
+      - n: "Eso. Los síntomas son característicos. Hormigueo y entumecimiento en manos y pies. Calambres alrededor de la boca. Palpitaciones, náuseas, palidez. Y sensación de asfixia, a pesar de estar respirando."
+      - l: "Y si no haces nada..."
+      - n: "Puede derivar en somnolencia y pérdida de consciencia. ¿El tratamiento? Reducir conscientemente el ritmo respiratorio, alargando la exhalación."
+      - l: "Y un truco que me gusta: hablar o cantar en voz alta."
+        e: contento
+      - n: "Regula el ciclo ventilatorio. Y en los casos graves ayuda respirar dentro de una bolsa que cubra la nariz y la boca."
+      - l: "Y un detalle importante."
+      - n: "Sí. Como los primeros síntomas se parecen a los de la hipoxia, en altitud se trata ‹primero› la hipoxia. Eso lo veremos en el capítulo cuatro."
+      - l: "Primero la hipoxia. Ante la duda, oxígeno."
+      - n: "Último punto del estrés: el exceso de confianza. El estrés prolongado puede generar exceso de confianza, o anular el análisis crítico."
+      - l: "Presión de ganar una manga, de seguir a un piloto con más experiencia, o simplemente el deseo de llegar a destino."
+      - n: "Todo eso te induce a asumir riesgos que, en tierra, considerarías inaceptables. Evalúa tus capacidades con rigor y honestidad. Y un detalle que me gusta: los mejores pilotos de competición comparten una costumbre. Después de aterrizar, revisan con exigencia sus propias decisiones."
+      - l: "Esa autocrítica a posteriori me parece de lo más profesional."
+        e: calido
+      - n: "Y un consejo de buen hacer. Para que el estrés no se dispare, evita sumar muchas «primeras veces» en un mismo vuelo."
+      - l: "Pongamos el peor caso."
+      - n: "Un modelo de velero totalmente nuevo para ti. Despegando en remolque desde un aeródromo que no conoces. Y encarando un día de vendaval racheado cruzado. Es juntar demasiadas novedades."
+      - l: "Y la mente pasa directa a la sobreactivación. Al pánico."
+        e: preocupado
+      - n: "Intenta que la progresión añada las variables de una en una."
+      - l: "Un cambio cada vez. Muy sensato."
+        e: contento
+        pausa: 700
+
+  - titulo: "Fatiga (aguda y crónica) y su impacto en el rendimiento"
+    turnos:
+      - n: "Si el estrés agudo es una amenaza inmediata, la fatiga es el enemigo lento. Deteriora tu rendimiento mental y físico antes de que aparezcan signos evidentes, como el bostezo."
+        e: pensativo
+      - l: "O sea, que no esperes a bostezar para saber que estás cansado."
+        e: contento
+      - n: "Para nada. Y hay dos tipos. La fatiga ‹aguda›, la de un día concreto: falta de sueño, esfuerzo, calor. Se cura descansando y durmiendo."
+      - l: "Y la ‹crónica›."
+      - n: "Se acumula durante semanas. No se recupera con el descanso normal. Y requiere consulta médica."
+      - l: "Dos fatigas, dos remedios. Aguda: dormir. Crónica: médico."
+      - n: "Y los efectos son globales. Reduce la capacidad analítica. Entorpece el razonamiento. Ralentiza la toma de decisiones. Empeora el tiempo de reacción. Y disminuye la atención sostenida que necesitas para detectar otros tráficos."
+      - l: "Que enlaza con lo de ver y evitar."
+      - n: "Y un detalle que sorprende. Volar tras un día laboral agotador afecta al circuito de llegada del mismo modo que hacerlo con déficit de sueño. Y un error habitual es subestimar el papel de los ritmos circadianos en el rendimiento."
+      - l: "Es decir, que el domingo después de una semana horrible, tampoco estás fino."
+      - n: "Ahora, el aviso de seguridad. La fatiga aguda sólo se cura descansando y durmiendo. La crónica requiere consulta médica."
+      - l: "¿Y el café?"
+      - n: "El café y las bebidas energéticas enmascaran temporalmente los síntomas, pero no restauran las capacidades cognitivas. Y la regla es clara. Si la fatiga afecta a la atención o al razonamiento, la decisión es No-Go."
+      - l: "El café te hace sentir despierto. No te hace estarlo."
+        e: serio
+        v: 0.92
+      - n: "Frase para guardar."
+        e: contento
+        pausa: 700
+
+  - titulo: "Deshidratación, golpe de calor y exposición al sol"
+    turnos:
+      - l: "Vamos con el invernadero. La cúpula."
+        e: animado
+      - n: "Durante los meses de verano, la cúpula de plexiglás actúa como un invernadero. Al volar en térmica, con ropa de vuelo y el paracaídas a la espalda, la temperatura en cabina puede subir considerablemente."
+      - l: "Y el cuerpo se defiende como sabe."
+      - n: "Sudando de forma intensa. Y con una tasa respiratoria mayor por la altitud. Pierdes agua sin apenas percibirlo."
+      - l: "¿Cuánta agua hay que reponer?"
+      - n: "La FAA recomienda reponer en torno a medio litro por hora con calor moderado, y cerca de un litro con calor intenso."
+      - l: "Medio litro por hora. Un litro si aprieta de verdad."
+        e: serio
+      - n: "Si no lo repones, la deshidratación progresiva espesa la sangre y perjudica la circulación. Los primeros síntomas son dolor de cabeza y fatiga creciente."
+      - l: "Y luego..."
+      - n: "Calambres musculares. Y en casos graves, un golpe de calor, que puede producir taquicardia y pérdida de consciencia sobre los mandos."
+      - l: "Lo que en inglés llaman ‹black out›. Y ahí no hay maniobra que valga."
+        e: preocupado
+      - n: "Y aquí va la regla de oro. La sed llega tarde."
+        e: serio
+        v: 0.93
+      - l: "Cuando sientes la boca seca, ya vas con retraso."
+      - n: "La deshidratación ya ha mermado el rendimiento cognitivo. Así que adelántate. Bebe de forma regular durante todo el vuelo. Nunca esperes a tener sed."
+      - l: "Nunca esperes a tener sed. Eso va en la cabina, pegado con cinta."
+        e: contento
+        pausa: 700
+
+  - titulo: "Efectos del alcohol, drogas, automedicación y dopaje"
+    turnos:
+      - n: "Última gran sección. Y es donde más mito circula por los clubes. Alcohol, drogas, medicamentos y dopaje."
+        e: animado
+      - l: "Empezamos con lo básico. La normativa aeronáutica prohíbe volar bajo los efectos de sustancias psicoactivas."
+      - n: "En la cabina, el juicio y los reflejos tienen que funcionar sin merma. Y empezamos con el alcohol. La regla de la botella al mando."
+      - l: "El alcohol es el depresor del sistema nervioso central más extendido. Y sus efectos sobre el tiempo de reacción se agravan en altitud, por la menor oxigenación de la sangre."
+      - n: "A eso se le llama hipoxia hipobárica. Y ahora, atención, que viene la norma. Porque mucha gente la cuenta mal."
+      - l: "Dime. ¿Qué dice exactamente?"
+      - n: "Primera cosa: la norma ‹no fija una tasa›. Prohíbe ejercer cualquier función a bordo a quien esté incapacitado por los efectos de una sustancia psicoactiva, o se sienta indispuesto. Lo dicen SAO.GEN.130 f para el piloto al mando, SAO.GEN.135 b para el resto de la tripulación, y también SERA.2020."
+        e: serio
+      - l: "Entonces, ¿de dónde sale lo de las ocho horas y los cero coma dos?"
+      - n: "Del medio aceptable de cumplimiento. El AMC uno de SAO.GEN.130 f y SAO.GEN.135 b. Se titula «Alcohol consumption», y concreta la regla de la botella al mando para las tripulaciones de planeador."
+      - l: "Vamos con los tres puntos."
+      - n: "Uno: nada de alcohol en las ocho horas previas al vuelo."
+      - l: "Dos: una alcoholemia al inicio del vuelo que no supere cero coma dos gramos por litro. O el límite nacional, si es más estricto."
+      - n: "Y tres: nada de alcohol ‹durante› el vuelo. Ocho horas, cero coma dos, y nada durante."
+      - l: "Ocho, cero coma dos, nada."
+        e: serio
+        v: 0.92
+      - n: "Y una aclaración, para no liarse. Este AMC no es el AMC uno de SAO.GEN.130 f a secas, que trata del buceo y la donación de sangre."
+      - l: "Y ahora el mito. Circula la idea de que en España se exige «cero alcohol» para volar."
+        e: animado
+      - n: "No es así. España no ha fijado un límite nacional más estricto. Ni la Ley veintiuno de dos mil tres de Seguridad Aérea, ni el Real Decreto mil ciento ochenta de dos mil dieciocho, fijan una tasa."
+        e: serio
+      - l: "Así que la cifra de referencia es la del AMC de EASA. Cero coma dos."
+      - n: "Y no lo confundas con el tráfico rodado, que es otra cosa."
+      - l: "Pero ojo. Que ese cero coma dos no es una garantía."
+      - n: "Con una tasa menor, y las facultades mermadas, también se incumple la norma. Y en España, emprender el vuelo bajo la influencia de bebidas alcohólicas que puedan afectar a la capacidad es un delito. Ley doscientos nueve de mil novecientos sesenta y cuatro, artículo treinta y uno. Se ve en el libro uno, capítulo catorce."
+      - l: "Un delito. No una multa."
+        e: serio
+        v: 0.9
+      - n: "Por eso, la única práctica segura es subirte al planeador sin nada de alcohol en el cuerpo."
+      - l: "Sin nada. Así no hay cuentas que echar."
+        e: serio
+      - n: "Pasamos a las drogas y los medicamentos. Dejando a un lado las drogas ilegales, cuyo consumo problemático hace no apto al piloto, el mayor peligro oculto en la aviación general es la automedicación."
+      - l: "Porque no parece peligroso. Es una pastilla de la farmacia."
+        e: pensativo
+      - n: "Muchos medicamentos de venta libre, como buena parte de los antihistamínicos para la alergia estacional o las pastillas contra el mareo, son incompatibles con el vuelo. Enlentecen los reflejos y producen una somnolencia que el piloto a menudo no percibe como tal."
+      - l: "«Que no percibe como tal». Me quedo con eso. Estás espeso y no lo sabes."
+        e: asombro
+      - n: "Algunos antihistamínicos no sedantes sí pueden ser compatibles. Pero esa decisión es del médico examinador. No del piloto."
+      - l: "No se vuela con un medicamento que pueda interferir con la capacidad de pilotar. Es MED.A.020."
+        e: serio
+        v: 0.95
+      - n: "Y una pista: si el prospecto desaconseja conducir o manejar maquinaria, es una señal de alarma inequívoca. Pero si no lo dice, tampoco garantiza nada."
+      - l: "Entonces, ¿qué pregunto?"
+      - n: "La guía de EASA propone tres preguntas antes de volar con un medicamento nuevo. Primera: ¿me encuentro en condiciones de volar?"
+      - l: "Segunda: ¿necesito realmente tomarlo?"
+      - n: "Tercera: ¿lo he probado ya en tierra, sin efectos adversos?"
+      - l: "Y ante la duda..."
+      - n: "Consulta al médico examinador."
+      - l: "Última parada: el dopaje."
+      - n: "Las competiciones de vuelo a vela de la FAI aplican el Código Mundial Antidopaje, que fija la Agencia Mundial Antidopaje, la WADA, como cualquier otro deporte. Los controles los realizan la FAI o la organización nacional antidopaje. En España, la CELAD."
+      - l: "[mn] O sea, que sí, que en vuelo a vela también hay controles."
+        e: asombro
+      - n: "Y un consejo para quien compite. Si sigues un tratamiento con una sustancia prohibida, debes tramitar una Autorización de Uso Terapéutico, AUT o TUE en inglés, ante la organización nacional antidopaje o ante la FAI, según tu nivel."
+      - l: "Y esa autorización..."
+      - n: "Sólo ampara el uso que autoriza. Esa sustancia, esa dosis y esa vía. Ni una más."
+        pausa: 700
+
+  - titulo: "Resumen del capítulo"
+    turnos:
+      - n: "Cerramos con un repaso rápido. Ocho ideas. ¿Preparado?"
+        e: animado
+      - l: "Dispara. <laughter>Y que nadie se duerma.</laughter>"
+        e: animado
+      - n: "Uno: la aptitud, con IMSAFE. Illness, Medication, Stress, Alcohol, Fatigue, Eating. Ante la duda, cancela. Y si hay problemas médicos importantes, consulta a un médico examinador."
+      - l: "Dos: los disbarismos. Los gases corporales se expanden al ascender y se contraen al descender. No vueles con catarro ni congestión nasal. En el descenso la presión no puede igualarse, y el dolor te incapacita."
+      - n: "Tres: las ilusiones sensoriales. El oído interno te engaña cuando pierdes las referencias visuales. Si estás desorientado y no ves un horizonte claro, ignora las sensaciones y confía en los instrumentos."
+      - l: "Cuatro: el monóxido de carbono. Gas letal, inodoro, incoloro, insípido. Sólo se detecta con un detector específico. Peligro real en motoveleros, por los gases del motor y la calefacción. Ante el menor síntoma, corta la calefacción, abre la ventilación y aterriza."
+      - n: "Cinco: la hipotermia. La inactividad y el frío en altitud te roban el calor. Abrígate por capas y evita el calzado apretado."
+      - l: "Seis: el estrés y la hiperventilación. Ralentiza la respiración, alarga la exhalación, habla en voz alta o canta."
+      - n: "Siete: la deshidratación. Cuando tienes sed, ya vas con déficit. Bebe desde el despegue."
+      - l: "Ocho: la fatiga. El café no la previene. La aguda sólo se cura durmiendo y descansando. La crónica requiere consulta médica."
+      - n: "Y un remate: la norma. Prohíbe volar con las facultades mermadas por cualquier sustancia psicoactiva. Su medio aceptable de cumplimiento concreta la regla: ocho horas sin alcohol antes del vuelo, nada durante el vuelo, y una alcoholemia inferior a cero coma dos gramos por litro."
+      - l: "Y una tasa menor no ampara a quien vuela con las facultades mermadas. No te automediques. Hasta las pastillas de la alergia o del mareo adormecen de forma incapacitante para volar."
+      - n: "Si te quedas con una sola idea del capítulo..."
+      - l: "Tu cuerpo es parte del equipo. Y también tiene que pasar la prevuelo."
+        e: calido
+      - n: "Hasta el siguiente capítulo, donde hablaremos de psicología."
+        e: calido
+      - l: "Hasta pronto."
+        e: calido

@@ -410,16 +410,21 @@
   // Las cubiertas la desactivan con `foreground: none` en su propio page(): son
   // el diseño del libro y no deben llevarla.
   //
-  // La etiqueta "CREANDO ILUSTRACIONES" se parte en dos líneas para que
-  // ninguna palabra se rompa. Las demás etiquetas ("EN REVISIÓN",
-  // "EN DESARROLLO") caben en una sola línea y se renderizan igual que antes.
+  // Las etiquetas largas ("CREANDO ILUSTRACIONES", "CANDIDATO DE VERSIÓN") se
+  // parten en dos líneas para que ninguna palabra se rompa. Las demás ("EN
+  // REVISIÓN", "EN DESARROLLO") caben en una sola y se renderizan igual que antes.
   set page(foreground: if estado != none {
     // La edición inglesa recibe la etiqueta ya traducida por el Makefile
-    // ("Creating illustrations"), que tampoco cabe en una línea.
-    let contenido = if estado in ("Creando ilustraciones", "Creating illustrations") {
+    // ("Creating illustrations", "Release candidate"), que tampoco cabe en una línea.
+    let lineas = if estado in ("Creando ilustraciones", "Creating illustrations", "Release candidate") {
+      upper(estado).split(" ")
+    } else if estado == "Candidato de versión" {
+      ("CANDIDATO", "DE VERSIÓN")
+    }
+    let contenido = if lineas != none {
       stack(dir: ttb, spacing: 0.7em,
-        ..upper(estado).split(" ").map(palabra =>
-          text(size: 52pt, weight: "black", fill: rgb(200, 30, 30, 23), palabra)),
+        ..lineas.map(linea =>
+          text(size: 52pt, weight: "black", fill: rgb(200, 30, 30, 23), linea)),
       )
     } else {
       text(size: 52pt, weight: "black", fill: rgb(200, 30, 30, 23), upper(estado))
