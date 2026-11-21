@@ -3,7 +3,7 @@ project:
   output-dir: _book
 
 lang: es
-version: "1.0-rc.10"
+version: "1.0-rc.11"
 repo-url: "https://github.com/VuelaLibre-net/teoria-licencia-SPL"
 cubierta: "cover/frente.jpg"
 contracubierta: "cover/reverso.jpg"
