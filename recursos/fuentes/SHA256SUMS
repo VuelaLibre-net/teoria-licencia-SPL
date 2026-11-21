@@ -8,6 +8,7 @@ a84d5f7fcf3e14055556dde7c0b8cb4a0dceabfc66be05d55a2ef2059250b87f  aip/aip-espana
 374408f92f72e5038a7a40b4b7c6e959fbcdb5a1163c70959dcb4867da50b7de  aip/aip-espana-GEN_2_2_es.pdf
 1be2cfddbcd39e1dcb5e84f5e57b74bc1d5b408e62ff5c87b7c25a0587126a12  aip/aip-espana-GEN_3_1_es.pdf
 2ae14a99a9bf7f9011f942a48f0359e163c7ffe063a72424bcc1d254a1582284  aip/aip-espana-GEN_3_3_es.pdf
+6c4ac2c868f18d9e69b24c3d7503948ba7dca4d763b6246a21da52ad14fa8f72  aip/aip-espana-GEN_3_5_es.pdf
 e01197e8cc96c9a1fd67608fb5b309eb166d82fde71acdf38e957e9de851a5a8  aip/aip-espana-GEN_3_6_es.pdf
 edbf448a8a2318b17bf283222a69f5ef9fa1546bc461e0906360db4d9e4d812e  easa/easa-amc-gm-part-med-issue2-2019.pdf
 95313fbe8ea339bac1cb1f863151d134ef25c54fd63d0323b78c22dbd4873774  easa/easa-amc-gm-part-med-issue2-amdt1-2025.pdf
@@ -29,8 +30,13 @@ a183ddb16c3b28f6b9444633f1db843c102bd3b613f41575cb15cc4362a798b0  espana/orden-f
 ae837d39df7f9968f410e16ed2bcc8b1f7806933f39138ffd481c5b25d42e300  espana/rd-253-2024-estructura-ministerio-transportes.pdf
 b2980e7d9293a12fd90d1989e5236d3a328efeed39167d48c0e5d6a7597ffa76  espana/rd-384-2015-matriculacion-aeronaves-DEROGADO.pdf
 f10c3c5845f9d9303bf6bb6d1ce67b4a514043daa990ee18dc84b68733de4c98  espana/rd-552-2014-reglamento-del-aire-DEROGADO.pdf
+c46c75a25a87f078d1ae425c77c4e9937489382817c9724f1e8c6c76ccd134cc  faa/faa-ac-00-24c-thunderstorms-2013.pdf
+c08b84f5f1409927dc6ee41620b17ed4f221e17830f4eb6b69df1ffbff60c6af  faa/faa-ac-00-6b-aviation-weather-2016.pdf
 ca37e9b2adc7f19a9739750d26aa2c5d8430c06773e4bff556fe035d5a89e8e7  faa/faa-ac-61-107b-chg1-operaciones-gran-altitud.pdf
+6256fc2d6bc63c6626c7e3493df9c5b687bb83c54386e62653ebeb97a9e99a5d  faa/faa-ac-90-23g-estela-turbulenta-2014.pdf
 8cb12c4ad6f976d004f9bab9b6ce40956c49ef4cf8db3ff06f44934e4402a4b4  faa/faa-ac-90-48e-ver-y-evitar-2022.pdf
+ba0db458a7422d1d90c812de79abaf41bba5cb9023ba18a284a566ca38a02b89  faa/faa-aim-cap7-seccion1-2026-11-21.html
+9d59cac1cdaf8635440efe3118d688e33a12f5b06a9288104d92463707540eeb  faa/faa-aim-cap7-seccion4-2026-11-21.html
 18e2326bd6ab8e51b7f26f0735f25cab424cb6d8208475aefd2c959ed3d94ed2  faa/faa-aim-cap8-seccion1-2026-10-01.html
 3a8656abe957e6932baf4568a84c70fc1902366f9a1975727e5daca57709dbd1  faa/faa-cami-hypoxia-2020.pdf
 f7b36e5bd1a8bddc6e554dcdd208e37eea0cac501bf11f49847965d4a63bb120  faa/faa-cami-oxygen-equipment.pdf
@@ -41,8 +47,15 @@ f7b36e5bd1a8bddc6e554dcdd208e37eea0cac501bf11f49847965d4a63bb120  faa/faa-cami-o
 8123f746bad4821d9d1b9b047cb7074d48067507c2057a31b722c6b58300fa79  oaci/oaci-doc-7300-9-convenio-chicago.pdf
 5bea7b51c1a023ba5e034048b093c3e18514ab5e5a7586e04921c8425fdb0d35  oaci/oaci-doc-8984-medicina-aeronautica-3ed-2012.pdf
 1e08bcefef9f1864bb5f0cc3b04214b1ba12e74c8424e92abbb98094ede6f04c  oaci/oaci-doc-9683-factores-humanos-1ed-1998.pdf
+4f521cb78f55ddef1300de93e5d3d8e1f2c743ebe3b3e276cde46cb78e2f57bd  otras/aemet-pibm-2022-03-metar-speci.pdf
+2c95847a9bf56542a9ddf2f34919442cfce01ac090d1d94feca77c0a91ea4f2d  otras/aws-tr-79-006-skew-t-log-p-1990.pdf
 1d91b0e5cf51fb707fefbc3b96aae71a715f8d6417ae2168eb701c17846d90bd  otras/hse-hsg48-human-factors-introduction-2026-10-01.html
+2dd14b8f80e58240c67259c19cebdddb2da8a88505000d7bcc40a1cfa53a461d  otras/ign-atlas-nacional-cap4-clima-2020.pdf
 151c1e7cc3892293bf835a342846da74d314cd7a3ef7e4196b5193ec256df21e  otras/mountain-high-eds-2g-manual.pdf
+38295a0291d3fe98c035b56152eb6a1b6697bbeb418d73031bc16144305911ba  otras/nws-louisville-indices-estabilidad-2026-11-21.html
+afcd2498e52f6ad895d5c94a81bc6fbfdf71e740ad4d1aa50d94820a45933338  otras/omm-atlas-nubes-fog-compared-with-mist-2026-11-21.html
+8dd5675d5e1b102bc1bd747749a4542cef870a35d390a3a1729ab408c67a8ac4  otras/omm-atlas-nubes-nimbostratus-2026-11-21.html
+e8cc386f2231857201f4e9d2d6496a484ad81ea898b8ff7b69fcaee0e606daf6  otras/omm-atlas-nubes-useful-concepts-2026-11-21.html
 958dcda3ee459696b66dabbd07fddf111723a528ada1689c0a7890cb190506ca  otras/wada-codigo-mundial-antidopaje-2021.pdf
 d19dfb7ada5e9fc74c6479e0a9438482ce9477314b77a7fff472a39113891a9c  ue/reg-1178-2011-aircrew-part-med-consol-2026-04-30.pdf
 3ce559efc52fe7f99e03f613b185a6cf10c74475c97c7a41b71d8cbca0fefef4  ue/reg-1178-2011-aircrew-part-med-consol-2026-04-30.xhtml
@@ -51,6 +64,7 @@ eed040b9931f9f27eb7139b6110aafded771294cda96235da78672597f5ce171  ue/reg-1321-20
 b583c86c03255a0fa49877e41fcf79e10fae158d588a8bc2fd6f08efe8daa151  ue/reg-2015-1998-security-medidas-consol-2026-10-01.pdf
 13e1d8f9e9ca24e3c706afeb27dc9013a518c878c822d00b1ec2429967683cc4  ue/reg-2015-1998-security-medidas-consol-2026-10-01.xhtml
 bb3389b637c71cfd0e7940692d7248c2b7eb065f721b984f8f5e7f17550c8006  ue/reg-2017-373-ats-ais-met-consol-2026-02-22.pdf
+4a30ed4a98a9070b2d94d79d3f64045f85a879c8cbba22eb206d357d55ccec2e  ue/reg-2017-373-ats-ais-met-consol-2026-10-04.pdf
 6812ae1e311434ee6406435e7d8c31d3898a555f96674e6889032f9135f440ce  ue/reg-2018-1139-basico-easa-consol-2026-08-02.pdf
 abcae2d90a87219da458d374cf83aa292192a3db328beabaa30d0d5d6f0b59c4  ue/reg-2018-1976-part-sao-sfcl-consol-2021-11-15.pdf
 cf42d26ad23bd86292314af837124738f00e3090aace68bb7287c3b77e6c57ca  ue/reg-2150-2005-uso-flexible-espacio-aereo.pdf

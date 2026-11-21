@@ -8,6 +8,7 @@ misma versión que se leyó, aunque el documento cambie después.
 | --- | --- | --- |
 | Libro 01 | `recursos/auditorias/informe-auditoria-libro-01-derecho-aereo-2026-10-01.md` | 1 de octubre de 2026 |
 | Libro 02 | `recursos/auditorias/informe-auditoria-libro-02-factores-humanos-2026-10-01.md` | 1 de octubre de 2026 |
+| Libro 03 | `recursos/auditorias/informe-auditoria-libro-03-meteorologia-2026-11-21.md` | 21 de noviembre de 2026 |
 
 La columna «Auditoría» de cada tabla dice qué informe usó cada documento.
 
@@ -24,8 +25,9 @@ consolidación, que no es la fecha de descarga.
 
 | Fichero | Norma | Consolidación | Apartados usados | Auditoría |
 | --- | --- | --- | --- | --- |
-| `reg-923-2012-sera-consol-2025-05-01.pdf` | Reglamento de Ejecución (UE) 923/2012, SERA | 01-05-2025 | 01: 2010, 3201, 3210, 3225, 4020, 5001, 5005, 6001, 6005, 7001, 8015, 10001, 11015; apéndices 1, 3 y 4. 02: 2020, 3210 | 01, 02 |
+| `reg-923-2012-sera-consol-2025-05-01.pdf` | Reglamento de Ejecución (UE) 923/2012, SERA | 01-05-2025 | 01: 2010, 3201, 3210, 3225, 4020, 5001, 5005, 6001, 6005, 7001, 8015, 10001, 11015; apéndices 1, 3 y 4. 02: 2020, 3210. 03: 5001 | 01, 02, 03 |
 | `reg-2017-373-ats-ais-met-consol-2026-02-22.pdf` | Reglamento de Ejecución (UE) 2017/373 | 22-02-2026 | art. 2; anexo I def. 37; ATS.TR.400/405; AIS.OR.315/505; parte MET (CAVOK) | 01 |
+| `reg-2017-373-ats-ais-met-consol-2026-10-04.pdf` | Reglamento de Ejecución (UE) 2017/373 | 04-10-2026 | art. 2 def. 26 y 37; anexo V (Part-MET): MET.OR.200, 250, 255; MET.TR.200 d) y f), 205, 210, 215, 220; apéndices 1 y 5 | 03 |
 | `reg-1178-2011-aircrew-part-med-consol-2026-04-30.pdf` (y `.xhtml`) | Reglamento (UE) 1178/2011, Parte MED | 30-04-2026 | 01: MED.A.020, 030, 045. 02: MED.A.020, 030; MED.B.055, 075, 095 | 01, 02 |
 | `reg-1321-2014-aeronavegabilidad-part-ml-consol-2026-08-07.pdf` | Reglamento (UE) 1321/2014, Parte ML | 07-08-2026 | ML.A.403, 803, 901, 902 | 01 |
 | `reg-748-2012-part-21-consol-2026-08-07.pdf` | Reglamento (UE) 748/2012, Parte 21 | 07-08-2026 | 21.A.181, 21.A.801; formulario EASA 25 | 01 |
@@ -43,16 +45,17 @@ Cellar no ofrece PDF para tres consolidaciones: las de 1178/2011, 376/2014 y 201
 guarda el XHTML original y un PDF impreso desde ese XHTML con Chrome. El PDF es sólo para leer con
 comodidad: el XHTML es el texto descargado.
 
-En Cellar existe una consolidación posterior del 2017/373, de fecha 04-10-2026. Aquí se guarda la de
-22-02-2026, que es la que se citó en la auditoría del libro 01. Para el 2018/1976 y el 1178/2011, la
+Del 2017/373 se guardan dos consolidaciones: la de 22-02-2026, que es la que se citó en la auditoría
+del libro 01, y la de 04-10-2026, que era la última en Cellar el 21 de noviembre de 2026 (consulta
+SPARQL) y es la que usa la auditoría del libro 03. Para el 2018/1976 y el 1178/2011, la
 consulta SPARQL del 1 de octubre de 2026 no dio consolidaciones posteriores a las guardadas.
 
 ## `easa/`: EASA
 
 | Fichero | Documento | Edición | Apartados usados | Auditoría |
 | --- | --- | --- | --- | --- |
-| `easa-easy-access-rules-sailplanes-2022-11.pdf` | Easy Access Rules for Sailplanes | revisión de septiembre de 2020; PDF del 02-11-2022 (incluye 2018/1976 mod. 2020/358 y las ED Decisions 2019/001/R y 2020/004/R) | 01: AMC1 SFCL.130 (syllabus); SAO y SFCL con sus AMC y GM. 02: AMC1 SFCL.130 y 135; SAO.GEN.130 f) y SAO.GEN.135 b) con su AMC1 y GM1; SAO.OP.150 y AMC1; SAO.IDE.115; CS 22.1441/1449 | 01, 02 |
-| `easa-easy-access-rules-sera-2025-08.pdf` | Easy Access Rules for Standardised European Rules of the Air (SERA) | agosto de 2025 | 01: AMC1 y GM1 SERA.5005(f). 02: SERA.2020, SERA.3210 | 01, 02 |
+| `easa-easy-access-rules-sailplanes-2022-11.pdf` | Easy Access Rules for Sailplanes | revisión de septiembre de 2020; PDF del 02-11-2022 (incluye 2018/1976 mod. 2020/358 y las ED Decisions 2019/001/R y 2020/004/R) | 01: AMC1 SFCL.130 (syllabus); SAO y SFCL con sus AMC y GM. 02: AMC1 SFCL.130 y 135; SAO.GEN.130 f) y SAO.GEN.135 b) con su AMC1 y GM1; SAO.OP.150 y AMC1; SAO.IDE.115; CS 22.1441/1449. 03: AMC1 SFCL.130 y 135; SAO.GEN.130; SAO.OP.120 y 135 | 01, 02, 03 |
+| `easa-easy-access-rules-sera-2025-08.pdf` | Easy Access Rules for Standardised European Rules of the Air (SERA) | agosto de 2025 | 01: AMC1 y GM1 SERA.5005(f). 02: SERA.2020, SERA.3210. 03: SERA.2010 b), SERA.5001 | 01, 02, 03 |
 | `easa-amc-gm-part-med-issue2-2019.pdf` | AMC & GM to Part-MED, Issue 2 (ED Decision 2019/002/R) | 28-01-2019 | GM1 MED.A.020; AMC14 MED.B.095 | 02 |
 | `easa-amc-gm-part-med-issue2-amdt1-2025.pdf` | AMC & GM to Part-MED, Issue 2, Amendment 1 (anexo III de la ED Decision 2025/002/R) | 05-02-2025 | comprobación de que no modifica los apartados anteriores (sólo toca MED.B.010, 015, 055 y 070) | 02 |
 | `easa-annual-safety-review-2019.pdf` | Annual Safety Review 2019 | 2019 | cap. 5 (planeadores), figs. 65 y 67 | 02 |
@@ -77,7 +80,7 @@ derogación.
 
 | Fichero | Norma | Identificador BOE | Apartados usados | Auditoría |
 | --- | --- | --- | --- | --- |
-| `rd-1180-2018-reglamento-del-aire.pdf` | Real Decreto 1180/2018 | BOE-A-2018-15406 | 01: arts. 6, 30, 33; anexo I; disposición derogatoria. 02: búsqueda de «alcohol» | 01, 02 |
+| `rd-1180-2018-reglamento-del-aire.pdf` | Real Decreto 1180/2018 | BOE-A-2018-15406 | 01: arts. 6, 30, 33; anexo I; disposición derogatoria. 02: búsqueda de «alcohol». 03: art. 30 | 01, 02, 03 |
 | `rd-552-2014-reglamento-del-aire-DEROGADO.pdf` | Real Decreto 552/2014 (derogado por el RD 1180/2018) | BOE-A-2014-6856 | art. 15 | 01 |
 | `ley-21-2003-seguridad-aerea.pdf` | Ley 21/2003, de Seguridad Aérea | BOE-A-2003-13616 | 01: arts. 3, 4 bis, 33-36, 44, 48, 50, 55, 56, 58. 02: arts. 25.2 d), 34 | 01, 02 |
 | `ley-2-2024-autoridad-investigacion-accidentes.pdf` | Ley 2/2024 (Autoridad de investigación de accidentes) | BOE-A-2024-15937 | disposición adicional primera; arts. 9, 21 | 01 |
@@ -107,28 +110,35 @@ Fuentes:
 
 Los Doc 8984 y 9683 son manuales de orientación: no son vinculantes.
 
-No se guardan los Anexos 7, 11, 12, 14, 17 y 18 ni el Doc 8400: son de pago, y la auditoría del
-libro 01 los suplió con transposiciones de la UE y con el AIP. Tampoco la reproducción no oficial
+No se guardan los Anexos 3, 7, 11, 12, 14, 17 y 18 ni los Doc 7488 y 8400: son de pago, y la auditoría del
+libro 01 los suplió con transposiciones de la UE y con el AIP. La del libro 03 suplió el Anexo 3 con la
+Parte MET del 2017/373 y el AIP GEN 3.5, y el Doc 7488 (atmósfera tipo) con la tabla 1-2 de la AC 00-6B. Tampoco la reproducción no oficial
 del Anexo 7 que se consultó como orientación.
 
 ## `faa/`: Administración Federal de Aviación de EE. UU.
 
 Manuales, circulares y folletos de la FAA. Son de otra jurisdicción y **no son vinculantes en
 España**: la auditoría del libro 02 los usa como fuente técnica de fisiología, factores humanos y
-equipos de oxígeno, donde no hay norma EASA. Los ficheros `.html` son instantáneas de una página en
+equipos de oxígeno, donde no hay norma EASA, y la del libro 03, como doctrina técnica de meteorología
+aeronáutica. Los ficheros `.html` son instantáneas de una página en
 línea que cambia; el nombre lleva la fecha de descarga.
 
 | Fichero | Documento | Edición | Apartados usados | Auditoría |
 | --- | --- | --- | --- | --- |
-| `faa-h-8083-25c-phak-2023.pdf` | *Pilot's Handbook of Aeronautical Knowledge*, FAA-H-8083-25C | 2023 | caps. 2 (ADM, DECIDE, PAVE, 3P, IMSAFE), 7 (equipos de oxígeno) y 17 (medicina aeronáutica) | 02 |
+| `faa-h-8083-25c-phak-2023.pdf` | *Pilot's Handbook of Aeronautical Knowledge*, FAA-H-8083-25C | 2023 | 02: caps. 2 (ADM, DECIDE, PAVE, 3P, IMSAFE), 7 (equipos de oxígeno) y 17 (medicina aeronáutica). 03: caps. 4, 5, 11 y 12 | 02, 03 |
 | `faa-h-8083-9b-aviation-instructors-handbook-2020.pdf` | *Aviation Instructor's Handbook*, FAA-H-8083-9B | 2020 | caps. 2 (Maslow) y 3 (memoria) | 02 |
-| `faa-h-8083-13b-glider-flying-handbook-2024.pdf` | *Glider Flying Handbook*, FAA-H-8083-13B | diciembre de 2024 | cap. 7 («Roll-In») | 02 |
+| `faa-h-8083-13b-glider-flying-handbook-2024.pdf` | *Glider Flying Handbook*, FAA-H-8083-13B | diciembre de 2024 | 02: cap. 7 («Roll-In»). 03: cap. 9 (térmicas, convergencias, ladera, onda; figs. 9-6 a 9-27) y glosario | 02, 03 |
 | `faa-aim-cap8-seccion1-2026-10-01.html` | *Aeronautical Information Manual*, cap. 8, sección 1 | página fechada el 07-09-2026 | 8-1-1 a 8-1-3, 8-1-6, 8-1-8 | 02 |
 | `faa-ac-61-107b-chg1-operaciones-gran-altitud.pdf` | AC 61-107B CHG 1, *Aircraft Operations at Altitudes Above 25,000 Feet MSL…* | 29-03-2013, cambio 1 del 09-09-2015 | 2-7 (hipoxia, hiperventilación, TUC, pulsioxímetro) | 02 |
 | `faa-ac-90-48e-ver-y-evitar-2022.pdf` | AC 90-48E, *Pilots' Role in Collision Avoidance* | 20-10-2022 | tabla 1 (tiempo de reacción) | 02 |
 | `faa-cami-hypoxia-2020.pdf` | CAMI, folleto *Hypoxia* | 2020 | síntomas y su orden | 02 |
 | `faa-cami-oxygen-equipment.pdf` | CAMI, folleto *Oxygen Equipment: Use in General Aviation Operations* | sin fecha visible | cánula, mascarilla, flujo continuo, PRICE | 02 |
 | `faa-gajsc-fly-the-aircraft-first-2015.pdf` | FAA/GAJSC, *Safety Enhancement Topic: Fly the Aircraft First* | enero de 2015 | *aviate, navigate, communicate* | 02 |
+| `faa-ac-00-6b-aviation-weather-2016.pdf` | AC 00-6B, *Aviation Weather* | 23-08-2016 | tabla 1-2; §7.4-7.5; §8.2; §10.2; §11.2-11.3; §12.3; cap. 14 (fig. 14-4); §18.2-18.3; §19.3; §19.6.3 | 03 |
+| `faa-ac-00-24c-thunderstorms-2013.pdf` | AC 00-24C, *Thunderstorms* | 19-02-2013 | §7 (granizo), §10 (evitación) | 03 |
+| `faa-ac-90-23g-estela-turbulenta-2014.pdf` | AC 90-23G, *Aircraft Wake Turbulence* | 10-02-2014 | §6, §9.a | 03 |
+| `faa-aim-cap7-seccion1-2026-11-21.html` | *Aeronautical Information Manual*, cap. 7, sección 1 | página en línea | 7-1-24 (microbursts) | 03 |
+| `faa-aim-cap7-seccion4-2026-11-21.html` | *Aeronautical Information Manual*, cap. 7, sección 4 | página en línea | 7-4 (estela), 7-4-7 (helicópteros) | 03 |
 
 Fuentes, todas en `faa.gov` salvo la última, en `faasafety.gov`:
 - <https://www.faa.gov/sites/faa.gov/files/FAA-H-8083-25C.pdf>;
@@ -139,7 +149,11 @@ Fuentes, todas en `faa.gov` salvo la última, en `faasafety.gov`:
 - <https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_90-48E.pdf>;
 - <https://www.faa.gov/pilots/safety/pilotsafetybrochures/media/hypoxia.pdf>;
 - <https://www.faa.gov/pilots/safety/pilotsafetybrochures/media/oxygen_equipment.pdf>;
-- <https://www.faasafety.gov/files/events/GL/GL09/2021/GL09109386/SE_Topic15-01_Fly_the_Aircraft_First.pdf>.
+- <https://www.faasafety.gov/files/events/GL/GL09/2021/GL09109386/SE_Topic15-01_Fly_the_Aircraft_First.pdf>;
+- <https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_00-6B.pdf>;
+- <https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC%2000-24C.pdf>;
+- <https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_90-23G.pdf>;
+- <https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap7_section_1.html> y `chap7_section_4.html`.
 
 ## `otras/`: otras fuentes
 
@@ -148,18 +162,31 @@ Fuentes, todas en `faa.gov` salvo la última, en `faasafety.gov`:
 | `wada-codigo-mundial-antidopaje-2021.pdf` | Agencia Mundial Antidopaje, Código Mundial Antidopaje | 2021, vigente hasta la entrada en vigor del Código de 2027 | primaria deportiva | 02 |
 | `mountain-high-eds-2g-manual.pdf` | Mountain High, *MH EDS 2G User Manual* | 2019 | fabricante (secundaria) | 02 |
 | `hse-hsg48-human-factors-introduction-2026-10-01.html` | UK Health and Safety Executive, HSG48, página de introducción a los factores humanos | página en línea | primaria (definición de la HSE) | 02 |
+| `aws-tr-79-006-skew-t-log-p-1990.pdf` | Air Weather Service, AWS/TR-79/006, *The Use of the Skew T, Log P Diagram in Analysis and Forecasting* | dic. 1979, rev. marzo de 1990 | primaria técnica (índices TT, K, LI; escalas de Miller y George) | 03 |
+| `nws-louisville-indices-estabilidad-2026-11-21.html` | NWS Louisville, «Stability indices» | página en línea | servicio oficial (CAPE, LI, K, TT) | 03 |
+| `ign-atlas-nacional-cap4-clima-2020.pdf` | IGN, *Atlas Nacional de España*, cap. 4 «Clima» | ed. 2020, PDF de 03-11-2023 | primaria oficial (nieblas, baja térmica estival, anticiclón de invierno) | 03 |
+| `aemet-pibm-2022-03-metar-speci.pdf` | AEMET, curso PIB-M 2022, «03 METAR-SPECI» | 2022 | formación oficial (umbral de BR) | 03 |
+| `omm-atlas-nubes-useful-concepts-2026-11-21.html` | OMM, *Atlas Internacional de Nubes*, «Useful concepts» | ed. 2017, en línea | primaria (pisos nubosos, tabla 6) | 03 |
+| `omm-atlas-nubes-fog-compared-with-mist-2026-11-21.html` | OMM, *Atlas Internacional de Nubes*, «Fog compared with Mist» | ed. 2017, en línea | primaria (niebla y neblina) | 03 |
+| `omm-atlas-nubes-nimbostratus-2026-11-21.html` | OMM, *Atlas Internacional de Nubes*, «Nimbostratus» | ed. 2017, en línea | primaria (piso del Ns) | 03 |
 
 Fuentes:
 - <https://www.wada-ama.org/sites/default/files/resources/files/2021_wada_code.pdf>. El 1 de octubre de 2026 el servidor respondía con un 202 vacío a la descarga automática; la copia es la que obtuvo ese mismo día el agente del bloque B de la auditoría;
 - <https://www.mhoxygen.com/2016/download/870/eds-o2d1/27220/5md20-0003-00-1.pdf>;
-- <https://www.hse.gov.uk/humanfactors/introduction.htm>.
+- <https://www.hse.gov.uk/humanfactors/introduction.htm>;
+- <https://www.inscc.utah.edu/~krueger/5300/AF_SkewT_manual.pdf> (copia de DTIC ADA221842);
+- <https://www.weather.gov/lmk/indices>;
+- <https://www.ign.es/web/resources/docs/IGNCnig/ANE/Capitulos/04_1_Clima_2020_20231103.pdf>;
+- <https://etrp.wmo.int/pluginfile.php/56265/mod_resource/content/1/03-METAR-SPECI.pdf>;
+- <https://cloudatlas.wmo.int/en/useful-concepts.html>, `fog-compared-with-mist.html` y `nimbostratus-ns.html`.
 
 ## `aip/`: AIP España (ENAIRE)
 
 Información aeronáutica **dinámica**: cambia con cada enmienda AIRAC. Estas copias muestran lo que
 decía el AIP el 1 de octubre de 2026 (AMDT 411/26, AIRAC 09/26 en vigor desde ese día), y no deben
 usarse como fuente vigente sin volver a descargarlas. Algunas secciones sólo pudieron descargarse en
-su versión inglesa (`_en`). Todas se usaron en la auditoría del libro 01.
+su versión inglesa (`_en`). Todas se usaron en la auditoría del libro 01, salvo GEN 3.5, descargada el
+21 de noviembre de 2026 (AIRAC AMDT 10/26, en vigor desde el 29-10-2026) para la del libro 03.
 
 | Fichero | Sección | Usada en |
 | --- | --- | --- |
@@ -174,6 +201,7 @@ su versión inglesa (`_en`). Todas se usaron en la auditoría del libro 01.
 | `aip-espana-ENR_2_1_en.pdf` | ENR 2.1, FIR, CTA y TMA | cap07, cap11 |
 | `aip-espana-ENR_5_1_en.pdf` | ENR 5.1, zonas prohibidas, restringidas y peligrosas | cap07 |
 | `aip-espana-AD_2_LEZG_es.pdf` | AD 2-LEZG, aeródromo de Zaragoza | cap09 (ejemplo de NOTAM) |
+| `aip-espana-GEN_3_5_es.pdf` | GEN 3.5, servicios meteorológicos (AMDT 10/26) | libro 03: cap10 (SPECI, TAF, GAMET, AIRMET, SWL) y rastreo del 04/cap04 (VOLMET, SIGMET) |
 
 ## Qué no está aquí
 
@@ -191,3 +219,7 @@ Quedan fuera las fuentes que no son documentos estables:
   - la entrada de EU-OSHA sobre el error humano;
   - la de Wikipedia sobre la carga de trabajo;
   - las páginas de Mountain High, incluido el artículo de *Soaring* que reproducen.
+- **Auditoría del libro 03:**
+  - las páginas del NWS de Houston y del glosario del NWS, del AEMET Blog y de DVIDS (foto NASA L90-5919);
+  - el diario de Wilbur Wright en la colección digital de East Carolina University;
+  - las URL del apéndice de fuentes de meteorología, que se comprobaron como datos dinámicos.
