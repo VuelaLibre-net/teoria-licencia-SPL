@@ -16,6 +16,48 @@ rompe la compilación.
 
 ## [En curso]
 
+## [1.0-rc.17] — 21 de noviembre de 2026
+
+**Qué releer:** las **21 figuras** que la auditoría marcó para rehacer (issue #58), en cap01–cap14,
+con sus pies; ya no queda ninguna figura «EN REVISIÓN» en el libro. Del texto, sólo la frase nueva
+que abre «Situaciones de conflicto» (cap05), los pies del certificado de aeronavegabilidad (cap02) y
+de la pirámide de sucesos (cap13), y una conversión de la tabla de señales (cap10).
+
+### Corregido
+
+* **cap06, cap13 y cap14, figuras prioritarias** — se rehacen las tres figuras que llegaron a
+  retirarse tras la auditoría y se quitan la marca «EN REVISIÓN» y la nota del pie. La regla
+  semicircular reparte los niveles Norte-Sur, como en España (pares + 500 ft de 270° a 089°,
+  impares + 500 ft de 090° a 269°), no Este-Oeste. El proceso de notificación añade los sucesos
+  de la lista del Reglamento 2015/1018 a los obligatorios y dice a quién se notifica cada uno y en
+  qué plazo. La escala de infracciones gradúa la misma conducta por lo que provoca (art. 44 de la
+  LSA), con las multas a un particular y las sanciones sobre la licencia. Ahora se dibujan por
+  código (`tools/figuras/01_derecho_aereo.py`) y pasan de JPEG a PNG. Issue #58.
+* **cap01–cap13, once figuras más** — se rehacen por código, con el mismo script, y pierden la
+  marca y la nota: la estructura normativa de EASA (las CS, aparte, como especificaciones de
+  certificación); el certificado de aeronavegabilidad (formulario EASA 25 de un planeador con la
+  base del Reglamento 2018/1139, sin escudo ni firma, y pie nuevo que explica SAO.GEN.155 c)); el
+  ciclo del ARC (válido hasta el tercer año); la validez del médico (reglas de los 42 y los 51
+  años); la recencia (añade la del método de lanzamiento, SFCL.155); los mínimos VMC (la franja
+  inferior acaba en el mayor de 3.000 ft AMSL o 1.000 ft AGL); las fases de emergencia (los medios
+  SAR salen en DETRESFA y el RCC está informado desde INCERFA); el NOTAM (pista 12R/30L y CLSD); la
+  manga de viento (conversiones bien redondeadas y los 3 kt como referencia orientativa); las
+  señales de aeródromo (formas de SERA, pesas y aspa con su significado, y tres señales que
+  faltaban); y la pirámide de sucesos (categorías del Reglamento 996/2010 y Heinrich como nota,
+  con pie nuevo). Todas salen en PNG, salvo la manga y las señales, que ya lo eran. Issue #58.
+* **cap10** — en la tabla de señales, 3 nudos son 5,6 km/h, no 5,5.
+* **cap01–cap12, seis figuras ilustradas** — se rehacen con un generador de imágenes (ChatGPT) y
+  pierden la marca y la nota: las libertades del aire (el país de la aeronave es siempre el «país
+  de origen», también en la quinta, cuyo tramo entre B y C se destaca); las prioridades de paso
+  (viñetas rotuladas y rumbos claros, con quien cede en ámbar); las alturas mínimas (los 300 m se
+  miden desde el obstáculo más alto y el planeador de ladera vuela a barlovento); las dependencias
+  ATC (el ACC fuera del aeropuerto y la torre con el circuito); el circuito de tránsito (un
+  planeador, sin IP ni «tramo de entrada»); y *safety* frente a *security* (sin seguridad laboral
+  ni ciberseguridad). En cap05, la remisión a la figura de prioridades pasa del caso del aterrizaje,
+  que no dibuja, a la frase que abre «Situaciones de conflicto». Issue #58.
+* **cap03, ubicación de la matrícula** — se conserva la figura y se quitan la marca y la nota del
+  pie. Issue #58.
+
 ### Maqueta y producción
 
 * **Índice alfabético del PDF** — cada entrada usa el rótulo del glosario, no su equivalente inglés ni la clave de búsqueda más larga. Las siglas aparecen por la sigla y por su desarrollo («CTR» y «Zona de control»). El cambio está en el filtro común `glosario-enlaces.lua` y afecta a los nueve libros (#46). La palabra «visibilidad» deja de enlazar con la entrada CAVOK del glosario.

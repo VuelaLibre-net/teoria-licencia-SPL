@@ -13,6 +13,52 @@ was translated from (`origen-commit`). Terminology follows `en/terminologia.yml`
 
 ## [In progress]
 
+## [0.8.3] — 21 November 2026
+
+**What to reread:** the **21 figures** the audit marked for redrawing (issue #58), in cap01–cap14,
+with their captions; no figure in the book is “IN REVIEW” any more, and those 21 now carry English
+labels (the other eight still carry Spanish text). In the text, only the new sentence that opens
+“Conflict situations” (cap05), the captions of the Certificate of Airworthiness (cap02) and the
+occurrence pyramid (cap13), and one conversion in the signals table (cap10).
+
+### Fixed
+
+* **cap06, cap13 and cap14, priority figures** — the three figures that were withdrawn after the
+  audit are redrawn, with English labels, and lose the “IN REVIEW” mark and the note in the
+  caption. The semicircular rule splits the levels North-South, as in Spain (even + 500 ft from
+  270° to 089°, odd + 500 ft from 090° to 269°), not East-West. The occurrence reporting process
+  adds the occurrences listed in Regulation 2015/1018 to the mandatory ones and says who each one
+  goes to and by when. The scale of infringements grades the same conduct by what it causes
+  (Article 44 of Ley 21/2003), with the fines for a private individual and the penalties on the
+  licence. They are now drawn by code (`tools/figuras/01_derecho_aereo.py`) and change from JPEG
+  to PNG. Issue #58.
+* **cap01–cap13, eleven more figures** — redrawn by code with the same script, with English labels,
+  and stripped of the mark and the note: the EASA regulatory structure (CS shown apart, as
+  certification specifications); the Certificate of Airworthiness (EASA Form 25 for a glider, based
+  on Regulation 2018/1139, with no coat of arms or signature, and a new caption explaining
+  SAO.GEN.155(c)); the ARC cycle (valid until the third year); medical validity (the rules at 42
+  and 51); recency (now with the launch-method rule, SFCL.155); VMC minima (the lower band ends at
+  3,000 ft AMSL or 1,000 ft AGL, whichever is higher); the emergency phases (SAR units are
+  dispatched in DETRESFA and the RCC is informed from INCERFA); the NOTAM (runway 12R/30L and CLSD);
+  the windsock (correctly rounded conversions and the 3 kt as a rough guide); aerodrome signals
+  (SERA shapes, the dumb-bell and the yellow cross with their right meaning, and three signals that
+  were missing); and the occurrence pyramid (Regulation 996/2010 categories, Heinrich as a note,
+  and a new caption). All are now PNG; the windsock and the signals already were. The English text
+  of EASA Form 25 is still to be checked against EUR-Lex. Issue #58.
+* **cap10** — in the signals table, 3 knots are 5.6 km/h, not 5.5.
+* **cap01–cap12, six illustrations** — redrawn with an image generator (ChatGPT), now with English
+  labels, and stripped of the mark and the note: the freedoms of the air (the aircraft's country is
+  always the “home country”, also in the fifth freedom, whose leg between B and C is highlighted);
+  right of way (labelled panels and clear headings, with the glider that gives way in amber);
+  minimum heights (the 300 m are measured from the highest obstacle and the ridge-soaring glider
+  flies on the windward side); ATC units (the ACC away from the airport and the tower with the
+  circuit); the traffic circuit (a glider, with no IP or “joining leg”); and safety versus security
+  (no workplace safety or cybersecurity). In cap05, the reference to the right-of-way figure moves
+  from the landing case, which it does not show, to the sentence that opens “Conflict situations”.
+  Issue #58.
+* **cap03, location of registration marks** — the drawing is kept, now with English labels, and
+  loses the mark and the note in the caption. Issue #58.
+
 ### Layout and production
 
 * **PDF index** — every entry now uses the glossary headword instead of the longest search key or a stray piece of its definition. Acronyms are listed both under the acronym and under its expansion (“CTR” and “Control Zone”). The change is in the shared filter `glosario-enlaces.lua` and affects every book (#46). The word “visibility” no longer links to the CAVOK glossary entry.

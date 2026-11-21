@@ -3,7 +3,7 @@ project:
   output-dir: _book
 
 lang: en
-version: "0.8.2"
+version: "0.8.3"
 repo-url: "https://github.com/VuelaLibre-net/teoria-licencia-SPL"
 cubierta: "cover/frente.png"
 contracubierta: "cover/reverso.png"
@@ -38,12 +38,6 @@ book:
     - bibliography.qmd
     - colophon.qmd
     - back-cover.qmd
-
-# Marca de agua «EN REVISIÓN» sobre las figuras con la clase .corregir, en
-# todas las salidas (PDF, EPUB y web). Ver el propio filtro.
-filters:
-  - path: _extensions/orange-book-es/figura-corregir.lua
-    at: post-quarto
 
 format:
   orange-book-es-typst:

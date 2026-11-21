@@ -23,7 +23,7 @@ Están escritos en **Quarto Markdown (.qmd)** y se compilan a **PDF** (Typst), *
 
 | # | Libro | Asignatura | Versión | Estado |
 | --- | --- | --- | --- | --- |
-| 1 | **`01-derecho-aereo-atc`** | Derecho Aéreo y Procedimientos de Control de Tránsito Aéreo (ATC) | `1.0-rc.16` | 🔵 Candidato de versión |
+| 1 | **`01-derecho-aereo-atc`** | Derecho Aéreo y Procedimientos de Control de Tránsito Aéreo (ATC) | `1.0-rc.17` | 🔵 Candidato de versión |
 | 2 | **`02-factores-humanos`** | Factores Humanos | `1.0-rc.16` | 🔵 Candidato de versión |
 | 3 | **`03-meteorologia`** | Meteorología | `1.0-rc.18` | 🔵 Candidato de versión |
 | 4 | **`04-comunicaciones`** | Comunicaciones | `1.0-rc.17` | 🔵 Candidato de versión |

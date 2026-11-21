@@ -33,7 +33,7 @@ Watch out for an exception you will often see quoted: in uncontrolled airspace, 
 
 5 km visibility, and a distance from cloud of 1,500 m horizontally and 1,000 ft vertically, whatever airspace you are in. Remember this on big wave days: above FL 100, the minimum visibility rises to **8 km**.
 
-![VMC (Visual Meteorological Conditions) minima for visual flight (VFR). *(FIX: the lower band ends at whichever is higher, 900 m AMSL or 300 m AGL.)*](imagenes/01-cap06-minimos-vmc.jpg){#fig-01-cap06-vmc-minima .corregir}
+![VMC (Visual Meteorological Conditions) minima for visual flight (VFR).](imagenes/01-cap06-minimos-vmc.png){#fig-01-cap06-vmc-minima width="100%"}
 
 ## Semicircular rule for cruising levels
 
@@ -48,7 +48,7 @@ Heading **north** → **even** levels.
 Heading **south** → **odd** levels.
 :::
 
-![Semicircular rule for VFR cruising levels. *(FIX: the drawing splits the levels East-West, as in SERA Appendix 3; Spain uses the North-South rule: 270° to 089°, even levels + 500 ft; 090° to 269°, odd levels + 500 ft.)*](imagenes/01-cap06-regla-semicircular.jpg){#fig-01-cap06-semicircular .corregir}
+![Semicircular rule for VFR cruising levels.](imagenes/01-cap06-regla-semicircular.png){#fig-01-cap06-semicircular width="100%"}
 
 ## Altimeter setting: QNH, QFE and QNE
 

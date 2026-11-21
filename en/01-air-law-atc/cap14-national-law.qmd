@@ -54,7 +54,7 @@ Fines for a private individual range from a warning or €60 up to €45,000 for
 
 And some conduct is more than an administrative infringement: setting out on a flight under the influence of alcohol or drugs is a **criminal offence** (Ley 209/1964, Penal y Procesal de la Navegación Aérea, Article 31).
 
-![Scale of aviation infringements. *(FIX: Ley 21/2003 does not classify infringements by type of conduct, as the drawing does, but by what they cause (art. 44): the same conduct is minor, serious or very serious depending on its consequences.)*](imagenes/01-cap14-escala-infracciones.jpg){#fig-01-cap14-infracciones .corregir}
+![Scale of aviation infringements.](imagenes/01-cap14-escala-infracciones.png){#fig-01-cap14-infracciones width="100%"}
 
 ::: {.callout-warning title="Safety"}
 Fines can be **very high**, even for private pilots. Flying without a licence or without insurance can cost you thousands of euros and, if it ends in a serious incident or an accident, the suspension or revocation of your licence; flying under the influence of alcohol is, on top of that, a crime. Not knowing the law does **NOT** excuse you from complying with it.

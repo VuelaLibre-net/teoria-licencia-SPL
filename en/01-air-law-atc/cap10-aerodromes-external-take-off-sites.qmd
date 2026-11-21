@@ -29,17 +29,17 @@ To keep traffic in order, everyone flies the same imaginary rectangle around the
 2. **Base leg**: you turn 90° towards the runway and make the last adjustment to height and speed. Usual reference for starting it: about 150 m (an instructional guideline, not a legal minimum; see Book 6, chapter 4).
 3. **Final**: lined up with the runway, airbrakes out.
 
-![Standard circuit (left-hand turns). *(FIX: the drawing shows a twin-engined aeroplane instead of a glider, and introduces the IP and the “joining leg”, which the text does not explain.)*](imagenes/01-cap10-circuito-transito.jpg){#fig-01-cap10-circuito-transito .corregir}
+![Standard circuit (left-hand turns).](imagenes/01-cap10-circuito-transito.jpg){#fig-01-cap10-circuito-transito}
 
 ## The signals area
 
-![Windsock. *(FIX: the 3 knots per band are only a rough guide, not a rule; and some conversions are wrongly rounded: 9 kt is about 17 km/h and 4.6 m/s; 15 kt, about 7.7 m/s.)*](imagenes/01-cap10-manga-viento.png){#fig-01-cap10-manga-viento .corregir}
+![Windsock.](imagenes/01-cap10-manga-viento.png){#fig-01-cap10-manga-viento width="100%"}
 
 If you have no radio (or it fails), the ground talks to you. The **light signals** a tower can flash at you with a lamp are covered in **Book 4 — Communications**, chapter 5 (communications failure); this chapter deals with the ground signals. The **signals area**, a white-bordered square near the tower or the runway, holds symbols you must know (@fig-01-cap10-area-senales):
 
 | Signal | Meaning |
 | --- | --- |
-| **Windsock** | Shows the direction (where the wind comes from) and strength. (Each red/white band usually represents about 3 knots, 5.5 km/h.) |
+| **Windsock** | Shows the direction (where the wind comes from) and strength. (Each red/white band usually represents about 3 knots, 5.6 km/h.) |
 | **Landing 'T'** | Shows the landing/take-off direction. The 'T' represents an aircraft: the vertical bar is the fuselage, the horizontal one the wings. **Land parallel to the shaft, towards the cross arm** (the horizontal bar). |
 | **Right-hand arrow** | → **Caution**: turns to the **RIGHT**. The circuit is non-standard. |
 | **Red square with diagonals** | (Red square with a yellow saltire.) **LANDING PROHIBITED**, and the prohibition is liable to be prolonged. |
@@ -52,7 +52,7 @@ If you have no radio (or it fails), the ground talks to you. The **light signals
 | **Letter C** | (Black on a yellow background.) Air traffic services reporting office. |
 : Aerodrome visual signals (SERA, Appendix 1, 3.2)
 
-![The language of the ground: the signals area. *(FIX: the dumb-bell does not require paved runways, only that you use runways and taxiways; and the red square prohibits landing without the aerodrome necessarily being closed.)*](imagenes/01-cap10-senales-aerodromo.png){#fig-01-cap10-area-senales .corregir}
+![The language of the ground: the signals area.](imagenes/01-cap10-senales-aerodromo.png){#fig-01-cap10-area-senales width="100%"}
 
 ::: {.callout-tip title="Golden rule"}
 Before take-off or when you arrive at a new airfield, **always look for the signals area**. At a glance, and without a radio, it tells you the runway in use and the direction of turns.
