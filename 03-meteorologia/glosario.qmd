@@ -9,7 +9,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes de la meteo
 : Altitud de presión corregida por la temperatura no estándar: la altitud de la atmósfera estándar en la que el aire tendría la densidad real. Un día caluroso en un campo alto puede tener una altitud de densidad miles de pies por encima de su elevación, y las aeronaves rinden como si estuvieran allí.
 
 **Altitud de presión (pressure altitude)**
-: Altitud que indica el altímetro calado a 1013,25 hPa: la altitud de la atmósfera estándar en la que reina la presión del momento.
+: Altitud que indica el altímetro calado a 1013,25 hPa: la altitud de la atmósfera estándar que corresponde a la presión del momento.
 
 **Altocúmulo lenticular (ACSL)**
 : Nube en forma de lenteja o platillo, estacionaria respecto al terreno a pesar de los vientos intensos. Su presencia indica flujo laminar de onda de montaña en la vertical. Es la señal visual que invita al vuelo de onda.
@@ -204,7 +204,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes de la meteo
 : Corriente convectiva ascendente de aire formada por el calentamiento diferencial del suelo. El sol calienta el terreno, el terreno calienta el aire en contacto y este asciende por flotabilidad. Es la fuente principal de sustentación en el vuelo a vela de distancia. Su intensidad depende del diferencial de temperatura suelo–atmósfera libre.
 
 **Total Totals (TT)**
-: Índice de estabilidad que suma la diferencia de temperatura entre 850 y 500 hPa y el punto de rocío a 850 hPa: TT = (T850 + Td850) − 2·T500. Sus umbrales de tormenta cambian de una región a otra (ver capítulo 3).
+: Índice de estabilidad que suma dos diferencias con la temperatura a 500 hPa: la de la temperatura a 850 hPa y la del punto de rocío a 850 hPa. TT = (T850 + Td850) − 2·T500. Sus umbrales de tormenta cambian de una región a otra (ver capítulo 3).
 
 **TREND (pronóstico de tendencia)**
 : Pronóstico para las dos horas siguientes que se añade al final del METAR: `BECMG` (cambio permanente), `TEMPO` (cambio temporal) o `NOSIG` (sin cambios significativos).

@@ -36,7 +36,7 @@ En zonas montañosas como el Sistema Central, los Pirineos o los Picos de Europa
 Los **rotores de sotavento** son la trampa invisible de la climatología ibérica: con viento de componente norte en el Sistema Central o con Tramontana en el Pirineo, el rotor puede situarse exactamente sobre la vertical del aeródromo a alturas de circuito. Si el día presenta lenticulares en altura y ves fractocúmulos deshilachados a baja cota, trata esa zona como zona de turbulencia severa.
 
 ::: {.callout-warning title="Seguridad"}
-Los vientos catabáticos y los rotores de sotavento pueden aparecer a baja altitud sin previo aviso visual. Con viento fuerte, evita volar bajo sobre una ladera de sotavento: si hay rotor, cualquier altura puede ser poca, y conoce los puntos conflictivos de tu aeródromo local antes de volar en condiciones de viento fuerte.
+Los vientos catabáticos y los rotores de sotavento pueden aparecer a baja altitud sin previo aviso visual. Con viento fuerte, evita volar bajo sobre una ladera de sotavento: si hay rotor, cualquier altura puede ser poca. Y antes de volar con viento fuerte, conoce los puntos conflictivos de tu aeródromo.
 :::
 
 ::: {.callout-note title="Airmanship"}
@@ -62,7 +62,7 @@ En verano, las tormentas de evolución (**air mass storms**) se desarrollan ráp
 
 ## La baja térmica peninsular estival
 
-En los picos crudos del verano, la intensa radiación solar hornea la superficie de las vastas mesetas del interior peninsular. Este calentamiento brutal genera grandes columnas de aire cálido ascendentes, estableciendo una **baja térmica peninsular** casi permanente en verano sobre el interior peninsular, más marcada por la tarde.
+En los picos crudos del verano, la intensa radiación solar hornea la superficie de las vastas mesetas del interior peninsular. Este calentamiento brutal genera grandes columnas de aire cálido ascendentes, estableciendo una **baja térmica peninsular**, casi permanente en verano y más marcada por la tarde.
 
 Aunque barométricamente no es tan profunda como una fuerte borrasca polar, esta masa estancada ejerce una constante fuerza de succión. Como si fuera una gigantesca aspiradora, la baja térmica tira continuamente de las densas masas de aire frío y húmedo que reposan sobre el océano y los mares perimetrales, arrastrándolas hacia el interior terrestre.
 
@@ -78,5 +78,5 @@ Las líneas de convergencia generadas por la Baja Térmica Peninsular son autopi
 * **España, país de contrastes**: Tenemos condiciones mundiales para el vuelo. Viento y **Onda de Montaña** en invierno/primavera (Pirineos, Sistema Central) y potentes **Térmicas** en verano (La Mancha, zonas interiores).
 * **Vientos Locales**: Cada valle tiene su dueño. Los vientos anabáticos y catabáticos definen la mañana y la tarde en zonas montañosas. Los rotores de sotavento son la trampa invisible del piloto imprudente.
 * **Estacionalidad**: La primavera ofrece inestabilidad y buen vuelo local. El verano trae techos altos y tormentas secas de calor. El otoño suele traer lluvias y DANA.
-* **Baja Térmica Peninsular**: En verano, el sol calienta tanto el centro de España que se forma una baja presión casi permanente en verano, más marcada por la tarde. Esto succiona aire del mar, reforzando las brisas costeras que penetran muy adentro y generan líneas de convergencia ideales para el cross-country.
+* **Baja Térmica Peninsular**: En verano, el sol calienta tanto el centro de España que se forma una baja presión casi permanente, más marcada por la tarde. Esto succiona aire del mar, reforzando las brisas costeras que penetran muy adentro y generan líneas de convergencia ideales para el cross-country.
 :::

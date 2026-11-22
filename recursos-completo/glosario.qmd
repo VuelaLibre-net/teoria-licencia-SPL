@@ -60,7 +60,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Altitud de presión corregida por la temperatura no estándar: la altitud de la atmósfera estándar en la que el aire tendría la densidad real. Un día caluroso en un campo alto puede tener una altitud de densidad miles de pies por encima de su elevación, y las aeronaves rinden como si estuvieran allí.
 
 **Altitud de presión (pressure altitude)**
-: Altitud que indica el altímetro calado a 1013,25 hPa: la altitud de la atmósfera estándar en la que reina la presión del momento.
+: Altitud que indica el altímetro calado a 1013,25 hPa: la altitud de la atmósfera estándar que corresponde a la presión del momento.
 
 **Altitud geométrica (ellipsoidal height)**
 : Altitud que calcula el GNSS, medida sobre el elipsoide de referencia del WGS-84. No coincide con la altitud barométrica del altímetro —en la Península, la diferencia entre el elipsoide y el nivel medio del mar ronda los 50 m— y no debe usarse para comprobar límites de espacio aéreo ni la AMA.
@@ -912,7 +912,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Método de lanzamiento en el que un planeador es acelerado a alta velocidad sobre la pista mediante el enrollado rápido de un cable por un motor potente estacionario en el extremo de la pista, elevándolo hasta la altura de suelta en un ascenso muy inclinado.
 
 **Total Totals (TT)**
-: Índice de estabilidad que suma la diferencia de temperatura entre 850 y 500 hPa y el punto de rocío a 850 hPa: TT = (T850 + Td850) − 2·T500. Sus umbrales de tormenta cambian de una región a otra (ver capítulo 3).
+: Índice de estabilidad que suma dos diferencias con la temperatura a 500 hPa: la de la temperatura a 850 hPa y la del punto de rocío a 850 hPa. TT = (T850 + Td850) − 2·T500. Sus umbrales de tormenta cambian de una región a otra (ver capítulo 3).
 
 **TR (Habilitación de tipo / Type Rating)**
 : Anotación en la licencia que acredita la capacitación para operar un tipo de aeronave cuando la normativa exige esa habilitación.
