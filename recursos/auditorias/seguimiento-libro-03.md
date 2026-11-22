@@ -208,6 +208,34 @@ clase y la nota, y se anota aquí.
 | cap03 | `03-cap03-modelo-burbuja` | PED-07 | fase 5 | |
 | cap03 | `03-cap03-modelo-columna` | PED-07 | fase 5 | |
 
+## Fichas de las figuras
+
+Fase 7. Cada una de las doce figuras marcadas tiene su ficha en `03-meteorologia/prompts/`, fuera de
+`imagenes/` para que no se publique. Las fichas siguen el formato de `GUIA_ILUSTRACIONES.md`
+(`schema: 1`), están en `borrador` y dicen qué falla y cómo rehacer la figura. Las que se generan
+llevan el prompt con las etiquetas exactas en español y su versión inglesa.
+
+- **Por código:** las dos curvas, `03-cap01-atmosfera-isa` y `03-cap03-base-cumulos-dalr-nca`.
+  Sus cifras son las del texto y se dibujan con matplotlib, como las del libro 09
+  (`tools/figuras/`).
+- **Sin generador:**
+  - `03-cap09-estela-turbulenta` se sustituye por la foto NASA L90-5919, con su crédito;
+  - `03-cap10-sigwx` es un mapa SWL real de AEMET con permiso o una recreación sin logotipos. La
+    guía no pide a la IA documentos ni logotipos oficiales, y el símbolo de tormenta espera a la
+    pregunta al meteorólogo.
+- **Basta con editar la figura actual:** `03-cap03-modelo-burbuja` y `03-cap03-modelo-columna`,
+  quitando los rótulos y trazos que no están en el original del GFH.
+- **Más errores en `03-cap06-frente-calido-nubes`, vistos al preparar su ficha y fuera del informe:**
+  - el aire frío está dibujado detrás del frente, cuando va delante, bajo las nubes;
+  - el rótulo de «térmicas antes del frente» no lo respalda el texto;
+  - las «nieblas cálidas» del rótulo son, en el texto, frontales.
+
+  La ficha pide corregirlos al rehacerla.
+
+La lista de tareas para rehacerlas está en el issue #75.
+
+Las otras figuras del libro no tienen ficha todavía. No se crean aquí porque no hay que rehacerlas.
+
 ## Preguntas abiertas
 
 | Pregunta | A quién | Hallazgo | Respuesta |
@@ -221,10 +249,11 @@ clase y la nota, y se anota aquí.
 | Redacción correcta del CCL | meteorólogo | TEC-37 | |
 | Símbolo rojo del mapa SWL | meteorólogo de AEMET | TEC-05 | |
 | Föhn mayor que el del mecanismo descrito; microclima del Tiétar | meteorólogo | TEC-07 | |
-| Salida de una lluvia engelante en planeador | FI(S) | TEC-03 | |
+| Salida de una lluvia engelante en planeador. El cap05 dice «sal hacia donde no llueve; descender puede no sacarte de la capa bajo cero», y el post-it y la tarjeta Anki `lluvia-engelante` dicen «generalmente cambiando de altitud»: ¿se unifica y con qué redacción? | FI(S) | TEC-03 | |
 | Margen con lluvia, separación de un Cb, 500 km, 300 ft a sotavento, bases y térmicas postfrontales | FI(S) | PED-02 | |
 | Regla del TT en llano y el K en montaña | FI(S), meteorólogo | TEC-14 | |
 | Criterio de viento para la onda a nivel de las cimas | FI(S) de onda | TEC-38 | |
 | Restitución, térmicas bajo Föhn, burbuja y columna por la hora, aterrizaje antes de las 16:00, zonas de onda del cap08, térmica del centro del valle | FI(S) de montaña | informe, «Pendiente de verificar» | |
 | Lluvia y capa límite; hielo y bataneo | FI(S) o aerodinamicista | TEC-29, TEC-41 | |
 | Procedencia de la figura de la estela | Ramón | COH-05 | No se sabe; sustituir por la NASA L90-5919 (22-11-2026) |
+| Procedencia de la figura SIGWX: ¿mapa real de AEMET o recreación? Si es real, ¿hay permiso? | Ramón | TEC-05 | |
