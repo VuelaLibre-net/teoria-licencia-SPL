@@ -1,6 +1,6 @@
 # Glosario de términos
 
-Este glosario recoge las definiciones y acrónimos esenciales de la aerodinámica y los principios de vuelo aplicables a la licencia de piloto de planeador (SPL), organizados según el programa de formación EASA AMC1 SFCL.130.
+Este glosario recoge las definiciones y acrónimos esenciales de la aerodinámica y los principios de vuelo aplicables a la licencia de piloto de planeador (SPL), ordenados alfabéticamente.
 
 **Ángulo de ataque (AoA / *Angle of Attack*)**
 : Ángulo que forma la cuerda aerodinámica del ala con la dirección del viento relativo. Es el parámetro aerodinámico más importante: de él dependen directamente el coeficiente de sustentación y el coeficiente de resistencia. Aumenta al tirar de la palanca; disminuye al empujarla. No confundirlo con la actitud del morro: un planeador puede tener el morro bajo y un ángulo de ataque peligrosamente alto si la trayectoria de descenso es más pronunciada que la actitud. La referencia es siempre el viento relativo, no el horizonte.

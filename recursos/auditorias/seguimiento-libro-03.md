@@ -90,9 +90,9 @@ toca: es el registro de lo que se encontró. Aquí se anota qué se ha hecho con
 | TEC-26 | CAPE desde el LFC (glosario) | 3 | aplicado | | fase 3: glosario (CAPE), con las bandas de TEC-02 |
 | COH-06 | Dorsal (glosario) | 3 | aplicado | | fase 3: glosario (Dorsal) |
 | TEC-27 | Fenómenos SIGMET (glosario) | 3 | aplicado | | fase 3: glosario (SIGMET) |
-| TEC-28 | Estela: entrar alineado (glosario) | 3 / 4 | parcial | | fase 3: glosario del 03; el 06, en la fase 4 |
+| TEC-28 | Estela: entrar alineado (glosario) | 3 / 4 | aplicado | | fase 3: glosario del 03; fase 4: el 06, idéntico |
 | COH-07 | Bibliografía sin fuentes meteorológicas | 3 | aplicado | | fase 3: bloque «Meteorología» sólo en la bibliografía del 03 |
-| PED-03 | Reconocimientos: alcance de la validación | 4 | pendiente | | común a los nueve libros |
+| PED-03 | Reconocimientos: alcance de la validación | 4 | parcial | | fase 4: leyenda de la ✓ y frase moderada en los reconocimientos de los nueve libros (`tools/actualizar-reconocimientos.py`); la nota de estado del Makefile («revisión técnica completada») queda a criterio del editor |
 
 ## Bajas
 
@@ -120,15 +120,15 @@ toca: es el registro de lo que se encontró. Aquí se anota qué se ha hecho con
 | TEC-39 | 5 | pendiente | | |
 | COH-11 | 5 | pendiente | | no verificable |
 | PED-10 | 5 | pendiente | | |
-| PED-11 | 4 | pendiente | | también el 05 |
+| PED-11 | 4 | aplicado | | fase 4: glosarios del 03 y del 05 |
 | TEC-40 | 5 | pendiente | | |
 | TEC-41 | 5 | pendiente | | requiere experto |
 | TEC-42 | 3 | aplicado | | fase 3: con TEC-12 |
-| PED-12 | 4 | pendiente | | común a los nueve libros |
-| PED-13 | 4 | pendiente | | común a los nueve libros |
+| PED-12 | 4 | parcial | | fase 4: el Anexo 3 en la lista de las nueve bibliografías; las ediciones, en la fase 5 |
+| PED-13 | 4 | aplicado | | fase 4: reconocimientos de los nueve libros |
 | PED-14 | 5 | pendiente | | |
 | PED-15 | 5 | pendiente | | |
-| COH-12 | 4 | pendiente | | libro 07 |
+| COH-12 | 4 | aplicado | | fase 4: libro 07, cap03 |
 | PED-16 | 5 | pendiente | | |
 
 ## Fuera de alcance: libro 04
@@ -138,8 +138,8 @@ Dos errores verificados durante la auditoría, que se corrigen en la fase 4 por 
 
 | Ubicación | Error | Fuente | Estado | Commit |
 | --- | --- | --- | --- | --- |
-| `04-comunicaciones/cap04-…:65` | SIGMET «hasta 4 horas (6 h en zonas oceánicas)» | MET.OR.250 c); AIP GEN 3.5 §8.1: 6 h sólo para cenizas volcánicas y ciclones tropicales | pendiente | |
-| `04-comunicaciones/cap04-…:27`, `:57`, `:84`; `04-comunicaciones/glosario.qmd:120` | VOLMET con «METAR, TAF y SIGMET» | AIP GEN 3.5 §7: «Informe MET, QNH y TREND» | pendiente | |
+| `04-comunicaciones/cap04-…:65` | SIGMET «hasta 4 horas (6 h en zonas oceánicas)» | MET.OR.250 c); AIP GEN 3.5 §8.1: 6 h sólo para cenizas volcánicas y ciclones tropicales | aplicado | fase 4 |
+| `04-comunicaciones/cap04-…:27`, `:57`, `:84`; `04-comunicaciones/glosario.qmd:120` | VOLMET con «METAR, TAF y SIGMET» | AIP GEN 3.5 §7: «Informe MET, QNH y TREND» | aplicado | fase 4 |
 
 ## Banco de examen
 
@@ -150,6 +150,7 @@ y no tiene remoto.
 | --- | --- | --- |
 | 2 | `96c1a4d` | lección 05: retroalimentación de la opción C de la lluvia engelante (`c05-q07`) |
 | 3 | `7f4b848` | lecciones 02, 06, 08, 09 y 10 y examen-50: citas de los post-it corregidos (Foehn, brisa, frente cálido, Baja Térmica, Cb), margen de los Cb (P32) y briefing meteorológico con SAO.OP.120(b), SAO.OP.135 y SERA.2010(b) |
+| 4 | `d112435` | libro 04: VOLMET en la lección 04 (P1 y P2) y el examen-50 |
 
 `make check` y `make lecciones-check` fallan desde antes de esta corrección, en todos los libros
 menos el 01, porque las lecciones anotan versiones anteriores a la v0.9.9 (las del 03, la

@@ -16,6 +16,21 @@ rompe la compilación.
 
 ## [En curso]
 
+### Corregido
+
+* **Glosario, presentación** — decía que las entradas van «organizadas según el programa de
+  formación»; van en orden alfabético. Hallazgo PED-11 de la auditoría del libro 03.
+
+### Cambiado
+
+* **Reconocimientos (preliminares)** — se explica qué significa la marca ✓: quien la lleva ha
+  revisado el libro con criterio de instructor, lo que no certifica cada afirmación técnica ni
+  normativa. La frase de los autores de los manuales clásicos se separa de la lista de revisores.
+  Común a los nueve libros. Hallazgos PED-03 y PED-13 de la auditoría del libro 03.
+* **Bibliografía, anexos de la OACI** — el Anexo 3 (servicio meteorológico para la navegación
+  aérea) pasa a la lista de los más relevantes para el piloto de planeador. Común a los nueve
+  libros. Hallazgo PED-12 de la auditoría del libro 03.
+
 ## [1.0-rc.11] — 21 de noviembre de 2026
 
 **Qué releer:** nada. El contenido no cambia respecto a la `1.0-rc.10`: sólo el índice alfabético

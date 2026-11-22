@@ -117,4 +117,4 @@ Acrónimos y términos técnicos de comunicaciones aeronáuticas para la licenci
 : Condiciones de visibilidad y distancia a nubes iguales o superiores a los mínimos aplicables.
 
 **VOLMET**
-: Emisión meteorológica continua para aeronaves en vuelo. Retransmite METAR, TAF y SIGMET de varios aeropuertos de una región en bucle. A diferencia del ATIS, que cubre un solo aeródromo, el VOLMET permite evaluar condiciones en múltiples alternos sin saturar la frecuencia de control.
+: Emisión meteorológica continua para aeronaves en vuelo. Retransmite en bucle los informes meteorológicos de varios aeropuertos de una región: en España, el METAR con su QNH y su TREND; en otros países puede incluir también TAF y SIGMET. A diferencia del ATIS, que cubre un solo aeródromo, el VOLMET permite evaluar condiciones en múltiples alternos sin saturar la frecuencia de control.

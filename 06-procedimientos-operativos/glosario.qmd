@@ -90,7 +90,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes de Procedim
 : Método de lanzamiento en el que un planeador es acelerado a alta velocidad sobre la pista mediante el enrollado rápido de un cable por un motor potente estacionario en el extremo de la pista, elevándolo hasta la altura de suelta en un ascenso muy inclinado.
 
 **Turbulencia de estela (wake turbulence)**
-: Vórtices tubulares contrarrotantes generados por el paso de aeronaves de ala fija al producir sustentación, o por el flujo y vórtices de rotor de los helicópteros. Descienden lentamente y persisten varios minutos después del paso de la aeronave. Cruzarlos perpendicularmente puede inducir un momento de balanceo que supere los alerones del planeador. La separación mínima recomendada es de al menos 3 minutos tras aeronaves pesadas y 3 diámetros de rotor en proximidad de helicópteros en estacionario.
+: Vórtices tubulares contrarrotantes generados por el paso de aeronaves de ala fija al producir sustentación, o por el flujo y vórtices de rotor de los helicópteros. Descienden lentamente y persisten varios minutos después del paso de la aeronave. Entrar en ellos alineado con la trayectoria de la aeronave que los generó puede inducir un balanceo superior a la autoridad de los alerones; cruzarlos produce sacudidas y cargas bruscas. La separación mínima recomendada es de al menos 3 minutos tras aeronaves pesadas y 3 diámetros de rotor en proximidad de helicópteros en estacionario.
 
 **Viento en cola (Tramo de viento en cola / Downwind)**
 : Tramo del circuito de tráfico aéreo paralelo a la pista activa realizado en sentido contrario a la dirección de aterrizaje, donde se ejecutan las comprobaciones previas al aterrizaje (lista FUSTALL).

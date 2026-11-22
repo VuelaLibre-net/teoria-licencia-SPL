@@ -1,6 +1,6 @@
 # Glosario de términos
 
-Este glosario contiene las definiciones y acrónimos más relevantes de la meteorología aeronáutica aplicables a la licencia de piloto de planeador (SPL), organizados según el programa de formación EASA AMC1 SFCL.130.
+Este glosario contiene las definiciones y acrónimos más relevantes de la meteorología aeronáutica aplicables a la licencia de piloto de planeador (SPL), ordenados alfabéticamente.
 
 **AIRMET (Airmen’s Meteorological Information)**
 : Mensaje de información meteorológica para la aviación que alerta de fenómenos en ruta significativos para aeronaves que vuelan por debajo del FL100 (o FL150 en zonas montañosas, o más si hace falta), según la regla europea; en España, AEMET los emite hasta el FL150 en toda la FIR. De especial relevancia para el vuelo VFR sin motor.

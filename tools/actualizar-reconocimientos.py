@@ -26,10 +26,12 @@ HEADER = """# Reconocimientos {.unnumbered}
 Este manual es el fruto de un esfuerzo colaborativo dentro de la comunidad de vuelo sin motor. Queremos expresar nuestro más sincero agradecimiento a:
 
 * **Agencia Estatal de Seguridad Aérea (AESA)** y **EASA**, por proporcionar el marco normativo y documental que garantiza la seguridad de nuestras operaciones.
-* Los **Instructores de Vuelo (FI(S))** y **Examinadores (FE(S))** que han dedicado su tiempo a revisar técnicamente estas secciones para asegurar su rigor técnico.
+* Los **Instructores de Vuelo (FI(S))** y **Examinadores (FE(S))** que han dedicado su tiempo a revisar técnicamente estas secciones.
 * A la comunidad de **VuelaLibre.net**, por impulsar iniciativas que modernizan y democratizan el acceso a la formación aeronáutica de calidad.
 * A todos los pilotos que, con su feedback constante, ayudan a que este manual sea una herramienta viva y en evolución.
-* A los autores de los manuales internacionales clásicos, cuya estructura ha servido de base para organizar el conocimiento de una forma pedagógica y accesible para las nuevas generaciones de pilotos de planeador y, en especial a:
+* A los autores de los manuales internacionales clásicos, cuya estructura ha servido de base para organizar el conocimiento de una forma pedagógica y accesible para las nuevas generaciones de pilotos de planeador.
+
+Y, en especial, a las personas que siguen. La marca ✓ señala a quienes han revisado este libro: su revisión es de criterio de instructor y no certifica cada afirmación técnica ni normativa.
 
 ::: {.creditos}
 """

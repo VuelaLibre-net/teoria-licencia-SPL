@@ -24,7 +24,7 @@ Escucha el ATIS completo **antes** de llamar a la Torre. Luego incluye el códig
 
 El ATIS te da el tiempo de un aeropuerto concreto. El **VOLMET** (de **VOL METéorologique**) te da el tiempo de una región entera.
 
-Es otra emisión pregrabada en bucle, pero en lugar de un aeródromo emite METAR, pronósticos TAF y avisos SIGMET de **un conjunto de aeropuertos de una misma región**.
+Es otra emisión pregrabada en bucle, pero en lugar de un aeródromo emite los informes meteorológicos de **un conjunto de aeropuertos de una misma región**: en España, el METAR de cada uno con su QNH y su tendencia (TREND); en otros países puede incluir también TAF y SIGMET.
 
 En travesías largas (**cross-country**), cuando el tiempo empieza a empeorar y estás valorando un alternativo a decenas de kilómetros, el VOLMET regional te dice exactamente cómo está ese campo sin tener que llamar a nadie. Tomas la decisión con datos reales y la frecuencia de control queda libre.
 
@@ -54,7 +54,7 @@ El altímetro del planeador es un barómetro: necesita una presión de referenci
 Cuando calculas el planeo final o la componente cruzada, necesitas saber en qué referencia está expresado el viento. No siempre es la misma (@fig-04-cap04-viento-magnetico-geografico).
 
 * **Viento radiado (Torre / ATIS):** La dirección del viento en las operaciones de aproximación y despegue va referida al **Norte Magnético** («Viento 240 grados, 15 nudos»). Tiene sentido: tanto la brújula de cabina como la numeración de las pistas usan la declinación magnética, así que puedes comparar directamente la orientación de la pista con el viento sin hacer correcciones.
-* **Viento escrito (mapas meteorológicos / METAR en texto / VOLMET):** Si consultas el viento en una web de meteo, en un mapa de vientos en altura (GRIB) o en un METAR/TAF en formato texto —incluyendo el que difunde el VOLMET—, la dirección viene referida al **Norte Geográfico (verdadero)**. El VOLMET retransmite METAR y TAF en texto, así que su viento también es **verdadero**, distinto del viento operativo que te da la Torre.
+* **Viento escrito (mapas meteorológicos / METAR en texto / VOLMET):** Si consultas el viento en una web de meteo, en un mapa de vientos en altura (GRIB) o en un METAR/TAF en formato texto —incluyendo el que difunde el VOLMET—, la dirección viene referida al **Norte Geográfico (verdadero)**. El VOLMET retransmite los METAR, así que su viento también es **verdadero**, distinto del viento operativo que te da la Torre.
 
 ![Diferencia entre viento magnético (radio) y geográfico (mapas)](imagenes/04-cap04-viento-mag-geo.jpg){#fig-04-cap04-viento-magnetico-geografico}
 
@@ -62,7 +62,7 @@ Cuando calculas el planeo final o la componente cruzada, necesitas saber en qué
 
 Dos tipos de avisos meteorológicos que aparecen en el VOLMET y en los briefings prevuelo:
 
-* **SIGMET** (**Significant Meteorological Information**): aviso emitido por los centros meteorológicos de vigilancia para fenómenos severos en ruta —tormentas eléctricas, engelamiento intenso, turbulencia severa, cenizas volcánicas—. Cubre grandes áreas y tiene validez de hasta 4 horas (6 h en zonas oceánicas). Su uso obliga a tomarse muy en serio la decisión de vuelo.
+* **SIGMET** (**Significant Meteorological Information**): aviso emitido por los centros meteorológicos de vigilancia para fenómenos severos en ruta —tormentas eléctricas, engelamiento intenso, turbulencia severa, cenizas volcánicas—. Cubre grandes áreas y tiene validez de hasta 4 horas (6 h para cenizas volcánicas y ciclones tropicales). Su uso obliga a tomarse muy en serio la decisión de vuelo.
 * **AIRMET** (**Airman’s Meteorological Information**): aviso de menor severidad, dirigido especialmente a la aviación de bajo nivel y la aviación general. Cubre fenómenos moderados —turbulencia moderada, engelamiento moderado, visibilidad reducida— que no alcanzan el umbral del SIGMET.
 
 Ambos los encontrarás en el VOLMET regional o en el briefing meteorológico prevuelo. Si un SIGMET activo afecta a tu ruta, evalúa si las condiciones son operables antes de salir.
@@ -81,7 +81,7 @@ El Reglamento SERA obliga al piloto en mando a notificar sin demora cualquier co
 **Resumen del capítulo: terminología meteorológica**
 
 * **ATIS**: Voz automática en aeropuertos. Escucharla antes de llamar proporciona pista en uso, viento, QNH y el **código de información** (p. ej., «Información Bravo»). Ahorra tiempo al controlador y agiliza la comunicación.
-* **VOLMET**: Emisora dedicada a difundir METAR, TAF y SIGMET de varios aeropuertos en bucle. Permite planificar la llegada o seleccionar un alternativo sin saturar la frecuencia de control.
+* **VOLMET**: Emisora dedicada a difundir en bucle los informes meteorológicos de varios aeropuertos (en España, METAR con QNH y TREND). Permite planificar la llegada o seleccionar un alternativo sin saturar la frecuencia de control.
 * **Conceptos clave**:
   * **CAVOK**: visibilidad ≥ 10 km, sin nubes bajas, sin fenómenos (en la jerga, *Ceiling and Visibility OK*, que no es la denominación oficial). Las mejores condiciones posibles para VFR.
   * **QNH**: Presión de referencia para leer la altitud sobre el nivel del mar. Fundamental para respetar los límites verticales de los espacios aéreos.
