@@ -29,6 +29,80 @@ rompe la compilación.
   inestable y no descarta la tormenta si hay humedad y disparo (NWS). Se retira la afirmación y las
   dos «reglas de oro» avisan del sobredesarrollo. Qué banda es buen día en la Península queda como
   pregunta para un meteorólogo. Hallazgo TEC-02 de la auditoría del libro 03.
+* **cap02, efecto Foehn, y Glosario y Anki** — decía que la diferencia entre los valles «puede
+  superar los 10–15 °C» y el resumen, «hasta 15 °C». Con el mecanismo descrito sale del orden de
+  5–10 °C; se da un ejemplo numérico, y el calor latente se libera en la propia masa de aire, no
+  «a la atmósfera». Hallazgo TEC-07 de la auditoría del libro 03.
+* **cap02, brisa marina** — sólo daba ascendencias «suaves y continuas». Se añaden la turbulencia de
+  la zona de mezcla, el fin de las térmicas tras el frente de brisa y la línea de tormentas con aire
+  inestable (FAA, *Glider Flying Handbook*). Hallazgo TEC-08 de la auditoría del libro 03.
+* **cap02, figuras del *Glider Flying Handbook*** — la convergencia del relieve se citaba para la
+  brisa marina, el vuelo de ladera para los anabáticos y las calles de nubes para la cortina de
+  brisa. Cada figura tiene ahora su remisión y su párrafo, en un apartado nuevo de calles de nubes y
+  convergencias del relieve. Hallazgo COH-01 de la auditoría del libro 03.
+* **cap03, fórmula de la base de los cúmulos, y Glosario y Anki** — la rc.18 le quitó los paréntesis
+  (se leía T − 400·T~rocío~) y daba la «altitud» de la base, cuando da la altura sobre el
+  aeródromo. Hallazgos TEC-09 y TEC-10 de la auditoría del libro 03.
+* **cap03, estabilidad** — faltaba la estabilidad absoluta y la condicional no decía su condición
+  (gradiente ambiental entre el saturado y el seco). Hallazgo TEC-11 de la auditoría del libro 03.
+* **cap03, índices de sondeo** — se restituyen las fórmulas del TT y del K, perdidas al pasar el
+  libro a Quarto; la escala del TT que se atribuía a Miller es la del oeste de EE. UU. y se atribuye
+  bien, con la fila de 52 corregida; se retira la regla «TT en el llano, K en la montaña», que
+  contradecía a la fuente; el LI tenía el signo invertido; y la tabla resumen y el «día
+  termonuclear» quedan dentro de las bandas sin tormenta de sus propias tablas. También en Anki.
+  Hallazgos TEC-12 a TEC-15 y COH-02 de la auditoría del libro 03.
+* **cap04, clasificación de nubes** — la OMM reparte los diez géneros en tres pisos, no en cuatro
+  familias, y las alturas no coincidían con las suyas. Los géneros pasan a una tabla, que el texto
+  ya anunciaba. Hallazgos TEC-16 y PED-08 de la auditoría del libro 03.
+* **cap04, neblina, y Glosario y Anki** — tres umbrales distintos: se unifica en 1.000 m o más, con
+  `BR` hasta 5.000 m en el METAR, y se distingue de la calima. Hallazgo COH-03 de la auditoría del
+  libro 03.
+* **cap04, niebla de advección** — se situaba en invierno y otoño; el Atlas Nacional de España la da
+  como más frecuente en verano en los sectores costeros. Hallazgo TEC-17 de la auditoría del libro 03.
+* **cap05 y cap09, reventón y microrráfaga, y Glosario** — se igualaban; la microrráfaga es un
+  reventón de menos de unos 4 km, y también aparece bajo cúmulos con virga. Hallazgo TEC-18 de la
+  auditoría del libro 03.
+* **cap04, cap05, cap06, cap07 y cap08, cifras de seguridad, y Anki** — la separación de un Cb, el
+  margen con lluvia, los 500 km de una depresión y los 300 ft sobre sotavento se daban como reglas
+  sin fuente. Quedan como orientación, con la de la FAA para los Cb y la remisión al AFM para la
+  lluvia. Hallazgo PED-02 de la auditoría del libro 03.
+* **cap06, frentes** — el frente cálido no estabiliza «completamente»: con aire cálido inestable
+  puede esconder Cb embebidos; el frente estacionario separa masas distintas, no similares; y la
+  masa polar marítima tras un frente frío es típica de la primavera, no del verano. Hallazgos
+  TEC-19, TEC-20 y TEC-21 de la auditoría del libro 03.
+* **cap08, Baja Térmica Peninsular, y Anki** — no es «permanente»: es casi permanente en verano,
+  más marcada por la tarde. Hallazgo TEC-22 de la auditoría del libro 03.
+* **cap09, granizo** — faltaba que puede caer bajo el yunque y en aire despejado lejos del núcleo, y
+  que basta algo más de 1 cm para dañar la estructura. Hallazgo TEC-23 de la auditoría del libro 03.
+* **cap10, SPECI, y Glosario y Anki** — también se emite cuando las condiciones mejoran, en España
+  no por el viento salvo criterios locales, y el informe vigente es el de hora más reciente.
+  Hallazgo TEC-24 de la auditoría del libro 03.
+* **cap10 y Glosario, SKC** — no existe en el METAR europeo: el observador escribe `NSC` o `CAVOK`.
+  Hallazgo TEC-25 de la auditoría del libro 03.
+* **cap10, AIRMET, GAMET y SIGWX de niveles bajos, y Glosario y Anki** — en España llegan hasta el
+  FL150 en toda la FIR, no hasta el FL100. Hallazgo NOR-01 de la auditoría del libro 03.
+* **cap10, obligación del briefing, y Anki** — la norma obliga a estudiar los informes y pronósticos
+  disponibles (SERA.2010 b), no a «cruzar varias fuentes», y AEMET es la fuente oficial, no
+  «legalmente vinculante». Hallazgo NOR-02 de la auditoría del libro 03.
+* **Glosario, CAPE, dorsal, SIGMET y turbulencia de estela** — la CAPE se integra desde el LFC, no
+  desde la superficie; bajo una dorsal hay térmicas, limitadas en altura; el SIGMET incluye las
+  tormentas y la onda orográfica severa; y el balanceo peligroso de la estela llega al entrar
+  alineado con ella, no al cruzarla. Hallazgos TEC-26, COH-06, TEC-27 y TEC-28 de la auditoría del
+  libro 03.
+
+### Añadido
+
+* **cap01, composición y capas de la atmósfera, y altitudes de presión y de densidad, con su entrada
+  en el Glosario** — el capítulo usaba «troposfera» y «altitud de densidad» sin definirlas.
+  Hallazgo SYL-01 de la auditoría del libro 03.
+* **cap05, formación y tipos de precipitación** — el capítulo sólo trataba los efectos sobre el
+  planeador. Hallazgo SYL-02 de la auditoría del libro 03.
+* **cap10, radar, satélite y mapas del tiempo** — un apartado breve. Hallazgo SYL-03 de la auditoría
+  del libro 03.
+* **Bibliografía, meteorología** — la bibliografía no recogía ninguna fuente meteorológica. Se
+  añade un bloque propio del libro 03 (Parte MET del Reglamento 2017/373, AIP GEN 3.5, Atlas de
+  Nubes de la OMM, circulares de la FAA, manual AWS/TR-79/006 y Atlas Nacional de España). Hallazgo
+  COH-07 de la auditoría del libro 03.
 
 ### Cambiado
 
@@ -38,8 +112,12 @@ rompe la compilación.
   (cap03), cuyas curvas no cuadran con sus datos; la estructura del frente frío (cap06), con la cuña
   fría en el lado prefrontal; y el mapa SIGWX (cap10), que da las alturas en hPa, un V5 de 5 a 8 km
   y llama frente a una zona de nubes. El pie del SIGWX dice además que es una recreación de un mapa
-  de niveles bajos (SWL). Al sustituir cada figura se quitan la marca y la nota. Hallazgos TEC-01,
-  TEC-04 y TEC-05 de la auditoría del libro 03.
+  de niveles bajos (SWL). En una segunda pasada se marcan otras siete: la atmósfera ISA (cap01), mal
+  trazada; las isobaras (cap02), con el viento de la alta a la baja; las familias de nubes (cap04) y
+  el frente ocluido (cap06), con el nimboestrato en el piso bajo; el frente cálido (cap06), «aire
+  totalmente estable»; el ciclo de la tormenta (cap09), con cuatro fases; y la estela (cap09), que no es la foto de la NASA
+  que decía su pie. Al sustituir cada figura se quitan la marca y la nota. Hallazgos TEC-01, TEC-04,
+  TEC-05, TEC-06, PED-01, TEC-16, TEC-19, COH-04 y COH-05 de la auditoría del libro 03.
 
 ## [1.0-rc.19] — 21 de noviembre de 2026
 

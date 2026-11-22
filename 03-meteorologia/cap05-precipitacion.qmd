@@ -5,6 +5,18 @@
 > cada tipo de precipitación afecta al planeador aerodinámicamente, cuáles son los más
 > peligrosos y qué decisiones debes tomar ante los primeros síntomas para mantenerte seguro.
 
+## Cómo se forma la precipitación y qué tipos hay
+
+Una nube está hecha de gotículas tan pequeñas que flotan; para que llueva, tienen que crecer hasta pesar lo bastante para caer. Lo consiguen por dos caminos. En las nubes que superan el nivel de congelación, los cristales de hielo crecen a costa de las gotículas superenfriadas que los rodean y caen como nieve, que se funde en lluvia si atraviesa aire cálido (proceso de Bergeron). En las nubes cálidas, las gotas mayores crecen chocando y uniéndose con las pequeñas (coalescencia).
+
+El tipo de nube decide el tipo de precipitación:
+
+* **Precipitación continua**, de intensidad uniforme y larga duración: nubes estratiformes, como nimboestratos y altoestratos.
+* **Chubascos**, que empiezan y acaban de golpe y cambian de intensidad: nubes convectivas, como los cúmulos de gran desarrollo y los cumulonimbos.
+* **Llovizna**, de gotas muy finas: estratos bajos.
+
+Según cómo llegue al suelo, la precipitación es lluvia, llovizna, nieve, granizo (de cumulonimbos) o gránulos de hielo, que indican que por encima hay lluvia engelante.
+
 ## La lluvia y la degradación aerodinámica
 
 Los planeadores están diseñados con perfiles laminares calibrados para una alta eficiencia. El impacto de la lluvia altera severamente el perfil aerodinámico al provocar que el flujo de aire se desprenda prematuramente y se vuelva turbulento a lo largo de las alas mojadas.
@@ -16,7 +28,7 @@ En vuelo con lluvia, las consecuencias son directas:
 * **Mayor tasa de descenso:** Se aprecia un incremento notorio en la tasa de caída o hundimiento (**sink rate**) para lograr mantener una misma velocidad de vuelo.
 
 ::: {.callout-warning title="Seguridad"}
-Con alas mojadas, añade siempre un margen mínimo de 5-10 kt sobre tu velocidad de aproximación estándar. Evita giros pronunciados: el riesgo de entrada en pérdida es significativamente mayor que en configuración seca y puede producirse sin advertencia previa.
+Con alas mojadas, añade un margen sobre tu velocidad de aproximación estándar: el manual de vuelo (AFM) de tu planeador dice cuánto; como orientación, se suelen sumar unos 5–10 kt. Evita giros pronunciados: el riesgo de entrada en pérdida es significativamente mayor que en configuración seca y puede producirse sin advertencia previa.
 :::
 
 ## El granizo (GR) y nubes convectivas
@@ -45,11 +57,11 @@ Al primer síntoma de engelamiento —hielo en el borde del ala o en la cúpula�
 
   La **Virga** es una cortina de precipitación que cae desde la base de una nube pero se evapora antes de llegar al suelo. Visualmente aparece como franjas grises o azuladas que se difuminan en el aire a media altura, sin tocar el terreno.
 
-El peligro no está en la lluvia en sí, sino en lo que ocurre cuando esas gotas se evaporan: la evaporación enfría el aire circundante, que se vuelve más denso y cae en masa hacia el suelo formando una violenta corriente descendente —el **downburst** o **microrráfaga** (@fig-03-cap05-virga-microrrafaga).
+El peligro no está en la lluvia en sí, sino en lo que ocurre cuando esas gotas se evaporan: la evaporación enfría el aire circundante, que se vuelve más denso y cae en masa hacia el suelo formando una violenta corriente descendente: el **reventón** (**downburst**). Si afecta a una zona de menos de unos 4 km se llama **microrráfaga** (**microburst**) (@fig-03-cap05-virga-microrrafaga).
 
 ![Peligro bajo la virga: el nacimiento de una microrráfaga](imagenes/03-cap05-virga-microburst.jpg){#fig-03-cap05-virga-microrrafaga}
 
-Estas corrientes descendentes localizadas (**microburst** / **downdraft**) pueden alcanzar velocidades de descenso que superan la capacidad de ascenso del planeador. Volar bajo una virga, especialmente durante la aproximación final, puede causar un hundimiento irrecuperable antes del umbral. Ante cualquier cortina de virga visible, mantén siempre distancia de seguridad lateral y vertical.
+Estas corrientes descendentes localizadas pueden alcanzar velocidades de descenso que superan la capacidad de ascenso del planeador. Volar bajo una virga, especialmente durante la aproximación final, puede causar un hundimiento irrecuperable antes del umbral. Ante cualquier cortina de virga visible, mantén siempre distancia de seguridad lateral y vertical.
 
 ::: {.postit}
 **Resumen del capítulo: precipitación**

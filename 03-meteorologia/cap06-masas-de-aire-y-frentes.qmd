@@ -31,9 +31,9 @@ Un frente cálido degrada las condiciones VFR de forma progresiva:
 * Genera precipitaciones continuas y lloviznas persistentes de amplia cobertura.
 * Los techos nubosos descienden paulatinamente, ocultando elevaciones y relieves montañosos.
 * La humedad constante propicia la formación de brumas y nieblas cálidas que deterioran de manera drástica la visibilidad en superficie.
-* A nivel termodinámico, estabiliza completamente la masa de aire suprimiendo físicamente el desarrollo de corrientes convectivas o térmicas aprovechables.
+* A nivel termodinámico, normalmente estabiliza las capas bajas y suprime las térmicas aprovechables; si el aire cálido que asciende es inestable, puede esconder cumulonimbos embebidos en la capa nubosa.
 
-![Secuencia nubosa característica de la aproximación de un frente cálido (vista desde tierra)](imagenes/03-cap06-frente-calido-nubes.png){#fig-03-cap06-frente-calido-nubes}
+![Secuencia nubosa característica de la aproximación de un frente cálido (vista desde tierra). *(CORREGIR: «aire totalmente estable» debe matizarse, porque con aire cálido inestable puede haber cumulonimbos embebidos; los miles se separan con punto.)*](imagenes/03-cap06-frente-calido-nubes.png){#fig-03-cap06-frente-calido-nubes .corregir}
 
 ## La oclusión y el frente estacionario
 
@@ -41,9 +41,9 @@ Cuando un frente frío avanza más rápido que el cálido que tiene delante, ter
 
 Operativamente, una oclusión es lo peor de los dos frentes combinado: la convección violenta del frente frío más la lluvia continua y los techos bajos del frente cálido. El aire cálido ya no toca el suelo, así que las térmicas desaparecen y la turbulencia convectiva puede aparecer embebida en capas densas sin aviso visual claro. Ante un frente ocluido, pospón el vuelo: las condiciones son complejas e impredecibles.
 
-![Estructura vertical interna de un frente ocluido (oclusión fría)](imagenes/03-cap06-frente-ocluido.png){#fig-03-cap06-tipos-frentes}
+![Estructura vertical interna de un frente ocluido (oclusión fría). *(CORREGIR: el nimboestrato va en el piso medio, no en el bajo; el rótulo «ALTOESTRATOS» cae en la franja de los altos; sobran los semicírculos rojos sobre el frente frío y la cabecera «TABLA INTEGRAL Y DETALLADA».)*](imagenes/03-cap06-frente-ocluido.png){#fig-03-cap06-tipos-frentes .corregir}
 
-Existe un cuarto tipo de frente, menos frecuente pero que aparece en los mapas sinópticos: el **frente estacionario**. Se forma cuando dos masas de aire de temperatura y densidad similar se encuentran y ninguna de las dos tiene fuerza suficiente para avanzar sobre la otra. El resultado es una frontera casi inmóvil entre ambas masas, que puede persistir durante días produciendo lluvias y nieblas persistentes a lo largo de su eje. En los mapas sinópticos se dibuja con el patrón alternado de triángulos azules y semicírculos rojos en lados opuestos de la línea frontal.
+Existe un cuarto tipo de frente, menos frecuente pero que aparece en los mapas sinópticos: el **frente estacionario**. Se forma cuando dos masas de aire distintas se encuentran y ninguna de las dos tiene fuerza suficiente para desplazar a la otra. El resultado es una frontera casi inmóvil entre ambas masas, que puede persistir durante días produciendo lluvias y nieblas persistentes a lo largo de su eje. En los mapas sinópticos se dibuja con el patrón alternado de triángulos azules y semicírculos rojos en lados opuestos de la línea frontal.
 
 ::: {.callout-important title="Normativa"}
 **SERA.5001** (Reglamento de Ejecución (UE) 923/2012) establece los mínimos meteorológicos para el vuelo VFR. En espacio aéreo de clase G, por debajo de 3.000 ft AMSL o 1.000 ft sobre el terreno —el mayor de los dos valores—, la visibilidad mínima general es de **5 km**, volando libre de nubes y con la superficie a la vista. SERA deja que la autoridad competente la rebaje a **1.500 m** para vuelos a 140 kt o menos, pero en España sólo lo ha hecho para helicópteros y aviones de operaciones aéreas especializadas (Real Decreto 1180/2018, art. 30): **para un planeador, el mínimo sigue siendo 5 km**. Entrar en IMC sin habilitación de vuelo instrumental incumple las reglas del aire —una infracción de la Ley de Seguridad Aérea, cuya gravedad depende de sus consecuencias— y es, sobre todo, una causa clásica de accidente.
@@ -67,7 +67,7 @@ Antes de hablar de temperatura relativa, es útil conocer de dónde viene el air
 | **A** | Ártico / Antártico | Muy frío | Irrupciones invernales desde el norte. Termómetros negativos en pista, engelamiento severo, vientos fuertes. No volar. |
 : Clasificación de masas de aire por origen y trayectoria
 
-La situación más frecuente en la Península Ibérica durante la temporada de vuelo (primavera-verano) es la llegada de **masa polar marítima (Pm)** tras el paso de un frente frío. Al cruzar el Atlántico y calentarse por contacto con el suelo peninsular caliente, esta masa genera la combinación perfecta para el vuelo de cross-country: cielo azul, buena visibilidad, bases a 5.000-7.000 ft y térmicas de 3-4 m/s.
+Una situación frecuente en la Península Ibérica en primavera es la llegada de **masa polar marítima (Pm)** tras el paso de un frente frío. Al cruzar el Atlántico y calentarse por contacto con el suelo peninsular caliente, esta masa genera la combinación perfecta para el vuelo de cross-country: cielo azul, buena visibilidad, bases altas y térmicas fuertes (como orientación, bases de 5.000-7.000 ft y térmicas de 3-4 m/s).
 
 ::: {.callout-warning title="Seguridad"}
 No despegues con visibilidad marginal bajo una inversión: ante una rotura de cable o un desenganche de emergencia, el aterrizaje de vuelta a tierra se realizaría sin referencias visuales, con riesgo de impacto irremediable. Si tienes alguna duda sobre la visibilidad, pospón el vuelo.
@@ -77,7 +77,7 @@ No despegues con visibilidad marginal bajo una inversión: ante una rotura de ca
 **Resumen del capítulo: masas de aire y frentes**
 
 * **Frente Frío**: El mejor amigo del volovelista (después de que pasa). Trae inestabilidad, cielo limpio y térmicas potentes (cielo de "post-frente"). Al cruzarlo, espera chubascos, rolada de viento y bajada de temperatura.
-* **Frente Cálido**: Malas noticias. Anunciado por cirros que bajan a estratos, trae lluvia continua, techos bajos y mala visibilidad. El aire es estable, así que olvídate de las térmicas.
+* **Frente Cálido**: Malas noticias. Anunciado por cirros que bajan a estratos, trae lluvia continua, techos bajos y mala visibilidad. El aire suele ser estable, así que olvídate de las térmicas; si es inestable, puede esconder Cb embebidos.
 * **Oclusiones**: Cuando el frente frío alcanza al cálido. Generalmente significa tiempo revuelto, mezcla de nubes y precipitaciones. Poco aprovechable para el vuelo.
 * **Masas de Aire**: Lo que importa es la temperatura relativa. Aire frío sobre suelo caliente = inestabilidad (¡térmicas!). Aire cálido sobre suelo frío = estabilidad (capas, niebla, inversión).
 :::

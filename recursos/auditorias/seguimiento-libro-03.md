@@ -55,43 +55,43 @@ toca: es el registro de lo que se encontró. Aquí se anota qué se ha hecho con
 
 | ID | Hallazgo | Fase | Estado | Commit | Nota |
 | --- | --- | --- | --- | --- | --- |
-| TEC-06 | Figura ISA mal trazada | 3 | pendiente | | |
-| SYL-01 | 3.1: estructura de la atmósfera y altitudes de presión y densidad | 3 | pendiente | | |
-| TEC-07 | Föhn: 10–15 °C no reproducible | 3 | pendiente | | |
-| TEC-08 | Brisa marina sólo «suave y continua» | 3 | pendiente | | |
-| COH-01 | Figuras del GFH del cap02 mal enlazadas | 3 | pendiente | | |
-| PED-01 | Figura de isobaras | 3 | pendiente | | |
-| TEC-09 | Fórmula de la base sin paréntesis | 3 | pendiente | | |
-| TEC-10 | «Altitud» de la base, es altura AGL | 3 | pendiente | | |
-| TEC-11 | Estabilidad absoluta y condicional | 3 | pendiente | | |
-| TEC-12 | Fórmulas del TT y del K perdidas | 3 | pendiente | | |
-| TEC-13 | Escala del TT atribuida a Miller | 3 | pendiente | | |
-| TEC-14 | «El K es más representativo en montaña» | 3 | pendiente | | |
-| COH-02 | Bandas de los índices contradictorias | 3 | pendiente | | la banda de buen día, con TEC-02 |
-| TEC-15 | Signo del LI | 3 | pendiente | | |
-| TEC-16 | Clasificación de nubes y piso del Ns | 3 | pendiente | | |
-| COH-03 | Neblina o bruma (BR): umbral y nombre | 3 | pendiente | | |
-| TEC-17 | Niebla de advección: estación | 3 | pendiente | | |
-| TEC-18 | Downburst y microrráfaga | 3 | pendiente | | |
-| SYL-02 | 3.5: formación y tipos de precipitación | 3 | pendiente | | |
-| PED-02 | Cifras de seguridad sin fuente | 3 | pendiente | | validación, pregunta al FI(S) |
-| TEC-19 | Frente cálido «estabiliza completamente» | 3 | pendiente | | |
-| TEC-20 | Frente estacionario | 3 | pendiente | | |
-| TEC-21 | Pm «primavera-verano» | 3 | pendiente | | |
-| TEC-22 | Baja Térmica «permanente» | 3 | pendiente | | |
-| COH-04 | Figura del ciclo de la tormenta | 3 | pendiente | | |
-| TEC-23 | Granizo bajo el yunque | 3 | pendiente | | |
-| COH-05 | Figura de la estela atribuida a la NASA | 3 | pendiente | | sustituir por NASA L90-5919 con su crédito |
-| TEC-24 | SPECI | 3 | pendiente | | |
-| TEC-25 | SKC | 3 | pendiente | | |
-| NOR-01 | AIRMET, GAMET y SWL hasta FL150 | 3 | pendiente | | |
-| NOR-02 | «Obligatorio» y «vinculante» | 3 | pendiente | | |
-| SYL-03 | 3.10: radar, satélite y cartas | 3 | pendiente | | |
-| TEC-26 | CAPE desde el LFC (glosario) | 3 | pendiente | | |
-| COH-06 | Dorsal (glosario) | 3 | pendiente | | |
-| TEC-27 | Fenómenos SIGMET (glosario) | 3 | pendiente | | |
-| TEC-28 | Estela: entrar alineado (glosario) | 3 / 4 | pendiente | | el 06, en la fase 4 |
-| COH-07 | Bibliografía sin fuentes meteorológicas | 3 | pendiente | | |
+| TEC-06 | Figura ISA mal trazada | 3 | figura | | fase 3: figura marcada con `.corregir` |
+| SYL-01 | 3.1: estructura de la atmósfera y altitudes de presión y densidad | 3 | aplicado | | fase 3: cap01 (composición, capas, tropopausa, altitudes de presión y de densidad) y dos entradas del glosario; post-it sin cambios, sin tarjeta nueva |
+| TEC-07 | Föhn: 10–15 °C no reproducible | 3 | parcial | | fase 3: cap02, post-it, glosario, Anki y lección 02 P9; Föhn mayor por otros mecanismos y el Tiétar, pregunta al meteorólogo |
+| TEC-08 | Brisa marina sólo «suave y continua» | 3 | aplicado | | fase 3: cap02, post-it, Anki `convergencia-de-brisa`, lección 02 y examen-50 |
+| COH-01 | Figuras del GFH del cap02 mal enlazadas | 3 | aplicado | | fase 3: remisiones corregidas y apartado nuevo de calles de nubes y convergencias del relieve |
+| PED-01 | Figura de isobaras | 3 | figura | | fase 3: figura marcada con `.corregir` |
+| TEC-09 | Fórmula de la base sin paréntesis | 3 | aplicado | | fase 3: fórmula con paréntesis en notación matemática |
+| TEC-10 | «Altitud» de la base, es altura AGL | 3 | aplicado | | fase 3: cap03, glosario (Cúmulo) y Anki; la figura, con TEC-01 |
+| TEC-11 | Estabilidad absoluta y condicional | 3 | aplicado | | fase 3: cap03 y Anki `estabilidad-atmosferica` |
+| TEC-12 | Fórmulas del TT y del K perdidas | 3 | aplicado | | fase 3: fórmulas del TT y del K restituidas |
+| TEC-13 | Escala del TT atribuida a Miller | 3 | parcial | | fase 3: escala atribuida al oeste de EE. UU. y fila 52 corregida; calibración regional, pregunta al meteorólogo |
+| TEC-14 | «El K es más representativo en montaña» | 3 | parcial | | fase 3: retirada la regla llano/montaña en cap03 y Anki `tt-y-k`; pregunta al meteorólogo |
+| COH-02 | Bandas de los índices contradictorias | 3 | parcial | | fase 3: bandas dentro de los umbrales de sus tablas, tramos, día termonuclear y Anki; la banda de buen día, pregunta al meteorólogo (con TEC-02) |
+| TEC-15 | Signo del LI | 3 | aplicado | | fase 3 |
+| TEC-16 | Clasificación de nubes y piso del Ns | 3 | figura | | fase 3: tabla de tres pisos (con PED-08); figuras de familias y del frente ocluido marcadas con `.corregir` |
+| COH-03 | Neblina o bruma (BR): umbral y nombre | 3 | parcial | | fase 3: cap04, glosario (Niebla) y Anki; el tope de 5.000 m en el Anexo 3, pregunta al meteorólogo |
+| TEC-17 | Niebla de advección: estación | 3 | parcial | | fase 3: «sobre todo en verano» (IGN); validación, pregunta al meteorólogo |
+| TEC-18 | Downburst y microrráfaga | 3 | aplicado | | fase 3: cap05, cap09 y glosario (Downburst y Virga) |
+| SYL-02 | 3.5: formación y tipos de precipitación | 3 | aplicado | | fase 3: apartado nuevo en cap05; post-it sin cambios |
+| PED-02 | Cifras de seguridad sin fuente | 3 | parcial | | fase 3: cap04, cap05, cap06, cap07, cap08 y cap09 como orientación, con Anki; Cb alineado con la FAA en el post-it, lección 09 y examen-50 P32; validación, pregunta al FI(S) |
+| TEC-19 | Frente cálido «estabiliza completamente» | 3 | figura | | fase 3: cap06, post-it, Anki `frente-calido`, lección 06 y examen-50; figura marcada con `.corregir` |
+| TEC-20 | Frente estacionario | 3 | aplicado | | fase 3 |
+| TEC-21 | Pm «primavera-verano» | 3 | parcial | | fase 3: «en primavera»; validación, pregunta al meteorólogo |
+| TEC-22 | Baja Térmica «permanente» | 3 | parcial | | fase 3: cap08, post-it, Anki y lección 08; validación, pregunta al meteorólogo |
+| COH-04 | Figura del ciclo de la tormenta | 3 | figura | | fase 3: figura marcada con `.corregir` |
+| TEC-23 | Granizo bajo el yunque | 3 | aplicado | | fase 3: cap09 |
+| COH-05 | Figura de la estela atribuida a la NASA | 3 | figura | | fase 3: figura marcada con `.corregir`; el pie ya no la atribuye a la NASA; sustituir por NASA L90-5919 con su crédito |
+| TEC-24 | SPECI | 3 | aplicado | | fase 3: cap10, glosario y Anki `speci` |
+| TEC-25 | SKC | 3 | aplicado | | fase 3: cap10 y glosario (NSC) |
+| NOR-01 | AIRMET, GAMET y SWL hasta FL150 | 3 | aplicado | | fase 3: cap10, post-it, glosario (AIRMET, GAMET) y Anki `sigmet-airmet-nivel` |
+| NOR-02 | «Obligatorio» y «vinculante» | 3 | aplicado | | fase 3: cap10 y Anki `aemet-ama-fuente-oficial`; lección 10 y examen-50 (P32 y dos fundamentos más) citan SAO.OP.120(b), SAO.OP.135 y SERA.2010(b) |
+| SYL-03 | 3.10: radar, satélite y cartas | 3 | parcial | | fase 3: apartado nuevo en cap10; validación, pregunta al FI(S) |
+| TEC-26 | CAPE desde el LFC (glosario) | 3 | aplicado | | fase 3: glosario (CAPE), con las bandas de TEC-02 |
+| COH-06 | Dorsal (glosario) | 3 | aplicado | | fase 3: glosario (Dorsal) |
+| TEC-27 | Fenómenos SIGMET (glosario) | 3 | aplicado | | fase 3: glosario (SIGMET) |
+| TEC-28 | Estela: entrar alineado (glosario) | 3 / 4 | parcial | | fase 3: glosario del 03; el 06, en la fase 4 |
+| COH-07 | Bibliografía sin fuentes meteorológicas | 3 | aplicado | | fase 3: bloque «Meteorología» sólo en la bibliografía del 03 |
 | PED-03 | Reconocimientos: alcance de la validación | 4 | pendiente | | común a los nueve libros |
 
 ## Bajas
@@ -100,9 +100,9 @@ toca: es el registro de lo que se encontró. Aquí se anota qué se ha hecho con
 | --- | --- | --- | --- | --- |
 | PED-04 | 5 | pendiente | | |
 | PED-05 | 5 | pendiente | | |
-| PED-06 | 5 | pendiente | | cambia el post-it del cap03 |
+| PED-06 | 5 | parcial | | fase 3: el 0,5 °C/1.000 ft en el cuerpo; el post-it, en la fase 5 |
 | PED-07 | 5 | pendiente | | |
-| PED-08 | 3 | pendiente | | con TEC-16 |
+| PED-08 | 3 | aplicado | | fase 3: con TEC-16 |
 | TEC-29 | 5 | pendiente | | requiere experto |
 | TEC-30 | 5 | pendiente | | |
 | TEC-31 | 5 | pendiente | | |
@@ -123,7 +123,7 @@ toca: es el registro de lo que se encontró. Aquí se anota qué se ha hecho con
 | PED-11 | 4 | pendiente | | también el 05 |
 | TEC-40 | 5 | pendiente | | |
 | TEC-41 | 5 | pendiente | | requiere experto |
-| TEC-42 | 3 | pendiente | | con TEC-12 |
+| TEC-42 | 3 | aplicado | | fase 3: con TEC-12 |
 | PED-12 | 4 | pendiente | | común a los nueve libros |
 | PED-13 | 4 | pendiente | | común a los nueve libros |
 | PED-14 | 5 | pendiente | | |
@@ -149,6 +149,7 @@ y no tiene remoto.
 | Fase | Commit en `examenes/` | Preguntas |
 | --- | --- | --- |
 | 2 | `96c1a4d` | lección 05: retroalimentación de la opción C de la lluvia engelante (`c05-q07`) |
+| 3 | `7f4b848` | lecciones 02, 06, 08, 09 y 10 y examen-50: citas de los post-it corregidos (Foehn, brisa, frente cálido, Baja Térmica, Cb), margen de los Cb (P32) y briefing meteorológico con SAO.OP.120(b), SAO.OP.135 y SERA.2010(b) |
 
 `make check` y `make lecciones-check` fallan desde antes de esta corrección, en todos los libros
 menos el 01, porque las lecciones anotan versiones anteriores a la v0.9.9 (las del 03, la
@@ -171,6 +172,13 @@ clase y la nota, y se anota aquí.
 | cap03 | `03-cap03-base-cumulos-dalr-nca` | TEC-01 | fase 2 | |
 | cap06 | `03-cap06-frente-frio-estructura` | TEC-04 | fase 2 | |
 | cap10 | `03-cap10-sigwx` | TEC-05 | fase 2 | |
+| cap01 | `03-cap01-atmosfera-isa` | TEC-06 | fase 3 | |
+| cap02 | `03-cap02-gradiente-isobaras` | PED-01 | fase 3 | |
+| cap04 | `03-cap04-familias-nubes-perfil` | TEC-16 | fase 3 | |
+| cap06 | `03-cap06-frente-ocluido` | TEC-16, TEC-30 | fase 3 | |
+| cap06 | `03-cap06-frente-calido-nubes` | TEC-19 | fase 3 | |
+| cap09 | `03-cap09-ciclo-tormenta` | COH-04 | fase 3 | |
+| cap09 | `03-cap09-estela-turbulenta` | COH-05 | fase 3 | |
 
 ## Preguntas abiertas
 

@@ -34,7 +34,7 @@ Al contrario que en el anticiclón, el gradiente de presión obliga al aire del 
 En el hemisferio norte, las borrascas giran en sentido **antihorario**. Sus isobaras muy apretadas son sinónimo de vientos fuertes y racheados: la operación VFR dentro de una borrasca activa es inviable. Sin embargo, la retaguardia post-frontal —lo que queda tras el paso de la borrasca— suele ofrecer las mejores jornadas de vuelo del año.
 
 ::: {.callout-warning title="Seguridad"}
-Nunca salgas con previsión de borrasca activa en aproximación. Las condiciones VFR pueden degradarse rápidamente: nubosidad baja, visibilidad reducida y ráfagas que complican el aterrizaje. Cancela antes de salir si el mapa sinóptico muestra una depresión activa a menos de 500 km de tu zona de vuelo.
+Nunca salgas con previsión de borrasca activa en aproximación. Las condiciones VFR pueden degradarse rápidamente: nubosidad baja, visibilidad reducida y ráfagas que complican el aterrizaje. Si el mapa sinóptico muestra una depresión activa que se acerca a tu zona de vuelo, comprueba en la previsión cuándo llegará antes de salir, y cancela si puede alcanzarte durante el vuelo.
 :::
 
 ## Vaguadas y dorsales: isobaras irregulares

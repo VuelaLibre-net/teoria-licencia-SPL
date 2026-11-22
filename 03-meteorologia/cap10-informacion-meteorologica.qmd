@@ -10,7 +10,7 @@
 Para la operativa del vuelo a vela, dada su intrínseca dependencia de los fenómenos atmosféricos, la capacidad de discernir e interpretar con precisión la información meteorológica aeronáutica es un requisito fundamental antes de iniciar cualquier vuelo. Los boletines estandarizados principales son el METAR y el TAF:
 
 * **METAR (Meteorological Aerodrome Report):** Consiste en un reporte observacional de las condiciones meteorológicas reales y presentes en el aeródromo. Se emite habitualmente en intervalos de 30 minutos (o 60 minutos según el aeródromo). Proporciona datos concisos sobre la dirección e intensidad del viento en superficie, visibilidad horizontal, nubosidad (cobertura y altitud de la base), temperatura ambiental, temperatura del punto de rocío y reglaje altimétrico (QNH). Frecuentemente, el mensaje concluye con un segmento de pronóstico a corto plazo tipo `TREND` válido para las 2 horas posteriores (o la indicación `NOSIG` si no se prevén cambios significativos).
-* **SPECI (Special Aerodrome Report):** Es el hermano urgente del METAR. Se emite fuera del ciclo regular, en cuanto las condiciones cambian de forma significativa: el viento vira o arrecia, la visibilidad o la base de las nubes cruzan un umbral operativo, aparece una tormenta. Su formato es idéntico al del METAR, sólo cambia la palabra inicial. Si al consultar un aeródromo aparece un SPECI, léelo antes que el METAR: es más reciente y se ha emitido precisamente porque algo ha empeorado.
+* **SPECI (Special Aerodrome Report):** Es el hermano urgente del METAR. Se emite fuera del ciclo regular cuando las condiciones cambian de forma significativa, a peor o a mejor: la visibilidad o la base o la cantidad de nubes cruzan un umbral operativo, empieza o termina una tormenta o una precipitación. En España no se emite por cambios del viento, salvo criterios locales, ni mientras la estación funciona en modo automático. Su formato es idéntico al del METAR, sólo cambia la palabra inicial. Al consultar un aeródromo, mira siempre la hora de cada informe: el vigente es el más reciente, sea METAR o SPECI.
 * **TAF (Terminal Aerodrome Forecast):** Es el pronóstico oficial del aeródromo. Elaborado por oficinas meteorológicas, anticipa la evolución temporal de la meteorología en la terminal para periodos de validez estandarizados que abarcan habitualmente 9, 24 o 30 horas. Emplea una sintaxis de códigos de evolución y probabilidad, fundamentales para la planificación:
   * `FM` (**from**): cambio rápido y permanente a partir de la hora indicada. Todo lo anterior deja de valer.
   * `BECMG` (**becoming**): cambio gradual y permanente dentro del intervalo indicado.
@@ -21,7 +21,7 @@ Resulta imperativo para la tripulación asimilar esta codificación con fluidez.
 
 * CAVOK: Indica condiciones VFR óptimas, y exige cuatro cosas **a la vez**: visibilidad horizontal igual o superior a 10 km; ninguna nube por debajo de 5.000 ft o de la altitud mínima de sector más alta, la que sea mayor; **ningún Cb ni TCU a cualquier nivel**; y ningún fenómeno meteorológico significativo. Ese «a cualquier nivel» es un error clásico de examen: un cumulonimbo con la base a 7.000 ft impide el CAVOK aunque quede muy por encima del umbral de los 5.000. El rótulo es el de OACI; en el club se oye el retroacrónimo *Ceiling And Visibility OK*, que no es la denominación oficial.
 * NSC (No Significant Cloud): Ausencia de nubes por debajo de 5.000 ft (o de la altitud mínima de sector más alta, la que sea mayor) y ausencia de Cb y TCU, cuando los criterios de CAVOK no se cumplen —típicamente porque la visibilidad no llega a los 10 km—.
-* NCD (**No Cloud Detected**) y SKC (**Sky Clear**): se confunden a menudo con NSC y no dicen lo mismo. `NCD` lo emite una estación **automática** que no ha detectado nubes con sus sensores; `SKC` lo escribe un **observador humano** que ve el cielo despejado. `NSC`, en cambio, no afirma que no haya nubes: afirma que ninguna es operativamente significativa.
+* NCD (**No Cloud Detected**) y SKC (**Sky Clear**): se confunden a menudo con NSC y no dicen lo mismo. `NSC` no afirma que no haya nubes: afirma que ninguna es operativamente significativa, y es lo que escribe el observador humano cuando el cielo está despejado (o `CAVOK`, si se cumplen todas sus condiciones). `NCD` sólo lo emite una estación **automática** que no ha detectado nubes con sus sensores. `SKC` es un código de EE. UU. que no aparece en los METAR europeos.
 * Reducciones de visibilidad: Abreviaturas como `FG` (Niebla / **Fog**) o `BR` (Neblina / **Mist**) denotan condiciones de operatividad VFR marginal o restrictiva, condicionando temporalmente los despegues.
 
 La cobertura nubosa se codifica en **octavos de cielo cubierto**, u octas, y son cuatro escalones, no dos:
@@ -94,12 +94,20 @@ Mientras que METAR y TAF cubren aeropuertos concretos, los **Mapas de Tiempo Sig
 Los servicios asociados emiten además alertas específicas. Se confunden con facilidad, y lo que los separa es el nivel:
 
 * **SIGMET** (**Significant Meteorological Information**): fenómenos peligrosos para cualquier aeronave, **a cualquier nivel** y en toda la FIR: engelamiento severo (`SEV ICE`), turbulencia severa (`SEV TURB`), cumulonimbos embebidos, cenizas volcánicas. Aunque la mayoría de esos fenómenos viva por encima del FL100, el aviso también va contigo: el Cb cuya cima justifica el SIGMET tiene la base a tu altura.
-* **AIRMET** (**Airmen’s Meteorological Information**): fenómenos de menor severidad que los del SIGMET, **por debajo del FL100** (FL150 en zonas montañosas). Es el que está hecho a nuestra medida.
-* **GAMET** (**General Area Meteorological Forecast**): pronóstico de área en lenguaje abreviado para niveles bajos, no una alerta puntual.
+* **AIRMET** (**Airmen’s Meteorological Information**): fenómenos de menor severidad que los del SIGMET, **por debajo del FL100** (FL150 en zonas montañosas, o más si hace falta) según la regla europea. En España, AEMET lo emite para toda la FIR hasta el **FL150**. Es el que está hecho a nuestra medida.
+* **GAMET** (**General Area Meteorological Forecast**): pronóstico de área en lenguaje abreviado para niveles bajos (en España, hasta el FL150, como el mapa SIGWX de niveles bajos), no una alerta puntual.
 
-Antes de un vuelo de distancia, revisar los SIGMET y AIRMET activos es obligatorio.
+Antes de un vuelo de distancia hay que estudiar los informes y pronósticos disponibles (SERA.2010 b), y eso incluye los SIGMET y AIRMET activos.
 
 ![Ejemplo (recreación) de mapa de tiempo significativo de niveles bajos (SWL) de AEMET, de la superficie a FL150. *(CORREGIR: las alturas van en centenas de pies, no en hPa; V5 es visibilidad de 1.000 a 5.000 m; la carta es de niveles bajos; el festón azul es nubosidad, no un frente; OVC son 8 octas; revisar el símbolo rojo y los logotipos oficiales.)*](imagenes/03-cap10-sigwx.png){#fig-03-cap10-sigwx .corregir}
+
+## Radar, satélite y mapas del tiempo
+
+Los informes en clave se completan con imágenes y mapas que AEMET publica y que conviene saber leer:
+
+* **Radar meteorológico**: detecta la precipitación y su intensidad (los ecos), y con imágenes sucesivas permite ver hacia dónde y a qué velocidad se mueven los chubascos y las tormentas. No ve las nubes sin precipitación ni las térmicas secas.
+* **Imágenes de satélite**: el canal visible muestra las nubes como las vería el ojo, y sólo de día; el infrarrojo las muestra por su temperatura, de día y de noche: cuanto más blanca, más fría y más alta es la cima, así que los Cb destacan como manchas muy blancas y redondeadas.
+* **Mapas de superficie y de altura**: el mapa de superficie dibuja las isobaras, los centros de presión y los frentes, y es la base del análisis del capítulo 7; los mapas de altura, como el de 500 hPa, muestran las vaguadas y las DANA que disparan la inestabilidad.
 
 ::: {.mas-alla}
 ## Sondeos termodinámicos y curvas de temperatura
@@ -132,13 +140,13 @@ El día de convección excepcional — conocido coloquialmente como «día termo
 
 ## Análisis de datos y toma de decisiones
 
-Antes de salir a pista, cruza varias fuentes: es obligatorio y prudente. No te fíes de un único modelo ni de un único parámetro.
+Antes de salir a pista, estudiar los informes y pronósticos disponibles es obligatorio (SERA.2010 b); cruzar varias fuentes es prudente. No te fíes de un único modelo ni de un único parámetro.
 
 * **Contrasta lo que ves con lo que pronostica el modelo:** Si llegas al campo y la nubosidad está ya tapando la solana cuando el sondeo predecía actividad térmica hasta las 3 de la tarde, algo ha fallado. La realidad manda: cancela o espera.
 * **Criterio del comandante:** La última palabra siempre la tienes tú, no el modelo. Contrasta al menos dos fuentes independientes de las que recoge el apéndice —una generalista y otra orientada al vuelo a vela—, revisa el METAR y el TAF del aeródromo base y de los alternos cercanos, comprueba si hay algún SPECI reciente, y anota los índices K y CAPE del sondeo del día. Pero recuerda: ningún pronóstico favorable en el papel tiene más peso que lo que ves a pie de pista.
 
 ::: {.callout-note title="Airmanship"}
-AEMET —y su plataforma aeronáutica AMA (**Autoservicio Meteorológico Aeronáutico**)— es siempre la fuente pública, oficial y legalmente vinculante para tu planificación pre-vuelo: METAR, SPECI, TAF, SIGMET y AIRMET. Los NOTAM no salen de ahí: los publica el servicio de información aeronáutica (AIS, en España ENAIRE), y los que difunden información meteorológica —el SNOWTAM del estado de la pista, el ASHTAM de cenizas volcánicas— se nutren de datos de AEMET pero se emiten por AIS. Las plataformas generalistas y las especializadas en vuelo a vela que recoge el apéndice se mencionan en este manual porque forman parte de la realidad operativa diaria, pero nunca deben sustituir al briefing meteorológico oficial de seguridad.
+AEMET —y su plataforma aeronáutica AMA (**Autoservicio Meteorológico Aeronáutico**)— es la fuente oficial para tu planificación prevuelo, porque AEMET es la autoridad meteorológica aeronáutica y el proveedor designado del servicio: METAR, SPECI, TAF, SIGMET y AIRMET. Los NOTAM no salen de ahí: los publica el servicio de información aeronáutica (AIS, en España ENAIRE), y los que difunden información meteorológica —el SNOWTAM del estado de la pista, el ASHTAM de cenizas volcánicas— se nutren de datos de AEMET pero se emiten por AIS. Las plataformas generalistas y las especializadas en vuelo a vela que recoge el apéndice se mencionan en este manual porque forman parte de la realidad operativa diaria, pero nunca deben sustituir al briefing meteorológico oficial de seguridad.
 :::
 
 ::: {.callout-warning title="Seguridad"}
@@ -149,6 +157,6 @@ Si a pie de pista la meteorología real difiere del pronóstico favorable —nub
 **Resumen del capítulo: información meteorológica**
 
 * **METAR, SPECI y TAF**: Tus boletines de cabecera. METAR = foto actual (cada 30 min); SPECI = foto urgente, fuera de ciclo, porque algo ha cambiado; TAF = pronóstico (para 9, 24 o 30 h). Aprende a descodificarlos fluidamente (CAVOK indica visibilidad ≥ 10 km, sin nubes por debajo de 5.000 ft y sin Cb ni TCU **a cualquier nivel**; FG indica niebla; BR neblina; las octas van FEW 1–2, SCT 3–4, BKN 5–7, OVC 8).
-* **Mapas Significativos (SIGWX)**: Muestran frentes, zonas de turbulencia y engelamiento. Cruciales para planificar rutas largas. Los avisos se distinguen por nivel: SIGMET a cualquiera, AIRMET por debajo del FL100 (FL150 en montaña).
+* **Mapas Significativos (SIGWX)**: Muestran frentes, zonas de turbulencia y engelamiento. Cruciales para planificar rutas largas. Los avisos se distinguen por nivel: SIGMET a cualquiera, AIRMET en niveles bajos (en España, hasta el FL150).
 * **Toma de decisiones**: No te fíes de una sola fuente. Cruza datos: METAR y TAF del campo y de los alternos + SIGWX + sondeo del día + lo que ves a pie de pista. Si la meteo pinta dudosa, el mejor vuelo es el que se queda en tierra (no-go).
 :::

@@ -1,6 +1,6 @@
 # Bibliografía y fuentes
 
-Esta bibliografía es común a los nueve libros del manual de formación SPL. Reúne las fuentes normativas, los manuales técnicos y los apuntes de instrucción que se han utilizado como referencia para elaborar el contenido de la colección.
+Esta bibliografía es común a los nueve libros del manual de formación SPL. Reúne las fuentes normativas, los manuales técnicos y los apuntes de instrucción que se han utilizado como referencia para elaborar el contenido de la colección. Este libro añade al final las fuentes de meteorología.
 
 **Apuntes de instrucción (DTO Fuentemilanos)**
 
@@ -67,3 +67,20 @@ La OACI desarrolla las normas y métodos recomendados (SARPS) mediante 19 anexos
 * **Methodik der Segelflugausbildung** (*Segelflugrechte*, Rev. 2). Deutscher Aero Club (DAeC), 2022. Metodología alemana de instrucción de vuelo a vela.
   [https://www.daec.de/media/files/2022/Sportarten/Segelflug/Methodik_der_Segelflugausbildung_Segelflugrechte_Rev.2.pdf](https://www.daec.de/media/files/2022/Sportarten/Segelflug/Methodik_der_Segelflugausbildung_Segelflugrechte_Rev.2.pdf)
 * **Vuelo sin motor: técnicas avanzadas**. Helmut Reichmann. Edición española de la obra de referencia internacional sobre la técnica del vuelo de distancia (orig. *Streckensegelflug*; ed. inglesa, *Cross-Country Soaring*). ISBN 978-84-283-1567-8.
+
+**Meteorología**
+
+Fuentes de las cifras, los códigos y los índices de este libro. Las de la FAA y el servicio meteorológico de EE. UU. son de otra jurisdicción: se citan como referencia técnica, no como norma aplicable en España.
+
+* **Reglamento de Ejecución (UE) 2017/373, anexo V (Parte MET)**, requisitos de los servicios meteorológicos para la navegación aérea: METAR, SPECI, TAF, SIGMET, AIRMET, GAMET y CAVOK. [CELEX 32017R0373](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32017R0373)
+* **AIP España, GEN 3.5 «Servicios meteorológicos»**. ENAIRE. Productos de AEMET para la aviación: SPECI, TAF, GAMET, AIRMET y mapas de niveles bajos (SWL).
+  [https://aip.enaire.es/AIP/contenido_AIP/GEN/LE_GEN_3_5_es.pdf](https://aip.enaire.es/AIP/contenido_AIP/GEN/LE_GEN_3_5_es.pdf)
+* **Atlas Internacional de Nubes** (OMM-N.º 407), edición en línea de 2017. Organización Meteorológica Mundial. Géneros de nubes y pisos; niebla y neblina.
+  [https://cloudatlas.wmo.int](https://cloudatlas.wmo.int)
+* **Aviation Weather (AC 00-6B)**, 2016. FAA. Atmósfera estándar, gradientes adiabáticos, estabilidad, frentes, engelamiento, tormentas y microrráfagas.
+  [https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_00-6B.pdf](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_00-6B.pdf)
+* **Thunderstorms (AC 00-24C)**, 2013. FAA. Granizo bajo el yunque y distancias de evitación.
+  [https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC%2000-24C.pdf](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC%2000-24C.pdf)
+* **The Use of the Skew T, Log P Diagram in Analysis and Forecasting (AWS/TR-79/006)**, revisión de 1990. Air Weather Service, Fuerza Aérea de EE. UU. Fórmulas y umbrales de los índices TT, K y LI, con las escalas de Miller y de George.
+* **Atlas Nacional de España**, capítulo 4, «Clima», edición de 2020. Instituto Geográfico Nacional. Nieblas, baja térmica estival y situaciones sinópticas de la Península.
+  [https://www.ign.es/web/resources/docs/IGNCnig/ANE/Capitulos/04_1_Clima_2020_20231103.pdf](https://www.ign.es/web/resources/docs/IGNCnig/ANE/Capitulos/04_1_Clima_2020_20231103.pdf)

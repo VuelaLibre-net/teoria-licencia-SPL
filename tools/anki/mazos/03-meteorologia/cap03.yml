@@ -14,7 +14,9 @@ tarjetas:
     anverso: ¿Qué significa que la atmósfera sea **estable** o **inestable**?
     reverso: |
       **Estable**: una burbuja empujada hacia arriba tiende a volver a bajar.
-      **Inestable**: sigue subiendo sola.
+      **Inestable**: sigue subiendo sola. **Condicionalmente inestable**: el
+      ambiente se enfría entre el SALR y el DALR, y la burbuja sólo sigue
+      subiendo si se satura.
 
       El vuelo a vela vive de la inestabilidad.
 
@@ -28,10 +30,11 @@ tarjetas:
     tipo: basica
     anverso: ¿Cómo se estima la altura de la **base de los cúmulos**?
     reverso: |
-      **(T ambiente − T rocío) × 400 = altitud de la base, en pies.**
+      **(T ambiente − T rocío) × 400 = altura de la base sobre el
+      aeródromo, en pies.**
 
       El punto de rocío y la temperatura convergen a razón de unos 2,5 ºC por
-      cada 1.000 ft de ascenso.
+      cada 1.000 ft de ascenso. Para la altitud, suma la elevación del campo.
     etiquetas: [Regla de oro]
 
   - id: inversiones
@@ -57,8 +60,11 @@ tarjetas:
     tipo: basica
     anverso: ¿Qué mide cada uno, el **TT** y el **K-Index**?
     reverso: |
-      **El TT dice cuánto «combustible» tiene la atmósfera para armar un Cb en
-      el llano; el K, para la montaña.**
+      **Los dos miden, con fórmulas distintas, cuánto «combustible» tiene la
+      atmósfera para armar un Cb.**
+
+      Los dos usan el nivel de 850 hPa: en montaña, si queda cerca del suelo,
+      ninguno es representativo.
 
       No te fíes de uno solo: úsalos juntos antes de cada *preflight*.
     etiquetas: [Airmanship]
@@ -101,7 +107,7 @@ tarjetas:
     tipo: basica
     anverso: Firma numérica de un **día de convección excepcional**.
     reverso: |
-      **TT entre 48 y 55, K entre 15 y 20, CAPE entre 1.000 y 2.500 J/kg, LI
+      **TT entre 44 y 48, K entre 15 y 20, CAPE entre 1.000 y 2.500 J/kg, LI
       negativo y vientos flojos de componente variable.**
 
       Son los días de récords de distancia, pero la misma firma puede acabar
@@ -113,7 +119,7 @@ tarjetas:
     tipo: basica
     anverso: ¿Qué combinación de índices señala **alto riesgo de tormenta** diurna?
     reverso: |
-      **TT > 55 o K > 25 junto con CAPE > 2.500 J/kg.**
+      **TT de 52 o más o K > 25, junto con CAPE > 2.500 J/kg.**
 
       Planifica el aterrizaje antes de las 16:00 y ten identificado un campo
       alternativo antes de que se levante la convección.

@@ -32,7 +32,8 @@ tarjetas:
       **Lluvia continua, techos bajos y mala visibilidad**, anunciado por cirros
       que van bajando a estratos.
 
-      El aire es estable: olvídate de las térmicas.
+      El aire suele ser estable: olvídate de las térmicas. Si es inestable,
+      puede esconder Cb embebidos.
 
   - id: oclusion
     tipo: basica
