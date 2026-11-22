@@ -87,7 +87,7 @@ Acrónimos y términos técnicos de comunicaciones aeronáuticas para la licenci
 : Radar que interroga a los transpondedores a bordo y obtiene información codificada: código **squawk** (Modo A), altitud barométrica (Modo C) e identidad extendida (Modo S). Complementa al radar primario añadiendo en pantalla la etiqueta con número de vuelo y altitud.
 
 **TAF (Terminal Aerodrome Forecast)**
-: Pronóstico meteorológico codificado que describe las condiciones meteorológicas esperadas en un aeródromo específico durante un periodo de tiempo determinado (típicamente 9, 24 o 30 horas).
+: Pronóstico meteorológico codificado que describe las condiciones meteorológicas esperadas en un aeródromo específico durante un periodo de tiempo determinado (9, 24 o 30 horas; en España, 24 o 30, renovados cada 6 horas).
 
 **TMZ (Zona de transpondedor obligatorio / Transponder Mandatory Zone)**
 : Espacio aéreo en el que es obligatorio llevar y operar un transpondedor con las capacidades exigidas; no impone por sí solo comunicación o escucha radio, salvo que también sea RMZ o así se publique.

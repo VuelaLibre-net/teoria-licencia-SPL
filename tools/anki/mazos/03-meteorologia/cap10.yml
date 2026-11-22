@@ -14,7 +14,7 @@ tarjetas:
     anverso: Diferencia entre **METAR** y **TAF**.
     reverso: |
       **METAR: foto actual, cada 30 minutos. TAF: pronóstico, para 9, 24 o 30
-      horas.**
+      horas; en España, sólo de 24 o 30 horas.**
 
   - id: codigos-fg-br-cavok
     tipo: cloze

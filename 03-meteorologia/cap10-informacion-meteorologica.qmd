@@ -11,7 +11,7 @@ Para la operativa del vuelo a vela, dada su intrínseca dependencia de los fenó
 
 * **METAR (Meteorological Aerodrome Report):** Consiste en un reporte observacional de las condiciones meteorológicas reales y presentes en el aeródromo. Se emite habitualmente en intervalos de 30 minutos (o 60 minutos según el aeródromo). Proporciona datos concisos sobre la dirección e intensidad del viento en superficie, visibilidad horizontal, nubosidad (cobertura y altitud de la base), temperatura ambiental, temperatura del punto de rocío y reglaje altimétrico (QNH). Frecuentemente, el mensaje concluye con un segmento de pronóstico a corto plazo tipo `TREND` válido para las 2 horas posteriores (o la indicación `NOSIG` si no se prevén cambios significativos).
 * **SPECI (Special Aerodrome Report):** Es el hermano urgente del METAR. Se emite fuera del ciclo regular cuando las condiciones cambian de forma significativa, a peor o a mejor: la visibilidad o la base o la cantidad de nubes cruzan un umbral operativo, empieza o termina una tormenta o una precipitación. En España no se emite por cambios del viento, salvo criterios locales, ni mientras la estación funciona en modo automático. Su formato es idéntico al del METAR, sólo cambia la palabra inicial. Al consultar un aeródromo, mira siempre la hora de cada informe: el vigente es el más reciente, sea METAR o SPECI.
-* **TAF (Terminal Aerodrome Forecast):** Es el pronóstico oficial del aeródromo. Elaborado por oficinas meteorológicas, anticipa la evolución temporal de la meteorología en la terminal para periodos de validez estandarizados que abarcan habitualmente 9, 24 o 30 horas. Emplea una sintaxis de códigos de evolución y probabilidad, fundamentales para la planificación:
+* **TAF (Terminal Aerodrome Forecast):** Es el pronóstico oficial del aeródromo. Elaborado por oficinas meteorológicas, anticipa la evolución temporal de la meteorología en la terminal para periodos de validez estandarizados de 9, 24 o 30 horas (en España, sólo de 24 o 30 horas, renovados cada 6 horas). Emplea una sintaxis de códigos de evolución y probabilidad, fundamentales para la planificación:
   * `FM` (**from**): cambio rápido y permanente a partir de la hora indicada. Todo lo anterior deja de valer.
   * `BECMG` (**becoming**): cambio gradual y permanente dentro del intervalo indicado.
   * `TEMPO`: fluctuaciones temporales, cada una de menos de una hora y en conjunto menos de la mitad del intervalo.
@@ -19,7 +19,7 @@ Para la operativa del vuelo a vela, dada su intrínseca dependencia de los fenó
 
 Resulta imperativo para la tripulación asimilar esta codificación con fluidez. Es de especial relevancia operativa interpretar indicadores como:
 
-* CAVOK: Indica condiciones VFR óptimas, y exige cuatro cosas **a la vez**: visibilidad horizontal igual o superior a 10 km; ninguna nube por debajo de 5.000 ft o de la altitud mínima de sector más alta, la que sea mayor; **ningún Cb ni TCU a cualquier nivel**; y ningún fenómeno meteorológico significativo. Ese «a cualquier nivel» es un error clásico de examen: un cumulonimbo con la base a 7.000 ft impide el CAVOK aunque quede muy por encima del umbral de los 5.000. El rótulo es el de OACI; en el club se oye el retroacrónimo *Ceiling And Visibility OK*, que no es la denominación oficial.
+* CAVOK: Indica condiciones VFR óptimas, y exige cuatro cosas **a la vez**: visibilidad horizontal igual o superior a 10 km; ninguna nube por debajo de 5.000 ft o de la altitud mínima de sector más alta, la que sea mayor; **ningún Cb ni TCU a cualquier nivel**; y ningún fenómeno meteorológico significativo. Ese «a cualquier nivel» es una confusión frecuente: un cumulonimbo con la base a 7.000 ft impide el CAVOK aunque quede muy por encima del umbral de los 5.000. El rótulo es el de OACI; en el club se oye el retroacrónimo *Ceiling And Visibility OK*, que no es la denominación oficial.
 * NSC (No Significant Cloud): Ausencia de nubes por debajo de 5.000 ft (o de la altitud mínima de sector más alta, la que sea mayor) y ausencia de Cb y TCU, cuando los criterios de CAVOK no se cumplen —típicamente porque la visibilidad no llega a los 10 km—.
 * NCD (**No Cloud Detected**) y SKC (**Sky Clear**): se confunden a menudo con NSC y no dicen lo mismo. `NSC` no afirma que no haya nubes: afirma que ninguna es operativamente significativa, y es lo que escribe el observador humano cuando el cielo está despejado (o `CAVOK`, si se cumplen todas sus condiciones). `NCD` sólo lo emite una estación **automática** que no ha detectado nubes con sus sensores. `SKC` es un código de EE. UU. que no aparece en los METAR europeos.
 * Reducciones de visibilidad: Abreviaturas como `FG` (Niebla / **Fog**) o `BR` (Neblina / **Mist**) denotan condiciones de operatividad VFR marginal o restrictiva, condicionando temporalmente los despegues.
@@ -37,7 +37,7 @@ La cobertura nubosa se codifica en **octavos de cielo cubierto**, u octas, y son
 Fíjate en el salto de @tbl-03-cap10-octas entre `SCT` y `BKN`. Ahí, en un solo octavo de cielo, está la diferencia entre un día de cúmulos aprovechables y un cielo que se cierra y apaga las térmicas.
 
 ::: {.callout-important title="Normativa"}
-En el METAR y el TAF escritos, la dirección del viento va referida al **norte verdadero**. El viento que te da la Torre o el ATIS por radio va referido al **norte magnético**, igual que la numeración de las pistas, para que puedas compararlo directamente con el rumbo de la pista sin corregir nada. Es la misma cifra medida contra dos nortes distintos, y cae en el examen con frecuencia. El libro de Comunicaciones lo trata en detalle.
+En el METAR y el TAF escritos, la dirección del viento va referida al **norte verdadero**. El viento que te da la Torre o el ATIS por radio va referido al **norte magnético**, igual que la numeración de las pistas, para que puedas compararlo directamente con el rumbo de la pista sin corregir nada. Es la misma cifra medida contra dos nortes distintos, y se confunde con frecuencia. El libro de Comunicaciones lo trata en detalle.
 :::
 
 ### Ejemplo práctico de decodificación METAR
@@ -61,22 +61,22 @@ Grupo a grupo:
 * **Q1019**: Reglaje de altímetro (QNH) de 1019 hPa.
 * **NOSIG**: Pronóstico tipo TREND indicando que **no** se esperan cambios **sig**nificativos en las próximas 2 horas. El `=` marca el fin del mensaje.
 
-Traducido el mensaje, queda lo que de verdad cuesta: decidir. Este METAR es un **no-go** para vuelo a vela, y lo dice una sola palabra: `OVC040`. Con el cielo cubierto a 4.000 pies no llega sol al suelo, y sin sol no hay calentamiento diferencial, no hay térmicas y no hay vuelo. Da igual que la visibilidad sea excelente, el viento esté en calma y el QNH cómodo. Y fíjate en lo cerca que se quedaron las dos cosas: el `FEW028` cuadraba con la Regla de oro y prometía cúmulos a 2.800 pies, y la capa que los tapa está sólo 1.200 pies más arriba. Acostúmbrate a preguntarte, grupo a grupo, qué le hace cada uno al día.
+Traducido el mensaje, queda lo que de verdad cuesta: decidir. Este METAR es un **no-go** para vuelo a vela, y lo dice una sola palabra: `OVC040`. Con el cielo cubierto a 4.000 pies no llega sol al suelo, y sin sol no hay calentamiento diferencial, no hay térmicas y no hay vuelo. Da igual que la visibilidad sea excelente, el viento sea flojo y el QNH cómodo. Y fíjate en lo cerca que se quedaron las dos cosas: el `FEW028` cuadraba con la Regla de oro y prometía cúmulos a 2.800 pies, y la capa que los tapa está sólo 1.200 pies más arriba. Acostúmbrate a preguntarte, grupo a grupo, qué le hace cada uno al día.
 
 Otros grupos que aparecen a diario y no están en este ejemplo:
 
 * **Viento**: `G` señala la racha (`18012G25KT`, 12 nudos con rachas de 25); `VRB` indica dirección variable; y dos rumbos unidos por `V` (`180V240`) acotan la oscilación de la dirección.
-* **Visibilidad y nubes**: `VV///` es visibilidad vertical —el cielo no se ve, hay que medir hacia arriba a través de la niebla—; `NSW` (**No Significant Weather**) anuncia que un fenómeno significativo ha cesado.
-* **Tiempo**: `RE` prefija el tiempo reciente (`RETS`, tormenta reciente); `WS` avisa de cizalladura (`WS RWY18`).
+* **Visibilidad y nubes**: `VVnnn` es visibilidad vertical —el cielo no se ve, hay que medir hacia arriba a través de la niebla—, y `VV///`, que no se ha podido determinar; `NSW` (**No Significant Weather**) se usa en el TAF y en el TREND para anunciar el fin previsto de un fenómeno significativo.
+* **Tiempo**: `RE` prefija el tiempo reciente (`RETS`, tormenta reciente); `WS` avisa de cizalladura (`WS R18`).
 * **Temperatura negativa**: se marca con `M` (`M02/M05` son −2 °C y −5 °C).
 * **Presión**: `Q1019` son hectopascales; `A2992` son pulgadas de mercurio, el formato de Estados Unidos.
-* **Origen y correcciones**: `AUTO` indica que el informe procede de una estación automática sin supervisión humana; `COR` es un informe corregido y `AMD`, un TAF enmendado.
+* **Origen y correcciones**: `AUTO` indica que el informe procede de una estación automática (en España, algunas se supervisan in situ); `COR` es un informe corregido y `AMD`, un TAF enmendado.
 
 | Aspecto | METAR | TAF |
 | --- | --- | --- |
 | Tipo | Observación real (estado actual del aeródromo) | Pronóstico oficial (evolución esperada) |
-| Frecuencia de emisión | Cada 30 min (o 60 min en aeródromos menores) | Cada 3 h los de 9 h de validez; cada 6 h los de 24 y 30 h |
-| Período de validez | Instante puntual + TREND de 2 horas | 9, 24 o 30 horas |
+| Frecuencia de emisión | Cada 30 min (o 60 min en aeródromos menores) | En España, cada 6 h (los de 24 y 30 h) |
+| Período de validez | Instante puntual + TREND de 2 horas | 9, 24 o 30 horas; en España, 24 o 30 |
 | Quién lo emite | Observador o estación automática del aeródromo | Oficina meteorológica (AEMET) |
 | Uso principal | Verificar las condiciones al despegar o al llegar | Planificar el vuelo con antelación |
 | Indicadores clave | `CAVOK`, `NSC`, `FG`, `BR`, `NOSIG` | `FM`, `BECMG`, `TEMPO`, `PROB30`, `PROB40` |
@@ -116,24 +116,24 @@ Los informes en clave se completan con imágenes y mapas que AEMET publica y que
 
 El sondeo termodinámico es la radiografía del día: muestra cómo cambia la temperatura y la humedad con la altura en un punto geográfico dado. Se presenta en diagramas **Skew-T log-P** o **Stüve**, y las herramientas que lo publican —gratuitas y de pago, generalistas y orientadas al vuelo a vela— están reunidas con sus direcciones en el apéndice «Fuentes de meteorología» de este mismo libro. Aprender a leer un sondeo te ahorrará remolques innecesarios y te avisa de las tormentas antes de que sean visibles desde el suelo (@fig-03-cap10-indices-estabilidad).
 
-![Representación de un sondeo con Windy.com sobre Fuentemilanos](imagenes/03-cap10-indices-estabilidad.jpg){#fig-03-cap10-indices-estabilidad}
+![Representación de un sondeo sobre Fuentemilanos en Windy.com, con los complementos flyXC Soundings y SoarCalc](imagenes/03-cap10-indices-estabilidad.jpg){#fig-03-cap10-indices-estabilidad}
 
 * La línea azul muestra el punto de rocío
 * la línea roja muestra la temperatura del aire
 * la línea verde muestra la temperatura de una parcela ascendente
-* el área rayada a lo largo del gráfico muestra la capa convectiva (nubes cúmulos)
+* el área rayada a lo largo del gráfico muestra la capa nubosa (los cúmulos)
 * el gráfico del viento muestra el viento de 0-30 km/h en la parte izquierda (fondo blanco) y de 30 a la velocidad máxima en la parte derecha (fondo rojo)
 
 Las tres lecturas clave son:
 
-1. **Base de los cúmulos (LCL):** Cuidado con el error habitual. Donde la temperatura y el punto de rocío se tocan **no** está el LCL, sino una capa ya saturada: niebla, estratos o una nube que existe en ese momento. El LCL sale de cruzar dos líneas distintas: desde la temperatura en superficie asciendes por la **adiabática seca**, desde el punto de rocío en superficie asciendes por la **línea de relación de mezcla saturante**, y donde se cortan está la altura a la que la parcela condensa. Es el mismo cálculo que la Regla de oro del capítulo de termodinámica —(T − T~rocío~) × 400 es su aproximación aritmética—, así que el sondeo y la regla del pulgar tienen que darte lo mismo; si no, has leído mal uno de los dos. Para el día que vas a volar, haz la construcción con la **temperatura máxima prevista** en lugar de con la actual: lo que obtienes entonces es el nivel de condensación convectivo (CCL), que es la base real de los cúmulos de la tarde y el mismo criterio con el que se traza el techo térmico.
+1. **Base de los cúmulos (LCL):** Cuidado con el error habitual. Donde la temperatura y el punto de rocío se tocan **no** está el LCL, sino una capa ya saturada: niebla, estratos o una nube que existe en ese momento. El LCL sale de cruzar dos líneas distintas: desde la temperatura en superficie asciendes por la **adiabática seca**, desde el punto de rocío en superficie asciendes por la **línea de relación de mezcla saturante**, y donde se cortan está la altura a la que la parcela condensa. Es el mismo cálculo que la Regla de oro del capítulo de termodinámica —(T − T~rocío~) × 400 es su aproximación aritmética—, así que el sondeo y la regla del pulgar tienen que darte lo mismo; si no, has leído mal uno de los dos. Para el día que vas a volar, haz la construcción con la **temperatura máxima prevista** en lugar de con la actual: lo que obtienes entonces es la base prevista de los cúmulos de la tarde, próxima al nivel de condensación convectivo (CCL), y el mismo criterio con el que se traza el techo térmico.
 2. **Techo térmico:** Traza la adiabática seca desde la temperatura máxima prevista. Donde esa línea vuelva a cruzar la curva de estado está el techo de las térmicas. La calidad del día está en **cuánto se separa de la base**: si el techo queda muy por encima del LCL, la capa convectiva es profunda y las térmicas serán potentes; si los dos casi coinciden, el vuelo térmico será débil y corto.
 3. **Riesgo de sobredesarrollo (Cb):** Si la curva de estado se vuelve muy inestable por encima del **nivel de convección libre** (LFC, **Level of Free Convection**) —la altura a partir de la cual la parcela sube sola, sin que nada tenga que empujarla—, los cúmulos del mediodía pueden convertirse en cumulonimbos por la tarde. El CAPE cuantifica esa energía disponible: por encima de 2.500 J/kg la convección es vigorosa y toca vigilar el cielo, y por encima de 3.500 J/kg la convección severa es probable. Combinado con un K-Index por encima de 25, es la firma del día que puede acabar mal.
 
 Esos dos números van siempre **en pareja**. Hay cúmulos cuando el LCL queda por debajo del techo térmico, porque la parcela llega a condensar antes de frenarse; y hay térmica azul, sin una sola nube que te marque dónde sube el aire, cuando queda por encima. Un LCL a 3.000 m con el techo a 4.000 da calles de cúmulos y un día magnífico; un LCL a 1.200 m con el techo a 1.100 da azul. La altura del LCL por sí sola no dice nada.
 
 ::: {.callout-tip title="Regla de oro"}
-El día de convección excepcional — conocido coloquialmente como «día termonuclear» en el argot de competición — tiene firma numérica precisa: K-Index entre 15 y 20, CAPE entre 1.000 y 2.500 J/kg, LI negativo, temperatura a 850 hPa varios grados por encima de **su media climatológica para esa fecha**, y vientos flojos. Esa misma firma no descarta la tormenta si hay humedad y disparo: vigila el sobredesarrollo. Ojo con el dato de los 850 hPa, que se memoriza mal: se compara con la climatología, no con la superficie. A 850 hPa —unos 1.500 m— el aire está en un día normal entre 10 y 15 °C **por debajo** del suelo, y que estuviera por encima significaría una inversión brutal, es decir, el día en que no hay una sola térmica. Busca estos índices directamente en el sondeo del día, en cualquiera de las fuentes del apéndice.
+El día de convección excepcional — conocido coloquialmente como «día termonuclear» en el argot de competición — tiene firma numérica precisa: K-Index entre 15 y 20, CAPE entre 1.000 y 2.500 J/kg, LI negativo, temperatura a 850 hPa varios grados por encima de **su media climatológica para esa fecha**, y vientos flojos. Esa misma firma no descarta la tormenta si hay humedad y disparo: vigila el sobredesarrollo. Ojo con el dato de los 850 hPa, que se memoriza mal: se compara con la climatología, no con la superficie. A 850 hPa —unos 1.500 m— el aire está en un día normal entre 5 y 15 °C **por debajo** del suelo, según la altitud del campo, y que estuviera por encima significaría una inversión brutal, es decir, el día en que no hay una sola térmica. Busca estos índices directamente en el sondeo del día, en cualquiera de las fuentes del apéndice.
 :::
 :::
 
@@ -156,7 +156,7 @@ Si a pie de pista la meteorología real difiere del pronóstico favorable —nub
 ::: {.postit}
 **Resumen del capítulo: información meteorológica**
 
-* **METAR, SPECI y TAF**: Tus boletines de cabecera. METAR = foto actual (cada 30 min); SPECI = foto urgente, fuera de ciclo, porque algo ha cambiado; TAF = pronóstico (para 9, 24 o 30 h). Aprende a descodificarlos fluidamente (CAVOK indica visibilidad ≥ 10 km, sin nubes por debajo de 5.000 ft y sin Cb ni TCU **a cualquier nivel**; FG indica niebla; BR neblina; las octas van FEW 1–2, SCT 3–4, BKN 5–7, OVC 8).
+* **METAR, SPECI y TAF**: Tus boletines de cabecera. METAR = foto actual (cada 30 min); SPECI = foto urgente, fuera de ciclo, porque algo ha cambiado; TAF = pronóstico (en España, para 24 o 30 h). Aprende a descodificarlos fluidamente (CAVOK indica visibilidad ≥ 10 km, sin nubes por debajo de 5.000 ft y sin Cb ni TCU **a cualquier nivel**; FG indica niebla; BR neblina; las octas van FEW 1–2, SCT 3–4, BKN 5–7, OVC 8).
 * **Mapas Significativos (SIGWX)**: Muestran frentes, zonas de turbulencia y engelamiento. Cruciales para planificar rutas largas. Los avisos se distinguen por nivel: SIGMET a cualquiera, AIRMET en niveles bajos (en España, hasta el FL150).
 * **Toma de decisiones**: No te fíes de una sola fuente. Cruza datos: METAR y TAF del campo y de los alternos + SIGWX + sondeo del día + lo que ves a pie de pista. Si la meteo pinta dudosa, el mejor vuelo es el que se queda en tierra (no-go).
 :::

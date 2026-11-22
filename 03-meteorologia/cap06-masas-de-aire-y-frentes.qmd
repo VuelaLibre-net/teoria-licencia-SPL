@@ -15,7 +15,7 @@ El paso de un frente frío se caracteriza por un descenso abrupto de las tempera
 Para el vuelo a vela, el interés meteorológico óptimo radica en la situación posterior al frente. Una vez despejada la barrera frontal, la región queda dominada por una masa de aire transicional netamente más fría que el terreno. Al calentarse su base por contacto con el suelo, se establece una marcada **inestabilidad post-frontal**.
 
 ::: {.callout-tip title="Regla de oro"}
-Las jornadas inmediatas tras el cruce de un frente frío intercontinental suelen ofrecer las mejores condiciones de vuelo térmico. Se caracterizan por una excelente visibilidad por ausencia de calima, presión atmosférica en aumento y un fuerte calentamiento diurno que detona corrientes ascendentes robustas marcadas por nubes Cúmulos (Cu) de contornos definidos.
+Las jornadas inmediatas tras el paso de un frente frío suelen ofrecer las mejores condiciones de vuelo térmico. Se caracterizan por una excelente visibilidad por ausencia de calima, presión atmosférica en aumento y un fuerte calentamiento diurno que detona corrientes ascendentes robustas marcadas por nubes Cúmulos (Cu) de contornos definidos.
 :::
 
 ![Estructura vertical de un frente frío: cuña de aire frío y nubosidad convectiva asociada. *(CORREGIR: la cuña fría debe estar detrás del frente, en el lado postfrontal, con los triángulos hacia el aire cálido; el terreno es más cálido que el aire postfrontal, no más frío.)*](imagenes/03-cap06-frente-frio-estructura.png){#fig-03-cap06-frente-frio-estructura .corregir}
@@ -30,16 +30,16 @@ Un frente cálido degrada las condiciones VFR de forma progresiva:
 
 * Genera precipitaciones continuas y lloviznas persistentes de amplia cobertura.
 * Los techos nubosos descienden paulatinamente, ocultando elevaciones y relieves montañosos.
-* La humedad constante propicia la formación de brumas y nieblas cálidas que deterioran de manera drástica la visibilidad en superficie.
+* La humedad constante propicia la formación de brumas y nieblas frontales que deterioran de manera drástica la visibilidad en superficie.
 * A nivel termodinámico, normalmente estabiliza las capas bajas y suprime las térmicas aprovechables; si el aire cálido que asciende es inestable, puede esconder cumulonimbos embebidos en la capa nubosa.
 
 ![Secuencia nubosa característica de la aproximación de un frente cálido (vista desde tierra). *(CORREGIR: «aire totalmente estable» debe matizarse, porque con aire cálido inestable puede haber cumulonimbos embebidos; los miles se separan con punto.)*](imagenes/03-cap06-frente-calido-nubes.png){#fig-03-cap06-frente-calido-nubes .corregir}
 
 ## La oclusión y el frente estacionario
 
-Cuando un frente frío avanza más rápido que el cálido que tiene delante, termina alcanzándolo. Entonces el frente frío empuja desde atrás y pilla al aire cálido intermedio: lo pinza, lo levanta del suelo y lo obliga a ascender por completo. A este proceso se le llama **frente ocluido** u oclusión (@fig-03-cap06-tipos-frentes).
+Cuando un frente frío avanza más rápido que el cálido que tiene delante, termina alcanzándolo. Entonces el frente frío empuja desde atrás y pilla al aire cálido intermedio: lo pinza, lo levanta del suelo y lo obliga a ascender por completo. A este proceso se le llama **frente ocluido** u oclusión (@fig-03-cap06-tipos-frentes). Si el aire que llega detrás es más frío que el que había delante, la oclusión es fría; si es menos frío, es cálida.
 
-Operativamente, una oclusión es lo peor de los dos frentes combinado: la convección violenta del frente frío más la lluvia continua y los techos bajos del frente cálido. El aire cálido ya no toca el suelo, así que las térmicas desaparecen y la turbulencia convectiva puede aparecer embebida en capas densas sin aviso visual claro. Ante un frente ocluido, pospón el vuelo: las condiciones son complejas e impredecibles.
+Operativamente, una oclusión es lo peor de los dos frentes combinado: la convección violenta del frente frío más la lluvia continua y los techos bajos del frente cálido. Con la nubosidad extensa y la lluvia, las térmicas desaparecen y la turbulencia convectiva puede aparecer embebida en capas densas sin aviso visual claro. Ante un frente ocluido, pospón el vuelo: las condiciones son complejas e impredecibles.
 
 ![Estructura vertical interna de un frente ocluido (oclusión fría). *(CORREGIR: el nimboestrato va en el piso medio, no en el bajo; el rótulo «ALTOESTRATOS» cae en la franja de los altos; sobran los semicírculos rojos sobre el frente frío y la cabecera «TABLA INTEGRAL Y DETALLADA».)*](imagenes/03-cap06-frente-ocluido.png){#fig-03-cap06-tipos-frentes .corregir}
 
@@ -58,14 +58,14 @@ A nivel de formación convectiva, la temperatura absoluta de la masa de aire res
 
 ## Clasificación de las masas de aire
 
-Antes de hablar de temperatura relativa, es útil conocer de dónde viene el aire que tienes encima. Las masas de aire se clasifican por dos criterios: su **latitud de origen** (determina su temperatura) y su **trayectoria** (determina su humedad).
+Además de la temperatura relativa, es útil conocer de dónde viene el aire que tienes encima. Las masas de aire se clasifican por dos criterios de su región de origen: su **latitud** (determina su temperatura) y si se forman sobre el **continente** o sobre el **mar** (determina su humedad).
 
 | Sigla | Tipo | Temperatura | Humedad y características para el vuelo a vela |
 | --- | --- | --- | --- |
-| **Tc / Tm** | Tropical (continental o marítimo) | Cálido | Tm: húmedo, bruma frecuente, térmicas débiles. Tc: caluroso y seco, inestabilidad fuerte en verano, excelentes térmicas en la Meseta. |
-| **Pc / Pm** | Polar (continental o marítimo) | Frío | Pm: húmedo, post-frontal clásico, bases de cúmulos bajas pero térmicas presentes. Pc: muy frío y seco, visibilidad excepcional. |
+| **Tc / Tm** | Tropical (continental: norte de África; marítimo: Atlántico subtropical, hacia las Azores) | Cálido | Tm: húmedo, bruma frecuente, térmicas débiles. Tc: caluroso, seco y con calima; puede dar térmicas fuertes en la Meseta, pero las advecciones africanas de verano suelen traer estabilidad. |
+| **Pc / Pm** | Polar (continental: Europa oriental; marítimo: Atlántico norte) | Frío | Pm: húmedo, post-frontal clásico, bases de cúmulos bajas pero térmicas presentes. Pc: muy frío y seco, visibilidad excepcional. |
 | **A** | Ártico / Antártico | Muy frío | Irrupciones invernales desde el norte. Termómetros negativos en pista, engelamiento severo, vientos fuertes. No volar. |
-: Clasificación de masas de aire por origen y trayectoria
+: Clasificación de masas de aire por su región de origen
 
 Una situación frecuente en la Península Ibérica en primavera es la llegada de **masa polar marítima (Pm)** tras el paso de un frente frío. Al cruzar el Atlántico y calentarse por contacto con el suelo peninsular caliente, esta masa genera la combinación perfecta para el vuelo de cross-country: cielo azul, buena visibilidad, bases altas y térmicas fuertes (como orientación, bases de 5.000-7.000 ft y térmicas de 3-4 m/s).
 

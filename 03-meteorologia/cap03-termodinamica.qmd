@@ -1,6 +1,6 @@
 # Termodinámica
 
-> La termodinámica es el motor invisible del vuelo sin motor: sin estabilidad inestable no hay
+> La termodinámica es el motor invisible del vuelo sin motor: sin aire inestable no hay
 > térmicas, y sin térmicas no hay vuelo de distancia. En este capítulo aprenderás a interpretar
 > la estabilidad atmosférica, a calcular la base de los cúmulos con una operación mental sencilla,
 > a reconocer una inversión térmica y a leer los índices de sondeo que predicen si el día será
@@ -55,7 +55,7 @@ La convección es el proceso por el cual el calor se transporta verticalmente en
 
 El sol no calienta el aire directamente, sino que calienta la superficie de la tierra. Este calentamiento es muy desigual: un campo arado oscuro, una zona rocosa o un pueblo de tejados secos se calentará mucho más rápido que un bosque denso o un lago. El suelo caliente calienta por contacto la capa de aire inmediatamente superior.
 
-Ese aire caliente, ahora menos denso y más ligero, tiende a subir por flotabilidad, formando una corriente convectiva o "térmica".Inicialmente, la burbuja se agarra al terreno por la fricción, aumentando su empuje ascensional hasta que finalmente se desprende y comienza a subir.
+Ese aire caliente, ahora menos denso y más ligero, tiende a subir por flotabilidad, formando una corriente convectiva o "térmica". Inicialmente, la burbuja se agarra al terreno por la fricción, aumentando su empuje ascensional hasta que finalmente se desprende y comienza a subir.
 
 ::: {.callout-note title="Airmanship"}
 Para encontrar las mejores térmicas, busca "fuentes" que se calienten rápido (suelos secos, campos cosechados, zonas rocosas al sol) y "disparadores" o puntos de ruptura que ayuden a la burbuja a desprenderse del suelo, como una cresta de una colina orientada al viento, o una línea de árboles al borde del campo soleado.
@@ -65,11 +65,11 @@ Los meteorólogos distinguen dos modelos conceptuales de cómo se organiza inter
 
 * **Modelo burbuja** (**bubble model**): El calor se acumula sobre la fuente hasta que la burbuja se desprende, como si tirases de un globo. El ascenso es intermitente: el núcleo central sube más rápido que los bordes, que presentan subsidencia. El planeador debe buscar y mantenerse en el núcleo para aprovechar el ascenso máximo (@fig-03-cap03-modelo-burbuja).
 
-![El modelo de burbuja o anillo de vórtice de una térmica.](imagenes/03-cap03-modelo-burbuja.jpg){#fig-03-cap03-modelo-burbuja}
+![El modelo de burbuja o anillo de vórtice de una térmica. *(CORREGIR: sobran los rótulos «Ascensor» e «Inversión térmica (nivel de convergencia)», que no están en el original del Glider Flying Handbook.)*](imagenes/03-cap03-modelo-burbuja.jpg){#fig-03-cap03-modelo-burbuja .corregir}
 
 * **Modelo columna o pluma** (**column/plume model**): En fuentes intensas y persistentes (una cantera, un pueblo grande, una ladera orientada al sol toda la mañana), el flujo convectivo es continuo, como el humo de una chimenea. El ascenso es más regular y predecible, ideal para el vuelo de distancia (@fig-03-cap03-modelo-columna).
 
-![El modelo de columna o pluma de una térmica.](imagenes/03-cap03-modelo-columna.jpg){#fig-03-cap03-modelo-columna}
+![El modelo de columna o pluma de una térmica. *(CORREGIR: sobran la curva, la línea con punto y la raya discontinua que no explica el texto ni están en el original del Glider Flying Handbook.)*](imagenes/03-cap03-modelo-columna.jpg){#fig-03-cap03-modelo-columna .corregir}
 
 En los días reales coexisten ambas estructuras. Las primeras horas de la mañana tienden a producir burbujas aisladas; a medida que el calentamiento se consolida, pueden aparecer columnas duraderas. Reconocer cuál predomina ese día mejora el centrado de térmicas y reduce el tiempo perdido fuera de círculo (@fig-03-cap03-ciclo-vida-termica).
 
@@ -179,7 +179,8 @@ TT de 52 o más o K > 25, combinado con CAPE > 2.500 J/kg, señala alto riesgo d
 **Resumen del capítulo: termodinámica**
 
 * **Estabilidad Atmosférica**: Concepto clave. El aire es "estable" si una burbuja empujada hacia arriba tiende a volver a bajar, e "inestable" si sigue subiendo sola. El vuelo a vela vive de la inestabilidad.
-* **Gradientes Adiabáticos**: El aire seco se enfría 3°C por cada 1.000 ft al subir (DALR). El aire saturado (nube) se enfría solo la mitad, 1,5°C (SALR). Memoriza esto para predecir la base de las nubes y su desarrollo.
+* **Gradientes Adiabáticos**: El aire seco se enfría 3°C por cada 1.000 ft al subir (DALR). El aire saturado (nube) se enfría más despacio: unos 1,5°C cerca de la superficie en aire templado, más con el frío y la altura (SALR). Memoriza esto para predecir la base de las nubes y su desarrollo.
+* **Base de los cúmulos**: (T − T~rocío~) × 400 = altura de la base sobre el aeródromo, en pies. Sale de que la burbuja se enfría 3 °C por cada 1.000 ft y su punto de rocío sólo 0,5 °C: se acercan 2,5 °C por cada 1.000 ft.
 * **Inversiones**: Son capas donde la temperatura **sube** con la altura en lugar de bajar. Actúan como una tapadera invisible que frena las térmicas y atrapa la contaminación/bruma.
 * **Convección**: El sol calienta el suelo, el suelo calienta el aire, y este sube como una burbuja (modelo burbuja) o como una pluma continua (modelo columna). Cuanto más frío esté el aire arriba en comparación con el suelo, más fuerte será la térmica.
 :::

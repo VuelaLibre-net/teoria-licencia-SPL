@@ -150,7 +150,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Tramo del circuito de tráfico perpendicular a la prolongación del eje de la pista que conecta el tramo de viento en cola con el tramo final.
 
 **Bataneo (buffet)**
-: Vibración de la estructura provocada por el aire desprendido del ala que golpea el fuselaje y la cola al acercarse al ángulo de ataque crítico. Es el aviso previo a la pérdida más perceptible, junto al morro alto y los mandos blandos. Importa en meteorología porque el hielo estructural lo suprime: con el perfil contaminado, el planeador puede entrar en pérdida muy por encima de su velocidad habitual y sin ningún aviso.
+: Vibración de la estructura provocada por el aire desprendido del ala que golpea el fuselaje y la cola al acercarse al ángulo de ataque crítico. Es el aviso previo a la pérdida más perceptible, junto al morro alto y los mandos blandos. Importa en meteorología porque el hielo estructural puede reducirlo o anularlo: con el perfil contaminado, el planeador puede entrar en pérdida muy por encima de su velocidad habitual y sin ningún aviso.
 
 **Bernoulli, teorema de**
 : Principio de la física de fluidos que establece que, en un fluido en movimiento, un aumento de la velocidad del flujo se corresponde con una disminución de la presión estática. En aerodinámica explica parte de la sustentación: el aire que acelera sobre el extradós genera una zona de baja presión que aspira el ala hacia arriba. Se complementa con el efecto acción-reacción de Newton (deflexión del flujo hacia abajo en el borde de salida).
@@ -205,6 +205,9 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 
 **CB-SIFT-CBE**
 : Lista de comprobación de cabina que se ejecuta y se verbaliza inmediatamente antes del enganche del cable: **C**ontrols (mandos libres y con recorrido correcto), **B**allast (masa total y centro de gravedad dentro de límites), **S**traps (cinturones y arneses trabados), **I**nstruments (altímetro calado, variómetro, radio y FLARM), **F**laps (posición de despegue), **T**rim (compensador de despegue), **C**anopy (cúpula cerrada y con cerrojos blocados), **B**rakes (aerofrenos cerrados y blocados) y **E**ventualities (viento del momento y briefing de fallo de lanzamiento). Su equivalente tradicional en los clubes españoles es CRISE.
+
+**CCL (Nivel de Condensación Convectiva / Convective Condensation Level)**
+: Nivel al que se forma la base de los cúmulos cuando el suelo se calienta lo bastante para que la convección parta de la superficie. En el sondeo, donde la línea de razón de mezcla que sale del punto de rocío en superficie corta la curva de estado. La temperatura en superficie que hace falta para alcanzarlo es la temperatura convectiva.
 
 **CDR (Ruta condicional / Conditional Route)**
 : Ruta ATS disponible únicamente cuando se cumplen las condiciones publicadas.
@@ -479,6 +482,9 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 **Frente cálido**
 : Superficie de separación entre una masa de aire cálido que avanza sobre una masa fría preexistente. El ascenso es gradual (pendiente suave), lo que produce precipitaciones débiles y continuas, techos nubosos bajos y estabilidad: condiciones operativas pobres para el vuelo a vela. Sus precursores son los cirros descendentes (Ci → Cs → As → Ns).
 
+**Frente estacionario (stationary front)**
+: Frontera casi inmóvil entre dos masas de aire distintas, ninguna de las cuales tiene fuerza para desplazar a la otra. Puede persistir días, con lluvias y nieblas a lo largo de su eje. En los mapas se dibuja con triángulos azules y semicírculos rojos alternados en lados opuestos de la línea.
+
 **Frente frío**
 : Superficie de separación donde una masa de aire frío y denso avanza en cuña bajo el aire cálido, forzándolo a ascender bruscamente. El paso del frente trae precipitaciones convectivas, chubascos y vientos racheados. La fase post-frontal suele ser la mejor del año para el vuelo a vela: atmósfera limpia, inestable y con buenas térmicas bajo cúmulos bien definidos.
 
@@ -593,7 +599,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 **Latitud**
 : Coordenada que mide la distancia angular al norte o al sur del Ecuador (latitud 0º), formada por los paralelos. Un minuto de latitud equivale a una milla náutica.
 
-**LCL (Nivel de Condensación por Elevación / Lifted Condensation Level)**
+**LCL (Nivel de Condensación por Ascenso / Lifted Condensation Level)**
 : Altitud a la que una parcela de aire, al ser elevada adiabáticamente, alcanza su punto de saturación y comienza a condensar. En la práctica, es la altura de la base de los cúmulos. En el sondeo Skew-T se construye cruzando dos líneas: la adiabática seca trazada desde la temperatura en superficie y la línea de relación de mezcla saturante trazada desde el punto de rocío en superficie. No debe confundirse con el punto en que las curvas de temperatura y de punto de rocío se juntan, que señala una capa ya saturada (niebla, estratos o nube existente). Estimación rápida: (T − Td) × 400 = altura en pies.
 
 **LFC (Nivel de Convección Libre / Level of Free Convection)**
@@ -674,6 +680,9 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 **Niebla de radiación**
 : Niebla que se forma durante las noches despejadas de otoño e invierno cuando el suelo pierde calor por radiación hacia el espacio, enfría el aire en contacto hasta el punto de rocío y produce condensación. Puede ser muy densa y persistir hasta mediados de la mañana. Especialmente frecuente en anticiclones invernales con vientos flojos.
 
+**Nivel de equilibrio (EL / Equilibrium Level)**
+: Altitud a la que una parcela que asciende libremente vuelve a tener la temperatura del entorno y deja de ser más ligera que él. Marca el techo de la convección (en una tormenta, aproximadamente la altura del yunque) y es el límite superior del área de la CAPE.
+
 **NORDO (Sin radio / No Radio)**
 : Situación en que una aeronave ha perdido todas las comunicaciones bidireccionales por radio. El procedimiento: seleccionar 7600 en el transpondedor, mantenerse en VMC, aterrizar en el aeródromo adecuado más cercano y notificar por teléfono al aterrizar.
 
@@ -698,7 +707,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 **Ocaso**
 : Atardecer: instante en que el borde superior del disco solar desaparece por el horizonte oeste. No marca todavía el inicio de la noche aeronáutica (ver crepúsculo civil).
 
-**Onda de montaña (wave soaring)**
+**Onda de montaña (mountain wave)**
 : Oscilación ondulatoria del flujo de aire que se genera a sotavento de una cordillera cuando el viento es perpendicular a la cresta, supera un umbral de velocidad y existe una capa estable a la altura de la cresta. Permite el ascenso laminar hasta grandes altitudes. Los altocúmulos lenticulares son su señal visual. Los rotores en la base son el principal peligro.
 
 **Orto**
@@ -758,6 +767,9 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 **Pulsioxímetro**
 : Dispositivo de dedo recomendado en vuelos a gran altura que muestra la saturación de oxígeno en sangre (SpO₂). Ayuda a detectar la hipoxia antes de que aparezcan los primeros síntomas, pero no sustituye a la atención a los síntomas: el monóxido de carbono, el frío y el movimiento falsean su lectura.
 
+**Punto de rocío (dew point)**
+: Temperatura a la que hay que enfriar el aire, sin cambiar su presión ni su contenido de vapor, para que se sature. Cuanto más se acerca a la temperatura, más húmedo está el aire. En el METAR va después de la temperatura (en `16/09`, 9 °C).
+
 **QDM**
 : Código Q con el rumbo magnético que debe seguir la aeronave para llegar a la estación de radiogoniometría (VDF). Si estás desorientado, pide un QDM al FIS y te darán el rumbo para llegar a la estación.
 
@@ -792,7 +804,7 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Espacio aéreo de dimensiones definidas en el que es obligatorio llevar y utilizar equipo de radio conforme a los requisitos publicados.
 
 **Rotor**
-: Vórtice turbulento de pequeña escala que se forma a sotavento del pie de una ladera o cordillera bajo la primera cresta de la onda de montaña. Genera turbulencia severa e impredecible a baja altura. Las nubes de rotor (**rotor clouds**) son estratos irregulares bajo la onda que señalan esta zona peligrosa.
+: Vórtice turbulento de pequeña escala que se forma a sotavento del pie de una ladera o cordillera bajo la primera cresta de la onda de montaña. Genera turbulencia severa e impredecible a baja altura. Las nubes de rotor (**rotor clouds**) son nubes cumuliformes desflecadas (fractocúmulos) bajo la onda que señalan esta zona peligrosa.
 
 **RSC (Subcentro de Salvamento / Rescue Sub-Centre)**
 : Dependencia subordinada a un RCC que coordina operaciones de búsqueda y salvamento en una parte de su región. El AIP España no publica ninguno: sólo los tres ARCC de Madrid, Palma y Canarias.
@@ -867,10 +879,13 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 : Tarjeta instalada a la vista del piloto que indica la corrección a aplicar a la brújula en cada rumbo para compensar el desvío propio de la aeronave.
 
 **TAF (Terminal Aerodrome Forecast)**
-: Pronóstico meteorológico codificado que describe las condiciones meteorológicas esperadas en un aeródromo específico durante un periodo de tiempo determinado (típicamente 9, 24 o 30 horas).
+: Pronóstico meteorológico codificado que describe las condiciones meteorológicas esperadas en un aeródromo específico durante un periodo de tiempo determinado (9, 24 o 30 horas; en España, 24 o 30, renovados cada 6 horas).
 
 **TAS (Velocidad verdadera / True Air Speed)**
 : Velocidad real respecto a la masa de aire. Es la IAS corregida por densidad (crece aproximadamente un 2 % por cada 300 m de altitud, unos 6,5-7 % por cada 1.000 m) y el vector que marca hacia dónde apunta el morro.
+
+**TCU (Towering Cumulus)**
+: Cúmulo de gran desarrollo vertical (cúmulo congestus) que todavía no es un cumulonimbo. Se notifica en el METAR y el TAF, y su presencia, a cualquier nivel, impide el CAVOK.
 
 **Tendencia espiral**
 : Característica de estabilidad dinámica lateral presente en la mayoría de los planeadores: si se les abandona con un pequeño ángulo de inclinación, el alabeo crece lentamente hasta desarrollar un picado en espiral. El planeador es estáticamente estable en alabeo pero dinámicamente divergente en espiral cuando se deja sin supervisión. Es la causa fundamental de los accidentes por pérdida de control en condiciones de visibilidad reducida.
@@ -896,6 +911,9 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 **Torno (Lanzamiento por torno / Winch)**
 : Método de lanzamiento en el que un planeador es acelerado a alta velocidad sobre la pista mediante el enrollado rápido de un cable por un motor potente estacionario en el extremo de la pista, elevándolo hasta la altura de suelta en un ascenso muy inclinado.
 
+**Total Totals (TT)**
+: Índice de estabilidad que suma la diferencia de temperatura entre 850 y 500 hPa y el punto de rocío a 850 hPa: TT = (T850 + Td850) − 2·T500. Sus umbrales de tormenta cambian de una región a otra (ver capítulo 3).
+
 **TR (Habilitación de tipo / Type Rating)**
 : Anotación en la licencia que acredita la capacitación para operar un tipo de aeronave cuando la normativa exige esa habilitación.
 
@@ -910,6 +928,9 @@ Este glosario unificado contiene las definiciones y acrónimos más relevantes d
 
 **Tren retráctil**
 : Tren de aterrizaje que se recoge dentro del fuselaje para eliminar resistencia aerodinámica, habitualmente mediante una palanca manual. Su gestión disciplinada (extensión en viento en cola, siempre) forma parte de las listas de chequeo.
+
+**TREND (pronóstico de tendencia)**
+: Pronóstico para las dos horas siguientes que se añade al final del METAR: `BECMG` (cambio permanente), `TEMPO` (cambio temporal) o `NOSIG` (sin cambios significativos).
 
 **Triangulación (Líneas de posición)**
 : Técnica de fijar la posición cruzando al menos dos líneas de posición (por ejemplo, una carretera y la alineación con un pueblo).

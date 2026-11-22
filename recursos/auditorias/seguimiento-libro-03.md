@@ -98,38 +98,38 @@ toca: es el registro de lo que se encontró. Aquí se anota qué se ha hecho con
 
 | ID | Fase | Estado | Commit | Nota |
 | --- | --- | --- | --- | --- |
-| PED-04 | 5 | pendiente | | |
-| PED-05 | 5 | pendiente | | |
-| PED-06 | 5 | parcial | | fase 3: el 0,5 °C/1.000 ft en el cuerpo; el post-it, en la fase 5 |
-| PED-07 | 5 | pendiente | | |
+| PED-04 | 5 | aplicado | | fase 5: cap01, post-it, Anki y lección 01 |
+| PED-05 | 5 | aplicado | | fase 5: post-it, Anki `dalr-y-salr`, lección 03 (P3, P4) y examen-50 |
+| PED-06 | 5 | parcial | | fase 5: viñeta nueva en el post-it del cap03; la pregunta nueva del banco queda pendiente, porque la lección 03 está en su cuota de 10 |
+| PED-07 | 5 | figura | | fase 5: figuras de la burbuja y de la columna marcadas con `.corregir` |
 | PED-08 | 3 | aplicado | | fase 3: con TEC-16 |
-| TEC-29 | 5 | pendiente | | requiere experto |
-| TEC-30 | 5 | pendiente | | |
-| TEC-31 | 5 | pendiente | | |
-| TEC-32 | 5 | pendiente | | |
-| COH-08 | 5 | pendiente | | |
-| TEC-33 | 5 | pendiente | | |
-| COH-09 | 5 | pendiente | | |
-| COH-10 | 5 | pendiente | | |
-| TEC-34 | 5 | pendiente | | |
-| TEC-35 | 5 | pendiente | | |
-| TEC-36 | 5 | pendiente | | |
-| TEC-37 | 5 | pendiente | | |
-| PED-09 | 5 | pendiente | | |
-| TEC-38 | 5 | pendiente | | requiere experto |
-| TEC-39 | 5 | pendiente | | |
-| COH-11 | 5 | pendiente | | no verificable |
-| PED-10 | 5 | pendiente | | |
+| TEC-29 | 5 | parcial | | fase 5: transición de la capa límite; validación, pregunta al FI(S) o aerodinamicista |
+| TEC-30 | 5 | figura | | fase 5: causa de la desaparición de las térmicas y oclusión fría y cálida; la figura, marcada en la fase 3 |
+| TEC-31 | 5 | parcial | | fase 5: región de origen, orígenes europeos y calima; la masa ártica, pregunta al meteorólogo |
+| TEC-32 | 5 | parcial | | fase 5: origen del anticiclón invernal y «térmico»; validación, pregunta al meteorólogo |
+| COH-08 | 5 | aplicado | | fase 5: cap06, cap07 (collado, tabla) y cap08 (laderas al este, otoño) |
+| TEC-33 | 5 | aplicado | | fase 5 |
+| COH-09 | 5 | parcial | | fase 5: pies del Cb, la cizalladura, el flujo sobre crestas y los índices; «Micro ráfaga» y la falta de rótulos van dentro de las imágenes |
+| COH-10 | 5 | parcial | | fase 5: cap09 y glosario (fractocúmulos); el género, pregunta al FI(S) |
+| TEC-34 | 5 | aplicado | | fase 5: cap10, post-it, glosario (también el del 04), Anki y banco (lección 10 P2, examen-50 P50) |
+| TEC-35 | 5 | aplicado | | fase 5 |
+| TEC-36 | 5 | aplicado | | fase 5 |
+| TEC-37 | 5 | parcial | | fase 5: «base prevista, próxima al CCL»; validación, pregunta al meteorólogo |
+| PED-09 | 5 | aplicado | | fase 5 |
+| TEC-38 | 5 | parcial | | fase 5: criterio del GFH a la altura de las cimas; validación, pregunta al FI(S) de onda |
+| TEC-39 | 5 | parcial | | fase 5: AMA como fuente oficial con sus productos; Wyoming sin comprobar a mano |
+| COH-11 | 5 | experto | | sin cambios hasta la respuesta del meteorólogo |
+| PED-10 | 5 | parcial | | fase 5: siete entradas nuevas y LCL con un solo nombre; faltan hielo claro, opaco y mixto y las octas |
 | PED-11 | 4 | aplicado | | fase 4: glosarios del 03 y del 05 |
-| TEC-40 | 5 | pendiente | | |
-| TEC-41 | 5 | pendiente | | requiere experto |
+| TEC-40 | 5 | aplicado | | fase 5 |
+| TEC-41 | 5 | parcial | | fase 5: «puede reducirlo o anularlo»; validación, pregunta al FI(S) |
 | TEC-42 | 3 | aplicado | | fase 3: con TEC-12 |
-| PED-12 | 4 | parcial | | fase 4: el Anexo 3 en la lista de las nueve bibliografías; las ediciones, en la fase 5 |
+| PED-12 | 4 | aplicado | | fase 4: Anexo 3; fase 5: ediciones del GFH, las EAR de planeadores y Reichmann en las nueve bibliografías |
 | PED-13 | 4 | aplicado | | fase 4: reconocimientos de los nueve libros |
-| PED-14 | 5 | pendiente | | |
-| PED-15 | 5 | pendiente | | |
+| PED-14 | 5 | aplicado | | fase 5 |
+| PED-15 | 5 | aplicado | | fase 5: sólo el apéndice del 03 |
 | COH-12 | 4 | aplicado | | fase 4: libro 07, cap03 |
-| PED-16 | 5 | pendiente | | |
+| PED-16 | 5 | parcial | | fase 5: erratas del texto y signo de grado en Anki; las comas inglesas y «FÖHN» están dentro de figuras |
 
 ## Fuera de alcance: libro 04
 
@@ -151,6 +151,7 @@ y no tiene remoto.
 | 2 | `96c1a4d` | lección 05: retroalimentación de la opción C de la lluvia engelante (`c05-q07`) |
 | 3 | `7f4b848` | lecciones 02, 06, 08, 09 y 10 y examen-50: citas de los post-it corregidos (Foehn, brisa, frente cálido, Baja Térmica, Cb), margen de los Cb (P32) y briefing meteorológico con SAO.OP.120(b), SAO.OP.135 y SERA.2010(b) |
 | 4 | `d112435` | libro 04: VOLMET en la lección 04 (P1 y P2) y el examen-50 |
+| 5 | `8e9e287` | lecciones 01, 03, 04 y 10 y examen-50: densidad, SALR, TAF en España (lección 10 P2 y examen-50 P50) y «algodonosos» |
 
 `make check` y `make lecciones-check` fallan desde antes de esta corrección, en todos los libros
 menos el 01, porque las lecciones anotan versiones anteriores a la v0.9.9 (las del 03, la
@@ -180,6 +181,8 @@ clase y la nota, y se anota aquí.
 | cap06 | `03-cap06-frente-calido-nubes` | TEC-19 | fase 3 | |
 | cap09 | `03-cap09-ciclo-tormenta` | COH-04 | fase 3 | |
 | cap09 | `03-cap09-estela-turbulenta` | COH-05 | fase 3 | |
+| cap03 | `03-cap03-modelo-burbuja` | PED-07 | fase 5 | |
+| cap03 | `03-cap03-modelo-columna` | PED-07 | fase 5 | |
 
 ## Preguntas abiertas
 

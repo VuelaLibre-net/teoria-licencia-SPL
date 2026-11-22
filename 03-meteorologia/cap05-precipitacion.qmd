@@ -19,7 +19,7 @@ Según cómo llegue al suelo, la precipitación es lluvia, llovizna, nieve, gran
 
 ## La lluvia y la degradación aerodinámica
 
-Los planeadores están diseñados con perfiles laminares calibrados para una alta eficiencia. El impacto de la lluvia altera severamente el perfil aerodinámico al provocar que el flujo de aire se desprenda prematuramente y se vuelva turbulento a lo largo de las alas mojadas.
+Los planeadores están diseñados con perfiles laminares calibrados para una alta eficiencia. El impacto de la lluvia altera severamente el perfil aerodinámico al adelantar, sobre las alas mojadas, el paso de la capa límite de laminar a turbulenta, lo que aumenta la resistencia; en algunos perfiles provoca además desprendimiento.
 
 En vuelo con lluvia, las consecuencias son directas:
 
@@ -35,7 +35,7 @@ Con alas mojadas, añade un margen sobre tu velocidad de aproximación estándar
 
 El granizo nace dentro del Cumulonimbus (Cb). Las potentes corrientes ascendentes lanzan las gotas de agua hasta por encima del nivel de congelación, donde se congelan. Luego caen, son atrapadas de nuevo por la corriente y suben otra vez, ganando una capa de hielo en cada ciclo —como una cebolla— hasta que pesan demasiado para que la corriente las sostenga. El resultado son piedras que pueden superar los 2–3 cm de diámetro.
 
-Para las aeronaves compuestas con perfiles ligeros de fibra, la aceleración cinética del granizo (sumada a la propia velocidad de la aeronave) presenta gran riesgo estructural. Resulta habitual constatar roturas y perforaciones en la cúpula (**canopy**), daños en los recubrimientos protectores superficiales de **gelcoat**, o posibles delaminaciones de la matriz celular sintética en impactos directos severos.
+Para las aeronaves compuestas con perfiles ligeros de fibra, la energía del impacto del granizo (sumada a la propia velocidad de la aeronave) presenta gran riesgo estructural. Resulta habitual constatar roturas y perforaciones en la cúpula (**canopy**), daños en los recubrimientos protectores superficiales de **gelcoat**, o posibles delaminaciones del material compuesto en impactos directos severos.
 
 ::: {.callout-note title="Airmanship"}
 No asumas que el granizo cae solo bajo la vertical del Cb: el viento en altura puede expulsarlo decenas de kilómetros bajo el yunque extendido. Mantén siempre la distancia de seguridad del yunque, aunque el cielo por debajo parezca completamente despejado.

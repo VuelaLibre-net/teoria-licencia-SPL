@@ -23,8 +23,9 @@ tarjetas:
   - id: dalr-y-salr
     tipo: cloze
     texto: |
-      El aire **seco** se enfría {{c1::3 ºC}} por cada 1.000 ft al subir
-      (**DALR**); el aire **saturado**, sólo {{c2::1,5 ºC}} (**SALR**).
+      El aire **seco** se enfría {{c1::3 °C}} por cada 1.000 ft al subir
+      (**DALR**); el aire **saturado**, unos {{c2::1,5 °C}} cerca de la superficie
+      en aire templado (**SALR**, más con el frío y la altura).
 
   - id: altura-de-la-base-de-los-cumulos
     tipo: basica
@@ -33,7 +34,7 @@ tarjetas:
       **(T ambiente − T rocío) × 400 = altura de la base sobre el
       aeródromo, en pies.**
 
-      El punto de rocío y la temperatura convergen a razón de unos 2,5 ºC por
+      El punto de rocío y la temperatura convergen a razón de unos 2,5 °C por
       cada 1.000 ft de ascenso. Para la altitud, suma la elevación del campo.
     etiquetas: [Regla de oro]
 

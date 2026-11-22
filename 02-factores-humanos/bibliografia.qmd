@@ -8,7 +8,7 @@ Apuntes de teoría de **Iñaqui Ulibarri García de la Cueva** para la Organizac
 
 **Normativa y reglamentación**
 
-* **Easy Access Rules for Sailplanes**. Agencia de la Unión Europea para la Seguridad Aérea (EASA). Compendio consolidado del Reglamento de Ejecución (UE) 2018/1976 —que contiene la **Part-SFCL** (licencias) y la **Part-SAO** (operaciones)— junto con sus AMC y GM.
+* **Easy Access Rules for Sailplanes**. Agencia de la Unión Europea para la Seguridad Aérea (EASA). Compendio consolidado del Reglamento de Ejecución (UE) 2018/1976 —que contiene la **Part-SFCL** (licencias) y la **Part-SAO** (operaciones)— junto con sus AMC y GM. Revisión de septiembre de 2020 (PDF de noviembre de 2022).
   [https://www.easa.europa.eu/sites/default/files/dfu/Sailplane%20Rule%20Book.pdf](https://www.easa.europa.eu/sites/default/files/dfu/Sailplane%20Rule%20Book.pdf)
 * **Reglamento de Ejecución (UE) n.º 923/2012 — SERA** (*Standardised European Rules of the Air*). Reglas del aire comunes para la Unión Europea (versión consolidada). Se aplica directamente en España, sin transposición.
   [https://eur-lex.europa.eu/legal-content/ES/TXT/PDF/?uri=CELEX:02012R0923-20250501](https://eur-lex.europa.eu/legal-content/ES/TXT/PDF/?uri=CELEX:02012R0923-20250501)
@@ -62,11 +62,11 @@ La OACI desarrolla las normas y métodos recomendados (SARPS) mediante 19 anexos
 
 **Manuales técnicos y métodos de formación**
 
-* **Glider Flying Handbook (FAA-H-8083-13B)**. Federal Aviation Administration (FAA), U.S. Department of Transportation. Obra en dominio público; fuente de buena parte de las ilustraciones técnicas de la colección.
+* **Glider Flying Handbook (FAA-H-8083-13B)**, 2024. Federal Aviation Administration (FAA), U.S. Department of Transportation. Obra en dominio público; fuente de buena parte de las ilustraciones técnicas de la colección.
   [https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/glider_handbook](https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/glider_handbook)
 * **Methodik der Segelflugausbildung** (*Segelflugrechte*, Rev. 2). Deutscher Aero Club (DAeC), 2022. Metodología alemana de instrucción de vuelo a vela.
   [https://www.daec.de/media/files/2022/Sportarten/Segelflug/Methodik_der_Segelflugausbildung_Segelflugrechte_Rev.2.pdf](https://www.daec.de/media/files/2022/Sportarten/Segelflug/Methodik_der_Segelflugausbildung_Segelflugrechte_Rev.2.pdf)
-* **Vuelo sin motor: técnicas avanzadas**. Helmut Reichmann. Edición española de la obra de referencia internacional sobre la técnica del vuelo de distancia (orig. *Streckensegelflug*; ed. inglesa, *Cross-Country Soaring*). ISBN 978-84-283-1567-8.
+* **Vuelo sin motor: técnicas avanzadas**. Helmut Reichmann. Edición española de la obra de referencia internacional sobre la técnica del vuelo de distancia (orig. *Streckensegelflug*; ed. inglesa, *Cross-Country Soaring*). Paraninfo, 1992. ISBN 978-84-283-1567-8.
 
 **Factores humanos y medicina aeronáutica**
 

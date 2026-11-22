@@ -21,7 +21,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes de la meteo
 : Modelo idealizado de referencia que define los valores estándar de presión (1013,25 hPa), temperatura (15 °C) y densidad del aire a nivel del mar, con un gradiente térmico estándar de 2 °C/1.000 ft. Es la base de calibración de todos los instrumentos aeronáuticos.
 
 **Bataneo (buffet)**
-: Vibración de la estructura provocada por el aire desprendido del ala que golpea el fuselaje y la cola al acercarse al ángulo de ataque crítico. Es el aviso previo a la pérdida más perceptible, junto al morro alto y los mandos blandos. Importa en meteorología porque el hielo estructural lo suprime: con el perfil contaminado, el planeador puede entrar en pérdida muy por encima de su velocidad habitual y sin ningún aviso.
+: Vibración de la estructura provocada por el aire desprendido del ala que golpea el fuselaje y la cola al acercarse al ángulo de ataque crítico. Es el aviso previo a la pérdida más perceptible, junto al morro alto y los mandos blandos. Importa en meteorología porque el hielo estructural puede reducirlo o anularlo: con el perfil contaminado, el planeador puede entrar en pérdida muy por encima de su velocidad habitual y sin ningún aviso.
 
 **Borrasca (Depresión / L)**
 : Sistema de baja presión atmosférica caracterizado por convergencia de aire en superficie que fuerza el ascenso, el enfriamiento y la formación de nubes, frentes y precipitación. Los vientos en superficie circulan en sentido antihorario en el hemisferio norte. La zona post-frontal es a menudo la más favorable para el vuelo a vela.
@@ -40,6 +40,9 @@ Este glosario contiene las definiciones y acrónimos más relevantes de la meteo
 
 **CAVOK (Visibilidad, nubes y tiempo presente mejores que los valores o condiciones prescritos)**
 : Término de los informes meteorológicos que sustituye determinados datos de visibilidad, tiempo presente y nubes cuando se cumplen simultáneamente las condiciones establecidas: visibilidad de 10 km o más (sin que se notifique la visibilidad mínima); ninguna nube por debajo de 5.000 ft o de la altitud mínima de sector más alta, la que sea mayor, ni cumulonimbos ni torrecúmulos a ninguna altura; y ninguna condición meteorológica significativa para la aviación (Reglamento de Ejecución (UE) 2017/373). El rótulo es el de OACI; en el club se oye el retroacrónimo *Ceiling And Visibility OK*, que no es la denominación oficial.
+
+**CCL (Nivel de Condensación Convectiva / Convective Condensation Level)**
+: Nivel al que se forma la base de los cúmulos cuando el suelo se calienta lo bastante para que la convección parta de la superficie. En el sondeo, donde la línea de razón de mezcla que sale del punto de rocío en superficie corta la curva de estado. La temperatura en superficie que hace falta para alcanzarlo es la temperatura convectiva.
 
 **Cizalladura (wind shear)**
 : Variación brusca de la velocidad y/o dirección del viento en una distancia corta, tanto en el plano horizontal como vertical. Especialmente peligrosa en la aproximación final, donde puede provocar una pérdida súbita de sustentación por caída de la velocidad indicada.
@@ -83,6 +86,9 @@ Este glosario contiene las definiciones y acrónimos más relevantes de la meteo
 **Frente cálido**
 : Superficie de separación entre una masa de aire cálido que avanza sobre una masa fría preexistente. El ascenso es gradual (pendiente suave), lo que produce precipitaciones débiles y continuas, techos nubosos bajos y estabilidad: condiciones operativas pobres para el vuelo a vela. Sus precursores son los cirros descendentes (Ci → Cs → As → Ns).
 
+**Frente estacionario (stationary front)**
+: Frontera casi inmóvil entre dos masas de aire distintas, ninguna de las cuales tiene fuerza para desplazar a la otra. Puede persistir días, con lluvias y nieblas a lo largo de su eje. En los mapas se dibuja con triángulos azules y semicírculos rojos alternados en lados opuestos de la línea.
+
 **Frente frío**
 : Superficie de separación donde una masa de aire frío y denso avanza en cuña bajo el aire cálido, forzándolo a ascender bruscamente. El paso del frente trae precipitaciones convectivas, chubascos y vientos racheados. La fase post-frontal suele ser la mejor del año para el vuelo a vela: atmósfera limpia, inestable y con buenas térmicas bajo cúmulos bien definidos.
 
@@ -113,7 +119,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes de la meteo
 **K-Index (índice K)**
 : Índice de estabilidad atmosférica que combina el gradiente vertical de temperatura entre 850 hPa y 500 hPa con la humedad en niveles bajos y medios. Es el indicador diario más usado por los volovelistas: K < 5 (día débil), 5–15 (buenas térmicas), 15–20 (excelente), 20–30 (excelente con chubascos), > 30 (alta probabilidad de tormentas). Las bandas altas concuerdan con la escala de George de probabilidad de tormenta de masa de aire (15–20 ≈ 20 %, 31–35 ≈ 60–80 %); las bajas son una adaptación al vuelo a vela, porque por debajo de 15 la escala meteorológica no distingue: para ella son todo días sin tormenta.
 
-**LCL (Nivel de Condensación por Elevación / Lifted Condensation Level)**
+**LCL (Nivel de Condensación por Ascenso / Lifted Condensation Level)**
 : Altitud a la que una parcela de aire, al ser elevada adiabáticamente, alcanza su punto de saturación y comienza a condensar. En la práctica, es la altura de la base de los cúmulos. En el sondeo Skew-T se construye cruzando dos líneas: la adiabática seca trazada desde la temperatura en superficie y la línea de relación de mezcla saturante trazada desde el punto de rocío en superficie. No debe confundirse con el punto en que las curvas de temperatura y de punto de rocío se juntan, que señala una capa ya saturada (niebla, estratos o nube existente). Estimación rápida: (T − Td) × 400 = altura en pies.
 
 **LFC (Nivel de Convección Libre / Level of Free Convection)**
@@ -152,17 +158,23 @@ Este glosario contiene las definiciones y acrónimos más relevantes de la meteo
 **Niebla de radiación**
 : Niebla que se forma durante las noches despejadas de otoño e invierno cuando el suelo pierde calor por radiación hacia el espacio, enfría el aire en contacto hasta el punto de rocío y produce condensación. Puede ser muy densa y persistir hasta mediados de la mañana. Especialmente frecuente en anticiclones invernales con vientos flojos.
 
+**Nivel de equilibrio (EL / Equilibrium Level)**
+: Altitud a la que una parcela que asciende libremente vuelve a tener la temperatura del entorno y deja de ser más ligera que él. Marca el techo de la convección (en una tormenta, aproximadamente la altura del yunque) y es el límite superior del área de la CAPE.
+
 **NSC (No Significant Cloud)**
 : Indicador en METAR/TAF que señala ausencia de nubes por debajo de 5.000 ft (o de la altitud mínima de sector más alta, la que sea mayor) y ausencia de cumulonimbus y de cúmulos congestus. Sólo se usa cuando no procede CAVOK: a diferencia de éste, no implica visibilidad ≥ 10 km. No afirma que el cielo esté despejado, sino que ninguna nube es operativamente significativa; es lo que escribe el observador humano cuando el cielo está despejado. Las estaciones automáticas usan `NCD` (**No Cloud Detected**) cuando sus sensores no detectan nubes. `SKC` (**Sky Clear**) es un código de EE. UU. que no aparece en los METAR europeos.
 
-**Onda de montaña (wave soaring)**
+**Onda de montaña (mountain wave)**
 : Oscilación ondulatoria del flujo de aire que se genera a sotavento de una cordillera cuando el viento es perpendicular a la cresta, supera un umbral de velocidad y existe una capa estable a la altura de la cresta. Permite el ascenso laminar hasta grandes altitudes. Los altocúmulos lenticulares son su señal visual. Los rotores en la base son el principal peligro.
+
+**Punto de rocío (dew point)**
+: Temperatura a la que hay que enfriar el aire, sin cambiar su presión ni su contenido de vapor, para que se sature. Cuanto más se acerca a la temperatura, más húmedo está el aire. En el METAR va después de la temperatura (en `16/09`, 9 °C).
 
 **QNH (Reglaje altimétrico reducido al nivel medio del mar)**
 : Reglaje que permite al altímetro indicar altitud y, en tierra, aproximadamente la elevación del punto considerado.
 
 **Rotor**
-: Vórtice turbulento de pequeña escala que se forma a sotavento del pie de una ladera o cordillera bajo la primera cresta de la onda de montaña. Genera turbulencia severa e impredecible a baja altura. Las nubes de rotor (**rotor clouds**) son estratos irregulares bajo la onda que señalan esta zona peligrosa.
+: Vórtice turbulento de pequeña escala que se forma a sotavento del pie de una ladera o cordillera bajo la primera cresta de la onda de montaña. Genera turbulencia severa e impredecible a baja altura. Las nubes de rotor (**rotor clouds**) son nubes cumuliformes desflecadas (fractocúmulos) bajo la onda que señalan esta zona peligrosa.
 
 **SALR (Gradiente Adiabático Saturado / Saturated Adiabatic Lapse Rate)**
 : Ritmo al que se enfría una parcela de aire saturada (en formación de nube) al ascender adiabáticamente: aproximadamente 1,5 °C por cada 1.000 ft. Es menor que el DALR porque la condensación libera calor latente que "frena" el enfriamiento.
@@ -183,10 +195,19 @@ Este glosario contiene las definiciones y acrónimos más relevantes de la meteo
 : Efecto complementario al Foehn: acumulación de nubes y precipitación intensa en la ladera de barlovento de una cordillera, donde el aire húmedo asciende y condensa. Mientras en barlovento llueve (Stau), en sotavento el cielo puede estar despejado y la temperatura es varios grados más alta (Foehn).
 
 **TAF (Terminal Aerodrome Forecast)**
-: Pronóstico meteorológico codificado que describe las condiciones meteorológicas esperadas en un aeródromo específico durante un periodo de tiempo determinado (típicamente 9, 24 o 30 horas).
+: Pronóstico meteorológico codificado que describe las condiciones meteorológicas esperadas en un aeródromo específico durante un periodo de tiempo determinado (9, 24 o 30 horas; en España, 24 o 30, renovados cada 6 horas).
+
+**TCU (Towering Cumulus)**
+: Cúmulo de gran desarrollo vertical (cúmulo congestus) que todavía no es un cumulonimbo. Se notifica en el METAR y el TAF, y su presencia, a cualquier nivel, impide el CAVOK.
 
 **Térmica**
 : Corriente convectiva ascendente de aire formada por el calentamiento diferencial del suelo. El sol calienta el terreno, el terreno calienta el aire en contacto y este asciende por flotabilidad. Es la fuente principal de sustentación en el vuelo a vela de distancia. Su intensidad depende del diferencial de temperatura suelo–atmósfera libre.
+
+**Total Totals (TT)**
+: Índice de estabilidad que suma la diferencia de temperatura entre 850 y 500 hPa y el punto de rocío a 850 hPa: TT = (T850 + Td850) − 2·T500. Sus umbrales de tormenta cambian de una región a otra (ver capítulo 3).
+
+**TREND (pronóstico de tendencia)**
+: Pronóstico para las dos horas siguientes que se añade al final del METAR: `BECMG` (cambio permanente), `TEMPO` (cambio temporal) o `NOSIG` (sin cambios significativos).
 
 **Tropopausa**
 : Límite superior de la troposfera, donde el gradiente térmico se anula y la temperatura se estabiliza. A media latitud se sitúa entre 8.000 m (invierno) y 12.000 m (verano). El yunque del cumulonimbus se extiende horizontalmente al alcanzar esta capa, que actúa como techo para la convección.

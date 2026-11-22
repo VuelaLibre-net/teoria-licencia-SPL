@@ -22,6 +22,9 @@ rompe la compilación.
   revisado el libro con criterio de instructor, lo que no certifica cada afirmación técnica ni
   normativa. La frase de los autores de los manuales clásicos se separa de la lista de revisores.
   Común a los nueve libros. Hallazgos PED-03 y PED-13 de la auditoría del libro 03.
+* **Bibliografía, ediciones** — el *Glider Flying Handbook* lleva su año (2024), las *Easy Access
+  Rules for Sailplanes* su revisión (septiembre de 2020) y el libro de Reichmann su editorial y año
+  (Paraninfo, 1992). Común a los nueve libros. Hallazgo PED-12 de la auditoría del libro 03.
 * **Bibliografía, anexos de la OACI** — el Anexo 3 (servicio meteorológico para la navegación
   aérea) pasa a la lista de los más relevantes para el piloto de planeador. Común a los nueve
   libros. Hallazgo PED-12 de la auditoría del libro 03.

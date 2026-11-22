@@ -91,9 +91,52 @@ rompe la compilación.
   tormentas y la onda orográfica severa; y el balanceo peligroso de la estela llega al entrar
   alineado con ella, no al cruzarla. Hallazgos TEC-26, COH-06, TEC-27 y TEC-28 de la auditoría del
   libro 03.
+* **cap01, densidad y rendimiento, y Anki** — decía que con menos densidad hay «menos
+  sustentación»; en vuelo estabilizado la sustentación sigue igualando al peso, y lo que cambia es
+  la velocidad verdadera para la misma indicada. Hallazgo PED-04 de la auditoría del libro 03.
+* **cap03, gradiente saturado, y Anki** — el resumen lo daba como «la mitad» del seco, un valor
+  fijo; ronda 1,5 °C/1.000 ft cerca de la superficie en aire templado y aumenta con el frío y la
+  altura. Hallazgo PED-05 de la auditoría del libro 03.
+* **cap05, lluvia y perfil laminar** — la lluvia adelanta el paso de la capa límite a turbulenta;
+  el desprendimiento sólo llega en algunos perfiles. Hallazgo TEC-29 de la auditoría del libro 03.
+* **cap06, oclusión y masas de aire** — las térmicas desaparecen por la nubosidad y la lluvia, no
+  porque el aire cálido «ya no toque el suelo»; se distingue la oclusión fría de la cálida; y las
+  masas se clasifican por su región de origen, con los orígenes europeos y la calima del aire
+  tropical continental. Hallazgos TEC-30 y TEC-31 de la auditoría del libro 03.
+* **cap07, anticiclón invernal y tabla** — el anticiclón de invierno de la Península suele ser el
+  continental europeo, el de las Azores o ambos, no uno «termal» de 3.000–4.000 m; la tabla da la
+  circulación de vaguadas y dorsales. Hallazgos TEC-32 y COH-08 de la auditoría del libro 03.
+* **cap08, solanas y otoño** — las laderas orientadas al este son las primeras en activarse por la
+  mañana, y el otoño no es una estación «de mayor estabilidad». Hallazgo COH-08 de la auditoría
+  del libro 03.
+* **cap09, engelamiento, rotor y pies de figura** — sólo las gotas pequeñas se congelan al
+  instante (hielo opaco); el rotor se delata a veces por nubes de rotor; y los pies del Cb, la
+  cizalladura y el flujo sobre crestas describen lo que muestra cada imagen. Hallazgos TEC-33,
+  COH-09 y COH-10 de la auditoría del libro 03.
+* **cap10 y Glosario, TAF, y Anki** — en España sólo se emiten TAF de 24 y 30 horas, renovados
+  cada 6 horas. La entrada del glosario es común con el libro 04. Hallazgo TEC-34 de la auditoría
+  del libro 03.
+* **cap10, claves del METAR** — `18002KT` no es calma; `VV///` es visibilidad vertical no
+  determinable; `NSW` sólo existe en el TAF y el TREND; la cizalladura se cifra `WS R18`; y en
+  España hay estaciones automáticas supervisadas. Hallazgo TEC-35 de la auditoría del libro 03.
+* **cap10, sondeos** — la diferencia de temperatura con 850 hPa depende de la altitud del campo
+  (5–15 °C), y la construcción con la temperatura máxima da la base prevista de los cúmulos,
+  próxima al CCL. Hallazgos TEC-36 y TEC-37 de la auditoría del libro 03.
+* **Apéndice de fuentes de meteorología** — AMA pasa a un apartado de fuente oficial, con sus
+  productos de baja cota (AIRMET, GAMET, SWL), y el criterio de viento para la onda se refiere a
+  la altura de las cimas (FAA, *Glider Flying Handbook*). Hallazgos TEC-38 y TEC-39 de la
+  auditoría del libro 03.
+* **Glosario, varias entradas** — la onda de montaña es *mountain wave* (*wave soaring* es la
+  técnica); el hielo puede reducir o anular el bataneo; las nubes de rotor son fractocúmulos; y el
+  LCL tiene un solo nombre. Hallazgos TEC-40, TEC-41, COH-10 y PED-10 de la auditoría del libro 03.
 
 ### Añadido
 
+* **Glosario, entradas nuevas** — CCL, frente estacionario, nivel de equilibrio, punto de rocío,
+  TCU, Total Totals y TREND, que los capítulos usaban sin definir. Hallazgo PED-10 de la auditoría
+  del libro 03.
+* **cap03, resumen** — el post-it recoge la fórmula de la base de los cúmulos y el gradiente del
+  punto de rocío (0,5 °C/1.000 ft). Hallazgo PED-06 de la auditoría del libro 03.
 * **cap01, composición y capas de la atmósfera, y altitudes de presión y de densidad, con su entrada
   en el Glosario** — el capítulo usaba «troposfera» y «altitud de densidad» sin definirlas.
   Hallazgo SYL-01 de la auditoría del libro 03.
@@ -108,10 +151,21 @@ rompe la compilación.
 
 ### Cambiado
 
+* **Erratas y léxico** — «algodonosos», «tiempo útil de conciencia», «sin aire inestable»,
+  «energía del impacto», «material compuesto», «frente frío» sin «intercontinental», «nieblas
+  frontales», ángulo de cruce del viento en superficie (10–45°), signo de grado en las tarjetas
+  Anki y frases que daban por hecho qué «cae en el examen». Hallazgos PED-09 y PED-16 de la
+  auditoría del libro 03.
+* **Epígrafe y apéndice del syllabus** — el epígrafe dice de dónde sale la cita de Wilbur Wright,
+  y el apéndice, que la lista es una traducción propia del AMC1 SFCL.130 y cómo es el examen.
+  Hallazgos PED-14 y PED-15 de la auditoría del libro 03.
 * **Reconocimientos (preliminares)** — se explica qué significa la marca ✓: quien la lleva ha
   revisado el libro con criterio de instructor, lo que no certifica cada afirmación técnica ni
   normativa. La frase de los autores de los manuales clásicos se separa de la lista de revisores.
   Común a los nueve libros. Hallazgos PED-03 y PED-13 de la auditoría del libro 03.
+* **Bibliografía, ediciones** — el *Glider Flying Handbook* lleva su año (2024), las *Easy Access
+  Rules for Sailplanes* su revisión (septiembre de 2020) y el libro de Reichmann su editorial y año
+  (Paraninfo, 1992). Común a los nueve libros. Hallazgo PED-12 de la auditoría del libro 03.
 * **Bibliografía, anexos de la OACI** — el Anexo 3 (servicio meteorológico para la navegación
   aérea) pasa a la lista de los más relevantes para el piloto de planeador. Común a los nueve
   libros. Hallazgo PED-12 de la auditoría del libro 03.
