@@ -13,6 +13,13 @@ was translated from (`origen-commit`). Terminology follows `en/terminologia.yml`
 
 ## [In progress]
 
+**What to reread:** nothing of substance; only the bibliography and the acknowledgements.
+
+### Fixed
+
+* **Bibliography** — Annex 3 joins the ICAO annexes most relevant to the glider pilot; the editions of the Glider Flying Handbook (2024), the Easy Access Rules for Sailplanes (September 2020 revision) and Reichmann's Spanish edition (Paraninfo, 1992) are given. Ported from the Spanish edition.
+* **Acknowledgements** — the ✓ legend now says that the review is an instructor's judgement and does not certify every technical or regulatory statement; the sentence on the classic manuals no longer runs into the list of names.
+
 ## [0.8.4] — 21 November 2026
 
 **What to reread:** nothing. The content is unchanged since `0.8.3`: only the PDF index, which is

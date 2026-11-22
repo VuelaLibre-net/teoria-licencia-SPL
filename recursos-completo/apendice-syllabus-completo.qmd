@@ -49,7 +49,7 @@ El siguiente programa de estudios (Syllabus) corresponde a la asignatura de **Me
 * 3.9. Peligros para el vuelo (Flight Hazards).
 * 3.10. Información meteorológica.
 
-Este manual ha sido estructurado siguiendo fielmente este syllabus oficial para garantizar que cubres todos los puntos necesarios para el examen teórico.
+La lista es una traducción propia del AMC1 SFCL.130 de EASA (ED Decision 2020/004/R). Este manual sigue sus epígrafes. En el examen teórico, esta asignatura tiene 20 preguntas de opción múltiple y 40 minutos (AMC1 SFCL.135).
 
 ## 4. Comunicaciones {.unnumbered .unlisted}
 

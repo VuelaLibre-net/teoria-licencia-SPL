@@ -56,9 +56,10 @@ tarjetas:
 
   - id: borrasca-a-menos-de-500-km
     tipo: basica
-    anverso: ¿A qué distancia de una depresión activa se cancela el vuelo?
+    anverso: ¿Qué se hace si una **depresión activa** se acerca a la zona de vuelo?
     reverso: |
-      **A menos de 500 km de la zona de vuelo, cancela antes de salir.**
+      **Comprobar en la previsión cuándo llegará, y cancelar si puede
+      alcanzarte durante el vuelo.**
 
       Las condiciones VFR se degradan rápido: nubosidad baja, visibilidad
       reducida y ráfagas.

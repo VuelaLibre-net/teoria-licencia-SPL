@@ -12,7 +12,9 @@ tarjetas:
     anverso: What does it mean for the atmosphere to be **stable** or **unstable**?
     reverso: |
       **Stable**: a bubble pushed upwards tends to sink back.
-      **Unstable**: it keeps rising on its own.
+      **Unstable**: it keeps rising on its own. **Conditionally unstable**: the
+      surroundings cool at a rate between the SALR and the DALR, and the bubble
+      only keeps rising if it becomes saturated.
 
       Soaring lives on instability.
 
@@ -20,16 +22,18 @@ tarjetas:
     tipo: cloze
     texto: |
       **Dry** air cools by {{c1::3 °C}} for every 1,000 ft as it rises
-      (**DALR**); **saturated** air by only {{c2::1.5 °C}} (**SALR**).
+      (**DALR**); **saturated** air by about {{c2::1.5 °C}} near the surface
+      in temperate air (**SALR**, more in cold air and at height).
 
   - id: altura-de-la-base-de-los-cumulos
     tipo: basica
     anverso: How do you estimate the height of the **cumulus base**?
     reverso: |
-      **(Air temperature − dew point) × 400 = cloud base height, in feet.**
+      **(Air temperature − dew point) × 400 = height of the base above the
+      aerodrome, in feet.**
 
       The dew point and the temperature converge at about 2.5 °C for every
-      1,000 ft of ascent.
+      1,000 ft of ascent. For the altitude, add the airfield elevation.
     etiquetas: [Golden rule]
 
   - id: inversiones
@@ -55,8 +59,11 @@ tarjetas:
     tipo: basica
     anverso: What does each one measure, **TT** and the **K-Index**?
     reverso: |
-      **TT tells you how much “fuel” the atmosphere has to build a Cb over flat
-      country; K tells you the same for the mountains.**
+      **Both measure, with different formulas, how much “fuel” the atmosphere
+      has to build a Cb.**
+
+      Both use the 850 hPa level: in the mountains, if it lies close to the
+      ground, neither is representative.
 
       Do not rely on just one: use them together before every *pre-flight*.
     etiquetas: [Airmanship]
@@ -87,28 +94,31 @@ tarjetas:
     tipo: basica
     anverso: How should a **CAPE** of 1,000–2,500 J/kg be read for soaring?
     reverso: |
-      **As excellent**, not as “moderately unstable”.
+      **It can give strong thermals and high bases, but it does not rule out
+      thunderstorms.**
 
-      It gives strong thermals and high bases without the risk of severe
-      thunderstorms. The scales in general textbooks come from convective
-      meteorology, not aviation.
+      Textbooks rate it as “moderately unstable”: with moisture and a trigger,
+      that CAPE can produce thunderstorms. Read it together with the other
+      indices, never on its own.
     etiquetas: [Airmanship]
 
   - id: dia-termonuclear
     tipo: basica
     anverso: The numerical signature of an **exceptional convection day**.
     reverso: |
-      **TT between 48 and 55, K between 15 and 20, CAPE between 1,000 and
+      **TT between 44 and 48, K between 15 and 20, CAPE between 1,000 and
       2,500 J/kg, negative LI and light, variable winds.**
 
-      These are the days for distance records.
+      These are the days for distance records, but the same signature can end
+      in a thunderstorm if moisture and a trigger come with it: watch for
+      overdevelopment.
     etiquetas: [Golden rule]
 
   - id: umbrales-de-riesgo-de-tormenta
     tipo: basica
     anverso: Which combination of indices signals a **high risk of daytime thunderstorms**?
     reverso: |
-      **TT > 55 or K > 25 together with CAPE > 2,500 J/kg.**
+      **TT of 52 or more or K > 25, together with CAPE > 2,500 J/kg.**
 
       Plan to land before 16:00 and have an alternative field identified before
       the convection builds.

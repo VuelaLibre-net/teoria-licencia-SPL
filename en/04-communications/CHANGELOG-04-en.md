@@ -13,6 +13,16 @@ translated from (`origen-commit`). Terminology follows `en/terminologia.yml`.
 
 ## [In progress]
 
+**What to reread:** **cap04, VOLMET and SIGMET**, and the glossary entries *TAF* and *VOLMET*.
+
+### Fixed
+
+* **cap04, glossary and Anki, VOLMET** — in Spain it broadcasts each airport's METAR with its QNH and TREND; TAFs and SIGMETs only in other countries. Ported from the Spanish edition.
+* **cap04, SIGMET** — the 6-hour validity applies to volcanic ash and tropical cyclones, not to oceanic areas (Part-MET, MET.OR.250(c)).
+* **Glossary, TAF** — 9, 24 or 30 hours; in Spain, 24 or 30, renewed every 6 hours.
+* **Bibliography** — Annex 3 joins the ICAO annexes most relevant to the glider pilot; the editions of the Glider Flying Handbook (2024), the Easy Access Rules for Sailplanes (September 2020 revision) and Reichmann's Spanish edition (Paraninfo, 1992) are given. Ported from the Spanish edition.
+* **Acknowledgements** — the ✓ legend now says that the review is an instructor's judgement and does not certify every technical or regulatory statement; the sentence on the classic manuals no longer runs into the list of names.
+
 ## [0.8.3] — 21 November 2026
 
 **What to reread:** nothing. The content is unchanged since `0.8.2`: only the PDF index, which is

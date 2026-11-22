@@ -7,27 +7,19 @@
 
 ## Interpretación de la nubosidad
 
-Para la tripulación de un planeador, las nubes son el mapa visual de la atmósfera. La tabla siguiente resume las cuatro familias principales y su relevancia operativa para el vuelo a vela (@fig-03-cap04-familias-nubes-perfil):
+Para la tripulación de un planeador, las nubes son el mapa visual de la atmósfera (@fig-03-cap04-familias-nubes-perfil).
 
-![Perfil vertical de las cuatro familias de nubes con altitudes de base aproximadas](imagenes/03-cap04-familias-nubes-perfil.png){#fig-03-cap04-familias-nubes-perfil}
+![Perfil vertical de las cuatro familias de nubes con altitudes de base aproximadas. *(CORREGIR: el nimboestrato va en el piso medio, no en el bajo; las alturas de los pisos deben coincidir con la tabla, la raya de 20.000 ft está rotulada 16.000 ft y el «0 ft» está mal colocado.)*](imagenes/03-cap04-familias-nubes-perfil.png){#fig-03-cap04-familias-nubes-perfil .corregir}
 
-La OMM clasifica la nubosidad en **diez géneros**, repartidos en esas cuatro familias por la altura de su base:
+La OMM clasifica la nubosidad en **diez géneros**, repartidos en tres pisos según la altura a la que suelen aparecer. En latitudes medias, los pisos son aproximadamente: alto, de 5 a 13 km; medio, de 2 a 7 km (se solapa con el alto); y bajo, de la superficie a 2 km. Los cúmulos y los cumulonimbos tienen la base en el piso bajo, aunque crecen hasta los otros: aquí se agrupan aparte, como nubes de desarrollo vertical, que es como los trata buena parte de la formación aeronáutica.
 
-Nubes altas (base > 6.000 m)
-
-Cirros (Ci), Cirrocúmulos (Cc), Cirroestratos (Cs)
-
-Nubes medias (base 2.000–6.000 m)
-
-Altocúmulos (Ac), Altoestratos (As), Nimboestratos (Ns)
-
-Nubes bajas (base < 2.000 m)
-
-Estratos (St), Estratocúmulos (Sc)
-
-Desarrollo vertical
-
-Cúmulos (Cu), Cumulonimbos (Cb)
+| Piso | Altura aproximada (latitudes medias) | Géneros |
+| --- | --- | --- |
+| Alto | 5–13 km | Cirros (Ci), Cirrocúmulos (Cc), Cirroestratos (Cs) |
+| Medio | 2–7 km | Altocúmulos (Ac), Altoestratos (As), Nimboestratos (Ns) |
+| Bajo | superficie–2 km | Estratos (St), Estratocúmulos (Sc) |
+| Desarrollo vertical | base en el piso bajo | Cúmulos (Cu), Cumulonimbos (Cb) |
+: Los diez géneros de nubes de la OMM
 
 Para el vuelo a vela no todos pesan igual: los cúmulos marcan las térmicas, el cumulonimbo es el peligro máximo, los cirros anuncian la llegada de un frente y los nimboestratos traen precipitación persistente. Aun así conviene reconocer los diez, porque cada uno cuenta algo del estado de la atmósfera.
 
@@ -43,19 +35,19 @@ El Cumulonimbus abarca una notable extensión vertical, culminando a menudo, al 
 * **Engelamiento masivo:** Al penetrar en las zonas superenfriadas del Cb, el borde de ataque acumula hielo claro en segundos, destruyendo el perfil laminar y disparando la velocidad de pérdida.
 
 ::: {.callout-warning title="Seguridad"}
-El piloto debe evitar en todo momento volar en las inmediaciones de un Cumulonimbus. Se recomienda mantener una separación lateral de seguridad entre 10 y 20 millas náuticas. Si un sistema convectivo amenaza el aeródromo, inicie de inmediato el procedimiento de aterrizaje.
+El piloto debe evitar en todo momento volar en las inmediaciones de un Cumulonimbus. Ninguna norma fija la distancia para el planeador; como orientación, la FAA aconseja rodear las tormentas severas por al menos 20 millas náuticas. Si un sistema convectivo amenaza el aeródromo, inicie de inmediato el procedimiento de aterrizaje.
 :::
 
 ## Reducciones de visibilidad: niebla y neblina
 
    Una degradación significativa en la visibilidad penaliza las Reglas de Vuelo Visual (VFR).
 
-* **Neblina y bruma:** Reducen la visibilidad horizontal a valores entre 1.000 m y 3.000 m.
+* **Neblina o bruma (BR):** La visibilidad horizontal queda en 1.000 m o más; en el METAR se cifra `BR` cuando está entre 1.000 y 5.000 m. No hay que confundirla con la calima (`HZ`), que producen partículas secas de polvo o humo.
 * **Niebla:** Fenómeno de suspensión de agua al nivel del terreno que restringe la visibilidad inferior a los 1.000 m. En estas condiciones, está inhabilitada la operación VFR.
 
 Resulta de particular interés la **niebla de radiación**. Se forma en madrugadas invernales tras noches despejadas bajo condiciones anticiclónicas. El rápido enfriamiento del terreno arrastra térmicamente la capa inferior de aire, saturándola y originando espesos bancos de niebla localizados.
 
-Otro tipo relevante para los operadores de aeródromos costeros y de valle es la **niebla de advección** (**advection fog**). A diferencia de la de radiación, no depende del enfriamiento nocturno del suelo: se forma cuando una masa de aire cálido y húmedo se desplaza horizontalmente sobre una superficie más fría (el mar frío, un valle nevado o una costa). El contraste de temperatura basta para saturar la base de esa masa y producir un banco de niebla denso que puede persistir día y noche mientras dure el flujo. Es característica del litoral galaico-cantábrico en invierno y de las costas mediterráneas en otoño con viento de levante.
+Otro tipo relevante para los operadores de aeródromos costeros y de valle es la **niebla de advección** (**advection fog**). A diferencia de la de radiación, no depende del enfriamiento nocturno del suelo: se forma cuando una masa de aire cálido y húmedo se desplaza horizontalmente sobre una superficie más fría (el mar frío, un valle nevado o una costa). El contraste de temperatura basta para saturar la base de esa masa y producir un banco de niebla denso que puede persistir día y noche mientras dure el flujo. Es típica de los sectores costeros, sobre todo en verano.
 
 ::: {.callout-tip title="Regla de oro"}
 Presta especial atención a la tarde en los días que hayan empezado con niebla de radiación persistente. Al caer el sol, el enfriamiento nocturno puede reinstaurar la niebla en minutos y cerrarte el campo antes de que aterrices. En costas y valles con viento de componente mar, añade también el riesgo de niebla de advección: puede llegar sin previo aviso y a cualquier hora del día.
@@ -76,7 +68,7 @@ Bajo la zona de onda, a baja altura, se esconde el **rotor**: un cilindro de tur
 ::: {.postit}
 **Resumen del capítulo: nubes y niebla**
 
-* **Significado de las nubes**: Para el piloto de planeador, las nubes son el mapa del cielo. Los **Cúmulos (Cu)** pequeños y algodónosos son nuestros mejores amigos (marcan térmicas). Los **Cirros** altos suelen anunciar un frente (mal tiempo en 24-48h).
+* **Significado de las nubes**: Para el piloto de planeador, las nubes son el mapa del cielo. Los **Cúmulos (Cu)** pequeños y algodonosos son nuestros mejores amigos (marcan térmicas). Los **Cirros** altos suelen anunciar un frente (mal tiempo en 24-48h).
 * **Peligro de Desarrollo Vertical**: Si un cúmulo crece mucho verticalmente (**Cu congestus**), vigílalo de cerca. Si pasa a **Cumulonimbus (Cb)**, aléjate millas: hay turbulencia severa, granizo y rayos que pueden destruir el planeador.
 * **Niebla vs Neblina**: Ambas reducen la visibilidad. La niebla (< 1 km) es crítica para el aterrizaje y despegue. Hay dos tipos frecuentes: la **de radiación** (noches frías y despejadas, suele disiparse con el sol por la mañana) y la **de advección** (aire cálido sobre superficie fría, puede presentarse a cualquier hora y no depende de la noche).
 * **Nubes Lenticulares**: Tienen forma de lenteja o platillo y se quedan "quietas" aunque sople mucho viento. Indican **Onda de Montaña**, un fenómeno que permite subir muy alto pero advierte de turbulencia (rotores) muy peligrosa a baja altura.

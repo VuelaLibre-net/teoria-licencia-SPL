@@ -1,6 +1,6 @@
 ---
 origen: 03-meteorologia/cap05-precipitacion.qmd
-origen-commit: 2890174
+origen-commit: dcc5089
 ---
 
 # Precipitation
@@ -10,9 +10,21 @@ origen-commit: 2890174
 > affects the glider aerodynamically, which are the most dangerous, and what decisions you must
 > take at the first signs to stay safe.
 
+## How precipitation forms and what types there are
+
+A cloud is made of droplets so small that they float; for it to rain, they have to grow until they are heavy enough to fall. They do so in two ways. In clouds that rise above the freezing level, ice crystals grow at the expense of the supercooled droplets around them and fall as snow, which melts into rain if it passes through warm air (the Bergeron process). In warm clouds, the larger drops grow by colliding and merging with the smaller ones (coalescence).
+
+The type of cloud decides the type of precipitation:
+
+* **Continuous precipitation**, of even intensity and long duration: stratiform clouds, such as nimbostratus and altostratus.
+* **Showers**, which start and stop suddenly and vary in intensity: convective clouds, such as towering cumulus and cumulonimbus.
+* **Drizzle**, of very fine drops: low stratus.
+
+Depending on how it reaches the ground, precipitation is rain, drizzle, snow, hail (from cumulonimbus) or ice pellets, which show that there is freezing rain above.
+
 ## Rain and aerodynamic degradation
 
-Gliders are designed with laminar-flow aerofoils tuned for high efficiency. Rain spoils that: the airflow separates early and turns turbulent along the wet wings.
+Gliders are designed with laminar-flow aerofoils tuned for high efficiency. Rain spoils that: on a wet wing the boundary layer turns from laminar to turbulent sooner, and that increases drag. On some aerofoils it also causes separation.
 
 The effects are immediate:
 
@@ -21,14 +33,14 @@ The effects are immediate:
 * **Higher rate of descent:** you sink noticeably faster (**sink rate**) at the same flying speed.
 
 ::: {.callout-warning title="Safety"}
-With wet wings, always add a minimum margin of 5–10 kt to your standard approach speed. Avoid steep turns: the risk of stalling is significantly higher than when the wings are dry, and the stall can come without warning.
+With wet wings, add a margin to your standard approach speed. How much is in your glider's flight manual (AFM); as a guide, about 5–10 kt is usually added. Avoid steep turns: the risk of stalling is significantly higher than when the wings are dry, and the stall can come without warning.
 :::
 
 ## Hail (GR) and convective clouds
 
 Hail is born inside the cumulonimbus (Cb). Powerful updraughts hurl water droplets above the freezing level, where they freeze. They then fall, are caught by the updraught again and rise once more, gaining a layer of ice on each cycle, like an onion, until they are too heavy for the updraught to hold. Hailstones can end up more than 2–3 cm across.
 
-For light composite aircraft, the energy of the hail (added to the aircraft's own speed) is a serious structural risk. Cracked and holed **canopies** are common, as is damage to the protective **gelcoat**, and severe direct hits can cause delamination of the composite core.
+For light composite aircraft, the energy of the hail (added to the aircraft's own speed) is a serious structural risk. Cracked and holed **canopies** are common, as is damage to the protective **gelcoat**, and severe direct hits can cause delamination of the composite material.
 
 ::: {.callout-note title="Airmanship"}
 Do not assume that hail falls only directly beneath the Cb: the wind aloft can throw it out tens of kilometres under the spreading anvil. Always keep a safe distance from the anvil, even if the sky below looks completely clear.
@@ -36,7 +48,7 @@ Do not assume that hail falls only directly beneath the Cb: the wind aloft can t
 
 ## Freezing rain (FZRA) and rapid ice build-up
 
-**Freezing rain** (**FZRA**) is rain that is already supercooled when it falls: liquid drops below 0 °C that have not yet frozen, the **supercooled droplets**. The classic setting is a warm front in winter, when the rain passes through a layer of below-freezing air near the ground. You do not have to be inside a cloud: when the drops hit any solid surface of the glider (leading edge, canopy, nose) they freeze in fractions of a second, forming opaque ice or rime. Inside cloud, between 0 °C and −15 °C, the same droplets cause the icing described in chapter 9.
+**Freezing rain** (**FZRA**) is rain that is already supercooled when it falls: liquid drops below 0 °C that have not yet frozen, the **supercooled droplets**. The classic setting is a warm front in winter, when the rain passes through a layer of below-freezing air near the ground. You do not have to be inside a cloud: when the drops hit any solid surface of the glider (leading edge, canopy, nose) because the drops are large, only part of each one freezes at once and the rest runs back before freezing, forming **clear ice** (transparent), the most dangerous kind. Inside cloud, between 0 °C and −15 °C, the same droplets cause the icing described in chapter 9.
 
 The result is **icing**, one of the fastest and most serious hazards in soaring:
 
@@ -44,17 +56,17 @@ The result is **icing**, one of the fastest and most serious hazards in soaring:
 * Ice deforms the leading edge, destroys the laminar lift and sharply raises the stall speed.
 * The added weight, spread unevenly towards the wingtips, increases drag and brings in lateral imbalances that are hard to correct.
 
-At the first sign of icing (rime on the wing's leading edge or on the canopy), turn through 180° and descend at once to levels where the temperature is above zero. Do not wait: icing speeds up as more of the surface is covered.
+At the first sign of icing (ice on the wing's leading edge or on the canopy), get out of the area at once: turn through 180° towards where it is not raining. In freezing rain the warmer air is usually **above**, and descending may not take you out of the below-freezing layer; if you cannot get out of it, land as soon as possible. Do not wait: icing speeds up as more of the surface is covered.
 
 ## Virga: the invisible falling curtain
 
 **Virga** is a curtain of precipitation that falls from the base of a cloud but evaporates before reaching the ground. It looks like grey or bluish streaks that fade into the air at mid-height, never touching the terrain.
 
-The danger lies in what happens when those drops evaporate. Evaporation cools the surrounding air, which becomes denser and falls en masse towards the ground as a violent downdraught, the **downburst** or **microburst** (@fig-03-cap05-virga-microrrafaga).
+The danger lies in what happens when those drops evaporate. Evaporation cools the surrounding air, which becomes denser and falls en masse towards the ground as a violent downdraught: the **downburst**. If it affects an area less than about 4 km across it is called a **microburst** (@fig-03-cap05-virga-microrrafaga).
 
 ![Danger under the virga: the birth of a microburst](imagenes/03-cap05-virga-microburst.jpg){#fig-03-cap05-virga-microrrafaga}
 
-These localised downdraughts (**microburst** / **downdraft**) can reach descent rates greater than the glider's ability to climb. Flying under virga, especially on final approach, can cause unrecoverable sink before the threshold. Whenever you see virga, keep a safe distance from it, both laterally and vertically.
+These localised downdraughts can reach descent rates greater than the glider's ability to climb. Flying under virga, especially on final approach, can cause unrecoverable sink before the threshold. Whenever you see virga, keep a safe distance from it, both laterally and vertically.
 
 ::: {.postit}
 **Chapter summary: precipitation**

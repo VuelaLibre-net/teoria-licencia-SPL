@@ -1,6 +1,6 @@
 ---
 origen: 06-procedimientos-operativos/glosario.qmd
-origen-commit: 92f079f
+origen-commit: a27a4dd
 ---
 
 # Glossary of terms
@@ -92,7 +92,7 @@ This glossary contains the most relevant definitions and acronyms of Operational
 : The standard, orderly path an aircraft flies to make a safe approach and landing. For sailplanes it typically consists of crosswind, downwind, base and final.
 
 **Wake turbulence**
-: Counter-rotating tubular vortices produced by fixed-wing aircraft as they generate lift, or by the rotor downwash and vortices of helicopters. They sink slowly and persist for several minutes after the aircraft has passed. Crossing them at right angles can induce a rolling moment greater than the glider's ailerons can hold. The recommended minimum separation is at least 3 minutes behind heavy aircraft and 3 rotor diameters from hovering helicopters.
+: Counter-rotating tubular vortices produced by fixed-wing aircraft as they generate lift, or by the rotor downwash and vortices of helicopters. They sink slowly and persist for several minutes after the aircraft has passed. Entering them aligned with the track of the aircraft that produced them can induce a roll greater than the authority of the ailerons; crossing them produces jolts and sudden loads. The recommended minimum separation is at least 3 minutes behind heavy aircraft and 3 rotor diameters from hovering helicopters.
 
 **Water ballast**
 : Water carried in dedicated tanks in the wings to increase the glider's mass and wing loading, shifting the polar curve towards higher values so as to fly faster at the same glide angle.

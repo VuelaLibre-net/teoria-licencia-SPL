@@ -21,8 +21,8 @@ tarjetas:
     tipo: basica
     anverso: ¿Qué es la **Baja Térmica Peninsular** y qué produce?
     reverso: |
-      **Una baja presión permanente de verano por el calentamiento del centro de
-      España.**
+      **Una baja presión casi permanente en verano, más marcada por la tarde,
+      por el calentamiento del interior peninsular.**
 
       Succiona aire del mar, refuerza las brisas costeras tierra adentro y
       genera líneas de convergencia ideales para el *cross-country*.
@@ -48,9 +48,10 @@ tarjetas:
 
   - id: separacion-de-laderas-de-sotavento
     tipo: basica
-    anverso: ¿Qué separación mínima se mantiene sobre una ladera de **sotavento**?
+    anverso: ¿Cómo se vuela sobre una ladera de **sotavento** con viento fuerte?
     reverso: |
-      **300 ft de separación vertical del terreno**, como mínimo.
+      **Evitando volar bajo sobre ella: si hay rotor, cualquier altura puede
+      ser poca.**
 
       Catabáticos y rotores aparecen a baja altitud sin aviso visual.
     etiquetas: [Seguridad]

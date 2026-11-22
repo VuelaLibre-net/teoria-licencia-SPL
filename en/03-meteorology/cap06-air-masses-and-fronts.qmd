@@ -1,6 +1,6 @@
 ---
 origen: 03-meteorologia/cap06-masas-de-aire-y-frentes.qmd
-origen-commit: 8390229
+origen-commit: 589cf20
 ---
 
 # Air masses and fronts
@@ -20,10 +20,10 @@ The passage of a cold front brings a sharp drop in temperature, an abrupt veer i
 For soaring, the best weather comes after the front. Once the front has gone through, a transitional air mass takes over, clearly colder than the ground. As its base is warmed by contact with the ground, marked **post-frontal instability** sets in.
 
 ::: {.callout-tip title="Golden rule"}
-The days immediately after the passage of a large-scale cold front usually offer the best thermal conditions. They bring excellent visibility with no haze, rising atmospheric pressure and strong daytime heating that sets off vigorous thermals marked by well-defined cumulus (Cu).
+The days immediately after the passage of a cold front usually offer the best thermal conditions. They bring excellent visibility with no haze, rising atmospheric pressure and strong daytime heating that sets off vigorous thermals marked by well-defined cumulus (Cu).
 :::
 
-![Vertical structure of a cold front: wedge of cold air and associated convective cloud](imagenes/03-cap06-frente-frio-estructura.png){#fig-03-cap06-frente-frio-estructura}
+![Vertical structure of a cold front: wedge of cold air and associated convective cloud. *(FIX: the cold wedge must be behind the front, on the post-frontal side, with the triangles pointing towards the warm air; the ground is warmer than the post-frontal air, not colder.)*](imagenes/03-cap06-frente-frio-estructura.png){#fig-03-cap06-frente-frio-estructura .corregir}
 
 ## Warm fronts and pre-frontal subsidence
 
@@ -35,20 +35,20 @@ A warm front makes VFR conditions steadily worse:
 
 * It brings continuous precipitation and persistent drizzle over a wide area.
 * Cloud ceilings come down gradually, hiding high ground and mountains.
-* Constant humidity favours warm mist and fog that cut surface visibility sharply.
-* Thermodynamically, it makes the air mass completely stable and suppresses any usable thermals.
+* Constant humidity favours frontal mist and fog that cut surface visibility sharply.
+* Thermodynamically, it normally stabilises the lower layers and suppresses usable thermals; if the rising warm air is unstable, it can hide cumulonimbus embedded in the cloud layer.
 
-![Typical cloud sequence as a warm front approaches (seen from the ground)](imagenes/03-cap06-frente-calido-nubes.png){#fig-03-cap06-frente-calido-nubes}
+![Typical cloud sequence as a warm front approaches (seen from the ground). *(FIX: “aire totalmente estable” needs qualifying, because with unstable warm air there may be embedded cumulonimbus; thousands are separated with a full stop in the Spanish labels.)*](imagenes/03-cap06-frente-calido-nubes.png){#fig-03-cap06-frente-calido-nubes .corregir}
 
 ## Occlusion and the stationary front
 
-When a cold front moves faster than the warm front ahead of it, it eventually catches up. The cold front then pushes from behind and traps the warm air in between: it pinches it, lifts it off the ground and forces it to rise completely. This process is called an **occluded front**, or occlusion (@fig-03-cap06-tipos-frentes).
+When a cold front moves faster than the warm front ahead of it, it eventually catches up. The cold front then pushes from behind and traps the warm air in between: it pinches it, lifts it off the ground and forces it to rise completely. This process is called an **occluded front**, or occlusion (@fig-03-cap06-tipos-frentes). If the air arriving behind is colder than the air that was ahead, it is a cold occlusion; if it is less cold, a warm occlusion.
 
-In operational terms, an occlusion combines the worst of both fronts: the violent convection of the cold front plus the continuous rain and low ceilings of the warm front. The warm air no longer touches the ground, so thermals disappear, and convective turbulence can be embedded in thick layers of cloud with no clear visual warning. Faced with an occluded front, postpone the flight: conditions are complex and unpredictable.
+In operational terms, an occlusion combines the worst of both fronts: the violent convection of the cold front plus the continuous rain and low ceilings of the warm front. With the extensive cloud and the rain, thermals disappear, and convective turbulence can be embedded in thick layers of cloud with no clear visual warning. Faced with an occluded front, postpone the flight: conditions are complex and unpredictable.
 
-![Internal vertical structure of an occluded front (cold occlusion)](imagenes/03-cap06-frente-ocluido.png){#fig-03-cap06-tipos-frentes}
+![Internal vertical structure of an occluded front (cold occlusion). *(FIX: nimbostratus belongs in the middle étage, not the low one; the label “ALTOESTRATOS” falls in the high band; remove the red semicircles on the cold front and the heading “TABLA INTEGRAL Y DETALLADA”.)*](imagenes/03-cap06-frente-ocluido.png){#fig-03-cap06-tipos-frentes .corregir}
 
-A fourth type of front is less common but does appear on synoptic charts: the **stationary front**. It forms when two air masses of similar temperature and density meet and neither is strong enough to push over the other. The boundary between them hardly moves and can last for days, bringing persistent rain and fog along its axis. On synoptic charts it is drawn with alternating blue triangles and red semicircles on opposite sides of the frontal line.
+A fourth type of front is less common but does appear on synoptic charts: the **stationary front**. It forms when two different air masses meet and neither is strong enough to displace the other. The boundary between them hardly moves and can last for days, bringing persistent rain and fog along its axis. On synoptic charts it is drawn with alternating blue triangles and red semicircles on opposite sides of the frontal line.
 
 ::: {.callout-important title="Regulation"}
 **SERA.5001** (Commission Implementing Regulation (EU) No 923/2012) sets the weather minima for VFR flight. In class G airspace, at and below 3,000 ft AMSL or 1,000 ft above terrain, whichever is higher, the general minimum visibility is **5 km**, clear of cloud and with the surface in sight. SERA lets the competent authority reduce it to **1,500 m** for flights at 140 kt or less, but Spain has done so only for helicopters and for aeroplanes on specialised operations (Real Decreto 1180/2018, Article 30): **for a glider, the minimum is still 5 km**. Entering IMC without an instrument rating breaks the rules of the air. That is an infringement of the Spanish Aviation Safety Act (Ley 21/2003), whose seriousness depends on its consequences, and above all it is a classic cause of accidents.
@@ -63,16 +63,16 @@ For convection, the absolute temperature of the air mass matters less than its *
 
 ## Classifying air masses
 
-Before talking about relative temperature, it helps to know where the air above you comes from. Air masses are classified by two criteria: their **latitude of origin** (which sets their temperature) and their **track** (which sets their humidity).
+Besides relative temperature, it helps to know where the air above you comes from. Air masses are classified by two criteria of their source region: its **latitude** (which sets their temperature) and whether they form over **land** or over the **sea** (which sets their humidity).
 
 | Code | Type | Temperature | Humidity and characteristics for soaring |
 | --- | --- | --- | --- |
-| **Tc / Tm** | Tropical (continental or maritime) | Warm | Tm: moist, frequent haze, weak thermals. Tc: hot and dry, strong instability in summer, excellent thermals over the Meseta. |
-| **Pc / Pm** | Polar (continental or maritime) | Cold | Pm: moist, classic post-frontal, low cumulus bases but thermals present. Pc: very cold and dry, exceptional visibility. |
+| **Tc / Tm** | Tropical (continental: North Africa; maritime: subtropical Atlantic, towards the Azores) | Warm | Tm: moist, frequent haze, weak thermals. Tc: hot, dry and dusty; it can give strong thermals over the Meseta, but African advections in summer often bring stability. |
+| **Pc / Pm** | Polar (continental: eastern Europe; maritime: North Atlantic) | Cold | Pm: moist, classic post-frontal, low cumulus bases but thermals present. Pc: very cold and dry, exceptional visibility. |
 | **A** | Arctic / Antarctic | Very cold | Winter outbreaks from the north. Below-zero temperatures on the airfield, severe icing, strong winds. Do not fly. |
-: Classifying air masses by origin and track
+: Classifying air masses by their source region
 
-The most common situation over the Iberian Peninsula during the soaring season (spring and summer) is the arrival of **polar maritime air (Pm)** after a cold front has passed. Having crossed the Atlantic and warmed up over the hot ground of the peninsula, this air mass produces the perfect combination for cross-country flying: blue sky, good visibility, bases at 5,000–7,000 ft and thermals of 3–4 m/s.
+A common situation over the Iberian Peninsula in spring is the arrival of **polar maritime air (Pm)** after a cold front has passed. Having crossed the Atlantic and warmed up over the hot ground of the peninsula, this air mass produces the perfect combination for cross-country flying: blue sky, good visibility, high bases and strong thermals (as a guide, bases of 5,000–7,000 ft and thermals of 3–4 m/s).
 
 ::: {.callout-warning title="Safety"}
 Do not take off in marginal visibility under an inversion: after a cable break or an emergency release, the landing back on the field would have to be made without visual references, with the risk of a fatal impact. If you have any doubt about the visibility, postpone the flight.
@@ -82,7 +82,7 @@ Do not take off in marginal visibility under an inversion: after a cable break o
 **Chapter summary: air masses and fronts**
 
 * **Cold front**: the glider pilot's best friend (once it has passed). It brings instability, clean skies and strong thermals (a “post-frontal” sky). As it passes, expect showers, a wind veer and a drop in temperature.
-* **Warm front**: bad news. Heralded by cirrus that lowers to stratus, it brings continuous rain, low ceilings and poor visibility. The air is stable, so forget about thermals.
+* **Warm front**: bad news. Heralded by cirrus that lowers to stratus, it brings continuous rain, low ceilings and poor visibility. The air is usually stable, so forget about thermals; if it is unstable, it can hide embedded Cb.
 * **Occlusions**: when the cold front catches the warm front. It usually means unsettled weather, mixed cloud and precipitation. Of little use for flying.
 * **Air masses**: what matters is relative temperature. Cold air over warm ground = instability (thermals!). Warm air over cold ground = stability (layer cloud, fog, inversion).
 :::

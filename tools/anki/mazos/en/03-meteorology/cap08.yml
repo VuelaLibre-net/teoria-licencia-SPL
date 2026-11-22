@@ -19,7 +19,8 @@ tarjetas:
     tipo: basica
     anverso: What is the **Iberian thermal low**, and what does it produce?
     reverso: |
-      **A permanent summer low caused by the heating of central Spain.**
+      **A low that is almost permanent in summer, strongest in the afternoon,
+      caused by the heating of the inland Peninsula.**
 
       It draws in air from the sea, strengthens the coastal breezes inland and
       creates convergence lines that are ideal for *cross-country* flying.
@@ -45,9 +46,10 @@ tarjetas:
 
   - id: separacion-de-laderas-de-sotavento
     tipo: basica
-    anverso: What minimum separation do you keep over a **lee** slope?
+    anverso: How do you fly over a **lee** slope in a strong wind?
     reverso: |
-      **At least 300 ft of vertical separation from the terrain.**
+      **By avoiding flying low over it: if there is a rotor, no height may be
+      enough.**
 
       Katabatic winds and rotors appear at low altitude with no visual warning.
     etiquetas: [Safety]

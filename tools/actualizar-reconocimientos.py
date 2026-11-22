@@ -26,10 +26,12 @@ HEADER = """# Reconocimientos {.unnumbered}
 Este manual es el fruto de un esfuerzo colaborativo dentro de la comunidad de vuelo sin motor. Queremos expresar nuestro más sincero agradecimiento a:
 
 * **Agencia Estatal de Seguridad Aérea (AESA)** y **EASA**, por proporcionar el marco normativo y documental que garantiza la seguridad de nuestras operaciones.
-* Los **Instructores de Vuelo (FI(S))** y **Examinadores (FE(S))** que han dedicado su tiempo a revisar técnicamente estas secciones para asegurar su rigor técnico.
+* Los **Instructores de Vuelo (FI(S))** y **Examinadores (FE(S))** que han dedicado su tiempo a revisar técnicamente estas secciones.
 * A la comunidad de **VuelaLibre.net**, por impulsar iniciativas que modernizan y democratizan el acceso a la formación aeronáutica de calidad.
 * A todos los pilotos que, con su feedback constante, ayudan a que este manual sea una herramienta viva y en evolución.
-* A los autores de los manuales internacionales clásicos, cuya estructura ha servido de base para organizar el conocimiento de una forma pedagógica y accesible para las nuevas generaciones de pilotos de planeador y, en especial a:
+* A los autores de los manuales internacionales clásicos, cuya estructura ha servido de base para organizar el conocimiento de una forma pedagógica y accesible para las nuevas generaciones de pilotos de planeador.
+
+Y, en especial, a las personas que siguen. La marca ✓ señala a quienes han revisado este libro: su revisión es de criterio de instructor y no certifica cada afirmación técnica ni normativa.
 
 ::: {.creditos}
 """
@@ -55,12 +57,12 @@ HEADER_EN = """# Acknowledgements {.unnumbered}
 This manual is the result of a collaborative effort within the gliding community. We wish to express our sincere thanks to:
 
 * The **Spanish Aviation Safety Agency (AESA)** and **EASA**, for providing the regulatory and documentary framework that keeps our operations safe.
-* The **Flight Instructors (FI(S))** and **Examiners (FE(S))** who have given their time to review these sections and ensure their technical rigour.
+* The **Flight Instructors (FI(S))** and **Examiners (FE(S))** who have given their time to review these sections technically.
 * The **VuelaLibre.net** community, for driving initiatives that modernise and open up access to high-quality aeronautical training.
 * All the pilots whose constant feedback helps keep this manual a living, evolving tool.
-* The authors of the classic international manuals, whose structure served as the basis for organising the knowledge in a way that is teachable and accessible to new generations of glider pilots and, in particular, to:
+* The authors of the classic international manuals, whose structure served as the basis for organising the knowledge in a way that is teachable and accessible to new generations of glider pilots.
 
-A ✓ marks the reviewers who have validated the Spanish edition of this book, from which this translation is made.
+And, in particular, to the people listed below. A ✓ marks those who have reviewed the Spanish edition of this book, from which this translation is made: their review is an instructor's judgement and does not certify every technical or regulatory statement.
 
 ::: {.creditos}
 """

@@ -1,6 +1,6 @@
 # Termodinámica
 
-> La termodinámica es el motor invisible del vuelo sin motor: sin estabilidad inestable no hay
+> La termodinámica es el motor invisible del vuelo sin motor: sin aire inestable no hay
 > térmicas, y sin térmicas no hay vuelo de distancia. En este capítulo aprenderás a interpretar
 > la estabilidad atmosférica, a calcular la base de los cúmulos con una operación mental sencilla,
 > a reconocer una inversión térmica y a leer los índices de sondeo que predicen si el día será
@@ -12,9 +12,9 @@
 
 Podemos entenderlo imaginando una pelota en diferentes relieves:
 
-* **Atmósfera Estable**: Si empujas la pelota desde el fondo de un valle subiéndola por la ladera, volverá a caer al centro. En el aire, si el ambiente se enfría lentamente con la altura (gradiente térmico ambiental menor de 1 °C/100m), una burbuja que ascienda se enfriará más rápido que su entorno. Pronto estará más fría (y pesada) que el aire que la rodea, deteniendo su ascenso y hundiéndose de nuevo.
-* **Atmósfera Inestable**: Imagina la pelota en equilibrio precario en la cima de un monte; un pequeño empujón hará que caiga rodando sin parar. Si el aire ambiental se enfría muy rápido con la altura (mayor de 1 °C/100m), una burbuja que empiece a subir siempre se mantendrá más caliente (y ligera) que el aire a su alrededor, acelerando su ascenso. Esta es la condición ideal para la formación de fuertes térmicas.
-* **Estabilidad Condicional**: Depende de la humedad. Si el aire está seco, es estable; pero si está saturado de humedad, el calor liberado por la condensación (al formar nubes) hace que la burbuja se mantenga caliente y siga subiendo (inestable).
+* **Atmósfera absolutamente estable**: Si empujas la pelota desde el fondo de un valle subiéndola por la ladera, volverá a caer al centro. En el aire, si el ambiente se enfría con la altura más despacio que el gradiente saturado (menos de 1,5 °C por cada 1.000 ft, unos 0,5 °C/100 m), o incluso se calienta, como en una inversión, una burbuja que ascienda, seca o saturada, se enfriará más rápido que su entorno. Pronto estará más fría (y pesada) que el aire que la rodea, deteniendo su ascenso y hundiéndose de nuevo.
+* **Atmósfera absolutamente inestable**: Imagina la pelota en equilibrio precario en la cima de un monte; un pequeño empujón hará que caiga rodando sin parar. Si el aire ambiental se enfría con la altura más deprisa que el gradiente seco (más de 3 °C por cada 1.000 ft, 1 °C/100 m), una burbuja que empiece a subir siempre se mantendrá más caliente (y ligera) que el aire a su alrededor, acelerando su ascenso. Esta es la condición ideal para la formación de fuertes térmicas.
+* **Inestabilidad condicional**: El ambiente se enfría con la altura a un ritmo intermedio, entre el gradiente saturado y el seco. Entonces depende de la humedad: la burbuja seca se enfría más deprisa que su entorno y es estable; pero si se satura, el calor liberado por la condensación (al formar nubes) hace que se enfríe más despacio que el entorno y siga subiendo (inestable). Es la situación habitual de los días de cúmulos.
 
 ![Aire inestable (A) y estable (B) para unos 3000 pies (unos 1000m).](imagenes/03-cap03-estabilidad.jpg){#fig-03-cap03-estabilidad}
 
@@ -26,18 +26,18 @@ Podemos entenderlo imaginando una pelota en diferentes relieves:
 * **Gradiente Adiabático Saturado (SALR - *Saturated Adiabatic Lapse Rate*)**: Cuando la burbuja se enfría lo suficiente como para alcanzar su punto de rocío, el vapor de agua comienza a condensarse, formando la base de una nube (Nivel de Condensación por Ascenso o NCA). La condensación libera calor latente dentro de la burbuja. Por tanto, a partir de la base de la nube, la burbuja sigue subiendo, pero se enfría mucho más despacio, típicamente a **1,5 °C por cada 1.000 pies** (0,5 °C cada 100 metros en niveles bajos).
 
 ::: {.callout-tip title="Regla de oro"}
-Puedes estimar fácilmente la altura de la base de los cúmulos restando la temperatura del punto de rocío a la temperatura ambiente en el suelo. Como los dejas atrás a razón de unos 2,5 °C por cada 1.000 pies de ascenso conjunto (el DALR menos la caída del punto de rocío), la fórmula es: **$T_{ambiente} - T_{rocío}$ × 400 = Altitud de la base en pies.**
+Puedes estimar fácilmente la altura de la base de los cúmulos restando la temperatura del punto de rocío a la temperatura ambiente en el suelo. Como los dejas atrás a razón de unos 2,5 °C por cada 1.000 pies de ascenso conjunto (los 3 °C del DALR menos los 0,5 °C que baja el punto de rocío), la fórmula es: **$(T - T_{\text{rocío}}) \times 400$ = altura de la base sobre el aeródromo, en pies.** Para obtener la altitud, suma la elevación del aeródromo.
 :::
 
 Para aplicar la fórmula, sigue estos pasos antes de cada vuelo:
 
 1. Anota la temperatura ambiente en tierra (T) y la temperatura del punto de rocío (T~rocío~) del METAR o la estación del aeródromo.
 2. Calcula la diferencia: ΔT = T − T~rocío~.
-3. Multiplica: ΔT × 400 = altura estimada de la base de los cúmulos en pies.
+3. Multiplica: ΔT × 400 = altura estimada de la base de los cúmulos sobre el aeródromo, en pies.
 
 *Ejemplo: T = 26 °C, T~rocío~ = 16 °C → (26 − 16) × 400 = **4.000 ft** de base.* (véase @fig-03-cap03-base-cumulos-dalr-nca)
 
-![Cálculo gráfico de la base de los cúmulos: gradiente DALR, punto de rocío y Nivel de Condensación por Ascenso (NCA)](imagenes/03-cap03-base-cumulos-dalr-nca.jpg){#fig-03-cap03-base-cumulos-dalr-nca}
+![Cálculo gráfico de la base de los cúmulos: gradiente DALR, punto de rocío y Nivel de Condensación por Ascenso (NCA). *(CORREGIR: las curvas no cuadran con el recuadro: con T = 26 °C y punto de rocío 16 °C, la burbuja debe llegar a 14 °C a 4.000 ft y seguir más caliente que el ambiente; el tramo saturado va a unos 1,5 °C/1.000 ft, el punto de rocío baja 0,5 °C/1.000 ft, y el eje es altura sobre el aeródromo.)*](imagenes/03-cap03-base-cumulos-dalr-nca.jpg){#fig-03-cap03-base-cumulos-dalr-nca .corregir}
 
 ## Inversiones térmicas: la tapadera invisible
 
@@ -55,7 +55,7 @@ La convección es el proceso por el cual el calor se transporta verticalmente en
 
 El sol no calienta el aire directamente, sino que calienta la superficie de la tierra. Este calentamiento es muy desigual: un campo arado oscuro, una zona rocosa o un pueblo de tejados secos se calentará mucho más rápido que un bosque denso o un lago. El suelo caliente calienta por contacto la capa de aire inmediatamente superior.
 
-Ese aire caliente, ahora menos denso y más ligero, tiende a subir por flotabilidad, formando una corriente convectiva o "térmica".Inicialmente, la burbuja se agarra al terreno por la fricción, aumentando su empuje ascensional hasta que finalmente se desprende y comienza a subir.
+Ese aire caliente, ahora menos denso y más ligero, tiende a subir por flotabilidad, formando una corriente convectiva o "térmica". Inicialmente, la burbuja se agarra al terreno por la fricción, aumentando su empuje ascensional hasta que finalmente se desprende y comienza a subir.
 
 ::: {.callout-note title="Airmanship"}
 Para encontrar las mejores térmicas, busca "fuentes" que se calienten rápido (suelos secos, campos cosechados, zonas rocosas al sol) y "disparadores" o puntos de ruptura que ayuden a la burbuja a desprenderse del suelo, como una cresta de una colina orientada al viento, o una línea de árboles al borde del campo soleado.
@@ -65,11 +65,11 @@ Los meteorólogos distinguen dos modelos conceptuales de cómo se organiza inter
 
 * **Modelo burbuja** (**bubble model**): El calor se acumula sobre la fuente hasta que la burbuja se desprende, como si tirases de un globo. El ascenso es intermitente: el núcleo central sube más rápido que los bordes, que presentan subsidencia. El planeador debe buscar y mantenerse en el núcleo para aprovechar el ascenso máximo (@fig-03-cap03-modelo-burbuja).
 
-![El modelo de burbuja o anillo de vórtice de una térmica.](imagenes/03-cap03-modelo-burbuja.jpg){#fig-03-cap03-modelo-burbuja}
+![El modelo de burbuja o anillo de vórtice de una térmica. *(CORREGIR: sobran los rótulos «Ascensor» e «Inversión térmica (nivel de convergencia)», que no están en el original del Glider Flying Handbook.)*](imagenes/03-cap03-modelo-burbuja.jpg){#fig-03-cap03-modelo-burbuja .corregir}
 
 * **Modelo columna o pluma** (**column/plume model**): En fuentes intensas y persistentes (una cantera, un pueblo grande, una ladera orientada al sol toda la mañana), el flujo convectivo es continuo, como el humo de una chimenea. El ascenso es más regular y predecible, ideal para el vuelo de distancia (@fig-03-cap03-modelo-columna).
 
-![El modelo de columna o pluma de una térmica.](imagenes/03-cap03-modelo-columna.jpg){#fig-03-cap03-modelo-columna}
+![El modelo de columna o pluma de una térmica. *(CORREGIR: sobran la curva, la línea con punto y la raya discontinua que no explica el texto ni están en el original del Glider Flying Handbook.)*](imagenes/03-cap03-modelo-columna.jpg){#fig-03-cap03-modelo-columna .corregir}
 
 En los días reales coexisten ambas estructuras. Las primeras horas de la mañana tienden a producir burbujas aisladas; a medida que el calentamiento se consolida, pueden aparecer columnas duraderas. Reconocer cuál predomina ese día mejora el centrado de térmicas y reduce el tiempo perdido fuera de círculo (@fig-03-cap03-ciclo-vida-termica).
 
@@ -87,14 +87,16 @@ El instructor de vuelo experimentado maneja habitualmente dos parejas de índice
 * **TT + K** como herramientas del día a día para decidir si vuelas y qué puedes esperar.
 * **CAPE + LI** como herramientas de análisis profundo cuando el día "tiene trampa".
 
-La distinción clave que aporta la experiencia de campo: **el TT (Total Totals) es especialmente fiable en el llano, mientras que el K es más representativo en montaña**. Cuando planifiques un vuelo en zona llana (Castilla, Aragón, La Mancha), mira el TT. Si volarás en entornos de cordillera (Pirineo, Sistema Central, Sistema Ibérico), dale más peso al K.
+Los dos índices usan el nivel de 850 hPa, unos 1.500 m. En montaña ese nivel puede quedar cerca del suelo o por debajo de él, y entonces ninguno de los dos es representativo: el manual de referencia del K advierte que no se calcula de forma fiable en estaciones de montaña. Úsalos juntos y contrástalos con el sondeo completo.
 
-### Total Totals (TT): el índice del llano
+### Total Totals (TT)
 
-El índice Total Totals (TT) combina el gradiente vertical de temperatura con la humedad en capas bajas. Su fórmula:
+El índice Total Totals (TT) combina el gradiente vertical de temperatura con la humedad en capas bajas. Su fórmula, con la temperatura (T) y el punto de rocío (Td) en °C a cada nivel de presión (hPa):
+
+$$\text{TT} = (T_{850} + \text{Td}_{850}) - 2\,T_{500}$$
 
 ::: {.callout-note title="Airmanship"}
-El gráfico TT + K que el instructor cuelga cada mañana en el hangar te da la fotografía rápida del día. El TT te dice cuánto "combustible" tiene la atmósfera para armar un Cb en el llano; el K te lo dice para la montaña. No confíes en uno solo: úsalos juntos antes de cada preflight.
+El gráfico TT + K que el instructor cuelga cada mañana en el hangar te da la fotografía rápida del día. El TT y el K miden, con fórmulas distintas, cuánto "combustible" tiene la atmósfera para armar un Cb. No confíes en uno solo: úsalos juntos antes de cada preflight.
 :::
 
 Umbrales del TT y su interpretación para el vuelo a vela:
@@ -102,24 +104,28 @@ Umbrales del TT y su interpretación para el vuelo a vela:
 | TT | Condición para el vuelo a vela |
 | --- | --- |
 | < 44 | Atmósfera estable; térmicas débiles o inexistentes |
-| 44–48 | Inestabilidad moderada; convección posible sin tormenta |
-| > 48 | Bastante inestable; desarrollo de Cb probable en el llano |
-| > 52 | Tormenta muy probable: tormentas aisladas |
+| 44–47 | Inestabilidad moderada; convección posible, tormenta poco probable |
+| 48 | Tormentas aisladas o escasas |
+| 52 | Tormentas dispersas, alguna moderada |
 | 55 | Tormentas dispersas, algunas moderadas y alguna aislada severa |
-| 58 | Tormentas moderadas dispersas, algunas severas y algún tornado aislado |
-| 61 | Tormentas frecuentes moderadas; alguna severa o algún tornado |
-| 64 | Tormentas frecuentes moderadas con tormentas severas y tornados |
+| 58 | Tormentas dispersas, algunas severas y algún tornado aislado |
+| 61 | Tormentas dispersas a frecuentes, algunas severas y algún tornado |
+| 64 | Tormentas frecuentes, severas dispersas y tornados dispersos |
 : Umbrales del Total Totals (TT) y su interpretación
 
-Los umbrales clásicos de tormenta del TT proceden del trabajo de Robert C. Miller para el centro de alertas militares de EE. UU. (*Notes on Analysis and Severe-Storm Forecasting Procedures of the Air Force Global Weather Central*, 1972); los tramos «para el vuelo a vela» de las dos primeras filas son una adaptación operativa de esta colección, no de Miller.
+Los umbrales de tormenta de la tabla, de 48 en adelante, son la escala del oeste de Estados Unidos que recoge el manual del Air Weather Service sobre el diagrama Skew-T (AWS/TR-79/006, revisión de 1990), tomada del servicio meteorológico de esa región (1984). La escala clásica de Robert C. Miller (1972), pensada para el este de Estados Unidos, es más baja: espera tormentas aisladas desde un TT de 44. Los umbrales del TT cambian mucho de una región a otra y no hay una calibración publicada para la Península; las dos primeras filas son una adaptación operativa de esta colección.
 
 ::: {.callout-warning title="Seguridad"}
 El TT presenta limitaciones: sobrestima la inestabilidad si la temperatura a 500 hPa es muy baja sin soporte convectivo en capas bajas, y no detecta bien la estabilidad fuerte o la humedad elevada por debajo de 850 hPa. En esas situaciones, refuerza el análisis con el K-Index y el CAPE.
 :::
 
-### K-Index: el índice de la montaña
+### K-Index
 
-El K-Index combina el gradiente de temperatura entre 850 hPa y 500 hPa con la humedad en niveles medios y bajos. Es la métrica habitual para el pronóstico de actividad convectiva en entornos de montaña:
+El K-Index combina el gradiente de temperatura entre 850 hPa y 500 hPa con la humedad en niveles medios y bajos:
+
+$$\text{K} = (T_{850} - T_{500}) + \text{Td}_{850} - (T_{700} - \text{Td}_{700})$$
+
+Se diseñó para pronosticar las tormentas de masa de aire. Sus umbrales:
 
 | K | Condición para el vuelo a vela |
 | --- | --- |
@@ -139,32 +145,32 @@ El K-Index fue diseñado para predecir tormentas, no la calidad del vuelo a vela
 
 ### CAPE y LI: profundizando cuando el día tiene trampa
 
-* **CAPE** (**Convective Available Potential Energy**, Energía Potencial Convectiva Disponible): Cuantifica la energía disponible para la convección. Es el área entre la curva de la parcela y la curva de estado en el diagrama termodinámico. Valores de referencia: 0 J/kg = estabilidad absoluta; 1.000–2.500 J/kg = excelente día de térmicas; > 3.500 J/kg = convección severa probable.
+* **CAPE** (**Convective Available Potential Energy**, Energía Potencial Convectiva Disponible): Cuantifica la energía disponible para la convección. Es el área entre la curva de la parcela y la curva de estado en el diagrama termodinámico. Valores de referencia: 0 J/kg = estabilidad absoluta; 1.000–2.500 J/kg = térmicas potentes, aunque no descarta la tormenta; > 3.500 J/kg = convección severa probable.
 
 ::: {.callout-note title="Airmanship"}
-Los valores de CAPE que ves en manuales de meteorología general suelen clasificar 1.000–2.500 J/kg como "moderadamente inestable", reservando "muy inestable" para valores superiores. Para el volovelista, ese rango es perfectamente excelente: proporciona térmicas potentes y bases altas sin el riesgo de tormenta severa. Cuando consultes herramientas externas como Skysight o la Universidad de Wyoming, interpreta el CAPE en contexto aeronáutico, no según las escalas de meteorología convectiva para tormentas.
+Los valores de CAPE que ves en manuales de meteorología general suelen clasificar 1.000–2.500 J/kg como "moderadamente inestable", reservando "muy inestable" para valores superiores. Para el volovelista, ese rango puede dar térmicas potentes y bases altas, pero también tormentas si hay humedad y disparo: el CAPE por sí solo no descarta la tormenta. Cuando consultes herramientas externas como Skysight o la Universidad de Wyoming, lee el CAPE junto con los otros índices, la humedad y la previsión de nubosidad, nunca como un valor aislado.
 :::
 
-* **LI (Índice de Levantamiento o *Lifted Index*)**: Diferencia entre la temperatura de la parcela y la del ambiente a 500 hPa, tras elevarla adiabáticamente desde el suelo. Valores negativos indican inestabilidad: cuanto más negativo, mayor el potencial convectivo.
+* **LI (Índice de Levantamiento o *Lifted Index*)**: Diferencia entre la temperatura del ambiente y la de la parcela a 500 hPa, tras elevar la parcela adiabáticamente desde el suelo. Valores negativos indican inestabilidad: cuanto más negativo, mayor el potencial convectivo.
 
 ::: {.callout-tip title="Regla de oro"}
-Día de convección excepcional — conocido coloquialmente como «día termonuclear» en el argot de competición —: TT entre 48 y 55, K entre 15 y 20, CAPE entre 1.000 y 2.500 J/kg, LI negativo y vientos flojos de componente variable. Son los días de récords de distancia. Puedes encontrar todos estos índices en cualquier sondeo online: gratuitamente en la Universidad de Wyoming, AEMET (AMA), Windy o Meteoblue; con previsiones orientadas al planeador en Skysight, Topmeteo o Meteo Parapente.
+Día de convección excepcional — conocido coloquialmente como «día termonuclear» en el argot de competición —: TT entre 44 y 48, K entre 15 y 20, CAPE entre 1.000 y 2.500 J/kg, LI negativo y vientos flojos de componente variable. Son los días de récords de distancia, pero la misma firma puede acabar en tormenta si la humedad y el disparo acompañan: vigila el sobredesarrollo. Puedes encontrar todos estos índices en cualquier sondeo online: gratuitamente en la Universidad de Wyoming, AEMET (AMA), Windy o Meteoblue; con previsiones orientadas al planeador en Skysight, Topmeteo o Meteo Parapente.
 :::
 
-Las tablas de umbrales de los apartados anteriores tienen ocho tramos cada una porque describen todo el espectro, de la calma a la tormenta severa. La tabla siguiente resume la banda útil de cada índice; las tablas completas son material de campo para cuando vueles de verdad:
+Las tablas de umbrales de los apartados anteriores (ocho tramos la del TT y seis la del K) describen todo el espectro, de la calma a la tormenta severa. La tabla siguiente resume la banda útil de cada índice; las tablas completas son material de campo para cuando vueles de verdad:
 
 | Índice | Banda de buen día térmico | Señal de alarma (tormenta) |
 | --- | --- | --- |
-| **TT** (Total Totals) | 44–52 | > 55 |
-| **K** (K-Index) | 15–25 (matizado en montaña) | > 25 |
-| **CAPE** | 1.000–2.500 J/kg | > 2.500–3.500 J/kg |
+| **TT** (Total Totals) | 44–47 | 48 o más |
+| **K** (K-Index) | 5–20 | > 25 (de 20 a 25, vigila) |
+| **CAPE** | 1.000–2.500 J/kg (no descarta la tormenta) | > 2.500 J/kg |
 | **LI** (Lifted Index) | ligeramente negativo | muy negativo |
 : Los cuatro índices de sondeo: bandas de referencia para el vuelo a vela
 
 La regla de oro para la cabina: un índice aislado no decide nada. TT y K dicen si el día vuela; CAPE y LI, cuánta energía tiene y si esa energía puede volverse contra ti en forma de tormenta.
 
 ::: {.callout-warning title="Seguridad"}
-TT > 55 o K > 25 combinado con CAPE > 2.500 J/kg señala alto riesgo de tormenta de evolución diurna. En estas condiciones, planifica el aterrizaje antes de las 16:00 h y ten siempre identificado un campo de aterrizaje alternativo en tierra antes de que se levante la convección.
+TT de 52 o más o K > 25, combinado con CAPE > 2.500 J/kg, señala alto riesgo de tormenta de evolución diurna. En estas condiciones, planifica el aterrizaje antes de las 16:00 h y ten siempre identificado un campo de aterrizaje alternativo en tierra antes de que se levante la convección.
 :::
 :::
 
@@ -173,7 +179,8 @@ TT > 55 o K > 25 combinado con CAPE > 2.500 J/kg señala alto riesgo de tormenta
 **Resumen del capítulo: termodinámica**
 
 * **Estabilidad Atmosférica**: Concepto clave. El aire es "estable" si una burbuja empujada hacia arriba tiende a volver a bajar, e "inestable" si sigue subiendo sola. El vuelo a vela vive de la inestabilidad.
-* **Gradientes Adiabáticos**: El aire seco se enfría 3°C por cada 1.000 ft al subir (DALR). El aire saturado (nube) se enfría solo la mitad, 1,5°C (SALR). Memoriza esto para predecir la base de las nubes y su desarrollo.
+* **Gradientes Adiabáticos**: El aire seco se enfría 3°C por cada 1.000 ft al subir (DALR). El aire saturado (nube) se enfría más despacio: unos 1,5°C cerca de la superficie en aire templado, más con el frío y la altura (SALR). Memoriza esto para predecir la base de las nubes y su desarrollo.
+* **Base de los cúmulos**: (T − T~rocío~) × 400 = altura de la base sobre el aeródromo, en pies. Sale de que la burbuja se enfría 3 °C por cada 1.000 ft y su punto de rocío sólo 0,5 °C: se acercan 2,5 °C por cada 1.000 ft.
 * **Inversiones**: Son capas donde la temperatura **sube** con la altura en lugar de bajar. Actúan como una tapadera invisible que frena las térmicas y atrapa la contaminación/bruma.
 * **Convección**: El sol calienta el suelo, el suelo calienta el aire, y este sube como una burbuja (modelo burbuja) o como una pluma continua (modelo columna). Cuanto más frío esté el aire arriba en comparación con el suelo, más fuerte será la térmica.
 :::

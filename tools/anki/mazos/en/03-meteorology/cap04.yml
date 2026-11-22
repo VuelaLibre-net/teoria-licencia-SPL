@@ -29,7 +29,8 @@ tarjetas:
     tipo: basica
     anverso: What lateral separation do you keep from a **cumulonimbus**?
     reverso: |
-      **Between 10 and 20 nautical miles.**
+      **No rule sets it for a glider; as a guide, at least 20 nautical miles
+      from a severe thunderstorm (FAA).**
 
       If a convective system threatens the airfield, start your landing at once.
     etiquetas: [Safety]

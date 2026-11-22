@@ -1,6 +1,6 @@
 ---
 origen: 04-comunicaciones/cap04-terminos-de-informacion-meteorologica-relevantes-vfr.qmd
-origen-commit: 8390229
+origen-commit: a27a4dd
 ---
 
 # Relevant weather information terms (VFR)
@@ -29,7 +29,7 @@ Listen to the whole ATIS **before** calling the Tower. Then include the code in 
 
 ATIS gives you the weather at one airport. **VOLMET** (from the French **VOL MÉTéorologique**) gives you the weather for a whole region.
 
-It is another pre-recorded broadcast in a loop, but instead of one aerodrome it transmits METARs, TAF forecasts and SIGMET warnings for **a group of airports in the same region**.
+It is another pre-recorded broadcast in a loop, but instead of one aerodrome it transmits the weather reports of **a group of airports in the same region**: in Spain, each one's METAR with its QNH and its trend (TREND); in other countries it may also include TAFs and SIGMETs.
 
 On long **cross-country** flights, when the weather starts to deteriorate and you are considering an alternate tens of kilometres away, the regional VOLMET tells you exactly what that field is like without calling anyone. You make the decision on real data, and the control frequency stays free.
 
@@ -59,7 +59,7 @@ A glider's altimeter is a barometer: it needs a reference pressure in its window
 When you work out your final glide or the crosswind component, you need to know which reference the wind is given in. It is not always the same (@fig-04-cap04-viento-magnetico-geografico).
 
 * **Wind given by radio (Tower / ATIS):** the wind direction for approach and take-off operations is given relative to **magnetic north** (“Wind 240 degrees, 15 knots” (*Viento 240 grados, 15 nudos*)). That makes sense: both the cockpit compass and the runway numbers use magnetic variation, so you can compare the runway direction with the wind directly, without corrections.
-* **Written wind (weather charts / METAR in text / VOLMET):** if you look up the wind on a weather website, on an upper-wind chart (GRIB) or in a METAR/TAF in text form (including the one broadcast by VOLMET), the direction is given relative to **true (geographic) north**. VOLMET broadcasts METARs and TAFs in text form, so its wind is also **true**, different from the operational wind the Tower gives you.
+* **Written wind (weather charts / METAR in text / VOLMET):** if you look up the wind on a weather website, on an upper-wind chart (GRIB) or in a METAR/TAF in text form (including the one broadcast by VOLMET), the direction is given relative to **true (geographic) north**. VOLMET rebroadcasts METARs, so its wind is also **true**, different from the operational wind the Tower gives you.
 
 ![The difference between magnetic wind (radio) and true wind (charts)](imagenes/04-cap04-viento-mag-geo.jpg){#fig-04-cap04-viento-magnetico-geografico}
 
@@ -67,7 +67,7 @@ When you work out your final glide or the crosswind component, you need to know 
 
 Two kinds of weather warning that appear on VOLMET and in pre-flight briefings:
 
-* **SIGMET** (**Significant Meteorological Information**): a warning issued by meteorological watch offices for severe en-route phenomena (thunderstorms, severe icing, severe turbulence, volcanic ash). It covers large areas and is valid for up to 4 hours (6 h over oceanic areas). When one is in force, take the flight decision very seriously.
+* **SIGMET** (**Significant Meteorological Information**): a warning issued by meteorological watch offices for severe en-route phenomena (thunderstorms, severe icing, severe turbulence, volcanic ash). It covers large areas and is valid for up to 4 hours (6 h for volcanic ash and tropical cyclones). When one is in force, take the flight decision very seriously.
 * **AIRMET** (**Airmen's Meteorological Information**): a less severe warning, aimed especially at low-level and general aviation. It covers moderate phenomena (moderate turbulence, moderate icing, reduced visibility) that do not reach the SIGMET threshold.
 
 You will find both on the regional VOLMET or in the pre-flight weather briefing. If an active SIGMET affects your route, assess whether conditions are flyable before you set off.
@@ -86,7 +86,7 @@ The SERA Regulation requires the pilot-in-command to report without delay any ha
 **Chapter summary: weather terminology**
 
 * **ATIS**: automatic voice broadcast at airports. Listening to it before calling gives you the runway in use, wind, QNH and the **information code** (e.g. “Information Bravo”, *Información Bravo*). It saves the controller time and speeds up communication.
-* **VOLMET**: a station that broadcasts METARs, TAFs and SIGMETs for several airports in a loop. It lets you plan your arrival or choose an alternate without crowding the control frequency.
+* **VOLMET**: a station that broadcasts in a loop the weather reports of several airports (in Spain, METARs with QNH and TREND). It lets you plan your arrival or choose an alternate without crowding the control frequency.
 * **Key concepts**:
   * **CAVOK**: visibility ≥ 10 km, no low cloud, no significant weather (in radio slang, *Ceiling and Visibility OK*, which is not the official name). The best possible conditions for VFR.
   * **QNH**: the reference pressure for reading altitude above sea level. Essential for respecting the vertical limits of airspace.

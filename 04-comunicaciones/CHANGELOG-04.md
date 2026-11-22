@@ -16,6 +16,31 @@ rompe la compilación.
 
 ## [En curso]
 
+### Corregido
+
+* **cap04, VOLMET, y su glosario y tarjeta Anki** — decía que difunde «METAR, TAF y SIGMET».
+  El VOLMET español difunde el informe MET, el QNH y la tendencia (AIP España GEN 3.5, §7); en
+  otros países puede incluir también TAF y SIGMET. Encontrado en la auditoría del libro 03.
+* **cap04, validez del SIGMET** — las 6 horas no son para «zonas oceánicas», sino para cenizas
+  volcánicas y ciclones tropicales (Reglamento de Ejecución (UE) 2017/373, MET.OR.250). Encontrado
+  en la auditoría del libro 03.
+* **Glosario, TAF** — en España sólo se emiten TAF de 24 y 30 horas, renovados cada 6 horas (AIP
+  España GEN 3.5). La entrada es común con el libro 03. Hallazgo TEC-34 de la auditoría del libro
+  03.
+
+### Cambiado
+
+* **Reconocimientos (preliminares)** — se explica qué significa la marca ✓: quien la lleva ha
+  revisado el libro con criterio de instructor, lo que no certifica cada afirmación técnica ni
+  normativa. La frase de los autores de los manuales clásicos se separa de la lista de revisores.
+  Común a los nueve libros. Hallazgos PED-03 y PED-13 de la auditoría del libro 03.
+* **Bibliografía, ediciones** — el *Glider Flying Handbook* lleva su año (2024), las *Easy Access
+  Rules for Sailplanes* su revisión (septiembre de 2020) y el libro de Reichmann su editorial y año
+  (Paraninfo, 1992). Común a los nueve libros. Hallazgo PED-12 de la auditoría del libro 03.
+* **Bibliografía, anexos de la OACI** — el Anexo 3 (servicio meteorológico para la navegación
+  aérea) pasa a la lista de los más relevantes para el piloto de planeador. Común a los nueve
+  libros. Hallazgo PED-12 de la auditoría del libro 03.
+
 ## [1.0-rc.18] — 21 de noviembre de 2026
 
 **Qué releer:** nada. El contenido no cambia respecto a la `1.0-rc.17`: sólo el índice alfabético

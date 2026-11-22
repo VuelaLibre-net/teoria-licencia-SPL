@@ -13,6 +13,36 @@ translated from (`origen-commit`). Terminology follows `en/terminologia.yml`.
 
 ## [In progress]
 
+**What to reread:** the whole book. The corrections from the audit of the Spanish edition
+(21 November 2026) have been ported: they change figures, thresholds and rules of thumb in every
+chapter. Chapters cap03 and cap07 are also brought up to date with the Spanish wording of their
+formulas and table labels.
+
+### Fixed
+
+* **cap05, freezing rain** — it forms clear ice, not opaque ice; the escape is to leave the area towards air with no precipitation, because the warmer air is usually above and descending may not get you out. Also in the glossary.
+* **cap03, CAPE and stability indices** — a CAPE of 1,000–2,500 J/kg no longer rules out thunderstorms; the TT and K formulas are restored; the TT scale is attributed to the western United States (AWS/TR-79/006) with Miller's lower scale as a comparison; the flat-country/mountain rule for TT and K is removed; one band per index in the summary table; the LI sign is corrected; the three stabilities (absolute, conditional) are defined against the dry and saturated lapse rates; the cumulus-base formula gives height above the aerodrome, also in the summary.
+* **cap10, METAR and TAF** — SPECI is issued for improvement as well as deterioration and, in Spain, not for wind; SKC is a US code; NSC is what a human observer writes; `VVnnn`/`VV///`, `NSW` and `WS R18` corrected; TAF in Spain is 24 or 30 hours, renewed every 6 hours; AIRMET and GAMET up to FL150 in Spain; the obligation to study the reports is SERA.2010(b), and AEMET is the official source as designated provider, not a “binding” one; the 850 hPa offset depends on the airfield's altitude and the CCL is qualified.
+* **cap01** — lower density does not mean less lift but more true airspeed for the same indicated airspeed.
+* **cap02** — Foehn warming is of the order of 5–10 °C, with a worked example; the surface wind crosses the isobars by 10–45° depending on the surface; the sea breeze has turbulent thermals and can kill the day's thermals; figure references corrected and a new section on cloud streets and terrain-induced convergence.
+* **cap04** — the WMO's three étages with their heights; mist (BR) from 1,000 to 5,000 m, distinct from haze; Cb avoidance is a guide (the FAA's 20 NM for severe thunderstorms), not a rule; advection fog typical of coasts in summer.
+* **cap05 to cap09** — downburst and microburst distinguished; the rain margin comes from the AFM; the warm front can hide embedded Cb; occlusions are cold or warm; air masses classified by source region; the winter anticyclone, the pressure-system table, the east-facing slopes, autumn and the Iberian thermal low (almost permanent in summer); rime and clear ice; rotor clouds; hail under the anvil; wind shear on final.
+* **Glossary** — new entries: CCL, density altitude, dew point, equilibrium level, pressure altitude, stationary front, TCU, Total Totals and TREND; corrections to AIRMET, buffet, CAPE, cumulus, downburst, Foehn, fog, GAMET, K-Index, NSC, ridge, rotor, SIGMET, SPECI, TAF, virga and wake turbulence; the introduction says it is in alphabetical order.
+* **Appendices and epigraph** — AEMET's AMA is listed as the official source with its low-level products; the wave wind criterion refers to summit height; the syllabus appendix gives the exam format (AMC1 SFCL.135); the epigraph names its source.
+
+### Added
+
+* **cap01** — composition and layers of the atmosphere; pressure altitude and density altitude.
+* **cap05** — how precipitation forms and what types there are.
+* **cap10** — radar, satellite and weather charts.
+* **Bibliography** — a “Meteorology” section with Part-MET, AIP España GEN 3.5, the WMO Cloud Atlas, FAA AC 00-6B and AC 00-24C, AWS/TR-79/006 and the National Atlas of Spain. Annex 3 joins the ICAO annexes most relevant to the glider pilot, and the editions of the Glider Flying Handbook (2024), the Easy Access Rules for Sailplanes (September 2020 revision) and Reichmann's Spanish edition (Paraninfo, 1992) are given. Ported from the Spanish edition.
+* **Anki** — the cards of cap01 to cap10 follow the changes above; the ids are unchanged.
+
+### Layout and production
+
+* **Figures under review** — twelve figures carry the class `.corregir`, the “IN REVIEW” watermark and a *(FIX: …)* note at the end of the caption until they are redrawn; the filter is enabled in `_quarto.yml`.
+* **Acknowledgements** — the ✓ legend now says that the review is an instructor's judgement and does not certify every technical or regulatory statement; the sentence on the classic manuals no longer runs into the list of names.
+
 ## [0.8.3] — 21 November 2026
 
 **What to reread:** nothing. The content is unchanged since `0.8.2`: only the PDF index, which is

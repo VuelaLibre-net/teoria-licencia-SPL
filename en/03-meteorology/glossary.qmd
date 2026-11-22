@@ -1,11 +1,11 @@
 ---
 origen: 03-meteorologia/glosario.qmd
-origen-commit: 8390229
+origen-commit: dcc5089
 ---
 
 # Glossary of terms
 
-This glossary contains the most relevant definitions and acronyms of aeronautical meteorology applicable to the Sailplane Pilot Licence (SPL), organised according to the EASA AMC1 SFCL.130 training syllabus.
+This glossary contains the most relevant definitions and acronyms of aeronautical meteorology applicable to the Sailplane Pilot Licence (SPL), in alphabetical order.
 
 **Advection fog**
 : Fog that forms when a mass of warm, moist air moves horizontally over a colder surface (a cold sea, a snow-covered valley or a coastline), which cools its base to saturation. Unlike radiation fog, it does not depend on cooling overnight and can persist day and night for as long as the flow lasts.
@@ -14,7 +14,7 @@ This glossary contains the most relevant definitions and acronyms of aeronautica
 : A large volume of tropospheric air whose physical properties (temperature and humidity), acquired in its source region, are horizontally uniform. Its temperature relative to the ground it passes over decides whether the atmosphere is unstable (cold air over warm ground) or stable (warm air over cold ground).
 
 **AIRMET (Airmen's Meteorological Information)**
-: Aviation weather message warning of en-route phenomena that matter to aircraft flying below FL100 (or FL150 in mountainous areas). Especially relevant to VFR gliding.
+: Aviation weather message warning of en-route phenomena that matter to aircraft flying below FL100 (or FL150 in mountainous areas, or higher if needed), under the European rule; in Spain, AEMET issues them up to FL150 for the whole FIR. Especially relevant to VFR gliding.
 
 **Altocumulus lenticularis (ACSL)**
 : A lens- or saucer-shaped cloud that stays stationary relative to the ground despite strong winds. Its presence shows laminar mountain-wave flow overhead. It is the visual sign that invites you to go wave flying.
@@ -32,13 +32,16 @@ This glossary contains the most relevant definitions and acronyms of aeronautica
 : A conceptual model of the thermal in which heat builds up over the source until the mass of air breaks away, forming a ring vortex. The climb is intermittent and the central core rises faster than the edges. The glider must centre on the core to get the best climb.
 
 **Buffet**
-: Vibration of the structure caused by air separating from the wing and striking the fuselage and tail as the critical angle of attack approaches. Together with the high nose and soft controls, it is the most noticeable warning of a stall. It matters in meteorology because structural ice suppresses it: with a contaminated wing, the glider can stall well above its usual speed and without any warning.
+: Vibration of the structure caused by air separating from the wing and striking the fuselage and tail as the critical angle of attack approaches. Together with the high nose and soft controls, it is the most noticeable warning of a stall. It matters in meteorology because structural ice can reduce or remove it: with a contaminated wing, the glider can stall well above its usual speed and without any warning.
 
 **CAPE (Convective Available Potential Energy)**
-: It quantifies the accumulated buoyancy of a parcel of air from the surface to the equilibrium level. It is shown as the area between the parcel curve and the environment curve on the thermodynamic sounding. Guide values: < 500 J/kg (weak day), 1,000–2,500 J/kg (excellent), > 3,500 J/kg (severe convection likely).
+: It quantifies the accumulated buoyancy of a parcel of air from the level of free convection (LFC) to the equilibrium level. It is shown as the area between the parcel curve and the environment curve on the thermodynamic sounding. Guide values: 0 J/kg (no convective energy), 1,000–2,500 J/kg (strong thermals, though it does not rule out thunderstorms), > 3,500 J/kg (severe convection likely).
 
 **CAVOK (Visibility, cloud and present weather better than prescribed values or conditions)**
 : Term used in weather reports that replaces certain visibility, present weather and cloud data when the established conditions are met at the same time: visibility of 10 km or more (the lowest visibility is not reported); no cloud below 5,000 ft or below the highest minimum sector altitude, whichever is greater, and no cumulonimbus or towering cumulus at any height; and no weather of significance to aviation (Commission Implementing Regulation (EU) 2017/373). The name is ICAO's; at the club you will hear the backronym *Ceiling And Visibility OK*, which is not the official name.
+
+**CCL (Convective Condensation Level)**
+: The level at which the cumulus base forms when the ground warms up enough for convection to start from the surface. On the sounding, it is where the mixing ratio line drawn from the surface dew point crosses the environment curve. The surface temperature needed to reach it is the convective temperature.
 
 **Col (barometric col)**
 : A transition area between two anticyclones and two opposing depressions where the pressure gradient is practically zero. It produces light, variable winds, reduced visibility from fog or mist in winter, and a risk of isolated local thunderstorms in summer.
@@ -59,7 +62,7 @@ This glossary contains the most relevant definitions and acronyms of aeronautica
 : A cloud of extreme vertical development that can reach the tropopause. It is the most serious weather hazard for light aviation: severe turbulence, hail, lightning, torrential rain and microbursts. The recommended safety distance is at least 10–20 NM.
 
 **Cumulus (Cu)**
-: A convective cloud of vertical development with a flat base and well-defined outlines. Its presence indicates instability and active thermals. The cumulus base marks the lifted condensation level (LCL) and can be worked out with the formula (T − Td) × 400 = height in feet.
+: A convective cloud of vertical development with a flat base and well-defined outlines. Its presence indicates instability and active thermals. The cumulus base marks the lifted condensation level (LCL) and its height above the aerodrome can be worked out with the formula (T − Td) × 400 = height in feet.
 
 **Cumulus congestus (Cu con)**
 : The stage of strong vertical growth of a cumulus, before cumulonimbus. Its “cauliflower” towers, with outlines still sharp, signal vigorous convection and a risk of overdevelopment into Cb. When the top loses its definition and turns fibrous, the Cb is already under way.
@@ -70,23 +73,32 @@ This glossary contains the most relevant definitions and acronyms of aeronautica
 **DALR (Dry Adiabatic Lapse Rate)**
 : The rate at which an unsaturated parcel of air cools as it rises adiabatically: 3 °C per 1,000 ft. It is the key to the Foehn effect on the lee side and to the cloud-base formula.
 
+**Density altitude**
+: Pressure altitude corrected for non-standard temperature: the altitude in the standard atmosphere at which the air would have its actual density. A hot day at a high airfield can have a density altitude thousands of feet above its elevation, and aircraft perform as if they were up there.
+
 **Depression (Low, L)**
 : A low-pressure system marked by convergence of air at the surface, which forces it to rise, cool and form cloud, fronts and precipitation. Surface winds circulate anticlockwise in the northern hemisphere. The post-frontal zone is often the most favourable for soaring.
 
+**Dew point**
+: The temperature to which air must be cooled, without changing its pressure or its vapour content, for it to become saturated. The closer it is to the temperature, the moister the air. In the METAR it follows the temperature (in `16/09`, 9 °C).
+
 **Downburst (microburst)**
-: A violent downdraught produced beneath a cumulonimbus or cumulus congestus when it precipitates. On hitting the ground it spreads out horizontally in all directions. Particularly dangerous on final approach: first it produces a false headwind (a deceptive gain in lift) and seconds later a tailwind that can drive the glider into the ground.
+: A violent downdraught produced beneath a cumulonimbus or cumulus congestus when it precipitates, and also beneath cumulus with virga. If it affects an area less than about 4 km across it is called a **microburst**. On hitting the ground it spreads out horizontally in all directions. Particularly dangerous on final approach: first it produces a false headwind (a deceptive gain in lift) and seconds later a tailwind that can drive the glider into the ground.
+
+**Equilibrium level (EL)**
+: The altitude at which a freely rising parcel again has the temperature of its surroundings and stops being lighter than them. It marks the top of convection (in a thunderstorm, roughly the height of the anvil) and is the upper limit of the CAPE area.
 
 **Foehn effect**
-: The process by which air rising on the windward side of a mountain range precipitates and releases latent heat (following the SALR in the cloud), but descends on the lee side completely dry, warming at the full DALR all the way down. The temperature difference between the two valleys can exceed 10–15 °C. The **Foehn wall** is the stationary bank of cloud over the crest on the windward side.
+: The process by which air rising on the windward side of a mountain range precipitates and releases latent heat (following the SALR in the cloud), but descends on the lee side completely dry, warming at the full DALR all the way down. With this mechanism, the air reaches the lee side of the order of 5–10 °C warmer. The **Foehn wall** is the stationary bank of cloud over the crest on the windward side.
 
 **Fog**
-: A suspension of microscopic water droplets that reduces visibility below 1,000 m. It rules out VFR operations. It is distinguished from **mist**, which reduces visibility to between 1,000 m and 5,000 m and so also prevents CAVOK, which requires 10 km or more. In METAR it is coded as `FG` (fog) or `BR` (mist).
+: A suspension of microscopic water droplets that reduces visibility below 1,000 m. It rules out VFR operations. It is distinguished from **mist**, with visibility of 1,000 m or more, which the METAR codes `BR` up to 5,000 m and which also prevents CAVOK, which requires 10 km or more. In METAR it is coded as `FG` (fog) or `BR` (mist).
 
 **FZRA (Freezing Rain)**
-: Liquid precipitation falling through a layer with a temperature below 0 °C. The supercooled droplets freeze on hitting the glider's surfaces, forming opaque or clear ice on the leading edge. An emergency: the only remedy is a 180° turn and an immediate descent.
+: Liquid precipitation falling through a layer with a temperature below 0 °C. The supercooled droplets freeze on hitting the glider's surfaces, forming mainly clear (transparent) ice on the leading edge. An emergency: leave the area at once (a 180° turn) towards air with no precipitation; the warmer air is usually above, and descending may not take you out of the below-freezing layer.
 
 **GAMET (General Area Meteorological Forecast)**
-: An area weather forecast for general aviation flights below FL100, issued by national meteorological providers. It reports hazards such as icing, turbulence, fog and thunderstorms en route.
+: An area weather forecast for general aviation flights at low levels (in Spain, up to FL150), issued by national meteorological providers. It reports hazards such as icing, turbulence, fog and thunderstorms en route.
 
 **Geostrophic wind**
 : Wind that blows parallel to the isobars at levels more than 1,000 m above the ground, resulting from the balance between the pressure gradient force and the Coriolis force. At the surface, friction breaks this balance and the wind crosses the isobars towards the low pressure at an angle of about 30°.
@@ -110,7 +122,7 @@ This glossary contains the most relevant definitions and acronyms of aeronautica
 : A descending air current that forms in the evening and at night when the air in contact with the slopes cools by radiation and flows down by gravity. Where it flows down both slopes, restitution can produce gentle lift in the middle of the valley.
 
 **K-Index**
-: An atmospheric stability index that combines the vertical temperature gradient between 850 hPa and 500 hPa with humidity at middle levels. It is the daily indicator most used by glider pilots: K < 5 (weak day), 5–15 (good thermals), 15–20 (excellent), 20–30 (excellent with showers), > 30 (high probability of thunderstorms). The upper bands agree with George's scale of air-mass thunderstorm probability (15–20 ≈ 20 %, 31–35 ≈ 60–80 %); the lower ones are an adaptation for soaring, because below 15 the meteorological scale makes no distinction: to it they are all days without thunderstorms.
+: An atmospheric stability index that combines the vertical temperature gradient between 850 hPa and 500 hPa with humidity at low and middle levels. It is the daily indicator most used by glider pilots: K < 5 (weak day), 5–15 (good thermals), 15–20 (excellent), 20–30 (excellent with showers), > 30 (high probability of thunderstorms). The upper bands agree with George's scale of air-mass thunderstorm probability (15–20 ≈ 20 %, 31–35 ≈ 60–80 %); the lower ones are an adaptation for soaring, because below 15 the meteorological scale makes no distinction: to it they are all days without thunderstorms.
 
 **LCL (Lifted Condensation Level)**
 : The altitude at which a parcel of air, lifted adiabatically, reaches saturation and starts to condense. In practice, it is the height of the cumulus base. On the Skew-T sounding it is found by crossing two lines: the dry adiabat drawn from the surface temperature and the saturation mixing ratio line drawn from the surface dew point. It must not be confused with the point where the temperature and dew point curves meet, which marks a layer that is already saturated (fog, stratus or existing cloud). Quick estimate: (T − Td) × 400 = height in feet. Spanish texts call it NCA (*Nivel de Condensación por Ascenso*).
@@ -127,14 +139,17 @@ This glossary contains the most relevant definitions and acronyms of aeronautica
 **Microburst**
 : See Downburst.
 
-**Mountain wave (wave soaring)**
+**Mountain wave**
 : A wave-like oscillation of the airflow produced downwind of a mountain range when the wind is perpendicular to the crest, exceeds a threshold speed and there is a stable layer at crest height. It allows a laminar climb to great altitudes. Lenticular altocumulus are its visual sign. Rotors underneath are the main danger.
 
 **NSC (No Significant Cloud)**
-: Indicator in METAR/TAF showing no cloud below 5,000 ft (or the highest minimum sector altitude, whichever is greater) and no cumulonimbus or towering cumulus. It is used only when CAVOK does not apply: unlike CAVOK, it does not imply visibility ≥ 10 km. It does not say the sky is clear, only that no cloud is operationally significant; for a truly clear sky there are `SKC` (**Sky Clear**), written by a human observer, and `NCD` (**No Cloud Detected**), issued by an automatic station whose sensors have detected no cloud.
+: Indicator in METAR/TAF showing no cloud below 5,000 ft (or the highest minimum sector altitude, whichever is greater) and no cumulonimbus or towering cumulus. It is used only when CAVOK does not apply: unlike CAVOK, it does not imply visibility ≥ 10 km. It does not say the sky is clear, only that no cloud is operationally significant; it is what a human observer writes when the sky is clear. Automatic stations use `NCD` (**No Cloud Detected**) when their sensors detect no cloud. `SKC` (**Sky Clear**) is a US code that does not appear in European METARs.
 
 **Occluded front (occlusion)**
 : A frontal structure that forms when a cold front catches up and merges with the warm front ahead of it, pinching the warm air in between and forcing it to rise. It produces complex conditions: extensive precipitation, embedded convective cores and poor visibility. Of little or no use for soaring.
+
+**Pressure altitude**
+: The altitude the altimeter shows when set to 1013.25 hPa: the altitude in the standard atmosphere that corresponds to the current pressure.
 
 **QNH (Altimeter setting to mean sea level)**
 : Setting that lets the altimeter show altitude and, on the ground, approximately the elevation of the point considered.
@@ -143,10 +158,10 @@ This glossary contains the most relevant definitions and acronyms of aeronautica
 : Fog that forms on clear autumn and winter nights when the ground loses heat by radiation into space, cools the air in contact with it to the dew point and causes condensation. It can be very dense and last until mid-morning. Especially common in winter anticyclones with light winds.
 
 **Ridge (of high pressure)**
-: A tongue-shaped extension of an anticyclone towards an area of lower pressure. It shares the characteristics of its parent system: subsidence, clear skies, fine weather and no convective lift.
+: A tongue-shaped extension of an anticyclone towards an area of lower pressure. It shares the characteristics of its parent system: subsidence, little cloud, fine weather and thermals capped in height by the subsidence.
 
 **Rotor**
-: A small-scale turbulent vortex that forms downwind of the foot of a slope or mountain range, under the first crest of the mountain wave. It produces severe, unpredictable turbulence at low level. **Rotor clouds** are ragged stratus under the wave that mark this dangerous zone.
+: A small-scale turbulent vortex that forms downwind of the foot of a slope or mountain range, under the first crest of the mountain wave. It produces severe, unpredictable turbulence at low level. **Rotor clouds** are ragged cumuliform clouds (fractocumulus) under the wave that mark this dangerous zone.
 
 **SALR (Saturated Adiabatic Lapse Rate)**
 : The rate at which a saturated parcel of air (forming cloud) cools as it rises adiabatically: about 1.5 °C per 1,000 ft. It is lower than the DALR because condensation releases latent heat that “slows down” the cooling.
@@ -155,13 +170,16 @@ This glossary contains the most relevant definitions and acronyms of aeronautica
 : Wind that blows from the sea towards the land during the day, caused by the difference in heating between the land surface (which warms faster) and the sea. Where it meets the warm continental air, it creates a convergence line that can be used as a source of lift on cross-country flights.
 
 **SIGMET (Significant Meteorological Information)**
-: A warning message that informs crews of en-route weather phenomena of great importance for safety: severe icing (`SEV ICE`), severe turbulence (`SEV TURB`), volcanic ash activity or tropical cyclones.
+: A warning message that informs crews of en-route weather phenomena of great importance for safety: obscured, embedded, frequent or squall-line thunderstorms (`TS`), severe icing (`SEV ICE`), severe turbulence (`SEV TURB`), severe mountain wave (`SEV MTW`), dust or sand storms, volcanic ash or tropical cyclones.
 
 **SIGWX (Significant Weather Chart)**
 : A synoptic-scale forecast that shows the distribution of frontal systems, areas of turbulence and icing, and other areas of significant weather over a geographical region. Essential for planning cross-country flights.
 
 **SPECI (Special Aerodrome Report)**
-: A special aerodrome weather report, in the same format as the METAR, issued outside the regular cycle as soon as a condition changes significantly: the wind veers or strengthens, visibility or cloud base crosses an operational threshold, a thunderstorm appears. It takes precedence over the current METAR because it is more recent.
+: A special aerodrome weather report, in the same format as the METAR, issued outside the regular cycle when a condition changes significantly, for the worse or for the better: visibility or the base or amount of cloud crosses an operational threshold, a thunderstorm or precipitation starts or stops. In Spain it is not issued for changes in the wind, except under local criteria, nor in automatic mode. The report in force is the one with the latest time.
+
+**Stationary front**
+: An almost motionless boundary between two different air masses, neither of which is strong enough to displace the other. It can persist for days, with rain and fog along its axis. On charts it is drawn with alternating blue triangles and red semicircles on opposite sides of the line.
 
 **Stau (upslope cloud)**
 : The counterpart of the Foehn: a build-up of cloud and heavy precipitation on the windward slope of a mountain range, where moist air rises and condenses. While it rains on the windward side (Stau), on the lee side the sky may be clear and the temperature several degrees higher (Foehn).
@@ -170,7 +188,10 @@ This glossary contains the most relevant definitions and acronyms of aeronautica
 : Droplets of water that remain liquid at temperatures below 0 °C (down to −40 °C). They are unstable: on hitting any solid surface they freeze almost instantly. They are the main cause of in-flight icing.
 
 **TAF (Terminal Aerodrome Forecast)**
-: A coded weather forecast describing the conditions expected at a specific aerodrome over a given period (typically 9, 24 or 30 hours).
+: A coded weather forecast describing the conditions expected at a specific aerodrome over a given period (9, 24 or 30 hours; in Spain, 24 or 30, renewed every 6 hours).
+
+**TCU (Towering Cumulus)**
+: A cumulus of great vertical development (cumulus congestus) that is not yet a cumulonimbus. It is reported in the METAR and the TAF, and its presence, at any level, rules out CAVOK.
 
 **Temperature inversion**
 : An atmospheric layer in which temperature increases with altitude instead of decreasing. It acts as an invisible ceiling that stops thermals completely, limits the maximum flying height and traps pollution and haze at the lower levels, degrading visibility.
@@ -180,6 +201,12 @@ This glossary contains the most relevant definitions and acronyms of aeronautica
 
 **Thermodynamic diagram (Skew-T / Stüve)**
 : A diagram showing the vertical profile of temperature, dew point and wind in the atmosphere, obtained by radiosonde. It lets the pilot estimate the height of the cumulus bases (LCL), the thermal ceiling, the risk of overdevelopment (LFC) and the stability indices (K-Index, CAPE, LI).
+
+**Total Totals (TT)**
+: A stability index that adds two differences from the temperature at 500 hPa: that of the temperature at 850 hPa and that of the dew point at 850 hPa. TT = (T850 + Td850) − 2·T500. Its thunderstorm thresholds vary from one region to another (see chapter 3).
+
+**TREND (trend forecast)**
+: A forecast for the next two hours added at the end of the METAR: `BECMG` (permanent change), `TEMPO` (temporary change) or `NOSIG` (no significant change).
 
 **Tropopause**
 : The upper boundary of the troposphere, where the temperature lapse rate falls to zero and temperature levels off. At middle latitudes it lies between 8,000 m (winter) and 12,000 m (summer). The cumulonimbus anvil spreads out horizontally when it reaches this layer, which acts as a ceiling for convection.
@@ -191,10 +218,10 @@ This glossary contains the most relevant definitions and acronyms of aeronautica
 : A long, tongue-shaped extension of a depression towards an area of higher pressure. It concentrates the effects of low pressure: instability, convective cumulus, showers and turbulence. It produces dynamic convergence lines.
 
 **Virga**
-: Precipitation that falls from the base of a cloud but evaporates before reaching the ground. Evaporation takes heat from the column of air, which becomes dense and descends violently, producing a microburst (**downburst**). Virga is a visual warning of severe turbulence and wind shear beneath it, even in apparently clear skies.
+: Precipitation that falls from the base of a cloud but evaporates before reaching the ground. Evaporation takes heat from the column of air, which becomes dense and descends violently, producing a downburst or a microburst. Virga is a visual warning of severe turbulence and wind shear beneath it, even in apparently clear skies.
 
 **Wake turbulence**
-: Counter-rotating tubular vortices produced by fixed-wing aircraft as they generate lift, or by the rotor downwash and vortices of helicopters. They sink slowly and persist for several minutes after the aircraft has passed. Crossing them at right angles can induce a rolling moment greater than the glider's ailerons can hold. The recommended minimum separation is at least 3 minutes behind heavy aircraft and 3 rotor diameters from hovering helicopters.
+: Counter-rotating tubular vortices produced by fixed-wing aircraft as they generate lift, or by the rotor downwash and vortices of helicopters. They sink slowly and persist for several minutes after the aircraft has passed. Entering them aligned with the track of the aircraft that produced them can induce a roll greater than the authority of the ailerons; crossing them produces jolts and sudden loads. The recommended minimum separation is at least 3 minutes behind heavy aircraft and 3 rotor diameters from hovering helicopters.
 
 **Warm front**
 : The boundary surface where a mass of warm air advances over an existing mass of cold air. The ascent is gradual (gentle slope), producing light, continuous precipitation, low cloud ceilings and stability: poor operating conditions for soaring. Its forerunners are cirrus clouds that lower progressively (Ci → Cs → As → Ns).

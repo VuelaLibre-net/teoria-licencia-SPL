@@ -1,6 +1,6 @@
 ---
 origen: 03-meteorologia/apendice-syllabus-oficial-easa---meteorologia.qmd
-origen-commit: e0f5386
+origen-commit: 589cf20
 ---
 
 # Official EASA syllabus - meteorology
@@ -18,7 +18,7 @@ The following syllabus corresponds to the subject **Meteorology** for the Sailpl
 * 3.9. Flight hazards.
 * 3.10. Meteorological information.
 
-This manual has been structured to follow this official syllabus faithfully, so that you cover every point needed for the theoretical examination.
+This manual follows its headings. In the theoretical examination this subject has 20 multiple-choice questions and 40 minutes (AMC1 SFCL.135).
 
 ## Test yourself
 

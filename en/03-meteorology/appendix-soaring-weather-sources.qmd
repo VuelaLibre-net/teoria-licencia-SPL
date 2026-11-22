@@ -1,6 +1,6 @@
 ---
 origen: 03-meteorologia/apendice-fuentes-meteorologia.qmd
-origen-commit: 078bf92
+origen-commit: 589cf20
 ---
 
 # Weather Sources for Soaring
@@ -31,10 +31,12 @@ This list brings together some of the weather forecasting tools that are useful 
 * **EDL-Soaring**. Specialises in mountain wave, with interactive maps covering Spain and France. It offers downloadable data in mbtiles format for offline use in navigation apps (XCSoar, SeeYou, etc.).
   [https://www.edl-soaring.com/maps/](https://www.edl-soaring.com/maps/)
 
-**General weather tools — free**
+**Official source**
 
-* **AEMET — Autoservicio Meteorológico Aeronáutico (AMA)**. The official Spanish service (from the Spanish State Meteorological Agency), with METAR, TAF, SIGMET and radar and satellite imagery. Registration with a pilot licence is required. Useful for the general synoptic picture, although it has no wave-specific layers.
+* **AEMET — Autoservicio Meteorológico Aeronáutico (AMA)**. The official Spanish service (from the Spanish State Meteorological Agency): METAR, TAF, SIGMET, AIRMET, GAMET, low-level significant weather charts (SWL), radar and satellite. You have to register as an aviation user. It is the basis of the briefing; it has no wave-specific layers, and the tools below complement it.
   [https://ama.aemet.es](https://ama.aemet.es)
+
+**General weather tools — free**
 
 * **Windy**. Displays wind at several pressure levels (850, 700, 500 hPa) with the ECMWF, GFS and ICON models. It lets you check quickly whether there is a component perpendicular to the ridge and compare how far the models agree. It does not model wave specifically.
   [https://www.windy.com](https://www.windy.com)
@@ -49,6 +51,6 @@ This list brings together some of the weather forecasting tools that are useful 
 
 Whatever tool you use, to forecast mountain wave you need to check three conditions:
 
-* **Wind perpendicular to the ridge**, ideally between 15 and 40 km/h at the surface and increasing with height.
+* **Wind nearly perpendicular to the ridge** (within about 30° of the perpendicular), of at least 15–20 kt (about 28–37 km/h) at summit height and increasing with height.
 * **Atmospheric stability**: a stable layer aloft, ideally with an inversion at or slightly above summit height.
 * **Wind direction constant with height**: no significant directional shear (the wind must keep its component perpendicular to the ridge at all levels).

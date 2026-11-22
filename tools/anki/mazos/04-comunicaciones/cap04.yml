@@ -30,8 +30,8 @@ tarjetas:
     tipo: basica
     anverso: ¿Qué es el **VOLMET**?
     reverso: |
-      **Una emisora que difunde METAR, TAF y SIGMET de varios aeropuertos en
-      bucle.**
+      **Una emisora que difunde en bucle los informes meteorológicos de varios
+      aeropuertos: en España, METAR con QNH y TREND.**
 
       Permite planificar la llegada o elegir alternativo sin saturar la
       frecuencia de control.

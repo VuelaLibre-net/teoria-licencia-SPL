@@ -12,7 +12,7 @@ tarjetas:
     anverso: What is the difference between a **METAR** and a **TAF**?
     reverso: |
       **METAR: a current snapshot, every 30 minutes. TAF: a forecast, for 9, 24
-      or 30 hours.**
+      or 30 hours; in Spain, only 24 or 30 hours.**
 
   - id: codigos-fg-br-cavok
     tipo: cloze
@@ -26,11 +26,13 @@ tarjetas:
     anverso: What is a **SPECI**, and how does it relate to the METAR?
     reverso: |
       **The special aerodrome report: same format as the METAR, but issued
-      outside the regular cycle because something has changed significantly.**
+      outside the regular cycle because something has changed significantly,
+      for the worse or for the better.**
 
-      Wind veering or strengthening, visibility or cloud base crossing an
-      operational threshold, a thunderstorm appearing. It is more recent than
-      the current METAR, so it takes precedence over it.
+      Visibility or cloud base crossing an operational threshold, a
+      thunderstorm starting or stopping. In Spain it is not issued for the
+      wind, except under local criteria. The report in force is the one with
+      the latest time.
 
   - id: octas-cobertura
     tipo: cloze
@@ -61,17 +63,18 @@ tarjetas:
     anverso: How do a **SIGMET** and an **AIRMET** differ?
     reverso: |
       **In level and severity: a SIGMET covers any level in the FIR; an AIRMET,
-      less severe phenomena below FL100 (FL150 in mountainous areas).**
+      less severe phenomena at low levels: in Spain, up to FL150 for the whole
+      FIR.**
 
       A GAMET is not a warning but an area forecast in abbreviated plain
       language for low levels.
 
   - id: aemet-ama-fuente-oficial
     tipo: basica
-    anverso: What is the **official, binding** source for the weather briefing?
+    anverso: What is the **official** source for the weather briefing?
     reverso: |
-      **AEMET, the Spanish State Meteorological Agency, and its aeronautical
-      platform AMA** (Autoservicio Meteorológico Aeronáutico): METAR, SPECI,
+      **AEMET, the Spanish State Meteorological Agency and designated service
+      provider, and its aeronautical platform AMA** (Autoservicio Meteorológico Aeronáutico): METAR, SPECI,
       TAF, SIGMET and AIRMET.
 
       Not NOTAMs: those are published by the aeronautical information service

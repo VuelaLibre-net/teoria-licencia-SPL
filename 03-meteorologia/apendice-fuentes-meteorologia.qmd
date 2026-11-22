@@ -26,10 +26,12 @@ Esta relación reúne algunas de las herramientas de pronóstico meteorológico 
 * **EDL-Soaring**. Especializado en onda de montaña, con mapas interactivos que cubren España y Francia. Ofrece datos descargables en formato mbtiles para uso offline en aplicaciones de navegación (XCSoar, SeeYou, etc.).
   [https://www.edl-soaring.com/maps/](https://www.edl-soaring.com/maps/)
 
-**Herramientas meteorológicas generales — gratuitas**
+**Fuente oficial**
 
-* **AEMET — Autoservicio Meteorológico Aeronáutico (AMA)**. Servicio oficial español con METAR, TAF, SIGMET e imágenes de radar y satélite. Requiere registro con licencia aeronáutica. Útil para el contexto sinóptico general, aunque no tiene capas específicas de onda.
+* **AEMET — Autoservicio Meteorológico Aeronáutico (AMA)**. Servicio oficial español: METAR, TAF, SIGMET, AIRMET, GAMET, mapas de tiempo significativo de niveles bajos (SWL), radar y satélite. Hay que registrarse como usuario aeronáutico. Es la base del briefing; no tiene capas específicas de onda, y las herramientas siguientes lo complementan.
   [https://ama.aemet.es](https://ama.aemet.es)
+
+**Herramientas meteorológicas generales — gratuitas**
 
 * **Windy**. Visualización del viento en múltiples niveles de presión (850, 700, 500 hPa) con modelos ECMWF, GFS e ICON. Permite comprobar rápidamente si hay componente perpendicular a la sierra y comparar el consenso entre modelos. No modela onda específicamente.
   [https://www.windy.com](https://www.windy.com)
@@ -44,6 +46,6 @@ Esta relación reúne algunas de las herramientas de pronóstico meteorológico 
 
 Independientemente de la herramienta que utilices, para prever onda de montaña necesitas revisar tres condiciones:
 
-* **Viento perpendicular a la sierra**, idealmente entre 15 y 40 km/h en superficie, aumentando con la altura.
+* **Viento casi perpendicular a la sierra** (dentro de unos 30° de la perpendicular), de al menos 15–20 kt (unos 28–37 km/h) a la altura de las cimas y aumentando con la altura.
 * **Estabilidad atmosférica**: una capa estable en altura, idealmente con inversión a la altura de las cimas o algo por encima.
 * **Dirección del viento constante con la altura**: sin cizalladura direccional significativa (el viento debe mantener su componente perpendicular a la sierra en todos los niveles).

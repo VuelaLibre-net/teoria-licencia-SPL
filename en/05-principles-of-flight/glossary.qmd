@@ -1,11 +1,11 @@
 ---
 origen: 05-principios-vuelo/glosario.qmd
-origen-commit: 6e22a6e
+origen-commit: a27a4dd
 ---
 
 # Glossary of terms
 
-This glossary brings together the essential definitions and acronyms of aerodynamics and the principles of flight for the Sailplane Pilot Licence (SPL), organised according to the EASA AMC1 SFCL.130 training syllabus.
+This glossary brings together the essential definitions and acronyms of aerodynamics and the principles of flight for the Sailplane Pilot Licence (SPL), in alphabetical order.
 
 **Adverse yaw**
 : An unwanted side effect of using the ailerons to start a turn. The down-going aileron (outer wing) produces more lift and also more induced drag, holding that side back and pulling the nose away from the turn. It is especially pronounced in long-span sailplanes. It is corrected by coordinating hand and foot: applying stick and rudder in the same direction at the same time.

@@ -5,9 +5,21 @@
 > cada tipo de precipitación afecta al planeador aerodinámicamente, cuáles son los más
 > peligrosos y qué decisiones debes tomar ante los primeros síntomas para mantenerte seguro.
 
+## Cómo se forma la precipitación y qué tipos hay
+
+Una nube está hecha de gotículas tan pequeñas que flotan; para que llueva, tienen que crecer hasta pesar lo bastante para caer. Lo consiguen por dos caminos. En las nubes que superan el nivel de congelación, los cristales de hielo crecen a costa de las gotículas superenfriadas que los rodean y caen como nieve, que se funde en lluvia si atraviesa aire cálido (proceso de Bergeron). En las nubes cálidas, las gotas mayores crecen chocando y uniéndose con las pequeñas (coalescencia).
+
+El tipo de nube decide el tipo de precipitación:
+
+* **Precipitación continua**, de intensidad uniforme y larga duración: nubes estratiformes, como nimboestratos y altoestratos.
+* **Chubascos**, que empiezan y acaban de golpe y cambian de intensidad: nubes convectivas, como los cúmulos de gran desarrollo y los cumulonimbos.
+* **Llovizna**, de gotas muy finas: estratos bajos.
+
+Según cómo llegue al suelo, la precipitación es lluvia, llovizna, nieve, granizo (de cumulonimbos) o gránulos de hielo, que indican que por encima hay lluvia engelante.
+
 ## La lluvia y la degradación aerodinámica
 
-Los planeadores están diseñados con perfiles laminares calibrados para una alta eficiencia. El impacto de la lluvia altera severamente el perfil aerodinámico al provocar que el flujo de aire se desprenda prematuramente y se vuelva turbulento a lo largo de las alas mojadas.
+Los planeadores están diseñados con perfiles laminares calibrados para una alta eficiencia. La lluvia altera severamente el perfil aerodinámico: sobre el ala mojada, la capa límite pasa antes de laminar a turbulenta, y eso aumenta la resistencia. En algunos perfiles provoca además desprendimiento.
 
 En vuelo con lluvia, las consecuencias son directas:
 
@@ -16,14 +28,14 @@ En vuelo con lluvia, las consecuencias son directas:
 * **Mayor tasa de descenso:** Se aprecia un incremento notorio en la tasa de caída o hundimiento (**sink rate**) para lograr mantener una misma velocidad de vuelo.
 
 ::: {.callout-warning title="Seguridad"}
-Con alas mojadas, añade siempre un margen mínimo de 5-10 kt sobre tu velocidad de aproximación estándar. Evita giros pronunciados: el riesgo de entrada en pérdida es significativamente mayor que en configuración seca y puede producirse sin advertencia previa.
+Con alas mojadas, añade un margen a tu velocidad de aproximación estándar. Cuánto, lo dice el manual de vuelo (AFM) de tu planeador; como orientación, se suelen sumar unos 5–10 kt. Evita giros pronunciados: el riesgo de entrada en pérdida es significativamente mayor que en configuración seca y puede producirse sin advertencia previa.
 :::
 
 ## El granizo (GR) y nubes convectivas
 
 El granizo nace dentro del Cumulonimbus (Cb). Las potentes corrientes ascendentes lanzan las gotas de agua hasta por encima del nivel de congelación, donde se congelan. Luego caen, son atrapadas de nuevo por la corriente y suben otra vez, ganando una capa de hielo en cada ciclo —como una cebolla— hasta que pesan demasiado para que la corriente las sostenga. El resultado son piedras que pueden superar los 2–3 cm de diámetro.
 
-Para las aeronaves compuestas con perfiles ligeros de fibra, la aceleración cinética del granizo (sumada a la propia velocidad de la aeronave) presenta gran riesgo estructural. Resulta habitual constatar roturas y perforaciones en la cúpula (**canopy**), daños en los recubrimientos protectores superficiales de **gelcoat**, o posibles delaminaciones de la matriz celular sintética en impactos directos severos.
+Para las aeronaves compuestas con perfiles ligeros de fibra, la energía del impacto del granizo (sumada a la propia velocidad de la aeronave) presenta gran riesgo estructural. Resulta habitual constatar roturas y perforaciones en la cúpula (**canopy**), daños en los recubrimientos protectores superficiales de **gelcoat**, o posibles delaminaciones del material compuesto en impactos directos severos.
 
 ::: {.callout-note title="Airmanship"}
 No asumas que el granizo cae solo bajo la vertical del Cb: el viento en altura puede expulsarlo decenas de kilómetros bajo el yunque extendido. Mantén siempre la distancia de seguridad del yunque, aunque el cielo por debajo parezca completamente despejado.
@@ -31,7 +43,7 @@ No asumas que el granizo cae solo bajo la vertical del Cb: el viento en altura p
 
 ## Lluvia engelante (FZRA) y formación rápida de hielo
 
-  La **lluvia engelante** (**FZRA**) es lluvia que cae ya superenfriada: gotas líquidas por debajo de 0°C que aún no se han congelado, las **gotículas superenfriadas**. El escenario clásico es un frente cálido en invierno, cuando la lluvia atraviesa una capa de aire bajo cero cerca del suelo. No hace falta estar dentro de una nube: al impactar contra cualquier superficie sólida del planeador —borde de ataque, cúpula, morro— las gotas se congelan en décimas de segundo formando hielo opaco o escarcha. Dentro de nube, entre 0°C y -15°C, esas mismas gotículas producen el engelamiento que se detalla en el capítulo 9.
+  La **lluvia engelante** (**FZRA**) es lluvia que cae ya superenfriada: gotas líquidas por debajo de 0°C que aún no se han congelado, las **gotículas superenfriadas**. El escenario clásico es un frente cálido en invierno, cuando la lluvia atraviesa una capa de aire bajo cero cerca del suelo. No hace falta estar dentro de una nube: al impactar contra cualquier superficie sólida del planeador —borde de ataque, cúpula, morro— como las gotas son grandes, sólo una parte se congela al instante y el resto escurre antes de helarse, formando **hielo claro** (transparente), el más peligroso. Dentro de nube, entre 0°C y -15°C, esas mismas gotículas producen el engelamiento que se detalla en el capítulo 9.
 
 El resultado es el **engelamiento** (**icing**), uno de los peligros más rápidos y graves del vuelo a vela:
 
@@ -39,17 +51,17 @@ El resultado es el **engelamiento** (**icing**), uno de los peligros más rápid
 * El hielo deforma el borde de ataque, destruye la sustentación laminar y eleva drásticamente la velocidad de pérdida.
 * El peso añadido, distribuido asimétricamente en las puntas alares, incrementa el arrastre e introduce desequilibrios laterales difíciles de compensar.
 
-Al primer síntoma de engelamiento —escarcha en el borde del ala o en la cúpula— gira 180° y desciende inmediatamente a niveles con temperatura positiva. No esperes: el engelamiento se acelera a medida que más superficie queda cubierta.
+Al primer síntoma de engelamiento —hielo en el borde del ala o en la cúpula— sal de la zona de inmediato: gira 180° hacia donde no llueve. En la lluvia engelante el aire más cálido suele estar **por encima**, y descender puede no sacarte de la capa bajo cero; si no puedes salir de ella, aterriza cuanto antes. No esperes: el engelamiento se acelera a medida que más superficie queda cubierta.
 
 ## Virga: la cortina descendente e invisibilidad
 
   La **Virga** es una cortina de precipitación que cae desde la base de una nube pero se evapora antes de llegar al suelo. Visualmente aparece como franjas grises o azuladas que se difuminan en el aire a media altura, sin tocar el terreno.
 
-El peligro no está en la lluvia en sí, sino en lo que ocurre cuando esas gotas se evaporan: la evaporación enfría el aire circundante, que se vuelve más denso y cae en masa hacia el suelo formando una violenta corriente descendente —el **downburst** o **microrráfaga** (@fig-03-cap05-virga-microrrafaga).
+El peligro no está en la lluvia en sí, sino en lo que ocurre cuando esas gotas se evaporan: la evaporación enfría el aire circundante, que se vuelve más denso y cae en masa hacia el suelo formando una violenta corriente descendente: el **reventón** (**downburst**). Si afecta a una zona de menos de unos 4 km se llama **microrráfaga** (**microburst**) (@fig-03-cap05-virga-microrrafaga).
 
 ![Peligro bajo la virga: el nacimiento de una microrráfaga](imagenes/03-cap05-virga-microburst.jpg){#fig-03-cap05-virga-microrrafaga}
 
-Estas corrientes descendentes localizadas (**microburst** / **downdraft**) pueden alcanzar velocidades de descenso que superan la capacidad de ascenso del planeador. Volar bajo una virga, especialmente durante la aproximación final, puede causar un hundimiento irrecuperable antes del umbral. Ante cualquier cortina de virga visible, mantén siempre distancia de seguridad lateral y vertical.
+Estas corrientes descendentes localizadas pueden alcanzar velocidades de descenso que superan la capacidad de ascenso del planeador. Volar bajo una virga, especialmente durante la aproximación final, puede causar un hundimiento irrecuperable antes del umbral. Ante cualquier cortina de virga visible, mantén siempre distancia de seguridad lateral y vertical.
 
 ::: {.postit}
 **Resumen del capítulo: precipitación**

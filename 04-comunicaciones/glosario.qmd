@@ -87,7 +87,7 @@ Acrónimos y términos técnicos de comunicaciones aeronáuticas para la licenci
 : Radar que interroga a los transpondedores a bordo y obtiene información codificada: código **squawk** (Modo A), altitud barométrica (Modo C) e identidad extendida (Modo S). Complementa al radar primario añadiendo en pantalla la etiqueta con número de vuelo y altitud.
 
 **TAF (Terminal Aerodrome Forecast)**
-: Pronóstico meteorológico codificado que describe las condiciones meteorológicas esperadas en un aeródromo específico durante un periodo de tiempo determinado (típicamente 9, 24 o 30 horas).
+: Pronóstico meteorológico codificado que describe las condiciones meteorológicas esperadas en un aeródromo específico durante un periodo de tiempo determinado (9, 24 o 30 horas; en España, 24 o 30, renovados cada 6 horas).
 
 **TMZ (Zona de transpondedor obligatorio / Transponder Mandatory Zone)**
 : Espacio aéreo en el que es obligatorio llevar y operar un transpondedor con las capacidades exigidas; no impone por sí solo comunicación o escucha radio, salvo que también sea RMZ o así se publique.
@@ -117,4 +117,4 @@ Acrónimos y términos técnicos de comunicaciones aeronáuticas para la licenci
 : Condiciones de visibilidad y distancia a nubes iguales o superiores a los mínimos aplicables.
 
 **VOLMET**
-: Emisión meteorológica continua para aeronaves en vuelo. Retransmite METAR, TAF y SIGMET de varios aeropuertos de una región en bucle. A diferencia del ATIS, que cubre un solo aeródromo, el VOLMET permite evaluar condiciones en múltiples alternos sin saturar la frecuencia de control.
+: Emisión meteorológica continua para aeronaves en vuelo. Retransmite en bucle los informes meteorológicos de varios aeropuertos de una región: en España, el METAR con su QNH y su TREND; en otros países puede incluir también TAF y SIGMET. A diferencia del ATIS, que cubre un solo aeródromo, el VOLMET permite evaluar condiciones en múltiples alternos sin saturar la frecuencia de control.

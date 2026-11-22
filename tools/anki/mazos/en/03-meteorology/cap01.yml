@@ -25,9 +25,9 @@ tarjetas:
     tipo: basica
     anverso: What does a hot day at a high aerodrome do to performance?
     reverso: |
-      **It makes it drastically worse**: the tug climbs much more slowly, the
-      glider needs more runway and there is less lift for the same angle of
-      attack.
+      **It makes it drastically worse**: the tug climbs much more slowly and,
+      since the same indicated airspeed means more true airspeed, the glider
+      needs more runway to take off and land.
     etiquetas: [Safety]
 
   - id: presion-parcial-de-oxigeno

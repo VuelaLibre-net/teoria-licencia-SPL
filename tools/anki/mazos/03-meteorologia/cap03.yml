@@ -14,24 +14,28 @@ tarjetas:
     anverso: ¿Qué significa que la atmósfera sea **estable** o **inestable**?
     reverso: |
       **Estable**: una burbuja empujada hacia arriba tiende a volver a bajar.
-      **Inestable**: sigue subiendo sola.
+      **Inestable**: sigue subiendo sola. **Condicionalmente inestable**: el
+      ambiente se enfría entre el SALR y el DALR, y la burbuja sólo sigue
+      subiendo si se satura.
 
       El vuelo a vela vive de la inestabilidad.
 
   - id: dalr-y-salr
     tipo: cloze
     texto: |
-      El aire **seco** se enfría {{c1::3 ºC}} por cada 1.000 ft al subir
-      (**DALR**); el aire **saturado**, sólo {{c2::1,5 ºC}} (**SALR**).
+      El aire **seco** se enfría {{c1::3 °C}} por cada 1.000 ft al subir
+      (**DALR**); el aire **saturado**, unos {{c2::1,5 °C}} cerca de la superficie
+      en aire templado (**SALR**, más con el frío y la altura).
 
   - id: altura-de-la-base-de-los-cumulos
     tipo: basica
     anverso: ¿Cómo se estima la altura de la **base de los cúmulos**?
     reverso: |
-      **(T ambiente − T rocío) × 400 = altitud de la base, en pies.**
+      **(T ambiente − T rocío) × 400 = altura de la base sobre el
+      aeródromo, en pies.**
 
-      El punto de rocío y la temperatura convergen a razón de unos 2,5 ºC por
-      cada 1.000 ft de ascenso.
+      El punto de rocío y la temperatura convergen a razón de unos 2,5 °C por
+      cada 1.000 ft de ascenso. Para la altitud, suma la elevación del campo.
     etiquetas: [Regla de oro]
 
   - id: inversiones
@@ -57,8 +61,11 @@ tarjetas:
     tipo: basica
     anverso: ¿Qué mide cada uno, el **TT** y el **K-Index**?
     reverso: |
-      **El TT dice cuánto «combustible» tiene la atmósfera para armar un Cb en
-      el llano; el K, para la montaña.**
+      **Los dos miden, con fórmulas distintas, cuánto «combustible» tiene la
+      atmósfera para armar un Cb.**
+
+      Los dos usan el nivel de 850 hPa: en montaña, si queda cerca del suelo,
+      ninguno es representativo.
 
       No te fíes de uno solo: úsalos juntos antes de cada *preflight*.
     etiquetas: [Airmanship]
@@ -89,28 +96,31 @@ tarjetas:
     tipo: basica
     anverso: ¿Cómo se interpreta un **CAPE** de 1.000-2.500 J/kg en vuelo a vela?
     reverso: |
-      **Como excelente**, no como «moderadamente inestable».
+      **Puede dar térmicas potentes y bases altas, pero no descarta la
+      tormenta.**
 
-      Da térmicas potentes y bases altas sin riesgo de tormenta severa. Las
-      escalas de los manuales generales son de meteorología convectiva, no
-      aeronáuticas.
+      Los manuales lo clasifican como «moderadamente inestable»: con humedad
+      y disparo, ese CAPE puede dar tormentas. Léelo junto con los otros
+      índices, nunca aislado.
     etiquetas: [Airmanship]
 
   - id: dia-termonuclear
     tipo: basica
     anverso: Firma numérica de un **día de convección excepcional**.
     reverso: |
-      **TT entre 48 y 55, K entre 15 y 20, CAPE entre 1.000 y 2.500 J/kg, LI
+      **TT entre 44 y 48, K entre 15 y 20, CAPE entre 1.000 y 2.500 J/kg, LI
       negativo y vientos flojos de componente variable.**
 
-      Son los días de récords de distancia.
+      Son los días de récords de distancia, pero la misma firma puede acabar
+      en tormenta si la humedad y el disparo acompañan: vigila el
+      sobredesarrollo.
     etiquetas: [Regla de oro]
 
   - id: umbrales-de-riesgo-de-tormenta
     tipo: basica
     anverso: ¿Qué combinación de índices señala **alto riesgo de tormenta** diurna?
     reverso: |
-      **TT > 55 o K > 25 junto con CAPE > 2.500 J/kg.**
+      **TT de 52 o más o K > 25, junto con CAPE > 2.500 J/kg.**
 
       Planifica el aterrizaje antes de las 16:00 y ten identificado un campo
       alternativo antes de que se levante la convección.

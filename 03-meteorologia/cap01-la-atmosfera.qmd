@@ -17,7 +17,13 @@ A nivel del mar (MSL), la atmósfera ISA establece las siguientes condiciones de
 
 El modelo ISA asume 0 % de humedad, lo que en la práctica significa que tampoco define un **punto de rocío** (**dew point**). En la realidad, el punto de rocío es la temperatura a la que hay que enfriar una masa de aire para que el vapor de agua que contiene comience a condensarse. Cuando la temperatura del aire y el punto de rocío se aproximan o igualan, la humedad relativa alcanza el 100 % y el aire se satura: se forman nubes o niebla. Para el piloto de planeador, la diferencia entre temperatura y punto de rocío es el dato clave para estimar la base de los cúmulos y la probabilidad de niebla matinal (ver Capítulo 3: Termodinámica).
 
-![Temperaturas de la atmósfera estándar ISA](imagenes/03-cap01-atmosfera-isa.jpg){#fig-03-cap01-atmosfera-isa}
+![Temperaturas de la atmósfera estándar ISA. *(CORREGIR: el perfil debe partir de 15 °C a nivel del mar y llegar a −56,5 °C a 11.000 m, con 6,5 °C/km; ahora corta el eje hacia 6 °C y la tropopausa queda hacia −58 °C. El eje es altitud, no altura.)*](imagenes/03-cap01-atmosfera-isa.jpg){#fig-03-cap01-atmosfera-isa .corregir}
+
+## Composición y capas de la atmósfera
+
+El aire seco es una mezcla de gases en proporción casi constante hasta gran altura: alrededor de un 78 % de nitrógeno, un 21 % de oxígeno y un 1 % de argón y otros gases. A esa mezcla se suma el vapor de agua, muy variable (de casi nada a un 4 % en volumen), que es el que forma las nubes y la precipitación.
+
+Por la forma en que cambia la temperatura con la altura, la atmósfera se divide en capas. La que importa al piloto es la **troposfera**: contiene casi todo el vapor de agua y casi todo el tiempo meteorológico, y en ella la temperatura baja con la altura. Su techo es la **tropopausa**, que en la ISA está a 11.000 m (36.090 ft), con −56,5 °C; en la realidad es más alta sobre el ecuador y más baja sobre los polos. Por encima, en la **estratosfera**, la temperatura deja de bajar.
 
 ## Gradientes estándar en aviación
 
@@ -27,21 +33,23 @@ A medida que ganamos altura, las condiciones atmosféricas cambian según unos p
 * **Gradiente de presión estándar**: La presión atmosférica disminuye aproximadamente 1 hPa por cada 30 pies de ascenso en las capas bajas de la atmósfera.
 
 ::: {.callout-tip title="Regla de oro"}
-Memoriza estas tres equivalencias del gradiente estándar ISA: **2 °C / 1.000 pies** para la temperatura, y **1 hPa / 30 pies** para la presión. En sistema métrico, si subes 90 metros, la presión cae 10 hPa; en pies, si subes 3.000 pies, cae 100 hPa. Si despegas de un aeródromo a 2.000 pies con QNH 1013 hPa y 20 °C, puedes estimar que a 5.000 pies la temperatura será unos 6 °C más fría (14 °C) y la presión habrá bajado unos 100 hPa.
+Memoriza estas equivalencias del gradiente estándar ISA: **2 °C / 1.000 pies** para la temperatura, y **1 hPa / 30 pies** para la presión. En sistema métrico, si subes 90 metros, la presión cae 10 hPa; en pies, si subes 3.000 pies, cae 100 hPa. Si despegas de un aeródromo a 2.000 pies con QNH 1013 hPa y 20 °C, puedes estimar que a 5.000 pies la temperatura será unos 6 °C más fría (14 °C) y la presión habrá bajado unos 100 hPa.
 :::
 
 ## Densidad del aire y rendimiento del planeador
 
 El planeador vuela gracias a las moléculas de aire que inciden sobre sus alas. La sustentación (**lift**) depende directamente de la densidad del aire.
 
-Una menor densidad del aire (lo que equivale a una mayor "altitud de densidad") significa que hay menos moléculas interactuando con las alas, reduciendo el rendimiento general del planeador. Ciertas condiciones meteorológicas reducen peligrosamente la densidad del aire:
+Una menor densidad del aire (lo que equivale a una mayor "altitud de densidad") significa que hay menos moléculas interactuando con las alas. En vuelo estabilizado la sustentación sigue igualando al peso, pero para lograrlo el ala necesita más velocidad verdadera (TAS): la misma velocidad indicada (IAS) supone volar más deprisa respecto al aire y al suelo. Ciertas condiciones meteorológicas reducen peligrosamente la densidad del aire:
 
 * Altas temperaturas (el aire se expande y se hace menos denso).
 * Baja presión atmosférica.
 * Alta humedad (el vapor de agua es menos denso que el aire seco).
 
+Para comparar estas situaciones se usan dos altitudes de referencia. La **altitud de presión** (**pressure altitude**) es la que marca el altímetro calado a 1013,25 hPa: la altitud ISA que corresponde a la presión del momento. La **altitud de densidad** (**density altitude**) es la altitud de presión corregida por la temperatura no estándar: la altitud ISA en la que el aire tendría la densidad real. Un día caluroso en un campo alto puede tener una altitud de densidad miles de pies por encima de su elevación, y el planeador y el remolcador rinden como si estuvieran allí. El reglaje del altímetro (QNH, QFE y 1013,25 hPa) se estudia en el **Libro 1 — Derecho aéreo**, capítulo 6.
+
 ::: {.callout-warning title="Seguridad"}
-Un día caluroso en un aeródromo elevado (alta altitud de densidad) empeora drásticamente el rendimiento: el avión remolcador trepará mucho más despacio, el planeador necesitará más pista para despegar y en vuelo tendrás menor sustentación para el mismo ángulo de ataque.
+Un día caluroso en un aeródromo elevado (alta altitud de densidad) empeora drásticamente el rendimiento: el avión remolcador trepará mucho más despacio, el planeador necesitará más pista para despegar y, con la misma velocidad indicada, la toma será más rápida respecto al suelo y más larga.
 :::
 
 ## Presión parcial de oxígeno e hipoxia
@@ -49,7 +57,7 @@ Un día caluroso en un aeródromo elevado (alta altitud de densidad) empeora dr�
 Aunque la proporción de oxígeno en el aire se mantiene constante en un 21 % a lo largo de la troposfera, la reducción de la presión atmosférica al ganar altura hace que la presión a la que ese oxígeno entra en nuestros pulmones disminuya. A 18.000 pies, la presión atmosférica es la mitad que a nivel del mar.
 
 ::: {.callout-note title="Airmanship"}
-La falta prolongada de oxígeno en los tejidos se conoce como **hipoxia**. Dado su impacto crítico en la seguridad del vuelo (pérdida del conocimiento, degradación visual), los síntomas detallados, el cálculo del Tiempo de Conciencia Útil (TUC) y el uso de equipos de oxígeno se estudian en profundidad en el **Libro 2 — Factores humanos**, capítulo 4.
+La falta prolongada de oxígeno en los tejidos se conoce como **hipoxia**. Dado su impacto crítico en la seguridad del vuelo (pérdida del conocimiento, degradación visual), los síntomas detallados, el cálculo del tiempo útil de conciencia (TUC) y el uso de equipos de oxígeno se estudian en profundidad en el **Libro 2 — Factores humanos**, capítulo 4.
 :::
 
 ::: {.postit}
@@ -57,6 +65,6 @@ La falta prolongada de oxígeno en los tejidos se conoce como **hipoxia**. Dado 
 
 * **Atmósfera ISA**: Modelo ideal para estandarizar instrumentos y rendimiento (15°C, 1013,25 hPa, 0% humedad a MSL). Raramente encontrarás un día ISA "puro", pero es la referencia universal.
 * **Gradientes Estándar**: La temperatura cae 2°C por cada 1.000 ft. La presión cae 1 hPa por cada 30 ft **o por cada 9 metros**. Ambas equivalencias son útiles: la primera en entornos anglosajones (altímetros en pies), la segunda cuando trabajas con altitudes en metros.
-* **Densidad y Rendimiento**: El planeador vuela gracias a las moléculas de aire. Menor densidad (alta elevación o día caluroso) significa menos sustentación y peor rendimiento: necesitas más pista para despegar y corres más con el mismo ángulo de ataque.
+* **Densidad y Rendimiento**: El planeador vuela gracias a las moléculas de aire. Menor densidad (alta elevación o día caluroso) significa peor rendimiento: la misma velocidad indicada (IAS) supone más velocidad verdadera (TAS), así que necesitas más pista para despegar y aterrizar, y el remolcador sube peor.
 * **Presión parcial de O~2~**: Aunque la proporción de oxígeno se mantiene (21 %), la presión a la que entra en tus pulmones cae drásticamente con la altura, provocando hipoxia (cuyos efectos fisiológicos se detallan en el **Libro 2 — Factores humanos**, capítulo 4).
 :::
