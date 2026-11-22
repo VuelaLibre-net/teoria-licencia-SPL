@@ -84,7 +84,7 @@ Este glosario contiene las definiciones y acrónimos más relevantes de la meteo
 : Estructura frontal que se forma cuando un frente frío alcanza y fusiona con el frente cálido que le precede, pinzando el aire cálido intermedio y forzándolo a ascender. Genera condiciones complejas: precipitaciones extensas, núcleos convectivos embebidos y mala visibilidad. Poco o nada aprovechable para el vuelo a vela.
 
 **FZRA (Lluvia engelante / Freezing Rain)**
-: Precipitación líquida que cae a través de una capa con temperatura inferior a 0 °C. Las gotículas superenfriadas se congelan al impactar con las superficies del planeador, formando hielo opaco o transparente en el borde de ataque. Situación de emergencia: el único remedio es un cambio de rumbo 180° y descenso inmediato.
+: Precipitación líquida que cae a través de una capa con temperatura inferior a 0 °C. Las gotículas superenfriadas se congelan al impactar con las superficies del planeador, formando sobre todo hielo claro (transparente) en el borde de ataque. Situación de emergencia: sal de la zona de inmediato (giro de 180°) hacia aire sin precipitación; el aire más cálido suele estar encima, y descender puede no sacarte de la capa bajo cero.
 
 **GAMET (General Area Meteorological Forecast)**
 : Pronóstico meteorológico de área para vuelos de aviación general por debajo del FL100, emitido por los proveedores meteorológicos nacionales. Informa de peligros como engelamiento, turbulencia, nieblas y tormentas en ruta.

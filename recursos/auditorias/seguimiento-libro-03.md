@@ -45,11 +45,11 @@ toca: es el registro de lo que se encontró. Aquí se anota qué se ha hecho con
 
 | ID | Hallazgo | Fase | Estado | Commit | Nota |
 | --- | --- | --- | --- | --- | --- |
-| TEC-01 | Figura de la base de los cúmulos incoherente | 2 | pendiente | | |
-| TEC-02 | CAPE «sin el riesgo de tormenta severa» | 2 | pendiente | | la banda de buen día, pregunta al meteorólogo |
-| TEC-03 | Lluvia engelante: hielo claro y salida | 2 | pendiente | | |
-| TEC-04 | Figura del frente frío invertida | 2 | pendiente | | |
-| TEC-05 | Figura SIGWX: unidades, V5, nivel, frentes | 2 | pendiente | | |
+| TEC-01 | Figura de la base de los cúmulos incoherente | 2 | figura | | fase 2: figura marcada con `.corregir` |
+| TEC-02 | CAPE «sin el riesgo de tormenta severa» | 2 | parcial | | fase 2: cap03 (Airmanship y regla de oro), cap10 (regla de oro) y Anki `cape-en-contexto-volovelista` y `dia-termonuclear`; la banda de buen día, pregunta al meteorólogo (con COH-02) |
+| TEC-03 | Lluvia engelante: hielo claro y salida | 2 | parcial | | fase 2: cap05, glosario y lección 05 (retroalimentación de la opción C); Anki y resumen ya eran correctos; redacción operativa, pregunta al FI(S); `en/`, en la fase 6 |
+| TEC-04 | Figura del frente frío invertida | 2 | figura | | fase 2: figura marcada con `.corregir` |
+| TEC-05 | Figura SIGWX: unidades, V5, nivel, frentes | 2 | figura | | fase 2: figura marcada con `.corregir`; el pie dice que es una recreación de un mapa SWL |
 
 ## Medias
 
@@ -148,6 +148,12 @@ y no tiene remoto.
 
 | Fase | Commit en `examenes/` | Preguntas |
 | --- | --- | --- |
+| 2 | `96c1a4d` | lección 05: retroalimentación de la opción C de la lluvia engelante (`c05-q07`) |
+
+`make check` y `make lecciones-check` fallan desde antes de esta corrección, en todos los libros
+menos el 01, porque las lecciones anotan versiones anteriores a la v0.9.9 (las del 03, la
+1.0-rc.16). La línea de versión se actualiza al revalidar las citas contra los post-it; mientras,
+el JSON web se regenera con `node scripts/export_lecciones_json.js`.
 
 ## Edición inglesa
 
@@ -162,6 +168,9 @@ clase y la nota, y se anota aquí.
 
 | Capítulo | Figura | Hallazgo | Marcada en | Sustituida en |
 | --- | --- | --- | --- | --- |
+| cap03 | `03-cap03-base-cumulos-dalr-nca` | TEC-01 | fase 2 | |
+| cap06 | `03-cap06-frente-frio-estructura` | TEC-04 | fase 2 | |
+| cap10 | `03-cap10-sigwx` | TEC-05 | fase 2 | |
 
 ## Preguntas abiertas
 

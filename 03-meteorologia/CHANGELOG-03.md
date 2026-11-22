@@ -16,6 +16,31 @@ rompe la compilación.
 
 ## [En curso]
 
+### Corregido
+
+* **cap05 y Glosario, lluvia engelante** — decía que forma «hielo opaco o escarcha» y mandaba
+  descender «a niveles con temperatura positiva», y el glosario lo daba como «único remedio». La
+  lluvia engelante forma sobre todo hielo claro, y en ella el aire más cálido suele estar encima:
+  descender puede no sacar de la capa bajo cero (FAA AC 00-6B, §14 y §18.3.7). Ahora se manda salir
+  de la zona, girando hacia donde no llueve, o aterrizar. Hallazgo TEC-03 de la auditoría del
+  libro 03.
+* **cap03 y cap10, CAPE y «día termonuclear», y sus tarjetas Anki** — presentaba un CAPE de
+  1.000–2.500 J/kg como excelente «sin el riesgo de tormenta severa». Ese rango es moderadamente
+  inestable y no descarta la tormenta si hay humedad y disparo (NWS). Se retira la afirmación y las
+  dos «reglas de oro» avisan del sobredesarrollo. Qué banda es buen día en la Península queda como
+  pregunta para un meteorólogo. Hallazgo TEC-02 de la auditoría del libro 03.
+
+### Cambiado
+
+* **Figuras por rehacer: marca «EN REVISIÓN» y nota en el pie** — tres figuras en las que la
+  auditoría encontró errores llevan encima, en diagonal, la marca «EN REVISIÓN», en el PDF, el EPUB
+  y la web, y su pie termina con *(CORREGIR: …)*: el cálculo gráfico de la base de los cúmulos
+  (cap03), cuyas curvas no cuadran con sus datos; la estructura del frente frío (cap06), con la cuña
+  fría en el lado prefrontal; y el mapa SIGWX (cap10), que da las alturas en hPa, un V5 de 5 a 8 km
+  y llama frente a una zona de nubes. El pie del SIGWX dice además que es una recreación de un mapa
+  de niveles bajos (SWL). Al sustituir cada figura se quitan la marca y la nota. Hallazgos TEC-01,
+  TEC-04 y TEC-05 de la auditoría del libro 03.
+
 ## [1.0-rc.19] — 21 de noviembre de 2026
 
 **Qué releer:** nada. El contenido no cambia respecto a la `1.0-rc.18`: sólo el índice alfabético

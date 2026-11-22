@@ -99,7 +99,7 @@ Los servicios asociados emiten además alertas específicas. Se confunden con fa
 
 Antes de un vuelo de distancia, revisar los SIGMET y AIRMET activos es obligatorio.
 
-![Ejemplo de mapa de tiempo significativo (SIGWX) para niveles bajos.](imagenes/03-cap10-sigwx.png){#fig-03-cap10-sigwx}
+![Ejemplo (recreación) de mapa de tiempo significativo de niveles bajos (SWL) de AEMET, de la superficie a FL150. *(CORREGIR: las alturas van en centenas de pies, no en hPa; V5 es visibilidad de 1.000 a 5.000 m; la carta es de niveles bajos; el festón azul es nubosidad, no un frente; OVC son 8 octas; revisar el símbolo rojo y los logotipos oficiales.)*](imagenes/03-cap10-sigwx.png){#fig-03-cap10-sigwx .corregir}
 
 ::: {.mas-alla}
 ## Sondeos termodinámicos y curvas de temperatura
@@ -125,7 +125,7 @@ Las tres lecturas clave son:
 Esos dos números van siempre **en pareja**. Hay cúmulos cuando el LCL queda por debajo del techo térmico, porque la parcela llega a condensar antes de frenarse; y hay térmica azul, sin una sola nube que te marque dónde sube el aire, cuando queda por encima. Un LCL a 3.000 m con el techo a 4.000 da calles de cúmulos y un día magnífico; un LCL a 1.200 m con el techo a 1.100 da azul. La altura del LCL por sí sola no dice nada.
 
 ::: {.callout-tip title="Regla de oro"}
-El día de convección excepcional — conocido coloquialmente como «día termonuclear» en el argot de competición — tiene firma numérica precisa: K-Index entre 15 y 20, CAPE entre 1.000 y 2.500 J/kg, LI negativo, temperatura a 850 hPa varios grados por encima de **su media climatológica para esa fecha**, y vientos flojos. Ojo con ese último dato, que se memoriza mal: se compara con la climatología, no con la superficie. A 850 hPa —unos 1.500 m— el aire está en un día normal entre 10 y 15 °C **por debajo** del suelo, y que estuviera por encima significaría una inversión brutal, es decir, el día en que no hay una sola térmica. Busca estos índices directamente en el sondeo del día, en cualquiera de las fuentes del apéndice.
+El día de convección excepcional — conocido coloquialmente como «día termonuclear» en el argot de competición — tiene firma numérica precisa: K-Index entre 15 y 20, CAPE entre 1.000 y 2.500 J/kg, LI negativo, temperatura a 850 hPa varios grados por encima de **su media climatológica para esa fecha**, y vientos flojos. Esa misma firma no descarta la tormenta si hay humedad y disparo: vigila el sobredesarrollo. Ojo con el dato de los 850 hPa, que se memoriza mal: se compara con la climatología, no con la superficie. A 850 hPa —unos 1.500 m— el aire está en un día normal entre 10 y 15 °C **por debajo** del suelo, y que estuviera por encima significaría una inversión brutal, es decir, el día en que no hay una sola térmica. Busca estos índices directamente en el sondeo del día, en cualquiera de las fuentes del apéndice.
 :::
 :::
 

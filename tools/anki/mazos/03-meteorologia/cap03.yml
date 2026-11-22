@@ -89,11 +89,12 @@ tarjetas:
     tipo: basica
     anverso: ¿Cómo se interpreta un **CAPE** de 1.000-2.500 J/kg en vuelo a vela?
     reverso: |
-      **Como excelente**, no como «moderadamente inestable».
+      **Puede dar térmicas potentes y bases altas, pero no descarta la
+      tormenta.**
 
-      Da térmicas potentes y bases altas sin riesgo de tormenta severa. Las
-      escalas de los manuales generales son de meteorología convectiva, no
-      aeronáuticas.
+      Los manuales lo clasifican como «moderadamente inestable»: con humedad
+      y disparo, ese CAPE puede dar tormentas. Léelo junto con los otros
+      índices, nunca aislado.
     etiquetas: [Airmanship]
 
   - id: dia-termonuclear
@@ -103,7 +104,9 @@ tarjetas:
       **TT entre 48 y 55, K entre 15 y 20, CAPE entre 1.000 y 2.500 J/kg, LI
       negativo y vientos flojos de componente variable.**
 
-      Son los días de récords de distancia.
+      Son los días de récords de distancia, pero la misma firma puede acabar
+      en tormenta si la humedad y el disparo acompañan: vigila el
+      sobredesarrollo.
     etiquetas: [Regla de oro]
 
   - id: umbrales-de-riesgo-de-tormenta

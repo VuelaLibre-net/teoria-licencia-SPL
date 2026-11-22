@@ -37,7 +37,7 @@ Para aplicar la fórmula, sigue estos pasos antes de cada vuelo:
 
 *Ejemplo: T = 26 °C, T~rocío~ = 16 °C → (26 − 16) × 400 = **4.000 ft** de base.* (véase @fig-03-cap03-base-cumulos-dalr-nca)
 
-![Cálculo gráfico de la base de los cúmulos: gradiente DALR, punto de rocío y Nivel de Condensación por Ascenso (NCA)](imagenes/03-cap03-base-cumulos-dalr-nca.jpg){#fig-03-cap03-base-cumulos-dalr-nca}
+![Cálculo gráfico de la base de los cúmulos: gradiente DALR, punto de rocío y Nivel de Condensación por Ascenso (NCA). *(CORREGIR: las curvas no cuadran con el recuadro: con T = 26 °C y punto de rocío 16 °C, la burbuja debe llegar a 14 °C a 4.000 ft y seguir más caliente que el ambiente; el tramo saturado va a unos 1,5 °C/1.000 ft, el punto de rocío baja 0,5 °C/1.000 ft, y el eje es altura sobre el aeródromo.)*](imagenes/03-cap03-base-cumulos-dalr-nca.jpg){#fig-03-cap03-base-cumulos-dalr-nca .corregir}
 
 ## Inversiones térmicas: la tapadera invisible
 
@@ -142,13 +142,13 @@ El K-Index fue diseñado para predecir tormentas, no la calidad del vuelo a vela
 * **CAPE** (**Convective Available Potential Energy**, Energía Potencial Convectiva Disponible): Cuantifica la energía disponible para la convección. Es el área entre la curva de la parcela y la curva de estado en el diagrama termodinámico. Valores de referencia: 0 J/kg = estabilidad absoluta; 1.000–2.500 J/kg = excelente día de térmicas; > 3.500 J/kg = convección severa probable.
 
 ::: {.callout-note title="Airmanship"}
-Los valores de CAPE que ves en manuales de meteorología general suelen clasificar 1.000–2.500 J/kg como "moderadamente inestable", reservando "muy inestable" para valores superiores. Para el volovelista, ese rango es perfectamente excelente: proporciona térmicas potentes y bases altas sin el riesgo de tormenta severa. Cuando consultes herramientas externas como Skysight o la Universidad de Wyoming, interpreta el CAPE en contexto aeronáutico, no según las escalas de meteorología convectiva para tormentas.
+Los valores de CAPE que ves en manuales de meteorología general suelen clasificar 1.000–2.500 J/kg como "moderadamente inestable", reservando "muy inestable" para valores superiores. Para el volovelista, ese rango puede dar térmicas potentes y bases altas, pero también tormentas si hay humedad y disparo: el CAPE por sí solo no descarta la tormenta. Cuando consultes herramientas externas como Skysight o la Universidad de Wyoming, lee el CAPE junto con los otros índices, la humedad y la previsión de nubosidad, nunca como un valor aislado.
 :::
 
 * **LI (Índice de Levantamiento o *Lifted Index*)**: Diferencia entre la temperatura de la parcela y la del ambiente a 500 hPa, tras elevarla adiabáticamente desde el suelo. Valores negativos indican inestabilidad: cuanto más negativo, mayor el potencial convectivo.
 
 ::: {.callout-tip title="Regla de oro"}
-Día de convección excepcional — conocido coloquialmente como «día termonuclear» en el argot de competición —: TT entre 48 y 55, K entre 15 y 20, CAPE entre 1.000 y 2.500 J/kg, LI negativo y vientos flojos de componente variable. Son los días de récords de distancia. Puedes encontrar todos estos índices en cualquier sondeo online: gratuitamente en la Universidad de Wyoming, AEMET (AMA), Windy o Meteoblue; con previsiones orientadas al planeador en Skysight, Topmeteo o Meteo Parapente.
+Día de convección excepcional — conocido coloquialmente como «día termonuclear» en el argot de competición —: TT entre 48 y 55, K entre 15 y 20, CAPE entre 1.000 y 2.500 J/kg, LI negativo y vientos flojos de componente variable. Son los días de récords de distancia, pero la misma firma puede acabar en tormenta si la humedad y el disparo acompañan: vigila el sobredesarrollo. Puedes encontrar todos estos índices en cualquier sondeo online: gratuitamente en la Universidad de Wyoming, AEMET (AMA), Windy o Meteoblue; con previsiones orientadas al planeador en Skysight, Topmeteo o Meteo Parapente.
 :::
 
 Las tablas de umbrales de los apartados anteriores tienen ocho tramos cada una porque describen todo el espectro, de la calma a la tormenta severa. La tabla siguiente resume la banda útil de cada índice; las tablas completas son material de campo para cuando vueles de verdad:

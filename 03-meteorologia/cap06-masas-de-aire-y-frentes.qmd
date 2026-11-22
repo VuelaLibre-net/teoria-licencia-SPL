@@ -18,7 +18,7 @@ Para el vuelo a vela, el interés meteorológico óptimo radica en la situación
 Las jornadas inmediatas tras el cruce de un frente frío intercontinental suelen ofrecer las mejores condiciones de vuelo térmico. Se caracterizan por una excelente visibilidad por ausencia de calima, presión atmosférica en aumento y un fuerte calentamiento diurno que detona corrientes ascendentes robustas marcadas por nubes Cúmulos (Cu) de contornos definidos.
 :::
 
-![Estructura vertical de un frente frío: cuña de aire frío y nubosidad convectiva asociada](imagenes/03-cap06-frente-frio-estructura.png){#fig-03-cap06-frente-frio-estructura}
+![Estructura vertical de un frente frío: cuña de aire frío y nubosidad convectiva asociada. *(CORREGIR: la cuña fría debe estar detrás del frente, en el lado postfrontal, con los triángulos hacia el aire cálido; el terreno es más cálido que el aire postfrontal, no más frío.)*](imagenes/03-cap06-frente-frio-estructura.png){#fig-03-cap06-frente-frio-estructura .corregir}
 
 ## Frentes cálidos y subsidencia pre-frontal
 

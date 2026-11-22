@@ -31,7 +31,7 @@ No asumas que el granizo cae solo bajo la vertical del Cb: el viento en altura p
 
 ## Lluvia engelante (FZRA) y formación rápida de hielo
 
-  La **lluvia engelante** (**FZRA**) es lluvia que cae ya superenfriada: gotas líquidas por debajo de 0°C que aún no se han congelado, las **gotículas superenfriadas**. El escenario clásico es un frente cálido en invierno, cuando la lluvia atraviesa una capa de aire bajo cero cerca del suelo. No hace falta estar dentro de una nube: al impactar contra cualquier superficie sólida del planeador —borde de ataque, cúpula, morro— las gotas se congelan en décimas de segundo formando hielo opaco o escarcha. Dentro de nube, entre 0°C y -15°C, esas mismas gotículas producen el engelamiento que se detalla en el capítulo 9.
+  La **lluvia engelante** (**FZRA**) es lluvia que cae ya superenfriada: gotas líquidas por debajo de 0°C que aún no se han congelado, las **gotículas superenfriadas**. El escenario clásico es un frente cálido en invierno, cuando la lluvia atraviesa una capa de aire bajo cero cerca del suelo. No hace falta estar dentro de una nube: al impactar contra cualquier superficie sólida del planeador —borde de ataque, cúpula, morro— las gotas, grandes, se congelan sólo en parte al instante y el resto escurre antes de helarse, formando **hielo claro** (transparente), el más peligroso. Dentro de nube, entre 0°C y -15°C, esas mismas gotículas producen el engelamiento que se detalla en el capítulo 9.
 
 El resultado es el **engelamiento** (**icing**), uno de los peligros más rápidos y graves del vuelo a vela:
 
@@ -39,7 +39,7 @@ El resultado es el **engelamiento** (**icing**), uno de los peligros más rápid
 * El hielo deforma el borde de ataque, destruye la sustentación laminar y eleva drásticamente la velocidad de pérdida.
 * El peso añadido, distribuido asimétricamente en las puntas alares, incrementa el arrastre e introduce desequilibrios laterales difíciles de compensar.
 
-Al primer síntoma de engelamiento —escarcha en el borde del ala o en la cúpula— gira 180° y desciende inmediatamente a niveles con temperatura positiva. No esperes: el engelamiento se acelera a medida que más superficie queda cubierta.
+Al primer síntoma de engelamiento —hielo en el borde del ala o en la cúpula— sal de la zona de inmediato: gira 180° hacia donde no llueve. En la lluvia engelante el aire más cálido suele estar **por encima**, y descender puede no sacarte de la capa bajo cero; si no puedes salir de ella, aterriza cuanto antes. No esperes: el engelamiento se acelera a medida que más superficie queda cubierta.
 
 ## Virga: la cortina descendente e invisibilidad
 
