@@ -1,6 +1,6 @@
 ---
 origen: 03-meteorologia/cap09-peligros-para-el-vuelo.qmd
-origen-commit: 2375434
+origen-commit: 589cf20
 ---
 
 # Flight hazards
@@ -12,13 +12,13 @@ origen-commit: 2375434
 
 ## Thunderstorms and clouds of extreme development (Cb)
 
-The cumulonimbus (Cb) is atmospheric instability at its most severe, with the most hostile weather packed into a single convective cell. For any aircraft, and a light glider above all, the rule is simple: **never** fly under a Cb, inside one or close to one (a recommended avoidance margin of 10 to 20 NM) (@fig-03-cap09-cumulonimbus).
+The cumulonimbus (Cb) is atmospheric instability at its most severe, with the most hostile weather packed into a single convective cell. For any aircraft, and a light glider above all, the rule is simple: **never** fly under a Cb, inside one or close to one (as a guide, the FAA advises avoiding severe thunderstorms by at least 20 NM) (@fig-03-cap09-cumulonimbus).
 
 * **Structural hazards:** these huge convective clouds unleash extremely violent updraughts and downdraughts side by side. The resulting shear turbulence (**updrafts** and **downdrafts**) can comfortably exceed the design limit load factors of any light aircraft, causing structural failure in flight.
-* **Associated phenomena:** Cb are flanked by squalls with very strong directional gusts, frequent electrical discharges (lightning), heavy precipitation and, very probably, hail. Severe hail (over 2 cm across) destroys the laminar profile and can compromise the structural integrity of the glider.
+* **Associated phenomena:** Cb are flanked by squalls with very strong directional gusts, frequent electrical discharges (lightning), heavy precipitation and, very probably, hail. Hail can fall under the anvil and in clear air several miles from the core: do not fly under the anvil. Even stones of little more than 1 cm damage the structure, and large ones destroy the laminar profile and can compromise the integrity of the glider.
 * **Early identification:** anticipation is everything. Seeing the characteristic spreading “anvil” at the tropopause, or the deep, dark, advancing arch at the base (**roll cloud**), calls for an immediate avoiding manoeuvre and a decision to land in a field or at the nearest clear alternate airfield.
 
-![A cumulonimbus (Cb) in its mature stage, showing its extreme vertical development (Photo: Pedro Berlinches, 2022)](imagenes/03-cap09-cb.jpg){#fig-03-cap09-cumulonimbus}
+![Heavy shower under the base of a cumulonimbus, seen from a light aircraft (Photo: Pedro Berlinches, 2022)](imagenes/03-cap09-cb.jpg){#fig-03-cap09-cumulonimbus}
 
 ::: {.callout-warning title="Safety"}
 Developing storm cells, and cells embedded in thick cloud layers such as warm or occluded fronts (“embedded Cb”), can be hidden from view. When severe thunderstorm systems are forecast, when weather warnings show intense cores, or when there are signs of strong instability, give priority to getting back on the ground quickly and safely.
@@ -32,11 +32,11 @@ A thunderstorm is a process, with a beginning and an end. Understanding its thre
 2. **Mature stage**: the most dangerous. Updraught and downdraught exist side by side; precipitation begins, dragging cold air down and producing the gust front at the surface. This is the stage of hail, lightning, extreme turbulence and the **downburst**. The cloud reaches its maximum vertical development and the anvil appears.
 3. **Dissipating stage**: the downdraught dominates. Cold air from the precipitation cuts off the supply of warm air that fed the cell, the lift dies away and the storm breaks up, leaving remnants of anvil and light precipitation. Residual turbulence remains.
 
-![The three stages in the life cycle of a thunderstorm cell: developing, mature and dissipating](imagenes/03-cap09-ciclo-tormenta.png){#fig-03-cap09-ciclo-tormenta}
+![The three stages in the life cycle of a thunderstorm cell: developing, mature and dissipating. *(FIX: there are three stages, not four; the first clouds are the cumulus or developing stage, with no downdraught and no precipitation reaching the ground.)*](imagenes/03-cap09-ciclo-tormenta.png){#fig-03-cap09-ciclo-tormenta .corregir}
 
 ## Icing in gliders
 
-**Icing** is one of the fastest and quietest hazards in soaring. It happens when the glider enters cloud or areas of visible moisture at below-zero temperatures. The range of greatest risk is between 0 °C and −15 °C, peaking at around −10 °C, although icing can occur at lower temperatures. Supercooled water droplets freeze in fractions of a second on touching the leading edge, the canopy or any forward-facing surface of the aircraft.
+**Icing** is one of the fastest and quietest hazards in soaring. It happens when the glider enters cloud or areas of visible moisture at below-zero temperatures. The range of greatest risk is between 0 °C and −15 °C, peaking at around −10 °C, although icing can occur at lower temperatures. Supercooled water droplets freeze on touching the leading edge, the canopy or any forward-facing surface of the aircraft: small ones at once (rime ice); large ones only partly, and the rest runs back before freezing (clear ice).
 
 Not all ice is the same. Leaving aside hoar frost (which is not icing by supercooled droplets but direct deposition of vapour), icing proper takes three forms with different effects, depending on the temperature and the size of the droplets:
 
@@ -67,9 +67,9 @@ Some turbulence has nothing to do with the weather: aircraft generate it themsel
   * **In the hover or slow air taxiing:** the rotor drives a high-speed flow of air downwards (**downwash** or **rotor wash**) that strikes the ground and spreads out as turbulent vortices to a distance of at least three rotor diameters.
   * **In forward flight:** the rotor produces a pair of wake vortices similar to those of a fixed-wing aircraft, but noticeably more concentrated and intense at low speed. Crossing this wake can cause an instant, uncontrollable yaw or roll in a glider.
 
-![A NASA study of wingtip vortices, giving a qualitative picture of wake turbulence.](imagenes/03-cap09-estela-turbulenta.jpg){#fig-03-cap09-estela-turbulenta}
+![Wingtip vortices: a qualitative picture of wake turbulence. *(FIX: this is not the photo from the NASA study it was credited to; replace it with the original, NASA L90-5919, with its credit.)*](imagenes/03-cap09-estela-turbulenta.jpg){#fig-03-cap09-estela-turbulenta .corregir}
 
-* **Rotor turbulence:** downwind of a mountain range in a strong wind, the **rotor** forms at low level: a cylinder of air in chaotic rotation, invisible from outside. It is the dangerous flip side of mountain wave: while in the wave you climb smoothly, low down beneath that same wave the rotor can snatch control of the glider from you with a single gust. If you are towed in a wave area, follow the tug precisely, tighten your harness and keep away from the rotor zone if you can (@fig-03-cap09-flujo-crestas).
+* **Rotor turbulence:** downwind of a mountain range in a strong wind, the **rotor** forms at low level: a cylinder of air in chaotic rotation, often invisible; with moisture, rotor clouds (fractocumulus) give it away. It is the dangerous flip side of mountain wave: while in the wave you climb smoothly, low down beneath that same wave the rotor can snatch control of the glider from you with a single gust. If you are towed in a wave area, follow the tug precisely, tighten your harness and keep away from the rotor zone if you can (@fig-03-cap09-flujo-crestas).
 
 ![Airflow over different ridges.](imagenes/03-cap09-flujo-crestas.jpg){#fig-03-cap09-flujo-crestas}
 
@@ -77,17 +77,17 @@ Some turbulence has nothing to do with the weather: aircraft generate it themsel
 
 **Wind shear** is a sudden change in wind speed or direction that affects the glider over a very short distance. For a glider on the approach it is one of the most treacherous hazards: it acts in seconds, with no visual warning. It is associated with active fronts, convergence zones, **downbursts** and low-level temperature inversions.
 
-* **Risk on final:** the glider judges its glide energy against the prevailing headwind. If that headwind suddenly disappears or swings round to a tailwind (which is what happens when you cross a wind shear), the indicated airspeed (IAS) drops sharply, lift is reduced and the glider sinks abruptly. At low height over the threshold there is no margin for recovery: losing 10 kt of headwind on final can lead to a **crash landing** within seconds.
-* **Microbursts and downbursts:** they come from the base of mature cumulonimbus discharging heavy rain. These masses of cold air plunge vertically to the ground, where they spread out horizontally, producing opposing radial gusts. Flying into a microburst on the approach is extremely dangerous: first the glider gets a deceptive gain in lift from the headwind, then seconds later it suffers massive sink from the descending air and the sudden tailwind, which can lead to a forced landing or an accident if there is not enough height and speed (@fig-03-cap09-cizalladura).
+* **Risk on final:** the glider judges its glide energy against the prevailing headwind. If that headwind suddenly disappears or swings round to a tailwind (which is what happens when you cross a wind shear), the indicated airspeed (IAS) drops sharply, lift is reduced and the glider sinks abruptly. At low height over the threshold there is no margin for recovery: losing 10 kt of headwind on final can end in an impact with the ground (**crash landing**) within seconds.
+* **Downbursts and microbursts:** they come above all from the base of cumulonimbus discharging heavy rain, but also from cumulus with virga (chapter 5). A **downburst** affecting an area less than about 4 km across is called a **microburst**. These masses of cold air plunge vertically to the ground, where they spread out horizontally, producing opposing radial gusts. Flying into a microburst on the approach is extremely dangerous: first the glider gets a deceptive gain in lift from the headwind, then seconds later it suffers massive sink from the descending air and the sudden tailwind, which can lead to a forced landing or an accident if there is not enough height and speed (@fig-03-cap09-cizalladura).
 
-![A **downburst** on final approach: the descending air spreads out at the surface and suddenly changes a headwind into a tailwind](imagenes/03-cap09-cizalladura.jpg){#fig-03-cap09-cizalladura}
+![A **downburst**: the descending air spreads out at the surface, and anyone crossing it on final goes suddenly from a headwind to a tailwind](imagenes/03-cap09-cizalladura.jpg){#fig-03-cap09-cizalladura}
 
 ::: {.postit}
 **Chapter summary: flight hazards**
 
-* **Thunderstorms (Cb)**: the mother of all hazards. Never fly under a Cb or near one (< 10–20 NM). Extreme turbulence, hail and lightning. If you see an anvil, turn back.
+* **Thunderstorms (Cb)**: the mother of all hazards. Never fly under a Cb or near one (as a guide, at least 20 NM from a severe thunderstorm). Extreme turbulence, hail and lightning. If you see an anvil, turn back.
 * **Thunderstorm life cycle**: three stages. Developing (cumulus): the updraught dominates, no rain. Mature: updraught and downdraught together, hail, lightning and **downburst**; the most dangerous stage. Dissipating: the downdraught dominates and the cell breaks up.
 * **Icing**: ice destroys the aerodynamics and raises the stall speed without warning. Four deposits: hoar frost (strictly speaking not icing, since it forms by deposition), rime, mixed and clear ice. **Clear ice** is the most dangerous because it is invisible and uneven. Greatest risk between 0 and −15 °C. If you pick up ice, leave the cloud and descend into warmer air.
-* **Turbulence**: the wake of heavy aircraft sinks slowly and can roll you over instantly (wait 3 minutes before using the runway). The wave rotor forms downwind at low level, with chaotic, invisible rotation.
+* **Turbulence**: the wake of heavy aircraft sinks slowly and can roll you over instantly (wait 3 minutes before using the runway). The wave rotor forms downwind at low level, with chaotic and often invisible rotation.
 * **Wind shear**: a sudden change of wind on final. It can put you on the ground (loss of headwind speed). **Downbursts** first give a headwind, then sudden sink and a tailwind.
 :::

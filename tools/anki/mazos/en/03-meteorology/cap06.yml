@@ -29,7 +29,8 @@ tarjetas:
       **Continuous rain, low ceilings and poor visibility**, heralded by cirrus
       that lowers to stratus.
 
-      The air is stable: forget about thermals.
+      The air is usually stable: forget about thermals. If it is unstable, it
+      can hide embedded Cb.
 
   - id: oclusion
     tipo: basica

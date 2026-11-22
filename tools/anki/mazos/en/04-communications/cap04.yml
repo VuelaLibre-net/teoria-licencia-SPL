@@ -31,8 +31,8 @@ tarjetas:
     tipo: basica
     anverso: What is **VOLMET**?
     reverso: |
-      **A station that broadcasts METARs, TAFs and SIGMETs for several
-      airports in a loop.**
+      **A station that broadcasts in a loop the weather reports of several
+      airports: in Spain, METARs with QNH and TREND.**
 
       It lets you plan your arrival or choose an alternate without crowding
       the control frequency.

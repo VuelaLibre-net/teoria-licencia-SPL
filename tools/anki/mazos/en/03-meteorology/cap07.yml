@@ -57,9 +57,10 @@ tarjetas:
 
   - id: borrasca-a-menos-de-500-km
     tipo: basica
-    anverso: How close does an active depression have to be for you to cancel the flight?
+    anverso: What do you do if an **active depression** is approaching your flying area?
     reverso: |
-      **Less than 500 km from your flying area: cancel before you set off.**
+      **Check in the forecast when it will arrive, and cancel if it could reach
+      you during the flight.**
 
       VFR conditions deteriorate quickly: low cloud, reduced visibility and
       gusts.

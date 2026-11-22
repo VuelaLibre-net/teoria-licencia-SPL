@@ -1,6 +1,6 @@
 ---
 origen: 03-meteorologia/cap02-viento.qmd
-origen-commit: d5b3cf4
+origen-commit: 589cf20
 ---
 
 # Wind
@@ -16,7 +16,7 @@ Wind is air in motion, driven mainly by differences in atmospheric pressure from
 
 Air naturally flows from areas of high pressure (anticyclones) towards areas of low pressure (depressions). The push that evens out the pressure is the **Pressure Gradient Force** (PGF). The rule is simple: the bigger the pressure difference over a short distance, the stronger the gradient force. On weather charts this shows up in the isobars (lines joining points of equal pressure): the closer together the isobars, the stronger the wind (@fig-03-cap02-gradiente-isobaras).
 
-![The pressure gradient force and isobars](imagenes/03-cap02-gradiente-isobaras.jpg){#fig-03-cap02-gradiente-isobaras}
+![The pressure gradient force and isobars. *(FIX: the arrows are not the wind direction: the wind blows almost parallel to the isobars and at the surface crosses them only slightly towards the low; the isobar labels around the L are not monotonic, and the “widely spaced isobars” arrow points at closely spaced ones.)*](imagenes/03-cap02-gradiente-isobaras.jpg){#fig-03-cap02-gradiente-isobaras .corregir}
 
 ## The Coriolis force and the geostrophic wind
 
@@ -32,22 +32,20 @@ Buys Ballot's law sums up the effect: in the northern hemisphere, if you stand w
 
 Close to the ground (below those 1,000 metres), a third factor comes in: surface friction. Trees, buildings, mountains and the texture of the ground itself “brake” the airflow.
 
-Friction slows the wind, and since the Coriolis effect depends on speed, it weakens too. The pressure gradient force does not. With Coriolis no longer fully balancing the gradient, the surface wind is deflected and **crosses the isobars towards the low pressure** (typically at an angle of about 30 degrees to the isobars).
+Friction slows the wind, and since the Coriolis effect depends on speed, it weakens too. The pressure gradient force does not. With Coriolis no longer fully balancing the gradient, the surface wind is deflected and **crosses the isobars towards the low pressure** (typically about 30 degrees over land; about 10 over the sea and up to 45 over rough terrain).
 
 ::: {.callout-warning title="Safety"}
 Because of friction, as you get close to the ground to land you will meet the “wind gradient” (boundary-layer *wind shear*). In the last few metres the wind will be lighter than in the circuit, and it will cross the isobars more sharply towards the low pressure. Fly the approach with a proper speed margin so that you do not run out of lift in the round-out (**flare**).
 :::
 
-![Circulation across a cloud street](imagenes/03-cap02-calles-nubes.jpg){#fig-03-cap02-calles-nubes}
-
-![Convergence caused by flow around topography (seen from above)](imagenes/03-cap02-convergencia-topografica.jpg){#fig-03-cap02-convergencia-topografica}
-
 ## Local breezes: the mountain engine
 
 The sun heats the ground unevenly, and that produces local winds that matter a great deal to the glider pilot, especially in mountain areas:
 
-* **Anabatic winds (valley breezes)**: during the day, the sun warms the slopes and ridges of the mountains before the valley floor. The air in contact with the summits warms up, becomes less dense and rises, “sucking” cooler air from the valley floor up along the slopes. These anabatic breezes are excellent triggers for thermals (**lift**). Always look for the slopes facing the sun (@fig-03-cap02-vuelo-ladera).
+* **Anabatic winds (valley breezes)**: during the day, the sun warms the slopes and ridges of the mountains before the valley floor. The air in contact with the summits warms up, becomes less dense and rises, “sucking” cooler air from the valley floor up along the slopes. These anabatic breezes are excellent triggers for thermals (**lift**). Always look for the slopes facing the sun (@fig-03-cap02-ciclo-anabatico-catabatico).
 * **Katabatic winds (mountain breezes)**: in the late afternoon and at night the reverse happens. The summits cool quickly by radiating heat into space. The cold, dense air “slides” down the slope and collects on the valley floor (@fig-03-cap02-ciclo-anabatico-catabatico).
+
+Do not confuse the anabatic breeze, which is thermal, with dynamic slope lift: when the wind blows against a slope, the air forced up the windward side gives lift even without sun, and it is the basis of ridge soaring (@fig-03-cap02-vuelo-ladera). Its technique is covered in **Book 6 — Operational Procedures**, chapter 3.
 
 ![Daily cycle of slope breezes: anabatic (morning) and katabatic (evening/night)](imagenes/03-cap02-ciclo-anabatico-catabatico.jpg){#fig-03-cap02-ciclo-anabatico-catabatico}
 
@@ -59,9 +57,9 @@ Late in the afternoon, when cold katabatic winds flow down both slopes of a vall
 
 ## Foehn and Stau: when the mountain warms the air
 
-When moist Atlantic wind hits a mountain range, something happens that looks almost like magic: the same air that arrives cold and full of cloud on the windward side can reach the lee valley dry, clear and ten degrees warmer. This is the **Foehn effect**. Its twin is the **Stau** (**Stau effect**), and both have direct consequences for the pilot.
+When moist Atlantic wind hits a mountain range, something happens that looks almost like magic: the same air that arrives cold and full of cloud on the windward side can reach the lee valley dry, clear and several degrees warmer. This is the **Foehn effect**. Its twin is the **Stau** (**Stau effect**), and both have direct consequences for the pilot.
 
-The mechanism is asymmetric. On the **windward** slope (the one facing the wind), the air rises and first cools at the DALR (3 °C/1,000 ft) until it reaches its dew point, condenses and precipitates. From that level upwards it climbs saturated, cooling at only 1.5 °C/1,000 ft (SALR) and releasing latent heat into the atmosphere. On the lee side, the air has already lost its moisture on the windward slope and descends **dry** all the way, warming at the full DALR (3 °C/1,000 ft). So it arrives in the lee valley warmer than when it set out (@fig-03-cap02-fohn-stau). With height differences of 1,500–2,000 m, the difference between the two valleys can exceed 10–15 °C.
+The mechanism is asymmetric. On the **windward** slope (the one facing the wind), the air rises and first cools at the DALR (3 °C/1,000 ft) until it reaches its dew point, condenses and precipitates. From that level upwards it climbs saturated, cooling at only 1.5 °C/1,000 ft (SALR), because condensation releases latent heat into the air mass itself. On the lee side, the air has already lost its moisture on the windward slope and descends **dry** all the way, warming at the full DALR (3 °C/1,000 ft). So it arrives in the lee valley warmer than when it set out (@fig-03-cap02-fohn-stau). The gain depends on how much of the ascent the air made already saturated, and with this mechanism it is of the order of 5–10 °C. For example, if the air leaves the windward valley at 15 °C, condenses at 500 m and crosses a crest at 2,000 m, it is back at the same level on the lee side at about 22 °C.
 
 The **Foehn wall** is the bank of cloud that sits stationary over the crest on the windward side, marking the zone of precipitation. On the lee side there is a clear window, with high temperatures and low humidity. **Stau** is the name for the same process seen from the windward side: cloud build-up and heavy precipitation while the other valley enjoys the sun.
 
@@ -81,19 +79,29 @@ If the thermometer at the airfield reads several degrees above normal for the mo
 
 **Sea breezes** result from the same principle as mountain breezes: uneven heating. During the day the land warms up much faster than the sea. The warm air over the land rises, and cool sea air moves inland to fill the gap, forming a flow that can reach tens of kilometres inland (@fig-03-cap02-brisa-marina).
 
-For the glider pilot, the real prize is the **convergence line** the breeze creates (@fig-03-cap02-convergencia-topografica). Where the cool, moist sea air meets the warm, dry continental air, a sharp boundary forms (a mini-front) where the air is forced to rise. That line moves slowly inland during the afternoon and can give smooth, continuous lift for kilometres, ideal for cross-country flying.
+For the glider pilot, the real prize is the **convergence line** the breeze creates (@fig-03-cap02-brisa-marina). Where the cool, moist sea air meets the warm, dry continental air, a sharp boundary forms (a mini-front) where the air is forced to rise. That line moves slowly inland during the afternoon and can give continuous lift for kilometres, very useful for cross-country flying. It is not all good news: in the mixing zone thermals tend to be turbulent, once the front has passed the cool sea air can kill the day's thermals and, if the air is unstable, the front can organise a line of thunderstorms.
 
 ![Sea-breeze front](imagenes/03-cap02-brisa-marina.jpg){#fig-03-cap02-brisa-marina}
 
 You spot the convergence line by looking for these signs:
 
 * Cumulus on the sea side have a **lower base** (moist air, high dew point) than those inland (dry air, high bases).
-* The convergence sometimes produces a long band of somewhat more active cumulus, or even a **curtain cloud** along the boundary (@fig-03-cap02-calles-nubes).
+* The convergence sometimes produces a long band of somewhat more active cumulus, or even a **curtain cloud** along the boundary (@fig-03-cap02-brisa-marina).
 * At ground level you may notice it as a sudden change of wind and a cooler feel as you cross it.
 
 ::: {.callout-note title="Airmanship"}
 In summer, pilots flying from Fuentemilanos (Segovia) often work the south-westerly sea-breeze convergence that pushes in from the Atlantic across the Sistema Central. The Iberian thermal low (see the Climatology chapter) acts like a huge vacuum cleaner that draws the sea breeze inland, creating NW–SE convergence lines that work as motorways of lift for cross-country flying. Check RASP or SkySight (or the equivalent in TopMeteo or Meteo-Parapente) the evening before to anticipate where they will be.
 :::
+
+## Cloud streets and terrain-induced convergence
+
+With moderate wind and unstable air, thermals sometimes line up in rows parallel to the wind: **cloud streets**. Under each row of cumulus there is lift and between two rows there is sink, so flying along a street lets you make progress with few turns (@fig-03-cap02-calles-nubes). Streets are usually spaced about three times the depth of the convective layer apart.
+
+![Circulation across a cloud street](imagenes/03-cap02-calles-nubes.jpg){#fig-03-cap02-calles-nubes}
+
+Terrain also creates convergence. When the wind flows round a range or an isolated hill, the two streams meet again downwind and the air is forced to rise in a narrow band (@fig-03-cap02-convergencia-topografica). As with the sea breeze, you recognise the line by a row of cumulus or by a sudden change of wind.
+
+![Convergence caused by flow around topography (seen from above)](imagenes/03-cap02-convergencia-topografica.jpg){#fig-03-cap02-convergencia-topografica}
 
 ::: {.postit}
 **Chapter summary: wind**
@@ -102,6 +110,6 @@ In summer, pilots flying from Fuentemilanos (Segovia) often work the south-weste
 * **Coriolis force**: in the northern hemisphere, the Earth's rotation deflects the wind to the right. That is why, aloft, the wind ends up blowing parallel to the isobars (geostrophic wind).
 * **Friction effect**: near the ground, friction slows the wind and weakens the Coriolis effect, so the wind crosses the isobars towards the low pressure. When landing, expect the wind to change direction and strength in the last few metres.
 * **Local breezes**: the sun warms the slopes before the valley, producing rising (anabatic) breezes by day. At night, cold air flows down (katabatic). Knowing this cycle is vital for finding lift, or avoiding dangerous sink, in the mountains.
-* **Foehn and Stau**: air rising on the windward side precipitates and releases latent heat (SALR). Descending on the lee side, now dry, it warms at the full DALR and can arrive up to 15 °C warmer. The “Foehn wall” marks the crest. Beware of rotors on the lee side.
-* **Sea breezes and convergence**: the sea breeze pushes inland and creates a convergence line (a mini-front) with excellent lift for cross-country flying. Spot it by the different cumulus base heights on either side and by the band of active cloud over the boundary.
+* **Foehn and Stau**: air rising on the windward side precipitates and releases latent heat (SALR). Descending on the lee side, now dry, it warms at the full DALR and arrives several degrees warmer (of the order of 5–10 °C). The “Foehn wall” marks the crest. Beware of rotors on the lee side.
+* **Sea breezes and convergence**: the sea breeze pushes inland and creates a convergence line (a mini-front) with lift that is useful for cross-country flying, though turbulent; after it has passed, the sea air can kill the thermals. Spot it by the different cumulus base heights on either side and by the band of active cloud over the boundary.
 :::

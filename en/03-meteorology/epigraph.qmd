@@ -1,6 +1,6 @@
 ---
 origen: 03-meteorologia/epigrafe.qmd
-origen-commit: c5e8824
+origen-commit: 589cf20
 ---
 
 # Epigraph {.unnumbered .unlisted .oculto}
@@ -8,5 +8,5 @@ origen-commit: c5e8824
 ::: {.epigrafe}
 “No bird soars in a calm.”
 
- — Wilbur Wright (1900), aviation pioneer and co-inventor of the first working powered aeroplane.
+ — Wilbur Wright, *Observations on Soaring* (notes from his diary, around September 1900), aviation pioneer and co-inventor of the first working powered aeroplane.
 :::

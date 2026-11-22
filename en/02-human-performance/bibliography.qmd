@@ -1,6 +1,6 @@
 ---
 origen: 02-factores-humanos/bibliografia.qmd
-origen-commit: 0b42784
+origen-commit: 589cf20
 ---
 
 # Bibliography and sources
@@ -13,7 +13,7 @@ Theory notes by **Iñaqui Ulibarri García de la Cueva** for the Fuentemilanos D
 
 **Regulations**
 
-* **Easy Access Rules for Sailplanes**. European Union Aviation Safety Agency (EASA). Consolidated compendium of Commission Implementing Regulation (EU) 2018/1976 —which contains **Part-SFCL** (licensing) and **Part-SAO** (operations)— together with its AMC and GM.
+* **Easy Access Rules for Sailplanes**. European Union Aviation Safety Agency (EASA). Consolidated compendium of Commission Implementing Regulation (EU) 2018/1976 —which contains **Part-SFCL** (licensing) and **Part-SAO** (operations)— together with its AMC and GM. September 2020 revision (PDF of November 2022).
   [https://www.easa.europa.eu/sites/default/files/dfu/Sailplane%20Rule%20Book.pdf](https://www.easa.europa.eu/sites/default/files/dfu/Sailplane%20Rule%20Book.pdf)
 * **Commission Implementing Regulation (EU) No 923/2012 — SERA** (*Standardised European Rules of the Air*). Common rules of the air for the European Union (consolidated version). It applies directly in Spain, with no transposition.
   [https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02012R0923-20250501](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02012R0923-20250501)
@@ -43,7 +43,7 @@ Other regulations cited in the collection (the link goes to the original act; fr
 
 **Annexes to the Chicago Convention (ICAO)**
 
-ICAO develops its Standards and Recommended Practices (SARPs) through 19 annexes to the Convention on International Civil Aviation. The most relevant to the glider pilot are Annexes 1, 2, 7, 8, 11, 12, 13, 14 and 15, together with Annexes 17 (security against acts of unlawful interference) and 18 (dangerous goods).
+ICAO develops its Standards and Recommended Practices (SARPs) through 19 annexes to the Convention on International Civil Aviation. The most relevant to the glider pilot are Annexes 1, 2, 3, 7, 8, 11, 12, 13, 14 and 15, together with Annexes 17 (security against acts of unlawful interference) and 18 (dangerous goods).
 
 * Annex 1 — Personnel Licensing
 * Annex 2 — Rules of the Air
@@ -67,11 +67,11 @@ ICAO develops its Standards and Recommended Practices (SARPs) through 19 annexes
 
 **Technical manuals and training methods**
 
-* **Glider Flying Handbook (FAA-H-8083-13B)**. Federal Aviation Administration (FAA), U.S. Department of Transportation. A public-domain work; the source of many of the collection's technical illustrations.
+* **Glider Flying Handbook (FAA-H-8083-13B)**, 2024. Federal Aviation Administration (FAA), U.S. Department of Transportation. A public-domain work; the source of many of the collection's technical illustrations.
   [https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/glider_handbook](https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/glider_handbook)
 * **Methodik der Segelflugausbildung** (*Segelflugrechte*, Rev. 2). Deutscher Aero Club (DAeC), 2022. German methodology for gliding instruction.
   [https://www.daec.de/media/files/2022/Sportarten/Segelflug/Methodik_der_Segelflugausbildung_Segelflugrechte_Rev.2.pdf](https://www.daec.de/media/files/2022/Sportarten/Segelflug/Methodik_der_Segelflugausbildung_Segelflugrechte_Rev.2.pdf)
-* **Cross-Country Soaring**. Helmut Reichmann. English edition of the international reference work on cross-country soaring technique (orig. *Streckensegelflug*). The collection was prepared from the Spanish edition, *Vuelo sin motor: técnicas avanzadas* (ISBN 978-84-283-1567-8).
+* **Cross-Country Soaring**. Helmut Reichmann. English edition of the international reference work on cross-country soaring technique (orig. *Streckensegelflug*). The collection was prepared from the Spanish edition, *Vuelo sin motor: técnicas avanzadas* (Paraninfo, 1992; ISBN 978-84-283-1567-8).
 
 **Human performance and aviation medicine**
 

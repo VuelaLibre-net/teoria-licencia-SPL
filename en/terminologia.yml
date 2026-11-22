@@ -95,6 +95,14 @@
   en: "ALRS (Alerting Service)"
   origen: glosario
   libros: ["01"]
+- es: "Altitud de densidad (density altitude)"
+  en: "Density altitude"
+  origen: propuesta
+  libros: ["03"]
+- es: "Altitud de presión (pressure altitude)"
+  en: "Pressure altitude"
+  origen: propuesta
+  libros: ["03"]
 - es: "Altitud geométrica (ellipsoidal height)"
   en: "Geometric altitude (ellipsoidal height)"
   origen: glosario
@@ -324,6 +332,10 @@
   origen: revisado
   libros: ["06"]
   nota: "comprobación previa al despegue; la mnemotecnia es de origen británico y se conserva"
+- es: "CCL (Nivel de Condensación Convectiva / Convective Condensation Level)"
+  en: "CCL (Convective Condensation Level)"
+  origen: propuesta
+  libros: ["03"]
 - es: "CDR (Ruta condicional / Conditional Route)"
   en: "CDR (Conditional Route)"
   origen: glosario
@@ -535,7 +547,7 @@
   en: "Ridge (of high pressure)"
   origen: glosario
   libros: ["03"]
-- es: "Downburst (microburst / microrráfaga)"
+- es: "Downburst (reventón / microburst)"
   en: "Downburst (microburst)"
   origen: glosario
   libros: ["03"]
@@ -732,6 +744,10 @@
   en: "Warm front"
   origen: revisado
   libros: ["03"]
+- es: "Frente estacionario (stationary front)"
+  en: "Stationary front"
+  origen: propuesta
+  libros: ["03"]
 - es: "Frente frío"
   en: "Cold front"
   origen: revisado
@@ -907,7 +923,7 @@
   en: "Latitude"
   origen: revisado
   libros: ["09"]
-- es: "LCL (Nivel de Condensación por Elevación / Lifted Condensation Level)"
+- es: "LCL (Nivel de Condensación por Ascenso / Lifted Condensation Level)"
   en: "LCL (Lifted Condensation Level)"
   origen: glosario
   libros: ["03"]
@@ -1038,6 +1054,10 @@
   en: "Radiation fog"
   origen: revisado
   libros: ["03"]
+- es: "Nivel de equilibrio (EL / Equilibrium Level)"
+  en: "Equilibrium level (EL)"
+  origen: propuesta
+  libros: ["03"]
 - es: "NORDO (Sin radio / No Radio)"
   en: "NORDO (No Radio)"
   origen: glosario
@@ -1072,8 +1092,8 @@
   en: "Sunset"
   origen: revisado
   libros: ["09"]
-- es: "Onda de montaña (wave soaring)"
-  en: "Mountain wave (wave soaring)"
+- es: "Onda de montaña (mountain wave)"
+  en: "Mountain wave"
   origen: glosario
   libros: ["03"]
 - es: "Orden FOM/1687/2015"
@@ -1179,6 +1199,10 @@
   en: "Pulse oximeter"
   origen: revisado
   libros: ["02"]
+- es: "Punto de rocío (dew point)"
+  en: "Dew point"
+  origen: propuesta
+  libros: ["03"]
 - es: "QDM"
   en: "QDM"
   origen: revisado
@@ -1353,6 +1377,10 @@
   en: "TAS (True Airspeed)"
   origen: glosario
   libros: ["09"]
+- es: "TCU (Towering Cumulus)"
+  en: "TCU (Towering Cumulus)"
+  origen: propuesta
+  libros: ["03"]
 - es: "Tendencia espiral"
   en: "Spiral instability"
   origen: revisado
@@ -1389,6 +1417,10 @@
   en: "Winch launch"
   origen: glosario
   libros: ["06"]
+- es: "Total Totals (TT)"
+  en: "Total Totals (TT)"
+  origen: propuesta
+  libros: ["03"]
 - es: "TR (Habilitación de tipo / Type Rating)"
   en: "TR (Type Rating)"
   origen: glosario
@@ -1410,6 +1442,10 @@
   origen: revisado
   libros: ["08"]
   nota: "británico; FAA «landing gear»"
+- es: "TREND (pronóstico de tendencia)"
+  en: "TREND (trend forecast)"
+  origen: propuesta
+  libros: ["03"]
 - es: "Triangulación (Líneas de posición)"
   en: "Position fixing (lines of position)"
   origen: revisado

@@ -57,12 +57,12 @@ HEADER_EN = """# Acknowledgements {.unnumbered}
 This manual is the result of a collaborative effort within the gliding community. We wish to express our sincere thanks to:
 
 * The **Spanish Aviation Safety Agency (AESA)** and **EASA**, for providing the regulatory and documentary framework that keeps our operations safe.
-* The **Flight Instructors (FI(S))** and **Examiners (FE(S))** who have given their time to review these sections and ensure their technical rigour.
+* The **Flight Instructors (FI(S))** and **Examiners (FE(S))** who have given their time to review these sections technically.
 * The **VuelaLibre.net** community, for driving initiatives that modernise and open up access to high-quality aeronautical training.
 * All the pilots whose constant feedback helps keep this manual a living, evolving tool.
-* The authors of the classic international manuals, whose structure served as the basis for organising the knowledge in a way that is teachable and accessible to new generations of glider pilots and, in particular, to:
+* The authors of the classic international manuals, whose structure served as the basis for organising the knowledge in a way that is teachable and accessible to new generations of glider pilots.
 
-A ✓ marks the reviewers who have validated the Spanish edition of this book, from which this translation is made.
+And, in particular, to the people listed below. A ✓ marks those who have reviewed the Spanish edition of this book, from which this translation is made: their review is an instructor's judgement and does not certify every technical or regulatory statement.
 
 ::: {.creditos}
 """

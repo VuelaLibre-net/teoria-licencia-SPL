@@ -1,6 +1,6 @@
 ---
 origen: 04-comunicaciones/glosario.qmd
-origen-commit: 8390229
+origen-commit: 589cf20
 ---
 
 # Glossary of terms
@@ -95,7 +95,7 @@ Acronyms and technical terms of aeronautical communications for the SPL licence,
 : Radar that interrogates on-board transponders and obtains coded information: the **squawk** code (Mode A), barometric altitude (Mode C) and extended identity (Mode S). It complements the primary radar by adding a label on the screen with the flight number and altitude.
 
 **TAF (Terminal Aerodrome Forecast)**
-: A coded weather forecast describing the conditions expected at a specific aerodrome over a given period (typically 9, 24 or 30 hours).
+: A coded weather forecast describing the conditions expected at a specific aerodrome over a given period (9, 24 or 30 hours; in Spain, 24 or 30, renewed every 6 hours).
 
 **TMZ (Transponder Mandatory Zone)**
 : Airspace in which the carriage and operation of a transponder with the required capabilities is mandatory; on its own it does not require radio communication or listening watch, unless it is also an RMZ or it is so published.
@@ -122,4 +122,4 @@ Acronyms and technical terms of aeronautical communications for the SPL licence,
 : Visibility and distance-from-cloud conditions equal to or better than the applicable minima.
 
 **VOLMET**
-: A continuous weather broadcast for aircraft in flight. It transmits METARs, TAFs and SIGMETs for several airports in a region in a loop. Unlike ATIS, which covers a single aerodrome, VOLMET lets you assess conditions at several alternates without crowding the control frequency.
+: A continuous weather broadcast for aircraft in flight. It broadcasts in a loop the weather reports of several airports in a region: in Spain, the METAR with its QNH and its TREND; in other countries it may also include TAFs and SIGMETs. Unlike ATIS, which covers a single aerodrome, VOLMET lets you assess conditions at several alternates without crowding the control frequency.

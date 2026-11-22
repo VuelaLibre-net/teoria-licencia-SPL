@@ -1,6 +1,6 @@
 ---
 origen: 03-meteorologia/cap08-climatologia.qmd
-origen-commit: 2890174
+origen-commit: 589cf20
 ---
 
 # Climatology
@@ -36,12 +36,12 @@ In Spain there is a season for almost the whole year: when the wind blows hard i
 
 For an airline pilot the general wind is everything; for the glider pilot, who flies close to the terrain, **every valley has its own atmospheric master**. Chapter 2: Wind describes the anabatic and katabatic cycle and the Foehn effect in detail; here we focus on how those mechanisms shape flying in the specific Iberian setting.
 
-In mountain areas such as the Sistema Central, the Pyrenees or the Picos de Europa, **morning anabatic winds** set off the first thermals even before the sun is 30° above the horizon: east-facing sunny slopes are the first to work. In the evening, the **katabatic winds** flowing down both sides of the valley can create a zone of restitution in the middle, that smooth lift that sometimes lets you stretch the flight until dusk. Knowing the katabatic direction at your home airfield is as important as knowing where the runway threshold is.
+In mountain areas such as the Sistema Central, the Pyrenees or the Picos de Europa, **morning anabatic winds** set off the first thermals even before the sun is 30° above the horizon: the east-facing slopes, which get the first sun, are the first to work. In the evening, the **katabatic winds** flowing down both sides of the valley can create a zone of restitution in the middle, that smooth lift that sometimes lets you stretch the flight until dusk. Knowing the katabatic direction at your home airfield is as important as knowing where the runway threshold is.
 
 **Lee rotors** are the invisible trap of Iberian climatology: with a northerly wind in the Sistema Central, or with the Tramontana in the Pyrenees, the rotor can sit right over the airfield at circuit height. If the day shows lenticulars aloft and you see ragged fractocumulus low down, treat that area as one of severe turbulence.
 
 ::: {.callout-warning title="Safety"}
-Katabatic winds and lee rotors can appear at low altitude with no visual warning. Never fly over a lee slope with less than 300 ft of vertical separation from the terrain, and learn the trouble spots at your home airfield before flying in strong wind conditions.
+Katabatic winds and lee rotors can appear at low altitude with no visual warning. In strong wind, avoid flying low over a lee slope: if there is a rotor, no height may be enough, and learn the trouble spots at your home airfield before flying in strong wind conditions.
 :::
 
 ::: {.callout-note title="Airmanship"}
@@ -54,7 +54,7 @@ Each season brings the glider pilot its own clear rules:
 
 * **Spring:** the long-awaited awakening. The days grow longer and brighter, and the increasing heating of the ground sets off instability, creating strong contrasts with the air aloft, which is still cold from the tail end of winter. It gives vigorous thermals that develop earlier each day, though with the constant threat of frontal passages and unsettled days.
 * **Summer:** the main season for cross-country flying. Strong thermals lift cloud bases very high. However, there is a risk of rapidly developing thunderstorms that may force a precautionary landing.
-* **Autumn:** generally associated with more stability and rain. In the Mediterranean area it is the season of cut-off lows (DANA, *Depresión Aislada en Niveles Altos*), which bring severe thunderstorms and heavy rain and significantly reduce the chances of flying.
+* **Autumn:** more changeable weather, with rain. In the Mediterranean area it is the season of cut-off lows (DANA, *Depresión Aislada en Niveles Altos*), which bring severe thunderstorms and heavy rain and significantly reduce the chances of flying.
 * **Post-frontal days:** whatever the season, the day after a cold front has passed usually gives excellent conditions. The atmosphere is clean and sharp, with exceptional visibility. The temperature contrast between the freezing air and the ground brings back the best thermals of the year.
 
 ::: {.callout-note title="Airmanship"}
@@ -67,7 +67,7 @@ In summer, **air mass storms** develop quickly in the middle of the day from cum
 
 ## The Iberian summer thermal low
 
-At the height of summer, intense solar radiation bakes the surface of the vast plateaus of the inland Peninsula. This fierce heating produces large columns of rising warm air, establishing a permanent **Iberian thermal low** over central Spain.
+At the height of summer, intense solar radiation bakes the surface of the vast plateaus of the inland Peninsula. This fierce heating produces large columns of rising warm air, establishing an **Iberian thermal low** that is almost permanent in summer over the inland Peninsula, strongest in the afternoon.
 
 Although it is shallower than a strong polar depression, this stagnant low exerts a constant suction. Like a gigantic vacuum cleaner, the thermal low keeps pulling the dense, cool, moist air lying over the ocean and the surrounding seas and drawing it inland.
 
@@ -83,5 +83,5 @@ The convergence lines created by the Iberian thermal low are summer motorways of
 * **Spain, a land of contrasts**: we have world-class soaring conditions. Wind and **mountain wave** in winter and spring (Pyrenees, Sistema Central) and powerful **thermals** in summer (La Mancha, inland areas).
 * **Local winds**: every valley has its master. Anabatic and katabatic winds define the morning and the evening in mountain areas. Lee rotors are the invisible trap for the careless pilot.
 * **Seasons**: spring offers instability and good local flying. Summer brings high cloud bases and dry heat thunderstorms. Autumn usually brings rain and cut-off lows (DANA).
-* **Iberian thermal low**: in summer the sun heats central Spain so much that a permanent low forms. It draws in air from the sea, strengthening the coastal breezes, which push far inland and create convergence lines that are ideal for cross-country flying.
+* **Iberian thermal low**: in summer the sun heats central Spain so much that a low forms that is almost permanent in summer, strongest in the afternoon. It draws in air from the sea, strengthening the coastal breezes, which push far inland and create convergence lines that are ideal for cross-country flying.
 :::

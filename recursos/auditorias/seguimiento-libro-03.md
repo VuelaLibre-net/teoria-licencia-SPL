@@ -47,7 +47,7 @@ toca: es el registro de lo que se encontró. Aquí se anota qué se ha hecho con
 | --- | --- | --- | --- | --- | --- |
 | TEC-01 | Figura de la base de los cúmulos incoherente | 2 | figura | | fase 2: figura marcada con `.corregir` |
 | TEC-02 | CAPE «sin el riesgo de tormenta severa» | 2 | parcial | | fase 2: cap03 (Airmanship y regla de oro), cap10 (regla de oro) y Anki `cape-en-contexto-volovelista` y `dia-termonuclear`; la banda de buen día, pregunta al meteorólogo (con COH-02) |
-| TEC-03 | Lluvia engelante: hielo claro y salida | 2 | parcial | | fase 2: cap05, glosario y lección 05 (retroalimentación de la opción C); Anki y resumen ya eran correctos; redacción operativa, pregunta al FI(S); `en/`, en la fase 6 |
+| TEC-03 | Lluvia engelante: hielo claro y salida | 2 | parcial | | fase 2: cap05, glosario y lección 05 (retroalimentación de la opción C); Anki y resumen ya eran correctos; redacción operativa, pregunta al FI(S); `en/`, fase 6 |
 | TEC-04 | Figura del frente frío invertida | 2 | figura | | fase 2: figura marcada con `.corregir` |
 | TEC-05 | Figura SIGWX: unidades, V5, nivel, frentes | 2 | figura | | fase 2: figura marcada con `.corregir`; el pie dice que es una recreación de un mapa SWL |
 
@@ -160,8 +160,32 @@ el JSON web se regenera con `node scripts/export_lecciones_json.js`.
 
 ## Edición inglesa
 
-Pendiente (fase 6). `en/03-meteorology/` va además un commit por detrás en cap03 y cap07 (`457008f`,
-notación de la rc.18).
+Aplicada en la fase 6. Las fases 2 a 5 están portadas a `en/03-meteorology/`, y el `origen-commit` de cada
+fichero apunta ya a `589cf20` (`a27a4dd` en los derivados de otros libros). Con eso, cap03 y cap07 recogen
+también `457008f`, la notación de la rc.18.
+
+- **Libro 03:**
+  - los diez capítulos, el glosario (nueve entradas nuevas, en orden alfabético inglés), los dos
+    apéndices, el epígrafe y la bibliografía, con su sección «Meteorology»;
+  - los mazos `tools/anki/mazos/en/03-meteorology/`, con los mismos `id`;
+  - el filtro `figura-corregir.lua` en `en/03-meteorology/_quarto.yml`, con «IN REVIEW» y
+    *(FIX: …)* en las doce figuras marcadas.
+- **Otros libros:**
+  - `en/04-communications/`: cap04, el glosario y el mazo (VOLMET, SIGMET y TAF);
+  - `en/05-principles-of-flight/`: la introducción del glosario;
+  - `en/06-operational-procedures/`: la estela del glosario;
+  - `en/07-flight-performance-planning/`: la remisión del cap03.
+- **Común a los ocho libros ingleses:**
+  - la bibliografía (Anexo 3 y ediciones);
+  - los reconocimientos (`HEADER_EN` de `tools/actualizar-reconocimientos.py`).
+- **`en/terminologia.yml`:** nueve términos nuevos como `propuesta` y tres rótulos renombrados
+  (*downburst*, LCL y *mountain wave*).
+- **Pendiente de revisión humana:**
+  - la traducción de los añadidos;
+  - las nueve propuestas de la terminología;
+  - el término *étage* para los pisos de nubes de la OMM.
+- **Figuras:** las que llevan texto en español siguen siendo las mismas en las dos ediciones. Los
+  pies ingleses citan sus rótulos en español.
 
 ## Figuras marcadas para corregir
 
