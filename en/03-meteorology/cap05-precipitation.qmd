@@ -1,6 +1,6 @@
 ---
 origen: 03-meteorologia/cap05-precipitacion.qmd
-origen-commit: 589cf20
+origen-commit: dcc5089
 ---
 
 # Precipitation
@@ -24,7 +24,7 @@ Depending on how it reaches the ground, precipitation is rain, drizzle, snow, ha
 
 ## Rain and aerodynamic degradation
 
-Gliders are designed with laminar-flow aerofoils tuned for high efficiency. Rain spoils that: on the wet wings it brings forward the transition of the boundary layer from laminar to turbulent, which increases drag; on some aerofoils it also causes separation.
+Gliders are designed with laminar-flow aerofoils tuned for high efficiency. Rain spoils that: on a wet wing the boundary layer turns from laminar to turbulent sooner, and that increases drag. On some aerofoils it also causes separation.
 
 The effects are immediate:
 
@@ -33,7 +33,7 @@ The effects are immediate:
 * **Higher rate of descent:** you sink noticeably faster (**sink rate**) at the same flying speed.
 
 ::: {.callout-warning title="Safety"}
-With wet wings, add a margin to your standard approach speed: your glider's flight manual (AFM) says how much; as a guide, about 5–10 kt is usually added. Avoid steep turns: the risk of stalling is significantly higher than when the wings are dry, and the stall can come without warning.
+With wet wings, add a margin to your standard approach speed. How much is in your glider's flight manual (AFM); as a guide, about 5–10 kt is usually added. Avoid steep turns: the risk of stalling is significantly higher than when the wings are dry, and the stall can come without warning.
 :::
 
 ## Hail (GR) and convective clouds
@@ -48,7 +48,7 @@ Do not assume that hail falls only directly beneath the Cb: the wind aloft can t
 
 ## Freezing rain (FZRA) and rapid ice build-up
 
-**Freezing rain** (**FZRA**) is rain that is already supercooled when it falls: liquid drops below 0 °C that have not yet frozen, the **supercooled droplets**. The classic setting is a warm front in winter, when the rain passes through a layer of below-freezing air near the ground. You do not have to be inside a cloud: when the drops hit any solid surface of the glider (leading edge, canopy, nose) the drops, which are large, freeze only partly at once and the rest runs back before freezing, forming **clear ice** (transparent), the most dangerous kind. Inside cloud, between 0 °C and −15 °C, the same droplets cause the icing described in chapter 9.
+**Freezing rain** (**FZRA**) is rain that is already supercooled when it falls: liquid drops below 0 °C that have not yet frozen, the **supercooled droplets**. The classic setting is a warm front in winter, when the rain passes through a layer of below-freezing air near the ground. You do not have to be inside a cloud: when the drops hit any solid surface of the glider (leading edge, canopy, nose) because the drops are large, only part of each one freezes at once and the rest runs back before freezing, forming **clear ice** (transparent), the most dangerous kind. Inside cloud, between 0 °C and −15 °C, the same droplets cause the icing described in chapter 9.
 
 The result is **icing**, one of the fastest and most serious hazards in soaring:
 

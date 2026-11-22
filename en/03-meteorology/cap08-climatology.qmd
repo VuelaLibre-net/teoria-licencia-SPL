@@ -1,6 +1,6 @@
 ---
 origen: 03-meteorologia/cap08-climatologia.qmd
-origen-commit: 589cf20
+origen-commit: dcc5089
 ---
 
 # Climatology
@@ -41,7 +41,7 @@ In mountain areas such as the Sistema Central, the Pyrenees or the Picos de Euro
 **Lee rotors** are the invisible trap of Iberian climatology: with a northerly wind in the Sistema Central, or with the Tramontana in the Pyrenees, the rotor can sit right over the airfield at circuit height. If the day shows lenticulars aloft and you see ragged fractocumulus low down, treat that area as one of severe turbulence.
 
 ::: {.callout-warning title="Safety"}
-Katabatic winds and lee rotors can appear at low altitude with no visual warning. In strong wind, avoid flying low over a lee slope: if there is a rotor, no height may be enough, and learn the trouble spots at your home airfield before flying in strong wind conditions.
+Katabatic winds and lee rotors can appear at low altitude with no visual warning. In strong wind, avoid flying low over a lee slope: if there is a rotor, no height may be enough. And before flying in strong wind, learn the trouble spots at your home airfield.
 :::
 
 ::: {.callout-note title="Airmanship"}
@@ -67,7 +67,7 @@ In summer, **air mass storms** develop quickly in the middle of the day from cum
 
 ## The Iberian summer thermal low
 
-At the height of summer, intense solar radiation bakes the surface of the vast plateaus of the inland Peninsula. This fierce heating produces large columns of rising warm air, establishing an **Iberian thermal low** that is almost permanent in summer over the inland Peninsula, strongest in the afternoon.
+At the height of summer, intense solar radiation bakes the surface of the vast plateaus of the inland Peninsula. This fierce heating produces large columns of rising warm air, establishing an **Iberian thermal low**, almost permanent in summer and strongest in the afternoon.
 
 Although it is shallower than a strong polar depression, this stagnant low exerts a constant suction. Like a gigantic vacuum cleaner, the thermal low keeps pulling the dense, cool, moist air lying over the ocean and the surrounding seas and drawing it inland.
 
@@ -83,5 +83,5 @@ The convergence lines created by the Iberian thermal low are summer motorways of
 * **Spain, a land of contrasts**: we have world-class soaring conditions. Wind and **mountain wave** in winter and spring (Pyrenees, Sistema Central) and powerful **thermals** in summer (La Mancha, inland areas).
 * **Local winds**: every valley has its master. Anabatic and katabatic winds define the morning and the evening in mountain areas. Lee rotors are the invisible trap for the careless pilot.
 * **Seasons**: spring offers instability and good local flying. Summer brings high cloud bases and dry heat thunderstorms. Autumn usually brings rain and cut-off lows (DANA).
-* **Iberian thermal low**: in summer the sun heats central Spain so much that a low forms that is almost permanent in summer, strongest in the afternoon. It draws in air from the sea, strengthening the coastal breezes, which push far inland and create convergence lines that are ideal for cross-country flying.
+* **Iberian thermal low**: in summer the sun heats central Spain so much that an almost permanent low forms, strongest in the afternoon. It draws in air from the sea, strengthening the coastal breezes, which push far inland and create convergence lines that are ideal for cross-country flying.
 :::

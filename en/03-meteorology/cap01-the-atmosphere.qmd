@@ -1,6 +1,6 @@
 ---
 origen: 03-meteorologia/cap01-la-atmosfera.qmd
-origen-commit: 589cf20
+origen-commit: dcc5089
 ---
 
 # The atmosphere
@@ -51,7 +51,7 @@ Lower air density (a higher “density altitude”) means fewer molecules acting
 * Low atmospheric pressure.
 * High humidity (water vapour is less dense than dry air).
 
-Two reference altitudes are used to compare these situations. **Pressure altitude** is what the altimeter reads when set to 1013.25 hPa: the ISA altitude at which the current pressure is found. **Density altitude** is pressure altitude corrected for non-standard temperature: the ISA altitude at which the air would have its actual density. A hot day at a high airfield can have a density altitude thousands of feet above its elevation, and the glider and the tug perform as if they were up there. Altimeter setting (QNH, QFE and 1013.25 hPa) is covered in **Book 1 — Air Law and ATC Procedures**, chapter 6.
+Two reference altitudes are used to compare these situations. **Pressure altitude** is what the altimeter reads when set to 1013.25 hPa: the ISA altitude that corresponds to the current pressure. **Density altitude** is pressure altitude corrected for non-standard temperature: the ISA altitude at which the air would have its actual density. A hot day at a high airfield can have a density altitude thousands of feet above its elevation, and the glider and the tug perform as if they were up there. Altimeter setting (QNH, QFE and 1013.25 hPa) is covered in **Book 1 — Air Law and ATC Procedures**, chapter 6.
 
 ::: {.callout-warning title="Safety"}
 A hot day at a high aerodrome (high density altitude) cuts performance sharply: the tug will climb much more slowly, the glider will need more runway to take off and, at the same indicated airspeed, the landing will be faster over the ground and longer.

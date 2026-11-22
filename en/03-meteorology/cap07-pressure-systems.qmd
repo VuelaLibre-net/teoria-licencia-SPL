@@ -1,6 +1,6 @@
 ---
 origen: 03-meteorologia/cap07-sistemas-de-presion.qmd
-origen-commit: 589cf20
+origen-commit: dcc5089
 ---
 
 # Pressure systems
@@ -24,7 +24,7 @@ What this means for flying varies greatly with the season:
 Not all anticyclones are the same. Depending on how they form, there are two types with very different effects on flying:
 
 * **Dynamic or warm anticyclone** (**warm high**): it forms by subsidence where the Hadley and Ferrel cells meet (around 30° latitude). Air descends from the upper troposphere, is compressed and warms. It can reach up to the tropopause. The **Azores high** is the Iberian example par excellence: in summer it settles over the Peninsula and guarantees long flying days with blue skies and light winds.
-* **Cold or thermal anticyclone** (**cold high**): it forms when large continental surfaces cool strongly and chill the air in contact with the ground. It is dense and cold in the lower layers but shallow. In winter the Peninsula usually lies under the European continental anticyclone, the Azores high or both, and the result is similar: it brings freezing nights, persistent radiation fog in the Duero and Ebro basins, and low temperature inversions that block any convective activity.
+* **Cold or thermal anticyclone** (**cold high**): it forms when large continental surfaces cool strongly and chill the air in contact with the ground. It is dense and cold in the lower layers but shallow. In winter the Peninsula usually lies under the European continental anticyclone, the Azores high or both, with the same effect: freezing nights, persistent radiation fog in the Duero and Ebro basins, and low temperature inversions that block any convective activity.
 
 ::: {.callout-tip title="Golden rule"}
 To plan the day's flight, look at the synoptic chart the evening before: if Spain is under a ridge or an anticyclone (H), plan a cross-country flight; if a trough or depression is approaching, do not. The movement of the isobars gives you 24–48 hours to make an informed decision.

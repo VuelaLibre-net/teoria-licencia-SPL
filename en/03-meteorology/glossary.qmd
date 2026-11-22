@@ -1,6 +1,6 @@
 ---
 origen: 03-meteorologia/glosario.qmd
-origen-commit: 589cf20
+origen-commit: dcc5089
 ---
 
 # Glossary of terms
@@ -149,7 +149,7 @@ This glossary contains the most relevant definitions and acronyms of aeronautica
 : A frontal structure that forms when a cold front catches up and merges with the warm front ahead of it, pinching the warm air in between and forcing it to rise. It produces complex conditions: extensive precipitation, embedded convective cores and poor visibility. Of little or no use for soaring.
 
 **Pressure altitude**
-: The altitude the altimeter shows when set to 1013.25 hPa: the altitude in the standard atmosphere at which the current pressure is found.
+: The altitude the altimeter shows when set to 1013.25 hPa: the altitude in the standard atmosphere that corresponds to the current pressure.
 
 **QNH (Altimeter setting to mean sea level)**
 : Setting that lets the altimeter show altitude and, on the ground, approximately the elevation of the point considered.
@@ -203,7 +203,7 @@ This glossary contains the most relevant definitions and acronyms of aeronautica
 : A diagram showing the vertical profile of temperature, dew point and wind in the atmosphere, obtained by radiosonde. It lets the pilot estimate the height of the cumulus bases (LCL), the thermal ceiling, the risk of overdevelopment (LFC) and the stability indices (K-Index, CAPE, LI).
 
 **Total Totals (TT)**
-: A stability index that adds the temperature difference between 850 and 500 hPa and the dew point at 850 hPa: TT = (T850 + Td850) − 2·T500. Its thunderstorm thresholds vary from one region to another (see chapter 3).
+: A stability index that adds two differences from the temperature at 500 hPa: that of the temperature at 850 hPa and that of the dew point at 850 hPa. TT = (T850 + Td850) − 2·T500. Its thunderstorm thresholds vary from one region to another (see chapter 3).
 
 **TREND (trend forecast)**
 : A forecast for the next two hours added at the end of the METAR: `BECMG` (permanent change), `TEMPO` (temporary change) or `NOSIG` (no significant change).

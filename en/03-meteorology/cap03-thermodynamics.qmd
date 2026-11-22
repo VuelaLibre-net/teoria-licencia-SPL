@@ -1,6 +1,6 @@
 ---
 origen: 03-meteorologia/cap03-termodinamica.qmd
-origen-commit: 589cf20
+origen-commit: dcc5089
 ---
 
 # Thermodynamics
@@ -17,7 +17,7 @@ Atmospheric stability describes what a mass of air (a “bubble” or parcel) do
 
 Picture a ball on different kinds of ground:
 
-* **Absolutely stable atmosphere**: if you push a ball up the slope from the bottom of a valley, it rolls back to the middle. In the air, if the surroundings cool with height more slowly than the saturated lapse rate (less than 1.5 °C per 1,000 ft, about 0.5 °C/100 m), or warm up, as in an inversion, a rising bubble, dry or saturated, cools faster than its surroundings. It soon becomes colder (and heavier) than the air around it, stops rising and sinks back.
+* **Absolutely stable atmosphere**: if you push a ball up the slope from the bottom of a valley, it rolls back to the middle. In the air, if the surroundings cool with height more slowly than the saturated lapse rate (less than 1.5 °C per 1,000 ft, about 0.5 °C/100 m), or even warm up, as in an inversion, a rising bubble, dry or saturated, cools faster than its surroundings. It soon becomes colder (and heavier) than the air around it, stops rising and sinks back.
 * **Absolutely unstable atmosphere**: picture the ball balanced precariously on a hilltop; a small push sends it rolling away without stopping. If the surrounding air cools with height faster than the dry lapse rate (more than 3 °C per 1,000 ft, 1 °C/100 m), a bubble that starts to rise always stays warmer (and lighter) than the air around it, and its climb speeds up. This is the ideal condition for strong thermals.
 * **Conditional instability**: the surroundings cool with height at an intermediate rate, between the saturated and the dry lapse rates. Then it depends on humidity: a dry bubble cools faster than its surroundings and is stable; but if it becomes saturated, the heat released by condensation (as cloud forms) makes it cool more slowly than its surroundings and it carries on rising (unstable). This is the usual situation on cumulus days.
 

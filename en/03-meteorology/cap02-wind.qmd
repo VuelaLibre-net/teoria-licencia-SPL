@@ -1,6 +1,6 @@
 ---
 origen: 03-meteorologia/cap02-viento.qmd
-origen-commit: 589cf20
+origen-commit: dcc5089
 ---
 
 # Wind
@@ -79,7 +79,7 @@ If the thermometer at the airfield reads several degrees above normal for the mo
 
 **Sea breezes** result from the same principle as mountain breezes: uneven heating. During the day the land warms up much faster than the sea. The warm air over the land rises, and cool sea air moves inland to fill the gap, forming a flow that can reach tens of kilometres inland (@fig-03-cap02-brisa-marina).
 
-For the glider pilot, the real prize is the **convergence line** the breeze creates (@fig-03-cap02-brisa-marina). Where the cool, moist sea air meets the warm, dry continental air, a sharp boundary forms (a mini-front) where the air is forced to rise. That line moves slowly inland during the afternoon and can give continuous lift for kilometres, very useful for cross-country flying. It is not all good news: in the mixing zone thermals tend to be turbulent, once the front has passed the cool sea air can kill the day's thermals and, if the air is unstable, the front can organise a line of thunderstorms.
+For the glider pilot, the real prize is the **convergence line** the breeze creates (@fig-03-cap02-brisa-marina). Where the cool, moist sea air meets the warm, dry continental air, a sharp boundary forms (a mini-front) where the air is forced to rise. That line moves slowly inland during the afternoon and can give continuous lift for kilometres, very useful for cross-country flying. But in the mixing zone thermals tend to be turbulent, and once the front has passed, the cool sea air can kill them for the rest of the day. If the air is unstable, the front can also organise a line of thunderstorms.
 
 ![Sea-breeze front](imagenes/03-cap02-brisa-marina.jpg){#fig-03-cap02-brisa-marina}
 
