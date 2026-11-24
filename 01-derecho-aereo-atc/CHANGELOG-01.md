@@ -16,6 +16,16 @@ rompe la compilación.
 
 ## [En curso]
 
+**Qué releer:** cap10, figura «Manga de viento.»: nueva ilustración elegida por Ramón;
+se mantienen las velocidades aproximadas y la advertencia de que no son una norma.
+
+### Cambiado
+
+* **cap10, manga de viento** — se sustituye la versión dibujada por código por la
+  imagen proporcionada por Ramón, con cinco mangas progresivamente extendidas,
+  dirección del viento y conversiones a km/h y m/s. Se conserva el pie y el
+  identificador de figura. Issue #77.
+
 ## [1.0-rc.17] — 21 de noviembre de 2026
 
 **Qué releer:** las **21 figuras** que la auditoría marcó para rehacer (issue #58), en cap01–cap14,
